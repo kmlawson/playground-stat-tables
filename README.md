@@ -29,4 +29,4 @@ Every statistical table printed in English-language official yearbooks on Japan 
 
 In the browser, any column can be sorted by clicking its header (click again to reverse, a third time to restore the printed order), and any table can be downloaded as CSV or copied as TSV.
 
-`build_site.py` regenerates the pages from the per-table JSON files. It builds every book, including the Far East Year Book 1941 (read from its own folder), plus the directory, chronology and cross-book search pages.
+To rebuild: `uv run --with openpyxl build_downloads.py` (Excel workbooks and Markdown directories in `downloads/`), then `python3 build_site.py`. `build_site.py` regenerates the pages from the per-table JSON files. It builds every book, including the Far East Year Book 1941 (read from its own folder), plus the directory, chronology and cross-book search pages.

@@ -48,6 +48,12 @@ BOOKS = [
 ]
 
 
+def dl(slug, suffix):
+    """Relative path of a download written by build_downloads.py, or None if it hasn't been built."""
+    f = f"downloads/{slug}-{suffix}"
+    return f if os.path.exists(os.path.join(HERE, f)) else None
+
+
 def book_dir(book):
     """Books live beside this repo's parent folder, or at an explicit absolute path ("root")."""
     return book.get("root") or os.path.join(ROOT, book["dir"])
@@ -111,6 +117,7 @@ def main():
             data = json.dumps(clean, ensure_ascii=False).replace("</", "<\\/")
             doc = (TEMPLATE.replace("__DATA__", data).replace("__COUNT__", str(n))
                    .replace("__HIDEIMG__", "true" if b.get("hide_images") else "false")
+                   .replace("__XLSX__", f' · <a href="../{dl(b["slug"], "tables.xlsx")}" style="color:inherit" download>Excel (one sheet per table)</a>' if dl(b["slug"], "tables.xlsx") else "")
                    .replace("__CELLS__", f"{c:,}").replace("__BOOK__", html.escape(b["title"]))
                    .replace("__SLUG__", b["slug"]).replace("__SOURCE__", html.escape(b["source"]))
                    .replace("__DIRLINK__", (f'<a class="dirbtn" href="directory.html">{html.escape(b.get("dir_label", "Who\'s Who & Directories"))} · {b["_dir_n"]:,} entries →</a>' if b.get("_dir_n") else "")
@@ -145,8 +152,13 @@ def landing(cards):
             about = f'<button class="about" data-about="about-{b["slug"]}">About this volume</button>'
             dlg = (f'<dialog id="about-{b["slug"]}"><h3>{html.escape(b["title"])}</h3><div class="pub">{html.escape(b["publisher"])}</div>'
                    f'<p>{html.escape(b["gaps"])}</p><form method="dialog"><button>Close</button></form></dialog>')
+        dls = [(f"data/{b['slug']}.json", "JSON")] if n else []
+        for suf, name in (("tables.xlsx", "Excel"), ("directory.md", "Directory (Markdown)"), ("chronology.md", "Chronology (Markdown)")):
+            if dl(b["slug"], suf):
+                dls.append((dl(b["slug"], suf), name))
+        dlhtml = ('<div class="src">Download: ' + " · ".join(f'<a href="{u}" download>{t}</a>' for u, t in dls) + "</div>") if dls else ""
         items.append(f"""<article><h2>{html.escape(b["title"])}</h2><div class="pub">{html.escape(b["publisher"])}</div>
-<div class="stat">{stat}</div><div class="src">{html.escape(b["source"])}{item}</div><div class="links">{about}{link}</div>{dlg}</article>""")
+<div class="stat">{stat}</div><div class="src">{html.escape(b["source"])}{item}</div>{dlhtml}<div class="links">{about}{link}</div>{dlg}</article>""")
     return LANDING.replace("__CARDS__", "\n".join(items))
 
 
@@ -184,7 +196,7 @@ __CARDS__
 <div class="llmwarn" role="note"><b>Warning:</b> These tables were transcribed by the vision model of Opus 5.5. Before using any of these figures, you must verify specific statistics with the original source which is linked to whenever possible.</div>
 <script>document.addEventListener("click",e=>{const b=e.target.closest("[data-about]");if(b){document.getElementById(b.dataset.about).showModal();return}
 if(e.target.tagName==="DIALOG")e.target.close()});</script>
-<footer>Each table can be downloaded as CSV, and the full data for each book is in <code>data/*.json</code>.</footer>
+<footer>Each table can be downloaded as CSV from its page. Each book can be downloaded whole as an Excel workbook (one sheet per table, with a linked contents sheet) or as JSON; directories are available as Markdown.</footer>
 </main></body></html>
 """
 
@@ -255,7 +267,7 @@ mark{background:var(--hi);color:inherit}
 </head>
 <body>
 <header><a href="../" style="text-decoration:none;font-size:14px">← All books</a><h1>__BOOK__</h1>
-<span class="meta">__COUNT__ tables · __CELLS__ cells · __SOURCE__ · <a href="../data/__SLUG__.json" style="color:inherit">JSON</a></span>
+<span class="meta">__COUNT__ tables · __CELLS__ cells · __SOURCE__ · <a href="../data/__SLUG__.json" style="color:inherit">JSON</a>__XLSX__</span>
 __DIRLINK__<button id="toggle" title="Toggle light/dark">◐</button></header>
 <div id="wrap">
 <nav id="side"><div class="ctl">
@@ -403,7 +415,8 @@ def build_directory(book):
     data = json.dumps(entries, ensure_ascii=False).replace("</", "<\\/")
     doc = (DIRTEMPLATE.replace("__DATA__", data).replace("__COUNT__", f"{len(entries):,}")
            .replace("__BOOK__", html.escape(book["title"])).replace("__SLUG__", book["slug"])
-           .replace("__PROG__", " · <i>transcription in progress</i>" if book.get("dir_in_progress") else ""))
+           .replace("__PROG__", " · <i>transcription in progress</i>" if book.get("dir_in_progress") else "")
+           .replace("__MD__", f' · <a href="../{dl(book["slug"], "directory.md")}" download>Markdown</a>' if dl(book["slug"], "directory.md") else ""))
     with open(os.path.join(HERE, book["slug"], "directory.html"), "w", encoding="utf-8") as fh:
         fh.write(doc)
     print(f"{book['slug']}: {len(entries)} directory entries")
@@ -436,7 +449,8 @@ def build_chronology(book):
            .replace("__PROG__", " · <i>transcription in progress</i>" if book.get("in_progress") else "")
            .replace("· Directories", "· Chronologies").replace("-directory.json", "-chronology.json")
            .replace(" entries", " events").replace("Filter names, places, firms, words…", "Filter dates, names, places, words…")
-           .replace("> names only<", "> dates only<").replace("These entries were", "These events were"))
+           .replace("> names only<", "> dates only<").replace("These entries were", "These events were")
+           .replace("__MD__", f' · <a href="../{dl(book["slug"], "chronology.md")}" download>Markdown</a>' if dl(book["slug"], "chronology.md") else ""))
     with open(os.path.join(HERE, book["slug"], "chronology.html"), "w", encoding="utf-8") as fh:
         fh.write(doc)
     print(f"{book['slug']}: {len(events)} chronology events")
@@ -476,7 +490,7 @@ mark{background:#f3e3a0;color:inherit}
 .llmwarn{margin:24px 0 8px;padding:12px 14px;border:1px solid var(--warn);border-left:4px solid var(--warn);background:var(--panel);font-size:14px}
 </style></head><body>
 <header><a href="./" style="text-decoration:none;font-size:14px">← Tables</a><a href="../" style="text-decoration:none;font-size:14px">All books</a><h1>__BOOK__ · Directories</h1>
-<span class="meta">__COUNT__ entries__PROG__ · LLM-transcribed · <a href="../data/__SLUG__-directory.json">JSON</a></span>
+<span class="meta">__COUNT__ entries__PROG__ · LLM-transcribed · <a href="../data/__SLUG__-directory.json">JSON</a>__MD__</span>
 <button id="toggle" title="Toggle light/dark">◐</button></header>
 <div class="bar"><div>
 <input id="q" type="search" placeholder="Filter names, places, firms, words…" autofocus>
