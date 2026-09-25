@@ -1,0 +1,28 @@
+# East Asian statistical tables, 1929–1942
+
+Every statistical table printed in three English-language official yearbooks, transcribed cell by cell from the page images:
+
+| Book | Page |
+|---|---|
+| *The Manchoukuo Year Book 1942* | [manchoukuo-1942/](manchoukuo-1942/) |
+| *Annual Report on Administration of Chosen 1929–30* (Korea) | [korea-1929-30/](korea-1929-30/) |
+| *The Japan Year Book 1930* | [japan-1930/](japan-1930/) |
+
+## How the figures were transcribed
+
+- Each figure was read directly from the page image. No OCR engine was used.
+- Figures are transcribed as printed, printers' errors included. A figure that could not be read is left **blank** and explained in a transcriber's note; nothing is guessed.
+- Wherever a total is printed, the parts were added up and a note records whether they reconcile. Many totals in these books do not, and the notes list each one.
+
+## Data
+
+`data/<book>.json` holds one record per table:
+
+- `title`, `table_no`, `chapter`, `printed_pages`
+- `parts`, each with its `columns` and `rows`
+- `footnotes`, as printed
+- `transcriber_notes`
+
+In the browser, any table can be downloaded as CSV or copied as TSV.
+
+`build_site.py` regenerates the pages from the per-table JSON files.
