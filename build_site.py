@@ -29,7 +29,7 @@ BOOKS = [
      "publisher": "The Japan Year Book Office, Tokyo, 1930",
      "blurb": "Comprehensive English-language reference on the Japanese Empire in 1930, covering geography, population, government, defence, education, labour, justice, communications, railways, shipping, banking, finance, agriculture, industry, trade, the six premier cities and the colonies.",
      "source": "Hand-transcribed from the Internet Archive scan.",
-     "gaps": "Advertisements, the Who's Who, the Business Directory and the Index were screened but contain no tables (the restaurant lists in Appendix D are the one exception). On p. 439 the right edge of the scan cuts off the 1927 export figures, so those cells are blank.",
+     "gaps": "Advertisements, the Who's Who, the Business Directory and the Index were screened but contain no tables. The shop and restaurant lists in Appendix D are included; the physicians' lists are not. On p. 439 the right edge of the scan cuts off the 1927 export figures, so those cells are blank.",
      "scan": "https://archive.org/details/japan-year-book-1930/page/n{leaf}/mode/1up",
      "item": "https://archive.org/details/japan-year-book-1930"},
 ]
