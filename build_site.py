@@ -22,6 +22,7 @@ BOOKS = [
      "publisher": "Government-General of Chosen, Keijo, 1931",
      "blurb": "The Government-General's English-language annual report on colonial Korea: population, finance, banking, trade, education, industry, communications, police, public health and local administration.",
      "source": "Hand-transcribed from the Internet Archive scan.",
+     "gaps": "The Internet Archive scan is missing the text page beside each photo plate (printed pp. 66, 74, 82, 92, 96, 100, 104, 140, 152 and 172), as well as the appendix tables of weights and measures and of governors. On p. 13 the Total column is in a different typeface from the rest of the table, which may mean the scan was retouched.",
      "scan": "https://archive.org/details/annualreportonreformsandprogressinchosenkorea192930/page/n{leaf}/mode/1up",
      "item": "https://archive.org/details/annualreportonreformsandprogressinchosenkorea192930"},
     {"slug": "japan-1930", "dir": "Japan_Year_Book_1930", "title": "The Japan Year Book 1930",
