@@ -15,7 +15,7 @@ BOOKS = [
      "publisher": "The Japan Year Book Office, Tokyo, 1930",
      "blurb": "Comprehensive English-language reference on the Japanese Empire in 1930, covering geography, population, government, defence, education, labour, justice, communications, railways, shipping, banking, finance, agriculture, industry, trade, the six premier cities and the colonies.",
      "source": "LLM-transcribed from the Internet Archive scan.",
-     "gaps": "Advertisements, the Who's Who, the Business Directory and the Index were screened but contain no tables. The shop and restaurant lists in Appendix D are included; the physicians' lists are not. On p. 439 the right edge of the scan cuts off the 1927 export figures, so those cells are blank.",
+     "gaps": "Advertisements and the Index contain no tables. The Who's Who, Business Directory and Learned & Social Institutions (Appendices A–C) are transcribed as entries on the Who's Who & Directories page. The shop and restaurant lists in Appendix D are included; the physicians' lists are not. On p. 439 the right edge of the scan cuts off the 1927 export figures, so those cells are blank.",
      "scan": "https://archive.org/details/japan-year-book-1930/page/n{leaf}/mode/1up",
      "item": "https://archive.org/details/japan-year-book-1930", "dir_in_progress": True},
     {"slug": "japan-1939-40", "dir": "Japan_Year_Book_1939-40", "title": "The Japan Year Book 1939-40",
@@ -250,7 +250,7 @@ tr.sec td:first-child{font-weight:bold;font-style:italic}
 mark{background:var(--hi);color:inherit}
 #toggle{margin-left:auto}
 .dirbtn{margin-left:auto;background:var(--accent-ink);color:var(--accent)!important;opacity:1!important;font-weight:bold;font-size:14px;padding:6px 14px;border-radius:5px;text-decoration:none;align-self:center}.dirbtn:hover{filter:brightness(.93)}.dirbtn+#toggle,.dirbtn+.dirbtn{margin-left:0}
-@media (max-width:760px){#wrap{grid-template-columns:1fr;height:auto}#side{border-right:0;border-bottom:1px solid var(--line)}#list{max-height:40vh}#main{padding:14px 16px}}
+@media (max-width:760px){#wrap{grid-template-columns:minmax(0,1fr);height:auto}#side,#main{min-width:0;max-width:100vw}#list a{overflow-wrap:anywhere}.tw{max-height:none}header{padding:12px 16px}header h1{font-size:18px}.dirbtn{margin-left:0}#side{border-right:0;border-bottom:1px solid var(--line)}#list{max-height:40vh}#main{padding:14px 16px}}
 </style>
 </head>
 <body>
