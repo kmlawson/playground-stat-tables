@@ -32,6 +32,13 @@ BOOKS = [
      "gaps": "Advertisements, the Who's Who, the Business Directory and the Index were screened but contain no tables. The shop and restaurant lists in Appendix D are included; the physicians' lists are not. On p. 439 the right edge of the scan cuts off the 1927 export figures, so those cells are blank.",
      "scan": "https://archive.org/details/japan-year-book-1930/page/n{leaf}/mode/1up",
      "item": "https://archive.org/details/japan-year-book-1930"},
+    {"slug": "japan-1939-40", "dir": "Japan_Year_Book_1939-40", "title": "The Japan Year Book 1939-40",
+     "publisher": "The Foreign Affairs Association of Japan, Tokyo, 1939",
+     "blurb": "The wartime edition of the standard English-language reference on the Japanese Empire.",
+     "source": "Hand-transcribed from the Internet Archive scan.",
+     "in_progress": True,
+     "scan": "https://archive.org/details/japan-year-book-1939-1940/page/n{leaf}/mode/1up",
+     "item": "https://archive.org/details/japan-year-book-1939-1940"},
 ]
 
 
