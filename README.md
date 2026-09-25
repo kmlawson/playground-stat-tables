@@ -8,6 +8,7 @@ Every statistical table printed in English-language official yearbooks on Japan 
 | *Annual Report on Administration of Chosen 1929–30* (Korea) | [korea-1929-30/](korea-1929-30/) |
 | *The Japan Year Book 1930* | [japan-1930/](japan-1930/) |
 | *The Japan Year Book 1939–40* (in progress) | [japan-1939-40/](japan-1939-40/) |
+| *The Japan Year Book 1946–48* (in progress) | [japan-1946-48/](japan-1946-48/) |
 | *The Far East Year Book 1941* (in progress) | [far-east-1941/](far-east-1941/) |
 
 > **Warning:** These tables were transcribed by the vision model of Opus 5.5. Before using any of these figures, you must verify specific statistics with the original source which is linked to whenever possible.
