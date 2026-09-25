@@ -11,14 +11,6 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 
 BOOKS = [
-    {"slug": "korea-1929-30", "dir": "Korea_Annual_Report_1929-30",
-     "title": "Annual Report on Administration of Chosen 1929-30",
-     "publisher": "Government-General of Chosen, Keijo, 1931",
-     "blurb": "The Government-General's English-language annual report on colonial Korea: population, finance, banking, trade, education, industry, communications, police, public health and local administration.",
-     "source": "LLM-transcribed from the Internet Archive scan.",
-     "gaps": "The Internet Archive scan is missing the text page beside each photo plate (printed pp. 66, 74, 82, 92, 96, 100, 104, 140, 152 and 172), as well as the appendix tables of weights and measures and of governors. On p. 13 the Total column is in a different typeface from the rest of the table, which may mean the scan was retouched.",
-     "scan": "https://archive.org/details/annualreportonreformsandprogressinchosenkorea192930/page/n{leaf}/mode/1up",
-     "item": "https://archive.org/details/annualreportonreformsandprogressinchosenkorea192930"},
     {"slug": "japan-1930", "dir": "Japan_Year_Book_1930", "title": "The Japan Year Book 1930",
      "publisher": "The Japan Year Book Office, Tokyo, 1930",
      "blurb": "Comprehensive English-language reference on the Japanese Empire in 1930, covering geography, population, government, defence, education, labour, justice, communications, railways, shipping, banking, finance, agriculture, industry, trade, the six premier cities and the colonies.",
@@ -33,13 +25,32 @@ BOOKS = [
      "in_progress": True,
      "scan": "https://archive.org/details/japan-year-book-1939-1940/page/n{leaf}/mode/1up",
      "item": "https://archive.org/details/japan-year-book-1939-1940", "dir_label": "Clubs & Societies Directory", "dir_in_progress": True},
+    {"slug": "korea-1929-30", "dir": "Korea_Annual_Report_1929-30",
+     "title": "Annual Report on Administration of Chosen 1929-30",
+     "publisher": "Government-General of Chosen, Keijo, 1931",
+     "blurb": "The Government-General's English-language annual report on colonial Korea: population, finance, banking, trade, education, industry, communications, police, public health and local administration.",
+     "source": "LLM-transcribed from the Internet Archive scan.",
+     "gaps": "The Internet Archive scan is missing the text page beside each photo plate (printed pp. 66, 74, 82, 92, 96, 100, 104, 140, 152 and 172), as well as the appendix tables of weights and measures and of governors. On p. 13 the Total column is in a different typeface from the rest of the table, which may mean the scan was retouched.",
+     "scan": "https://archive.org/details/annualreportonreformsandprogressinchosenkorea192930/page/n{leaf}/mode/1up",
+     "item": "https://archive.org/details/annualreportonreformsandprogressinchosenkorea192930"},
     {"slug": "manchoukuo-1942", "dir": ".", "title": "The Manchoukuo Year Book 1942",
      "publisher": "Manchoukuo Year Book Co., Hsinking, 1942",
      "blurb": "Official English-language yearbook of Manchukuo: geography, population, finance, banking, trade, agriculture, mining, industry, transport, labour, education and more.",
      "source": "LLM-transcribed from 498 photographs of the printed volume (two-page spreads).",
      "gaps": "Pages 502–503 (Mining) and 966–967 (Index) were not photographed. Gaps in table numbering (e.g. Agriculture Tables 2–3 and 11–17) are in the printed book itself.",
      "scan": None, "dir_in_progress": True, "hide_images": True},
+    {"slug": "far-east-1941", "root": os.path.join(os.path.dirname(ROOT), "The Far East Year Book 1941"),
+     "title": "The Far East Year Book 1941",
+     "publisher": "Japan-Manchoukuo Year Book Co., Tokyo, 1941",
+     "blurb": "Japan, its colonies (Chosen, Taiwan, Karafuto, the South Sea Islands), Manchoukuo and occupied China, with shorter sections on the Philippines, French Indo-China, Thailand, British Malaya, the Netherlands East Indies and British Borneo.",
+     "source": "LLM-transcribed from 581 photographs of the printed volume (two-page spreads).",
+     "in_progress": True, "dir_in_progress": True, "hide_images": True, "scan": None},
 ]
+
+
+def book_dir(book):
+    """Books live beside this repo's parent folder, or at an explicit absolute path ("root")."""
+    return book.get("root") or os.path.join(ROOT, book["dir"])
 
 
 def page_key(t):
@@ -51,7 +62,7 @@ def page_key(t):
 
 def load(book):
     tables = []
-    for f in sorted(glob.glob(os.path.join(ROOT, book["dir"], "_work", "tables", "*.json"))):
+    for f in sorted(glob.glob(os.path.join(book_dir(book), "_work", "tables", "*.json"))):
         try:  # agents may be writing or merging files while we build
             with open(f, encoding="utf-8") as fh:
                 t = json.load(fh)
@@ -86,6 +97,7 @@ def main():
     cards = []
     for b in BOOKS:
         b["_dir_n"] = build_directory(b)
+        b["_chron_n"] = build_chronology(b)
         tables = load(b)
         for t in tables:
             t["scans"] = scan_links(b, t)
@@ -101,7 +113,8 @@ def main():
                    .replace("__HIDEIMG__", "true" if b.get("hide_images") else "false")
                    .replace("__CELLS__", f"{c:,}").replace("__BOOK__", html.escape(b["title"]))
                    .replace("__SLUG__", b["slug"]).replace("__SOURCE__", html.escape(b["source"]))
-                   .replace("__DIRLINK__", f'<a class="dirbtn" href="directory.html">{html.escape(b.get("dir_label", "Who\'s Who & Directories"))} · {b["_dir_n"]:,} entries →</a>' if b.get("_dir_n") else ""))
+                   .replace("__DIRLINK__", (f'<a class="dirbtn" href="directory.html">{html.escape(b.get("dir_label", "Who\'s Who & Directories"))} · {b["_dir_n"]:,} entries →</a>' if b.get("_dir_n") else "")
+                            + (f'<a class="dirbtn" href="chronology.html">Chronologies · {b["_chron_n"]:,} events →</a>' if b.get("_chron_n") else "")))
             with open(os.path.join(HERE, b["slug"], "index.html"), "w", encoding="utf-8") as fh:
                 fh.write(doc)
         cards.append((b, n, c, chapters))
@@ -118,15 +131,22 @@ def landing(cards):
     for b, n, c, ch in cards:
         stat = (f"<b>{n}</b> tables · <b>{c:,}</b> cells · {ch} chapters" if n else "<i>transcription in progress</i>")
         if n and b.get("in_progress"):
-            stat += " · <i>transcription in progress: early chapters only so far</i>"
+            stat += " · <i>transcription in progress</i>"
         link = f'<a class="go dirgo" href="{b["slug"]}/">Browse tables →</a>' if n else ""
         if b.get("_dir_n"):
             stat += f' · <b>{b["_dir_n"]:,}</b> directory entries' + (" (in progress)" if b.get("dir_in_progress") else "")
             link += f' <a class="go dirgo" href="{b["slug"]}/directory.html">{html.escape(b.get("dir_label", "Who's Who & Directories"))} →</a>'
+        if b.get("_chron_n"):
+            stat += f' · <b>{b["_chron_n"]:,}</b> chronology events'
+            link += f' <a class="go dirgo" href="{b["slug"]}/chronology.html">Chronologies →</a>'
         item = f' · <a href="{b["item"]}">original scan</a>' if b.get("item") else ""
-        gaps = f'<div class="src">{html.escape(b["gaps"])}</div>' if b.get("gaps") and n else ""
+        about, dlg = "", ""
+        if b.get("gaps") and n:
+            about = f'<button class="about" data-about="about-{b["slug"]}">About this volume</button>'
+            dlg = (f'<dialog id="about-{b["slug"]}"><h3>{html.escape(b["title"])}</h3><div class="pub">{html.escape(b["publisher"])}</div>'
+                   f'<p>{html.escape(b["gaps"])}</p><form method="dialog"><button>Close</button></form></dialog>')
         items.append(f"""<article><h2>{html.escape(b["title"])}</h2><div class="pub">{html.escape(b["publisher"])}</div>
-<p>{html.escape(b["blurb"])}</p><div class="stat">{stat}</div><div class="src">{html.escape(b["source"])}{item}</div>{gaps}{link}</article>""")
+<div class="stat">{stat}</div><div class="src">{html.escape(b["source"])}{item}</div><div class="links">{about}{link}</div>{dlg}</article>""")
     return LANDING.replace("__CARDS__", "\n".join(items))
 
 
@@ -144,7 +164,11 @@ main{max-width:980px;margin:0 auto;padding:26px 16px 60px}
 .lede{color:var(--muted);max-width:720px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px;margin-top:28px}
 article{background:var(--panel);border:1px solid var(--line);border-top:3px solid var(--accent);padding:18px 18px 16px;display:flex;flex-direction:column}
 h2{font-size:20px;font-weight:normal;margin:0 0 4px}.pub{color:var(--muted);font-size:13px;margin-bottom:8px}
-article p{font-size:14.5px;margin:0 0 12px;flex:1}.stat{font-size:14px;margin-bottom:6px}.src{font-size:12.5px;color:var(--muted);margin-bottom:12px}
+.links{margin-top:auto;display:flex;flex-wrap:wrap;gap:8px;align-items:center}.links .dirgo{margin:0}
+.about{font:inherit;font-size:13px;background:transparent;color:var(--accent);border:1px solid var(--accent);border-radius:5px;padding:5px 10px;cursor:pointer;flex-basis:100%;max-width:max-content}
+dialog{max-width:min(560px,calc(100vw - 32px));border:1px solid var(--line);border-top:4px solid var(--accent);background:var(--panel);color:var(--ink);padding:18px 20px;border-radius:6px}
+dialog::backdrop{background:rgba(0,0,0,.45)}dialog h3{margin:0 0 2px;font-weight:normal;font-size:19px}dialog p{font-size:14.5px}
+dialog form button{font:inherit;font-size:14px;background:var(--accent);color:var(--accent-ink);border:0;border-radius:5px;padding:6px 14px;cursor:pointer}.stat{font-size:14px;margin-bottom:6px}.src{font-size:12.5px;color:var(--muted);margin-bottom:12px}
 a{color:var(--accent)}.go{font-size:15px;text-decoration:none;font-weight:bold}.dirgo{display:inline-block;margin:8px 8px 0 0;background:var(--accent);color:var(--accent-ink);padding:6px 12px;border-radius:5px;font-size:14px}
 .llmwarn{margin:28px 0 0;padding:12px 14px;border:1px solid #8a5a00;border-left:4px solid #8a5a00;background:var(--panel);font-size:14px}
 footer{margin-top:24px;font-size:13px;color:var(--muted);border-top:1px solid var(--line);padding-top:14px}
@@ -158,6 +182,8 @@ footer{margin-top:24px;font-size:13px;color:var(--muted);border-top:1px solid va
 __CARDS__
 </div>
 <div class="llmwarn" role="note"><b>Warning:</b> These tables were transcribed by the vision model of Opus 5.5. Before using any of these figures, you must verify specific statistics with the original source which is linked to whenever possible.</div>
+<script>document.addEventListener("click",e=>{const b=e.target.closest("[data-about]");if(b){document.getElementById(b.dataset.about).showModal();return}
+if(e.target.tagName==="DIALOG")e.target.close()});</script>
 <footer>Each table can be downloaded as CSV, and the full data for each book is in <code>data/*.json</code>.</footer>
 </main></body></html>
 """
@@ -223,7 +249,7 @@ tr.sec td:first-child{font-weight:bold;font-style:italic}
 .scan a img{height:160px;border:1px solid var(--line)}
 mark{background:var(--hi);color:inherit}
 #toggle{margin-left:auto}
-.dirbtn{margin-left:auto;background:var(--accent-ink);color:var(--accent)!important;opacity:1!important;font-weight:bold;font-size:14px;padding:6px 14px;border-radius:5px;text-decoration:none;align-self:center}.dirbtn:hover{filter:brightness(.93)}.dirbtn+#toggle{margin-left:0}
+.dirbtn{margin-left:auto;background:var(--accent-ink);color:var(--accent)!important;opacity:1!important;font-weight:bold;font-size:14px;padding:6px 14px;border-radius:5px;text-decoration:none;align-self:center}.dirbtn:hover{filter:brightness(.93)}.dirbtn+#toggle,.dirbtn+.dirbtn{margin-left:0}
 @media (max-width:760px){#wrap{grid-template-columns:1fr;height:auto}#side{border-right:0;border-bottom:1px solid var(--line)}#list{max-height:40vh}#main{padding:14px 16px}}
 </style>
 </head>
@@ -351,7 +377,7 @@ def dir_key(f):
 
 def build_directory(book):
     """Write <slug>/directory.html from <dir>/_work/directory/*.json; return the entry count."""
-    files = sorted(glob.glob(os.path.join(ROOT, book["dir"], "_work", "directory", "*.json")), key=dir_key)
+    files = sorted(glob.glob(os.path.join(book_dir(book), "_work", "directory", "*.json")), key=dir_key)
     entries = []
     for f in files:
         try:
@@ -382,6 +408,39 @@ def build_directory(book):
         fh.write(doc)
     print(f"{book['slug']}: {len(entries)} directory entries")
     return len(entries)
+
+
+def build_chronology(book):
+    """Write <slug>/chronology.html from <dir>/_work/chronology/*.json (events lists); return the event count."""
+    files = sorted(glob.glob(os.path.join(book_dir(book), "_work", "chronology", "*.json")), key=dir_key)
+    events = []
+    for f in files:
+        try:
+            with open(f, encoding="utf-8") as fh:
+                c = json.load(fh)
+        except (FileNotFoundError, json.JSONDecodeError):
+            continue
+        scan = scan_links(book, {"images": [c.get("image") or os.path.basename(f)[:-5].split("_")[0]]})[0]
+        head = " — ".join(x for x in (c.get("chapter"), c.get("title")) if x)
+        for e in c.get("events", []):
+            events.append({"a": head, "s": "", "n": e.get("date") or "", "t": e.get("text") or "",
+                           "p": e.get("page") or ", ".join(c.get("printed_pages") or []), "l": scan["label"], "u": scan["url"]})
+    if not events:
+        return 0
+    os.makedirs(os.path.join(HERE, book["slug"]), exist_ok=True)
+    with open(os.path.join(HERE, "data", book["slug"] + "-chronology.json"), "w", encoding="utf-8") as fh:
+        json.dump(events, fh, ensure_ascii=False, indent=1)
+    data = json.dumps(events, ensure_ascii=False).replace("</", "<\\/")
+    doc = (DIRTEMPLATE.replace("__DATA__", data).replace("__COUNT__", f"{len(events):,}")
+           .replace("__BOOK__", html.escape(book["title"])).replace("__SLUG__", book["slug"])
+           .replace("__PROG__", " · <i>transcription in progress</i>" if book.get("in_progress") else "")
+           .replace("· Directories", "· Chronologies").replace("-directory.json", "-chronology.json")
+           .replace(" entries", " events").replace("Filter names, places, firms, words…", "Filter dates, names, places, words…")
+           .replace("> names only<", "> dates only<").replace("These entries were", "These events were"))
+    with open(os.path.join(HERE, book["slug"], "chronology.html"), "w", encoding="utf-8") as fh:
+        fh.write(doc)
+    print(f"{book['slug']}: {len(events)} chronology events")
+    return len(events)
 
 
 DIRTEMPLATE = r"""<!DOCTYPE html>
