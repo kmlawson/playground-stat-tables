@@ -11,6 +11,13 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 
 BOOKS = [
+    {"slug": "japan-1920-21", "dir": "Japan_Year_Book_1920", "title": "The Japan Year Book 1920-21",
+     "publisher": "The Japan Year Book Office, Tokyo, 1920",
+     "blurb": "The fifteenth annual edition: geography, history, population, the Imperial Court, a Who's Who, education, labour, communications, railways, shipping, banking, the army and navy, diplomacy, trade, agriculture, industry, finance, politics, the colonies, and a business directory.",
+     "source": "LLM-transcribed from the Internet Archive scan (Google scan of a University of California copy).",
+     "in_progress": True, "dir_in_progress": True,
+     "scan": "https://archive.org/details/japan-year-book-1920/page/n{leaf}/mode/1up",
+     "item": "https://archive.org/details/japan-year-book-1920"},
     {"slug": "japan-1930", "dir": "Japan_Year_Book_1930", "title": "The Japan Year Book 1930",
      "publisher": "The Japan Year Book Office, Tokyo, 1930",
      "blurb": "Comprehensive English-language reference on the Japanese Empire in 1930, covering geography, population, government, defence, education, labour, justice, communications, railways, shipping, banking, finance, agriculture, industry, trade, the six premier cities and the colonies.",
