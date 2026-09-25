@@ -138278,10 +138278,12 @@
  {
   "image": "p0760",
   "images": [
-   "p0760"
+   "p0760",
+   "p0761"
   ],
   "printed_pages": [
-   "716"
+   "716",
+   "717"
   ],
   "chapter": "Labour and Labour Movements",
   "table_no": null,
@@ -138315,47 +138317,7 @@
       "258",
       "290",
       "139"
-     ]
-    ]
-   }
-  ],
-  "footnotes": [],
-  "transcriber_notes": [
-   "TABLE RUNS PAST p0760 (end of batch K24): only the first two rows printed on p. 716 are transcribed here. The rest of the table (from 'Textile', including the Total row) is on p. 717 and was written by batch K25 as tables/p0761_1.json (continued: true). K25 reports its Total reconciles for 1935-1938 when these two rows are included, and 1934 does not (diff 1)."
-  ],
-  "id": "p0760_3",
-  "scans": [
-   {
-    "label": "scan leaf 760",
-    "url": "https://archive.org/details/japan-year-book-1939-1940/page/n760/mode/1up"
-   }
-  ]
- },
- {
-  "image": "p0761",
-  "images": [
-   "p0761"
-  ],
-  "printed_pages": [
-   "717"
-  ],
-  "chapter": "Labour and Labour Movements",
-  "table_no": null,
-  "title": "Labour Disputes by Industry",
-  "caption_extra": null,
-  "continued": true,
-  "parts": [
-   {
-    "label": null,
-    "columns": [
-     "Industry",
-     "1934",
-     "1935",
-     "1936",
-     "1937",
-     "1938"
-    ],
-    "rows": [
+     ],
      [
       "Textile",
       "226",
@@ -138449,11 +138411,16 @@
   ],
   "footnotes": [],
   "transcriber_notes": [
-   "Continuation of 'Labour Disputes by Industry' begun on p0760 (printed p. 716, K24 batch), whose first rows are 'Metal, machinery and tool' (281, 323, 408, 394, 203) and 'Chemical' (332, 279, 258, 290, 139); no K24 file existed when this was written, so this is a separate continued file with only the p0761 rows.",
+   "Rows from p. 717 (leaf p0761) merged in from a separate batch.",
+   "Continuation of 'Labour Disputes by Industry' begun on p0760 (printed p. 716). Its first two rows are transcribed by batch K24 in tables/p0760_3.json: 'Metal, machinery and tool' (281, 323, 408, 394, 203) and 'Chemical' (332, 279, 258, 290, 139). This file holds only the p0761 rows.",
    "Total reconciliation including the two p0760 rows: 1935 1,872, 1936 1,975, 1937 2,126, 1938 1,022 all reconcile; 1934 parts sum to 1,914 vs printed 1,915 — does NOT reconcile (diff 1); cells re-read."
   ],
-  "id": "p0761_1",
+  "id": "p0760_3",
   "scans": [
+   {
+    "label": "scan leaf 760",
+    "url": "https://archive.org/details/japan-year-book-1939-1940/page/n760/mode/1up"
+   },
    {
     "label": "scan leaf 761",
     "url": "https://archive.org/details/japan-year-book-1939-1940/page/n761/mode/1up"
@@ -144752,6 +144719,771 @@
    {
     "label": "scan leaf 787",
     "url": "https://archive.org/details/japan-year-book-1939-1940/page/n787/mode/1up"
+   }
+  ]
+ },
+ {
+  "image": "p0787",
+  "images": [
+   "p0787",
+   "p0788",
+   "p0789"
+  ],
+  "printed_pages": [
+   "743",
+   "744",
+   "745"
+  ],
+  "chapter": "Medicine and Sanitation",
+  "table_no": null,
+  "title": "Deaths Classified by Age and Causes, 1937",
+  "caption_extra": "Japan Proper",
+  "continued": false,
+  "parts": [
+   {
+    "label": "Total and ages 0–4",
+    "columns": [
+     "The cause of death",
+     "Total",
+     "0–4 — Total",
+     "0–4 — 0",
+     "0–4 — 1",
+     "0–4 — 2",
+     "0–4 — 3",
+     "0–4 — 4"
+    ],
+    "rows": [
+     [
+      "Total",
+      "1,207,899",
+      "386,506",
+      "230,701",
+      "72,991",
+      "38,995",
+      "26,005",
+      "17,854"
+     ],
+     [
+      "Infectious and parasitic diseases",
+      "228,486",
+      "56,109",
+      "20,725",
+      "12,440",
+      "9,422",
+      "7,676",
+      "5,846"
+     ],
+     [
+      "Cancer and other malignant tumours",
+      "53,580",
+      "381",
+      "145",
+      "70",
+      "71",
+      "57",
+      "38"
+     ],
+     [
+      "Rheumatic diseases, diseases due to deficiency of vitamin, Diseases of thyroid and parathyroid glands, and other constitutional diseases",
+      "18,549",
+      "8,404",
+      "6,244",
+      "751",
+      "580",
+      "475",
+      "354"
+     ],
+     [
+      "Diseases of the blood and blood forming organs",
+      "2,904",
+      "648",
+      "299",
+      "146",
+      "64",
+      "70",
+      "69"
+     ],
+     [
+      "Alcoholism and other chronic poisoning",
+      "381",
+      "14",
+      "5",
+      "4",
+      "2",
+      "2",
+      "1"
+     ],
+     [
+      "Diseases of the nervous system and sense organs",
+      "176,939",
+      "27,770",
+      "12,299",
+      "5,634",
+      "4,209",
+      "3,242",
+      "2,386"
+     ],
+     [
+      "Diseases of the circulatory system",
+      "49,341",
+      "1,630",
+      "727",
+      "355",
+      "194",
+      "172",
+      "182"
+     ],
+     [
+      "Diseases of the respiratory system",
+      "165,354",
+      "85,250",
+      "51,133",
+      "20,884",
+      "7,349",
+      "3,615",
+      "2,269"
+     ],
+     [
+      "Diseases of the digestive system",
+      "193,389",
+      "96,664",
+      "43,074",
+      "27,828",
+      "13,189",
+      "7,902",
+      "4,671"
+     ],
+     [
+      "Diseases of urinary and genital organs",
+      "61,860",
+      "5,847",
+      "1,796",
+      "953",
+      "1,180",
+      "1,111",
+      "807"
+     ],
+     [
+      "Diseases of pregnancy and childbirth",
+      "5,444",
+      "—",
+      "—",
+      "—",
+      "—",
+      "—",
+      "—"
+     ],
+     [
+      "Diseases of the skin and cellular tissue",
+      "3,358",
+      "1,517",
+      "1,210",
+      "209",
+      "59",
+      "31",
+      "8"
+     ],
+     [
+      "Diseases of the bones and organs of locomotion",
+      "2,136",
+      "406",
+      "252",
+      "63",
+      "31",
+      "23",
+      "37"
+     ],
+     [
+      "Congenital Malformations",
+      "4,295",
+      "4,000",
+      "3,487",
+      "293",
+      "111",
+      "66",
+      "43"
+     ],
+     [
+      "Diseases peculiar to early infancy",
+      "79,402",
+      "79,402",
+      "79,402",
+      "—",
+      "—",
+      "—",
+      "—"
+     ],
+     [
+      "Senility",
+      "84,766",
+      "—",
+      "—",
+      "—",
+      "—",
+      "—",
+      "—"
+     ],
+     [
+      "Suicide, violence, accidents and others",
+      "44,866",
+      "7,356",
+      "1,327",
+      "2,153",
+      "1,869",
+      "1,149",
+      "858"
+     ],
+     [
+      "Cause of death not specified or ill defined",
+      "32,849",
+      "11,108",
+      "8,576",
+      "1,208",
+      "625",
+      "414",
+      "285"
+     ]
+    ]
+   },
+   {
+    "label": "Ages 5–29",
+    "columns": [
+     "The cause of death",
+     "5–9",
+     "10–14",
+     "15–19",
+     "20–24",
+     "15–29"
+    ],
+    "rows": [
+     [
+      "Total",
+      "35,367",
+      "25,280",
+      "56,686",
+      "59,173",
+      "46,939"
+     ],
+     [
+      "Infectious and parasitic diseases",
+      "11,377",
+      "10,741",
+      "32,251",
+      "32,556",
+      "23,215"
+     ],
+     [
+      "Cancer and other malignant tumours",
+      "152",
+      "152",
+      "192",
+      "313",
+      "603"
+     ],
+     [
+      "Rheumatic diseases, diseases due to deficiency of vitamin, diseases of thyroid and parathyroid glands, and other constitutional diseases",
+      "474",
+      "419",
+      "1,096",
+      "989",
+      "724"
+     ],
+     [
+      "Diseases of the blood and blood forming organs",
+      "208",
+      "175",
+      "168",
+      "166",
+      "175"
+     ],
+     [
+      "Alcoholism and other chronic poisoning",
+      "3",
+      "1",
+      "4",
+      "17",
+      "29"
+     ],
+     [
+      "Diseases of the nervous system and sense organs",
+      "5,093",
+      "2,687",
+      "3,031",
+      "2,720",
+      "2,646"
+     ],
+     [
+      "Diseases of the circulatory system",
+      "813",
+      "1,078",
+      "1,423",
+      "1,426",
+      "1,539"
+     ],
+     [
+      "Diseases of the respiratory system",
+      "4,408",
+      "2,923",
+      "6,341",
+      "6,507",
+      "5,142"
+     ],
+     [
+      "Diseases of the digestive system",
+      "6,730",
+      "3,731",
+      "5,807",
+      "5,322",
+      "4,507"
+     ],
+     [
+      "Diseases of urinary and genital organs",
+      "2,163",
+      "1,230",
+      "1,503",
+      "1,910",
+      "1,861"
+     ],
+     [
+      "Diseases of pregnancy and childbirth",
+      "—",
+      "—",
+      "182",
+      "945",
+      "1,208"
+     ],
+     [
+      "Diseases of the skin and cellular tissue",
+      "74",
+      "36",
+      "87",
+      "107",
+      "94"
+     ],
+     [
+      "Diseases of the bones and organs of locomotion",
+      "181",
+      "202",
+      "124",
+      "144",
+      "116"
+     ],
+     [
+      "Congenital Malformations",
+      "102",
+      "69",
+      "53",
+      "24",
+      "12"
+     ],
+     [
+      "Diseases peculiar to early infancy",
+      "—",
+      "—",
+      "—",
+      "—",
+      "—"
+     ],
+     [
+      "Senility",
+      "—",
+      "—",
+      "—",
+      "—",
+      "—"
+     ],
+     [
+      "Suicide, violence, accidents and others",
+      "2,865",
+      "1,290",
+      "3,645",
+      "4,860",
+      "3,794"
+     ],
+     [
+      "Cause of death not specified or ill defined",
+      "724",
+      "546",
+      "779",
+      "1,167",
+      "1,274"
+     ]
+    ]
+   },
+   {
+    "label": "Ages 30–59",
+    "columns": [
+     "The cause of death",
+     "30–34",
+     "35–39",
+     "40–44",
+     "45–49",
+     "50–54",
+     "55–59"
+    ],
+    "rows": [
+     [
+      "Total",
+      "35,441",
+      "34,693",
+      "33,155",
+      "37,006",
+      "46,081",
+      "59,764"
+     ],
+     [
+      "Infectious and parasitic diseases",
+      "14,417",
+      "10,683",
+      "7,775",
+      "6,648",
+      "5,926",
+      "5,598"
+     ],
+     [
+      "Cancer and other malignant tumours",
+      "1,149",
+      "2,091",
+      "2,998",
+      "4,598",
+      "6,317",
+      "8,537"
+     ],
+     [
+      "Rheumatic diseases, diseases due to deficiency of vitamin, diseases of thyroid and parathyroid glands, and other constitutional diseases",
+      "565",
+      "579",
+      "531",
+      "564",
+      "706",
+      "845"
+     ],
+     [
+      "Diseases of the blood and blood forming organs",
+      "168",
+      "192",
+      "168",
+      "156",
+      "173",
+      "152"
+     ],
+     [
+      "Alcoholism and other chronic poisoning",
+      "22",
+      "34",
+      "48",
+      "35",
+      "45",
+      "49"
+     ],
+     [
+      "Diseases of the nervous system and sense organs",
+      "2,803",
+      "3,860",
+      "5,107",
+      "7,297",
+      "11,012",
+      "15,796"
+     ],
+     [
+      "Diseases of the circulatory system",
+      "1,459",
+      "1,946",
+      "2,125",
+      "2,711",
+      "3,739",
+      "4,982"
+     ],
+     [
+      "Diseases of the respiratory system",
+      "3,750",
+      "3,494",
+      "3,250",
+      "3,632",
+      "4,467",
+      "6,179"
+     ],
+     [
+      "Diseases of the digestive system",
+      "3,764",
+      "3,970",
+      "4,228",
+      "4,839",
+      "6,286",
+      "8,535"
+     ],
+     [
+      "Diseases of urinary and genital organs",
+      "1,925",
+      "2,304",
+      "2,343",
+      "2,659",
+      "3,415",
+      "4,676"
+     ],
+     [
+      "Diseases of pregnancy and childbirth",
+      "1,143",
+      "1,250",
+      "640",
+      "75",
+      "1",
+      ""
+     ],
+     [
+      "Diseases of the skin and cellular tissue",
+      "100",
+      "121",
+      "130",
+      "148",
+      "153",
+      "175"
+     ],
+     [
+      "Diseases of the bones and organs of locomotion",
+      "87",
+      "106",
+      "81",
+      "100",
+      "96",
+      "103"
+     ],
+     [
+      "Congenital Malformations",
+      "6",
+      "3",
+      "4",
+      "6",
+      "2",
+      "4"
+     ],
+     [
+      "Senility",
+      "—",
+      "—",
+      "—",
+      "—",
+      "—",
+      "—"
+     ],
+     [
+      "Suicide, violence, accidents and others",
+      "2,856",
+      "2,572",
+      "2,231",
+      "2,102",
+      "2,028",
+      "2,052"
+     ],
+     [
+      "Cause of death not specified or ill defined",
+      "1,227",
+      "1,488",
+      "1,496",
+      "1,436",
+      "1,715",
+      "2,084"
+     ]
+    ]
+   },
+   {
+    "label": "Ages 60 and above",
+    "columns": [
+     "The cause of death",
+     "60–64",
+     "65–69",
+     "70–79",
+     "80–89",
+     "90 and above",
+     "Doubtful"
+    ],
+    "rows": [
+     [
+      "Total",
+      "70,403",
+      "70,046",
+      "138,048",
+      "67,399",
+      "5,838",
+      "74"
+     ],
+     [
+      "Infectious and parasitic diseases",
+      "4,415",
+      "2,950",
+      "3,082",
+      "704",
+      "39",
+      "5"
+     ],
+     [
+      "Cancer and other malignant tumours",
+      "9,228",
+      "7,397",
+      "8,137",
+      "1,308",
+      "27",
+      "—"
+     ],
+     [
+      "Rheumatic diseases, diseases due to deficiency of vitamin, diseases of thyroid and parathyroid glands, and other constitutional diseases",
+      "925",
+      "721",
+      "859",
+      "141",
+      "5",
+      "2"
+     ],
+     [
+      "Diseases of the blood and blood forming organs",
+      "153",
+      "99",
+      "84",
+      "17",
+      "2",
+      "—"
+     ],
+     [
+      "Alcoholism and other chronic poisoning",
+      "38",
+      "19",
+      "22",
+      "1",
+      "—",
+      "—"
+     ],
+     [
+      "Diseases of the nervous system and sense organs",
+      "20,328",
+      "20,901",
+      "35,041",
+      "10,385",
+      "452",
+      "8"
+     ],
+     [
+      "Diseases of the circulatory system",
+      "6,184",
+      "5,911",
+      "9,388",
+      "2,827",
+      "160",
+      "—"
+     ],
+     [
+      "Diseases of the respiratory system",
+      "7,276",
+      "7,060",
+      "11,751",
+      "3,715",
+      "205",
+      "4"
+     ],
+     [
+      "Diseases of the digestive system",
+      "9,290",
+      "8,548",
+      "14,898",
+      "5,873",
+      "396",
+      "1"
+     ],
+     [
+      "Diseases of urinary and genital organs",
+      "5,984",
+      "6,437",
+      "12,497",
+      "4,794",
+      "309",
+      "3"
+     ],
+     [
+      "Diseases of pregnancy and childbirth",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+     ],
+     [
+      "Diseases of the skin and cellular tissue",
+      "179",
+      "141",
+      "227",
+      "68",
+      "1",
+      "—"
+     ],
+     [
+      "Diseases of the bones and organs of locomotion",
+      "134",
+      "91",
+      "126",
+      "38",
+      "1",
+      "—"
+     ],
+     [
+      "Congenital Malformations",
+      "6",
+      "—",
+      "4",
+      "—",
+      "—",
+      "—"
+     ],
+     [
+      "Senility",
+      "2,471",
+      "6,476",
+      "39,378",
+      "35,347",
+      "4,092",
+      "2"
+     ],
+     [
+      "Suicide, violence, accidents and others",
+      "1,899",
+      "1,608",
+      "2,689",
+      "930",
+      "49",
+      "40"
+     ],
+     [
+      "Cause of death not specified or ill defined",
+      "1,893",
+      "1,687",
+      "2,865",
+      "1,251",
+      "100",
+      "9"
+     ]
+    ]
+   }
+  ],
+  "footnotes": [],
+  "transcriber_notes": [
+   "Printed in four panels across pp. 743–745 (first panel's rows from 'Diseases of the skin' on are at the head of p. 744); each panel kept as a part. Panel 2 last column is headed '15-29' as printed (evidently 25–29). Panel 3 has no row 'Diseases peculiar to early infancy'. In panel 3, 'Diseases of pregnancy and childbirth' 55–59 is blank in print; in panel 4 that row has no figures at all (blank cells as printed).",
+   "Panel 1 column totals: all reconcile except 0–4 age '2' — parts sum to 38,955 vs printed 38,995 (diff 40). Row Total: 0–4 Total 386,506 vs sum of ages 0–4 = 386,546 (diff 40); all cause rows' 0–4 Total = sum of their ages 0–4.",
+   "Panel 2 column totals all reconcile. Panel 3: all reconcile except 55–59 — parts sum to 59,767 vs printed 59,764 (diff 3). Panel 4: all reconcile except 70–79 — parts sum to 141,048 vs printed 138,048 (diff 3,000; Senility 70–79 printed clearly 39,378).",
+   "Grand Total 1,207,899 = sum of all age-group totals — reconciles. Per-cause row totals (Total column vs sum across all age groups): reconcile except Infectious and parasitic diseases (228,486 vs 228,491, diff 5), Nervous system (176,939 vs 176,937, diff 2), Senility (84,766 vs 87,766, diff 3,000).",
+   "Panel 1 'Rheumatic diseases…' age 2 figure '580': first digit partly broken but reads 5."
+  ],
+  "id": "p0787_1",
+  "scans": [
+   {
+    "label": "scan leaf 787",
+    "url": "https://archive.org/details/japan-year-book-1939-1940/page/n787/mode/1up"
+   },
+   {
+    "label": "scan leaf 788",
+    "url": "https://archive.org/details/japan-year-book-1939-1940/page/n788/mode/1up"
+   },
+   {
+    "label": "scan leaf 789",
+    "url": "https://archive.org/details/japan-year-book-1939-1940/page/n789/mode/1up"
    }
   ]
  },
@@ -151492,7 +152224,7 @@
   "footnotes": [],
   "transcriber_notes": [
    "Total No. of New films 41,560: parts sum to 41,560 — reconciles.",
-   "Total Aggregate Length 25,684,000: parts sum to 25,678,000 — does NOT reconcile.",
+   "Total Aggregate Length 25,684,000: parts sum to 25,678,000 — does NOT reconcile (diff 6,000). Cells re-read at 400%: 21,779,000 / 2,881,000 / 1,018,000 / 25,684,000 all clear (the '881' in 2,881,000 is heavily inked but legible). The text above the table also gives 25,684,000 metres.",
    "Stub header 'Films' supplied by transcriber."
   ],
   "id": "p0907_2",
@@ -151500,6 +152232,355 @@
    {
     "label": "scan leaf 907",
     "url": "https://archive.org/details/japan-year-book-1939-1940/page/n907/mode/1up"
+   }
+  ]
+ },
+ {
+  "image": "p0909",
+  "images": [
+   "p0909"
+  ],
+  "printed_pages": [
+   "865"
+  ],
+  "chapter": "Amusements and Calendar of Annual Events",
+  "table_no": null,
+  "title": "[Radio programme items most liked by listeners, 1932 enquiry]",
+  "caption_extra": "Programmes and Listeners The Japan Radio Broadcasting Association distributed 1,233,908 sheets of enquiries to its subscribers all over Japan in 1932, out of which 358,039 answers came, and a résumé of the investigation was given out in April, 1934. ... the answers given in percentage were as follows :",
+  "continued": false,
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "Item of Programme",
+     "Percentage of Listeners"
+    ],
+    "rows": [
+     [
+      "News and reports",
+      ""
+     ],
+     [
+      "General news",
+      "91.2"
+     ],
+     [
+      "Time signal",
+      "77.5"
+     ],
+     [
+      "Weather forecast",
+      "75.8"
+     ],
+     [
+      "Radio gymnastics",
+      "48.0"
+     ],
+     [
+      "Public announcements",
+      "42.3"
+     ],
+     [
+      "Daily menues",
+      "31.0"
+     ],
+     [
+      "Industrial news",
+      "30.8"
+     ],
+     [
+      "Commodity prices",
+      "27.8"
+     ],
+     [
+      "Stock-market news",
+      "23.2"
+     ],
+     [
+      "Employment agency",
+      "11.0"
+     ],
+     [
+      "New cocoon price",
+      "8.2"
+     ],
+     [
+      "Exposition of current topics",
+      "29.4"
+     ],
+     [
+      "Educational",
+      ""
+     ],
+     [
+      "General and moral",
+      "28.1"
+     ],
+     [
+      "Literature, arts, etc.",
+      "22.3"
+     ],
+     [
+      "Physical education and hygiene",
+      "22.0"
+     ],
+     [
+      "The home and women",
+      "20.7"
+     ],
+     [
+      "Science",
+      "13.0"
+     ],
+     [
+      "Foreign languages",
+      "9.9"
+     ],
+     [
+      "Amusements",
+      ""
+     ],
+     [
+      "Comic stories",
+      "57.6"
+     ],
+     [
+      "Naniwa-bushi (mostly tragic stories)",
+      "57.5"
+     ],
+     [
+      "Radio dramas",
+      "51.2"
+     ],
+     [
+      "Movie picture dramas and stories",
+      "49.3"
+     ],
+     [
+      "Samurai stories",
+      "48.0"
+     ],
+     [
+      "Kabuki",
+      "43.4"
+     ],
+     [
+      "Biwa (Story chanted with biwa music)",
+      "39.6"
+     ],
+     [
+      "Gidayu",
+      "33.4"
+     ],
+     [
+      "Foreign and Japanese music combined",
+      "33.4"
+     ],
+     [
+      "Japanese harp, bamboo flute, and samisen",
+      "30.0"
+     ],
+     [
+      "Nagauta (long chanting)",
+      "28.3"
+     ],
+     [
+      "Modern Japanese music",
+      "24.4"
+     ],
+     [
+      "Opera",
+      "24.2"
+     ],
+     [
+      "Brass music",
+      "22.6"
+     ],
+     [
+      "Orchestra",
+      "22.6"
+     ],
+     [
+      "Vocal solos",
+      "22.0"
+     ],
+     [
+      "Short songs (utazawa and kouta)",
+      "22.0"
+     ],
+     [
+      "Shinnai (a kind of jōruri)",
+      "20.2"
+     ],
+     [
+      "Kiyomoto",
+      "19.0"
+     ],
+     [
+      "Piano, violin solos and duets",
+      "18.7"
+     ],
+     [
+      "Tokiwazu (a branch of joruri)",
+      "18.6"
+     ],
+     [
+      "Chorus",
+      "17.6"
+     ],
+     [
+      "Jazz",
+      "17.3"
+     ],
+     [
+      "Yokyoku, kyogen (the No)",
+      "14.5"
+     ],
+     [
+      "Old Yedo music",
+      "8.5"
+     ],
+     [
+      "Young folk's hours",
+      ""
+     ],
+     [
+      "Nursery rhymes",
+      "60.1"
+     ],
+     [
+      "Short songs",
+      "57.0"
+     ],
+     [
+      "Dramas for the young folks",
+      "52.5"
+     ],
+     [
+      "Music",
+      "51.5"
+     ],
+     [
+      "Stories",
+      "49.0"
+     ]
+    ]
+   }
+  ],
+  "footnotes": [
+   "(For the latest development of broadcasting see Chapter XXIV Communications, Radio.)"
+  ],
+  "transcriber_notes": [
+   "Table runs from the foot of the left column to the top of the right column under a repeated header; merged. Group heads (News and reports, Educational, Amusements, Young folk's hours) are section rows; 'Samurai stories' onward in the right column continue the Amusements group.",
+   "Percentages are independent (multiple answers); no total printed.",
+   "Spellings as printed ('menues'; 'jōruri' / 'joruri')."
+  ],
+  "id": "p0909_1",
+  "scans": [
+   {
+    "label": "scan leaf 909",
+    "url": "https://archive.org/details/japan-year-book-1939-1940/page/n909/mode/1up"
+   }
+  ]
+ },
+ {
+  "image": "p0910",
+  "images": [
+   "p0910"
+  ],
+  "printed_pages": [
+   "864"
+  ],
+  "chapter": "Amusements and Calendar of Annual Events",
+  "table_no": null,
+  "title": "[Music items broadcast by station JOAK, Tokyo, April–December 1933]",
+  "caption_extra": "Statistics show that station JOAK in Tokyo broadcast a total of 227 items from April to December, 1933, classified as :",
+  "continued": false,
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "Class",
+     "Items"
+    ],
+    "rows": [
+     [
+      "Orchestral music",
+      "56"
+     ],
+     [
+      "Vocal solos and chorus",
+      "50"
+     ],
+     [
+      "Brass music",
+      "30"
+     ],
+     [
+      "Chamber music",
+      "13"
+     ],
+     [
+      "Violin solos",
+      "9"
+     ],
+     [
+      "Piano solos",
+      "20"
+     ],
+     [
+      "Jazz music",
+      "9"
+     ],
+     [
+      "Foreign and Japanese music combined",
+      "15"
+     ],
+     [
+      "'Cello music",
+      "3"
+     ],
+     [
+      "Flute solos",
+      "3"
+     ],
+     [
+      "Pipe organ music",
+      "2"
+     ],
+     [
+      "Guitar solos",
+      "1"
+     ],
+     [
+      "Trumpet solo",
+      "1"
+     ],
+     [
+      "Trombone solo",
+      "1"
+     ],
+     [
+      "Xylophone solo",
+      "1"
+     ],
+     [
+      "Opera",
+      "5"
+     ]
+    ]
+   }
+  ],
+  "footnotes": [],
+  "transcriber_notes": [
+   "Run-in list ('orchestral music, 56; vocal solos and chorus, 50; ...') split into rows by transcriber; initial letters capitalised.",
+   "Printed total (in the lead-in) 227: parts sum to 219 — does NOT reconcile (diff 8). Figures re-read: all clear."
+  ],
+  "id": "p0910_1",
+  "scans": [
+   {
+    "label": "scan leaf 910",
+    "url": "https://archive.org/details/japan-year-book-1939-1940/page/n910/mode/1up"
    }
   ]
  },
@@ -153888,6 +154969,286 @@
   "continued": false,
   "footnotes": [],
   "table_no": null,
+  "image": "p0936",
+  "images": [
+   "p0936"
+  ],
+  "printed_pages": [
+   "892"
+  ],
+  "title": "Number of Educational Institutes",
+  "caption_extra": "Kyoto (March 1, 1937)",
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "Institution",
+     "No.",
+     "Instructors",
+     "Students"
+    ],
+    "rows": [
+     [
+      "Kindergartens",
+      "50",
+      "180",
+      "4,484"
+     ],
+     [
+      "Elementary schools",
+      "142",
+      "3,049",
+      "131,118"
+     ],
+     [
+      "Blind, deaf and dumb schools",
+      "2",
+      "49",
+      "232"
+     ],
+     [
+      "Girls' high schools",
+      "15",
+      "476",
+      "11,466"
+     ],
+     [
+      "Middle schools",
+      "16",
+      "419",
+      "8,220"
+     ],
+     [
+      "Technical schools",
+      "16",
+      "551",
+      "13,516"
+     ],
+     [
+      "Normal schools",
+      "2",
+      "97",
+      "849"
+     ],
+     [
+      "Higher schools",
+      "1",
+      "69",
+      "713"
+     ],
+     [
+      "Colleges",
+      "16",
+      "691",
+      "6,411"
+     ],
+     [
+      "Universities",
+      "6",
+      "995",
+      "9,790"
+     ],
+     [
+      "Young People's schools",
+      "134",
+      "933",
+      "12,245"
+     ],
+     [
+      "Miscelleneous schools",
+      "42",
+      "624",
+      "8,279"
+     ],
+     [
+      "Total",
+      "442",
+      "8,133",
+      "207,323"
+     ]
+    ]
+   }
+  ],
+  "transcriber_notes": [
+   "Total 442: parts sum to 442 — reconciles",
+   "Total 8,133: parts sum to 8,133 — reconciles",
+   "Total 207,323: parts sum to 207,323 — reconciles",
+   "Printed side by side in two blocks; merged left block then right block.",
+   "'Miscelleneous' as printed."
+  ],
+  "id": "p0936_1",
+  "scans": [
+   {
+    "label": "scan leaf 936",
+    "url": "https://archive.org/details/japan-year-book-1939-1940/page/n936/mode/1up"
+   }
+  ]
+ },
+ {
+  "chapter": "Five Big Cities",
+  "continued": false,
+  "footnotes": [],
+  "table_no": null,
+  "image": "p0936",
+  "images": [
+   "p0936"
+  ],
+  "printed_pages": [
+   "892"
+  ],
+  "title": "[Social undertakings under municipal management in Kyoto, 1936-37]",
+  "caption_extra": "Social Work Conditions of social undertakings under municipal management in 1936-37 were:",
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "Undertaking",
+     "No. of establishments",
+     "Unit",
+     "Item",
+     "Figure"
+    ],
+    "rows": [
+     [
+      "Public markets",
+      "13",
+      "",
+      "Sales account",
+      "2,528,904"
+     ],
+     [
+      "Housing",
+      "5",
+      "places",
+      "No. of houses",
+      "250"
+     ],
+     [
+      "Public baths",
+      "6",
+      "houses",
+      "Bathers",
+      "1,670,330"
+     ],
+     [
+      "Labour exchanges",
+      "3",
+      "",
+      "Cases handled",
+      "44,620"
+     ],
+     [
+      "Labour exchanges",
+      "",
+      "",
+      "Employed",
+      "14,885"
+     ],
+     [
+      "Lodging houses",
+      "1",
+      "",
+      "Lodgers",
+      ""
+     ],
+     [
+      "Lunch-room",
+      "1",
+      "",
+      "Meals",
+      "94,713"
+     ]
+    ]
+   }
+  ],
+  "transcriber_notes": [
+   "Lodging houses, Lodgers: printed '28,16?' — last digit blotted (0 or 9); cell left blank.",
+   "'places'/'houses' are printed after the establishment counts for Housing and Public baths (Unit column).",
+   "Labour exchanges has two figures bracketed together (Cases handled / Employed); given as two rows.",
+   "No printed totals."
+  ],
+  "id": "p0936_2",
+  "scans": [
+   {
+    "label": "scan leaf 936",
+    "url": "https://archive.org/details/japan-year-book-1939-1940/page/n936/mode/1up"
+   }
+  ]
+ },
+ {
+  "chapter": "Five Big Cities",
+  "continued": false,
+  "footnotes": [],
+  "table_no": null,
+  "image": "p0936",
+  "images": [
+   "p0936"
+  ],
+  "printed_pages": [
+   "892"
+  ],
+  "title": "[Revenue and expenditure of Kyoto]",
+  "caption_extra": "Finance The annual revenue and expenditure, both general and special, of Kyoto amounted to: (In ¥1,000)",
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "Fiscal Year",
+     "Revenue",
+     "Expenditure"
+    ],
+    "rows": [
+     [
+      "1932–33",
+      "37,517",
+      "37,002"
+     ],
+     [
+      "1933–34",
+      "26,083",
+      "36,302"
+     ],
+     [
+      "1934–35",
+      "27,453",
+      "37,884"
+     ],
+     [
+      "1935–36",
+      "28,527",
+      ""
+     ],
+     [
+      "1936–37",
+      "30,608",
+      "43,945"
+     ],
+     [
+      "1937–38",
+      "45,187",
+      "49,753"
+     ]
+    ]
+   }
+  ],
+  "transcriber_notes": [
+   "1935-36 Expenditure: printed '42,8?9' — the tens digit is blotted (6 or 0); cell left blank.",
+   "Printed in two blocks (left column 1932-33 to 1933-34, right column 1934-35 to 1937-38); merged.",
+   "No printed totals."
+  ],
+  "id": "p0936_3",
+  "scans": [
+   {
+    "label": "scan leaf 936",
+    "url": "https://archive.org/details/japan-year-book-1939-1940/page/n936/mode/1up"
+   }
+  ]
+ },
+ {
+  "chapter": "Five Big Cities",
+  "continued": false,
+  "footnotes": [],
+  "table_no": null,
   "image": "p0937",
   "images": [
    "p0937"
@@ -154182,6 +155543,549 @@
    {
     "label": "scan leaf 937",
     "url": "https://archive.org/details/japan-year-book-1939-1940/page/n937/mode/1up"
+   }
+  ]
+ },
+ {
+  "image": "p0938",
+  "images": [
+   "p0938"
+  ],
+  "printed_pages": [
+   "894"
+  ],
+  "chapter": "Five Big Cities",
+  "table_no": null,
+  "title": "[Number of factories and production in Nagoya, 1936 and 1937]",
+  "caption_extra": "Nagoya — Number of Factories and Production: Number of factories employing more than 5 operatives and productions of various industries in 1937 follow:",
+  "continued": false,
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "Kind of industries",
+     "Factories — 1936",
+     "Factories — 1937",
+     "Operatives — 1936",
+     "Operatives — 1937",
+     "Output (in ¥1,000) — 1936",
+     "Output (in ¥1,000) — 1937"
+    ],
+    "rows": [
+     [
+      "Textile",
+      "605",
+      "758",
+      "27,373",
+      "32,053",
+      "164,617",
+      "194,529"
+     ],
+     [
+      "Metallic",
+      "384",
+      "528",
+      "6,290",
+      "9,031",
+      "17,770",
+      "33,478"
+     ],
+     [
+      "Machine and tool",
+      "853",
+      "1,070",
+      "37,515",
+      "49,901",
+      "109,854",
+      "161,640"
+     ],
+     [
+      "Pottery and porcelain",
+      "228",
+      "223",
+      "12,155",
+      "12,895",
+      "25,342",
+      "28,317"
+     ],
+     [
+      "Chemical",
+      "142",
+      "182",
+      "3,677",
+      "6,254",
+      "25,421",
+      "48,486"
+     ],
+     [
+      "Saw mills and wood works",
+      "599",
+      "769",
+      "7,712",
+      "8,195",
+      "28,602",
+      "36,274"
+     ],
+     [
+      "Printing and bookbinding",
+      "203",
+      "247",
+      "2,840",
+      "2,810",
+      "13,237",
+      "16,455"
+     ],
+     [
+      "Comestibles and beverages",
+      "420",
+      "521",
+      "4,012",
+      "4,573",
+      "45,470",
+      "49,088"
+     ],
+     [
+      "Gas and electric",
+      "3",
+      "3",
+      "262",
+      "276",
+      "9,155",
+      "6,556"
+     ],
+     [
+      "Others",
+      "737",
+      "1,009",
+      "6,290",
+      "7,428",
+      "27,305",
+      "39,922"
+     ],
+     [
+      "Total",
+      "4,173",
+      "5,310",
+      "108,126",
+      "133,416",
+      "466,778",
+      "614,745"
+     ]
+    ]
+   }
+  ],
+  "footnotes": [],
+  "transcriber_notes": [
+   "Total Factories — 1936 4,173: parts sum to 4,174 — does NOT reconcile (diff -1)",
+   "Total Factories — 1937 5,310: parts sum to 5,310 — reconciles",
+   "Total Operatives — 1936 108,126: parts sum to 108,126 — reconciles",
+   "Total Operatives — 1937 133,416: parts sum to 133,416 — reconciles",
+   "Total Output (in ¥1,000) — 1936 466,778: parts sum to 466,773 — does NOT reconcile (diff 5)",
+   "Total Output (in ¥1,000) — 1937 614,745: parts sum to 614,745 — reconciles",
+   "Discrepant columns (Factories 1936, Output 1936) re-read at enlargement; readings unchanged."
+  ],
+  "id": "p0938_1",
+  "scans": [
+   {
+    "label": "scan leaf 938",
+    "url": "https://archive.org/details/japan-year-book-1939-1940/page/n938/mode/1up"
+   }
+  ]
+ },
+ {
+  "chapter": "Five Big Cities",
+  "continued": false,
+  "footnotes": [],
+  "table_no": null,
+  "image": "p0939",
+  "images": [
+   "p0939"
+  ],
+  "printed_pages": [
+   "895"
+  ],
+  "title": "[Social undertakings in Nagoya, 1937-38]",
+  "caption_extra": "Nagoya — Education and Social Work: Social Work Social undertakings in the city in 1937-38, were as follows:",
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "Undertaking",
+     "Establishment",
+     "Beneficiaries — Item",
+     "Beneficiaries — Figure"
+    ],
+    "rows": [
+     [
+      "Lodging houses",
+      "7",
+      "",
+      "152,291"
+     ],
+     [
+      "Public pawnshops",
+      "5",
+      "Persons",
+      "53,195"
+     ],
+     [
+      "Public pawnshops",
+      "",
+      "Loans",
+      "¥266,080"
+     ],
+     [
+      "Labour exchanges",
+      "10",
+      "Cases handled",
+      "433,411"
+     ],
+     [
+      "Public markets",
+      "14",
+      "Amount of sale",
+      "¥2,920,157"
+     ]
+    ]
+   }
+  ],
+  "transcriber_notes": [
+   "Public pawnshops has two bracketed beneficiary figures (Persons / Loans); given as two rows.",
+   "No printed totals."
+  ],
+  "id": "p0939_1",
+  "scans": [
+   {
+    "label": "scan leaf 939",
+    "url": "https://archive.org/details/japan-year-book-1939-1940/page/n939/mode/1up"
+   }
+  ]
+ },
+ {
+  "chapter": "Five Big Cities",
+  "continued": false,
+  "footnotes": [
+   "Total educational expenditure including others ¥6,639,509"
+  ],
+  "table_no": null,
+  "image": "p0939",
+  "images": [
+   "p0939"
+  ],
+  "printed_pages": [
+   "895"
+  ],
+  "title": "[Municipal schools in Nagoya, 1936]",
+  "caption_extra": "Among the above mentioned schools those belonging to the municipality in 1936 were:",
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "Kind of schools",
+     "No.",
+     "Classes",
+     "Instructors",
+     "Pupils"
+    ],
+    "rows": [
+     [
+      "Elementary schools",
+      "109",
+      "2,686",
+      "2,977",
+      "6,530"
+     ],
+     [
+      "Girls' high schools",
+      "3",
+      "—",
+      "85",
+      "2,676"
+     ],
+     [
+      "Commercial schools",
+      "3",
+      "—",
+      "99",
+      "2,594"
+     ],
+     [
+      "Technical school",
+      "1",
+      "—",
+      "40",
+      "605"
+     ],
+     [
+      "Young peoples' schools",
+      "100",
+      "—",
+      "1,056",
+      "12,810"
+     ],
+     [
+      "Business continuation schools",
+      "29",
+      "—",
+      "417",
+      "8,517"
+     ],
+     [
+      "Kindergartens",
+      "4",
+      "23",
+      "24",
+      "687"
+     ]
+    ]
+   }
+  ],
+  "transcriber_notes": [
+   "No printed column totals.",
+   "Elementary schools Pupils printed 6,530 (clearly read; seems low for 109 schools but transcribed as printed)."
+  ],
+  "id": "p0939_2",
+  "scans": [
+   {
+    "label": "scan leaf 939",
+    "url": "https://archive.org/details/japan-year-book-1939-1940/page/n939/mode/1up"
+   }
+  ]
+ },
+ {
+  "chapter": "Five Big Cities",
+  "continued": false,
+  "footnotes": [],
+  "table_no": null,
+  "image": "p0939",
+  "images": [
+   "p0939"
+  ],
+  "printed_pages": [
+   "895"
+  ],
+  "title": "[Revenue and expenditure of Nagoya]",
+  "caption_extra": "Finance — Revenue and Expenditure The annual revenue and expenditure of Nagoya city has shown a marked increase of late as it is clear by the following table:",
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "Year",
+     "Revenue (¥)",
+     "Expenditure — Ordinary (¥)",
+     "Expenditure — Special (¥)",
+     "Expenditure — Total (¥)"
+    ],
+    "rows": [
+     [
+      "1928–29",
+      "19,438,161",
+      "11,663,553",
+      "7,275,835",
+      "18,939,388"
+     ],
+     [
+      "1929–30",
+      "25,390,085",
+      "18,219,390",
+      "7,034,796",
+      "25,254,186"
+     ],
+     [
+      "1930–31",
+      "31,477,355",
+      "23,545,976",
+      "6,878,659",
+      "30,424,635"
+     ],
+     [
+      "1931–32",
+      "37,963,011",
+      "28,946,961",
+      "7,126,598",
+      "36,073,559"
+     ],
+     [
+      "1932–33",
+      "45,421,218",
+      "36,644,010",
+      "7,163,058",
+      "43,807,068"
+     ],
+     [
+      "1933–34",
+      "84,689,082",
+      "76,511,764",
+      "7,578,021",
+      "84,089,785"
+     ],
+     [
+      "1934–35",
+      "35,894,410",
+      "25,738,008",
+      "10,156,402",
+      "35,894,410"
+     ],
+     [
+      "1935–36",
+      "54,043,639",
+      "44,205,138",
+      "7,838,501",
+      "54,043,639"
+     ],
+     [
+      "1936–37",
+      "66,689,000",
+      "25,639,000",
+      "41,050,000",
+      "66,689,000"
+     ],
+     [
+      "1937–38",
+      "59,442,000",
+      "19,435,000",
+      "40,007,000",
+      "59,442,000"
+     ]
+    ]
+   }
+  ],
+  "transcriber_notes": [
+   "1928–29: Total 18,939,388, Ordinary+Special = 18,939,388 — reconciles",
+   "1929–30: Total 25,254,186, Ordinary+Special = 25,254,186 — reconciles",
+   "1930–31: Total 30,424,635, Ordinary+Special = 30,424,635 — reconciles",
+   "1931–32: Total 36,073,559, Ordinary+Special = 36,073,559 — reconciles",
+   "1932–33: Total 43,807,068, Ordinary+Special = 43,807,068 — reconciles",
+   "1933–34: Total 84,089,785, Ordinary+Special = 84,089,785 — reconciles",
+   "1934–35: Total 35,894,410, Ordinary+Special = 35,894,410 — reconciles",
+   "1935–36: Total 54,043,639, Ordinary+Special = 52,043,639 — does NOT reconcile (diff 2,000,000)",
+   "1936–37: Total 66,689,000, Ordinary+Special = 66,689,000 — reconciles",
+   "1937–38: Total 59,442,000, Ordinary+Special = 59,442,000 — reconciles"
+  ],
+  "id": "p0939_3",
+  "scans": [
+   {
+    "label": "scan leaf 939",
+    "url": "https://archive.org/details/japan-year-book-1939-1940/page/n939/mode/1up"
+   }
+  ]
+ },
+ {
+  "image": "p0940",
+  "images": [
+   "p0940"
+  ],
+  "printed_pages": [
+   "896"
+  ],
+  "chapter": "Five Big Cities",
+  "table_no": null,
+  "title": "Population",
+  "caption_extra": "Yokohama",
+  "continued": false,
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "October 1,",
+     "Men",
+     "Women",
+     "Total",
+     "Households"
+    ],
+    "rows": [
+     [
+      "1925 (Census)",
+      "214,341",
+      "191,547",
+      "405,888",
+      "95,377"
+     ],
+     [
+      "1930 ( ,, )",
+      "321,415",
+      "298,891",
+      "620,301",
+      "135,929"
+     ],
+     [
+      "1931 (Estimate)",
+      "331,300",
+      "309,500",
+      "640,800",
+      "140,338"
+     ],
+     [
+      "1932 ( ,, )",
+      "341,300",
+      "320,200",
+      "661,500",
+      "144,923"
+     ],
+     [
+      "1933 ( ,, )",
+      "351,500",
+      "331,100",
+      "682,600",
+      "149,531"
+     ],
+     [
+      "1934 ( ,, )",
+      "361,700",
+      "342,200",
+      "703,900",
+      "154,181"
+     ],
+     [
+      "1935 (Census)",
+      "360,363",
+      "343,927",
+      "704,290",
+      "148,545"
+     ],
+     [
+      "1936 (Estimate)",
+      "377,200",
+      "361,200",
+      "738,400",
+      "155,785"
+     ],
+     [
+      "1937 ( ,, )",
+      "387,500",
+      "372,200",
+      "759,700",
+      "—"
+     ],
+     [
+      "1938 ( ,, )",
+      "395,800",
+      "381,700",
+      "777,500",
+      "—"
+     ]
+    ]
+   }
+  ],
+  "footnotes": [],
+  "transcriber_notes": [
+   "1925 (Census): Total 405,888, Men+Women = 405,888 — reconciles",
+   "1930 ( ,, ): Total 620,301, Men+Women = 620,306 — does NOT reconcile (diff -5)",
+   "1931 (Estimate): Total 640,800, Men+Women = 640,800 — reconciles",
+   "1932 ( ,, ): Total 661,500, Men+Women = 661,500 — reconciles",
+   "1933 ( ,, ): Total 682,600, Men+Women = 682,600 — reconciles",
+   "1934 ( ,, ): Total 703,900, Men+Women = 703,900 — reconciles",
+   "1935 (Census): Total 704,290, Men+Women = 704,290 — reconciles",
+   "1936 (Estimate): Total 738,400, Men+Women = 738,400 — reconciles",
+   "1937 ( ,, ): Total 759,700, Men+Women = 759,700 — reconciles",
+   "1938 ( ,, ): Total 777,500, Men+Women = 777,500 — reconciles",
+   "Ditto marks (,,) kept as printed in the stub."
+  ],
+  "id": "p0940_1",
+  "scans": [
+   {
+    "label": "scan leaf 940",
+    "url": "https://archive.org/details/japan-year-book-1939-1940/page/n940/mode/1up"
    }
   ]
  },
@@ -158924,6 +160828,1002 @@
   ]
  },
  {
+  "chapter": "Chosen (Korea)",
+  "table_no": null,
+  "continued": false,
+  "footnotes": [],
+  "image": "p0961",
+  "images": [
+   "p0961"
+  ],
+  "printed_pages": [
+   "915"
+  ],
+  "title": "[Banks in Chosen, 1925-1936]",
+  "caption_extra": "Banking: At the end of 1937 the number of banks was 10, together with branch offices of 3 banks in Japan proper. The following gives a more detailed account of the 10 banks: (¥1,000)",
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "Item",
+     "1925",
+     "1930",
+     "1933",
+     "1934",
+     "1935",
+     "1936"
+    ],
+    "rows": [
+     [
+      "Capital subscribed",
+      "102,275",
+      "101,425",
+      "101,075",
+      "100,675",
+      "99,175",
+      "99,175"
+     ],
+     [
+      "Capital paid-in",
+      "58,850",
+      "60,991",
+      "61,871",
+      "61,731",
+      "65,912",
+      "65,981"
+     ],
+     [
+      "Reserve funds",
+      "7,024",
+      "14,464",
+      "21,358",
+      "22,673",
+      "23,829",
+      "27,276"
+     ],
+     [
+      "Deposits",
+      "217,597",
+      "226,563",
+      "458,159",
+      "567,754",
+      "609,028",
+      "386,191"
+     ],
+     [
+      "Loans",
+      "429,361",
+      "457,557",
+      "730,614",
+      "1,047,339",
+      "1,013,146",
+      "712,380"
+     ]
+    ]
+   }
+  ],
+  "transcriber_notes": [],
+  "id": "p0961_1",
+  "scans": [
+   {
+    "label": "scan leaf 961",
+    "url": "https://archive.org/details/japan-year-book-1939-1940/page/n961/mode/1up"
+   }
+  ]
+ },
+ {
+  "chapter": "Chosen (Korea)",
+  "table_no": null,
+  "continued": false,
+  "footnotes": [],
+  "image": "p0961",
+  "images": [
+   "p0961",
+   "p0962"
+  ],
+  "printed_pages": [
+   "915",
+   "916"
+  ],
+  "title": "[Post Office Savings Bank depositors in Chosen, 1922-1937]",
+  "caption_extra": "The banking institution which is utilized most by the Korean masses is the Post Office Savings Bank. ... The following figures show the annual expansion:",
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "March, 31",
+     "Number of depositors",
+     "Amount (yen)"
+    ],
+    "rows": [
+     [
+      "1922",
+      "1,416,325",
+      "18,726,338"
+     ],
+     [
+      "1923",
+      "1,590,470",
+      "19,875,093"
+     ],
+     [
+      "1924",
+      "1,694,087",
+      "21,040,342"
+     ],
+     [
+      "1925",
+      "1,606,740",
+      "21,029,849"
+     ],
+     [
+      "1926",
+      "1,711,590",
+      "21,531,122"
+     ],
+     [
+      "1927",
+      "1,795,858",
+      "22,466,126"
+     ],
+     [
+      "1928",
+      "1,910,289",
+      "26,961,217"
+     ],
+     [
+      "1929",
+      "2,023,977",
+      "30,787,502"
+     ],
+     [
+      "1930",
+      "2,078,602",
+      "36,286,417"
+     ],
+     [
+      "1931",
+      "2,118,178",
+      "38,852,866"
+     ],
+     [
+      "1932",
+      "2,283,871",
+      "41,432,670"
+     ],
+     [
+      "1933",
+      "2,494,062",
+      "40,939,391"
+     ],
+     [
+      "1934",
+      "2,840,656",
+      "44,807,154"
+     ],
+     [
+      "1935",
+      "3,156,074",
+      "52,631,553"
+     ],
+     [
+      "1936",
+      "3,571,237",
+      "54,820,710"
+     ],
+     [
+      "1937",
+      "3,861,105",
+      "60,422,961"
+     ]
+    ]
+   }
+  ],
+  "transcriber_notes": [
+   "1922-1929 on printed p. 915, 1930-1937 on p. 916 with repeated headings."
+  ],
+  "id": "p0961_2",
+  "scans": [
+   {
+    "label": "scan leaf 961",
+    "url": "https://archive.org/details/japan-year-book-1939-1940/page/n961/mode/1up"
+   },
+   {
+    "label": "scan leaf 962",
+    "url": "https://archive.org/details/japan-year-book-1939-1940/page/n962/mode/1up"
+   }
+  ]
+ },
+ {
+  "chapter": "Chosen (Korea)",
+  "table_no": null,
+  "continued": false,
+  "footnotes": [],
+  "image": "p0962",
+  "images": [
+   "p0962"
+  ],
+  "printed_pages": [
+   "916"
+  ],
+  "title": "[Progress of local credit associations in Chosen, 1926-27 to 1936-37]",
+  "caption_extra": "Local Credit Associations: ... The progress of these associations is illustrated in the table below. (in ¥1,000)",
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "Year",
+     "Associations",
+     "Members",
+     "Paid up capital",
+     "Deposit",
+     "Advance",
+     "Reserve fund",
+     "Government grant"
+    ],
+    "rows": [
+     [
+      "1926-27",
+      "547",
+      "446,576",
+      "6,510",
+      "54,505",
+      "76,082",
+      "8,144",
+      "3,417"
+     ],
+     [
+      "1927-28",
+      "575",
+      "489,720",
+      "7,064",
+      "63,614",
+      "85,177",
+      "9,620",
+      "3,542"
+     ],
+     [
+      "1928-29",
+      "597",
+      "530,407",
+      "7,509",
+      "74,089",
+      "91,381",
+      "10,889",
+      "3,662"
+     ],
+     [
+      "1929-30",
+      "621",
+      "588,560",
+      "8,561",
+      "76,892",
+      "104,931",
+      "12,295",
+      "3,777"
+     ],
+     [
+      "1930-31",
+      "622",
+      "606,813",
+      "9,010",
+      "80,128",
+      "123,363",
+      "13,131",
+      "3,777"
+     ],
+     [
+      "1931-32",
+      "663",
+      "726,322",
+      "9,279",
+      "88,755",
+      "123,842",
+      "13,556",
+      "3,970"
+     ],
+     [
+      "1932-33",
+      "674",
+      "831,805",
+      "9,362",
+      "103,752",
+      "127,832",
+      "14,316",
+      "4,027"
+     ],
+     [
+      "1933-34",
+      "685",
+      "1,003,648",
+      "9,871",
+      "124,284",
+      "133,897",
+      "15,647",
+      "4,092"
+     ],
+     [
+      "1934-35",
+      "692",
+      "1,178,769",
+      "10,580",
+      "139,417",
+      "150,107",
+      "17,779",
+      "4,132"
+     ],
+     [
+      "1935-36",
+      "698",
+      "1,363,537",
+      "11,496",
+      "153,417",
+      "179,325",
+      "19,070",
+      "4,162"
+     ],
+     [
+      "1936-37",
+      "709",
+      "1,563,391",
+      "12,462",
+      "162,355",
+      "228,464",
+      "20,809",
+      "4,217"
+     ]
+    ]
+   }
+  ],
+  "transcriber_notes": [
+   "The unit '(in ¥1,000)' is printed under the Deposit/Advance headings; it evidently applies to the money columns (text gives 1936 paid capital as ¥12,462,000)."
+  ],
+  "id": "p0962_1",
+  "scans": [
+   {
+    "label": "scan leaf 962",
+    "url": "https://archive.org/details/japan-year-book-1939-1940/page/n962/mode/1up"
+   }
+  ]
+ },
+ {
+  "image": "p0964",
+  "images": [
+   "p0964"
+  ],
+  "printed_pages": [
+   "920"
+  ],
+  "chapter": "Chosen (Korea)",
+  "table_no": null,
+  "continued": false,
+  "title": "[Marine products of Chosen valued over ¥2,000,000, 1936 and 1937]",
+  "caption_extra": "Fisheries: The following shows the marine products for two years, 1936 and 1937, the value of each of which exceeds ¥2,000,000: (In yen)",
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "Kind",
+     "1936 Value",
+     "1937 Value"
+    ],
+    "rows": [
+     [
+      "Mackerel",
+      "4,780,815",
+      "6,023,216"
+     ],
+     [
+      "Sardine",
+      "26,811,275",
+      "34,193,809"
+     ],
+     [
+      "Sciaena",
+      "4,754,776",
+      "4,763,537"
+     ],
+     [
+      "Herring",
+      "3,000,075",
+      "2,682,093"
+     ],
+     [
+      "Hair-tail",
+      "2,201,312",
+      "2,541,259"
+     ],
+     [
+      "Shrimps",
+      "2,552,237",
+      "2,123,950"
+     ],
+     [
+      "Mintai (Alaska pollack)",
+      "5,769,259",
+      "6,483,059"
+     ]
+    ]
+   }
+  ],
+  "footnotes": [],
+  "transcriber_notes": [],
+  "id": "p0964_1",
+  "scans": [
+   {
+    "label": "scan leaf 964",
+    "url": "https://archive.org/details/japan-year-book-1939-1940/page/n964/mode/1up"
+   }
+  ]
+ },
+ {
+  "image": "p0965",
+  "images": [
+   "p0965"
+  ],
+  "printed_pages": [
+   "921"
+  ],
+  "chapter": "Chosen (Korea)",
+  "table_no": null,
+  "continued": false,
+  "title": "Mineral Production",
+  "caption_extra": "(In 1,000 yen)",
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "Mineral",
+     "1911",
+     "1921",
+     "1932",
+     "1933",
+     "1934",
+     "1935",
+     "1936"
+    ],
+    "rows": [
+     [
+      "Gold",
+      "3,744",
+      "2,992",
+      "17,809",
+      "26,066",
+      "33,214",
+      "38,320",
+      "49,909"
+     ],
+     [
+      "Pig iron",
+      "—",
+      "4,819",
+      "4,114",
+      "5,605",
+      "7,722",
+      "7,321",
+      "7,866"
+     ],
+     [
+      "Coal",
+      "388",
+      "3,192",
+      "5,970",
+      "7,205",
+      "9,940",
+      "11,925",
+      "13,300"
+     ],
+     [
+      "Iron ore",
+      "421",
+      "1,716",
+      "749",
+      "1,287",
+      "1,123",
+      "1,279",
+      "1,429"
+     ],
+     [
+      "Copper",
+      "—",
+      "17",
+      "307",
+      "417",
+      "933",
+      "1,535",
+      "3,272"
+     ],
+     [
+      "Gold and silver ore",
+      "262",
+      "584",
+      "944",
+      "1,906",
+      "2,511",
+      "6,502",
+      "9,373"
+     ],
+     [
+      "Graphite",
+      "153",
+      "208",
+      "255",
+      "465",
+      "524",
+      "1,207",
+      "1,010"
+     ],
+     [
+      "Placer gold",
+      "821",
+      "359",
+      "1,823",
+      "3,327",
+      "5,323",
+      "7,136",
+      "9,443"
+     ],
+     [
+      "Silver",
+      "6",
+      "4",
+      "552",
+      "721",
+      "1,468",
+      "2,558",
+      "2,830"
+     ],
+     [
+      "Lead",
+      "—",
+      "—",
+      "64",
+      "120",
+      "306",
+      "388",
+      "793"
+     ],
+     [
+      "Tungsten ore",
+      "—",
+      "—",
+      "29",
+      "117",
+      "734",
+      "1,388",
+      "2,293"
+     ],
+     [
+      "Zinc ore",
+      "21",
+      "4",
+      "—",
+      "97",
+      "85",
+      "80",
+      "240"
+     ],
+     [
+      "Steel",
+      "—",
+      "—",
+      "—",
+      "—",
+      "4,178",
+      "6,764",
+      "6,533"
+     ],
+     [
+      "Others",
+      "21",
+      "374",
+      "487",
+      "961",
+      "1,111",
+      "1,636",
+      "2,212"
+     ],
+     [
+      "Total",
+      "6,069",
+      "15,767",
+      "33,746",
+      "48,301",
+      "69,172",
+      "88,039",
+      "110,503"
+     ]
+    ]
+   }
+  ],
+  "footnotes": [],
+  "transcriber_notes": [
+   "Stub column has no printed heading; 'Mineral' supplied.",
+   "1911: parts sum to 5,837 vs printed 6,069 — does NOT reconcile (diff -232)",
+   "1921: parts sum to 14,269 vs printed 15,767 — does NOT reconcile (diff -1,498)",
+   "1932: parts sum to 33,103 vs printed 33,746 — does NOT reconcile (diff -643)",
+   "1933: parts sum to 48,294 vs printed 48,301 — does NOT reconcile (diff -7)",
+   "1934: parts sum to 69,172 vs printed 69,172 — reconciles",
+   "1935: parts sum to 88,039 vs printed 88,039 — reconciles",
+   "1936: parts sum to 110,503 vs printed 110,503 — reconciles"
+  ],
+  "id": "p0965_1",
+  "scans": [
+   {
+    "label": "scan leaf 965",
+    "url": "https://archive.org/details/japan-year-book-1939-1940/page/n965/mode/1up"
+   }
+  ]
+ },
+ {
+  "image": "p0965",
+  "images": [
+   "p0965"
+  ],
+  "printed_pages": [
+   "921"
+  ],
+  "chapter": "Chosen (Korea)",
+  "table_no": null,
+  "continued": false,
+  "title": "Industrial Production for 1937",
+  "caption_extra": "(In 1,000 yen)",
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "Industry",
+     "Value"
+    ],
+    "rows": [
+     [
+      "Textile industry",
+      "141,150"
+     ],
+     [
+      "Metallic industry",
+      "50,760"
+     ],
+     [
+      "Machinery and tools",
+      "16,560"
+     ],
+     [
+      "Ceramics",
+      "25,070"
+     ],
+     [
+      "Chemical industry",
+      "304,940"
+     ],
+     [
+      "Wood works",
+      "11,730"
+     ],
+     [
+      "Printing and book binding",
+      "16,300"
+     ],
+     [
+      "Gas and electric",
+      "40,070"
+     ],
+     [
+      "Foodstuffs",
+      "238,030"
+     ],
+     [
+      "Others",
+      "114,650"
+     ],
+     [
+      "Total",
+      "959,260"
+     ]
+    ]
+   }
+  ],
+  "footnotes": [],
+  "transcriber_notes": [
+   "Total 959,260: parts sum to 959,260 — reconciles"
+  ],
+  "id": "p0965_2",
+  "scans": [
+   {
+    "label": "scan leaf 965",
+    "url": "https://archive.org/details/japan-year-book-1939-1940/page/n965/mode/1up"
+   }
+  ]
+ },
+ {
+  "image": "p0966",
+  "images": [
+   "p0966"
+  ],
+  "printed_pages": [
+   "922"
+  ],
+  "chapter": "Chosen (Korea)",
+  "table_no": null,
+  "continued": false,
+  "title": "Criminal Cases",
+  "caption_extra": "Justice and Police",
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "Crime",
+     "1934",
+     "1935",
+     "1936"
+    ],
+    "rows": [
+     [
+      "Robbery — Cases",
+      "884",
+      "839",
+      "750"
+     ],
+     [
+      "Robbery — Arrests",
+      "864",
+      "784",
+      "645"
+     ],
+     [
+      "Theft — Cases",
+      "60,833",
+      "64,060",
+      "64,893"
+     ],
+     [
+      "Theft — Arrests",
+      "50,446",
+      "51,572",
+      "49,402"
+     ],
+     [
+      "Fraud — Cases",
+      "22,190",
+      "22,060",
+      "23,558"
+     ],
+     [
+      "Fraud — Arrests",
+      "23,368",
+      "22,407",
+      "23,922"
+     ],
+     [
+      "Blackmail — Cases",
+      "875",
+      "800",
+      "756"
+     ],
+     [
+      "Blackmail — Arrests",
+      "883",
+      "812",
+      "754"
+     ],
+     [
+      "Dispossession — Cases",
+      "11,049",
+      "11,170",
+      "12,436"
+     ],
+     [
+      "Dispossession — Arrests",
+      "11,644",
+      "11,680",
+      "12,628"
+     ],
+     [
+      "Others — Cases",
+      "99,194",
+      "100,791",
+      "95,011"
+     ],
+     [
+      "Others — Arrests",
+      "99,549",
+      "100,914",
+      "93,906"
+     ],
+     [
+      "Total — Cases",
+      "195,025",
+      "199,720",
+      "197,404"
+     ],
+     [
+      "Total — Arrests",
+      "186,754",
+      "188,170",
+      "181,267"
+     ]
+    ]
+   }
+  ],
+  "footnotes": [],
+  "transcriber_notes": [
+   "Braced Cases/Arrests pairs flattened as 'Crime — Cases/Arrests'.",
+   "Cases 1934: parts sum to 195,025 vs 195,025 — reconciles",
+   "Cases 1935: parts sum to 199,720 vs 199,720 — reconciles",
+   "Cases 1936: parts sum to 197,404 vs 197,404 — reconciles",
+   "Arrests 1934: parts sum to 186,754 vs 186,754 — reconciles",
+   "Arrests 1935: parts sum to 188,169 vs 188,170 — does NOT reconcile (diff -1)",
+   "Arrests 1936: parts sum to 181,257 vs 181,267 — does NOT reconcile (diff -10)"
+  ],
+  "id": "p0966_1",
+  "scans": [
+   {
+    "label": "scan leaf 966",
+    "url": "https://archive.org/details/japan-year-book-1939-1940/page/n966/mode/1up"
+   }
+  ]
+ },
+ {
+  "image": "p0967",
+  "images": [
+   "p0967"
+  ],
+  "printed_pages": [
+   "923"
+  ],
+  "chapter": "Chosen (Korea)",
+  "table_no": null,
+  "continued": false,
+  "title": "[Educational institutions in Chosen, 1935-1937]",
+  "caption_extra": "Education: ... The table below shows clearly the development of educational work in Chosen since 1935:",
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "Kind",
+     "1935 — Schools",
+     "1935 — Students",
+     "1936 — Schools",
+     "1936 — Students",
+     "1937 — Schools",
+     "1937 — Students"
+    ],
+    "rows": [
+     [
+      "Elementary schools",
+      "451",
+      "84,395",
+      "501",
+      "86,775",
+      "505",
+      "89,881"
+     ],
+     [
+      "Common schools",
+      "2,362",
+      "720,757",
+      "2,504",
+      "802,976",
+      "2,509",
+      "861,389"
+     ],
+     [
+      "Middle schools",
+      "12",
+      "6,715",
+      "15",
+      "7,124",
+      "16",
+      "7,778"
+     ],
+     [
+      "Higher common schools",
+      "26",
+      "14,504",
+      "27",
+      "14,982",
+      "27",
+      "15,629"
+     ],
+     [
+      "Girls' high schools",
+      "28",
+      "10,525",
+      "28",
+      "11,173",
+      "30",
+      "11,924"
+     ],
+     [
+      "Girls' higher common schools",
+      "19",
+      "6,047",
+      "20",
+      "6,514",
+      "22",
+      "7,148"
+     ],
+     [
+      "Normal schools",
+      "4",
+      "2,434",
+      "5",
+      "3,172",
+      "6",
+      "3,758"
+     ],
+     [
+      "Business schools",
+      "63",
+      "17,072",
+      "67",
+      "18,264",
+      "72",
+      "20,323"
+     ],
+     [
+      "Elementary industrial schools",
+      "97",
+      "4,163",
+      "116",
+      "5,942",
+      "125",
+      "6,325"
+     ],
+     [
+      "Colleges",
+      "15",
+      "4,501",
+      "15",
+      "4,250",
+      "15",
+      "3,986"
+     ],
+     [
+      "University preparatory schools",
+      "1",
+      "309",
+      "1",
+      "448",
+      "1",
+      "461"
+     ],
+     [
+      "University",
+      "1",
+      "621",
+      "1",
+      "542",
+      "1",
+      "516"
+     ],
+     [
+      "Others and total",
+      "3,079",
+      "872,043",
+      "4,440",
+      "1,087,387",
+      "4,740",
+      "1,211,449"
+     ]
+    ]
+   }
+  ],
+  "footnotes": [
+   "Christian mission and other private schools are included in this table."
+  ],
+  "transcriber_notes": [
+   "'Others and total' includes unlisted 'others'; no reconciliation possible."
+  ],
+  "id": "p0967_1",
+  "scans": [
+   {
+    "label": "scan leaf 967",
+    "url": "https://archive.org/details/japan-year-book-1939-1940/page/n967/mode/1up"
+   }
+  ]
+ },
+ {
   "image": "p0971",
   "images": [
    "p0971"
@@ -162918,6 +165818,830 @@
   ]
  },
  {
+  "image": "p0997",
+  "images": [
+   "p0997"
+  ],
+  "printed_pages": [
+   "953"
+  ],
+  "chapter": "Karafuto (Saghalien)",
+  "table_no": null,
+  "title": "Revenues (Yen)",
+  "caption_extra": "Finance — brief fiscal history of the Karafuto government",
+  "continued": false,
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "Year",
+     "Taxes and non-tax elements",
+     "Replenishment from national treasury",
+     "Sum brought forward",
+     "Loans",
+     "Total"
+    ],
+    "rows": [
+     [
+      "1910",
+      "1,229,705",
+      "544,714",
+      "260,524",
+      "—",
+      "2,034,943"
+     ],
+     [
+      "1911",
+      "1,369,045",
+      "570,657",
+      "137,479",
+      "—",
+      "2,077,181"
+     ],
+     [
+      "1912",
+      "1,534,991",
+      "591,819",
+      "169,949",
+      "—",
+      "2,296,759"
+     ],
+     [
+      "1913",
+      "2,062,574",
+      "389,291",
+      "219,082",
+      "—",
+      "2,670,947"
+     ],
+     [
+      "1914",
+      "1,548,748",
+      "323,575",
+      "392,901",
+      "—",
+      "2,265,224"
+     ],
+     [
+      "1915",
+      "1,495,046",
+      "323,575",
+      "191,191",
+      "—",
+      "2,009,912"
+     ],
+     [
+      "1916",
+      "2,058,576",
+      "293,575",
+      "329,255",
+      "—",
+      "2,681,406"
+     ],
+     [
+      "1917",
+      "2,619,315",
+      "323,575",
+      "829,563",
+      "—",
+      "3,772,453"
+     ],
+     [
+      "1918",
+      "2,936,793",
+      "—",
+      "1,663,970",
+      "1,091,000",
+      "5,692,761"
+     ],
+     [
+      "1919",
+      "3,570,658",
+      "300,000",
+      "2,720,110",
+      "1,173,500",
+      "7,764,269"
+     ],
+     [
+      "1920",
+      "5,221,674",
+      "770,000",
+      "2,022,404",
+      "3,381,209",
+      "11,395,291"
+     ],
+     [
+      "1921",
+      "7,057,103",
+      "1,433,000",
+      "3,109,807",
+      "4,173,290",
+      "15,775,205"
+     ],
+     [
+      "1922",
+      "8,386,012",
+      "1,100,000",
+      "3,707,623",
+      "7,607,920",
+      "20,801,558"
+     ],
+     [
+      "1923",
+      "12,436,861",
+      "1,786,000",
+      "2,758,969",
+      "4,475,436",
+      "21,452,266"
+     ],
+     [
+      "1924",
+      "15,772,056",
+      "1,000,000",
+      "2,168,245",
+      "416,218",
+      "19,357,520"
+     ],
+     [
+      "1925",
+      "16,000,305",
+      "900,000",
+      "78,454",
+      "1,700,000",
+      "18,678,760"
+     ],
+     [
+      "1926",
+      "18,339,308",
+      "1,577,343",
+      "618,814",
+      "1,786,562",
+      "22,322,027"
+     ],
+     [
+      "1927",
+      "18,414,702",
+      "2,029,635",
+      "4,587,927",
+      "1,845,052",
+      "26,877,316"
+     ],
+     [
+      "1928",
+      "21,963,835",
+      "2,029,635",
+      "6,894,976",
+      "1,857,924",
+      "32,646,370"
+     ],
+     [
+      "1929",
+      "22,280,159",
+      "3,100,000",
+      "6,955,100",
+      "4,569",
+      "32,339,827"
+     ],
+     [
+      "1930",
+      "21,192,064",
+      "1,600,000",
+      "3,752,468",
+      "—",
+      "26,544,532"
+     ],
+     [
+      "1931",
+      "22,944,655",
+      "1,600,000",
+      "79,281",
+      "1,500,000",
+      "26,123,936"
+     ],
+     [
+      "1932",
+      "19,001,609",
+      "1,600,000",
+      "826,744",
+      "1,000,000",
+      "22,428,353"
+     ],
+     [
+      "1933",
+      "21,511,620",
+      "1,600,000",
+      "1,774,673",
+      "2,955,241",
+      "27,841,498"
+     ],
+     [
+      "1934",
+      "33,408,070",
+      "1,000,000",
+      "5,626,912",
+      "4,615",
+      "40,039,597"
+     ],
+     [
+      "1935",
+      "27,565,141",
+      "—",
+      "15,339,451",
+      "—",
+      "42,904,592"
+     ],
+     [
+      "1936",
+      "32,842,000",
+      "185,000",
+      "15,442,000",
+      "—",
+      "48,469,000"
+     ],
+     [
+      "1937",
+      "41,762,000",
+      "—",
+      "15,241,000",
+      "—",
+      "57,003,000"
+     ]
+    ]
+   }
+  ],
+  "footnotes": [],
+  "transcriber_notes": [
+   "Row totals (sum of four sources = Total): reconcile except: 1915 (parts 2,009,812 vs 2,009,912, diff 100); 1918 (parts 5,691,763 vs 5,692,761, diff 998); 1919 (parts 7,764,268 vs 7,764,269, diff 1); 1920 (parts 11,395,287 vs 11,395,291, diff 4); 1921 (parts 15,773,200 vs 15,775,205, diff 2,005); 1922 (parts 20,801,555 vs 20,801,558, diff 3); 1923 (parts 21,457,266 vs 21,452,266, diff -5,000); 1924 (parts 19,356,519 vs 19,357,520, diff 1,001); 1925 (parts 18,678,759 vs 18,678,760, diff 1); 1928 (parts 32,746,370 vs 32,646,370, diff -100,000); 1929 (parts 32,339,828 vs 32,339,827, diff -1); 1933 (parts 27,841,534 vs 27,841,498, diff -36)",
+   "1916 Taxes: last digits \"76\" slightly overprinted/smudged but legible as 2,058,576.",
+   "Rows 1915, 1923, 1924, 1925, 1928 re-read at high zoom; figures confirmed as printed. Discrepancies left uncorrected."
+  ],
+  "id": "p0997_1",
+  "scans": [
+   {
+    "label": "scan leaf 997",
+    "url": "https://archive.org/details/japan-year-book-1939-1940/page/n997/mode/1up"
+   }
+  ]
+ },
+ {
+  "image": "p0998",
+  "images": [
+   "p0998"
+  ],
+  "printed_pages": [
+   "954"
+  ],
+  "chapter": "Karafuto (Saghalien)",
+  "table_no": null,
+  "title": "Military Training Camps",
+  "caption_extra": null,
+  "continued": false,
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "Town",
+     "No. of Camps",
+     "Attendants"
+    ],
+    "rows": [
+     [
+      "Toyohara",
+      "8",
+      "—"
+     ],
+     [
+      "Ohtomari",
+      "9",
+      "—"
+     ],
+     [
+      "Honto",
+      "9",
+      "—"
+     ],
+     [
+      "Maoka",
+      "7",
+      "—"
+     ],
+     [
+      "Tomarioru",
+      "9",
+      "—"
+     ],
+     [
+      "Motodomari",
+      "3",
+      "—"
+     ],
+     [
+      "Shisuka",
+      "6",
+      "—"
+     ],
+     [
+      "Total",
+      "51",
+      ""
+     ]
+    ]
+   }
+  ],
+  "footnotes": [],
+  "transcriber_notes": [
+   "No. of Camps Total 51: parts sum to 51 — reconciles",
+   "Attendants given only as a total (3,030); individual towns printed as dashes.",
+   "\"Honto\" printed with a damaged initial (looks like \"llonto\").",
+   "Row \"Total\", col \"Attendants\": reads 3,0?0, where the third digit could be 3 or 8 (checked on both copies of this page, leaves p0998 and p1000). Cell left blank."
+  ],
+  "id": "p0998_1",
+  "scans": [
+   {
+    "label": "scan leaf 998",
+    "url": "https://archive.org/details/japan-year-book-1939-1940/page/n998/mode/1up"
+   }
+  ]
+ },
+ {
+  "image": "p0998",
+  "images": [
+   "p0998"
+  ],
+  "printed_pages": [
+   "954"
+  ],
+  "chapter": "Karafuto (Saghalien)",
+  "table_no": null,
+  "title": "[Overseas trade of Karafuto, 1928-1937]",
+  "caption_extra": "Overseas Trade — (In yen)",
+  "continued": false,
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "Year",
+     "To Foreign Countries",
+     "To Japan proper",
+     "Total"
+    ],
+    "rows": [
+     [
+      "1928",
+      "937,710",
+      "97,000,380",
+      "97,938,090"
+     ],
+     [
+      "1929",
+      "2,042,652",
+      "103,034,631",
+      "105,077,283"
+     ],
+     [
+      "1930",
+      "2,335,126",
+      "82,140,506",
+      "84,475,632"
+     ],
+     [
+      "1931",
+      "841,655",
+      "80,233,395",
+      "81,075,050"
+     ],
+     [
+      "1932",
+      "274,447",
+      "92,626,343",
+      "92,900,790"
+     ],
+     [
+      "1933",
+      "367,088",
+      "104,886,093",
+      "105,253,181"
+     ],
+     [
+      "1934",
+      "430,644",
+      "133,777,256",
+      "134,207,900"
+     ],
+     [
+      "1935",
+      "867,965",
+      "130,940,201",
+      "131,808,166"
+     ],
+     [
+      "1936",
+      "402,848",
+      "173,207,406",
+      "173,610,254"
+     ],
+     [
+      "1937",
+      "235,001",
+      "121,137,965",
+      "121,372,966"
+     ]
+    ]
+   }
+  ],
+  "footnotes": [],
+  "transcriber_notes": [
+   "Row totals: all reconcile",
+   "\"To Japan proper\" 1928-1936 equals the Total of the following Shipments table; for 1937 it equals Outward-bound (121,137,965) rather than that table's Total (180,252,931)."
+  ],
+  "id": "p0998_2",
+  "scans": [
+   {
+    "label": "scan leaf 998",
+    "url": "https://archive.org/details/japan-year-book-1939-1940/page/n998/mode/1up"
+   }
+  ]
+ },
+ {
+  "image": "p0998",
+  "images": [
+   "p0998"
+  ],
+  "printed_pages": [
+   "954"
+  ],
+  "chapter": "Karafuto (Saghalien)",
+  "table_no": null,
+  "title": "Shipments to and from Japan Proper",
+  "caption_extra": "Overseas Trade — (In yen)",
+  "continued": false,
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "Year",
+     "Outward-bound",
+     "Inward-bound",
+     "Total",
+     "Excess of Outward-bound"
+    ],
+    "rows": [
+     [
+      "1928",
+      "50,915,329",
+      "46,085,051",
+      "97,000,380",
+      "4,830,278"
+     ],
+     [
+      "1929",
+      "56,388,752",
+      "46,645,879",
+      "103,034,631",
+      "9,742,873"
+     ],
+     [
+      "1930",
+      "46,812,144",
+      "35,328,362",
+      "82,140,506",
+      "11,483,782"
+     ],
+     [
+      "1931",
+      "50,984,860",
+      "29,248,535",
+      "80,233,395",
+      "21,736,325"
+     ],
+     [
+      "1932",
+      "63,510,076",
+      "29,116,267",
+      "92,626,343",
+      "34,393,809"
+     ],
+     [
+      "1933",
+      "73,455,524",
+      "31,430,569",
+      "104,886,093",
+      "42,024,955"
+     ],
+     [
+      "1934",
+      "96,648,171",
+      "37,129,083",
+      "133,777,256",
+      "59,519,086"
+     ],
+     [
+      "1935",
+      "92,884,992",
+      "38,055,209",
+      "130,940,201",
+      "54,829,783"
+     ],
+     [
+      "1936",
+      "119,435,796",
+      "53,771,610",
+      "173,207,406",
+      "65,664,186"
+     ],
+     [
+      "1937",
+      "121,137,965",
+      "59,114,966",
+      "180,252,931",
+      "62,022,999"
+     ]
+    ]
+   }
+  ],
+  "footnotes": [],
+  "transcriber_notes": [
+   "Total = Outward + Inward: reconcile except: 1934 (parts 133,777,254 vs 133,777,256)",
+   "Excess = Outward - Inward: reconcile except: 1934 (outward-inward 59,519,088 vs 59,519,086)"
+  ],
+  "id": "p0998_3",
+  "scans": [
+   {
+    "label": "scan leaf 998",
+    "url": "https://archive.org/details/japan-year-book-1939-1940/page/n998/mode/1up"
+   }
+  ]
+ },
+ {
+  "image": "p0999",
+  "images": [
+   "p0999"
+  ],
+  "printed_pages": [
+   "955"
+  ],
+  "chapter": "Karafuto (Saghalien)",
+  "table_no": null,
+  "title": "Export Trade of Karafuto",
+  "caption_extra": "Trade with Foreign Countries — (In yen)",
+  "continued": false,
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "Country",
+     "1932",
+     "1933",
+     "1934",
+     "1935",
+     "1936",
+     "1937"
+    ],
+    "rows": [
+     [
+      "Manchoukuo",
+      "—",
+      "81,834",
+      "12,321",
+      "152",
+      "40",
+      "—"
+     ],
+     [
+      "Soviet Russia",
+      "—",
+      "8,000",
+      "6,851",
+      "—",
+      "—",
+      "—"
+     ],
+     [
+      "China",
+      "898",
+      "—",
+      "500",
+      "9,511",
+      "35,743",
+      "97,098"
+     ],
+     [
+      "Kwantung Leased Territory",
+      "4,347",
+      "18,049",
+      "1,952",
+      "23,317",
+      "78,154",
+      "82,848"
+     ],
+     [
+      "America and European Countries",
+      "212",
+      "—",
+      "—",
+      "—",
+      "—",
+      "55,055"
+     ],
+     [
+      "Total",
+      "8,558",
+      "107,883",
+      "21,624",
+      "32,980",
+      "113,937",
+      "235,001"
+     ]
+    ]
+   }
+  ],
+  "footnotes": [],
+  "transcriber_notes": [
+   "1932 Total 8,558: parts sum to 5,457 — does NOT reconcile (diff 3,101)",
+   "1933 Total 107,883: parts sum to 107,883 — reconciles",
+   "1934 Total 21,624: parts sum to 21,624 — reconciles",
+   "1935 Total 32,980: parts sum to 32,980 — reconciles",
+   "1936 Total 113,937: parts sum to 113,937 — reconciles",
+   "1937 Total 235,001: parts sum to 235,001 — reconciles"
+  ],
+  "id": "p0999_1",
+  "scans": [
+   {
+    "label": "scan leaf 999",
+    "url": "https://archive.org/details/japan-year-book-1939-1940/page/n999/mode/1up"
+   }
+  ]
+ },
+ {
+  "image": "p0999",
+  "images": [
+   "p0999"
+  ],
+  "printed_pages": [
+   "955"
+  ],
+  "chapter": "Karafuto (Saghalien)",
+  "table_no": null,
+  "title": "Import Trade of Karafuto",
+  "caption_extra": "Trade with Foreign Countries — (In yen)",
+  "continued": false,
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "Country",
+     "1932",
+     "1933",
+     "1934",
+     "1935",
+     "1936",
+     "1937"
+    ],
+    "rows": [
+     [
+      "Manchoukuo",
+      "—",
+      "1,340",
+      "1,570",
+      "—",
+      "—",
+      "—"
+     ],
+     [
+      "Soviet Russia",
+      "192",
+      "5,413",
+      "3,680",
+      "2",
+      "—",
+      "404"
+     ],
+     [
+      "China",
+      "76",
+      "—",
+      "—",
+      "5",
+      "—",
+      "—"
+     ],
+     [
+      "Kwantung Leased Territory",
+      "76,679",
+      "126,069",
+      "248,832",
+      "173,552",
+      "234,566",
+      "284,863"
+     ],
+     [
+      "America and European Countries",
+      "188,267",
+      "126,293",
+      "154,938",
+      "661,426",
+      "54,345",
+      "3,395"
+     ],
+     [
+      "Total",
+      "265,889",
+      "259,205",
+      "490,020",
+      "834,985",
+      "288,911",
+      "288,662"
+     ]
+    ]
+   }
+  ],
+  "footnotes": [],
+  "transcriber_notes": [
+   "1932 Total 265,889: parts sum to 265,214 — does NOT reconcile (diff 675)",
+   "1933 Total 259,205: parts sum to 259,115 — does NOT reconcile (diff 90)",
+   "1934 Total 490,020: parts sum to 409,020 — does NOT reconcile (diff 81,000)",
+   "1935 Total 834,985: parts sum to 834,985 — reconciles",
+   "1936 Total 288,911: parts sum to 288,911 — reconciles",
+   "1937 Total 288,662: parts sum to 288,662 — reconciles",
+   "1934 Total printed 490,020 (re-read); parts sum to 409,020, and the printed 1934 excess of imports (387,396) equals 409,020 - 21,624, suggesting a transposition in the printed total. Not corrected."
+  ],
+  "id": "p0999_2",
+  "scans": [
+   {
+    "label": "scan leaf 999",
+    "url": "https://archive.org/details/japan-year-book-1939-1940/page/n999/mode/1up"
+   }
+  ]
+ },
+ {
+  "image": "p0999",
+  "images": [
+   "p0999"
+  ],
+  "printed_pages": [
+   "955"
+  ],
+  "chapter": "Karafuto (Saghalien)",
+  "table_no": null,
+  "title": "Excess of Imports over Exports; Excess of Exports over Imports",
+  "caption_extra": "Trade with Foreign Countries — (In yen)",
+  "continued": false,
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "Item",
+     "1931",
+     "1932",
+     "1933",
+     "1934",
+     "1935",
+     "1936",
+     "1937"
+    ],
+    "rows": [
+     [
+      "Excess of imports over exports",
+      "—",
+      "257,331",
+      "151,322",
+      "387,396",
+      "802,005",
+      "174,974",
+      "53,661"
+     ],
+     [
+      "Excess of exports over imports",
+      "429,666",
+      "—",
+      "—",
+      "—",
+      "—",
+      "—",
+      "—"
+     ]
+    ]
+   }
+  ],
+  "footnotes": [],
+  "transcriber_notes": [
+   "Two small one-row tables printed consecutively; combined here as two rows.",
+   "1932: import total - export total = 257,331 vs printed 257,331 — reconciles",
+   "1933: import total - export total = 151,322 vs printed 151,322 — reconciles",
+   "1934: import total - export total = 468,396 vs printed 387,396 — does NOT reconcile",
+   "1935: import total - export total = 802,005 vs printed 802,005 — reconciles",
+   "1936: import total - export total = 174,974 vs printed 174,974 — reconciles",
+   "1937: import total - export total = 53,661 vs printed 53,661 — reconciles"
+  ],
+  "id": "p0999_3",
+  "scans": [
+   {
+    "label": "scan leaf 999",
+    "url": "https://archive.org/details/japan-year-book-1939-1940/page/n999/mode/1up"
+   }
+  ]
+ },
+ {
   "image": "p1001",
   "images": [
    "p1001"
@@ -166068,6 +169792,441 @@
   ]
  },
  {
+  "image": "p1029",
+  "images": [
+   "p1029",
+   "p1030"
+  ],
+  "printed_pages": [
+   "983",
+   "984"
+  ],
+  "chapter": "Manchoukuo",
+  "table_no": null,
+  "title": "[The new Government organization of Manchoukuo]",
+  "caption_extra": "Government — Changes of Government System",
+  "continued": false,
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "Organ",
+     "Level (indentation)",
+     "Under"
+    ],
+    "rows": [
+     [
+      "H. I. M. The Emperor",
+      "0",
+      ""
+     ],
+     [
+      "Imperial Household Dept.",
+      "1",
+      "H. I. M. The Emperor"
+     ],
+     [
+      "Committee on Imperial House Law",
+      "1",
+      "H. I. M. The Emperor"
+     ],
+     [
+      "Office of the Privy Seal",
+      "1",
+      "H. I. M. The Emperor"
+     ],
+     [
+      "Office of Aides-de-Camp",
+      "1",
+      "H. I. M. The Emperor"
+     ],
+     [
+      "Legislative Council",
+      "1",
+      "H. I. M. The Emperor"
+     ],
+     [
+      "Privy Council",
+      "1",
+      "H. I. M. The Emperor"
+     ],
+     [
+      "State Council",
+      "1",
+      "H. I. M. The Emperor"
+     ],
+     [
+      "Bureau of Audit",
+      "1",
+      "H. I. M. The Emperor"
+     ],
+     [
+      "Council on Decorations",
+      "1",
+      "H. I. M. The Emperor"
+     ],
+     [
+      "Board of Decorations",
+      "1",
+      "H. I. M. The Emperor"
+     ],
+     [
+      "Office of Foreign Affairs",
+      "1",
+      "H. I. M. The Emperor"
+     ],
+     [
+      "Secretariat",
+      "2",
+      "Office of Foreign Affairs"
+     ],
+     [
+      "Bureau of Political Affairs",
+      "2",
+      "Office of Foreign Affairs"
+     ],
+     [
+      "Bureau of Investigation",
+      "2",
+      "Office of Foreign Affairs"
+     ],
+     [
+      "General Affairs Board",
+      "1",
+      "H. I. M. The Emperor"
+     ],
+     [
+      "Council on Planning",
+      "2",
+      "General Affairs Board"
+     ],
+     [
+      "Secretariat",
+      "2",
+      "General Affairs Board"
+     ],
+     [
+      "Bureau of Planning",
+      "2",
+      "General Affairs Board"
+     ],
+     [
+      "Bureau of Accounts",
+      "2",
+      "General Affairs Board"
+     ],
+     [
+      "Bureaus of Legislation",
+      "2",
+      "General Affairs Board"
+     ],
+     [
+      "Bureau of Personnel",
+      "2",
+      "General Affairs Board"
+     ],
+     [
+      "Bureau of Statistics",
+      "2",
+      "General Affairs Board"
+     ],
+     [
+      "Bureau of Information",
+      "2",
+      "General Affairs Board"
+     ],
+     [
+      "Cadastre Adjustment Bureau",
+      "2",
+      "General Affairs Board"
+     ],
+     [
+      "Bureau of Supplies and Repairs",
+      "2",
+      "General Affairs Board"
+     ],
+     [
+      "Office of Home Affairs",
+      "1",
+      "H. I. M. The Emperor"
+     ],
+     [
+      "Secretariat",
+      "2",
+      "Office of Home Affairs"
+     ],
+     [
+      "Bureau of Management",
+      "2",
+      "Office of Home Affairs"
+     ],
+     [
+      "Bureau of Supervision",
+      "2",
+      "Office of Home Affairs"
+     ],
+     [
+      "Office of Hsingan Affairs",
+      "1",
+      "H. I. M. The Emperor"
+     ],
+     [
+      "Dept. of Public Peace",
+      "1",
+      "H. I. M. The Emperor"
+     ],
+     [
+      "Secretariat",
+      "2",
+      "Dept. of Public Peace"
+     ],
+     [
+      "Bureau of General Staff",
+      "2",
+      "Dept. of Public Peace"
+     ],
+     [
+      "Bureau of Military Affairs",
+      "2",
+      "Dept. of Public Peace"
+     ],
+     [
+      "Bureau of Police Affairs",
+      "2",
+      "Dept. of Public Peace"
+     ],
+     [
+      "Dept. of People's Welfare",
+      "1",
+      "H. I. M. The Emperor"
+     ],
+     [
+      "Institute of Cultural Research",
+      "2",
+      "Dept. of People's Welfare"
+     ],
+     [
+      "Secretariat",
+      "2",
+      "Dept. of People's Welfare"
+     ],
+     [
+      "Bureau of Education",
+      "2",
+      "Dept. of People's Welfare"
+     ],
+     [
+      "Bureau of Social Affairs",
+      "2",
+      "Dept. of People's Welfare"
+     ],
+     [
+      "Bureau of Public Health",
+      "2",
+      "Dept. of People's Welfare"
+     ],
+     [
+      "Health Equipment Dept.",
+      "2",
+      "Dept. of People's Welfare"
+     ],
+     [
+      "Dept. of Industry",
+      "1",
+      "H. I. M. The Emperor"
+     ],
+     [
+      "Central Meteorological Observatory",
+      "2",
+      "Dept. of Industry"
+     ],
+     [
+      "Secretariat",
+      "2",
+      "Dept. of Industry"
+     ],
+     [
+      "Bureau of Agricultural Affairs",
+      "2",
+      "Dept. of Industry"
+     ],
+     [
+      "Bureau of Mining and Industry",
+      "2",
+      "Dept. of Industry"
+     ],
+     [
+      "Bureau of Construction",
+      "2",
+      "Dept. of Industry"
+     ],
+     [
+      "Bureau of Colonial Administration",
+      "2",
+      "Dept. of Industry"
+     ],
+     [
+      "Bureau of Live-Stock Farming",
+      "2",
+      "Dept. of Industry"
+     ],
+     [
+      "Forestry Bureau",
+      "2",
+      "Dept. of Industry"
+     ],
+     [
+      "Patent Bureau",
+      "2",
+      "Dept. of Industry"
+     ],
+     [
+      "Hydro-Electric Power Construction Bureau",
+      "2",
+      "Dept. of Industry"
+     ],
+     [
+      "Dept. of Finance and Commerce",
+      "1",
+      "H. I. M. The Emperor"
+     ],
+     [
+      "General Monopoly Office",
+      "2",
+      "Dept. of Finance and Commerce"
+     ],
+     [
+      "Secretariat",
+      "2",
+      "Dept. of Finance and Commerce"
+     ],
+     [
+      "Bureau of Commercial Affairs",
+      "2",
+      "Dept. of Finance and Commerce"
+     ],
+     [
+      "Bureau of Revenue",
+      "2",
+      "Dept. of Finance and Commerce"
+     ],
+     [
+      "Bureau of Finance",
+      "2",
+      "Dept. of Finance and Commerce"
+     ],
+     [
+      "Dept. of Communications",
+      "1",
+      "H. I. M. The Emperor"
+     ],
+     [
+      "General Postal Administration Bureau",
+      "2",
+      "Dept. of Communications"
+     ],
+     [
+      "Secretariat",
+      "2",
+      "Dept. of Communications"
+     ],
+     [
+      "Bureau of Railways",
+      "2",
+      "Dept. of Communications"
+     ],
+     [
+      "Bureau of Roads",
+      "2",
+      "Dept. of Communications"
+     ],
+     [
+      "Bureau of Navigation",
+      "2",
+      "Dept. of Communications"
+     ],
+     [
+      "Dept. of Justice",
+      "1",
+      "H. I. M. The Emperor"
+     ],
+     [
+      "Secretariat",
+      "2",
+      "Dept. of Justice"
+     ],
+     [
+      "Bureau of Civil Affairs",
+      "2",
+      "Dept. of Justice"
+     ],
+     [
+      "Bureau of Criminal Affairs",
+      "2",
+      "Dept. of Justice"
+     ],
+     [
+      "Bureau of Penal Administration",
+      "2",
+      "Dept. of Justice"
+     ],
+     [
+      "Courts",
+      "1",
+      "H. I. M. The Emperor"
+     ],
+     [
+      "Procurator's Offices",
+      "1",
+      "H. I. M. The Emperor"
+     ],
+     [
+      "Offices of Special Municipalities",
+      "1",
+      "H. I. M. The Emperor"
+     ],
+     [
+      "Provincial Government Offices",
+      "1",
+      "H. I. M. The Emperor"
+     ],
+     [
+      "Hsingan Provincial Government Offices",
+      "1",
+      "H. I. M. The Emperor"
+     ],
+     [
+      "Metropolitan Police Board",
+      "1",
+      "H. I. M. The Emperor"
+     ],
+     [
+      "Capital Construction Bureau",
+      "1",
+      "H. I. M. The Emperor"
+     ]
+    ]
+   }
+  ],
+  "footnotes": [],
+  "transcriber_notes": [
+   "Indented one-per-line list of government organs (introduced 'The new Government organization of Manchoukuo is as follows:'), made into a table per the 'lists count too' rule. 'Level' records the printed indentation (0 = flush, 1 = first indent, 2 = second indent); 'Under' is the nearest preceding entry one level up, inferred from the indentation, not printed",
+   "List runs from the foot of the right column of p. 983 to the top of the left column of p. 984",
+   "'Hydro-Electric Power Construction Bureau' is printed over two lines"
+  ],
+  "id": "p1029_1",
+  "scans": [
+   {
+    "label": "scan leaf 1029",
+    "url": "https://archive.org/details/japan-year-book-1939-1940/page/n1029/mode/1up"
+   },
+   {
+    "label": "scan leaf 1030",
+    "url": "https://archive.org/details/japan-year-book-1939-1940/page/n1030/mode/1up"
+   }
+  ]
+ },
+ {
   "image": "p1031",
   "images": [
    "p1031"
@@ -168357,6 +172516,916 @@
    {
     "label": "scan leaf 1051",
     "url": "https://archive.org/details/japan-year-book-1939-1940/page/n1051/mode/1up"
+   }
+  ]
+ },
+ {
+  "image": "p1052",
+  "images": [
+   "p1052"
+  ],
+  "printed_pages": [
+   "1006"
+  ],
+  "chapter": "Manchoukuo",
+  "table_no": null,
+  "title": "Number of Companies, December 31, 1938",
+  "caption_extra": "(In 1,000 Yuan)",
+  "continued": false,
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "Classifications",
+     "No.",
+     "Authorized Capital",
+     "Paid-up Capital"
+    ],
+    "rows": [
+     [
+      "Banking",
+      "53",
+      "87,466",
+      "45,903"
+     ],
+     [
+      "Exchange",
+      "12",
+      "26,685",
+      "9,435"
+     ],
+     [
+      "Cooperative Finance",
+      "13",
+      "2,310",
+      "1,102"
+     ],
+     [
+      "Brokerage",
+      "165",
+      "79,728",
+      "34,889"
+     ],
+     [
+      "Commercial",
+      "1,809",
+      "150,682",
+      "114,410"
+     ],
+     [
+      "Market",
+      "10",
+      "1,285",
+      "1,134"
+     ],
+     [
+      "Textile, Dye",
+      "52",
+      "87,898",
+      "43,945"
+     ],
+     [
+      "Chemical",
+      "119",
+      "262,640",
+      "127,729"
+     ],
+     [
+      "Metal, Machinery",
+      "115",
+      "259,094",
+      "212,695"
+     ],
+     [
+      "Lumber, Wood Works",
+      "91",
+      "30,550",
+      "16,062"
+     ],
+     [
+      "Foodstuffs",
+      "216",
+      "75,402",
+      "47,439"
+     ],
+     [
+      "Misc. Industries",
+      "119",
+      "114,818",
+      "95,858"
+     ],
+     [
+      "Ceramics",
+      "186",
+      "734,114",
+      "603,331"
+     ],
+     [
+      "Electricity, Gas",
+      "28",
+      "190,739",
+      "144,103"
+     ],
+     [
+      "Transportation, Express",
+      "164",
+      "902,581",
+      "761,824"
+     ],
+     [
+      "Warehousing, Insurance, Press",
+      "21",
+      "64,220",
+      "41,313"
+     ],
+     [
+      "Real Estate, Building",
+      "151",
+      "89,846",
+      "44,406"
+     ],
+     [
+      "Colonial Development",
+      "119",
+      "733,722",
+      "82,627"
+     ],
+     [
+      "Contract, Coolie Supply",
+      "212",
+      "37,358",
+      "29,210"
+     ],
+     [
+      "Newspaper, Printing",
+      "61",
+      "13,794",
+      "9,373"
+     ],
+     [
+      "Hotel, Amusement",
+      "51",
+      "11,142",
+      ""
+     ],
+     [
+      "Miscellaneous",
+      "121",
+      "6,449",
+      "4,150"
+     ],
+     [
+      "Total",
+      "3,888",
+      "3,362,523",
+      "2,478,805"
+     ]
+    ]
+   }
+  ],
+  "footnotes": [],
+  "transcriber_notes": [
+   "Total 'No.' 3,888: parts sum to 3,888 — reconciles",
+   "Total 'Authorized Capital' 3,362,523: parts sum to 3,962,523 — does NOT reconcile (diff -600,000)",
+   "Total 'Paid-up Capital' 2,478,805: parts sum to 2,470,938 — does NOT reconcile (diff 7,867)",
+   "Row 'Hotel, Amusement', col 'Paid-up Capital': third digit damaged (reads '7,8?8' — the damaged glyph could be 5, 3 or 8); left blank. With the blank excluded the other parts sum as stated above; the printed total 2,478,805 would imply 7,867 for this cell, which is not consistent with the visible '7,8_8' — so the column does not reconcile whatever the digit.",
+   "Authorized Capital: diff is exactly 600,000; the large figures Ceramics 734,114 and Colonial Development 733,722 were re-read at high magnification and are clearly printed as such. Not corrected."
+  ],
+  "id": "p1052_1",
+  "scans": [
+   {
+    "label": "scan leaf 1052",
+    "url": "https://archive.org/details/japan-year-book-1939-1940/page/n1052/mode/1up"
+   }
+  ]
+ },
+ {
+  "image": "p1053",
+  "images": [
+   "p1053"
+  ],
+  "printed_pages": [
+   "1007"
+  ],
+  "chapter": "Manchoukuo",
+  "table_no": null,
+  "title": "Number of Factories in Tiehsi, Mukden",
+  "caption_extra": "(as of January 31, 1939, per the preceding text)",
+  "continued": false,
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "Industries",
+     "In Operation",
+     "Under Construction",
+     "Being Projected",
+     "Total"
+    ],
+    "rows": [
+     [
+      "Textile",
+      "5",
+      "2",
+      "3",
+      "10"
+     ],
+     [
+      "Metal",
+      "30",
+      "7",
+      "9",
+      "46"
+     ],
+     [
+      "Machinery, Tools",
+      "15",
+      "6",
+      "12",
+      "33"
+     ],
+     [
+      "Chemical",
+      "10",
+      "12",
+      "12",
+      "34"
+     ],
+     [
+      "Food-stuff",
+      "15",
+      "1",
+      "1",
+      "17"
+     ],
+     [
+      "Ceramic",
+      "5",
+      "3",
+      "2",
+      "10"
+     ],
+     [
+      "Lumber, Wood Works",
+      "8",
+      "0",
+      "3",
+      "11"
+     ],
+     [
+      "Miscellaneous",
+      "19",
+      "5",
+      "6",
+      "30"
+     ],
+     [
+      "Total",
+      "107",
+      "36",
+      "48",
+      "191"
+     ]
+    ]
+   }
+  ],
+  "footnotes": [],
+  "transcriber_notes": [
+   "Total 'In Operation' 107: parts sum to 107 — reconciles",
+   "Total 'Under Construction' 36: parts sum to 36 — reconciles",
+   "Total 'Being Projected' 48: parts sum to 48 — reconciles",
+   "Total 'Total' 191: parts sum to 191 — reconciles",
+   "Row 'Textile': parts sum to 10 vs Total 10 — reconciles",
+   "Row 'Metal': parts sum to 46 vs Total 46 — reconciles",
+   "Row 'Machinery, Tools': parts sum to 33 vs Total 33 — reconciles",
+   "Row 'Chemical': parts sum to 34 vs Total 34 — reconciles",
+   "Row 'Food-stuff': parts sum to 17 vs Total 17 — reconciles",
+   "Row 'Ceramic': parts sum to 10 vs Total 10 — reconciles",
+   "Row 'Lumber, Wood Works': parts sum to 11 vs Total 11 — reconciles",
+   "Row 'Miscellaneous': parts sum to 30 vs Total 30 — reconciles",
+   "Row 'Total': parts sum to 191 vs Total 191 — reconciles"
+  ],
+  "id": "p1053_1",
+  "scans": [
+   {
+    "label": "scan leaf 1053",
+    "url": "https://archive.org/details/japan-year-book-1939-1940/page/n1053/mode/1up"
+   }
+  ]
+ },
+ {
+  "image": "p1054",
+  "images": [
+   "p1054"
+  ],
+  "printed_pages": [
+   "1008"
+  ],
+  "chapter": "Manchoukuo",
+  "table_no": null,
+  "title": "Japanese Investments in Manchuria, 1936-1938",
+  "caption_extra": "(In 1,000 Yen)",
+  "continued": false,
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "Specifications",
+     "1936",
+     "1937",
+     "1938"
+    ],
+    "rows": [
+     [
+      "S. M. S. Share Payments",
+      "36,000",
+      "56,000",
+      "20,000"
+     ],
+     [
+      "S. M. R. Debenture Increase",
+      "154,775",
+      "21,000",
+      "115,000"
+     ],
+     [
+      "S. M. R. Borrowings",
+      "75,550",
+      "84,000",
+      "89,000"
+     ],
+     [
+      "S. M. R. Subsidiary Shares Sold",
+      "17,205",
+      "—",
+      "1,344"
+     ],
+     [
+      "Net Increase in Debentures and Borrowings of Leading Companies in Manchuria",
+      "31,750",
+      "20,050",
+      "28,700"
+     ],
+     [
+      "Paid-Up Capital of New Companies",
+      "36,046",
+      "34,144",
+      "91,613"
+     ],
+     [
+      "Paid-Up Capital of Old Companies",
+      "23,394",
+      "50,719",
+      "42,285"
+     ],
+     [
+      "Manchoukuo Loans",
+      "2,000",
+      "2,000",
+      "2,000"
+     ],
+     [
+      "Manchoukuo National Bonds",
+      "4,000",
+      "6,000",
+      "8,000"
+     ],
+     [
+      "Manchoukuo Borrowings for N. M. R.",
+      "15,400",
+      "38,360",
+      "38,360"
+     ],
+     [
+      "Manchoukuo N. M. R. Bonds",
+      "60,000",
+      "—",
+      "50,000"
+     ],
+     [
+      "Manchoukuo Investment Bonds",
+      "—",
+      "—",
+      "600"
+     ],
+     [
+      "Manchoukuo Special Enterprises Bonds",
+      "—",
+      "—",
+      "100,000"
+     ],
+     [
+      "Manchuria Industrial Bank Bonds",
+      "—",
+      "45,000",
+      "—"
+     ],
+     [
+      "Total",
+      "262,995",
+      "341,272",
+      "430,981"
+     ]
+    ]
+   }
+  ],
+  "footnotes": [],
+  "transcriber_notes": [
+   "Total '1936' 262,995: parts sum to 456,120 — does NOT reconcile (diff -193,125)",
+   "Total '1937' 341,272: parts sum to 357,273 — does NOT reconcile (diff -16,001)",
+   "Total '1938' 430,981: parts sum to 586,902 — does NOT reconcile (diff -155,921)",
+   "'S. M. S. Share Payments' as printed (presumably S. M. R.).",
+   "1938 'Paid-Up Capital of New Companies' printed '91 613' with the comma not visible; digits clear.",
+   "Totals also match the figures given in the preceding text (¥262,995,000; ¥341,272,000; ¥430,981,000).",
+   "The large discrepancies (all three years) persist after re-reading every cell; the listed items are evidently not simply additive (some items presumably overlap or are netted), so the non-reconciliation is structural, not a reading problem. Figures as printed."
+  ],
+  "id": "p1054_1",
+  "scans": [
+   {
+    "label": "scan leaf 1054",
+    "url": "https://archive.org/details/japan-year-book-1939-1940/page/n1054/mode/1up"
+   }
+  ]
+ },
+ {
+  "image": "p1054",
+  "images": [
+   "p1054"
+  ],
+  "printed_pages": [
+   "1008"
+  ],
+  "chapter": "Manchoukuo",
+  "table_no": null,
+  "title": "[Foreign investments in Manchoukuo in 1933, by country]",
+  "caption_extra": "Foreign Investments — The foreign investments in Manchoukuo in 1933 ... according to the statistics compiled by the South Manchuria Railway Company",
+  "continued": false,
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "Country",
+     "Amount of Investments",
+     "%"
+    ],
+    "rows": [
+     [
+      "Japan",
+      "¥1,510,755,000",
+      "73.201"
+     ],
+     [
+      "Russia",
+      "465,051,000",
+      "22.531"
+     ],
+     [
+      "Great Britain",
+      "39,590,000",
+      "1.918"
+     ],
+     [
+      "United States",
+      "26,400,000",
+      "1.279"
+     ],
+     [
+      "France",
+      "21,086,000",
+      "1.022"
+     ],
+     [
+      "Sweden",
+      "850,000",
+      "0.041"
+     ],
+     [
+      "Denmark",
+      "157,000",
+      "0.008"
+     ],
+     [
+      "Total",
+      "2,063,880,000",
+      "100.000"
+     ]
+    ]
+   }
+  ],
+  "footnotes": [],
+  "transcriber_notes": [
+   "Total 'Amount of Investments' 2,063,880,000: parts sum to 2,063,889,000 — does NOT reconcile (diff -9,000)",
+   "Amount column re-read; figures as printed.",
+   "Total '%' 100.000: parts sum to 100.000 — reconciles",
+   "Preceding text gives the total as ¥2,063,850,000, whereas the table total prints 2,063,880,000."
+  ],
+  "id": "p1054_2",
+  "scans": [
+   {
+    "label": "scan leaf 1054",
+    "url": "https://archive.org/details/japan-year-book-1939-1940/page/n1054/mode/1up"
+   }
+  ]
+ },
+ {
+  "image": "p1054",
+  "images": [
+   "p1054"
+  ],
+  "printed_pages": [
+   "1008"
+  ],
+  "chapter": "Manchoukuo",
+  "table_no": null,
+  "title": "Area of Arable Land in Manchuria",
+  "caption_extra": "(Unit: hectare) — Arable Land: The area of arable land in Manchoukuo in 1935 follows:",
+  "continued": false,
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "Provinces",
+     "Total Area",
+     "Arable Land"
+    ],
+    "rows": [
+     [
+      "Kirin",
+      "11,276,777",
+      "4,618,860"
+     ],
+     [
+      "Lungkiang",
+      "16,042,130",
+      "8,223,280"
+     ],
+     [
+      "Heiho",
+      "2,858,260",
+      "873,180"
+     ],
+     [
+      "Sankiang",
+      "9,685,380",
+      "4,090,750"
+     ],
+     [
+      "Pinkiang",
+      "16,882,840",
+      "6,347,340"
+     ],
+     [
+      "Chientao",
+      "4,629,220",
+      "1,853,780"
+     ],
+     [
+      "Antung",
+      "8,160,250",
+      "425,000"
+     ],
+     [
+      "Fentien",
+      "7,068,350",
+      "3,252,560"
+     ],
+     [
+      "Chinchow",
+      "2,290,330",
+      "795,090"
+     ],
+     [
+      "Jehol",
+      "13,606,060",
+      "1,217,930"
+     ],
+     [
+      "Total",
+      "92,499,590",
+      "31,697,870"
+     ]
+    ]
+   }
+  ],
+  "footnotes": [],
+  "transcriber_notes": [
+   "Total 'Total Area' 92,499,590: parts sum to 92,499,597 — does NOT reconcile (diff -7)",
+   "Total 'Arable Land' 31,697,870: parts sum to 31,697,770 — does NOT reconcile (diff 100)",
+   "All cells re-read at high magnification; figures as printed."
+  ],
+  "id": "p1054_3",
+  "scans": [
+   {
+    "label": "scan leaf 1054",
+    "url": "https://archive.org/details/japan-year-book-1939-1940/page/n1054/mode/1up"
+   }
+  ]
+ },
+ {
+  "image": "p1055",
+  "images": [
+   "p1055"
+  ],
+  "printed_pages": [
+   "1009"
+  ],
+  "chapter": "Manchoukuo",
+  "table_no": null,
+  "title": "Cultivated Areas and Production of Cereals",
+  "caption_extra": null,
+  "continued": false,
+  "parts": [
+   {
+    "label": "Cultivated Areas (In hectares)",
+    "columns": [
+     "Year",
+     "Soya Beans",
+     "Other Legumes",
+     "Kaoliang",
+     "Millet",
+     "Maize",
+     "Wheat",
+     "Paddy-field Rice",
+     "Upland Rice",
+     "Other Cereals"
+    ],
+    "rows": [
+     [
+      "1929",
+      "3,989,920",
+      "347,350",
+      "2,965,150",
+      "2,131,780",
+      "876,220",
+      "1,297,150",
+      "88,280",
+      "111,890",
+      "1,043,520"
+     ],
+     [
+      "1930",
+      "4,118,450",
+      "350,220",
+      "3,031,420",
+      "2,209,670",
+      "865,520",
+      "1,381,200",
+      "98,140",
+      "108,380",
+      "1,086,320"
+     ],
+     [
+      "1931",
+      "4,200,590",
+      "313,490",
+      "2,980,490",
+      "2,232,320",
+      "987,710",
+      "1,586,160",
+      "81,800",
+      "118,500",
+      "1,232,190"
+     ],
+     [
+      "1932",
+      "3,878,610",
+      "300,580",
+      "2,661,360",
+      "2,156,690",
+      "979,990",
+      "1,395,150",
+      "62,980",
+      "105,270",
+      "1,124,250"
+     ],
+     [
+      "1933",
+      "4,000,670",
+      "323,350",
+      "2,658,430",
+      "2,380,850",
+      "1,101,950",
+      "1,373,950",
+      "79,360",
+      "104,760",
+      "1,218,020"
+     ],
+     [
+      "1934",
+      "3,050,000",
+      "429,000",
+      "2,969,000",
+      "2,516,000",
+      "1,076,000",
+      "748,000",
+      "113,000",
+      "107,000",
+      "1,033,000"
+     ],
+     [
+      "1935",
+      "3,249,000",
+      "329,000",
+      "2,764,000",
+      "2,394,000",
+      "1,235,000",
+      "979,000",
+      "120,000",
+      "114,000",
+      "955,000"
+     ],
+     [
+      "1936",
+      "3,302,000",
+      "347,000",
+      "2,855,000",
+      "2,457,000",
+      "1,254,000",
+      "1,216,000",
+      "175,220",
+      "114,229",
+      "977,000"
+     ],
+     [
+      "1937",
+      "3,590,000",
+      "375,000",
+      "3,046,000",
+      "2,613,000",
+      "1,418,000",
+      "1,216,000",
+      "210,909",
+      "104,544",
+      "1,036,000"
+     ],
+     [
+      "1938",
+      "3,614,300",
+      "355,906",
+      "3,095,750",
+      "2,723,755",
+      "1,669,267",
+      "1,085,261",
+      "244,079",
+      "95,558",
+      "1,012,816"
+     ]
+    ]
+   },
+   {
+    "label": "Production (In metric tons)",
+    "columns": [
+     "Year",
+     "Soya Beans",
+     "Other Legumes",
+     "Kaoliang",
+     "Millet",
+     "Maize",
+     "Wheat",
+     "Paddy-field Rice",
+     "Upland Rice",
+     "Other Cereals"
+    ],
+    "rows": [
+     [
+      "1929",
+      "4,849,460",
+      "377,490",
+      "4,681,560",
+      "3,351,960",
+      "1,613,290",
+      "1,302,230",
+      "136,820",
+      "156,270",
+      "1,593,690"
+     ],
+     [
+      "1930",
+      "5,297,820",
+      "369,270",
+      "4,779,690",
+      "3,276,480",
+      "1,585,680",
+      "1,356,660",
+      "154,350",
+      "157,840",
+      "1,722,760"
+     ],
+     [
+      "1931",
+      "5,227,010",
+      "312,820",
+      "4,497,490",
+      "2,960,020",
+      "1,701,110",
+      "1,580,310",
+      "158,640",
+      "162,800",
+      "1,852,670"
+     ],
+     [
+      "1932",
+      "4,267,890",
+      "277,670",
+      "3,729,360",
+      "2,615,370",
+      "1,541,850",
+      "1,133,090",
+      "109,790",
+      "137,310",
+      "1,550,390"
+     ],
+     [
+      "1933",
+      "5,205,170",
+      "325,320",
+      "4,229,440",
+      "3,273,020",
+      "1,868,290",
+      "1,429,810",
+      "164,880",
+      "148,160",
+      "1,832,950"
+     ],
+     [
+      "1934",
+      "3,841,000",
+      "265,000",
+      "3,784,000",
+      "2,280,000",
+      "1,516,000",
+      "645,000",
+      "190,000",
+      "129,000",
+      "1,513,000"
+     ],
+     [
+      "1935",
+      "3,889,000",
+      "292,000",
+      "3,970,000",
+      "3,030,000",
+      "1,828,000",
+      "947,000",
+      "",
+      "155,433",
+      "1,092,000"
+     ],
+     [
+      "1936",
+      "4,175,000",
+      "329,000",
+      "3,980,000",
+      "3,037,000",
+      "2,099,000",
+      "882,000",
+      "523,709",
+      "134,433",
+      "1,021,000"
+     ],
+     [
+      "1937",
+      "4,173,078",
+      "316,817",
+      "4,098,208",
+      "3,184,989",
+      "2,126,825",
+      "1,079,183",
+      "523,709",
+      "134,433",
+      ""
+     ],
+     [
+      "1938",
+      "4,185,774",
+      "305,053",
+      "4,152,406",
+      "3,049,291",
+      "2,440,535",
+      "854,326",
+      "577,765",
+      "118,242",
+      ""
+     ]
+    ]
+   }
+  ],
+  "footnotes": [],
+  "transcriber_notes": [
+   "No printed totals.",
+   "Cultivated Areas, 1938 'Other Legumes': middle digit slightly broken but legible as 5 (355,906).",
+   "Production, 1931 'Paddy-field Rice': second digit partly broken but legible as 5 (158,640).",
+   "Production, 1935 'Paddy-field Rice': second digit damaged (appears '4?2,215', probably 4); left blank.",
+   "Production, 1937 'Other Cereals': printed '1,03? 636' — fourth digit damaged (possibly 9); left blank.",
+   "Production, 1938 'Other Cereals': printed '1,002,??8' — hundreds and tens digits lost (a trace of what may be 4 before the final 8); left blank.",
+   "Production 1936 and 1937 Paddy-field Rice (523,709) and Upland Rice (134,433) are printed identically in both years — transcribed as printed.",
+   "Column header in Production part printed 'Raddy-field Rice' (misprint for Paddy-field); normalised to 'Paddy-field Rice'."
+  ],
+  "id": "p1055_1",
+  "scans": [
+   {
+    "label": "scan leaf 1055",
+    "url": "https://archive.org/details/japan-year-book-1939-1940/page/n1055/mode/1up"
    }
   ]
  },
@@ -171624,6 +176693,739 @@
   ]
  },
  {
+  "image": "p1080",
+  "images": [
+   "p1080"
+  ],
+  "printed_pages": [
+   "1036"
+  ],
+  "chapter": "Manchoukuo",
+  "table_no": null,
+  "title": "Number of Preachers",
+  "caption_extra": "Education and Religion — Religion",
+  "continued": false,
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "Provinces",
+     "Buddhism",
+     "Taoism",
+     "Mohammedanism",
+     "Lamaism",
+     "Roman Catholics",
+     "Protestants"
+    ],
+    "rows": [
+     [
+      "Fengtien",
+      "1,324",
+      "786",
+      "132",
+      "324",
+      "131",
+      "235"
+     ],
+     [
+      "Kirin",
+      "311",
+      "570",
+      "172",
+      "—",
+      "73",
+      "232"
+     ],
+     [
+      "Lungkiang",
+      "196",
+      "131",
+      "31",
+      "—",
+      "22",
+      "36"
+     ],
+     [
+      "North Manchuria",
+      "49",
+      "8",
+      "11",
+      "12",
+      "67",
+      "63"
+     ],
+     [
+      "Hsinking Special Municipality",
+      "85",
+      "3",
+      "1",
+      "—",
+      "9",
+      "15"
+     ],
+     [
+      "Total",
+      "1,965",
+      "1,498",
+      "347",
+      "336",
+      "302",
+      "582"
+     ]
+    ]
+   }
+  ],
+  "footnotes": [],
+  "transcriber_notes": [
+   "Column 'Buddhism' Total 1,965: parts sum to 1,965 — reconciles",
+   "Column 'Taoism' Total 1,498: parts sum to 1,498 — reconciles",
+   "Column 'Mohammedanism' Total 347: parts sum to 347 — reconciles",
+   "Column 'Lamaism' Total 336: parts sum to 336 — reconciles",
+   "Column 'Roman Catholics' Total 302: parts sum to 302 — reconciles",
+   "Column 'Protestants' Total 582: parts sum to 581 — does NOT reconcile (diff 1)"
+  ],
+  "id": "p1080_1",
+  "scans": [
+   {
+    "label": "scan leaf 1080",
+    "url": "https://archive.org/details/japan-year-book-1939-1940/page/n1080/mode/1up"
+   }
+  ]
+ },
+ {
+  "image": "p1080",
+  "images": [
+   "p1080"
+  ],
+  "printed_pages": [
+   "1036"
+  ],
+  "chapter": "Manchoukuo",
+  "table_no": null,
+  "title": "Number of Believers",
+  "caption_extra": "Education and Religion — Religion",
+  "continued": false,
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "Provinces",
+     "Buddhism",
+     "Taoism",
+     "Mohammedanism",
+     "Lamaism",
+     "Roman Catholics",
+     "Protestants"
+    ],
+    "rows": [
+     [
+      "Fengtien",
+      "697,316",
+      "22,408",
+      "79,850",
+      "276",
+      "27,843",
+      "18,277"
+     ],
+     [
+      "Kirin",
+      "39,933",
+      "12,994",
+      "30,885",
+      "—",
+      "11,735",
+      "8,373"
+     ],
+     [
+      "Lungkiang",
+      "5,777",
+      "1,329",
+      "7,086",
+      "—",
+      "10,779",
+      "648"
+     ],
+     [
+      "North Manchuria Special District",
+      "10,921",
+      "373",
+      "31,076",
+      "3,182",
+      "13,776",
+      "4,437"
+     ],
+     [
+      "Hsinking Special Municipality",
+      "2,522",
+      "30",
+      "2,300",
+      "—",
+      "130",
+      "458"
+     ],
+     [
+      "Total",
+      "756,469",
+      "37,134",
+      "151,197",
+      "3,458",
+      "64,263",
+      "32,192"
+     ]
+    ]
+   }
+  ],
+  "footnotes": [],
+  "transcriber_notes": [
+   "Column 'Buddhism' Total 756,469: parts sum to 756,469 — reconciles",
+   "Column 'Taoism' Total 37,134: parts sum to 37,134 — reconciles",
+   "Column 'Mohammedanism' Total 151,197: parts sum to 151,197 — reconciles",
+   "Column 'Lamaism' Total 3,458: parts sum to 3,458 — reconciles",
+   "Column 'Roman Catholics' Total 64,263: parts sum to 64,263 — reconciles",
+   "Column 'Protestants' Total 32,192: parts sum to 32,193 — does NOT reconcile (diff -1)"
+  ],
+  "id": "p1080_2",
+  "scans": [
+   {
+    "label": "scan leaf 1080",
+    "url": "https://archive.org/details/japan-year-book-1939-1940/page/n1080/mode/1up"
+   }
+  ]
+ },
+ {
+  "image": "p1080",
+  "images": [
+   "p1080"
+  ],
+  "printed_pages": [
+   "1036"
+  ],
+  "chapter": "Manchoukuo",
+  "table_no": null,
+  "title": "Number of Temples and Churches",
+  "caption_extra": "Education and Religion — Religion",
+  "continued": false,
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "Provinces",
+     "Buddhism",
+     "Taoism",
+     "Mohammedanism",
+     "Lamaism",
+     "Roman Catholics",
+     "Protestants"
+    ],
+    "rows": [
+     [
+      "Fengtien",
+      "652",
+      "319",
+      "90",
+      "22",
+      "63",
+      "136"
+     ],
+     [
+      "Kirin",
+      "74",
+      "133",
+      "32",
+      "—",
+      "27",
+      "51"
+     ],
+     [
+      "Lungkiang",
+      "42",
+      "28",
+      "15",
+      "—",
+      "13",
+      "16"
+     ],
+     [
+      "North Manchuria Special District",
+      "15",
+      "5",
+      "12",
+      "6",
+      "19",
+      "27"
+     ],
+     [
+      "Hsinking Special Municipality",
+      "10",
+      "3",
+      "1",
+      "—",
+      "2",
+      "4"
+     ],
+     [
+      "Total",
+      "793",
+      "488",
+      "150",
+      "28",
+      "121",
+      "234"
+     ]
+    ]
+   }
+  ],
+  "footnotes": [],
+  "transcriber_notes": [
+   "Column 'Buddhism' Total 793: parts sum to 793 — reconciles",
+   "Column 'Taoism' Total 488: parts sum to 488 — reconciles",
+   "Column 'Mohammedanism' Total 150: parts sum to 150 — reconciles",
+   "Column 'Lamaism' Total 28: parts sum to 28 — reconciles",
+   "Column 'Roman Catholics' Total 121: parts sum to 124 — does NOT reconcile (diff -3)",
+   "Column 'Protestants' Total 234: parts sum to 234 — reconciles"
+  ],
+  "id": "p1080_3",
+  "scans": [
+   {
+    "label": "scan leaf 1080",
+    "url": "https://archive.org/details/japan-year-book-1939-1940/page/n1080/mode/1up"
+   }
+  ]
+ },
+ {
+  "image": "p1081",
+  "images": [
+   "p1081"
+  ],
+  "printed_pages": [
+   "1037"
+  ],
+  "chapter": "Manchoukuo",
+  "table_no": null,
+  "title": "[Number of places with public physicians and private hospitals, by province]",
+  "caption_extra": "Medicine and Sanitation — Medical Institution",
+  "continued": false,
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "Province",
+     "No. of Places — Public Physicians",
+     "No. of Places — Private Hospitals"
+    ],
+    "rows": [
+     [
+      "Fengtien",
+      "5",
+      "1"
+     ],
+     [
+      "Pingkiang",
+      "9",
+      "2"
+     ],
+     [
+      "Sankiang",
+      "8",
+      "2"
+     ],
+     [
+      "Kirin",
+      "6",
+      "2"
+     ],
+     [
+      "Chinchow",
+      "5",
+      "1"
+     ],
+     [
+      "Heiho",
+      "2",
+      "1"
+     ],
+     [
+      "Lungkiang",
+      "10",
+      "2"
+     ],
+     [
+      "Antung",
+      "5",
+      "1"
+     ],
+     [
+      "Hsingan (4 prov.)",
+      "7",
+      "1"
+     ],
+     [
+      "Jehol",
+      "10",
+      "1"
+     ],
+     [
+      "Chientao",
+      "3",
+      "1"
+     ]
+    ]
+   }
+  ],
+  "footnotes": [],
+  "transcriber_notes": [
+   "Side-by-side layout (two blocks) merged in reading order.",
+   "No totals printed."
+  ],
+  "id": "p1081_1",
+  "scans": [
+   {
+    "label": "scan leaf 1081",
+    "url": "https://archive.org/details/japan-year-book-1939-1940/page/n1081/mode/1up"
+   }
+  ]
+ },
+ {
+  "image": "p1081",
+  "images": [
+   "p1081"
+  ],
+  "printed_pages": [
+   "1037"
+  ],
+  "chapter": "Manchoukuo",
+  "table_no": null,
+  "title": "[Medical organs under management of railways, Red Cross, foundations and religious bodies]",
+  "caption_extra": "Medicine and Sanitation — Medical Institution",
+  "continued": false,
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "Management",
+     "Number"
+    ],
+    "rows": [
+     [
+      "Under management of",
+      ""
+     ],
+     [
+      "The General Direction of State Railway",
+      "30"
+     ],
+     [
+      "The South Manchuria Railway",
+      "29"
+     ],
+     [
+      "Under management of",
+      ""
+     ],
+     [
+      "Public hospitals run by the South Manchuria Railway",
+      "13"
+     ],
+     [
+      "The Red Cross Society",
+      "10"
+     ],
+     [
+      "Various foundations",
+      "6"
+     ],
+     [
+      "Religious bodies",
+      "28"
+     ],
+     [
+      "Municipal and hsien offices",
+      "19"
+     ],
+     [
+      "Associations affiliated with social welfare works",
+      "34"
+     ],
+     [
+      "Those which belong to the military",
+      "7"
+     ],
+     [
+      "National asylums for opium addicts",
+      "10"
+     ]
+    ]
+   }
+  ],
+  "footnotes": [],
+  "transcriber_notes": [
+   "Runs from foot of left column to top of right column; merged. Indentation (sub-items) as printed: the second 'Under management of' heading leads into 'Public hospitals run by the South Manchuria Railway' at the top of the right column; wording as printed.",
+   "No total printed."
+  ],
+  "id": "p1081_2",
+  "scans": [
+   {
+    "label": "scan leaf 1081",
+    "url": "https://archive.org/details/japan-year-book-1939-1940/page/n1081/mode/1up"
+   }
+  ]
+ },
+ {
+  "image": "p1081",
+  "images": [
+   "p1081"
+  ],
+  "printed_pages": [
+   "1037"
+  ],
+  "chapter": "Manchoukuo",
+  "table_no": null,
+  "title": "[Number of physicians, dentists, mid-wives, pharmacists and drug stores]",
+  "caption_extra": "Medicine and Sanitation",
+  "continued": false,
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "Category",
+     "Fengtien",
+     "Kirin",
+     "Lungkiang",
+     "Tungsheng Special District",
+     "Total"
+    ],
+    "rows": [
+     [
+      "Physicians",
+      "",
+      "",
+      "",
+      "",
+      ""
+     ],
+     [
+      "Practitioners in Chinese medicine",
+      "3,284",
+      "495",
+      "398",
+      "99",
+      "4,276"
+     ],
+     [
+      "Ordinary physicians",
+      "658",
+      "133",
+      "121",
+      "287",
+      "1,199"
+     ],
+     [
+      "Dentists",
+      "125",
+      "12",
+      "5",
+      "183",
+      "326"
+     ],
+     [
+      "Mid-wives",
+      "",
+      "",
+      "",
+      "",
+      ""
+     ],
+     [
+      "Old-fashioned",
+      "1,564",
+      "9",
+      "27",
+      "8",
+      "1,608"
+     ],
+     [
+      "New-styled",
+      "600",
+      "4",
+      "39",
+      "7",
+      "650"
+     ],
+     [
+      "Pharmacists",
+      "441",
+      "?",
+      "?",
+      "?",
+      "441"
+     ],
+     [
+      "Drug stores",
+      "",
+      "",
+      "",
+      "",
+      ""
+     ],
+     [
+      "Chinese drug",
+      "995",
+      "?",
+      "?",
+      "?",
+      "996"
+     ],
+     [
+      "Western medicine",
+      "229",
+      "?",
+      "?",
+      "?",
+      "229"
+     ]
+    ]
+   }
+  ],
+  "footnotes": [],
+  "transcriber_notes": [
+   "Practitioners in Chinese medicine: parts sum to 4,276 vs printed 4,276 — reconciles",
+   "Ordinary physicians: parts sum to 1,199 vs printed 1,199 — reconciles",
+   "Dentists: parts sum to 325 vs printed 326 — does NOT reconcile (diff 1)",
+   "Old-fashioned: parts sum to 1,608 vs printed 1,608 — reconciles",
+   "New-styled: parts sum to 650 vs printed 650 — reconciles",
+   "'?' printed in the source for Kirin, Lungkiang and Tungsheng in Pharmacists and Drug stores rows (figures unknown), transcribed as printed. Chinese drug: Fengtien 995 vs Total 996 — does NOT reconcile (diff 1) if the '?' cells are nil."
+  ],
+  "id": "p1081_3",
+  "scans": [
+   {
+    "label": "scan leaf 1081",
+    "url": "https://archive.org/details/japan-year-book-1939-1940/page/n1081/mode/1up"
+   }
+  ]
+ },
+ {
+  "image": "p1082",
+  "images": [
+   "p1082"
+  ],
+  "printed_pages": [
+   "1038"
+  ],
+  "chapter": "Manchoukuo",
+  "table_no": null,
+  "title": "[Production and distribution of vaccines and serums, Hygienic Institute, 1928-1930]",
+  "caption_extra": "Medicine and Sanitation — Sanitation",
+  "continued": false,
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "Year",
+     "Vaccines and serums manufactured in cc.",
+     "Products sold or distributed in cc."
+    ],
+    "rows": [
+     [
+      "1928",
+      "21,856,857",
+      "21,128,423"
+     ],
+     [
+      "1929",
+      "25,574,962",
+      "25,513,384"
+     ],
+     [
+      "1930",
+      "30,801,140",
+      "30,728,469"
+     ]
+    ]
+   }
+  ],
+  "footnotes": [],
+  "transcriber_notes": [
+   "No totals printed."
+  ],
+  "id": "p1082_1",
+  "scans": [
+   {
+    "label": "scan leaf 1082",
+    "url": "https://archive.org/details/japan-year-book-1939-1940/page/n1082/mode/1up"
+   }
+  ]
+ },
+ {
+  "image": "p1088",
+  "images": [
+   "p1088"
+  ],
+  "printed_pages": [
+   "1042"
+  ],
+  "chapter": "Manchoukuo",
+  "table_no": null,
+  "title": "[Budget of the Kwantung Leased Territory for the financial year 1936-37]",
+  "caption_extra": "Kwantung Leased Territory — Finance",
+  "continued": false,
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "Item",
+     "Amount"
+    ],
+    "rows": [
+     [
+      "Revenue",
+      ""
+     ],
+     [
+      "Ordinary revenue",
+      "¥4,760,276"
+     ],
+     [
+      "Extraordinary revenue",
+      "¥2,510,243"
+     ],
+     [
+      "Total",
+      "¥7,270,519"
+     ],
+     [
+      "Expenditure",
+      ""
+     ],
+     [
+      "Ordinary expenditure",
+      "¥3,544,089"
+     ],
+     [
+      "Extraordinary expenditure",
+      "¥3,726,430"
+     ],
+     [
+      "Total",
+      "¥7,270,519"
+     ]
+    ]
+   }
+  ],
+  "footnotes": [],
+  "transcriber_notes": [
+   "Revenue Total: parts sum to 7,270,519 vs printed 7,270,519 — reconciles",
+   "Expenditure Total: parts sum to 7,270,519 vs printed 7,270,519 — reconciles",
+   "Ditto marks after 'Extraordinary' expanded to 'revenue'/'expenditure'."
+  ],
+  "id": "p1088_1",
+  "scans": [
+   {
+    "label": "scan leaf 1088",
+    "url": "https://archive.org/details/japan-year-book-1939-1940/page/n1088/mode/1up"
+   }
+  ]
+ },
+ {
   "image": "p1093",
   "images": [
    "p1093"
@@ -174667,6 +180469,1455 @@
   ]
  },
  {
+  "image": "p1108",
+  "printed_pages": [
+   "1060"
+  ],
+  "chapter": "China",
+  "table_no": "1",
+  "title": "Military Expenses",
+  "caption_extra": "Finance. (In one million yuan)",
+  "continued": false,
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "Year",
+     "Amount",
+     "Percentage to Total Expenditure"
+    ],
+    "rows": [
+     [
+      "1930",
+      "312",
+      "40.2"
+     ],
+     [
+      "1931",
+      "304",
+      "40.6"
+     ],
+     [
+      "1932",
+      "321",
+      "45.9"
+     ],
+     [
+      "1933",
+      "373",
+      "44.6"
+     ],
+     [
+      "1934",
+      "384",
+      "41.2"
+     ],
+     [
+      "1935",
+      "321",
+      "33.8"
+     ],
+     [
+      "1936",
+      "322",
+      "33.7"
+     ],
+     [
+      "1937",
+      "392",
+      "39.2"
+     ]
+    ]
+   }
+  ],
+  "footnotes": [
+   "(Note: The underlined figures denote that some of the expenses were defrayed during the preceding fiscal year.)"
+  ],
+  "transcriber_notes": [
+   "No underlining is discernible on the scan; which figures were underlined cannot be determined."
+  ],
+  "images": [
+   "p1108"
+  ],
+  "id": "p1108_1",
+  "scans": [
+   {
+    "label": "scan leaf 1108",
+    "url": "https://archive.org/details/japan-year-book-1939-1940/page/n1108/mode/1up"
+   }
+  ]
+ },
+ {
+  "image": "p1108",
+  "printed_pages": [
+   "1060"
+  ],
+  "chapter": "China",
+  "table_no": "2",
+  "title": "Appropriations for Redemption of Loans & Payment of Indemnity",
+  "caption_extra": "Finance. (In one million yuan)",
+  "continued": false,
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "Year",
+     "Amount",
+     "Percentage to Total Expenditure"
+    ],
+    "rows": [
+     [
+      "1930",
+      "290",
+      "37.5"
+     ],
+     [
+      "1931",
+      "270",
+      "36.1"
+     ],
+     [
+      "1932",
+      "210",
+      "30.0"
+     ],
+     [
+      "1933",
+      "244",
+      "29.2"
+     ],
+     [
+      "1934",
+      "237",
+      "25.2"
+     ],
+     [
+      "1935",
+      "274",
+      "29.6"
+     ],
+     [
+      "1936",
+      "239",
+      "24.4"
+     ],
+     [
+      "1937",
+      "324",
+      "32.4"
+     ]
+    ]
+   }
+  ],
+  "footnotes": [],
+  "transcriber_notes": [],
+  "images": [
+   "p1108"
+  ],
+  "id": "p1108_2",
+  "scans": [
+   {
+    "label": "scan leaf 1108",
+    "url": "https://archive.org/details/japan-year-book-1939-1940/page/n1108/mode/1up"
+   }
+  ]
+ },
+ {
+  "image": "p1108",
+  "printed_pages": [
+   "1060"
+  ],
+  "chapter": "China",
+  "table_no": "3",
+  "title": "Education & Construction Expenses",
+  "caption_extra": "Finance. (In one million yuan)",
+  "continued": false,
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "Year",
+     "Amount",
+     "Percentage to Total Expenditure"
+    ],
+    "rows": [
+     [
+      "1933",
+      "24",
+      "2.8"
+     ],
+     [
+      "1934",
+      "58",
+      "6.2"
+     ],
+     [
+      "1935",
+      "73",
+      "7.6"
+     ],
+     [
+      "1936",
+      "97",
+      "9.7"
+     ],
+     [
+      "1937",
+      "112",
+      "11.2"
+     ]
+    ]
+   }
+  ],
+  "footnotes": [],
+  "transcriber_notes": [],
+  "images": [
+   "p1108"
+  ],
+  "id": "p1108_3",
+  "scans": [
+   {
+    "label": "scan leaf 1108",
+    "url": "https://archive.org/details/japan-year-book-1939-1940/page/n1108/mode/1up"
+   }
+  ]
+ },
+ {
+  "image": "p1108",
+  "printed_pages": [
+   "1060"
+  ],
+  "chapter": "China",
+  "table_no": null,
+  "title": "Principal Sources of Income",
+  "caption_extra": "Finance. (In one million yuan)",
+  "continued": false,
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "Year",
+     "Customs Duty",
+     "Salt Gabelle",
+     "Consolidated Taxes",
+     "Total"
+    ],
+    "rows": [
+     [
+      "1929",
+      "245",
+      "85",
+      "39",
+      "369"
+     ],
+     [
+      "1930",
+      "294",
+      "130",
+      "40",
+      "462"
+     ],
+     [
+      "1931",
+      "389",
+      "115",
+      "74",
+      "618"
+     ],
+     [
+      "1932",
+      "312",
+      "145",
+      "83",
+      "540"
+     ],
+     [
+      "1933",
+      "340",
+      "159",
+      "89",
+      "588"
+     ],
+     [
+      "1934",
+      "335",
+      "176",
+      "113",
+      "624"
+     ],
+     [
+      "1935",
+      "316",
+      "184",
+      "116",
+      "616"
+     ],
+     [
+      "1936",
+      "324",
+      "205",
+      "(132)",
+      "—"
+     ],
+     [
+      "1937",
+      "342",
+      "(228)",
+      "(175)",
+      "—"
+     ]
+    ]
+   }
+  ],
+  "footnotes": [
+   "(Note: The parenthesized figures in the above table are based on the budget estimates of the National Government.)"
+  ],
+  "transcriber_notes": [
+   "Row totals reconcile for 1929, 1932, 1933, 1934, 1935.",
+   "1930: 294+130+40 = 464 vs printed 462 — does NOT reconcile (diff 2).",
+   "1931: 389+115+74 = 578 vs printed 618 — does NOT reconcile (diff 40); re-read at high magnification."
+  ],
+  "images": [
+   "p1108"
+  ],
+  "id": "p1108_4",
+  "scans": [
+   {
+    "label": "scan leaf 1108",
+    "url": "https://archive.org/details/japan-year-book-1939-1940/page/n1108/mode/1up"
+   }
+  ]
+ },
+ {
+  "image": "p1108",
+  "images": [
+   "p1108",
+   "p1109"
+  ],
+  "printed_pages": [
+   "1060",
+   "1061"
+  ],
+  "chapter": "China",
+  "table_no": null,
+  "title": "[Credit associations in the various provinces and their paid-up capital]",
+  "caption_extra": "Banking",
+  "continued": false,
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "Province",
+     "Number of Credit Associations",
+     "Total Amount of Paid-up Capital (Unit: 1,000 yuan)"
+    ],
+    "rows": [
+     [
+      "Kiangsu Province",
+      "188",
+      "29,947"
+     ],
+     [
+      "Chekiang „",
+      "269",
+      "7,563"
+     ],
+     [
+      "Shansi „",
+      "39",
+      "1,587"
+     ],
+     [
+      "Shantung „",
+      "75",
+      "2,292"
+     ],
+     [
+      "Honan „",
+      "25",
+      "2,610"
+     ],
+     [
+      "Shensi „",
+      "6",
+      "155"
+     ],
+     [
+      "Hopei „",
+      "99",
+      "6,718"
+     ],
+     [
+      "Szechwan „",
+      "53",
+      "4,061"
+     ],
+     [
+      "Anhwei „",
+      "17",
+      "445"
+     ],
+     [
+      "Kiangsi „",
+      "73",
+      "2,132"
+     ],
+     [
+      "Hupei „",
+      "55",
+      "2,824"
+     ],
+     [
+      "Hunan „",
+      "59",
+      "1,102"
+     ],
+     [
+      "Fukien „",
+      "85",
+      "5,955"
+     ],
+     [
+      "Kwangtung „",
+      "174",
+      "8,115"
+     ],
+     [
+      "Suiyuan „",
+      "20",
+      "1,376"
+     ],
+     [
+      "Total",
+      "1,217",
+      "76,904"
+     ]
+    ]
+   }
+  ],
+  "footnotes": [],
+  "transcriber_notes": [
+   "Table runs from the foot of p. 1060 to the top of p. 1061 (headings repeated); merged.",
+   "Total Number 1,217: parts sum to 1,237 — does NOT reconcile (diff 20).",
+   "Total Capital 76,904: parts sum to 76,882 — does NOT reconcile (diff 22). Cells re-read."
+  ],
+  "id": "p1108_5",
+  "scans": [
+   {
+    "label": "scan leaf 1108",
+    "url": "https://archive.org/details/japan-year-book-1939-1940/page/n1108/mode/1up"
+   },
+   {
+    "label": "scan leaf 1109",
+    "url": "https://archive.org/details/japan-year-book-1939-1940/page/n1109/mode/1up"
+   }
+  ]
+ },
+ {
+  "image": "p1109",
+  "printed_pages": [
+   "1061"
+  ],
+  "chapter": "China",
+  "table_no": null,
+  "title": "[Total deposits with 28 Chinese banks]",
+  "caption_extra": "Banking. \"the number of Chinese banks with deposits departments is 28, the total deposits being as below:\"",
+  "continued": false,
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "Year",
+     "Total Deposits with 28 Banks (In yuan)"
+    ],
+    "rows": [
+     [
+      "1921",
+      "13,221,332"
+     ],
+     [
+      "1931",
+      "206,668,240"
+     ],
+     [
+      "1932",
+      "246,117,664"
+     ],
+     [
+      "1936",
+      "456,222,902"
+     ]
+    ]
+   }
+  ],
+  "footnotes": [],
+  "transcriber_notes": [],
+  "images": [
+   "p1109"
+  ],
+  "id": "p1109_1",
+  "scans": [
+   {
+    "label": "scan leaf 1109",
+    "url": "https://archive.org/details/japan-year-book-1939-1940/page/n1109/mode/1up"
+   }
+  ]
+ },
+ {
+  "image": "p1109",
+  "images": [
+   "p1109",
+   "p1110"
+  ],
+  "printed_pages": [
+   "1061",
+   "1062"
+  ],
+  "chapter": "China",
+  "table_no": null,
+  "title": "Foreign Banks Operating in China",
+  "caption_extra": "Banking",
+  "continued": false,
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "Bank",
+     "Head Office",
+     "Branches"
+    ],
+    "rows": [
+     [
+      "1. Japanese Banks",
+      "",
+      ""
+     ],
+     [
+      "Yokohama Specie Bank",
+      "Yokohama",
+      "Canton, Hankow, Hongkong, Peking, Shanghai, Tientsin, Tsingtao"
+     ],
+     [
+      "Bank of Chosen",
+      "Keijo (Seoul)",
+      "Shanghai, Tientsin, Tsingtao, Peking"
+     ],
+     [
+      "Bank of Taiwan",
+      "Taihoku",
+      "Shanghai Hankow, Canton, Amoy, Hongkong, Foochow, Swatow"
+     ],
+     [
+      "Kanan Bank",
+      "„",
+      "Foochow, Canton"
+     ],
+     [
+      "Mitsubishi Bank",
+      "Tokyo",
+      "Shanghai"
+     ],
+     [
+      "Mitsui Bank",
+      "„",
+      "„"
+     ],
+     [
+      "Sumitomo Bank",
+      "Osaka",
+      "„"
+     ],
+     [
+      "Bank of Tsinan",
+      "Tsinan",
+      "Tsingtao"
+     ],
+     [
+      "Bank of Tientsin",
+      "Tientsin",
+      "Peking"
+     ],
+     [
+      "Exchange Bank of China",
+      "„",
+      "„ (doing no business now)"
+     ],
+     [
+      "Bank of Hankow",
+      "Hankow",
+      "Shanghai"
+     ],
+     [
+      "2. British Banks:",
+      "",
+      ""
+     ],
+     [
+      "Hongkong & Shanghai Banking Corporation",
+      "Hongkong",
+      "Shanghai, Tientsin, Hankow, Canton, Peking, Tsingtao, Amoy, Chefoo, Foochow"
+     ],
+     [
+      "Chartered Bank of India, China and Australia",
+      "London",
+      "Shanghai, Tientsin, Hankow, Canton, Hongkong, Peking, Tsingtao"
+     ],
+     [
+      "Mercantile Bank of India",
+      "London",
+      "Shanghai, Hongkong"
+     ],
+     [
+      "P. & O. Banking Corporation",
+      "London",
+      "Shanghai, Hongkong"
+     ],
+     [
+      "E. D. Sasson Banking Co.",
+      "Hongkong",
+      "Shanghai"
+     ],
+     [
+      "3. American Banks:",
+      "",
+      ""
+     ],
+     [
+      "National City Bank of New York",
+      "New York",
+      "Canton, Hankow, Hongkong, Peking, Shanghai, Tientsin"
+     ],
+     [
+      "Chase Bank",
+      "„",
+      "Shanghai, Tientsin, Hongkong"
+     ],
+     [
+      "Tientsin Commercial and Credit Corporation, Inc.",
+      "Tientsin",
+      ""
+     ],
+     [
+      "Underwriters Saving Bank for the Far East",
+      "Shanghai",
+      "Hongkong"
+     ],
+     [
+      "4. French Banks:",
+      "",
+      ""
+     ],
+     [
+      "Banque de l'Indochine",
+      "Paris",
+      "Canton, Hankow, Hongkong, Mengtzu, Peking, Shanghai, Tientsin, Kunming"
+     ],
+     [
+      "Banque Franco-Chinoise pour le Commerce et l'Industrie",
+      "Paris",
+      "Peking, Tientsin, Shanghai, Hongkong"
+     ],
+     [
+      "Union Mobilière",
+      "Shanghai",
+      "(Tientsin)"
+     ],
+     [
+      "5. Belgian Banks:",
+      "",
+      ""
+     ],
+     [
+      "Banque Belge pour l'Etranger",
+      "Brussels",
+      "Shanghai, Hankow, Tientsin, Hongkong (stet)"
+     ],
+     [
+      "Credit Foncier d'Extreme-Orient",
+      "„",
+      "Shanghai, Tientsin, Hankow, Peking, Tsinan, Hongkong"
+     ],
+     [
+      "6. Dutch Banks:",
+      "",
+      ""
+     ],
+     [
+      "Nederlandsche Handel Maatschappij N. V.",
+      "Amsterdam",
+      "Shanghai, Hongkong"
+     ],
+     [
+      "Nederlandsche Indische Handels Bank",
+      "„",
+      "Amoy, Shanghai, Hongkong"
+     ],
+     [
+      "7. German Bank:",
+      "",
+      ""
+     ],
+     [
+      "Deutsch Asiatische Bank",
+      "Berlin",
+      "Canton, Hankow, Shanghai, Tientsin, Tsingtao, Peking"
+     ],
+     [
+      "8. Soviet Bank:",
+      "",
+      ""
+     ],
+     [
+      "Moscow Narodny Bank",
+      "Shanghai",
+      ""
+     ],
+     [
+      "9. Italian Bank:",
+      "",
+      ""
+     ],
+     [
+      "Italian Bank for China",
+      "Shanghai",
+      "Tientsin"
+     ],
+     [
+      "10. Portuguese Bank:",
+      "",
+      ""
+     ],
+     [
+      "Banco National Ultramarino",
+      "Lisbon",
+      "Macao, Hongkong"
+     ]
+    ]
+   }
+  ],
+  "footnotes": [],
+  "transcriber_notes": [
+   "List runs from p. 1061 onto the top of p. 1062 (headings repeated); merged.",
+   "Ditto marks „ kept as printed.",
+   "'Hongkong (stet)' printed thus.",
+   "Group headings (1. Japanese Banks ...) kept as heading rows."
+  ],
+  "id": "p1109_2",
+  "scans": [
+   {
+    "label": "scan leaf 1109",
+    "url": "https://archive.org/details/japan-year-book-1939-1940/page/n1109/mode/1up"
+   },
+   {
+    "label": "scan leaf 1110",
+    "url": "https://archive.org/details/japan-year-book-1939-1940/page/n1110/mode/1up"
+   }
+  ]
+ },
+ {
+  "image": "p1110",
+  "printed_pages": [
+   "1062"
+  ],
+  "chapter": "China",
+  "table_no": null,
+  "title": "[Notes issued by the four government banks]",
+  "caption_extra": "Monetary System. \"(The figures are given in units of 1,000 yuan)\"",
+  "continued": false,
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "Date",
+     "Central Bank",
+     "Bank of China",
+     "Bank of Communications",
+     "Farmers' Bank",
+     "Total"
+    ],
+    "rows": [
+     [
+      "End of December, 1935",
+      "176,065",
+      "286,245",
+      "176,244",
+      "29,847",
+      ""
+     ],
+     [
+      "End of December, 1936",
+      "325,592",
+      "459,310",
+      "295,045",
+      "162,014",
+      ""
+     ],
+     [
+      "End of December, 1937",
+      "430,608",
+      "606,548",
+      "371,144",
+      "230,798",
+      ""
+     ],
+     [
+      "End of January, 1938",
+      "432,244",
+      "623,324",
+      "372,927",
+      "244,142",
+      ""
+     ],
+     [
+      "End of February, 1938",
+      "441,650",
+      "632,986",
+      "361,143",
+      "261,409",
+      "1,777,188"
+     ],
+     [
+      "End of March 1938",
+      "444,354",
+      "654,188",
+      "319,013",
+      "261,632",
+      "1,679,187"
+     ]
+    ]
+   }
+  ],
+  "footnotes": [],
+  "transcriber_notes": [
+   "Total column is badly printed/damaged for the first four rows; those cells left blank.",
+   "Total, Dec. 1935: reads '668,4?2' (fifth digit damaged); parts sum to 668,401.",
+   "Total, Dec. 1936: reads '1,241,9?2' (last three digits damaged); parts sum to 1,241,961.",
+   "Total, Dec. 1937: reads '1,639,?48' (thousands-group first digit damaged); parts sum to 1,639,098.",
+   "Total, Jan. 1938: reads '1,677,6?7' (damaged); parts sum to 1,672,637 — would not reconcile whatever the damaged digit.",
+   "Total, Feb. 1938 1,777,188 (last digits slightly broken but legible): parts sum to 1,697,188 — does NOT reconcile (diff 80,000).",
+   "Total, Mar. 1938 1,679,187: parts sum to 1,679,187 — reconciles."
+  ],
+  "images": [
+   "p1110"
+  ],
+  "id": "p1110_1",
+  "scans": [
+   {
+    "label": "scan leaf 1110",
+    "url": "https://archive.org/details/japan-year-book-1939-1940/page/n1110/mode/1up"
+   }
+  ]
+ },
+ {
+  "image": "p1111",
+  "printed_pages": [
+   "1063"
+  ],
+  "chapter": "China",
+  "table_no": null,
+  "title": "[Reserves of the four banks against note-issues, end of February 1938]",
+  "caption_extra": "Monetary System. Introduced at the foot of p. 1062: \"The reserves of the aforementioned four banks against note-issues were estimated at the end of February, 1938, to be as follows:\"",
+  "continued": false,
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "Bank",
+     "Coins & Gold and Silver Bars",
+     "Bonds"
+    ],
+    "rows": [
+     [
+      "Central Bank",
+      "285,502,000 yuan",
+      "156,148,000 yuan"
+     ],
+     [
+      "Bank of China",
+      "406,340,000",
+      "226,646,000"
+     ],
+     [
+      "Bank of Communications",
+      "216,808,000",
+      "144,334,000"
+     ],
+     [
+      "Farmers' Bank of China",
+      "175,284,000",
+      "86,125,000"
+     ]
+    ]
+   }
+  ],
+  "footnotes": [],
+  "transcriber_notes": [
+   "No total printed."
+  ],
+  "images": [
+   "p1111"
+  ],
+  "id": "p1111_1",
+  "scans": [
+   {
+    "label": "scan leaf 1111",
+    "url": "https://archive.org/details/japan-year-book-1939-1940/page/n1111/mode/1up"
+   }
+  ]
+ },
+ {
+  "image": "p1111",
+  "printed_pages": [
+   "1063"
+  ],
+  "chapter": "China",
+  "table_no": null,
+  "title": "[Conditions of the Chinese troops in the early stages of the China Affair]",
+  "caption_extra": "National Defence",
+  "continued": false,
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "Route / Army",
+     "Commander",
+     "Affiliation",
+     "Location of Headquarters"
+    ],
+    "rows": [
+     [
+      "First Route",
+      "Chen Tiao-yuan",
+      "Chiang Kai-shek faction",
+      ""
+     ],
+     [
+      "Second Route",
+      "Liu Chih",
+      "„",
+      "Kaifeng"
+     ],
+     [
+      "Third Route",
+      "Han Fu-chu",
+      "Shantung army",
+      "Tsinan"
+     ],
+     [
+      "Fourth Route",
+      "Liu Chien-hsu",
+      "Hunan army",
+      "Chuhsien (Chekiang)"
+     ],
+     [
+      "Eleventh Route",
+      "Liu Mao-en",
+      "Liu Chenhua clique",
+      "Liuan (Anhwei)"
+     ],
+     [
+      "Fifteenth Route",
+      "Ma Hung-kui",
+      "Ninghsia army",
+      "Ninghsia"
+     ],
+     [
+      "Sixteenth Route",
+      "Hsu Yuan-chuan",
+      "Formerly of Chang Tsung-chang clique",
+      "Wanhsien (Szechwan)"
+     ],
+     [
+      "Twentieth Route",
+      "Chang Fang",
+      "Honan mixed army",
+      "Kiangsi"
+     ],
+     [
+      "24th Route",
+      "Ma Lin",
+      "Mohammedan army",
+      "Chinghai"
+     ],
+     [
+      "26th Route",
+      "Sun Lien-chung",
+      "Honan army",
+      "Chengting (Hopei)"
+     ],
+     [
+      "27th Route",
+      "Feng Chin-tsai",
+      "Shensi army",
+      "Tali (Shensi)"
+     ],
+     [
+      "Fourth Route Army",
+      "Yu Han-mou",
+      "Kwangtung army",
+      "Canton"
+     ],
+     [
+      "Fifth Route Army",
+      "Li Tsung-jen",
+      "Kwangsi army",
+      "Kueilin"
+     ],
+     [
+      "Sixth Route Army",
+      "Liu Shiang",
+      "Szechwan army",
+      "Chengtu"
+     ]
+    ]
+   }
+  ],
+  "footnotes": [],
+  "transcriber_notes": [
+   "First Route: Location of Headquarters blank in source.",
+   "Ditto „ kept as printed."
+  ],
+  "images": [
+   "p1111"
+  ],
+  "id": "p1111_2",
+  "scans": [
+   {
+    "label": "scan leaf 1111",
+    "url": "https://archive.org/details/japan-year-book-1939-1940/page/n1111/mode/1up"
+   }
+  ]
+ },
+ {
+  "image": "p1112",
+  "printed_pages": [
+   "1064"
+  ],
+  "chapter": "China",
+  "table_no": null,
+  "title": "[Five points of the League Assembly resolution of October 6th, 1937]",
+  "caption_extra": "Foreign Relations. \"The resolution thus passed contained the following five points:\"",
+  "continued": false,
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "No.",
+     "Item"
+    ],
+    "rows": [
+     [
+      "1",
+      "The president of the Assembly shall be requested to take necessary steps in regard to the proposal for the convocation of a conference of those League members who are signatories to the Nine-Power Treaty."
+     ],
+     [
+      "2",
+      "The Assembly shall express moral support to China."
+     ],
+     [
+      "3",
+      "The Assembly shall recommend to the League nations that they refrain from taking such actions as would weaken the resisting power of China, thereby increasing the difficulties between Japan and China in the present dispute."
+     ],
+     [
+      "4",
+      "The Assembly shall recommend to the League nations that they consider the extent to which they shall assist China."
+     ],
+     [
+      "5",
+      "Although the Assembly has decided to close its session, the president shall be empowered to call a session of the Assembly any time at the request of the committee of 23 members."
+     ]
+    ]
+   }
+  ],
+  "footnotes": [],
+  "transcriber_notes": [
+   "Numbered list in running text; transcribed under the 'lists count too' rule. Line-end hyphenations joined."
+  ],
+  "images": [
+   "p1112"
+  ],
+  "id": "p1112_1",
+  "scans": [
+   {
+    "label": "scan leaf 1112",
+    "url": "https://archive.org/details/japan-year-book-1939-1940/page/n1112/mode/1up"
+   }
+  ]
+ },
+ {
+  "image": "p1113",
+  "printed_pages": [
+   "1065"
+  ],
+  "chapter": "China",
+  "table_no": null,
+  "title": "[Four demands presented by the Japanese Government to the National Government]",
+  "caption_extra": "Foreign Relations — Peace-making Efforts of the German Ambassador. As stated by Foreign Minister Hirota, 72nd Diet session, January 22, 1938.",
+  "continued": false,
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "No.",
+     "Item"
+    ],
+    "rows": [
+     [
+      "1",
+      "China should abandon the pro-Communist and anti-Japanese policy and should cooperate in the anti-Communist policy of Japan and Manchoukuo."
+     ],
+     [
+      "2",
+      "Demilitarized zones should be created within necessary areas and special machineries should be established within the regions concerned."
+     ],
+     [
+      "3",
+      "An agreement on close economic collaboration should be concluded among the three nations of Japan, Manchoukuo and China."
+     ],
+     [
+      "4",
+      "China should pay necessary reparations to the Japanese Empire."
+     ]
+    ]
+   }
+  ],
+  "footnotes": [],
+  "transcriber_notes": [
+   "Numbered list in running text; transcribed under the 'lists count too' rule. '3. Ah agreement' printed thus (misprint for 'An'); normalised to 'An'."
+  ],
+  "images": [
+   "p1113"
+  ],
+  "id": "p1113_1",
+  "scans": [
+   {
+    "label": "scan leaf 1113",
+    "url": "https://archive.org/details/japan-year-book-1939-1940/page/n1113/mode/1up"
+   }
+  ]
+ },
+ {
+  "image": "p1113",
+  "images": [
+   "p1113",
+   "p1114"
+  ],
+  "printed_pages": [
+   "1065",
+   "1066"
+  ],
+  "chapter": "China",
+  "table_no": null,
+  "title": "Foreign Envoys in China",
+  "caption_extra": "Foreign Relations — Lists of Diplomats",
+  "continued": false,
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "Post",
+     "Name",
+     "Date of Arrival at Post — Month",
+     "Date of Arrival at Post — Year"
+    ],
+    "rows": [
+     [
+      "British Ambassador",
+      "Sir Archibald John Kerr Clark Kerr",
+      "Apr.,",
+      "1938"
+     ],
+     [
+      "American „",
+      "Nelson Trusler Johnson",
+      "Sept.,",
+      "1935"
+     ],
+     [
+      "French Ambassador",
+      "Paul Emile Naggiar",
+      "July,",
+      "1936"
+     ],
+     [
+      "German „",
+      "Oscar P. Trautmann",
+      "Sept.,",
+      "1935"
+     ],
+     [
+      "Italian „",
+      "Giuliano Cora",
+      "Apr.,",
+      "1937"
+     ],
+     [
+      "Soviet „",
+      "Luganetz Orelsky",
+      "Dec.,",
+      "1937"
+     ],
+     [
+      "Spanish Minister",
+      "",
+      "",
+      ""
+     ],
+     [
+      "Swedish „",
+      "Baron Johan Beck-Friis",
+      "Aug.,",
+      "1937"
+     ],
+     [
+      "Cuban Chargé d'Affaires",
+      "Francisco Bonacheay Romero",
+      "",
+      ""
+     ],
+     [
+      "Norwegian Minister",
+      "Fin Koreu",
+      "May,",
+      "1935"
+     ],
+     [
+      "Portuguese „",
+      "Armando Navarro",
+      "Dec.,",
+      "1930"
+     ],
+     [
+      "Danish „",
+      "Oscar de Oxholm",
+      "March,",
+      "1933"
+     ],
+     [
+      "Belgian „",
+      "Baron Jules Guillaume",
+      "Sept.,",
+      "1937"
+     ],
+     [
+      "Polish „",
+      "Georges Bartel de Weydenthal",
+      "Jan.,",
+      "1934"
+     ],
+     [
+      "Dutch „",
+      "Baron G. W. de Vos van Steenwyk",
+      "Sept.,",
+      "1935"
+     ],
+     [
+      "Brazilian „",
+      "Renato Lago",
+      "Feb.,",
+      "1936"
+     ],
+     [
+      "Swiss Chargé d'Affaires",
+      "Etienne Lardy",
+      "Jan.,",
+      "1933"
+     ],
+     [
+      "Chilean „",
+      "Eleazar Vega",
+      "Oct.,",
+      "1935"
+     ],
+     [
+      "Peruvian „",
+      "Fernandy Devila",
+      "May,",
+      "1937"
+     ],
+     [
+      "Mexican Minister",
+      "General Francisco J. Aguilar",
+      "Apr.,",
+      "1937"
+     ],
+     [
+      "Finnish „",
+      "Ville Niskanen",
+      "May,",
+      "1937"
+     ]
+    ]
+   }
+  ],
+  "footnotes": [],
+  "transcriber_notes": [
+   "List begins at the foot of p. 1065 and continues on p. 1066 (headings repeated); merged.",
+   "Spanish Minister: name and date blank in source; Cuban Chargé d'Affaires: date blank.",
+   "Ditto marks „ kept as printed."
+  ],
+  "id": "p1113_2",
+  "scans": [
+   {
+    "label": "scan leaf 1113",
+    "url": "https://archive.org/details/japan-year-book-1939-1940/page/n1113/mode/1up"
+   },
+   {
+    "label": "scan leaf 1114",
+    "url": "https://archive.org/details/japan-year-book-1939-1940/page/n1114/mode/1up"
+   }
+  ]
+ },
+ {
+  "image": "p1114",
+  "printed_pages": [
+   "1066"
+  ],
+  "chapter": "China",
+  "table_no": null,
+  "title": "Chinese Envoys Abroad",
+  "caption_extra": "Foreign Relations — Lists of Diplomats",
+  "continued": false,
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "Location of Post",
+     "Office",
+     "Name"
+    ],
+    "rows": [
+     [
+      "Great Britain",
+      "Ambassador",
+      "Quo Tai-chi"
+     ],
+     [
+      "United States",
+      "„",
+      "C. T. Wang"
+     ],
+     [
+      "Soviet Union",
+      "„",
+      "Yang Chieh"
+     ],
+     [
+      "Germany",
+      "„",
+      "Cheng Tien-fang"
+     ],
+     [
+      "France",
+      "„",
+      "V. K. Wellington Koo"
+     ],
+     [
+      "Italy",
+      "„",
+      "Liu Wen-tao"
+     ],
+     [
+      "Holland",
+      "Minister",
+      "Chin Wen-ssu (W King)"
+     ],
+     [
+      "Switzerland",
+      "Minister",
+      "Hu Shih-tseh (C. Hoo)"
+     ],
+     [
+      "Turkey",
+      "„",
+      "Huang Te-chien"
+     ],
+     [
+      "Belgium",
+      "„",
+      "Chien Tai (Tsien Tai)"
+     ],
+     [
+      "Spain",
+      "Chargé d'Affaires",
+      "Wang Te-yen"
+     ],
+     [
+      "Portugal",
+      "Minister",
+      "Li Chin-lun (C. F. Lee)"
+     ],
+     [
+      "Denmark",
+      "„",
+      "Wu Nan-ju"
+     ],
+     [
+      "Brazil",
+      "„",
+      "Hsiung Chung-chih (S. S. Young)"
+     ],
+     [
+      "Peru",
+      "„",
+      "Li Chun"
+     ],
+     [
+      "Mexico",
+      "„",
+      "Tan Shao-hua (S. H. Tan)"
+     ],
+     [
+      "Cuba",
+      "„",
+      "Chu Shih-chuan"
+     ],
+     [
+      "Panama",
+      "„",
+      "Shen Chin-ting (G. D. Shen)"
+     ],
+     [
+      "Chile",
+      "„",
+      "Chang Chien (H. K. Chang)"
+     ],
+     [
+      "Poland",
+      "„",
+      "Wei Chen-tsu"
+     ],
+     [
+      "Sweden",
+      "„",
+      "Wang Ching-chi"
+     ],
+     [
+      "Norway",
+      "„",
+      "„"
+     ]
+    ]
+   }
+  ],
+  "footnotes": [
+   "Delegates to the League of Nations are V. K. Wellington Koo, Quo Tai-chi and Chien Tai."
+  ],
+  "transcriber_notes": [
+   "Ditto marks „ kept as printed. 'W King' printed without a point."
+  ],
+  "images": [
+   "p1114"
+  ],
+  "id": "p1114_1",
+  "scans": [
+   {
+    "label": "scan leaf 1114",
+    "url": "https://archive.org/details/japan-year-book-1939-1940/page/n1114/mode/1up"
+   }
+  ]
+ },
+ {
   "image": "p1121",
   "images": [
    "p1121"
@@ -177064,6 +184315,1551 @@
    {
     "label": "scan leaf 1143",
     "url": "https://archive.org/details/japan-year-book-1939-1940/page/n1143/mode/1up"
+   }
+  ]
+ },
+ {
+  "image": "p1144",
+  "images": [
+   "p1144"
+  ],
+  "printed_pages": [
+   "1096"
+  ],
+  "chapter": "China",
+  "table_no": null,
+  "title": "China's Trade with Japan",
+  "caption_extra": "(In yuan)",
+  "continued": false,
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "",
+     "Jan.-July, 1937",
+     "Aug.-Dec., 1937"
+    ],
+    "rows": [
+     [
+      "Imports",
+      "19,527,000",
+      "2,749,000"
+     ],
+     [
+      "Exports",
+      "10,221,000",
+      "2,553,000"
+     ],
+     [
+      "Total",
+      "29,748,000",
+      "5,302,000"
+     ]
+    ]
+   }
+  ],
+  "footnotes": [],
+  "transcriber_notes": [
+   "Jan.-July 1937: Total 29,748,000, parts sum to 29,748,000 — reconciles",
+   "Aug.-Dec. 1937: Total 5,302,000, parts sum to 5,302,000 — reconciles"
+  ],
+  "id": "p1144_1",
+  "scans": [
+   {
+    "label": "scan leaf 1144",
+    "url": "https://archive.org/details/japan-year-book-1939-1940/page/n1144/mode/1up"
+   }
+  ]
+ },
+ {
+  "image": "p1144",
+  "images": [
+   "p1144"
+  ],
+  "printed_pages": [
+   "1096"
+  ],
+  "chapter": "China",
+  "table_no": null,
+  "title": "[Foreign trade of China classified according to localities]",
+  "caption_extra": "\"The following tables show the changes brought about by the Incident in the foreign trade of China as classified according to localities.\" (In 1,000 yuan)",
+  "continued": false,
+  "parts": [
+   {
+    "label": "1. Imports (In 1,000 yuan)",
+    "columns": [
+     "",
+     "1936 — Amount",
+     "1936 — Percentage",
+     "1937 — Amount",
+     "1937 — Percentage"
+    ],
+    "rows": [
+     [
+      "North China",
+      "140,903",
+      "14.9",
+      "145,790",
+      "15.3"
+     ],
+     [
+      "Central China",
+      "637,697",
+      "67.5",
+      "591,944",
+      "61.9"
+     ],
+     [
+      "South China",
+      "165,923",
+      "17.6",
+      "218,500",
+      "22.8"
+     ],
+     [
+      "Total",
+      "944,523",
+      "100.0",
+      "956,234",
+      "100.0"
+     ]
+    ]
+   },
+   {
+    "label": "2. Export (in 1,000 yuan)",
+    "columns": [
+     "",
+     "1936 — Amount",
+     "1936 — Percentage",
+     "1937 — Amount",
+     "1937 — Percentage"
+    ],
+    "rows": [
+     [
+      "North China",
+      "191,112",
+      "27.0",
+      "215,741",
+      "25.7"
+     ],
+     [
+      "Central China",
+      "380,640",
+      "53.0",
+      "417,025",
+      "49.7"
+     ],
+     [
+      "South China",
+      "135,039",
+      "19.1",
+      "206,004",
+      "24.6"
+     ],
+     [
+      "Total",
+      "706,791",
+      "100.0",
+      "838,770",
+      "100.0"
+     ]
+    ]
+   },
+   {
+    "label": "3. Trade in 1937 (In 1,000 yuan)",
+    "columns": [
+     "",
+     "January-July — Amount",
+     "January-July — Percentage",
+     "August-December — Amount",
+     "August-December — Percentage"
+    ],
+    "rows": [
+     [
+      "Imports",
+      "",
+      "",
+      "",
+      ""
+     ],
+     [
+      "North China",
+      "114,194",
+      "15.6",
+      "31,636",
+      "14.1"
+     ],
+     [
+      "Central China",
+      "500,372",
+      "68.3",
+      "91,572",
+      "40.8"
+     ],
+     [
+      "South China",
+      "117,061",
+      "16.1",
+      "101,439",
+      "45.1"
+     ],
+     [
+      "Total",
+      "731,587",
+      "100.0",
+      "224,647",
+      "100.0"
+     ],
+     [
+      "Exports",
+      "",
+      "",
+      "",
+      ""
+     ],
+     [
+      "North China",
+      "160,452",
+      "28.4",
+      "55,289",
+      "20.7"
+     ],
+     [
+      "Central China",
+      "312,714",
+      "54.6",
+      "104,313",
+      "39.1"
+     ],
+     [
+      "South China",
+      "98,673",
+      "17.0",
+      "107.331",
+      "40.2"
+     ],
+     [
+      "Total",
+      "571,837",
+      "100.0",
+      "266,933",
+      "100.0"
+     ]
+    ]
+   }
+  ],
+  "footnotes": [],
+  "transcriber_notes": [
+   "Three numbered tables kept as parts of one file.",
+   "Part 3, Exports, South China, August-December amount printed \"107.331\" with a full stop in place of a comma; transcribed as printed (read as 107,331 for the check).",
+   "1. Imports — 1936 Amount: Total 944,523, parts sum to 944,523 — reconciles",
+   "1. Imports — 1936 Percentage: Total 100.0, parts sum to 100.0 — reconciles",
+   "1. Imports — 1937 Amount: Total 956,234, parts sum to 956,234 — reconciles",
+   "1. Imports — 1937 Percentage: Total 100.0, parts sum to 100.0 — reconciles",
+   "2. Export — 1936 Amount: Total 706,791, parts sum to 706,791 — reconciles",
+   "2. Export — 1936 Percentage: Total 100.0, parts sum to 99.1 — does NOT reconcile (diff 0.9)",
+   "2. Export — 1937 Amount: Total 838,770, parts sum to 838,770 — reconciles",
+   "2. Export — 1937 Percentage: Total 100.0, parts sum to 100.0 — reconciles",
+   "3. Imports — Jan.-July Amount: Total 731,587, parts sum to 731,627 — does NOT reconcile (diff -40)",
+   "3. Imports — Jan.-July Percentage: Total 100.0, parts sum to 100.0 — reconciles",
+   "3. Imports — Aug.-Dec. Amount: Total 224,647, parts sum to 224,647 — reconciles",
+   "3. Imports — Aug.-Dec. Percentage: Total 100.0, parts sum to 100.0 — reconciles",
+   "3. Exports — Jan.-July Amount: Total 571,837, parts sum to 571,839 — does NOT reconcile (diff -2)",
+   "3. Exports — Jan.-July Percentage: Total 100.0, parts sum to 100.0 — reconciles",
+   "3. Exports — Aug.-Dec. Amount: Total 266,933, parts sum to 266,933 — reconciles",
+   "3. Exports — Aug.-Dec. Percentage: Total 100.0, parts sum to 100.0 — reconciles",
+   "Non-reconciling cells re-read on an enlarged crop; printed figures confirmed. (Central China 1936 export share computes to 53.9% of 706,791, printed 53.0.)"
+  ],
+  "id": "p1144_2",
+  "scans": [
+   {
+    "label": "scan leaf 1144",
+    "url": "https://archive.org/details/japan-year-book-1939-1940/page/n1144/mode/1up"
+   }
+  ]
+ },
+ {
+  "image": "p1145",
+  "images": [
+   "p1145"
+  ],
+  "printed_pages": [
+   "1097"
+  ],
+  "chapter": "China",
+  "table_no": null,
+  "title": "[Foreign trade of China by localities, first quarter 1938 and 1937 (percentages)]",
+  "caption_extra": "\"Details of the change, according to localities, are shown below\"",
+  "continued": false,
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "",
+     "Imports — Jan.-March 1938",
+     "Imports — Jan.-March 1937",
+     "Exports — Jan.-March 1938",
+     "Exports — Jan.-March 1937"
+    ],
+    "rows": [
+     [
+      "North China",
+      "15.48%",
+      "14.47%",
+      "24.74%",
+      "28.61%"
+     ],
+     [
+      "Central China",
+      "24.50",
+      "70.27",
+      "25.55",
+      "52.86"
+     ],
+     [
+      "South China",
+      "60.02",
+      "15.26",
+      "49.71",
+      "18.53"
+     ],
+     [
+      "Kowloon",
+      "43.23",
+      "4.53",
+      "4.34",
+      "0.34"
+     ],
+     [
+      "Canton",
+      "7.15",
+      "3.20",
+      "19.98",
+      "6.16"
+     ]
+    ]
+   }
+  ],
+  "footnotes": [],
+  "transcriber_notes": [
+   "No total printed. Shares of North, Central and South China: Imports 1938: North+Central+South = 100.00; Imports 1937: North+Central+South = 100.00; Exports 1938: North+Central+South = 100.00; Exports 1937: North+Central+South = 100.00 (Kowloon and Canton appear to be sub-items of South China)."
+  ],
+  "id": "p1145_1",
+  "scans": [
+   {
+    "label": "scan leaf 1145",
+    "url": "https://archive.org/details/japan-year-book-1939-1940/page/n1145/mode/1up"
+   }
+  ]
+ },
+ {
+  "image": "p1145",
+  "images": [
+   "p1145"
+  ],
+  "printed_pages": [
+   "1097"
+  ],
+  "chapter": "China",
+  "table_no": null,
+  "title": "[Chinese railways under Japanese control and under the Chiang régime]",
+  "caption_extra": "Railways and Public Highways — (in kilometers)",
+  "continued": false,
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "Name of Railway",
+     "Total track",
+     "Under Japanese control",
+     "Under Chiang régime"
+    ],
+    "rows": [
+     [
+      "North of the Yangtze River",
+      "",
+      "",
+      ""
+     ],
+     [
+      "Peking-Hankow",
+      "1,319",
+      "800",
+      "519"
+     ],
+     [
+      "Tientsin-Pukow",
+      "1,105",
+      "1,105",
+      "—"
+     ],
+     [
+      "Peking-Suiyuan",
+      "878",
+      "878",
+      "—"
+     ],
+     [
+      "Peking-Shanhaikwan",
+      "466",
+      "466",
+      "—"
+     ],
+     [
+      "Kiao-Tsi",
+      "453",
+      "453",
+      "—"
+     ],
+     [
+      "Lung-Hai",
+      "1,226",
+      "530",
+      "696"
+     ],
+     [
+      "Cheng-Tai",
+      "278",
+      "278",
+      "—"
+     ],
+     [
+      "Taokow-Chinghwa",
+      "152",
+      "152",
+      "—"
+     ],
+     [
+      "Tung-Pu",
+      "1,013",
+      "1,013",
+      "—"
+     ],
+     [
+      "Kaifeng-Honan (?)",
+      "214",
+      "214",
+      "—"
+     ],
+     [
+      "South of the Yangtze River",
+      "",
+      "",
+      ""
+     ],
+     [
+      "Nanking-Shanghai",
+      "329",
+      "329",
+      "—"
+     ],
+     [
+      "Shanghai-Hangchow-Ningpo",
+      "209",
+      "209",
+      "—"
+     ],
+     [
+      "Soochow-Chiating",
+      "74",
+      "74",
+      "—"
+     ],
+     [
+      "Canton-Hankow",
+      "1,242",
+      "—",
+      ""
+     ],
+     [
+      "Chekiang-Kiangsi (?)",
+      "650",
+      "—",
+      "650"
+     ],
+     [
+      "Nanchang-Kiukiang",
+      "128",
+      "—",
+      "128"
+     ],
+     [
+      "Canton-Kowloon",
+      "143",
+      "",
+      "—"
+     ],
+     [
+      "Kiangnan",
+      "178",
+      "178",
+      "—"
+     ],
+     [
+      "Total",
+      "10,135",
+      "6,822",
+      "3,147"
+     ]
+    ]
+   }
+  ],
+  "footnotes": [],
+  "transcriber_notes": [
+   "\"(?)\" marks printed in the source.",
+   "Total track: Total 10,135, parts sum to 10,057 — does NOT reconcile (diff 78)",
+   "Under Japanese control: Total 6,822, parts sum to 6,822 — reconciles",
+   "Under Chiang régime: Total 3,147, parts sum to 3,235 — does NOT reconcile (diff -88)",
+   "Row check (Japanese + Chiang = Total track): all rows reconcile",
+   "Non-reconciling columns re-read on an enlarged crop; printed figures confirmed.",
+   "row 'Canton-Hankow', col 'Under Chiang régime': partial reading '1,242 (?)' moved here; cell left blank",
+   "row 'Canton-Kowloon', col 'Under Japanese control': partial reading '143 (?)' moved here; cell left blank"
+  ],
+  "id": "p1145_2",
+  "scans": [
+   {
+    "label": "scan leaf 1145",
+    "url": "https://archive.org/details/japan-year-book-1939-1940/page/n1145/mode/1up"
+   }
+  ]
+ },
+ {
+  "image": "p1149",
+  "images": [
+   "p1149"
+  ],
+  "printed_pages": [
+   "1101"
+  ],
+  "chapter": "China",
+  "table_no": null,
+  "title": "Index Number of Wholesale Prices at Tientsin",
+  "caption_extra": "(Base: 1926=100) — Conditions of North China, Prices Soar",
+  "continued": false,
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "Year",
+     "General",
+     "Foodstuffs",
+     "Clothes",
+     "Metallic goods",
+     "Building material",
+     "Fuel",
+     "Miscellaneous"
+    ],
+    "rows": [
+     [
+      "1931",
+      "122.55",
+      "114.39",
+      "117.03",
+      "145.34",
+      "116.88",
+      "139.43",
+      "132.35"
+     ],
+     [
+      "1934",
+      "92.31",
+      "80.64",
+      "90.73",
+      "105.60",
+      "106.22",
+      "110.99",
+      "97.66"
+     ],
+     [
+      "1936",
+      "110.62",
+      "115.50",
+      "99.07",
+      "116.42",
+      "110.74",
+      "111.40",
+      "98.68"
+     ],
+     [
+      "1938",
+      "168.21",
+      "156.36",
+      "134.98",
+      "241.07",
+      "176.52",
+      "191.24",
+      "165.27"
+     ],
+     [
+      "1939 (Feb.)",
+      "187.14",
+      "173.31",
+      "153.90",
+      "264.82",
+      "207.62",
+      "202.21",
+      "173.93"
+     ]
+    ]
+   }
+  ],
+  "footnotes": [],
+  "transcriber_notes": [
+   "1938 Miscellaneous: decimal separator is faint and may be printed as a comma (\"165,27\"); transcribed with a point."
+  ],
+  "id": "p1149_1",
+  "scans": [
+   {
+    "label": "scan leaf 1149",
+    "url": "https://archive.org/details/japan-year-book-1939-1940/page/n1149/mode/1up"
+   }
+  ]
+ },
+ {
+  "image": "p1149",
+  "images": [
+   "p1149"
+  ],
+  "printed_pages": [
+   "1101"
+  ],
+  "chapter": "China",
+  "table_no": null,
+  "title": "Index Number of Retail Prices at Tientsin",
+  "caption_extra": "(Base: 1930=100)",
+  "continued": false,
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "Year",
+     "General",
+     "Foodstuffs",
+     "Clothes",
+     "Fuel",
+     "Miscellaneous"
+    ],
+    "rows": [
+     [
+      "1937 (Jan.)",
+      "89.75",
+      "88.27",
+      "89.27",
+      "103,41",
+      "85.80"
+     ],
+     [
+      "1938 (Jan.)",
+      "108.93",
+      "112.30",
+      "81.24",
+      "137.72",
+      "106.00"
+     ],
+     [
+      "1939 (Jan.)",
+      "140.57",
+      "142.81",
+      "112.96",
+      "169.74",
+      "136.37"
+     ]
+    ]
+   }
+  ],
+  "footnotes": [],
+  "transcriber_notes": [
+   "1937 (Jan.) Fuel printed \"103,41\" with a comma as decimal separator; transcribed as printed."
+  ],
+  "id": "p1149_2",
+  "scans": [
+   {
+    "label": "scan leaf 1149",
+    "url": "https://archive.org/details/japan-year-book-1939-1940/page/n1149/mode/1up"
+   }
+  ]
+ },
+ {
+  "image": "p1149",
+  "images": [
+   "p1149"
+  ],
+  "printed_pages": [
+   "1101"
+  ],
+  "chapter": "China",
+  "table_no": null,
+  "title": "Index Number of Retail Prices at Peking",
+  "caption_extra": "(Base: April, 1937=100)",
+  "continued": false,
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "Year",
+     "General",
+     "Foodstuffs",
+     "Fuel",
+     "Cotton textiles",
+     "Miscellaneous"
+    ],
+    "rows": [
+     [
+      "1937 (June)",
+      "98.15",
+      "93.23",
+      "99.40",
+      "101.81",
+      "—"
+     ],
+     [
+      "1938 (Jan.)",
+      "111.16",
+      "116.44",
+      "123.06",
+      "105.33",
+      "99.84"
+     ],
+     [
+      "1938 (June)",
+      "134.77",
+      "117.27",
+      "168.27",
+      "135.78",
+      "117.74"
+     ],
+     [
+      "1939 (Jan.)",
+      "141.67",
+      "128.80",
+      "160.34",
+      "138.47",
+      "139.07"
+     ]
+    ]
+   }
+  ],
+  "footnotes": [],
+  "transcriber_notes": [],
+  "id": "p1149_3",
+  "scans": [
+   {
+    "label": "scan leaf 1149",
+    "url": "https://archive.org/details/japan-year-book-1939-1940/page/n1149/mode/1up"
+   }
+  ]
+ },
+ {
+  "image": "p1150",
+  "images": [
+   "p1150"
+  ],
+  "printed_pages": [
+   "1102"
+  ],
+  "chapter": "China",
+  "table_no": null,
+  "title": "Foreign Trade of North China",
+  "caption_extra": "(Unit: 1,000 tender notes)",
+  "continued": false,
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "Year",
+     "Exports",
+     "Imports",
+     "Excess of Exports (+) or Imports (-)"
+    ],
+    "rows": [
+     [
+      "1932",
+      "163,392",
+      "264,467",
+      "(-) 101,075"
+     ],
+     [
+      "1933",
+      "152,271",
+      "204,676",
+      "(-) 52,405"
+     ],
+     [
+      "1934",
+      "135,781",
+      "161,776",
+      "(-) 25,995"
+     ],
+     [
+      "1935",
+      "159,644",
+      "150,133",
+      "(+) 9,511"
+     ],
+     [
+      "1936",
+      "191,111",
+      "140,903",
+      "(+) 50,208"
+     ],
+     [
+      "1937",
+      "215,741",
+      "145,790",
+      "(+) 69,951"
+     ],
+     [
+      "1938",
+      "254,526",
+      "319,986",
+      "(-) 65,460"
+     ]
+    ]
+   }
+  ],
+  "footnotes": [],
+  "transcriber_notes": [
+   "Excess column checked against Exports minus Imports for every year: all reconcile."
+  ],
+  "id": "p1150_1",
+  "scans": [
+   {
+    "label": "scan leaf 1150",
+    "url": "https://archive.org/details/japan-year-book-1939-1940/page/n1150/mode/1up"
+   }
+  ]
+ },
+ {
+  "image": "p1150",
+  "images": [
+   "p1150"
+  ],
+  "printed_pages": [
+   "1102"
+  ],
+  "chapter": "China",
+  "table_no": null,
+  "title": "Japanese Residents in North China",
+  "caption_extra": "At the end of 1938",
+  "continued": false,
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "Item",
+     "Number"
+    ],
+    "rows": [
+     [
+      "Number of households",
+      "38,704"
+     ],
+     [
+      "Number of persons",
+      "130,862"
+     ],
+     [
+      "From Japan proper",
+      ""
+     ],
+     [
+      "Number of households",
+      "31,504"
+     ],
+     [
+      "Men",
+      "57,623"
+     ],
+     [
+      "Women",
+      "40,209"
+     ],
+     [
+      "Total",
+      "97,832"
+     ],
+     [
+      "Koreans",
+      ""
+     ],
+     [
+      "Number of households",
+      "7,050"
+     ],
+     [
+      "Men",
+      "13,743"
+     ],
+     [
+      "Women",
+      "10.436"
+     ],
+     [
+      "Total",
+      "24,179"
+     ],
+     [
+      "Formosans",
+      ""
+     ],
+     [
+      "Number of households",
+      "150"
+     ],
+     [
+      "Persons",
+      "451"
+     ],
+     [
+      "Residents in rural districts",
+      "8,400"
+     ]
+    ]
+   }
+  ],
+  "footnotes": [
+   "Peking had 26,357, Tientsin 34,731, Tsingtao 20,530 and Tsinan 10,500. (text following the table)"
+  ],
+  "transcriber_notes": [
+   "Koreans Women printed \"10.436\" with a full stop for the comma; transcribed as printed.",
+   "From Japan proper: Men 57,623 + Women 40,209 = 97,832 — reconciles.",
+   "Koreans: Men 13,743 + Women 10,436 = 24,179 — reconciles.",
+   "Households: 31,504 + 7,050 + 150 = 38,704 — reconciles.",
+   "Persons: 97,832 + 24,179 + 451 + 8,400 (rural districts) = 130,862 — reconciles."
+  ],
+  "id": "p1150_2",
+  "scans": [
+   {
+    "label": "scan leaf 1150",
+    "url": "https://archive.org/details/japan-year-book-1939-1940/page/n1150/mode/1up"
+   }
+  ]
+ },
+ {
+  "image": "p1150",
+  "images": [
+   "p1150",
+   "p1151",
+   "p1152"
+  ],
+  "printed_pages": [
+   "1102",
+   "1103",
+   "1104"
+  ],
+  "chapter": "China",
+  "table_no": null,
+  "title": "Chronicle of the Sino-Japanese Hostilities, July 1937—June 1939",
+  "caption_extra": null,
+  "continued": false,
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "Year",
+     "Date",
+     "Event"
+    ],
+    "rows": [
+     [
+      "1937",
+      "July 7",
+      "North China Incident occurred at Marco Polo Bridge."
+     ],
+     [
+      "1937",
+      "July 15",
+      "The Japanese Government decided to despatch Japanese troops to North China."
+     ],
+     [
+      "1937",
+      "July 25",
+      "Hostilities began at Langfang."
+     ],
+     [
+      "1937",
+      "July 28",
+      "Commander Katsuki notified the Chinese authorities of the Imperial Army's decision to take free action."
+     ],
+     [
+      "1937",
+      "July 29",
+      "Japanese troops began operations against the Chinese 29th Army."
+     ],
+     [
+      "1937",
+      "August 8",
+      "Japanese troops entered Peking. Japanese residents in the cities on the Yangtze completed evacuation."
+     ],
+     [
+      "1937",
+      "August 9",
+      "The Oyama incident occurred in Shanghai."
+     ],
+     [
+      "1937",
+      "August 13",
+      "Hostilities began in Shanghai."
+     ],
+     [
+      "1937",
+      "August 14",
+      "Commander Hasegawa of the Third Fleet of the Imperial Navy, declared the intention of the Imperial Navy to attack the Chinese forces."
+     ],
+     [
+      "1937",
+      "\" \"",
+      "The air force of the Imperial Navy made their first attacks on Chinese military centres in Central China, flying over the China Seas from Japan."
+     ],
+     [
+      "1937",
+      "August 15",
+      "The air force of the Imperial Navy carried out the first attacks on Nanking and other military centres and destroyed more than 40 Chinese planes."
+     ],
+     [
+      "1937",
+      "August 19",
+      "The Japanese Landing Party occupied a Chinese wharf at Shanghai."
+     ],
+     [
+      "1937",
+      "August 23",
+      "The Imperial Army effected a forced landing at Shanghai under cover of and in cooperation with the Navy and Naval Forces."
+     ],
+     [
+      "1937",
+      "August 25",
+      "The Imperial Navy in Chinese waters declared the closing of a part of the China coast to the traffic of Chinese vessels."
+     ],
+     [
+      "1937",
+      "August 27",
+      "The Imperial Army entered Changchiakow (Kalgan)."
+     ],
+     [
+      "1937",
+      "Augugt 31",
+      "Woosung was occupied by the Imperial forces."
+     ],
+     [
+      "1937",
+      "\" \"",
+      "The air forces of the Imperial Navy made their first attacks on Canton."
+     ],
+     [
+      "1937",
+      "September 1",
+      "The Naval air forces attacked Shanghai."
+     ],
+     [
+      "1937",
+      "September 4",
+      "Japanese residents evacuated Tsingtao."
+     ],
+     [
+      "1937",
+      "September 5",
+      "The entire coast of China was blockaded by the Imperial Navy."
+     ],
+     [
+      "1937",
+      "September 8",
+      "The Imperial Army entered Inner Mongolia."
+     ],
+     [
+      "1937",
+      "September 13",
+      "Tatung was occupied by the Imperial Army."
+     ],
+     [
+      "1937",
+      "September 19",
+      "The Commander of the Third Fleet gave notice of the extension of naval operations in and around Nanking."
+     ],
+     [
+      "1937",
+      "September 24",
+      "The Imperial Army entered Paoting."
+     ],
+     [
+      "1937",
+      "\" \"",
+      "The air forces of the Imperial Navy attacked Hankow and Nanchang."
+     ],
+     [
+      "1937",
+      "September 29",
+      "The Japanese Naval Landing Party made general advances from North Szechwan Road."
+     ],
+     [
+      "1937",
+      "September 30",
+      "Pailingmiao, Inner Mongolia, was occupied by the Imperial Army."
+     ],
+     [
+      "1937",
+      "October 8",
+      "Chenting was taken by the Imperial Army."
+     ],
+     [
+      "1937",
+      "October 10",
+      "Shihkiachwang fell into the hands of the Imperial Army."
+     ],
+     [
+      "1937",
+      "October 14",
+      "Kalgan was occupied by the Imperial Army."
+     ],
+     [
+      "1937",
+      "October 17",
+      "Paotow was captured by the Imperial Army."
+     ],
+     [
+      "1937",
+      "October 18",
+      "The air forces of the Imperial Navy bombed Hankow and other places and destroyed more than 30 Chinese planes."
+     ],
+     [
+      "1937",
+      "October 26",
+      "The Shanghai Race Course and Tachangchen were occupied by the Imperial Army."
+     ],
+     [
+      "1937",
+      "October 27",
+      "The North Station, the Chapei sector and Chenjuchen were taken by the Japanese Naval Landing Party."
+     ],
+     [
+      "1937",
+      "October 30",
+      "The air forces of the Imperial Army bombed Taiyuan and destroyed 17 Chinese planes."
+     ],
+     [
+      "1937",
+      "November 3",
+      "Japanese forces advanced to the south of Soochow Creek."
+     ],
+     [
+      "1937",
+      "November 5",
+      "The Imperial Army accomplished a forced landing on the northern coast of Hangchow Gulf, under the protection and in cooperation with the Imperial Navy."
+     ],
+     [
+      "1937",
+      "November 9",
+      "Taiyuan was occupied by the Imperial Army."
+     ],
+     [
+      "1937",
+      "\" \"",
+      "Shanghai and Nanshih encircled by Japanese forces."
+     ],
+     [
+      "1937",
+      "November 11",
+      "Occupation of Nanhsiang."
+     ],
+     [
+      "1937",
+      "November 13",
+      "The air forces of the Imperial Army bombed Sian."
+     ],
+     [
+      "1937",
+      "\" \"",
+      "Linhochen, Chiating and Kashan-hsien, were occupied."
+     ],
+     [
+      "1937",
+      "\" \"",
+      "The Japanese Naval Landing Party took Nanshih."
+     ],
+     [
+      "1937",
+      "November 14",
+      "Occupation of Taitsang-hsien."
+     ],
+     [
+      "1937",
+      "November 15",
+      "Kunshan-hsien was occupied."
+     ],
+     [
+      "1937",
+      "November 19",
+      "Soochow and Kashing (Chiahsing) were taken."
+     ],
+     [
+      "1937",
+      "November 20",
+      "The removal of the Nanking Government to Chungching was announced."
+     ],
+     [
+      "1937",
+      "November 25",
+      "Occupation of Wusih."
+     ],
+     [
+      "1937",
+      "November 29",
+      "Changchow and Kwangteh were captured."
+     ],
+     [
+      "1937",
+      "\" \"",
+      "Kuyung was occupied."
+     ],
+     [
+      "1937",
+      "December 9",
+      "The air forces of the Imperial Navy bombed Nanchang, Nanking and other places, and destroyed 25 Chinese planes."
+     ],
+     [
+      "1937",
+      "December 10",
+      "General attack on Nanking by the Japanese forces began."
+     ],
+     [
+      "1937",
+      "December 13",
+      "The fall of Nanking."
+     ],
+     [
+      "1937",
+      "December 14",
+      "The air forces of the Imperial Navy bombed Nanchang and Anching, and destroyed 35 Chinese planes."
+     ],
+     [
+      "1937",
+      "December 22",
+      "The Naval air forces bombed Nanchang and Chowkiakow, and destroyed 30 Chinese planes."
+     ],
+     [
+      "1937",
+      "December 24",
+      "Occupation of Hangchow."
+     ],
+     [
+      "1937",
+      "December 27",
+      "The Imperial Army entered Tsinan."
+     ],
+     [
+      "1938",
+      "January 4",
+      "The air forces of the Imperial Navy attacked Suchow (Hsuchou), Hankow and the Canton-Hankow railway line, and destroyed 21 Chinese planes."
+     ],
+     [
+      "1938",
+      "January 5",
+      "Occupation of Yenchow in Shantung."
+     ],
+     [
+      "1938",
+      "January 10",
+      "The Japanese forces landed at Tsingtao."
+     ],
+     [
+      "1938",
+      "January 6, 24, 27",
+      "The air forces of the Imperial Navy repeatedly attacked Hankow, Nanchang, Ichang-hsien and the Canton-Hankow railway, and destroyed over 45 Chinese planes."
+     ],
+     [
+      "1938",
+      "February 3",
+      "The Imperial Naval Landing Party landed at Chefoo."
+     ],
+     [
+      "1938",
+      "February 9",
+      "The Naval air forces made the first attack on Changsha."
+     ],
+     [
+      "1938",
+      "February 18, 21, 25",
+      "The Naval air forces attacked Chungching, Hankow, Hengyang, Ichang, Nanchang and railways in South China, and destroyed 90 Chinese planes."
+     ],
+     [
+      "1938",
+      "March 6",
+      "The Japanese Naval Landing Party landed at Weihaiwei."
+     ],
+     [
+      "1938",
+      "March 25",
+      "The Imperial Army air forces attacked Kweiteh (Kueite) and destroyed 14 Chinese planes."
+     ],
+     [
+      "1938",
+      "April 3",
+      "Occupation of Taierhchwang."
+     ],
+     [
+      "1938",
+      "April 13, 29",
+      "The Naval air forces bombed Canton and Hankow, and destroyed 66 Chinese planes."
+     ],
+     [
+      "1938",
+      "May 11",
+      "Occupation of Amoy by the Imperial Navy."
+     ],
+     [
+      "1938",
+      "May 18",
+      "General attack on Suchow by the Imperial Army began."
+     ],
+     [
+      "1938",
+      "May 19",
+      "Occupation of Suchow."
+     ],
+     [
+      "1938",
+      "May 24",
+      "Occupation of Lanfeng."
+     ],
+     [
+      "1938",
+      "May 28",
+      "Occupation of Kweiteh."
+     ],
+     [
+      "1938",
+      "\" \"",
+      "The air forces of the Imperial Navy began attacks on Canton which were repeated for weeks following."
+     ],
+     [
+      "1938",
+      "May 31",
+      "The Naval air forces bombed Hankow and destroyed 20 Chinese planes."
+     ],
+     [
+      "1938",
+      "June 6",
+      "Occupation of Kaifeng."
+     ],
+     [
+      "1938",
+      "June 13",
+      "Occupation of Anching."
+     ],
+     [
+      "1938",
+      "June 17",
+      "Occupation of Chienshan."
+     ],
+     [
+      "1938",
+      "\" \"",
+      "The Naval air forces bombed Hainan Island."
+     ],
+     [
+      "1938",
+      "June 25",
+      "The Naval air forces attacked Nanchang and destroyed 19 Chinese planes."
+     ],
+     [
+      "1938",
+      "July 4",
+      "Occupation of Hukow."
+     ],
+     [
+      "1938",
+      "\" \"",
+      "The Naval air forces attacked Nanchang and destroyed 51 Chinese planes."
+     ],
+     [
+      "1938",
+      "July 16 and 19",
+      "Hankow bombed by the Naval planes."
+     ],
+     [
+      "1938",
+      "July 26",
+      "Occupation of Kiukiang on the Yangtze."
+     ],
+     [
+      "1938",
+      "August 3",
+      "Hankow attacked by the Naval Air Force and 32 Chinese planes were shot down, while 2 Japanese planes were lost."
+     ],
+     [
+      "1938",
+      "August 24",
+      "Occupation of Juichang in Kiangsi Province."
+     ],
+     [
+      "1938",
+      "August 29, 30",
+      "Japanese troops crossed the Pi River."
+     ],
+     [
+      "1938",
+      "September 6",
+      "Kushih in Honan Province was occupied by a Japanese force."
+     ],
+     [
+      "1938",
+      "September 16",
+      "Shangcheng at the northern base of the Tapieh mountain range occupied by Japanese forces."
+     ],
+     [
+      "1938",
+      "September 17",
+      "Occupation of Wusueh on the Yangtze by the Naval landing party."
+     ],
+     [
+      "1938",
+      "September 28",
+      "Naval air squadrons raided Yunnan, capital of Yunnan Province, and destroyed 20 Chinese planes."
+     ],
+     [
+      "1938",
+      "October 2",
+      "Occupation of Paishih on the Fu River."
+     ],
+     [
+      "1938",
+      "October 12",
+      "Surprise landing of Japanese forces at Bias Bay in South China."
+     ],
+     [
+      "1938",
+      "October 13",
+      "A Naval air unit bombed and destroyed 37 Chinese tanks at Waichow."
+     ],
+     [
+      "1938",
+      "October 16",
+      "Occupation of Shihhweyao on the Yangtze."
+     ],
+     [
+      "1938",
+      "October 21",
+      "Occupation of Canton."
+     ],
+     [
+      "1938",
+      "October 24",
+      "General Chiang Kai-shek left Hankow set on fire by the Chinese Army."
+     ],
+     [
+      "1938",
+      "October 25",
+      "A part of Japanese forces drove into the northeastern part of Hankow."
+     ],
+     [
+      "1938",
+      "October 27",
+      "Fall of Hankow, Hanyang and Wuchang cities."
+     ],
+     [
+      "1938",
+      "November 11",
+      "Occupation of Yochow."
+     ],
+     [
+      "1938",
+      "November 13",
+      "Destruction of Changsha set on fire by Chinese."
+     ],
+     [
+      "1938",
+      "November 20",
+      "Yenan, the Red city in Shensi Province, raided by Japanese Army Air Forces."
+     ],
+     [
+      "1938",
+      "December 3",
+      "Occupation of Kowloon."
+     ],
+     [
+      "1939",
+      "February 10",
+      "Japanese forces succeeded in landing on Hainan Island early in the morning."
+     ],
+     [
+      "1939",
+      "February 12",
+      "Japanese Army Air Forces attacked Lanchow in Kansu Province and shot down 38 Chinese planes."
+     ],
+     [
+      "1939",
+      "February 20",
+      "Lanchow attacked for the second time and 36 Chinese planes were shot down, while one Japanese plane was lost."
+     ],
+     [
+      "1939",
+      "March 4",
+      "Occupation of Haichow."
+     ],
+     [
+      "1939",
+      "March 27",
+      "Occupation of Nanchang."
+     ],
+     [
+      "1939",
+      "March 29",
+      "Occupation of Wuning."
+     ],
+     [
+      "1939",
+      "April 8",
+      "Naval Air Forces attacked Yunnan and destroyd 41 Chinese planes. On the following day the same air squadrons effected a heavy air raid on Nanning."
+     ],
+     [
+      "1939",
+      "May 3",
+      "Repeated raids on Chungking by the Naval Air Forces effected beginning with May 3."
+     ],
+     [
+      "1939",
+      "May 25",
+      "Kulangsu in Fukien blockaded by the Japanese Navy."
+     ],
+     [
+      "1939",
+      "June 14",
+      "Tientsin Foreign Concession blockaded by the Japanese Army."
+     ],
+     [
+      "1939",
+      "June 21",
+      "Japanese army and naval forces landed on Swatow."
+     ],
+     [
+      "1939",
+      "June 27",
+      "Occupation of Chaochow to the north of Swatow."
+     ]
+    ]
+   }
+  ],
+  "footnotes": [],
+  "transcriber_notes": [
+   "Chronological list transcribed as a table (Lists rule); year taken from the printed year headings \"1937:\", \"1938:\", \"1939:\" (the 1938 events of July-December run on from p. 1103 to p. 1104 without a repeated heading).",
+   "Date column \"\" \"\" = indented continuation entry printed without a date (same date as the entry above).",
+   "Misprints kept as printed: \"Augugt 31\", \"destroyd\". A stray mark in \"bombed and\" (Oct. 13, 1938) ignored.",
+   "Kuyung (Nov. 29, 1937) printed with a diacritic-like mark over the u (\"Küyung\"?); written \"Kuyung\". Kulangsu (May 25, 1939) likewise printed with a mark over the u.",
+   "115 entries."
+  ],
+  "id": "p1150_3",
+  "scans": [
+   {
+    "label": "scan leaf 1150",
+    "url": "https://archive.org/details/japan-year-book-1939-1940/page/n1150/mode/1up"
+   },
+   {
+    "label": "scan leaf 1151",
+    "url": "https://archive.org/details/japan-year-book-1939-1940/page/n1151/mode/1up"
+   },
+   {
+    "label": "scan leaf 1152",
+    "url": "https://archive.org/details/japan-year-book-1939-1940/page/n1152/mode/1up"
    }
   ]
  }
