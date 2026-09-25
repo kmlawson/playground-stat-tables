@@ -39,7 +39,7 @@ mark{background:var(--mark);color:inherit}
 <div class="llmwarn" role="note"><b>Warning:</b> These tables were transcribed by the vision model of Opus 5.5. Before using any of these figures, you must verify specific statistics with the original source which is linked to whenever possible.</div>
 </main>
 <script>
-const BOOKS=[{"slug": "manchoukuo-1942", "title": "The Manchoukuo Year Book 1942", "dir": true}, {"slug": "korea-1929-30", "title": "Annual Report on Administration of Chosen 1929-30", "dir": false}, {"slug": "japan-1930", "title": "The Japan Year Book 1930", "dir": true}, {"slug": "japan-1939-40", "title": "The Japan Year Book 1939-40", "dir": false}];
+const BOOKS=[{"slug": "korea-1929-30", "title": "Annual Report on Administration of Chosen 1929-30", "dir": false}, {"slug": "japan-1930", "title": "The Japan Year Book 1930", "dir": true}, {"slug": "japan-1939-40", "title": "The Japan Year Book 1939-40", "dir": false}, {"slug": "manchoukuo-1942", "title": "The Manchoukuo Year Book 1942", "dir": true}];
 const $=s=>document.querySelector(s);
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const norm=s=>String(s??"").normalize("NFD").replace(/[̀-ͯ]/g,"").toLowerCase();
@@ -72,7 +72,7 @@ async function runD(){const q=$("#qd").value.trim();const terms=norm(q).split(/\
  const by={};res.slice(0,LIMIT).forEach(x=>(by[x.b.slug]=by[x.b.slug]||[]).push(x));
  $("#status").textContent=`${res.length.toLocaleString()} entr${res.length===1?"y":"ies"}${res.length>LIMIT?` (showing ${LIMIT})`:""}`;
  let h="";BOOKS.forEach(b=>{const xs=by[b.slug];if(!xs)return;h+=`<div class="bk">${esc(b.title)} · ${xs.length} · <a href="${b.slug}/directory.html#${new URLSearchParams({q}).toString()}" style="color:inherit">open in book directory</a></div>`;
-  xs.forEach(({e})=>{h+=`<div class="r"><b>${hl(e.n,terms)}</b> <span class="snip">${hl(e.t,terms)}</span><div class="m">${esc(e.a)}${e.s?" — "+esc(e.s):""} · p. ${esc(e.p)} · ${e.u?`<a href="${e.u}" target="_blank" rel="noopener">${esc(e.l)}</a>`:esc(e.l)}</div></div>`})});
+  xs.forEach(({e})=>{h+=`<div class="r"><b>${hl(e.n,terms)}</b> <span class="snip">${hl(e.t,terms)}</span><div class="m">${esc(e.a)}${e.s?" — "+esc(e.s):""} · p. ${esc(e.p)}${e.u?` · <a href="${e.u}" target="_blank" rel="noopener">${esc(e.l)}</a>`:e.l?" · "+esc(e.l):""}</div></div>`})});
  $("#out").innerHTML=h||"<p>No entries match.</p>"}
 function setTab(x){tab=x;$("#tt").classList.toggle("on",x==="t");$("#td").classList.toggle("on",x==="d");(x==="t"?runT:runD)();
  try{history.replaceState(null,"","#"+new URLSearchParams({t:$("#qt").value,d:$("#qd").value,tab:x}).toString())}catch(e){}}

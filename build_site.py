@@ -11,12 +11,6 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 
 BOOKS = [
-    {"slug": "manchoukuo-1942", "dir": ".", "title": "The Manchoukuo Year Book 1942",
-     "publisher": "Manchoukuo Year Book Co., Hsinking, 1942",
-     "blurb": "Official English-language yearbook of Manchukuo: geography, population, finance, banking, trade, agriculture, mining, industry, transport, labour, education and more.",
-     "source": "LLM-transcribed from 498 photographs of the printed volume (two-page spreads).",
-     "gaps": "Pages 502–503 (Mining) and 966–967 (Index) were not photographed. Gaps in table numbering (e.g. Agriculture Tables 2–3 and 11–17) are in the printed book itself.",
-     "scan": None, "dir_in_progress": True},
     {"slug": "korea-1929-30", "dir": "Korea_Annual_Report_1929-30",
      "title": "Annual Report on Administration of Chosen 1929-30",
      "publisher": "Government-General of Chosen, Keijo, 1931",
@@ -39,6 +33,12 @@ BOOKS = [
      "in_progress": True,
      "scan": "https://archive.org/details/japan-year-book-1939-1940/page/n{leaf}/mode/1up",
      "item": "https://archive.org/details/japan-year-book-1939-1940", "dir_label": "Clubs & Societies Directory", "dir_in_progress": True},
+    {"slug": "manchoukuo-1942", "dir": ".", "title": "The Manchoukuo Year Book 1942",
+     "publisher": "Manchoukuo Year Book Co., Hsinking, 1942",
+     "blurb": "Official English-language yearbook of Manchukuo: geography, population, finance, banking, trade, agriculture, mining, industry, transport, labour, education and more.",
+     "source": "LLM-transcribed from 498 photographs of the printed volume (two-page spreads).",
+     "gaps": "Pages 502–503 (Mining) and 966–967 (Index) were not photographed. Gaps in table numbering (e.g. Agriculture Tables 2–3 and 11–17) are in the printed book itself.",
+     "scan": None, "dir_in_progress": True, "hide_images": True},
 ]
 
 
@@ -73,7 +73,7 @@ def scan_links(book, t):
         if book["scan"] and m:
             out.append({"label": f"scan leaf {int(m.group(1))}", "url": book["scan"].format(leaf=int(m.group(1)))})
         else:
-            out.append({"label": f"photo {im}", "url": None})
+            out.append({"label": "" if book.get("hide_images") else f"photo {im}", "url": None})
     return out
 
 
@@ -98,6 +98,7 @@ def main():
                 json.dump(clean, fh, ensure_ascii=False, indent=1)
             data = json.dumps(clean, ensure_ascii=False).replace("</", "<\\/")
             doc = (TEMPLATE.replace("__DATA__", data).replace("__COUNT__", str(n))
+                   .replace("__HIDEIMG__", "true" if b.get("hide_images") else "false")
                    .replace("__CELLS__", f"{c:,}").replace("__BOOK__", html.escape(b["title"]))
                    .replace("__SLUG__", b["slug"]).replace("__SOURCE__", html.escape(b["source"]))
                    .replace("__DIRLINK__", f'<a class="dirbtn" href="directory.html">{html.escape(b.get("dir_label", "Who\'s Who & Directories"))} · {b["_dir_n"]:,} entries →</a>' if b.get("_dir_n") else ""))
@@ -118,7 +119,7 @@ def landing(cards):
         stat = (f"<b>{n}</b> tables · <b>{c:,}</b> cells · {ch} chapters" if n else "<i>transcription in progress</i>")
         if n and b.get("in_progress"):
             stat += " · <i>transcription in progress: early chapters only so far</i>"
-        link = f'<a class="go" href="{b["slug"]}/">Browse tables →</a>' if n else ""
+        link = f'<a class="go dirgo" href="{b["slug"]}/">Browse tables →</a>' if n else ""
         if b.get("_dir_n"):
             stat += f' · <b>{b["_dir_n"]:,}</b> directory entries' + (" (in progress)" if b.get("dir_in_progress") else "")
             link += f' <a class="go dirgo" href="{b["slug"]}/directory.html">{html.escape(b.get("dir_label", "Who's Who & Directories"))} →</a>'
@@ -144,7 +145,7 @@ main{max-width:980px;margin:0 auto;padding:26px 16px 60px}
 article{background:var(--panel);border:1px solid var(--line);border-top:3px solid var(--accent);padding:18px 18px 16px;display:flex;flex-direction:column}
 h2{font-size:20px;font-weight:normal;margin:0 0 4px}.pub{color:var(--muted);font-size:13px;margin-bottom:8px}
 article p{font-size:14.5px;margin:0 0 12px;flex:1}.stat{font-size:14px;margin-bottom:6px}.src{font-size:12.5px;color:var(--muted);margin-bottom:12px}
-a{color:var(--accent)}.go{font-size:15px;text-decoration:none;font-weight:bold}.dirgo{display:inline-block;margin-top:8px;background:var(--accent);color:var(--accent-ink);padding:6px 12px;border-radius:5px;font-size:14px}
+a{color:var(--accent)}.go{font-size:15px;text-decoration:none;font-weight:bold}.dirgo{display:inline-block;margin:8px 8px 0 0;background:var(--accent);color:var(--accent-ink);padding:6px 12px;border-radius:5px;font-size:14px}
 .llmwarn{margin:28px 0 0;padding:12px 14px;border:1px solid #8a5a00;border-left:4px solid #8a5a00;background:var(--panel);font-size:14px}
 footer{margin-top:24px;font-size:13px;color:var(--muted);border-top:1px solid var(--line);padding-top:14px}
 </style></head><body><div class="band"><div>
@@ -241,6 +242,7 @@ __DIRLINK__<button id="toggle" title="Toggle light/dark">◐</button></header>
 </div>
 <script>
 const T=__DATA__;
+const HIDEIMG=__HIDEIMG__;
 const $=s=>document.querySelector(s);
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const isNum=s=>/^[\s(]*[-—–]?[\d.,]+[)*%]*\s*$/.test(s)||/^[—–-]$/.test(s.trim())||s.trim()==="...";
@@ -253,12 +255,12 @@ function label(t){return (t.table_no?`Table ${t.table_no}. `:"")+(t.title||"")+(
 function renderList(){const q=$("#q").value.trim().toLowerCase(),ch=$("#ch").value,fl=$("#flag").checked;let h="",last=null,n=0;
  T.forEach((t,i)=>{if(ch&&(t.chapter||"(no chapter)")!==ch)return;if(fl&&!t._warn)return;if(q&&!q.split(/\s+/).every(w=>t._text.includes(w)))return;
   const c=t.chapter||"(no chapter)";if(c!==last){h+=`<div class="ch">${esc(c)}</div>`;last=c}
-  h+=`<a href="#${t.id}" data-i="${i}">${esc(label(t))}<small>p. ${esc((t.printed_pages||[]).join(", "))} · ${esc(t.image)}${t._warn?" · ⚠":""}</small></a>`;n++});
+  h+=`<a href="#${t.id}" data-i="${i}">${esc(label(t))}<small>p. ${esc((t.printed_pages||[]).join(", "))}${HIDEIMG?"":" · "+esc(t.image)}${t._warn?" · ⚠":""}</small></a>`;n++});
  $("#list").innerHTML=h||"<p style='padding:10px'>No matches.</p>";mark()}
 function hl(s,q){s=esc(s);if(!q)return s;q.split(/\s+/).filter(Boolean).forEach(w=>{s=s.replace(new RegExp("("+w.replace(/[.*+?^${}()|[\]\\]/g,"\\$&")+")","ig"),"<mark>$1</mark>")});return s}
 function csv(t){const L=[];(t.parts||[]).forEach(p=>{if(p.label)L.push([p.label]);L.push(p.columns);p.rows.forEach(r=>L.push(r));L.push([])});
  return L.map(r=>r.map(c=>/[",\n]/.test(c??"")?'"'+String(c).replace(/"/g,'""')+'"':(c??"")).join(",")).join("\n")}
-function tableHTML(t,q){let h=`<section class="tbl" id="t-${t.id}"><h2><a href="#${t.id}">${hl(label(t),q)}</a></h2><div class="sub">${esc(t.chapter||"")} · printed page${(t.printed_pages||[]).length>1?"s":""} ${esc((t.printed_pages||[]).join(", "))} · ${/^p\d/.test(t.image||"")?"scan leaf":"photo"} ${esc((t.images||[t.image]).join(", "))}</div>`;
+function tableHTML(t,q){let h=`<section class="tbl" id="t-${t.id}"><h2><a href="#${t.id}">${hl(label(t),q)}</a></h2><div class="sub">${esc(t.chapter||"")} · printed page${(t.printed_pages||[]).length>1?"s":""} ${esc((t.printed_pages||[]).join(", "))}${HIDEIMG?"":` · ${/^p\d/.test(t.image||"")?"scan leaf":"photo"} ${esc((t.images||[t.image]).join(", "))}`}</div>`;
  if(t.caption_extra)h+=`<div class="sub"><i>${hl(t.caption_extra,q)}</i></div>`;
  (t.parts||[]).forEach(p=>{if(p.label)h+=`<div class="part">${hl(p.label,q)}</div>`;
   h+=`<div class="tw"><table><thead><tr>${p.columns.map((c,j)=>`<th class="sortable" data-col="${j}" title="Click to sort">${hl(c,q)}</th>`).join("")}</tr></thead><tbody>`;
@@ -267,7 +269,8 @@ function tableHTML(t,q){let h=`<section class="tbl" id="t-${t.id}"><h2><a href="
  if((t.footnotes||[]).length)h+=`<div class="notes"><b>Printed notes</b><ul>${t.footnotes.map(n=>`<li>${hl(n,q)}</li>`).join("")}</ul></div>`;
  if((t.transcriber_notes||[]).length)h+=`<div class="notes"><b>Transcriber's notes</b><ul>${t.transcriber_notes.map(n=>`<li class="${warnRe.test(n)?"warn":""}">${esc(n)}</li>`).join("")}</ul></div>`;
  h+=`<div class="row"><button data-act="dl" data-id="${t.id}">Download CSV</button><button data-act="cp" data-id="${t.id}">Copy as TSV</button></div>`;
- h+=`<div class="sub">Source: ${(t.scans||[]).map(s=>s.url?`<a href="${s.url}" target="_blank" rel="noopener">${esc(s.label)}</a>`:esc(s.label)).join(", ")}</div></section>`;
+ if(!HIDEIMG)h+=`<div class="sub">Source: ${(t.scans||[]).map(s=>s.url?`<a href="${s.url}" target="_blank" rel="noopener">${esc(s.label)}</a>`:esc(s.label)).join(", ")}</div>`;
+ h+=`</section>`;
  return h}
 const LLMWARN=`<div class="llmwarn" role="note"><b>Warning:</b> These tables were transcribed by the vision model of Opus 5.5. Before using any of these figures, you must verify specific statistics with the original source which is linked to whenever possible.</div>`;
 function filtered(){const q=$("#q").value.trim().toLowerCase(),ch=$("#ch").value,fl=$("#flag").checked;
@@ -449,7 +452,7 @@ function run(){const q=norm($("#q").value.trim());const terms=q.split(/\s+/).fil
 function more(terms){terms=terms||norm($("#q").value.trim()).split(/\s+/).filter(Boolean);
  let h="",last=shown?groupOf(res[shown-1]):null;
  res.slice(shown,shown+STEP).forEach(e=>{const g=groupOf(e);if(g!==last){h+=`<div class="sec">${esc(g)}</div>`;last=g}
-  h+=`<div class="e"><b>${hl(e.n,terms)}</b> <span class="t">${hl(e.t,terms)}</span><div class="m">p. ${esc(e.p)} · ${e.u?`<a href="${e.u}" target="_blank" rel="noopener">${esc(e.l)}</a>`:esc(e.l)}</div></div>`});
+  h+=`<div class="e"><b>${hl(e.n,terms)}</b> <span class="t">${hl(e.t,terms)}</span><div class="m">p. ${esc(e.p)}${e.u?` · <a href="${e.u}" target="_blank" rel="noopener">${esc(e.l)}</a>`:e.l?" · "+esc(e.l):""}</div></div>`});
  $("#out").insertAdjacentHTML("beforeend",h);shown=Math.min(res.length,shown+STEP);$("#more").hidden=shown>=res.length}
 const groupOf=e=>e.a+(e.s?" — "+e.s:"");
 let tm;$("#q").addEventListener("input",()=>{clearTimeout(tm);tm=setTimeout(run,120)});
@@ -535,7 +538,7 @@ async function runD(){const q=$("#qd").value.trim();const terms=norm(q).split(/\
  const by={};res.slice(0,LIMIT).forEach(x=>(by[x.b.slug]=by[x.b.slug]||[]).push(x));
  $("#status").textContent=`${res.length.toLocaleString()} entr${res.length===1?"y":"ies"}${res.length>LIMIT?` (showing ${LIMIT})`:""}`;
  let h="";BOOKS.forEach(b=>{const xs=by[b.slug];if(!xs)return;h+=`<div class="bk">${esc(b.title)} · ${xs.length} · <a href="${b.slug}/directory.html#${new URLSearchParams({q}).toString()}" style="color:inherit">open in book directory</a></div>`;
-  xs.forEach(({e})=>{h+=`<div class="r"><b>${hl(e.n,terms)}</b> <span class="snip">${hl(e.t,terms)}</span><div class="m">${esc(e.a)}${e.s?" — "+esc(e.s):""} · p. ${esc(e.p)} · ${e.u?`<a href="${e.u}" target="_blank" rel="noopener">${esc(e.l)}</a>`:esc(e.l)}</div></div>`})});
+  xs.forEach(({e})=>{h+=`<div class="r"><b>${hl(e.n,terms)}</b> <span class="snip">${hl(e.t,terms)}</span><div class="m">${esc(e.a)}${e.s?" — "+esc(e.s):""} · p. ${esc(e.p)}${e.u?` · <a href="${e.u}" target="_blank" rel="noopener">${esc(e.l)}</a>`:e.l?" · "+esc(e.l):""}</div></div>`})});
  $("#out").innerHTML=h||"<p>No entries match.</p>"}
 function setTab(x){tab=x;$("#tt").classList.toggle("on",x==="t");$("#td").classList.toggle("on",x==="d");(x==="t"?runT:runD)();
  try{history.replaceState(null,"","#"+new URLSearchParams({t:$("#qt").value,d:$("#qd").value,tab:x}).toString())}catch(e){}}
