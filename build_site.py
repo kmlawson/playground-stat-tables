@@ -17,7 +17,7 @@ BOOKS = [
      "source": "LLM-transcribed from the Internet Archive scan.",
      "gaps": "Advertisements and the Index contain no tables. The Who's Who, Business Directory and Learned & Social Institutions (Appendices A–C) are transcribed as entries on the Who's Who & Directories page. The shop and restaurant lists in Appendix D are included; the physicians' lists are not. On p. 439 the right edge of the scan cuts off the 1927 export figures, so those cells are blank.",
      "scan": "https://archive.org/details/japan-year-book-1930/page/n{leaf}/mode/1up",
-     "item": "https://archive.org/details/japan-year-book-1930", "dir_in_progress": True},
+     "item": "https://archive.org/details/japan-year-book-1930"},
     {"slug": "japan-1939-40", "dir": "Japan_Year_Book_1939-40", "title": "The Japan Year Book 1939-40",
      "publisher": "The Foreign Affairs Association of Japan, Tokyo, 1939",
      "blurb": "The wartime edition of the standard English-language reference on the Japanese Empire.",
@@ -38,7 +38,7 @@ BOOKS = [
      "blurb": "Official English-language yearbook of Manchukuo: geography, population, finance, banking, trade, agriculture, mining, industry, transport, labour, education and more.",
      "source": "LLM-transcribed from 498 photographs of the printed volume (two-page spreads).",
      "gaps": "Pages 502–503 (Mining) and 966–967 (Index) were not photographed. Gaps in table numbering (e.g. Agriculture Tables 2–3 and 11–17) are in the printed book itself.",
-     "scan": None, "dir_in_progress": True, "hide_images": True},
+     "scan": None, "hide_images": True},
     {"slug": "far-east-1941", "root": os.path.join(os.path.dirname(ROOT), "The Far East Year Book 1941"),
      "title": "The Far East Year Book 1941",
      "publisher": "Japan-Manchoukuo Year Book Co., Tokyo, 1941",
@@ -404,7 +404,7 @@ def build_directory(book):
             sec = e.get("section") or ""
             if sec.isupper():
                 sec = sec.title()
-            entries.append({"a": d.get("appendix") or "", "s": sec, "n": (e.get("name") or "").rstrip(" ,."),
+            entries.append({"a": d.get("appendix") or "", "s": sec, "n": (e.get("name") or "").rstrip(" ,.") + (" " + e["mark"] if e.get("mark") else ""),
                             "t": e.get("text") or "", "p": e.get("page") or ", ".join(d.get("printed_pages") or []),
                             "l": scan["label"], "u": scan["url"]})
     if not entries:
