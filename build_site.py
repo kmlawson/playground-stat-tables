@@ -29,6 +29,7 @@ BOOKS = [
      "publisher": "The Japan Year Book Office, Tokyo, 1930",
      "blurb": "Comprehensive English-language reference on the Japanese Empire in 1930.",
      "source": "Hand-transcribed from the Internet Archive scan.",
+     "in_progress": True,
      "scan": "https://archive.org/details/japan-year-book-1930/page/n{leaf}/mode/1up",
      "item": "https://archive.org/details/japan-year-book-1930"},
 ]
@@ -99,6 +100,8 @@ def landing(cards):
     items = []
     for b, n, c, ch in cards:
         stat = (f"<b>{n}</b> tables · <b>{c:,}</b> cells · {ch} chapters" if n else "<i>transcription in progress</i>")
+        if n and b.get("in_progress"):
+            stat += " · <i>transcription in progress: early chapters only so far</i>"
         link = f'<a class="go" href="{b["slug"]}/">Browse tables →</a>' if n else ""
         item = f' · <a href="{b["item"]}">original scan</a>' if b.get("item") else ""
         gaps = f'<div class="src">{html.escape(b["gaps"])}</div>' if b.get("gaps") and n else ""
