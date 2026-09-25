@@ -24,7 +24,7 @@ BOOKS = [
      "source": "LLM-transcribed from the Internet Archive scan.",
      "in_progress": True,
      "scan": "https://archive.org/details/japan-year-book-1939-1940/page/n{leaf}/mode/1up",
-     "item": "https://archive.org/details/japan-year-book-1939-1940", "dir_label": "Clubs & Societies Directory", "dir_in_progress": True},
+     "item": "https://archive.org/details/japan-year-book-1939-1940", "dir_label": "Clubs & Societies Directory"},
     {"slug": "japan-1946-48", "dir": "Japan_Year_Book_1946-48", "title": "The Japan Year Book 1946-48",
      "publisher": "The Foreign Affairs Association of Japan (no place or date on the title page)",
      "blurb": "The first post-war edition, covering occupied Japan.",
