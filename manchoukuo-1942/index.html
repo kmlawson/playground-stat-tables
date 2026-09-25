@@ -31,6 +31,11 @@ h2{margin:0 0 4px;font-weight:normal;font-size:22px}
 table{border-collapse:collapse;font-size:13.5px;font-family:"Iowan Old Style",Georgia,serif}
 th,td{border:1px solid var(--line);padding:3px 7px;vertical-align:top}
 th{position:sticky;top:0;background:var(--panel);text-align:left;font-weight:bold;font-size:12.5px}
+th.sortable{cursor:pointer;user-select:none;padding-right:18px;position:sticky}
+th.sortable::after{content:"\2195";position:absolute;right:5px;opacity:.3;font-weight:normal}
+th.sortable[aria-sort="ascending"]::after{content:"\25B2";opacity:.9}
+th.sortable[aria-sort="descending"]::after{content:"\25BC";opacity:.9}
+th.sortable:hover{background:var(--hi)}
 td.num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
 td.blank{background:repeating-linear-gradient(45deg,transparent 0 4px,var(--hi) 4px 8px)}
 tr:hover td{background:var(--hi)}
@@ -81,17 +86,39 @@ function show(id){const t=T.find(x=>x.id===id)||T[0];if(!t){$("#main").innerHTML
  const q=$("#q").value.trim();let h=`<h2>${hl(label(t),q)}</h2><div class="sub">${esc(t.chapter||"")} · printed page${(t.printed_pages||[]).length>1?"s":""} ${esc((t.printed_pages||[]).join(", "))} · ${/^p\d/.test(t.image||"")?"scan leaf":"photo"} ${esc((t.images||[t.image]).join(", "))}</div>`;
  if(t.caption_extra)h+=`<div class="sub"><i>${hl(t.caption_extra,q)}</i></div>`;
  (t.parts||[]).forEach(p=>{if(p.label)h+=`<div class="part">${hl(p.label,q)}</div>`;
-  h+=`<div class="tw"><table><thead><tr>${p.columns.map(c=>`<th>${hl(c,q)}</th>`).join("")}</tr></thead><tbody>`;
-  p.rows.forEach(r=>{const sec=r.length>1&&r.slice(1).every(c=>c==="");h+=`<tr${sec?' class="sec"':""}>`+r.map((c,j)=>`<td class="${j&&isNum(c)?"num":""}${j&&c===""&&!sec?" blank":""}">${hl(c,q)}</td>`).join("")+"</tr>"});
+  h+=`<div class="tw"><table><thead><tr>${p.columns.map((c,j)=>`<th class="sortable" data-col="${j}" title="Click to sort">${hl(c,q)}</th>`).join("")}</tr></thead><tbody>`;
+  p.rows.forEach((r,ri)=>{const sec=r.length>1&&r.slice(1).every(c=>c==="");h+=`<tr data-i="${ri}"${sec?' class="sec"':""}>`+r.map((c,j)=>`<td class="${j&&isNum(c)?"num":""}${j&&c===""&&!sec?" blank":""}">${hl(c,q)}</td>`).join("")+"</tr>"});
   h+="</tbody></table></div>"});
  if((t.footnotes||[]).length)h+=`<div class="notes"><b>Printed notes</b><ul>${t.footnotes.map(n=>`<li>${hl(n,q)}</li>`).join("")}</ul></div>`;
  if((t.transcriber_notes||[]).length)h+=`<div class="notes"><b>Transcriber's notes</b><ul>${t.transcriber_notes.map(n=>`<li class="${warnRe.test(n)?"warn":""}">${esc(n)}</li>`).join("")}</ul></div>`;
  h+=`<div class="row"><button id="dl">Download CSV</button><button id="cp">Copy as TSV</button></div>`;
  h+=`<div class="sub">Source: ${(t.scans||[]).map(s=>s.url?`<a href="${s.url}" target="_blank" rel="noopener">${esc(s.label)}</a>`:esc(s.label)).join(", ")}</div>`;
  $("#main").innerHTML=h;$("#main").scrollTop=0;
+ document.querySelectorAll("#main table").forEach(initSort);
  $("#dl").onclick=()=>{const b=new Blob(["\ufeff"+csv(t)],{type:"text/csv"});const a=document.createElement("a");a.href=URL.createObjectURL(b);a.download=t.id+".csv";a.click()};
  $("#cp").onclick=()=>{navigator.clipboard.writeText((t.parts||[]).map(p=>[p.columns,...p.rows].map(r=>r.join("\t")).join("\n")).join("\n\n"))};
  mark()}
+// Click-to-sort: asc -> desc -> original. Numeric-aware; blanks/dashes last; total rows pinned;
+// sorting happens within blocks delimited by section-heading rows.
+const pinRe=/^\s*(grand\s+)?(total|totals|sum|average|mean)\b/i;
+function sortVal(s){s=(s||"").trim();if(s===""||/^[—–\-.…]+$/.test(s))return null;
+ const neg=/^\(.*\)$/.test(s)||/^[-−–]\s*\d/.test(s);const n=s.replace(/[,\s¥$£%*†‡()]/g,"").replace(/^[-−–]/,"");
+ if(/^\d+(\.\d+)?$/.test(n))return (neg?-1:1)*parseFloat(n);return s.toLowerCase()}
+function cmp(a,b){if(a===null&&b===null)return 0;if(a===null)return 1;if(b===null)return -1;
+ if(typeof a==="number"&&typeof b==="number")return a-b;return String(a).localeCompare(String(b),undefined,{numeric:true})}
+function initSort(tbl){const ths=[...tbl.querySelectorAll("th.sortable")];
+ ths.forEach(th=>th.addEventListener("click",()=>{const col=+th.dataset.col;const cur=th.getAttribute("aria-sort");
+  const next=cur==="ascending"?"descending":cur==="descending"?null:"ascending";
+  ths.forEach(x=>x.removeAttribute("aria-sort"));if(next)th.setAttribute("aria-sort",next);
+  const tb=tbl.tBodies[0];const rows=[...tb.rows];const blocks=[[]];
+  rows.sort((a,b)=>a.dataset.i-b.dataset.i).forEach(r=>{if(r.classList.contains("sec")){blocks.push([r]);blocks.push([])}else blocks[blocks.length-1].push(r)});
+  const out=[];blocks.forEach(bl=>{if(bl.length&&bl[0].classList.contains("sec")){out.push(...bl);return}
+   if(!next){out.push(...bl);return}
+   const pinned=bl.filter(r=>pinRe.test(r.cells[0].textContent)),body=bl.filter(r=>!pinRe.test(r.cells[0].textContent));
+   body.sort((a,b)=>{const va=sortVal(a.cells[col].textContent),vb=sortVal(b.cells[col].textContent);
+    if(va===null||vb===null)return cmp(va,vb);const c=cmp(va,vb);return next==="ascending"?c:-c});
+   out.push(...body,...pinned)});
+  out.forEach(r=>tb.appendChild(r))}))}
 function mark(){const id=location.hash.slice(1);document.querySelectorAll("#list a").forEach(a=>a.classList.toggle("on",a.getAttribute("href")==="#"+id))}
 ["q","ch","flag"].forEach(k=>$("#"+k).addEventListener("input",()=>{renderList();if(location.hash)show(location.hash.slice(1))}));
 window.addEventListener("hashchange",()=>show(location.hash.slice(1)));

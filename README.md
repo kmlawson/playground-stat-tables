@@ -23,6 +23,6 @@ Every statistical table printed in three English-language official yearbooks, tr
 - `footnotes`, as printed
 - `transcriber_notes`
 
-In the browser, any table can be downloaded as CSV or copied as TSV.
+In the browser, any column can be sorted by clicking its header (click again to reverse, a third time to restore the printed order), and any table can be downloaded as CSV or copied as TSV.
 
 `build_site.py` regenerates the pages from the per-table JSON files.
