@@ -38,7 +38,7 @@ BOOKS = [
      "source": "LLM-transcribed from the Internet Archive scan.",
      "in_progress": True,
      "scan": "https://archive.org/details/japan-year-book-1939-1940/page/n{leaf}/mode/1up",
-     "item": "https://archive.org/details/japan-year-book-1939-1940"},
+     "item": "https://archive.org/details/japan-year-book-1939-1940", "dir_label": "Clubs & Societies Directory", "dir_in_progress": True},
 ]
 
 
@@ -52,8 +52,12 @@ def page_key(t):
 def load(book):
     tables = []
     for f in sorted(glob.glob(os.path.join(ROOT, book["dir"], "_work", "tables", "*.json"))):
-        with open(f, encoding="utf-8") as fh:
-            t = json.load(fh)
+        try:  # agents may be writing or merging files while we build
+            with open(f, encoding="utf-8") as fh:
+                t = json.load(fh)
+        except (FileNotFoundError, json.JSONDecodeError):
+            print("skipped", f)
+            continue
         t["file"] = os.path.basename(f)
         t["id"] = t["file"][:-5]
         tables.append(t)
@@ -96,13 +100,16 @@ def main():
             doc = (TEMPLATE.replace("__DATA__", data).replace("__COUNT__", str(n))
                    .replace("__CELLS__", f"{c:,}").replace("__BOOK__", html.escape(b["title"]))
                    .replace("__SLUG__", b["slug"]).replace("__SOURCE__", html.escape(b["source"]))
-                   .replace("__DIRLINK__", ' · <a href="directory.html" style="color:inherit">Directories</a>' if b.get("_dir_n") else ""))
+                   .replace("__DIRLINK__", f'<a class="dirbtn" href="directory.html">{html.escape(b.get("dir_label", "Who\'s Who & Directories"))} · {b["_dir_n"]:,} entries →</a>' if b.get("_dir_n") else ""))
             with open(os.path.join(HERE, b["slug"], "index.html"), "w", encoding="utf-8") as fh:
                 fh.write(doc)
         cards.append((b, n, c, chapters))
         print(f"{b['slug']}: {n} tables, {c:,} cells")
     with open(os.path.join(HERE, "index.html"), "w", encoding="utf-8") as fh:
         fh.write(landing(cards))
+    books = [{"slug": b["slug"], "title": b["title"], "dir": bool(b.get("_dir_n"))} for b, n, c, ch in cards if n]
+    with open(os.path.join(HERE, "search.html"), "w", encoding="utf-8") as fh:
+        fh.write(SEARCH.replace("__BOOKS__", json.dumps(books, ensure_ascii=False)))
 
 
 def landing(cards):
@@ -114,7 +121,7 @@ def landing(cards):
         link = f'<a class="go" href="{b["slug"]}/">Browse tables →</a>' if n else ""
         if b.get("_dir_n"):
             stat += f' · <b>{b["_dir_n"]:,}</b> directory entries' + (" (in progress)" if b.get("dir_in_progress") else "")
-            link += f' <a class="go" href="{b["slug"]}/directory.html" style="margin-left:14px">Directories →</a>'
+            link += f' <a class="go dirgo" href="{b["slug"]}/directory.html">{html.escape(b.get("dir_label", "Who's Who & Directories"))} →</a>'
         item = f' · <a href="{b["item"]}">original scan</a>' if b.get("item") else ""
         gaps = f'<div class="src">{html.escape(b["gaps"])}</div>' if b.get("gaps") and n else ""
         items.append(f"""<article><h2>{html.escape(b["title"])}</h2><div class="pub">{html.escape(b["publisher"])}</div>
@@ -132,16 +139,18 @@ LANDING = r"""<!DOCTYPE html>
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 Georgia,"Times New Roman",serif}
 .band{background:var(--accent);color:var(--accent-ink)}.band>div{max-width:980px;margin:0 auto;padding:34px 16px 30px}.band h1{font-weight:normal;font-size:30px;margin:0 0 8px}.band .lede{color:var(--accent-ink);opacity:.9;margin:0}
 main{max-width:980px;margin:0 auto;padding:26px 16px 60px}
+.searchbtn{display:inline-block;background:var(--accent-ink);color:var(--accent);font-weight:bold;padding:9px 16px;border-radius:5px;text-decoration:none;font-size:15px}
 .lede{color:var(--muted);max-width:720px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px;margin-top:28px}
 article{background:var(--panel);border:1px solid var(--line);border-top:3px solid var(--accent);padding:18px 18px 16px;display:flex;flex-direction:column}
 h2{font-size:20px;font-weight:normal;margin:0 0 4px}.pub{color:var(--muted);font-size:13px;margin-bottom:8px}
 article p{font-size:14.5px;margin:0 0 12px;flex:1}.stat{font-size:14px;margin-bottom:6px}.src{font-size:12.5px;color:var(--muted);margin-bottom:12px}
-a{color:var(--accent)}.go{font-size:15px;text-decoration:none;font-weight:bold}
+a{color:var(--accent)}.go{font-size:15px;text-decoration:none;font-weight:bold}.dirgo{display:inline-block;margin-top:8px;background:var(--accent);color:var(--accent-ink);padding:6px 12px;border-radius:5px;font-size:14px}
 .llmwarn{margin:28px 0 0;padding:12px 14px;border:1px solid #8a5a00;border-left:4px solid #8a5a00;background:var(--panel);font-size:14px}
 footer{margin-top:24px;font-size:13px;color:var(--muted);border-top:1px solid var(--line);padding-top:14px}
 </style></head><body><div class="band"><div>
 <h1>East Asian Statistical Tables, 1929–1942</h1>
 <p class="lede">Every statistical table in English-language official yearbooks on Japan and its empire, LLM-transcribed cell by cell from page images. The figures are kept exactly as printed, including the printers' errors. Where a printed total does not add up, a transcriber's note says so, and figures that could not be read are left blank.</p>
+<p style="margin:18px 0 0"><a class="searchbtn" href="search.html">Search all books: tables &amp; directories →</a></p>
 </div></div>
 <main>
 <div class="grid">
@@ -179,7 +188,9 @@ button{cursor:pointer}
 #list .ch{position:sticky;top:0;background:var(--bg);cursor:pointer;padding:8px 10px 4px;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--accent);border-bottom:1px solid var(--line)}
 #list a{display:block;padding:6px 10px;border-bottom:1px solid var(--line);color:inherit;text-decoration:none;font-size:14px}
 #list a:hover{background:var(--hi)}
-#list a.on{background:var(--hi);border-left:3px solid var(--accent)}
+#list a.on,#list a.on:hover{background:var(--accent);color:var(--accent-ink);border-left:3px solid var(--accent)}
+#list a.on small{color:var(--accent-ink);opacity:.85}
+body.kbd #list a:not(.on):hover{background:transparent}
 #list a small{color:var(--muted);display:block;font-size:12px}
 #main{overflow:auto;padding:18px 22px;min-width:0}
 h2{margin:0 0 4px;font-weight:normal;font-size:22px}
@@ -211,13 +222,14 @@ tr.sec td:first-child{font-weight:bold;font-style:italic}
 .scan a img{height:160px;border:1px solid var(--line)}
 mark{background:var(--hi);color:inherit}
 #toggle{margin-left:auto}
+.dirbtn{margin-left:auto;background:var(--accent-ink);color:var(--accent)!important;opacity:1!important;font-weight:bold;font-size:14px;padding:6px 14px;border-radius:5px;text-decoration:none;align-self:center}.dirbtn:hover{filter:brightness(.93)}.dirbtn+#toggle{margin-left:0}
 @media (max-width:760px){#wrap{grid-template-columns:1fr;height:auto}#side{border-right:0;border-bottom:1px solid var(--line)}#list{max-height:40vh}#main{padding:14px 16px}}
 </style>
 </head>
 <body>
 <header><a href="../" style="text-decoration:none;font-size:14px">← All books</a><h1>__BOOK__</h1>
-<span class="meta">__COUNT__ tables · __CELLS__ cells · __SOURCE__ · <a href="../data/__SLUG__.json" style="color:inherit">JSON</a>__DIRLINK__</span>
-<button id="toggle" title="Toggle light/dark">◐</button></header>
+<span class="meta">__COUNT__ tables · __CELLS__ cells · __SOURCE__ · <a href="../data/__SLUG__.json" style="color:inherit">JSON</a></span>
+__DIRLINK__<button id="toggle" title="Toggle light/dark">◐</button></header>
 <div id="wrap">
 <nav id="side"><div class="ctl">
 <input id="q" type="search" placeholder="Search titles, headings, cells…">
@@ -267,7 +279,11 @@ function showOne(id){const t=T.find(x=>x.id===id)||T[0];if(!t){$("#main").innerH
 function showChapter(ch){const q=$("#q").value.trim();const ts=filtered();mode="chapter";cur=null;
  let h=`<div class="chhead">Chapter</div><h2 style="margin-bottom:6px">${esc(ch)}</h2><div class="chsum">${ts.length} table${ts.length===1?"":"s"}${$("#flag").checked||q?" matching the current filters":""}</div>`;
  h+=(ts.map(t=>tableHTML(t,q)).join("")||"<p>No tables match.</p>")+LLMWARN;
- $("#main").innerHTML=h;$("#main").scrollTop=0;document.querySelectorAll("#main table").forEach(initSort);mark()}
+ $("#main").innerHTML=h;$("#main").scrollTop=0;document.querySelectorAll("#main table").forEach(initSort);
+ if(enterAt&&ts.length){const t=enterAt==="first"?ts[0]:ts[ts.length-1];cur=t.id;const el=document.getElementById("t-"+t.id);if(el&&enterAt==="last")el.scrollIntoView({block:"start"});
+  const a=document.querySelector(`#list a[href="#${CSS.escape(t.id)}"]`);if(a)a.scrollIntoView({block:"nearest"})}
+ enterAt=null;mark()}
+let enterAt=null;
 function route(){const h=decodeURIComponent(location.hash.slice(1));
  if(h.startsWith("ch=")){const ch=h.slice(3);if($("#ch").value!==ch){$("#ch").value=ch;renderList()}showChapter(ch);return}
  if(mode==="chapter"&&h&&document.getElementById("t-"+h)){cur=h;document.getElementById("t-"+h).scrollIntoView({block:"start"});mark();return}
@@ -280,9 +296,17 @@ $("#list").addEventListener("click",e=>{const c=e.target.closest(".ch");if(!c)re
 document.addEventListener("keydown",e=>{if(e.key!=="ArrowDown"&&e.key!=="ArrowUp")return;if(e.altKey||e.ctrlKey||e.metaKey)return;
  const tag=(document.activeElement&&document.activeElement.tagName)||"";if(/INPUT|SELECT|TEXTAREA/.test(tag))return;
  const links=[...document.querySelectorAll("#list a[href^='#']")];if(!links.length)return;
- let i=links.findIndex(a=>a.classList.contains("on"));
- i=i<0?(e.key==="ArrowDown"?0:links.length-1):Math.min(links.length-1,Math.max(0,i+(e.key==="ArrowDown"?1:-1)));
+ document.body.classList.add("kbd");
+ let i=links.findIndex(a=>a.classList.contains("on"));const down=e.key==="ArrowDown";
+ const ch=$("#ch").value;
+ // at either end of a chapter's list, step into the next/previous chapter
+ if(ch&&i>-1&&((down&&i===links.length-1)||(!down&&i===0))){
+  const opts=[...$("#ch").options].map(o=>o.value).filter(Boolean);const k=opts.indexOf(ch)+(down?1:-1);
+  if(k>=0&&k<opts.length){e.preventDefault();enterAt=down?"first":"last";location.hash="ch="+encodeURIComponent(opts[k])}
+  return}
+ i=i<0?(down?0:links.length-1):Math.min(links.length-1,Math.max(0,i+(down?1:-1)));
  e.preventDefault();location.hash=links[i].getAttribute("href").slice(1);links[i].scrollIntoView({block:"nearest"})});
+document.addEventListener("mousemove",()=>document.body.classList.remove("kbd"));
 // Click-to-sort: asc -> desc -> original. Numeric-aware; blanks/dashes last; total rows pinned;
 // sorting happens within blocks delimited by section-heading rows.
 const pinRe=/^\s*(grand\s+)?(total|totals|sum|average|mean)\b/i;
@@ -327,8 +351,12 @@ def build_directory(book):
     files = sorted(glob.glob(os.path.join(ROOT, book["dir"], "_work", "directory", "*.json")), key=dir_key)
     entries = []
     for f in files:
-        with open(f, encoding="utf-8") as fh:
-            d = json.load(fh)
+        try:
+            with open(f, encoding="utf-8") as fh:
+                d = json.load(fh)
+        except (FileNotFoundError, json.JSONDecodeError):
+            print("skipped", f)
+            continue
         leaf = d.get("leaf") or os.path.basename(f)[:-5]
         scan = scan_links(book, {"images": [leaf]})[0]
         for e in d.get("entries", []):
@@ -429,6 +457,94 @@ sel.addEventListener("change",run);$("#nameonly").addEventListener("change",run)
 $("#toggle").addEventListener("click",()=>{const r=document.documentElement;const d=r.dataset.theme?r.dataset.theme==="dark":matchMedia("(prefers-color-scheme: dark)").matches;r.dataset.theme=d?"light":"dark"});
 try{const p=new URLSearchParams(location.hash.slice(1));if(p.get("q"))$("#q").value=p.get("q");if(p.get("s"))sel.value=p.get("s")}catch(e){}
 run();
+</script></body></html>
+"""
+
+
+SEARCH = r"""<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Search All Books</title>
+<style>
+:root{--bg:#f4f5f3;--panel:#ffffff;--ink:#1b2420;--muted:#5d6a62;--line:#d8ded9;--accent:#1f4a2c;--accent-ink:#ffffff;--hi:#e2ece4;--warn:#8a5a00;--mark:#f3e3a0}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#111814;--panel:#17211b;--ink:#e4ebe6;--muted:#9aa89f;--line:#2c3a31;--accent:#8cc49e;--accent-ink:#0f1a13;--hi:#1f3527;--warn:#e0a54a;--mark:#5a4d1c}}
+:root[data-theme="dark"]{--bg:#111814;--panel:#17211b;--ink:#e4ebe6;--muted:#9aa89f;--line:#2c3a31;--accent:#8cc49e;--accent-ink:#0f1a13;--hi:#1f3527;--warn:#e0a54a;--mark:#5a4d1c}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 Georgia,"Times New Roman",serif}
+header{padding:14px 18px;background:var(--accent);color:var(--accent-ink);display:flex;gap:14px;align-items:baseline;flex-wrap:wrap}
+header a{color:var(--accent-ink);opacity:.88;font-size:14px;text-decoration:none}header h1{font-size:20px;margin:0;font-weight:normal}
+header button{margin-left:auto;background:transparent;color:var(--accent-ink);border:1px solid currentColor;border-radius:4px;font:inherit;padding:4px 8px;cursor:pointer}
+main{max-width:1000px;margin:0 auto;padding:18px 16px 60px}
+.boxes{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.box{background:var(--panel);border:1px solid var(--line);border-top:3px solid var(--accent);padding:14px}
+.box h2{font-size:17px;font-weight:normal;margin:0 0 8px}.box p{font-size:13px;color:var(--muted);margin:6px 0 0}
+input{font:inherit;font-size:16px;padding:8px 10px;border:1px solid var(--line);background:var(--bg);color:var(--ink);border-radius:4px;width:100%}
+.tabs{display:flex;gap:6px;margin:22px 0 8px;border-bottom:1px solid var(--line)}
+.tabs button{font:inherit;font-size:14px;padding:7px 12px;border:1px solid var(--line);border-bottom:0;background:var(--bg);color:var(--ink);border-radius:5px 5px 0 0;cursor:pointer}
+.tabs button.on{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+#status{color:var(--muted);font-size:13px;margin:6px 0 10px}
+.bk{font-size:13px;letter-spacing:.06em;text-transform:uppercase;color:var(--accent);margin:18px 0 6px;border-bottom:1px solid var(--line);padding-bottom:3px}
+.r{background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--accent);padding:8px 12px;margin:0 0 7px}
+.r a.t{font-size:15.5px;color:var(--ink);text-decoration:none;font-weight:bold}.r a.t:hover{text-decoration:underline}
+.r .m{font-size:12.5px;color:var(--muted)}.r .m a{color:var(--accent)}
+.r .snip{font-size:13px;margin-top:4px;font-family:"Iowan Old Style",Georgia,serif}
+.r .snip div{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+mark{background:var(--mark);color:inherit}
+.llmwarn{margin:24px 0 8px;padding:12px 14px;border:1px solid var(--warn);border-left:4px solid var(--warn);background:var(--panel);font-size:14px}
+@media (max-width:700px){.boxes{grid-template-columns:1fr}}
+</style></head><body>
+<header><a href="./">← All books</a><h1>Search all books</h1><button id="toggle" title="Toggle light/dark">◐</button></header>
+<main>
+<div class="boxes">
+<div class="box"><h2>Tables</h2><input id="qt" type="search" placeholder="e.g. rice, Dairen, cotton exports…"><p>Titles, chapters, column headings, cells and notes of every table in every book.</p></div>
+<div class="box"><h2>Who's Who &amp; Directories</h2><input id="qd" type="search" placeholder="e.g. Mitsui, Kato, Keio, Osaka…"><p>People, firms, societies and institutions across all the directory appendices.</p></div>
+</div>
+<div class="tabs"><button id="tt" class="on">Table results</button><button id="td">Directory results</button></div>
+<div id="status"></div><div id="out"></div>
+<div class="llmwarn" role="note"><b>Warning:</b> These tables were transcribed by the vision model of Opus 5.5. Before using any of these figures, you must verify specific statistics with the original source which is linked to whenever possible.</div>
+</main>
+<script>
+const BOOKS=__BOOKS__;
+const $=s=>document.querySelector(s);
+const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const norm=s=>String(s??"").normalize("NFD").replace(/[̀-ͯ]/g,"").toLowerCase();
+function hl(s,terms){s=String(s??"");const n=norm(s);let marks=[];terms.forEach(t=>{let i=0;while(t&&(i=n.indexOf(t,i))>-1){marks.push([i,i+t.length]);i+=t.length}});
+ if(!marks.length)return esc(s);marks.sort((a,b)=>a[0]-b[0]);let out="",pos=0;marks.forEach(([a,b])=>{if(a<pos)return;out+=esc(s.slice(pos,a))+"<mark>"+esc(s.slice(a,b))+"</mark>";pos=b});return out+esc(s.slice(pos))}
+let TB=null,DR=null,tab="t";
+async function loadTables(){if(TB)return TB;$("#status").textContent="Loading tables…";
+ TB=(await Promise.all(BOOKS.map(b=>fetch("data/"+b.slug+".json").then(r=>r.json()).then(ts=>ts.map(t=>{
+  const rows=(t.parts||[]).flatMap(p=>p.rows||[]);
+  return {b,t,rows,head:norm([t.title,t.table_no,t.chapter,t.caption_extra].join(" ")),all:norm([t.title,t.table_no,t.chapter,t.caption_extra,...(t.parts||[]).flatMap(p=>[p.label,...(p.columns||[])]),...rows.map(r=>r.join(" ")),...(t.footnotes||[])].join(" \n "))}}))))).flat();return TB}
+async function loadDirs(){if(DR)return DR;$("#status").textContent="Loading directories…";
+ DR=(await Promise.all(BOOKS.filter(b=>b.dir).map(b=>fetch("data/"+b.slug+"-directory.json").then(r=>r.json()).then(es=>es.map(e=>({b,e,n:norm(e.n),all:norm(e.n+" "+e.t+" "+e.s)})))))).flat();return DR}
+const LIMIT=400;
+async function runT(){const q=$("#qt").value.trim();const terms=norm(q).split(/\s+/).filter(Boolean);
+ if(!terms.length){$("#status").textContent="Type in the Tables box to search.";$("#out").innerHTML="";return}
+ const all=await loadTables();if(norm($("#qt").value.trim())!==norm(q))return;
+ const res=all.filter(x=>terms.every(w=>x.all.includes(w)));res.sort((a,b)=>terms.filter(w=>b.head.includes(w)).length-terms.filter(w=>a.head.includes(w)).length);
+ const by={};res.slice(0,LIMIT).forEach(x=>(by[x.b.slug]=by[x.b.slug]||[]).push(x));
+ $("#status").textContent=`${res.length.toLocaleString()} table${res.length===1?"":"s"}${res.length>LIMIT?` (showing ${LIMIT})`:""}`;
+ let h="";BOOKS.forEach(b=>{const xs=by[b.slug];if(!xs)return;h+=`<div class="bk">${esc(b.title)} · ${xs.length}</div>`;
+  xs.forEach(x=>{const t=x.t;const lab=(t.table_no?`Table ${t.table_no}. `:"")+(t.title||"");
+   const hits=x.rows.filter(r=>terms.some(w=>norm(r.join(" ")).includes(w))).slice(0,3);
+   h+=`<div class="r"><a class="t" href="${b.slug}/#${encodeURIComponent(t.id)}">${hl(lab,terms)}</a><div class="m">${esc(t.chapter||"")} · p. ${esc((t.printed_pages||[]).join(", "))}${(t.scans||[])[0]&&t.scans[0].url?` · <a href="${t.scans[0].url}" target="_blank" rel="noopener">scan</a>`:""}</div>`+
+    (hits.length?`<div class="snip">${hits.map(r=>`<div>${r.map(c=>hl(c,terms)).join(" · ")}</div>`).join("")}</div>`:"")+`</div>`})});
+ $("#out").innerHTML=h||"<p>No tables match.</p>"}
+async function runD(){const q=$("#qd").value.trim();const terms=norm(q).split(/\s+/).filter(Boolean);
+ if(!terms.length){$("#status").textContent="Type in the Directories box to search.";$("#out").innerHTML="";return}
+ const all=await loadDirs();if(norm($("#qd").value.trim())!==norm(q))return;
+ const res=all.filter(x=>terms.every(w=>x.all.includes(w)));res.sort((a,b)=>terms.filter(w=>b.n.includes(w)).length-terms.filter(w=>a.n.includes(w)).length);
+ const by={};res.slice(0,LIMIT).forEach(x=>(by[x.b.slug]=by[x.b.slug]||[]).push(x));
+ $("#status").textContent=`${res.length.toLocaleString()} entr${res.length===1?"y":"ies"}${res.length>LIMIT?` (showing ${LIMIT})`:""}`;
+ let h="";BOOKS.forEach(b=>{const xs=by[b.slug];if(!xs)return;h+=`<div class="bk">${esc(b.title)} · ${xs.length} · <a href="${b.slug}/directory.html#${new URLSearchParams({q}).toString()}" style="color:inherit">open in book directory</a></div>`;
+  xs.forEach(({e})=>{h+=`<div class="r"><b>${hl(e.n,terms)}</b> <span class="snip">${hl(e.t,terms)}</span><div class="m">${esc(e.a)}${e.s?" — "+esc(e.s):""} · p. ${esc(e.p)} · ${e.u?`<a href="${e.u}" target="_blank" rel="noopener">${esc(e.l)}</a>`:esc(e.l)}</div></div>`})});
+ $("#out").innerHTML=h||"<p>No entries match.</p>"}
+function setTab(x){tab=x;$("#tt").classList.toggle("on",x==="t");$("#td").classList.toggle("on",x==="d");(x==="t"?runT:runD)();
+ try{history.replaceState(null,"","#"+new URLSearchParams({t:$("#qt").value,d:$("#qd").value,tab:x}).toString())}catch(e){}}
+let tm;const deb=x=>()=>{clearTimeout(tm);tm=setTimeout(()=>setTab(x),200)};
+$("#qt").addEventListener("input",deb("t"));$("#qd").addEventListener("input",deb("d"));
+$("#qt").addEventListener("focus",()=>tab!=="t"&&setTab("t"));$("#qd").addEventListener("focus",()=>tab!=="d"&&setTab("d"));
+$("#tt").addEventListener("click",()=>setTab("t"));$("#td").addEventListener("click",()=>setTab("d"));
+$("#toggle").addEventListener("click",()=>{const r=document.documentElement;const d=r.dataset.theme?r.dataset.theme==="dark":matchMedia("(prefers-color-scheme: dark)").matches;r.dataset.theme=d?"light":"dark"});
+try{const p=new URLSearchParams(location.hash.slice(1));$("#qt").value=p.get("t")||"";$("#qd").value=p.get("d")||"";setTab(p.get("tab")==="d"?"d":"t")}catch(e){setTab("t")}
 </script></body></html>
 """
 
