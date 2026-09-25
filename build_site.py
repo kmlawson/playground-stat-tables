@@ -27,9 +27,9 @@ BOOKS = [
      "item": "https://archive.org/details/annualreportonreformsandprogressinchosenkorea192930"},
     {"slug": "japan-1930", "dir": "Japan_Year_Book_1930", "title": "The Japan Year Book 1930",
      "publisher": "The Japan Year Book Office, Tokyo, 1930",
-     "blurb": "Comprehensive English-language reference on the Japanese Empire in 1930.",
+     "blurb": "Comprehensive English-language reference on the Japanese Empire in 1930, covering geography, population, government, defence, education, labour, justice, communications, railways, shipping, banking, finance, agriculture, industry, trade, the six premier cities and the colonies.",
      "source": "Hand-transcribed from the Internet Archive scan.",
-     "in_progress": True,
+     "gaps": "Advertisements, the Who's Who, the Business Directory and the Index were screened but contain no tables (the restaurant lists in Appendix D are the one exception). On p. 439 the right edge of the scan cuts off the 1927 export figures, so those cells are blank.",
      "scan": "https://archive.org/details/japan-year-book-1930/page/n{leaf}/mode/1up",
      "item": "https://archive.org/details/japan-year-book-1930"},
 ]
@@ -216,7 +216,7 @@ function hl(s,q){s=esc(s);if(!q)return s;q.split(/\s+/).filter(Boolean).forEach(
 function csv(t){const L=[];(t.parts||[]).forEach(p=>{if(p.label)L.push([p.label]);L.push(p.columns);p.rows.forEach(r=>L.push(r));L.push([])});
  return L.map(r=>r.map(c=>/[",\n]/.test(c??"")?'"'+String(c).replace(/"/g,'""')+'"':(c??"")).join(",")).join("\n")}
 function show(id){const t=T.find(x=>x.id===id)||T[0];if(!t){$("#main").innerHTML="<p>No tables yet.</p>";return}
- const q=$("#q").value.trim();let h=`<h2>${hl(label(t),q)}</h2><div class="sub">${esc(t.chapter||"")} · printed page${(t.printed_pages||[]).length>1?"s":""} ${esc((t.printed_pages||[]).join(", "))} · photo ${esc((t.images||[t.image]).join(", "))}</div>`;
+ const q=$("#q").value.trim();let h=`<h2>${hl(label(t),q)}</h2><div class="sub">${esc(t.chapter||"")} · printed page${(t.printed_pages||[]).length>1?"s":""} ${esc((t.printed_pages||[]).join(", "))} · ${/^p\d/.test(t.image||"")?"scan leaf":"photo"} ${esc((t.images||[t.image]).join(", "))}</div>`;
  if(t.caption_extra)h+=`<div class="sub"><i>${hl(t.caption_extra,q)}</i></div>`;
  (t.parts||[]).forEach(p=>{if(p.label)h+=`<div class="part">${hl(p.label,q)}</div>`;
   h+=`<div class="tw"><table><thead><tr>${p.columns.map(c=>`<th>${hl(c,q)}</th>`).join("")}</tr></thead><tbody>`;
