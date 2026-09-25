@@ -10,6 +10,7 @@ Run with:  uv run --with openpyxl build_downloads.py   (then build_site.py, whic
 import os, re, json, glob
 from openpyxl import Workbook
 from openpyxl.styles import Font, Alignment
+from openpyxl.worksheet.hyperlink import Hyperlink
 import build_site as bs
 
 OUT = os.path.join(bs.HERE, "downloads")
@@ -30,6 +31,19 @@ def cell_value(s):
     return s, None
 
 
+def put(ws, row):
+    """Append a row; text starting with '=' is printed text (e.g. "= 3.30 miles"), never a formula."""
+    ws.append(row)
+    for c in ws[ws.max_row]:
+        if isinstance(c.value, str) and c.value.startswith("="):
+            c.data_type = "s"
+
+
+def link(c, sheet):
+    c.hyperlink = Hyperlink(ref=c.coordinate, location=f"'{sheet}'!A1")
+    c.font = Font(color="1F4A2C", underline="single")
+
+
 def label(t):
     return (f"Table {t['table_no']}. " if t.get("table_no") else "") + (t.get("title") or "")
 
@@ -38,58 +52,56 @@ def xlsx(book, tables):
     wb = Workbook()
     idx = wb.active
     idx.title = "Contents"
-    idx.append([book["title"] + " — tables"])
+    put(idx, [book["title"] + " — tables"])
     idx["A1"].font = Font(bold=True, size=14)
-    idx.append([book["source"]])
-    idx.append(["Warning: " + WARN])
-    idx.append([])
-    idx.append(["Sheet", "Chapter", "Table", "Printed pages", "Source"])
+    put(idx, [book["source"]])
+    put(idx, ["Warning: " + WARN])
+    put(idx, [])
+    put(idx, ["Sheet", "Chapter", "Table", "Printed pages", "Source"])
     for c in idx[5]:
         c.font = BOLD
     for t in tables:
         name = t["id"][:31]
         ws = wb.create_sheet(name)
-        ws.append([label(t)])
+        put(ws, [label(t)])
         ws["A1"].font = Font(bold=True, size=13)
         meta = [t.get("chapter") or "", "printed pp. " + ", ".join(t.get("printed_pages") or [])]
-        ws.append([" · ".join(x for x in meta if x)])
+        put(ws, [" · ".join(x for x in meta if x)])
         if t.get("caption_extra"):
-            ws.append([t["caption_extra"]])
+            put(ws, [t["caption_extra"]])
         src = [s for s in t.get("scans", []) if s.get("url")]
         if src:
-            ws.append(["Scan: " + ", ".join(s["url"] for s in src)])
-        ws.append(["← Contents"])
-        ws.cell(ws.max_row, 1).hyperlink = "#'Contents'!A1"
-        ws.cell(ws.max_row, 1).font = Font(color="1F4A2C", underline="single")
+            put(ws, ["Scan: " + ", ".join(s["url"] for s in src)])
+        put(ws, ["← Contents"])
+        link(ws.cell(ws.max_row, 1), "Contents")
         for p in t.get("parts", []):
-            ws.append([])
+            put(ws, [])
             if p.get("label"):
-                ws.append([p["label"]])
+                put(ws, [p["label"]])
                 ws.cell(ws.max_row, 1).font = BOLD
-            ws.append(p.get("columns") or [])
+            put(ws, p.get("columns") or [])
             for c in ws[ws.max_row]:
                 c.font = BOLD
                 c.alignment = Alignment(wrap_text=True, vertical="top")
             for r in p.get("rows", []):
-                ws.append([cell_value(x)[0] for x in r])
+                put(ws, [cell_value(x)[0] for x in r])
                 for c, x in zip(ws[ws.max_row], r):
                     fmt = cell_value(x)[1]
                     if fmt:
                         c.number_format = fmt
         for head, key in (("Footnotes", "footnotes"), ("Transcriber's notes", "transcriber_notes")):
             if t.get(key):
-                ws.append([])
-                ws.append([head])
+                put(ws, [])
+                put(ws, [head])
                 ws.cell(ws.max_row, 1).font = BOLD
                 for n in t[key]:
-                    ws.append([n])
+                    put(ws, [n])
         ws.column_dimensions["A"].width = 34
         for col in "BCDEFGHIJKLMNOPQRSTUVWXYZ":
             ws.column_dimensions[col].width = 14
-        idx.append([name, t.get("chapter") or "", label(t), ", ".join(t.get("printed_pages") or []),
+        put(idx, [name, t.get("chapter") or "", label(t), ", ".join(t.get("printed_pages") or []),
                     src[0]["url"] if src else ""])
-        idx.cell(idx.max_row, 1).hyperlink = f"#'{name}'!A1"
-        idx.cell(idx.max_row, 1).font = Font(color="1F4A2C", underline="single")
+        link(idx.cell(idx.max_row, 1), name)
     for col, w in zip("ABCDE", (12, 30, 60, 14, 60)):
         idx.column_dimensions[col].width = w
     path = os.path.join(OUT, f"{book['slug']}-tables.xlsx")
