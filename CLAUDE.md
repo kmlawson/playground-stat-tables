@@ -14,8 +14,10 @@ building or pushing anything.
   printed total. Transcribe as printed, misprints included; re-add every printed total and note whether it
   reconciles.
 - **Short missions, not long batches.** Each sub-agent gets one short mission sized to finish in under an
-  hour: 1–3 dense pages/spreads (trade returns, big multi-part tables), 3–5 ordinary table pages (up to 8 to
-  keep whole tables together), 10–20 pages of pure prose; boundaries drawn from a contact sheet of the book. Long batches (12–30 spreads) ran 5–9 hours per agent, were hard to monitor and lost work to API
+  hour: 1–3 dense pages/spreads (trade returns, big multi-part tables), 3–5 ordinary table pages (up to 8 if
+  that keeps whole tables together), 10–20 pages of pure prose. Draw the boundaries from a contact sheet of
+  the whole book so tables rarely cross them; split very long single tables into one-file-per-page missions
+  with shared conventions (see `example/guidance.md` §4). Long batches (12–30 spreads) ran 5–9 hours per agent, were hard to monitor and lost work to API
   timeouts. Templates: `example/BRIEF.md` (rules, formats) and `example/MISSION.md` (scope + prompt).
 - **Ownership of multi-page tables:** a table is written once, by the mission that owns its first page,
   reading ahead as far as needed; a continuation at the top of a mission's first page is left alone. A killed
@@ -39,7 +41,8 @@ building or pushing anything.
 - Never push to `main`; push your branch and let the main session merge.
 - Privacy: GitHub noreply commit identity; never put the user's name, email or other identifying details in
   commits, request headers (User-Agent/From), file metadata or pages.
-- Before merging `origin/main`, commit or stash; confirm the merge ran (`git merge-base --is-ancestor origin/main
-  HEAD`) and that no conflict markers remain. Generated pages conflict on almost every merge: resolve by
-  rebuilding, never by hand (see `example/guidance.md` §5).
-- Audit agents' "judgement calls": a digit read from shape, context, row order or a total is blanked.
+- Before merging `origin/main`, commit or stash; confirm the merge ran (`git merge-base --is-ancestor
+  origin/main HEAD`) and that no conflict markers remain. Generated pages conflict on almost every merge:
+  resolve by rebuilding, never by hand (see `example/guidance.md` §5).
+- Audit agents' "judgement calls": a digit read from its shape, a similar glyph, context, row order or a
+  total is blanked, with the partial reading in the note.

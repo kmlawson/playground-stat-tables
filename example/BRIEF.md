@@ -56,7 +56,8 @@ put a sub-heading printed above an unnumbered table in `caption_extra`.
   figure rows, assign in order, and say so in the notes.
 - Rotated (sideways) tables: rotate the crop (`-rotate 90`) and read normally.
 - **Open every page in your range**, even ones you expect to be prose.
-- Crops are disposable: delete your own crops when you finish. Never touch another batch's crops.
+- Crops are disposable: name them with your mission ID (e.g. `crops/M_p0600_c1.jpg`) and delete only your own
+  when you finish. Never touch another mission's crops: parallel missions share the folder.
 
 ## What counts as a table
 - Include: numbered or unnumbered statistical tables; lists laid out in columns with figures; administrative
