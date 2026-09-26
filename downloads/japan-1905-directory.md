@@ -1,6 +1,6 @@
 # The Japan Year Book 1905 — Who's Who & Directories
 
-397 entries, LLM-transcribed. These entries were transcribed by the vision model of Opus 5.5. Before using any of these details, you must verify specific details with the original source which is linked to whenever possible.
+388 entries, LLM-transcribed. These entries were transcribed by the vision model of Opus 5.5. Before using any of these details, you must verify specific details with the original source which is linked to whenever possible.
 
 
 ## Imperial Court
@@ -788,32 +788,6 @@ Prince Narihisa has one more brother and four sisters. — p. 25 ([scan leaf 54]
 
 **Zumoto, Motosada** editor of Japan Times, b. '62 in Hoki Province, and grad. Sapporo Agr. Col. '84. Sewed the Japan Mail as tran. and then entered civil service for a short while at the Foreign Office and next at the Cabinet in which he was twice appointed Per. Sec. to the Premier Marquis Ito. Started the Japan Times '97 in conjunction with three others including the present writer, and it has served a useful purpose of conveying to foreigners Japanese views represented by native writers. Has travelled twice through Europe and America and is a special correspondent of the London Standard. — p. 288 ([scan leaf 317](https://archive.org/details/japan-year-book-1905/page/n317/mode/1up))
 
-### Obituary (Jan.—June, 1905)
-
-**Kishida, Ginko** authority in Chinese affairs — p. 289 ([scan leaf 318](https://archive.org/details/japan-year-book-1905/page/n318/mode/1up))
-
-**Komuchi, Tomotsune** M.P., Prog. leader — p. 289 ([scan leaf 318](https://archive.org/details/japan-year-book-1905/page/n318/mode/1up))
-
-**Matsumura** Lieut.-Gen., Com. of 1st Div. and fought at Nanshan and Port Arthur; died of apoplexy — p. 289 ([scan leaf 318](https://archive.org/details/japan-year-book-1905/page/n318/mode/1up))
-
-**Murai** Lieut.-Gen., Com. Tokyo Bay Fort defence — p. 289 ([scan leaf 318](https://archive.org/details/japan-year-book-1905/page/n318/mode/1up))
-
-**Noguchi, Neisai** poet; his death caused mysterious criminal case — p. 289 ([scan leaf 318](https://archive.org/details/japan-year-book-1905/page/n318/mode/1up))
-
-**Obata, Tokujiro** Member of the House of Peers, a great friend of the late Fukuzawa — p. 289 ([scan leaf 318](https://archive.org/details/japan-year-book-1905/page/n318/mode/1up))
-
-**Ohigashi, Gitetsu** ex-Min. of Justice, and once Prog. leader — p. 289 ([scan leaf 318](https://archive.org/details/japan-year-book-1905/page/n318/mode/1up))
-
-**Soejima** Count, a great figure in the Restoration work, was Min. of Foreign Affairs, etc. — p. 289 ([scan leaf 318](https://archive.org/details/japan-year-book-1905/page/n318/mode/1up))
-
-**Taguchi, Ukichi** M.P., economic thinker and politician — p. 289 ([scan leaf 318](https://archive.org/details/japan-year-book-1905/page/n318/mode/1up))
-
-**Torio** Viscount, Lieut.-Gen. (ret.), Privy Councillor — p. 289 ([scan leaf 318](https://archive.org/details/japan-year-book-1905/page/n318/mode/1up))
-
-**Tsuda** Maj.-Gen. (ret.), M. of the House of Peers — p. 289 ([scan leaf 318](https://archive.org/details/japan-year-book-1905/page/n318/mode/1up))
-
-**Utsumi** Baron, ex-Min. of Home Affairs — p. 289 ([scan leaf 318](https://archive.org/details/japan-year-book-1905/page/n318/mode/1up))
-
 ### Foreign Residents in Japan
 
 **Awdry, William** Bishop of the Nippon Seikyokwai, b. '42 and first arrived in Japan '96 as Bishop for Osaka '96–'97; removed '98 to the present post which he continues to occupy. (Add. 8, Sakai-cho, Shiba, Tokyo.) — p. 289 ([scan leaf 318](https://archive.org/details/japan-year-book-1905/page/n318/mode/1up))
@@ -839,3 +813,9 @@ Prince Narihisa has one more brother and four sisters. — p. 25 ([scan leaf 54]
 **Soper, Rev., Julius** b. Maryland, U. S. A. 145 and came to Japan '73 on mission work of the Methodist Episcopal church. Is a founder of the Aoyama Gakuin, a well-known Christian institution. (Add. Aoyama Gakuin, Aoyama, Tokyo). — p. 290 ([scan leaf 319](https://archive.org/details/japan-year-book-1905/page/n319/mode/1up))
 
 **Terry, H. T., Prof** b. Hartford, Conn. U. S. A.; came to Japan first '77, returned home '84 and again came '94; engaged on both occasions as Prof. Law of the Imp. Univ. Tokyo. Has been decorated with the 3rd class of the Sacred Treasure and 4th class of the Rising Sun. (Add. 13 Reinan-saka, Akasaka, Tokyo). — p. 290 ([scan leaf 319](https://archive.org/details/japan-year-book-1905/page/n319/mode/1up))
+
+**Pfoundes, Capt. C. J. W** a B. subject b. South of Ireland '26. Entered the Navy early and was in command in the South Seas, etc. and arrived in Japan '54 for benefit of health. Served in British Consulate at Nagasaki and British Legation at Yedo (Tokyo) etc. and held various semi-official posts for Jap. Government. Entered the British Admiralty Whitehall, London until '03, returning to Japan in a Transport. Lectured extensively in England and America on Japanese subjects, and was a founder of the Nippon Institute, now the Japan Society in London. Is one of the few foreigners who have joined Japanese Buddhist sects. (Kitano-cho, Kobe). — p. 290 ([scan leaf 319](https://archive.org/details/japan-year-book-1905/page/n319/mode/1up))
+
+**Whitney, Dr., W. N** M. D., M. R. C. S., b. '55 U. S. A. citizen and came to Japan '75 on U. S. A. dipl. service in which he held the post of Interpreter '83–'95. In practice of medicine in Tokyo from '83 to present date and is a Foreign Dir. of Akasaka Hospital. He is a great authority on Japan and Japanese and has written several books about Japan. (Add. 17, Hikawa-cho, Akasaka, Tokyo). — p. 291 ([scan leaf 320](https://archive.org/details/japan-year-book-1905/page/n320/mode/1up))
+
+**Young, Robert** Ed. “Japan Chronicle.” b. '58 in England, is said to have been connected with Sportiswood Printing Office, London, before he came to Japan '85 to manage the “Hiogo News.” Cut connection with it and founded '91 the Kobe Chronicle lately changed to the present title. The Hiogo News was incorporated with its later rival and ceased to exist several years ago. His bold animadversions of the Japanese Gov. policy and doings have often involved him in sharp altercations with other papers published in Japan. (Add. Nakayamate - dori Nichome, Kobe). — p. 291 ([scan leaf 320](https://archive.org/details/japan-year-book-1905/page/n320/mode/1up))

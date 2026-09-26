@@ -4,7 +4,7 @@ Every statistical table printed in English-language official yearbooks on Japan 
 
 | Book | Page |
 |---|---|
-| *The Japan Year Book 1905* (in progress) | [japan-1905/](japan-1905/) |
+| *The Japan Year Book 1905* | [japan-1905/](japan-1905/) |
 | *The Japan Year Book 1910* | [japan-1910/](japan-1910/) |
 | *The Japan Year Book 1920–21* | [japan-1920-21/](japan-1920-21/) |
 | *The Manchoukuo Year Book 1942* | [manchoukuo-1942/](manchoukuo-1942/) |
