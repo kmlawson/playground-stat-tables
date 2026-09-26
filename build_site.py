@@ -8,7 +8,9 @@ as "in progress" on the landing page. Scan links point to the online scan where 
 import json, glob, os, re, html
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-ROOT = os.path.dirname(HERE)
+# Folder holding the book folders. A worktree placed elsewhere (e.g. the far-east-1941 branch)
+# must set STAT_TABLES_ROOT to the Manchoukuo folder, or relative book dirs resolve wrongly.
+ROOT = os.environ.get("STAT_TABLES_ROOT") or os.path.dirname(HERE)
 
 BOOKS = [
     {"slug": "japan-1920-21", "dir": "Japan_Year_Book_1920", "title": "The Japan Year Book 1920-21",
@@ -31,12 +33,12 @@ BOOKS = [
      "source": "LLM-transcribed from the Internet Archive scan.",
      "in_progress": True,
      "scan": "https://archive.org/details/japan-year-book-1939-1940/page/n{leaf}/mode/1up",
-     "item": "https://archive.org/details/japan-year-book-1939-1940", "dir_label": "Clubs & Societies Directory", "dir_in_progress": True},
+     "item": "https://archive.org/details/japan-year-book-1939-1940", "dir_label": "Clubs & Societies Directory"},
     {"slug": "japan-1946-48", "dir": "Japan_Year_Book_1946-48", "title": "The Japan Year Book 1946-48",
      "publisher": "The Foreign Affairs Association of Japan (no place or date on the title page)",
      "blurb": "The first post-war edition, covering occupied Japan.",
      "source": "LLM-transcribed from the Internet Archive scan.",
-     "in_progress": True,
+     "gaps": "The scan is complete: no printed pages are missing and no leaves repeat. Part I runs to p. 614; the Appendix (SCAP directives, the new Constitution and post-war laws, documents of 1945–47, the war-crimes indictment and a List of Emperors) is paged again from 1. The Appendix is almost all legal text, so only its lists are transcribed. A few cells on folding inserts are lost in the fold and are left blank. The index, advertisements and a short run of church-group entries (printed pp. 489–490) are not transcribed.",
      "scan": "https://archive.org/details/japan-year-book-1946-1948/page/n{leaf}/mode/1up",
      "item": "https://archive.org/details/japan-year-book-1946-1948"},
     {"slug": "korea-1929-30", "dir": "Korea_Annual_Report_1929-30",

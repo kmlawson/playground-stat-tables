@@ -1,6 +1,163 @@
 # The Far East Year Book 1941 — Who's Who & Directories
 
-11 entries, LLM-transcribed. These entries were transcribed by the vision model of Opus 5.5. Before using any of these details, you must verify specific details with the original source which is linked to whenever possible.
+95 entries, LLM-transcribed. These entries were transcribed by the vision model of Opus 5.5. Before using any of these details, you must verify specific details with the original source which is linked to whenever possible.
+
+
+## Japan — Imperial Court: The Imperial House
+
+### The Reigning Sovereign
+
+**His Imperial Majesty Hirohito** , the reigning Emperor of Japan (124th of the line), is the first son of the late Emperor Taisho (Taisho Tenno); born on April 29th, 1901. He was nominated Heir-Apparent on September 9th, 1912, being at the same time appointed Sub-Lieutenant of the Army and Second Sub-Lieutenant of the Imperial Navy and decorated with the Grand Cordon of the Chrysanthemum; promoted to Lieutenant of the Army and 1st Sub-Lieutenant of the Navy on October 31st, 1914; to Captain and Lieutenant on October 31st, 1916; promoted to Major and Lieut.-Commander on October 31st, 1920; visited Europe in 1921; appointed Regent on November 25th, 1921; promoted to Lieut.-Colonel and Commander on October 31st, 1923; married Princess Nagako Kuni (first daughter of H.I.H. Prince Kuni) on January 26th, 1924; promoted to Colonel and Captain (Navy) on October 31st, 1924; acceded to the Throne on the death of his father Emperor Taisho on December 25th, 1926; formally enthroned on November 10th, 1928. On March 3rd, 1921 His Majesty (then Crown Prince) proceeded to Europe to make observations and exchange courtesies with the sovereigns and rulers of European countries, returning home in September the same year. It was an epoch-making event in the history of the Japanese Imperial House as it was the first Crown Prince of the Empire who ever stepped out of the country and visited foreign lands, and moreover it was an unqualified success in every respect, particularly having had the result of promoting and further cementing the happy relations between Japan and her friendly Powers in the Occident. After returning from the foreign tour, he was appointed Regent in November, 1921, to conduct affairs of State in place of his Imperial father who, on account of chronic illness, was incapacitated from performing his onerous duties as Emperor. In January, 1924, he married Princess Nagako, eldest daughter of H.I.H. General Prince Kuniyoshi Kuni. Then on the 25th of December, 1926, following the death of his father Emperor Yoshihito (Taisho Tenno) he ascended the Throne as the 124th Emperor, the new era named Showa being adopted for his reign. The enthronement of the sovereign was officially celebrated at the ancient Capital of Kyoto in November (10th to 15th), 1928, after the lapse of one year's mourning over the demise of the departed Emperor according to traditional custom, the national function being performed with time-honoured ceremonies. — p. 54
+
+**Nagako** , the Empress, first daughter of the late Prince Kuniyoshi Kuni, born on March 6th, 1903. Her Majesty was educated at the Peeresses' School and afterward studied under private tutors at her home. Married the Emperor (then Crown Prince) January 26th, 1924. — p. 54
+
+**Sadako** , the Empress Dowager (consort of the late Emperor Taisho), born June 25th, 1884, fourth daughter of the late Prince Michitaka Kujo, a noble of the first rank; married Emperor Taisho (then Crown Prince) on May 10th, 1900; widow December 25th, 1926. — p. 54
+
+### The Crown Prince
+
+**Tsugu-no-Miya Akihito** , first son of the Emperor, born on December 23rd, 1933. — p. 54
+
+### Other Children of the Emperor
+
+**Masahito (Yoshi-no-Miya)** , second son of the Emperor, born November 28th, 1935. — p. 54
+
+**Shigeko** (Teru-no-Miya), first daughter of the Emperor, born December 6th, 1925. — p. 54
+
+**Kazuko** (Taka-no-Miya), third daughter of the Emperor, born September 30th, 1929. — p. 54
+
+**Atsuko** (Yori-no-Miya), fourth daughter of the Emperor, born March 7th, 1931. — p. 54
+
+**Takako** (Suga-no-Miya), fifth daughter of the Emperor, born March 2nd, 1939. — p. 54
+
+### Brother of the Emperor
+
+**Chichibu-no-Miya** (Residence — Akasaka-ku, Tokyo). — p. 54
+
+**Prince Yasuhito** , present head (1st of the line) and second son of the late Emperor Taisho, born June 25th, 1902. His house-name was formerly Atsu-no-Miya, but on attaining majority in June, 1922 the Prince founded a new house (Chichibu-no-Miya) by Imperial order. After finishing the 2nd year class of the middle school course of the Peers' School, entered the Central Military Preparatory School in 1917 to receive military education; further studied at the Military Academy, graduating in 1922; appointed Sub-Lieutenant (infantry) Regiment of the Imperial Guards Division; promoted to Lieutenant, 1925; further studied in Europe, 1925-26; returned in 1927; promoted to Captain, 1930; graduated from Military Staff College, 1931; promoted to Major, 1935; attended British Coronation, 1937; Lieut.-Col., 1938; Colonel, 1939. The Prince is Honorary President, Japan-British Society (Tokyo), Swedish Association of Japan, Peers' Club. Honorary member, Ski Club of Great Britain, Alpine Ski Club of England. — p. 54
+
+**Princess Setsuko** , consort of the above, is daughter of Mr. Tsuneo Matsudaira, Minister of the Imperial Household; was born Sept. 9th, 1909; educated at the Peeresses' School and later in the United States; married the Prince Sept. 1928. — p. 55
+
+**Takamatsu-no-Miya** (Residence — Takanawa Nishidaimachi, Shiba-ku, Tokyo). — p. 55
+
+**Prince Nobuhito** , present head (1st of the line) and third son of the late Emperor Taisho, born January 3, 1905. Graduated from Cadets School, 1924; appointed 2nd Sub-Lieut., December 1925; 1st Sub-Lieut., 1927; studied at Naval Gunnery School, 1931-32, promoted to Lieutenant 1930; appointed squadron commander of the warship Takao, 1932; transferred to Fuso in the similar capacity, 1933; promoted to Lieut.-Commander, 1935; graduated from Naval Staff College, 1936 then attached to the Naval Staff Board; went abroad in 1930 to return the courtesy of the British Court accompanied by the Princess. The Prince is Honorary President, the Japan Fine Arts Assn., Turco-Japanese and Japan-Denmark Societies, Japan-Brasil Central Assn., International Cultural Encouragement Society and the Imperial Invention Assn. The Prince was formerly called Teru-no-Miya and established the House of Takamatsu-no-Miya 1913. — p. 55
+
+**Princess Kikuko** , Consort of the above, is sister of Prince Yoshimitsu Tokugawa, born Dec. 26, 1911, married in 1930. — p. 55
+
+**Mikasa-no-Miya** (Residence—Akasaka-ku, Tokyo). — p. 55
+
+**Prince Takahito** , present head (1st of the line) and fourth son of late Emperor Taisho and the youngest brother of the reigning Emperor, born Dec. 2nd, 1915. The Prince finished the middle school course of the Peers' School in 1932; the Military Academy in June, 1936; is attached to the 15th Regiment (Cavalry) as Cadet. On attaining his majority in 1935, the Prince was granted the name of Mikasa and founded a new house. — p. 55
+
+### Other Members of the Imperial Family
+
+**Kan-in-no-Miya** (Residence—Nagata-cho, Kojimachi-ku, Tokyo). The House was founded by Prince Naohito (1703-52, A.D.), eldest son of Higashiyama Tenno (113th Emperor). — p. 55
+
+**Prince Kotohito** , head (6th of the line), Field Marshal, Supreme War Councillor and Chief of General Staff. Is the 16th son of the late Prince Kuniie Fushimi; born Sept. 22nd, 1865; studied at the Military Preparatory School and then at the Military Academy; later studied in France; took part in the Japan-China and the Russo-Japanese War; promoted to Lieut.-General in 1905; appointed Commander of the Imperial Guards Division in 1906; promoted to General and made Supreme War Councillor in 1912; Field Marshal in 1919; appointed Chief of General Staff, since Dec. 1931. In 1921 the Prince accompanied the Crown Prince (present Emperor on his tour of Europe. Prince is Hon. President of the Japan Red Cross Society, the Japan Sericultural Association, the Franco-Japanese Society, the Russo-Japanese Society, the Tokyo Geological Society, the Military Club, the Tokyo Club and many other similar bodies. — p. 55
+
+**Princess Chieko** , Consort of the above, 2nd daughter of the late Prince Sanetomi Sanjo; born May 25th, 1872. Married the Prince Dec. 19th, 1891. The Princess is Honorary President of the Japan Women's Education Association. — p. 55
+
+**Prince Haruhito** , 2nd son of Prince Kotohito, born Aug. 3rd, 1902. Studied at the Peers' School and then at the Military Academy; is Captain of Cavalry attached to the Cavalry School as instructor and superintendent of research department, appointed Major of Cavalry, July, 1937. — p. 55
+
+**Princess Naoko** , consort of the above, 4th daughter of the late Prince Saneteru Ichijo; born Nov. 7th, 1908; married in 1926. — p. 55
+
+**Higashi Fushimi-no-Miya** (Residence—Tokiwamatsu, Shibuya-ku, Tokyo). The House was set up by the late Adm. Prince Yorihito, 17th son of the late Prince Kuniie Fushimi, and younger brother of Marshal Prince Kan-in. The Prince died heirless in 1922. — p. 55
+
+
+## Japan — Imperial Court: The Imperial House (other members of the Imperial Family)
+
+### Other Members of the Imperial Family
+
+**Dowager Princess Kaneko** , consort of the late Prince Yorihito and eldest daughter of the late Prince Tomosada Iwakura. Born August 29th, 1876; married the late Prince Feb. 10th, 1898; widow in 1922. The Princess is Honorary President of the Ladies' Patriotic Association and also of the Women's Hygiene Association. — p. 56
+
+**Fushimi-no-Miya** (Residence—Kioi-cho, Kojimachi-ku, Tokyo). The House is the oldest of the princely families, founded in the 14th century by a son of Gohanazono Tenno, the 102nd Emperor. — p. 56
+
+**Prince Hiroyasu** , present head (23rd of the line) and eldest son of the late General Prince Sadanaru; born October 16th, 1875; married Princess Tsuneko (deceased 9th daughter of Prince Keiki Tokugawa) in 1897; succeeded to the House of Prince Kwacho in 1883, but returned to the present House in July 1904; studied at the Naval Academy and then in Germany; took part in the Russo-Japanese War and was wounded on board the Mikasa in the battle of the Yellow Sea (Aug. 1904); studied in England, 1909-10; was in command of the Takachiho, 1910; Vice-Admiral, 1917; Supreme War Councillor, 1920; full Admiral, 1922; appointed Chief of Naval Staff Board, Feb. 1932; Admiral of Fleet, May 1932. The Prince is Hon. President of the Imperial Life Boat Association, the Japan Seamen's Relief Association, the Cancer Research Society, the Naval Club, the Japan-German Society, the Scientific & Chemical Research Institute, etc. — p. 56
+
+**Prince Hiroakira** , eldest son of the late Prince Hiroyoshi, born 1932. — p. 56
+
+**Princess Tokiko** , consort of the late Prince Hiroyoshi, (the eldest son of Prince Hiroyasu), 3rd daughter of Prince Saneteru Ichijo, born 1902. Married Dec. 23rd, 1919, widow 1938. (Prince Hironobu, 3rd son of Prince Hiroyasu, born 1905, created a new House in 1926 by order of the late Emperor Taisho and is now called Marquis Kwacho. He graduated from the Naval Academy in 1925). — p. 56
+
+**Yamashina-no-Miya** (Residence — Fujimi-cho, Kojimachi-ku, Tokyo). — p. 56
+
+**Prince Takehiko** , head (3rd of the line), eldest son of the late Prince Kikumaro; born Feb. 13th, 1898; studied at the Naval Academy; attached to the Naval Aviation Corps as Sub-Lieutenant and attached to the Naval Staff Board; retired from active service in 1927 on account of declining health; promoted to Lieut.-Commander in 1929 and at the same time placed on waiting list. Married in 1922 to Princess Sakiko (deceased in 1932), 2nd daughter of the late Prince Kuniyoshi Kaya-no-Miya. Was at one time an aviation enthusiast for which the Prince was popularly called “Prince of the Air” and established a private aviation institute (Mikuni Aviation School). Prince Takehiko has four brothers, Prince Yoshimaro (born 1901), Prince Fujimaro (born 1905), Prince Hagimaro (born 1906) and Prince Shigemaro (born 1908), who were all ordered to set up new houses and are now known as Marquis Yamashina, Marquis Tsukuba, Count Kashima (died Aug. 1932) and Count Katsuragi respectively. They are no longer members of the Imperial Family. — p. 56
+
+**Kaya-no-Miya** (Residence—Samban-cho, Kojimachi-ku, Tokyo). — p. 56
+
+**Dowager Princess Yoshiko** , Consort of the late Prince Kuninori, and eldest daughter of the late Marquis Tadayoshi Daigo. Born Oct. 20th, 1865, widow, 1910. — p. 56
+
+**Prince Tsunenori** , head (2nd of the line) and eldest son of the late Prince Kuninori. Born Jan. 27th, 1900. Graduated from the Military Academy in 1921 and Military Staff College in 1926; promoted to Major of Cavalry and instructor at the Military Staff College, 1931-34; appointed Commander of the 10th Cavalry Regiment Aug. 1925, then commdr. 16th Cavalry Regiment. — p. 56
+
+**Princess Toshiko** , consort of the above and 5th daughter of Prince Michizane Kujo. Born May 16th, 1903; married in 1921. — p. 56
+
+**Kuni-no-Miya** (Residence—Miyashiro, Shibuya-ku, Tokyo). — p. 56
+
+**Dowager Princess Chikako** , consort of the late Prince Kuniyoshi, 7th daughter of the late Prince Tadayoshi Shimazu. Born Oct. 19th, 1879; married 1899; widow, Jan., 1929. Is also mother of the present Empress. (Prince Kunihide, 3rd son of the late Prince Kuniyoshi, born May 10th, 1910. Set up a new house in April, 1931, by Imperial order and is now known as Count Higashi Fushimi). — p. 56
+
+**Prince Asaakira** , head (3rd of the line), eldest son of the late Marshal Prince Kuniyoshi Kuni. Born Feb. 2nd, 1901; studied at the Naval Academy; made Lieutenant in 1928; promoted to Lieut.-Commander in 1931; attached to the Naval Staff Board; Chief Gunner of the cruiser Kiso; transferred to the cruiser Yakumo in the same capacity in August, 1934, promoted to Lieut.-Commdr. and now attached to the Navy Office. — p. 57
+
+**Princess Tomoko** , consort of the above and 3rd daughter of Prince Hiroyasu Fushimi. Born May 18th, 1907; married the Prince Jan. 25th, 1925. — p. 57
+
+**Nashimoto-no-Miya** (Residence — Mitake-cho, Shibuya-ku, Tokyo). — p. 57
+
+**Prince Morimasa** , (head and 2nd of the line), 4th son of the late Prince Asahiko, born March 9th, 1874. Field Marshal and Supreme War Councillor. Studied at a French Military School in 1903-04 and again in 1907-08; took part in the Russo-Japanese War (1904-05); after holding various high posts including the post of divisional commander was promoted to full General in 1923 and then appointed member of the Supreme War Council; Field Marshal, August, 1932. The Prince is Honorary President of the Franco-Japanese Society, the Japan Agricultural Association, the Japan Forestry Association, the Japan Martial Art Association, the Imperial Aero Association, the Italian Society of Japan etc. — p. 57
+
+**Princess Itsuko** , consort of the above, 2nd daughter of the late Marquis Naotada Nabeshima; born Feb. 2nd, 1882; married Nov. 28th, 1900; made a tour of Europe with the Prince in 1908-09. — p. 57
+
+**Asaka-no-Miya** (created in March 1906). (Residence—Shirokane Dai-machi, Shiba-ku, Tokyo). — p. 57
+
+**Prince Yasuhiko** , head, 8th son of the late Prince Asahiko Kuni; born Oct. 2nd, 1887. Studied at the Military Academy and then in France; Major-General and instructor at the Military Staff College in 1930, later appointed Commander of the 1st Infantry Brigade; promoted to Lieut.-General and appointed Commander of the Imperial Guards Division in Aug. 1933; appointed Supreme War Councillor, 1935; commanded Japanese forces in China 1938; General, 1939. — p. 57
+
+**Higashi Kuni-no-Miya** (created in Nov. 1906) (Residence—Ichibei-cho, Azabu-ku, Tokyo). — p. 57
+
+**Prince Naruhiko** , head, 9th son of the late Prince Asahiko Kuni; born Dec. 3rd, 1887; set up the present house in November, 1906, by order of the late Emperor Meiji. Studied at the Military Academy and later in France where he stayed from 1920 till 1926; married Princess Toshiko May 18th, 1915; Major-General and Commander of the 5th Infantry Brigade in August, 1930; promoted to Lieut.-General and appointed Commander of the 4th Army Division in August 1934; appointed Chief of the Military Aviation Department, July, 1937; commanded Japanese forces in China; promoted to full general, 1939; is Honorary President of the Press Association of Japan. — p. 57
+
+**Princess Toshiko** , consort of the above, is the youngest daughter of the late Emperor Meiji. Born May 11th, 1896; married the Prince May 11th, 1915. — p. 57
+
+**Kita Shirakawa-no-Miya** (Residence—Takanawa Minami-cho, Tokyo). — p. 57
+
+**Prince Nagahisa** , head (4th of the line), eldest son of the late Prince Nagahisa; born Feb. 19th, 1910, killed in action Sept. 4th, 1940 in China. — p. 57
+
+**Princess Sachiko** , consort of the above, is the 2nd daughter of Baron Yoshinori Tokugawa. Born Aug. 26th, 1916, married in 1935. — p. 57
+
+**Prince Michihisa** , eldest son of the late Prince Nagahisa; born May 2nd, 1937. — p. 57
+
+**Takeda-no-Miya** (Residence — Takanawa Minami-cho, Shiba-ku, Tokyo). The House was created in March, 1906 by the late Prince Tsunehisa (died in 1910), eldest son of the late Prince Kitashirakawa, by order of the late Emperor Meiji. — p. 57
+
+**Dowager Princess Masako** , consort of the late Prince Tsunehisa; is the 6th daughter of the late Emperor Meiji, born Sept. 30th, 1888; married the late Prince Tsunehisa 1908; widow in 1919. Died on 8th March, 1940. — p. 57
+
+**Prince Tuneyoshi** , head (2nd of the line), eldest son of the late Prince Tsunehisa; born in 1909. Studied at the Military Academy; was appointed Sub-Lieutenant of Cavalry in 1930 and attached to the 1st Cavalry Regiment; promoted to Lieutenant in August, 1933, Captain in August, 1936. — p. 57
+
+**Princess Mitsuko** , consort of the above, is the youngest daughter of Prince Kinteru Sanjo. Born Nov. 6th, 1915; married in 1934. — p. 57
+
+
+## Japan — Imperial Court: Royal House of Chosen
+
+### Royal House of Chosen
+
+**Ri** , the former royal family of Chosen (Korea). — p. 58
+
+**Shotoku-no-Miya** (Residence—Kioi-cho, Kojimachiku, Tokyo). — p. 58
+
+**Prince Gin** , head of the family and younger brother of Prince Chiok (the late head of the house), born October 20th, 1897 in Keijo (Seoul). Brought up in the royal palace in the former Korean capital but later moved to Tokyo to receive education. Graduated from the Military Academy in Tokyo in 1920; married in 1920; promoted to Captain and attached to the 2nd Infantry Regiment of the Imperial Guards Division in 1926; visited Europe in 1927 for study and observation accompanied by Princess Masako; later attached to the General Staff Office; promoted to Lieut.-Colonel and attached to the Military Training Department; appointed Colonel and Commander of the 59th Infantry Regiment August, 1935, appointed head instructor of the preparatory course, Military Staff College, July, 1937; promoted to Major-Gen. July, 1938. — p. 58
+
+**Princess Masako** , consort of the above, eldest daughter of H.I.H. Prince Morimasa Nashimoto; born November 4th, 1901; married Prince Gin in 1920. — p. 58
+
+**Princess Im** , consort of the late Prince Chiok Ri, born September 19th, 1894; widow in 1926, (Residence—Seoul, Chosen). — p. 58
+
+**House of Ri Ken** (Residence—Tokiwamatsu, Shibuya-ku, Tokyo). — p. 58
+
+**Prince Ri Ko** , 5th son of the late Grand Prince Ri and father of Prince Ri Ken; born March 30th, 1877. — p. 58
+
+**Princess Kin** , consort of the above and eldest daughter of the late Baron Kin; born December 22nd, 1880; married December 6th, 1893. — p. 58
+
+**Prince Ri Ken** , eldest son of Prince Ri Kang, born October 28, 1909. Graduated from the Military Academy; is Captain of Cavalry attached to the Imperial Guard. — p. 58
+
+**Princess Yoshiko** , consort of the above, eldest daughter of Mr. Hiroshi Matsudaira; born October 6th, 1911; married in October 1931. — p. 58
+
+**House of Ri Gu** (Residence—Keijo, Chosen, Residence in Tokyo—Tokiwamatsu, Shibuya-ku, Tokyo). — p. 58
+
+**Prince Ri Gu** , 2nd son of Prince Ri Kang, born November 15th, 1912. Graduated from the Military Cadet School and is now Captain of Artillery. — p. 58
+
+**Princess Sanshu** , consort of the above and daughter of Marquis Boku; born December 11th, 1914; married May 3rd, 1935. — p. 58
 
 
 ## Japan — Social Problems: Private institutes for investigating social problems
@@ -36,3 +193,47 @@
 **Mitsui Line** —The Mitsui Line operates regular and irregular services. The former consists of the direct New York service, the Bangkok service, the Indian service (Bombay and Madras), the Philippine service, Dairen service, the Iran Bay service and the Moji-Yokohama service. The latter represents many ports in Europe, North America, South America, Australia, Africa, British India, the South Seas and Japan. As in June, 1938 the Mitsui Line owned 36 steamers amounting to 143,851 tons gross. — p. 217
 
 **Kawasaki Kisen Kaisha** —The Kawasaki Kisen Kaisha is one of the seven largest shipping companies of Japan. It was founded in April, 1919 with a capital of ¥20,000,000, which is paid up. Principal regular services operated by the Company are the New York Line, San Francisco-Los Angeles Line, Seattle-Vancouver Line, Japan-Australia Line, Europe-Far East Line, Tokyo-Yokohama-Dairen Line, North Korea Line, South America (West Coast) Line, East and South Africa Line, Bombay Line, Asia-Europe-North and South America Line. As in March, 1939 the Company owned 34 ships aggregating 243,415 tons. — p. 217
+
+
+## Japan — Sports: National Parks
+
+### National Parks
+
+**Akan** A famous active volcano in Hokkaido, situated between Kushiro and Kitami occupying an area of 75,372 hectares. It is surrounded by many beautiful lakes and forests, with several hot spring resorts. — p. 508
+
+**Daizentsu-zan** (literally Great Snow Mountain) located at the centre of the mountain ranges of Hokkaido, is often called the Roof of Hokkaido. Its 203,306 hectares of territory which includes grand canyons and beautiful plains is considered as one of the most suitable places for natural research, mountaineering, sight-seeing, and skiing, etc. — p. 508
+
+**Lake Towada** Extending over Akita and Aomori prefectures, the lake being the second deepest in Japan, is 378 meters in depth and 401 meters above the sea level. The total area of the park is 49,587 hectares including beautiful hills, valleys, etc. and is highly regarded by those who love fishing, boating and winter sports. — p. 508
+
+**Nikko** “One can't say ‘kekko’ (wonderful) without visiting Nikko” is a Japanese proverb. This park occupies 53,553 hectares bordering Gunma, Fukushima, Tochigi and Niigata Prefectures. The gorgeous shrines, Lake Chuzenji, and the famous waterfall “Kegon” are some of the spot no visitor can miss among the many places of interest. — p. 508
+
+**Fuji-Hakone** This park occupies 82,281 hectares including Mt. Fuji, the famous five lakes at its foot, and the wellknown hotspring resort, Hakone. It is located within a few hours by train from Tokyo. — p. 508
+
+**The Japan Alps (Chubu Sangaku)** Occupies 173,554 hectares of mountainous zone, the so-called north Japan Alps. Among the many peaks in the region the Shirouma, Hodaka, Tsubakuro and Yari are very popular. Kamikochi and Kurobe add further beauty to the park. — p. 508
+
+**Yoshino-Kumano** Extending over three prefectures, Nara, Miye and Wakayama, its size is 69,429 hectares including the Yoshino mountain ranges, rivers and craggy coastline of Kumano. Yoshino is not only known for its famous cherry blossoms, but is also a spot of historic interest. — p. 508
+
+**Seto Inland Sea** The only sea park in Japan, dotted with many beautiful isles, it is 102,149 hectares in size. It is generally conceded that such scenery is unique in the world. — p. 508
+
+**Daisen** Mt. Daisen, the highest mountain facing the Japan Sea in the Chugoku district, is in the centre of the park, occupying [illegible] hectares, commanding a wonderful view of Shimane peninsular. The park which has several hot spring resorts is the centre of skiing in western Japan. — p. 508
+
+**Unzen** Located near Nagasaki, it is famous for its sulphide hot springs, and is also noted for its azaleas in Spring and “Silver Thaw” in Winter, when trees are coated with ice. The size of the park is 9,917 hectares. — p. 508
+
+**Aso** Extending over Oita and Kumamoto Prefectures, Mt. Aso, an active volcano with the largest crater in the world, consists of five peaks. Being double-cratered, it has a huge depression measuring 20 kilometres from south to north and 16 kilometres from east to west. There are 11 villages with a population of over 50,000 within the large crater. The total area of the park is 30,741 hectares. — p. 508
+
+**Kirishima** Located between the prefectures of Kagoshima and Miyazaki, occupying an area of 18,735 hectares, it consists of 22 volcanic mountains with beautiful lakes, plains, forests, etc. — p. 508
+
+
+## Manchoukuo — Administrative System: Decorations
+
+### Decorations
+
+**(1) Ta-hsun-wei-lan-hua-chang-king-shin** (the Collar of the Grand Order of the Lanhua), grantable only to holders of the Grand Order of Merit. — p. 623
+
+**(2) Ta-hsun-wei-lan-hua-ta-shou-chang** (the Grand Cordon of the Lanhua), grantable to those with or to be conferred the Grand Order of Merit — p. 623
+
+**(3) Lung-kung-ta-shou-chang** (the Order of Lungkuang), grantable only to those who are to be conferred or who have been conferred the First Order of Merit. — p. 623
+
+**(4) Ching-yun-chang** (the Order of Ching-yun), grantable to those who are to be conferred any of the decorations from the First to the Eighth Order of Merit, excepting those who have been conferred the First Order of Merit and who have been granted the Order of the Lungkuang. — p. 623
+
+**(5) Chukuo-chang** (the Order of Chukuo) grantable to those who are to be conferred any of the decorations from the First to the Eighth Order of Merit excepting those who are to be conferred with the order of Ching-yun. — p. 623

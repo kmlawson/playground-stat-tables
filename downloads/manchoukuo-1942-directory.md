@@ -1,6 +1,157 @@
 # The Manchoukuo Year Book 1942 — Who's Who & Directories
 
-365 entries, LLM-transcribed. These entries were transcribed by the vision model of Opus 5.5. Before using any of these details, you must verify specific details with the original source which is linked to whenever possible.
+427 entries, LLM-transcribed. These entries were transcribed by the vision model of Opus 5.5. Before using any of these details, you must verify specific details with the original source which is linked to whenever possible.
+
+
+## Table 9. Special & Semi-Special Companies in Manchoukuo
+
+### Financing
+
+**Central Bank of Manchou *** (Manshu Chuo Ginko)—Daido Taigai, Hsinking. Est. June, 1932. Cap. 30,000 (15,000 p.u.) Profit: 40,258, Div. 6%. Investor: Man'kuo Gov't. Govr. Kan Chao-Hsi, Vice-Govr. Kikutaro Osawa. Banking business based on Central Banking Law. — p. 282
+
+**Industrial Bank of Manchou *** (Manshu Chuo Ginko)—Daido Taigai, Hsinking. Est. Dec. 1936. Cap. 30,000 (p.u.) Profit: 5,000, Div. 6%. Investor: Man'kuo Gov't, Bank of Chosen. Pres. S. Okada. Banking business based on Industrial Bank of Manchou Law. — p. 282
+
+**Manchuria Investment Security Co *** (Manshu Toshi Shoken K.K.)—Totaku Bldg., Hsinking. Est. June, 1941. Cap. 400,000 (60,000 p.u.) (under construction) Profit.—Div.—. Investor: Japanese Life Insurance companies and Nissan. Pres. Mikitaro Miho. Intermediator of Japanese Life Insurance Cos.'s Investment in Manchoukuo. Purchase and Sales of Securities. — p. 282
+
+### Insurance
+
+**Manchuria Life Insurance Co *** (Manshu Seimei Hoken K.K.)—Kotoku Kaikan, Hsinking. Est. Oct. 1936. Cap. 3,000 (p.u.) Profit: 204, Div. none. Investor: 30 Japanese Life Insurance Cos. and Man'kuo Gov't. Pres. Y. Takahashi. Life Assurance business. — p. 282
+
+**Manchuria Fire & Marine Insurance Co †** (Manshu Kasai Kaijo Hoken K.K.)—Kaijo Bldg., Hsinking. Est. Dec. 1937. Cap. 5,000 (1,250 p.u.) Profit: –35. Div. none. Investor: Ind. Bk. of Manchou, Taiko Konssu, Kokusai Unyu & 34 Japanes Fire Insurance Cos. Pres. K. Nishiwaki. Various Property Insurance Business. — p. 282
+
+### Transport
+
+**South Manchuria Railway Co** (Minami Manshu Tetsudo K.K.)—Dairen City. Est. Nov. 1906. Cap. 1,400,000 (856,208 p.u.) Profit: 77,848 Div. 8% to public, 4.43% to Gov't. Investor: Japanese & Man'kuo Gov'ts & public. Pres. Takuichi Omura. Railway, Automobile, Harbour, Warehousing, Colliery, etc. — p. 283
+
+**Ta An Steamship Co †** (Taian Kisen K.K.)—Antung City. Est. March 1934. Cap. 350 (p.u.) Profit: 11 Div.—Investor: Man'kuo Gov't & Public. Pres. Y. Kurata. Steamer and General transports. — p. 283
+
+**Manchuria Aviation Co *** (Manshu Koku K.K.)—Yamato-ku, Mukden. Est. Sept. 1932. Cap. 30,000 (p.u.) Profit:—Div.—. Investor: Man'kuo Gov't, S.M.R., Mitsui Gomei, Mitsubishi Heavy Industry, Sumitomo. Pres. M. Makino. Passenger and Cargo Transport by Airways. — p. 283
+
+### Fuel
+
+**Manchuria Colliery Co *** (Manshu Tanko K.K.)—Kojin Tairo, Hsinking. Est. May 1934. Cap. 300,000 (p.u.) Profit: –7,144 Div. none. Investor: Manchuria Industrial Development Corp. Central Bank of Manchou. Pres. S. Matsumura. Mining and Sales of Coal, Investment to Coal Industry. — p. 283
+
+**Manchuria Synthetic Fuel Co *** (Manshu Gosei Nenryo K.K.)—Kotoku Kaikan, Hsinking. Est. Sept. 1936. Cap. 50,000 (p.u.) (under construction) Investor: Man'kuo Gov't, Mitsui & Co., Teikoku Nenryo, Manshu Tanko, Manshu Sekiyu. Pres. M. Takashima. Manufacturers & Sellers of Liquid Fuel. — p. 283
+
+**Coal Liquefaction Research Institute †** (Sekitan Ekika Kenkyusho)—Boeki Ka-ikan, Mukden. Est. June 1939. Cap. 6,000 (4,200 p.u.) (under construction) Investor: Man'kuo Gov't, Kobe Steel Works. Pres. M. Tsuji. . Research of German Coal Liquefaction. — p. 283
+
+**Manchuria Petroleum Co *** (Manshu Sekiyu K.K.)—Chuo Dori, Hsinking. Est. Feb. 1933. Cap. 40,000 (25,000 p.u.) Profit: 2,688, Div. 7%. Investor: Man'kuo Gov't. Ind. Bk. of Manchou, S.M.R. Japan Oil, Mitsui Bussan, Mitsubishi Mining, etc. Pres. K. Hashimoto. Petroleum Mining, Refiners, Sellers, Buyers of Petroleum. — p. 283
+
+**Kirin Artificial Petroleum Co *** (Kirin Jinzo Sekiyu K.K.)—Kirin City. Est. Sept. 1939. Cap. 100,000 (p.u.) (under construction) Investmtor: Man'kuo Gov't, Japan Nitrogen, Teikoku Nenryo. Pres. J. Noguchi. Manufacturers and Sellers of Liquid Fuel, Investors for the Industry. — p. 283
+
+### Electric
+
+**Manchuria Electric Co *** (Manshu Dengyo K.K.) Kotoku Kaikan, Hsinking. Est. Nov. 1934. Cap. 320,000 (192,000 p.u.) Profit: 6,627 Div. 7%. Investor: Man'kuo Gov't, Ind. Bk. of Manchou, S.M.R., Central Bk. of Manchou, Hsinking City, Bank of Chosen, Oriental Development, Yingkow Water, Dai-ichi Conscription Insurance, Meiji Life Insurance. Pres. Han Yun Chieh. Vice-Pres. M. Yamasaki. Suppliers of Electric Power, and Electric Fixture, Repairers, Investors. — p. 283
+
+**Manchuria Yalu Hydro Electric Generation Co *** (Manshu Ohryokko Suiryoku Hatsuden K.K.)—Kaijo Bldg., Hsinking. Est. Sept. 1937. Cap. 50,000 (p.u.) (under construction) Investor: Man'kuo Gov't, Chosen Hydro Electric Co. Oriental Development, Chosen Elec. Generation Co. Pres. J. Noguchi. Electric Power Generation by Yalu and Tumen stations. — p. 284
+
+### Mining
+
+**Manchuria Industrial Development Corp *** (Manshu Jukogyo Kaihatsu K.K.)—Totaku Bldg., Hsinking. Est. Sept. 1926. Cap. 450,000 (p.u.). Profit 24,281. Div. 5% Gov't. 10% public. Investor: Man'kuo Gov., Kyoritsu Kigyo, Daiichi Conscription Ins., Fukoku Cons. Ins., Tamura Gomei, Nomura Life Ins. Pres. Yoshisuke Aikawa. Investors to Iron, Light Metal, Automobile, Airplane, Petroleum Industries. — p. 284
+
+**Showa Steel Works, Ltd *** (Showa Seiko-sho, K.K.)—Anshan City. Est. July 1929. Cap. 200,000 (175,000 p.u.) Profit: 9,437 Div. 6%. Investor: Mangyo, S.M.R. Pres. Shozo Kubota. Manufacturers of Pig Iron and Steel. Iron Ore Mining. — p. 284
+
+**Penhsihu Colliery & Iron Works †** (Honkeiko Baitetsu Konssu) Penhsifu City, Mukden. Est. May 1910. Cap. 100,000 (p.u.) Profit: 1,222 Div. 8%. Investor: Mangyo, Okura & Co., Man'kuo Gov't. Pres. K. Shimaoka. Sellers & Miners of Coal, Manufacturers of Iron & Steel. — p. 284
+
+**Tungpientao Development Co †** (Tohendo Kaihatsu K.K.)—Totaku Bldg., Hsinking. Est. May, 1936. Cap. 140,000 (126,350 p.u.) (under construction) Investor· Mangyo, & Mantan. Pres. R. Shimada. Miners, Manufacturers, Sellers and Investors for Iron & Coal in Tunghua Province. — p. 284
+
+**Manchuria Mining Development Co *** (Manshu Kogyo Kaihatsu K.K.)—Daido Taigai, Hsinking. Est. Aug. 1935. Cap. 50,000 (40,000 p.u.). Profit: –2,084. Div. none. Investor: Man'kuo Gov't, S.M.R. Pres. T. Takeuchi. Prospecting, Refinery of Minerals, & Investors. — p. 284
+
+**Manchuria Gold Mining Co *** (Manshu Saikin K.K.)—Kaijo Bldg., Hsinking. Est. May, 1934. Cap. 60,000 (p.u.) Profit:—Div.—Investor: Man'kuo Gov't, Central Bk. of M. Pres. Tomekichi Ishikawa. Miners, Refiners, Sellers & Buyers of Gold and alluvial gold. — p. 284
+
+**Manchuria Light Metal Mfg. Co *** (Manshu Keikinzoku Seizo K.K.)—Fushun City. Est. Nov. 1936. Cap. 80,000 (65,000 p.u.) Profit: 5,899 Div. none. Investor: Mangyo, Sumitomo, Nihon Denko, Nihon Soda, Nichi-man Aluminium. Pres. S. Sera. Manufacturers and Sellers of Aluminium. — p. 284
+
+**Manchuria Magnesium Ind. Co †** (Manshu Magnesium Kogyo K.K.)—Daido Taigai, Hsinking. Est. July, 1938 Cap. 10,000 (p.u.) Div. none. (under construction) Investor: Mangyo. Pres. Shuzo Kuroda. Producers of Metallic Magnesium. — p. 284
+
+**Manchuria Mining Co †** (Manshu Kozan K.K.)—Daido Taigai, Hsinking. Est. Feb. 1938. Cap. 100,000 (p.u) Profit: –3,699 Div. none. Investor: Mangyo. Pres. Y. Kato. Mining Development. — p. 285
+
+**Toa Mining Co †** (Toa Kozan K.K.)—Kaijo Bldg., Hsinking. Est. July 1937. Cap. 5,000 (2,000 p.u.) (under construction) Profit:—Div. none. Investor: Man'kuo Gov't, Mitsui Mining. Pres. T. Okitsu. Miners, Refiners, Buyers & Sellers of Minerals. — p. 285
+
+**Kyowa Iron Mining Co †** (Kyowa Tetsuzan K.K.)—Iwai-cho, Hsinking. Est. Aug. 1939. Cap. 10,000 (p.u.) (under construction) Investor: Mangyo, Man'kuo Gov't, A. Ueshima. Pres. A. Ueshima. Miners, Sellers of Iron Ore. — p. 285
+
+**Manchuria Vanadium Mining Co †** (Manshu Tokushu Tekko K.K.)—Daido Taigai, Hsinking. Est. Oct. 1940. Cap. 30,000 (7,500 p.u.) (under construction) Investor: Mangyo, Manshu Kozan, Nihon Yuhi. Pres. Bunji Inada. Miners and Sellers of Titanium, Vanadium, Cement, etc. — p. 285
+
+### Engineering
+
+**Dowa Automobile Industry Co *** (Dowa Jidosha K.K.) Mukden, Est. March 1934. Cap. 30,000 (6,200 p.u.) Profit:—Div.—. Investor: Mangyo, Mitsubishi Heavy Ind., Kawasaki Sharyo, Nihon Sharyo, Nihon Jidosha. Pres. Den Takehara. Assembler, Repairers and Sellers of Automobiles. Manufacturers of Automobile Parts. — p. 285
+
+**Manchuria Automobile Mfg. Co *** (Manshu Jidosha Seizo K.K.)—Yamato-dori, Hsinking. Est. May 1939. Cap. 100,000 (25,000 p.u.) (under construction) Investor: Mangyo. Pres. Soji Yamamoto. Manufacturers of Automobile, and Investors. — p. 285
+
+**Manchuria Aircraft Mfg. Co *** (Manshu Hikoki Seizo K.K.)—Taito-ku, Mukden. Est. June 1938. Cap. 20,000 (p.u.) Profit:—Div.—. Investor: Mangyo. Pres. Tatsunosuke Takasaki. Manufacturers, Repairers and Sellers of Airplanes. — p. 285
+
+**Mukden Arsenal, Ltd *** (Hoten Zohei Sho)—Taito-ku, Mukden. Est. Oct. 1932. Cap. 25,000 (14,800 p.u.) Profit:—Div.—. Investor: Man'kuo Gov't, Mitsui, Okura. Pres. T. Mimura. Manufacturers, Repairers and Sellers of Arms & Ammunitions. — p. 285
+
+**Manchuria Weight & Measure Co *** (Manshu Keiki K.K.)—Horaku-ro, Hsinking. Est. Oct. 1936. Cap. 8,000 (6,000 p.u.) Profit: 394 Div. 6%. Investor Man'kuo Gov't, Nihon Doryoko Kyokai, Mukden Arsenal, Chosen Keiki. Pres. Umetaro Matsubara. Manufacturers, Buyers & Sellers of Weight & Measure. — p. 285
+
+**Manchuria Heavy Machinery Co †** (Manshu Juki K.K.)—Daido Taigai, Hsinking. Est. May 1940. (Under construction) Cap. 50,000 (p.u.) Investor: Mangyo. Pres. M. Yano. Manufacturers and Dealers in Hydraulic Press, and other Machineries. — p. 285
+
+### Chemical
+
+**Manchuria Electro-chemical Ind. Co *** (Manshu Denki Kagaku Kogyo K.K.)—Kotoku Kaikan, Hsinking, Est. Oct. 1938 Cap. 30,000 (15,000 p.u.) (under construction) Div. none. Investor: Man'kuo Gov't, Dengyo, Nihon Denka, Dainippon Celluloid, Nihon Kasei. Pres. Katsuji Hibi. Manufacturers and Dealers in Carbide. — p. 286
+
+**Manchuria Bean Stalk Pulp Co †** (Manshu Tokan Pulp K.K.)—Kaiyuang, Ssuping Prov. Est. Sept. 1937, Cap. 10,000 (5,000 p.u.) (under construction) Div. none. Investor: Man'kuo Gov't, S.M.R., Ind. Bank of Manchou, Sweden; I. Sakai. Pres. I. Sakai. Manufacturers of Pulp from Bean Stalk. — p. 286
+
+**Manchuria Soda Co †** (Manshu Soda K.K.)—Kotoku Kaikan, Hsinking. Est. May 1936. Cap. 16,000 (14,000 p.u.) Profit: 420 Div. 5%. Investor: Asahi Glass, S.M.R., Manshu Kagaku, Shoko Glass. Pres. J. Takebe. Manufacturing, Processing and Sales of Soda. — p. 286
+
+**Manchuria Sulphate Ammonia Industry Co *** (Manshu Ryuan Kogyo K.K.)—Yashima-dori, Hsinking. Est. Dec. 1938. Cap. 50,000 (12,500 p.u.) (under construction) Div. none. Investor: Man'kuo Gov't. Pres. M. Minami. Manufacturers of Sulphate of Ammonia and other Chemical Fertilizers. — p. 286
+
+**Manchuria Chemical Ind. Co** (Manshu Kagaku Kogyo K.K.)—Dairen City. Est. Feb. 1938. Cap. 25,000 (p.u.) Profit: 404 Div. 7%. Investor: S.M.R., & public. Pres. K. Kaise. Manufacturers, Importers & Exporters of Chemical Fertilizers. — p. 286
+
+**Manchuria Explosive Industry Co *** (Manshu Kayaku Kogyo K.K.)—Asahi-ku, Mukden. Est. Feb. 1941. Cap. 8,500 (p.u.) (under construction) Div. none. Investor: Man'kuo Gov't, Mukden Arsenal, Manshu Gun Power Sales. Pres. T. Mimura. Manufacturers & Dealers in Gun Power. — p. 286
+
+**Manchuria Soya-bean Chemical Industry Co †** (Manshu Daizu Kagaku Kogyo K.K.)——Kojin Tairo, Hsinking. Est. July 1940. Cap. 30,000 (7,500 p.u.) Div. none (under construction) Investor: Tokusan Senkan, Nihon Yuhi, Shinko Rayon, Toyo Spinning, Kureha Spng. and 10 others. Pres. S. Mukaibo. Chemical Industrialization of Manchurian Beans. — p. 286
+
+**Manchuria Carbon Industry Co †** (Manshu Tanso Kogyo K.K.)—Antung City. Est. May 1940. Cap. 15,000 (3,750 p.u.) (under construction) Div. none. Investor: Nihon Carbon, Showa Denkyoku, Manchu Denka, Manshu Keikinzoku. Pres. H. Ishikawa. Manufacturers and Dealers in Electrode and Carbon. — p. 286
+
+### Distribution
+
+**Japan Manchoukuo Trading Co *** (Nichiman Shoji K.K.)—Kaijo Bldg., Hsinking. Est. Nov. 1936. Cap. 30,000 (15,000 p.u.) Profit: 728. Div. 4.5%. Investor: Mangyo, Mantan, Showa Seiko, Honkeiko Baitetsu, Man'kuo Gov't. Pres. I. Ogawa. Dealers in Fuel, Light Metals, Fertilizers, Minerals, Building Materials, Chemicals, etc. — p. 286
+
+**Manchuria Necessaries Supply Co *** (Manshu Seikatsu Hitsujuhin K.K.)—Daido Taigai, Hsinking. Est. Feb. 1939. Cap. 50,000 (30,000 p.u.) Profit: 1,169 Div. 5%. Investor: Man'kuo Gov't, Consumers' Guild, S.M.R., Consumers' Guild of S.M.R. Pres. S. Shimada. Purchasers, Wholesalers and Consignors of Daily Necessities. — p. 286
+
+**Manchuria Federated Cement Co †** (Manshu Kyodo Cement K.K.)—Kaiji Bldg., Hsinking. Est. Oct. 1938. Cap. 1,300 (975 p.u.) Profit: 71 Div. 6%. Investor: Fushun Cement, Honkeiko Cement, Nichiman Shoji, Mitsui Bussan & 9 others. Pres. T. Takeuchi. Purchasers, Sellers & Distributors of Cement. — p. 287
+
+**Manchuria Book Distribution Co †** (Manshu Tosho Haikyu K.K.)—Hsinking. Est. Dec. 1939. Cap. 2,000 (p.u.) (under construction) Div. none. Investor: Man'kuo Gov't, Manshu Tosho. Pres. S. Ohashi. Distributors, Importers & Exporters of Books and Text Books. — p. 287
+
+### Agriculture
+
+**Manchuria Development Corp *** (Manshu Takushoku Kosha)—Kotoku Kaikan, Hsinking. Est. Aug. 1937. Cap. 65,000 (57,000 p.u.) Profit: 859 Div. none. Investor: Japan & Man'kuo Gov'ts, S.M.R., Oriental Development, Mitsui, Mitsubishi, Sumitomo. Pres. H. Ninomiya. Suppliers of Equipments and Estate to Land Settlers, Financing. — p. 287
+
+**Manchuria Agricultural Produce Co *** (Manshu Nosan Kosha)—Kojin Tairo, Hsinking. Est. July, 1941. Cap. 70,000 (54,000 p.u.) (under construction) Div. none. Investor: Man-kuo Gov't, Manshu Takushoku. Pres. S. Yuki. Distributors, Importers & Exporters of Principle Foods, Oil and Other Agricultural Products. — p. 287
+
+**Manchuria Live-stock Co †** (Manshu Chikusan K.K.)—Kotoku Kaikan, Hsinking. Est. Sept. 1937. Cap. 20,000 (16,250 p.u.) Profit: –1,798 Div. none. Investor: Man'kuo Gov't, Mantaku, Mansen Takushoku. Pres. Y. Yamada. Dealers in Live-stock and Pastoral Products. — p. 287
+
+**Manchuria Forestry Co *** (Manshu Rigyo K.K.)—Horakuro, Hsinking. Est. Oct. 1938. Cap. 30,000 (p.u.) Profit: 1,519 Div. 6%. Investors: Man'kuo Gov't, S.M.R., Totaku, Kyoei Kigyo, Toyo Kigyo, Toyo Pulp, Toman Pulp. Pres. M. Minami. Dealers, Exporters of Lumber, Saw Mill. — p. 287
+
+**Manchuria Afforestation Co †** (Manshu Zorin K.K.) Horakuro, Hsinking. Est. Feb. 1941. Cap. 8,000 (p.u.) Div. none (under construction) Investor: Man'kuo Gov't, S.M.R., Totaku. Pres. Ta Chao Cheng. Management of Saplings, Importers & Exporters of Saplings and Seeds for Afforestation. — p. 287
+
+**Manchuria Raw Cotton Co *** (Manshu Menka K.K.) Asahi-ku, Mukden. Est. April 1934. Cap. 10,000 (8,500 p.u.) Profit:—Div. 5%. (under construction) Investor: Man'kuo Gov't, Kohno Gassaku-sha. Pres. U. Yokose. Cotton Planters, Dealers in Processed Goods, Financing for the Industry. — p. 287
+
+**Manchuria Wild Cocooning Co †** (Manshu Sakusan K.K.)—Iwai-cho, Hsinking. Est. Aug. 1939. Cap. 5,000 (1,250 p.u.) Profit: 4. Div. none. Investor: Man'kuo Gov't, Kohno Gassaku-sha of Mukden & Antung, Antung Spinners' Assn. Pres. H. Kimura. Purchasers, Processers and Exporters of Wild Cocoon. — p. 287
+
+**Manchuria Leaf Tobacco Co †** (Manshu Hatabako K.K.)—Asahi-ku, Mukden. Est. Dec. 1938. Cap. 10,000 (2,500 p.u.) Profit: 766. Div. 6%. Investor: Dept. of Finance, Kohno Gassakusha, other tobacco cos. Pres. H. Hasegawa. Purchasers, Processers and Distributors of Leaf Tobacco, Financing for the Industry. — p. 288
+
+### Information
+
+**Manchuria Telegraph & Telephone Co *** (Manshu Denshin Denwa K.K.)—Daido Taigai, Hsinking. Est. Aug. 1933. Cap. 100,000 (55,625 p.u.). Profit: 6,456 Div. 6%. Investor: Japan & Man'kuo Gov'ts, S.M.R., Japan Broadcasting Assn. Bank of Chosen, public. Pres. J. Hirose. Electric Communications and Radio Broadcasting. — p. 288
+
+**Manchoukuo Motion Picture Corp *** (Manshu Eiga Kyokai K.K.)—Daido Taigai, Hsinking. Est. Aug. 1937. Cap. 5,000 (2,500 p.u.) Profit: 540 Div. 5%. Investor: Man'kuo Gov't, S.M.R. Pres. Masahiko Amakasu. Distributors, Importers & Exporters of Motion Picture Films. — p. 288
+
+**Manchuria Book Co *** (Manshu Tosho K.K.) Hsinking. Est. April 1937. Cap. 8,000 (5,000 p.u.) Profit 327 Div. 6%. Investor: Man'kuo Gov't, leading publishers in Japan. Pres. G. Magoshi. Printers and Publishers of Books. — p. 288
+
+**Manchuria Information Office †** (Manshu Jijyo An-nai Sho K.K.)—Chuo-Dori, Hsinking. Est. Dec. 1939. Cap. 500 (p.u.) Profit:—Div.—. Investor: Man'kuo Gov't. Pres. Y. Okumura. Introducers of General Information of Manchoukuo, Publishers. — p. 288
+
+### Miscellaneous
+
+**Ta Hsing Kunssu †** (Tai Shin Konsu)—Daido Taigai, Hsinking. Est. July, 1933. Cap. 20,000 (13,000 p.u.) Profit: 1,888 Div. 7%. Investor: Chugin, Gov't's Savings Dept. etc. Pres. Liu Shih Chung. Pawn, Brewery, Oil Mill, Dealers in General Merchandise, Agents. — p. 288
+
+**Manchuria Home Construction Co *** (Manshu Bosan K.K.)—Daido Taigai, Hsinking. Est. Feb. 1938. Cap. 30,000 (15,000 p.u.) Profit: 1,293 Div. 5%. Investor: Man'kuo Gov't, Kogin, Totaku. Pres. Sieh Kai Shih. Architecture, Management of Dwellings, Financing for the Industry. — p. 288
+
+**Manchuria Land Development Co *** (Manshu Tochi Kaihatsu K.K.)—Hsinking. Est. June 1939. Cap. 20,000 (7,500 p.u.) Profit: –783. Div. none. Investor: Man'kuo Gov't. Pres. M. Umeno. Development and Contractor of Land Secured by Government and other Public Bodies. — p. 288
+
+**Manchuria Salt Industry Co *** (Manshu Engyo K.K.)—Kotoku Kaikan, Hsinking. Est. April 1936. Cap. 15,000 (8,750 p.u.) Profit: 306 Div. 3%. Investor: Man'kuo Gov't, Nihon Engyo, S.M.R., Asahi Glass, Tokuyama & Toyo Soda, Manshu Kagaku, Totaku, Showa Soda. Pres. K. Shiba. Manufacturers, and Dealers of Salt. Financing for the industry. — p. 288
+
+**Manchuria Special Paper Mfg. Co †** (Manshu Tokushu Seishi K.K.)—Yashima-dori, Hsinking. Est. March 1939. Cap. 3,500 (p.u.) Profit: 408. Div. none. Investor: Man'kuo Gov't S.M.R., Public. Pres. S. Iijima. Reproduction of Papers. — p. 288
 
 
 ## Appendix I: Who's Who in Manchoukuo
