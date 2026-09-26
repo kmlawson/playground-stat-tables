@@ -36,7 +36,7 @@ BOOKS = [
      "publisher": "The Foreign Affairs Association of Japan (no place or date on the title page)",
      "blurb": "The first post-war edition, covering occupied Japan.",
      "source": "LLM-transcribed from the Internet Archive scan.",
-     "in_progress": True,
+     "gaps": "The scan is complete: no printed pages are missing and no leaves repeat. Part I runs to p. 614; the Appendix (SCAP directives, the new Constitution and post-war laws, documents of 1945–47, the war-crimes indictment and a List of Emperors) is paged again from 1. The Appendix is almost all legal text, so only its lists are transcribed. A few cells on folding inserts are lost in the fold and are left blank. The index, advertisements and a short run of church-group entries (printed pp. 489–490) are not transcribed.",
      "scan": "https://archive.org/details/japan-year-book-1946-1948/page/n{leaf}/mode/1up",
      "item": "https://archive.org/details/japan-year-book-1946-1948"},
     {"slug": "korea-1929-30", "dir": "Korea_Annual_Report_1929-30",
