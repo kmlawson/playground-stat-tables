@@ -20,6 +20,8 @@ hour. Read `BRIEF.md` (rules and JSON formats) first; this file only narrows you
 - Your own report: `reports/M_<first leaf>.md` — one line per page (printed page, files written or
   "no tables — why"), unreadable cells, totals that do not reconcile.
 - Helper scripts only in `crops/M_<first leaf>/`; delete your crops at the end.
+- Delete **only the crops your mission created** (keep a list, or name them `crops/M_<leaf>_*`). Never
+  glob-delete `crops/IMG_NNNN_*`: parallel missions share those names and you would delete their files.
 
 ## Before you stop
 - [ ] Every page has a report line.
