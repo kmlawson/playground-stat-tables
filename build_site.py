@@ -25,7 +25,7 @@ BOOKS = [
      "publisher": "The Japan Year Book Office, Tokyo, 1910",
      "blurb": "The fifth annual edition, compiled by Y. Takenob and K. Kawakami: geography, population, the Imperial Court, a Who's Who, arts and crafts, education, religion, justice, agriculture, mining, industry, finance, diplomacy, politics, trade, banking, the army and navy, communications, shipping, railways, the press, Formosa, Karafuto, South Manchuria and Korea.",
      "source": "LLM-transcribed from the Internet Archive scan (Google scan of the 2013 Edition Synapse facsimile, University of Minnesota copy).",
-     "in_progress": True, "dir_in_progress": True,
+     "gaps": "The scan is low resolution, so more figures are left blank than in later volumes; each blank is explained in a transcriber's note. Advertisements, the contents and the Index were skipped. The Who's Who, the Imperial family and the art and pottery sketches are on the Who's Who & Directories page; the Diary of 1908-9 is on the Chronologies page. Treaty texts and law articles are not transcribed.",
      "scan": "https://archive.org/details/japan-year-book-1910/page/n{leaf}/mode/1up",
      "item": "https://archive.org/details/japan-year-book-1910"},
     {"slug": "japan-1920-21", "dir": "Japan_Year_Book_1920", "title": "The Japan Year Book 1920-21",
