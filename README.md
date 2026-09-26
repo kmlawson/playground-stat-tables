@@ -38,4 +38,4 @@ In the browser, any column can be sorted by clicking its header (click again to 
 
 To rebuild: `uv run --with openpyxl build_downloads.py` (Excel workbooks and Markdown directories in `downloads/`), then `python3 build_site.py`. `build_site.py` regenerates the pages from the per-table JSON files. It builds every book, including the Far East Year Book 1941 (read from its own folder), plus the directory, chronology and cross-book search pages.
 
-Adding a book from another session: see [example/guidance.md](example/guidance.md) (how to post a branch without clashing) and [example/BRIEF.md](example/BRIEF.md) (template brief for the transcription agents).
+Adding a book from another session: see [example/guidance.md](example/guidance.md) (how to post a branch without clashing and how to run the transcription), [example/BRIEF.md](example/BRIEF.md) (template brief for the transcription agents) and [example/MISSION.md](example/MISSION.md) (template for short sub-agent missions). [CLAUDE.md](CLAUDE.md) summarises the workflow for Claude sessions.

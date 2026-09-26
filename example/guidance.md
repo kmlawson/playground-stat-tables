@@ -91,15 +91,16 @@ in the book folder are therefore the source of truth, not the generated HTML.
 - **Use short missions, not big batches.** Batches of 12–30 spreads ran for 5–9 hours per agent, were hard
   to monitor, and lost work when an agent died from an API timeout. Size each mission to finish in under an
   hour:
-  - dense statistical pages (trade returns by commodity and country, big multi-part tables): **1 page or
-    spread** per mission;
-  - ordinary table pages: 2–5; mostly prose: 4–8.
-  Make a contact sheet (`magick montage`, labelled thumbnails) of the pages to judge density first, and cut
-  missions where a chapter or a prose page begins so that few tables cross a mission boundary.
-  Measured on two books: 1-spread missions (Far East 1941) took 13–70 min, 2–7-page missions (Japan Year
-  Book 1905) a median of ~8 min, against 2–9 hours for 12–30-page batches. Speed per page is about the same
-  and quality is the same; the gain is that work lands quickly and a failure costs minutes, not hours. The
-  price is ~2–3× the tokens per page (every agent re-reads the brief).
+  - dense statistical pages (trade returns by commodity and country, big multi-part tables): **1–3 pages or
+    spreads** per mission;
+  - ordinary table pages: **3–5** (up to 8 when that keeps whole tables inside one mission);
+  - pure prose (laws, history, treaties, Who's Who pages to be skipped): **10–20**.
+  Make a contact sheet (`magick montage`, labelled thumbnails, ~40 leaves per sheet) of the whole book first,
+  and draw the mission boundaries where tables start and end, so that few tables cross a boundary.
+- **Very long single tables** (a 30-page customs tariff, a trade return running 20 pages): split them into
+  missions of ~5 pages that each write **one file per printed page** (`"continued": true`), with the columns
+  and conventions fixed up front in a small `_work/<TABLE>_CONVENTIONS.md` (set by the first mission). Then
+  they can run in parallel and the pieces are merged or shown in page order afterwards.
 - Keep the plan in `_work/batches.md`: one row per mission, with its pages, any file it must "finish", and a
   status. Run missions on a rolling basis — start the next one as each finishes — staying under the
   concurrent-agent limit the user has set (ask if you don't know it).
@@ -108,9 +109,6 @@ in the book folder are therefore the source of truth, not the generated HTML.
   mid-table, the next mission's prompt names the partial file and tells it to **finish** it. When a finished
   mission reports that it read ahead into a neighbour's pages, **message the running neighbour** so it skips
   that continuation.
-- **Very long continuous lists** (e.g. a 40-page tariff): don't let one mission follow them to the end. Write
-  one file per page (`continued: true` after the first), with the same columns throughout; each mission only
-  finishes the one item that breaks across its last page.
 - The prompt itself is a few lines (template at the end of MISSION.md): the pages, any file to finish, an
   example file whose structure to copy, the no-OCR rule, the report file.
 - **Watch progress by files, not by elapsed time**: `ls -t tables | head` and the mission's report. A
@@ -123,34 +121,50 @@ in the book folder are therefore the source of truth, not the generated HTML.
   reconcile, (b) tables with columns in the gutter, and (c) a random ~10% sample: re-read against the image
   and fix misreads. In the Far East Year Book 1941 such re-reads found shifted columns and misread digits
   that the first pass had missed.
-- **Audit "judgement calls" in replies.** Agents sometimes fill a half-printed digit from its shape, from a
-  similar glyph elsewhere, from row order or from a total, and say so. Under the no-guess rule those cells
-  must be blank with the partial reading in the note — blank them, or send the mission back to do it.
+- **Audit "judgement calls" in replies.** Agents sometimes fill a half-printed digit from its shape, a
+  similar glyph elsewhere, row order or a total, and say so. Under the no-guess rule those cells must be
+  blank with the partial reading in the note — blank them, or send the mission back to do it.
 - Publish interim progress with `"in_progress": True`. When every mission is done, remove it and add `gaps`.
 
-## 5. Git across parallel sessions: what works, what doesn't
+## 5. Parallel sessions: git practice and measured results (2026-09-26)
 
 ### What works
 - Each session has its own clone or worktree and its own branch; nobody checks out another session's
   branch in the shared `stat-tables-site` folder.
-- Each book's transcriptions live in their own `<BookFolder>/_work`, so no two sessions edit the same data.
+- Each book's transcriptions live in their own `<BookFolder>/_work` — the source of truth — so no two
+  sessions edit the same data.
 - Merge (or rebase onto) `origin/main` before every push; push small increments often; commit only your
   own book's files (§3).
 
 ### The weak spot: generated files and the shared `BOOKS` list
 Every session rebuilds and commits the same generated files (`index.html`, `search.html`, `data/*.json`,
-`downloads/*`), and every session edits the `BOOKS` list in `build_site.py`. These conflict on almost every
-merge. Resolving them by rebuilding from the book folders works, but only if whoever merges remembers to.
-- `git merge` **refuses to start while you have uncommitted edits** and it is easy to miss the message.
-  Commit or stash first, then confirm the merge ran: `git merge-base --is-ancestor origin/main HEAD`.
-- After resolving a conflict by rebuilding, `grep -rlE '^(<<<<<<<|>>>>>>>) ' --exclude-dir=.git .` should
-  print nothing before you commit.
+`downloads/*`), and every session edits the `BOOKS` list in `build_site.py`. They conflict on almost every
+merge; resolving by rebuilding from the book folders works only if whoever merges remembers to.
+- `git merge` **refuses to start while you have uncommitted edits**, and the message is easy to miss.
+  Commit or stash first, then confirm: `git merge-base --is-ancestor origin/main HEAD`.
+- Before committing a resolved merge, `grep -rlE '^(<<<<<<<|>>>>>>>) ' --exclude-dir=.git .` must print
+  nothing.
 
 ### Recommended changes (for the maintainer; they affect every session)
 1. **Don't commit generated output on branches.** Branches carry only source data and code; pages,
    `data/*.json` and `downloads/*` are rebuilt once on `main` after merging — ideally by a GitHub Action on
-   push to `main` that runs both build scripts and publishes to Pages. (The Action needs the `_work`
-   JSON in the repo, e.g. `books/<slug>/tables/…`, since it cannot see local folders.)
-2. **One small config file per book** (`books/<slug>.json`, with an `order` key) instead of one shared
+   push to `main` that runs both build scripts and publishes to Pages. (The Action needs the `_work` JSON
+   in the repo, e.g. `books/<slug>/tables/…`, since it cannot see local folders.)
+2. **One small config file per book** (`books/<slug>.json` with an `order` key) instead of one shared
    `BOOKS` list, so sessions never edit the same lines of `build_site.py`.
 3. **Merge small and often.** Long-lived branches make the generated-file conflicts worse.
+
+### Why short missions: what three sessions measured
+- **Far East Year Book 1941:** 1-spread missions took 13–70 min; 12-spread batches took 5–9 hours.
+- **Japan Year Book 1905** (same scan, same brief): 30-leaf batches took 48–89 min (1.6–2.5 min/leaf,
+  ~6–7k tokens/leaf); on harder scans (1910 low resolution, 1920-21 dense tables) they ran 2–7 hours, slowed
+  as their context grew, and several died and had to be resumed. 2–7-leaf missions took a median ~8 min
+  (1.9 min/leaf, ~18k tokens/leaf) and none failed.
+- **China Year Books 1912 and 1929-30** (8–10 agents): 19 thirty-leaf batches took a median 77 min (up to
+  213), ~2.6 min/leaf and 12.7 tables per agent-hour; 22 content-aligned batches of 3–20 leaves took a median
+  9 min (up to 44), ~1.3 min/leaf and 23.7 tables per agent-hour, with no failures.
+- Why: a small agent's context stays small (~90k vs ~190k tokens), so every step is faster and it never
+  hits compaction; a failure costs minutes; free slots let dense and light sections interleave; boundaries
+  drawn around whole tables need less cross-checking. Costs: ~2–3× the tokens per page (every agent re-reads
+  the brief), more seams to coordinate, and more orchestration for the main session. Quality — tables per
+  page, blanks, reconciliation notes — was the same.

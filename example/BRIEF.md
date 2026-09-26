@@ -1,8 +1,8 @@
 # Table extraction brief — <BOOK TITLE>
 
 <!-- Template. Copy to <BookFolder>/_work/BRIEF.md, replace every <…> placeholder, and delete
-     sections that do not apply. Give each sub-agent a SHORT mission (see example/MISSION.md): 1 dense
-     page/spread, or 2–4 light ones, sized to finish in under an hour. -->
+     sections that do not apply. Give each sub-agent a SHORT mission (see example/MISSION.md): 1–3 dense
+     pages, 3–5 ordinary table pages, or 10–20 pages of pure prose, sized to finish in under an hour. -->
 
 ## Checklist (read first)
 1. Read the images yourself — no OCR, Vision framework, `llm`/Gemini or text layer of any kind.
@@ -56,7 +56,8 @@ put a sub-heading printed above an unnumbered table in `caption_extra`.
   figure rows, assign in order, and say so in the notes.
 - Rotated (sideways) tables: rotate the crop (`-rotate 90`) and read normally.
 - **Open every page in your range**, even ones you expect to be prose.
-- Crops are disposable: delete your own crops when you finish. Never touch another batch's crops.
+- Crops are disposable: name them with your mission ID (e.g. `crops/M_p0600_c1.jpg`) and delete only your own
+  when you finish. Never touch another mission's crops: parallel missions share the folder.
 
 ## What counts as a table
 - Include: numbered or unnumbered statistical tables; lists laid out in columns with figures; administrative
