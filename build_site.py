@@ -72,7 +72,7 @@ BOOKS = [
      "publisher": "Chinese Ministry of Information; New York: Macmillan, 1943",
      "blurb": "The Chinese government's wartime reference book on Free China, 1937-1943.",
      "source": "LLM-transcribed from the Internet Archive scan (five parts, two-page spreads).",
-     "in_progress": True,
+     "gaps": "The scan is missing printed pp. 444–445 (so Industry and Labor Table 18 is lost) and pp. lii–liii of the Chinese Who's Who. The legal texts (constitutions, laws, regulations) are transcribed only where they contain tables or lists; numbered articles are prose. The book's Contents, Index and folding map of China are not transcribed. The Associations and Societies chapter and the Chinese Who's Who are on the Who's Who & Directories page; the Kuomintang chronology and the Chronology of Major Events, 1937–1943, are on the Chronologies page. Many printed totals do not add up; the figures are kept as printed and each table's notes say where.",
      "scan": "https://archive.org/details/china-handbook-1937-1943/China%20Handbook%201937-1943%20Part%20{part}%20of%205/page/n{leaf}/mode/1up",
      "item": "https://archive.org/details/china-handbook-1937-1943"},
 ]
@@ -442,7 +442,7 @@ def build_directory(book):
             sec = e.get("section") or ""
             if sec.isupper():
                 sec = sec.title()
-            entries.append({"a": d.get("appendix") or "", "s": sec, "n": (e.get("name") or "").rstrip(" ,.") + (" " + e["mark"] if e.get("mark") else ""),
+            entries.append({"a": d.get("appendix") or "", "s": sec, "n": (e.get("name") or "").rstrip(" ,.") + (" " + e["mark"] if e.get("mark") else "") + (f' ({e["rank"]})' if e.get("rank") else ""),
                             "t": e.get("text") or "", "p": e.get("page") or ", ".join(d.get("printed_pages") or []),
                             "l": scan["label"], "u": scan["url"]})
     if not entries:
