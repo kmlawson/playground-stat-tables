@@ -47,7 +47,8 @@ put a sub-heading printed above an unnumbered table in `caption_extra`.
   `magick full/pNNNN.jpg -crop WxH+X+Y +repage crops/pNNNN_c1.jpg` (coordinates in the full image; check its
   size with `magick identify`). Images are shown to the model shrunk to about 2000 px on the long side, so
   keep crops ≤ ~2000 px wide and ≤ ~25 rows. Enlarging (`-resize 200%`) adds no detail; use it only to look
-  closely at a very small crop such as a single gutter column.
+  closely at a very small crop such as a single gutter column. On a low-resolution scan (under ~1000 px
+  wide) crop tighter rather than enlarging.
 - Tall table: cut it into row chunks and paste the header strip on top of each chunk
   (`magick crops/hdr.jpg crops/chunk2.jpg -append crops/chunk2h.jpg`). Wide table: vertical strips that each
   keep the row-label column.
@@ -55,8 +56,7 @@ put a sub-heading printed above an unnumbered table in `caption_extra`.
   figure rows, assign in order, and say so in the notes.
 - Rotated (sideways) tables: rotate the crop (`-rotate 90`) and read normally.
 - **Open every page in your range**, even ones you expect to be prose.
-- Crops are disposable: name them with your mission ID (e.g. `crops/M_p0600_c1.jpg`) and delete only your own
-  when you finish. Never touch another mission's crops: parallel missions share the folder.
+- Crops are disposable: delete your own crops when you finish. Never touch another batch's crops.
 
 ## What counts as a table
 - Include: numbered or unnumbered statistical tables; lists laid out in columns with figures; administrative
