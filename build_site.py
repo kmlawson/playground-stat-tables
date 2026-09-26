@@ -31,7 +31,7 @@ BOOKS = [
      "publisher": "The Foreign Affairs Association of Japan, Tokyo, 1939",
      "blurb": "The wartime edition of the standard English-language reference on the Japanese Empire.",
      "source": "LLM-transcribed from the Internet Archive scan.",
-     "in_progress": True,
+     "gaps": "The Internet Archive scan often repeats a leaf in place of the next one, so about 90 printed pages are missing, among them pp. 273–274, 277–278, 283–284 (part of the 1937-38 budget and Banking Tables 1–3), 380–381 (Balance of International Payments), 778–779, 784, 787–788, 793, 796–797, 802–803, 808, 811, 814, 817, 820–821, 825, 830–832, 843–844, 847, 850, 853–854, 861, 866, 869, 873, 876, 879, 886, 888, 893, 896–897, 901, 904, 908–909, 912, 918–919, 928–929, 934, 937, 940–941, 947–948, 951–952 (including the opening of the Karafuto chapter), 956, 959, 962–963, 967, 970–971, 1023, 1026–1027, 1033–1034, 1039, 1123, 1130, 1135–1137 and 1142. Tables that run onto a missing page are incomplete and say so. Page 363 is heavily over-inked, leaving about 90 blank cells in the census table there. Lists are included as well as tables; the Clubs & Societies list is on the directory page. The bibliography, index and advertisements are not transcribed.",
      "scan": "https://archive.org/details/japan-year-book-1939-1940/page/n{leaf}/mode/1up",
      "item": "https://archive.org/details/japan-year-book-1939-1940", "dir_label": "Clubs & Societies Directory"},
     {"slug": "japan-1946-48", "dir": "Japan_Year_Book_1946-48", "title": "The Japan Year Book 1946-48",
