@@ -1,6 +1,6 @@
 # The Japan Year Book 1939-40 — Who's Who & Directories
 
-338 entries, LLM-transcribed. These entries were transcribed by the vision model of Opus 5.5. Before using any of these details, you must verify specific details with the original source which is linked to whenever possible.
+346 entries, LLM-transcribed. These entries were transcribed by the vision model of Opus 5.5. Before using any of these details, you must verify specific details with the original source which is linked to whenever possible.
 
 
 ## List of Clubs, Societies, Associations, etc.
@@ -708,3 +708,21 @@
 **NIPPON KIRISUTOKYO FUJIN KYOFU KAI** (The Japan Woman's Christian Temperance Union). Established in 1886; Utako Hayashi, president; membership 9,708. The purpose is to promote abstinence, moral and religious education. Issues “Fujin Shimpo” (Women's News). Address: 360 Hyakuninmachi 3-chomé, Yodobashi, Tokyo. — p. 1199 ([scan leaf 1255](https://archive.org/details/japan-year-book-1939-1940/page/n1255/mode/1up))
 
 **NIPPON SEKIJUJI SHA TOKUSHI KANGOFU KAI** (The Japanese Red-Cross Volunteer Nurses Association). Established in 1887; Eiko Nabeshima, president; membership 22,400. Issues “Haku Ai” (Universal Love). Address: Shiba Park, Shiba, Tokyo. — p. 1199 ([scan leaf 1255](https://archive.org/details/japan-year-book-1939-1940/page/n1255/mode/1up))
+
+**RIKUKAIGUN SHOKO FUJINKAI** (The Association of Military and Naval Officers' Wives). Established in 1906; Momoko Kuroki, president; membership 20,000. The purpose is the discipline of woman's virtues. Issues “Misao” (Chastity). Address: 11 Wakamatsucho, Ushigomé, Tokyo. — p. 1200 ([scan leaf 1256](https://archive.org/details/japan-year-book-1939-1940/page/n1256/mode/1up))
+
+**SENTO HIRUTA YOKO HOME** (St. Hilda's Home). Established in 1891; in care of Sister Superior. The purpose is to help the children of the poor and encourage home industry. Address: 358 Shirokané Sankocho, Shiba, Tokyo. — p. 1200 ([scan leaf 1256](https://archive.org/details/japan-year-book-1939-1940/page/n1256/mode/1up))
+
+### Travelling, Sight-Seeing, Amusement, Etc.
+
+**JAPAN TOURIST BUREAU** (Nippon Ryoko Kyokai). Established in 1912; Kenjiro Kiyasu, president; membership 166. The purpose is to provide various facilities for foreign travellers. Issues “Tourist”, a monthly in English. Address: The Tokyo Station Building, Marunouchi, Tokyo. — p. 1200 ([scan leaf 1256](https://archive.org/details/japan-year-book-1939-1940/page/n1256/mode/1up))
+
+**KOKUSAI KANKO KYOKAI** (The Japan Travel Publicity Association). Established in 1931; Chikuhei Nakashima, president; membership 103. The purpose is to invite foreign tourists and propagate abroad fine scenery. Address: Care of the Department of Railways, Marunouchi, Tokyo. — p. 1200 ([scan leaf 1256](https://archive.org/details/japan-year-book-1939-1940/page/n1256/mode/1up))
+
+**NIPPON HŌSŌ KYOKAI** (The Broadcasting Corporation of Japan). Established in 1926; Fumimaro Konoé, honorary president. Shichiro Komori, president; membership 5,495. Publications. “Hōsō” (Broadcasting), Radio Year Book in Japanese. Address: 2 2-chomé. Uchisaiwaicho, Kojimachi, Tokyo. — p. 1200 ([scan leaf 1256](https://archive.org/details/japan-year-book-1939-1940/page/n1256/mode/1up))
+
+**NIPPON INU HOZON KAI (N.I.H.)** (The Association for the Preservation of Japanese Dogs). Established in 1928; Sukenari Yokoyama, president; membership 1,050. The object is to make researches of Japanese dogs. Issues “Nippon Inu” (Japanese Dogs). Address: 1,321 Setagaya 2-chomé, Setagaya, Tokyo. — p. 1200 ([scan leaf 1256](https://archive.org/details/japan-year-book-1939-1940/page/n1256/mode/1up))
+
+**NIPPON KIIN** (The Japan “Go” Association). Established in 1924; Count Nobuaki Makino, president. The purpose is to promote interest in “Go” playing. Issues “Kido” (the way of “Go”). Address: 1 Nagatacho 2-chomé, Kojimachi, Tokyo. — p. 1200 ([scan leaf 1256](https://archive.org/details/japan-year-book-1939-1940/page/n1256/mode/1up))
+
+**NIPPON ONSEN KYOKAI** (The Hot Spring Association). Established in 1929; Prince Sanetaka Ichijo, president; membership 1,460. The purpose is to invite foreign tourists. Issues “Onsen” (Hot Spring). Address: Care of the Japan Tourist Bureau, Marunouchi 1-chomé, Kojimachi, Tokyo. — p. 1200 ([scan leaf 1256](https://archive.org/details/japan-year-book-1939-1940/page/n1256/mode/1up))

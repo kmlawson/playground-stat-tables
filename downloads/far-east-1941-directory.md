@@ -1,6 +1,6 @@
 # The Far East Year Book 1941 — Who's Who & Directories
 
-78 entries, LLM-transcribed. These entries were transcribed by the vision model of Opus 5.5. Before using any of these details, you must verify specific details with the original source which is linked to whenever possible.
+95 entries, LLM-transcribed. These entries were transcribed by the vision model of Opus 5.5. Before using any of these details, you must verify specific details with the original source which is linked to whenever possible.
 
 
 ## Japan — Imperial Court: The Imperial House
@@ -193,3 +193,47 @@
 **Mitsui Line** —The Mitsui Line operates regular and irregular services. The former consists of the direct New York service, the Bangkok service, the Indian service (Bombay and Madras), the Philippine service, Dairen service, the Iran Bay service and the Moji-Yokohama service. The latter represents many ports in Europe, North America, South America, Australia, Africa, British India, the South Seas and Japan. As in June, 1938 the Mitsui Line owned 36 steamers amounting to 143,851 tons gross. — p. 217
 
 **Kawasaki Kisen Kaisha** —The Kawasaki Kisen Kaisha is one of the seven largest shipping companies of Japan. It was founded in April, 1919 with a capital of ¥20,000,000, which is paid up. Principal regular services operated by the Company are the New York Line, San Francisco-Los Angeles Line, Seattle-Vancouver Line, Japan-Australia Line, Europe-Far East Line, Tokyo-Yokohama-Dairen Line, North Korea Line, South America (West Coast) Line, East and South Africa Line, Bombay Line, Asia-Europe-North and South America Line. As in March, 1939 the Company owned 34 ships aggregating 243,415 tons. — p. 217
+
+
+## Japan — Sports: National Parks
+
+### National Parks
+
+**Akan** A famous active volcano in Hokkaido, situated between Kushiro and Kitami occupying an area of 75,372 hectares. It is surrounded by many beautiful lakes and forests, with several hot spring resorts. — p. 508
+
+**Daizentsu-zan** (literally Great Snow Mountain) located at the centre of the mountain ranges of Hokkaido, is often called the Roof of Hokkaido. Its 203,306 hectares of territory which includes grand canyons and beautiful plains is considered as one of the most suitable places for natural research, mountaineering, sight-seeing, and skiing, etc. — p. 508
+
+**Lake Towada** Extending over Akita and Aomori prefectures, the lake being the second deepest in Japan, is 378 meters in depth and 401 meters above the sea level. The total area of the park is 49,587 hectares including beautiful hills, valleys, etc. and is highly regarded by those who love fishing, boating and winter sports. — p. 508
+
+**Nikko** “One can't say ‘kekko’ (wonderful) without visiting Nikko” is a Japanese proverb. This park occupies 53,553 hectares bordering Gunma, Fukushima, Tochigi and Niigata Prefectures. The gorgeous shrines, Lake Chuzenji, and the famous waterfall “Kegon” are some of the spot no visitor can miss among the many places of interest. — p. 508
+
+**Fuji-Hakone** This park occupies 82,281 hectares including Mt. Fuji, the famous five lakes at its foot, and the wellknown hotspring resort, Hakone. It is located within a few hours by train from Tokyo. — p. 508
+
+**The Japan Alps (Chubu Sangaku)** Occupies 173,554 hectares of mountainous zone, the so-called north Japan Alps. Among the many peaks in the region the Shirouma, Hodaka, Tsubakuro and Yari are very popular. Kamikochi and Kurobe add further beauty to the park. — p. 508
+
+**Yoshino-Kumano** Extending over three prefectures, Nara, Miye and Wakayama, its size is 69,429 hectares including the Yoshino mountain ranges, rivers and craggy coastline of Kumano. Yoshino is not only known for its famous cherry blossoms, but is also a spot of historic interest. — p. 508
+
+**Seto Inland Sea** The only sea park in Japan, dotted with many beautiful isles, it is 102,149 hectares in size. It is generally conceded that such scenery is unique in the world. — p. 508
+
+**Daisen** Mt. Daisen, the highest mountain facing the Japan Sea in the Chugoku district, is in the centre of the park, occupying [illegible] hectares, commanding a wonderful view of Shimane peninsular. The park which has several hot spring resorts is the centre of skiing in western Japan. — p. 508
+
+**Unzen** Located near Nagasaki, it is famous for its sulphide hot springs, and is also noted for its azaleas in Spring and “Silver Thaw” in Winter, when trees are coated with ice. The size of the park is 9,917 hectares. — p. 508
+
+**Aso** Extending over Oita and Kumamoto Prefectures, Mt. Aso, an active volcano with the largest crater in the world, consists of five peaks. Being double-cratered, it has a huge depression measuring 20 kilometres from south to north and 16 kilometres from east to west. There are 11 villages with a population of over 50,000 within the large crater. The total area of the park is 30,741 hectares. — p. 508
+
+**Kirishima** Located between the prefectures of Kagoshima and Miyazaki, occupying an area of 18,735 hectares, it consists of 22 volcanic mountains with beautiful lakes, plains, forests, etc. — p. 508
+
+
+## Manchoukuo — Administrative System: Decorations
+
+### Decorations
+
+**(1) Ta-hsun-wei-lan-hua-chang-king-shin** (the Collar of the Grand Order of the Lanhua), grantable only to holders of the Grand Order of Merit. — p. 623
+
+**(2) Ta-hsun-wei-lan-hua-ta-shou-chang** (the Grand Cordon of the Lanhua), grantable to those with or to be conferred the Grand Order of Merit — p. 623
+
+**(3) Lung-kung-ta-shou-chang** (the Order of Lungkuang), grantable only to those who are to be conferred or who have been conferred the First Order of Merit. — p. 623
+
+**(4) Ching-yun-chang** (the Order of Ching-yun), grantable to those who are to be conferred any of the decorations from the First to the Eighth Order of Merit, excepting those who have been conferred the First Order of Merit and who have been granted the Order of the Lungkuang. — p. 623
+
+**(5) Chukuo-chang** (the Order of Chukuo) grantable to those who are to be conferred any of the decorations from the First to the Eighth Order of Merit excepting those who are to be conferred with the order of Ching-yun. — p. 623
