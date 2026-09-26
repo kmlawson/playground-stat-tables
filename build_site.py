@@ -61,6 +61,13 @@ BOOKS = [
      "blurb": "Japan, its colonies (Chosen, Taiwan, Karafuto, the South Sea Islands), Manchoukuo and occupied China, with shorter sections on the Philippines, French Indo-China, Thailand, British Malaya, the Netherlands East Indies and British Borneo.",
      "source": "LLM-transcribed from 581 photographs of the printed volume (two-page spreads).",
      "in_progress": True, "dir_in_progress": True, "hide_images": True, "scan": None},
+    {"slug": "china-1937-43", "dir": "China_Handbook_1937-1943", "title": "China Handbook 1937-1943",
+     "publisher": "Chinese Ministry of Information; New York: Macmillan, 1943",
+     "blurb": "The Chinese government's wartime reference book on Free China, 1937-1943.",
+     "source": "LLM-transcribed from the Internet Archive scan (five parts, two-page spreads).",
+     "in_progress": True,
+     "scan": "https://archive.org/details/china-handbook-1937-1943/China%20Handbook%201937-1943%20Part%20{part}%20of%205/page/n{leaf}/mode/1up",
+     "item": "https://archive.org/details/china-handbook-1937-1943"},
 ]
 
 
@@ -76,8 +83,8 @@ def book_dir(book):
 
 
 def page_key(t):
-    m = re.search(r"(\d+)", t["file"])
-    img = int(m.group(1)) if m else 0
+    m = re.match(r"p(\d)-(\d+)", t["file"]) or re.search(r"(\d+)", t["file"])  # multi-part scans: p{part}-{leaf}
+    img = int(m.group(1)) * 10000 + int(m.group(2)) if m and m.lastindex == 2 else (int(m.group(1)) if m else 0)
     n = int(re.search(r"_(\d+)\.json$", t["file"]).group(1))
     return (img, n)
 
@@ -102,6 +109,11 @@ def scan_links(book, t):
     ims = t.get("images") or [t.get("image")]
     out = []
     for im in ims:
+        mp = re.match(r"p(\d)-(\d+)$", im or "")  # multi-part scans: one IA file per part
+        if book["scan"] and mp:
+            part, leaf = int(mp.group(1)), int(mp.group(2))
+            out.append({"label": f"scan part {part}, leaf {leaf}", "url": book["scan"].format(part=part, leaf=leaf)})
+            continue
         m = re.match(r"p(\d+)$", im or "")
         if book["scan"] and m:
             out.append({"label": f"scan leaf {int(m.group(1))}", "url": book["scan"].format(leaf=int(m.group(1)))})
@@ -399,6 +411,9 @@ renderList();route();
 
 
 def dir_key(f):
+    mp = re.match(r"p(\d)-(\d+)", os.path.basename(f))
+    if mp:
+        return int(mp.group(1)) * 10000 + int(mp.group(2))
     m = re.search(r"(\d+)", os.path.basename(f))
     return int(m.group(1)) if m else 0
 
