@@ -1,6 +1,6 @@
 # The Japan Year Book 1910 — Chronologies
 
-343 entries, LLM-transcribed. These entries were transcribed by the vision model of Opus 5.5. Before using any of these details, you must verify specific details with the original source which is linked to whenever possible.
+362 entries, LLM-transcribed. These entries were transcribed by the vision model of Opus 5.5. Before using any of these details, you must verify specific details with the original source which is linked to whenever possible.
 
 
 ## Diary of 1908-9 — Diary of 1907-9
@@ -693,3 +693,47 @@
 **1596 A.D.** Bungo, Kyushu, was visited and 700 persons killed. — p. 10 ([scan leaf 77](https://archive.org/details/japan-year-book-1910/page/n77/mode/1up))
 
 **1596 A.D.** Districts round about Kyoto shaken and 2,000 persons killed. — p. 10 ([scan leaf 77](https://archive.org/details/japan-year-book-1910/page/n77/mode/1up))
+
+
+## Education — [Ancient Education: outline]
+
+**284 A.D.** Chinese books first introduced through Korea, 284 A.D. — p. 193 ([scan leaf 260](https://archive.org/details/japan-year-book-1910/page/n260/mode/1up))
+
+**552** Buddhism introduced from Korea, 552. — p. 193 ([scan leaf 260](https://archive.org/details/japan-year-book-1910/page/n260/mode/1up))
+
+**607** First authentic record of the sending to China for study of Japanese students, '607. — p. 193 ([scan leaf 260](https://archive.org/details/japan-year-book-1910/page/n260/mode/1up))
+
+**664** First school founded, 664. — p. 193 ([scan leaf 260](https://archive.org/details/japan-year-book-1910/page/n260/mode/1up))
+
+**701** First educational regulations promulgated, 701. — p. 193 ([scan leaf 260](https://archive.org/details/japan-year-book-1910/page/n260/mode/1up))
+
+**712** Oldest Japanese book extant, Kojiki, published, 712. — p. 193 ([scan leaf 260](https://archive.org/details/japan-year-book-1910/page/n260/mode/1up))
+
+**770** Printing introduced, 770. — p. 193 ([scan leaf 260](https://archive.org/details/japan-year-book-1910/page/n260/mode/1up))
+
+**809** Japanese alphabet invented by Buddhist priest Kobo, 809. — p. 193 ([scan leaf 260](https://archive.org/details/japan-year-book-1910/page/n260/mode/1up))
+
+**1602-1867** Revival of learning followed by the restoration of peace and the establishment of the Tokugawa Shogunate, 1602-1867. — p. 193 ([scan leaf 260](https://archive.org/details/japan-year-book-1910/page/n260/mode/1up))
+
+
+## Politics — Resume of the Growth of Constitutional Politics
+
+**** 1. The Emperor's Oath on the occasion of his accession, that "public matters shall be decided by public assembly." — p. 496 ([scan leaf 563](https://archive.org/details/japan-year-book-1910/page/n563/mode/1up))
+
+**1873** 2. In 1873 Itagaki and others petitioned the Government to take steps for realizing the Imperial Oath. — p. 496 ([scan leaf 563](https://archive.org/details/japan-year-book-1910/page/n563/mode/1up))
+
+**1880** 3. In 1880 a national organization for promoting the cause of popular rights was effected and in its name a petition was submitted to the Emperor for the immediate establishment of parliament. — p. 496 ([scan leaf 563](https://archive.org/details/japan-year-book-1910/page/n563/mode/1up))
+
+**1880** 4. In 1880 the Provincial Assembly Regulations were enacted and popular craving was partially satisfied. — p. 496 ([scan leaf 563](https://archive.org/details/japan-year-book-1910/page/n563/mode/1up))
+
+**1881** 5. In 1881 Itagaki and his fellow politicians organized the Liberal Party, and passed a resolution to push the movement with vigor. — p. 496 ([scan leaf 563](https://archive.org/details/japan-year-book-1910/page/n563/mode/1up))
+
+**1881** 6. In the same year a proclamation was issued announcing the establishment of a national assembly ten years hence. — p. 496 ([scan leaf 563](https://archive.org/details/japan-year-book-1910/page/n563/mode/1up))
+
+**1882** 7. In 1882 Okuma organized the Progressive Party. — p. 496 ([scan leaf 563](https://archive.org/details/japan-year-book-1910/page/n563/mode/1up))
+
+**188[illegible]** 8. In 188[illegible] the Civil Corporation Regulations were enacted. — p. 496 ([scan leaf 563](https://archive.org/details/japan-year-book-1910/page/n563/mode/1up))
+
+**1889, Feb. 11** 9. On February 11th, 1889, the Constitution was promulgated. — p. 496 ([scan leaf 563](https://archive.org/details/japan-year-book-1910/page/n563/mode/1up))
+
+**1890, Nov.** 10. In November of the following year the first session of the Diet was convoked. — p. 496 ([scan leaf 563](https://archive.org/details/japan-year-book-1910/page/n563/mode/1up))

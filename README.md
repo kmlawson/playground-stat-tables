@@ -13,6 +13,8 @@ Every statistical table printed in English-language official yearbooks on Japan 
 | *The Japan Year Book 1939–40* | [japan-1939-40/](japan-1939-40/) |
 | *The Japan Year Book 1946–48* | [japan-1946-48/](japan-1946-48/) |
 | *The Far East Year Book 1941* (in progress) | [far-east-1941/](far-east-1941/) |
+| *The China Year Book 1912* | [china-1912/](china-1912/) |
+| *The China Year Book 1929–30* (in progress) | [china-1929-30/](china-1929-30/) |
 | *China Handbook 1937–1943* | [china-1937-43/](china-1937-43/) |
 
 > **Warning:** These tables were transcribed by the vision model of Opus 5.5. Before using any of these figures, you must verify specific statistics with the original source which is linked to whenever possible.
@@ -35,3 +37,5 @@ Every statistical table printed in English-language official yearbooks on Japan 
 In the browser, any column can be sorted by clicking its header (click again to reverse, a third time to restore the printed order), and any table can be downloaded as CSV or copied as TSV.
 
 To rebuild: `uv run --with openpyxl build_downloads.py` (Excel workbooks and Markdown directories in `downloads/`), then `python3 build_site.py`. `build_site.py` regenerates the pages from the per-table JSON files. It builds every book, including the Far East Year Book 1941 (read from its own folder), plus the directory, chronology and cross-book search pages.
+
+Adding a book from another session: see [example/guidance.md](example/guidance.md) (how to post a branch without clashing) and [example/BRIEF.md](example/BRIEF.md) (template brief for the transcription agents).
