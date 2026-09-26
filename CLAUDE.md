@@ -41,3 +41,8 @@ building or pushing anything.
 - Never push to `main`; push your branch and let the main session merge.
 - Privacy: GitHub noreply commit identity; never put the user's name, email or other identifying details in
   commits, request headers (User-Agent/From), file metadata or pages.
+- Before merging `origin/main`, commit or stash; confirm the merge ran (`git merge-base --is-ancestor
+  origin/main HEAD`) and that no conflict markers remain. Generated pages conflict on almost every merge:
+  resolve by rebuilding, never by hand (see `example/guidance.md` §5).
+- Audit agents' "judgement calls": a digit read from its shape, a similar glyph, context, row order or a
+  total is blanked, with the partial reading in the note.
