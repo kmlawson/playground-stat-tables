@@ -12,6 +12,7 @@ Every statistical table printed in English-language official yearbooks on Japan 
 | *The Japan Year Book 1939–40* | [japan-1939-40/](japan-1939-40/) |
 | *The Japan Year Book 1946–48* | [japan-1946-48/](japan-1946-48/) |
 | *The Far East Year Book 1941* (in progress) | [far-east-1941/](far-east-1941/) |
+| *The China Year Book 1912* (in progress) | [china-1912/](china-1912/) |
 | *China Handbook 1937–1943* | [china-1937-43/](china-1937-43/) |
 
 > **Warning:** These tables were transcribed by the vision model of Opus 5.5. Before using any of these figures, you must verify specific statistics with the original source which is linked to whenever possible.

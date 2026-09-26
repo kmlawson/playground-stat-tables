@@ -1,6 +1,6 @@
 # The Japan Year Book 1910 — Chronologies
 
-343 entries, LLM-transcribed. These entries were transcribed by the vision model of Opus 5.5. Before using any of these details, you must verify specific details with the original source which is linked to whenever possible.
+352 entries, LLM-transcribed. These entries were transcribed by the vision model of Opus 5.5. Before using any of these details, you must verify specific details with the original source which is linked to whenever possible.
 
 
 ## Diary of 1908-9 — Diary of 1907-9
@@ -693,3 +693,24 @@
 **1596 A.D.** Bungo, Kyushu, was visited and 700 persons killed. — p. 10 ([scan leaf 77](https://archive.org/details/japan-year-book-1910/page/n77/mode/1up))
 
 **1596 A.D.** Districts round about Kyoto shaken and 2,000 persons killed. — p. 10 ([scan leaf 77](https://archive.org/details/japan-year-book-1910/page/n77/mode/1up))
+
+
+## Education — [Ancient Education: outline]
+
+**284 A.D.** Chinese books first introduced through Korea, 284 A.D. — p. 193 ([scan leaf 260](https://archive.org/details/japan-year-book-1910/page/n260/mode/1up))
+
+**552** Buddhism introduced from Korea, 552. — p. 193 ([scan leaf 260](https://archive.org/details/japan-year-book-1910/page/n260/mode/1up))
+
+**607** First authentic record of the sending to China for study of Japanese students, '607. — p. 193 ([scan leaf 260](https://archive.org/details/japan-year-book-1910/page/n260/mode/1up))
+
+**664** First school founded, 664. — p. 193 ([scan leaf 260](https://archive.org/details/japan-year-book-1910/page/n260/mode/1up))
+
+**701** First educational regulations promulgated, 701. — p. 193 ([scan leaf 260](https://archive.org/details/japan-year-book-1910/page/n260/mode/1up))
+
+**712** Oldest Japanese book extant, Kojiki, published, 712. — p. 193 ([scan leaf 260](https://archive.org/details/japan-year-book-1910/page/n260/mode/1up))
+
+**770** Printing introduced, 770. — p. 193 ([scan leaf 260](https://archive.org/details/japan-year-book-1910/page/n260/mode/1up))
+
+**809** Japanese alphabet invented by Buddhist priest Kobo, 809. — p. 193 ([scan leaf 260](https://archive.org/details/japan-year-book-1910/page/n260/mode/1up))
+
+**1602-1867** Revival of learning followed by the restoration of peace and the establishment of the Tokugawa Shogunate, 1602-1867. — p. 193 ([scan leaf 260](https://archive.org/details/japan-year-book-1910/page/n260/mode/1up))
