@@ -1,6 +1,6 @@
 # The Manchoukuo Year Book 1942 — Who's Who & Directories
 
-181 entries, LLM-transcribed. These entries were transcribed by the vision model of Opus 5.5. Before using any of these details, you must verify specific details with the original source which is linked to whenever possible.
+365 entries, LLM-transcribed. These entries were transcribed by the vision model of Opus 5.5. Before using any of these details, you must verify specific details with the original source which is linked to whenever possible.
 
 
 ## Appendix I: Who's Who in Manchoukuo
@@ -245,7 +245,41 @@
 
 **Jung Hou** (榮厚) Ex-Official; b. 1874 in Peking. Career: In the era of Ching Dynasty; Tse-fu of Chingchow; Pres., Mint of Fengtien; Supervisor Financial Dist. of Three Eastern Prov.; Commr. of Finance, Civil Affairs, Fengtien. In the era of Republic of China: Tao-yin of Liaoshen, Fengtien; Commr. of Foreign Affairs, Yingkow; Commr. of Finance Heilungkiang; Supt. of Customs, Ai-hwe; Commr. of Ind., and later Foreign Affairs, Kirin; Tao-yin, Ki-Chang; Commr. of Finance, Kirin; Pres. of Eastern Kuo-min Publicity Assn.; with Manchoukuo Govt. since its est.; Pres. Central Bk. of Manchou 1932-36. Present post: Privy Councillor, Manchoukuo; Pres. Manchoukuo Japanese Cultural Assn. Address: Hsinking. — p. 929
 
+**Jung Yuan** (榮源) Businessman; b. 1884, Lungkiang Prov.; n. Manchoukuoan. Career: grad. Peking Univ.; Adv. to Manchoukuo Imp. Household Dept. upon its establishment. Present post: Pres. Manchuria Aeronautical Co.; Aud. Manchuria Automobile Mfg. Co. Address: Manchuria Aeronautical Co., Hsinking. — p. 930
+
 ### K
+
+**Kagoshima, Torao** (鹿兒島虎雄) Official; b. Aug. 1886, Nagasaki-ken; e.s. of Tokinari Kagoshima; m. Koto. Career: grad. Tokyo Imp. Univ., politics, 1910; entered Japanese Imperial Household Dept.; toured Europe and America 1926; Deputy Grand Master of Ceremonies, 1926-1939. Present post: Vice-Minister, Manchoukuo Imperial Household Dept., since May 1939. Address: Imperial Household Dept., Hsinking. — p. 930
+
+**Kaise, Kingo** (貝瀬謹吾) Company Official; b. March 1878, Tokyo; s. of Gengoro Shimano. Career: grad. Kyoto Imp. Univ. mech. engrg., 1901; engr. Railway Construction Bureau; joined S.M.R.; manager Dairen Administration Office; manager Wharf Office; manager Industrial Dept.; chairman Technical Committee; retired, 1931. Present post: Pres. Manshu Chemical Industry Co., Pres. Manchuria Technical Assn., chairman Dairen Municipal Assembly; auditor Showa Steel Works; non-regular staff S.M.R. Address: Manchuria Chemical Industry Co., Dairen. — p. 930
+
+**Kajitsuka, Ryuji** (梶塚隆二) Surgeon Lt.-Gen. M.D.; b. Sept. 1888, Miyaki-ken; s. Ryuan Kajitsuka, physician. Career: grad. Med. Coll. Tokyo Imp. Univ.; apptd. Surgeon 1915; Chief Sanitary Sect., Army Dept., visited Eur. and Amer. 1928-29. Present post: Chief Mil. Surg. Dept. Kwantung Army. Address: c/o Kwantung Army Hdqrs. Hsinking. — p. 930
+
+**Kamio, Yoshiharu** (神尾弌春) Official; b. 1894. Career: grad. Law Coll. Tokyo Imp. Univ. 1918; entered Fukuoka-ken Pref. Office; Commr. Chosen Govt. 1927; Sec. Chief Educ. Dept. same; resigned 1933; Chief Secretary, General Affairs Board State Council 1933-35; Dir. Educ. Bureau 1935-36; Chief Gen. Affairs Board Lungkiang Prov.; Vice-Gov. same Prov.; Councillor Gen. Affairs Bd. and Prof. Kienkuo Univ. Present post: Chief Secretariat Privy Council. Addres: Privy Council Office, Hsinking. — p. 930
+
+**Kan Chao-hsien** (闞潮洗) Banker; b. 1884, Chinchow Prov. Career: Comdr. Brig. of Northeastern Army; Military Gov. of Jehol; Aud. Central Bk. of Manchou 1932; Dir. and then Vice-pres. Present post: Pres. Central Bk. of Manchou since 1940. Address: Central Bk. of Manchou, Hsinking. — p. 930
+
+**Kanki, Shoichi** (神吉正一) Official; b. Jan. 5, 1897; s. of Tsunekichi Kanki. Career: grad. Law Coll. Tokyo Imp. Univ., 1920; Secr. Emb. London 1923; Secr. Foreign Office 1928; Dir. Political Affairs Bur. 1936; Dir.-Gen. Foreign Office, Manchoukuo; Vice-Dir.-Gen. Gen. Affairs Bd. of Manchoukuo; Vice-Min. People's Welfare, Manchoukuo 1939. Present post: Gov. Chientao Prov. Address: Gov.'s. residence, Chientao, Manchoukuo. — p. 930
+
+**Kasahara, Toshiro** (笠原敏郎) Official; D. E.; b. June 16, 1882, Niigata-ken; s. of Nagamasa Kasahara. Career: grad. Engrg. Coll. Tokyo Imp. Univ. 1907; Engr. Army Office; Metro. Police Bd. Home Dept.; Chief 2nd Tech. Sec. City-Planning Bur.; Chief Building Sec. Reconst. Bur.; Prof. Nihon Univ., Dir. Supplies Bur. President post: Dir. Construction Bur. Manchoukuo. Address: Hsinking. — p. 930
+
+**Kasai, Enzo** (笠井圓藏) Company Official: b. 1893 Gifu-ken. Career: grad. Osaka Higher Com. Sch. 1917; entered Bk. of Japan; served at at Otaru & Kanagawa Branches; Chief Research Sec. Central Bk. of Manchou since Dec. 1940. Address: c/o Central Bk. of Manchou, Hsinking. — p. 931
+
+**Kashiwagi, Masamitsu** (柏木勝光) Businessman; b. Apr. 17, 1892; s. Sentaro Kashiwagi. Career: grad. Spin. & Weaving Course Tokyo Higher Tech. Sch. 1912; despatched to Siberia 1918-19; served Tokyo Keori K.K. 1915-23, Tokyo Muslin Spin. & Weaving Co. 1923-31; Chief Nagoya and Okazaki Factories Manmo Keori K.K.; Mgr. Nagoya Br. of same; Dir. same 1936. Present post: Mng.-Dir. Manmo Keori K.K. Aud. Manmo Keori Dept. Store. Address: Co.'s Residence, Mukden, Manchoukuo. — p. 931
+
+**Kazahaya, Yoshio** (風早義雄) Official; b. 1902 Kagoshima-ken. Career: grad. Law Coll. Tokyo Imp. Univ. 1925; entered Dept. of Com. and Ind.; served at Fukuoka Mining Inspection Bur.; Chief Gen. Affairs Section, Weights and Measures Bur. Dept. of Ind. 1934; Chief, Heavy Ind. Sec. Mining Engrg. Bur. 1937. Present post: Dir. Mine Bur. since Aug. 1939. Address: c/o Dept. of Economics Hsinking. — p. 931
+
+**Ki Hsing** (吉興) General; b. 1879, Shenyanghsien, Fengtien Prov. Career: grad. Artillery Course, Mil. Acad. in Japan; Chief Staff 27th Div., 1918; Fengtien Prov. Army 1919; Kirin Prov. Army; Adviser Kirin Prov. Govt. 1921; Comdr. 13th Mixed Brigade 1924; Comdr. Yenchi Guards Army; Comdr. 2nd Dist. Army (Kirin Prov.) Present post: Chief Aide-de-Camp to H.I.M. the Emperor of Manchoukuo, since March, 1941. Address: c/o Imp. Household Dept. Hsinking. — p. 931
+
+**Kibe, Yohei** (岐部與平) Official; b. 1895, Oita-ken. Career: Chief Finance Sec. Dairen Civil Adm. Office; Post Office Master Hsinking & Mukden; Dir. Postal Adm. Bureau, Harbin; Vice-Min. Tungan Prov. Present post: Gov. Tungan Prov. Address: c/o Tungan Prov. Office, Tungan, Manchoukuo. — p. 931
+
+**Kida, Kiyoshi** (木田 淸) Career: grad. Teachers Training Institute Tokyo Univ. of Com.; Teacher Niigata Normal Sch.; Councillor Legislative Bur. Manchoukuo 1932; Commr. Gen. Aff. Board; Chief Personnel Sec.; Councillor Gen. Aff. Board & Commr. Kienkuo Univ. 1939; Educ. Insp. Welfare Dept. 1940; Dir. Educ. Bur. Welfare Dept. since 1941. Address: Hsinking. — p. 931
+
+**Kihara, Tetsunosuke** (木原鐵之助) Lawyer; b. Sept. 1897, Ehime-ken; s. Michinori Kihara; established present law office, Dec. 1924. Address: (home) 1 Heiwa-dai, Dairen: (office) Kojima Bldg., 17 Nishi-dori, Dairen. — p. 931
+
+**Kimura, Hidenori** (木村秀儀) Company Official; b. 1899, Fukushima-ken. Career: grad. Tokyo Higher Com. Sch. 1921; entered Mitsui Bk.; served at Yokohama, New York & Shanghai Branches; Present post: Chief Dairen Branch Mitsui Bk. since 1932. Address: 21, Suimei-cho, Dairen. — p. 931
+
+**Kimura, Hyotaro** (木村兵太郎) Lt.-Gen.; b. 1888. Tokyo. Career: grad. Military Acad. 1909, Mil. Staff Coll.; Staff Art. Inspectorate; Instructor Field Art. Sch.; Chief Ordnance Control Sect. Dept. 1935; Dir. Ordnance Bur. Army Dept. 1936; Chief Osaka Army Arsenals; fought in China Incident; Chief Staff, Kwantung Army Oct. 1940-Apr. 1941. Present post: Vice-Minister of War since April, 1941. Address: War Office, Tokyo. — p. 931
 
 **Kinney, Charles Bishop** Co. Official; b. Jan. 30, 1905, Honolulu, Hawaii; n. American; s. H. W. Kinney; m. Hideko Chishaki in 1931. Career: Elementary Sch. in Hawaii and High Sch. in Tokyo; grad. Univ. of Calif., U.S.A.; Editor “Marysville Appeal” 1927-28; Adviser S.M.R. Co. since 1928. Address: (home) 136 Suimeicho, Hoshigaura, Dairen; (office) S.M.R. Co., Dairen. — p. 932
 
@@ -359,6 +393,40 @@
 
 **Mimura, Tomoshige** (三村友茂) Major-General, Company Official. b. Mar. 1885 Tokyo, 4th s. of Yuun Mimura. Career: grad. Military Acad. 1905; staff 4th Heavy Field Art. Regiment; chief General Affairs Sec., Ordnance Bur.; Dir. Military Artificers Sch. Present post: Mng.-Dir. Manshu Arsenal, Daito-ku, Mukden. — p. 937
 
+**Minakawa, Toyoji** (皆川豐治) Official; b. 1896, Yamagata-ken, Career: grad. Law Coll. Tokyo Imp. Univ. 1920; entered Justice Dept., Public Procurator Sendai Local Court, Tokyo Public Procurator's Office; Chief Secr. and Dir. Personnel & Decoration Bur. Manchoukuo State Council 1933-34; Chief Gen. Affairs Dept. Chinchow Prov.; Chief Gen. Affairs Bur. Dept. of Educ.; Dir. Educ. Bur. People's Welfare Dept.; Dir. Gen. Affairs Dept. of Central Hdqrs. of Kyowa-kai (Manchoukuo Concordia Assn.) 1938-41. Present post: Vice-Gov. Fengtien Prov. since Aug. 1941. Address: c/o Fengtien Prov. Office, Mukden. — p. 938
+
+**Minami, Masaki** (南 正樹) Businessman; b. 1888 Ishikawa-ken; s. of Yoshisaburo Minami. Career: grad. Law Coll. Tokyo Imp. Univ. 1915; entered Dept. of Agr. and Com.; Chief Account Sect. Agr. Affairs Bur.; Chief Domestic Animals Sect. Live-stock Bur.; Chief Fishery Sect.; Dir. Tokyo Forestry Management Bur. Present post: Pres. Manchuria Forestry Co. Address: c/o Manshu Ringyo K. K., Keiminro, Hsinking. — p. 938
+
+**Minoike, Tatsuo** (御影池辰雄) Official; b. Feb. 1892, Kanagawa-ken; s. Tomokuni Minoike. Career: grad. Law Coll. Tokyo Imp. Univ. 1917; entered Govt. service; Secr. & Chief Educ. Dept. Hiroshima-ken; Chief Administration Office Dairen 1929-35; Chief Police Sect. Kwantung Bureau 1935; Gov. Kwantung Prov. 1936-37; Dir.-Gen. Manchoukuo Home Office. Present post: Gov. Tungan Prov. since 1939. Address: Gov.'s Residence, Tungan, Manchoukuo. — p. 938
+
+**Mishiro, Akio** (三城晁雄) Foreign Service; b. Kumamoto-ken. Career: grad. Law Coll. Tokyo Imp. Univ. 1925; served Tumen Customs, Manchoukuo; Chief Trade Section Manchoukuo Foreign Office; Dir. Hsinking Customs of same till 1938. Present post: Councillor Manchoukuo Leg. in Rome 1938. Address: Manchoukuo Legation, Rome, Italy. — p. 938
+
+**Mitani, Kiyoshi** (三谷 淸) Official; b. 1887, Tokyo. Career: grad. Military Acad. 1909; Gendarmerie captain 1920; Comdr. Mukden Detachment, Japanese Gendarmerie 1931; Commissioner Fengtien Prov. 1932; Chief Police Dept. Fengtien Prov. 1934-36; Chief Gen. Affairs Dept. Kirin Prov. 1936-37; Vice-Gov. Kirin Prov. 1936-39. Present post: Gov. Mutankiang Prov. since 1940. Address: Mutankiang Prov. Office, Mutankiang, Manchoukuo. — p. 938
+
+**Mitsuda Ryuichi** (滿田隆一) Official; b. 1883 Hyogo-ken. Career: grad. Agr. Chem. Course, Tokyo Imp. Univ. 1908; Engr. Agr. Experimental Station; Asst.-Prof. Kyushu Imp. Univ.; Prof. & Dean, Agr. Coll. same, 1924; entered Manchoukuo Civil Service, 1940; Engr. Agr. Exp. Station; went abroad for inspection. Present post: Chief, Kungchuling Agr. Exp. Station. Address: Nohji Shikenjo, Kungchuling, Manchoukuo. — p. 938
+
+**Mitsukuri, Shinroku** (箕作新六) D.Sc.; b. Sept. 1893, Tokyo; s. Prof. Kakichi Mitsukuri. Career: grad. Chemical Course, Tokyo Imp. Univ.; Prof. in Chem. at Tohoku Imp. Univ. Present post: Chief Chemical Ind. Dept. of Fushun Colliery S.M.R. Co. Address: c/o Fushun Colliery, Fushun. — p. 938
+
+**Miura, Keiichi** (三浦惠一) Gendarmerie-Colonel (retired) Official; b. Feb. 1881, Yamaguchi-ken, e. s. of Shigejiro Miura. Career: grad. Mil. Acad., 1906; adjutant Chosen Gendarmerie Hdqrs.; comdr. Ryuzan Detached Battalion of Keijo Gendarmeries; comdr. Nagoya Gendarmerie, dir.-gen. Gen. Ry. Bur. of S.M.R. Insp.-Gen. Gen. Ry. Guard Hdqrs. 1932-1940. Present post: Governor, Heiho Prov. since Oct. 1940. Address: Provincial Office, Heiho, Manchoukuo. — p. 938
+
+**Miura, Naohiko** (三浦直彥) Official; b. Mar. 31, 1898, Wakayamaken; adopted s. Komanosuke Miura. Career: grad. French Law Course Tokyo Imp. Univ. 1922; entered govt. service; Chief Archives & Documents Sect.. and Chief Secr. Gov.'s Secretariate of Tokyo-fu; Chief Health Sect. Sanitation Bur. of Home Office; Dir. Educ. Affairs Bur. Tokushima-ken 1932; Chief Civil Administration Bd. Kwantung Govt. and Educ. Commissioner Japanese Emb. in Manchoukuo; Gov. Kwantung Prov. Present post: Dir. Kwantung Bur. since Feb. 1941. Address: Kwantung Bureau, Dairen, Manchoukuo. — p. 939
+
+**Miura, Takemi** (三浦武美) Diplomat; b. Aug. 1897, Aomori-ken, s. Takesaburo Miura. Career: grad. Political Course, Tokyo Imp. Univ. 1917; entered Foreign Service, 1920; attache, Emb., London, 1922; 3rd Secr. Emb., London, 1925; Chief 2nd Sect. Asia Bur., Foreign Office, Tokyo, 1928; 1st Secr. Emb. Washington, 1933; 1st Secr. Emb., Hsinking, 1936; Councillor, Embassy, Hsinking, 1939. Present post: Vice-chief, Foreign Office of Manchoukuo since Oct. 1940. Address: Gaimu-kyoku, Hsinking, Manchoukuo. — p. 939
+
+**Miyake, Koji** (三宅光治) Official; retired Lt.-Gen.; b. May 1881, Miye-ken. Career: grad. Mil. Staff Coll. 1910; Staff 1st Div.; Adjutant War Office; Secr. to War Minister; Chief Press Section; Chief Staff Kwantung Army; Comdr. 20th Div.; promoted to Lt.-Gen.; reserve list 1936. Present post: Chief Central Hdqrs. Concordia Assn. (Kyowakai) since Nov. 1940. Address: c/o Kyowakai, Hsinking. — p. 939
+
+**Miyakoma, Kanzo** (都間觀三) Official; b. 1887 Shimane-ken. Career studied at Mil. Staff Coll.; Gendamerie service in Chosen, Siberia and Manchuria; Police Affairs Chief of Mongolia Admini. Dept. 1936; Councillor Hsingan West Prov. Present post: Vice-Governor Hsingan South Prov. since June 1939. Address: c/o Hsingan South Prov. Office, Manchoukuo. — p. 939
+
+**Mo Yu-feng** (毛遇風) Businessman; Pres. Manchuria Live-stock Co. Address: c/o Manshu Chikusan K. K. Kotoku Kaikan, Daido-Daigai, Hsinking. — p. 939
+
+**Morikawa, Sokichi** (森川莊吉) Businessman; b. Sept. 1877, Tokyo. Career: served Ry. Dept. 1897-1911; Chief Warehouse Sect. Shahokow Factory of S.M.R. Co. 1911; joined Dairen Machine Works 1910; Dir. and Mgr. of same. Present post: Mng.-Dir. Manshu Kubota Chutetsukan (Cast iron pipe) K.K.; Mem. Dairen Municipal Assembly. Address: 126 Kyo-machi, Dairen. — p. 939
+
+**Morinaka Kiyoshi** (守中 淸) M.D.; b. 1884 Fukuoka-ken. Career: grad. Med. Course, Kyoto Imp. Univ. 1910; entered S.M.R.; Prof. S. Manchuria Med. Coll. & Chief Internal Diseases Sec. Fengtien Hospital; Prof. Manchuria Medical Coll. & Chief Doctor Fengtien Hos.; Pres. Dairen Hos. Present post: Pres. Manchou Medical Coll. Address: Manchou Medical Coll., Hsinking, Manchoukuo. — p. 939
+
+**Morita, Hisashi** (森田 久) Journalist; b. Feb. 17, 1890, Fukuoka-ken; 3rd s. Toshiro Morita. Career: grad. Polit. Econ. Course Waseda Univ. 1915; served Fukuoka Nichi-Nichi, Tokyo and Osaka Asahi Shimbun; joined Jiji Shimpo-sha 1926; Chief Econ. Dept., Dir. and Chief Ed. of same: resigned 1934. Present post: Pres. “Kokutsu” Manshukoku Tsushin-sha (Manchoukuo News Agency) since 1938. Address: “Kokutsu,” Hsinking. — p. 939
+
+**Mukai, Toshio** (向井俊郎) Official; b. Feb. 11, 1897, Fukuoka-ken. Career: grad. Law Coll. Tokyo Imp. Univ. 1922; entered Hypothec Bk. of Japan; served S.M.R.; Chief Record Sect. Manchoukuo State Council 1932-37; Dir. Shanhaikwan Customs. Present post: Dir. Supplies Bur. since Dec. 1940. Address: Kanju Kyokai, Hsinking, Manchoukuo. — p. 939
+
 **Mukaino, Motoo** (向野元生 Official; b. 1903 Fukuoka-ken. Career: grad. Law Coll. Imp. Univ. 1925; joined S.M.R. Co.; Chief Traffic Section Mutankiang Ry. Bureau 1936; Dir. of Ry. Bureau 1938. Vice-Gov. Mutankiang Prov. Apr. 1939-June 1941, Present post: Dir. Gen.-Aff. Bur., General Development Bd. since June 1941. Address: Kaitaku Sokyoku, Hsinking. — p. 940
 
 **Murakoshi, Nobuo** (村越信夫) Agriculturist; b. Aug. 1896, Kanagawa-ken; s. Tozaburo Murakoshi. Career: grad. Agr. Coll. Hokkaido Imp. Univ. 1921; entered Kungchuling Experiment Station of S.M.R. Co. and studied agr. physics at its Dept. of Agronomy; sent to Eng., Amer., Germany & France for study 1929-30; made special study at Dept. of Agr. Engrg. of Wisconsin Univ. Present post: Chief, Dept. of Agricultural Economics and Dir. Agr. Experimental Station, Koshan 1934--1941. Present post: Chief, Kungchuling Agr. Exp. Stn. since 1941. Address: Koshurei Noji Shiken-sho, Koshurei, Kitsurin-sho, Manchu-koku. — p. 940
@@ -394,3 +462,319 @@
 **Niimi Kanta** (新美倌太) Veterinary Dd. Agr.: Lieut.-Gen.: b. 1880 Kumamoto-ken. Career: grad. Veterinary Course Tokyo Imp. Univ. 1907; Instructor Mil. Veterinary Sch. for many yrs.; Dir. Nippon Veterinary Sch.; entered Manchoukuo Civil Service; Higher Councillor Gen. Aff. Board & People's Welfare Dept. Present Post: Dir. Hsinking Live-stock Veterinary Sch. since 1941. Address: Chikusan-Jui Gakko, Hsinking. — p. 941
 
 **Ninomiya, Harushige** (二宮治重) Businessman; retired Lt.-Gen.; b. 1879 Okayama-ken. Career: grad. Mil. Staff Coll.; Comdr. Imp. Guards 3rd Reg.; attache Emb. London; Comdr. 12th Brig.; Vice-Chief, Gen. Staff Office; Comdr. 5th Div.; Pres. Senman Takushoku Kaisha. Present post: Pres. Manshu Takushoku Kaisha. Address: 407 Kojin-Tairo, Hsinking. — p. 941
+
+**Nishida, Hirotaro** (西田博太郎) Educator; D.E. (1914); b. Aug. 1877, Yamagata-ken; s. Eitaro Nishida, official; m. Hisa e.d. Kin-ichi Kinashi. Career: grad. Applied Chem. Course Tokyo Imp. Univ. 1901; went to Eng. to study textile technology and dyeing 1903; Prof. Nagoya Tech. Coll.; Engr. Japan Celluloid and Artificial Silk Co.; Chief-Engr., Mng.-Dir., and Head of Mfg. Dept. same; Lecturer Nagoya Tech. Coll.; Engr. Japan Woolen Spin. Co. Present post: Dir. and Prof. Kiriu Coll. of Technology. Address: Tenjin-cho, Kiriu City. — p. 942
+
+**Nishida, Inosuke** (西田猪之輔) Businessman; b. Nov. 15, 1888, Miye-ken; s. Senjiro Nishida, banker. Career: grad. Nagasaki Higher Com. Sch.; served Communications Dept. joined S.M.R. Co. 1919; served various sections as chief, during which period, Aud. Dairen S.S. Co., Kokusai Unyu K.K., Shoko Glass Co.; Mem. Dairen Municipal Assembly; toured Eur. & Amer. 1921-22; upon est. of Manchuria Teleg. & Tel. Co. became dir. 1933; sent to North China Chief of Detached Hdqrs. of same Co. on China Affair. Present post: Dir. Manchuria Teleg. & Tel. Co.; Chairman Manshu Noritsu (Efficiency) Kyokai since 1939. Address: c/o Manchuria Teleg. & Tel. Co., Hsinking. — p. 942
+
+**Nishimura, Jun-ichiro** (西村淳一郎) Businessman; b. Dec. 1, 1894, Hyogo-ken; e.s. Junzo Nishimura. Career: grad. French Law Course Tokyo Imp. Univ. 1918; Chief Archives & Documents Sect. Fin Dept.; sent abroad for inspection; Chief Nat. Loan Sect. Fin. Dept. 1932; Dir. Nagoya Taxation Admin. Bur.; Vice-Min. Com. & Fin. Dept. Manchoukuo. Present post: Repr. Dir. Manchuria Ammonium Sulphate Co. since 1939. Address: Manchuria Ammonium Sulphate Co., Hsinking. — p. 942
+
+**Nishiyama, Yasukiyo** (西山泰清) Businessman; b. Nov. 16, 1902 in Osaka; s. of Jimbei Nishiyama. Career: grad. Osaka Foreign Language School 1925; joined Fukusho & Co.; Chief, Warehouse Sect. same; Ins. Sect. same; Harbin Br. Office same. Present post: Mgr. Hsinking Br. Fukusho & Co.; head Kirin, Ssupingkai, Tumen Br. offices same; Pres. Kirin Oil Sales Co.; Mng.-Dir. Hsinking Colliery Go.; Aud. Hsinking Automobile Co. Address: 42, Yashima-dori, Hsinking, Manchoukuo. — p. 942
+
+**Noda, Kiyotake** (野田清武) b. 1901 Tokyo. Career: grad. Polit. Course Tokyo Imp.; Univ. 1924. Secr. Agr. & For. Dept. Commr. Ind. Dept. of Manchoukuo; Councillor Gen. Aff. Bd.; Councillor Embassy Tokyo; Dir. Staple Products Bur. Present post: Vice-Gov. Ssuping Prov. since June 1941. Address: Ssuping City, Manchoukuo. — p. 942
+
+**Numada, Soyao** (沼田征雄矢) Official; b. 1901 Tokyo. Career: grad. Civil Engrg. Dept. Tokyo Imp. Univ. 1924; Asst. Prof. of Alma mater 1925; Prof. Nihon Univ. 1931; Chief Planning Sect. of Harbin Muni. Office 1933; Chief Water Works Sect. of same 1935; Engrg. Affairs Sect. 1937; Engr. Communi. Dept. 1939.—Present post: Dir. Cities Planning Bur. since 1940. Address: c/o Communi. Dept. Hsinking. — p. 942
+
+### O
+
+**Ogata, Jiro** (尾形次郎) D. E.; Company Official; b. Sept. 1874, Fukuoka; s. Kiroku Ogata. Career: grad. Engrg. Coll. Tokyo Imp. Univ. 1898; with Mitsui firm since graduation; made inspection tour of Europe and America, 1909-10. Chairman Mitsui Mining Co.; Dir. Toyo Aluminium Co., etc. Present post: Pres. Manchuria Synthetic Fuel Co. Address: Manshu Gosei Nenryo K.K., Toku-san Chuo-kai, Hsinking. — p. 942
+
+**Ogawa Itsuro** (小川逸郎) Company Official; b. 1887 Mie-ken. Career: grad. Tokyo Sch. of Fgn. Languages 1909; entered S.M.R.; Sec. Chief Dairen Coal Depot; Vice-Chief Sales Dept. Present post: Mng.-Dir. Nichiman Trading Co. since 1936.. Address; 408, Nishikodo, Higashi Choyo-ro, Hsinking. — p. 942
+
+**Ohira, Tokuzo** (小平得三) Physician; b. 1882 Yamagata-ken; s. Teisaku Ohira; grad. Kyoto Imperial University; Fukuoka Medical Coll. 1908; Assistant Prof.; apptd. Prof. Med. Coll.; Kyushu Imp. Univ.; Dean same; studied in America. Present post: Hygenic Superintendant; People's Welfare Dept. since Nov. 1938. Address: Minseibu, Hsinking, Manchoukuo. — p. 943
+
+**Ohmura, Takuichi** (大村卓一) Businessman; b. Feb. 1872, Fukui-ken; s. Sonoe Ohmura. Career: grad. Hokkaido Imp. Univ. 1896; Engr. Hokkaido Colliery Co.; despatched to Eur. & Siberia to investigate railways; Govt. Engr. 1925; despathed to Siberia as Mem. Intl. Ry. Supervisory Commission and to Peking as Adv. of Chinese Govt.; Vice-Pres. S.M.R. Co. Present post: Pres. S.M.R. Co. since 1939, Econ. Adv. to Manchoukuo since Mar. 1941. Address: S.M.R. Co. Residence, Mukden, Manchoukuo. — p. 943
+
+**Ohsa, Miyogo** (大佐三四五) Librarian; B.S.; M.A. (Columbia Univ. New York); b. 1898, Kyoto; s. Sanjiro Ohsa, businessman; m. Kazuko, d. Sadaji Otogawa of Kyoto. Career: studied at Coll. of Eng. Literature, Doshisha Univ. 1918-21; Sch. of Library Service & Teachers Coll. Columbia Univ. 1926-28; B.S. 1927; M.A. 1928; Librarian Dairen Lib. S.M.R. Co. 1921-29; Head Librarian Fushun Lib. of same Co. 1929-36; Asst. Dir. Dairen Library 1936. Publication: Library Cataloging, its Principles and Practices 1937. Address: Dairen Library, Dairen. — p. 943
+
+**Oka, Ohji** (岡大路) Educator; b. Nov. 1889, Sendai; s. Arau Oka. Career: grad. Archit. Course, Tokyo Imp. Univ. 1912; entered S.M.R. Co.; despatched to Eur. and Amer. for insp. 1921-22; Chief Architect 1922-25; Prof. South Manchuria Tech. Coll. 1925-30. Present post: Dir. South Manchuria Tech. Coll. since 1930; Pres. Manchuria Archit. Assn. Address: 180 Togendai, Dairen. — p. 943
+
+**Okada, Fumio** (岡田文雄) Official; b. Mar. 31, 1898, Yamagata-ken; e.s. Bunji Okada. Career: studied at Keio Univ.; made inspection tour of Eur. and Amer.; entered Chinese Custons 1923; Non-Commissioned Staff, Dairen Customs 1932, Sect. Chief, same 1932-35; Dir. Chengteh Customs Jehol Prov. 1935; Dir. Antung Customs 1937-39. Present post: Sub-Director, The General Bureau of Opium Suppression. Address: 198 Dai-Ichi Daiyo-Kansha, Hsinking. — p. 943
+
+**Okada, Shin** (岡田 信) Banker; b. March 10, 1885 in Shiga-ken; 5th s. Itujiro Okada: m. Nobu, e. d. Suzaemon Baba. Career: elected Dir. Oriental Development Co. 1925; apptd. Financial Superintendent Taiwan Govt. 1932. Pres. Hokkaido Colonization Bk., 1936. Present post: Pres. Industrial Bank of Manchou, since Jan. 1941. Address: Manshu Kogyo Ginko, Hsinking, Manchoukuo. — p. 943
+
+**Okada, Takuo** (岡田卓雄) Businessman; b. Sept. 1895, Nagasaki-ken; e.s. Yoshio Okada. Career: grad. Law Coll. Tokyo Imp. Univ. 1920; joined S.M.R. Co.; Staff Econ. Research Bur. same; Sub-Mgr. Tokyo Br.; Mgr. Tokyo Br. of S.M.R. Co. Jan. 1938. Present post : Dir. S.M.R. Address: c/o S.M.R. Co., Dairen. — p. 943
+
+**Okamoto, Tadao** (岡本忠雄) Official; . Sept. 1899, Hiroshima-ken; e.s. of Shozaburo Okamoto. Career: grad. Tokyo Imp. Univ. Eng. law, 1924; entered Communications Dept.; served Osaka Postal Savings Office, Sapporo and Kumamoto Comms. Bur.; chief Business Affairs sect. Postal Affairs Bur. of Manchoukuo Communications Dept. 1936; vice-dir. General Postal Adm. Bur. 1937; Councillor General Affairs Bd., Apr. 1939. Present post: vice-govr. Peian Prov. since June 1939. Address: Prov. Office, Peian. — p. 943
+
+**Okumura, Shinji** (奥村愼次) Businessman; b. May 25, 1894, Kanagawa-ken; 3rd s. of Toshichi Okumura. Career: grad. Law Coll. Tokyo Imp. Univ. 1920; entered Research Dept. S.M.R.; Chief, Kirin & Peking offices, Research Sect. Tokyo Branch, Enterprising Sect. Present post: Dir. Manchuria Ind. Develop. Corp. Address: c/o Manchuria Ind. Development Corp., Hsinking. — p. 944
+
+**Okumura, Yoshinobu** (奥村義信) Pres. Manchurian Affairs Enquiry Office. Address: c/o Manshu Jijyo Annaisho, 6 Chuo-dori, Hsinking. — p. 944
+
+**Ono, Toshio** (小野敏夫) Journalist: Career: grad. Keio Univ., 1921; London Correspondent of Jiji Shimpo, 1929-32; Chief Political section of same; Head, Hsinking Bureau of Rengo News Agency, 1933; Editor in-Chief Manchoukuo News Agency until 1938. Present post: Pres. Manchuria Daily News, since 1938. Address: Manchuria Daily News, Yashima-cho, Hsinking, Manchoukuo. — p. 944
+
+**Osawa Kikutaro** (大澤菊太郎) Company Official; b. 1885 Gumma-ken. Career; grad. Polit. Course Tokyo Imp. Univ. 1911; entered Bk. of Japan 1916; Chief Branch Okayama; Chief Examination Dept. Head Office; Dir. same; Present post: Vice-Pres. Central Bk. of Manchou since May 1940. Address: c/o Central Bk. of Manchou, Hsinking, Manchoukuo. — p. 944
+
+**Oseko, Yukio** (大迫幸男) Official; b. Feb. 14, 1901, Kagoshima-ken. Career: grad. Law Coll. Tokyo Imp. Univ.; joined S.M.R. Co. 1925; apptd. Commissioner Gen. Affairs Board Manchoukuo State Couucil 1932; Councillor Manchoukuo Leg. Tokyo; Chief Gen. Affairs Sect. State Highways Bur. 1933-36; Councillor Hsingan North Prov. 1936-37; Deputy Mayor of Harbin; Dir. Live-stock Bureau, Dept. of Agr. Present post: Vice-Mayor of Hsinking & Dir. Capital Construction Bur. since Feb. 1941. Address: c/o Muni. Office, Hsinking. — p. 944
+
+**Oseroff, M** Merchant; b. in Russia; s. of A. Oseroff, merchant. Present post: Mgr. The Anglo-Chinese Eastern Trading Co. Ltd. Address: 3 Higashi-Koen-cho, Dairen. — p. 944
+
+**Ostrovsky, Emmanuel A** Fur dealer, b. 1912, Irkutsk, Siberia; s. Abraham S. Ostrovsky, manufacturer; m. Nina V. Zoltnikoff. Career: grad. High Commercial Sch. Harbin, 1927; entered B. Zondlovitch & Sons 1928; apptd. Mgr. Dairen Branch same 1934. Present post: Mgr. Mukden Branch of B. Zondlovitch & Sons since 1936. Address: 11 Wu Wei Loo, flat 3, Mukden, Manchoukuo. — p. 944
+
+**Otsu, Toshio** (大津敏男) Official; b. 1893, Fukuoka-ken. Career: grad. German Law Course Tokyo Imp. Univ. 1918: Commr. Home Dept.; Chief Police Affairs Dept. Fukuoka-ken 1931; Metro. Police Bd. 1932; Chief Home Dept. Nagasaki-ken 1932-34; Chief Econ. Dept. Kanagawa-ken 1935; Dir. Gen. Affairs Dept. 1936-37; Dir. Gen. Manchoukuo Home Office 1937-38; Gov. Kwantung Prov. 1938. Present post: Dir.-Gen. Kwantung Bur. since Mar. 1938. Address: Kwantung Bureau, Hsinking. — p. 944
+
+**Oyaizu, Shozo** (小柳津正藏) Businessman; Lt.-Gen. (retired); b. May 24, 1881, Chiba-ken. Career: grad. Mil. Acad. 1901, Experimental Physics Course Tokyo Imp. Univ. 1911; Mem. War Supply Ctte. of the Allies at London during World War; attache of Mil. Tech. Dept. in U.S.A.; Dir. Tokyo and later Osaka Arsenals; resigned acting service and joined Showa Steel Works 1933. Present post: Dir. Showa Steel Works, Chief Motive Power Dept. and its Lab. Address: 4 Naka-Dai-machi, Anshan, Manchoukuo. — p. 944
+
+### P
+
+**Pansing, Paul** Hon. Vice-Consul for Finland at Dairen; Merchant; b. Dec. 1888, Germany. Address: 212 Yamagata-dori, Dairen. — p. 944
+
+**Pao Kang** (葆康) Banker; b. Sept. 1882, Fengtien Prov.; s. Pao Fujun. Career: grad. Mukden Acad. 1914; served Mukden Mil. Gov.'s Office; Chief Mil. Affairs Sect.; Chief Mukden Mil. Provisions Dept.; Spec. Ctte. Chinese Eastern Ry.; High Adv. Tung Sheng Spec. Dist. 1929; Vice-Min. of Civil Affairs 1932-34; Gov. Fengtien Prov. 1934-38. Present post: Vice-Pres. Ind. Bk. of Manchou since July 1938. Address: Ind. Bank of Manchou, Hsinking. — p. 945
+
+**Pao Ming-chien** (鮑明鈐) Educator; Ph.D.; b. 1894 Chekiang Prov., China. Career: grad. Chinghua Univ. of Peking; further studied at Yale, Columbia and John Hopkins Univ., U.S.A.; entered educ. works in China; Dean Eng. Faculty at Peking Higher Normal Sch.; Reporter Peking Nippo (English edition) Pub. Co.; del. Pacific Sc. Conf., Honolulu 1927; Prof. Peking State Univ. and Lecturer Peking Girls' Normal Sch.; came to Japan as Secr. to Chen You-jen 1931. Publications: International Relations of China, The Open-door Policy (English), etc. Present post: Noted Scholar on Oriental Polit.; Prof. Kienkuo Univ. of Manchoukuo since 1938. Address: Kienkuo Univ., Hsinking. — p. 945
+
+**Pa-te-ma-la-pu-tan** (特巴瑪拉佈坦) Gen. b. 1901 Cha-la-te Banner, Mongolia. Career: chairman of various banners of Hsingan South Prov. appointed major-general upon foundation of State and comdr. S. Hsingan Garrison; Lieut.-Gen. 1934; Comdr. 9th Army Hdqrs. since December 1938. Present post: Pres. Hsingan Bur. since March, 1941. Address: Ko-an Kyoku, Hsinking, Manchoukuo. — p. 945
+
+### R
+
+**Reuner, Charles** Diplomat. n. French. Career: Vice-consul, Hongkong. Present post: French Consul at Mukden. Address: French Consulate, Mukden, Manchoukuo. — p. 945
+
+### S
+
+**Saeki, Chosei** (佐伯長生) Businessman; b. May 15, 1894. Career: grad. Law Coll. Tokyo Imp. Univ. 1918; joined Sumitomo Concern 1918; sent to Eur. & Amer. for inspection. Present post: Sr. Mng.-Dir. Manchuria Elec. Wire & Cable Works, Ltd. since 1937. Address: c/o Yamato Hotel, Mukden, Manchoukuo. — p. 945
+
+**Saiki, Sanetoshi** (佐伯仁壽) Physician; M.D.; b. April 1900 at Matsuyama; younger brother of Tadasu Saiki, Dir. Japanese Govt. Institute for Nutrition, Tokyo; m. Shigeko, d. Takinosuke Amano. Career: grad. Med. Coll. Kyoto Imp. Univ. 1924; Dir. Kyoto Imp. Univ. Hospital; studied medicine under Prof. Thanhauser and Prof. Stepp at Freiburg and Munich. Present post: Chief, Sanatorium, S.M.R. Co., Mukden. Address: 40 Kokusai Bldg., Maro-wan, Mukden. — p. 945
+
+**Sakai, Ishiro** (酒井伊四郎) Businessman; b. 1882 Fukui-ken; s. of late Ishiro Sakai. Career: succeeded family estate 1919. Present post: Pres. Nichiman Fibre Ind. Co., Manshu Tokan Pulp K.K. Address: c/o Manshu Tokan Pulp K.K., Kaigen, Fengtien Prov., Manchoukuo. — p. 945
+
+**Sakai, Seibei** (酒井清兵衞) Businessman; b. 1885, Gifu-ken. Career: grad. Chinese Language Dept., Tokyo Sch. of Foreign Lang. 1908; entered S.M.R.; Chief Secretary, Ry. Dept.; Councillor, same; Vice-Dir. Tsitsihar Direction of Manchoukuo State Ry. Present post: Pres. Kokusai Unyu K.K.; Dir. Dairen S.S. Co. since Jan. 1936. Address: 42 Sakura-cho, Dairen. — p. 945
+
+**Sakai, Teruma** (酒井輝馬) Company Official: b. 1895 Nagasaki-ken. Career: grad. Law Coll. Tokyo Imp. Univ. 1920; served Bk. of Chosen; entered Central Bk. of Manchou; Mgr. Head Office; Chief Research Sec.; Dir. Bk. of Mongolia 1938. Present post: Dir. Nosan Kosha Manchoukuo since July 1941. Address: c/o Nosan Kosha Hsinking. — p. 945
+
+**Sakakiya, Senjiro** (榊谷仙次郎) Civil Engr. & Bldg. Contractor; b. 1882, Hiroshima-ken. Career: grad. Tokyo Koshu Gakko; founded Sakakiya-gumi 1921; recognized contractor of S.M.R. Co., Kwantung Govt., Chosen Govt.-Cen., and other various Govt. depts. and companies in Manchuria; when Sakakiya-gumi was reorganized K.K. 1938, became pres. Address: 41 Chuodori, Hsinking. — p. 946
+
+**Sakuda, Soichi** (作田莊一) Educator; b. Dec. 1878 Yamaguchi-ken; s. of Yagoro Fujimoto; later adopted by Sakuda family. Career: grad. Law Coll. Tokyo Imp. Univ. 1905; served Communi. Dept.; Instructor Upei Law Sch. China; Prof. Yamaguchi Com. Coll.; Prof. Kyoto Imp. Univ. until 1938.. Present post: Vice-Pres. Kienkuo Univ. of Manchoukuo since May 1938. Address: c/o Kienkuo Univ. Hsinking. — p. 946
+
+**Samejima, Mitsuhiko** (鮫島光彥) Official; b. 1893 Kagoshmia-ken. Career: grad. Law Coll. Tokyo Imp. Univ. 1918; joined Tokyo Elec. Light Co.; Chief Account Dept. Mukden Muni. Office 1935; Acct. Chief Fin. Affairs Bur. of same 1937; Mayor of Penhsihu 1939-41. Present post: Chief Nat. Central Library Preparatory Office since Mar. 1941. Address: c/o Kokuritsu Chuo-Toshokan Chubi-sho, Hsinking. — p. 946
+
+**Sasaki, Ken-ichiro** (佐々木謙一郎) Businessman; b. Dec. 1882, Tokyo; s. Yunosuke Sasaki, banker. Career: grad. Law Coll. Tokyo Imp. Univ. 1907; entered Fin. Dept.; Chief Supervisor Kobe and Yokohama customs; Secr. and Councillor Fin. Dept.; Chief Finance, Undertakings & Sale Dept. Monopoly Bur.; Dir. Monopoly Bur. 1932; with S.M.R. Co. since 1934. Present post: Vice-Pres. S.M.R. Co. since 1938. Address: S.M.R. Co., Dairen. — p. 946
+
+**Sato, Ojiro** (佐藤應次郎) Co. Official; b. 1881, Yamagata-ken. Career: grad. Civil Engrg. Course Tokyo Imp. Univ. 1907; with S.M.R. Co. since graduation; Dir. same. Present post: Vice-Pres. S.M.R. Co. since 1939. Address: S.M.R. Co., Dairen. — p. 946
+
+**Schill, August** Businessman; b. Sept. 21, 1899. Present post: Manager Kunst & Albers Harbin. Address: 23 Commercial Street, Harbin. — p. 946
+
+**Schram, Eugen** Engineer; b. Dec. 21, 1891 Oviz Hungary; s. of Joseph, school teacher. Career: with Jardine Engrg. Corp. Ltd. 1923-33; Mgr. at its Harbin branch 1930-33; with the present firm since 1939. Present post: Engrg. Mgr. Siemssen & Co. Mukden. Address: c/o Siemssen & Co. 98 Da Hsi Bien Men Wai, Mukden. — p. 946
+
+**Schulze, Jaochim** Foreign Service; b. Aug. 3, 1880, Muenden Hannover, Germany; s. Carl Schulze, burgomaster. Career: Student-Interpreter of German Leg., Peking 1905; Cons. at Changsha 1921; served Foreign Office, Berlin 1925-29; Consul at Sourabaya 1929; Consul at Manila 1932-35; same, Harbin 1935. Present post: German Consul-General at Harbin. Address: c/o German Consulate-General, Harbin, Manchoukuo. — p. 946
+
+**Sera, Shoichi** (世良正一) Businessman; b. May 5, 1887, Hiroshima-ken; s. Jumpei Sera. Career: grad. Agr. Coll. Tokyo Imp. Univ. 1914; joined Sankyo Co.; entered S.M.R. Co.; Dir. Central Experimental Station same. Present post: Dir. Manchuria Ind. Development Corp., Showa Steel Works, Manchuria Automobile Mfg. Co.; Supt. Planning Dept. S.M.R. Co. Mng.-Dir. since 1941. Address: Manchuria Ind. Develop. Corp., Hsinking. — p. 946
+
+**Shan Yen-ying** (商衍瀛) Official; b. 1898, Fengtien Prov. Career: Chief Bd. of Aud., Chief Executives' Office, Manchoukuo 1932-34; Dir. Home Affairs Bur. Manchoukuo Imp. Household Dept. 1935-38. Present post: Vice-Dir.-Gen. Manchoukuo Red Cross Soc. Address: c/o Manchoukuo Red Cross Soc., Hsinking. — p. 946
+
+**Shen Soue-lin** (沈 瑞麟) Privy Councillor; b. 1874, Chekiang Prov. Career: Foreign Vice-Min. 1922; Foreign Min. & Chairman Customs Conf. 1925; Civil Affairs Min. 1927; Foreign Adv. of Fengtien Prov. Govt. after Chang Tso-lin's death; Dir. Chinese Eastern Ry. 1930; Acting Chief North Manchuria Ry. 1932-34; Imp. Household Min. 1934-35. Present post: Manchoukuo Privy Councillor; Vice-Pres. Bd of Rituals since July Hsinking. — p. 947
+
+**Shibuya, Saburo** (澁谷三郎) Official; Colonel (retired); b. Jan. 17, 1888, Miyazaki-ken. Career: grad. Mil. Acad. 1908; Mil. Staff Coll. 1917; Staff 14th and later 11th Divisions; studied German at Tokyo Sch. of Foreign Lang.; Chief Heiho Spec. Service Facility 1934; Comdr. Inf. 3rd Reg. 1935; resigned active service 1936; entered Manchoukuo govt. service; Dir. Police Affairs Dept. Pinkiang Prov. 1936; Dir. Police Affairs Bur. Public Peace Dept. 1937; Gov. Mutankiang Prov. Manchoukuo 1938-39. Present post: Vice-Minister of Public Peace Dept. Address: c/o Public Peace Dept. Hsinking. — p. 947
+
+**Shiina, Yoshio** (椎名義雄) Businessman; b. Jan. 12, 1894, Gunma-ken. Career: grad. Tokyo Higher Tech. Sch. 1915; Chief Tech. Affairs Dept. of Oi Works of Tokyo Keori K.K. 1924; Engr. Godo Keori K.K. 1927-30; same Shinko Keori K.K.; Mng.-Dir. Manmo Keori Dept. Store 1932. Prest post: Mng-Dir. Manmo Keori K.K.; Pres. Toyo Felt Co.; Chairman Manmo Keori Dept. Store; Aud. Takasaki Keori K.K., Toyo Weaving Co., etc. Address: Manmo Keori K.K., Mukden. — p. 947
+
+**Shimada, Rikichi** (島田利吉) Businessman; b. Jan. 1884, Miyagi-ken; 2nd s. Kozaburo. Career: grad. Mining & Metall. Course Tokyo Imp. Univ. 1907; joined Kuhara Mining Co.; served Hidachi, Ohse, Kapsan, Dungun (Malay) and Kinkaseki mines; appointed Jr. Mng.-Dir. upon est. of Nippon Mining Co. Present post: Chief of Minerals Dept. of Mangyo since Mar. 1941. Pres. Manshu Kozan (Mining) K.K. since Feb. 1938. Manshu Enko (Lead) K.K.; Dir. Manchuria Ind. Development Corp. Address: 402 Keiminro, Hsinking. — p. 947
+
+**Shimada, Shigeru** (島田 茂) Businessman; b. Sept. 1885 Okayama-ken; s. of Hidekazu Shimada. Career: grad. Econ. Dept. Tokyo Imp. Univ. 1912; entered Finance Office; Supt. Tottori Tax Office; Custom Tariff Dept. Chief, Takatori Supt. offices, Nagoya & Tokyo; Dir. and then Pres. Bank of Taiwan. Present post: Pres. Manchuria Livelihood Requisites Co. Address: c/o Manshu Seikatsu Hitsujuhin K.K., 1932 Daidodaigai, Hsinking. — p. 947
+
+**Shimomura, Nobusada** (下村信貞) Diplomat; b. 1899 Fukuoka-ken. Career: grad. Political course, Tokyo Imp. Univ. 1923. Career: Instructor, South Manchuria Engrg. Sch.; Secr. Foreign Office, 1932; Chief, Planning Section, General Affairs Dept., Russian Section Chief; despatched to Europe, 1935. Present post: Chief, Political Affairs Section, Foreign Office since April, 1940. Address: Foreign Office, Hsinking, Manchoukuo. — p. 947
+
+**Shirahama, Haruzumi** (白濱晴澄) Official; b. 1897 Kagoshima-ken. Career: grad. Mil. Academy and Russo-Japan Society Sch. 1917; entered S.M.R.; Chief Documents Sec.;. entered Manchoukuo Civil Service; Councillor Mongolia Administration Dept.; Councillor Hsingan S. Prov.; Councillor Hsingan Bur.; Vice-Chief-Dir. Kinyu Gassaku-sha. Present post: Vice-Chief-Dir., Kono Gassaku-sha since 1941. Address: Kono Gassaku-sha, Hsinking, Manchoukuo. — p. 947
+
+**Shou Ming-a** (壽明阿) Official; b. 1885, Mongolia. Career: Adviser to Peace Preservation Office, Three Eastern Provs. 1924; Dir. Educ. Dept. Mongolia Frontier Supt. Office; Dir. Civil Affairs Bureau Mongolia Admin. Dept. Present post: Gov. Hsingang South Prov., Pres. Hsingan Acad. Address: c/o Hsingan South Prov. Office, Manchoukuo. — p. 947
+
+**Shou Yu-peng** (壽聿彭) Official; b. 1885, Shenyang-hsien, Fengtien Prov. Career: grad. Mukden Law Coll., 1912; chief Gen. Affairs sect. Three Eastern Prov. Arsenal, 1922; chief Materials Bur. of same, 1925; dir. Fengtien Mint, 1926; chief sect. Hsian Colliery Co. 1928; councillor Fengtien Prov. Office, 1932; dir. Cadastre Bur. of Manchoukuo Civil Affairs Dept. 1932; Dir.-Gen. Board of Decorations, 1937. Present post: Govr., Peian Province since Nov. 1939. Address: Prov. Office, Peian. — p. 948
+
+**Sieh Yung-kuei** (薛永魁) Official, b. 1903 Fukien Prov. Career: Com. Secr. Manchoukuo Embassy Tokyo; Dir. Ssupingkai Monopoly Bur. 1938; Chief Development Dept. Pingkiang Prov. 1940. Present post: Dir. Rev. Bu. Dept. of Finance and Com. since 1941. Address: Keizai-bu, Hsinking. — p. 948
+
+**Sonoyama, Mitsuzo** (園山光藏) Official; b. 1884 in Kumamoto-ken. Career: Judge Court-martial of 6th Div. 1918; Comdr. Imp. Guards Inf. 3rd Reg. 1935; retired from active service 1936; Councillor Manchoukuo Govt. Polit. Affairs Bur. Present post: Vice-Gov. Hsingan East Prov. since Sept. 1939. Address: c/o Hsingan East Prov. Office, Manchoukuo. — p. 948
+
+**Sudo, Sadamu** (首藤 定) Businessman; b. 1890. Oita-ken; s. of Masuji Sudo. Career: studied at Ryojun Foreign Lang. Sch.; entered Kwantung Govt. service 1911; entered buisness 1917. Present post: Pres. Dairen Chamber of Com. and Ind.; Pres. Yamato Dyestuff Co. Address: 81 Sakura-cho, Dairen. — p. 948
+
+**Suga, Taro** (菅太郎) Official; b. 1904 Aichi-ken. Career: grad. Polit. Course, Tokyo Imp. Univ. 1914; Served at Home Office (Japan); entered Manchoukuo Civil Service; Sec. Chief, Police Aff. Bur. Dept. of Public Peace; Instructor, Tatung Academy; Councillor, Gen. Aff. Bd. Present post: Chief, Local Aff. Bur. since 1939. Address: Chiho-sho, General Affairs Board, Hsinking, Manchoukuo. — p. 948
+
+**Sugawara, Tatsuro** (菅原達郎) Official; b. 1901 Miyagi-ken. Career: grad. Law Coll. Tokyo Imp. Univ. 1925; Judge, Tokyo Local Court 1927; served Manchoukuo Justice Dept. since 1934; Dir. Civil Affairs Bur. Dept. of Justice Manchoukuo 1938-41. Present post: Chief Gen. Aff. & Planning Dept. Central Hdqrs. of Kyowakai since Jan. 1941. Address: c/o Kyowakai Hom bu, Hsinking. — p. 948
+
+**Sun Chi-chang** (孫其昌) Official; b. 1881, Liaoyang-hsien, Fengtien. Career: grad. Higher Normal Sch. Tokyo; Chief Educ. Dept. Heilungkiang; Chief, Finance Dept. Kirin Prov.; Chief, Chang-tao, Heilungkiang; Mem. Govt. Committee & Chief, Construction Dept. Kirin 1929; resigned 1931; Chief, Finance Dept. Kirin Govt.; Pres. Kirin Prov. Bank; Vice-Min. of Finance 1933; Gov. Heilungkiang Prov. 1933-34; Lungkiang Prov. 1934-35; Finance Min. 1935-37; Civil Affairs Min. May-July 1937; People's Welfare Min.; Vice-Chairman and Dir. Planning Dept. of Central Hdqrs. of Manchoukuo Concordia Assn. 1938. Present post: Privy Councillor of Manchoukuo since May 1940. Address: c/o Privy Council, Hsinking. — p. 948
+
+**Suzuki, Umetaro** (鈴木梅太郎) D.Agr.; b. Apr. 7, 1874, Shizuoka-ken; s. Shozo Suzuki, landowner. Career: grad. Agrl. Coll. Tokyo Imp. Univ. 1896; apptd. Asst. Prof. same 1900; sent to Eur. by Educ. Dept. to study Physiol. Chem. 1901-06; Prof. Morioka Agrl. Coll. 1906; awarded with Imp. Acad. Prize for his discovery of Oryzanin (Vitamin-B) 1921; succeeded in preparing synthetic Sake (wine) 1925; Dean Agrl. Coll. Tokyo Imp. Univ. 1927, Tech. Adv. to Sankyo Co. Present post: Pres. Inst. of Scientific Research Manchoukuo. Address: Sc. Research Inst., Hsinking. — p. 948
+
+### T
+
+**Tada, Hikaru** (多田 晃) Official; b. 1894 Okayama-ken. Career: grad. Law Coll. Tokyo Imp. Univ. 1920; joined S.M.R. Co.; went to Europe & Amer. for investigation for 2 years; Chief Antung Local Office of same 1931; Mayor of Antung 1937. Present post: Vice-Gov. Lunkiang Prov. since June 1939. Address: c/o Lunkiang Prov. Office, Manchoukuo. — p. 949
+
+**Tadokoro Koun** (田所耕耘) B. 1887 Wakayama-ken. Career: grad. Tokyo Higher Co. Sch. 1910; entered S.M.R.; Vice-Chairman Econ. Research Council; Adit. Showa Steel works; Councillor S.M.R. Present post: Pres. Manchou Fatsing (Law) Univ. since 1940. Address: Hsinking, Manchoukuo. — p. 949
+
+**Takagi, Iwao** (高木磐雄) Businessman; b. Feb. 11, 1889, Fukushima-ken; s. Seinosuke Takagi, public procurator. Career: grad. Tokyo Higher Com. Sch. 1912; entered S.M.R. Co.; with present firm since 1920. Present post: Dir. Dairen Steamship Co. Address: 256 Togendai, Dairen. — p. 949
+
+**Takagi Tetsuji** (高木銕二) Banker; b. 1885 Kanagawa-ken. Career: grad. Tokyo Higher Com. Sch: 1911; Mgr. Branch Taiwan Bk. at Hankou, Yokohama, Kobe & Hongkong; entered Central Bk. of Manchou 1932; Gen. Mgr. Fengtien Branch; Chief Inspection Dept. Head Office Hsinking; Dir. same 1935. Present post: Mng.-Dir. Central Hdqs. Shoko Kinyu Gassaku-sha. Address: Hsinking. — p. 949
+
+**Takahashi Itoki** (高橋猪兎喜) Lawyer; Company Official; b. 1887 Kochi-ken. Career: grad. Meiji Univ. 1920; practised law at Dairen; Chief Manshu Koshinjo; Dir. Dairen Horse Race Club; Mem. Muni. Coucnil; entered Dairen Suburb Estate Co. 1935. Present post: Pres. Dairen Suburb Estate Co. Address: 93 Shizuura-machi, Dairen. — p. 949
+
+**Takahashi, Kohjun** (高橋康順) b. Feb. 1891, Akita-ken; s. Hyozo Takahashi. Career: grad. Law Coll. Tokyo Imp. Univ. 1914; Commr. Agr. & Com. Dept.; despatched to Europe & Amer. 1918-19; to Manchuria, China & Siberia 1923; Dir. Tokyo Mining Inspection Bureau; Chief Judge Patent Bureau; Vice-Min. of Manchoukuo Ind. Dept. Present post: Chairman Manchuria Invention Coc., Chief Dir. Manchuria Life Ins. Co., Manshu Yuka Kogyo K.K. Address: 807 Hokuan Kodo, Hsinking. — p. 949
+
+**Takaku Takukichi** (高久田久吉) Official; b. 1896 Fukushima-ken. Career: grad. Sugagawa Com. Sch. 1911; passed examination for Taxation Officials 1926; Commr. Revenue Insp. Bur.; entered Manchoukuo Civil Service; Commr. Gen. Bur. of Monopoly. Present post: Vice-Chief, Monopoly Bur. Yingkow, since July, 1941. Address: Monopoly Bureau, Yingkow, Manchoukuo. — p. 949
+
+**Takasaki, Tatsunosuke** (高碕達之助) Businessman; b. Feb. 1885, Osaka-fu, s. Matsunosuke Takasaki. Career: grad. Fisheries Institute 1906; joined Oriental Aquatic Products Co.; went to America and joined Intl. Fishery Co. 1911; founded present firm 1917; Mem. Econ. Mission to Italy 1940; Mng.-Dir. Oriental Can Mfg. Co. Present post: Vice-Pres. Manchuria Industrial Development Corp.; Chmn. Manchou Aviation Co. Address: Mangyo, Hsinking, Manchoukuo. — p. 949
+
+**Takebe, Rokuzo** (武部六藏) Official; b. Jan. 1, 1893, Ishikawa-ken; s. Naomatsu Takebe. Career: grad. Law Coll. Tokyo Imp. Univ. 1918; Commr. Home Dept.; Secr. Reconstruction Bureau; Chief, Documents Sect. same; Secr. to Home Minister; Chief, Accounts Sect. Home Dept.; Gov. Akita-ken 1932-35; Chief Political Affairs Dept. 1935-36; Dir.-Gen. Kwantung Govt. 1936-38; Vice-Pres. Cabinet Planning Bd. Secr.-General General Affairs Bd., State Council of Manchoukuo since 1940. Address: c/o Kokumuin, Hsinking. — p. 949
+
+**Takehara, Den** (武原 傳) Businessman; Pres. Dowa Motorcar Ind. Co. Address: c°o Dowa Jidosha Kogyo K.K. Sandan, Keikogai( Shinyoku, Mukden, Manchoukuo. — p. 950
+
+**Takemiya, Yuhiko** (武宮雄彦) Official, b. Nov. 1884, Kagoshima-ken; 2nd s. Toshio Takemiya; m. Sachiko, y. sis. Baron Suminaga Arima. Career: grad. Polit. Course Kyoto Imp. Univ. 1914; entered Imp. Household Dept.; Chief Purchasing Sect. Imp. Treasury Bur. of same 1931. Present post: Chief Secr. Office of Privy Seal, Manchoukuo. Address: Office of Privy Seal, Hsinking. — p. 950
+
+**Takemura Kiyoshi** (武村 清) Educator; b. Tokushima-ken. Career: grad. Tokyo Imp. Univ. (Engrg.) 1902; Entered S.M.R.; non-commissioned Staff, same; Dean Engrg. & Mining Coll., National Univ. Hsinking, 1939. Present post: Dean, Hsinking Engineering College, since 1940. Address: Kogyo Daigaku, Hsinking. — p. 950
+
+**Takeuchi Setsuo** (竹内節雄) b. 1904 Aichi-ken. Career: grad. German Law Course Kyoto Imp. Univ. 1928, served S.M.R.; entered Manchoukuo Civil Service after Manchurian Incident; Chief Accounts & Personnel Sec. Gen. Aff. Bd.; Councillor Changchun-hsien; Commr. Chinchow Prov.; Councillor Changchun-hsien; Commr. Chinchow Prov.; Councillor Gen. Aff. Bd.; Chief Police Dept. Heiho Prov. 1939. Present post: Chief Metropolitan Police since 1941. Address: Metropolitan Police Board, Hsinking, Manchoukuo. — p. 950
+
+**Takeuchi, Tetsuo** (武内哲夫) Official; b. Sept. 1892 Fukuoka-ken; 3rd s. of Tsunegoro Akita. Career: grad. Tokyo Imp. Univ. politics, 1922; entered Home Office; police supt. Metro. Police Board, 1928; chief Agr. & Com. section Nagano-ken 1932; chief Police Affairs sect. Metro. Police Bd., 1932; non official staff Special Police Corps of Manchoukuo, 1935; chief General Affairs sect. Local Affairs Bur. of Civil Affairs Dept. 1936; Present post: vice-govr. Chinchow Prov. since June, 1939. Address: Prov. Office Chinchow. — p. 950
+
+**Takeuchi, Tokui** (竹内德亥) Businessman; b. 1888; Aomori-ken; s. Suekichiro Takeuchi. Career: grad. Law Coll. Tokyo Imp. Univ. 1913; Chief, Civil Adm. Office Dairen; Dir. Gen. Affairs Bureau, Civil Dept. 1932-35; Chief, Gen. Affairs Dept. Fengtien Prov. Present post: Chief Dir. Manchuria Mining Development Co. Address: c/o Manshu Kogyo Kaihatsu Kaisha, Hsinking. — p. 950
+
+**Takeuchi, Tokusaburo** (竹内德三郎) Company Official; b. 1889 Tokyo. Career: grad. Tokyo Higher Com. Sch.; Chief Mukden Sales Office S.M.R.; Audit. Three Eastern Prov. Bk.; Dir. Manchuria Colliery Co.; Dir. Manchuria Oil Liquefaction Co.; Mng.-Dir. Haolikeng Colliery Co. Present post: Pres. Manshu Kyodo Cement Co., Mng.-Dir. Japan-Manchoukuo Trading Co., Dir. Manchuria Colliery Co. Address: 26 Akebono-cho 2-chome, Hsinking. — p. 950
+
+**Takoi, Motoyoshi** (蛸井元義) Official; b. 1896 Yamagata-ken. Career. grad. Toa Dobun-shoin (Tungwen Coll.) 1921; joined S.M.R. Co.; entered Manchoukuoan Govt. service 1933; then joined Kyowakai's service. Present post: Vice-Dir. Planning Bureau Kyowakai since Feb. 1940. Address: c/o Kyowakai Hdqrs., Hsinking. — p. 950
+
+**Tamura, Sentei** (田村仙定) b. 1897 Tokyo. Career: grad. Law Coll. Tokyo Imp. Univ. 1928; entered S.M.R.; transferred to Manchoukuo Civil Service; Councillor Legislative Bur. & Gen. Aff. Board; Comdr. and Instructor Tatung Academy; Vice-Chief Metropolitan Police 1939. Present post: Dir. Labor Affairs Bureau. Address: People's Welfare Dept. Hsinking, Manchoukuo. — p. 950
+
+**Tanabe, Hideo** (田邊秀雄) Official; b. 1897 Okayama-ken. Career: grad. Law Coll. Kyoto Imp. Univ. 1923; entered Home Office and served at Kumamoto-ken; Chief Police Dept. of Kwantung Prov. 1934; Chief Police Affairs Section Chinshen Ry. Bur. 1937; same Kirin Ry. Bur. Present post: Vice-Gov. of Jehol Prov. since Apr. 1940. Address: c/o Jehol Prov. Office, Jehol. — p. 951
+
+**Tanabe, Toshio** (田邊利男) Company Official; b. 1887 Hyogo-ken. Career: grad Engrg. Course Tokyo Imp. Univ. 1911; entered S.M.R.; Councillor Changchun Ry. Office; Acting Chief same; Ry. Engr. Kirin-Tunhua Ry.; Dir. Ry. Const. Bur.; Councillor Head Office. Present Post: Pres. Dairen Traffic Co. since Dec. 1940. Address: c°o Dairen Kotsu Kaisha, Dairen. — p. 951
+
+**Tanaka, Akira** (田中信良) Official; b. July 1885, Shiga-ken; s. Prof. Nobushige Tanaka; m. Shizuko Arai. Career: grad. Law Coll. Tokyo Imp. Univ. 1911; entered Ry. Dept.: Secr. same; Chief Personnel Sect.; Dir. Nagoya Region 1925-35; Chief Supervisory Dept. Kwantung Bur. Present post: Pres. Kwanto-syu Reclamation Co. Address: 17 Hoshigaura Koyen, Dairen. — p. 951
+
+**Tanaka, Chihei** (田中知平) Businessman; b. Dec. 1890, Yamaguchi-ken. Career: founded present firm 1924; Aud. Dairen Engrg. Works, Daido-Gumi and Kotoku Iron Co.; Dir. Chi Tung Tobacco Co., Keystone Tobacco Co., A. Lopato & Sons; Manchuria Leaf Tobacco Co. Ltd.; travelled Eur. & Amer. 1918 & 1922. Present post: Pres. Taito Co., Ltd.; Pres. Taito Engrg. Works, Ltd. Address: 35 Komatsudai, Hoshigaura, Dairen. — p. 951
+
+**Tanaka Magohei** (田中孫平) Official. Career: Commr. Civil Admin.; Chief Gen. Aff. Sec. Development Bur.; Commr. Ind. Dept.; Councillor Gen. Aff. Bd.; Chief Development Dept. Tungan Prov. 1939. Present Post: Vice-Gov. Tungan Prov. Address Tungan Provincial Office, Tungan Province. — p. 951
+
+**Tanaka Minoru** (田中 稔) Mayor: b. 1902 Kyoto. Career: grad. Polit. Course Tokyo Imp. Univ. 1927; entered Kwantung Gov. Civil Service; Sec. Chief Dairen Civil Admin. Office; Chief Pitsuwo Civil Admin. Office; Chief Ind. Sec. Home Dept. Kwahtung Gov.; Vice-Mayor of Dairen 1939. Present Post: Mayor of Dairen since Dec. 1940. Address: Dairen Muni. Office. — p. 951
+
+**Tanaka, Shizuka** (田中 恭) Businessman; b. 1899, Wakayama-ken. Career: served Finance Dept.; went to Eur. & Amer.; Chief Kawasaki Taxation Office; Ryogoku Taxation Office; Dir. Finance Bur. Fin. & Com. Dept. of Manchoukuo. Present post: Dir. Manchuria Ind. Develop. Corp., Manchuria Mining Ind. Co. Address: Manchuria Ind. Development Corp., Hsinking. — p. 951
+
+**Tanigawa, Zenjiro** (谷川善次郎) Businessman; b. Jan. 29, 1886, Hyogo-ken; 3rd s. Yasujiro; m. Aiko, 2nd d. Setsuzo Oki. Career: grad. Kobe Higher Com. Sch., 1910; joined S.M.R.; Sr. Mng.-Dir. Fushun Coal Sales Co. 1926; Chief Trade Affairs Dept. S.M.R. 1930; Chief Shanghai Bus. Office 1933; Chief Supervisor attached to Pres. Present post: Pres. South Manchuria Gas Co. & Manchuria Gas Co. since Dec. 1937. Vice-Chmn. Dairen Cham. of Com. & Ind. since Dec. 1941. Address: 68 Sakaki-machi, Dairen. — p. 951
+
+**Taniguchi, Akizo** (谷口明三) Official; b.. 1900 Yamaguchi-ken. Career: grad. Tokyo Imp. Univ., German Law, 1925; section chief of Police Affairs Bureau of Tottori, Aomori and Ibaragi Pref. Offices, entered Labor Sect. of Social Bureau, 1931; Dir. Police Affairs Dept. of Antung and Fengtien Prov. Present post: Chief, Police Affairs Bureau since 1939. Address: Dept. of Public Peace, Hsinking. — p. 951
+
+**Ting Chiao** (丁 超) Official; b. 1880 Fengtien Prov. Career: grad. Mil. Acad. of Japan 1911; Commissariat Chief Mukden Army Hdqrs.; Comdr. Yenki and Kichang Guards; same of Pinkiang Guards; same 18th Reg. 1926; Gov. Tunghua Prov. 1938. Present post: Gov. Antung Prov. since Aug. 1939. Address: c/o Antung Prov. Office Antung. — p. 952
+
+**Ting Chien-hsiu** (丁鑑修) Businessman; b. 1886, Kaiping-hsien, Fengtien Prov. Career: grad. Waseda Univ. Tokyo; Chief Foreign Affairs Dept. Mil. Hdqrs. Three Eastern Prov.; Gov. Fengtien Prov., Chairman North Eastern Communications Committee 1931; visited Japan 1932; Communications Minister 1932-35; Ind. Min. 1935-37; accorded privilege of former post; Pres. Manchuria Elec. Co. Present post: Manchoukuo Privy Councillor since May 1940. Address: c/o Privy Council, Hsinking. — p. 952
+
+**Tinge, W. S. Y** (丁士源) General; b. 1976, Wu-hsien, Chekiang, China. Career: studied at Tientsin Nav. Sch. 1893-96; joined Imp. Army commanded by Marshal Baron Sun Chin 1891-1901; studied at Lincoln's Inn London 1901-04; returned to Peking 1904 and organized 4th & 6th div. with Marshal Ma Yu-kun and Tuan Chi-jui; Dept. Chief Imp. Army Council 1905-07; attended 2nd Hague Conf. as Chinese Imp. Military Del. 1907-08; Life Mem. Royal Geological Society, London 1907; Judge Advocate Gen. Imp. China Army & Navy 1907-11; Dir. Gen. Metro. Police & Gendarmerie Training Quarters 1908-11; Adjt. Gen. Imp. Army Hankow 1911-12; Supt. Customs Hankow 1912-16; Mng.-Dir. Peking-Suiyuan Ry. 1916-20; Mem. Defence Committee 1916-20; A.D.C. Personal to Pres. of China 1917-20; Mng.-Dir. King Sui Peking-Hankow Ry. 1918-20; Chief Aviation Dept. 1918-29; Military Mission to Siberia 1919-20; Dir. Gen. Lung-yen Iron Mining Co. 1916-20; Ed. Tientsin Daily News 1922-24; Vice-Chairman Finance Readjustment Commission 1924-27; Chairman Domestic Loan Service 1924-29; Dir. Sino-Franco Bk. and Exchange Bk. of China 1926-30; Manchoukuo Chief Executive's Personal Repr. in Eu. 1932-33; Manchoukuo Min. to Japan 1933-35. Publications: World Navy 1909; Notes & Comments to the Rules and Regulations of War on Land 1911, etc. Decerations; Chevalier Legation d'Honneur 1906; 5th Order of Merit, Republic of China 1920; 2nd Class Excellent Corps 1914; 2nd Class, Civil Tiger 1915; 2nd Class Presious Excellent Corps 1917; 2nd Order of Merit, Manchou Tikuo 1934; 2nd O.M. Japanese Empire; 2nd Order of S. Gregori Magni, Vaticana, 1936. Present post: Aud. Central Bk. of Manchou since 1935; Adv. Manchuria Ind. Development Corp. Dir. Japan-Manchoukuo Cultural Sty. Address: No. 17 Kyowa-gai 3-dan, Shikishima-ku, Mukden. — p. 952
+
+**Tomoeda, Takahiko** (友枝高彦) Educator; b. Nov. 4, 1876, Fukuoka-ken; s. Hayami Tomoeda. Career: grad. Litt. Coll. Tokyo Imp. Univ. 1901; went to Eng. 1904; Prof. 5th Higher Sch.; Asst. Prof. Kyoto Imp. Univ.; studied in Amer., Germany & Eng. 1910; Prof. Tokyo Higher Normal Sch. 1914, Tokyo Imp. Univ. 1916; represented Shintoist at Preliminary Meeting of World Religious Conf. Geneva, and stayed in Germany 1928; went to Eur. as Japanese Dir. of Japan Institute, Berlin 1934; went to Amer. 1935. Present post: Prof. Tokyo Univ. of Litt. & Sc.; Prof. Nippon Women's Univ.; Dir. Japanisch-Deutsches Kulturinstitut. Address: 24 Komagome Akebono-cho, Hongo-ku, Tokyo. — p. 952
+
+**Trapp, Fred** Businessman; b. May 1902 in Worms a/Rh. Germany; s. of Maxim Trapp, Berlin Journalist. Present post: Asst. Mgr. China Export, Import & Bank Co., Ltd. in Harbin. Address: (office) 31 Birjevaya Str., Harbin. — p. 952
+
+**Tsai Yun-sheng** (蔡運升) State Minister; b. 1879, Shuangcheng-hsien, Kirin Prov. Career: grad. Paoting Law Coll.; Chief Adm. Dept. Heilungkian Prov. 1915; Adv. State Council, Peiping 1917; Chief Finance Dept. Kirin Prov.; Pres. Kirin Prov. Bk.; Intendant of Circuit, Kichang-tao & Foreign Affairs Commr. Changchun 1918; Foreign Affairs Commr. Harbin, 1922; Chinese Repr. to Sino-Soviet Conf. 1929; Gov. Chientao Prov. 1934-36; Vice-Pres. Central Bk. of Manchou 1936-38; Dir.-Gen. Foreign Office. Present post: Minister of Econ. since 1940. Address: c/o Keizaibu, Hsinking. — p. 952
+
+**Tsang Erh-shou** (臧爾壽) Company Official; b. Feb. 1883, Shengyang-hsien, Fengtien Prov. Career: grad. Kirin Law Coll. 1908; Chief Procurator Kirin District Court, 1911; Magistrate, Changling-hsien (Kirin Prov.), Lishou-hsien, Ningan-hsien & Yenki-hsien (Fengtien Prov.), 1920-29; Chief, Kirin High Procurator's Office 1932-35. Pres. Tsitsihar High Procurator's Office 1935; Vice-Dir. Manchuria Flour Control Co. Present post: Dir. Nosan-Kosha since July 1941. Address: 4-chome Yoshino-cho, Hsinking. — p. 953
+
+**Tsang Shih-i** 臧式毅) b. 1884, Shenyang-hsien, Fengtien. Career: studied in Military Academy, Tokyo; Staff Officer, Military Gov.'s Office Heilungkiang 1920; ,Chief Staff, Military Gov.'s Office, and Acting Gov. Kirin 1923; Councillor, General's Office, Fengtien 1926; Councillor, Public Peace Hdqrs. Three Eastern Provs. 1928; Gov. Mukden Arsenal, 1927; Chairman Govt. Committee, Liaoning Prov. 1930; Gov. Fengtien Prov. 1931-34; Minister of Civil Affairs 1932-35. Present post: Pres. Manchoukuo Privy Council; Gov. Manchoukuo Red Cross Society. Address: Privy Council, Hsinking. — p. 953
+
+**Tsiao Chen-tsung** (曹承宗) Official; b. 1900 Lungkiang Prov. Career: grad. Keio Univ. 1923; served at Communi. Committee 3 Eastern Prov.; Dir. Industrial Bd. 1934; Dir. Land-register Adjustment Bureau, Jan. 1940. Present post: Dir. Land Admini. Gen. Bur. since Feb. 1940. Address: c/o Chisei Sokyoku, Hsinking. — p. 953
+
+**Tsudomi, Tsukuda** (都富 佃) Official; b. 1896 Tokyo. Career: grad. Polit. Dept. Tokyo Imp. Univ. 1924; entered Home Office; lectured at Tohoku Imp. Univ. & Tohoku Gakuin; Prof. Hosei & Nihon Univs. 1926; came to Manchoukuo 1933; Councillor Legislation Bur.; Dir. Police Affairs Bur. Lungkiang Prov. 1937; Mayor of Antung 1939-41. Present post: Prof. Kenkoku Univ. & Hsinking Law Coll. since July 1941. Address: c/o Kenkoku Univ. Hsinking. — p. 953
+
+**Tsuji, Minato** (辻湊) Businessman; Pres. Coal Liquefaction Research Institute. Address: Sekitan Ekika Kenkyusho, Boyeki-Kaikan, 40 Chiyoda-cho, Mukden, Manchoukuo. — p. 953
+
+**Tsuneyoshi, Hideo** (恒吉秀雄) Official; b. 1886 Miyazaki-ken. Career; Sub.-Lt. 1906; Col. 1918. Mgr. Student Section Mil. Acad.; Comdr. Nagoya Regimental District; waiting list 1921; Mgr. Tatung Coll. 1936; Inspector Gen. Affairs Bd. State-Council 1938; Chief Guidance Dept. of Manchoukuo Kyowakai since Apr. 1939. Address: c/o Kyowakai Hdqrs., Hsinking. — p. 953
+
+**Tsutsui, Yukiro** (筒井雪郎) Judge; b. Jan. 1885, Shizuoka-ken; s. of Toshichi Tsutsui; m. 1915. Career: grad. Chuo Univ.; entered judicial service 1915; Judge 1917; Judge Kumagai Divisional Office of Urawa Local Court; Judge, High Court of Kwantung Govt. 1921; Dept. Chief of same 1923-33; Judge and Chief of Kirin High Court 1933. Present post: Pres. & Prof. Shinkyo Hoset Univ. since 1938. Address: 403 Keiminro, Dojingai, Hsinking. — p. 953
+
+**Tung Chi-hsu** (佟濟煦) Official; b. 1884, Shanhuang. Career: grad. Fuchien Prov. Higher Sch.; Instructor, Amoy Middle Sch.; Peer's Law Coll.; Military Councillor; Staff of Gen. Staff; Chief Guards Corps of Chief Executive's Residence; Chief Imp. Guards, Manchoukuo Imp. Household Dept. Present post: Dir. of Bur. of Imp. Attendants. Address: Imp. Household Dept. Hsinking. — p. 953
+
+### U
+
+**Uchino, Masao** (内野正夫) Businessman; D.E.; b. Feb. 1892 Osaka City. Career: grad. Engrg. Coll. Tokyo Imp. Univ. 1915, recd. deg. 1929; joined Furukawa Gomei Kaisha 1917; became Chief Inorganic Chemical Dept. of Central Laboratory S.M.R. 1932; Head Aluminium Works same 1936. Address: 14 Matsuoka-cho 4-chome, Fushun. — p. 954
+
+**Uda, Hajime** (宇田 一) Educator; D. Apr.; b. Jan. 28, 1893, Fukushima-ken. Career: grad. Agr. Coll. Tokyo Imp. Univ. 1917; Prof. Miye Higher Agr. Sch. 1921; Principal Anjo Agr. & Forestry Sch. 1933. Present post: Pres. Fengtien Agr. Coll. and Prof. Kienkuo Univ. of Manchoukuo since 1935. Address: 12 Aoi-cho, Mukden. — p. 954
+
+**Uehara, Gun-ichiro** (上原群一郎) b. 1894 Tokyo. Career: grad. Applied Chemistry Course, Tokyo Imp. Univ. 1919; entered Manchoukuo Civil Service; Examiner Patents Bur.; Appeal Judge same. Engr. and Chief Invention Design Sec. 1936. Present post: Dir. Patents & Invention Bur. since 1940. Address: Dept. of Finance & Commerce, Hsinking, Manchoukuo. — p. 954
+
+**Uemura, Hidekazu** (植村秀一) M.D.; b. 1887 Aichi-ken. Career: grad. Aichi Medical Coll. 1910; elevated to Army Surgeon Lieut.-Colonel; served Fengtien Garrison, Osaka Army Hosp., Osaka Army Arsenal, Chief Sanitation Sec. Harbin Spec. Muni.; Pres. Harbin Med. Coll. 1940-41. Present post: Div. Sanitation Bur. People's Welfare Dept. since Aug. 1941. Address: c/o People's Welfare Dept., Hsinking. — p. 954
+
+**Umene, Tsunesaburo** (梅根常三郎) Businessman; Dr. Engrg.; b. Feb. 1884, Fukuoka-ken; s. Shunji Yasumoto; later adopted by Sen-ichiro Umene; m. Tsuruko, d. Takumi Seo, 1915. Career: grad. Engrg. Coll. Kyoto Imp. Univ. 1911; joined Govt. Steel Works; Chief, 1st Steel Mfg. Section, 1918; joined S.M.R. Co. 1919. Present post: Mng.-Dir. Showa Steel Works since 1941. Address: 3 Kamidai-machi, Anzan, Manchoukuo. — p. 954
+
+**Umetsu, Yoshijiro** (梅津美治郎) Gen.; b. 1882, Oita-ken; s. Beiho Umetsu. Career: grad. Military Acad. 1904; Comdr. Inf. 3rd Reg.; Chief 1st Sect. Gen. Staff Office; Instructor Military Staff Coll.; Chief Military Affairs Sect. Army Dept.; Comdr. Inf. 1st Brig.; Chief Gen. Affairs Dept. of Gen. Staff Office; Comdr. Japanese Garrison in China 1934-35; Comdr. 3rd Div.; Vice-Min. of Army 1936. Present post: Ambassador to Manchoukuo; Comdr. Kwantung Army since Sept. 1939. Address: Japanese Embassy, Hsinking. — p. 954
+
+**Uritani, Chozo** (瓜谷長造) Businessman; b. Dec. 5, 1881, Toyama-ken; s. Nagamitsu Araki. Career: joined Sakai-Riki & Co. at Kobe and engaged in import of grains and fertilizers; later succeeded to the house of Mr. Uritani, then head of the above firm; came to Dairen and expanded his business; Pres. Dairen Chamber of Com. & Ind. Present post: Dir. Dairen Oil & Fat Ind. Co.; Aud. Dairen Exchange Trust Co.; Prop. Uritani Chozo Shoten. Address: 137 Yamagatadori, Dairen. — p. 954
+
+**Usami, Kyoji** (宇佐美喬爾) Official; b. 1892 Gifu-ken. Career: grad. Law Coll. Tokyo Imp. Univ. 1910; served Mitsui Mining Co., Dairen, Ssupingkai Changchun Exchanges; entered S.M.R. 1926; Councillor & Vice-chief Chincheng Rys. Bur. 1936; Vice-Dir. Harbin Rys. Bur. Present post: Dir. Fengtien Rys. Bur. since 1940. Address: Mukden, Manchoukuo. — p. 954
+
+**Usui, Tomoharu** ([illegible]井友治) Official; b. 1902 Wakayama. Career: grad. Law Coll. Kyoto Imp. Univ. 1930; Police Inspector Karafuto Gov. 1932; Dir. Police Training Institute same yr.; resigned post and entered Manchoukuo Civil Service 1933; Sec. Chief Harbin Police Board; Sec. Chief Police Dept. Pingkiang Prov.; Chief Police Dept. Johol Prov. 1939. Present post: Mayor of Ssupingkai since 1941. Address: Muni. Office Ssupingkai. — p. 954
+
+**Uyeda, Kotaro** (植田貢太郎) Official; b. 1893, Kagawa-ken. Career: joined S.M.R. Co. 1918; Councillor same 1930; Supervisor Gen. Affairs Board Manchoukuo State Council 1932-38. Dir. Police Affairs Bur. Public Peace Dept. Manchoukuo Aug. 1938. Present post: vice-govr. Kirin Prov. since Dec. 1939. Address: Kirin Provincial Office, Kirin. — p. 955
+
+### W
+
+**Wagner, Wilhelm** Diplomat; Dr. Jur.; b. July 3, 1884, Wetterfeld, Hessen, Germany; s. Heinrich Wagner, clergyman; m. Elisabeth Richly. Career: grad. Grammar Sch.; Geneva, Giessen and Berlin univs. 1894-1903; Student Interpreter Leg. Peking 1908; Acting Cons. Swatow 1913; served in Great War 1914-16; Vice-Cons. Geneva 1918; Secr. Leg. Peking 1920; Acting Cons.-Gen. Canton 1921-23; Cons. Vladivostok 1923; Hongkong 1925; Counsellor Leg. China 1928-29; Cons.-Gen. Canton 1929-34; Cons.-Gen. at Kobe 1934-38. Present post: German Minister to Manchoukuo. Address: German Legation, Hsinking. — p. 955
+
+**Wang Chi-Tseng** (王濟衆) Lt.-General; b. Pehchen-hsien, Chinchow Prov. Career: grad. Fengtien Higher Military Education Research Corps; chief Arms Section of Defence Dept. 1932. Dir. Military Affairs Bur. 1935-1941. Present post: Comdr. 2nd Army Hdqrs. since Mar. 1941. Address: 2nd Army Hdqrs., Kirin. — p. 955
+
+**Wang Chi-yu** (王之佑) Lt.-Gen.; b. 1893, Hsincheng-hsien, Chinchow Prov. Career: grad. Fengtien Military Acad.; Chief Staff, 5th, 6th and 7th Brig. of Ankuo Army; Chief Polit. Affairs Bd. of Chahar; Dir. Peace Supt. Bur. of Kirin Prov.; Manchoukuo Govt. service since its establishment; Chief Military Inspection Div. of Defense Dept. 1934; Chief Staff Public Peace Dept.; Comdr. 8th Army. Present post: Comdr. 3rd Army since June 1940. Address: 3rd Army Hdqrs., Tsitsihar. — p. 955
+
+**Wang Ching-chang** (王慶璋) Official; b. 1894, Hsingching-hsien, Fengtien Province. Career: grad. Chem. Dept. Engrg. Coll. Tokyo Imperial Univ.; Chief, Foreign Affairs Dept.; Eastern Prov. Ry. Guards Hdqrs.; Chief, Powder-mill, Three Eastern Prov. Military Arsenal; Instructor, Mil. Engrg. Sch.; Councillor, Fengtien Prov. Office; Dir. Public Works Bureau, Civil Affairs Dept., Mayor of Mukden 1935-37; Dir. Constr. Bur. Dept. of Ind. Present post: Commercial Repr. of Manchoukuo in Shanghai. Address: c/o Dept. of Ind., Hsinking. — p. 955
+
+**Wang Fu-chun** (王富春) Banker; b. 1881, Tiehling-hsien, Fengtien Prov. Career: apptd. Chief Mgr. Three Eastern Prov. Bank; Sub-Mgr. Heilungkiang Prov. Bank; Mgr. Tsitsihar & Harbin Branches of present bank, 1934. Present post: Dir. Central Bank of Manchou since 1936. Address: c/o Central Bank of Manchou, Hsinking. — p. 955
+
+**Wang Men-lieng** (王夢齡) Official; b. Fengtien Prov. Career: grad. Fengtien Prov. Law Coll. 1916; Prosecutor, Tientsin Local Procurator's Office of Peking Justice Dept. 1921; President North Manchuria Spec. Dist. High Court 1932; Judge High Court 1937; Pres. Hsinking Local Court 1939. Present post: Dir. Criminal Affairs Bur. Address: c/o Justice Dept., Hsinking. — p. 955
+
+**Wang Peng-to** (王秉鐸) Official; b. 1901, Rushun. Career: grad. Rushun Normal Sch. 1920; Law Coll. Kyoto Imp .Univ.; entered Govt. service; Secretary Mukden Admin. Bd.; served Inspection Bd. 1932; Chief, Social Sect. People's Welfare. Present post: Chief Statistics Dept., Gen. Aff. Board since June 1941. Address: c/o Gen. Aff. Board, Hsinking. — p. 955
+
+**Wang Tien-chung** (王殿忠) General; b. 1882, Fengtien Prov. Career: Comdr. Cav. Corps Chihli Fed. Army 1928; Comdr. 1st Inf. Div. of same; Comdr. 1st Brig. Defence Army of Heilungkiang Prov. 1931; Comdr. Inf. 1st Brig. Fengtien Prov. upon foundation of Manchoukuo 1932; Comdr. Combined 3rd Brig. of Fengtien Defence Army 1933; Gen. since 1934; Comdr. 6th Army Dist.; Comdr. 1st Army Dist. Manchoukuo. Present post: War Councillor since Mar. 1941. Address: c/o Public Peace Dept., Hsinking. — p. 956
+
+**Wang Yun-hsiang** (王允卿) Official; b. 1890, Haicheng-hsien, Fengtien Prov. Career: grad. Meiji Univ. Tokyo; Chief Prison Sect. High Procurator's Office Shansi Prov.; Prof. Shansi Univ.; Procurator Tientsin Local Procurator's Office; Vice-Chairman Registration Investigation Commn. 1932; Dir. Prison Bureau Justice Dept. 1933-37; Dir. Civil Affairs and Educ. Bureau Fengtien Prov.; Dir Supervisory Bur. Home Office 1938; Councillor Gen. Affairs Bd. 1938-40. Governor Jehol Prov. since May 1940. Present post: Vice-Chief, General Affairs Board since 1941. Address: General Affairs Board, Hsinking Manchoukuo. — p. 956
+
+**Wei Huan-chang** (韋煥章) Official; b. 1892, Fengtien Prov. Career: grad. Liaoyang Normal Sch. 1911; Sect. Chief Educ. Dept. Fengtien Prov.; Dir. Fengtien Prov. Educ. Society; Chief Educ. Dept. Fengtien Prov. 1932-37; Mayor of Harbin fill 1938; Gov. Pinkiang Prov. 1938-40. Present post: Pres. Foreign Affairs Bureau since May 1940. Address: c/o Foreign Aff. Bur. Hsinking. — p. 956
+
+**Wei Tsung-lien** (魏宗蓮) Banker; b. 1885 in Tehchow, Shantung; s. Wei Naisiang, Govt. Official. Career: studied law at Tokyo Imp. Univ.; Magistrate, Kianghun-Tao, Ichang-Tao, 1921; Chief, Ki-Hei Salt Transportation Office after Mukden Incident, 1931; Chief, State Salt Transportation Office, 1934-37. Present post: Dir. Ind. Bk. of Manchou since 1937. Address: Manshu Kogyo Ginko, Hsinking. — p. 956
+
+**Wu Erh-chin** (烏爾金) Lieut.-Gen. b. 1891, Mongolia. Career: grad. Chita Municipal Univ., 1912; chief secr. Buriat Banner, 1926-27; chairman same, 1932; chief staff North Hsingang Defence Army Hdqrs., 1934; comdr. North Hsingan Army Hdqrs., 1935. Present post: comdr. 10th Army Hdqrs. since Mar., 1940. Address: 10th Army Hdqrs., Hailar. — p. 956
+
+**Wu Yuan-min** (吳元敏) Lt.-Gen.; b. 1886, Hupei Prov., China. Career: grad. Military Acad. Japan; Major-Gen. 1920; Chief Staff 13th Brig. of North-Eastern Army Hdqs. 1924; Manchoukuo Govt. service since the establishment; Chief Staff Kirin Defense Hdqrs. 1932; Comdr. Kirin Dist. Defence Army 1934; Chief Staff 2nd Army; Chief Staff Public Peace Dept. 1939. Present post: Comdr. 8th Army since June 1940. Address: c/o 8th Army Hdqrs. Tunghua. — p. 956
+
+### Y
+
+**Yamada, Mitsuru** (山田 満) Rear-Admiral; b. 1898 Kagoshima-ken. Career: grad. Nav. Acad. 1909; Nav. Staff Coll.; Captain H.M.S. “Isuzu”; Const. Inspector attached to Kure Nav. Station; Chief 3rd Dept. Prov. Materials Adjustment Bur. Present post: Naval Attache to Embassy Hsinking since 1941. Address: c/o Japanese Embassy Hsinking. — p. 956
+
+**Yamauchi, Seiji** (山口清治) M.D.; Career: grad. Manchuria Med. Coll. 1916; Chief Hsinking Spec. Muni. Hospital for many yrs. Present post: Dean Hsinking Med. Coll. since 1938. Address: Ika Daigaku, Hsinking. — p. 956
+
+**Yamamoto, Morimasa** (山本正盛) Businessman; b. June 1873, Kagoshima-ken; s. Morihide Yamamoto, banker. Career: grad. Engrg. Coll. Tokyo Imp. Univ. 1900; joined Kawasaki Dockyard Co.; apptd. Chief, Works Dept. 1909; Dir. 1920; Mng.-Dir. 1923-33; Pres. Manshu Arsenal 1934-40. Present post: Pres. Manchu Ind. Soc.; Adviser Manshu Arsenal. Address: 4 Asama-cho, Mukden. — p. 957
+
+**Yamanashi, Takeo** (山梨武夫) Official; b. 1902 Shizuoka-ken; s. Ainosuke. Career: grad. Litt. Coll. Tohoku Imp. Univ. 1926; Chief Revenue Office Yamagata; Chief Accounts & Salt Revenues Sec., Finance Dept. of Manchoukuo; Chief Gen. Aff. Sec., Gen. Monopoly Bur. Vice-Dir. Monopoly Bur.; Dir. Com. Bur., Dept. of Finance & Commerce, 1939. Present post: Councillor Embassy Tokyo since 1940. Address: Manchoukuo Embassy, Azabu, Tokyo. — p. 957
+
+**Yamaoka, Nobuo** (山岡信夫) Company Official; b. 1889 Osaka. Career: grad. Elec. Course Tokyo Imp. Univ. 1913; entered S.M.R.; served at Fushun Colliery; Dir. Yingkou Hydroelectric Co.; Mng.-Dir. South Manchuria Elec. Co.; Mng. Dir. Dir. Dairen Muni. Traffic Co. Present post: Pres. Dairen Muni. Traffic Co. Address: 10 of 317, Taizanton, Dairen. — p. 957
+
+**Yano, Yoshiaki** (矢野美章) Company official; b. 1880 Kagawa-ken. Career: grad. Mechanics Course Kyoto Imp. Univ. 1905; Enrg. Kawasaki Dockyard Co.; Chief Engr. and Mng.-Dir. Tobatta Foundry Iron Works; Audit. Hitachi Ltd.; Pres. Tokyo Automobile Mfg. Co. Present post: Pres. Manchou Aviation Co. since July 1941. Address: c/o Manshu Koku K.K., Mukden. — p. 957
+
+**Yen Chuan-fu** (閻傳紱) Official; b. 1896, Chinchowhsien. Career: grad. Toky Imp. Univ.; joined S.M.R. Co. 1926; Mem. Dairen Muni. Assembly 1928; Councillor Fengtien Prov Office 1931; Mayor of Mukden 1932-35; Gov. Pinkiang Prov. Present post: Gov. Kirin Prov. of Manchoukuo. Address: Governor's Residence, Kirin. — p. 957
+
+**Yin Tse-chan** (尹祚乾) Vice-Admiral; b. Dec. 1887, Chichiang-hsien, Hunan Prov. Career: grad. Tokyo Higher Mercantile Marine Sch. 1910, Navy Gunnery Sch. 1911; Capt. Gunboat “Litsi,” “Kiang-ping,” “Li Tsieh,” “Kiang Hsiang”; Acting Comdr. River Patrol Fleet 1929; Comdr. 1931; Vice-Admiral, Aug. 1935; Comdr. in-Chief Manchoukuo River Patrol Fleet. Present post: War Councillor since Mar. 1941. Address: c/o Public Peace Dept., Hsinking. — p. 957
+
+**Ying Chen-fu** (應振復) Lt.-Gen.; b. in Liaoyang, Fengtien Prov. Career: grad. Military Acad. Japan; Instructor Military Acad. of Three Eastern Prov.; Chief Staff 8th Div. 1920; joined 2nd Feng-Chih War as Comdr. of Artillery Corps of 8th Div. 1924; Comdr. 16th Brig. of North Eastern Army 1927; Comdr. 27th Div. 1928; Dir. Land Bur. Eastern Prov. Special Dist. 1931; Manchoukuo Govt. service since its establishment; Chief Infantry Dept. of Central Military Training Inst. 1932; Lt.-Gen. since 1934; Dir. Kirin Gendarmerie Training Inst.; Comdr. 5th Army Hdqrs. 1939-1940. Present post: Comdr. 4th Army Hdqrs. Address: 5th Army Hdqrs., Manchoukuo. — p. 957
+
+**Yokose, Umekichi** (横瀬花兄七) Company Official; b. 1892, Ibaraki-ken. Career: grad. Hokkaido Imp. Univ. agr. 1916; dir. Dairen Agr. Affairs Co.; Toa Kangyo (Far East Hypothec Co.) K.K.; joined S.M.R. Co.; engr. Hokkaido Govt.; chief Special Produ section Agriculture Bureau of Manchoukuo. Present post: Mng.- Dir. Manchuria Raw Cotton Corp. Address: Manshu Menka K.K., Koakai-kan, Mukden. — p. 957
+
+**Yokoyama, Ryuichi** (横山龍一) Official; b. 1903 Tottori-ken. Career: grad. Polit. Course, Tokyo Imp. Univ. 1927; Chief Nagasaki Taxation Bur.; Sec. Chief, Finance Dept. Kwantung Gov., entered Manchoukuo Civil Service 1938; Sec. Chief, Finance Bur.; Chief Banking Sec.; Lecturer Tatung Academy; Councillor General Aff. Bd. Present post: Dir. Banking Bur. since 1941. Address: Keizaibu, Hsinking, Manchoukuo. — p. 958
+
+**Yoneno, Toyomi** (米野豊實) Journalist; b. Feb. 22, 1892, Niigata-ken; s. Yasugoro Yoneno, Govt. Official. Career: Chief Editor Takata Nipposha; Vice-Chief Polit. Dept. Yamato Shimbun-sha; Chief Polit. Dept. Chuo Shimbun-sha; Sub-Editor Nippon Dempo Tsushin-sha; Mng.-Editor Manshu Nippo-sha; Non-official staff Overseas Dept.; re-entered Manshu Nippo-sha and apptd. Dir. and Mng.-Editor. Present post: Chief Editor, Manshu Nichi-Nichi & Pres. Dairen Nichi-Nichi. Address: 22 Heiwadai, Dairen. — p. 958
+
+**Yoshino, Shinji** (吉野信[illegible]) Mem. House of Peers; ex-State Minister; b. Sept. 1888, Miyagi-ken; s. Toshizo Yoshino. Career: grad. Law Coll. Tokyo Imp. Univ. 1913; entered Agr. & Com. Min.; transferred to Com. & Ind. Dept.; Chief Documents & Statistics Bureaux same; Dir. Ind. Bur. same 1928; Vice-Min. Com. & Ind.; Pres. Tohoku Kogyo K.K.; Minister of Com. & Ind. 1937-38. Present post: Pres. Manchuria Light Metal Mfg. Co.; Vice-Pres. Manchuria Ind. Development Corp.; Dir. Manchuria Automobile Mfg. Co. Present post: Adviser Manchuria Ind. Development Corp.; Financial Adviser to Manchoukuo Government since Feb. 1941. Address: c/o Manchuria Ind. Development Corp., Hsinking. — p. 958
+
+**Yoshioka, Yoshisaburo** (吉岡義三郎) Businessman; b. Mar. 13, 1889, Wakayama-ken; s. Matsunosuke Asai, merchant; later adopted by Ginji Yoshioka; m. Mitsue, niece Kenkichi Sakaeda. Career: grad. Law Coll. Tokyo Imperial Univ. 1917; joined Fujita-gumi and served at Kosaka Mines; entered Oriental Development Co., serving at its General Affairs Dept., Keijo and Moppo Branches; Asst.-Mgr. Keijo Branch; Mgr. Fusan Br.; Mgr. Shariin and Heijo Br.; besides served as Special Mem. of several local agr. assns. in Korea; Auditor, Totaku Mining Co. and Chosen Fertilizers Co., etc. Present post: Mng.-Dir. Totaku Tochi Tatemono Kaisha since 1934; Councillor, Oriental Development Co. Address: 64 Hanazono-cho, Dairen. — p. 958
+
+**Yu Chi-shan** (于芷山) Field-Marshal; Manchoukuo Military service; b. 1882, Fengtien Prov. Career: Comdr. Chang Tso-lin's Guards; Chief Aide-de-Camp same 1927; attached to Comdr.-in-Chief's Office North Eastern Frontier Army; Comdr. 1st Dist. Army Manchoukuo 1932-35; Defence Min. 1935-37; Min. of Public Peace 1937-39. Present post: Privy Councillor Manchoukuo since 1939. Address: Privy Council, Hsinking. — p. 958
+
+**Yu Chih-kung** (于治功) Lieut.-Gen.; b. 1895 Chinchow, Kwantung Prov. Career: grad. Paoting Mil. Sch.; Adv. Fengtien Prov. Govt. 1932; Chief Information Office Heilungkiang Prov. Garrison Hdqrs. 1933; Chief Staff 3rd Mil. Dist. 1934; elevated to Lieut.-Gen. 1941. Address: Tsitsihar. — p. 958
+
+**Yu Ching-tao** (于鏡濤) Official; b. 1896 Kirin Prov. Career: grad. Harbin Higher Sch.; Vice-Chief Ry. Guards Office of Eastern Prov. upon foundation of Manchoukuo 1932; Dir. Police Affairs Bd. of Harbin; Sup-Gen. Metro. Police Bd., Hsinking. Present post: Gov. Pinkiang Prov. since May 1940. Address: c/o Pinkiang Prov. Office, Harbin. — p. 958
+
+**Yu Ching-yuan** (于靜遠) State Minister; b. 1898, Liaoyanghsien, Fengtien Prov. Career: grad. Swiss Mil. Acad.; Prof. North Eastern Univ.; Staff Tungsheng Ry. Guards Hdqrs.; Councillor Tungshen Spec. Dist. Gov.'s Office; Chief Fengtien Self-Govt. Training Inst.; Chief Gen. Affairs Dept. Concordia Assn. 1932; Councillor Emb. Tokyo 1933-37; Chief Central Hdqrs. Manchoukuo Concordia Assn. 1937-38; Mayor of Hsinking and Chief Hdqrs. Manchoukuo Concordia Assn. 1938-40. Present post: Minister of Agr. since June 1940. Address: c/o Dept. for Agricultural Development, Hsinking. — p. 958
+
+**Yu Shen-chang** (于琛澂) State Minister; General; b. 1878 Kirin Prov. Career: Comdr. 10th Brig. Kirin 1922; Comdr. Bandit Suppression Army Kirin 1923; Comdr. 16th Div. 1925-26; Comdr. 4th Dist. Garrison 1934-35; 1st Dist. Garrison 1935-37; Gov. Sankiang Prov.; Comdr. 4th Dist. Army. Present post: Public Peace Min. since 1939. Address: c/o Pub. Peace Dept. Hsinking. — p. 959
+
+**Yuan Chen-tuo** (阮振鐸) Diplomat; b. 1893, Tiehlinghsien, Fengtien Prov. Career: grad. South Manchuria Med. Coll. 1919; studied in Kyoto Imp. Univ. 1921; Pres. Mukden Hospital 1923; Commr. Kirin-Changchun & Kirin-Tunhua Ry. Adm. Bureaux 1930; Adviser Fengtien Prov. Govt. 1931; Chief Secr. of same 1932; Dir. Capital Constr. Bureau 1932-35; Minister of Educ. 1935-37; Manchoukuo Ambassador to Tokyo. Present post: Minister Communications Dept. & Vice-Chief Central Hdqrs. Kyowakai since Jan. 1941. Address: Kotsu-bu, Hsinking, Manchoukuo. — p. 959
+
+**Yuan Chin-kai** (袁金鎧) Official; b. 1870, Liaoyang-hsien, Fengtien Prov. Career: Dir. Liaoyang General Police Bureau after Russo-Japanese War; Chief Secr. to Chang Tso-lin 1916; Heilungkiang Mil. Gov.'s Chief Secr. 1922; Vice-Pres. North Eastern Local Peace Assn. after Chang's death; Councillor, Commander-in-Chief, N.E. Frontier Defence Army 1929; Chairman, Local Peace Committee; Supreme Adviser, Fengtien Prov. 1931; Privy Councillor 1932-35. Present post: Manchoukuo Lord Keeper of Privy Seal. Address: Hsinking. — p. 959
+
+**Yuan Ching-lien** (袁慶濂) Official; b. 1894, Fengtien Prov. Career: grad. Shenyang Higher Normal Sch.; Chief, Light Office Changchun; Chief, Revenue Supt. Office, Harbin; Dir. Cadastre Adjustment Bur. Present post: Dir. Opium Suppression Gen. Bur. since July 1940. Address: c/o Opium Suppression Bureau, Hsinking. — p. 959
+
+**Yuan Yi-chih** (袁怡萈 Official; b. Jan. 1893. Career: grad. Mukden Normal Sch. 1915; Councillor Kirin Prov. Govt. 1929; Gov. Fu-yuan-hen 1930; Gov. Muleng-shen 1933; Gov. Ningan-shen 1936; Mayor of Chinchow 1939-41. Present post: Chief Ind. Dept. Ssuping Prov. since July 1941. Address: Ssuping Prov. Office, Ssuping City, Manchoukuo. — p. 959
+
+**Yuki, Seitaro** (結城清太郎) Official; b. Aug. 1, 1894, Yamagata-ken; s. Tomijiro Yuki. Career: grad. Law Coll. Tokyo Imp. Univ.; served S.M.R. Co.; Chief Gen. Affairs Bur., Manchoukuo Supervisory Council; same Capital Construction Bur.; Vice-Gov. Pinkiang Prov. Pres. Bd. of Development, Manchoukuo Ind. Dept. 1939; Vice-Min. of Ind. Dept. Vice-Min. of Dept. of Agr. Present post: Dir. Agricultural Produce Corp. since July 1941. Address: c/o Konobu, Hsinking. — p. 959
+
+**Yusa, Kohei** 遊佐幸平) Major-General; b. 1884, Miyagi-ken. Career: grad. Mil. Acad.; instructor Cavalry Sch.; dir. Kawakami and Sambongi Remount Offices: judging ctte. Olympiad held in Berlin, 1936; chief Mil. Horse Supply Dept. until Feb. 1938; placed on reserve, Mar. 1938. Present post: Chief Horse Administration Bureau, Dept. of Public Peace since Jan. 1939. Address: Dept. of Public Peace, Hsinking. — p. 959

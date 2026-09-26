@@ -1,6 +1,6 @@
 # The Japan Year Book 1939-40 — Who's Who & Directories
 
-50 entries, LLM-transcribed. These entries were transcribed by the vision model of Opus 5.5. Before using any of these details, you must verify specific details with the original source which is linked to whenever possible.
+140 entries, LLM-transcribed. These entries were transcribed by the vision model of Opus 5.5. Before using any of these details, you must verify specific details with the original source which is linked to whenever possible.
 
 
 ## List of Clubs, Societies, Associations, etc.
@@ -108,3 +108,189 @@
 **TOKYO HAN TAIHEIYO CLUB** (The Pan-Pacific Club of Tokyo). Established in 1923; Viscount Tadashiro Inouyé, president; membership 300. Promotion of friendship and goodwill among Pacific nations. Address: The House of Peers, Nagatacho, Kojimachi, Tokyo. — p. 1183 ([scan leaf 1239](https://archive.org/details/japan-year-book-1939-1940/page/n1239/mode/1up))
 
 **TOYO KYOKAI** (The Oriental Society). Established in 1898. Rentaro Mizuno, president; membership about 3,000. Address: The Osaka Building, Uchisaiwaicho 2-chomé, Kojimachi, Tokyo. — p. 1183 ([scan leaf 1239](https://archive.org/details/japan-year-book-1939-1940/page/n1239/mode/1up))
+
+### Legal
+
+**AIKOKU HOSO RENMEI** (The Patriotic Lawyers' Association). Established in 1932; Tomoyoshi Tsunoda, director. Address: The Taisho Building, 6 Yurakucho 1-chomé, Kojimachi, Tokyo. — p. 1184 ([scan leaf 1240](https://archive.org/details/japan-year-book-1939-1940/page/n1240/mode/1up))
+
+**HOSOKAI** (The Association of Legal Circles). Established in 1891; Torajiro Ikeda, president; membership 13,451. The purpose is to make study of laws in general and to improve the judicial procedure. Issues a journal. Address: 1 Kasumigaseki 1-chomé, Kojimachi, Tokyo. — p. 1184 ([scan leaf 1240](https://archive.org/details/japan-year-book-1939-1940/page/n1240/mode/1up))
+
+**JIYU HOSO DAN** (The Free-Legal Circles). Established in 1921; Kesaya Yamazaki, director; membership 50. The purpose is to safeguard the rights of lower class peoples by dint of their cooperative actions. Address: 19 Shinsakurada, Shiba, Tokyo. — p. 1184 ([scan leaf 1240](https://archive.org/details/japan-year-book-1939-1940/page/n1240/mode/1up))
+
+**NIPPON BENGOSHI KYOKAI** (The Japan Lawyers' Association). Established in 1897; 50 directors in charge of presidency; membership 2,500. The object is to facilitate cooperative work of lawyers. Publication, "Hoso Koron" (Legal Review). Address: 1 Kasumigaseki 1-chomé, Kojimachi, Tokyo. — p. 1184 ([scan leaf 1240](https://archive.org/details/japan-year-book-1939-1940/page/n1240/mode/1up))
+
+**TEIKOKU BENGOSHIKAI** (The Imperial Lawyers' Association). Established in 1925; Dr. Somei Uzawa, director; membership 1,000. Address: Nishi-Hibiya, Kojimachi, Tokyo. — p. 1184 ([scan leaf 1240](https://archive.org/details/japan-year-book-1939-1940/page/n1240/mode/1up))
+
+**TOKYO BENGOSHI KAI** (The Tokyo Lawyers' Association). Koitsu Sakuma, director. Address: 6 Yurakucho 1-chomé, Kojimachi, Tokyo. — p. 1184 ([scan leaf 1240](https://archive.org/details/japan-year-book-1939-1940/page/n1240/mode/1up))
+
+### Commercial, Industrial, and Agricultural
+
+**BOEKI SHOREI KAI** (The Trade Promotion Society). Established in 1927; Baron Takashi Masuda, president. Address: 1 Honcho 2-chomé, Nihonbashi, Tokyo. — p. 1184 ([scan leaf 1240](https://archive.org/details/japan-year-book-1939-1940/page/n1240/mode/1up))
+
+**CHUO CHIKUSAN KAI** (The Central Association of Animal Industry of Japan). Established in 1918; Shigemasa Sunada, director; membership 14,600. The object is to encourage the live-stock breeding in all Japan. Issues "Chikusan" (Live-stock Breeding). Address: Sankaido, 1 Tameiké, Akasaka, Tokyo. — p. 1184 ([scan leaf 1240](https://archive.org/details/japan-year-book-1939-1940/page/n1240/mode/1up))
+
+**DAINIPPON BEIKOKU KAI** (The Japan Rice Association). Established in 1907; Baron Yoshiro Sakatani, president; membership 10,000. Issues "Beikoku" (Rice). Address: 30 Sagacho 1-chomé, Fukagawa, Tokyo. — p. 1184 ([scan leaf 1240](https://archive.org/details/japan-year-book-1939-1940/page/n1240/mode/1up))
+
+**DAINIPPON BOSEKI RENGOKAI** (The Japan Cotton Spinners' Association) Established in 1882; Otokichi Shōji, president; membership 80 companies. Publishes reports. Address: Mengyo-kaikan, Bingomachi 3-chomé, Higashiku, Osaka. — p. 1184 ([scan leaf 1240](https://archive.org/details/japan-year-book-1939-1940/page/n1240/mode/1up))
+
+**DAINIPPON EIGA KYOKAI** (The Japan Cinematographic Association). Established in 1935; Baron Tatsuo Yamamoto, president. The purpose is to develop the cinema production industry in Japan. Issues "Nippon Eiga" (Japanese Cinema). Address: The Toyo Building, Uchisaiwaicho 1-chomé, Kojimachi, Tokyo. — p. 1184 ([scan leaf 1240](https://archive.org/details/japan-year-book-1939-1940/page/n1240/mode/1up))
+
+**DAINIPPON ORIMONO KYOKAI** (The Japan Textile Association). Established in 1885; Count Kentaro Kaneko, president; mebership 1,500. The Association aims at the progress of dyeing and textile industry. Issues "Senshoku Jiho" (Journal of the Japan Textile Association). Address: The Chiyoda-Shoken Building, 2 Kyobashi 1-chomé, Kyobashi, Tokyo. — p. 1184 ([scan leaf 1240](https://archive.org/details/japan-year-book-1939-1940/page/n1240/mode/1up))
+
+**DAINIPPON RENGO KASAI HOKEN KYOKAI** (The Joint Fire Insurance Association of Japan). Seiichi Shinjo, director; membership 70 companies. Address: 6 Marunouchi 1-chomé, Kojimachi, Tokyo. — p. 1184 ([scan leaf 1240](https://archive.org/details/japan-year-book-1939-1940/page/n1240/mode/1up))
+
+**DAINIPPON SANRIN KAI** (The Japan Forestry Association). Established in 1882; Shingoro Sato, president; membership 4,500. The object is to improve forestry enterprises in Japan. Publishes "San Rin" (Forestry). Address: Sankaido, Tameiké, Akasaka, Tokyo. — p. 1184 ([scan leaf 1240](https://archive.org/details/japan-year-book-1939-1940/page/n1240/mode/1up))
+
+**DAINIPPON SANSHI KAI** (The Japan Sericultural Association). Established in 1892; Count Yorinaga Matsudaira, president; membership 301,000. The object is to improve silk industry in Japan. Issues "Sanshi Kaiho" (Silk World Review). Address: 7 Yurakucho 1-chomé, Kojimachi, Tokyo. — p. 1184 ([scan leaf 1240](https://archive.org/details/japan-year-book-1939-1940/page/n1240/mode/1up))
+
+**DAINIPPON SUISAN KAI** (The Japan Marine Products Association). Established in 1882; Yonematsu Mitsui, president; membership 5,000. Publishes "Suisan Kai" (Marine World). Address: Sankaido, Tameiké, Akasaka, Tokyo. — p. 1184 ([scan leaf 1240](https://archive.org/details/japan-year-book-1939-1940/page/n1240/mode/1up))
+
+**DAINIPPON YOGYO KYOKAI** (The Japanese Ceramic Association). Established in 1891; Seitaro Yamada, director; membership 2,000. The object is to improve ceramic industry in Japan. Publishes a journal. Address: 5 Nishi Ginza 4-chomé, Kyobashi, Tokyo. — p. 1184 ([scan leaf 1240](https://archive.org/details/japan-year-book-1939-1940/page/n1240/mode/1up))
+
+**DENKI FUKYU KAI** (The Electrical Development Association). Established in 1924; Count Keigo Kiyoura, president; membership 7,000. The purpose is to spread electric knowledge among the people. Publications, "Denki Chishiki" (Electric Knowledge). Address: 3 Yurakucho 1-chomé, Kojimachi, Tokyo. — p. 1184 ([scan leaf 1240](https://archive.org/details/japan-year-book-1939-1940/page/n1240/mode/1up))
+
+**DENKI KYOKAI** (The Japan Electric Association). Established in 1921; Jiro Masuda, president; membership 3,017. The Association aims at the progress of electrical enterprises in Japan. Publishes a magazine. Address: 3 Yurakucho 1-chomé, Kojimachi, Tokyo. — p. 1185 ([scan leaf 1241](https://archive.org/details/japan-year-book-1939-1940/page/n1241/mode/1up))
+
+**FUMIN KYOKAI** Established in 1927; Shingoro Takaishi, president. The object is to improve agricultural methods and encourage farming. Publishes "Fumin" (People's Welfare). Address: 964 Hagoromo, Takashi, in the suburbs of Osaka City. — p. 1185 ([scan leaf 1241](https://archive.org/details/japan-year-book-1939-1940/page/n1241/mode/1up))
+
+**JIYU TSUSHO KYOKAI** (The Free-Trade Association). Tetsujiro Shidachi, director. The purpose is to advocate free trade. Address: 7 Nishi Ginza, Kyobashi, Tokyo. — p. 1185 ([scan leaf 1241](https://archive.org/details/japan-year-book-1939-1940/page/n1241/mode/1up))
+
+**KAGAKU KOGYO KYOKAI** (The Chemical Industry Association). Established in 1917; Morio Nakamatsu, president; membership 780. Publishes a magazine, "Kagaku Kogyo" (Chemical Industry). Address: 2 Marunouchi, Tokyo. — p. 1185 ([scan leaf 1241](https://archive.org/details/japan-year-book-1939-1940/page/n1241/mode/1up))
+
+**KANTO SANGYO DANTAI RENGOKAI** (The National Confederation of Industrial Association of Japan). Established in 1931; Ginjiro Fujiwara, president; membership 39 associations. Address: Nippon Kogyo Club, Marunouchi, Tokyo. — p. 1185 ([scan leaf 1241](https://archive.org/details/japan-year-book-1939-1940/page/n1241/mode/1up))
+
+**KASAI HOKEN CLUB** (The Fire Insurance Club). Established in 1930; Takashi Isaka, director; membership 750. Address: The Kaijyo Building, Marunouchi 1-chomé, Kojimachi, Tokyo. — p. 1185 ([scan leaf 1241](https://archive.org/details/japan-year-book-1939-1940/page/n1241/mode/1up))
+
+**KOWAN KYOKAI** (The Port Problems Research Association). Established in 1922; Rentaro Mizuno, director; membership 5,000. Address: Care of Naimusho-Doboku-Kyoku, Kojimachi, Tokyo. — p. 1185 ([scan leaf 1241](https://archive.org/details/japan-year-book-1939-1940/page/n1241/mode/1up))
+
+**KOZAN KONWAKAI** (The Minerals Traders' Club). Ryuzo Tanaka, director. Address: Nippon Kogyo Club, Kojimachi, Tokyo. — p. 1185 ([scan leaf 1241](https://archive.org/details/japan-year-book-1939-1940/page/n1241/mode/1up))
+
+**NANYO BOEKI SHINKOKAI** (The Society for the Promotion of South Seas' Trade). Established in 1927; Kamekichi Yamazaki, director; membership 35. Address: The Tokyo Shokoshoreikan, Marunouchi, Tokyo. — p. 1185 ([scan leaf 1241](https://archive.org/details/japan-year-book-1939-1940/page/n1241/mode/1up))
+
+**NIKKA JITSUGYO KYOKAI** (The Japan-Chinese Businessmen's Association). Established in 1920; Kenji Kodama, president; membership 200. Address: 3 Marunouchi 7-chomé, Kojimachi, Tokyo. — p. 1185 ([scan leaf 1241](https://archive.org/details/japan-year-book-1939-1940/page/n1241/mode/1up))
+
+**NIPPON BOEKI KYOKAI** (The Foreign Trade Association of Japan). Established in 1885; Baron Ichizaemon Morimura, president; membership 515. Publication, "Boeki" (Foreign Trade). Address: 3 Nishi-Ginza 7-chomé, Kyobashi, Tokyo. — p. 1185 ([scan leaf 1241](https://archive.org/details/japan-year-book-1939-1940/page/n1241/mode/1up))
+
+**NIPPON CHUO SANSHIKAI** (The Japan Central Sericultural Society). Established in 1932; Count Yorinaga Matsudaira, president; membership 8 organizations. Address: 7 Yurakucho 1-chomé, Kojimachi, Tokyo. — p. 1185 ([scan leaf 1241](https://archive.org/details/japan-year-book-1939-1940/page/n1241/mode/1up))
+
+**NIPPON DORYOKO KYOKAI** (The Japan Metrological Society). Established in 1911; Eitaro Okamoto, president; membership 15,000. The purpose is to unify weights and measures available in Japan. Issues "Keiryokai" (Weights and Measures). Address: 17 Nishikubo-Meisencho, Shiba, Tokyo . — p. 1185 ([scan leaf 1241](https://archive.org/details/japan-year-book-1939-1940/page/n1241/mode/1up))
+
+**NIPPON JINKEN RENGOKAI** (The Japan Rayon Industry Association). Established in 1927; Asahiko Karashima, president; Address: The Daini Nomura Building, Bingocho 2-chomé, Higashiku, Osaka. — p. 1185 ([scan leaf 1241](https://archive.org/details/japan-year-book-1939-1940/page/n1241/mode/1up))
+
+**NIPPON KANZUME KYOKAI** (The Canned Foods Association of Japan). Established in 1927; Yonematsu Mitsui, president; membership 1,300. The purpose is to improve the canned foods industry in Japan. Issues reports. Address: The Marunouchi Building, Marunouchi, Kojimachi, Tokyo. — p. 1185 ([scan leaf 1241](https://archive.org/details/japan-year-book-1939-1940/page/n1241/mode/1up))
+
+**NIPPON KEIZAI RENMEIKAI** (The Japan Economic Federation). Established in 1922; Baron Seinosuké Go, president. For the study of economic problems and exchange of economic knowledge. Issues "Keizai Renmei" (Economic Federation). Address: Kogyo Club, Marunouchi, Tokyo. — p. 1185 ([scan leaf 1241](https://archive.org/details/japan-year-book-1939-1940/page/n1241/mode/1up))
+
+**NIPPON KENCHIKU KYOKAI** (The Japan Architecture Association). Established in 1917; Dr. Yasushi Kataoka, president; membership 1,985. Issues "Kenchiku to Shakai" (Architecture and Society). Address: The Asahi Building, Nakanoshima, Kitaku, Osaka. — p. 1185 ([scan leaf 1241](https://archive.org/details/japan-year-book-1939-1940/page/n1241/mode/1up))
+
+**NIPPON KOGYO KAI** (The Mining Institute of Japan). Established in 1885; Kiyoshi Imai, president; membership 3,300. Publishes "Journal of the Mining Institute of Japan". Address: 7 Nishi-Ginza 8-chomé, Kyobashi, Tokyo. — p. 1185 ([scan leaf 1241](https://archive.org/details/japan-year-book-1939-1940/page/n1241/mode/1up))
+
+**NIPPON KOZAN KYOKAI** (The Japan Mineral Industry Association). Established in 1927; Chokuyo Murase, president; membership 500. Issues reports. Address: Kobikicho 7-chomé, Kyobashi, Tokyo. — p. 1185 ([scan leaf 1241](https://archive.org/details/japan-year-book-1939-1940/page/n1241/mode/1up))
+
+**NIPPON MENGYO CLUB** (The Japanese Cotton Producers' Club). Established in 1928; Otokichi Shōji, president; membership 1,855. For the progress of cotton industry in Japan. Issues a monthly report. Address: 8 Bugomachi 3-chomé, Higashi-ku, Osaka. — p. 1185 ([scan leaf 1241](https://archive.org/details/japan-year-book-1939-1940/page/n1241/mode/1up))
+
+**NIPPON MENKA DOGYO KAI** (The Japan Cotton Merchants' Union). Established in 1898; Saburo Nango, president; membership 106. Issues reports. Address: Mengyokaikan, Bungomachi, Higashiku, Osaka. — p. 1185 ([scan leaf 1241](https://archive.org/details/japan-year-book-1939-1940/page/n1241/mode/1up))
+
+**NIPPON MEN-ORIMONO KOGYO KUMIAI** (The Nippon Union of Cotton Textile Manufacturers' Association). Established in 1928; President, vacant; membership 136 organizations. The Association aims at (1) inspection and regulation of cotton textile (2) improvement of quality and expansion of market. Issues "Men Koren" (Union of Cotton Textile Manufacturers' Association). Address: 10 Kyobashi 1-chomé, Kyobashi, Tokyo. — p. 1186 ([scan leaf 1242](https://archive.org/details/japan-year-book-1939-1940/page/n1242/mode/1up))
+
+**NIPPON SANGYO KYOKAI** (The Japan Industrial Association). Established in 1921; Count Sanji Kuroki, president; membership 600. The purpose is to inquire into various industrial subjects. Publication, "Sangyo" (Industry). Address: 1 Uchisaiwaicho 1-chomé, Kojimachi, Tokyo. — p. 1186 ([scan leaf 1242](https://archive.org/details/japan-year-book-1939-1940/page/n1242/mode/1up))
+
+**NIPPON SEISHI RENGOKAI** (The Association of Japanese Paper Mills). Established in 1880; President, vacant; membership 56 organizations. The object is the investigation and promotion of paper manufacturing industry in Japan. Publishes a magazine. Address: 10 Marunouchi 2-chomé, Tokyo. — p. 1186 ([scan leaf 1242](https://archive.org/details/japan-year-book-1939-1940/page/n1242/mode/1up))
+
+**NIPPON SENSHU KYOKAI** (The Nippon Ship-Owner's Association). Established in 1894; Shozo Murata, president; membership 142. Issues a monthly report. Address: 32 Akashimachi, Kobé-ku, Kobé. — p. 1186 ([scan leaf 1242](https://archive.org/details/japan-year-book-1939-1940/page/n1242/mode/1up))
+
+**NIPPON SHIKKO KAI** (The Japan Lacquer Ware Industry Association). Established in 18[illegible]0; Naohiko Masaki, president; membership 800. Issues "Urushi to Kogei" (Lacquer and Industrial Arts). Address: Kajicho 2-chomé, Kanda, Tokyo. — p. 1186 ([scan leaf 1242](https://archive.org/details/japan-year-book-1939-1940/page/n1242/mode/1up))
+
+**NIPPON SŌKO KYOKAI** (The Japan Warehousing Association). Established in 1932. Sinzo Mitsuhashi, president; membership, 182 companies. The object is the development of warehousing enterprises in Japan. Publishes a monthly report. Address: The Mitsubishi Soko Building, 1 Edobashi 1-chomé, Nihonbashi, Tokyo. — p. 1186 ([scan leaf 1242](https://archive.org/details/japan-year-book-1939-1940/page/n1242/mode/1up))
+
+**NIPPON TEKKO KYOKAI** (The Iron and Steel Institute of Japan). Established in 1915. Daikichi Saito, president; membership 3,200. The object is make a scientific study of iron and steel as well as of working-up techniques of manufacturing. Issues reports. Address: 10 Marunouchi 2-chomé, Kojimachi, Tokyo. — p. 1186 ([scan leaf 1242](https://archive.org/details/japan-year-book-1939-1940/page/n1242/mode/1up))
+
+**NIPPON TŌGYO RENGOKAI** (The Japan Sugar Producers' Association). Established in 1909; Aiichiro Fujiyama, president; membership 11 organizations. For the promotion of common interest of the members. Address: The Kogyo Club, 2 Marunouchi 1-chomé, Kojimachi, Tokyo. — p. 1186 ([scan leaf 1242](https://archive.org/details/japan-year-book-1939-1940/page/n1242/mode/1up))
+
+**NIPPON YOMO KOGYOKAI** (The Japan Wool Industry Association). Established in 1920; Seibei Kawanishi, director; membership 58 companies. Address: The Marunouchi Building, Marunouchi, Tokyo. — p. 1186 ([scan leaf 1242](https://archive.org/details/japan-year-book-1939-1940/page/n1242/mode/1up))
+
+**NOJI DENKA KYOKAI** (The Association for the Electrification of Agriculture). Established in 1923; Tozaburo Tsukita, president; membership 1,000. Issues "Noji Denka" (Electrification of Agriculture). Address: 3 Yurakucho 1-chomé, Kojimachi, Tokyo. — p. 1186 ([scan leaf 1242](https://archive.org/details/japan-year-book-1939-1940/page/n1242/mode/1up))
+
+**OSAKA BOEKI KYOKAI** (The Osaka Foreign Trade Association). Established in 1914. Yakichi Ataka, president; membership 63 companies. For the progress of the foreign trade of Osaka. Address: the Osaka Chamber of Commerce and Industry, Dōjima-Hamadōri 2-chomé, Kitaku, Osaka. — p. 1186 ([scan leaf 1242](https://archive.org/details/japan-year-book-1939-1940/page/n1242/mode/1up))
+
+**OSAKA JITSUGYO KUMIAI RENGOKAI** (The Federation of the Osaka Commercial Societies). Heibei Mori, director. Address: Jitsugyokaikan, Higashiku, Osaka. — p. 1186 ([scan leaf 1242](https://archive.org/details/japan-year-book-1939-1940/page/n1242/mode/1up))
+
+**OSAKA KASHO SHOKAI** (The Chinese Merchants' Association of Osaka). Masuzo Cho, director. Address: 211 Nibancho, Honda, Nishiku, Osaka. — p. 1186 ([scan leaf 1242](https://archive.org/details/japan-year-book-1939-1940/page/n1242/mode/1up))
+
+**OSAKA KOGYO KAI** (The Osaka Industrial Society). Established in 1914; Yasushi Kataoka, director; membership 800. For the inspection of several industrial problems and for the progress of industry in Japan. Publishes monthly "Kōgyo" (Industry). Address: The Daidō Building, Tosabori 1-chomé, Nishiku, Osaka. — p. 1186 ([scan leaf 1242](https://archive.org/details/japan-year-book-1939-1940/page/n1242/mode/1up))
+
+**OSAKA SANGYO CHOSAKAI** (The Osaka Industrial Research Society). Eiji Yasui, director. Address: The Osaka Prefectural Office, Osaka. — p. 1186 ([scan leaf 1242](https://archive.org/details/japan-year-book-1939-1940/page/n1242/mode/1up))
+
+**OSAKA YUSHUTSU KYOKAI** (The Exporters' Association of Osaka). Muneji Sakama, president, membership 58. For the progress of Japan's foreign trade. Address: Osaka Municipal Office, Kitaku, Osaka. — p. 1186 ([scan leaf 1242](https://archive.org/details/japan-year-book-1939-1940/page/n1242/mode/1up))
+
+**RORYO SUISAN KUMIAI** (The Russian Waters Fishery Association). Established in 1908; Sukehidé Kabayama, president; membership 26. Address: The Marunouchi Building, Marunouchi, Tokyo. — p. 1186 ([scan leaf 1242](https://archive.org/details/japan-year-book-1939-1940/page/n1242/mode/1up))
+
+**SANGYO CHOSA KYOKAI** (The Industrial Research Society). Established in 1930; Usaburo Yanagitani, president; membership 26 organizations. The Association aims to investigate the business condition and management. Address: The Kaijo Building, Marunouchi, Tokyo. — p. 1186 ([scan leaf 1242](https://archive.org/details/japan-year-book-1939-1940/page/n1242/mode/1up))
+
+**SANGYO FUKURI KYOKAI** (The Industrial Welfare Association). Established in 1929; membership 900. Publishes "Sangyo Fukuri" (Industrial Welfare). Address: The Social Bureau, Department of Home Affairs, Kojimachi, Tokyo. — p. 1187 ([scan leaf 1243](https://archive.org/details/japan-year-book-1939-1940/page/n1243/mode/1up))
+
+**SANGYO KUMIAI CHUŌ KINKO** (The Central Bank of Co-operative Societies). Established in 1923; Tadaatsu Ishiguro, director; membership 13,414. To make loans and receive deposits of co-operative societies and fishermen's societies. Publishes "Kumiai Kinyu" (Finance of Co-operative Societies). Address: 9 Yurakucho 1-chomé, Kojimachi, Tokyo. — p. 1187 ([scan leaf 1243](https://archive.org/details/japan-year-book-1939-1940/page/n1243/mode/1up))
+
+**SEIMEI HOKEN KAISHA KYOKAI** (The Life Insurance Companies Association). Established in 1908; Tatsu Naruse, chairman of directors; membership 30 companies. For the progress of Life Insurance in Japan. Publishes a report. Address: 4 Marunouchi 3-chomé, Kojimachi, Tokyo. — p. 1187 ([scan leaf 1243](https://archive.org/details/japan-year-book-1939-1940/page/n1243/mode/1up))
+
+**SEKITAN KOGYO RENGOKAI** (The Coal Mine Owner's Association). Established in 1921; Kenjiro Matsumoto, president; membership 61. Issues "Sekitan Jiho" (Coal Miner's Times). Address: care of the Nihon Kogyo Club, Marunouchi 1-chomé, Tokyo. — p. 1187 ([scan leaf 1243](https://archive.org/details/japan-year-book-1939-1940/page/n1243/mode/1up))
+
+**TEIKOKU BAHITSU KYOKAI** (The Imperial Horse-breeding Association). Established in 1926; Count Yorinaga Matsudaira, president; membership 353. Address: The Toyo Building, Uchiyamashitacho, Kojimachi, Tokyo. — p. 1187 ([scan leaf 1243](https://archive.org/details/japan-year-book-1939-1940/page/n1243/mode/1up))
+
+**TEIKOKU GAS KYOKAI** (The Imperial Gas-Work Society). Established in 1912; Sadamatsu Ozoné, president; membership 800. For the progress of gas work in Japan. Publishes a report. Address: 2 Marunouchi 2-chomé, Kojimachi, Tokyo. — p. 1187 ([scan leaf 1243](https://archive.org/details/japan-year-book-1939-1940/page/n1243/mode/1up))
+
+**TEIKOKU JIDOSHA KYOKAI** (The Imperial Automobile Association). Established in 1931; Baron Yoshiro Sakatani, president; membership 100. For the progress of the automobile enterprise in Japan. Address: The Yusen Building, Marunouchi, Kojimachi, Tokyo. — p. 1187 ([scan leaf 1243](https://archive.org/details/japan-year-book-1939-1940/page/n1243/mode/1up))
+
+**TEIKOKU KAIJI KYOKAI** (The Imperial Marine Affairs Association). Established in 1936; Hanpei Fujishima, director. Issues a ship directory. Address: The Kaijo Building, Marunouchi, Kojimachi, Tokyo. — p. 1187 ([scan leaf 1243](https://archive.org/details/japan-year-book-1939-1940/page/n1243/mode/1up))
+
+**TEIKOKU NOKAI** (The Imperial Agricultural Association). Established in 1910; Count Tadamasa Sakai, president; membership 47 agricultural organizations. The object is to encourage agricultural pursuits. Issues a report. Address: 1 Marunouchi 3-chomé, Kojimachi, Tokyo. — p. 1187 ([scan leaf 1243](https://archive.org/details/japan-year-book-1939-1940/page/n1243/mode/1up))
+
+**TEIKOKU SHINRINKAI** (The Imperial Forestry Association). Established in 1919; Dr. Seiroku Honda, president; membership 134. Address: 1 Tameiké, Akasaka, Tokyo. — p. 1187 ([scan leaf 1243](https://archive.org/details/japan-year-book-1939-1940/page/n1243/mode/1up))
+
+**TEIKOKU SUISAN KAI** (The Imperial Aquatic Institute). Established in 1922; Viscount Masuzo Nomura, president; membership 42 organizations. Issues "Teisui" (Imperial Fishery). Address: The Sankaido, Tameiké, Akasaka, Tokyo. — p. 1187 ([scan leaf 1243](https://archive.org/details/japan-year-book-1939-1940/page/n1243/mode/1up))
+
+**TEIKOKU TETSUDO KYOKAI** (The Imperial Railway Association). Established in 1898; Viscount Tadashiro Inouyé, president; membership 2,600. For the improvement of the land transportation of Japan. Publishes "Han Kōtsū" (Transportation). Address: 4 Marunouchi 3-chomé, Kojimachi, Tokyo. — p. 1187 ([scan leaf 1243](https://archive.org/details/japan-year-book-1939-1940/page/n1243/mode/1up))
+
+**TETSUDO DOSHIKAI** (The Railway Men's Association). Established in 1913; Kaichiro Nezu, president; membership 300 companies. For the improvement of railways in Japan. Issues reports. Address: 4 Marunouchi 3-chomé, Kojimachi, Tokyo. — p. 1187 ([scan leaf 1243](https://archive.org/details/japan-year-book-1939-1940/page/n1243/mode/1up))
+
+**TOA KEIZAI CHOSA KYOKU** (The East-Asiatic Economic Investigation Bureau). Established in 1929. Yoshiaki Hatta, president. For the economic investigation of East Asia. Issues "Tōa" (East Asia) and "Manchurian Year Book". Address: The Toyo Building, 1 Uchisaiwaicho, Kojimachi, Tokyo. — p. 1187 ([scan leaf 1243](https://archive.org/details/japan-year-book-1939-1940/page/n1243/mode/1up))
+
+**TOKO KAI** (The Light House Keepers' Association). Established in 1924; Teiichi Yamané, president; membership 533. Publishes "Toko" (Light). Address: Care of the Bureau of Light House, 64 Kita Nakadori 6-chomé, Nakaku, Yokohama. — p. 1187 ([scan leaf 1243](https://archive.org/details/japan-year-book-1939-1940/page/n1243/mode/1up))
+
+**TOKYO-FU SHOTENKAI RENMEI** (The League of Tokyo Merchants). Established in 1931; Seikan Watari, president; membership 500 organizations. For the improvement of retailers' business. Address: Care of the Bureau of Commerce and Industry, Tokyo Prefectural Office, Tokyo. — p. 1187 ([scan leaf 1243](https://archive.org/details/japan-year-book-1939-1940/page/n1243/mode/1up))
+
+**TOKYO GINKO CLUB** (The Tokyo Bankers' Club). Established in 1899; Junshiro Mandai, director; membership 570. The purpose is to exchange banking knowledge among members. Address: 8 Marunouchi, Kojimachi, Tokyo. — p. 1187 ([scan leaf 1243](https://archive.org/details/japan-year-book-1939-1940/page/n1243/mode/1up))
+
+**TOKYO JITSUGYO KUMIAI RENGOKAI** (The Federation of Tokyo Businessmen's Societies). Seki Hoshino, director. Address: 2 Honcho 1-chomé, Nihonbashi, Tokyo. — p. 1187 ([scan leaf 1243](https://archive.org/details/japan-year-book-1939-1940/page/n1243/mode/1up))
+
+**TOKYO KOJO KONWAKAI** (The Friendly Association of Factories in Tokyo). Established in 1920; the Governor of Tokyo-Fu, president; membership 200. Address: Care of the Bureau of Commerce and Industry of the Tokyo Prefectural Office. — p. 1188 ([scan leaf 1244](https://archive.org/details/japan-year-book-1939-1940/page/n1244/mode/1up))
+
+**TOKYO KOJO KYOKAI** (The Tokyo Factory Association). Established in 1930; The Superintendent General of the Metropolitan Police is in charge of presidency. Membership 14,000. The object is to improve factory administration. Publication, "Kōjō Jiho" (Factory Times). Address: care of the Bureau of Factories of the Metropolitan Police Office, Kojimachi, Tokyo. — p. 1188 ([scan leaf 1244](https://archive.org/details/japan-year-book-1939-1940/page/n1244/mode/1up))
+
+**YOKOHAMA BOEKI KYOKAI** (The Foreign Trade Association of Yokohama). Established in 1905; Nobuhiro Joko, president; membership 205 houses. The object is to promote foreign trade. Publishes monthly "Kōeki" (Trade). Address: 1 Kaigandori 1-chomé, Nakaku, Yokohama. — p. 1188 ([scan leaf 1244](https://archive.org/details/japan-year-book-1939-1940/page/n1244/mode/1up))
+
+**ZENKOKU BEIKOKU HAMBAI KOBAI KUMIAI RENGOKAI** (The All-Japan Federation of Sale and Purchase Association of Rice). Established in 1931; Yoshio Udo, president; membership 51 organizations. Issues a daily paper. Address: Care of the Central Board of the Federation of Industrial Associations, 21 Agebacho, Ushigomé, Tokyo. — p. 1188 ([scan leaf 1244](https://archive.org/details/japan-year-book-1939-1940/page/n1244/mode/1up))
+
+**ZENKOKU CHOCHIKU GINKO KYOKAI** (The Savings Banks' Association of Japan). Established in 1931; Viscount Keizo Shibusawa, executive director; membership 72 banks. For the promotion of friendship among the members. Publishes reports. Address: 8 Marunouchi 1-chomé, Kojimachi, Tokyo. — p. 1188 ([scan leaf 1244](https://archive.org/details/japan-year-book-1939-1940/page/n1244/mode/1up))
+
+**ZENKOKU INSATSUGYO KUMIAI RENGOKAI** (The All-Japan Federation of Printers' Associations). Established in 1921 ; Tanesaburo Kubota, president ; membership 4,600. For the progress of printing technic and for the control of printing business. Publishes "Insatsu Sekai" (Printing World) and others. Address: 4 Jinbocho 2-chomé, Kanda, Tokyo. — p. 1188 ([scan leaf 1244](https://archive.org/details/japan-year-book-1939-1940/page/n1244/mode/1up))
+
+**ZENKOKU KEIZAI CHOSAKIKAN RENGOKAI** (The Associations of the Japanese Economic Research Bureau). Established in 1920; Koji Takamura, chief secretary; membership 152 organizations. To perfect the economic investigation with a strict co-operation of members. Publishes monthly reports. Address: The Toyo Building, Uchisaiwaicho, Kojimachi, Tokyo. — p. 1188 ([scan leaf 1244](https://archive.org/details/japan-year-book-1939-1940/page/n1244/mode/1up))
+
+**ZENKOKU YOSANGYO KUMIAI RENGOKAI** (The National Sericultural Society). Established in 1932; Baron Masatané Inada, president; membership 10,000 local guilds. Issues a journal "Sansi no Hikari" (The Light of Raw Silk). For the progress of sericulture of Japan. Address: 1 Yurakucho, Kojimachi, Tokyo. — p. 1188 ([scan leaf 1244](https://archive.org/details/japan-year-book-1939-1940/page/n1244/mode/1up))
+
+**ZOSEN KYOKAI** (The Society of Naval Architects of Japan). Established in 1897; Dr. Yuzuru Hiraga, director; membership 2,307. The object is to make researches of shipbuilding and technical arts thereof. Issues a monthly report and other periodicals. Address: 8 Marunouchi 3-chomé, Kojimachi, Tokyo. — p. 1188 ([scan leaf 1244](https://archive.org/details/japan-year-book-1939-1940/page/n1244/mode/1up))
+
+### Moral and Educational
+
+**BUNGEIKA KYOKAI** (Literary Men's Association). Established in 1926. Kan Kikuchi, president; membership 347. The purpose is to promote friendship among members and protect their rights. Issues a report. Address: 2 Tamuracho 5-chomé, Shiba, Tokyo. — p. 1188 ([scan leaf 1244](https://archive.org/details/japan-year-book-1939-1940/page/n1244/mode/1up))
+
+**DAINIPPON KISHO GAKKAI** (The Meteorogical Society of Japan). Established in 1882; Dr. Takematsu Okada, president; membership 630. Publishes "Kishō Shūshi" (Weather Report). For the study of meteorology. Address: the Chuo-Kishodai, Otemachi 1-chomé, Kojimachi, Tokyo. — p. 1188 ([scan leaf 1244](https://archive.org/details/japan-year-book-1939-1940/page/n1244/mode/1up))
+
+**DAINIPPON KOKUSHI KAI** (The Japan Historical Association). Established in 1931; Iichiro (Soho) Tokutomi, president; membership 650. The purpose of the Association is to study Japanese history and guide the thoughts of the nation. Address: The Aoyama Kaikan, Aoyama, Akasaka, Tokyo. — p. 1188 ([scan leaf 1244](https://archive.org/details/japan-year-book-1939-1940/page/n1244/mode/1up))
+
+**DAINIPPON KYOFUKAI** (The Japan Temperance Society). The Society aims at the guidance and enlightenment of people in their thoughts and life. Issues "Kyofu" (Moral Reform). Hisakichi Yamazaki, president; membership 1,000. Address: 31 Kikugawa 1-chomé, Honjo, Tokyo. — p. 1188 ([scan leaf 1244](https://archive.org/details/japan-year-book-1939-1940/page/n1244/mode/1up))
+
+**DAINIPPON RENGO SEINENDAN** (The Japanese Young Men's Association). Established in 1924; Masayasu Kōsaka, director; membership 2,625.301. To promote the administration of local associations. Issues "Nippon Seinen Shimbun" (Japanese Young Men's News), "Seinen" (Young Men) and others. Address: Kasumigaoka, Yotsuya, Tokyo. — p. 1188 ([scan leaf 1244](https://archive.org/details/japan-year-book-1939-1940/page/n1244/mode/1up))
+
+**DAINIPPON SEINEN KŌKŪDAN** (The Young Aviators' Association of Japan). Established in 1937; General Ikutaro Inoué, president; membership about 520. For the instruction of the young people in aeronautical knowledge and flying technic, and for the general understanding of the art of flight. Publishes "Seinen Kōkū" (Young Flyers). Address: Hikō-kan, 3 Tamuracho 1-chomé, Shiba, Tokyo. — p. 1188 ([scan leaf 1244](https://archive.org/details/japan-year-book-1939-1940/page/n1244/mode/1up))
