@@ -58501,7 +58501,13 @@
    "p. 523 blanks: North America Total incl. others Exports 1918 (\"5_0,282,05_\", two digits broken); Peru Exports 1919 (\"2,738,6_4\"); Cape Colony & Natal Imports 1919 (\"37,163,77_\") and 1918 (\"29,4_8,991\"); Grand Total Imports 1918 (\"1,668,143,_83\", condensed type, 8 or 9 — p. 513 prints 1,668,143,833).",
    "Printed without comma / with full stop, kept as printed: Canada Imports 1918 \"7,775 180\"; Chili Imports 1919 \"13,823.479\". Broken zeros read as 0: Russia Exports 1919 464,390; Chili Exports 1919 3,290,467; Other countries Exports 1918 1,609,856; Denmark Exports 1918 50.",
    "Austria-Hungary Exports 1918 and Turkey Exports 1918 printed as dashes.",
-   "Printed page number at head of p. 523 is damaged (\"5 3\")."
+   "Printed page number at head of p. 523 is damaged (\"5 3\").",
+   "Reconciliation (python3): Asia Total Exports 1919 printed 101,382,994; the 11 country rows sum to 955,145,674 — does NOT reconcile (cells re-read; figure transcribed as printed). With 955,145,674 in place of the printed Asia total, the Grand Total Exports 1919 (2,098,872,617) reconciles exactly, so the printed Asia total appears to be a misprint.",
+   "Asia Total Exports 1918 935,573,651: parts sum to 935,573,651 — reconciles.",
+   "Asia Total Imports 1919 1,074,370,271: cannot check fully (China blank); other rows sum to 752,269,643, implying China = 322,100,628 (not used to fill the blank).",
+   "Asia Total Imports 1918 812,813,833: cannot check fully (Dutch India blank); other rows sum to 763,976,635, implying Dutch India = 48,837,198 (not used to fill the blank).",
+   "\"Total incl. others\" rows (Europe, North America, South America, Africa) include unlisted countries, so they are only checked to be not less than the listed parts: Europe Exp 1919 194,852,727 vs listed 194,316,458; Europe Exp 1918 298,256,518 vs listed 154,741,368 excluding blank Great Britain (implied remainder 143,515,150 incl. others); Europe Imp 1919 162,969,641 vs 161,930,611; Europe Imp 1918 82,786,850 vs 82,772,417; N. America Exp 1919 857,094,304 vs 854,092,278; N. America Imp 1919 773,459,486 vs 772,685,707; N. America Imp 1918 634,133,442 vs 633,845,902; S. America Exp 1919 20,830,445 vs 16,161,258 excl. blank Peru; S. America Exp 1918 36,595,577 vs 35,512,372; S. America Imp 1919 18,183,360 vs 17,731,111; S. America Imp 1918 20,877,956 vs 20,728,428; Africa Exp 1919 24,781,695 vs 24,107,734; Africa Exp 1918 48,201,815 vs 46,810,539; Africa Imports both years: Cape Colony blank, not checkable. All consistent (no total below its listed parts).",
+   "Grand Total (sum of the regional Total rows + Australia, New Zealand, Hawaii, Other countries, In bonded warehouse, Unknown): Exports 1919 printed 2,098,872,617, sum with printed Asia total 1,245,109,937 — does NOT reconcile as printed (reconciles exactly if Asia parts-sum 955,145,674 is used, see above). Exports 1918 printed 1,962,100,668: not checkable (North America total blank); implied N. America total 560,556,026. Imports 1919 printed 2,173,459,880: sum 2,173,459,880 — reconciles. Imports 1918: Grand Total blank; the components sum to 1,668,245,083 (p. 513 prints 1,668,143,833)."
   ],
   "id": "p0593_1",
   "scans": [
@@ -58512,6 +58518,346 @@
    {
     "label": "scan leaf 594",
     "url": "https://archive.org/details/japan-year-book-1920/page/n594/mode/1up"
+   }
+  ]
+ },
+ {
+  "image": "p0604",
+  "images": [
+   "p0604",
+   "p0605"
+  ],
+  "printed_pages": [
+   "533",
+   "534"
+  ],
+  "chapter": "Foreign Trade",
+  "table_no": null,
+  "title": "Partial Revision of the Tariff — Decreases and Downward Changes",
+  "caption_extra": "On Mar., 7th, '16 the partial revision of the tariff was gazetted. 15 items consisting of raw materials, such as materials for oils, drug materials, brush materials, etc. have been rendered duty free, while about 33 items of other descriptions have been reduced in rate. The list is shown below:—",
+  "continued": false,
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "Article",
+     "Duty"
+    ],
+    "rows": [
+     [
+      "Duty free items are:—Linseed, hemp seed, castor seed, India rubber wood, gutta percha wood, indigo plant seed; Hides and skins, animal, raw (not otherwise specified); Horn bristles, koka leaf and jaborandi leaf; Cutch and other tanning extracts, Semon cynas, borate of soda, radium and radium salts, oxide of cobalt, coal-tar, waste or old iron pipes and tubes, nickel, striped ebony wood and populars (Hakoyanagi and Doroyanagi)",
+      "Duty free"
+     ],
+     [
+      "Items with reduced duty are:—Waste leather vaseline",
+      "20 per cent. ad. val."
+     ],
+     [
+      "Not exceeding one kilo including weight of receptacle",
+      "ad. val. 20 per cent."
+     ],
+     [
+      "Others",
+      "per 100 kin ¥2.95"
+     ],
+     [
+      "Sandal wood",
+      "per 100 kin ¥3.85"
+     ],
+     [
+      "Lactic acid",
+      "ad val. 30 per cent."
+     ],
+     [
+      "Peroxide of hydrogen",
+      "\" \" \""
+     ],
+     [
+      "Sulphate of quinine",
+      "per 100 kin ¥60.00"
+     ],
+     [
+      "Cocaine",
+      "ad val. 5 per cent."
+     ],
+     [
+      "Pepsine",
+      "\" 35 per cent."
+     ],
+     [
+      "Alcoholic medicinal preparations (subdivisions are to be cancelled.)",
+      "1 litre ¥0.73"
+     ],
+     [
+      "Fused silica manufactures",
+      "1d val. 20 per cent."
+     ],
+     [
+      "Others",
+      "\" 40 per cent,"
+     ],
+     [
+      "Materials for construction of buildings, etc. Of iron only (including that which is coated with base metals)",
+      "per 100 kin ¥1.90"
+     ],
+     [
+      "Others",
+      "ad. val. 25 per cent."
+     ],
+     [
+      "Chains not otherwise provided for. 2. A. b. others",
+      ""
+     ],
+     [
+      "b. 1 each not exceeding 500 grammes in weight",
+      "ad. val. 30 per cent."
+     ],
+     [
+      "b. 2 Others",
+      "per 100 kni ¥2.00"
+     ],
+     [
+      "Musical instruments",
+      "per 100 kin ¥0.17"
+     ],
+     [
+      "Others",
+      "ad. val. 40 per cent."
+     ],
+     [
+      "Cycles (side cars are to be treated separately and shall come under provisions of No. 566)",
+      ""
+     ],
+     [
+      "Motor cycles a. with motive machinery",
+      "per piece ¥93,60"
+     ],
+     [
+      "b. others",
+      "\" \" 77.60"
+     ],
+     [
+      "Others",
+      "\" \" 16.00"
+     ],
+     [
+      "(Gas engines, petroleum engines and hot air engines) each weighing not more than",
+      ""
+     ],
+     [
+      "10,000 kilos",
+      "per 100 kin ¥5.00"
+     ],
+     [
+      "50,000 \"",
+      "\" \" \" 4.50"
+     ],
+     [
+      "100,000 \"",
+      "\" \" \" 4.00"
+     ],
+     [
+      "Others",
+      "\" \" \" 3.50"
+     ],
+     [
+      "Dynamos combined with gas engines, petroleum engines or hot air engines, F. Others each weighing not more than 10,000 kilos",
+      "per 100 kin ¥5.80"
+     ],
+     [
+      "G. do. do. 50,000 \"",
+      "\" \" 5.50"
+     ],
+     [
+      "H. do. do. 100,000 \"",
+      "\" \" 5.20"
+     ],
+     [
+      "1. Others",
+      "\" \" 4.90"
+     ],
+     [
+      "Milling cutters and gear cutters, saws for machinery (now made into one item) milling cutters, gear cutters and saws for machinery",
+      "ad val. 15 per cent."
+     ]
+    ]
+   }
+  ],
+  "footnotes": [
+   "Besides, \"Dials and Hands\" are to be treated in the same way as \"Clock movements\"; \"Alternating current variable speed electric motors\" as \"Armatures,\" and the words \"Plaits of straw or wood-shaving, pure or mixed with one another\" have been altered to \"Plaits for Hat-manufacture.\""
+  ],
+  "transcriber_notes": [
+   "Printed ditto marks („) written as \"; misprints kept as printed ('1d val.', 'kni', '¥93,60', 'per cent,').",
+   "The duty-free items are printed as one run-on paragraph with a single rate; kept as one row.",
+   "Printed quoted phrase in the 'Peroxide of hydrogen' row: third ditto mark is faint.",
+   "No totals."
+  ],
+  "id": "p0604_1",
+  "scans": [
+   {
+    "label": "scan leaf 604",
+    "url": "https://archive.org/details/japan-year-book-1920/page/n604/mode/1up"
+   },
+   {
+    "label": "scan leaf 605",
+    "url": "https://archive.org/details/japan-year-book-1920/page/n605/mode/1up"
+   }
+  ]
+ },
+ {
+  "image": "p0610",
+  "images": [
+   "p0610"
+  ],
+  "printed_pages": [
+   "539"
+  ],
+  "chapter": "Agriculture",
+  "table_no": null,
+  "title": "[Gross area of arable land in Japan proper]",
+  "caption_extra": "Arable Land and Farming Families. Gross area of arable land in Japan proper may be classified as follows:—",
+  "continued": false,
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "End of Dec.",
+     "Landed farmers' area (cho) — Paddy field",
+     "Landed farmers' area (cho) — Upland",
+     "Tenanted area (cho) — Paddy field",
+     "Tenanted area (cho) — Upland",
+     "Total (cho) — Paddy field",
+     "Total (cho) — Upland"
+    ],
+    "rows": [
+     [
+      "1915",
+      "1,447,191",
+      "1,729,987",
+      "1,518,374",
+      "1,163,617",
+      "2,965,566",
+      "2,893,601"
+     ],
+     [
+      "1916",
+      "1,450,061",
+      "1,738,538",
+      "1,529,193",
+      "1,178,685",
+      "2,976,253",
+      "2,917,223"
+     ],
+     [
+      "1917",
+      "1,449,386",
+      "1,754,653",
+      "1,548,135",
+      "1,203,012",
+      "2,997,521",
+      "2,957,664"
+     ],
+     [
+      "1918",
+      "1,454,299",
+      "1,793,683",
+      "1,548,515",
+      "1,221,184",
+      "3,002,814",
+      "3,014,867"
+     ]
+    ]
+   }
+  ],
+  "footnotes": [],
+  "transcriber_notes": [
+   "1915 Total Paddy 2,965,566: parts sum to 2,965,565 — does NOT reconcile (diff +1)",
+   "1915 Total Upland 2,893,601: parts sum to 2,893,604 — does NOT reconcile (diff -3)",
+   "1916 Total Paddy 2,976,253: parts sum to 2,979,254 — does NOT reconcile (diff -3,001)",
+   "1916 Total Upland 2,917,223: parts sum to 2,917,223 — reconciles",
+   "1917 Total Paddy 2,997,521: parts sum to 2,997,521 — reconciles",
+   "1917 Total Upland 2,957,664: parts sum to 2,957,665 — does NOT reconcile (diff -1)",
+   "1918 Total Paddy 3,002,814: parts sum to 3,002,814 — reconciles",
+   "1918 Total Upland 3,014,867: parts sum to 3,014,867 — reconciles",
+   "1916 Tenanted Paddy '1,529,193' and 1917 Landed Upland '1,754,653': type partly broken but glyphs legible"
+  ],
+  "id": "p0610_1",
+  "scans": [
+   {
+    "label": "scan leaf 610",
+    "url": "https://archive.org/details/japan-year-book-1920/page/n610/mode/1up"
+   }
+  ]
+ },
+ {
+  "image": "p0610",
+  "images": [
+   "p0610"
+  ],
+  "printed_pages": [
+   "539"
+  ],
+  "chapter": "Agriculture",
+  "table_no": null,
+  "title": "[Numbers of families engaged in farming]",
+  "caption_extra": "Numbers of families engaged in farming are as follows:—",
+  "continued": false,
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "End of Dec.",
+     "Landed farmers",
+     "Tenants",
+     "Combining tenantry",
+     "Total farming families"
+    ],
+    "rows": [
+     [
+      "1915",
+      "1,717,995",
+      "",
+      "2,208,975",
+      "5,451,189"
+     ],
+     [
+      "1916",
+      "1,696,224",
+      "1,524,989",
+      "2,336,580",
+      "5,457,793"
+     ],
+     [
+      "1917",
+      "1,695,854",
+      "1,533,622",
+      "2,237,801",
+      "5,467,277"
+     ],
+     [
+      "1918",
+      "1,697,037",
+      "1,550,324",
+      "2,229,423",
+      "5,476,784"
+     ]
+    ]
+   }
+  ],
+  "footnotes": [],
+  "transcriber_notes": [
+   "1915 Tenants: printed '1,524,1?2' — the tens digit is broken and cannot be read with confidence; cell left blank",
+   "1915 Total 5,451,189: parts other than Tenants sum to 3,926,970; total would imply Tenants 1,524,219",
+   "1916 Total 5,457,793: parts sum to 5,557,793 — does NOT reconcile (diff -100,000)",
+   "1917 Total 5,467,277: parts sum to 5,467,277 — reconciles",
+   "1918 Total 5,476,784: parts sum to 5,476,784 — reconciles",
+   "1917 Tenants '1,533,622': the two 3s are broken type but read as 3"
+  ],
+  "id": "p0610_2",
+  "scans": [
+   {
+    "label": "scan leaf 610",
+    "url": "https://archive.org/details/japan-year-book-1920/page/n610/mode/1up"
    }
   ]
  },
@@ -75643,7 +75989,7 @@
      ],
      [
       "\" \" Education",
-      "Mr. Tokugoro Nakahashi."
+      "Mr. Tokugoro Nakabashi."
      ],
      [
       "\" \" Agril. & Com.",
@@ -75662,7 +76008,8 @@
   ],
   "footnotes": [],
   "transcriber_notes": [
-   "'Hajime' has a broken 'm' in print; 'Uchida' partially broken but legible"
+   "'Hajime' has a broken 'm' in print; 'Uchida' partially broken but legible",
+   "'Nakabashi' as printed (sic; usually Nakahashi); 'Tokugoro' has a broken 'u'"
   ],
   "id": "p0728_1",
   "scans": [
@@ -87883,6 +88230,118 @@
    {
     "label": "scan leaf 782",
     "url": "https://archive.org/details/japan-year-book-1920/page/n782/mode/1up"
+   }
+  ]
+ },
+ {
+  "image": "p0784",
+  "images": [
+   "p0784"
+  ],
+  "printed_pages": [
+   "713"
+  ],
+  "chapter": "Chosen (Korea)",
+  "table_no": null,
+  "title": "Principal Mineral Production",
+  "caption_extra": "(in unit of 1,000)",
+  "continued": false,
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "Year",
+     "Gold — momme",
+     "Gold — yen",
+     "Alluvial gold — momme",
+     "Alluvial gold — yen",
+     "Iron ores — ton",
+     "Iron ores — yen",
+     "Graphite — kin",
+     "Graphite — yen",
+     "Coal — ton",
+     "Coal — yen"
+    ],
+    "rows": [
+     [
+      "1914",
+      "1,282",
+      "6,064",
+      "142",
+      "575",
+      "182",
+      "293",
+      "10,895",
+      "152",
+      "183",
+      "810"
+     ],
+     [
+      "1915",
+      "1,446",
+      "6,767",
+      "184",
+      "699",
+      "239",
+      "",
+      "",
+      "215",
+      "229",
+      "997"
+     ],
+     [
+      "1916",
+      "1,630",
+      "7,379",
+      "220",
+      "890",
+      "245",
+      "385",
+      "13,103",
+      "394",
+      "190",
+      "819"
+     ],
+     [
+      "1917",
+      "1,362",
+      "6,355",
+      "99",
+      "393",
+      "140",
+      "401",
+      "14,729",
+      "1,000",
+      "195",
+      "1,149"
+     ],
+     [
+      "1918",
+      "1,118",
+      "5,373",
+      "131",
+      "526",
+      "200",
+      "924",
+      "11,735",
+      "596",
+      "188",
+      "1,316"
+     ]
+    ]
+   }
+  ],
+  "footnotes": [],
+  "transcriber_notes": [
+   "Row 1915, col 'Iron ores — yen': middle digit broken in print (reads 3?7) — left blank.",
+   "Row 1915, col 'Graphite — kin': last digit broken in print (reads 9,13?) — left blank.",
+   "No printed totals."
+  ],
+  "id": "p0784_1",
+  "scans": [
+   {
+    "label": "scan leaf 784",
+    "url": "https://archive.org/details/japan-year-book-1920/page/n784/mode/1up"
    }
   ]
  },
