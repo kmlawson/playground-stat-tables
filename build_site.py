@@ -8,7 +8,9 @@ as "in progress" on the landing page. Scan links point to the online scan where 
 import json, glob, os, re, html
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-ROOT = os.path.dirname(HERE)
+# Folder holding the book folders. A worktree placed elsewhere (e.g. the far-east-1941 branch)
+# must set STAT_TABLES_ROOT to the Manchoukuo folder, or relative book dirs resolve wrongly.
+ROOT = os.environ.get("STAT_TABLES_ROOT") or os.path.dirname(HERE)
 
 BOOKS = [
     {"slug": "japan-1920-21", "dir": "Japan_Year_Book_1920", "title": "The Japan Year Book 1920-21",
