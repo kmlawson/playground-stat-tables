@@ -1,6 +1,6 @@
 # The Japan Year Book 1920-21 — Chronologies
 
-101 entries, LLM-transcribed. These entries were transcribed by the vision model of Opus 5.5. Before using any of these details, you must verify specific details with the original source which is linked to whenever possible.
+107 entries, LLM-transcribed. These entries were transcribed by the vision model of Opus 5.5. Before using any of these details, you must verify specific details with the original source which is linked to whenever possible.
 
 
 ## Diary for 1919-20 — Diary (August, 1919—August, 1920)
@@ -209,3 +209,18 @@
 **1920, Aug, 2** Mr. S. E. Kirby, the young English aviator and Mr. A. Sanman the passenger lost their lives owing to the collapse of machine during the civilian aviators' meeting in Tokyo. — p.  ([scan leaf 65](https://archive.org/details/japan-year-book-1920/page/n65/mode/1up))
 
 **1920, Aug. 29** Mr. Toyotaro Yamagata, the young but clever birdman falls victim to the same accident at Chiba-ken. — p.  ([scan leaf 65](https://archive.org/details/japan-year-book-1920/page/n65/mode/1up))
+
+
+## Earthquakes, Volcanoes and Mineral Springs — [The most disastrous calamities recorded in the pre-Tokugawa period]
+
+**684 A.D.** Over 500,000 cho in southern part of Tosa subsided and were engulfed in the sea. — p. 22 ([scan leaf 89](https://archive.org/details/japan-year-book-1920/page/n89/mode/1up))
+
+**869 A.D.** Earthquakes with tidal waves visited Mutsu and thousands of people killed — p. 22 ([scan leaf 89](https://archive.org/details/japan-year-book-1920/page/n89/mode/1up))
+
+**1361 A.D.** Earthquakes in districts round about Kyoto. — p. 22 ([scan leaf 89](https://archive.org/details/japan-year-book-1920/page/n89/mode/1up))
+
+**1498 A.D.** Tokaido was visited by a severe earthquake, causing death of over 20,000 persons. Hamana lagoon (Maizaka station, Tokaido Railway, formerly inland lake) was formed. — p. 22 ([scan leaf 89](https://archive.org/details/japan-year-book-1920/page/n89/mode/1up))
+
+**1596 A.D.** Bungo, Kyushu, was visited and 700 persons killed. — p. 22 ([scan leaf 89](https://archive.org/details/japan-year-book-1920/page/n89/mode/1up))
+
+**1596 A.D.** Districts round about Kyoto shaken and 2,000 persons killed. — p. 22 ([scan leaf 89](https://archive.org/details/japan-year-book-1920/page/n89/mode/1up))
