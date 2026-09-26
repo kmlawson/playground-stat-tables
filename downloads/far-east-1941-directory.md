@@ -1,6 +1,6 @@
 # The Far East Year Book 1941 — Who's Who & Directories
 
-95 entries, LLM-transcribed. These entries were transcribed by the vision model of Opus 5.5. Before using any of these details, you must verify specific details with the original source which is linked to whenever possible.
+128 entries, LLM-transcribed. These entries were transcribed by the vision model of Opus 5.5. Before using any of these details, you must verify specific details with the original source which is linked to whenever possible.
 
 
 ## Japan — Imperial Court: The Imperial House
@@ -237,3 +237,90 @@
 **(4) Ching-yun-chang** (the Order of Ching-yun), grantable to those who are to be conferred any of the decorations from the First to the Eighth Order of Merit, excepting those who have been conferred the First Order of Merit and who have been granted the Order of the Lungkuang. — p. 623
 
 **(5) Chukuo-chang** (the Order of Chukuo) grantable to those who are to be conferred any of the decorations from the First to the Eighth Order of Merit excepting those who are to be conferred with the order of Ching-yun. — p. 623
+
+
+## Manchoukuo — Mining: Outline of the conditions of the enterprises under the Manchuria Coal Mining Company (April 1940)
+
+**Fuhsin Mines** Equipment in the underground workings and open-cut mines has been gradually replenished and a daily output of 10,000 metric tons has been finally realized since October, 1939. Installation of a coal sorter with a capacity of 1,000,000 tons, at Haichou has also been completed. — p. 710
+
+**Hsian Mines** There is every prospect for expanding the present workings from the end of 1940. — p. 710
+
+**Peipiao Mines** The deposits of the mines under the jurisdiction of the Taichi Mining Office have been found to be of good quality. — p. 710
+
+**Haokang Mines** Slopes have been driven to mine the two seams located north and two beds south of the Hsingshan Mining Office. The Nankang Mining Office has opened No. 3 Mine whose deposits are of good quality. Surveys have been started in the Taling and Liuching districts in order to provide for future increase in production. — p. 710
+
+**Titao Mines** Two new slopes have been driven in the Nuanchuan district. However, owing to the shortage of motive power operations at all the mines have not progressed as desire. — p. 710
+
+**Chalainoerh Mines** A new slope has been driven into Bed No. 3 in order to provide for future increase in production. — p. 710
+
+**Fuchou Mines** Excavation work on a new slope in the Tungshan district has been started. — p. 710
+
+**Tienshihfu Mines** Owing to retardation in the completion of the power plant, exploitation of the lower seams has not progressed as desired, and at present efforts are being made to mine the upper seams. — p. 710
+
+**Holung Mines** Surveys are being made in the Sunghsiaping district but the deposits are not so good as had been expected. — p. 710
+
+**Tungning Mines** Efforts are being made to develop both the underground and open-cut workings. — p. 710
+
+**Chengtzuho Mines** In addition to excavating five slopes and three tunnels, surveys are being made in the vicinity of Tungpeituan. — p. 710
+
+**Hengshan Mines** Ten tunnels have been driven in the Changsheng, Shannan and Hsiaohengshan districts, while the vicinity of Tatingshan is being prospected. — p. 710
+
+**Sanhsing Mining Office** Two slopes are being sunk at present. — p. 710
+
+
+## Manchoukuo — Education: Leading specialized educational institutions under the Japanese administration
+
+### Specialized educational institutions (Kwantung Leased Territory and S.M.R. Zone)
+
+**Manchuria Medical University** Established at Mukden by the South Manchuria Railway in June, 1911, for Japanese and Manchurian students. Course: preparatory 3 yrs., university 4 yrs. Enrollment at the end of April 1939—University course 287; preparatory course 311; special course 224. — p. 731
+
+**Port Arthur Engineering University** Formerly Port Arthur Engineering School. Elevated to university status August, 1922. Departments: mechanical engineering, electrical engineering, mining, metallurgy. Course: preparatory 3 yrs., university 4 yrs. Enrollment at the end of April 1939: 193 Japanese, 31 Manchoukuoans in university course and 227 Japanese and 29 Manchoukuoans in preparatory course. — p. 731
+
+**South Manchuria Technical College** Established at Dairen. Formerly, South Manchuria Technical School. Elevated to college status, 1922. Course, 3 yrs. Departments: architectural, mechanical. In May, 1939 the total enrollment numbered 350. — p. 731
+
+**Industrial Training Schools** Established at Fushun and Penhsihu. Object: practical technical training. Course, 3 yrs. — p. 731
+
+**Agricultural Training Schools** Established at Kungchuling and Hsingyaocheng. Course, 1 to 2 yrs. With dormitory facilities. — p. 731
+
+**Commercial Training Schools** Established at Yingkow and Liaoyang in 1928. Course, 1 to 2 yrs. With dormitory attached. — p. 731
+
+**Temporary Technician Training Institute** Attached to the Port Arthur Engineering University, this institute was established in April, 1939, to provide a complement of skilled technicians for smooth execution of the Manchoukuo Government's Five-Year Industrial Development Plan. This institute has four departments, viz. machinery, mining, electricity and applied chemistry. Course, 1 yr., number of students 172. — p. 731
+
+
+## Manchoukuo — Transportation: Air Ports of Manchuria Aeronautical Co.
+
+### Air Ports of Manchuria Aeronautical Co.
+
+**Kukden Branch:** Mukden, Chinchow, Chaoyang, Chiehfeng, Shanhaikwan, Lingyuan, Chengteh, Dairen, Shingishu, and Tunghua. — p. 800
+
+**Hsinking Branch:** Hsinking, Yenki, Tumen, Lungchingtsun, Tunhua, Kirin, and Ranan. — p. 800
+
+**Harbin Branch:** Harbin, Tsitsihar, Manchouli, Hailar, Peianchen, Taheiho, Mutankiang, Ilan, Fuchin, Pamientung, Taoan, and Nunkiang. — p. 800
+
+
+## Manchoukuo — Manufacturing Industries II: Principal tobacco companies
+
+**I. I. Tschurin & Co** This compan was originally started as a petty firm in Nikolsk in 1887. It steadily developed with years. Since the Russian Revolution, Harbin has been the centre of the activity of the Company There were days when it exerted so much influence as to mar the invasion of the Anglo-American Trust and the Toa Tobacco Company. — p. 827
+
+**Chi Tung Tobacco Company, Ltd** The Chi Tung Tobacco Co., Ltd., is a Manchoukuo corporation organized under Manchoukuo Laws and capitalized at 52,325,000 yuan. This company is a subsidiary of the British-American Tobacco Company (China) Ltd., whose headquarters are located in Hongkong. The head office of the Chi Tung Tobacco Co., Ltd., as well as its factory, are located in Mukden. It has another factory in Yingkow, completed in 1939 and now in operation. — p. 827
+
+**A. Lopato Sons, Ltd** The company is a Manchoukuo corporation with a capital of 3,500,000 yuan. It is a subsidiary of a British Company of the same name located in Hongkong, which company in 1913-1914 purchased the business formerly under Russian management. The capital of A. Lopato Sons, Ltd., in April 1914 was 150,000 roubles and it was increased in December 1919 o 1,000,000 roubles. The company wa reorganized in July, 1936, since when the present status has been maintained. — p. 827
+
+**Toa Tobacco Company** The company is capitalized at 30,000,000. With its head office in Tokyo, the Company has factories in Mukden, Dairen, Yingkow and Tientsin and marketing offices in Tientsin and Dairen. — p. 827
+
+**Manchu Tobacco Company** The Company was founded in Tokyo in January, 1925. It is capitalized at ¥12,000,000, of which ¥4,800,000 is paid-up. Its Hsinking factory has been completed. There is a plan afoot for the establishment of an additional factory at Harbin. — p. 827
+
+
+## China — Railways: Conditions of Railways in Operation (State Railways)
+
+### Conditions of Railways in Operation — I. State Railways
+
+**(1) Peking-Mukden (Pei-Ning) Railway** Main line between Peking and Shanhaikwan (428.5 kilometers) Branch lines, 36.4 kilometers (Peking-Tungchow line; Tangho-Chinhwangtao line; Peitsaiho-Haipin line). Standard gauge of 4ft 8½ in. Construction begun in 1880 and put in operation in 1907. Investment as of December 1931 s$123,314,826 (inclusive of the Manchurian section). External obligations: £2.3 million (interest 5%) from British and Chinese Corporation in 1898, and £500,000 in 1921, of which the amount outstanding to January 1933 was £690,000. Of this amount the Manchurian share has been taken over and liquidated by the Government of Manchoukuo. This railway was temporarily put out of operation after the outbreak of the Manchurian incident, service being disrupted at Shanhaikwan. The through traffic, however, between Peking and Mukden was resumed on August 1, 1934. — p. 903
+
+**(2) Peking-Hankow (King-Han) Railway** Main line between Peking and Hankow 1,214.5 kilometers. Branches: 106.8 kilometers (Lukowiao-Fengtai line; Liangsiang-Nili line; Kaopaitien-Liangkochwang line; Yakoying-Lincheng line; Hoshangkiao-Yuchow line). Standard gauge. Construction begun in 1898 and put in operation in 1905. Investment as of October 1931 s$124,486,849. Foreign obligation: £5 million from Britain and France in 1908 (4.5% and 5%), the outstanding amount to January 1933 being £2.5 million; ¥10 million from the Yokohama Specie Bank (5%), the outstanding amount on December 31, 1933, being [illegible]5,370,500 (inclusive of interest), which was substantially reduced by successive refundings beginning in 1935; in addition, small short term loans from Britain, France and Belgium. — p. 903
+
+**(3) Peking-Suiyuan (Kin-Sui) Railway** Main line between Fengtai and Patow 817.8 kilometers: branches 58.7 kilometers (Peking Mentowkow line; Hsiahuayuan-Chimingshan line; Changhua-Lungpin line; Tatung-Kowchwan line). Standard gauge. Construction begun in 1905 and completed as far as Suiyuan is 1921 and Paotow in 1923. Investment as of December 1931 s$58,314,056. Foreign obligations: ¥3 million from the Toa Kogyo in 1918,, which in 1934 was converted to a new loan of ¥5.2 million; ¥3 million from the same company in 1921. The section between Peking and Kalgan was constructed with native capital but further development had to be financed by foreign capital. — p. 903
+
+**(4) Tientsin-Pukow (Tsing-Pu) Railway** Main line between Tientsin and Pukow 1,009.5 kilometers: branches 95.7 kilometers (Liangwangchwang-Chentangchwang line; Yenchow-Tsining line, Lincheng-Tsaochwang line; Techow-Canal line). Standard gauge. Construction begun in 1908 and put in operation in 1912. Investment as at the end of 1932 s$122,135,761. Foreign obligations: £5 million from Britain and Germany in 1908-9, the outstanding amount at the end of 1933 being £3,361,250 and interest £1,455,902; £3 million from Britain and France in 1910, the amount outstanding at the end of 1933 being £2,495,500 and interest £1,140,478. — p. 903
+
+**(Y) Shanghai-Nanking (Hu-Ning or Kin-Hu) Railway** Main line between Shanghai and Nanking 311.0 kilometers: branch between Shanghai and Woosung 16.1 kilometers. Standard gauge. Construction begun in 1904 and put in operation in 1908. Investment at the end of 1931 s$38,501,629. Foreign obligations: £2,250,000 (5%) from Britain in 1904; £650,000 (5%) in 1907; ¥150,000 (6%) in 1913. Of these loans the amount outstanding at the end of 1933 £2,784,000 and interest ¥208,000; £156,000 (8%) from Britain in 1929, of which the outstanding amount at the end of 1933 was £187,000. The work of double tracking was begun in 1934 between Shanghai and Suchow. — p. 903–904

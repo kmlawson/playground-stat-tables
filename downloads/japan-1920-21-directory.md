@@ -1,6 +1,6 @@
 # The Japan Year Book 1920-21 — Who's Who & Directories
 
-1,043 entries, LLM-transcribed. These entries were transcribed by the vision model of Opus 5.5. Before using any of these details, you must verify specific details with the original source which is linked to whenever possible.
+1,655 entries, LLM-transcribed. These entries were transcribed by the vision model of Opus 5.5. Before using any of these details, you must verify specific details with the original source which is linked to whenever possible.
 
 
 ## Imperial Court
@@ -1636,6 +1636,32 @@
 
 **Otani, Kok[illegible]i** Count (cr. '96), b. '51 at Kyoto; is Lord Abbot of the Eastern Hongwanji Temple, a greatest Buddhist centre in Japan, for years past a synonym of mismanagement and internal discord. The threat of bankruptcy was long hanging over the temple like the sword of Damocles, and quite recently even the princely residences and villas of the Lord Abbot were seized by a creditor, while in '09 a large number of heirlooms were put to auction. Fortunately, things seem to have begun to improve. Add. Kyoto. — p. 134 ([scan leaf 205](https://archive.org/details/japan-year-book-1920/page/n205/mode/1up))
 
+**Otani, Kozui** Count, ex-Lord Abbot of the Western Hongwanji Temple one of the two greatest Buddhist centres in Japan; b. at Kyoto '76; studied long in Europe, and started for home '02 via the Central Asia, but was obliged to hurry home before he could carry out his program on learning the death of his father; he visited Saghalien and China '07; and also India in '10. Retiring from active service '14, again visited Buddha land via Korea, China and Burmah, and is now staying in China. Add. Hongkong. — p. 135 ([scan leaf 206](https://archive.org/details/japan-year-book-1920/page/n206/mode/1up))
+
+**Otori, Fujitaro** 2nd Baron, Minister to Mexico since '19, b. '66 in Tokyo of the late Bar. Keisuke Otori; grad. Law Coll., Imp. Tokyo Univ. '90; was in service of Formosan Govt. until 1901, when he passed the Dip. and Con. service exam. Attache at Legation, Seoul same year; Secy. at Legation, The Hague '03, Brussels '05; Peace Commissioner at The Hague '07; Gov.-Gen., Vladivostock '09; Secy. at Foreign Office '12; Embassy Councillor at Rome '14; Councillor at Jap. Embassy, Paris '16–19. Add. Mexico. — p. 135 ([scan leaf 206](https://archive.org/details/japan-year-book-1920/page/n206/mode/1up))
+
+**Otsu, Jun-ichiro** M. P. and ex-Parl.-Secy. to the Education Dept., b. 56 in Ibaraki-ken; early entered into politics; in '77 he started Ibaraki Nichi Nichi, a local daily; elected mem. of Prefectural Assembly, and House of Representatives for tenth time in '15. Appointed Parliamentary Under-Secy. to the Finance Dept. in '15, soon to be removed to Education Dept. Add. Sendagaya, near Tokyo. — p. 135 ([scan leaf 206](https://archive.org/details/japan-year-book-1920/page/n206/mode/1up))
+
+**Otsuki, Fumihiko** Dr. Lit. (Japan), famous scholar of Japanese classics, Mem. of the Imperial Academy; was b. at Sendai in '47; studied at the Shogunate Academy (Shōhei-ko), and was afterwards attached to the Education Department; has written “Japanese Dictionary,” “Japanese Grammar,” etc. Add. Nippori, near Tokyo. — p. 135 ([scan leaf 206](https://archive.org/details/japan-year-book-1920/page/n206/mode/1up))
+
+**Oya, Gompei** Eng. D., Dir. of Chosen Govt. Railway Bureau and Superintendent-Engineer, b. '62 in Yamaguchi; grad. Science Dept., Imp. Tokyo Univ. '81; became railway engineer in '84, as engaged in construction of Tokaido Railway; despatched to Europe and America to investigate railway business in '01; for a short time on retired list in '03; re-installed in a post in Chosen Govt. Railway in '06; promoted to Dir. Rly. Board, and then Sup.-Eng. in '09; remained in the post after the annexation. Add. Ryuzan, Chosen. — p. 135 ([scan leaf 206](https://archive.org/details/japan-year-book-1920/page/n206/mode/1up))
+
+**Oyama, Atsushi** M.P., lawyer, Lord-in-Waiting of Kinkei Hall, Prof. at Waseda Univ.; b. '65 in Nagoya; graduated Law, Imp. Tokyo University '89; continued in juridical service either as Judge or Public Prosecutor till '04; when he resigned the post at the Court of Cassation and went abroad for purpose of study, returning home in '06, to be reinstalled in the former service; Dir. Prison Bureau '07–12; Vice-Min. of Justice '12–14. Began practice in '16. Add. Haramachi, Koish., Tokyo. — p. 135 ([scan leaf 206](https://archive.org/details/japan-year-book-1920/page/n206/mode/1up))
+
+**Ozaki, Yukio** M.P. of unbroken record, ex-Minister of Justice, b. '59 in Miye-ken; studied at Keiogijuku and for a short while held post of Jun. Secretary at Central Gov., leaving which he soon attracted public notice as one of those prominent politicians who opposed the clan Govt. and swore to introduce party politics; was ordered to leave Tokyo by the coup d'etat in '87 and went to England, returning home on the eve of the summoning of the 1st session of the Diet to sit in it ever since. He was in '97 Chief Councillor of the Foreign Office in the Matsukata-Progressive Cabinet; was the Minister of Education in the Okuma-Itagaki Coalition Cabinet in '98, but had to resign from a cause which, however, led to his severing connection with Count Okuma's party with which he had been identified since its inception. He next joined Prince Ito's new party and was made its leader in the House, but in '03 he left it, and was for a while a free lance; again joined it in '10; was elected Mayor of Tokyo in '03; in '05 married Miss Theodore d. of Baron Ozaki by English lady; visited Europe with his wife in '10, resigned the Mayor in '12; Minister of Justice 1914–16. Add. Shinagawa, Tokyo. — p. 135 ([scan leaf 206](https://archive.org/details/japan-year-book-1920/page/n206/mode/1up))
+
+**Rinoie, Ryusuke** ex-Gov. of Nagasaki-ken, b. '66 at Hagi; grad. Imp. Tokyo Univ. '90 and entered the Cabinet, then Home Dept.; Councillor at Oita and Toyama; Secy. at Okayama, and Kanagawa; then Gov. of Toyama and Shizuoka; transferred to Ishikawa '10, to Nagasaki '12–17. Add. Nagasaki. — p. 136 ([scan leaf 207](https://archive.org/details/japan-year-book-1920/page/n207/mode/1up))
+
+**Saburi, Isshi** Engineer, D. Eng. (Japan), Dir. of the Tsukuba Rly. Co. and ex-Dir. of the Yokosuka Elec. Co., the Kei-hin Elec. R'ly Co., and the Kei-han Elec. R'ly Co.; was b. '64 in Tokyo. Early entered the Govt. Eng. Col., from which he grad. in '86; was conferred the doctorate '9[illegible] Add. Minami-machi, Ushigome, Tokyo. — p. 136 ([scan leaf 207](https://archive.org/details/japan-year-book-1920/page/n207/mode/1up))
+
+**Saga, Kinto** Marquis, of a former courtier family founded about the 12th century; was b. '63. Add. Nicho-machi, Shitaya, Tokyo. — p. 136 ([scan leaf 207](https://archive.org/details/japan-year-book-1920/page/n207/mode/1up))
+
+**Saigo, Kichiji** M.D., Surg.-Gen. (ret.), Court Councillor and ex-Dir. of the Med. Bureau, Imp. Household, was b. '55 in Shinano. Early entered the Military Guard Division; became Vice-Pres. of the Military Medical College; was promoted to Surgeon-Gen. and then placed on the retired list; appointed Dir. Med. Bur. '12–14. Add. Iida-machi, Kojimachi, Tokyo. — p. 136 ([scan leaf 207](https://archive.org/details/japan-year-book-1920/page/n207/mode/1up))
+
+**Saigo, Yorinori** 2nd Marquis, Maj. Infantry, son of the late Saigo Yorimichi (d. 1902), one of the notables associated with the Restoration; the present head was b. in '78. Add. Kamimeguro, near Tokyo. — p. 136 ([scan leaf 207](https://archive.org/details/japan-year-book-1920/page/n207/mode/1up))
+
+**Saionji, Kimmochi** Marquis (cr. '84, formerly courtier), ex-Premier and ex-Leader of Seiyu-kai; b. '[illegible]9 at Kyoto and adopted as heir by the house; took part when under 20 in the grave councils of the Restoration; at 19 he was Commander-in-Chief of an Imperial Army; Gov. of Niigata-ken for a few months in '68; studied in France '69–80, and brought home highly democratic notions issuing a democratic paper with the late Mr. Nakaye and Baron Matsuda (Min. of Justice, d. '14), which he had to discontinue. Then commenced his official career, first as Vice-Senator, '81; accompanied Prince (then Mr.) Ito to Europe and U.S.A. to investigate Parliamentary system, '82; Senator '83; Minister to Austria, '85; then moved to a similar post at Berlin, '88; President of the Board of Decoration, '91; Vice-Pres. Code Investigation Commission and Vice-Pres. House of Peers, '93; Privy Councillor, '94; held portfolio of Education in the 2nd Ito Cabinet '94–96, temporarily acting as Min. of Foreign Affairs in consequence of the late Count Mutsu's illness; Min. of Education in the 3rd Ito Cabinet and was nominated President of the Privy Council on the death of Count Kuroda, and as a President he had to occupy post of Prime Minister al interim no less than three times during the interval between the resignation of one Ministry and the formation of another. When the late Prince Ito had to enter the Privy Council, July '03 the subject of the sketch exchanged post with him and became leader of the Seiyukai. On the fall of the Katsura Ministry, the Marquis formed his Cabinet in Jan. '06 lasting till July '07 and again formed his Cabinet in '11 which continued till Dec. '12; represented Japan as Peace Envoy, and was invested with the Grand Order of Merit. He is brother to Prince Tokudaiji and Baron Kichizaemon Sumitomo (which see). Add. Surugadai, Tokyo. — p. 136 ([scan leaf 207](https://archive.org/details/japan-year-book-1920/page/n207/mode/1up))
+
 **Saito, Hidesaburo** educationist and English scholar, Pres, of the Seisoku English Language School; was b. '66 in Miyagi-ken; studied first at the Kōbu Daigaku about five years, but left it unfinished; taught English at the 1st Higher Sch. '88 and the Kokumin Eigakkai; on resigning the post he founded the present school in '96. Has written a number of text books on English grammar, an English-Japanese dictionary and other works. Add. Gobancho, Kojimachi, Tokyo. — p. 137 ([scan leaf 208](https://archive.org/details/japan-year-book-1920/page/n208/mode/1up))
 
 **Saito, Keiji** M.P. (Seiyukai) was b. in Saitama-ken and took to politics as a follower of the late Toru Hoshi; studied at Keiogijuku; was private Secy. to the Home Minister in the Okuma-Itagaki Cabinet. Add. Shitaya, Tokyo. — p. 137 ([scan leaf 208](https://archive.org/details/japan-year-book-1920/page/n208/mode/1up))
@@ -1729,6 +1755,72 @@
 **Shiba, Goro** Gen., Commander of the Formosan Garrison, holder of 2nd Golden Kite; b. '58 in Aizu, 5th son of a retainer of the clan; entered the Mil. Prep. School '73; Cadet School, '77; Sub-Lieut. '79; was an attaché to the Legation at London, and then at Peking, and took distinguished part as Major (Art.) in the Japan-China War and in connection with the memorable siege of the foreign dip. corps at Peking by the Boxers '00 he became widely celebrated; Com. of 1st Art. Brig. '09-12 and 1st Brigade Heavy Artillery '12-13. Lieut.-Gen., and Com. of 12th Division; Full Gen. and present post '1[illegible]. Add. Taihoku. — p. 142 ([scan leaf 213](https://archive.org/details/japan-year-book-1920/page/n213/mode/1up))
 
 **Shiba, Junrokuro** ex-Dir. of Shrine Bureau, Home Office, Lord-in-Waiting of the Kinkei Hall (nom. '15); b. '61 in Kanazawa; grad. Law Coll. of Tokyo Univ. '83, studied at Berlin till '88, Prof. at his alma mater on his return home; appointed Councillor to the Legislation Bureau '89; Dir. of Religion Bur. '98-15. Add. Shio-cho, Yotsuya, Tokyo. — p. 142 ([scan leaf 213](https://archive.org/details/japan-year-book-1920/page/n213/mode/1up))
+
+**Shiba, Shiro** M.P., ex-Parliamentary Secy. to Foreign Office in 1916, elder brother of Gen. G. Shiba; b. at Aizu '52; studied in America, and in '86 was appointed Personal Secretary to the Minister of Agr. and Com. of the time (Visc. Tani) with whom he travelled through Europe and America on official business; resigned office next year with his chief and published a political novel written in highly polished Sinico-Japanese, and it had a wide circulation; arrested on the charge of complicity in the Korean Queen assassination affair in '95, to be acquitted on examination; Vice-Min. of Agr. and Com. '98 in the Okuma-Itagaki Cabinet. Add. Nagata-cho, Kojimachi, Tokyo. — p. 143 ([scan leaf 214](https://archive.org/details/japan-year-book-1920/page/n214/mode/1up))
+
+**Shibata, Seinosuke** Mng.-Dir., Tokyo Sulphuric Acid Co.; Chairman of Dirs., Toyo Soda Co., Toyo Trading Co., Chiyoda Chemical Industry Co., etc., standing Mem., Tokyo Chamber of Commerce, b. 1865 in Tokyo; adopted by the late Tobei Shibata. He also runs Shibata Firm, dye-stuff Co. Add. No. 8 Setomono-cho, Nih., Tokyo. — p. 143 ([scan leaf 214](https://archive.org/details/japan-year-book-1920/page/n214/mode/1up))
+
+**Shibayama, Yahachi** Baron (cr. '07), Adm. (ret), b. '60 in Kagoshima; Sub-Lieut. of the Navy, '74; Rear-Adm. and Com. Saseho Adm'ty at the time of the Japan-China War and was rewarded for his service with 3rd Class Golden Kite; Vice-Adm. '97 and was Com. of Kure Adm'ty during '04-05 War and was granted 2nd Class Golden Kite, transferred to be Com. of Port Arthur '0[illegible]; raised to full Adm., '06 and placed on retired list. Add. Kami-Rokuban-cho, Kojimachi, Tokyo. — p. 143 ([scan leaf 214](https://archive.org/details/japan-year-book-1920/page/n214/mode/1up))
+
+**Shibayama, Yasu** chairman of Dirs., Taxie-Cab Co., Dir., Osaka Taxie Cab Co. etc., b. 1871 in Ishikawa-ken. Add. 51 5-chome, Aoyama-Minamicho, Tokyo. — p. 143 ([scan leaf 214](https://archive.org/details/japan-year-book-1920/page/n214/mode/1up))
+
+**Shibusawa, Ei-ichi** Baron (cr. '00), Founder of 1st Bank and Tokyo Savings Bank and for long President of Tokyo Chamber of Commerce, Chief of Committee of Tokyo Bankers' Association, etc. but recently retired from practical work retaining the post of Dir. of Municipal Orphanage of Tokyo, etc.; b. '40 in Saitama-ken, is a Nestor of our business circles. Took service under the Tokugawa in its declining days and visited Europe '67-68 in company of a Tokugawa Prince; appointed a high official in the Treasury on establishment of the Imperial Government, but left it '73 with the then Vice-Minister of the Dep't (the late Marquis Inouye) in consequence of his opposition to the policy of the Minister. From that time to his retirement the subject of this sketch consistently kept aloof from Gov. service, though very frequently the chair of Finance has been offered to him. Founded the 1st Bank (Dai-ichi Ginko), a pioneer of national bank in '73; was the chairman of the Tokyo Chamber of Commerce from its inauguration till spring of '15 when he resigned on account of ill-health. Toured in Europe and America in '02; again in U.S.A. in '10, and also in '15. Add. Kabuto-cho, Nihombashi, Tokyo. — p. 143 ([scan leaf 214](https://archive.org/details/japan-year-book-1920/page/n214/mode/1up))
+
+**Shibuya, Ariaki** Lieut.-Gen. (ret. '14), Dir. of the Imp. Mews, ex-Insp. of Commissariat Dept., Mil. Education Board, b. '56 in Wakayama; appinted Sub-Lieut. of Cavalry '79, entered Military Staff Col. in '84; served for years as Aide-de-Camp to the Crown Prince, etc.; Lieut.-Gen. '08. Add. Gazembo, Azabu, Tokyo. — p. 143 ([scan leaf 214](https://archive.org/details/japan-year-book-1920/page/n214/mode/1up))
+
+**Shida, Kotaro** D.C.L. (Japan), ex-Prof. Tokyo Higher Commercial School, b. '68 in Chiba Prefecture; grad. '94 from Law Col. of Imp. Univ., and further studied in its post-grad. course, being at the same time Professor in the Tokyo Higher Com. Sch. in '97, sent to Germany '98-01 to study Com. Law; Prof. at Law Coll., Tokyo Imp. Univ. in '06; once special mem. of Tokyo Chamber of Commerce; engaged by the Chinese Govt. as Prof. and Adviser to compile Com. and Civ. Law '08-12. Now in the Yasuda Family corporation. Add. Kobinatadai, Koish., Tokyo. — p. 143 ([scan leaf 214](https://archive.org/details/japan-year-book-1920/page/n214/mode/1up))
+
+**Shidate, Tetsutaro** ex-Gov. of the Ind. Bank of Japan, was b. '64 in Shimane; grad. from Politics, Imp. Tokyo Univ., class '80; served at the Bank of Japan till '89; entered the Kyushu Railway '00; Sumitomo Bank '01-10; joined the editorial staff of the Osaka Mainichi '11-12; Ind. Bank '13-18. Add. Nakashibuya, near Tokyo. — p. 144 ([scan leaf 215](https://archive.org/details/japan-year-book-1920/page/n215/mode/1up))
+
+**Shidehara, Kijuro** Ambassador to U.S.A. since '19, b. in '72 in Kawachi; grad. from Law, Imp. Tokyo Univ. in '95 and served in Agr. and Com. Dept.; éleve-Consul at Chemulpo '99; transferred to London, Antwerp, &c.; Sec. of Head Office '11 and Embassy Councillor at Washington in May '12; Minister at the Hague '14-15; Vice-Min. of Foreign Affairs in '15. Add. Washington. — p. 144 ([scan leaf 215](https://archive.org/details/japan-year-book-1920/page/n215/mode/1up))
+
+**Shiga, Shigetaka** ex-M.P., journalist, traveller, author, and Prof. Waseda Univ.; b. '63 at Okazaki; grad, Sapporo Agr. Col. '84; was once a school teacher and then visited the South Seas, '86, on board a naval training ship and his “Affairs in the South Seas” acquired a wide reputation for its charming style; joined the Progressionists '95; appointed Dir. Forestry Bureau, '97; Chief Councillor of Foreign Office, '9[illegible]; joined the Port Arthur investing army in the '04-05 war, also the Saghalien commission. Has written a number of works, chiefly geographical; visited South America, Africa and Europe on board cr. Ikoma; again America '15. Add. 475 Yoyogi, Tokyo. — p. 144 ([scan leaf 215](https://archive.org/details/japan-year-book-1920/page/n215/mode/1up))
+
+**Shijo, Ryuai** Marquis, of a former courtier family that descended from Fujiwara Kamatari; the present head was b. '80, and is Lieut. of Cavalry. Add. Fujimi-cho, Kojimachi, Tokyo. — p. 144 ([scan leaf 215](https://archive.org/details/japan-year-book-1920/page/n215/mode/1up))
+
+**Shima, Yasujiro** Dr. Eng., Dir. and Chief of Eng. Dept., South Manchuria Rly. Co. since '19; grad. from the Eng. Coll., Imp. Tokyo Univ., '94; expert to Sanyo Rly., Kansai Rly., Communication Dept., Nippon Rly., ('03) and finally to Imp. Rly. Board, '08, with which latter he was connected, combining Prof. of his alma mater since '09, till he was transferred to the present post. Twice made an inspection tour abroad, '03-04 and '10-12. Add. Dairen. — p. 144 ([scan leaf 215](https://archive.org/details/japan-year-book-1920/page/n215/mode/1up))
+
+**Shimada, Saburo** M.P. (Kensei-kai) of unbroken record, Pres. of House of Representatives '15-'17; b. '52 in Tokyo; held a post of Secretary in the Dept. of Edu., which he resigned '81 when Count Okuma left the Government; was long one of the ablest lieutenants of the Count and a prominent member of his party, but afterward he severed connection with it. He joined the Nationalist Party in '10 but left it in '13 and then went over to late Prince Katsura's party. He has written several works of historical interest notably the Life of Grand Councillor Ii; visited America to deliver lectures '11. He played active part in disclosing the Naval Scandal in '14. Add. Nakarokubancho, Kojimachi, Tokyo. — p. 144 ([scan leaf 215](https://archive.org/details/japan-year-book-1920/page/n215/mode/1up))
+
+**Shimamura, Asao** Mng.-Dir. and Head of Supply Dept. of the Nippon Yusen Kaisha; b. 1862 in Fukuoka-ken; grad. from Keio in 1886; entered the Co. '[illegible]9; transferred to its Kobe, and then, Osaka Branch, '9[illegible]; returned to the Head Office '95; Branch Manager in various places for years; present post, 1912. Add. 1 Shiba-kanasugi, Tokyo. — p. 144 ([scan leaf 215](https://archive.org/details/japan-year-book-1920/page/n215/mode/1up))
+
+**Shimamura, Hayao** Baron (cr. '16). Adm., Chief of General Naval Staff, Mem. of Admirals' Council since '11; b. in Kochi-ken '58; Midshipman, '81; sent abroad for study in England and Italy '88-89; staff officer on board the flag-ship Matsushima, in the Japan-China War when he was slightly wounded; Commander soon after and attached to the Naval Board; Prof. at the Naval Staff Coll. '96; attaché to the Japanese Legation at Rome '96; attached to the Naval Board on returning home the same year; Capt. '99; was Commander of the Suma, and Chief Staff of the Standing Squadron in the Boxer Trouble '00; attached to the Naval Board and also Prof. at the Coll. on returning home; Rear-Adm. in '02; was Chief Staff to Adm. Togo in Russo-Japanese War; Vice-Adm. '07 and Pres. of Staff Coll. '07-09; attended The Hague Peace Conference held '07; Commander of the Saseho Adm. '09-14; Com. of the Squadron that attended King George's Coronation Ceremony; promoted Adm. '15. Add. Aoyama-Minamicho, Tokyo. — p. 145 ([scan leaf 216](https://archive.org/details/japan-year-book-1920/page/n216/mode/1up))
+
+**Shimazu, Tadashige** Prince, formerly of the great House of Satsuma, with a fief of 700,000 koku, and 30th head of the line which was founded in 12th century; his predecessor Seihin and uncle Hisamitsu did much for rehabilitating the Imperial power. The present head was b. '86 and is Lieutenant of Navy. Add. Nagatacho, Kojimachi, Tokyo. — p. 145 ([scan leaf 216](https://archive.org/details/japan-year-book-1920/page/n216/mode/1up))
+
+**Shimizu, Cho** D.C.L. (Japan), Judge of Adm. Litigation; b. '68 in Kanagawa; grad. Law, Imp. Tokyo Univ. '94; Secretary of the Home Office and Prof. at the Peers' School and studied in Germany and Austria '98-99. Add. Aizumicho, Yotsuya, Tokyo. — p. 145 ([scan leaf 216](https://archive.org/details/japan-year-book-1920/page/n216/mode/1up))
+
+**Shimizu, Ichiro** President of the Appeal Court at Sendai, b. in '58 in Kaga; grad. the former Law College under control of Justice Dept. '84, and has since sat on the Bench in which he was Judge at the Supreme Court, President of Kobe District Court, etc. Add. Appeal Court, Sendai. — p. 145 ([scan leaf 216](https://archive.org/details/japan-year-book-1920/page/n216/mode/1up))
+
+**Shimizu, Teikichi** Dir., Ishikawajima Dockyard, Tokyo, b. 1867 in Kyoto; adopted by Mannosuke Shimizu; after grad. from the Eng. Coll., Imp. Tokyo Univ., engaged in his father's business, Shimizu-gumi Public Work Contractor; made a tour abroad, 1901. Add. No. 17 Kita Kogacho, Surugadai, Tokyo. — p. 145 ([scan leaf 216](https://archive.org/details/japan-year-book-1920/page/n216/mode/1up))
+
+**Shimoda, Utako** Mad., one of the foremost educationalists; a Court maid of honour when about 16 years old, and again after the death of her husband. An instructor of the Peeress' School; resigned in Nov. '07 and has since devoted herself chiefly to a private female school she founded about '99; visited Europe '93-95. Add. Kitamachi, Aoyama, Tokyo. — p. 145 ([scan leaf 216](https://archive.org/details/japan-year-book-1920/page/n216/mode/1up))
+
+**Shimogo, Dembei** ex-Member of the House of Peers, Pres. of the Jinju Life Ins. Co.; b. '72, at Nagahama, Shiga-ken; studied in the Keiogijuku; made an inspection tour in Europe and America '00; has interests in many companies. Add. Mita Koyamacho, Tokyo. — p. 145 ([scan leaf 216](https://archive.org/details/japan-year-book-1920/page/n216/mode/1up))
+
+**Shimomura, Ko** Dir. of Civil Administration Bureau, Formosa (app. '15), b. 75, eldest son of late Fusajiro Shimomura; grad. Law, Imp. Tokyo, Univ., '98, and was long connected with the postal service as Dir., Postal Money Order and Savings Bureau. Add. Taipeh, Formosa. — p. 145 ([scan leaf 216](https://archive.org/details/japan-year-book-1920/page/n216/mode/1up))
+
+**Shimo-oka, Chuji** M.P., ex-Vice-Minister of Home Affairs, b. '70 in Hyogo-ken; grad. Law, Imp. Tokyo Univ. '95; Gov. of Akita-ken '05-08; Director of Agr. Bureau '08; Vice-Min. of Agr. and Com. '12-13; Chief Sec. of the Cabinet '13-14; Vice-Min. of Home Affairs '14-15; Parl. Sec. to the same Dept. '15. Add. Yakoji, Ichigaya, Tokyo. — p. 145 ([scan leaf 216](https://archive.org/details/japan-year-book-1920/page/n216/mode/1up))
+
+**Shin, Keita** D. Eng., Naval Architect, ex-Mng. of the Ishikawajima Ship-building Co.; was b. '64 in Yamaguchi-ken. grad. from Eng'ring Col. of the Imp. Tokyo Univ. about '8[illegible] and soon entered the said Co. He established his office in '11. Add. Aoyama Minamicho, Tokyo. — p. 146 ([scan leaf 217](https://archive.org/details/japan-year-book-1920/page/n217/mode/1up))
+
+**Shinjo, Yoshio** Vice-Pres. of the Tokyo Electric Co., b. '73 at Yamaguchi-ken; grad. at Science, Imp. Tokyo Univ.; entered the present Co. in '99 as Chief Eng.; Dir. of the same '14, and then the present post '18. Add. Shirokane-Sankocho, Shiba, Tokyo. — p. 146 ([scan leaf 217](https://archive.org/details/japan-year-book-1920/page/n217/mode/1up))
+
+**Shioda, Taisuke** Dr. Eng., Dir. Mitsubishi Ship-building Co., b. 18[illegible]7; adopted by the Shioda family '96; early entered the firm; the present post 1918. Add. No. 7, Tatsuoka-cho, Hongo, Tokyo. — p. 146 ([scan leaf 217](https://archive.org/details/japan-year-book-1920/page/n217/mode/1up))
+
+**Shiohara, Matasaku** Mng.-Dir. of Sankyo Kabushiki-Kaisha, was b. in Yokohama in '96, and studied at the Yokohama Commercial School and the Yokohama English and Japanese Language School; started drug business in '99; went to America to study drug business. He began importing drugs, chemicals, etc, and incorporated his firm in '07 as partnership Co. under the name of Sankyo Goshi-Kaisha, which in '13 was consolidated into a joint stock Co., Mr. Shiohara acting as Mng.-Dir. Add. Iigurakata-machi, Azabu, Tokyo. — p. 146 ([scan leaf 217](https://archive.org/details/japan-year-book-1920/page/n217/mode/1up))
+
+**Shiozawa, Shōtei** Ph. D., D.C.L. (Japan), Prof. at the Waseda Univ.; was b. in '74 at Mito; grad. from Waseda in '9[illegible], from Wisconsin '00, and further studied at Berlin and Halle '01-2, his speciality being political economy. Add. Yarai, Ushigome, Tokyo. — p. 146 ([scan leaf 217](https://archive.org/details/japan-year-book-1920/page/n217/mode/1up))
+
+**Shiraishi, Motojiro** Dir. of the Toyo Kisen Kaisha, Dir. of Hinode Life Ins. Co. etc. b. '67 in Niigata-ken Early grad. from Law Col. of the Imp. Tokyo Univ. and entered the Toyo Kisen Kaisha to be elevated to the present post. He founded the Nippon Steel Tube Mfg. Co. which he presides. Add. Mitakouncho, Tokyo — p. 146 ([scan leaf 217](https://archive.org/details/japan-year-book-1920/page/n217/mode/1up))
+
+**Shiraiwa, Ryuhei** Mng.-Dir. of the Tōa Industrial Co., and Dir. of the Nisshin (Japan-China) S.S. Co., b. '70 in Mimasaka; studied at Nisshin Boeki Kenkyujo (Japan-China Trading Institute). Shanghai; attached to the Imperial Headquarters as Military Interpreter in the '94-'95 War. Add. No. 17, 5-chome, Hirakawacho, Koji., Tokyo. — p. 146 ([scan leaf 217](https://archive.org/details/japan-year-book-1920/page/n217/mode/1up))
+
+**Shirani, Takeshi** Pres. Imp. Iron Foundry (app. 1918), ex-Dir. Colonial Bureau '16-18, ex-Civil Governor of Kwantung '08-17; b. '63 in Fukuoka; grad. Law, Imp. Univ., '90; appointed at the Home Office in which he held post of Councillor, Section Chief and finally Dir. of Temple and Shrine Affairs Bureau '02, also serving for some years at the Hokkaido Office, and also at the Edu. Dep't. Transferred to Gov. of Tochigi-ken, '03; Dir., Ordinary Education Bureau, '06-08. Add. Yawata, Kyushu. — p. 146 ([scan leaf 217](https://archive.org/details/japan-year-book-1920/page/n217/mode/1up))
+
+**Shiratori, Kurakichi** historian, D. Litt. (Japan), tutor to the Crown Prince, and Prof. at the Peers' School; was b. '65 in Chiba; grad. in '99 from Lit. Col. of the Imp. Tokyo Univ., further studied in Germany and Hungary '00-05, and is an authority on Mongolian dynasties and allied subjects. Add. Shimo-Ochiai, suburb of Tokyo. — p. 146 ([scan leaf 217](https://archive.org/details/japan-year-book-1920/page/n217/mode/1up))
+
+**Shiroyama, Shosai** master “makiye” artist, Grand Prize recipient at Paris and St. Louis, ex-Prof. of Fine Art Academy; b. '53 in Tokyo; first studied inlaying but subsequently took to “makiye”; was ordered in '87 to make makiye-frame for mirror in the Empress' chamber; organized the Japan Lacquer Art Society with some others '90, and was appointed Prof. of the Academy the following year, resigning the post '01. He is specially famous for “level polish makiye,” and has frequently received orders from the Imperial Court. Add. Kobiki-cho Itchome, Kyobashi, Tokyo. — p. 146 ([scan leaf 217](https://archive.org/details/japan-year-book-1920/page/n217/mode/1up))
 
 **Shisa, Suguru** Paymaster-General, Chief of Naval Account Bureau; b. '64 in Nagasaki-ken; Dir. of Paymasters' school and Chief Accountant of Saseho Admiralty before transferred to present post in '12. Add. Omori, near Tokyo. — p. 147 ([scan leaf 218](https://archive.org/details/japan-year-book-1920/page/n218/mode/1up))
 
@@ -1827,6 +1919,66 @@
 **Takahashi, Kazutomo** Translator at the Foreign Office, former Editor of the Japan Times (Tokyo), Prof. Keio-gijuku Univ.; was b. '62 in Kawagoye; entered Col. of Law, Imp. Univ. Tokyo, but left in '86, and proceeded to U. S. A., where he grad. from Michigan State Univ.; attended to business in the States and Canada before he returned home '97 and was connected with the Japan Times till '17 Add. Tsunohazu, Tokyo. — p. 152 ([scan leaf 223](https://archive.org/details/japan-year-book-1920/page/n223/mode/1up))
 
 **Takahashi, Korekiyo** Baron (cr. '07), Mem. of House of Peers; b. '54 in Tokyo; sent to America for study, '67; was for several months treated as a slave through the treachery of his knavish American "guardian"; returned home the following year; appointed an official of the Dep't, Agr. and Com., '81; ultimately rising to be Dir., Patent Bureau but this post he had to abandon owing to the notorious fraud of a "gold mine" in Peru, he and his freinds who formed a company to exploit, having been victimized by a German swindler. Soon he found a post in the Bank of Japan, promoted to a Director having charge of the western section of Japan; removed to the Yokohama Specie Bank, '95, to be elected its Vice-Pres., '97; elected Vice-Gov., Bank of Japan, then made Pres. once more of the Specie Bank '06, retaining the former post. He was financial agent for raising foreign loans in England and America, and was dispatched abroad twice on the important mission '05 and '06; was Gov. of the Bank of Japan in '11; Minister of Finance '13-14, and again in '18. Add. Omote-cho, Akasaka, Tokyo. — p. 152 ([scan leaf 223](https://archive.org/details/japan-year-book-1920/page/n223/mode/1up))
+
+**Takahashi, Motokichi** M.A. (Princeton) and M.P.for his native province since '17; b. 1873 in Akita-ken; grad. from the Tokyo Higher Normal School and went over to America to study politics; Per. Sec. to Gov.-Gen. of Kwantung, '07-08; left the Govt. service to take to business '12; Add. No. 47 Yokodera-machi, Ushigome, Tokyo. — p. 153 ([scan leaf 224](https://archive.org/details/japan-year-book-1920/page/n224/mode/1up))
+
+**Takahashi, Sakuye** D.C.L. (Japan), Prof. of Law, Imp. Tokyo Univ. and Mem. of House of Peers (nom. '16); was b. '65 in Nagano-ken; grad. Politics at Imp. Tokyo Univ., '94; legal adviser to Adm. Ito, Commander of the Combined Squadron in the Japan-China War; proceeded to England and France to study International Law '97-01; Prof. at his alma mater on his return home; wrote several works on internat. law. Dir. of Legislative and Pension Bureaux '14-16. Add. Komagome, Akebonocho, Tokyo. — p. 153 ([scan leaf 224](https://archive.org/details/japan-year-book-1920/page/n224/mode/1up))
+
+**Takahashi, Torata** Pres. of the Tokyo Silk & Woolen Fabric Co. and Mng.-Dir. of the Teikoku Cold Strage Co., b. '67 at Sendai; grad. from the Senshu Gakko; in Formosan Govt.-General's service '95-'98; entered the Nippon Rly. Co. '98; and remained there till the railway nationalization came into effect; founded in '07 the Cold Storage Co., the pioneer in Japan, took an active part in the establishment of the Tokyo Silk & Woolen Fabric Co. in March '17, and then the Nippon Seimo Co. in March '18, both of which he presides over. Add. No. 862 Sendagaya, Tokyo. — p. 153 ([scan leaf 224](https://archive.org/details/japan-year-book-1920/page/n224/mode/1up))
+
+**Takahira, Kogoro** Baron (cr. '07), ex-Ambassador to Washington; b. '54 in Iwate-ken; began his career as official of the former Public Works Dep't, to be transferred to Foreign Office as translator, '76; Legation Secy. at Washington, '81; removed to Seoul '84; Consul at Shanghai, '87; Secy. at the Head Office, '90; Consul-Gen. at New York, 91, Minister at the Hague, '92; at Rome, '94, to be transferred to Vienna shortly after; appointed Vice-Minister '99; and the following year appointed Min. at Washington where he was Peace Plenipotentiary in '05; relieved of the post in '05, Mem. of House of Peers; Amb. to Rome '07, to Washington '08-09; put on unattached list in '09; was on staff of Prince Fushimi when he visited England '10. Mem. House of Peers, nom. 1917. Add. Naka-Meguro, near Tokyo. — p. 153 ([scan leaf 224](https://archive.org/details/japan-year-book-1920/page/n224/mode/1up))
+
+**Takaki, Mizutaro** B.D., D.D., Pres. of Aoyama Gakuin; was b. '64 in Shizuoka-ken; graduated from Victoria University, Toronoto (95-98). On returning home he taught at Eiwa Gakko, Aoyama Gakuin, etc., besides being a Pastor of the Central Tabernacle, Azabu Methodist Church, etc., and also editing a Christian magazine. He has written "Encyclopaedia of Christian Knowledge," "Life of John Wesley," etc. He toured in Europe and U.S.A. '06-07. Add. Aoyama Gakuin, Tokyo. — p. 153 ([scan leaf 224](https://archive.org/details/japan-year-book-1920/page/n224/mode/1up))
+
+**Takakusu, Junjiro** M.A. (Oxf.), D. Litt. (Japan), Prof. at Imp. Tokyo Univ.; was b. in Bingo '65; entered Oxford '88 and studied Sanskrit; further studied in Germany and returned home '97, to be appointed Prof. at the Tokyo Univ.; Personal Secretary to the Minister of Communications (Viscount Suyematsu); President of Foreign Language School, '00-08; translated several Sanskrit and Pali works. Stayed in London under the Viscount during the Russo-Japanese War; sent abroad '10-12. Add. Sendagaya, Tokyo — p. 154 ([scan leaf 225](https://archive.org/details/japan-year-book-1920/page/n225/mode/1up))
+
+**Takamatsu, Toyokichi** D. Eng., Emeritus Prof. of Imp. Univ., Tokyo, Dir. of State Industrial Laboratory, Special Mem. of Tokyo Chamber of Commerce; b. '55 in Tokyo, grad. course of Chemistry at the Imp. Univ., in '78; further studied at Owens Coll., Manchester, and at Berlin Univ., returning home in '82; held chair of applied chemistry at his alma mater and other institutions before he retired from official career in '05; the Pres. of Tokyo Gas Co. '05-15. Add. Nishikata-machi, Hongo, Tokyo. — p. 154 ([scan leaf 225](https://archive.org/details/japan-year-book-1920/page/n225/mode/1up))
+
+**Takamine Jokichi** D. Eng. and D. Phar. (Japan), inventor of "Taka Diastase," "Adorinalin," etc.; b. in '53 in Kaga; completed Applied Chemistry at the former Engineering Col. in '79; sent to England to prosecute further studies, returning home '81 and appointed chemist to Dep't of Agr. and Com., where he did much to improve sake brewing and indigo making. Attended World's Fair at New Orleans in '84 as Japanese Commissioner, and since then he has settled in U.S.A. where he married a daughter of a well-known druggist in Chicago and a relative of Henry George. He invented a powerful alcoholic ferment; established the Takamine Ferment Co. in Chicago. Add. c/o Japan Club, New York. — p. 154 ([scan leaf 225](https://archive.org/details/japan-year-book-1920/page/n225/mode/1up))
+
+**Takamura, Ko-un** master-artist in wood carving, Prof. in Gov. Fine Art Academy; b. '52 in Tokyo; studied under Takamura To-un, a celebrated Buddhist image carver in Tokyo who died '79; undertook wood-model for the bronze image of Nanko elected in front of the Imp. Palace and of the Great Saigo at Uyeno Park. Won Gold medal at the Paris Fair '00 and has frequently been honoured to carve in presence of Their Majesties. Art Commissioner to Imp. Household. Add. Komagome Hayashicho, Tokyo. — p. 154 ([scan leaf 225](https://archive.org/details/japan-year-book-1920/page/n225/mode/1up))
+
+**Takarabe, Hyo** Vice-Adm., Com. Saseho Admiralty since '18 and mem. of Admirals' Council, b. '67 in Hyuga; graduated from the Naval Cadet School '90; was on staff at the headquarters in the '94-95 and '04-05 wars; Capt. '95, Rear-Adm. '09 Vice-Adm. '13; Vice-Min. of Navy, '13-14. Put on waiting list for a while in connection with the Naval Scandal in '14; Com. of 3rd Squadron early in '15 and transferred to Com. of Port Arthur Naval Station '15-6. Add. Saseho. — p. 154 ([scan leaf 225](https://archive.org/details/japan-year-book-1920/page/n225/mode/1up))
+
+**Takasaki, Chika-aki** Mem. House of Peers, Lord-in-Waiting of the Kinkei Hall, and Pres. of the Iron Works at Muroran; b. '53 in Kagoshima and was one of those who were roughly treated as spies by the Kagoshima rebels in '77 and narrowly escaped death. Subsequently served as Chief Police Inspector at various districts, then Provincial Governor of Osaka, Nagano, Okayama etc.; also Bureau Director at the Home Office; Mem. of House of Peers in '11. Add. Tennoji, Osaka. — p. 154 ([scan leaf 225](https://archive.org/details/japan-year-book-1920/page/n225/mode/1up))
+
+**Takashima, Kikujiro** Mng.-Dir. of the Oji Paper Mill since Jan. '14; b. '75 in Fukuoka-ken; on grad. from the Tokyo Higher Commercial School '00, entered the Osaka Shosen Kaisha; removed to the Mitsui Bussan Kaisha '03 and again to the present Co. '12. Add. No. 476 Tabata-Higashi-Dai-dori, Takinogawa, Tokyo. — p. 154 ([scan leaf 225](https://archive.org/details/japan-year-book-1920/page/n225/mode/1up))
+
+**Takashima, Tokuzo** artist of Japanese painting, Mem. of Hanging Committee of Fine Arts, Mem. of Art Society of Japan; nom de plume "Hokkai", b. '50 in Yamaguchi-ken; learned Japanese painting from his father; was Gov. forestry expert before he became artist in '03; won several medals at art exhibitions. Add. Motozono-cho, Koji., Tokyo. — p. 155 ([scan leaf 226](https://archive.org/details/japan-year-book-1920/page/n226/mode/1up))
+
+**Takasugi, Shin** Dir. Nippon Beer Brewery Co., was b. in Okayama in '68. Add. Hommura, Azabu, Tokyo. — p. 155 ([scan leaf 226](https://archive.org/details/japan-year-book-1920/page/n226/mode/1up))
+
+**Takata, Kamakichi** Vice-Pres., Takata Firm, Dir., Takata Mining Co., since 1909; b. in Yokohama in 1876, 3rd son of the late Tanaka Heihachi, famous silk dealer and adopted by the Takata family; grad. from the Berlin Univ. in 1901; entered the Shibaura Iron Works in '02 as expert; left it two years after to enter the Tokyo Electric Works in which service he remained for years. Add. No.[illegible] Higashi-Kobai-cho, Surugadai, Tokyo. — p. 155 ([scan leaf 226](https://archive.org/details/japan-year-book-1920/page/n226/mode/1up))
+
+**Takata, Kōan** M.D., Proprietor of Takata Hospital, Tokyo, and Nanko-in Hospital, Chigasaki, was b. '61 in Kyoto; grad. from Med. Coll., Imp. Univ. of Tokyo '90 and subsequently commenced practice. Add. Sambancho, Kojimachi, Tokyo. — p. 155 ([scan leaf 226](https://archive.org/details/japan-year-book-1920/page/n226/mode/1up))
+
+**Takata, Motojiro** Director of the Industrial Dept., Formosan Govt.-Gen., b. in '64 in Niigata; grad. from Law, Imp. Tokyo Univ., and entered Communication Dept. in '93; Councillor of Imp. Govt. Rlys. in '07; toured through Europe and America on official inspection '07-8; transferred to present post '10; was given additional post of Dir. Arisan Timber Dept. in '13. Add. Taipeh, Formosa. — p. 155 ([scan leaf 226](https://archive.org/details/japan-year-book-1920/page/n226/mode/1up))
+
+**Takata, Sanae** D.C.L. (Japan), Crown Mem. of House of Peers, (nom. '15), ex-hon. President of Waseda Univ. and ex-Minister of Education; b. '60 at Tokyo; grad. Law at the Imp. Tokyo Univ. '82, and had since been connected with Waseda Univ., started the same year by Marquis Okuma; was once one of the leading members of the Progressists but for years past kept aloof from active politics, devoting himself to affairs of the Univ.; was Director of the Commercial Bureau, Foreign Office, '96-97 and Senior Councillor of Education, '98. He was repeatedly returned to the House from Saitama-ken; toured in Europe and America '14; Minister of Education in the Okuma Cabinet in '15-'16. Add. Komagome, Tokyo. — p. 155 ([scan leaf 226](https://archive.org/details/japan-year-book-1920/page/n226/mode/1up))
+
+**Takata, Shinzo** Prop. of welk-known Takata Shokai, exp. and imp. firm, b. in Sado, '55; student-interpreter at Ebisu Customs House '69; came up to Tokyo in '70 to seek fortune; entered the Allen's Firm, Yokohama the following year; started business on his own account '82 which, by his untiring perseverance and extreme prudence, has been carried to present state of prosperity. Add. Yushima, Hongo, Tokyo. — p. 155 ([scan leaf 226](https://archive.org/details/japan-year-book-1920/page/n226/mode/1up))
+
+**Takatsukasa, Hiromichi** Prince, formerly one of the five proud houses of Fujiwara extraction and Gosekke (see Ichijo), founded by Kanehira (1228-94 A.D.), scion of the Princely House of Konoye. The present head was b. in '55 and is Maj.-Gen., Grand Chamberlain to His Majesty. Add. Kami-Nibancho, Kojimachi, Tokyo. — p. 155 ([scan leaf 226](https://archive.org/details/japan-year-book-1920/page/n226/mode/1up))
+
+**Takayama, Choko** Chairman of Dirs., Teikoku Commercial Bank, b. 1867 in Ehime-ken; grad. from Keio; entered Mitui Bank '93, returned M.P. for his native place '08; present post '16. Add. No. 40 Naka-Shibuya, Tokyo. — p. 155 ([scan leaf 226](https://archive.org/details/japan-year-book-1920/page/n226/mode/1up))
+
+**Takayama, Keizo** Mng.-Dir. of Kwansai Trust Co., Osaka, etc.; was b. '62 in Fukuoka-ken; grad. from Waseda Special School '85; a journalist in Tokyo and Osaka for several years; Chief of Osaka Branch of Mitsui Drygoods Store for about ten years; Mng.-Dir. of Kyodo Fire Ins. Co. '05-12. Add. Momodani, Osaka. — p. 156 ([scan leaf 227](https://archive.org/details/japan-year-book-1920/page/n227/mode/1up))
+
+**Takeda, Hideo** Vice-Adm. of Eng. (ret.), chairman of Dirs., Mitsubishi Shipbuilding Co., b. 1864 at Kochi-ken; grad. from the Naval Eng. School, '83; studied in France, '91-92; app. Commander, '97, gradually to be promoted to Vice-Adm. in 1913, then Dir. of his alma mater; retired '14 later to enter the present Co. Took part in 1894-5 and 1904-5 Wars. Add. No. 146, Haramachi, Koishikawa, Tokyo. — p. 156 ([scan leaf 227](https://archive.org/details/japan-year-book-1920/page/n227/mode/1up))
+
+**Takekoshi, Yosaburo** ex-M.P., author and journalist; b. '65 in Tokyo, and adopted into the present family; studied at the Dojinsha and Keiogijuku; began his journalistic career about '88 as writer on the staffs of the Osaka Koron and Kokumin, then that of the Jiji; started his own paper in Tokyo, the short lived Sekai-no-Nippon, '96; chef de Cabinet of Marquis Saionji '98. Has written "History of 2,500 Years of Japan" and other works. He travelled abroad in '06; next the South Pacific '09. Add. Higashi-Okubo, near Tokyo. — p. 156 ([scan leaf 227](https://archive.org/details/japan-year-book-1920/page/n227/mode/1up))
+
+**Takemura, Yoshisada** Proprietor of the Teikoku News Agency, b. in '61 in Niigata-ken; started the news agency in '96; sat for years in the Tokyo Municipal Council; M.P. for his native district in '08. Add. Fujimi-cho, Kojimachi, Tokyo. — p. 156 ([scan leaf 227](https://archive.org/details/japan-year-book-1920/page/n227/mode/1up))
+
+**Takenouchi, Ko** Pres. of Sakae Bank, Tokyo, Dir. of Takenouchi Mining Co., etc.; b. '39 in Tosa and once took active part in politics, having been a chief lieutenant of Count Itagaki in his democratic agitation before the advent of constitutional regime, and sat in the House in the first few sessions. Add. Kogaicho, Azabu, Tokyo. — p. 156 ([scan leaf 227](https://archive.org/details/japan-year-book-1920/page/n227/mode/1up))
+
+**Taketomi, Tokitoshi** M.P. and leader of Kenseikai, ex-Min. of Finance; b. '55 in Saga-ken; from obscure politician of local reputation he suddenly came to the front as soon as he began to sit in the House where he has been returned almost without a break from the first session; Chief Secretary of the Cabinet in the Okuma-Itagaki Ministry; Minister of Communications in 2nd Okuma Ministry; occupied chair of Finance in Aug., '15-16. Add. Kaga-cho, Ushigome, Tokyo. — p. 156 ([scan leaf 227](https://archive.org/details/japan-year-book-1920/page/n227/mode/1up))
+
+**Takeuchi, Teizaburo** Man. of the Yasuda Bank, b. 1875 in Hokkaido; adopted by the late Kosuke Takeuchi; was long connected with the Higo Bank in which he rose to section chief. Add. Yasuda Bank, Nihombashi, Tokyo. — p. 156 ([scan leaf 227](https://archive.org/details/japan-year-book-1920/page/n227/mode/1up))
+
+**Takeuchi, Tsunekichi** nom de plume Seiho, Painter-in-Ordinary to the Court, Prof. at Kyoto Fine Art Academy, is one of the living master painters of the Japanese school; was b. '64 at Kyoto and studied under the late Kono Bairei; visited Europe '00. Add. Mi[illegible]ke-dori, Yanagikoji. Kyoto. — p. 156 ([scan leaf 227](https://archive.org/details/japan-year-book-1920/page/n227/mode/1up))
+
+**Takeuchi, Tsunekichi** Mng.-Dir., Dainippon Beer Co., b. in Ehime-ken; studied in the German Language School, Tokyo; entered the Legislation Bureau 1893; Mitsui Bank '97; Osaka Beer Co. '98; the present Co. '06; toured through Europe and America on business. Add. No 47, Shinsaka-machi, Akasaka, Tokyo. — p. 156 ([scan leaf 227](https://archive.org/details/japan-year-book-1920/page/n227/mode/1up))
 
 **Taki, Seiichi** Dr. Litt. (Japan) Professor of Oriental Art at the College of Literature, Imp. University, Tokyo, was b. in 1873, a son of Taki Katei, a master-painter in his day; grad. from the Imp. Univ Tokyo in '96, and further studied art criticism in England and France. He has been a regular correspondent to the London Studio and manages an art journal Kokka. Add. Tsukiji, Tokyo. — p. 157 ([scan leaf 228](https://archive.org/details/japan-year-book-1920/page/n228/mode/1up))
 
@@ -1982,6 +2134,18 @@
 
 **Tsutsui, Yaoju** M.D., Dir. of Okayama Medical College and Hospital of Okayama Prefecture; b. '63, in Miye-ken; graduated from Med. College, Imp. Tokyo Univ. in '90 and appointed Prof. of Chiba Med. College the same year; Dir. of Hospital of Chiba Prefecture for 23 years; transferred to Okayama in '13; while in Chiba he proceeded to Germany for study and became M.D. in '08. Add. Okayama. — p. 165 ([scan leaf 236](https://archive.org/details/japan-year-book-1920/page/n236/mode/1up))
 
+**Tsutsuki, Keiroku** Baron (cr. '08), D.C.L., Privy Councillor since '07; b. '62 in Tokyo; studied in Germany '82-85, after grad. from the Imperial Tokyo University; appointed Sec. of Legation and Per. Sec. to the Foreign Min., '86; travelled abroad '89 on the suite of Prince Yamagata; entered the Home Office in which he was appointed Director Public Works Bureau, '94; again travelled with Prince Yamagata when the latter was dispatched to Moscow to attend the Tsar Nicholas' Coronation Ceremony; Vice-Min. of Edu., '97; Env. Extr. Min. Plen. unattached '98; Vice-Min. of Foreign Affairs '99 under the late Vis. Aoki, but left it owing to some disagreement of views with his chief. Was on the suite of the late Prince Ito when he visited Europe, 01-02. Appointed Special Amb. to attend the Hague Peace Conference of '07; was created Baron for the service. Add. Mamiana, Azabu, Tokyo. — p. 166 ([scan leaf 237](https://archive.org/details/japan-year-book-1920/page/n237/mode/1up))
+
+**Uchida, Kakichi** ex-Vice-Min. of Communications, b. '66 in Tokyo; graduated Law, Imperial Tokyo Univ. '91, after which he entered the Department of Communications, in which he held post of Dir. of Shipping Bureau till '10; Dir. of Civil Affairs, Formosa, '11-15; above post, '17-'18. Add. Kyobashi, Tokyo. — p. 166 ([scan leaf 237](https://archive.org/details/japan-year-book-1920/page/n237/mode/1up))
+
+**Uchida, Sudutsuchi** ex-Minister to Sweden; was b. '65 at Kokura; grad. Law, Tokyo Imp. Univ. and appointed attaché in '89; élève Consul at Shanghai in '90; transferred to Seoul in '93, Consul-General in '02; Min. and Con.-General in Brazil in '07; decorated with 3rd Class Rising Sun in '06 for his service during the Russo-Japanese War, above post '11-'18. — p. 166 ([scan leaf 237](https://archive.org/details/japan-year-book-1920/page/n237/mode/1up))
+
+**Uchida, Yasuya** Viscount (Baron '07, Vis. '11), Minister of Foreign affairs, b. '65 in Kumamoto-ken; was attaché of the Legation at Washington '87; Per. Sec. to the Min. of Agr. & Com. (C't Mutsu), '90; held a similar post at the Foreign Office when his chief was transferred to it; Sec. of Legation at London '93; transferred to a similar post at Peking '95-98; Dir. of Political Bureau, to be promoted Vice-Min. of Foreign Affairs '00 and removed to the Legation at Peking, '01-06; nominated Amb. at Vienna in Feb. '07; Amb. to U.S.A. '09; Minister of Foreign Affairs in '12. Ambassador to Petrograd during the Great War, the Minister in '18. Mrs. Uchida is a daughter of Mr. Dogura and was educated at Vassar College, U.S.A. Add. Nishi Okubo, near Tokyo. — p. 166 ([scan leaf 237](https://archive.org/details/japan-year-book-1920/page/n237/mode/1up))
+
+**Uchimura, Kanzo** Christian teacher and essayist, was b. '61 in Saitama; grad. from Sapporo Agr. Coll. '81; clerk at the Dep't of Agr. and Commerce; studied at Amherst Univ. '83-88; instructor at the Higher School, Tokyo, and by his refusal to bow before the Emperor's portrait from religious scruple he had to resign; has subsequently devoted himself to journalism, educationist and non-Sectarian Christian teacher, and is publishing a religious monthly. Wrote “How I became a Christian” and others. Add. Tsunohazu, near Tokyo. — p. 166 ([scan leaf 237](https://archive.org/details/japan-year-book-1920/page/n237/mode/1up))
+
+**Uchimura, Tokujiro** Mech. E., Mem., A.S.R.E., Patent Solicitor; was b. '67 in Tokyo; grad. from the Tokyo Higher Technical College in '[illegible]; examiner of the Gov't Patent Bureau till '06; Chief Expert of the Imp. Refrigerating Co., travelled through Europe and America to inspect cold storage business in '07. Add. Yariyacho, Kyobashi, Tokyo. — p. 166 ([scan leaf 237](https://archive.org/details/japan-year-book-1920/page/n237/mode/1up))
+
 **Uchiyama, Kojiro** Gen., Chief Aide-de-Camp to His Majesty since '12, was b. '59 in Tottori; Sub-Lieut. (Art.) '79; attached to the Legations in Russia and France; Commanded Art. Corps in the Russo-Japanese War, attaché at Petrograd till '07; Commander of Yura Fort '08 and of 15th Division (Toyohashi) and 12th (Kokura) later; General '15. Add. Harajuku, Sendagaya, Tokyo. — p. 167 ([scan leaf 238](https://archive.org/details/japan-year-book-1920/page/n238/mode/1up))
 
 **Ue—** See Uye—. — p. 167 ([scan leaf 238](https://archive.org/details/japan-year-book-1920/page/n238/mode/1up))
@@ -2096,6 +2260,108 @@
 
 **Yamamoto, Tatsuo** Minister of Agr. & Com., Mem. House of Peers, ex-Gov. of Hypothec Bank of Japan; b. '56 in Oita-ken; connected with educational work from '80 to '82 when he entered the Mitsubishi Firm and was appointed a Director of the Yusen Kaisha, formed by amalgamation of the Mitsubishi with the rival company Kyodo; entered in '90 the Bank of Japan in which he was appointed Dir. of Banking Bureau, to be nominated Governor '98; relieved of the post '03; Gov. of Hypothec Bank of Japan '10; appointed Minister of Finance in '11, resigned in '12; again Minister of Agr. and Com. '13-14; and for the third time in '18. Add. Kami-Niban-cho, Kojimachi, Tokyo. — p. 173 ([scan leaf 244](https://archive.org/details/japan-year-book-1920/page/n244/mode/1up))
 
+**Yamamuro, Gumpei** Col. and Chief Secy, of Salvation Army, b. '71 in Okayama-ken, raised himself from a printer's apprentice and studied at Doshisha, to enter Salvation Army in '95; is known as an influencial preacher as well as an able social reformer. Has written a number of Christian works. Add. Salvation Army, Ginza, Tokyo. — p. 174 ([scan leaf 245](https://archive.org/details/japan-year-book-1920/page/n245/mode/1up))
+
+**Yamanari, Kyoroku** Dir. of the Bank of Taiwan, b. '73 in Okayama-ken; grad. '91 from the Accountants' School, formerly attached to the Tokyo Higher Commercial School, and entered the 34th Bank to be made Mng. of its Keelung Branch; removed in '85 to the Bank of Taiwan and had charge of its Kobe and Osaka Branches; next Assistant-Chief of the Dept. of General Affairs of its Head Office and finally installed in the present post in addition to the Managership of its Tokyo Branch. Add. Taihoku, Formosa. — p. 174 ([scan leaf 245](https://archive.org/details/japan-year-book-1920/page/n245/mode/1up))
+
+**Yamanashi, Hanzo** Lieut.-Gen., Vice-Min. of War, b. 1865 in Kanagawa-ken; Sub.-Lt., infantry, '86; Capt. '95; Major, 1900; Colonel, '09; Maj.-Gen. '15; appointed in the meantime instructor to the Military and Naval Colleges, Regimental and then Brigade Commander, Section Chief of the Gen. Staff Office, and finally Chief of the Inspection Dept., Military Education Board in '16; Lieut-Gen. and present post, '17. He distinguished himself as Chief Staff of the Besieging Army of Tsing-tao during the Great War. Add. No. 13 5-Bancho, Koj., Tokyo. — p. 174 ([scan leaf 245](https://archive.org/details/japan-year-book-1920/page/n245/mode/1up))
+
+**Yamanouchi, Ichiji** Crown Mem. House of Peers (nom. '14) and Lord-in-Waiting of the Kinkei Hall; b. in Kagoshima in '65; grad. Law, Imp. Tokyo Univ. in '88; Secretary and next Sectional Chief of the Police Bureau, Home Office, Governor of Aomori '02-4, Dir. of the R'ly Bureau '04-6, Vice-Pres. of the Imp. R'lys., and then Director of R'ly Adm. Dept., '09-12; Governor of Hokkaido '12; Chief Secy. to the Cabinet in Yamamoto Ministry. Add. Fujimicho, Azabu, Tokyo. — p. 174 ([scan leaf 245](https://archive.org/details/japan-year-book-1920/page/n245/mode/1up))
+
+**Yamanouchi, Toyokage** Marquis, Capt. of Infantry (ret.); was b. in '76 of the former fief of Tosa; graduated from the Military Cadet School in '00; to France for study '09 to return home ill in '10; married in '03 Princess Sachiko, eldest daughter of Prince Fushimi (d. '19). Add. Yoyogi, near Tokyo. — p. 174 ([scan leaf 245](https://archive.org/details/japan-year-book-1920/page/n245/mode/1up))
+
+**Yamao, Yozo** Viscount (cr. '87), was b. '37 in Yamaguchi, and was one of those young men who with late Prince Ito and Marquis Inouye proceeded to England on the eve of the Restoration for study; returned home in '70 and appointed Secretary at the Public Works Department and finally rose to be its Minister in '80; subsequently appointed Vice-President of the former Senate; Councillor at the Court; President of the Legislative Bureau; Lord Steward to the House of Princes Arisugawa and Kitashirakawa, etc. Resigned the official service in '93 and has since been leading retired life. Add. Toriizaka, Azabu, Tokyo. — p. 174 ([scan leaf 245](https://archive.org/details/japan-year-book-1920/page/n245/mode/1up))
+
+**Yamaoka, Juntaro** Vice-Pres., Osaka Shosen Kaisha, Chairman of Dirs. of the Osaka Iron Works, Pre. of the Osaka Chamber of Commerce, b. 1866 in Kanazawa; official of the Dept. of Communications '92-98; entered O.S.K. '98; its Section Chief '99; Manager, 1908; Dir. and Vice-Pres. since '14, combining several other posts. Add. Tennoji, Higashi-nari-gun, Osaka-fu. — p. 174 ([scan leaf 245](https://archive.org/details/japan-year-book-1920/page/n245/mode/1up))
+
+**Yamashina, Reizo** Vice-Pres. of the Tokyo Chamber of Commerce, Dir. of the Nippon Marine Eng. Co.; b. '64, Hiroshima-ken; came up to Tokyo '84, and opened a small diving firm; est. Yamashina Marine Eng. Office which was subsequently amalgamated with the Mitsubishi Marine Eng. Dept., is engaged in harbour works, bridge and dock construction, refloatation of wrecked ship, etc.; visited U.S.A. and Europe as representative of the Chambers of Commerce in Japan '18. Add. 1-chome, Kobikicho, Kyobashi, Tokyo. — p. 174 ([scan leaf 245](https://archive.org/details/japan-year-book-1920/page/n245/mode/1up))
+
+**Yamashita, Genta[illegible]o** Admiral, ex-Com.-in-Chief of First Fleet; was b. in '63 in Yamagata-ken; graduated from the Naval Academy '83 and Sub-Lieutenant '85; Commander '98; Captain '06; Rear-Admiral '08; Vice-Admiral '12. Was Member of the Naval General Staff; on the Staff of the Imperial Headquarters; Chief of Staff to the 1st Squadron and then to the Saseho Naval Station; chief of the 2nd Section of the Naval Materials Dep't, etc.; President of the Naval Academy '10-14. Deputy Chief of the Naval Staff Board and Mem. of the Adm. Council in '14-15; Com.-in-Chief of Saseho Admiralty, '15-17; Admiral '18. Add. Navy Office. — p. 175 ([scan leaf 246](https://archive.org/details/japan-year-book-1920/page/n246/mode/1up))
+
+**Yamashita, Kamesaburo** of Yamashita Steamship Co. which has sprung into fame since the outbreak of the War, was b. 1866 in Iyo, and came up to Tokyo while under 20 to seek employment. In '9[illegible] he became a small coal-dealer; began shipping business in '03, next lumber and warehouse business. The war and unusual activity of shipping business has established his fortune. Add. Takanawa, Shiba, Tokyo. — p. 175 ([scan leaf 246](https://archive.org/details/japan-year-book-1920/page/n246/mode/1up))
+
+**Yamawaki, Gen** D.C.L. Mem. House of Peers and ex-Pres. of Adm. Litigation Court; b. in Fukui '49; studied in Germany '70-72. He afterward filled various high civil posts and occupied the Presidency, Adm. Liti. Court '0[illegible]-13. Mrs. Fusako Yamawaki is a lady educationist and Dir. of Girls' High School. Add. Hinoki-cho, Akasaka, Tokyo. — p. 175 ([scan leaf 246](https://archive.org/details/japan-year-book-1920/page/n246/mode/1up))
+
+**Yamawaki, Ha[illegible]uki** Governor of Miye-ken; b. '71 in Kyoto, adopted son and heir of the above; grad. Law, Imp. Univ. in '96 and passed the higher civil service exam. the same year; official in the Dep't of Agr. and Com., first as Per. Sec. to the Minister, then as Secretary and Sectional Chief; Commissioner of Anglo-Japanese Exhibition in '10; the Dir. of Monopoly Bureau, Formosa, chief Commissioner to Panama Exhibition in '14-15. Gov. of Yamanashi '16-18. Add. Hirakawacho, Koj., Tokyo. — p. 175 ([scan leaf 246](https://archive.org/details/japan-year-book-1920/page/n246/mode/1up))
+
+**Yamaya, Tajin** Admiral and Com.-in-chief of Yokosuka Adm'lty since '20 b.in '6[illegible] in Tokyo; graduated from the Naval Academy '8[illegible] and then the Naval College '97; took part in the Japan-China War; Captain '05; Chief of Staff to the 4th Squadron during the Russo-Japanese War; Rear-Admiral '09; Chief of the Bureau of Personnal '09-13; Pres. of Naval College '13-14; Com. of 1st Fleet Aug., '15 and partook in the European war; Vice-Chief of Naval Staff Board '15; Vice-Adm. and then Com.-in-Chief of the first Fleet '18-'20. Add. Yokosuka. — p. 175 ([scan leaf 246](https://archive.org/details/japan-year-book-1920/page/n246/mode/1up))
+
+**Yamazaki, Keiichi** Consul Gen. in Shanghai since '19; b. in Kanagawa-ken, 1882; grad. from the Special Course of the Tokyo Higher Commercial School and passed the Dip. Service Exam. '05; Elevé-Con., the same year; rapidly promoted to Consul, Embassy Sec. and then to Consul-Gen. in London. Add. Shanghai. — p. 175 ([scan leaf 246](https://archive.org/details/japan-year-book-1920/page/n246/mode/1up))
+
+**Yamazaki, Shicroku** Treasurer, Imp. Household; b. in '68 at Sa[illegible]a; grad. from Imp. Tokyo Univ. (Law) '9[illegible], and at the same time passed the higher civil service exam.; Tax Inspector '97 attached to Nagasaki Taxation Office; transferred to Finance Office to be made its Sec. '00; Dir. of Finance Bur., then Debt Bureau. Add. Yoy[illegible]hata, near Tokyo. — p. 175 ([scan leaf 246](https://archive.org/details/japan-year-book-1920/page/n246/mode/1up))
+
+**Yanagisawa, Yasutoshi** Count, Mem. House of Peers, Mem. of Japanese Census Commission, Consulting Statist to the Cabinet, mem. of International Statistical Society, Hon. Mem. of Royal Statistic Society (England), etc.; b. '70 in Echigo, son of Lord Mitsu-aki, scion of the House of Yanagisawa which hereditarily held the fief of Koriyama, Yamato; adopted '86 as son and heir of the Main houses, and succeeded to the title '93; grad. at the Peers' College with honour '94; sent by the Imperial Court to Germany for study and attended the Universities of Berlin, Vienna, Strassburg, Brussels and Paris, studying statistics; meanwhile appointed on the suite of H.H. Prince Kan-in who was sent to attend the Diamond Jubilee of Emperor Francis Joseph; returned home in '00; attended the International Statistical Conference six times as representative of Japan, from that at Christiania in '99 to the latest at the Hague '11. He held Presidency of the 1st Mutual Insurance Co. till '15, and is now its adviser. Add. 8-chome, Tamachi, Shiba, Tokyo. — p. 176 ([scan leaf 247](https://archive.org/details/japan-year-book-1920/page/n247/mode/1up))
+
+**Yanagiya, Usaburo** Paymaster-Lieut. (ret.), Vice-Gov. of Hypothec Bank of Japan; b. in '67 in Nagasaki-ken; graduated from the College of Law, Imp. Tokyo Univ., '90. Entered the Bank of Japan immediately after graduation; travelled Europe in '96; was appointed Chief of the Issue Dep't, Auditor to the New York Agency, Chief of the National Loan Bureau; resigned '13, and appointed Dir. of the Hypothec Bank; present post '13. Add. Harajuku, Tokyo. — p. 176 ([scan leaf 247](https://archive.org/details/japan-year-book-1920/page/n247/mode/1up))
+
+**Yano, Fumio** Dir. of Kinjo Middle School, author, and retired diplomat; b. '50 in Oita prefecture; graduated from the Keiogijuku, '70; entered the central Government as Secretary to the Treasury, '78; resigned with Count Okuma in '81 and took charge of the Hochi Shimbun, in company with the late Mokichi Fujita; took part in the formation of the Kaishinto (progressive party); made tour in Europe and America, '86-88; Master of Ceremonies and Chief of the Bureau of Imperial Tombs, '90-96; Envoy Extraordinary and Minister Plenipotentiary to China, '97-98; placed on the retired list in '99. He has written “Keikoku Bidan” (story of ancient Greece), “Ukishiro Monogatari” (a marine novel); “News Society,” etc. Add. Harajuku, Tokyo. — p. 176 ([scan leaf 247](https://archive.org/details/japan-year-book-1920/page/n247/mode/1up))
+
+**Yano, Tsuneta** Pres. and Mng.-Dir. of the 1st Mutual Life Insur. Co., was b. '65 in Okayama; grad. the Third Higher School in '89; entered the Japan Life Insur. Co., and in '93 was made manager of the Kyosai Life Insur. Co.; went over to Belgium to attend the International Congress of Actuaries held in Sept. '95; and afterward entered a German Life Insur. Co. to receive its business training; was appointed an official in the Dep't of Agr. and Com., but soon resigned to start the present Co. Add. Omori, near Tokyo. — p. 176 ([scan leaf 247](https://archive.org/details/japan-year-book-1920/page/n247/mode/1up))
+
+**Yashiro, Rokuro** Baron (cr. '16), Adm., (ret.) ex-Mem. Sup. Mil. Council; b. '60 in Aichi; Naval Ensign in '85, and rapidly promoted; Captain in '01 and finally to the present rank. Long served as Staff-Officer of the Standing Squadron, then Attaché to the Legation at Petrograd; Vice-Com. of the Yashima; commander of the Asama in Russo-Japanese War; Dir. of Naval Staff College '12-13; Com. of Maizuru Admiralty '13-'14; Minister of Navy '14-15; Admiral '16; Com. 2nd Fleet '17. Add. No. 81 Kogaicho, Azabu, Tokyo. — p. 176 ([scan leaf 247](https://archive.org/details/japan-year-book-1920/page/n247/mode/1up))
+
+**Yasoshima, Chikanori** Manager of the Shibusawa's Office, Dir. of the Shinagawa Fire Brick Co., Shibusawa Warehouse Co., etc., was b. '73 in Uwajima, Iyo; grad. Tokyo Higher Commercial School in '94; appointed Per. Sec. to Baron Shibusawa. He travelled once in Europe and America with the Baron. Add. Shirokane-Daimachi, Shiba, Tokyo. — p. 176 ([scan leaf 247](https://archive.org/details/japan-year-book-1920/page/n247/mode/1up))
+
+**Yasuda, family** The. One of the Millionaire families, owning, running or dominating over scores of big concerns such as banking, trading, building, insurance, etc., throughout Japan. Zenjiro, head of the family, who sprang from obscurity to the present affluence, b. '38 in Toyama-ken; founded several banks besides financing many more useful undertakings; once Mem House of Peers. (Res. Yokoami, Honjo, Tokyo). Zenzaburo, Highest Tax Mem., House of Peers for Tokyo, Pres. of Tokyo Building Co., Gen. Superviser of Yasuda Bank, etc., b. in '69 at Uwajima and was adopted by the family as husband of its eldest daughter; grad. from Law Coll., Imp. Tokyo Univ. '9[illegible]. Zennosuke, (Dir., Yasuda Bank, Kyoto Bank, etc.), Zengoro (Pres., Yasuda Bank, Teikoku Marine, Transport and Fire Ins., Dir., Yasuda Trading, etc.) Yoshio (Pres., 3rd Bank, Tokyo Fire Ins., Aud. Yasuda Bank, Katsuragawa Elec.-Power House, etc.), brothers-in-law of the above and 2nd, 3rd and 4th sons of Zenjiro, and Zenshiro, and Zenye, Yoshiye both their relatives by blood, all take active part in management of concerns owned or run by the family. — p. 177 ([scan leaf 248](https://archive.org/details/japan-year-book-1920/page/n248/mode/1up))
+
+**Yasukawa, Kei-ichi[illegible]o** Baron, ([illegible]. '19), a highest tax-payer, mine-owner, Dir. of several Cos.; b. '4[illegible] in Chikuzen; studied at the Keiogijuku '72; has made a fortune in coal-mining; founded single-handed the Meiji S[illegible]mmon College in 1[illegible]8 by contributing 3,0[illegible]0 000 yen, and has been duly rewarded. The institution was offered to the Gov't with all its properties in 1920. Add. Wakamatsu, Fukuoka. — p. 177 ([scan leaf 248](https://archive.org/details/japan-year-book-1920/page/n248/mode/1up))
+
+**Yasukawa, Yunosuke** Dir. of Mitsui Bussan Kaisha, b. 70 at Kashiwahara, Kyoto; grad. from the Osaka Higher Commercial School in '89 and entered Mitsui Firm the same year; was promoted to Dir. '17, after having been Chief of one Branch or other. Add. Tsukudo-Hachiman, Ushigome, Tokyo. — p. 177 ([scan leaf 248](https://archive.org/details/japan-year-book-1920/page/n248/mode/1up))
+
+**Yata, Chonosuke** Consul-Gen., b. 1871 in Shimane-ken; grad. from the Tokyo Higher Commercial School '95; passed the Diplomatic Service Exam. '99; Eléve-Con. 1900; Stationed at Tientsin, Mexico, Vancouver, etc. as consul and Legation Secretary; Consul-Gen. in '13 and stationed at Ottawa, New York; called back home '19. Add. For. Office. — p. 177 ([scan leaf 248](https://archive.org/details/japan-year-book-1920/page/n248/mode/1up))
+
+**Yatsuka, Heiji** Pres. of Tokyo Wire Mfg. Co., Mng.-Dir. of the Tokai Leaden Pipe Mfg. Co., b. '68, Ehime-ken; came up to Tokyo '88 and attended to study as self-supporting student; taught at commercial school, Yokohama till '9[illegible], when he entered business as an Accountant of the Yokohama Wire Mfg.; its Manager '10; left the Co. when it was absorbed by Furukawa Co.; promoted the present cos. '12. He has connection with several other cos. Add. No. 17 Okanocho, Yokohama. — p. 177 ([scan leaf 248](https://archive.org/details/japan-year-book-1920/page/n248/mode/1up))
+
+**Yokoi, Jikei** Dr. Agr., Prof. at Agr. Coll., Imp. Tokyo Univ. and Pres. of Tokyo Agr. Univ. (private); b. '60 in Kumamoto; grad. from above Coll. '83; studied in Germany '9[illegible]-02; expert to the Agr. and Com. Dep't; Prof. in '94. Add. Aoyama Minamicho, Tokyo. — p. 177 ([scan leaf 248](https://archive.org/details/japan-year-book-1920/page/n248/mode/1up))
+
+**Yokota, Hideo** D.C.L. (Japan), Judge of Supreme Court since '01; b. '62 in Nagano-ken; grad. from Law, Imp. Tokyo Univ., class '[illegible]8; sat at Tokyo, Chiba and Hakodate District Courts, and Tokyo and Hakodate Appeal Courts before his transfer to the present post; teaches at the Waseda Univ., etc. being an authority on claims; was sent abroad on official mission '09. Add. Nakano, near Tokyo. — p. 177 ([scan leaf 248](https://archive.org/details/japan-year-book-1920/page/n248/mode/1up))
+
+**Yokota, Kuniomi** Baron, (cr. '15), Pres. of the Supreme Court since '06; was b. '50 in Oita-ken; entered the judical service '76, Public Procurator, '80; the acting Dir. of Criminal Bureau and Sec. of the Dep't which post he resigned to study law in Europe '86-91; was appointed on return Pub. Proc. of the Tokyo Appeal Court, Councillor, then Vice-Min. of Justice '96, Proc.-Gen. '98, Chief Pub. Proc. of Tokyo Appeal Court '99. Add. Kagurazaka, Ushigome, Tokyo. — p. 178 ([scan leaf 249](https://archive.org/details/japan-year-book-1920/page/n249/mode/1up))
+
+**Yokoyama, Matajiro** geologist, D. Sc. (Japan), Prof. in the Imp. Tokyo Univ.; was b. '60 in Nagasaki; grad. Geology in the Imp. Tokyo. Univ. and was subsequently appointed an official at the Dep't of Agr. and Com. in '82; sent to Germany to prosecute further study in '86; appointed Prof. at his alma mater on returning home. Add. Higashi-Goken-cho, Ushigome, Tokyo. — p. 178 ([scan leaf 249](https://archive.org/details/japan-year-book-1920/page/n249/mode/1up))
+
+**Yoneyama, Umekichi** Mng.-Dir., Mitsui Band, b. 1869 in Tokyo; adopted into the present family as husband of its daughter; studied in the Aoyama Gaku-in and U.S.A. Entered the Bank '95 and toured abroad with Seihin Ikeda for inspecting banking '98; Manager of the Yokohama and then, Osaka Branch; elected to the present post, 1909 when the Bank was reorganized into K.K.; second tour in Europe '13. Add. No. 116/6 Aoyama-Minamicho, Tokyo. — p. 178 ([scan leaf 249](https://archive.org/details/japan-year-book-1920/page/n249/mode/1up))
+
+**Yoshida, Ch[illegible]kei** Mng.-Dir. of Kobe Marine, Transport and Fire Ins. Co., and of Nissin Fire and Marine Ins. Co., b. '66 in Ishikawa-ken; became a lawyer '87; elected Vice-Chairman of Osaka Lawyer's Association '99; gave up the profession and became Mng.-Dir. of Kobe Marine Ins. Co. '07; organized Nisshin Co. '11. Add. No. 25/2 Koku-cho, Higashi-ku, Osaka. — p. 178 ([scan leaf 249](https://archive.org/details/japan-year-book-1920/page/n249/mode/1up))
+
+**Yoshida, Kenryu** Pres. of Hiroshima Higher Normal School since '20, b. '70 in Ishikawa; grad. from Philosophy, Imp. Tokyo Univ. '97; Dir. of Middle Schools, Prof. at Waseda; Pres. 7th High School till '20 Add. Hiroshima. — p. 178 ([scan leaf 249](https://archive.org/details/japan-year-book-1920/page/n249/mode/1up))
+
+**Yoshida, Yosaku** member of the Board of Ceremonies, Imp. Court, b. '50; clerk at Foreign Office in '77-86, attaché in '87, Elève-Consul at Manila in '92 and then attaché in Berlin; Personal Sec. of Foreign Office '96-'18. Add. Tokyo. — p. 178 ([scan leaf 249](https://archive.org/details/japan-year-book-1920/page/n249/mode/1up))
+
+**Yoshii, Ishinosuke** Maj.-Gen.-infantry, b. 1868 in Tokyo; Grad. from the Military College and appointed Sub.-Lieut., 1892; Captain, 1 898; Colonel, 1912. Took part in the Chino-Japan and Russia-Japan Wars; was for a long time senior staff officer of Kwantung Military Government, Maj.-Gen. and Com. of 30th Brigade since 1917. Add. Isshi-gun, Miye-ken. — p. 178 ([scan leaf 249](https://archive.org/details/japan-year-book-1920/page/n249/mode/1up))
+
+**Yoshii, Keiso** Commander (ret.), 2nd Count, mem. House of Peers, Pres. Japan Lifeboat Assoc., was b. '55; studied in England, and then grad. from the Naval Cadet School in '80. Add. Sagacho, Fukagawa, Tokyo. — p. 178 ([scan leaf 249](https://archive.org/details/japan-year-book-1920/page/n249/mode/1up))
+
+**Yoshii, Yukei** ex-Dir. of the Bank of Japan, was b. '63 in Kagoshima. Early entered the Bank of Japan in which he gradually distinguished himself to be given in course of time an important position of Director, which he resigned in '19. Add. Kita-iga-cho, Yotsuya, Tokyo. — p. 178 ([scan leaf 249](https://archive.org/details/japan-year-book-1920/page/n249/mode/1up))
+
+**Yoshimatsu, Shigeta[illegible]o** Adm., Mem. of Supreme War Council; b. '59 in Kochi-ken; appointed Sub.-Lieut. in '83; was at one time Staff Officer of the Kure Adm., Sec. Chief, Staff Office; Chief Staff of Saseho Adm.; Com. of the Naniwa, Takasago, and some others; Rear-Adm. in '07; Vice-Adm. '09; Prof. of Naval Staff Coll. in '10; Com. of 2nd Squad. in '11-12; Chief of Edu. Board '12-14; Com. of the Kure Adm. '14-17; Com.-in-Chief of 1st Fleet '15-17; full Adm. '16; present post in 17. Add. Navy Office, Tokyo. — p. 179 ([scan leaf 250](https://archive.org/details/japan-year-book-1920/page/n250/mode/1up))
+
+**Yoshimura, Manjiro** Mng.-Dir., Furukawa Trading Co., b. 1886 in Tochigi-ken; grad. from Keio in 1902; further studied in the Halle and the Berlin Universities for 5 years. Returning home via England and America at the outbreak of the European war entered the Furukawa firm, 1915; the present post when the firm was reorganized into a Joint Stock Co., Married the sister of Baron Furukawa. Add. No. 152 Shimoshibuya, Tokyo. — p. 179 ([scan leaf 250](https://archive.org/details/japan-year-book-1920/page/n250/mode/1up))
+
+**Yoshimura, Tetsunosuke** Pres. of the Yoshimura Firm, b. in '58 in Shiga-ken; came up to Tokyo to seek employment when 29 and worked his way up to the present eminence; inaugurated the present firm in '91. He is connected with the Manchuria Flour Mill and Nippon Machine Mfg. Co. as their President, etc. Add. 2-chome, Shirokane-Dai-Machi, Shiba, Tokyo. — p. 179 ([scan leaf 250](https://archive.org/details/japan-year-book-1920/page/n250/mode/1up))
+
+**Yoshioka, Kyoho** Pres. of 5th High School; b. '76 in Yamaguchi; grad. from Law, Imp. Tokyo Univ. '99; was Prof. at 2nd High School, Inspector, etc. Add. Kumamoto. — p. 179 ([scan leaf 250](https://archive.org/details/japan-year-book-1920/page/n250/mode/1up))
+
+**Yoshizawa, Kenkichi** Dir. Political Bureau, For. Office since '19, was b. '74 in Niigata-ken; grad. from Col. Literature (English Lit.), Imp. Tokyo Univ. '99; passed the Dip. and Com. Service Exam. the same year; attached at Seoul '99; Elève-Consul at Amoy, Shanghai, London, etc. '00-0[illegible]; 1[illegible] Secy. at London '10; Consul-Gen. at Hankow; Sec. of Chinese Legation '16-19. Add. Hiroo, Azabu, Tokyo. — p. 179 ([scan leaf 250](https://archive.org/details/japan-year-book-1920/page/n250/mode/1up))
+
+**Yu-asa, Shichiza-emon** millionaire dealer in iron and copper and importer and exporter in Kyoto, b. in Kanazawa '77, brother of Mr. S. Hayakawa, banker, and was adopted by the Yuasa of Kyoto; grad. from Law, Imp. Tokyo, Univ. '91. Add. Takakura Higashi-iru, Gojodori, Kyoto. — p. 179 ([scan leaf 250](https://archive.org/details/japan-year-book-1920/page/n250/mode/1up))
+
+**Yu-asa, Shobei** mem. House of Peers (nom. '16), b. '74 in Fukushima, grad. from Law, Imp. Tokyo Univ. '89; held posts of Secretary at Shiga, Hyogo and other provinces; then Secretary and Dir. of Local Government Bureau, Home Office; Gov. of Okayama and then of Shizuoka in '14; Dir. of Police Bur., Home Office '15-16. Add. Shizuoka. — p. 179 ([scan leaf 250](https://archive.org/details/japan-year-book-1920/page/n250/mode/1up))
+
+**Yu-asa, Takenosuke** general exporter and importer in Kobe, Aud. of Masuda Flour Mill Co. and Mem. of Kobe Chamber of Commerce; b. '69 in Wakayama-ken; was a Mng. of the well-known Masuda Firm., Yokohama, Add. Yamamoto-dori Gochome, Kobe. — p. 179 ([scan leaf 250](https://archive.org/details/japan-year-book-1920/page/n250/mode/1up))
+
+**Yugawa, Kankichi** Mng.-Dir., Sumitomo Bank, b. 1868 in Wakayama-ken, grad. from the Law Coll. Tokyo Imp. Univ. '90; was Secretary to the Dept. of Communications and next to the Formosan Govt.; Principal of the Post and Telegraph School; represented Japan at the International Postal Conference held at Washington, '96; Dir. of the Communication Superintending Bureau; Councillor to the Dept. of Communications; resigned office '05 and entered the Sumitomo Firm. Add. Sumitomo Bank, Osaka. — p. 179 ([scan leaf 250](https://archive.org/details/japan-year-book-1920/page/n250/mode/1up))
+
+**Yugawa, Moto-omi** ex-Vice-Min. of Com. 1914-16, Dir. of the Yusen Kaisha; was b. in Shizuoka; grad. Law Coll., Imp. Univ. '93, and was long connected with the Com. Dep't having been Secretary, Dir. of Maritime Bureau, etc.; Dir. of the Fujita Firm, Osaka for a time. Add. Kami-Osaki, Ibaragun, Tokyo-fu. — p. 180 ([scan leaf 251](https://archive.org/details/japan-year-book-1920/page/n251/mode/1up))
+
+**Yuhara, Gen-ichi** Pres. of Higher Female Normal School, Tokyo; b. '63 in Saga; first studied Medicine at Imp. Tokyo Univ., but left it unfinished in '84; held post of prof. at various Gov. Schools, Dir. of Middle Schools, Dir. Imp. Music Academy '08-17; present post in '17. Add. Ichigaya, Ushigome, Tokyo. — p. 180 ([scan leaf 251](https://archive.org/details/japan-year-book-1920/page/n251/mode/1up))
+
+**Yuhi, Mitsuye** Gen. Com. Tsingtao Garrison since '19; b. '63 in Kochi; Sub-Lt., '82; graduated from Military Staff College; studied in England, Vice-Chief Staff of 2nd Army in Russo-Japanese War; Com. of 27th Brigade '09; Sec. Chief of General Staff till '14 when transferred to Dir. of Mil. Staff College; Lt.-Gen. and Divisional Com. '15 and then, Chief of Staff of the Siberian Expedition sent during the Great War. — p. 180 ([scan leaf 251](https://archive.org/details/japan-year-book-1920/page/n251/mode/1up))
+
+**Zumoto, Motosada** Prop. and Edit. of the Herald of Asia, started by him in '16, an English weekly review of life and progress in the Orient; b. '62 in Hoki Province, and grad. Sapporo Agr. Coll. '84; was long on the staff of the Japan Mail; entered civil service for a short while and was twice appointed Per. Sec. of the late Prince Ito when he was Premier; frequently visited Europe and America; was during the Russo-Japanese War a resident correspondent of the London Standard in Tokyo; accompanied the late Prince Ito to Seoul as non-official mem. of the Residency-Gen., and in January '06 he took over the Seoul Press formerly owned by an Englishman. Withdrew from it in '09, to start the Oriental Information Agency in New York City, but returned to Tokyo in December '10 to assume the control of the Japan Times, from which he withdrew in '14. Made a tour to U.S.A. with Baron Shibusawa in '15. Add. Hommuracho, Azabu, Tokyo. — p. 180 ([scan leaf 251](https://archive.org/details/japan-year-book-1920/page/n251/mode/1up))
+
+**Zushi, Tamiyoshi** Director of the Asahi Rubber Co., was b. '54 at Kagoshima; studied at an American Coll. '73-79; Sec. of the former Public Works Dep't '79; transferred to the R'ly Bureau '83 and remained in the service as Dep't Dir. till '0[illegible] when he was placed on retired list. Add. No. 1060 Ochiai-mura. near Tokyo. — p. 180 ([scan leaf 251](https://archive.org/details/japan-year-book-1920/page/n251/mode/1up))
+
 
 ## Charity and Relief
 
@@ -2135,6 +2401,24 @@
 
 **Sumire Girl's School Orphanage** (Yokohama) A Catholic institution established in 1874, and hence one of the oldest in Japan. Already more than 1,300 orphans and foundlings have been taken care of, and at present 150 are given protection. — p. 238 ([scan leaf 309](https://archive.org/details/japan-year-book-1920/page/n309/mode/1up))
 
+### V. Reform Work — 1. Ex-Convicts' Homes
+
+**Hosei-kai** —(Prison Ass'tion Office, Tokyo) The organ of the Chuo-Hogo-kai (Central Association for Protection of Ex-convicts). This is a foundation organized and supported by about 280 homes throughout the country. It is connected with the judicial authorities and exercises control over the homes. — p. 239 ([scan leaf 310](https://archive.org/details/japan-year-book-1920/page/n310/mode/1up))
+
+**Mr. Hara's Ex-Convict Home** One of the largest and best regulated, this was created on the memorable occasion of the amnesty in 1896. Mr. Hara is a Christian who had been imprisoned for some years for political offence, and who undertook the duty of a prison chaplain. Up to Jan. 1919 the home took care of 6,1[illegible]8 ex-convicts including 607 women. Those admitted in '18 totalled 740 men and 91 women. The statistics for 1918 are as follows:— Self-supporting, 572; under protection at the home or other institutions, 17; died, 2; escaped and re-convicted, 65; whereabout unknown, 15[illegible]. — p. 239 ([scan leaf 310](https://archive.org/details/japan-year-book-1920/page/n310/mode/1up))
+
+### VI. Aids for the Feeble-Minded
+
+**The Takinogawa Orphanage for the Feeble-minded at Sugamo** This was founded in '91 at Takinogawa, Oji, eastern suburb of Tokyo, by Mr. R. Ishii, a devout Christian. About 57 inmates of both sexes are under protection of the home. The orphanage is supported by ¥95,085 of the assets, annual expenditure being ¥ 12,061 for 1917. — p. 240 ([scan leaf 311](https://archive.org/details/japan-year-book-1920/page/n311/mode/1up))
+
+### VIII. Reform Farm or Katei Gakko (Family School)
+
+**Reform Farm or Katei Gakko (Family School)** —Sugamo, Tokyo Reform of refractory boys side by side with farming is a novel undertaking started by Mr. Kosuke Tomeoka, a well-known Christian reformer. In 1917 the Home had under its roof 52 children together with externs, and by that year over 150 boys had left it completely reformed. The Reform Farm scheme is an ambitious one, being to open up land covering 1,000 cho (2,500 acres) in Hokkaido. The plan is to open up 800 cho in 11 years. — p. 240 ([scan leaf 311](https://archive.org/details/japan-year-book-1920/page/n311/mode/1up))
+
+### X. Miscellaneous Works
+
+**Invalidated Soldier's Home** This was first started in 1906 at Shibuya, suburb of Tokyo. Only about 80 are at present living in the Home, all the rest, sixteen thousands of invailds being still at their own homes, partly because the pension for invaildated soldiers was somewhat raised soon after the War and also because family ties are very strong in Japan. The Home was removed in June '08 to the present site at Sugamo, presented by the Mitsui family and has fund of over yen 440,000 of which yen 100,000 was donated by Mr. I. Morimura. — p. 240 ([scan leaf 311](https://archive.org/details/japan-year-book-1920/page/n311/mode/1up))
+
 
 ## Banks and Banking Business
 
@@ -2155,3 +2439,1013 @@
 **The Bank of Taiwan** Est. 1897, capital ¥20,000,000 paid up, it enjoys privilege of issuing against the reserve of gold, silver coins or bullion bank notes convertible in gold yen, notes within ¥10,0000,000 covered by Government bonds, Treasury bills, etc. Nominal capital was increased from ¥1[illegible],000,000 to ¥20,[illegible]00,000 in 1916. It started in 1917 a long-term deposit as trust account but which has been suspended lately. Board of Directors.—President, Tetsutaro Sakurai; Vice-Pres., Kojuro Nakagawa; Directors, Iyetoshi Sata, Kyoroku Yamanari, Shingo Minami. Heard Office.—Taihoku, Formosa. Tokyo Branch: Eirakucho, Marunouchi. — p. 399 ([scan leaf 470](https://archive.org/details/japan-year-book-1920/page/n470/mode/1up))
 
 **The Bank of Chosen** See Chap. on Chosen. — p. 399 ([scan leaf 470](https://archive.org/details/japan-year-book-1920/page/n470/mode/1up))
+
+### Clearing Houses
+
+**Tokyo Clearing House** The Tokyo Clearing House commenced its business at the end of 1877. More or less good result was realized, but the subsequent development of banking business has necessitated the form as it now stands. Its organization is mainly based on that of the clearing-houses in Europe and America. — p. 407 ([scan leaf 478](https://archive.org/details/japan-year-book-1920/page/n478/mode/1up))
+
+**Osaka Clearing House** Founded in 1979 the Osaka Clearing House is the first of the clearing houses establishsd in our country. In Osaka, the centre of trade in our country since old time, cheques and bills were in use long before the Restoration, and it took the lead in introducing the clearing house facilities. — p. 407 ([scan leaf 478](https://archive.org/details/japan-year-book-1920/page/n478/mode/1up))
+
+
+## Appendix A: Learned & Social Institutions
+
+### Section I. Learned Institutions
+
+**Agricultural Association, Japan** Founded 1881; publishes monthly organ Dai Nippon Nokai-ho, and maintains Tokyo Agricultural University (private) in Tokyo as its educational Institution. Members number 15,5[illegible]0 and are Honorary, Special, Ordinary and Associate. Patron Prince Fushimi; Pres. Marquis K. Matsudaira; Vice-Pres. Dr. A. Yokoi, the Pres. of the University. Add. Tameike, Akasaka, Tokyo. — p. 747 ([scan leaf 818](https://archive.org/details/japan-year-book-1920/page/n818/mode/1up))
+
+**Asiatic Society, of Japan** Pioneer association of the kind in Japan and was est. about 1[illegible]80 by the late Sir Earnest Satow and others in Japan for studying and investigating Japanese customs, history, literature, etc. List of members 530 including those residing abroad. Annual subscription ¥12; Meeting held quarterly and proceedings published occasionally and distributed to members gratis. Pres. Sir Williom Conyingham Greene; Hon. Secy. Ernest Wilson Clement. Add. Keio University, Tokyo. — p. 747 ([scan leaf 818](https://archive.org/details/japan-year-book-1920/page/n818/mode/1up))
+
+**Bankers' Association, Tokyo** Founded 1900; funds ¥150,000 to be created. Subscription in proportion to the capital paid up of the associated banks, ranging from ¥100 to ¥1,000. The members number 69 banks. Pres S. Hayakawa, Directors. T. Matsukawa; Chief Secy. N. Yamazaki. Add. Sakamoto-cho, Nihombashi, Tokyo. — p. 747 ([scan leaf 818](https://archive.org/details/japan-year-book-1920/page/n818/mode/1up))
+
+**Barristers' Society, Japan** Founded June, 1896; issues a monthly periodical; members numbered 1,700 at the end of Feb. 1916; Dues, ordinary membership 20 Sen per month. Directors Y. Ishiyama, S. Ikeda, K. Harada, T. Hanai, etc. Add, Nishi-Hibiya, Kojimachi, Tokyo. — p. 747 ([scan leaf 818](https://archive.org/details/japan-year-book-1920/page/n818/mode/1up))
+
+**Botanical Society, Japan** Founded 1882; publishes a monthly Botanical Magazin. Dues ¥6.60 per annum. Members number 400. Pres. Dr. J. Matsumura; Chief Dir. Dr. K. Shibata. Add. Botanical Garden, Tokyo. — p. 747 ([scan leaf 818](https://archive.org/details/japan-year-book-1920/page/n818/mode/1up))
+
+**Carnegie Endowment for International Peace, Division of Economics and History, Japanese Committee** Est. in July, 1912 in accordance with the international Conference of Economists held in 1911 in Berne. The result of investigation will be published at the head office in New York, U.S.A. President of the National Committee is Baron Y. Sakatani, and Secy. Y. Yamamoto. Office at Senshu Daigaku, Kanda, Tokyo. — p. 747 ([scan leaf 818](https://archive.org/details/japan-year-book-1920/page/n818/mode/1up))
+
+**Chemical Industry Society, Tokyo** Founded 1878; dues for regular member ¥5 per annum, associate ¥3, these numbering 650 in all. Publishes a monthly Tokyo Kwagakukwaishi. Pres. U. Suzuki; Secy. Y. Shibata, K. Aso. Add. Science College, Imp. University, Tokyo. — p. 748 ([scan leaf 819](https://archive.org/details/japan-year-book-1920/page/n819/mode/1up))
+
+**Electric Association** Founded 1912; subscription ¥4 to 500 a year. Pres R. Kimura; Vice-Pres. Dr. I. Nakahara; Chief Secy., B. Kawanishi. Add. Sanchome, Yurakucho, Kojimachi, Tokyo. — p. 748 ([scan leaf 819](https://archive.org/details/japan-year-book-1920/page/n819/mode/1up))
+
+**Emigration Society, Japan** Founded 1914; subscription ¥10 per annum. Members number 5,[illegible]00. Pres. Marquis S. Okuma; Vice.-Pres. J. Soyeda; Chief Secy. S. Hayakawa. Add. Sanchome, Yurakucho, Kojimachi, Tokyo. — p. 748 ([scan leaf 819](https://archive.org/details/japan-year-book-1920/page/n819/mode/1up))
+
+**Fire Insurance Society, Japan** Created 1907; annual subscription according to the business result of the society. Chairman of the committee is K. Kagami; Chief Secy. K. Takai. Add. Minami-Nabecho Nichome, Kyobashi, Tokyo. — p. 748 ([scan leaf 819](https://archive.org/details/japan-year-book-1920/page/n819/mode/1up))
+
+**Foreign Trade Association, Japan** Founded 1886; member 466 in all. Representatives, K. Ikeda, K. Otani, O. Suzuki; Secy. T. Ikeda. Add. 7 Sojurocho, Kyobashi, Tokyo. — p. 748 ([scan leaf 819](https://archive.org/details/japan-year-book-1920/page/n819/mode/1up))
+
+**Geographical Society, Tokyo** Founded 1879; number of members 260; dues ¥100 in lump or ¥6 a year. Patron Prince Kan-in; Pres. Marquis N. Nabeshima; Vice-Pres. Visc. Y. Hanabusa, Baron D. Kikuchi; Secys. Dr. F. Omori, K. Inouye, K. Fukuchi. Add. Nishi Konyacho, Kyobashi, Tokyo. — p. 748 ([scan leaf 819](https://archive.org/details/japan-year-book-1920/page/n819/mode/1up))
+
+**Historio-Geographical Society, Japan** Founded 1899. Dues ¥2 a year. Members number about 800; publishes a monthly organ Rekishi-Chiri. Pres. Marquis M. Hachisuka. Add Aoyagicho, Koishikawa, Tokyo — p. 748 ([scan leaf 819](https://archive.org/details/japan-year-book-1920/page/n819/mode/1up))
+
+**Horticulture Society, Japan** Founded 1889; publishes a monthly magazine. Dues for ordinary members ¥2, special members ¥3, per annum; list of members some 3,000. Pres. Marquis S. Okuma; Vice-pres. Viscount T. Fujinami. Add. 696 Nakashibuya, Tokyo. — p. 748 ([scan leaf 819](https://archive.org/details/japan-year-book-1920/page/n819/mode/1up))
+
+**Imperial Aviation Society** Founded 1914; members 7,000 in March, 1916. Dues, regular member ¥100 in lump or annually ¥12 for ten years, common member ¥10 or 3 annually for five years. Pres. Marquis S. Okuma; Vice-Pres. Baron Y. Sakatani. Add. Yurakucho 1-chome, Tokyo. — p. 748 ([scan leaf 819](https://archive.org/details/japan-year-book-1920/page/n819/mode/1up))
+
+**Imperial Railway Association** Founded 1898; publishes as organ Teikoku Tetsudo Kyokai Kwaiho; members 2, 436 in all. Honorary members confined to those who have rendered distinguished services to railway business. Pres. Count M. Terauchi; Vice-Pres. Dr. H. Furukawa, Dr. K. Nomura, etc. Chief Secy. R. Unno. Add. Marunouchi, Tokyo. — p. 748 ([scan leaf 819](https://archive.org/details/japan-year-book-1920/page/n819/mode/1up))
+
+**Industrial Society, Japan** Founded 1806; publishes a monthly journal; subscription, ¥12 per annum. Pres. Viscount Kaneko; Vice-Pres. S. Asano. Add. 1 Yamashirocho, Kyobashi, Tokyo. — p. 748 ([scan leaf 819](https://archive.org/details/japan-year-book-1920/page/n819/mode/1up))
+
+**Jurisprudence Society** Founded 1894; annual dues ¥2; members some 300 at present. Pres. Dr. Baron Chincho Hozumi; Dirs. T. Minobe, G. Suehiro. Add, c/o Hozumi, Haraikata-machi, Ushigome, Tokyo. — p. 748 ([scan leaf 819](https://archive.org/details/japan-year-book-1920/page/n819/mode/1up))
+
+**Life Assurance Society** Founded 1908; publishes a quarterly bulletin; subscription to be levied in proportion to business result of the Cos. Pres. Taizo Abe. Add. Yurakucho, Kojimachiku, Tokyo — p. 748 ([scan leaf 819](https://archive.org/details/japan-year-book-1920/page/n819/mode/1up))
+
+**Meteorological Society, Japan** Founded 1882; publishes monthly magazine. Dues, ordinary member ¥2 per annum; members number 337. Pres. Dr. S. Nakamura. Secys. W. Oishi, T. Okada, T. Yoshida. Add Meteorological Observatory, Tokyo. — p. 749 ([scan leaf 820](https://archive.org/details/japan-year-book-1920/page/n820/mode/1up))
+
+**Mining Industrial Society, Japan** Founded 1885; publishes a magazine as its organ. Dues, ordinary member ¥6 annually and ¥3 for admission; supporting member is asked to contribute ¥200 or upward in lump; members 1,50[illegible] in all, including 18 honorary members and 63 supporting members. Pres. Dr W. Watanabe. Add. Kagacho, Kyobashi, Tokyo. — p. 749 ([scan leaf 820](https://archive.org/details/japan-year-book-1920/page/n820/mode/1up))
+
+**Oriental Association (formerly called Taiwan Kyokwai)** Founded 1898, for developing resources in Formosa, Korea and Manchuria. Has established schools in Tokyo Seoul, Dairen, etc. bringing up students to devote themselves to colonization work. Subscription Y6 per annum for ordinary member; issue monthly magazine, Toyo Jiho; members number 3,500. Pres. Komatsubara, ex-Minister of Education; Vice-Pres. Baron Okura; Dirs. M. Kadono, S. Hayakawa. Add. Marunouchi, Tokyo. — p. 749 ([scan leaf 820](https://archive.org/details/japan-year-book-1920/page/n820/mode/1up))
+
+**Sericultural Society, Japan** Founded 1892; publishes a Japanese monthly and a French Bulletin as its organ. Reliable information is supplied on application to foreigners abroad. Special member ¥10 in lump or ¥12 in course of 4 years, and ordinary ¥[illegible].50; members number 165,477. Patron Prince Kanin; Pres. Viscount K. Kiyoura. Add. Nishikicho, Kanda, Tokyo. — p. 749 ([scan leaf 820](https://archive.org/details/japan-year-book-1920/page/n820/mode/1up))
+
+**Society for the Propagation of Roman Alphabets** Founded —; publishes its organ in Roman lettlers; Members 3,000; Dues, ¥1 per annum. Pres. Marquis K. Saionji. Add. No. 3 1-chome, Yurakucho, Kojimachi, Tokyo. — p. 749 ([scan leaf 820](https://archive.org/details/japan-year-book-1920/page/n820/mode/1up))
+
+**Society for Protection of Industrial Property** Founded 1905; dues, ¥5—30 in lump or ¥2 a year. Pres. Viscount K. Kiyoura; Vice-Pres. K. Otani. Add. Yurakucho, Kojimachi, Tokyo. — p. 749 ([scan leaf 820](https://archive.org/details/japan-year-book-1920/page/n820/mode/1up))
+
+**Statistical Society, Tokyo** Founded 1878; publishes monthly magazine styled Tokei Shushi, and also issues the Imperial Japanese Statistic Annual and a number of statisctics. Dues, ¥3 a year and have membership of 500. Pres. Dr. Baron Yoshiro Sakatani. Add. Yamashita-cho, Kyobashi, Tokyo. — p. 749 ([scan leaf 820](https://archive.org/details/japan-year-book-1920/page/n820/mode/1up))
+
+**University Graduate's Society** Founded 1886; admits graduates of Imperial Universities of Tokyo, Kyoto, Kyushu and Tohoku, and also others who have connections with the above institutions. Dues, ¥2 per annum, or ¥20 for life; publishes monthly bulletin; comprises 18 committees and 1 chief secretary. Add. Nishikicho, Kanda, Tokyo, — p. 749 ([scan leaf 820](https://archive.org/details/japan-year-book-1920/page/n820/mode/1up))
+
+**Zoological Society, Tokyo** Founded 1879; annual subscription ¥6 for class "A" member, ¥3.60 for "B" member; members number about 400; the Zoological Magazine is issued monthly, with "Annotations Zoological Japonensis" as occasional publication. Pres. Prof. S. Watase (c/o Imp. Univ. Tokyo); Secy. Dr. N. Yatsu.) — p. 749 ([scan leaf 820](https://archive.org/details/japan-year-book-1920/page/n820/mode/1up))
+
+### Section II. Social Institutions
+
+**America's Friends Society (Beiyu-Kyokwai)** Est. 1906 by Japanese who have stayed in America and by Americans staying in Japan, with the object of promoting friendly relation between the two countries. Number of members about 300; annual dues ¥12. Pres. Viscount Kentaro Kaneko. Add. Gofukucho, Nihombashi, Tokyo. — p. 749 ([scan leaf 820](https://archive.org/details/japan-year-book-1920/page/n820/mode/1up))
+
+**Belgo-Japanese Association** Founded 1889; members number about 74 comprising only those who have studied in Belgium. Secy., Mr. S. Akusada, 53 Fujimicho, Azabu, Tokyo. — p. 750 ([scan leaf 821](https://archive.org/details/japan-year-book-1920/page/n821/mode/1up))
+
+**British Society** Found 1908 by the late Count Hayashi, the late Sir Claude MacDonald, Count Hirosawa, the late Capt. Brinkley, Viscount Inaba, Vice-Admiral Baron Miyabara, Count Kawamura, etc.; dues ¥5 a year for ordinary members or ¥5[illegible] in one sum for life. The membership numbers about 250. Add. British Embassy, Tokyo. — p. 750 ([scan leaf 821](https://archive.org/details/japan-year-book-1920/page/n821/mode/1up))
+
+**Eiraku Club** Formed in 1914 by graduates and friends of Waseda University as social organ. Membership about 300; dues ¥24 a year; one half for country member; Pres. Dr. Y. Hiranuma. Sec. S. Tamura. Add. Eiraku-cho, Tokyo. Tel. Central 389. — p. 750 ([scan leaf 821](https://archive.org/details/japan-year-book-1920/page/n821/mode/1up))
+
+**Franco-Japanese Society** Founded 1886. List of members number over 300 including five grades of members; dues of ordinary member ¥3.60 a year. Patrons, Prince Nashimoto and French Ambassador; Chief Dir. K. Furuichi, Dr. Eng. Add. Hibiya Park. Tokyo. — p. 750 ([scan leaf 821](https://archive.org/details/japan-year-book-1920/page/n821/mode/1up))
+
+**Indo-Japanese Association** Founded 1802; covers British India, French Indo-China, Dutch islands in the South Seas. Members 570 in all. Pres. Marquis S. Okuma; Vice-Pres. Baron N. Kanda, Dr. F. Nanjo; Secy. Y. Soyejima. Add. Hibiya Bldg., Hibiya Park, Tokyo. — p. 750 ([scan leaf 821](https://archive.org/details/japan-year-book-1920/page/n821/mode/1up))
+
+**Kojunsha** Founded 1879 by graduates of and others instructed in Keio University and is a social club. Entrance fee ¥300; annual subscription ¥36. Membership over 1,000. Pres. E. Kamada; Chief Dirs. J. Kadono, H. Ishikawa. Add. Nabecho Nichome, Kyobashi, Tokyo. — p. 750 ([scan leaf 821](https://archive.org/details/japan-year-book-1920/page/n821/mode/1up))
+
+**Latin American-Japanese Society** Created by Japanese interested in Central and South Americas, or peoples of these republics connected with this country, about 120 in number. Add. Hibiya Park, Tokyo. — p. 750 ([scan leaf 821](https://archive.org/details/japan-year-book-1920/page/n821/mode/1up))
+
+**The Nippon Club** Est. 1888 by Japanese; is a non-political institution. List of members about 500 including country members. Entrance fee ¥30, annual subscription ¥36. The present building was built in 1906. Pres. Viscount C. Okabe; Hon. Secy, Mr. S. Hayakawa. Add. Yurakucho, Kojimachi, Tokyo; Tel. No. 625 & 5439 Honkyoku. — p. 750 ([scan leaf 821](https://archive.org/details/japan-year-book-1920/page/n821/mode/1up))
+
+**Russo-Japanese Society** Founded 1906; members number 3[illegible]0; dues, ¥6 a year for ordinary members or ¥200 for life, special members ¥500. Pres. Count M. Terauchi; Vice-Pres. Baron S. Goto; Add. Uchisaiwaicho, Marunouchi, Tokyo. — p. 750 ([scan leaf 821](https://archive.org/details/japan-year-book-1920/page/n821/mode/1up))
+
+**The Tokyo Club** Est. 18[illegible]5 by Japanese and foreigners; entrance fee ¥50; annual subscription ¥36 for city members and ¥10 for country members. List of members about 300. The present building was built in 1908 at the cost of ¥3[illegible]0,00[illegible]. Pres. H.H. Prince Fan-in; Vice-Pres., British Ambassador, Baron Makino, Mr. Sonoda; Hon. Secy. Mr. A. Medley; Hon. Treas. Mr. M. Kushida. Add. Aoicho, Akasaka, Tokyo. Tel. No. 225—7 & 760 Shimbashi. — p. 750 ([scan leaf 821](https://archive.org/details/japan-year-book-1920/page/n821/mode/1up))
+
+
+## Appendix B: Business Directory
+
+### Section I. Banks
+
+**Aichi Bank** K. K., Tamayacho, Nishi-ku, Nagoya, Est. 1896; cap. ¥7,000 p. u; in '18 absorbed Kitakata and other banks, cap. being greatly increased. Pres. Y. Watanabe. — p. 751 ([scan leaf 822](https://archive.org/details/japan-year-book-1920/page/n822/mode/1up))
+
+**Asano Chuya (Day and Night) Bank** K. K, Tori-1-chome Nihombashi, Tokyo. Cap. ¥6,250 p. u. Pres. S. Asano, Mng.-Dir. J. Nagashima. — p. 751 ([scan leaf 822](https://archive.org/details/japan-year-book-1920/page/n822/mode/1up))
+
+**Chosen Ginko** (Bank of Chosen), Seoul. (Vid. Chap. Chosen). — p. 751 ([scan leaf 822](https://archive.org/details/japan-year-book-1920/page/n822/mode/1up))
+
+**Dai Hyaku Ginko** (100th Bank), K. K., Yorozuche, Nihombashi, Tokyo. Est. 77. Cap. ¥13,750 p. u.; res. ¥5,000. Pres. R. Ikeda, Dirs. K. Ando, H. Cho, etc. — p. 751 ([scan leaf 822](https://archive.org/details/japan-year-book-1920/page/n822/mode/1up))
+
+**Dai Ichi Ginko** (1st Bank), K. K., Kabutocho, Nihombashi, Tokyo. The first private bank in Japan, est July '73. Cap. ¥30,000 p. u.; res. ¥18,500; Pres. Y. Sasaki; Gen.-Mngs. K. Ishii, Y. Noguchi, Y. Sugita. — p. 751 ([scan leaf 822](https://archive.org/details/japan-year-book-1920/page/n822/mode/1up))
+
+**Dai Ni Ginko** (2nd Bank), K. K., Sanchome, Yokohama. Est. '74. Pres. T. Hara, Mng. K. Yamagata.Cap. ¥1,500 p. u.; res. ¥2,130. — p. 751 ([scan leaf 822](https://archive.org/details/japan-year-book-1920/page/n822/mode/1up))
+
+**Dai San Ginko** (3rd Bank), K.K., Kobunacho, Nihombashi, Tokyo. Est. '78 by the Yasuda family. Cap. ¥30,000; res. ¥9,000; Pres. Yoshio Yasuda. — p. 752 ([scan leaf 823](https://archive.org/details/japan-year-book-1920/page/n823/mode/1up))
+
+**Dai 81 Bank** K.K., No. 5, Tomisawa-cho, Nihom., Tokyo. Formed June 1918 by the union of 40th and 41st Banks; Cap. ¥4,650 p.u.; res. ¥1,354. Pres. C. Kikuchi; Mng.-Dir. F. Osawa. — p. 752 ([scan leaf 823](https://archive.org/details/japan-year-book-1920/page/n823/mode/1up))
+
+**Fujimoto Bill Broker Bank** K.K., 1-chome, Yokobori, Higashi-ku, Osaka. Est. 1906; cap. Y1,500 p.u.; res. ¥785; branches at Kobe and Tokyo. Chairman B. Hiraga. — p. 752 ([scan leaf 823](https://archive.org/details/japan-year-book-1920/page/n823/mode/1up))
+
+**Hokkaido Takushoku Ginko** (Colonization Bank of Hokkaido), K.K., Sapporo, Hokkaido. Est. 1900; cap. ¥7,499 p.u.; res. ¥2,336; Pres. Riyo Mizukoshi. — p. 752 ([scan leaf 823](https://archive.org/details/japan-year-book-1920/page/n823/mode/1up))
+
+**Jugo Ginko** (15th Bank), K.K., Kobikicho, Kyobashi, Tokyo. Est. '77 by some Peers and formerly called the Peer's Bank; Cap. ¥23,500 p.u., res. ¥7,750. Pres. I. Matsukata, Vice-Pres. M. Naruse. — p. 752 ([scan leaf 823](https://archive.org/details/japan-year-book-1920/page/n823/mode/1up))
+
+**Fujita-Gumi Bank** K.K., 3-chome, Imabashi, Osaka. Est. 1917 with ¥5,000 p.u. Chairman, Baron H. Fujita. — p. 752 ([scan leaf 823](https://archive.org/details/japan-year-book-1920/page/n823/mode/1up))
+
+**Furukawa Bank** K.K., Setomono-cho, Nihombashi, Tokyo. Est. 1917 by the Furukawa family with cap. ¥2,500 p.u. Pres. Baron T. Furukawa. — p. 752 ([scan leaf 823](https://archive.org/details/japan-year-book-1920/page/n823/mode/1up))
+
+**Higo Bank** K.K., Kumamoto. Est. 1897; cap. ¥5,000 (2,750 p.u.); res. ¥1,060. Tokyo branch, Koamicho, Nihombashi Mag.-Dir. Zensuke Yasuda. — p. 752 ([scan leaf 823](https://archive.org/details/japan-year-book-1920/page/n823/mode/1up))
+
+**Kashima Bank** K.K., Osaka. Est. by Mr. Kashima, President; cap. ¥5,000 p.u.; reorganized in '17 with extended business. — p. 752 ([scan leaf 823](https://archive.org/details/japan-year-book-1920/page/n823/mode/1up))
+
+**Kanda Bank** K.K., No. 26, Sakamoto-cho, Nihombashi, Tokyo. Est. April 1918; cap. ¥5,000 (½ p.u.); chiefly deal in public loan bonds and debentures. Pres. R. Kanda. — p. 752 ([scan leaf 823](https://archive.org/details/japan-year-book-1920/page/n823/mode/1up))
+
+**Kawasaki Bank** K.K., Himono-cho, Nihombashi, Tokyo. Est. July 1893 by the late H. Kawasaki; cap. ¥10,000 p.u. Pres. Kawasaki. — p. 752 ([scan leaf 823](https://archive.org/details/japan-year-book-1920/page/n823/mode/1up))
+
+**Kitahama Bank** K.K., Kitahama, Osaka. Est. March '97, Cap. ¥4,000 p.u., Dirs. Y. Yashima, R. Hunter. — p. 752 ([scan leaf 823](https://archive.org/details/japan-year-book-1920/page/n823/mode/1up))
+
+**Konoike Bank** Gm. K., Imabashi, Osaka. Est. May, 1877; cap. ¥3,000 p.u.; res. ¥3,900; is conducted by the Konoike family. Pres. Baron Z. Konoike. — p. 752 ([scan leaf 823](https://archive.org/details/japan-year-book-1920/page/n823/mode/1up))
+
+**Meiji Bank** K.K., Honfuna-cho, Nihombashi, Tokyo Est. 1895; absorbed '18 Tawara and other smaller banks increasing cap. to ¥10,000 (½ p.u. in '19). Pres. Zensuke Yasuda, Mng.-Dir. R. Kanahara. — p. 752 ([scan leaf 823](https://archive.org/details/japan-year-book-1920/page/n823/mode/1up))
+
+**Mitsui Bank** K.K., Surugacho, Nihombashi, Tokyo. Oldest, est. over 200 yrs. ago by Takatomi Mitsui in the Tokugawa era, organized as Mitsui Bank, K.K., 1909. cap. ¥60,000 p.u. Pres. Gen-emon Mitsui; Mng.-Dirs. S. Ikeda, U. Yoneyama, N. Kikumoto, O. Majima. — p. 752 ([scan leaf 823](https://archive.org/details/japan-year-book-1920/page/n823/mode/1up))
+
+**Mitsubishi Bank Department** Yayesucho, Koji. Tokyo. Est. 1895 and is conducted by the Mitsubishi Firm; cap. ¥1,000 p.u.; Chief, M. Kushida. — p. 752 ([scan leaf 823](https://archive.org/details/japan-year-book-1920/page/n823/mode/1up))
+
+**Morimura Bank** Gm. K., Nihombashi, Tokyo. Est. '98 by Baron Morimura, President. cap. ¥500, p.u. — p. 752 ([scan leaf 823](https://archive.org/details/japan-year-book-1920/page/n823/mode/1up))
+
+**Murai Bank** K.K., Moto-Yokkaichicho, Tokyo. Founded in Dec. 1906 and reorganized with capital of ¥10,000 (½ p.u.) in April 1918; res. ¥808, in 1920. Pres. K. Murai. — p. 752 ([scan leaf 823](https://archive.org/details/japan-year-book-1920/page/n823/mode/1up))
+
+**Naniwa Bank** K.K., Awajicho, Osaka. Formed in 1878 with the union of the 5th and 32nd national banks amalgamated with four other banks; cap. ¥23,750 p.u.; res. ¥4,320; Pres. M. Matsukata. — p. 753 ([scan leaf 824](https://archive.org/details/japan-year-book-1920/page/n824/mode/1up))
+
+**Nippon Ginko** (Bank of Japan), K.K. — p. 753 ([scan leaf 824](https://archive.org/details/japan-year-book-1920/page/n824/mode/1up))
+
+**Nippon Kogyo Ginko** (Industrial Bank of Japan), K.K. — p. 753 ([scan leaf 824](https://archive.org/details/japan-year-book-1920/page/n824/mode/1up))
+
+**Nippon Kangyo Ginko** (Hypothec Bank of Japan), K.K. — p. 753 ([scan leaf 824](https://archive.org/details/japan-year-book-1920/page/n824/mode/1up))
+
+**Okazaki Bank** K.K., Naniwa-cho, Kobe. Est. '17 by Mr. T. Okazaki, a millionaire merchant, and incorporated; cap. ¥10,000 (p.u. 6,000); reserves ¥2,000. Pres. T. Okazaki. — p. 753 ([scan leaf 824](https://archive.org/details/japan-year-book-1920/page/n824/mode/1up))
+
+**Sino-Japanese Banking Corporation** K.K., Peking, China. Est. '18 as a joint enterprise of Japanese and Chinese under the patronage of the Chinese Govt. cap. ¥20,000 (5,000 p.u.) subscribed by Japanese and Chinese; Pres. Lu Tsung-yu; Mng-Dir. Tsunejiro Kakuichi. — p. 753 ([scan leaf 824](https://archive.org/details/japan-year-book-1920/page/n824/mode/1up))
+
+**Sumitomo Bank** K.K., Kitahama, Osaka. Est. 1871 by the Sumitomo family; reorganized K.K., 1895; cap. ¥26,250 p.u.; res. ¥4,500, in '20. Pres. Baron K. Sumitomo. — p. 753 ([scan leaf 824](https://archive.org/details/japan-year-book-1920/page/n824/mode/1up))
+
+**Taiwan Ginko** (Bank of Taiwan or Formosa), K.K., Taihoku, Formosa, Vid. Chap. Taiwan. — p. 753 ([scan leaf 824](https://archive.org/details/japan-year-book-1920/page/n824/mode/1up))
+
+**Tokai Ginko** K.K., Gofukucho, Nihombashi, Tokyo. Est. 1889 Pres. C. Kikuchi. — p. 753 ([scan leaf 824](https://archive.org/details/japan-year-book-1920/page/n824/mode/1up))
+
+**Yasuda Bank** K.K., Kobunacho, Nihombashi, Tokyo. Est, 1864 by Mr. Zenjiro Yasuda, and run by the Yasuda family; sub. capital ¥25,000, (p.u. 17,500); control 28 syndicate banks, both head & branch offices. Connection world-wide. Pres. Zengoro Yasuda; Mng.-Dir. Y. Suzuki. — p. 753 ([scan leaf 824](https://archive.org/details/japan-year-book-1920/page/n824/mode/1up))
+
+**Yokohama 74 Bank** K.K., Yokohama. Est. 1878; absorbed Mogi Bank '18, and increased cap. to ¥2,400 p.u.; reorganized in '20. — p. 753 ([scan leaf 824](https://archive.org/details/japan-year-book-1920/page/n824/mode/1up))
+
+**Yokohama Specie Bank** K.K., Yokohama. — p. 753 ([scan leaf 824](https://archive.org/details/japan-year-book-1920/page/n824/mode/1up))
+
+**Yokohama Wakao Bank** Gm. K. Yokohama. Est. 1890 by the Wakao family; cap. ¥500 p.u.: res. ¥130 in '18. Pres. I. Wakao. — p. 753 ([scan leaf 824](https://archive.org/details/japan-year-book-1920/page/n824/mode/1up))
+
+### Section II. Insurance
+
+**Aikoku Life Ins. Co** K.K., Honzaimokucho, Nihombashi, Tokyo. Est. 1897. Pres. M. Suzuki; Mng.-Dir. R. Wakao. — p. 753 ([scan leaf 824](https://archive.org/details/japan-year-book-1920/page/n824/mode/1up))
+
+**Chiyoda Mutual Life Ins. Co** Okecho, Kyobashi, Tokyo. Est. March 1904. Pres I. Kadono, Mng.-Dir. R. Kitakawa. — p. 753 ([scan leaf 824](https://archive.org/details/japan-year-book-1920/page/n824/mode/1up))
+
+**Dai Ichi Mutual Life Ins. Co** Tori-Sanchome, Nihom., Tokyo. Est. Sept. 1902 by Mr. Yano and others, pioneer mutual life insurance Co. Capital ¥25 p.u. Pres. T. Yano, Dir. S. Ohashi, K. Hattori. — p. 753 ([scan leaf 824](https://archive.org/details/japan-year-book-1920/page/n824/mode/1up))
+
+**Daido Life Ins. Co** K.K., Yedobori, Osaka. Est. 1902; Capital ¥210 p.u. Pres. K. Hirooka, Mng.-Dir. S. Gion. — p. 753 ([scan leaf 824](https://archive.org/details/japan-year-book-1920/page/n824/mode/1up))
+
+**Fuji Shokai** 1-chome, Yaesu-cho, Koj., Tokyo. Founded in 1909 and run by Mr. M. Furudono; agent for various foreign and domestic fire ins. cos.; owns the Waseda Denki Kogyo (Electro-Chemical Laboratory), dealers in and manufactures of various potassium compounds and general industrial stuffs at Kamitotsuka, near Tokyo. — p. 753 ([scan leaf 824](https://archive.org/details/japan-year-book-1920/page/n824/mode/1up))
+
+**Jinju Life Assurance Co** K.K., No. 3 1-chome, Uchi[illegible]cho, Koj., Tokyo. Est. 1887; cap. ¥1,000 p.u. Pres. D. Shimogo; Mng.-Dir T. Shimogo. — p. 754 ([scan leaf 825](https://archive.org/details/japan-year-book-1920/page/n825/mode/1up))
+
+**Kobe Marine, Transportation & Fire Ins. Co** K.K.. Kobe. Est. 1907; capital ¥1,250 p.u. Pres. T. Okazaki, Mng.-Dir. S. Tanaka. — p. 754 ([scan leaf 825](https://archive.org/details/japan-year-book-1920/page/n825/mode/1up))
+
+**Kyodo Fire Ins. Co** K.K., Izumocho, Kyobashi, Tokyo. Est. 1906. combines accidence ins. Mng.-Dirs. S. Morimoto, S. Kurachi. — p. 754 ([scan leaf 825](https://archive.org/details/japan-year-book-1920/page/n825/mode/1up))
+
+**Meiji Fire Ins. Co** K.K.. Yayesucho, Koji., Tokyo. A leading fire ins. Co., est. Dec. 1892. Pres. M. Suyenobu. — p. 754 ([scan leaf 825](https://archive.org/details/japan-year-book-1920/page/n825/mode/1up))
+
+**Meiji Life Ins. Co** K.K., Yayesucho, Koji., Tokyo. One of the leading and earliest ins. Co., est. 1881. Pres. T. Abe. — p. 754 ([scan leaf 825](https://archive.org/details/japan-year-book-1920/page/n825/mode/1up))
+
+**Nippon Accident Ins. Co** K.K,, No. 9 Ninami-Kinroku-cho, Kyobashi, Tokyo. Est. 1917; cap. ¥2,000 ([illegible] p.u.); res. ¥300. Pres. Seiryo Awazu. — p. 754 ([scan leaf 825](https://archive.org/details/japan-year-book-1920/page/n825/mode/1up))
+
+**Nippon Fire Ins. Co** K.K., Ginza, Tokyo, Est. Apr. 1892; combines Accidence, Marine, and Burglary as subsidiary business. Pres. H. Kawasaki. — p. 754 ([scan leaf 825](https://archive.org/details/japan-year-book-1920/page/n825/mode/1up))
+
+**Nippon Life Ins. Co** K.K., Imabashi, Osaka. Est. 1889. Pres. Y. Kataoka. — p. 754 ([scan leaf 825](https://archive.org/details/japan-year-book-1920/page/n825/mode/1up))
+
+**Nippon Marine Ins. Co** K.K., Yedobori, Nishiku, Osaka. Est. 1896; cap. ¥3,00[illegible] (900 p.u.) increased to ¥10,000 '18. Pres. W. Ukon. — p. 754 ([scan leaf 825](https://archive.org/details/japan-year-book-1920/page/n825/mode/1up))
+
+**Nissho Fire and Marine Re-ins. Co** K.K., No. 5 1-chome, Minami-hatchobori, Tokyo. Est. 1917; cap. ¥2,000 (500 p.u.); res, ¥500. Pres. M. Maejima, — p. 754 ([scan leaf 825](https://archive.org/details/japan-year-book-1920/page/n825/mode/1up))
+
+**Osaka Marine and Fire Ins. Co** K.K., 2-chome, Nishi-ku, Osaka. Est. 1898; cap. ¥5,000 (1,540 p.u.) doubled '18. Pres. Ryutaro Hunter; Mng.-Dir. G. Tarao. — p. 754 ([scan leaf 825](https://archive.org/details/japan-year-book-1920/page/n825/mode/1up))
+
+**Teikoku Life Ins. Co** K.K., Gofukucho, Koj., Tokyo. Est. 1888, Pres. A. Fukuhara, — p. 754 ([scan leaf 825](https://archive.org/details/japan-year-book-1920/page/n825/mode/1up))
+
+**Teikoku Marine, Fire and Transport Ins. Co** K.K., Kitasayacho, Nihom., Tokyo. Est. July 1893 for fire insurance only; in '05 started marine and transport ins; wide connection abroad; cap. ¥3,850 p.u. Pres. Zengoro Yasuda; Vice-Pres. H. Murase. — p. 754 ([scan leaf 825](https://archive.org/details/japan-year-book-1920/page/n825/mode/1up))
+
+**Tokyo Fire Ins. Co** K.K No 1 Kitasayacho, Nihom., Tokyo. Est. 1887; cap. ¥10,00[illegible]; res. ¥5,560. Pres. Yoshio Yasuda, Vice-Pres. Baron A, Nakamatsu. — p. 754 ([scan leaf 825](https://archive.org/details/japan-year-book-1920/page/n825/mode/1up))
+
+**Tokyo Marine Ins. Co** K.K., Marunochi, Tokyo. Est. Dec. 1878: capital ¥15,00[illegible] (7,500 p.u.) Pres. M. Suyenobu. — p. 754 ([scan leaf 825](https://archive.org/details/japan-year-book-1920/page/n825/mode/1up))
+
+**Yokohama Fire, Marine, Transportation and Credit Ins. Co** K.K., Honcho, Yokohama. Est. Aug. 1897 for fire insurance only; afterwards started other insurances. Pres. K. Ono, Mng.-Dir. K. Ezaka. — p. 754 ([scan leaf 825](https://archive.org/details/japan-year-book-1920/page/n825/mode/1up))
+
+### Section III. Spinning and Weaving
+
+**Dai-Nippon Cotton Spinning Co** K.K., Amagasaki, Hyogo-ken. The Amagasaki and Settsu Cotton Spinning Cos. were amalgamated to create this Co. in '18. with cap. ¥30,500 p.u. Pres. S. Kikuchi. — p. 754 ([scan leaf 825](https://archive.org/details/japan-year-book-1920/page/n825/mode/1up))
+
+**Fuji Gassed Yarn Spinning Co** K.K., Oshima, near Tokyo. Founded 19[illegible]2; Pres. T. Wada; Dirs. E. Kawasaki, R. Inanobe. etc. — p. 754 ([scan leaf 825](https://archive.org/details/japan-year-book-1920/page/n825/mode/1up))
+
+**Fukushima Cotton Spinning Co** K.K., Shimo Fukushima, Osaka. Est. 1892. Pres. Y. Yashiro; Dirs. T. Nomura, H. Hamamoto. — p. 754 ([scan leaf 825](https://archive.org/details/japan-year-book-1920/page/n825/mode/1up))
+
+**Goto Woolen Cloth Co** K.K., Oimachi, near Tokyo. Est. July '81; cap. ¥2,750 p.u. in 1920. Pres. J. Goto, Mng.-Dirs. S. Goto, H. Goto. — p. 755 ([scan leaf 826](https://archive.org/details/japan-year-book-1920/page/n826/mode/1up))
+
+**Japan-China Spinning Co** K.K., Kameido, near Tokyo. Est. '07; rings 60,464, throwings 27,8[illegible]3; cap. in '20 ¥7,000 p.u.; res. ¥1,955. Pres. S. Miyajima; Mng.-Dir. Y. Murata. — p. 755 ([scan leaf 826](https://archive.org/details/japan-year-book-1920/page/n826/mode/1up))
+
+**Jomo Musline-de-Laine Co** K.K., Tatebayashi, Gumma. Est. '02; ¥[illegible],500 p.u. Pres. K. Nezu; Mng.-Dir. H. Matsuo. — p. 755 ([scan leaf 826](https://archive.org/details/japan-year-book-1920/page/n826/mode/1up))
+
+**Kanegafuchi Cotton Spinning Co** K.K., Sumida, near Tokyo. Est. '92; cap. ¥15,787 p.u.; res. ¥21,438; Chairman of Dirs. H. Hibiya; Mng.-Dir. S. Muto. — p. 755 ([scan leaf 826](https://archive.org/details/japan-year-book-1920/page/n826/mode/1up))
+
+**Kishiwada Cotton Spinning Co** K.K., Kishiwada, Osaka. Est. 1892; rings 148,161 and looms 350. Pres. J. Terada. — p. 755 ([scan leaf 826](https://archive.org/details/japan-year-book-1920/page/n826/mode/1up))
+
+**Kurashiki Cotton Spinning Co** K.K., Kurashiki, Okayama-ken. Est. '87; total rings 88,984; cap. ¥6,199 p.u.; res. ¥3,617. Pres. M. Ohara; Dirs. S. Kiyama, G. Hayashi, R. Ohashi, etc. — p. 755 ([scan leaf 826](https://archive.org/details/japan-year-book-1920/page/n826/mode/1up))
+
+**Musline-de-Laine Spinning Co** (Mosurin Boseki), K.K., Nakatsu, Nishinari-gun, Osaka. Mfrs. of woolen and cotton yarns and fabrics. Est. 1896; cap. ¥7,500 p.u., res. ¥1,489. Pres. K. Inabatake. — p. 755 ([scan leaf 826](https://archive.org/details/japan-year-book-1920/page/n826/mode/1up))
+
+**Naigai Cotton Co** K.K., Dojima, Osaka. Est. 1887; cap. ¥1,250 p.u. in '20; rings 140,124, throwings 4,854; looms 982 stands. Pres. R. Kume, Dirs. Y. Eguchi, K. Ii. — p. 755 ([scan leaf 826](https://archive.org/details/japan-year-book-1920/page/n826/mode/1up))
+
+**Nikka (Japan-China) Cotton Spinning Co** K.K., Shanghai; was originally the Hung-yuan Spinning Co., with 53,000 spindles and 500 English-made looms, Shanghai, which was purchased by Mr. S. Kawasaki for Tls. 1,300 in '18 and transferred to Mr. T. Wada and others, who found a new Co. with cap. ¥4,000 p.u.; connection with the Fuji Gassed Spin. Mill. Pres. T. Wada. — p. 755 ([scan leaf 826](https://archive.org/details/japan-year-book-1920/page/n826/mode/1up))
+
+**Nippon Cotton Trading Co** K.K., Nakanoshima, Osaka. Est. '92; cap ¥20,000 p.u., res. ¥20,100; chiefly engaged in wholesale of cotton. Spindles 9,392. Branches at Tientsin, Dairen, Hongkong, Shanghai, Hangkow, Bombay, Texas and New York. Pres. M. Mita. — p. 755 ([scan leaf 826](https://archive.org/details/japan-year-book-1920/page/n826/mode/1up))
+
+**Nippon Linen Co** K.K., Ginza, Tokyo. Est. '14; cap. ¥5,000 p.u., res. ¥1,753 own 4 linen factories in Hokkaido and one factory near Tokyo. Pres. C. Kikuchi; Mng.-Dir. N. Miyauchi, etc. — p. 755 ([scan leaf 826](https://archive.org/details/japan-year-book-1920/page/n826/mode/1up))
+
+**Nippon Seifu Co** Sujakuno, near Kyoto. Mfrs. of cotton yarn, fabrics, and dyeing, etc. Est. '95; capital ¥2,250 p.u.; loans ¥17,728. Mng.-Dir. K. Inouye. — p. 755 ([scan leaf 826](https://archive.org/details/japan-year-book-1920/page/n826/mode/1up))
+
+**Nippon Silk Throwing Co** K.K., Kiryu, Gumma-ken. Est. 1902; later enlarged; cap. ¥3,000. Throwing Mills at Kiryu, Yonezawa, Fukushima & Hodogaya, Spindles, 79,000; Patent processes for crepe fancy yarns. Pres. Y. Mayebara. — p. 755 ([scan leaf 826](https://archive.org/details/japan-year-book-1920/page/n826/mode/1up))
+
+**Nippon Woolen Fabrics Co** K.K., Nishidemachi, Kobe. Est. 1896. Have factories at Tokyo and Kakogawa, and have begun 1917 for the first time in Japan to manufacture thin woolen cloth; cap. ¥10,411 p.u.; res. ¥5,505. Pres. S. Kawanishi. — p. 755 ([scan leaf 826](https://archive.org/details/japan-year-book-1920/page/n826/mode/1up))
+
+**Osaka Godo Cotton Spinning Co** K.K., Dojima, Osaka. Est. 1900; cap. ¥10,250 p.u.; res. Y10,187. Mng.-Dir. F. Taniguchi. — p. 755 ([scan leaf 826](https://archive.org/details/japan-year-book-1920/page/n826/mode/1up))
+
+**Ryomo Weaving and Finishing Co** K.K., Kiryu, Gumma-ken. Est. 190[illegible]; cap. ¥2,000. Mfrs. of silk crepe, taffeta, & cotton fabrics. The finishing machines loaned by the government. Pres. T. Kaneko; Mng. Dir. H. Iizuka. — p. 755 ([scan leaf 826](https://archive.org/details/japan-year-book-1920/page/n826/mode/1up))
+
+**Sakai Cotton Spinning Co** K.K., Sakai, Osaka-fu. Est. '92. Pres. S. Amagasaki; Mng.-Dir. R. Komuro. — p. 756 ([scan leaf 827](https://archive.org/details/japan-year-book-1920/page/n827/mode/1up))
+
+**Teikoku Linen Co** K.K., Uragashi, Nihombashi, Tokyo. Est. 1911; cap. ¥12,800 (12,100 p.u. in '20); reserves ¥2,486; div. 12% Pres. Z. Yasuda; Mng.-Dirs. K. Doki, R. Saiga, — p. 756 ([scan leaf 827](https://archive.org/details/japan-year-book-1920/page/n827/mode/1up))
+
+**Tokyo Calico Co** K.K., Kameido, near Tokyo. Est. 1906; cap. ¥[illegible],500 p.u.; reserves Y461 in '19; Spindles 29,000. Chairman of Dirs. J. Sugimura; Mng.-Dirs. K. Horigoshi, G. Aoki. — p. 756 ([scan leaf 827](https://archive.org/details/japan-year-book-1920/page/n827/mode/1up))
+
+**Tokyo Orimono (Textile) Co** 3-chome, Senju, Tokyo. Est. 1902; cap. ¥7,000 (3,750 p.u.). Dyer and printer; mfr. all kinds of cotton piece goods. Pres. Y. Shioda. Mng.-Dirs. S. Tamamura and R. Esaki. — p. 756 ([scan leaf 827](https://archive.org/details/japan-year-book-1920/page/n827/mode/1up))
+
+**Tokyo Silk Spinning Co** K.K., Minami-Makicho, Kyobashi, Tokyo; est. '18; cap. ¥5,000 (½ p.u.). Dirs. K. Suzuki, H. Matsushima, etc. — p. 756 ([scan leaf 827](https://archive.org/details/japan-year-book-1920/page/n827/mode/1up))
+
+**Tokyo Woolen Fabrics Co** (Tokyo Keorimono Co.), K.K., Minami-Senju, Tokyo. Est. 1906; cap. in 1920 ¥20,900 p.u.; reservs ¥1,810. Mng.-Dir. K. Fujita, K. Kusaka, K. Tsukaguchi, K. Usami. — p. 756 ([scan leaf 827](https://archive.org/details/japan-year-book-1920/page/n827/mode/1up))
+
+**Tokyo Musline-de-Lains Co** K.K., Kameido, near Tokyo. Mfrs. of mousseline-de-laine and other woolen fabrics. Est. '96; cap. ¥20,000 p.u. Chairman, Sugimura; Mng.-Dir. G. Aoki. — p. 756 ([scan leaf 827](https://archive.org/details/japan-year-book-1920/page/n827/mode/1up))
+
+**Toyo Muslin Co** K.K,, Kameido, Tokyo. Est. '07; cap. ¥5,500 p.u. In '18 1,000 looms were newly added and annual output 60,000,000 yards to be increased to 70,000,000. Chairman of Dirs. T. Kambe. — p. 756 ([scan leaf 827](https://archive.org/details/japan-year-book-1920/page/n827/mode/1up))
+
+**Toyo Cotton Spinning Co** K.K., Yokkaichi, Ise. Est. '14 with incorporation of the Miye and the Osaka; cap. ¥19,625 p.u.; spindles 465,040, thrownings 4,560, and looms 11,369. Pres. D. Ito. Mng.-Dirs. T. Saito, G. Imamura, etc. — p. 756 ([scan leaf 827](https://archive.org/details/japan-year-book-1920/page/n827/mode/1up))
+
+**Woolen Spinning Co** K.K., 1-chome, Edobori-Kitadori, Nishiku, Osaka. Est. 1918; cap. ¥3,000 (½ p.u.); manufacture and deal in woolen goods. Dirs. T. Takimura, S. Niwa, etc. — p. 756 ([scan leaf 827](https://archive.org/details/japan-year-book-1920/page/n827/mode/1up))
+
+### Section IV. Dry Goods, Knitted Goods, Etc.
+
+**Daimaru Dry Goods Store** Shijo-dori Takakura, Kyoto. Founded 1716, and reorganized as partnership ltd., is a pioneer department store in Kyoto-Osaka district. Pres. J. Shimomura. — p. 756 ([scan leaf 827](https://archive.org/details/japan-year-book-1920/page/n827/mode/1up))
+
+**Funakoshi & Co** Minami-Kyuhojimachi, Osaka. Manufacturers of and wholesale dealers in handkerchiefs and other cotton goods; recently extended business operations to China and South Seas. Prop. Tatsujiro Funakoshi. — p. 756 ([scan leaf 827](https://archive.org/details/japan-year-book-1920/page/n827/mode/1up))
+
+**Ishii Hosiery Factory** Temmabashi-suji, Osaka. Manufacture and wholesale exporter of hosiery, cotton singlets, knitted underwear, etc. Prop. Katsujiro Ishii. — p. 756 ([scan leaf 827](https://archive.org/details/japan-year-book-1920/page/n827/mode/1up))
+
+**Ito Dry Goods Store** K.K., Sakaecho. Nagoya. Organized as K.K., in 1910; have big branches in Tokyo and Kyoto. Pres. M. Ito Mng.-Dir. K. Kito. — p. 756 ([scan leaf 827](https://archive.org/details/japan-year-book-1920/page/n827/mode/1up))
+
+**Kawashima Jimbei** Higashi Horikawa Ichijo, Kyoto, is upholsterer and embroider to the Court, and manufacturer of silk fabrics, cut-velvet, kimono, embroidery, being a leading house at Nishijin, Kyoto. Tokyo Branch (Uyedaya), 15 Yariya-cho, Kyobashi. — p. 757 ([scan leaf 828](https://archive.org/details/japan-year-book-1920/page/n828/mode/1up))
+
+**Maekawa Shoten** K.K., Bingo-cho, Higashi-ku, Osaka. Est. Sept. '18; cap. ¥1,500 p.u.; deal in cotton yarns, and cotton goods. Dirs. Y. Maekawa, etc. — p. 757 ([scan leaf 828](https://archive.org/details/japan-year-book-1920/page/n828/mode/1up))
+
+**Mitsukoshi Gofukuten** K.K., Surugacho, Nihombashi, Tokyo. A. leading and the oldest dry goods store with a history of three hundred years and also pioneer department store, known as "Harrods in Tokyo," or "Marshal Field in Tokyo." Reorganized as K.K. with capital of ¥2,000 in which the Mitsui family hold largest share. Branches; Osaka. Kyoto, Seoul and Dairen. Awarded gold medals at foreign and domestic exhibitions. Pres. H. Nozaki; Mng.-Dirs. R. Nakamura, T. Asabuki. — p. 757 ([scan leaf 828](https://archive.org/details/japan-year-book-1920/page/n828/mode/1up))
+
+**Nishimura Dry Goods Store** dealers in and manufacturers of high grade fabrics, embroideries, cut-velvet, kimono, etc., being one of the oldest in Kyoto. Saijo, Karasumaru, Kyoto; Tokyo branch, Yamashitacho, Kyobashi, Tokyo. — p. 757 ([scan leaf 828](https://archive.org/details/japan-year-book-1920/page/n828/mode/1up))
+
+**Osaka Knitting and Spinning Co** K.K., Nishinari-gun, Osaka. Est. 1912; cap. ¥600 p.u.; manufacturers of cotton hosiery goods with Mitsui Bussan Kaisha as selling agents; supply 600,000 lbs. of cotton knittings per annum now, largely shipped to Europe. Pres. S. Nango; Dirs. C. Kamo, S. Koizumi, M. Kita; Auditor K. Kure. — p. 757 ([scan leaf 828](https://archive.org/details/japan-year-book-1920/page/n828/mode/1up))
+
+**Shibakawa & Co** Gm. K., Koraibashi, Osaka. Est. 1903, capital ¥500; general importers and exporters of dry goods; have branches in Tokyo, Kobe and London. Chiefly deal in handkerchiefs, woolen goods and general textile fabrics. Prop. Eisuke Shibakawa. — p. 757 ([scan leaf 828](https://archive.org/details/japan-year-book-1920/page/n828/mode/1up))
+
+**Shirokiya Dry Goods Store** Nihombashi, Tokyo. A leading dry goods and department store in Tokyo, founded 1662. Branch at Osaka. Pres. W. Omura, Mng. Dir. T. Okuda, Dir. K. Tomono. — p. 757 ([scan leaf 828](https://archive.org/details/japan-year-book-1920/page/n828/mode/1up))
+
+**K. Sowa & Co** Nichome, Ginza, Tokyo. Sole agents for Kyoto Weaving Co.; have branches at Yokohama, Shanghai and Kyoto. Prop. K. Sowa. — p. 757 ([scan leaf 828](https://archive.org/details/japan-year-book-1920/page/n828/mode/1up))
+
+**Takashimaya (Iida & Co.)** Gm. K., Kyoto and Tokyo, Karasumaru-dori, Takatsuji, Kyoto. Formerly private firm run by Mr. Shinshichi Iida; reorganized in 190[illegible] as Gm, K., cap. ¥1,[illegible]0[illegible]. Branches at Yokohama, Kobe, Fukui, Lyon (Fr.), London (Eng.), Tientsin (China). Prop. S. Iida. — p. 757 ([scan leaf 828](https://archive.org/details/japan-year-book-1920/page/n828/mode/1up))
+
+**Yuasa Raw Cotton Co** K.K., dealers in raw cotton, cotton cloth, and cotton goods in general, Kitahama, Osaka. Est. Aug. '18; cap. ¥1,000 p.u. Dir. T. Tsuchihashi. — p. 757 ([scan leaf 828](https://archive.org/details/japan-year-book-1920/page/n828/mode/1up))
+
+### Section V. Arts, Curios, Jewels, and Toys
+
+**Ando Shippo-ten** enamel ware, Ginza, Tokyo. Est. '82 by J. Ando. Average annual output is reported about ¥3,000. Branch, Harbart. U.S.A. Awarded with Gold and Silver medals at Paris, St. Louis, Anglo-Japanese Fairs, etc. — p. 757 ([scan leaf 828](https://archive.org/details/japan-year-book-1920/page/n828/mode/1up))
+
+**Hattori Watch and Clock Store** Manufacturer of and dealer in watches and clocks, jewels, surveying instruments, etc. Prop. Kintaro Hattori. Ginza, Tokyo. — p. 757 ([scan leaf 828](https://archive.org/details/japan-year-book-1920/page/n828/mode/1up))
+
+**Ikeda Gm. K** curio merchant, Shimmonzen, Kyoto. Formed Mar. '96, succeding former Ikeda firm; capital ¥3[illegible]0 with eight partners; branch at Ginza, Tokyo. — p. 758 ([scan leaf 829](https://archive.org/details/japan-year-book-1920/page/n829/mode/1up))
+
+**Isetsu & Co** 1[illegible] Motoiwaicho, Kanda, Tokyo. Est. 1862; manufacturers and exporters of various kinds of toys, kakemono, etc. Prop. Tatsugoro Hirose. — p. 758 ([scan leaf 829](https://archive.org/details/japan-year-book-1920/page/n829/mode/1up))
+
+**Kitashimizu Katsuzo** Tomino-koji, Kyoto, Toys, especially dolls, largely exported; awarded high prizes at Paris and several domestic fairs. — p. 758 ([scan leaf 829](https://archive.org/details/japan-year-book-1920/page/n829/mode/1up))
+
+**Kuramochi & Co** (Toyodaya Co.). 13 & 14, Bakurocho, Nihombashi, Tokyo. Est. 1851; wholesale manufacturers and exporters of Japanese toys. — p. 758 ([scan leaf 829](https://archive.org/details/japan-year-book-1920/page/n829/mode/1up))
+
+**Mikimoto Shinju-ten** jewels and pearls, Ginza, Tokyo. Has piscina at Ago and Gokasho bays near Toba, and cultivates pearls by patented process invented by the proprietor of the firm. Awarded grand prizes at foreign and domestic exhibitions; has gold and silver smith depts. Prop., K. Mikimoto. — p. 758 ([scan leaf 829](https://archive.org/details/japan-year-book-1920/page/n829/mode/1up))
+
+**Miyamoto Shoko** silver smith and dealer, Yazaemoncho, Kyobashi, Tokyo. Est. 18[illegible]2; contractor to several Government Depts,; awarded gold and silver medals at foreign and domestic exhibitions. Prop., K. Miyamoto. — p. 758 ([scan leaf 829](https://archive.org/details/japan-year-book-1920/page/n829/mode/1up))
+
+**Muramatsu Firm** jewellers and makers of platinum vessels used in laboratories, etc.; gold-medal at St. Louis World's Fair, Grand Prize at Paris World's Fair, etc. Demma-cho, Kyobashi, Tokyo. — p. 758 ([scan leaf 829](https://archive.org/details/japan-year-book-1920/page/n829/mode/1up))
+
+**Samurai Shokai** 20 Honcho, Yokohama. Est. 190[illegible], carved wood furniture-maker and dealer, gold and silver work, also deals in ivory, bronze, gold lacquer, damascene wares, embroideries, etc. Pres. Y. Nomura. — p. 758 ([scan leaf 829](https://archive.org/details/japan-year-book-1920/page/n829/mode/1up))
+
+**Tenshc-do** manufacturers of and dealers in silver and bronze art objects, jewels, etc. Gold medals and Grand Prizes at foreign and domestic exhibitions. Ginza, Tokyo. — p. 758 ([scan leaf 829](https://archive.org/details/japan-year-book-1920/page/n829/mode/1up))
+
+**H. Yamada & Co** Itchome, Yokoyamacho, Nihombashi, Tokyo. Est. 1893; is the manufacturer and dealer in all kinds of toys and dolls, and also exports a great deal abroad. Prop. H. Yamada. — p. 758 ([scan leaf 829](https://archive.org/details/japan-year-book-1920/page/n829/mode/1up))
+
+**Yamanaka & Co** partnership unltd., Awadaguchi, Kyoto. Est, 1908, a leading curio establishment in Japan. Branch shop at Boston. — p. 758 ([scan leaf 829](https://archive.org/details/japan-year-book-1920/page/n829/mode/1up))
+
+### Section VI. Toilets, Chemicals and Drugs
+
+**Azumi Isaburo** apothecary and druggist, Tomitacho, Kitaku, Osaka. Manufacturer of and wholesale dealer in insecticide, est'd 1894. — p. 758 ([scan leaf 829](https://archive.org/details/japan-year-book-1920/page/n829/mode/1up))
+
+**Fukuhara Shiseido** Ginza, Tokyo, exporters and importers of all toilet goods, drugs, patent-medicines, etc. Est. 188[illegible]. Pres. Y. Fukuhara. — p. 758 ([scan leaf 829](https://archive.org/details/japan-year-book-1920/page/n829/mode/1up))
+
+**Hoshi Seiyaku Kabushiki Kaisha** Minami-Demmacho, Kyobashi, Tokyo. Cap. ¥250 p.u.; manufactures patent medicines. Pres. H. Hoshi; Dirs. T. Arai, K. Ishimoto. — p. 758 ([scan leaf 829](https://archive.org/details/japan-year-book-1920/page/n829/mode/1up))
+
+**Iseya Kichijiro** toilet articles, Yokoami, Higashi-Ryogoku, Tokyo. One of the oldest establishments dating from Tokugawa regency; speciality, tooth powders styled "Takarako," "Baikosan" and "Nippon-san." Export large amount to China, Korea, etc. — p. 758 ([scan leaf 829](https://archive.org/details/japan-year-book-1920/page/n829/mode/1up))
+
+**Kidani Firm** druggist, Ogacho, Kyobashi, Tokyo. An old establishment; speciality, the "Jitsubo-san," medicine for women's disease. Proprietor, Kidani. — p. 759 ([scan leaf 830](https://archive.org/details/japan-year-book-1920/page/n830/mode/1up))
+
+**Kobayashi, T** Sototemachi, Honjo, Tokyo. Manufacture of and dealer in tooth powder ("Lion" brand) and toilet soaps; established by his father. His brands are exported to China, India, Australia, South Seas and Russian markets; awarded high medals at foreign and domestic fairs. — p. 759 ([scan leaf 830](https://archive.org/details/japan-year-book-1920/page/n830/mode/1up))
+
+**Marumiya Shoten** Tachibanacho, Nihombashi, Tokyo. Est. in Keio Era. Manufacturer of and wholesale dealer in toilet-articles, drugs, nutriments, fancy-goods, etc. Keeps a well equipped laboratory under leading experts in chemical technology, etc. Prop. Zembei Miwa. — p. 759 ([scan leaf 830](https://archive.org/details/japan-year-book-1920/page/n830/mode/1up))
+
+**Morishita H** Kitakyutaromachi, Higashiku, Osaka; is the manufacturer of popular patent medicines, "Jintan," etc., which are shipped largely to China and South Seas. — p. 759 ([scan leaf 830](https://archive.org/details/japan-year-book-1920/page/n830/mode/1up))
+
+**Naikoku Seiyaku Kaisha (Japan Drug Co.)** K.K., 10, Muromachi Sanchome, Nih., Tokyo. Est. Nov., 1915; cap. ¥1,000 (¥500 p.u.), Government guaranteeing profit of 8%. The Co. produce ascetylin, salicylic acid, antifebrin, phenacetin, etc. Works at Mitake, Minamishinagawa, Tokyo. Pres. Y. Fukuhara; Mng.-Dirs. M. Shiobara, Dr. K. Ikeguchi. — p. 759 ([scan leaf 830](https://archive.org/details/japan-year-book-1920/page/n830/mode/1up))
+
+**Nippon Oxygen Co** Hamacho, Nihombashi, Tokyo. Est. July, '18; cap. ¥700 p.u.; chief product is oxygen both for inhaling and for industrial use, and oxygen acetyline. Dirs. R. Sudo, T. Yamaguchi, etc. — p. 759 ([scan leaf 830](https://archive.org/details/japan-year-book-1920/page/n830/mode/1up))
+
+**Sankyo & Co** K.K., druggists and chemists, Muromachi, Nihombashi, Tokyo. Started at Yokohama in 1899 by Dr. Jokichi Takamine, renowned chemist and originator of "Taka Diastase" and Adrenalin and Mr. Shiohara, now Mng.-Dir. of the Co.; sole agent for Parke, Davis & Co., U.S.A.; removed to Tokyo in '01; incorporated Shiohara's firm with capital ¥500 in '07; K.K. '13 with capital ¥1,212 p.u. to be increased to ¥2,870 '18; amalgamated with the Satow-Light Co. engaged in celluloid manufacture. Pres. Dr. J. Takamine; Mng.-Dir. Y. Shiohara. — p. 759 ([scan leaf 830](https://archive.org/details/japan-year-book-1920/page/n830/mode/1up))
+
+**Toyama Baiyaku Kabushiki Kaisha** (Patent Medicine Co.), Hoshinoimachi, Toyama; the district known from ancient time for patent medicines of all kinds. — p. 759 ([scan leaf 830](https://archive.org/details/japan-year-book-1920/page/n830/mode/1up))
+
+**Tsumura Juntendo** Tori Sanchome, Tokyo. Manufacturer of "Chujo-to," patent medicine for women's disease, and has wide connections abroad. — p. 759 ([scan leaf 830](https://archive.org/details/japan-year-book-1920/page/n830/mode/1up))
+
+**Yamaba Firm** Gm. K., Minami Kyutaromachi, Osaka; wholesale dealers in dye-stuffs and similar chemicals. Est. 1855. — p. 759 ([scan leaf 830](https://archive.org/details/japan-year-book-1920/page/n830/mode/1up))
+
+### Section VII. Gas and Electricity
+
+**Anglo-Japanese Hydro-Electric Co** K.K., Uchisaiwaicho, Tokyo. Est. '11; cap. ¥1,650 p.u.; div. 9%; supplies light, etc. to Hamamatsu City and environs. Directors: Pres. A. Kabayama; Dirs. Baron K Sonoda, S. Kuno. — p. 759 ([scan leaf 830](https://archive.org/details/japan-year-book-1920/page/n830/mode/1up))
+
+**Ebikawa Electro-Industrial Co** K.K., Sannencho, Koj., Tokyo The orginal Ebikawa Electric Power Co. est. 1912 with cap. ¥600 p.u later increasing to ¥1,000 p.u., amalgamated in '18 with the Ebikawa Kogyo (cap. ¥750 p.u.), Tokai Denka Kogyo (500 p.u.) and Nippon Electric Iron Foundry (500 p,u.), and emerged on creation of the new Co. backed by ¥2,750 p.u. cap. and much enlarged business. Pres. T. Tachikawa, Mng.-Dir. H. Inai. — p. 760 ([scan leaf 831](https://archive.org/details/japan-year-book-1920/page/n831/mode/1up))
+
+**Fuji Hydro Electric Co** K.K., 1-chome, Yurakucho, Koj., Tokyo. Est. 1907; cap. ¥4,300 p.u.; amalgamated May '18 with Fuji Chemical Industry Co. Pres. K. Ono. — p. 760 ([scan leaf 831](https://archive.org/details/japan-year-book-1920/page/n831/mode/1up))
+
+**Hayakawa Electric Power Co** K.K., 1-chome, Yurakucho, Koj., Tokyo. Est. 1917; cap. ¥2,000 p.u.; can supply 45,000 h.p. Pres. Wakao. — p. 760 ([scan leaf 831](https://archive.org/details/japan-year-book-1920/page/n831/mode/1up))
+
+**Hiroshima Electric Light Co** K.K., Otemachi, Hiroshima. Est. 1893; cap. ¥3,000 p.u. Pres. K. Takatsuka. — p. 760 ([scan leaf 831](https://archive.org/details/japan-year-book-1920/page/n831/mode/1up))
+
+**Hokkaido Gas Works** K.K., Yurakucho, Tokyo. Est. July '11. Directors: Pres. J. Sonoda; Mng.-Dir. T. Suzuki. — p. 760 ([scan leaf 831](https://archive.org/details/japan-year-book-1920/page/n831/mode/1up))
+
+**Inawashiro Hydro-Electric Co** K.K., Yurakucho, Tokyo. Est. '11. Directors: Pres. R. Toyokawa; Mng.-Dirs. N. Shiraishi, R. Kondo, R. Hara, etc. — p. 760 ([scan leaf 831](https://archive.org/details/japan-year-book-1920/page/n831/mode/1up))
+
+**Katsuragawa Electric Power Co** K.K., 3-chome, Ginza, Tokyo. Est. '10; supplies current for the motors of the Tokyo Municipal electric undertakings as trams, light, etc. Directors: Pres. N. Ikegami; Dirs, S. Iwata, S. Hara, etc. — p. 760 ([scan leaf 831](https://archive.org/details/japan-year-book-1920/page/n831/mode/1up))
+
+**Kinugawa Hydro-Electric Co** K.K., Yurakucho, Tokyo. Est. '10; supplies Tokyo City Trams about 50,000 h.p. Directors: Pres. T. Toshimitsu; Dirs. S. Kobayashi, T. Otsuka. — p. 760 ([scan leaf 831](https://archive.org/details/japan-year-book-1920/page/n831/mode/1up))
+
+**Kobe Electric Co** K.K., Kobe. Est. '13, by amalgamation of Kobe Elec. Light, and Kobe Railway Cos. Directors: Mng.-Dir. N. Uchimura; Dirs. T. Akiyama, S. Kawanishi, etc. — p. 760 ([scan leaf 831](https://archive.org/details/japan-year-book-1920/page/n831/mode/1up))
+
+**Kobe Gas Works** K.K., Aioicho, Kobe. Est. '98. Capacity 1,600,000 c. ft. Directors: Pres. K. Matsukata; Mng.-Dir. S, Kubo. — p. 760 ([scan leaf 831](https://archive.org/details/japan-year-book-1920/page/n831/mode/1up))
+
+**Kyoto Electric Light Co** K.K., Kawaracho, Kyoto. Est. '89. Directors: Pres. Z. Ozawa; Mng.-Dir. H. Tanaka; Dirs. G. Tanaka, S. Arakawa, etc. — p. 760 ([scan leaf 831](https://archive.org/details/japan-year-book-1920/page/n831/mode/1up))
+
+**Kyoto Gas Works** K.K., Yanagibaba, Kyoto. Est. '09. Directors: Pres. H. Oku; Dirs. J. Uchiki, T. Inagaki, Y. Shibata. — p. 760 ([scan leaf 831](https://archive.org/details/japan-year-book-1920/page/n831/mode/1up))
+
+**Nagoya Electric Light Co** K.K., Nakaku, Nagoya. Est. '89. Mng.-Dirs. M. Fukuzawa, T. Shimode. — p. 760 ([scan leaf 831](https://archive.org/details/japan-year-book-1920/page/n831/mode/1up))
+
+**Nagoya Gas Works** K.K., Otsucho, Nagoya. Est. '06. Directors: Pres. M. Inouye, Mng.-Dir. S. Okamoto. — p. 760 ([scan leaf 831](https://archive.org/details/japan-year-book-1920/page/n831/mode/1up))
+
+**Nippon Electric Light Co** K.K., Fujishirocho, Honjo, Tokyo. Est. '11; the power being supplied from Katsuragawa Elec. Power Co. Mng.-Dir. K. Shima, K. Ando; Dirs. S. Kokura, K. Ono, etc. — p. 760 ([scan leaf 831](https://archive.org/details/japan-year-book-1920/page/n831/mode/1up))
+
+**Nippon Hydro-Electric Power Co** K.K., 6-chome, Minami-Kanecho, Kyobashi., Tokyo. Est. '18. with cap. ¥1,250 p.u. Chairman of Dirs. Igarashi. — p. 760 ([scan leaf 831](https://archive.org/details/japan-year-book-1920/page/n831/mode/1up))
+
+**Osaka Electric Light Co** K.K., Nakanoshima, Osaka. Est. '87 capacity 23,250 k.w.; besides, 20,000 k.w. supplied by Ujigawa Co. Directors: Pres. M. Doi; Mng.-Dir. T. Sakano. — p. 760 ([scan leaf 831](https://archive.org/details/japan-year-book-1920/page/n831/mode/1up))
+
+**Osaka Gas Works** K.K. Nakanoshima, Osaka. Est. Oct. 1896. Directors: Pres. C, Kataoka; Dirs. C.P. Cushman, S. Kishi, C. Watanabe. — p. 761 ([scan leaf 832](https://archive.org/details/japan-year-book-1920/page/n832/mode/1up))
+
+**Tokyo Electric Co** K.K., Horinouchi, Kawasaki, Kanagawa-ken. Est. 1896, reorganized 1917; cap. ¥6,000 p.u. Pres. I. Fujioka; Mng.-Dir. J. R. Gary. — p. 761 ([scan leaf 832](https://archive.org/details/japan-year-book-1920/page/n832/mode/1up))
+
+**Tokyo Electric Light Co** K.K. Yurakucho, Tokyo. Est. 1883; amalgamated many elec. Cos. and at present is almost sole Co. supplying light in Tokyo City and environs; capacity 134,[illegible]00 k.w. (coal) and 52,000 (hydro), besides supplied 45,000 h.p. by Inawashiro Co. and 100,000 h.p. by Kinugawa Co. Directors: Pres. I. Wakao; Mng.-Dirs. K. Kambe, I. Nakahara, T. Koshiyama. — p. 761 ([scan leaf 832](https://archive.org/details/japan-year-book-1920/page/n832/mode/1up))
+
+**Tokyo Gas and Electric Engineerings Co** K.K., Narihira-cho, Nakanogo, Honjo, Tokyo. Est. 1910; mfrs. of and dealers in various machines, gas-mantles, enamel-wares; have connection with the Rly. Board, Naval Arsenals, etc. Pres. Goro Matsukata. — p. 761 ([scan leaf 832](https://archive.org/details/japan-year-book-1920/page/n832/mode/1up))
+
+**Tokyo Gas Works** K.K., Nishikicho, Kanda, Tokyo. Est. '85; the only gas Co. in Tokyo City having amalgamated newly opened rivals; total supply 1,624,592,400 c. ft. Directors: Pres. R. Kume; Dirs. S. Ohashi, F. Watanabe, K. Koda, etc. — p. 761 ([scan leaf 832](https://archive.org/details/japan-year-book-1920/page/n832/mode/1up))
+
+**Ujigawa Electric Co** K.K., Shichijo, Kyoto. Est. 1906; capacity 30,000 k.w.; supply power to Osaka Elec. Light Co. (25,900 k.w.), Kyoto Elec. Light Co. (1.000 k.w,) and Osaka Municipal Trams (4,000). Directors: Pres. A. Nakagawa; Dirs. M. Muraki, M. Doi, M. Asai, S. Ikeda; Mgr. Y. Hayashi. — p. 761 ([scan leaf 832](https://archive.org/details/japan-year-book-1920/page/n832/mode/1up))
+
+**Tone Electric Power House** K.K., Maebashi; Gumma-ken. Est. '07; capacity 13,000 k.w., supplying light and running trams (9 m. 16 ch.), also undertakes gas (50,000 c. ft.). Pres. T. Hozumi; Mng.-Dir. S. Osawa. — p. 761 ([scan leaf 832](https://archive.org/details/japan-year-book-1920/page/n832/mode/1up))
+
+### Section VIII. Mining and Metallurgy
+
+**Asano Ogura Steel Foundry** K.K., Ogura, Fukuoka-ken. Est. 1918; cap ¥15,000 (6,000 p.u.). Pres. Soichiro, Asano. — p. 761 ([scan leaf 832](https://archive.org/details/japan-year-book-1920/page/n832/mode/1up))
+
+**Dai-Nippon Colliery Co** K.K., 1-chome, Eiraku-cho, Koj., Tokyo. Est. 1917; cap, ¥15,000 (10,000 p.u.). Pres. S. Koga, Mng.-Dir. K. Tate. — p. 761 ([scan leaf 832](https://archive.org/details/japan-year-book-1920/page/n832/mode/1up))
+
+**Fuji Steel Works** K.K., Kawasaki, near Tokyo. Est. 1918; cap. ¥6,000. Pres. S. Hoshino; Vice-Pres. S. Fujii. — p. 761 ([scan leaf 832](https://archive.org/details/japan-year-book-1920/page/n832/mode/1up))
+
+**Fujita-Gumi Mining Co** K.K., Dojima, Osaka. A business dept. of the Fujita Firm, separated from it 1917 and reformed as K.K., with nominal cap. ¥[illegible]0,000. Pres. Baron H. Fujita, Mng.-Dir, N. Saka. — p. 761 ([scan leaf 832](https://archive.org/details/japan-year-book-1920/page/n832/mode/1up))
+
+**Furukawa & Co** Gm. K., Yayesucho, Koji., Tokyo. Founded 1878 by the late Ichibei Furukawa and reorganized as such in May, 1918, with capital of ¥20,000. It runs Mining, Trading, and Banking Depts.; owns Ashio and 10 other copper mines besides coal mines and foundries; manufacture copper and brass products, steel wire, etc. Pres. Baron T. Furukawa; Mng.-Dirs. B. Konda (Mining); T. Yoshimura (Trading); S. Nakagawa (Banking). — p. 761 ([scan leaf 832](https://archive.org/details/japan-year-book-1920/page/n832/mode/1up))
+
+**Hoden Petroleum Co** K.K., Nagaoka, Niigata-ken. Est. 1893; one of the leading petroleum Cos.; capital ¥16,250 p.u.; reserves ¥4,562; div. 20%. Pres, K. Hashimoto; Mng.-Dir. T. Watanabe. — p. 762 ([scan leaf 833](https://archive.org/details/japan-year-book-1920/page/n833/mode/1up))
+
+**Hokkaido Iron Works** K.K., 5-chome, Nihom. Tokyo. Est. 1917; cap. ¥3,000 p.u.; can produce 150,000 tons of pig-iron; controlled by the Mitsui. Pres. N. Yamada; Mng.-Dir. D. Kurita. — p. 762 ([scan leaf 833](https://archive.org/details/japan-year-book-1920/page/n833/mode/1up))
+
+**Hokkaido Tanko Kisen Kabushiki Kaisha** (Hokkaido Colliery and S.S. Co.), Honkawayacho, Nihombashi, Tokyo. Est. 1889 and were first engaged in coal mining and railway but with the railway nationalization in Oct. '06, expanded the colliery work, shipping service; also undertake the manufacture of coke and forestry business. In conjunction with Messrs. Armstrong and Vickers, the Co. opened a steel foundry styled the Nippon Seikosho. Also work their own Wanishi Iron Foundry. Capital ¥27,000 (26,000 p.u.); reserves ¥3,300. Chairman T. Dan; Mng.-Dirs. T. Isomura, T. Uno, etc. — p. 762 ([scan leaf 833](https://archive.org/details/japan-year-book-1920/page/n833/mode/1up))
+
+**Ibaraki Anthracitic Colliery Co** K.K., Akashicho, Tsukiji, Tokyo, Est. 1893; capital ¥675 p.u.; reserves ¥139; Chairman M. Takeuchi; Dirs. N. Ninomiya, K. Kimura. — p. 762 ([scan leaf 833](https://archive.org/details/japan-year-book-1920/page/n833/mode/1up))
+
+**Iriyama Colliery Co** K.K., Yagembori, Tokyo. Est. '95; capital ¥875 p.u.; reserves ¥1,060; div. 20%; have coal mine in Fukushima prefecture. Directors; Pres. S. Go; Mng.-Dir. N. Uchida; Dirs. K. Ito, E. Yamagiwa. — p. 762 ([scan leaf 833](https://archive.org/details/japan-year-book-1920/page/n833/mode/1up))
+
+**Ishikari Colliery Co** K.K., Uchisaiwaicho I, Koj., Tokyo. Est. 1906; capital ¥12,500 (7,000 p.u.) Pres. N. Yamada. — p. 762 ([scan leaf 833](https://archive.org/details/japan-year-book-1920/page/n833/mode/1up))
+
+**Iwaki Colliery Co** K.K., Minato-gashi, Kyobashi, Tokyo. Est. '84; capital ¥1,200 p.u, reserves ¥303; div. 20%. Directors: Chairman N. Yamada; Mng.-Dir. K. Kurata. — p. 762 ([scan leaf 833](https://archive.org/details/japan-year-book-1920/page/n833/mode/1up))
+
+**Kaijima Mining Co** K.K., Nokata, Fukuoka-ken. Est. 1899 by Kaijima family; transformed as K.K. in Dec. '09; cap. ¥2,500 p.u.; own five collieries in Kyushu turning out annually over 1,700,000, tons of coal. Pres, E. Kaijima, Mng.-Dirs. H. Nakane, etc. — p. 762 ([scan leaf 833](https://archive.org/details/japan-year-book-1920/page/n833/mode/1up))
+
+**Kobe Steel Foundry Co** K.K., Wakino-hama, Kobe. Founded 1911 by the Suzuki family, Kobe; increased cap. to ¥10,000 (6,256 p.u.), reserves about ¥2,000. Pres. I. Suzuki, Mng.-Dirs. S. Yorioka and K. Tamiya. — p. 762 ([scan leaf 833](https://archive.org/details/japan-year-book-1920/page/n833/mode/1up))
+
+**Kuhara Mining Co** K.K,, Nakanoshima, Osaka. Est. 1912 and reorganized 1915 as Co. ltd. increasing cap. from ¥10,000 to ¥30,000; then again to 75,000 (41,250 p.u.) in 1918; res. ¥30,000; mining, chemical-industry and machine-making relating to mining, etc.; possess Hitachi mines and 339 other metallic leases, 92 coal and 21 miscellaneous leases, altogether covering 220,800 acres and annual prod. copper 25,760,000 lbs., gold 80,000 oz., silver 655,000 oz., In 1917 established big refineries at Mukden and Fushun, South Manchuria. Pres. F. Kuhara; Dirs. Takeuchi and Nakayama. — p. 762 ([scan leaf 833](https://archive.org/details/japan-year-book-1920/page/n833/mode/1up))
+
+**Meiji Mining Co** Gs, K., Eita, Kahogun, Fukuoka. Est. 1908; cap. ¥5,000 p.u.; reserves ¥350; div. 728%. Directors: Pres. K. Yasukawa, Vice-Pres. K. Matsumoto; Mng. Z. Shiratsuchi. — p. 762 ([scan leaf 833](https://archive.org/details/japan-year-book-1920/page/n833/mode/1up))
+
+**Mitsubishi Mining Co** K.K., Yayesucho, Koj., Tokyo; cap. ¥100,000; owns gold, silver, and coal mines. Pres. Baron H. Iwasaki (Vide Mitsubishi Firm). — p. 763 ([scan leaf 834](https://archive.org/details/japan-year-book-1920/page/n834/mode/1up))
+
+**Mitsui Mining Co** K.K., Surugacho. Nihombashi, Tokyo. Est. 1911, reorganized '18; cap. ¥100,000 (62,500 p. u.), res. ¥7,000 in '20; largest coal miners in Japan producing about 4,000,000 tons a year. See Mitsui Firm under Sec. General. Pres. M. Mitsui; Mng.-Dir. G. Mitsui; Mng.-Dir. N. Yamada. — p. 763 ([scan leaf 834](https://archive.org/details/japan-year-book-1920/page/n834/mode/1up))
+
+**Masura Alloy Co** K.K., 1-chome, Yurakucho, Koj., Tokyo. Est. 1918; cap. ¥3.000. Dirs. Kuroda, G. Masuda, — p. 763 ([scan leaf 834](https://archive.org/details/japan-year-book-1920/page/n834/mode/1up))
+
+**Mitsubishi Iron Foundry Co** K.K., Marunouchi, Tokyo. Est. 1917 by the Iwasaki Family; cap. ¥300,000. Have a big foundry at Kenjiho, Korea. Pres. Baron Iwasaki. — p. 763 ([scan leaf 834](https://archive.org/details/japan-year-book-1920/page/n834/mode/1up))
+
+**Murai Mining Co** K.K., Moto-Yokkaichi-cho, Nihom., Tokyo. Founded by Mr. Kichibei Murai as Mining Dept. of the old Murai Firm; reorganized as an independent Co. in 1918. Cap. ¥2,000 p.u. Pres. K. Murui. — p. 763 ([scan leaf 834](https://archive.org/details/japan-year-book-1920/page/n834/mode/1up))
+
+**Nakajima Mining Co** K.K., Hasuike-machi, Fukuoka city. Est. Aug. '18; cap. ¥10,000 p.u. Chairman T. Nakajima. — p. 763 ([scan leaf 834](https://archive.org/details/japan-year-book-1920/page/n834/mode/1up))
+
+**Nippon Petroleum Co** K.K., Mitsubishi Buildings, Marunouchi, Tokyo. Est. 1888; own Kurokawa wells (see Chap. Mining) etc.; cap. ¥25,000 p.u. in '20; reserves ¥6.500. Pres. H. Naito; Mng.-Dirs. J. Tanaka, T. Nakano. — p. 763 ([scan leaf 834](https://archive.org/details/japan-year-book-1920/page/n834/mode/1up))
+
+**Nippon Steel Foundry** K.K., 1-chome, Uchi-Saiwai-cho, Koj., Tokyo. Est. 1918; cap. ¥1,250 p.u.; engaged in mining industry in general. Dirs. Tanuma Katsusuke & others. — p. 763 ([scan leaf 834](https://archive.org/details/japan-year-book-1920/page/n834/mode/1up))
+
+**Nitto Steel Works Co** K.K., Nakadori, Tsukijima, Tokyo. Est. 1915; reorganized '17, cap. increased to ¥2,000 p.u.; have begun to manufacture tin-plate, annual output estimated at 15,000 tons. Pres. K. Inouye. — p. 763 ([scan leaf 834](https://archive.org/details/japan-year-book-1920/page/n834/mode/1up))
+
+**Okura Mining Co** K.K., (Vide Okuragumi, Section General). — p. 763 ([scan leaf 834](https://archive.org/details/japan-year-book-1920/page/n834/mode/1up))
+
+**Osaka Electric Copper Refinery Co** K.K., Osaka. Est. 1883; cap. ¥5.000 (3,750 p.u.); res. ¥1,600. Pres. K. Inouye. — p. 763 ([scan leaf 834](https://archive.org/details/japan-year-book-1920/page/n834/mode/1up))
+
+**Osaka Iron Works** K.K., Sakurajima, Nishi-ku, Osaka. Est. 1919; cap. ¥12,000 (11.500 p.u. in '20); res. ¥4.794. Shipbuilding and machinery. Pres. J. Yamaoka. Nng.-Dir. E. Nakayama. — p. 763 ([scan leaf 834](https://archive.org/details/japan-year-book-1920/page/n834/mode/1up))
+
+**Oshima Steel Foundry** K.K., Oshimacho, Minami-katsushika, Tokyo. Taken over by Messrs. H. Ogawa, H. Tanaka, and H. Okura, the Dirs. for ¥2.700 in 1917 and reformed with extended cap. ¥1,500 p.u. — p. 763 ([scan leaf 834](https://archive.org/details/japan-year-book-1920/page/n834/mode/1up))
+
+**Sumitomo Firm** Osaka, one of the oldest millionaire houses in Japan, combining banking, mining, refining, electric wire dep'ts, etc., owns Besshi Copper Mine, etc., and runs copper works, electric wire and cable works, both at Osaka, Fertilizer Factory at Niihama, Iyo; manufactures steel ingots, steel forgings, etc. for railways, shipbuilding yards, etc. Pres. Baron Sumitomo; Mng.-Dir. K. Nakada. — p. 763 ([scan leaf 834](https://archive.org/details/japan-year-book-1920/page/n834/mode/1up))
+
+**Takata Mining Co** K.K., Yurakucho, 2-chome, Koj., Tokyo. Founded in 1918 by M. K. Takata, a millionaire merchant; cap ¥10,000 (4,500 p.u,): besides mining, attend to refinery and chemical industry; also manufacture and deal in various hard wares, tools, and machines. Pres. Kanakichi Takata, Dirs. K. Kawaguchi, T. Ikeda. (Vide Sect. General). — p. 763 ([scan leaf 834](https://archive.org/details/japan-year-book-1920/page/n834/mode/1up))
+
+**Toyo Iron Works** K.K., Tetsubin-cho, Koj., Tokyo. Est. 1917 with cap. ¥50,000 (12,500 p.u.); Govt. guarantees profit of 6%. Pres. Baron S. Go, Mng.-Dir. Baron K. Nakajima. — p. 764 ([scan leaf 835](https://archive.org/details/japan-year-book-1920/page/n835/mode/1up))
+
+### Section IX. Brewery
+
+**Dai Nippon Beer Brewery Co** K. K., Meguro, Tokyo. Formed March, 1906 by amalgamating Ebisu, Sapporo and Asahi breweries. Cap. ¥18,500 p. u.; res. ¥2,570; Brands "Ebisu," "Sapporo," "Asahi," and "munchenner" beers. Pres. K. Makoshi: Mng.-Dir. C. Uemura. — p. 764 ([scan leaf 835](https://archive.org/details/japan-year-book-1920/page/n835/mode/1up))
+
+**Eigashima Sake Brewery Co** K.K., Okubo, Akashi, Hyogo-ken. Est. Jun 1888; annual products 15,000 koku. Directors: Pres. Kyokichi Tobe; Mngr. Toyotaro Tobe. — p. 764 ([scan leaf 835](https://archive.org/details/japan-year-book-1920/page/n835/mode/1up))
+
+**Kabuto Beer Brewery Co** K. K., Ginza, Tokyo. Est. Sept. '9[illegible]; B and, "Kabuto." Cap. ¥3,750 p. u.; res. ¥110 Pres. K. Nezu. — p. 764 ([scan leaf 835](https://archive.org/details/japan-year-book-1920/page/n835/mode/1up))
+
+**Kirin Beer Brewery Co** K. K., Bund, Yokohama. Founded by some foreigners and reorganized in Feb. 1907 as K. K. with Japanese and foreign share-holders; brands, "Lager," "Pilsena," etc. Cap. ¥4,985 p. u.; res. ¥615. Pres. Baron. R. Kondo, Mng.-Dir. S. Ida. — p. 764 ([scan leaf 835](https://archive.org/details/japan-year-book-1920/page/n835/mode/1up))
+
+**Kondo Rihei and Co** K.K., No. 9 2-chome, Honcho, Nihombashi, Tokyo. Est. 1918; cap. ¥1,000 p.u.; dealers in wine and spirits. Pres. R. Kondo. — p. 764 ([scan leaf 835](https://archive.org/details/japan-year-book-1920/page/n835/mode/1up))
+
+**Meidi-Ya** K.K., Yokohama. Sole agent for Kirin beer; also a leading grocer and provision establishment. Pres. O. Isono. (Vid. Sec. XXIII.) — p. 764 ([scan leaf 835](https://archive.org/details/japan-year-book-1920/page/n835/mode/1up))
+
+**Nishinomiya Sake Brewery Co** K.K., Nishinomiya, Hyogo. Est. Apr. 1889; annual products 24,000 koku; is the largest sake brewery. — p. 764 ([scan leaf 835](https://archive.org/details/japan-year-book-1920/page/n835/mode/1up))
+
+**G. Tanaka & Co** Choshi, Chibaken. Est. 1616, one of the oldest brewery of Japanese soy, "Higeta Shoyu;" have been honored with several medals at exhibitions at home and abroad. Prop. G. Tanaka. — p. 764 ([scan leaf 835](https://archive.org/details/japan-year-book-1920/page/n835/mode/1up))
+
+**Teikoku Beer Brewery Co** K.K., Dairi, Fukuoka-ken. Est. May, 1912. Have capacity to produce 65,000 koku a year. Pres. R. Oka; Mng.-Dir. I. Sumida. — p. 764 ([scan leaf 835](https://archive.org/details/japan-year-book-1920/page/n835/mode/1up))
+
+**Teikoku Mineral Water Co** K.K,, Hirano, near Kobe; and Sakamoto, Nihombashi, Tokyo. Est. Jan. 1907; capital ¥480 p.u. Own Mitsuya & Peacock brands of Hirano table water containing natural carbonic acid gas, obtained from a spring at Hirano village, near Ikeda station of the Hankaku railway. Awarded gold medal at St. Louis Exposition in 1904. Chairman of Directors, K. Hamaguchi; Mng.-Dir. S. Nakaya; Dirs. J. Yamana, T. Kuwabara — p. 764 ([scan leaf 835](https://archive.org/details/japan-year-book-1920/page/n835/mode/1up))
+
+### Section X. Sugar Manufacturing
+
+**Chutai Colonization and Sugar Mnf. Co** K.K., Nawa, Loochoo. Est. Oct., 1910; capital ¥2.750 p.u.; reserves ¥78, div. 10%. Pres. K. Abe; Mng,-Dir. K, Yano. — p. 765 ([scan leaf 836](https://archive.org/details/japan-year-book-1920/page/n836/mode/1up))
+
+**Dai Nippon Sugar Mnf. Co** K.K., Suna-mura, Minami-Kazushika-gun, Tokyo-fu. Est. 18[illegible]6; capital ¥12,000 p.u.; reserves ¥3,195; div. 10%; debts ¥4,70[illegible]. Factories at Tokyo, Osaka, Moji, Formosa. Pres. R. Fujiyama; Mng.-Dirs. C. Takayama, R. Ito. — p. 765 ([scan leaf 836](https://archive.org/details/japan-year-book-1920/page/n836/mode/1up))
+
+**Ensuiko Sugar Mnf. and Colonization Co** K.K., Kagi, Formosa. Est.1907; capital ¥7,875 p.u.; reserves ¥1,453; debts ¥2,000; div. 14% The Co. amalgamated in 1914 with Taito Colonization Co. (est. Aug., 1912; cap. ¥2,25[illegible] p.u.) Pres. I. Arai; Mng.-Dirs. T. Maki, S. Fujisaki. — p. 765 ([scan leaf 836](https://archive.org/details/japan-year-book-1920/page/n836/mode/1up))
+
+**Meiji Sugar Mnf. Co** K.K., Tainan. Formosa. Est. 1906; capital ¥8,9[illegible]5 p.u.; reserves 2,210; div. 15%. Chairman H. Soma; Mng.-Dirs. T. Takagi, K. Arima. — p. 765 ([scan leaf 836](https://archive.org/details/japan-year-book-1920/page/n836/mode/1up))
+
+**Nan-Man (South Manchuria) Sugar Mfg. Co** K.K., Japanese Concession, Mukden, China. Est. 1916; cap. ¥10,000 (3,500 p.u.) Pres. T. Arai, Mng.-Dir. S. Hashimoto. — p. 765 ([scan leaf 836](https://archive.org/details/japan-year-book-1920/page/n836/mode/1up))
+
+**Nanyo (South-Sea) Sugar Mfg. Co** K.K., 1-chome, Yurakucho, Koj., Tokyo. Est. 1918; cap. ¥2,0[illegible]0 p.u. Dirs. T. Hiraoka (chairman), K. Matsuo, T. Toyota, etc. — p. 765 ([scan leaf 836](https://archive.org/details/japan-year-book-1920/page/n836/mode/1up))
+
+**Niitaka Sugar Mnf. Co** K.K., Sentoho, Taichu, Formosa. Est. Oct. 1909; capital ¥5,00[illegible] p.u.; reserves ¥450; div. 12%. Pres. K. Takashima; Mng.-Dr. K. Makiyama. — p. 765 ([scan leaf 836](https://archive.org/details/japan-year-book-1920/page/n836/mode/1up))
+
+**Tainan Sugar Mnf. C** K.K., Tainan, Formosa. Est. Nov., 1912; cap. ¥1,620 p.u,; reserves ¥19; div. 7%. The Co. amalgamated in 1916 with Antai Co. and Giran Co. Pres. U. Suzuki; Mng.-Dir. Y. Kawai. — p. 765 ([scan leaf 836](https://archive.org/details/japan-year-book-1920/page/n836/mode/1up))
+
+**Taiwan Sugar Mnf. Co** K.K., Takao, Formosa. Formed 1900; capital ¥29,[illegible] (2[illegible],800 p.u.); reserves ¥7,000; div. 12%. The Co. agreed to amalgamate in Sept., 1916 with the Taihoku Sugar Mnf. Co. (capital ¥2,250 p.u.) Chairman S. Fujita; Mng.-Dirs. I. Yamamoto, N. Takechi, T. Masuda. — p. 765 ([scan leaf 836](https://archive.org/details/japan-year-book-1920/page/n836/mode/1up))
+
+**Teikoku Sugar Mnf. Co** K.K., Taichu, Formosa. Est. 1910; cap. ¥15,000 (9,38[illegible] p.u,); reserves ¥1,25[illegible]; debts ¥1,0[illegible]0; div. 12%. The Co. amalgamated in '16 with Minami-Nippon Sugar Mnf. Co. (cap. ¥2,500 p.u.) Pres. M. Matsukata; Mng.-Dir. S. Makiyama. — p. 765 ([scan leaf 836](https://archive.org/details/japan-year-book-1920/page/n836/mode/1up))
+
+**Toyo Sugar Mnf. Co** K.K., Kagi, Formosa. Est. 1907; absorbed in 1914 Toroku Sugar Mnf. Co., cap. ¥1,200 p.u.) and other Cos. in '15 and Hokko Sugar Mnf. Co. (cap. ¥1,500 p.u.) and Tamaki Co. in '16 and increased the cap. to ¥6,615 p.u.; reserves ¥2,232; div. 14%. Mng.-Dir. 1. Shimosaka. — p. 765 ([scan leaf 836](https://archive.org/details/japan-year-book-1920/page/n836/mode/1up))
+
+### Section XI. Flour Milling and Confectionery
+
+**Imamura Confectioners** K.K., No. 2 Mita-Koyamacho, Shiba, Tokyo. Est. 1918; cap. ¥1,000 (¼ p.u.) Pres. T. Imamura. — p. 765 ([scan leaf 836](https://archive.org/details/japan-year-book-1920/page/n836/mode/1up))
+
+**Manchuria Flour Milling Co** K.K. Tieling, S. Manchuria.. Est. 1908; cap. ¥1,500 p.u. in 1920; manufacture 1,200 barrels per day; have branches at Changchung, Harbin and Tainan. Pres. T. Yoshimura. — p. 766 ([scan leaf 837](https://archive.org/details/japan-year-book-1920/page/n837/mode/1up))
+
+**Morinaga & Co** K.K., confectioners, Mita, Tokyo. Est. in 1910, succeeding Mr. Morinaga's confectionery business, with capital ¥1,200 (900 p.u.); Directors, T. Morinaga (Pres.), H. Matsuzaki (Gen. Mng.), T. Kakujima (Mng. of Osaka Branch). — p. 766 ([scan leaf 837](https://archive.org/details/japan-year-book-1920/page/n837/mode/1up))
+
+**Nippon Flour Milling Co** K.K., Higashi-Ogibashi, Fukagawa, Tokyo. Est. Sept. 1896. Cap. in 1920 ¥5,625, reserves ¥1,270 Pres. S. Iwasaki, Vice-Pres. M. Hirano. — p. 766 ([scan leaf 837](https://archive.org/details/japan-year-book-1920/page/n837/mode/1up))
+
+**Nisshin Flour Milling Co** K.K., Suyehirogashi, Nihombashi, Tokyo, Est. Mar. '07. Pres. K. Nezu; Mng-Dir. T. Shota. — p. 766 ([scan leaf 837](https://archive.org/details/japan-year-book-1920/page/n837/mode/1up))
+
+**To-a Flour Milling Co** K.K., Oshimacho, suburb of Tokyo. Est. Oct. 1906. Cap. ¥1,250 p.u. in '20. Mng.-Dir. S. Moroi. — p. 766 ([scan leaf 837](https://archive.org/details/japan-year-book-1920/page/n837/mode/1up))
+
+### Section XII. Paper and Paper Wares
+
+**Chosen Paper-Mill Co** K.K., New Wiju, Korea. Est.D ec. 1917; cap. ¥5,000 (½ p.u.), sister-Co. of the Oji Paper-Mill, Tokyo. Pres. G. Fujiwara; Dir. T. Hara. — p. 766 ([scan leaf 837](https://archive.org/details/japan-year-book-1920/page/n837/mode/1up))
+
+**Fuji Paper Mill Co** K. K., Sanjikkembori, Kyobashi, Tokyo. Est. 1887; own 8 mills in Shizuoka-ken, Hokkaido & Osaka; 3 branches in China; annual product 100 million lbs. Pres. H. Okawa; Mng,-Dirs. Y. Anamizu, T. Takahashi. — p. 766 ([scan leaf 837](https://archive.org/details/japan-year-book-1920/page/n837/mode/1up))
+
+**Fuji Pulp Mfg. Co** K. K., Sanjikkembori, Kyobashi, Tokyo. Est. Oct. '18; cap. ¥750 p.u.; has connecticn with the Fuji Paper-Mill. Chairman S. Kubota. — p. 766 ([scan leaf 837](https://archive.org/details/japan-year-book-1920/page/n837/mode/1up))
+
+**Japan Chemical Pulp Muf. Co** K.K., Sakaehama, Karafuto, Est. 1915; cap. ¥750 p.u. Branch office; No. 21 Mitsubishi building, Yaesucho, Kojimachi. Pres. K. Koike Dirs. K. Tsukakoshi, S. Arita. — p. 766 ([scan leaf 837](https://archive.org/details/japan-year-book-1920/page/n837/mode/1up))
+
+**Karafuto Sangyo Kabushiki Kaisha** Otomari, Karafuto, Manufacturers of and dealers in pulp and foreign paper. Est. July '18; cap. ¥2,500 p.u.; supply pulp to the Oji Paper-Mill. Pres. G. Fujiwara. — p. 766 ([scan leaf 837](https://archive.org/details/japan-year-book-1920/page/n837/mode/1up))
+
+**Kashiwabara Paper Store** K. K., 1-chome, Minami-Demma-cho, Kyobashi, Tokyo. Est. 1916; cap. ¥1,000; dealers in pulp, foreign and native papers; importers and exporters, and commission merchants. Has a branch at Osaka. Pres. M. Kashiwabara, Dirs. K. Tsunoda, etc., Man. K. Ito. — p. 766 ([scan leaf 837](https://archive.org/details/japan-year-book-1920/page/n837/mode/1up))
+
+**Mitsubishi Paper-Mill Co** K.K., Takasago, Hyogo-ken. Founded and run by the Iwasaki family as gm.k.; reformed in 1918 as such; cap. ¥2,500. Pres. Baron H. Iwasaki. — p. 766 ([scan leaf 837](https://archive.org/details/japan-year-book-1920/page/n837/mode/1up))
+
+**Nakagawa Paper Mill Co** K. K., Nakagawa near Tokyo. Est. in 1915, Cap. ¥3,000. Pres. Baron H. Iwasaki. — p. 766 ([scan leaf 837](https://archive.org/details/japan-year-book-1920/page/n837/mode/1up))
+
+**Nakanoshima Paper-Mill Co** K.K., Tamaecho, Kitaku, Osaka. Est. Oct. '06; cap. ¥166 p.u.; annual prod., match-paper 2 million lbs and packing paper 16 million lbs. Pres. Dembei Shimogo; Mng.-Dir. Torataro Shimogo; Mng. K. Baba. — p. 766 ([scan leaf 837](https://archive.org/details/japan-year-book-1920/page/n837/mode/1up))
+
+**Oji Paper Mfg. Co** K.K., General Office: 9 Shinsaiwai-cho, Shiba, Tokyo. Founded in 1873. Subsidiary concerns: Chosen Paper Mfg. Co., Karafuto Industrial Co., etc. Annual Output: Paper—100,000 tons; Sulphite Pulp—30,000 tons. Managing Director Ginjiro Fujiwara. — p. 767 ([scan leaf 838](https://archive.org/details/japan-year-book-1920/page/n838/mode/1up))
+
+**Okayama Paper-Mill Co** K.K., Okayama. Est. Jan. '03; cap. ¥450 p.u.; div. 6.6%. Exported in 2nd half, 1915, 1450 tons of paper to China, Korea, Australia, South Seas and India. Mng.-Dir. Y. Iwado; Dirs. S. Hatakeyama, T. Mizuta, J. Nakamura. — p. 767 ([scan leaf 838](https://archive.org/details/japan-year-book-1920/page/n838/mode/1up))
+
+**Tokai Pulp Mnf. Co** K.K., Yariyacho, Kyobashiku, Tokyo. Est. 1907; div. 8%. Pres. K. Okura; Dirs. Y. Haraguchi, H. Okura. — p. 767 ([scan leaf 838](https://archive.org/details/japan-year-book-1920/page/n838/mode/1up))
+
+**Tokyo Paper-Board Co** K.K., Minami-Senju, Tokyo. Est. '86; capital ¥1,000 p.u.; reserve ¥387; div. 9%. Products in 2nd half, 1915 printing paper 5,636,000 lbs. and paper-board 3,600 tons. Mng.-Dir. S. Asano; Dirs. R. Yamanaka, T. Miyama, R. Suzuki. — p. 767 ([scan leaf 838](https://archive.org/details/japan-year-book-1920/page/n838/mode/1up))
+
+**Toyo Paper-Mill Co** K.K., Toyosaki-machi, Osaka-fu. Est. 1906; manufacture rice paper for cigarette. Pres. S. Inouye; Mng.-Dir. T. Nakamura. — p. 767 ([scan leaf 838](https://archive.org/details/japan-year-book-1920/page/n838/mode/1up))
+
+**Yokkaichi Paper-Mill Co** K.K., Yokkaichi, Miye-ken. Est. '87. Product of paper in 2nd half, 1915, 8 million kin. Directors: N. Shigemori, H, Okawa, H. Itakura, I. Kumazawa. — p. 767 ([scan leaf 838](https://archive.org/details/japan-year-book-1920/page/n838/mode/1up))
+
+### Section XIII. Glass and Ceramics
+
+**Asahi Glass Mnf. Co** K.K.; Amagasaki, Hyogo prefecture. Est. 1909; cap. ¥500 p.u.; manufacturers of plate glass; run by the Iwasaki family; branch-shop established at Kawasaki, near Tokyo. Mng.-Dir. S. Sō. — p. 767 ([scan leaf 838](https://archive.org/details/japan-year-book-1920/page/n838/mode/1up))
+
+**Nikka (Japan-China) Ceramic Industry Co** K.K., Tsi-nan-fu, Shantung, China. Est. 1918; cap. ¥2,000 (800p.u.); besides manufacturing earthen ware, engaged in coal mining and supply of electricity. Dirs. Tadaichiro Tanaka, Y. Nakamura, etc. — p. 767 ([scan leaf 838](https://archive.org/details/japan-year-book-1920/page/n838/mode/1up))
+
+**Osaka Ceramic Co** K.K., Dojima, Kitaku, Osaka. Est. 1882; cap. ¥1,150 p.u.; res. ¥240; loans ¥190; div. 10%; produce sundry varieties of bricks including ordinary bricks at the factories at Sakai, Kishiwada, Kaizuka, etc. Pres. R. Isono; Dir. K. Hirooka. — p. 767 ([scan leaf 838](https://archive.org/details/japan-year-book-1920/page/n838/mode/1up))
+
+**Shimada Glass Works** Shin-Yodogawa, Osaka. Est. 1903; cap. ¥300; glass wares, as lamp shields. cups, dishes, and flower vases, etc.; largely export to China, India and South Seas. Prop. M. Shimada. — p. 767 ([scan leaf 838](https://archive.org/details/japan-year-book-1920/page/n838/mode/1up))
+
+**Shinagawa White Brick Mnf. Co** K.K., Kita-Shinagawa, Tokyo-fu. Est. 1875 and organized as K,K. in 1903; cap. ¥3,500, (2,500 p.u.); res. ¥195; div. 16%; yearly output estimated at 30,000,000 fire-proof, and 15,000,000 decorative; have a factory at Osaka and 3 at Fukuoka prefecture. Mng.-Dir. M. Yamanouchi. — p. 767 ([scan leaf 838](https://archive.org/details/japan-year-book-1920/page/n838/mode/1up))
+
+**Shōfū Porcelain Co** Gs. K., Honcho-dori, Kyoto. Est. about 1861 and organized as such in 1906; manufacturers and wholesale exporters of Japanese crockery wares; have a large factory in Nagoya to produce export wares, and sale office at Kyobashiku, Tokyo; largely export to China, India, South Seas and Australia. Prop. Kajo Shofu. — p. 767 ([scan leaf 838](https://archive.org/details/japan-year-book-1920/page/n838/mode/1up))
+
+### Section XIV. Chemical Industries
+
+**Aichi Cement Mfg. Co** K.K., Atsuta-Higashi-cho, Minami-ku, Nagoya. Est. 1889; cap. ¥1,600 p.u. Pres. Takashima. — p. 768 ([scan leaf 839](https://archive.org/details/japan-year-book-1920/page/n839/mode/1up))
+
+**Asano Cement Mfg. Co** K.K., Kiyosumicho. Fukagawa, Tokyo. Founded 1912 by Mr. Soichiro Asano, a millionaire merchant of Tokyo; cap. ¥9,130 p.u.; debentures ¥8,930; res. ¥352; Monthly output about 550,000 barrels. Pres. S. Asano. — p. 768 ([scan leaf 839](https://archive.org/details/japan-year-book-1920/page/n839/mode/1up))
+
+**Dai Nippon Artificial Fertilizer Co** K.K., Kitashimbori-cho, Nihombashiku, Tokyo. Est. 1887; cap. ¥8,437 p.u.; loans ¥2,100; res. ¥977; div. 8%. Chairman K. Anraku; Mng.-Dirs. I. Abe; M. Horiuchi; Dirs. T. Masuda, M. Tanaka, T. Murai, T. Nishikawa, S. Uemura, G. Murota. — p. 768 ([scan leaf 839](https://archive.org/details/japan-year-book-1920/page/n839/mode/1up))
+
+**Electric and Chemical Industrial Co** K.K., Honkawayacho, Nihombashiku, Tokyo. Est. 1913; cap. ¥125 p.u.; div. 12%; line of business, lime, carbonic lime, sulphate ammonia, etc. Chairman K. Magoshi; Mng.-Dirs. J. Otaguro, T. Fujiwara. Dirs. S. Ohashi, S. Uemura, K. Makita, G. Fujiwara. — p. 768 ([scan leaf 839](https://archive.org/details/japan-year-book-1920/page/n839/mode/1up))
+
+**Japan Celluloid aud Artificial Silk Co** K.K., Aboshi, Banshu, Hyogo prefecture. Est. 19[illegible]8; cap. ¥1,200 p.u. Chairman T. Tanabe; Dirs. K. Iwai, Y. Kawada. — p. 768 ([scan leaf 839](https://archive.org/details/japan-year-book-1920/page/n839/mode/1up))
+
+**Japan Enamel Co** K.K., Kitahorie, Nishiku, Osaka. Est. 1912; cap. ¥186 p.u.; div 8%. Pres. M. Shiraishi; Mng.-Dir. Y. Kitabatake; Dirs. K. Kishimoto, K. Kondo, K. Hirose. — p. 768 ([scan leaf 839](https://archive.org/details/japan-year-book-1920/page/n839/mode/1up))
+
+**Japan Dye-Stuff Co** K.K., Yariya-cho, Kyobashi, Tokyo. Est. 1915 under official protection which guarantees profit of 8%; cap ¥8,000 (2,000 p.u.). Line of business, to produce aniline salts, aniline and alizarine dyes, carbolic acid, etc. Pres. H. Nakaya; Dirs. Shuntaro Ohashi, Chozaburo Uemura, etc. — p. 768 ([scan leaf 839](https://archive.org/details/japan-year-book-1920/page/n839/mode/1up))
+
+**Japan Glycerin Co** K.K., Chifuna, Nishinari-gori, Osaka. Est. 1915 under the official patronage which guarantees profit of 8%; cap. ¥1,050 p.u.; absorbed Japan Seiyu Co., and Imperial Fish-oil Refining Co. emerging on creation of the new Co., chief productions are glycerin, machine oil, painting oil, perfumery, wax, etc. Pres. Y. Hiraga; Dirs. O. Kase, Y. Fujimoto, T. Arima. — p. 768 ([scan leaf 839](https://archive.org/details/japan-year-book-1920/page/n839/mode/1up))
+
+**Japan Match Mnf. Co** K.K., Aratamachi, Kobe. Est. 1907; cap. ¥1,000 p.u.; res. ¥52; div. 10%; output for 2nd half-year 1915, 75,740 cases. Pres. M. Naoki; Mng.-Dirs. I. Honda, J. Goto; Dirs. T. Takemura, K. Tomono. — p. 768 ([scan leaf 839](https://archive.org/details/japan-year-book-1920/page/n839/mode/1up))
+
+**Japan Nitro-Fertilizer Co** K.K,, Tosabori, Nishiku, Osaka. Est. 1907; cap ¥10,[illegible]00 (7,600 p.u.); factories at Mizumata, Kagami and Hinode. Chairman T. Nakahashi; Mng.-Dirs. J. Noguchi, S. Ichikawa; Dirs. N. Shiraishi, Y. Watanabe, R. Toyokawa. — p. 768 ([scan leaf 839](https://archive.org/details/japan-year-book-1920/page/n839/mode/1up))
+
+**Japan Paint Co** K.K., Minami-Shinagawa, Tokyo. Est. 1881 in Tokyo and organized as K.K., 1898; cap. ¥1,100 p.u.; have factories at Osaka; annual output estimated at 60,000,000 lbs.; export large amount to China, India and South-Seas. Pres T. Tazaki; Dirs. N. Hasegawa, J. Mogi, S. Asada. — p. 768 ([scan leaf 839](https://archive.org/details/japan-year-book-1920/page/n839/mode/1up))
+
+**Kanto Sanso Mfg. Co** K.K., Oji, near Tokyo. Est. 1896; Mfr. chemicals, dye-stuffs, etc.; cap. ¥5,000 (3,250 p.u.); res. ¥2,706. Pres. E. Tanaka. — p. 768 ([scan leaf 839](https://archive.org/details/japan-year-book-1920/page/n839/mode/1up))
+
+**Nippon Acetic Acid Mfg. Co** K.K., Yokogawa-cho, Yanagishima, Honjo, Tokyo. Est. 1902; cap. ¥1,30[illegible] (920 p.u.); res. ¥790. Pres. K. Makoshi. — p. 769 ([scan leaf 840](https://archive.org/details/japan-year-book-1920/page/n840/mode/1up))
+
+**Nippon Acid-Proof Paint Co** K.K., No. 1 Omote-Jimbocho, Kanda, Tokyo. Est. 1918; cap. ¥1,000 (¼ p.u.). Pres. E. Kono. — p. 769 ([scan leaf 840](https://archive.org/details/japan-year-book-1920/page/n840/mode/1up))
+
+**Nippon Arsenious acid Industrial Co** K.K., No. 15 Minami-Kinrokucho, Kyobashi, Tokyo. Est. 1918; cap. ¥1,000 (¼ p.u.) Chairman, K. Anraku. — p. 769 ([scan leaf 840](https://archive.org/details/japan-year-book-1920/page/n840/mode/1up))
+
+**Nippon Artificial Manure Co** K.K., Azuma-cho, Minami-Katsushika, Tokyo-fu. Est. 1912 with cap. ¥2,000 (950 p.u.) reserves, ¥20[illegible]. Pres. T. Hasegawa, Mng.-Dir. H. Kojima. — p. 769 ([scan leaf 840](https://archive.org/details/japan-year-book-1920/page/n840/mode/1up))
+
+**Nippon Camphor Mfg. Co** K.K., Kobe. Est. 1918 with cap. ¥6,000 p.u. by the seven Camphor Mfg. Cos. in various places by amalgamation. Mng.-Dir. T. Watanabe; Dirs. N. Kaneko, etc. — p. 769 ([scan leaf 840](https://archive.org/details/japan-year-book-1920/page/n840/mode/1up))
+
+**Nippon Chemico-Industrial Co** K.K., Kameido, Tokyo. Est. Nov. '16; cap. ¥2,000 p.u.; res. ¥1,6[illegible]0; united Nippon Dye-stuff Mfg. Co. in Dec. '18. Pres. Baron Kihachiro Okura. — p. 769 ([scan leaf 840](https://archive.org/details/japan-year-book-1920/page/n840/mode/1up))
+
+**Onoda Cement Mnf. C** K.K., Onoda, Asa-gun, Yamaguchi prefecture. Est. 1881; cap. ¥1,600; res. ¥977; loans ¥496; div. 10%. Mng.-Dir. E. Fukuhara. Dirs. S. Kasai, S. Iida, T. Fukuhara. — p. 769 ([scan leaf 840](https://archive.org/details/japan-year-book-1920/page/n840/mode/1up))
+
+**Osaka Chemical Industrial Co** K.K., Nishi-ku, Osaka. Est. 1897; cap. ¥720; res. ¥250; div. 15%; line of business, coal-tar and sulphate ammonia. Pres. K. Ukita; Dirs. S. Watanabe, R. Wakae, F. Matsuo, K. Shimomura, S. Sotoyama. — p. 769 ([scan leaf 840](https://archive.org/details/japan-year-book-1920/page/n840/mode/1up))
+
+**Sakai Celluloid Co** K.K., Sakai. Est. 1908; cap. ¥2,000 p.u. Dirs Y. Mitsui, M. Morita, T. Dan, K. Fujino. — p. 769 ([scan leaf 840](https://archive.org/details/japan-year-book-1920/page/n840/mode/1up))
+
+**Sakura Portland Cement Co** K.K., Funadaikumachi, Kitaku, Osaka. Est. 1907; cap. ¥504 p.u.; div. 5%. Pres. I. Hiraga; Mng-Dir. M. Sakamoto. — p. 769 ([scan leaf 840](https://archive.org/details/japan-year-book-1920/page/n840/mode/1up))
+
+**Tokyo Gas and Electric Industrial Co** K.K., Nakanogo, Honjo-ku, Tokyo. Est. 1910; div. 8%; line of business, gas works, installation of gas stove, iron pipes and gas mantles, etc. Pres. G. Matsukata; Dirs. I. Umiina, S. Kawakami. — p. 769 ([scan leaf 840](https://archive.org/details/japan-year-book-1920/page/n840/mode/1up))
+
+**Sulphate Fertilizer Co** K.K., Sakai city, Osaka-fu. Est. 1896; cap. ¥300 p.u.; div. 8%; output for 2nd half-year, 1915, sulphuric acid 13,612,199 lbs., soda 1,174,516 lbs., fertilizer 3,096,550 kwan; have factory at Nanao. Pres. S. Noda; Dirs. S. Hishitani, B. Oi, K. Oka, E. Toda. — p. 769 ([scan leaf 840](https://archive.org/details/japan-year-book-1920/page/n840/mode/1up))
+
+**Toyo Cement Mng. C** K.K., Hamago, Watarai-gun, Miye-ken; formed by fusion of Miye Cement, and Tsuruga Cement Cos. in 1918; cap. ¥4,000. — p. 769 ([scan leaf 840](https://archive.org/details/japan-year-book-1920/page/n840/mode/1up))
+
+**Toyo Paint Mfg. Co** K.K., No. 224 Sendagi, Hongo, Tokyo. Est. 1918 absorbing Santoku Paint Co. Pres. S. Koyamada. — p. 769 ([scan leaf 840](https://archive.org/details/japan-year-book-1920/page/n840/mode/1up))
+
+**Toyo Salt Industry Co** K.K., No. 3 1-chome, Uchisaiwai-cho, Koj., Tokyo. Est. 1918; cap. ¥1,000; have salt-fields in Tientsin, China, covering 3,50[illegible] cho. Closely connected with the Sino—Japanese Industrial Co. Mng.-Dir. K. Mori, Dirs. H. Fujita, S. Akimoto. — p. 769 ([scan leaf 840](https://archive.org/details/japan-year-book-1920/page/n840/mode/1up))
+
+**Yokohama Fish-Oil Co** K.K., Okano-cho, Y'hama. Est 1893 cap. ¥1,500 p.u.; have a branch at Kobe; Mfr. fish-oil, cocoa-nut oil, etc. Pres. Rihei Okano. — p. 770 ([scan leaf 841](https://archive.org/details/japan-year-book-1920/page/n841/mode/1up))
+
+### Section XV. Metals, Machines, Tools, etc.
+
+**Abe Kobei & Co** Importers and exporters, Honcho, Yokohama. Est. fifty years ago and reorganized in 1918 when its engineering dept. was removed to Tokyo (Uchisaiwaicho, Koj.) to manufacture machines, tools, electric lamps, etc.; designers and contractors in general. Cap. ¥5,000 p.u. Own machine and electric workshops in Osaka and Dairen. Pres. Konosuke Abe. — p. 770 ([scan leaf 841](https://archive.org/details/japan-year-book-1920/page/n841/mode/1up))
+
+**Ikegai Iron Works** K.K., Shiba, Tokyo. Est. June, 1906; with cap. ¥25[illegible] by the Ikegai family; converted into K.K. in Apl., 1913; cap. ¥500 p.u. Pres. S. Ikegai. — p. 770 ([scan leaf 841](https://archive.org/details/japan-year-book-1920/page/n841/mode/1up))
+
+**Iwata Bros. & Co** Gs. K., Rokuchome, Kita-uriboridori, Nishiku, Osaka, are manufacturers of various machines and electric apparatuses, and also combine export and import business. — p. 770 ([scan leaf 841](https://archive.org/details/japan-year-book-1920/page/n841/mode/1up))
+
+**Kawai Iron Works** 44/2 Hondamachi, Nishiku, Osaka. Manufacturers of shearing machines and others for iron factory use. — p. 770 ([scan leaf 841](https://archive.org/details/japan-year-book-1920/page/n841/mode/1up))
+
+**Kimmon (metres) Shokai** Edobashi, Sugamomachi, Tokyo-fu. Manufactures of and dealears in water metre, gas metre and every description of metric plants; pioneer gas metre plant in Japan. Prop. D. Jumonji. — p. 770 ([scan leaf 841](https://archive.org/details/japan-year-book-1920/page/n841/mode/1up))
+
+**Kisha Seizo Kabushiki Kaisha** K.K.. Shimoyacho. Nishi, Osaka. Est. Sept., 1896; cap. ¥2,700 (2,200 p.u.); reserves ¥820. Mng-Dir. S. Hasegawa. — p. 770 ([scan leaf 841](https://archive.org/details/japan-year-book-1920/page/n841/mode/1up))
+
+**Kishimoto & Co** K.K., No. 8 6-chome, Nakanoshima, Osaka. Est. 1918; cap. ¥3,000 p.u.; chiefly deal in steel, iron and hard ware. Pres. Kichiemon Kishimoto. — p. 770 ([scan leaf 841](https://archive.org/details/japan-year-book-1920/page/n841/mode/1up))
+
+**Kyoritsu Electric Apparatus and Wire Mfg. Co** K.K., No. 39 Fujimicho, Azabu, Tokyo. Est. '08. and reorganized '18; cap. ¥5,000. Mng.-Dir. K. Ishiguro. — p. 770 ([scan leaf 841](https://archive.org/details/japan-year-book-1920/page/n841/mode/1up))
+
+**Matsuda Seisakujo** K.K., Kami-Fukushima. Kitaku, Osaka. Manufacturers of cartridge fuse, and have undertaken large orders from Russia. The establishment lately expanded into K.K., with cap. ¥50[illegible] p.u. Pres. J. Matsuda. — p. 770 ([scan leaf 841](https://archive.org/details/japan-year-book-1920/page/n841/mode/1up))
+
+**Nakajima Engineering Works** K. K., Itchome, Kujominamidori, Nishiku, Osaka. Manufacturers of machines in general. — p. 770 ([scan leaf 841](https://archive.org/details/japan-year-book-1920/page/n841/mode/1up))
+
+**Nippon Electric Co** K.K., Shikoku-cho, Mita, Tokyo. Agents for the Western Electric Co., U.S.A. Makers, exporters and importers of electric apparatuses and instruments. Founded July 1899; capital ¥3,750 p.u. subscribed by Japanese and foreign capitalists. Branch; Osaka, Dairen, Seoul. Mng.-Dir. K. Iwatare. — p. 770 ([scan leaf 841](https://archive.org/details/japan-year-book-1920/page/n841/mode/1up))
+
+**Niigata Tekkosho (Engineering Works)** K.K., No. , 3-chome, Yurakucho, Koj., Tokyo. Est. 1910; cap. ¥20,000 p.u. Mfr. steam engines, pumps, oil well machineries, etc. Pres. T. Yamaguchi. Mng.-Dir. K. Sasamura. — p. 770 ([scan leaf 841](https://archive.org/details/japan-year-book-1920/page/n841/mode/1up))
+
+**Nippon Kikai (Machinery) Mfg. Co** K.K., 7-chome, Higashi-Nakadori, Tsukijima, Kyobashi, Tokyo. Est 1915; cap. ¥2,000 (800 p.u.). Pres. T. Yoshimura. — p. 770 ([scan leaf 841](https://archive.org/details/japan-year-book-1920/page/n841/mode/1up))
+
+**Nippon Music Instrumeut Co** —Vide Section Miscellanous. — p. 771 ([scan leaf 842](https://archive.org/details/japan-year-book-1920/page/n842/mode/1up))
+
+**Nippon Iron Works** K.K., Muroran, Hokkaido. Est. Nov. 1907, cap. ¥15,000 p.u; reserves ¥21; loans ¥10,000. Chairman of Dirs. C. Takazaki. — p. 771 ([scan leaf 842](https://archive.org/details/japan-year-book-1920/page/n842/mode/1up))
+
+**Nippon Sharyo Seizo Kabushiki Kaisha** (Japan Car Manufacturing Co.), K.K. Atsuta, Nagoya. Est. Oct, 1906; cap. ¥840 p.u.; manufacture railway carriages, wagons, locos, and also contract various buildings and structures. Pres. Z. Morimoto; Mng.-Dir. K. Harada. — p. 771 ([scan leaf 842](https://archive.org/details/japan-year-book-1920/page/n842/mode/1up))
+
+**Nippon Steel Pipe Co** K.K., Kawasaki, Kanagawa-ken. Est. 1910; cap. ¥5,[illegible]00 p.u.: div. 10%; annual output estimated at 15,000 tons of pipes and 20,000 tons of iron rod, etc. to be enlarged to 100,000 tons in the near future. Pres. M. Shiraishi; Dir. S. Ohashi. — p. 771 ([scan leaf 842](https://archive.org/details/japan-year-book-1920/page/n842/mode/1up))
+
+**Osaka Denkibundo (Electric Copper) Co** K.K., Temmabashi, Kitaku, Osaka. Est. 1892; cap. ¥1,760 p.u.; res. ¥150; loans ¥318; div. 15%. Pres. S. Matsuoka; Mng-Dir. S. Suzuki. — p. 771 ([scan leaf 842](https://archive.org/details/japan-year-book-1920/page/n842/mode/1up))
+
+**Osaka Kosakujo** K.K., dealers in and manufacturers of steam-engies, boilers and machinery, Nakano-cho, Kitaku, Osaka. Est. Oct. '18; cap. ¥600. Dirs. S. Tsuji, T. Shimada. — p. 771 ([scan leaf 842](https://archive.org/details/japan-year-book-1920/page/n842/mode/1up))
+
+**Seikosha** Yanagishima, Honjo, Tokyo. Watch and clock works established by K. Hattori, watch and clock dealer, (which vid. Sec. V.) — p. 771 ([scan leaf 842](https://archive.org/details/japan-year-book-1920/page/n842/mode/1up))
+
+**Shibaura Engineering Works** K.K., Shiba, Tokyo. Est. July 1875; gradually enlarged since 1891, when the works came into possession of the Mitsui family; reorganized in 1904 as K.K. Pres. M. Mitsui; Mng.-Dirs. K. Kishi, S. Kobayashi. — p. 771 ([scan leaf 842](https://archive.org/details/japan-year-book-1920/page/n842/mode/1up))
+
+**Shimazu Works** K.K., Kawaracho, Kyoto. Est. 1917, incorporating Mr. G. Shimazu's private machine works; cap ¥2,0[illegible]0 (1,300 p.u.) — p. 771 ([scan leaf 842](https://archive.org/details/japan-year-book-1920/page/n842/mode/1up))
+
+**Tokyo Steel Material Works** K.K., Oshima-machi near Tokyo. cap. ¥3,00[illegible]. Est. 1916. Pres. Dr, K. Haraguchi; Mng.-Dir. T. Hayashiya. — p. 771 ([scan leaf 842](https://archive.org/details/japan-year-book-1920/page/n842/mode/1up))
+
+### Section XVI. Leather, Leather Goods, Belting, etc.
+
+**Chosen Leather Co** K.K., Kyongkido, Korea. Est. 1911; cap. ¥600 p.u.; res. ¥82; Div. 8%. Pres. K. Kaneko; Dirs. A. Uga, N. Takehiro, etc. — p. 771 ([scan leaf 842](https://archive.org/details/japan-year-book-1920/page/n842/mode/1up))
+
+**Hada Cotton Belt Mnf. Co** Sototemachi, Honjoku, Tokyo. Manufacturers of and dealers in cotton belts; obtained a patent for “Hada belt machine” 1899; supply to Mitsui, Mitsubishi, Furukawa, Kuhara and others. — p. 771 ([scan leaf 842](https://archive.org/details/japan-year-book-1920/page/n842/mode/1up))
+
+**Japan Leather Co** K.K., Senju, Tokyo-fu. Est. 1907; cap. ¥2,500 p.u.; res. ¥2,000, div. 15%; factory at Tokyo, Osaka, Hokkaido, Shanghai and Tientsin. Chairman, K. Okura, Vice-chairman, S. Ōsawa; Mng.-Dir. T Ito. — p. 771 ([scan leaf 842](https://archive.org/details/japan-year-book-1920/page/n842/mode/1up))
+
+**Meiji Leather Co** K.K., Yaesucho, Koj., Tokyo. Est. 1911; increased cap. to ¥2,500 p.u. in '18; Branch in Osaka. Mng.-Dir. J. Urabe. Dirs. J. Sekido, C. Sato, N. Uchida, G. Uchida, K. Nagasawa — p. 771 ([scan leaf 842](https://archive.org/details/japan-year-book-1920/page/n842/mode/1up))
+
+**Nitta Leather Beltings Co** Gs. K., Kuboyoshicho, Namba, Osaka. Est. 1885; sole manufacturers of leather and cotton belts. — p. 772 ([scan leaf 843](https://archive.org/details/japan-year-book-1920/page/n843/mode/1up))
+
+**Sakura-Gumi** Gs. K., Yaesucho, Kojimachiku, Tokyo. Boot and Shoe-makers, with close connection with the Japan Leather Co. Partners, J. Watanabe, J. Sato. — p. 772 ([scan leaf 843](https://archive.org/details/japan-year-book-1920/page/n843/mode/1up))
+
+### Section XVII. Stock Brokers and Exchanges
+
+**Fukushima Shokai** Gs. L., Stock-brokers, Aomonocho, Nihombashi, Tokyo. Est. 1905 succeeding Mr. Fukushima's business; have wide connection in Europe and America. Departments,—Bonds, Financial and Trust. Capital, ¥1,000. Pres. N. Fukushima, Mng.-Dir. W. Kitajima. — p. 772 ([scan leaf 843](https://archive.org/details/japan-year-book-1920/page/n843/mode/1up))
+
+**Osaka Dojima Exchange** K.K., Dojima, Osaka. Est. 1876; cap. ¥3,500 p.u.; res. ¥437. Dir. 34% for 1916. Chairman. T. Takakura. — p. 772 ([scan leaf 843](https://archive.org/details/japan-year-book-1920/page/n843/mode/1up))
+
+**Osaka Kabushiki Torihikijio** (Stock Exchange of Osaka), K.K., Kitahama, Osaka. Est. '78; capital ¥7,000 p.u.; res. ¥593. Chairman of Dirs. K. Fujino; Mng.-Dir. K. Miyazaki. — p. 772 ([scan leaf 843](https://archive.org/details/japan-year-book-1920/page/n843/mode/1up))
+
+**Osaka Sampin Torihikijo** (Osaka Exchange of Raw Cotton, Cotton Yarns and Fabrics), K.K., Kita-Kyutaro-machi, Higashi-ku, Osaka. Est. Feb. 1894; capital ¥650 p.u. doubled in '18; reserves ¥931, div. 13.2%. Directors: Chairman, R. Imanishi; Dirs. S. Iwata, O. Watanabe, H. Akioka. — p. 772 ([scan leaf 843](https://archive.org/details/japan-year-book-1920/page/n843/mode/1up))
+
+**Tokyo Beikoku Shohin Torihikijo** (Rice and Produce Exchange of Tokyo), K.K., Kakigaracho, Nihombashi, Tokyo, first formed in '76 with capital yen 100, increased to yen 400 in '93, to yen 1,500 in '08 when the Tokyo Produce Exchange was amalgamated; now yen 2,250 p.u.; reserve ¥208; div. 16%. Chairman, C. Sekine. — p. 772 ([scan leaf 843](https://archive.org/details/japan-year-book-1920/page/n843/mode/1up))
+
+**Tokyo Kabushiki Torihikijio** (Stock Exchange of Tokyo), K.L., Kabutocho, Tokyo. Est. in 1878; capital ¥8,000 p.u.; reserves ¥875; div. 18.7%. Chairman Baron S. Go. — p. 772 ([scan leaf 843](https://archive.org/details/japan-year-book-1920/page/n843/mode/1up))
+
+**Yamaichi & Co** gm. K., No. 3, Kabuto-cho, Nihom., Tokyo, Stock brokers, trust and financial agents, etc. Pres. K. Sugino. — p. 772 ([scan leaf 843](https://archive.org/details/japan-year-book-1920/page/n843/mode/1up))
+
+**Yokohama Torihikijio** (Yokohama Exchange of Raw Silk, Tea, Fabrics, Marine Products, Sugar, Grains and Stock Exchange), K.K., Minami-Nakadori, Yokohama. Est. May '94; capital ¥1,800 p.u. Directors: Chairman O. Watanabe; Mng.-Dirs. S. Yamazaki, S. Kikushima. — p. 772 ([scan leaf 843](https://archive.org/details/japan-year-book-1920/page/n843/mode/1up))
+
+### Section XVIII. Printing and Publishing Houses
+
+**Hakubun-Kwan** publishing house, Honcho, Nihombashi, Tokyo, founded 1887 by the late Sahei Ohashi, father of the present proprietor, Shintaro Ohashi; issues 15 kinds of magazines, etc. — p. 772 ([scan leaf 843](https://archive.org/details/japan-year-book-1920/page/n843/mode/1up))
+
+**Kaisei-Kwan** Kobinata-Suidocho, Koishikawa, Tokyo. A leading publisher of text-books for schools; publishes Westernized Japanese song books. Prop. T. Nishino. — p. 772 ([scan leaf 843](https://archive.org/details/japan-year-book-1920/page/n843/mode/1up))
+
+**Kyobun-Kwan** (Methodist Publishing House), Ginza, Tokyo. Leading book-sellers and stationers in Tokyo, also undertake printing. Agents Ginn & Co., Boston. E. J. Igrehart (Gen.-Mng.) — p. 772 ([scan leaf 843](https://archive.org/details/japan-year-book-1920/page/n843/mode/1up))
+
+**Maruzen Kabushiki Kaisha** Publishers, book-sellers and stationers. Tori-Sanchome, Nihombashi, Tokyo. Est. 1880, capital ¥1,300 p.u. in '20; connections, world wide. Dirs. N. Yamazaki, R. Matsushita, etc. Branches; Osaka, Kyoto, Sendai, and Fukuoka. — p. 773 ([scan leaf 844](https://archive.org/details/japan-year-book-1920/page/n844/mode/1up))
+
+**Nissbin Insatsu, Ltd** Tsurumaki-cho, Ushigome, Tokyo. Est. 19[illegible]9. General printing; cap. ¥500. Mng.-Dir. S. Kokuye. — p. 773 ([scan leaf 844](https://archive.org/details/japan-year-book-1920/page/n844/mode/1up))
+
+**Shimbi Shoin** K.K., publishers of fine art work, Sakana-cho, Kyobashi, Tokyo. Reorganized in 1906 as K.K., succeeding Mr. Tajima's private establishment. Awarded gold medals at home and foreign exhibitions. S. Tajima (Mng.-Dir.) See Chap. on Arts and Crafts. — p. 773 ([scan leaf 844](https://archive.org/details/japan-year-book-1920/page/n844/mode/1up))
+
+**Shuyei Sha Pub. Co., Ltd** Nishi Konya-cho, Ky., Tokyo. Est. 1899. General printing; cap. ¥1,000. Mng.-Dir. Y. Sugiyama. — p. 773 ([scan leaf 844](https://archive.org/details/japan-year-book-1920/page/n844/mode/1up))
+
+**Tokyo Printing Co** K.K., Printer. Kabutocho, Nihombashi, Tokyo. Capital ¥237 p.u.; reserves ¥144; div. 12%; contractors to several Government Departments. Awarded gold medals at home exhibitions. Mng.-Dir. Z. Hoshino. — p. 773 ([scan leaf 844](https://archive.org/details/japan-year-book-1920/page/n844/mode/1up))
+
+**Tokyo Tsukiji Kappan Seizojo** K.K., Tsukiji, Tokyo; pioneer printing and type foundry, est. 1873; capital ¥300; awarded gold medals at foreign and home exhibitions for art printing and type-founding; contractors to Government. President S. Nomura. — p. 773 ([scan leaf 844](https://archive.org/details/japan-year-book-1920/page/n844/mode/1up))
+
+**Toyo Printing Co** K.K., Atagocho, Shiba, Tokyo. Est. '05; cap. ¥650 p.u.; div. 4.5%. Pres. M. Tezuka. — p. 773 ([scan leaf 844](https://archive.org/details/japan-year-book-1920/page/n844/mode/1up))
+
+### Section XIX. Fishery and Marine Products
+
+**Daito Fisheries Co** K.K., Kochi, Kochi-ken. Est. July 1907; capital ¥200 p.u.; div. 10%. Catches are chiefly whales. Pres. Z. Inouye. — p. 773 ([scan leaf 844](https://archive.org/details/japan-year-book-1920/page/n844/mode/1up))
+
+**Fusan Fisheries Co** K.K., Fusan, Korea. Est. May, 1889, organized into present Co. in May, 1907. Capital ¥280 p.u.; div. 19% Chiefly engaged in fish market, also marine production and ice making. Pres. C. Ochi. — p. 773 ([scan leaf 844](https://archive.org/details/japan-year-book-1920/page/n844/mode/1up))
+
+**Nippon Fisheries Co** K.K., Homminatocho, Kyobashi, Tokyo. Est. 1906; capital ¥875 p.u.; div. 7.53%; ctaches are chiefly whales and herrings. Pres. N. Murata. — p. 773 ([scan leaf 844](https://archive.org/details/japan-year-book-1920/page/n844/mode/1up))
+
+**Teikoku Fisheries Co** K.K., Shimoyamatedori VI., Kobe. Est. Jan. '07; capital ¥500 p.u.; div. 5%. Chiefly engaged in salmon, yellow-tail and trout fishery and trawling. Chairman K. Kozone; Mng.-Dir. C. Sone. — p. 773 ([scan leaf 844](https://archive.org/details/japan-year-book-1920/page/n844/mode/1up))
+
+**Toyo Whaling Co** K.K., Kawaguchi-cho, Nishi-ku, Osaka. Est. May, '09; capital ¥[illegible],000 p.u.; reserve ¥45[illegible]; div. 12%. Pres. J. Oka. — p. 773 ([scan leaf 844](https://archive.org/details/japan-year-book-1920/page/n844/mode/1up))
+
+### Section XX. Shipping
+
+**Chosen Yusen Kaisha** K.K., Seoul, Korea. Est. '12; cap. ¥1,500 p.u.; reserves ¥58; debts ¥93; div. 7%. Own 31 vessels and 10,325 tons gross. Pres. K. Harada; Mng.-Dir. H. Yoshida. — p. 773 ([scan leaf 844](https://archive.org/details/japan-year-book-1920/page/n844/mode/1up))
+
+**Japan-China Steamship Co** =Nisshin S.S. Co. — p. 774 ([scan leaf 845](https://archive.org/details/japan-year-book-1920/page/n845/mode/1up))
+
+**Hayashi S.S. Co** K.K., Shipping agent, Nishiku, Osaka. Est. July '18; cap. ¥3,[illegible]00. Dirs. C. Matsumoto, etc. — p. 774 ([scan leaf 845](https://archive.org/details/japan-year-book-1920/page/n845/mode/1up))
+
+**Kobe Sambashi (Jetty) Co** K.K., Kano-cho, Kobe. Est. 1875; cap. ¥7,524 p.u. at end of 1918; chiefly engaged in transportation business. — p. 774 ([scan leaf 845](https://archive.org/details/japan-year-book-1920/page/n845/mode/1up))
+
+**Kokusai (International) S.S. Co** K.K., Kaigan-dori, Kobe. Est. 1919 with the combination of several prominent shipowners; cap. ¥100,000 (43,700 p.u.); own 250,00 tons of bottoms to be doubled by Feb. '20; Tokyo Branch in the Kaijo-Building, Maruno-uchi, Koj. Dirs. K. Yamashita, S. Uchida, etc. — p. 774 ([scan leaf 845](https://archive.org/details/japan-year-book-1920/page/n845/mode/1up))
+
+**Nanyo Yusen Kaisha** K.K., Kobikicho, Kyobashi, Tokyo. Former Nanyo Gumi, reorganized as such in 1914. Cap. ¥1,500 p.u. Pres. R. Harada; Mng.-Dir. R. Matsumoto. — p. 774 ([scan leaf 845](https://archive.org/details/japan-year-book-1920/page/n845/mode/1up))
+
+**Nippon Kaiun Co** K.K., 1-chome, Eirakucho, Koj,, Tokyo. Est. 1917; cap. ¥15,000 (3,700 p.u.). Mng.-Dir. S. Hayashi. — p. 774 ([scan leaf 845](https://archive.org/details/japan-year-book-1920/page/n845/mode/1up))
+
+**Nippon Yusen Kaisha** K.K., Yurakucho, Koj., Tokyo. Pres. Baron R. Kondo; Vice-Pres. Dr. T. Suda; Mng.-Dirs. K. Harada. Y. Ito, H. Fujishima, S. Nakajima, etc. — p. 774 ([scan leaf 845](https://archive.org/details/japan-year-book-1920/page/n845/mode/1up))
+
+**Nisshin Kisen Kaisha** (Japan-China S.S. Co.), K.K., Yurakucho, Koj., Tokyo. Pres. S. Kondo; Mng.-Dirs. K. Tosa, N. Takeuchi, R. Shiraiwa; Dir. T. Nakabashi. — p. 774 ([scan leaf 845](https://archive.org/details/japan-year-book-1920/page/n845/mode/1up))
+
+**Osaka Shosen Kaisha** K. K., Tomishimacho, N., Osaka. Cap. ¥100,000; res. ¥25,000; Div. 12%. Pres. K. Hori, Vice-Pres. J. Yamaoka; Dirs. R. Kafuku, K. Kimura, R. Fukao, S. Murata. H. Ota. — p. 774 ([scan leaf 845](https://archive.org/details/japan-year-book-1920/page/n845/mode/1up))
+
+**Osaka S. S. Trust Co** K.K., Dojima, Osaka. Est. Aug. '18; cap. ¥2,000 p. u.; chiefly deal in shipping business in general; Dirs. R. Isono, S. Yamamoto, etc. — p. 774 ([scan leaf 845](https://archive.org/details/japan-year-book-1920/page/n845/mode/1up))
+
+**Tokyo Bay S. S. Co** K. K., Reiganjima, Kyobashi, Tokyo. Est. 1899; cap. ¥2,000 (1,400 p. u.); res ¥485. Mng.-Dir. K. Sakurai. — p. 774 ([scan leaf 845](https://archive.org/details/japan-year-book-1920/page/n845/mode/1up))
+
+**Toyo Kisen Kaisha** K.K., Yurakucho, Koj., Tokyo. Pres. S. Asano; Dirs. H. Okawa, K. Okura, M. Shiraishi, Y. Ito, S. Nakajima, R. Asano. — p. 774 ([scan leaf 845](https://archive.org/details/japan-year-book-1920/page/n845/mode/1up))
+
+### Section XXI. Shipbuilding
+
+**Asano Ship-building Co** K.K., Hashimoto-cho, Yamauchi-cho, Y'hama, Founded April 1917 by Mr. Soichiro Asano, President; cap. ¥3,750 p.u.; can build 30,0[illegible]0 ton class steamers, — p. 774 ([scan leaf 845](https://archive.org/details/japan-year-book-1920/page/n845/mode/1up))
+
+**Hakodate Dockyards Co** K.K., Hakodate, Hokkaido. Est. Nov.. 1896; cap, ¥570 p.u.; reserves ¥88; debts ¥640; div. 8%. Pres. T. Kawata; Mng.-Dir. H. Kondo. — p. 774 ([scan leaf 845](https://archive.org/details/japan-year-book-1920/page/n845/mode/1up))
+
+**Ishikawajima Dockyards** K.K., Ishikawajima, Tokyo. Shipbuilding and Engineering works; one of the oldest private establishments; reorganized in Jan. 1887 as K. K. with expanded business; capital ¥4,614 p.u. Pres. Watanabe; Mng. Uchida. Vid. cap. Industry. — p. 774 ([scan leaf 845](https://archive.org/details/japan-year-book-1920/page/n845/mode/1up))
+
+**Kawasaki Dockyards. Co** K. K., Kobe. The forerunner of the Tokyo Tsukiji Dockyards, founded in 1878 by Mr. S[illegible]ozo Kawasaki; reorganized in '96 as K. K.; cap. ¥ 32,500 p. u.; reserves 29,880; loans ¥8,850; div. 10%. In 1917 started marine transportation business and its iron works newly built at suburbs of Kobe have begun to mfr. iron plate. Pres. Kojiro Matsukata. — p. 775 ([scan leaf 846](https://archive.org/details/japan-year-book-1920/page/n846/mode/1up))
+
+**Mitsubishi Dockyards** established by the Mitsubishi Firm; was reorganized in 1918 as an independent joint stock company with the nominal capital of ¥50,000; see the Mitsubishi Firm under Sec. General. — p. 775 ([scan leaf 846](https://archive.org/details/japan-year-book-1920/page/n846/mode/1up))
+
+**Osaka Iron Works** K.K., Kawaguchi, Okaka. Est. March, 1914 as K.K. Pres. J. Yamaoka; Mng.-Dirs. R. Yamaguchi; K. Kimura. — p. 775 ([scan leaf 846](https://archive.org/details/japan-year-book-1920/page/n846/mode/1up))
+
+**Osaka Ship-building Co** K.K., Sembi-cho, Nishi-ku, Osaka. Est. 1916; cap. ¥2,500 p.u. Pres. N. Iwaki. — p. 775 ([scan leaf 846](https://archive.org/details/japan-year-book-1920/page/n846/mode/1up))
+
+**Uraga Dockyards Co** K.K., Yurakucho, Kojimachi, Tokyo. Pres. T. Machida; Mng.-Dirs. H. Oki, T. Yamaguchi, etc. — p. 775 ([scan leaf 846](https://archive.org/details/japan-year-book-1920/page/n846/mode/1up))
+
+**Yokohama Dockyards Co** K.K., Irifunecho, Yokohama. Est. June, 1891; cap. ¥2,475 p.u.; reserves ¥942; div. 9%. Chairman of Dirs. R. Hara; Mng.-Dirs. S. Yamada, J. Kondo. — p. 775 ([scan leaf 846](https://archive.org/details/japan-year-book-1920/page/n846/mode/1up))
+
+**Yoshiura Ship-building Co** K.K., Yoshiura, Hiroshima-ken. Bought in 1917 by Mr. Tadasaburo Yamamato and was reorganized as such with cap. ¥1,000 p.u.; have its iron works backed by a separate cap. ¥500 in Kobe. Pres. T. Yamamoto, Mag.-Dir. U. Tomishima. — p. 775 ([scan leaf 846](https://archive.org/details/japan-year-book-1920/page/n846/mode/1up))
+
+### Section XXII. Hotels
+
+**Chosen Hotel** Keijo (Seoul), Korea. Opened in Oct. 1914; the ground on which its fire-proof building stands is said to have been formerly a part of the “Temple of Heaven”; cable add. “Choho,” Keijo. Man. S. Inohara. — p. 775 ([scan leaf 846](https://archive.org/details/japan-year-book-1920/page/n846/mode/1up))
+
+**Fujiya Hotel** K.K., Miyanoshita, Hakone. Formed '93 by the Yamaguchi family; is reputed as one of the best hotels in Japan, and is provided with hot spring bath. — p. 775 ([scan leaf 846](https://archive.org/details/japan-year-book-1920/page/n846/mode/1up))
+
+**Grand Hotel** Yokohama, commands an unbroken view of surrounding country. Mng.-Dir. H. E. Manwaring. — p. 775 ([scan leaf 846](https://archive.org/details/japan-year-book-1920/page/n846/mode/1up))
+
+**Imperial Hotel** K.K., Uchi-Yamashita-cho, Kojimachi, Tokyo. Est. in 1907; cap. ¥2,400; Directors, K. Okura (Pres.), A. Hayashi (Mng.). — p. 775 ([scan leaf 846](https://archive.org/details/japan-year-book-1920/page/n846/mode/1up))
+
+**Kanaya Hotel** Nikko. 15 munites walk from Nikko Station; situated near the secred bridge. Proprietor, Kanaya. — p. 775 ([scan leaf 846](https://archive.org/details/japan-year-book-1920/page/n846/mode/1up))
+
+**Mikasa Hotel** Karuizawa, Nagano-ken. Open May—Oct. in the famous summer resort, 4½ hrs. from Tokyo. Asama, the most active volcano in Japan, can be ascended from Karuizawa. The Hotel is situated on the slope of Mt. Mikasa, 3,278 ft. above sea-level. Man. S. Matsuda. — p. 775 ([scan leaf 846](https://archive.org/details/japan-year-book-1920/page/n846/mode/1up))
+
+**Miyako Hotel** Kyoto, Has 150 bed rooms and fine walks. Man M. Hamaguchi. — p. 775 ([scan leaf 846](https://archive.org/details/japan-year-book-1920/page/n846/mode/1up))
+
+**Nara Hotel** Nara near Kyoto. Under direct management of Imp. Govt. Rly.; built on sunny, lofty hill in Deer Park in palace style. — p. 776 ([scan leaf 847](https://archive.org/details/japan-year-book-1920/page/n847/mode/1up))
+
+**Nikko Hotel** Nikko. Situated at the adjoining ground to the temples and shrines. Prop. H. Arai. — p. 776 ([scan leaf 847](https://archive.org/details/japan-year-book-1920/page/n847/mode/1up))
+
+**Oriental Hotel** Kobe. Purchased in 1917 by Toyo Kisen Kaisha and operated by the Co. in connection with their steamship service. Man. W. Clark. — p. 776 ([scan leaf 847](https://archive.org/details/japan-year-book-1920/page/n847/mode/1up))
+
+**Sanyo Hotel** Shimonoseki. Under direct management of Imp. Govt. Rlys.; on station premises close to jetty. — p. 776 ([scan leaf 847](https://archive.org/details/japan-year-book-1920/page/n847/mode/1up))
+
+**Tsukiji-Seiyoken Hotel** Tokyo. Est. 1869 and rebuilt in 1911. Man. Y. Seno. — p. 776 ([scan leaf 847](https://archive.org/details/japan-year-book-1920/page/n847/mode/1up))
+
+**Yamato Hotels** changchun (Terminus of South Manchuria, Chinese Eastern, and Kirin-changchun Rlys.), Mukden, Port Arthur, Dairen, and Hoshigaura (the finest summer resort in North China) near Dairen. Run on European line under the direct management of the S. M. R. Co. — p. 776 ([scan leaf 847](https://archive.org/details/japan-year-book-1920/page/n847/mode/1up))
+
+### Section XXIII. Exporters and Importers
+
+**Chugai Boeki (Foreign and Domestic Trading) Co** K.K., Yokohama, general exporters and importers. Est. 1917, cap. ¥2,000 (½ p.u.) Pres. M. Kita, Mng.-Dir. K. Sugiyama. — p. 776 ([scan leaf 847](https://archive.org/details/japan-year-book-1920/page/n847/mode/1up))
+
+**D. Nagase & Co** Dojima Hama-dori, Osaka, general exporters and importers; lino of exports,—general Japanese produce, drugs, oils, chemicals, manufactured goods etc.; line of imports.—chemicals, dyes, drugs etc.; branches at Kobe, Kyoto and Tokyo, and London (65 Fenchurch St., E.C.) Pres. D. Nagase. — p. 776 ([scan leaf 847](https://archive.org/details/japan-year-book-1920/page/n847/mode/1up))
+
+**E. H. Hunter & Co** Hirano-cho, Kobe. Formed 1868, by E. H. Hunter; first engaged in rice export business but have begun many years since to import machineries and also engaged in antimony refining business; have special connection with Osaka Iron Works. Prop. Ryutaro Hunter. — p. 776 ([scan leaf 847](https://archive.org/details/japan-year-book-1920/page/n847/mode/1up))
+
+**Furukawa Trading Co** K.K.,—Vid. Sect. Mining. — p. 776 ([scan leaf 847](https://archive.org/details/japan-year-book-1920/page/n847/mode/1up))
+
+**Gosho Goshi Kaisha** Nakanoshima, Osaka. Est. 1905 as partnership firm with capital ¥1,000; manufacturers and exporters of underwear, etc., annual export amounting to ¥4,000, also manufacture and export yarns to China and India; branches at Kobe and Tsingtao. Acting partner. Y. Kitagawa. — p. 776 ([scan leaf 847](https://archive.org/details/japan-year-book-1920/page/n847/mode/1up))
+
+**Hamaguchi Trading Co** K.K., 3-chome, Koami-cho, Nihombashi, Tokyo. Est. 1918; cap. ¥1,000 (¼ p.u.). Pres. Kichiemon Hamaguchi. — p. 776 ([scan leaf 847](https://archive.org/details/japan-year-book-1920/page/n847/mode/1up))
+
+**Horne Trading Co** K.K., Takiyama-cho, Kyobashi, Tokyo. Est. Oct. '18; cap ¥60[illegible] p.u.; chiefly deal in machinery, tools and material goods. Dirs. F. W. Horne, Y. Soejima, etc. Auds. E. W. S. Oustin, H. Yamamoto. — p. 776 ([scan leaf 847](https://archive.org/details/japan-year-book-1920/page/n847/mode/1up))
+
+**Kakiage Trading Co** Importers and exporters, Kiryu, Joshu. Est. ¥1918; cap. 500 p.u.; mfrs. and dealers in silk and cotton goods in general. Pres. B. Kakiage. — p. 776 ([scan leaf 847](https://archive.org/details/japan-year-book-1920/page/n847/mode/1up))
+
+**Kawamata Kempu Seiren Kabushiki Kaisha** Masagocho, Yokohama. Leading silk exporters, est. '99 with capital ¥100 p.u. Brand: Kawamata Habutaye, Deer brand. Mng,-Dir. K. Komatsu. — p. 776 ([scan leaf 847](https://archive.org/details/japan-year-book-1920/page/n847/mode/1up))
+
+**Kinoshita Trading Co** K.K., Sayakita-cho, Nishiku, Osaka. Est. Sept. '18; cap. ¥500 p.u.: general importers and exporters. Pres. R. Kinoshita. — p. 777 ([scan leaf 848](https://archive.org/details/japan-year-book-1920/page/n848/mode/1up))
+
+**Kodera & Co** Newchwang, Manchuria. Oil factory and shipping agents. Branches: London, Dairen, Kobe, Tokyo, Vladivostock, Mukden, Harbin, etc. Prop. Sokichi Kodera, Nakayamatedori, Kobe. — p. 777 ([scan leaf 848](https://archive.org/details/japan-year-book-1920/page/n848/mode/1up))
+
+**Kuhara Trading Co** K.K., Kobe. Founded by Mr. Fusanosuke Kuhara, a leading merchant of Osaka; cap. ¥10,000. Pres. F. Kuhara. — p. 777 ([scan leaf 848](https://archive.org/details/japan-year-book-1920/page/n848/mode/1up))
+
+**Meidi-Ya** K.K., Importers and dealers in groceries, provisions and agents of Kirin Beer, Nunobiki Tansan Mineral Water, Buchanan's Whisky, J. Brown's Scotch Whisky, etc. Head Office, Honcho, Yokohama. Est. 1885 by late Mr. H. Isono; reorganized as partnership unlimited company 1903; changed into limited liability company May '11. Warranted purveyors to the Imperial Household and the Imperial Navy. Capital ¥500, Branches: Tokyo, Osaka, Kobe, Moji and Seoul. Directors: C. Isono (Pres.), M. Miyaji (Mng.-Dir.), K. Sano (Dir.) — p. 777 ([scan leaf 848](https://archive.org/details/japan-year-book-1920/page/n848/mode/1up))
+
+**Masuda & Co** Gm. K., Honcho, Yokohama. Importers and exporters; est. Feb. '12; Cap. ¥500. Principal exports,—Timber, sulphur, superhosphates, spelter metals and minerals, Portland cement, fish-oil, sugar, flour, etc.; principal imports,—sugar, grains, sulphate of ammonia, iron, steel, hides and skins, etc. Branches: Tokyo, Kobe, Osaka, Sydney, Shanghai, Dairen, Hankow, Tientsin, Tsingtao, Tainan, Takao, Nawa, Shimonoseki, Otaru, Nagoya, Newchuang, and London. Have four mills, of flour, sugar refinery, etc., also possess Matsuo sulphur mine. Dirs. Fusajiro Nakamura and Masutaro Masuda. — p. 777 ([scan leaf 848](https://archive.org/details/japan-year-book-1920/page/n848/mode/1up))
+
+**Mitsui Bussan Kaisha** K.K., General importers and exporters, Surugacho, Nihombashi, Tokyo. Established in the latter part of 10th century as a dry goods store and in 1876 the Mitsui Bussan were organized to undertake general trading but more particularly foreign trade. Reorganized in Oct. '09 as Joint Stock Co. with other enterprises, all practically owned by the 11 branches of the Mitsui family; capital ¥20,000 p.u. Director: Pres. G. Mitsui; Mng.-Dirs. S. Watanabe, K. Fukui and S. Odagaki, M. Fujise. Branches: London, New York, &c. — p. 777 ([scan leaf 848](https://archive.org/details/japan-year-book-1920/page/n848/mode/1up))
+
+**Naigai Kogyo Kaisha** K.K., Yuraku-cho, Kojimachi, Tokyo. Cap. ¥5,000. Imp'ters and exp'ters of machinery, motor-cars, building material. Pres. S. Wakao; Man.-Dir. T. Fujiwara. — p. 777 ([scan leaf 848](https://archive.org/details/japan-year-book-1920/page/n848/mode/1up))
+
+**Nippon Seicha Kaisha** (Japan Tea Firing Co.), K.K., general merchants and tea exporters, Miyagawa-cho, Yokohama. Founded Feb. 1894 with the object of exporting Japanese tea to other countries chiefly tea producted in Shizuoka; capital ¥100 p.u. Director: K. Otani (Pres.), Konosuke Otani (Vice-Pres.), K. Kameda (Act. Mng.) — p. 777 ([scan leaf 848](https://archive.org/details/japan-year-book-1920/page/n848/mode/1up))
+
+**Nippon Tea Export Co** K.K., Aioicho, Kobe. Est. Feb. 1898; capital ¥250 p.u.. chiefly deal in tea produced at Kyoto and vicinity. Branches: Shizuoka, Fushimi, Chicago and New York. Directors: K, Ito (Pres.), H. Kamada (Mng.-Dir.), T. Yabuta (Mng.) — p. 777 ([scan leaf 848](https://archive.org/details/japan-year-book-1920/page/n848/mode/1up))
+
+**Ogura & Co** 16 Kitanakadori, Yokohama (export dep't). Dealer in Manila hemp, China hemp, jute, fertilizers, straw and chip braid, Formosa hats, flax canvas, Manila rope, grain and seeds, etc. Head Office at Tokyo; branches at Osaka, Kobe, Manila, Hankow. — p. 777 ([scan leaf 848](https://archive.org/details/japan-year-book-1920/page/n848/mode/1up))
+
+**Okuragumi** See under Section General. — p. 778 ([scan leaf 849](https://archive.org/details/japan-year-book-1920/page/n849/mode/1up))
+
+**Suzuka Firm** Importer, exporter and mfr. of fertilizers, reorganized as K.K. in '20; 1-chome, Sagacho, Fukagawa, Tokyo; connection world-wide. Pres. J. Suzuka. — p. 778 ([scan leaf 849](https://archive.org/details/japan-year-book-1920/page/n849/mode/1up))
+
+**Tokyo Boeki (Foreign Trade) Co** K.K., 3-chome, Irifune-cho, Kyobashi, Tokyo. Est. 1918 and engaged in the South Sea trade and reclamation work. Pres. K. Tamaki. — p. 778 ([scan leaf 849](https://archive.org/details/japan-year-book-1920/page/n849/mode/1up))
+
+**Yano & Joko Co** gm. K., General exporters and importers, 76, Yamashitacho, Y'hama. Connection world-wide. — p. 778 ([scan leaf 849](https://archive.org/details/japan-year-book-1920/page/n849/mode/1up))
+
+**Yonei & Co** General importers and exporters, Ginza, Tokyo. Est. in 1887 by late K. Isono under the name of Isono & Co.; contractors to the several Government Departments; agents for many foreign Cos. Branches; Osaka, Kobe, Seoul, &c. Prop. N. Yonei. — p. 778 ([scan leaf 849](https://archive.org/details/japan-year-book-1920/page/n849/mode/1up))
+
+**Yu-asa Firm** Takakura Higashi-iru, Gojo, Kyoto. Importers and exporters; dealers in metal wares, etc. Prop. Shichizaimon Yu-asa. — p. 778 ([scan leaf 849](https://archive.org/details/japan-year-book-1920/page/n849/mode/1up))
+
+**Z. Horikoshi & Co** 2-chome, Tsukiji, Kyobashi, Tokyo. General exporters and importors; est. 1893; mfrs. of and dealers in silks, silk and straw goods, pearl buttons, rugs, etc. Connection, world-wide. Pres. Z. Horikoshi, Mng.-Dir. S. Yasojima. — p. 778 ([scan leaf 849](https://archive.org/details/japan-year-book-1920/page/n849/mode/1up))
+
+### Section XXIV. General
+
+**Asano & Co** K.K. Eirakucho, Koj., Tokyo. Est. Aug. '18; cap. ¥2,500 p.u.; deal in immovable properties, negotiable instruments, mining rights, etc.; engaged in general importing and exporting, transportation and warehousing. Chairman of Dirs. S. Asano. — p. 778 ([scan leaf 849](https://archive.org/details/japan-year-book-1920/page/n849/mode/1up))
+
+**Chuka (China) Enterprise Co** K.K., 1-chome, Yurakucho, Koj., Tokyo. Est. 1919; cap. ¥10,000; engaged in investment in and management of all enterprise in China; has a branch at Shanghai. Pres. S. Fujita. — p. 778 ([scan leaf 849](https://archive.org/details/japan-year-book-1920/page/n849/mode/1up))
+
+**Japan-America Trust Co** Nakabashi-Izumicho, Kyobashi, Tokyo. Est. Oct. '18; cap. ¥50,000 subscribed by American and Japanese capitalists; engaged in investment in foreign countries, introduction of foreign capital, general broking and trust business; has a branch in Osaka. Pres. M. Sugawara, Mng.-Dir. K. Imanishi. — p. 778 ([scan leaf 849](https://archive.org/details/japan-year-book-1920/page/n849/mode/1up))
+
+**Masudaya & Co** Yokohama. (Vide Abe Kobei and Co. Sec. XV.) — p. 778 ([scan leaf 849](https://archive.org/details/japan-year-book-1920/page/n849/mode/1up))
+
+**Mitsubishi Firm** ltd.; K.K., Carries on Shipbuilding, Banking, Mining, Iron Works, Trading, Warehousing and Insurance business each as an independent company. Trading Co. as organized in 1918 is backed with capital ¥15,000, p.u., res. ¥2,900. Pres. Baron K. Iwasaki; Mng.-Dir. S. Sakamoto. — p. 778 ([scan leaf 849](https://archive.org/details/japan-year-book-1920/page/n849/mode/1up))
+
+**Mitsui & Co** Gm. K., Surugacho, Nihombashi, Tokyo. Est. 1893 with cap. ¥60,000 in 1920. Controlling centre of all the undertakings run by the Mitsui. Pres. Baran Hachiroemon Mitsui. — p. 778 ([scan leaf 849](https://archive.org/details/japan-year-book-1920/page/n849/mode/1up))
+
+**Nippon Shoji Kaisha (Japan Trading Co., Ltd)** K.K., Kabutocho, Nihombashi-ku, Tokyo. Est. 1916, cap. ¥500 (½ p.u.); general exporters and importers; licensed sellers of gunpowder, dynamite, etc. Pres. H, Kawasaki. — p. 778 ([scan leaf 849](https://archive.org/details/japan-year-book-1920/page/n849/mode/1up))
+
+**Okuragumi** K.K., General exporters and importers, Ginza, Tokyo. The firm organized as a partnership with Baron Kihachiro Okura, well known merchant in the country, president, in 1873. Reorganized as a joint stock Co. in Dec. '11; capital yen 4,000 p.u.; increased to 10,000 later. In 1918 the mining and engineering dep'ts. were each formed into as independent company, the former with capital of ¥20,000 (Baron and Mr. Okuras, President and Vice-Pres. and J. Kadono (Mng.-Dir.) and the latter with capital of ¥2,000 and with T. Tokumi as managing director. — p. 778 ([scan leaf 849](https://archive.org/details/japan-year-book-1920/page/n849/mode/1up))
+
+**Shōshō Yoko** K.K., 3-chome, Ginza, Tokyo. Founded and presided by Mr. Tadasaburo Yamamoto, a parvenu shipowner; reorganized in 1917 as K.K., with cap. ¥2,500 p.u.; deal in carrying trade. — p. 779 ([scan leaf 850](https://archive.org/details/japan-year-book-1920/page/n850/mode/1up))
+
+**Suzuki & Co** unltd., Sakaecho, Kobe. Est. 1887, capital ¥500. General merchants and manufacturers; Industrial Dep't.—camphor, fish-oil, electrolytic cathode, copper, spelter, etc. Import Dep't,—sugar, grains, machineries, chemicals, etc. Export Dep't,—sugar, grains, metals, provisions, etc. Branches and Agencies at London, New York, Melbourne, Vladivostock, Shanghai, etc. Manager, B. Nishikawa; Rep. of the Co., Mrs. Suzuki. — p. 779 ([scan leaf 850](https://archive.org/details/japan-year-book-1920/page/n850/mode/1up))
+
+**Takamine Industrial, Co** K.K., Eirakucho, Koji., Tokyo. Est. Aug. '18; cap. ¥1,1[illegible] p.u.; manufacturers, importers and exporters in general; also engaged in broking and agent business; has a branch office in Broad St., New York. Pres. Dr. J. Takamine. — p. 779 ([scan leaf 850](https://archive.org/details/japan-year-book-1920/page/n850/mode/1up))
+
+**Takata Shokai** Gm. K., Eirakucho, Marunouchi, Tokyo. General importers and exporters. Est. 1880, succeeding Mr. Bair's business, a German merchant; reorganized 1908, cap. yen 1,000. Contractors to Government and their connections are world wide. Branches: London, New York, Osaka and Shanghai. Dirs. Shinzo Takata, (Pres.), Nobujiro Takata and Kamakichi Takata. — p. 779 ([scan leaf 850](https://archive.org/details/japan-year-book-1920/page/n850/mode/1up))
+
+**Yasuda Trading Co** Gofukucho, Nihombashi, Tokyo. Cap. ¥1,00[illegible] p.u.; carries on various enterprises in which the Yasuda family is solely interested, these being Nail works in Tokyo and Edamitsu (Kyushu), Iron-works at Osaka, godown and transport business, etc. Pres. Zennosuke Yasuda. — p. 779 ([scan leaf 850](https://archive.org/details/japan-year-book-1920/page/n850/mode/1up))
+
+### Section XXV. Miscellaneous
+
+**Akita Timber Co** K.K., Noshiro, Akita. Est. March, '07, amalgamating with the Noshiro Hanzai, Akita Seizai and Noshiro Zaimoku Cos.; capital ¥2,000 p.u. Directors: N. Isaka (Pres.), D. Takemura, S. Kikuchi (Mng.-Dirs.) — p. 779 ([scan leaf 850](https://archive.org/details/japan-year-book-1920/page/n850/mode/1up))
+
+**Asahi Shimbun, Tokyo & Osaka** K.K., Est. 1892 and reorganized as such in Aug. 1919 with cap. ¥1,500 p.u.; Mr. R. Murayama, former proprietor elected President. — p. 779 ([scan leaf 850](https://archive.org/details/japan-year-book-1920/page/n850/mode/1up))
+
+**Borneo Rubber Mfg. Co** K.K., 1-chome, Yurakucho, Koj., Tokyo. Est. 1918 bought from a Dutch Co. in Sumatra 3,750 acres of land, 550 acres already planted with India-rubber trees. — p. 779 ([scan leaf 850](https://archive.org/details/japan-year-book-1920/page/n850/mode/1up))
+
+**Feng-tsai Timber Co** K.K., Changchun, South Manchuria. Est 1918 as a joint enterprise of Baron K. Okura, millionaire merchant of Japan and Mr. Chu-Tsuchi, China's ex-Minister of Finance; manufacture and deal in timber; supply fund for timber manufacturers and take charge of afforestation, etc. — p. 779 ([scan leaf 850](https://archive.org/details/japan-year-book-1920/page/n850/mode/1up))
+
+**Fukuda & Co** Nishiiru, Muromachi, Kyoto. Est. about 400 years ago; gold foil store exporting its goods to Europe, America and China: awarded highest honours at foreign and domestic exhibitions. Prop. Jusuke Fukuda. — p. 780 ([scan leaf 851](https://archive.org/details/japan-year-book-1920/page/n851/mode/1up))
+
+**Japan-China Bean Oil Mfg. Co** K.K., Yariya-cho, Kyobashi, Tokyo. Originally owned by Mr. Kyujiro Matsushita; reorganized as such in 1918 with cap. ¥1,8[illegible]0 p.u. — p. 780 ([scan leaf 851](https://archive.org/details/japan-year-book-1920/page/n851/mode/1up))
+
+**Japan Russia Industrial Co** K.K., 6/29 Kobikicho, Kyo., Tokyo. Est. '17; nominal cap. ¥10,000. Engaged in foreign trade in general, transportation, etc. Pres. O. Ichiki, Mng.-Dir. M. Kono. — p. 780 ([scan leaf 851](https://archive.org/details/japan-year-book-1920/page/n851/mode/1up))
+
+**Johor Rubber** K.K., Marunouchi. Tokyo. Est. 1918. Cap. ¥690 p.u.; owns 1,015 acres of land planted with rubber trees. Mng.-Dirs. T. Okabe, T. Tsujikawa. — p. 780 ([scan leaf 851](https://archive.org/details/japan-year-book-1920/page/n851/mode/1up))
+
+**Karafuto (Saghalien) Industrial Co** K.K., Otomari, Saghalien Est. 1914; cap. ¥5,000 (2,000 p.u.); res. ¥2,000. Pres. H. Okawa. — p. 780 ([scan leaf 851](https://archive.org/details/japan-year-book-1920/page/n851/mode/1up))
+
+**Malay Rubber Plantation Co** K.K., Uchisaiwaicho, Tokyo. Est. '12 with cap. ¥125 p.u.; is undertaking rubber planting at Malay Island, leasing land 2,890 acres. Directors: Chairman Y. Isobe; Mng.-Dirs. S. Matsumiya, etc. — p. 780 ([scan leaf 851](https://archive.org/details/japan-year-book-1920/page/n851/mode/1up))
+
+**Manchuria Industrial Co** K.K., Mikawa-cho, Dairen. Est. 1917; cap. ¥1,250 p.u.; provide tenement-houses at Anshan-tien, South-Manchuria for clerks and workmen belonging to the newly founded iron foundry there. Pres. Z. Yasuda. — p. 780 ([scan leaf 851](https://archive.org/details/japan-year-book-1920/page/n851/mode/1up))
+
+**Mitsubishi Warehousing Co** K.K., No 7 Komatsu-cho, Fukagawa, Tokyo. The Tokyo Warehousing Co., est. 1916, assumed the present name in March '18 with extended business and increased capital to ¥10,000 (½ p.u.), have branches at Kobe and Osaka. Pres. T. Takeichi. — p. 780 ([scan leaf 851](https://archive.org/details/japan-year-book-1920/page/n851/mode/1up))
+
+**Nagoya Timber Co** K.K., Aichi-gun, Aichi prefecture. Est. 1907; cap. ¥800, p.u.; div. 7%. Pres. K. Hasegawa; Mng.-Dir. T. Suzuks: Dirs. K. Takeuchi., etc. — p. 780 ([scan leaf 851](https://archive.org/details/japan-year-book-1920/page/n851/mode/1up))
+
+**Nippon Briquette Mfg. Co** K.K., No 4 Tomishima-cho, Kyobashi, Tokyo. Est. 1897; cap. ¥1,100 (825 p.u.) Pres. K. Ono. — p. 780 ([scan leaf 851](https://archive.org/details/japan-year-book-1920/page/n851/mode/1up))
+
+**Nippon Cork Co** K.K., Yanagiwaramachi, Honjoku, Tokyo. Est. 1914; home demand is almost monopolized by the Co.; also largely exports to Shanghai, etc. — p. 780 ([scan leaf 851](https://archive.org/details/japan-year-book-1920/page/n851/mode/1up))
+
+**Nippon Denkyu Co** (electric bulb), K.K, Sugamomachi, Tokyo. Est. 1915, cap. ¥258 p.u. Chairman S. Ohashi; Mng.-Dirs. T. Hatano, T. Yoshimura; Dirs. K. Makoshi, K. Shin, K. Arao. — p. 780 ([scan leaf 851](https://archive.org/details/japan-year-book-1920/page/n851/mode/1up))
+
+**Nippon Crucible Co** K.K., Shimo-Shibuya, Tokyo-fu. Est. 1883; cap. ¥437 p.u.; div. 30%; in 1907 the Co. amalgamated with Imperial Crucible Co., and Osaka Crucible Co: latest yearly sales reached 3,500,000 pieces; largely export to China, India and South Seas. Dirs M. Saegusa, S. Iwasaki; Mng. K. Taguchi. — p. 780 ([scan leaf 851](https://archive.org/details/japan-year-book-1920/page/n851/mode/1up))
+
+**Nippon Electric Battery Co** K.K., Imadegawa-Shimmachi, Kami-Kyo, Kyoto. Est. 1917; cap. ¥3,500 (9[illegible]0 p.u.). Mag.-Dir. G. Shimazu. — p. 781 ([scan leaf 852](https://archive.org/details/japan-year-book-1920/page/n852/mode/1up))
+
+**Nippon Musical Instrument Mfg. Co** K.K., Shizuoka. Est. 1898; cap. ¥1,2[illegible] (9[illegible] p.u.). Instruments produced, as well as music, etc., are put to sale at the Kyoiki-sha, No. 14, Takekawa-cho, Kyobashi. Pres. Chiyomaru Amano. — p. 781 ([scan leaf 852](https://archive.org/details/japan-year-book-1920/page/n852/mode/1up))
+
+**Nippon Public Bonds Co** K.K., dealers in public bonds in general, No. 6 1-chome. Ginza, Tokyo. Est. 1915; cap. ¥2,000 (1,850 p,u.). Dirs., M. Yoshioka, etc. — p. 781 ([scan leaf 852](https://archive.org/details/japan-year-book-1920/page/n852/mode/1up))
+
+**Nippon Rubber Co** K.K., Tamahimecho, Asakusa. Tokyo. Est. 1900; cap. ¥165, p.u.; div. 10%. Chairman S. Nakamura: Dirs. E. Otsuka, N. Okuma, S. Yoshida. — p. 781 ([scan leaf 852](https://archive.org/details/japan-year-book-1920/page/n852/mode/1up))
+
+**Nissho Trust Co** K.K., 1-chome, Hatcho-bori, Kyobashi, Tokyo. Est. '18: cap. ¥2,000. Pres. S. Tanaka. — p. 781 ([scan leaf 852](https://archive.org/details/japan-year-book-1920/page/n852/mode/1up))
+
+**Nitto Hosho Shintaku (Trust) Co** K.K., No. 17, Aomono-cho, Nihombashi, Tokyo. Est. 1918; cap. ¥2,000. Pres. B. Dazai. — p. 781 ([scan leaf 852](https://archive.org/details/japan-year-book-1920/page/n852/mode/1up))
+
+**Nishikawa & Co** Shijodori, Kyoto city. A leading bamboo wares establishment with a branch store in Tokyo. Bamboo screens for parlor first designed by the store, are much vogue in America. Prop. Genjiro Nishikawa. — p. 781 ([scan leaf 852](https://archive.org/details/japan-year-book-1920/page/n852/mode/1up))
+
+**Oriental Exploitation Co** K.K., Uchisaiwai-cho, Koj., Tokyo. Est. July, 19[illegible]9 in Korea under Government protection to guarantee profit of 6%; make investment in railway, mining, farming, engineering enterprise. etc.; cap. ¥20,000 p.u; seek the new sphere of activity in Manchuria, Mongolia, etc. Dirs. N. Matsudaira, T. Kawakami, U. Takase. — p. 781 ([scan leaf 852](https://archive.org/details/japan-year-book-1920/page/n852/mode/1up))
+
+**Osaka Electric Apparatus Mnf. Co** K.K., Nishinari-gori, Osaka. Est. 1915. Dirs, Kadoma, S. Imanishi. — p. 781 ([scan leaf 852](https://archive.org/details/japan-year-book-1920/page/n852/mode/1up))
+
+**Osaka Electric Bulb Co** K.K., Nishinari-gun, Osaka. Est. 1907; cap. ¥650 p.u.; div. 10%; especial div. 6%. Pres. S. Watanabe; Dirs. K. Otsuka, K. Kimura. — p. 781 ([scan leaf 852](https://archive.org/details/japan-year-book-1920/page/n852/mode/1up))
+
+**Otaru Timber Co** K.K., Otaru, Hokkaido; leading timber suppliers in Japan. Own three steamships and undertake shipping; contractors to the Imperial Gov't Rlys. and South Manchuria Rly. Co.; capital ¥1,410 p.u. Directors, K. Okura (Pres.), T. Doi (Mng.); Branches, Tokyo, Kobe and Dairen. — p. 781 ([scan leaf 852](https://archive.org/details/japan-year-book-1920/page/n852/mode/1up))
+
+**Oversea Exploiting (Kaigai-kogyo) Co** K.K., No, 13, Sojurocho, Kyobashi, Tokyo, Est. '18; cap. ¥2,150 p.u.; formed by amalgamation of the 4 emmigration Cos., Tokyo, South American, Nitto, and Brazil. Pres. J. Koyama; Mng.-Dir. J. Shinobu. — p. 781 ([scan leaf 852](https://archive.org/details/japan-year-book-1920/page/n852/mode/1up))
+
+**Taiwan Tea Mfg. and Colonization Co** K.K., Taihoku. Est. 1918; cap. ¥3,000; manufacturers of and dealers in woolong tea. Pres. K. Makoshi. — p. 781 ([scan leaf 852](https://archive.org/details/japan-year-book-1920/page/n852/mode/1up))
+
+**Takeuchi & Co** Gs. K., Bakurocho, Nihombashi, Tokyo. Est. about 50 years ago: organized as Gs. K., 1911, cap. ¥300; one of the oldest makers of safes in Japan; capable to turn out 600 cases per month. — p. 781 ([scan leaf 852](https://archive.org/details/japan-year-book-1920/page/n852/mode/1up))
+
+**Toikoku Cold Stōrage Co** K.K., No. 12 Akashicho, Kyobashi, Tokyo. Est. 1912; cap. ¥1,000 (600 p.u.). Mng.-Dir. T. Takahashi. — p. 781 ([scan leaf 852](https://archive.org/details/japan-year-book-1920/page/n852/mode/1up))
+
+**To-a Kogyo (Industrial) Cos** K.K., Yurakucho, Tokyo. Est. 1899; cap. in '18 ¥7,200 p.u.; The Co. supply funds for undertakings in China. Directors: Pres. K. Arai; Dirs. J. Kadono, K. Shiraiwa. — p. 781 ([scan leaf 852](https://archive.org/details/japan-year-book-1920/page/n852/mode/1up))
+
+**To-a Tobacco Co** K.K., Minami-Nabecho, Kyobashi, Tokyo, Est. '06; cap. ¥1,700 p.u.; annual div. 12%; is carrying on the business in Chosen and Manchuria. Products for 2nd half-year 1914, in Chosen 643,201,400 pieces of cigarette and 4,499,00[illegible] momme of cut tobacco, in Manchuria 226,550,0[illegible]0 pieces of cigarette and 1,980,000 momme of cut tabacco. Pres. K. Sasa; Mng.-Dir. T. Fujita; Dirs. R. Ezoye, M. Iwaya, etc. — p. 782 ([scan leaf 853](https://archive.org/details/japan-year-book-1920/page/n853/mode/1up))
+
+**Tokunaga Shoten** Yokoyamacho, Nihombashi, Tokyo. Manufacturers of and dealers in hair brushes; have a factory at Koishikawa, Shibuya and Tamagawa; annual output is estimated at ¥100. Prop. Y. Tokunaga. — p. 782 ([scan leaf 853](https://archive.org/details/japan-year-book-1920/page/n853/mode/1up))
+
+**Tokyo Cordage Mnf. Co** K.K., Kyobashiku, Tokyo. Est. 1887; cap. ¥1,874 p.u.; Pres. K. Yamada; Mng.-Dirs. S. Asano, K. Okura, S. Fukuyama. — p. 782 ([scan leaf 853](https://archive.org/details/japan-year-book-1920/page/n853/mode/1up))
+
+**Tokyo Building Co** K.K., 1-chome, Gofuku-cho, Nihom., Tokyo. Est. 1896; cap. ¥5,0[illegible]0. Building contractors; loaners on and brokers for real estates; branches at Yokohama, Seoul, Tientsin, etc. Pres. Y. Yasuda, Vice-Pres. I. Yabuta; Mng.-Dirs. H. Eitaki, etc. — p. 782 ([scan leaf 853](https://archive.org/details/japan-year-book-1920/page/n853/mode/1up))
+
+**Tokyo Hat Co** K.K., Hikawashita, Koishikawa, Tokyo. Est. 1906; cap. ¥1,0[illegible]0 (625 p.u.). Pres. Kyohei Makoshi. — p. 782 ([scan leaf 853](https://archive.org/details/japan-year-book-1920/page/n853/mode/1up))
+
+**Tokyo Electric Co** K.K., Kawasaki, Kanagawa-ken. Est. Apl 1886; cap. ¥2,600 p.u.; manufacture electric lamps, etc. Pres. I: Fujioka. — p. 782 ([scan leaf 853](https://archive.org/details/japan-year-book-1920/page/n853/mode/1up))
+
+**Tokyo Rubber Co** K.K., Azumamachi, Tokyo-fu. Est. 19[illegible]1; cap. ¥225 p.u., Mng.-Dir. N. Nagatomi; Dirs. H. Okawa, M. Onishi, K. Kimura, E. Tanaka. — p. 782 ([scan leaf 853](https://archive.org/details/japan-year-book-1920/page/n853/mode/1up))
+
+**Tokyo Taxi-Cab Co** K.K., 2-chome, Sukiya-cho, Nihom., Tokyo. Est. '18; cap. ¥5,000 p.u.; intend for the present to run 18[illegible] taxies, 100 goods-waggons and 100 auto-cars on hire in Tokyo. Pres. M. Okamoto. Dirs. K. Watanabe, S. Wakao, R. Horiuchi, etc. — p. 782 ([scan leaf 853](https://archive.org/details/japan-year-book-1920/page/n853/mode/1up))
+
+**Yamamoto Tosuke & Co** K.K., 1-chome, Andoji-Dori, Minami-ku, Osaka. Est. 1918; cap. ¥2,000 p.u.; dealers in material metals and hard wares. Pres. T. Yamamoto. — p. 782 ([scan leaf 853](https://archive.org/details/japan-year-book-1920/page/n853/mode/1up))
+
+**Yokohama Nursery Co** K.K., Nakamura-cho, Yokohama. Est. '06; exporters of nursery stocks, seed and plants; capital ¥500. Branches: London, New York, etc. Directors, U. Suzuki (Mng.-Dir.), S. Iida (Mng.) — p. 782 ([scan leaf 853](https://archive.org/details/japan-year-book-1920/page/n853/mode/1up))
+
+**Yokohama Rubber Mfg. Co** K.K., Ura-Takashima-cho, Y'hama. Est. in 1917 as a joint enterprise of Y'hama Wire Mfg. Co. and Goodrich Rubber Co., Ohio, each subscribing half of the total capital ¥2,500; sole agents for the American Co. in the Far East. Pres. Baron K. Nakajima, Dirs. K. Kawai, etc. — p. 782 ([scan leaf 853](https://archive.org/details/japan-year-book-1920/page/n853/mode/1up))
+
+**Yuasa Storage Battery Co** K.K., Kyoto. The storage battery factory run by Mr. S. Yuasa (Pres.), enlarged and reorganized as such in 1918; cap. ¥5,000 (nominal). — p. 782 ([scan leaf 853](https://archive.org/details/japan-year-book-1920/page/n853/mode/1up))
