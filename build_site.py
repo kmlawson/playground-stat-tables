@@ -13,6 +13,13 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.environ.get("STAT_TABLES_ROOT") or os.path.dirname(HERE)
 
 BOOKS = [
+    {"slug": "japan-1910", "dir": "Japan_Year_Book_1910", "title": "The Japan Year Book 1910",
+     "publisher": "The Japan Year Book Office, Tokyo, 1910",
+     "blurb": "The fifth annual edition, compiled by Y. Takenob and K. Kawakami: geography, population, the Imperial Court, a Who's Who, arts and crafts, education, religion, justice, agriculture, mining, industry, finance, diplomacy, politics, trade, banking, the army and navy, communications, shipping, railways, the press, Formosa, Karafuto, South Manchuria and Korea.",
+     "source": "LLM-transcribed from the Internet Archive scan (Google scan of the 2013 Edition Synapse facsimile, University of Minnesota copy).",
+     "in_progress": True, "dir_in_progress": True,
+     "scan": "https://archive.org/details/japan-year-book-1910/page/n{leaf}/mode/1up",
+     "item": "https://archive.org/details/japan-year-book-1910"},
     {"slug": "japan-1920-21", "dir": "Japan_Year_Book_1920", "title": "The Japan Year Book 1920-21",
      "publisher": "The Japan Year Book Office, Tokyo, 1920",
      "blurb": "The fifteenth annual edition: geography, history, population, the Imperial Court, a Who's Who, education, labour, communications, railways, shipping, banking, the army and navy, diplomacy, trade, agriculture, industry, finance, politics, the colonies, and a business directory.",
