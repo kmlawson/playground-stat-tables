@@ -1,6 +1,6 @@
 # The Japan Year Book 1930 — Who's Who & Directories
 
-1,686 entries, LLM-transcribed. These entries were transcribed by the vision model of Opus 5.5. Before using any of these details, you must verify specific details with the original source which is linked to whenever possible.
+1,851 entries, LLM-transcribed. These entries were transcribed by the vision model of Opus 5.5. Before using any of these details, you must verify specific details with the original source which is linked to whenever possible.
 
 
 ## Appendix A: Who's Who in Japan
@@ -3484,3 +3484,333 @@
 **Hokkaido Medical Society** Est. 1922; issues The Journal, in Japanese, bi-monthly; mem. 500. Pres., B. Hata, M.D. Office, Faculty of Med., Hokkaido Imp. Univ., Sapporo. — p. 148 ([scan leaf 721](https://archive.org/details/japan-year-book-1930/page/n721/mode/1up))
 
 **Horticultural Association of Japan, The** Est. 1923; issues The Journal of the Horticultural Ass'n. of Japan, in Japanese; mem. 150. Pres., H. Hara, D. Agr. Office, Shibuya-machi, Tokyo. — p. 148 ([scan leaf 721](https://archive.org/details/japan-year-book-1930/page/n721/mode/1up))
+
+**Hoseikai** Founded 1914 as the central association for the control of societies for discharged prisoners; issues the bulletin. Pres., the Minister of Justice. Add. Justice Dept., Tokyo. — p. 149 ([scan leaf 722](https://archive.org/details/japan-year-book-1930/page/n722/mode/1up))
+
+**Illuminating Engineering Society of Japan** Issues Journal of the Illum. Eng. Soc. of Japan, in Japanese, quarterly; mem. 1,230. Pres., T. Nomura. Office, Denki Club, Marunouchi Yuraku-cho, Tokyo. — p. 149 ([scan leaf 722](https://archive.org/details/japan-year-book-1930/page/n722/mode/1up))
+
+**Imperial Academy** Founded in 1879; is subject to control of Minister of Education; joined in '06 the International Association of Academies; members limited to 100 elected from among learned scholars of literature and humanity (1st Dept.), and science pure and applied (2nd Dept.), and nom. by the Emperor; undertakes translation and research works; publishes proceedings. Pres., Dr. J. Sakurai, Privy Councillor; Secretary, Dr. M. Anesaki. Loc. Uyeno Park, Tokyo. — p. 149 ([scan leaf 722](https://archive.org/details/japan-year-book-1930/page/n722/mode/1up))
+
+**Imperial Academy of Arts** (Vid. Chapter on Arts and Crafts). — p. 149 ([scan leaf 722](https://archive.org/details/japan-year-book-1930/page/n722/mode/1up))
+
+**Imperial Aero Society** (Teikoku Hiko Kyokwai).—Founded 1914; issues the Bulletin; mem. 87,000. Vice-Pres., Baron Y. Sakatani. Add. Mitsubishi Building, Marunouchi Yurakucho, Tokyo. — p. 149 ([scan leaf 722](https://archive.org/details/japan-year-book-1930/page/n722/mode/1up))
+
+**Imperial Railway Association** Founded 1898; publishes as organ Teikoku Tetsudo Kyokai Kwaiho; mem. 2,566. Pres. S. Kunisawa. Add. Marunouchi Yurakucho, Tokyo. — p. 149 ([scan leaf 722](https://archive.org/details/japan-year-book-1930/page/n722/mode/1up))
+
+**Indian Merchants Association, Yokohama** Pres., Detaram Issardas Mahtani; Vice-Pres., Parsram Tahirajrai. Add. 202 Yamashita-cho, Yokohama. — p. 149 ([scan leaf 722](https://archive.org/details/japan-year-book-1930/page/n722/mode/1up))
+
+**Indo-Japanese Association** Est. 1903; publishes a magazine; fused the Japan-Dutch Society; mem. 1,100. Pres., Visc. E. Shibusawa; Mng., Y. Soejima. Add. Kyobashi Tsukiji 3-chome, Tokyo. — p. 149 ([scan leaf 722](https://archive.org/details/japan-year-book-1930/page/n722/mode/1up))
+
+**Industrial Club, Japan** A corporation founded 1917 by manufacturers for investigating various industrial problems, encouraging invention, promoting industry, etc.; mem. 990. Chairman, Baron Dr. T. Dan; Mng.-Dir., S. Ohashi. Add. Marunouchi Eirakucho, Tokyo. — p. 149 ([scan leaf 722](https://archive.org/details/japan-year-book-1930/page/n722/mode/1up))
+
+**Industrial Club, Osaka** Est. 1929; object, to help development of industries; issues a bulletin; mem. 4,050. Rep., K. Hirasa. Add. Osaka Technical College, Osaka. — p. 149 ([scan leaf 722](https://archive.org/details/japan-year-book-1930/page/n722/mode/1up))
+
+**Institute of Electrical Engineers of Japan, The** Est. 1888; issues The Journal of the Inst. of Elec. Eng. of Japan, in Japanese, monthly, and The Selected Papers from the Journal of the Inst. of Elec. Eng. of Japan, occasionally; mem. 5,521. Pres., S. Inada. Office, Mitsubishi Bldg., Marunouchi, Tokyo. — p. 149 ([scan leaf 722](https://archive.org/details/japan-year-book-1930/page/n722/mode/1up))
+
+**Institute of Japanese Architects, The** Founded 1886; issues Journal of Architecture, in Japanese, monthly; mem. 4,712. Pres., T. Yokoyama, D. Eng. Office, Marunouchi Building, Tokyo. — p. 149 ([scan leaf 722](https://archive.org/details/japan-year-book-1930/page/n722/mode/1up))
+
+**Institute of Telegraph & Telephone Engineers of Japan, The** Est. 1917; issues Journal of I.T.T.E.J., in Japanese, bi-monthly; mem. 1,790. Pres., Y. Yonezawa. Office, Bureau of Tech. Affairs, Communications Dept., Tokyo. — p. 149 ([scan leaf 722](https://archive.org/details/japan-year-book-1930/page/n722/mode/1up))
+
+**International Educational Society** Founded 1921; mem. 180. Pres., Count H. Hayashi. Add. Kanda Hitotsubashi, Tokyo. — p. 149 ([scan leaf 722](https://archive.org/details/japan-year-book-1930/page/n722/mode/1up))
+
+**International Law Association** Publishes a magazine; mem. 340. Pres., Visc. H. Fukuoka. Office, Hongo Akebonocho, Tokyo. — p. 149 ([scan leaf 722](https://archive.org/details/japan-year-book-1930/page/n722/mode/1up))
+
+**International Press Association** Founded 1920 as a social organ of prominent Japanese and foreign journalists, foreign press correspondents, etc.; mem. about 50. Pres., M. Zumoto. Office, Shimbun Rengo Sha. Kojimachi-ku Uchisaiwai-cho, Tokyo. — p. 149 ([scan leaf 722](https://archive.org/details/japan-year-book-1930/page/n722/mode/1up))
+
+**Invalided Soldiers' Home** Started 1906 at Shibuya, a suburb of Tokyo; moved in 1908 to the present site at Sugamo which was presented by the Mitsui family; only about 80 are present living in the Home, all the sixteen thousands of invalids, being still at their own homes, partly because the pension for invalided soldiers was somewhat raised soon after the War and also because family ties are very strong in Japan; has a fund of over ¥440,000 of which ¥100,000 was donated by Baron I. Morimura. — p. 150 ([scan leaf 723](https://archive.org/details/japan-year-book-1930/page/n723/mode/1up))
+
+**Iron & Steel Association, Japan** Est. 1915; issues The Iron and Steel, in Japanese, monthly; mem. 1,360. Rep., S. Hattori. Office, Kojimachi-ku Yurakucho, Tokyo. — p. 150 ([scan leaf 723](https://archive.org/details/japan-year-book-1930/page/n723/mode/1up))
+
+**Japan-Chile Trade Association** Est. 1928; mem. 50. Pres., K. Inabata. Add. Osaka Chamber of Commerce & Industry. — p. 150 ([scan leaf 723](https://archive.org/details/japan-year-book-1930/page/n723/mode/1up))
+
+**Japan-China Business Association** Founded 1920; mem. 200. Pres., Visc. E. Shibusawa. Add. No. 6, Marunouchi Nakadori, Tokyo. — p. 150 ([scan leaf 723](https://archive.org/details/japan-year-book-1930/page/n723/mode/1up))
+
+**Japan Economic Federation** An associated body of leading business organizations in Japan est. 1913 with the object to investigate various economic problems; joined the International Chambers of Commerce League. Pres., Baron T. Dan, D. Eng. Office, Kogyo Club Bldg., Marunouchi, Tokyo. — p. 150 ([scan leaf 723](https://archive.org/details/japan-year-book-1930/page/n723/mode/1up))
+
+**Japan-German Society** Founded 1922; mem. 350. Patron, H.I.H. Prince Kuni; Pres., Y. Sata, D. Med. Add. Kitaku Dojima Hamadori, Osaka. — p. 150 ([scan leaf 723](https://archive.org/details/japan-year-book-1930/page/n723/mode/1up))
+
+**Japan-Italian Society** Founded 1888; mem. 94. Patron, H.I.H. Prince Nashimoto; Pres., Marq. N. Nabeshima. Add. Aoyama Kitamachi, Tokyo. — p. 150 ([scan leaf 723](https://archive.org/details/japan-year-book-1930/page/n723/mode/1up))
+
+**Japan-Mexico Society** Founded 1927; mem. about 50. Pres., Vice-Adm. Keizaburo Moriyama. — p. 150 ([scan leaf 723](https://archive.org/details/japan-year-book-1930/page/n723/mode/1up))
+
+**Japan-Siamese Association, The** Est. 1927 with the object to promote friendly relations between Japan and Siam. Mixed membership of about 100 Japanese and resident Siamese. Patron, H.I.H. Prince Chichibu: Hon. Pres., The Siamese Minister. Add. Imperial Hotel, Tokyo. — p. 150 ([scan leaf 723](https://archive.org/details/japan-year-book-1930/page/n723/mode/1up))
+
+**Japanese Association for Textile Industry** Est. 1885; issues The Journal of Fabric Industry, in Japanese, monthly; mem. 1,500. Office, Shiba-ku Shinbori-cho, Tokyo. — p. 150 ([scan leaf 723](https://archive.org/details/japan-year-book-1930/page/n723/mode/1up))
+
+**Japanese Association for the Advancement of Science** Est. 1925; holds annual meetings either in Tokyo or Kyoto and issues Report of the annual meetings, in Japanese; mem. 1,500. Pres., T. Araki, M.D. (ex-Pres. Kyoto Imp. Univ.) Office, Zoo. Inst., Tokyo Imp. Univ. — p. 150 ([scan leaf 723](https://archive.org/details/japan-year-book-1930/page/n723/mode/1up))
+
+**Japanese Association for Tuberculosis, The** Est. 1923; issues "Kekkaku" (Tuberculosis), in Japanese, monthly; mem. 1,400. Pres., T. Irisawa, M.D. Office, Tokyo Municipal Sanatorium, Nogata-machi, Tokyo-fu. — p. 150 ([scan leaf 723](https://archive.org/details/japan-year-book-1930/page/n723/mode/1up))
+
+**Japanese Association of Hygiene, The** Est. 1903; issues Journal of Hygiene & Infectious Diseases, bi-monthly; mem. 1,100. Pres., C. Yokote, M.D. Office, Inst. of Hyg. & Bact., Tokyo Imp. Univ., Tokyo. — p. 150 ([scan leaf 723](https://archive.org/details/japan-year-book-1930/page/n723/mode/1up))
+
+**Japanese Ceramic Association** Est. 1893; issues Journal of Japanese Ceramic Association, in Japanese, monthly: mem. 1,300. Pres., Visc. K. Kaneko. Office, Tohoku Building, Kojimachi-ku Uchisaiwai-cho, Tokyo. — p. 150 ([scan leaf 723](https://archive.org/details/japan-year-book-1930/page/n723/mode/1up))
+
+**Japanese Dermatological Association, The** Est. 1901; issues Japanese Journal of Dermatology & Urology, in Japanese (abstracts in European languages), monthly; mem. 2,500; Pres., K. Doi, M.D. Office, 45 Shimo-Niban-cho, Kojimachi-ku, Tokyo. — p. 150 ([scan leaf 723](https://archive.org/details/japan-year-book-1930/page/n723/mode/1up))
+
+**Japanese Genetic Society** Est. 1920; issues Japanese Journal of Genetics, in Japanese, quarterly; mem. 428. Chief Secy., S. Ikeno, D. Sc. Office, Imp. Agr. Exp. Station, Nishigahara, Tokyo. — p. 151 ([scan leaf 724](https://archive.org/details/japan-year-book-1930/page/n724/mode/1up))
+
+**Japanese Gynecological & Obstetrical Association** Est. 1902; issues Journal of Japanese Gynecological & Obstetrical Association, in Japanese, monthly; mem. 1,500. Pres., S. Kinoshita, M.D. Office, Gyn. & Obs. Inst., Tokyo Imp. Univ., Tokyo. — p. 151 ([scan leaf 724](https://archive.org/details/japan-year-book-1930/page/n724/mode/1up))
+
+**Japanese Microbiological Society** Est. 1904; issues Journal of the Japanese Microbiological Society, in Japanese, monthly; mem. 2,000. Pres., K. Kiyono, M.D. Office, Microbiological Inst., Kyoto Imp. Univ., Kyoto. — p. 151 ([scan leaf 724](https://archive.org/details/japan-year-book-1930/page/n724/mode/1up))
+
+**Japanese Neurological Society, The** Est. 1901; issues Neurological Journal, in Japanese, monthly; mem. 1,200; Superintendent, S. Kure, M.D. Office, Neuro. Inst., Tokyo Imp. Univ., Tokyo. — p. 151 ([scan leaf 724](https://archive.org/details/japan-year-book-1930/page/n724/mode/1up))
+
+**Japanese Ophthalmological Society, The** Est. 1897; issues Journal of the Japanese Ophthalmological Society, in Japanese, monthly; mem. 800. Pres., Y. Onishi, M.D. Office, Ophth. Inst., Kyushu Imp. Univ., Fukuoka. — p. 151 ([scan leaf 724](https://archive.org/details/japan-year-book-1930/page/n724/mode/1up))
+
+**Japanese Pathological Society** Est. 1911; issues Journal of the Japanese Pathological Society, in Japanese, and Transactions of J.P.S. in European languages, both annually; mem. 754. Pres., M. Nagayo, M.D. Office, Path. Inst., Tokyo Imp. Univ., Tokyo. — p. 151 ([scan leaf 724](https://archive.org/details/japan-year-book-1930/page/n724/mode/1up))
+
+**Japanese Pediatric Association** Est. 1896; issues Pediatric Journal, in Japanese, monthly; mem. 3,007. Pres., T. Hirota, M.D. Office, Koishikawa-ku Omote-cho, Tokyo. — p. 151 ([scan leaf 724](https://archive.org/details/japan-year-book-1930/page/n724/mode/1up))
+
+**Japanese Society for the Study of Diseases of Digestive Organs** Est. 1902; issues The Journal, in Japanese, bi-monthly; mem. 3,200. Pres., K. Hirayama, M.D. Office, Hosp. for Dig. Org. Disease (Icho-byoin), Kojimachi-ku Uchisaiwai-cho, Tokyo. — p. 151 ([scan leaf 724](https://archive.org/details/japan-year-book-1930/page/n724/mode/1up))
+
+**Japanese Society of Anatomy** Est. 1893; mem. 111; Pres. Y. Koganei, M.D. Office, Inst. of Ana, Tokyo Imp. Univ., Tokyo. — p. 151 ([scan leaf 724](https://archive.org/details/japan-year-book-1930/page/n724/mode/1up))
+
+**Japanese Society of Brewing** Est. 1906; issues The Journal of the Japanese Society of Brewing, in Japanese, monthly; mem. 14,200. Pres., H. Kuroda. Office, Government Inst. of Brewing, Takinogawa, Tokyo-fu. — p. 151 ([scan leaf 724](https://archive.org/details/japan-year-book-1930/page/n724/mode/1up))
+
+**Japanese Society of Cancer Research, The** Est. 1908: issues The Japanese Journal of Cancer Research, in European languages, annually, and The Japanese Journal of Cancer Research, in Japanese, quarterly; mem. 298. Pres., T. Honda, M.D. Office, Path. Inst., Tokyo Imp. Univ., Tokyo. — p. 151 ([scan leaf 724](https://archive.org/details/japan-year-book-1930/page/n724/mode/1up))
+
+**Japanese Society of Dental Surgery, The** Pres., N. Takahashi. Office, 9 Nishiki-cho 3-chome, Kanda-ku, Tokyo. — p. 151 ([scan leaf 724](https://archive.org/details/japan-year-book-1930/page/n724/mode/1up))
+
+**Japanese Society of Internal Medicine** Est. 1903; issues The Journal, in Japanese, monthly; mem. 2,360. Pres., K. Tsuji, M.D. Office, Tsukiji 3-chome, Kyobashi-ku, Tokyo. — p. 151 ([scan leaf 724](https://archive.org/details/japan-year-book-1930/page/n724/mode/1up))
+
+**Japanese Society of Laryngology, Otology & Rhinology** Est. 1893: issues Journal of Japanese Society of Lary., Oto. & Rhinology, in Japanese, monthly; mem. 1,160. Pres., W. Okada, M.D. Office, Inst. of Lary., Oto. & Rhi., Tokyo Imp. Univ., Tokyo. — p. 151 ([scan leaf 724](https://archive.org/details/japan-year-book-1930/page/n724/mode/1up))
+
+**Japanese Society of Preventive Medicine** Est. 1923; issues “National Hygiene” (in Japanese), monthly. Pres., S. Toda, M.D. Office, Inst. of Hyg., Kyoto Imp. Univ., Kyoto. — p. 151 ([scan leaf 724](https://archive.org/details/japan-year-book-1930/page/n724/mode/1up))
+
+**Japanese Society of Surgery, The** Est. 1899; publishes Journal of the Japanese Society of Surgery, in Japanese; mem. 2,000. Pres., R. Torikata, M.D. Office, Inst. of Surgery, Kyoto Imp. Univ., Kyoto. — p. 151 ([scan leaf 724](https://archive.org/details/japan-year-book-1930/page/n724/mode/1up))
+
+**Japanese Society of Veterinary Science** Est. 1921; issues Journal of the Japanese Soc. Vet. Sci., quarterly; mem. 317. Pres., N. Nitta, D. Vet. Office, Inst. Vet. Sci., Kyoto Imp. Univ., Kyoto. — p. 152 ([scan leaf 725](https://archive.org/details/japan-year-book-1930/page/n725/mode/1up))
+
+**Japanese Urological Association, The** Est. 1912; issues The Journal of the Japanese Urological Association, in Japanese, 8 per year; mem. 805. Pres., K. Hirokawa, M.D. Office, Derm. & Uro. Inst., Keio Univ., Tokyo. — p. 152 ([scan leaf 725](https://archive.org/details/japan-year-book-1930/page/n725/mode/1up))
+
+**Japanisch-Deutsches Kultur-institute** (Nichidoku Bunka Kyokai).—Est. 1921. Mng.-Dir., Dr. J. Takakusu. Add. Nihon Kogyo Club Bldg., Marunouchi, Tokyo. — p. 152 ([scan leaf 725](https://archive.org/details/japan-year-book-1930/page/n725/mode/1up))
+
+**Jishu Kwai** Est. 1921; publishes The Sky and Waters, in Japanese, monthly; mem. 40. Pres., T. Okada, D. Sc. Office, Imp. Marine Observatory, Kobe. — p. 152 ([scan leaf 725](https://archive.org/details/japan-year-book-1930/page/n725/mode/1up))
+
+**Journalists' Association** Founded 1920; mem. 600. Rep., T. Nozawa. Add. Kojimachi Uchisaiwai-cho, Tokyo. — p. 152 ([scan leaf 725](https://archive.org/details/japan-year-book-1930/page/n725/mode/1up))
+
+**Jurisprudence Society** Founded 1694; mem. 4,100; publishes an organ. Pres., Dr. S. Hozumi. Add. Law Coll., Imp. Univ., Tokyo. — p. 152 ([scan leaf 725](https://archive.org/details/japan-year-book-1930/page/n725/mode/1up))
+
+**Kaikosha** (Military Club).—Founded 1877; military officers' club with mem. of over 3,000. Pres., Marshal Visc. K. Kawamura. Add. Kudan, Tokyo. — p. 152 ([scan leaf 725](https://archive.org/details/japan-year-book-1930/page/n725/mode/1up))
+
+**Keimei-kai** A foundation est. in 1918 with a fund of ¥1,000,000 contributed by Mr. T. Akaboshi, a millionaire, for facilitating special researches, investigations, compilations and invention; translates foreign works; holds lecture meetings; issues publications, etc. Dirs., N. Hirayama (Chairman), S. Tsurumi (Mng.-Dir.), etc. Add. Kaijo Bldg., Kojimachi-ku, Tokyo. — p. 152 ([scan leaf 725](https://archive.org/details/japan-year-book-1930/page/n725/mode/1up))
+
+**Keio Medical Society** Est. 1920; issues The Journal, in Japanese, monthly; mem. 500; Pres., Baron S. Kitasato, M.D.; Vice-Pres., T. Kitashima, M.D. Office, Keio Univ. Hospital, Yotsuya-ku, Tokyo. — p. 152 ([scan leaf 725](https://archive.org/details/japan-year-book-1930/page/n725/mode/1up))
+
+**Kiitsu Kyokai** (Association Concordia).—Founded 1912 by leading thinkers and religionists for discussing problems of religion and thoughts. Pres., Baron Y. Sakatani. Add. Koishikawa Hakusan-Gotenmachi, Tokyo. — p. 152 ([scan leaf 725](https://archive.org/details/japan-year-book-1930/page/n725/mode/1up))
+
+**Kinki Gynecological Society** Est. 1915; issues “Kinki Fujin-kwa Gakkwai Zasshi,” in Japanese, quarterly; mem. 1,250. Secretaries, H. Okabayashi, M.D., J. Ogata, M.D. Office, Gyn. Inst., Kyoto Imp. Univ., Kyoto. — p. 152 ([scan leaf 725](https://archive.org/details/japan-year-book-1930/page/n725/mode/1up))
+
+**Kodokan** Founded 1898; object, promotion of moral and physical culture through practice of "Judo"; mem. 20,000. Pres., J. Kano, Life Mem. House of Peers. Add. Koishikawa Sakashitamachi, Tokyo. — p. 152 ([scan leaf 725](https://archive.org/details/japan-year-book-1930/page/n725/mode/1up))
+
+**Kojunsha** A social club est. 1879 by graduates of and others connected with Keio University; mem. 3,332. Pres., E. Kamada, Privy Councillor. Add. Kojimachi-ku Uchiyamashita-cho, Tokyo. — p. 152 ([scan leaf 725](https://archive.org/details/japan-year-book-1930/page/n725/mode/1up))
+
+**Kokka Gakkai** (Political Science Society).—Issues a magazine; mem. 1,800. Pres., Baron Y. Sakatani. Add. Law College, Imp. Univ., Tokyo. — p. 152 ([scan leaf 725](https://archive.org/details/japan-year-book-1930/page/n725/mode/1up))
+
+**Kokubo Gikai** (National Defence Association).—Est. about '17 by those interested in the defence problems. Rep., Vice-Adm. Kamiizumi; Dr. Matsunami. Office, Kojimachi Uchisaiwai-cho, Tokyo. — p. 152 ([scan leaf 725](https://archive.org/details/japan-year-book-1930/page/n725/mode/1up))
+
+**Kuramaye Industrial Association** Est. 1906 by the graduates of and those connected with the former Tokyo Higher Technical School as an organ to promote industrial development; mem. 5.645. Pres., H. Soma. Add. Kojimachi Yaesucho 1-chome, Tokyo. — p. 152 ([scan leaf 725](https://archive.org/details/japan-year-book-1930/page/n725/mode/1up))
+
+**Kyocho Kwai** (Labor & Capital Harmony Ass'n).—Est. 1919. Pres., Prince I. Tokugawa. Add. Shiba Park, Tokyo. — p. 152 ([scan leaf 725](https://archive.org/details/japan-year-book-1930/page/n725/mode/1up))
+
+**Kyoto Dermatological Society** Est. 1923; issues Acta Dermatologica. partly in European languages, monthly; mem. 1,500. Pres., S. Matsumoto, M.D. Office, Derm. Inst., Kyoto Imp. Univ., Kyoto. — p. 153 ([scan leaf 726](https://archive.org/details/japan-year-book-1930/page/n726/mode/1up))
+
+**Kyoto Medical Society** Est. 1904; issues The Journal, in Japanese (abstracts in European languages), monthly; mem. 1,100. Pres., A. Fujinami, M.D. Office, Faculty of Med., Kyoto Imp. Univ., Kyoto. — p. 153 ([scan leaf 726](https://archive.org/details/japan-year-book-1930/page/n726/mode/1up))
+
+**Kyushu Medical Society** Est. 1907; issues the Journal, mostly in Japanese, monthly; mem. 1,400; Pres., I. Kubo, M.D. Office, L.O.R. Inst., Kyushu Imp. Univ., Fukuoka. — p. 153 ([scan leaf 726](https://archive.org/details/japan-year-book-1930/page/n726/mode/1up))
+
+**Lacquer Workers Association, Japan** Est. 1890; object, to promote progress and development of lacquer industry; issues a bulletin; mem. 1,000. Pres., M. Noma. Add. Kanda Matsudacho, Tokyo. — p. 153 ([scan leaf 726](https://archive.org/details/japan-year-book-1930/page/n726/mode/1up))
+
+**Latin American-Japanese Society** Created by Japanese interested in Central and South Americas, or peoples of these republics connected with this country; mem. 120. Add. Hibiya Park, Tokyo. — p. 153 ([scan leaf 726](https://archive.org/details/japan-year-book-1930/page/n726/mode/1up))
+
+**League of Nations Association** Founded 1920; issues a monthly “International Understanding” (in Japanese) and pamphlets; mem. 8,695. Pres., Visc. E. Shibusawa. Add. Kojimachi Yaesucho, Tokyo. — p. 153 ([scan leaf 726](https://archive.org/details/japan-year-book-1930/page/n726/mode/1up))
+
+**Librarian's Association, Japan** Est. 1892; reorganized in '06 for investigating matters concerning library management, etc.; publishes reports; mem. 1,281. Rep., K. Matsumoto. Add. 392 Azabu Gazembo, Tokyo. — p. 153 ([scan leaf 726](https://archive.org/details/japan-year-book-1930/page/n726/mode/1up))
+
+**Life Assurance Society** Founded 1908; mem. 38 life ass. cos.; publishes a quarterly bulletin. Rep., S. Kuze. Add. Kojimachi Yurakucho, Tokyo. — p. 153 ([scan leaf 726](https://archive.org/details/japan-year-book-1930/page/n726/mode/1up))
+
+**Life Boat Association** Est. 1889; has 72 stations throughout the country with 54 branches; granted ¥15,000 by the Imp. Court '16. Act. Pres., Visc. T. Hanabusa. — p. 153 ([scan leaf 726](https://archive.org/details/japan-year-book-1930/page/n726/mode/1up))
+
+**Manchuria Medical Association** Est. 1912; issues “The Oriental Medicine,” monthly; mem. 625; Pres., G. Todani, M.D. Office, Manchuria Med. Col., Hoten (Mukden). — p. 153 ([scan leaf 726](https://archive.org/details/japan-year-book-1930/page/n726/mode/1up))
+
+**Mathematical Association of Japan for Secondary Education, The** Est. 1919; publishes Journal of Math. Ass. Jap., in Japanese, bi-monthly; mem. 1,619. Pres., T. Hayashi, D. Sc. Office, Tokyo Higher Normal Sch. for Women. — p. 153 ([scan leaf 726](https://archive.org/details/japan-year-book-1930/page/n726/mode/1up))
+
+**Medical Association of Formosa, The** Est. 1902; issues The Journal, in Japanese (abstracts in European languages), monthly; mem. 1,000. Pres., T. Horiuchi, M.D. Office, Taihoku Higher Med. Sch., Taiwan. — p. 153 ([scan leaf 726](https://archive.org/details/japan-year-book-1930/page/n726/mode/1up))
+
+**Medical Association of the Japanese Government Railway, The** Est. 1914; issues The Journal, in Japanese, monthly; mem. 1,921. Pres., S. Sato, M.D. Office, Tokyo Rly. Hosp., Shinjuku, Tokyo. — p. 153 ([scan leaf 726](https://archive.org/details/japan-year-book-1930/page/n726/mode/1up))
+
+**Meteorological Society of Japan** Est. 1882; issues The Journal of the Meteorological Society of Japan, monthly; mem. 336. Pres., K. Nakamura, D. Sc. Add. Central Meteo. Observatory, Tokyo. — p. 153 ([scan leaf 726](https://archive.org/details/japan-year-book-1930/page/n726/mode/1up))
+
+**Mil. & Naval Officers Wives Association** Est. 1906; attends to various social works; mem. 12,000. Pres., Mrs. Momoko Kuroki. Add. Ushigome Wakamatsucho, Tokyo. — p. 153 ([scan leaf 726](https://archive.org/details/japan-year-book-1930/page/n726/mode/1up))
+
+**Military Surgeon Corps, The** Est. 1909; issues The Journal, in Japanese, monthly; mem. 5,500. Pres., Surgeon-Gen. K. Yamada, M.D. Office, Bureau of Med. Aff., War Dept., Tokyo. — p. 153 ([scan leaf 726](https://archive.org/details/japan-year-book-1930/page/n726/mode/1up))
+
+**Minakata Botanical Laboratory** Est. 1922 for supporting the research work of Dr. Kumakusu Minakata, a noted scientist specializing in moss and lichens; fund ¥100,000; publishes Reports. Add. Tanabe, Wakayama-ken. — p. 153 ([scan leaf 726](https://archive.org/details/japan-year-book-1930/page/n726/mode/1up))
+
+**Mining Institute of Japan, The** Est. 1885; publishes The Journal of the Mining Institute of Japan, in Japanese, monthly; mem. 1,190. Pres., A. Matoba, D. Eng. Office, 15 Kyobashi-ku Kagacho, Tokyo. — p. 154 ([scan leaf 727](https://archive.org/details/japan-year-book-1930/page/n727/mode/1up))
+
+**Mining Society of Chosen, The** Est. in 1917; publishes the Bulletin of the Mining Society of Chosen, monthly, and The Journal of the Mining Society of Chosen, quarterly; mem. 250. Pres., K. Kuroki. Office, Minami Yonekura-cho, Keijo (Seoul). — p. 154 ([scan leaf 727](https://archive.org/details/japan-year-book-1930/page/n727/mode/1up))
+
+**Mining Society of Taiwan, The** Est. 1912; publishes The Journal of the Mining Society of Taiwan, in Japanese, monthly; mem. 250. Pres., Y. Komatsu. Office, Akashi-cho, Taihoku. — p. 154 ([scan leaf 727](https://archive.org/details/japan-year-book-1930/page/n727/mode/1up))
+
+**Municipal Research Board (Tokyo)** Est. 1922 with the view to investigating problems affecting municipal system by the late Count Goto and others on the advice of Dr. Charles Beard; mem. 150. Add. Kojimachi-ku Yuraku-cho, Tokyo. — p. 154 ([scan leaf 727](https://archive.org/details/japan-year-book-1930/page/n727/mode/1up))
+
+**National Research Council** Founded 1920; consists of 2 Departments, General Affairs and Scientific, comprising 8 branches of investigation. physics, chemistry, geography, biology, medicine, engineering, astronomy and geophysics; cooperates with the International Research Council formed by the late Allied States, and also serves as a coordinating medium for various scientific associations at home. Has in maximum 100 scientists as its members; the first general meeting held in Dec. 1920. Pres., Dr. Baron K. Furuichi, Privy Councillor; Vice-Pres., Dr. J. Sakurai, Privy Councillor. — p. 154 ([scan leaf 727](https://archive.org/details/japan-year-book-1930/page/n727/mode/1up))
+
+**National Society of Medicine** (Kokka-Igaku-kai).—Members, 3,500, dues, ¥4.80. Add. Medical Jurisprudence Dept., Tokyo Imp. Univ., Tokyo. — p. 154 ([scan leaf 727](https://archive.org/details/japan-year-book-1930/page/n727/mode/1up))
+
+**National Society of Physiology, The** Est. 1924; issues The Physiological Studies, in Japanese, monthly; mem. 2,623. Pres., H. Ishikawa, M.D. Office, Physiological Inst., Kyoto Imp. Univ., Kyoto. — p. 154 ([scan leaf 727](https://archive.org/details/japan-year-book-1930/page/n727/mode/1up))
+
+**Natural History Society, Sapporo** Est. 1891; issues Transactions of the Sapporo Natural History Society, in European languages, occasionally; mem. 196. Pres., K. Miyabe, D. Sc. Office, Botanical Inst., Hokkaido Imp. Univ., Sapporo. — p. 154 ([scan leaf 727](https://archive.org/details/japan-year-book-1930/page/n727/mode/1up))
+
+**Naval Medical Association, The** Est. 1887; issues The Journal. in Japanese, quarterly; mem. 790. Pres., I. Hirano, Surgeon Vice-Adm. Office, Bureau of Med. Aff., Navy Dept., Tokyo. — p. 154 ([scan leaf 727](https://archive.org/details/japan-year-book-1930/page/n727/mode/1up))
+
+**Nihon Teiyen Kyokai** (Japan Garden Society).—Publishes a monthly magazine the Teiyen (Garden). Pres., Dr. S. Honda. Add. Shimototsuka, Tokyo. — p. 154 ([scan leaf 727](https://archive.org/details/japan-year-book-1930/page/n727/mode/1up))
+
+**Nippon Club** Est. 1888 by Japanese; is a non-political institution: mem. 860. Pres., Prince I. Tokugawa. Club-house, Kojimachi Yurakucho, Tokyo. — p. 154 ([scan leaf 727](https://archive.org/details/japan-year-book-1930/page/n727/mode/1up))
+
+**Nippon Eibungaku Kwai** (Japan Association for the Study of English Literature).—Est. 1928 by those interested in the study of English language & literature; holds lecture meetings occasionally & issues “Studies in English Literature,” both in Japanese & English, quarterly. Reps., S. Ichikawa. Dr. Lit., K. Ishida, K. Doi, etc. Add. Inst. of Eng. Literature, Lit. Coll., Tokyo Imp. Univ., Tokyo. — p. 154 ([scan leaf 727](https://archive.org/details/japan-year-book-1930/page/n727/mode/1up))
+
+**Nippon Jindokai** (Japan Humane Society).—Created in 1914 by a number of Japanese and foreign ladies in Tokyo to promote the cause of humanity. — p. 154 ([scan leaf 727](https://archive.org/details/japan-year-book-1930/page/n727/mode/1up))
+
+**Ohara Social Problems Research Institute** Est. 1919. Rep., I. Takano Add. Tennoji, Osaka. — p. 155 ([scan leaf 728](https://archive.org/details/japan-year-book-1930/page/n728/mode/1up))
+
+**Oriental Association** (Toyo Kyokai).—Founded 1898, for developing resources in Formosa, Korea & Manchuria; maintains schools in Tokyo, Seoul, Dairen, etc. bringing up students to devote themselves to colonization work; issues two monthly magazines Toyo & Toyo Gakuho; mem. 3,000. Pres., ——. Add. Koiimachi Uchiyamashita-cho, Tokyo. — p. 155 ([scan leaf 728](https://archive.org/details/japan-year-book-1930/page/n728/mode/1up))
+
+**Oriental Medical Association, Kyoto** Est. 1926; issues Oriental Journal of Diseases of Infants, in Japanese, quarterly; mem. 700. Pres., T. Suzuki, M.D. Office, Pediatric Inst., Kyoto Imp. Univ., Kyoto. — p. 155 ([scan leaf 728](https://archive.org/details/japan-year-book-1930/page/n728/mode/1up))
+
+**Ornithological Society of Japan, The** Est. 1912; mem. 214; is associated with the National Association of Audubon Society of America; issues “Aves” twice a year, also publishing books and pamphlets concerning ornithology and holding periodical meetings thrice a year. Pres., Prince Takatsukasa; Dir., Dr. N. Kuroda. Office, Zoological Inst., Tokyo Imp. Univ., Tokyo. — p. 155 ([scan leaf 728](https://archive.org/details/japan-year-book-1930/page/n728/mode/1up))
+
+**Pan-Pacific Club, Osaka** Founded 1923; with the object to promote international relationship of the Pacific countries; mem. 200. Rep., Y. Chikaraishi. Add. Osaka Prefectural Office, Osaka. — p. 155 ([scan leaf 728](https://archive.org/details/japan-year-book-1930/page/n728/mode/1up))
+
+**Pan-Pacific Society** Founded '23 by those interested in the Pacific problems; holds occasional meetings. Pres., Prince I. Tokugawa. Office, Imperial Hotel, Tokyo. — p. 155 ([scan leaf 728](https://archive.org/details/japan-year-book-1930/page/n728/mode/1up))
+
+**Paper Mills Union, Japan** Est. 1880; issues a monthly magazine; mem. 54 mills. Chair., G. Fujiwara. Add. Kojimachi Yaesucho, Tokyo. — p. 155 ([scan leaf 728](https://archive.org/details/japan-year-book-1930/page/n728/mode/1up))
+
+**Peers' Club** Est. 1874 as a social body of the titled class; mem. 1,255. Pres., Prince I. Tokugawa. Add. Kojimachi-ku Sannencho, Tokyo. — p. 155 ([scan leaf 728](https://archive.org/details/japan-year-book-1930/page/n728/mode/1up))
+
+**Pharmaceutical Society of Japan, The** Est. 1881; issues Pharmaceutical Journal, in Japanese, monthly; mem. 4,006. Pres., N. Nagai, D. Sc., D. Phar. Office, Ushigome-ku Shimo Miyabi-cho, Tokyo. — p. 155 ([scan leaf 728](https://archive.org/details/japan-year-book-1930/page/n728/mode/1up))
+
+**Physico-Mathematical Society of Japan, The** Est. 1879, as Mathematical Society of Tokyo; changed to the present name, 1919; issues Proceedings of the Physico-Mathematical Society of Japan, in Japanese; mem. 713; Chairman, K. Terasawa, D. Sc. Office, Physical Inst., Tokyo Imp. Univ., Tokyo. — p. 155 ([scan leaf 728](https://archive.org/details/japan-year-book-1930/page/n728/mode/1up))
+
+**Physiological Society of Japan, The** Est. 1922; mem. 100. Secy. in charge, K. Hashida, M.D. Office, Physiological Inst., Tokyo Imp. Univ., Tokyo. — p. 155 ([scan leaf 728](https://archive.org/details/japan-year-book-1930/page/n728/mode/1up))
+
+**Phytopathological Society of Japan, The** Est. 1917; issues Annals of the Phytopathological Society of Japan, partly in English; mem. 300. Pres., S. Kusano, D. Sc. Office, 12 Koishikawa-ku Hara-machi, Tokyo. — p. 155 ([scan leaf 728](https://archive.org/details/japan-year-book-1930/page/n728/mode/1up))
+
+**Portland Cement Cos. Union, Japan** Est. 1912; mem. 16 cos. Chair., S. Sato. Add. Teikoku Bldg., Higashi Imahashi, Osaka. — p. 155 ([scan leaf 728](https://archive.org/details/japan-year-book-1930/page/n728/mode/1up))
+
+**Protection of Animals, Tokyo Society for** Organized in 1904 under the promotion of several Unitarian ministers and members. Office, Azabu Hommuracho, Tokyo. — p. 155 ([scan leaf 728](https://archive.org/details/japan-year-book-1930/page/n728/mode/1up))
+
+**Rayon Mills Union, Japan** Est. 1928; mem. 8 rayon cos. Add. Tosabori, Nishi-ku, Osaka. — p. 155 ([scan leaf 728](https://archive.org/details/japan-year-book-1930/page/n728/mode/1up))
+
+**Red Cross Society, Japan** Started in 1877, Japan having joined the Geneva Convention in 1886. The Society's hospital is reputed in accommodation and general arrangement as being the best in the Far East; it attends to training of nurses. the course of study extending over three years; every local branch of the Society also maintains a similar service, of three year course. The latest statistics returned at the end of 1928-29 fiscal year are as follows: 21 hospitals, 2 hospital ships, 160 medical corps, 236 doctors, 5,537 nurses and helpers. The total membership of the society was 2,508,578 including foreigners. The in-patients at the hospitals totalled 1,223,182 in number of days treated, and out-patients 4,385.274. Expenditure in 1928-29 amounted to ¥43,602,599; total property assessed at ¥60,880,294. Hon. Pres., H.H. Marshal Prince Kan-in; Pres., Baron N. Hirayama. Office, Shiba Park, Tokyo. — p. 155 ([scan leaf 728](https://archive.org/details/japan-year-book-1930/page/n728/mode/1up))
+
+**Roentgen Society of Japan, The** Est. 1923; issues Journal of the Roentgen Society of Japan, in Japanese, twice a year; mem. 410. Pres., Y. Tashiro, M.D. Office, Inst. of Orthopaedic Surg., Tokyo Imp. Univ., Tokyo. — p. 156 ([scan leaf 729](https://archive.org/details/japan-year-book-1930/page/n729/mode/1up))
+
+**Rotary Club, Tokyo** Established 1920; social and cultural society of Japanese and foreign businessmen resident in Tokyo; membership 50. Chairman, S. Ichinomiya. — p. 156 ([scan leaf 729](https://archive.org/details/japan-year-book-1930/page/n729/mode/1up))
+
+**Russo-Japanese Society** Founded 1906; mem. 453; Hon. Pres., H.I.H. Prince Kan-in; Pres., ——. Add. Kojimachi Uchisaiwaicho, Tokyo. — p. 156 ([scan leaf 729](https://archive.org/details/japan-year-book-1930/page/n729/mode/1up))
+
+**Saiseikwai** A foundation est. 1911 with funds granted by Imperial court to extend medical aid to the poor; maintains hospitals in Tokyo and elsewhere for the treatment of the helpless patients; mem. 43,166. Pres., Prince I. Tokugawa. Office, Shiba Akabane, Tokyo. — p. 156 ([scan leaf 729](https://archive.org/details/japan-year-book-1930/page/n729/mode/1up))
+
+**Scientific Agricultural Society, The** Est. 1887; publishes Journal of the Scientific Agricultural Society, in Japanese, monthly; mem. 1,583. Pres., K. Aso, D. Agr. Office, Fac. of Agr., Tokyo Imp. Univ., Tokyo. — p. 156 ([scan leaf 729](https://archive.org/details/japan-year-book-1930/page/n729/mode/1up))
+
+**Scientific Fishery Association, The** Est. 1915; issues Proceedings of Sci. Fish. Association, semi-annually; mem. 114. Office, Fac. of Agr., Tokyo Imp. Univ., Tokyo. — p. 156 ([scan leaf 729](https://archive.org/details/japan-year-book-1930/page/n729/mode/1up))
+
+**Seamen's Rescue Society** Est. 1880; gives training at its training institutes at Yokohama, Osaka, Kobe, Moji, Nagasaki and 6 other places to about 400 higher class seamen and 700 ordinary hands; gives employment through society's intermediation to officers and men; care for at its hospitals a number of decrepit sailors or aids families of deceased sailors. Patron, H.I.H. Prince Fushimi. Pres., K. Uchida. Add. Kyobashi-ku Akashicho, Tokyo. — p. 156 ([scan leaf 729](https://archive.org/details/japan-year-book-1930/page/n729/mode/1up))
+
+**Sericultural Association, Japan** Founded 1892; publishes a Japanese monthly and a French Bulletin as its organ; reliable information is supplied on application to foreigners abroad; mem. 282,134. Patron, Prince Kan-in. Pres., Count T. Makino. Add. Kojimachi Yurakucho, Tokyo. — p. 156 ([scan leaf 729](https://archive.org/details/japan-year-book-1930/page/n729/mode/1up))
+
+**Shipbuilding Association** Founded 1897; issues a magazine; mem. 1,900. Rep., J. Imaoka, Dr. Eng. Add. No. 6, Marunouchi Naka-dori, Tokyo. — p. 156 ([scan leaf 729](https://archive.org/details/japan-year-book-1930/page/n729/mode/1up))
+
+**Shipowners Union, Japan** Est. 1894; issues a monthly report: mem. 170. Pres., K. Hori. Add. Kyobashi-ku Akashicho, Tokyo. — p. 156 ([scan leaf 729](https://archive.org/details/japan-year-book-1930/page/n729/mode/1up))
+
+**Society for the Propagation of Roman Alphabets** Est. 1926; issues its organ in Romanized Japanese; mem. 7,000. Pres., Dr. A. Tanakadate. Add. Hongo-ku Akebonocho, Tokyo. — p. 156 ([scan leaf 729](https://archive.org/details/japan-year-book-1930/page/n729/mode/1up))
+
+**Society for the Propagation of Scientific Knowledge** Founded 1921; publishes a monthly magazine “Kagaku-chishiki” as its organ; holds lecture meetings. Add. Marunouchi Yaesucho 1-chome, Tokyo. — p. 156 ([scan leaf 729](https://archive.org/details/japan-year-book-1930/page/n729/mode/1up))
+
+**Society of Agriculture & Forestry, Sapporo** Est. 1908; issues Journal of the Society of Agriculture & Forestry, in Japanese; mem. 521. Pres., T. Minami, D. Agr. Office, Faculty of Agr., Hokkaido Imp. Univ., Sapporo. — p. 156 ([scan leaf 729](https://archive.org/details/japan-year-book-1930/page/n729/mode/1up))
+
+**Society of Astronomical Friends, The** Est. 1920; issues The Heavens, in Japanese, monthly, and Bulletin, in English, occasionally; mem. 1,500. Chief Secy., I. Yamamoto, D. Sc. Office, Inst. of Cosmical Physics, Kyoto Imp. Univ., Kyoto. — p. 156 ([scan leaf 729](https://archive.org/details/japan-year-book-1930/page/n729/mode/1up))
+
+**Society of Chemical Industry, The** Est. 1898; issues The Journal of the Society of Chemical Industry, in Japanese, monthly; mem. 3,850. Pres., I. Fujino. Office, Inst. of App. Chemistry, Tokyo Imp. Univ., Tokyo. — p. 157 ([scan leaf 730](https://archive.org/details/japan-year-book-1930/page/n730/mode/1up))
+
+**Society of Forestry, The** Est. 1914; issues The Journal of the Society of Forestry, in Japanese, bi-monthly; mem. 2,765. Pres., H. Hirasawa, D. For. Office, For. Exp. Inst., Naka Meguro, Tokyo. — p. 157 ([scan leaf 730](https://archive.org/details/japan-year-book-1930/page/n730/mode/1up))
+
+**Society of Heating & Refrigerating Engineers** Issues The Journal of S. H. R. E., in Japanese bi-monthly; mem. 503. Pres., S. Chujo. Office, Imp. Rly. Ass'n, Kojimachi-ku Yurakucho, Tokyo. — p. 157 ([scan leaf 730](https://archive.org/details/japan-year-book-1930/page/n730/mode/1up))
+
+**Society of Mechanical Engineers, The** Est. 1897; issues The Journal of the Society of Mechanical Engineering, in Japanese, monthly; mem. 4.175. Pres., Baron C. Shiba, D. Eng. Office, Kojimachi-ku Yurakucho, Tokyo. — p. 157 ([scan leaf 730](https://archive.org/details/japan-year-book-1930/page/n730/mode/1up))
+
+**Society of Naval Architects of Japan** Est. 1897; issues The Journal of the Soc. of Nav. Arch. of Japan, in Japanese, twice a year, and The Miscellany of the Soc. of Nav. Arch. of Japan, in Japanese, bi-monthly; published A Study of Ancient Ships of Japan, in English, etc.; mem. 1,742. Pres., K. Yamoto, D. Eng Office, Kojimachi Yurakucho, Tokyo. — p. 157 ([scan leaf 730](https://archive.org/details/japan-year-book-1930/page/n730/mode/1up))
+
+**Society of Ordnance & Explosives, The** Founded 1905; issues Journal of the Society of Ordnance & Explosives, in Japanese, bi-monthly; mem. 420. Pres., U. Tanekoda. Office, Inst. of Tech. of Ord., Tokyo Imp. Univ., Tokyo. — p. 157 ([scan leaf 730](https://archive.org/details/japan-year-book-1930/page/n730/mode/1up))
+
+**Society of Oto- Rhino- & Laryngological Clinic, The** Est. 1925; issues The Oto- Rhino- and Laryngological Clinic, mostly in European languages, bi-monthly; mem. 500. Pres., S. Hoshino, M.D. Office, Inst. of Oto-Rhino- & Lary., Kyoto Imp. Univ., Kyoto. — p. 157 ([scan leaf 730](https://archive.org/details/japan-year-book-1930/page/n730/mode/1up))
+
+**Society of Social Medicine, The** Est. 1887; issues Journal of Social Medicine, in Japanese, monthly; mem. 980. Pres., S. Mita, M.D. Office, Inst. of Forensic Medicine, Tokyo Imp. Univ., Tokyo. — p. 157 ([scan leaf 730](https://archive.org/details/japan-year-book-1930/page/n730/mode/1up))
+
+**South Seas Association** Founded 1915; publishes a monthly bulletin; mem. 1,366. Pres., Baron K. Den. Add. Kojimachi-ku Yaesucho, Tokyo. — p. 157 ([scan leaf 730](https://archive.org/details/japan-year-book-1930/page/n730/mode/1up))
+
+**Statistical Society, Tokyo** Founded 1878; publishes monthly magazine styled Tokei Shushi; also issues the Imperial Japanese Statistic Annual and a number of statistics; mem. 868. Pres., Dr. Baron Y. Sakatani. Add. Kyobashi Yamashita-cho, Tokyo. — p. 157 ([scan leaf 730](https://archive.org/details/japan-year-book-1930/page/n730/mode/1up))
+
+**Stock-Breeding Association. Central** Founded 1915; issues a magazine as an organ; mem. 8,600. Pres., Baron S. Hirayama. Add. Akasaka-ku Tameike, Tokyo. — p. 157 ([scan leaf 730](https://archive.org/details/japan-year-book-1930/page/n730/mode/1up))
+
+**Suikosha** (Naval Club).—Founded 1872; naval officers' social club with mem. of 11,000; publishes a bulletin. Pres., Adm. K. Takarabe. Office, Azabu Iigura, Tokyo. — p. 157 ([scan leaf 730](https://archive.org/details/japan-year-book-1930/page/n730/mode/1up))
+
+**Suiyo Kwai** (The Kyoto Association for Mining & Metallurgy).—Est. 1900; publishes The Journal of Mining and Metallurgy, in Japanese, three times a year; mem. 361. Pres., D. Saito, D. Eng. Office, Inst. of Min. & Metal., Kyoto Imp. Univ., Kyoto. — p. 157 ([scan leaf 730](https://archive.org/details/japan-year-book-1930/page/n730/mode/1up))
+
+**Sunday School Association, Japan** Est. 1907; mem. 922 Sunday Schools. Rep., T. Yamamoto. Add. Kanda Nishikicho 1-chome, Tokyo. — p. 157 ([scan leaf 730](https://archive.org/details/japan-year-book-1930/page/n730/mode/1up))
+
+**Teikoku Agricultural Association** Est. 1910; issues a monthly bulletin; mem. 47 agricultural associations. Pres., E. Yahagi, D.L. Add. Kojimachi-ku Yurakucho, Tokyo. — p. 157 ([scan leaf 730](https://archive.org/details/japan-year-book-1930/page/n730/mode/1up))
+
+**Teikoku Fishery Association** Est. 1922; publishes a monthly magazine. Pres., Baron R. Murakami. Add. Toyo Bldg., Kojimachi-ku Uchiyamashita-cho, Tokyo. — p. 157 ([scan leaf 730](https://archive.org/details/japan-year-book-1930/page/n730/mode/1up))
+
+**Teikoku Forestry Association** Est. 1919; issues a monthly bulletin; mem. 150. Pres., S. Honda, D. Agr. Add. Akasaka Tameike, Tokyo. — p. 158 ([scan leaf 731](https://archive.org/details/japan-year-book-1930/page/n731/mode/1up))
+
+**Teikoku Hatsumei Kyokai** (Society for Protecting Industrial Property).—A corporation founded in 1905; mem. 3,349. Pres., Baron Y. Sakatani. Add. Marunouchi Yurakucho, Tokyo. — p. 158 ([scan leaf 731](https://archive.org/details/japan-year-book-1930/page/n731/mode/1up))
+
+**Teikoku Kaiji Kyokwai** (Imp. Maritime Ass'n.)—Est. 1899; object, to investigate various maritime affairs; mem. 63,225. Pres., Baron C. Shiba, D. Eng. Add. Kaijo Bldg., Marunouchi, Tokyo. — p. 158 ([scan leaf 731](https://archive.org/details/japan-year-book-1930/page/n731/mode/1up))
+
+**Teikoku Kogeikwai** (Industrial Ass'n.)—Est. 1926; object, to promote development of industries; publishes a monthly magazine as its organ; mem. 800. Pres., Baron Y. Sakatani. Add. Yusen Bldg., Marunouchi, Tokyo. — p. 158 ([scan leaf 731](https://archive.org/details/japan-year-book-1930/page/n731/mode/1up))
+
+**Teikoku Kyoikukai** (Imp. Educational Society).—Est. 1882; an unofficial advisory body in educational matters; publishes books and magazines; awards honor to those of meritorious services to education; mem. 5,000. Pres., Count H. Hayashi. Add. Kanda Hitotsubashi, Tokyo. — p. 158 ([scan leaf 731](https://archive.org/details/japan-year-book-1930/page/n731/mode/1up))
+
+**Textile Weaving Association, Japan** Est. 1885; object, to help development of weaving industry; issues a bulletin; mem. 1,500. Pres., S. Shibata. Add. Nichibei Shintaku Bldg., Kyobashi-ku, Kitamakicho, Tokyo. — p. 158 ([scan leaf 731](https://archive.org/details/japan-year-book-1930/page/n731/mode/1up))
+
+**Toa Dobunkai** Founded 1899; maintains schools at Shanghai, Tientsin and Hankow, chiefly devoted to the education of Chinese and Japanese desiring to work in China; mem. 2,500. Pres., Count N. Makino. Add. Kojimachi Yurakucho, Tokyo. — p. 158 ([scan leaf 731](https://archive.org/details/japan-year-book-1930/page/n731/mode/1up))
+
+**Tohoku Medical Society** Est. 1916; issues The Journal, in Japanese, 5 per year; mem. 1,020. Pres., G. Fuse, M.D. Office, Fac. Med., Tohoku Imp. Univ., Sendai. — p. 158 ([scan leaf 731](https://archive.org/details/japan-year-book-1930/page/n731/mode/1up))
+
+**Tokyo Botanical Society, The** Est. 1882; issues The Botanical Magazine, in Japanese, monthly; mem. 430. Pres., M. Miyoshi, D. Sc. Office, Imp. Univ. Bot. Garden, Koishikawa, Tokyo. — p. 158 ([scan leaf 731](https://archive.org/details/japan-year-book-1930/page/n731/mode/1up))
+
+**Tokyo Charity Association** Est. 1871; maintains a hospital & a medical college in Tokyo; issues a bulletin; mem. 932. Pres., Prince I. Tokugawa. Add. Shiba Atagomachi, Tokyo. — p. 158 ([scan leaf 731](https://archive.org/details/japan-year-book-1930/page/n731/mode/1up))
+
+**Tokyo Club** Est. 1885 by Japanese and foreigners; membership about 420. Pres., H.H. Prince Kan-in; Vice-Pres., Marquis Inouye; Acting Hon. Secy., Mr. A. W. Medley; Hon. Treas., Vis. H. Akimoto. Club-house, Kojimachi-ku Sannen-cho, Tokyo. — p. 158 ([scan leaf 731](https://archive.org/details/japan-year-book-1930/page/n731/mode/1up))
+
+**Tokyo Entomological Society** Est. 1917; publishes “Konchu” (The Insect), in Japanese; mem. 126. Pres., C. Sasaki, D. Sc. Office, Forestry Exp. Inst., Naka Meguro, Tokyo. — p. 158 ([scan leaf 731](https://archive.org/details/japan-year-book-1930/page/n731/mode/1up))
+
+**Tokyo Medical Society** Est. 1886; issues The Journal, in Japanese, monthly; mem. 1,200. Pres., T. Irisawa, M.D. Office, Physiological Inst., Tokyo Imp. Univ., Tokyo. — p. 158 ([scan leaf 731](https://archive.org/details/japan-year-book-1930/page/n731/mode/1up))
+
+**University Graduates' Society** Founded 1886; admits graduates of Imperial Universities of Tokyo, Kyoto, Kyushu, Tohoku and Hokkaido, and others having connection with the above institutions; publishes monthly bulletin; comprises 18 committees and 1 chief secretary; mem. 3,000. Add. Kanda Nishikicho, Tokyo. — p. 158 ([scan leaf 731](https://archive.org/details/japan-year-book-1930/page/n731/mode/1up))
+
+**Volunteer Nurse Society** As an adjunct of the Japan Red Cross Society (which see), this philanthropic body of women possesses over 18,900 members throughout the country. Chairman, Dowager Marchioness Nabeshima. Add. Shiba Park, Tokyo. — p. 158 ([scan leaf 731](https://archive.org/details/japan-year-book-1930/page/n731/mode/1up))
+
+**Women's Association, Japan** Est. 1922; object, to elevate social status of Japanese womanhood; mem. 1,000. Pres., Mrs. Tsuyuko Kamimura. Add. Shiba Atagomachi 1-chome, Tokyo. — p. 159 ([scan leaf 732](https://archive.org/details/japan-year-book-1930/page/n732/mode/1up))
+
+**Women's Association, National** Founded 1899; aims at promoting women's culture. Pres., Madam Utako Shimoda. Add. Jissen Jogakko, Shibuya, Tokyo. — p. 159 ([scan leaf 732](https://archive.org/details/japan-year-book-1930/page/n732/mode/1up))
+
+**Women's Educational Association, Japan** Est. 1920; issues a monthly bulletin; mem. 10,030. Pres., Marchioness E. Nabeshima. Add. Akasaka Temmacho, Tokyo. — p. 159 ([scan leaf 732](https://archive.org/details/japan-year-book-1930/page/n732/mode/1up))
+
+**Women's Patriotic Society** Founded by the late Madam Okumura (d. 1907). The principal aim of the Society is to give relief to invalided soldiers and the families of those killed in war; the Society also looks after the schooling of orphans of soldiers killed in war; keeps a workhouse for disabled soldiers, their families or families of those killed in war; since 1918 the Society has attended to relief works in general. Mem. 1,447,100; expenditure (from beginning to '23) ¥1,465,568; fund ¥2,000,213. Hon. Pres., H.H. Princess Dowager Higashi Fushimi; Chair. Mrs. Hisako Motono. Office, Kudan, Tokyo. — p. 159 ([scan leaf 732](https://archive.org/details/japan-year-book-1930/page/n732/mode/1up))
+
+**Women's Peace Association, Japan** Est. 1921; mem. 350. Pres., Mrs. H. Inouye. Add. Kojimachi Sambancho, Tokyo. — p. 159 ([scan leaf 732](https://archive.org/details/japan-year-book-1930/page/n732/mode/1up))
+
+**Yokohama United Club** Chair., P. Nipkow; Secy., S. R. Kerr. Add. No. 4 Yamashita-cho, Yokohama. — p. 159 ([scan leaf 732](https://archive.org/details/japan-year-book-1930/page/n732/mode/1up))
+
+**Young Men's Association, Japan** Founded 1922; consists of local young men's ass'ns. all over Japan. Pres., Prince F. Konoye. Add. Kojimachi Otemachi, Tokyo. — p. 159 ([scan leaf 732](https://archive.org/details/japan-year-book-1930/page/n732/mode/1up))
+
+**Zoological Society of Japan, The** Est. 1877; publishes The Zoological Magazine, in Japanese, monthly, and Annotationes Zoologicae Japonenses, in European languages, occasionally; mem. 538. Pres., A. Oka, D. Sc. Office, Zoo. Inst., Tokyo Imp. Univ., Tokyo. — p. 159 ([scan leaf 732](https://archive.org/details/japan-year-book-1930/page/n732/mode/1up))
+
+**Zootechnical Science Society of Japan** Est. 1924; issues Japanese Journal of Zootechnical Science, quarterly; mem. 350. Pres., R. Iwazumi, D. Agr. Office, Inst. Veterinary Sci., Tokyo Imp. Univ., Tokyo. — p. 159 ([scan leaf 732](https://archive.org/details/japan-year-book-1930/page/n732/mode/1up))
+
+**Zymurgy Society of Osaka** Est. 1910; publishes The Journal of Zymurgy, in Japanese, twice a month; mem. 4,500. Pres., Y. Nishiwaki. Office, Osaka Technical College, Osaka. — p. 159 ([scan leaf 732](https://archive.org/details/japan-year-book-1930/page/n732/mode/1up))
