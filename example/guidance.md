@@ -86,18 +86,31 @@ in the book folder are therefore the source of truth, not the generated HTML.
 
 ## 4. Running the transcription
 
-- Copy `example/BRIEF.md` to `<BookFolder>/_work/BRIEF.md` and fill in the placeholders and the "This book"
-  section.
-- Plan batches of about 30 leaves in `_work/batches.md`, with a status column.
-- Launch one sub-agent per batch. Stay under the concurrent-agent limit the user has set; ask if you don't
-  know it.
-- Tell every agent, in its prompt: read by eye with no OCR; blank plus a note for anything unreadable; check
-  totals and never correct the source; save each table immediately; one report line per leaf; resume from the
-  report if one exists.
-- When a batch finishes, read its report:
-  - A table that runs into the next batch's range is written once, by the batch where it starts. Tell the
-    neighbouring agent so it doesn't duplicate it.
-  - Record repeated or missing pages for the book's `gaps` note.
-- Do Who's Who and directory sections as separate directory batches (`directory/<leaf>.json`), and
-  chronologies as a chronology batch.
-- Publish interim progress with `"in_progress": True`. When every batch is done, remove it and add `gaps`.
+- Copy `example/BRIEF.md` to `<BookFolder>/_work/BRIEF.md` and `example/MISSION.md` to
+  `<BookFolder>/_work/MISSION.md`; fill in the placeholders and the "This book" section.
+- **Use short missions, not big batches.** Batches of 12–30 spreads ran for 5–9 hours per agent, were hard
+  to monitor, and lost work when an agent died from an API timeout. Size each mission to finish in under an
+  hour:
+  - dense statistical pages (trade returns by commodity and country, big multi-part tables): **1 page or
+    spread** per mission;
+  - ordinary table pages: 2–3; mostly prose: 4–6.
+  Make a contact sheet (`magick montage`, labelled thumbnails) of the pages to judge density first.
+- Keep the plan in `_work/batches.md`: one row per mission, with its pages, any file it must "finish", and a
+  status. Run missions on a rolling basis — start the next one as each finishes — staying under the
+  concurrent-agent limit the user has set (ask if you don't know it).
+- Tables that cross mission boundaries: the mission that owns the **first** page of a table writes all of it,
+  reading ahead (see BRIEF.md). So missions can run in parallel without duplicates. When a mission is killed
+  mid-table, the next mission's prompt names the partial file and tells it to **finish** it.
+- The prompt itself is a few lines (template at the end of MISSION.md): the pages, any file to finish, an
+  example file whose structure to copy, the no-OCR rule, the report file.
+- **Watch progress by files, not by elapsed time**: `ls -t tables | head` and the mission's report. A
+  mission with no new file for ~30 minutes is stuck: stop it and relaunch a smaller one from what is on disk.
+- When a mission finishes, read its reply: it may report a table nobody owns (e.g. a table whose first page
+  was in a mission that died). Queue a one-table mission for it.
+- Do Who's Who and directory sections as separate missions (`directory/<leaf>.json`), and chronologies the
+  same way.
+- **Check pass.** When a book is done, run short check missions over (a) tables whose totals do not
+  reconcile, (b) tables with columns in the gutter, and (c) a random ~10% sample: re-read against the image
+  and fix misreads. In the Far East Year Book 1941 such re-reads found shifted columns and misread digits
+  that the first pass had missed.
+- Publish interim progress with `"in_progress": True`. When every mission is done, remove it and add `gaps`.
