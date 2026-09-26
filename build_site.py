@@ -69,7 +69,7 @@ BOOKS = [
      "source": "LLM-transcribed from 498 photographs of the printed volume (two-page spreads).",
      "gaps": "Pages 502–503 (Mining) and 966–967 (Index) were not photographed. Gaps in table numbering (e.g. Agriculture Tables 2–3 and 11–17) are in the printed book itself.",
      "scan": None, "hide_images": True},
-    {"slug": "far-east-1941", "root": os.path.join(os.path.dirname(ROOT), "The Far East Year Book 1941"),
+    {"slug": "far-east-1941", "root": os.environ.get("FAR_EAST_ROOT") or os.path.join(os.path.dirname(ROOT), "The Far East Year Book 1941"),
      "title": "The Far East Year Book 1941",
      "publisher": "Japan-Manchoukuo Year Book Co., Tokyo, 1941",
      "blurb": "Japan, its colonies (Chosen, Taiwan, Karafuto, the South Sea Islands), Manchoukuo and occupied China, with shorter sections on the Philippines, French Indo-China, Thailand, British Malaya, the Netherlands East Indies and British Borneo.",
