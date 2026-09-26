@@ -1,6 +1,6 @@
 # The Japan Year Book 1910 — Chronologies
 
-309 entries, LLM-transcribed. These entries were transcribed by the vision model of Opus 5.5. Before using any of these details, you must verify specific details with the original source which is linked to whenever possible.
+343 entries, LLM-transcribed. These entries were transcribed by the vision model of Opus 5.5. Before using any of these details, you must verify specific details with the original source which is linked to whenever possible.
 
 
 ## Diary of 1908-9 — Diary of 1907-9
@@ -621,4 +621,75 @@
 
 **1909, Jul. 19** Return of Prince Ito to Oiso. — p. ix ([scan leaf 58](https://archive.org/details/japan-year-book-1910/page/n58/mode/1up))
 
-**1909, Jul. 20** Prince Ito received in — p. ix ([scan leaf 58](https://archive.org/details/japan-year-book-1910/page/n58/mode/1up))
+**1909, Jul. 20** Prince Ito received in audience by the Emperor. — p. ix ([scan leaf 58](https://archive.org/details/japan-year-book-1910/page/n58/mode/1up))
+
+**1909, Jul. 20** The China exploitation company organized. — p. x ([scan leaf 58](https://archive.org/details/japan-year-book-1910/page/n58/mode/1up))
+
+**1909, Jul. 22** Lieut.-Gen. (ret.) Yenya, President of the Japan Marine Products Co., convicted at the preliminary examination and deprived of his title and rank. — p. x ([scan leaf 58](https://archive.org/details/japan-year-book-1910/page/n58/mode/1up))
+
+**1909, Jul. 22** Death of Eiko Satake, artist. — p. x ([scan leaf 58](https://archive.org/details/japan-year-book-1910/page/n58/mode/1up))
+
+**1909, Jul. 24** Publication of the memorandum of the Japan-Korea convention. — p. x ([scan leaf 58](https://archive.org/details/japan-year-book-1910/page/n58/mode/1up))
+
+**1909, Jul. 24** Creation of electric and post saving bureaux in the Dept. of communications — p. x ([scan leaf 58](https://archive.org/details/japan-year-book-1910/page/n58/mode/1up))
+
+**1909, Jul. 26** Prince Ito appointed the President of the Korean Crown Prince's Education Board. — p. x ([scan leaf 58](https://archive.org/details/japan-year-book-1910/page/n58/mode/1up))
+
+**1909, Jul. 27** Provisions of the Central Bank of Korea published. — p. x ([scan leaf 58](https://archive.org/details/japan-year-book-1910/page/n58/mode/1up))
+
+**1909, Jul. 28** By-elections of M.P.'s. in several prefectures. — p. x ([scan leaf 58](https://archive.org/details/japan-year-book-1910/page/n58/mode/1up))
+
+**1909, Jul. 29** Prince and Princess Nashimoto return from Europe. — p. x ([scan leaf 58](https://archive.org/details/japan-year-book-1910/page/n58/mode/1up))
+
+**1909, Jul. 30** The Commercial and Industrial Bureau in the Dept. of Commerce and Agriculture, divided into two Bureaux. — p. x ([scan leaf 58](https://archive.org/details/japan-year-book-1910/page/n58/mode/1up))
+
+**1909, Jul. 31** Organization of the Temporary Military Airship Investigation Commission. — p. x ([scan leaf 58](https://archive.org/details/japan-year-book-1910/page/n58/mode/1up))
+
+**1909, Jul. 31** A conflagration at Osaka, 11,3[illegible]5 houses destroyed. — p. x ([scan leaf 58](https://archive.org/details/japan-year-book-1910/page/n58/mode/1up))
+
+**1909, Aug. 1** Korean Crown Prince starts on a tour through North-Eastern Japan with Prince Ito. — p. x ([scan leaf 58](https://archive.org/details/japan-year-book-1910/page/n58/mode/1up))
+
+**1909, Aug. 2** A big fire at Niigata. Promotion of Major-Generals I. Murata, F. Tanida, S. Iguchi, A. Saisho, K. Otani, S. Fujii, K. Akiyama & G. Nagaoka to Lieut.-Generals, and Colonels M. Kato, T. Kakizaki, K. Tachibana & S. Yokota to Major-Generals. — p. x ([scan leaf 58](https://archive.org/details/japan-year-book-1910/page/n58/mode/1up))
+
+**1909, Aug. 6** The Government announced to Chinese Government to proceed with the reconstruction of the Antung-Mukden Railway. — p. x ([scan leaf 58](https://archive.org/details/japan-year-book-1910/page/n58/mode/1up))
+
+**1909, Aug. 7** Training Squadron returned to Yokosuka. — p. x ([scan leaf 58](https://archive.org/details/japan-year-book-1910/page/n58/mode/1up))
+
+**1909, Aug. 10** The Tokyo Local Court's judgment on the sugar scandal M.P.'s. is confirmed at the Appeal Court. — p. x ([scan leaf 58](https://archive.org/details/japan-year-book-1910/page/n58/mode/1up))
+
+**1909, Aug. 10** Home Office issues regulations sternly forbidding all quasi-lottery affairs. — p. x ([scan leaf 58](https://archive.org/details/japan-year-book-1910/page/n58/mode/1up))
+
+**1909, Aug. 12** The Bank of Japan lowered the rate of interest. — p. x ([scan leaf 58](https://archive.org/details/japan-year-book-1910/page/n58/mode/1up))
+
+**1909, Aug. 14** Earthquake in Omi & Mino prefectures, 1,912 houses destroyed and 199 persons killed or wounded. — p. x ([scan leaf 58](https://archive.org/details/japan-year-book-1910/page/n58/mode/1up))
+
+**1909, Aug. 17** Businessmen going to America on invitation are honored by the Emperor with luncheon at the Shiba palace. — p. x ([scan leaf 58](https://archive.org/details/japan-year-book-1910/page/n58/mode/1up))
+
+**1909, Aug. 18** The Oriental Exploitation Co. established. Supplementary Agreement of the Kirin-Chang-chung Rly. loan signed. Count Futara dies. — p. x ([scan leaf 58](https://archive.org/details/japan-year-book-1910/page/n58/mode/1up))
+
+**1909, Aug. 19** The Japanese Businessmen start for America. — p. x ([scan leaf 58](https://archive.org/details/japan-year-book-1910/page/n58/mode/1up))
+
+**1909, Aug. 19** The Antung-Mukden Rly. convention signed. — p. x ([scan leaf 58](https://archive.org/details/japan-year-book-1910/page/n58/mode/1up))
+
+**1909, Aug. 20** Epxlosion of the Hirakata magazine near Osaka, destroying many houses. — p. x ([scan leaf 58](https://archive.org/details/japan-year-book-1910/page/n58/mode/1up))
+
+**1909, Aug. 22** The Emperor & Empress grant Yen 1,50[illegible] as relief to the sufferers by the late earthquake in Omi and Mino prefectures. — p. x ([scan leaf 58](https://archive.org/details/japan-year-book-1910/page/n58/mode/1up))
+
+**1909, Aug. 23** Korean Crown Prince returns to Tokyo. — p. x ([scan leaf 58](https://archive.org/details/japan-year-book-1910/page/n58/mode/1up))
+
+**1909, Aug. 26** The Airship Investigation Committee appointed. — p. x ([scan leaf 58](https://archive.org/details/japan-year-book-1910/page/n58/mode/1up))
+
+
+## Earthquakes, Volcanoes and Mineral Springs — [Most disastrous seismic calamities recorded in the pre-Tokugawa period]
+
+**684 A.D.** Over 500,000 cho in southern part of Tosa subsided and engulfed by the sea. — p. 10 ([scan leaf 77](https://archive.org/details/japan-year-book-1910/page/n77/mode/1up))
+
+**869 A.D.** Earthquakes with tidal waves visited Mutsu and thousands of people killed. — p. 10 ([scan leaf 77](https://archive.org/details/japan-year-book-1910/page/n77/mode/1up))
+
+**1361 A.D.** Earthquakes in districts. round about Kyoto. — p. 10 ([scan leaf 77](https://archive.org/details/japan-year-book-1910/page/n77/mode/1up))
+
+**1498 A.D.** Tokaido was visited by a severe earthquake, causing death of over 20,000 persons. Hamana Lagoon (Maizaka station, Tokaido Railway) formerly inland lake, was formed. — p. 10 ([scan leaf 77](https://archive.org/details/japan-year-book-1910/page/n77/mode/1up))
+
+**1596 A.D.** Bungo, Kyushu, was visited and 700 persons killed. — p. 10 ([scan leaf 77](https://archive.org/details/japan-year-book-1910/page/n77/mode/1up))
+
+**1596 A.D.** Districts round about Kyoto shaken and 2,000 persons killed. — p. 10 ([scan leaf 77](https://archive.org/details/japan-year-book-1910/page/n77/mode/1up))
