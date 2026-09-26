@@ -193,7 +193,7 @@ def landing(cards):
                 dls.append((dl(b["slug"], suf), name))
         dlhtml = ('<div class="src">Download: ' + " · ".join(f'<a href="{u}" download>{t}</a>' for u, t in dls) + "</div>") if dls else ""
         items.append(f"""<article><h2>{html.escape(b["title"])}</h2><div class="pub">{html.escape(b["publisher"])}</div>
-<div class="stat">{stat}</div><div class="src">{html.escape(b["source"])}{item}</div>{dlhtml}<div class="links">{about}{link}</div>{dlg}</article>""")
+<div class="stat">{stat}</div><div class="src">LLM-transcribed{item}</div>{dlhtml}<div class="links">{about}{link}</div>{dlg}</article>""")
     return LANDING.replace("__CARDS__", "\n".join(items))
 
 
