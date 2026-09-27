@@ -231,14 +231,14 @@ def main():
         n, c = len(tables), cells(tables)
         chapters = len({t.get("chapter") for t in tables})
         if tables:
-            os.makedirs(os.path.join(HERE, b["slug"]), exist_ok=True)
+            os.makedirs(os.path.join(HERE, "book", b["slug"]), exist_ok=True)
             clean = [{k: v for k, v in t.items() if k not in ("file",)} for t in tables]
             with open(os.path.join(HERE, "data", b["slug"] + ".json"), "w", encoding="utf-8") as fh:
                 json.dump(clean, fh, ensure_ascii=False, indent=1)
             data = json.dumps(clean, ensure_ascii=False).replace("</", "<\\/")
             doc = (TEMPLATE.replace("__DATA__", data).replace("__COUNT__", str(n))
                    .replace("__HIDEIMG__", "true" if b.get("hide_images") else "false")
-                   .replace("__XLSX__", f' · <a href="../{dl(b["slug"], "tables.xlsx")}" style="color:inherit" download>Excel</a>' if dl(b["slug"], "tables.xlsx") else "")
+                   .replace("__XLSX__", f' · <a href="../../{dl(b["slug"], "tables.xlsx")}" style="color:inherit" download>Excel</a>' if dl(b["slug"], "tables.xlsx") else "")
                    .replace("__CELLS__", f"{c:,}").replace("__BOOK__", html.escape(b["title"]))
                    .replace("__SLUG__", b["slug"]).replace("__SOURCE__", "LLM-transcribed")
                    .replace("__DIRLINK__", ('<a class="dirbtn" href="directory.html">Directories</a>' if b.get("_dir_n") else "")
@@ -246,7 +246,7 @@ def main():
                             + (f'<button class="aboutbtn" onclick="document.getElementById(\'about\').showModal()">About</button>'
                                f'<dialog id="about" onclick="if(event.target===this)this.close()"><h3>{html.escape(b["title"])}</h3><div class="pub">{html.escape(b["publisher"])}</div>'
                                f'<p>{html.escape(b["gaps"])}</p><form method="dialog"><button>Close</button></form></dialog>' if b.get("gaps") else "")))
-            with open(os.path.join(HERE, b["slug"], "index.html"), "w", encoding="utf-8") as fh:
+            with open(os.path.join(HERE, "book", b["slug"], "index.html"), "w", encoding="utf-8") as fh:
                 fh.write(doc)
         cards.append((b, n, c, chapters))
         print(f"{b['slug']}: {n} tables, {c:,} cells")
@@ -263,16 +263,16 @@ def landing(cards):
         stat = (f"<b>{n}</b> tables · <b>{c:,}</b> cells · {ch} chapters" if n else "<i>transcription in progress</i>")
         if n and b.get("in_progress"):
             stat += " · <i>transcription in progress</i>"
-        link = f'<a class="go dirgo" href="{b["slug"]}/">Tables →</a>' if n else ""
+        link = f'<a class="go dirgo" href="book/{b["slug"]}/">Tables →</a>' if n else ""
         if b.get("_dir_n"):
             stat += f' · <b>{b["_dir_n"]:,}</b> directory entries' + (" (in progress)" if b.get("dir_in_progress") else "")
-            link += f' <a class="go dirgo" href="{b["slug"]}/directory.html">Directories →</a>'
+            link += f' <a class="go dirgo" href="book/{b["slug"]}/directory.html">Directories →</a>'
         if b.get("_chron_n"):
             stat += f' · <b>{b["_chron_n"]:,}</b> chronology events'
-            link += f' <a class="go dirgo" href="{b["slug"]}/chronology.html">Chronologies →</a>'
+            link += f' <a class="go dirgo" href="book/{b["slug"]}/chronology.html">Chronologies →</a>'
         item = f' · <a href="{b["item"]}">original scan</a>' if b.get("item") else ""
         grp = "japan" if b["slug"].startswith("japan") else "china" if b["slug"].startswith("china") else "other"
-        title = f'<a href="{b["slug"]}/" style="color:inherit;text-decoration:none">{html.escape(b["title"])}</a>' if n else html.escape(b["title"])
+        title = f'<a href="book/{b["slug"]}/" style="color:inherit;text-decoration:none">{html.escape(b["title"])}</a>' if n else html.escape(b["title"])
         items.append((grp, f"""<article><h2>{title}</h2><div class="pub">{html.escape(b["publisher"])}</div>
 <div class="stat">{stat}</div><div class="src">LLM-transcribed{item}</div><div class="links">{link}</div></article>"""))
     order = {"far-east": 0, "manchoukuo": 1, "korea": 2}
@@ -396,8 +396,8 @@ dialog{max-width:min(560px,calc(100vw - 32px));border:1px solid var(--line);bord
 </style>
 </head>
 <body>
-<header><a href="../" style="text-decoration:none;font-size:14px">← All books</a><h1>__BOOK__</h1>
-<span class="meta">__COUNT__ tables · __CELLS__ cells · __SOURCE__ · <a href="../data/__SLUG__.json" style="color:inherit">JSON</a>__XLSX__</span>
+<header><a href="../../" style="text-decoration:none;font-size:14px">← All books</a><h1>__BOOK__</h1>
+<span class="meta">__COUNT__ tables · __CELLS__ cells · __SOURCE__ · <a href="../../data/__SLUG__.json" style="color:inherit">JSON</a>__XLSX__</span>
 __DIRLINK__<button id="toggle" title="Toggle light/dark">◐</button></header>
 <div id="wrap">
 <nav id="side"><div class="ctl">
@@ -558,7 +558,7 @@ def build_directory(book):
                             "l": scan["label"], "u": scan["url"]})
     if not entries:
         return 0
-    os.makedirs(os.path.join(HERE, book["slug"]), exist_ok=True)
+    os.makedirs(os.path.join(HERE, "book", book["slug"]), exist_ok=True)
     with open(os.path.join(HERE, "data", book["slug"] + "-directory.json"), "w", encoding="utf-8") as fh:
         json.dump(entries, fh, ensure_ascii=False, indent=1)
     data = json.dumps(entries, ensure_ascii=False).replace("</", "<\\/")
@@ -566,8 +566,8 @@ def build_directory(book):
     doc = (DIRTEMPLATE.replace("__DATA__", data).replace("__COUNT__", f"{len(entries):,}").replace("__DESC__", html.escape(desc))
            .replace("__BOOK__", html.escape(book["title"])).replace("__SLUG__", book["slug"])
            .replace("__PROG__", " · <i>transcription in progress</i>" if book.get("dir_in_progress") else "")
-           .replace("__MD__", f' · <a href="../{dl(book["slug"], "directory.md")}" download>Markdown</a>' if dl(book["slug"], "directory.md") else ""))
-    with open(os.path.join(HERE, book["slug"], "directory.html"), "w", encoding="utf-8") as fh:
+           .replace("__MD__", f' · <a href="../../{dl(book["slug"], "directory.md")}" download>Markdown</a>' if dl(book["slug"], "directory.md") else ""))
+    with open(os.path.join(HERE, "book", book["slug"], "directory.html"), "w", encoding="utf-8") as fh:
         fh.write(doc)
     print(f"{book['slug']}: {len(entries)} directory entries")
     return len(entries)
@@ -590,7 +590,7 @@ def build_chronology(book):
                            "p": e.get("page") or ", ".join(c.get("printed_pages") or []), "l": scan["label"], "u": scan["url"]})
     if not events:
         return 0
-    os.makedirs(os.path.join(HERE, book["slug"]), exist_ok=True)
+    os.makedirs(os.path.join(HERE, "book", book["slug"]), exist_ok=True)
     with open(os.path.join(HERE, "data", book["slug"] + "-chronology.json"), "w", encoding="utf-8") as fh:
         json.dump(events, fh, ensure_ascii=False, indent=1)
     data = json.dumps(events, ensure_ascii=False).replace("</", "<\\/")
@@ -600,9 +600,9 @@ def build_chronology(book):
            .replace("· Directories", "· Chronologies").replace("-directory.json", "-chronology.json")
            .replace(" entries", " events").replace("Filter names, places, firms, words…", "Filter dates, names, places, words…")
            .replace("> names only<", "> dates only<").replace("These entries were", "These events were")
-           .replace("__MD__", f' · <a href="../{dl(book["slug"], "chronology.md")}" download>Markdown</a>' if dl(book["slug"], "chronology.md") else "")
+           .replace("__MD__", f' · <a href="../../{dl(book["slug"], "chronology.md")}" download>Markdown</a>' if dl(book["slug"], "chronology.md") else "")
            .replace("__DESC__", html.escape(f"{len(events):,} events" + section_summary((e["a"].split(" — ")[-1] for e in events), last=True))))
-    with open(os.path.join(HERE, book["slug"], "chronology.html"), "w", encoding="utf-8") as fh:
+    with open(os.path.join(HERE, "book", book["slug"], "chronology.html"), "w", encoding="utf-8") as fh:
         fh.write(doc)
     print(f"{book['slug']}: {len(events)} chronology events")
     return len(events)
@@ -640,8 +640,8 @@ mark{background:#f3e3a0;color:inherit}
 #more{display:block;margin:14px auto}#more[hidden]{display:none}
 .llmwarn{margin:24px 0 8px;padding:12px 14px;border:1px solid var(--warn);border-left:4px solid var(--warn);background:var(--panel);font-size:14px}
 </style></head><body>
-<header><a href="./" style="text-decoration:none;font-size:14px">← Tables</a><a href="../" style="text-decoration:none;font-size:14px">All books</a><h1>__BOOK__ · Directories</h1>
-<span class="meta">__DESC____PROG__ · LLM-transcribed · <a href="../data/__SLUG__-directory.json">JSON</a>__MD__</span>
+<header><a href="./" style="text-decoration:none;font-size:14px">← Tables</a><a href="../../" style="text-decoration:none;font-size:14px">All books</a><h1>__BOOK__ · Directories</h1>
+<span class="meta">__DESC____PROG__ · LLM-transcribed · <a href="../../data/__SLUG__-directory.json">JSON</a>__MD__</span>
 <button id="toggle" title="Toggle light/dark">◐</button></header>
 <div class="bar"><div>
 <input id="q" type="search" placeholder="Filter names, places, firms, words…" autofocus>
@@ -746,10 +746,10 @@ function tablesHTML(res,terms){const by={};res.slice(0,LIMIT).forEach(x=>(by[x.b
  BOOKS.forEach(b=>{const xs=by[b.slug];if(!xs)return;h+=`<div class="bk">${esc(b.title)} · ${xs.length}</div>`;
   xs.forEach(x=>{const t=x.t;const lab=(t.table_no?`Table ${t.table_no}. `:"")+(t.title||"");
    const hits=x.rows.filter(r=>terms.some(w=>norm(r.join(" ")).includes(w))).slice(0,3);
-   h+=`<div class="r"><a class="t" href="${b.slug}/#${encodeURIComponent(t.id)}">${hl(lab,terms)}</a><div class="m">${esc(t.chapter||"")} · p. ${esc((t.printed_pages||[]).join(", "))}${(t.scans||[])[0]&&t.scans[0].url?` · <a href="${t.scans[0].url}" target="_blank" rel="noopener">scan</a>`:""}</div>`+
+   h+=`<div class="r"><a class="t" href="book/${b.slug}/#${encodeURIComponent(t.id)}">${hl(lab,terms)}</a><div class="m">${esc(t.chapter||"")} · p. ${esc((t.printed_pages||[]).join(", "))}${(t.scans||[])[0]&&t.scans[0].url?` · <a href="${t.scans[0].url}" target="_blank" rel="noopener">scan</a>`:""}</div>`+
     (hits.length?`<div class="snip">${hits.map(r=>`<div>${r.map(c=>hl(c,terms)).join(" · ")}</div>`).join("")}</div>`:"")+`</div>`})});return h}
 function entriesHTML(res,terms,page,q){const by={};res.slice(0,LIMIT).forEach(x=>(by[x.b.slug]=by[x.b.slug]||[]).push(x));let h="";
- BOOKS.forEach(b=>{const xs=by[b.slug];if(!xs)return;h+=`<div class="bk">${esc(b.title)} · ${xs.length} · <a href="${b.slug}/${page}#${new URLSearchParams({q}).toString()}">open in book</a></div>`;
+ BOOKS.forEach(b=>{const xs=by[b.slug];if(!xs)return;h+=`<div class="bk">${esc(b.title)} · ${xs.length} · <a href="book/${b.slug}/${page}#${new URLSearchParams({q}).toString()}">open in book</a></div>`;
   xs.forEach(({e})=>{h+=`<div class="r"><b>${hl(e.n,terms)}</b> <span class="snip">${hl(e.t,terms)}</span><div class="m">${esc(e.a)}${e.s?" — "+esc(e.s):""} · p. ${esc(e.p)}${e.u?` · <a href="${e.u}" target="_blank" rel="noopener">${esc(e.l)}</a>`:e.l?" · "+esc(e.l):""}</div></div>`})});return h}
 const match=(xs,terms)=>xs.filter(x=>terms.every(w=>x.all.includes(w)));
 const count=(n,one,many)=>`${n.toLocaleString()} ${n===1?one:many}${n>LIMIT?` (showing ${LIMIT})`:""}`;

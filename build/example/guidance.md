@@ -8,7 +8,7 @@ transcription.
 ## 1. Where things live
 
 - **This repo** holds the build scripts (`build/build_site.py`, `build/build_downloads.py`) and the generated site:
-  `index.html`, `search.html`, one folder per book (`<slug>/index.html`, `directory.html`, `chronology.html`),
+  `index.html`, `search.html`, one folder per book (`book/<slug>/index.html`, `directory.html`, `chronology.html`),
   `data/<slug>*.json` and `downloads/<slug>-*`.
 - **Transcriptions live outside the repo**, in a book folder next to it:
   `<BookFolder>/_work/tables/*.json`, `…/directory/*.json` and `…/chronology/*.json`. `build/build_site.py` reads
@@ -59,7 +59,7 @@ Follow these steps.
    Otherwise other books may resolve to the wrong folder and be rebuilt empty, or from the wrong data.
 4. **Build**: `uv run --with openpyxl build/build_downloads.py`, then `python3 build/build_site.py`.
 5. **Commit only your own files.**
-   - Commit: your `BOOKS` entry (one block in `build/build_site.py`), your README row, `<slug>/`, `data/<slug>*.json`
+   - Commit: your `BOOKS` entry (one block in `build/build_site.py`), your README row, `book/<slug>/`, `data/<slug>*.json`
      and `downloads/<slug>-*`.
    - Revert everything else the build touched, such as other books' data or pages, `index.html` and
      `search.html`: `git checkout -- <path>`. Check `git status` and `git diff --stat` before committing; the
