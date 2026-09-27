@@ -87,8 +87,9 @@ BOOKS = [
      "publisher": "H. T. Montague Bell and H. G. W. Woodhead (eds.); London: George Routledge & Sons; New York: E. P. Dutton & Co.",
      "blurb": "The first edition of the English-language reference book on China, compiled during the 1911 Revolution.",
      "source": "LLM-transcribed from a scan of the printed volume.",
-     "gaps": "Transcribed from a Google scan of the University of Minnesota copy, which is not online at the Internet Archive, so the tables have no scan links. The scan repeats a run of pages (PDF pages 349–382 duplicate earlier ones); no printed pages are missing. Numbered legal clauses (the Constitution, court and loan regulations, opium agreements) are prose and not transcribed. The mines and companies, the per-railway 'Further Details' and the Government Institutions at Peking are on the Who's Who & Directories page. Many printed totals do not add up; the figures are kept as printed and each table's notes say where.",
-     "hide_images": True, "scan": None},
+     "gaps": "Transcribed from a Google scan of the University of Minnesota copy. The scan repeats a run of pages (PDF pages 349–382 duplicate earlier ones); no printed pages are missing. Numbered legal clauses (the Constitution, court and loan regulations, opium agreements) are prose and not transcribed. The mines and companies, the per-railway 'Further Details' and the Government Institutions at Peking are on the Who's Who & Directories page. Many printed totals do not add up; the figures are kept as printed and each table's notes say where.",
+     "scan": "https://archive.org/details/china-year-book-1912/page/n{leaf}/mode/1up",
+     "item": "https://archive.org/details/china-year-book-1912"},
     {"slug": "china-1922", "dir": "China_Year_Book_1922", "title": "The China Year Book 1921-2",
      "publisher": "H. G. W. Woodhead (ed.), H. T. Montague Bell (assoc. ed.); Tientsin: Tientsin Press",
      "blurb": "The Peking-government-era edition of the English-language reference book on China, covering population, geography, trade, finance, loans, currency, communications, defence, education, Greater China, opium, the customs tariff, the government and a Who's Who.",
@@ -189,6 +190,11 @@ def main():
     for b in BOOKS:
         b["_dir_n"] = build_directory(b)
         b["_chron_n"] = build_chronology(b)
+        for key, kind in (("_dir_n", "directory"), ("_chron_n", "chronology")):
+            committed = os.path.join(HERE, "data", f'{b["slug"]}-{kind}.json')
+            if not b[key] and os.path.exists(committed):  # folder not on this machine: keep the committed page
+                with open(committed, encoding="utf-8") as fh:
+                    b[key] = len(json.load(fh))
         tables = load(b)
         if not tables:  # book folder not on this machine: keep the committed data rather than dropping the book
             committed = os.path.join(HERE, "data", b["slug"] + ".json")
