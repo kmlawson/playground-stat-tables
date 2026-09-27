@@ -101,6 +101,15 @@ BOOKS = [
      "gaps": "The scan is missing printed pp. 444–445 (so Industry and Labor Table 18 is lost) and pp. lii–liii of the Chinese Who's Who. The legal texts (constitutions, laws, regulations) are transcribed only where they contain tables or lists; numbered articles are prose. The book's Contents, Index and folding map of China are not transcribed. The Associations and Societies chapter and the Chinese Who's Who are on the Who's Who & Directories page; the Kuomintang chronology and the Chronology of Major Events, 1937–1943, are on the Chronologies page. Many printed totals do not add up; the figures are kept as printed and each table's notes say where.",
      "scan": "https://archive.org/details/china-handbook-1937-1943/China%20Handbook%201937-1943%20Part%20{part}%20of%205/page/n{leaf}/mode/1up",
      "item": "https://archive.org/details/china-handbook-1937-1943"},
+    {"slug": "china-1950", "dir": "China_Handbook_1950",
+     "root": os.environ.get("CHINA_1950_ROOT"),
+     "title": "China Handbook 1950",
+     "publisher": "China Handbook Editorial Board; New York: Rockport Press, 1950",
+     "blurb": "The Nationalist government's reference book compiled after its retreat to Taiwan: geography, the provinces, history and a chronology to 1949, government, defence, parties, foreign affairs, the economy, communications, education, health, relief and a Who's Who.",
+     "source": "LLM-transcribed from the Internet Archive scan (three parts, two-page spreads).",
+     "gaps": "The scan is complete: every printed page from the front matter to p. 786 is present. The contents pages and the index (pp. 787–799) are not transcribed, and neither are running prose, maps and charts without figures. Treaties, agreements, laws, constitutions and statements (much of chapters 6–13, 27 and 31) are prose; only tables and lists printed inside them are transcribed. Each province's summary block (area, population, hsien, capital) in chapter 2 is given as a small table. The Who's Who (chapter 36) is on the Who's Who & Directories page and the Chronology of Major Events, 1911–1949 (chapter 5), on the Chronologies page. Many figures in the tables are printed out of line with their row labels; they were matched by counting, and each table's notes say where. Many printed totals do not add up; the figures are kept as printed and each table's notes say where.",
+     "scan": "https://archive.org/details/china-handbook-1950/China%20Handbook%201950%20Part%20{part}%20of%203/page/n{leaf}/mode/1up",
+     "item": "https://archive.org/details/china-handbook-1950"},
 ]
 
 
