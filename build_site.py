@@ -183,6 +183,14 @@ def main():
         b["_dir_n"] = build_directory(b)
         b["_chron_n"] = build_chronology(b)
         tables = load(b)
+        if not tables:  # book folder not on this machine: keep the committed data rather than dropping the book
+            committed = os.path.join(HERE, "data", b["slug"] + ".json")
+            if os.path.exists(committed):
+                with open(committed, encoding="utf-8") as fh:
+                    tables = json.load(fh)
+                for t in tables:
+                    t["file"] = t["id"] + ".json"
+                print(f"{b['slug']}: no tables in {book_dir(b)}; using committed data/{b['slug']}.json")
         for t in tables:
             t["scans"] = scan_links(b, t)
         n, c = len(tables), cells(tables)
