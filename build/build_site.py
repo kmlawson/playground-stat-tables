@@ -378,6 +378,11 @@ tr.sec td:first-child{font-weight:bold;font-style:italic}
 .tbl{padding-bottom:22px;margin-bottom:26px;border-bottom:2px solid var(--line)}
 .chhead{font-size:13px;letter-spacing:.06em;text-transform:uppercase;color:var(--accent);margin:0 0 4px}
 .chsum{color:var(--muted);font-size:14px;margin-bottom:18px}
+.chgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:10px;max-width:1000px}
+.chbtn{display:block;padding:10px 12px;border:1px solid var(--line);border-radius:6px;background:var(--panel);color:var(--ink);text-decoration:none}
+.chbtn:hover{border-color:var(--accent);background:var(--hi)}
+.chbtn small{display:block;color:var(--muted);font-size:12px;margin-top:2px}
+.chhead a{color:inherit}
 .tbl h2 a{color:inherit;text-decoration:none}
 .keys{font-size:12px;color:var(--muted)}
 .llmwarn{margin:24px 0 8px;padding:12px 14px;border:1px solid var(--warn);border-left:4px solid var(--warn);background:var(--panel);color:var(--ink);font-size:14px}
@@ -445,11 +450,15 @@ const LLMWARN=`<div class="llmwarn" role="note"><b>Warning:</b> These tables wer
 function filtered(){const q=$("#q").value.trim().toLowerCase(),ch=$("#ch").value,fl=$("#flag").checked;
  return T.filter(t=>(!ch||(t.chapter||"(no chapter)")===ch)&&(!fl||t._warn)&&(!q||q.split(/\s+/).every(w=>t._text.includes(w))))}
 let mode="one",cur=null;
+function showHome(){mode="home";cur=null;const n={};T.forEach(t=>{const c=t.chapter||"(no chapter)";n[c]=(n[c]||0)+1});
+ $("#main").innerHTML=`<div class="chhead">Contents</div><h2 style="margin-bottom:6px">Chapters</h2><div class="chsum">${T.length} table${T.length===1?"":"s"} in ${chapters.length} chapter${chapters.length===1?"":"s"}. Choose a chapter, or pick a single table from the list.</div><div class="chgrid">`+
+  chapters.map(c=>`<a class="chbtn" href="#ch=${encodeURIComponent(c)}">${esc(c)}<small>${n[c]} table${n[c]===1?"":"s"}</small></a>`).join("")+`</div>`+LLMWARN;
+ $("#main").scrollTop=0;mark()}
 function showOne(id){const t=T.find(x=>x.id===id)||T[0];if(!t){$("#main").innerHTML="<p>No tables yet.</p>";return}
  mode="one";cur=t.id;$("#main").innerHTML=tableHTML(t,$("#q").value.trim())+LLMWARN;$("#main").scrollTop=0;
  document.querySelectorAll("#main table").forEach(initSort);mark()}
 function showChapter(ch){const q=$("#q").value.trim();const ts=filtered();mode="chapter";cur=null;
- let h=`<div class="chhead">Chapter</div><h2 style="margin-bottom:6px">${esc(ch)}</h2><div class="chsum">${ts.length} table${ts.length===1?"":"s"}${$("#flag").checked||q?" matching the current filters":""}</div>`;
+ let h=`<div class="chhead"><a href="#">All chapters</a> · Chapter</div><h2 style="margin-bottom:6px">${esc(ch)}</h2><div class="chsum">${ts.length} table${ts.length===1?"":"s"}${$("#flag").checked||q?" matching the current filters":""}</div>`;
  h+=(ts.map(t=>tableHTML(t,q)).join("")||"<p>No tables match.</p>")+LLMWARN;
  $("#main").innerHTML=h;$("#main").scrollTop=0;document.querySelectorAll("#main table").forEach(initSort);
  if(enterAt&&ts.length){const t=enterAt==="first"?ts[0]:ts[ts.length-1];cur=t.id;const el=document.getElementById("t-"+t.id);if(el&&enterAt==="last")el.scrollIntoView({block:"start"});
@@ -459,7 +468,8 @@ let enterAt=null;
 function route(){const h=decodeURIComponent(location.hash.slice(1));
  if(h.startsWith("ch=")){const ch=h.slice(3);if($("#ch").value!==ch){$("#ch").value=ch;renderList()}showChapter(ch);return}
  if(mode==="chapter"&&h&&document.getElementById("t-"+h)){cur=h;document.getElementById("t-"+h).scrollIntoView({block:"start"});mark();return}
- showOne(h||(T[0]&&T[0].id))}
+ if(!h){if($("#ch").value){$("#ch").value="";renderList()}if(T.length){showHome();return}}
+ showOne(h)}
 $("#main").addEventListener("click",e=>{const b=e.target.closest("button[data-act]");if(!b)return;const t=T.find(x=>x.id===b.dataset.id);if(!t)return;
  if(b.dataset.act==="dl"){const bl=new Blob(["﻿"+csv(t)],{type:"text/csv"});const a=document.createElement("a");a.href=URL.createObjectURL(bl);a.download=t.id+".csv";a.click()}
  else navigator.clipboard.writeText((t.parts||[]).map(p=>[p.columns,...p.rows].map(r=>r.join("\t")).join("\n")).join("\n\n"))});
@@ -502,7 +512,7 @@ function initSort(tbl){const ths=[...tbl.querySelectorAll("th.sortable")];
   out.forEach(r=>tb.appendChild(r))}))}
 function mark(){const id=cur||decodeURIComponent(location.hash.slice(1));document.querySelectorAll("#list a").forEach(a=>a.classList.toggle("on",a.getAttribute("href")==="#"+id))}
 $("#ch").addEventListener("input",()=>{renderList();const ch=$("#ch").value;
- if(ch)location.hash="ch="+encodeURIComponent(ch);else{history.replaceState(null,"",location.pathname);showOne(T[0]&&T[0].id)}});
+ if(ch)location.hash="ch="+encodeURIComponent(ch);else{history.replaceState(null,"",location.pathname);showHome()}});
 ["q","flag"].forEach(k=>$("#"+k).addEventListener("input",()=>{renderList();if(mode==="chapter")showChapter($("#ch").value)}));
 window.addEventListener("hashchange",route);
 $("#toggle").onclick=()=>{const r=document.documentElement,d=r.dataset.theme==="dark"||(!r.dataset.theme&&matchMedia("(prefers-color-scheme: dark)").matches);r.dataset.theme=d?"light":"dark"};
