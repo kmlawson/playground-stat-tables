@@ -203,11 +203,14 @@ def main():
             data = json.dumps(clean, ensure_ascii=False).replace("</", "<\\/")
             doc = (TEMPLATE.replace("__DATA__", data).replace("__COUNT__", str(n))
                    .replace("__HIDEIMG__", "true" if b.get("hide_images") else "false")
-                   .replace("__XLSX__", f' · <a href="../{dl(b["slug"], "tables.xlsx")}" style="color:inherit" download>Excel (one sheet per table)</a>' if dl(b["slug"], "tables.xlsx") else "")
+                   .replace("__XLSX__", f' · <a href="../{dl(b["slug"], "tables.xlsx")}" style="color:inherit" download>Excel</a>' if dl(b["slug"], "tables.xlsx") else "")
                    .replace("__CELLS__", f"{c:,}").replace("__BOOK__", html.escape(b["title"]))
-                   .replace("__SLUG__", b["slug"]).replace("__SOURCE__", html.escape(b["source"]))
-                   .replace("__DIRLINK__", (f'<a class="dirbtn" href="directory.html">{html.escape(b.get("dir_label", "Who\'s Who & Directories"))} · {b["_dir_n"]:,} entries →</a>' if b.get("_dir_n") else "")
-                            + (f'<a class="dirbtn" href="chronology.html">Chronologies · {b["_chron_n"]:,} events →</a>' if b.get("_chron_n") else "")))
+                   .replace("__SLUG__", b["slug"]).replace("__SOURCE__", "LLM-transcribed")
+                   .replace("__DIRLINK__", ('<a class="dirbtn" href="directory.html">Directories</a>' if b.get("_dir_n") else "")
+                            + ('<a class="dirbtn" href="chronology.html">Chronologies</a>' if b.get("_chron_n") else "")
+                            + (f'<button class="aboutbtn" onclick="document.getElementById(\'about\').showModal()">About</button>'
+                               f'<dialog id="about" onclick="if(event.target===this)this.close()"><h3>{html.escape(b["title"])}</h3><div class="pub">{html.escape(b["publisher"])}</div>'
+                               f'<p>{html.escape(b["gaps"])}</p><form method="dialog"><button>Close</button></form></dialog>' if b.get("gaps") else "")))
             with open(os.path.join(HERE, b["slug"], "index.html"), "w", encoding="utf-8") as fh:
                 fh.write(doc)
         cards.append((b, n, c, chapters))
@@ -225,27 +228,23 @@ def landing(cards):
         stat = (f"<b>{n}</b> tables · <b>{c:,}</b> cells · {ch} chapters" if n else "<i>transcription in progress</i>")
         if n and b.get("in_progress"):
             stat += " · <i>transcription in progress</i>"
-        link = f'<a class="go dirgo" href="{b["slug"]}/">Browse tables →</a>' if n else ""
+        link = f'<a class="go dirgo" href="{b["slug"]}/">Tables →</a>' if n else ""
         if b.get("_dir_n"):
             stat += f' · <b>{b["_dir_n"]:,}</b> directory entries' + (" (in progress)" if b.get("dir_in_progress") else "")
-            link += f' <a class="go dirgo" href="{b["slug"]}/directory.html">{html.escape(b.get("dir_label", "Who's Who & Directories"))} →</a>'
+            link += f' <a class="go dirgo" href="{b["slug"]}/directory.html">Directories →</a>'
         if b.get("_chron_n"):
             stat += f' · <b>{b["_chron_n"]:,}</b> chronology events'
             link += f' <a class="go dirgo" href="{b["slug"]}/chronology.html">Chronologies →</a>'
         item = f' · <a href="{b["item"]}">original scan</a>' if b.get("item") else ""
-        about, dlg = "", ""
-        if b.get("gaps") and n:
-            about = f'<button class="about" data-about="about-{b["slug"]}">About this volume</button>'
-            dlg = (f'<dialog id="about-{b["slug"]}"><h3>{html.escape(b["title"])}</h3><div class="pub">{html.escape(b["publisher"])}</div>'
-                   f'<p>{html.escape(b["gaps"])}</p><form method="dialog"><button>Close</button></form></dialog>')
-        dls = [(f"data/{b['slug']}.json", "JSON")] if n else []
-        for suf, name in (("tables.xlsx", "Excel"), ("directory.md", "Directory (Markdown)"), ("chronology.md", "Chronology (Markdown)")):
-            if dl(b["slug"], suf):
-                dls.append((dl(b["slug"], suf), name))
-        dlhtml = ('<div class="src">Download: ' + " · ".join(f'<a href="{u}" download>{t}</a>' for u, t in dls) + "</div>") if dls else ""
-        items.append(f"""<article><h2>{html.escape(b["title"])}</h2><div class="pub">{html.escape(b["publisher"])}</div>
-<div class="stat">{stat}</div><div class="src">LLM-transcribed{item}</div>{dlhtml}<div class="links">{about}{link}</div>{dlg}</article>""")
-    return LANDING.replace("__CARDS__", "\n".join(items))
+        grp = "japan" if b["slug"].startswith("japan") else "china" if b["slug"].startswith("china") else "other"
+        items.append((grp, f"""<article><h2>{html.escape(b["title"])}</h2><div class="pub">{html.escape(b["publisher"])}</div>
+<div class="stat">{stat}</div><div class="src">LLM-transcribed{item}</div><div class="links">{link}</div></article>"""))
+    order = {"far-east": 0, "manchoukuo": 1, "korea": 2}
+    other = sorted([(i, h) for i, (g, h) in enumerate(items) if g == "other"],
+                   key=lambda x: next((v for k, v in order.items() if k in x[1]), 9))
+    grids = "".join(f'<div class="grid" id="g-{g}">' + "\n".join(h for gg, h in items if gg == g) + "</div>" for g in ("japan", "china"))
+    grids += '<div class="grid" id="g-other">' + "\n".join(h for _, h in other) + "</div>"
+    return LANDING.replace("__CARDS__", grids)
 
 
 LANDING = r"""<!DOCTYPE html>
@@ -272,13 +271,13 @@ a{color:var(--accent)}.go{font-size:15px;text-decoration:none;font-weight:bold}.
 footer{margin-top:24px;font-size:13px;color:var(--muted);border-top:1px solid var(--line);padding-top:14px}
 </style></head><body><div class="band"><div>
 <h1>East Asian Statistical Tables, 1929–1942</h1>
-<p class="lede">Every statistical table in English-language official yearbooks on Japan and its empire, LLM-transcribed cell by cell from page images. The figures are kept exactly as printed, including the printers' errors. Where a printed total does not add up, a transcriber's note says so, and figures that could not be read are left blank.</p>
-<p style="margin:18px 0 0"><a class="searchbtn" href="search.html">Search all books: tables &amp; directories →</a></p>
+<p style="margin:18px 0 0"><a class="searchbtn" href="search.html">Full Search</a></p>
 </div></div>
 <main>
-<div class="grid">
+<div id="groups">
 __CARDS__
 </div>
+<script>if(Math.random()<.5){const g=document.getElementById("groups");g.insertBefore(document.getElementById("g-china"),document.getElementById("g-japan"))}</script>
 <div class="llmwarn" role="note"><b>Warning:</b> These tables were transcribed by the vision model of Opus 5.5. Before using any of these figures, you must verify specific statistics with the original source which is linked to whenever possible.</div>
 <script>document.addEventListener("click",e=>{const b=e.target.closest("[data-about]");if(b){document.getElementById(b.dataset.about).showModal();return}
 if(e.target.tagName==="DIALOG")e.target.close()});</script>
@@ -347,7 +346,9 @@ tr.sec td:first-child{font-weight:bold;font-style:italic}
 .scan a img{height:160px;border:1px solid var(--line)}
 mark{background:var(--hi);color:inherit}
 #toggle{margin-left:auto}
-.dirbtn{margin-left:auto;background:var(--accent-ink);color:var(--accent)!important;opacity:1!important;font-weight:bold;font-size:14px;padding:6px 14px;border-radius:5px;text-decoration:none;align-self:center}.dirbtn:hover{filter:brightness(.93)}.dirbtn+#toggle,.dirbtn+.dirbtn{margin-left:0}
+.dirbtn{margin-left:auto;background:var(--accent-ink);color:var(--accent)!important;opacity:1!important;font-weight:bold;font-size:14px;padding:6px 14px;border-radius:5px;text-decoration:none;align-self:center}.dirbtn:hover{filter:brightness(.93)}.dirbtn+#toggle,.dirbtn+.dirbtn,.dirbtn+.aboutbtn{margin-left:0}
+.aboutbtn{margin-left:auto;font:inherit;font-size:14px;background:transparent;color:var(--accent-ink);border:1px solid currentColor;border-radius:5px;padding:5px 12px;cursor:pointer;align-self:center}.aboutbtn+#toggle{margin-left:0}
+dialog{max-width:min(560px,calc(100vw - 32px));border:1px solid var(--line);border-top:4px solid var(--accent);background:var(--panel);color:var(--ink);padding:18px 20px;border-radius:6px;font-size:14.5px}dialog::backdrop{background:rgba(0,0,0,.45)}dialog h3{margin:0 0 2px;font-weight:normal;font-size:19px}dialog .pub{color:var(--muted);font-size:13px}dialog form button{font:inherit;font-size:14px;background:var(--accent);color:var(--accent-ink);border:0;border-radius:5px;padding:6px 14px;cursor:pointer}
 @media (max-width:760px){#wrap{grid-template-columns:minmax(0,1fr);height:auto}#side,#main{min-width:0;max-width:100vw}#list a{overflow-wrap:anywhere}.tw{max-height:none}header{padding:12px 16px}header h1{font-size:18px}.dirbtn{margin-left:0}#side{border-right:0;border-bottom:1px solid var(--line)}#list{max-height:40vh}#main{padding:14px 16px}}
 </style>
 </head>
@@ -476,6 +477,21 @@ def dir_key(f):
     return int(m.group(1)) if m else 0
 
 
+def section_summary(names, last=False):
+    """': A, B, C.' from appendix/chapter names, shortened to their top-level part, at most four."""
+    parts = []
+    for a in names:
+        a = re.sub(r"^(Appendix|App\.|Chapter|Ch\.|Table)\s*[A-Z0-9]+\s*[:.—-]\s*", "", a or "").strip()
+        if not last:
+            a = re.split(r" — |: ", a)[0]
+        a = a.strip("[] .")
+        if a and a not in parts:
+            parts.append(a)
+    if not parts:
+        return "."
+    return ": " + ", ".join(parts[:4]) + (", etc." if len(parts) > 4 else ".")
+
+
 def build_directory(book):
     """Write <slug>/directory.html from <dir>/_work/directory/*.json; return the entry count."""
     files = sorted(glob.glob(os.path.join(book_dir(book), "_work", "directory", "*.json")), key=dir_key)
@@ -502,7 +518,8 @@ def build_directory(book):
     with open(os.path.join(HERE, "data", book["slug"] + "-directory.json"), "w", encoding="utf-8") as fh:
         json.dump(entries, fh, ensure_ascii=False, indent=1)
     data = json.dumps(entries, ensure_ascii=False).replace("</", "<\\/")
-    doc = (DIRTEMPLATE.replace("__DATA__", data).replace("__COUNT__", f"{len(entries):,}")
+    desc = f"{len(entries):,} entries" + section_summary(e["a"] for e in entries)
+    doc = (DIRTEMPLATE.replace("__DATA__", data).replace("__COUNT__", f"{len(entries):,}").replace("__DESC__", html.escape(desc))
            .replace("__BOOK__", html.escape(book["title"])).replace("__SLUG__", book["slug"])
            .replace("__PROG__", " · <i>transcription in progress</i>" if book.get("dir_in_progress") else "")
            .replace("__MD__", f' · <a href="../{dl(book["slug"], "directory.md")}" download>Markdown</a>' if dl(book["slug"], "directory.md") else ""))
@@ -539,7 +556,8 @@ def build_chronology(book):
            .replace("· Directories", "· Chronologies").replace("-directory.json", "-chronology.json")
            .replace(" entries", " events").replace("Filter names, places, firms, words…", "Filter dates, names, places, words…")
            .replace("> names only<", "> dates only<").replace("These entries were", "These events were")
-           .replace("__MD__", f' · <a href="../{dl(book["slug"], "chronology.md")}" download>Markdown</a>' if dl(book["slug"], "chronology.md") else ""))
+           .replace("__MD__", f' · <a href="../{dl(book["slug"], "chronology.md")}" download>Markdown</a>' if dl(book["slug"], "chronology.md") else "")
+           .replace("__DESC__", html.escape(f"{len(events):,} events" + section_summary((e["a"].split(" — ")[-1] for e in events), last=True))))
     with open(os.path.join(HERE, book["slug"], "chronology.html"), "w", encoding="utf-8") as fh:
         fh.write(doc)
     print(f"{book['slug']}: {len(events)} chronology events")
@@ -579,7 +597,7 @@ mark{background:#f3e3a0;color:inherit}
 .llmwarn{margin:24px 0 8px;padding:12px 14px;border:1px solid var(--warn);border-left:4px solid var(--warn);background:var(--panel);font-size:14px}
 </style></head><body>
 <header><a href="./" style="text-decoration:none;font-size:14px">← Tables</a><a href="../" style="text-decoration:none;font-size:14px">All books</a><h1>__BOOK__ · Directories</h1>
-<span class="meta">__COUNT__ entries__PROG__ · LLM-transcribed · <a href="../data/__SLUG__-directory.json">JSON</a>__MD__</span>
+<span class="meta">__DESC____PROG__ · LLM-transcribed · <a href="../data/__SLUG__-directory.json">JSON</a>__MD__</span>
 <button id="toggle" title="Toggle light/dark">◐</button></header>
 <div class="bar"><div>
 <input id="q" type="search" placeholder="Filter names, places, firms, words…" autofocus>
