@@ -256,8 +256,11 @@ def landing(cards):
     order = {"far-east": 0, "manchoukuo": 1, "korea": 2}
     other = sorted([(i, h) for i, (g, h) in enumerate(items) if g == "other"],
                    key=lambda x: next((v for k, v in order.items() if k in x[1]), 9))
-    grids = "".join(f'<div class="grid" id="g-{g}">' + "\n".join(h for gg, h in items if gg == g) + "</div>" for g in ("japan", "china"))
-    grids += '<div class="grid" id="g-other">' + "\n".join(h for _, h in other) + "</div>"
+    names = {"japan": "Japan", "china": "China", "other": "Other"}
+    body = {g: "\n".join(h for gg, h in items if gg == g) for g in ("japan", "china")}
+    body["other"] = "\n".join(h for _, h in other)
+    grids = "".join(f'<section class="grp" id="{g}"><h2 class="grph">{names[g]}</h2><div class="grid">{body[g]}</div></section>'
+                    for g in ("japan", "china", "other"))
     return LANDING.replace("__CARDS__", grids)
 
 
@@ -271,6 +274,8 @@ LANDING = r"""<!DOCTYPE html>
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 Georgia,"Times New Roman",serif}
 .band{background:var(--accent);color:var(--accent-ink)}.band>div{max-width:980px;margin:0 auto;padding:34px 16px 30px}.band h1{font-weight:normal;font-size:30px;margin:0 0 8px}.band .lede{color:var(--accent-ink);opacity:.9;margin:0}
 main{max-width:980px;margin:0 auto;padding:26px 16px 60px}
+.jump{margin:14px 0 0;display:flex;gap:8px;flex-wrap:wrap}.jump a{display:inline-block;border:1px solid var(--accent-ink);color:var(--accent-ink);padding:6px 16px;border-radius:5px;text-decoration:none;font-size:15px}.jump a:hover{background:var(--accent-ink);color:var(--accent)}
+.grp{scroll-margin-top:12px}.grp{border-top:2px solid var(--line);margin-top:34px;padding-top:6px}.grp:first-child{margin-top:4px}.grph{font-size:14px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);margin:18px 0 0;font-weight:bold}.grp .grid{margin-top:14px}
 .searchbtn{display:inline-block;background:var(--accent-ink);color:var(--accent);font-weight:bold;padding:9px 16px;border-radius:5px;text-decoration:none;font-size:15px}
 .lede{color:var(--muted);max-width:720px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px;margin-top:28px}
 article{background:var(--panel);border:1px solid var(--line);border-top:3px solid var(--accent);padding:18px 18px 16px;display:flex;flex-direction:column}
@@ -286,12 +291,14 @@ footer{margin-top:24px;font-size:13px;color:var(--muted);border-top:1px solid va
 </style></head><body><div class="band"><div>
 <h1>East Asian Statistical Tables, 1929–1942</h1>
 <p style="margin:18px 0 0"><a class="searchbtn" href="search.html">Full Search</a></p>
+<nav class="jump" id="jump"><a href="#japan" id="j-japan">Japan</a><a href="#china" id="j-china">China</a><a href="#other">Other</a></nav>
 </div></div>
 <main>
 <div id="groups">
 __CARDS__
 </div>
-<script>if(Math.random()<.5){const g=document.getElementById("groups");g.insertBefore(document.getElementById("g-china"),document.getElementById("g-japan"))}</script>
+<script>if(Math.random()<.5){const g=document.getElementById("groups");g.insertBefore(document.getElementById("china"),document.getElementById("japan"));
+const n=document.getElementById("jump");n.insertBefore(document.getElementById("j-china"),document.getElementById("j-japan"))}</script>
 <div class="llmwarn" role="note"><b>Warning:</b> These tables were transcribed by the vision model of Opus 5.5. Before using any of these figures, you must verify specific statistics with the original source which is linked to whenever possible.</div>
 <script>document.addEventListener("click",e=>{const b=e.target.closest("[data-about]");if(b){document.getElementById(b.dataset.about).showModal();return}
 if(e.target.tagName==="DIALOG")e.target.close()});</script>
