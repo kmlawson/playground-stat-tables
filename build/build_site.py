@@ -468,8 +468,10 @@ tr.sec td:first-child{font-weight:bold;font-style:italic}
 .xl{font-size:13.5px;margin:4px 0 12px;color:var(--muted);line-height:1.9}
 .xl a{color:var(--accent)}
 .xlc a{margin-right:12px;white-space:nowrap}
-.xlo{display:inline-flex;align-items:center;gap:6px;margin:0 8px 0 0;border:1px solid var(--line);border-radius:5px;padding:0 3px 0 8px;background:var(--panel);white-space:nowrap;line-height:1.7}
-.cmpb{font-size:12px;padding:0 7px;border-radius:4px}
+.xlo{display:inline-flex;align-items:stretch;margin:2px 8px 2px 0;border:1px solid var(--line);border-radius:5px;background:var(--panel);white-space:nowrap;line-height:1.7;overflow:hidden;vertical-align:middle}
+.xlo a{padding:1px 9px;display:flex;align-items:center}
+.cmpb{font-size:12px;padding:1px 9px;border:0;border-left:1px solid var(--line);border-radius:0;background:var(--hi);color:var(--ink)}
+.cmpb:hover{background:var(--accent);color:var(--accent-ink)}
 .xln{font-style:italic;line-height:1.4;margin-top:2px}
 #cmp{overflow:auto;padding:18px 22px;border-left:1px solid var(--line);min-width:0;background:var(--panel)}
 #cmp .cmphead{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-bottom:12px}
@@ -546,7 +548,7 @@ function xlChapter(ch){const L=XL.ch[ch];if(!L)return "";
  return `<div class="xl xlc">`+L.map(x=>`<div>${L.length>1?esc(x.t)+" in other editions":"This chapter in other editions"}: `+
   x.o.map(o=>o.c.map(c=>`<a href="../${o.s}/#ch=${encodeURIComponent(c)}">${esc(o.e)}${o.c.length>1?" · "+esc(c):""}</a>`).join("")).join("")+`</div>`).join("")+`</div>`}
 function xlTable(t){const x=XL.tb[t.id];if(!x||!x.o.length)return "";const g=[];x.o.forEach(o=>{const l=g.find(z=>z.s===o.s);if(l)l.n++;else g.push({...o,n:1})});
- return `<div class="xl">Same table in other editions: `+g.map(o=>{const lab=o.e+(o.n>1?` (${o.n} parts)`:"");
+ return `<div class="xl">Similar table in other editions: `+g.map(o=>{const lab=o.e+(o.n>1?` (${o.n} parts)`:"");
   return `<span class="xlo"><a href="../${o.s}/#${encodeURIComponent(o.id)}" title="${esc(o.t)}">${esc(lab)}</a><button class="cmpb" data-cmp="${o.s}/${esc(o.id)}" data-for="${esc(t.id)}" title="Show the ${esc(o.e)} table side by side">Compare</button></span>`}).join("")+
   (x.n?`<div class="xln">${esc(x.n)}</div>`:"")+`</div>`}
 // Side-by-side comparison with a table from another edition (loaded from ../../data/<slug>.json)
@@ -600,7 +602,8 @@ function route(){const h=decodeURIComponent(location.hash.slice(1));
  showOne(h)}
 $("#main").addEventListener("click",e=>{const c=e.target.closest("button.cmpb");
  if(c){const v=c.dataset.cmp,i=v.indexOf("/");cmpS=v.slice(0,i);cmpId=v.slice(i+1);cmpJump=true;
-  if(mode==="one"&&cur===c.dataset.for)showCmp();else if(decodeURIComponent(location.hash.slice(1))===c.dataset.for)showOne(c.dataset.for);else location.hash=c.dataset.for;return}
+  // open the single-table view directly: in chapter view a hash change would only scroll to the table
+  if(mode==="one"&&cur===c.dataset.for)showCmp();else{if(decodeURIComponent(location.hash.slice(1))!==c.dataset.for)history.pushState(null,"","#"+c.dataset.for);showOne(c.dataset.for)}return}
  const b=e.target.closest("button[data-act]");if(!b)return;const t=T.find(x=>x.id===b.dataset.id);if(t)act(b,t)});
 function act(b,t){
  if(b.dataset.act==="dl"){const bl=new Blob(["﻿"+csv(t)],{type:"text/csv"});const a=document.createElement("a");a.href=URL.createObjectURL(bl);a.download=t.id+".csv";a.click()}
@@ -744,6 +747,8 @@ def build_chronology(book):
            .replace("> names only<", "> dates only<").replace("These entries were", "These events were")
            .replace("__MD__", f' · <a href="../../{dl(book["slug"], "chronology.md")}" download>Markdown</a>' if dl(book["slug"], "chronology.md") else "")
            .replace("__DESC__", html.escape(f"{len(events):,} events" + section_summary((e["a"].split(" — ")[-1] for e in events), last=True))))
+    if book["slug"].startswith("japan-"):
+        doc = doc.replace('<main><div id="out">', '<main><p style="margin:0 0 14px;font-size:15px">See also <a style="color:var(--accent)" href="https://froginawell.net/reference/empire-chronicle/">Chronicles of the Japanese Empire</a>.</p><div id="out">', 1)
     with open(os.path.join(HERE, "book", book["slug"], "chronology.html"), "w", encoding="utf-8") as fh:
         fh.write(doc)
     print(f"{book['slug']}: {len(events)} chronology events")
