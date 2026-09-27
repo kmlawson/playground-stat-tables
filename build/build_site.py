@@ -207,13 +207,86 @@ def scan_links(book, t):
     return out
 
 
+def edition(book):
+    m = re.search(r"(\d{4}(?:\s*[-–]\s*\d{1,4})?)", book["title"])
+    return re.sub(r"\s*[-–]\s*", "–", m.group(1)) if m else book["title"]
+
+
+def crosslinks(all_tables):
+    """Links between editions of one series: build/crosslinks/chapters.py (hand-made chapter topics) and
+    build/crosslinks/families/*.json (recurring tables). Returns {slug: {"ch": ..., "tb": ...}} for the book pages."""
+    import importlib.util
+    f = os.path.join(SCRIPTS, "crosslinks", "chapters.py")
+    out = {b: {"ch": {}, "tb": {}} for b in all_tables}
+    if not os.path.exists(f):
+        return out
+    spec = importlib.util.spec_from_file_location("xl_chapters", f)
+    mod = importlib.util.module_from_spec(spec); spec.loader.exec_module(mod)
+    ed = {b["slug"]: edition(b) for b in BOOKS}
+    for series in mod.SERIES.values():
+        for topic, members in series["topics"].items():
+            present = [b for b in series["books"] if b in members and b in all_tables]
+            if len(present) < 2:
+                continue
+            for b in present:
+                for chap in members[b]:
+                    others = [{"s": o, "e": ed[o], "c": members[o]} for o in present if o != b]
+                    out[b]["ch"].setdefault(chap, []).append({"t": topic, "o": others})
+    byid = {(b, t["id"]): t for b, ts in all_tables.items() for t in ts}
+    fams = []
+    for ff in sorted(glob.glob(os.path.join(SCRIPTS, "crosslinks", "families", "*.json"))):
+        with open(ff, encoding="utf-8") as fh:
+            for fam in json.load(fh).get("families", []):
+                mem = []
+                for m in fam.get("members", []):
+                    b, _, tid = m.partition("/")
+                    if (b, tid) in byid:
+                        mem.append((b, tid))
+                    else:
+                        print(f"crosslinks: {os.path.basename(ff)}: unknown table {m}")
+                fams.append({"label": fam.get("label", ""), "note": fam.get("note", ""), "mem": mem})
+    # a chapter under two topics can put one table in two families: merge families that share a table
+    owner = {}
+    for i, fam in enumerate(fams):
+        for key in fam["mem"]:
+            if key in owner and owner[key] != i:
+                j = owner[key]
+                while "into" in fams[j]:
+                    j = fams[j]["into"]
+                if j != i:
+                    for k2 in fams[i]["mem"]:
+                        if k2 not in fams[j]["mem"]:
+                            fams[j]["mem"].append(k2)
+                    if fam["note"] and fam["note"] not in fams[j]["note"]:
+                        fams[j]["note"] = (fams[j]["note"] + " " + fam["note"]).strip()
+                    fam["into"] = j
+                    for k2 in fams[j]["mem"]:
+                        owner[k2] = j
+                break
+            owner[key] = i
+    order = {s: i for i, s in enumerate(x["slug"] for x in BOOKS)}
+    for fam in fams:
+        if "into" in fam:
+            continue
+        mem = fam["mem"]
+        if len({b for b, _ in mem}) < 2:
+            continue
+        mem.sort(key=lambda x: (ed[x[0]], order[x[0]]))
+        for b, tid in mem:
+            out[b]["tb"][tid] = {"f": fam["label"], "n": fam["note"],
+                                 "o": [{"s": o, "e": ed[o], "id": oid, "t": byid[(o, oid)].get("title") or "",
+                                  "p": ", ".join(byid[(o, oid)].get("printed_pages") or [])}
+                                       for o, oid in mem if o != b]}
+    return out
+
+
 def cells(tables):
     return sum(len(r) for t in tables for p in t.get("parts", []) for r in p.get("rows", []))
 
 
 def main():
     os.makedirs(os.path.join(HERE, "data"), exist_ok=True)
-    cards = []
+    cards, pages = [], []
     for b in BOOKS:
         b["_dir_n"] = build_directory(b)
         b["_chron_n"] = build_chronology(b)
@@ -236,12 +309,18 @@ def main():
         n, c = len(tables), cells(tables)
         chapters = len({t.get("chapter") for t in tables})
         if tables:
-            os.makedirs(os.path.join(HERE, "book", b["slug"]), exist_ok=True)
             clean = [{k: v for k, v in t.items() if k not in ("file",)} for t in tables]
             with open(os.path.join(HERE, "data", b["slug"] + ".json"), "w", encoding="utf-8") as fh:
                 json.dump(clean, fh, ensure_ascii=False, indent=1)
+            pages.append((b, clean, n, c))
+        cards.append((b, n, c, chapters))
+        print(f"{b['slug']}: {n} tables, {c:,} cells")
+    xl = crosslinks({b["slug"]: clean for b, clean, n, c in pages})
+    for b, clean, n, c in pages:
+            os.makedirs(os.path.join(HERE, "book", b["slug"]), exist_ok=True)
             data = json.dumps(clean, ensure_ascii=False).replace("</", "<\\/")
             doc = (TEMPLATE.replace("__DATA__", data).replace("__COUNT__", str(n))
+                   .replace("__XL__", json.dumps(xl[b["slug"]], ensure_ascii=False).replace("</", "<\\/"))
                    .replace("__HIDEIMG__", "true" if b.get("hide_images") else "false")
                    .replace("__XLSX__", f' · <a href="../../{dl(b["slug"], "tables.xlsx")}" style="color:inherit" download>Excel</a>' if dl(b["slug"], "tables.xlsx") else "")
                    .replace("__CELLS__", f"{c:,}").replace("__BOOK__", html.escape(b["title"]))
@@ -253,8 +332,6 @@ def main():
                                f'<p>{html.escape(b["gaps"])}</p><form method="dialog"><button>Close</button></form></dialog>' if b.get("gaps") else "")))
             with open(os.path.join(HERE, "book", b["slug"], "index.html"), "w", encoding="utf-8") as fh:
                 fh.write(doc)
-        cards.append((b, n, c, chapters))
-        print(f"{b['slug']}: {n} tables, {c:,} cells")
     with open(os.path.join(HERE, "index.html"), "w", encoding="utf-8") as fh:
         fh.write(landing(cards))
     books = [{"slug": b["slug"], "title": b["title"], "dir": bool(b.get("_dir_n")), "chron": bool(b.get("_chron_n"))} for b, n, c, ch in cards if n]
@@ -388,6 +465,16 @@ tr.sec td:first-child{font-weight:bold;font-style:italic}
 .chbtn:hover{border-color:var(--accent);background:var(--hi)}
 .chbtn small{display:block;color:var(--muted);font-weight:normal;font-size:max(11px,.62em);margin-top:.2em}
 .chhead a{color:inherit}
+.xl{font-size:13.5px;margin:4px 0 12px;color:var(--muted);line-height:1.9}
+.xl a{color:var(--accent)}
+.xlc a{margin-right:12px;white-space:nowrap}
+.xlo{display:inline-flex;align-items:center;gap:6px;margin:0 8px 0 0;border:1px solid var(--line);border-radius:5px;padding:0 3px 0 8px;background:var(--panel);white-space:nowrap;line-height:1.7}
+.cmpb{font-size:12px;padding:0 7px;border-radius:4px}
+.xln{font-style:italic;line-height:1.4;margin-top:2px}
+#cmp{overflow:auto;padding:18px 22px;border-left:1px solid var(--line);min-width:0;background:var(--panel)}
+#cmp .cmphead{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-bottom:12px}
+#cmp .cmphead select{flex:1;min-width:0}
+body.cmp #wrap{grid-template-columns:280px minmax(0,1fr) minmax(0,1fr)}
 .tbl h2 a{color:inherit;text-decoration:none}
 .keys{font-size:12px;color:var(--muted)}
 .llmwarn{margin:24px 0 8px;padding:12px 14px;border:1px solid var(--warn);border-left:4px solid var(--warn);background:var(--panel);color:var(--ink);font-size:14px}
@@ -402,7 +489,7 @@ mark{background:var(--hi);color:inherit}
 .ctx{max-width:760px;font-size:14.5px;line-height:1.55;margin:8px 0 12px;padding:9px 12px;border-left:3px solid var(--accent);background:var(--panel)}
 .aboutbtn{margin-left:auto;font:inherit;font-size:14px;background:transparent;color:var(--accent-ink);border:1px solid currentColor;border-radius:5px;padding:5px 12px;cursor:pointer;align-self:center}.aboutbtn+#toggle{margin-left:0}
 dialog{max-width:min(560px,calc(100vw - 32px));border:1px solid var(--line);border-top:4px solid var(--accent);background:var(--panel);color:var(--ink);padding:18px 20px;border-radius:6px;font-size:14.5px}dialog::backdrop{background:rgba(0,0,0,.45)}dialog h3{margin:0 0 2px;font-weight:normal;font-size:19px}dialog .pub{color:var(--muted);font-size:13px}dialog form button{font:inherit;font-size:14px;background:var(--accent);color:var(--accent-ink);border:0;border-radius:5px;padding:6px 14px;cursor:pointer}
-@media (max-width:760px){#wrap{grid-template-columns:minmax(0,1fr);height:auto}#side,#main{min-width:0;max-width:100vw}#list a{overflow-wrap:anywhere}.tw{max-height:none}header{padding:12px 16px}header h1{font-size:18px}.dirbtn{margin-left:0}#side{border-right:0;border-bottom:1px solid var(--line)}#list{max-height:40vh}#main{padding:14px 16px}.chgrid{gap:8px}.chbtn{padding:11px 13px}.chbtn small{font-size:12px}}
+@media (max-width:760px){#wrap,body.cmp #wrap{grid-template-columns:minmax(0,1fr);height:auto}#cmp{border-left:0;border-top:2px solid var(--accent);padding:14px 16px}#side,#main{min-width:0;max-width:100vw}#list a{overflow-wrap:anywhere}.tw{max-height:none}header{padding:12px 16px}header h1{font-size:18px}.dirbtn{margin-left:0}#side{border-right:0;border-bottom:1px solid var(--line)}#list{max-height:40vh}#main{padding:14px 16px}.chgrid{gap:8px}.chbtn{padding:11px 13px}.chbtn small{font-size:12px}}
 </style>
 </head>
 <body>
@@ -417,10 +504,12 @@ __DIRLINK__<button id="toggle" title="Toggle light/dark">◐</button></header>
 <span class="keys">↑ / ↓ keys: previous / next table</span>
 </div><div id="list"></div></nav>
 <main id="main"></main>
+<aside id="cmp" hidden></aside>
 </div>
 <script>
 const T=__DATA__;
 const HIDEIMG=__HIDEIMG__;
+const XL=__XL__;
 const $=s=>document.querySelector(s);
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const isNum=s=>/^[\s(]*[-—–]?[\d.,]+[)*%]*\s*$/.test(s)||/^[—–-]$/.test(s.trim())||s.trim()==="...";
@@ -438,7 +527,8 @@ function renderList(){const q=$("#q").value.trim().toLowerCase(),ch=$("#ch").val
 function hl(s,q){s=esc(s);if(!q)return s;q.split(/\s+/).filter(Boolean).forEach(w=>{s=s.replace(new RegExp("("+w.replace(/[.*+?^${}()|[\]\\]/g,"\\$&")+")","ig"),"<mark>$1</mark>")});return s}
 function csv(t){const L=[];(t.parts||[]).forEach(p=>{if(p.label)L.push([p.label]);L.push(p.columns);p.rows.forEach(r=>L.push(r));L.push([])});
  return L.map(r=>r.map(c=>/[",\n]/.test(c??"")?'"'+String(c).replace(/"/g,'""')+'"':(c??"")).join(",")).join("\n")}
-function tableHTML(t,q){let h=`<section class="tbl" id="t-${t.id}"><h2><a href="#${t.id}">${hl(label(t),q)}</a></h2><div class="sub">${esc(t.chapter||"")} · printed page${(t.printed_pages||[]).length>1?"s":""} ${esc((t.printed_pages||[]).join(", "))}${HIDEIMG?"":` · ${/^p\d/.test(t.image||"")?"scan leaf":"photo"} ${esc((t.images||[t.image]).join(", "))}`}</div>`;
+function tableHTML(t,q,other){let h=`<section class="tbl" id="t-${t.id}"><h2><a href="#${t.id}">${hl(label(t),q)}</a></h2><div class="sub">${esc(t.chapter||"")} · printed page${(t.printed_pages||[]).length>1?"s":""} ${esc((t.printed_pages||[]).join(", "))}${HIDEIMG?"":` · ${/^p\d/.test(t.image||"")?"scan leaf":"photo"} ${esc((t.images||[t.image]).join(", "))}`}</div>`;
+ if(!other)h+=xlTable(t);
  if(t.caption_extra)h+=`<div class="sub"><i>${hl(t.caption_extra,q)}</i></div>`;
  if(t.context)h+=`<p class="ctx"><b>Context.</b> ${hl(t.context,q)}</p>`;
  (t.parts||[]).forEach(p=>{if(p.label)h+=`<div class="part">${hl(p.label,q)}</div>`;
@@ -451,11 +541,36 @@ function tableHTML(t,q){let h=`<section class="tbl" id="t-${t.id}"><h2><a href="
  if(!HIDEIMG)h+=`<div class="sub">Source: ${(t.scans||[]).map(s=>s.url?`<a href="${s.url}" target="_blank" rel="noopener">${esc(s.label)}</a>`:esc(s.label)).join(", ")}</div>`;
  h+=`</section>`;
  return h}
+// Links to the same chapter / the same recurring table in other editions of the series
+function xlChapter(ch){const L=XL.ch[ch];if(!L)return "";
+ return `<div class="xl xlc">`+L.map(x=>`<div>${L.length>1?esc(x.t)+" in other editions":"This chapter in other editions"}: `+
+  x.o.map(o=>o.c.map(c=>`<a href="../${o.s}/#ch=${encodeURIComponent(c)}">${esc(o.e)}${o.c.length>1?" · "+esc(c):""}</a>`).join("")).join("")+`</div>`).join("")+`</div>`}
+function xlTable(t){const x=XL.tb[t.id];if(!x||!x.o.length)return "";const g=[];x.o.forEach(o=>{const l=g.find(z=>z.s===o.s);if(l)l.n++;else g.push({...o,n:1})});
+ return `<div class="xl">Same table in other editions: `+g.map(o=>{const lab=o.e+(o.n>1?` (${o.n} parts)`:"");
+  return `<span class="xlo"><a href="../${o.s}/#${encodeURIComponent(o.id)}" title="${esc(o.t)}">${esc(lab)}</a><button class="cmpb" data-cmp="${o.s}/${esc(o.id)}" data-for="${esc(t.id)}" title="Show the ${esc(o.e)} table side by side">Compare</button></span>`}).join("")+
+  (x.n?`<div class="xln">${esc(x.n)}</div>`:"")+`</div>`}
+// Side-by-side comparison with a table from another edition (loaded from ../../data/<slug>.json)
+const BOOKDATA={};let cmpS=null,cmpId=null,cmpT=null,cmpE="",cmpJump=false;
+function loadBook(s){return BOOKDATA[s]||(BOOKDATA[s]=fetch("../../data/"+s+".json").then(r=>{if(!r.ok)throw r.status;return r.json()}))}
+function closeCmp(){cmpS=cmpId=cmpT=null;document.body.classList.remove("cmp");$("#cmp").hidden=true;$("#cmp").innerHTML=""}
+async function showCmp(){if(!cmpS||mode!=="one"){closeCmp();return}
+ const pane=$("#cmp"),x=XL.tb[cur];document.body.classList.add("cmp");pane.hidden=false;
+ const opts=x?x.o:[];const ms=opts.filter(o=>o.s===cmpS);const pick=ms.find(o=>o.id===cmpId)||ms[0];
+ const head=`<div class="cmphead"><select id="cmpsel" aria-label="Compare with">${opts.map(o=>`<option value="${o.s}/${esc(o.id)}"${pick&&o.s===pick.s&&o.id===pick.id?" selected":""}>${esc(o.e)} — ${esc(o.t)}${o.p?` (p. ${esc(o.p.split(", ")[0])})`:""}</option>`).join("")}${pick?"":`<option selected>—</option>`}</select><button id="cmpx">Close ✕</button></div>`;
+ if(!pick){pane.innerHTML=head+`<p class="sub">${opts.length?`This table has no counterpart in the ${esc(cmpE)} edition; choose another edition above.`:"This table has no counterpart in other editions."}</p>`;return}
+ cmpId=pick.id;cmpE=pick.e;pane.innerHTML=head+`<p class="sub">Loading…</p>`;
+ try{const T2=await loadBook(pick.s);const t2=T2.find(z=>z.id===pick.id);if(!t2)throw 0;cmpT=t2;
+  if(cmpS!==pick.s||cmpId!==pick.id)return;
+  pane.innerHTML=head+`<div class="chhead">${esc(pick.e)} edition · <a href="../${pick.s}/#${encodeURIComponent(pick.id)}">open in that book</a></div>`+tableHTML(t2,"",true).replace(' id="t-',' data-x="');
+  pane.scrollTop=0;pane.querySelectorAll("table").forEach(initSort);if(innerWidth<=760&&cmpJump){cmpJump=false;pane.scrollIntoView({block:"start"})}}
+ catch(e){pane.innerHTML=head+`<p class="sub">Could not load that table (the page must be served from a web server).</p>`}}
+$("#cmp").addEventListener("change",e=>{if(e.target.id!=="cmpsel")return;const v=e.target.value,i=v.indexOf("/");cmpS=v.slice(0,i);cmpId=v.slice(i+1);showCmp()});
+$("#cmp").addEventListener("click",e=>{if(e.target.id==="cmpx"){closeCmp();return}const b=e.target.closest("button[data-act]");if(b&&cmpT)act(b,cmpT)});
 const LLMWARN=`<div class="llmwarn" role="note"><b>Warning:</b> These tables were transcribed by the vision model of Opus 5.5. Before using any of these figures, you must verify specific statistics with the original source which is linked to whenever possible.</div>`;
 function filtered(){const q=$("#q").value.trim().toLowerCase(),ch=$("#ch").value,fl=$("#flag").checked;
  return T.filter(t=>(!ch||(t.chapter||"(no chapter)")===ch)&&(!fl||t._warn)&&(!q||q.split(/\s+/).every(w=>t._text.includes(w))))}
 let mode="one",cur=null;
-function showHome(){mode="home";cur=null;const n={};T.forEach(t=>{const c=t.chapter||"(no chapter)";n[c]=(n[c]||0)+1});
+function showHome(){mode="home";cur=null;closeCmp();const n={};T.forEach(t=>{const c=t.chapter||"(no chapter)";n[c]=(n[c]||0)+1});
  $("#main").innerHTML=`<div class="chhead">Contents</div><h2 style="margin-bottom:6px">Chapters</h2><div class="chsum">${T.length} table${T.length===1?"":"s"} in ${chapters.length} chapter${chapters.length===1?"":"s"}. Choose a chapter, or pick a single table from the list.</div><div class="chgrid">`+
   chapters.map(c=>`<a class="chbtn" href="#ch=${encodeURIComponent(c)}">${esc(c)}<small>${n[c]} table${n[c]===1?"":"s"}</small></a>`).join("")+`</div>`+LLMWARN;
  $("#main").scrollTop=0;fitGrid();mark()}
@@ -469,9 +584,9 @@ function fitGrid(){const g=$(".chgrid");if(!g)return;g.style.removeProperty("--c
 let fitRaf=0;addEventListener("resize",()=>{if(mode!=="home")return;cancelAnimationFrame(fitRaf);fitRaf=requestAnimationFrame(fitGrid)});
 function showOne(id){const t=T.find(x=>x.id===id)||T[0];if(!t){$("#main").innerHTML="<p>No tables yet.</p>";return}
  mode="one";cur=t.id;$("#main").innerHTML=tableHTML(t,$("#q").value.trim())+LLMWARN;$("#main").scrollTop=0;
- document.querySelectorAll("#main table").forEach(initSort);mark()}
-function showChapter(ch){const q=$("#q").value.trim();const ts=filtered();mode="chapter";cur=null;
- let h=`<div class="chhead"><a href="#">All chapters</a> · Chapter</div><h2 style="margin-bottom:6px">${esc(ch)}</h2><div class="chsum">${ts.length} table${ts.length===1?"":"s"}${$("#flag").checked||q?" matching the current filters":""}</div>`;
+ document.querySelectorAll("#main table").forEach(initSort);mark();if(cmpS)showCmp()}
+function showChapter(ch){const q=$("#q").value.trim();const ts=filtered();mode="chapter";cur=null;closeCmp();
+ let h=`<div class="chhead"><a href="#">All chapters</a> · Chapter</div><h2 style="margin-bottom:6px">${esc(ch)}</h2><div class="chsum">${ts.length} table${ts.length===1?"":"s"}${$("#flag").checked||q?" matching the current filters":""}</div>`+xlChapter(ch);
  h+=(ts.map(t=>tableHTML(t,q)).join("")||"<p>No tables match.</p>")+LLMWARN;
  $("#main").innerHTML=h;$("#main").scrollTop=0;document.querySelectorAll("#main table").forEach(initSort);
  if(enterAt&&ts.length){const t=enterAt==="first"?ts[0]:ts[ts.length-1];cur=t.id;const el=document.getElementById("t-"+t.id);if(el&&enterAt==="last")el.scrollIntoView({block:"start"});
@@ -483,9 +598,13 @@ function route(){const h=decodeURIComponent(location.hash.slice(1));
  if(mode==="chapter"&&h&&document.getElementById("t-"+h)){cur=h;document.getElementById("t-"+h).scrollIntoView({block:"start"});mark();return}
  if(!h){if($("#ch").value){$("#ch").value="";renderList()}if(T.length){showHome();return}}
  showOne(h)}
-$("#main").addEventListener("click",e=>{const b=e.target.closest("button[data-act]");if(!b)return;const t=T.find(x=>x.id===b.dataset.id);if(!t)return;
+$("#main").addEventListener("click",e=>{const c=e.target.closest("button.cmpb");
+ if(c){const v=c.dataset.cmp,i=v.indexOf("/");cmpS=v.slice(0,i);cmpId=v.slice(i+1);cmpJump=true;
+  if(mode==="one"&&cur===c.dataset.for)showCmp();else if(decodeURIComponent(location.hash.slice(1))===c.dataset.for)showOne(c.dataset.for);else location.hash=c.dataset.for;return}
+ const b=e.target.closest("button[data-act]");if(!b)return;const t=T.find(x=>x.id===b.dataset.id);if(t)act(b,t)});
+function act(b,t){
  if(b.dataset.act==="dl"){const bl=new Blob(["﻿"+csv(t)],{type:"text/csv"});const a=document.createElement("a");a.href=URL.createObjectURL(bl);a.download=t.id+".csv";a.click()}
- else navigator.clipboard.writeText((t.parts||[]).map(p=>[p.columns,...p.rows].map(r=>r.join("\t")).join("\n")).join("\n\n"))});
+ else navigator.clipboard.writeText((t.parts||[]).map(p=>[p.columns,...p.rows].map(r=>r.join("\t")).join("\n")).join("\n\n"))}
 $("#list").addEventListener("click",e=>{const c=e.target.closest(".ch");if(!c)return;location.hash="ch="+encodeURIComponent(c.textContent)});
 // Up/Down arrows: previous/next table in the sidebar list (ignored while typing in a field)
 document.addEventListener("keydown",e=>{if(e.key!=="ArrowDown"&&e.key!=="ArrowUp")return;if(e.altKey||e.ctrlKey||e.metaKey)return;

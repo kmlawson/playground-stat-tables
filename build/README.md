@@ -42,3 +42,15 @@ In the browser, any column can be sorted by clicking its header (click again to 
 To rebuild: `uv run --with openpyxl build/build_downloads.py` (Excel workbooks and Markdown directories in `downloads/`), then `python3 build/build_site.py`. `build/build_site.py` regenerates the pages from the per-table JSON files. It builds every book, including the Far East Year Book 1941 (read from its own folder), plus the directory, chronology and cross-book search pages.
 
 Adding a book from another session: see [build/example/guidance.md](example/guidance.md) (how to post a branch without clashing and how to run the transcription), [build/example/BRIEF.md](example/BRIEF.md) (template brief for the transcription agents) and [build/example/MISSION.md](example/MISSION.md) (template for short sub-agent missions). [CLAUDE.md](CLAUDE.md) summarises the workflow for Claude sessions.
+
+## Links between editions
+
+Book pages link each chapter, and each recurring table, to the same chapter or table in other editions of the same
+series (Japan Year Book; China Year Book; China Handbook — never across series), with a side-by-side Compare view.
+
+- `build/crosslinks/chapters.py`: hand-made map of matching chapters (topics) per series.
+- `build/crosslinks/families/*.json`: groups of the same recurring table across editions, one file per topic, made by
+  Claude sub-agents from table titles, captions, column headings and row labels (`listings/`, `prompts/`,
+  `missions.md`). Families sharing a table are merged at build time.
+- Adding a new edition: add it to its series in `chapters.py`, regenerate the listings for its topics and re-run the
+  matching for those topics.

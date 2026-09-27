@@ -1,0 +1,24 @@
+You are matching recurring statistical tables across editions of the same yearbook series, so a website can link "the same table" between editions and show them side by side.
+
+Working folder: /Volumes/Oma/Yale Backup/To Process/The Manchoukuo Year Book 1942/stat-tables-site/build/crosslinks
+Your mission X19 covers these listing files (in listings/): china-handbook--prices.txt, china-handbook--public-health-and-medicine.txt, china-handbook--the-press.txt, china-handbook--relief.txt
+
+Each listing holds every table in one topic (a set of matching chapters) from each edition, one line per table:
+  slug | id | chapter | printed pages | title | caption | column headings | first-column row labels
+If a line is not enough to decide, you may look up the full table in ../../data/<slug>.json (a list of tables; match on "id") with a short python3 script. Work only from these JSON/text files; there are no scans to look at and no OCR is involved.
+
+TASK. For each listing, group tables that are THE SAME RECURRING TABLE printed in different editions:
+- same subject AND the same kind of breakdown (e.g. "population by prefecture", "imports by country", "budget revenue by item", "births/deaths/marriages by year") AND comparable measures. The years covered, units, wording of the title, column order and number of rows may differ. A time-series updated in a later edition is the same table.
+- NOT the same: merely the same broad subject with a different breakdown (imports by country vs imports by commodity), a different sub-population (silk vs tea exports), a different region (Tokyo vs Osaka), or a different unit of analysis. Lists of officials/names for different dates count as the same table only if they list the same office/body (e.g. "Members of the Cabinet").
+- A family must contain tables from at least TWO different editions. Include one table per edition where possible; include two or more from one edition only when that edition split the same table into pieces (continuations, part 1/part 2, same series split by year range).
+- A table belongs to at most one family. Leave out tables with no counterpart. Be conservative: a wrong link is worse than a missing one. Do not force matches.
+- Label each family with a short neutral name (e.g. "Population by prefecture", "Foreign trade by country").
+
+OUTPUT. For each listing file X.txt write families/X.json (valid JSON, UTF-8):
+{"listing": "X", "families": [
+  {"label": "Birth-rates by year", "members": ["japan-1905/p0043_3", "japan-1910/p0101_2", "japan-1930/p0077_1"], "note": ""}
+]}
+members are "<slug>/<id>" strings, copied exactly from the listing, ordered by edition. Use "note" only for something a reader should know (e.g. "1930 gives rates per 1,000 instead of per 100"). If a listing has no families, write {"listing": "X", "families": []}.
+Validate each file with python3 -c "import json;json.load(open('families/X.json'))" after writing it.
+
+When done, reply with one line per listing: name, number of families, number of tables linked. Nothing else.
