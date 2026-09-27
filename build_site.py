@@ -74,8 +74,8 @@ BOOKS = [
      "publisher": "Manchoukuo Year Book Co., Hsinking, 1942",
      "blurb": "Official English-language yearbook of Manchukuo: geography, population, finance, banking, trade, agriculture, mining, industry, transport, labour, education and more.",
      "source": "LLM-transcribed from 498 photographs of the printed volume (two-page spreads).",
-     "gaps": "Pages 502–503 (Mining) and 966–967 (Index) were not photographed. Gaps in table numbering (e.g. Agriculture Tables 2–3 and 11–17) are in the printed book itself.",
-     "scan": None, "hide_images": True,
+     "gaps": "The online Internet Archive copy is the same set of photographs, cropped and in greyscale, so the scan links open the same spread; it lacks our photograph of pp. 8–9, and splits a few front-matter spreads into single pages. Pages 502–503 (Mining) and 966–967 (Index) were not photographed. Gaps in table numbering (e.g. Agriculture Tables 2–3 and 11–17) are in the printed book itself.",
+     "scan": "https://archive.org/details/manchoukuo-yearbook-1942/page/n{leaf}/mode/1up",
      "item": "https://archive.org/details/manchoukuo-yearbook-1942"},
     {"slug": "far-east-1941", "root": os.environ.get("FAR_EAST_ROOT") or os.path.join(os.path.dirname(ROOT), "The Far East Year Book 1941"),
      "title": "The Far East Year Book 1941",
@@ -165,6 +165,17 @@ def load(book):
     return tables
 
 
+_LEAFMAPS = {}
+
+
+def leafmap(book):
+    """Optional leafmaps/<slug>.json: {"IMG_5451": 10, ...} for books transcribed from photos whose online scan is numbered differently."""
+    if book["slug"] not in _LEAFMAPS:
+        f = os.path.join(HERE, "leafmaps", book["slug"] + ".json")
+        _LEAFMAPS[book["slug"]] = json.load(open(f, encoding="utf-8")) if os.path.exists(f) else None
+    return _LEAFMAPS[book["slug"]]
+
+
 def scan_links(book, t):
     ims = t.get("images") or [t.get("image")]
     out = []
@@ -173,6 +184,13 @@ def scan_links(book, t):
         if book["scan"] and mp:
             part, leaf = int(mp.group(1)), int(mp.group(2))
             out.append({"label": f"scan part {part}, leaf {leaf}", "url": book["scan"].format(part=part, leaf=leaf)})
+            continue
+        lm = leafmap(book)
+        if book["scan"] and lm is not None and im in lm:  # photo names mapped to the online scan's leaves
+            if lm[im] is None:
+                out.append({"label": f"photo {im} (not in the online scan)", "url": None})
+            else:
+                out.append({"label": f"scan leaf {lm[im]}", "url": book["scan"].format(leaf=lm[im])})
             continue
         m = re.match(r"p(\d+)$", im or "")
         if book["scan"] and m:
