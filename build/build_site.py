@@ -84,7 +84,8 @@ BOOKS = [
      "blurb": "Japan, its colonies (Chosen, Taiwan, Karafuto, the South Sea Islands), Manchoukuo and occupied China, with shorter sections on the Philippines, French Indo-China, Thailand, British Malaya, the Netherlands East Indies and British Borneo.",
      "source": "LLM-transcribed from 581 photographs of the printed volume (two-page spreads).",
      "gaps": "Printed pp. 394–395 (Japan, Chemical and Ceramic Industries; Chemical Tables 11–16) were not photographed. One spread (pp. 1118–1119) was photographed twice; the duplicate is ignored. Numbering gaps are in the printed book: Arts and Crafts cites Tables 6–8 but prints only 1–7, and Japan Labor has no Table 11 and two Tables 15. The National Defence Army Districts table is printed in two places (pp. 101 and 111) and is merged here. Maps, charts without figures and running prose are not transcribed. The China railways descriptions and similar name-and-paragraph lists are on the Who's Who & Directories page. Many printed totals do not add up; the figures are kept as printed and each table's notes say where.",
-     "hide_images": True, "scan": None,
+     "scan": "https://archive.org/details/far-east-year-book-1941/{partname}/page/n{leaf}/mode/1up",
+     "scan_parts": {1: "Far%20East%20Year%20Book%201941%20Part%201%20Japan", 2: "Far%20East%20Year%20Book%201941%20Part%202"},
      "item": "https://archive.org/details/far-east-year-book-1941"},
     {"slug": "china-1912", "dir": "China_Year_Book_1912", "title": "The China Year Book 1912",
      "publisher": "H. T. Montague Bell and H. G. W. Woodhead (eds.); London: George Routledge & Sons; New York: E. P. Dutton & Co.",
@@ -171,7 +172,7 @@ _LEAFMAPS = {}
 
 
 def leafmap(book):
-    """Optional leafmaps/<slug>.json: {"IMG_5451": 10, ...} for books transcribed from photos whose online scan is numbered differently."""
+    """Optional leafmaps/<slug>.json: {"IMG_5451": 10, ...} or {"IMG_4814": [part, leaf], ...} for books transcribed from photos whose online scan is numbered differently."""
     if book["slug"] not in _LEAFMAPS:
         f = os.path.join(SCRIPTS, "leafmaps", book["slug"] + ".json")
         _LEAFMAPS[book["slug"]] = json.load(open(f, encoding="utf-8")) if os.path.exists(f) else None
@@ -192,6 +193,9 @@ def scan_links(book, t):
             if lm[im] is None:
                 pp = t.get("printed_pages") or []  # not in the online scan: show only the printed pages
                 out.append({"label": ("pp. " if len(pp) > 1 else "p. ") + "–".join([pp[0], pp[-1]] if len(pp) > 1 else pp), "url": None})
+            elif isinstance(lm[im], list):  # [part, leaf] for a scan split into several files
+                part, leaf = lm[im]
+                out.append({"label": f"scan part {part}, leaf {leaf}", "url": book["scan"].format(partname=book["scan_parts"][part], leaf=leaf)})
             else:
                 out.append({"label": f"scan leaf {lm[im]}", "url": book["scan"].format(leaf=lm[im])})
             continue
