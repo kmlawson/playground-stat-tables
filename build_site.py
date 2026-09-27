@@ -250,7 +250,8 @@ def landing(cards):
             link += f' <a class="go dirgo" href="{b["slug"]}/chronology.html">Chronologies →</a>'
         item = f' · <a href="{b["item"]}">original scan</a>' if b.get("item") else ""
         grp = "japan" if b["slug"].startswith("japan") else "china" if b["slug"].startswith("china") else "other"
-        items.append((grp, f"""<article><h2>{html.escape(b["title"])}</h2><div class="pub">{html.escape(b["publisher"])}</div>
+        title = f'<a href="{b["slug"]}/" style="color:inherit;text-decoration:none">{html.escape(b["title"])}</a>' if n else html.escape(b["title"])
+        items.append((grp, f"""<article><h2>{title}</h2><div class="pub">{html.escape(b["publisher"])}</div>
 <div class="stat">{stat}</div><div class="src">LLM-transcribed{item}</div><div class="links">{link}</div></article>"""))
     order = {"far-east": 0, "manchoukuo": 1, "korea": 2}
     other = sorted([(i, h) for i, (g, h) in enumerate(items) if g == "other"],
