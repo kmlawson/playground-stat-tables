@@ -211,110 +211,86 @@
     "label": null,
     "columns": [
      "Year",
-     "Estimated population"
+     "Population",
+     "Year",
+     "Population"
     ],
     "rows": [
      [
       "A.D. 1381",
-      "59,850,000"
-     ],
-     [
-      "1580",
-      "60,692,000"
-     ],
-     [
-      "1668",
-      "25,386,209"
-     ],
-     [
-      "1711",
-      "28,241,129"
-     ],
-     [
-      "1743",
-      "157,343,975"
-     ],
-     [
-      ",,",
-      "149,332,730"
-     ],
-     [
-      ",,",
-      "150,265,475"
-     ],
-     [
-      "1761",
-      "205,293,053"
-     ],
-     [
-      "1790",
-      "155,249,897"
-     ],
-     [
-      "1812",
-      "362,467,183"
-     ],
-     [
-      ",,",
-      "360,440,000"
-     ],
-     [
-      "1868",
-      "404,946,514"
-     ],
-     [
-      "1882",
-      "381,309,000"
-     ],
-     [
+      "59,850,000",
       "A.D. 1412",
       "65,377,000"
      ],
      [
+      "1580",
+      "60,692,000",
       "1662",
       "21,068,600"
      ],
      [
+      "1668",
+      "25,386,209",
       "1710",
       "23,312,200 & 27,241,129"
      ],
      [
+      "1711",
+      "28,241,129",
       "1736",
       "125,046,245"
      ],
      [
+      "1743",
+      "157,343,975",
       "1753",
       "103,050,600"
      ],
      [
+      ",,",
+      "149,332,730",
       "1760",
       "143,125,225"
      ],
      [
       ",,",
+      "150,265,475",
+      ",,",
       "203,916,477"
      ],
      [
+      "1761",
+      "205,293,053",
       "1762",
       "198,214,553"
      ],
      [
+      "1790",
+      "155,249,897",
       "1792",
       "307,467,200"
      ],
      [
+      "1812",
+      "362,467,183",
       ",,",
       "333,000,000"
      ],
      [
+      ",,",
+      "360,440,000",
       "1842",
       "413,021,000"
      ],
      [
+      "1868",
+      "404,946,514",
       "1881",
       "380,000,000"
      ],
      [
+      "1882",
+      "381,309,000",
       "1885",
       "377,636,000"
      ]
@@ -324,11 +300,13 @@
   "unreadable": [],
   "footnotes": [],
   "transcriber_notes": [
-   "Printed side by side in two column-pairs (left: A.D. 1381–1882; right: A.D. 1412–1885); transcribed as one list, left column first, then right.",
-   "',,' (ditto, = same year as the line above) kept as printed; 'A.D.' printed only before the first year of each column.",
-   "Year 1710 carries two figures printed as '23,312,200 & 27,241,129'; kept in one cell as printed.",
-   "No column headings printed; headings supplied. No totals.",
-   "26 data rows counted on the page (13 left + 13 right); 26 transcribed."
+   "Printed as two side-by-side blocks of 13 lines each, each block a year followed by leaders (dots) and a population figure; reproduced as four columns, left block in columns 1-2, right block in columns 3-4, row i of each block on the same line as printed. No blank cells: both blocks have 13 lines.",
+   "The two blocks are not in one chronological sequence: the left runs A.D. 1381-1882 and the right A.D. 1412-1885, so dates interleave across the blocks (e.g. 1710 right, 1711 left).",
+   "No column headings are printed; 'Year' / 'Population' are supplied. 'A.D.' (small caps) is printed only before the first year of each block.",
+   "',,' is the printer's ditto mark (same year as the line above) and is kept as printed; it marks a second (or third) figure for the same year: 1743 (three figures), 1812 (two), 1760 (two), 1792 (two).",
+   "1710 is printed with two figures on one line, '23,312,200 & 27,241,129'; kept in one cell as printed.",
+   "No totals, braces, footnote marks or source notes in the table itself; the source is given in the preceding sentence (caption_extra).",
+   "All 26 figures re-read from tight crops of leaf n21 (printed p. 2); none unreadable."
   ],
   "id": "p0021_3",
   "scans": [
@@ -336,7 +314,8 @@
     "label": "scan leaf 21",
     "url": "https://archive.org/details/chinayearbook1922shan/page/n21/mode/1up"
    }
-  ]
+  ],
+  "context": "The book introduces the section (p. 1) by saying that a census by Western methods \"has never yet been attempted in China, and consequently estimates of the total population have varied to an extraordinary degree\", naming the Minchengpu (Ministry of Interior) census of 1910 as, until the previous year, the nearest approach to a reliable estimate. On p. 2 it presents these figures as the estimated population at various dates \"obtained from various sources and abstracted chiefly from 'The Middle Kingdom'\", so each line is one source's estimate rather than a consistent series. Where a year is followed by ditto marks (1743, 1760, 1792, 1812), or carries two figures (1710), the book is listing different estimates for the same year side by side; it does not say which sources they come from or which it prefers. Immediately after the table the book turns to the 1919-20 Post Office estimate, printed on p. 3 with the 1885 Census and the Minchengpu census for comparison."
  },
  {
   "image": "p0022",

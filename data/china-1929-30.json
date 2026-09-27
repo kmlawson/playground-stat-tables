@@ -529,127 +529,99 @@
    {
     "label": null,
     "columns": [
-     "Year",
-     "Estimated population"
+     "A.D.",
+     "Population",
+     "A.D.",
+     "Population"
     ],
     "rows": [
      [
-      "A.D 1381",
-      "59,850,000"
-     ],
-     [
-      "1580",
-      "60,692,000"
-     ],
-     [
-      "1668",
-      "25,386,209"
-     ],
-     [
-      "1711",
-      "28,241,129"
-     ],
-     [
-      "1743",
-      "157,343,975"
-     ],
-     [
-      "\"",
-      "149,332,730"
-     ],
-     [
-      "\"",
-      "150,265,475"
-     ],
-     [
-      "1761",
-      "205,293,053"
-     ],
-     [
-      "1790",
-      "155,249,897"
-     ],
-     [
-      "1812",
-      "362,467,183"
-     ],
-     [
-      "\"",
-      "360,440,000"
-     ],
-     [
-      "1868",
-      "404,946,514"
-     ],
-     [
-      "1882",
-      "381,309,000"
-     ],
-     [
-      "1412",
-      "65,377,000"
-     ],
-     [
-      "1662",
-      "21,068,600"
-     ],
-     [
+      "A.D. 1381",
+      "59,850,000",
       "A.D. 1710",
       "23,312,200 & 27,241,129"
      ],
      [
+      "1580",
+      "60,692,000",
       "1736",
       "125,046,245"
      ],
      [
+      "1668",
+      "25,386,209",
       "1753",
       "103,050,600"
      ],
      [
+      "1711",
+      "28,241,129",
       "1760",
       "143,125,225"
      ],
      [
-      "\"",
+      "1743",
+      "157,343,975",
+      ",,",
       "203,916,477"
      ],
      [
+      ",,",
+      "149,332,730",
       "1762",
       "198,214,553"
      ],
      [
+      ",,",
+      "150,265,475",
       "1792",
       "307,467,200"
      ],
      [
-      "\"",
+      "1761",
+      "205,293,053",
+      ",,",
       "333,000,000"
      ],
      [
+      "1790",
+      "155,249,897",
       "1842",
       "413,021,000"
      ],
      [
+      "1812",
+      "362,467,183",
       "1881",
       "380,000,000"
      ],
      [
+      ",,",
+      "360,440,000",
       "1885",
       "377,636,000"
      ],
      [
+      "1868",
+      "404,946,514",
       "1895",
       "421,000,000"
      ],
      [
+      "1882",
+      "381,309,000",
       "1902",
       "439,947,271"
      ],
      [
+      "1412",
+      "65,377,000",
       "1910",
       "438,373,680"
      ],
      [
+      "1662",
+      "21,068,600",
       "1923",
       "436,094,953"
      ]
@@ -657,11 +629,14 @@
    }
   ],
   "transcriber_notes": [
-   "Printed side by side in two blocks; merged left block then right block, in printed order (the left block ends out of chronological order with 1412 and 1662, as printed).",
-   "Ditto marks (,,) in the year column recorded as '\"'.",
-   "Year '1580': last digit partly broken in the scan (left half of a 0 visible); read as 0.",
-   "The '* Page 3.' footnote belongs to the asterisk after 342,639,000 in the text above this table."
+   "Layout: printed as two side-by-side blocks of 15 lines each, with no column headings; reproduced as four columns (left block's year and figure, then right block's year and figure), row i of the left block beside row i of the right block. The column headings 'A.D.' / 'Population' are supplied; 'A.D.' is printed only on the first line of each block and is kept in that cell. Leader dots omitted.",
+   "Neither block is in strict chronological order as printed: the left block ends with 1412 and 1662 after 1882; the right block begins with 1710. Kept in printed order.",
+   "Ditto marks in the year column are printed as ',,' (repeating the year above, i.e. a further estimate for the same year) and are kept as ',,'.",
+   "Right block, first line: two figures printed for 1710, '23,312,200 & 27,241,129', kept in one cell.",
+   "Year '1580': last digit partly broken in the scan (left half of a 0 visible); read as 0. '377,636,000' (1885): first digit slightly broken, reads as 3.",
+   "The '* Page 3.' footnote belongs to the asterisk after 342,639,000 in the text above this table, not to the table itself."
   ],
+  "context": "On printed p. 2, in the section with the running head \"POPULATION\", this list follows a discussion of census-based totals (329,542,000, or 331,000,000 with Tibet added) and W. W. Rockhill's 1904 estimate of 270,000,000 for China Proper. The book introduces it simply as showing \"the estimated population at various dates (obtained from various sources and abstracted chiefly from 'The Middle Kingdom')\" together with \"the latest official estimates of the population\"; it names no source for any individual figure. The figures are therefore a compilation of different estimates, which is why the same year can carry more than one figure (the ditto marks under 1743, 1760, 1792 and 1812, and the two figures given for 1710) and why the totals jump sharply between adjacent dates. The book offers no reconciliation of them; the text that follows turns to the Post Office estimates made since 1919 and the comparison tables on the following pages (1885 Census, Minchengpu Census, Post Office and Customs estimates).",
   "id": "p0025_2",
   "scans": [
    {
