@@ -10,6 +10,7 @@ Every statistical table printed in English-language official yearbooks on Japan 
 | *The Manchoukuo Year Book 1942* | [manchoukuo-1942/](manchoukuo-1942/) |
 | *Annual Report on Administration of Chosen 1929–30* (Korea) | [korea-1929-30/](korea-1929-30/) |
 | *The Japan Year Book 1930* | [japan-1930/](japan-1930/) |
+| *The Japan Year Book 1935* | [japan-1935/](japan-1935/) |
 | *The Japan Year Book 1939–40* | [japan-1939-40/](japan-1939-40/) |
 | *The Japan Year Book 1946–48* | [japan-1946-48/](japan-1946-48/) |
 | *The Far East Year Book 1941* | [far-east-1941/](far-east-1941/) |
