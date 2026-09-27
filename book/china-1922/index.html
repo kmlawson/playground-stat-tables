@@ -48,10 +48,10 @@ tr.sec td:first-child{font-weight:bold;font-style:italic}
 .tbl{padding-bottom:22px;margin-bottom:26px;border-bottom:2px solid var(--line)}
 .chhead{font-size:13px;letter-spacing:.06em;text-transform:uppercase;color:var(--accent);margin:0 0 4px}
 .chsum{color:var(--muted);font-size:14px;margin-bottom:18px}
-.chgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,250px),1fr));gap:12px}
-.chbtn{display:block;padding:14px 16px;border:1px solid var(--line);border-radius:6px;background:var(--panel);color:var(--ink);text-decoration:none;font-weight:bold;font-size:clamp(16px,.9vw + 9px,21px);line-height:1.25;overflow-wrap:anywhere}
+.chgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,calc(var(--chfs,17px)*12)),1fr));gap:calc(var(--chfs,17px)*.6)}
+.chbtn{display:block;padding:.65em .8em;border:1px solid var(--line);border-radius:6px;background:var(--panel);color:var(--ink);text-decoration:none;font-weight:bold;font-size:var(--chfs,clamp(16px,.9vw + 9px,21px));line-height:1.25;overflow-wrap:anywhere}
 .chbtn:hover{border-color:var(--accent);background:var(--hi)}
-.chbtn small{display:block;color:var(--muted);font-weight:normal;font-size:max(12px,.62em);margin-top:4px}
+.chbtn small{display:block;color:var(--muted);font-weight:normal;font-size:max(11px,.62em);margin-top:.2em}
 .chhead a{color:inherit}
 .tbl h2 a{color:inherit;text-decoration:none}
 .keys{font-size:12px;color:var(--muted)}
@@ -67,7 +67,7 @@ mark{background:var(--hi);color:inherit}
 .ctx{max-width:760px;font-size:14.5px;line-height:1.55;margin:8px 0 12px;padding:9px 12px;border-left:3px solid var(--accent);background:var(--panel)}
 .aboutbtn{margin-left:auto;font:inherit;font-size:14px;background:transparent;color:var(--accent-ink);border:1px solid currentColor;border-radius:5px;padding:5px 12px;cursor:pointer;align-self:center}.aboutbtn+#toggle{margin-left:0}
 dialog{max-width:min(560px,calc(100vw - 32px));border:1px solid var(--line);border-top:4px solid var(--accent);background:var(--panel);color:var(--ink);padding:18px 20px;border-radius:6px;font-size:14.5px}dialog::backdrop{background:rgba(0,0,0,.45)}dialog h3{margin:0 0 2px;font-weight:normal;font-size:19px}dialog .pub{color:var(--muted);font-size:13px}dialog form button{font:inherit;font-size:14px;background:var(--accent);color:var(--accent-ink);border:0;border-radius:5px;padding:6px 14px;cursor:pointer}
-@media (max-width:760px){#wrap{grid-template-columns:minmax(0,1fr);height:auto}#side,#main{min-width:0;max-width:100vw}#list a{overflow-wrap:anywhere}.tw{max-height:none}header{padding:12px 16px}header h1{font-size:18px}.dirbtn{margin-left:0}#side{border-right:0;border-bottom:1px solid var(--line)}#list{max-height:40vh}#main{padding:14px 16px}.chgrid{gap:8px}.chbtn{padding:11px 13px}}
+@media (max-width:760px){#wrap{grid-template-columns:minmax(0,1fr);height:auto}#side,#main{min-width:0;max-width:100vw}#list a{overflow-wrap:anywhere}.tw{max-height:none}header{padding:12px 16px}header h1{font-size:18px}.dirbtn{margin-left:0}#side{border-right:0;border-bottom:1px solid var(--line)}#list{max-height:40vh}#main{padding:14px 16px}.chgrid{gap:8px}.chbtn{padding:11px 13px}.chbtn small{font-size:12px}}
 </style>
 </head>
 <body>
@@ -123,7 +123,15 @@ let mode="one",cur=null;
 function showHome(){mode="home";cur=null;const n={};T.forEach(t=>{const c=t.chapter||"(no chapter)";n[c]=(n[c]||0)+1});
  $("#main").innerHTML=`<div class="chhead">Contents</div><h2 style="margin-bottom:6px">Chapters</h2><div class="chsum">${T.length} table${T.length===1?"":"s"} in ${chapters.length} chapter${chapters.length===1?"":"s"}. Choose a chapter, or pick a single table from the list.</div><div class="chgrid">`+
   chapters.map(c=>`<a class="chbtn" href="#ch=${encodeURIComponent(c)}">${esc(c)}<small>${n[c]} table${n[c]===1?"":"s"}</small></a>`).join("")+`</div>`+LLMWARN;
- $("#main").scrollTop=0;mark()}
+ $("#main").scrollTop=0;fitGrid();mark()}
+// Desktop: pick the largest button font (12-28px) at which every chapter button fits in the pane without scrolling
+function fitGrid(){const g=$(".chgrid");if(!g)return;g.style.removeProperty("--chfs");if(innerWidth<=760)return;
+ const m=$("#main"),limit=()=>m.getBoundingClientRect().bottom-parseFloat(getComputedStyle(m).paddingBottom);
+ const fits=x=>{g.style.setProperty("--chfs",x+"px");return g.getBoundingClientRect().bottom<=limit()};
+ let lo=12,hi=28;if(fits(hi))return;if(!fits(lo))return;
+ for(let k=0;k<9;k++){const mid=(lo+hi)/2;if(fits(mid))lo=mid;else hi=mid}
+ g.style.setProperty("--chfs",lo.toFixed(2)+"px")}
+let fitRaf=0;addEventListener("resize",()=>{if(mode!=="home")return;cancelAnimationFrame(fitRaf);fitRaf=requestAnimationFrame(fitGrid)});
 function showOne(id){const t=T.find(x=>x.id===id)||T[0];if(!t){$("#main").innerHTML="<p>No tables yet.</p>";return}
  mode="one";cur=t.id;$("#main").innerHTML=tableHTML(t,$("#q").value.trim())+LLMWARN;$("#main").scrollTop=0;
  document.querySelectorAll("#main table").forEach(initSort);mark()}
