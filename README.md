@@ -16,6 +16,7 @@ Every statistical table printed in English-language official yearbooks on Japan 
 | *The China Year Book 1912* | [china-1912/](china-1912/) |
 | *The China Year Book 1929–30* (in progress) | [china-1929-30/](china-1929-30/) |
 | *China Handbook 1937–1943* | [china-1937-43/](china-1937-43/) |
+| *China Handbook 1950* | [china-1950/](china-1950/) |
 
 > **Warning:** These tables were transcribed by the vision model of Opus 5.5. Before using any of these figures, you must verify specific statistics with the original source which is linked to whenever possible.
 
