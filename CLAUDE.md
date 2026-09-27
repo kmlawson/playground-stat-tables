@@ -1,8 +1,8 @@
 # CLAUDE.md — East Asian statistical tables site
 
 Static site of statistical tables transcribed from English-language yearbooks. The transcriptions (JSON)
-live **outside** this repo in each book's `_work/` folder; `build_site.py` regenerates everything here from
-them. Several Claude sessions add books at once, each on its own branch — read `example/guidance.md` before
+live **outside** this repo in each book's `_work/` folder; `build/build_site.py` regenerates everything here from
+them. Several Claude sessions add books at once, each on its own branch — read `build/example/guidance.md` before
 building or pushing anything.
 
 ## Transcription workflow (how every book is done)
@@ -17,8 +17,8 @@ building or pushing anything.
   hour: 1–3 dense pages/spreads (trade returns, big multi-part tables), 3–5 ordinary table pages (up to 8 if
   that keeps whole tables together), 10–20 pages of pure prose. Draw the boundaries from a contact sheet of
   the whole book so tables rarely cross them; split very long single tables into one-file-per-page missions
-  with shared conventions (see `example/guidance.md` §4). Long batches (12–30 spreads) ran 5–9 hours per agent, were hard to monitor and lost work to API
-  timeouts. Templates: `example/BRIEF.md` (rules, formats) and `example/MISSION.md` (scope + prompt).
+  with shared conventions (see `build/example/guidance.md` §4). Long batches (12–30 spreads) ran 5–9 hours per agent, were hard to monitor and lost work to API
+  timeouts. Templates: `build/example/BRIEF.md` (rules, formats) and `build/example/MISSION.md` (scope + prompt).
 - **Ownership of multi-page tables:** a table is written once, by the mission that owns its first page,
   reading ahead as far as needed; a continuation at the top of a mission's first page is left alone. A killed
   mission's partial file is handed to the next mission with an explicit "finish tables/<file>" instruction.
@@ -33,8 +33,8 @@ building or pushing anything.
 
 ## Building and publishing
 
-- Build: `uv run --with openpyxl build_downloads.py`, then `python3 build_site.py`. From a worktree that isn't
-  next to the book folders, set `STAT_TABLES_ROOT` (see `example/guidance.md` §3) or other books rebuild from
+- Build: `uv run --with openpyxl build/build_downloads.py`, then `python3 build/build_site.py`. From a worktree that isn't
+  next to the book folders, set `STAT_TABLES_ROOT` (see `build/example/guidance.md` §3) or other books rebuild from
   the wrong folder.
 - Commit only your own book's files; revert everything else the build touched. Shared code changes go in
   their own backwards-compatible commit.
@@ -43,6 +43,6 @@ building or pushing anything.
   commits, request headers (User-Agent/From), file metadata or pages.
 - Before merging `origin/main`, commit or stash; confirm the merge ran (`git merge-base --is-ancestor
   origin/main HEAD`) and that no conflict markers remain. Generated pages conflict on almost every merge:
-  resolve by rebuilding, never by hand (see `example/guidance.md` §5).
+  resolve by rebuilding, never by hand (see `build/example/guidance.md` §5).
 - Audit agents' "judgement calls": a digit read from its shape, a similar glyph, context, row order or a
   total is blanked, with the partial reading in the note.

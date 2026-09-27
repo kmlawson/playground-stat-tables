@@ -1,7 +1,7 @@
 # Table extraction brief — <BOOK TITLE>
 
 <!-- Template. Copy to <BookFolder>/_work/BRIEF.md, replace every <…> placeholder, and delete
-     sections that do not apply. Give each sub-agent a SHORT mission (see example/MISSION.md): 1–3 dense
+     sections that do not apply. Give each sub-agent a SHORT mission (see build/example/MISSION.md): 1–3 dense
      pages, 3–5 ordinary table pages, or 10–20 pages of pure prose, sized to finish in under an hour. -->
 
 ## Checklist (read first)

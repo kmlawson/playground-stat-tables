@@ -7,7 +7,8 @@ as "in progress" on the landing page. Scan links point to the online scan where 
 """
 import json, glob, os, re, html
 
-HERE = os.path.dirname(os.path.abspath(__file__))
+SCRIPTS = os.path.dirname(os.path.abspath(__file__))  # build/: scripts, leaf maps, docs (not deployed)
+HERE = os.path.dirname(SCRIPTS)  # site root: everything here except build/, CLAUDE.md and .git is deployed
 # Folder holding the book folders. A worktree placed elsewhere (e.g. the far-east-1941 branch)
 # must set STAT_TABLES_ROOT to the Manchoukuo folder, or relative book dirs resolve wrongly.
 ROOT = os.environ.get("STAT_TABLES_ROOT") or os.path.dirname(HERE)
@@ -171,7 +172,7 @@ _LEAFMAPS = {}
 def leafmap(book):
     """Optional leafmaps/<slug>.json: {"IMG_5451": 10, ...} for books transcribed from photos whose online scan is numbered differently."""
     if book["slug"] not in _LEAFMAPS:
-        f = os.path.join(HERE, "leafmaps", book["slug"] + ".json")
+        f = os.path.join(SCRIPTS, "leafmaps", book["slug"] + ".json")
         _LEAFMAPS[book["slug"]] = json.load(open(f, encoding="utf-8")) if os.path.exists(f) else None
     return _LEAFMAPS[book["slug"]]
 

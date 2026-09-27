@@ -7,13 +7,13 @@ transcription.
 
 ## 1. Where things live
 
-- **This repo** holds the build scripts (`build_site.py`, `build_downloads.py`) and the generated site:
+- **This repo** holds the build scripts (`build/build_site.py`, `build/build_downloads.py`) and the generated site:
   `index.html`, `search.html`, one folder per book (`<slug>/index.html`, `directory.html`, `chronology.html`),
   `data/<slug>*.json` and `downloads/<slug>-*`.
 - **Transcriptions live outside the repo**, in a book folder next to it:
-  `<BookFolder>/_work/tables/*.json`, `…/directory/*.json` and `…/chronology/*.json`. `build_site.py` reads
+  `<BookFolder>/_work/tables/*.json`, `…/directory/*.json` and `…/chronology/*.json`. `build/build_site.py` reads
   them and regenerates everything. Scans, crops and page images are never committed (`.gitignore`).
-- Each book is one entry in the `BOOKS` list at the top of `build_site.py`.
+- Each book is one entry in the `BOOKS` list at the top of `build/build_site.py`.
 
 ## 2. The BOOKS entry
 
@@ -45,7 +45,7 @@ transcription.
 The clashes so far came from three things:
 - sessions committing regenerated files for **other** books;
 - one session's build resolving book folders against the wrong root, which overwrote another book's data;
-- edits to shared template code in `build_site.py`.
+- edits to shared template code in `build/build_site.py`.
 
 Follow these steps.
 
@@ -53,13 +53,13 @@ Follow these steps.
    your branch already exists, `git rebase origin/main`. Rebase again just before every push.
 2. **One branch per book or series** (e.g. `early-japan-year-books`, `far-east-1941`). Never push to `main`.
 3. **Set the root when you build from a worktree or clone that isn't next to the book folders.**
-   `build_site.py` finds relative `dir` paths from `STAT_TABLES_ROOT`, falling back to the folder that holds
+   `build/build_site.py` finds relative `dir` paths from `STAT_TABLES_ROOT`, falling back to the folder that holds
    the repo. If your checkout lives elsewhere, run
-   `STAT_TABLES_ROOT=/path/to/folder-holding-the-book-folders python3 build_site.py`.
+   `STAT_TABLES_ROOT=/path/to/folder-holding-the-book-folders python3 build/build_site.py`.
    Otherwise other books may resolve to the wrong folder and be rebuilt empty, or from the wrong data.
-4. **Build**: `uv run --with openpyxl build_downloads.py`, then `python3 build_site.py`.
+4. **Build**: `uv run --with openpyxl build/build_downloads.py`, then `python3 build/build_site.py`.
 5. **Commit only your own files.**
-   - Commit: your `BOOKS` entry (one block in `build_site.py`), your README row, `<slug>/`, `data/<slug>*.json`
+   - Commit: your `BOOKS` entry (one block in `build/build_site.py`), your README row, `<slug>/`, `data/<slug>*.json`
      and `downloads/<slug>-*`.
    - Revert everything else the build touched, such as other books' data or pages, `index.html` and
      `search.html`: `git checkout -- <path>`. Check `git status` and `git diff --stat` before committing; the
@@ -86,7 +86,7 @@ in the book folder are therefore the source of truth, not the generated HTML.
 
 ## 4. Running the transcription
 
-- Copy `example/BRIEF.md` to `<BookFolder>/_work/BRIEF.md` and `example/MISSION.md` to
+- Copy `build/example/BRIEF.md` to `<BookFolder>/_work/BRIEF.md` and `build/example/MISSION.md` to
   `<BookFolder>/_work/MISSION.md`; fill in the placeholders and the "This book" section.
 - **Use short missions, not big batches.** Batches of 12–30 spreads ran for 5–9 hours per agent, were hard
   to monitor, and lost work when an agent died from an API timeout. Size each mission to finish in under an
@@ -138,7 +138,7 @@ in the book folder are therefore the source of truth, not the generated HTML.
 
 ### The weak spot: generated files and the shared `BOOKS` list
 Every session rebuilds and commits the same generated files (`index.html`, `search.html`, `data/*.json`,
-`downloads/*`), and every session edits the `BOOKS` list in `build_site.py`. They conflict on almost every
+`downloads/*`), and every session edits the `BOOKS` list in `build/build_site.py`. They conflict on almost every
 merge; resolving by rebuilding from the book folders works only if whoever merges remembers to.
 - `git merge` **refuses to start while you have uncommitted edits**, and the message is easy to miss.
   Commit or stash first, then confirm: `git merge-base --is-ancestor origin/main HEAD`.
@@ -151,7 +151,7 @@ merge; resolving by rebuilding from the book folders works only if whoever merge
    push to `main` that runs both build scripts and publishes to Pages. (The Action needs the `_work` JSON
    in the repo, e.g. `books/<slug>/tables/…`, since it cannot see local folders.)
 2. **One small config file per book** (`books/<slug>.json` with an `order` key) instead of one shared
-   `BOOKS` list, so sessions never edit the same lines of `build_site.py`.
+   `BOOKS` list, so sessions never edit the same lines of `build/build_site.py`.
 3. **Merge small and often.** Long-lived branches make the generated-file conflicts worse.
 
 ### Why short missions: what three sessions measured

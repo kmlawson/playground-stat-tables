@@ -5,105 +5,105 @@
 
 ## Sino-Japanese Hostilities — Summary of Events
 
-**1937 July 7** Lukouchiao incident. — p. 352
+**1937 July 7** Lukouchiao incident. — p. 352 ([scan leaf 377](https://archive.org/details/chinayearbook1930000hgww/page/n377/mode/1up))
 
-**1937 July 25** Japanese attack Langfang with troops and planes. — p. 352
+**1937 July 25** Japanese attack Langfang with troops and planes. — p. 352 ([scan leaf 377](https://archive.org/details/chinayearbook1930000hgww/page/n377/mode/1up))
 
-**1937 July 26** Japanese detachment ambushed and attacked in the Kuang An Men, Peiping. — p. 352
+**1937 July 26** Japanese detachment ambushed and attacked in the Kuang An Men, Peiping. — p. 352 ([scan leaf 377](https://archive.org/details/chinayearbook1930000hgww/page/n377/mode/1up))
 
-**1937 July 28** Mutiny of East Hopei Peace Preservation Corps and massacre of Japanese at Tungchow. — p. 352
+**1937 July 28** Mutiny of East Hopei Peace Preservation Corps and massacre of Japanese at Tungchow. — p. 352 ([scan leaf 377](https://archive.org/details/chinayearbook1930000hgww/page/n377/mode/1up))
 
-**1937 July 28-9** Pao An Tui at Tientsin attack Japanese who respond with heavy aerial bombing. — p. 352
+**1937 July 28-9** Pao An Tui at Tientsin attack Japanese who respond with heavy aerial bombing. — p. 352 ([scan leaf 377](https://archive.org/details/chinayearbook1930000hgww/page/n377/mode/1up))
 
-**1937 Aug. 12** Japanese occupy Nankow Pass. — p. 352
+**1937 Aug. 12** Japanese occupy Nankow Pass. — p. 352 ([scan leaf 377](https://archive.org/details/chinayearbook1930000hgww/page/n377/mode/1up))
 
-**1937 Aug. 27** Kalgan occupied by Japanese. — p. 352
+**1937 Aug. 27** Kalgan occupied by Japanese. — p. 352 ([scan leaf 377](https://archive.org/details/chinayearbook1930000hgww/page/n377/mode/1up))
 
-**1937 Sept. 24** Paotingfu and Tsangchow occupied. — p. 352
+**1937 Sept. 24** Paotingfu and Tsangchow occupied. — p. 352 ([scan leaf 377](https://archive.org/details/chinayearbook1930000hgww/page/n377/mode/1up))
 
-**1937 Oct. 2** Japanese cross Shantung border. — p. 352
+**1937 Oct. 2** Japanese cross Shantung border. — p. 352 ([scan leaf 377](https://archive.org/details/chinayearbook1930000hgww/page/n377/mode/1up))
 
-**1937 Oct. 14** Kweihua occupied. — p. 352
+**1937 Oct. 14** Kweihua occupied. — p. 352 ([scan leaf 377](https://archive.org/details/chinayearbook1930000hgww/page/n377/mode/1up))
 
-**1937 Oct. 27** Japanese occupy Niangtzekwan Pass. — p. 352
+**1937 Oct. 27** Japanese occupy Niangtzekwan Pass. — p. 352 ([scan leaf 377](https://archive.org/details/chinayearbook1930000hgww/page/n377/mode/1up))
 
-**1937 Nov. 9** Occupation of Taiyuanfu completed by Japanese. — p. 352
+**1937 Nov. 9** Occupation of Taiyuanfu completed by Japanese. — p. 352 ([scan leaf 377](https://archive.org/details/chinayearbook1930000hgww/page/n377/mode/1up))
 
-**1937 Dec. 18** Destruction of Japanese cotton mills and other industrial plants at Tsingtao. — p. 352
+**1937 Dec. 18** Destruction of Japanese cotton mills and other industrial plants at Tsingtao. — p. 352 ([scan leaf 377](https://archive.org/details/chinayearbook1930000hgww/page/n377/mode/1up))
 
-**1937 Dec. 27** Japanese occupy Tsinanfu. — p. 352
+**1937 Dec. 27** Japanese occupy Tsinanfu. — p. 352 ([scan leaf 377](https://archive.org/details/chinayearbook1930000hgww/page/n377/mode/1up))
 
-**1937 Aug. 13** Outbreak of hostilities at Shanghai. — p. 352
+**1937 Aug. 13** Outbreak of hostilities at Shanghai. — p. 352 ([scan leaf 377](https://archive.org/details/chinayearbook1930000hgww/page/n377/mode/1up))
 
-**1937 Aug. 14** Chinese planes drop bombs in International Settlement, causing 729 deaths and wounding 861 between Cathay and Palace Hotels in Nanking Road, and killing 1,012 and wounding 1,007 at junction of Avenue Edward VII and Boulevard de Montigny. — p. 352
+**1937 Aug. 14** Chinese planes drop bombs in International Settlement, causing 729 deaths and wounding 861 between Cathay and Palace Hotels in Nanking Road, and killing 1,012 and wounding 1,007 at junction of Avenue Edward VII and Boulevard de Montigny. — p. 352 ([scan leaf 377](https://archive.org/details/chinayearbook1930000hgww/page/n377/mode/1up))
 
-**1937 Aug. 23** Japanese troops force landing near Woosung. Chinese plane drops bombs in International Settlement: one (which did not explode) behind Hamilton House, and another on Sincere Co.'s Emporium, killing 215 and wounding 558 persons. — p. 352
+**1937 Aug. 23** Japanese troops force landing near Woosung. Chinese plane drops bombs in International Settlement: one (which did not explode) behind Hamilton House, and another on Sincere Co.'s Emporium, killing 215 and wounding 558 persons. — p. 352 ([scan leaf 377](https://archive.org/details/chinayearbook1930000hgww/page/n377/mode/1up))
 
-**1937 Aug. 30** President Hoover bombed by Chinese planes outside Woosung. — p. 352
+**1937 Aug. 30** President Hoover bombed by Chinese planes outside Woosung. — p. 352 ([scan leaf 377](https://archive.org/details/chinayearbook1930000hgww/page/n377/mode/1up))
 
-**1937 Sept. 7** British Ambassador shot and seriously wounded by machine-gunning from Japanese plane while motoring from Nanking to Shanghai. — p. 352
+**1937 Sept. 7** British Ambassador shot and seriously wounded by machine-gunning from Japanese plane while motoring from Nanking to Shanghai. — p. 352 ([scan leaf 377](https://archive.org/details/chinayearbook1930000hgww/page/n377/mode/1up))
 
-**1937 Sept. 12-13** Chinese withdraw from Shanghai Civic Centre and Far Eastern Race Course. — p. 352
+**1937 Sept. 12-13** Chinese withdraw from Shanghai Civic Centre and Far Eastern Race Course. — p. 352 ([scan leaf 377](https://archive.org/details/chinayearbook1930000hgww/page/n377/mode/1up))
 
-**1937 Sept. 19** Japanese announce intention to bomb Nanking. — p. 352
+**1937 Sept. 19** Japanese announce intention to bomb Nanking. — p. 352 ([scan leaf 377](https://archive.org/details/chinayearbook1930000hgww/page/n377/mode/1up))
 
-**1937 Sept. 20** Four air-raids, in which 80 Japanese planes took part, on Nanking, which hereafter was bombed almost daily. — p. 352
+**1937 Sept. 20** Four air-raids, in which 80 Japanese planes took part, on Nanking, which hereafter was bombed almost daily. — p. 352 ([scan leaf 377](https://archive.org/details/chinayearbook1930000hgww/page/n377/mode/1up))
 
-**1937 Oct. 24** British soldier (Rifleman W. McGowan) killed outside Q. Post in Keswick Road, Shanghai, by machine-gunning from Japanese plane. — p. 352
+**1937 Oct. 24** British soldier (Rifleman W. McGowan) killed outside Q. Post in Keswick Road, Shanghai, by machine-gunning from Japanese plane. — p. 352 ([scan leaf 377](https://archive.org/details/chinayearbook1930000hgww/page/n377/mode/1up))
 
-**1937 Oct. 26-7** Chinese evacuate Chapei and Kiangwan (Shanghai), withdrawing south of Soochow Creek. — p. 352
+**1937 Oct. 26-7** Chinese evacuate Chapei and Kiangwan (Shanghai), withdrawing south of Soochow Creek. — p. 352 ([scan leaf 377](https://archive.org/details/chinayearbook1930000hgww/page/n377/mode/1up))
 
-**1937 Oct. 29** Three Ulster Riflemen mortally wounded by Japanese shell-fire near Jessfield Park, Shanghai. — p. 352
+**1937 Oct. 29** Three Ulster Riflemen mortally wounded by Japanese shell-fire near Jessfield Park, Shanghai. — p. 352 ([scan leaf 377](https://archive.org/details/chinayearbook1930000hgww/page/n377/mode/1up))
 
-**1937 Oct. 31** Japanese force crossing of Soochow Creek, Shanghai. — p. 352
+**1937 Oct. 31** Japanese force crossing of Soochow Creek, Shanghai. — p. 352 ([scan leaf 377](https://archive.org/details/chinayearbook1930000hgww/page/n377/mode/1up))
 
-**1937 Nov. 5** Surprise Japanese landing near Chapoo. — p. 352
+**1937 Nov. 5** Surprise Japanese landing near Chapoo. — p. 352 ([scan leaf 377](https://archive.org/details/chinayearbook1930000hgww/page/n377/mode/1up))
 
-**1937 Nov. 8-9** Chinese withdraw from Hungjao area, Shanghai, beyond Lunghwa and Tsingpu. — p. 352
+**1937 Nov. 8-9** Chinese withdraw from Hungjao area, Shanghai, beyond Lunghwa and Tsingpu. — p. 352 ([scan leaf 377](https://archive.org/details/chinayearbook1930000hgww/page/n377/mode/1up))
 
-**1937 Nov. 12** Chinese resistance in Nantao, Shanghai, ends. — p. 352
+**1937 Nov. 12** Chinese resistance in Nantao, Shanghai, ends. — p. 352 ([scan leaf 377](https://archive.org/details/chinayearbook1930000hgww/page/n377/mode/1up))
 
-**1937 Nov. 13** Kiating captured. — p. 352
+**1937 Nov. 13** Kiating captured. — p. 352 ([scan leaf 377](https://archive.org/details/chinayearbook1930000hgww/page/n377/mode/1up))
 
-**1937 Nov. 15** Quinsan falls. — p. 352
+**1937 Nov. 15** Quinsan falls. — p. 352 ([scan leaf 377](https://archive.org/details/chinayearbook1930000hgww/page/n377/mode/1up))
 
-**1937 Nov. 19** Changshu and Kashing fall. — p. 352
+**1937 Nov. 19** Changshu and Kashing fall. — p. 352 ([scan leaf 377](https://archive.org/details/chinayearbook1930000hgww/page/n377/mode/1up))
 
-**1937 Nov. 20** Japanese capture Soochow. Only 500 out of population of 200,000 remain in city. — p. 352
+**1937 Nov. 20** Japanese capture Soochow. Only 500 out of population of 200,000 remain in city. — p. 352 ([scan leaf 377](https://archive.org/details/chinayearbook1930000hgww/page/n377/mode/1up))
 
-**1937 Nov. 25** Wusih captured. — p. 352
+**1937 Nov. 25** Wusih captured. — p. 352 ([scan leaf 377](https://archive.org/details/chinayearbook1930000hgww/page/n377/mode/1up))
 
-**1937 Dec. 3** 6,000 Japanese troops parade through International Settlement from Brenan Road to Garden Bridge. Bomb outrage in which several Japanese soldiers and onlookers were wounded in Nanking Road. — p. 352
+**1937 Dec. 3** 6,000 Japanese troops parade through International Settlement from Brenan Road to Garden Bridge. Bomb outrage in which several Japanese soldiers and onlookers were wounded in Nanking Road. — p. 352 ([scan leaf 377](https://archive.org/details/chinayearbook1930000hgww/page/n377/mode/1up))
 
-**1937 Dec. 12** U.S.S. Panay sunk by Japanese aerial bombing above Nanking. H.M.S. Ladybird badly damaged by Japanese shell-fire off Wuhu. — p. 352
+**1937 Dec. 12** U.S.S. Panay sunk by Japanese aerial bombing above Nanking. H.M.S. Ladybird badly damaged by Japanese shell-fire off Wuhu. — p. 352 ([scan leaf 377](https://archive.org/details/chinayearbook1930000hgww/page/n377/mode/1up))
 
-**1937 Dec. 13** Nanking occupied by Japanese. — p. 352
+**1937 Dec. 13** Nanking occupied by Japanese. — p. 352 ([scan leaf 377](https://archive.org/details/chinayearbook1930000hgww/page/n377/mode/1up))
 
 
 ## Insurance in China — [Serious Fires in Shanghai and the Outports, 1937]
 
-**1937 March 1** A fire in a printing works at Nantao caused damage to the extent of some $30,000. — p. 464
+**1937 March 1** A fire in a printing works at Nantao caused damage to the extent of some $30,000. — p. 464 ([scan leaf 489](https://archive.org/details/chinayearbook1930000hgww/page/n489/mode/1up))
 
-**1937 March 20** A fire in a pharmacy in Yunnan Road, Central District, cost insurance companies $98,000. — p. 464
+**1937 March 20** A fire in a pharmacy in Yunnan Road, Central District, cost insurance companies $98,000. — p. 464 ([scan leaf 489](https://archive.org/details/chinayearbook1930000hgww/page/n489/mode/1up))
 
-**1937 April 5** A waste cotton godown and factory in Chapei was gutted, the damage amounting to $130,000. — p. 464
+**1937 April 5** A waste cotton godown and factory in Chapei was gutted, the damage amounting to $130,000. — p. 464 ([scan leaf 489](https://archive.org/details/chinayearbook1930000hgww/page/n489/mode/1up))
 
-**1937 May 20** An outbreak in one of Liddell's cotton godowns in Yangtszepoo caused a loss of some $25,000. — p. 464
+**1937 May 20** An outbreak in one of Liddell's cotton godowns in Yangtszepoo caused a loss of some $25,000. — p. 464 ([scan leaf 489](https://archive.org/details/chinayearbook1930000hgww/page/n489/mode/1up))
 
-**1937 June 2** A fire in a row of shops in Boulevard des Deux Republiques, French Concession, did damage to the extent of $40,000. — p. 464
+**1937 June 2** A fire in a row of shops in Boulevard des Deux Republiques, French Concession, did damage to the extent of $40,000. — p. 464 ([scan leaf 489](https://archive.org/details/chinayearbook1930000hgww/page/n489/mode/1up))
 
-**1937 July 8** One of the most disastrous cotton fires ever recorded in Shanghai occurred on July 8, when Godowns E5 and F6 of the China Merchants' Steam Navigation Co.'s Pootung Wharf were totally destroyed. The insurances in force amounted to over $2,000,000, and total losses have been paid under most of the policies concerned owing to the fact that, due to the outbreak of the Sino-Japanese hostilities, it was not possible to recover and recondition the damaged cotton, from which at one time it was hoped for a 40 per cent salvage. The Chinese insurance companies carried the bulk of the insurance. — p. 464
+**1937 July 8** One of the most disastrous cotton fires ever recorded in Shanghai occurred on July 8, when Godowns E5 and F6 of the China Merchants' Steam Navigation Co.'s Pootung Wharf were totally destroyed. The insurances in force amounted to over $2,000,000, and total losses have been paid under most of the policies concerned owing to the fact that, due to the outbreak of the Sino-Japanese hostilities, it was not possible to recover and recondition the damaged cotton, from which at one time it was hoped for a 40 per cent salvage. The Chinese insurance companies carried the bulk of the insurance. — p. 464 ([scan leaf 489](https://archive.org/details/chinayearbook1930000hgww/page/n489/mode/1up))
 
-**1937 August 3** A disastrous fire broke out in the Ting Kee Native Bank godown in the Northern District of Shanghai, when piece goods and other merchandise to the value of $1,084,300 were more or less totally destroyed, the loss being increased by the fact that salvage work was stopped by the fighting which broke out a few days later. — p. 464
+**1937 August 3** A disastrous fire broke out in the Ting Kee Native Bank godown in the Northern District of Shanghai, when piece goods and other merchandise to the value of $1,084,300 were more or less totally destroyed, the loss being increased by the fact that salvage work was stopped by the fighting which broke out a few days later. — p. 464 ([scan leaf 489](https://archive.org/details/chinayearbook1930000hgww/page/n489/mode/1up))
 
-**January 8, 1937, and February 4, 1937** The contents of godowns of the Tientsin Press Packing Co. in the British Concession at Tientsin were damaged to the extent of $75,000 by fires in January and February. — p. 464
+**January 8, 1937, and February 4, 1937** The contents of godowns of the Tientsin Press Packing Co. in the British Concession at Tientsin were damaged to the extent of $75,000 by fires in January and February. — p. 464 ([scan leaf 489](https://archive.org/details/chinayearbook1930000hgww/page/n489/mode/1up))
 
-**February 20, 1937** A serious fire at the wood oil plant of the Arnhold Trading Co., Hankow, resulted in a loss of $206,000. — p. 464
+**February 20, 1937** A serious fire at the wood oil plant of the Arnhold Trading Co., Hankow, resulted in a loss of $206,000. — p. 464 ([scan leaf 489](https://archive.org/details/chinayearbook1930000hgww/page/n489/mode/1up))
 
-**March 26, 1937** A godown of the Mitsui Bussan Kaisha at Hankow was partly destroyed, with a loss of $55,000. — p. 464
+**March 26, 1937** A godown of the Mitsui Bussan Kaisha at Hankow was partly destroyed, with a loss of $55,000. — p. 464 ([scan leaf 489](https://archive.org/details/chinayearbook1930000hgww/page/n489/mode/1up))
 
-**April-May, 1937** There were several extensive fires in blocks of Chinese shops and dwellings in Hankow during April and May with a total loss of over $150,000. — p. 464
+**April-May, 1937** There were several extensive fires in blocks of Chinese shops and dwellings in Hankow during April and May with a total loss of over $150,000. — p. 464 ([scan leaf 489](https://archive.org/details/chinayearbook1930000hgww/page/n489/mode/1up))
 
-**June 26, 1937** A fire in a hardware shop in the former British Concession at Hankow cost insurance companies $125,000. — p. 464
+**June 26, 1937** A fire in a hardware shop in the former British Concession at Hankow cost insurance companies $125,000. — p. 464 ([scan leaf 489](https://archive.org/details/chinayearbook1930000hgww/page/n489/mode/1up))
 
-**August 1, 1937** A paint and varnish factory at Hankow was destroyed by fire, with a loss of $28,000. — p. 464
+**August 1, 1937** A paint and varnish factory at Hankow was destroyed by fire, with a loss of $28,000. — p. 464 ([scan leaf 489](https://archive.org/details/chinayearbook1930000hgww/page/n489/mode/1up))
