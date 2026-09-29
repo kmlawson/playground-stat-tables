@@ -46,7 +46,7 @@ BOOKS = [
      "publisher": "K. Inahara, ed.; Tokyo: The Foreign Affairs Association of Japan, 1935",
      "blurb": "English-language annual on the Japanese Empire in 1935, covering geography, population, government, defence, finance, banking, trade, agriculture, industry, communications, social affairs, education, the colonies and Manchoukuo.",
      "source": "LLM-transcribed from the Internet Archive scan.",
-     "in_progress": True,
+     "gaps": "Only tables and lists are transcribed; prose, the Chronicle of Important Events, the Chronological Index and the Calendar of Annual Events are not. Printed pp. 81 and 683 are missing from the scan (repeat scans of other pages were skipped). The heavy bold type makes 3 and 8 hard to tell apart: such digits are blank unless a printed total settles them, so many cells are empty. The List of Clubs, Societies and Associations is on the Directories page.",
      "scan": "https://archive.org/details/japan-year-book-1935/page/n{leaf}/mode/1up",
      "item": "https://archive.org/details/japan-year-book-1935"},
     {"slug": "japan-1939-40", "dir": "Japan_Year_Book_1939-40", "title": "The Japan Year Book 1939-40",
