@@ -9,6 +9,7 @@ Every statistical table printed in English-language official yearbooks on Japan 
 | *The Japan Year Book 1920–21* | [japan-1920-21/](../book/japan-1920-21/) |
 | *The Manchoukuo Year Book 1942* | [manchoukuo-1942/](../book/manchoukuo-1942/) |
 | *Annual Report on Administration of Chosen 1929–30* (Korea) | [korea-1929-30/](../book/korea-1929-30/) |
+| *朝鮮年鑑 1925* (Chōsen nenkan, Korea, in Japanese) | [korea-1925/](../book/korea-1925/) |
 | *The Japan Year Book 1930* | [japan-1930/](../book/japan-1930/) |
 | *The Japan Year Book 1935* | [japan-1935/](../book/japan-1935/) |
 | *The Japan Year Book 1939–40* | [japan-1939-40/](../book/japan-1939-40/) |
