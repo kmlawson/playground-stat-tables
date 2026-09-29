@@ -138,6 +138,10 @@ def main():
     os.makedirs(OUT, exist_ok=True)
     for b in bs.BOOKS:
         tables = bs.load(b)
+        committed = os.path.join(bs.HERE, "data", b["slug"] + ".json")
+        if not tables and os.path.exists(committed):  # book folder not on this machine: use the committed data
+            with open(committed, encoding="utf-8") as fh:
+                tables = json.load(fh)
         for t in tables:
             t["scans"] = bs.scan_links(b, t)
         if tables:
