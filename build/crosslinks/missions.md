@@ -17,3 +17,11 @@ X16 | done | china--army-and-navy china--finance china--shipping china--educatio
 X17 | done | china--public-health china--labour china--colonies-leased-territories-and-concessions china--greater-china china--international-problems china--miscellaneous china-handbook--general-information china-handbook--government-structure china-handbook--political-parties china-handbook--public-finance china-handbook--communications china-handbook--courts-police-and-prisons
 X18 | done | china-handbook--military-affairs-and-defence china-handbook--education china-handbook--industry china-handbook--labour china-handbook--mineral-resources china-handbook--money-and-banking china-handbook--foreign-trade china-handbook--agriculture
 X19 | done | china-handbook--prices china-handbook--public-health-and-medicine china-handbook--the-press china-handbook--relief
+U01 | done | japan-1935 update: japan--industry
+U02 | done | japan-1935 update: japan--south-manchuria-and-manchoukuo japan--progress-of-science japan--religion
+U03 | done | japan-1935 update: japan--great-cities japan--customs-tariff japan--amusements
+U04 | done | japan-1935 update: japan--education japan--press-and-publications japan--arts-literature-and-music
+U05 | done | japan-1935 update: japan--medicine-and-sanitation japan--charity-relief-and-social-work japan--justice-police-and-prisons
+U06 | done | japan-1935 update: japan--communications-post-telegraph-telephone japan--railways-and-land-transport japan--shipping-and-shipbuilding
+U07 | done | japan-1935 update: japan--labour japan--public-utilities japan--sports
+U08 | done | japan-1935 update: japan--korea-chosen japan--taiwan-formosa japan--karafuto-saghalien japan--south-sea-islands

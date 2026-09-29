@@ -1,0 +1,17 @@
+You are adding a newly finished edition to an existing cross-edition table matching, so a website can link "similar tables" between editions of The Japan Year Book and show them side by side.
+
+Working folder: /Volumes/Oma/Yale Backup/To Process/The Manchoukuo Year Book 1942/stat-tables-site/build/crosslinks
+Your mission U03 covers these listing files (in listings/): japan--great-cities.txt, japan--customs-tariff.txt, japan--amusements.txt
+The NEW edition is japan-1935: its tables in these listings are the ones to place. Lines for all editions are in the listing:
+  slug | id | chapter | printed pages | title | caption | column headings | first-column row labels
+If a line is not enough to decide, you may look up the full table in ../../data/<slug>.json (a list of tables; match on "id") with a short python3 script. Work only from these JSON/text files; there are no scans to look at and no OCR is involved.
+
+For each listing X.txt, families/X.json may already exist ({"listing": "X", "families": [{"label", "members": ["<slug>/<id>", ...], "note"}]}). Do NOT remove or reshuffle existing members. Your job:
+1. For each japan-1935 table in the listing that is not already a member of a family in families/X.json, decide whether it is THE SAME RECURRING TABLE as an existing family (then add "japan-1935/<id>" to that family's members, in edition order), or as a table in another edition that is not yet in any family (then create a new family with both), or neither (leave it out).
+2. If families/X.json does not exist, build it from scratch over all editions in the listing.
+
+Same recurring table = same subject AND the same kind of breakdown (e.g. "population by prefecture", "imports by country", "births by year") AND comparable measures; years, units, title wording, column order and row counts may differ. Not the same: a different breakdown, sub-population, region or unit of analysis. A family must span at least two editions; add two or more tables from japan-1935 to one family only when 1935 split that table into pieces. A table belongs to at most one family. Be conservative: a wrong link is worse than a missing one.
+Labels are short neutral names; "note" only for something a reader should know (e.g. "1935 gives rates per 1,000"). Keep existing labels and notes unless a 1935 difference needs noting.
+
+Write each families/X.json back (valid JSON, UTF-8) and validate it with python3 -c "import json;json.load(open('families/X.json'))".
+When done, reply with one line per listing: name, 1935 tables added to existing families, new families created. Nothing else.
