@@ -65,6 +65,8 @@ def xlsx(book, tables):
         ws = wb.create_sheet(name)
         put(ws, [label(t)])
         ws["A1"].font = Font(bold=True, size=13)
+        if t.get("en"):
+            put(ws, [f'{t["en"]["t"]}: {t["en"]["d"]} (Note: LLM translation)'])
         meta = [t.get("chapter") or "", "printed pp. " + ", ".join(t.get("printed_pages") or [])]
         put(ws, [" · ".join(x for x in meta if x)])
         if t.get("caption_extra"):
@@ -144,6 +146,7 @@ def main():
                 tables = json.load(fh)
         for t in tables:
             t["scans"] = bs.scan_links(b, t)
+        bs.add_english(b, tables)
         if tables:
             print(xlsx(b, tables))
         for kind in ("directory", "chronology"):
