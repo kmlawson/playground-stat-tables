@@ -12,6 +12,7 @@ Every statistical table printed in English-language official yearbooks on Japan 
 | *朝鮮年鑑 1925* (Korea, in Japanese) | [korea-1925/](../book/korea-1925/) |
 | *朝鮮事情 1935* (Korea, in Japanese) | [korea-1935/](../book/korea-1935/) |
 | *朝鮮事情 1940* (Korea, in Japanese) | [korea-1940/](../book/korea-1940/) |
+| *朝鮮事情 1942* (Korea, in Japanese) | [korea-1942/](../book/korea-1942/) |
 | *朝鮮事情 1944* (Korea, in Japanese) | [korea-1944/](../book/korea-1944/) |
 | *The Japan Year Book 1930* | [japan-1930/](../book/japan-1930/) |
 | *The Japan Year Book 1935* | [japan-1935/](../book/japan-1935/) |
