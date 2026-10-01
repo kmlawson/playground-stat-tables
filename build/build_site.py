@@ -71,8 +71,8 @@ BOOKS = [
      "gaps": "The Internet Archive scan is missing the text page beside each photo plate (printed pp. 66, 74, 82, 92, 96, 100, 104, 140, 152 and 172), as well as the appendix tables of weights and measures and of governors. On p. 13 the Total column is in a different typeface from the rest of the table, which may mean the scan was retouched.",
      "scan": "https://archive.org/details/annualreportonreformsandprogressinchosenkorea192930/page/n{leaf}/mode/1up",
      "item": "https://archive.org/details/annualreportonreformsandprogressinchosenkorea192930"},
-    {"slug": "korea-1925", "dir": "Chosen_Nenkan_1925",
-     "title": "朝鮮年鑑 1925", "subtitle": "Chōsen nenkan (Korea Yearbook), 1925",
+    {"slug": "korea-nenkan-1926", "dir": "Chosen_Nenkan_1925",
+     "title": "朝鮮年鑑 1926", "subtitle": "Chōsen nenkan (Korea Yearbook), 大正十五年版 (Taishō 15 edition), published 1925",
      "publisher": "朝鮮ガイダンス社, 1925 (大正十四年十一月發行)",
      "blurb": "A Japanese-language annual of colonial Korea: land and population, administration and officials, schools, courts and police, communications, finance, banking, agriculture, fisheries, forestry, sericulture, companies, newspapers and prices. Tables are given in Japanese with the old character forms as printed and Arabic numerals.",
      "source": "LLM-transcribed from the National Diet Library scan.",
@@ -424,7 +424,8 @@ def landing(cards):
     other = sorted([(sl, h) for g, sl, h in items if g == "other"], key=lambda x: order.get(x[0].rsplit("-", 1)[0], 9))
     names = {"japan": "Japan", "china": "China", "korea": "Korea", "other": "Other"}
     body = {g: "\n".join(h for gg, sl, h in items if gg == g) for g in ("japan", "china")}
-    body["korea"] = "\n".join(h for g, sl, h in sorted((x for x in items if x[0] == "korea"), key=lambda x: x[1]))  # by year
+    year = {b["slug"]: edition(b) for b in BOOKS}
+    body["korea"] = "\n".join(h for g, sl, h in sorted((x for x in items if x[0] == "korea"), key=lambda x: (year[x[1]], x[1])))  # by edition year
     body["other"] = "\n".join(h for _, h in other)
     grids = "".join(f'<section class="grp" id="{g}"><h2 class="grph">{names[g]}</h2><div class="grid">{body[g]}</div></section>'
                     for g in ("japan", "china", "korea", "other"))
