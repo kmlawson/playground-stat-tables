@@ -1,4 +1,4 @@
-# 朝鮮年鑑 1925 (Chōsen nenkan) — Who's Who & Directories
+# 朝鮮年鑑 1925 — Who's Who & Directories
 
 47 entries, LLM-transcribed. These entries were transcribed by the vision model of Opus 5.5. Before using any of these details, you must verify specific details with the original source which is linked to whenever possible.
 

@@ -72,7 +72,7 @@ BOOKS = [
      "scan": "https://archive.org/details/annualreportonreformsandprogressinchosenkorea192930/page/n{leaf}/mode/1up",
      "item": "https://archive.org/details/annualreportonreformsandprogressinchosenkorea192930"},
     {"slug": "korea-1925", "dir": "Chosen_Nenkan_1925",
-     "title": "朝鮮年鑑 1925 (Chōsen nenkan)",
+     "title": "朝鮮年鑑 1925", "subtitle": "Chōsen nenkan (Korea Yearbook), 1925",
      "publisher": "朝鮮ガイダンス社, 1925 (大正十四年十一月發行)",
      "blurb": "A Japanese-language annual of colonial Korea: land and population, administration and officials, schools, courts and police, communications, finance, banking, agriculture, fisheries, forestry, sericulture, companies, newspapers and prices. Tables are given in Japanese with the old character forms as printed and Arabic numerals.",
      "source": "LLM-transcribed from the National Diet Library scan.",
@@ -80,7 +80,7 @@ BOOKS = [
      "scan": "https://dl.ndl.go.jp/pid/976190/1/{leaf}",
      "item": "https://dl.ndl.go.jp/pid/976190"},
     {"slug": "korea-1935", "dir": "Chosen_Jijo_1935",
-     "title": "朝鮮事情 1935 (Chōsen jijō, 昭和十年版)",
+     "title": "朝鮮事情 1935", "subtitle": "Chōsen jijō (Conditions in Korea), 昭和十年版 (Shōwa 10 edition)",
      "publisher": "朝鮮總督府, 京城, 1934 (昭和九年十二月發行)",
      "blurb": "Chōsen jijō (朝鮮事情), 1935 (Shōwa 10) edition, published by the Government-General of Korea in December 1934, is the colonial government's official handbook on Korea, surveying in 23 chapters its geography and population, transport and communications, local administration, social work, education, public finance and banking, government monopolies, agriculture, commerce, industry, trade, forestry, mining, fisheries, rites and religion, police, public health, justice, mapping, historical research and military affairs, and Koreans in Manchuria. Its tables give mostly 1933–34 figures: population and households by province, occupation and Japanese home prefecture; railways, shipping, postal savings and utilities; tax rates; schools; banks and financial associations; tobacco, ginseng, salt and opium; crops, grain inspection, livestock and warehouses; companies, industrial output and trade by country, port and commodity; forestry and erosion control; mining claims and output; fisheries; royal halls, tombs and Confucian academies; police and medical personnel; and the deployment of the army in Korea. Tables are given in Japanese with the old character forms as printed and Arabic numerals.",
      "source": "LLM-transcribed from the National Diet Library scan.",
@@ -88,7 +88,7 @@ BOOKS = [
      "scan": "https://dl.ndl.go.jp/pid/1225098/1/{leaf}",
      "item": "https://dl.ndl.go.jp/pid/1225098"},
     {"slug": "korea-1940", "dir": "Chosen_Jijo_1940",
-     "title": "朝鮮事情 1940 (Chōsen jijō, 昭和十五年版)",
+     "title": "朝鮮事情 1940", "subtitle": "Chōsen jijō (Conditions in Korea), 昭和十五年版 (Shōwa 15 edition)",
      "publisher": "朝鮮總督府, 京城, 1939 (昭和十四年十二月發行)",
      "blurb": "Chōsen jijō (朝鮮事情), 1940 (Shōwa 15) edition, is the Government-General of Korea's official handbook on the colony, surveying in 27 chapters its geography and population, administration, finance and taxation, education, justice, police, public health, monopolies, transport and communications, banking, agriculture, forestry, fisheries, mining, industry, commerce, trade, social work, wartime mobilization and military affairs, and Koreans abroad. The tables in the text give mostly 1938–39 figures (population and households, tax rates, schools, medical facilities, railways and shipping, banks, crops and livestock, erosion-control plans, mining claims, trade by country and port, Korean settlers in Manchuria), while the appendix of 84 reference statistical tables sets 1910–11 against 1938 figures, often alongside Japan proper and the other colonies. A list of cities, counties and islands printed on the back of the folding map completes the set. Tables are given in Japanese with the old character forms as printed and Arabic numerals.",
      "source": "LLM-transcribed from the National Diet Library scan.",
@@ -96,7 +96,7 @@ BOOKS = [
      "scan": "https://dl.ndl.go.jp/pid/1114413/1/{leaf}",
      "item": "https://dl.ndl.go.jp/pid/1114413"},
     {"slug": "korea-1944", "dir": "Chosen_Jijo_1944",
-     "title": "朝鮮事情 1944 (Chōsen jijō, 昭和十九年版)",
+     "title": "朝鮮事情 1944", "subtitle": "Chōsen jijō (Conditions in Korea), 昭和十九年版 (Shōwa 19 edition)",
      "publisher": "朝鮮總督府, 京城, 1943 (昭和十八年十二月發行)",
      "blurb": "Chōsen jijō (朝鮮事情), 1944 (Shōwa 19) edition, is the Government-General of Korea's official handbook on the colony, surveying in 27 chapters its geography and population, administration, agriculture, forestry, fisheries, mining, industry, commerce, finance and banking, trade, monopolies, transport and communications, shrines and religion, education, justice, social work, military relief, police, public health, wartime mobilization, price control and propaganda, military affairs, and Koreans abroad. The tables in the text give mostly 1941–43 figures (population by province and occupation, crops and sericulture, forestry and erosion control, mining claims, banks and financial associations, railway and tramway lines, postal services, schools, medical facilities, military districts, Korean settlers in Manchuria), while the appendix of 69 reference statistical tables sets 1910–11 against early-1940s figures, often alongside Japan proper and the other colonies. A list of cities, islands and counties printed on the back of the folding map completes the set. Tables are given in Japanese with the old character forms as printed and Arabic numerals.",
      "source": "LLM-transcribed from the National Diet Library scan.",
@@ -375,7 +375,7 @@ def main():
                    .replace("__DIRLINK__", ('<a class="dirbtn" href="directory.html">Directories</a>' if b.get("_dir_n") else "")
                             + ('<a class="dirbtn" href="chronology.html">Chronologies</a>' if b.get("_chron_n") else "")
                             + (f'<button class="aboutbtn" onclick="document.getElementById(\'about\').showModal()">About</button>'
-                               f'<dialog id="about" onclick="if(event.target===this)this.close()"><h3>{html.escape(b["title"])}</h3><div class="pub">{html.escape(b["publisher"])}</div>'
+                               f'<dialog id="about" onclick="if(event.target===this)this.close()"><h3>{html.escape(b["title"])}</h3>{f'<div class="pub">{html.escape(b["subtitle"])}</div>' if b.get("subtitle") else ""}<div class="pub">{html.escape(b["publisher"])}</div>'
                                f'<p>{html.escape(b["gaps"])}</p><form method="dialog"><button>Close</button></form></dialog>' if b.get("gaps") else "")))
             with open(os.path.join(HERE, "book", b["slug"], "index.html"), "w", encoding="utf-8") as fh:
                 fh.write(doc)
@@ -464,6 +464,7 @@ TEMPLATE = r"""<!DOCTYPE html>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&display=swap">
+<script src="../../fold.js"></script>
 <title>__BOOK__ · Tables</title>
 <style>
 :root{--bg:#f4f5f3;--panel:#ffffff;--ink:#1b2420;--muted:#5d6a62;--line:#d8ded9;--accent:#1f4a2c;--accent-ink:#ffffff;--hi:#e2ece4;--warn:#8a5a00}
@@ -572,17 +573,17 @@ const $=s=>document.querySelector(s);
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const isNum=s=>/^[\s(]*[-—–]?[\d.,]+[)*%]*\s*$/.test(s)||/^[—–-]$/.test(s.trim())||s.trim()==="...";
 const warnRe=/not reconcile|unreadable|illegible|uncertain|could not|does not/i;
-T.forEach(t=>{t._text=[t.title,t.en&&t.en.t,t.en&&t.en.d,t.table_no,t.caption_extra,t.context,t.chapter,...(t.parts||[]).flatMap(p=>[p.label,...p.columns,...p.rows.flat()]),...(t.footnotes||[])].join(" ").toLowerCase();
+T.forEach(t=>{t._text=fold([t.title,t.en&&t.en.t,t.en&&t.en.d,t.table_no,t.caption_extra,t.context,t.chapter,...(t.parts||[]).flatMap(p=>[p.label,...p.columns,...p.rows.flat()]),...(t.footnotes||[])].join(" ").toLowerCase());
  t._warn=(t.transcriber_notes||[]).some(n=>warnRe.test(n));});
 const chapters=[...new Set(T.map(t=>t.chapter||"(no chapter)"))];
 chapters.forEach(c=>$("#ch").insertAdjacentHTML("beforeend",`<option value="${esc(c)}">${esc(c)}${CHEN[c]?" — "+esc(CHEN[c]):""}</option>`));
 function label(t){return (t.table_no?`Table ${t.table_no}. `:"")+(t.title||"")+(t.continued?" (continued)":"")}
-function renderList(){const q=$("#q").value.trim().toLowerCase(),ch=$("#ch").value,fl=$("#flag").checked;let h="",last=null,n=0;
+function renderList(){const q=fold($("#q").value.trim().toLowerCase()),ch=$("#ch").value,fl=$("#flag").checked;let h="",last=null,n=0;
  T.forEach((t,i)=>{if(ch&&(t.chapter||"(no chapter)")!==ch)return;if(fl&&!t._warn)return;if(q&&!q.split(/\s+/).every(w=>t._text.includes(w)))return;
   const c=t.chapter||"(no chapter)";if(c!==last){h+=`<div class="ch" data-ch="${esc(c)}">${esc(c)}${chE(c)}</div>`;last=c}
   h+=`<a href="#${t.id}" data-i="${i}">${esc(label(t))}<small>p. ${esc((t.printed_pages||[]).join(", "))}${HIDEIMG?"":" · "+esc(t.image)}${t._warn?" · ⚠":""}</small></a>`;n++});
  $("#list").innerHTML=h||"<p style='padding:10px'>No matches.</p>";mark()}
-function hl(s,q){s=esc(s);if(!q)return s;q.split(/\s+/).filter(Boolean).forEach(w=>{s=s.replace(new RegExp("("+w.replace(/[.*+?^${}()|[\]\\]/g,"\\$&")+")","ig"),"<mark>$1</mark>")});return s}
+function hl(s,q){s=esc(s);if(!q)return s;q.split(/\s+/).filter(Boolean).forEach(w=>{s=s.replace(new RegExp("("+foldRe(w)+")","ig"),"<mark>$1</mark>")});return s}
 function csv(t){const L=[];(t.parts||[]).forEach(p=>{if(p.label)L.push([p.label]);L.push(p.columns);p.rows.forEach(r=>L.push(r));L.push([])});
  return L.map(r=>r.map(c=>/[",\n]/.test(c??"")?'"'+String(c).replace(/"/g,'""')+'"':(c??"")).join(",")).join("\n")}
 function tableHTML(t,q,other){let h=`<section class="tbl" id="t-${t.id}"><h2><a href="#${t.id}">${hl(label(t),q)}</a></h2>${t.en?`<p class="en"><b>${hl(t.en.t,q)}</b>: ${hl(t.en.d,q)} <span class="enn">(Note: LLM translation)</span></p>`:""}<div class="sub">${esc(t.chapter||"")} · printed page${(t.printed_pages||[]).length>1?"s":""} ${esc((t.printed_pages||[]).join(", "))}${HIDEIMG?"":` · ${/^p\d/.test(t.image||"")?"scan leaf":"photo"} ${esc((t.images||[t.image]).join(", "))}`}</div>`;
@@ -625,7 +626,7 @@ async function showCmp(){if(!cmpS||mode!=="one"){closeCmp();return}
 $("#cmp").addEventListener("change",e=>{if(e.target.id!=="cmpsel")return;const v=e.target.value,i=v.indexOf("/");cmpS=v.slice(0,i);cmpId=v.slice(i+1);showCmp()});
 $("#cmp").addEventListener("click",e=>{if(e.target.id==="cmpx"){closeCmp();return}const b=e.target.closest("button[data-act]");if(b&&cmpT)act(b,cmpT)});
 const LLMWARN=`<div class="llmwarn" role="note"><b>Warning:</b> These tables were transcribed by the vision model of Opus 5.5. Before using any of these figures, you must verify specific statistics with the original source which is linked to whenever possible.</div>`;
-function filtered(){const q=$("#q").value.trim().toLowerCase(),ch=$("#ch").value,fl=$("#flag").checked;
+function filtered(){const q=fold($("#q").value.trim().toLowerCase()),ch=$("#ch").value,fl=$("#flag").checked;
  return T.filter(t=>(!ch||(t.chapter||"(no chapter)")===ch)&&(!fl||t._warn)&&(!q||q.split(/\s+/).every(w=>t._text.includes(w))))}
 let mode="one",cur=null;
 function showHome(){mode="home";cur=null;closeCmp();const n={};T.forEach(t=>{const c=t.chapter||"(no chapter)";n[c]=(n[c]||0)+1});
@@ -814,6 +815,7 @@ def build_chronology(book):
 DIRTEMPLATE = r"""<!DOCTYPE html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&display=swap">
+<script src="../../fold.js"></script>
 <title>__BOOK__ · Directories</title>
 <style>
 :root{--bg:#f4f5f3;--panel:#ffffff;--ink:#1b2420;--muted:#5d6a62;--line:#d8ded9;--accent:#1f4a2c;--accent-ink:#ffffff;--hi:#e2ece4;--warn:#8a5a00}
@@ -858,7 +860,7 @@ mark{background:#f3e3a0;color:inherit}
 const E=__DATA__;
 const $=s=>document.querySelector(s);
 const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
-const norm=s=>s.normalize("NFD").replace(/[̀-ͯ]/g,"").toLowerCase();
+const norm=s=>fold(s.normalize("NFD").replace(/[̀-ͯ]/g,"").toLowerCase());
 E.forEach(e=>{e._n=norm(e.n);e._all=norm(e.n+" "+e.t+" "+e.s)});
 const groups=[...new Set(E.map(e=>e.a+(e.s?" — "+e.s:"")))];
 const apps=[...new Set(E.map(e=>e.a))];
@@ -895,6 +897,7 @@ run();
 SEARCH = r"""<!DOCTYPE html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&display=swap">
+<script src="fold.js"></script>
 <title>Full Search · Old Year Book Tables of East Asia</title>
 <style>
 :root{--bg:#f4f5f3;--panel:#ffffff;--ink:#1b2420;--muted:#5d6a62;--line:#d8ded9;--accent:#1f4a2c;--accent-ink:#ffffff;--hi:#e2ece4;--warn:#8a5a00;--mark:#f3e3a0}
@@ -933,7 +936,7 @@ mark{background:var(--mark);color:inherit}
 const BOOKS=__BOOKS__;
 const $=s=>document.querySelector(s);
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
-const norm=s=>String(s??"").normalize("NFD").replace(/[̀-ͯ]/g,"").toLowerCase();
+const norm=s=>fold(String(s??"").normalize("NFD").replace(/[̀-ͯ]/g,"").toLowerCase());
 function hl(s,terms){s=String(s??"");const n=norm(s);let marks=[];terms.forEach(t=>{let i=0;while(t&&(i=n.indexOf(t,i))>-1){marks.push([i,i+t.length]);i+=t.length}});
  if(!marks.length)return esc(s);marks.sort((a,b)=>a[0]-b[0]);let out="",pos=0;marks.forEach(([a,b])=>{if(a<pos)return;out+=esc(s.slice(pos,a))+"<mark>"+esc(s.slice(a,b))+"</mark>";pos=b});return out+esc(s.slice(pos))}
 const WHO=/who.?s who|contemporary worthies/i;
