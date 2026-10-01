@@ -10,9 +10,19 @@ building or pushing anything.
 - **No OCR, ever.** Every figure is read by the model from image crops. No tesseract, Apple Vision, `llm`/
   Gemini, PDF text layers or OCR files — not for transcription and not "just to help". Put this in every
   sub-agent prompt; an agent given a scan and no constraint reaches for a tool.
-- **Blank, never guess.** An unreadable figure is `""` plus a transcriber note. Never infer a digit from a
-  printed total. Transcribe as printed, misprints included; re-add every printed total and note whether it
-  reconciles.
+- **Blank, never guess.** An unreadable figure is never guessed. Transcribe as printed, misprints included;
+  re-add every printed total and note whether it reconciles.
+- **Two kinds of empty cell (rule of 2026-10-01).** A cell that is empty *in the original* is `""`. A cell we
+  could not read is `"[?]"` (the whole cell), plus a transcriber note naming it. Never write partial readings
+  such as `"12[?]"`; `[?]` inside longer text marks an unreadable character. The site shows the two
+  differently (`[?]` = red hatched "?", `""` = plain empty) for books whose BOOKS entry has
+  `"blank_marking": true`; older books, where `""` still means both, keep the grey hatching for every empty cell.
+- **Totals may settle 一/二/三 (rule of 2026-10-01).** A printed total never decides a digit — with one
+  exception: when the only doubt is how a stack of 一/二/三 strokes groups (三 vs 二一 vs 一二, 二 vs 一一), and
+  exactly one of the candidate readings makes the printed row or column total reconcile, use that reading and
+  say so in the note ("一/二/三 grouping settled by the printed total"). Read the strokes first and write the
+  candidates down before doing the arithmetic; if no candidate reconciles, or more than one does, the cell
+  stays `"[?]"`.
 - **Short missions, not long batches.** Each sub-agent gets one short mission sized to finish in under an
   hour: 1–3 dense pages/spreads (trade returns, big multi-part tables), 3–5 ordinary table pages (up to 8 if
   that keeps whole tables together), 10–20 pages of pure prose. Draw the boundaries from a contact sheet of
@@ -45,4 +55,4 @@ building or pushing anything.
   origin/main HEAD`) and that no conflict markers remain. Generated pages conflict on almost every merge:
   resolve by rebuilding, never by hand (see `build/example/guidance.md` §5).
 - Audit agents' "judgement calls": a digit read from its shape, a similar glyph, context, row order or a
-  total is blanked, with the partial reading in the note.
+  total is blanked, with the partial reading in the note (except under the 一/二/三 rule above).

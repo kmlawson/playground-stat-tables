@@ -378,6 +378,7 @@ def main():
                    .replace("__CHEN__", json.dumps(b.get("_chen") or {}, ensure_ascii=False))
                    .replace("__XL__", json.dumps(xl[b["slug"]], ensure_ascii=False).replace("</", "<\\/"))
                    .replace("__HIDEIMG__", "true" if b.get("hide_images") else "false")
+                   .replace("__MARKED__", "true" if b.get("blank_marking") else "false")
                    .replace("__XLSX__", f' · <a href="../../{dl(b["slug"], "tables.xlsx")}" style="color:inherit" download>Excel</a>' if dl(b["slug"], "tables.xlsx") else "")
                    .replace("__CELLS__", f"{c:,}").replace("__BOOK__", html.escape(b["title"]))
                    .replace("__SLUG__", b["slug"]).replace("__SOURCE__", "LLM-transcribed")
@@ -513,6 +514,7 @@ th.sortable[aria-sort="descending"]::after{content:"\25BC";opacity:.9}
 th.sortable:hover{background:var(--hi)}
 td.num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
 td.blank{background:repeating-linear-gradient(45deg,transparent 0 4px,var(--hi) 4px 8px)}
+td.illeg{background:repeating-linear-gradient(45deg,transparent 0 3px,rgba(196,64,40,.28) 3px 6px);color:#b03a24;text-align:center;font-weight:bold}
 tr:hover td{background:var(--hi)}
 tr.sec td:first-child{font-weight:bold;font-style:italic}
 .part{font-weight:bold;margin-top:12px}
@@ -575,6 +577,7 @@ __DIRLINK__<button id="toggle" title="Toggle light/dark">◐</button></header>
 <script>
 const T=__DATA__;
 const HIDEIMG=__HIDEIMG__;
+const MARKED=__MARKED__;
 const XL=__XL__;
 const CHEN=__CHEN__;
 const chE=(c,cls)=>CHEN[c]?`<span class="${cls||"che"}">${esc(CHEN[c])}</span>`:"";
@@ -601,7 +604,7 @@ function tableHTML(t,q,other){let h=`<section class="tbl" id="t-${t.id}"><h2><a 
  if(t.context)h+=`<p class="ctx"><b>Context.</b> ${hl(t.context,q)}</p>`;
  (t.parts||[]).forEach(p=>{if(p.label)h+=`<div class="part">${hl(p.label,q)}</div>`;
   h+=`<div class="tw"><table><thead><tr>${p.columns.map((c,j)=>`<th class="sortable" data-col="${j}" title="Click to sort">${hl(c,q)}</th>`).join("")}</tr></thead><tbody>`;
-  p.rows.forEach((r,ri)=>{const sec=r.length>1&&r.slice(1).every(c=>c==="");h+=`<tr data-i="${ri}"${sec?' class="sec"':""}>`+r.map((c,j)=>`<td class="${j&&isNum(c)?"num":""}${j&&c===""&&!sec?" blank":""}">${hl(c,q)}</td>`).join("")+"</tr>"});
+  p.rows.forEach((r,ri)=>{const sec=r.length>1&&r.slice(1).every(c=>c==="");h+=`<tr data-i="${ri}"${sec?' class="sec"':""}>`+r.map((c,j)=>c==="[?]"?`<td class="illeg" title="Unreadable in the scan">?</td>`:`<td class="${j&&isNum(c)?"num":""}${j&&c===""&&!sec&&!MARKED?" blank":""}"${j&&c===""&&!sec&&MARKED?' title="Blank in the original"':""}>${hl(c,q)}</td>`).join("")+"</tr>"});
   h+="</tbody></table></div>"});
  if((t.footnotes||[]).length)h+=`<div class="notes"><b>Printed notes</b><ul>${t.footnotes.map(n=>`<li>${hl(n,q)}</li>`).join("")}</ul></div>`;
  if((t.transcriber_notes||[]).length)h+=`<div class="notes"><b>Transcriber's notes</b><ul>${t.transcriber_notes.map(n=>`<li class="${warnRe.test(n)?"warn":""}">${esc(n)}</li>`).join("")}</ul></div>`;
