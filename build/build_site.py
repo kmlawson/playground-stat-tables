@@ -175,6 +175,12 @@ BOOKS = [
 ]
 
 
+# Shown on the About card of every book transcribed before the blank-marking rule of 2026-10-01.
+BLANK_NOTE = ('<p class="blanknote"><b>Note:</b> In the early books added to this website, cells that are marked blank '
+              'may be blank because the original was blank, or because the large language model extracting the table '
+              'had difficulty in reading the cell. Read the transcription notes for each table and check the original '
+              'source when in doubt.</p>')
+
 def dl(slug, suffix):
     """Relative path of a download written by build_downloads.py, or None if it hasn't been built."""
     f = f"downloads/{slug}-{suffix}"
@@ -386,7 +392,7 @@ def main():
                             + ('<a class="dirbtn" href="chronology.html">Chronologies</a>' if b.get("_chron_n") else "")
                             + (f'<button class="aboutbtn" onclick="document.getElementById(\'about\').showModal()">About</button>'
                                f'<dialog id="about" onclick="if(event.target===this)this.close()"><h3>{html.escape(b["title"])}</h3>{f'<div class="pub">{html.escape(b["subtitle"])}</div>' if b.get("subtitle") else ""}<div class="pub">{html.escape(b["publisher"])}</div>'
-                               f'<p>{html.escape(b["gaps"])}</p><form method="dialog"><button>Close</button></form></dialog>' if b.get("gaps") else "")))
+                               f'<p>{html.escape(b["gaps"])}</p>{"" if b.get("blank_marking") else BLANK_NOTE}<form method="dialog"><button>Close</button></form></dialog>' if b.get("gaps") else "")))
             with open(os.path.join(HERE, "book", b["slug"], "index.html"), "w", encoding="utf-8") as fh:
                 fh.write(doc)
     with open(os.path.join(HERE, "index.html"), "w", encoding="utf-8") as fh:
