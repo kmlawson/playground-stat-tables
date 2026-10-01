@@ -52,7 +52,7 @@ Adding a book from another session: see [build/example/guidance.md](example/guid
 ## Links between editions
 
 Book pages link each chapter, and each recurring table, to the same chapter or table in other editions of the same
-series (Japan Year Book; China Year Book; China Handbook — never across series), with a side-by-side Compare view.
+series (Japan Year Book; China Year Book; China Handbook; 朝鮮事情 — never across series), with a side-by-side Compare view.
 
 - `build/crosslinks/chapters.py`: hand-made map of matching chapters (topics) per series.
 - `build/crosslinks/families/*.json`: groups of the same recurring table across editions, one file per topic, made by

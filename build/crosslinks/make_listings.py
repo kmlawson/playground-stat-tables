@@ -13,6 +13,10 @@ def cut(s, n): s = re.sub(r'\s+', ' ', str(s or '')); return s if len(s) <= n el
 os.makedirs(os.path.join(HERE, "listings"), exist_ok=True)
 for s, S in SERIES.items():
     data = {b: json.load(open(os.path.join(D, b + ".json"), encoding="utf-8")) for b in S["books"]}
+    tr = {}
+    for b in S["books"]:  # English titles (build/translations/<slug>.json) help with Japanese-language books
+        f = os.path.join(HERE, "..", "translations", b + ".json")
+        tr[b] = json.load(open(f, encoding="utf-8")) if os.path.exists(f) else {}
     for top, m in S["topics"].items():
         L = [f"# Series: {S['name']} — topic: {top}", "# Editions: " + ", ".join(b for b in S['books'] if b in m),
              "# Format: slug | id | chapter | pp. | title | caption | columns | first-column row labels", ""]
@@ -27,7 +31,8 @@ for s, S in SERIES.items():
                 cols = [c for p in parts[:1] for c in p.get("columns", [])]
                 stubs = [r[0] for p in parts[:1] for r in p.get("rows", []) if r and r[0] and r[0] != '"'][:8]
                 L.append(" | ".join([b, t["id"], cut(t.get("chapter"), 30), ",".join(t.get("printed_pages") or []),
-                                     cut((f"Table {t['table_no']}. " if t.get('table_no') else "") + (t.get("title") or ""), 110),
+                                     cut((f"Table {t['table_no']}. " if t.get('table_no') else "") + (t.get("title") or "")
+                                         + (f" [EN: {tr[b][t['id']]['t']}]" if t["id"] in tr[b] else ""), 170),
                                      cut(t.get("caption_extra"), 80), cut("; ".join(cols), 160), cut("; ".join(stubs), 120)]))
         with open(os.path.join(HERE, "listings", f"{s}--{slug(top)}.txt"), "w", encoding="utf-8") as fh:
             fh.write("\n".join(L) + "\n")

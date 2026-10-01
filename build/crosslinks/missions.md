@@ -25,3 +25,7 @@ U05 | done | japan-1935 update: japan--medicine-and-sanitation japan--charity-re
 U06 | done | japan-1935 update: japan--communications-post-telegraph-telephone japan--railways-and-land-transport japan--shipping-and-shipbuilding
 U07 | done | japan-1935 update: japan--labour japan--public-utilities japan--sports
 U08 | done | japan-1935 update: japan--korea-chosen japan--taiwan-formosa japan--karafuto-saghalien japan--south-sea-islands
+J01 | done | korea-jijo--reference-statistical-tables
+J02 | done | korea-jijo--agriculture korea-jijo--banking korea-jijo--finance korea-jijo--forestry
+J03 | done | korea-jijo--transport-and-communications korea-jijo--trade korea-jijo--general-survey korea-jijo--education korea-jijo--public-health korea-jijo--military-affairs korea-jijo--monopolies
+J04 | done | korea-jijo--commerce korea-jijo--fisheries korea-jijo--mining korea-jijo--manufacturing-industry korea-jijo--koreans-abroad korea-jijo--map-of-korea-place-list korea-jijo--maps korea-jijo--police korea-jijo--administration
