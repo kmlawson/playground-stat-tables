@@ -28,10 +28,16 @@ put a sub-heading printed above an unnumbered table in `caption_extra`.
 1. **Read the images with your own eyes (the Read tool on image crops). Do NOT use OCR of any kind** —
    no tesseract, no Apple Vision, no `llm`/Gemini or other image-description service, no PDF text layer,
    no OCR text files that came with the scan. Transcribe what you see.
-2. A figure you cannot read with confidence = **empty string `""`** in that cell, plus an entry in
-   `transcriber_notes` naming the row and column. Never guess a digit: a wrong digit is worse than a blank.
-   **Never use a printed total (or any arithmetic) to decide what a damaged digit is.** You may say in the
-   note what the total would imply. Never write partial readings such as `"12[?]"` into a cell.
+2. A figure you cannot read with confidence = **`"[?]"`** (the whole cell), plus an entry in
+   `transcriber_notes` naming the row and column. A cell that is empty *in the original* is `""`. Never guess a
+   digit: a wrong digit is worse than a blank. **Never use a printed total (or any arithmetic) to decide what a
+   damaged digit is** — you may say in the note what the total would imply — with ONE exception: when the only
+   doubt is how a stack of 一/二/三 strokes groups (三 vs 二一 vs 一二, 二 vs 一一), write down the candidate readings
+   first; if exactly one makes the printed total reconcile, use it **and list that cell in `transcriber_notes`**,
+   e.g. `"Row '京畿道', col '1938': 一/二/三 grouping settled by the printed total (candidates 3,412 / 21,412;
+   only 3,412 reconciles)"`. Every settled cell must have such a note. If none or more than one reconciles, the
+   cell is `"[?]"`. Never write partial readings such as `"12[?]"` into a cell.
+   (Set `"blank_marking": true` in the book's BOOKS entry so the site shows `[?]` and `""` differently.)
 3. Where the table prints a total (row or column), add up the parts yourself (python3) and record in
    `transcriber_notes` whether it reconciles, e.g. `"Total 1,303,437: parts sum to 1,303,337 — does NOT
    reconcile (diff 100)"`. **Never correct the source.** Re-read the cells once more before recording a

@@ -15,14 +15,16 @@ building or pushing anything.
 - **Two kinds of empty cell (rule of 2026-10-01).** A cell that is empty *in the original* is `""`. A cell we
   could not read is `"[?]"` (the whole cell), plus a transcriber note naming it. Never write partial readings
   such as `"12[?]"`; `[?]` inside longer text marks an unreadable character. The site shows the two
-  differently (`[?]` = red hatched "?", `""` = plain empty) for books whose BOOKS entry has
+  differently (`[?]` = red hatching, `""` = plain empty) for books whose BOOKS entry has
   `"blank_marking": true`; older books, where `""` still means both, keep the grey hatching for every empty cell.
 - **Totals may settle 一/二/三 (rule of 2026-10-01).** A printed total never decides a digit — with one
   exception: when the only doubt is how a stack of 一/二/三 strokes groups (三 vs 二一 vs 一二, 二 vs 一一), and
-  exactly one of the candidate readings makes the printed row or column total reconcile, use that reading and
-  say so in the note ("一/二/三 grouping settled by the printed total"). Read the strokes first and write the
-  candidates down before doing the arithmetic; if no candidate reconciles, or more than one does, the cell
-  stays `"[?]"`.
+  exactly one of the candidate readings makes the printed row or column total reconcile, use that reading. Read
+  the strokes first and write the candidates down before doing the arithmetic; if no candidate reconciles, or
+  more than one does, the cell stays `"[?]"`. **Every cell settled this way must be listed in that table's
+  `transcriber_notes`** (rule of 2026-10-01), naming the cell, the candidates and the total, e.g.
+  `"Row '京畿道', col '1938': 一/二/三 grouping settled by the printed total (candidates 3,412 / 21,412; only
+  3,412 reconciles with the column total 41,560)"`. A settled cell with no such note is an error in the check pass.
 - **Short missions, not long batches.** Each sub-agent gets one short mission sized to finish in under an
   hour: 1–3 dense pages/spreads (trade returns, big multi-part tables), 3–5 ordinary table pages (up to 8 if
   that keeps whole tables together), 10–20 pages of pure prose. Draw the boundaries from a contact sheet of
