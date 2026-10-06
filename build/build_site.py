@@ -179,6 +179,15 @@ BOOKS = [
      "dir_pinyin": {"Dairen": "Dalian", "Mukden": "Fengtian", "Hsinking": "Xinjing", "Antung": "Andong", "Port-Arthur": "Lüshun", "Tsitsihar": "Qiqihar", "Kirin": "Jilin", "Manchouli": "Manzhouli", "Peian": "Bei'an", "Taoan": "Tao'an", "Liao-Yang": "Liaoyang", "Pulantien": "Pulandian", "Rashin": "Rajin", "Kungchuling": "Gongzhuling"},
      "dir_places": ["Dairen", "Mukden", "Harbin", "Hsinking", "Antung", "Fushun", "Hailar", "Port-Arthur", "Yingkou", "Tsitsihar", "Kirin", "Manchouli", "Peian", "Taoan", "Liao-Yang", "Pulantien", "Rashin", "Kungchuling"],
      "blank_marking": True},
+    {"slug": "japan-manchoukuo-1940", "dir": "Japan_Manchoukuo_1940", "group": "manchuria",
+     "title": "Japan-Manchoukuo Year Book 1940 (incomplete scan)", "subtitle": "Japan-Manchoukuo Year Book 1940",
+     "publisher": "Japan-Manchoukuo Year Book Co., Tokyo, 1940",
+     "blurb": "The 1940 edition of the Tokyo yearbook covering Japan and Manchoukuo. The online scan holds only part of the book: the opening statistical diagrams, Japan's national defence and airways, the colonies (Chosen, Taiwan, Karafuto and the South Sea Islands), and the whole Manchoukuo part — geography, population and immigration, administration, judicature, diplomacy, defence, education, state finance, banking, communications, transport, agriculture, forestry, fisheries, mining, manufacturing, foreign trade, sanitation, labour, the South Manchuria Railway, economic policy and the Kwantung Leased Territory — with the start of the list of learned and social institutions.",
+     "source": "LLM-transcribed from the Internet Archive scan.",
+     "gaps": "Incomplete scan: printed pp. 16–109, 118–207, 210–503 and 878–1185 are not in the online copy, so most of the Japan part, the Who's Who and the business directory are missing, and the scan ends at p. 1203 in the list of learned and social institutions. Two table fragments whose first page is missing are transcribed as fragments. Only tables, lists and that directory page are transcribed; the running text, photographs, maps, advertisements, charts without printed figures, the contents and the bibliography are not. The pages with tables were found from contact sheets and only those pages were read. Printed totals that do not add up are kept as printed and noted.",
+     "scan": "https://archive.org/details/japan-manchoukuo-year-book-1940/page/n{leaf}/mode/1up",
+     "item": "https://archive.org/details/japan-manchoukuo-year-book-1940",
+     "blank_marking": True},
     {"slug": "manchoukuo-1942", "dir": ".", "title": "The Manchoukuo Year Book 1942",
      "publisher": "Manchoukuo Year Book Co., Hsinking, 1942",
      "blurb": "Official English-language yearbook of Manchukuo: geography, population, finance, banking, trade, agriculture, mining, industry, transport, labour, education and more.",
@@ -483,7 +492,7 @@ def landing(cards):
             stat += f' · <b>{b["_chron_n"]:,}</b> chronology events'
             link += f' <a class="go dirgo" href="book/{b["slug"]}/chronology.html">Chronologies →</a>'
         item = f' · <a href="{b["item"]}">original scan</a>' if b.get("item") else ""
-        grp = next((g for g in ("japan", "china", "korea") if b["slug"].startswith(g)), "manchuria" if b["slug"].startswith("manch") else "other")
+        grp = b.get("group") or next((g for g in ("japan", "china", "korea") if b["slug"].startswith(g)), "manchuria" if b["slug"].startswith("manch") else "other")
         title = f'<a href="book/{b["slug"]}/" style="color:inherit;text-decoration:none">{html.escape(b["title"])}</a>' if n else html.escape(b["title"])
         items.append((grp, b["slug"], f"""<article><h2>{title}</h2><div class="pub">{html.escape(b["publisher"])}</div>
 <div class="stat">{stat}</div><div class="src">LLM-transcribed{item}</div><div class="links">{link}</div></article>"""))
