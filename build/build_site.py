@@ -482,19 +482,20 @@ def landing(cards):
             stat += f' · <b>{b["_chron_n"]:,}</b> chronology events'
             link += f' <a class="go dirgo" href="book/{b["slug"]}/chronology.html">Chronologies →</a>'
         item = f' · <a href="{b["item"]}">original scan</a>' if b.get("item") else ""
-        grp = next((g for g in ("japan", "china", "korea") if b["slug"].startswith(g)), "other")
+        grp = next((g for g in ("japan", "china", "korea") if b["slug"].startswith(g)), "manchuria" if b["slug"].startswith("manch") else "other")
         title = f'<a href="book/{b["slug"]}/" style="color:inherit;text-decoration:none">{html.escape(b["title"])}</a>' if n else html.escape(b["title"])
         items.append((grp, b["slug"], f"""<article><h2>{title}</h2><div class="pub">{html.escape(b["publisher"])}</div>
 <div class="stat">{stat}</div><div class="src">LLM-transcribed{item}</div><div class="links">{link}</div></article>"""))
     order = {"far-east": 0, "manchoukuo": 1}
     other = sorted([(sl, h) for g, sl, h in items if g == "other"], key=lambda x: order.get(x[0].rsplit("-", 1)[0], 9))
-    names = {"japan": "Japan", "china": "China", "korea": "Korea", "other": "Other"}
+    names = {"japan": "Japan", "china": "China", "korea": "Korea", "manchuria": "Manchuria", "other": "Other"}
     body = {g: "\n".join(h for gg, sl, h in items if gg == g) for g in ("japan", "china")}
     year = {b["slug"]: edition(b) for b in BOOKS}
     body["korea"] = "\n".join(h for g, sl, h in sorted((x for x in items if x[0] == "korea"), key=lambda x: (year[x[1]], x[1])))  # by edition year
+    body["manchuria"] = "\n".join(h for g, sl, h in sorted((x for x in items if x[0] == "manchuria"), key=lambda x: (year[x[1]], x[1])))  # by edition year
     body["other"] = "\n".join(h for _, h in other)
     grids = "".join(f'<section class="grp" id="{g}"><h2 class="grph">{names[g]}</h2><div class="grid">{body[g]}</div></section>'
-                    for g in ("japan", "china", "korea", "other"))
+                    for g in ("japan", "china", "korea", "manchuria", "other") if body[g])
     return LANDING.replace("__CARDS__", grids)
 
 
@@ -525,7 +526,7 @@ a{color:var(--accent)}.go{font-size:15px;text-decoration:none;font-weight:bold}.
 footer{margin-top:24px;font-size:13px;color:var(--muted);border-top:1px solid var(--line);padding-top:14px}
 </style></head><body><div class="band"><div>
 <h1>Old Year Book Tables of East Asia</h1>
-<div class="topnav"><a class="searchbtn" href="search.html">Full Search</a><nav class="jump" id="jump"><a href="#japan" id="j-japan">Japan</a><a href="#china" id="j-china">China</a><a href="#korea">Korea</a><a href="#other">Other</a></nav></div>
+<div class="topnav"><a class="searchbtn" href="search.html">Full Search</a><nav class="jump" id="jump"><a href="#japan" id="j-japan">Japan</a><a href="#china" id="j-china">China</a><a href="#korea">Korea</a><a href="#manchuria">Manchuria</a><a href="#other">Other</a></nav></div>
 </div></div>
 <main>
 <div id="groups">
