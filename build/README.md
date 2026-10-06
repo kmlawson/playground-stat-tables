@@ -7,6 +7,7 @@ Every statistical table printed in English-language official yearbooks on Japan 
 | *The Japan Year Book 1905* | [japan-1905/](../book/japan-1905/) |
 | *The Japan Year Book 1910* | [japan-1910/](../book/japan-1910/) |
 | *The Japan Year Book 1920–21* | [japan-1920-21/](../book/japan-1920-21/) |
+| *Report on Progress in Manchuria 1929* (1907–1928) | [manchuria-1929/](../book/manchuria-1929/) |
 | *The Manchoukuo Year Book 1942* | [manchoukuo-1942/](../book/manchoukuo-1942/) |
 | *Annual Report on Administration of Chosen 1929–30* (Korea) | [korea-1929-30/](../book/korea-1929-30/) |
 | *朝鮮年鑑 1926* (大正十五年版; Korea, in Japanese) | [korea-nenkan-1926/](../book/korea-nenkan-1926/) |
