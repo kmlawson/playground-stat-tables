@@ -61,7 +61,10 @@ const sel=$("#ap");
 const addApp=a=>{const o=document.createElement("option");o.value="A:"+a;o.textContent=a;sel.appendChild(o);
  groups.filter(g=>g.startsWith(a+" — ")).forEach(g=>{const o=document.createElement("option");o.value="G:"+g;o.textContent="   "+g.slice(a.length+3);sel.appendChild(o)})};
 if(PLACES.length){const isP=a=>PLACES.includes(a.split(" ")[0]),cmp=(x,y)=>x.localeCompare(y);
- apps.filter(isP).sort(cmp).forEach(addApp);const sp=document.createElement("option");sp.disabled=true;sp.textContent="──────────";sel.appendChild(sp);apps.filter(a=>!isP(a)).sort(cmp).forEach(addApp)}
+ const opt=(v,t)=>{const o=document.createElement("option");o.value=v;o.textContent=t;sel.appendChild(o)};
+ apps.filter(isP).sort(cmp).forEach(a=>opt("A:"+a,a));const sp=document.createElement("option");sp.disabled=true;sp.textContent="──────────";sel.appendChild(sp);
+ const rest=apps.filter(a=>!isP(a)).map(a=>["A:"+a,a]).concat(groups.filter(g=>g.includes(" — ")).map(g=>{const i=g.indexOf(" — "),a=g.slice(0,i),sub=g.slice(i+3);return["G:"+g,isP(a)?`${sub} (${a.split(" ")[0]})`:`${a}: ${sub}`]}));
+ rest.sort((x,y)=>cmp(x[1],y[1])).forEach(([v,t])=>opt(v,t))}
 else apps.forEach(addApp);
 function hl(s,terms){s=esc(s);if(!terms.length)return s;
  // highlight accent-insensitively by matching on normalised text
