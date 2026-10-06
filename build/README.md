@@ -10,6 +10,7 @@ Every statistical table printed in English-language official yearbooks on Japan 
 | *The Manchoukuo Year Book 1942* | [manchoukuo-1942/](../book/manchoukuo-1942/) |
 | *Annual Report on Administration of Chosen 1929–30* (Korea) | [korea-1929-30/](../book/korea-1929-30/) |
 | *朝鮮年鑑 1926* (大正十五年版; Korea, in Japanese) | [korea-nenkan-1926/](../book/korea-nenkan-1926/) |
+| *朝鮮年鑑 1940* (昭和十五年度版; Korea, in Japanese) | [korea-nenkan-1940/](../book/korea-nenkan-1940/) |
 | *朝鮮事情 1935* (Korea, in Japanese) | [korea-1935/](../book/korea-1935/) |
 | *朝鮮事情 1940* (Korea, in Japanese) | [korea-1940/](../book/korea-1940/) |
 | *朝鮮事情 1942* (Korea, in Japanese) | [korea-1942/](../book/korea-1942/) |
