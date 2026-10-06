@@ -902,7 +902,7 @@ def build_directory(book):
         json.dump(entries, fh, ensure_ascii=False, indent=1)
     data = json.dumps(entries, ensure_ascii=False).replace("</", "<\\/")
     desc = f"{len(entries):,} entries" + section_summary(e["a"] for e in entries)
-    doc = (DIRTEMPLATE.replace("__DATA__", data).replace("__PLACES__", json.dumps(book.get("dir_places", []))).replace("__COUNT__", f"{len(entries):,}").replace("__DESC__", html.escape(desc))
+    doc = (DIRTEMPLATE.replace("__DATA__", data).replace("__PLACES__", json.dumps(book.get("dir_places", []))).replace("__DIRCARDS__", dir_cards(book)).replace("__COUNT__", f"{len(entries):,}").replace("__DESC__", html.escape(desc))
            .replace("__BOOK__", html.escape(book["title"])).replace("__SLUG__", book["slug"])
            .replace("__PROG__", " · <i>transcription in progress</i>" if book.get("dir_in_progress") else "")
            .replace("__MD__", f' · <a href="../../{dl(book["slug"], "directory.md")}" download>Markdown</a>' if dl(book["slug"], "directory.md") else ""))
@@ -933,7 +933,7 @@ def build_chronology(book):
     with open(os.path.join(HERE, "data", book["slug"] + "-chronology.json"), "w", encoding="utf-8") as fh:
         json.dump(events, fh, ensure_ascii=False, indent=1)
     data = json.dumps(events, ensure_ascii=False).replace("</", "<\\/")
-    doc = (DIRTEMPLATE.replace("__DATA__", data).replace("__PLACES__", "[]").replace("__COUNT__", f"{len(events):,}")
+    doc = (DIRTEMPLATE.replace("__DATA__", data).replace("__PLACES__", "[]").replace("__DIRCARDS__", "null").replace("__COUNT__", f"{len(events):,}")
            .replace("__BOOK__", html.escape(book["title"])).replace("__SLUG__", book["slug"])
            .replace("__PROG__", " · <i>transcription in progress</i>" if book.get("in_progress") else "")
            .replace("· Directories", "· Chronologies").replace("-directory.json", "-chronology.json")
@@ -976,6 +976,10 @@ main{max-width:900px;margin:0 auto;padding:10px 16px 60px}
 .e{background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--accent);padding:9px 12px;margin:0 0 8px}
 .e b{font-size:15.5px}
 .e .t{font-size:14.5px}
+#toc h2{margin:4px 0 6px;font-size:20px}#toc h3{margin:14px 0 8px;font-size:16px}
+.tocgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,190px),1fr));gap:8px;margin-bottom:6px}
+.tocbtn{display:block;padding:8px 10px;border:1px solid var(--line);border-radius:6px;background:var(--panel);color:var(--ink);text-decoration:none;font-weight:bold;font-size:15px;line-height:1.25}
+.tocbtn:hover{border-color:var(--accent)}.tocbtn small{display:block;color:var(--muted);font-weight:normal;font-size:12px;margin-top:2px}
 .e .l2{margin-top:2px}
 .e .m{font-size:12.5px;color:var(--muted);margin-top:3px}
 .e .m a{color:var(--accent)}
@@ -993,7 +997,7 @@ mark{background:#f3e3a0;color:inherit}
 <label style="font-size:13px"><input type="checkbox" id="nameonly"> names only</label>
 <label style="font-size:13px" id="jflab" hidden><input type="checkbox" id="jafirst"> 日本語 first</label>
 <div id="cnt"></div></div></div>
-<main><div id="out"></div><button id="more" hidden>Show more</button>
+<main><div id="toc"></div><div id="out"></div><button id="more" hidden>Show more</button>
 <div class="llmwarn" role="note"><b>Warning:</b> These entries were transcribed by the vision model of Opus 5.5. Before using any of them, you must verify specific details with the original source which is linked to whenever possible.</div></main>
 <script>
 const E=__DATA__;
@@ -1002,7 +1006,7 @@ const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",
 const norm=s=>fold(s.normalize("NFD").replace(/[̀-ͯ]/g,"").toLowerCase());
 E.forEach(e=>{e._n=norm(e.n);e._all=norm(e.n+" "+e.t+" "+e.s)});
 const groups=[...new Set(E.map(e=>e.a+(e.s?" — "+e.s:"")))];
-const PLACES=__PLACES__;
+const PLACES=__PLACES__;const DC=__DIRCARDS__;
 let apps=[...new Set(E.map(e=>e.a))];
 const sel=$("#ap");
 const addApp=a=>{const o=document.createElement("option");o.value="A:"+a;o.textContent=a;sel.appendChild(o);
@@ -1019,6 +1023,8 @@ let JF=false;try{JF=localStorage.getItem("jafirst")==="1"}catch(e){}
 if(E.some(e=>e.nj!==undefined)){$("#jflab").hidden=false;$("#jafirst").checked=JF;$("#jafirst").addEventListener("change",()=>{JF=$("#jafirst").checked;try{localStorage.setItem("jafirst",JF?"1":"0")}catch(e){};run()})}
 let res=[],shown=0;const STEP=300;
 function run(){const q=norm($("#q").value.trim());const terms=q.split(/\s+/).filter(Boolean);const v=sel.value;const no=$("#nameonly").checked;
+ if(DC){const c=x=>`<a class="tocbtn" href="#" data-s="${esc(x.s)}">${esc(x.l)}<small>${x.n.toLocaleString()} entr${x.n===1?"y":"ies"}</small></a>`;
+  $("#toc").innerHTML=(q||v)?"":`<h2>Contents</h2><h3>Places</h3><div class="tocgrid">${DC.places.map(c).join("")}</div>`+(DC.other.length?`<h3>Other lists</h3><div class="tocgrid">${DC.other.map(c).join("")}</div>`:"")+`<h3>All entries</h3>`}
  res=E.filter(e=>{if(v.startsWith("A:")&&e.a!==v.slice(2))return false;if(v.startsWith("G:")&&e.a+(e.s?" — "+e.s:"")!==v.slice(2))return false;
   const hay=no?e._n:e._all;return terms.every(t=>hay.includes(t))});
  $("#cnt").textContent=`${res.length.toLocaleString()} of ${E.length.toLocaleString()} entries`;
@@ -1033,7 +1039,7 @@ function more(terms){terms=terms||norm($("#q").value.trim()).split(/\s+/).filter
  $("#out").insertAdjacentHTML("beforeend",h);shown=Math.min(res.length,shown+STEP);$("#more").hidden=shown>=res.length}
 const groupOf=e=>e.a+(e.s?" — "+e.s:"");
 let tm;$("#q").addEventListener("input",()=>{clearTimeout(tm);tm=setTimeout(run,120)});
-sel.addEventListener("change",run);$("#nameonly").addEventListener("change",run);$("#more").addEventListener("click",()=>more());
+sel.addEventListener("change",run);$("#toc").addEventListener("click",ev=>{const a=ev.target.closest("[data-s]");if(!a)return;ev.preventDefault();sel.value=a.dataset.s;run();scrollTo(0,0)});$("#nameonly").addEventListener("change",run);$("#more").addEventListener("click",()=>more());
 $("#toggle").addEventListener("click",()=>{const r=document.documentElement;const d=r.dataset.theme?r.dataset.theme==="dark":matchMedia("(prefers-color-scheme: dark)").matches;r.dataset.theme=d?"light":"dark"});
 try{const p=new URLSearchParams(location.hash.slice(1));if(p.get("q"))$("#q").value=p.get("q");if(p.get("s"))sel.value=p.get("s")}catch(e){}
 run();
