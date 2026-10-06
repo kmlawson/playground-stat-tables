@@ -11,6 +11,7 @@ Every statistical table printed in English-language official yearbooks on Japan 
 | *Second Report on Progress in Manchuria 1931* (to 1930) | [manchuria-1931/](../book/manchuria-1931/) |
 | *Fifth Report on Progress in Manchuria 1936* (to 1936) | [manchuria-1936/](../book/manchuria-1936/) |
 | *Sixth Report on Progress in Manchuria 1939* (to 1939) | [manchuria-1939/](../book/manchuria-1939/) |
+| *Manchukuo Directory 1938-9* (English–Japanese business directory) | [manchukuo-directory-1938/](../book/manchukuo-directory-1938/) |
 | *The Manchoukuo Year Book 1942* | [manchoukuo-1942/](../book/manchoukuo-1942/) |
 | *Annual Report on Administration of Chosen 1929–30* (Korea) | [korea-1929-30/](../book/korea-1929-30/) |
 | *朝鮮年鑑 1926* (大正十五年版; Korea, in Japanese) | [korea-nenkan-1926/](../book/korea-nenkan-1926/) |

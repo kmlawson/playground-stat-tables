@@ -167,6 +167,15 @@ BOOKS = [
      "scan": "https://archive.org/details/sixth-report-on-progress-in-manchuria-to-1939/page/n{leaf}/mode/1up",
      "item": "https://archive.org/details/sixth-report-on-progress-in-manchuria-to-1939",
      "blank_marking": True},
+    {"slug": "manchukuo-directory-1938", "dir": "Manchukuo_Directory_1938",
+     "title": "Manchukuo Directory 1938-9", "subtitle": "The Directory of Manchoukuo / 滿洲商工年鑑, 1938–39",
+     "publisher": "The Orient Publishing Company (Manchuria Daily News), Dairen, 1938",
+     "blurb": "A bilingual (English and Japanese) business directory of Manchukuo, with descriptions of the country and its cities. The directory lists firms, offices, banks, hospitals, schools and officials city by city — Manchouli, Hailar, Tsitsihar, Peian, Taoan, Harbin, Kirin, Hsinking, Kungchuling, Antung, Mukden, Fushun, Liaoyang, Yingkou, Pulantien, Dairen, Port Arthur and Rashin — each entry printed first in English and then in Japanese, with trade, telephone, address and proprietor or manager; a list of German firms in Japan and Manchukuo closes the book. Tables give Manchukuo's area, population, finance, production and trade, South Manchuria Railway statistics, and city facts and fares.",
+     "source": "LLM-transcribed from the Internet Archive scan.",
+     "gaps": "Only the directory entries and the tables are transcribed; the city descriptions, advertisements, photographs and maps are not. Each directory entry keeps the English and Japanese printings of a firm together, so a firm can be found by either name; where the two printings disagree (telephone numbers, addresses, a different Japanese name) both are kept as printed and the entry has a note. Doubtful Japanese names were re-read at high zoom; unreadable characters are marked [?]. Many printed pages are missing from the scan (among them parts of Taoan, Taonan, Peian to Imienpo, Kungchuling, Ssupingkai, Kaiyuan, Tieling, Liaoyang, Anshan, Tashihchiao and Pulantien), so those cities are incomplete or absent.",
+     "scan": "https://archive.org/details/manchukuo-directory-1938-9/page/n{leaf}/mode/1up",
+     "item": "https://archive.org/details/manchukuo-directory-1938-9",
+     "blank_marking": True},
     {"slug": "manchoukuo-1942", "dir": ".", "title": "The Manchoukuo Year Book 1942",
      "publisher": "Manchoukuo Year Book Co., Hsinking, 1942",
      "blurb": "Official English-language yearbook of Manchukuo: geography, population, finance, banking, trade, agriculture, mining, industry, transport, labour, education and more.",
@@ -825,7 +834,23 @@ def build_directory(book):
             continue
         leaf = d.get("leaf") or os.path.basename(f)[:-5]
         scan = scan_links(book, {"images": [leaf]})[0]
+        city = d.get("city") or {}
+        city = city if isinstance(city, dict) else {"en": city}
         for e in d.get("entries", []):
+            if e.get("en") or e.get("ja"):  # bilingual directory entry: English and Japanese blocks of one firm
+                en, ja = e.get("en") or {}, e.get("ja") or {}
+                flat = lambda v: "; ".join(map(str, v)) if isinstance(v, list) else str(v)
+                side = lambda x: " · ".join(flat(x[k]) for k in ("business", "tel", "address", "person", "other") if x.get(k))
+                names = " / ".join(flat(x["name"]) for x in (en, ja) if x.get("name")) or "[continued]"
+                txt = " ‖ ".join(t for t in (side(en), side(ja)) if t)
+                if e.get("note"):
+                    txt += f" [note: {e['note']}]"
+                ec = e.get("city") or city
+                ec = ec if isinstance(ec, dict) else {"en": ec}
+                entries.append({"a": " ".join(v for v in (ec.get("en"), ec.get("ja")) if v) or d.get("appendix") or "",
+                                "s": e.get("section") or "", "n": names, "t": txt,
+                                "p": e.get("page") or ", ".join(d.get("printed_pages") or []), "l": scan["label"], "u": scan["url"]})
+                continue
             sec = e.get("section") or ""
             if sec.isupper():
                 sec = sec.title()
