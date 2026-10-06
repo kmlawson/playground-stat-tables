@@ -175,6 +175,8 @@ BOOKS = [
      "gaps": "Only the directory entries and the tables are transcribed; the city descriptions, advertisements, photographs and maps are not. Each directory entry keeps the English and Japanese printings of a firm together, so a firm can be found by either name; where the two printings disagree (telephone numbers, addresses, a different Japanese name) both are kept as printed and the entry has a note. Doubtful Japanese names were re-read at high zoom; unreadable characters are marked [?]. Many printed pages are missing from the scan (among them parts of Taoan, Taonan, Peian to Imienpo, Kungchuling, Ssupingkai, Kaiyuan, Tieling, Liaoyang, Anshan, Tashihchiao and Pulantien), so those cities are incomplete or absent.",
      "scan": "https://archive.org/details/manchukuo-directory-1938-9/page/n{leaf}/mode/1up",
      "item": "https://archive.org/details/manchukuo-directory-1938-9",
+     "dir_cards": True,
+     "dir_places": ["Dairen", "Mukden", "Harbin", "Hsinking", "Antung", "Fushun", "Hailar", "Port-Arthur", "Yingkou", "Tsitsihar", "Kirin", "Manchouli", "Peian", "Taoan", "Liao-Yang", "Pulantien", "Rashin", "Kungchuling"],
      "blank_marking": True},
     {"slug": "manchoukuo-1942", "dir": ".", "title": "The Manchoukuo Year Book 1942",
      "publisher": "Manchoukuo Year Book Co., Hsinking, 1942",
@@ -444,7 +446,7 @@ def main():
     for b, clean, n, c in pages:
             os.makedirs(os.path.join(HERE, "book", b["slug"]), exist_ok=True)
             data = json.dumps(clean, ensure_ascii=False).replace("</", "<\\/")
-            doc = (TEMPLATE.replace("__DATA__", data).replace("__COUNT__", str(n))
+            doc = (TEMPLATE.replace("__DATA__", data).replace("__DIRCARDS__", dir_cards(b)).replace("__COUNT__", str(n))
                    .replace("__CHEN__", json.dumps(b.get("_chen") or {}, ensure_ascii=False))
                    .replace("__XL__", json.dumps(xl[b["slug"]], ensure_ascii=False).replace("</", "<\\/"))
                    .replace("__HIDEIMG__", "true" if b.get("hide_images") else "false")
@@ -647,6 +649,7 @@ __DIRLINK__<button id="toggle" title="Toggle light/dark">◐</button></header>
 </div>
 <script>
 const T=__DATA__;
+const DIRCARDS=__DIRCARDS__;
 const HIDEIMG=__HIDEIMG__;
 const MARKED=__MARKED__;
 const XL=__XL__;
@@ -712,9 +715,11 @@ const LLMWARN=`<div class="llmwarn" role="note"><b>Warning:</b> These tables wer
 function filtered(){const q=fold($("#q").value.trim().toLowerCase()),ch=$("#ch").value,fl=$("#flag").checked;
  return T.filter(t=>(!ch||(t.chapter||"(no chapter)")===ch)&&(!fl||t._warn)&&(!q||q.split(/\s+/).every(w=>t._text.includes(w))))}
 let mode="one",cur=null;
+function dirCards(){if(!DIRCARDS)return "";const card=c=>`<a class="chbtn" href="directory.html#s=${encodeURIComponent(c.s)}">${esc(c.l)}<small>${c.n.toLocaleString()} entr${c.n===1?"y":"ies"}</small></a>`;
+ return `<h2 style="margin:28px 0 6px">Directory</h2><div class="chsum">${DIRCARDS.total.toLocaleString()} directory entries. Choose a place or a list.</div><h3 style="margin:14px 0 8px">Places</h3><div class="chgrid">`+DIRCARDS.places.map(card).join("")+`</div>`+(DIRCARDS.other.length?`<h3 style="margin:20px 0 8px">Other lists</h3><div class="chgrid">`+DIRCARDS.other.map(card).join("")+`</div>`:"")}
 function showHome(){mode="home";cur=null;closeCmp();const n={};T.forEach(t=>{const c=t.chapter||"(no chapter)";n[c]=(n[c]||0)+1});
  $("#main").innerHTML=`<div class="chhead">Contents</div><h2 style="margin-bottom:6px">Chapters</h2><div class="chsum">${T.length} table${T.length===1?"":"s"} in ${chapters.length} chapter${chapters.length===1?"":"s"}. Choose a chapter, or pick a single table from the list.</div><div class="chgrid">`+
-  chapters.map(c=>`<a class="chbtn" href="#ch=${encodeURIComponent(c)}">${esc(c)}${chE(c,"che3")}<small>${n[c]} table${n[c]===1?"":"s"}</small></a>`).join("")+`</div>`+LLMWARN;
+  chapters.map(c=>`<a class="chbtn" href="#ch=${encodeURIComponent(c)}">${esc(c)}${chE(c,"che3")}<small>${n[c]} table${n[c]===1?"":"s"}</small></a>`).join("")+`</div>`+dirCards()+LLMWARN;
  $("#main").scrollTop=0;fitGrid();mark()}
 // Desktop: pick the largest button font (12-28px) at which every chapter button fits in the pane without scrolling
 function fitGrid(){const g=$(".chgrid");if(!g)return;g.style.removeProperty("--chfs");if(innerWidth<=760)return;
@@ -821,6 +826,29 @@ def section_summary(names, last=False):
     return ": " + ", ".join(parts[:4]) + (", etc." if len(parts) > 4 else ".")
 
 
+BIG_PLACES = ["Hsinking", "Harbin", "Dairen", "Mukden", "Kirin"]
+
+
+def dir_cards(book):
+    """JSON for the 'Directory' cards on a book's home page (books with "dir_cards": True): places first
+    (largest cities first, then A–Z), then other lists (non-place groups and sub-headings within places)."""
+    f = os.path.join(HERE, "data", book["slug"] + "-directory.json")
+    if not book.get("dir_cards") or not os.path.exists(f):
+        return "null"
+    es = json.load(open(f, encoding="utf-8"))
+    from collections import Counter
+    groups, subs = Counter(e["a"] for e in es), Counter((e["a"], e["s"]) for e in es if e["s"])
+    places = [a for a in groups if a.split(" ")[0] in book.get("dir_places", [])]
+    rank = lambda a: (BIG_PLACES.index(a.split(" ")[0]) if a.split(" ")[0] in BIG_PLACES else 99, a)
+    out = {"total": len(es), "places": [{"l": a, "s": "A:" + a, "n": groups[a]} for a in sorted(places, key=rank)], "other": []}
+    for a in sorted(set(groups) - set(places)):
+        out["other"].append({"l": a, "s": "A:" + a, "n": groups[a]})
+    for (a, s2), k in sorted(subs.items(), key=lambda x: (rank(x[0][0]), x[0][1])):
+        if a in places:
+            out["other"].append({"l": f"{s2} ({a.split(' ')[0]})", "s": f"G:{a} — {s2}", "n": k})
+    return json.dumps(out, ensure_ascii=False).replace("</", "<\\/")
+
+
 def build_directory(book):
     """Write <slug>/directory.html from <dir>/_work/directory/*.json; return the entry count."""
     files = sorted(glob.glob(os.path.join(book_dir(book), "_work", "directory", "*.json")), key=dir_key)
@@ -847,8 +875,15 @@ def build_directory(book):
                     txt += f" [note: {e['note']}]"
                 ec = e.get("city") or city
                 ec = ec if isinstance(ec, dict) else {"en": ec}
-                entries.append({"a": " ".join(v for v in (ec.get("en"), ec.get("ja")) if v) or d.get("appendix") or "",
-                                "s": e.get("section") or "", "n": names, "t": txt,
+                place = " ".join(v for v in (ec.get("en"), ec.get("ja")) if v) or d.get("appendix") or ""
+                sec = e.get("section") or ""
+                if sec.isupper():
+                    sec = re.sub(r"\b(Of|And|The|In|For|To|At|On)\b", lambda m: m.group(1).lower(), sec.title())
+                    sec = sec[:1].upper() + sec[1:]
+                if sec.startswith("German Firms"):  # a list of its own, grouped by city
+                    place, sec = sec, place
+                entries.append({"a": place, "s": sec, "n": names, "t": txt,
+                                "ne": flat(en.get("name") or ""), "te": side(en), "nj": flat(ja.get("name") or ""), "tj": side(ja),
                                 "p": e.get("page") or ", ".join(d.get("printed_pages") or []), "l": scan["label"], "u": scan["url"]})
                 continue
             sec = e.get("section") or ""
@@ -938,6 +973,7 @@ main{max-width:900px;margin:0 auto;padding:10px 16px 60px}
 .e{background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--accent);padding:9px 12px;margin:0 0 8px}
 .e b{font-size:15.5px}
 .e .t{font-size:14.5px}
+.e .l2{margin-top:2px}
 .e .m{font-size:12.5px;color:var(--muted);margin-top:3px}
 .e .m a{color:var(--accent)}
 mark{background:#f3e3a0;color:inherit}
@@ -952,6 +988,7 @@ mark{background:#f3e3a0;color:inherit}
 <input id="q" type="search" placeholder="Filter names, places, firms, words…" autofocus>
 <select id="ap"><option value="">All sections</option></select>
 <label style="font-size:13px"><input type="checkbox" id="nameonly"> names only</label>
+<label style="font-size:13px" id="jflab" hidden><input type="checkbox" id="jafirst"> 日本語 first</label>
 <div id="cnt"></div></div></div>
 <main><div id="out"></div><button id="more" hidden>Show more</button>
 <div class="llmwarn" role="note"><b>Warning:</b> These entries were transcribed by the vision model of Opus 5.5. Before using any of them, you must verify specific details with the original source which is linked to whenever possible.</div></main>
@@ -971,6 +1008,8 @@ function hl(s,terms){s=esc(s);if(!terms.length)return s;
  const src=s,n=norm(src);let marks=[];terms.forEach(t=>{let i=0;const et=norm(esc(t));while(et&&(i=n.indexOf(et,i))>-1){marks.push([i,i+et.length]);i+=et.length}});
  if(!marks.length)return s;marks.sort((a,b)=>a[0]-b[0]);let out="",pos=0;
  marks.forEach(([a,b])=>{if(a<pos)return;out+=src.slice(pos,a)+"<mark>"+src.slice(a,b)+"</mark>";pos=b});return out+src.slice(pos)}
+let JF=false;try{JF=localStorage.getItem("jafirst")==="1"}catch(e){}
+if(E.some(e=>e.nj!==undefined)){$("#jflab").hidden=false;$("#jafirst").checked=JF;$("#jafirst").addEventListener("change",()=>{JF=$("#jafirst").checked;try{localStorage.setItem("jafirst",JF?"1":"0")}catch(e){};run()})}
 let res=[],shown=0;const STEP=300;
 function run(){const q=norm($("#q").value.trim());const terms=q.split(/\s+/).filter(Boolean);const v=sel.value;const no=$("#nameonly").checked;
  res=E.filter(e=>{if(v.startsWith("A:")&&e.a!==v.slice(2))return false;if(v.startsWith("G:")&&e.a+(e.s?" — "+e.s:"")!==v.slice(2))return false;
@@ -981,7 +1020,9 @@ function run(){const q=norm($("#q").value.trim());const terms=q.split(/\s+/).fil
 function more(terms){terms=terms||norm($("#q").value.trim()).split(/\s+/).filter(Boolean);
  let h="",last=shown?groupOf(res[shown-1]):null;
  res.slice(shown,shown+STEP).forEach(e=>{const g=groupOf(e);if(g!==last){h+=`<div class="sec">${esc(g)}</div>`;last=g}
-  h+=`<div class="e"><b>${hl(e.n,terms)}</b> <span class="t">${hl(e.t,terms)}</span><div class="m">p. ${esc(e.p)}${e.u?` · <a href="${e.u}" target="_blank" rel="noopener">${esc(e.l)}</a>`:e.l?" · "+esc(e.l):""}</div></div>`});
+  const ln=(n,t)=>(n?`<b>${hl(n,terms)}</b> `:"")+`<span class="t">${hl(t||"",terms)}</span>`;
+  const body=(e.nj!==undefined)?(JF?[[e.nj,e.tj],[e.ne,e.te]]:[[e.ne,e.te],[e.nj,e.tj]]).filter(x=>x[0]||x[1]).map((x,i)=>`<div class="l${i+1}">${ln(x[0],x[1])}</div>`).join(""):`<b>${hl(e.n,terms)}</b> <span class="t">${hl(e.t,terms)}</span>`;
+  h+=`<div class="e">${body}<div class="m">p. ${esc(e.p)}${e.u?` · <a href="${e.u}" target="_blank" rel="noopener">${esc(e.l)}</a>`:e.l?" · "+esc(e.l):""}</div></div>`});
  $("#out").insertAdjacentHTML("beforeend",h);shown=Math.min(res.length,shown+STEP);$("#more").hidden=shown>=res.length}
 const groupOf=e=>e.a+(e.s?" — "+e.s:"");
 let tm;$("#q").addEventListener("input",()=>{clearTimeout(tm);tm=setTimeout(run,120)});

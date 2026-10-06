@@ -499,8 +499,6 @@
 
 ## Taoan 洮安
 
-### Alphabetical List of Firm Names — Business Directory Section
-
 **“Akandren” / 赤のれん** Cafe & Restaurant. · Tel. : 31. · Fuko-ko. · T. Katayama, Prop. ‖ 飲食 · 電三一 · 富興巷 · 店主、片山つね — p. 31 ([scan leaf 93](https://archive.org/details/manchukuo-directory-1938-9/page/n93/mode/1up))
 
 **Azia Bokujo / 亞細亞牧場** Milk Dairy. · Tel. : 111. · Tonkon-ro. · M. Yasuda, Prop. ‖ 牛乳販賣 · 電一一一 · 屯墾路 · 場主、安田正司 — p. 31 ([scan leaf 93](https://archive.org/details/manchukuo-directory-1938-9/page/n93/mode/1up))
@@ -870,7 +868,7 @@
 
 **Chuwa Yoko / 中和洋行** Architecture, Hardwares, etc. · Tel. : 3792. 6555. 6111. · 87, Sekito-do-gai. (Mostovaya) · Y. Yamamoto, Prop. ‖ 建築金物 · 電三七九二、六五五五、六一一一 · 石頭道街八七 · 店主、山本[?]五 [note: JA person: third character unclear (義 or 羲); re-read at high zoom: still not decidable, kept [?] (義/羲)] — p. 44 ([scan leaf 131](https://archive.org/details/manchukuo-directory-1938-9/page/n131/mode/1up))
 
-### CHAMBER OF COMMERCE: 商業會議所
+### Chamber of Commerce: 商業會議所
 
 **American Chamber of Commerce / アメリカ商工會議所** Tel. : 2424. · 48, Mostovaya Street. · E. J. Mahon, Chairman. · J. B. Holmes, Secretary & Treas. ‖ 電二四二四 · モストワヤ街四八 — p. 44 ([scan leaf 131](https://archive.org/details/manchukuo-directory-1938-9/page/n131/mode/1up))
 
@@ -896,7 +894,7 @@
 
 **Compagnie Internationale des Wagons Lits / コムパニ、インタナシヨナル、デス ワゴン、リツツ** Tel. : 3978. 4378. · 132, Kitaiskaya Street. · R. J. Janushowski, Agent. · Cable Address : "Sleeping".; 6, Sungariisky Prospect.; Tel. : 4278.; M. W. Barbash, Sub.-Agent. ‖ 電三九七八、四三七八 · キタイスカヤ街一三二 · 代理者、アール、ゼイ、ジヤニシヨウスキー · スンガリスキイ廣場六; 電四二七八 [note: two addresses each with own Tel.; second address/Tel. in other. JA separator after 三九七八 printed raised] — p. 45 ([scan leaf 131](https://archive.org/details/manchukuo-directory-1938-9/page/n131/mode/1up))
 
-### CONSULATES: （各國領事館）
+### Consulates: （各國領事館）
 
 **Consulate General of Japan / 日本帝國ハルビン總領事館** Tel. : 7411. 7412. 7413. · 68, Vokzalny Prospect. · K. Tsurumi, Consul General. · K. Akiyama, Consul.; T. Taniguchi, Consul.; T. Arihisa, Vice-Consul.; T. Mizumoto, Vice-Consul.; K. Nakamura, Secretary.; H. Sakai, Secretary.; I. Iijima, Secretary.; H. Matsumoto. Secretary.; M. Ogura, Secretary.; S. Uchimi, Secretary.; J. Kobayashi, Secretary.; K. Saito, Secretary.; J. Murata, Secretary. ‖ 電七四一一、七四一二、七四一三 · 車站街 · 總領事、鶴見憲 · 司法領事、秋山兼雪; 領事、谷口卓; 副領事、有久直忠; 副領事、水元常八 [note: EN 'Mizumoto' vs JA 水元 as printed] — p. 45 ([scan leaf 131](https://archive.org/details/manchukuo-directory-1938-9/page/n131/mode/1up))
 
@@ -1212,7 +1210,7 @@
 
 **HONGKONG & SHANGHAI BANKING CORPORATION / 香港上海銀行** General Bankers. · Tel. : 2614. 2008. 2487. 4765. · 29, Vodoprovodnaya Cr. Polevaya Str. · W. H. Stewart, Manager. / G. E. B. Tytler, Acting Accountant. / R. A. Jardine. / H. C. Blunt. / D. B. Soul. / A. F. Diniz. / M. A. Rogalsky. / A. T. Ostrenko. / M. S. Fonareff. / V. N. Vertzinsky. / A. A. Diniz. / L. A. Loushnikoff. / S. A. Yadlovker. / M. P. Kramarenko. / Mrs. O. Nolde. / Mrs. V. A. Diniz. · Cable Address : "Norbank". / P.O. Box 214. ‖ 電二六一四、二〇〇八、二四八七、四七六五 · ボレバヤ街ボドプロボドナヤ街角二九 · 支配人、ダブリユー、エイチ、スチユアート — p. 60 ([scan leaf 139](https://archive.org/details/manchukuo-directory-1938-9/page/n139/mode/1up))
 
-### HOSPITALS: (病院)
+### Hospitals: (病院)
 
 **First Harbin Polyclinic / フアスト、ハルビン、ポリクルニツク** Tel. : 4416. · 51, Kasachiya Street. ‖ 電四四一六 · ポリゼイスカヤ街カサチアヤ街角 — p. 60 ([scan leaf 139](https://archive.org/details/manchukuo-directory-1938-9/page/n139/mode/1up))
 
@@ -2244,7 +2242,7 @@
 
 ## Imperial Government of Manchoukuo 滿洲帝國政府
 
-### OCCUPANTS OF LEADING POSTS: 主要官吏名錄
+### Occupants of Leading Posts: 主要官吏名錄
 
 **Privy Council / 参議府** President ... Tsang Shih-yi. ‖ 議長 臧式毅 [note: JA 参 printed in the 参 form (not 參)] — p. 41 ([scan leaf 189](https://archive.org/details/manchukuo-directory-1938-9/page/n189/mode/1up))
 
@@ -3574,7 +3572,7 @@
 **Yutai Go / 裕泰號** Sugar & Beer Dealers. · Tel. : 3-2203. · 15, Chuo-dori. · M. Suematsu, Prop. ‖ 砂糖、麥酒販賣 · 電（三）二二〇三 · 中央通一五 · 店主、末松正實 — p. 103 ([scan leaf 221](https://archive.org/details/manchukuo-directory-1938-9/page/n221/mode/1up))
 
 
-## Kung-Chu-Ling 公主嶺
+## Kungchuling 公主嶺
 
 **K. Asano, Prop. / 淺野釀造所** Tel. : 12[?]. · 3, Hanazono-cho. ‖ 酒、醬油 · 電一二八 · 花園町三 · 店主、淺野勝太郎 [note: Top of left column of p. 105 is covered by the pasted index slip: EN name and business hidden; only the lower half of the EN Tel. line is visible ('Tel. : 12' + a third digit, 0 or 8, unreadable; JA has 電一二八). JA person 勝 read at high zoom (K. Asano = Katsutaro).] — p. 105 ([scan leaf 222](https://archive.org/details/manchukuo-directory-1938-9/page/n222/mode/1up))
 
@@ -4682,7 +4680,7 @@
 
 **Futuzuru Shokai / 二鶴商會** Provision Products. · Tel. : 3-2093. 3-3264. · 47, Aoba-cho. ‖ 食料品、雜貨 · 電（三）二〇九三（三）三二六四 · 靑葉町四七 — p. 88 ([scan leaf 291](https://archive.org/details/manchukuo-directory-1938-9/page/n291/mode/1up))
 
-### GENERAL DIRECTORATE OF RAILWAYS: 鐵道總局
+### General Directorate of Railways: 鐵道總局
 
 **GENERAL DIRECTORATE OF RAILWAYS / 鐵道總局** (The General Administrative Organ for the all Manchoukuo and North Chosen Railways.) [note: heading of the railway staff list that follows (after letter heading 'G.'); each officer below is one entry: JA = printed post title, EN = printed officer line] — p. 88 ([scan leaf 291](https://archive.org/details/manchukuo-directory-1938-9/page/n291/mode/1up))
 
@@ -4740,7 +4738,7 @@
 
 **A. Ohtake, Mng., Chinchou Construction Office. / 錦州建設事務所長**  — p. 89 ([scan leaf 291](https://archive.org/details/manchukuo-directory-1938-9/page/n291/mode/1up))
 
-### TREASURY BUREAU: 經理局
+### Treasury Bureau: 經理局
 
 **K. Ichikawa, Chief. / 經理局長**  — p. 89 ([scan leaf 291](https://archive.org/details/manchukuo-directory-1938-9/page/n291/mode/1up))
 
@@ -4752,7 +4750,7 @@
 
 **M. Ueda, Mng., Accounting Dept. / 會計課長**  — p. 89 ([scan leaf 291](https://archive.org/details/manchukuo-directory-1938-9/page/n291/mode/1up))
 
-### TRAFFIC BUREAU: 營業局
+### Traffic Bureau: 營業局
 
 **K. Sahara, General Manager, / 營業局長**  — p. 89 ([scan leaf 291](https://archive.org/details/manchukuo-directory-1938-9/page/n291/mode/1up))
 
@@ -4768,7 +4766,7 @@
 
 **K. Hayakawa, Mng., Mixed-Storage Insp. Office. / 混保檢查所長**  — p. 89 ([scan leaf 291](https://archive.org/details/manchukuo-directory-1938-9/page/n291/mode/1up))
 
-### OPERATION BUREAU: 輸送局
+### Operation Bureau: 輸送局
 
 **K. Inoko, Chief. / 輸送局長**  — p. 89 ([scan leaf 291](https://archive.org/details/manchukuo-directory-1938-9/page/n291/mode/1up))
 
@@ -4778,7 +4776,7 @@
 
 **K. Ohgita, Mng., Rolling Stock Dept. / 車輛課長**  — p. 89 ([scan leaf 291](https://archive.org/details/manchukuo-directory-1938-9/page/n291/mode/1up))
 
-### MECHANICAL ENGINEERING BUREAU: 工作局
+### Mechanical Engineering Bureau: 工作局
 
 **H. Nonaka, Chief. / 工作局長**  — p. 89 ([scan leaf 291](https://archive.org/details/manchukuo-directory-1938-9/page/n291/mode/1up))
 
@@ -4788,7 +4786,7 @@
 
 **K. Akamatsu, Mng., Machinery Dept. / 機械課長**  — p. 89 ([scan leaf 291](https://archive.org/details/manchukuo-directory-1938-9/page/n291/mode/1up))
 
-### CIVIL ENGINEERING & ARCHITECTURE BUREAU: 工務局
+### Civil Engineering & Architecture Bureau: 工務局
 
 **S. Nishiwaki, Chief. / 工務局長**  — p. 89 ([scan leaf 291](https://archive.org/details/manchukuo-directory-1938-9/page/n291/mode/1up))
 
@@ -4802,7 +4800,7 @@
 
 **I. Ohno, Mng., Waterworks Dept. / 水道課長**  — p. 89 ([scan leaf 291](https://archive.org/details/manchukuo-directory-1938-9/page/n291/mode/1up))
 
-### CONSTRUCTION BUREAU: 建設局
+### Construction Bureau: 建設局
 
 **T. Tanabe, Chief. / 建設局長**  — p. 89 ([scan leaf 291](https://archive.org/details/manchukuo-directory-1938-9/page/n291/mode/1up))
 
@@ -4812,7 +4810,7 @@
 
 **T. Kuwahara** Mng., Harbour Works Dept. ‖ 築港課長 [note: section heading printed on p. 89 (p0291); entry itself starts at top of p. 90] — p. 90 ([scan leaf 292](https://archive.org/details/manchukuo-directory-1938-9/page/n292/mode/1up))
 
-### SPECIAL TRANSPORTATION BOARD: 輸送委員會
+### Special Transportation Board: 輸送委員會
 
 **K. Inoko** Chairman Sp. Transp. Board. ‖ 輸送委員會委員長 — p. 90 ([scan leaf 292](https://archive.org/details/manchukuo-directory-1938-9/page/n292/mode/1up))
 
@@ -4828,7 +4826,7 @@
 
 **Chao Hsin-che** Supervisor. (Add. held) ‖ 同 — p. 90 ([scan leaf 292](https://archive.org/details/manchukuo-directory-1938-9/page/n292/mode/1up))
 
-### MUKDEN RAILWAY DIRECTORATE: 奉天鐵道局
+### Mukden Railway Directorate: 奉天鐵道局
 
 **T. Furukawa** Chief. ‖ 局長 — p. 90 ([scan leaf 292](https://archive.org/details/manchukuo-directory-1938-9/page/n292/mode/1up))
 
@@ -4884,7 +4882,7 @@
 
 **T. Ohnuma** Supt., Penhsihu Hospital. ‖ 本溪湖醫院長 — p. 91 ([scan leaf 292](https://archive.org/details/manchukuo-directory-1938-9/page/n292/mode/1up))
 
-### CHINCHOU RAILWAY DIRECTORATE: 錦州鐵道局
+### Chinchou Railway Directorate: 錦州鐵道局
 
 **K. Ohta** Chief. ‖ 局長 — p. 91 ([scan leaf 292](https://archive.org/details/manchukuo-directory-1938-9/page/n292/mode/1up))
 
@@ -4924,7 +4922,7 @@
 
 **T. Ise** Supt., Linhsi Hospital. ‖ 林西醫院長 — p. 91 ([scan leaf 292](https://archive.org/details/manchukuo-directory-1938-9/page/n292/mode/1up))
 
-### KIRIN RAILWAY DIRECTORATE: 吉林鐵道局
+### Kirin Railway Directorate: 吉林鐵道局
 
 **Chang Shu** Chief. ‖ 局長 — p. 91 ([scan leaf 292](https://archive.org/details/manchukuo-directory-1938-9/page/n292/mode/1up))
 
@@ -4958,7 +4956,7 @@
 
 **K. Fukuchi** Supt., Hsinchan Hospital. ‖ 新站醫院長 — p. 92 ([scan leaf 293](https://archive.org/details/manchukuo-directory-1938-9/page/n293/mode/1up))
 
-### MUTANCHIANG RAILWAY DIRECTORATE: 牡丹江鐵道局
+### Mutanchiang Railway Directorate: 牡丹江鐵道局
 
 **C. Adachi** Chief. ‖ 局長 — p. 92 ([scan leaf 293](https://archive.org/details/manchukuo-directory-1938-9/page/n293/mode/1up))
 
@@ -4992,7 +4990,7 @@
 
 **M. Suzaki** Supt., Suifenho Hospital. ‖ 綏芬河醫院長 — p. 92 ([scan leaf 293](https://archive.org/details/manchukuo-directory-1938-9/page/n293/mode/1up))
 
-### HARBIN RAILWAY DIRECTORATE: 哈爾濱鐵道局
+### Harbin Railway Directorate: 哈爾濱鐵道局
 
 **Chou Pei-ping** Chief. ‖ 局長 — p. 92 ([scan leaf 293](https://archive.org/details/manchukuo-directory-1938-9/page/n293/mode/1up))
 
@@ -5034,7 +5032,7 @@
 
 **C. Sasao** Supt., Heiho Hospital. ‖ 黑河醫院 [note: JA title printed without 長] — p. 93 ([scan leaf 293](https://archive.org/details/manchukuo-directory-1938-9/page/n293/mode/1up))
 
-### TSITSIHAR RAILWAY DIRECTORATE: 齊齊哈爾鐵道局
+### Tsitsihar Railway Directorate: 齊齊哈爾鐵道局
 
 **T. Yamaryo** Chief. ‖ 局長 — p. 93 ([scan leaf 293](https://archive.org/details/manchukuo-directory-1938-9/page/n293/mode/1up))
 
@@ -5078,7 +5076,7 @@
 
 **S. Kugita** Supt., Paichengtzu Hospital. ‖ 白城子醫院長 — p. 93 ([scan leaf 293](https://archive.org/details/manchukuo-directory-1938-9/page/n293/mode/1up))
 
-### NORTH CHOSEN RAILWAY DIVISION: 北鮮鐵道事務所
+### North Chosen Railway Division: 北鮮鐵道事務所
 
 **N. Ozawa** Chief. ‖ 所長 — p. 93 ([scan leaf 293](https://archive.org/details/manchukuo-directory-1938-9/page/n293/mode/1up))
 
@@ -5092,11 +5090,11 @@
 
 **N. Maeda** Supt., Rashin Hospital. ‖ 羅新醫院長 — p. 94 ([scan leaf 294](https://archive.org/details/manchukuo-directory-1938-9/page/n294/mode/1up))
 
-### RAILWAY TRAINING INSTITUTE: 鐵路學院
+### Railway Training Institute: 鐵路學院
 
 **T. Kobayashi** Principal. ‖ 院長 — p. 94 ([scan leaf 294](https://archive.org/details/manchukuo-directory-1938-9/page/n294/mode/1up))
 
-### RAILWAY RESEARCH INSTITUTE: 鐵道研究所
+### Railway Research Institute: 鐵道研究所
 
 **I. Watanabe** Superintendent. ‖ 所長 — p. 94 ([scan leaf 294](https://archive.org/details/manchukuo-directory-1938-9/page/n294/mode/1up))
 
@@ -9955,7 +9953,7 @@
 
 **South Manchuria Mining Co., Ltd. / 南滿鑛業株式會社** Miners & Contractors. · Tel. : 2-5068. 2-6754. · 26, Kii-machi. ‖ 電(二)五〇六八(二)六七五四 · 紀伊町二六 [note: EN block at foot of left column of p. 208, JA block at top of right column] — p. 208 ([scan leaf 467](https://archive.org/details/manchukuo-directory-1938-9/page/n467/mode/1up))
 
-### SOUTH MANCHURIA RAILWAY COMPANY
+### South Manchuria Railway Company
 
 **SOUTH MANCHURIA RAILWAY COMPANY** Head Office: Dairen.; Cable Address: "Mantetsu" or "SMRCO"; Codes: ABC 5th & 7th Eds., A1, Lieber's, Bentley's Complete & 2nd Phrase & Acme [note: heading of the S.M.R. officials list that follows (no JA company name printed here); each official below is one entry: EN name/post as printed, JA = printed post title] — p. 208 ([scan leaf 467](https://archive.org/details/manchukuo-directory-1938-9/page/n467/mode/1up))
 
@@ -10009,7 +10007,7 @@
 
 **M. Nakagawa.**  — p. 209 ([scan leaf 467](https://archive.org/details/manchukuo-directory-1938-9/page/n467/mode/1up))
 
-### SOUTH MANCHURIA RAILWAY COMPANY
+### South Manchuria Railway Company
 
 **T. Fujii** Secretary to President. ‖ 秘書役 [note: no printed sub-heading of its own (follows the Auditors list, before Treasury Bureau); section set to the S.M.R. heading] — p. 209 ([scan leaf 467](https://archive.org/details/manchukuo-directory-1938-9/page/n467/mode/1up))
 
@@ -11170,9 +11168,9 @@
 **Chihara Denki Shokai** Electric Apparatus & Radio Sets. · Tel. : 658. · Suehiro-cho. [note: Last entry on p. 35; its JA block would follow on p. 36, which is not in the scan (next image p0505 is p. 43). EN only.] — p. 35 ([scan leaf 504](https://archive.org/details/manchukuo-directory-1938-9/page/n504/mode/1up))
 
 
-## Kobe
+## German Firms in Japan & Manchoukuo
 
-### Alphabetical List of German Firms & Establishments in Japan and Manchoukuo (Import, Export, Agenturen): Kobe
+### Kobe
 
 **Ahrens & Co. Nachf., H. (Gomei Kaisha)** Tel. : San 711-713. · Meikai Building, 32, Akashi-machi, Kobe-ku. · P.O. Box 30 San. — p. 43 ([scan leaf 505](https://archive.org/details/manchukuo-directory-1938-9/page/n505/mode/1up))
 
@@ -11258,13 +11256,11 @@
 
 **Zirn, Dr. Med. C. & Dr. med. Schmidt** Clinic & Hospital. · Tel. : Fukiai 5393 · Kobe Bldg., (2nd floor), 7 Isobe-dori 4-chome, Fukiai-ku. — p. 45 ([scan leaf 506](https://archive.org/details/manchukuo-directory-1938-9/page/n506/mode/1up))
 
-
-## Nagoya
+### Nagoya
 
 **Winckler & Co.** Exporter of General Merchandise. · Tel. : Higashi (4) 8296. 8297. · Higashi Ozone-cho, No. 128/33 Minami 2-chome, Higashi-ku. · P.O. Box 36. — p. 45 ([scan leaf 506](https://archive.org/details/manchukuo-directory-1938-9/page/n506/mode/1up))
 
-
-## Osaka
+### Osaka
 
 **Agfa Gomei Kaisha** Import und Export. · Tel. : Kitahama 23-594. · 17, Kitahama 3-chome, Higashi-ku. · P. O. Box 41 Senba. — p. 45 ([scan leaf 506](https://archive.org/details/manchukuo-directory-1938-9/page/n506/mode/1up))
 
@@ -11322,13 +11318,11 @@
 
 **Zeiss Kabushiki Kaisha Shucchojo, Carl** Tel. : Honmachi 24-1090. · 56, Bingo-machi 2-chome, Higashi-ku. — p. 46 ([scan leaf 507](https://archive.org/details/manchukuo-directory-1938-9/page/n507/mode/1up))
 
-
-## Otaru (Hokkaido)
+### Otaru (Hokkaido)
 
 **Asiatic Lumber Co. G. K.** Export Japanese Oak. · Tel. : 242. · 32, Sakai-machi, Otaru. · P. O. Box 6.; Agents : Norddeutscher Lloyd, Bremen & Hamburg-Amerika-Linie. — p. 46 ([scan leaf 507](https://archive.org/details/manchukuo-directory-1938-9/page/n507/mode/1up))
 
-
-## Tokyo
+### Tokyo
 
 **Agfa Gomei Kaisha** Import of Photo, Cine & Perfumery. · Tel. : Marunouchi (23) 1953. · 10, Marunouchi, 2-chome, Kojimachi-ku. — p. 46 ([scan leaf 507](https://archive.org/details/manchukuo-directory-1938-9/page/n507/mode/1up))
 
@@ -11436,8 +11430,7 @@
 
 **Zeiss Kabushiki Kaisha, Carl** Tel. : Marunouchi (23) 3065. 3066. · Yusen Building, Marunouchi, Kojimachi-ku. — p. 49 ([scan leaf 508](https://archive.org/details/manchukuo-directory-1938-9/page/n508/mode/1up))
 
-
-## Yokohama
+### Yokohama
 
 **Deutsches Konsulat** 51-B, Yamashita-cho. — p. 49 ([scan leaf 508](https://archive.org/details/manchukuo-directory-1938-9/page/n508/mode/1up))
 
@@ -11457,8 +11450,7 @@
 
 **Winckler & Co.** Export & Import. · Tel. : Hon. 2-1538 to 1540 & 5539. · 256, Yamashita-cho, Naka-ku. · P. O. Box 161. [note: Last number '5539' in broken type; first two digits damaged but legible as 5.] — p. 49 ([scan leaf 508](https://archive.org/details/manchukuo-directory-1938-9/page/n508/mode/1up))
 
-
-## Dairen 大連
+### Dairen 大連
 
 **Anz & Co., O. H.** Shipping, Forwarding & Insurance. · 212, Yamagata-dori — p. 49 ([scan leaf 508](https://archive.org/details/manchukuo-directory-1938-9/page/n508/mode/1up))
 
@@ -11492,12 +11484,9 @@
 
 **Zores, L. (Ento Yoko)** General Import & Export. · 3, Higashikoen-cho. — p. 49 ([scan leaf 508](https://archive.org/details/manchukuo-directory-1938-9/page/n508/mode/1up))
 
-
-## Mukden 奉天
+### Mukden 奉天
 
 **Anz & Co., O. H.** Import & Shipping. · Wu-Wei-Loo. — p. 49 ([scan leaf 508](https://archive.org/details/manchukuo-directory-1938-9/page/n508/mode/1up))
-
-### German Firms in Japan & Manchoukuo
 
 **Becker & Co.** General Importers. · 2, Kamo-cho, Mitsui Bldg. — p. 50 ([scan leaf 509](https://archive.org/details/manchukuo-directory-1938-9/page/n509/mode/1up))
 
@@ -11525,26 +11514,17 @@
 
 **Wolter, Carl** Import, Export, Insurance. · Hongkong & Shanghai Bank Bidg. [note: 'Bidg.' as printed (broken l? reads Bidg.)] — p. 50 ([scan leaf 509](https://archive.org/details/manchukuo-directory-1938-9/page/n509/mode/1up))
 
-
-## Yingkou 營口
-
-### German Firms in Japan & Manchoukuo
+### Yingkou 營口
 
 **Beyer & Co.** Import & Export. [note: No address printed] — p. 50 ([scan leaf 509](https://archive.org/details/manchukuo-directory-1938-9/page/n509/mode/1up))
 
-
-## Hsinking 新京
-
-### German Firms in Japan & Manchoukuo
+### Hsinking 新京
 
 **Deutsche Handelsvertretung in Hsinking** Kotoku Kaikan, Ta Tung Ta Chieh · German Trade Commission — p. 50 ([scan leaf 509](https://archive.org/details/manchukuo-directory-1938-9/page/n509/mode/1up))
 
 **K. K. K. Leybold Shokwan** Import, Paints, etc. · Horakuro. — p. 50 ([scan leaf 509](https://archive.org/details/manchukuo-directory-1938-9/page/n509/mode/1up))
 
-
-## Harbin 哈爾濱
-
-### German Firms in Japan & Manchoukuo
+### Harbin 哈爾濱
 
 **Adler, Alexander** Dental Depot. · 39, Skvoznaya Street. — p. 50 ([scan leaf 509](https://archive.org/details/manchukuo-directory-1938-9/page/n509/mode/1up))
 
