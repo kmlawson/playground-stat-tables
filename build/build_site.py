@@ -176,6 +176,7 @@ BOOKS = [
      "scan": "https://archive.org/details/manchukuo-directory-1938-9/page/n{leaf}/mode/1up",
      "item": "https://archive.org/details/manchukuo-directory-1938-9",
      "dir_cards": True,
+     "dir_pinyin": {"Dairen": "Dalian", "Mukden": "Fengtian", "Hsinking": "Xinjing", "Antung": "Andong", "Port-Arthur": "Lüshun", "Tsitsihar": "Qiqihar", "Kirin": "Jilin", "Manchouli": "Manzhouli", "Peian": "Bei'an", "Taoan": "Tao'an", "Liao-Yang": "Liaoyang", "Pulantien": "Pulandian", "Rashin": "Rajin", "Kungchuling": "Gongzhuling"},
      "dir_places": ["Dairen", "Mukden", "Harbin", "Hsinking", "Antung", "Fushun", "Hailar", "Port-Arthur", "Yingkou", "Tsitsihar", "Kirin", "Manchouli", "Peian", "Taoan", "Liao-Yang", "Pulantien", "Rashin", "Kungchuling"],
      "blank_marking": True},
     {"slug": "manchoukuo-1942", "dir": ".", "title": "The Manchoukuo Year Book 1942",
@@ -446,7 +447,7 @@ def main():
     for b, clean, n, c in pages:
             os.makedirs(os.path.join(HERE, "book", b["slug"]), exist_ok=True)
             data = json.dumps(clean, ensure_ascii=False).replace("</", "<\\/")
-            doc = (TEMPLATE.replace("__DATA__", data).replace("__DIRCARDS__", dir_cards(b)).replace("__COUNT__", str(n))
+            doc = (TEMPLATE.replace("__DATA__", data).replace("__DIRCARDS__", dir_cards(b)).replace("__PINYIN__", json.dumps(b.get("dir_pinyin", {}), ensure_ascii=False)).replace("__COUNT__", str(n))
                    .replace("__CHEN__", json.dumps(b.get("_chen") or {}, ensure_ascii=False))
                    .replace("__XL__", json.dumps(xl[b["slug"]], ensure_ascii=False).replace("</", "<\\/"))
                    .replace("__HIDEIMG__", "true" if b.get("hide_images") else "false")
@@ -650,7 +651,9 @@ __DIRLINK__<button id="toggle" title="Toggle light/dark">◐</button></header>
 </div>
 <script>
 const T=__DATA__;
-const DIRCARDS=__DIRCARDS__;
+const DIRCARDS=__DIRCARDS__;const PY=__PINYIN__;let ALTR=false;try{ALTR=localStorage.getItem("altrom")==="1"}catch(e){}
+const pyd=a=>{if(ALTR||!a)return a;const w=a.split(" ")[0];return PY[w]?PY[w]+a.slice(w.length):a};
+const pyl=l=>ALTR?l:pyd(l).replace(/\(([^() ]+)\)$/,(m,w)=>PY[w]?`(${PY[w]})`:m);
 const HIDEIMG=__HIDEIMG__;
 const MARKED=__MARKED__;
 const XL=__XL__;
@@ -717,7 +720,8 @@ function filtered(){const q=fold($("#q").value.trim().toLowerCase()),ch=$("#ch")
  return T.filter(t=>(!ch||(t.chapter||"(no chapter)")===ch)&&(!fl||t._warn)&&(!q||q.split(/\s+/).every(w=>t._text.includes(w))))}
 let mode="one",cur=null;
 function dirCards(){if(!DIRCARDS)return "";const card=c=>`<a class="chbtn" href="directory.html#s=${encodeURIComponent(c.s)}">${esc(c.l)}<small>${c.n.toLocaleString()} entr${c.n===1?"y":"ies"}</small></a>`;
- return `<h2 style="margin:0 0 6px">Directory</h2><div class="chsum">${DIRCARDS.total.toLocaleString()} directory entries. Choose a place or a list.</div><h3 style="margin:14px 0 8px">Places</h3><div class="chgrid" style="--chfs:15px">`+DIRCARDS.places.map(card).join("")+`</div>`+(DIRCARDS.other.length?`<h3 style="margin:20px 0 8px">Other lists</h3><div class="chgrid" style="--chfs:15px">`+DIRCARDS.other.map(card).join("")+`</div>`:"")}
+ const pl=DIRCARDS.places.map(x=>({...x,l:pyd(x.l)})),bg=DIRCARDS.big||0;
+ return `<h2 style="margin:0 0 6px">Directory</h2><div class="chsum">${DIRCARDS.total.toLocaleString()} directory entries. Choose a place or a list. Place names are in pinyin; the directory page has a toggle for the book's own romanization.</div><h3 style="margin:14px 0 8px">Places</h3><div class="chgrid" style="--chfs:15px">`+pl.slice(0,bg).concat(pl.slice(bg).sort((x,y)=>x.l.localeCompare(y.l))).map(card).join("")+`</div>`+(DIRCARDS.other.length?`<h3 style="margin:20px 0 8px">Other lists</h3><div class="chgrid" style="--chfs:15px">`+DIRCARDS.other.map(x=>card({...x,l:pyl(x.l)})).join("")+`</div>`:"")}
 function showHome(){mode="home";cur=null;closeCmp();const n={};T.forEach(t=>{const c=t.chapter||"(no chapter)";n[c]=(n[c]||0)+1});
  if(DIRCARDS){$("#main").innerHTML=`<div class="chhead">Contents</div>`+dirCards()+`<h2 style="margin:28px 0 6px">Tables</h2><div class="chsum">${T.length} table${T.length===1?"":"s"} in ${chapters.length} section${chapters.length===1?"":"s"}. Choose a section, or pick a single table from the list.</div><div class="chgrid" style="--chfs:15px">`+
   chapters.map(c=>`<a class="chbtn" href="#ch=${encodeURIComponent(c)}">${esc(c)}${chE(c,"che3")}<small>${n[c]} table${n[c]===1?"":"s"}</small></a>`).join("")+`</div>`+LLMWARN;$("#main").scrollTop=0;mark();return}
@@ -843,7 +847,7 @@ def dir_cards(book):
     groups, subs = Counter(e["a"] for e in es), Counter((e["a"], e["s"]) for e in es if e["s"])
     places = [a for a in groups if a.split(" ")[0] in book.get("dir_places", [])]
     rank = lambda a: (BIG_PLACES.index(a.split(" ")[0]) if a.split(" ")[0] in BIG_PLACES else 99, a)
-    out = {"total": len(es), "places": [{"l": a, "s": "A:" + a, "n": groups[a]} for a in sorted(places, key=rank)], "other": []}
+    out = {"total": len(es), "big": sum(1 for a in places if a.split(" ")[0] in BIG_PLACES), "places": [{"l": a, "s": "A:" + a, "n": groups[a]} for a in sorted(places, key=rank)], "other": []}
     for a in sorted(set(groups) - set(places)):
         out["other"].append({"l": a, "s": "A:" + a, "n": groups[a]})
     for (a, s2), k in sorted(subs.items(), key=lambda x: (rank(x[0][0]), x[0][1])):
@@ -902,7 +906,7 @@ def build_directory(book):
         json.dump(entries, fh, ensure_ascii=False, indent=1)
     data = json.dumps(entries, ensure_ascii=False).replace("</", "<\\/")
     desc = f"{len(entries):,} entries" + section_summary(e["a"] for e in entries)
-    doc = (DIRTEMPLATE.replace("__DATA__", data).replace("__PLACES__", json.dumps(book.get("dir_places", []))).replace("__DIRCARDS__", dir_cards(book)).replace("__COUNT__", f"{len(entries):,}").replace("__DESC__", html.escape(desc))
+    doc = (DIRTEMPLATE.replace("__DATA__", data).replace("__PLACES__", json.dumps(book.get("dir_places", []))).replace("__DIRCARDS__", dir_cards(book)).replace("__PINYIN__", json.dumps(book.get("dir_pinyin", {}), ensure_ascii=False)).replace("__COUNT__", f"{len(entries):,}").replace("__DESC__", html.escape(desc))
            .replace("__BOOK__", html.escape(book["title"])).replace("__SLUG__", book["slug"])
            .replace("__PROG__", " · <i>transcription in progress</i>" if book.get("dir_in_progress") else "")
            .replace("__MD__", f' · <a href="../../{dl(book["slug"], "directory.md")}" download>Markdown</a>' if dl(book["slug"], "directory.md") else ""))
@@ -933,7 +937,7 @@ def build_chronology(book):
     with open(os.path.join(HERE, "data", book["slug"] + "-chronology.json"), "w", encoding="utf-8") as fh:
         json.dump(events, fh, ensure_ascii=False, indent=1)
     data = json.dumps(events, ensure_ascii=False).replace("</", "<\\/")
-    doc = (DIRTEMPLATE.replace("__DATA__", data).replace("__PLACES__", "[]").replace("__DIRCARDS__", "null").replace("__COUNT__", f"{len(events):,}")
+    doc = (DIRTEMPLATE.replace("__DATA__", data).replace("__PLACES__", "[]").replace("__DIRCARDS__", "null").replace("__PINYIN__", "{}").replace("__COUNT__", f"{len(events):,}")
            .replace("__BOOK__", html.escape(book["title"])).replace("__SLUG__", book["slug"])
            .replace("__PROG__", " · <i>transcription in progress</i>" if book.get("in_progress") else "")
            .replace("· Directories", "· Chronologies").replace("-directory.json", "-chronology.json")
@@ -996,6 +1000,7 @@ mark{background:#f3e3a0;color:inherit}
 <select id="ap"><option value="">All sections</option></select>
 <label style="font-size:13px"><input type="checkbox" id="nameonly"> names only</label>
 <label style="font-size:13px" id="jflab" hidden><input type="checkbox" id="jafirst"> 日本語 first</label>
+<label style="font-size:13px" id="arlab" hidden><input type="checkbox" id="altrom"> alt. romanization</label>
 <div id="cnt"></div></div></div>
 <main><div id="toc"></div><div id="out"></div><button id="more" hidden>Show more</button>
 <div class="llmwarn" role="note"><b>Warning:</b> These entries were transcribed by the vision model of Opus 5.5. Before using any of them, you must verify specific details with the original source which is linked to whenever possible.</div></main>
@@ -1006,17 +1011,22 @@ const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",
 const norm=s=>fold(s.normalize("NFD").replace(/[̀-ͯ]/g,"").toLowerCase());
 E.forEach(e=>{e._n=norm(e.n);e._all=norm(e.n+" "+e.t+" "+e.s)});
 const groups=[...new Set(E.map(e=>e.a+(e.s?" — "+e.s:"")))];
-const PLACES=__PLACES__;const DC=__DIRCARDS__;
+const PLACES=__PLACES__;const DC=__DIRCARDS__;const PY=__PINYIN__;
+let ALT=false;try{ALT=localStorage.getItem("altrom")==="1"}catch(e){}
+const disp=a=>{if(ALT||!a)return a;const w=a.split(" ")[0];return PY[w]?PY[w]+a.slice(w.length):a};
+const dispLab=l=>{if(ALT)return l;return disp(l).replace(/\(([^() ]+)\)$/,(m,w)=>PY[w]?`(${PY[w]})`:m)};
 let apps=[...new Set(E.map(e=>e.a))];
 const sel=$("#ap");
 const addApp=a=>{const o=document.createElement("option");o.value="A:"+a;o.textContent=a;sel.appendChild(o);
  groups.filter(g=>g.startsWith(a+" — ")).forEach(g=>{const o=document.createElement("option");o.value="G:"+g;o.textContent="   "+g.slice(a.length+3);sel.appendChild(o)})};
-if(PLACES.length){const isP=a=>PLACES.includes(a.split(" ")[0]),cmp=(x,y)=>x.localeCompare(y);
+function buildSel(){if(!PLACES.length){apps.forEach(addApp);return}const keep=sel.value;while(sel.options.length>1)sel.remove(1);
+ const isP=a=>PLACES.includes(a.split(" ")[0]),cmp=(x,y)=>x.localeCompare(y);
  const opt=(v,t)=>{const o=document.createElement("option");o.value=v;o.textContent=t;sel.appendChild(o)};
- apps.filter(isP).sort(cmp).forEach(a=>opt("A:"+a,a));const sp=document.createElement("option");sp.disabled=true;sp.textContent="──────────";sel.appendChild(sp);
+ apps.filter(isP).map(a=>[a,disp(a)]).sort((x,y)=>cmp(x[1],y[1])).forEach(([a,t])=>opt("A:"+a,t));const sp=document.createElement("option");sp.disabled=true;sp.textContent="──────────";sel.appendChild(sp);
  const rest=apps.filter(a=>!isP(a)).map(a=>["A:"+a,a]).concat(groups.filter(g=>g.includes(" — ")).map(g=>{const i=g.indexOf(" — "),a=g.slice(0,i),sub=g.slice(i+3);return["G:"+g,isP(a)?`${sub} (${a.split(" ")[0]})`:`${a}: ${sub}`]}));
- rest.sort((x,y)=>cmp(x[1],y[1])).forEach(([v,t])=>opt(v,t))}
-else apps.forEach(addApp);
+ rest.map(([v,t])=>[v,dispLab(t)]).sort((x,y)=>cmp(x[1],y[1])).forEach(([v,t])=>opt(v,t));sel.value=keep}
+buildSel();
+if(Object.keys(PY).length){$("#arlab").hidden=false;$("#altrom").checked=ALT;$("#altrom").addEventListener("change",()=>{ALT=$("#altrom").checked;try{localStorage.setItem("altrom",ALT?"1":"0")}catch(e){};buildSel();run()})}
 function hl(s,terms){s=esc(s);if(!terms.length)return s;
  // highlight accent-insensitively by matching on normalised text
  const src=s,n=norm(src);let marks=[];terms.forEach(t=>{let i=0;const et=norm(esc(t));while(et&&(i=n.indexOf(et,i))>-1){marks.push([i,i+et.length]);i+=et.length}});
@@ -1027,7 +1037,8 @@ if(E.some(e=>e.nj!==undefined)){$("#jflab").hidden=false;$("#jafirst").checked=J
 let res=[],shown=0;const STEP=300;
 function run(){const q=norm($("#q").value.trim());const terms=q.split(/\s+/).filter(Boolean);const v=sel.value;const no=$("#nameonly").checked;
  if(DC){const c=x=>`<a class="tocbtn" href="#" data-s="${esc(x.s)}">${esc(x.l)}<small>${x.n.toLocaleString()} entr${x.n===1?"y":"ies"}</small></a>`;
-  $("#toc").innerHTML=(q||v)?"":`<h2>Contents</h2><h3>Places</h3><div class="tocgrid">${DC.places.map(c).join("")}</div>`+(DC.other.length?`<h3>Other lists</h3><div class="tocgrid">${DC.other.map(c).join("")}</div>`:"")+`<h3>All entries</h3>`}
+  const pl=DC.places.map(x=>({...x,l:disp(x.l)})),big=pl.slice(0,DC.big||0),restP=pl.slice(DC.big||0).sort((x,y)=>x.l.localeCompare(y.l));
+  $("#toc").innerHTML=(q||v)?"":`<h2>Contents</h2><h3>Places</h3><div class="tocgrid">${big.concat(restP).map(c).join("")}</div>`+(DC.other.length?`<h3>Other lists</h3><div class="tocgrid">${DC.other.map(x=>c({...x,l:dispLab(x.l)})).join("")}</div>`:"")+`<h3>All entries</h3>`}
  res=E.filter(e=>{if(v.startsWith("A:")&&e.a!==v.slice(2))return false;if(v.startsWith("G:")&&e.a+(e.s?" — "+e.s:"")!==v.slice(2))return false;
   const hay=no?e._n:e._all;return terms.every(t=>hay.includes(t))});
  $("#cnt").textContent=`${res.length.toLocaleString()} of ${E.length.toLocaleString()} entries`;
@@ -1040,7 +1051,7 @@ function more(terms){terms=terms||norm($("#q").value.trim()).split(/\s+/).filter
   const body=(e.nj!==undefined)?(JF?[[e.nj,e.tj],[e.ne,e.te]]:[[e.ne,e.te],[e.nj,e.tj]]).filter(x=>x[0]||x[1]).map((x,i)=>`<div class="l${i+1}">${ln(x[0],x[1])}</div>`).join(""):`<b>${hl(e.n,terms)}</b> <span class="t">${hl(e.t,terms)}</span>`;
   h+=`<div class="e">${body}<div class="m">p. ${esc(e.p)}${e.u?` · <a href="${e.u}" target="_blank" rel="noopener">${esc(e.l)}</a>`:e.l?" · "+esc(e.l):""}</div></div>`});
  $("#out").insertAdjacentHTML("beforeend",h);shown=Math.min(res.length,shown+STEP);$("#more").hidden=shown>=res.length}
-const groupOf=e=>e.a+(e.s?" — "+e.s:"");
+const groupOf=e=>disp(e.a)+(e.s?" — "+e.s:"");
 let tm;$("#q").addEventListener("input",()=>{clearTimeout(tm);tm=setTimeout(run,120)});
 sel.addEventListener("change",run);$("#toc").addEventListener("click",ev=>{const a=ev.target.closest("[data-s]");if(!a)return;ev.preventDefault();sel.value=a.dataset.s;run();scrollTo(0,0)});$("#nameonly").addEventListener("change",run);$("#more").addEventListener("click",()=>more());
 $("#toggle").addEventListener("click",()=>{const r=document.documentElement;const d=r.dataset.theme?r.dataset.theme==="dark":matchMedia("(prefers-color-scheme: dark)").matches;r.dataset.theme=d?"light":"dark"});
