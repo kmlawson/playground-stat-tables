@@ -206,6 +206,15 @@ BOOKS = [
      "scan": "https://archive.org/details/cu31924023931680/page/n{leaf}/mode/1up",
      "item": "https://archive.org/details/cu31924023931680",
      "blank_marking": True},
+    {"slug": "china-handbook-1926", "dir": "China_Commercial_Handbook_1926",
+     "title": "China, a Commercial and Industrial Handbook 1926", "subtitle": "China: A Commercial and Industrial Handbook",
+     "publisher": "Julean Arnold, U.S. Department of Commerce, Bureau of Foreign and Domestic Commerce (Trade Promotion Series No. 38), Washington, 1926",
+     "blurb": "A U.S. government handbook on China's commerce and industries in the early 1920s: geography, the trade of China and its import trade by commodity, currency, exchange and banking, export products, modern industries, the economic structure, government finance, railways and Americans in China, followed by surveys of each American consular district (Canton, Hankow, Hongkong, Mukden, Shanghai, Tientsin, Amoy, Antung, Changsha, Chefoo, Chungking, Dairen, Foochow, Harbin, Kalgan, Nanking, Swatow, Tsinan, Tsingtao and Yunnan) with their trade, industries, banks, transport and living costs. Lists of banks, chambers of commerce, trade organizations, mines, electric plants and newspapers are on the directory page.",
+     "source": "LLM-transcribed from the Internet Archive scan.",
+     "gaps": "Only tables and directory-like lists are transcribed; the running text, photographs, maps, bibliographies and index are not. The pages with tables were found from contact sheets and only those pages were read. Most tables have no printed title, so their titles are given in [brackets]. Where a digit could only be 3 or 8 and a printed total reconciles with exactly one reading, that reading is used and noted. Printed totals that do not add up are kept as printed and noted.",
+     "scan": "https://archive.org/details/chinacommerciali00arno/page/n{leaf}/mode/1up",
+     "item": "https://archive.org/details/chinacommerciali00arno",
+     "blank_marking": True},
     {"slug": "manchoukuo-1942", "dir": ".", "title": "The Manchoukuo Year Book 1942",
      "publisher": "Manchoukuo Year Book Co., Hsinking, 1942",
      "blurb": "Official English-language yearbook of Manchukuo: geography, population, finance, banking, trade, agriculture, mining, industry, transport, labour, education and more.",
@@ -517,8 +526,9 @@ def landing(cards):
     order = {"far-east": 0, "manchoukuo": 1}
     other = sorted([(sl, h) for g, sl, h in items if g == "other"], key=lambda x: order.get(x[0].rsplit("-", 1)[0], 9))
     names = {"japan": "Japan", "china": "China", "korea": "Korea", "taiwan": "Taiwan", "manchuria": "Manchuria", "other": "Other"}
-    body = {g: "\n".join(h for gg, sl, h in items if gg == g) for g in ("japan", "china")}
+    body = {g: "\n".join(h for gg, sl, h in items if gg == g) for g in ("japan",)}
     year = {b["slug"]: edition(b) for b in BOOKS}
+    body["china"] = "\n".join(h for g, sl, h in sorted((x for x in items if x[0] == "china"), key=lambda x: (year[x[1]], x[1])))  # by edition year
     body["korea"] = "\n".join(h for g, sl, h in sorted((x for x in items if x[0] == "korea"), key=lambda x: (year[x[1]], x[1])))  # by edition year
     body["taiwan"] = "\n".join(h for g, sl, h in sorted((x for x in items if x[0] == "taiwan"), key=lambda x: (year[x[1]], x[1])))
     body["manchuria"] = "\n".join(h for g, sl, h in sorted((x for x in items if x[0] == "manchuria"), key=lambda x: (year[x[1]], x[1])))  # by edition year
