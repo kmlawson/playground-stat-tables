@@ -901,7 +901,7 @@ def build_directory(book):
         json.dump(entries, fh, ensure_ascii=False, indent=1)
     data = json.dumps(entries, ensure_ascii=False).replace("</", "<\\/")
     desc = f"{len(entries):,} entries" + section_summary(e["a"] for e in entries)
-    doc = (DIRTEMPLATE.replace("__DATA__", data).replace("__COUNT__", f"{len(entries):,}").replace("__DESC__", html.escape(desc))
+    doc = (DIRTEMPLATE.replace("__DATA__", data).replace("__PLACES__", json.dumps(book.get("dir_places", []))).replace("__COUNT__", f"{len(entries):,}").replace("__DESC__", html.escape(desc))
            .replace("__BOOK__", html.escape(book["title"])).replace("__SLUG__", book["slug"])
            .replace("__PROG__", " · <i>transcription in progress</i>" if book.get("dir_in_progress") else "")
            .replace("__MD__", f' · <a href="../../{dl(book["slug"], "directory.md")}" download>Markdown</a>' if dl(book["slug"], "directory.md") else ""))
@@ -932,7 +932,7 @@ def build_chronology(book):
     with open(os.path.join(HERE, "data", book["slug"] + "-chronology.json"), "w", encoding="utf-8") as fh:
         json.dump(events, fh, ensure_ascii=False, indent=1)
     data = json.dumps(events, ensure_ascii=False).replace("</", "<\\/")
-    doc = (DIRTEMPLATE.replace("__DATA__", data).replace("__COUNT__", f"{len(events):,}")
+    doc = (DIRTEMPLATE.replace("__DATA__", data).replace("__PLACES__", "[]").replace("__COUNT__", f"{len(events):,}")
            .replace("__BOOK__", html.escape(book["title"])).replace("__SLUG__", book["slug"])
            .replace("__PROG__", " · <i>transcription in progress</i>" if book.get("in_progress") else "")
            .replace("· Directories", "· Chronologies").replace("-directory.json", "-chronology.json")
@@ -1001,10 +1001,14 @@ const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",
 const norm=s=>fold(s.normalize("NFD").replace(/[̀-ͯ]/g,"").toLowerCase());
 E.forEach(e=>{e._n=norm(e.n);e._all=norm(e.n+" "+e.t+" "+e.s)});
 const groups=[...new Set(E.map(e=>e.a+(e.s?" — "+e.s:"")))];
-const apps=[...new Set(E.map(e=>e.a))];
+const PLACES=__PLACES__;
+let apps=[...new Set(E.map(e=>e.a))];
 const sel=$("#ap");
-apps.forEach(a=>{const o=document.createElement("option");o.value="A:"+a;o.textContent=a;sel.appendChild(o);
- groups.filter(g=>g.startsWith(a+" — ")).forEach(g=>{const o=document.createElement("option");o.value="G:"+g;o.textContent="   "+g.slice(a.length+3);sel.appendChild(o)})});
+const addApp=a=>{const o=document.createElement("option");o.value="A:"+a;o.textContent=a;sel.appendChild(o);
+ groups.filter(g=>g.startsWith(a+" — ")).forEach(g=>{const o=document.createElement("option");o.value="G:"+g;o.textContent="   "+g.slice(a.length+3);sel.appendChild(o)})};
+if(PLACES.length){const isP=a=>PLACES.includes(a.split(" ")[0]),cmp=(x,y)=>x.localeCompare(y);
+ apps.filter(isP).sort(cmp).forEach(addApp);const sp=document.createElement("option");sp.disabled=true;sp.textContent="──────────";sel.appendChild(sp);apps.filter(a=>!isP(a)).sort(cmp).forEach(addApp)}
+else apps.forEach(addApp);
 function hl(s,terms){s=esc(s);if(!terms.length)return s;
  // highlight accent-insensitively by matching on normalised text
  const src=s,n=norm(src);let marks=[];terms.forEach(t=>{let i=0;const et=norm(esc(t));while(et&&(i=n.indexOf(et,i))>-1){marks.push([i,i+et.length]);i+=et.length}});
