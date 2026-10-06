@@ -188,6 +188,15 @@ BOOKS = [
      "scan": "https://archive.org/details/japan-manchoukuo-year-book-1940/page/n{leaf}/mode/1up",
      "item": "https://archive.org/details/japan-manchoukuo-year-book-1940",
      "blank_marking": True},
+    {"slug": "taiwan-1905", "dir": "Taiwan_Progress_1905",
+     "title": "The Progress of Taiwan 1905", "subtitle": "台湾十年間之進歩 The Progress of Taiwan",
+     "publisher": "Taiwan Nichinichi Shinpōsha, Taihoku, 1905",
+     "blurb": "A bilingual (Japanese and English) statistical survey of Taiwan's first ten years under Japanese rule, 1896–1905, in fifteen parts: territory and population, agriculture and industries, foreign commerce, post and telegraph, railways and roads, navigation, banks, education, public sanitation, relief, police, prisons, civil and criminal justice, administration and finance. Titles, headings and row labels keep both the Japanese and the English as printed.",
+     "source": "LLM-transcribed from the Internet Archive scan (a Google scan of the Keio University copy).",
+     "gaps": "Only tables are transcribed; the preface, contents, map and the bar charts (which print no figures) are not. The print is faint and broken in places: figures that could not be read with certainty are marked [?], and every such cell was read a second time at high zoom. Where a digit could only be 3 or 8 and a printed total reconciles with exactly one reading, that reading is used and noted. Printed totals that do not add up are kept as printed and noted. Wide tables printed across two facing pages are joined into one table.",
+     "scan": "https://archive.org/details/the-progress-of-taiwan-1905/page/n{leaf}/mode/1up",
+     "item": "https://archive.org/details/the-progress-of-taiwan-1905",
+     "blank_marking": True},
     {"slug": "manchoukuo-1942", "dir": ".", "title": "The Manchoukuo Year Book 1942",
      "publisher": "Manchoukuo Year Book Co., Hsinking, 1942",
      "blurb": "Official English-language yearbook of Manchukuo: geography, population, finance, banking, trade, agriculture, mining, industry, transport, labour, education and more.",
@@ -492,20 +501,21 @@ def landing(cards):
             stat += f' · <b>{b["_chron_n"]:,}</b> chronology events'
             link += f' <a class="go dirgo" href="book/{b["slug"]}/chronology.html">Chronologies →</a>'
         item = f' · <a href="{b["item"]}">original scan</a>' if b.get("item") else ""
-        grp = b.get("group") or next((g for g in ("japan", "china", "korea") if b["slug"].startswith(g)), "manchuria" if b["slug"].startswith("manch") else "other")
+        grp = b.get("group") or next((g for g in ("japan", "china", "korea", "taiwan") if b["slug"].startswith(g)), "manchuria" if b["slug"].startswith("manch") else "other")
         title = f'<a href="book/{b["slug"]}/" style="color:inherit;text-decoration:none">{html.escape(b["title"])}</a>' if n else html.escape(b["title"])
         items.append((grp, b["slug"], f"""<article><h2>{title}</h2><div class="pub">{html.escape(b["publisher"])}</div>
 <div class="stat">{stat}</div><div class="src">LLM-transcribed{item}</div><div class="links">{link}</div></article>"""))
     order = {"far-east": 0, "manchoukuo": 1}
     other = sorted([(sl, h) for g, sl, h in items if g == "other"], key=lambda x: order.get(x[0].rsplit("-", 1)[0], 9))
-    names = {"japan": "Japan", "china": "China", "korea": "Korea", "manchuria": "Manchuria", "other": "Other"}
+    names = {"japan": "Japan", "china": "China", "korea": "Korea", "taiwan": "Taiwan", "manchuria": "Manchuria", "other": "Other"}
     body = {g: "\n".join(h for gg, sl, h in items if gg == g) for g in ("japan", "china")}
     year = {b["slug"]: edition(b) for b in BOOKS}
     body["korea"] = "\n".join(h for g, sl, h in sorted((x for x in items if x[0] == "korea"), key=lambda x: (year[x[1]], x[1])))  # by edition year
+    body["taiwan"] = "\n".join(h for g, sl, h in sorted((x for x in items if x[0] == "taiwan"), key=lambda x: (year[x[1]], x[1])))
     body["manchuria"] = "\n".join(h for g, sl, h in sorted((x for x in items if x[0] == "manchuria"), key=lambda x: (year[x[1]], x[1])))  # by edition year
     body["other"] = "\n".join(h for _, h in other)
     grids = "".join(f'<section class="grp" id="{g}"><h2 class="grph">{names[g]}</h2><div class="grid">{body[g]}</div></section>'
-                    for g in ("japan", "china", "korea", "manchuria", "other") if body[g])
+                    for g in ("japan", "china", "korea", "taiwan", "manchuria", "other") if body[g])
     return LANDING.replace("__CARDS__", grids)
 
 
@@ -536,7 +546,7 @@ a{color:var(--accent)}.go{font-size:15px;text-decoration:none;font-weight:bold}.
 footer{margin-top:24px;font-size:13px;color:var(--muted);border-top:1px solid var(--line);padding-top:14px}
 </style></head><body><div class="band"><div>
 <h1>Old Year Book Tables of East Asia</h1>
-<div class="topnav"><a class="searchbtn" href="search.html">Full Search</a><nav class="jump" id="jump"><a href="#japan" id="j-japan">Japan</a><a href="#china" id="j-china">China</a><a href="#korea">Korea</a><a href="#manchuria">Manchuria</a><a href="#other">Other</a></nav></div>
+<div class="topnav"><a class="searchbtn" href="search.html">Full Search</a><nav class="jump" id="jump"><a href="#japan" id="j-japan">Japan</a><a href="#china" id="j-china">China</a><a href="#korea">Korea</a><a href="#taiwan">Taiwan</a><a href="#manchuria">Manchuria</a><a href="#other">Other</a></nav></div>
 </div></div>
 <main>
 <div id="groups">
