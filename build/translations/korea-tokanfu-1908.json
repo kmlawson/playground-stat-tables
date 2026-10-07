@@ -1,0 +1,929 @@
+{
+ "_chapters": {
+  "土地": "Land",
+  "戶口": "Population",
+  "敎育": "Education",
+  "慈善團體": "Charitable Organizations",
+  "警察及監獄": "Police and Prisons",
+  "民刑事及裁判": "Civil and Criminal Cases and Courts",
+  "銀行及金融": "Banking and Finance",
+  "產業": "Industries",
+  "貿易": "Trade",
+  "鐵道": "Railways",
+  "通信": "Communications",
+  "財政": "Public Finance",
+  "職員": "Officials"
+ },
+ "p0011_1": {
+  "t": "Jurisdictions of the Residencies",
+  "d": "Name, seat, area of jurisdiction and opening date (1906) of each Residency and branch Residency, with a second part listing the jurisdictions of the Japanese consulates (and branch consulates) in Korea before the Residencies were set up."
+ },
+ "p0014_1": {
+  "t": "Locations of Meteorological Observatories",
+  "d": "East longitude and north latitude (degrees), barometer height above sea level (m), standard time and date observations began for the observatories at Pusan, Mokp'o, Inch'ŏn, Yongamp'o, Wŏnsan and Sŏngjin, as of the end of 1906."
+ },
+ "p0014_2": {
+  "t": "Storm Warning Signal Stations",
+  "d": "Location, east longitude and north latitude (degrees), mast height (m) and month of construction of each storm warning signal post, as of the end of 1906."
+ },
+ "p0014_3": {
+  "t": "Meteorology, Part 1",
+  "d": "Monthly and annual mean air pressure (mm, reduced to sea level and corrected for gravity) and mean temperature (°C), with extremes and their dates, at Pusan, Mokp'o, Inch'ŏn, Yongamp'o, Wŏnsan and Sŏngjin for 1906 and 1905."
+ },
+ "p0015_1": {
+  "t": "Meteorology, Part 2",
+  "d": "Monthly and annual mean maximum and mean minimum temperature (°C) at Pusan, Mokp'o, Inch'ŏn, Yongamp'o, Wŏnsan and Sŏngjin for 1906 and 1905."
+ },
+ "p0016_1": {
+  "t": "Meteorology, Part 3",
+  "d": "Monthly and annual absolute maximum and minimum temperature (°C), relative humidity (%), precipitation (mm) and wind speed (m per second) at Pusan, Mokp'o, Inch'ŏn, Yongamp'o, Wŏnsan and Sŏngjin for 1906 and 1905."
+ },
+ "p0017_1": {
+  "t": "Meteorology, Part 4",
+  "d": "Monthly and annual mean cloud amount (tenths) at Pusan, Mokp'o, Inch'ŏn, Yongamp'o, Wŏnsan and Sŏngjin for 1906 and 1905."
+ },
+ "p0017_2": {
+  "t": "Meteorology, Part 5",
+  "d": "Monthly and annual number of days with rain or snow at Pusan, Mokp'o, Inch'ŏn, Yongamp'o, Wŏnsan and Sŏngjin for 1906 and 1905."
+ },
+ "p0017_3": {
+  "t": "Meteorology, Part 6",
+  "d": "Number of days with precipitation, thunder, fog, frost, clear sky, overcast and storms, and frequency of wind directions (16 points and calm), at Pusan, Mokp'o, Inch'ŏn, Yongamp'o, Wŏnsan and Sŏngjin for 1906 and 1905."
+ },
+ "p0018_1": {
+  "t": "Resident Households and Population",
+  "d": "Households and population of Koreans, Japanese and foreigners in each Residency district, with totals, as of the end of 1906."
+ },
+ "p0018_2": {
+  "t": "Resident Japanese by Broad Age Group",
+  "d": "Resident Japanese by age group (5-year bands to 20, then 10-year bands to over 60) and sex in each Residency district, as of the end of 1906."
+ },
+ "p0019_1": {
+  "t": "Resident Japanese by Prefecture of Registered Domicile, Part 1",
+  "d": "Resident Japanese men and women in the Pusan, Masan, Kunsan, Mokp'o, Kyŏngsŏng, Inch'ŏn and P'yŏngyang districts by prefecture of registered domicile (Hokkaidō to Okinawa), as of the end of 1906."
+ },
+ "p0020_1": {
+  "t": "Resident Japanese by Prefecture of Registered Domicile, Part 2",
+  "d": "Resident Japanese men and women in the Chinnamp'o, Wŏnsan, Sŏngjin and Taegu districts, with overall totals, by prefecture of registered domicile, as of the end of 1906."
+ },
+ "p0021_1": {
+  "t": "Births and Deaths of Resident Japanese",
+  "d": "Births and deaths of resident Japanese by sex in each Residency district in 1906."
+ },
+ "p0021_2": {
+  "t": "Resident Japanese by Occupation, Part 1 (Households)",
+  "d": "Number of Japanese households in each Residency district by occupation (officials, teachers, clergy, lawyers, physicians, agriculture, commerce, industry, fishing, entertainers and prostitutes, labourers, no occupation, etc.), as of the end of 1906."
+ },
+ "p0022_1": {
+  "t": "Resident Japanese by Occupation, Part 2 (Population)",
+  "d": "Resident Japanese in each Residency district by occupation, divided into persons gainfully occupied and family members, by sex, as of the end of 1906."
+ },
+ "p0022_2": {
+  "t": "Households and Occupations of Japanese Outside Residency and Branch Residency Seats",
+  "d": "Households, gainfully occupied persons and family members by sex, by occupation, of Japanese living in the Korean interior away from the seats of the Residencies and branch Residencies, end of 1906."
+ },
+ "p0023_1": {
+  "t": "Households and Population of the Japanese Residents' Associations",
+  "d": "For each Japanese residents' association (kyoryū mindan): supervising Residency, area covered, households, population by sex and date of founding, as of the end of 1906."
+ },
+ "p0023_2": {
+  "t": "Households and Population of the Japanese Associations",
+  "d": "For each Japanese association (Nihonjinkai) and residents' representative office: supervising Residency, area covered, households, population by sex and date of founding, as of the end of 1906."
+ },
+ "p0024_1": {
+  "t": "Households and Population of Places with 100 or More Japanese Residents",
+  "d": "Households and population by sex of Japanese in each locality with at least 100 Japanese residents, grouped by Residency district, as of the end of 1906."
+ },
+ "p0024_2": {
+  "t": "Passports for Foreign Travel Issued, Part 1",
+  "d": "Passports issued to Japanese and to Koreans by each Residency in 1906, by purpose of travel (study, business, agriculture and fishing, artisans, migrant labour, other)."
+ },
+ "p0025_1": {
+  "t": "Passports for Foreign Travel Issued, Part 2",
+  "d": "Passports issued to Japanese and to Koreans in 1906 by destination (Japan, Vladivostok, Harbin, Nikolsk, Hong Kong, Shanghai, Singapore, Chile, San Francisco, China, Britain, United States) and purpose of travel."
+ },
+ "p0025_2": {
+  "t": "Japanese Arrivals in and Departures from Korea, Part 1",
+  "d": "Japanese arriving in and returning from Korea through each port in 1906 by sex and occupation (officials, agriculture, commerce, industry, fishing, miscellaneous)."
+ },
+ "p0026_1": {
+  "t": "Japanese Arrivals in and Departures from Korea, Part 2",
+  "d": "Japanese arriving in Korea in 1906 by prefecture of registered domicile and sex, at each port of entry (Pusan, Masan, Kunsan, Mokp'o, Inch'ŏn, Chinnamp'o, Wŏnsan, Sŏngjin)."
+ },
+ "p0027_1": {
+  "t": "Japanese Arrivals in and Departures from Korea, Part 3",
+  "d": "Japanese returning from Korea in 1906 by prefecture of registered domicile and sex, at each port of departure (Pusan, Masan, Kunsan, Mokp'o, Inch'ŏn, Chinnamp'o, Wŏnsan, Sŏngjin)."
+ },
+ "p0028_1": {
+  "t": "Japanese Arrivals in and Departures from Korea, Part 4",
+  "d": "Japanese arriving in and returning from Korea in 1906 by prefecture of registered domicile, sex and occupation (officials, agriculture, commerce, industry, fishing, miscellaneous)."
+ },
+ "p0029_1": {
+  "t": "Passengers on the Shimonoseki–Pusan Ferry",
+  "d": "Monthly number of sailings and first-, second- and third-class passengers on the Shimonoseki–Pusan (Kanpu) ferry from Shimonoseki and from Pusan in 1906, with totals for 1905 (service began September 1905)."
+ },
+ "p0029_2": {
+  "t": "Passenger Arrivals and Departures",
+  "d": "Passengers entering and leaving each open port in 1906 by nationality (Koreans, Chinese, Japanese, other foreigners), with the total broken down by China, Japan, Korean open ports and Vladivostok, plus totals for 1901–1905, from Korean customs data."
+ },
+ "p0030_1": {
+  "t": "Resident Foreigners, Part 1 (Households and Population)",
+  "d": "Households and population of resident Chinese, British, Americans, Germans, French and other foreigners in each Residency district, as of the end of 1906."
+ },
+ "p0030_2": {
+  "t": "Resident Foreigners, Part 2 (By Sex)",
+  "d": "Resident Chinese, British, Americans, Germans, French and other foreigners by sex in each Residency district, as of the end of 1906."
+ },
+ "p0031_1": {
+  "t": "Resident Foreigners, Part 3 (By Nationality)",
+  "d": "Resident foreigners by nationality (China, Britain, United States, Germany, France, Australia, Italy, Portugal, Norway, Russia, Belgium, Greece) and occupation (officials, missionaries and learned professions, agriculture, commerce, industry, labour, miscellaneous), end of 1906."
+ },
+ "p0031_2": {
+  "t": "Korean Households and Population",
+  "d": "Number of prefectures and counties and of townships (myŏn), households, population by sex, and average persons per household and households and population per county and per township in each province, from the survey of October 1906 by the Korean government police adviser Maruyama Shigetoshi."
+ },
+ "p0032_1": {
+  "t": "Korean Households and Population by Locality",
+  "d": "Korean households and population by sex for each prefecture (pu) and county (kun), grouped by province, from the October 1906 police survey."
+ },
+ "p0035_1": {
+  "t": "Staff and Pupils of Schools Established by Japanese",
+  "d": "Name, location, founder, date of founding, level, staff, pupils and date of designation as an overseas designated school for each Japanese school and kindergarten, grouped by Residency district, as of the end of October 1907."
+ },
+ "p0037_1": {
+  "t": "Summary of Schools Established by Japanese by District",
+  "d": "Number of schools by type (higher-school level, commercial schools, girls' high schools, middle-school level, girls' vocational schools, primary schools, kindergartens), with staff and pupils, in each Residency district, as of the end of October 1907."
+ },
+ "p0037_2": {
+  "t": "Staff and Pupils of Korean Government and Public Schools",
+  "d": "Location, Korean and foreign staff and teachers, and pupils of each Korean government and public school (Sŏnggyun'gwan, normal, higher, foreign-language and common schools), with a second part on special schools such as the agriculture and forestry, industrial and medical schools."
+ },
+ "p0039_1": {
+  "t": "Members of the Japanese Red Cross Society",
+  "d": "Location, total membership divided into Japanese, Korean and Chinese and other members, and date of founding of each committee branch of the Japanese Red Cross Society in Korea, as of October 1907."
+ },
+ "p0039_2": {
+  "t": "Members of the Patriotic Women's Association",
+  "d": "Location, total membership divided into members and supporting members, and date of founding of each committee of the Patriotic Women's Association (Aikoku Fujinkai) in Korea, as of October 1907."
+ },
+ "p0039_3": {
+  "t": "Charitable Organizations in Korea",
+  "d": "Name, location, purpose, founder or manager, date of founding, number of persons accommodated and means of support of each charitable organization in Korea."
+ },
+ "p0040_1": {
+  "t": "Police Establishments",
+  "d": "Number of police stations, branch stations, police boxes and resident police posts and number of police officers (superintendents, inspectors, constables) in each Residency district, as of the end of 1906."
+ },
+ "p0040_2": {
+  "t": "Japanese Police Officials Employed by the Korean Government (Police Adviser's Headquarters and Branches)",
+  "d": "Area covered and number of assistant advisers, assistant adviser deputies and auxiliaries (equivalent to superintendents, inspectors and constables) at the police adviser's headquarters and each branch, as of January 1907."
+ },
+ "p0041_1": {
+  "t": "Thefts",
+  "d": "Number of cases and value stolen (yen) of robbery, theft, theft of forest and field produce, and fraud and embezzlement in each Residency district in 1906."
+ },
+ "p0041_2": {
+  "t": "Thefts, 1905 and 1904",
+  "d": "Number of cases and value stolen (yen) of theft, fraud and embezzlement and other offences in each Residency district in 1905 and 1904."
+ },
+ "p0041_3": {
+  "t": "Recovery of Stolen Property",
+  "d": "Number of cases and value recovered (yen) of stolen property from robbery, theft, theft of forest and field produce, and fraud and embezzlement in each Residency district in 1906."
+ },
+ "p0042_1": {
+  "t": "Recovery of Stolen Property, 1905 and 1904",
+  "d": "Number of cases and value recovered (yen) of stolen property from theft, fraud and embezzlement and other offences in each Residency district in 1905 and 1904."
+ },
+ "p0042_2": {
+  "t": "Persons Arrested for Felonies and Misdemeanours",
+  "d": "Persons arrested by sex in each Residency district in 1906, by class of offence (against public order, public trust, health, morals, the person and property, and against regulations), with persons released."
+ },
+ "p0043_1": {
+  "t": "Persons Arrested for Crimes, 1903–1905",
+  "d": "Persons arrested by sex and persons released in each Residency district in 1905, 1904 and 1903."
+ },
+ "p0043_2": {
+  "t": "Persons Sentenced for Police Offences",
+  "d": "Persons dealt with for police offences in each Residency district in 1906 by sex, by law violated (Criminal Code, Residency ordinances, other laws) and by sentence (acquittal, detention, petty fine)."
+ },
+ "p0043_3": {
+  "t": "Persons Sentenced for Police Offences, 1905 and 1904",
+  "d": "Persons dealt with for police offences by sex and sentence (acquittal, detention, petty fine) in each Residency district in 1905 and 1904."
+ },
+ "p0043_4": {
+  "t": "Persons Under Police Supervision",
+  "d": "Persons under police supervision by sex in each Residency district in 1906: carried over from the previous year, additions (new orders, transfers in), reductions (expiry, transfers out, new sentences, violations, absconding, deaths) and number at year end."
+ },
+ "p0044_0": {
+  "t": "Persons Under Police Supervision, 1903–1905",
+  "d": "Persons under police supervision by sex in each Residency district in 1905, 1904 and 1903: carried over, additions, reductions and number at year end."
+ },
+ "p0044_1": {
+  "t": "Persons Banned from Residence",
+  "d": "Persons ordered to leave Korea in each Residency district in 1906 for disturbing public order or corrupting morals, by length of ban (1–3 years), with totals for 1905 and 1904."
+ },
+ "p0044_2": {
+  "t": "Unnatural Deaths",
+  "d": "Suicides, homicides and deaths from natural disasters and other causes by sex in each Residency district in 1906."
+ },
+ "p0045_1": {
+  "t": "Unnatural Deaths by Month",
+  "d": "Monthly suicides, homicides and deaths from natural disasters and other causes by sex in 1906, with totals for 1905, 1904 and 1903."
+ },
+ "p0045_2": {
+  "t": "Unnatural Deaths by Cause",
+  "d": "Unnatural deaths by sex in each Residency district in 1906 by cause (suicide by hanging, drowning, blade, firearm or poison; homicide by insurgents, robbers, grudge or resisting arrest; flood, shipwreck, illness on the road, accidental drowning or being run over, hunting guns, unknown), with totals for 1905, 1904 and 1903."
+ },
+ "p0046_1": {
+  "t": "Fires",
+  "d": "Number of fires by cause (accident, arson, lightning and unexplained), whether they spread, and houses, floor area (tsubo) and damage (yen) affected in each Residency district in 1906."
+ },
+ "p0046_2": {
+  "t": "Fires by Month",
+  "d": "Monthly number of fires by cause (accident, arson, lightning and unexplained), whether they spread, and houses, floor area (tsubo) and damage (yen) affected in 1906, with totals for 1905, 1904 and 1903."
+ },
+ "p0047_1": {
+  "t": "Persons Killed or Injured in Police Duty",
+  "d": "Officials and civilians killed or injured by Residency district, by cause (fire fighting, life saving, resisting arrest by robbers, dysentery contracted on duty), for 1906, with totals for 1903–1905."
+ },
+ "p0047_2": {
+  "t": "Police Rewards, Pensions and Allowances",
+  "d": "Number of recipients and amounts (yen) of commendations, rewards, injury pensions and allowances, medical fees, retirement pay, survivors' allowances and funeral payments to police inspectors, constables and Japanese civilians by Residency district, 1906, with totals for 1903–1905."
+ },
+ "p0048_1": {
+  "t": "Firearms Owned by Japanese",
+  "d": "Military rifles, pistols, cane guns and hunting guns owned by Japanese by Residency district at the end of 1906, with totals at the end of 1903–1905."
+ },
+ "p0048_2": {
+  "t": "Trades Under Police Regulation",
+  "d": "Number of Japanese businesses and persons in police-regulated trades (gun and powder dealers, rickshaw operators and pullers, pawnshops, inns and lodging houses, restaurants, geisha and barmaids, bathhouses, barbers and others) by Residency district, 1906."
+ },
+ "p0049_1": {
+  "t": "Newspapers and Magazines: Copies Sold and Distributed",
+  "d": "Title, place of publication and founding date of each newspaper and magazine by Residency district, with copies distributed in Korea, Japan, Taiwan, China and British Hong Kong, 1906, and totals for 1904–1905."
+ },
+ "p0049_2": {
+  "t": "Slaughtered Livestock",
+  "d": "Number of slaughterhouses and head and value (yen) of cattle, pigs, sheep and horses slaughtered by Residency district, 1906, with totals for 1903–1905."
+ },
+ "p0050_1": {
+  "t": "Medical Facilities and Pharmaceutical Trades",
+  "d": "Hospitals, physicians, nurses, midwives, pharmacists, drug dealers and drug manufacturers by Residency district at the end of 1906."
+ },
+ "p0050_2": {
+  "t": "Patients by Type of Disease",
+  "d": "Patients by sex and disease category (infectious, developmental and nutritional, skin and muscle, circulatory, nervous system, respiratory, digestive, genito-urinary, external injuries, poisoning, unknown) by Residency district, 1906, with totals for 1904–1905."
+ },
+ "p0051_1": {
+  "t": "Deaths by Type of Disease",
+  "d": "Deaths by sex and disease category (infectious, developmental and nutritional, skin and muscle, circulatory, nervous system, respiratory, digestive, genito-urinary, external injuries, poisoning, unknown) by Residency district, 1906, with totals for 1904–1905."
+ },
+ "p0051_2": {
+  "t": "Deaths by Month",
+  "d": "Deaths by month, disease category and sex in 1906, with monthly totals for 1904 and 1905 and deaths per 100 patients."
+ },
+ "p0051_3": {
+  "t": "Infectious Disease Patients and Deaths",
+  "d": "Patients and deaths by sex from cholera, typhoid, dysentery, diphtheria, typhus, smallpox and scarlet fever by Residency district, 1906, with deaths per 10 patients."
+ },
+ "p0052_1": {
+  "t": "Deaths from Infectious Diseases by Month",
+  "d": "Deaths by sex from cholera, typhoid, dysentery, diphtheria, typhus, smallpox and scarlet fever in each month of 1906, with annual totals for 1904 and 1905."
+ },
+ "p0052_2": {
+  "t": "Persons Vaccinated",
+  "d": "Primary vaccinations by age group, revaccinations and third or later vaccinations, divided into successful and unsuccessful, by Residency district, 1906, with totals for 1904–1905."
+ },
+ "p0053_1": {
+  "t": "Venereal Disease Examinations",
+  "d": "Daily average number examined and total examinations divided into genuine cases, suspected cases and non-cases, with rates per 100 examined, by Residency district, 1906, with totals for 1904–1905."
+ },
+ "p0053_2": {
+  "t": "Relief of Disaster Victims",
+  "d": "Number of fire and flood (storm and flood) incidents, persons relieved, relief days and relief costs (yen) for food and other expenses by Residency district, 1906, with totals for 1904–1905."
+ },
+ "p0053_3": {
+  "t": "Relief of the Destitute",
+  "d": "Destitute persons relieved by sex (carried over, newly relieved, deaths and discontinuations) and relief costs (yen) for food and medical treatment by Residency district, 1906, with totals for 1904–1905."
+ },
+ "p0054_1": {
+  "t": "Relief of Sick and Deceased Travellers",
+  "d": "Sick travellers relieved by sex, days of relief and relief costs (yen), and travellers who died by sex with handling costs (yen), by Residency district, 1906, with totals for 1904–1905."
+ },
+ "p0054_2": {
+  "t": "Relief of Sick Travellers: Details",
+  "d": "Sick travellers by sex carried over, newly relieved, cured, otherwise discharged, died under relief and remaining at year end, by Residency district, 1906, with totals for 1904–1905."
+ },
+ "p0054_3": {
+  "t": "Prison Population",
+  "d": "Convicts and accused persons in custody by sex by Residency district at the end of 1906, 1905 and 1904."
+ },
+ "p0055_1": {
+  "t": "Admissions and Discharges of Convicts",
+  "d": "Convicts by sex carried over, admitted (new, recommitted, transferred in, other), discharged (sentence expired, fine paid, escaped, died, transferred out, other) and remaining at year end by Residency district, 1906, with separate tables for 1905 and 1904."
+ },
+ "p0055_2": {
+  "t": "Admissions and Discharges of Accused Persons",
+  "d": "Accused persons in custody by sex carried over, admitted (new, recommitted, transferred in), discharged (released, sentenced, escaped, died, bailed, transferred out) and remaining at year end by Residency district, 1906, with separate tables for 1905 and 1904."
+ },
+ "p0056_1": {
+  "t": "Convicts by Offence",
+  "d": "Convicts by category of offence (against public peace, credit, health, morals, official misconduct, against the person, against property, police offences and regulation violations, other) by Residency district, 1906, with a separate table for 1905 and 1904."
+ },
+ "p0056_2": {
+  "t": "Convicts by Sentence",
+  "d": "Convicts by sentence (life and fixed-term penal servitude, minor penal servitude, major and minor imprisonment, commuted fines, detention and petty fines) and by first or repeat offence, by Residency district, 1906, with a separate table for 1905 and 1904."
+ },
+ "p0057_1": {
+  "t": "Sick and Deceased Prisoners",
+  "d": "Sick and deceased convicts, accused persons and detainees held in separate cells, by sex and Residency district, 1906, with a separate table for 1905 and 1904."
+ },
+ "p0058_1": {
+  "t": "Civil Suits of First Instance",
+  "d": "Civil suits pending, newly received, disposed of (judgment won, lost or partly won, withdrawn, settled, other) and undisposed, with days to disposal, by Residency, 1906, with suits brought by foreigners other than Koreans shown separately for Kyŏngsŏng and Inch'ŏn."
+ },
+ "p0058_2": {
+  "t": "Civil Suits of First Instance by Type",
+  "d": "Civil suits of first instance by subject (personal status, land, buildings and ships, money, rice and grain, goods, securities, other) by Residency, 1906."
+ },
+ "p0058_3": {
+  "t": "Civil Suits Between Japanese and Koreans",
+  "d": "Civil suits between Japanese and Koreans pending, newly received, disposed of (judgment, settlement, other) and undisposed, with suits won and lost by Koreans, by Residency, 1906."
+ },
+ "p0059_1": {
+  "t": "Civil Suits by Amount or Value in Dispute",
+  "d": "Number of civil suits by bracket of amount or value in dispute (up to 50 yen to over 10,000 yen) and total amounts and values (yen) by Residency, 1906."
+ },
+ "p0059_2": {
+  "t": "Civil Appeals",
+  "d": "Civil appeals received, disposed of (judgment changed or dismissed, withdrawn, settled) and undisposed, with days to disposal, by Residency of first instance, 1906, with a sub-table of appeals by value bracket and amount (yen)."
+ },
+ "p0059_3": {
+  "t": "Conciliation Cases",
+  "d": "Conciliation cases pending, newly received, disposed of (settled, unsettled, withdrawn) and undisposed, with days to disposal, by Residency, 1906, with a sub-table of cases by subject."
+ },
+ "p0060_1": {
+  "t": "Summary Payment Orders",
+  "d": "Applications for payment orders received and disposed of (orders issued, withdrawn), with objections and execution orders, by Residency, 1906."
+ },
+ "p0060_2": {
+  "t": "Provisional Attachments and Dispositions",
+  "d": "Provisional attachments and provisional dispositions received, disposed of (granted, rejected, other) and undisposed by Residency, 1906."
+ },
+ "p0061_1": {
+  "t": "Compulsory Executions",
+  "d": "Compulsory execution cases received and undisposed (distribution proceedings, compulsory auctions, other), cases dealt with and amount of claims (yen) by Residency, 1906."
+ },
+ "p0061_2": {
+  "t": "Judicial Assistance in Civil Matters",
+  "d": "Requests for service of documents, taking of evidence and other assistance received from the Law Court or Residencies and from courts in Japan proper, by Residency, 1906."
+ },
+ "p0061_3": {
+  "t": "Cases Handled by Court Bailiffs",
+  "d": "Bailiff cases received and disposed of (compulsory execution, provisional attachment, auction, service of civil, criminal and other documents, protests, notices and demands, other) and undisposed by Residency, 1906."
+ },
+ "p0061_4": {
+  "t": "Non-Contentious Cases",
+  "d": "Non-contentious cases received and undisposed (auctions, non-penal fines, notifications of personal status, certified dates, other) and cases dealt with by Residency, 1906."
+ },
+ "p0062_1": {
+  "t": "Registrations",
+  "d": "Number of registrations and registration taxes or fees (yen) for land, buildings, companies, other commercial matters and certified copies and inspections by Residency, 1906."
+ },
+ "p0062_2": {
+  "t": "Real Estate Registrations by Type",
+  "d": "Land and building registrations by type (ownership by sale, inheritance, gift or preservation, superficies, mortgages, leases, auctions, provisional attachments, provisional registrations, corrections, cancellations, changes, copies and inspections) by Residency, 1906."
+ },
+ "p0063_1": {
+  "t": "Registrations of Commercial Companies and Juridical Persons by Type",
+  "d": "Registrations of joint-stock, limited partnership and unlimited partnership companies (head and branch offices) by type (incorporation, capital increase, share payments, branch establishment, relocation, dissolution, liquidation, changes, cancellations, copies and inspections) by Residency, 1906."
+ },
+ "p0063_2": {
+  "t": "Other Commercial Registrations by Type",
+  "d": "Registrations of trade names, managers and wives (in trade) by type (registration, change, correction, extinction, cancellation, certificates, copies and inspections) by Residency, 1906."
+ },
+ "p0064_1": {
+  "t": "Cases Received by Public Prosecutors",
+  "d": "Criminal cases received by prosecutors from Japanese and from Korean sources, for flagrant and non-flagrant offences, by origin (complaint, accusation, police, gendarmerie, other) by Residency, 1906."
+ },
+ "p0064_2": {
+  "t": "Dispositions by Public Prosecutors",
+  "d": "Cases received (flagrant, non-flagrant) and disposed of (indicted for preliminary examination or trial, not indicted, transferred, extinguished) and undisposed, with criminal appeals, attendance at civil cases and judicial assistance, by Residency, 1906."
+ },
+ "p0065_1": {
+  "t": "Preliminary Examinations",
+  "d": "Preliminary examination cases pending, newly received, disposed of (committed for trial as felonies, misdemeanours or police offences, or dismissed) and undisposed, with days to disposal, by Residency, 1906."
+ },
+ "p0065_2": {
+  "t": "Criminal Cases of First Instance",
+  "d": "Criminal cases of first instance by class of offence pending, newly received, disposed of (guilty, not guilty, dismissed, extinguished, other) and undisposed, with days to disposal, by Residency, 1906."
+ },
+ "p0065_3": {
+  "t": "Crimes by Type",
+  "d": "Criminal cases by type of offence (against public peace, credit, health and morals, desecration of corpses and graves, official misconduct, against the person, against property, violations of security and other regulations) by Residency, 1906."
+ },
+ "p0066_1": {
+  "t": "Criminal Cases with Korean Victims",
+  "d": "Criminal cases in which Koreans were the victims, received on Japanese or Korean complaint, disposed of (guilty of felony, misdemeanour or police offence, not guilty, extinguished, other) and undisposed, by Residency, 1906, with a sub-table of offences (robbery, theft, fraud, assault, other)."
+ },
+ "p0066_2": {
+  "t": "Length of Detention of Accused Persons",
+  "d": "Accused persons by length of detention (3 days or less to 150 days or less) at the prosecution, preliminary examination and trial stages by Residency, 1906."
+ },
+ "p0067_1": {
+  "t": "Criminal Appeals",
+  "d": "Criminal appeals by appellant received, disposed of (quashed, dismissed, withdrawn, extinguished) and undisposed, with days to disposal, by Residency of first instance, 1906."
+ },
+ "p0067_2": {
+  "t": "Persons Undergoing Penal Sentences",
+  "d": "Persons on whom sentences were executed by type (life and fixed-term penal servitude, minor penal servitude, major and minor imprisonment, detention) by Residency, 1906."
+ },
+ "p0067_3": {
+  "t": "Fines, Petty Fines, Surcharges and Confiscations",
+  "d": "Fines and petty fines and surcharge and confiscation money (yen) carried over, imposed, collected, entrusted, commuted, extinguished, written off and unpaid by Residency, 1906, with a sub-table of fines collected by the Residency-General Law Court."
+ },
+ "p0068_1": {
+  "t": "Judicial Assistance in Criminal Matters",
+  "d": "Requests for service of documents, taking of evidence, execution of warrants, criminal record checks and other assistance received from the Law Court or Residencies and from courts in Japan proper, by Residency, 1906."
+ },
+ "p0068_2": {
+  "t": "Bank Receipts, Payments and Cash Holdings",
+  "d": "Receipts, payments and holdings of specie, notes and cheques and bills (yen) of Japanese banks in Korea by branch location, 1906, with figures by bank for 1902–1905."
+ },
+ "p0069_1": {
+  "t": "[Banks' Head Offices, Korean Branches, Capital and Reserves]",
+  "d": "Head office location, Korean branches and agencies, authorized and paid-up capital, reserves and capital of Korean branches (yen) of the First Bank, Eighteenth Bank and Fifty-Eighth Bank at the end of December 1906."
+ },
+ "p0069_2": {
+  "t": "Bank Deposits",
+  "d": "Total deposits received and year-end balances (yen) of the First Bank, Eighteenth Bank and Fifty-Eighth Bank in Korea, 1902–1906."
+ },
+ "p0070_1": {
+  "t": "Bank Loans",
+  "d": "Total loans made and year-end balances (yen) of the First Bank, Eighteenth Bank and Fifty-Eighth Bank in Korea, 1902–1906."
+ },
+ "p0070_2": {
+  "t": "Bank Deposits by Type",
+  "d": "Total deposits and year-end balances (yen) of public funds, fixed, current, small current, special deposits and deposit bills by branch location, 1906, and by bank for 1902–1906."
+ },
+ "p0071_1": {
+  "t": "Bank Loans by Type",
+  "d": "Total lending and year-end balances (yen) of loans, current account overdrafts, discounted bills and documentary bills by branch location and by bank, 1906, with figures by bank for 1902–1905."
+ },
+ "p0072_1": {
+  "t": "Bank Loans by Security, Part 1",
+  "d": "Loans and current-account overdrafts (yen) secured on securities, commodities, land and buildings, coin and bullion, or on credit, by place (Kyŏngsŏng, Inch'ŏn, P'yŏngyang, Chinnamp'o, Kaesŏng, Pusan, Mokp'o, Naju, Kunsan, Masan, Taegu, Wŏnsan, Sŏngjin and Hamhŭng), 1906, with a breakdown by bank (Dai-Ichi, Eighteenth and Fifty-Eighth Banks) and comparative bank totals for 1902–1905."
+ },
+ "p0072_2": {
+  "t": "Bank Loans by Security, Part 2",
+  "d": "Discounted bills and documentary bills (yen) by type of security, with grand totals of all lending by security, by place, 1906, with a breakdown by bank (Dai-Ichi, Eighteenth and Fifty-Eighth Banks) and comparative bank totals for 1902–1905."
+ },
+ "p0073_1": {
+  "t": "Bank Exchange",
+  "d": "Bills drawn on and received from other places (yen) — remittance bills (public funds and ordinary), documentary bills, discounted bills and collection bills — by place, 1906, with a breakdown by bank (Dai-Ichi, Eighteenth and Fifty-Eighth Banks) and comparative bank totals for 1902–1905."
+ },
+ "p0074_1": {
+  "t": "Interest on Fixed Deposits",
+  "d": "Monthly highest and lowest annual interest rates on fixed deposits (bu) in 1906 at thirteen centres from Kyŏngsŏng to Sŏngjin, with the annual average and comparative figures for 1903–1905."
+ },
+ "p0075_1": {
+  "t": "Interest on Current Deposits",
+  "d": "Monthly highest and lowest daily interest on current deposits (sen per 100 yen) in 1906 at thirteen centres from Kyŏngsŏng to Sŏngjin, with the annual average and comparative figures for 1903–1905, rates being averages across the banks in each place."
+ },
+ "p0075_2": {
+  "t": "Interest on Loans",
+  "d": "Monthly highest and lowest annual interest rates on loans (wari) in 1906 at thirteen centres from Kyŏngsŏng to Sŏngjin, with the annual average and comparative figures for 1903–1905."
+ },
+ "p0076_1": {
+  "t": "Interest on Current-Account Overdrafts",
+  "d": "Monthly highest and lowest daily interest on current-account overdrafts (sen per 100 yen) in 1906 at thirteen centres from Kyŏngsŏng to Sŏngjin, with the annual average and comparative figures for 1903–1905."
+ },
+ "p0076_2": {
+  "t": "Interest on Discounted Bills",
+  "d": "Monthly highest and lowest daily discount rates on bills (sen per 100 yen) in 1906 at thirteen centres from Kyŏngsŏng to Sŏngjin, with the annual average and comparative figures for 1903–1905."
+ },
+ "p0076_3": {
+  "t": "Accounts between the Korean Government and the Dai-Ichi Bank",
+  "d": "Currency-reform payment deposits held for the Korean government at the P'yŏngyang branch and the Kunsan and Chinnamp'o agencies (total deposited, paid out, year-end balance, yen), and loans to the government, currency-reform fund overdrafts and treasury overdrafts (total lent, repaid, year-end balance, yen), 1906."
+ },
+ "p0077_1": {
+  "t": "Dai-Ichi Bank Note Issue and Reserves",
+  "d": "Monthly notes outstanding brought forward, issued, redeemed and outstanding at month end, with specie and security reserves (yen), 1906, with the monthly average."
+ },
+ "p0077_2": {
+  "t": "Dai-Ichi Bank Note Issue by Place",
+  "d": "Notes outstanding by denomination (10 yen to 10 sen, in yen) at each branch place at the end of June and December 1906, with totals and comparative totals for 1902–1905; place figures for December are lacking because local issue ceased on 2 December 1906."
+ },
+ "p0078_1": {
+  "t": "Issue of New Korean Currency",
+  "d": "Monthly amounts of new Korean coinage brought forward and issued, with issue by gold, silver, nickel and copper coin (yen), 1906, with the monthly average and the 1905 figure."
+ },
+ "p0078_2": {
+  "t": "Issue of New Korean Currency by Place",
+  "d": "Monthly issue of new Korean coinage (yen) at Kyŏngsŏng, Inch'ŏn, Chinnamp'o, P'yŏngyang, Kaesŏng, Mokp'o, Kunsan, Pusan, Taegu, Wŏnsan and Sŏngjin, 1906, with the average and the 1905 figure."
+ },
+ "p0078_3": {
+  "t": "Market Rates of Yŏpchŏn (Brass Cash)",
+  "d": "Monthly highest and lowest rates (wari) of Japanese currency per 1,000 mun of brass cash at Inch'ŏn, Mokp'o, Kunsan, Pusan, Taegu, Wŏnsan, Hamhŭng and Sŏngjin, 1906, with averages and comparative figures for 1903–1905."
+ },
+ "p0079_1": {
+  "t": "Market Rates of Old Nickel Coin",
+  "d": "Monthly highest and lowest prices (wŏn per 100 yen) of old nickel coin at Kyŏngsŏng, Inch'ŏn, Chinnamp'o, P'yŏngyang, Kaesŏng and Kunsan, 1906, with averages and comparative figures for 1903–1905."
+ },
+ "p0079_2": {
+  "t": "Interest Rates of Moneylenders",
+  "d": "Monthly highest and lowest private lending rates (bu per month per 100 yen) at thirteen centres from Kyŏngsŏng to Sŏngjin, 1906, with averages and comparative figures for 1903–1905."
+ },
+ "p0080_1": {
+  "t": "General Business of the Korean Agricultural and Industrial Banks",
+  "d": "Capital, paid-in funds, government funds, agricultural-industrial bonds issued, net profit and its appropriation, and date of licence (yen) for the ten Agricultural and Industrial Banks from Hansŏng to Kongju for the first business term to February 1907, with deposits, loans and interest rates at the end of February 1907."
+ },
+ "p0081_1": {
+  "t": "General Business of Korean Ordinary Banks",
+  "d": "Capital, paid-up capital, government loans, deposits (fixed, current, other) and lending (loans, overdrafts, discounted bills) in yen for the Hansŏng Bank, Taehan Ch'ŏnil Bank and Hanil Bank and their branches, end of 1906."
+ },
+ "p0081_2": {
+  "t": "General Business of Korean Bill Associations",
+  "d": "Members, basic funds and guaranteed bills (guaranteed, paid, outstanding at year end, yen) and dates of licence of the bill associations of Hansŏng, P'yŏngyang (with Chinnamp'o sub-office), Taegu, Chŏnju and Chinju, end of 1906."
+ },
+ "p0081_3": {
+  "t": "General Business of Korean Government Warehouses",
+  "d": "Funds, amounts lent and recovered and year-end balances (yen) and opening dates of the government warehouses at P'yŏngyang, Chinnamp'o, Taegu, Chŏnju, Ch'ungju, Suwŏn and Kwangju, 1906, with a list of government-built warehouses leased to banks (location, area in tsubo, bank)."
+ },
+ "p0082_1": {
+  "t": "Japanese Chambers of Commerce",
+  "d": "Area, councillors, special councillors, meetings, items of business, electors and eligible members, and budgets for 1906–1907 and settled accounts for 1904–1905 (yen) of the Japanese chambers of commerce at Kyŏngsŏng, Inch'ŏn, Pusan, Wŏnsan, Mokp'o and Taegu."
+ },
+ "p0082_2": {
+  "t": "Companies",
+  "d": "Name, district, location, date founded, line of business, form of organisation and authorised and paid-up capital (yen) of companies and their branches in Korea, end of 1906."
+ },
+ "p0084_1": {
+  "t": "Factories",
+  "d": "Name, location, date founded, product, authorised and paid-up capital (yen), technicians and workers (Japanese, Korean, other) of factories by district, from Pusan to Sinŭiju, end of 1906."
+ },
+ "p0086_1": {
+  "t": "Associations",
+  "d": "Name, location, starting date and line of business of trade, credit and other associations by district, from Pusan to Taegu, end of 1906."
+ },
+ "p0086_2": {
+  "t": "Wages of Hired Workers",
+  "d": "Wages (yen) of Japanese and Korean carpenters, sawyers, plasterers, bricklayers, stonemasons, stevedores, labourers, carters, shoemakers, tailors, laundry workers, joiners, porters, shop assistants and male and female servants at thirteen centres from Kyŏngsŏng to Sŏngjin, 1906 (daily, except monthly rates for some, with board where marked)."
+ },
+ "p0087_1": {
+  "t": "Estimated Rice Production and Value in Korea",
+  "d": "Paddy area (chō), brown-rice output (koku), value (yen), percentage share, average price per koku and average yield per tan in the thirteen provinces from Kyŏnggi to North Hamgyŏng, from the Korean government's financial handbook of March 1907."
+ },
+ "p0088_1": {
+  "t": "Estimated Cultivated Area of Agricultural Products in Korea",
+  "d": "Estimated area (chō) under soybeans, ginseng, tobacco, cotton, barley, hemp, perilla and castor, and miscellaneous grains and vegetables in the thirteen provinces from Kyŏnggi to North Hamgyŏng, with totals."
+ },
+ "p0088_2": {
+  "t": "Estimated Soybean Production in Korea",
+  "d": "Estimated cultivated area (chō), output (koku), value (yen), percentage share, average price per koku and average yield per tan of soybeans in each province, with totals."
+ },
+ "p0088_3": {
+  "t": "Estimated Ginseng Production in Korea",
+  "d": "Estimated cultivated area (chō), output (kan), value (yen), percentage share, average price per kan and average yield per tan of ginseng in each province, with totals."
+ },
+ "p0089_1": {
+  "t": "Estimated Tobacco Production in Korea",
+  "d": "Estimated cultivated area (chō), output (kan), value (yen), percentage share, average price per kan and average yield per tan of tobacco in each province, with totals."
+ },
+ "p0089_2": {
+  "t": "Estimated Cotton Production in Korea",
+  "d": "Estimated cultivated area (chō), output (kan), value (yen), percentage share, average price per koku (as printed) and average yield per tan of cotton in each province, with totals."
+ },
+ "p0089_3": {
+  "t": "Estimated Barley Production in Korea",
+  "d": "Estimated cultivated area (chō), output (koku), value (yen), percentage share, average price per koku and average yield per tan of barley in each province, with totals."
+ },
+ "p0090_1": {
+  "t": "Estimated Hemp Production in Korea",
+  "d": "Estimated cultivated area (chō), output (kan), value (yen), percentage share, average price per kan and average yield per tan of hemp in each province, with totals."
+ },
+ "p0090_2": {
+  "t": "Estimated Perilla and Castor Production in Korea",
+  "d": "Estimated cultivated area (chō), output (koku), value (yen), percentage share, average price per koku and average yield per tan of perilla and castor beans in each province, with totals."
+ },
+ "p0091_1": {
+  "t": "Principal Products of Korea",
+  "d": "Principal manufactures, agricultural products, minerals and marine products of each of the eight old provinces of Korea."
+ },
+ "p0091_2": {
+  "t": "Mining Localities of Korea",
+  "d": "Counties and kinds of minerals (gold, silver, copper, iron, alluvial gold, coal etc.) for which mining applications were filed or granted, by province."
+ },
+ "p0092_1": {
+  "t": "Japanese Fishing Boats in Korean Waters and Their Crews, Part 1",
+  "d": "Number of boats and crew of Japanese fishing vessels operating in Korean waters by prefecture of origin (Hokkaidō to Miyazaki), with Korea-based boats and totals, 1902–1906."
+ },
+ "p0093_1": {
+  "t": "Japanese Fishing Boats in Korean Waters and Their Crews, Part 2",
+  "d": "Number of boats and crew of Japanese fishing vessels in Korean waters by type of fishery (sea-bream lines, nets, whaling, diving, carrier and mother ships etc.), 1902–1906, with principal fishing grounds."
+ },
+ "p0094_1": {
+  "t": "Fishing Licence Fees Collected in Korean Waters",
+  "d": "Boats, crew and fees collected (yen) under the Japan–Korea fishery regulations at the Inch'ŏn, Pusan, Wŏnsan, Mokp'o and Chinnamp'o customs houses, by boat crew size, 1904–1906."
+ },
+ "p0095_1": {
+  "t": "Value of Exports and Imports and Gold and Silver Exports and Imports",
+  "d": "Exports and imports (yen) of domestic and foreign goods, total trade, import surplus, and exports, imports and net export of gold, silver and other currency, 1897–1906."
+ },
+ "p0095_2": {
+  "t": "Value of Exports by Port",
+  "d": "Value of exports (yen) from Chinnamp'o, Sinŭiju, Yongamp'o, Inch'ŏn, Kunsan, Mokp'o, Pusan, Masanp'o, Wŏnsan, Sŏngjin and Kyŏngsŏng, 1897–1906."
+ },
+ "p0096_1": {
+  "t": "Value of Imports by Port",
+  "d": "Value of imports net of re-exports (yen) at Chinnamp'o, Sinŭiju, Yongamp'o, Inch'ŏn, Kunsan, Mokp'o, Pusan, Masanp'o, Wŏnsan, Sŏngjin and Kyŏngsŏng, 1897–1906."
+ },
+ "p0096_2": {
+  "t": "Value of Exports by Country",
+  "d": "Value of exports (yen) to Japan, China, Russian Manchuria (Vladivostok), Britain, the United States, Belgium, Germany, Russia and Singapore, 1897–1906."
+ },
+ "p0096_3": {
+  "t": "Value of Imports by Country",
+  "d": "Value of imports (yen) from Japan, China, Russian Manchuria (Vladivostok), Britain, the United States, Belgium, Germany, Russia and Singapore, 1897–1906."
+ },
+ "p0097_1": {
+  "t": "Quantity and Value of Principal Exports, Part 1",
+  "d": "Quantity and value (yen) of principal exports of Korean produce, such as rice, beans, ginseng, marine products, minerals and hides, 1902–1906."
+ },
+ "p0097_2": {
+  "t": "Quantity and Value of Principal Exports, Part 2",
+  "d": "Quantity and value (yen) of principal re-exports of foreign produce, such as cotton goods, foodstuffs, salt, sugar, kerosene and coal, 1902–1906."
+ },
+ "p0098_1": {
+  "t": "Quantity and Value of Principal Imports",
+  "d": "Quantity and value (yen) of principal imports, such as cotton piece goods and yarn by origin, metals, foodstuffs, kerosene and other goods, 1902–1906."
+ },
+ "p0100_1": {
+  "t": "Gold and Silver Exports and Imports by Port",
+  "d": "Exports and imports (yen) of gold, silver and other currency and the export or import surplus at Inch'ŏn, Pusan, Chinnamp'o, Wŏnsan, Mokp'o and Kunsan, 1906, with totals for 1902–1905."
+ },
+ "p0100_2": {
+  "t": "Gold and Silver Exports and Imports by Country",
+  "d": "Exports and imports (yen) of gold and silver coin and bullion, paper money, nickel, copper and copper cash to and from Japan, China and other countries, 1906, with totals for 1902–1905."
+ },
+ "p0100_3": {
+  "t": "Shipping Entered and Cleared",
+  "d": "Number and tonnage of steamers, sailing vessels and junks entering and clearing Korean ports by flag, 1906, with totals for 1902–1905."
+ },
+ "p0101_1": {
+  "t": "Customs Revenue",
+  "d": "Export duties, import duties and tonnage dues (yen) collected at each port, 1906, with the same by nationality of payer, and port totals for 1896–1905."
+ },
+ "p0101_2": {
+  "t": "Korean Coasting Trade",
+  "d": "Outward and inward coasting trade (yen) of goods and of gold and silver, re-shipments and coasting trade per 100 yen of foreign trade at each open port, 1906, with totals for 1901–1905."
+ },
+ "p0102_1": {
+  "t": "Trade of Unopened Places in Korea",
+  "d": "Value (yen) of domestic and foreign goods shipped to and from non-treaty places, by province and place, in trade with the open ports, 1906, with totals for 1902–1905."
+ },
+ "p0103_1": {
+  "t": "Japan–Korea Trade, Part 1: Value of Exports and Imports",
+  "d": "Japanese exports to and imports from Korea (yen) of domestic and foreign goods, total trade, export surplus and share of Japan's total trade (wari), 1902–1906, from the Annual Return of the Foreign Trade of Japan."
+ },
+ "p0103_2": {
+  "t": "Japan–Korea Trade, Part 2: Value of Exports and Imports by Port",
+  "d": "Japanese exports to and imports from Korea (yen) through Yokohama, Kōbe, Ōsaka, Nagasaki, Hakodate and other ports, 1902–1906."
+ },
+ "p0104_1": {
+  "t": "Japan–Korea Trade, Part 3: Quantity and Value of Principal Exports to Korea",
+  "d": "Quantity and value (yen) of principal Japanese exports to Korea, such as foodstuffs, cotton goods, clothing, building materials, coal and manufactures, 1902–1906."
+ },
+ "p0105_1": {
+  "t": "Japan–Korea Trade, Part 4: Quantity and Value of Principal Imports from Korea",
+  "d": "Quantity and value (yen) of principal Japanese imports from Korea, such as soybeans, red beans, rice, wheat, hides, copper, cotton and timber, 1902–1906."
+ },
+ "p0105_2": {
+  "t": "Japan–Korea Trade, Part 5: Korean Vessels Entered and Cleared",
+  "d": "Number and tonnage of Korean steamers and sailing vessels entering and clearing port in the Japan–Korea trade, with totals, for 1902–1906."
+ },
+ "p0105_3": {
+  "t": "Japan–Korea Trade, Part 6: Exports and Imports of Gold and Silver",
+  "d": "Exports and imports (yen) of gold coin and bullion, silver coin and bullion, convertible notes, and public and corporate bonds, with totals, for 1902–1906."
+ },
+ "p0105_4": {
+  "t": "Aids to Navigation, Part 1: Lights",
+  "d": "Each lighthouse, light beacon and lit pole with its location, latitude and longitude, date first lit, construction, order and character of light, arc of visibility, height of light above base and above water (jō/shaku) and range (nautical miles), as at the end of 1906."
+ },
+ "p0106_1": {
+  "t": "Aids to Navigation, Part 2: Daymarks",
+  "d": "The Kunsan buoys with their position, colour, construction and height above water, depth at average tide (fathoms) and date of installation (31 December 1906)."
+ },
+ "p0106_2": {
+  "t": "Aids to Navigation, Part 3: Fog Signals",
+  "d": "The fog signal on Chŏryŏng Island at the entrance to Pusan harbour: location, type, date installed (December 1906) and a description of its operation."
+ },
+ "p0106_3": {
+  "t": "Railway Land, Lines and Rolling Stock",
+  "d": "Route length (miles) and the section covered by each line (Kyŏngbu, Kyŏngŭi, Masan, Kyŏngwŏn, P'yŏngnam), land held for track, stations and other purposes (tsubo), and numbers of locomotives, passenger cars and freight cars, as at the end of fiscal 1906."
+ },
+ "p0107_1": {
+  "t": "Railway Passengers, Goods and Receipts",
+  "d": "Station-by-station figures for the Kyŏngbu, Kyŏngŭi and Masan lines and their branches: distance (miles), passengers boarding by class and alighting, hand luggage and parcels dispatched and arrived (weight), goods dispatched and arrived (tons), and passenger and goods receipts (yen), for fiscal 1906 (Kyŏngbu from July, the other lines from September 1906)."
+ },
+ "p0109_1": {
+  "t": "Railway Construction Costs",
+  "d": "Construction expenditure (yen) by item — land, earthworks, bridges, tunnels, track, stations, rolling stock and so on — for the Kyŏngbu, Kyŏngŭi and Masan lines and in total, from the start of construction to the end of March 1907."
+ },
+ "p0110_1": {
+  "t": "Railway Repair Expenditure",
+  "d": "Expenditure (yen) on track and other repair works by item for the Kyŏngbu, Kyŏngŭi and Masan lines and in total, fiscal 1906 (Kyŏngbu from July, the other lines from September 1906)."
+ },
+ "p0110_2": {
+  "t": "Railway Revenue and Expenditure",
+  "d": "Operating revenue (passenger, goods, miscellaneous), operating expenses by item and profit (yen) on the Kyŏngbu line, with average revenue, expenses and profit per day, per mile and per day-mile, fiscal 1906 from July 1906."
+ },
+ "p0111_1": {
+  "t": "Railway Casualties",
+  "d": "Railway staff, passengers and others killed and injured on the Kyŏngbu line and the Kyŏngŭi and Masan lines, with totals, fiscal 1906."
+ },
+ "p0111_2": {
+  "t": "Revenue and Expenditure of the Residency-General Railway Bureau",
+  "d": "Revenue (budgeted, received, outstanding) and expenditure (budgeted, paid, outstanding) in yen of the capital account, stores fund and revenue account, fiscal 1906 from July 1906."
+ },
+ "p0111_3": {
+  "t": "Staff of the Residency-General Railway Bureau",
+  "d": "Officials of the Railway Bureau by salary grade: higher officials (director, secretaries, assistant secretaries, engineers, interpreters) and hannin officials (clerks, technicians, interpreters), as at the end of fiscal 1906."
+ },
+ "p0112_1": {
+  "t": "Post Offices and Postal Agencies",
+  "d": "Number by province of post offices, postal, telegraph and combined agencies and receiving offices, railway telegraph agencies and postal relay stations, with stamp sellers, post boxes and private post-office boxes, as at the end of fiscal 1906, with earlier years for comparison."
+ },
+ "p0113_1": {
+  "t": "Post Offices and Agencies by Services Handled",
+  "d": "Number of post offices and each type of agency handling ordinary mail, parcels, telegrams (Japanese, European-script and Korean han'gŭl), telephone exchange and calls, money orders, savings and state treasury business, at the end of fiscal 1906 with fiscal 1903–1905 for comparison."
+ },
+ "p0113_2": {
+  "t": "Postal Routes",
+  "d": "Length of postal routes on ordinary roads (ri), single and average daily run, carried by Japanese and by Korean couriers, and railway mail routes (miles) by supervising office, with sea routes (nautical miles), at the end of fiscal 1906 and 1905."
+ },
+ "p0113_3": {
+  "t": "Ordinary Mail",
+  "d": "Letters, postcards by kind, newspapers and periodicals, books, business papers, samples, seeds and free items posted, with totals and items delivered, by delivery zone, for fiscal 1906 and 1905, plus the mail handled by Japanese government post offices for fiscal 1900–1904."
+ },
+ "p0114_1": {
+  "t": "Ordinary Mail by Month",
+  "d": "Monthly numbers of letters, postcards by kind, newspapers and periodicals, books, business papers, samples, seeds and free items posted, with totals and items delivered, April 1906 – March 1907."
+ },
+ "p0114_2": {
+  "t": "Ordinary Mail Requiring Special Handling",
+  "d": "Registered items (paid and free), insured items (number and yen) and cash-on-delivery items (number and yen), posted and delivered, fiscal 1906 and 1905."
+ },
+ "p0114_3": {
+  "t": "Foreign Ordinary Mail",
+  "d": "Foreign letters, postcards, printed matter, business papers, samples and free items posted, with totals and items delivered, by delivery zone and by type of office, fiscal 1906."
+ },
+ "p0115_1": {
+  "t": "Parcel Post",
+  "d": "Monthly parcels posted (paid and free) and delivered in fiscal 1906, with foreign parcels by country, insured and cash-on-delivery parcels (number and yen), and parcels handled by Japanese government post offices in fiscal 1901–1904."
+ },
+ "p0115_2": {
+  "t": "China–Korea Parcel Post",
+  "d": "Monthly parcels posted (paid and free) for Japan and for China and parcels delivered under the China–Korea parcel regulations, with insured and cash-on-delivery parcels (number and yen), fiscal 1906."
+ },
+ "p0116_1": {
+  "t": "Lost and Damaged Mail",
+  "d": "Registered, insured and parcel items lost or damaged — carried over and new, compensated, claim lapsed, not compensated and pending — with compensation paid and postage refunded (yen), fiscal 1906 with 1905 for comparison."
+ },
+ "p0116_2": {
+  "t": "Undeliverable Domestic and Foreign Mail",
+  "d": "Undeliverable ordinary mail by class and parcels, domestic and foreign outgoing, with the numbers that could and could not be returned to sender, fiscal 1906."
+ },
+ "p0117_1": {
+  "t": "Free Military Mail",
+  "d": "Monthly official and private ordinary items, registered items and parcels of free military mail posted and delivered, April 1906 – March 1907."
+ },
+ "p0117_2": {
+  "t": "Sales of Postage Stamps and Stationery",
+  "d": "Number and value (yen) of stamps, postcards, envelopes, letter-cards and savings stamp cards sold, by province, fiscal 1906."
+ },
+ "p0117_3": {
+  "t": "Sales of Postage Stamps and Stationery by Month",
+  "d": "Monthly number and value (yen) of stamps, postcards, envelopes, letter-cards and savings stamp cards sold, April 1906 – March 1907."
+ },
+ "p0118_1": {
+  "t": "Domestic Postal Money Orders",
+  "d": "Monthly number and amount (yen) of ordinary, small and telegraphic money orders issued and of orders paid, April 1906 – March 1907, with military money orders issued in fiscal 1905 and 1906."
+ },
+ "p0118_2": {
+  "t": "Foreign Postal Money Orders",
+  "d": "Monthly number and amount (yen) of foreign money orders issued and paid in fiscal 1906, the main countries concerned, and domestic and foreign money orders handled by Japanese government post offices in fiscal 1900–1904."
+ },
+ "p0119_1": {
+  "t": "Postal Savings",
+  "d": "Monthly new depositors, deposits (number and yen), withdrawals, depositors closing accounts, and depositors and balances at month end with average per depositor (yen), fiscal 1906, plus annual figures for Japanese government post offices for fiscal 1900–1904."
+ },
+ "p0120_1": {
+  "t": "Postal Savings Depositors by Occupation and Size of Balance",
+  "d": "Number of depositors, balances and average per depositor (yen) by occupation, and depositors and balances by size of balance, as at the end of fiscal 1906."
+ },
+ "p0120_2": {
+  "t": "Telegraph Lines",
+  "d": "Length of telegraph lines and of wire (ri, chō, ken, shaku) by supervising office, at the end of fiscal 1906 with 1905 for comparison."
+ },
+ "p0120_3": {
+  "t": "Telegrams Sent and Received",
+  "d": "Domestic and foreign telegrams in Japanese, European script and Korean han'gŭl sent, received and relayed, with charges (yen), by province, fiscal 1906, plus telegrams handled by Japanese government offices in fiscal 1900–1904."
+ },
+ "p0121_1": {
+  "t": "Telegrams Sent and Received by Month",
+  "d": "Monthly domestic and foreign telegrams in Japanese, European script and Korean han'gŭl sent, received and relayed, with charges (yen), April 1906 – March 1907."
+ },
+ "p0121_2": {
+  "t": "Telegrams by Kind, Part 1: Japanese-Language",
+  "d": "Japanese-language telegrams by province, domestic and foreign — paid official, private and chargeable service telegrams, free telegrams, received and relayed, with charges (yen) — fiscal 1906, plus figures from Japanese government offices for fiscal 1900–1904."
+ },
+ "p0122_1": {
+  "t": "Telegrams by Kind, Part 2: European-Language",
+  "d": "European-language telegrams by province, domestic and foreign — paid official, private and chargeable service telegrams, free telegrams, received and relayed, with charges (yen) — fiscal 1906, plus figures from Japanese government offices for fiscal 1900–1904."
+ },
+ "p0123_1": {
+  "t": "Telegrams by Kind, Part 3: Korean Han'gŭl",
+  "d": "Han'gŭl telegrams by province — paid official, private and chargeable service telegrams, free telegrams, received and relayed, with charges (yen) — fiscal 1906."
+ },
+ "p0123_2": {
+  "t": "Telephone Lines",
+  "d": "Length of overhead bare-wire and overhead cable lines, wire and cable cores (ri, chō, ken, shaku), local and trunk, by supervising office at the end of fiscal 1906, with the places each office could call on trunk lines."
+ },
+ "p0124_1": {
+  "t": "Local Telephone Calls",
+  "d": "Number of local calls and charges (yen) by subscribers and non-subscribers and for call requests, with total charges, by office, fiscal 1906."
+ },
+ "p0124_2": {
+  "t": "Trunk Telephone Calls",
+  "d": "Number of trunk calls (including free calls) and charges (yen) by subscribers and non-subscribers and for call requests, by office, fiscal 1906, plus public telephone calls and charges, and the telephone business of Japanese government offices for fiscal 1902–1904."
+ },
+ "p0125_1": {
+  "t": "Telephone Subscribers by Occupation",
+  "d": "Telephone subscribers at each office by occupation (manufacturing and trade by branch, banking, transport, inns and restaurants, government offices and officials, professions, agriculture, fishing, mining and others), with totals at the end of fiscal 1906 and 1905."
+ },
+ "p0126_1": {
+  "t": "Korean State Treasury Receipts and Payments",
+  "d": "Number of counties served, number and amount (yen) of Korean government revenue and expenditure items handled, with averages per county and per item, by province, fiscal 1906."
+ },
+ "p0126_2": {
+  "t": "Revenue of the Korean Communications Service",
+  "d": "Ordinary revenue (postal and telegraph receipts, miscellaneous receipts, stamp revenue) and extraordinary revenue (sales of government buildings and goods) in yen, budgets for fiscal 1907 and 1906 and settled accounts for fiscal 1901–1905."
+ },
+ "p0127_1": {
+  "t": "Expenditure of the Korean Communications Service",
+  "d": "Ordinary and extraordinary expenditure (yen) by item, budgets for fiscal 1907 and 1906 and settled accounts for fiscal 1901–1905, with the actual revenue and expenditure (wŏn) of the Korean government's own communications service in 1901–1905."
+ },
+ "p0127_2": {
+  "t": "Staff of the Residency-General Communications Bureau and Its Offices",
+  "d": "Officials and employees (Japanese and Korean) by rank at the Communications Bureau and at post offices, agencies, receiving offices and relay stations at the end of fiscal 1906 and 1905, with staff of Japanese government post offices for fiscal 1900–1904."
+ },
+ "p0128_1": {
+  "t": "Expenditure of the Residency-General",
+  "d": "Ordinary expenditure (yen) of the Residency-General under the Ministry of Finance by item (salaries, office costs, travel, courts, prisons, police, secret funds and others): the fiscal 1907 budget and actual amounts for fiscal 1906 and 1905, with the fiscal 1907 budget of the Residency-General Forestry Bureau."
+ },
+ "p0129_1": {
+  "t": "Revenue and Expenditure of the Japanese Residents' Associations",
+  "d": "Ordinary and extraordinary revenue and expenditure and special-account revenue and expenditure (yen) of each Japanese Residents' Association (Kyŏngsŏng, Inch'ŏn, Pusan, P'yŏngyang, Chinnamp'o, Kunsan, Mokp'o, Masan, Wŏnsan, Taegu), fiscal 1907 budget."
+ },
+ "p0129_2": {
+  "t": "Revenue of the Japanese Residents' Associations",
+  "d": "Ordinary revenue (association taxes by kind, fees and tuition, property income, waterworks and hospital receipts) and extraordinary revenue (surplus brought forward, association bonds, donations, subsidies and others) in yen for each of the ten Japanese Residents' Associations and in total, fiscal 1907 budget."
+ },
+ "p0130_1": {
+  "t": "Expenditure of the Japanese Residents' Associations",
+  "d": "Ordinary expenditure (office, assembly, public works, education, sanitation, relief, police, waterworks and others) and extraordinary expenditure (public works, education, waterworks, debt service and others) in yen for each Japanese Residents' Association, fiscal 1907 budget."
+ },
+ "p0131_1": {
+  "t": "Revenue and Expenditure of the Korean Government",
+  "d": "Budgeted ordinary and extraordinary revenue and expenditure (yen) of the Korean government for Kwangmu 8–11 (1904–1907)."
+ },
+ "p0131_2": {
+  "t": "Revenue of the Korean Government",
+  "d": "Korean government revenue (yen) by item — land, household and other taxes, stamp revenue, receipts of government enterprises, miscellaneous and extraordinary revenue — budgets for 1904–1907, receipts and arrears for 1906 and percentage shares for 1907."
+ },
+ "p0132_1": {
+  "t": "Expenditure of the Korean Government",
+  "d": "Budgeted ordinary and extraordinary expenditure (yen) of the Korean government by department (imperial household, ministries, police, communications office and others) for 1904–1907, with the amounts and percentages for imperial household, military and civil administration."
+ },
+ "p0133_1": {
+  "t": "Annual Allocations of the Korean Government's Continuing Expenditures",
+  "d": "Budgeted annual allocations (yen) for road works, waterworks, hospital construction, education expansion, an industrial training school, court buildings and customs works, up to 1906 and for each year 1907–1912."
+ },
+ "p0133_2": {
+  "t": "Special Accounts of the Korean Government",
+  "d": "Budgeted ordinary and extraordinary revenue and expenditure (yen) of the Printing Bureau, the Weights and Measures Office and the cotton-cultivation account, Kwangmu 11 (1907)."
+ },
+ "p0133_3": {
+  "t": "Outstanding National Debt of the Korean Government",
+  "d": "Each Korean government loan with date and amount borrowed (yen), interest rate, grace period and redemption date, as at the end of 1906."
+ },
+ "p0134_1": {
+  "t": "Officials and Employees of the Residency-General and Its Offices and Their Salaries, Part 1",
+  "d": "Number of chokunin, sōnin and hannin officials and technicians by grade or salary step, with annual salaries (yen), and of hannin-equivalent staff, commissioned staff and employees with monthly pay (yen), as at the end of 1906."
+ },
+ "p0135_1": {
+  "t": "Officials and Employees of the Residency-General and Its Offices and Their Salaries, Part 2",
+  "d": "Chokunin, sōnin and hannin officials and annual salaries (yen), and hannin-equivalent staff, commissioned staff and employees with monthly pay (yen), for each department of the Residency-General and each subordinate office, including the Residencies, as at the end of 1906."
+ }
+}
