@@ -1,60 +1,95 @@
 # CLAUDE.md — East Asian statistical tables site
 
-Static site of statistical tables transcribed from English-language yearbooks. The transcriptions (JSON)
-live **outside** this repo in each book's `_work/` folder; `build/build_site.py` regenerates everything here from
-them. Several Claude sessions add books at once, each on its own branch — read `build/example/guidance.md` before
-building or pushing anything.
+Static site of statistical tables (and directories) transcribed from yearbooks and handbooks on Japan, Korea,
+Taiwan, Manchuria and China — in English, Japanese or both. The transcriptions (JSON) live **outside** this repo
+in each book's `_work/` folder next to it; `build/build_site.py` regenerates everything here from them.
+This file is the authoritative process overview (updated 2026-10-07). `build/example/` holds the templates
+(`BRIEF.md`, `MISSION.md`) and git/merge details (`guidance.md`).
 
-## Transcription workflow (how every book is done)
+## Hard rules (every book, every sub-agent prompt)
 
-- **No OCR, ever.** Every figure is read by the model from image crops. No tesseract, Apple Vision, `llm`/
-  Gemini, PDF text layers or OCR files — not for transcription and not "just to help". Put this in every
-  sub-agent prompt; an agent given a scan and no constraint reaches for a tool.
-- **Blank, never guess.** An unreadable figure is never guessed. Transcribe as printed, misprints included;
-  re-add every printed total and note whether it reconciles.
-- **Two kinds of empty cell (rule of 2026-10-01).** A cell that is empty *in the original* is `""`. A cell we
-  could not read is `"[?]"` (the whole cell), plus a transcriber note naming it. Never write partial readings
-  such as `"12[?]"`; `[?]` inside longer text marks an unreadable character. The site shows the two
-  differently (`[?]` = red hatching, `""` = plain empty) for books whose BOOKS entry has
-  `"blank_marking": true`; older books, where `""` still means both, keep the grey hatching for every empty cell.
-- **Totals may settle 一/二/三 (rule of 2026-10-01).** A printed total never decides a digit — with one
-  exception: when the only doubt is how a stack of 一/二/三 strokes groups (三 vs 二一 vs 一二, 二 vs 一一), and
-  exactly one of the candidate readings makes the printed row or column total reconcile, use that reading. Read
-  the strokes first and write the candidates down before doing the arithmetic; if no candidate reconciles, or
-  more than one does, the cell stays `"[?]"`. **Every cell settled this way must be listed in that table's
-  `transcriber_notes`** (rule of 2026-10-01), naming the cell, the candidates and the total, e.g.
-  `"Row '京畿道', col '1938': 一/二/三 grouping settled by the printed total (candidates 3,412 / 21,412; only
-  3,412 reconciles with the column total 41,560)"`. A settled cell with no such note is an error in the check pass.
-- **Short missions, not long batches.** Each sub-agent gets one short mission sized to finish in under an
-  hour: 1–3 dense pages/spreads (trade returns, big multi-part tables), 3–5 ordinary table pages (up to 8 if
-  that keeps whole tables together), 10–20 pages of pure prose. Draw the boundaries from a contact sheet of
-  the whole book so tables rarely cross them; split very long single tables into one-file-per-page missions
-  with shared conventions (see `build/example/guidance.md` §4). Long batches (12–30 spreads) ran 5–9 hours per agent, were hard to monitor and lost work to API
-  timeouts. Templates: `build/example/BRIEF.md` (rules, formats) and `build/example/MISSION.md` (scope + prompt).
-- **Ownership of multi-page tables:** a table is written once, by the mission that owns its first page,
-  reading ahead as far as needed; a continuation at the top of a mission's first page is left alone. A killed
-  mission's partial file is handed to the next mission with an explicit "finish tables/<file>" instruction.
-- **Read from tight crops with headings in view:** crops ≤ ~2000 px wide and ≤ ~25 rows (images are shrunk
-  to ~2000 px); paste the header strip onto each chunk of a tall table; don't upscale except to inspect a
-  single tiny region.
-- **Monitor by files, not elapsed time** (`ls -t tables | head`, the mission's `reports/M_<leaf>.md`). No new
-  file for ~30 minutes → stop the mission and relaunch smaller from what is on disk.
-- **Check pass at the end:** short re-read missions for tables whose totals don't reconcile, tables with
-  gutter columns, and a ~10% random sample.
-- Stay under the concurrent sub-agent limit the user sets; launch missions on a rolling basis.
+- **No OCR, ever.** Every figure is read by the model from image crops with its own eyes. No tesseract, Apple
+  Vision, `llm`/Gemini, PDF text layers, OCR files, or pixel/darkness/stroke-counting scripts. Cropping,
+  zooming and contrast for the agent's own eyes are fine. Say this in every sub-agent prompt.
+- **Never guess.** Transcribe as printed, misprints included; re-add every printed total and note whether it
+  reconciles. A wrong digit is worse than a blank.
+- **Two kinds of empty cell.** Empty *in the original* = `""`; could not read = `"[?]"` (whole cell) plus a
+  transcriber note naming row and column. Never `"12[?]"`; `[?]` inside longer text marks an unreadable
+  character. New books get `"blank_marking": true` (red hatching for `[?]`).
+- **A printed total never decides a digit — two narrow exceptions (user decisions):**
+  - *一/二/三 grouping* (Japanese kanji numerals): when the only doubt is how a stack of 一/二/三 strokes groups
+    (三 vs 二一 vs 一二; 二 vs 一一), write the candidates down, and if exactly one makes a printed row or column
+    total reconcile, use it.
+  - *3 vs 8* (Western figures): when a digit is ambiguous only between 3 and 8 and exactly one reading makes a
+    printed total reconcile, use it.
+  - In both cases every other cell in that sum must be read with confidence; never chain; only printed sums,
+    sub-totals, balances or %-to-100 count (not averages, ratios, prose or other tables); and every such cell is
+    listed in the table's `transcriber_notes` with candidates and total. Otherwise the cell is `"[?]"`.
+- **Opus for reading.** Model tests: on a dense vertical-numeral table (統監府統計年報 第一〇六表) Opus 5.5 scored
+  91–100% per reading, Sonnet 5.5 98.3% (slower, more tokens), Haiku 4.5 0% (gave up). On 朝鮮年鑑 1925 Opus also
+  clearly beat Sonnet. Use Opus agents, at most 10 at a time (the user's limit).
+- **Privacy.** Nothing identifying the user in commits, request headers (User-Agent/From), file metadata or
+  pages. Descriptive, non-identifying User-Agent for downloads.
 
-## Building and publishing
+## Workflow for a book
 
-- Build: `uv run --with openpyxl build/build_downloads.py`, then `python3 build/build_site.py`. From a worktree that isn't
-  next to the book folders, set `STAT_TABLES_ROOT` (see `build/example/guidance.md` §3) or other books rebuild from
-  the wrong folder.
-- Commit only your own book's files; revert everything else the build touched. Shared code changes go in
-  their own backwards-compatible commit.
-- Never push to `main`; push your branch and let the main session merge.
-- Privacy: GitHub noreply commit identity; never put the user's name, email or other identifying details in
-  commits, request headers (User-Agent/From), file metadata or pages.
-- Before merging `origin/main`, commit or stash; confirm the merge ran (`git merge-base --is-ancestor
-  origin/main HEAD`) and that no conflict markers remain. Generated pages conflict on almost every merge:
-  resolve by rebuilding, never by hand (see `build/example/guidance.md` §5).
-- Audit agents' "judgement calls": a digit read from its shape, a similar glyph, context, row order or a
-  total is blanked, with the partial reading in the note (except under the 一/二/三 rule above).
+1. **Get the scan.** `ia download` (Internet Archive) or the user's PDF (often NDL, on the Oma drive). Book folder
+   `<Name_Year>/` next to this repo; work in `<Name_Year>/_work/`. Extract page images to `full/pNNNN.jpg`
+   (`pdfimages -j` for the original JPEGs; render at 300 dpi only for non-JPEG pages; JP2 zips via `magick`).
+   `pNNNN` = PDF page / scan leaf, 1-based (keep a `build/leafmaps/<slug>.json` if the online viewer counts
+   differently). Make 1600–1800 px copies in `plan/`.
+2. **Contact sheets.** 8 images per sheet, 4×2, each labelled with its file name (`magick montage … -label pNNNN`)
+   in `sheets/`. Survey agents (Opus, ~8–16 sheets each, `plan/SHEET_SURVEY.md`) list only the images with tables,
+   lists, charts with figures or directories, one line each: `pNNNN | pp. | START/CONT | kind | titles | ENDS/RUNS-ON`,
+   plus skipped runs (contents, index, ads, prose) and missing/duplicated pages. Only those pages are read later.
+3. **Brief.** Copy and adapt `BRIEF.md` (rules, JSON format, the book's "This book" section: language, numerals,
+   chapter naming, page numbering, spreads/RTL, units) and `MISSION.md`; `prompt.py` + `next.sh` +
+   `missions.json` drive the missions; `validate.py` checks files.
+4. **Missions.** Built from the survey lines: ~3–6 images per mission (3 spreads for dense vertical Japanese
+   tables, 4–6 single pages for English tables), never splitting before a `CONT` page; a mission whose last table
+   runs on is told to read into the next image, the next mission is told to skip that continuation. Directory or
+   Who's Who pages get separate DIRECTORY missions (`directory/<leaf>.json`); columnar lists are tables.
+   Run on a rolling basis, ≤10 Opus agents; each mission: report in `reports/<MID>.md`, crops and helper scripts
+   only in `crops/<MID>/`, never anything in `/tmp`. Mission ids/status in `missions.json`; `./next.sh <done-MID>`
+   marks one done and prepares the next prompt. Reply to the user per mission only "N done, M left".
+5. **Follow-ups (FIXES.md).** Log from mission reports: tables nobody owns, duplicates, orphan fragments whose
+   first page is missing, and every cell an agent *changed after a total check flagged it*. No 10% random check
+   pass (the user judged its yield too low).
+6. **Blind verification.** (a) Cells changed after a total check, and total mismatches that look like one-digit
+   misreads, are re-read by an agent that sees only table/row/column (`BLIND_TASK.md`, `blind/`), never the
+   values; agreeing readings stand. (b) The hardest tables (tiny/compressed type, many `[?]` or large mismatches)
+   get a full independent second transcription; every disagreeing cell goes to a third reader shown both
+   candidates: agreement with one → use it; three different readings or unsure → `"[?]"`. Keep the first
+   version (`blind/*.first.json`) and note every change in the table. (c) Books with many `[?]` (faint print):
+   a re-read pass over the `[?]` cells only (`REREAD_TASK.md`).
+7. **Normalise** chapter names (one per printed chapter, numbered as printed), titles, duplicate files.
+8. **English layer for non-English books** (Korea/Japanese books): `build/translations/<slug>.json` with
+   `"_chapters"` (English chapter names) and per table `{"t": English title, "d": one-sentence description}`,
+   written by Opus agents from the JSON only (`TRANSLATE_TASK.md`, McCune–Reischauer / Hepburn).
+9. **Publish** (below). Note queued books in `../queue.md`; record per-book state in `_work/STATUS.md`.
+
+## Site and BOOKS entry
+
+- One entry per book in `BOOKS` (`build/build_site.py`): `slug`, `dir`, `title` (simple title + year; edition
+  year, e.g. "朝鮮年鑑 1940"; add "(incomplete scan)" if large parts are missing), optional `subtitle`
+  (romanisation/edition), `publisher`, `blurb` (English overview), `source`, `gaps` (what is and isn't
+  transcribed, missing pages, how checks were done), `scan` (`…/page/n{leaf}/…` for IA, `https://dl.ndl.go.jp/pid/<pid>/1/{leaf}`
+  for NDL; `None` if not online), `item`, `blank_marking: True`; optional `group` to force a home-page section.
+- Home-page sections: Japan, China, Korea, Taiwan, Manchuria, Other — chosen from the slug prefix
+  (`japan-`, `china-`, `korea-`, `taiwan-`, `manch…`) or `group`; Korea, Taiwan, Manchuria and China sort by
+  edition year. Slugs: 朝鮮年鑑 = `korea-nenkan-YYYY`, 朝鮮事情 = `korea-YYYY`, statistical annual = `korea-tokanfu-YYYY`.
+- Directory books can set `dir_cards`, `dir_places`, `dir_pinyin` (place cards, pinyin with "alt. romanization").
+- Table pages show printed notes and transcriber's notes in collapsible sections under each table.
+
+## Building and publishing (this session runs the repo — user, 2026-10-06)
+
+- Build: `STAT_TABLES_ROOT=/Users/kml/shell/projects/yearbooks/japanyearbooks python3 build/build_site.py`, then
+  `uv run --with openpyxl build/build_downloads.py`, then build_site again (so the page links the new download).
+- Branch from `origin/main` with `--no-track`; commit only the new book's files plus `build_site.py`, `index.html`,
+  `search.html` and any book pages a shared-code change touched; revert other rebuilt files (often
+  `book/japan-1935/directory.html`, `book/korea-nenkan-1926/directory.html`, other books' downloads).
+- Check `git merge-base --is-ancestor origin/main HEAD`, then push explicitly:
+  `git push origin refs/heads/<branch>:refs/heads/main`; watch the Pages deploy (`gh run watch`).
+- Commit trailer as given by the session; never the user's identity.
+- The full-text search page needs no separate rebuild: it is regenerated with the site and loads each book's
+  `data/` file at run time.

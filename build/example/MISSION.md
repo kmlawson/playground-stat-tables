@@ -36,6 +36,6 @@ Read _work/BRIEF.md and _work/MISSION.md in <abs path>/_work and follow them.
 [FINISH tables/<file>.json (<table>): it stops at <row/item>; append the rest from <page>.]
 Write every table that starts on <leaf(s)>; read ahead into <next leaf> only to finish the last one.
 Match the structure of <existing example file> if the section has a house style.
-Read the images with your own eyes — NO OCR/Vision/llm. Unreadable = "" + note.
+Read the images with your own eyes — NO OCR/Vision/llm/text layer, no pixel scripts. Unreadable = "[?]" + note; empty in the original = "".
 No sub-agents. Aim for < 45 min. Report: reports/M_<leaf>.md.
 ```

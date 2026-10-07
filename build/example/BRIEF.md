@@ -6,7 +6,7 @@
 
 ## Checklist (read first)
 1. Read the images yourself — no OCR, Vision framework, `llm`/Gemini or text layer of any kind.
-2. Unreadable figure → `""` + a note. Never guess; never infer a digit from a total.
+2. Unreadable figure → `"[?]"` + a note (a cell empty in the original is `""`). Never guess; never infer a digit from a total (except the 一/二/三 and 3-vs-8 rules in rule 2 below).
 3. Transcribe as printed; never correct the source. Re-add every printed total and note whether it reconciles.
 4. Read tables from tight crops (≤ ~2000 px wide, ≤ ~25 rows), each with its column headings in view.
 5. Note the number of rows you read for every table/part.
@@ -37,6 +37,10 @@ put a sub-heading printed above an unnumbered table in `caption_extra`.
    e.g. `"Row '京畿道', col '1938': 一/二/三 grouping settled by the printed total (candidates 3,412 / 21,412;
    only 3,412 reconciles)"`. Every settled cell must have such a note. If none or more than one reconciles, the
    cell is `"[?]"`. Never write partial readings such as `"12[?]"` into a cell.
+   The same exception covers **3 vs 8** in Western figures (books in English): if a digit is still ambiguous
+   between 3 and 8 after an enlarged crop and exactly one reading makes a printed total reconcile (every other
+   cell in that sum read with confidence), use it and note it. Only printed sums, sub-totals, balances or
+   %-to-100 count — never averages, ratios, prose or other tables — and never chain.
    (Set `"blank_marking": true` in the book's BOOKS entry so the site shows `[?]` and `""` differently.)
 3. Where the table prints a total (row or column), add up the parts yourself (python3) and record in
    `transcriber_notes` whether it reconciles, e.g. `"Total 1,303,437: parts sum to 1,303,337 — does NOT

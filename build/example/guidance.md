@@ -1,7 +1,11 @@
 # Adding a book from another session
 
-Several Claude sessions add books to this site at the same time, each on its own branch. The main session
-merges the branches into `main` and publishes. This guide explains how to prepare a book and post a branch
+> **Current practice (2026-10-07):** one session runs the repo and pushes finished books straight to `main`
+> (see `CLAUDE.md`, "Building and publishing"). The branch-and-merge advice below still applies if several
+> sessions work in parallel again. `CLAUDE.md` is the authoritative process overview; where this file differs, it wins.
+
+Several Claude sessions may add books to this site at the same time, each on its own branch; the session that
+runs the repo merges the branches into `main` and publishes. This guide explains how to prepare a book and post a branch
 so that merges go cleanly. `BRIEF.md` in this folder is the template brief for the sub-agents that do the
 transcription.
 
@@ -36,8 +40,8 @@ transcription.
 - For multi-part Internet Archive items, name leaves `p{part}-{leaf:04d}` and put `{part}` and `{leaf}` in
   `scan`.
 - If the scan is not online, set `"scan": None, "hide_images": True` and leave out `item`.
-- Book order on the home page is the order of `BOOKS`: the Japan Year Books first (by year), then Korea,
-  Manchoukuo, the Far East book, then the China books. Put your entry where it belongs in that order.
+- The home page groups books into sections (Japan, China, Korea, Taiwan, Manchuria, Other) by slug prefix or an
+  optional `"group"` key; Korea, Taiwan, Manchuria and China sort by edition year, Japan by `BOOKS` order.
 - Say "LLM-transcribed", never "hand-transcribed".
 
 ## 3. Posting a branch without clashing
@@ -51,7 +55,7 @@ Follow these steps.
 
 1. **Start from the current `main`.** Run `git fetch origin && git switch -c <your-branch> origin/main`, or if
    your branch already exists, `git rebase origin/main`. Rebase again just before every push.
-2. **One branch per book or series** (e.g. `early-japan-year-books`, `far-east-1941`). Never push to `main`.
+2. **One branch per book or series** (e.g. `early-japan-year-books`, `far-east-1941`). Only the session that runs the repo pushes to `main`.
 3. **Set the root when you build from a worktree or clone that isn't next to the book folders.**
    `build/build_site.py` finds relative `dir` paths from `STAT_TABLES_ROOT`, falling back to the folder that holds
    the repo. If your checkout lives elsewhere, run
@@ -95,8 +99,9 @@ in the book folder are therefore the source of truth, not the generated HTML.
     spreads** per mission;
   - ordinary table pages: **3–5** (up to 8 when that keeps whole tables inside one mission);
   - pure prose (laws, history, treaties, Who's Who pages to be skipped): **10–20**.
-  Make a contact sheet (`magick montage`, labelled thumbnails, ~40 leaves per sheet) of the whole book first,
-  and draw the mission boundaries where tables start and end, so that few tables cross a boundary.
+  Make contact sheets of the whole book first (`magick montage`, **8 labelled images per sheet**), survey them
+  to list only the images with tables, and draw the mission boundaries where tables start and end, so that few
+  tables cross a boundary.
 - **Very long single tables** (a 30-page customs tariff, a trade return running 20 pages): split them into
   missions of ~5 pages that each write **one file per printed page** (`"continued": true`), with the columns
   and conventions fixed up front in a small `_work/<TABLE>_CONVENTIONS.md` (set by the first mission). Then
@@ -117,10 +122,9 @@ in the book folder are therefore the source of truth, not the generated HTML.
   was in a mission that died). Queue a one-table mission for it.
 - Do Who's Who and directory sections as separate missions (`directory/<leaf>.json`), and chronologies the
   same way.
-- **Check pass.** When a book is done, run short check missions over (a) tables whose totals do not
-  reconcile, (b) tables with columns in the gutter, and (c) a random ~10% sample: re-read against the image
-  and fix misreads. In the Far East Year Book 1941 such re-reads found shifted columns and misread digits
-  that the first pass had missed.
+- **Verification.** No random-sample check pass (the user judged its yield too low). Instead: blind re-reads of
+  every cell an agent changed after a total check flagged it, and for the hardest tables a full independent second
+  transcription with a third reader on every disagreement (see `CLAUDE.md`, step 6).
 - **Audit "judgement calls" in replies.** Agents sometimes fill a half-printed digit from its shape, a
   similar glyph elsewhere, row order or a total, and say so. Under the no-guess rule those cells must be
   blank with the partial reading in the note — blank them, or send the mission back to do it.
