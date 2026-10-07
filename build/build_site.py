@@ -584,7 +584,7 @@ def landing(cards):
         item = f' · <a href="{b["item"]}">original scan</a>' if b.get("item") else ""
         grp = b.get("group") or next((g for g in ("japan", "china", "korea", "taiwan") if b["slug"].startswith(g)), "manchuria" if b["slug"].startswith("manch") else "other")
         title = f'<a href="book/{b["slug"]}/" style="color:inherit;text-decoration:none">{html.escape(b["title"])}</a>' if n else html.escape(b["title"])
-        items.append((grp, b["slug"], f"""<article><h2>{title}</h2><div class="pub">{html.escape(b["publisher"])}</div>
+        items.append((grp, b["slug"], f"""<article data-t="{html.escape(b["title"])}"><h2>{title}</h2><div class="pub">{html.escape(b["publisher"])}</div>
 <div class="stat">{stat}</div><div class="src">LLM-transcribed{item}</div><div class="links">{link}</div></article>"""))
     order = {"far-east": 0, "manchoukuo": 1}
     other = sorted([(sl, h) for g, sl, h in items if g == "other"], key=lambda x: order.get(x[0].rsplit("-", 1)[0], 9))
@@ -626,19 +626,23 @@ dialog form button{font:inherit;font-size:14px;background:var(--accent);color:va
 a{color:var(--accent)}.go{font-size:15px;text-decoration:none;font-weight:bold}.dirgo{display:inline-block;margin:8px 8px 0 0;background:var(--accent);color:var(--accent-ink);padding:6px 12px;border-radius:5px;font-size:14px}
 .llmwarn{margin:28px 0 0;padding:12px 14px;border:1px solid #8a5a00;border-left:4px solid #8a5a00;background:var(--panel);font-size:14px}
 footer{margin-top:24px;font-size:13px;color:var(--muted);border-top:1px solid var(--line);padding-top:14px}
-.viewbtn{font:inherit;font-size:15px;background:transparent;color:var(--accent-ink);border:1px solid var(--accent-ink);border-radius:5px;padding:6px 14px;cursor:pointer;margin-left:auto}.viewbtn:hover{background:var(--accent-ink);color:var(--accent)}
+.viewbtn{font:inherit;font-size:15px;background:transparent;color:var(--accent-ink);border:1px solid var(--accent-ink);border-radius:5px;padding:6px 14px;cursor:pointer;margin-left:auto}.viewbtn:hover{background:var(--accent-ink);color:var(--accent)}.view2{margin-left:0}
 body.list .grid{display:block;margin-top:8px}body.list article{flex-direction:row;align-items:center;gap:12px;padding:5px 10px;border:0;border-bottom:1px solid var(--line);border-left:3px solid var(--accent)}
 body.list article+article{margin-top:0}body.list article h2{font-size:16px;margin:0;flex:1;min-width:0}body.list .pub,body.list .stat,body.list .src{display:none}
 body.list .links{margin:0;flex-wrap:nowrap;gap:5px}body.list .dirgo{padding:1px 8px;font-size:12.5px;font-weight:normal;white-space:nowrap}
 @media(max-width:560px){body.list article{flex-wrap:wrap;gap:4px}body.list article h2{flex-basis:100%}body.list .links{flex-wrap:wrap}.viewbtn{margin-left:0}}
 </style></head><body><div class="band"><div>
 <h1>Old Year Book Tables of East Asia</h1>
-<div class="topnav"><a class="searchbtn" href="search.html">Full Search</a><nav class="jump" id="jump"><a href="#japan" id="j-japan">Japan</a><a href="#china" id="j-china">China</a><a href="#korea">Korea</a><a href="#taiwan">Taiwan</a><a href="#manchuria">Manchuria</a><a href="#other">Other</a></nav><button class="viewbtn" id="viewbtn" type="button" aria-pressed="false">List view</button></div>
+<div class="topnav"><a class="searchbtn" href="search.html">Full Search</a><nav class="jump" id="jump"><a href="#japan" id="j-japan">Japan</a><a href="#china" id="j-china">China</a><a href="#korea">Korea</a><a href="#taiwan">Taiwan</a><a href="#manchuria">Manchuria</a><a href="#other">Other</a></nav><button class="viewbtn" id="sortbtn" type="button">Sort: A–Z</button><button class="viewbtn view2" id="viewbtn" type="button" aria-pressed="false">List view</button></div>
 </div></div>
 <main>
 <div id="groups">
 __CARDS__
 </div>
+<script>(function(){const b=document.getElementById("sortbtn");document.querySelectorAll("#groups .grid").forEach(g=>[...g.children].forEach((a,i)=>a.dataset.i=i));
+const key=t=>t.replace(/^(The|A|An)\s+/i,"").toLowerCase();function set(az){document.querySelectorAll("#groups .grid").forEach(g=>{const a=[...g.children];a.sort(az?(x,y)=>key(x.dataset.t).localeCompare(key(y.dataset.t),"en",{numeric:true}):(x,y)=>x.dataset.i-y.dataset.i);a.forEach(e=>g.appendChild(e))});
+b.textContent=az?"Sort: by date":"Sort: A–Z";b.title=az?"Showing A–Z; click to sort by date":"Showing by date; click to sort A–Z";try{localStorage.setItem("homesort",az?"az":"date")}catch(e){}b.dataset.az=az?"1":""}
+let az=false;try{az=localStorage.getItem("homesort")==="az"}catch(e){}set(az);b.onclick=()=>set(!b.dataset.az)})();</script>
 <script>(function(){const b=document.getElementById("viewbtn");function set(l){document.body.classList.toggle("list",l);b.textContent=l?"Card view":"List view";b.setAttribute("aria-pressed",l);try{localStorage.setItem("homeview",l?"list":"cards")}catch(e){}}
 let l=false;try{l=localStorage.getItem("homeview")==="list"}catch(e){}set(l);b.onclick=()=>set(!document.body.classList.contains("list"))})();</script>
 <script>if(Math.random()<.5){const g=document.getElementById("groups");g.insertBefore(document.getElementById("china"),document.getElementById("japan"));
