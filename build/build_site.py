@@ -655,6 +655,7 @@ body.cmp #wrap{grid-template-columns:280px minmax(0,1fr) minmax(0,1fr)}
 .keys{font-size:12px;color:var(--muted)}
 .llmwarn{margin:24px 0 8px;padding:12px 14px;border:1px solid var(--warn);border-left:4px solid var(--warn);background:var(--panel);color:var(--ink);font-size:14px}
 .notes{font-size:13.5px;color:var(--muted)}
+details.notes{margin:6px 0}details.notes>summary{cursor:pointer;font-weight:bold;padding:3px 0;list-style:revert}details.notes>summary.warn{color:var(--warn)}details.notes>ul{margin:4px 0 8px}
 .notes li.warn{color:var(--warn)}
 .row{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:8px 0}
 .scan{display:flex;gap:10px;flex-wrap:wrap;margin-top:10px}
@@ -722,8 +723,8 @@ function tableHTML(t,q,other){let h=`<section class="tbl" id="t-${t.id}"><h2><a 
   h+=`<div class="tw"><table><thead><tr>${p.columns.map((c,j)=>`<th class="sortable" data-col="${j}" title="Click to sort">${hl(c,q)}</th>`).join("")}</tr></thead><tbody>`;
   p.rows.forEach((r,ri)=>{const sec=r.length>1&&r.slice(1).every(c=>c==="");h+=`<tr data-i="${ri}"${sec?' class="sec"':""}>`+r.map((c,j)=>c==="[?]"?`<td class="illeg" title="Unreadable in the scan" aria-label="unreadable"></td>`:`<td class="${j&&isNum(c)?"num":""}${j&&c===""&&!sec&&!MARKED?" blank":""}"${j&&c===""&&!sec&&MARKED?' title="Blank in the original"':""}>${hl(c,q)}</td>`).join("")+"</tr>"});
   h+="</tbody></table></div>"});
- if((t.footnotes||[]).length)h+=`<div class="notes"><b>Printed notes</b><ul>${t.footnotes.map(n=>`<li>${hl(n,q)}</li>`).join("")}</ul></div>`;
- if((t.transcriber_notes||[]).length)h+=`<div class="notes"><b>Transcriber's notes</b><ul>${t.transcriber_notes.map(n=>`<li class="${warnRe.test(n)?"warn":""}">${esc(n)}</li>`).join("")}</ul></div>`;
+ if((t.footnotes||[]).length){const fn=t.footnotes.map(n=>hl(n,q)),hit=fn.some(x=>x.includes("<mark>"));h+=`<details class="notes"${hit?" open":""}><summary>Printed notes (${fn.length})</summary><ul>${fn.map(x=>`<li>${x}</li>`).join("")}</ul></details>`;}
+ if((t.transcriber_notes||[]).length)h+=`<details class="notes"><summary${t._warn?' class="warn"':""}>Transcriber's notes (${t.transcriber_notes.length})${t._warn?" — includes unreadable or doubtful cells":""}</summary><ul>${t.transcriber_notes.map(n=>`<li class="${warnRe.test(n)?"warn":""}">${esc(n)}</li>`).join("")}</ul></details>`;
  h+=`<div class="row"><button data-act="dl" data-id="${t.id}">Download CSV</button><button data-act="cp" data-id="${t.id}">Copy as TSV</button></div>`;
  if(!HIDEIMG)h+=`<div class="sub">Source: ${(t.scans||[]).map(s=>s.url?`<a href="${s.url}" target="_blank" rel="noopener">${esc(s.label)}</a>`:esc(s.label)).join(", ")}</div>`;
  h+=`</section>`;
