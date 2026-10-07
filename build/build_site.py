@@ -617,14 +617,21 @@ dialog form button{font:inherit;font-size:14px;background:var(--accent);color:va
 a{color:var(--accent)}.go{font-size:15px;text-decoration:none;font-weight:bold}.dirgo{display:inline-block;margin:8px 8px 0 0;background:var(--accent);color:var(--accent-ink);padding:6px 12px;border-radius:5px;font-size:14px}
 .llmwarn{margin:28px 0 0;padding:12px 14px;border:1px solid #8a5a00;border-left:4px solid #8a5a00;background:var(--panel);font-size:14px}
 footer{margin-top:24px;font-size:13px;color:var(--muted);border-top:1px solid var(--line);padding-top:14px}
+.viewbtn{font:inherit;font-size:15px;background:transparent;color:var(--accent-ink);border:1px solid var(--accent-ink);border-radius:5px;padding:6px 14px;cursor:pointer;margin-left:auto}.viewbtn:hover{background:var(--accent-ink);color:var(--accent)}
+body.list .grid{display:block;margin-top:8px}body.list article{flex-direction:row;align-items:center;gap:12px;padding:5px 10px;border:0;border-bottom:1px solid var(--line);border-left:3px solid var(--accent)}
+body.list article+article{margin-top:0}body.list article h2{font-size:16px;margin:0;flex:1;min-width:0}body.list .pub,body.list .stat,body.list .src{display:none}
+body.list .links{margin:0;flex-wrap:nowrap;gap:5px}body.list .dirgo{padding:1px 8px;font-size:12.5px;font-weight:normal;white-space:nowrap}
+@media(max-width:560px){body.list article{flex-wrap:wrap;gap:4px}body.list article h2{flex-basis:100%}body.list .links{flex-wrap:wrap}.viewbtn{margin-left:0}}
 </style></head><body><div class="band"><div>
 <h1>Old Year Book Tables of East Asia</h1>
-<div class="topnav"><a class="searchbtn" href="search.html">Full Search</a><nav class="jump" id="jump"><a href="#japan" id="j-japan">Japan</a><a href="#china" id="j-china">China</a><a href="#korea">Korea</a><a href="#taiwan">Taiwan</a><a href="#manchuria">Manchuria</a><a href="#other">Other</a></nav></div>
+<div class="topnav"><a class="searchbtn" href="search.html">Full Search</a><nav class="jump" id="jump"><a href="#japan" id="j-japan">Japan</a><a href="#china" id="j-china">China</a><a href="#korea">Korea</a><a href="#taiwan">Taiwan</a><a href="#manchuria">Manchuria</a><a href="#other">Other</a></nav><button class="viewbtn" id="viewbtn" type="button" aria-pressed="false">List view</button></div>
 </div></div>
 <main>
 <div id="groups">
 __CARDS__
 </div>
+<script>(function(){const b=document.getElementById("viewbtn");function set(l){document.body.classList.toggle("list",l);b.textContent=l?"Card view":"List view";b.setAttribute("aria-pressed",l);try{localStorage.setItem("homeview",l?"list":"cards")}catch(e){}}
+let l=false;try{l=localStorage.getItem("homeview")==="list"}catch(e){}set(l);b.onclick=()=>set(!document.body.classList.contains("list"))})();</script>
 <script>if(Math.random()<.5){const g=document.getElementById("groups");g.insertBefore(document.getElementById("china"),document.getElementById("japan"));
 const n=document.getElementById("jump");n.insertBefore(document.getElementById("j-china"),document.getElementById("j-japan"))}</script>
 <div class="llmwarn" role="note"><b>Warning:</b> These tables were transcribed by the vision models of Opus 5.5 or Sonnet 5.5 (named on each book's page). Before using any of these figures, you must verify specific statistics with the original source which is linked to whenever possible.</div>
