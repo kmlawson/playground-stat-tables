@@ -215,6 +215,15 @@ BOOKS = [
      "scan": "https://archive.org/details/cu31924023931680/page/n{leaf}/mode/1up",
      "item": "https://archive.org/details/cu31924023931680",
      "blank_marking": True},
+    {"slug": "china-peking-1921", "dir": "Peking_Social_Survey_1921", "model": "Sonnet 5.5",
+     "title": "Peking: A Social Survey 1921", "subtitle": "Sidney D. Gamble, assisted by John Stewart Burgess",
+     "publisher": "Conducted under the auspices of the Princeton University Center in China and the Peking Young Men's Christian Association; George H. Doran, New York, 1921",
+     "blurb": "A pioneering American social survey of Peking around 1917–1919: geography, government and police, population (the 1917 police census, age and sex, foreigners), health, education, commercial life and the gilds, recreation, prostitution, poverty and philanthropy, prisons, a block-by-block study of the Teng Shih K'ou district, a survey of Christian church families, and religious work. Most figures are in the appendices; each table here carries a one-sentence note on its context in the book.",
+     "source": "LLM-transcribed from the Internet Archive scan (JP2 page images).",
+     "gaps": "Only tables, columnar lists and charts that print their figures are transcribed; the running text, photographs, maps, numbered regulations and the index are not. Charts that print only axes (e.g. Figs. 7, 8, 29, 33, 34) are skipped. The pages with tables were found from contact sheets; every appendix page was read. Printed pp. 168–169 are missing from the scan. Many printed totals in this book do not add up; every such table was transcribed a second time independently, both readings agreed cell for cell, and the totals are kept as printed and noted. The one-sentence context notes are written by the transcriber from the surrounding text.",
+     "scan": "https://archive.org/details/pekingsocialsurv00gambrich/page/n{leaf}/mode/1up",
+     "item": "https://archive.org/details/pekingsocialsurv00gambrich",
+     "blank_marking": True},
     {"slug": "china-handbook-1926", "dir": "China_Commercial_Handbook_1926",
      "title": "China, a Commercial and Industrial Handbook 1926", "subtitle": "China: A Commercial and Industrial Handbook",
      "publisher": "Julean Arnold, U.S. Department of Commerce, Bureau of Foreign and Domestic Commerce (Trade Promotion Series No. 38), Washington, 1926",
@@ -492,7 +501,7 @@ def main():
     for b, clean, n, c in pages:
             os.makedirs(os.path.join(HERE, "book", b["slug"]), exist_ok=True)
             data = json.dumps(clean, ensure_ascii=False).replace("</", "<\\/")
-            doc = (TEMPLATE.replace("__DATA__", data).replace("__DIRCARDS__", dir_cards(b)).replace("__PINYIN__", json.dumps(b.get("dir_pinyin", {}), ensure_ascii=False)).replace("__COUNT__", str(n))
+            doc = (TEMPLATE.replace("__MODEL__", b.get("model", "Opus 5.5")).replace("__DATA__", data).replace("__DIRCARDS__", dir_cards(b)).replace("__PINYIN__", json.dumps(b.get("dir_pinyin", {}), ensure_ascii=False)).replace("__COUNT__", str(n))
                    .replace("__CHEN__", json.dumps(b.get("_chen") or {}, ensure_ascii=False))
                    .replace("__XL__", json.dumps(xl[b["slug"]], ensure_ascii=False).replace("</", "<\\/"))
                    .replace("__HIDEIMG__", "true" if b.get("hide_images") else "false")
@@ -582,7 +591,7 @@ __CARDS__
 </div>
 <script>if(Math.random()<.5){const g=document.getElementById("groups");g.insertBefore(document.getElementById("china"),document.getElementById("japan"));
 const n=document.getElementById("jump");n.insertBefore(document.getElementById("j-china"),document.getElementById("j-japan"))}</script>
-<div class="llmwarn" role="note"><b>Warning:</b> These tables were transcribed by the vision model of Opus 5.5. Before using any of these figures, you must verify specific statistics with the original source which is linked to whenever possible.</div>
+<div class="llmwarn" role="note"><b>Warning:</b> These tables were transcribed by the vision models of Opus 5.5 or Sonnet 5.5 (named on each book's page). Before using any of these figures, you must verify specific statistics with the original source which is linked to whenever possible.</div>
 <script>document.addEventListener("click",e=>{const b=e.target.closest("[data-about]");if(b){document.getElementById(b.dataset.about).showModal();return}
 if(e.target.tagName==="DIALOG")e.target.close()});</script>
 <footer>Each table can be downloaded as CSV from its page. Each book can be downloaded whole as an Excel workbook (one sheet per table, with a linked contents sheet) or as JSON; directories are available as Markdown.<br><br>The website was created by Claude Opus 5.5 with <a href="https://muninn.net/">Konrad M. Lawson</a> at the prompt. See: <a href="https://froginawell.net/frog/sources/">Other Resources at Frog in a Well</a></footer>
@@ -763,7 +772,7 @@ async function showCmp(){if(!cmpS||mode!=="one"){closeCmp();return}
  catch(e){pane.innerHTML=head+`<p class="sub">Could not load that table (the page must be served from a web server).</p>`}}
 $("#cmp").addEventListener("change",e=>{if(e.target.id!=="cmpsel")return;const v=e.target.value,i=v.indexOf("/");cmpS=v.slice(0,i);cmpId=v.slice(i+1);showCmp()});
 $("#cmp").addEventListener("click",e=>{if(e.target.id==="cmpx"){closeCmp();return}const b=e.target.closest("button[data-act]");if(b&&cmpT)act(b,cmpT)});
-const LLMWARN=`<div class="llmwarn" role="note"><b>Warning:</b> These tables were transcribed by the vision model of Opus 5.5. Before using any of these figures, you must verify specific statistics with the original source which is linked to whenever possible.</div>`;
+const LLMWARN=`<div class="llmwarn" role="note"><b>Warning:</b> These tables were transcribed by the vision model of __MODEL__. Before using any of these figures, you must verify specific statistics with the original source which is linked to whenever possible.</div>`;
 function filtered(){const q=fold($("#q").value.trim().toLowerCase()),ch=$("#ch").value,fl=$("#flag").checked;
  return T.filter(t=>(!ch||(t.chapter||"(no chapter)")===ch)&&(!fl||t._warn)&&(!q||q.split(/\s+/).every(w=>t._text.includes(w))))}
 let mode="one",cur=null;
