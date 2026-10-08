@@ -29,3 +29,12 @@ J01 | done | korea-jijo--reference-statistical-tables
 J02 | done | korea-jijo--agriculture korea-jijo--banking korea-jijo--finance korea-jijo--forestry
 J03 | done | korea-jijo--transport-and-communications korea-jijo--trade korea-jijo--general-survey korea-jijo--education korea-jijo--public-health korea-jijo--military-affairs korea-jijo--monopolies
 J04 | done | korea-jijo--commerce korea-jijo--fisheries korea-jijo--mining korea-jijo--manufacturing-industry korea-jijo--koreans-abroad korea-jijo--map-of-korea-place-list korea-jijo--maps korea-jijo--police korea-jijo--administration
+K01 | done | korea-annual--finance
+K02 | done | korea-annual--currency-and-banking
+K03 | done | korea-annual--government-undertakings-and-monopolies korea-annual--civil-engineering
+K04 | done | korea-annual--communications-and-transport korea-annual--religion-and-charity
+K05 | done | korea-annual--commerce-and-foreign-trade korea-annual--companies-and-manufacturing
+K06 | done | korea-annual--agriculture korea-annual--mining-forestry-and-fishery
+K07 | done | korea-annual--local-administration korea-annual--justice-and-prisons
+K08 | done | korea-annual--general-survey-and-population korea-annual--police-and-peace-and-order korea-annual--sanitation korea-annual--education
+K09 | done | korea-annual--statistical-appendix

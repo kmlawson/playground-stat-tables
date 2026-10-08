@@ -1731,3 +1731,63 @@ SERIES = {
         }
     }
 }
+
+# Annual Report on Reforms and Progress / Administration of Chosen (English, Government-General), 1911-12 to 1929-30.
+# Combined chapters (e.g. "Finance and Economy", "Production and Industry") sit under several topics.
+_KA_BOOKS = ["korea-1911-12", "korea-1912-13", "korea-1913-14", "korea-1914-15", "korea-1915-16", "korea-1916-17",
+             "korea-1917-18", "korea-1918-21", "korea-1921-22", "korea-1922-23", "korea-1923-24", "korea-1924-25",
+             "korea-1926-27", "korea-1927-28", "korea-1928-29", "korea-1929-30"]
+_KA = {
+    "General survey and population": {
+        "Front Matter": "*", "Introduction": "*", "General Remarks": "*",
+        "I. Central Administration": "*", "I. General Administration": "*", "I. Government Organization": "*",
+        "Government Organization": "*"},
+    "Local administration": {
+        "II. Local Administration": "*", "XVIII. Local Administration": "*", "Local Administration": "*"},
+    "Justice and prisons": {"III. Justice": "*", "XIV. Justice": "*", "Justice": "*"},
+    "Police and peace and order": {"IV. Peace and Order": "*", "XV. Peace and Order": "*", "Police": "*"},
+    "Finance": {"V. Finance": "*", "II. Finance": "*", "Finance": "*", "Finance and Economy": "*"},
+    "Currency and banking": {"VI. Currency, Banking, etc.": "*", "VI. Currency and Banking": "*",
+                             "IV. Currency, Banking, etc.": "*", "Economic Conditions": "*", "Finance and Economy": "*"},
+    "Government undertakings and monopolies": {"VII. Government Undertakings": "*", "III. Government Undertakings": "*",
+                                               "Finance and Economy": "*"},
+    "Civil engineering": {"VIII. Civil Engineering Works": "*", "VIII. Civil Engineering": "*",
+                          "VII. Civil Engineering Works": "*", "Civil Engineering": "*", "XVII. Investigation Works": "*"},
+    "Communications and transport": {"IX. Communications": "*", "VI. Traffic and Communication": "*", "Communications": "*"},
+    "Commerce and foreign trade": {"X. Commerce": "*", "V. Foreign Trade": "*", "V. Trade": "*",
+                                   "Economic Conditions": "*", "Finance and Economy": "*"},
+    "Agriculture": {"XI. Agriculture": "*", "VIII. Agriculture": "*", "Industry": "*",
+                    "Production and Industry": "*", "Industries": "*"},
+    "Companies and manufacturing": {"XII. Trade and Industry": "*", "IX. Trade and Industry": "*", "Industry": "*",
+                                    "Production and Industry": "*", "Industries": "*", "Economic Conditions": "*"},
+    "Mining, forestry and fishery": {"XIII. Forestry": "*", "XIV. Mining": "*", "XV. Fishery": "*", "XV. Fishing": "*",
+                                     "XIII. Mining, Forestry and Fishery": "*", "XIII. Mining": "*", "XIV. Forestry": "*",
+                                     "X. Mining": "*", "XI. Forestry": "*", "XII. Fishery": "*", "Industry": "*",
+                                     "Production and Industry": "*", "Industries": "*"},
+    "Sanitation": {"XVI. Sanitation": "*", "XIV. Sanitation": "*", "Sanitation": "*", "Public Hygiene": "*"},
+    "Education": {"XVII. Education": "*", "XV. Education": "*", "XIII. Education": "*", "Education": "*"},
+    "Religion and charity": {"Shrines and Religion": "*", "Shrines and Religions": "*", "Charity and Relief": "*"},
+    "Statistical appendix": {"Statistical Tables": "*", "Statistics": "*"},
+}
+
+
+def _ka_topics():
+    import json, os
+    d = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "data")
+    chs = {}
+    for b in _KA_BOOKS:
+        f = os.path.join(d, b + ".json")
+        if os.path.exists(f):
+            with open(f, encoding="utf-8") as fh:
+                chs[b] = list(dict.fromkeys(t.get("chapter") for t in json.load(fh)))
+    out = {}
+    for topic, names in _KA.items():
+        m = {b: [c for c in cs if c in names] for b, cs in chs.items()}
+        m = {b: v for b, v in m.items() if v}
+        if len(m) >= 2:
+            out[topic] = m
+    return out
+
+
+SERIES["korea-annual"] = {"name": "Annual Report on Reforms and Progress / Administration of Chosen",
+                          "books": _KA_BOOKS, "topics": _ka_topics()}
