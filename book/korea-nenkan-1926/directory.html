@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&display=swap">
+<script src="../../fold.js"></script>
 <title>朝鮮年鑑 1926 · Directories</title>
 <style>
 :root{--bg:#f4f5f3;--panel:#ffffff;--ink:#1b2420;--muted:#5d6a62;--line:#d8ded9;--accent:#1f4a2c;--accent-ink:#ffffff;--hi:#e2ece4;--warn:#8a5a00}
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#111814;--panel:#17211b;--ink:#e4ebe6;--muted:#9aa89f;--line:#2c3a31;--accent:#8cc49e;--accent-ink:#0f1a13;--hi:#1f3527;--warn:#e0a54a}}
 :root[data-theme="dark"]{--bg:#111814;--panel:#17211b;--ink:#e4ebe6;--muted:#9aa89f;--line:#2c3a31;--accent:#8cc49e;--accent-ink:#0f1a13;--hi:#1f3527;--warn:#e0a54a}
 *{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 Georgia,"Times New Roman",serif}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 Georgia,"Times New Roman","Noto Serif JP","Hiragino Mincho ProN","Hiragino Mincho Pro","Yu Mincho","YuMincho","Noto Serif CJK JP","Source Han Serif JP","MS PMincho",serif}
 header{padding:14px 18px;background:var(--accent);color:var(--accent-ink);display:flex;gap:14px;align-items:baseline;flex-wrap:wrap}
 header a,header .meta{color:var(--accent-ink)!important;opacity:.88}
 header h1{font-size:20px;margin:0;font-weight:normal}
@@ -14,6 +16,7 @@ header .meta{font-size:13px}
 header button{margin-left:auto;background:transparent;color:var(--accent-ink);border-color:currentColor}
 .bar{position:sticky;top:0;z-index:2;background:var(--bg);border-bottom:1px solid var(--line)}
 .bar>div{max-width:900px;margin:0 auto;padding:12px 16px;display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.bar select{max-width:100%}
 input,select,button{font:inherit;font-size:14px;padding:7px 9px;border:1px solid var(--line);background:var(--panel);color:var(--ink);border-radius:4px}
 button{cursor:pointer}
 #q{flex:1 1 260px;font-size:16px}
@@ -23,23 +26,32 @@ main{max-width:900px;margin:0 auto;padding:10px 16px 60px}
 .e{background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--accent);padding:9px 12px;margin:0 0 8px}
 .e b{font-size:15.5px}
 .e .t{font-size:14.5px}
+#toc h2{margin:4px 0 6px;font-size:20px}#toc h3{margin:14px 0 8px;font-size:16px}
+.tocgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,190px),1fr));gap:8px;margin-bottom:6px}
+.tocbtn{display:block;padding:8px 10px;border:1px solid var(--line);border-radius:6px;background:var(--panel);color:var(--ink);text-decoration:none;font-weight:bold;font-size:15px;line-height:1.25}
+.tocbtn:hover{border-color:var(--accent)}.tocbtn small{display:block;color:var(--muted);font-weight:normal;font-size:12px;margin-top:2px}
+.e .l2{margin-top:2px}
 .e .m{font-size:12.5px;color:var(--muted);margin-top:3px}
 .e .m a{color:var(--accent)}
 mark{background:#f3e3a0;color:inherit}
 :root[data-theme="dark"] mark{background:#5a4d1c}
 #more{display:block;margin:14px auto}#more[hidden]{display:none}
 .llmwarn{margin:24px 0 8px;padding:12px 14px;border:1px solid var(--warn);border-left:4px solid var(--warn);background:var(--panel);font-size:14px}
-</style><script src="../../fold.js"></script>
-</head><body>
+.anbtn{margin-left:auto;font:inherit;font-size:14px;background:transparent;color:var(--accent-ink);border:1px solid currentColor;border-radius:5px;padding:5px 12px;cursor:pointer;align-self:center}.anbtn[aria-pressed="true"]{background:var(--accent-ink);color:var(--accent)}.anbtn+#toggle{margin-left:0}
+.an-unanchored-pill{display:none!important}
+@media (max-width:640px){html body #__an_bar.an-right,html body #__an_bar.an-left{flex-direction:row;left:0;right:0;margin:0 auto;width:max-content;max-width:calc(100vw - 12px);transform:none;bottom:10px;gap:2px;padding:5px}html body #__an_bar .an-btn,html body #__an_colorbtn{width:min(36px,calc((100vw - 44px)/9.5));height:36px}html body #__an_bar .an-sep{width:1px;height:24px;margin:0 2px}html body #__an_bar #__an_colorpop{right:auto;left:50%;transform:translateX(-50%);bottom:52px;top:auto;width:max-content}body.notes-on{padding-bottom:70px}}
+</style></head><body>
 <header><a href="./" style="text-decoration:none;font-size:14px">← Tables</a><a href="../../" style="text-decoration:none;font-size:14px">All books</a><h1>朝鮮年鑑 1926 · Directories</h1>
 <span class="meta">47 entries: 大日本帝國皇室, 取引所・穀物組合, 銀行名所在地. · LLM-transcribed · <a href="../../data/korea-nenkan-1926-directory.json">JSON</a> · <a href="../../downloads/korea-nenkan-1926-directory.md" download>Markdown</a></span>
-<button id="toggle" title="Toggle light/dark">◐</button></header>
+<button id="annot" class="anbtn" aria-pressed="false" title="Private notes: highlight and comment on entries. Saved only in this browser.">Notes</button><button id="toggle" title="Toggle light/dark">◐</button></header>
 <div class="bar"><div>
 <input id="q" type="search" placeholder="Filter names, places, firms, words…" autofocus>
 <select id="ap"><option value="">All sections</option></select>
 <label style="font-size:13px"><input type="checkbox" id="nameonly"> names only</label>
+<label style="font-size:13px" id="jflab" hidden><input type="checkbox" id="jafirst"> 日本語 first</label>
+<label style="font-size:13px" id="arlab" hidden><input type="checkbox" id="altrom"> alt. romanization</label>
 <div id="cnt"></div></div></div>
-<main><div id="out"></div><button id="more" hidden>Show more</button>
+<main><div id="toc"></div><div id="out"></div><button id="more" hidden>Show more</button>
 <div class="llmwarn" role="note"><b>Warning:</b> These entries were transcribed by the vision model of Opus 5.5. Before using any of them, you must verify specific details with the original source which is linked to whenever possible.</div></main>
 <script>
 const E=[{"a": "大日本帝國皇室", "s": "", "n": "天皇陛下", "t": "第122代、御名嘉仁、明治天皇第三皇子、明治12年8月31日御誕生、同20年8月31日東宮宣下、同22年11月3日皇太子に立たせられ陸海軍少尉に御任官、大勳位に叙せられ給ふ。同25年11月3日中尉に御進級、同28年11月3日大尉に御進級、同31年11月3日少佐に、爾來御昇進、同42年11月3日中將に御進級、同45年7月30日御踐祚、大正4年11月10日御卽位", "p": "3", "l": "scan leaf 9", "u": "https://dl.ndl.go.jp/pid/976190/1/9"}, {"a": "大日本帝國皇室", "s": "", "n": "皇后陛下", "t": "御名節子、故從一位公爵九條道孝第四女、明治17年6月25日御誕生、同33年5月10日御入輿、皇太子妃宣下、大正元年7月30日皇后宣下", "p": "3", "l": "scan leaf 9", "u": "https://dl.ndl.go.jp/pid/976190/1/9"}, {"a": "大日本帝國皇室", "s": "", "n": "皇太子殿下", "t": "御名裕仁、御稱號廸宮、今上天皇第一皇子、明治34年4月29日御誕生、大正元年9月9日陸海軍少尉に御任官、大勳位に叙せらる、同3年10月31日中尉に、同5年10月31日大尉に御昇進、同年11月3日立太子禮御擧行、同8年5月7日御成年式、同9年10月31日少佐に御昇進、同10年3月3日御外遊、同年9月3日御歸朝、同10年11月25日攝政御就任、同11年6月20日久邇宮良子女王殿下との御結婚勅許、同11年9月28日御納采、同12年10月31日中佐に御昇進、同13年1月26日御婚儀御擧行", "p": "3", "l": "scan leaf 9", "u": "https://dl.ndl.go.jp/pid/976190/1/9"}, {"a": "大日本帝國皇室", "s": "", "n": "皇太子妃殿下", "t": "御名良子、久邇宮邦彥王第一王女、明治36年3月6日御誕生、大正8年6月10日皇太子妃御治定、同13年1月26日御入輿、皇太子妃宣下", "p": "3", "l": "scan leaf 9", "u": "https://dl.ndl.go.jp/pid/976190/1/9"}, {"a": "大日本帝國皇室", "s": "皇子", "n": "第二皇子雍仁親王", "t": "御稱號淳宮、明治35年6月25日御誕生、大正11年6月25日御成年式擧行、同時に御改號秩父宮宣下、大正6年4月9日陸軍幼年學校御入學、同9年3月御卒業、同11年6月陸軍士官學校御卒業、同年10月25日陸軍少尉に御任官、同14年5月10日中尉に御進級", "p": "3", "l": "scan leaf 9", "u": "https://dl.ndl.go.jp/pid/976190/1/9"}, {"a": "大日本帝國皇室", "s": "皇子", "n": "第三皇子 宣仁親王", "t": "御稱號光宮、明治38年1月3日御誕生、大正2年7月6日御改號高松宮宣下、大正9年5月海軍兵學校御入學、同13年5月御卒業", "p": "3", "l": "scan leaf 9", "u": "https://dl.ndl.go.jp/pid/976190/1/9"}, {"a": "大日本帝國皇室", "s": "皇子", "n": "第四皇子 崇仁親王", "t": "御稱號澄宮、大正4年12月2日御誕生、同11年4月學習院御入學", "p": "3", "l": "scan leaf 9", "u": "https://dl.ndl.go.jp/pid/976190/1/9"}, {"a": "大日本帝國皇室", "s": "皇妹", "n": "昌子內親王", "t": "御稱號常宮、明治天皇第六皇女、明治21年9月30日御誕生、同41年4月27日故竹田宮恒久王に御婚嫁", "p": "3", "l": "scan leaf 9", "u": "https://dl.ndl.go.jp/pid/976190/1/9"}, {"a": "大日本帝國皇室", "s": "皇妹", "n": "房子內親王", "t": "御稱號周宮、明治天皇第七皇女、明治23年1月29日御誕生、同42年4月29日故北白川宮成久王に御婚嫁", "p": "3", "l": "scan leaf 9", "u": "https://dl.ndl.go.jp/pid/976190/1/9"}, {"a": "大日本帝國皇室", "s": "皇妹", "n": "允子內親王", "t": "御稱號富美宮、明治天皇第八皇女、明治24年8月6日御誕生、同43年5月6日朝香宮鳩彥王に御婚嫁", "p": "3", "l": "scan leaf 9", "u": "https://dl.ndl.go.jp/pid/976190/1/9"}, {"a": "大日本帝國皇室", "s": "皇妹", "n": "聰子內親王", "t": "御稱號泰宮、明治天皇第九皇女、明治29年5月11日御誕生、大正4年5月18日東久邇宮稔彥王に御婚嫁", "p": "3", "l": "scan leaf 9", "u": "https://dl.ndl.go.jp/pid/976190/1/9"}, {"a": "取引所・穀物組合", "s": "穀物商組合", "n": "京城穀物商組合", "t": "京城府蓬萊町一丁目　組合長 高井兵三郎　副組合長 今村伊三郎、崔贊熙　評議員 住井辰男、澤村亮一、小笠原儀雄、杉山富、執行伊太郎、曹秉學　監事 齋藤久太郎、李逸雨　相談役 天日常次郎　理事 三浦有", "p": "265", "l": "scan leaf 140", "u": "https://dl.ndl.go.jp/pid/976190/1/140"}, {"a": "取引所・穀物組合", "s": "穀物商組合", "n": "仁川穀物協會", "t": "仁川府港町　會長 吉田秀治郎　副會長 辻川富重　評議員 今井嘉三、三戶守三、加藤平太郎、吉金喜三郎、園田助五郎、松本要五郎、杉野榮八　理事 大平嘉次郎", "p": "265", "l": "scan leaf 140", "u": "https://dl.ndl.go.jp/pid/976190/1/140"}, {"a": "取引所・穀物組合", "s": "穀物商組合", "n": "木浦穀物商組合", "t": "木浦府　組合長 內谷萬平　副組合長 朝日精米所支店　評議員 山野瀧三、井上留吉、呼子直七、李善弘、李潤源、柳重吉　理事 森平和三郎", "p": "265", "l": "scan leaf 140", "u": "https://dl.ndl.go.jp/pid/976190/1/140"}, {"a": "取引所・穀物組合", "s": "穀物商組合", "n": "釜山穀物商組合", "t": "釜山府大廳町一丁目　組合長 大池忠助　副組合長 坂田文吉　評議員 井谷義三郎、石川侃一、龜田捨治、三木孝一、魚大成　相談役 五島甚吉、石川眞平　監事 武久捨吉、前田熊太郎、淺谷長輔　理事 北村勝藏", "p": "265", "l": "scan leaf 140", "u": "https://dl.ndl.go.jp/pid/976190/1/140"}, {"a": "取引所・穀物組合", "s": "穀物商組合", "n": "江景米穀商組合", "t": "忠南論山郡江景面西町　組合長 森田泰吉　副組合長 吉田梅太郎　評議員 谷口豐太郎、高橋茂兵衛、今元光治、林秀輔、足達重美、金顯圭、姜泰中　理事 庭瀨博章", "p": "265", "l": "scan leaf 140", "u": "https://dl.ndl.go.jp/pid/976190/1/140"}, {"a": "取引所・穀物組合", "s": "穀物商組合", "n": "群山米穀商組合", "t": "群山府本町通　組合長 森菊五郎　副組合長 金洪斗　評議員 牛田瀧吉、邊光鎬、吉永吉三郎、田中龜次郎、中柴萬吉、朝日精米所、日高千代吉、岸銀治　監事 李源鎬、群山興農會社、都宗太郎　理事 谷垣嘉市", "p": "266", "l": "scan leaf 141", "u": "https://dl.ndl.go.jp/pid/976190/1/141"}, {"a": "取引所・穀物組合", "s": "穀物商組合", "n": "大邱穀物商組合", "t": "大邱府大和町　組合長 若林誠助　副組合長 韓翼東　評議員 大邱穀物會社、東條正平、李祥鳳、李相武、內山好亮、田村田藏、古谷治輔、鄭鳳鎭、佐藤伊三郎、坂本俊資、木村綾治、徐相日、徐相鉉、森淸吉　理事 大平德太郎", "p": "266", "l": "scan leaf 141", "u": "https://dl.ndl.go.jp/pid/976190/1/141"}, {"a": "取引所・穀物組合", "s": "穀物商組合", "n": "鎭南浦穀物組合", "t": "鎭南浦三和町　組合長 齋藤久太郎　副組合長 李鍾燮　評議員 加藤平太郎、中藤鐵藏、南藤馬、魯起元、李洛燐、櫻井秀之助、金炯坤、新居歡次郎　理事 鳥越久則", "p": "266", "l": "scan leaf 141", "u": "https://dl.ndl.go.jp/pid/976190/1/141"}, {"a": "取引所・穀物組合", "s": "穀物商組合", "n": "新義州米穀商組合", "t": "新義州府榮町五丁目　組合長 多田榮吉　評議員 藤原秀吉、金廷俊、大谷松次郎、李丙河、阿部繁男、金宗源、李炯觀、張晚梓、林國鉉、笹岡卯平　理事 朴在肅", "p": "266", "l": "scan leaf 141", "u": "https://dl.ndl.go.jp/pid/976190/1/141"}, {"a": "取引所・穀物組合", "s": "穀物商組合", "n": "元山穀物商組合", "t": "元山府旭町一丁目　組合長 森野實壯　副組合長 河內小三郎　評議員 大盛商會、西島留藏、木本芳輔、佐藤直太郎、藤井商店、龜谷愛介", "p": "266", "l": "scan leaf 141", "u": "https://dl.ndl.go.jp/pid/976190/1/141"}, {"a": "取引所・穀物組合", "s": "京城株式現物取引市場", "n": "京城株式現物取引市場", "t": "京城府黃金町二丁目　仲買人　委員長 田中友吉　副組合長 白井友之助　委員 有田長、金應龍、李靑、洪殷杜、吉見岩吉、成淸竹松、新田耕市、定岡富二、金潤秀、南源兵衛、白樂三、閔溶鎬、市川幸次郎、趙鎭晃　書記長 加藤長造", "p": "266", "l": "scan leaf 141", "u": "https://dl.ndl.go.jp/pid/976190/1/141"}, {"a": "取引所・穀物組合", "s": "仁川米豆取引所", "n": "仁川米豆取引所", "t": "仁川府海岸町三丁目　所長 若松兎三郎　支配人 秋山滿夫", "p": "266", "l": "scan leaf 141", "u": "https://dl.ndl.go.jp/pid/976190/1/141"}, {"a": "銀行名所在地", "s": "銀行名所在地（大正十四年九月末現在）", "n": "株式會社朝鮮銀行", "t": "京城府南大門通3丁目、資本金・8000萬圓、總裁 鈴木島吉、副總裁 橫部實之助、理事 片山義勝 井內勇 橋本爲之助 柿原常次郎、監事 伊藤長次郎 伯 奥平昌恭 馬越恭平 木本房太郎、仁川支店 仁川府本町1丁目、群山支店 群山府本町通、木浦支店 木浦府壽町、大邱支店 大邱府大和町、釜山支店 釜山府大廳町1丁目、平壤支店 平壤府里門里、鎭南浦支店 鎭南浦府三和町、元山支店 元山府本町、淸津支店 淸津府明治町、會寧出張所 咸北會寧郡會寧面二洞、東京支店 東京市麴町區永樂町2丁目、大阪支店 大阪市東區今橋5丁目、大阪西區派出所 同 西區堀江通3丁目、神戶支店 兵庫縣神戶市榮町通1丁目、下關支店 山口縣下關市觀音崎町、安東縣支店 滿洲奉天省安東縣市場通、奉天支店 同 奉天小西關、奉天新市街派出所 同 浪速通、四平街支店 同 四平街北三條路、開原支店 同 開原新市街、營口支店 同 營口元神廟街、鐵嶺支店 同 鐵嶺西町、遼陽出張所 同 遼陽車站街、鄭家屯出張所 同 鄭家屯北大街、長春支店 同 吉林省長春祝町、吉林支店 同 吉林河南街、哈爾賓支店 同 哈爾賓埠頭區クニヤージヒルコーフ街、龍井村出張所 同 間島龍井村、傳家甸派出所 同 傳家甸頭道街、大連支店 關東州大連市大廣場、旅順出張所 同 旅順市靑葉町、靑島支店 支那山東省靑島所澤町、濟南支店 同 濟南商埠二馬路、上海支店 同 江蘇省上海南京路、天津支店 同 直隸省天津佛租界7號路、浦鹽支店 露國浦鹽斯德ペキンスカヤ街、紐育支店 米國ニューヨーク市、倫敦支店 英國ロンドン", "p": "268", "l": "scan leaf 142", "u": "https://dl.ndl.go.jp/pid/976190/1/142"}, {"a": "銀行名所在地", "s": "銀行名所在地（大正十四年九月末現在）", "n": "株式會社朝鮮殖產銀行", "t": "京城府南大門通2丁目、資本金・3000萬圓、頭取 有賀光豊、理事 櫻井小一 石井光雄 森悟一 矢鍋永三郎 朴泳孝、監事 廣瀨滿正 子 尹德榮、仁川支店 仁川府本町4丁目、水原支店 京畿水原郡水原面梅山里、開城支店 同 開城郡松都面北本町、淸州支店 忠北淸州郡淸州面本町2丁目、忠州支店 忠北忠州郡忠州面忠州邑、公州支店 忠南公州郡公州面本町、鳥致院支店 同 燕岐郡鳥致院面鳥致院里、大田支店 忠南大田郡大田面本町1丁目、論山支店 忠南論山郡論山面本町、江景支店 同 江景面本町、全州支店 全北全州郡全州面八達町、群山支店 同 群山府本町通、裡里支店 同 益山郡益山面裡里、井邑支店 同 井邑郡井邑面水城里、金堤支店 同 金堤郡金堤面新豐里、南原支店 同 南原郡南原面下井里、茁浦派出所 同 扶安郡乾先面茁浦里、光州支店 全南光州郡光州面北門通、松汀里派出所 同 松汀面松汀里、木浦支店 同 木浦府幸町2丁目、麗水支店 同 麗水郡麗水面西町、筏橋浦支店 同 寶城郡筏橋面筏橋里、榮山浦支店 同 羅州郡榮山面榮山里、濟州島支店 同 濟州島濟州面三徒里、大邱支店 慶北大邱府上町、浦項支店 同 迎日郡浦項面浦項洞、金泉支店 同 金泉郡金泉面錦町、尙州支店 同 尙州郡尙州面城下里、釜山支店 慶南釜山府埋立新町、釜山鎭派出所 同 佐川洞、馬山支店 同 馬山府元町、新馬山派出所 同 本町2丁目、統營支店 同 統營郡統營面數島町、晋州支店 同 晋州郡晋州面東城洞、海州支店 黃海海州郡海州面北本町、沙里院支店 同 鳳山郡沙里院面北里、平壤支店 平南平壤府壽町、鎭南浦支店 同 鎭南浦府後浦里、安州支店 同 安州郡安州面七星里、義州支店 平北義州郡義州面東部洞、新義州支店 同 新義州本町、博川支店 同 博川郡博川面西部洞、宣川支店 同 宣川郡宣川面南洞、寧邊支店 同 寧邊郡寧邊面東部洞、江界支店 同 江界郡江界面東部洞、春川支店 江原春川郡春川面大板里、鐵原支店 同 鐵原郡鐵原面官田里、江陵支店 同 江陵郡江陵面本町、元山支店 咸南元山府石隅洞、元山里派出所 同 元山里、咸興支店 同 咸興郡咸興面[?]閣里、北靑支店 同 北靑郡北靑面內里、羅南支店 咸北鏡城郡羅南面本町、淸津支店 同 淸津府明治町、城津支店 同 城津郡城津面本町、會寧支店 同 會寧郡會寧面二洞、雄基支店 同 慶興郡雄基面雄基洞、大阪支店 大阪市東區今橋3丁目、東京事務所 東京市日本橋區川瀨石町", "p": "269", "l": "scan leaf 142", "u": "https://dl.ndl.go.jp/pid/976190/1/142"}, {"a": "銀行名所在地", "s": "銀行名所在地（大正十四年九月末現在）", "n": "株式會社第一銀行", "t": "本店東京市日本橋區兜町、資本金 5000萬圓、頭取 佐々木勇之助、常務取締役 石井健吾 野口彌三、取締役 杉田富 西園寺龜次郎 西村道彥 野口弘毅、監査役 土岐僙 竹山純平 山口莊吉、京城支店 京城府南大門通2丁目、釜山支店 釜山府本町2丁目", "p": "269", "l": "scan leaf 142", "u": "https://dl.ndl.go.jp/pid/976190/1/142"}, {"a": "銀行名所在地", "s": "銀行名所在地（大正十四年九月末現在）", "n": "株式會社十八銀行", "t": "本店長崎市築町、資本金 1500萬圓、取締役頭取 松田精一、專務取締役 足立瀧二郎、取締役 藤瀨宗一郎 松田一三 田添忠敬、監査役 松田順次 永見德太郎、京城支店 京城府黃金町2丁目、龍山支店 京城府漢江通（新龍山）、龍山出張所 同 元町2丁目（舊龍山）、仁川支店 仁川府本町2丁目、群山支店 群山府本町、羅州支店 全南羅州郡羅州面錦町、木浦支店 同 木浦府本町1丁目、釜山支店 釜山府本町1丁目、元山支店 元山府春日町", "p": "270", "l": "scan leaf 143", "u": "https://dl.ndl.go.jp/pid/976190/1/143"}, {"a": "銀行名所在地", "s": "銀行名所在地（大正十四年九月末現在）", "n": "株式會社安田銀行", "t": "本店東京市日本橋區永樂町二、資本金・1億5000萬圓、取締役頭取 安田善次郎、副頭取 結城豐太郎、常務取締役 竹內悌三郎 兵頭久、取締役 安田善四郎 安田善五郎 菅原大太郎 小河原秀雄 佐藤小一郎 丸山繼男 村田房之助 松原惟敬、常務監査役 園部潛、監査役 安田善助 川西淸兵衛 小阪順造、京城支店 京城府本町1丁目、仁川支店 仁川府本町2丁目、釜山支店 釜山府本町1丁目、平壤支店 平壤府南門町", "p": "270", "l": "scan leaf 143", "u": "https://dl.ndl.go.jp/pid/976190/1/143"}, {"a": "銀行名所在地", "s": "銀行名所在地（大正十四年九月末現在）", "n": "株式會社朝鮮商業銀行", "t": "京城府南大門通2丁目、資本金 712萬5000圓、取締役頭取 和田一郎、副頭取 趙鎭泰、專務取締役 古宇田巖、取締役 山口太兵衛 古城梅溪、常務取締役 金鎭玉、監査役 中村再造 和田常市 若松兎三郎 張斗鉉、南大門支店 京城府南大門通4丁目、本町支店 同 本町2丁目、鍾路支店 同 鍾路4丁目、東大門支店 同 南大門通1丁目、本町東派出所 同 本町5丁目、龍山支店 同 漢江通（新龍山）、仁川支店 仁川府港町5丁目、平壤支店 平壤府大和町、大同出張所 同 鷄里、利川支店 京畿利川郡邑內面官庫里、平澤支店 同 振威郡西南面平澤里、淸州支店 忠北淸州郡淸州面本町3丁目、群山支店 群山府全州通、釜山支店 釜山府榮町6丁目、元山支店 元山府、載寧支店 黃海載寧郡載寧面、鎭南浦支店 鎭南浦府三和町", "p": "270", "l": "scan leaf 143", "u": "https://dl.ndl.go.jp/pid/976190/1/143"}, {"a": "銀行名所在地", "s": "銀行名所在地（大正十四年九月末現在）", "n": "株式會社漢城銀行", "t": "京城南大門通1丁目、資本金 600萬圓、頭取 韓相龍、常務取締役 俞致衡 張弘植 韓翼敎 淺井佐一郎、取締役 男 李允用 白完爀 金圭源、監査役 金用集 李海昌、南大門支店 京城府南大門通4丁目、本町支店 同 本町2丁目、西大門支店 同 竹添町2丁目、東幕出張所 京畿高陽郡龍江面東幕上里、水原支店 同 水原郡水原面南水里、開城支店 同 開城郡松都面南本町、大田支店 忠南大田郡大田面本町1丁目、大邱支店 大邱府本町1丁目、釜山支店 釜山府本町3丁目、平壤支店 平壤府履鄕里、平壤大和町出張所 同 大和町、東京支店 東京市京橋區北槇町、大阪支店 大阪市東區南本町", "p": "270", "l": "scan leaf 143", "u": "https://dl.ndl.go.jp/pid/976190/1/143"}, {"a": "銀行名所在地", "s": "銀行名所在地（大正十四年九月末現在）", "n": "株式會社韓一銀行", "t": "京城府南大門通1丁目、資本金 200萬圓、頭取 閔大植、專務取締役 金漢奎、常務取締役 閔奎植、取締役 嚴柱益 閔衡基、監査役 崔鎭 金文煥、南大門支店 京城府南大門通4丁目、東大門支店 京城府鍾路4丁目、西大門支店 同 西大門町1丁目、寬勳洞出張所 同 寬勳洞、東幕支店 京畿高陽郡龍江面東幕上里、江景支店 忠南論山郡江景面西町、群山支店 群山府本町通、元山支店 元山府", "p": "271", "l": "scan leaf 143", "u": "https://dl.ndl.go.jp/pid/976190/1/143"}, {"a": "銀行名所在地", "s": "銀行名所在地（大正十四年九月末現在）", "n": "株式會社海東銀行", "t": "京城府南大門通1丁目、資本金 200萬圓、取締役頭取 子 尹德榮、取締役 男 閔丙奭 趙東洵、監査役 侯 李海昇 金東圭 李之松、常勤相談役 松崎彥一", "p": "271", "l": "scan leaf 143", "u": "https://dl.ndl.go.jp/pid/976190/1/143"}, {"a": "銀行名所在地", "s": "銀行名所在地（大正十四年九月末現在）", "n": "株式會社山口銀行", "t": "本店大阪市東區瓦町2丁目、資本金 5000萬圓、取締役 山口吉郎兵衛、常務取締役 坂野兼通 佐々木駒之助、取締役 町田忠治 岩井勝次郎 山崎元次郎 肥田熊藏 森信敬二、監査役 山口謙四郎 平瀨市五郎、京城支店 京城府黃金町2丁目", "p": "271", "l": "scan leaf 143", "u": "https://dl.ndl.go.jp/pid/976190/1/143"}, {"a": "銀行名所在地", "s": "銀行名所在地（大正十四年九月末現在）", "n": "株式會社湖西銀行", "t": "忠南禮山郡禮山面禮山里、資本金 200萬圓、取締役頭取 金鎭燮、專務取締役 成樂憲、取締役 成樂奎 鄭斗和 張錫九 金成鎬 崔圭錫、監査役 閔裕植、天安支店 忠南天安郡天安面邑內里、安城支店 京畿安城郡邑內面邑內、洪城支店 忠南洪城郡洪州面邑內、廣川支店 同 廣川面廣川里", "p": "271", "l": "scan leaf 143", "u": "https://dl.ndl.go.jp/pid/976190/1/143"}, {"a": "銀行名所在地", "s": "銀行名所在地（大正十四年九月末現在）", "n": "株式會社三南銀行", "t": "全北全州郡全州面多佳町、資本金 100萬圓、取締役頭取 朴基順、常務取締役 朴俊喆、取締役 金和烔 印昌桓 山本悅藏 大木良作 金永哲 朴硯奎 朴禮沃 北本松次郎、監査役 李錫漢 河本國三郎 松本福市 金應斗、裡里支店 全北益山郡益山面裡里", "p": "271", "l": "scan leaf 143", "u": "https://dl.ndl.go.jp/pid/976190/1/143"}, {"a": "銀行名所在地", "s": "銀行名所在地（大正十四年九月末現在）", "n": "株式會社湖南銀行", "t": "全南光州郡光州面北門通、資本金 150萬圓、取締役頭取 金商燮、專務取締役 玄俊鎬、取締役 金衡玉 車南鎭 金炳魯 高光駿 崔鍾南 池應鉉 金英武、監査役 朴鍾惪 吳秉南 朴夏駿、木浦支店 全南木浦府、順天支店 同 順天郡順天面", "p": "272", "l": "scan leaf 144", "u": "https://dl.ndl.go.jp/pid/976190/1/144"}, {"a": "銀行名所在地", "s": "銀行名所在地（大正十四年九月末現在）", "n": "株式會社大邱銀行", "t": "大邱府本町1丁目、資本金 200萬圓、取締役頭取 鄭在學、專務取締役 李相麟、取締役 坂本俊資 李一雨 李宗勉 鄭海鵬、監査役 尹相泰 徐丙五、安東支店 慶北安東郡安東面、倭舘支店 同 漆谷郡倭舘面、慶州支店 慶北慶州郡慶州面路正里、浦項支店 同 迎日郡浦項面浦項洞", "p": "272", "l": "scan leaf 144", "u": "https://dl.ndl.go.jp/pid/976190/1/144"}, {"a": "銀行名所在地", "s": "銀行名所在地（大正十四年九月末現在）", "n": "株式會社鮮南銀行", "t": "大邱府村上町、資本金 30萬圓、取締役頭取 小倉武之助、取締役 松木[?]一郎 李柄學 野口遵、監板役 內田六郎 靑木重信、金泉支店 慶北金泉郡金泉面本町", "p": "272", "l": "scan leaf 144", "u": "https://dl.ndl.go.jp/pid/976190/1/144"}, {"a": "銀行名所在地", "s": "銀行名所在地（大正十四年九月末現在）", "n": "株式會社慶尙共立銀行", "t": "大邱府錦町1丁目、資本金 200萬圓、專務取締役 宮井正一、常務取締役 安藤賢一 今井浩三、取締役 鹽田岩五郎 合田房太郎 武田謙 都崎秀太郎、監査役 鹽田角治 島田恭平 赤松岩次郎 土岐安平 安藤家隆", "p": "272", "l": "scan leaf 144", "u": "https://dl.ndl.go.jp/pid/976190/1/144"}, {"a": "銀行名所在地", "s": "銀行名所在地（大正十四年九月末現在）", "n": "株式會社慶一銀行", "t": "大邱府市場町、資本金 200萬圓、取締役頭取 張吉相、專務取締役 張稷相、取締役 李宣鎬 李柄學 孫浩權 秦喜葵、監査役 岸本銳次郎 李英勉 李章雨、密陽支店 慶南密陽郡密陽面內一洞、密陽驛前派出所 同 同 駕谷洞", "p": "272", "l": "scan leaf 144", "u": "https://dl.ndl.go.jp/pid/976190/1/144"}, {"a": "銀行名所在地", "s": "銀行名所在地（大正十四年九月末現在）", "n": "株式會社慶南銀行", "t": "釜山府草梁町、資本金 100萬圓、取締役頭取 池昌奎、常務取締役 文尙宇 徐相灝、取締役 大池忠助 迫間房太郎 尹相殷 孫永暾 金宗元、監査役 崔淳 許[?]、龜浦支店 慶南東萊郡龜浦面龜浦洞、河東支店 同 河東郡河東面邑內、釜山鎭支店 同 釜山府佐川洞", "p": "272", "l": "scan leaf 144", "u": "https://dl.ndl.go.jp/pid/976190/1/144"}, {"a": "銀行名所在地", "s": "銀行名所在地（大正十四年九月末現在）", "n": "株式會社釜山商業銀行", "t": "釜山府本町1丁目、資本金 150萬圓、專務取締役 泉末次、取締役 迫間房太郎 大池忠助 香椎源太郎、監査役 松尾重信 福島源次郎、富平町派出所 釜山府富平町、鎭海支店 慶南昌原郡鎭海面住吉町、蔚山支店 同 蔚山郡蔚山面城南洞、方魚津支店 同 東面方魚里、統營支店 同 統營郡統營面數島町", "p": "273", "l": "scan leaf 144", "u": "https://dl.ndl.go.jp/pid/976190/1/144"}, {"a": "銀行名所在地", "s": "銀行名所在地（大正十四年九月末現在）", "n": "株式會社東萊銀行", "t": "慶南東萊郡東萊面福泉洞、資本金 50萬圓、取締役頭取 秋鍾燁、專務取締役 金烔贊、取締役 金錫萬 尹炳準 吳泰煥 崔翔甲、監査役 李震相 朴致英 崔敬浩、居昌支店 慶南居昌郡居昌面", "p": "273", "l": "scan leaf 144", "u": "https://dl.ndl.go.jp/pid/976190/1/144"}, {"a": "銀行名所在地", "s": "銀行名所在地（大正十四年九月末現在）", "n": "合資會社密陽銀行", "t": "慶南密陽郡密陽面內一洞、資本金 5萬圓、代表無限社員 湯淺凡平 森脇幸松、有限社員 中村孝志", "p": "273", "l": "scan leaf 144", "u": "https://dl.ndl.go.jp/pid/976190/1/144"}, {"a": "銀行名所在地", "s": "銀行名所在地（大正十四年九月末現在）", "n": "株式會社滿洲銀行", "t": "大連市伊勢町、資本金 3000萬圓、取締役頭取 村井啓太郎、專務取締役 高橋武夫、取締役 佐藤至誠 山田造酒治 劉雨田 邵尙儉、監査役 杉原佐一郎 [?]太親吉、新義州支店 平北新義州府", "p": "273", "l": "scan leaf 144", "u": "https://dl.ndl.go.jp/pid/976190/1/144"}, {"a": "銀行名所在地", "s": "銀行名所在地（大正十四年九月末現在）", "n": "株式會社北鮮商業銀行", "t": "咸南咸興郡咸興面西陽里、資本金 50萬圓、取締役頭取 金昇煥、取締役 洪聖淵 朱鍾魯 申錫定 韓時殷、監査役 金重瑞 朴鎔夏 高志英", "p": "273", "l": "scan leaf 144", "u": "https://dl.ndl.go.jp/pid/976190/1/144"}, {"a": "銀行名所在地", "s": "銀行名所在地（大正十四年九月末現在）", "n": "東洋拓殖株式會社", "t": "（會社一覽參照）金融業", "p": "273", "l": "scan leaf 144", "u": "https://dl.ndl.go.jp/pid/976190/1/144"}];
@@ -48,31 +60,95 @@ const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",
 const norm=s=>fold(s.normalize("NFD").replace(/[̀-ͯ]/g,"").toLowerCase());
 E.forEach(e=>{e._n=norm(e.n);e._all=norm(e.n+" "+e.t+" "+e.s)});
 const groups=[...new Set(E.map(e=>e.a+(e.s?" — "+e.s:"")))];
-const apps=[...new Set(E.map(e=>e.a))];
+const PLACES=[];const DC=null;const PY={};
+let ALT=false;try{ALT=localStorage.getItem("altrom")==="1"}catch(e){}
+const disp=a=>{if(ALT||!a)return a;const w=a.split(" ")[0];return PY[w]?PY[w]+a.slice(w.length):a};
+const dispLab=l=>{if(ALT)return l;return disp(l).replace(/\(([^() ]+)\)$/,(m,w)=>PY[w]?`(${PY[w]})`:m)};
+let apps=[...new Set(E.map(e=>e.a))];
 const sel=$("#ap");
-apps.forEach(a=>{const o=document.createElement("option");o.value="A:"+a;o.textContent=a;sel.appendChild(o);
- groups.filter(g=>g.startsWith(a+" — ")).forEach(g=>{const o=document.createElement("option");o.value="G:"+g;o.textContent="   "+g.slice(a.length+3);sel.appendChild(o)})});
+const addApp=a=>{const o=document.createElement("option");o.value="A:"+a;o.textContent=a;sel.appendChild(o);
+ groups.filter(g=>g.startsWith(a+" — ")).forEach(g=>{const o=document.createElement("option");o.value="G:"+g;o.textContent="   "+g.slice(a.length+3);sel.appendChild(o)})};
+function buildSel(){if(!PLACES.length){apps.forEach(addApp);return}const keep=sel.value;while(sel.options.length>1)sel.remove(1);
+ const isP=a=>PLACES.includes(a.split(" ")[0]),cmp=(x,y)=>x.localeCompare(y);
+ const opt=(v,t)=>{const o=document.createElement("option");o.value=v;o.textContent=t;sel.appendChild(o)};
+ apps.filter(isP).map(a=>[a,disp(a)]).sort((x,y)=>cmp(x[1],y[1])).forEach(([a,t])=>opt("A:"+a,t));const sp=document.createElement("option");sp.disabled=true;sp.textContent="──────────";sel.appendChild(sp);
+ const rest=apps.filter(a=>!isP(a)).map(a=>["A:"+a,a]).concat(groups.filter(g=>g.includes(" — ")).map(g=>{const i=g.indexOf(" — "),a=g.slice(0,i),sub=g.slice(i+3);return["G:"+g,isP(a)?`${sub} (${a.split(" ")[0]})`:`${a}: ${sub}`]}));
+ rest.map(([v,t])=>[v,dispLab(t)]).sort((x,y)=>cmp(x[1],y[1])).forEach(([v,t])=>opt(v,t));sel.value=keep}
+buildSel();
+if(Object.keys(PY).length){$("#arlab").hidden=false;$("#altrom").checked=ALT;$("#altrom").addEventListener("change",()=>{ALT=$("#altrom").checked;try{localStorage.setItem("altrom",ALT?"1":"0")}catch(e){};buildSel();run()})}
 function hl(s,terms){s=esc(s);if(!terms.length)return s;
  // highlight accent-insensitively by matching on normalised text
  const src=s,n=norm(src);let marks=[];terms.forEach(t=>{let i=0;const et=norm(esc(t));while(et&&(i=n.indexOf(et,i))>-1){marks.push([i,i+et.length]);i+=et.length}});
  if(!marks.length)return s;marks.sort((a,b)=>a[0]-b[0]);let out="",pos=0;
  marks.forEach(([a,b])=>{if(a<pos)return;out+=src.slice(pos,a)+"<mark>"+src.slice(a,b)+"</mark>";pos=b});return out+src.slice(pos)}
+let JF=false;try{JF=localStorage.getItem("jafirst")==="1"}catch(e){}
+if(E.some(e=>e.nj!==undefined)){$("#jflab").hidden=false;$("#jafirst").checked=JF;$("#jafirst").addEventListener("change",()=>{JF=$("#jafirst").checked;try{localStorage.setItem("jafirst",JF?"1":"0")}catch(e){};run()})}
 let res=[],shown=0;const STEP=300;
 function run(){const q=norm($("#q").value.trim());const terms=q.split(/\s+/).filter(Boolean);const v=sel.value;const no=$("#nameonly").checked;
+ if(DC){const c=x=>`<a class="tocbtn" href="#" data-s="${esc(x.s)}">${esc(x.l)}<small>${x.n.toLocaleString()} entr${x.n===1?"y":"ies"}</small></a>`;
+  const pl=DC.places.map(x=>({...x,l:disp(x.l)})),big=pl.slice(0,DC.big||0),restP=pl.slice(DC.big||0).sort((x,y)=>x.l.localeCompare(y.l));
+  $("#toc").innerHTML=(q||v)?"":`<h2>Contents</h2><h3>Places</h3><div class="tocgrid">${big.concat(restP).map(c).join("")}</div>`+(DC.other.length?`<h3>Other lists</h3><div class="tocgrid">${DC.other.map(x=>c({...x,l:dispLab(x.l)})).join("")}</div>`:"")+`<h3>All entries</h3>`}
  res=E.filter(e=>{if(v.startsWith("A:")&&e.a!==v.slice(2))return false;if(v.startsWith("G:")&&e.a+(e.s?" — "+e.s:"")!==v.slice(2))return false;
   const hay=no?e._n:e._all;return terms.every(t=>hay.includes(t))});
  $("#cnt").textContent=`${res.length.toLocaleString()} of ${E.length.toLocaleString()} entries`;
  $("#out").innerHTML="";shown=0;more(terms);
- try{history.replaceState(null,"",(q||v)?"#"+new URLSearchParams({q:$("#q").value.trim(),s:v}).toString():location.pathname)}catch(e){}}
+ try{history.replaceState(null,"",(q||v)?"#"+new URLSearchParams({q:$("#q").value.trim(),s:v}).toString():location.pathname)}catch(e){}anSync()}
 function more(terms){terms=terms||norm($("#q").value.trim()).split(/\s+/).filter(Boolean);
  let h="",last=shown?groupOf(res[shown-1]):null;
  res.slice(shown,shown+STEP).forEach(e=>{const g=groupOf(e);if(g!==last){h+=`<div class="sec">${esc(g)}</div>`;last=g}
-  h+=`<div class="e"><b>${hl(e.n,terms)}</b> <span class="t">${hl(e.t,terms)}</span><div class="m">p. ${esc(e.p)}${e.u?` · <a href="${e.u}" target="_blank" rel="noopener">${esc(e.l)}</a>`:e.l?" · "+esc(e.l):""}</div></div>`});
+  const ln=(n,t)=>(n?`<b>${hl(n,terms)}</b> `:"")+`<span class="t">${hl(t||"",terms)}</span>`;
+  const body=(e.nj!==undefined)?(JF?[[e.nj,e.tj],[e.ne,e.te]]:[[e.ne,e.te],[e.nj,e.tj]]).filter(x=>x[0]||x[1]).map((x,i)=>`<div class="l${i+1}">${ln(x[0],x[1])}</div>`).join(""):`<b>${hl(e.n,terms)}</b> <span class="t">${hl(e.t,terms)}</span>`;
+  h+=`<div class="e">${body}<div class="m">p. ${esc(e.p)}${e.u?` · <a href="${e.u}" target="_blank" rel="noopener">${esc(e.l)}</a>`:e.l?" · "+esc(e.l):""}</div></div>`});
  $("#out").insertAdjacentHTML("beforeend",h);shown=Math.min(res.length,shown+STEP);$("#more").hidden=shown>=res.length}
-const groupOf=e=>e.a+(e.s?" — "+e.s:"");
+const groupOf=e=>disp(e.a)+(e.s?" — "+e.s:"");
 let tm;$("#q").addEventListener("input",()=>{clearTimeout(tm);tm=setTimeout(run,120)});
-sel.addEventListener("change",run);$("#nameonly").addEventListener("change",run);$("#more").addEventListener("click",()=>more());
-$("#toggle").addEventListener("click",()=>{const r=document.documentElement;const d=r.dataset.theme?r.dataset.theme==="dark":matchMedia("(prefers-color-scheme: dark)").matches;r.dataset.theme=d?"light":"dark"});
-try{const p=new URLSearchParams(location.hash.slice(1));if(p.get("q"))$("#q").value=p.get("q");if(p.get("s"))sel.value=p.get("s")}catch(e){}
+sel.addEventListener("change",run);$("#toc").addEventListener("click",ev=>{const a=ev.target.closest("[data-s]");if(!a)return;ev.preventDefault();sel.value=a.dataset.s;run();scrollTo(0,0)});$("#nameonly").addEventListener("change",run);$("#more").addEventListener("click",()=>more());
+$("#toggle").addEventListener("click",()=>{const r=document.documentElement;const d=r.dataset.theme?r.dataset.theme==="dark":matchMedia("(prefers-color-scheme: dark)").matches;r.dataset.theme=d?"light":"dark";anSync(true)});
+// Notes are keyed by section (the search box only filters; notes on entries it hides stay listed in the panel)
+function anView(){return sel.value?"s="+sel.value:""}
+function anGo(v){$("#q").value="";sel.value=v&&v.startsWith("s=")?v.slice(2):"";run()}
+const AN_AREA="#out",AN_NOTE="anything you want to check or remember. Select text to highlight it, or drop a pin, and add a comment. Notes belong to the section you make them in and are kept only in this browser; Download saves a copy you can keep or send.";
+// Private notes (annotate.js v1.4.0, MIT, ../../annotate.js): loaded only after the reader turns Notes on.
+// Notes stay in this browser's localStorage, under one key per view (anView(), defined by each page); anGo(view) opens a view.
+let AN_ON=false,AN_LOAD=null,AN_FOCUS=null;const AN_PROJ="stat-tables";
+function anDark(){const r=document.documentElement;return r.dataset.theme?r.dataset.theme==="dark":matchMedia("(prefers-color-scheme: dark)").matches}
+function anCfg(open){const d=anDark();return {project:AN_PROJ,page:location.pathname+"#"+anView(),theme:d?"dark":"light",accent:d?"#8cc49e":"#1f4a2c",startOpen:open,
+ note:AN_NOTE}}
+function anOpen(){let off=false;try{off=localStorage.getItem("an-off")==="1"}catch(e){}return !off}
+function anSync(force){const A=window.Annotate;if(!AN_ON||!A||!A.config)return;if(!force&&A.config.page===location.pathname+"#"+anView())return;
+ const l=document.getElementById("__an_launch");A.init(anCfg(!(l&&l.classList.contains("an-show"))))}
+function anLoad(){if(window.Annotate){window.Annotate.init(anCfg(anOpen()));return Promise.resolve()}
+ return AN_LOAD||(AN_LOAD=new Promise((ok,no)=>{window.AnnotateConfig=anCfg(anOpen());const s=document.createElement("script");s.src="../../annotate.js";s.onload=()=>{anSync(true);if(AN_FOCUS){const f=AN_FOCUS;AN_FOCUS=null;setTimeout(()=>window.Annotate.focus(f),400)}ok()};s.onerror=()=>{AN_LOAD=null;no()};document.head.appendChild(s)}))}
+function anSet(on,user){AN_ON=on;try{if(on)localStorage.setItem("stat-notes","1");else localStorage.removeItem("stat-notes");if(user&&on)localStorage.removeItem("an-off")}catch(e){}
+ document.body.classList.toggle("notes-on",on);const b=$("#annot");b.setAttribute("aria-pressed",String(on));b.textContent=on?"Notes ✓":"Notes";
+ if(on)anLoad().catch(()=>{AN_ON=false;b.setAttribute("aria-pressed","false");b.textContent="Notes"});else if(window.Annotate)window.Annotate.destroy()}
+function anLink(id){let v=null;try{const d=JSON.parse(localStorage.getItem("annotate:"+AN_PROJ)||"{}");const c=(d.comments||[]).find(x=>x&&x.id===id);
+  if(c&&typeof c.page==="string"&&c.page.includes("#"))v=c.page.slice(c.page.indexOf("#")+1)}catch(e){}
+ anGo(v);if(v===null)return;
+ if(window.Annotate&&AN_ON)setTimeout(()=>window.Annotate.focus(id),400);else AN_FOCUS=id}
+$("#annot").onclick=()=>anSet(!AN_ON,true);
+// annotate.js 1.4.0 cancels an open comment on any pointerdown outside it, including the "your name" dialog it shows
+// before the first comment is saved; keep that pointerdown from reaching its handler so the first comment is not lost.
+document.addEventListener("pointerdown",e=>{if(e.target.closest&&e.target.closest("#__an_namewrap"))e.stopPropagation()},true);
+// annotate.js finds a highlight's surrounding text only when the selection starts in a text node; a selection that starts
+// or ends on an element (a whole cell, a triple-click) would be anchored to the first matching text on the page, often
+// in the table list. Move such ends into the first/last selected text node before annotate.js reads the selection.
+document.addEventListener("pointerup",()=>{if(!AN_ON)return;const g=getSelection();if(!g||g.isCollapsed||!g.rangeCount)return;
+ const r=g.getRangeAt(0);if(r.startContainer.nodeType===3&&r.endContainer.nodeType===3)return;
+ const root=r.commonAncestorContainer,w=document.createTreeWalker(root.nodeType===3?root.parentNode:root,NodeFilter.SHOW_TEXT,{acceptNode:n=>r.intersectsNode(n)&&n.nodeValue.trim()?1:3});
+ let a=null,b=null,n;while((n=w.nextNode())){if(!a)a=n;b=n}if(!a)return;
+ const r2=r.cloneRange();if(r.startContainer.nodeType!==3)r2.setStart(a,0);if(r.endContainer.nodeType!==3)r2.setEnd(b,b.nodeValue.length);
+ g.removeAllRanges();g.addRange(r2)},true);
+// Touch screens: a long-press selection usually ends in pointercancel, not the pointerup annotate.js waits for,
+// so with the Highlight tool on, open the comment box once the selection has settled.
+let anSelT=0;document.addEventListener("selectionchange",()=>{clearTimeout(anSelT);if(!AN_ON||!matchMedia("(pointer:coarse)").matches)return;
+ anSelT=setTimeout(()=>{const s=getSelection();if(!s||s.isCollapsed||!document.querySelector('#__an_bar .an-btn[data-tool="highlight"].an-on'))return;
+  const n=s.anchorNode&&(s.anchorNode.nodeType===1?s.anchorNode:s.anchorNode.parentElement);if(!n||!n.closest(AN_AREA)||document.querySelector("#__an_compose.an-show"))return;
+  n.dispatchEvent(new PointerEvent("pointerup",{bubbles:true,pointerType:"touch"}))},700)});
+
+let anFirst=null;try{const h=decodeURIComponent(location.hash.slice(1));if(h.startsWith("an="))anFirst=h.slice(3);else{const p=new URLSearchParams(location.hash.slice(1));if(p.get("q"))$("#q").value=p.get("q");if(p.get("s"))sel.value=p.get("s")}}catch(e){}
 run();
+try{if(localStorage.getItem("stat-notes")==="1")anSet(true)}catch(e){}
+if(anFirst)anLink(anFirst);
+addEventListener("hashchange",()=>{const h=decodeURIComponent(location.hash.slice(1));if(h.startsWith("an="))anLink(h.slice(3))});
 </script></body></html>

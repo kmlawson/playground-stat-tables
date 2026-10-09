@@ -80,6 +80,10 @@ This file is the authoritative process overview (updated 2026-10-07). `build/exa
   edition year. Slugs: 朝鮮年鑑 = `korea-nenkan-YYYY`, 朝鮮事情 = `korea-YYYY`, statistical annual = `korea-tokanfu-YYYY`.
 - Directory books can set `dir_cards`, `dir_places`, `dir_pinyin` (place cards, pinyin with "alt. romanization").
 - Table pages show printed notes and transcriber's notes in collapsible sections under each table.
+- **Notes** (reader annotations): table, directory and chronology pages have an opt-in Notes button that loads the
+  vendored `annotate.js` 1.4.0 (MIT; `annotate.js` + `annotate.LICENSE.txt` at the site root; never load it from a CDN).
+  Notes stay in the reader's localStorage (project `stat-tables`), keyed per view (one table, chapter or directory
+  section). Loader and workarounds live in `ANNOT_JS` in `build_site.py`; no feedback endpoint (user, 2026-10-10).
 
 ## Building and publishing (this session runs the repo — user, 2026-10-06)
 

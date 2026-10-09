@@ -87,6 +87,8 @@ mark{background:var(--hi);color:inherit}
 .enn{color:var(--muted);font-size:13px;white-space:nowrap}
 .ctx{max-width:760px;font-size:14.5px;line-height:1.55;margin:8px 0 12px;padding:9px 12px;border-left:3px solid var(--accent);background:var(--panel)}
 .aboutbtn{margin-left:auto;font:inherit;font-size:14px;background:transparent;color:var(--accent-ink);border:1px solid currentColor;border-radius:5px;padding:5px 12px;cursor:pointer;align-self:center}.aboutbtn+#toggle{margin-left:0}
+.anbtn{margin-left:auto;font:inherit;font-size:14px;background:transparent;color:var(--accent-ink);border:1px solid currentColor;border-radius:5px;padding:5px 12px;cursor:pointer;align-self:center}.anbtn[aria-pressed="true"]{background:var(--accent-ink);color:var(--accent)}.dirbtn+.anbtn,.aboutbtn+.anbtn,.anbtn+#toggle{margin-left:0}
+@media (max-width:640px){html body #__an_bar.an-right,html body #__an_bar.an-left{flex-direction:row;left:0;right:0;margin:0 auto;width:max-content;max-width:calc(100vw - 12px);transform:none;bottom:10px;gap:2px;padding:5px}html body #__an_bar .an-btn,html body #__an_colorbtn{width:min(36px,calc((100vw - 44px)/9.5));height:36px}html body #__an_bar .an-sep{width:1px;height:24px;margin:0 2px}html body #__an_bar #__an_colorpop{right:auto;left:50%;transform:translateX(-50%);bottom:52px;top:auto;width:max-content}body.notes-on{padding-bottom:70px}}
 dialog{max-width:min(560px,calc(100vw - 32px));border:1px solid var(--line);border-top:4px solid var(--accent);background:var(--panel);color:var(--ink);padding:18px 20px;border-radius:6px;font-size:14.5px}dialog::backdrop{background:rgba(0,0,0,.45)}dialog h3{margin:0 0 2px;font-weight:normal;font-size:19px}dialog .pub{color:var(--muted);font-size:13px}dialog form button{font:inherit;font-size:14px;background:var(--accent);color:var(--accent-ink);border:0;border-radius:5px;padding:6px 14px;cursor:pointer}
 @media (max-width:760px){#wrap,body.cmp #wrap{grid-template-columns:minmax(0,1fr);height:auto}#cmp{border-left:0;border-top:2px solid var(--accent);padding:14px 16px}#side,#main{min-width:0;max-width:100vw}#list a{overflow-wrap:anywhere}.tw{max-height:none}header{padding:12px 16px}header h1{font-size:18px}.dirbtn{margin-left:0}#side{border-right:0;border-bottom:1px solid var(--line)}#list{max-height:40vh}#main{padding:14px 16px}.chgrid{gap:8px}.chbtn{padding:11px 13px}.chbtn small{font-size:12px}}
 </style>
@@ -94,7 +96,7 @@ dialog{max-width:min(560px,calc(100vw - 32px));border:1px solid var(--line);bord
 <body>
 <header><a href="../../" style="text-decoration:none;font-size:14px">← All books</a><h1>The China Year Book 1916</h1>
 <span class="meta">373 tables · 35,808 cells · LLM-transcribed · <a href="../../data/china-1916.json" style="color:inherit">JSON</a> · <a href="../../downloads/china-1916-tables.xlsx" style="color:inherit" download>Excel</a></span>
-<a class="dirbtn" href="directory.html">Directories</a><button class="aboutbtn" onclick="document.getElementById('about').showModal()">About</button><dialog id="about" onclick="if(event.target===this)this.close()"><h3>The China Year Book 1916</h3><div class="pub">H. G. W. Woodhead and H. T. Montague Bell (eds.), 1916</div><p>Only tables, columnar lists and directory entries are transcribed; prose, chronologies, treaty and law texts, advertisements, the contents and the index are not. Pages with tables and directories were found from contact sheets by Claude Sonnet 5.5, so small tables set into the prose may be missing. Each page was read once by Claude Haiku 5.5 from full-resolution crops and not checked by eye; unreadable figures are marked, and printed totals that do not add up are noted and kept as read. Tables continued over pages were joined where the column headings match. The Who&#x27;s Who and directories are on the Who&#x27;s Who &amp; Directories page.</p><form method="dialog"><button>Close</button></form></dialog><button id="toggle" title="Toggle light/dark">◐</button></header>
+<a class="dirbtn" href="directory.html">Directories</a><button class="aboutbtn" onclick="document.getElementById('about').showModal()">About</button><dialog id="about" onclick="if(event.target===this)this.close()"><h3>The China Year Book 1916</h3><div class="pub">H. G. W. Woodhead and H. T. Montague Bell (eds.), 1916</div><p>Only tables, columnar lists and directory entries are transcribed; prose, chronologies, treaty and law texts, advertisements, the contents and the index are not. Pages with tables and directories were found from contact sheets by Claude Sonnet 5.5, so small tables set into the prose may be missing. Each page was read once by Claude Haiku 5.5 from full-resolution crops and not checked by eye; unreadable figures are marked, and printed totals that do not add up are noted and kept as read. Tables continued over pages were joined where the column headings match. The Who&#x27;s Who and directories are on the Who&#x27;s Who &amp; Directories page.</p><form method="dialog"><button>Close</button></form></dialog><button id="annot" class="anbtn" aria-pressed="false" title="Private notes: highlight and comment on tables. Saved only in this browser.">Notes</button><button id="toggle" title="Toggle light/dark">◐</button></header>
 <div id="wrap">
 <nav id="side"><div class="ctl">
 <input id="q" type="search" placeholder="Search titles, headings, cells…">
@@ -180,10 +182,10 @@ function dirCards(){if(!DIRCARDS)return "";const card=c=>`<a class="chbtn" href=
  return `<h2 style="margin:0 0 6px">Directory</h2><div class="chsum">${DIRCARDS.total.toLocaleString()} directory entries. Choose a place or a list. Place names are in pinyin; the directory page has a toggle for the book's own romanization.</div><h3 style="margin:14px 0 8px">Places</h3><div class="chgrid" style="--chfs:15px">`+pl.slice(0,bg).concat(pl.slice(bg).sort((x,y)=>x.l.localeCompare(y.l))).map(card).join("")+`</div>`+(DIRCARDS.other.length?`<h3 style="margin:20px 0 8px">Other lists</h3><div class="chgrid" style="--chfs:15px">`+DIRCARDS.other.map(x=>card({...x,l:pyl(x.l)})).join("")+`</div>`:"")}
 function showHome(){mode="home";cur=null;closeCmp();const n={};T.forEach(t=>{const c=t.chapter||"(no chapter)";n[c]=(n[c]||0)+1});
  if(DIRCARDS){$("#main").innerHTML=`<div class="chhead">Contents</div>`+dirCards()+`<h2 style="margin:28px 0 6px">Tables</h2><div class="chsum">${T.length} table${T.length===1?"":"s"} in ${chapters.length} section${chapters.length===1?"":"s"}. Choose a section, or pick a single table from the list.</div><div class="chgrid" style="--chfs:15px">`+
-  chapters.map(c=>`<a class="chbtn" href="#ch=${encodeURIComponent(c)}">${esc(c)}${chE(c,"che3")}<small>${n[c]} table${n[c]===1?"":"s"}</small></a>`).join("")+`</div>`+LLMWARN;$("#main").scrollTop=0;mark();return}
+  chapters.map(c=>`<a class="chbtn" href="#ch=${encodeURIComponent(c)}">${esc(c)}${chE(c,"che3")}<small>${n[c]} table${n[c]===1?"":"s"}</small></a>`).join("")+`</div>`+LLMWARN;$("#main").scrollTop=0;mark();anSync();return}
  $("#main").innerHTML=`<div class="chhead">Contents</div><h2 style="margin-bottom:6px">Chapters</h2><div class="chsum">${T.length} table${T.length===1?"":"s"} in ${chapters.length} chapter${chapters.length===1?"":"s"}. Choose a chapter, or pick a single table from the list.</div><div class="chgrid">`+
   chapters.map(c=>`<a class="chbtn" href="#ch=${encodeURIComponent(c)}">${esc(c)}${chE(c,"che3")}<small>${n[c]} table${n[c]===1?"":"s"}</small></a>`).join("")+`</div>`+dirCards()+LLMWARN;
- $("#main").scrollTop=0;fitGrid();mark()}
+ $("#main").scrollTop=0;fitGrid();mark();anSync()}
 // Desktop: pick the largest button font (12-28px) at which every chapter button fits in the pane without scrolling
 function fitGrid(){const g=$(".chgrid");if(!g)return;g.style.removeProperty("--chfs");if(innerWidth<=760)return;
  const m=$("#main"),limit=()=>m.getBoundingClientRect().bottom-parseFloat(getComputedStyle(m).paddingBottom);
@@ -194,16 +196,17 @@ function fitGrid(){const g=$(".chgrid");if(!g)return;g.style.removeProperty("--c
 let fitRaf=0;addEventListener("resize",()=>{if(mode!=="home"||DIRCARDS)return;cancelAnimationFrame(fitRaf);fitRaf=requestAnimationFrame(fitGrid)});
 function showOne(id){const t=T.find(x=>x.id===id)||T[0];if(!t){$("#main").innerHTML="<p>No tables yet.</p>";return}
  mode="one";cur=t.id;$("#main").innerHTML=tableHTML(t,$("#q").value.trim())+LLMWARN;$("#main").scrollTop=0;
- document.querySelectorAll("#main table").forEach(initSort);mark();if(cmpS)showCmp()}
+ document.querySelectorAll("#main table").forEach(initSort);mark();if(cmpS)showCmp();anSync()}
 function showChapter(ch){const q=$("#q").value.trim();const ts=filtered();mode="chapter";cur=null;closeCmp();
  let h=`<div class="chhead"><a href="#">All chapters</a> · Chapter</div><h2 style="margin-bottom:6px">${esc(ch)}${chE(ch,"che2")}</h2><div class="chsum">${ts.length} table${ts.length===1?"":"s"}${$("#flag").checked||q?" matching the current filters":""}</div>`+xlChapter(ch);
  h+=(ts.map(t=>tableHTML(t,q)).join("")||"<p>No tables match.</p>")+LLMWARN;
  $("#main").innerHTML=h;$("#main").scrollTop=0;document.querySelectorAll("#main table").forEach(initSort);
  if(enterAt&&ts.length){const t=enterAt==="first"?ts[0]:ts[ts.length-1];cur=t.id;const el=document.getElementById("t-"+t.id);if(el&&enterAt==="last")el.scrollIntoView({block:"start"});
   const a=document.querySelector(`#list a[href="#${CSS.escape(t.id)}"]`);if(a)a.scrollIntoView({block:"nearest"})}
- enterAt=null;mark()}
+ enterAt=null;mark();anSync()}
 let enterAt=null;
 function route(){const h=decodeURIComponent(location.hash.slice(1));
+ if(h.startsWith("an=")){anLink(h.slice(3));return}
  if(h.startsWith("ch=")){const ch=h.slice(3);if($("#ch").value!==ch){$("#ch").value=ch;renderList()}showChapter(ch);return}
  if(mode==="chapter"&&h&&document.getElementById("t-"+h)){cur=h;document.getElementById("t-"+h).scrollIntoView({block:"start"});mark();return}
  if(!h){if($("#ch").value){$("#ch").value="";renderList()}if(T.length){showHome();return}}
@@ -258,8 +261,50 @@ $("#ch").addEventListener("input",()=>{renderList();const ch=$("#ch").value;
  if(ch)location.hash="ch="+encodeURIComponent(ch);else{history.replaceState(null,"",location.pathname);showHome()}});
 ["q","flag"].forEach(k=>$("#"+k).addEventListener("input",()=>{renderList();if(mode==="chapter")showChapter($("#ch").value)}));
 window.addEventListener("hashchange",route);
-$("#toggle").onclick=()=>{const r=document.documentElement,d=r.dataset.theme==="dark"||(!r.dataset.theme&&matchMedia("(prefers-color-scheme: dark)").matches);r.dataset.theme=d?"light":"dark"};
+$("#toggle").onclick=()=>{const r=document.documentElement,d=r.dataset.theme==="dark"||(!r.dataset.theme&&matchMedia("(prefers-color-scheme: dark)").matches);r.dataset.theme=d?"light":"dark";anSync(true)};
+function anView(){return mode==="one"?cur||"":mode==="chapter"?"ch="+$("#ch").value:""}
+function anGo(v){history.replaceState(null,"",location.pathname+(v?"#"+v:""));route()}
+const AN_AREA="#main",AN_NOTE="anything you want to check or remember. Select text to highlight it, or drop a pin, and add a comment. Notes belong to the view you make them in (one table, or a whole chapter) and are kept only in this browser; Download saves a copy you can keep or send.";
+// Private notes (annotate.js v1.4.0, MIT, ../../annotate.js): loaded only after the reader turns Notes on.
+// Notes stay in this browser's localStorage, under one key per view (anView(), defined by each page); anGo(view) opens a view.
+let AN_ON=false,AN_LOAD=null,AN_FOCUS=null;const AN_PROJ="stat-tables";
+function anDark(){const r=document.documentElement;return r.dataset.theme?r.dataset.theme==="dark":matchMedia("(prefers-color-scheme: dark)").matches}
+function anCfg(open){const d=anDark();return {project:AN_PROJ,page:location.pathname+"#"+anView(),theme:d?"dark":"light",accent:d?"#8cc49e":"#1f4a2c",startOpen:open,
+ note:AN_NOTE}}
+function anOpen(){let off=false;try{off=localStorage.getItem("an-off")==="1"}catch(e){}return !off}
+function anSync(force){const A=window.Annotate;if(!AN_ON||!A||!A.config)return;if(!force&&A.config.page===location.pathname+"#"+anView())return;
+ const l=document.getElementById("__an_launch");A.init(anCfg(!(l&&l.classList.contains("an-show"))))}
+function anLoad(){if(window.Annotate){window.Annotate.init(anCfg(anOpen()));return Promise.resolve()}
+ return AN_LOAD||(AN_LOAD=new Promise((ok,no)=>{window.AnnotateConfig=anCfg(anOpen());const s=document.createElement("script");s.src="../../annotate.js";s.onload=()=>{anSync(true);if(AN_FOCUS){const f=AN_FOCUS;AN_FOCUS=null;setTimeout(()=>window.Annotate.focus(f),400)}ok()};s.onerror=()=>{AN_LOAD=null;no()};document.head.appendChild(s)}))}
+function anSet(on,user){AN_ON=on;try{if(on)localStorage.setItem("stat-notes","1");else localStorage.removeItem("stat-notes");if(user&&on)localStorage.removeItem("an-off")}catch(e){}
+ document.body.classList.toggle("notes-on",on);const b=$("#annot");b.setAttribute("aria-pressed",String(on));b.textContent=on?"Notes ✓":"Notes";
+ if(on)anLoad().catch(()=>{AN_ON=false;b.setAttribute("aria-pressed","false");b.textContent="Notes"});else if(window.Annotate)window.Annotate.destroy()}
+function anLink(id){let v=null;try{const d=JSON.parse(localStorage.getItem("annotate:"+AN_PROJ)||"{}");const c=(d.comments||[]).find(x=>x&&x.id===id);
+  if(c&&typeof c.page==="string"&&c.page.includes("#"))v=c.page.slice(c.page.indexOf("#")+1)}catch(e){}
+ anGo(v);if(v===null)return;
+ if(window.Annotate&&AN_ON)setTimeout(()=>window.Annotate.focus(id),400);else AN_FOCUS=id}
+$("#annot").onclick=()=>anSet(!AN_ON,true);
+// annotate.js 1.4.0 cancels an open comment on any pointerdown outside it, including the "your name" dialog it shows
+// before the first comment is saved; keep that pointerdown from reaching its handler so the first comment is not lost.
+document.addEventListener("pointerdown",e=>{if(e.target.closest&&e.target.closest("#__an_namewrap"))e.stopPropagation()},true);
+// annotate.js finds a highlight's surrounding text only when the selection starts in a text node; a selection that starts
+// or ends on an element (a whole cell, a triple-click) would be anchored to the first matching text on the page, often
+// in the table list. Move such ends into the first/last selected text node before annotate.js reads the selection.
+document.addEventListener("pointerup",()=>{if(!AN_ON)return;const g=getSelection();if(!g||g.isCollapsed||!g.rangeCount)return;
+ const r=g.getRangeAt(0);if(r.startContainer.nodeType===3&&r.endContainer.nodeType===3)return;
+ const root=r.commonAncestorContainer,w=document.createTreeWalker(root.nodeType===3?root.parentNode:root,NodeFilter.SHOW_TEXT,{acceptNode:n=>r.intersectsNode(n)&&n.nodeValue.trim()?1:3});
+ let a=null,b=null,n;while((n=w.nextNode())){if(!a)a=n;b=n}if(!a)return;
+ const r2=r.cloneRange();if(r.startContainer.nodeType!==3)r2.setStart(a,0);if(r.endContainer.nodeType!==3)r2.setEnd(b,b.nodeValue.length);
+ g.removeAllRanges();g.addRange(r2)},true);
+// Touch screens: a long-press selection usually ends in pointercancel, not the pointerup annotate.js waits for,
+// so with the Highlight tool on, open the comment box once the selection has settled.
+let anSelT=0;document.addEventListener("selectionchange",()=>{clearTimeout(anSelT);if(!AN_ON||!matchMedia("(pointer:coarse)").matches)return;
+ anSelT=setTimeout(()=>{const s=getSelection();if(!s||s.isCollapsed||!document.querySelector('#__an_bar .an-btn[data-tool="highlight"].an-on'))return;
+  const n=s.anchorNode&&(s.anchorNode.nodeType===1?s.anchorNode:s.anchorNode.parentElement);if(!n||!n.closest(AN_AREA)||document.querySelector("#__an_compose.an-show"))return;
+  n.dispatchEvent(new PointerEvent("pointerup",{bubbles:true,pointerType:"touch"}))},700)});
+
 renderList();route();
+try{if(localStorage.getItem("stat-notes")==="1")anSet(true)}catch(e){}
 </script>
 </body>
 </html>
