@@ -1033,7 +1033,7 @@ let az=false;try{az=localStorage.getItem("homesort")==="az"}catch(e){}set(az);b.
 let l=false;try{l=localStorage.getItem("homeview")==="list"}catch(e){}set(l);b.onclick=()=>set(!document.body.classList.contains("list"))})();</script>
 <script>if(Math.random()<.5){const g=document.getElementById("groups");g.insertBefore(document.getElementById("china"),document.getElementById("japan"));
 const n=document.getElementById("jump");n.insertBefore(document.getElementById("j-china"),document.getElementById("j-japan"))}</script>
-<div class="llmwarn" role="note"><b>Warning:</b> These tables were transcribed by the vision models of Opus 5.5 or Sonnet 5.5 (named on each book's page). Before using any of these figures, you must verify specific statistics with the original source which is linked to whenever possible.</div>
+<div class="llmwarn" role="note"><b>Warning:</b> These tables were transcribed by the vision models of Opus 5.5, Sonnet 5.5, or Haiku 5.5 (named on each book's page). Before using any of these figures, you must verify specific statistics with the original source which is linked to whenever possible.</div>
 <script>document.addEventListener("click",e=>{const b=e.target.closest("[data-about]");if(b){document.getElementById(b.dataset.about).showModal();return}
 if(e.target.tagName==="DIALOG")e.target.close()});</script>
 <footer>Each table can be downloaded as CSV from its page. Each book can be downloaded whole as an Excel workbook (one sheet per table, with a linked contents sheet) or as JSON; directories are available as Markdown.<br><br>The website was created by Claude Opus 5.5 with <a href="https://muninn.net/">Konrad M. Lawson</a> at the prompt. See: <a href="https://froginawell.net/frog/sources/">Other Resources at Frog in a Well</a></footer>
@@ -1406,7 +1406,7 @@ def build_directory(book):
     data = json.dumps(entries, ensure_ascii=False).replace("</", "<\\/")
     desc = f"{len(entries):,} entries" + section_summary(e["a"] for e in entries)
     doc = (DIRTEMPLATE.replace("__DATA__", data).replace("__PLACES__", json.dumps(book.get("dir_places", []))).replace("__DIRCARDS__", dir_cards(book)).replace("__PINYIN__", json.dumps(book.get("dir_pinyin", {}), ensure_ascii=False)).replace("__COUNT__", f"{len(entries):,}").replace("__DESC__", html.escape(desc))
-           .replace("__BOOK__", html.escape(book["title"])).replace("__SLUG__", book["slug"])
+           .replace("__BOOK__", html.escape(book["title"])).replace("__SLUG__", book["slug"]).replace("__MODEL__", book.get("model", "Opus 5.5"))
            .replace("__PROG__", " · <i>transcription in progress</i>" if book.get("dir_in_progress") else "")
            .replace("__MD__", f' · <a href="../../{dl(book["slug"], "directory.md")}" download>Markdown</a>' if dl(book["slug"], "directory.md") else ""))
     with open(os.path.join(HERE, "book", book["slug"], "directory.html"), "w", encoding="utf-8") as fh:
@@ -1437,7 +1437,7 @@ def build_chronology(book):
         json.dump(events, fh, ensure_ascii=False, indent=1)
     data = json.dumps(events, ensure_ascii=False).replace("</", "<\\/")
     doc = (DIRTEMPLATE.replace("__DATA__", data).replace("__PLACES__", "[]").replace("__DIRCARDS__", "null").replace("__PINYIN__", "{}").replace("__COUNT__", f"{len(events):,}")
-           .replace("__BOOK__", html.escape(book["title"])).replace("__SLUG__", book["slug"])
+           .replace("__BOOK__", html.escape(book["title"])).replace("__SLUG__", book["slug"]).replace("__MODEL__", book.get("model", "Opus 5.5"))
            .replace("__PROG__", " · <i>transcription in progress</i>" if book.get("in_progress") else "")
            .replace("· Directories", "· Chronologies").replace("-directory.json", "-chronology.json")
            .replace(" entries", " events").replace("Filter names, places, firms, words…", "Filter dates, names, places, words…")
@@ -1502,7 +1502,7 @@ mark{background:#f3e3a0;color:inherit}
 <label style="font-size:13px" id="arlab" hidden><input type="checkbox" id="altrom"> alt. romanization</label>
 <div id="cnt"></div></div></div>
 <main><div id="toc"></div><div id="out"></div><button id="more" hidden>Show more</button>
-<div class="llmwarn" role="note"><b>Warning:</b> These entries were transcribed by the vision model of Opus 5.5. Before using any of them, you must verify specific details with the original source which is linked to whenever possible.</div></main>
+<div class="llmwarn" role="note"><b>Warning:</b> These entries were transcribed by the vision model of __MODEL__. Before using any of them, you must verify specific details with the original source which is linked to whenever possible.</div></main>
 <script>
 const E=__DATA__;
 const $=s=>document.querySelector(s);
@@ -1596,7 +1596,7 @@ mark{background:var(--mark);color:inherit}
 <option value="all">Everything</option><option value="t">Tables only</option><option value="w">Who's Who only</option>
 <option value="d">All directories</option><option value="c">Chronologies only</option></select></div>
 <div id="status"></div><div id="out"></div>
-<div class="llmwarn" role="note"><b>Warning:</b> These tables were transcribed by the vision model of Opus 5.5. Before using any of these figures, you must verify specific statistics with the original source which is linked to whenever possible.</div>
+<div class="llmwarn" role="note"><b>Warning:</b> These tables were transcribed by the vision models of Opus 5.5, Sonnet 5.5, or Haiku 5.5 (named on each book's page). Before using any of these figures, you must verify specific statistics with the original source which is linked to whenever possible.</div>
 </main>
 <script>
 const BOOKS=__BOOKS__;
