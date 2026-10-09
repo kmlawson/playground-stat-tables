@@ -1,0 +1,2735 @@
+# China Handbook 1944 — Who's Who & Directories
+
+1,357 entries, LLM-transcribed. These entries were transcribed by the vision model of Opus 5.5. Before using any of these details, you must verify specific details with the original source which is linked to whenever possible.
+
+
+## Associations and Societies
+
+**Academic Society, The China** (see China Academic Society) — p. 
+
+**Accountants, National Association of** (see National Association of Accountants) — p. 
+
+**Accounting Association of China** Founded in Nanking on November 18, 1934. Activities include publication of magazines, discussion meetings and an accounting school. Membership: 74 individual members and two group members. Officers :—Executive Directors, Chao Ti-hua, Wen Yi-yu, Li Chin-yu. Address :—c/o Directorate-General of Budgets, Accounts and Statistics, National Government, Chungking. — p. 
+
+**Accounting, Budgeting and Statistics, Chung Hua Association of** (see Chung Hua Association of Accounting, Budgeting and Statistics). — p. 
+
+**Accounting, Budgeting and Statistics Society of China** Founded in Nanking in May, 1933. Membership : 1,197. One branch. Officers :—Executive Directors, Yang Ju-mei, Chang Ching-li, Wang Fang. Address :—c/o Yang Ju-mei, Bureau of Accounts, Budgets and Statistics, National Government, Chungking. — p. 
+
+**Administration Society of China** Organized to engage in research and study of practical administrative problems. Actual workings and conditions of provincial and municipal administrative organs in China are studied through research committees and investigation groups. The Administrative Quarterly and books on administration are published. Officers :—Executive Directors, Tan Hsi-hung, Wu Wei-tao, Wu Hsiang-ling, Chen Shih-cheng, Hsu Ching-chih, Chen Yao-wen, Chang Chih-pang, Chang Chung-tao, Hsu Kung-su, Tuan-mu Kai, Hsieh Kwan-sheng. Address :—c/o Tan Hsi-hung, Ministry of Economic Affairs, Chungking. — p. 
+
+**Agricultural Association of China** Founded in Shanghai in January, 1917, to study agricultural science, promote agricultural reforms and rural rehabilitation, and to improve peasant life. Among the research projects the association has engaged in are “Chinese Agricultural Policy,” “Post-war Agricultural Rehabilitation,” and “A 30-year History of Chinese Agricultural Improvement.” Scholarships and fellowships are awarded. The Journal of the Agricultural Association of China and the Agricultural Association Newsletter are published in Chinese. Membership : 4,500. Up to 1944, the Association has held 24 annual conventions in various big cities. There are 4 branches: 3 at home (Chengtu, Kunming and Kwangtung) and one in the United States. Officers :—President, P. W. Tsou; Vice-President, Liang Hsi; Secretary-General, Chen Fang-chi; Chief of Editorial Division, Yuan Chung-chow. Address :—104 Tsao Tze Lan Ya, Chungking. — p. 
+
+**Agricultural Extension Association of China** Founded in Chungking on May 3, 1939, for the purpose of developing agricultural extension work and studying problems relating to agricultural extension. Membership : 227. Officers :—Directors, Mao Yung, Chiao Chi-ming, Chien Tien-ho, Hsieh Chia-sheng, Tang Chi-yu, P. W. Tsou, Chang Chih-wen, Chao Lien-fang, Shen Tsung-han, Chang Hsin-i, S. W. Tsou, Sung Wen-yu. Address :—72 Chang Chia Hua Yuan, Chungking. — p. 
+
+**Agriculture, China Society for the Promotion of** (see China Society for the Promotion of Agriculture) — p. 
+
+**Agriculture Promotion Society of China, The** Officers :—President, Tung Shih-chin; Executive Directors, Hu Ching-liang, Lan Meng-chiu. Address :—Ching Chieh, Nanchimen, Chungking. — p. 
+
+**All-China Troops-Comforting Association** Founded in Hankow in 1938; later moved to Chungking. Major activities undertaken by the association include: (1) bolstering the morale of Allied as well as Chinese armed forces, (2) administering comfort service to honor soldiers, and (3) extending material aid to dependants of men in the fighting service. The association has since 1943 established 18 provincial branches, namely, Kweichow, Honan, Shansi, Hunan, Kwangsi, Kwangtung, Shensi, Chinghai, Yunnan, Sikang, Chekiang, Suiyuan, Anhwei, Szechwan, Kiangsi, Sinkiang, Fukien and Kansu. Overseas branches are located in Calcutta, Bombay, London, Vancouver, Guatemala, Lisbon, Wellington (Australia) and South Africa. Officers :—President, Chen Cheng; Acting President, Ku Cheng-kang; Vice-Presidents, Ma Chao-chun, Kuo Mo-jo Huang Shao-ku; General-Secretary, Wen Kuang-yi. Address :—9 Han Chia Hsiang, Chung Hsing Rd., Chungking. — p. 
+
+**American-Returned Youth League** Organized on November 23, 1941, by Chinese youths returned from America in recent years for promotion of fellowship and Sino-American goodwill. All members, numbering about 200, have attended universities in the United States. Monthly dinners are held to discuss problems concerning American-returned youths and Chinese students in the U.S.; and information is supplied to students who intend to go. Officers :—Executive Committee—Chao Wang (Chairman), Wang Kwan, Chang Hsu, Shen Chang-huan; Supervisory Committee—Tu Chien-shih (Chairman), Tung Lin, Chen Chiu-ching; Secretary, Hu Shih-Hsun. Address :—c/o Chang Hsu, Ministry of Communications, Chungking. — p. 516
+
+**Animal Husbandry and Veterinary Society of China, The** Founded on October 31, 1942. Membership : 193. Officers :—President, Chen Chang-chih; Executive Directors, Lo Ching-sheng, Sheng Tan-sheng, Yang Hsing-yeh. Address :—62 Chiang Hsi Street, Chengtu. — p. 516
+
+**Anti-Japanese Association of the Four Northeastern Provinces, The** Founded in 1942 to engage in activities geared to winning the war and recovering the lost territory. Officers :—Executive Directors, Wu Huan-chang, Tien Yu-shih, Tan Wen-ping, Ma Liang. Address :—78 Chin Tang Street, Chungking. — p. 516
+
+**Applied Science Society of China, The** Founded on February 27, 1944. Membership : 38. Officers :—Executive Directors, Chu Chia-hua, Li Yueh-san, Chu Po-tao, Tien Tung-hsu, Su Erh. Address :—c/o Chou Huai-li, 12 Lien Hua Street, Chungking. — p. 516
+
+**Architects, Society of Chinese** (see Society of Chinese Architects). — p. 516
+
+**Architecture, Institute for Research in Chinese** (see Institute for Research in Chinese Architecture). — p. 516
+
+**Artistic Dramatic Society of China, The** Founded on December 29, 1942. Membership : 83. Officers :—President, Chou Chih-yu; Executive Directors, Chu Hsueh-fan, Sun Shih-i, Sung Chih-ti, Chin Shan. Address :—c/o Wang Ping-wei, National Compilation and Translation Bureau, Peipei, Chungking. — p. 516
+
+**Association for the Promotion of Food Policy** Founded in Chungking in 1942 to assist the Government in carrying out its food policy. Membership : 167. Officers :—Executive Directors, Liu Yun-chou, Kwan Chi-yu, Liu Kung-yun, Yang Jui-ling, Chang Chih-hsin. Address :—Fenghuangtai Street, Chungking. — p. 516
+
+**Association for the Promotion of Tibetan Culture** Founded on May 18, 1941, for the popularization of Tibetan culture and the consolidation of the Chinese Republic. Membership : 65. Officers :—President, Hsi-Jao-Chia-Tso. Address :—1 Yeu Yu Li, Hsuantanmiao, South Bank, Chungking. — p. 516
+
+**Association for the Settlement of War Refugees, The** The association takes care of refugees from war areas, and helps them to land jobs of production in addition to sponsoring a reclamation program in Chishui, Kiangsi. Membership : 4,600. Officers :—President, Hsu Shih-ying; Vice-Presidents, Pan Kung-chan, Pan I-chih; Secretary-General, Wang Chung. Address :—Sub. No. 2, 75 Chang Chia Hua Yuan, Chungking. — p. 516
+
+**Association for Wartime Adjustment of Social Affairs Personnel** Organized on November 21, 1939, to help place proper talent in proper employment and to promote the “ right jobs for right persons” movement. Besides offering training and employment recommendation services, the association has assisted in the moving-in of technical personnel from occupied areas. A factory is maintained to give constructive relief. Present membership: 39 groups and 251 individuals. Head-office is in Chungking, with branches in Kweiyang and Hengyang, and stations in Kukong, Waichow, Chinchengkiang, Kunming, Loyang and Kienyang. Officers :—Executive Directors, Hsu Shih-ying, Chen Li-fu, Chen Cheng, Li Chi-shen, Kiang Heng-yuan, Ma Chao-chun, Ku Cheng-kang, Huang Po-tu, Chen Yu, Tai Ching-chen, Li Yi-chung; Secretary-General, Ching Sheng-en. Address :—7 Chiutaomen, Lin Sen Rd., Chungking. — p. 517
+
+**Association of French-Belgium-Swiss-Returned Students** Founded in Chungking on February 1, 1938, the association has now 2,146 members, with branches in Kunming, Chengtu, Kweiyang, Sian, and in the provinces of Kiangsi, Hunan and Kwangsi. Officers :—President, Mao Ching-hsiang; Executive Directors, Wang Jih-chang, Lo Chih-kang, Chou Man-chiu, Chu Pao-ju; Chief Secretary, S. C. Liau; Secretary-General, M. F. Chow. Address :—30 Ling Kiang Rd., Chungking. — p. 517
+
+**Association of Honor Soldiers' Vocational Guidance** Founded in Chungking in 1940 to assist and guide honor (disabled) soldiers in vocations. Membership : 158. Officers :—President, Ho Ying-chin; Vice-Presidents, Ku Cheng-kang, Hsu Shih-ying. Address :—46 Tseng Chia Yen, Chungking. — p. 517
+
+**Association of Life Education** Founded in Kweilin in 1938 for the purpose of developing self-consciousness among the masses, cultivating constructive ability, popularizing education, and raising the standard of living by means of the most logical, most efficient new theories and methods of education. The Wartime Education Monthly and books for popular and juvenile reading are published. Membership : 190. Officers :—Directors, Tao Hsin-chih (Chairman), Li Jen-jen, Lei Ping-nan, Huang Yen-pei, Shao Li-tze, Shen Chun-ju. Address :—Yu Sheng Ssu, Peipei, Szechwan. — p. 517
+
+**Association of Young Chinese Writers, The** Founded in 1940. Membership : 100. Officers :—Executive Directors, Ching Yun-ti, Chen Ho-kun, Pu Chin-nan. Address :—c/o Yang Yun-chin, Central Kuomintang Headquarters, Chungking. — p. 517
+
+**Astronomy Society of China** Founded on October 30, 1922. Activities include compiling books on astronomy, standardizing astronomical terminology, observing sun eclipse, and sponsoring lectures. Membership : 432. Officers :—Directors, Chang Yu-cheh, Shih Yen-han, Li Shu-hua, Yen Chi-sun. Address :—20 Hsiao Tung Chen Chiao, Kunming. — p. 517
+
+**Athletic Federation, China National Amateur** (see China National Amateur Athletic Federation). — p. 517
+
+**Automotive Engineering Society of China, The** Founded on December 12, 1943. Membership : 329. Officers :—Executive Directors, Chai Chih-ming, Wang Shih-chi, Wang Shu-fang, Ho Nai-min. Address :—c/o Chai Chih-ming, Preparatory Committee, Tank Manufacturing Factory, Ministry of War, Li Chia To, South Bank, Chungking. — p. 517
+
+**Banking Society, The** Founded on December 9, 1932. Officer :—Wang Chih-hua. Address :—General Office, Hsin Hua Bank, Chungking. — p. 517
+
+**Border Culture, China Association for the Promotion of** (see China Association for the Promotion of Border Culture). — p. 517
+
+**Border Problems, China Society of** (see China Society of Border Problems) — p. 517
+
+**Border Problems, Chinese Society for the Study of** (see Chinese Society for the Study of Border Problems). — p. 517
+
+**Border Reconstruction, Chinese Federation of** (see Chinese Federation of Border Reconstruction). — p. 518
+
+**Border Reconstruction, Chinese Society for the Promotion of** (see Chinese Society for the Promotion of Border Reconstruction). — p. 518
+
+**Border Research Society, The West China** (see West China Border Research Society). — p. 518
+
+**Boxing and Physical Culture, Central Institute of National** (see Central Institute of National Boxing and Physical Culture). — p. 518
+
+**Boxing Society, Chinese** (see Chinese Boxing Society). — p. 518
+
+**Boy Scout Education Society of China, The** Founded on June 20, 1943. Officers :—Director, Wu Chao-tang; Supervisor, Liu Yung-yao. Address :—c/o Wu Yen-ling, Central Training Corps, Chungking. — p. 518
+
+**British-Returned Students' Association** Founded in November, 1939. Major activities include monthly lectures and social gatherings. Membership : 216. Officers :—President, Wang Shih-chieh; Executive Directors, Pan I-chih, Han Li-wu. Address :—116 Chung San Rd., Chungking. — p. 518
+
+**Buddhist Society, Chinese** (see Chinese Buddhist Society). — p. 518
+
+**Catholic Cultural Association, Chinese** (see Chinese Catholic Cultural Association). — p. 518
+
+**Central Institute of National Boxing and Physical Culture** Organized with the aim of promoting national health through the medium of Chinese boxing and physical culture. Training classes are conducted from time to time. The Chinese Boxing and Physical Culture magazine is published. Membership : 312. Six branch associations. Officers :—President, Chang Chih-kiang; Vice-Presidents, Niu Yung-chien, Li Tsung-huang; Directors, Chu Cheng, Tai Chi-tao, Sun Fo, Yu Yu-jen, Chen Li-fu, Ho Ying-chin, Gunsun Hoh, Cheng Teng-ke, Wu Yung-jui. Address :—Peipei, Szechwan. — p. 518
+
+**Chemical and Dyeing Engineering Society of China** A research laboratory and a library are maintained by the society in collaboration with some factories. Membership : 260. Officers :—President, Chu Chu-ching; Vice-Presidents, Pang Tsing-tu, Yin Yueh-tan. Address : 14 Yung Chi Li, Yu Ya Ching Rd., Shanghai. — p. 518
+
+**Chemical Engineering Society of China, The** Membership : 321. Officers :—President, Chang Hung-yuan; Secretary, Ho Ho. Address :—c/o Chang Hung-yuan, University of Chungking, Shapingpa, Chungking. — p. 518
+
+**Chemical Industry, Golden Sea Research Institute of** (see Golden Sea Research Institute of Chemical Industry). — p. 518
+
+**Chemistry Society of China** Founded in August, 1932, in Nanking. The Journal of Chemistry Society of China, the Chemical News Leaflet, and the Chemistry Magazine have been published. Membership : 2,700 individual members and 56 group members. Thirteen branches. Officers :—Directors, Tseng Chao-lun (Chairman), Yuan Han-ching, Chow Hou-fu, Li Erh-kang; Secretary-General, Wu Cheng-lo. Address :—c/o Kao Chi-yu, Department of Chemistry, National Central University, Shapingpa, Chungking. — p. 518
+
+**Child Education Association, Chinese** (see Chinese Child Education Association). — p. 518
+
+**Child Health Society of China** Founded on July 6, 1943, to help develop the physique of the children so as to raise the standard of national health. Membership : 458. Officers :—President, Shao Li-tze; Executive Directors, Ku Cheng-kang, Wang Chi-tao, Ku Chih-chung, Yu Sung-chun. Address :—c/o Wang Chi-tao, 53 Lin Sen Rd., Chungking. — p. 518
+
+**Child Relief Association, The China Wartime** (see China Wartime Child Relief Association). — p. 518
+
+**Child Welfare Association of China, National** (see National Child Welfare Association of China). — p. 519
+
+**Children, National Association for Refugee** (see National Association for Refugee Children). — p. 519
+
+**China Academic Society, The** Founded in 1923. Membership: 33. Officer :—President, Ho Ping-sung. Address :—Third Floor, Industrial and Mining Bank of China, Lin Sen Rd., Chungking. — p. 519
+
+**China Amateur Radio League** Formerly the China Amateur Radio Operators' Wartime Service Corps organized in October, 1937. An annual meeting is held each year on May 5 (Amateur Radio Day), and by means of wireless communication annual radio conferences are held at different places on the same day. Present membership is 380. The CQ magazine is published monthly and Amateur Radio QSL periodically. Branches in Chungking, Chengtu, Lanchow, Ningsia, Kunming, Kweiyang, Kweilin, Hsifeng, Yuanling, Kukong. Officers :—President, Hsu En-tseng; Vice-President, K. T. Chu. Address :—Hungtsaofang, Shapingpa, Chungking. — p. 519
+
+**China Association for the Promotion of Border Culture** Founded in Chungking in 1939. Membership: 174. Officers :—President, Chen Li-fu; Executive Directors, Chang Yuan-fu, Ma Liang, Chung Lu-chien, Pien Tsung-meng, Yung Hsiang, Hsi-Jao-Chia-Tso. Address :—78 Chin Tang Street, Chungking. — p. 519
+
+**China Association for the Promotion of Wartime Production** Founded in Hankow in March, 1938, to study problems of economic reconstruction in China and to accept investments for increased wartime production. Among its activities are publication of bulletins and booklets, exhibitions, research in economic problems, investigations, and assistance to members in productive enterprises. Membership: 2,186 individual members and 125 group members. Eight branch associations. Officers :—President, Mao Ching-hsiang; Executive Directors, Shen Shih-ling, Hsu Hung-tao, Chang Shao-kai, Liu Hung-sheng; Directors, Yu Fei-peng, Chow Chih-jou, Chen Liang, Huang Yung, Wei I-fu, Pan Yi-chih. Address :—8 Lai Lung Hsiang, Chungking. — p. 519
+
+**China Association of Public Health Reconstruction** Founded in 1940, to do research in national health, to promote the production of medical supplies, and to aid the medical services to society. Membership: 176. Officers :—Executive Directors, Hsu Chu-lo, Liu Wen-tien, Ho Tsu-hua, Wang Mei-pai, Tsuo Yuan-chi. Address :—c/o Hsu Chu-lo, Ministry of Social Affairs, Chungking. — p. 519
+
+**China Association of Research in Farm Economy** Organized on March 10, 1940, to study farm economy and rural reconstruction. The Chinese Farmer Monthly is published. Membership: 811. Officers :—President, Liu Kuang-hua; Directors, Ho Kung-kan, Shih Wei-huan, Huang Hou-tan, Tao Yin, Chin Yung, Tung Shih-chin, Yang Yung-chu, Huang Meng-fei, Lei Cheng, Chow Hsien-wen, Li Wen, Chen Shou-sung, Chen Hsi-hsiang. Address :—35 Hsia Lo Chia Wan, Chungking. — p. 519
+
+**China Association of Rural Economy** Founded in 1933 to engage in research of rural economy and promote rural work. The Chinese Farm and Village Monthly and six books have been published. Officers :—Directors, Chen Han-sheng, Sung Hsiao-tsun, Chien Chia-chu, Wu Chueh-nung, Feng Ho-fah, Wang Ying-sheng. — p. 519
+
+**China Association of Social Service** Founded in December, 1941. Membership: 230. Officers :—President, Hsu Shih-ying; Vice-President, J. L. Huang; Directors, Wang Ke, William Hsu, Wen Kuang-i, Chang Ai-cheng. Address :—c/o Wang Ke, Social Service Center, Liang Lu Kou, Chungking. — p. 519
+
+**China Branch of the International Peace Campaign and Free World Association** First started in 1936 and then reorganized and expanded on January 23, 1938. After the organization of the Free World Association in Washington in the summer of 1941, this organization also became the China Branch of the F.W.A., hence the present name in English is shortened to I.P.C. & F.W.A. Promotion of the international peace movement and anti-aggression is the main object of the association while postwar world peace problems are also studied. Lectures, meetings, forums, exhibitions and other gatherings are frequently held. Total membership is 45,956,764, including 173 group members (45,938,028 persons in these units) and 18,763 individual members. The nine sub-branches in China are: Kukong, Kweilin, Kunming, Kweiyang, Lanchow, Sian, Enshih, Taiho, and Liaoning-Kirin-Heilungkiang-Jehol and Chungking. In addition, there are 13 district offices, ten of which are in Szechwan (Tienkiang, Fowling, Chunghsien, Choyang, Changshou, Kiangtsin, Fengtu, Pishan and Luchow), one in Kansu (Changyeh), one in Sikang (Sichang) and one in Hunan (Yungsui). Among its publications are four books of the Anti-Aggression Series, one book of the International Reconstruction Series (A New World Order and San Min Chu I by Liang Han-chao, in Chinese), booklets, and the periodicals the Anti-Aggression Weekly, the Anti-Aggression Fortnightly, the Anti-Aggression Forum, and the Free World Monthly. Officers :—President, T. V. Soong; Vice-President, Shao Li-tze; Director of Executive Department, Cheng Yen-fen; Acting Director of Executive Department, Yin Pao-yu. Address :—42 Tsao Tze Lan Ya, Chungking, or P.O. Box 123, Chungking. — p. 519
+
+**China Communications Federation** Address :—20 Fu Hsing Rd., Tangchiato, Chungking. — p. 520
+
+**China Dramatic Society, The** Founded on May 9, 1943. Membership : 63. Officers :—Directors, Wang Kuan-ying, Hsieh Tso-min, Ying Yun-wei, Feng Fei. Address :—249 Shensi Street, Chungking. — p. 520
+
+**China Foundation for the Promotion of Education and Culture, The** Organized in 1925, to receive deposit and apply the proceeds of the United States Boxer Indemnity, the Foundation maintains as its main enterprises science teaching professorships, the Committee of Editing and Translations, the Institute of Social Research, and kindred institutions. The National Library of Peiping (now in Kunming), the Fan Memorial Institute of Biology, and the Cooperative Research Fund of the National Peking University are its joint enterprises. The foundation also grants scientific research fellowships to Chinese scholars in China as well as in foreign countries and awards prizes to works of scientific research. Officers :—Chairman, Wong Wen-hao; Vice-Chairman, Paul Monroe; Honorary Secretary, Y. T. Tsur; Joint Treasurers, C. R. Bennett, Sao-Ke Alfred Sze; Assistant Treasurers, H. C. Zen, Arthur N. Young; Director, H. C. Zen; and Executive Secretary, H. H. Lin. Committees :—The Special Committee in America: Paul Monroe, Hu Shih, Sao-Ke Alfred Sze, C. R. Bennett, and R. S. Greene (concurrently Associate Director in U.S.A.); The Executive Committee: Wong Wen-hao, Sun Fo, J. E. Baker, Chiang Mon-lin and H. C. Zen; and The Finance Committee: R. S. Greene, Hu Shih and Paul Monroe. Address :—Special No. 3 Li Tze Pa Main Street, Chungking. — p. 520
+
+**China Insurance Society, The** Founded in 1943, to study insurance theories and techniques. Membership : 243. Officers :—President, Sung Han-chang; Executive Directors, Chen Chung-sheng, Wei Wen-han, Hsiang Hsin-wu, Wang Po-heng. Address :—134 Chou Yung Rd., Chungking. — p. 520
+
+**China National Amateur Athletic Federation** Founded on May 24, 1924, as a co-ordinating body of all amateur athletic organizations and groups throughout China. The federation takes charge of management of and participation in international athletic meetings and games. Since 1925, the federation has conducted one Far Eastern Olympics once (being the 8th Far Eastern Olympics held in Shanghai in 1927); and has taken charge of China's participation in the Far Eastern Olympics four times (7th to 10th inclusive), in the World Olympics Games twice (10th and 11th) and in the Davis Cup Tennis Tournament three times. Sports regulations of divers games have been formulated and published in Chinese since 1927. Other activities include the sponsoring of classes in physical education and the organizing of physical education missions to foreign countries. The Physical Education Quarterly has been published since 1935. Twenty-nine member units (provinces, municipalities and overseas) are represented in the federation ; but at present only 14 units maintain regular contact with the federation owing to the war. Branches still in contact with the federation are located in Chungking, Kunming, Lanchow, Kweiyang, Sian, Taiho, Liuchow, Paoki, Hanchung, Sichang, Tsunyi, Mienyang and Santai. (Branches in Hongkong, Malaya, Java, and Singapore have been temporarily suspended.) Officers :—Honorary Directors, Tai Chi-tao, Chen Li-fu, Ku Cheng-kang ; President, Chang Po-ling; Executive Directors, William Z. L. Sung, Wu Yun-jui, Gunsun Hoh, Tung Shou-i ; Directors, C. T. Wang, Gunsun Hoh, Wu Yun-jui, John Ma, William Z. L. Sung, Yuan Li-tun, Kao Tze, Chu Chia-hua, Wu Te-chen, Tung Shou-i, Wang Cho-jan, Chang Chi-wu, Sung Chun-fu, Shang Shu-mei ; Executive Supervisor, Shang Chen ; Secretary-General, Tung Shou-i. Address :—31 Ta Tien Wan, Chungking. — p. 520
+
+**China Psychological Reconstruction Society, The** Founded in 1941, to do research in Dr. Sun Yat-sen's theory of "Chih Nan Hsing I" or "To know is difficult; to act is easy" with a view to cultivating psychologically a state of mind loyal both to the nation and to the Party. Membership : 1,181. Officers :—President, Wang Han-sheng ; Executive Directors, Chiang Ching-i, Chu Ching-tao, Wang Shu-huei, Yen Kuo-fu. Address :—204 Shen Hsien Tung Chieh, Chungking. — p. 521
+
+**China Public Health Society, The** Founded in November, 1942. Membership : 62. Officer :—President, Hu Ting-an. Address :—c/o Hu Ting-an, Kiangsu Medical College, Peipei, Chungking. — p. 521
+
+**China Sinology Society** Founded in Shanghai on December 8, 1927, to promote studies in Chinese classics and to popularize Chinese literature. Present membership : 712 (not including branch societies). Publications, the Outline of Sinology Movement and Chung Hua Pien, a text-book for mass education. Officers :—Honorary Presidents, Yu Yu-jen, Chu Cheng, Wu Chih-hui, Chang Chi ; President, Ku Shih ; Executive Directors, Wang Teh-liang, Chiang Kung-jen, Niu Chang-yao, Liu Han-kun. Address :—10 Tu Chu Rd., Huang Chiao Chen, Peipei, Szechwan. — p. 521
+
+**China Society for the Promotion of Agriculture** Organized in January, 1941, by agricultural workers for the improvement of agriculture in China and encouragement of intensified work among agriculturists. The Li Nung (Encouraging Agriculture) Monthly and booklets are published. Membership : 750. Six branch societies in China and one abroad. Officers :—Director, Tai Sung-teh ; Vice-Director, Chiang Teh-chi ; Co-Directors, Chi Chao-sheng, Chiang Chieh, Waung Chu-yuan, Mei Chi-fang, Waung Kwan-chuen. Address :—c/o College of Agriculture, University of Nanking, Chengtu. — p. 521
+
+**China Society of Border Problems** Founded on June 1, 1941, to engage in research of China's border culture and political, educational, economic, socio-logical and other problems. Fifteen books, scheduled for publication in 1943, have been compiled and prepared under the auspices of the society. The Chinese Border Monthly is published in Chinese. Present membership is 514. There are two branches—in Chengtu and in Yulin (Shensi). Officers :—President, Chao Shou-yu ; Acting President, Ku Chi-kang ; Executive Director and Secretary-General, Huang Feng-shen. Address :—Nan Yuan, Hsuantanmiao, South Bank, Chungking. — p. 521
+
+**China Society of Foreign Affairs** Founded in Chungking on April 3, 1942. Membership : 86. Officers :—Directors, Li Wei-kuo, Li Tieh-cheng, Lin Tung-hai, Chen Yao-sheng, Tang Wu, Wu Shih-ying, Huang Cheng-ming ; Supervisors, Lone Liang, Shao Yu-lin, Chang Chung-fu, Wang Peng-sheng, Han Li-wu. Address :—c/o Chen Yao-sheng, Ministry of Foreign Affairs, Chungking. — p. 521
+
+**China Society of Municipal Engineers** Founded on September 21, 1943, to study municipal engineering and to promote the development of city public works. Activities include publication of booklets, sponsoring of supplementary courses in municipal reconstruction, participation in national capital establishment forums sponsored by the Central Planning Bureau and research in problems concerning municipalities. There are three branch associations in Kweilin, Kunming and Taiho (Kiangsi) and three more being organized in Kweiyang, Kwangtung and Hunan. Membership : 477. Officers :—Chairman, H. H. Ling; General-Secretary, Tan Ping-hsun. Address :—32 . Tseng Chia Yen, Chungking. — p. 522
+
+**China Society of Music** Founded on April 6, 1942. Officers :—Executive Directors, Yang Chung-tze, Wu Pao-chao, Tai Tsui-iun, Ying Sheng-neng ; Board of Supervisors, Chen Li-fu, Chang Tao-fan, Chen Li-kiang. Membership : 159. Address :—c/o Li Pao-chen, National Conservatory of Music, Chingmukwan, Szechwan. — p. 522
+
+**China Society of Natural Sciences** Founded in September, 1927, for the purpose of engaging in scientific studies and popularizing scientific knowledge in China. The society has conducted scientific expeditions to Sikang and the Northwest, published books, and served the public through its social service division. The Scientific World Monthly has been published bi-monthly since the war began. Besides the nine branches in China (Kunming, Chungking, Chengtu, Lichuan, Loshan, Kweiyang, Tsunyi, Taiho, and the Northwest) there are two other branches, one in the United States and one in England. Membership : 1,500. Officers :—Executive Directors, Hu Huan-yung, Hsieh Li-hui, Feng Cheh-fang, Shen Chi-i. Address :—c/o Hu Huan-yung, National Central University, Shapingpa, Chungking. — p. 522
+
+**China Society of Wartime Community Sanitation** Founded in October, 1939, to encourage and assist sanitary workers in the study of technical questions for the promotion of public health in wartime. Membership : 1,214. Officers :—President, Kuo Tsu-yuan ; Executive Directors, Chang Hsiang-lin, Kuo Shao-hsing. Address :—P.O. Box No. 1, Koloshan, Chungking. — p. 522
+
+**China Sociology Society, The** Organized in 1930, to study theories and problems of sociology and social administration. Membership : 116. Officers :—Directors, Wu Tseh-lin, Wu Ching-chao, Sung Peng-wen, Wu Wen-tsao, Pan Kwang-tan, Chen Ta, Ko Hsiang-feng, Hsu Shih-lien. Address :—c/o Wu Tseh-lin, National Southwest Associated University, Kunming. — p. 522
+
+**China Wartime Child Relief Association, The** Founded in Hankow in 1938 by a group of government and social leaders to administer child relief in wartime. The purpose of this charity organization is to aid and educate destitute refugee children during war so that they may be independent when grown up. Six war orphanages sheltering more than 3,000 children are being operated by the association. Officers :—Director, Hsu Shih-ying ; Deputy Directors, Ma Chao-chun and Ku Cheng-kang ; Secretary-General, Chou Chu-yuan ; Chairman of Finance Committee, Ho Heng-fu. Address :—7 Chiutaomen, Chungking. — p. 522
+
+**China Wood-Cut Society** Founded in Chungking on January 3, 1942. Membership : 320. Officers :—Executive Directors, Ting Cheng-yeu, Wang Chi, Shao Heng-chiu, Liu Tieh-hua. Address :—28 Kuan Chia Hsiang, Chungking. — p. 522
+
+**Chinese-American Institute of Cultural Relations** Founded on February 22, 1939, to promote cultural relations and friendly cooperation between China and the United States. Among the principal activities undertaken are : conducting regular cultural lectures ; arranging special broadcast programs for America ; translating selected articles from current American magazines for publication ; engaging in research projects bearing on Sino-American cultural relations; maintaining a city center children's playground; publishing the following books, The Confucian Principle of a Universal Community, Confucius: Teacher and Reformer of China, Chinese-American Cultural Relations After the War, The Axis-Attack on International Science, translation of Quarterly Bulletin of Chinese Bibliography, and Wartime China in Arts and Letters; extending courtesies to U. S. military personnel in China; providing a social center for the Chinese Expeditionary Army in the India-Burma theater; sponsoring exhibits on recent publications in Chungking; providing a library of Chinese and American books and magazines; conducting an evening language school for teaching Chinese and English and assisting Chinese students going abroad for advanced studies. Present Membership: 1,121. Branch institutes have been organized in Chengtu and Kunming. A service station has been established at the Training Center of the Chinese and American forces in the India-Burma theater. Officers :— Honorary Presidents: Madame Chiang Kai-shek, Colonel Henry L. Stimson; President, H. H. Kung; Vice-Presidents, Chen Li-fu, Dwight Edwards, Arthur Young, Hu Shih; Secretary-General, P. T. Chen; Deputy-Secretaries-General, Henry Lin, C. B. Rappe; Treasurer, Maurice Votaw; Business Manager, Edward Y. K. Kwong; Liaison Secretaries, Chu Djang (China), Paul C. Meng (U.S.A.); Chairmen of the various committees: Finance, Hsu Kuo-mo; Membership, Wu Wen-tien; Program, Peng Lo-shan; Publicity, H. C. Zen; Research, Solomon Adler; Social Service, Mrs. William Wang. — p. 522
+
+**Chinese Association for Social Economic Reconstruction, The** Founded on January 10, 1943. Membership: 108. Officer :—President, Chang Hung-lieh. Address :—28 Liang Lu Kou, Chungking. — p. 523
+
+**Chinese Association for the Encouragement of Inventions, The** Founded on November 1, 1943, to promote inventions. Membership: 63. Officers :—President, Wang Yun-wu; Executive Directors, Chen Li-fu, Ku Yu-hsiu, Wei Hsueh-jen, Yeh Hsiu-feng. Address :—c/o The Council for the Promotion of Science and Technology, Pahsien Middle School Compound, Chungking. — p. 523
+
+**Chinese Association for the Mute and Deaf** Founded in Shanghai in 1937, to promote welfare and education for the mute and deaf. The head office is in Shanghai; four branches in other parts of China. Officers :—Directors, Ho Yu-lin, (Chairman), Sung Tsu-hui (Executive Secretary). Address :—c/o Li Wen-ping, Ta Yeh Company, 17 Hua Lou Hsiang, Chungking. — p. 523
+
+**Chinese Association for the Promotion of Industrial and Mining Reconstruction, The** Founded on February 2, 1944. Membership: 572. Officers :—President, Chen Chi-tsai; Executive Directors, Lei Chen, Wang Yun-wu, Sun Yueh-chi, Hsu En-tseng; Secretary-General, Chu Yung-chung. Address :—c/o Wang Chen-hai, Second Floor, Industrial and Mining Building, Lin Sen Rd., Chungking. — p. 523
+
+**Chinese Association of Frontier Study** Founded in Chungking in August, 1941, for the study of problems in border political administration and culture and for the realization of border reconstruction. It publishes a monthly called The Frontier Critic Monthly. Membership: 1,200. Officers :—President, Wu Chung-hsin; Directors, Chow Kun-tien, Wu Wen-tsao, Tseng Hsiao-lu. Address :—New 79 Tsao Tze Lan Ya, Chungking. — p. 523
+
+**Chinese Association of Labor** Founded in Shanghai on April 12, 1935, for the purpose of studying labor theories and promoting culture and welfare among laborers. The association moved to Nanking in October, 1937, and later to Hankow and thence to Chungking in 1938. Among its various activities are: the development of trade unions; sponsoring of laborers' welfare centers in Chungking, Lanchow and Sian; a day nursery for laborers' children and a technical workers reception house in Chungking; the operating of schools for laborers' children and relatives; maintaining of close contact and coordination with international labor organizations; and holding of forums and lectures. Publications include The Chinese Labor Monthly and The Chinese Worker. A Yunnan branch association was founded in Kunming on May 4, 1944. Preparations are under way to establish branches in Chekiang, Kiangsi, Kweichow and Shensi. The association has 73 group members or 640,000 individual members. Officers :—President, Chu Hsueh-fan ; Executive Directors, Shui Hsiang-yung, Yi Li-yung, Cheng Chuang, Liu Chao-yang ; Secretary-General, Shui Hsiang yung. Address :—3 Chung Ta Street, Lin Sen Rd., or P.O. Box 313, Chungking. — p. 523
+
+**Chinese Association of Land Economics** Founded in Nanking in January, 1933, for research in land problems and promotion of land reforms. Among the achievements of the association are: the readjustment of land title records by aerial survey; promotion of the Land Law revision movement; promotion of land finance system; wartime reclamation and land administration system; and establishment of the China Land Economics Research Institute in December, 1940, in collaboration with the School of Land Administration of the Central Political Institute. In its first ten years the association collected 366 theses and investigation and practice-work reports, and published many works, including two volumes of the Chinese Association of Land Economics Series, three volumes of Chinese translations of the School of Land Administration Series, 20 volumes of the Land Economics Series, six volumes of the School of Land Administration Booklets, and 17 other booklets. The association commenced compilation of a Yearbook of Land Economics but the work was suspended due to the war. The Man and Land (formerly a fortnightly, now a monthly) is published regularly. Present membership: 881. There are five branch associations, one each in Chengtu, Chekiang, Fukien, Kwangtung and Suiyuan. Officers :—Honorary President, Chen Li-fu ; President, Hsiao Cheng ; Directors, Huang Tung, Wan Kuo-ting, Li Ching-ling, Liu Chou-ching, Kwan Chi-yu, Cheng Chen-yu, Kao Hsing, Chow Chih-tso, Chu Ping, Pao Teh-cheng. Address :—5 Wen Ching Rd., South Hot Springs, Chungking. — p. 524
+
+**Chinese Association of Research for the Supply of Pharmaceutical Products** Founded on April 1, 1941, in Chungking to promote self-sufficiency in pharmaceutical products. Research and investigations are its major activities. The Pharmaceutical Bulletin (in Chinese) is published semi-annually. Membership: 267. Officers :—Board of Directors, Lien Jui-chi (Chairman), Chen Pu, Pan Ching, Liu Shao-kwang, Chen Ssu-yi, Yu Ta-chun, Liang Chi-kwei, Lin Kung-chi, Hu Ting-an. Address :—4 Ta Yang Kung Chiao, Shapingpa, Chungking. — p. 524
+
+**Chinese Association of Social and Cultural Sciences** A purely academic association, organized to engage in research and promotion of social and cultural sciences. Founded on August 1, 1940, in Kunming, it has now more than 200 members, mostly university professors. The Journal of Social and Cultural Sciences (in Chinese) is published twice a year and books of the Social and Cultural Library are published at irregular intervals (10 volumes already published). Branch offices in Chungking, Kunming, Loshan, Kweiyang, Tsunyi, Nanchi, Santai, and one each in the Northwest and Honan. Officers :—Chairman, Wu Chi-yuan; Secretary, Wu Wen-hui; Treasurer, Wang Kan-yu; Board of Executives: Wu Chi-yuan, Wu Wen-hui, Wang Kan-yu, Wang Chung-hsin, Wu Pao-san, Li Shou-hua, Fei Chien-chao, Chen Hsueh-ping, Chen Chuan, Yang Hsi-meng, Wu Pan-nung. Address :—c/o Wu Chi-yuan, National Southwest Associated University, Kunming. — p. 524
+
+**Chinese Association of Social Education** Founded in Wusih (Kiangsu) in September, 1932. Membership: 1,425. Officers :—Chen Li-kiang, Yu Ching-tang. Address :—c/o National College of Social Education, Pishan, Szechwan. — p. 524
+
+**Chinese Boxing Society** Founded in Chungking in December, 1941. Membership: 581. Officers :—President, Ho Yun-chiao; Vice-Presidents, Hung Lan-yu, Peng Hsueh-pei, Li Tsung-huang, Chang Chiang, Chen Pan-ling. Address :—c/o Wu Meng-hsia, Department of Ordnance, Chungking. — p. 524
+
+**Chinese Buddhist Society** Founded in Nanking in 1928, with Abbot Tai Hsu as the chief promoter to study and popularize Buddhist philosophy and culture. Major activities include participating in various cultural movements; sponsoring social welfare enterprises; protecting ecclesiastic estates; and publishing Buddhist scriptures. The society has organized two wartime service corps in addition to 12 branches. The branches are located at Chengtu, Jungchang (in Szechwan, with a sub-branch at Wu Chia Chen), Taishun (Chekiang), Feng-chieh (Szechwan), Neikiang (Szechwan), Lungyen (Fukien), Changyeh (Kansu), Nanchwan (Szechwan), Tsungking (Szechwan), Fowling (Szechwan), Amoy and Shanghai. The Hai Chao In (Tidal Sound), first published in 1920, is still published monthly. Membership: 2,000. Officers :—President, Abbot Tai Hsu; Executive Directors, Li Tze-kuan, Lu Chu, Hsien Chien, Cheng Ming-shu. Address :—Lohan Monastery, Min Tsu Rd., Chungking. — p. 524
+
+**Chinese Catholic Cultural Association** Founded in 1941, for the promotion of Catholic culture in China. Major activities include introducing European and American Catholic culture by means of writings, translations and fine arts; collecting and editing Chinese Catholic documents; promoting religious culture in collaboration with other Catholic cultural organizations; and assisting the government in refugee relief work. Present membership: 1,160. Branch associations in Sian, Kangting, Sichang (Sikang), Kunming, Changteh, Kukong, Nanchung (Szechwan), and Tushan (Kweichow). The Christian Life is published fortnightly and the Religion and Culture weekly, both in Chinese. Officers :—President, Paul Yu-pin (Bishop); Executive Directors, John I-wei Niu (Rev. Father), Mathias S. C. Kang (Rev. Father), Mathew M. S. Yang (Rev. Father), Chang Chih-yu; Directors, Fang Hao, Chen Kung-liang, Hsieh Chi-jen, Yang Chung-yuan; Secretary-General, Kwo Hung-chun; Secretaries, Li Yung-tai, Alexius Hu Yuan (Miss). Address :—138 Chung Hua Rd., Chungking. — p. 525
+
+**Chinese Child Education Association** Founded in Nanking in 1930. Activities include editing booklets on education; promoting child education movement; assisting in education for orphans and administering relief to unemployed teachers. Membership: 4,000 individual members, 34 group members. There are 28 branch associations. Officers :—Directors, Ma Ke-tan, Chen Ho-chin, Tung Jen-chien, Li Ching-shu, Hu Shu-yi, Wu Yen-yin, Ku Shu-sung, Shen Tze-shan, Hsueh Tien-han, Chen Chien-heng, Chang Ta-shan, Wu Ting. Address :—c/o Chungking Normal School, Peipei, Szechwan. — p. 525
+
+**Chinese Cooperative Association** Founded in December, 1928. The Cooperative Monthly and the China Cooperatives Bulletin are published. Membership: 620 individual members, two group members. Officers :—Executive Committee: Chen Kuo-fu, Wang Shih-yin, Chen Chung-ming, Miachen Shaw, Hou Hou-pei, Tang Chi-yu, Chen Li-fu, Wang Chih-hsien, Chang Yuan-shan. Address :—c/o Central Political Institute, South Hot Springs, Chungking. — p. 525
+
+**Chinese Cultural Service Association, The** Founded on February 2, 1944, Membership: 99. Officers :—Directors, Liang Han-Chao, Wang Chung-hui, Hu Hsi-yuan, Kang Hsin-ju. Address :—c/o Yawei Shorthand School, Yu Tung Chi, Chungking. — p. 525
+
+**Chinese Dramatic Association, The** Founded in 1937. Membership: 64. Officers :—President, Ying Yun-wei; Directors, Chen Pai-chen, Sin Han-wen, Chen Li-ting, Meng Chun-mu. Address :—Sub. No. 5, 87 Sin Sen Rd., Chungking. — p. 525
+
+**Chinese Economic Society, The** Founded in Peiping in 1923, for exchange of economic knowledge, study of Chinese economic problems and introduction to China of new notions of foreign economists. Publications of the association (books, pamphlets and a quarterly), including works of the members, number more than 1,000. Membership: 1,000 individual members and 10 group members. Six branch associations. Officers :—President, Ma Yin-chu; Directors, Ma Yin-chu, Wei Ting-sheng, Wang An-hsin, Pan Hsu-lun, D. K. Lieu, Franklin Ho; Acting Directors, Chen Chi-tsai, Chin Kuo-pao, Peng Hsueh-pei. Address :—87 Tsao Tze Lan Ya, Chungking. — p. 525
+
+**Chinese Electrical Engineers' Association, The** Founded in November, 1935. Membership : 750. Officers :—President, Ku Yu-hsiu ; Vice-President, Fan Chih-huan ; Secretary, Wu Tao-i. Address :—c/o Ku Yu-hsiu, Ministry of Education, Chungking. — p. 526
+
+**Chinese Experimental Opera Society, The** Founded on November 11, 1941. Membership : 89. Officers :—President, Chou Kuei-teh ; Executive Directors, Wang Pei-lun, Chen Ting. Address :—c/o Li Chen-kuang, 88 New Village, Kuan Ying Chiao, Kiangpei, Chungking. — p. 526
+
+**Chinese Federation of Border Reconstruction** Founded in 1940, to promote border productive reconstruction as well as culture and fellowship among the border peoples. Membership : 173. Officers :—President, Yu Yu-jen ; Vice-Presidents, Wang Lu-jen, Mao Ching-hsiang. Address :—3rd Floor, 17 Chung I Rd., Chungking. — p. 526
+
+**Chinese Industrial and Commercial Federation** Founded in 1939, for the purpose of developing Chinese industries and commerce through mutual-aid and co-operation. Activities include investigations, planning and publication. Membership : 177 individual members and 25 group members. Officers :—Directors, Wen Shao-ho, Wu Cheng-lo, Lo Mei-huan, Kang Hsin-ju, Chow Mao-chih, Hu Tze-an, Wang Yen-sung, Chang Mao-ching, Chiang Chih-cheng, Lin Chi-yung, Ma Wei-san. Address :—Chiutaomen, Chungking. — p. 526
+
+**Chinese Institute for the Study on Racial Minorities** Founded in July, 1939, to engage in research and popularization of the cultures of border peoples. At present emphasis is laid on the study of the Chinese race, including border peoples from the ethnological point of view. Membership : 90. Officers :—Chairman of Board of Directors, Chang Si-man; Directors, Yang Cheng-chih, Chang Jen-hsia, Ma Ho-tien, Huang Wen-shan, Chen Chi-yun ; Research Fellow, Hu Nai-an. Address :—P.O. Box 255, Chungking. — p. 526
+
+**Chinese Institute of Engineers** Founded in Hankow in August, 1913, and merged with the Society of Chinese Engineers in August, 1931. The purpose of the society is to develop engineering works and to study engineering problems by the joint efforts of engineers of different branches. Research committees are maintained. Ten annual conferences have been held, the 10th in Lanchow in 1942. There are 36 branches. Membership : 8,292 individual members and 60 group members. The Engineering Bi-monthly and the Bulletin of the Chinese Engineering Society are published. Officers :—President, Tseng Yang-fu ; Vice-Presidents, Hou Chia-yuan, Li Hsi-mou ; Secretary-General, Ku Yu-chuan ; Chief Editor, Wu Cheng-lo ; Chief Treasurer, Chu Chi-ching. Address :—194/4 Shang Nan Chu Ma Lu, Chungking. — p. 526
+
+**Chinese Institute of Public Finance** Organized in Chungking on November 28, 1941, for the study of public finance and financial problems and for assisting financial reconstruction work of the government. By July, 1944, the institution had a membership of 2,800. There are eighteen provincial branches. Publications include the Monopoly Policy and Rudiments of Its Regulations, Chinese Local Finance, and the periodical Finance Journal. In collaboration with the Li Hsin Accounting School, the institution conducts supplementary courses in accounting. Other activities include radio broadcasts, lectures and forums. Officers :—General Director, H. H. Kung ; Secretary-General, Miao Chiu-chieh ; Secretary-in-Charge, Chu Pai-yin ; Editor-in-Chief, Liu Cheng-tung ; Chief Research Member, Wei Ting-sheng ; Chief Organization Member, Yang Mien-chung. Address :—1 Chun Sen Rd., Shangchingssu, Chungking. — p. 526
+
+**Chinese Islamic Federation** Changed to the present name in 1943 from "Chinese Islamic National Salvation Federation," which was organized in Chengchow, Honan, in September, 1938. Major activities include organizing the Moslems of the country to rally to the support of the national policy ; advancing education among the Moslems ; fostering Moslem productive enterprises; and promoting Islamic culture in cooperation with other Moslem countries. The federation has 20 branches: 19 at home, one abroad. Its membership comprises virtually all people of the Islamic faith. Officers :—President, Pai Chung-hsi; Executive Directors, Tang Ko-san, Shih Tze-chow, Sun sheng-wu, Ma Liang; Secretary-General, Chang Chien-pai; Deputy Secretary-General, Chang Yu-liang. Address :—132 Chung Hsing Rd., Chungking. — p. 526
+
+**Chinese League of Nations Union, The** An association for the promotion of people's foreign relations and international peace and justice, organized in April, 1920. Branches are established in all big cities and universities in China. Total membership: 841. The World Politics Fortnightly is published in Chinese. The China Forum (in English) is temporarily suspended. Officers :—President, Chu Chia-hua; Vice-President, ~ Wang Shih-chieh; Directors, Chang Chung-fu, Chou Keng-sen, Li Wei-kuo, Kuo Ping-chia, Yang Kung-ta, Han Li-wu, Chief Secretary, Liu Ying-shih. Address :—187 Chung San Rd., Chungking. — p. 527
+
+**Chinese Li Chiao Association, The** An age-old organization pledging abstention from wine and smoking, the association with 1,079 branches is engaged in philanthropic activities. Membership: 35,300. Officers :—President, Wang Yu-tsai; Executive Directors, Lo Fang-ting, Chou Tien-chen, Lo Yun-lung, Hsu Wei-ju. Address :—Yu Ling Tung, Shih Chiao Pu, Pahsien, Szechwan. — p. 527
+
+**Chinese Life Insurance Association** Founded in Chungking in November, 1941, to popularize life insurance theories and assist in life assurance work. Membership : 154. Officer :—President, Lo Pei-cheng. Address :—c/o Life Insurance Department, Central Trust of China, Chungking. — p. 527
+
+**Chinese Medical Association, The** The present Chinese Medical Association came into existence in 1932 with the amalgamation of the two leading medical bodies in China, namely, the China Medical (Missionary) Association and the National Medical Association of China. The former had been founded 43 years previously, while the latter has had a history of 17 years. Purposes: (1) to federate and bring into one compact organization duly qualified and scientifically trained physicians; (2) to propagate medical knowledge and advance medical science; (3) to uphold the standards of medical education; (4) to maintain high ethical standards of the medical profession, to safeguard its various interests and to promote friendly relations among its members; and (5) to co-operate with other medical societies or agencies in the attainment of the foregoing objects. Biennial conferences and scientific meetings (organized in sections such as medicine, surgery, public health, pathology, etc.) are held regularly. The following scientific societies are component sections of the association, each confederating in their membership qualified specialists in the respective fields: Chinese Dermatology Society, Chinese Hospital Society, Chinese Society of Internal Medicine, Chinese Medical History Society, Chinese Society of Obstetrics and Gynecology, Chinese Pediatrics Society, Chinese Public Health Society, Chinese Ophthalmology Society, Chinese Otolaryngology Society, Chinese Radiology Society, Chinese Surgical Society, and Chinese Tuberculosis Society. Auxiliary to the associations are also suspended. At present a bi-monthly Medical Digest is published in both Chinese and English editions.) Officers :—Supervisory Committee—Chairman, F. C. Yen; J. Heng Liu, Wu Lien-teh, E. S. Tyau, Lin Tsung-yang, Hu Hui-teh, H. H. Morris; Board of Directors—Chairman, Fu Wen-shou; W. H. Pott, Sung Wu-sheng, Liu Chien-chiu, Fang Chia-cheng, Li Ting-an; Board of Executives—Chairman, Chu Heng-pi; General-Secretary, Szeming Sze; Chinese Editor, Li Tao; English Editor, Hsu Yu-chieh; Nyi Pao-chun; Lo Wen-chao, B. E. Read, T. K. Wang, L. G. Kilborn, Li Sung-en, Miao An-chen. General Office :—President, P. Z. King; Vice-Presidents, Wang Chi-ming, J. L. Maxwell; General-Secretary, Szeming Sze (T. Y. Tai, acting); Chinese Editors, Li Tao, Chu Chang-keng; English Editors, Hsu Yu-chieh, E. B. Struthers. Address :—Koloshan, Chungking. — p. 527
+
+**Chinese National Association of Fine Arts** Founded with the purpose of pooling the strength of the artists of the nation in the study of arts and the advancement of arts education. Work of the Association includes the sponsoring of a monthly gathering of cultural workers and the collection of art objects for shipment abroad for exhibition. Membership : 368. Officers :—President, Chang Tao-fan ; Executive Directors, Ju Peon, Chen Chih-fou, Lin Feng-mien, Lu Ssu-pai. Address :—I-Lin Hospital, Kuan Yin Yen, Chungking. — p. 528
+
+**Chinese National Association of the Mass Education Movement** Founded in Peiping in August, 1923, to study and experiment on mass education. Emphasis was first laid on the urban districts but later shifted to the rural sections with the establishment by the association of an experiment center at Tinghsien, Hopei, in November, 1926, with subsidies from the Rockefeller Foundation. The experiment was conducted on four vital phases of education, namely, arts, civics, livelihood and sanitation, through the coordination of school, society and home, with special emphasis on rural reconstruction and hsien or county reform. The association moved to Szechwan in 1938 to continue its research and experimentation work and founded a National College of Rural Reconstruction at Pahsien, near Chungking, for the training of rural workers. Other activities include assistance to Government organizations and social and cultural bodies in rural reconstruction, hsien reform, and advancement as well as planning of social and mass education programs. Membership : 273. Officers :—President, Y. C. James Yen ; Directors, Chu Chiu-nung, Sun Fu-yuan, Chen Cho-san, Sun En-san, Wang Teh-liang, Hsieh Fu-chih. Address :—Hsieh Ma Chang, Pahsien, Szechwan. — p. 528
+
+**Chinese National Press Association** Founded in 1941 in Chungking for the improvement of Chinese journalistic enterprises and study of journalism. Lectures are frequently sponsored both for members and for the general public. Present membership : 270. The Chinese National Press Association Annual is published in Chinese. Officers :—President, Hsiao Tung-tze ; Executive Directors, Hsiao Tung-tze Tsao Ku-ping, Chen Min-teh, Huang Shao-ku, Hu Chien-chung ; Secretary, Tsao Yin-chih ; Research Division, Pan Kung-pi ; Investigation Division, Chow Chin-yueh ; Publication Division, Ma Hsing-yeh ; Service Division, Thomas M. H. Chao. Address :—c/o Central News Agency, No. 1 Chung San Rd., Chungking. — p. 528
+
+**Chinese National Women's Association for War Relief, The** Organized in Nanking on August 1, 1937, three weeks after the outbreak of the war with Japan, to mobilize women at home and abroad for participation in wartime services and collection of funds for war relief. Major activities are : troop-comforting service to wounded soldiers, making clothes and comfort bags for soldiers, establishment of factories for relief of families and dependants of soldiers, founding of the honor soldiers self-governing experimental district for rehabilitation of disabled warriors, organization of mutual-aid societies of servicemen's dependants, medical units and other service corps. Relief work is also administered to war refugees and war orphans. Branch offices in Honan, Kwangtung, Hunan, Fukien, Shensi, Yunnan, Kwangsi, Chungking, Chengtu, Kweiyang, Peipei and Paisha. Officers :—President, Mayling Soong Chiang (Madame Chiang Kai-shek) ; Secretary-General, Huang Tsui-fung (Miss). Address :—Chiu Ching Middle School, Chungking. — p. 528
+
+**Chinese Political Reconstruction Society, The** Founded in 1939 to engage in studies of political theories and practices with a view to introducing political reforms in China. The Political Reconstruction Monthly is published by this society. Membership : 2,700. Officers :—President, Kao Hsiang-tai ; Executive Directors, Lu Pei-chang, Liu Yung-kai, Wang Cho-jan; Secretary-General, Tien Yu-shih. Address :—12 Sze Teh Li, Chung I Rd., Chungking. — p. 529
+
+**Chinese Political Science Association** Organized in Nanking on September 1, 1932, for the purpose of promoting political thought in China. Major activities include research in postwar world peace plans, planning of political reconstruction of the country, and research on draft Constitution and local self-government. Membership : 142. Officers :—Executive Directors, Wang Shih-chieh (Chairman), Chow Keng-sheng, Chien Tuan-sheng, Pu Hsueh-feng, Chang Chung-fu ; Secretary-General, Han Li-wu. Address :—197 Chung San Rd., Chungking. — p. 529
+
+**Chinese Printing Society, The** Founded on August 27, 1942. Membership : 189. Officer :—President, Mi Wen-yung. Address :—c/o Mi Wen-yung, 8 Tsao Tze Lan Ya, Chungking. — p. 529
+
+**Chinese Research Society of Oceanic Navigation** Founded on October 9, 1943. Membership : 162. Officers :—Executive Directors, Hsu En-tseng, Hsu Pan-yun, Hsiao Cheng, Hsiao Chi-shan Address :—Heng Lu, Shangchingssu, Chungking. — p. 529
+
+**Chinese Research Society of Social Economy** Founded on February 2, 1943, to study and popularize principles of social economy and to aid in the social economic reconstruction of the country. Membership : 114 Officers :—President, Mao Ching-hsiang ; Executive Directors, Wang Yen-tsin, Shen Kuang-shih, Chou Kuang-chi, Yang Ju-kan. Address :—Ta Tsing Hsiang, Ling Kiang Rd. Chungking. — p. 529
+
+**Chinese Salt Administration Society, The** Founded in 1937 to do research in problems related to salt administration and to introduce reforms therein. Membership : 41. Officers :—President, Chung Li-chien ; Directors, Wu To, Yang Lung-ku, Cheng Li-wen, Chu Teh-ling. Address :—c/o P.O. Box 10, Loshan, Szechwan. — p. 529
+
+**Chinese Sanitary Engineering Society** Founded on August 1, 1942, to study and promote sanitary engineering in China. Membership : 92, all being sanitation engineers or university professors. Officer :—Kuo Tsu-yuan. Address :—c/o Kuo Tsu-yuan, National Health Administration, Hsinchiao, Chungking. — p. 529
+
+**Chinese Social Problems, Research Society** Founded in 1938. The Chinese Society Quarterly is published. Membership : 400. Two branches. Officers :—Directors, Lo Tun-wei, Li Li-hsia, Chang Chia-liang, Ho Chih-chao, Chang Tsung-ming, Chang Kuo-kan, Tan Ti-wu, Sung Tung-feng Address :—c/o Lo Tun-wei, Executive Yuan, Chungking. — p. 529
+
+**Chinese Society for the Promotion of Border Reconstruction** Founded in 1940. Membership : 608. Officers :—Executive Directors, Chen I-chih, Leng Yung, Mao Ching-hsiang, Hsu Pei-keng. Address :—196 Min Sen Rd., Chungking. — p. 529
+
+**Chinese Society for the Study of Border Problems** Activities include sponsoring lecture forums on border problems and participation in expeditions to the border regions. Membership : 302. Officers :—President, Chu Yuan-mao ; Directors, Chang Pin-chen, Yang Chao-chun, Tsao Pei-yen, Yin Tsu-ying. Address :—282 Kuo Fu Rd., Chungking. — p. 529
+
+**Chinese Society of History** Founded on March 24, 1943, for the study of history. Membership : 288. Officers :—Executive Directors, Li Tung-fang, Ku Chieh-kang, Fu Sze-nien. Address :—c/o Li Tung-fang, Ministry of Education, Chingmukwan, Chungking. — p. 529
+
+**Chinese Society of Soil Mechanics** Founded on July 12, 1943, to promote soil engineering in China. Membership: 115. Officers:—President, Thomson Eason Mao; Executive Directors, Cheng Shao-ching, Chao Tsu-kang, Su Kai, Li Chung-teh. Address:—12 Chu Hsing Tsun, Shangchingssu, Chungking. — p. 530
+
+**Chinese Stage Transportation Society, The** Founded on March 25, 1943, to study the theories and practices of the age-old stage transportation system. Officers:—Directors, Hsueh Kuang-chien, Li Chung-pu, Tan Ping-hsun. Address:—32 Tseng Chia Yen, Chungking. — p. 530
+
+**Chinese Textile Institute, The** Founded in Shanghai on April 20, 1930, as an association of technicians in the textile industry to study the techniques of weaving and spinning. Books and periodicals on the textile industry are published. There are branch associations in Lanchow and Kweilin; a Sian branch is being organized. Membership: 1,000. Officers:—President, Chu Hsien-fang; Director, S. G. Lou; Secretary, T. S. Chiang. Address:—26 Kiang Chia Hsiang, Chungking. — p. 530
+
+**Chinese Transportation Society, The** Founded on August 15, 1943, to do research in the science of transportation and to help develop transportation facilities in China. Membership: 245. Officers:—Executive Directors, Chin Shih-hsuan, Hsieh Wen-lung, Wang Ping-nan. Address:—c/o Chin Shih-hsuan, Ministry of Communications, Chungking. — p. 530
+
+**Chinese Women's Christian Temperance Union** Founded in February, 1932, to cultivate thrift, to eliminate improper habits, and to render social service. Officers:—President, Mrs. Feng Yu-hsiang; Vice-President, Mrs. Hollington K. Tong; Chinese Secretary, Mrs. Liu Chi-wen; English Secretary, Mrs. William Wu; Treasurer, Mrs. Tao Kwei-lin; Office Director, Mrs. Herman C. Liu. Address:—17 Chialing Village, Chungking. — p. 530
+
+**Chinese Women's Mutual Aid Association** Address:—1 Tsang Pa Tze, Chungking. — p. 530
+
+**Chinese Women's Society for Study of Constitutionalism** Founded in February, 1944. Membership: 471. Officers:—Executive Directors, Chen I-yun, Lu Yun-chang, Tang Kuo-chen, Hsiung Chi. Address:—29 Lo Chia Wan, Chungking. — p. 530
+
+**Chinese Women's Vocational Association** Founded in Kunming in 1939. Membership: 50. Officers:—Executive Directors, Wu Chih-mei, Shen Hui-lien, Hsu Shu-chen, Chao Shu-chia. Address:—c/o China Girls' Vocational School, Hai Tang Chi, Chungking. — p. 530
+
+**Christian Service Council for Wounded Soldiers, National** (see National Christian Service Council for Wounded Soldiers). — p. 530
+
+**Christians, Federation of Chinese** (see Federation of Chinese Christians). — p. 530
+
+**Chung Hua Association of Accounting, Budgeting and Statistics** Founded in 1940. Membership: 278. Officers:—Directors, Yu Cheng-yuan, Shih Ling-han, Chu Wei-nien, Chang Chang-ching. Address:—c/o Yu Cheng-yuan, San Min Chu I Youth Corps, Liang Fu Chih Lu, Chungking. — p. 530
+
+**Chung Hua Police Research Society, The** Founded on April 16, 1940, to study matters relating to police theory and practice. Twelve branches have been established in Chungking, Chengtu, Sian, Lanchow, Lushan (Honan), Kweiyang, Kweilin, Kukong, Leiyang (Hunan), Enshih (Hupeh), Kian (Kiangsi) and Lihuang (Anhwei). Membership: 2,611. The Police Voice Monthly is published in Chinese. Officers:—Honorary Director-General, Generalissimo Chiang Kai-shek; Honorary Directors, General Ho Ying-chin, Chow Chung-yueh; Chief Adviser, Tai Chi-tao; Members of Executive Committee, General Hsueh Yueh, General Chen Yi; Advisers, Chen Ta-chi, T. F. Tsiang, Li Pei-chi, K. C. Wu, General Li Han-hun, General Ma Pu-fang, General Huang Hsu-chu, General Wang Tung-yuan; President, General Chen Cheng; Vice-President, Li Shih-chen. Address :—9 Fuhsing Street, Tantzeshih, South Bank, Chungking. — p. 530
+
+**Chung Shan Society** Organized to promote fellowship and to propagate the revolutionary spirit for the realization of the San Min Chu I. There are 13 branch societies in China and two abroad. Membership : 382, The Chung Shan Monthly is published. Officers :—Executive Directors, Liang Han-chao, Hsiao Tung-tze, Sung Hsu-chiao, Hsu En-tseng. Address :—Eastern Szechwan Normal School Compound, Chungking. — p. 531
+
+**Chung Yuan Reclamation Association** Founded in Chungking in December, 1941, for development of reclamation enterprises. Officers :—President, Chen Tsun-feng ; Vice-President, Chung Ching-tang. Address :—No. 12 Lien Huan Street, Taomenkou, Chungking. — p. 531
+
+**Chungking International Women's Club** Founded in 1938 with a three-fold purpose—to encourage better fellowship among the women of Chungking, to cooperate in community or national service, and to increase intellectual interests. Among its major activities are lectures, group discussions, social meetings, weekly sales of home cooked foods, annual charity bazaars and jumble sales, besides grouping the members for practical work into such sections as handicraft, cooking, dramatic, first-aid and nursing, music, languages, international relations, etc. Membership : 116. The Club Handbook is published annually and the C. I. W. C. News-Sheet (in English) monthly. Officers :—Honorary President, Madame Chiang Kai-shek; President, Lady Violet Seymour; Vice-President, Mrs. Peter Kiang ; Secretary, Mrs. Jeoffrey Smith; Treasurer, Mrs. Francis Pan; Chairman of the Membership Committee, Mrs. Kanta Yang; Chairman of the Social Service Section, Miss Moy Hing; News-Sheet Editor, Miss Gladys Cheng; Social Convener, Majorie Gao. Address :—c/o Miss Gladys Cheng, American Information Service, Liang Fu Chih Lu, Chungking. — p. 531
+
+**Church of Christ (in China), General Assembly** (see General Assembly, Church of Christ in China). — p. 531
+
+**Cinematographic Society, National Educational** (see National Educational Cinematographic Society). — p. 531
+
+**Civil Engineering Society of China** Founded in Hangchow on May 23, 1936, for studies in civil engineering and development of civil engineering re-construction. Research sections have been organized to study various civil engineering problems. Present membership : 522. In December, 1942, 17 branch societies were organized, their distribution being one each for the cities of Chungking, Chengtu, Lanchow, Chengtu, Kunming, Kweiyang, Kweilin, Sian, Loshan, Tienshui, Yishan, Taiho, Pingyueh, Hengyang, Kikiang, Changting and Liuchow. Officers :—President, F. K. Sah ; Vice-Presidents, Y. S. Mao, T. K. Chao ; Secretary-General, Y. Lo ; Chief Treasurer, Y. S. Pei ; Editor-in-Chief, S. T. Li ; Directors, C. Y. Tu, T. L. Chang, C. Y. Hou, Lin Hung-hsun, Y. M. Wu, F. C. Chow, Y. Shen, C. L. Nieh, S. H. Chow, T. C. Yen, Y. Lo, Y. S. Pei, S. T. Li. Address :—c/o Kweilin-Sansui Highway Engineering Office, Kweilin. — p. 531
+
+**Communications Federation, China** (see China Communications Federation). — p. 531
+
+**Confucianism, Society for Studies in** (see Society for Studies in Confucianism). — p. 531
+
+**Constitutionalism, Chinese Women's Society for the Study of** (see Chinese Women's Society for the Study of Constitutionalism). — p. 531
+
+**Cooperative Association, Chinese** (see Chinese Cooperative Association). — p. 531
+
+**Cooperative Culture Association of China** The purpose of the association is to popularize and develop cooperative culture. Membership : 789. Officer :—President, Wen Chuen. Address :—c/o Wen Chuen, Provincial Kuomintang Headquarters, Taiho, Kiangsi. — p. 531
+
+**Cooperative League of China, The** Founded in Chungking on February 22, 1940. Activities include aid in the execution of the three-year plan of cooperative development, training of cooperative workers through the Central Cooperative Training Institute (approximately 2,000 graduated up to May, 1944), promotion of education among the members, and publication of two monthlies, The Cooperative Man in Chinese and The Chinese Cooperator in English. By the end of April, 1944, there were in China 172,427 cooperative societies with a total membership of 14,878,741 individuals and a total share-capital of $450,433,105 in National Currency. Membership of the League: 6,946 individual members, 1,429 group members. There are 17 branches: Szechwan, Sikang, Yunnan, Kweichow, Fukien, Kwangtung, Chekiang, Anhwei, Kiangsi, Hupeh, Honan, Shensi, Suiyuan, Kansu, Chinghai, Hunan and Chungking. Officers:—President, Shou Mien-cheng; Directors, Hu Shih-chi, Chen Shao-chiao, Chen Hou-po, Yu Chih-tung, Chen Hsien-yu, Lin Yung, Feng Ping-cha, Chu ping-yin, Chi Kuo-lin. Address:—12 Yangtsepa, Chungking. — p. 531
+
+**Council on Foreign Affairs** Founded in Hankow in September, 1938, to study Chinese wartime foreign affairs problems, and international trend, as well as problems relating to international law and diplomatic history. Activities of the institute include publication, lectures and forums. The Foreign Affairs magazine is published in Chinese bi-monthly. Membership: 90 (mostly university professors and research workers). Officers:—Directors, Chang Tao-hsing, Chien Chin-lien, Huang Cheng-min, Chang Chung-fu. Address:—c/o Pei Tou Bookstore, 170 Chung Erh Rd., Chungking. — p. 532
+
+**Cultural and Economic Relations, Sino-Latin-American Institute of** (see Sino-Latin-American Institute of Cultural and Economic Relations). — p. 532
+
+**Cultural Relations, Chinese-American Institute of** (see Chinese-American Institute of Cultural Relations). — p. 532
+
+**Dramatic Association, The Chinese** (see Chinese Dramatic Association). — p. 532
+
+**Dramatic Society, The China** (see China Dramatic Society). — p. 532
+
+**Dramatic Society of China, The Artistic** (see Artistic Dramatic Society of China). — p. 532
+
+**Dramatic Workers, National Anti-Japanese Association of Chinese** (see National Anti-Japanese Association of Chinese Dramatic Workers). — p. 532
+
+**Economic Reconstruction, China Association for Social** (see China Association for Social Economic Reconstruction). — p. 532
+
+**Economic Reconstruction, Chinese Association for Social** (see Chinese Association for Social Economic Reconstruction). — p. 532
+
+**Economic Reconstruction, Institute of Chinese** (see Institute of Chinese Economic Reconstruction). — p. 532
+
+**Economic Research Society of China** Founded in Nanking in 1932 to engage in research of wartime and postwar economic reconstruction problems. Membership: 78. Officers:—Directors, Teng Fei-huang, Chen Shou-sung, Hsiao Chung-chen. Address:—3 Ching Nien Li, Shou Pei Street, Chungking. — p. 532
+
+**Economic Society, The Chinese** (see Chinese Economic Society). — p. 532
+
+**Economics Association of China, The International** (see International Economics Association of China). — p. 532
+
+**Economics, Chinese Association of Land** (see Chinese Association of Land Economics). — p. 532
+
+**Economics, Society of International** (see Society of International Economics). — p. 532
+
+**Economy, China Association of Research in Farm** (see China Association of Research in Farm Economy). — p. 532
+
+**Economy, China Association of Rural** (see China Association of Rural Economy). — p. 532
+
+**Economy, Chinese Research Society of Social** (see Chinese Research Society of Social Economy). — p. 532
+
+**Economy of China, The Research Society of Farm** (see Research Society of Farm Economy of China). — p. 532
+
+**Education Association, Chinese Child** (see Chinese Child Education Association). — p. 532
+
+**Education Association of China** Officers :—Sung Cheng-pang, Kuo Tsu-chao. Address :—c/o National Central University, Shapingpa, Chungking. — p. 532
+
+**Education, Association of Life** (see Association of Life Education). — p. 533
+
+**Education, Chinese Association of Social** (see Chinese Association of Social Education). — p. 533
+
+**Education, Federation of Overseas-Chinese** (see Federation of Overseas-Chinese Education). — p. 533
+
+**Education, National Society for the Study of** (see National Society for the Study of Education). — p. 533
+
+**Education, Research Society of Present-Day** (see Research Society of Present-Day Education). — p. 533
+
+**Education Society of China, The** Founded in 1933 to study and reform education. Membership : 537. Officers :—Executive Directors, Chang Po-ling, Chen Li-kiang, Cheng Chi-pao, Chang Tao-chih. Address :—c/o Chang Tao-chih, Ministry of Education, Chingmukwan, Chungking. — p. 533
+
+**Education and Culture, China Foundation for the Promotion of** (see China Foundation for the Promotion of Education and Culture). — p. 533
+
+**Education and Culture, Joint Office of Chinese Association of** (see Joint Office of Chinese Association of Education and Culture). — p. 533
+
+**Education of China, National Association of Vocational** (see National Association of Vocational Education of China). — p. 533
+
+**Educational Tests, Society of** (see Society of Educational Tests). — p. 533
+
+**Engineering Society, Chinese Sanitary** (see Chinese Sanitary Engineering Society). — p. 533
+
+**Engineering Society of China, Civil** (see Civil Engineering Society of China). — p. 533
+
+**Engineering Society of China, Hydraulic** (see Hydraulic Engineering Society of China). — p. 533
+
+**Engineering Society of China, Metallurgical** (see Metallurgical Engineering Society of China). — p. 533
+
+**Engineers' Association, The Chinese Electrical** (see The Chinese Electrical Engineers' Association). — p. 533
+
+**Engineers, China Society of Municipal** (see China Society of Municipal Engineers). — p. 533
+
+**Engineers, Chinese Institute of** (see Chinese Institute of Engineers). — p. 533
+
+**English Language Society of China** Founded in Chengtu in 1942. Membership : 122. Officers :—President, Yang Yu-yung ; Executive Directors, Chou Chi-kuang, Chu Ta-lung, Yang Shou-hsuen, Kang Hsin-chih ; Secretary, Cheng Chien-li. Address :—68 Lien Kwan Kung So Street, Chengtu. — p. 533
+
+**Ethnological Society of China** Founded in December, 1923, to engage in research, investigations and collection of materials, lectures and discussions. Publications: the Southwestern Border magazine and the Ethnological Journal. Membership : 61. Officers :—Executive Directors, Huang Wen-shan, Shang Cheng-tsu, Hsu I-tang. Address :—c/o Hsu I-tang, University of Nanking, Chengtu. — p. 533
+
+**Examination Administration Society of China** Founded in Nanking in 1934, to study technique and system of examination of government-service personnel. Membership : 2,500. Officers :—Executive Directors, Chiang Ching-tien, Chow Pang-tao, Hou Shao-wen, Li Hsueh-teng ; Directors, Chu Lei-chang, Huang Wen-chi, Yang Chuen-li, Shih Lien-fang. Address :—c/o Chow Pang-tao, Examination Yuan, Chungking. — p. 533
+
+**Farming Implement Society of China, The** Founded on March 11, 1944. Membership : 133. Officers :—President, Pan Kuang-hui ; Executive Directors, Feng Cheh-fang and Hsu Chao. Address :—c/o Feng Cheh-fang, College of Agriculture, National Central University, Shapingpa, Chungking. — p. 533
+
+**Federation of Chinese Christians** Founded on March 6, 1938, in Hankow to coordinate Christians in war services. Membership : 500. Officers :—Directors, Feng Yu-hsiang, Chung Ko-to, Shen Wen-ching, Chang Po-ling, Shen Tse-kao, Tan Wo-hsin, Chang Ling-kao, Wu Yi-fang (Miss), Chang Chih-hsin, T. V. Soong. Address :—Social Hall, Pao An Rd., Chungking. — p. 533
+
+**Federation of Overseas-Chinese Education** Founded in Chungking in 1940, to carry on studies in education for overseas Chinese and to assist the Government in the improvement of educational methods and popularization of education among overseas Chinese. There are 41 branch associations in different cities abroad. Officers :—Executive Directors, Yu Tsun-hsien, Ku Shu-sung, Wang Chih-yuan. Address :—c/o Yu Tsun-hsien, Overseas Chinese Affairs Commission, Chungking. — p. 534
+
+**Finance, Chinese Institute of Public** (see Chinese Institute of Public Finance). — p. 534
+
+**Fine Arts, China National Association of** (see China National Association of Fine Arts). — p. 534
+
+**Fine Arts, Chinese National Association of** (see Chinese National Association of Fine Arts). — p. 534
+
+**Food Policy, Association for the Promotion of** (see Association for the Promotion of Food Policy). — p. 534
+
+**Foreign Affairs, China Society of** (see China Society of Foreign Affairs). — p. 534
+
+**Foreign Affairs, Council on** (see Council on Foreign Affairs). — p. 534
+
+**Foreign Correspondents Club** Organized in Chungking on May 18, 1943, to further the common interests of foreign correspondents in China. The club holds regular monthly meetings to discuss the problems connected with the work of the foreign correspondents, and to take such action as the members feel is necessary to facilitate their work. The membership includes both regular and transient correspondents in China, and fluctuates from month to month. Officers :—Vadim Sinelnikoff ; Theodore White ; Spencer Moosa. Address :—c/o Press Hotel, Pahsien Middle School Compound, Chungking. — p. 534
+
+**Foreign Relations Association, People's** (see People's Foreign Relations Association). — p. 534
+
+**Forestry Association of China** Founded in 1911, for research in forestry and development of forestation. The association has more than 500 members, all forestry experts. The Journal of the Forestry Association of China is published periodically. The association has model forests and special research workers in different provinces and branch associations in Chengtu, Kweilin and Kunming. Officers :—President, Yao Chuan-fah ; Directors, Liang Hsi, D. Y. Lin, Li Shun-ching, Chu Hui-fang. Address :—8 Weichiawan, Peipei, Szechwan (or c/o Tienshengchiao Post Office, Peipei). — p. 534
+
+**Free World Association, China Branch of International Peace Campaign and** (see China Branch of International Peace Campaign and Free World Association). — p. 534
+
+**Freemasonry** Masonic activity in China first took root in 'treaty ports' a century ago. Among the principal constitutions working in China are the English, Scottish, Massachusetts and Philippine Constitutions. Before July 7, 1937, the Philippine Grand Lodge operated six Lodges in China—Amity No. 106 (Shanghai), Sun No. 114 (Shanghai), Nanking No. 108 (Nanking), Pearl River No. 109 (Canton), Szechwan No. 112 (Chengtu), and West Lake No. 114 (Hangchow). Szechwan Lodge No. 112 (Chengtu) now is the only legally-constituted lodge in China functioning as usual. In Chungking, where more than 50 Masons are making their temporary homes, a 'Fortitude Lodge' has been meeting monthly under Special Communication from the District Grand Lodge for China under the Philippine Constitution. Elective Officers of 'Fortitude Lodge'—Worshipful Master, George A. Fitch; Senior Warden, David Kiang; Junior Warden, Peter Kiang; Treasurer, Lott Wei. Address :—c/o Canadian Mission Business Agency, Shensi Rd., Chungking. — p. 534
+
+**French - Belgium - Swiss - Returned Students, Association of** (see Association of French-Belgium-Swiss-Returned Students). — p. 534
+
+**Frontier Study, Chinese Association of** (see Chinese Association of Frontier Study). — p. 534
+
+**General Assembly, Church of Christ in China** Founded in 1926. Membership : approximately 120,000 including the members in occupied areas. There are eight branches and one border service center. Officers :—President, Tsou Ping-yi; Secretary-General, H. H. Tsui, Rev. E. B. Copland, W. B. Djang. Address :—72 Fang Cheng East Street, Chengtu, or 15 Tai Ho Shun Street, Chungking. — p. 534
+
+**Geographical Education Research Association of China** Founded in 1936, for the promotion of geographical education and study of teaching methods and materials for geography classes in middle and elementary schools. Membership : 1,020. Officers :—President, Hu Huan-yung; Directors, Chu Ping-hai, Li Yu-lin, Jen Mei-ao, Shen Ju-sheng. Address :—c/o Department of Geography, National Central University, Shapingpa, Chungking. — p. 535
+
+**Geographical Society of China, The** Founded in Nanking on August 22, 1934, with the aim of collecting materials relating to geography and spreading geographical knowledge through research, investigations, lectures and discussions. In 1935 the society represented China at the World Geographical Conference held in Poland. Activities include the holding of annual conferences and lectures, and publication of journals, books and maps. The Journal of the Geographical Society of China (bi-lingual), formerly a quarterly, is now published annually. Membership : 300. Officers :—President, Hu Huan-yung; Councillors, Chu Co-ching, G. Yun Chang, Hu Huan-yung, Johnson Lin, John Lee, Chang Yin-tang, Hsieh Chia-yung, Tung Shao-liang, Wong Wen-hao; Directors, G. Yun Chang, Huang Kuo-chang; Secretary-General, Li Hsueh-tan; Secretary, Julian Wu; Treasurer, Chu Pin-hai; Chief Editor, G. Yun Chang. Address :—c/o Department of Geography, National Central University, Chungking. — p. 535
+
+**Geological Society of China, The** Founded on January 27, 1922, in Peiping to study geology and related sciences. Besides annual meetings, lectures, discussions and investigation trips are held from time to time. Research subsidies and awards granted to geologists include the V. K. Ting Memorial Prize and the Chao Ya-tseng Memorial Subsidy. Membership : 544. Branch societies in Chaoting (Yunnan) and Kunming. The Bulletin of the Geological Society of China is published quarterly in English and Ti Chih Lun Ping (Geological Review) bi-monthly in Chinese. Officers :—Chairman, C. Y. Lee; Secretary, T. H. Yin; Treasurer, T. F. Hou. Address :—c/o National Geological Survey, Peipei, Szechwan. — p. 535
+
+**Geopolitical Institute, The** Organized in the autumn of 1940, to engage in studies of geopolitics. All members are university or college professors and lecturers. T. H. Chen is in charge of the institute's Jing-farn magazine and books of the Jing-farn series. Address :—80 Shangchingssu, Chungking. — p. 535
+
+**German-Returned Students' Association** Founded on May 30, 1943. Membership : 250. Officers :—Directors, Chu Chia-hua, David Yu, Ku Cheng-kang, Chiang Fu-tsung. Address :—c/o Wang Lin-sheng, Li Chang Company, 68 Lin Sen Rd., Chungking. — p. 535
+
+**Golden Sea Research Institute of Chemical Industry** Founded in August, 1922, in Tangku, Hopei, by Fan Hsu-tung. The institute is the first private chemical engineering research organ in China. Removed from Tangku to Hankow after the outbreak of the war, thence to Changsha and again to Szechwan. More than 90 papers and treatises on research and investigation projects in agricultural chemistry, chemical analysis, metallurgical and chemical engineering have been published in the journals and publications of the institute and similar organizations at home and abroad. Officers :—Director, Sung Hsueh-wu; Deputy-Director, Chang Cheng-lung; Chief of Bacteriological Division, Fang Hsin-fang; Chief of Pharmaceutical Factory, Liu Yang-hsuen; Chief of Analytical Laboratory, Chao Po-chuan; Chief of Dyestuff Division, Wei Wen-teh. Address :—P.O. Box 4, Wutungchiao, Szechwan. — p. 535
+
+**Health Education Association of China** Founded in July, 1935, to promote health education on a nation-wide scale as a means to enhance the health level of the nation. Besides assisting the Government in health movements, the association holds exhibitions and lectures and publishes booklets on health education. The Medical Service In Wartime is a monthly publication. Membership: 552. Four branch associations. Officers :—Director, Chen Kuo-fu ; Deputy-Directors, Pan Kung-chan, Hung Lan-yu ; Secretary-General, Hu Ting-an. Address :—14 Park Avenue, Peipei, Szechwan. — p. 535
+
+**Health Reconstruction, China Association of Public** (see China Association of Public Health Reconstruction). — p. 536
+
+**Herbal Medicine Society of China** Organized by practitioners in Chinese native medicine. The Native Medicine Monthly is published. Membership : 430. Officers :—President, Chang Chien-chai, Vice-President, Hsieh Chuan-an, Wu Chuan-an. — p. 536
+
+**History, Chinese Society of** (see Chinese Society of History). — p. 536
+
+**History, Society of Chinese Arts** (see Society of Chinese Arts History). — p. 536
+
+**Honor Soldier's Vocational Guidance, Association of** (see Association of Honor Soldier's Vocational Guidance.) — p. 536
+
+**Hsien Administration Society of China** Organized to study theoretical and practical problems in hsien administration for the promotion of the New Hsien System. Membership : 348. Officers :—President, Chou Chung-yueh ; Executive Directors, Sung Mu-chia, Lin Ching, Pang Ching-tang, Chen Cheng, Wen Pu-cheng; Secretary-General, Li Shan-yun. Address :—c/o Li Keng-sheng, Party and Political Work Evaluation Committee, Chungking. — p. 536
+
+**Hydraulic Engineering Society of China** Organized in April, 1931, for the promotion of hydraulic reconstruction projects in China. Major activities include research in and planning of hydraulic engineering model districts, collection of literature on hydraulics and compilation and revision of hydraulic terminology. Thirteen volumes of Hydraulic Monthly and more than 10 Hydraulics Rare Edition Reprints were published before the war. Since 1938 a monthly magazine—Hydraulics—has been issued. — p. 536
+
+**** By July, 1944, the society had registered a membership of 1,552, including associate members and student members. There are branches in Sian, Chengku (Shensi), Chinping (Honan), and Kanhsien (Kiangsi). Branches in other localities like Shanghai have been suspended, while new ones are being organized. Officers :—President, Bozin D.Z. Shen; Vice-President, Hsu Kai; Secretary-General, Yang Pao-po. Address :—P.O. Box 1, Hsinchiao, Chungking. — p. 536
+
+**Industrial and Commercial Federation, Chinese** (see Chinese Industrial and Commercial Federation). — p. 536
+
+**Industrial and Mining Reconstruction, Chinese Association for the Promotion of Industrial and Mining Reconstruction** (see Chinese Association for the Promotion of Industrial and Mining Reconstruction). — p. 536
+
+**Industrial Federation, Southwestern** (see Southwestern Industrial Federation). — p. 536
+
+**Industry, Golden Sea Research Institute of Chemical Industry** (see Golden Sea Research Institute of Chemical Industry). — p. 536
+
+**Infant Health Association of China** Founded in Nanking in 1931. Address :—Su Yi Tsun, Peipei, Szechwan. — p. 536
+
+**Institute for Research in Chinese Architecture** Founded in January, 1929, in Peiping to engage in research of Chinese architecture (particularly ancient architecture) and related arts in respect of dwellings, bridges, sculptures, mural structures and furniture. More than 200 municipalities and hsien have been investigated and research work and studies made of more than 1,000 ancient architectural works and related art subjects. Since the war began, the institute has removed three times—from Peiping to Changsha, thence to Kunming, and thence again to Lichuang in southern Szechwan. Membership : 66. Publications include Bulletin of the Institute for Research in Chinese Architecture, Chinese Architectural Designs Reference Album in 10 volumes and 26 other works (all published before the war). Officers :—President, Chu Chih-chin ; Executive Directors, Chou I-chun, Chu Chia-hua, Yeh Kung-chuo. Address :—P.O. Box No. 4, Lichuang Nanchi, Szechwan. — p. 536
+
+**Institute of Chinese Economic Reconstruction** Organized in April, 1939, for the purpose of supporting governmental policy and studying and promoting postwar economic reconstruction programs in China. The work of the institute in research and planning is divided into eight groups: communications, industry, mining and metallurgy, agriculture, river conservancy, public utilities, architecture, and economics. Thorough studies are made by the experts of each branch in preparation of draft economic reconstruction plans for presentation and recommendation to the Government. A Collection of Chinese Economic Reconstruction Problems and the First Draft of Outlines of Chinese Economic Reconstruction have been compiled. The Economic Research Quarterly is published in Chinese. Membership : 326. Officers :—Executive Directors, Shen Yi, Wang Chih-hua, Wu Yun-chu; Directors, Yun Chen, Huang Po-chiao, Wang Chih-hsin, Hsia Kuang-yu; Secretary-General, Hoh Pao-shu. Address :—26 Niukoto, Chungking. — p. 537
+
+**Insurance Association, Chinese Life** (see Chinese Life Insurance Association). — p. 537
+
+**Insurance Institute of China, The Property** (see Property Insurance Institute of China). — p. 537
+
+**Insurance Society, The China** (see China Insurance Society). — p. 537
+
+**International Association of Y's Men's Clubs** With a history of more than 10 years in China, the association has been active in helping spread the International Y's Men's Movement of fellowship, service and culture. Before the war there were 16 clubs in China, with a total membership of 400. There are about 100 members in Free China. All the clubs in China are chartered chapters of the Y's Men's International, with general headquarters in Chicago. A Chungking chapter, the Y's Men's Club of the Wartime Capital, was organized in the spring of 1939. Address :—Chungking Chapter—c/o Thomas M. H. Chao, Reuters Limited, Chungking. — p. 537
+
+**International Economics Association of China, The** Founded on September 2, 1943, to promote international economic co-operation and to further the economic relations of China with other countries. Activities include publishing the International Economic Service in English, and holding forums and lectures. Membership : 400. Officers :—Director-General, H. H. Kung; Executive Directors, Sun Fo, Wong Wen-hao, Hsu Kan, Chen Kuang-pu; Secretary-General, Chih Chao-ting; Deputy Secretary-General, Cheng Hai-feng. Address :—44 Tsang Pai Rd., Chungking. — p. 537
+
+**International Law Society of China** Founded on May 12, 1944. Officers :—President, Sun Fo; Executive Directors, Wang Chung-hui, Kuo Tai-chi. Address :—c/o Tung Lin, Ministry of Foreign Affairs, Chungking. — p. 537
+
+**International Peace Campaign and Free World Association, China Branch** of the (see China Branch of the International Peace Campaign and Free World Association). — p. 537
+
+**International Relief Committee of China** Formerly the International Red Cross Committee of Central China founded in Hankow on September 9, 1937. Adopted the present name after reorganization in September, 1941. The main purpose of this charity organization is to administer relief to those suffering from the war in China. Aid is given to plans for rehabilitation and reconstruction in both wartime and postwar days. The committee undertakes to solicit and collect donations in medical supplies and equipment both from abroad and at home for distribution among hospitals, refugee camps, warphanages and other charity organizations. At present more than 200 medical and health organizations are receiving such aid and financial subsidies. The committee also engages in the transportation of medical supplies and equipment to various areas in China and assists in anti-epidemic work. With main office in Chungking, branches are maintained in Foochow, Yuanling, Changsha, Kunming and Sian and representatives of the Committee are stationed in Kukong, Kanhsien, Hengyang, Chengtu, Kutsing and Philadelphia (U.S.A.). Officers :—Executive Director, Arnold B. Vaught; Deputy Directors, James K. Shen, Chang Ping-chun, Yu Hsing-ching, Dwight W. Edwards, A. Stewart Allen, Phillips F. Greene; Treasurers, Glenn V. Fuller, Wilym Jenkins; Resident Members of Executive Committee, Chang Yuan-shan, Mark A. Tennien, Gordon Jones, Mei Yi-lin; Secretary-General, T. S. Outerbridge; Chief of Medical Division, Marian E. Manly; Chief of Transportation Division, R. E. Lawrey. Address :—84 Matikai, Nanchimen, Chungking. — p. 537
+
+**International Student Service Fund Committee in China** Organized shortly after the outbreak of the war in 1937 to administer student relief funds contributed by the Inter-national Student Service in Geneva, and formally instituted in Hankow in 1938. Activities are confined to the maintenance of the student center at Shapingpa, Chungking, and to granting of subsidies to various universities for student welfare. Officers :—Chairman, Chang Po-ling; Joint Secretaries, Mei Yi-chi and Han Li-wu. Address :—189 Chung San Rd., Chungking. — p. 538
+
+**Inventions, Chinese Association for the Encouragement of Inventions** (see Chinese Association for the Encouragement of Inventions). — p. 538
+
+**Islamic Federation, Chinese** (see Chinese Islamic Federation). — p. 538
+
+**Italian-Returned Students' Association** Founded on June 12, 1942. Membership: 56. Officers :—President, Liu Wen-tao; Executive Directors, Shih Hsiao-sien, Hsueh Kuang-chien, Hsu Sing-chu, Kao Chien. Address :—76 Ming Tsu Rd., Chungking. — p. 538
+
+**Japan, The Research Society of Wartime** (see Research Society of Wartime Japan). — p. 538
+
+**Japanese-Returned Students Association** Organized in Nanking in 1932 under the leadership of Tai Chi-tao. Membership: 3,000. Officers :—Executive Directors, Wang Peng-sheng, Shih Wei-huan, Chiu Yu-lin, Kung Teh-po. Address :—c/o Yen Yung-i, Labor Bureau, Ministry of Social Affairs, Chungking. — p. 538
+
+**Joint General Office of Red Swastika in China** Founded in 1922. The office maintains among its charity activities a children's welfare center at Wanhsien in Szechwan. Membership: 745. Officers :—General Director, C. T. Wang; Deputy General Director, Chu Ting-chi. Address :—7 Chung Hua Rd., Chungking. — p. 538
+
+**Joint Office of Chinese Association of Education and Culture** Founded in May, 1937, as a coordinating body for all educational and cultural organizations aiming at educational progress and reform by collective efforts. The office was temporarily suspended when the war began but resumed its activities after removal to Chungking. Publications and cultural lectures are sponsored. Attached to the office are research committees on educational system, border education, and scientific education. Membership: 12 organizations. Officers :—Chang Po-ling, Chang Yin, Kiang Heng-yuan, Chen Li-kiang, Kuo Yu-shou, Meng Pu, Wu Nan-hsuan, Chiang Fu-tsung, Hsiao Hsiao-yung, Shao Shuan-chiu, Gunsun Hoh, Ma Ke-tan, Hsu Cho-shih, Hsu Su-en. Address :—Wen Chang Kung, Ching-mukwan, Szechwan. — p. 538
+
+**Kwangsi Reconstruction Research Society** Founded on October 9, 1937, for research in Kwangsi's political, economic, cultural and other reconstruction problems with emphasis on adaptation to wartime needs. In five years, the society's research work has covered 75 political, 71 economic and 66 cultural problems, some of which were undertaken at the request of the Government. Besides the two magazines—the Reconstruction Research Monthly and the Current Events Analysis Monthly—a collection of 12 books has been published. Officers :—President, Li Tsung-jen; Vice-Presidents, Pai Chung-hsi, Huang Hsu-chu; Members of Executive Committee, Li jen-jen, Chen Shao-kwan, Huang Tung-chou, Huang Chuen-ta; Chief of Political Division, Huang Hsu-chu; Chief of Economic Division, Kan Tsung-hua; Chief of Cultural Division, Su Hsi-hsuen. Address :—Kwei Tung Rd., Kweilin. — p. 538
+
+**Labor, Chinese Association of** (see Chinese Association of Labor). — p. 539
+
+**Labor, The Wartime Association of** (see Wartime Association of Labor). — p. 539
+
+**Law Society of China** To do research in law for improvement of the Chinese judicial system, the society was formally inaugurated on September 20, 1935. In addition to the Chinese Law Magazine, the society has also published a Collection of Rudiments of Wartime Laws and Regulations. Officers :—Chairman, Chu Cheng; Vice-Chairman, Chin Chen; Secretary-General, Hung Lan-yu. Address :—590 Lin Sen Rd., Chungking. — p. 539
+
+**Law Society of China, International** (see International Law Society of China). — p. 539
+
+**League of Nations Union, The Chinese** (see Chinese League of Nations Union). — p. 539
+
+**Library Association of China** Founded in Peiping in June, 1925, to foster the growth of libraries and to effect mutual help among the librarians. Activities include assistance to provinces in the interior in setting up main libraries; planning a readjustment of the libraries in the postwar period; and publishing bulletins, a collection of indices and others. Representatives of the association were delegated to the International Library Congress four times. Close contact with libraries in foreign countries has been maintained. The association held its sixth annual meeting in Chungking in May, 1944, at which more than ten important resolutions were adopted. One of these was to conduct investigation of the libraries in various parts of the land with a view to postwar rehabilitation. Membership: 134 group members; 427 individual members. Officers :—President, Yuan Tung-li; Directors, Liu Kuo-chun, Chiang Fu-tsung, Shen Tsu-yung, Wang Wen-shan, Tai Chih-chien, Tien Hung-tu, Hung Yu-feng, Cha Hsiu, Wang Yun-wu, Liu Yi-cheng, Yen Wen-yu, Chen Hsuen-tze, Li Hsiao-yuan, Tu Ting-yu, Hung Yeh; Supervisors, Chiu Kai-min, Mao Kun, Hsu Chia-ling, Wang Chang-ping, Ouyang Tsu-chin, Yueh Liang-mo, Wan Kuo-ting, Wu Kuang-chin. Address :—c/o National Library of Peiping, Shapingpa, Chungking. — p. 539
+
+**Life Education, Association of** (see Association of Life Education). — p. 539
+
+**Life Insurance Association, Chinese** (see Chinese Life Insurance Association). — p. 539
+
+**Literary Workers of China, National Anti-Japanese Association of the** (see National Anti-Japanese Association of the Literary Workers of China). — p. 539
+
+**Mass Education Movement, Chinese National Association of the** (see Chinese National Association of the Mass Education Movement). — p. 539
+
+**Mathematics, New China Society of** (see New China Society of Mathematics). — p. 539
+
+**Medical and Therapeutical Supplies, National Association for the Production of** (see National Association for the Production of Medical and Therapeutical Supplies). — p. 539
+
+**Medical Association, The Chinese** (see Chinese Medical Association). — p. 539
+
+**Medical Education Society of China, The** Founded in 1938, to bring up to date medical education in China, and to aid in the training of medical personnel. Membership : 60. Officers :—President, Chen Yu ; Executive Directors, Hu Shu-cheng, Chiu Siao-tien, Huan Shih-an, Hsu Chiao-yuan. Address :—c/o Chen Yu, 17 Tao Men Kou. — p. 539
+
+**Mental Hygiene Association of China** Organized for the purpose of preserving and promoting mental hygiene as well as preventing mental disorders. Membership : 236. Officers :—Executive Directors, Ai Wei, Wu Nan-hsuan, Hsiao Hsiao-yung, Chen Chien-shiu, Chu Chang-keng. Address :—c/o College of Education, National Central University, Shapingpa, Chungking. — p. 539
+
+**Metallurgical Engineering Society of China** Founded in 1937. A large part of the society's activities has been suspended due to dispersal of members in wartime. Membership : 400. Officers :—President, Wong Wen-hao ; Vice-Presidents, Chen Li-fu, Tseng Yang-fu ; Executive Directors, Sung Yueh-chi, Hu Po-yuan, Hsueh Kwei-lun. Address :—9 Fei Lai Ssu, Chungking. — p. 539
+
+**Meteorological Society of China** Founded in Tsingtao on October 10, 1924, to promote meteorological science and to develop meteorological activities. Membership : 314 individual members and 20 group members. Officers :—President, Chu Co-ching ; Executive Directors, Lu Chiung, Yu Chang-wang ; Directors, Chang Pao-kun, Cheng Tze-cheng, Hu Huan-yung, Chu Ping-hai, Chu Wen-yung, Tu Chang-wang, Chen Chan-yung, Lu Liu ; Secretary-General, Lu Chiung. Address :—c/o Academia Sinica, Peipei, Szechwan. — p. 540
+
+**Midwives Association of China** Founded in Chungking on December 15, 1941. Publications include Midwifery Professional Ethics and Handbook on Feminine and Infantile Hygiene. Present membership : 589. Officers :—President, Hsieh Nung ; Executive Directors, Chang Kun-chuan, Wang Chia-hsien ; Directors, Hsieh Nung (Chairman), Yang Hui-lan, Liang Kwei-fang. Tan Pao-ching, Tao Ching-chu, Yang Hui-ying, Chung Su-cheng. Address :—8 Chin Tang Street, Chungking. — p. 540
+
+**Municipal Reconstruction Association** Organized to study and promote municipal reconstruction. Officers :—Directors, Chiu Ho-ching, Li Cheng-wu, Chiu Chih-chung, Yao Hua-sung, Waung Jih-chang, Wang Tsun-chieh, Chow Man-fan, Kiang Kang-li, Chang Yu-hsin. Address :—145 Chung Erh Rd., Chungking. — p. 540
+
+**Music, China Society of** (see China Society of Music). — p. 540
+
+**Music Society of China, The** Founded on April 5, 1942. Membership : 159. Officers :—Directors, Wu Po-chao, Yang Chung-tzu, Tai Tsuei-lun, Ying Shang-neng. Address :—Li Pao-chen, National Conservatory of Music, Chingmukwan. — p. 540
+
+**Musical Society, The Ta Tung** (see Ta Tung Musical Society). — p. 540
+
+**Musical Workers, National Anti-Japanese Association of Chinese** (see National Anti-Japanese Association of Chinese Musical Workers). — p. 540
+
+**Mute and Deaf, Chinese Association for the** (see Chinese Association for the Mute and Deaf). — p. 540
+
+**National Anti-Japanese Association of Chinese Dramatic Workers** Founded in Hankow on January 1, 1938. There are six branches (Kunming, Chengtu, Loyang, Kweilin, Kansien and Sian) with two more being organized in Lanchow and Wanhsien. Membership : 438. Officers :—President, Chang Tao-fan ; Executive Directors, Yu Ke-tsi, Lao Sheh, Sang Han-sheng ; Ma Yen-hsiang, Yu Keh-chieh ; Secretary, Ma Yen-hsiang. Address :—c/o Young Men's Dramatic Society, 116 Chung I Rd., Chungking. — p. 540
+
+**National Anti-Japanese Association of Chinese Musical Workers** Founded on December 25, 1938. Membership : 230. Officers :—Directors, Hu Jan, Chin Lu-sheng, Tai Chi-jen, Hung Lan-yu. Address :—52/2 Chang Chia Hua Yuan, Chungking. — p. 540
+
+**National Anti-Japanese Association of the Literary Workers of China** Membership : 450. Officers :—Directors, Lao Sheh, Shao Li-tze. Address :—Yu Yuan, 65 Chang Chia Hua Yuan, Chungking. — p. 540
+
+**National Association for Refugee Children** Founded in Hankow on March 10, 1938, to administer relief to refugee children, It has since provided shelter, food and education for 28,349 war waifs, many of whom are children of men in the fighting service. The association maintains 35 orphanages besides 11 branches in China. Officers :—Directors, Mayling Soong Chiang (Madame Chiang Kai-shek), Li Teh-chuan (Mrs. Feng Yu-hsiang), Shen Chun-ju, Chen Ming-shu, Hu Tun-wu, Chen Chi-yi (Miss) ; Secretary-General, Nora Hsiung Chu (Mrs.) Address :—Chiu Ching Middle School, Chungking. — p. 540
+
+**National Association for Rural Reconstruction, The** Organized in 1933, the association moved from Chungking to Chengtu in 1941 after the offices in the war capital were destroyed in a Japanese air raid. It is sponsoring two experimentation projects, one for Shihyangchang in Hwayang, Kwangtung, and one for the social rehabilitation of famine-stricken Honan. A series of three volumes of Rural Reconstruction Experiments has been published through the Chung Hwa Book Company. Membership : 123. Officers :—President, Y. C. James Yen; Secretary-General, Liang Chung-hua. Address :—c/o College of Agriculture, University of Nanking, Chengtu. — p. 540
+
+**National Association for the Production of Medical and Therapeutic Supplies** Founded on November 1, 1942, to assist the medicine-producing organs in the production of medicines and medical and therapeutical instruments. Membership : 39 group members; 38 individual members. Officers :—President, Lo Hsia-tien; Executive Directors, Chiang Ta-chu, Chen Feng-kao, Chang Nien-kai. Address :—40/1 Lin Sen Rd., Chungking. — p. 541
+
+**National Association for the Welfare of the Blind** Organized in Chungking on July 6, 1942, to engage in various forms of blind relief and anti-blind work including the sponsoring of trachoma clinics and classes for wounded blind soldiers. Branches in Chengtu, Lanchow, Kweiyang, Changsha and Loshan. Membership : 5,000. Officers :—President, Mrs. H. H. Kung; Vice-President, Niu-Huang Mei-hsien; Secretary-General, Kiang Hung-chi. Address :—Fifth Floor, Meifeng Bank Building, Chungking. — p. 541
+
+**National Association of Accountants** Founded in 1933. Officers :—Directors, Hsi Yu-shu, Wen Yi-yu, Kiang Wan-ping, Hsieh Ling, Chien Kai, Ho Yuan-ming, Chen Chi-hsiang, Ouyang Han-tsun, Kuo Jo-wei, Wang Hai-fan, Chen Jih-ping. Address :—c/o Wen Yi-yu, Pa Hsien Middle School, Chungking. — p. 541
+
+**National Association of Vocational Education of China** The purpose of the association is to popularize and improve vocational education and to improve mass education with a view to better livelihood. With a history of 26 years (founded in May, 1917), it has now 3,461 individual members' and a group membership of 138 units. Major activities include investigation and research in vocational education and vocations; compilation and publication of books and tests; vocational training and guidance; supplementary education; and vocational guarantee service. Among the subsidiary organs are one branch association in Kweilin, five branch offices (in Kunming, Kweiyang, Chengtu, Shanghai and Hongkong—the last two suspended due to the war), two vocational schools (in Chungking and Shanghai), 12 vocational classes (7 in Shanghai and one each in Chungking, Chengtu, Kweiyang, Kweilin and Kunming), six vocational guidance offices (one each in Chungking, Chengtu, Kweilin, Kunming, Kweiyang and Shanghai), four productive organs and others. Publications in Chinese and English number more than 260, including the Education and Vocation (in Chinese, formerly monthly, now quarterly), The National Association of Vocational Education of China : Semi-Annual Report and many books on vocational education. Officers :—Chairman of the Board of Directors, Chien Yung-ming; Executive Director, Huang Yen-pei; Office Directors, Yang Wei-yu, Chia Kuan-jen. Address :—56 Chang Chia Hua Yuan, Chungking. — p. 541
+
+**National Child Welfare Association of China** The oldest organization of its kind in China, the association was formally set up in Shanghai on April 4. (Children's Day in China), 1928. It cares for orphans and during wartime engages in relief of refugee children as well as children of men in the nation's fighting service. War has caused the suspension of its branch associations in Peiping, Lwanhsien (Hopei), Loyang and Chengchow, while branches in Lanchow, Chengtu, and Taiho (Kiangsi) are carrying on. Membership : 1,200. Officers :—Honorary President, Chiang Kai-shek; President, H. H. Kung; Honorary Secretary-General, Tu Yung; Secretary-General, Chen Tieh-sheng. Address :—29 Chow San Pao, Lochiapa, South Bank, Chungking. — p. 541
+
+**National Christian Council of China, The** Founded in Shanghai in 1922. Wartime services include aid to civilian refugees, refugee children, refugees from Europe, soldiers, wounded soldiers, new recruits, and others. Local councils have been established in Foochow, Kanhsien, Kwangtung, Chungking, Chengtu and other cities in Szechwan. There are 23 group memberships. Officers :—General Secretary, W. Y. Chen ; Acting General Secretary, Luther Shao ; Deputy General Secretaries, George Wu, E. H. Cressy ; Secretaries, R. D. Rees, William L. Hsu, George Geng, Y. Y. Lin, Mrs. Gish, F. Oldt. Address :—10 Tai Chia Hsiang, Chungking. — p. 542
+
+**National Christian Service Council for Wounded Soldiers** Organized to render various services to wounded soldiers. Membership : 20 group members. Seventeen branches. Officers :—President, H. H. Kung ; Vice-Presidents, J. L. Huang, Chung Ko-to. — p. 542
+
+**National Committee, YMCA of China, The** Founded in 1896 as a coordinating organ of the Young Men's Christian Associations in China, though the first student "Y" association was founded in 1885 and the first city association in 1895. At present there are in all of China 26 city associations (excluding those in enemy-occupied areas which have temporarily suspended their activities) and 82 student associations (52 in universities and colleges and 30 in middle schools). Wartime services include : (1) emergency service to soldiers, 44 units (including one for the Chinese Army in India organized in January, 1944) ; (2) civilian relief (including missionaries, refugees from Europe and Chinese refugees) ; (3) promotion of international understanding and goodwill (six secretaries from China at present are engaged in deputation work in foreign countries). Another important service of the committee during the last seven war years has been student relief through 28 centers under the direction of the National Student Relief Committee. In 1943, 36,166 individual students were benefited by a relief fund amounting to $9,920,000. The total membership in the last seven years has increased to upwards of 100,000, representing a threefold increase over the prewar total. The Association Press of China, a subsidiary organ of the committee, has been publishing books and pamphlets, both originals and translated works, on religious, social, economic and political subjects. Officers :—Board of Directors, Chang Po-ling (Chairman), W. Y. Chen (Vice-Chairman), Fei Chi-ho (Secretary), Chen Chung-sheng (Treasurer), Ting Kwei-tang, O. K. Yui, Henry Lin, Hollington K. Tong, Tung Chen-tao, S. C. Leung (General-Secretary). Address :—38 Chung Hsueh Kai, Tantzeshih, South Bank, Chungking. — p. 542
+
+**National Committee, YWCA of China, The** Organized in 1899, nine years following the organization of the first YWCA in China (in the Southern Presbyterian Girls' School in Hangchow, 1890), to coordinate and assist in the work of the Young Women's Christian Associations in China. The committee moved to Chengtu in the spring of 1941 from the former headquarters in Shanghai. Under the Committee are 20 city associations in Canton (in Kukong and Macao), Changsha, Chefoo, Chengtu, Chungking, Foochow (suspended), Hangchow (suspended), Hankow (suspended), Hongkong, Kweiyang, Kunming, Mukden (directly affiliated with World YWCA), Nanking (suspended), Peiping, Shanghai, Sian, Taiyuan (suspended), Tientsin, Tsinan, and Wuchang (suspended), and six rural associations—Fushan, Shantung ; Toishan, Kwangtung (suspended); Tachang, Kiangsu (suspended); Shunhuachen, Kiangsu (suspended) ; Wusu, Hunan ; and Lungfengchang, Penghsien, Szechwan. There are also 53 registered girls' clubs and student associations in 80 schools. Since the outbreak of the war, the committee and its associations have engaged in various forms of war relief work. Officers :—Executive Committee, Chengtu—Chairman, Chen Wang Ming-yi (Mrs.) ; Vice-Chairmen, Yoh Pao-chi (Mrs.), Canning Yang (Mrs.) ; Chinese Secretary, Chen Wen-hsien (Miss) ; English Secretary, May Streeter (Miss) ; Treasurers, Chen Chu-chuen (Miss), B. A. Slocum (Mrs.) ; Members, Wu Yi-fang (Miss), Chang Hsiang-lan (Miss), Yu Liu Lan-hua (Mrs.), Liu Yu-lien (Mrs.), Cheng Chiu Deh-young (Mrs.), Chow Li-chu (Miss), Mei Yi-pao (Mrs.) ; National Committee—General Secretary, Tsai Kwei (Miss) ; Secretarial Staff, Deng Yu-dji (Miss), Winifred Galbraith (Miss), Gao Reng-ying (Miss), Lily K. Haass (Miss), Kao Yu-hsing (Miss), Liu Yu-hsia (Miss), J. E. Moncrieff (Mrs.), Pearl Pollock (Miss), Maird Russell (Miss), Shen Pei-lan (Miss), Shih Pao-chen (Miss), Yu Chih-ying (Miss), Edith Lerrigo (Miss), Penelope Piercy (Miss). Address :—87 San Sheng Chieh, Chengtu. Ai Wei, Chen Li-kiang; Executive Supervisor, Chao Nai-chuan. Address :—c/o Department of Education, National Central University, Shapingpa, Chungking. — p. 542
+
+**National Educational Cinematographic Society** Founded in Nanking in July, 1932, to promote the motion picture as a means of supplementary education. The society in the following year became a chartered member of the International Educational Cinematographic Society. Activities include filming of Dr. Sun Yat-sen's industrialization blueprint, "Inter-national Development of China ;" filming of an "Educational Series" in co-operation with the Central Motion Picture Studio; cooperating with the college of sciences of the University of Nanking in the advancement of film education ; conducting research in the filming of school texts ; encouraging research and manufacture of cinematographic appliances ; and public screening of educational pictures from time to time. Branch societies in enemy-held Shanghai, Hangchow, Tsingtao, Tsinan, Kunshan (Kiangsu), Hongkong and Malaya have been suspended. In Free China there is a branch in Chengtu. Membership : 969. Officers :—Executive Directors, Chen Li-fu, Chang Tao-fan, Pan Kung-chan, Ku Yu-hsiu, Peng Po-chuan ; Executive Supervisors, Wu Chih-hui, Chen Kuo-fu, Yeh Chu-tsang. — p. 654
+
+**National Society for the Study of Education** Founded in Shanghai on January 28, 1933, for the study and reform of education. Annual conventions were held in Nanking, Wuchang, and Peiping, respectively, in 1934, 1936 and 1937, and in Chungking in 1938, 1942 and 1944. Activities include conducting research and investigation work, recommending plans of educational reform to the Government, and cooperating with educational and cultural organizations abroad in the educational advancement of the world. Eleven branches—Chungking, Paisha and Chingmukwan (Szechwan), Northwest (at Chengku in Shensi), Lanchow, Chengtu, Kweilin, Lantien (Hunan), Taiho (Kiangsi), Tsunyi (Kweichow), and Kwangtung. Membership : 852 individual members and 19 group members including various provincial education departments. Officers :—Executive Directors, Chang Po-ling, Chang Tao-chih, Hsu Cho-shih, — p. 654
+
+**Natural Sciences, China Society of** (see China Society of Natural Sciences). — p. 654
+
+**Navigation, Chinese Research Society of Oceanic** (see Chinese Research Society of Oceanic Navigation). — p. 654
+
+**Navigation Society of China** Organized for the promotion of navigation in China and research in practical problems relating to navigation. Publications include booklets and the China Navigation Monthly. Membership : 255. Officers :—President, Wei Wen-han ; Executive Directors, Wang Kuang, Shen Chung-yi, Chin Yueh-shih, Hsu Hsueh-yu. Address :—5 Hsiao Ho Shun Cheng Street, Chungking. — p. 654
+
+**New Asiatic Society** Founded in Nanking on May 10, 1929, to study Chinese border problems and ethnological problems in the East. Activities suspended with the outbreak of the war in 1937 but revived in June, 1942, following the publication of four series of studies. The society conducts classes in Eastern languages and launches expeditions to border regions. It was to renew publication of The New Asia Monthly in August, 1944, which was suspended in 1937. There are corresponding agencies in border regions. Membership : 500. Officers :—Chairman of the Board of Directors, Tai Chi-tao ; Honorary Chairmen, Yu Yu-jen, Chang Chi, Changchia Hutuketu (Mongolian Living Buddha) ; Chairman of the Academic Council, Chu Chia-hua ; Directors, Chen Ta-chi, Hsu Chung-hao, Hsu Ching-tze, Wang Yin-yu ; Supervisors, Chen Li-fu, Hsieh Chien, Chen Tien-hsi, Han Li-wu. Address :—Tao Yuan (Tao's Garden), Shangchingssu, Chungking. — p. 654
+
+**New China Society of Mathematics** Founded in Kunming in 1940 for the study of mathematics. Membership : 105. Officers :—Directors, Chiang Li-fu, Chen Shen-sheng, Hua Lo-keng, Hsiung Ching-lai, Su Pu-tsing, Chen Chien-kung, Yang Wu-chih, Kiang Tseh-han, Sung Kuang-yuan. Address :—P.O. Box 96, Kunming. — p. 654
+
+**New Northwest Reconstruction Association, The** Founded on March 28, 1943. Membership: 274. Officers :—President, Yu Yu-jen; Executive Directors, Chang Chen, Li Chung-shih, Li Shih-chun, Yang Chiao-tien. Address :—7 Jen Ai Tang, Nanchimen, Chungking. — p. 544
+
+**Northeastern Youths, Society of** (see Society of Northeastern Youths). — p. 544
+
+**Northwest Reconstruction Association** Founded in Nanking in 1932 for the development of the Northwest. Membership: 1,235. Officers :—Executive Directors, Chen Li-fu, Shao Li-tze, Lei Pao-hua, Hung Lu-tung. Address :—Shangchingssu, Chungking. — p. 544
+
+**Nurses’ Association of China** Organized in 1909 for the purpose of raising and unifying the standard of nursing education in China. The association was requested by the first Nurses’ Conference convened in 1914 to assume the responsibility of the registration of schools of nursing and of supervising examinations for the prospective graduates. Up to 1934 when the Technical Committee on Nursing Education of the Commission on Medical Education was established (under the joint auspices of the Ministry of Education and the National Health Administration) and took up the registration of nursing schools and examinations of nurses, there were 6,372 nursing graduates holding diplomas issued by the association. The association was reorganized in October 1941, in order to comply with government regulations. Its headquarters is in Chungking, with a branch office in Shanghai. The association established in September, 1942, a school of nursing in cooperation with the Central Hospital in Kweiyang. The association has a total membership of 9,000 and seven branch associations. Seventy-five books and booklets relating to nursing have been published and translated. A bi-lingual (English-and-Chinese) Quarterly Journal is also published. Officers :—Board of Directors, Hsu Ai-chu (Miss), Chow Mei-yu (Miss), Eva Liu Chen (Mrs.), Chan Pao-chiu (Miss), Lu Chi-ying (Miss), Kwan Pao-chen (Miss), Dih Chen-liu (Miss), Cora E. Simpson (Miss), Tien Tsai-lee (Miss); Board of Supervisors, Hilda Wang Lo (Mrs.), Bernice Chu Chen (Mrs.), James Liu (Mrs.) ; General-Secretary, Sun Sia-teh (Miss). Address :—Koloshan, Chungking. — p. 544
+
+**Opera Society, The Chinese Experimental** (see Chinese Experimental Opera Society). — p. 544
+
+**Oriental Cultural Association, The** Founded in Chungking in 1940, with the aim of studying, preserving and diffusing Oriental culture in collaboration with all the Oriental peoples. Lectures and discussion meetings are included in its regular activities. The Oriental Culture magazine is published. Membership: 519. Officers :—President, Yu Yu-jen; Vice-President, Chin Chen; Secretary-General, Kuo Chun-tao. Address :—20 Han Chia Hsang, Nanchimen, Chungking. — p. 544
+
+**Overseas Chinese Moral Endeavor Association, The** Founded on October 26, 1943. Membership: 271. Officers :—President, Lin Ching-nien; Executive Directors, Ho Pao-jen, Lien Ying-chou, Hsu Wen-ting, Hsu Sheng-li. Address :—Second Floor, Kwangtung Provincial Bank, Shensi Street, Chungking. — p. 544
+
+**Pacific Problems Research Society, The** Founded on December 16, 1943, to study political, economic and military problems affecting the relations of the countries of the Pacific. Membership: 95. Officers :—Directors, Chien Yun-chieh, Liu Shih-chao, Kao Shu-keng, Chang Kuang-ya and others. Address :—c/o Yang Cheh-wu, 18 Hsueh Tien Wan, Chungking. — p. 544
+
+**People’s Foreign Relations Association** Founded in Hankow in January, 1938, to promote world peace. With an initial membership of little more than 100, in four and a half years the membership grew to more than 1,379 individuals and 50 group members. In addition there are 13 branch associations in China and 56 abroad with a total membership of several hundred thousand. The association is organized mainly for the promotion of international goodwill. Branches in China are located in the provinces of Chekiang, Yunnan, Kansu, Hunan, Shensi, Szechwan, Kweichow, Hupeh, Kwangtung, Kwangsi, Ningsia and Kiangsi. The association has published four books in Chinese and 11 pamphlets in English. The Foreign Affairs Quarterly (in Chinese) and the Voice of China (in English) are both published quarterly. Officers :—Presidium Members, Wu Te-chen (Executive Chairman), Chen Ming-shu, Chen Li-fu, Yeh Chu-tsang, Lu Chao; Secretary-General, Jen C. Hsieh ; Chief Secretary, Liang Hua-yen ; Chief of Research Division, Pan Chao-ying ; Resident Director, Paul Sung. Address :—Chung Ssu Rd., Chungking. — p. 544
+
+**People's Livelihood Economy Society, The** Founded on November 28, 1941, to study economic reconstruction as advocated by Dr. Sun Yat-sen in the Principle of People's Livelihood in San Min Chu I, and help achieve its realization. Membership : 120. Officers :—President, Wang Po-chun ; Executive Directors, Chien Hsin-chih, Miao Chiu-chieh, Lu Pei-chang, Cheng Han-hsiang. Address :—4 Chun Shen Rd., Chungking. — p. 545
+
+**People's Livelihood Education Society of China, The** Founded in 1939, to study and promote education with people's livelihood as the main objective. Publications include The People's Livelihood Education Monthly and The Education and People's Livelihood Weekly. Membership : 1,200. Officer :—President, Tai Shuang-chiu. Address :—4 Tien Kuan Fu, Tung-yuanmen, Chungking. — p. 545
+
+**Personnel Administration Society of China** Founded in Chungking in October, 1941. Membership : 1,270. Officers :—Executive Directors, Ming Chung-chi, Su Lei, Hsiang Tung-yi, Chang Hsiao-cheng, Kuo Chi, Wei I-keng, Wang Fei. Address :—25 Kang Ning Rd., Chungking. — p. 545
+
+**Pharmaceutical Products, Chinese Association of Research for the Supply of** (see Chinese Association of Research for the Supply of Pharmaceutical Products). — p. 545
+
+**Pharmaceutical Society of China, The** Founded on July 5, 1942, in succession to the 30-year old China Pharmaceutical Society in Shanghai which is now defunct. All regular members are graduates of pharmaceutical colleges in China and abroad while graduates of pharmaceutical vocational schools are admitted as preparatory members. Present membership is 534, including 294 preparatory and 16 honorary members. Branch societies are located in Chengtu, Kunming, Yungan (Fukien) and Anshun (Kweichow). Officers :—President, Chen Pu ; Executive Directors, Meng Mu-ti, Lien Jui-chi, Yu Ta-chun, Ke Keh-chuan ; Secretary, Lu Hsueh-yuan. Address :—Shihpishan, Hsinchiao, Chungking. — p. 545
+
+**Philosophy Society of China** Founded in 1935. A committee has been formed for translating works of Western philosophy. The Philosophical Review Quarterly is published. Membership : 150. Officers :—Executive Directors, Feng Yu-lan, Chin Yueh-lin, Ho Lin ; Directors, Hu Shih, Huang Chien-chung, Feng Tung-mei, Tsung Pai-hua, Chang Chun-li, Fan Shou-kang, Li Chih-chuen, Tang Yung-tung. Address :—c/o Department of Philosophy, National Southwest Associated University, Kunming. — p. 545
+
+**Physical Cultural Society of China** Organized to study theories of physical culture and their means of application and to research in the terminology of physical education. Books and pamphlets on physical culture are published. Membership : 118. Officers :—President, Wu Yun-jui ; Executive Directors, Gunsun Hoh, Yuan Tun-li, Cheng Teng-ke, Yuan Tsung-cheh. Address :—c/o National Central University, Shapingpa, Chungking. Officers :—President, Ku Chieh-kang; Executive Directors, Lo Chia-lun, Kao Hsi-pei. Address :—22 San Huai Shu Chieh, Chengtu. — p. 545
+
+**Physics Society of China** Founded in 1932 for research in physics· Delegates of the .society once represented China at the World Physics Conference. Publication : The Physics Journal. Membership : 232. Officers :—President, Wu Yu-hsuen; Board of Directors, Hu Kang-fu, Sah Pen-tung, Wang Shou-chin, Ting Hsi-lin; Board of Supervisors, Yen Chi-tze, Kwei Chih-ting, Chang Shao-chung. Address :—c/o College of Natural Sciences, National Southwest Associated University, Kunming. — p. 546
+
+**Police Research Society, the Chung Hua** (see Chung Hua Police Research Society). — p. 546
+
+**Police Society of China** Besides studying police science and administration, the society assists the Government in conducting investigations and publishes the Chinese Police magazine. Membership : 5,480. There are 18 branch societies. Officers :—President, Chen Cheng; Executive Directors, Li Shih-cheng, Yin Cheh-i, Li Chien, Mao Wen-tsueh; Directors, Wang Ku-pan, Feng Yu-kun, Chao Lung-wen, Hsu Wei-ping, Li Ku-chuan. Address :—236 Min Sen Rd., Chungking. — p. 546
+
+**Political Reconstruction Society, Chinese** (see Chinese Political Reconstruction Society). — p. 546
+
+**Political Science and Economics Society of China** Organized in August, 1932, to engage in studies of political science and economics. Activities include discussion meetings and compilation and publication of booklets. Membership : 316. Officers :—Executive Directors, Chu I-fei, Wang Lung, Lou Tung-sun; Secretary, Yu Chien-yi. Address :—No. 1 Chia Lu, Chung I Rd., Chungking. — p. 546
+
+**Political Science Association, Chinese** (see Chinese Political Science Association). — p. 546
+
+**Popular Publications Society, The** Founded in March, 1932, to edit and publish popular reading literature with a view to the development of social mass education. The society publishes about 1,000 pamphlets for popular reading each year. Membership : 45. — p. 546
+
+**Post-war Reconstruction Problems, Research Society of** (see Research Society of Post-War Reconstruction Problems). — p. 546
+
+**Press Association, Chinese National** (see Chinese National Press Association). — p. 546
+
+**Printing Society, The Chinese** (see Chinese Printing Society). — p. 546
+
+**Production, China Association for the Promotion of Wartime** (see China Association for the Promotion of Wartime Production). — p. 546
+
+**Psychological Reconstruction Society, The China** (see China Psychological Reconstruction Society). — p. 546
+
+**Psychology, Research Society of Personnel** (see Research Society of Personnel Psychology). — p. 546
+
+**Psychology Society of China** Founded in Nanking in 1937. All activities of the society, including publication of the Journal of the Psychology Society of China, have been suspended since the war began. Membership : 57. Officers :—Tang Yueh, Lu Chih-wei · Timothy T. Lew, Ai Wei, Hsiao Hsiao-yung, Chou Hsien-keng. — p. 546
+
+**Public Health Reconstruction, China Association of** (see China Association of Public Health Reconstruction). — p. 546
+
+**Public Health Society, The China** (see China Public Health Society). — p. 546
+
+**Racial Minorities, Chinese Institute for the Study on** (see Chinese Institute for the Study on Racial Minorities). — p. 546
+
+**Radio League, China Amateur** (see China Amateur Radio League). — p. 546
+
+**Reconstruction Association, New Northwest** (see New Northwest Reconstruction Association). — p. 546
+
+**Reconstruction Association, Northwest** (see Northwest Reconstruction Association). — p. 546
+
+**Reconstruction Problems on North China, Research Society of** (see Research Society of Reconstruction Problems on North China). — p. 546
+
+**Reconstruction Research Society, Kwangsi** (see Kwangsi Reconstruction Research Society). — p. 546
+
+**Reconstruction Society of China** Founded in Nanking on March 29, 1929, to promote development of spiritual and material reconstruction. Membership : 1,000. Officers :—Directors, Chang Jen-chieh, Li Li-yin, Wu Chih-hui, Yeh Chu-tsang, Wei Tao-ming, Chen Li-fu, Tseng Yang-fu. Address :—4th Floor, Ta Chwan Bank, 20 Lin Sen Rd., Chungking. — p. 547
+
+**Red Swastika in China, Joint General Office of** (see Joint General Office of Red Swastika in China). — p. 547
+
+**Refugee Children, National Association for** (see National Association for Refugee Children). — p. 547
+
+**Refugees, The Association for the Settlement of War** (see Association for the Settlement of War Refugees). — p. 547
+
+**Relief, Chinese National Women's Association for War** (see Chinese National Women's Association for War Relief). — p. 547
+
+**Relief Committee of China, International** (see International Relief Committee of China). — p. 547
+
+**Religious Association of China** Organized in June, 1943, to advance freedom of religion with special emphasis on spiritual enrichment and social service. Principal activity is to pool together efforts of people embracing various religious faiths for the furtherance of the cause of peace among all nations. Branch associations are being organized. Membership : 300. Officers :—Executive Directors, Feng Yu-hsiang, Pai Chung-hsi, Abbot Tai Hsu, Paul Yupin, Chen Wen-yuan; Executive Supervisors, Chen Ming-shu, Tang Ko-san, J. L. Huang; Secretary-General, Wei Li-min. Address :—c/o Chinese Buddhist Association, Lo Han Monastery, Min Tsu Rd., Chungking. — p. 547
+
+**Research Society of Personnel Psychology, The** Founded on December 6, 1941, to study the basic theories of personnel psychology so as to improve personnel administration. Membership : 115. Officers :—Executive Director, Hsiao Hsiao-yung. Address :—Department of Psychology, National Central University, Shapingpa, Chungking. — p. 547
+
+**Research Society of Post-war Reconstruction Problems** Founded on September 27, 1942. Membership : 123. Officers :—Executive Directors, Fan Hsien-hua, Wan Chung-yin, Chang Fang-ngo. Address :—c/o Fang Hsien-hua, Central Planning Board, Chungking. — p. 547
+
+**Research Society of Present-Day Education** Founded in May, 1941, to study educational theories and practical problems in education. Membership : 123. Address :—c/o Wang Wen-hsin, Ministry of Education, Chungking. — p. 547
+
+**Research Society of Reconstruction Problems on North China, The** Founded on December 5, 1943. Membership : 193. Officers :—Directors, Keh Tan, Chen Pan-ling, Fu Ju-lin, Han Keh-wen. Address :—1, Chun Shen Rd., Chungking. — p. 547
+
+**Research Society of Wartime Japan, The** Founded in 1938. Membership : 63. Officers :—Secretary-General, Sung Fei-ju ; Deputy Secretary-General, Wang Nai-chang. Address :—Sub. No. 1, 170 Chung I Rd., Chungking. — p. 547
+
+**Rice Growing Association of China, The** Founded in 1944. Membership : 96. Officers :—Executive Director, Chao Lien-fang. Address :—Department of Rice Growing, Central Agricultural Laboratory, Peipei, Szechwan. — p. 547
+
+**Rotary International** The first Rotary Club in China was founded in Shanghai in the latter half of 1919. It grew rapidly until it attained a membership of about 130 at the outbreak of the Pacific War. At present only four clubs are functioning in China. They are located in Chungking, Chengtu, Kunming and Sian. Clubs in Amoy, Antung, Canton, Foochow, Hangchow, Hankow, Harbin, Mukden, Nanking, Ningpo, Peiping, Foochow, Swatow, Tientsin, Tsinan Tsingtao, Wusih, Wuchow and Wuhu had to suspend their activities after Japanese occupation. associations have been founded. in Chekiang, Anhwei, Hunan, Hupeh, Honan, Shansi, Nanking, Shanghai, Peiping, Tientsin, Tsingtao. Membership : 2,321. Officers :—Executive Directors, Chen Li-fu, Wu Cheng-lo, Ku Yu-chuan, Tsou Shu-wen, Wei Hsueh-jen, Hsu En-tseng ;. Secretary-General, Chang Pei-hai. Address :—282 Kuo Fu Rd., Chungking.. — p. 547
+
+**The Chungking Rotary Club** holding charter number 4471, was organized in June, 1937. Most important part of its project for this year (1944) is to raise funds for the establishment of a new eye clinic under the auspices of the Association for the Welfare of the Blind. Its present membership is 50. Officers :—Chungking Rotary Club— President, Col. Morris B. De Pass, Jr. ; Vice-President, K. Huang; Socretary, S. T. Chang ; Treasurer, Martin Gold ; Directors, G. Findley Andrew, Dwight Edwards, Richard Shim ; Sergeant-at-Arms, C. H. Sheng. Address :—c/o S. T. Chang, Texas Co., Lungmenhao, Chungking. — p. 548
+
+**Rural Economy, China Association of** (see China Association of Rural Economy). — p. 548
+
+**Rural Reconstruction, National Association for** (see National Association for Rural Reconstruction). — p. 548
+
+**Russian-Returned Students' Association** Founded in 1939. Membership : 130 individual members and two group members. Officers :—President, Shao Li-tze ; Executive Directors, Ho Chung-han, Chu Wu, Kang Che, Kao Chuang-chu. Address :—236 Min Tsu Rd., Chungking. — p. 548
+
+**Salt Administration Society, The** Chinese (see Chinese Salt Administration Society). — p. 548
+
+**San Min Chu I Society of China, The** Founded on May 5, 1944. Officers :—Directors, Liang Han-chao, Pan Kung-chan, Kan Nai-kuang, Tao Po-chuan. Address :—c/o Chang Tieh-chun, Ministry of Information, Chungking. — p. 548
+
+**Sanitary Engineering Society, Chinese** (see Chinese Sanitary Engineering Society). — p. 548
+
+**Sanitation, China Society of Wartime Community** (see China Society of Wartime Community Sanitation). — p. 548
+
+**Science Promotion Association of China** Founded in 1933 for the promotion of popular scientific movement. Branch — p. 548
+
+**Science Society of China** Founded in 1914, the society has a biological research institute at Peipei (Szechwan) and the Ming Fu Library in Shanghai. Publications include the Science Monthly, the Science Pictorial, Natural Sciences and Human Life, books on practical civil engineering, booklets on biological research, and books on popular science. Membership : 2,500. Officer :—President, Zen Hung-chun. Address :—c/o Biological Research Institute, Chinese Association of Natural Sciences, Peipei, Szechwan. — p. 548
+
+**Science Society of China, The Applied** (see Applied Science Society of China). — p. 548
+
+**Sciences, China Society of Natural** (see China Society of Natural Sciences). — p. 548
+
+**Sciences, Chinese Association of Social and Cultural** (see Chinese Association of Social and Cultural Sciences). — p. 548
+
+**Shipbuilding Engineering Society of China, The** Founded on February 1, 1943. Membership : 76. Officers :—President, Ma Teh-chi ; Executive Directors, Sung Chien-hsun, Hsu Tsu-shan. Address :—c/o National Merchantile Marine School, Kiangpei, Szechwan. — p. 548
+
+**Shue Wen Society** Founded on May 16, 1943, to engage in academic studies, and to propagate national culture. Membership : 361. Officers :—President, Wei Tsu-hsien ; Executive Director, Chin Shu-fu ; Executive Supervisors, Wu Chih-hui, Yu Yu-jen, H.H. Kung. Address :—19 Shensi Rd., Chungking. — p. 548
+
+**Sino-British Cultural Association** Founded on October 10, 1933, in Nanking, for the promotion of cultural relations and friendship between the peoples of China and Great Britain. The association has sponsored British professorships and lecturerships in Chinese universities and also introduced Chinese scholars to lecture in British institutions of higher learning. Among other activities are holding of lectures on British culture and Sino-British relations, translation of Chinese works into English and vice versa, and social meetings. A periodical Amity is published in English. Membership: 678. Branch associations in Chengtu and Kunming; formerly one in Hongkong. Officers :—Presidents, Wang Shih-chieh, Sir Horace Seymour; Secretary-General, Han Li-wu; Standing Committee, Chang Ping-chun, Chang Tao-fan, Cheng Tsang-po, Lo Chia-lun, Han Li-wu, Wang Yun-wu, Chang Si-man, Lone Liang, G. V. Kitson, G. S. Patterson, A. J. Bell, W. G. Harmon. Address :—97 Chung San Rd., Chungking. — p. 548
+
+**Sino-Burman Cultural Association** Founded on December 21, 1939, to promote cultural relations and goodwill between China and Burma and to further Sino-Burman cooperation. In August, 1941, the association sponsored a Chinese Goodwill Mission to Burma, headed by Dr. Chiang Mon-lin, to return the courtesies of the Burmese Goodwill Mission to China in 1939. Since the fall of Rangoon, the association has helped students of Rangoon University to enrol in Chinese universities. Forums on questions relating to Burma are held from time to time. Other activities include conducting classes for the training of Burmese interpreters in Yunnan Province; compiling a guide to Burma; maintaining liaison workers in western Yunnan; and operating a language school in Chungking. Membership: 348. Sister organizations in Rangoon, Mandalay and Lashio were suspended because of the war. There is a Sino-Burman branch in Kunming. Officers :—President, Lo Chia-lun; Vice-Presidents, Chang Wei-han, Daw Mya Sein (Miss Mya Sein); Secretary-General, Han Li-wu; Deputy Secretaries-General, H. P. Tseng, Ganga Singh. Address :—197 Chung San Rd., Chungking. — p. 549
+
+**Sino-Czechoslovakian Cultural Association** Founded on March 3, 1944. Officers :—Directors, Tseng Yang-fu, Liang Lung, Kuo Tai-chi, Yu Ta-wei, Kung Hsueh-sui, Wang Chia-hung. Address :—c/o Wang Chia-hung, Ministry of Foreign Affairs, Lin Sen Rd., Chungking. — p. 549
+
+**Sino-French-Belgian-Swiss Cultural Association** Founded on March 26, 1939, for the purpose of promoting cultural relations. This organization also conducts classes in French and accounting and statistics and engages in academic studies and lectures. Branch associations are located in Kunming, Chengtu, and Sian. Membership 2,194. Bulletins of the Sino-French-Belgium-Swiss Cultural Association and L'Europe et L'Asie (both in Chinese) and booklets are published. Officers :—President, Wu Chih-hui; Director, Mao Ching-hsiang; Chief Secretary, Hsu Chung-nien; Secretary-General, Paul Tchou. Address :—24 Shun Cheng Street, Linkiangmen, Chungking. — p. 549
+
+**Sino-Indian Cultural Society** Founded in Nanking on May 2, 1933, for the purpose of promoting cultural relations between China and India. The association has donated valuable collections of Chinese classics to the International University in India, and has contributed funds for the construction of the university's China College buildings and dormitory. Membership: 156. (India Branch : International University, Calcutta). Officers :—Executive Committee—Chairman, Chu Chia-hua ; Vice-Chairman, Ku Meng-yu ; Supervisory Committee—Chairman, Tai Chi-tao ; Vice-Chairman, Chen Pu-lei ; Resident Members of the Executive Committee, Chang Tao-fan ; Secretary-General, T. H. Cheng. Address :—Liang Fu Chih Lu, Chungking. — p. 549
+
+**Sino-Korean Cultural Association** Founded on October 11, 1942. Activities include holding regular meetings to commemorate the Korean Revolution and to discuss problems concerning the independence of Korea; conducting historical and cultural researches of Korea; and compiling a series of books on Korea. Membership: 362. Officers :—President, Sun Fo; Executive Directors, Wu Te-chen, Chu Chia-hua, Pan Kung-chan, Kang Che, Ssutu Te, Chang Yuan-lao, King Lao-shan (Korean), King Kwei-kuang ; Executive Supervisors, Wang Shih-chieh, Ma Chao-chun, Tsui Tung-mou (Korean). Address :—9 Kiang-Chia Hsiang, Wu Ssu Rd., Chungking. — p. 549
+
+**Sino-Latin-American Institute of Cultural and Economic Relations** Founded in Chungking on August 8, 1944, to promote mutual understanding and cultural and economic collaboration between China and the Latin-American countries. A new building is being put up to quarter the institute while preparations are being made to conduct a library and a school to teach the Spanish language. A membership campaign is under way. An Economic Research Committee has been appointed to devise measures for strengthening the economic ties between China and the Latin-American countries. The committee sponsors a series of public lectures on Latin-American culture given by Chinese and foreign experts. The first lecture was delivered by Jacquim Euladio de Nascimento Silva, Brazilian Ambassador to China, at the end of August. Officers :—Honorary Members of Board of Executives: Wu Te-chen, Chen Tien-ku, Chen Chieh, Jacquim Euladio de Nascimento Silva ; Board of Executives, Chen Li-fu, Wong Wen-hao, Chow Chi-kang, Alfonso Castro Valle, Philip K. C. Tyau, Chao Ti-hua, Chang Tao-hsing, Nieh Siu-wu, Lei Hsiao-min, Kiang Hsi-lin, Chen Yao-wan ; Executive Directors, Chen Li-fu, Wong Wen-hao, Chow Chi-kang; Board of Supervisors, K. P. Cheng, Chen Tien-fang, Chang Chung-fu ; Secretary-General, Chang Tao-hsing ; Chairman of Economic Research Committee, Wong Wen-hao. | There are 13 branch associations located in Yuanling (Hunan), Kukong, Kweiyang, Lanchow, Chengtu, Tihua, Kunming, Sian, Chungking, Ili (Sinkiang), Tacheng (Sinkiang), Yenan, and South-eastern Shensi. Officers :—President, Sun Fo ; Vice-Presidents, Shao Li-tze, Chen Li-fu ; Executive Directors, H. C. Liang, Wang Kun-lun, Chang Si-man, Pu Tao-ming, Li Te-chuan (Mme. Feng Yu-hsiang), Tsao Tsing-hua, Chou I-chih, Simen Tsung-hua, Hsu Pao-chu, Wang Yun-wu, Ke I-hung, Wen Yuan-ning, Hung Fang, L. W. Miklashevsky, E. F. Kovalev. Address :—198 Chung I Rd., Chungking. — p. 549
+
+**Sino-Polish Cultural Association** First founded in June, 1933, in Nanking. Suspended when the war broke out but revived in Chungking in April, 1943. Membership : 93. Officers :—President, Chen Li-fu ; Directors, Chen Chien-hsiu, Kuo Yu-shou, Li Hsi-mou, Peon Ju, Chiang Fu-tsung, Yu Ho-jui, Fang Fu-lin, Keng Chiao, A. H. Kokczynski, M. Habicht ; Secretary-General, Yu Ho-jui. Address :—Yu Ho-jui, Ministry of Foreign Affairs, Chungking. — p. 550
+
+**Sino-Soviet Cultural Association** Founded in Nanking on September 30, 1935, to promote Sino-Soviet cultural relations. In 1939 the association sponsored an exhibition of Chinese fine arts in the U.S.S.R. Exhibitions of photographs depicting life, progress, re-construction in U.S.S.R., lectures, and exchange of Chinese and Soviet cultural matters are frequently sponsored. The association also maintains a Russian-language school in Chungking. In addition to the monthly magazine, the Sino-Soviet Cultural Relations, eight booklets have been published. Membership : 1,444. — p. 550
+
+**Sino-Thailand Association** Founded on September 9, 1943. Membership : 320. Officers :—President, Wu Te-chen ; Executive Directors, Chang Tao-fan, Chou Chi-kang, Cheng Chieh-min, Shih Ang Tu La Leh (Thailander). Address :—c/o Yeh Yung-lin, Ministry of Foreign Affairs, Lin Sen Rd., Chungking. — p. 550
+
+**Sinology Society, China** (see China Sinology Society). — p. 550
+
+**Social Administration Society of China, The** Founded in March, 1944. Officers :—President, Sun Pen-wen ; Directors, Wu Wen-tsao, Chen Ta and others. — p. 550
+
+**Social Affairs Personnel, Association for Wartime Adjustment of** (see Association for Wartime Adjustment of Social Affairs Personnel).- — p. 550
+
+**Social and Cultural Sciences, Chinese Association of** (see Chinese Association of Social and Cultural Sciences). — p. 550
+
+**Social Education, Chinese Association of** (see Chinese Association of Social Education). — p. 550
+
+**Social Problems Research Society, Chinese** (see Chinese Social Problems Research Society). — p. 550
+
+**Social Service, China Association of** (see China Association of Social Service). — p. 550
+
+**Society for Studies in Confucianism** Founded on April 22, 1942, for the promotion of Confucianism and Chinese national culture. A college for studies in Confucianism is being established, with an attached middle school already in existence at Fowling, Szechwan. Membership: 670. Officers: —President, H. H. Kung; Executive Directors, Wu Chih-hui, Chang Chi, Ting Wei-fen, Yeh Chu-tsang; Secretary-General, Tan Kuang. Address: —31 Chung Ssu Rd., Chungking. — p. 550
+
+**Society of Chinese Architects** Founded in Shanghai in 1937, but moved to Chungking in 1941 due to the war. The society sponsors annually prize-winning design contests among university and college students majoring in architectural engineering. Membership: 80. One branch in Chungking. Officers: —President, H. S. Luke; Directors, S. S. Kwan, Ha Hsiung-wen, Huang Chia-hua, Yang Ting-pao, W. P. Lei, Liu Fu-tai. Address: —c/o H. S. Luke, Architecture Section, Bank of China, Chung Cheng Rd., Chungking. — p. 551
+
+**Society of Chinese Arts History** Founded in 1937 to study history of Chinese fine arts and to advance Chinese culture. Membership: 45. Officers: —Executive Directors, Tsung Pai-hua, Jen Chang-hsia, Chin Tsing-ai. Address: —c/o Jen Chang-hsia, National Central University, Chungking. — p. 551
+
+**Society of Educational Tests** Founded on June 21, 1931, in Nanking, with the aim of making tests in various problems of Chinese education. Twelve kinds of tests have been devised and carried into effect. Membership: 310. Officers: —Executive Directors, Ai Wei, Hsiao Hsiao-yung, Yi Ke-hsuen. Address: —c/o Psychological Laboratory, National Central University Branch School, Po Chi, Chungking. — p. 551
+
+**Society of International Economics** Membership: 103. Officers: —Executive Directors, Ling Ping, Fung Chi-ling, Chi Chao-ting, Hsu Heng-chu; Directors, Chang Nai-chi, Yin Wen-chin, Li Tsung-wen, Li Teh-ying, Chang Yu-kiang, Lo Tun-wei, Li Pin-huan, Chu Chi, Tsui Chin-po, Ting Tso-shao; Secretary-General, Cato Young. Address: —44 Fu Hsing Village, Hsiang Chia Po, South Bank, Chungking. — p. 551
+
+**Society of Northeastern Youths** Founded in May, 1940, as a federation of youths who are natives of the Northeastern provinces. There are 12 branches in various provinces. Officers: —Executive Directors, Li Yin-chun, Lin Peng, Chao Shih-chi, Chang Hung-tu, Chow Mu-wen, Chang Shen-fu, Wang Tsung-hsi. Address: —17 Jan Chia Hsiang, Chungking. — p. 551
+
+**Sociology Society, China** (see China Sociology Society). — p. 551
+
+**Soil Mechanics, Chinese Society of** (see Chinese Society of Soil Mechanics). — p. 551
+
+**South Seas Chinese Association, The** Founded on May 10, 1942, to help foster the enterprises of Chinese residents in the South Seas. Membership: 481. Officers: —President, Wu Te-chen; Executive Directors, Hsu Shih-ying, Hsu En-tseng, Chen Ching-yun, Pei Sung-sun. Address: —c/o Chang Yuan-lo, Ministry of Information, Chungking. — p. 551
+
+**Southwestern Industrial Federation** Founded in 1939 for the development of resources in Szechwan, Kwangsi, Kweichow and Yunnan provinces through leaders and representatives of industrial, commercial, agricultural and mining circles. Activities include research, investigations and compilation of statistics on industries in Southwestern provinces, planning of industrial development, training of technical and administrative personnel, and publication of Southwestern Industrial Bulletin monthly. Three branches. Officers: —Kang Hsin-ju, Ho Pei-heng. Address: —Chiu Ching Middle School, Chung Ssu Rd., Chungking. — p. 551
+
+**Statistics Society of China** Founded in 1930 to promote statistical work in China and to study theories and methods of statistics. The Thesis on Statistics and the Report of the Statistics Society have been published. Membership: 834. Officers: —President, Wu Ta-chun; Directors, Chao Chang-fu, Franklin L. Ho, Chu Chun-i, Cheng Yao-pan; Directors, D. K. Lieu, King Kuo-pao, Wang Chung-wu, Wang Lung, Chen Chang-heng, Franklin Ho, Li Cheng-mo. Address: —c/o Li Hui-yuan, Chungking Municipal Government, Chungking. — p. 551
+
+**Steamship Pilots Association of China** Organized by steamship pilots for mutual-aid, fellowship, promotion and improvement of technique and service efficiency. Membership: 247. Officers: —Chairman, Huang Yu-shih; Vice-Chairman, Chow Hai-ching. Address :—18 Mawangmiao Street, Chaotienmen, Chungking. — p. 551
+
+**Student Service Fund Committee in China, International** (see International Student Service Fund Committee in China). — p. 552
+
+**Sun Yat-sen Memorial Cultural Institute** Founded in Nanking in 1933. The institute, which is one of the most important cultural organizations in China, centers its interest on the study of Chinese history, society, thought, and culture, the investigation of Chinese social and economic conditions, and the translation of authoritative literature published abroad. A Post-war World Reconstruction Research Committee was organized in 1943 (the first Chinese civil organization to have a special committee for the study of post-war problems) to study and report on proposals and plans suggested by Chinese and foreign authors and also to formulate its own plans and suggestions. The institute has now undertaken the investigation and survey of: (1) the people's opinion of the Three People's Principles; (2) local administration under Kuomintang political tutelage; (3) social and economic conditions of Chinese frontier peoples; and (4) the number of contributions of experts on Party principles. Twenty-nine translations of well-known works of international authorities were published before the war. This “Sun Yat-sen Library” series is being continued. The institute published a monthly before the war and a semi-monthly during the first stage of the war. Both have been suspended. The Sun Yat-sen Culture Quarterly, the Ethnological Quarterly, the Democracy Quarterly and the People's Livelihood Quarterly are now published. Officer :—Director, Sun Fo. Address :—Peipei, Szechwan. — p. 552
+
+**Ta Tung (Cosmopolitan) Society, The** Founded on August 26, 1943, to study cosmopolitanism as advocated by Dr. Sun Yat-sen and to promote cosmopolitanism. Membership : 490. Officers :—President, Hsu Shih-ying; Directors, Liu Wen-tao, Liang Han-chao, Ho Chien, Ho Kuo-kuang and others. Address :—78 Min Chuan Rd., Chungking. — p. 552
+
+**Ta Tung Musical Society, The** Founded in 1930 to study Chinese music. Membership : 60. Officers :—Executive Directors, Pan Kung-chan, Wang Hsiao-lai, Li Shih-tseng. Address :—16 Tsao An Hsiang, Huei Fu Street, Chungking. — p. 552
+
+**Tibetan Culture, Association for the Promotion of** (see Association for the Promotion of Tibetan Culture). — p. 552
+
+**Transportation Society, the Chinese** (see Chinese Transportation Society). — p. 552
+
+**Transportation Society, the Chinese Stage** (see Chinese Stage Transportation Society). — p. 552
+
+**Vocational Education of China, National Association of** (see National Association of Vocational Education of China). — p. 552
+
+**Wartime Association of Labor, The** Founded in January, 1939, for the promotion of culture among laborers and guidance of their livelihood in wartime. With a main office in Chungking, branches have been established in Sian, Lanchow, Kweiyang, Chungking and Hsiakwan. The Wartime Laborer is published monthly. Membership : 2,680. Officers :—Chairman, Li Yuan-po; Executive Directors, Chu Sui-ju, Chang Ping-i, Kao Lan-po, Peng Li-jen. Address :—82 Shangchingssu Street, Chungking. — p. 552
+
+**Wartime Production, China Association for the Promotion of** (see China Association for the Promotion of Wartime Production). — p. 552
+
+**Weights and Measures Society of China, The** Organized on July 14, 1940, to study applied science for the promotion of China's new weights and measures system. Under the auspices of the society, British and German weights and measures regulations have been translated into Chinese. Books compiled and published by the society include the Outline of History of Weights and Measures and other books and reports. The Weights and Measures Companion is published periodically. Membership : 456. Branch societies are located in Taiho, Chengtu, and Lanchow. Shanghai, Hupeh, and Honan branches are temporarily suspended. Officers :—President, Chenglott Wu; Secretary-General, T. C. Liao; Chairman of Board of Directors, Cheng Li-ming; Secretary, Lou Chih-chung; Corresponding Secretary, Fan Ti-yun; Treasurer, Weng Chung-heng. Address :—56 New Villa, Peipei, Szechwan. — p. 552
+
+**West China Border Research Society, The** Founded in 1922 to promote scientific studies connected with the topography, peoples, cultures and environments of West China, especially as they affect the tribespeople. The aim of the society has been expanded to include the encouragement of research in Chinese culture and in natural history in the western provinces of China. The Journal of the West China Border Research Society, which contains articles, photographs, maps and drawings covering subjects such as archaeology, anthropology, biology and medicine, is published annually. Series of monthly lectures are held yearly. Present membership is 200 (Chinese and foreign) of whom about 20 are residents abroad. Officers :—Executive Committee for 1942-43—President, Hou Pao-chang; Vice-President, H. L. Richardson; Treasurer, R. C. Spooner; Editors, Series A, D. C. Graham; Series B, K. J. Richardson; Librarian, D. C. Graham (Mrs.), Member-at-Large, L. G. Kilborn; Secretary, Cheng Te-kun. Address :—West China Union University Museum, Chengtu. — p. 553
+
+**Women's Association for War Relief, Chinese National** (see Chinese National Women's Association for War Relief). — p. 553
+
+**Women's Christian Temperance Union, Chinese** (see Chinese Women's Christian Temperance Union). — p. 553
+
+**Women's Club, Chungking International** (see Chungking International Women's Club). — p. 553
+
+**Women's Mutual Aid Association, Chinese** (see Chinese Women's Mutual Aid Association). — p. 553
+
+**Women's Society for Study of Constitutionalism, Chinese** (see Chinese Women's Society for Study of Constitutionalism). — p. 553
+
+**Women's Vocational Association, Chinese** (see Chinese Women's Vocational Association). — p. 553
+
+**Wood-cut Society, China** (see China Wood-cut Society). — p. 553
+
+**World Student Association, China Branch** With all the universities and colleges in China as group members, represented by presidents of these institutions, the China Branch of this world-wide organization was founded in February, 1939. Through its regular correspondence with and contributions to the Students of the World, publication of the main association in the U. S., and other channels, close coordination is maintained with student associations and youth organizations throughout the world. Outstanding work includes the books-for-Chinese-university-libraries movement and the publication of Chinese and English editions of Students in Wartime. Officers :—Chairman of Board of Directors, Chang Po-ling; Vice-Chairman, Wu Yi-fang (Miss); Secretary, Paul R. Sung; Treasurer, Chen Shih. Address :—c/o YMCA, Chungking. — p. 553
+
+**Wounded Soldiers, National Christian Service Council for** (see National Christian Service Council for Wounded Soldiers). — p. 553
+
+**Writers, Association of Young Chinese** (see Association of Young Chinese Writers). — p. 553
+
+**YMCA of China, The National Committee** (see National Committee, YMCA of China). — p. 553
+
+**YWCA, National Committee of the** (see National Committee of the YWCA). — p. 553
+
+**Youths, Society of Northeastern** (see Society of Northeastern Youths). — p. 553
+
+**Y's Men's Club, International Association of** (see International Association of Y's Men's Club). — p. 553
+
+**Zoology Society of China, The** Founded in August, 1934. Membership: 201. Officers :—Directors, Chen Cheng, Ching Li-pin, Tu Tseng-jui, Tsui Chih-lan. Address :—c/o Chen Cheng, National Southwestern Associated University, Kunming. — p. 553
+
+
+## Chinese Who's Who
+
+**Ai, Sha** Muslim leader, born in Sinkiang, 1908; member, Legislative Yuan, since 1936; address, Legislative Yuan, Chungking. — p. 
+
+**Ai, Wei** professor, born in Hupeh, 1891; B.S., St. John's Univ., 1919; M.A., Columbia, 1922; Ph.D., George Washington Univ., 1925; research fellow, Univ. College, London, 1932; professor, National Central (formerly National Southeast) Univ., since 1925; professor and director, Research Institute of Educational Psychology, National Central Univ., since 1939; director, Research Institute of Normal Education, same institution, since 1944; appointed by Ministry of Education "Ministry-appointed professor" in psychology, 1942; address, National Central Univ., Chungking. — p. 
+
+**Chan, Chak (see Chen, Che)**  — p. 
+
+**Chang Ai-chen (prefers Vera Chang)** woman leader, born in Kiangsu, 1901; M.A., Michigan; secretary-general, Women's Advisory Council, New Life Movement Association, since 1938; address, Women's Advisory Council, Chungking. — p. 
+
+**Chang Carson (see Chang, Chun-mai)**  — p. 
+
+**Chang Chen** Lieut.-General army officer, born in Hunan, 1899; graduate, Whampoa Military Academy, 1925, Sun Yat-sen Univ., Moscow, 1927; deputy commander of gendarmerie, 1937-44; dean, Gendarmerie School, since 1940; commander of gendarmerie, since 1944; address, Gendarmerie Headquarters, Chungking. — p. 
+
+**Chang, Chi** Kuomintang official, born in Hopei, 1882; member, Kuomintang Central Executive Committee, 1924-29; chairman, Hopei branch, Kuomintang Central Political Council, 1928; state councillor, National Government, and vice-president, Judicial Yuan, 1928-31; president, same Yuan, 1932; member, standing committee, Kuomintang Central Supervisory Committee, since 1929; address, Kuomintang Central Headquarters, Chungking. — p. 
+
+**Chang, Chi-yun (prefers G. Yun Chang)** professor, born in Chekiang, 1901; graduate, Nanking Normal College, 1923; former professor of geography, National Central Univ. and Central Political Institute; professor and head, department of history and geography, National Chekiang Univ., since 1926; author, History of Chinese Military Operations and Great Chinese Educators; now lecturing in U.S.A.; address, c/o Chinese Embassy, Washington, D.C. — p. 
+
+**Chang, Chia-ao (prefers Chang Kia-ngau)** government official, banker, born in Kiangsu, 1888; graduate, Keio Univ., Tokyo, 1912; deputy governor, Bank of China, 1917-28; general manager, same bank, 1928-35; deputy governor, Central Bank of China, since 1935; minister of railways, 1935-37; minister of communications, 1927-42; advisor, Executive Yuan, since 1942; now in U.S.A.; address, c/o Chinese Embassy, Washington, D.C. — p. 
+
+**Chang, Chia-chu** industrialist, government official, born in Kiangsu, 1903; attended Clark and Columbia Univ., 1921-25; general secretary, Foreign Trade Association, 1935-37; general manager, China Vegetable Oil Corporation, since 1936; member, Foreign Trade Commission, Ministry of Finance, since 1938; address, Foreign Trade Commission, Chungking. — p. 
+
+**Chang Chia Hutuketu** Mongolian Living Buddha, born in Ching-hai, 1892; member, Kuomintang Central Supervisory Committee, since 1926; address, Office of Chang Chia Hutuketu, Chungking. — p. 
+
+**Chang, Chiang** party official, born in Chekiang, 1901; graduate, National Peking Univ.; member, Kuomintang Central Executive Committee, since 1935; vice-minister, Kuomintang Board of Organization, 1942-44; address, Kuomintang Central Headquarters, Chungking. — p. 
+
+**Chang, Chien (prefers Henry K. Chang)** diplomatic official, born in Kwangtung, 1889; LL.B., Pennsylvania, 1909; consul-general, New York, 1931; minister to Chile, 1933-34; director, American affairs department, Ministry of Foreign Affairs, 1942-43; minister to Portugal, since 1943; address, Chinese Legation, Lisbon. — p. 556
+
+**Chang, Chih-chiang** General (prefers Paul C. C. Chang) army officer, born in Hopei, 1881; former governor of Chahar; commander, Northwestern Defense Forces; now member, Military Advisory Council, and president, National Normal School of Physical Education; address, National Normal School of Physical Education, Chungking. — p. 556
+
+**Chang, Chih-chung** General army officer, born in Anhwei, 1890; graduate, Paoting Military Academy, 1916; defended Shanghai area in co-operation with 19th Route Army, 1932; dean, Central Military Academy, 1932-37; garrison commander, Nanking-Shanghai area, 1937; commanding all Chinese forces fighting Japan in Shanghai-Woosung area, 1937; governor, Hunan Province, 1937-39; aide-de-camp to Generalissimo, 1940; minister, Political Training Board, National Military Council, and secretary-general, San Min Chu I Youth Corps, since 1940; address, Political Training Board, Chungking. — p. 556
+
+**Chang, Chih-pen** government official, born in Hupeh, 1881; graduate, Tokyo Law College; governor, Hupeh Province, 1927-28; vice-chairman, Constitution Drafting Committee, Legislative Yuan, 1933-36; member, Kuomintang Central Executive Committee, since 1931; president, Administrative Court, since 1943; address, Administrative Court, Chungking. — p. 556
+
+**Chang, Chin-yi** novelist, professor, born in Chekiang; professor, National Futan Univ., since 1943; editor, Quarterly Journal of Literature; author of 20 novels and short stories; address, National Futan Univ., Chungking. — p. 556
+
+**Chang Ching-hai (prefers H. H. Chang)** diplomatic official, born in Chekiang, 1898; Ph.D., Harvard, 1922; minister to Portugal, 1933; minister to Poland, 1934-37. — p. 556
+
+**Chang, Ching-yu** government official, born in Shantung, 1895; studied at Liverpool; director, Internal Revenue Administration, Ministry of Finance, since 1940; address, Ministry of Finance, Chungking. — p. 556
+
+**Chang, Chun** General government official, born in Szechwan, 1888; graduate, Tokyo Military Cadets' Academy; member, National Military Council, 1926-28; member, Kuomintang Central Executive Committee, since 1928; mayor of Shanghai, 1930-31; governor, Hupeh Province, 1933-35; minister of foreign affairs, 1935-37; secretary-general, Kuomintang Central Political Council, 1937; vice-president, Executive Yuan, and director, Generalissimo's Provisional Headquarters in Szechwan, 1938; director, Generalissimo's Provisional Headquarters in Chengtu, and governor, Szechwan Province, since 1940; address, Szechwan Provincial Government, Chengtu. — p. 556
+
+**Chang, Chun-mai (prefers Carson Chang)** jurist, born in Kiangsu, 1886; educated in Japan, Germany and England; member, People's Political Council, since 1938; member, presidium, same council, 1940-42; leader, Chinese National Socialist Party; address, People's Political Council, Chungking. — p. 556
+
+**Chang, Chung-fu** government official, born in Hupeh, 1901; B.A., Michigan, 1925; M.A., Harvard, 1927; Ph.D., Johns Hopkins, 1929; professor, National-Peking Univ., 1933-37; counsellor, National Military Council, since 1927; director, American Affairs department, Ministry of Foreign Affairs, since 1943; author, History of Chinese Diplomacy; address, Ministry of Foreign Affairs, Chungking. Salt Administration, since 1943; Salt Administration, Chungking. — p. 556
+
+**Chang, Fa-kwei** General army officer, born in Kwangtung, 1896; graduate, Hupeh Military Academy; member, Kuomintang Central Supervisory Committee, since 1931; commander, Chekiang-Fukien-Anhwei-Kiangsi border area, 1936; commander-in-chief, 4th War Area, since 1939. — p. 557
+
+**Chang, Fang** General army officer, born in Honan, 1886; graduate, Paoting Military Academy, commander-in-chief, 12th Group Army, 1938; vice-president, Military Advisory Council, since 1938; address, Military Advisory Council, Chungking. — p. 557
+
+**Chang, G. Yun** (see Chang, Chi-yun) — p. 557
+
+**Chang, H. H** (see Chang, Ching-hai) — p. 557
+
+**Chang, Han-ying** engineer, government official, born in Shantung, 1900; B.S., Univ. of Illinois, 1924; M.C.E., Cornell, 1925; acting chairman, Yangtze River Conservancy Commission, 1940-41; chairman, Yellow River Conservancy Commission, 1941-43; member, National Conservancy Commission, since 1943; author of several books on water conservancy, including The Control of Yellow River Flood; address, National Conservancy Commission, Chungking. — p. 557
+
+**Chang, Hen-shui** novelist, journalist, born in Anhwei; manager, Sin Min Pao, Chungking, since 1944; author of more than 50 popular novels, several of them being best sellers; address, Sin Min Pao, Chungking. — p. 557
+
+**Chang, Henry K** (see Chang, Chien) — p. 557
+
+**Chang, Hsi (prefers Tchang Si)** zoologist, born in Hopei, 1898; D.Sc., Lyons Univ., 1931; director, Zoological Research Institute, National Academy of Peiping, since 1932; address, National Academy of Peiping, Kunming. — p. 557
+
+**Chang, Hsiu-wen** government official, born in Hopei, 1888; graduate, Hopei Language School; head, Szechwan Salt Administration, 1939-40; head, Yunnan Salt Administration, 1940-41; director, general department, Salt Administration, 1941-42; director-general, — p. 557
+
+**Chang, Hsueh-liang** General retired army officer, born in Liaoning, 1898; graduate, Northeastern Military Academy; attended Japanese autumn maneuvers, 1921; state councillor, National Government, and chairman, Northeastern Political Council, 1928; commander-in-chief, Northeastern Frontier Defense Forces, 1929; vice-commander-in-chief, National Land, Sea, and Air Forces, 1930; military affairs commissioner, Peiping, and acting chairman, Peiping branch, National Military Council, 1932; toured Europe, 1933-34; vice-commander-in-chief, Bandit Suppression Forces in Honan, Hupeh, and Anhwei, 1934; vice-commander-in-chief, Bandit Suppression Forces in Shensi, 1935-36; leader of Sian Coup, 1936; dismissed from all posts and sentenced to ten years' imprisonment but later pardoned; has been in retirement since 1937. — p. 557
+
+**Chang, Hua-fu** Lieut.-General army officer, born in Hupeh, 1887; graduate, Japanese Staff College, 1919; dean of faculty, Whampoa Military Academy, 1926-27; deputy director-general of military training, 1933-38; chief senior staff officer, Board of Military Operations, National Military Council, since 1938; address, Board of Military Operations, Chungking. — p. 557
+
+**Chang, Hui-chang (prefers Chang Wai-jung)** aviator, diplomatic official, born in Kwangtung, 1898; director, Aviation Administration, Ministry of War, 1930; minister to Cuba, 1935. — p. 557
+
+**Chang, Hung-yuan** university president, born in Szechwan, 1902; D.Sc., M.I.T.; dean, College of Science, National Szechwan Univ., 1938-41; chancellor, National Chungking Univ., since 1941; address, National Chungking Univ., Chungking. — p. 557
+
+**Chang, Jen-chieh** Kuomintang official, born in Chekiang, 1873; member, Kuomintang Central Executive Committee, 1924-26; governor, Chekiang Province, 1927-30; member, Central Supervisory Committee, since - 1926 ; state councillor, National Government, since 1932; address, Central Kuomintang Headquarters, Chungking. — p. 557
+
+
+## Who's Who
+
+**Chang, Kia-ngau** (see Chang, Chia-ao) — p. 558
+
+**Chang, Li-sheng** government official, born in Hopei, 1901; graduate, Paris Univ. ; member, Kuomintang Central Executive Committee, since 1931; secretary-general, Party and Government Work Evaluation Committee, 1941-42; secretary-general, Executive Yuan, since 1942; secretary-general, National General Mobilization Council, since 1944; address, Executive Yuan, Chungking. — p. 558
+
+**Chang, Ling-kao (prefers Lincoln Lin-kao Dsang)** university president, born in Szechwan, 1890 ; M.A., Northwestern Univ., U.S.A. ; B.D. Hon. D.D., Garret Theological College ; Ph.D., Drew Univ.; president, West China Union Univ., since 1933 ; address, West China Union Univ., Chengtu. — p. 558
+
+**Chang, Nai-chi** banker, industrialist, born in Chekiang, 1897; graduate, Commercial School, Chekiang ; assistant manager, Chekiang Industrial Bank, 1930-36 ; member and finance commissioner, Anhwei Provincial Government, 1938-39 ; general manager, Shangchwan Industrial Company, since 1940 ; director, Research Bureau of Industrial Economy, since 1943 ; editor Industrial and Commercial Handbook, 1944 ; address, Shangchwan Industrial Company, Chungking. — p. 558
+
+**Chang, Nai-yan** retired diplomatic official, born in Chekiang, 1894 ; D.Sc., Univ. of Geneva, 1919 ; chancellor, National Central Univ., 1927-30 ; minister to Belgium, 1933-35. — p. 558
+
+**Chang, Paul C. C** (see Chang, Chih-chiang) — p. 558
+
+**Chang, Peng-chun** educator, government official, born in Tientsin, 1892 ; B.A., Clark, 1914 ; M.A. (1916) and Ph.D. (1923), Columbia ; dean, National Tsinghua Univ., 1923-26 ; visiting professor, Univ. of Chicago, 1931, and Univ. of Hawaii, 1933-34 ; member, People's Political Council, 1938 ; minister to Turkey, 1940-42 ; minister to Chile, since 1942 ; address, Chinese Legation, Santiago, Chile. — p. 558
+
+**Chang, Ping-chun (prefers P. H. Chang)** government official, born in Tientsin, 1902 ; graduate, Nankai Univ., 1920 ; studied in England and Germany, 1920-25 ; counsellor, Executive Yuan, since 1934 ; spokesman for the Chinese Government, since 1943 ; address, Executive Yuan, Chungking. — p. 558
+
+**Chang, Ping-chun Lieut.-General** army officer, born in Hopei, 1896 ; graduate, Staff College, 1931 ; graduate, Post-graduate School, Staff College, 1932 ; director, 1st department, Board of Military Operations, since 1940 ; address, Board of Military Operations. — p. 558
+
+**Chang, Po-ling** educator, born in Tientsin, 1874 ; graduate, Peiyang Naval Academy, 1893 ; founder and president, Nankai Univ., since 1904 ; toured America and Europe, 1908 ; revisited America, 1917 ; Hon. Litt. D., St. John's Univ., 1919 ; trustee, China Foundation for Promotion of Education and Culture, 1924-25 ; member, executive council, National Southwest Associated Univ., since 1938 ; deputy speaker, People's Political Council, 1938-40 ; member, presidium, People's Political Council, since 1940 ; president, Chinese Educational Association ; president, China National Amateur Athletic Association ; address, Nankai Univ., Chungking. — p. 558
+
+**Chang, Shih-chao** jurist, born in Hunan ; studied in Japan and England ; former minister of justice and minister of education ; member, People's Political Council, since 1938 ; address, c/o China Industrial Trust, Lin Sen Road, Chungking. — p. 558
+
+**Chang, Tao-fan** Kuomintang and government official, born in Kweichow, 1897 ; graduate, Slade School, Univ. College, London, 1924 ; member and education commissioner, Chekiang Provincial Government, 1931 ; member, Kuomintang Central Executive Committee, since 1935 ; vice-minister of communications, 1933-35 ; vice-minister of interior, 1936-37 ; vice-minister of education, 1938-39 ; dean, Central Political Institute, 1939-41 ; vice-chancellor, same institute, 1941 ; minister of information, 1942-43 ; chairman, Kuomintang Central Cultural Movement Committee, since 1940; minister, Kuomintang Board of Overseas Affairs, since 1943; address, 16 Chao Chia An, Hui Fu, Chungking. — p. 558
+
+
+## Chinese Who's Who
+
+**Chang, Tao-hsing** government official, born in Kiangsu, 1908; LL.B., National Central Univ., 1930; M.A., Northwestern Univ., U.S.A., 1932; Ph. D., Iowa, 1932; senior secretary, Ministry of Foreign Affairs, 1940-44; Counsellor, Chinese Embassy in the Netherlands, since 1944; address, c/o Chinese Embassy, London. — p. 559
+
+**Chang, Tao-min** government official, born in Hupeh, 1907; graduate, London Univ.; member and finance commissioner, Kwangtung Provincial Government, since 1941; address, Department of Finance, Kwangtung Provincial Government, Kukong. — p. 559
+
+**Chang, Ting-fan** Lieut.-General; army officer, born in Kiangsi, 1893; graduate, Paoting Military Academy; mayor of Shanghai, 1927-29; reserve member, Kuomintang Central Executive Committee, since 1935; vice-minister of war, since 1938; address, Ministry of War, Chungking. — p. 559
+
+**Chang, Ting-hsiu (prefers T. S. Chang)** university president, born in Kweichow, 1899; B. A., National Southeast Univ.; research student at London Univ.; chancellor, National Kweichow Univ., since 1942 ; address, Hua Chi, Kweiyang. — p. 559
+
+**Chang, Tze-kai** government official, born in Kwangtung, 1900 ; B. S., Nankai Univ., 1925 ; M.B.A., New York Univ., 1932 ; deputy director, Industrial and Mining Adjustment Administration, Ministry of Economic Affairs, since 1938; address, Industrial and Mining Adjustment Administration, Chungking. — p. 559
+
+**Chang, Tze-li** government official, born in Hunan, 1895; B. Eng., Illinois, 1917; acting director, Chekiang-Kiangsi Railway Administration 1941-42; chief secretary, Ministry of Communications, since 1942; address, Ministry of Communications, Chungking. — p. 559
+
+**Chang, T. S** (see Chang, Ting-hsiu) — p. 559
+
+**Chang, Vera** (see Chang Ai-chen) — p. 559
+
+**Chang, Wai-jung** (see Chang, Hui-chang) — p. 559
+
+**Chang, Wan-li** journalist, born in Shantung, 1908; graduate, Ping Min Univ., 1928; managing director, China Times, Chungking, since 1939; address, China Times, Chungking. — p. 559
+
+**Chang, Wei-chen (Mrs. Lo Chia-lun, prefers Wei-djen Djang Lo)** woman leader, born in Kiangsu, 1898; M.A., Michigan, 1927; Chinese delegate, Pan Pacific Women's Conference, 1934; member, Chinese Goodwill Mission to Burma, 1941; member, People's Political Council, since 1941; director, Women's Work Department, San Min Chu I Youth Corps, since 1944; address, San Min Chu I Youth Corps, Chungking. — p. 559
+
+**Chang, Wei-chun** government official, born in Sikang, 1888; graduate, Paoting Military Academy; member and civil affairs commissioner, Sikang Provincial Government, since 1942; address, Sikang Provincial Government, Kangting, Sikang. — p. 559
+
+**Chang, Wei-han** government official, "born in Yunnan, 1892; studied political science at Tokyo Imperial Univ.; vice-minister of interior since 1939; address, Ministry of Interior, Chungking. — p. 559
+
+**Chang, Wei-tze** government official, born in Kiangsu, 1893; B.A., Iowa, 1914; M.A., Princeton, 1915; Ph.D., Iowa, 1917; professor, National Peking Univ., 1917-27; commercial attache, Chinese Embassy in Washington, 1939. — p. 559
+
+**Chang, Yi (prefers Y. Y. Tsang)** university president, born in Anhwei, 1901; B.A., Futan Univ., 1922; M.A., Univ. of Washington, 1926 ; dean, Futan Univ., 1936-37 ; director, department of general affairs, Ministry of Education, 1938-41 ; director, department of secondary education, same ministry, 1941-43 ; chancellor, National Futan Univ., since 1943 ; address, National Futan Univ., Chungking. — p. 559
+
+**Chang, Yi-chu (prefers Tchang Yitchou)** government official, born in Hunan, 1885 ; graduate, Eccle des Sciences Politiques, Paris ; foreign affairs commissioner for Yunnan, 1912-17 ; member, People's Political Council, since 1941 ; address, People's Political Council, Chungking. — p. 560
+
+**Chang, Yu-che** astronomer, born in Fukien, 1902 ; B.A. (1926), M.A. (1927) and Ph.D. (1929), Chicago ; professor, National Central Univ., 1929-41 ; director, Astronomic Research Institute, Academia Sinica, since 1941 ; address, Astronomic Research Institute, Academia Sinica, Kunming. — p. 560
+
+**Chang, Yuan-shan (prefers Y. S. Djang)** social welfare worker, born in Kiangsu, 1892 ; B.A., Cornell Univ., 1915 ; director, department of cooperation, Ministry of Industries, 1935-37 ; director, department of commerce, Ministry of Economic Affairs, 1938-41 ; executive director, International Relief Committee of China, since 1942 ; address, 84 Mati Kai, Chungking. — p. 560
+
+**Chao, Hung Wen-kuo (Madame Chao)** woman guerilla leader, known as "Mother of Guerillas," born in Liaoning, 1880 ; assisted her late son Chao Tung organizing guerillas in Northeastern Provinces and North China, since 1931 ; visited South Seas, 1938-39 ; participated in publicity work for conscription movement since her return from South Seas ; address, Peipei, Chungking. — p. 560
+
+**Chao, Lien-fang** agriculturist, born in Honan, 1894 ; Ph.D., Cornell, 1927 ; director, Szechwan Agricultural Improvement Bureau, 1938-42 ; Chinese delegate, United Nations Food Conference, 1943 ; counsellor, Ministry of Agriculture and Forestry, and senior technical expert, National Agricultural Research Bureau, since 1944 ; address, National Agricultural Research Bureau, Chungking. — p. 560
+
+**Chao, Madame** (see Chao, Hung Wen-kuo) — p. 560
+
+**Chao, Min-heng (prefers Thomas Mingheng Chao)** journalist, born in Nanking, 1904 ; B.J., Missouri, 1925 ; M.S., Columbia, 1926, correspondent and manager, Nanking Bureau, Reuters News Agency, 1928-37 ; correspondent and manager, Hankow Bureau, same agency, 1937-38 ; correspondent and manager, Chungking Bureau, same agency, since 1938 ; address, Press Hostel, Chungking. — p. 560
+
+**Chao, Pao-chuan** government official, born in Kiangsu, 1907 ; B.A., Michigan, 1933 ; M.A. (1934) and Ph.D. (1936), Cornell ; professor, Central Political Institute, 1936-40 ; director, department of rural economy, Ministry of Agriculture and Forestry, since 1940 ; address, Ministry of Agriculture and Forestry, Chungking. — p. 560
+
+**Chao, Pi-lien** government official, born in Shansi, 1881 ; graduate, Univ. of Shansi ; vice-minister of interior, 1928 ; vice-chairman, Mongolian and Tibetan Affairs Commission, since 1932 ; member, Kuomintang Central Executive Committee, since 1931 ; address Mongolian and Tibetan Affairs Commission, Chungking. — p. 560
+
+**Chao, Shou-yu** government official, born in Shansi, 1880 ; special commissioner of National Government for transportation of remains of Panchan Lama to Tibet, 1940 ; chairman, Yellow River Conservancy Commission, since 1943 ; address, c/o National Conservancy Commission, Chungking. — p. 560
+
+**Chao, Thomas Mingheng** (see Chao, Min-heng) — p. 560
+
+**Chao, Ti-hua** banker, born in Kiangsu, 1904 ; M.A., Northwestern Univ., U.S.A. ; reserve member, Kuomintang Central Executive Committee, since 1935 ; general manager, Bank of Communications, since 1942 ; address, Bank of Communications, Chungking. — p. 560
+
+**Chao, Tseng-chueh** government official, born in Shanghai, 1901; B.E., National Chiaotung Univ., 1924; M.E.E., Harvard, 1929; director, postal and telegraphic department, Ministry of Communications, since 1943; address, Ministry of Communications, Chungking. — p. 561
+
+**Chao, Tsu-kang** highway engineer and director, born in Kiangsu, 1900; B.C.E., Tangshan Engineering College, 1922; studied at Cornell, 1930; Chinese delegate to 6th International Road Congress, Washington, D.C., 1930; Chinese delegate to 7th International Road Congress, Munich, 1934; deputy director, National Highway Administration, since 1943; address, National Highway Administration, Chungking. — p. 561
+
+**Chao, Tze-chen** professor, born in Chekiang, 1888; B.A., Soochow Univ., 1910; M.A. (1916) and B.D. (1917), Vanderbilt; professor and dean, department of religion, Yenching Univ., since 1926; author, Present-day Religious Thought and Life in China; address, Yenching Univ., Chengtu, Szechwan. — p. 561
+
+**Chao, Yuan-jen (prefers Y. R. Chao)** linguist, professor, born in Kiangsi, 1892; B.A., Cornell, 1914; Ph.D., Harvard, 1918; professor, National Tsinghua Univ., 1927-28; visiting professor, Univ. of Hawaii, 1938-39; visiting professor, Yale, 1939-41; director, department of linguistics, Research Institute of History and Linguistics, Academia Sinica, since 1928; professor, Harvard-Yenching Institute, Harvard Univ., since 1941; address, c/o Chinese Embassy, Washington, D.C. — p. 561
+
+**Chao, Y. R** (see Chao, Yuan-jen) — p. 561
+
+**Cheer, Sheo-nan** (see Chi, Shou-nan) — p. 561
+
+**Chen, Chang-heng** economist, born in Szechwan, 1891; M.A., Harvard; chairman, financial affairs committee, Legislative Yuan, since 1928; author, China's Population Problems; address, Legislative Yuan, Chungking. — p. 561
+
+**Chen, Chao-ying** party and government official, born in Chekiang, 1888; member, Kuomintang Central Executive Committee, since 1926; now supervisory commissioner of Control Yuan, Fukien-Chekiang area, and chairman, Fukien Provincial Kuomintang Headquarters; address, Fukien Provincial Kuomintang Headquarters, Yungan, Fukien. — p. 561
+
+**Chen, Che** Vice-Admiral (prefers Chan Chak) naval officer, born in Kwangtung, 1894; graduate, Whampoa Naval Academy; counsellor, Military Advisory Council, since 1938; member, Kuomintang Central Executive Committee, since 1940; address, 2 Yin Lu, Chungking. — p. 561
+
+**Chen, Cheng** General army officer, born in Chekiang, 1897; graduate, Paoting Military Academy, 1929; commander, 11th Division, 1932-33; commander, 18th Army, 1934; director, military organization department, Generalissimo's Provisional Headquarters, Wuchang, 1935-36; vice-minister of war, 1937; garrison commander, Wuhan Area, and commander-in-chief, 9th War Area, 1938; minister, Political Training Board, National Military Council, and secretary-general, San Min Chu I Youth Corps, 1938-40; governor, Hupeh Province, 1937-44; commander-in-chief, 6th War Area, 1940-44; commander-in-chief, 1st War Area, since 1944. — p. 561
+
+**Chen, Chi-cheng** Lieut.-General army officer, born in Kiangsu, 1892; graduate, Paoting Military Academy; commander, 3rd Division, 1929; commander, 1st Army, 1931; dean, Central Military Academy, 1938-42; vice-commander-in-chief, Chungking Garrison Area, since 1943; address, Chungking Garrison Headquarters, Chungking. — p. 561
+
+**Chen, Chi-liang** Vice-Admiral naval officer, born in Fukien, 1883; graduate, Kiangnan Marine School, 1905; vice-minister of navy, 1934-38; commander, 1st Squadron, 1938-43; chief of staff, Naval Headquarters, since 1943; address, Naval Headquarters, Chungking. — p. 561
+
+**Chen, Chi-tang** General army officer, born in Kwangtung, 1890; graduate, Kwangtung Military Academy, 1928; commander, 4th Route Army, 1931-36; member, Kuomintang Central Executive Committee, since 1931; minister of agriculture and forestry, 1940-42; member, standing committee, Kuomintang Central Executive Committee, since 1942; address, Kuomintang Central Headquarters, Chungking. — p. 561
+
+**陳其采 Chen, Chi-tsai** government official, born in Chekiang, 1879 ; graduate, Japanese Military Cadets' Academy, 1903; comptroller-general, National Government, since 1931 ; address, National Government, Chungking. — p. 562
+
+**陳紀彝 Chen, Chi-yi** woman leader, born in Kwangtung, 1902 ; M.A., Columbia ; deputy secretary-general, Women's Advisory Council, New Life Movement Association, since 1938 ; address, Women's Advisory Council, Chungking. — p. 562
+
+**陳介 Chen, Chieh** diplomatic official, born in Hunan, 1885 ; studied in Tokyo Imperial and Berlin Univs.; vice-minister of foreign affairs, 1935-37 ; ambassador to Germany, 1938-41; ambassador-at-large to South America, 1942; ambassador to Brazil, 1943-44 ; ambassador to Mexico, since 1944 ; address, Chinese Embassy, Mexico City, Mexico. — p. 562
+
+**陳之遹 Chen, Chih-mai** government official, born in Kwangtung, 1908 ; B.A., Ohio, 1929 ; Ph.D., Columbia, 1933; professor, National Tsinghua Univ., 1933-37; professor, Central Political Institute, 1937-38 ; counsellor, Executive Yuan, 1938-44 ; counsellor, Chinese Embassy in Washington, D.C., since 1944 ; author, Theory of Political Institutions in China ; address, Chinese Embassy, Washington, D.C. — p. 562
+
+**陳賀予 Chen, Chih-ping** consular official, born in Kwangtung, 1905; B.Sc., National Southeastern Univ.; Counsellor, National Military Council, 1937-44; Consul-General at Calcutta since November, 1944 : address, Chinese Consulate-General, Calcutta. — p. 562
+
+**陳欽仁 Chen, Chin-jen** journalist, government official, born in Szechwan, 1900; B.J., Missouri, 1924; M.A., Harvard, 1926; editor, Hankow Herald (later National Herald), 1936-43; counsellor, Ministry of Foreign Affairs, since 1943; address, Ministry of Foreign Affairs, Chungking. — p. 562
+
+**陳慶雲 Chen, Ching-yun Air Maj.-General** air force officer, party worker, born in Kwangtung, 1901 ; member, Kuomintang Central Executive Committee, since 1935 ; vice-minister, Kuomintang Board of Overseas Affairs, since 1939; chief counsellor, National Aeronautical Affairs Commission, since 1939 ; address, Board of Overseas Affairs, Chungking. — p. 562
+
+**陳焯 Chen, Cho Lieut.-General** army officer, born in Chekiang, 1892 ; graduate, Staff College, 1916 ; director, department of general affairs, General Staff, 1935-38 ; director, 3rd department, Board of Military Operations, National Military Council, since 1938 ; address, Board of Military Operations, Chungking. — p. 562
+
+**Chen, G. Y** (see Chen, Ku-yuan) — p. 562
+
+**陳衡哲 Chen, Heng-che (Mrs. H. C. Zen, prefers Sophia H. Chen)** historian, professor, born in Kiangsu ; B.A., Vassar, 1919 ; M.A., Chicago, 1920 ; professor, National Peking Univ., 1921-23 ; member, Chinese Delegation to Institute of Pacific Relations, at Honolulu, 1927 ; at Kyoto, 1929 ; at Shanghai, 1931 ; and at Banff, 1933 ; address, c/o H. C. Zen, China Foundation for the Promotion of Education and Culture, Chungking. — p. 562
+
+**陳行 Chen, Hsing (prefers Jian H. Chen)** banker, born in Chekiang, 1890 ; B.S. St. John's Univ., 1917 ; M.A., Ohio, 1918 ; deputy governor, Central Bank of China, since 1928 ; address, Central Bank of China, Chungking. — p. 562
+
+**陳訓畬 Chen, Hsun-yu** journalist, born in Chekiang, 1907, graduate, Tung Wen College, 1929 ; secretary, Shanghai Municipal Government ; member, Legislative Yuan, since 1942 ; editor-in-chief, Central Daily News, since 1943 ; address, 1 Mei Chuan Hsiao Street, Chungking. — p. 562
+
+**陳訓泳 Chen, Hsun-yung Vice-Admiral** naval officer, born in Fukien, 1880, graduate, Naval Academy, Mamoi ; Fukien ; vice-minister of navy, 1934-38 ; address, c/o Naval Headquarters, Chungking. — p. 562
+
+**Chen, Jian H** (see Chen, Hsing) — p. 563
+
+**Chen, K. P** (see Chen, Kuang-pu) — p. 563
+
+**Chen, Ke-chung** government official, born in Fukien, 1898 ; Ph.D., Chicago ; director, National Compilation and Translation Bureau, since 1936 ; address, National Compilation and Translation Bureau, Chungking. — p. 563
+
+**Chen, Ku-yuan (prefers G. Y. Chen)** government official, writer, born in Shensi, 1896 ; LL.B., National Peking Univ., 1923 ; member, Legislative Yuan, since 1935 ; author, History of Chinese Marriage ; address, P.O. Box 99, Peipei, Chungking. — p. 563
+
+**Chen, Kuang-pu (prefers K. P. Chen)** banker, government official, born in Kiangsu, 1880 ; B.C., Pennsylvania, 1909 ; founder and general manager, Shanghai Commercial and Savings Bank, since 1915 ; member, National Economic Council, 1933 ; chairman, Foreign Trade Commission, Ministry of Finance, 1938-41 ; chairman, Currency Stabilization Board of China, 1941-44 ; chairman, Economic Affairs Planning Committee, Central Planning Board, since 1944 ; now in U.S.A. ; address, c/o Chinese Embassy, Washington, D.C. — p. 563
+
+**Chen, Kuo-chun** government official, born in Hunan, 1895 ; B.A. and M.A., Illinois ; director, department of administration, Ministry of Communications, since 1942 ; address, Ministry of Communications, Chungking. — p. 563
+
+**Chen, Kuo-fu** party and government official, born in Chekiang, 1889 ; vice-president, Control Yuan, 1929-31 ; governor, Kiangsu Province, 1933-36 ; vice-chairman, Hwai River Conservancy Commission, 1931-43 ; vice-chancellor, Central Political Institute, 1938-42 ; member, standing committee, Kuomintang Central Executive Committee, since 1929 ; minister, Kuomintang Board of Organization, since 1944 ; address, Board of Organization, Chungking. — p. 563
+
+**Chen, Li-chiang** college president, born in Kiangsi, 1896 ; M.A., Chicago ; director, department of social education, Ministry of Education, 1938-41 ; president, National College of Social Education, since 1941 ; address, National College of Social Education, Pishan, Szechwan. — p. 563
+
+**Chen, Li-fu** government official, born in Chekiang, 1900 ; M.S., Pittsburg Univ., 1924 ; Hon. LL.D., Fordham Univ., 1943 ; member, Kuomintang Central Executive Committee, since 1929 ; secretary-general, Kuomintang Central Executive Committee, 1930-31 ; minister, Kuomintang Board of Organization, 1932-37 ; minister, 6th Board, National Military Council, 1937 ; Minister, Kuomintang Board of Social Affairs, 1938-41 ; minister of education, since 1938 ; address, Ministry of Education, Chungking. — p. 563
+
+**Chen, Liang** Lieut.-General army officer, born in Chekiang, 1895 ; studied in Japan ; director, Commissariat Administration, Ministry of War, since 1940 ; address, Ministry of War, Chungking. — p. 563
+
+**Chen, Ming-shu** General army officer, born in Kwangtung, 1889 ; graduate, Paoting Military Academy ; governor, Kwangtung Province, 1928-31 ; vice-president, Executive Yuan, and minister of communications, 1931-32 ; member, presidium, People's Foreign Relations Association, since 1938 ; address, c/o People's Foreign Relations Association, Chungking. — p. 563
+
+**Chen, P. T** (see Chen, Ping-chang) — p. 563
+
+**Chen, Ming-te** journalist, born in Szechwan, 1897 ; graduate, Peking Law College, 1922 ; managing director, Sin Min Pao, since 1939 ; address, Sin Min Pao, Chungking. — p. 563
+
+**Chen, Pan-ling** party official, born in Honan, 1890 ; B.A., National Peking Univ., 1921 ; reserve member, Kuomintang Central Executive Committee, since 1935 ; chairman, Honan Provincial Kuomintang Headquarters, since 1944; address, c/o Kuomintang Central Headquarters, Chungking. — p. 563
+
+**Chen, Ping-chang (prefers P. T. Chen)** government official, born in Amoy, 1900; B.A., St. John's; M.A., Princeton; secretary-general, Chinese-American Institute of Cultural Relations, since 1940; director, department of loans, Ministry of Finance, since 1943; address, Ministry of Finance, Chungking. — p. 564
+
+**Chen, Po-chuang** government official, born in Kwangtung, 1893; Ch.E., Columbia, 1914; deputy secretary-general, Central Planning Board, 1941-42; member, Legislative Yuan, and member, Central Planning Board, since 1942; address, Legislative Yuan, Chungking. — p. 564
+
+**Chen, Pu-lei** government official, born in Chekiang, 1890; graduate, Chekiang Provincial College; editor-in-chief, China Times, 1928; member and education commissioner, Chekiang Provincial Government, 1929; vice-minister of education, 1930-31; acting minister, Kuomintang Central Publicity Board, 1931; member and education commissioner, Chekiang Provincial Government, 1932-34; member, Kuomintang Central Executive Committee, since 1935; director, 2nd department, Generalissimo's Personal Headquarters, since 1937; address, Generalissimo's Headquarters, Chungking. — p. 564
+
+**Chen, Shao-kwan Admiral** naval officer, born in Fukien, 1889; graduate, Naval Academy, 1908; commander, 2nd Squadron, 1926-31; vice-minister of navy, 1929-31; minister of navy, 1932-38; member, National Military Council, and commander-in-chief, Chinese Navy, since 1938; address, Naval Headquarters, Chungking. — p. 564
+
+**Chen, Shih** university president, born in Hupeh, 1890; LL.B., Central Univ., Tokyo; president, Chung Hwa Univ. of Wuchang, since 1917; member, People's Political Council, since 1938; address, Chung Hwa Univ. South Bank, Chungking. — p. 564
+
+**Chen, Shih-chen** government official, born in Kiangsu, 1892; graduate, National Nanking Normal College, 1917; studied at Oberlin, 1921-22, and at Columbia, 1922-24; acting chancellor, National Northwest Univ., 1940-42; counsellor, Ministry of Education, since 1929; address, Ministry of Education, Chungking. — p. 564
+
+**Chen, Shu-jen** government official, born in Kwangtung, 1884; graduate, Tokyo Imperial Univ.; member, Kuomintang Central Executive Committee, since 1928; chairman, Overseas Chinese Affairs Commission, Executive Yuan, since 1932; address, Overseas Chinese Affairs Commission, Chungking. — p. 564
+
+**Chen, Sophia H** (see Chen Heng-che) — p. 564
+
+**Chen, Sze-yi** college president, born in Kiangsu, 1902; Ph.D., Wisconsin; president, National Pharmaceutical College, since 1939; address, National Pharmaceutical College, Chungking. — p. 564
+
+**Chen, Ta (prefers Ta T. Chen)** sociologist, professor, born in Chekiang, 1892; B.A., Reed College, U.S.A., 1919; M.A. (1920) and Ph.D. (1923), Columbia; visiting professor, Univ. of Hawaii, 1930; professor, National Tsing Hua Univ., since 1923; author, Chinese Migrations with Special Reference to Labour Conditions, China's Labour Problems, and Population Problems; address, National Southwest Associated Univ., Kunming. — p. 564
+
+**Chen, Ta-chi** government official, born in Chekiang, 1887; B.A., Tokyo Imperial Univ., 1912; chairman, Commission for Civil Service Examination, Examination Yuan, since 1935; address, Commission for Civil Service Examination, Chungking. — p. 564
+
+**Chen, Ta T** (see Chen, Ta) — p. 564
+
+**Chen, Ting-shu** government official, born in Kiangsu, 1902; graduate, Meiji Univ., Tokyo; senior secretary, Ministry of Economic Affairs, since 1938; address, Ministry of Economic Affairs, Chungking. — p. 564
+
+**Chen, Wen-kwan (prefers Moon Chin)** aviator, native of Kwangtung, born in Baltimore, U. S. A.; graduate, Curtiss Wright Flying School, U. S. A.; joined C.N.A.C., 1933; deputy director, operations department, C.N.A.C., since 1944; address, China National Aviation Corporation, Chungking. — p. 565
+
+**Chen, Wen-yuan** Christian worker, born in Fukien, 1900; B.A. (1928) and M.A. (1929), Syracuse; Ph.D., Duke, 1930; acting president, Fukien Christian Univ., 1931; now secretary-general, National Christian Council, and bishop, Methodist Church in West China; lecturing in the United States, 1944; address, c/o Chinese Embassy, Washinton, D.C. — p. 565
+
+**Chen, Y. G** (see Chen, Yu-kuang) — p. 565
+
+**Chen, Yen-chun** railway and highway director, born in Kwangtung, 1895; director, Peiping-Hankow Railway Administration, 1933; now director, Southwest Highway Transportation Bureau, Ministry of Communications; address, Southwest Highway Transportation Bureau, Kweiyang, Kweichow. — p. 565
+
+**Chen, Yi** General government official, born in Chekiang, 1893; graduate, Japanese Staff College, 1916; vice-minister of war, 1929-33; governor, Fukien Province, 1934-41; member, Kuomintang Central Executive Committee, since 1935; secretary-general, Executive Yuan, 1941-42; secretary-general, Party and Government Work Evaluation Committee, 1942-44; acting chancellor, Staff College, since 1943; dean, Central Training Institute, since 1944; address, Central Training Institute, Chungking. — p. 565
+
+**Chen, Yi-yun** woman leader, born in Kwangtung, 1905; B.A., National Sun Yat-sen Univ.; M.A., Michigan; member, People's Political Council, since 1941; editor, The Voice of Women; address, 29 Hsia Lo Chia Wan, Chungking. — p. 565
+
+**Chen, Yu-kuang (prefers Y. G. Chen)** university president, born in Chekiang, 1893; B.A., Univ. of Nanking, 1915; M.A. (1918) and Ph.D. (1922), Columbia; dean, College of Arts and Science, Univ. of Nanking, 1926; president, same institution, since 1927; lecturing in U.S.A., 1944; address, c/o Chinese Embassy, Washington, D.C. — p. 565
+
+**Cheng, Chen-wen** government official, born in Fukien, 1893; B.A., Tokoku Imperial Univ., Japan; member and education commissioner, Fukien Provincial Government, 1931-43; author of many books on chemistry and co-editor of many dictionaries and encyclopedias. — p. 565
+
+**Cheng, Chen-yu** government official, born in Honan, 1900; graduate, National Peking Normal College; director, department of land administration, Ministry of Interior, 1932-40; member and civil affairs commissioner, Kansu Provincial Government, 1940-41; director, National Land Administration, since 1942; address, National Land Administration, Chungking. — p. 565
+
+**Cheng, Chieh-min (Lieut.-General)** army officer, born in Canton, 1899; graduate, Whampoa Military Academy, 1925; graduate, Moscow Sun Yat-sen Univ., 1928; graduate, Staff College, 1940; director, 2nd department, Board of Military Operations, National Military Council, since 1944; address, Board of Military Operations, Chungking. — p. 565
+
+**Cheng, Chien (General)** army officer, born in Hunan, 1882; graduate, Japanese Military Cadets' Academy; commander, 6th Army, 1926; elected member, Central Executive Committee of Kuomintang, 1927; governor, Hunan Province, 1928; chief of general staff, 1935-37; governor, Honan Province, 1937-39; commander-in-chief, 1st War Area, 1937-39; director, Generalissimo's Headquarters in Northwest, 1939-40; deputy chief of staff, National Military Council, since 1940; address, 7 Chu Hsing Hsin Villa, Chung San Road, Chungking. — p. 565
+
+**Cheng, Chung-hsing** government official, born in Kiangsu, 1902; B.A., Futan Univ.; research student, London School of Economic and Univ. College, London, 1929-31 ; former editor, China Times, Shanghai; managing director, Central Daily News; vice-minister of information, 1942-44 ; secretary-general, Control Yuan, since 1940 ; address, Control Yuan, Chungking. — p. 566
+
+**Cheng, F. T** (see Cheng, Tien-hsi) — p. 566
+
+**Cheng, Feng** government official, born in Kwangtung, 1904; LL.B., National Sun Yat-sen Univ., 1929 ; member and reconstruction commissioner, Kwangtung Provincial Government, since 1940 ; address, Kwangtung Provincial Government, Kukong, Kwangtung. — p. 566
+
+**Cheng, Hai-feng** labor expert, born in Anhwei, 1904 ; M.A., Stanford, 1927; director, China Branch, International Labor Office, since 1933 ; author, China's Labor Problems ; address, China Branch, International Labor Office, Chungking. — p. 566
+
+**Cheng, Lai (prefers Loy Cheng)** government official, born in Kwangtung, 1892 ; B.A. and M.A., Harvard ; director, Customs Administration, Ministry of Finance, 1935-44 ; counsellor, Ministry of Finance, since 1944 ; address, Ministry of Finance, Chungking. — p. 566
+
+**Cheng, Loy** (see Cheng, Lai) — p. 566
+
+**Cheng, Shao-chun** government official, born in Szechwan, 1900; B.S. and D.V.M., Iowa Agricultural College, 1926; D.Sc., Johns Hopkins, 1930 ; director, department of fishery and animal husbandry, Ministry of Agriculture and Forestry, since 1940 ; address, Ministry of Agriculture and Forestry, Chungking. — p. 566
+
+**Cheng, She-wo** journalist, born in Hunan, 1898 ; B.A., National Peking Univ., 1921 ; research student, London School of Economics ; former publisher and editor, Shih Chieh Jih Pao (Peiping), Min Sheng Pao (Nanking), Li Pao (Shanghai and Hongkong) ; member, People's Political Council, since 1938 ; address, People's Political Council, Chungking. — p. 566
+
+**Cheng, Shih-kwei** government official, born in Kiangsi, 1888 ; graduate, Tokyo Normal College, 1915 ; M.A., Columbia, 1925 ; member and education commissioner, Fukien Provincial Government, 1928-32 ; member and education commissioner, Kiangsi Provincial Government, since 1933 ; author, Theory and Practice of the San Min Chu I Education ; address, Kiangsi Provincial Government, Taiho, Kiangsi. — p. 566
+
+**Cheng, Tien-fang** educator, government official, born in Kiangsi, 1899 ; B.A. (1920) and M.A. (1923), Illinois ; Ph.D., Toronto, 1926 ; reserve member, Kuomintang Central Executive Committee, 1938-43 ; chancellor, National Chekiang Univ., 1932 ; member and secretary-general, Kiangsi Provincial Government, 1933-34 ; dean, Central Political Institute, 1934-35 ; ambassador to Germany, 1935-38 ; chancellor, National Szechwan Univ., 1938-42 ; member, Standing Committee, Kuomintang Central Supervisory Committee, since 1943 ; vice-chancellor, Central Political Institute, since 1943 ; address, Central Political Institute, Chungking. — p. 566
+
+**Cheng, Tien-hsi (prefers F. T. Cheng)** jurist, born in Kwangtung, 1884 ; LL.B., London, 1912 ; called to bar in London, 1916 ; LL.D., London, 1916 ; vice-minister of justice, 1932-34 ; special commissioner to 1935 London International Exhibition of Chinese Art ; nominated successor to Dr. Wang Chung-hui as judge on Permanent Court of International Justice, 1936. — p. 566
+
+**Cheng, Tien-ku** diplomatic official, born in Kwangtung, 1890 ; reserve member, Kuomintang Central Executive Committee, since 1931 ; minister to Mexico, 1941-44 ; ambassador to Brazil, since 1944 ; address, Chinese Embassy, Rio de Janeiro. — p. 566
+
+**Cheng, Tung-ho** government official, born in Anhwei, 1898 ; B.A., Nankai Univ. ; M.A., Columbia ; member and education commissioner, Kansu Provincial Government, since 1938 ; address, Kansu Provincial Government, Lanchow. — p. 566
+
+**鄭洞國 Cheng, Tung-kuo** Lieut.-General army officer; born in Hunan, 1902; graduate, Whampoa Military Academy, 1924 ; commander, New 1st Army, since 1943 ; vice-commander, Chinese Army in India, since 1944 ; address, Chin No. 522, Chinese A.P.O. Box 501. — p. 567
+
+**鄭毓秀 Cheng, Yu-hsiu (Madame Wei Tao-ming, prefers Soumay Tcheng)** lawyer, born in Kwangtung, 1894 ; LL.D., Paris, 1926 ; practised law in Shanghai, 1928-30 ; address, Chinese Embassy, Washington, D.C. — p. 567
+
+**戚壽南 Chi, Shou-nan (prefers Sheo-nan Cheer)** physician, born in Chekiang, 1892 ; M.D., Johns Hopkins, 1920; superintendent, United Hospital of Associated Univs., 1938-41 ; dean, College of Medicine, National Central Univ., since 1935 ; superintendent, Szechwan General Hospital, since 1941 ; address, College of Medicine, National Central Univ., Chengtu. — p. 567
+
+**賈景德 Chia, Ching-te** government official, born in Shansi, 1879 ; former director, Cheng-Tai Railway Administration ; secretary-general, Third Group Army Headquarters ; secretary-general, Peiping-Tientsin Garrison Headquarters ; minister of personnel registration, since 1942 ; address, Ministry of Personnel Registration, Kolosan, Chungking. — p. 567
+
+**蔣志澄 Chiang, Chih-cheng** government official, born in Chekiang, 1896 ; B.S., National Peking Univ., 1921 ; research student, Berlin Univ., 1921-23 ; member and education commissioner, Szechwan Provincial Government, 1936-38 ; mayor of Chungking, 1938-39 ; proctor, Central Political Institute, 1939-41 ; director, department of general affairs, Ministry of Education, since 1941 ; address, Ministry of Education, Chungking. — p. 567
+
+**蔣鈞歐 Chiang, Chu-ou** Lieut.-General army officer, born in Hunan, 1889 ; commander of railway artillery and garrison commander of Chengchow, 1933-34 ; senior staff officer, National Military Council, 1935-37 ; director, communication police, Ministry of Communications, and deputy commander of railway transportation, National Military Council, since 1937 ; address, Communication Police Headquarters, Chungking. — p. 567
+
+**蔣中正 Chiang, Chung-cheng (Chiang Kai-shek), President, Generalissimo** president of National Government, born in Chekiang, 1888 ; attended Paoting Military Academy, 1906, and Japanese Military Cadets' Academy, 1907 ; participated in 1911 Revolution ; appointed president, Whampoa Military Academy, 1923 ; appointed commander-in-chief, Revolutionary Forces, 1926, to lead Northern Expedition, resulting in unifying China in 1928 ; elected president, National Government, 1928 ; and in that capacity assumed the post of commander-in-chief of Land, Naval, and Air Forces of China ; between 1928 and 1931, held at different periods the posts of president of the Executive Yuan and minister of education ; retired in December 1931, but returned to Nanking in January 1932 ; appointed president, National Military Council, 1932, a post which he has since retained ; at certain periods between 1932 and 1937 was chief of General Staff, chairman of National Economic Council, member of Kuomintang Central Executive Committee and of Kuomintang Central Political Council ; since the war broke out, his duties have increased enormously ; he is the acknowledged leader of the nation ; elected president, National Government, 1943, to succeed the late President Lin Sen ; now Tsung Tsai (director-general) of Kuomintang, president of National Military Council, chairman of Supreme National Defense Council, and president of Executive Yuan, besides other responsibilities ; address, National Government, Chungking. — p. 567
+
+**蔣復璁 Chiang, Fu-tsung** library expert, born in Chekiang, 1898 ; B.A., National Peking Univ., 1924 ; graduate, Institute of Library Science, Univ. of Berlin, 1932 ; director, National Central Library, since 1940 ; address, National Central Library, Chungking. — p. 567
+
+**蔣一平 Chiang, I-ping (prefers Eugene Y. B. Kiang)** lawyer, born in 1898 ; B.A., Futan Univ., 1922 ; LL.B., Soochow Univ., 1923 ; vice-chancellor, National Futan Univ., 1941 ; member, resident committee, People's Political Council, since 1942 ; address, 1 Min Chu Road, Chungking. — p. 567
+
+**Chiang Kai-shek** (see Chiang, Chung-cheng) — p. 568
+
+**Chiang Kai-shek, Madame** (Meiling Soong Chiang, see Chiang, Sung Mei-ling) — p. 568
+
+**Chiang, Kuang-nai** General army officer, born in Kwangtung, 1887 ; graduate, Paoting Military Academy ; commander-in-chief, 19th Route Army, defending Shanghai against Japanese invasion, 1932 ; now vice-commander-in-chief, 7th War Area ; address, 4th War Area Headquarters, Kukong, Kwangtung. — p. 568
+
+**Chiang, Li-fu** professor, born in Chekiang, 1890 ; Ph.D., Harvard, 1919 ; professor of mathematics, National Southwest Associated Univ., since 1938 ; director, Research Institute of Mathematics, Academia Sinica, since 1941 ; address, P.O. Box 96, Kunming. — p. 568
+
+**Chiang, Meng-lin (prefers Monlin Chiang)** university president, Red Cross worker, born in Chekiang, 1884 ; B.A., California, 1912 ; M.A. and Ph.D., Columbia, 1917 ; minister of education, 1928-30 ; chancellor, National Peking Univ., since 1930; member, executive council, National Southwest Associated Univ., since 1938 ; president, Chinese Red Cross Society, since 1942 ; director, China Foundation for the Promotion of Education and Culture, and of China Branch, Institute of Pacific Relations ; address, Chinese Red Cross Society, Chungking. — p. 568
+
+**Chiang, Monlin** (see Chiang, Meng-lin) — p. 568
+
+**Chiang, Sung Mei-ling (Madame Chiang Kai-shek, prefers Mayling Soong Chiang)** woman leader, born at Shanghai ; B.A., Wellesley ; married President Chiang Kai-shek, 1927 ; member, Legislative Yuan, 1929-32 ; principal, School for Orphans of the Revolutionaries, 1929-37 ; secretary-general, National Aeronautical Affairs Commission, 1937-38 ; director-general, Women's Advisory Council, New Life Movement Association, since 1938 ; directs the care of war orphans and women's wartime service ; visited U.S.A., 1942-43 ; recuperating in Brazil, 1944 ; address, Chungking, China. — p. 568
+
+**Chiang, Ting-fu (prefers T. F. Tsiang)** government official, born in Hunan, 1895 ; B.A., Oberlin, 1918 ; Ph.D., Columbia, 1923 ; professor, National Tsing Hua Univ., 1920-35 ; director, political affairs department, Executive Yuan, 1935-36 ; ambassador to U.S.S.R., 1936-38 ; director, political affairs department, Executive Yuan, since 1938 ; chief Chinese delegate to United Nations Relief and Rehabilitation Conference, 1944 ; chairman, Postwar Relief and Rehabilitation Planning and Investigation Committee, Executive Yuan, since 1944 ; author, Selected Documents on Chinese Diplomatic History and Modern Chinese History ; address, c/o Chinese Embassy, Washington, D.C., or Executive Yuan, Chungking. — p. 568
+
+**Chiang, Ting-wen** General army officer, born in Chekiang, 1898 ; graduate, Paoting Military Academy ; commander, 9th Army, 1931-32 ; commander, Yangtze River Defenses, 1933 ; military affairs commissioner, Fukien, 1934-37 ; director, Generalissimo's Provisional Headquarters in Sian, 1937 ; governor, Shensi Province, 1938-41 ; commander-in-chief, 1st War Area, 1942-44. — p. 568
+
+**Chiang, Yung** jurist, born in Fukien, 1878 ; graduate, Waseda Univ., Japan ; former minister of justice ; president, National College of Law ; member, presidium, People's Political Council, since 1943 ; address, Bank of China, Chungking. — p. 568
+
+**Chiao, Chi-ming** professor, born in Shansi, 1897 ; B.A., Nanking Univ., 1924 ; M.A., Cornell Univ., 1933 ; professor, Nanking Univ., 1924-40 ; director, agricultural loan department, Farmers' Bank of China, since 1941 ; chairman, Agricultural Production Promotion Commission, since 1943 ; address, Agricultural Production Promotion, Chang Chia Hwa Yuen, Chungking. — p. 568
+
+**Chiao, I-tang** government official, born in Shensi, 1875; graduate, Shensi Law College; member, Kuomintang Central Executive Committee, 1935; president, Supreme Court, 1935-41; address, Kuomintang Central Headquarters, Chungking. — p. 569
+
+**Chien, Chang-chao** government official, born in Kiangsu, 1901; studied at London and Oxford Univs.; vice-minister of education, 1931-32; deputy secretary-general, National Defense Planning Council, 1932-34; deputy secretary-general, National Resources Commission, National Military Council, 1934-38; vice-chairman, National Resources Commission, Ministry of Economic Affairs, since 1938; address, National Resources Commission, Chungking. — p. 569
+
+**Chien, Chih-hsiu** writer, government official, born in Chekiang, 1883; graduate, Futan Univ., 1911; editor, Far Eastern Miscellany, 1915-30; member, Control Yuan, since 1942; address, Control Yuan, Chungking. — p. 569
+
+**Chien, Mu** historian, professor, born in Kiangsu, 1895; professor of history, National Szechwan Univ. and West China Union Univ., since 1943; author of many books on Chinese history and classics, including An Outline of Chinese History; address, 101 Huahsihoupa, Chengtu, Szechwan. — p. 569
+
+**Chien, Ta-chun Lieut.-General** army officer, born in Kiangsu, 1892; graduate, Japanese Military Cadets' Academy, 1916; commander, 13th Army, 1929; member, Kuomintang Central Executive Committee, since 1935; director, National Aeronautical Affairs Commission, 1939-40; vice-minister of war, since 1942; address, Ministry of War, Chungking. — p. 569
+
+**Chien, Tai (prefers Tsien Tai)** diplomatic official, born in Chekiang, 1887; LL.D., Paris; minister and later ambassador to Belgium, 1933-42; vice-minister of foreign affairs, 1942; ambassador to Belgium, 1943-44; ambassador to French Committee of National Liberation, since 1944; address, c/o Chinese Embassy, London. — p. 569
+
+**Chien, Tien-ho** government official, agriculturist, born in Chekiang, 1895; B.S.A. (1917) and M.S.A. (1918), Cornell; deputy director, National Agricultural Research Bureau, 1933-38; director, department of agriculture and forestry, Ministry of Economic Affairs, 1938-40; vice-minister of agriculture and forestry, since 1940; address, Ministry of Agriculture and Forestry, Chungking. — p. 569
+
+**Chien, Yu-wen** writer, government official, born in Kwangtung, 1896; B.A., Oberlin, 1917; M.A., Chicago, 1920; member, Legislative Yuan, since 1933; author, Notes on Taiping Rebellion; address, Legislative Yuan, Chungking. — p. 569
+
+**Chien, Yung-ming** banker, born in Shanghai, 1885; graduate, Kobe Commercial College, Japan; vice-minister of finance, 1927; member and finance commissioner, Chekiang Provincial Government, 1927-29; chairman, board of directors, Bank of Communications, since 1938; address, Bank of Communications, Chungking. — p. 569
+
+**Chih, Ping-yuan** engineer, born in Chekiang, 1898; graduate, National Chiaotung Univ., founder and general manager, New China Engineering Co., since 1925; technical expert, National Resources Commission, since 1943; winner of Gold Medal of Chinese Engineering Society, 1943; address, c/o National Resources Commission, Chungking. — p. 569
+
+**Chin, Chen** government official, born in Hunan, 1883; graduate, Waseda Univ., Tokyo; vice-president, Judicial Yuan, since 1932; chairman, Commission for the Disciplinary Punishment of Public Functionaries, Judicial Yuan, since 1944; state councillor, National Government, since 1943; address, Judicial Yuan, Chungking. — p. 569
+
+**Chin, Fen** government official, born in Kiangsu, 1887; B.A., M.A., Harvard, 1909; secretary-general, National Economic Council, 1933-37; vice-minister of finance, 1933-35 ; political vice-minister of economic affairs, since 1938 ; address, Ministry of Economic Affairs, Chungking. — p. 569
+
+**Chin, Pao-shan (prefers P. Z. King)** health director, born in Chekiang, 1892 ; M.D., Tiba Medical College, Japan, 1917, D.P.H., Johns Hopkins, 1927 ; director; National Epidemic Prevention Bureau, 1928 ; deputy director, National Health Administration, 1938-40 ; director, National Health Administration, since 1940 ; address, National Health Administration, Chungking. — p. 570
+
+**Chin, Te-chun General** army officer, born in Shantung, 1893 ; graduate, Paoting Military Academy, 1916; graduate, Staff College, 1922 ; governor, Chahar Province, 1933 ; was mayor of Peiping and vice-commander, 29th Army, when Japan launched her North China attack in 1937 ; member, Kuomintang Central Supervisory Committee, since 1935; deputy director-general of courts-martial, since 1941 ; address, Directorate-General of Courts-Martial, Chungking. — p. 570
+
+**Chin, Tseng-cheng** university president, born in Canton, 1880 ; graduate, Japanese Teachers' College, 1910; member and education commissioner, Kwangtung Provincial Government, 1928-31 ; member, People's Political Council, since 1940 ; chancellor, National Sun Yat-sen Univ., since 1942 ; address, National Sun Yat-sen Univ., Pingshih, Kwangtung. — p. 570
+
+**Chin, Wen-ssu (prefers Wunsz King)** diplomatic official, born in Kiangsu, 1892 ; graduate, Futan Univ., 1910 ; LL.B., Peiyang Univ., 1915; LL.M., Columbia, 1919 ; commissioner of foreign affairs for Shanghai, 1930 ; vice-minister of foreign affairs, 1931 ; minister and later ambassador to the Netherlands, since 1933 ; address, c/o Chinese Embassy, London. — p. 570
+
+**Chou, Chi-kang** government official, born in Kwangtung 1889 ; member, Kuomintang Central Executive Committee, since 1929 ; special overseas commissioner to South Seas, 1939 ; vice-chairman, Overseas Affairs Commission, Executive Yuan, since 1932 ; address, Overseas Affairs Commission, Chungking. — p. 570
+
+**Chou, Chih-jou Air Maj.-General (prefers C. J. Chow)** air force officer, born in Chekiang, 1898 ; graduate, Paoting Military Academy ; commander, Central Aviation Academy, Hangchow, 1934 ; director, National Aeronautical Affairs Commission, since 1934 ; address, National Aeronautical Affairs Commission, Chungking. — p. 570
+
+**Chou, Chung-yueh** government official, born in Yunnan ; acting governor, Yunnan Province, 1919 ; minister of interior, since 1939 ; address, Ministry of Interior, Chungking. — p. 570
+
+**Chou, En-lai** communist leader, born in Kiangsu, 1898 ; attended Waseda (Japan) and Nankai (Tientsin) Univs.; joined Communist Youth in France in 1920 and later joined Communist Party ; led workers' uprisings in Shanghai, 1927; participated in Nanking Uprising, 1927 ; participated in Nanchang Uprising, 1927; went to Kiangsi to join communist troops there, 1931 ; held a succession of different posts in Communist Party ; after the outbreak of war, became liaison officer, between Kuomintang and Communist parties ; vice-minister, Political Training Board, National Military Council, 1938-40 ; now official representative of Communist Party in Chungking. — p. 570
+
+**Chou, Hsiang-hsien (prefers Z. Y. Chow)** government official, born in Chekiang, 1890 ; B.S., M.I.T., 1915 ; secretary-general, Chinese Industrial Cooperatives, 1940-43 ; secretary-general, committee on barter trade, Executive Yuan, since 1943 ; address, Executive Yuan, Chungking. — p. 570
+
+**Chou, I-chun (prefers Y. T. Tsur)** government official, born in Hankow, 1883 ; B.A., Yale, 1909 ; M.A., Wisconsin, 1910 ; Hon. Litt.D., St. John's ; executive director, China Foundation for the Promotion of Education and Culture, 1924-28 ; president, Yenching Univ., 1933-34 ; vice-minister of industry, 1935-37 ; member and finance commissioner, Kweichow Provincial Government, since 1937 ; address, Kweichow Provincial Government, Kweiyang, Kweichow. — p. 570
+
+**Chou, Jen** engineer, born at Nanking, 1884 ; M.M.S., Cornell, 1915 ; professor and dean, College of Engineering, National Central Univ., 1927-28 ; director, Industrial Research Institute, Academia Sinica, since 1928 ; address, Academia Sinica, Kunming. — p. 571
+
+**Chou, Keng-sheng (prefers S. R. Chow)** university professor, born in Hunan; 1888 ; M.A., Edinburgh ; LL.D., Paris, dean and professor, department of political science, National Wuhan Univ., since 1933 ; now touring and lecturing in U.S.A.; address, National Wuhan Univ., Loshan, Szechwan, or c/o Chinese Embassy, Washington, D.C. — p. 571
+
+**Chou, Mao-po** industrialist, engineer, born in Hupeh, 1906 ; studied in Germany ; director, Ming Sung Machine Works, since 1938 ; chief engineer and manager, Heng Shun Machine Works ; address, P.O. Box 1, Kiangpei, Szechwan. — p. 571
+
+**Chou, Po-min** university president, born in Shensi, 1892 ; member and education commissioner, Shensi Provincial Government, 1937 ; president, National Northwest Agricultural College, since 1938 ; member, Kuomintang Central Executive Committee, since 1935 ; address, National Northwest Agricultural College, Wukung, Shensi. — p. 571
+
+**Chow, C. J** (see Chou Chih-jou) — p. 571
+
+**Chow, S. R** (see Chou, Keng-sheng) — p. 571
+
+**Chow, Z. Y** (see Chou Hsiang hsien) — p. 571
+
+**Chu, Chang-keng** health expert, born in Chekiang, 1901 ; M.D., Peiping Medical Union College, 1929 ; Ph.D., Yale, 1932 ; director, Public Health Personnel Training Institute, National Health Administration, 1938-40 ; director, National Institute of Health, since 1940 ; address, National Institute of Health, Chungking. — p. 571
+
+**Chu, Cheng** party and government official, born in Hupeh, 1876 ; graduate, Tokyo Law College ; acting minister of interior, 1912 ; member, Kuomintang Central Executive Committee, since 1924 ; member, standing committee, Kuomintang C.E.C., since 1932 ; president, Judicial Yuan, since 1932 ; state councillor, National Government, since 1932 ; address, Judicial Yuan, Chungking. — p. 571
+
+**Chu, Chi** government official, born in Chekiang, 1906 ; Ph.D., Univ. of Berlin ; professor and dean, department of economics, National Central Univ., 1939-42 ; director, department of state monopoly, Ministry of Finance, 1942-44 ; vice-director, Customs Administration, same Ministry, since 1944 ; address, Ministry of Finance, Chungking. — p. 571
+
+**Chu, Chia-hua** party and government official, born in Chekiang, 1893 ; Ph.D., Univ. of Berlin ; chancellor, National Central Univ., 1931 ; minister of education, 1932 ; minister of communications, 1932-35 ; member, Kuomintang Central Executive Committee, since 1929 ; chairman, Board of Trustees for the Administration of Boxer Indemnity Fund. Remitted by British Government, since 1931 ; governor, Chekiang Province, 1936-37 ; secretary-general, Kuomintang Central Executive Committee, 1938-40 ; minister, Kuomintang Board of Organization, 1941-44 ; acting president, Academia Sinica, since 1940 ; vice-president, Examination Yuan, since 1942 ; state councillor, National Government, since 1943 ; address, Academia Sinica, Chungking. — p. 571
+
+**Chu, Ching-nung (prefers King Chu)** educator, university president, born in Kiangsu, 1887 ; B.A. (1918) and M.A. (1919), George Washington Univ. ; research student, Teachers' College, Columbia, 1919-21 ; vice-minister of education, 1930 ; president, Cheeloo Univ., 1931-32 ; member and education commissioner, Hunan Provincial Government, 1932-43 ; vice-chancellor, National Central Univ., 1943-44 ; vice-minister of education, since 1944 ; editor, Encyclopaedia of Education (Commercial Press) ; address, Ministry of Education, Chungking. — p. 571
+
+**Chu, Chun-yi** government official, born in Chekiang, 1892 ; B.A., Johns Hopkins, 1918 ; M.A. (1920) and Ph.D. (1922), Columbia ; director, Bureau of Legislative Research, Legislative Yuan, 1932-33; comptroller, National Government, and deputy director, Directorate of Statistics, since 1933; address, Directorate of Statistics, National Government, Chungking. — p. 571
+
+**Chu, Coching** (see Chu, Ke-chen) — p. 572
+
+**Chu, Fu-cheng** educator, born in Chekiang, 1872; former deputy speaker, House of Representative, and acting governor of Chekiang; now member, resident committee, People's Political Council, and president, Shanghai College of Law; address, People's Political Council, Chungking. — p. 572
+
+**Chu, Hsueh-fan** labor leader, born in Chekiang, 1906; LL.B., Shanghai College of Law; Chinese worker's delegate to 20th, 23rd, 24th, 25th, 26th and 27th sessions, International Labor Congress.; member, Legislative Yuan, since 1932; president, Chinese Association of Labor, since 1939; address, Chinese Association of Labor, Chungking. — p. 572
+
+**Chu, Huai-ping** Lieut.-General government official, born in Hupeh, 1892; graduate, Paoting Military Academy; member and civil affairs commissioner, Hupeh Provincial Government, 1940-44; deputy director, Kuomintang Central Training Committee, since 1944; address, Kuomintang Central Training Committee, Chungking. — p. 572
+
+**Chu, Ke-chen (prefers Coching Chu)** university president, meteorologist, born in Chekiang, 1890; B.S., Illinois, 1913; M.A. (1915) and Ph.D. (1918), Harvard; director, Research Institute of Meteorology, Academia Sinica, since 1928; chancellor, National Chekiang Univ., since 1936; address, National Chekiang Univ., Tsunyi, Kweichow. — p. 572
+
+**Chu, King** (see Chu, Ching-nung) — p. 572
+
+**Chu, Kuang-chien (prefers Chu Kwang-tsien)** professor, writer, born in Anhwei, 1897; B.A., Hongkong Univ.; M.A., Edinburgh; Lit.D. Strasbourg; professor and dean, College of Arts, National Szechwan Univ., 1937-38; professor and dean of faculty, National Wuhan Univ., since 1938; author, Psychology of Literature and A Study of Poetry, the latter being a prize winner from Ministry of Education; address, National Wuhan Univ., Loshan, Szechwan. — p. 572
+
+**Chu, Kwang-tsien** (see Chu, Kuang-chien) — p. 572
+
+**Chu, Ming-shan** government official, born in Shantung, 1894; B.A., National Peking Normal College, 1919; director, Mongolian affairs department, Mongolian and Tibetan Affairs Commission, since 1937; address, Mongolian and Tibetan Affairs Commission, Chungking. — p. 572
+
+**Chu, Mrs. Nora Hsiung** (see Hsiung, Tze) — p. 572
+
+**Chu, Shao-chou Lieut.-General** government official, born in Chekiang, 1894; graduate, Paoting Military Academy; commander-in-chief, Hupeh-Shensi-Kansu Border Region, since 1943; governor, Shensi Province, since 1944; address, Shensi Provincial Government, Sian. — p. 572
+
+**Chu, Shao-liang, General** army officer, born in Kiangsu, 1890; graduate, Japanese Staff College; commander-in-chief, 3rd Route Army, 1933; governor, Kansu Province, 1933-35; commander-in-chief, Chinese Forces in Shanghai area, 1937; commander-in-chief, 8th War Area, since 1938; member, Kuomintang Central Executive Committee, since 1935; address, 8th War Area Headquarters, Lanchow. — p. 572
+
+**Chu, Shih-ming Maj.-General** army officer, born in Hunan, 1902; graduate, M.I.T., Norwich Military School, Command and General Staff College at Fort Leavenworth, U.S.A.; director, department of information, Ministry of Foreign Affairs, 1940-41; military attache, Chinese Embassy, Washington, D.C., since 1941; aide to President of National Government, since 1943; address, National Government, Chungking. — p. 572
+
+**Chu, Shou-kuang General** army officer, native of Hupeh, born in Fukien, 1886; graduate, Japanese Staff College, 1916; vice-minister of war, 1929-30 ; acting minister of war, 1930 ; deputy director, Suiyuan Mongolian Political Council, 1940-42 ; address, c/o National Military Council, Chungking. — p. 572
+
+**朱德 Chu, Te** General army officer, communist leader, born in Szechwan, 1886 ; attended Yunnan Military Academy ; joined Communist Party in Berlin, 1922 ; led Nanchang Uprising, 1927 ; commander-in-chief, Chinese Communist Army, 1931-37 ; since the outbreak of war, appointed by National Military Council, commander-in-chief, Eighth Route Army, and later 18th Group Army ; address, Yenan, Shensi. — p. 573
+
+**屆映光 Chu, Ying-kuang** government official, born in Chekiang, 1881 ; vice-chairman, National Relief Commission, since 1938 ; address, National Relief Commission, Chungking. — p. 573
+
+**朱友漁 Chu, Yu-yu (prefers Y. Y. Tsu)** Christian worker, born in Shanghai, 1887 ; B.A., St. Johns, 1907 ; M.A. and Ph.D., Columbia ; bishop of Yunnan-Kweichow, since 1940 ; address, Chung Hua Sheng Kung Hui, Kunming. — p. 573
+
+**盃增锻 Chuan, Tseng-ku** writer, professor, born in Chekiang, 1903 ; B.A., Stanford, 1925 ; M.A., Harvard, 1926 ; member, editorial board, Tien Hsia Monthly, 1935-41 ; member, Legislative Yuan, since 1942 ; professor, National Futan Univ., since 1942 ; address, Legislative Yuan, Chungking. — p. 573
+
+**莊智煥 Chuang, Chih-huan** electrical engineer, government official, born in Chekiang, 1900 ; graduate, National Chiaotung Univ. and Paris Electrical Mechanical School ; director of industry, Ministry of Economic Affairs, since 1940 ; address, Ministry of Economic Affairs, Chungking. — p. 573
+
+**鍾世蕃 Chung, Shih-fan** hospital superintendent, born in Fukien, 1900 ; M.D., Peiping Union Medical College, 1930 ; superintendent, Central Hospital, Kweiyang, since 1942 ; address, Central Hospital, Kweiyang, Kweichow. — p. 573
+
+**達賴喇嘛十四世 Dalai Lama, 14th Incarnation (Tanchu)** sovereign pontiff of Tibet, born of peasant family, Sining, Chinghai, 1934 ; enthroned at Lhasa, 1940. — p. 573
+
+**Djang, Y. S. (see Chang, Yuan-shan)**  — p. 573
+
+**Dsang, Lincoln Lin-kao (see Chang, Ling-kao)**  — p. 573
+
+**范崇實 Fan, Chung-shih** industrialist, born in Szechwan ; LL.B., National Peking Univ. ; general manager, Szechwan Silk Co., since 1937 ; address, Szechwan Silk Co., Chungking. — p. 573
+
+**范旭東 Fan, Hsu-tung (prefers Fan Shuton)** chemist, born in Hunan, 1883 ; B.Sc., Kyoto Imperial Univ., Japan ; founder and president, Chiu Ta Salt Manufacturing Company, Yung Li Chemical Works, Yung Yu Salt Manufacturing Company and Golden Sea Research Institute of Chemical Industry ; address, Nan Yuen, Shapingpa, Chungking. — p. 573
+
+**Fan Shuton (see Fan Hsu-tung)**  — p. 573
+
+**方治 Fang, Chih** party official, born in Anhwei, 1895 ; graduate, Tokyo College of Arts and Science ; vice-minister, Kuomintang Board of Publicity, 1936 ; member, Kuomintang Central Executive Committee, since 1935 ; chairman, Chungking Municipal Kuomintang Headquarters, since 1944 ; address, Municipal Kuomintang Headquarters, Chungking. — p. 573
+
+**方顯廷 Fang, Hsien-ting (prefers H. D. Fong)** economist, professor, born in Chekiang, 1903 ; B.S., New York Univ., 1924 ; Ph.D., Yale, 1928 ; professor and research director, Nankai Economic Research Institute, Nankai Univ., 1929-36 ; acting dean, same institute, 1936-41 ; consultant, U.S. Board of Economic Warfare, 1942-43 ; professor and research director, Nankai Economic Research Institute, since 1944 ; editor, Nankai Social and Economic Quarterly ; author, China's Industrialization and Rural Industries in China, etc. ; address, Nankai Economic Research Institute, Shapingpa, Chungking. — p. 573
+
+**Feng, Chih-an** Lieut.-General army officer, born in Hopei, 1896; graduate, Staff College; commander, 37th Division, 1931-37; was acting commander, 29th Army, 1937, when Japan started her North China attack; governor, Hopei Province, 1936-39; commander, 19th Army, 1937-40; commander-in-chief, 33rd Group Army, since 1940. — p. 574
+
+**Feng, Chin-tsai** Lieut.-General army officer, born in Shansi, 1887; commander-in-chief, 27th Route Army, 1937; commander, 98th Army, 1939; deputy commander-in-chief, Hopei-Chahar War Area, and governor, Chahar Province, since 1941. — p. 574
+
+**Feng, Tze-kai** writer, cartoonist, born in Chekiang; 1898; graduate, Kawahana Painting School, 1921; professor, National Chekiang Univ., 1939-42 ; dean, National Fine Arts Academy, 1942-43 ; address, National Fine Arts Academy, Shapingpa, Chungking. — p. 574
+
+**Feng, Yu-hsiang** General army officer, born in Anhwei, 1880 ; participated in many battles and held many important posts such as military governor of Honan, Shensi, and the Northwest prior to Northern Expedition ; commander-in-chief, 2nd Group Army, National Revolutionary Forces, 1926-28 ; elected state councillor, National Government, 1928 ; elected member, Kuomintang Central Executive Committee, 1929 ; vice-president, Executive Yuan, and minister of war, 1928-29 ; re-elected member, Kuomintang Central Executive Committee, 1931 ; re-elected state councillor, National Government, 1932 ; vice-chairman, National Military Council, 1936 ; member, National Military Council, since 1938 ; address, National Military Council, Chungking. — p. 574
+
+**Feng Yu-kun** government official, born in Hunan, 1903 ; B.A., Univ. of Washington, 1930 ; M.A., Michigan, 1931 ; graduate Birmingham Police Academy, 1932 ; director, department of police administration, Ministry of Interior, since 1936 ; address, Ministry of Interior, Chungking. — p. 574
+
+**Feng, Yu-lan (prefers Fung Yu-lan)** professor, philosopher, born in Honan, 1890 ; graduate, National Peking Univ., 1918 ; Ph.D., Columbia, 1923 ; professor, National Tsing Hua Univ., 1927-32 ; dean, College of Arts, same institution, since 1933 ; professor, National Southwest Associated Univ., since 1938 ; author, A History of Chinese Philosophy, A New Philosophy, and A New Way of Life; the second being a 1st prize winner from Ministry of Education, 1942 ; address, National Southwest Associated Univ., Kunming. — p. 574
+
+**Fong, H. D** (see Fang, Hsien-ting) — p. 574
+
+**Foo, Ping-sheung** (see Fu, Ping-chang) — p. 574
+
+**Fu, Ju-lin** government official, born in Heilungkiang, 1901 ; graduate, National Peking Univ.; member, Kuomintang Central Executive Committee, since 1935 ; chairman, Yangtze River Conservancy Commission, since 1935 ; address, Yangtze River Conservancy Commission, Chungking. — p. 574
+
+**Fu, Ping-chang (prefers Foo Ping-sheung)** diplomatic official, born in Kwangtung, 1895 ; graduate, Hongkong Univ., member, Legislative Yuan, and chairman foreign affairs committee, same Yuan, 1928-41 and 1942 ; member, Kuomintang Central Executive Committee, since 1935 ; vice-minister of foreign affairs, 1941-42 ; ambassador to U.S.S.R., since 1943 ; address, Chinese Embassy, Moscow. — p. 574
+
+**Fu, Ssu-nien** professor, historian, born in Shantung, 1896 ; graduate, National Peking Univ., 1919 ; studied at London, Berlin, 1920-23 ; professor, 1923-26 ; emeritus, National Peking Univ., since 1930 ; director, Research Institute of History and Linguistics, Academia Sinica, since 1928 ; member, People's Political Council, since 1938 ; address, P.O. Box 5, Lichuang, Szechwan. — p. 574
+
+**Fu, Tso-yi** General army officer, born in Shansi, 1895 ; graduate, Paoting Military Academy, 1918 ; garrison commander, Tientsin, 1928-30 ; commander, 10th Army, 1929-30 ; commander, 35th Army, 1930-32 ; commander-in-chief, 7th Group Army, 1933 ; governor, Suiyuan Province, since 1931 ; vice-commander-in-chief, 8th War Area, since 1939 ; address, Suiyuan Provincial Government, Shenpa, Suiyuan. — p. 574
+
+**Fung Yu-lan** (see Feng, Yu-lan) — p. 575
+
+**韓安 Han, An** forestry expert, born in Anhwei, 1883 ; M.S., Michigan ; now director, National Forestry Research Bureau, Ministry of Agriculture and Forestry ; address, National Forestry Research Bureau, Koloshan, Chungking. — p. 575
+
+**Han, Lih-wu** (see Hang, Li-wu) — p. 575
+
+**韓德勤 Han, Te-chin** Lieut.-General army officer, born in Kiangsu ; graduate, Paoting Military Academy ; governor, Kiangsu Province, since 1939 ; directs Chinese troops fighting in northern Kiangsu. — p. 575
+
+**杭立武 Hang, Li-wu (prefers Han Lih-wu)** government official, born in Anhwei, 1902 ; B.A., Nanking Univ., 1924 ; research student, London, 1926-28 ; M.A., Wisconsin, 1928 ; director, Board of Trustees for the Administration of Indemnity Fund Remitted by British Government, since 1932 ; member, People's Political Council, since 1938 ; member, Chinese Goodwill Mission to Great Britain, 1943 ; address, Yu Chwan Villa, Liang Lukou, Chungking. — p. 575
+
+**郝更生 Hao, Keng-sheng (prefers Gunsunl Hoh)** physical director, born in Kiangsu, 1899 ; B.P.E., Springfield, 1923 ; national director of physical education, Ministry of Education, since 1933 ; secretary-general, National Gliders' Association, since 1941 ; author, Physical Education in China ; address, Ministry of Education, Ching Mu Kuan, Chungking. — p. 575
+
+**何成濬 Ho, Cheng-chun** General army officer, born in Hupeh, 1882 ; graduate, Japanese Military Cadets' Academy ; aide-de-camp to president, National Government, 1928 ; governor, Hupeh Province, 1929-30 ; member, Kuomintang Central Executive Committee, since 1929 ; military affairs commissioner, Hupeh, 1932-37 ; director, Generalissimo's Provisional Headquarters at Wuhan, and governor, Hupeh Province, 1937 ; director-general of Courts-Martial, since 1938 ; address, Directorate-General of Courts-Martial, Chungking. — p. 575
+
+**何杰 Ho, Chieh** professor, geologist, born in Kwangtung, 1890 ; metallurgical engineer, Univ. of Colorado ; M.S., Lehigh ; appointed by Ministry of Education ‘‘ Ministry-appointed Professor ’’ in geology, 1942 ; now professor and dean, College of Science, National Sun Yat-sen Univ., and director, Kwangtung-Kwangsi Geological Survey ; address, National Sun Yat-sen Univ., Pingshih, Kwangtung. — p. 575
+
+**何健 Ho, Chien** General army officer, born in Hunan, 1886 ; graduate, Paoting Military Academy ; commander, 4th' Route Army, 1928-37 ; governor, Hunan Province, 1929-37 ; minister of interior, 1937-39 ; member, Kuomintang Central Executive Committee, since 1935 ; chairman, Awards and Pension Commission, National Military Council, since 1939 ; address, National Military Council, Chungking. — p. 575
+
+**賀衷寒 Ho, Chung-han** Lieut.-General government official, born in Hunan, 1902 ; member, Kuomintang Central Executive Committee, since 1935 ; director, Labor Bureau, Ministry of Social Affairs, since 1942 ; address, Labor Bureau, Chungking. — p. 575
+
+**Ho, Franklin L** (see Ho, Lien) — p. 575
+
+**何浩若 Ho, Hao-jo** government official, born in Hunan, 1899 ; B.A., Stanford ; M.A. and Ph.D., Wisconsin ; graduate, Norwich Military Academy ; director, Commodity Administration, Ministry of Economic Affairs, 1942 ; deputy secretary-general, National General Mobilization Council, 1943-44 ; vice-minister, Political Training Board, National Military Council, since 1944 ; director, Foreign Affairs Bureau, same Council, since 1944 ; address, Political Training Board, Chungking. — p. 575
+
+**賀國光 Ho, Kuo-kuang** Lieut.-General army officer, born in Hupeh, 1885 ; graduate, Staff College, 1917 ; director, Staff Officers' Corps to Szechwan, 1934 ; deputy director, Generalissimo's Provisional Headquarters in Chungking, 1936-38; director, Generalissimo's Provisional Headquarters in Chengtu, 1939; mayor of Chungking, 1939; secretary-general and acting chairman, Szechwan Provincial Government, 1939-41; commander of gendarmerie, 1941-44; Air Defense Commander, Chungking, and vice-commander-in-chief, Chungking Garrison Area, 1941-44; director, main office, National Military Council, since 1944; address, National Military Council, Chungking. — p. 575
+
+**Ho, Kwei-chang** Lieut.-General army officer, born in Hunan, 1902; graduate, Whampoa Military Academy, 1924; commander-in-chief, 20th Group Army, since 1939. — p. 576
+
+**Ho, Lien (prefers Franklin L. Ho)** economist, government official, born in Hunan, 1897; B.A., Pomona College, Cal., 1912; Ph.D., Yale,, 1926; professor, Nankai Univ., 1926-30; director, Nankai Economic Research Institute, since 1930; director, political affairs department, Executive Yuan, 1937; vice-minister of economic affairs, 1938; director, Agricultural Credit Administration, 1939-41; deputy secretary-general, Central Planning Board, since 1943; address, Central Planning Board, Chungking. — p. 576
+
+**Ho, Lien-kwei** party official, born in Chekiang, 1902; B.A., National Peking Univ., 1926; research student, London Univ.; vice-director, Kuomintang Central Training Committee, since 1944; address, Central Training Committee, Chungking. — p. 576
+
+**Ho, Pei-heng** government official, born in Szechwan, 1898; graduate, National Peking Univ.; member and reconstruction commissioner, Szechwan Provincial Government, since 1944; address, Szechwan Provincial Government, Chengtu. — p. 576
+
+**Ho, Ping-sung** university president, born in Chekiang, 1890; B.A., Wisconsin, 1915; M.A., Princeton, 1916; chancellor, National Chinan Univ., since 1935; address, c/o Ministry of Education, Chungking. — p. 576
+
+**Ho, Ssu-yuan** government official, born in Shantung, 1899; M.S., Chicago; member, Kuomintang Supervisory Committee, 1935; member and civil affairs commissioner, Shantung Provincial Government, since 1942; address, Shantung Provincial Government, southern Shantung. — p. 576
+
+**Ho, Sui** Lieut.-General government official, born in Fukien, 1887; graduate, Staff College, 1908; member and chairman, military affairs committee, Legislative Yuan, since 1931; address, Legislative Yuan, Chungking. — p. 576
+
+**Ho, Tung** government official, born in Kwangtung, 1893; graduate, Paoting Military Academy; member and civil affairs commissioner, Kwangtung Provincial Government, since 1938; address, Kwangtung Provincial Government, Kukong. — p. 576
+
+**Ho, Yang-ling** government official, born in Kiangsu, 1902; graduate, National Wuchang Normal College, and Waseda Univ., Tokyo; member and director, western Chekiang Office, Chekiang Provincial Government, since 1939; address, Chekiang Provincial Government, southern Chekiang. — p. 576
+
+**Ho, Yao-tsu** General army officer, government official, born in Hunan, 1889; graduate, Tokyo Military Cadets' Academy; commander, 3rd Army, 1928; member, Kuomintang Central Executive Committee, since 1931; aide-de-camp to president of National Government, 1932-34; vice-chief, General Staff, 1932-34; minister to Turkey, 1934-36; governor, Kansu Province, 1937; aide-de-camp to Generalissimo, 1940-42; secretary-general, economic council, Executive Yuan, 1941-42; secretary-general, National General Mobilization Council, 1942; mayor of Chungking, since 1942; address, Municipal Government, Chungking. — p. 576
+
+**Ho, Yen-chun** professor, born in Kwangtung, 1900; M.S., Lyons, France, 1924; professor and dean, department of mathematics, National Sun Yat-sen Univ., 1926-33; professor and dean, College of Science, same institution, 1933-40; professor and dean, College of Science, National Yunnan Univ., 1940-42; dean of faculty, same institution, since 1942; address, National Yunnan Univ., Kunming. — p. 576
+
+**何應欽 Ho, Ying-chin** General army officer, born in Kweichow, 1889; graduate, Tokyo Military Cadets' Academy; dean, Whampoa Military Academy, 1924; commander-in-chief, Eastern Route Army, National Revolutionary Forces, 1926; governor, Fukien Province, 1926; member, Kuomintang Central Executive Committee, since 1926; chief of staff, National Revolutionary Forces, 1927; inspector-general of military training, 1929; minister of war, since 1930; acting president, Peiping Branch, National Military Council, 1933; chief of staff, National Military Council, since 1937; member, standing committee, Kuomintang C.E.C., since 1937; address, National Military Council, Chungking. — p. 577
+
+**Hoh, Gunsun** (see Ho, Keng-sheng) — p. 577
+
+**Hoo, Victor Chitsai** (see Hu, Shih-tseh) — p. 577
+
+**侯家源 Hou, Chia-yuan** railway engineer, born in Kiangsu, 1896; graduate, Tangshan Engineering College, 1918; M.S., Cornell, 1919; chief engineer, Kiangsi section, Chekiang-Kiangsi Railway, 1937-38; managing director, Hunan-Kwangsi Railway Administration, 1938-40; director, engineering bureau, Kweichow-Kwangsi Railway, since 1939; address, Liulungchuang, Ishan, Kwangsi. — p. 577
+
+**侯寶璋 Hou, Pao-chang** physician, born in Anhwei, 1895; M.D., Peiping Union Medical College, 1921; studied at Chicago (1927), Berlin (1928-29), and National Hospital for Nervous Diseases, London (1935); professor of pathology (Ministry of Education Chair), West China Union Univ., 1938-39; professor and dean, department of pathology, Cheeloo Univ., since 1938; chairman, West China Border Research Society, since 1942; address, Cheeloo Univ., Chengtu. — p. 577
+
+**侯德封 Hou, Te-feng** geologist, born in Hopei, 1898; graduate, National Peking Univ., 1923; director, Szechwan Geological Survey, since 1942; author, Power Resources in China and The Mineral Reserve of China; address, P.O. Box 4, Hsiaolungkan, Chungking. — p. 577
+
+**侯德榜 Hou, Te-pang** chemical engineer, born in Fukien; B.S., M.I.T. (1917), M.S. (1919) and Ph.D. (1920), Columbia; chief engineer, Yung Li Chemical Works, since 1934; winner, Gold Medal of Chinese Engineering Society; touring U.S.A., 1944; address, Yungli Chemical Works, Chungking. — p. 577
+
+**席德炳 Hsi, Te-ping** government official, born in Kiangsu, 1891; B.S., Massachusetts Institute of Technology, 1914; superintendent of Customs, Hankow, 1929-37; director, Central Mint, 1937-44; general manager, Foo Shing Trading Corporation, since 1941; address, Foo Shing Trading Corporation, Chungking. — p. 577
+
+**席文光 Hsi, Wen-kuang** banker, born in Szechwan, 1895; graduate, Shanghai Commercial College, 1922; manager, Szechwan Salt Bank, since 1940; address, Szechwan Salt Bank, Chungking. — p. 577
+
+**夏勤 Hsia Chin** government official, born in Kiangsu, 1893; graduate, Japanese Central Univ., 1916; administrative vice-minister of justice, since 1938; address, Ministry of Justice, Chungking. — p. 577
+
+**夏晉麟 Hsia, Chin-lin** (prefers C. L. Hsia) government official, born in Chekiang, 1896; B.A., Glasgow, 1919; M.A. (1920) and Ph.D. (1922), Edinburgh; 1st secretary, Chinese Legation, London, 1931-33; 1st secretary, Chinese Legation, Washington, D.C., 1933; member, Legislative Yuan, since 1934; director, Chinese News Service, New York, since 1942; address, Chinese News Service, New York. — p. 577
+
+**夏斗寅 Hsia, Tou-yin** General army officer, born in Hupeh, 1884; commander-in-chief, 21st Route Army, and garrison commander, Wuchang-Hankow area, 1930; governor, Hupeh Province, 1932; member, Kuomintang Central Executive Committee, since 1931 ; address, c/o Kuomintang Central Headquarters, Chungking. — p. 577
+
+**Hsiao, Cheng** party and government official, born in Chekiang, 1905; studied at National Peking Univ. and Berlin Univ. ; member, Kuomintang Central Executive Committee, since 1935; director, China Land Administration Research Institute, since 1941 ; president, Chinese Association of Land Economics, since 1933 ; address, China Land Administration Research Institute, South Hot Springs, Chungking. — p. 578
+
+**Hsiao, I-shan (prefers Yishan Shaw)** historian, professor, born in Kiangsi, 1902 ; graduate, National Peking Univ.; studied at Cambridge ; member, People's Political Council, since 1938; dean, College of Arts, National Northeast Univ., since 1939 ; author, A History of Ching Dynasty ; address, National Northeast Univ., Santai, Szechwan. — p. 578
+
+**Hsiao, Tung-tze (prefers T. T. Hsiao)** journalist, born in Hunan, 1894 ; graduate, Hunan Industrial College, 1917 ; member, Kuomintang Central Executive Committee, since 1932 ; managing director, Central News Agency, since 1932 ; address, Central News Agency, Chungking. — p. 578
+
+**Hsiao, T. T. (see Hsiao, Tung-tze)**  — p. 578
+
+**Hsieh, Cheng-fu** government official, born in Hunan, 1904 ; Litt.D., Paris, 1931 ; director, department of social welfare, Ministry of Social Affairs, since 1940 ; Chinese delegate, United Nations Relief and Rehabilitation Conference, 1944 ; Chinese Government's delegate, 27th International Labor Conference, 1944 ; address, Ministry of Social Affairs, Chungking. — p. 578
+
+**Hsieh, Chia-sheng (prefers K. S. Sie)** agriculturist, born in Anhwei, 1887 ; M.S., Michigan College of Agriculture, 1916 ; studied at Cornell, 1918 ; professor and dean, College of Agriculture, Nanking Univ., 1930-35 ; director, National Agricultural Research Bureau, since 1935 ; address, National Agricultural Research Bureau, Peipei, Chungking. — p. 578
+
+**Hsieh, Chia-yung** geologist, born at Shanghai, 1900 ; M.S., Wisconsin, 1920 ; director, mining survey department, Geological Survey of China, since 1940 ; address, Geological Survey of China, Chungking. — p. 578
+
+**Hsieh, Hsun-chu** college president, born in Anhwei, 1896 ; B.A., Illinois, 1921 ; M.A., Chicago, 1922 ; president, National Normal College for Women, since 1940 ; address, National Normal College for Women, Peisha, Szechwan. — p. 578
+
+**Hsieh, Kwan-sheng** government official, born in Chekiang, 1897 ; docteur en droit, Paris, 1924 ; secretary-general, Judicial Yuan, 1930-37 ; vice-minister of justice, 1934 ; minister of justice, since 1938 ; address, 589 Lin Sen Road, Chungking. — p. 578
+
+**Hsieh, Pao-chiao** government official, born in Kwangtung, 1896 ; Ph.D., Johns Hopkins ; director, Bureau of Legislative Research, Legislative Yuan, since 1933 ; leader, Chinese and Foreign Press Party to Northern Shensi, 1944 ; address, Legislative Yuan, Chungking. — p. 578
+
+**Hsieh, Wan-ying (Mrs. Wu Wen-tsao, Pen-name: Ping Hsin)** poetess, novelist, born in Fukien, 1905 ; B.A., Yenching Univ., 1923 ; M.A., Wellesley, 1926 ; for several years professor of Chinese at Yenching and National Tsing Hua Univs. ; author of many volumes of poems and novels, including The Star, Spring Water, Superman and Letters to Young Readers ; address, 3 Lin Chia Miao, Koloshan, Chungking. — p. 578
+
+**Hsieh, Wei-lin** diplomatic official, born in Kiangsu, 1893 ; LL.M., Paris ; 1st secretary and charge d'affaires, Chinese Legation, Paris, 1931 ; counsellor, Ministry of Foreign Affairs, 1937 ; minister to Sweden, since 1938 ; address, Chinese Legation, Stockholm. — p. 578
+
+
+## Who's Who
+
+**群英 Hsien, Ying** publisher, born in Szechwan, 1885 ; publisher, Sin Shu Pao (New Szechwan Daily) ; address, Sin Shu Pao, Chungking. — p. 579
+
+**熊斌 Hsiung, Pin Lieut.-General** army officer, born in Hupeh, 1893 ; graduate, Staff College ; vice-minister of war, 1926 ; director, Aviation Administration, Ministry of War, 1929; deputy chief of general staff, 1934-37 ; vice-minister, Board of Military Operations, National Military Council, 1938-41 ; governor, Shensi Province, 1942-44 ; vice-minister, Board of Military Operations, National Military Council, since 1944 ; address, Board of Military Operations, National Military Council, Chungking. — p. 579
+
+**熊式輝 Hsiung, Shih-hui General** army officer, born in Kiangsi, 1894 ; graduate, Japanese Staff College, 1924 ; commander, 5th Division, 1926 ; garrison commander, Shanghai and Woosung, 1927-32 ; chief of staff, Land, Naval and Air Forces Headquarters, 1931 ; member, Kuomintang Central Executive Committee, since 1935 ; governor, Kiangsi Province, 1931-42 ; head, Chinese Military Mission to U.S.A., 1942-43 ; secretary-general, Central Planning Board, since 1943 ; address, Central Planning Board, Chungking. — p. 579
+
+**熊莊 Hsiung, Tze (Mrs. Nora Hsiung Chu)** child welfare worker, born in Hunan, 1902 ; B.A. (1926) and M.A. (1927), Columbia ; secretary-general, National Association for Refugee Children since 1942 ; address, National Association, for Refugee Children Chungking. — p. 579
+
+**熊慶來 Hsiung, Ching-lai** university president, born in Yunnan, 1893 ; D.Sc., Paris ; chancellor, National Yunnan Univ., since 1938 ; address, National Yunnan Univ., Kunming. — p. 579
+
+**徐中齊 Hsu, Chung-chi** police officer, born in Szechwan, 1904 ; graduate, Whampoa Military Academy, Vienna Police Academy, and Austrian Police College ; police commissioner of Chungking, 1938-40 ; vice-dean, Central Police Academy, 1943 ; police commissioner of Chungking, since 1943 ; address, Police Bureau, Chungking. — p. 579
+
+**徐中年 Hsu, Chung-nien** professor, writer, born in Kiangsi, 1904 ; Litt.D., Lyons, 1930 ; professor, National Central Univ., since 1932 ; address, National Central Univ., Chungking. — p. 579
+
+**徐恩曾 Hsu, En-tseng** government official, born in Chekiang, 1899 ; B.S., Carnegie ; member, Kuomintang Central Executive Committee, since 1935 ; vice-minister of communications, since 1943 ; address, Ministry of Communications, Chungking. — p. 579
+
+**徐希麟 Hsu, Hsi-lin** army medical officer, born in Fukien, 1899; graduate, Jikei Medical College, Tokyo ; deputy director, Army Medical Administration, Ministry of War, 1943-44 ; director, same administration, since 1944 ; address, Army Medical Administration, Ministry of War, Chungking. — p. 579
+
+**許孝炎 Hsu, Hsiao-yen** government official, born in Hunan 1901 ; B.A., National Peking Univ. ; member, People's Political Council, since 1938 ; secretary-general, Ministry of Information, 1938-42 ; member, Central Planning Board, 1943-44 ; vice-minister of information, since 1944 ; address, Ministry of Information, Chungking. — p. 579
+
+**須愷 Hsu, Kai** hydraulic engineer, born in Kiangsu, 1900 ; graduate, Univ. of California, 1923 ; chief engineer, Hwai River Conservancy Commission, 1931-42 ; technical supervisor, National Conservancy Commission, since 1942 ; address, National Conservancy Commission, Kolosan, Chungking. — p. 579
+
+**徐堪 Hsu, Kan** government official, born in Szechwan, 1887 ; director, currency department, Ministry of Finance, 1928-35 ; vice-minister of finance, 1935-41 ; member, Kuomintang Central Executive Committee, since 1935 ; minister of food, since 1941 ; address, Ministry of Food, Chungking. — p. 579
+
+
+## Chinese Who's Who
+
+**Hsu, Mo** diplomatic official, born in Kiangsu, 1892 ; LL.B., Peiyang Univ., 1916; LL.M., George Washington, 1922 ; foreign affairs commissioner, Shanghai, 1929 ; administrative vice-minister of foreign affairs, 1932 ; political vice-minister of foreign affairs, 1932-41 ; minister to Australia with ambassadorial rank, since 1941 ; address, Chinese Legation, Canberra, Australia. — p. 580
+
+**Hsu, Pei-hung (prefers Ju Pion)** artist, professor, born in Kiangsu, 1894 ; studied at National School of Fine Arts, Paris, 1919-23 ; professor and dean, department of fine arts, National Central Univ., since 1928; address, National Central Univ., Chungking. — p. 580
+
+**Hsu, Pen-chun** government official, born in Anhwei, 1898 ; M.S., Pittsburgh ; Ph.D., Illinois ; director, metallurgical department, National Resources Commission, since 1938 ; address, National Resources Commission, Chungking. — p. 580
+
+**Hsu, Ping-chang** historian, born in Honan, 1887 ; studied at Paris Univ.; director of history, National Academy of Peiping, since 1932 ; author, Legendary Period in Chinese History ; address, National Academy of Peiping, Kunming. — p. 580
+
+**Hsu, Po-yuan** banker, born in Chekiang, 1903 ; studied at Chicago, Illinois and California Univs.; deputy secretary-general, Joint Board of Four Government Banks, since 1939 ; address, Joint Board of Four Government Banks, Chungking. — p. 580
+
+**Hsu, Shih-ying** government official, born in Anhwei, 1872 ; minister of justice, 1910-12 ; civil governor of Anhwei, 1921 ; premier, 1925-26 ; chairman, National Famine Relief Commission, 1928-35 ; ambassador to Japan, 1936-37 ; acting chairman, National Relief Commission, since 1938 ; address, National Relief Commission, Chungking. — p. 580
+
+**Hsu, Shu-hsi** government official, born in Kwangtung, 1892 ; B.A., Hongkong Univ., 1917 ; M.A. (1919) and Ph.D. (1925), Columbia ; professor and dean, College of Public Affairs, Yenching Univ., 1925-37 ; advisor, Ministry of Foreign Affairs, and director, western Asiatic affairs department, Ministry of Foreign Affairs, since 1942 ; editor, Chinese Year Book, 1937-42 ; address, Ministry of Foreign Affairs, Chungking. — p. 580
+
+**Hsu, Tao-lin** government official, born in Kiangsu, 1906 ; LL.B., Berlin ; charge d'affaires, Chinese Embassy, Rome, 1938-41 ; director, department of examination, Ministry of Personnel Registration, since 1942 ; address, Ministry of Personnel Registration, Chungking. — p. 580
+
+**Hsu, Ting-yao** Lieut.-General. army officer, born in Anhwei, 1890 ; graduate, Paoting Military Academy ; defender of Kupeikow along Great Wall against Japanese invasion, 1933 ; head, Chinese Military Inquiry Mission to Europe and America, 1934-35 ; now dean, Mechanized Unit School. — p. 580
+
+**Hsu, Wei-lien (prefers William L. Hsu)** social welfare worker, born in Hopei, 1895 ; M.A., Michigan Univ., 1922 ; deputy secretary-general, Friends of Wounded Soldiers Society, since 1939 ; secretary-general, Chinese Industrial Cooperatives, since 1943 ; address, Chinese Industrial Cooperatives, Chungking. — p. 580
+
+**Hsu, William L** (see Hsu, Wei-lien). — p. 580
+
+**Hsu, Yuan-chuan** General. army officer, born in Hupeh, 1885 ; member, Kuomintang Central Executive Committee, since 1935 ; former commander, 10th Army ; now councillor, Military Advisory Council ; address, Military Advisory Council, Chungking. — p. 580
+
+**Hsu, Yung-chang** General. army officer, born in Shansi, 1889 ; graduate, Staff College, Peking, 1916 ; commander, 12th Route Army, 1927 ; governor, Suiyuan Province, 1928 ; governor, Hopei Province, 1929 ; garrison commander, Shansi and Suiyuan Provinces, 1930 ; governor, Shansi Province, 1931-36 ; director, main office, National Military Council, 1937 ; minister, Board of Military Operations, National Military Council, since 1938 ; address, Board of Military Operations, Chungking. — p. 580
+
+**Hsueh, Kuang-chien** government official, born in Kiangsu, 1909 ; LL.B., Comparative Law School of China, 1933 ; Ph.D., Royal Univ. of Rome, 1935 ; deputy director, Highway Transportation Administration, 1940-41 ; director, Szechwan-Hunan-Shensi Waterway and Highway Transportation Administration, since 1942 ; address, Ministry of Communications, Chungking. — p. 581
+
+**Hsueh, Ming-chien** specialist in sericulture, born in Kiangsu, 1894; graduate, Cheng Feng College; member, People's Political Council, and member, Silk Production Committee, Ministry of Agriculture and Forestry; address, 1 Hsin Sen Yuan, Yeh Miao Chi, South Bank, Chungking. — p. 581
+
+**Hsueh, Tu-pi** government official, born in Shansi, 1890; graduate, Shansi Law College, 1913; governor of Kansu, 1925-27; minister of interior, 1928; minister of health, 1928-29; member, Kuomintang Central Executive Committee, since 1928; chairman, National Conservancy Commission, since 1941; address, National Conservancy Commission, Chungking. — p. 581
+
+**Hsueh, Yueh General** army officer, born in Kwangtung, 1896; graduate, Paoting Military Academy; commander-in-chief, 2nd Route Army, and military affairs commissioner, Kweichow, 1935; commander-in-chief, 9th War Area, and governor, Hunan Province, since 1939. — p. 581
+
+**Hu, Chien-chung** journalist, born in Chekiang, 1902; B.A., Futan Univ., 1924; member, People's Political Council, since 1938; managing director, Central Daily News, since 1943; address, Central Daily News, Chungking. — p. 581
+
+**Hu, Hsi-yuan** industrialist, born in Chekiang, 1898; graduate, Chekiang Industrial College, 1919; general manager and chairman of board of directors, Hsi Ya Electrical Appliance Factory; general manager, Kai Tai Chemical Works; address, 116 Pai Hsiang Street, Chungking. — p. 581
+
+**Hu, Hsien-hsiu** botanist, educator, born in Kiangsi, 1894; B.A., California, 1916; M.S. (1924) and D.Sc. (1925), Harvard; professor and dean, department of botany, National Southeast Univ., 1918-27; head, department of botany, Fan Memorial Institute of Biology, Peiping, 1928; chancellor, National Chung Cheng Univ., 1940-43; president, Chinese Botanical Society; fellow, Edinburgh Botany Society; vice-president, International Faculty of Sciences. — p. 581
+
+**Hu, Huan-yung** professor, born in Kiangsu, 1901; B.S., National Southeast Univ., 1926; research student, Institute de Geographie, Paris, 1926-28; professor and dean, department of geography, National Central Univ., 1928-43; dean, same institution, since 1943; appointed by Ministry of Education "Ministry-Appointed Professor," 1942; president, Chinese Geographical Society; address, National Central Univ., Chungking. — p. 581
+
+**Hu, Kuang-piao** engineer, born in Szechwan; 1905; graduate, M.I.T., 1919; now chief engineer, China Development Corporation, and general manager, Kia Hua Cement Company; address, China Development Corporation, Chungking. — p. 581
+
+**Hu, Lan-sheng (prefers L. S. Woo)** surgeon, born in Anhwei, 1891; graduate, Medical College, Harvard, 1921; director, Army Medical Administration, 1937-40; secretary-general, Chinese Red Cross Society, and director, Chinese Red Cross Medical Relief Corps, since 1942; address, Chinese Red Cross Society, Chungking. — p. 581
+
+**Hu, Lin** journalist, born in Szechwan, 1893; LL.B., Tokyo Imperial Univ., 1911; founder and director, Kuo Wen News Agency, 1921 ; now managing director, Ta Kung Pao ; member, resident committee, People's Political Council, since 1938; member, Chinese Goodwill Mission to England, 1943 ; address, Ta Kung Pao, Chungking. — p. 581
+
+**Hu, Po-han** Lieut-General; army officer, born in Hopei, 1899 ; graduate, Paoting Military Academy, 1922 ; commander, 196th Division, and vice-commander, 90th Army, 1938 ; vice-commander, Chungking Air Defense Headquarters, 1939-41 ; revised Chungking's ‘ red ball ’ air alarm signal ; chief of staff, Chungking Garrison Headquarters, 1941-42 ; vice-commander-in-chief, 39th Group Army, since 1942. — p. 582
+
+**Hu, Shih** philosopher, diplomatic official, born in Anhwei, 1891 ; B.A., Cornell, 1914 ; Ph.D., Columbia, 1917; holder of a number of honorary degrees from American and British Univs.; leading figure in ‘ Literary Revolution,’ 1917, and advocate of use of spoken language in writing; professor of philosophy and later dean, department of English literature, National Peking Univ., 1917-27 ; president, China National Institute, 1928-30 ; dean, College of Arts, National Peking Univ., 1930-37 ; member, People’s Political Council, 1938 ; ambassador to U.S.A., 1938-42 ; adviser, Executive Yuan, since 1942 ; now in U.S.A.; author of a number of books on philosophy, literature, and politics, including A History of Chinese Philosophy (Vol. I) ; address, c/o Chinese Embassy, Washington, D.C. — p. 582
+
+**Hu, Shih-che (prefers Victor Chitsai Hoo)** diplomatic official, native of Chekiang, born in Washington, 1894 ; LL.B. and LL.D., Paris, 1918 ; minister to Switzerland, 1931-42 ; vice-minister of foreign affairs, since 1942 ; adviser, Chinese Delegation to United Nations Financial and Monetary Conference, 1944 ; Chinese delegate, International Security Organization Conference at Washington, D.C., 1944 ; address, Ministry of Foreign Affairs, Chungking. — p. 582
+
+**Hu, Shu-hua** party worker, university president, born in 1885 ; engineer’s diploma, Technical College. Berlin ; chancellor, National Tungchi Univ., 1929-32 ; president, Hunan Provincial Univ., 1932-35 ; president, Chungking Univ., 1925-37 ; chancellor, National Northwest Univ., 1938-40 ; chancellor, National Hunan Univ., 1941-43 ; deputy secretary-general, San Min Chu I Youth Corps, since 1943 ; address, San Min Chu I Youth Corps, Chungking. — p. 582
+
+**Hu, Tien-shih** library expert, born in Kiangsu, 1902 ; founder and director, Bibliotheque Sino-International, since 1933 ; address, Bibliotheque Sino-International, Geneva. — p. 582
+
+**Hu, Ting-an** health expert, college president, born in Chekiang, 1898 ; M.D., Berlin, 1926 ; graduate, Academy of Public Health of Prussia, 1927 ; president, National Kiangsu Medical College, since 1937 ; address, National Kiangsu Medical College, Peipei, Chungking. — p. 582
+
+**Hu, Tsu-wei** government official, born in Szechwan, 1901 ; LL.B., Meiji Univ., Japan, 1927 ; member and civil affairs commissioner, Hunan Provincial Government, 1937-38 ; member and civil affairs commissioner, Szechwan Provincial Government, since 1938 ; address, Civil Affairs Department, Chengtu, Szechwan. — p. 582
+
+**Hu, Tsung-nan** General; army officer, born in Chekiang, 1902 ; graduate, Paoting Military Academy ; member, Kuomintang Central Executive Committee, since 1935 ; now commander-in-chief, 34th Group Army, and vice-commander-in-chief, 8th War Area. — p. 582
+
+**Hu, Tze-heng** government official, born in Chahar, 1898 ; B.A., National Peking Univ., 1923 ; member and education commissioner, Chahar Provincial Government, since 1939. — p. 582
+
+**Hu, Yuan-yi** professor, born in Hunan, 1896 ; LL.B., Tokyo Imperial Univ., 1924 ; professor and dean, department of law, National Szechwan Univ., since 1939 ; appointed by Ministry of Education ‘ Ministry-Appointed Professor ’ in law, 1942 ; address, National Szechwan Univ., Chengtu. — p. 582
+
+**Hua, Chen-lin** Lieut.-General army officer, graduate, Paoting Military Academy; visited Europe in 1934 to study military communications; director, Signal Corps, Military Training Board, and commander, Signal Corps, Board of Military Operations, National Military Council, since 1938; address, Board of Military Operations, Chungking. — p. 583
+
+**Hua, Lo-keng** professor, born in Kiangsu, 1911; studied at National Tsing Hua and Cambridge Univs.; professor of mathematics, National Tsing Hua Univ., since 1937; research fellow, Academia Sinica, since 1941; author, Additive Prime Number Theory, 1st prize winner from Ministry of Education, 1942; now lecturing in U.S.A.; address, c/o Chinese Embassy, Washington, D.C. — p. 583
+
+**Huang, Chen-chiu** Lieut.-General army officer, born in Kwangtung, 1898; graduate, Paoting Military Academy; now director, Air Defense Directorate, National Aeronautical Affairs Commission; address, National Aeronautical Affairs Commission, Chungking. — p. 583
+
+**Huang, Chi-ching (prefers T. K. Huang)** geologist, born in Szechwan, 1904; B.S., National Peking Univ., 1928; Ph.D., Neuchatel Univ., Switzerland, 1935; director, National Geological Survey of China, 1938-40; head, geology section, National Geological Survey of China, since 1940; member, Chinese Supplies Commission in Washington, since 1944; address, c/o Chinese Embassy, Washington, D.C. — p. 583
+
+**Huang, Chi-lu** university president, party official, born in Szechwan, 1902; M.A., California; reserve member, Kuomintang Central Executive Committee, since 1931; chairman, Szechwan Provincial Kuomintang Headquarters, since 1940; chancellor National Szechwan Univ., since 1942; address, National Szechwan Univ., Chengtu. — p. 583
+
+**Huang, Chien-chung** professor, born in Hupeh, 1889; B.A., National Peking Univ., 1917; studied at Edinburgh Univ., 1923-26; Cambridge, 1926; director, department of higher education, Ministry of Education, 1928-30; acting vice-minister of education, 1930; member and education commissioner, Hupeh Provincial Government, 1930-32; dean, College of Education, National Central Univ., 1932-34; member, People's Political Council, 1938-40; dean, Normal College, National Szechwan Univ., since 1942; address, National Szechwan Univ., Chengtu. — p. 583
+
+**Huang, Hsu-chu** General government official, born in Kwangsi, 1893; graduate, Staff College; governor, Kwangsi Province, since 1931; address, Kwangsi Provincial Government. — p. 583
+
+**Huang, Kuang-jui (prefers K. Y. Wong)** Air Maj.-General air force officer, studied aviation in U.S.A. and U.S.S.R.; deputy director, National Aeronautical Affairs Commission, and director, Research Institute of Aviation, since 1943; address, National Aeronautical Affairs Commission, Chungking. — p. 583
+
+**Huang, Lin-shu** government official, born in Kwangtung, 1894; graduate, Central Univ., Tokyo; reserve member, Kuomintang Central Executive Committee, since 1935; member and education commissioner, Kwangtung Provincial Government, since 1940; address, Kwangtung Provincial Government, Kukong. — p. 583
+
+**Huang, Ping-heng** Air Maj.-General air force officer, born in Chekiang, 1901; studied aviation in U.S.A.; acting director, Aviation Administration, Ministry of War, 1931-32; commander, 1st Route Command, Chinese Air Force, 1941; air attache, Chinese Embassy in U.S.A., since 1941; address, Chinese Embassy, Washington, D.C. — p. 583
+
+**Huang, Po-tu** government official, born in Anhwei, 1890; administrative vice-minister of social affairs, since 1940; address, Minister of Social Affairs, Chungking. — p. 583
+
+**Huang, Priscilla** (see Huang, Tsui-feng) — p. 583
+
+**Huang, Shao-hsiung** General government official, born in Kwangsi, 1895; graduate, Paoting Military Academy, 1916; governor, Kwangsi Province, 1927-31; commander, 15th Army, 1932-34; minister of interior, 1934-35; governor, Chekiang Province, 1935; governor, Hupeh Province, 1936; governor, Chekiang Province, since 1937; member, Kuomintang Central Supervisory Committee, since 1935. — p. 584
+
+**Huang, Ssu-chi** government official, born in Kwangtung, 1897; graduate, Kwangtung Military Survey Academy, 1914; director, Land Survey Bureau, Board of Military Operations, since 1936; address, P.O. Box 58, Kweiyang, Kweichow. — p. 584
+
+**Huang, T. K** (see Huang, Chi-Ching) — p. 584
+
+**Huang, Tsui-feng** (prefers Priscilla Huang) woman social worker, born in Kwangtung, 1905; B.A., Lingnan Univ.; M.A., Michigan; secretary-general, National Women's War Relief Association, since 1942; address, National Women's War Relief Association, Chungking. — p. 584
+
+**Huang, Yen-pei** educator, born in Shanghai, 1878; graduate, Nanyang College; Hon. Ph.D., St. John's Univ.; twice appointed minister of education by former Peking government but did not accept; president, National Association for Vocational Education, since 1918; member, resident committee, People's Political Council, since 1938; convener, Committee for the Promotion of Constitutional Government, since 1944; address, National Association for Vocational Education, Chungking. — p. 584
+
+**Hung, Lan-yu** government official, born in Kiangsu, 1900; graduate, Aurora Univ., Shanghai; member, Kuomintang Central Executive Committee, since 1935; political vice-minister of social affairs, since 1940; address, Ministry of Social Affairs, Chungking. — p. 584
+
+**Hung, Lu-tung** government official, born in Chekiang 1895; member, Kuomintang Central Supervisory Committee, since 1931; vice-minister of justice, since 1937; address, Ministry of Justice, Chungking. — p. 584
+
+**Hung, Shih-lu** professor, born in Chekiang, 1894; graduate, National Peking Medical College, 1917; M.D., Kiushiu Imperial Univ., Japan, 1929; appointed by Ministry of Education "Ministry-Appointed Professor" in medicine, 1942; now professor, National Kiangsu Medical College; address, National Kiangsu Medical College, Chungking. — p. 584
+
+**Hung, William** (see Hung, Yeh) — p. 584
+
+**Hung, Yeh** (prefers William Hung) professor, born in Fukien, 1893; B.A., Ohio Wesleyan; M.A., Columbia; B.D., N.Y., Theol., Sem.; Hon. D.D., Ohio Wesleyan; professor and dean, department of history, Yenching Univ., since 1927; author, Sinological Index Series. — p. 584
+
+**Jen, Hung-chun** (prefers Zen Hung-chun) scientist, educator, born in Szechwan, 1886; B.A., Cornell, 1916; M.A., Columbia, 1917; vice-chancellor, National Southeast Univ., 1924-27; trustee and executive director, China Foundation for the Promotion of Education and Culture, since 1929; chancellor, National Szechwan Univ., 1935-38; address, China Founda-tion for the Promotion of Education and Culture, Chungking. — p. 584
+
+**Ju Pion** (see Hsu Pei-hung) — p. 584
+
+**Juan, Chao-chang** Lieut.-General army officer, born in Yunnan, 1890; graduate, Paoting Military Academy, 1908, and Staff College, 1913; commander, 55th Division, 1929-33; 57th Division, 1933-38; commander, 69th Army, 1937-38; superintendent of infantry, Board of Military Training, National Military Council, 1938-39; vice-minister, Military Training Board, 1939-42; dean, Staff College, 1942-43; address, Staff College, Chungking. 1925 ; Moscow Sun Yat-sen Univ., 1927 ; member, executive , committee, and director, department of organization, San Min Chu I Youth Corps, since 1938 ; dean, special training class, Central Military Academy, since 1936 ; address, San Min Chu I Youth Corps, Chungking. — p. 584
+
+**Juan, Yi-cheng** government official, born in Chekiang, 1905 ; licencie en droit et Faculte de Droit, Paris, 1920 ; professor and dean, department of law, Central Political Institute, 1934-37 ; member and civil affairs commissioner, Chekiang Provincial Government, since 1938 ; address, Department of Civil Affairs, Yunho, Chekiang. — p. 585
+
+**Jung, Chao** Mongolian leader, born in Suiyuan ; graduate, Moscow Sun Yat-sen Univ., 1927 ; Moscow Artillery Academy, 1930 ; member, People's Political Council, since 1938 ; address, 7 Ti Hsin Tang, Chungking. — p. 585
+
+**Jung, Chi-yung (prefers W. W. Yung)** health expert, government official, born in Kwangtung, 1904 ; B.S., Yenching Univ., 1927 ; M.D., P. U. M. C., 1931 ; M.P.H., Johns Hopkins, 1937 ; epidemic prevention commissioner, Kwangtung, 1938 ; director, department of epidemic prevention, National Health Administration, since 1940 ; address, National Health Administration, Chungking. — p. 585
+
+**Jung, Lu-su** government official, born in Liaoning, 1901 ; graduate, Northeast Military Academy ; chief-secretary, Heilungkiang Provincial Government, since 1941 ; address, 96th Army Post Office. — p. 585
+
+**Kan, Nai-kuang** government official, born in Kwangsi, 1896 ; graduate, Lingnan Univ., 1922 ; mayor of Canton, 1927-28 ; elected member, Kuomintang Central Executive Committee, 1931 ; vice-minister of interior, 1932-35 ; deputy secretary-general, Kuomintang Central Executive Committee, 1938-42 ; deputy secretary-general, Supreme National Defense Council, since 1942 ; address, Supreme National Defense Council, Chungking. — p. 585
+
+**Kang, Che** Lieut.-General army officer, born in Szechwan, 1906 graduate, Whampoa Military Academy — p. 585
+
+**Kang, Hsin-ju** banker, born in Shensi, 1890 ; B.A., Waseda Univ., Japan, 1911 ; general manager, Szechwan Mei Feng Bank, since 1922 ; chairman, Chungking Commercial Bankers' Guild, since 1936 ; Speaker, Chungking Provisional People's Council, since 1939 ; address, Szechwan Mei Feng Bank, Chungking. — p. 585
+
+**Kao, Hsi-ping** government official, born in Liaoning, 1895 ; B.T.E., Lowell Textile Institute, U.S.A., 1923 ; dean, engineering college, National Northeast Univ., 1927-29 ; member and education commissioner, Chahar Provincial Government, 1929-33 ; member and reconstruction commissioner, Sinkiang Provincial Government, 1933-35 ; member, People's Political Council, since 1938 ; address, 38 Mei Feng Building, Chungking. — p. 585
+
+**Kao, I-han** government official, born in Anhwei, 1885 ; B.A., Meiji Univ., Japan, 1916 ; supervisory commissioner of Control Yuan, Hunan-Hupeh area, 1935-40 ; supervisory commissioner of Control Yuan, Kansu-Ningsia-Chinghai area, since 1940 ; address, Supervisory Commissioner's Office, Lanchow, Kansu. — p. 585
+
+**Kao, Kwei-tze** Lieut.-General army officer, born in Shensi, 1892 ; commander, 9th Division, 1930 ; commander, 17th Army, since 1937 ; vice-commander-in-chief, 36th Group Army, since 1939. — p. 585
+
+**Kao, Ling-po** consular official, born in Kiangsu, 1900 ; B.S., Peiyang Univ., 1922 ; consul-general, Singapore, 1936-42. — p. 585
+
+**Kao, Ping-fang** government official, born in Shantung, 1891 ; B.S., New York ; director, Direct Tax Bureau, Ministry of Finance, since 1936; address, Direct Tax Bureau, Ministry of Finance, Chungking. — p. 586
+
+**Kiang, Eugene Y. B** (see Chiang, I-ping) — p. 586
+
+**King, P. Z** (see Chin, Pao-shan) — p. 586
+
+**King, Wunsz** (see Chin, Wen-ssu) — p. 586
+
+**Koo, Vi-kyuin Wellington** (see Ku, Wei-chun) — p. 586
+
+**Koo, Yee-chun** (see Ku, Yi-chun) — p. 586
+
+**Ku, Cheng-kang** government official, born in Kweichow, 1901 ; graduate, Berlin Univ. ; elected member, Kuomintang Central Executive Committee, 1931 ; vice-minister of industry, 1934-35 ; minister of social affairs since 1940 ; address, Ministry of Social Affairs, Chungking. — p. 586
+
+**Ku, Cheng-lun** Lieut.-General government official, born in Kweichow, 1891 ; graduate, Japanese Military Cadets' Academy, 1916 ; commander of gendarmerie, 1932-40 ; deputy commander, 6th War Area, 1939; governor, Kansu Province, since 1940 ; member, Kuomintang Central Executive Committee, since 1935 ; address, Kansu Provincial Government, Lanchow. — p. 586
+
+**Ku, Cheng-ting** party official, born in Kweichow, 1888 ; graduate, Moscow Sun Yat-sen Univ., member, Kuomintang Central Executive Committee, since 1935 ; chairman, Shensi Provincial Kuomintang Headquarters, since 1944; address, Shensi Provincial Kuomintang Headquarters, Sian. — p. 586
+
+**Ku, Chieh-kang** historian, professor, born in Kiangsu, 1893 ; graduate, National Peking Univ. ; professor of history in many well-known univs.; known for his research on ancient Chinese History; member, People's Political Council, since 1938; editor, Literature and History Monthly ; author, Symposium on Ancient Chinese History (5 vols.) ; address, 8, Heilungkiang Road, Peipei, Chungking. — p. 586
+
+**Ku, Chu-tung** General army officer, born in Kiangsu, 1893 ; graduate, Paoting Military Academy ; governor, Kiangsu Province, 1931-33 ; member, Kuomintang Central Executive Committee, since 1931 ; military affairs commissioner for Kiangsi, 1934-35 ; military affairs commissioner for Szechwan, 1936 ; director, Generalissimo's Headquarters at Sian, 1936-37 ; governor, Kiangsu Province, 1937-39 ; commander-in-chief, 3rd War Area, since 1937. — p. 586
+
+**Ku, Chun-fan** economist, born in Kiangsu, 1900 ; director, through service department, Directorate-General of Posts, since 1943 ; member, Chinese Delegation to the United Nations' Monetary and Financial Conference, 1944 ; address, Directorate-General of Posts, Chungking. — p. 586
+
+**Ku, Meng-yu** government official, born in Hopei, 1888 ; graduate, Berlin Univ. ; minister, Kuomintang Publicity Board, 1927 ; minister of railways, 1932-35 ; member, Kuomintang Central Executive Committee, since 1931 ; chancellor, National Central Univ., 1941-43 ; address, Kuomintang Central Headquarters, Chungking. — p. 586
+
+**Ku, Tez-jen** (prefers T. Z. Koo) Christian worker, born in Shanghai, 1888 ; graduate, St. John's Univ; Hon. D. Litt., Colgate ; special secretary, World Student Christian Federation, since 1930. — p. 586
+
+**Ku, Wei-chun** (prefers Vi-kyuin Wellington Koo) diplomatic official, born in Shanghai, 1888 ; B.A., Yale; M.A. and Ph.D., Columbia ; holder of a number of honorary degrees from American and European univs.; minister to U.S.A., 1916 ; Chinese delegate to Paris Peace Conference, 1919-20 ; minister to Great Britain, 1920 ; minister of foreign affairs, 1922 ; minister of foreign affairs and acting premier, 1924 ; minister of finance, 1926 ; premier and foreign minister, 1927 ; Chinese assessor to the League of Nations Manchurian Commission of Inquiry, 1932 ; minister of foreign affairs, 1932 ; ambassador to France, 1935-41 ; ambassador to Great Britain, since 1941 ; Chief Chinese delegate to International Security Organization Conference, Washington, 1944; address, Chinese Embassy, London. — p. 586
+
+**Ku, Yi-chun (prefers Yee-chun Koo)** government official, born in Kiangsu, 1901; M.A., Ohio State, 1903; M.B.A., New York, 1924; member and finance commissioner, Kwangtung Provincial Government, 1939-40; acting vice-minister of finance, since 1941; general manager, Farmers' Bank of China, since 1942; adviser, Chinese Delegation to United Nations' Monetary and Financial Conference, 1944; address, Ministry of Finance, Chungking. — p. 587
+
+**Ku, Yu-chuan (prefers Ku Yu-tsuan)** engineer, government official, born in Kiangsu, 1904; B.S., Nanyang Univ., M.M.E. (1928) and Ph. D. (1930), Cornell; director, National Bureau of Industrial Research, Ministry of Economic Affairs, since 1934; author, Gas Producer and Gas Automobile and History of Chinese Industry; address, P.O. Box 268, Chungking. — p. 587
+
+**Ku, Yu-hsiu** electrical engineer, government official, born in Kiangsu, 1901; D.Sc., M.I.T., 1928; professor and dean, department of electrical engineering, National Chekiang Univ., 1929-31; dean, college of engineering, National Central Univ., 1931-32; dean, college of engineering, National Tsing Hua Univ., 1932-37; vice-minister of education, 1938-44; chancellor, National Central Univ., since 1944; president, Chinese Electrical Engineering Society; address, National Central Univ., Chungking. — p. 587
+
+**Ku, Yu-tsuan** (see Ku, Yu-chuan) — p. 587
+
+**Kuang, Ping-shun (prefers B. S. Fong)** overseas Chinese leader, born in Kwangtung, 1897; studied at Stanford; twice chairman, Chinese Chamber of Commerce in San Francisco; president, Ye On and Co.; member, People's Political Council, since 1941; address, 749 Clay Street, San Francisco, U.S.A. — p. 587
+
+**Kung, Ching-tsung** government official, born in Szechwan, 1898; Ph.D., Univ. of Brussels; director, Tibetan Affairs department, Mongolian and Tibetan Affairs Commission and director, Lhasa Office, same Commission, 1940-44; address, c/o Mongolian and Tibetan Affairs Commission, Chungking. — p. 587
+
+**Kung, H. H** (see Hung, Hsiang-hsi) — p. 587
+
+**Kung, Madame H. H. (Eling Soong** Kung, see Kung, Sung Ai-ling) — p. 587
+
+**Kung, Hsiang-hsi (prefers H. H. Kung)** government official, born in Shansi, 1881; a lineal descendant of Confucius of 75th generation; B.A., Oberlin, 1906; M.A., Yale, 1907; minister of industry and commerce, 1927-30; minister of industry, 1930-32; special industrial commissioner to Europe and America, 1932-33; governor of Central Bank of China, since 1933; vice-president, Executive Yuan, 1933; minister of finance since 1933; special envoy and chief delegate of the Chinese Government to the coronation of King George VI of Great Britain, 1937; president, Executive Yuan, 1938; vice-president, Executive Yuan, since 1939; member, standing committee, Kuomintang Central Executive Committee, since 1931; state councillor, National Government, since 1943; chief Chinese delegate, United Nations' Monetary and Financial Conference, 1944; address, Executive Yuan, Chungking. — p. 587
+
+**Kung, Hsueh-sui** government official, born in Kiangsi, 1895; B.Sc., Tokyo Imperial Univ., 1924; member and reconstruction commissioner, Kiangsi Provincial Government, 1931-37; deputy director, National Highway Administration, since 1943; address, National Highway Administration, Ministry of Communication, Chungking. — p. 587
+
+**Kung, Keng** government official, born in Hupeh, 1872; graduate, Japanese Military Cadets' Academy, 1908; member and reconstruction commissioner, Hupeh Provincial Government, 1928; member, resident committee, People's Political Council, since 1938; address, People's Political Council, Chungking. — p. 587
+
+**Kung, Sung Ai-ling (Madame H. H. Kung, prefers Eling Soong Kung)** elder sister of Madames Sun Yat-sen and Chiang Kai-shek, born in Shanghai; B.A., Wesleyan College; engaged in childwelfare work. — p. 587
+
+**Kung, Te-cheng** lineal descendant of Confucius of the 77th generation, born in Shantung, 1920; appointed by the National Government Sacrificial Officer of Confucius; address, 8 Hsiamoshih, Koloshan, Chungking. — p. 588
+
+**Kuo, Chien** Lieut.-General army officer, born in Chekiang, 1894; graduate, Paoting Military Academy; garrison commander, Wuchang-Hankow Area, 1937-38; commander, 94th Army, 1938-40; chief of staff, 6th War Area Headquarters, 1940-44; vice-commander-in-chief and chief of staff, 6th War Area, since 1944; address, 6th War Area Headquarters, Enshih, Hupeh. — p. 588
+
+**Kuo, Jen-yuan (prefers Zing Yang Kuo)** psychologist, native of Kwangtung, born in Straits Settlements, 1898; graduate, Futan Univ.; Ph.D., California; professor, National Central Univ., 1931-32; chancellor, National Chekiang Univ., 1933-36; lectured in U.S.A. and England, 1941-43; director, China Research Institute of Psychological Physiology, since 1940; address, c/o National Futan Univ., Chungking. — p. 588
+
+**Kuo, Mo-jo** poet, archaeologist, born in Szechwan, 1891; M.B., Kiushiu Imperial Univ., Japan, 1922; author of many volumes of poems, plays and novels, and archaeology, including Studies in Ancient Chinese Society; director, 3rd department, Political Training Board, National Military Council, 1938-40; chairman, cultural work committee, Political Training Board, since 1940; address, 7 Tien Kwan Fu Street, Chungking. — p. 588
+
+**Kuo, Ping-wen (prefers P. W. Kuo)** government official, born in Shanghai, 1880; Ph.D., Univ. of Wooster, 1911; M.A. (1912) and Ph.D. (1914), Columbia; chancellor, National Southeast Univ., 1918-25; director, China Institute, New York, 1925-30; director, Foreign Trade Bureau, Ministry of Industry, 1931-35; vice-minister of finance since 1940; representing the Ministry of Finance in London; chief Chinese delegate, United National Food Conference, 1943; address, c/o Chinese Embassy, London. — p. 588
+
+**Kuo, Tai-chi (prefers Quo Tai-chi)** diplomatic official, born in Hupeh, 1888; B.A., Pennsylvania, 1911; Hon. LL.D., Oxford; vice-minister of foreign affairs, 1927-28; member, Legislative Yuan, 1928-30; vice-minister of foreign affairs, 1932; minister to Great Britain, 1932-35; ambassador to Great Britain, 1935-41; minister of foreign affairs, 1941-42; chairman, foreign affairs committee, Supreme National Defense Council, since 1942; address, Supreme National Defense Council, Chungking. — p. 588
+
+**Kuo, Te-hwa (prefers T. W. Kwok)** government official, born in Kwangtung, 1901; B.A., Washington; M.A., Harvard; Research certificate, Cambridge; counsellor, Ministry of Economic Affairs; foreign affairs commissioner for Kwangtung and Kwangsi, since 1943; address, foreign commissioner's office, Kweilin. — p. 588
+
+**Kuo, Yu-shou** government official, born in Szechwan, 1900; Litt.D., Paris, 1927; member and education commissioner, Szechwan Provincial Government, since 1939; address, Szechwan Provincial Government, Chengtu. — p. 588
+
+**Kuo, Zing Yang** (see Kuo, Jen-yuan) — p. 588
+
+**Kwan, Che-liang** agriculturist, born in Hupeh, 1906; Ph.D., Cornell, 1938; president, Hupeh Provincial Agricultural College, since 1941; address, Hupeh Provincial Agricultural College, Enshih. — p. 588
+
+**Kwei Chih-ting (prefers Paul Kwei)** professor, born in Hupeh, 1895; B.A., Yale, 1913; M.S., Cornell, 1920; Ph.D., Princeton, 1925; professor and dean, College of Science, National Wuhan Univ., since 1939; now lecturing in U.S.A.; address, c/o Chinese Embassy, Washington, D.C. — p. 588
+
+**Kwan, Chi-yu** government official, born in Liaoning, 1901; graduate, Univ. of Berlin; chairman, Land Tax Commission, Ministry of Finance, since 1942; address, Land Tax Commission, Chungking. — p. 588
+
+**Kwan, Lin-cheng** Lieut.-General army officer, born in Shensi, 1905; graduate, Whampoa Military Academy, 1924; commander, 32nd Army Corps, 1938; commander-in-chief, 15th Group Army, 1938; commander-in-chief, 9th Group Army, since 1940. — p. 589
+
+**Kwan, Min-chuan** government official, born in Shansi, 1900; member and reconstruction commissioner, Shansi Provincial Government, since 1940. — p. 589
+
+**Kwei, Paul** (see Kwei, Chih-ting) — p. 589
+
+**Lai, Lien** government official, born in Fukien, 1900; B.S., Univ. of Illinois, 1923; M.M.E., Cornell, 1926; chancellor, National Northwest Univ., 1942-44; president, National Northwest College of Engineering, 1939-44; vice-minister of education since 1944; address, Ministry of Education, Chungking. — p. 589
+
+**Lao Sheh** (see Shu, Sheh-yu) — p. 589
+
+**Lee, Baen E** (see Li, Pei-en) — p. 589
+
+**Lee, J. S** (see Li, Ssu-kuang) — p. 589
+
+**Lee, John** (see Lu, Chun) — p. 589
+
+**Lee, Wei-kuo** (see Li, Wei-kuo) — p. 589
+
+**Lei, Chen** government official, born in Chekiang, 1897; LL.B., Kyoto Imperial Univ., Japan, 1926; member, Kuomintang Central Supervisory Committee, since 1935; deputy secretary-general, People's Political Council, since 1943; address, People's Political Council, Chungking. — p. 589
+
+**Lei, Fa-chang** government official, born in Hupeh, 1902; B.A., Central China College, Wuchang, 1923; member and civil affairs commissioner, Shantung Provincial Government, 1940-42; vice-minister of agriculture and forestry 1942-44; vice-minister of interior, since 1944; address, Ministry of Interior Chungking. — p. 589
+
+**Lei, Hai-tsung** historian, professor, born in Hopei, 1902; Ph.D., Chicago; professor and dean, department of history, National Tsing Hua Univ., since 1932; professor, National Southwest Associated Univ., since 1938; address, National Southwest Associated Univ., Kunming. — p. 589
+
+**Lei, Pei-hung** educator, born in Kwangsi, 1887; B.A., Oberlin, 1919; M.A., Harvard, 1921; chancellor, National Kwangsi Univ., 1940-41; member, People's Political Council, since 1942. — p. 589
+
+**Lei, Yin** government official, born in Kwangsi, 1887; graduate, Japanese Law College, 1915; vice-minister of interior, 1939-42; director, political affairs department, Party and Government Work Evaluation Committee, since 1942; address, Party and Government Work Evaluation Committee, Chungking. — p. 589
+
+**Leung, S. C** (see Liang, Hsiao-chu) — p. 589
+
+**Lew, Timothy Tingfang** (see Liu Ting-fang) — p. 589
+
+**Li, Chao-huan** (prefers J. Usang Ly) university president, born in Kwangtung, 1888; B.C.S., New York; B.S., Haverford; M.A., Columbia; vice-minister of railways, 1930; chancellor, National Chiaotung Univ., 1930-41. — p. 589
+
+**Li, Cheng** college president, born in Hopei, 1895; graduate, National Peking Univ., 1919; M.A. (1924) and Ph.D. (1929), Columbia; chancellor, National Peiping Normal Univ., 1932-39; president, National Northwest Normal College, since 1939; address, National Northwest Normal College, Chengku, Shensi. — p. 589
+
+**Li, Chi** archaeologist, born in Hupeh, 1896; B.A. (1919) and M.A. (1918), Clark Univ.; Ph.D., Harvard, 1923; director of archaeological research, Research Institute of History and Linguistics, Academia Sinica, since 1929; honorary fellow, Royal Anthropological Institute of Great Britain and Ireland; address, P.O. Box 3, Li Chuang, Nanchi, Szechwan. — p. 589
+
+**Li, Chi-chen** government official, born in Shantung, 1905; M.S., Univ. of Minnesota; now general manager, China National Aviation Corporation; address, China National Aviation Corporation, Chungking. — p. 589
+
+**Li, Chi-shen** General army officer, born in Kwangsi, 1886 graduate, Staff College; commander 4th Army, 1924; chief of staff, National Revolutionary Forces, 1928; member, Kuomintang Central Executive Committee, since 1927; inspector-general of military training, 1932-33; member, National Military Council, since 1938; director, Generalissimo's Headquarters in Kweilin, 1941-44; president, Military Advisory Council, since 1944; address, Military Advisory Council, Chungking. — p. 590
+
+**Li, Chien-hsun** professor, born in Hoepi, 1884; B.S. (1918), M.A. (1919) and Ph.D. (1925), Columbia; professor and dean, Graduate School, and department of education, National Northwest Normal College, since 1939; address, National Northwest Normal College, Chengku, Shensi. — p. 590
+
+**Li, Ching-lin** government official, born in Anhwei, 1896; B.A., Univ. of Nanking, 1920; M.S. (1929) and Ph.D. (1933), Illinois; director, department of land administration, Ministry of Interior, 1940-42; member, Legislative Yuan, since 1942; address, Legislative Yuan, Chungking. — p. 590
+
+**Li, Chu-yi** government official, born in Shansi, 1887; graduate, Univ. of Shansi, 1909; member and finance commissioner, Suiyuan Provincial Government, since 1934; address, Suiyuan Provincial Government, Shenpa, Suiyuan. — p. 590
+
+**Li, Chung-hsiang** government official, born in Kiangsi, 1897; graduate, National Chiaotung Univ., 1924; member, People's Political Council, since 1938; deputy director, Wartime Censorship Bureau, National Military Council, since 1940; address, Holu, Shang Ching Tse, Chungking. — p. 590
+
+**Li, Chung-shih** government official, born in Shensi, 1892; graduate, Tokyo Keio Univ., 1925; vice-minister of audit, since 1942; address, Ministry of Audit, Chungking. — p. 590
+
+**Li, Fang-kwei** linguist, born in Shansi, 1902; B.A., Michigan, 1926; M.A. (1927) and Ph.D. (1928), Chicago; visiting professor of Chinese linguistics, Yale, 1937-39; research fellow, Academia Sinica, since 1939; address, Academia Sinica, Chungking. — p. 590
+
+**Li, Fu-lin** General army officer, born in Kwangtung, 1872; commander, 5th Army, 1926; member, Kuomintang Central Supervisory Committee, since 1935. — p. 590
+
+**Li, Han-hun** Lieut.-General army officer, born in Kwangtung, 1895; graduate, Paoting Military Academy; commander, 64th Army, 1937; deputy commander, 8th Group Army, 1938; commander-in-chief, 35th Group Army, since 1939; governor, Kwangtung Province, since 1938; address, Kwangtung Provincial Government, Kukong. — p. 590
+
+**Li, Hsiang-yuan** fishery expert, born in Kwangtung, 1898; B.S., National Peking Univ., 1929; technical expert, Ministry of Agriculture and Forestry, and director, Fresh Water Fishery Laboratory, since 1941; address, Ministry of Agriculture and Forestry, Chungking. — p. 590
+
+**Li, Ken-yuan** government official, born in Yunnan, 1879; graduate, Japanese Military Cadets' Academy; minister of agriculture and commerce, 1922; premier, 1923; supervisory commissioner of Control Yuan in Yunnan and Kweichow, since 1939; address, Supervisory Commissioner's Office, Tali, Yunnan. — p. 590
+
+**Li, Kuo-chin** merchant, mining engineer, born in Hunan, 1892; now general manager, Wah Chang Trading Corporation, in New York; address, Wah Chang Trading New York. — p. 590
+
+**Li, Li-min** government official, born in Anhwei, graduate, National Tsing Hua Univ.; member and secretary-general, Chekiang Provincial Government, since 1938. — p. 590
+
+**Li, Lieh-chun** General army officer, born in Kiangsi, 1883 ; graduate, Japanese Military Cadets' Academy ; former military governor of Kiangsi and Anhwei ; member, Kuomintang Central Executive Committee, 1924-31 ; member, Kuomintang Central Supervisory Committee, since 1931 ; address, Kuomintang Central Headquarters, Chungking. — p. 591
+
+**Li, Ming** banker, born in Chekiang, 1886 ; graduate, Yamaguchi Commercial College, Japan ; chairman, board of directors, and general manager, Chekiang Industrial Bank. — p. 591
+
+**Li, Ming-ho** metallurgist, born in Nanking, 1888 ; C.B., Wisconsin, 1913 ; director, mining department, Ministry of Economic Affairs, since 1938 ; address, Ministry of Economic Affairs, Chungking. — p. 591
+
+**Li, Pa** government official, born in Hunan, 1878 ; graduate, Peking Law College ; president, Supreme Court ; address, Supreme Court, Chungking. — p. 591
+
+**Li, Pao-chen** musician, born in Hopei, 1907 ; B.A., Yenching Univ., 1930; B.A., Oberlin Conservatory of Music, U.S.A., 1937 ; instructor, National Normal College, 1932-35 ; dean, National Conservatory of Music, since 1941 ; address, National Conservatory of Music, Ching Mu Kuan, Chungking. — p. 591
+
+**Li, Pei-chi** government official, born in Hopei, 1888 ; graduate, Military Academy of the Three Northeastern Provinces ; governor, Suiyuan Province, 1929-31 ; minister of personnel registration, 1939-42 ; governor, Honan Province, 1942-44. — p. 591
+
+**Li, Pei-en (prefers Baen E. Lee)** university president, born in Chekiang, 1889 ; M.A., Chicago, 1921 ; president, Hangchow Christian College, since 1929. — p. 591
+
+**Li, Pei-yen** industrialist, born in Yunnan, 1886 ; founder and president, Kunhua Coal and Iron Works ; member, People's Political Council, since 1938 ; address, Kunhua Coal and Iron Works, Kunming. — p. 591
+
+**Li, Pin-hsien** General army officer, born in Kwangtung, 1893 ; graduate, Paoting Military Academy ; commander-in-chief, 12th Route Army, 1928 ; vice-commander-in-chief, 5th War Area, since 1939 ; governor, Anhwei Province, since 1939. — p. 591
+
+**Li, Shih-chen** police officer, born in Chekiang ; graduate, Whampoa Military Academy, 1925 ; graduate, Japanese Police Academy, 1932 ; dean, Central Police Academy, since 1936 ; address, Central Police Academy, Chungking. — p. 591
+
+**Li, Shih-chia** Rear-Admiral naval officer, born in Fukien, 1894 ; vice-minister of navy, 1931 ; commander, Mawei Forts, 1934-37. — p. 591
+
+**Li, Shou-houa** (see Li, Shu-hua) — p. 591
+
+**Li, Shu-hua (prefers Li, Shou-houa)** physicist, born in Hopei 1889 ; ingenieur agricole, Univ. of Toulouse, 1918 ; licencie es-sciences (1919) and docteur es-sciences (1922), Paris; minister of education, 1931 ; member, Legislative Yuan, 1931-32 ; secretary-general, Academia Sinica, 1944 ; vice-president, National Academy of Peiping, since 1929 ; address, National Academy of Peiping, Kunming. — p. 591
+
+**Li, Shu-ming** publisher, industrialist, born in Kiangsu, 1900 ; general manager, Chung Hwa Book Company ; general manager, Hangchow Electricity Company (Chungking) ; managing director, Tatung Chemical Works ; address, Chung Hwa Book Co., Chungking. — p. 591
+
+**Li, Shu-tien** college president, born in Hopei, 1900 ; Ph.D., Cornell, 1926; president, Tangshan Engineering College, 1930-32 ; president, Peiyang Engineering College, 1932-37 ; vice-chairman, Yellow River Conservancy. Commission, since 1943 ; address, Yellow River Conservancy Commission, Sian. — p. 591
+
+**Li, Shun-ching** government official, born in Shantung, 1893 ; M.S., Yale, 1921 ; Ph.D., Chicago, 1923 ; president, Anhwei Provincial Univ., 1934-38 ; professor, National Central Univ., 1938-40 ; director, department of forestry, Ministry of Agriculture and Forestry, since 1940; address, Ministry of Agriculture and Forestry, Chungking. — p. 592
+
+**Li, Ssu-kuang (prefers J. S. Lee)** geologist, born in Hupeh; director, Geological Research Institute, Academia Sinica, 1930-33; professor and dean, department of geology, National Peking Univ., since 1933; author, The Earth's Age; address, c/o Academia Sinica, Kunming. — p. 592
+
+**Li, Sze-tsung** government official, born in Hopei, 1898 ; graduate, National Peking Univ., 1923 ; reserve member, Kuomintang Central Executive Committee, since 1935 ; now supervisory commissioner of Control Yuan in Shangtung-Honan area. — p. 592
+
+**Li, Tang** government official, born in Hunan, 1884 ; graduate, Berlin Univ., 1913 ; chief secretary, Ministry of Finance, 1933-36 ; director, National Treasury Administration, same ministry, 1939-43 ; director, Customs Administration, same ministry, since 1943 ; address, 13 Lo Chia Wan, Chungking. — p. 592
+
+**Li, Ti-chun** diplomatic official, born in Hupeh, 1901 ; B.A. and Ph.D., Wisconsin ; director, department of information, Ministry of Foreign Affairs, 1933-40 ; minister to Cuba, since 1940; address, Chinese Legation, Havana, Cuba. — p. 592
+
+**Li, Ting-an** health expert, born in Kwangtung, 1899; M.D., Peiping Union Medical College; Ph.D., Harvard; president, National Institute of Health, 1938-42; professor of public health, National Central Univ., since 1942; address, Medical College, National Central Univ., Chengtu. — p. 592
+
+**Li, Tsung-huang** government official, born in Yunnan 1888; graduate, Paoting Military Academy; member, Kuomintang Central Executive Committee, since 1935; vice-minister of interior, 1942; address, Kuomintang Central Headquarters, Chungking. — p. 592
+
+**Li, Tsung-jen** General army officer, born in Kwangsi, 1890; graduate, Kweilin Military Academy; commander, 7th Army, National Revolutionary Forces, 1926; commander-in-chief, 4th Group Army, National Revolutionary Forces, 1928; governor, Anhwei Province, 1938; commander-in-chief, 5th War Area, since 1937. — p. 592
+
+**Li, Tu** guerilla commander, born in Liaoning, 1880; one of the guerilla leaders in Northeastern Provinces, since 1932. — p. 592
+
+**Li, Wei-kuo (prefers Lee Wei-kuo)** government official, born in Szechwan, 1903 ; B.A. and M.A., Univ. of California, 1928 ; Ph.D., Columbia, 1931 ; secretary, Generalissimo's Headquarters, since 1937 ; director, general affairs department, Ministry of Foreign Affairs, since 1942 ; address, Ministry of Foreign Affairs, Chungking. — p. 592
+
+**Li, Wen-fan** party official, born in Kwangtung, 1885 ; graduate, Japanese Law College ; member, Kuomintang Central Executive Committee, since 1929; member, standing committee, C.E.C.; address, Kuomintang Central Headquarters, Chungking. — p. 592
+
+**Li, Ying-lin** university president, born in Kwangtung, 1894 ; B.A., Oberlin, 1920 ; Hon. Ph.D., Oberlin, 1939 ; president, Lingnan Univ., since 1937; address, Lingnan Univ., Kukong, Kwangtung. — p. 592
+
+**Li, Yu-wan** government official, born in Shantung, 1897 ; graduate, Shantung Normal College, 1914; counsellor, Ministry of Finance, since 1933 ; chief secretary, Ministry of Finance, since 1943 ; address, Ministry of Finance, Chungking. — p. 592
+
+**Li, Yu-ying** party official, born in Hopei, 1882 ; member, Kuomintang Central Supervisory Committee, since 1924 ; president, National Academy of Peiping, since 1929 ; address, National Academy of Peiping, Kunming. — p. 593
+
+**Liang, Han-chao (prefers H. C. Liang)** government official, born in Kwangtung, 1899 ; graduate, Kwangtung Normal College, 1922 ; secretary-general, Legislative Yuan, 1933-38 ; member, Kuomintang Central Executive Committee, since 1931 ; secretary-general, Legislative Yuan, 1933-38 ; vice-minister, Political Training Board, National Military Council, 1938-43 ; minister of information, since 1943 ; address, 7 Chin Cheng Villa, Chungking. — p. 593
+
+**Liang, Hsi** professor, born in Chekiang, 1883 ; B.S., Tokyo Imperial Univ., 1916 ; studied forestry in Forstliche Hochschule, Tharandt, Saxony, 1923-28 ; professor, National Central Univ., since 1934 ; appointed by Ministry of Education "Ministry-appointed Professor" in forestry, 1942 ; address, National Central Univ., Chungking. — p. 593
+
+**Liang, Hsiao-chu (prefers S. C. Leung,)** Y.M.C.A. worker, born in Kwangtung, 1889 ; M.A., Vanderbilt ; now general secretary, National Committee, Y.M.C.A. ; address, National Committee, Y.M.C.A., Chungking. — p. 593
+
+**Liang, Hubert S** (see Liang, Shih-chun) — p. 593
+
+**Liang, Shang-tung** government official, born in Shansi, 1888 ; graduate, Univ. of Birmingham, 1912 ; military attache, Chinese delegation to Paris Peace Conference, 1918-19 ; mayor of Peiping, 1930 ; member, People's Political Council, since 1938 ; address, People's Political Council, Chungking. — p. 593
+
+**Liang, Shih-chun (prefers Hubert S. Liang)** journalist, born in Kiangsi, 1902 ; B.A., DePauw Univ., 1925 ; M.A., Chicago, 1926 ; professor and chairman, department of journalism, Yenching Univ., 1935-37 ; director, department of promotion, Chinese Industrial Cooperatives, 1940-42 ; lecturing in U.S.A., 1944. — p. 593
+
+**Liang, Shu-ming** social reformer, professor, born in Kwangsi, 1894 ; founder and director, Institute of Local Self-Government of Honan, 1929-30 ; founder and president, Shantung Institute of Rural Reconstruction, Tsouping, 1931-36 ; author, Rural Reconstruction in China. — p. 593
+
+**Liang, Ssu-cheng** architect, born in Kwangtung, 1901 ; B.Arch., Pennsylvania, 1927 ; research student, Harvard, 1927-28 ; professor, National Peking and Tsing Hua Univs., 1932-33 ; research fellow, Institute for Research in Chinese Architecture, since 1931 ; research fellow, Academia Sinica, since 1941 ; address, Academia Sinica, Chungking. — p. 593
+
+**Liang, Tsung-tai** poet, professor, born in Kwangtung 1904 ; studied at Geneva 1924-25, Paris 1925-29, Berlin and Heidelberg, 1929-30 ; professor and dean, department of foreign languages, National Futan Univ., since 1937 ; address, National Futan Univ., Chungking. — p. 593
+
+**Liao, Shih-cheng** college president, born in Kiangsu, 1892 ; Ph.D., Brown Univ., 1920 ; president, National Normal College, since 1938 ; address, National Normal College, Lantien, Hunan. — p. 593
+
+**Liao, Yao-hsiang** Lieut.-General army officer, born in Hunan, 1906 ; graduate, Whampoa Military Academy ; studied military science in France ; commander, New 6th Army, Chinese Army in India, since 1943 ; now fighting in Burma. — p. 593
+
+**Lieu, D. K** (see Liu, Ta-chun) — p. 593
+
+**Lieu, O. S** (see Liu, Hung-sheng) — p. 593
+
+**Lim, Robert K. S** (see Lin, Ke-sheng) — p. 593
+
+**林繼庸 Lin, Chi-yung** government official, born in Kwangtung, 1899; chemical engineer, Rensselaer Polytechnic Institute, N.Y., 1924; chairman, Committee for the Supervision of the Removal of Factories from Shanghai to the Interior, 1937-38; senior expert, Ministry of Economic Affairs, 1938-43; director, department of field work, Industrial and Mining Adjustment Administration, Ministry of Economic Affairs, 1938-43; member and reconstruction commissioner, Sinkiang Provincial Government, 1943-44; author, The Removal of Factories to the Interior; address, c/o Ministry of Economic Affairs, Chungking. — p. 594
+
+**林景潤 Lin, Ching-jen** university president, born in Fukien, 1898; B.A., Fukien Christian Univ.; M.A., Oberlin; president, Fukien Christian Univ., since 1927; address, Fukien Christian Univ., Nanping, Fukien. — p. 594
+
+**Lin, D. Y** (see Ling, Tao-yang) — p. 594
+
+**林風眠 Lin, Feng-mien** artist, born in Kwangtung, 1898; graduate, Ecole des Beaux Arts, Paris, 1927; president, National Academy of Fine Arts, Hangchow, 1928-37. — p. 594
+
+**林可勝 Lin, Ke-sheng (prefers Robert K. S. Lim)** surgeon, native of Fukien, born in Singapore; M.B., Ch.B., Ph.D., D.Sc., Edinburgh; Goodsir Memorial Fellow, Edinburgh; F.R.S.E., lecturer, Edinburgh, 1919-23; professor and dean, department of physiology, Peiping Union Medical College, 1924-37; director, Chinese Red Cross Medical Relief Corps, 1937-42; general adviser, Chinese Red Cross Society, since 1943; chairman, Wartime Army Medical Planning Committee, since 1943; editor, Chinese Journal of Physiology. — p. 594
+
+**林彬 Lin, Pin** government official, born in Chekiang, 1895; graduate, National Peking Univ.; member and chairman, law codification committee, Legislative Yuan, since 1928; address, Legislative Yuan, Chungking. — p. 594
+
+**林伯森 Lin, Po-shen** Lieut.-General army officer, born in Kwangtung, 1896; graduate, Paoting Military Academy; graduate, Tokyo Gunnery and Engineering Academy; dean, Army Engineers' Academy, since 1935. — p. 594
+
+**林天騏 Lin, Tien-chi** chemical engineer, born in Kwangtung, 1899; Ph.D., Cornell; general manager, China Match Raw Materials Manufacturing Co., and technical expert, National Resources Commission; address, c/o National Resources Commission, Chungking. — p. 594
+
+**林同濟 Lin, Tung-chi** professor, born in Fukien, 1906; B.A., Michigan, 1928; M.A., California, 1929; Ph.D., California, 1934; professor and dean, College of Arts, National Yunnan Univ., since 1937; address, Futan Univ., Peipei, Szechwan. — p. 594
+
+**林翼中 Lin, Yi-chung** government official, born in Kwangtung, 1892; graduate, Canton Normal College; vice-minister of agriculture and forestry, 1940-42; member, Control Yuan, since 1942; member, Kuomintang Central Executive Committee, since 1932; address, Kuomintang Central Headquarters, Chungking. — p. 594
+
+**林語堂 Lin, Yu-tang** author, born in Fukien, 1895; M.A., Harvard, 1921; D.Phil., Leipzig, 1923; professor and dean, department of English, National Peiping Normal College for Women, 1926; professor and dean, College of Arts, National Amoy Univ., 1926-27; author, My Country and My People, The Importance of Living, Moment in Peking, and Between Tears and Laughter; address, c/o Chinese Embassy, Washington, D.C. — p. 594
+
+**林雲陔 Lin, Yun-kai** government official, born in Kwangtung, 1884; M.A., Syracuse; governor, Kwangtung Province, 1931-36; chairman, Mongolian and Tibetan Affairs Commission, 1937; minister of audit, since 1938; member, Kuomintang Central Supervisory Committee, since 1929; address, Ministry of Audit, Chungking. — p. 594
+
+**Ling, Chi-han** government official, born in Shanghai, 1906; LL.D., Brussels, 1931; senior secretary and chief of protocol section, Ministry of Foreign Affairs, 1940-44; foreign affairs commissioner for Kansu, since 1944; address, Office of the Foreign Affairs Commissioner, Lanchow. — p. 595
+
+**Ling, H. H** (see Lin, Hung-hsun) — p. 595
+
+**Ling, Hung-hsun** (prefers H. H. Ling) government official, engineer, born in Kwangtung, 1894; B.S., Nanyang College, 1915; studied structural engineering at Columbia and obtained practical experience in American Bridge Co.; chancellor, National Chiaotung Univ., 1924-27; director and chief engineer, Canton-Hankow Railway, 1932-39; director, Paoki-Tienshui Railway Engineering Bureau, since 1942; winner of Gold Medal from Chinese Engineering Society; address, Paoki-Tienshui Railway Engineering Bureau, Tienshui, Kansu. — p. 595
+
+**Ling, Ping** government official, born in Honan, 1894; B.A., Stanford, 1916; M.A., Columbia, 1917; Ph.D., Clark, 1919; minister to Cuba, 1929-35; leader, Chinese Goodwill Mission to Thailand, 1936; secretary-general, committee on barter trade, Executive Yuan, 1938-43; representative in U.S.A., China National Tea Corporation, since 1943. — p. 595
+
+**Ling, Tao-yang** (prefers D. Y. Lin) forestry expert, born in Kwangtung, 1888; B.S., State College of Massachusetts, 1912; M.F., Yale, 1914; director, Central Forestry Bureau, 1930; Chinese delegate, 5th Pacific Science Congress, Vancouver, 1933; member, National Conservancy Commission, since 1940; address, National Conservancy Commission, Chungking. — p. 595
+
+**Liu, Che** government official, born in Kirin, 1888; graduate, Peking Law College; minister of education, 1927-28; President, Harbin Industrial College, 1930-31; member, Peiping Political Council, and later Hopei-Chahar Political Council, 1933-37; now state councillor, National Government; address, National Government, Chungking. — p. 595
+
+**Liu, Chi-wen** government official, born in Kwangtung, 1890; studied at London School of Economics and Political Science, 1924-25; Cambridge, 1925-26; mayor of Nanking, 1927-30; superintendent of customs, Shanghai, 1930-31; vice-minister of audit since 1937; member, Kuomintang Central Executive Committee, since 1929; address, 16 Chialing Villa, Chungking. — p. 595
+
+**Liu, Chien-hsu** General army official, born in Hunan, 1891; graduate, Paoting Military Academy; commander-in-chief, 10th Group Army, since 1937; governor, Fukien Province, since 1941; address, Fukien Provincial Government, Yungan. — p. 595
+
+**Liu, Fei** Lieut.-General army officer, born in Hunan, 1897; graduate, Staff College, Japan; participated in the battles of Shanghai, Wuhan; deputy director, Board of Military Operations, National Military Council, since 1940; address, Board of Military Operations, National Military Council, Chungking. — p. 595
+
+**Liu, Hai-su** artist, born in Kiangsu, 1895; former president, Academy of Fine Arts, Shanghai; commissioned by Executive Yuan to hold Chinese art exhibitions in Europe, 1935. — p. 595
+
+**Liu, Han-chung** government official, born in Liaoning, 1894; graduate, Paoting Military Academy; graduate, Japanese Field Artillery Academy; supervisor of artillery, Board of Military Training, National Military Council, since 1938; address, Board of Military Training Chungking. — p. 595
+
+**Liu, Hang-shen** government official, born in Szechwan, 1898; graduate, National Peking Univ.; former member and finance commissioner, Szechwan Provincial Government; now vice-minister of food; address, Ministry of Food, Chungking. — p. 595
+
+**Liu, Hou-wu** government official, born in Kwangtung, 1891; graduate, Liangkwang Technical College, 1910; supervisory commissioner of Control Yuan in Kwangtung and Kwangsi area, since 1939. — p. 596
+
+**Liu, Hung-sheng (prefers O. S. Lieu)** government official, industrialist, born in Chekiang, 1888; general manager, Match Monopoly Co., Ministry of Finance, 1942-44; director, State Monopoly Administration, Ministry of Finance, since 1944; address, State Monopoly Administration, Chungking. — p. 596
+
+**Liu, J. Heng** (see Liu Jui-heng) — p. 596
+
+**Liu, Ju-ming** Lieut.-General army officer, born in Hopei; governor, Chahar Province, 1936-37; now commander-in-chief of a group army on Hupeh-Honan front. — p. 596
+
+**Liu, Jui-heng (prefers J. Heng Liu)** health expert, born in Hopei, 1890; B.S. (1909) and M.D. (1915), Harvard; vice-minister and later minister of health, 1928-30; director, National Health Administration, 1930-38; member, Chinese Supplies Commission in Washington, D.C., since 1944; address, c/o Chinese Embassy, Washington, D.C. — p. 596
+
+**Liu, Kuang-pei** cooperative director, born in Liaoning, 1895; secretary-general, Chinese Industrial Cooperatives, 1938-40; director, department of field work, C.I.C., 1940-42; adviser, C.I.C., since 1942; address, Chinese Industrial Cooperatives, Chungking. — p. 596
+
+**Liu, Kung-yun (prefers S. Y. Liu)** banker, born in Fukien, 1900; D.Econ., London; former director-general, Postal Remittances and Savings Bank; secretary-general, Joint Board of Four Government Banks, since 1942; address, Joint Board of Four Government Banks, Chungking. — p. 596
+
+**Liu, Mao-en** Lieut.-General army officer, commander-in-chief, 15th Group Army; governor, Honan Province, since 1944; address, Honan Provincial Government. — p. 596
+
+**Liu, Mrs. Herman C. E** (see Wang, Li-ming) — p. 596
+
+**Liu, Pin-lin** professor, born in Hunan, 1892; LL.B., National Peking Univ., 1917; studied at London School of Economics and Political Science, 1910-13; Univ. of Berlin, 1913; professor and dean, College of Law, National Wuhan Univ., since 1932; author, The Development of Chinese Industry from 1860 to 1935; address, National Wuhan Univ., Loshan, Szechwan. — p. 596
+
+**Liu, Po-min** publisher, born in Chekiang, 1900; graduate, Japanese Law College; member, People's Political Council, since 1938; director, China Cultural Service, since 1940; address, China Cultural Service, Chungking. — p. 596
+
+**Liu, S. Y** (see Liu, Kung-yun) — p. 596
+
+**Liu, Shang-ching** government official, born in Liaoning, 1880; graduate, Mukden Law College; minister of interior, 1931; state councillor, National Government, since 1932; governor, Anhwei Province, 1937; vice-president, Control Yuan, since 1942; address, Control Yuan, Chungking. — p. 596
+
+**Liu, Shen-ngo** botanist, born in Shantung, 1898; D.Sc.; director, Botanical Research Institute, National Academy of Peiping, since 1929; address, National Academy of Peiping, Kunming. — p. 596
+
+**Liu, Shih** General army officer, born in Kiangsi, 1891; graduate, Paoting Military Academy, 1916; commander, 1st Division, 1926-29; member, Kuomintang Central Executive Committee, since 1929; governor, Honan Province, 1930-35; vice-commander-in-chief, 1st War Area, and commander-in-chief, 2nd Army Group, 1937-38; commander-in-chief, Chungking Garrison Area, since 1939; address, Chungking Garrison Headquarters, Chungking. — p. 596
+
+**Liu, Shih-shun** diplomatic official, born in Kiangsi, 1900 ; B.A., Johns Hopkins, 1921 ; M.A., Harvard, 1923 ; Ph.D., Columbia, 1925 ; director, department of European and American affairs, Ministry of Foreign Affairs, 1932-41 ; minister to Canada, 1941-43 ; ambassador to Canada, since 1943 ; address, Chinese Embassy, Ottawa. — p. 597
+
+**Liu, Shih-yi** army officer, born in Kiangsi, 1880 ; commander, 31st Army, 1937-38 ; vice-minister, Military Training Board, National Military Council, since 1938 ; address, P.O. Box 171, Chungking. — p. 597
+
+**Liu, Ta-chun (prefers D. K. Lieu)** economist, government official, born in Kiangsu, 1891 ; B.A., Michigan, 1915 ; F.R.A.S. ; now director, Research Institute of Economics, National Military Council ; member, Chinese Delegation, United Nations Monetary and Financial Conference, 1944 ; author, Foreign Investments in China and China's Industries and Finance. — p. 597
+
+**Liu, Tao-yuan** government official, born in Shantung, 1903 ; B.A., National Peking Univ., 1933 ; member and educational commissioner, Shantung Provincial Government, since 1942. — p. 597
+
+**Liu, Ting-fang (prefers Timothy Tingfang Lew)** professor, born in Chekiang, 1891 ; B.A. (1914), M.A. (1915) and Ph.D. (1920), Columbia ; B.D., Yale, 1918 ; professor of theology and psychology, Yenching Univ., since 1926. Now in United States. — p. 597
+
+**Liu, To-chuan** General government official, born in Liaoning, 1896 ; graduate, Paoting Military Academy ; governor of Jehol since 1942 ; address, 22 Tsao Pa Tse Hsiang, Tan Tse Shih, Chungking. — p. 597
+
+**Liu, Wei-chih** party official, born in Kwangtung, 1892 ; graduate, Kwangtung College of Arts and Letters ; minister, Kuomintang Board of Overseas Affairs, 1940-43 ; member, Kuomintang Central Executive Committee, since 1935 ; address, Kuomintang Central Headquarters, Chungking. — p. 597
+
+**Liu, Wei-tao** professor, born in Szechwan, 1900 ; licencie d'enseignement es sciences physiques ; docteur detat es sciences physiques, Paris, 1929 ; director, chemical research institute, National Academy of Peiping, since 1930 ; concurrently professor, Sino-French Univ. ; address, National Academy of Peiping, Kunming. — p. 597
+
+**Liu, Wen-hui** General government official, born in Szechwan, 1893 ; commander, Nationalist 24th Division, 1926 ; commander, Szechwan-Sikang Frontier Defense Force, since 1927 ; governor of Szechwan, 1929 ; chairman, committee for creation of Sikang Province, 1935 ; deputy director, Generalissimo's Chungking Headquarters, 1938 ; governor of Sikang since 1939 ; address, Sikang Provincial Government, Kangting, Sikang. — p. 597
+
+**Liu, Wen-tao** government official, born in Hupeh, 1894 ; graduate, Paoting Military Academy and Paris Law College ; mayor of Hankow, 1929-31 ; minister to Germany and Australia, 1931-33 ; minister to Italy, 1933-34 ; ambassador to Italy, 1934-37 ; member, Kuomintang Central Supervisory Committee, since 1935 ; address, Kuomintang Central Headquarters, Chungking. — p. 597
+
+**Liu, Yin-fu** government official, engineer, born in Hupeh, 1890 ; ingenieur des mines, Univ. of Liege, Belgium ; director, department of industry, Ministry of Industry, 1938 ; director, Gold Mining Administration, Ministry of Economic Affairs, 1939-44. — p. 597
+
+**Liu, Ying-ku** Lieut.-General army official, born in Chekiang, 1894 ; commander, 87th Army, 1938-39 ; deputy commander, 19th Group Army, 1939-42 ; acting commander-in-chief, 19th Group Army, since 1942. — p. 597
+
+**Lo, Chia-lun** government official, born in Chekiang, 1896; graduate, National Peking Univ.; studied at Princeton, Columbia, London, Berlin and Paris univs.; chancellor, National Central Univ., 1932-42; reserve member, Kuomintang Central Executive Committee, since 1931; supervisory commissioner of Control Yuan in Sinkiang, since 1942; author, A New Outlook of Life, one of wartime best sellers; address, c/o Kuomintang Central Headquarters, Chungking. — p. 598
+
+**Lo, Chuan-hua (prefers Lowe Chuan-hua)** government official, born in Kiangsi, 1902; Ph.B., Chicago, 1923; director, Shanghai Office, China International Famine Relief Commission, 1934-38; director, India Office, Ministry of Information, since 1942; address, 29 Stephen Court, Park Street, Calcutta. — p. 598
+
+**Lo, Hsueh-lien (prefers H. Shelley Lowe)** movie producer, born in Kwangtung, 1902; B.A., Yenching; now director, department of fine arts, Ministry of Information, and director, Central Motion Picture Studio; address, Ministry of Information, Chungking. — p. 598
+
+**Lo, Lung-chi** educator, journalist, born in Kiangsi, 1896; M.A., Wisconsin, 1925; Ph.D., Columbia, 1928; former professor, National Southwest Associated Univ.; editor, Yi Shih Pao, Tientsin; managing director, Peiping Morning Post; member, People's Political Council, 1938-42; now contributing editor, Ministry of Education; address, 1 Sheng Ping Hsiang, Kunming. — p. 598
+
+**Lo, Mei-huan** government official, born in Chekiang, 1905; M.A., Southern California, 1930; director, department of Mongolian and Tibetan education, Ministry of Education, 1942-44; chief secretary, Kuomintang Board of Organization, since 1944; address, Board of Organization, Chungking. — p. 598
+
+**Lo, Mei-lun** government official, born in Chekiang; B.C.E., National Chiaotung Univ.; research fellow, Manchester Engineering College; member and director of communications, Sikang Provincial Government; address, Sikang Provincial Government, Kangting. — p. 598
+
+**Lo Sang Chien Tsan** Tibetan leader, born in Tibet, 1888; member, Kuomintang Central Executive Committee, since 1935. — p. 598
+
+**Lo, Wei-djen Djang** (see Chang, Wei-chen) — p. 598
+
+**Loo, C. T** (see Lu, Chih-te) — p. 598
+
+**Lou, Tung-sun** government official, born in Chekiang, 1885; LL.B., Univ. of Paris, 1923; chairman, economic affairs committee, Legislative Yuan, since 1941; address, Legislative Yuan, Chungking. — p. 598
+
+**Lowe Chuan-hua** (see Lo, Chuan-hua) — p. 598
+
+**Lowe, H. Shelley** (see Lo, Hsueh-lien) — p. 598
+
+**Lu, Chao** General army officer, born in Szechwan, 1891; graduate, Paoting Military Academy; aide-de-camp to President of National Government, since 1931; address, National Government, Chungking. — p. 598
+
+**Lu, Chi-hsin (prefers David C. H. Lu)** journalist, native of Kwangtung, born in New York, 1906; B.A., Yenching Univ., 1929; M.A., Missouri, 1931; manager, Hongkong office, Central News Agency, 1936-40; Central News Agency correspondent in Washington, since 1941; address, Central News Agency, 2800 Woodley Road, Washington, D.C. — p. 598
+
+**Lu, Chien** educator, born in Nanking, 1905; B.A., Southwest Univ., 1926; former professor, National Chinan and Central universities; editor, National Compilation Bureau; member, People's Political Council, since 1938; president, Fukien Music Conservatory, since 1942; author, The Trumpet of National Resurgence (poems); address, Fukien Music Conservatory, Chishan, Fukien. — p. 598
+
+**Lu, Chih-te (prefers C. T. Loo)** health expert, born in 1900; M.D., Peiping Union Medical College; director-general, Board of Transport and Supplies, National Military Council, since 1938; director, Army Medical Administration, Ministry of War, 1939-44; address, Board of Transport and Supplies, Chungking. — p. 599
+
+**Lu, Chih-wei (prefers C. W. Luh)** college president, psychologist, born in Chekiang, 1894; Ph.D., Chicago; professor, Yenching Univ., since 1927; acting chancellor, same institution, 1934-41. — p. 599
+
+**Lu, Chun (prefers John Lee)** meteorologist, born in Kiangsu, 1902; B.S., National Central Univ., 1928; studied in Berlin, Hamburg and Frankfurt, 1930-34; acting director, Research Institute of Meteorology, Academia Sinica, 1936-44; director, Central Weather Bureau, since 1943; address, Central Weather Bureau, Shapingpa, Chungking. — p. 599
+
+**Lu, Chung-lin General** government official, born in Hopei, 1883; former garrison commander of Peking; governor of Chahar; minister of war; governor of Hopei; now member, Central Executive Committee of Kuomintang. — p. 599
+
+**Lu, David C. H** (see Lu, Chi-hsin) — p. 599
+
+**Lu, Feng-tze** artist, born in Kiangsu, 1886; founder and president, Cheng Tseh Academy of Fine Arts; president, National Academy of Fine Arts, 1942; winner of 1st prize in Fine Arts from Ministry of Education; address, Cheng Tseh Academy of Fine Arts, Pishan, Szechwan. — p. 599
+
+**Lu, Fu-ting Lieut.-General** army officer, born in Anhwei, 1890; graduate, Paoting Military Academy; commander, railway transportation headquarters, National Military Council, since 1940; address, Railway Transportation Headquarters, Kuo Fu Road, Chungking. — p. 599
+
+**Lu, Han General** army officer, born in Yunnan, 1908; graduate, Yunnan Military Academy; former commander, 60th Army; commander, 10th Army Corps; now commander-in-chief, 1st Group Army; address, Kunming, Yunnan. — p. 599
+
+**Lu, Kuang-mien** cooperative director, born in Liaoning, 1906; B.S., National Peking Univ., 1927; studied at Aberdeen Univ., England, 1927-31; director, Northwest Regional Headquarters, Chinese Industrial Cooperatives, since 1938; address, Northwest Headquarters, Chinese Industrial Cooperatives, Paoki, Shensi. — p. 599
+
+**Lu, Pei-chang** government official, born in Anhwei, 1893; B.S., Univ. of Nanking, 1919; chief secretary, Ministry of Finance, 1936; director, National Treasury Administration, Ministry of Finance, since 1943; address, 13 Chun Sen Road, Chungking. — p. 599
+
+**Lu, Tang-ping** university president, born in Hunan, 1898; member, Kuomintang Central Executive Committee, since 1935; member and education commissioner, Honan Provincial Government, 1939-44; chancellor, National Hunan Univ., since 1944. — p. 599
+
+**Lu, Tso-fu** government official, industrialist born in Szechwan; founder and general manager, Ming Sung Industrial Co., since 1925; vice-minister of Communications, 1938-42; director, National Food Administration, 1940-41; address, Ming Sung Industrial Co., Chungking. — p. 599
+
+**Lu, Yu-wen** government official, born in Hopei, 1902; B.A., National Peking Normal College, 1925; graduate, London School of Economics and Political Science, 1931; director, department of commodity control, National General Mobilization Council, since 1944; address, National General Mobilization Council, Chungking. — p. 599
+
+**Luh, C. W** (see Lu, Chih-wei) — p. 599
+
+**Lung, Yun General** army officer, born in Yunnan, 1888; graduate, Yunnan Military Academy; commander-in-chief, 13th Route Army, 1927; governor, Yunnan Province, since 1927; director, Generalissimo's Headquarters at Kunming, since 1940; address, Yunnan Provincial Government, Kunming, Yunnan. — p. 599
+
+**Ly, J. Usang** (see Li, Chao-huan) — p. 600
+
+**Ma, Chan-shan** General army officer, born in 'Liaoning, 1887; garrison commander of Heiho, Heilungkiang, 1929; acting governor, Heilungkiang Province, 1931; appointed commander-in-chief, Northeastern Assault Army after the war broke out; appointed governor, Heilungkiang Province, 1941. — p. 600
+
+**Ma, Chao-chun** party leader, born in Kwangtung, 1887; member, Kuomintang Central Executive Committee, since 1931; former mayor, Nanking; now vice-minister, Kuomintang organization board; address, Organization Board, Chungking. — p. 600
+
+**Ma, Fa-wu** Lieut.-General army officer, governor, Hopei Province, since 1943; commander-in-chief, 40th Group Army, since 1943. — p. 600
+
+**Ma, Hsing-yeh** journalist, professor, born in Chekiang; B.J., Missouri, 1934; former professor and dean, department of journalism, Central Political Institute; Far Eastern correspondent, Journalism Quarterly, U.S.A.; director, press department, Ministry of Information, since 1942; address, Ministry of Information, Chungking. — p. 600
+
+**Ma, Hung-kuei** General army officer, government official, born in Kansu, 1892; graduate, Kansu Military Academy; now commander-in-chief, 17th Group Army, and governor, Ningsia Province; address, Ningsia Provincial Government, Sining. — p. 600
+
+**Ma, John** (see Ma, Yueh-han) — p. 600
+
+**Ma, Lin** General government official, born in Kansu, 1880; governor, Chinghai Province, 1933-38; state councillor, National Government, since 1938; address, c/o National Government, Chungking. — p. 600
+
+**Ma, Pu-ching** General army officer, born in Kansu; former commander, 2nd Cavalry Division; commander, 5th Cavalry Division; now commander, 5th Cavalry Army; reclamation commissioner at Tsaidam, Chinghai, since 1942; address, Sining, Chinghai. — p. 600
+
+**Ma, Pu-fang** General army officer, born in Kansu, 1903; former commander, new 9th Division; commander, New 2nd Army; now commander, 82nd Army, and governor, Chinghai Province; address, Sining, Chinghai. — p. 600
+
+**Ma, Tai-chun** government official, born in Hopei, 1880; M.A., Harvard, 1910; director, department of salt administration, Ministry of Finance, 1937-44; deputy director, Salt Administration, Ministry of Finance, since 1944; address, Salt Administration, Chungking. — p. 600
+
+**Ma, Yin-chu** economist, government official, born in Chekiang, 1882; B.A., Yale, 1910; M.A. and Ph.D., Columbia; member, Legislative Yuan, since 1928; author of The New Financial Policy of China and Economic Reform of China. — p. 600
+
+**Ma, Yueh-han (prefers John Ma)** physical director, born in Fukien, 1873; B.A., St. John's Univ., 1911; B.P.E. (1920) and M.P.E. (1925), Springfield; professor and physical director, National Tsing Hua Univ., since 1914; concurrently physical director, National Southwest Associated Univ.; address, National Southwest Associated Univ., Kunming. — p. 600
+
+**Mai Ssu Wu Teh (prefers Masud)** moslem leader, born in Sinkiang, 1888; now member, Kuomintang Central Executive Committee; state councillor, National Government, and member, People's Political Council. — p. 600
+
+**Mao, Che-tung** communist leader, born in Hunan, 1893; founded Chinese Communist Party in Shanghai, 1921; organized Hunan Autumn Corps Uprising, 1927; now at Yenan; address, Yenan, Shensi. — p. 600
+
+**Mao, Ching-hsiang** government official, born in Chekiang, 1899; graduate, National Agricultural College, France; secretary, Generalissimo's headquarters, since 1929 ; chief secretary, confidential secretariat, National Military Council, since 1932; deputy-director, technical research department, National Military Council; address, P. O. Box 149, Chungking. — p. 601
+
+**Mao, Fu-cheng** Lieut.-General army officer, born in Chengtu, Szechwan, 1894 ; graduate, Japanese Military Cadets' Academy, 1919 ; director of communications, Board of Military Supplies, 1936-37; superintendent of engineers, Board of Military Training, National Military Council, since 1939 ; address, P. O. Box 1, Pishan, Szechwan. — p. 601
+
+**Mao, I-sheng (prefers Thomson E. Mao)** engineer, government official, born in Kiangsu, 1897; M.C.E., Cornell, 1917; D. Eng., Carnegie Institute of Technology, 1920; director, Engineering Bureau for Construction of Chientang River Steel Bridge, 1934-38; president, Tangshan Engineering College, National Chiaotung Univ., 1938-42 ; director, Bridge Planning and Engineering Bureau, Ministry of Communications, since 1942; appointed by Ministry of Education ‘‘ Ministry-appointed Professor ’’ in civil engineering, 1942; member, academic council, Academia Sinica, since 1940; member, academic council, Ministry of Education, since 1940; address, Bridge Planning and Engineering Bureau, Chungking. — p. 601
+
+**Mao, Pang-chu (prefers P. T. Mow)** Air Maj.-General air force officer, born in Chekiang, 1904 ; graduate, Whampoa Military Academy, 1925; graduate, Soviet Union Military Flying School, 1937; field-commander, Chinese Air Force, since 1941; deputy director, National Areonautical Affairs Commission, since 1943 ; now in U.S.A. ; address, Chinese Embassy, Washington. — p. 601
+
+**Mao, Thomson E** (see Mao, I-sheng) — p. 601
+
+**Mao, Tsu-chuan** government official, born in Kiangsu ; graduate, Tokyo Law College ; president, Administrative Court, 1933-43 ; secretary-general, Judical Yuan, since 1943 ; member, Kuomintang Central Executive Committee, since 1931 ; address, Judicial Yuan, Chungking. — p. 601
+
+**Mao, Tun** (see Shen Yen-ping) — p. 601
+
+**Masud** (see Mai, Ssu Wu Teh) — p. 601
+
+**Mei, Ching-chou (prefers K. C. Mui)** consular official, born in Kwangtung, 1895 ; B.A., Oberlin, 1921 ; M.A., Chicago ; Chinese consul-general, Honolulu, since 1933 ; address, Chinese Consulate-General, Honolulu. — p. 601
+
+**Mei, Ju-ao** government official, born in Kiangsi: 1904; graduate, National Tsing Hua, Univ., 1924; B.A., Stanford, 1926; J.D., Chicago, 1928; professor, Nankai Univ., 1930-31, National Wuhan Univ., 1931-33; member, Legislative Yuan, and chief editor, Sun Yat-sen Memorial Education and Cultural Institute, since 1935; address, Peipei, Szechwan. — p. 601
+
+**Mei, Kuang-ti** educator, born in Anhwei, 1901; B.A., Northwestern Univ., U.S.A., 1915; graduate work, Harvard; head, department of English, Nankai Univ., 1920; professor, Teachers' College, Nanking, 1920-23; head, department of western literature, National Southeast Univ., Nanking, 1922-24; lecturer (1924-29), and assistant professor (1929-36), Harvard; vice-dean, 1936-39; dean, College of Arts, National Chekiang Univ. ; since 1939, member, People's Political Council, since 1938; address, National Chekiang Univ., Tsungyi, Kweichow. — p. 601
+
+**Mei, Yi-chi** university president, born in Hopei, 1889; B.A., M.A. and C.E., Cornell; director, Chinese Educational Mission to U.S.A., 1929-31; president, National Tsing Hua Univ., since 1931; member, executive council, National Southwest Associated Univ., since 1938; address, National Southwest Associated Univ., Kunming. — p. 601
+
+**Mei, Yi-lin** physician, born in Hopei, 1896; B.A., Chicago; M.D., Rush College; Ph.D., Johns Hopkins; director, Army Medical Administration, Ministry of War, 1933-37; director, Bureau of Public Health, Chungking, 1940-42; superintendent, Central Hospital, Chungking, 1943-44; professor, National Shanghai Medical College, since 1944; address, National Shanghai Medical College, Chungking. — p. 602
+
+**Mei, Yi-pao** professor, born in Hopei, 1900; B.A., Oberlin, 1924; Ph.D., Chicago, 1927; Cologne Univ., Germany, 1927-28; acting president, Oberlin-in-China, 1934-36; dean, college of arts and letters, Yenching Univ., 1936-38; director, Kansu Science Education Institute, Lanchow, 1938-40; head of secretariat, Chinese Industrial Cooperatives, 1940-41; acting chancellor, Yenching Univ., since 1942; address, Yenching Univ., Chengtu, Szechwan. — p. 602
+
+**Miao, Pei-cheng** party and government official, born in Shansi, 1894; member, Kuomintang Central Executive Committee, since 1935; now supervisory commissioner, Hunan-Hupeharea; address, Supervisory Commissioner's Office, Enshih, Hupeh. — p. 602
+
+**Miao, Pei-nan** Lieut.-General army officer, born in Kwangtung, 1889; elected member, Kuomintang Central Executive Committee, 1935; now chief of staff, 4th war area headquarters. — p. 602
+
+**Mo, Te-hui** government official, born in Liaoning, 1882; president, Chinese Eastern Railway, 1929; Chinese delegate to Sino-Russian Conference, Moscow, 1930; member, presidium, People's Political Council, since 1942; address, People's Political Council, Chungking. — p. 602
+
+**Mou, Chung-heng** Major-General government official, born in Shantung, 1889; graduate, Paoting Military Academy, 1923; commander, 51st Army, 1939-42; governor of Shantung, since 1943. — p. 602
+
+**Mui, K. C** (see Mei, Ching-chou) — p. 602
+
+**Ning, Chao-wu** government official, born in Shansi, 1896; graduate, Keio Univ., Tokyo, 1926; secretary-general, Shansi Provincial Government, since 1941. — p. 602
+
+**Ny, Tsi-ze** (see Yen, Chi-tsu) — p. 602
+
+**Nyien, K. K** (see Yen, Chia-kan) — p. 602
+
+**Ou, Tsuin-chen** (see Wu, Chun-sheng) — p. 602
+
+**Ou, Yuan-huai** educator, government official, born in Fukien, 1893; B.A., National South-eastern Univ., 1918; M.A., Columbia, 1919; LL.D., Northwestern, 1930; vice-president, Great China Univ., 1924-40; member, People's Political Council, 1938-40; member and education commissioner, Kweichow Provincial Government, since 1940; address, Kweichow Provincial Government, Kweiyang, Kweichow. — p. 602
+
+**Ou-Yang, Lun** (prefers O'yang Lun) mechanical engineer, government official, born in Anhwei, 1898; B.S., National Chiaotung Univ., 1925; M.C.E., Purdue Univ., 1927; director, department of industry, Ministry of Economic Affairs, since 1939; address, Ministry of Economic Affairs, Chungking. — p. 602
+
+**O'Yang, Lun** (see Ou-Yang Lun) — p. 602
+
+**Pai, Chung-hsi** General army officer, graduate, Paoting Military Academy, 1916; commander, 13th Army, and garrison commander, Shanghai and Woosung area, 1927; vice-commander-in-chief, 5th Route Army, 1937; deputy chief of staff, National Military Council, since 1937; minister, Military Training Board, National Military Council, since 1938; member, standing committee, Kuomintang Central Executive Committee, since 1937; address, National Military Council, Chungking. — p. 602
+
+**Pai, Pao-chin** government official, born in Chahar, 1909; graduate, National Peking Univ., 1935; member, Chahar Provincial Government, 1939; member and civil affairs commissioner, Chahar Provincial Government, since 1942; address, Chahar Provincial Government, Loyang, Honan. — p. 602
+
+**白鵬飛 Pai, Peng-fei (prefers P. F. Peh)** government official, born in Kwangsi, 1889; LL.B., Tokyo Imperial Univ., Japan, 1922 ; professor, National Peking Univ., 1922-31; dean, College of Law, National Peiping Univ., 1931-37; chancellor, National Kwangsi Univ., 1938-39; member, Control Yuan, and member, Army Discipline Corps, since 1940. Municipal Government, 1927-37; director, Education Bureau, same city, 1932-36; vice-minister of information, 1939-42; member, standing committee, Kuomintang Central Executive Committee, since 1942; chairman, Committee for the Censorship of Magazines and Publications, since 1941; address, Central Kuomintang Headquarters, Chungking. — p. 603
+
+**潘簡良 Pan, Chien-liang** government official, born in Chekiang, 1908; B.S., Univ. of Nanking, 1930, M.S., Missouri Univ., 1935; Ph.D.; Missouri, 1936; vice-chairman, Commission for the Increase of Food Production Ministry of Agriculture and Forestry, 1941-43; head, Chinese Agricultural Mission to India, 1943 ; technical expert, Ministry of Agriculture and Forestry, and member, Central Planning Board since 1942 ; address, Ministry of Agriculture and Forestry, Chungking. — p. 603
+
+**Pan, Francis K. (see Pan, Kuang-chun)**  — p. 603
+
+**潘序倫 Pan, Hsu-lun** accountant, born in Kiangsu, 1895 ; B.A., St. John's Univ., 1921 ; M.A. (1923) and Ph D. (1924), Columbia ; director, Li Hsin Accounting Office and Accounting School; address, Li Hsin Accounting Office, Chungking. — p. 603
+
+**Pan, Koun Bih (see Pan, Kung-pi)**  — p. 603
+
+**潘光迥 Pan, Kuang-chun (prefers Francis K. Pan)** government official, born in Kiangsu, 1907; B.A., Dartmouth, 1926; M.C.S., Amos Tuck School of Administration and Finance, 1927; D.C.S., New York, 1928; chief secretary, Ministry of Railways, 1935-37; director, department of administration and department of personnel, Ministry of Communications, 1937-42; director, National Highway Transportation Administration, 1940-41; counsellor, Ministry of Communications, 1942-44; address, 2 Hsin Tsun, Liang Lu Kou, Chungking. — p. 603
+
+**潘公展 Pan, Kung-chan** party and government official, born in Chekiang, 1895; graduate, St. John's Univ. ; editor, Shun Pao, Shanghai, 1925 ; director, Social Affairs Bureau, Shanghai — p. 603
+
+**潘公弼 Pan, Kung-pi (prefers Pan Koun Bih)** journalist, born in Kiangsu, 1895; graduate, Nanyang College, 1914 ; editor and managing director, China Times, 1920-37 ; editor-in-chief, Shun Pao, Shanghai. 1938-41 ; editor-in-chief, Singapore Daily News, 1941-42 ; secretary, Kuomintang Central Headquarters, since 1942; address, Kuomintang Central Headquarters, Chungking. — p. 603
+
+**Pan, Sti Nien (see Pan, Tze-nien)**  — p. 603
+
+**潘天授 Pan, Tien-shou** college president, artist, born in Chekiang, 1897; dean and professor, department of fine arts, National Ying Shih Univ., 1943-44; president, National Academy of Fine Arts, since 1944 ; address, National Academy of Fine Arts, Chungking. — p. 603
+
+**潘梓年 Pan, Tze-nien (prefers Sti Nien Pan)** journalist, born in Kiangsu, 1892; graduate, National Peking Univ. ; former professor, Peking, Franco-Chinese and Sino-Russian univs. and Shanghai Law College; managing director Sin Hua Jih Pao, since 1937; address, 208 Minshen Road, Chungking — p. 603
+
+**潘文華 Pan, Wen-hua General** army officer, born in Szechwan, 1886 ; graduate, Szechwan Military Academy ; deputy military affairs commissioner for Szechwan and Sikang, since 1938 ; military affairs commissioner for Szechwan-Shensi-Hupeh border region, since 1939; address, Headquarters of Military Affairs Commissioner for Szechwan and Sikang, Chengtu. — p. 603
+
+**潘宜之 Pan Yi-chih** government official, born in Hupeh, 1892 ; studied at Oxford, 1932-34 ; vice-minister of economic affairs, 1939-43 ; vice-minister of communications since 1943 ; address, Ministry of Communications, Chungking. — p. 603
+
+**Pang, Sung-chou** government official, born in Shanghai, 1888 ; graduate, National Nanking Normal College; now vice-minister of food; address, Ministry of Food, Chungking. — p. 604
+
+**Pao, Chun-chien** consular official, diplomat, born in Kiangsu 1897; attended Cornell, Columbia and Harvard ; consul-general at Calcutta, 1941-44; Ambassador to Peru since 1944. — p. 604
+
+**Pao, Hua-kuo** government official, born in Szechwan ; M.A., Stanford, 1930; director, Social Welfare Bureau, Chungking, since 1940 ; address, Social Welfare Bureau, Chungking. — p. 604
+
+**Peh, P. F** (see Pai, Peng-fei) — p. 604
+
+**Pei, Tsu-yi (prefers Tsuyee Pei)** banker, born in Kiangsu, 1893 ; connected with the Bank of China, since 1916; general manager, Bank of China, since 1942; member, Chinese Currency Stabilization Board, 1941-44; member, Chinese Delegation, United Nations Monetary and Financial Conference, 1944 ; address, Bank of China, Chungking. — p. 604
+
+**Pei, Tsuyee** (see Pei, Tsu-yi) — p. 604
+
+**Pei, Wen-chung** geologist, palaeontologist, born in Hopei, 1898 ; graduate, National Peking Univ. ; discoverer of "Peking Man" in the vicinity of Peiping, 1931; discoverer of palaeolothic implements at same locality, 1933; address, National Geological Survey, Chungking. — p. 604
+
+**Peng, Hsueh-pei** government official, born in Kiangsi, 1898; graduate, Brussels Univ., 1925 - vice-minister of interior, 1932; vice-minister of communications, 1935-43 ; chairman, Board of Directors, China National Aviation Corporation, 1935-43 ; deputy secretary-general, Central Planning Board, since 1942 ; address, Central Planning Board, Chungking. — p. 604
+
+**Peng, Po-chuan** government official, born in Kiangsi, 1895 ; M.A., Stanford, 1926 ; senior secretary, Ministry of Education, 1931-44 ; director, department of Mongolian and Tibetan education, same ministry, since 1944 ; address, Ministry of Education, Chungking. — p. 604
+
+**Peng, Shao-hsien** government official, born in Shantung, 1899 ; graduate, Moscow Univ., former consul-general at Habarovsk ; director, department of statistics, Ministry of Interior ; member and civil affairs commissioner, Shensi Provincial Government, since 1944 ; address, Shensi Provincial Government, Sian. — p. 604
+
+**Peng, Te-huai General** communist leader, born in Hunan, 1900 ; graduate, Hunan Military Academy ; joined Chinese Communist Party in 1927 ; deputy commander-in-chief, 8th Route Army, and later deputy commander-in-chief, 18th Group Army, since 1937 ; address, Yenan, Shensi. — p. 604
+
+**Pi, Tso-chiung** government official, born in Hunan, 1898 ; graduate, National Forestry College, France, and Univ. of Forestry and Water Conservancy, France ; director, Administration of Central Model Forestry Area, 1936-38 ; director, Kweichow Agricultural Improvement Administration, 1938-42 ; technical superintendent, Ministry of Agriculture and Forestry, since 1942 ; address, Ministry of Agriculture and Forestry, Chungking. — p. 604
+
+**Ping, Chih** zoologist, born in Honan, 1889 ; B.S.A. and Ph.D., Cornell ; professor, National Southeast Univ., 1921-27 ; director, biological laboratory, Science Society of China, since 1922 ; director, Fan Memorial Institute of Biology, since 1928 ; author of The Fossil Insects of China. — p. 604
+
+**Ping Hsin** (see Hsieh, Wan-ying) — p. 604
+
+**Po, Yu-hsiang** government official, born in Shansi, 1904 ; graduate, National Peiping Normal College, 1920; member and education commissioner, Shansi Provincial Government, since 1942. — p. 604
+
+**Quo, Tai-chi** (see Kuo, Tai-chi) — p. 604
+
+**Sa, Chen-ping** Admiral retired naval officer, born in Fukien, 1856 ; graduate, Greenwich Naval College, England ; commander-in-chief, Chinese Navy, 1916; minister of navy and acting premier, 1919-20 ; governor, Fukien Province,. 1922-26. — p. 605
+
+**Sa, Fu-chun (prefers F. K. Sah)** engineer, born in Fukien, 1886 ; B. Eng., Purdue Univ., 1910 ; technical supervisor, Ministry of Communications, since 1938 ; deputy director-general, Yunnan-Burma Railway Administration, since 1941 ; general manager, Szechwan-Yunnan Railway Co., since 1942; address, Szechwan-Yunnan Railway Co., Kunming. — p. 605
+
+**Sa, Pen-tung (prefers Adam Pen-tung Sah)** university president, born in Fukien, 1901 ; B.S., Stanford, 1924 ; Ph.D. (1927), Worcester Polytechnic Institute ; professor, National Tsing Hua Univ., 1930-36 ; chancellor, National Amoy Univ., since 1937; address, National Amoy Univ., Chungking, Fukien. — p. 605
+
+**Sah, Adam Pen-tung** (see Sa, Pen-tung) — p. 605
+
+**Sah, F. K** (see Sa, Fu-chun) — p. 605
+
+**Sha-keh-tu-erh-cha-ke** (see Prince Sha) — p. 605
+
+**Prince Sha (full name Sha-keh-tu-erh-cha-ke)** Mongolian leader, born at Chassack Banner, Ikhchao League, 1875 ; now chief and garrison commander, Ikhchao League ; chairman, Suiyuan Mongolian Autonomous Political Council ; state councillor, National Government ; address, Chassack League, Southern Suiyuan. — p. 605
+
+**Shang, Chen** General army officer, born in Hopei, 1884; graduate, Staff College ; governor, Hopei Province, 1929; governor, Shansi Province, 1931 ; commander, 32nd Army, 1931-37 ; governor, Honan Province, 1935-37 ; member, Kuomintang Central Supervisory Committee, since 1935 ; director, Main Office, National Military Council, 1942-44 ; director, Foreign Affairs Bureau, National Military Council, 1942-44 ; head, Chinese Military Mission to U.S.A., since 1944; address, Chinese Military Mission, Washington, D.C. — p. 605
+
+**Shao, Li-tze** government official, born in Chekiang, 1882 ; chief secretary, Generalissimo's Headquarters, 1927-31 ; member, Kuomintang Central Executive Committee, since 1926; governor, Kansu Province, 1932 ; governor, Shensi Province, 1933-36 ; minister of information, 1937-38 ; ambassador to U.S.S.R., 1939-42 ; secretary-general, People's Political Council, since 1943 ; address, People's Political Council, Chungking. — p. 605
+
+**Shao, Yu-lin** government official, born in Chekiang, 1907 ; B.A., Kiuchiu Imperial Univ., Japan ; consul-general at Yokohama, 1937-38 ; secretary, Generalissimo's Headquarters, since 1939 ; director, information department, Ministry of Foreign Affairs, 1941-43 ; address, Generalissimo's Headquarters, Chungking. — p. 605
+
+**Shaw, Kinn-wei** (see Shou, Ching-wei) — p. 605
+
+**Shaw, Miachen S** (see Shou, Mien-cheng) — p. 605
+
+**Shaw, Yishan** (see Hsiao, I-shan) — p. 605
+
+**Shen, Bozin D. Z** (see Shen, Pai-hsien) — p. 605
+
+**Shen, Chen-wei** jurist, college president, born in Shanghai, 1891 ; LL.D., Northwestern Univ., U.S.A.; member, Legislative Yuan, since 1933 ; president, Associated College of Law and Commerce, Univs. of Shanghai and Soochow, since 1942 ; address, Associated College of Law and Commerce, Univs. of Shanghai and Soochow, Chungking. — p. 605
+
+**Shen Chun-ju** lawyer, born in Chekiang, 1875 ; graduate, Tokyo Law College ; senator, Peking Parliament ; president, Shanghai Law College ; member, People's Political Council. — p. 605
+
+**Shen, Hung-lieh** Admiral government official, born in Hupeh, 1882 ; graduate, Japanese Naval Academy, 1911 ; commander, North-eastern Naval Squadron, 1923-31 ; mayor of Tsingtao, 1930-37 ; governor, Shantung Province, 1938-41 ; minister of agriculture and forestry, 1942-44; member, Kuomintang Central Executive Committee, since 1935; secretary-general, Party and Government Work Evacuation Committee, since 1944; member, Kuomintang Central Executive Committee, since 1935. — p. 605
+
+**Shen, James K** (see Shen, Ke-fei) — p. 606
+
+**Shen, Ke-fei (prefers James K. Shen)** government official, physician, born in Chekiang, 1899; graduate, National Tsing Hua Univ., 1919; M.D., Western Reserve Univ., 1924; Director, Central Hospital, 1936-40; vice-director, National Health Administration, since 1940; address, 3 Hsin Tsun, Hsinchiao, Chungking. — p. 606
+
+**Shen, Po-hsien (prefers Bozin D. Z. Shen)** hydraulic engineer, government official, born in Chekiang, 1896; M.S., Univ. of Iowa, 1925; vice-chairman, Hwai River Conservancy Commission, since 1943; address, Hwai River Conservancy Commission, Kikiang, Szechwan. — p. 606
+
+**Shen, Shih-hua (Prefers S. H. Shen)** government official, diplomat, born in Chekiang, 1901; B.A., St. John's Univ., Shanghai; studied at Univ. of Berlin; director, department of administration, Ministry of Communications, 1933; acting director, Rangoon office, Transportation Control Administration, 1942; Chinese commissioner to India, since 1942; address, office of the Commissioner of the Republic of China, Jind House, Lytton Road, New Delhi, India. — p. 606
+
+**Shen, Te-hsieh** Air Maj.-General air force officer, born in Fukien, 1895; studied aviation and navigation in U.S.A. and England; now deputy director, National Aeronautical Affairs Commission; address, National Aeronautical Affairs Commission, Chungking. — p. 606
+
+**Shen, Tsung-han** agriculturist, born in Chekiang, 1895; M.A., Georgia State College of Agriculture, 1924; Ph.D., Cornell, 1927; deputy director, National Agricultural Research Bureau, since 1934; vice-president, International Congress of Genetics, Edinburgh, 1939; delegate to United Nations Food Conference, 1943; address, National Agricultural Research Bureau, Peipei, Chungking. — p. 606
+
+**Shen, Tsung-wen** novelist, born in Hunan, 1905; professor, National Southwest Associated Univ., since 1939; author of about 60 volumes of novels and short stories in modern style; address, National Southwest Associated Univ., Kunming. — p. 606
+
+**Shen, Yen-ping (pen-name: Mao Tun)** novelist, born in Chekiang, 1896; editor, Short Story Monthly, 1923-24; editor, The Literary Front, 1937-38; member, cultural work committee, Military Training Board, since 1941; author of many novels including Midnight; address, 1 Tientsin Road, Tangchiato, Chungking. — p. 606
+
+**Shen, Yin-mo** government official, born in Chekiang, 1882; B.A., Kyoto Imperial Univ.; former professor, National Peking Univ.; president, National Peiping Univ.; chairman, Committee for Administration of Franco-Chinese Boxer Indemnity Funds; member and education commissioner, Hopei Provincial Government; member, Control Yuan, since 1939; address, Control Yuan, Chungking. — p. 606
+
+**Sheng, Shih-tsai** General army officer, born in Liaoning, 1895; governor, Sinkiang Province, 1940-44; minister of Agriculture and Forestry, since 1944; address, Ministry of Agriculture and Forestry, Chungking. — p. 606
+
+**Shih, Chao-chi (prefers Alfred Sao-ke Sze)** retired diplomat, born in Kiangsu, 1877; B.A. (1901) and M.A. (1902), Cornell; LL.D., Univ. of Toronto, Canada, Columbia, Syracuse and Lafayette College; minister to Great Britain, 1914-21 and 1929-32; minister to United States, 1921-29 and 1933-35; ambassador to United States, 1935-36; Chinese delegate, Paris Peace Conference, 1919-20; chief Chinese delegate, Washington Conference, 1921-22; member, People's Political Council, 1938-42. — p. 606
+
+**Shih, Ching-ting** General military officer, born in Shantung, 1896; graduate, Staff College; reserve member, Kuomintang Central Executive Committee, since 1935; former governor of Shantung; now senior staff officer, National Military Council; address, National Military Council, Chungking. — p. 606
+
+**Shih, Shang-kwan** government official, born in Anhwei, 1898; LL.B., Tokyo Imperial Univ., 1922; secretary-general, Examination Yuan, since 1942; address, Examination Yuan, Chungking. — p. 607
+
+**Shih, Wei-huan** government official, born in Kweichow, 1895; graduate, Kyoto Imperial Univ., 1924; member, Legislative Yuan, since 1930; vice-director, Labor Bureau, Ministry of Social Affairs, since 1942; address, Labor Bureau, Chungking. — p. 607
+
+**Shou, Ching-wei (prefers Kinn-wei Shaw)** government official, born in Chekiang, 1892; Ph.D., Columbia; former manager China National Tea Corporation; Chinese employers' delegate to International Labor Conference, New York, 1942. — p. 607
+
+**Shou, Mien-cheng (prefers Miachen Shaw)** government official, Born in Chekiang, 1901; M.S., Univ. of Washington, 1925; research student, Columbia, 1926-27; director, Central Cooperative Administration, Ministry of Social Affairs, since 1940; author, A Study of China's Cooperative Policy; address, Central Cooperative Administration, Chungking. — p. 607
+
+**Shu, She-yu (pen-name: Lao She)** novelist, dramatist, poet, born in Peiping, 1898; graduate, Peiping Normal School; author of 27 volumes of novels, short stories, poems, and plays, including Camel, Divorce, North of Chienmenkwan; former professor of Chinese literature at School of Oriental Studies of Univ. of London, National Shantung Univ., and Cheeloo Univ.; address, 12 Tsai Ao Road, Peipei, Chungking. — p. 607
+
+**Sie, K. S** (see Hsieh, Chia-sheng) — p. 607
+
+**Soong, T. V** (see Sung, Tze-wen) — p. 607
+
+**Sun, Chen** General army officer, born in Szechwan, 1892; graduate, Paoting Military Academy, 1914; garrison commander, northwestern district, Szechwan, 1933; commander, 41st Army, 1937; now commander-in-chief, 23rd Army Corps; address, Ku Chung Shi Chieh, Chengtu, Szechwan. — p. 607
+
+**Sun Fo** (see Sun, Ke) — p. 607
+
+**Sun, Ke (prefers Sun Fo)** government official, born in Kwangtung, 1895; son of Dr. Sun Yat-sen; B.A., Univ. of California, 1916; M.A., Columbia, 1917; mayor of Canton, 1921-22, 1923-24 and 1926; minister of finance, 1927-28; minister of railways, 1928-31; president, Executive Yuan, 1932; member, standing committee, Kuomintang Central Executive Committee, and president, Legislative Yuan, since 1932; author, The Future of China and China and Postwar World; address, Legislative Yuan, Chungking. — p. 607
+
+**Sun, Li-jen** Lieut.-General army officer, born in Anhwei, 1900; B.S., Purdue Univ., U.S.A.; graduate, Virginia Military Institute; commander, New 1st Army, since 1943, Chinese Army in India, since 1943; now fighting in Burma. — p. 607
+
+**Sun, Lien-Chung** General army officer, born in Hopei, 1893; former governor of Chinghai and Kansu; commander-in-chief, 26th Route Army; vice-commander-in-chief, 5th War Area; commander-in-chief, 6th War Area, since 1943; address, 6th War Area Headquarters, Enshih, Hupeh. — p. 607
+
+**Sun, Pen-wen** sociologist, born in Kiangsu, 1892; B.A., National Peking Univ., 1918; M.A., Illinois, 1922; Ph.D., New York, 1925; studied at Columbia, 1922-24, at Chicago, 1925-26; professor and dean of faculty, National Central Univ., 1929-41; director, department of higher education, Ministry of Education, 1930-32; professor and dean, Normal College, National Central Univ., since 1941; appointed by Ministry of Education, "Ministry-Appointed Professor," 1942; author, Principles of Sociology, 1931, and Social Problems in Modern China (4 volumes), 1942; address, National Central Univ., Chungking. -1923 ; director, conservancy department, Ministry of Economic Affairs, 1938-41 ; director, engineering department, National Conservancy Commission, since 1941; address, National Conservancy Commission, Kolosan, Chungking. — p. 607
+
+**Sun, Soong Ching-ling (Madame Sun Yat-sen)** party official, born in Shanghai, 1895 ; B.A., Wesleyan College ; married Dr. Sun Yat-sen, 1915; now state councillor, National Government, and reserve member, Kuomintang Central Executive Committee ; address, National Government, Chungking. — p. 608
+
+**Sun, Tung-hsuan** Lieut.-General army officer, born in Hopei, 1895 ; commander, 20th divison, 1931 ; commander, 12th Army, 1937 ; deputy commander, 3rd Group Army, 1938 ; commander-in-chief, 3rd Group Army, since 1938. — p. 608
+
+**Sun, Wei-ju** Lieut.-General army officer, born in Shensi, 1894 ; commander, 38th Army, 1932 ; governor, Shensi Province, 1937 ; commander, 31st Army Corps, 1938; commander, 4th Group Army, since, 1939. — p. 608
+
+**Sun Yat-sen, Madame** (see Sun, Soong Ching-ling) — p. 608
+
+**Sun, Yuan-liang** Lieut.-General army officer, born in Szechwan, 1904 ; graduate, Whampoa Military Academy ; attended Japanese Military Cadets' Academy, 1927-29 ; commander, 88th Division, 1933-37 ; studied military science and equipment in Europe and America in 1938; now fighting on the south-eastern front. — p. 608
+
+**Sun, Yueh-chi** engineer, born in Chekiang, 1895 ; graduate, National Peiyang College, Columbia and Stanford Univ.; general manager, Kansu Oil Administration, and member, National Resources Commission ; address, P.O. Box 7, Peipei, Szechwan. — p. 608
+
+**Sung, Han-chang** banker, born in Chekiang, 1872 ; connected with Bank of China, since 1912 ; chairman, board of directors, Bank of China, since 1942 ; address, Bank of China, Chungking. — p. 608
+
+**Sung, Tung** government official, born in Honan, 1899 ; B.Sc., National Tungchi Univ., — p. 608
+
+**Sung, Tze-wen (prefers T. V. Soong)** government official, born in Shanghai ; B.A., Harvard, 1915 ; minister of finance, and vice-president, Executive Yuan, 1928-31 and 1932-33 ; acting president, Executive Yuan, 1932-33 ; chief delegate, World Economic Conference, London, 1933 ; chairman, board of directors, Bank of China, 1935-43 ; acting chairman, National Aeronautical Affairs Commission, 1938; minister of foreign affairs, since 1942 ; member, standing committee, Kuomintang Central Executive Committee, since 1942 ; address, Ministry of Foreign Affairs, Chungking. — p. 608
+
+**Sze, Alfred Sao-ke** (see Shih, Chao-chi) — p. 608
+
+**Ta, Pu-sheng** government official, born in Kiangsu, 1876 ; graduate, Azhar Univ., Cairo, 1923 ; counsellor, National Military Council, since 1938 ; member, People's Political Council, since 1942 ; address, c/o Kincheng Bank, Sian, Shensi. — p. 608
+
+**Tai, Chi-tao** (see Tai, Chuan-hsien) — p. 608
+
+**Tai, Chuan-hsien** government official, native of Chekiang, born in Szechwan, 1890 ; studied at Japanese Imperial Univ., Tokyo ; member, Kuomintang Central Executive Committee, and minister of information, 1924 ; president, National Sun Yat-sen Univ., 1926-30 ; president, Examination Yuan, since 1928 ; member, standing committee, Kuomintang Central Executive Committee, since 1928 ; state councillor, National Government, since 1925 ; address, Examination Yuan, Chungking. — p. 608
+
+**Tai, David C. L** (see Tai, Tsui-lun) — p. 608
+
+**Tai, Hsu (Monk)** Buddhist leader, born in Chekiang, 1889 ; leader, Chinese Buddhist Mission to South Seas, 1941 ; new president, World Buddhist Institute and Chinese Buddhist Association ; address, Han Tsang Yuan, Peipei, Chungking. — p. 608
+
+**Tai, K. S** (see Tai, Kuei-sheng) — p. 608
+
+**Tai, Kuei-sheng (prefers K. S. Tai)** government official, born in Fukien, 1890; member, Kuomintang Central Executive Committee; former special commissioner of Control Yuan for Kansu, Ningsia and Chinghai ; now vice-minister, Board of Overseas Affairs, and member, Control Yuan; address, c/o Board of Overseas Affairs, Chungking. — p. 609
+
+**Tai, Li** government official, born in Chekiang ; graduate, Whampoa Military Academy ; former director, Smuggling Prevention Administration, Ministry of Finance ; now director, Freight Transportation Bureau, Ministry of Finance ; address, Ministry of Finance, Chungking. — p. 609
+
+**Tai, Ming-li** government official, born in Chekiang, 1902 ; graduate, China National Institute ; director, currency department, Ministry of Finance ; address, Ministry of Finance, Chungking. — p. 609
+
+**Tai, Tsui-lun (prefers David C. L. Tai)** musician, born in Kiangsu, 1911 ; graduate, New School of Music, Vienna ; chief instructor, music training class, Central Training Corps, 1941-42 ; president and professor, of National Conservatory of Music ; address, National Conservatory of Music, Ching Mu Kuan, Chungking. — p. 609
+
+**Tan, Ping-hsun** engineer, government official, born in Shantung, 1907; graduate, National Peiping Univ., 1931 ; director, Lushan (Kiangsi) Administration, 1936-38 ; director, Kiangsi Highway Bureau, 1938-42 ; director, Stage Transportation Administration, Ministry of Communications, since 1942 ; address, Stage Transportation Administration, Chungking. — p. 609
+
+**Tan, Po-yu** government official, born in Hunan, 1901 ; graduate, Fresden Engineering College, Germany ; vice-minister of economic affairs, since 1943 ; adviser, Chinese Delegation, United Nations Monetary and Financial Conference, 1944 ; address, Ministry of Economic Affairs, Chungking. — p. 609
+
+**Tanchu** (see Dalai Lama, 14th Incarnation) — p. 609
+
+**Tang, Chi-ho (prefers Edgar C. Tang)** university president, born in Kiangsu, 1902 ; B.A., Borne College, 1922 ; B.J., Missouri, 1927 ; M.A. (1929) and Ph.D. (1932), Harvard ; president, Cheeloo Univ., since 1943 ; address, Cheeloo Univ., Chengtu, Szechwan. — p. 609
+
+**Tang, Chi-yu** agricultural expert, government official, born in Kiangsu, 1896 ; B.Ag., Univ. of Nanking, 1920 ; M.A., Georgia, 1921 ; Ph.D., Cornell, 1924 ; dean, School of Agriculture, National Futan Univ., 1941-43 ; counsellor, Ministry of Agriculture and Forestry, since 1941 ; author, An Economic Study of Chinese Agriculture : address, Ministry of Agriculture and Forestry, Chungking. — p. 609
+
+**Tang, Edgar C** (see Tang, Chi-ho) — p. 609
+
+**Tang, En-po Lieut.-General** army officer, born in Chekiang ; graduate, Paoting Military Academy ; former instructor, Whampoa Military Academy ; commander, 13th Army; now commander-in-chief, 31st Group Army ; vice-commander-in-chief, 1st War Area. — p. 609
+
+**Tang, Sheng-chih General** army officer, born in Hunan, 1885 ; commander, 5th Army, 1929 ; chairman, Military Advisory Council, 1932-34 ; inspector-general of military training, 1934 ; garrison commander of Nanking, 1937 ; now member, National Military Council ; reserve member, Kuomintang Central Executive Committee, since 1931 ; address, National Military Council, Chungking. — p. 609
+
+**Tang, Shih-tsun General** army officer, born in Szechwan, 1886 ; commander, 21st Army, 1935 ; commander, 24th Army Corps, 1937; commander-in-chief, 23rd Goup Army, since 1938 , vice-commander-in-chief, 3rd War Area, since 1938. — p. 609
+
+**Tang, Shou-chien** college president, born in Fukien, 1902 ; B.A., Morningside College, 1925 ; M.A., Columbia, 1927 ; president, Fukien Provincial Normal College, since 1941; address, Fukien Provincial Normal College, Nanping, Fukien. — p. 609
+
+**Tang, Te-chen (Prefers T. C. Tang)** journalist, native of Kwangtung, born in Singapore, 1908; B.A., Yenching Univ.; M.A., Missouri; head, English department, Central News Agency, 1935-43; correspondent and manager, New York Bureau, Central News Agency, since 1943 ; address, New York Bureau, Central News Agency, New York City. — p. 610
+
+**Tang, Teng-han** medical engineer, born in Fukien, 1900; D.Sc., Berlin, 1929 ; chief engineer, Central Pharmaceutical Industries, and British indemnity fund research lecturer, West China Union Univ., since 1939 ; address, P. O. Box 42, Chengtu. — p. 610
+
+**Tang, Yi** police officer, born in Szechwan, 1902 ; graduate, Szechwan Law College ; police commissioner of Chungking, 1940-43 ; vice-dean, Central Police Academy, since 1943; address, Central Police Academy, Chungking. — p. 610
+
+**Tang Yueh** psychologist, born in Fukien, 1891 ; B.A., Cornell, 1917; Ph.D., Harvard, 1920 ; member, academic council, and research fellow, psychological research institute, Academia Sinica, since 1929. — p. 610
+
+**Tao, Feng-shan** government official, born in Kiangsu, 1898 ; graduate, Chiaotung Univ., Peiping, 1919; director, department of tele-communications, Ministry of Communica-tions, 1942-43 ; counsellor, same ministry, since 1943 ; address, Ministry of Communications, Chungking. — p. 610
+
+**Tao, Heng-chih** (see 'Tao, Hsin-chih') — p. 610
+
+**Tao, Hsi-sheng** professor, writer, born in Hupeh, 1898 ; LL.B., National Peking Univ., 1922 ; professor, National Peking Univ., 1931-37 ; department head, Generalissimo's Headquarters, since 1942 ; author, An Analogy of Chinese Social History, and History of Chinese Political Thought ; address, 1 Mei Chuan Hsiao Street, Chungking. — p. 610
+
+**Tao, Hsing-chih (prefers Heng Chih Tao)** educator, born in Anhwei, 1893 ; B.A., Univ. of Nanking, 1914 ; M.A., Illinois, 1915 ; research student, Columbia, 1915-17 ; principal, Hsiao Chuang Normal School, 1927-30 ; member, People's Political Council, 1938-42 ; principal, Yu Tsai School, since 1939 ; address, Yu Tsai School, Chungking. — p. 610
+
+**Tao, Hsuan** woman leader, born in Chekiang, 1899 ; graduate, National Peiping Women's Normal College, 1922 ; member, Legislative Yuan, 1928-35 ; director, girls' department, Kuomintang Youth Corps, 1940-41 ; member, People's Political Council, since 1938 ; address, 71 Chang Kia Hua Yuan, Chungking. — p. 610
+
+**Tao, L. K** (see Tao, Meng-ho) — p. 610
+
+**Tao, Lu-chien** government official, born in Chekiang, 1889 ; graduate, Peking Translation College ; charge d'affaires, Chinese Legation in Mexico, 1918-21 ; foreign affairs commissioner for Honan, 1924 ; counsellor and director, general affairs department, Ministry of Foreign Affairs, 1927-28 ; foreign affairs commissioner for Kwangtung, 1929 ; member, Legislative Yuan, 1933-35 ; vice-minister and acting minister of interior, 1935 ; vice-minister of interior, 1935-37 ; secretary-general and member, Hunan Provincial Government, 1937-38 ; civil affairs commissioner, 1938-42 ; member, Hunan Provincial Government, since 1937 ; address, Hunan Provincial Government, Changsha, Hunan. — p. 610
+
+**Tao, Meng-ho (prefers L. K. Tao)** sociologist, professor, born in Hopei, 1888 ; B.Sc., London Univ., professor, National Peking Univ., 1914-27 ; dean, same institution, 1919 ; director, research institute of social sciences, Academia Sinica, since 1936 ; member, People's Political Council, since 1938 ; address, P. O. Box 1, Lichuang, Szechwan. — p. 610
+
+**Tchang Si** (see Chang, Hsi) — p. 610
+
+**Tchang, Yitchou** (see Chang, Yi-chu) — p. 610
+
+**Tcheng, Soumay** (see Cheng, Yu-hsiu) — p. 610
+
+**Teng, Chia-yen** party and government leader, born in Kwangsi, 1888; member, standing committee, Kuomintang Central Executive Committee, since 1942; address, Kuomintang Central Headquarters, Chungking. — p. 611
+
+**Teng, Han-hsiang** government official, born in Kweichow, 1887 ; former secretary-general, Szechwan Provincial Government; now general manager, Szechwan-Sikang Development Corporation ; address, Szechwan-Sikang Development Corporation, Chengtu. — p. 611
+
+**Teng, Hsi-hou** General army officer, born in Szechwan, 1889; graduate, Paoting Military Academy; commander, 28th Army, 1927; commander, 14th Route Army, 1928; commander, 4th Army Corps, 1937; commander-in-chief, 22nd Group Army, 1938; now military affairs commissioner for Szechwan and Sikang; address, Office of Military Affairs Commissioner for Szechwan and Sikang, Chengtu, Szechwan. — p. 611
+
+**Teng, Lung-kuang** Lieut.-General army officer, born in Kwangtung, 1895; graduate, Paoting Military Academy; commander-in-chief, 35th Group Army, since 1940; address, Military P. O. No. 18, Kwangtung. — p. 611
+
+**Teng, Pao-shan** General army officer, born in Kansu, 1894; graduate, Ili (Sinkiang) Military School; commander, 7th Division, 1924; commander, new 1st Army, 1933; commander, 21st Army Corps, 1937; commander-in-chief, Shansi-Shensi-Suiyuan border area, since 1939; elected member, Central Executive Committee of Kuomintang, 1939; address, Yulin, Shensi. — p. 611
+
+**Ti, Ying** party leader, born in Kiangsu, 1896; research fellow, Lyons Univ.; reserve member, Kuomintang Central Supervisory Committee, since 1936; deputy secretary-general, Kuomintang Central Executive Committee, since 1942; address, Kuomintang Central Hqrs., Chungking. — p. 611
+
+**Tiao, Min-chien** (prefers M. T. Z. Tyau) journalist, government official, born in Kwangtung, 1888; B.A., St. John's Univ.; LL.B. and LL.D., London; founder and editor, Peking Leader, 1917-20; director, information department, Ministry of Foreign Affairs, 1929-31; editor, China Press Weekly 1935-37. — p. 611
+
+**Tiao, Tso-chien** (prefers Philip K. C. Tyau) diplomat, born in Kwangtung, 1880; B.A., St. John's Univ.; LL.B. and M.A., Cambridge; minister to Cuba and Panama, 1921-26; managing director, Peiping Leader, 1928-33; consul-general at Singapore, 1933-35; foreign affairs commissioner, for Kwangtung, 1936-38. — p. 611
+
+**Tien, Chen-nan** Lieut.-General army officer, born in Honan, 1889; graduate, Paoting Military Academy, 1903; vice-commander-in-chief, 2nd Group Army, since 1940. — p. 611
+
+**Tien, Han** playwright, born in Hunan, 1898; graduate, Tokyo Normal College ; author of a number of plays ; member, Cultural Work Committee, Political Training Board, National Military Council, since 1940. — p. 611
+
+**Ting, Hsieh-lin** physicist, born in Kiangsi, 1892 ; M.S., Birmingham ; director, Research Institute of Physics, Academia Sinica, since 1928. — p. 611
+
+**Ting, Shao-chi** government official, born in Hupeh 1884 ; first secretary, Chinese Embassy in Japan, 1931-33; counsellor, same embassy, 1933-36; counsellor, Ministry of Foreign Affairs, 1936-42; adviser to same ministry, since May, 1942; address, Ministry of Foreign Affairs, Chungking. — p. 611
+
+**Ting, Wei-fen** party official, born in Shantung, 1876; graduate, Meiji Univ., Tokyo ; member, Kuomintang Central Executive Committee, since 1924 ; now member, standing committee, Kuomintang C.E.C.; address, Central Kuomintang Hqrs., Chungking. — p. 611
+
+**Tong, Hollington K** (see Tung, Hsien-kuang) — p. 612
+
+**Tsai, Chiao** physiologist, professor, born in Kwangtung, 1897; B.A., Illinois, 1922; Ph.D., Chicago, 1924; professor, National Central Univ., since 1937; appointed by Ministry of Education "Ministry-Appointed Professor," 1942; author, Physiology; known for his research in carbohydrate metabolism and anti-hemolytic action of cholesterol, lecithin and serum; address, Medical College, National Central Univ., Chengtu. — p. 612
+
+**Tsai, Kwei (Miss)** Y.W.C.A. worker, born in Chekiang, 1902; B.A., Ginling College for Women, 1927; M.A., Columbia, 1936; secretary-general, National Committee, Y.W.C.A., since 1937; address, Y.W.C.A., San Sheng Chieh, Chengtu. — p. 612
+
+**Tsai, Ting-kai General** army officer, born in Kwangtung, 1890; former commander, 10th Division; commander, 60th Division; commander, 19th Army; commander, 19th Route Army; now commander, 16th Group Army. — p. 612
+
+**Tsai, Wu-chi** veterinary surgeon, born in Chekiang, 1898; D.V.S., Ecole Nationale Veterinaire d'Alfort, France, 1924; former professor and dean, College of Agriculture, National Central Univ.; director, Shanghai Bureau of Inspection and Testing of Commercial Commodities; now director, National Animal Husbandry Research Bureau; address, National Animal Husbandry Research Bureau, Yungchang, Szechwan. — p. 612
+
+**Tsang, Chi-fang** university president, born in Liaoning, 1894; LL.B., Chung Kuo Univ., 1920; studied at Illinois and California, 1920-23; chancellor, National Northeast Univ., since 1937; address, National Northeast Univ., Santai, Szechwan. — p. 612
+
+**Tsao, Chou** government official, born in Kiangsi, 1895; B.A., National Southeast Univ., 1924; director, department of secondary education, Ministry of Education, since 1944; address, Ministry of Education, Chungking. — p. 612
+
+**Tsao, Fu-lin Lieut.-General** army officer, born in Hopei, 1892; commander, 14th Division, 1927-28; commander, 1st Army Corps, 1929; commander, 14th Army, 1929-31; commander, 29th Division, 1931-37; commander, 55th Army, 1937; deputy-commander, 3rd Group Army, since 1939. — p. 612
+
+**Tsao, Hao-shen General** government official, born in Kiangsi, 1887; graduate, Japanese Staff College, 1924; chief of staff, 2nd Group Army of Nationalist Revolutionary Forces, 1927-28; director, army administration, Ministry of War, 1928-31; vice-minister of war, 1931-42; governor, Kiangsi Province, since 1942; address, Kiangsi Provincial Government, Taiho. — p. 612
+
+**Tsao, Ku-ping** journalist, born in Shanghai, 1896; B.A., Berlin Univ., 1927; editor, 1927-31; special correspondent in U.S.S.R., 1931; news editor, 1931-35; Nanking correspondent, 1935-37; manager, Hankow Edition, 1937-38, of the Ta Kung Pao; now manager, Ta Kung Pao, Chungking; address, Ta Kung Pao, Chungking. — p. 612
+
+**Tsen, J. K** (see Tseng, Chi-kwan) — p. 612
+
+**Tseng, Chi-kwan (prefers J. K. Tsen)** college president, born in Szechwan, 1893; B.A., Kagosima School of Agriculture and Forestry, Japan, 1915; president, National Northwest Polytechnical School, since 1939; address, National Northwest Polytechnical School, Lanchow. — p. 612
+
+**Tseng Ching-chi Major-General** army officer, born in Szechwan, 1903; graduate, National Tsing Hua Univ.; graduate, South California Military Academy; graduate, American Cavalry School; research student, Univ. of Paris; spokesman for National Military Council, 1943-44; address, Board of Military Operations, Chungking. — p. 612
+
+**Tseng, Hsu-pai** publicity director, writer, journalist, born in Kiangsu, 1894; B.A., St. John's Univ., 1918; managing director and editor, Ta Wan Pao (China Evening News), Shanghai, 1932-36; councillor, National Military Council, 1931-37; director, international department, Ministry of Information, since 1937; author, ABC of English Literature, ABC of American Literature, and several novels; address, Ministry of Information, Chungking. — p. 613
+
+**Tseng, Kuang-ching** party and government official, born in Szechwan, 1899; graduate, Whampoa Military Academy; member, Kuomintang Central Executive Committee, since 1935; now director, political training department, 8th War Area Headquarters. — p. 613
+
+**Tseng, Shih-ying** geographer, born in Kiangsu, 1899; research student, Syracuse Univ., U.S.A.; senior technical expert, National Geological Survey of China, since 1929; address, National Geological Survey of China, Chungking. — p. 613
+
+**Tseng, T. K** (see Tseng, Yung-fu) — p. 613
+
+**Tseng, Yang-fu** government official, born in Kwangtung, 1898; B.S., Peiyang Univ., 1922; M.S., Pittsburgh Univ., 1924; Hon. D.Sc., Pittsburgh, 1934; vice-minister of railways, 1935-36; mayor of Canton, 1936-37; director-general, Yunnan-Burma Railway Administration, 1941; minister of communications since 1942; director, National Highway Administration, since 1943; address, Ministry of Communications, Chungking. — p. 613
+
+**Tseng, Yung-fu (prefers T. K. Tseng)** government official, born in Fukien 1882; studied at Peiyang Univ., King's College and Cambridge; minister to Norway and Sweden, 1926; vice-minister of railways, 1935-38; vice-minister of foreign affairs 1938-41. — p. 613
+
+**Tsien, Tai** (see Chien, Tai) — p. 613
+
+**Tsing, Li-pin** physician, born in Chekiang, 1895; licencie es sciences and docteur es sciences, 1920; docteur en medicine, 1921; director, National Research Institute of Medicine and Pharmacology, since 1942; address, National Research Institute of Medicine and Pharmacology, Kunming. — p. 613
+
+**Tsou, Lin** government official, born in Kwangtung, 1889; graduate, Peking College of Law, 1913; vice-minister of finance, 1932-40; member and finance commissioner, Kwangtung Provincial Government, 1940-41; chairman, Foreign Trade Commission, Ministry of Finance, since 1942; address, Foreign Trade Commission, Chungking. — p. 613
+
+**Tsou, Lu** party official, born in Kwangtung, 1884; graduate, Waseda Univ., Tokyo; member, standing committee, Kuomintang Central Executive Committee since, 1926; chancellor, National Sun Yat-sen Univ., 1931-40; address, Kuomintang Central Headquarters, Chungking. — p. 613
+
+**Tsou, Ping-wen** agriculturist, native of Kiangsu, born in Canton, 1892; B.S., Cornell, 1915; former professor and dean, College of Agriculture, National Central Univ.; vice-chairman, Foreign Trade Commission, Ministry of Finance; Chinese delegate, United Nations Food Conference, 1943. — p. 613
+
+**Tsou, Shang-yu** diplomat, born in 1897; graduate, Commercial Institute of Russia, 1918; former consul-general at Novosibirsk, U.S.S.R.; director, west Asiatic affairs department, Ministry of Foreign Affairs; now minister to Turkey; address, Chinese Legation, Ankara, Turkey. — p. 613
+
+**Tsou, Tso-hua** Lieut.-General army officer, government official, born in Kirin, 1892; graduate, Japanese Military Cadets' Academy; member, Peiping Military Council, 1933; principal, Artillery School, 1934-39; commander-in-chief of artillery, National Military Council, since 1940; governor, Kirin Province, since 1940; address, 40 Fu Hsing Villa, South Bank, Chungking. — p. 613
+
+**Tsu, Y. Y** (see Chu, Yu-yu) — p. 614
+
+**Tsur, Y. T** (see Chou, I-chun) — p. 614
+
+**杜鎭遠 Tu, Chen-yuan** railway director and engineer, born in Szechwan, 1890; graduate, Tangshan Engineering College, 1914; M. Eng., Cornell, 1922; deputy superintendent and chief engineer, Yunnan-Burma Railway Administration, since 1941; acting director, Canton-Hankow Railway Administration, since 1942; vice-president, Chinese Engineering Society. — p. 614
+
+**Tu, Yuen-ten** (see Tu, Yun-tan) — p. 614
+
+**涂允檀 Tu, Yun-tan (prefers Tu, Yuen-ten)** diplomat, born in Hupeh, 1897; B.A., National Peking Univ.; M.A. and Ph.D., Illinois; former consul-general at Manila; director, treaty department, Ministry of Foreign Affairs; now minister to Panama, Costa Rica and Honduras; address, Chinese Legation, Panama. — p. 614
+
+**杜鏞 Tu, Yung** banker, industrialist, born in Shanghai, 1887; now chairman, board of directors, China Commercial Bank; address, China Commercial Bank, Chungking. — p. 614
+
+**段錫朋 Tuan, Hsi-peng** government and party official, born in Kiangsi, 1896; B.A., National Peking Univ.; M.A., Columbia; vice-minister of education, 1932; director, Kuomintang Central Training Committee, since 1944; reserve member, Kuomintang Central Executive Committee, since 1931; address, Central Training Committee, Chungking. — p. 614
+
+**段茂瀾 Tuan, Mao-lan** diplomatic official, born in Anhwei, 1899; B.A., New York Univ., 1923; M.A. (1924) and Ph.D. (1927), Columbia; professor, Nankai Univ., 1934-37; senior secretary, Ministry of Foreign Affairs, 1934-41; counsellor, Chinese Legation in Australia, and consul-general at Sydney, since 1941; address, Chinese Consulate-General, Sydney, Australia. — p. 614
+
+**端木愷 Tuan-Mu Kai (prefers Joseph K. Twammoh)** government official, born in Anhwei, 1902; J.S.D., New York Univ., former counsellor, Executive Yuan; chief accountant, same yuan; deputy secretary-general, National General Mobilization Council, since 1943; address, National General Mobilization Council, Chungking. — p. 614
+
+**董顯光 Tung, Hsien-kuang (prefers Holington K. Tong)** journalist, publicity director, born in Chekiang, 1887; M.J., Missouri; Hon. Ph.D., Park College; editor and managing director, China Press, Shanghai, 1931-35; managing director, China Times, Ta Wan Pao, and Shun-Shih News Agency, 1935; managing director, China Publishing Co., Shanghai, 1936; vice-minister of information since 1938; President, Post-Graduate School of Journalism, Central Political Institute, since 1943; authorized biographer of Chiang Kai-shek, both in Chinese and English; address, Ministry of Information, Chungking. — p. 614
+
+**董冠賢 Tung, Kwan-hsien** government official, born in Chahar, 1896; M.S., Columbia, 1923; research student, Univ. of Berlin, 1923-24, and London School of Economics, 1925; dean, National Central Univ., 1936-43; supervisory commissioner of Control Yuan, Shansi-Shensi area, since 1944; address, Supervisory Commissioner's Office, Sian. — p. 614
+
+**董時進 Tung, Shih-chin** agriculturist, professor, born in Szechwan, 1900; M.S. (1922) and Ph.D. (1924), Cornell Univ.; professor and dean, College of Agriculture, National Szechwan University, since 1939; director, Szechwan Agricultural Improvement Bureau, 1942-44; editor, Modern Farmers, and director, Ta Hsin Farm, since 1939; author, China's Agricultural Policy; address, Ta Hsin Farm, Tsingkowhsiang, Pahsien, Szechwan. — p. 614
+
+**Tyau, M.T.Z** (see Tiao Min-chien) — p. 614
+
+**Tyau, Philip K. C** (see Tiao Tso-chien) — p. 614
+
+**萬家寶(曹禺) Wan, Chia-pao (Pen-name: Tsao Yu)** playwright, born in Hupeh, 1909; B.S., National Tsing Hua Univ., 1933; graduate, Post-Graduate School, National Tsing Hua Univ., 1934; author of ten long plays, including Thunderstorm, Lady in White, and Home; address, 52 Paochiehyuan Street, Chungking. — p. 614
+
+**Wan, Fu-lin** General army officer, born in Kirin, 1880 ; former governor, Heilungkiang Province ; commander, 53rd Army; deputy-commander, 1st Group Army and 20th Group army ; commander, 26th Army Corps ; commander, 20th Group Army ; governor, Liaoning Province, since 1940 ; member, National Military Council, since 1942 ; address, 21 Foo Shen Villa, South Bank, Chungking. — p. 615
+
+**Wan, Yao-huang** General army officer, born in Hupeh, 1893 ; graduate, Paoting Military Academy, 1914; graduate, Staff College, 1920 ; commander, 25th Army, 1935-38 ; vice-commander-in-chief, Wuchang and Hankow Area, 1938-39; dean, Staff College, 1939-41 ; dean, Central Military Academy, since 1942 ; address, Central Military Academy, Chengtu. — p. 615
+
+**Wang, Cheng-ting (prefers Chengting T. Wang)** diplomat, born in Chekiang, 1882 ; B.A., Yale, 1910; acting minister of justice and commerce, 1912; vice-president of Senate, first Parliament of the Republic, 1913; general secretary, Y.M.C.A. of China, 1914; director-general, Shantung Rehabilitation Commission, 1922; minister of foreign affairs, 1922 ; acting premier, 1922 ; minister of foreign affairs and minister of finance, 1926 ; director-general, Lunghai Railway, 1927 ; minister of foreign affairs, 1928-31 ; ambassador to United States, 1936-38 ; réserve member, Kuomintang Central Executive Committee, since 1935 ; chairman, War Crime Investigation Commission, Executive Yuan, since 1944 ; address Executive Yuan, Chunking. — p. 615
+
+**Wang, Chia-chen** diplomatic official, born in Kirin, 1899 ; B.A., Keio Univ., Tokyo ; vice-minister of foreign affairs, 1930-32 ; delegate to League of Nations convention, 1931 ; member, People's Political Council, 1938-42 ; now adviser, Ministry of Foreign Affairs ; address, 28 Fu Hsin Village Hwangchuehya, South Bank, Chungking. — p. 615
+
+**Wang, Chia-chi** biologist, born in Kiangsu, 1899 ; B.S., National Southeast Univ., 1923 ; Ph.D., Pennsylvania, 1928 ; research professor, Biological Research Institute, Science Society of China, 1929-34 ; director, Zoological and Botanical Research Institute, Academia Sinica, since 1934 ; address, Zoological and Botanical Research Institute, Academia Sinica, Peipei, Szechwan. — p. 615
+
+**Wang, Chin** professor, born in Chekiang, 1888 ; Ch.E., Lehigh Univ., 1915 ; M.S., Minnesota, 1936 ; dean, College of Natural Sciences, National Central Univ., 1926-27 ; dean, Normal College, National Chekiang Univ., since 1937 ; address, National Chekiang Univ., Tsungyi, Kweichow. — p. 615
+
+**Wang, Ching-chun** government official, born in Hopei, 1882 ; Ph.B., Yale, 1908 ; M.A. (1909) and Ph.D. (1911), Illinois ; inventor of phonetic system for telegraphing Chinese characters ; director, Chinese Government Purchasing Commission, London, since 1931. — p. 615
+
+**Wang, Ching-hsi (prefers 'Ging-hsi Wang)** psychologist, born in Shantung, 1897 ; LL.B., National Peking Univ., 1919 ; Ph.D., Johns Hopkins, 1923 ; director, Psychological Research Institute, Academia Sinica, since 1934 ; lecturing in U.S.A., 1944. — p. 615
+
+**Wang, Ching-kuo** Lieut.-General army officer, born in Shansi, 1893 ; graduate, Paoting Military Academy, 1918 ; commander, 5th Army, 1928 ; garrison commander of Suiyuna, 1929 ; commander, 70th Division, and garrison commander of Western Suiyuan, 1931 ; commander, 19th Army, 1936. — p. 615
+
+**Wang, Cho-jan** university president, born in Liaoning, 1894 ; B.A., Peking Normal College, 1922 ; M.A., Columbia, 1926 ; acting chancellor, National Northeast Univ., 1932-37 ; member, People's Political Council, 1938-42. — p. 615
+
+**Wang, Chung-hui** government official, born in Kwangtung, 1882; D.C.L., Yale, 1904; called to English' Bar at Inner Temple, 1907; minister of justice, 1912; president, Law Codification Commission, 1917; chief justice, Supreme Court, 1920; delegate to Washington Conference, 1921-22; minister of justice, 1922; premier, 1922; judge, Permanent Court of International Justice, The Hague, 1923-24; minister of education, 1926; minister of justice, 1927-28; president, Judicial Yuan, 1928-31; judge, Permanent Court of International Justice, The Hague, 1930-35; minister of foreign affairs, 1937-41; member, Kuomintang Central Supervisory Committee, since 1926; secretary-general, Supreme National Defense Council, since 1942; member, presidium, People's Political Council, since 1943; address, National Supreme Defense Council, Chungking. — p. 616
+
+**Wang, Chung-lien** Lieut.-General army officer, born in Kiangsu, 1901; graduate, Whampoa Military Academy, 1923; commander, 85th Army, 1937; deputy commander, 31st Group Army, since 1940; commander, 2nd Route Assault Army, Shantung-Kiangsu-Anhwei-Honan border area, since 1941. — p. 616
+
+**Wang, Chengting T** (see Wang, Cheng-ting) — p. 616
+
+**Wang, Ging-hsi** (see Wang, Ching-hsi) — p. 616
+
+**Wang, Hsiao-lai** merchant, born in Chekiang, 1886; now chairman, Chamber of Commerce of Shanghai, and member, People's Political Council; address, c/o Bank of China, Chungking. — p. 616
+
+**Wang, Hsing-kung** (prefers Wang, Sing-kung) univesity president, born in Anhwei, 1888; studied in England, 1908-09; A.R.C.Sc. (Associate of Royal College of Science) and D.I.C. (Diploma of Imperial College); chancellor, National Wuhan Univ., since 1930; author, Scientific Method and Introduction to Science; address, National Wuhan Univ., Loshan, Szechwan. — p. 616
+
+**Wang, Hsun-chih** government official, born in Kwangsi, 1891; member and finance commissioner, Kwangsi Provincial Government, since 1942. — p. 616
+
+**Wang, Hua-cheng** government official, born in Kiangsu, 1903; Ph.D., Chicago Univ., 1927; professor, National Tsenghua Univ., 1928-39; counsellor, Supreme National Defense Council, since 1939; director, treaty department, Ministry of Foreign Affairs, since 1942; author, Modern International Law; address, Ministry of Foreign Affairs, Chungking. — p. 616
+
+**Wang, Huai-ming** university president, born in Shansi, 1892; LL.M., Northwestern Univ., U.S.A.; member and education commissioner, Shansi Provincial Government, 1937-43; chancellor, National Shansi Univ., since 1943; address, National Shansi Univ., Hsingchi, Shansi. — p. 616
+
+**Wang, Kuo-hua** government official, born in Shensi, 1900; B.A., Colorado College, 1924; M.A., Chicago, 1926; director, Stage Transportation Administration, Ministry of Communications, 1941-42; counsellor, Ministry of Communications, since 1942; member, Chinese Supplies Commission in Washington, since 1944; address, c/o Chinese Embassy, Washington. — p. 616
+
+**Wang, Li-ming (Mrs. Herman C. E. Liu)** social worker, born in Anhwei, 1897; B.A., Northwestern Univ., U.S.A.; secretary-general, Women's Christian Temperance Union, and member, People's Political Council; address, Liu Chuang, Chialing Villa, Chungking. — p. 616
+
+**Wang, Lucy C** (see Wang, Shih-ching) — p. 616
+
+**Wang, Peng-sheng** government official, writer, born in Hunan, 1893; graduate, Tokyo Imperial Univ., 1921; counsellor, Chinese Embassy in Tokyo, 1935-36; vice-minister of communications, 1936; director, Inter-national Problems Research Bureau, National Military Council, since 1937; address, International Problems Research Bureau, National Military Council, Chungking. vice-minister of interior, 1943-44 ; chairman, Opium Suppression Commission, since 1944 ; address, Opium Suppression Commission, Chungking. — p. 616
+
+**Wang, Po-chun** government official, university president, born in Kweichow, 1885 ; minister of communications, 1928-31 ; member, Kuomintang Central Executive Committee, since 1929 ; state councillor, National Government, since 1932 ; president, Great China Univ., since 1928 ; address, Great China Univ., Kweiyang, Kweichow. — p. 617
+
+**Wang, Shih-chieh** government official, born in Hupeh, 1894 ; B.S., London, 1917 ; LL.D., Paris, 1920 ; member, Permanent Court of Arbitration at The Hague, 1928 ; chancellor, National Wuhan Univ., 1929-34 ; minister of education, 1933-37 ; secretary-general, People's Political Council ; 1938-43 ; minister of information, 1939-42 ; secretary-general, Central Planning Board, 1940-43 ; chief counsellor, National Military Council, since 1938 ; member, presidium, People's Political Council, since 1943 ; author, The Comparative Constitution ; address, People's Political Council, Chungking. — p. 617
+
+**Wang Shih-ching (Miss, prefers Lucy C. Wang)** college president, born in Fukien, 1899 ; B.A., Iowa ; M.A., Michigan ; president, Hua Nan College for Women, since 1930 ; address, Hua Nan College for Women, Nanping, Fukien. — p. 617
+
+**Wang, Shu-chang** General army officer, born in Liaoning ; graduate, Tokyo Military Cadets' Academy ; governor, Hopei Province, 1931-32 ; garrison commander, Peiping and Tientsin, 1933-35 ; vice-president, Military Advisory Council, 1937-44 ; councillor, Military Advisory Council, since 1944 ; address, Military Advisory Council, Chungking. — p. 617
+
+**Wang, Sing-kung** (see Wang, Hsing-kung) — p. 617
+
+**Wang, Te-po** government official, born in Liaoning, 1898 ; graduate, Chihli Law College ; member and civil affairs commissioner, Shensi Provincial Government, 1939-41 ; — p. 617
+
+**Wang, Tsan-hsu** General army officer, born in Szechwan, 1886 ; former commander, 44th Army ; governor, Szechwan Province ; now commander-in-chief, 29th Group Army. — p. 617
+
+**Wang, Tsao-shih** professor, born in Kiangsi, 1903 ; B.A. (1927), M.A. (1928) and Ph.D. (1929), Wisconsin ; professor in Shanghai univs., 1930-33 ; member, People's Political Council, 1938-42 ; publisher, Frontline Daily, since 1939 ; address, Frontline Daily, Kian, Kiangsi. — p. 617
+
+**Wang, Tseng-shan** Muslim leader, born in Shantung, 1902 ; B.A., Yenching Univ., 1925 ; M.A., Istanbul Univ., 1930 ; member, Legislative Yuan, since 1932 ; leader, Chinese Goodwill Mission to the Near East, 1939 ; address, Legislative Yuan, Chungking. — p. 617
+
+**Wang, Tsu-hsiang** government official, born in Chekiang, 1897 ; graduate, Peiyang Medical College ; M.P.H., Johns Hopkins ; former director, health bureau, Nanking ; director, health bureau, Yunnan-Burma Highway ; director, health bureau, Chungking, since 1943 ; address, Chungking Municipal Government, Chungking. — p. 617
+
+**Wang, Tung-yuan Lieut.-General** government official, born in Anhwei, 1898 ; graduate, Paoting Military Academy, 1912 ; commander, 73rd Army, 1929-37 ; vice-commander-in-chief, 32nd Group Army, 1938-39 ; vice-minister, Political Training Board, National Military Council, 1940-43 ; dean, Central Training Corps, 1940-44 ; governor, Hupeh Province, since 1944 ; address, Hupeh Provincial Government, Enshih. — p. 617
+
+**Wang, Tze-chuang** government official, born in Shantung, 1901 ; graduate, National Peking Univ., 1923 ; member, Kuomintang Central Supervisory Committee, since 1935 ; secretary-general, Kuomintang C.S.C., since 1935; vice-minister of personnel registration, since 1936; address, 9 Chin Shih Wan, Koloshan, Chungking. — p. 617
+
+**Wang, Tze-fu** government official, born in Hunan, 1897; B.A., Waseda Univ., Japan; member and civil affairs commissioner, Provincial Government, since 1936; address, Kiangse, Kiangsi Provincial Government, Taiho. — p. 618
+
+**Wang, Tze-kan** physician, born in Kiangsi, 1882; B.A., Oberlin ; M.Sc., Chicago ; M.D., St. Louis Univ.; former superintendent, Changsha Union Hospital; president, Kiangsi Provincial Medical College; president, Yale-in-China Medical College; now president, National Chung Cheng Medical College; address, National Chung Cheng Medical College, Yungsin, Kiangsi. — p. 618
+
+**Wang, Yao-wu** Lieut.-General army officer, born in Shantung, 1906; graduate, Whampoa Military Academy; now commander, 74th Army. — p. 618
+
+**Wang, Yun-sheng** journalist, born in Hopei, 1901; editor-in-chief, Ta Kung Pao, since 1942; author, Sixty Years of Sino-Japanese Relations (seven volumes); address, Ta Kung Pao, Chungking. — p. 618
+
+**Wang, Yun-wu** publisher, writer, born in Kwangtung, 1888; managing director and editor-in-chief, Commercial Press; editor, Wan Yu Wen Ku or the Complete Library, consisting of 4,000 volumes of standard works in all branches of knowledge, sufficient to furnish a small library; inventor of a system of Chinese lexicography known as the "four-corner numeral system;" member, resident committee, People's Political Council, since 1938; member, Chinese Goodwill Mission to Great Britain, 1943; address, Commercial Press, Chungking. — p. 618
+
+**Wei, Cho-min (prefers Francis Cho-min Wei)** college president, born in Kwangtung, 1889; B.A. (1911) and M.A. (1915), Boone College; M.A., Havard, 1919; Hon. D.C.L., Univ. of the South, U.S.A., 1927; Ph.D., London, 1929; president, Hua Chung College, since 1929; visiting professor, Yale, 1937-38; member, People's Political Council, 1938-42; address, Hua Chung College, Tali, Yunnan. — p. 618
+
+**Wei, Francis Cho-min** (see Wei, Cho-min) — p. 618
+
+**Wei, Huai** government official, born in Fukien, 1882; member, Legislative Yuan, 1928-31; director, civil affairs department, National Government, since 1932; address, National Government, Chungking. — p. 618
+
+**Wei, Li-huang** General army officer, born in Anhwei, 1897; graduate, Staff College; commander-in-chief, 1st War Area, 1938-42; member, National Military Council, since 1942; commander-in-chief, Chinese Expeditionary Force, since 1942; member, Kuomintang Central Executive Committee, since 1935. — p. 618
+
+**Wei, Tao-ming** diplomat, born in Kiangsu, 1898; docteur en droit, Paris; minister of justice, 1928-29; mayor of Nanking, 1930-31; ambassador to U.S.A., since 1942; address, Chinese Embassy, Washington, D.C. — p. 618
+
+**Wei, Ting-sheng** economist, born in Hupeh, 1891; member, Legislative Yuan, since 1928; professor of economics, National Futan Univ., since 1940; member, Chinese Delegation, United Nations Monetary and Financial Conference, 1944; address, Legislative Yuan, Chungking. — p. 618
+
+**Wei, Yi-fu** government official, born in Chekiang, 1887; M.E., Cornell; former chairman, Railway Technical Committee; president, Eurasia Aviation Company; vice-president, China National Aviation Corporation; superintendent, Peiping Suiyuan Railway, and Peiping-Hankow Railway; superintendent, Post Office; technical supervisor, Ministry of Communications, since 1927; address. Ministry of Communications, Chungking, — p. 618
+
+**韋永成 Wei, Yung-cheng** government official, born in Kwangsi, 1906; graduate, Moscow Sun Yat-sen Univ. and Berlin Univ.; member and civil affairs commissioner, Anhwei Provincial Government, since 1940; address, Anhwei Provincial Government, Lihwang, Anhwei. — p. 619
+
+**文震 Wen, Chun** government official, born in Kiangsi, 1885; graduate, Waseda Univ., Tokyo; member and finance commissioner, Kiangsi Provincial Government, since 1932; address, Department of Finance, Taiho, Kiangsi. — p. 619
+
+**聞鈞天 Wen, Chun-tien** government official, born in Hupeh, 1910; graduate, National Southeast Univ., 1926, and Nanking School of Fine Arts, 1923; director, department of rites and customs, Ministry of Interior, since 1938; address, Ministry of Interior, Chungking. — p. 619
+
+**聞亦有 Wen, Yi-yu** government official, born in Hupeh; 1900; graduate, National Wuchang Commercial College; member, Kuomintang Central Supervisory Committee, since 1935; now comptroller and director-general of accounting, National Government; address, Directorate of Accounting, National Government, Chungking. — p. 619
+
+**溫源寧 Wen, Yuan-ning** government official, born in Kwangtung, 1900; B.A., M.A., LL.B.; studied at Univ. of London, 1916-18; graduate, Cambridge, 1922; editor-in-chief, Tien Hsia Monthly (English), 1935-41; member, Legislative Yuan, since 1936; representative in India, Ministry of Information, 1942; member, Chinese Goodwill Mission to Great Britain, 1943; author, Imperfect Understanding; address, Legislative Yuan, Chungking. — p. 619
+
+**Wong, K. Y** (see Huang, Kuang-jui) — p. 619
+
+**翁文灝 Wong, Wen-hao** government official, geologist, born in Chekiang, 1889; D.Sc., Louvain Univ.; Hon. LL.D., Univ. of British Columbia, Canada; Hon. D. Eng., Berlin Engineering College; director, National Geological Survey of China, since 1922; acting chancellor, National Tsing Hua Univ., 1931; secretary-general, Executive Yuan, 1935-36; secretary-general, Chinese Delegation to Coronation of King George VI, 1937; minister, 3rd Board, National Military Council, 1937; minister of economic affairs since 1938; president, Chinese Engineering Society, since 1941; author, Mineral Resources of China, Earthquake Regions of China, and Mountain Ranges of China; address, Ministry of Economic Affairs, Chungking. — p. 619
+
+**Woo, P. N. (Wu, Yun-chu)**  — p. 619
+
+**Wu, Chaucer H** (see Wu, Che-hsiang) — p. 619
+
+**吳澤湘 Wu, Che-hsiang (prefers Chaucer H. Wu)** diplomatic official, born in Szechwan, 1898; studied at Tsing Hua and London Univs.; foreign affairs commissioner for Szechwan, 1936-40; secretary-general, Chungking Municipal Government, 1940-42; foreign affairs commissioner for Sinkiang, 1942-44; address, Office of Foreign Affairs Commissioner, Tihwa, Sinkiang. — p. 619
+
+**Wu Chi Moy** (see Wu, Chih-mei) — p. 619
+
+**吳奇偉 Wu, Chi-wei** Lieut.-General; army officer, born in Kwangtung, 1888; graduate, Paoting Military Academy; former commander-in-chief, 9th Group Army; pacification commissioner of Kwangtung-Kiangsi-Fukien border regions; deputy commander-in-chief of 9th War Area, 1939; now deputy commander-in-chief, 6th War Area, and Upper Yangtze River Defense. — p. 619
+
+**Wu, Chih-hui** (see Wu, Ching-heng) — p. 619
+
+**伍智梅 Wu, Chih-mei (prefers Wu Chi Moy)** woman physician, party worker, born in Kwangtung, 1897; graduate, Canton Medical College, 1917; post-graduate work in hygiene, Chicago, 1934; member, People's Political Council, since 1938; address, Chinese Girls' Vocational School, Haitangchi, South Bank, Chungking. — p. 619
+
+**吳景超 Wu, Ching-chao** government official, born in Anhwei, 1901; B.A., Minnesota; M.A. (1925) and Ph.D. (1928), Chicago; professor, Univ. of Nanking, 1928-31; professor, National Tsing Hua Univ., 1931-35; senior secretary, Executive Yuan, 1937; senior secretary, Ministry of Economic Affairs, since 1938; now in U.S.A.; address, Ministry of Economic Affairs, Chungking. — p. 619
+
+**Wu, Ching-ching** government official, born in Kiangsu, 1895; B. Eng., Purdue Univ; director, department of supplies, Ministry of Communications, since, 1943; address, Ministry of Communications, Chungking. — p. 620
+
+**Wu, Ching-heng** Kuomintang leader and writer; born in Kiangsu, 1864; member, Kuomintang Central Supervisory Committee, since 1924; address, Central Kuomintang Hqrs., Chungking. — p. 620
+
+**Wu, Ching-hsiung (prefers John C. H. Wu)** jurist, government official, born in Chekiang, 1899; LL.B., Soochow Univ.; Ph.D., Michigan, 1921; research student, Univ. of Paris, 1921-22; Univ. of Berlin, 1922-23; professor and dean, Comparative Law College, Soochow Univ., 1927-38; member and chairman, foreign affairs committee, Legislative Yuan, since 1932; address, Legislative Yuan, Chungking. — p. 620
+
+**Wu, Chun-sheng (prefers Ou Tsuin-chen)** government official, born in Kiangsu, 1901; B.A., National Southeast Univ., 1925; Litt.D., Paris, 1931; director, department of higher education, Ministry of Education, since 1938; address, Ministry of Education, Chungking. — p. 620
+
+**Wu, Chung-hsin** General government official, born in Anhwei, 1884; graduate, Kiangnan Military Academy; governor, Anhwei Province, 1929; governor, Kweichow Province, 1935-37; chairman, Mongolian and Tibetan Affairs Commission, 1936-44; member, standing committee, Kuomintang Central Executive Committee, since 1942; governor, Sinkiang Province, since 1944; address, Sinkiang Provincial Government, Tihwa. — p. 620
+
+**Wu, John C. H** (see Wu, Ching-hsiung) — p. 620
+
+**Wu, Kuo-chen (prefers K. C. Wu)** government official, born in Hupeh, 1904; Ph.D., Princeton Univ., 1926; member and finance commissioner, Hupeh Provincial Government, 1931-32; mayor of Hankow, 1932-38; mayor of Chungking, 1939-42; vice-minister of foreign affairs since 1943; address, Ministry of Foreign Affairs, Chungking. — p. 620
+
+**Wu, Lei-chuan** retired university chancellor, born in Chekiang, 1870; Hanlin scholar in Manchu dynasty; vice-minister of education, 1928-29; chancellor, Yenching Univ., 1926-33. — p. 620
+
+**Wu, Nan-hsuan** government official, born in Kiangsu, 1895; B.A. (1922), M.A. (1923), and Ph.D. (1927), California; chancellor, National Futan Univ., 1942-43; chancellor, National Ying Shih Univ., 1943; member, Control Yuan, since 1943; address, Control Yuan, Chungking. — p. 620
+
+**Wu, Nan-ju** government official, born in Kiangsu, 1898; graduate, Peiyang Univ.; secretary, Chinese Delegation to Washington Conference, 1921-22; Chinese minister to Denmark, 1937; director, protocol department, Ministry of Foreign Affairs, since 1943; address, Ministry of Foreign Affairs, Chungking. — p. 620
+
+**Wu, Pao-feng** university president, born in Kiangsu, 1902; M.S., Michigan; reserve member, Kuomintang Central Executive Committee, since 1935; director, Central Broadcasting Administration, 1937-43; chancellor, National Chiaotung Univ., since 1943; address, National Chiaotung Univ., Chungking. — p. 620
+
+**Wu, Shang-ying** government official, born in Kwangtung, 1892; B.S., Oregon State College, U.S.A., 1916; member and chairman, land law drafting committee, Legislative Yuan, 1929-41; vice-minister of finance, 1931-32; vice-minister of interior, 1932; secretary-general, Legislative Yuan, since 1939; address, Legislative Yuan, Chungking. — p. 620
+
+**Wu, Ta-chun** government official, born in Fukien, 1903; B.S., M.B.A., Pennsylvania ; director-general of statistics, National Government, since 1932 ; address, Directorate of Statistics, National Government, Chungking. — p. 620
+
+**Wu, Te-chen** (see Wu, Tieh-cheng). — p. 621
+
+**Wu, Tieh-cheng** General (prefers Wu, Te-chen) government official, native of Kwangtung, born in 1888; commander, Kwangtung Revolutionary Army, 1920 ; commander, gendarmes of Kwangtung, and police commissioner of Canton, 1923 ; commander, 17th Division, 1926 ; reconstruction commissioner, Kwangtung, 1928 ; member, Legislative Yuan, 1929-32; mayor of Shanghai, 1932-37 ; garrison commander of Shanghai and Woosung, 1932-37 ; governor, Kwangtung Province, 1937-38 ; minister, Kuomintang Board of Overseas Affairs, 1939 ; member, Kuomintang Central Executive Committee, since 1929 ; secretary-general, Kuomintang Central Executive Committee, since 1940 ; address, Kuomintang Central Headquarters, Chungking. — p. 621
+
+**Wu, Ting-chang** government official, banker, born in Chekiang, 1884; graduate, Japanese Commercial College, 1909; chairman, Banking Syndicate of Yen Yeh, Kincheng, Continental, and China and South Sea Banks, 1922-35; president, Ta Kung Pao, 1926-39; minister of industry, 1935-37; minister of 4th Board, National Military Council, 1937 ; governor, Kweichow Province, since 1937 ; deputy pacification commissioner of Yunnan and Kweichow, since 1939 ; address, Kweichow Provincial Government, Kweiyang, Kweichow. — p. 621
+
+**Wu, Wen-tsao** professor, government official, born in Kiangsi, 1901 ; B.A., Dartmouth College, 1925; M.A. (1926) and Ph.D. (1928), Columbia ; professor and dean, department of sociology, Yenching Univ., 1933-38 ; founder and dean, department of sociology, National Yunnan Univ., 1938-40 ; counsellor, Supreme National Defense Council, since 1941 ; address, Supreme National Defense Council, Chungking. — p. 621
+
+**Wu, Yi-fang (Miss)** college president, born in Hupeh, 1893 ; B.A.., Ginling College for Women ; M.A. and Ph.D., Michigan ; chairman, National Christian Council, since 1933 ; Chinese delegate, Institute of Pacific Relations, 1929 and 1933 ; Chinese delegate, International Congress of Women, Chicago, 1933 ; president, Ginling College for Women, since 1928 ; member, People's Political Council, since 1938 ; member, presidium, P.P.C., since 1940 ; address, Ginling College for Women, Chengtu, Szechwan. — p. 621
+
+**Wu, Yun-chu (prefers P. N. Woo)** industrialist, born in Kiangsu, 1891 ; former general manager, Tien Chu Seasonal Powder Factory ; now general manager, Tien Yuan Electrical Plant, and member, National Resources Commission ; address, Tien Yuan Electrical Plant, Chungking. — p. 621
+
+**Wu, Yun-peng** government official, born in Right Aokhan Banner, Joude League, northern Jehol, 1904 ; graduate, National Peking Univ., 1925 ; lecturer, Frontier Research Institute, General Staff, 1933 ; now resident representative of Mongolia in Chungking, and member, Legislative Yuan ; address, Legislative Yuan. — p. 621
+
+**Yang, Ai-yuan** General army commander, born in Shansi, 1890 ; graduate, Paoting Military Academy ; reserve member, Kuomintang Central Executive Committee, since 1931 ; former governor of Chahar ; now vice-commander-in-chief, 2nd War Area. — p. 621
+
+**Yang, Chau** (see Yang, Tuan-lu). — p. 621
+
+**Yang, Cheng-hsun** government official, born in Hunan, 1896 ; B.S. (1920) and M.S. (1921), M.I.T. ; director, department of traffic, Ministry of Communications, since 1938 ; address, Ministry of Communications, Chungking. — p. 621
+
+**Yang, Chieh** General military officer, diplomat, born in Yunnan, 1891 ; graduate, Japanese Staff College, 1924 ; former member, National Military Council ; president, Central Military Academy ; president, Gendarmes School ; president, Staff College ; Deputy-Chief of Staff ; chief, Military Mission to Europe ; chief, Military Mission to U. S. S. R. ; ambassador to U. S. S. R.; member, Central Executive Committee, Kuomintang, since 1931; address, 27 Tsaotzewang, Chungking. — p. 621
+
+**Yang, Cho-an (prefers Yang Tso-ngan)** government official, born in Fukien, 1898; graduate, Peking French College; member and reconstruction commissioner, Kiangsi Provincial Government, 1939-43; secretary-general, Chungking Municipal Government, since 1943; address, Chungking Municipal Government. — p. 622
+
+**Yang, Chun-mai** government official, born in Shantung, 1901; graduate, Takushima Normal College, 1924; director, civil affairs department, Ministry of Interior, since 1942; address, Ministry of Interior, Chungking. — p. 622
+
+**Yang, Chung-chien** palaeontologist, born in Shensi, 1897; graduate, National Peking Univ., 1923; Ph.D., Munich, 1927; expert, National Geological Survey of China, since 1928; author, A Complete Osteology of Lufengosaurus Hueneiyoung, a new specimen discovered by the author at Lufeng, Yunan, 1941; address, National Geological Survey of China, Peipei, Szechwan. — p. 622
+
+**Yang, Hsuan-cheng Vice-Admiral** naval officer, born in Hunan, 1889; graduate, Tokyo Naval Gunnery 'Academy and Tokyo Torpedo School; director, 2nd department, Board of Military Operations, National Military Council, 1939-44; director, Foreign Affairs Bureau, National Military Council, since 1944; address, National Military Council, Chungking. — p. 622
+
+**Yang, Hu Lieut.-General** army officer, born in Anhwei, 1898; garrison commander, Shanghai and Woosung area, 1932-37; member, Kuomintang Central Supervisory Committee, since 1931; president, Chinese Seamen's Union. — p. 622
+
+**Yang, Hu-cheng General** retired army officer, born in Shensi, 1892; former military affairs commissioner for Shensi; member, Kuomintang Central Supervisory Committee, since 1935. — p. 622
+
+**Yang, Ju-mei (prefers Young, Yu-mei)** government official, born in Hupeh; graduate, Tokyo Commercial College, Japan; director-general of budgets, since 1931; address, Directorate of Budgets, National Government, Chungking. — p. 622
+
+**Yang, Konta** (see Yang, Kung-ta) — p. 622
+
+**Yang, Kung-ta (prefers Konta Yang)** party official, born in Szechwan, 1907; graduate, Paris Univ.; professor and dean, College of Law, National Central Univ., 1930-32; member, Legislative Yuan, since 1932; chairman, Chungking Municipal Kuomintang Headquarters, 1942-44; address, Legislative Yuan, Chungking. — p. 622
+
+**Yang, Liang-kung** government official, born in Anhwei, 1896; B.A., National Peking Univ., 1920; M.A., Stanford, 1926; Ph.D., New York, 1927; member, Control Yuan, 1933-38; supervisory commissioner of Control Yuan in Anhwei-Kiangsi area, since 1938; address, Supervisory Commissioner's Office, Taiho, Kiangsi. — p. 622
+
+**Yang, Mu-shih** journalist, born in Hopei, 1908; Ph.D. (1929) and M.Th. (1933), Collegio de Propaganda Fide, Rome; managing director, Yi Shih Pao (Catholic Daily), since 1939; address, Yi Shih Pao, Chungking. — p. 622
+
+**Yang, Shen General** army officer, born in Szechwan, 1887; former commander, 20th Army, Szechwan-Shensi Border Defense Army, and field-commander, 4th Route Army; vice-commander-in-chief, 9th War Area, since 1937. — p. 622
+
+**Yang, Tso-ngan** (see Yang, Cho-an) — p. 622
+
+**Yang, Tuan-lu (prefers Chau Yang)** professor, born in Hunan, 1885; studied in Japan, 1906-11; London School of Economics, 1913-20; director, Research Institute of Social Sciences, Academia Sinica, 1928-29; professor, National Wuhan Univ., since 1930; member People's Political Council, since 1937; address, National Wuhan Univ., Loshan, Szechwan. — p. 622
+
+**Yang, Yun-chu** government official, born in Hopei, 1900; LL.B., Tokyo Imperial Univ.; professor, National Peiping' Univ., 1929-30; consul-general, Yokohama, 1936-37; first secretary, Chinese Embassy in Tokyo, 1936-37; charge d'affaires, Chinese Embassy, Tokyo, 1938; director, asiatic affairs department, Ministry of Foreign Affairs, 1938-40; director, east asiatic affairs department, same ministry, since 1940; address, Ministry of Foreign Affairs, Chungking. — p. 623
+
+**Yang, Yung-ching** university president, born in Chekiang, 1891; M.A. and LL.B., George Washington; Hon. LL.D., Southern Univ., U.S.A.; president, Soochow Univ., since 1927; director, speakers' bureau, Chinese News Service, since 1943; address, Chinese News Service, New York City. — p. 623
+
+**Yang, Yung-nien** health expert, government official, born in Hopei, 1901; B.S., Manchurian Medical College, 1921; M.D., Kexo Medical College, 1931; director, Northwest Epidemic Prevention Bureau, since 1938; northwest health commissioner, since 1942; address, Sia Si Hu, Lanchow, Kansu. — p. 623
+
+**Yao, Tsung** Lieut.-General; army officer, born in Chekiang, 1890; graduate, Staff College; commander, 1st Garrison Division, 1927; chief police bureau, Nanking, 1930; acting director, main office, National Military Council, 1937; deputy-director, main office, National Military Council, since 1939; address, National Military Council, Chungking. — p. 623
+
+**Yeh, Chi-sun** physicist, born in Shanghai, 1898; B.A., Chicago, 1920; Ph.D. Harvard, 1923; professor, National Southeast Univ., Nanking, 1924-25; professor, National Tsing Hua Univ., 1925-41; councillor, Academia Sinica, 1935-40; now secretary-general, Academia Sinica; address, Academia Sinica, Chungking. — p. 623
+
+**Yeh, Chu-tsang** government official, born in Kiangsu, 1883; minister of information, 1928-29, 1935 and 1939; governor, Kiangsu Province, 1929-30; secretary-general, Central Executive Committee of Kuomintang, 1939; now vice-president, Legislative Yuan; member, standing committee, Kuomintang Central Executive Committee; address, Legislative Yuan, Chungking. — p. 623
+
+**Yeh, George** (see Yeh, Kung-chao) — p. 623
+
+**Yeh, Kung-chao** (prefers George Yeh) government official, born in Kwangtung, 1904; B.A., Amherst College; M.A., Harvard; research fellow, Cambridge; director, London office, Ministry of Information, since 1942. — p. 623
+
+**Yeh, So-chung** publisher, born in Chekiang, 1902; B.A. Peking Univ., 1925; member and education commissioner, Chekiang Provincial Government, 1933; secretary, National Military Council, 1937-38; member, People's Political Council, since 1940; deputy director, National compilation and Translation Bureau, since 1943; address, National Compilation and Translation Bureau, Peipei, Chungking. — p. 623
+
+**Yen Chi-tsu** (prefers Ny Tsi-ze) physicist, born in Chekiang, 1900; B.S., National Southeast Univ., 1923; licencie es-sciences, Paris; 1925; docteur es-sciences, 1927; director, Research Institute of Physics, National Academy of Peiping, since 1930; address, National Academy of Peiping, Kunming. — p. 623
+
+**Yen, Chia-kan** (prefers K. K. Nyien) government official, born in Kiangsu, 1905; B.S., St. John's Univ., 1926; member and finance commissioner, Fukien Provincial Government, since 1939; address, Fukien Provincial Government, Yungan, Fukien. — p. 623
+
+**Yen, Ching-ching** health expert, government official, born in Chekiang, 1906; B.S., Yenching Univ., 1928; M.D., New York, 1932; M.P.H., Harvard, 1936; professor, College of Medicine, National Peiping Univ., director, department of health services, National Health Administration, since 1939; address, National Health Administration, Chungking. — p. 623
+
+**Yen, Fu-ching** health director, born in Shanghai, 1882; M.D., Yale; D.T.M., Liverpool; C.P.H., Harvard; dean, college of medicine, National Central Univ. in Shanghai, and superintendent, Chinese Red Cross Hospital, Shanghai, 1928-38; director, National Health Administration, 1938-41. — p. 624
+
+**Yen, Hsi-shan General** military officer, born in Shansi, 1883; graduate, Japanese Military Cadets' Academy; governor, Shansi Province, 1912-27; commander-in-chief, 3rd Group Army, 1928; garrison commander of Peiping and Tientsin, 1928; pacification commissioner of Shansi and Suiyuan, 1932-37; commander-in-chief, 2nd War Area, since 1937; governor, Shansi Province, since 1943; address, Shansi Provincial Government, Hsingchi. — p. 624
+
+**Yen, Hsun-fu Lieut.-General** army officer, born in Hupeh, 1893; graduate, Paoting Military Academy, 1914; graduate, Staff College, 1919; director, 4th department, Board of Military Operations, National Military Council, since 1943; address, 4 Liyi Road, Outside Weisi Gate, Kweiyang. — p. 624
+
+**Yen, Hui-ching (prefers W. W. Yen)** retired diplomatic official, born in Shanghai, 1877; B.A., Virginia, 1900; Litt.D., National Peking Univ., 1906; former minister to U.S.A., Germany, Sweden, and Denmark; minister of foreign affairs; premier; minister of agriculture and commerce; minister of interior; ambassador to U.S.S.R.; represented China at a number of international conferences and League of Nations meetings. — p. 624
+
+**Yen, James Y. C** (see Yen, Yang-chu) — p. 624
+
+**Yen, W. W** (see Yen, Hui-ching) — p. 624
+
+**Yen, Yang-chu (prefers James Y. C. Yen)** social worker, educator, born in Szechwan, 1893; B.A., Yale, 1918; M.A., Princeton, 1920; started mass education work in Chinese Labor Corps in France during 1st World War and later at Tinghsien, Hopei Province; president, Hopei Provincial Institute of Political and Social Reconstruction, 1934; director, Hunan Provincial School of Public Administration, 1938; now general director, National Association of Mass Education Movement; president, College of Rural Reconstruction; member, People's Political Council; chairman, National Association for Rural Reconstruction; author, The Tinghsien Movement in Rural Reconstruction, 1934; now in U.S.A.; address, National Association of Mass Education Movement, Chungking. — p. 624
+
+**Yen, Yao-chiu** industrialist, born in Chekiang 1896; graduate, National Tungchi Univ., 1919; former president, Association of Factories. Moved to Szechwan; now manager, Shanghai Machine Works; address, Shanghai Machine Works, Shapingpa, Chungking. — p. 624
+
+**Yin, Ernest R** (see Yin, Jen-hsien) — p. 624
+
+**Yin, Jen-hsien (prefers Ernest R. Yin)** government official, born in 1890; B.A., Harvard, 1917; finance commissioner, Honan Provincial Government, 1934; finance commissioner, Hunan Provincial Government, 1937-42; director, loans department, Ministry of Finance, 1940-42; director, Cotton, Yarn and Cloth Administration; Ministry of Finance, since 1943; address, Ministry of Finance. — p. 624
+
+**Yin, Tsan-hsun** geologist, born in Hopei, 1902; licencie es sciences (1928) and docteur es sciences (1931), Lyons; expert, National Geological Survey of China, since 1931; director, Kiangsi Geological Survey, 1937-38; deputy director, National Geological Survey of China, since 1940; address, National Geological Survey of China, Chungking. — p. 624
+
+**Young, Yu-mei** (see Yang Ju-mei) — p. 624
+
+**Yu, C. C** (see Yu, Nan-chiu) — p. 624
+
+**Yu, Chi-chuan** government official, born in Hunan, 1895; B.C.E., Illinois, 1920; member and concurrently reconstruction commissioner, Hunan Provincial Government, since 1933. — p. 624
+
+**Yu, Chi-shih** Lieut.-General army officer, born in Chekiang, 1904; graduate, Whampoa Military Academy, 1924; commander, 74th Army; deputy commander-in-chief, 20th Army Group; commander, Generalissimo's Guards, since 1942; address, National Military Council, Chungking. — p. 625
+
+**Yu, Ching-sung** astronomist, born in Fukien, 1897; C.E., Lehigh; M.S., Pittsburgh; Ph.D., California; fellow, Royal Astronomical Society; director, Astronomical Research Institute, Academia Sinica, since 1929; address, c/o Academia Sinica, Chungking. — p. 625
+
+**Yu, Ching-tang** government official, born in Kiangsi, 1897; M.A., Iowa; member, Kuomintang Central Executive Committee, since 1935; vice-minister of education, 1938-44; vice-minister, Kuomintang Board of Organization, since 1944; address, Board of Organization, Chungking. — p. 625
+
+**Yu, Chun-hsien** government official, born in Kwangtung, 1903; graduate, National Sun Yat-sen Univ.; reserve member, Kuomintang Central Executive Committee, since 1935; now member of standing committee, and director of overseas education, Overseas Affairs Commission; address, Overseas Affairs Commission, Chungking. — p. 625
+
+**Yu, Hsueh-chung** General army officer, born in Shantung, 1889; commander, 20th Army, 1928; garrison commander, Peiping and Tientsin area, 1930-31; governor, Hopei Province, 1932-35; commander, 51st Army, 1932-37; commander, Szechwan-Shensi-Kansu border area, 1935-36; governor, Kansu Province, 1935-36; military affairs commissioner of Kiangsu, 1937; now commander-in-chief, Kiangsu-Shantung War Area, and vice-president, Military Advisory Council, since 1944; address, Military Advisory Council, Chungking. — p. 625
+
+**Yu, Hung-chun (prefers O. K. Yui)** government official, born in Kwangtung, 1896; secretary-general, 1930-37; mayor, 1937, Greater Shanghai; deputy director, Central Trust, 1937-41; vice-minister of finance since 1941; address, Ministry of Finance, Chungking. — p. 625
+
+**Yu, Ming-yu** metallurgical engineer, born in Chekiang, 1896; studied metallurgical engineering at Univ. of California; founder and general manager, Ta Hsin Iron and Steel Works, Shanghai, since 1933; chief engineer and general manager, Yu Hsin Iron and Steel Works, since 1937; address, Yu Hsin Iron and Steel Works, Chungking. — p. 625
+
+**Yu, Fei-peng** General army officer, born in Chekiang, 1889; graduate, Quartermasters' School; former minister of communications; minister, Transport and Supplies Board, National Military Council, since 1938; member, Kuomintang Central Executive Committee, since 1935; address, Transport and Supplies Board, Chungking. — p. 625
+
+**Yu, Han-mou** General army officer, born at Kaoyao, Kwangtung, in 1895; commander, 1st Kwangtung Army 1935; military affairs commissioner of Kwangtung, 1936; now commander-in-chief, 7th War Area. — p. 625
+
+**Yu, Hsia-ching (prefers Yu Ya-ching)** banker, merchant, born in Chekiang, 1865; managing director, San Peh Steam Navigation Company. — p. 625
+
+**Yu, Nan-chiu (prefers C. C. Yu)** educator, born in Hunan 1897; B.A., Illinois, 1921; president, Hunan Provincial Commercial School, since 1941; address, Hunan Provincial Commercial School, Nanyo, Hunan. — p. 625
+
+**Yu, Pin, Bishop (prefers Paul Yupin)** Catholic leader, born in Heilungkiang, 1901; Ph.D., St. Thomas' Academy, Rome, 1926; ordained priest in St. John's Basilica, 1928; D.D., Univ. of Propaganda, 1929; sent to Abyssinia in 1929 as member of Pontifical Mission; received D.Sc. from Univ. of Italy, 1933; inspector of Catholic schools in China, 1933-36; appointed bishop of Sozusena, Palestine, and vicar apostolic of Nanking, 1936; member, People's Political Council, since 1938; appointed vicar apostolic of Loshan, Szechwan, 1944. — p. 625
+
+**Yu, Shang-yuan (prefers Yui, Shang-yuen)** college president, playwright, born in Hupeh, 1897; B.A., National Peking Univ., 1921; studied dramatic art in Carnegie Institute of Technology and in Columbia, 1923-25 ; president, National Academy of Dramatic Arts, since 1935 ; address, National Academy of Dramatic Arts, Kiangan, Szechwan. — p. 626
+
+**Yu, Sung-chun (prefers C. Y. Yue)** physician, government official, born in Chekiang, 1898 ; graduate, National Tung Chi Univ.; M.D., Hamburg, 1936; professor, Kiangsu Medical College ; president, Kiangsu High Midwifery School ; director, department of medical administration, National Health Administration, since 1940; address, National Health Administration, Chungking. — p. 626
+
+**Yu, Ta-fu (prefers Yue Daff)** novelist, born in Chekiang, 1897; graduate, Tokyo Imperial Univ.; writer of many widely read short stories and novels. — p. 626
+
+**Yu, Ta-wei** army officer, born in Chekiang, 1899 ; Ph.D., Harvard ; director, Ordnance Administration, Ministry of War, since 1933 ; address, Ordnance Administration, Ministry of War, Chungking. — p. 626
+
+**Yu, Tsun-chi (prefers Tsunechi Yu)** consular official, born in Hopei, 1899 ; B.S. and Ph.B., Denison ; M.S. and D.Sc., New York; B.A., M.A. and Ph.D., Columbia ; consul-general, New York, since 1935 ; address, Chinese Consulate-General, New York. — p. 626
+
+**Yu, Tsunechi** (see Yu, Tsun-chi) — p. 626
+
+**Yu, Ya-ching** (see Yu, Hsia-ching) — p. 626
+
+**Yu, Yu-jen** government official, born in Shensi 1878; edited National Herald, Min Hu Pao, Min Yu Pao, and Min Li Pao, successively, in Shanghai to propagate revolutionary sentiments; minister of communications, 1911; now president, Control Yuan; member, standing committee, Kuomintang Central Executive Committee; address, Control Yuan, Chungking. — p. 626
+
+**Yuan, Thomas L** (see Yuan, Tun-li) — p. 626
+
+**Yuan, Tun-li (prefers Thomas L. Yuan)** physical education expert, born in Hopei, 1895; B.S., Chicago, 1925; C.P.H., Johns Hopkins, 1926; M.A., Columbia, 1927; professor and head, physical education department, National Peiping Normal Univ., 1930-35; dean of faculty and professor, National Peiping Normal Univ., 1935-39; dean of studies and professor, National Northwest Normal College, since 1939; address, National Northwest Normal College, Chengku, Shensi. — p. 626
+
+**Yuan, Tung-li** library expert, born in Hopei, 1895; B.L.S., New York State Library School ; director, National Library of Peiping, since 1927; address, National Library of Peiping, Kunming. — p. 626
+
+**Yue, C. Y** (see Yu, Sung-yun) — p. 626
+
+**Yue, Daff** (see Yu, Ta-fu) — p. 626
+
+**Yui, O. K** (see Yu, Hung-chun) — p. 626
+
+**Yui, Shang-yuan** (see Yu, Shang-yuan) — p. 626
+
+**Yun, Chen** electrical engineer, government official, born in Kiangsu, 1900 ; graduate, National Chiaotung Univ., 1921 ; M.M.E., Wisconsin, 1922 ; director, department of electrical enterprises, National Resources Commission, 1938-41 ; general manager, Central Electrical Manufacturing Works, since 1937 ; address, P.O. Box 1000, Kunming. — p. 626
+
+**Yung, W. W** (see Yung, Chi-yung) — p. 626
+
+**Yupin, Paul** (see Yu, Pin) — p. 626
+
+**Zen, Hung-chun** (see HunJg-en chun) — p. 626

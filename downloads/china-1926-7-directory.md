@@ -1,0 +1,4470 @@
+# The China Year Book 1926-7 — Who's Who & Directories
+
+1,721 entries, LLM-transcribed. These entries were transcribed by the vision model of Opus 5.5. Before using any of these details, you must verify specific details with the original source which is linked to whenever possible.
+
+
+## Albumen Factories
+
+### Tientsin
+
+**Yung Chi** (Chinese). — p. 147
+
+**Sino-American Industrial Co**  — p. 147
+
+**China Mongolia Export Co** (American). — p. 147
+
+**Tah Hsing**  — p. 147
+
+### Woo Ching
+
+**Hwa Sheng**  — p. 147
+
+### Chengchow
+
+**China Dessicated Egg Co** (Liu Bros Egg Drying Co.) — p. 147
+
+### Hankow
+
+**China Dessicated Egg Co** (Liu Bros Egg Drying Co.) — p. 147
+
+**Ching Kang Egg Factory**  — p. 147
+
+**Yuen Feng Egg Preparation Factory**  — p. 147
+
+**Kung Yi Egg Preparation Factory**  — p. 147
+
+**Yu Shun Egg Preparation Factory**  — p. 147
+
+### Wuchang
+
+**Ho Chang Egg Preparation Factory**  — p. 147
+
+### Yang Chia Ho
+
+**Ching Kang Egg Preparation Factory**  — p. 147
+
+### Kaoya
+
+**Yung Ta & Co**  — p. 147
+
+### Such'ien
+
+**2 factories**  — p. 147
+
+### Nanking
+
+**International Export Co** (British). — p. 147
+
+### Shanghai
+
+**The Amos Bird Company** (American). — p. 147
+
+**Henningsen Produce Co** (American). — p. 147
+
+**Superior Egg Products Corporation**  — p. 147
+
+**Tung Hsin Liang Factory**  — p. 147
+
+**Hung Yue Chong**  — p. 147
+
+**Hsin Chong**  — p. 147
+
+**Cheng Yue Egg Co**  — p. 147
+
+**Murray Packing Co** (American). — p. 147
+
+### Tsingkiangpu
+
+**3 factories**  — p. 147
+
+### Hsinghua
+
+**Heng Ho & Co**  — p. 147
+
+### Yaowan
+
+**2 factories**  — p. 147
+
+### Tai Ku
+
+**Li Chuan**  — p. 147
+
+### Tsechow
+
+**Yung Yuan**  — p. 147
+
+### Changla
+
+**Sakaguchi Yoko** (Japanese). — p. 147
+
+### Changtien
+
+**Taisei Koshi** (Japanese). — p. 147
+
+
+## Arsenals—asbestos—canneries & Biscuit Factories
+
+### Tsinan
+
+**Chung Hua Egg Drying Factory** (Japanese). Not working at present. — p. 148
+
+**Tung Ya Egg Drying Factory** (Japanese). Not working at present. — p. 148
+
+### Tsingtao
+
+**Nisshi Keitan Koshi** (Japanese). (Branch at Changtien). — p. 148
+
+**Taisei Koshi** (Japanese). — p. 148
+
+### Kiangsu — Lunghua
+
+**Lunghua Gunpowder Factory**  — p. 148
+
+### Manchuria — Antung
+
+**Manchuria Powder Co** (Japanese).( (Mining Explosives). — p. 148
+
+### Chihli — Tientsin
+
+**Tientsin Asbestos Mfg. Co** (Asbestos). — p. 148
+
+**Wu Hsai Factory**  — p. 148
+
+**Ching Hsi Factory**  — p. 148
+
+**Nai Wai Chemical Fertiliser, Co**  — p. 148
+
+### Chekiang — Ningpo
+
+**Jun Sung Bamboo Shoots Factory** (Capital $5,000). — p. 148
+
+### Chekiang — Tinghai, Chusan Islands
+
+**Chekiang Provincial First Model Fishery Product Factory** (Chinese) Tinned fish and buttons from shells. Latter only so far. — p. 148
+
+### Chihli — Changli
+
+**Sin Chung Canned Goods Mfg. Co., Ltd** (Chinese). — p. 148
+
+### Chihli — Peking
+
+**Tien Yih Canned Goods Mfg. Co** (Chinese). — p. 148
+
+### Fukien — Amoy
+
+**Amoy Tinning Co., Ld. (Tao Hua)** Annual output 6,000 pcls. fruit, soy and beancurd. — p. 148
+
+**China Canning Co., Ld. (Ta Tung)** Annual output 4,750 piculs fruits, soy, and salt pickles. — p. 148
+
+### Fukien — Foochow
+
+**** Several small canneries, which preserve fruits, bamboo shoots. &c. — p. 148
+
+### Fukien — Minhsien
+
+**Mai Lo Canned Goods Mfg. Co., Ltd**  — p. 148
+
+
+## Canneries & Biscuit Factories
+
+### Hupeh. Pingyang.
+
+**Kou Lee Industrial Co., Ltd**  — p. 149
+
+### Kiangsi. Kiukiang.
+
+**Duff's Dairy Farm (British)** Butter, Hams, Fruits, Meats and Game. — p. 149
+
+### Kiangsu. Changchowhsin.
+
+**Yih Ho Canned Goods Mfg. Co., Ld** (Chinese). — p. 149
+
+### Kiangsu. Paoshan.
+
+**Chung Hwa Shieh Chi Biscuit Mfg. Co., Ld** (Chinese). — p. 149
+
+### Kiangsu. Shanghai.
+
+**Tai Foong Canned Goods Co., Ld** (Chinese) Game, Meats Fruits, &c. — p. 149
+
+**M. Y. San & Co., Ltd** (Biscuits & Confectionery). — p. 149
+
+**Mai Loo Canned Goods Co** (Chinese). — p. 149
+
+**Lee Hwa & Co**  — p. 149
+
+**Tien Loh**  — p. 149
+
+### Kwangtung. Hoihow.
+
+**A Chinese Fruit Cannery**  — p. 149
+
+### Kwangtung. Canton.
+
+**Taipingtung** (Chinese). — p. 149
+
+**Sun Company**  — p. 149
+
+**Sincere Company**  — p. 149
+
+**Kam Chook La Chen**  — p. 149
+
+**Wan Lee** (Soup). — p. 149
+
+### Kwangtung. Swatow.
+
+**Mee Hiang & Co** (Chinese) Fruits, Vegetables and Meats. — p. 149
+
+**Sek Bee Company** (Chinese) Fruits, Vegetables and Meats. — p. 149
+
+**Cheng Kiu** (Chinese) Fruits, Vegetables and Meats. — p. 149
+
+**Tong Hwa** Est. 1922. Capital $100,000 in 200 shares at $500 each. Tins machine-made (Worthinton, London). Factory run on modern lines and kept in sanitary condition. Plant reported to have cost over $40,000 and to turn out 25,000 tins per day. — p. 149
+
+**Hua Hua** Est. 1923. — p. 149
+
+**Ngou Hoa** Est. 1923. — p. 149
+
+**Tong Siang** Est. 1923. — p. 149
+
+### Shantung. Chefoo.
+
+**Tung Ya** (Chinese) Fish, Mutton, Beef, Chicken and Fruits. — p. 149
+
+### Shantung. Tsinanfu.
+
+**T'ai K'ang Canned Goods Mfg. Co** (Chinese) and several smaller Factories. — p. 149
+
+### Szechwan. Chungking.
+
+**Chien Hsin Chan** (Chinese) Fruits, Meats, &.. — p. 149
+
+### Manchuria. Newchwang.
+
+**Manchu Kung Ssu** (Japanese) at Ta Shih Chiao. Beef and chicken. — p. 149
+
+### Manchuria. Mukden.
+
+**A Canning Company** to can more especially food for troops is in process of formation. — p. 149
+
+
+## Cement & Brick Works
+
+### Hongkong
+
+**Cheung Sing Ta** Fruits and Candy. — p. 150
+
+**Ma Chun**  — p. 150
+
+**Chy Lung** Ginger. — p. 150
+
+**M. Y. San** Biscuits and Ginger. — p. 150
+
+### Wuhu
+
+**Wuhu Brick Works** (Chinese). — p. 150
+
+### Ningpo
+
+**Yung T'ai Cement Tube & Tile Factory** (Capital $5,000-8,000). — p. 150
+
+### Peking
+
+**Briqueterie et Tuilerie** (Chinese). — p. 150
+
+**Telge & Schroeter Brick Factory, Machiapu** (German). — p. 150
+
+**Ta Chen Brick Works (Mentowkow)**  — p. 150
+
+**Hui Kung Brick Factory**  — p. 150
+
+### Tongshan
+
+**Chee Hsin Cement Co**  — p. 150
+
+**Kailan Mining Administration** (Sino-British). — p. 150
+
+### Tientsin
+
+**Belgian Brick Works**  — p. 150
+
+**Manufacture Ceramique de Tientsin** (French). — p. 150
+
+**Chee Hain Lime, Tile & Brick Plant**  — p. 150
+
+### Yangtsun
+
+**Yangtsun Brick Works** (British). — p. 150
+
+### Amoy
+
+**Pasedag & Co** (German) Kulangsu (Cement Roof Tiles). — p. 150
+
+**The Java Co** (Chinese) Kulang (Cement Floor Tiles). — p. 150
+
+**Amoy Bricks & Tiles Co., Ld** (Chinese). (Roof or Floor Tiles). — p. 150
+
+### Changsha
+
+**Brick Industry is increasing and modern methods are being introduced** Some of the works use foreign machinery. — p. 150
+
+### Hankow
+
+**Hupeh Government Cement Works, Shih Hui Yao**  — p. 150
+
+**Hankow Brick & Tile Works** (German). — p. 150
+
+**Fu Cheng Brick & Tile Kiln**  — p. 150
+
+**Fu Kee Machine Made Brick Factory**  — p. 150
+
+**Fu Yuen Brick Factory**  — p. 150
+
+**Fu Yue Brick and Tile Co**  — p. 150
+
+### Hanyang
+
+**Hupeh Government Brick Works**  — p. 150
+
+**Yu Kee Brick & Tile Kiln**  — p. 150
+
+**Tung Ti Brick & Tile Kiln**  — p. 150
+
+### Wuchang
+
+**Hupeh Red Brick Kiln**  — p. 150
+
+### Ichang
+
+**Ichang Brick and Tile Works** (Sino-German). — p. 150
+
+### Tayeh
+
+**Hua Chi Hupeh Cement Works**  — p. 151
+
+### Shanghai
+
+**Manufacture Ceramique de Shanghai** (French). — p. 151
+
+**Shanghai Brick & Tile Co., Ltd** (Chinese). — p. 151
+
+**Shanghai Portland Cement Works, Ltd** (Capital $2,000,000. Est. 1920. Daily Output 1,000 Barrels). — p. 151
+
+**Tong Dong Kee Brick & Tile Works** (Chinese). — p. 151
+
+**Chinese Shanghai Cement Mfg. Co., Ltd**  — p. 151
+
+**Credit Foncier d'Extreme Orient Brickworks**  — p. 151
+
+**Hsing Hua Brick Factory**  — p. 151
+
+**Kuang Hua Brick Factory**  — p. 151
+
+**Hsin Chi Concrete Pipe Factory**  — p. 151
+
+**Dong Ching Kee Brick & Tile Works**  — p. 151
+
+**Lun Hsing Brick Mfg. Co**  — p. 151
+
+### Lungtan
+
+**The China Portland Cement Co** (Offices in Shanghai.) — p. 151
+
+### Soochow
+
+**Soochow Brick & Tile Co**  — p. 151
+
+### Wusih
+
+**Ta Hu Cement Co** (Capital $2,500,000. Established 1921. Daily capacity 2,000 Barrels). — p. 151
+
+### Canton
+
+**Canton Government Brick & Cement Works**  — p. 151
+
+**Yu Yick Brick Factory**  — p. 151
+
+### Tsinan
+
+**Yi Ho Tung, P'u Li, Hsi Fêng, Yi Shun Kung, Hsi Hsin Yü Chi** (Specializes in Cement bricks, water-mains, drainage tiles, &c.). — p. 151
+
+**Chu Ching Cement Co**  — p. 151
+
+### Tsingtao
+
+**Santo Industrial Co** (Japanese). — p. 151
+
+**Tzen Shin Ho** (Chinese). — p. 151
+
+**Hua Shin** (Chinese). — p. 151
+
+**Hofa Chun Kee** (Chinese). — p. 151
+
+**Shareisho Brick Factory** (Japanese). — p. 151
+
+**Fu Ho Yen** (Chinese). — p. 151
+
+**La Ma Chin** (Chinese). — p. 151
+
+**Hsian Li** (Chinese). — p. 151
+
+**Yuan Tai Hsian** (Chinese). — p. 151
+
+**Hotao Tzu Brick Factory** (Chinese). — p. 151
+
+**Santo Yogyo Co** (Japanese). — p. 151
+
+**Kozan Brick Factory** (Japanese). — p. 151
+
+**Seito Koshi** (Japanese). — p. 151
+
+**Aoyama Yoko** (Japanese). — p. 151
+
+**Ota Yoko** (Japanese). — p. 151
+
+**Muramoto Renga Factory** (Japanese). — p. 151
+
+### Chengtu
+
+**Only small native brick works**  — p. 151
+
+### Chungking
+
+**Hsin Shu Chuan Wa Kung Seu**  — p. 151
+
+
+## Ch. VIII CEMENT & BRICK WORKS—CHEMICAL & DYE WORKS
+
+### Yunnan: Yunnanfu
+
+**Li Hua Co**  — p. 152
+
+**Chuang Wa Kung Ssu brick works**  — p. 152
+
+### Manchuria: Dairen
+
+**Fukusho Kenzan Brick Works** (Japanese). — p. 152
+
+**Dairen Mortar Kabushiki Kwaisha** (Japanese). — p. 152
+
+**Dairen Kenzai Kabushiki Kwaisha** (Japanese) — p. 152
+
+**Tairiku Yogyo Kabushiki Kwaisha** (Japanese). — p. 152
+
+**Taisho Concrete Kabushiki Kwaisha** (Japanese). — p. 152
+
+### Manchuria: Fushun
+
+**Fushun Brick Works** (Japanese). — p. 152
+
+**Ku Cheng Tzu Tile Works** (Japanese). — p. 152
+
+### Manchuria: Harbin
+
+**Chinese Eastern Railway Co.'s. Brick Works**  — p. 152
+
+### Manchuria: Kaiyuan
+
+**Saida Brick Works** (Japanese). — p. 152
+
+### Manchuria: Kungchuling
+
+**Kungchuling Brick Works** (Japanese). — p. 152
+
+**Shomo & Co. Brick Works** (Japanese). — p. 152
+
+### Manchuria: Liaoyang
+
+**Hayashi Yoko Brick Works** (Japanese). — p. 152
+
+### Manchuria: Penhsihu
+
+**Itoh Brick Works** (Japanese). — p. 152
+
+### Manchuria: Newchwang
+
+**There is a Japanese Brick Works at Sanchiatzu, four miles distant**  — p. 152
+
+### Manchuria: Ssupingkai
+
+**Ueki Brick Works** (Japanese). — p. 152
+
+### Hongkong
+
+**Green Island Cement Co., Ltd** (British). — p. 152
+
+### Chemical and Dye Works: Chekiang: Hangchow
+
+**Indigo Co** (Chinese). — p. 152
+
+**Liu Chi, dyes & indigo works**  — p. 152
+
+### Chemical and Dye Works: Chihli: Tientsin
+
+**Societe des Usines de Produits Chemiques**  — p. 152
+
+### Chemical and Dye Works: Fukien: Foochow
+
+**Several small dye shops**  — p. 152
+
+### Chemical and Dye Works: Kiangsi: Kiukiang
+
+**Tsen Ta** (Chinese) — p. 152
+
+**Pao Hua** (Chinese). — p. 152
+
+**Kwong Chang** (Chinese). — p. 152
+
+### Chemical and Dye Works: Kiangsu: Shanghai
+
+**National Aniline & Chemical Co., Ltd**  — p. 152
+
+**H. A. Manufacturing Co., Ltd** (Est. 1915. Capital: Gold $215,000) — p. 152
+
+**Kiangsu Chemical Works** (Major Bros., Ltd. Proprietors; A. R. Burkill & Sons, Secretaries) (British) Sulphuric Acid Factory. — p. 152
+
+**China Chemical Works** (Chinese) — p. 152
+
+**International Dispensary Co., Ltd** (Chinese) Manager, Yung Chung-chin; Spindles Operating, 39,752; Looms Operating, 1,100; Generating Power, Electricity; Number of Labourers, 4,000; Amount of Cotton consumed, 84,000 piculs; Amount of Yarn produced, 10,080,000 lb.; Length of Cloth produced, Not known; Trade Marks, Yarn, Man and Bell. — p. 152
+
+
+## Cotton Mills
+
+**Shen Hsin No. 2** Mill Address, Ichang Road, Shanghai; Wholesale Depart. Address, 58, Kiangsi Road, Shanghai; Work started, 1907; Capital, $1,000,000; General Manager, Yung Chung-chin; Spindles Operating, 34,934; Generating Power, Electricity and Steam; Number of Labourers, 2,000; Amount of Cotton consumed, 73,500 piculs; Amount of Yarn produced, 8,820,000 pounds; Trade Marks, Yarn, Flying Horse, Boy Scout and Man and Bell. — p. 154
+
+**Shen Hsin No. 5 (Formerly Teh Dah)** Mill. Address, Hua Teh Road, Shanghai; Wholesale Depart. Address, 58, Kiangsi Road, Shanghai; Work started, 1914 (Sold to Shen Hsin in April, 1925); General Manager, Yung Chung-chin; Spindles Operating, 26,508; Generating Power, Electricity 1,010 K.W.; Number of Labourers, 1,441; Amount of Cotton consumed, 80,000 piculs; Amount of Yarn produced, 10,667,000 pounds; Trade Marks, Yarn, Man and Bell. — p. 154
+
+**Hong Yue** Mill Address, 55, Markham Road, Shanghai; Wholesale Depart. Address, 60, Kiangsi Road, Shanghai; Work started, 1916; Capital, Tls. 1,800,000; Reserve, Tls. 160,000; Managing Director, Koh Hung-hui; Spindles Operating, 38,400; Looms Operating, 5,500; 240 (Not yet operating); Generating Power, Electricity 1,600 K.W.; Number of Labourers, 3,400; Amount of Cotton consumed, 80,580 piculs, Amount of Yarn produced, 9,954,000 pounds: Trade Marks, Yarn, Pao Ting and Hung Yu, Cloth, Jen Ting, Pao Ting, Shwan Ting, San Ting, Sze Ting, Wu Ting, Hung Yu and Tien Tse. — p. 154
+
+**Poh Yih** Mill Address, 37, West Soochow Road, Shanghai; Wholesale Depart. Address Min Yu Li, Nanking Road, Shanghai; Work started, 1918; Capital, Tls. 1,600,000; Reserve, Tls. 450,000; General Manager, Hsu Ching-jen; Spindles Operating, 26,520, 1,600 (not yet operating); Generating Power, Electricity 800 K.W.; Number of Labourers, 1,400; Amount of Cotton consumed, 70,000 piculs; Amount of Yarn produced, 7,980,000 pounds; Trade Marks, Yarn, Atlas, Double Atlas and Black Dragon. — p. 154
+
+**Poh Yih No. 2** Mill Address, 8, Robinson Road, Shanghai; Wholesale Depart. Address, Min Yu Li, Nanking Road, Shanghai; Work started, 1924; Capital, Tls. 1,000,000; General Manager, Hsu Ching-jen; Spindles Operating, 24,000; Looms 500 (Not yet operating) Generating Power, Electricity 850 K.W.; Number of Labourers, 1,200; Amount of Cotton consumed, 60,000 piculs; Amount of Yarn produced, 7,140,000 pounds; Trade Marks, Yarn, Atlas, Double Atlas and Cho Tseh. — p. 154
+
+**Hou Sun** Mill Address, Western Lake Road, Yangtzepoo, Shanghai; Wholesale Depart. Address, San Ho Li, Kiangsi Road, Shanghai; Work started, 1918; Capital, Tls. 2,000,000; Reserve, Tls. 80,000; Managing Director, Hsueh Pao-jen; Spindles Operating, 57,744, 4,032 (Not yet operating); Looms Operating, 620; Generating Power, Electricity 2,787 K.W.; Number of Labourers, 2,743; Amount of Cotton consumed, 99,015 piculs; Amount of Yarn produced, 10,150,000 pounds; Length of Cloth produced, 5,949,000 yards; Trade Marks, Yarn, Shwang Hsi, Shwang Ma and Kwai Hsi; Cloth, San Fu, San To, Shwang Hsi, Chin Pao, Yun Lung, Flying Horse, Man and Gun, Shen Ting, Lion, Squirrel, Cloud and Lion, Tuen Feng, Hwai Hsi, Wu San, Five Old Men and Tuen Ho. — p. 154
+
+**Wei Tung** Mill Address, Ping Liang Road, Yangtzepoo, Shanghai; Wholesale Depart. Address, Avenue Edw. VII, Shanghai; Work started, 1921; Capital, $1,200,000; Managing Director, Chen Yu-ting; General Manager, Chen Yu-ting; Spindles Operating, 23,808; Looms Operating, 200; Generating Power, Electricity 600 K.W.; Number of Labourers, 1,600; Amount of Cotton consumed, 54,000 piculs; Amount of Yarn produced, 7,560,000 pounds; Trade Marks, Yarn, Peacock. — p. 155
+
+**Tung Chang** Mill Address, Chi Chang Chieh, Nantao, Shanghai; Wholesale Depart. Address, Rue Petit, Shanghai; Work started, 1879; Capital, Tls. 335,000; General Manager, Shen Min-sien; Spindles Operating, 11,592; Number of Labourers, 760; Amount of Cotton consumed, 12,946 piculs; Amount of Yarn produced, 1,514,000 lb.; Trade Marks, Yarn, Tramway and the Great Wall. — p. 155
+
+**San Sing** (Registered with British Consulate at Shanghai) Mill Address, 87, Yangtzepoo, Shanghai; Wholesale Depart. Address, 6, The Bund, Shanghai; Work started, 1922; Capital, Tls. 4,500,000; Managing Director, Shen Chai-chen; Spindles Operating, 69,880; Looms Operating, 1,000; Generating Power, Steam 1,400 H. P. and Electricity 1,270 K.W.; Number of Labourers, 4,887; Amount of Cotton consumed, 146,000 piculs; Amount of Yarn produced, 13,060,000 lb.; Trade Marks, Yarn, Double Golden Horse, Cho Mei, King Chi, Teh Li Tu, Tuen Lung and Tsai Hwa. Cloth, Tien Tse, Five Horses, Ho Ho, Four Horses, Monkey and Horse, Three Horses, The Great Wall, Double Horses, Horse and Dog, Man on Grass, Stork and Horse, Bow and Deer, Man and Pagoda, Monk and Pagoda, and Horse and Pagoda. — p. 155
+
+**Tung Yih** Mill Address, 10, Mokanshan Road, Shanghai; Wholesale Depart. Address, Hung Jen Li, Nanking Road, Shanghai; Work started, 1920; Capital, Tls. 1,500,-000; Managing Director, Hu Yao-ting; Spindles Operating, 52,552; Generating Power, Electricity 2,000 K.W.; Number of Labourers, 3,000; Amount of Cotton consumed, 110,000 piculs; Amount of Yarn produced, 11,450,000 lb.; Trade Marks, Yarn, King Chi, Tsai Hwi Ti, Cat and Butterfly, Liu Hai and Tsai Shen. — p. 155
+
+**Heng Dah** Mill Address, Yangssuchiao, Pootung, Shanghai; Work started, 1921; Capital, $1,000,000; Managing Director, Hsu Chiu-fang; Spindles Operating, 15,552; Generating Power, Electricity 700 K.W.; Number of Labourers, 970, Amount of Cotton consumed, 39,000 piculs; Trade Marks, Yarn, The Aeroplane. — p. 155
+
+**Hua Feng (F)** Mill Address, Wen Tsao Pin, Woosung, Shanghai; Wholesale Depart. Address, 55, Szechwan Road, Shanghai; Work started, 1921; Capital, Tls. 2,000,-000; Managing Director, C. T. Wang; Spindles Operating, 25,600; Generating Power, Electricity 1,000 K.W.; Number of Labourers, 1,146; Amount of Cotton consumed, 21,500 piculs; Amount of Yarn produced, 2,486,000 pounds; Trade Marks, Yarn, Fort and Fairies. — p. 155
+
+**Wing On** Mill Address, Yin Hsiang Kong, Yangtzepoo, Shanghai; Wholesale Depart. Address, Nanking Road, Shanghai; Work started, 1924; Capital, $6,000,000; Managing Director, Kou Lo; Spindles Operating, 39,000; Looms Operating, 1,000 (Including 300 in course of installation); Generating Power, Electricity 1,600 K.W.; Number of Labourers, 2,200; Amount of Cotton consumed, 87,500 piculs; Amount of Yarn produced, 10,836,000 pounds; Trade Marks, Yarn, King Chien, and Kia Ho; Cloth, King Chen and King Chien. — p. 155
+
+**17. Wing On No. 2** (Formerly Great China) Mill Address, Wen Tsao Pin, Woosung, Shanghai; Wholesale Depart. Address, Nanking Road, Shanghai; Work started, 1921 (Sold to Wing On in February 19, 1925); Managing Director, Kou Lo; General Manager, Kou Shun; Spindles Operating, 45,000; Generating Power, Electricity 1,200 K.W.; Number of Labourers, 2,633; Amount of Cotton consumed, 112,500 piculs; Amount of Yarn produced, 13,500,000 pounds; Trade Marks, Yarn, King Chen, Kia Ho and Ta Chung Hwa. — p. 156
+
+**18. Yung Yue** Mill Address, Siao Sha Tu, Shanghai; Wholesale Depart. Address 193, Sinza Road, Shanghai; Work started, 1921; Capital, Tls. 400,000; General Manager, Pan Shu-tang; Spindles Operating, 12,000; Generating Power, Steam 500 H.P.; Number of Labourers 630; Amount of Cotton consumed, 25,850 piculs; Amount of Yarn produced, 3,670,000 pounds; Trade Marks, Yarn, Three Goats and Three Friends. — p. 156
+
+**19. Dah Foong Ching Chi** Mill Address, Dai Tse Wuan, Soochow Creek, Shanghai; Wholesale Depart.. Address, S. 85, Ningpo Road, Shanghai; Work started, 1923; Capital, $1,500,000; Reserve, Tls. 100,000; Managing Director, Hsu Ching-yun; General Manager, Hsu Ching-yun; Spindles Operating, 20,736: Looms Operating, 200; Generating Power, Electricity 1,345 K.W.; Number of Labourers, 1,740; Amount of Cotton consumed, 78,890 piculs; Amount of Yarn produced, 9,660,000 pounds; Length of Cloth produced, 4,600,000 yards, Trade Marks, Yarn, Locomotives, Sailing Boat, Balloon, Tai Shan, Man and Globe, Min and Crane, Chun Feng Teh Yi, and Yun Kwei; Cloth, Parrot, Man and Globe and Ta Fa. — p. 156
+
+**20. Cheng Tah** Mill Address, Tsao Kia Tu, Shanghai; Wholesale Depart. Address, Chang Hsin Li, Tientsin Road, Shanghai; Work started, 1921; Capital, Tls. 800,000: Reserve, Tls 4,000; Managing Director, Yu Pao-san; Spindles Operating, 24,420, 2,800 (Not yet operating); Generating Power, Electricity 867 K.W.; Number of Labourers, 1,110; Amount of Cotton consumed, 46,560 piculs; Amount of Yarn produced, 5,538,000 pounds; Trade Marks, Yarn, Hung Fu, Elephant & Boy, and Shwang Chuan. — p. 156
+
+**21. Hong Chang** Mill Address, 53, Markham Road, Shanghai; Wholesale Depart. Address, 60, Kiangsi Road, Shanghai; Work started, 1921; Capital, Tls. 1,500,000; Managing Director, Kou Hung-hwei; General Manager, Cheng Pei-chi; Spindles Operating, 20,736; Looms Operating, 416; Generating Power, Electricity 850 K.W.; Number of Labourers, 1,968; Amount of Cotton consumed, 39,784 piculs; Amount of Yarn produced, 4,606,000 pounds; Trade Marks, Yarn, Pao Yih, Fu Shiu and Hung Chang; Cloth, Hung Chang, Three Goats, Running Horse, Double Phoenixes, Pao Yih, Hoise and Ball, Five Bats, Wan Hsiang, Hen and Ball, and Lion and Ball. — p. 156
+
+**22. Tsung Hsin** (Registered with the British Consulate at Shanghai) Mill Address, Tan Kia Tu Pin Pei, Shanghai; Wholesale Depart. Address, 8, Rue de Consulat, Shanghai; Work started, 1922; Capital, Tls. 1,500,000; Reserve, Tls. 10,000; Managing Director, Shao Sheng-tao; Spindles Operating, 34,000; Generating Power, Steam 1,000 H. P.; Number of Labourers, 2,300; Amount of Cotton consumed, 120,000 piculs; Amount of Yarn produced, 14,100,000 pounds; Trade Marks, Yarn, Sze Ki Ta Fa, Mei Jen Chuen and Yi Pen Wan Li. — p. 156
+
+### 19 Mills in Kiangsu
+
+**Dah Sung No. 1** Mill Address, Tangza, Nantungchow, Kiangsu; Wholesale Depart. Address, 22, Kiukiang Road, Shanghai; Work started, 1899; Capital, Tls. 2,500,000; Reserve, Tls. 43,750; General Manager, Chang Se-an; Spindles Operating, 77,380; Looms Operating, 720; Generating Power, Steam 2,200 H. P.; Number of Labourers, 5,000; Amount of Cotton consumed, 165,000 piculs; Amount of Yarn produced, 18,900,000 pounds; Length of Cloth produced, 6,000,000 yards; Trade Marks, Yarn, Kwia Hsin, Ho Ho, and Cotton; Cloth, Liu Hai, Ho Ho, Shiu Hsin, Kwia Hsin and Pomegranate. — p. 157
+
+**Dah Sung Branch** (Yung Foong) Mill Address, Kiang Kia Chiao, Nantungchow, Kiangsu; Wholesale Depart. Address, Ki Ching Li, Kiangsi Road, Shanghai; Work started, 1924 (Rented to Yung Foong for operation); Managing Director, Wang Pei-tang; Spindles Operating, 15,000; Generating Power, Electricity 750 K.W.; Number of Labourers, 1,500; Amount of Cotton consumed, 53,900 piculs; Amount of Yarn produced, 6,468,000 pounds; Trade Marks, Yarn, King Hsin Kweu and Lin Feng. — p. 157
+
+**Dah Sung No. 2** Mill Address, Chiu Lung Chen, Tsungming, Kiangsu; Wholesale Depart. Address, 22, Kiukiang Road, Shanghai; Work started, 1907; Capital, Tls. 1,200,000; Reserve, Tls. 180,000; Managing Director, Chang Se-an; Spindles Operating, 29,000, 6,000 (Not yet operating); Looms, 200 (Not yet operating); Generating Power, Steam 1,100 H. P.; Number of Labourers, 2,000; Amount of Cotton consumed, 28,963 piculs; Amount of Yarn produced, 3,142,000 pounds; Trade Marks, Yarn, Shou Sin, Shou Lu and Steamship. — p. 157
+
+**Dah Sung No. 3** Mill Address, Chang Lo Chen, Haimenhsien, Kiangsu; Wholesale Depart. Address, 22, Kiukiang Road, Shanghai; Work started, 1921; Capital, Tls. 2,400,000; Managing Director, Chang Twi-an, Spindles Operating, 34,340; Looms Operating, 422; Generating Power, Steam 1,000 H. P.; Number of Labourers, 2,500; Amount of Cotton consumed, 100,000 piculs; Amount of Yarn produced, 10,143,000 yards; Length of Cloth produced, 7,900,000 yards; Trade Marks, Yarn, San Sin, Kwei Sin and Old Man and Peach. Cloth, Double Dragons, Coiled Dragon, Blue Dragon, Cloud Dragon, Flying Dragon and Lion. — p. 157
+
+**Dah Tung** Mill Address, Nan Pao Chen, Tsungming, Kiangsu; Wholesale Depart. Address, 62, Kiangsi Road, Shanghai; Work started, 1922; Capital, $800,000; Managing Director, Chu Lin-kiang; Spindles Operating, 10,800; Generating Power, Electricity 75 K.W. and Steam 400 H.P.; Number of Labourers, 690; Amount of Cotton consumed, 30,000 piculs; Amount of Yarn produced, 3,780,000 pounds; Trade Marks, Yarn, Airship. — p. 157
+
+**Chu An. (P)** Mill Address, Szeanshih, Nantungchow, Kiangsu; Wholesale Depart. Address, 8, Chushan Road, Shanghai; Capital, $800,000; Spindles Operating, 5,440, 5,000 (Not yet operating); Generating Power, Electricity 400 K.W.; Trade Marks, Yarn, Wolf and Hill. — p. 158
+
+**Yeh Chin** Mill Address, Hsin Lung Chiao, Wusih, Kiangsu; Wholesale Depart. Address, Ta Ma Tow, Peitang, Wusih, Kiangsu; Work started, 1895 (Rented to Fu Chen Co. for operation in 1916); Capital, $200,000; Managing Director, Yang Pei-keng; Spindles Operating, 13,832; Generating Power, 500 H.P.; Number of Labourers, 1,200; Amount of Cotton consumed, 22,750 piculs; Amount of Yarn produced, 2,730,000 lb.; Trade Marks, Yarn, Sze Hai Sheng Ping. — p. 158
+
+**Cheng Sing** Mill Address, Outside West Gate, Wusih, Kiangsu; Wholesale Depart. Address, Chi Hsiang Li, Honan Road, Shanghai; Work started, 1906; Capital, $1,000,000; Managing Director, Yung Hua-sung; Spindles Operating, 30,000; Generating Power, Electricity 900 k. w.; Number of Labourers, 2,650; Amount of Cotton consumed, 48,125 piculs; Amount of Yarn produced, 5,775,000 pounds; Trade Marks, Yarn, Tuan Ho and Chiu Ho. — p. 158
+
+**Kwang Chin** Mill Address, Kwang Chin Road, Wusih, Kiangsu; Wholesale Depart. Address, Tao Yuan Fang, N. Honan Road, Shanghai; Work started, 1917; Capital, $1,000,000; Managing Director, Chow Chi-chih; Spindles Operating, 19,968; Looms Operating, 52; Generating Power, Steam 600 H.P.; Number of Labourers, 1,880; Amount of Cotton consumed, 30,000 piculs; Amount of Yarn produced, 4,000,000 pounds; Trade Marks, Yarn, Weaving Girl and Flying Eagle. Cloth, Weaving Girl. — p. 158
+
+**Ching Foong** Mill Address, Chow San Pang, North Gate, Wusih, Kiangsu; Wholesale Depart. Address, Tsai Shen Lung, Peitang, Wusih, Kiangsu; Work started, 1921; Capital, $1,000,000; Managing Director, Hsueh Yi-yun; Spindles Operating, 16,000, 2,000 (Not yet operating); Looms Operating, 200, 100 (Not yet operating); Generating Power, Electricity 750 K.W.; Number of Labourers, 3,310; Amount of Cotton consumed, 42,000 piculs; Amount of Yarn produced, 5,100,000 pounds; Length of Cloth produced, 2,400,000 yards; Trade Marks, Yarn, Double Fish and Shepherd. Cloth, Double Fish and Shepherd. — p. 158
+
+**Yu Kong** Mill Address, Li Hwa Chwang, Wusih, Kiangsu; Wholesale Depart. Address, Shantung Road, Shanghai or Peitang, Wusih, Kiangsu; Work started, 1921; Capital, $1,000,000; Managing Director, Hsueh Nan-ming; Spindles Operating, 16,000; Generating Power, Steam 500 H. P.; Number of Labourers, 1,400; Amount of Cotton consumed, 20,000 piculs; Amount of Yarn produced, 2,337,000 pounds; Trade Marks, Yarn, Girl in the Moon and Nine Dragons. — p. 158
+
+**Shen Hsin No. 3** Mill Address, Outside West Gate, Wusih, Kiangsu; Wholesale Depart. Address, 58, Kiangsi Road, Shanghai; Work started, 1921; Capital, $2,000,000; Reserve, $25,000; General Manager, Yung Chung-chin; Spindles Operating, 43,000, 8,000 (Not yet operating); Looms Operating, 450, 50 (Not yet operating); Generating Power, Electricity 3,200 K.W.; Number of Labourers, 4,000; Amount of Cotton consumed, 97,000 piculs; Amount of Yarn produced, 11,970,000 pounds; Length of Cloth produced, 8,200,000 yards; Trade Marks, Yarn, Sze Ping Lien, Hung Shwang Chuan and Man and Bell. Cloth, Sze Ping Lien. — p. 158
+
+**Soo Lun** (Chio Kee). Mill Address, Pan Men Wai, Soochow, Kiangsu; Work started, 1896 (Rented to Chio Chi Co. for operation in 1925); Spindles Operating, 22,568; Number of Labourers, 1,450; Trade Marks, Yarn, Tien Kwan. — p. 159
+
+**Yuan Kee** (Formerly Yu Tai). Mill Address, Chitang, Changchow, Kiangsu; Work started, 1906; Spindles Operating, 12,740; Generating Power, Steam 380 H.P.; Trade Marks, Yarn, Shwang Feng and Weaving. — p. 159
+
+**Tai Tsang** (Kung Tai). Mill Address, Sha Ki Hsiang, Taitsang, Kiangsu; Work started, 1906 (Rented to Kung Tai Co. for operation in 1925); General Manager, Liu Chu-ching; Spindles Operating, 22,700; Generating Power, Steam 750 H.P.; Trade Marks, Yarn, Grand Lion and Awakened Lion. — p. 159
+
+**Lee Yung (S)** Mill Address, North Gate, Kiangyin, Kiangsu; Work started, 1896; Capital, Tls. 720,000; Reserve, Tls. 100,000; Managing Director, Hsueh Li-chuan; Spindles Operating, 15,000; Generating Power, Steam 500 H.P.; Trade Marks, Yarn, Nine Lions. — p. 159
+
+**Changchow** Mill Address, Outside South Gate, Changchow, Kiangsu; Work started, 1921 (Rented to Shen Hsin No. 6 for operation in 1925); General Manager, Yung Chung-chin; Spindles Operating, 14,200, 4,000 (Not yet operating); Generating Power, Electricity 1,300 K.W.; Trade Marks, Yarn, Pao Hsi. — p. 159
+
+**Dah Lung Chiu Kee** Mill Address, Outside South Gate, Changchow, Kiangsu; Work started, 1921 (Sold to Chiu Kee Co. for operation in 1925); Capital, $1,000,000; Managing Director, Ku Ki-sun; Spindles Operating, 10,000; Looms Operating, 260; Generating Power, Steam 600 H. P.; Trade Marks, Yarn, Six Cranes, Wuchin, Hero, Red Crane. Cloth, Butterfly and Ball, Hero, Double Rabbits and Cat and Butterfly. — p. 159
+
+**Kwang Hsin (S)** Mill Address, Outside East Gate, Changchow, Kiangsu; Wholesale Depart. Address, Si Yin Li, Changchow, Kiangsu; Work started, 1885; Capital, $240,000; General Manager, Ko Lien-sun; Spindles Operating, 5,600; Generating Power, Steam 300 H.P. — p. 159
+
+### 8 Mills in Chihli
+
+**Hua Sin (Tientsin)** Mill Address, Siao Yu Chwang, Hopei, Tientsin, Chihli; Wholesale Depart. Address, 19, Ta Ma Lu, Italian Concession, Tientsin, Chihli; Work started, 1918; Capital, $2,700,000; Reserve, $241,021; Managing Director, Yang Shou-nan; Spindles Operating, 27,000; Generating Power, Electricity 1,000 K.W.; Number of Labourers, 2,156; Amount of Cotton consumed, 70,000 piculs; Amount of Yarn produced, 8,400,000 pounds; Trade Marks, Yarn, Fu Lu Shou Kow. — p. 159
+
+**Hwa Sin (Tongshan)** Mill Address, Tongshanchen, Lanhsien, Chihili; Wholesale Depart. Address, 19, Ta Ma Lu, Italian Concession, Tientsin, Chihli; Work started, 1922; Capital, $2,200,000; Reserve, $20,700; Managing Director, Wang Siao-ting; Spindles Operating, 24,300; Generating Power, Electricity 989 K.W.; Number of Labourers, 2,000; Amount of Cotton consumed, 47,256 piculs; Amount of Cloth produced, 5,193,000 pounds; Trade Marks, Yarn, Three Pines, Chi Ching and Three Fish. — p. 160
+
+**Yu Yuan** Mill Address, Siaoliuchwang, Tientsin, Chihli; Wholesale Depart. Address, Siaoliuchwang, Tientsin, Chihli; Work started, 1918; Capital, $7,200,000; Reserve, $480,000; Managing Director, Wang Ching-hang; Spindles Operating, 39,800, 40,200 (Not yet operating); Looms Operating, 800, 200 (Not yet operating); Generating Power, Electricity 3,150 K.W.; Number of Labourers, 3,840; Amount of Cotton consumed, 134,900 piculs; Amount of Yarn produced, 15,470,000 pounds; Length of Cloth produced, 15,840,000 yards; Trade Marks, Yarn, Pine & Crane. Cloth, Double Flying Tigers, Three Flying Tigers and Pine & Crane. — p. 160
+
+**Heng Yuan** Mill Address, Hopei, Tientsin, Chihli; Wholesale Depart. Address, Hopei, Tientsin, Chihli; Work started, 1920; Capital, $4,000,000; Reserve, $100,000; Managing Director, Sung Wen-kan; Spindles Operating, 31,400, 840 (Not yet operating; Looms Operating, 310; Generating Power, Electricity 2,500 K.W.; Number of Labourers, 3,100; Amount of Cotton consumed, 95,500 piculs; Amount of Yarn produced, 11,256,000 pounds; Length of Cloth produced, 7,753,000 yards; Trade Marks, Yarn, Blue Tiger and Eight Fairies Cloth, Gun Carriage. — p. 160
+
+**Pei Yang Commercial No. 1** Mill Address, Kou Kia Ssu, Hai Ho, Tientsin, Chihli; Wholesale Depart. Address, Kou Kia Ssu, Hai Ho, Tientsin; Work started, 1921; Capital, $2,000,000; Reserve, $136,524; Managing Director, Tsao Pin-chuan; Spindles Operating, 25,000; Generating Power, Electricity 1,200 K.W.; Number of Labourers, 1,700; Amount of Cotton consumed, 78,050 piculs; Amount of Yarn produced, 9,460,000 pounds; Trade Marks, Yarn, Three Lights and Three Spears. — p. 160
+
+**Ya Ta. (F)** Mill Address, Lao Yen To Ti, Ta Chih Ku Hsia, Tientsin, Chihli; Wholesale Depart. Address, Chiu Shan Chieh, Japanese Concession, Tientsin, Chihli; Work started, 1921; Capital, $3,000,000; Managing Director, Feng Yue-wei; Spindles Operating 30,000, 5,000 (Not yet operating); Generating Power, Electricity 1,500 K.W.; Trade Marks, Yarn, Eight Horses. — p. 160
+
+**Pao Chen No. 3** Mill Address, Yen To Ti, Tientsin, Chihli; Wholesale Depart. Address, Sin Tsin Li, Pang Lai Chieh, Japanese Concession, Tientsin, Chihli; Work started, 1921; Capital, $3,000,000; General Manager Liu Pei-sun; Spindles Operating, 26,000; Generating Power, Electricity 1,500 K.W.; Number of Labourers, 1,700; Amount of Cotton consumed, 70,160 piculs; Amount of Yarn produced, 7,570,000 pounds; Trade Marks, Yarn, Three Deer, San Hsi and Wan Fu. — p. 160
+
+**Dah Sin** Mill Address, Shihkiachwang, Chihli; Wholesale Depart. Address, 12, Ting An Li, Hankow, Hupeh; Work started, 1922; Capital, Tls. 2,100,000; Reserve, Tls. 88,000; Managing Director, Mu Shu-tang; Spindles Operating, 24,768; Looms Operating, 292; Generating Power, Electricity 1,340 K.W.; Number of Labourers, 2,300; Amount of Cotton consumed, 63,000 piculs; Amount of Yarn produced, 7,420,000 pounds; Trade Marks, Yarn, Hu Lu, Shwang Fu, and Pa Kwo Tai Chi Tu. Cloth, Hu Lu, Pa Kwo and Three Deer. — p. 160
+
+### 5 Mills in Hupeh
+
+**1. Chu An** (Formerly Hupeh Government Mill). Mill Address, Wen Chang Men, Wuchang, Hupeh; Work started, 1903; Spindles Operating, 90,000; Looms Operating, 700; Generating Power, Steam; Number of Labourers, 5,100; Amount of Cotton consumed, 120,000 piculs; Amount of Yarn produced, 20,080,000 pounds; Trade Marks, Yarn, Hwang Ho 'Lou. Cloth, Nine Stars. — p. 161
+
+**2. The Hankow Nos. 1 and 2** Mill Address, Tseng Kia Hsiang, Outside Wu Shen Men, Wuchang, Hupeh; Wholesale Depart. Address, Wu Chang Li, Hao Chen Ma Lu, Hankow; Work started, 1919; Capital, $3,000,000 (No. 1) $1,200,000 (No. 2); Reserve, $260,000; Managing Director, Mao Shu-tang; Spindles Operating, 90,400; Looms Operating, 800, 400 (Not yet operating); Generating Power, 2,500 K.W.; Number of Labourers, 8,000; Amount of Cotton consumed, 118,483 piculs; Amount of Yarn produced, 16,403,000 pounds; Length of Cloth produced, 9,678,000 yards; Trade Marks, Yarn, Lion and Globe, Red Phoenix and Dragon-fly. Cloth, Wu Fu, Lu Tse and Yi Peng Wan Li. — p. 161
+
+**3. Yu Wah** Mill Address, Shang Sin Ho, Outside Wu Shen Men, Wuchang, Hupeh; Wholesale Depart. Address, 13, Ting An Li, Hankow; Work started, 1922; Capital, Tls. 1,560,000; Managing Director, Hsu Yun-ting; Spindles Operating, 41,000; Looms Operating, 500; Generating Power, Steam 1,740 H.P.; Number of Labourers, 3,770; Amount of Cotton consumed, 146,500 piculs; Amount of Yarn produced, 10,820,000 pounds; Length of Cloth produced, 12,560,000 yards; Trade Marks, Yarn, The Temple of Heaven, Double Hens, Race Horse, and Wen Yen Tsing. Cloth, The Temple of Heaven, Double Hens, Race Horse and Wan Yen Tsing. — p. 161
+
+**4. Cheng Huan** Mill Address, Outside Wu Shen Men, Wuchang, Hupeh; Wholesale Depart. Address, Fu Teh Li, Hao Hwa Lou, Hankow; Work started, 1921; Capital, Tls. 1,200,000; Managing Director, Liu Tze-chin; Spindles Operating, 20,736, 4,000 (Not yet operating); Looms, 250 (Not yet operating); Generating Power, Steam 750 H.P.; Number of Labourers, 1,500; Amount of Cotton consumed, 5,600 piculs; Amount of Yarn produced, 7,560,000 pounds; Trade Marks, Yarn, Fu Lu. — p. 161
+
+**5. Shen Hsin No. 4** Mill Address, Tsung Kwan, Hankow; Wholesale Depart. Address, 6, Sin Teh Li, Yangtze Street, Hankow; Work started, 1921; Capital, Tls. 5,000,000; General Manager, Yung Chung-chin; Spindles Operating, 15,000; Generating Power, Steam; Number of Labourers, 1,200; Amount of Cotton consumed, 31,000 piculs; Amount of Yarn produced, 3,780,000 pounds; Trade Marks, Yarn, Man and Bell and Sze Ping Lien. — p. 161
+
+### 4 Mills in Honan
+
+**Kwang Yi** Mill Address, Anyanghsien Station, Anyanghsien, Honan; Wholesale Depart. Address, Same as the above; Work started, 1909; Capital, $1,500,000; Reserve, $120,000; Managing Director, Ku Kwei-sun; Spindles Operating, 28,000, 10,000 (Not yet operating); Generating Power, Steam 800 H.P.; Number of Labourers, 1,800; Amount of Cotton consumed, 50,000 piculs, Amount of Yarn produced, 18,300,000 pounds; Trade Marks, Yarn, Mill Premises and Dragon and Horse. — p. 162
+
+**Yu Foong** Mill Address, T'ou Fu Chai, Chengchow, Honan; Wholesale Depart. Address, Feng Min Li, Ningpo Road, Shanghai; Work started, 1920; Capital, Tls. 2,000,000; Managing Director, Hsueh Pao-jun; Spindles Operating, 34,560, 17,280 (Not yet operating); Looms Operating, 200, 1,000 (Under contemplation); Generating Power, Electricity 3,000 K.W.; Number of Labourers, 4,200; Amount of Cotton consumed, 109,344 piculs; Amount of Yarn produced, 12,767,000 pounds; Length of Cloth produced, 2,388,000 yards; Trade Marks, Yarn, Flying Dragon-fly. Cloth, Five Elders and Lin Shu. — p. 162
+
+**Chen Shing** Mill Address, Mu Lan Tien, Wutsehhsien, Honan; Wholesale Depart. Address, Same as the above; Work started, 1919; Capital, $200,000; Managing Director, Lu Lien-chen; Spindles Operating, 5,040, 1,740 (Not yet operating); Generating Power, Steam 300 H.P.; Number of Labourers, 470; Amount of Cotton consumed, 7,100 piculs; Amount of Yarn produced, 805,000 pounds; Trade Marks, Yarn, Chien Fu Kou, Shepherd and Man and Elephant. — p. 162
+
+**Wah Sing (Weihwei)** Mill Address, Weihwei, Honan; Wholesale Depart. Address, 19, Ta Ma Lu, Italian Concession, Tientsin; Work started, 1922; Capital, $2,800,000; Managing Director, Chow Chi-chih; Spindles Operating, 22,400; Generating Power, Steam 800 H.P.; Number of Labourers, 2,000; Amount of Cotton consumed, 75,600 piculs; Amount of Yarn produced, 9,072,000 pounds. — p. 162
+
+### 3 Mills in Chekiang
+
+**Ting Sing** Mill Address, Kung Chen Kiao, Hangchow, Chekiang; Wholesale Depart. Address, Yung Chen Fang, Fukien Road, Shanghai; Work started, 1897; Capital, $400,000; Reserve, $20,000; General Manager, Kao Yi-chen; Spindles Operating, — p. 162
+
+### 2 Mills in Shansi
+
+**Chin Wah** Mill Address, Pei Kwan, Yutzehsien, Shansi; Work started, 1924; Capital, $1,500,000; Managing Director, Hsu Yih-taing; Spindles Operating, 9,000, 3,200 (Not yet operating); Looms Operating—200 (In course of installation); Generating Power, Steam 500 H.P.; Number of Labourers, 912; Amount of Cotton consumed, 9,636 piculs; Amount of Yarn produced, 1,120,000 pounds; Trade Marks, Yarn, Three Circles and Wool-oil Tree Leaf. — p. 164
+
+**Ta Yih Chen (P)** Mill Address, Sinkianghsien, Shansi; Work started, Not yet; Capital, $500,000; Managing Director, Hsueh Yu-tsing; Spindles Operating,—6,040 (In course of preparation). — p. 164
+
+### 2 Mills in Metropolitan District
+
+**Sing Chih** (Formerly Li Sun). Mill Address, Sintsichen, Paotihsien, Metropolitan District; Wholesale Depart. Address, 12, Chia Chia Hutung, Peking; Capital, $150,000; General Manager, Wu Sung-chiao; Spindles Operating, 1,080, 12,400 (Not yet operating); Generating Power, Steam 800 H.P.; Number of Labourers, 110; Amount of Cotton consumed, 4,500 piculs; Amount of Yarn produced, 340,000 pounds; Trade Marks, Yarn, Pao Pin. — p. 164
+
+**The Metropolitan. (P)** Mill Address, Hsiangshan, Wanpinghsien, Metropolitan District; Work started, (Just in course of preparation); Capital, $2,000,000; Mangaging Director, Liu Wan-chun. — p. 164
+
+### 1 Mill in each of the following provinces—Anhwei, Hunan, Fengtien, Kiangsi, Shensi and Sinkiang
+
+**Yu Chung** Mill Address, Taokow, Wuhu, Anhwei; Wholesale Depart. Address, 100, Peking Road, Shanghai; Work started, 1919; Capital, $1,000,000; Reserve, $10,000; Managing Director, Li Pei-hsin; Spindles Operating, 15,200; Generating Power, Steam 450 H.P.; Number of Labourers, 1,200; Amount of Cotton consumed, 16,780 piculs; Amount of Yarn produced, 1,985,000 pounds, Trade Marks, Yarn, Sze Hsi and San Tao. — p. 164
+
+**The Hunan No. 1** (Hua Shih Co.). Mill Address, Yinpanglin, Changsha, Hunan; Wholesale Depart. Address, 22, Ta Si Men Cheng Chieh, Changsha; Work started, 1920 (Rented to Hua Shih Co. for operation); Capital, $600,000; Managing Director, Hwang Tsao-chi; Spindles Operating, 40,000; Generating Power, Electricity 3,000 K.W.; Number of Labourers, 2,380; Amount of Cotton consumed, 116,000 piculs; Amount of Yarn produced, 13,870,000 pounds; Trade Marks, Yarn, Yo Lu and Lan Hwa. — p. 165
+
+**The Fengtien** Mill Address, Shih Kien Fang, Mukden, Fengtien; Wholesale Depart. Address, Shih Tow Shih Hutung, Mukden; Work started, 1923; Capital, $4,500,000 (Fengtien currency); Reserve, $100,000 (Fengtien currency); Managing Director, Sun Tsu-chang; Spindles Operating, 21,368; Looms Operating, 200; Generating Power, Electricity 1,340 K.W.; Number of Labourers, 1,781; Amount of Cotton consumed, 40,200 piculs; Amount of Yarn produced, 4,428,000 pounds; Length of Cloth produced, 4,235,000 yards. — p. 165
+
+**Kiu Hsing** (P) Mill Address, Kwan Pai Chai, Kiukiang, Kiangsi; Work started, (In course of preparation); Capital, Tls. 1,000,000; Managing Director, Chang Sung-shiu; Spindles Operating,—15,360 (Not yet operating); Looms Operating,—300 (Not yet operating); Generating Power, Electricity 750 K.W. — p. 165
+
+**Tai Feng** (P) Mill Address, Kiaokowchen, Weipei, Shensi; Capital, $1,000,000; General Manager, Yang Shih-sun; Spindles Operating,—15,000 (In course of contemplation). — p. 165
+
+**The Tihwa** (P) Mill Address, Tihwa, Sinkiang. — p. 165
+
+### 3 Mills Spinning Cotton Waste
+
+**Ming Sun** Mill Address, Hua Len Road, Shanghai; Wholesale Depart. Address, Shansi Road, Shanghai; Spindles Operating, 5,000; Trade Marks, Yarn, Double Lions. — p. 166
+
+**Tsin Wei** Mill Address, 31, Yochow Road, Shanghai; Wholesale Depart. Address, 275, N. Soochow Road, Shanghai; Capital, $1,000,000; Managing Director, Lu Pei-chih; Spindles Operating, 5,120; Number of Labourers, 200; Trade Marks, Yarn, Chin Chi and Chi Chiu. — p. 166
+
+**Li Ming. (P)** Mill Address, Changchow, Kiangsu; Wholesale Depart, Address, 112, Peking Road, Shanghai; Capital, Tls. 500,000; Spindles Operating, 5,740; Trade Marks, Yarn, "Li Ming". — p. 166
+
+### 4 British Owned Mills
+
+**Ewo Cotton Mills, Ltd** (Formerly Ewo, Yangtzepoo and Kung Yih Mills). Mill Address, Yangtzepoo, Shanghai; Wholesale Depart. Address, 27, The Bund, Shanghai; Work started, Ewo—1896, Yangtzepoo—1907, Kung Yih—1914; Capital, Tls. 5,400,000; Reserve, Tls. 3,600,000; Managing Director, The Jardine, Matheson & Co., Ltd.: Spindles Operating, Ewo—72,312, Yangtzepoo, 25,376, Kung Yih—55,632; Looms Operating, 1,900; Number of Labourers, 13,000; Amount of Cotton consumed, 300,000 piculs; Amount of Yarn produced, 25,000,000 pounds; Trade Marks, Yarn, Wu Fu, Shepherd, Three Stars, Red Dragon, Blue Dragon, Yen Chih Tiger and Ta Tsung Tung. Cloth, Three Fish, Three Cats, Three Rabbits and Three Deer. — p. 166
+
+**Oriental Weaving and Spinning Co** Mill Address, 36, Yangtzepoo, Shanghai; Wholesale Depart. Address, 6, Kiukiang Road, Shanghai; Work started, 1897; Capital, Tls. 1,450,000; Reserve, Tls. 2,751,760; Managing Directors, Arnhold & Co., Ltd.; Spindles Operating, 52,000; Looms Operating, 448; Number of Labourers, 3,500; Amount of Cotton consumed, 90,000 piculs; Amount of Yarn produced, 8,820,000 pounds; Trade Marks, Yarn, Wen Ming Chi Hwan, Shwang Feng and Chu Pao Ho. Cloth, Flying Man, Flying Horse, Peacock; Unicorn and Arnhold's Flag. — p. 166
+
+### 32 Japanese Mills in Shanghai
+
+**Shanghai Cotton Manufacturing Co** Mill Address, 68 & 90, Yangtzepoo, Shanghai; Wholesale Depart. Address, 49, Szechwan, Road, Shanghai; Work started, No. 1—1895, No. 2—1896, No. 3—1916; Capital, Tls. 5,000,000; Reserve, Tls. 1,270,000; General Manager, Otani; Mill Manager, Kuroda; Spindles Operating, No. 1—20,392, No. 2—25,480, No. 3—50,552; Looms Operating, No. 1—376, No. 2—510, No. 3—983; Number of Labourers, 9,048; Amount of Cotton consumed, 299,000 piculs; Amount of Yarn produced, 21,168,000 pounds; Trade Marks, Yarn, Sunlight, Double Tigers, Three Tigers, Three Stars and Dragon Gate. Cloth, A Cow Head, Double Cow Heads, Three Cow Heads, Blue Cow, A Horse Head, Double Horse Heads, Three Horse Heads, Five Horse Heads, Flying Horse, Double Tigers, San Yuan Pao, Wu Yuan Pao, Star & Deer, Squirrel and Hen. — p. 166
+
+**Sino-Japanese Cotton Manufacturing Co** Mill Address, No. 1 and No. 2, Pootung, Shanghai; No. 3 and No. 4, Robinson Road, Shanghai; Wholesale Depart. Address, 55, Szechwan Road, Shanghai; Work started, No. 1 and No. 2 1877, No. 3—1918, No.4—1921; Capital, Yen 8,800,000; Reserve, Yen 1,385,000; General Manager, Kida Tabe, Mill Manager, Oshima; Spindles Operating, No. 1—52,256, No. 2—52,256, No. 3—55,552, No. 4—55,552; Looms Operating, No. 1—500, No. 2—500; Number of Labourers, 6,434; Amount of Cotton consumed, 376,000 piculs, Amount of Yarn produced, 32,000,000 pounds; Length of Cloth produced, 14,400,000 yards; Trade Marks, Yarn, Mu Lien, Mei Lui, Tan Feng, Lan Feng and Yun Pang. Cloth, Tan Feng. — p. 167
+
+**Kia Ho Cotton Manufacturing Co** (Formerly Pao Chen Nos. 1 and 2). Mill Address, Robinson Road, Shanghai; Wholesale Depart. Address, 55, Szechwan Road, Shanghai; Work started, 1921 (Sold to Kia Ho in February, 1924); Managing Directors, The Sino-Japanese Cotton Manufacturing Co.; Spindles Operating, 107,776; Number of Labourers, 6,800; Amount of Cotton consumed, 370,000 piculs. — p. 167
+
+**Naigai Wata Kaisha** Mill Address, No. 3 and 4, S. Soochow Road, Shanghai; No. 5 (E) & (W), Macao Road, Shanghai; No. 8, Macao Road, Shanghai; No. 7 and No. 12, Macao Road, Shanghai; No. 9, Markham Road, Shanghai (Formerly Yu Yuan); No. 13 and No. 14, Robinson Road, Shanghai; No. 15, Gordon Road, Shanghai; Wholesale Depart. Address, 12, Hankow Road, Shanghai; Work started, No. 3—1911, No. 4—1913, No. 5 (E)—1915, (W)—1915, No. 8—1919, No. 7—1919, No. 12—1919, No. 9—1908, No. 13—1921, No. 14—1922, No. 15—1922; Capital, Yen 10,500,000; Reserve, Yen 13,445,000; General Manager, Kawamura, Yamakuchi, Onishi and Okada; Spindles Operating, No. 3—20,040, No. 4—41,152, No. 5 (E)—29,600, (W)—29,600, No. 8—31,680, No. 7—20,800, No. 12—20,800, No. 9—23,356, No. 13—23,200, No. 14—23,200, No. 15—48,800; Looms Operating, No. 7—800 (Not yet operating), No. 12—800 (Not yet operating); Number of Labourers, No. 3—1,290, No. 4—1,930, No. 5 (E)—1,470, (W)—1,784, No. 8—930, No. 7—2,100, No. 12—2,100, No. 9—2,485, No. 13—1,200, No. 14—1,600, No. 15—2,400; Amount of Cotton consumed, No. 3—57,000 piculs, No. 4—104,000 piculs, No. 5 (E)—86,000 piculs, (W)—78,000 piculs, No. 8—17,000 piculs, No. 7—55,000 piculs, No. 12—55,000 piculs, No. 9—59,000 piculs, No. 13—54,000 piculs, No. 14—31,000 piculs, No. 15—40,000 piculs; Amount of Yarn produced, 51,000,000 pounds; Trade Marks, Yarn, Moon & Water. — p. 167
+
+**Tokwa Boseki Kaisha (Nos. 1, 2 and 3)** Mill Address, 87-88, Ward Road, Shanghai; Wholesale Depart. Address, A-5, Hankow Road, Shanghai; Work started, 1921; Capital, Yen 6,000,000; General Manager, Saito; Mill Manager, Baba; Spindles Operating, 45,440; Number of Labourers, 2,914; Amount of Cotton consumed, 118,415 piculs; Amount of Yarn produced, 12,950,000 pounds; Trade Marks, Yarn, Hung Hsi. — p. 167
+
+**Dong Shing Spinning and Weaving Co., Ltd** Mill Address, No. 1—182, Gordon Road, Shanghai; No. 2—90, Yangtzepoo, Shanghai; Work started, 1921; Capital, Yen 6,000,000; Reserve, Yen 1,115,000; Mill Manager, Kishimoto Minamide; Spindles Operating, No. 1—41,600, No. 2—47,760; Looms Operating, 952; Number of Labourers, 2,240; Amount of Cotton consumed, 41,250 piculs; Amount of Yarn produced, 4,687,000 pounds; Trade Marks, Yarn, Crane. Cloth, Gramaphone and Trophy. — p. 168
+
+**Shanghai Silk Spinning Co.'s Cotton Mill, Ltd** Mill Address, 200, Pingliang Road, Shanghai; Work started, 1921; Capital, Tls. 400,000; Managing Director, Shanghai Silk Spinning Co.; Spindles Operating, 49,972; Number of Labourers, 726; Amount of Cotton consumed, 75,000 piculs, Amount of Yarn produced, 9,324,000 pounds; Trade Marks, Yarn, Pao Kuang. — p. 168
+
+**Kung Mow Cotton Mill** (Formerly Lao Kung Mow). Mill Address, 40, Yangtzepoo, Shanghai; Work started, 1895 (Sold to Kung Mow in May, 1925); Managing Director, Shanghai Silk Spinning Co.; Spindles Operating, 45,516; Looms Operating, 515; Number of Labourers, 2,500; Amount of Cotton consumed, 68,000 piculs; Amount of Yarn produced, 4,500,000 pounds; Trade Marks, Yarn, Tien Kwan, Sze Hsi, Wu Mei, Chi Lin and Tsai Sheng Hsin. — p. 168
+
+**Dah Kong Cotton Spinning Co., Ltd** Mill Address, 2, Tengyuen Road, Shanghai; Wholesale Depart. Address, 53, Szechwan Road, Shanghai; Work started, No. 1—1922, No. 2—1923; Capital, Yen 5,000,000; Reserve, Yen 26,500,000; Managing Director, Dai Nippon Cotton Spinning Co., Ltd.; General Manager, Takahashi; Spindles Operating, 58,080; Generating Power, Electricity 38,500 K.W.; Number of Labourers, 1,500; Amount of Cotton consumed, 150,000 piculs; Amount of Yarn produced, 17,388,000 pounds; Trade Marks, Yarn, Standing Horse, Crane & Deer, Cash Coin, Kong Lui, Tung Li, Shwang Mei, Ta Pao and Mu Tan. — p. 168
+
+**Toyoda Cotton Spinning and Weaving Co., Ltd** Mill Address, Jessfield Road, Shanghai; Wholesale Depart. Address, 66, Szechwan Road, Shanghai; Work started, 1921; Capital, Yen 5,000,000; General Manager, Toyoda; Spindles Operating, 60,768; Looms Operating, 400; Number of Labourers, 3,450; Amount of Cotton consumed, 195,000 piculs; Amount of Yarn produced, 17,640,000 pounds; Trade Marks, Yarn, Feng Yen, Yuen Chin and Soldier. — p. 168
+
+**Toyo Cotton Spinning Co., Ltd** Mill Address, 98, Yangtzepoo, Shanghai; Wholesale Depart. Address, 6, Kiukiang Road, Shanghai; Work started, 1921; Capital, Yen 31,850,000; Reserve, Yen 1,750,000; General Manager, Iwawo; Mill Manager, Mishi Mura; Spindles Operating, 45,600; Number of Labourers, 2,687; Amount of Cotton consumed, 84,910 piculs; Amount of Yarn produced, 15,120,000 pounds, Length of Cloth produced, Trade Marks, Yarn, Sien Tao. — p. 168
+
+### 13 Japanese Mills in other parts of China.
+
+**Naigai Wata Kaisha (Nos. 6, 10 & 11)** Mill Address, Szefang, Tsingtao; Wholesale Depart. Address, Peking Road, Tsingtao; Work started, 1916; Spindles Operating, 63,200; Trade Marks, Yarn, Hill & Moon. — p. 169
+
+**Fuji Cotton Spinning Co., Ltd** Mill Address, Tsangkow, Tsingtao; Work started, 1921; Capital, Yen 27,950,-000; Reserve, Yen 15,810,000; General Manager, Tomoda; Mill Manager, Sanda; Spindles Operating, 31,360; Generating Power, Electricity 15,000 K.W.; Number of Labourers, 2,200; Amount of Cotton consumed, 87,000 piculs; Amount of Yarn produced, 10,710,000 pounds; Trade Marks, Yarn, Five Colored Stars. — p. 169
+
+**Kagafuchi Cotton Spinning Co., Ltd** Mill Address, Tsangkow, Tsingtao; Work started, 1921; Spindles Operating, 42,240, 384 (Not yet operating); Looms Operating, 865; Trade Marks, Yarn, Butterfly. — p. 169
+
+**Nisshin Cotton Spinning Co., Ltd** Mill Address, Szefang, Tsingtao; Work started, 1921; Spindles Operating, 20,600, Trade Marks, Yarn, Pao Chuan. — p. 169
+
+**Nagusaki Cotton Spinning Co., Ltd** Mill Address, Tsangkow, Tsingtao; Work started, 1921; Spindles Operating, 19,988; Trade Marks, Yarn, Pao Lai. — p. 169
+
+**Dah Kong Cotton Spinning Co., Ltd. (Nos. 1 and 2)** Mill Address, Szefang, Tsingtao; Work started, 1921; Capital, Yen 3,000,000; Managing Director, Dai Nippon Cotton Spinning Co., Ltd.; Spindles Operating, 58,000. — p. 169
+
+**Tai An Cotton Spinning Co., Ltd** Mill Address, Hankow; Wholesale Depart. Address, Tai Ping Road, B. C., Hankow; Work started, 1924; General Manager, Kondo, Spindles Operating, 20,336, 5,000 (Net yet operating); Looms Operating,—300 (Not yet operating); Trade Marks, Yarn, Crow. — p. 169
+
+**Manchuria Cotton Spinning Co., Ltd** Mill Address, Liaoyang, Fengtien; Work started, 1924; Capital, Yen 5,000,-000; Spindles Operating, 31,360; Looms Operating, 504; Generating Power, Electricity, 15,000 K.W.; Amount of Yarn produced, 12,000 piculs; Length of Cloth produced, 6,000,000 yards, Trade Marks, Yarn, Liaoyang Pagoda. — p. 169
+
+**Naigai Wata Kaisha (Kingchow Mill)** Mill Address, Kingchow, Fengtien; Wholesale Depart. Address, 147, Shan Hsien Tung, Dairen; Work started, 1924; Capital, Yen 600,000; Spindles Operating, 24,000; Generating Power, Electricity 600 K.W.; Number of Labourers, 2,000; Amount of Yarn produced, 9,000,000 pounds; Trade Marks, Yarn, Kwei Yuen. — p. 169
+
+**South Manchuria Cotton Spinning Co., Ltd** Mill Address, Chow Shui Tze, Dairen; Work Started, 1912; Capital, Yen 3,000,000; Spindles Operating, 17,664. — p. 169
+
+
+## Distilleries, Breweries, Aerated Water Factories
+
+### Shanhaikuan
+
+**Crystal, Ld** (British) Aerated Waters. — p. 171
+
+### Tientsin
+
+**Crystal, Ld** (British) Aerated Waters. — p. 171
+
+**A. Mackie & Co., Ld** (British) Aerated Waters. — p. 171
+
+**Watson & Co** (British). — p. 171
+
+**Hsing Shih Brewery Co** (Chinese). — p. 171
+
+**White Star Aerated Water Factory** (British). — p. 171
+
+**Hua Ngao Beer Mfg. Co., Ltd**  — p. 171
+
+### Fukien: Amoy
+
+**The Amoy Pharmacy (Kulangsu) Aerated Water Factory** (Formerly A. S. Watson & Co.) — p. 171
+
+**Great Eastern Aerated Water Co**  — p. 171
+
+**Tong Hong Wine Factory**  — p. 171
+
+**Tan Kim Seng Wine Factory**  — p. 171
+
+### Fukien: Foochow
+
+**Fukien Industrial Co., Ltd** (Alcohol Factory). — p. 171
+
+### Hupeh: Hankow
+
+**Societe Franco-Chinoise de Distillerie de Hankow**  — p. 171
+
+**Niagara Mineral Water Co** (Greek). — p. 171
+
+**Hankow Iceworks** (British) Mineral Waters. — p. 171
+
+**Hankow Dispensary Co., Ld** (British) Mineral Waters. — p. 171
+
+**Li Yuan Brewery** (Chinese). — p. 171
+
+### Kiangsu: Shanghai
+
+**A. S. Watson & Co., Ld** (British) Aerated Water Factory. — p. 171
+
+**Llewellyn & Co., Ld** (British) Aerated Water Factory. — p. 171
+
+**Aquarius Ld** (British) Aerated Water Factory. — p. 171
+
+**Union Brewery, German Co** Liquidated and taken over by a Norwegian Syndicate in 1919. — p. 171
+
+**The Kofa Aerated Water Co., Ltd**  — p. 171
+
+### Kwangtung: Canton
+
+**A. S. Watson & Co** (British) Aerated Water Factory. — p. 171
+
+**Sincere Company**  — p. 171
+
+**And 9 smaller native Aerated Water Factories in this District**  — p. 171
+
+### Kwangtung: Hoihow
+
+**San Wan Lee** A small native Aerated Water Factory. — p. 171
+
+### Kwangtung: Swatow
+
+**Swatow Aerated Water Co** (Bradley & Co.) Supplies foreign community and better-class Chinese. (British). — p. 171
+
+### Shantung: Chefoo
+
+**Chang Yü Wine Co** (Chinese) Produces red and white wines which are freely exported to Straits Settlements. — p. 171
+
+**Hung Li** (Chinese) Native wines. — p. 171
+
+**Li Ch'uan Brewery** (Chinese) Beer and Aerated waters. — p. 171
+
+**Tung Lai** (Chinese) Native wines. — p. 171
+
+### Shantung: Tsingtao
+
+**Dai Nippon Brewery Co** (Japanese). — p. 171
+
+### Shantung: Tsinan
+
+**Pao Hsing Aerated Water Factory** (Works only in summer season). — p. 171
+
+
+## Ch. VIII DISTILLERIES, &c.—DOCKYARDS & ENGINEERING WORKS
+
+### Szechwan: Chengtu
+
+**Chiao Yang Kung Chang** (Chinese) Aerated Water Factory. — p. 172
+
+### Szechwan: Chungking
+
+**American Chinese Drug Store** (Sino-American) Aerated Waters. — p. 172
+
+### Manchuria: Dairen
+
+**Dairen Seihyo Kabushiki Kwaisha** (Japanese) American plant. Aerated Waters. — p. 172
+
+**Tsukihoshi Goshi Kwaisha** (Japanese) Aerated Waters. — p. 172
+
+**Manshu Beer Brewery Co** (Port Arthur). — p. 172
+
+### Manchuria: Fuliardi
+
+**Popoff Bros** Alcohol Distilleries. — p. 172
+
+### Manchuria: Handaohedze
+
+**Mordohovitch, L** Vodka Distilleries. — p. 172
+
+### Manchuria: Harbin
+
+**"Spritenka."** Vodka Distilleries and Breweries. — p. 172
+
+**Antipas, G** Vodka Distilleries. — p. 172
+
+**Morduhovitch, A** Vodka Distilleries. — p. 172
+
+**"Vostochnaia Bavaria."** Breweries. — p. 172
+
+**Yuan Sheng Te** Chinese Distilleries. — p. 172
+
+**Kavkaskoe Tovarishtchestvo** Aerated Water Factory. — p. 172
+
+**Tovarishtchestvo Soedinënnikh Zavodoff** Aerated Water Factory — p. 172
+
+### Manchuria: Imenpo
+
+**Imenpo Brewery Co**  — p. 172
+
+### Manchuria: Manchouli
+
+**Kozloff, T** Vodka Distilleries. — p. 172
+
+**Kousnetzoff, S** Vodka Distilleries. — p. 172
+
+**Miginoff, A** Vodka Distilleries. — p. 172
+
+**Kotelnikoff, I** Breweries. — p. 172
+
+**Ternvandt, P** Breweries. — p. 172
+
+### Manchuria: Mukden
+
+**Pawangsze Beer Co., Ld** (Chinese). — p. 172
+
+### Manchuria: Newchwang
+
+**** Aerated waters are made at Tangkangtzu Hot Springs, about fifty miles away. — p. 172
+
+**** Several large native distilleries producing spirit from millet. — p. 172
+
+### Manchuria: Ninguta
+
+**Kousnetzoff, Shilnikoff & Co** Alcohol Distilleries. — p. 172
+
+### Manchuria: Hongkong
+
+**A. S. Watson & Co., Ld** Aerated Water Factory. — p. 172
+
+**Thornhill's Aerated Water Factory**  — p. 172
+
+**Britannica Aerated Water Factory**  — p. 172
+
+**Connaught Aerated Water Factory**  — p. 172
+
+### Dockyards, Shipbuilding, Engineering, &c.: Chekiang: Ningpo
+
+**Shun Chi Engineering Works** (Chinese). All quite small, but deal with minor repairs to local steamers. — p. 172
+
+**Hua Hsing Engineering Works** (Chinese). — p. 172
+
+**Way Chong Engineering Works** (Chinese). — p. 172
+
+**Heng Dah Dockyard** (Chinese). — p. 172
+
+### Dockyards, Shipbuilding, Engineering, &c.: Chekiang: Hangchow
+
+**Woo Ling Iron & Engineering Works** (Chinese). — p. 172
+
+
+## Dockyards, Shipbuilding & Engineering Works
+
+### Chihli, Taku
+
+**Taku Tug & Lighter Co., Ld** (British) Repair shops and docks. — p. 173
+
+**Tientsin Lighter Co., Ld** (British) Repair shops and docks. — p. 173
+
+**Chinese Government Naval Yard**  — p. 173
+
+### Chihli, Hsinho
+
+**Haiho Conservancy's Dockyard**  — p. 173
+
+### Chihli, Tientsin
+
+**Eastern Engineering Works, Ld** (British) Engineers. Artesian wells, etc. — p. 173
+
+**Mitsui Iron Works** (Japanese). — p. 173
+
+**Ateliers de Construction Mechaniques** (French). — p. 173
+
+**Pei Yang Chuan Yeh Kung Chang** (Chinese). — p. 173
+
+### Fukien, Amoy
+
+**The Amoy Shipbuilding Yard** (Chinese Government.) Dock accommodates vessels up to 340 by 40 by 15 ft. — p. 173
+
+### Fukien, Foochow
+
+**Pagoda Arsenal & Dockyard** (Chinese Government) Dock over 300' in length. — p. 173
+
+### Hunan, Changsha
+
+**Tai Sheng Ch'ang** (Small dockyard). — p. 173
+
+### Hupeh, Hankow
+
+**Yangtze Engineering Works, Ld** Under Chinese management. — p. 173
+
+**New Engine & Iron Works**  — p. 173
+
+**Central China Trading Co., Ld**  — p. 173
+
+**Koon Cheong Engineering Works**  — p. 173
+
+### Hupeh, Ichang
+
+**Yu Chang Hsien & Co** (Minor Repairs) — p. 173
+
+**Yung Cheang & Co** (Minor Repairs) — p. 173
+
+### Kiangsu, Shanghai
+
+**Shanghai Dock & Engineering Co., Ld** (British) 5 Docks, 355 to 532 ft. long and 53 to 77 ft. broad. — p. 173
+
+**Kiangnan Dock & Engineering Works** (Chinese Government) Dock 560' long, 70' wide, 19' deep. — p. 173
+
+**New Engineering & Shipbuilding Co., Ld** (British) Dock 577' long, 70' wide, 21' deep. — p. 173
+
+**Marine Motor Works** (British) Pootung. — p. 173
+
+**Societe Franco-Chinoise de Constructions Metalliques et Mecaniques** (formerly Nicholas Tzu). — p. 173
+
+**China Merchants Engineering Works** (Chinese). — p. 173
+
+**Eastern Engineering & Shipbuilding Works** (Sino-Japanese). — p. 173
+
+**Asiatic Engineering Co**  — p. 173
+
+**Yuen Chong Engineering Works**  — p. 173
+
+**China Machine Works, Ld** (Chinese), and some forty smaller Establishments. — p. 173
+
+### Kwangtung, Canton
+
+**Kwangtung Engineering, Commercial and Construction Co** (Chinese) — p. 173
+
+**Hip Tung Wo** (Chinese) Motor Engine Works. Manufactures imitations of Bolinder Internal Combustion Engines. — p. 173
+
+
+## Ch. VIII DOCKYARDS, ENGINEERING WORKS—ELECTRICITY WORKS
+
+**Quan Wo On** (Chinese) Suction Gas Engines. — p. 174
+
+**Chung Lee Hop Kee** Shipbuilding and Engineering. — p. 174
+
+**Lu Man Engineering Works**  — p. 174
+
+### Honam
+
+**Chu Kong Motor Boat Co., Ld** Motor boats and engines. — p. 174
+
+### Whampoa
+
+**Chinese Government Dockyard**  — p. 174
+
+### Hongkong
+
+**Hongkong & Whampoa Dock Co., (Ld.)** (British) 8 berths, 6 docks and 2 slips. (No. 1 Dock is 700' × 86' × 30'.) — p. 174
+
+**Taikoo Dockyard & Engineering Co., Ld** (British) Dock 787' long and 120' wide. Eight slips. — p. 174
+
+**W. S. Bailey & Co., Ld** (British) Kowloon Bay. Engineers and Shipbuilders. — p. 174
+
+**Kwong Hip Ling** (Chinese). — p. 174
+
+### Antung
+
+**Takami Shipbuilding Yard** (Japanese) 1917. Wooden vessels. — p. 174
+
+### Dairen
+
+**Kawasaki Dockyards Co. of Kobe**  — p. 174
+
+### Harbin
+
+**M. Shuravieff Engine Works**  — p. 174
+
+**Klingman Bros. Engine Works**  — p. 174
+
+**Chen Hung Ho Chi Iron Works**  — p. 174
+
+### Anking
+
+**Electric Light Co** KW. 300. — p. 174
+
+### Hohpei
+
+**Yaoyuan Electric Light Co** Capital $60,000. — p. 174
+
+### Pengyu
+
+**Peng Yaohwai Electric Light Co., Ld** Capital $150,000. KW. 210. — p. 174
+
+### Tatung
+
+**Tatung Electric Light Co., Ld** Capital $100,000 KW. 108. — p. 174
+
+### Wuhu
+
+**Wuhu Electric Light Co** Capital Tls. 180,000 KW. 200. — p. 174
+
+### Changhing
+
+**Changhing Electric Light Co** Capital $40,000. KW. 25. — p. 174
+
+### Chinghai
+
+**Chinghai Huamin Electric Co., Ltd** Capital $80,000. KW. 62. — p. 174
+
+**Chinghai Ming Ming Electric Co** Capital $50,000. KW. 40. — p. 174
+
+### Chuhsien
+
+**Chuhsien Electricity Co., Ltd** Capital $70,000. KW. 72. — p. 174
+
+### Haining
+
+**Haining Kiashih Electric Light Co** Capital $30,000. KW. 40. — p. 174
+
+### Hangchow
+
+**Hangchow Ta Yu Li Electric Light Co** (Capital $350,000). KW. 1,000. — p. 174
+
+### Huchow
+
+**Wuhsing Electricity Co** Capital $120,000. KW. 284. — p. 174
+
+**Wuhsing Shwinglingchen Electric Light Co** Capital $40,000. KW. 40. — p. 174
+
+### Kashan
+
+**Changyua Electric Light Co** Capital $25,000. KW. 30. — p. 174
+
+
+## Electricity Works
+
+### Kashing
+
+**Chingsin Electric Light Co** Capital $18,000. KW. 24. — p. 175
+
+**Kashing Yung Ming Electric Light Co** Capital $100,000. KW. 85. — p. 175
+
+### Kinhwa
+
+**King hwa Electric Light Co** Capital $16,000. KW. 20. — p. 175
+
+### Linghuchen
+
+**Linghu Tunglee Electric Light Co** Capital $20,000. KW. 50. — p. 175
+
+### Ninghai
+
+**Ninghai Henlee Electric Light Co** Capital $100,000. KW. 65. — p. 175
+
+### Ningpo
+
+**Yunyao Electricity Co** Capital $500,000. KW. 120. — p. 175
+
+### Pinghu
+
+**Pinghu Electricity Co** Capital $30,000. K.W. 60. — p. 175
+
+### Pingyaochen
+
+**Hsuanyang Electric Light Co** Capital $20,000. KW. 44. — p. 175
+
+### Puyuanchen
+
+**Puyuanchen Electric Light Co** Capital $20,000. KW. 20. — p. 175
+
+### Shaohing
+
+**Shaohing Huakwang Electric Light Co., Ltd** Capital $100,000. K.W. 420. — p. 175
+
+### Shihpu
+
+**Shihpu Mingsin Electric Light Co** Capital $30,000. KW. 30. — p. 175
+
+### Siaoshan
+
+**Siaoshan Kungmin Electricity Co** Capital $25,000. KW. 50. — p. 175
+
+### Suianhsien
+
+**Suian Nanti Electricity Light Co., Ltd** Capital $12,000. KW. 12. — p. 175
+
+### Szeanchen
+
+**Pu Chao Electric Light Co** Capital $25,000. KW. 40. — p. 175
+
+### Tinghai
+
+**Chowshan Electricity Co., Ltd** Capital $50,000. KW. 30. — p. 175
+
+### Wangtienchen
+
+**Wangtienchen Yaoming Electric Light Co., Ltd** Capital $15,000. KW. 20. — p. 175
+
+### Yuhang
+
+**Yuhang Electric Light Co**  — p. 175
+
+### Yungkia
+
+**Yunkia Pohua Electric Light Co., Ltd** Capital $80,000. KW. 100. — p. 175
+
+### Chinwangtao
+
+**Kailan Mining Administration's Plant**  — p. 175
+
+### Jehol
+
+**Chihfeng Electric Light Co** Capital $80,000 KW. 100. — p. 175
+
+### Kaoyang
+
+**Kaoyang Electric Light & Power Supply Co** Capital $130,000 KW. 200. — p. 175
+
+### Kalgan
+
+**North China Light Co., Ltd** Capital $350,000. KW. 120. — p. 175
+
+### Lutaichen
+
+**Chiyeh Electric Light Co** Capital $100,000. KW. 100. — p. 175
+
+### Paoting
+
+**Paoting Electric Light Co., Ltd** Capital $200,000. KW. 187. — p. 175
+
+### Peking
+
+**Peking Chinese Merchants' Electric Light & Power Co** Supplies Peking City. Capital $6,000,000. KW. 5,400. — p. 175
+
+**Peking Electric Co., Ltd** Supplies Legation quarter. — p. 175
+
+**Tung An Bazaar Electric Light Co** Capital $100,000. KW. 120. — p. 175
+
+**Imperial Electric Light and Power House**  — p. 175
+
+### Shanhaikuan
+
+**Shanhaikuan Electric Light Co., Ltd** Capital $150,000. KW. 60. — p. 176
+
+### Shihkiachwang
+
+**China Interior Electric Light Co., Ltd** Capital $200,000. KW. 100. — p. 176
+
+### Tientsin
+
+**British Municipal Power Plant** (Supplies British Concession and Ex-German Concession). KW. 2,000. — p. 176
+
+**French Municipal Power Plant**  — p. 176
+
+**Japanese Concession Municipal Power Plant**  — p. 176
+
+**Compagnie de Tramways et D'Eclairage de Tientsin** (Belgian) Supplies Tientsin City and trams. Capital Frs. 6,250,000. KW. 6,000. — p. 176
+
+### Tongshan
+
+**The Kailan Mining Administration** operates generating stations at all its collieries. — p. 176
+
+**Hwa Kee Tongshan Electric Light Co., Ltd** Capital $150,000. KW. 200. — p. 176
+
+### Tsanghsien
+
+**Tsanghsien Electric Light Co., Ltd** Capital $70,000. KW. 75. — p. 176
+
+### Tungchow
+
+**Tunghsien Electric Light Co., Ltd** Capital $60,000. KW. 60. — p. 176
+
+### Yangliutsing
+
+**Yangliutsing Electric Light Co** Capital $100,000. KW. 150. — p. 176
+
+### Amoy
+
+**The Amoy Electric Light & Power Co** Capital $300,000. KW. 1,200. — p. 176
+
+**John Richards & Co** (Kulangsu) (British) KW. 125. — p. 176
+
+### Chuanchow
+
+**Chuanchow Electric Light Co., Ltd** Capital $100,000 KW. 75. — p. 176
+
+### Changchow
+
+**Lungchi Electric Light Co** Capital $100,000. KW. 80. — p. 176
+
+### Shihma
+
+**Hwa Tai Electric Light Co** Capital $11,500. KW. 37. — p. 176
+
+### Foochow
+
+**Foochow Electric Co., (Chinese) 1911** Capital $1,200,000. KW. 1,500 — p. 176
+
+### Futsing
+
+**Futsing Electric Light Co., Ld** Capital $30,000. KW. 45. — p. 176
+
+### Kienow
+
+**Kienow Electricity Co., Ltd** Capital $80,000. KW. 40. — p. 176
+
+### Kutienhsien
+
+**Kutien Shiukow Electric Light Co., Ltd** Capital $20,000. KW. 21. — p. 176
+
+### Shihma
+
+**Shihma Huatai Electric Light Co** Capital $11,500. KW. 37. — p. 176
+
+### Yunchun
+
+**Yungchun Electric Light Co., Ltd** Capital $50,000. KW. 100. — p. 176
+
+### Chengchow
+
+**Chengchow Mingyuan Electric Light Co** Cap. $300,000. KW. 340. — p. 176
+
+### Kaifeng
+
+**Kaifeng Puling Electric Light Co., Ltd** Cap. $200,000. KW. 105. — p. 176
+
+### Loyang
+
+**Loyang Chaoling Electric Light Co., Ltd** Cap. $50,000. KW. 80. — p. 176
+
+### Shangkiu
+
+**Shangkiu Hwaming Electric Light Co** Capital $100,000. KW. 180. — p. 176
+
+### Sinyang
+
+**Kwanghua Electric Light Co** Cap. $100,000. KW. 75. — p. 176
+
+
+## Flour Mills
+
+### Chefoo
+
+**Sui Feng Flour Mill**  — p. 185
+
+### Tsinan
+
+**Feng Nien Flour Mill**  — p. 185
+
+**Hsingshunfu Oil & Flour Mill**  — p. 185
+
+**Ming An Flour Mill**  — p. 185
+
+**Mao-hsin**  — p. 185
+
+**Hua Ch'ing**  — p. 185
+
+**Pu-li**  — p. 185
+
+**Ch'eng Feng**  — p. 185
+
+**Chi Feng**  — p. 185
+
+**Heng Hsing**  — p. 185
+
+**T'ung Feng**  — p. 185
+
+**Cheng Li Hou**  — p. 185
+
+### Tsiningchow
+
+**Chi-feng Flour Mill**  — p. 185
+
+### Tehchow
+
+**Chi-feng Flour Mill** (Branch). — p. 185
+
+### SZECHWAN: Chungking
+
+**Chi Nien Kung Hsu** Changshouhsien. — p. 185
+
+### Aigun
+
+**Yungchi Mill**  — p. 185
+
+### Tiehling
+
+**Manchuria Flour Mill, Ltd** (Japanese) — p. 185
+
+### Liaoyang
+
+**Ghauntai Flour Mill** (Chinese). — p. 185
+
+**Sino-Japanese Flour Mill** (Japanese). — p. 185
+
+### Changchun (Kwanchengtzu)
+
+**Manchuria Flour Mill, Ltd** (Japanese). — p. 185
+
+**China Flour Mill, Ltd**  — p. 185
+
+**Yuchangyuan Flour Mill** (Chinese). — p. 185
+
+**Seshankoku Flour Mill** (Russian). — p. 185
+
+### Dairen
+
+**China Flour Mill, Ltd** (Japanese). — p. 185
+
+**Asia Flour Mill** (Japanese). — p. 185
+
+### Harbin
+
+**Tien Hsing Fu Harbin Mill**  — p. 185
+
+**Russian Flour Mill**  — p. 185
+
+**Yung Sheng Flour Mill** (French). — p. 185
+
+**Shuanghoseng Flour Mill** (Chinese). — p. 185
+
+**Torkansk Mill**  — p. 185
+
+**Kuangyuansheng Mill** (Chinese). — p. 185
+
+**Kasatkin Mill** (Soskin & Co., General Managers). — p. 185
+
+**Manchuria Flour Mill** (Harbin branch). (Japanese). — p. 185
+
+**Moschiisky Mill** (Russian). — p. 185
+
+**East Asia Flour Mill** (Chinese). — p. 185
+
+**Chengtai Mill** (Chinese). — p. 185
+
+**Chengfahsiang Mill** (Chinese). — p. 185
+
+**Irkoutsk Mill** (Russian). — p. 185
+
+
+## Flour Mills—furniture Factories
+
+**Robachiaeff Mill** (Japanese : now Manchurian Flour Milling Co.) — p. 186
+
+**Tung Hsing Flour Mill**  — p. 186
+
+**Amur Company** (Russian). — p. 186
+
+**North Manchuria Flour Mill** (Japanese). (Amalgamated with Manchuria Flour Mill.) — p. 186
+
+### Mukden.
+
+**Manchuria Flour Mill, Ltd**  — p. 186
+
+### Kaiyuan.
+
+**Asia Flour Mill** (Under Sino-Japanese joint management). — p. 186
+
+### Fushun.
+
+**Fukuda Flour Mill** (Japanese). — p. 186
+
+**Chienchinchai Flour Mill** (Japanese). — p. 186
+
+### Suspingkai.
+
+**Temonchang Flour Mill** (Chinese). — p. 186
+
+### Ninguta, Kirin.
+
+**Changning Flour Mill** (Chinese). — p. 186
+
+**Yunshun Mill** (Chinese). — p. 186
+
+**Hsinhua Mill** (Chinese) — p. 186
+
+**Funing Mill** (Chinese). — p. 186
+
+### Kirin.
+
+**Yushunho Mill** (Chinese). — p. 186
+
+**Yoshunho Flour Mill** (Chinese). — p. 186
+
+**Hengmao Flour Mill** (Chinese). — p. 186
+
+### Shuangchengpu.
+
+**Russian Flour Mill (branch)** (Russian). — p. 186
+
+**Shuanghosheng Flour Mill** (Chinese). — p. 186
+
+**Nijnaya Mill** (Russian). — p. 186
+
+### Ssuchiatzu.
+
+**East Asia Mill** (Chinese). — p. 186
+
+### Imenpo.
+
+**Imenpo Mill** (Russian). — p. 186
+
+### CHIHLI. Tientsin.
+
+**Hall & Holtz, Ltd**  — p. 186
+
+**Takeuchi & Co**  — p. 186
+
+**Sims & Co**  — p. 186
+
+**Jaques & Co**  — p. 186
+
+### KIANGSU. Shanghai.
+
+**Hall & Holtz, Ltd**  — p. 186
+
+**Weeks & Co., Ltd**  — p. 186
+
+**Arts & Crafts**  — p. 186
+
+**Chun Tai & Co** (Chinese). — p. 186
+
+**V. K. Shen & Son** (Chinese). — p. 186
+
+**Shanghai House Furniture Co**  — p. 186
+
+**Lee Tung**  — p. 186
+
+
+## Furniture Factories—gas Works—glass Works
+
+### Shantung — Tsingtao
+
+**Taito Koshi Co** (Japanese). — p. 187
+
+**Ippongi Store** (Japanese). — p. 187
+
+**Mori Kaguten** (Japanese). — p. 187
+
+**Nomura Yoko** (Japanese). — p. 187
+
+**Ikeda Shigematsu** (Japanese). — p. 187
+
+**Kawaguchi Yuzo** (Japanese). — p. 187
+
+**Miyahara Co** (Japanese). — p. 187
+
+**An Chang** (Chinese). — p. 187
+
+**Hsie Tai** (Chinese). — p. 187
+
+### Manchuria — Harbin
+
+**I. I. Ivanoff** Corner Bolshoi Prospekt and Kirin Street. — p. 187
+
+**"Engineer" Co., Ltd** 4, Kitaiskaya Street, and many Chinese firms. — p. 187
+
+### Manchuria — Hantaoheitze Station (C. E. Railway)
+
+**Chinese Eastern Railway's Furniture Works**  — p. 187
+
+### Hongkong
+
+**Lane, Crawford & Co**  — p. 187
+
+**Wm. Powell, Ltd**  — p. 187
+
+**Hongkong Furniture Co**  — p. 187
+
+### Gas Works — Kiangsu — Shanghai
+
+**Shanghai Gas Co., Ltd**  — p. 187
+
+### Gas Works — Manchuria — Dairen
+
+**South Manchuria Ry., Co's Gas Works**  — p. 187
+
+### Gas Works — Hongkong
+
+**Hongkong & China Gas Co., Ltd**  — p. 187
+
+### Glass and Porcelain Works — Chekiang — Ningpo
+
+**Ming Hwa Glass Works** Lamp Chimneys and Coloured Glass Bottles. (Chinese) Capital $40,000. — p. 187
+
+### Glass and Porcelain Works — Chihli — Chinwangtao
+
+**Yao Hua Mechanical Glass Co., Ld** (Sino-British). — p. 187
+
+### Glass and Porcelain Works — Chihli — Peking
+
+**Kwang Ming Glass Factory** (Lamp chimneys). — p. 187
+
+### Glass and Porcelain Works — Chihli — Tientsin
+
+**Chung Chi Glass Co** (Chinese). — p. 187
+
+**Chung Li Glass Co** (Chinese). — p. 187
+
+**Mao Tai Glass Co** (Japanese). — p. 187
+
+**Yang Hsin Glass Co** (Japanese). — p. 187
+
+**Ta Hsing Glass Co** (Chinese). — p. 187
+
+**Ta Cheng Tin Cans Mfg. Co., Ltd**  — p. 187
+
+**Ming Ch'ing Glass Co** (Chinese). — p. 187
+
+**Kung Chi Glass Co** (Chinese). — p. 187
+
+**Pei Yang Glass Co** (Chinese). — p. 187
+
+
+## Glass & Porcelain Works
+
+### Fukien / Amoy
+
+**Kong Tiong Huat Lamp Chimney Factory**  — p. 188
+
+### Fukien / Foochow
+
+**Sheng Kung Hsin Lamp Chimney Factory**  — p. 188
+
+### Hunan / Changsha
+
+**San Ho Company. (Japanese) Lamp chimneys**  — p. 188
+
+**Yu Lo Shan Industrial School. Glass factory**  — p. 188
+
+### Hunan / Liling
+
+**One porcelain factory**  — p. 188
+
+### Hupeh / Hankow
+
+**Wuchang Glass Factory**  — p. 188
+
+**KIANGSI** The celebrated Kingtechen porcelain kilns continue to turn out porcelain mostly of inferior quality. — p. 188
+
+### Kiangsu / I-Hsing
+
+**I-Hsing Pottery Works**  — p. 188
+
+### Kiangsu / Shanghai
+
+**Paoshan Glass Factory**  — p. 188
+
+**Chung Hua Glass Factory**  — p. 188
+
+**Chung Kuo Ti Yi Glass Works**  — p. 188
+
+**China Enamelling Co., Ltd**  — p. 188
+
+**Hua Feng Enamelled Wares Factory**  — p. 188
+
+**Yi Feng Enamelled Wares Factory**  — p. 188
+
+**Chen Hua Enamelling Powder Factory**  — p. 188
+
+**Yao Ming Lamp Mfg. Co**  — p. 188
+
+**Shanghai Glass Co., (Chinese) Lamp, bottles, etc**  — p. 188
+
+### Kwangtung / Canton
+
+**Ta Tung Glass Factory, Kayinghsien, (Chinese) Lamp chimneys**  — p. 188
+
+**Hsiung Ho Glass Factory, Kayinghsien, (Chinese) Lamp chimneys**  — p. 188
+
+**Li Ming Mirror Factory**  — p. 188
+
+### Kwangtung / Hoihow
+
+**Lamp Chimney Factory**  — p. 188
+
+### Shantung / Chefoo
+
+**Chang Yu Wine Co., (Bottles)**  — p. 188
+
+**Tung Chi Glass Co., (Lamp chimneys and ornaments)**  — p. 188
+
+### Shantung / Tsinan
+
+**P'u-Li Company**  — p. 188
+
+**Chung-Hua Glass Ware Factory (Japanese)**  — p. 188
+
+**Peiyang Glassware Factory**  — p. 188
+
+### Shantung / Tsingtao
+
+**Santo Yogyo Co. (Japanese)**  — p. 188
+
+### Szechwan / Chengtu
+
+**Hsin Hsing Porcelain Co**  — p. 188
+
+
+## Glass Works—glass-cloth—ice & Cold Storage Works
+
+### Chungking
+
+**Lu Hao Po Li Chang Glass Factory**  — p. 189
+
+**Shwen Chi**  — p. 189
+
+**T'ung Hsing**  — p. 189
+
+**Hwa Feng**  — p. 189
+
+**Kuang Ta Yun**  — p. 189
+
+**Hsin Li Ts'ang**  — p. 189
+
+### Yunnan, Yunnanfu
+
+**Kuang Yung An Co**  — p. 189
+
+### Manchuria, Changchun
+
+**Ito & Co., (Japanese)**  — p. 189
+
+**Hua Chang Co., (Japanese)**  — p. 189
+
+**Kirin & Changchun Glass Co**  — p. 189
+
+**Chung Hsing Pottery Co**  — p. 189
+
+### Manchuria, Newchwang
+
+**Japanese managed glass factory which produces lamp chimneys, glass lamps, and fancy lamp shades**  — p. 189
+
+### Manchuria, Dairen
+
+**South Manchuria Railway Co's. Plant**  — p. 189
+
+### Hongkong
+
+**M. Y. San Glass Factory**  — p. 189
+
+**Kwang Sang Hong**  — p. 189
+
+### Grass Cloth Factories, Hongkong
+
+**Swatow Drawn Work Co**  — p. 189
+
+**China Drawn Work Co**  — p. 189
+
+**Grass cloth, made from ramie fibre, is entirely a cottage industry. Swatow and Kiukiang are the principal centres**  — p. 189
+
+### Grass Cloth Factories, Kwangtung, Hoihow
+
+**Pandanus fibre, or "Pineapple" fibre cloth, similar to grass-cloth, is made at Wench'ang (Vensioh)**  — p. 189
+
+### Grass Cloth Factories, Hupeh, Hankow
+
+**Wuchang China Grass and Jute Mill**  — p. 189
+
+### Ice and Cold Storage Works
+
+**As far South as Shanghai most of the domestic requirements, foreign and Chinese, are met from ice collected in the winter, and stored, in specially constructed huts, during the hot weather**  — p. 189
+
+### Ice and Cold Storage Works, Chihli, Tientsin
+
+**International Export Co**  — p. 189
+
+**Kwei Feng Ice Co**  — p. 189
+
+**China Mongolia Export Co., (American) Ice Factory and Cold Storage**  — p. 189
+
+**The American garrison also has its own plant**  — p. 189
+
+### Ice and Cold Storage Works, Fukien, Amoy
+
+**The Amoy Pharmacy (Kulangsu) Ice**  — p. 189
+
+### Ice and Cold Storage Works, Fukien, Changchow
+
+**The Chiang-tung Industry Co., Ld. Ice**  — p. 189
+
+
+## Ice & Cold Storage Works
+
+### Foochow
+
+**Foochow Electric Light Co. (Chinese)**  — p. 190
+
+### Changsha
+
+**Standard Oil Co.'s. Installation**  — p. 190
+
+**Shui Lu Chou. (Chinese)**  — p. 190
+
+**Siang Nan Co., (Chinese)**  — p. 190
+
+### Hankow
+
+**Chuka Ice Works. (Japan)**  — p. 190
+
+**International Export Co., Ld**  — p. 190
+
+**Hankow Ice Works**  — p. 190
+
+**Molchanoff, Petchanoff & Co**  — p. 190
+
+### Ichang
+
+**Ichang Ice & Machine Works, Inc. (American)**  — p. 190
+
+### Nanking
+
+**International Export Co., Ld** This plant is one of the largest cold storage factories in the world. — p. 190
+
+### Shanghai
+
+**Shanghai Ice & Cold Storage Co., Ld**  — p. 190
+
+**Tien Yan Pin Tsung Kung Ssu**  — p. 190
+
+**Chia Feng Ice Factory**  — p. 190
+
+**Yun Chi Ice Factory**  — p. 190
+
+**Hsin Hsieh Chi Ice Factory**  — p. 190
+
+### Canton
+
+**Canton Ice Factory**  — p. 190
+
+**Dairy Farm, Ice & Cold Storage Co. (Shameen) (British)**  — p. 190
+
+### Hoihow
+
+**Hoihow Ice Co. (Chinese)**  — p. 190
+
+### Swatow
+
+**Swatow Ice Co. (British) Bradley & Co., Ld**  — p. 190
+
+### Chefoo
+
+**Chia Min Pure Ice & Refrigeration Co**  — p. 190
+
+### Tsingtao
+
+**Dairen Ice Mfg. Co. (Japanese)**  — p. 190
+
+**Tsingtao Cold Storage Co. (Japanese)**  — p. 190
+
+### Chungking
+
+**Ho Fu Ice Works. (Chinese)**  — p. 190
+
+### Dairen
+
+**Kojima Seinyojo. Ice Factory and Cold storage**  — p. 190
+
+**Manchuria Ice & Cold Storage Co**  — p. 190
+
+**Shantung Ice Manufacturing Co. (works only in summer season)**  — p. 190
+
+### Harbin
+
+**The Produce Export Co., Ld. (British)**  — p. 190
+
+**Harbin Municipal Council Cold Store**  — p. 190
+
+### Hongkong
+
+**The Dairy Farm, Ice and Cold Storage Co., Ltd** (Ice and cold storage). — p. 190
+
+
+## Iron-Works
+
+### Copper Smiths: Manchuria, Harbin
+
+**S. Ginsburg** 3rd Line, 6th House, Pristan. — p. 191
+
+### Iron and Steel Works: Chihli, Peking
+
+**Lung Yen Mining Co's. Steel Mill**  — p. 191
+
+### Iron and Steel Works: Chihli, Tientsin
+
+**Ohiro Iron Works**  — p. 191
+
+**Pei Yang Ch'uan Yeh Iron Works**  — p. 191
+
+### Iron and Steel Works: Chihli, Sin Jih Tseng
+
+**Sun Da Iron Works, Ltd**  — p. 191
+
+### Iron and Steel Works: Honan, Hsuchow
+
+**Ching Hsin Iron Works**  — p. 191
+
+### Iron and Steel Works: Hupeh, Hankow
+
+**Liu Hou Kow Blast Furnace**  — p. 191
+
+**Yangtze Engineering Works, Ld. blast furnace. (Closed)**  — p. 191
+
+**Hanyang Iron & Steel Works** Owned by Hanyehping Iron and Coal Co. Financially controlled by the Japanese. — p. 191
+
+**Pao Chong Ironworks**  — p. 191
+
+**Yee Chang & Co**  — p. 191
+
+**Koon Cheong Engineering Works**  — p. 191
+
+### Iron and Steel Works: Hupeh, Hanyang
+
+**Chinese Iron Works Co., Ltd**  — p. 191
+
+### Iron and Steel Works: Hupeh, Liu Chia Miao
+
+**Chung Hwa Ironworks**  — p. 191
+
+### Iron and Steel Works: Kiangsi, Kiukiang
+
+**Hsing Hua Engineering Works**  — p. 191
+
+### Iron and Steel Works: Kiangsu, Paoshan
+
+**Chinese Iron Works Co., Ltd**  — p. 191
+
+### Iron and Steel Works: Kiangsu, Shanghai
+
+**Woo Shing Iron and Steel Works** (Chinese). — p. 191
+
+**Kung Chin Iron Works, Ld** (Chinese). — p. 191
+
+**Kung Hsing Iron Works. Ld**  — p. 191
+
+**Tuck Tai Iron Works**  — p. 191
+
+### Iron and Steel Works: Shantung, Chefoo
+
+**Ya Ching & Co** Ship engines, stoves, presses, etc. — p. 191
+
+**Tai Chang & Co** Ship engines, stoves, presses, etc. — p. 191
+
+### Iron and Steel Works: Shantung, Tsinan
+
+**Chin Ch'i T'ai (Iron Works)**  — p. 191
+
+**Ch'i Lu (Iron Works)**  — p. 191
+
+**Jih Hsing (Iron Works)**  — p. 191
+
+**Chin T'ai (Iron Works)**  — p. 191
+
+**Chung Fa T'ai (Iron Works)**  — p. 191
+
+**Hsing Shun Fu**  — p. 191
+
+**Hêng Fêng**  — p. 191
+
+
+## Iron-works—tanneries
+
+### Iron-Works — Tsingtao
+
+**Marubishi & Co. (Chinese)**  — p. 192
+
+**Hosei Koshi Ironworks. (Japanese)**  — p. 192
+
+**Umezawa Store. (Japanese)**  — p. 192
+
+**Mizuta Iron Works. (Japanese)**  — p. 192
+
+**Tentoku Iron Works. (Japanese)**  — p. 192
+
+**Harada Ironworks. (Japanese)**  — p. 192
+
+**Kinshin Koshi Ironworks. (Japanese)**  — p. 192
+
+**Kintai Koshi Ironworks. (Japanese)**  — p. 192
+
+**Tsuno Ironworks. (Japanese)**  — p. 192
+
+**Utaka Ironworks. (Japanese)**  — p. 192
+
+**Koto Ironworks. (Japanese)**  — p. 192
+
+**Taito Koshi Ironworks. (Japanese)**  — p. 192
+
+**Ssu-Fang Ironshop of Kiaochao-Tsinan Railway. (Chinese)**  — p. 192
+
+**Tung I Ironworks. (Chinese)**  — p. 192
+
+**Yung Lee Ironworks. (Chinese)**  — p. 192
+
+### Iron-Works — Yunnan — Yunnanfu
+
+**Hua An Works**  — p. 192
+
+**Kung Tung Chang Co**  — p. 192
+
+**Wan Cheong Iron Works**  — p. 192
+
+### Iron-Works — Yunnan — Hsi-o
+
+**Wan Cheong Iron Works**  — p. 192
+
+### Iron-Works — Manchuria — Mukden
+
+**Anshan Iron Works. (South Manchuria Railway Co.)**  — p. 192
+
+**Penchihu Iron Works. (Penchihu). (Japanese)**  — p. 192
+
+### Iron-Works — Manchuria — Dairen
+
+**Shun Hsing Iron Works**  — p. 192
+
+### Leather Factories and Tanneries — Chekiang — Hangchow
+
+**Tai Chong Leather Factory**  — p. 192
+
+### Leather Factories and Tanneries — Chihli — Peking
+
+**Army Uniform and Equipment Factory. (Chinese Government)**  — p. 192
+
+**San Sheng Leather goods Factory**  — p. 192
+
+### Leather Factories and Tanneries — Chihli — Tientsin
+
+**Peiyang Tannery**  — p. 192
+
+**Hua Pei Tannery**  — p. 192
+
+**Chihli Industrial Laboratory**  — p. 192
+
+**Tientsin Leather Supplies Factory**  — p. 192
+
+**Yu Tsing Leather Factory**  — p. 192
+
+### Leather Factories and Tanneries — Chihli — Wan Ping Hsien
+
+**Pu Li Leather and Woollen Cloth Mfg. Co**  — p. 192
+
+### Leather Factories and Tanneries — Fukien — Amoy
+
+**Too Lam Co. (Kih Sao)**  — p. 192
+
+**Kong Kien Hoat & Co. (Kulangsu)**  — p. 192
+
+### Leather Factories and Tanneries — Fukien — Foochow
+
+**Fukien Industrial Co., Ltd**  — p. 192
+
+
+## Leather Factories & Tanneries
+
+### HUPEH. Wuchang.
+
+**Government Leather Factory** Closed down. — p. 193
+
+**Wuchang Tannery**  — p. 193
+
+### KIANGSU. Shanghai.
+
+**Chung Hwa Leather Tannery**  — p. 193
+
+**China Leather Co**  — p. 193
+
+**Loonghwa Factories 1 & 2 (Chinese)**  — p. 193
+
+**Yu Min Tannery Co., Ltd. (Japanese)**  — p. 193
+
+**Shanghai Tannery Co**  — p. 193
+
+**Ta Hua Leather Factory**  — p. 193
+
+**Yu Hsin Leather Factory**  — p. 193
+
+**Several smaller factories**  — p. 193
+
+### SINKIANG. Kashgar.
+
+**Ili Leather Factory**  — p. 193
+
+**Small works**  — p. 193
+
+### KWANGTUNG. Canton.
+
+**Kong Kien Hoat & Co. (Chinese)**  — p. 193
+
+**Star Leather Co. (Chinese)**  — p. 193
+
+**Canton Tannery & Leather Works**  — p. 193
+
+**A number of small leather factories, sending hides to Hongkong**  — p. 193
+
+### SHANTUNG. Tsinan.
+
+**Chiao Tung**  — p. 193
+
+**Chüo Hua Leather Works**  — p. 193
+
+**Ta Yi**  — p. 193
+
+**Tientsin Tannery**  — p. 193
+
+### SHANTUNG. Tsingtao.
+
+**Meiji Tannery Co. (Japanese)**  — p. 193
+
+**Tokusei & Co**  — p. 193
+
+**Okura Hides Factory**  — p. 193
+
+### SZECHWAN. Chengtu.
+
+**Government Leather Factory**  — p. 193
+
+**Hui An Leather Factory**  — p. 193
+
+**Yung Hua Leather Factory**  — p. 193
+
+### SZECHWAN. Chungking.
+
+**Chuan Kung Chu (Official Industrial Institute) Leather Works**  — p. 193
+
+**Mei Ssu**  — p. 193
+
+**Chung Hsin**  — p. 193
+
+**Fu Hsin and a number of other small native tanneries**  — p. 193
+
+### YUNNAN. Yunnanfu.
+
+**Ching Tai Factory**  — p. 193
+
+**Government Tannery**  — p. 193
+
+**Kun Hua Co**  — p. 193
+
+**Hua Shêng Co**  — p. 193
+
+**Hsieh Hsing Factory**  — p. 193
+
+**Nan Hua Factory**  — p. 193
+
+**San Ho Factory**  — p. 193
+
+**Ta Yi Factory**  — p. 193
+
+
+## Ch. VIII TANNERIES—MARBLE WORKS—MATCH FACTORIES
+
+### Manchuria, Harbin
+
+**Tung Jen Leather Factory**  — p. 194
+
+**Tung Hsing Shih Yeh Kung Chang**  — p. 194
+
+### Manchuria, Mukden
+
+**Manchuria and Mongolia Leather Co** (Japanese). — p. 194
+
+### Honckong
+
+**Tung Thy, Hunghom**  — p. 194
+
+**Yau Cheung, Hunghom**  — p. 194
+
+**Tung Mow, Hunghom**  — p. 194
+
+**Thai Hing, Hunghom**  — p. 194
+
+**Kwong Tsui, Hunghom**  — p. 194
+
+**Fook On, Hunghom**  — p. 194
+
+**All the above are small factories which tan leather for Chinese shoes**  — p. 194
+
+### Marble Works, Chihli, Tientsin
+
+**Italian Marble Works** (Garibaldi & Co.) — p. 194
+
+### Match Factories, Anhwei, Wuhu
+
+**Ta Ch'ang Match Factory** (Chinese). — p. 194
+
+### Match Factories, Chekiang, Hangchow
+
+**Kuan Hua Match Factory** (Capital $200,000). — p. 194
+
+### Match Factories, Chekiang, Ningpo
+
+**Chengta Match Factory** (Capital $100,000). — p. 194
+
+### Match Factories, Chihli, Peking
+
+**Tan Hwa Match Factory** (Capital $2,000,000. The largest Factory in China). — p. 194
+
+**Tan Feng Match Factory**  — p. 194
+
+### Match Factories, Chihli, Huluhsien
+
+**Cheng Hua Match Co**  — p. 194
+
+### Match Factories, Chihli, Paichang
+
+**Yuan Hua Match Co**  — p. 194
+
+### Match Factories, Chihli, Shihchiacheng
+
+**Tseng Hwa Match Factory**  — p. 194
+
+### Match Factories, Chihli, Paotingfu
+
+**Pao Yan Match Factory**  — p. 194
+
+### Match Factories, Chihli, Lanhsien
+
+**Lanhsien Match Factory**  — p. 194
+
+### Match Factories, Chihli, Pucheng
+
+**Yung Hua Match Factory**  — p. 194
+
+### Match Factories, Chihli, Tientsin
+
+**Peiyang Match Factory**  — p. 194
+
+**Toa Match Factory** (Japanese). — p. 194
+
+**Zung Hua Match Factory** (Japanese). — p. 194
+
+**Hua Chang Match Factory** (Chinese). — p. 194
+
+**Wan Chang Match Co**  — p. 194
+
+### Match Factories, Chihli, Kalgan
+
+**Li Yuan Match Factory**  — p. 194
+
+
+## Match Factories
+
+### Fukien: Foochow
+
+**Kwok Kwang Match Factory**  — p. 195
+
+**Foochow Match Mfg. Co** (British). — p. 195
+
+**Hsing Yeh Match Co**  — p. 195
+
+### Honan: Kungshan
+
+**Shui Hwa Match Factory**  — p. 195
+
+### Honan: Kaifengfu
+
+**Ta Chung Match Factory**  — p. 195
+
+**Hung Chang Match Mfg. Co**  — p. 195
+
+### Honan: Sinsiang
+
+**Sin Hua Match Factory**  — p. 195
+
+### Honan: Loyang
+
+**Chun Chang Match Mfg. Co**  — p. 195
+
+### Hunan: Changsha
+
+**Ho Fong Kee Match Co**  — p. 195
+
+### Hupeh: Hankow
+
+**Set Chong & Co**  — p. 195
+
+**Sui Hwa Match Factory**  — p. 195
+
+### Kansu: Lanchow
+
+**Kwang Ming Match Co**  — p. 195
+
+### Kansu: Tsinchow
+
+**Ping Hsing Match Co**  — p. 195
+
+**Sui Hwa Match Manufacturing Co**  — p. 195
+
+### Kiangsi: Kiukiang
+
+**Yu Sung Match Factory** (Chinese). — p. 195
+
+### Kiangsu: Shanghai
+
+**Hsien Chang**  — p. 195
+
+**Hung Sun Match Factory**  — p. 195
+
+**Si Chang Match Co**  — p. 195
+
+**Sui Wha & Co., Ld**  — p. 195
+
+**Yung Chang, Pootung**  — p. 195
+
+**Hua Ch'ang Match Factory**  — p. 195
+
+**Chung Hua Match Factory**  — p. 195
+
+**Pu Yi Match Factory**  — p. 195
+
+**Heng Ch'ang Match Factory**  — p. 195
+
+**Li Min Match Factory**  — p. 195
+
+**Kiu Heng Teh Match Chip Co**  — p. 195
+
+### Kiangsu: Chinkiang
+
+**Yung Chang Co**  — p. 195
+
+**Sui Sheng Co** (Japanese). — p. 195
+
+### Kiangsu: Soochow
+
+**Set Chong Match Factory**  — p. 195
+
+**Heng Sheng Match Co**  — p. 195
+
+### KWANGTUNG. Canton.
+
+**Wen Ming Match Co**  — p. 196
+
+**Man Sang Factory, Yim Po**  — p. 196
+
+**Sainam Factory, Sainam**  — p. 196
+
+**Kut Cheong, Honam**  — p. 196
+
+**Kwangtung Match Factory, Wongsha**  — p. 196
+
+**Chung Kwok, Tai Ping Fong, Canton**  — p. 196
+
+**Tungshan Factory, Tungshan**  — p. 196
+
+**Tai Min Kwok**  — p. 196
+
+**Kung Yik Factory**  — p. 196
+
+**Kwang Tah Match Factory**  — p. 196
+
+**Kwang Yik Match Factory**  — p. 196
+
+**Tai Yik Match Factory**  — p. 196
+
+**Hing Ah Match Factory**  — p. 196
+
+**Kwong Chung Hing Match Factory**  — p. 196
+
+### KWANGTUNG. Kongmoon.
+
+**Suicheong Match Factory**  — p. 196
+
+### KWANGTUNG. Fatshan.
+
+**Hao Ming Match Factory**  — p. 196
+
+**Kwangchow Match Factory**  — p. 196
+
+### KWANGTUNG. Swatow.
+
+**Yau Hua** Capital $100.000. — p. 196
+
+**Meng Sing** Capital $40,000. — p. 196
+
+### KWANGTUNG. Szewui.
+
+**Leung Yueh Match Partnership**  — p. 196
+
+### SHANSI. Kiangchow.
+
+**Jung Chang Match Co**  — p. 196
+
+### SHANSI. Taiyuan.
+
+**Shaung Fu Match Co**  — p. 196
+
+### SHANSI. Sinchiang.
+
+**Yun Chang Match Co**  — p. 196
+
+### SHANSI. Pingyaohsien.
+
+**One Japanese Match Factory**  — p. 196
+
+**King Chin Match Co**  — p. 196
+
+### SHANSI. Tseiengwiahsien.
+
+**Paoyung Match Co**  — p. 196
+
+### SHANSI. Nanchang.
+
+**Nanchang Yihan Match Co**  — p. 196
+
+### SHENSI. Ninkiang.
+
+**Ninkiang Match Co**  — p. 196
+
+### SHANTUNG. Chingchowfu City.
+
+**Tung-i Match Factory**  — p. 196
+
+### SHANTUNG. Chefoo.
+
+**Chung Fu Match Co**  — p. 196
+
+### SHANTUNG. Fengyang.
+
+**Hwai Shang Ti Match Co**  — p. 196
+
+### SHANTUNG. Tsimo.
+
+**Chen Tung Match Factory**  — p. 196
+
+### SHANTUNG. Tsin[illegible].
+
+**Chen Yih Match Company**  — p. 196
+
+**Hsiang Yang Match Factory** (Japanese). — p. 197
+
+**Tung Lu Match Factory** (Japanese). — p. 197
+
+### Tsinglao.
+
+**Shantung Match Factory** (Japanese). — p. 197
+
+**Tsingtao Match Factory** (Japanese). — p. 197
+
+**Toro Match Factory** (Japanese). — p. 197
+
+### Tsangkow.
+
+**Fukuryu Match Co** (Japanese). — p. 197
+
+### Szechwan, Chengtu.
+
+**Hui Chang Match Factory**  — p. 197
+
+**Hsing Hsing Co**  — p. 197
+
+### Szechwan, Chuihsien.
+
+**San Yi Match Co**  — p. 197
+
+### Szechwan, Chungking.
+
+**Hwei Ni Huo Ch'ai Kung Si**  — p. 197
+
+**Tung Hwa Huo Ch'ai Kung Si**  — p. 197
+
+### Szechwan, Hochuen.
+
+**Ho Yo Match Co**  — p. 197
+
+### Szechwan, Kiangpai.
+
+**Chih Yi Match Co**  — p. 197
+
+### Szechwan, Luchow.
+
+**Star Safety Match Co**  — p. 197
+
+### Shiuchang.
+
+**Shui Chang Match Co**  — p. 197
+
+### Yosanhsien.
+
+**Si Yih Match Co**  — p. 197
+
+### Yunnan, Yunnanfu.
+
+**Sui Hua Co**  — p. 197
+
+**Lee Yih Co**  — p. 197
+
+**Ming Hua Match Co**  — p. 197
+
+### Yunnan, Yiliang.
+
+**Chi Yi Co**  — p. 197
+
+### Yunnan, Menghua.
+
+**Yung Li Co**  — p. 197
+
+### Yunnan, Luliang.
+
+**Jung Sên Co**  — p. 197
+
+### Yunnan, Posan.
+
+**Yung Fu Co**  — p. 197
+
+### Yunnan, Talifu.
+
+**Chai Haing Co**  — p. 197
+
+### Yunnan, Tayao.
+
+**Fu Chang Co**  — p. 197
+
+### Yunnan, Tungchow.
+
+**Têchang Co**  — p. 197
+
+### Manchuria, Kirin.
+
+**Kirin Match Kabushiki Kwaisha**  — p. 197
+
+**Shih Yi Match Co**  — p. 197
+
+**Kifu Match Factory**  — p. 197
+
+### Manchuria, Antung.
+
+**Antung Match Seizei Kabushiki Kwaisha**  — p. 197
+
+
+## Match & Nail & Needle Factories—oil & Beancake Factories
+
+### Harbin
+
+**Sin Hua Match Factory**  — p. 198
+
+**In Fuchiatien (Chinatown) upwards of 80 factories**  — p. 198
+
+### Changchun
+
+**Changchun Match Factory** (Sino-Japanese). — p. 198
+
+**Nishin Match Co** (Sino-Japanese). — p. 198
+
+### Newchwang
+
+**Tze Yuan Match Co** (closed down). — p. 198
+
+**Kwangtung Hoo Chai Kungssu** (Chinese). — p. 198
+
+**San Ming Match Co**  — p. 198
+
+**Sheng Shêng Match Factory** (Chinese). — p. 198
+
+### Dairen
+
+**Manshu Match Factory**  — p. 198
+
+### Mukden
+
+**Toa Match Co** (Japanese). — p. 198
+
+### Tunghwa
+
+**Chang Yuan Match Co**  — p. 198
+
+### MONGOLIA — Shuangchen
+
+**Sin Hua Match Co**  — p. 198
+
+### HUPEH — Hankow
+
+**The Government Nail and Needle Factory at Hanyang was closed down some years ago**  — p. 198
+
+### HUPEH — Hanyang
+
+**Hsu Ching Yuan Nail Factory**  — p. 198
+
+### KIANGSU — Shanghai
+
+**Tung Sheng Nail Factory, Ld**  — p. 198
+
+**Hua Feng Needle Factory**  — p. 198
+
+### SHANTUNG — Tsinan
+
+**Hua Fêng Needle Manufacturing Co**  — p. 198
+
+### CHEKIANG — Ningpo
+
+**Tung Li Yuan Oil Mill** (Capital $40,000). — p. 198
+
+### CHIHLI — Tientsin
+
+**North China Oil Mill** (Chinese). — p. 198
+
+**Tientsin Oil Factory** (Italian) Marzoli & Co. — p. 198
+
+**Tung Hsing Groundnut Oil Co** (Chinese). — p. 198
+
+**Tih Hwa Oil Mill**  — p. 198
+
+**National Oil Mill**  — p. 198
+
+**Sin Lung Oil & Wine Mfg. Co**  — p. 198
+
+**Yuen Foong Oil Mill**  — p. 198
+
+
+## Oil & Beancake Factories
+
+### FUKIEN: Changchow
+
+**Three Companies**  — p. 199
+
+### FUKIEN: Shih Ma
+
+**Five Companies** (4 mills). — p. 199
+
+### HUPEH: Hanyang
+
+**Bean and Cottonseed Oil Mill** (Chinese). — p. 199
+
+**Cotton and Bean Oil Pressing Mill** (Chinese). — p. 199
+
+**Fu Ho Oil Mill**  — p. 199
+
+**Hsing Yin Oil Mill**  — p. 199
+
+**Hsi Shun Oil Mill Co** (Chinese). — p. 199
+
+**Shun Feng Oil Mill** (Chinese). — p. 199
+
+**Tien Shun Oil Mill Co** (Chinese). — p. 199
+
+**Ying Feng Oil Mill Co** (Chinese). — p. 199
+
+**Yu Feng Oil Mill Co** (Chinese). — p. 199
+
+**Yung Chang Oil Mill Co** (Chinese). — p. 199
+
+### HUPEH: Hankow
+
+**Sing Oil Mill**  — p. 199
+
+### KIANGSU: Chinkiang
+
+**Tu Yuan Oil Mill**  — p. 199
+
+**Chinkiang Oil Crushing Co**  — p. 199
+
+### KIANGSU: Haichow
+
+**Kiang Feng Oil Crushing Co**  — p. 199
+
+### KIANGSU: Nantungchow
+
+**Kuang Sheng Oil Mill**  — p. 199
+
+### KIANGSU: Shanghai
+
+**Tseng Yu** (Chinese). — p. 199
+
+**Wu Fang** (Chinese). — p. 199
+
+**The Min Ta Lard Factory**  — p. 199
+
+**Tseng Yu** (Chinese). — p. 199
+
+**Wu Fang** (Chinese). — p. 199
+
+**Shun Ching Refined Lard Co., Ltd**  — p. 199
+
+**Hsieh Lung Lard Factory**  — p. 199
+
+**Chin Hsing Lard Factory**  — p. 199
+
+**Kuang Yu Yuan Lard Factory**  — p. 199
+
+**Lih Teh Oil Mill Co., Ld** (A. R. Burkill & Sons, Agents). — p. 199
+
+**Shanghai Oil Mill** (Japanese). — p. 199
+
+**Heng Yu** (Chinese). — p. 199
+
+**Heng Ya** (Chinese). — p. 199
+
+**Mo Feng** (Chinese). — p. 199
+
+**Ta Teh** (Chinese). — p. 199
+
+**Ta Yu** (Financed by Mitsui Bussan Kaisha). — p. 199
+
+**Tung Chang** (Chinese). — p. 199
+
+**Seng Ho** (Chinese). — p. 199
+
+**Ge Chang Yuen** (Chinese). — p. 199
+
+**Hsin Chang** (Chinese). — p. 199
+
+### KIANGSU: Wusih
+
+**Jen Feng**  — p. 199
+
+**Chien Feng**  — p. 199
+
+**Heng Feng-tai**  — p. 199
+
+**Chen Mou**  — p. 199
+
+**San Ho** Jui Yuan. Chen Kang. Heng Teh. Yuan Tai. — p. 199
+
+### Kwangtung / Pakhoi
+
+**Native oil presses produce ground-nut oil**  — p. 200
+
+### Shantung / Chefoo
+
+**Kien Chong** (Chinese). — p. 200
+
+**Lai Yung Tsuen** (Chinese). — p. 200
+
+**Ju Chang Hoa** (Chinese). — p. 200
+
+**Tang Jue Hung** (Chinese). — p. 200
+
+**Yuan Hoa Tai** (Chinese). — p. 200
+
+**and others**  — p. 200
+
+### Shantung / Tsinan
+
+**Hsieh Hsin Tung Co** (Chinese) Ichowfu. (Closed at present). — p. 200
+
+**Yih Sing Tung Oil Mill** Ichowfu. — p. 200
+
+**Hsing-Shun-Fu** (Oil and Flour Mill.) — p. 200
+
+**Tung Yu Lung Oil Mill**  — p. 200
+
+**T'ung Hsing T'ai** (Oil Mill). — p. 200
+
+### Shantung / Tsuseen
+
+**Ho Shên Hsiang** (Oil Mill). — p. 200
+
+### Shantung / Tsingtao
+
+**Towa Oil Mill** (Japanese). — p. 200
+
+**Toyo Oil Pressing Co** (Japanese). — p. 200
+
+**Mitsubishi Oil Mill** (Japanese). — p. 200
+
+**Suzuki Oil Mill** (Japanese). — p. 200
+
+**Yoshiwaza Oil Mill** (Japanese). — p. 200
+
+**Mitsui Oil Mill** (Japanese). — p. 200
+
+**Minemura Oil Mill** (Japanese). — p. 200
+
+**Yuasa Oil Mill** (Japanese). — p. 200
+
+**Taili Oil Mill** (Japanese). — p. 200
+
+### Hongkong
+
+**Pong Wei Ting**  — p. 200
+
+### Manchuria / Antung
+
+**Antung Oil Mill**  — p. 200
+
+**Yi Hsing Oil Mill**  — p. 200
+
+**Twelve other small mills**  — p. 200
+
+### Manchuria / Dairen
+
+**Manchuria Benzine Industrial Co** (Japanese). — p. 200
+
+**Nissin Oil Mills Ld**  — p. 200
+
+**Nissin Beancake Factory** (Sino-Japanese). — p. 200
+
+**Santai Oil Mill** (Sino-Japanese). — p. 200
+
+**Kodera Oil Mill**  — p. 200
+
+**Saito Yubo**  — p. 200
+
+**Suzukui Yubo**  — p. 200
+
+**Yushi Kogyo Kabushiki Kwaisha**  — p. 200
+
+### Manchuria / Harbin
+
+**Anglo-Chinese Eastern Trading Co., Ld**  — p. 200
+
+**Kasatkin** (Managers: S. Soskin & Co., Ltd.) Drisin, Ptushinsky. — p. 200
+
+**Hulanho Oil Mill** (Hulanho) Japanese. — p. 200
+
+**(There are upwards of 60 Oil Mills at Harbin and Fuchiatien)**  — p. 200
+
+
+## Ch. VIII PAPER MILLS—PIANO FACTORY—PRINTING WORKS
+
+### Lunghwa
+
+**Lungchang Paper Mill**  — p. 202
+
+### Kwangtung: Canton
+
+**Kongmoon Paper Factory**  — p. 202
+
+**Mien Yuan Paper Factory, Yen Pu**  — p. 202
+
+### Shantung: Tsinan
+
+**Hua-Hsing Paper Manufacturing Co., Ld**  — p. 202
+
+### Shantung: Tsingtao
+
+**Santo Seishi Koshi** (Japanese). — p. 202
+
+### Kwangtung: Antung
+
+**Yalu Paper Mfg. Co** (Japanese). — p. 202
+
+### Kwangtung: Hulan
+
+**Ai Kuo Paper Factory**  — p. 202
+
+### Kwangtung: Newchwang
+
+**Japanese Paper Mill, Niuchiatun**  — p. 202
+
+### Kwangtung: Kirin
+
+**** A new paper mill is under construction. (Sino-Japanese management). — p. 202
+
+### Hongkong
+
+**Tai Shing Paper Mfg. Co., Ld**  — p. 202
+
+### Piano and Organ Factories. Kiangsu: Shanghai
+
+**S. Moutrie & Co., Ld** The only concern of its kind in China. — p. 202
+
+### Printing and Lithography. Chekiang: Hangchow
+
+**Chekiang Printing Press** (Chinese). — p. 202
+
+**Hangchow Press** (Chinese). — p. 202
+
+**Sing Nih Printing Co** (Chinese). — p. 202
+
+**Tsai Hwa Printing Co** (Chinese). — p. 202
+
+**Wu Ling Printing Office** (Chinese). — p. 202
+
+**Kwang Hwa Printing Office** (Chinese). — p. 202
+
+### Printing and Lithography. Chihli: Peking
+
+**Bureau of Printing and Engraving**  — p. 202
+
+**Ministry of Finance's Printing Office**  — p. 202
+
+**Peking Daily News**  — p. 202
+
+**Peking Leader**  — p. 202
+
+**Journal de Pekin**  — p. 202
+
+**Tientsin Press, Ld**  — p. 202
+
+**Commercial Press**  — p. 202
+
+**Peking Book Co., Ltd**  — p. 202
+
+### Printing and Lithography. Chihli: Tientsin
+
+**Tientsin Press, Ld** (Printers of the CHINA YEAR BOOK). — p. 202
+
+**Tientsin Daily News** (Japanese). — p. 202
+
+
+## Printing & Litho. Works
+
+**Chung Ting Litho. Works** (Japanese). — p. 203
+
+**Chili Kung Pao** (Government Establishment). — p. 203
+
+**North China Daily Mail**  — p. 203
+
+**North China Star**  — p. 203
+
+**Yuentah Ink Manufactory**  — p. 203
+
+### Amoy
+
+**Man-shing Printing Office** (Chinese). — p. 203
+
+### Hankow
+
+**Central China Post** (British). — p. 203
+
+**Taising Printing Office**  — p. 203
+
+**Hankow Printing Office** (Chinese). — p. 203
+
+**Chin Printing Office**  — p. 203
+
+**Wha Lu Printing Office**  — p. 203
+
+**Wha Chong Printing Office**  — p. 203
+
+**Wen Hua Printing Office**  — p. 203
+
+**Tung Fong Printing Office**  — p. 203
+
+**Tung Wo Printing Office**  — p. 203
+
+**Kung Hing Printing Office**  — p. 203
+
+**Independent Herald**  — p. 203
+
+### Ichang
+
+**Hsin Wha Printing Co**  — p. 203
+
+### Nanking
+
+**Provincial Printing and Stationery Office**  — p. 203
+
+### Shanghai
+
+**China Publishing & Printing Co., Ld** (Chinese). — p. 203
+
+**Commercial Press** (Chinese). — p. 203
+
+**Presbyterian Mission Press**  — p. 203
+
+**Oriental Press**  — p. 203
+
+**Merchantile Printing Co., Ld**  — p. 203
+
+**Kelly & Walsh, Ld**  — p. 203
+
+**Brewer & Co., Ld**  — p. 203
+
+**North China Daily News & Herald, Ld**  — p. 203
+
+**Shanghai Mercury, Ld**  — p. 203
+
+**Shanghai Times**  — p. 203
+
+**China Press**  — p. 203
+
+**Evening News**  — p. 203
+
+**Chung Hwa Book Co., Ltd** (Chinese). — p. 203
+
+**Central Press** (Men Kuo Press). — p. 203
+
+### Wusih
+
+**Hsieh Chen Printing Press**  — p. 203
+
+### Canton
+
+**Canton Times Publishing Co**  — p. 203
+
+**S. China Baptist Publication Society**  — p. 203
+
+**Noronha & Co** (Shameen). — p. 203
+
+### Tungshan
+
+**Yee Shing**  — p. 203
+
+### Pakhoi
+
+**Pakhoi Mission Press**  — p. 203
+
+### Swatow
+
+**Kwan Iah Printing**  — p. 203
+
+### Shantung, Chefoo
+
+**J. McMullan & Co**  — p. 204
+
+**Catholic Mission**  — p. 204
+
+**Sze Hing & Co**  — p. 204
+
+**Tung Lu Co**  — p. 204
+
+### Shantung, Tsingtao
+
+**Seito Printing Co** (Japanese). — p. 204
+
+**Dojingo** (Japanese). — p. 204
+
+**Toyo Printing Store** (Japanese). — p. 204
+
+**Tsingtao Times**  — p. 204
+
+**Seito Shinpo Co** (Japanese). — p. 204
+
+**Eiwa Inji Kyoku** (Japanese). — p. 204
+
+**Uchida Yoko** (Japanese). — p. 204
+
+**Aoyagi Shokai** (Japanese). — p. 204
+
+**Enomoto Printing Co** (Japanese). — p. 204
+
+**Arai Shoten** (Japanese). — p. 204
+
+**Takeda Printing Co** (Japanese). — p. 204
+
+**Taito Printing Co** (Japanese). — p. 204
+
+**Kiao Tung Printing Co** (Chinese). — p. 204
+
+**E. Kin** (Chinese). — p. 204
+
+### Szechwan, Chengtu
+
+**Chang Fu Co**  — p. 204
+
+**Chu Chang Co**  — p. 204
+
+**Official Printing Press**  — p. 204
+
+**Canadian Methodist Mission Press**  — p. 204
+
+### Szechwan, Chungking
+
+**Chung Hsi**  — p. 204
+
+**I Hsin**  — p. 204
+
+**Jih Hsien**  — p. 204
+
+**Chi Yu**  — p. 204
+
+### Yunnan, Yunnanfu
+
+**Government Printing Works**  — p. 204
+
+**K'ai Chih Printing Works**  — p. 204
+
+**Ts'ung Wen Printing Works**  — p. 204
+
+### Manchuria, Harbin
+
+**Chinese Eastern Railway Co's. Printing Works** is the best. Many small printing works. — p. 204
+
+**Bergut & Sons**  — p. 204
+
+**Oriental Press Co**  — p. 204
+
+**Kwan Ki**  — p. 204
+
+**Shang Wu Jui Shu Kuan, Fuchiatien**  — p. 204
+
+**M. L. Levitin** 42 Skvoznaya Street. — p. 204
+
+**"Zarya" Printing Works** Kitaiskaya Street. — p. 204
+
+### Manchuria, Mukden
+
+**Chinese Government Ordnance Survey Establishment**  — p. 204
+
+**China Prison Workshop** (Chengtu Hsien). — p. 204
+
+**Chinese Orphanage** (Hsinminhsien). — p. 204
+
+### Manchuria, Newchwang
+
+**Newchwang Printing Co., Ltd** (Japanese). — p. 204
+
+
+## Printing Works—railway Works—rice Mills
+
+### Hongkong
+
+**Kelly & Walsh, Ltd**  — p. 205
+
+**Noronha & Co**  — p. 205
+
+**Guedes & Co**  — p. 205
+
+**Hongkong Printing Press**  — p. 205
+
+**South China Morning Post, Ld**  — p. 205
+
+**Hongkong Daily Press, Ld**  — p. 205
+
+**China Mail, Ld**  — p. 205
+
+**Hongkong Telegraph, Ld**  — p. 205
+
+**Ye Olde Printerie, Ld**  — p. 205
+
+### Anhwei — Wuhu
+
+**Wuhu Rice & Flour Mill. (Chinese)**  — p. 205
+
+**Sao Feng Rice Mill**  — p. 205
+
+**Tung Feng Co**  — p. 205
+
+**Ho Hsing Co**  — p. 205
+
+**Tsung Yu Co**  — p. 205
+
+**Mei Shing Co**  — p. 205
+
+### Chekiang — Haimen
+
+**Chi Fong & Co**  — p. 205
+
+### Chekiang — Hangchow
+
+**Ta Yu Fen Rice Mill**  — p. 205
+
+**Hung Yu Rice Mill**  — p. 205
+
+**Yuan Chang Rice Mill**  — p. 205
+
+**Yu T'ai**  — p. 205
+
+**Yung Ch'ang**  — p. 205
+
+**Te T'ai Yuan**  — p. 205
+
+**Yuan Jung**  — p. 205
+
+**Li Fen**  — p. 205
+
+**Yung Yu**  — p. 205
+
+**T'ai Fen Chiang**  — p. 205
+
+**Wang Yuan**  — p. 205
+
+**T'ung Fu**  — p. 205
+
+**T'ung Yu**  — p. 205
+
+**Heng Ta**  — p. 205
+
+**Ch'en Chi**  — p. 205
+
+**Chen Ta**  — p. 205
+
+### Chekiang — Ningpo
+
+**T'ung Jen Ho. (Chinese)**  — p. 205
+
+**T'ung T'ai. (Chinese) (Capital $8,000)**  — p. 205
+
+**Yung T'ai. (Chinese)**  — p. 205
+
+**Yu Ta. (Chinese)**  — p. 205
+
+**Fu Tai Kai. (Chinese)**  — p. 205
+
+
+## Rice Hulling & Cleaning Mills
+
+### Chihli: Peking
+
+**Yi Lai Man & Co., Ltd**  — p. 206
+
+**Sen Chen Rice Co**  — p. 206
+
+**Jui Teh Rice Co**  — p. 206
+
+### Fukien: Changchow
+
+**13 Mills**  — p. 206
+
+### Fukien: Amoy
+
+**3 Mills**  — p. 206
+
+### Hunan: Changsha
+
+**Hsing Chi Rice Works**  — p. 206
+
+**Two other mills**  — p. 206
+
+### Hunan: Changteh
+
+**Two mills**  — p. 206
+
+### Hunan: Siangtan
+
+**Two mills**  — p. 206
+
+### Hunan: Yiyang
+
+**One mill**  — p. 206
+
+### Hupeh: Shasi
+
+**Cheng Ming Rice Mill**  — p. 206
+
+**Ta Yu Feng Rice Mill**  — p. 206
+
+**Jui Feng Rice Mill**  — p. 206
+
+**Han Feng Rice Mill**  — p. 206
+
+**Wan Feng Rice Mill**  — p. 206
+
+**T'ien Shêng Rice Mill**  — p. 206
+
+**Chung Fu Rice Mill**  — p. 206
+
+**Tung Chi Rice Mill**  — p. 206
+
+### Kiangsi: Nanchang
+
+**Ho Sing Rice & Oil Mill Co**  — p. 206
+
+### Kiangsu: Nanchang
+
+**Min Sheng Rice Hulling Co**  — p. 206
+
+**Ho Chang Yuan Rice Hulling Co**  — p. 206
+
+**Chin Chang Rice Mill**  — p. 206
+
+**Ch'un-sheng**  — p. 206
+
+**The above four mills are run on Coal**  — p. 206
+
+**Hui-Yuan**  — p. 206
+
+**Jun-ch'ang-hsiang**  — p. 206
+
+**T'ai-ho-Yung**  — p. 206
+
+**The above three mills are run on liquid fuel**  — p. 206
+
+### Kiangsu: Shanghai
+
+**Yu Tai Cheng**  — p. 206
+
+**San Tai**  — p. 206
+
+**Jen Feng**  — p. 206
+
+**Yung Sheng**  — p. 206
+
+**Ho Shun Tai**  — p. 206
+
+**Shen Chang**  — p. 206
+
+**Hung Sheng**  — p. 206
+
+**Chen Hsing Hui**  — p. 206
+
+**Yu Tung Hung**  — p. 206
+
+**Chu Cheng Chi**  — p. 206
+
+**Yuan Chan**  — p. 206
+
+
+## Rice Mills—rope Factories—saw Mills
+
+**Chin Chong Rice Mill** 50 N. Soochow Road. — p. 207
+
+**Ching Woo Rice Mill** 75 N. Soochow Road. — p. 207
+
+**Heng Chong Rice Mill** 110 N. Soochow Road. — p. 207
+
+**Hung Foong Rice Mill** 65 No. Soochow Road. — p. 207
+
+**Nyoen Sung Tung Rice Mill** 45 N. Soochow Road. — p. 207
+
+**Tsung Shing Rice Mill** 36 N. Soochow Road. — p. 207
+
+**Woo Shing Rice Mill** 561 Honan Road. — p. 207
+
+**Yue Tung Rice Mill** 1192 N. Soochow Road. — p. 207
+
+**Yue Zung Rice Mill** 5 Fokien Road. — p. 207
+
+**Yong Dah Chong Rice Mill** Chapei. — p. 207
+
+**Yuen Zung Rice Mill** Chapei. — p. 207
+
+**** All the above use electric power. — p. 207
+
+**** There are many smaller concerns in Shanghai. — p. 207
+
+### KWANGTUNG — Canton
+
+**** 30 odd Machine-driven Mills in District. — p. 207
+
+### MANCHURIA — Dairen
+
+**Oya Gumi Seimaijo**  — p. 207
+
+### MANCHURIA — Harbin
+
+**Hailin Company** Race grown locally and there milled. — p. 207
+
+### MANCHURIA — Mukden
+
+**Shun Yang Rice Cleaning Mill** (Japanese). — p. 207
+
+**Nishimiya Rice Cleaning Mill** (Japanese). — p. 207
+
+**Mukden Rice Cleaning Mill** (Japanese). — p. 207
+
+### MANCHURIA — Ninguta
+
+**** Many small factories of a primitive character. — p. 207
+
+### MANCHURIA — Fushun
+
+**Chienchinchai Rice Cleaning Mill** (Japanese). — p. 207
+
+**Tungshan Rice Cleaning Mill** (Japanese). — p. 207
+
+### Rope Factories — FUKIEN — Amoy
+
+**Philippine Hemp Rope Mfg. Co**  — p. 207
+
+### Rope Factories — KIANGSU — Shanghai
+
+**Hsieh Chi**  — p. 207
+
+**Pao Jung**  — p. 207
+
+**Ying Chi**  — p. 207
+
+**Tseng Sheng**  — p. 207
+
+### Rope Factories — HONGKONG
+
+**Hongkong Rope Mfg. Co**  — p. 207
+
+### Rubber Factories — KWANGTUNG
+
+**Canton Rubber Factory** (shoe soles) and several smaller concerns. — p. 207
+
+### Saw Mills — FUKIEN — Foochow
+
+**Germania Saw Mill** (German) Owned by Siemssen & Co., Leased to Chinese. — p. 207
+
+**Foo Hing Saw Mill** (Chinese). — p. 207
+
+
+## Saw Mills
+
+**China Import & Export Lumber Co** (British). — p. 208
+
+**Hsing Lung** (Chinese). — p. 208
+
+**Hsieh Lee** (Chinese). — p. 208
+
+**Sum Toong** (Chinese). — p. 208
+
+**Yung Chun** (Chinese). — p. 208
+
+### Hupeh, Hankow
+
+**Hankow Sawmill & Woodworking Factory** (Chinese). — p. 208
+
+**Hankow Cask Factory** (Owned by China Import and Export Lumber Co.) — p. 208
+
+**Sun Chun Kee Cask Factory**  — p. 208
+
+### Kiangsu, Shanghai
+
+**China Import and Export Lumber Co., Ld** (British) — p. 208
+
+**Kowkee Timber Sawmill & Construction Co** (Chinese). — p. 208
+
+**Tai Shing Saw Mill**  — p. 208
+
+**Chu Lung Saw Mill**  — p. 208
+
+**Shun Tai Lumber Co**  — p. 208
+
+### Shantung, Tsingtao
+
+**Wada Sawmills Co** (Japanese). — p. 208
+
+**China Import & Export Lumber Co., Ld** (British). — p. 208
+
+### Manchuria, Antung
+
+**Antung Timber Co** (Chinese). — p. 208
+
+**Okura & Co** (2 mills) Japanese. — p. 208
+
+**Tsugaru & Co** (Japanese). — p. 208
+
+**Yalu Saw Mill Co** (Sino-Japanese). — p. 208
+
+**Yamashita & Co** (Japanese). — p. 208
+
+### Manchuria, Newchwang
+
+**San Li** (Chinese). — p. 208
+
+**Wei Shing Kung Ssu** (Chinese). — p. 208
+
+### Manchuria, Changchun
+
+**Changchun Saw Mill Co** (Japanese). — p. 208
+
+**Fu Te Chan Saw Mill** (Chinese). — p. 208
+
+**Kirin Forestry Co** (Japanese). — p. 208
+
+**Mitsui Timber Co** (Japanese). — p. 208
+
+**Takahashi Saw Mill** (Japanese). — p. 208
+
+**Yung Heng Co** (Chinese). — p. 208
+
+### Manchuria, Harbin
+
+**Chinese Eastern Railway Co's. Sawmills**  — p. 208
+
+**L. S. Skidelsky, Veishahe**  — p. 208
+
+**(A large number of large and small sawmills owned by Chinese)**  — p. 208
+
+### Manchuria, Shitouheidze
+
+**Chinese Eastern Railway Co's. Sawmills**  — p. 208
+
+### Manchuria, Imenpo
+
+**L. S. Skidelsky**  — p. 208
+
+### Manchuria, Yablonia
+
+**Yablonia Timber Co**  — p. 208
+
+### Manchuria, Khingan
+
+**Shevtshenko Bros**  — p. 208
+
+
+## Who's Who
+
+**AMUERHLINGKUEI, (阿穆爾靈圭)** —Mongol. Prince of First Order, December, 1891. Great-grandson of Prince Seng-ko-lin-ch'in. Lieutenant-General of Bordered White Chinese Banner, January, 1910. Superintendent of Peking Octroi, February, 1912. Member for Mongolia of the National Council. Res. Ka Erh Chin. — p. 1147
+
+**BAO, KOSCHEN C. Y. COL** see Bau Chih-yuan. — p. 1147
+
+**BIEN, Z. S** see Pien Shou-sun. — p. 1147
+
+**CHANG, CHEUK K** see Chang Tso-kun. — p. 1147
+
+**CHANG CHIH-CHIANG (張之江)** —Tupan of the Northwest Frontier and Concurrently Tutung of Chahar. Member of the Kuominchun. — p. 1147
+
+**CHANG CHIEN, (張謇)** —Kiangsu. A noted Hanlin scholar (Optimus), who declined to take office (except that of Adviser to the Board of Commerce, 1904) in order to devote his energies to the fostering of industry and commerce. Appointed "Pacificator" in Kiangsu, November, 1911. During 1911 he was engaged upon schemes for the promotion of commerce in Manchuria, and the formation of Sino-American commercial enterprises. Director-General Huaiho Conservancy, March 13, 1913. Minister of Industry and Commerce and temporary Minister of Agriculture and Forestry, September 11, 1913. Director-General of the National Conservancy Bureau, 1915. Member of the Tsancheng-yuan, 1915. "Friend of Sungshan" (see Hsu Shih-ch'ang). Now devotes himself to commercial enterprises at Nantungchow, his native place. Elected Managing-Director of Bank of Communications, June, 1922. First Order of Merit. Awarded Fifth Order of Merit, additionally, near 1923. Chairman of Bank of Communication, 1924-5. — p. 1147
+
+**CHANG CHIH-TAN, (張志潭)** —Chihli. Was a Chujen and a member of the Board of Army in the late Ching dynasty. Was successively Taoyin of Sui Yuan, Vice-Minister of Interior; Chief Secretary of the Cabinet; Vice-Minister of War; Superintendent of Peking Municipal Bureau. In the Chin Cabinet of 1920, Chang was Minister of Interior. Was Superintendent of National Famine Relief Bureau, 1920-21. Transferred to the Ministry of Communications, May 1921. Resigned, Dec. 25, 1921. President of Domestic Loan Bureau, 1923. Minister of Communications, 1926. — p. 1147
+
+**CHANG CHING-HUI, (張景惠)** —Fengtien. Born 1872. Studied in the Chiang Wu Military School. Major-General in the Army. Commanding General of the First Division of Fengtien Army. Tutung of Chahar, 1920. Resigned, May 15, 1921. Participated in the Chihli-Fengtien struggle and was defeated by Wu Pei-fu's forces at Changsintien in May 1922. Active in 1925 in the organization of the Chihli-Fengtien Alliance. — p. 1147
+
+**CHANG CHING-YAO (張敬堯)** —General. Formerly Commander of Regiment of the 6th Division. Brigadier-General of the 3rd Mixed Brigade. Promoted to Commanding-General of the 7th Division. Appointed Commissioner for the Extirpation of Bandits at the Boundary of Kiangsu, Anhwei, Shantung and Honan. Tutung of Suiyuan, Oct. 18, 1917. Tuchun of Hunan 1920-1. Retired after American Legation protested against the murder of an American missionary, Dr. Reimert, by his troops. Arrested 1925 by Peking Government. Associated with Chihli Party in 1924 War. Retired. — p. 1148
+
+**CHANG FU-YUN, (張福運) alias CHIN WEN, (景文)** —Kwangtung. Born. 1890. B.A. (1914) Harvard University, U.S.A. LLB. (1917) of the same university; attached to the Ministry of Foreign Affairs and lecturer of the Peking University, 1916. Secretary to the Siberian Commissioner 1919. Secretary to the Ministry of Communications and compiler of the resolutions of the Washington Conference, 1921. Deputy Director to the Shantung Railway Commission and Chief of the Shipping Department Ministry of Communications, 1922. President of the Peking University, 1923. Fifth Class Wen Fu, Second Class Tashou Chiaho decorations. Res. 26 Shih Ta Ka, Nan Chang Ka, Peking. — p. 1148
+
+**CHANG HSIANG-LIN, (張祥麟)** —Shanghai, Age 31. Educated at St. John's University, Shanghai, and Columbia University, New York. Secretary of the Cabinet 1917. Has been Acting Director of the Translation Bureau of the Ministry of Foreign Affairs, Associate Councillor of the Ministry of Interior, Associate Secretary of the Ministry of Communications, Secretary of the Bureau for the Custody of Enemy Property, Attache to the Chinese Legation in Washington, D.C., Assistant Editor of the Peking Daily News, Member of the American Society of International law, etc. 2nd class Chiaho Decoration. Was one of the Secretaries to the Chinese Delegation at Washington (1922) and is now Consul General at New York. Res. New York. — p. 1148
+
+**CHANG HSUEH-LIANG, (張學良) alias HAN CHING, (漢卿)** —Fengtien. Son of Chang Tso-lin. Studied in the Chiang Wu T'ang of Three Eastern Provinces. Adviser to Tuchun of Kirin, Oct. 1919. Officer, President's Body Guard, May, 1920. Staff Officer of Three Eastern-Provinces. Instructor of the Flying Corps of Three Eastern Provinces. Commander to put down bandits of the Northeast. Commander of the 2nd Fengtien Army during the Chihli-Fengtien War. Commander of the 3rd. Chengwei Army Corps. Order of merit 5th grade, 3rd class Wenhu decoration. Brigadier-General. Res. Mukden. — p. 1148
+
+**CHANG HSUN-CHING, (張訓欽)** —Changsha, Hunan. Graduated from School of Commerce, Imperial University, Japan. Was teacher of the Higher and Middle Commercial Schools, Kiangnan, Secretary to the Nanyang Industrial Exhibition. Inspector of Nanyang Industrial Exhibition of Products of Soochow and Sungkiang. Treasurer of the National Treasury. In 1924, was appointed vice-Minister of Finance and in 1925 was concurrently appointed Deputy Commissioner of the Preparatory Office for the Special Customs Tariff Conference and was high adviser to the Conference. Special Commissioner to the Hunan Famine Relief. Trustee of the China Foundation for the Promotion of Education and Culture 1925. Second class Tashou Chiaho, third class Paokwang Chiaho. Address, Peking. — p. 1148
+
+**CHANG HU, (張弧)** —Chekiang. Salt Commissioner, Changlu (Chihli), May, 1912. Salt Commissioner, Liang Huai, November 14, 1912. Vice-Minister of Finance, September 14, 1913. Chief of Central Salt Administration. Dismissed June 21, 1915. Reappointed Vice-Minister of Finance and Chief of Central Salt Administration, in 1920. Appointed Minister of Finance, Dec. 25, 1921. Director-General of the Currency Bureau and Tupiang Salt Administration, 1923. Retired. Res. Tientsin. — p. 1148
+
+**CHANG I-LING, (張一麐) alias TSUN SHEN, (仲仁)** —Kiangsu. Born 1873. Chujen. His father was district magistrate of Chengting, Chihli. After the Sino-Japanese War in 1894, he established a school in Soochow. Was then Secretary to Yuan Shih-kai from the time when he was Viceroy to his death, except during Yuan's exile. Was Secretary to the Governors of Chekiang and Kiangsu. Minister of Education, 1915-16. Elected Member of Kiangsu Provincial Assembly. Progressive Party. 1st class Tashou Paokwang Chiaho. Author of many articles which have been published in Government Magazines. — p. 1149
+
+***CHANG KUO-KAN, (張國淦)** —Hupeh. Assistant in the Bureau of Estimates, Cabinet, June, 1911. Retired January, 1912. Head of Civil Service Department of Cabinet, May, 1912. Secretary to Cabinet, October 6, 1912. Appointed Minister of Education, April 23, 1916. Again in Sun Pao-chi's cabinet, January 21, 1924. Minister of Agriculture, June 30, 1916. Again, July 17, 1917. Appointed Minister of Agriculture and Commerce, June 12, 1922, and concurrently Acting Minister of Interior before Tan Yen-kai attended office Minister of Justice September 15, 1924. — p. 1149
+
+***CHIANG MON-LIN, (蔣夢麟) alias MENG LIN, (孟鄰)** —Native of Chekiang. Born 1886. Studied at the University of California, 1912 B.L. Columbia University 1913 A.M. Columbia University, 1917, Ph.D. Editor, Chinese Free Press, San Francisco, 1910-1912. Editor, The New Education, 1918-1919 (Shanghai). Professor of Education 1919 National University, Peking. Acting Chancellor 1919-1920 to 1923. Dean of Administration 1920. Trustee of the China Foundation for the Promotion of Education and Culture 1925. Author of "A Study in the Chinese Principles of Education." — p. 1149
+
+***CHANG PING-LIN, (章炳麟)** —Chekiang. Born 1867. Noted for his literary accomplishments and his intense interest in Politics. When the Nanking Republican Government was established, Chang was asked to be High Adviser to the Cabinet. Leader of the Tungyi party. Appointed Political adviser to the Government in Peking. Participated in the organization of the Canton Military Government, 1917. First Class Tashou Chiaho decoration. 1st Order of Merit. — p. 1149
+
+**CHANG, POLING** see Chang Po-ling. — p. 1149
+
+**CHANG PO-LING (張伯苓)** —Preferred English name Poling Chang. Tientsin. Born April 5, 1876. Graduated form the Peiyang Naval School. Studied at Columbia University, U.S.A. Received LLD. Degree from St. John's University, Shanghai. Head Master, High School, Chihli. Proctor, Tsinghua College, Peking. President, Nankai University since 1904. President of the Y.M.C.A. Tientsin. Res. Nankai University, Tientsin. — p. 1149
+
+***CHANG SHAO-JO, (張孝芳)** —Kiangsu. Born about 1895. Son of Chang Chien. Shortly after leaving school, he ran for the Presidency of the Kiangsu Provincial Assembly taking advantage of his father's influence. He however failed. Was appointed to study industry in Europe, America and Japan, summer, 1922. He did not leave the country till Oct. 1923. Minister to Chihli, 1924 but did not assume office. Second class Tashou Paokwang Chiaho decoration. Nantung-chow. — p. 1149
+
+***CHANG SHAO-TSENG, (張紹曾)** —Chihli. Councillor to President, April 19, 1912. Military Governor of Suiyuancheng, October 12, 1912. Deputy Military Commissioner and Assistant-Resident at Kiachta, 1915. Suggested the Lushan Conference for the discussion and settlement of the civil and military affairs during autumn, 1921. Appointed Civil Governor of Shensi, June 18, 1922. Minister of War, 1922-23. Appointed President of Commission on Mongolian Affairs, November 1922. Appointment as Premier ratified by Parlia- ment, January 1923. Fled to Tientsin when President Li was forced out of Peking by the Paoting faction, September 1923. Formally relieved of post, January 12, 1923. Second Order of Merit. First Class Tashou Paokwang Chiabo decoration. Shu Wei Chiang Chun (January 1924.) — p. 1149
+
+**CHANG, SHOWBIN W** , see Chang Wei. — p. 1150
+
+**CHANG TA-YI, (張大義)** .—Yunnan. Born 1883. Graduate of a Law School in Japan. A member of the Chung Yi Yuan. Was editor of Yunnan Cha-chih, and Yunnan Colloquial Newspaper. A member of the Committee of Tung Meng Hui. He was one of those who captured Shanghai. He organized a regiment to attack Nanking. Chief Secretary of the Ministry of the Interior in the Nanking Government. After the removal of the Republican capital from Nanking to Peking he was made investigator of the Bureau of Merits, for the Yunnan section. Was appointed Chief of the High Court of Yunnan. Kuomintang. Unseated by Presidential Order of November 4, 1913. — p. 1150
+
+**CHANG TSE-YING, (常芝英) alias TSAI YUEN, (采閎)** .—Shantung. A graduate of Peiyang Higher Constabulary School, Central Military Survey School and Military Training School. Aide de camp to the third Brigade of the Manchuria Army, chief Aide de Camp to Marshal Chang Tso-lin's First Army and to the commissioner for military affairs of Kiangsu and Anhwei, 1925. On January 1, 1925 was appointed Commissioner of Police of Woosung and Shanghai and Vice-Commander of Martial Law in Shanghai. Was detained during the Chekiang-Fengtien war, 1925 but escaped. Retired — p. 1150
+
+**CHANG TSO-HSIANG, (張作相)** .—Fengtien. Has been Brigadier General of the 54th Brigade of the 27th Army Division. Now Commanding General of the 27th. Concurrently Chief of Staff of the Inspecting-General of Manchuria. — p. 1150
+
+**CHANG TS'O-KUN (張焯堃) alias PENG NAN (朋南)** .—Preferred English name Cheuk K. Chang. Kwangtung. Born 1890. B. S. School of Agriculture, Cornell University, 1916. Agricultural Expert to Kwangtung Government, 1921-22. Instructor in Agriculture, Ling Nan Agricultural College, 1922-25. Special delegate at the Pacific Food Preservation Conference at San Francisco and Hon. Director of Bureau of Sericulture of Tsungshan District Kwangtung, 1924. From July, 1925, director of Ling Nan Agricultural College. Res. Canton. Tupan of Kirin, 1925 to present. — p. 1150
+
+**CHANG TSO-LIN, (張作霖)** .—Mukden. General Chang is fifty-two years of age. He received no education in his youth. Fought on the side of Japan, during the Russo-Japanese War. After the war, General Chang surrendered to the Chinese Government at request of Japan. He and his Hunghutze were taken into the Chinese Government service and received quick promotion on account of their bravery. Appointed Military Governor of Fengtien in 1911 which position he is still holding. He first commanded the 27th Army Division and now has under his control over 100,000 men scattered all over Manchuria. He served ex-President Yuan faithfully until the collapse of the latter's monarchical movement in 1916. When General Chang Hsun made his coup d'etat in 1917, he assisted General Tuan Chi-jui in restoring the Republic. Was appointed Inspector-General of the Three Eastern Provinces in 1918. Jointly with General Tsao Kun, led an expeditionary force to disband the Anfu political club in the summer of 1920. Attended the "Super-Tuchuns' Conference" at Tientsin in May 1921. Ordered to be relieved of all his posts after being defeated by the Chihli party, May 1922. Since his dismissal he has defied the Central Government and now rules Manchuria as an independent Province. Has been engaged in various wars between 1922-1926 for supremacy at Peking. Res. Mukden. — p. 1150
+
+**CHANG TSUNG-CHANG, (張宗昌)** —Commander of First Expeditionary Manchurian Army, 1924-5. Tupan of Shantung, 1925. — p. 1151
+
+**CHANG TSUNG-HSIANG, (章宗祥)** —Chekiang. Graduate of a Law College in Japan, Superintendent of Police at Peking, 1908-10. Deputy Commissioner of Constitutional Department of the Cabinet, June, 1911. Retired, January, 1912. Chief of Law Department of Cabinet, April, 1912. Chief Justice of Supreme Court, June, 1912, and President of the Commission for the Codification of Laws. Appointed Minister of Justice, Feb. 20, 1914. Has been Minister of Agriculture and Commerce and of Education. Was Chinese Minister to Tokio, 1916-1919. President of Exchange Bank of China, 1925. Res. Peking. — p. 1151
+
+**CHANG, V. H** see Chang Wei-han. — p. 1151
+
+**CHANG YAO-TSENG, (張耀曾)** —Yunnan. Born 1884. Graduate of a University in Japan. When the Nanking Government was organized he was the representative of Yunnan. Was a member of both the Advisory Council of Nanking and Provisional Council in Peking. A member of the Chung Yi Yuan and the Constitutional Drafting Committee. Unseated by Presidential Order of November 4, 1913. Minister of Justice, 1916 Chairman of the Commission on Extraterritoriality since 1923. — p. 1151
+
+**CHANG YING-FANG, (張膺方) alias AO HSIANG, ([illegible])** —Preferred English name: Frank Chang. Born 1889. Graduated Peiyang Military academy, and Paoting Military Cadet School. General. Military councillor to the 20th Division. Private secretary to the office of Tuchun of Shantung. Commander of the 1st Reserve of Yunnanese Army. Director of the Auditing Department of Army and Navy. High Adviser to Kuo Wu Yuan. Committee of the Financial Commission. Commander of the Mixed Brigade of Police Army for the frontier defence of Szechwan and Yunnan. At present, 2nd commander of troops for the frontier defence of Szechwan and Yunnan. 1st Chief commander of the 3rd Army of the Allied forces. Author of a great many military novels. No party. First class Wen Hu, Chiaho, second class Chiaho and second class Tashou Paokwang Chiaho decorations. — p. 1151
+
+**CHANG YING-HUA, (張英華)** —Chihli. Born 1888. Studied in Manchester, England. Salt Commissioner for Szechwan, Jan. 1919, and for Hotung, Shansi, 1921. Appointed Commissioner of Finance, Kansu, Jan. 1922. Adviser to General Wu Pei-fu and General Tsao Kun. Superintendent of Soochow Customs, June 18, 1922. Vice-Minister and Acting Minister of Finance, July-Sept. 1922. Reappointed Vice-Minister of Finance and Chief of Salt Administration Aug. 16, 1923. Appointed President, Commission for the Study of National Finance, Sept. 1922. Director-General, Bureau of Currency, Mar. 20, 1923. Minister of Finance, May 12, 1923. Second class Chiaho decoration. — p. 1151
+
+**CHANG YU-CHUAN, (張煜全)** —Kwangtung. Graduated from Pei Yang University, Tientsin, and Studied in Japan, America and Germany. Secretary, Waichiaopu, August 16, 1912. Delegate for Foreign Affairs, Kiangsu, June 26, 1913. Acting Superintendent of Customs, Wuhu, October 13, 1913; also Delegate for Foreign Affairs for Anhwei. Councillor of the Ministry of Foreign Affairs. Adviser and Technical Expert, Chinese Commission for the Investigation of Extraterritoriality. Technical Expert, Sino-Russian Negotiations. President of Tsing Hua College, 1918-19. Chinese delegation to Washington Conference, Nov. 1921. Appointed Chief Secretary of the Famine Relief Committee, Director Conference Department of Tariff Conference. — p. 1151
+
+**CHANG YUAN-CHIEH, (張元節) alias YEN NAN, (燕南)** —Native of Wuhsin, Chekiang. Studied at Peking National University. Second Secretary to the Legation in Tokyo. Consul-General at Nagaski, Japan. Consul-General at Kobe and also at Osaka. 2nd Secretary to the Legation in London. 2nd Secretary to the Legation in France. Acting twice as Minister to Japan. At present Acting Minister to Japan; Author of "Political Affairs of Great Britain" and "Burma" "A Collection of International Law Cases", "Popular Education in Japan" "A Volume of Poems and Essays" 2nd class Chia-ho, 5th class Legion d'Honneur and other French decorations, and 5th class order of the Rising Sun. — p. 1151
+
+**CHANG YUAN-SHAN, (Yuan Shan Djang), (章元善)** —Kiangsu. Born October. 1892. Prepared at Kiangnan Provincial College, Nanking, and Tsinghua College, Peking. Graduated in 1915 from Cornell University, U.S.A. B.A. Chemist to the Peiyang Sanitary Department 1915 to 1923. For three years was also chemist of the Chihli Provincial Industrial Laboratory. Was lecturer in Sanitary Chemistry, National University, Peking and teacher in the Chihli First Middle School. Appointed General Secretary of Chihli Anti-Narcotic Society winter, 1918 to 1922. Served as General Secretary of the North China International Society of Famine Relief September, 1920—Dec. 1921. Associate Executive Secretary, China International Famine Relief Commission, Jan. 1922 to date. General Secretary, Western Returned Students' Club. Res. Peking. — p. 1152
+
+**CHANG WEI, (張瑋) alias HSIAO-PIN, (倣彬)** —Preferred English name Showbin W. Chang. Native of Kushih, Honan. B. A. Pembroke College, University of Cambridge, in 1910, 1911-1916 Professor of Economics, Finance, and Banking at the National Law College, Peking 1912—appointed Chief of Commercial Bureau in Ministry of Foreign Affairs. 1914 Jan.—Appointed the head of Ceremonial Dept. for the Board of Intercourse. 1918—Chief Statistician in the General Business Dept. 1920—head in the First Dept. of political service and Assistant Examiner for Civil Officials. 1924 Consul-General in Chita, Russia. Consul-General at Irkutsk, 1925. Author of "A book on Chinese Literature" and various notes on Economics, 2nd class Chiaho decoration. Address: No. 2 Fang-chao-yuan, Peking. — p. 1152
+
+**CHANG WEI-HAN, (張維翰) alias TZE PING, (次屏)** —Preferred English name. V. H. Chang. Fengsiang, Shensi Born 1879. Graduated Middle school in Fengsiang. 1913 member of the Shensi Provincial Assembly. 1922 Assistant-Secretary in Ministry of Agriculture Industry and Commerce. 1924 Secretary in the same Ministry and at present secretary of the Councillor's office. — p. 1152
+
+**CHANG WEN-SHENG, (張文生) alias (HSING WU, ([illegible])** —Kiangsu. Lt. General in the Army. Has been in military service in Kiangsu since the Ching regime. Was Defence Commissioner of Suchow and Haichow, Ku., before he was appointed Tuchun of Anhwei to succeed Ni Ssu-chung, 1920. Was made Chiang Chun and summoned for duty in Peking, Oct., 1922, when the office of Tuchun in Anhwei was abolished. First Class Tashou, Paokwang, Chiaho decorations. Address: 4 Ching Ho Lee, Japanese Concession, Tientsin. — p. 1152
+
+**CHANG YAO-HSIANG, (張耀翔)** —Hokow, Hupeh. Born 1896. Graduated Tsing Hua College, Peking, 1915. M. A. (1919) Columbia University. Lecturer on Logic of the Summer Vacation School, South-Eastern University, Nanking, 1921, Nankai University, Tientsin, 1922 and Chung Hua University, Wuchang, 1923. Headmaster, Peking Teacher's College since 1920. President of the China Society of Logic. Chief Editor of Chinese Logic Magazine, in which he has written many articles on logic. Res. Peking Teacher's College, Nan Hsing Hua Ka, Peking. — p. 1152
+
+**CHANG YIN-HUI, (常蔭槐)** —Fengtien. Born 1888. Graduate of Fengtien Law College. Adviser, Kwo Wu Yuan; Councillor's Office, Ministry of Communications; Chief of Staff to the Commander of Bandit Suppression of Kirin and Heilungkiang; Chief of Law Executive Department of Chen Wei Chun; Commander of Bandit Suupression of Jehol; and Ching Hsiang Tupan of Jehol. Governor of the 18 Kingtung (east of Peking) Hsiens (Cheng Wu-chu Chu Chang); Ching Hsiang Tupan of Jehol; Chief of Law Executive Department of Chen Wei-chun; Director of Ping Tui Chu (Standardization of Rice Price) Peking; Acting of President of Tongshan University. Appointed Managing Director of Peking-Mukden Railway in April 1926. — p. 1152
+
+**CHAO CHING-HUA, (趙慶華) alias SUI SHAN, (燧山)** —Chekiang. Born 1872. Graduated from the Diocesan School. (Hongkong), and Telegraph College, Canton. Adviser to the President. Managing-Director, Canton-Kowloon Railway, 1911-13; Tientsin-Pukow Railway, 1913-16; Shanghai-Nanking Railway and Shanghai-Ningpo-Hangchow Railway since 1916. Secretary to the Engineering Dept. of Peking, Mukden and Taoching Railway also secretary to the Ministry of Communications. Manager, Bank of Communications, Shanghai. Secretary to the Cabinet. Adviser of Foreign Affairs to the Inspector Gen. of Fengtien. 3rd class Wenhu and Chiaho decorations. — p. 1153
+
+**CHAO CHUAN, (趙泉) alias CHIEN TANG, (鑑唐)** —Native of Chi Hsien, Chihli. Born 1895. Graduated from Wesleyan University, Conn. U.S.A. B.S. 1918. Secretary to the Versailles Conference 1918-1920. Chinese Delegate and Secretary to the Washington Conference 1921-22. Member of the Shantung Rehabilitation Commission 1923. Chief of the Miscellaneous Department Waichiaopu 1924-5. Chief of the Conference Department, Sino-Russian Negotiations, 1923-4. Assistant Councillor, Ministry of Foreign Affairs, 1925. 4th Class Chiaho. Retired 1925. — p. 1153
+
+**CHAO CH'UN-NIEN, (趙椿年) alias CHIEN CHIU, (劍秋)** —Kiangsu. Born 1867. Chujen of the late Dynasty. Vice-Minister of Finance, October, 1912. and Vice-Director of Shui Wu Chu, April, 1913. After obtaining the degree of Chin-shih, he was appointed magistrate of Kiangsi, where he held several responsible posts, and was ordered to Peking by special edict to fill several important posts as director of various Bureaux. Was a member of the late Tzuchengyuan, and Councillor of both the Ministries of Industry and Commerce and Finance. Kuomintang. Retired, October 13, 1913. Accountant of Bank of China, 1915. Appointed Joint Investigator of the Likin System. Supervisor of the Collection of Taxes in Peking, Dec., 1916. Vice-Director, Audit Bureau. Vice-Chairman, Commission on Adjustment of Domestic and Foreign Loans, April, 1923. Third class Paokwang and First class Tashou Chiaho decorations. Address: 48 Mi Shi Hutung, Peking. — p. 1153
+
+**CHAO EN-SZE, (趙恩錫)** —M.A., Preferred English name T. Y. Chiu. Sin Wei, Kwangtung. Born 1890. Assistant Professor of Chemistry. B.S., in Chem., University of California, 1913; M. A., Columbia University; 1915; Instructor in Chemistry, Canton Christian College, 1915-22; Assistant Professor, 1922. — p. 1153
+
+***CHAO ERH-HSUN, (趙爾巽)** —Chinese Bannerman. Prefect of Kweiyang, 1893. Judicial Commissioner of Anhwei, April, 1895, and of Shansi, July 1893. Financial Commissioner, New Dominion, November, 1898, and of Shansi, 1902. Governor, Hunan, January, 1903. Acting President of Board of Revenue, August, 1904. Tartar General, Mukden, May, 1905. Viceroy, Szechwan, May, 1907, but did not proceed. Viceroy, Hu-Kuang, September, 1907. Viceroy, Szechwan, March, 1908, where he remained until recalled to take up the post of Viceroy of Manchuria in April, 1911. He held this post until a Bill was passed placing him upon an equal footing with the Tutuhs of Kirin and Shengking. As Tutuh of Fengtien, however, he was virtually given supreme control of military and diplomatic affairs in the three Manchurian provinces. Resigned post of Tutuh of Fengtien, November 3, 1913. "Friend of Sungshan" (see Hsu Shih-ch'ang). Director, Ching History Compilation Bureau. Chairman of the Reorganisation Conference 1925. Chairman of the Advisory Senate; Committee of Safety, 1926 First Order of Merit. Res. Peking. — p. 1153
+
+***CHAO HENG-TI, (趙恒惕)** —Hunan. Born 1880 Studied in Japan Graduated from a Japanese Military school. Was in service in Kwangsi and then in Hunan, before he became the Commanding Officer of the First Hunan Army Division. Now in Command of Hunan Army, although he is without the title of Tuchun. Civil Governor of Hunan, 1925-6. Driven from Hunan 1926. Second order of Merit. — p. 1154
+
+**CHAO HSIEH-EN, (趙錫恩) alias CHIN CHING (晋卿) Preferred English name: S. U. Zau or Sih Ung Zau** Shanghai. Born 1882. Studied in Nanyang College. Joined the Postal Service 1902; transferred to Tatung to take charge of the Post Office there, but resigned in the following year. Manager in various Chinese firms. In 1924, was appointed adviser to the Civil Governor of Chekiang, Counsellor to Cabinet, adviser to the Civil Governor of Shantung, adviser to the Inspector-general of Hupeh and Hunan, adviser to the Ministry of Agriculture and Commerce and High Adviser to the Tupan of Tsingtao. In 1922, special delegate to the Pacific Conference. Elected Representative for the rendition of the International Mixed Court 1924 Committee of the Chinese General Chamber of Commerce. Y.M.C.A at Shanghai and many other commercial and educational institutions. Has written many magazine and leading articles. Second class Tashou Chiaho and first class Chiaho decorations. Res. Shanghai. — p. 1154
+
+***CH'AO T'I, (趙倜) alias CHOW JEN, (周人)** —Honan. Born 1870. Studied in the Peiyang Military Academy. Tuchun of Honan from June 1916 to May 10, 1922, when he was dismissed as a result of his brother's attack on General Feng Yu-hsiang's troops. Teh Wu Chiang Chun. Cashiered and ordered to be arrested by presidential mandate of Aug. 29, 1922, upon the recommendation of General Feng Yu-hsiang, then Tuchun of Honan. First class Wenhu and Tashou Paokwang Chiaho decorations. — p. 1154
+
+**CHAO YI-TAO, (趙詒璈) alias SUNG NAN, (頌南)** —Preferred English name Tchao Hao. Native of Quinsan, Kiangsu; Born 1869. Studied at Maichi School, 3 years' study in France. Secretary in Shipping office, Fukien. Secretary in Office of the inspector of Chinese students going abroad. President of the Agricultural School, Hupeh. Attache to Minister to Italy. Professor of Asiatic Languages in Italy. Delegate to 2nd Hague Conference; 2nd Secretary to the Chinese Legation at Roumania. Chinese representative at International Agricultural Conference in Roumania. 2nd Secretary at Chinese Legation to Belgium. Attache to Chinese Delegation at Paris Peace Conference. 2nd Secretary to the Chinese Legation at Holland Acting Consul-General to Italy, Belgium, and Holland. At present, Consul-General to Paris, date of appointment Oct. 14, 1921. 3rd Class Chiaho, 2nd class Paokwang decorations 3rd and 4th Class decorations of Italy, Holland, Belgium and France. Address: Consulate De Chine, Paris. — p. 1154
+
+***GENERAL CHEN CHIAO-MO, (陳嘉謨)** —Tupan of Hupeh, 1926. — p. 1154
+
+**CHEN CHIN-T'AO, (陳錦濤)** —Nanhai, Kwangtung. Born 1871. M.A. Ph.D. Graduated from Queen's College, Hongkong; Columbia University, New York, U.S.A.; Yale University, New Haven, U.S.A. One of China's best known financial experts. Former Manager of the Tientsin Government Bank Chief, Department of Budgets, Ministry of Finance. Organizer and Vice-Director, Bureau of Printing and Engraving. Chairman, Currency Reform Commission. Member, Tzu Cheng Yuan. Vice-Minister of Finance in Yuan Shih-kai's Cabinet. Minister of Finance, Nanking Provincial Government, 1911. Representative to the International Conference of Chambers of Commerce, Boston. Auditor-General, Central Audit Bureau. Financial Commissioner to Europe. November, 1913 Minister of Finance and Acting Minister of Foreign Affairs, 1916. Minister of Finance, Canton Military Government, 1920. Manager of the North Western Bank, Charhar. Tupan of the Salt Administration, 1925. Minister of Finance, 1926. Retired. Author of Distribution of Wealth, Public Schools in Four Countries, etc. Non-partisan. Second class Paokwang Ta Shou Chiaho Decoration. — p. 1154
+
+***CHEN CHIUNG-MING, (陳炯明)** .—Kwangtung. Tutuh of Kwangtung, June 1913. Drove out the Kwangsi Tuchun Mo Yung-hsin in 1920 and was appointed Civil Governor. Concerned in the Yunnan revolt, 1915-16. Commander-in-Chief of the Kwangtung troops. Civil Governor of Kwangtung. Minister of War in the Canton Government. In 1922 his troops attacked and overthrew Sun Yat-sen, and after the latter's flight, Chen re-assumed command of all the Kwangtung forces, but was himself driven out of Canton in January, 1923. Defeated by Kuomintang forces in 1925. Retired. — p. 1155
+
+**CHEN HUAN-CHANG, (陳煥章)** alias YUEN TUNG, (遠重).—Kwangtung. Born 1880. Editor of Chinese Reformer, 1899-1900. Professor and principal of Chinese, Shih Ming High School, 1902. Chinshih, 1905. Studied at Chicago and Columbia Universities 1907. Ph.D. 1911. Returned to China, January, 1911. Formed the National Confucian Association. President since its founding in 1911. Legal Adviser to the President, 1913. Editor of Confucian Association Monthly. Member of 2nd Parliament. President of Confucian University. Wrote a number of books on Confucianism. Second class Chiaho decoration. Res. The National Confucian Association, Kan Shih Chiao, Peking, decoration. — p. 1155
+
+**CHEN HUI-TEH, (陳輝德)** alias KWANG FU, (光甫).—Preferred English name K. P. Chen. Native of Chinkiang, Kiangsu. Born 1880. Graduated from the Commercial Dept. of Pennsylvania University, U.S.A. (B.C.) 1898-1901 served in the Post Office, Hankow. 1901-1902 Secretary at the Leather Manufacturing Company, Fuchong. 1902-1904 Secretary at Hanyang Arsenal, Hanyang. 1904 commissioned to represent the Hupeh provincial Products Union at St. Louis, U.S.A. 1909-1910 Chairman in Foreign Affairs Dept. of Nanyang Industrial Exhibition. 1910-1911 Superintendent of Kiangsu Financial Liquidation service. 1911-1912 Assistant Financial Officer of Kiangsu province and also Inspector of the Bank of Kiangsu. 1912-1913 Manager of the Bank of Kiangsu. 1913 Adviser of the Bank of China. 1915 and at present manager of the Shanghai Commercial and Savings Bank and also Director of general affairs of the same bank. 1920-1922 Chinese adviser of Shanghai Municipal Council. 1924 Inspector of the Bank of China, Director of the School of Commerce, Southeastern University and Director of the China Cement Manufacturing Company, Shanghai 1925, appointed to represent the Chinese bankers at the Traffic Conference to help draft the regulations governing extension of bank credits to shippers. — p. 1155
+
+**CHEN JU-YUEN, (陳茹玄)** alias YI FAN, (逸凡).—Preferred English name Ye Young. Kwangtung. Born 1894. B.A. 1914-17, University of Illinois, U.S.A. LLB. 1917-19, Columbia University, New York, U.S.A. 1921-22, Editor, General Chamber of Commerce Monthly. 1922-23, lecturer on law, Peking Law College. From 1923, Professor of Politics, Economics, Southeastern University and in 1925 he was chairman of the University Council, and Vice-President. Author of "The Book of Politics" "International Politics", published by the Commercial Press. No Party. Res. Southeastern University, Nanking. — p. 1155
+
+**CHEN, K. P** see Chen Hui-teh. — p. 1155
+
+**CH'EN LU, (Tcheng Loh)** (陳籙) alias JEN HSIEN, (任先).—Preferred English name Tcheng Loh, Fukien. Born 1876. Graduated from Hupeh Tsu Ch'iang College and from La Faculté de Droit de Paris. Licencié en Droit. Chief Department of Foreign Affairs, Ministry of Foreign Affairs, April 1912. Inter- preter to the five Commissioners sent to Europe, 1906. Attaché to the Chinese Legation, Paris. Delegate to the Second Peace Conference at The Hague. Teacher, Law Department, Government University, Peking. Chinshih; Hanlin. Minister to Mexico. High Military Commissioner and Resident-General at Urga, 1915. Appointed Vice-Minister of Foreign Affairs, May 4, 1918. In charge of the Ministry Nov. 10, 1918 to 1920. Minister to France, 1921. Author of historical works on Mongolia and Types of French Documents, etc. First class Chiaho and Wenhu decorations. Second class Paokwang Tayhou Chiaho Decoration. Wearer of medals from the Russian, Japanese, Belgian, Swedish governments. At present Chinese Minister to France. Address Paris, France. — p. 1155
+
+***CH'EN MAO-TING, (陳懋鼎)** —Fukien. Chinshih, 1890. Acting Junior Secretary and Acting Senior Secretary of Waichiaopu, 1909. Councillor of Privy Council, August, 1911. Councillor of Waichiaopu, April, 1912. Member of Senate 1913. Superintendent of Nanking Customs and Commissioner of Foreign Affairs at Nanking, July 22—Nov. 20, 1914. Chinin g Taoyin Nov. 20, 1914.—July 30, 1915. Secretary of Cabinet, July, 1917. Commissioner of Foreign Affairs Amoy, 1919—Retired—Res. Peking. — p. 1156
+
+**CH'EN PAO-CHEN (陳寶琛)** .—Fukien. Born about 1849. Chujen 1864. Chinshih, 1868. Sub-Chancellor of Grand Secretariat, Chief Examiner for Kiangsi and Kansu provinces, with rank of a Vice-President of Board of Ceremonies, April, 1910. Director in charge of the Fukien Railway. Governor of Shansi, June, 1911. Tutor to the ex-Emperor, since July, 1911. Advisory Minister to Privy Council, August, 1911. Vice-President Imperial Historiography Department 1912. Appointed to the Council of Regency in the abortive restoration of the Manchu Dynasty, July, 1917. Author of "The Universal Rites of the Tsing Dynasty" approved by the Board of Ceremonies. Monarchist. First class Chiaho. — p. 1156
+
+***CHEN SHU-YEN, ( )** .—Secretary of the Central Executive Committee of the Kuomintang in Canton 1925-6. — p. 1156
+
+**CHEN, S. P. DR** see Chen Tso-pang. — p. 1156
+
+**CH'EN SZE-HSUEH, (陳斯銳) alias CHIEN CHUAN, (劍泉)** .—Preferred English name Chan Sz-yui. Kwangtung Educated in Queen's College Hongkong 1904 and in London University 1912. Called to the English Bar 1912, L.L.B. London. Barrister-at-law of the Middle Temple. Assistant Master, Queen's College Hongkong from 1904 to 1908. Senior Official and Chief of Bureau of Foreign Affairs in the Ministry of Communications 1914-1916. Member of the Secretariat in the Cabinet 1920-1922. At present senior clerk and Chief of Third Bureau in Department of Treaties of the Ministry of Foreign Affairs. Clerk of the Translation Section of the Tariff Conference also of Extraterritoriality Commission. Post taken up in May 1921. Third class Paokwang and third class Chiaho decorations. — p. 1156
+
+**CHEN TA, (陳達) alias TUNG FU, (通夫)** .—Preferred English name: Ta T. Chen. Yuhang, Chekiang. Born 1892. Graduated in the Primary school of Yuhang District, 1905-07. Studied in Hangchow Middle School, 1908-10. Graduated in Tsing Hua College, Peking, 1916. M.A. Columbia University, U.S.A. 1920. Ph.D. of the same University, 1923. Editor of Tsing Hua Paper since 1923. Author of books on immigration and labour problems. Res. c/o Mr. Yao Tsung-yin, Yuhang, Chekiang. — p. 1156
+
+**CHEN TAO-YUAN, (陳道源)** .—Kiangsu. Born 1888. Graduate of Peiyang University, Tientsin, and Cornell University, U.S.A. M.E. Glasgow University, Scotland. Joined Vickers Ltd., 1910-12. Served as draughtsman. Associate Member, Institute of Naval Architects, London. Draughtsman, Kiangnan Dock, Shanghai, 1912-14. English Secretary to Salt Chief Inspectorate, 1915. Chief Engineer Superintendent, Government Dockyard, Foochow, 1915-17. Technical Expert, Ministry of of Navy, 1917 to date. Appointed to naval commission to study war preparations of the allies, 1917. Secretary to the Chinese Dele- gation, Washington Conference, 1921. Accompanied Dr. Wang Chung-hui to the Hague, 1923. Residence, Peking. — p. 1156
+
+**CHEN TING-HSEUH, (陳廷銳)** Kiangsu. Born 1889. Graduated from the Comparative Law School of China 1920 with the Degree of LL.B., 1920 from the Law Department of the University of Michigan U.S.A. with the degree of J.D.; 1921 from the Political Science Department of the University of Michigan U.S.A. with the degree of M.A. 1922 appointed as a Fellow of the University of Michigan 1921-1922. Prof of Law at the Comparative Law School of China from 1922. Practising at Shanghai. Res. 20 Musuen Road, Shanghai. — p. 1157
+
+**CH'EN TSO-PANG, (陳祝邦) alias HSIN CHOW, (新周)** Preferred English name Dr. S. P. Chen. Native of Tsining, Kwangtung. Born in Singapore 1884. 1904 B.A. Caius College, Cambridge University. 1907 M.B., B.Ch. St. Thomas's Hospital, London. 1911-1914 Chief Medical officer at the Anti-plague Convention, North Manchuria. Chief Doctor in the Infectious Disease Hospital, Peking since 1915. Inspector in Central Hospital, Peking sion 1920. Medical Officer of Ministry of Foreign Affairs since 1920. Director of the Peking Rotary Club. 2nd class Tashou 4th class Wen-hu decorations. — p. 1157
+
+**CHEN WEI-TAO, (陳文濤)** Civil Governor of Kiangsu, 1926. — p. 1157
+
+**CHEN YU-JEN, (Eugene Ch'en 陳友仁)** Kwangtung. Born, Trinidad, West Indies, 1878. Qualified as a solicitor in London, and had a successful practice. Returned to China 1912, and joined government service. 1914 edited the Peking Gazette and later became also its proprietor. His fearless writings soon attracted attention, and in November 1917 he was thrown into gaol for alleged anti-Japanese preachings. Was not released until pardoned by President Li Yuan-hung. Went South and joined Sun Yat-sen's party. 1919 went to Paris Peace Conference with the Canton Government's delegate Dr. C. C. Wu. 1922-24 became foreign adviser to the Canton Government. 1924, came up to Peking with Dr. Sun Yat-sen. 1925, edited the bi-lingual Kuomintang organ, Min Pao. In August of the same year was kidnapped by the Fengtien soldiers and taken to Tientsin where he narrowly escaped being shot. Upon the entry of Kuominchun troops into Tientsin, his captors left him to shift for himself. April 1926, was appointed Minister of Foreign Affairs of the Canton Government. — p. 1157
+
+**CHENG CH'IEN, (鄭謙)** Kiangsu. Commissioner of Administration for Heilungkiang. Nov. 1917. Appointed Civil Governor of Kiangsu, 1925. Also Concurrent Vice Director General of Sino-Russian Negotiations. Retired after Fengtien defeat in war of 1925. Appointed Minister of Interior, 1926. — p. 1157
+
+**CHENG, E. T** see Cheng Tien-hsi. — p. 1157
+
+**CHENG HSUEH-LUAN, (程學鑾) alias YANG BO, (羊坡)** Preferred English name Tchen Hio Lon. Native of Hangchow, Chekiang. Studied at Waseda University, Japan. Chujen of Tsing Dynasty. Secretary to the Chinese Legation in Japan and France. Secretary to the Chinese Delegation at Versailles Conference. Acting Consul-General at Singapore. Chief of the Commercial Bureau in Ministry of Foreign Affairs 1921-4. Commissioner of Foreign Affairs, Hangchow since 1924. Author of "Japan's Constitution", "General Regulations for sale of Salt in Japan". 3rd class Paokwang decoration. — p. 1157
+
+**CHENG KE, (程克) alias CHUNG YU, (仲漁)** Kaifeng. Honan. Born 1876. Graduated from the Law School in the Manchu regime. He studied in the Imperial University of Tokyo where he graduated in law. Upon his return from Japan, he organized a revolutionary organ in Tientsin with the object of overthrowing the Manchu regime. He was arrested by the police, but through good offices of Chao Ping-chun, former Chihli Governor and Prime Minister he was liberated and given official positions. After the establishment of the Republic, Mr. Cheng became Councillor of the Ministry of the Interior, a deputy of the Bureau for Parliamentary Affairs and Adviser to the President. In 1913 he was elected a Senator. In June 1914 he became Taoyin of Hai Chung, Shensi, and it was at the time when General Lu Chien-chang was Chiangchun of the province. General Lu tried to encourage the plantation of poppy, but Mr. Cheng strongly objected to this policy. Consequently he had to be transferred to the position of High Commissioner for Altai December of 1915. He remained there for five years. Assisted General Feng Yu-hsiang in Honan in the management of military affairs. 1921. Appointed Minister of Justice, Jan. 1923 and Chief of Law Codification Bureau, Oct. 1923 to Jan. 1924. Minister in the Sun Pao-chi Cabinet, Jan. 1924. 2nd class Tashou Paokwang decorations. — p. 1157
+
+***CHENG SHIH-CHI, (鄭士琦)** —Anhwei. Born 1874. Received Military training. Was made a Major General, 1914. Appointed Brigadier General of the 5th. Army Division of Shantung. When Tien Chung-yu was released from the office of Tuchun of Shantung as a result of the Lincheng incident, 1923, Cheng was appointed Tuli of Shantung on Oct. 14, 1923. Pacification Commissioner of Kiangsi, 1924. Tupan of Shantung, 1925. Declined Office of Tupan of Anhwei, 1925. Retired. — p. 1158
+
+**CHENG TIEN-HSI, (鄭天錫) alias LANG TING, (閬庭)** —Preferred English name F. T. Cheng. Hsiang-Shan, Kwangtung. Born 1884. LLB. London University, 1912. Barrister-at-law, 1913. LD. 1915. Hon. Member of Grotius Society, 1916. Member of the International Law Association, 1919. Was assistant Judge of the Supreme Court, Peking. Compiler of the Codification Department, Ministry of Justice. Special Legal Adviser to the Washington Conference. Special Delegate to the Customs Tariff Conference. Director and Delegate of the Preparatory Office of the Judicial Commission since 1925. Author of "Private International Law Relating to capacity to Contract"; "The Supreme Court Decisions," "Prize Court Judgements," "Codes of Criminal Law and Procedure," etc. Res. 32 Kan Yu Hutung, East City, Peking. — p. 1158
+
+**CHENG YEN-HSI, (鄭延禊) alias TZE TSUN, (子浚)** —Preferred English name Tcheng Yien-chi. Native of Wuhsin, Chekiang. Born 1879. Studied at Anglo-Chinese College, Soochow 1902 Translator to the Chinese Legation in Russia. 1914 Appointed 1st secretary at same Legation. 1918-1922 Acting Consul-General to Russia. 1922 June returned to Peking, appointed member of Committee for Russian Affairs. Since Mar. 29th, 1923, Foreign Commissioner at Harbin. 4th class Paokwang decoration. — p. 1158
+
+**CHI HSIEH-YUAN, (齊燮元) alias FU FAN, (撫萬)** —Chihli. Born 1885. Graduate of Peiyang Military College and University. Was Defence Commissioner of Nanking and concurrently Commanding General of the Sixth Army Division. Appointed on Dec. 3, 1920 Acting Tuchun of Kiangsu after the death of Li Shun, which post he held until Oct. 1924. Was made a full General in the Army, October, 10, 1922. Appointed Inspector-General of Kiangsu, Anhwei, and Kiangsi, Nov. 1923. Victorious in Kiangsu-Chekiang War, 1924, but subsequently defeated. Retired to Beppu, Japan. At present Associate Commander of Allied Armies. First class Tashou-Paokwang-Chiaho decorations, and first class Wen Fu, first class Chiaho and Third Order of Merit. — p. 1158
+
+**CHIANG CHIEH-SHIH, (Chiang Kai-shek 蔣介石)** —Chekiang. Born 1886. Joined the Kuomintang early in life but rose into prominence only two years ago. 1924 was appointed principal of the Whampoa Cadet School. Went to Shanghai to recruit some of Lu Yung-hsiang's defeated army. At one time had in his school as many as 800 cadets and 2,500 non-commissioned officers under special training. These he sent out to the different armies in Canton to reorganize and consolidate them into one fighting machine with the aid of Soviet money and guns. Thus armed he staged a few bold strokes and made himself master of Canton. First by smashing Chen Chiung-ming's troops and driving them across the border. Secondly, by annihilating the Kwangsi-Yunnan forces and reducing Kwangsi to the control of Canton. One by one his opponents were eliminated until he was the lone master in Canton. Canton is governed supposedly by a committee system, but the head of the Committee is his nominee and therefore his tool. — p. 1158
+
+**CHIANG KAN-FU, (江亢虎)** —Preferred English name Kiang Kang-hu. Native of I-yang, Kiangsi born 1883. Studied in Japan, Belgium and America. Professor of Peking University. President of Peking Girls' High Normal School. Teacher of Tokyo University of Japan. Professor of California University. President of the Southern University of Shanghai. Member of the Literary Association of Asia. Author of "China and Social Revolution" "Labour Conditions in China"; "Lectures on Chinese Classics"; "Manifesto of the Socialist Party of China". Party : Singwei Association. Address Shanghai. — p. 1159
+
+**CHIANG SHAO-MO, (姜紹謨) alias TZE LIEH, (次裂)** —Preferred English name S. M. John. Native of Kiangshan, Chekiang. Born 1898. Graduate from Law Dept. of the National University, Peking, and received the degree of B.L. Teacher of Ta-ch'ung Public School, Peking. Professor of International Law at Mongolia-Tibet College, Peking. Professor of Foreign Language School, Peking. Member of Board of Directors of Ta-ch'ung Public School, Peking. Appointed, secretary in Ministry of Education Nov. 15, 1924 up to present. Author of 'Outline of International Laws'. Party : Kuomintang. — p. 1159
+
+**CHIANG TIEN-TO, (江天鐸)** —Kwangtung. Born 1879. Graduated from Waseda University, Japan. Was a teacher to High Police School in Peking, .1910. Member of Chung Yi Yuan, 1913. Vice-Minister of Agriculture and Commerce, summer, 1917. In charge of the Ministry, 1920. Chairman of various commissions of food supply, etc. Appointed Vice-Minister of Agriculture and Commerce, June 15, 1922. Director, National Conservancy Bureau, 1922. Vice-Pres. Commission for Study of Yangtzekiang Conservancy, Sept. 1922. Second class Tashou Chiaho, First class Tashou Chiaho, First class Wenhu decorations. — p. 1159
+
+**CHIANG TSO-PIN, (蔣作賓) alias YU YEN, (雨岩)** —Preferred English name Tsiang Tso Ping, Hupeh. Born 1883. After graduation in a Middle School he studied in Japan, and is a Graduate of the Training School for Military Officers in Japan. Chujen of the late Ching Dynasty. Played a prominent part in the Revolution of 1911, for which he agitated for a long time. Is Licutenant-General of the Army, and was the Vice-President of the Ministry of War, appointed on January 4, 1912. Was a member of Tung Meng Hui, but resigned the membership. Led people's army during the struggle for a Self Government in Hupeh, Summer 1921. Tuchun Wang Chan-yuan was then compelled to give up his once-powerful dual post of Tuchun of Hupeh and Inspecting-General for Hunan and Hupeh. Third Order of Merit. Author of "Travels around the World." — p. 1159
+
+***CHIANG TSUN-HUI, (T. Y. Tsiang), (蔣曾樞)** —Chekiang. Born Nov. 13, 1877. Chujen and Chinshih. Member of Ministry of Communications since 1908. Director of Chinese Government Telegraphs from 1918 to May 13, 1922. Chief of Telegraph Department of Ministry of Communications, 1925. Second class Tashou Chiaho and second class Wenhu decorations. Also received medals of merit from Denmark and Japan. — p. 1159
+
+**CHIANG WEI-CH'IAO, (蔣維喬) alias CHU CHUANG, (竹莊)** —Preferred English name V. J. Tsiang. Changchow, Kiangsu. Born 1872. Educated in the High School of Nanking. Councillor to the Ministry of Education. Chief Secretary to the Ministry of Education at Nanking, May, 1912. Director of Ai-kuo Girls' School at Shanghai, and was one of the editors of the Commercial Press at Shanghai. Appointed Commissioner of Education, Kiangsi, Oct. 16, 1921, but did not proceed. Since July 1922—Chairman of the Board of Education of Kiangsu province. Author of the following books. "Chinese and History" Text Books for Primary and High Schools", "text Books for Normal Schools"; Ying Shih-chi's. "Silent Sitting Method"; "General Condi- tions of Educational Administration in Kiangsu province". "Elementary Theories on Buddhism". 2nd class Tashou decoration. Address: The Board of Education of Kiangsu, Nanking. — p. 1159
+
+**CHIANG YUNG, (江庸) alias YU YUN, (翊雲)** —Fukien. Born April 29, 1878. Graduated from the Political Science Department of Waseda University, Japan. Chujen. Judge, Supreme Court: 1905. Chief Justice, Higher Court, Peking, 1912. Vice-Minister of Justice, 1914. Acting Minister of Justice, 1917. Director of Students studying in Japan, 1918. Chief, Law Codification Bureau July 29, 1920 to Oct. 23, 1923. President of the Peking Law College, 1924, upon recommendation of the Minister of Education. First class Tashou Paokwang Chiaho, First class Tashou Chiaho decorations. 4th Order of Merit. Res. Peking. — p. 160
+
+**CHIEN, W. H** see Chien Wen-Hsuan. — p. 160
+
+**CHIEN, Y. M** see Chien Yung-ming. — p. 160
+
+***CH'IEN YUNG-MING, (Y. M. Ch'ien), (錢永銘)** —Kiangsu. Graduated in a Commercial College in Japan. Manager, Bank of Communications, Shanghai Branch 1924, Vice-President, Bank of Communications. Res. Peking. — p. 160
+
+**CHIEN T'AI (Tsien Tai 錢泰)** —Chekiang. Born 1888. 1906, obtained the degree of "Yu Kung Sheng" or Meritorious Senior Licentiate. 1914, obtained the degree of Docteur en droit from the University of Paris. January 1915, Secretary of the Ministry of Justice, becoming Councillor eleven months later. January 1918, Resident Member of the Commission for the Supervision of the Final Examination for Judicial Officials; February, member of the Preparation Bureau for the Participation of the European Conference; December, Judicial Expert of the Chinese Delegation to the Paris Peace Conference. July 1919, member of the International Communications Committee under the Ministry of Communications; September, member of the Commission for the Study of the Peace Treaty in the Ministry of Foreign Affairs; October-December, member of the Commission for taking over the Russian courts on the Chinese Eastern Railway and member of the Commission for the Study of Jurisdiction, becoming at the same time Assistant Councillor of the Ministry of Foreign Affairs. May, 1921 to date, Director of the Treaty Department of the Ministry of Foreign Affairs. March 1922, appointed Minister Plenipotentiary elect. Technical Expert to the Sino-Russian Conference and Director of the Drafting Department of the Customs Tariff Conference. June, 1926, appointed Acting Vice-Minister for Foreign Affairs. Decorations: Second Class Tashou Paokwang, Third Class Wenhu; Third Class Order of Black Star (French) and Second Class Order of Joseph (Greek). — p. 160
+
+**CHIEN WEN-HSUAN, (錢文選) alias CHIH-CHING, (士膏)** —Preferred English name W. H. Chien. Native of Kwangteh, Anhwei. Born 1874. 1908 graduated from Peking Government University, and received the title of "Chu-jen". Doctor of Economics, London University. 1910, appointed to take charge of Chinese students in England, and also representative at an International Conference in London and at the International Moral Culture Conference at the Hague. 1913, appointed Consul-General to San Francisco, U.S.A. and also international investigator at Panama Exhibition. 1915 Commissioner of Salt Gabelle in Yunnan. 1919 Commissioner of Salt Gabelle in Changlu. 1919 Nov. Commissioner of Salt Gabelle in Chekiang. 1922 Jan. Commissioner of the Customs Service in Anhwei. 1922 Sept. Again Commissioner of Salt Gabelle in Chekiang up to present. Author of the following books: "My Opinions on the Constitutional Government", "General Form of English Documents", "New Methods of Salt-manufacturing in America", "A Trip to Yunnan", "An Outline of British Government System", Diary on "All Round the World", "My Opinions on Salt-manufacturing", and "Sung Fen T'ang Essays". 3rd class Chiaho decoration. — p. 160
+
+**CHIN PANG-PING, (金邦平)** —Anhwei. Joint Examiner, with Wu Chao-hsu, an American adviser and a Japanese adviser, of students who have graduated abroad. Vice-Minister of Agriculture and Commerce, March, 1915, Minister April 23, 1915, till June, 6. Director-General of the National Conservancy Board January, 1916. Shanghai Manager of Chee Hsin Cement Company. — p. 1161
+
+**CHIN SHAO-CHENG, (金紹城) alias KUNG PEI, (拱北) alias PEI LOU, ([illegible])** —Preferred English name Kungpah T. King. Huhing, Chekiang. Born 1876. Studied in St. Xavier's School, Shanghai; King's College, London. 1905, assistant magistrate of the Shanghai Mixed Court. 1906, head of the Trademarks Section of the Department of Commerce, and then a judge in the Supreme Court of Justice. 1910, Chinese delegate to the International Prison Conference at Washington. On his return he wrote a number of books embodying the results of his studies and researches. 1912, became dean of the College of Commerce of the Peking University and concurrently secretary to the Department of the Interior. Founded the first National Museum in Peking and became its first curator. 1914, associated with Hsiung Hsi-ling as resident director of the Field Office in Shensi of the National Oil Administration. August 1918, elected M.P. in the "Tuchun's" Parliament, and one of the three representatives to attend the International Parliamentary Conference of Commerce in Belgium. 1920, and again in 1922, Secretary of the Cabinet. Councillor of the Bureau of Mongolian and Tibetan Affairs since March 1923. Is a recognized authority on Chinese antique arts and an accomplished artist. Decorations: Second Class Paokwang Chiaho and Second Class Tashou Chiaho, also Third Class Wenhu. — p. 1161
+
+**CHIN YUN-P'ENG, (靳雲鵬)** —Shantung. Born 1877. Graduated from the Pei Yang Military Academy and upon graduation was appointed to command only a few soldiers. Was made a military officer in Chekiang and promoted to the post of Commander-in-Chief of Chekiang troops. Was given the rank of Lieutenant-General during the revolution of 1911 when he was with General Tuan Chi-jui, Commander-in-Chief of Imperial Army. Appointed Military Governor of Shantung in 1913. When Chang Huai-chih was to be appointed Tuchun of Shantung, General Chin was "promoted" to the Chiangchunfu in June, 1916. Sent to Japan with Chu Tung-feng in November 1917 to witness the manoeuvres. Appointed to the War Participation Bureau and there acted on behalf of his Chief, General Tuan Chi-jui. Appointed Minister of War, June 11, 1919. This position he held till May 1921. Was Prime Minister, winter 1919 to Dec. 18, 1921. — p. 1161
+
+**CHIU, T. Y** see Chao En-sze. — p. 1161
+
+**CHOU HSUEH-HSI, (周學熙)** —Anhwei. Salt Commissioner, Chihli, January, 1907. Mourning, December, 1907. Promoter and Director of Peking Waterworks. Elected President of the Anhwei Railway Co., with approval of the Throne March, 1908. Was largely instrumental in arranging the amalgamation of the Kaiping and Lanchow Mines during the winter of 1911-12. Elected Minister of Finance in Lu Cheng-hsiang's Cabinet, on July 26, 1912. Director-General of Revenue Council, December 18, 1912. Resigned on the formation of Hsiung Hsi-ling's Cabinet. Minister of Finance, 1914. Director-General of the Salt Bureau, 1915. Resigned, 1915. Actively interested in Cotton Industry since 1919. President of the Chee Hsin Cement Co., Tientsin. Res. Tientsin. — p. 1161
+
+**CHOU SHU-MO, (周樹模)** —Hupeh. Born 1864. Hanlin, 1885. Was commissioned to conduct the civil service examinations in Shansi and in Kwangtung by the Manchu Emperor. Was invited by Viceroy Chang Chih-tung to teach in the Lianghu College. Was also a censor in the Ching Dynasty. Was once Commissioner of Public Instructions, Senior Assistant to the Viceroy of Three Eastern Provinces, Governor of Heilungkiang. After repeated invitations of ex-President Yuan, Mr. Chou accepted in 1915 the position of President of the Administrative Court and that of President of the Commission for Punishing High Officials. These two positions, he resigned after a year's service. Author of "Memorials of Heilungkiang" and "Poems of Siu Kou Tsai." First Class Tashou Chiaho Paokwang decoration. Peking. Retired. — p. 1161
+
+**CHOW YI-CHUN, (周詒春) alias CHI MEI, (寄梅)** —Preferred English name Y. T. Tsur. Born in Anhwei, 1883. Graduate of St. John University and Yale University U.S.A. Dean of Tsinghua College. Became President of that school 1913. Resigned, 1918. Member of Senate till 1920. At present manager of the Chung Foo Union Bank, Peking. Secretary-General of the Commission for the Readjustment of Finance since 1923; Technical Expert, Tariff Conference, 1926; Member, China Foundation for the Promotion of Education and Culture, 1924 to present. — p. 1162
+
+***CHOW HSI-CHENG, ( )** —Tupan of Kweichow. — p. 1162
+
+**CHOW YIN-JEN, (周蔭人) alias YU EN, (榆恩)** —Chihli. Born 1885. Graduated from military schools in Japan. Conversant with artillery tactics. Has filled military positions of various ranks both in Ching Dynasty and the Republic of China. In 1923, was Defence Commissioner of Hinghwa and Chuanchow, Fukien. In 1924, was appointed Tupan of Fukien and concurrently commander-general of the 12th Division, which posts he still holds. Third class Chiaho, Second class Wen Hu, second class Tashou Chiaho decorations. Res. Wukiang Hsien, Chihli. — p. 1162
+
+**CHU CHAO-HSIN, (朱兆莘) alias TING CHIN, (鼎靑)** —Born 1879. Graduated from the Imperial University, Peking 1907. B.C.S. New York University, 1911. M.A. Columbia University, 1912. Professor in Economics, National University of Peking. Author of "Public Debts of China." Vice-President of the Bar Association, Peking. Magistrate of Kulangsu Mixed Court, Amoy, Secretary of Ministry of Agriculture and Commerce, Commissioner of Foreign Affairs, Shanghai. Senator. Member of Drafting Committee on Constitution. Secretary to late President Yuan Shih-kai and late President Feng Kuo-chang. Consul-General at San Francisco, U.S.A. Chargé d'Affaires of the Chinese Legation at London. Chinese Representative on the Advisory Committee on Traffic in Opium and other Dangerous Drugs under the League of Nations. Chinese Delegate to the Third, Fourth, Fifth and Sixth Assemblies of the League of Nations, 1922, 1923, 1924 and 1925. Delegate-Plenipotentiary to the International Opium Conference at Geneva, 1924-5. Minister to Italy, 1925. Second class Tashou Chiaho Decorations. Address, Chinese Legation, London. — p. 1162
+
+***CHU CH'I-CHIEN, (朱啟鈐)** —Kweichow. Was a magistrate in Kiangsi and a Taotai in Chihli. Superintendent of Peking Inner Police in 1904, subsequently a Director of the Tientsin-Pukow Railway. Minister of Communications (July, 1912) in Lu Cheng-hsiang's and Chao Ping-chun's Cabinet. Appointed Acting Premier, July 27, 1913, but did not accept post. Minister of Interior, September 11, 1913. Promoted Yuan Shih-kai's Monarchical project. Appointed Chief Delegate for the North at the Peace Conference with the South, February, 1919. Sent to France to represent ex-President Hsü Shih-chang at conferring of Hon. Doctor's degree to ex-President Hsü, July, 1921. Visited Japan on way home. Arrived at Tientsin, Aug. 10, 1921. President of Chung Hsin Mining Co. Res. Tientsin. — p. 1162
+
+**CHU CHUN-YI, (朱君毅)** —Preferred English name: Jennings Pinkwei Chu. Kiangshan, Chekiang. Born 1895. Graduated in Tsing Hua College, 1916. John Hopkins University, A. B. 1918. Teacher's College, Columbia University, A.M. 1920, Teacher's College, Columbia University, Ph. D. 1922. Professor of Southeastern University and President of the First Normal School for Girls, Nanking, 1922-25. Since 1925, has been Professor of Tsing Hua College, Peking. Author of "Chinese Students in America; Qualities Associated with their Success". "Normal School Education in China", "Some Statistical and Measurement Terms Standardized in China" and "Educational Statistics" Res. Care of Tsinghua College, Peking. — p. 1162
+
+**CHU HSING-YUAN** (祝惺元).—Peking. Born 1880. Educated in the Peking Imperial University and in Japan. First Secretary, Chinese Legation in Washington. Secretary, Ministry of Foreign Affairs, July, 1918. Commissioner of Foreign Affairs for Chihli, 1920 also, 1925-6. Second class Tashou Chiaho and Second class Wenhu decorations. — p. 1163
+
+**CHU HO-HSIANG** (Louis Ngaosiang Tchou), (朱鶴翔).—Paoshan, Ku. Born 1888. Educated in the Futan and Chentan Colleges in Shanghai and in Belgium. B.A., LL.B., Doctor in Politics and Diplomacy (Belgian). Junior Councillor, Ministry of Foreign Affairs, Dec. 21, 1915, Secretary, Jan. 25, 1916. Member of Investigation Commission, Cabinet Office, March 11, 1916. Professor of Law, Government University, Sept. 1916. Acting Vice-Minister, May, 1916, and April 1917. Director of Chihui Affairs, Jan. 15, 1918. Councillor of the Ministry of Foreign Affairs, since May, 1924. Director of the General Affairs Department of the Tariff Conference. Author of Le Regime des Capitulations et la regime constitutionnelle en Chine (1915) and China and Japan (1915), Works on Treaties of Peace between Germany and Austria and the Allies. Fourth class Wenhu and Paokwang Chiaho Decorations. — p. 1163
+
+**CHU, JENNINGS PINKWEI** see Chu Chun-yi. — p. 1163
+
+**CHU PEI-CHEN** (朱佩珍) alias PAO SAN, (葆三).—Native of Tinhai, Chekiang. Born at Tinhai, Chekiang on 2nd Moon 7th day. 1848. Chairman of Shanghai Chamber of Commerce, Vice-President of China's General Chamber of Commerce at present President of the Ningpo Guild. Manager of Shen Ho & Co. Received 2nd Class Tashou Chiaho Decoration. Address: 9 Foo-chow Road, Shanghai. — p. 1163
+
+***CHU SHEN** (朱深).—Chihli. Born 1881. Graduated from a Japanese University with a degree of LL.B. Upon his return, Chu practised law. Appointed Acting Chief Procurator, Peking, Aug. 1912. Chief of High Procuratorate of Peking, November, 1913. Was appointed Chief of Procuratorate November, 1915. Became Minister of Justice, September, 1917. Upon the resignation of Chien Nun Hsun, Chu was concurrently appointed Minister of Interior. This latter office he held until 1920. A member of the Anfu Club. 1925 appointed Superintendent of Peking Municipal Affairs. — p. 1163
+
+**CHU, COMDR. T. S. C.N** see Hsu Tsu-shan. — p. 1163
+
+**CHU TING-CHI** (朱庭祺).—Kiangsu. Born 1886. Graduated of Harvard University. Councillor of the Ministry of Industry and Commerce. English Secretary, Shanghai-Nanking Railway. Commission on Shantung Rehabitation, May, 1922. Co-Director General Kiaochao-Tsinanfu Railway, Dec. 1922. Chief of the Through Traffic Department. Ministry of Communications 1925. Third class Chiaho decoration. Res. Peking. — p. 1163
+
+**CHU WEN-FU** (朱文藻).—Doctor of Laws, Paris. Second secretary, Chinese Legation, Washington, 1921-5. Assistant Councillor of the Ministry of Foreign Affairs since, 1925. — p. 1163
+
+**CHU YING-KUANG** (屈映光) alias WEN LU, (文六).—Chekiang. Born 1885. Graduated from the Chih Cheng Institute (a High School). Became its teacher upon graduation. Later he became the Superintendent of Ing Shan Commercial School, Taichow. Was teacher of Military Survey School in Anhwei. It was in this latter place that Governor Chu came in contact with military people. Connected with the Fifth Army of Chekiang as its adviser in 1912. Promoted to Chief of Civil Affairs of Chekiang and still later was appointed Civil Governor of Chekiang. For a time, was Civil Governor of Shantung in 1920. Superintendent of the eletcion of overseas Chinese Members for the National Delegates Conference. 1924 Political adviser to the Chief Executive and Bureau of Politics, Minister of Interior 1926. Retired. Author of textbooks for the Military Survey School and books on Hygiene. Fourth Order of Merit. First class Wenhu decoration, and first class Chiaho. Res. Peking. — p. 1163
+
+**CHU YO-YU, (朱友漁)** Preferred English name Yu-yue Tsu. Shanghai, Kiangsu. Born 1887. Studied St. John's University, Shanghai, 1907, B.A. Columbia University, New York, 1911, M.A., 1912. Ph.D. General Theological Seminary, New York, B.D., 1912. 1912-1920, Professor of Sociology in St. John's University, Shanghai. 1921-1924, in Charge of work among Chinese students in America under auspices of the International Committee of the Y.M.C.A. of America. At present in charge of the Department of Religious & Social Work, Peking Union Medical College, Peking. Author of "Spirit of Chinese Philanthropy" "China Through Chinese Eyes" (Joint authorship) "Leaders of the Christian Church" (Chinese). Address: Peking Union Medical College, Peking. — p. 1164
+
+**CHU YU-TS'ANG, (M. Thomas Tchou), (朱育滄)** Szechwan. Born 1895. Studied in different parts of Europe, particularly in the University of Glasgow, Scotland, B.Sc. (in Mech. and Civil Eng.), B.Sc. (in Naval Architecture). Adviser to the State Arsenal, Chengtu, Sze., 1917. Professor of English and Physics, Chengtu Higher Normal School, 1918. Prof. of Mechanical Engineering, Changsha Polytechnic Institute, 1918-19. Prof. of English and Sciences in English Methodist College, Ningpo 1919, to date. President, Ningpo Y.M.C.A. since 1920. Industrial Secretary of the National Committee of the Y.M.C.A. Res. Shanghai. — p. 1164
+
+**CHUAN LIANG, ([illegible]) alias CHIN TANG, (謹堂)** Native of Wuchang, Hupeh. Graduated from Commercial College, Tokyo. Appointed Chief councillor, also Acting Minister to Ministry of Communications. Tupan of Kirin 1925. Decorations, 2nd class Tashou Paokwang, Chiaho and Wenhu. Address: 35 Pao Tze Chieh, West City, Peking. — p. 1164
+
+**CH'UAN SHAO-CH'ING, (S. H. Chuan), (全紹清)** Tunghsien, Chi. Born July 12, 1883. After graduation from the Peiyang Medical College, Tientsin. Ch'uan went to John Hopkins University and Harvard University for special study. M.D. Chief of Medical Staff, Chinese Army, President, Army Medical College Aug. 1914 to 1922. Appointed Vice-Minister of Education, June 17, 1922. Resigned shortly afterward. Appointed Director, Central Sanitary Department, Peking, 1922-23. Author of "The Most Extraordinary City of the World," "Chinese Patients and Their Prejudices," and a score of articles on medicine and travel Appointed First class Tashou Paokwang-Chiaho. Second class Paokuang Chiaho, Tashou Chiaho, Wenhu, Chiaho decorations. Wearer of a Gold medal and other medals awarded by foreign states. President Tangshan Engineering College but refused. Vice-Minister of Education, 1924. Peking. — p. 1164
+
+**CH'UN, PRINCE, (Tsai Li), (醇親王載澧)** Manchu. Ex-Regent. Brother of the late Emperor Kwang Hsu. Succeeded to his father's title in January, 1891. Lieutenant-General of Plain White Banner, June, 1901. Special Envoy to Germany to apologize for the murder of the German Minister, July, 1901. Supernumerary Grand Councillor, June, 1907. Grand Councillor, February, 1908. Member of Commission of Constitutional Reform and Government Council, 1908. Appointed Prince Regent on the death of the Emperor Kwang Hsu, November 13, 1908. Took the oath of observance of the Constitution on November 26, 1911. Resigned from the Regency on December 6, 1911. — p. 1164
+
+**CHUNG SHIH-MING, (鍾世銘)** Tientsin. Studied in Peiyang University and in America. English Teacher to the Technical College of Chihli, 1911. Secretary of the Salt Administration and became its Councillor. Appointed Acting Vice-Minister of Finance and concurrently Director-General of the Salt Administration, Dec. 9, 1921. In charge of the Ministry, March 11, 1922. 1921-3; Chief of the Bureau of Diplomatic Affairs at Mukden since 1924. Vice-Minister of Finance and concurrently Director-General of Salt Administration. decoraton. Retired. — p. 1164
+
+**CHUNG YUNG-KUANG, (鍾榮光)** —Hsiu Tsai, Chinese Government Examinations, 1884; Chu Jen, 1894; Head of Chinese Department, Canton Christian College, 1900-08, Chinese Dean, 1909-16; Commissioner of Education for Kwangtung Province, 1911-13; Study and travel in America, 1913-19; Vice-President, 1917-24; Associate President, 1924 to present. — p. 1165
+
+**FAN HSU-LIANG, (范緒亘) alias MING FU, (明甫)** —Native of Wanpin, Chihli. Born 1879. 1900 graduated at Tung-wen-kuan School. 1916 graduated at Law Department of Ch'ung Hwa University, Peking. 1906-1908 Instructor of Russian at Yih Hsue Academy, Peking. 1908, Judge of the High Court. 1912, Secretary in the Ministry of Foreign Affairs. 1917, President of Russian Language School. At present, Secretary in Ministry of Foreign Affairs, date of appointment August 12, 1922, 3rd class Paokwang decoration. — p. 1165
+
+**FAN YUAN-LIEN, (范源濂)** —Hunan. Educated in Japan. Studied in various Japanese Colleges law and education. Has a reputation as a Chinese scholar. Vice-Minister of Education on the formation of the first Republican Cabinet, and subsequently Minister of Education in Lu Cheng-hsiang's Cabinet. Resigned, April, 1913. Minister of Education in Tuan Chi-jui's Cabinet, July, 1917. Again in Chin Yun-peng's Cabinet Aug. 1920; again in Sun Pao-chi's cabinet, Jan. 1924. Refused to assume office and released soon after appointment. Visited America on two occasions. President, Teachers' College, Peking, Director-General of the Chinese Foundation for the Promotion of Education and Culture, since 1924. First class Tashou Chiaho Paokwang decoraton. Retired. — p. 1165
+
+**FENG CHING-KWEI, (馮慶桂)** —Canton. Ph.D., Secretary in Charge of Foreign Affairs, Directorate General of the Railway Guards of the Ministry of Communications and Councillor adjoint of Ministry of Finance. Studied in Queen's College, Hongkong, 1899-1902, B.S. A. 1908, M.S. in August 1910, Ph. D. Cornell University 1911. Served as Expert, Bureau of Plant Industry, U.S. Department of Agriculture, from August 1911 to July 1912: Concurrently Chief in Charge of Chinese Section, Library of U.S. Congress. Professor of Biology and English, Government, University of Peking from Sept. 1913 to Dec. 1918. Expert, Bureau of Cotton Investigations, Ministry of Agriculture and Commerce, Feb. 1916. Appointed by the Chinese Government as Cotton Commissioner to America, Sept. 1918. As Industrial Commissioner to Europe and America, Sept. 1918, as Technical Delegate to Peace Conference Paris, Feb. 1919. Councillor adjoint Ministry of Finance May 1922. 3rd class Chiaho. Author of "A Study of the American Cotton Plant with Special Reference to its Introduction into China" 1919. "Classification of Chinese Literature" Report of the U.S Libarian of Congress 1912. Contritutions to the Journal of the Ministry of Agriculture and Commerce and the Chinese Social and Political Science Review. Founder of the Association of Cosmopolitan Club of American Universities, Associate of Cosmos Club, Washington D.C. — p. 1165
+
+**FENG YU-HSIANG, (馮玉祥) alias HUAN CHANG, (煥章)** —Anhwei. Commander of the 11th Division. Appointed on Aug. 25. 1921, Acting Tuchun of Shensi upon sudden and mysterious death of Yen Hsiang-wen who had been appointed only two months previously when Chen Shu-fan fled. Transferred to Honan, May 10, 1922. Was appointed Inspector of Army and transferred his troops to Peking, Oct., 1922. His troops played a decisive part in the Chihli-Fengtien war of 1922. His troops being stationed at Nan Yuan, near Peking, Feng was influential in the politics of Peking during the Spring and Summer of 1923. His resignation in June was considered to have brought about the flight of President Li to Tientsin and the Coup d'etat of 1923. Tupan (director) of Defence on North-Western Frontier, May 1923 Known as the Christian General. Second Order of Merit. A full General in the Army. Seized Peking during the Chihli-Fengtien war of 1924, imprisoned President Tsao Kun, ejected the Manchu Emperor, and formed a Provisional Government. Tupan of Kansu, 1925. Retired, 1926. Last heard of in Moscow. — p. 1165
+
+**FONG, F. SEC** see Kuang Fu-shao. — p. 1166
+
+**FU, PEI-CHING TUNG** see Fu Tung. — p. 1166
+
+**FU POA-KWANG** (傅保光).—Preferred English name : Fu Pau Kwang. Kwang-tung. Born 1894. B. S. School of Agriculture, University of Michigan, U.S.A. 1914; M.S. 1915. Milk Analyst in America. Superintendent, M.Y. San Co., Hongkong, 1917-19. Instructor in Industrial Biology, Y.M.C.A. Commercial Institute, Canton 1919-1920. Filled many positions in Ling Nan Agricultural College and manager, Ling Nan Agricultural Manufacturing Co., Ltd. Old Kuomintang. Permanent address : c/o Ling Nan Agricultural College, Canton. — p. 1166
+
+**FU TUNG** (傅銅) alias PEI CHING (佩青).—Preferred English name Pei-ching Tung Fu. Native of Lanfang, Honan. Born 1887. Graduated from Sugamo Kobun Gakuyin, Japan. Graduated from the Philosophy Dept. of Tayo College, Tokyo, Japan. Half year's study in the postgraduate class of Tayo College, Master of Arts, Birmingham University, England, 3 years' study at Oxford University. 1919-1920 Professor of National University, Peking. 1921-1923 professor of Peking High Normal School and Peking Girls' High Normal School and Peking National University. 1923 Sept.-Dec. Chairman in the Preparatory Dept. (of the Northwestern University) 1924 and at present President of Northwestern University. Address : Kuan-yue-miaa Street, Lanfang, Honan. — p. 1166
+
+**FU, SIAO-EN** see Fu Tsung-yao. — p. 1166
+
+**FU TSUNG-YAO** (傅宗耀) alias SIAO EN (筱庵).—Preferred English name : Fu Siao-en. Chinhai, Chekiang. A purchased Taotai. Was adviser to the office for liquidation of the official funds of the Shanghai Customs, 1912 and then appointed by the Ministry of Finance, as Special Representative to settle the Hongkong and Shanghai Bank Loan and also to adjust the financial matters in connection with the Native Orders issued by three Native Banks. Commissioner to the office for liquidating the Ta Ching Bank. In 1916, was appointed superintendent to the Bank of China at Shanghai, which post he held for three years until 1924. Adviser to the Cabinet Ministry of Finance and Tupan of Chekiang and Kiangsu provinces. In Feb. 1924, by the Mandate of the Chief Executive, was appointed Director of the Shanghai Mint. Managing Director of China Merchants' Steam Navigation Company, Deputy Director of Han Yeh Ping Co., Director and Chief Manager of the Commercial Bank of China. Director of the Ningpo Commercial Bank and Chung Hua Bank, Committee of the Chinese General Chamber of Commerce, etc. Second class Wenhu Chiaho decorations. Wearer of Grand Officier de l'Ordre de la Couronne d'Italy. Res. 7 The Bund, Shanghai. — p. 1166
+
+**HAN KUO-CHUN** (韓國鈞).—Kiangsu. Born 1858. Acting Commissioner for Foreign Affairs, Fengtien, April, 1910. Substantive do., September 10th. Commissioner for the Interior, Kirin, December, December 11. Summoned to Peking, December 12, 1912. Chief Civil Administrator, Kiangsu, June, 9 1913. Governor of Anhwei, 1915. Appointed Civil Governor of Shantung, April 5, 1922, but refused. Governor of Kiangsu, June 15, 1922. Retired. Res. Nanking. — p. 1166
+
+**HO CHIEH-TSAI** (何傑才) alias CHI WEI (其偉).—Preferred English name G. Zay Wood; Shanghai, Kiangsu. Born 1894. Graduated from the Nanyang Middle School, Shanghai, 1913; Tsing Hua College, 1915; Yale, with B.A. degree, 1917; Harvard, with M.A. 1918. President of Chinese Political Science Association, U.S.A. 1918. Editor of The Far Eastern Republic, 1919. Editor of The Chinese Students' Monthly, 1920. Editor of The Peking Daily News, Peking, 1922. Attaché of the Chinese delegation to the Washington Conference, 1921. Secretary to the Commission on Financial Conference, 1923. Secretary to the Cabinet Office, 1923. Secretary to the Ministry of Communications, 1924, councillor, 1925. At present, secretary to Waichiaopu and to the Special Tariff Conference, Technical Expert of the Financial Commission of the Ministry of Communications. Author of "The Anglo-Japanese Alliance"; "The Twenty-one Demands" "The Shantung Question" "A Study in Diplomacy and World Politics." "China, Japan, and the 1915 Treaties," etc. Res. c/o Waichiaopu, Peking. — p. 1166
+
+**Ho Feng-lin, (何豐林)** —Anhwei. Born 1877. Graduated from the Pei Yang Military Academy. Lieutenant-General in the Army. Brigadier General of 7th and 8th Army Brigades. Defence Commissioner of Ningtao (Chekiang). Military Commissioner of Shanghai until 1925. Retired. Res. Shanghai. — p. 1167
+
+**Ho Shih-chen, (何世槙) alias Sze Nyi (思毅)** —Anhwei. Born February 18, 1895. LL.B. 1921 Soochow University. LL.B. 1922 Michigan University. Hon. Member Pan-Hellenic Club, Phi Tau Phi. Representative as Chinese delegate to the International Law-Congress. Teacher of Soochow University, School of Law. President of Chi-Tze University. Address, Chi-Tze University, No. 3 Kiangwan Road, Shanghai. — p. 1167
+
+**Hoa, Nan Kuai or T. T. Hoa** see Hua Nan-kuei. — p. 1167
+
+**Hoo, Victor Chi-tsai** see Hu Shih-tze. — p. 1167
+
+**Hoo Wei-teh** see Hu Wei-teh. — p. 1167
+
+**Hsia Chi-feng, (夏奇峰)** —Kiangsu. Born 1889. Studied in a High School, Kiangsu. Was Editor of Eastern Times and its correspondent at the League of Nations in Europe. Member of the Secretariat of the League of Nations since April, 1923. Res. League of Nations, Geneva, Switzerland. — p. 1167
+
+**Hsia En-lung, (謝恩隆) alias Meng Po (孟博)** —Kwangtung. Born 1884. Graduated from Queen's College, Hongkong and obtained degree of B.A. of Oxford University, 1900-1904. 1904-1906, studied in Peiyang University, Tientsin, Massachusetts Agricultural College and graduated in 1909 with degree of B.S. B.A. Boston University. Elected member of Phi. Kappa Phi. 1919-1910, M.S. of Cornell University Post-graduate School. 1911 studied in Leipzig University, Germany, 1912-13. Chief editor of the agricultural magazine and expert to the Agricultural and Forestry Department, Ministry of Agriculture and Commerce. 1913-20, secretary and editor to the agricultural and forestry department, Ministry of Agriculture and Commerce 1920-22 transferred to the Ministry of Communications as expert and concurrently secretary to the railway department. 1922 delegate to the Sino-Japanese Postal Conference and then chief of the compiling and translating department of the office of High Industrial Commissioner. At present, expert to the Ministry of Communications, Chief of Bureau of Technics and concurrently adviser to the Ministry of Agriculture and Commerce. Author of "Tea Industry in China" and "Tobacco Industry in Shantung". 2nd class Chiaho and other decorations conferred on him both by the Ministries of Agriculture and Commerce and Communications. Res. Hwan San Tiao, Kung Men Kow, West City, Peking. — p. 1167
+
+**Hsia Yen-tsao, (夏彥藻) alias Chin Hsi (琴西)** Native of Tientsin, Chihli Born. 1890. Graduated from Tientsin Junior Commercial School and Chihli Law College. At present, Secretary-in-Chief, the Chamber of Commerce, Tientsin, Lawyer. Editor of the North China Daily News, (Chinese newspaper). Instructor of the School for Study of Self-government. Adviser to the Tientsin Mint. Legal adviser and secretary of the Tientsin Flour Association, Bankers' Association and the Carpet Association. Address: Tientsin Chamber of Commerce, Tientsin. — p. 1167
+
+**HSIAO CHI-YUNG, (蕭繼榮) alias LIANG KUNG, (亮功)** —Kwangsi. Born 1889. Chujen. Studied Law at Berlin University, Germany. Secretary to the Ministry of Justice, 1912. Was sent to the Chinese Legation, Berlin, Germany, 1913. Attached to the Translation and Compiling Department, Ministry of Justice, 1916. Transferred to the Department of Politics and concurrently member of Peace Conference, 1917. Second secretary to the Chinese Legation, Switzerland. Attached to International Labour office League of Nations, Geneva. Still holds the last two positions. Fourth class Chiaho, Res. Chinese Legation, Berne, Switzerland. — p. 1168
+
+**HSIEH WEI-LIN, (謝為霖) alias SIU-SUN, (倅孫)** —Preferred English name Sia Oi-ling. Mingho, Fukien. Graduated from Anglo-Chinese College in 1901. Deputy Commissioner of Post of Fukien district. Received 4th. class Chiaho decoration. — p. 1168
+
+**HSIN PAO-TSU, (辛寶慈) alias CHI YUEN, (際雲)** —Kwangtung. Chief Treasurer of Peking-Suiyuan Railway. Director of Kirin Mint and Inspector of the Kirin Native Banks, also Commissioner of Foreign Affairs. Director of Government Transportation Bureau of Kirin. 1915 Chief Secretary of National Assembly. 1916 Director of the Chinese Telegraph Administration 1919 Consul-General of Fusan, Korea. up to present. 3rd class Chiaho and 4th class Wenhu decorations. — p. 1168
+
+***HSIUNG HSI-LING, (熊希齡)** —Hunan. Metropolitan Graduate of 1894. A prominent Hanlin scholar, who subsequently studied abroad in Japan and Europe. He was an intimate friend of the reformer Kang Yu-wei, and after the latter's downfall he was arrested, but promptly released. He held posts in the Board of Agriculture, Industry and Commerce of Kiangsu and Fengtien, was Acting Commissioner of Foreign Affairs in Hupeh in 1910, and at the time of the Wuchang outbreak was Salt Finance Supervision Commissioner at Mukden. He accompanied Tuan Fang on his mission in 1905. On the outbreak of the Revolution he went south and joined the republicans, becoming President of the Republican Committee in Hunan. He was appointed Minister of Finance in the first Republican Cabinet, and was responsible for the conduct of the loan negotiations with the International Group from the time of his arrival in Peking until he resigned, in June, after Tang Shao-yi gave up the Premiership. He continued to be employed by the Government in the capacity of Chief of a Commission for the negotiation of foreign loans after his resignation, and it was he who was mainly responsible for negotiating the Crisp Loan. Subsequently Lieut-General of Jehol until appointed Premier, July 31, 1913. Finance (Additional), September 11, 1913. Director-General of the National Oil Administration, 1915. Director of Flood Relief, Chihli, and Director-General of the Grand Canal Improvement Board, 1917. Organized and is still the Director of a modern Orphanage in the Western Hills, near Peking. Called to Hunan to direct self-government movement in that province, May 1921. Asked to serve on the Commission to establish a National Educational Endowment Fund, Dec. 31, 1922. Returned Peking, July 1921. Second Order of Merit. — p. 1168
+
+***HSIUNG KE-WU, (熊克武)** —Szechwan. Born 1882. Graduate from the Tung Ping Military College in Japan. Commanded the 5th Szechwan Army. Has been Defence Commissioner of Chungking and of Szechwan Frontier. Being military leader of Szechwan, he joined the Canton Military Government in 1919. Toward end of 1920, was appointed Civil Governor of Szechwan by the Peking Government but did not accept office. Was succeeded by Liu Hsiang. Imprisoned at Canton 1925. Second Order of Merit. — p. 1168
+
+**HSU CHIEN (George Chien Hsu)** (徐謙) alias CHI LUNG, (季龍).—Anhwei. Born 1872. Chinshih and Hanlin of the late Ching Dynasty. Graduated from the Chin Shih Kuan (Law College for Hanlins). Appointed by Tai Hung Tsi, Chief Justice of Peking Local Court with instructions to reorganize that Court along modern lines. In 1907, became Attorney-General of the Peking Higher Court. Represented China at the International Prison Conference, Washington, 1910. Resigned from office at the outbreak of the Revolution, 1911. Was made Vice-President of the Supreme Court after peace pact in Shanghai. Became Vice-Minister of Justice, 1912. Resigned after half year's service, and joined Dr. Sun Yat-sen. Practised law in Shanghai, 1913-1915. Joined the Christian Church, 1916. Again was Vice-Minister of Justice in the first Tuan Chi-jui's Cabinet under President Li Yuan-hung.. Resigned at the dissolution of the Parliament. Joined in 1917 with Dr. Sun in Canton where the Military Government was established. There in 1918 he became Minister of Justice and concurrently Dr. Sun's representative on the Administrative Council. Proceeded in 1919 to Paris as representative of the Canton Military Government and also unofficially of Chinese Christian Churches, serving as adviser to the Chinese Peace delegation. Upon return from Paris, joined the Tientsin and Peking Yi Shih Pao ("Social Welfare") as their Editor-in-Chief, while he retained nominally his post in the Canton Government as the President of Supreme Court. Resigned from Yi Shih Pao, May 1920, and was in active service in Canton. Came to Shanghai with Dr. Sun Yat-sen in Autumn, 1922. Was asked to join Wang Chung-hui's Cabinet, in 1922 but never assumed office. Chief of the Canton Diplomatic Mission to Peking. Chief of the Judicial Mission, President of the Supreme Court, Chairman of the Russian Boxer Indemnity Commission. Author of many books on poetry and literature as well as on Christianity. Res. Shanghai Law College, Rue Auguste Boppe. Now reported to be in Russia. — p. 1169
+
+**HSU CHIEN-PING, (許建屏) alias JABIN, (彥藩) OR YEN FAN, (建屏)** —Preferred English name: Jabin Hsu. Chekiang. Born 1890. Graduated from Public School for Chinese, Shanghai, 1907; Tsing Hua College, Peking, 1911; University of Michigan, Ann Arbor, Mich. U.S.A. 1914. Delegate to the Press Congress of the World. Honolulu, 1921. Washington Correspondent, China Press, Washington, D.C. 1921. Managing Director, Shanghai Tribune, 1923-1924. Chairman, Chinese Advisory Committee, Shanghai Municipal Council, 1923-1925. President, American University Club, Shanghai, 1925. First Vice-president, American Returned Students Club, 1925, etc. Chief Sub-editor, The China Press Inc., Shanghai, March 1917 to 1926. Now Manager of Far Eastern Times, Tientsin. Author of "My Own Report of the Washington Conference". Decoration 4th class Chiaho. — p. 1169
+
+***HSU CHUNG-CHIH** (許崇智).—Kwangtung. Born 1881. Graduated from the Military Officers' Training School of Japan. Has been training officer of the Tenth Foochow Army. Brigadier General of the 20th. Army Brigade. Retired. Residence, Shanghai. — p. 1169
+
+**HSU, GEORGE CHIEN** see Hsu Chien. — p. 1169
+
+**HSU HSIN-LU** Preferred English name, Singloh Hsu. (徐新六).—Hangchow, Chekiang. Born 1890. Educated in the Nanyang College, Shanghai; Tongshan Engineering College; University of Birmingham; University of Manchester; Ecole des Sciences Politiques. B.Sc. B. Com. Councillor, Ministry of Finance, 1915. Sub-Manager, Bank of China, Peking Branch, 1918 and Director of Sintoon Overseas Trading Co., Ltd., 1922-26. At present, General Manager, National Commercial Bank, Head Office, Shanghai. Third class Chiaho and Wenhu decorations. — p. 1169
+
+**HSU, JABIN** see Hsu Chien-ping. — p. 1170
+
+**HSU SHIH-CHANG, (徐世章) alias TUAN FU, (端甫)** —Preferred English name S. C. Shu.—Honan. Born 1888. Educated in the Peking Language School and in Belgium. B.Sc. in Commerce. Formerly Director Pukow-Hsinyangchow Railway, Managing Director, Tientsin-Pukow Railway. Director-General, National Railway System. Vice-Minister of Communications, from Aug. 1920. Appointed Director-General of the Currency Bureau, Dec. 27, 1921. Co-Director, Government Famine Relief Bureau. Retired, May 1922. 1st class Tashou Paokwang Chiaho, Tashou Chiaho, and Wenhu decorations. Wearer of French decoration. Brother of ex-President Hsu Shih-ch'ang. Res. Tientsin. — p. 1170
+
+***HSU SHIH-CH'ANG, (徐世昌)** —Honan. Probationary Grand Councillor, June, 1905. Minister of Government Council, June, 1905. President, Board of Police, October, 1925. Grand Councillor, February, 1906. Removed from Grand Council, November 1906. Special Mission to Manchuria, December 1906. President of Board of Interior, December, 1906. Viceroy of Manchuria, April, 1907. President of Board of Communications, February, 1909. Director-General, Tientsin-Pukow Railway, July 1909. Grand Secretary, February, 1910. Grand Councillor, August, 1910. Appointed Vice-Premier in Prince Ching's Cabinet, in May, 1911. Removed from that post, and appointed Vice-President of the Privy Council on November 1, 1911. Chief of General Staff, November, 1911. High Commissioner for Training Imperial Guard, and Grand Guardian to the Emperor, December, 1911. Relieved of post on General Staff, February, 1912. On the resignation of the Prince Regent was appointed, with Shih Hsu, Grand Guardian of the Emperor. A "Sworn Brother" of President Yuan Shih-kai. Secretary of State, 1915. With Chao Erh-hsün, Li Ching-hsi, and Chang Chien received the title of "The Four Friends of Sungshan" (i.e of Yuan Shih-kai). On the failure of Yuan Shih-kai's attempt to establish a monarchy Hsu Shih-ch'ang resigned his Secretaryship and retired to Honan. Returned to Peking, November, 1916, to mediate between the President, Li Yuan-hung, and the Premier, Tuan Chi-jui. During the unsettled period, 1917-18, he remained detached from Peking politics, but without losing his influence over the contending factions. On September 4, 1918, elected President of the Republic of China, at a joint meeting of the Senate and House of Representatives of the so-called "Tuchuns' Parliament," by 425 out of 436 votes. Received Hon. Dr.'s degree from University of Paris. Sent Chu Chi-chien to represent him, June 1921. Vacated Presidency, June 1, 1922, and left for Tientsin on the following day. Res. Tientsin. — p. 1170
+
+***HSU SHIH-HSIANG, (S. S. Shu) (徐世襄)** —Tientsin. Cousin of ex-President Hsü Shih-chang. Studied in England and Germany. Attaché to the Commission sent abroad for investigation of Politics in the Ching dynasty. Secretary to President. Member of the Ministry of Finance. Superintendent of Customs. Kalgan and Tunghai (Chefoo). Second class Wenhu decoration. — p. 1170
+
+**HSU SHIH-YING, (許世英)** —Anhwei. Born 1872. President of High Court of Justice at Mukden, September, 1908. Chief Justice of the High Court at Peking. May, 1912. Minister of Justice, July, 1912. Sent to Great Britain, Germany, France, Russia, Italy, Austria, Belgium, Holland and other countries to investigate the judical system. Was also sent to the United States of America to attend the Eighth Conference on Prison Reforms. Has been in the service of Police and judiciary for fifteen years. Resigned, September 4, 1913. Chief Civil Administrator Fengtien, October 13, 1913. Governor of Fukien, 1915. Minister of Communications, 1916; resigned, May, 1917. Appointed Civil Governor of Anhwei Sept. 29, 1921. Appointed Minister of Justice, Dec. 1922 but did take up appointment and officially relieved January 1923. Director of Aviation Bureau, Feb. 1923. Relieved of post Nov. 1923. Chief Secretary of the Reorganisation Conference, 1925. Formed a Cabinet during 1925 war. Premier, 1925-6 acting Minister of Finance, 1926. First class Tashou Chiaho decoration. — p. 1170
+
+**HSU, SHOWIN WETZEN** see Hsu Wei-chen. — p. 1171
+
+**HSU SI-AN, (許錫安) alias CHIH CHI, (志祺)** —Preferred English name Shi An Shu (Khaw). Native of Tsingkiang, Fukien. Born 1891. Graduated from Peking Union College. At present President of Westminster College, Amoy. Author of "A Guide to England, America and Japan." Address. Westminster College, Chuanchow, Amoy. — p. 1171
+
+**HSU, SINGLOH** see Hsu Hsin-lu. — p. 1171
+
+**HSU TSU-SHAN, (徐祖善) alias YEN MO, (燕謀)** —Preferred English name Com. T. S. Chu, C. N. Native of Wusih, Kiangsu. Born 1880. Graduated from the Naval School, Nanking. Naval Engineer M. I. T. Boston, Chief officer in Ministry of Navy. Observer with the Allied fleet during the Great War. Special Commissioner to Versailles Conference at Paris. Chief officer in the General Dept. of the Aeronautic Service. Adviser on Shantung Problems. Superintendent in Customs Service, Kiaochao and Harbour Service, and River Police Service. Weather Inspection Service, Tsingtao. At present Superintendent of Customs, Tientsin. Author of 'The Submarine Boat.' Order of the Rising Sun, Decorations from Holland and Italy. 2nd class Tashou and 3rd class Wenhu decorations. — p. 1171
+
+**HSU WEI-CHEN, (徐維震) alias HSU YIN, (旭寅)** —Preferred English name, Shöwin Wetzen Hsü, Chekiang. Born 1881. Educated in the Nanyang College, Shanghai, Law School, University of Chicago, U.S.A., Law School, The Indiana University, U.S.A., LL.B. Law Compiler, Board of Communications, Judicial Official Officer of the Second class. Board of Navy; Councillor, Board of Education and member of Law Bureau in the late Ching Dynasty. Member, Ministry of Finance, 1912. Justice, Supreme Court, August 1912. Legal Adviser to the Garrison Commissioner of Shanghai, 1913. Justice, Higher Special Court, Nov. 1917. Member, Court of Equity, July, 1918. Chief Justice. Higher Court of Justice for Shansi since May 1920. Chinese Secretary General of the Extraterritoriality Commission, 1925-6. Wrote and translated several books on naval, and legal subjects. Second class Chiaho, Wenhu and Second class Paokwang Chiaho decorations. — p. 1171
+
+***HSU YUAN, (許沅)** —Kiangsu. Born 1878. Chujen. Customs Taotai, Tientsin, April, 1912. Supervisor of Customs, Tientsin, December 1, 1912. Special Delegate of Foreign Affairs, Tientsin, March, 1913, and Honan, June 12, 1913. Commissioner of Foreign Affairs, Shanghai at present. First class Tashou Chiaoho decoration. — p. 1171
+
+**HSUEH TU-PI, (薛篤弼) alias TSI-LIANG, (子良)** —Shansi. Born 1889. Graduate of Shansi Law College, 1913. Has been District Magistrate of Changteh, Honan and Yenyang, Shensi. Has been Commissioner of Finance of Shensi and Honan. Vice-Minister in charge of the Ministry of Interior. Mayor of Peking, 1924-5. Appointed Civil Governor of Kansu, 1925. Decorations : 2nd class Tashou Chiaho, 4th class Wenfu. Res. Shi Sze Ba Lo. Sha Fu Hutung, Peking. — p. 1171
+
+**HU HAN-MIN, (胡漢民) alias TSEN TANG, (展棠)** —Kwangtung. Born 1878. Studied in Japan, where he met Dr. Sun Yat-sen, of whom he became a warm admirer. Edited a revolutionary newspaper at Hongkong prior to 1911. After the resignation of the Provisional Tutuh of Kwangtung he was appointed to the post, but soon relinquished it to accompany Dr. Sun to Nanking as a secretary. On the resignation of Dr. Sun, Hu accompanied him to Canton, where he was re-elected Tutuh by the Provincial Assembly. Deprived of all rank during the rebellion of 1912. Commissioner of Pacification of Tibet, June 14, 1913. Joined the Canton Military Government on its establishment and received the title of Councillor. Chief, Department of Civil Affairs of the Canton Military Government, 1921. Civil Governor of Kwangtung 1922. Chief Councillor, 1924. Generalissimo Kuomintang Army, Canton, 1924. Governor of Kwangtung, 1924. Concurrently Minister of Foreign Affairs of Canton Government, 1925. Visited Moscow as delegate of Canton Government, 1925. Author of many books on revolution and socialism. Kuomintang. 2nd class order of merit, with rank of general and Tsi Wei Chiang Chun. Res. Canton. — p. 1171
+
+**HU SHIH** (Suh Hu 胡適).—Born Shanghai, December 1891. Studied at Chinese National Institute. 1910, was sent to America as an Indemnity scholar, and entered Cornell as freshman in the College of Agriculture. Eighteen months later, joined the College of Arts and Science. 1913, elected to Phi Beta Kappa Society and awarded the Hiram Corson Prize for essay on Robert Browning. After graduation in 1914 he was given a scholarship in the Sage School of Philosophy in Cornell. 1915, went to Columbia and after two years obtained his Ph.D. 1917-1918 wrote articles advocating a radical reform in Chinese literature, suggestions which have culminated in the "literary revolution." First to write Chinese poetry in the spoken language. Professor of Philosophy at the Peking National University since 1917, and Dean of the Department of English Literature since 1922. Author of "The Development of the Logical Method in Ancient China" (doctorate dissertation); "Outline of Chinese Philosophy" (in Chinese), Volume L; "Ancient History of China." Editor of "Endeavour" (weekly in Chinese). Recognized as one of the foremost modern Chinese thinkers, although a moderate radical. Invited by the British Government to serve as one of three Chinese members on the Boxer Indemnity Commission, 1926. Is mainly responsible for the Chinese literary Renaissance movement. (See China Year Book, 1924, Ch. XXIII). Res. Peking. — p. 1172
+
+**HU SHIH-TZE** (胡世澤) alias SHOU TSENG, (壽曾).—Preferred English name, Victor Hoo Chi-tsai. Native of Wusing, Chekiang. Born in Washington, 1894. 1905 graduated from Kaiser Primary School, Petrograd. 1912 graduated from Annen Schule. 1916 graduated from Ecole Des Sciences Politiques (law college), Paris. 1918 received the degree of Doctor of Law. 1919 secretary of the Chinese Delegation to Peace Conference at Paris. 1920 expert Commissioner of the Chinese Delegation to International Finance Conference at Peking, after that, expert Commissioner of the Chinese Delegation to International Conference in Switzerland. 1921 expert Commissioner of Chinese Delegation to Anti-slave traffic in Women and Children Abolition Conference at Geneva. 1921 Secretary of Chinese Delegation to Washington Conference. 1921 3rd secretary of Chinese Legation to Belgium. 1922 2nd secretary of Chinese Legation to Germany. 1st Secretary Chinese Legation, Berlin, 1923-4 Charge d'Affaires, Berlin, 1924-5. Assistant Councillor of the Ministry of Foreign Affairs, 1925. Assistant Director, Drafting Department of the Tariff Conference, 1926. Technical Expert Sino-Russian Negotiations. Author of "The Basic Things of Russo-Chinese Treaty Relations" (written in French). Medals. 3rd class Chiaho, 3rd class Precious Star medal of Greece. — p. 1172
+
+**HU WEI-TEH** (胡維德).—Born in Chekiang. 1871. Educated in Language School, Shanghai, Chujen. Secretary to Chinese Legation, London, 1889. Councillor to Legation at Washington 1893. Minister to Russia, 1904. Junior Councillor, Board of Foreign Affairs, September, 1907. Minister to Japan, March, 1908. Star of 2nd Class 1st Division, January, 1909, Junior Vice- President, Board of Foreign Affairs, May, 1910. Senior Vice-President, July, 1910. Adjoint Director-General of Revenue Council, July, 1910. Acting Minister of Finance, November, 1911. Appointed Acting Minister for Foreign Affairs in the Republican Government, pending the arrival from Europe of Lu Cheng-hsiang. Controller-General of the Revenue Council (Shuiwuchu), March, 1912. (He was nominated as Minister of Communications in July, but his name was rejected by the National Council). Minister to France, Spain and Portugal, November 24, 1915. Minister to Japan, from 1920-5. Minister of Foreign Affairs, 1926. Premier of Regency Cabinet, 1926. Decorations: 2nd Class Double Dragon; 1st Class Tashou Paokwang Chiaho, and many Foreign Orders. Retired. — p. 1172
+
+**HU, WENFU YIKO** see Hu Yi-ko. — p. 1173
+
+**HU YI-KO, (胡詒穀)** alias WEN FU, (文甫).—Preferred English name Wen-fu Yiko Hu. Native of Tzuchi, Chekiang. Born 1882. Graduated from St. John's University in 1896. Studied law in Universities of Chicago and Illinois. Chief Justice in the Supreme Court of China. Received 2nd Class Tashou Chiaho 2nd Class Wenhu and 3rd Class Paokwang Chiaho decorations. 1896-1898 President of St. John's University and English Secretary. 1898-1905 teacher of Nanyang University. 1909 Faculty of Nanyang University also Law teacher in the Peking University. 1910 Charge of Postal Affairs. 1912 Judge of the Supreme Court in Peking. 1914 Member of the Provisional Law Committee. 1917-22 Chief Judge of the Supreme Court. Degrees B.A., L.L.B. Author of English and Chinese Pocket Dictionary edited by Commercial Press, Shanghai. Permanent Address: Supreme Court, Peking. — p. 1173
+
+**HUA NAN-KUEI, (華南圭)** alias TUNG CHI, (通齊).—Preferred English name Hoa Nan Kuai or T. T. Hoa. Wusih, Kiangsu. Born 1876. Studied at the Peking University. 1903 Engineering College, Paris; 1910 M.S.A. Returned to China in 1911 Chinshih by the Board of Education. Engineer, Peking-Hankow Railway, 1911. Expert and Chief Engineer, Railway Department, Ministry of Communications, Director of Kaifeng-Loyang Railway, 1919. Chief Engineer Peking-Hankow Railway and resigned in 1922, but reinstated in 1924—which is his present position. Author of many books on civil engineering. 5th class Wenhu, 3rd class Chiaho decorations. Res. 19 Wu Liang Tah Jen Hutung, East City, Peking. — p. 1173
+
+**HUANG FU, (黃郛)** alias YING PO, (膺白).—Hangchow, Chekiang Graduated from Army Cadet College, Japan. Served on Staff of General Chen Chi-mei, and the Kiangsu Tutuh. After a visit to Europe and America wrote two books on Lessons of European War and the Future of China, and The World After the War. In 1921 was sent to study economic conditions in Europe and America, and joined the Chinese Delegation at Washington as High Adviser. On his return to China was appointed Director General of the Finance Commission. Member, College of Marshals, Aug. 1922. Minister for Foreign Affairs February, 1923. Minister of Education Sept. 1923 to 1924. Minister of Education in W. W. Yen's Cabinet, September 15, 1924. Acting Delegate to the Tariff Conference 1925. Appointed Minister to Germany with Ambassadorial rank, 1925. Author of "What the Great War has Taught Us—the Future of China" "The World After the Great War" First class Tashou, Paokwang, Chiaho and 2nd class Wenhu, decorations. — p. 1173
+
+***HUANG KAI-WEN, (黃開文)** .—Kwangtung. Born 1865. A Graduate of Peiyang Telegraph College. Acting Intendant of Industry, Mukden. August, 1907 Degraded to Sub-Prefect, August, 1909. Supervisor of Customs, Hankow, December 1, 1912. Chief of the Hankow office of the Kin Han Railway Company. Chief of Bureau of Rites in the President's Office. — p. 1173
+
+***HUANG YEN-P'EI, (黃炎培)** .—Kiangsu. Born Sept. 6, 1879. Graduated from the Nanyang University. D. Litt. Vice-Chairman, Kiangsu Provincial Educational Association, and Chairman, China Vocational Education Association. Member of Kiangsu Provincial Assembly. Author of various works on Commerce, Education and Travel. Appointed Minister of Education, Dec. 25, 1921, but did not accept office. Reappointed, June 12, 1922, in Dr. W. W. Yen's Cabinet. Trustee of the China Foundation for the Promotion of Education and Culture, 1925. Second Class Chiaho decoration. Res. West Gate, Shanghai. — p. 1174
+
+**HUANG YUNG-LIANG, (Huang Jung-liang or Y. L. Huang), (黃榮良) alias TZE SHEN, (子誠)** .—Anhwei. Born 1875. A.B. Studied in the University of Nanking, 1890-96. Teacher, University of Nanking, 1896-97. Dean, 1897-99. Studied Liberal Arts in Baker University, 1900-03, at Columbia University 1903-5. Second Translator. Chinese Legation, London, 1906-7. Consul in New Zealand, 1909-11. Consul-General in Australia (Melbourne) 1912-14. Assistant Secretary, Ministry of Foreign Affairs, 1914-16. Special Commissioner of Foreign Affairs for Chihli, 1916-1920. Minister to Austria since 1920. Third class Wenhu, Second class Tashou Chiaho and Third class Paokwang Chiaho decorations first class Paokwang Chiaho. Res. Vienna, Austria. — p. 1174
+
+**HUANG KUO-EN, (Wong Ko-un), (黃國恩)** .—Kwangtung. Born 1887. Graduate, University of Wisconsin, U.S.A. LL.B. Law Professor, Futan University, Shanghai, 1911. Lawyer, one of the seven promoters who organized the first Bar Association of China, 1911. Secretary and Legal Adviser to Chou Tzu-chi, when the latter was Civil and Military Governor of Shantung, 1912-13. President of the Shantung Provincial College, 1912-13. Compiler, Ministry of Communications, 1913. Secretary, Ministry of Finance, 1914. Chief Auditor for Hupeh, Hunan, Anhwei and Kiangsi Salt Districts, with Headquarters at Hankow, 1914. Member of Customs Revenue Administration, Peking, 1915. Private Secretary to Tuan Chih-kwei, ex-Minister of War, 1917-20. Military Judge, Metropolitan Garrison Guards Headquarters, 1917-20. Lecturer of Peking Government University, 1917-21. Assistant Secretary to Ministry of Communications, 1921. Member of Salt Administration, 1921. Assistant Councillor, Ministry of Agriculture and Commerce. 1915-22. Secretary of the Commission on Extraterritoriality since 1923; Chief of the Reception Section of the Chinese Commission for the Investigation of Extraterritoriality. — p. 1174
+
+**HUANG YU-TING, (黃毓鼎) alias TSU CHIU, (鍾九)** .—Law graduate of Central University, Japan. Chief of the Accounting Section of the Ministry of Foreign Affairs. — p. 1174
+
+**HUNG, SEE LU** see Hung Shih-lu. — p. 1174
+
+**HUNG SHIH-LU, (洪式閭) alias PO JUNG, (百容)** .—Preferred English name Hung See Lu. Loching, Chekiang. Born 1895. 1917 March graduated from the National Medical College, Peking. 1920 Studied in Germany. 1923 made Professor of the National Medical College, Peking. 1923 December, elected President of the same College until 1924. At present, Professor of the same College, having appointed by the Ministry of Education to go abroad for medical investigations. Author of various medical works. — p. 1174
+
+**HUNG, WILLIAM PROFESSOR** see Hung Yieh. — p. 1174
+
+**HUNG YIEH, (洪業) alias WEI LIANG, (緯蓮)** .—Preferred English name Professor William Hung. Native of Fukien. Born 1893. Studied at Columbia University. Degree M. A. Head of Department of History, Yenching University. Dean, College of Arts and Sciences, Yenching University. — p. 1174
+
+**JOHN, S. M** see Chiang Shao-mo — p. 1175
+
+**KALACHING, PRINCE** see Kung Sang No Erh Pu. — p. 1175
+
+**K'ANG YU-WEI, (康有為)** .—Kwangtung. A well-known reformer, who started his campaign in favour of reform in the South by means of leaflets and lectures. Was received in audience by the late Emperor Kwang Hsu on June 14, 1898, on the recommendation of Weng T'ung-ho, the Imperial Tutor. He at once obtained a strong influence over the Emperor, whose famous reform decrees of 1898 were inspired by K'ang. Was proscribed, and ordered to be decapitated when the Empress Dowager effected her coup d'état, but escaped, and subsequently resided abroad, principally in America. An advocate of the adoption of Confucianism as the State Religion. Returned to China under the Republic. Was prominent in Peking at the time of Chang Hsun's restoration of the Manchu dynasty, July. 1917, and figured in the appointments made at that time. Now resides at Shanghai. — p. 1175
+
+**KAO EN-HUNG, (高恩洪)** .—Shantung. Was a telegraph operator, from which position he rose to be Chief of Material department of the Chinese Telegraph System with headquarters at Shanghai. Appointed Minister of Communications, May 24, 1922. to Jan 4, 1923. Acting Minister of Education before Tang Erh-ho attended office. Resigned, Dec., 1922 on fall of the Wang Chung-hui Cabinet. Appointed Tupan of Tsingtao, 1923. Arrested during Chihli-Fengtien War, Released 1925. Retired. First class Tashou Chiaho Paokwang Decoration. — p. 1175
+
+**KAO LING-WEI, (高凌霨)** .—Chihli. Chujen. Provincial Treasurer for Hupeh under Chang Chih-tung. Was also Commissioner of Education, same province. Resigned after the revolution, 1911. Member of 1st Republican Parliament. Vice-Minister of Agriculture and Commerce in the first Chin Yun-peng cabinet formed after the Chihli-Anfu struggle, 1920. Minister of Finance, October 28, 1921. Minister of Agriculture and Commerce in Dr. C. H. Wang's cabinet of 1922. Minister of Communications, May to June, 1922. Minister of Interior in Dr. W. W. Yen's cabinet. Appointed Civil Governor of Chihli, June, 1922 but refused post. President of Commission for Study of Yangtzekiang Conservancy. Appointed Acting Premier by President Tsao Kun on Oct. 12, 1923, after having acted in that capacity for come time on the departure of Chang Shao-tseng from Peking, Sept. 1923. Released by the appointment of San Pao-chi, Jan. 12, 1924. Appointed Tupan of Shui Wu-chu, (Director General of Customs Service), Sept. 15, 1924. — p. 1175
+
+**KIANG, KANG-HU** see Chiang Kan-fu. — p. 1175
+
+**KIANG SHEN-TEH, (江順德) alias WEN TZU, (文治)** .—Preferred English name S. T. Kong. Kwangtung Born 1880. Studied in Peiyang University, 1895-1900. College of Mining Engineering of University of California, Bachelor of Mining Engineering, 1902-1905. Columbia University, Master of Mining Engineering, 1905-1907. The degree of Chinshih (engineering class) was conferred on him in Ching Dynasty, 1909. Chief Engineer, Hunan Mining Bureau, 1907-1909. Chief Engineer, Hunan Lead Refining Company, 1909-1910. Mining Engineer of Kwangtung Province and concurrently director of the Assaying Department, 1912-1913. Expert to the Hupeh Mining Bureau and concurrently chief engineer of the ore refining department, 1916-1919. At present, manager of the Hankow branch of the National Commercial & Savings Bank and chief engineer to the Ming Hsin Chalk and Paint Co., Hunan. Res. National Commercial & Savings Bank, Hankow. — p. 1175
+
+**KING, KUNGPAH T** see Chin Shao-cheng. — p. 1175
+
+**KO HUNG-LIEH, (柯鴻烈) alias JUNG KAI, (榮凱)** .—Native of Chungking, Szechwan. 1905 studied Law in Mingsu University Tokio, Japan. 1911 Secretary of Waichiaopu. 1912 Vice-Consul in Korea. 1912, Commissioner of Foreign Affairs in Szechwan. 1919, Consul to Kobe, Japan. 3rd Class Chiaho and 4th Class Paokwang Chiaho — p. 1175
+
+**Koo, V. K. Wellington, Dr** see Ku Wei-chun. — p. 1176
+
+**Kong, S. T** see Kiang Shen-teh. — p. 1176
+
+***Ku Hung-ming** (辜鴻銘).—Born 1856 at Penang. Nationality, Chinese. For 17 years secretary to H.E. the late Viceroy Chang Chi-tung in Wuchang. For five years managing director of Whangpoo Conservancy Board, in Shanghai. For eight months Dean of Nanyang College in Shanghai. Author of many books (now all out of print), such as "Translations of Discourses and Sayings of Confucius" "The Conduct of Life," "Higher Education," "Papers from a Viceroy's Yamen," "The Story of a Chinese Oxford Movement," "Vox Clamantis." Four of these books have been translated into German and Swedish. Now resident in Japan. — p. 1176
+
+**Ku Wei-chun** (顧維鈞) alias Sau Chuan, (少川).—Preferred English name Dr. V. K. Wellington Koo, Kiangsu. Studied at St. John's University. Ph.D. in Law, Columbia University, New York. L.L.D. Yale University, 1916. Columbia, 1917. Member of Phi Beta Kappa Society. Secretary to Cabinet, May, 1912; retired July, 1912. Secretary to the Ministry of Foreign Affairs, August, 1912; Councillor, 1914 Minister Plenipotentiary to Mexico. 1915. Was Minister at Washington, till 1920, when he was appointed Minister to London. Was a member of the Peace Conference of Paris, 1918-19. China's representative on the Council of League of Nations. Chinese Delegate to the Washington Conference, Nov. 1921. Visited China, May, 1922. Appointed Chairman of the Commission for the Study of National Finance, June 1922, and Minister of Foreign Affairs Sept. to Dec., 1922. Again appointed to the same post, Aug. 5, 1922. Reappointed Sept. 19th. Was appointed President-Commission for Study of National Finance but refused to take office. Minister of Foreign Affairs April, 1923. Again Jan. 12, 1924—Sept. 15, 1924. Escaped from Peking 1925. Trustee of the China Foundation for the Promotion of Education and Culture 1925. Author of "The Status of Aliens in China" and "China and the United States". 1st class Tashou Chiaho and 1st class Tashou Paokwang Chiaho and Russian decoration 2nd and 3rd class orders of merits. Minister of Finance, 1926. — p. 1176
+
+**Kuan Chun** (關炯) alias Kuang Chung Tze, (綱九).—Native of Hupeh. Chujen. Magistrate 1907 in Tungcho, Chihli. 1910 Magistrate of the Mixed Court of Shanghai up to present. 2nd class Chiaho. Res. Shanghai. — p. 1176
+
+***Kuan Keng-lin** (關廣藺).—Kwangtung. Born November, 1880. Graduated in Japanese College. Studied Politics and Law in the Imperial Peking University for two and half years. Chinshih. Member of Board of Army 1903. Accompanied the Five Special Commissioners to study Government Systems in Europe and America, 1904. Member of Board of Communications, 1905. Assistant Director, Peking-Hankow Railway, 1910. Director, the same railway, 1912, to 1915. Member of Ministry of Finance, December, 1916. Department Chief, Ministry of Communications, July, 1917. Vice-Chairman and General Secretary, National Railway Association. Member, Finance Committee of the President's Office, Councillor, Ministry of Communications, Jan. 1919. Chief, Publication Department in the same Ministry, July, 1919. Director, Hankow-Kwangtung-Szechwan Railway since July, 1920. President of Chiaotung University, June to Aug. 1922. Second class Chiaho and Wenhu decorations. — p. 1176
+
+***Kuan Mien-chun** (關冤鈞).—Kwangsi. Born 1870. A Chinshih and Hanlin Compiler of the late Dynasty. Was Vice-Director of the Ching-Chang Railway in 33rd year of Kwang Hsu, and was Director of the Ching-Chang and Chang-Sui Railways since the 3rd year of Hsuan Tung. Received a 5th class Chia-ho Order in the 2nd year of the Republic of China. In the 31st year of Kwang Hsu was appointed second-class secretary to proceed to the United States, Russia, Germany, Austria and Italy with the Investigation Commissioners to study the political situations abroad, and at that time he travelled in Japan, Great Britain, France, Belgium and several other countries. Superintendent, Sha-hu-kou Customs, (Kuei-hua-cheng). Superintendent of Tsaipei Customs. Resigned, June 2, 1922. At present Salt Commissioner in Shansi. — p. 1176
+
+**KUANG FU-SHAO** (Fong F. Sec.), (鄺富灼).—Kwangtung. Born 1869. Studied in the Pomona College, University of California and Columbia University. M.A. Editor of the Commercial Press, Ltd., since 1908. Author, Joint-author and compiler of various text books, reference books, etc. Res. Shanghai. — p. 1177
+
+**KUNG CHI-PING** (龔積柄) alias Po Heng, (伯衡).—Anhwei. Born 1872. Chief, Shantung Higher Court. Salt Commissioner of Shantung, July 1912, Acting Civil Governor of Shantung, Feb. 1924. Taoyin in Shantung. Appointed Commissioner of Finance, Shantung, August 26, 1921. 1924, Nov., Acting Civil Governor of Shantung up to present. 2nd class Tashou-Paokwang decorations. — p. 1177
+
+**KUNG HSIANG-HSI** (H. H. Kung) (孔庸之).—Shansi. Born September 11, 1881. Studied in Taiyuanfu, Oberlin (Ohio) and Yale. Founder and Principal, of the Oberlin Academy in his native district, Taikuhsien (Shansi). Actively connected with Sun Yat-sen's his brother-in-law's party. Assistant Director-General of Sino-Russian Negotiations since the beginning of 1925. — p. 1177
+
+**KUNG HSIN-CHEN** (龔心湛).--Anhwei. Attached to Chinese Legation abroad, and was Taotai in Kwangtung 'and Yunnan. Chief of the Salt Bureau, June, 1914. Concurrently Director of the Inspectorate General, 1915. Vice-Minister, Minister of Finance and ex-Premier. Minister of the Interior, 1925. Minister of Communications, 1926. — p. 1177
+
+**KUNG SANG NO ERH PU** (貢桑諾爾布) (Prince Kalaching).—Chief of the Bureau of Mongolia and Tibet, September, 1912, till April, 1922. Prince of the Right Wing of the Kharach'in Tribe of the Chosot'u League of Inner Mongolia. Promoted from Second to First class Prince in October, 1912, for loyalty to the Republic. Appointed Director Bureau of Mongolian and Tibetan Affairs, 1923—also, 1925. — p. 1177
+
+**KUO, P. W** see Kuo Ping-wen. — p. 1177
+
+**KUO PAO-LIN** (郭葆琳) alias Tze Chang, (次長).—Native of Shantung. Graduated from the Shantung Agricultural College Tsinan, also from Tokyo Agricultural College. President of Shantung Agricultural College, Tsinan. Author of many books on Agriculture. Inspector of Sericulture and Agriculture. — p. 1177
+
+**KUO PING-WEN** (P. W. Kuo), (郭秉文).—Shanghai. Born 1880. Graduated from Lowrie Institute, Shanghai, of which he became a teacher. Served in Customs service in Shanghai, Kashing and Hangchow. He went to America in 1906, and attended University of Wooster and Columbia University and received the degree of Ph. D. from the latter. After his return to China, he was editor in the Commercial Press and Dean of Government High Normal College, Nanking. Appointed President of the same college, and also President of Southeastern University and of College of Commerce, Shanghai. In the year 1917 went to Japan and the Philippines for educational investigations. 1919 went to America and Europe for the same purpose. 1921 first President of Southeastern University and also President of College of Commerce in Shanghai. 1923 elected Chairman of the China's Good Roads Movement. Trustee of the China Foundation for the Promotion of Education and Culture. 1925 Author of "History on China's Education." Address: College of Commerce, Shanghai. — p. 1177
+
+**KUO YING-YUEN, (郭任遠)** Preferred English name: Zing Yang Kuo. Born Kwangtung. March 15, 1898. Graduate of Fuh Tan University, University of California and Columbia University, U.S.A. Acting president, Fuh Tan University, Kiangwan, Shanghai. (April, 1924-25). At present, Dean of the School of Biological Sciences and Professor of Psychology, Fuh Tan University. Author of "Human Behaviour" (Chinese). "The Anti-hereditary Movement in Psychology" etc. No Party. Res. Fuh Tan University, Kiangwan, Shanghai. — p. 1178
+
+**KUO, ZING YANG** see Kuo Ying Yuan. — p. 1178
+
+**KWEI CHIH, (桂壎) alias TUNG YUAN, (東原)** Native of Nanhai, Kwangtung. School inspector of Yusin school, Kwangtung, Chief Editor of Peiyang official newspaper. Secretary in Tientsin police office. Official in Shanhaikwan Customs Service. Professor of History and Geography at Peiyang University, Tientsin. Manager for books in Nanking Education Association. Third class Secretary to Consul-General to Mexico, Peru and England. Consul to New Zealand. Consul-General to Philippine Islands. 1922, and at present, Consul-General in North Borneo. Author of "Education in Philippines, and China," "Immigration of New Zealand" and "We Are Not Polygamists" 2nd class Chiaho decoration. — p. 1178
+
+**LAI HSIAO-MIN, (雷孝敏) alias SHU LI, (叔禮)** Preferred English name Hsiao-Min Soule Lay. Kwangtung, Taishan. Born 1880. Queen's College, Hongkong, 1903-1905; Chujen. Graduated from The Imperial College of Languages, Peking, 1910; A.B., George Washington University (Washington, D.C.), 1912; A.M., University of Pennsylvania, 1913; B.C.L., Yale University, 1916; Harvard University Law School, 1916-1917. Metropolitan Official of the seventh rank attached to the Imperial Chinese Ministry for Foreign Affairs, 1911-1914; Translator in the Chief Inspectorate of the Chinese Government Salt Revenue, 1918-1920; Assistant in the Chinese Ministry for Foreign Affairs, 1918-1920; Attaché to the Chinese Legation at Mexico City, 1920-1921; Third Secretary of the same Legation, 1921-1923. Second Secretary since Dec. 1923. Secretary of the Special Mission of China to Peru in connection with the Centennial Celebration of the Battle of Ayacucho, 1924. Decorated by the Government of China in 1918 and 1923, respectively, and by the Government of Peru in 1925. Address: Waichiaopu, Peking, China. — p. 1178
+
+**LAN CHIEN-SHU, (藍建樞) alias CHI PEI, (季北)** Preferred English name K. K. Lang. Born 1858. Fukien. Educated in the Naval College in Fukien 1874. Senior member of Naval General Staff, April 1912. Commander-in-chief of Chinese Navy from March 28, 1918-20. Fourth Order of Merit. Commander since 1923. Second class Wenhu, Tashou Chiaho and Paokwang Chiaho decorations. Retired. Residence Foochow. — p. 1178
+
+**LANG, K. K** see Lan Chien-shu. — p. 1178
+
+**LAO CHIH-CH'ANG, (S. W. Lao).—(勞之常)** Shantung. Was Chief of the Shantung Conservancy Bureau. Chairman, Shantung International Relief Committee. Commissioner to the China International Famine Relief Commission. Appointed Vice-Minister of Communications, June 2, 1922. Ordered to assume charge of the Ministry, Dec. 22, 1922. Relieved of post Jan. 30, 1923. Appointed to assist Dr. C. T. Wang on the Commission for the Settlement of the Shantung Question, Nov. 1922. First class Tashou Paokwang Chiaho decoration. — p. 1178
+
+**LAO, S. W** see Lao Chih-ch'ang. — p. 1178
+
+**LAY, HSIAO-MIN SOULE** see Lai Hsiao-min. — p. 1178
+
+**LEE, J. T. (JOE FONG LEE)** see Li Chao-sung. — p. 1178
+
+**LEE, KIA-HO** see Li Chia-ao. — p. 1178
+
+**LEE, T. H** see Li Tung-hwei. — p. 1178
+
+**LEW, YUK LIN** see Liu Yu-lin. — p. 1178
+
+**Li Chao-sung, (李照松) alias Yueh Chuan, (月泉)** —Preferred English name J. T. Lee (Joe Tong Lee). Born 1884 Toyshan district, Kwangtung province. 1903 entered New York University. Won the Augustus Sandham Oratorical contest. Obtained A.B. 1906, from New York University. Taught English in the College of Languages and the Provincial College, Canton, China, Nanyang and Fuh-tan Colleges, Shanghai, Provincial and Normal Colleges Tsinanfu, Shantung. February 17, 1917, appointed by the Ministry of Foreign Affairs Chinese Vice-consul to the Philippines, Sept. 1920 was appointed Acting Consul-General. Oct. 20, 1921 was appointed Chinese Consul, at Apia, Western Samoa up to present. — p. 1179
+
+**Li Chia-ao, (李家鰲)** —Preferred English name Lee Kia-ho. Born 1863. Private tuition. Studied in Russia at own expense. Practised Law. Judge of the 7th degree. Long diplomatic service. Twice appointed Taoyin of Harbin, and Inspector of the North-Western section of the Kirin railway. High judge of the High Court of Procuration in the Special Administrative Area in the Manchurian provinces. Special High Delegate to Siberia. Diplomatic Representative to Russia on 1924-1925. 1925 Minister to Finland. 2nd class Chiaho decoration. — p. 1179
+
+**Li Shi-ch'en, (李濟臣) alias Cho Chang, (倬章)** —Native of Sienhsien, Chihli. Born 1882. Studied at Peiyang Military College. 1907, Schoolmaster of Chahar Military School. 1911, member of the War office. 1912, Staff Officer of the 1st Army in Hupeh and later Staff Officer of Szechwan Army. 1913 Staff Officer of the Upper Yangtze Constabulary Army. 1914 Chief of the Hunan Defence Commissioner's office, and Chief of Staff of Third Division. 1917, Appointed Brigadier-General. 1921, Appointed Lieut.-General. 1922, Chief of Staff of Inspector-General of Hupeh and Hunan. 1923, Civil Governor of Honan. 3rd class Wenhu, 2nd. 1st class Tashou Chiaho decoration. Resigned after 1924 Civil War, Res. Hankow. — p. 1179
+
+**Li Ch'ing-fang, (李慶芳) alias Feng Chiao, (楓橋)** —Shansi. Born 1879. A graduate of Shansi University and Imperial University, Japan, with L.L.B. Degree. Member of House Representatives. Chief Secretary, The National Assembly. Member of Commission for the Readjustment of Finances. Extra-ordinary member of Kuo Hui. Author of books on literature, Geography and Extra-territoriality (all in Chinese) Writes poetry. 2nd class Wen-hu and Chiaho and 2nd class Tashou Paokwang Chiaho. Address, No. 3 Hsi Tang Cha Hsiang, Ma Tung Hutung, Shichimen, Peking. — p. 1179
+
+***Li Ching-fang, (李經芳)** —Anhwei. An adopted son of the late Marquis Li Hung-chang. Minister to Japan. Minister to Great Britain, May, 1907. Acting Senior Vice-President of the Ministry of Communications, January, 1911. Director-General of the Chinese Imperial Post Office. Retired in January, 1912. Res. Shanghai. — p. 1179
+
+**Li Ching-hsi, (李景曦)** —Fukien. Educated in the Naval College, Foochow. Departmental Head, Ministry of Navy since July, 1917. Second class Wenhu and Third class Chiaho decorations. Commander of the naval forces at Woosung and Shanghai, Sept. 20, 1924. — p. 1179
+
+**Li Ching-lin, (李景林) alias Fan-chen, (芳岑)** —Chihli. Born 1884. Graduated from the Middle College in Chihli and the Military College in Paoting. Entered the Army 1900 and rose to Major. Appointed to General Staff of the first Division of Heilungkiang in 1915. Appointed Colonel in the Division in 1916. Appointed Chief of General Staff of Military Governor of Heilungkiang and also took command on the Mongolian Frontier. Received rank of Brigadier General 1918. Retired. Promoted Lieut.-General of the first division of Mukden Army after his victory in Anfu War in Tientsin 1920. He was Commander-in-chief of the Mukden Troops before the Chihli-Fengtien War in 1924. Tupan of Chihli and concurrently Civil Governor 1925. Defeated in 1926 and retired to Shantung, where he reorganized his Army and participated with General Chang Tsung-chang in the recapture of Tientsin and Peking. — p. 1179
+
+**Li CHING-MAI, Lord (李經邁) alias CHEE KOU, (季阜)** .—Anhwei. Born 1876. Minister to Austria-Hungary, Sept. 1905-7 was expectant Governor of Kiangsu and thence transfered to Honan and Chekiang as Governor 1908. Acting Vice-President, Minchengpu, 1911. Acting Vice-Minister Yuchuanpu, 1912 and at same time relieved of post. Has many foreign decorations: Address: 141 Avenue Haig, Shanghai. — p. 1180
+
+**Li CHUAN-SHIH, (李權時) alias Yu Sung, (雨生)** .—Chekiang. Born 1895. Graduated in Tsinghua College, 1918 and continued his study in Beloit College, U.S.A., School of Politics and Economics and graduated in 1920 with degree of B.A. with honour. M.A. University of Chicago, 1921. Ph.D. Columbia University, 1922 and Graduate School of Public Finance. Professor and Dean of the School of Commerce and Dean of the Faculty, Fuh Tan University. Author of "Central and Local Finance in China" "Principles of Business Economics" and "Business Statistics". Res. Fuh Tan University, Kiangwan Road, Shanghai. — p. 1180
+
+**Li HOU-CHI, (李厚基)** .—Kiangsu Born 1872. Commandant of Strategic Positions at Woosung, August 19, 1913. Brigadier-General of a Mixed Brigade in Fukien, 1913. Defence Commissioner in Fukien, 1914. Tuchun of Fukien, 1916. Civil Governor of Fukien. Expelled from Fukien as result of revolt in Oct. 1922. Recalled to Peking Jan. 1923 but never left Fukien. Made Chuan Wei Chuan Wei Chiang Chun Nov. 1923. — p. 1180
+
+**Li KENG-YUAN, (李根源) alias IN CHIEN, (印泉)** .—Yunnan. Born 1879. Graduated in a military cadet school in Japan. Studied in Waseda University, school of Politics and Economics, Japan. Vice-Councillor to the Chief Directorate of the military training school, Yunnan, 1909. Chief military commander of the 2nd Division of Army. During Yuan Shih-kai's monarchical movement, was military councillor to the allied forces of Yunnan, Kwangtung and Kiangsi and later Civil Governor of Shensi. After the fall of Yuan Shih-kai, was Chief Commander of Yunnanese Army stationed in Canton and concurrently acting commander of the 4th Division, Director for the Defence of Frontiers of Kwangtung, Kiangsi and Hunan, Acting Military Commissioner of Defence of Chaokwan, 1918. Director of Navy and concurrently acting military Commissioner of defence of Kiungchow, 1920. Director of Aviation Department and then specially appointed Minister of Agriculture and Commerce, 1922. Chief of the National Exhibition of Native Products, 1923 and concurrently acting Premier. 1st class Tashou Chiaho, 1st class Wen Fu, 3rd class Order of Merit. Res. 54 Shih Chien Cha, Fumen, Soochow, Kiangsu. — p. 1180
+
+**Li KUO-CHING, (李國欽)** .—Hunan. Born 1892. President of the Wah Chang Trading Corporation. Vice-President of the Wah Chang Mining and Smelting Company. Secretary of the Hunan Mining Board, President of the Kiangwah Government Tin Mines, President of the Haiao Ku San Government Mines, co-director of the Hunan Mining Board. Representative in New York of the Chinese Ministry of Finance and the Ministry of Agriculture and Commerce. 4th class Chiaho decoration. — p. 1180
+
+**Li LIEH-CHUN, (李烈鈞)** .—Kiangsi. Studied six years in Japan. Tutuh of Kiangsi dismissed and ordered to Peking, June 9, 1913. Deprived of all ranks and outlawed for his part in the rebellion, July 15, 1913. Reinstated as Tuchun of Kiangsi, 1916. Commander of Yunnan troops. Joined the Canton Government. Civil Governor of Kiangsi. Kuomintang. Declined appointment as Chief of General Staff, 1925. — p. 1180
+
+**LI SHIH-HAO** (李思浩) alias TZE KI, (贊侯).—Chekiang. Born 1880. Chu-jen M.A. during the reign of the Emperor Kwang Hsu of the late Ching Dynasty. In 1916, was appointed Vice-Minister of Finance and concurrently appointed Director General of the Salt Gabelle. In 1924, was appointed Minister of Finance and concurrently Director-General of Currency Reform Bureau and Salt Gabelle. Anfu Party—Decorations, 2nd class Paokwang-Chiaho. — p. 1181
+
+**LI SHIH-WEI** (李士偉) alias PAH TSI, (伯芝).—Chihli. Born in Shang Niao, Kiangsi, 1880. Graduate of Waseda University, Japan, School of politics and economics. In 1905, Deputy Commissioner of Education of Chihli, in charge of high Normal schools of Peiyang. Promoted Peiyang law and banking schools. Was concurrently appointed secretary, foreign branch, of the office of High Commissioner of Peiyang. In 1907 was director of the preparatory office of the Self-Government Department of Chihli. Since then, he has filled many prominent civil positions. Chief manager of the Bank of China and Sino-Japanese Corporation. In 1921, was appointed Minister of Finance and in 1924 chief delegate to the National Industrial Commission. Decorations: 2nd class Tashou Paokwang Chiaho, 2nd class Tashou Chiaho and 2nd class Japanese decoration. Res. Tientsin. — p. 1181
+
+***LI TING-HSIN** (李鼎新).—Fukien. Studied in England. Councillor, Ministry of Navy, September 5, 1912. Chief of Naval General Staff, December 11, 1912. Created Admiral (brevet), August 20, 1913. Commander-in-Chief of the Navy. Director of Kiangnan Arsenal. Cashiered of rank, but retained in office, December, 1915. Minister of Navy, May 1921, and Sept. 15, 1924 Second order of Merit. 1st Class Wenhu decoration. — p. 1181
+
+**LI TUNG-HWEI** (李登輝) alias TENG FEI, (騰飛).—Preferred English name: T. H. Lee. Fukien. Born in Java. B. A. Yale University, U.S.A. M.A. St. John's University. Promoter and President of the Worlds Chinese Students' Federation. Editor of The Republic. Chief Editor, English Department, Chung Hua Book Company. President of Fuh Tan University, President of the Association of Overseas Chinese. President of the Y.M.C.A., Shanghai. Vice-President of The National Y.M.C.A. Committee of Chenan and Amoy Universities. Committee of the Pan-Pacific Association and various other educational institutions. Author of school text books. Res. Teng Bai Road, Kiangwan, Shanghai. — p. 1181
+
+**LI YUAN-HUNG** (黎元洪).—Hupeh. Born Oct. 19, 1864. Studied at Peiyang Naval College, graduating in 1888 after a course of six years. Served on a cruiser during the Sino-Japanese War. After the war he was engaged for service at Nanking by Viceroy Chang Chih Tung. On the latter's transfer to Wuchang he accompanied him to assist in the organization of the modern troops there. Thence he went to Japan for two years to study fortification. On his return he became a Major in the cavalry in 1895, and subsequently held several commands, including that of Colonel in the 21st Brigade. He was in charge of the organization of the Changteh Manoeuvres in 1905 and for the five following years served on the staff at Wuchang. On the outbreak of the Revolution at Wuchang he was forced into accepting the command of the revolutionary forces, whose operations he directed thenceforward. He was mainly instrumental in arranging for the Shanghai Peace Conference. After the abdication of the Manchus he was elected Vice-President of the Republic, and appointed Chief of the General Staff and Tutuh of Hupeh. (November, 1911). Given rank of General on September 7. Acting Tutuh, Kiangsi June 8, 1913. Re-elected Vice-President of the Republic. Oct. 7, 1913. On the death of Yuan Shih-kai, he became President of the Republic (June, 1916), resigned July 1, 1917, when Chang Hsun carried out his coup d'etat. When Hsu Shih-chang left the capital June, 1922, Li was asked to reassume the Presidency. Was compelled to leave the capital in Sept. 1923 when plans were perfected for Tsao Kun to become President. Li first fled to Tientsin and later went to Shanghai and Japan. Now in Tientsin. — p. 1181
+
+***LIANG CH'I-CHAO, (梁啟超)** —Kwangtung. A brilliant scholar, who is best known as K'ang Yu-wei's most prominent disciple. Started the first Chinese daily paper in Peking, a small leaflet, containing an editorial only, which was given away gratuitously. Was proscribed, and had to fly for his life, after the coup d'état of 1898, and thereafter resided in Japan, where he conducted a paper in Chinese, devoted to the cause of reform. Like K'ang Yu-wei, advocated a limited monarchy in preference to a Republic. Returned to China after the Revolution, and then conducted a daily paper in Tientsin, advocating the spread of political education, and the diffusion of general knowledge among the Chinese. Appointed Vice-Minister of Justice in Yuan Shih-kai's first Cabinet, but refused to accept office. Editor of Yung Yen Pao ("Justice"), a bi-monthly periodical, and one of the chief organizers of the Chinputang. Minister of Justice in Hsiung Hsi-ling's Cabinet, September 11, 1913. Resigned 1914. Appointed Head of Currency Bureau, which was afterwards incorporated in the Ministry of Finance, November 15, 1912. Minister of Finance. Resides in Tientsin, and is a teacher of History in various colleges in North China. Visited Paris during the Peace Conference. — p. 1182
+
+***LIANG JU-HAO, (better known as M. T. Liang), (梁如浩)** —Kwangtung. Educated in America. Taotai, Newchwang, April, 1906. Customs Taotai, Tientsin, April, 1907. Shanghai Taotai, October, 1907. Secretary of Board of Foreign Affairs, March, 1908. Chief Secretary to Government of Fengtien. July, 1908. Recalled to Peking, June, 1909. Vacated office, November, 1909. Offered post of Vice-Minister of Communications in Yuan Shih-kai's Cabinet of November 16, 1911, but did not accept. Nominated for the post of Minister of Communications in the first Republican Cabinet, but the nomination was rejected by the National Council. Elected Minister of Foreign Affairs on September 16, resigned November 15, 1912. Resides in Tientsin. Organized and was President of North China International Society of Famine Relief 1920-21. President, China International Famine Relief Commission, since Jan. 1922. Adviser to the Chinese delegation to the Washington Conference, Nov. 1921. Was appointed Commissioner on April 26, 1922, by President Hsu to negotiate with the British Government on the question of return of Weihaiwei to China. First class Tashou Chiaho decoration. Res. Tientsin. — p. 1182
+
+**LIANG, M. T** see Liang Ju-hao. — p. 1182
+
+***LIANG SHIH-YI, (梁士詒)** —Kwangtung. Born 1869. Secretary to Tang Shao-yi on the occasion of his mission to India in 1906. Chief of department of Board of Communications, 1907. Director of Railways in Board of Communications, 1907. Assistant Director of Chiao T'ung Bank, 1907. Senior Secretary of Board of Communications, July, 1909. Vacated appointments of Director of Railways and Assistant Director of Chiao T'ung Bank, February, 1911. Acting Vice-Minister of Communications, November, 1911. Acting Director of Imperial Chinese Posts, December, 1911. Acting Minister of Communications, January to March, 1912. Appointed Chief Secretary in the President's Office after the abdication of the Manchus (April, 1912). Acting Vice-Minister of Finance, May-September, 1913. Member of the Tsanchengyuan (Council of State). Director-General of the Shuiwuchu (Customs ministration), 1915. Director-General of the Bureau of Taxes, 1915. Resigned after failure of Yuan Shih-kai's monarchical project, of which he was one of the promoters. Speaker of the Senate, May-October, 1918. Appointed, under influence of General Chang Tso-lin, Premier, Dec. 24, 1921, but was rejected by General Wu Pei-fu. Ordered to be arrested for trial, May 5, 1922, when Chang Tso-lin was defeated by the Chihli party. 1925—Returned to Peking. Delegate to the Tariff Conference 1925. President, Bank of Communications. Chairman Financial Rehabilitation Commission, 1925. — p. 1182
+
+**LIN, D. Y** see Lin Tao-yang. — p. 1183
+
+**LIN HUNG-SHUN, (凌鴻勛) alias TSE MING, (作銘)** —Preferred English name H. H. Ling: Canton, Kwangtung. Born 1894. B.S. in C.E. Nanyang University, 1915. After his return to China, he was appointed to various positions, such as Junior Technical Expert, assistant section Chief, Technical Expert, President Member of Railway Technic Commission, etc. In the Ministry of Communications where he stayed for four years including one year as Brigade Engineer of Peking-Hankow Railway and Engineer of Yellow River Brigade Commission. In 1923, he was appointed Professor of Nanyang University, Shanghai, in which capacity he acted until Dec., 1924, when he was appointed President of the same University. At present President, Nanyang University, Shanghai. Author of "Municipal Engineering" and "Railway Engineering" (both in Chinese) Member and Director, Chinese Institute of Engineers, Vice-President, Chinese Engineering Society. Associate Member, American Society of Civil Engineers. Res. Nanyang University, Shanghai. — p. 1183
+
+**LIN TAO-YANG, (凌道揚)** —Preferred English name D. Y. Lin. Kwangtung. Born 1888. Graduated from St. John's University, Shanghai, 1909. B.Sc. Massachusetts Agricultural College, 1912. M.F. School of Forestry, Yale University, 1914. Investigated the German forestry service in the summer of 1914, returned to China 1915; appointed Lecturer on Conservation in the National Y.M.C.A. 1917 technical secretary to the Ministry of Agriculture and Commerce, Peking, accepted the professorship on forestry for Shantung and concurrently forester in the Ministry of Communications on railway forestry matters and adviser to the civil governor of Shantung; expert on agricultural and forestry matters at the Shantung negotiations in Peking in 1922. Since March, 1923, Director of the Bureau of Agriculture and Forestry, Tsingtao, and concurrently special secretary for general affairs for the Tsingtao government. Author of "Elements of Forestry" 1915; "Manual of Forestry" 1916; "The Chinese Wood Oil, Camphor, etc." 1917; "Forests and Chihli Flood" 1918; "Relation of Forests to Floods and Droughts" 1919; "Some Features of Chinese Agriculture" 1922. Res. Bureau of Agriculture and Forestry, Tsingtao, China. — p. 1183
+
+**LIN TUNG-SHIH, (Lynn Tong-Shi, or Dun-Min T. S. Lynn)** —(林桐實).—Fukien. Born 1811. Graduate, University of Paris. Attache to the Chinese Legation, Paris, 1902. Secretary, 1905-09. First Secretary of the Special Mission sent to Belgium, Denmark, Spain and Sweden, August 1909. First Secretary to the Chinese Legation, Paris, 1910. Charge d'Affaires, Paris, August, 1911. Charge d'Affaires in Portugal, France, Havana and Brazil. Adviser on Foreign Affairs to the President, 1918. Assistant Director of the Political Affairs Department, Ministry of Foreign Affairs since 1921. Second class Paokwang Chiaho and Tashou Chiaho decorations. — p. 1183
+
+**LIN WEN-CH'ING, (Lim Boon-keng 林文慶)** —Fukien. Born 1870. At the age of eighteen he won a Queen's Scholarship and was educated in Edinburgh under the auspices of the Straits Settlements Government. M.B., C.M., Returned to Singapore, 1894, and became actively identified with the public life of the Colony. Served as Chinese member on the Legislative Council for over 10 years and was thanked by the British Government several times for his services, medical and social. A great Confucian scholar and prolific writer, member of many learned societies in several countries, and educational reformer. President of Amoy University, Amoy, since 1923. Adviser to the Ministry of the Interior, Peking, 1910, and Delegate to the International Hygienic Congress at Dresden, 1911. Decorations: Second Class Chiaho, Second Class Wenhu, Order of the British Empire, Order of the Crown of Italy. — p. 1183
+
+**LING, H. H** see Lin Hung-shun. — p. 1184
+
+**LIU CHEN-HUA, (劉振華) alias HSIEN CHOU, (仙洲)** —Chihli. Born 1890. Preparatory education in Yu Teh School and Peking Government University. Won four-year scholarship in Hongkong University. Graduated with first class honours in 1918. Appointed Professor of Prime Movers and Machine Designs Chihli Technical College. Professor in Yu Teh. Organized Yu Teh Iron Works. Invented two irrigating machines which were awarded certificates of honour by national and provincial governments. In 1921 accepted Chair of Physics, Farm Motors and Farm Machinery at Hopei University. In 1924 assumed Presidency of Peiyang University, Tientsin. Author of following books in Chinese: "Applied Mechanics", "Steam Engines", and "Internal Combustion Engines." Author of textbook on "Physics", for University classes. — p. 1184
+
+***LIU CHEN-HUA, (劉鎭華)** —Honan. Born Oct. 1883. Graduated in the Law College, Peking. Civil Governor of Shensi since April 1, 1918. Also Commanding officer of the "Sung" Army. Acting Tuchun of Shensi, May 10, 1922, made a full general in the Army, Dec. 1923. Tuchun of Shensi, 1925. First class Tashou Chiaho and Second class Wenhu decorations. — p. 1184
+
+***LIU CHIH-CHOW, (劉治洲)** —Shensi. Born 1881. A Graduate of the Shanghai Li-hua College. Member of the Chung Yi Yuan. After returning to his native place from Shanghai, he was engaged as Lecturer in several Schools. When his Province adopted the cause of Revolution, local "tufeis" arose and he trained a band of volunteers to suppress them, and he also held Fencheng against Sheng Yun for more than seventy days, until the inauguration of the Republic. Chenyuhui. Vice-Minister of Agriculture and Commerce, 1925. — p. 1184
+
+***LIU CHING-JEN, (劉鏡人)** —Kiangsu. Minister to Holland, September, 1911 Minister to Russia, September, 1912. Appointed Minister to Japan, but did not proceed. President, Commission for Russian Affairs, Ministry of Foreign Affairs, 1922. Vice-Chairman, Committee on Foreign Affairs, May, 1923. First class Tashou Chiaho decoration. Res. Waichiaopu. — p. 1184
+
+**LIU CHUNG-CHIEH, (劉崇傑) alias TZE CHIEH, (子楷)** —Preferred English name, Liu Chung Cheh. Native of Minhou, Fukien. Born 1883. 1904 graduated from Waseda University, Japan degree B.S. President of the Law College, Fukien. 1st secretary and attache at Chinese Legation Japan. Consul-General to Yokohama, Japan, Acting Minister to Japan. Councillor in Ministry of Foreign Affairs. Councillor to Cabinet. Special Commissioner to the Paris Peace Conference. At present, Minister to Portugal. Medals: Paokwang Tashou, Chiaho Tashou, and Wenhu Tashou decorations, also decorations from Italy, Japan, and Portugal. — p. 1184
+
+**LIU, CHUNG-CHEH** see Liu Chung-chieh. — p. 1184
+
+**LIU CHUNG-HUA, (劉鍾華) alias CHUNG SHENG, (仲升)** —Yunnan. Born 1875. Graduated from Japanese College. Studied in two Normal schools in Tokio. Teacher of Analytical chemistry in the Provincial Technical College and First Government Middle School. Vice-Chairman, Yunnan Provincial Educational Association, in 1911-1915. Re-Elected August 1919. Author and compiler of various lecture notes in chemistry. At present Magistrate of Hsiang Yen Hsien, Yunnan. First Class Tashou Paokwang decoration. Address: 36 Yuan Tung Street, Yunnanfu. — p. 1184
+
+**LIU, HERMAN, CHAN-ON** see Liu Kan-en. — p. 1184
+
+**LIU HSIEN-SHIH, (劉顯世)** —Kweichow. Chiangchun and Acting Civil Governor of Kweichow. Ordered to vacate his post, February, 1916. (Joined Yunnan revolt.) Commander-in-Chief of the Kweichow troops. Succeeded by General Lu T'ao. Civil Governor of Kweichow. Res. Kweiyang. — p. 1184
+
+**LIU KAN-EN, (劉湛恩)** Preferred English name Herman Chanen Liu. Born Hanyang, Hupeh, 1897. B. Sc. Soochow University, 1916-1918. M.A. Chicago University, 1918-1920. Ph. D. Columbia University, 1920-22. Secretary of Educational Commission of Chinese Government. Representative of Chinese American Returned Students at Washington conference. Secretary of International Students' Federation, New York. Chief secretary, Educational Department, National Association, Y.M.C.A. Author of "Non-verbal Tests for Use in China", "Co-education" and some other Chinese books. Res. 20 Museum Road, Shanghai. — p. 1185
+
+***LIU KUAN-HSIUNG. (劉冠雄)** Fukien. Educated at the Royal Naval College, Greenwich, and subsequently given a commission in the Chinese Navy. Distinguished himself at the Battle of the Yalu in the China-Japan war. Appointed Minister of the Navy in the first Republican Cabinet, which post he held for some years. Admiral Liu was a member of the National Council at Nanking, and also of the Southern Delegation which was sent to Peking to congratulate Presidnet Yuan Shih-kai upon his election. Acting Minister of Communications in July. Acting Minister of Education, January 13. Inspector-General of Southern Seas, August 14, 1913 Acting Tutuh of Fukien (additional). November, 1913. Minister of the Navy, July, 1917. Appointed Pacificator of Fukien, Nov. 1922, Commissioner of Defence for Fukien and Kwangtung coast, April 3, 1923. Relieved of post, Nov. 1923. — p. 1185
+
+**LIU SHU-FAN, (劉書蕃) alias CHIANG HOU, (建侯)** Native of Fukien. Born 1880. Graduate from Foochow College, 1901. Deputy Commissioner for Chihli, 1914-1915. Postal Commissioner for Kweichow, 1915-1921. First Chinese appointed as Commissioner in the Postal Service. Postal Commissioner for Shensi since 1922. 3rd class Chiaho decoration 1920 by the Peking Government. 3rd class Wenhu decoration by the Canton Military Government for services in Kweichow 1921. Address : Post Office, Sian; Shansi. — p. 1185
+
+***LIU TSUN-HOU, (劉存厚)** Szechwan. Born 1885. Graduated in Infantry Department of a Japanese Military College. Major General in the Army. Commanding General of the 2nd Army Division and concurrently Defence Commissioner of Chungking. One of contestants for control of Szechwan. — p. 1185
+
+***LIU YU-LIN, (Lew Yuk Lin), (劉玉麟)** Kwangtung. Born. 1862. Graduated from Philips Academy Andover, Mass., U. S. A. LL. B. (Cantab Hon. causa) Consul-General in South Africa, October, 1904. Attached to Ministry of Foreign Affairs, 1908. Chinese Representative at the International Opium Commission, Shanghai, January 1909. Junior Councillor, Waiwupu, July, 1910. Minister to Great Britain, September, 1910-4. High Political Adviser to the Military Government. Salt Commissioner for Kwangtung and Kwangsi. Second class Double Dragon Medal, Tashou Chiaho. First class Decoration. Received also decorations from Belgium, Portugal, Italy, Russia and Germany. — p. 1185
+
+**LO CHANG, (羅昌)** Kwangtung; Secretary to Ministry of Communications, in 1913. Consul-General, Singapore. Consul-General Ottawa, Canada, 1924. Assistant Councillor of the Ministry of Foreign Affairs since 1925. — p. 1185
+
+**LO HUNG-NIEN, (羅鴻年) alias YEN FENG, (雁峰)** Preferred English name Hung Nien Lo. Kiangsu. Born 1881. Graduated from Nanyang University, 1905. B.C. University of Birmingham, England. Director, Supervision and National Treasury Department, Bank of China, 1912-1921. Vice-Minister of Finance, Autumn, 1921. Director, Shanghai Mint, 1922. Vice-Minister of Education, 1924. At present, chief Superintendent of Dah Loh Bank. Technical Expert of the Commission for the Readjustment of Finance since 1923. 2nd class Tashou Chiaho, 3rd class Wen Fu Chiaho. Res. Peking. — p. 1185
+
+**Lo, R. Y** see Lo Yun-yen. — p. 1186
+
+**Lo Tsung-yi, (羅忠詒)** —Fukien. Born 1886. Cambridge University; B.A. (Economics Tripos). A Chin-shih and Hanlin Compiler of the late Dynasty. English Secretary to the Governor of Kwangsi, 1909. Joined Waiwupu, 1910. Transferred to the Chiaotungpu on the establishment of the Republic. Director of the College of Communications, 1912. Secretary in the President's Office and Member of the Office of the Master of Ceremonies, 1913. First Secretary of the Chinese Legation in London, July, 1914. Chargé d'Affaires, London, 1915-19. Councillor and Chargé d'Affaires, Peru, 1921-3. Secretary to the Cabinet, 1924. Minister to Denmark 1926. C.B.E. British Government. 1920 for services in connection with the Chinese Labour Corps during the Great War. — p. 1186
+
+**Lo Wen-kan, (羅文幹)** —Kwangtung. Born 1888. Studied law in England M. A. Oxon, and member of Inner Temple. Judicial Commissioner for Kwangtung, 1911-1912. Procurator-General, 1912-1915. Vice-President, Law Codification Commission since 1916. Professor of Law, Peking Government University and School for Judicial Officers. Appointed Vice-Minister of Justice, Dec. 29, 1922. In charge of the Ministry, April 22, 1922. Appointed Chief Judge of the Supreme Court, June 15, 1922, Chief of Salt Administration and of Currency Bureau, Sept. 1922. Minister of Finance Sept. to Dec. 1922, when he was arrested and for many months detained on charges of which he was found innocent. First Class Tashou Chiaho Paokwang decoration. Now President of the Commercial Guarantee Bank of Chihli, Peking. Minister of Justice, July 1926. — p. 1186
+
+**Lo Yun-yen, (羅運炎) alias Yao Tung, (耀東)** —Preferred English name R. Y. Lo. Kiukiang, Kiangsi. Born 1890. Graduated from Tung Wen College, Kiukiang, 1907. A.B. Baldwin-Wallace College, Bered Ohio, 1911. Summa Cum Laude, College of Economics and Sociology, Syracuse University, Syracuse, N.Y. U.S.A. and graduated with degree of Ph. D. 1914. Entered College of Law, University of Michigan, U.S.A. until 1915 when he returned to China. Professor of Economics and Sociology in William Nast College, Kiukiang, 1915-19, but in 1917 was also appointed adviser to the Tuchun of Kiangsi and concurrently assistant commissioner of foreign affairs at Kiukiang. From 1919, edited Hsin Hua Pao, a Chinese Newspaper, and Y.M.C.A. members' monthly and was lecturer on law of the Comparative Law School of Soochow University. At present, editor of Chinese Recorder and honorary councillor to the Defence Commissioner of the North-western frontier. Author of "New China's Problems" "Confucianism" and other books now under preparation. Res. 23 Yuen Ming Yuen Road, Shanghai. — p. 1186
+
+**Lou, Tseng-tsiang** see Lu Cheng-hsiang. — p. 1186
+
+**Loutsiun** see Lu Tseng. — p. 1186
+
+**Lu Cheng-hsiang, (Lou Tseng Tsiang), (陸徵祥) alias Tze Hsiang, (子興)** —Native of Shanghai, Kiangsu. Born 1871. Educated in the Shanghai Language School and the Tung Wen Kuan, Peking. Interpreter of the Chinese Legation at St. Petersburg, 1890. Attaché, 1892. Secretary, 1895. Deputed to accompany the Chinese Envoy Extraordinary to the Coronation of the late Tsar. Chinese Delegate at the Hague Conference in 1899. Minister of the Netherlands, 1905. Delegate at the Second Hague Conference in 1907. Minister to Holland (renewed) in 1918. Negotiated the Convention with Holland. Sent to the Hague to exchange ratifications of the Convention in 1911, and thence proceeded to St. Petersburg to undertake negotiations with the Russian Government for the revision of the Treaty of 1881. Appointed Minister to Russia. Elected Minister of Foreign Affairs in the first Republican Cabinet, and arrived at Peking on May 24th 1912 to take up the post. When Tang Shao-yi, the Premier, was granted sick leave, Lu was appointed acting Premier, and on the resignation of Tang, was elected Premier but retained the portfolio of Foreign Affairs. Was on sick leave during August and September and resigned Premiership on September 23. On the resignation of Liang Ju-hao, he was appointed Minister of Foreign Affairs, November 15, 1912. Resigned September 4, 1913. Master of Ceremonies at President Yuan's Inauguration. Acting Secretary of State and Minister of Foreign Affairs, 1915. Chief Delegate to the Paris Peace Conference. President, National Famine Prevention Commission since May 19, 1921. Appointed Minister to Switzerland, June 15, 1922. Non-partisan. Chiaho Paokwang Chiaho and Second class Wenhu decorations. Address : 64 Kirchenfeldstrasse, Berne. — p. 1186
+
+***Lu Chin** (陸錦).—Chihli. Born 1880. Studied Military Science in a Japanese School. Was connected with the Army in Chihli and Shantung before he became Assistant-Chief of the General Staff and Commanding General of the 9th. Army Division. Made a full General in the Army, Nov. 1923. Minister of War to succeed Chang Shao-tseng, Jan. 12, 1924. Sept. 15, 1924, again Minister for War. — p. 1187
+
+***Lu Kung-wang** (呂公望).—Chekiang. Born 1880. Graduated from the Army Officers' Training School, Paoting. Was a training officer in Chekiang for a number of years after graduation. During the Revolution of 1911, was Chief of Staff, Chekiang Revolutionary Army. Became General of the Chekiang 11th Brigade in 1912. In June of the same year, was appointed commanding Officer of the 6th Division. One month later, was appointed Defence Commissioner of the Kashing-Wuchow district, Che. Appointed Tuchun and Civil Governor of Chekiang, March, 1916. Commander-in-Chief, Chekiang Provincial Army, July, 1918. Became Chief of Staff, Canton Military Government in April, 1920. Civil Governor of Chekiang, 1925. Kuomintang. Second Order of Merit, First class Tashou Chiaho and Wenhu decorations. — p. 1187
+
+**Lu Tseng** (路濬) alias Shao Yuen, (紹園).—Preferred English name Lou-tsiun. Peking. Chujen. Graduated University of Brussels, Belgium, with degree of Bachelor of Politics. In Ching Dynasty, was a minor officer in the Ministry of Foreign Affairs. Interpreter, Chinese Legation, Belgium. In the Republic of China, was secretary to the Ministry of Foreign Affairs. At present, Consul at Amsterdam, Holland. Third class Chiaho decoration. — p. 1187
+
+**Lu Tsung-yu** (陸宗興) alias Yuen Shen, (閏生).—Chekiang. Born 1875. Commissioner to foreign countries to study political affairs. A member of the Ts'an Yi Yuan, and Chairman of the Committee of the Bank of Communications. Was a Teacher in the Government University in Peking, 1902; Chief Secretary in Chungwenmen Octroi, 1903; studied politics in foreign countries, 1904; a member of the Tzu Cheng Yuan, 1909; Vice-President of the Board of Finance, 1911. Chinputang. Author of The Currency, etc. Minister plenipotentiary to Japan, 1915. Manager-in-Chief of the Currency System Bureau. Was forced to retire from official life by strong public sentiment against the so-called pro-Japanese officials in May, 1919. 1924 Member of the Senate. Address : Chi Feng Lou, East City. Peking. — p. 1187
+
+**Lu Yung-hsiang** (盧永祥) alias Tzi Chai, (子嘉).—Shantung. Born 1867. Educated in the Military School, Shanhaikwan. Military Commissioner of Shanghai and Woosung, January 6, 1917. Tuchun of Chekiang, August 16, 1919. Abolished his Tuchunship himself and became Director of Military Affairs of Chekiang, June 1922. Driven out of Chekiang in 1924 War. Was appointed Rehabilitation Commissioner for Military Affairs of Kiangsu and Chekiang, Dec. 18, 1924. Tupan of Kiangsu, 1925. 1st class Wenhu, 2nd class Chiaho, 2nd class Paokwang Chiaho, 1st class Tashou Paokwang Chiaho Retired. First Order of Merit. Tashou decoration. Res. Tientsin. — p. 1187
+
+**LU YUNG-TING, (陸榮廷)** —Kwangsi. Born 1856. At one time a leader of bandits, but reclaimed and took military service under Government. Commander of an expedition under Viceroy Tsen Chun-hsuan against bandits in Kwangsi. Formerly a Brigade-General of the troops on the left bank of the West River. Tutuh of Kwangsi, 1914, afterwards Chiangchun. In the Civil War of 1917-18 joined the South and became Minister of War in the Canton Government. Inspecting General of Liang Kwang. Was driven out of Kwangsi by Chen Chiung-ming, 1921. Was appointed High Defence Commissioner for Kwangsi Frontier Nov., 1922. Retired. Res. Soochow. — p. 1188
+
+**LYIM, TONG-SIH OR DUN-MIN T. S** see Lin Tung-shih. — p. 1188
+
+**MA FU-HSIANG, (馬福祥)** —Kansu. Brigade General, Palikun, New Dominion, March, 1909. Acting Chief Executive Officer, Kokonor, July-August. 1912. Commander of Guards Division, Altai, October 10, 1912. Was Military Commissioner of Ninghsia, Kansu. Appointed Tartar General of Suiyuan, 1921. Also 1924. First Class Tashou Chiaho decoration — p. 1188
+
+**MA HSU-LUAN, (馬叙倫) alias, YEE TZU, (夷初)** —Chekiang. Born 1885. Studied in the Hangchow Middle School. Later became teacher in the same school and in various schools and colleges in Chekiang, Canton, Peking, etc. Was at one time, President of the First Normal School of Chekiang. Appointed Commissioner of Education, same province, July, 1922 and Vice-Minister of Education, Oct., 1922. Member of Commission for Re-adjustment of National Finance till Aug. 1923. Appointed Vice-Minister of Education, 1924, but dismissed in consequence of students' attacks. Author of three works on Chinese literature. Second class Tashou Chiaho decoration. Now is teacher, Peking Normal School. Res. West Gate, Peking. — p. 1188
+
+**MA LIANG, (馬良)** —Chihli. Born 1876. Lieutenant-General, Defence Commissioner of Tsinan, Shantung, and Commander of the 2nd Division of the Frontier Defence Troops, till 1920. Participated in Kiangsu-Chekiang War, 1924. — p. 1188
+
+**MA LIEN-CHIA, (馬聯甲)** —Lt.-General in the Army. Commanding General of the first Anhwei Army Division and Defence Commissioner of Southern Anhwei. Appointed Assistant to the Tuchun of Anhwei on the removal of Ni Ssu Chun, 1920. Was ordered to attend to the Military affairs in Anhwei upon the abolishment of the Tuchun in that province, Oct. 7, 1922. Civil Governor of Anhwei, Dec. 1923. Retired. — p. 1188
+
+**MA TAI-CHUN, (馬泰鈞) alias YUEN CHU, (韻初)** —Native of Tientsin, Chihli. 1910 M.A. Harvard University. 1913 March-1920 Feb. Head of Salt Revenue Office Fengtien. Feb. 1920, Head of Salt Revenue Office Fukien. 3rd class Chiaho, 4th class Paokwang Chiaho decorations. Address: Salt Revenue Office, Nantan, Foochow. — p. 1188
+
+**MEI KUANG-HSI, (梅光羲) alias CHI YUAN, (棨芸)** —Kiangsi. Born in Chekiang 1878. Graduate of Waseda University in Japan, and Chujen of the late Ching Dynasty. Started various colleges in Hupeh; introduced the system of Procuratorate and Prison Reform in Hupeh and Kwangtung; started the Library in the Government University at Peking; and established the Society for the Investigation of Buddhism in Hupeh and the Buddhist Society at Peking. Is the author of "Outlines of Buddhist Doctrines, and other books on Psychology and Religion. 1912, Secretary to Ministry of Education. Chief of the Department of Navigation of the Ministry of Communications, 1914. Member, Civil Court of Equity. Superintendent of Telegraphs at Tsinan. Departmental Chief, Bureau of Mongolian and Tibetan Affairs, 1915. Procurator in Shantung, 1916. 2nd, 3rd, 4th class Chiaho and 3rd class Wenhu decorations. Res. Tsinanfu. — p. 1188
+
+**MENG CHI-CHUNG, (門致中)** —Native of Kirin. Born in Mukden, 1888. Graduated of Paotingfu Military Academy. Colonel of 25th Mixed Brigade. Chief of Constabulary, Suiyuan, 3rd class Wenhu, 4th class Chiaho. Address: Peking. — p. 1188
+
+**MENG, H. C** see Meng Hsing-cheng. — p. 1189
+
+**MENG HSING-CHENG** (孟憲承).—Preferred English name H. C. Meng. Kiangsu. Born September, 21, 1884. Graduate, Nanyang Middle School, Nanyang College, 1912. B.A. (cum laude), St. John's University, 1916. Research Scholar, George Washington University, Washington, D.C. U.S.A. 1919-20. Teacher, Tsinghua College, Peking, 1916-19. Private secretary to Chinese Legation, Great Britian, 1920-21. Teacher Southeastern University, 1921-23, Dean, Chinese Department, St. John's University, 1923-25. Teacher, Tsinghua College, September, 1925. Author of some Chinese books, all published by the Commercial Press. — p. 1189
+
+**MIAO CH'IU-CHIEH** (繆秋杰) alias CHIEN SHUANG, (劍霜).—Native of Kiang-yin, Kiangsu. Born at Tientsin, Chihli 1889. Studied at Shuntien Academy, Peking. Travelling Inspector of the Government Salt Revenue Department. Received 3rd Class Chiaho Decoration. — p. 1189
+
+***Mo YUNG-HSIN** (莫榮新).—Kwangsi. Promoted from a common soldier. Defence Commissioner in Kwangsi and Kwangtung. With the support of General Lu Yung-ting, Mo was made Tuchun of Kwangtung. Was driven back to Kwangsi by General Chen Chiung-ming in 1920. Third Order of Merit. — p. 1189
+
+**NA YEN-T'U (Prince No)** (那彥圖).—Mongol. A Prince of the First Order, and Jassak of the Khalka Mongols. Superintendent of Customs at Peking, September, 1896. General Chamberlain, November, 1903. Lieutenant-General of Bordered Yellow Banner, 1903. One of the Mongolian members of the National Council and of the Kung-ho tang, and Tartar General of Tarbagatai, 1914. Appointed Commissioner of Pacification to Mongolia, Sept. 1922. Made a full General in the Army, Nov. 27, 1923. — p. 1189
+
+**NAN KUEI-HSING** (南桂馨) alias PAI LAN, (佩蘭).—Preferred English name Q. S. Nan. Native of Ningwu, Shansi. Born 1884. Graduated from Shansi University, and from Police Academy of Japan, 1904. 1912, March, Chief official in Shansi Police Office. 1912, Assistant Commissioner of War Funds. Inspector and Assistant Superintendent for Military Affairs at Hotung. 1914, July, Commissioner in the Army Ordinance Corps. 1916 May, Acting Defence Commissioner of North Shansi. 1917 July, Acting Chief of Staff in "Tungwu" General's Yamen. 1924 and at present Superintendent Commissioner of Police. 2nd class "Wenhu", 2nd class Paokwang, Chiaho decorations. Address: Taiyuan, Shansi. — p. 1189
+
+**NAN, Q. S** see Nan Kuei-hsing. — p. 1189
+
+**NEW, W. L. DR** see Niu Hui-lin. — p. 1189
+
+***NIU HUI-LIN** (W. L. New), (牛惠霖).—Kiangsu. Born 1887. Studied in St. John's University (Shanghai) and Cambridge University, and London Hospital, London; M.A., B.Ch., (Cantab), M.R.C.S. (Eng.), L.R.C.P. (Lond.); Medical Superintendent and Honorary Surgeon, Chinese Red Cross General Hospital, Shanghai; Consulting Surgeon, Shantung Road Hospital; Chairman of the Medical Board, Chinese Red Cross; Chairman of the Executive Committee, Council on Health Education; Associate Professor, Operative Surgery, St. John's University Medical School; in private practice and connected with other hospitals in Shanghai; formerly exhibitioner at Downing College, Cambridge, and prize winner at London Hospital; held resident posts at Middlesex Hospital, London, and East Suffolk Hospital, Ipswich; Past President of the National Medical Association of China and Past President of the China Medical Association, Shanghai Branch. — p. 1189
+
+**NIU WEI-SUNG, (牛惠生)** —Native of Kiangsu. Born Shanghai, June 14, 1892 St. John's University, Shanghai, Degree B.A. 1910. Harvard University, U.S.A. Degree M.D. 1914. In charge of Dept. of Anatomy, Harvard Medical School of China 1915-16, Orthopaedic Surgery, Peking Union Medical College, Peking. 1918-20. In private practice in Shanghai. Orthopaedic surgeon to Red Cross General Hosp., to Margaret Williamson Hosp. and to Soochow Hosp. Instructor in Orthopaedic Surgery, Women's Christian Union Med. College, Shanghai. Instructor in Applied Anatomy, St. John's Medical School Address : 329 Bubbling Well Road, Shanghai President of the Shanghai Medical Society 1926. — p. 1190
+
+**OU YANG-KENG, 歐陽庚 alias SHAO PO, (少白)** —Preferred English name Owyang-keng. Native of Kwangtung, Heungshan. Went with first detachment of Chinese Government students to America in 1872. Graduated from Yale 1881. Degree Ph.B. Graduated from Foochow Naval School, 1882. Entered Consular Service in New York 1884. Vice-Consul at San Francisco from 1885-94. Sent to Mexico as Commissioner to investigate condition of Chinese in that country. 1895 returned to San Francisco as Vice-Consul. 1899-1910 Consul in Vancouver, B.C. 1910-14 Consul-General in Panama, 1914-17 Consul-General in Batavia, Java. 1919-20 first Secretary to Chinese Legation in London, Chargé d'Affairs in Santiago, Chile 1922-5 transferred to Ministry of Foreign Affairs 1926. Been in the Consular and Diplomatic service for 49 years. 2nd and 3rd Class Paokwang Chiaho. — p. 1190
+
+**OUANG, TING-TCHANG** see Wang Ting-chang. — p. 1190
+
+**OWYANG-KENG** see Ou Yang-keng. — p. 1190
+
+***PAN FU, (潘復)** —Shantung. Born 1871. Chujen. Industrial Taotai of his own province, 1911. Appointed Chief of Industrial Bureau, 1913. Organized Lufeng Spinning Mill in Tsinan, Autumn, 1915 Shortly afterwards, he was appointed Associate Director of National Conservancy Bureau. In December, 1918, he was appointed Associate Director. Grand Canal Improvement Board. Vice-Minister of Finance, December 1919. Concurrently Director of National Salt Administration. Resigned Nov. 5, 1921. Retired. — p. 1190
+
+**PAO CHIH-YUAN, (鮑質元) alias KWAN-CHUN, (冠春)** —Preferred name in English. Col. Koschen C. Y. Bao. Native of Chinkiang, Kiangsu. Born 1877. Graduated in Law Dept. of Peiyang University, Tientsin, 1918, served in Ministry of Finance, 1919 Secretary of the National Wine and Tobacco Administration, 1920 promoted to be English Secretary, 1921 councillor in the Aeronautic Service, and also adviser of the 1st Division under the Pacification Commissioner of Kiangsu and Anhwei. 1st February, 1925. Managing-Director of the Telephone Co., Shanghai. Author of 'Question of Unification of China' 'Political Affairs in Manchuria' 'China's Finance and the Tobacco Monopoly.' Address : No. 1 Chu-ta-hu-tung, Peking. — p. 1190
+
+***PAO KWEI-CHING, (鮑貴卿)** —Fengtien. General. Graduated from the Kai Ping Military Academy. Appointed Defence Commissioner of Tatung, Anhwei, 1913. Director, National Military Training Institution. Appointed Military Governor of Heilungkiang, July, 1917. and concurrently appointed to act as Civil Governor. Military Governor of Kirin. 1919. Director-General Chinese Eastern Railway. Appointed Minister of War, Dec. 25, 1921. Resigned, June 11, 1922. — p. 1190
+
+***PIEN SHOU-CHING, (邊守靖) alias PIEN CHIH-CHING, (邊葆清)** —Chihli. Born 1884. A graduate of the Law School of Tokio College, Japan. Teacher of Police and law schools in Paotingfu. In 1910 Pien helped in organizing the Bureau of Judicial Affairs in Chekiang. Appointed Chief of the Bureau of Administrative Affairs in Chekiang. Was elected Vice-Speaker of the Provincial Assembly of Chihli in July, 1912, and later became Speaker up to date. Mr. Pien is also an Adviser to the Police Administration of Chihli, and Director-General of the Ling Ching Mining Corporation, Tientsin. Was spoken of as one of the ringleaders of the Tientsin faction of President Tsao Kun's party which was instrumental in bringing about the coup d'etat in Peking, Sept. 1923. Promoted and was elected Chairman of the Anglo-American-Chinese Commercial Club, Tientsin. Manager, Ho Pei Jih Pao, Tientsin. Fourth Order of Merit. Res. Tientsin. — p. 1190
+
+**PIEN SHOU-SUN, (Z. S. Bien), (卞壽孫)** .—Kiangsu. Born in Hupeh 1884. Studied in the Chentan College, Shanghai and Brown Univerity, (U.S.A.) Ph.B. (in Economics) Member, Organization Commission, Bank of China and Secretary, 1912. Assistant, Department of Note Issue, 1913. Associate Chief Auditor, 1914. Chief Auditor, Aug. 1914. Organized the Chung Foo Union Bank, 1916. Auditor and Manager of its Tientsin Office, 1914. Assistant Manager, Bank of China, Tientsin Office, 1918, Manager, 1919 to 1922. Transferred to Peking, 1922. Manager of the Bank of China, Tientsin. Author of "Education as a Means of Social Progress." Fifth class Chiaho decoration. Res. Tientsin. — p. 1191
+
+***PIEN YIN-CH'ANG, (alias Pien Yueh T'ing), (卞隂昌字月庭)** .—Chihli. Born 1870. During the Manchu regime, Mr. Pien was a Senior Secretary of the Board of Works and of Board of Justice. Was elected Associate Director, Tientsin General Chamber of Commerce. When the Tientsin Merchants' Volunteer Corps was organized, he became its Commanding Officer. Member of Tientsin Red Cross Society. In 1913, Mr. Pien was elected Chairman of the Executive Committee of the United Chamber of Commerce of Chihli. In the same year, he was appointed President of Panama Exhibition Participation Committee. Counsellor to the former President Feng Kuo-chang, who was then Tutuh of Chihli, September, 1913. Adviser to the Civil Governor of Chihli, 1914. Became the President of the Association for the Protection of China's Sovereignty and Territory during the Lao Hsi Kai dispute. Was commissioned by the Minister of Finance to investigate taxation conditions in Chihli in connection with tariff revision, 1917. Was elected member of Parliament, August, 1918. President, Tientsin General Chamber of Commerce, November, 1919 up to date. President National Associated Chamber of Commerce. 2nd Class Tashou Paokwang Chiaho decoration. — p. 1191
+
+**PIEN YUEH-TING** , see Pien Yin-chang. — p. 1191
+
+**P'U LUN (Prince), (溥倫)** .—Manchu. Great-grandson of the Emperor Tao Kwang, who died in 1850. Prince of the Fourth Order. Vice-President of Imperial Clan Court, September, 1900. Lieutenant-General, Bordered Yellow Banner, February, 1901. Imperial Commissioner, St. Louis Exposition, 1904. Superintendent, Peking Octroi, September, 1907. President of the National Assembly during period of organization and its first session (September, 1907, to January 11, 1911). Appointed Minister of Agriculture, Commerce, and Industry, spring, 1911. Removed from office during the Revolution. Among Chinese he was the most popular member of the Imperial Clan. He was one of the few Princes who did not flee from Peking on the inauguration of the Republic. Often represented Imperial Family at Republican functions. — p. 1191
+
+**P'U YI (溥儀) (HSUAN TUNG)** , English name Henry Pu Yi. Ex-Emperor.—Son of Prince Ch'un (Tsai Li) and nephew of the Emperor Kwang Hsu. Born on February 11, 1906. Succeeded to the Throne, under the Regency of his father, on November 14, 1908, and adopted the reign-title of Hsuan Tung. Abdicated on February 12, 1912. His mother was the daughter of the late Jung Lu. Under the Republic the ex-Emperor continued his studies under his old tutors and also received instruction from Mr. R. F. Johnston, C.B.E., On June 30, 1917, Chang Hsun carried out a monarchical coup in the interests of the Manchu Dynasty. Hsuan Tung ascended the throne, but the "monarchy" survived little more than a week and once again his name was affixed to an "abdication." Cut off his queue in May 1922. Married in December 1922. Driven from Palace by Feng Yu-hsiang coup d'etat. 1924 took refuge in the Japanese Concession, Tientsin. — p. 1191
+
+**SAH CHEN-PING, (薩鎮冰) alias TING MING, (鼎銘)** —Fukien. Born Minhou, Fukien, March 30, 1859. Brigadier-General. Educated in Naval School, Foochow, and Royal Naval College Greenwich, England, K. C. M. G. Admiral Commanding Peiyang Squadron, 1903. Admiral, Kwangtung, August, 1905. Commander-in-chief, land and sea, Kwangtung, November, 1906. Commissioner for Naval Reorganization, June, 1909. Admiral of fleet, July, 1909. Accompanied Prince Tsai Hsun on naval mission to Europe, Oct. 1909, and to Japan and America August, 1910. In command of Imperial naval forces during Revolution. Director General of Land and River Police, Shanghai and Woosung, August 14, 1913. High Inspector of Kwangtung and Fukien, 1917. Appointed Minister of Navy, December 4, 1919. Sent on special mission to pacify Fukien, and appointed Civil Governor of Fukien, Oct. 15, 1922. First class Chiaho and Wenhu decoration. — p. 1192
+
+**SAH FUH-MOU, (薩福懋) alias TUNG-SUN, (桐蓀)** —Native of Fukien. Born in Honan, 1873. Graduated from Tientsin Naval Academy. 1903. Assistant Commissioner of Foreign Affairs at Shanhaikwan. 1906. Managing-Director of Tao-ching Railway. 1907 Managing Director of the Commercial Telegraph Administration and concurrently Managing-Director of Telephone Administration at Canton. 1908. Director of Bureau of Foreign Affairs. 1910. Superintendent of Maritime Customs Kwangtung. 1913. Superintendent of Telegraph Administration of Fukien and Chekiang. 1913. Commissioner of Foreign Affairs, Kwangtung. 1914. Governor of Bank of China. Director of Domestic Loan Bureau. 1917. Commissioner of Foreign Affairs, Kiangsu and Superintendent of Bureau of Enemy Vessels. 1921. Managing Director of Shanghai Government Mint and chief of branch office of Government Industrial Commission up to date. Member Reorganisation Conference. Decorations: 2nd Class Chiaho. Res. Shanghai. — p. 1192
+
+**SHAO YAO-YEN, (邵堯年)** —Graduate, Kwangtung Training School for Teachers of Agriculture and Forestry, 1911; Field Assistant, Kwangtung Agricultural College, 1911-16; Assistant in Agronomy, College of Agriculture, Southeastern University (Nanking), 1916-17; Assistant in Agronomy, Kwangtung Provincial Agriculture and Forestry Experiment Station, 1917-22; Assistant in Horticulture and Short Course Instructor, Ling Nan Agricultural College, 1922-25; Assistant Professor of Horticulture, 1925. — p. 1192
+
+**SHEN JUI-LIN, (沈瑞麟) alias YEN TIH, (硯裔)** —Preferred English name Shen Soen-ling Chekiang. Born 1877. Minor position in the Ministry of War, 1898. Prefectural Office in 1901. Commercial Attache at the Chinese Legation in Belgium. In April, 1925, was sent to Germany as Second Councillor to the Chinese Legation on probation until 1908 when he was in temporary charge of the Legation. Returned to China, 1909 and was appointed Minister to Austria in 1910 to 1918 when he returned to Peking Then appointed Vice-President of the Peace Conference and concurrently secretary and adviser to the Preparatory Office of the Washington Conference 1921. Vice-Minister of Foreign Affairs, 1922; delegate to Washington Conference. In July was member of the National Finance Commission; in Nov. was examiner for Consular officers. Rehabilitation Commissioner for Mongolia and Sinkiang, 1923. Minister of Foreign Affairs and delegate to the Tariff Conference, 1925-6. Chairman of the Tariff Conference 1925. Author of "Industry of Belgium". First class Wenhu, first class Tashou Chiaho, second class Tashou Paokwang Chiaho. Wearer of Order Royal Militaire du Christ (Portugal), La Grand Croix de d'Ordre de Saint Sylvestre (Italy), Grand Officer de Legion d'Honneur (France) and third and fourth class Belgian Decorations. — p. 1192
+
+**SHEN, SOEN-LING** see Shen Jui-lin. — p. 1193
+
+**SHEN TZU-LIANG, (沈子良) alias SZE YING, (字行)** —Shaohing, Chekiang. Born 1884. Graduated in electric course in a University, Sweden. In Ching Dynasty, was district magistrate, Chief Assistant Director of Telegraph and Telephone Administration and Secretary Bureau of Foreign Affairs, Kwangtung. 1916, was director of Kwangtung-Samsui Railway and Chief Assistant Manager of Canton-Hankow Railway. 1924, Superintendent of Customs and Commissioner of Foreign Affairs, Hankow, but in July was transferred to Hsin Ti, Upper Yangtze, as Superintendent of Customs there. In 1925, was appointed Difector of Hupeh Mint., Wuchang and concurrently secretary of Foreign Affairs to the Chief Commander of the police of Hankow and Wuchang. At present, Director of the Special Administrative District, Hankow and secretary of Foreign Affairs to the Chief Commander of Police Force of Hankow and Wuchang. Fifth class Chiaho, third class Chiaho, second class Tashou Chiaho decorations. — p. 1193
+
+**SHIH CHAO-CH'ANG, (施紹常)** —Chekiang. Born 1872 Chujen. Secretary to the Chinese Legation at St. Petersburg, 28th years of Kwang Hsu. Chinese Secretary to the Second Peace Conference at The Hague. First Secretary in the Chinese Legation at The Hague, and also First Secretary of the Chinese Legation in Rome. In the 1st year of Hsuan Tung he acted as Minister to Germany, and returned to China in the 2nd year. Consul-General, Philippines, 1915-19. Director of the Political Affairs Department; Minister of Foreign Affairs, 1920-25; Minister to Peru, 1926. Author of "Comment on the Sino-Russian Treaty". — p. 1193
+
+**SHIH CHAO-CHI, (SAO-KE ALFRED SZE), (施肇基)** —Chekiang. Educated in America, at Cornell University. Acting Junior Secretary, Board of Communications, December, 1906. Removed from office, January, 1907. For some time Managing Director of the Luhan Railway. A Director of the Northern Railways, 1908. Customs Taotai, Harbin, spring, 1908. Acting Commissioner for Foreign Affairs, Kirin, July, 1910 Junior Councillor, Board of Foreign Affairs August, 1910; Senior Councillor, August, 1911. Imperial Commissioner to the International Plague Conference at Mukden, April, 1911. Nominated Chinese Minister to America, Peru, Mexico, and Cuba just after the outbreak of the Revolution, but did not proceed. Minister of Posts and Communications, and for a time Acting Minister of Finance in the first Republican Cabinet. Resigned on account of ill-health in June. Is related, by marriage, to Tang Shao-yi. Appointed Officer of Ceremonies at the President's Office, December 27, 1913. Minister to Great Britain, June 20, '1914. Minister to Washington, 1921. Chinese delegate to the Washington Conference, Nov. 1921. Visited China, Nov. 1922. Nomination as Minister of Foreign Affairs rejected by Senate, Jan. 1923. Minister to the United States, 1923 to date. Represented China at Geneva Opium Conferences, 1924-5. Appointed Delegate to the Tariff Conference, 1925, but did not attend. Trustee of the China Foundation for the Promotion of Education and Culture, 1925. Second Order of Merit. First Class Tashou Paokwang Chiaho decoration. Address, Washington, D.C. — p. 1193
+
+***SHIH CHAO-TSENG, (施肇曾)** —Chekiang. Born 1868. Attaché to Chinese Legation, Washington, 1893-95. Consul, New York, 1896-97. Commissioner of the Shanghai-Nanking Railway, 1905-7. Assistant Director of the Peking-Hankow Railway, 1910-11. Director-General of the Lunghai Railways and Associate Director-General of the Tatung-Chengtu Railway, 1913-22. Second class Paokwang Chiaho and Second class Wenhu Decorations. Retired. — p. 1193
+
+**SHIH LU-PEN, (施履本)** —Hupeh. Graduated from a Japanese University. Member of Ministry of Foreign Affairs since the Republic, became Special Commissioner of Foreign Affairs for Shantung August, 1919 to Feb. 1923. Was on various occasions connected with the President's office. Acting Minister to Japan, 1923. Counsellor of the Ministry of Foreign Affairs since 1924. Author of a Japanese word book. Second class Tashou Paokwang Chiaho, Tashou Chiaho and First class Tashou decorations. — p. 1194
+
+**SHU, SHI AN** see Hsu Si-an. — p. 1194
+
+**SHU, S. C** see Hsu Shih-chang. — p. 1194
+
+**SHU, S. S** see Hsu Shih-hsiang. — p. 1194
+
+**SIA, OI-LING** see Hsieh Wei-lin. — p. 1194
+
+**SONG, C. L** see Sung Shan-liang. — p. 1194
+
+**SOONG, TSUNG-FAUNG** see Sung Chun-fang. — p. 1194
+
+**SUN, C. Y** see Sun Chung-ying. — p. 1194
+
+**SUN CHUAN-FANG (孫傳芳) alias HSING YUAN, (興遠)** —Lincheng, Shantung. Born in Taianfu, Shantung, March, 1885. Graduated at Peiyang in 1906. Continued his military education until 1909 when he passed the military examination and was accordingly appointed assistant military officer. From 1910 on he has been appointed in various military capacities. Appointed Tuli of Fukien on March 20, 1923, was appointed Tuli of Chekiang and concurrently Inspector-General of Fukien and Chekiang. Commenced the war of 1925 by driving Fengtien troops out of Kiangsu. Tupan of Kiangsu, 1925—Tupan of Kiangsu, Kiangsi, Chekiang, Anhwei and Fukien—Director-General of the Port Shanghai and Woosung—1926. Decorations: 4th class Chiaho, 2nd, 3rd and 4th class Wenfu, 2nd, 3rd and 5th merit; 7 lions military sword and 9 lions military sword. Address: Nanking. — p. 1194
+
+**SUN, CLARENCE** see Sun To-yu. — p. 1194
+
+***SUN CHUNG-YING, (C. Y. Sun), (孫仲英)** —Kiangsu. Until recently, was interested in business. Now resides in Tientsin and is identified with many forms of social service. Notably in the Anti-opium propaganda and famine relief work of 1920-21. He also promoted and successfully conducted the United War Work Campaign of 1918. Director, Chinese-Foreign Famine Relief Committee. — p. 1194
+
+**SUN FENG-TSAO, (孫鳳藻) alias SUNG TSE-WEN, (子文)** —Tientsin. President Chihli Fishery School, Tientsin. Became Director General of Tientsin-Pukow Railway, 1922. Second class Wenhu decoration. Retired. Res. Shanghai. — p. 1194
+
+**SUN FO** see Sun Ko. — p. 1194
+
+***SUN HUNG-YI, (孫洪伊)** —Tientsin. Born 1870. Was elected member of the House of Representatives and has been Minister of Interior. Second order of Merit. Res. Tientsin. — p. 1194
+
+**SUN KO, (孫科) alias CHE SUN, (哲生)** —Preferred English name Sun Fo. Hsiang Shan, Kwangtung. Born 1891. Son of the late Dr. Sun Yat-sen. Educated: University of California, class 1916, A. B. Columbia University, New York, 1917, M.S. From February 15, 1921 to June 16 1922, Mayor of Canton and concurrently appointed Director of Canton River Conservancy. From Feb. 26, 1923 to Sept. 15, 1924, re-appointed Mayor of Canton. Commissioner, Bureau of Reconstruction of the Provincial Government, Kwangtung, 1926. Member of Kuomintang. Address: 10 Rue Moliere, Shanghai. — p. 1194
+
+**SUN PAO-CH'I, (孫寶琦) alias MOO CHING, (慕韓)** —Hangchow, Chekiang. Born 1867. Yinsun; Member, Board of Justice and Taotai in Chihli. Minister to France, June, 1902. Chief Secretary, Government Council, summer, 1906. Governor of Peking, autumn, 1906. Minister to Germany, April, 1907 to December, 1908. Assistant Director, Tientsin-Pukow Railway, Sept. 1908. Returned to Peking, January, 1909. Acting Governor (June, 1909) and Governor (November, 1910) of Shantung. Shantung prematurely proclaimed its independence and Sun accepted the post of President of the Province, November, 15, 1911. On November 29, two days after recapture of Hanyang, it returned to the Imperial fold, whereupon Sun tendered his resignation in a penitent memorial. Was pardoned by the Throne, but resigned in December, 1911. Director-General, Revenue Council, May 11, 1913. Minister of Foreign Affairs, concurrently acting premier, September 11, 1913. Director Audit Office, 1915-1916. Minister of Finance, 1916. Director, Shui Wu Chu. 1916-23. Director, Government Famine Relief Bureau, June 17, 1922. Appointed Premier Jan. 12, 1924, the appointment being subsequently ratified by the Parliament. Resigned July, 1924. Director of the China Merchant's S. N. C., and the Han Yeh Ping Iron Co., Appointed Tupan of Shanghai, 1925. Resigned without taking post. Appointed Ambassador to Russia, 1925, but did not proceed. First class Chiaho and Wenhu decorations. Third Order of Merit. — p. 1194
+
+***SUN TAN-LIN, (孫丹林)** —Minister of Interior, May-Dec. 1922. Pres. Commission for study of Yangtzekiang conservancy, Sept. 1922—Director-General of Chengchow 1923. Founded bank at Hankow, 1924. Director of Shanghai Telegraph Administration. First Class Tashou Paokwang Chiaho decoration. Second Order of Merit. — p. 1195
+
+***SUN TO-YU, (孫多鈺)** —Preferred English name Clarence Sun. Anhwei. Born 1876. Educated in America. Engineer and Director General in Kirin-Changchun Railway. Director General of Nanking-Hunan Railway and Shanghai-Nanking Railway, Chuchow-Chingchow Railway, Vice-Minister of Communications, 1923-4. President of the Chung Foo Union Bank, Tientsin. — p. 1195
+
+**SUNG CHUN-FANG, (宋春舫) alias CHUN FANG, (春舫)** —Preferred English name, Soong Tsung-faung. Native of Wushing, Chekiang. Born at Shanghai, 1892. Graduated from universities in Switzerland and Genoa. Professor of French--Tsing Hua College. Prof. of German and French, St. John's University. Secretary of Ministry of Finance. Professor of French Literature, Peking National University. Author of "Parcourtant le Monde en Flammes in 1917" "La Litterature Chinoise Contemporain in 1919," and some dramatic works. — p. 1195
+
+**SUNG FA-HSIANG, (宋發祥) alias CHIH CHANG, (致長)** —Preferred English name Fartsan T. Sung. Fukien. Born August 26, 1883. Educated in America. B.Sc., M.A., (Ohio Wesleyan) B.Sc., (Chicago). Teacher, Fukien Provincial College. Professor of Chemistry, Government University, Peking, 1908-12. Technical Expert Ministry of Finance, 1914-1916. Co-director, Assaying Office, 1912-13. Director, Soochow Mint and Co-Director Bureau of Engineering. 1914. Co-Director, Bureau of Printing and Engraving, 1916. Inspector General of Mints, 1914-16. Adviser to Tuchun of Kiangsu, 1915-16. Director, Nanking Mint, 1917. Political Councillor to the President since 1919. Managing Director of the Sino-Scandanavian Bank. Author of "Qualitative Analysis of Important Metals." At present Superintendent of Treasury, Peking. Third class Chiaho and Wenhu decorations. — p. 1195
+
+**SUNG, FARTSAN T** see Sung Fa-hsiang. — p. 1195
+
+**SUNG HAN-CHANG, (宋漢章)** —Native of Yuyao, Chekiang. Born 1872. Studied in Shanghai Anglo-Chinese College. Chairman of the Chinese General Chamber of Commerce, Shanghai. 1925. Chairman of Shanghai Bankers' Association, Shanghai. Manager of the Bank of China, Shanghai. Address. 22 the Bund, Shanghai. — p. 1195
+
+**SUNG SHAN-LIANG** (宋善良) alias CHIAO LIN, (椒隣).—Preferred English name: C. L. Song. Chekiang. Born 1882. Teacher Nanchang High School, War School and French translator to the Commissioner of Foreign Affairs, Nanchang, Kiangsi, 1904. Resigned in 1912. Secretary to the Ministry of Foreign Affairs and was sent to the Chinese Legation, Denmark, 1913. Second Secretary Chinese Legation, Switzerland, 1920. Second Secretary, Chinese Legation, Madrid, Spain, 1921. Promoted to the First Secretary, 1924. Was Assistant Secretary to the office of the Chinese representatives to the League of Nations, 1920-22. At present, Second Secretary, Chinese Legation, Spain. Author of "Chinese and French Dictionary" Third, fourth, fifth and sixth Chiaho decorations. Wearer of Danish decoration. Address: Chinese Legation, Madrid, Spain. — p. 1196
+
+**SUNG SHOU-HENG** (宋壽恒) alias TZE CHIN, (則久).—Native of Tientsin, Chihli. Born 1867. 1909 investigator of Nanyang Industrial Exhibition, representative in Tientsin. 1911 Manager of Industrial Service, Tientsin office. 1912 and at present Chairman of the National Goods Maintenance Association, Chihli. 1913. and at present manager of the National Goods' Dept. Store, Tientsin. 1924 Director of Tientsin Chamber of Commerce. Author of the following books: "Advantages and Disadvantages of China's Monetary System", "Elementary Moral Culture for Commercial Business", "How to Buy and How to Sell" "What People should Read", "What is Religion", and "The End of the World". Address: No. 121, No. 32 Road, French Concession, Tientsin. — p. 1196
+
+**SZ-YUI, CHAN** see Chen Sze-hsueh. — p. 1196
+
+**SZE, ALFRED** see Shih Chao-chi. — p. 1196
+
+**SZE CHAO-KUEI** (施肇夔).—Native of Chekiang. Born 1891. Studied in Shanghai College, Shanghai. Graduated from Law Dept. of Peiyang University, Tientsin, and George Washington University, U.S.A. LL.B. M.A. Attorney at law. Member of the Law Codification Commission, 1916. Attaché to the Chinese Legation, Washington, 1919. Secretary to the Washington Conference, 1921. Ministry for Foreign Affairs. Lecturer on International Law in the Communications University, Peking. Assistant Secretary of the Special Conference on the Chinese Customs. — p. 1196
+
+**SZE SHAO-TSENG** (施紹曾) alias KUNG-WEI, (公唯).—Born in Chekiang, 1886. Graduated from Nanyang College in 1907. 1912 Chinese Legation in Austria. 1915 Second Secretary in the same Legation. Secretary in Ministry of Foreign Affairs. Member of German-Austria Peace Treaty Commission. Member of Russo-Chinese Treaty Commission. Vice-Consul in Australia. — p. 1196
+
+**TAI CH'EN-LIN** (戴陳霖).—Chekiang. Studied in language schools in Shanghai and Peking. Graduated from a College in France. Attached to Chinese Legation at Paris. Councillor of the Waichiaopu, April, 1912. Chinese Minister at Madrid. Minister to Sweden, Norway and Denmark, 1922-5. — p. 1196
+
+**TAN HSUEH-HSU** (譚學徐) alias YI-HOU, (毅侯).—Preferred English name, Tan Shia-hsu. Born at Canton, Kwangtung. 1909 June graduated at Law Dept. of Central University, Tokyo, Japan. 1909 Nov. appointed Secretary to Consulate General San Francisco, U.S.A. 1913 Sept. Vice-Consul San Francisco 1919 Mar. appointed Consul General to Honolulu up to present. Decorations 5th class Chiaho. — p. 1196
+
+**TAN, SHIA-HSU** see Tan Hsueh-hsu. — p. 1196
+
+***T'AN YEN-K'AI** (譚延闓).—Hunan. Obtained degree of Chinshih, and in 1904, at the early age of twenty-five, was appointed a Hanlin Compiler. Retired from official life shortly afterwards, and lived in his native district until the formation of the Hunan Provincial Assembly, of which he was elected Chairman. Was elected Chief of the Military Department of Hunan on the out- break of the Revolution, but after the assassination of two rival Tutuhs he was elected to that office in his native province. Relieved of his post, October 13, 1913; became Tuchun of Hunan, Aug. 1916. Again Tuchun and Civil Governor, Dec. 1918. Was succeeded by Chao Heng-ti as Commander-in-Chief of Hunan Allied troops. Appointed Minister of Interior, June 12, 1922, but did not accept office. Commander of the Hunan troops in Kwangtung, 1924. Member of the Central Executive Committee of the Kuomintang, 1925. Second order of Merit. — p. 1196
+
+**T'ang Chi-yao (唐繼堯)** —Yunnan. Born 1883. Graduate of Military School, Japan. Acting Tutuh of Kewichow, April, 1912. Commander-in-Chief of Yunnan and Kweichow troops for the relief of Szechwan, August 26, 1913. Acting Tutuh of Yunnan, September 28, 1913. Acting Chief Civil Administrator of Yunnan, October 4, 1913. Civil Governor of Yunnan, 1915; subsequently Tuchun and Civil Governor until 1921, when he was driven out of the Province. Was Chief of the General Staff in the Canton Government, 1918 and 1922. Returned to Yunnan again in March 1922, declared himself Vice-Generalissimo of the Kuomintang armies in 1925 and sent his troops into Kwangsi. Author: "Sayings of the Master of the Orient." 1st Class Paokwang Chiaho decoration. Res. Yunnanfu. — p. 1197
+
+**Tang Ho-yi (湯鶴逸)** —Preferred English name To Kakuitus. Born at Yungchong, Yunnan, 1898. 1914 graduated at Political Economics Dept. of Waseda University Tokyo, Japan, and received B.S. degree. 1918 Chief Editor of Sin-kuo-pao. 1922 Chief Editor of Chinese Students' Journal in Japan. 1922 Chief Editor of Min Do (magazine). 1923 and at present, Professor of National Law College, Peking. 1924 Aug. and at present, Professor of Minkuo University, Peking. Also professor of the World's Language College, Peking. 1924 Oct. and at present, Secretary in Ministry of Agriculture Industry and Commeice. Author of: "Non-partisan politics", "Literature and Life," "Social Literature in China", and "What I Saw and Thought in Japan". — p. 1197
+
+**Tang Shao-yi (唐紹儀)** —Kwangtung. Educated in America. Secretary to Yuan Shih-kai while the latter was Imperial Resident in Korea. Consul-General in Korea after the Chino-Japanese war. Then employed on the staff of the Northern Railway Administration. In Shantung with Yuan Shih-kai, winter, 1900. Customs Taotai, Tientsin February, 1902. Special Commissioner to Tibet, September, 1904. Proceeded to India as special Envoy, to negotiate the Tibet Convention, which was subsequently completed at Peking in April, 1906. Acting Junior Vice-President of the Board of Foreign Affairs, November, 1905. Substantive Junior Vice-President of the Board of Foreign Affairs, February, 1906. Director-General Shanghai-Nanking, and Lu-Han Railways, 1906. Comptroller-General of Revenue Council, May 1906. Senior Vice-President of Board of Communications, November, 1906. Continued to act as Vice-President of Board of Foreign Affairs. First Governor of Fengtien on reorganization of government of Manchuria, April, 1907. Special Envoy to America to thank the Government for waiving part of the Boxer Indemnity, July, 1908. Resigned Governorship of Fengtien, July, 1909. Expectant Vice-President Board of Communications, and Acting President, August, 1910, and resigned in the spring. Appointed Minister of Communications on the dismissal of Sheng Hsuan-huai on October 26, 1911. Proceeded to Shanghai as Yuan Shih-kai's delegate to negotiate with the revolutionary leaders in December. Resigned his position as delegate on December 27. Appointed Premier, after abdication of the Manchus on February 12. Resignation as Premier accepted on June 27, when he was appointed Superior Adviser to the President on State Affairs. A member of the Tung Meng Hui. One of the four Directors of Canton Government, 1918. Southern Peace Delegate 1918-9. Minister of Finance at Canton, 1919-22. Declined post of Minister of Foreign Affairs, 1924-5. First Class Tashou Chiaho Paokwang decorations. Res. 141 Range Road, Shanghai. — p. 1197
+
+**TANG TSAI-CHANG, (唐在章)** —Kiangsu. Born 1887. Educated in Japan. Upon return to China, was Secretary in the President's Office, 1911, and later Secretary to the Cabinet Office. Became Actively interested in the Tramway System of Peking, 1923. Member of Commission for Re-Adjustment of National Finance, 1923. Councillor of the Ministry of Foreign Affairs since 1921—Assistant Secretary of the Commission for the readjustment of Finance and Technical Expert of the Tariff Conference 1926. — p. 1198
+
+**T'ANG TSAI-FU, (唐在復)** —Kiangsu. Born 1877. Graduate of Kwang Fang Yen College, Shanghai; of the Tungwen College, Peking; and the Paris University. Secretary to the Chinese Legation at Paris and The Hague, and at one time Acting Chinese Minister in France, Holland, and Russia. Was Vice-President of the Board of Foreign Affairs in the last Dynasty. Junior Secretary Waichiaopu, March, 1912; Councillor, Waichiaopu, April, 1912. Minister to Italy, 1922-5 and delegate to the Assembly of the League of Nations. Retired. — p. 1198
+
+**TANG TSAI-LI, ([illegible])** —Kiangsu. Born 1882. Graduated in the branch of artillery and engineering of a Military Cadet School, Japan, 1904. After return to China, Staff officer, Chief assistant instructor and in various other capacities at the Military Training Bureau. 1907, Commander of an artillery regiment. 1908, Chief of Department of the Training Bureau of the Metropolitan Forces, Lieutenant-Colonel of the artillery, Chief staff officer of the Manoeuvres at Chochow, Chihli and attended the National Manoeuvres of Japan. 1910, went to Urga, Mongolia, as chief of military staff. Became staff officer to Yuan Shih-kai and promoted to Brigadier-General. 1918, sent to Europe as the Chinese representative at the Allied Military Council. 1919, at Paris as Chief Military Delegate to the Chinese Delegation. K.B.E. by H. M. King George. Chiangchun of the College of Marshals with the words "Yen-Wei" as special title. 1922 appointed member of the Commission of Mongolian Affairs. Since Oct. 1923 he has been Director-General of the Railway Guards of the Ministry of Communications which position he is still holding. 4th Order of Merit. 2nd class Paokwang Chiaho and Wen Hu decorations. Wearer of the French Legion d'Honneur, Commander; the Belgian Order of Crown, Commander; and the Greek Order of the 2nd class. Res. Ministry of Communications. Peking. — p. 1198
+
+***TANG SHIH-WAN, (唐石頑) alias HUA LING, (驊齡)** —Preferred English name Sakwan Tong. Native of Kwangtung. Born 1883. Graduate of Science, St. John's University, Shanghai, 1904. Attache to the Viceroy of Chihli province. Shanghai, 1904. Vice-Consul at New York. Assistant Chinese District Inspector of Salt Revenue at Pakhoi and Swatow. Chinese Auditor of Salt Revenue for Heilungkiang and Kirin provinces. At present Chinese District Inspector of Salt Revenue of the Shantung District. — p. 1198
+
+**TAO CHIA-YAO, (陶家瑤)** —Kiangsi. Born 1871. Educated in the old school Was a Taotai in Szechwan, Salt Taotai, Commissioner of Interior for Kiangsi, Member of Ministry of Finance, Member of Parliament, etc. at various times. Appointed acting Civil Governor of his own province, March 23, 1923. Relieved Dec. 11, 1923 when he was appointed Tupan for development of the Port of Kiukiang. Tupan of Shanghai, 1924. Retired. Res. Shanghai. — p. 1198
+
+**TAO, L. K** see Tao Lu-kung. — p. 1198
+
+**TAO LU-KUNG, (L. K. Tao), (陶履恭)** —Tientsin. Born November 5, 1887. Studied in the Higher Normal School, Tokio, and London School of Economics and Political Sciences. B.S., (London) Dean of History department, Higher Normal School, Peking, 1914. Professor of Social and Political Sciences, 1915-18. Dean of the Faculties, Peking National University, 1919. Prof. of Social and Political Sciences, 1920. Joint-author, Village and Town Life in China, Educational Sociology (in Chinese), etc. Professor of Sociology, Peking National University. 1920-5, Secretary of the Research Department of the China Foundation for the Promotion of Education and Culture. — p. 199
+
+**TCHAO HAO** see Chao Yi-tao. — p. 199
+
+**TCHEN, HIO LON** see Cheng Hsueh-luan. — p. 199
+
+**TCHENG LOH** see Chen Lu. — p. 199
+
+**TCHENG, YIEN-CHI** see Cheng Yen-hsi. — p. 199
+
+**TENG Ts'UI-YING, (鄧萃英) alias CHIH-YUAN, (芝園)** —Preferred English name T. Y. Teng. Native of Fukien, Born 1886. Graduated from Normal Schools of Fukien and Japan and Teachers' College of Columbia. President of Amoy University. Acting Vice-Minister of Education. Delegate to Washington Conference. Author of many Textbooks. Received 2nd Class Chiaho decoration. — p. 199
+
+**TENG, T. Y** see Teng Ts'iu-ying. — p. 199
+
+**TIAO HSIN-TEH, (Edward S. Tyau, 刁信德)** —Kwangtung. Born, 1879. Studied in Honolulu, Shanghai (St. John's University), U.S.A. (University of Pennsylvania) and Liverpool M.D., D.P.H. One of the senior medical officers of St. Luke's Hospital, Shanghai, with which he has been connected since 1902. Past President of the National Medical Association and Editor of the National Medical Journal. Contributor to various medical journals in China, Europe and America. Medical Officer to the Chinese Labour Camps in the Transvaal, 1905-1908. — p. 199
+
+**TIAO MIN-CH'IEN, (Tyau Min-ch'ien Tuk-zung), (刁敏謙)** —Kwangtung. Born August 9. 1888. Graduated from St. John's University, Shanghai, and University of London, LL.B. (1914); LL.D. 1916. Lecturer on International Law and Political Science, Tsing Hua College, Peking, September, 1916, and September, 1919. Honorary Member. The Grotius Society, London. Member, Ministry of Foreign Affairs, Peking, since March 1922. Founder and former Editor, The Peking Leader, Peking. Technical Expert, Chinese Delegation to the Assembly of the League of Nations, 1920-1921. Secretary, Chinese Delegation to the Washington Disarmament Conference, November 1921-February 1922. Secretary, Ministry of Foreign Affairs, 1926. Assistant Director. Drafting Department of the Tariff Conference; Secretary of the Chinese Commission for the Investigation of Extraterritoriality; Chief of the Translation and Compilation Section of the Sino-Russan negotiations. Director of the Peking Rotary Club. Author of The Legal Obligations arising out of Treaty Relations between China and Other States (1917), China's New Constitution and International Problems (1918), London Through Chinese Eyes (1920), China Awakened (1922). Editor of China in 1918 (1919), and Managing Editor of The Chinese Social and Political Science Review, Peking, since October 1922. Third Class Chiaho Decoration. — p. 199
+
+**TIAO TSO-CH'IEN, (Philip K. C. Tyau, (刁作謙)** —Kwangtung. Born 1880. Educated at St. John's University, Shanghai; Cambridge University, M.A., LL.B.; Barrister-at-law, Middle Temple, London. Studied for some time in the Hawaii Islands. Chinshih; Hanlin. Director-General of Chinese Student-Mission to Europe, 1909. Joined the Waiwupu, 1910. A secretary in the Ministry of Foreign Affairs on the Establishment of the Republic, 1912. Secre- tary in the President's office, May, 1912. First Secretary, Chinese Legation at London, August, 1912. Appointed to the Chinese Legation, London, 1914. as an extra First Secretary, in temporary charge of the Chinese Consulate-General in London. Councillor, Ministry of Foreign Affairs. A secretary in the Cabinet Office. Chief Secretary, Chinese Delegation to the Washington Conference, Nov. 1921. Was Editor of the Peking Daily News (published in English). Minister to Cuba and Panama 1922-5; Transferred Ministry of Foreign Affairs, 1926. Second class Chiaho, Third class Paokwang Chiaho, and Fourth class Wenhu Decorations. — p. 199
+
+**TING, CHENG CHI OR CHAS. C** see Ting Shih-yuan. — p. 1200
+
+**TING HUNG-CHUAN, (丁宏銓) alias TING CHENG-CHI, (丁振芝) or Chas. C. Ting)** —Kiangsu. Born 1874. Graduated from the Naval College, Foochow. Appointed chief officer of the Tientsin police, 1915. Chief of Special Bureau of Administration, ex-German Concession, Tientsin, 1922. Major General in the Army. Commissioner of Police, Chihli, 1926. 2nd class Wenhu decoration. — p. 1200
+
+**TING SHIH-YUAN, (S. Y. W. Ting), (丁士源)** —Chekiang. Born 1879. Attended St. John's University, Shanghai. Entered the Government service through the assistance of a certain Manchu prince. Was once an important officer of Chienmen Octroi, Peking. Conducted a newspaper while a tax officer. After leaving Peking, he was in England a year or two studying. Was then delegated to attend the Hague Conference. Upon return to China, he was appointed Chief of Martial Law Department in the Ministry of War, Adviser to the Ministry of Interior and Director of Public Schools in Peking. Appointed Customs Taotai of Hankow, and concurrently Commissioner of Foreign Affairs for Hupeh, January, 1914. Removed from office, July 1916. Appointed Director, Peking-Hankow Railway, 1918. After effecting the Union of the Peking-Hankow and Peking-Suiyuan lines, he became the Director of these two railways. Upon dissolution of the Anfu Political Club by the armed interference of Generals Tsao Kun and Chang Tso-lin, July, 1920, in which struggle, Ting was Chief of Marshal Tuan's Aviation Department, he fled and became one of the guests of the Imperial Japanese Legation, Peking, from which he escaped, Nov. 16, 1922. 1924 returned to Peking as personal councillor to the Provisional Chief Executive. Vice-Chairman Commission for Readjustment of Finance 1925-6. Decorations: French Chevalier of the Legion of Honour 1906; Chinese, Wenhu Second Class 1917; Paokwang Chiaho 1917. Fifth Order of Merit 1919. Author of two books: "The World Wide Navy and its Administration", 1909, and "Notes regarding customs and laws of war on land" 1911. Res. Tientsin. — p. 1200
+
+**TING, V. K** see Ting Wen-chiang. — p. 1200
+
+**TING WEN-CHIANG, (V. K. Ting), (丁文江)** —Kiangsu. Born 1887. Studied in Cambridge, England; Glasgow, Scotland; Freiburg, Germany. Graduated 1911. B.Sc., D.Sc. Director of the Geological Survey, Ministry of Agriculture and Commerce, 1913. Became its Hon. Director, 1922. General Manager, Peipiao Coal Mining Co. Trustee of the China Foundation for the Promotion of Education and Culture, 1925. Member of the British-China Indemnity Commission, 1926. Director of the Port of Shanghai and Woosung, 1926. Author of Geology of the Yangtze Delta, Fifty Years of Mining in China, etc. Second class Chiaho and Third class Paokwang Chiaho decorations. — p. 1200
+
+**To SHUE-TSOI, (杜樹材) alias To WEI, (杜偉)** —Preferred English name To Shue Tsoi or Doo Dewey. Nanhai, Kwangtung. Studied agriculture at Ling Nan College. Graduated in 1923 with B.S. Degree. Professor at Ling Nan College specializing in Dairy Farming 1924. Acting instructor in charge of animal husbandary branch 1925. Assistant instructor in charge of the same branch. Now is acting dean of the college. Author of "Science Readers for Higher Primary School" and "Value of Production of Buffalo's Milk" Res. Canton. — p. 1200
+
+**To, KAKIUTUS** see Tang Ho-yi. — p. 1201
+
+**To, SHUE TSOI OR DOO DEWEY** see To Shue-tsoi. — p. 1201
+
+**Tong, HOLLINGTON K** see Tung Hsien-kuang. — p. 1201
+
+**Tong, SAKWAN** see Tang Shih-wan. — p. 1201
+
+**Tong Shao-yi** —See Tang Shao-yi. — p. 1201
+
+***Tsai Hsun, (載洵)** —Prince).—Brother of the late Emperor Kwang Hsu. High Commissioner for Naval Reorganization, June, 1909. Naval Mission to Europe, October, 1909. Consulting Member of Government Council, July, 1910. Naval Mission to Japan and America, August, 1910. Minister of the Navy, 1911. Removed from office after outbreak of Revolution. — p. 1201
+
+**Tsai, Li** see Chun, Prince. — p. 1201
+
+***Tsai T'ao, (載濤)** —(Prince).—Brother of the late Emperor Kwang Hsu. Charged with formation of a new Imperial Guard, December, 1908. Chief of the General Staff, June, 1909. Mission to Japan, America, and Europe to study military matters, March, 1910. Removed from office during the Revolution. Is understood to have been one of the most vigorous opponents of abdication. — p. 1201
+
+**Tsai Ting-kan, (蔡廷幹)** —Kwangtung. Was one of the party of Chinese students who went to America with Dr. Yung Wing in 1873. Returned to China in 1881, after eight years' study in America. Subsequently joined the Chinese torpedo school, and entered the Chinese Navy. Was in command of a flotilla of torpedo boats at Port Arthur, and during the Chino-Japanese war took part in the engagements off Port Arthur, the Yalu, and Weihaiwei. Entered the service of Yuan Shih-kai when he was Viceroy of Chihli. In 1911 was made Chief of a Department in the Ministry of Navy, but on Yuan Shih-kai's arrival in Peking was transferred to his staff, at Yuan's special request, as Naval A.D.C. Vice-Admiral, November 20, 1912. Director-General Adjoint of Revenue Council, October 1, 1913. Master of Ceremonies in the President's Palace, Peking, 1918 and 1922. Chairman of the Commission for the Revision of China's Tariff, May, 1918. Vice-director, Inspectorate General of Customs. Attached to the Chinese delegation to Washington Conference, Nov. 1921. Chairman, Commission for the Revision of Import Tariff, 1922. Vice-President Chinese Red Cross, Aug. 1922. Treasurer, China International Famine Relief Commission, Jan. 1923 to date. Chairman, Commission for Special Customs Conference June 30, 1923. Director General of Revenue Council 1924 to present. President of the Peking Rotary Club 1924-5. 1925, Chairman of the Chinese Commission to investigate the May 30 affair. Delegate to the Tariff Conference 1925. Minister of Foreign Affairs, and concurrently chairman of Chinese Delegation to Customs Tariff Conference, 1926. Third Order of Merit. Res. Peking. — p. 1201
+
+***Tsai Tse, (載澤)** —Imperial Duke. Deputy Lieut.-General Plain Blue Banner, March, 1901. Chief of Imperial Mission to Foreign Countries, 1905. Acting Minister of the Presence, August, 1906. Comptroller of Imperial Armoury, November, 1906. Employed on Reform Commission, 1906. Minister of the Presence, February, 1907. President Board of Finance. May, 1907. Member of Committee of Banner Reform, December, 1908. Rank of Prince of Fourth Order. December, 1908. Commissioner of Naval Reorganization, February, 1909. Removed from office as President of the Board of Finance on November 1, 1911. — p. 1201
+
+**TS'AI YUAN-P'EI, (蔡元培)** .—Chekiang. Born January 11, 1867. A Hanlin scholar who has made a speciality of the study of education, spending some time in Germany with this object. After the coup d'état in 1898 he went to Changsha, where he took up educational work, and subsequently to Shanghai, where he joined the staff of the Nanyang College. In 1905, he was a Professor in the Language School at Peking and it was after this that he spent five years in study at German Universities. His revolutionary activities had led to his being a suspect before he left China. On the outbreak of the Revolution at Wuchang he returned, and was elected to the post of Minister of Education by the Nanking Provisional Government. He came to Peking as Chief of the Southern Delegation charged with the duty of congratulating Yuan Shih-kai upon his election as President. Tsai was elected Minister of Education in the first Republican Cabinet, but resigned after Tang Shao-yi gave up the Premiership. Was a member of the Tung Meng Hui. President of Peking Government University from January, 1917 to Jan. 1923, when he resigned as a protest against interference by the Cabinet with the Judiciary. Travelled in Europe and America. 1923-5; Returned to China, 1926. Author of History of Chinese Ethics, Outline of Philosophy. Historic Reference in Shihtouchi, etc. First Class Tashou Chiaho decoration. — p. 1202
+
+**TS'AO JU-LIN, (曹汝霖) alias YUEN TIEN, (潤田)** .—Kiangsu. Graduated in law from Japan. Acting Vice-Minister of Foreign Affairs, November 11, 1913; Vice-Minister for Foreign Affairs, August 10, 1913. Appointed Minister of Communications in Tuan Chi-jui's Cabinet, July, 1917. Acting Minister of Finance, 1918; resigned October, 1918. President of the Bank of Communications. Was considered a leading pro-Japanese official by his own people, and regarded as one of the "National Traitors." Appointed Special Commissioner for Promotion of Industries, Jan. 5, 1922. Was proscribed June 1922, in connection with his alleged activities in making foreign loans while a cabinet member. At present, Manager of Exchange Bank of China. Director-in-chief of Luhokou Coal Mining Co., and Director of Industrial Bank of China. Chiaho, 1st class Wenhu and Paokwang Chiaho decorations. Address: Haiho Road, Tientsin. — p. 1202
+
+**TSAO KUN, (曹錕) alias CHUNG SHAN, (仲珊)** .—Chihli. Born Dec. 12, 1862. Graduated from Peiyang Military Academy. Was in active service during the Sino-Japanese War. General of 3rd Army Division. Tuchun of Chihli, 1917 to 1923, (that office was thereupon abolished). Appointed Inspector-General of Szechwan, Kwangtung, Hunan, and Kiangsi, June, 1918, for operations against the South. When Chang Hsun re-established the Manchu monarchy, July, 1917. Tsao directed his forces against Chang's forces in concert with Marshal Tuan Chi-jui. With Marshal Chang Tso-lin's Army, Tsao's forces succeeded in dissolving the Anfu Political Club, 1920. Inspector General, Chihli, Shantung and Honan Provinces. President of the Republic Oct. 5. 1923-to Nov. 3 1924. Imprisoned by Marshal Feng Yu-hsiang from Oct. 24, 1924 to April 1926. Resigned from the Presidency, April 30, 1926. Retired. — p. 1202
+
+**TSAO YUN-HSIANG, (曹雲群) alias CHING WU, (慶五)** .—Preferred English name Y. S. Tsao. Chekiang. Born 1880. Graduate of St. John's University, Shanghai; B.A. Yale (De Forest Gold Medalist); M.B.A. Harvard. Associate Editor of English and Chinese Standard Dictionary. Second Secretary of Chinese Legation. London, appointed July, 1914. Consul-General in London. Charge d'Affaires and First Secretary of Chinese Legation, Denmark. Councillor, Ministry of Foreign Affairs and President of Tsing Hua College, since 1922. Author of "How To Do Business." Decorations 3rd class Chiaho and Star of Denmark 3rd class. — p. 1202
+
+**TSAO Y. S** see Tsao Yun-hsiang. — p. 1203
+
+***TS'EN CH'UN-HSUAN, (岑春煊)** —Kwangsi. Son of the late Viceroy Ts'en Yu-ying. Sub-Director of Court of Imperial Entertainments, June, 1892. Financial Commissioner, Kwangtung, September, 1898. Financial Commissioner, Kansu, December, 1898. Governor Shensi, September, 1900. Governor Shansi, March, 1901. Yellow Jacket, January, 1902. Governor Kwangtung, May, 1902. Acting Viceroy Szechwan, September, 1902-May, 1903. Acting Viceroy Liang Kwang, November, 1903. Viceroy Yun-kuei Provinces, September, 1906 (did not proceed). Viceroy Szechwan, March, 1907 (did not proceed). President of Board of Communications, May 3, 1907. Viceroy Liang Kwang, May, 1907 (did not proceed). Resigned on account of ill-health, August 12, 1907. Ordered to proceed to Szechwan in September, 1911, to suppress the railway agitation in that province, in co-operation with the Viceroy, Chao Erh-feng. Had not left Hankow when the Revolution broke out. Appointed Viceroy of Szechwan, October 14, but did not proceed. Commissioner for Pacification, Fukien, September 12. Appointment ceased November 12. Director-General, Hukuang Railways, February 13. Resigned, June 17, 1913. His arrest ordered for alleged complicity in the rebellion, August 21, 1913. In 1918 joined the Southern movement; appointed Administrator-Director of the Military Council at Canton and Minister of the Interior. Fled from Canton in 1920. First Class Tashou Chiaho Paokwang decoration. Retired. Res. Shanghai. — p. 1203
+
+**TSENG, T. K** see Tseng Tsung-chien. — p. 1203
+
+**TSENG TSUNG-CHIEN, (曾宗鑒) alias YUNG PU, (鎔甫)** —Preferred English name T. K. Tseng. Fukien. Born 1884. Graduated from School of Economics, Nanyang University, 1901. Continued the same course in Cambridge University and graduated in 1907. Member of Waiwupu. Secretary, Ministry of Foreign Affairs. Director of the National Economic Bureau and Salt Revenue Bureau of Kirin and Heilungkiang. Commissioner of Foreign affairs at Shanghai. Vice-minister of Foreign Affairs, 1925. Delegate to the Tariff Conference, 1925. Delegate to Investigate May 30 Affair, Shanghai, 1925. Minister to Sweden and Norway, 1926. Decorations: 2nd class Tashou Chiaho, 2nd class Wenhu Chiaho. Address: Chekiang Industrial Bank, 14 Hankow Road. — p. 1203
+
+**TSENG YANG-FENG, (曾仰豐) alias CHING NAN, (景南)** —Native of Minhou, Fukien. Born 1886. 1911 graduated from the Engineering Dept. of Peiyang University, Tientsin. 1917 graduated from University of Illinois, U.S.A. with degree of M.A. Engineer of Hankow-Chengtu Railroad, Yellow River and Grand Canal. Adviser to the Civil Govenor of Shantung and secretary to the Salt Revenue Office. Head of Salt Revenue at "Huai-pei" and Sungkiang. At present head of Salt Revenue at Changlu. Decoration 3rd class Chiaho. — p. 1203
+
+**TSENG YU-TSUN, (曾毓蕃) alias TSENG YUN-PEH** —Vice-Minister of Communications, October, 1918. Minister 1919-20. Was a guest in the Japanese legation 1920 till Oct. 1, 1922. Councillor to Provisional Chief Executive, 1925-6. Retired. — p. 1203
+
+**TSIANG, T. Y** see Chiang Tsun-hui. — p. 1203
+
+**TSIANG, TSO PING** see Chiang Tso-pin. — p. 1203
+
+**TSIANG, V. J** see Chiang Wei-Chiao. — p. 1203
+
+**TSUNG HO-NIEN, (宗鶴年) alias TZE LI, (子立)** —Native of Nanking, Kiangsu. 1906 Chief Secretary to the Civil Governor of Hupeh, Honan, Kwangtung, Kwangsi provinces. 1908, Secretary to the Ministry of Foreign Affairs. 1921, Secretary to the Washington Conference. At present, Chief Secretary of the Miscellaneous Dept. of the Waichiaopu. Fifth class Chiaho, Anti-Plague medal, 2nd class Chiaho, Tashou, 3rd class Wenhu, 2nd class Paokwang decorations. — p. 1203
+
+**TSU, YU-YUE** see Chu Yo-yu. — p. 1204
+
+**TSUR, Y. T** see Chow Yi-chun. — p. 1204
+
+**TU CHUN, (Tu Tzun) (杜純)** —Kwangtung. Born 1885. Poet and Historian. Expectant Taotai of Nanking during Tsing Dynasty. President of Industrial Association, Nanyang. Co-director of Nanking Railway. Adviser to Cabinet. Private Secretary to the Defence Commissioner and Military Governor of Shanghai. Superintendent of Hangchow Customs, Commissioner of Finance, Chekiang and Director of Salt Office of Chekiang and Kiangsu Provinces. Transferred to Yangchow in January, 1925. First class Tashou Chiaho, 2nd class Tashou Paokwang Chiaho and 2nd class Wenhu Chiaho decorations. — p. 1204
+
+**TU, H. K** see Tu Hsi-kwei. — p. 1204
+
+**TU HSI-KWEI. (杜錫珪)** —Preferred English name H. K. Tu. Fukien. Born 1875. Graduated from the Naval Training School, Nanking. Commander-in-Chief of the Navy, Sept. 1922 to Nov. 1923. Minister of Navy, 1926. Acting Premier, June 22, 1926. Fourth Order of Merit, 1st class Wenhu, Tashou Chiaho and 2nd class Tashou Paokwang Chiaho decorations. — p. 1204
+
+**TUAN CHI-JUI, (段祺瑞)** —Anhwei. A graduate of the Peiyang Military School. Yuan Shih-kai's chief military adviser while Viceroy of Chihli. Brigade-General in Fukien in 1906, Deputy Lieutenant-General of the Chinese Bordered Yellow Banner, October, 1907; and General Commanding the Sixth Division of the Luchun, December, 1909. Commander-in-Chief, Kiangpeh, December, 1910. He was in a large measure responsible for the reorganization upon modern lines of the Northern Army, and after Yuan Shih-kai accepted the Premiership in November, 1911, he succeeded him as Viceroy of the Hukuang Provinces. On the recall of Baron Feng Kuo-chang, General Tuan took command of the First Army. He was one of the most prominent of the military commanders who signed the memorial to the Throne at the end of January, urging the Emperor to abdicate. On the formation of the first Republican Cabinet he was elected Minister of War. Given rank of General (Shang Chiang), September 7, 1912; of Field-Marshal, 1915. Chief of the Headquarter's Staff, 1915. Acting Premier, May 1, 1913, to July 19, 1913. Acting Tutuh of Hupeh (during Vice-President's absence in Peking), December 10, 1913. Chiangchun and Acting Governor of Fengtien. Minister of War, 1914. Granted sick leave, June 1, 1915. In May, 1916, Tuan Chi-jui was appointed Premier and charged with the formation of a responsible Cabinet. Dismissed by Li Yuan-hung, May 1917; but resumed office in July after the failure of Chang Hsun's monarchical coup d'état. Resigned, October, 1918. Attempting to rescue the Anfu Club, organized without authority an army, called by himself the Ting Kuo-chun, and personally directed it to oppose the combined march of Chihli and Fengtien forces on Peking, 1920. Retired and resided in Tientsin, 1922. Provisional Chief Executive from November, 1924-April, 1926. Retired. — p. 1204
+
+***TUNG HSIEN-KUANG, (Hollington K. Tong) (董顯光)** —Chekiang. Born 1888. Studied in America. Associate-Editor of Weekly Review, Shanghai. Member of the Chihli River Commission. Secretary to the Commissioner for Foreign Affairs of Chihli, since 1921. Appointed Councillor of Ministry of Communications, May 13, 1922. Resigned, June 2, 1922. Delegated to represent China at International Press Congress, Honolulu, Oct. 1921. Attended Pacific Conference, Washington, Nov. 1921, as delegate of Pacific Association. Adviser on Foreign Affairs to Marshal Wu Pei-fu, 1926. — p. 1204
+
+***TUNG K'ANG, (董康)** —Kiangsu. Born 1868. Chinshih. Judge, Supreme Court. Minister of Justice, August 14, 1920. Resigned Dec. 25, 1921. Appointed Chief Judge, Supreme Court, Dec. 27, 1921, also Acting Minister of Justice during Dr. Wang Chung-hui's absence. Minister of Finance, May 24, 1922. Director-General of the Salt Administration and of the Currency Bureau, May 27, 1922. Director-General of the Tobacco and Wine Bureau, June 15, 1922. Wrote Diary of his travels in Europe. Appointed Chairman of a Chinese Committee to arrange for the rendition of the International Mixed Court at Shanghai, 1925. First class Tashou Chiaho, and Wenhu decorations. Second Order of Merit. — p. 1204
+
+**TYAU, MIN-CHIEN TUK-ZUNG** see Tiao Min-chien. — p. 1205
+
+**TYAU, PHILIP K. C** see Tiao Tso-chien. — p. 1205
+
+**TYAU, EDWARD S** see Tiao Hsin-teh. — p. 1205
+
+**WANG CHAO-MING, (汪兆銘) alias CHING-WEI, (精衛)** —Canton. Graduate of a Tokio Law School. Ardent revolutionist. Notorious for the attempt to assassinate the Prince Regent by means of a bomb placed under a bridge over which the Regent daily passed. Arrested and imprisoned for life, but released after two years, in the autumn of 1911, after the outbreak of the Revolution. Went to Shanghai and rendered great service to the revolutionary party. Held important posts in the Nanking Revolutionary Government. Commissioned to go to Southern Islands to encourage allegiance of Chinese settlers to the Republic. Minister of Finance and Director-General of the Salt Administration, 1918. Associated with Dr. Sun Yat-sen's political efforts in Peking 1924--5; Chairman of the Central Executive Committee of the Kuomintang, 1925-6. — p. 1205
+
+**WANG CHAN-YUAN, (王占元)** —Shantung. Born 1860. Graduated in the first class of the Pei Yang Military Academy. Served bravely in the Chino-Japanese War, 1894-5. Was engaged by Yuan Shih-kai to train his soldiers at Hsiao-chan. Then he was a captain commanding Anhwei troops. Shortly afterwards, was promoted to be Colonel and then to Brigadier-General. Accompanied late General Feng Kuo-chang to Wuchang when the revolution broke out in 1911, when Feng was in command of the First Imperial Army. Rendered no small service in the recapture of Hanyang from the revolutionaries on Nov. 27, 1911. Upon the establishment of the Republican Government, Wang was appointed Chief of the 2nd Army Division. Promoted to a General in 1913. Made Military Governor of Hupeh in 1914, and later was given the rank of Chuang Wei Chiang Chun and still later that of Hsiang Wo Chiang Chun. Was ordered to act concurrently Civil Governor of Hupeh in 1916. Appointed Inspector-General of Hupeh and Hunan, 1921. Attended Tuchuns' Conference, Tientsin, May 1921. Cashiered, Aug. 9, 1921. On Marshal Sun Chuan-fang's staff, 1926. Second class Wenhu and Chiaho decorations. — p. 1205
+
+**WANG, C. C. or CHIN-CHUN** see Wang Ching-chun. — p. 1205
+
+**WANG CHENG-PIN, (王承斌) alias HSIAO PO, (蕭伯)** —Fengtien. Brigadier General, 1st Mixed Brigade, 1917. Commander of the 23rd Army Division. Appointed Civil Governor of Chihli, June 24, 1922 and additionally Tuli of Chihli, Oct. 22, 1923, and Deputy Inspector General of Chihli, Shantung and Honan, Nov. 11, 1923. Retired after Chihli-Fengtien War of 1924. — p. 1205
+
+**WANG CHENG-TING, (better known as C. T. Wang), (王正廷)** —Chekiang. Studied in the Pei-yang University from 1895 to 1900. Was a teacher in the Anglo-Chinese College in Tientsin, and at Changsha High School, of which he was head master. Studied in Japan for four years, where he was Secretary of the Y.M.C.A. at Tokio. Then went to America, where he studied law for three years. Was General Li Yuan-hung's Chief of Diplomatic Affairs at Wuchang, and Vice-Minister of Commerce and Industry in the first Republican Cabinet. Acting Minister of that Ministry until he resigned on the retirement of Tang Shao-yi. Vice-President of the Senate until unseated by Presidential Order of November 4, 1913. After the death of Yuan Shih-kai again became Vice-President of the Senate. Joined the Southern movement, 1918, in opposition to the military Government in Peking. Chinese delegate at Paris Conference, 1919. Commissioner for Settlement of the Shantung Question, March 1922. Minister of Foreign affairs and concurrently Acting Premier, Dec. 1922 to Jan. 1923. Was also for some time Minister of Justice in 1922. Director-General of Commission for Sino-Russian Affairs, March, 1923, also 1925. 1925 Member of the Commission to investigate the Shanghai May 30th Affair. Delegate to the Tariff Conference, 1925. Chairman of the Conference, 1926, Minister of Foreign Affairs, 1926. Retired. First class Tashou, Paokwang, Chiaho, and Wenhu decorations. — p. 1205
+
+**WANG CHI-TSENG, (王繼曾)** —Preferred English name K. T. Wang. Fukien. Born 1882. Graduated from Nanyang College, Shanghai, studied Commerce and Political science in France. Member of the Chinese Legation in Paris. Upon return to China, Wang became a councillor in the Waichiaopu and became a Departmental Chief of the same Ministry in Dec. 1917. Minister to Mexico 1922-24. Chief Secretary to the Cabinet Office, Jan. 12, 1924. 1st class Chiaho decoration. — p. 1206
+
+**WANG CHIH-CHANG, (王治昌)** —Tientsin. Born 1876. Master of Commerce. Studied law in Peiyang University. Graduated from Commercial Department, Waseda University, 1909. Secretary, Chinese Y.M.C.A., Tokio. Teacher at the Higher Commercial College, Tientsin, 1909 to 1911. Appointed Chief, Commercial Bureau, Ministry of Commerce and Industry, 1912. Councillor, Ministry of Agriculture and Commerce since 1916. Only Chinese member of the Bribery and Secret Commission Prevention League, London. Chinese Technical Expert to Paris Peace Conference. Second class Paokwang Chiaho and second class Wenhu decorations. — p. 1206
+
+**WANG CHING-CHI, (王景岐) alias SHUH SUN, (石孫)** —Preferred English name Wang King-ky. Native of Minghuo, Fukien. Born 1882. Graduated at Tez-chiang School, Wuchang, Hupeh. Graduated at Diplome de l'Ecole Libre de Sciences politique in Paris. Secretary, and Councillor in Ministry of Foreign Affairs. Secretary of Legation at Russo-Chinese-Mongolia Conference at Kiachta. Councillor at Peace Conference at Paris. Professor at National University, Peking. 1921 Minister to Belgium, up to present. — p. 1206
+
+**WANG CHING-CHUN, (C. C. Wang, or Chin-chun Wang), (王景春)** —Chihli. Born June 1882. Studied in the Peking University, Yale University and University of Illinois. Ph. B. in C.E., M.A., Ph. D. Councillor, Ministry of Foreign Affairs, Nanking; Associate-Director Peking-Mukden Railway, concurrently Vice-Chairman in charge of the Commission on the Unification of Railway Accounts and Statistics, 1913-1915; Director of the Department of Railway Accounts and Finance, January 1915—July 1916, when China's standardized accounting system was for the first time put into force; Director of Postal Department and Acting Director-General of Posts; Managing Director of Peking-Mukden Railway, April 1917—July 1917; Managing Director of Peking-Hankow Railway, July 1917—January 1919; Technical Delegate of the Chinese Government at the Paris Peace Conference 1919; Counsellor of the Ministry of Communications and concurrently China's Representative on the Inter-allied Technical Board for the administration of the Siberian and Chinese Eastern Railways at Harbin, January 1920. Director-General, Chinese Government Railways. Director-General, Chinese Eastern Railway. Delegate to the International Electrical Communications and International Postal Conferences, 1925. Member of the British-China Indemnity Commission, 1926. Author of Legislative Regulation of Railway Finance in England. Contributed a number of articles to leading American Magazines such as the Atlantic Monthly, the North American Review, the American Journal of International Law, the American Political Science Review, etc. Second class Tashou Chiaho, and first class Tashou Chiaho Wenhu decorations. Also Second order of the Crown of Greece. Retired. — p. 1206
+
+**WANG CHING-WEI** —See Wang Chao-ming. — p. 1207
+
+**WANG CH'UNG-HUI** (王寵惠).—Kwangtung. Born 1882. Barrister-at-law. D.C.L. Studied law in Peiyang University, 1895-1900; America (Yale), Germany and England. While in America, translated the German Civil Code into English and acted as co-editor of the Journal of the American Bar Association. Called to the English Bar at the Inner Temple, London. While in Japan, edited the Kuomingpao, organ of the Chinese Revolutionary Society. Member of Tung Meng Hui. Delegate to the First International Bills of Exchange Conference at the Hague. Member of several learned societies and contributor to various legal periodicals in Europe and America. While abroad, refused important appointment under the Imperial Government. Minister of Foreign Affairs in the Nanking Provisional Government and Minister of Justice in the first Republican Cabinet. Chief Adviser to the Waichiaopu. His views on constitutional law influenced to a considerable extent the drafting of the Provisional Constitution. President, Law Codification Commission since, 1917. Chief Judge, Supreme Court, 1920. Chinese delegate to the Washington Conference, Nov. 1921. Appointed Minister of Justice, Dec. 25, 1921. Acting Premier, July to Dec., 1922. Again on Jan. 12, 1924. Deputy Judge of the Permanent Court of International Justce at The Hague. Member of the Committee of Experts, for the Progressive Codification of International Law appointed by the Council of the League of Nations, 1925. Nominated Minister to Court of St. James, 1925, but did not accept. Appointed Delegate to the Tariff Conference, 1925. Did not attend. Appointed Plenipotentiary Delegate in connexion with the Extraterritoriality Commission's investigations. Minister of Education, 1926. Second Order of Merit. — p. 1207
+
+**WANG, G. P** see Wang Kuo-pang. — p. 1207
+
+**WANG HU** (王瑚).—Chihli. Kirin Taotai, August, 1910. Acting Chief Civil Administrator, Hunan, October 7th, 1913. Censor, 1914. Governor of Peking Metropolitan Area. Civil Governor of Kiangsu, in 1920. Civil Governor of Shantung, June 15, to Sept. 30, 1922. Director-General of the extension of the Peking-Suiyuan Railway, 1925. First class Tashou-Chiaho decoration. — p. 1207
+
+**WANG HUAI-CHING** (王懷慶).—Chihli. Born 1865. Received a good education at home. Graduated from the Peiyang Military Academy. Assigned to the army under General Nieh Shih-cheng and displayed bravery during the Sino-Japanese War. Commander of Huai Chun (Anhwei troops) in Manchuria and Chihli for some time. Defence Commissioner of Chinan, South Chihli. Commander-in-Chief of the Gendarmerie in Peking, July 1919. Concurrently appointed Commander-in-Chief of Metropolitan Gendarmerie to succeed Tuan Chih-kuei after the defeat of the Anfu Club. Appointed Inspecting-General of Jehol, Chahar and Suiyuan districts and concurrently Tutung of Jehol, May 28, 1922. Made a Full General of the Army, Oct. 10, 1922. Inspector General of Jehol, Chahar and Suiyuan, 1924. Commandant of the Peking Garrison, April, 1926. — p. 1207
+
+**WANG I-TANG** —See Wang Keng. — p. 1207
+
+**WANG JU-CHIN** (王汝勳) alias YU FU, (幼甫).—Peking. Born 1877. Graduate of a Military School, Japan. From 1900 to 1911 was military training officer to the Peiyang Army and promoted assistant commander. Commander of President's Body Guard, 1912. Brigadier-General of the Office of the Military Governor of Honan, 1914. Brigadier-General of the 8th Division, 1915. Lieut.-General of the 8th Division, 1919. Promoted to the rank of General, 1921. Chief Commander of the Army for the Upper Yangtze Valley, 1924. Assistant Tupan in Hupeh, 1925 which position he still holds. Resigned the positions of Upper Yangtze Commander and Lieut.-General of the 8th Division in May, 1925. Author of "Artillery Tactics". No Party. Second and Third class Wenhu Chiaho, second and third class Chiaho, second class Tashou Paokwang Chiaho decorations. Res. Peking. — p. 1207
+
+**WANG, K. T** see Wang Chi-tseng. — p. 1208
+
+**WANG KEH-MIN, (王克敏)** —Chekiang. Born in Canton, 1875. Chujen. Chancellor of the Chinese Legation at Tokio. Commissioner of Foreign Affairs for Chihli. During the revolution of 1911, Wang acted as Viceroy of Chihli. Went to France, 1913. Manager, Banque Industrielle de Chine. Managing Director, Bank of China, July, 1917 to Mar. 1918. Minister of Finance, Nov. 1917. He then retired to private life although he received occasional commissions from the Government. Again became Managing Director, Bank of China June 2, 1922. Resigned Oct. 6, 1923. Appointed Minister of Finance, July 1923, but refused post. Again appointed to the same office, Nov. 1923 and Jan. 12, 1924, being Minister of Finance in the Kao Ling-wei and Sun Pao-chi Cabinets respectively. Was given concurrent post as Chief of Salt Administration, Jan. 24, 1924. Again Minister of Finance in Sept. 15, 1924. Res. Peking. Retired and for some time proscribed, after coup of Oct. 1924. — p. 1208
+
+**WANG KENG, (王賡) alias I-TANG, (王揖唐)** —Preferred English name, Wang I-tang. Anhwei. Born 1879. Chinshih. Japan-educated. Secretary to the President. General in the Army. Governor of Kirin, 1915. For some time in 1916, was Minister of Interior in Tuan Chi-jui's Cabinet. Speaker of the House of Representatives, 1918. Northern delegate to Shanghai. Peace Conference, 1919-20. Met downfall with Anfu Club in 1920. Tupan of Anhwei 1925. — p. 1208
+
+**WANG, KING-KY** see Wang Ching-chi. — p. 1208
+
+**WANG KUANG-CHI, (王廣圻)** —Kiangsi. Born 1878. Graduated from Peking Language School and a College in America. Attaché to the Chinese Legation at St. Petersburg, and formerly private secretary to Lu Cheng-hsiang, while he represented China in Holland and St. Petersburg. Councillor in the Ministry of Foreign Affairs. Was once Secretary to the Cabinet. Minister to Belgium, December 29, 1912. Minister Plenipotentiary in Italy, 1915. Minister to Netherlands, 1920 to the present. Delegate to the Assembly of the League of Nations, 1925. — p. 1208
+
+**WANG KUO-PANG, (王固磐) alias CHING NAN, (靜庵)** —Preferred English name G. P. Wang. Native of Tientsin, Chihli. Graduated from Peiyang Police Academy. Graduated from the College of Police, Berlin, attached to the Health Department and General Business Dept. Kiangsu Provincial Police office. Superintendent in Hsiakuan Police office, Nanking. Secretary and Inspector in Kiangsu Provincial Police Service. Superintendent in the Police office of Chahar. Superintendent of Kiangsu Provincial garrison. Commissioned to take part in International Police Service Conference, and elected honorary Chairman of the same. Commissioned to investigate police services in American and European countries. Commissioned to take part in International Police Service Conference at Vienna. 1924 Commissioner of Police of Woosung and Shanghai. 1925 Retired. Decorations. Medal by the Ministry of the Interior, 3rd class Chiaho and 2nd class Wenhu. — p. 1208
+
+**WANG LAI-CHI, (王賚祺) alias YU CHOU, (予周)** —Shaohing, Chekiang. Born 1885. LL.D. University of Brussels, Belgium. Student-secretary to the Chinese Legation, Austria, 1909. Secretary to the same Legation, recalled to the Ministry of Foreign Affairs, 1917. Third secretary, Chinese Legation, Paris, France, 1919. Second secretary, in charge of Chinese Legations in Sweden and Norway, 1922. First secretary, in charge of Chinese Legations in Sweden and Finland, 1923. Appointed in the same year by the Chief Executive as private secretary to the Ministry of Foreign Affairs, 1925. Third class Chiaho de- coration. Wearer of Ordre de la Rose Blanche (Finland), Ordre de Vasa (Sweden) Chevalier de Legion d'honeur and Ordre de l'Instruction Publique (France) Address: Private Secretary's Office, Ministry of Foreign Affairs, Peking. — p. 1208
+
+**Wang Lei, (王耒)** —Chekiang. Born 1880. Educated in a Law School in Japan. Judge, Higher Court in Yunnan, Taoyin in Fengtien. Secretary to the Cabinet Office. Head of the Law Compilation Bureau, Aug. 1920 to Mar. 1923 ,Vice-Minister of Interior, 1925. Was appointed Chief Secretary to the Cabinet,. Nov., 1922. Author of "T'iao Er River, its Control and Maintenance." Second class Tashou Chiaho decoration. — p. 1209
+
+**Wang Lin-ke, (Lingoh Wang) (王麟閣)** —Chihli. Born Dec. 16, 1880. B. A. in Political Economy. Graduated from University of North Carolina, U.S.A., Commissioner of Foreign Affairs at Chefoo, 1913. Special Commissioner of Foreign Affairs for Chihli, 1914 to 1916. Consul at Vancouver, 1917. Secretary, Chinese Legation at Washington, 1918 to 1920. Councillor, Ministry of Foreign Affairs, 1921-4. Consul-General at Manila, 1924 to present. Third class Chiaho Decoration. — p. 1209
+
+**Wang, Lingloh** see Wang Lin-ke. — p. 1209
+
+**Wang Nai-muh, (王乃模) alias Fan Ting, (範庭)** —Chekiang. Born 1889. Graduated at the War College, 1916. Chief of staff to the 11th Division. Military-secretary to the Military Governor of Honan. Chief of the Inspectorate of Army. Chief Councillor to the Director-General of the North-Western Frontier Defence and concurrently commander of Aviation Corps. At present, Director, Peking-Hankow Railway. Second class Wenhu decoration. Res. Hankow Railway Administration, Peking. — p. 1209
+
+**Wang Nai-pin, (王迺斌)** —Fengtien. Born 1870. Was a Hsiutsai in the old Confucian School. He was at first a junior secretary in the Yamen of the Viceroy of Three Eastern Provinces. Was once a Chief of Bureau for Collection of Opium-tax. Later Wang was appointed Superintendent of Native Customs at Sai Tsao Tai. Was successively Prefect of Chaoyang and of Jehol. Promoted to be Taotai of Jehol in November, 1911. He lived as a private citizen when revolution broke out in that year. General Chang Tso-lin appointed him to repatriate the tufei in Fengtien and then made him Adviser to the Civil Governor of that Province. Was Adviser to President Hsu. Was appointed Minister of Agriculture and Commerce on Aug. 11, 1920. Resigned, Dec. 23, 1921. Director-General of the Chinese Eastern Railway. Fifth Order of Merit, 2nd class Paokwang Chiaho, Wenhu and Chiaho decorations. Retired. — p. 1209
+
+**Wang P'u, (王璞)** —Peking. Born February 6, 1875. Lingson. Inventor and promoter of the Chu Yin alphabet. Professor in the Higher Normal School and Women's Higher Normal School (Peking), of the Peking University, President, Chu Yin Alphabet Training School. Author of various works on the National Pronunciation, Chu Yin Alphabet, National standard of spoken language, etc. Retired. — p. 1209
+
+**Wang Shih-chen, (王士珍)** —Chihli. Born about 1865. School mate of ex-Marshal Tuan. Minister of Army in Yuan Shih-kai's Cabinet. General. Senior Director of the Generalissimo's Office. Chief of General Staff, 1916. Premier, December, 1917; resigned, February 20, 1918. Appointed Inspector-General of Kiangsu, Anhwei and Kiangsi provinces, 1921, but did not proceed. Chief of the College of Marshals. Member of the Reorganisation Conference. Chairman, Military Rehabilitation Commission, 1925. Committee of Safety, 1926. Peking. First class Wenhu decoration. — p. 1209
+
+**WANG SHIH-T'UNG, (王式通) alias SHU-HUNG, (書衡)** —Shansi. Ancestral place : Shaohing, Chekiang. Born 1866. Chinshih, 1898. An old scholar of Government School, Peking. Vice-minister of Justice both in Tsing Dynasty and Republic of China. Acting Minister of Justice. Director of Tseng Shih T'ang, (bureau of political affairs) Co-director of the National Conservancy Bureau. Private secretary and adviser to the Cabinet. Adviser to the president. Compiler of Bureau of History in Tsing Dynasty. Delegate of Sino-Japanese Cultural Commission. Arthor of "An Inspection of Japanese Schools" 2nd class Tashou Chiaho, 2nd class Wenhu Chiaho decorations. Res. Peking. — p. 1210
+
+**WANG SHIH-YUAN, (汪士元)** —Anhwei. Chinshih. Taotai of Tientsin. Was Salt Commissioner for Chihli, Secretary to Governors of Chihli and of Honan. Commissioner of Finance for Chihli, Vice-Minister of Finance. Appointed Director-General of Tobacco and Wine Bureau, Dec. 9, 1921. Retired. Res. Tientsin. — p. 1210
+
+**WANG TA-HSIEH, (汪大燮)** —Chekiang. Born about 1860. Secretary, Waiwupu, September, 1903. Minister to Great Britain, September, 1905. Vice-President, Waiwupu, November, 1906. Special Commissioner to study the British Constitution, 1908. Vice-President, Ministry of Communications, August, 1908. Chinese Minister to Japan, May, 1910. Minister of Education, September 11, 1913. Appointed Minister for Foreign Affairs in Tuan Chi-jui's Cabinet, July, 1917. Appointed Chief, Administrative Court, June 15, 1922. Was Acting Premier for ten days in Dec., 1922. Appointed President of Chinese Red Cross, Aug. 17, 1922. Chief of Ping Cheng Yuan 1925. 1925, Chairman of the Foreign Relations Committee. Second order of Merit. — p. 1210
+
+**WANG TANG, (王棠) alias CHAO NAN, (召南)** —Preferred English name, Wong Tong. Native of Heungshan, Kwangtung. Manager of Leemin Shinkuo Weaving Co. Hwayang Weaving Co. Kwanghwa Hospital, Hongkong. On Board Directors of Heung-on Insurance Co. and Y.M.C.A. Principal of Tahuan Grammar School. Commissioner of Finance, Kwangtung. Managing-Director of Canton-Hankow Railway. At present, Head of Financial Dept., Canton. Party : Kuomintang. — p. 1210
+
+**WANG T'ING-CHANG, (Ouang Ting-tchang 王廷蔭子琦)** —Native of Chekiang. Born in Canton, 1884. Studied in Peking, Paris and Liége. Returned to China in 1910 and was awarded the doctor's degree (Chin Shih) at the examination of returned students in Peking. Chief of Section of the Protocol Department, Ministry of Foreign Affairs, 1912. French Secretary to President Yuan Shih-kai, 1913, and concurrently Secretary of the Ministry for Foreign Affairs. Appointed First Secretary and Chargé d'Affaires to Mexico, then transferred as Consul-General to San Francisco, 1917, but was retained in the Ministry as member of the Paris Peace Conference Preparatory Commission. Appointed Minister Plenipotentiary elect, 1920. French Secretary to His Excellency Chu Ch'i-ch'ien's special mission to France to receive the honorary doctor's degree for ex-President Hsu Shih-ch'ang 1921. Acting Director of the Protocol Department, Ministry of Foreign Affairs, 1922. Councillor of the same Ministry, 1923. Made Director of the Protocol Department, Ministry of Foreign Affairs, May 1924. Appointed Minister to Portugal, February 4; 1926. Is the recipient of numerous Chinese and foreign decorations, including 2nd class Wenhu, 2nd class Chiaho, Commander of the Legion of Honour (France), Grand Officier of the Crown of Belgium, Commander of the Order of St. Maurice (Italy), Grand Officer of the Order of Suipao (Japan), Military Cross of Portugal, etc., etc. Director of the Protocol Department, Special Conference on the Chinese Customs, and Adviser to the Chinese Commission for the Investigation of Extraterritoriality. — p. 1210
+
+**WANG T'ING-CHEN. (王廷槙)** —Tientsin. Born 1876. Educated in the Peiyang Military Academy. Sent to Japan in 1889. Graduated from the Officers' Training School, Japan, March 1902. Second Tutung, Mongolian Bordered White Banner, August, 1912. Officer, President's Body Guard, September 10, 1912. Garrison Commissioner for Tientsin, 1913, for Nanking, 1914. Vice-Inspecting Commissioner of the Yangtze Valley, September, 1917. Commander, of 16th Divison, 1917. General in the Army, October 10, 1919. Tutung of Chahar and Commander of the 16th Division since January 1, 1920. Author of lecture notes on military science and tactics. First class Tashou Chiaho, Wenhu, Tashou Paokwang Chiaho decorations. Wearer of a Medal from the French Government. Third Order of Merit. — p. 1211
+
+**WANG, W. P** see Wang Wen-pao. — p. 1211
+
+**WANG WEN-HSIEN, (王文顯) alias LI SHAN, (力山)** —Preferred English name J. Wong-Quincey. Kiangsu. Born 1887. Studied in Peiyang University 1903-1906; University of London 1908-1913. B.A. (Honours) 1913. Member of the Chinese Financial Commission to Europe 1914. Professor of English, Tsing Hua College, Peking, 1915. Became its Dean 1915-1921, and Acting President in 1921; Acting Vice-President 1922. Founder and editor of the Chinese Review, London. Author of The World War from the Chinese Standpoint Shanghai, 1915, and Educational Guide to the United States, Commercial Press. Shanghai. 1921. Address: Tsing Hua College, Peking. — p. 1211
+
+**WANG WEN-PAO. (王文豹) alias SHAO-CHIEN, (紹堅)** —Preferred English name W. P. Wang. Changsha, Hunan. Born 1875. An old scholar. Took courses of constabulary, law and jail superintendence at the University of Tokyo, Japan. During the Ching Dynasty, filled many minor constabulary positions until 1912, when he was appointed secretary to Police Department, Ministry of Interior. Chief Secretary to Ministry of Justice, 1914. Director of Jail Supervision Department, Ministry of Justice and acting Vice-Minister of Justice, 1924. 2nd class Tashou Chiaho, 3rd class Paokwang Chiaho decorations. Res. Peking. — p. 1211
+
+**WANG WEN-WEI, (王文蔚)** —Chekiang. Born 1880. Educated in a Missionary School at Shanghai, and a Graduate of the College of Languages, Shanghai. Engaged as a clerk in the American Postal Agency at Shanghai for eleven years. When the Revolution broke out was made Sectional Chief of the Postal Department at Hangchow. When the Provisional Government was at Nanking he was a Sectional Chief in the Postal Department of the Ministry of Communications. Appointed Delegate of Communications to Peking by Chekiang Province, and became Chief of the Postal Department of the Ministry of Communications, on the 12th of May, 1912. Director-General of Posts, 1925. Received the 4th Class Chiaho from the President. Kuomintang. — p. 1211
+
+**WANG, YATES** see Wang Yi-chih. — p. 1211
+
+**WANG YI-CHIH, (王一之)** —Preferred English name Yates Wang. Native of Hangchow, Chekiang. Born at Soochow, 1887. Graduated from George Washington University, 1912-1913. Editor of Chinese Newspapers. 1913 July. Professor of the National Medical College, Peking, and also professor of Chinese literature of Kuomin University, Peking. 1919 Aug. Secretary to Chinese Legation to Brazil. 1920 Dec.-1921 Secretary to Chinese Legation to Austria. At present 3rd Secretary of Chinese Legation to Austria, Author of "The United States as seen by a Chinese." — p. 1211
+
+**WANG YU-CHIH, (王毓芝) alias LAN-TING, (蘭亭)** —Tsining,, Shantung. Born 1878 Chujen. In pre-Republican days was attached to Tsao Kun's Secretariat. Secretary to Tsao Kun at Paoting, 1916. Secretary to Chihli Civil Governor, 1917. Assistant Director, Currency Bureau, 1920. Director-General, Wine and Tobacco Administration, Aug. 1922. Chief Secretary to President, October, 1923. Retired. Fifth Order of Merit, and 2nd class Tashou Chiaho decoration. — p. 1211
+
+**WANG YUN-WU, (王雲五) alias TSI ZAI, (之瑞) JUR LU, (鬲厝)** Preferred English name Y. W. Wong. Kwangtung. Born in Shanghai 1888. Self-tuition. Professor of history, Chinese Public School 1909-1911. Technical Department, Ministry of Education and at the same time, Editor of Ming Chu Pao, Peking, 1913. Translator, National Petroleum Mining Office and expert, technical department, and professor of politics, Peking University, 1916. From Autumn, 1916 to 1917 was special commissioner of Anti-Opium Commission of Kiangsu, Kwangtung and Kiangsi. Since then has compiled many books until Oct. 1921 was invited to take up editor-in-chief, Commercial Press. Author of many books. Res. Shanghai. — p. 1212
+
+**WANG YUNG-CHIANG, (王永江)** Fengtien. Finance Commissioner of Fengtien. Appointed Civil Governor of Fengtien, June 18, 1922-1926. Retired. — p. 1212
+
+**WEI CH'EN-TSU, (魏宸耜)** Hupeh. Studied in France. Vice-Minister of Foreign Affairs in the Nanking Provisional Government. Chief Secretary of the Cabinet, May, 1912. Retired July, 1912. Minister to Holland, November 24, 1912. Delegate to the Paris Peace Conference. Minister of Belgium. Minister to Germany, 1922-5. — p. 1212
+
+**WEI, SYDNEY KOK** see Wei Kuo. — p. 1212
+
+**WEI KUO, ([illegible])** Preferred English name: Sidney Kok Wei, B.A., Oberlin College, 1918; Ph.D., University of Chicago, 1920; Instructor in Philosophy and Government, 1921-23; Assistant Professor, 1923; Lecturer on Philosophy and Psychology, Kwangtung Higher Normal School, 1921-22; Secretary to the Ministry of Foreign Affairs, Constitutional Government in Canton. 1922; Associate Commissioner of Education for Kwangtung, 1922-1923; Acting Commissioner of Education for Kwangtung, 1923. — p. 1212
+
+**WEN, S. T** see Wen Shih-tsen. — p. 1212
+
+**WEN SHI-LIN, (温世霖)** Chihli. Born 1869. Member of Parliament. Exiled by Dowager Empress to Turkestan. Old Kuomintang. Leader of a faction in Parliament. First class Tashou Paokwang Chiaohu decoration. — p. 1212
+
+**WEN SHIH-TSEN, (温世珍) alias PEI SHAN, (佩珊)** Preferred English name S. T. Wen: Tientsin, Chihli. Born 1877. Graduated of Peiyang Navy College, 1898. Translator to the Viceroy of Kwangtung and Kwangsi. Translator and secretary to the Viceroy of Kiangsu and Chekiang. Commissioner of Foreign Affairs at Nanking and Chekiang. Superintendent of Customs at Nanking 1919-1924. Commissioner of Foreign Affairs and Superintendent of Customs at Shanghai 1925. Delegate to Washington Conference. Old Kuomintang. Second class Chiaho, third class Paokwang Chiaho and third class Wenhu decorations. Permanent address: 87 Rue Massenet, Shanghai. — p. 1212
+
+**WEN TSUNG-YAO, (溫宗堯)** Kwangtung. Educated in Queen's College, Hongkong. Secretary to Canton Viceroy, 1903-8. Assistant Resident in Tibet, June, 1908. Played a very conspicuous part in the Revolution, in particular being mainly responsible for the foreign propaganda of the revolutionaries. In co-operation with Wu Ting-fang, and acting in complete understanding with the Wuchang leaders, he directed the issue of the Republican manifestoes and other pronouncements and endeavoured by every possible device to prevent foreign loans to the Imperial Government. On the establishment of the Republic he became Commissioner of Trade and Foreign Affairs in Shanghai, a post which he resigned in April. He was subsequently offered the position of Chinese Resident in Tibet, but declined to accept it. Joined the Canton Military Government, and was appointed Minister of Foreign Affairs, April 8, 1920. Elected Administrative director by the Parliament—Canton, 1920. Appointed Chief Peace delegate for the South June 6, 1920. Retired. Res. Shanghai. — p. 1212
+
+**Wong, Quincey J** see Wang Wen-hsien. — p. 1213
+
+**Wong, Tong** see Wang Tang. — p. 1213
+
+**Wong, Y. W** see Wong Yun-wu. — p. 1213
+
+**Woo, M. Y** see Wu Meng-lan. — p. 1213
+
+**Woo, N. T** see Wu Nai-chen. — p. 1213
+
+**Woo, Tseching, P. K** see Wu Pei-kuang. — p. 1213
+
+**Woo, Y. L** see Wu Yu-lin. — p. 1213
+
+**Wood, G. Zay** see Ho Chieh-tsai. — p. 1213
+
+**Wu Ai-chen, (吳藹宸) alias Ai Chen, (藹宸)** —Fukien. Born 1891. B.A. National University, Peking, 1913. Special Commissioner to America. Private secretary to the Ministry of Interior. Private secretary and industry adviser to the Inspector-General of Chihli, Shantung and Honan. Director of Hankow Customs and Commissioner for Foreign Affairs at Hankow. Director of the Special Administration District, Hankow to April, 1925. Now is Adviser for Foreign Affairs in the office of Military Governor of Hupeh. Decoration: 3rd class Chiaho Address. c/o Chinese Shin Nieh Bank, Hankow. — p. 1213
+
+**Wu Chao-chu, (伍朝樞) alias Ti Yuen, (梯雲)** —Preferred English name Chao-chu Wu. Kwangtung. Born 1886. Son of Wu Ting-fang. A Graduate of Atlantic City High School, U.S.A.; University of London; Lincoln's Inn, London; Barrister-at-Law; LL.B.; Awarded Studentship at Bar Examinations, 1911; Awarded Moiety of Scholarship at LL.B. Examination by University of London, 1911. Commissioner for Foreign Affairs for Hupeh, 1912; Chairman, Treaty Commission of Foreign Affairs, 1912; Reprnsentative of Kwangtung, 1913; Member of Constitution-Drafting Committee, 1913; Kuomintang. An originator of the Minhsientang. Author of pamphlets entitled an Appeal for Recognition, and on China's Position in Tibet. Councillor of the State Department and Ministry for Foreign Affairs, 1915. Joint Examiner. with King Pang-ping, and American and Japanese advisers, of students graduated abroad. Was Vice-Minister of Foreign Affairs in the Canton Government. 1919 Appointed by the Peking Government one of the Plenipotentiary Delegates at Washington Conference but declined; Secretary for Foreign Affairs in Dr. Sun Yat-sen's Government 1923. On the establishment of the Nationalist Government at Canton, 1925, one of the commissioners of that Government and a member of the Military council; concurrently chief commissioner for Canton Municipality. Retired. 2nd class Chiaho decoration. Res 29, Gordon Road, Shanghai. — p. 1213
+
+***Wu Ching-lien, (吳景濂)** —Fengtien. Studied in Japan. Was Chairman of the Fengtien Provincial Assembly. Represented his province in the National Council, of which he was Chairman. A member of the Tung-yi-kung-ho-tang. Member of the Chung Yi Yuan. Elected Speaker of the House of Representatives, June, 1917, prior to Li Yuan Hung's dissolution of Parliament. President of the Canton Parliament, 1918. Speaker of House of Representatives, 1922. Res. Tientsin. — p. 1213
+
+**Wu Ching-yung, (吳經熊)** —Preferred English name John C. H. Wu. Ningpo, Chekiang: Born March 28, 1899, LL.B. The Comparative Law School of China, 1920: J. D. Michigan, 1921. Carnegie Fellow in International Law at Paris University, 1921-1922: Carnegie Fellow in International Law at Berlin University, 1922-1923: Research Fellow at Harvard University, 1923-1924: Professor of Law at the Comparative Law School of China from 1924: Professor of Philosophy at the National Institute of Self-Government from 1924. Present position, Professor, Law Department, Soochow University. Author of Articles: "Juristic Philosophy of Mr. Justice Holmes" "The Juristic Philosophy of Roscoe Pound". "Stammler and His Critics" "The Juristic Philosophy of Judge Cardozo" "The Legal Theories of James Wilson", etc. No Party or clique: Permanent address: 11 Quinsan Road, Shanghai. — p. 1213
+
+**WU CHUN-SHENG, (吳俊陞)** —Shantung. Born 1863. Defence Commissioner of T'iao-nan, Fengtien. Lieutenant-General. Commander of the 29th Army Division. Appointed Tuchun of Heilungkiang, 1921. Transferred to Fengtien, May 10, 1922. At present Tuchun of Heilungkiang Second order of Merit. First class Tashou Chiaho decoration. First order of Merit. — p. 1214
+
+**WU JEN-LI. (吳紉禮) alias PAI TZU, (佩之)** —Preferred English name Z. L. Wu. Anhwei. Born 1875. Graduated in the Naval School, Weihaiwei, 1894 and after expiration of his two years' training term on man-of-war, he was an expectant vice-admiral. Was captain of Fuchi and Haichi in charge of artillery, 1897 and in 1902 was transferred as Director to Peiyang Army Schools. 1907, was secretary to the Navy. 1911, was chief of Arms Department, Ministry of Navy, Counsellor to the Commander of Anti-Rebel force, and Adviser to the Chihli Army. In 1925, vice-minister in charge of the Ministry of Navy. Second class Wenhu Chiaho and second class Paokwang Chiaho Decorations. Res. Ministry of Navy. Peking. — p. 1214
+
+**WU, JOHN C. H** see Wu Chin-yung. — p. 1214
+
+***WU KUAN-HSIN, (吳光新)** —Anhwei. Graduate of Japanese Military Officers Training School. Commander-in-Chief of Upper Yangtze Valley. In 1920, when the Anfu-Chihli struggle arose, Wu attempted to capture Wuchang in order to enlarge the Anfu force, but was detected and arrested by General Wang Chan-yuan, and imprisoned at Wuchang. Released in Aug. 1921 when General Wang was compelled to flee to Tientsin. Amount of ransom reported to have been paid for his release was $200,000. Minister of War. 1925. Res. Peking. — p. 1214
+
+**WU LIEN-TEH, (伍連德) alias HSIN LIEN. (星聯)** —Native of Taishan, Kwangtung. Born 1880. Studied at Cambridge, England, (B.A., M.B., B.C., M.D.,) France, Germany, Physician and Surgeon. Director and Chief Medical Officer, North Manchuria Plague Prevention Service. Twice Delegate to International Opium Conference, The Hague. Hon. L.L.D., Hongkong Doctor of Science, St. John's University. Fellow and member of Learned Societies in Europe. Author of books on Plague and other Medical subjects. President of the National Medical Association. Physician to the President's Household. Superintendent doctor of Harbin Disease Hospital. 2nd class Packwang, Chiaho decorations. Address: Disease Hospital, Harbin. — p. 1214
+
+**WU MENG-LAN, (吳夢蘭) alias TZE CHOW, (芷洲)** —Preferred English name M. Y. Woo. Native of Tientsin, Chihli. Graduated from Peiyang Naval School Appointed to go to Europe for the investigation of Commerce. Auditor in the Head Office of the Bank of China. Chief Auditor in Chung Hsing Coal Mining Co. Head of Shanghai and Paoshan Land Office. Head of business department at Pukow of Tientsin-Pukow Railway. 1924, Manager of Shanghai-Nanking Railway and Shanghai-Hangchow-Ningpo Railway. 1925, Retired. 4th class Chiaho decoration. — p. 1214
+
+***WU NAI-CH'EN, (N. T. Woo), (吳乃琛)** —Chekiang. Born 1882. Studied in Nanyang College, Shanghai, and University of California and University of Wisconsin, U.S.A. Ph.D. Co-Director, National Bureau of Currency Reform. 1910-11. Delegate to Currency Conference at London, 1911. Law-Compiler, Ministry of Communications, 1910-11. Dean, College of Commerce, Peking Government University, 1912. Lecturer on Economics, Statistics, Money and Banking in Peking Government University and Law and Political Science College, Peking, 1910-17. Vice-Governor, Bank of China, 1913. Delegate of the National Political Conference, Peking, 1914. Secretary, Councillor, Direc- tor of Bureau of Currency and Banking, Ministry of Finance, 1912-20. Hon. Adviser to the National Bureau of Currency Reform, 1920. Retired. Now in business. Author of Money and Banking, Statistics. Second class Tashou Chiaho decoration. — p. 1214
+
+**WU, PAUYIEN** see Wu Pao-hsien. — p. 1215
+
+**WU PAO-HSIEN, (吴葆諟) alias HO PU, (和甫)** —Preferred English name Pauyien Wu. Native of Sungkiang, Kiangsu. Graduated from Sungkiang Anglo-Chinese school. 1906 Secretary to Chinese Legation in England. 1907 Chief Affairs Clerk in Ministry of Foreign Affairs. 1914 2nd Secretary at the Chinese Legation, England. 1921 Director in the General Affairs Dept. of the Chinese delegation to the Washington Conference. 1922 Assistant superintendent for the Board of Intercourse. 1924 and at present Secretary to the General Department in the Ministry of Foreign Affairs. Assistant Director of the Protocol Department—Customs Conference. 2nd class Chiaho Decoration. — p. 1215
+
+***WU PEI-FU, (吴佩孚)** —Shantung. Born 1873. Obtained his degree of Hsiu-tsai (B.A.) at the age of 21. Graduated with honour from the Kai Ping Military Academy, near Tientsin, 1898. After a brief service under late General Nieh Shih-cheng, entered a military school of which Marshal Tuan Chi-jui was Director. After graduation, General Wu joined the Third Army Division, of which General Tsao Kun was then Commander. Was promoted to battalion commander. Participated bravely in the military campaigns in Shansi, Szechwan and Honan, since the Republic. Awarded Fuwei Chiang-chun. Became Commander of the Sixth Brigade of the Third Division, early 1916. When General Tsao Kun was made Military Governor of Chihli, Wu was instructed to act for him as Commander of the Third Division. Participated in the fight against General Chang Hsun's Monarchical movement, summer, 1917. His Division was sent to recapture Yochow and Changsha from the South in the spring of 1918. General Wu was successful as these two cities were retaken by the Third Division. The return of his troops from Hunan to Chihli in the Summer of 1920, was opposed by Marshal Tuan, resulting in the armed conflict responsible for the downfall of the Anfu Club. Appointed Vice-Inspecting-General of Chihli, Shantung and Honan, 1920. Inspector-General of Hupeh and Hunan, 1921. Defeated the Fengtien invasion of Chihli in the Spring of 1922. Appointed Minister of War, June 12, 1922, but did not accept. First class Tashou Paokwang Chiaho decoration. Made Fu Wei Shang Chiang Chun, Jan. 1, 1923. Succeeded Tsao Kun as Inspector-General of Chihli Shantung and Honan when Tsao became President of the Republic in Oct. 1923. Defeated in Chihli-Fengtien War, 1924. Retired to Yochow. Commander-in-Chief of the Allied Armies 1925-6. — p. 1215
+
+**WU PEI-KUANG, (吴佩沆)** —Preferred English name Tsechiing P. K. Woo. Chekiang. Born August 5, 1872. Studied at the Peiyang Naval College for eight years, graduated 1897 and studied in America. Has been in engineering service of railway construction for five years. Was Principal and English. Professor in various government schools in Chihli and Honan. On formation of the Republic was appointed secretary to the Ministry of Foreign Affairs, Nanking. Bureau Chief, Ministry of Foreign Affairs 1912-18. Consul-general in Panama, 1919-21. Commissioner for the negotiation on question of return of Weihaiwei to China, September 1922. Councillor, Ministry of Foreign Affairs, March 1923. Consul in Vladivostok 1923. Second Class Tashou Chiaho decoration. — p. 1215
+
+**WU TING-CHANG, (吴鼎昌)** —Szechwan. Director-General of Ta Ching Bank and Bank of China. Adviser to the Ministry of Industry and Commerce. Director-General of Tientsin Mint and the Central Mint, Peking. Appointed Vice-Minister of Finance, 1920. Associate Delegate of the Peking Government to negotiate peace with the South at Shanghai, in 1919. President of the Salt Bank, 1925. Res. Peking. — p. 1215
+
+**Wu, Z. L** see Wu Jen-li. — p. 1216
+
+**WU YU-LIN, (Y. L. Woo), (吳毓麟)** —Chihli. Born 1875. Admiral. Graduated from the Peiyang Naval College of which he was a teacher after graduation. Department Chief of the Ministry of Navy. Appointed Director-General of Taku Naval Dockyard and of Peiyang Iron Works, Tientsin. Managing-Director, Tientsin-Pukow Railway. Minister of Communications, Jan. 1923. Again Minister of Communications, Sept. 15, 1924. Second class Wenhu, second class Paokwang Chiaho, second class Tashou Chiaho decorations. First class Tashou-Paokwang-Chiaho. Merit of the 5th order. Retired. — p. 1216
+
+**YANG I-TEH, (楊以德) alias CHING LIN, (敬林)** —Tientsin, Chihli. Born 1871. Was a petty employee of the Peking-Mukden line, member of the Tientsin detective force, etc., before he eventually became Police Taotai for Chihli in the Ching dynasty. Was head of Chihli police force until 1924. Brigadier General 1923. 1924 Civil Governor of Chihli. 5th order of merit, second class Wenhu, Chiaho, First class Tashou Chiaho, Tashou Paokwang Chiaho decorations. Retired. — p. 1216
+
+**YANG PAO-LING, (楊豹靈)** —Kiangsu. Born 1887. Studied in Anglo-Chinese Colleges of Shanghai and Soochow. After leaving school, Yang was teacher to several schools in Chinkiang and Changchow. When Viceroy Tuan Fang was in Nanking, he passed his official examination successfully by which he was sent to United States as a government student. Attended Cornell University and Purdue University and got the degree of C.E. from the latter. Returned to China in 1911. During the outbreak of revolution at Wuchang, he participated in the Red Cross work and acted as a war correspondent of the China Press. Appointed by the President Li Yuan-hung as Commissioner for Foreign Affairs at Wuchang. Was Dean of Civil Engineering Department of the Institute of Technology, Changsha. Departmental Chief of the National Conservancy Bureau of which Chang Chien was the Director-General. As a technical expert, Yang devoted his services to surveying the Huai River and the Grand Canal and in the Flood Relief Work of 1917 in Chihli. Member of the Commission for the Improvement of the River System of Chihli, since 1917. Vice-President, Chinese American Engineers' Association, Co-Director, Tientsin Telegraph Administration, May 1922. Third class Paokwang Chiaho decoration. Res. Tientsin. — p. 1216
+
+**YANG YU-TING, (楊宇霆) alias LING KA, (鄭嘉)** —Fengtien. Born 1885. Graduate of a Military School in Japan. Chief of Staff to the Military Governor of Fengtien, 1916; Chief councillor to the Commander of the Defence Troops for the Three Eastern Provinces, 1922 and concurrently director-general of the Mukden Arsenal. Tupan of Kiangsu, 1925 but escaped during the Chekiang-Fengtien war in Autumn. Now Chief of Staff to Marshal Chang Tso-lin. — p. 1216
+
+**YANG YUNG-CHING, (楊永濟)** —M.A. L.L.B. George Washington University, Washington, D.C., U.S.A. Attaché, Chinese Legation, London 1919-21. Secretary, Chinese Delegation to the First Assembly of the League of Nations 1920. Secretary to the Chinese Delegation to the Washington Conference 1921-22. Acting Secretary of the Ministry of Foreign Affairs 1923. Secretary and Chief of the Bureau of Investigation of the Commission for the Readjustment of Finance. Assistant Director of the Department of Conference Affairs of the Special Conference on Chinese Customs Tariff. Appointed Chinese Consul-General at London, January, 1926. — p. 1216
+
+**YAO, CHENG** see Yao Chen. — p. 1216
+
+**YAO CHEN, (姚震) alias TZU TZU. (次之)** —Preferred English name Yao Cheng. Anhwei. Born 1872. Graduate of School of Law, Waseda University, Japan. Assistant Judge in the Supreme Court and special Commissioner, Law Revision Department in Ching Dynasty. 1911, Chief Judge in the Supreme Court. Military Adviser to the late President Yuan Shih-kai, 1913. Compiler, Law Compilation Department, President of Law Training Institute, 1914. President of the Supreme Court, 1918. Chief of the Law Compilation Department but resigned in 1925. First class Tashou Chiaho and first class Wenhu decorations. Res. Shi-i-tao Hutung, Tung Sze Pailou, Peking. — p. 1216
+
+**YE YOUNG** see Chen Ju-yuen. — p. 1217
+
+**YEH KO-LIANG, (葉可樑) alias HSIAO HO, (肖鶴).—** Preferred English name Koliang Yeh. Native of Minghou, Fukien. Born in Nanking, Kiangsu, 1881. 1908-1909 B.A.S., M.A.S. Cornell University, U.S.A. 1910-1911 Chief instructor of Agricultural Dept. National University, Peking. 1911-13 Secretary in Ministry of Foreign Affairs. 1914-19 2nd secretary to the Chinese Legation in U.S.A. 1919-22 Consul General to Vancouver. At present, Consul General to San Francisco, U.S.A., date of appointment Feb. 1922. Decoration: 5th class Chiaho, 3rd class Wenhu. — p. 1217
+
+**YEH KUNG-CH'O, (葉恭綽) alias YU FU, (玉甫).—** Kwangtung. Born in Peking, November 24, 1881. Studied in Imperial University of Peking. Was Chief of Railway Department, Ministry of Communications and Vice-Minister of the same Ministry. After being a teacher in various schools in Hupeh, he joined the Ministry of Communications and was one of the officials who planned to get back the control of the Peking-Hankow Railway from the foreigners. Appointed Councillor to negotiate between the North and the South. A delegate to prepare for the organization of the Provincial Government. Was a member of the Finance Committee; Vice-Chairman of the Railway Association; Chairman, Commission on Technical Terms of the Railways; Commission on Unification of Railway Accounting System. Vice-Minister of Communications, July 3, 1913 to 1915. Vice-Minister of Finance, 1917. Reappointed Vice-Minister of Communications. Resigned October, 1918. Commissioner to study Industry and Communications to Europe. Appointed Minister of Communications, August 11, 1920. Resigned, May 1921. Special Commissioner for Promotion of Industries of which office he was relieved Jan. 5, 1922. Reappointed Minister of Communications, Dec. 25, 1921. Cashiered of all decorations and merit, May May 5, 1922, when Chang Tso-lin was defeated by the Chihli party. Fled to Japan. Reappointed Minister of Communications 1924. Delegate to the Tariff Conference 1925. Author of "Communications in China During the Past Fifty Years" "To Save the Country by Improving Communications". Second class Chiaho, Tashou Paokwang Chiaho, First class Wenhu decorations. Wearer of Medals from Belgium, Japan, Denmark, and Italy. Retired. Res. Peking. — p. 1217
+
+**YEN HUI-CH'ING, (顏惠慶).—** Preferred English name W. W. Yen. Shanghai. Born 1877. Had early education in local schools. Studied in the Episcopal High School, Virginia, U.S.A., 1895-7 winning therefrom Gold Medal for English Composition and debating. Studied in the academic and law departments of the University of Viriginia, receiving degree of B.A. and law diploma. Member of the Phi Beta Kappa Society. Professor of English, St. John's University, Shanghai, 1900-1906. Chinshih, Hanlin. One of the founders and honorary secretary of the World's Chinese Students' Federation, Shanghai. Member of various Educational and Social organizations. LL.D., Peking, 1906. Secretary to the Chinese Legation at Washington, 1908-10. Was recalled to Peking to organize the press Bureau, becoming its director. Junior Councillor, Ministry of Foreign Affairs, 1911. After various promotions, was appointed Vice-Minister of Foreign Affairs, April, 1912. Minister to Germany and Denmark, 1913, 1918-1920. Plenipotentiary to the Opium Conference at The Hague, May 26, 1913. Appointed Minister of Foreign Affairs, August 11, 1920. Appointed Acting Premier, Dec. 18, 1921, upon resignation of Chin Yun-peng. Reappointed Acting Premier, June 11, 1922, when Li Yuan-hung re-assumed the Presidency, but resigned four weeks later. Chairman, Commission for the Readjustment of Finance, 1923. Chairman, Red Cross Society, April 1924 and Minister of Agriculture and Commerce, Jan.-Sept. 1924. Prime Minister with the Portfolio of Interior, Sept. 1924. Member of the Commission to investigate the Shanghai May 30 Affair, 1925. Minister to Court of St. James. Delegate to the Tariff Conference, 1925. Trustee of the China Foundation for the Promotion of Education and Culture, 1925. Committee of Safety, 1926; Premier, and Acting Minister of Foreign Affairs, 1926. Resigned, June 23, 1926. Author of Anglo-Chinese Dictionary, Translation of Political Economy (Walker), Manual of Translation. 2nd class Order of Merit. 1st class Chiaho and Wenhu and Portuguese, French and Peruvian decoration. Res. Peking. — p. 1217
+
+**YEN HE-LING, (Hawkling L. Yen), (嚴鶴齡) alias CHU-CHIN, (侶秦)** —Yu-yao, Chekiang. Born 1880. Studied in tht St. John's University, Shanghai, 1896-1903. Graduated therefrom with diploma, 1903; A.B., 1907. Instructor, St. John's University, 1903-6. Teacher, Fuh Tan College, Woosung, 1907-8. Editor, St. John's Echo, 1901-3. Studied political science at Columbia University, U.S.A., 1909-11. A.M., 1909; Ph.D., 1911. Member, Ministry of Foreign Affairs. 1911-12. Commissioner of Foreign Affairs, Chekiang, 1912-13. Secretary, Ministry of Foreign Affairs, 1913-16. Director-in-charge, Tsing Hua College. Formerly member of Constitution-Study Commission. Member, Peace Conference Preparation Commission. Technical Delegate to the Paris Peace Conference. Member, Office of the Cabinet in 1916. Councillor, Ministry of Foreign Affairs. Chief Secretary to the Chinese Delegation, Washington Conference, 1921. Director of Special Customs Tariff Conference 1923. Member of Commission for Readjustment of National Finance, 1923. Vice-Minister for Agriculture and Commerce, 1924. Secretary General of the Customs Conference. Secretary of the Opium Section in the Secretariat of the League of Nations 1919-1921. Author of "A Survey of the Constitutional Development in China." Managing Editor, Chinese Social and Political Science Review. Second class Paokwang Chiaho and Wenhu Decorations. Second class Grand Officer of Italy. Second class Grand Officier of George. — p. 1218
+
+**YEN HSI-SHAN, (閻錫山)** —Shansi. Born 1882. A Graduate of a Military Staff School in Japan. Lieutenant-General with the brevet rank of General of the Army, and Tutuh of Shansi. In Japan he joined the Tung Meng Hui, and after returning from that country he was appointed Director of the Military School and Chief of the 86th Regiment. When the Revolution broke out, he took up the revolutionary cause, and was elected Tutuh of Shansi. He led an army and occupied Koupei and district. Was the first to propose that the troops should be disbanded in order to curtail expenses, and he himself disbanded more than 30,000 troops in his Province. When the rebellion in the South broke out he was a strong supporter of the Central Government. Tuchun of Shansi since 1916. Concurrently Civil Governor of Shansi. Non-partisan. Author of "The Discipline of the Revolutionary Army." Known as the "Model Tuchun." — p. 1218
+
+***YEN TE CHING, (顏德慶)** —Shanghai. Born Oct. 1878. Graduated from Tung Wen Kuan. St. Xavier's School, Shanghai, and University of Virginia and Lehigh University, U.S.A. with C.E. Upon return to China, was connected with the Canton-Hankow and Shanghai-Nanking Railways as well as the Imperial Railway Administration. 1905-1909, district engineer in chief of Nankow Pass, Peking-Kalgan Railway. 1906, awarded degree of "Chin-shih" (doctor) by imperial edict, government examinations. 1909-1911, assistant chief engineer, Szechwan Railway. 1912, director of railway department, Nanking Provisional Government. 1912-1921, managing director and associate director-general, Canton-Hankow and Szechwan-Hankow Railways. 1919, represented China at the Inter-Allied Technical Board. 1921, Technical expert to the Washington Conference. 1922, Councillor and Director, Technical Department, Ministry of Communications. 1922-1925, Commissioner, Sino-Japanese Conference on Shantung Affairs; Chairman, Valuation Commission, Shantung Railway; Chairman, Commission on Transfer, Shantung Railway. 1923, chairman, Commission on International Communications. Adviser to the Sino-Russian Conference and technical expert to the Customs Tariff Conference. 1922-1924, President, Chinese Institute of Engineers. 1921-1923, President, Association of Chinese and American Engineers. 1926-1927, President, Peking Rotary Club and American College Club of North China. Decorations: First Class Tashou Chiaho; Second Class Paokwang Chiaho; Second Class Wenhu; Second Class Order of the Rising Sun. — p. 1218
+
+**YEN, W. W** see Yen Huei Ch'ing. 言敎遺 — p. 1219
+
+**YI PAI-CHI, (易培基) alias YIN TSUN, (寅村)** Changsha, Hunan. Graduated from Hupeh Language School, B.A. Acting President, Ministry of Education, Kwangtung government. Minister of Education, 1926 President of the Girls' Normal School. 1st class Tashou Chiaho decoration. — p. 1219
+
+**YIN KUNG-WU, (殷公武)** Preferred English name Frank Ying. Native of Pingyang, Chekiang. Born 1894. 1910 graduated from the Military Primary School, Chekiang, entered the Military Middle School Nanking. 1921 graduated from the Education Economics Dept. of Tokio University, and received the degree of B.S. 1921 leader of the Students Army Association of Hanyang, Hupeh. 1923 Secretary in Ministry of Education also professor at Peking National Law University. 1924 Secretary and assistant councillor in Ministry of Communications. — p. 1219
+
+**YING, FRANK** see Yin Kung-wu. — p. 1219
+
+**YIN SZE-LIEN, (邢士廉) alias NU SHAN, (隗三)** Mukden. Born 1885. Graduated in Shinbu Gakuk Military School, Japan, 1908 and 1909, entered a military academy for another three years' higher military course. Has filled many military positions in Manchuria. Commander of the Second Section of army of the Rehabilitation Commissioner of Kiangsu and Anhwei, and of the army for the bandit suppression of Kiangsu, Anhwei and Shantung. Chief commander of Martial Law of Shanghai and Woosung, 1925. Retired. Third class Wenhu, Fourth class Chiaho, first class Golden Medal decorations. — p. 1219
+
+**YO, TSAO-YEU** see Yueh Chao-i. — p. 1219
+
+**YU, DE DJUEN** see Yu Teh-tsun. — p. 1219
+
+**YU JEN-FENG, (俞人鳳)** Chihli. Born 1873. Graduated from the Railway Department of the Pei Yang Military Academy. Has been Engineer of the Peking-Mukden, Peking-Kalgan, Canton-Hankow railroads. Since the Republic, Yu was connected with the Ministry of Communications and was appointed Assistant Managing-Director of the Tientsin-Pukow Railway. Managing-Director, Peking-Hankow Railway, 1920. Acting Director-General of Chinese Eastern Railway. Second class Wenhu, Third class Chiaho and Second Class Tashou Chiaho. Residence Harbin. — p. 1219
+
+**YU JIH-CHANG, (余日章)** Preferred English name David Z. T. Yui. Hupeh. Studied in Wenhua College, Wuchang, and St. John's College, Shanghai. Teacher at Wenhua College for some time. Studied in America and got the degree of M.A. Member of several well-known Societies in America. Delegate for Foreign Affairs of President Li Yuan-hung. General Secretary of the National Committee of the Chinese Y.M.C.A. up to date. Sent by Shanghai people to the Washington Conference as the "People's Delegate," Nov. 1921. Author of "Lectures on Education," "Yunnan Travels" and other books — p. 1219
+
+**YU TEH-TSUN, (于德濬) alias HSIN CHUAN, (心泉)** —Preferred English name Yu De Djuen. Native of Haiyang, Shantung. Graduated from London University. 1900 March, Secretary to Chinese Legation to London. 1921 Sept. Secretary of Chinese Delegation to Washington Conference At present head of the Intercourse Dept. in Ministry of Foreign Affairs. 2nd Class Chiaho, 3rd Class Paokwang Chiaho and 4th Class Wenhu decorations. — p. 1220
+
+**YU YA-CHING, (虞冶卿) alias HO-TEH, (和德)** .—Ningpo. Sixty years of age. Prominent Shanghai Merchant. President, Chinese General Chamber of Commerce, Managing Director San Peh Steamship Co. Associate-Governor of Shanghai Woosung Administrative District, 1925; President, Chinees Ratepayers' Association, Shanghai, 1926. — p. 1220
+
+**YUAN CHIA-PU, (袁家普) alias HSUEH-AN, (雪安)** .—Native of Liling, Honan. Born 1874. 1910 graduated from Waseda University, Japan. Professor of Law College, Fengtien. 1913 Dean and Acting President of Kuomin University, Peking. 1914 Commissioner of Taxes on Trade and commissioner of Finance, Yunnan. 1916-1917 Commissioner of Finance, Honan 1917 Sept.-Oct. Acting Civil Governor of Honan. Chief official of Hwa Yang Relief Society and its representative in Peking. 1922, Commissioner to the China International Famine Relief Commission. 1924 Nov. 1st Secretary in Ministry of Education. Political party: Kuomintang. Medals: 2nd Tashou Chiaho. — p. 1220
+
+**YUAN HSI-T'AO, (袁希濤)** .—Kiangsu. Born 1865. A Graduate of the Shanghai Lungmen College, and was appointed to proceed to Japan to investigate educational affairs. Chujen of the late Dynasty. Was two years a member of the Educational Committee of his native town; three years a member of the Shanghai City Municipal Council; two years a member of the Kiangsu Educational Society; and three years a Sectional Chief of the Chihli Educational Society. In the fifth month of the first year of the Republic was appointed Chief of the Department of General Education. Has for years devoted himself to educational affairs. Vice-Minister of Education, 1915. Non-partisan. Res. Shanghai. — p. 1220
+
+**YUAN K'E-TING, (袁克定)** .—Honan. Eldest son of President Yuan Shih-kai. Expectant Taotai, employed upon special service in Manchuria, 1906. Junior Secretary of Board of Commerce, April, 1907. Sustained a serious accident while in Honan, in the spring of 1911, as the result of a fall from a horse. Went to Germany in 1913 for medical treatment. Director-General of the Kailan Mining Administration. Retired 1925. Res. Tientsin. — p. 1220
+
+**YUAN, S. D** see Yuen Shang-cha. — p. 1220
+
+**YUAN TUNG-LI, (袁同禮) alias SHOU HO, (宇和)** .—Native of Hsushuai, Chihli. Born 1895. B.A., B.L.S. Graduated from the National University, Peking; Columbia University, New York City. New York State Library School, Albany, N. Y. Studied at the University College, University of London, London; at the Sorbonne; and at the Ecole des Chartes, Paris. Librarian of Congress, Washington. Director of Libraries, National University of Kwangtung, Canton. Professor of Bibliography and Director of Libraries, National University of Peking, Peking. Member of the Administrative Council, Palace Museum, Peking, and Vice-Director of the Museum Library. Librarian, National Library, Peking. Member, Bibliographical Society, London; Oxford Bibliographical Society, etc. Founder and Executive Secretary, Library Association of China. — p. 1220
+
+**YUEH CHAO-I, (岳昭燠)** .—Preferred English name: Yo Tsao-yeu. Kashing, Chekiang. Born 1879. In Oct. 1920, was appointed Counsellor to the Military of Foreign Affairs; May, 1924, was appointed Minister Plenipotentiary to Mexico, which post he still holds. In Oct., sent in the Special Commission to Peru with the rank of Special Ambassador to assist at the Centenary Celebration of the battle of Ayaucho. Second class Tashou Chiaho and second class Paokwang Chiaho. Wearer of the following foreign decorations. Commander de la Legion d'Honneur (France); Grand Officier de l'Ordre de la Couronne d'Italie (Italy); Officier de l'Ordre de Leopold (Belgium); Commander de l'Ordre de St. Stanislas (Russia); Grand Officier de l'Ordre Royal de Georges Ier. (Greece) Chevalier de l'Ordre du Danebrog (Denmark); Officier de l'Ordre de la Couronne de Fer (Austria); Chevalier de l'Ordre de St. Olaf (Norway); Chevalier de 1ere class de l'Ordre de la Couronne Royale (Germany); Chevalier de 1ere classe de l'Ordre Royal de Wasa (Sweden). Address: Chinese Legation, Mexico. — p. 1220
+
+**YUI, DAVID Z. T** see Yu Jih-chang. — p. 1221
+
+**YUEN SHANG-CHA, (阮尚介) alias CHA VAN, (介蕃)** —Preferred English name S. D. Yuan. Kiangsu. Born 1914. Graduated in Germany with degree of Dr. of Medicine, 1914. In 1915 Adviser to the Ministry of War and teacher of Peking University, Peking. Resigned both positions in 1917. From April, 1917, has been president of Dong Chi University. Address. Shan Kuan Tang, Fengsien, Kiangsu. — p. 1221
+
+**YIN HUNG-TSUN, (任鸿隽) alias SHU YUNG, (叔永)** —Preferred English Name: Zen Hung-chiung. Native of P'a District, Szechwan. Born 1886. B. A. Cornell University 1916 and M. A. Columbia University 1917. Secretary in Presidential Office of the Provisional Government, 1911. Secretary in Cabinet 1911. Chief-Secretary in the Ministry of Education, October 1921-1922. President of the Science Society of China, 1914-1923. Vice-President and Professor of Southeastern University, Jan., 1924. Wrote a number of articles in the Science Magazine. Translated: Spencer's Essay on Education. Address: The Science Society of China, Nanking. — p. 1221
+
+***YEH TSUNG-KU'EI, (易宗夔)** —Hunan. Born 1875. Studied in Japan. A member of the Chung Yi Yuan, representing Mongolia, and a Member of the Constitution-Drafting Committee. One of the representatives sent by the provinces to request the opening of a Parliament. Was a member of the late Tzu Cheng Yuan, and was prominent in the impeachment of Prince Ching. Was connected with the Revolution started by Tang Chai-tsang. On the failure of Kang Yu-wei's reform scheme he retired into seclusion and wrote several volumes on the subject of Reforms, until the time when schools were started everywhere, when he took up teaching. While in Japan he edited a revolutionary periodical. Kuomintang. Author of "Huang Hai Lou Essays and Poetry." Unseated by Presidential Order of November 4, 1913. Re-elected member of Representatives 1917. Chief of Law Compilation Bureau 1925. Second class Tashou, Chiaho and Wenhu decorations. — p. 1221
+
+**ZAU, S. U. OR SIH UNG ZAU** see Chao Hsieh-en. — p. 1221
+
+**ZEN, HUNG-CHIUNG** see Yin Hung-tsun. — p. 1221
