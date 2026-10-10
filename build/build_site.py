@@ -1360,7 +1360,18 @@ try{if(localStorage.getItem("stat-notes")==="1")anSet(true)}catch(e){}
 """
 
 
-TEMPLATE = TEMPLATE.replace("/*__ANNOT_JS__*/", ANNOT_JS)
+# Notes (annotate.js) is switched off for now (user, 2026-10-10): no button, no loader; set True to bring it back.
+NOTES_ENABLED = False
+ANNOT_OFF_JS = "function anSync(){}function anSet(){}function anLink(){anGo(null)}"
+
+
+def notes_layer(tpl):
+    if NOTES_ENABLED:
+        return tpl.replace("/*__ANNOT_JS__*/", ANNOT_JS)
+    return re.sub(r'<button id="annot"[^>]*>Notes</button>', "", tpl).replace("/*__ANNOT_JS__*/", ANNOT_OFF_JS)
+
+
+TEMPLATE = notes_layer(TEMPLATE)
 
 def dir_key(f):
     mp = re.match(r"p(\d)-(\d+)", os.path.basename(f))
@@ -1633,7 +1644,7 @@ addEventListener("hashchange",()=>{const h=decodeURIComponent(location.hash.slic
 """
 
 
-DIRTEMPLATE = DIRTEMPLATE.replace("/*__ANNOT_JS__*/", ANNOT_JS)
+DIRTEMPLATE = notes_layer(DIRTEMPLATE)
 
 
 SEARCH = r"""<!DOCTYPE html>

@@ -96,7 +96,7 @@ dialog{max-width:min(560px,calc(100vw - 32px));border:1px solid var(--line);bord
 <body>
 <header><a href="../../" style="text-decoration:none;font-size:14px">← All books</a><h1>The China Year Book 1925-6</h1>
 <span class="meta">635 tables · 57,410 cells · LLM-transcribed · <a href="../../data/china-1925-6.json" style="color:inherit">JSON</a> · <a href="../../downloads/china-1925-6-tables.xlsx" style="color:inherit" download>Excel</a></span>
-<a class="dirbtn" href="directory.html">Directories</a><button class="aboutbtn" onclick="document.getElementById('about').showModal()">About</button><dialog id="about" onclick="if(event.target===this)this.close()"><h3>The China Year Book 1925-6</h3><div class="pub">H. G. W. Woodhead (ed.), 1925</div><p>Only tables, columnar lists and directory entries are transcribed; prose, chronologies, treaty and law texts, advertisements, the contents and the index are not. Pages with tables and directories were found from contact sheets by Claude Sonnet 5.5, so small tables set into the prose may be missing. Each page was read once by Claude Haiku 5.5 from full-resolution crops and not checked by eye; unreadable figures are marked, and printed totals that do not add up are noted and kept as read. Tables continued over pages were joined where the column headings match. The Who&#x27;s Who and directories are on the Who&#x27;s Who &amp; Directories page.</p><form method="dialog"><button>Close</button></form></dialog><button id="annot" class="anbtn" aria-pressed="false" title="Private notes: highlight and comment on tables. Saved only in this browser.">Notes</button><button id="toggle" title="Toggle light/dark">◐</button></header>
+<a class="dirbtn" href="directory.html">Directories</a><button class="aboutbtn" onclick="document.getElementById('about').showModal()">About</button><dialog id="about" onclick="if(event.target===this)this.close()"><h3>The China Year Book 1925-6</h3><div class="pub">H. G. W. Woodhead (ed.), 1925</div><p>Only tables, columnar lists and directory entries are transcribed; prose, chronologies, treaty and law texts, advertisements, the contents and the index are not. Pages with tables and directories were found from contact sheets by Claude Sonnet 5.5, so small tables set into the prose may be missing. Each page was read once by Claude Haiku 5.5 from full-resolution crops and not checked by eye; unreadable figures are marked, and printed totals that do not add up are noted and kept as read. Tables continued over pages were joined where the column headings match. The Who&#x27;s Who and directories are on the Who&#x27;s Who &amp; Directories page.</p><form method="dialog"><button>Close</button></form></dialog><button id="toggle" title="Toggle light/dark">◐</button></header>
 <div id="wrap">
 <nav id="side"><div class="ctl">
 <input id="q" type="search" placeholder="Search titles, headings, cells…">
@@ -265,44 +265,7 @@ $("#toggle").onclick=()=>{const r=document.documentElement,d=r.dataset.theme==="
 function anView(){return mode==="one"?cur||"":mode==="chapter"?"ch="+$("#ch").value:""}
 function anGo(v){history.replaceState(null,"",location.pathname+(v?"#"+v:""));route()}
 const AN_AREA="#main",AN_NOTE="anything you want to check or remember. Select text to highlight it, or drop a pin, and add a comment. Notes belong to the view you make them in (one table, or a whole chapter) and are kept only in this browser; Download saves a copy you can keep or send.";
-// Private notes (annotate.js v1.4.0, MIT, ../../annotate.js): loaded only after the reader turns Notes on.
-// Notes stay in this browser's localStorage, under one key per view (anView(), defined by each page); anGo(view) opens a view.
-let AN_ON=false,AN_LOAD=null,AN_FOCUS=null;const AN_PROJ="stat-tables";
-function anDark(){const r=document.documentElement;return r.dataset.theme?r.dataset.theme==="dark":matchMedia("(prefers-color-scheme: dark)").matches}
-function anCfg(open){const d=anDark();return {project:AN_PROJ,page:location.pathname+"#"+anView(),theme:d?"dark":"light",accent:d?"#8cc49e":"#1f4a2c",startOpen:open,
- note:AN_NOTE}}
-function anOpen(){let off=false;try{off=localStorage.getItem("an-off")==="1"}catch(e){}return !off}
-function anSync(force){const A=window.Annotate;if(!AN_ON||!A||!A.config)return;if(!force&&A.config.page===location.pathname+"#"+anView())return;
- const l=document.getElementById("__an_launch");A.init(anCfg(!(l&&l.classList.contains("an-show"))))}
-function anLoad(){if(window.Annotate){window.Annotate.init(anCfg(anOpen()));return Promise.resolve()}
- return AN_LOAD||(AN_LOAD=new Promise((ok,no)=>{window.AnnotateConfig=anCfg(anOpen());const s=document.createElement("script");s.src="../../annotate.js";s.onload=()=>{anSync(true);if(AN_FOCUS){const f=AN_FOCUS;AN_FOCUS=null;setTimeout(()=>window.Annotate.focus(f),400)}ok()};s.onerror=()=>{AN_LOAD=null;no()};document.head.appendChild(s)}))}
-function anSet(on,user){AN_ON=on;try{if(on)localStorage.setItem("stat-notes","1");else localStorage.removeItem("stat-notes");if(user&&on)localStorage.removeItem("an-off")}catch(e){}
- document.body.classList.toggle("notes-on",on);const b=$("#annot");b.setAttribute("aria-pressed",String(on));b.textContent=on?"Notes ✓":"Notes";
- if(on)anLoad().catch(()=>{AN_ON=false;b.setAttribute("aria-pressed","false");b.textContent="Notes"});else if(window.Annotate)window.Annotate.destroy()}
-function anLink(id){let v=null;try{const d=JSON.parse(localStorage.getItem("annotate:"+AN_PROJ)||"{}");const c=(d.comments||[]).find(x=>x&&x.id===id);
-  if(c&&typeof c.page==="string"&&c.page.includes("#"))v=c.page.slice(c.page.indexOf("#")+1)}catch(e){}
- anGo(v);if(v===null)return;
- if(window.Annotate&&AN_ON)setTimeout(()=>window.Annotate.focus(id),400);else AN_FOCUS=id}
-$("#annot").onclick=()=>anSet(!AN_ON,true);
-// annotate.js 1.4.0 cancels an open comment on any pointerdown outside it, including the "your name" dialog it shows
-// before the first comment is saved; keep that pointerdown from reaching its handler so the first comment is not lost.
-document.addEventListener("pointerdown",e=>{if(e.target.closest&&e.target.closest("#__an_namewrap"))e.stopPropagation()},true);
-// annotate.js finds a highlight's surrounding text only when the selection starts in a text node; a selection that starts
-// or ends on an element (a whole cell, a triple-click) would be anchored to the first matching text on the page, often
-// in the table list. Move such ends into the first/last selected text node before annotate.js reads the selection.
-document.addEventListener("pointerup",()=>{if(!AN_ON)return;const g=getSelection();if(!g||g.isCollapsed||!g.rangeCount)return;
- const r=g.getRangeAt(0);if(r.startContainer.nodeType===3&&r.endContainer.nodeType===3)return;
- const root=r.commonAncestorContainer,w=document.createTreeWalker(root.nodeType===3?root.parentNode:root,NodeFilter.SHOW_TEXT,{acceptNode:n=>r.intersectsNode(n)&&n.nodeValue.trim()?1:3});
- let a=null,b=null,n;while((n=w.nextNode())){if(!a)a=n;b=n}if(!a)return;
- const r2=r.cloneRange();if(r.startContainer.nodeType!==3)r2.setStart(a,0);if(r.endContainer.nodeType!==3)r2.setEnd(b,b.nodeValue.length);
- g.removeAllRanges();g.addRange(r2)},true);
-// Touch screens: a long-press selection usually ends in pointercancel, not the pointerup annotate.js waits for,
-// so with the Highlight tool on, open the comment box once the selection has settled.
-let anSelT=0;document.addEventListener("selectionchange",()=>{clearTimeout(anSelT);if(!AN_ON||!matchMedia("(pointer:coarse)").matches)return;
- anSelT=setTimeout(()=>{const s=getSelection();if(!s||s.isCollapsed||!document.querySelector('#__an_bar .an-btn[data-tool="highlight"].an-on'))return;
-  const n=s.anchorNode&&(s.anchorNode.nodeType===1?s.anchorNode:s.anchorNode.parentElement);if(!n||!n.closest(AN_AREA)||document.querySelector("#__an_compose.an-show"))return;
-  n.dispatchEvent(new PointerEvent("pointerup",{bubbles:true,pointerType:"touch"}))},700)});
-
+function anSync(){}function anSet(){}function anLink(){anGo(null)}
 renderList();route();
 try{if(localStorage.getItem("stat-notes")==="1")anSet(true)}catch(e){}
 </script>
