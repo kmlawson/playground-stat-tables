@@ -949,9 +949,25 @@ def main():
                 fh.write(doc)
     with open(os.path.join(HERE, "index.html"), "w", encoding="utf-8") as fh:
         fh.write(landing(cards))
-    books = [{"slug": b["slug"], "title": b["title"], "dir": bool(b.get("_dir_n")), "chron": bool(b.get("_chron_n"))} for b, n, c, ch in cards if n]
+    books = [{"slug": b["slug"], "title": b["title"], "dir": bool(b.get("_dir_n")), "chron": bool(b.get("_chron_n")),
+              "g": group_of(b), "y": years_of(b)} for b, n, c, ch in cards if n]
     with open(os.path.join(HERE, "search.html"), "w", encoding="utf-8") as fh:
         fh.write(SEARCH.replace("__BOOKS__", json.dumps(books, ensure_ascii=False)))
+
+
+def group_of(b):
+    """Home-page section of a book: japan, china, korea, taiwan, manchuria or other."""
+    return b.get("group") or next((g for g in ("japan", "china", "korea", "taiwan") if b["slug"].startswith(g)), "manchuria" if b["slug"].startswith("manch") else "other")
+
+
+def years_of(b):
+    """First and last year an edition covers, from the year in its title (1926-7 -> 1926, 1927); None if no year."""
+    m = re.search(r"(\d{4})(?:\s*[-–]\s*(\d{1,4}))?", b["title"])
+    if not m:
+        return None, None
+    y1, tail = int(m.group(1)), m.group(2)
+    y2 = int(str(y1)[:4 - len(tail)] + tail) if tail else y1
+    return y1, max(y1, y2)
 
 
 def landing(cards):
@@ -968,7 +984,7 @@ def landing(cards):
             stat += f' · <b>{b["_chron_n"]:,}</b> chronology events'
             link += f' <a class="go dirgo" href="book/{b["slug"]}/chronology.html">Chronologies →</a>'
         item = f' · <a href="{b["item"]}">original scan</a>' if b.get("item") else ""
-        grp = b.get("group") or next((g for g in ("japan", "china", "korea", "taiwan") if b["slug"].startswith(g)), "manchuria" if b["slug"].startswith("manch") else "other")
+        grp = group_of(b)
         title = f'<a href="book/{b["slug"]}/" style="color:inherit;text-decoration:none">{html.escape(b["title"])}</a>' if n else html.escape(b["title"])
         items.append((grp, b["slug"], f"""<article data-t="{html.escape(b["title"])}"><h2>{title}</h2><div class="pub">{html.escape(b["publisher"])}</div>
 <div class="stat">{stat}</div><div class="src">LLM-transcribed{item}</div><div class="links">{link}</div></article>"""))
@@ -1664,6 +1680,16 @@ main{max-width:1000px;margin:0 auto;padding:18px 16px 60px}
 .box{background:var(--panel);border:1px solid var(--line);border-top:3px solid var(--accent);padding:14px;display:flex;gap:10px;flex-wrap:wrap}
 input,select{font:inherit;font-size:16px;padding:8px 10px;border:1px solid var(--line);background:var(--bg);color:var(--ink);border-radius:4px}
 #q{flex:1 1 320px}#scope{flex:0 0 auto}
+.filters{display:flex;gap:10px 16px;flex-wrap:wrap;align-items:center;width:100%;font-size:14px;color:var(--muted);border-top:1px solid var(--line);padding-top:10px}
+.filters select,.filters input{font-size:14px;padding:5px 8px}
+.filters input[type=number]{width:6.2em}
+.filters label{display:inline-flex;gap:6px;align-items:center}
+.filters .yrs{display:inline-flex;gap:6px;align-items:center}
+#reset{font:inherit;font-size:13px;background:none;border:0;color:var(--accent);text-decoration:underline;cursor:pointer;padding:0}
+.pager{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin:10px 0;font-size:13.5px;color:var(--muted)}
+.pager button{font:inherit;font-size:13.5px;padding:4px 10px;border:1px solid var(--line);background:var(--panel);color:var(--ink);border-radius:4px;cursor:pointer}
+.pager button[disabled]{opacity:.4;cursor:default}
+.pager button.on{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
 #status{color:var(--muted);font-size:13px;margin:12px 0 10px}
 .kind{font-size:17px;margin:26px 0 4px;color:var(--accent);border-bottom:2px solid var(--accent);padding-bottom:3px}
 .bk{font-size:13px;letter-spacing:.06em;text-transform:uppercase;color:var(--accent);margin:18px 0 6px;border-bottom:1px solid var(--line);padding-bottom:3px}
@@ -1681,7 +1707,13 @@ mark{background:var(--mark);color:inherit}
 <div class="box"><input id="q" type="search" placeholder="e.g. rice, Dairen, cotton exports, Mitsui, Kato…" autofocus>
 <select id="scope" aria-label="Search in">
 <option value="all">Everything</option><option value="t">Tables only</option><option value="w">Who's Who only</option>
-<option value="d">All directories</option><option value="c">Chronologies only</option></select></div>
+<option value="d">All directories</option><option value="c">Chronologies only</option></select>
+<div class="filters">
+<label>Region <select id="reg" aria-label="Region"><option value="">All</option><option value="japan">Japan</option><option value="china">China</option><option value="korea">Korea</option><option value="taiwan">Taiwan</option><option value="manchuria">Manchuria</option><option value="other">Other</option></select></label>
+<span class="yrs">Years <input id="y1" type="number" inputmode="numeric" min="1890" max="1960" placeholder="from" aria-label="From year"> – <input id="y2" type="number" inputmode="numeric" min="1890" max="1960" placeholder="to" aria-label="To year"></span>
+<label><input type="checkbox" id="titles"> Titles and names only</label>
+<button id="reset" type="button" hidden>Clear filters</button>
+</div></div>
 <div id="status"></div><div id="out"></div>
 <div class="llmwarn" role="note"><b>Warning:</b> These tables were transcribed by the vision models of Opus 5.5, Sonnet 5.5, or Haiku 5.5 (named on each book's page). Before using any of these figures, you must verify specific statistics with the original source which is linked to whenever possible.</div>
 </main>
@@ -1697,40 +1729,60 @@ let TB=null,DR=null,CH=null;
 async function loadTables(){if(TB)return TB;$("#status").textContent="Loading tables…";
  TB=(await Promise.all(BOOKS.map(b=>fetch("data/"+b.slug+".json").then(r=>r.json()).then(ts=>ts.map(t=>{
   const rows=(t.parts||[]).flatMap(p=>p.rows||[]);
-  return {b,t,rows,head:norm([t.title,t.table_no,t.chapter,t.caption_extra].join(" ")),all:norm([t.title,t.table_no,t.chapter,t.caption_extra,t.context,...(t.parts||[]).flatMap(p=>[p.label,...(p.columns||[])]),...rows.map(r=>r.join(" ")),...(t.footnotes||[])].join(" \n "))}}))))).flat();return TB}
+  return {b,t,rows,head:norm([t.title,t.table_no,t.chapter,t.caption_extra].join(" ")),tit:norm([t.title,t.table_no,t.en&&t.en.t].join(" ")),all:norm([t.title,t.table_no,t.chapter,t.caption_extra,t.context,...(t.parts||[]).flatMap(p=>[p.label,...(p.columns||[])]),...rows.map(r=>r.join(" ")),...(t.footnotes||[])].join(" \n "))}}))))).flat();return TB}
 async function loadList(kind,flag){$("#status").textContent="Loading "+(kind==="directory"?"directories":"chronologies")+"…";
- return (await Promise.all(BOOKS.filter(b=>b[flag]).map(b=>fetch("data/"+b.slug+"-"+kind+".json").then(r=>r.json()).then(es=>es.map(e=>({b,e,n:norm(e.n),all:norm(e.n+" "+e.t+" "+e.s+" "+e.a)}))).catch(()=>[])))).flat()}
+ return (await Promise.all(BOOKS.filter(b=>b[flag]).map(b=>fetch("data/"+b.slug+"-"+kind+".json").then(r=>r.json()).then(es=>es.map(e=>({b,e,n:norm(e.n),tit:norm(e.n+" "+e.a),all:norm(e.n+" "+e.t+" "+e.s+" "+e.a)}))).catch(()=>[])))).flat()}
 async function loadDirs(){return DR||(DR=await loadList("directory","dir"))}
 async function loadChron(){return CH||(CH=await loadList("chronology","chron"))}
-const LIMIT=400;
-function tablesHTML(res,terms){const by={};res.slice(0,LIMIT).forEach(x=>(by[x.b.slug]=by[x.b.slug]||[]).push(x));let h="";
+const PAGE=100;
+let RES={},PG={t:0,d:0,c:0},LAST={};
+function bookFilter(){const g=$("#reg").value,a=parseInt($("#y1").value),z=parseInt($("#y2").value);const lo=isNaN(a)?(isNaN(z)?null:z):a,hi=isNaN(z)?(isNaN(a)?null:a):z;
+ const f=b=>(!g||b.g===g)&&(lo===null||(b.y&&b.y[0]!==null&&b.y[1]>=Math.min(lo,hi)&&b.y[0]<=Math.max(lo,hi)));return f}
+function pager(kind,n){const pages=Math.ceil(n/PAGE);if(pages<=1)return "";const p=PG[kind];
+ const nums=[...new Set([0,1,p-1,p,p+1,pages-2,pages-1].filter(x=>x>=0&&x<pages))].sort((a,b)=>a-b);let h="",last=-1;
+ nums.forEach(x=>{if(x-last>1)h+="<span>…</span>";h+=`<button data-k="${kind}" data-p="${x}" class="${x===p?"on":""}"${x===p?' aria-current="page"':""}>${x+1}</button>`;last=x});
+ return `<div class="pager"><button data-k="${kind}" data-p="${p-1}"${p?"":" disabled"}>‹ Previous</button>${h}<button data-k="${kind}" data-p="${p+1}"${p<pages-1?"":" disabled"}>Next ›</button><span>${(p*PAGE+1).toLocaleString()}–${Math.min(n,(p+1)*PAGE).toLocaleString()} of ${n.toLocaleString()}</span></div>`}
+function slice(kind){const r=RES[kind]||[];return r.slice(PG[kind]*PAGE,(PG[kind]+1)*PAGE)}
+function tablesHTML(res,terms){const by={};res.forEach(x=>(by[x.b.slug]=by[x.b.slug]||[]).push(x));let h="";
  BOOKS.forEach(b=>{const xs=by[b.slug];if(!xs)return;h+=`<div class="bk">${esc(b.title)} · ${xs.length}</div>`;
   xs.forEach(x=>{const t=x.t;const lab=(t.table_no?`Table ${t.table_no}. `:"")+(t.title||"");
    const hits=x.rows.filter(r=>terms.some(w=>norm(r.join(" ")).includes(w))).slice(0,3);
-   h+=`<div class="r"><a class="t" href="book/${b.slug}/#${encodeURIComponent(t.id)}">${hl(lab,terms)}</a><div class="m">${esc(t.chapter||"")} · p. ${esc((t.printed_pages||[]).join(", "))}${(t.scans||[])[0]&&t.scans[0].url?` · <a href="${t.scans[0].url}" target="_blank" rel="noopener">scan</a>`:""}</div>`+
+   h+=`<div class="r"><a class="t" href="book/${b.slug}/#${encodeURIComponent(t.id)}">${hl(lab,terms)}</a>${t.en&&t.en.t?`<div class="m">${hl(t.en.t,terms)}</div>`:""}<div class="m">${esc(t.chapter||"")} · p. ${esc((t.printed_pages||[]).join(", "))}${(t.scans||[])[0]&&t.scans[0].url?` · <a href="${t.scans[0].url}" target="_blank" rel="noopener">scan</a>`:""}</div>`+
     (hits.length?`<div class="snip">${hits.map(r=>`<div>${r.map(c=>hl(c,terms)).join(" · ")}</div>`).join("")}</div>`:"")+`</div>`})});return h}
-function entriesHTML(res,terms,page,q){const by={};res.slice(0,LIMIT).forEach(x=>(by[x.b.slug]=by[x.b.slug]||[]).push(x));let h="";
+function entriesHTML(res,terms,page,q){const by={};res.forEach(x=>(by[x.b.slug]=by[x.b.slug]||[]).push(x));let h="";
  BOOKS.forEach(b=>{const xs=by[b.slug];if(!xs)return;h+=`<div class="bk">${esc(b.title)} · ${xs.length} · <a href="book/${b.slug}/${page}#${new URLSearchParams({q}).toString()}">open in book</a></div>`;
   xs.forEach(({e})=>{h+=`<div class="r"><b>${hl(e.n,terms)}</b> <span class="snip">${hl(e.t,terms)}</span><div class="m">${esc(e.a)}${e.s?" — "+esc(e.s):""} · p. ${esc(e.p)}${e.u?` · <a href="${e.u}" target="_blank" rel="noopener">${esc(e.l)}</a>`:e.l?" · "+esc(e.l):""}</div></div>`})});return h}
-const match=(xs,terms)=>xs.filter(x=>terms.every(w=>x.all.includes(w)));
-const count=(n,one,many)=>`${n.toLocaleString()} ${n===1?one:many}${n>LIMIT?` (showing ${LIMIT})`:""}`;
-async function run(){const q=$("#q").value.trim(),sc=$("#scope").value;const terms=norm(q).split(/\s+/).filter(Boolean);
- try{history.replaceState(null,"",q||sc!=="all"?"#"+new URLSearchParams({q,s:sc}).toString():location.pathname)}catch(e){}
- if(!terms.length){$("#status").textContent="Type to search.";$("#out").innerHTML="";return}
- const parts=[],stat=[];
- if(sc==="all"||sc==="t"){const res=match(await loadTables(),terms);res.sort((a,b)=>terms.filter(w=>b.head.includes(w)).length-terms.filter(w=>a.head.includes(w)).length);
-  stat.push(count(res.length,"table","tables"));if(res.length)parts.push((sc==="all"?`<div class="kind">Tables</div>`:"")+tablesHTML(res,terms))}
- if(sc==="all"||sc==="d"||sc==="w"){let res=match(await loadDirs(),terms);if(sc==="w")res=res.filter(x=>WHO.test(x.e.a));
+const match=(xs,terms,key,ok)=>xs.filter(x=>ok(x.b)&&terms.every(w=>x[key].includes(w)));
+const count=(n,one,many)=>`${n.toLocaleString()} ${n===1?one:many}`;
+const KINDS={t:["Tables",""],d:["Who's Who &amp; directories","directory.html"],c:["Chronologies","chronology.html"]};
+function render(){const {terms,q,sc}=LAST;const parts=[];
+ ["t","d","c"].forEach(k=>{const r=RES[k];if(!r||!r.length)return;const body=k==="t"?tablesHTML(slice(k),terms):entriesHTML(slice(k),terms,KINDS[k][1],q);
+  parts.push(`<section id="sec-${k}">`+(sc==="all"?`<div class="kind">${KINDS[k][0]}</div>`:"")+pager(k,r.length)+body+pager(k,r.length)+`</section>`)});
+ $("#out").innerHTML=parts.join("")||"<p>No matches.</p>"}
+function state(){const o={q:$("#q").value.trim(),s:$("#scope").value};if($("#reg").value)o.r=$("#reg").value;if($("#y1").value)o.y1=$("#y1").value;if($("#y2").value)o.y2=$("#y2").value;if($("#titles").checked)o.ti="1";return o}
+async function run(){const q=$("#q").value.trim(),sc=$("#scope").value,ti=$("#titles").checked;const terms=norm(q).split(/\s+/).filter(Boolean);const ok=bookFilter();
+ const st=state();const filt=!!(st.r||st.y1||st.y2||st.ti);$("#reset").hidden=!filt;
+ try{history.replaceState(null,"",q||sc!=="all"||filt?"#"+new URLSearchParams(st).toString():location.pathname)}catch(e){}
+ const nb=BOOKS.filter(ok).length;
+ if(!terms.length){RES={};$("#status").textContent=st.r||st.y1||st.y2?`Type to search ${nb} book${nb===1?"":"s"}.`:"Type to search.";$("#out").innerHTML="";return}
+ const R={},stat=[];
+ if(sc==="all"||sc==="t"){const res=match(await loadTables(),terms,ti?"tit":"all",ok);res.sort((a,b)=>terms.filter(w=>b.head.includes(w)).length-terms.filter(w=>a.head.includes(w)).length);
+  R.t=res;stat.push(count(res.length,"table","tables"))}
+ if(sc==="all"||sc==="d"||sc==="w"){let res=match(await loadDirs(),terms,ti?"n":"all",ok);if(sc==="w")res=res.filter(x=>WHO.test(x.e.a));
   res.sort((a,b)=>terms.filter(w=>b.n.includes(w)).length-terms.filter(w=>a.n.includes(w)).length);
-  stat.push(count(res.length,sc==="w"?"Who's Who entry":"directory entry",sc==="w"?"Who's Who entries":"directory entries"));
-  if(res.length)parts.push((sc==="all"?`<div class="kind">Who's Who &amp; directories</div>`:"")+entriesHTML(res,terms,"directory.html",q))}
- if(sc==="all"||sc==="c"){const res=match(await loadChron(),terms);stat.push(count(res.length,"chronology event","chronology events"));
-  if(res.length)parts.push((sc==="all"?`<div class="kind">Chronologies</div>`:"")+entriesHTML(res,terms,"chronology.html",q))}
- if(norm($("#q").value.trim())!==norm(q)||$("#scope").value!==sc)return;
- $("#status").textContent=stat.join(" · ");$("#out").innerHTML=parts.join("")||"<p>No matches.</p>"}
+  R.d=res;stat.push(count(res.length,sc==="w"?"Who's Who entry":"directory entry",sc==="w"?"Who's Who entries":"directory entries"))}
+ if(sc==="all"||sc==="c"){const res=match(await loadChron(),terms,ti?"tit":"all",ok);R.c=res;stat.push(count(res.length,"chronology event","chronology events"))}
+ if(JSON.stringify(state())!==JSON.stringify(st))return;
+ RES=R;PG={t:0,d:0,c:0};LAST={terms,q,sc};
+ $("#status").textContent=stat.join(" · ")+(st.r||st.y1||st.y2?` in ${nb} book${nb===1?"":"s"}`:"");render()}
+$("#out").addEventListener("click",e=>{const b=e.target.closest(".pager button[data-p]");if(!b||b.disabled)return;const k=b.dataset.k;PG[k]=+b.dataset.p;render();
+ const sec=document.getElementById("sec-"+k);if(sec)sec.scrollIntoView({block:"start"})});
 let tm;$("#q").addEventListener("input",()=>{clearTimeout(tm);tm=setTimeout(run,200)});$("#scope").addEventListener("change",run);
+$("#reg").addEventListener("change",run);$("#titles").addEventListener("change",run);["y1","y2"].forEach(k=>$("#"+k).addEventListener("input",()=>{clearTimeout(tm);tm=setTimeout(run,300)}));
+$("#reset").addEventListener("click",()=>{$("#reg").value="";$("#y1").value="";$("#y2").value="";$("#titles").checked=false;run()});
 $("#toggle").addEventListener("click",()=>{const r=document.documentElement;const d=r.dataset.theme?r.dataset.theme==="dark":matchMedia("(prefers-color-scheme: dark)").matches;r.dataset.theme=d?"light":"dark"});
-try{const p=new URLSearchParams(location.hash.slice(1));$("#q").value=p.get("q")||p.get("t")||p.get("d")||"";const sc=p.get("s")||(p.get("tab")==="d"?"d":"all");if([...$("#scope").options].some(o=>o.value===sc))$("#scope").value=sc}catch(e){}
+try{const p=new URLSearchParams(location.hash.slice(1));$("#q").value=p.get("q")||p.get("t")||p.get("d")||"";const sc=p.get("s")||(p.get("tab")==="d"?"d":"all");if([...$("#scope").options].some(o=>o.value===sc))$("#scope").value=sc;
+ if([...$("#reg").options].some(o=>o.value===p.get("r")))$("#reg").value=p.get("r");if(/^\d{4}$/.test(p.get("y1")||""))$("#y1").value=p.get("y1");if(/^\d{4}$/.test(p.get("y2")||""))$("#y2").value=p.get("y2");$("#titles").checked=p.get("ti")==="1"}catch(e){}
 run();
 </script></body></html>
 """
