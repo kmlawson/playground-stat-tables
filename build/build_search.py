@@ -150,8 +150,10 @@ async def main():
     recs = list(records())
     for name, col in (("pagefind", 2), ("pagefind-titles", 3)):
         out = os.path.join(ROOT, name)
-        if os.path.isdir(out):
-            shutil.rmtree(out)
+        for _ in range(5):  # macOS can briefly report a directory as not empty while removing many files
+            if not os.path.isdir(out):
+                break
+            shutil.rmtree(out, ignore_errors=True)
         async with PagefindIndex(config=IndexConfig(force_language="en", output_path=out)) as idx:
             todo = [r for r in recs if r[col]]
             for k in range(0, len(todo), 2000):  # one request at a time is latency-bound; send them in batches
