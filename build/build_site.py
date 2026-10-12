@@ -1233,7 +1233,7 @@ const pyl=l=>ALTR?l:pyd(l).replace(/\(([^() ]+)\)$/,(m,w)=>PY[w]?`(${PY[w]})`:m)
 const HIDEIMG=__HIDEIMG__;
 const ORIG=__ORIG__;
 // link to the whole original book (Internet Archive, NDL, …) shown at the top of the contents
-const origLink=()=>ORIG?`<a class="origbtn" href="${esc(ORIG.u)}" target="_blank" rel="noopener">📖 Read the full original book on ${esc(ORIG.l)} ↗</a>`:"";
+const origLink=()=>ORIG?`<a class="origbtn" href="${esc(ORIG.u)}" target="_blank" rel="noopener">Read the full original book on ${esc(ORIG.l)} ↗</a>`:"";
 const MARKED=__MARKED__;
 const XL=__XL__;
 const CHEN=__CHEN__;

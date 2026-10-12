@@ -116,7 +116,7 @@ const pyl=l=>ALTR?l:pyd(l).replace(/\(([^() ]+)\)$/,(m,w)=>PY[w]?`(${PY[w]})`:m)
 const HIDEIMG=false;
 const ORIG={"u": "https://dl.ndl.go.jp/pid/14472133", "l": "the National Diet Library Digital Collections"};
 // link to the whole original book (Internet Archive, NDL, …) shown at the top of the contents
-const origLink=()=>ORIG?`<a class="origbtn" href="${esc(ORIG.u)}" target="_blank" rel="noopener">📖 Read the full original book on ${esc(ORIG.l)} ↗</a>`:"";
+const origLink=()=>ORIG?`<a class="origbtn" href="${esc(ORIG.u)}" target="_blank" rel="noopener">Read the full original book on ${esc(ORIG.l)} ↗</a>`:"";
 const MARKED=true;
 const XL={"ch": {}, "tb": {}};
 const CHEN={"土地": "Land", "戶口": "Population", "敎育": "Education", "慈善團體": "Charitable Organizations", "警察及監獄": "Police and Prisons", "民刑事及裁判": "Civil and Criminal Cases and Courts", "銀行及金融": "Banking and Finance", "產業": "Industries", "貿易": "Trade", "鐵道": "Railways", "通信": "Communications", "財政": "Public Finance", "職員": "Officials"};

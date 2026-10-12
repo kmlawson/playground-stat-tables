@@ -116,7 +116,7 @@ const pyl=l=>ALTR?l:pyd(l).replace(/\(([^() ]+)\)$/,(m,w)=>PY[w]?`(${PY[w]})`:m)
 const HIDEIMG=false;
 const ORIG={"u": "https://dl.ndl.go.jp/pid/1708348", "l": "the National Diet Library Digital Collections"};
 // link to the whole original book (Internet Archive, NDL, …) shown at the top of the contents
-const origLink=()=>ORIG?`<a class="origbtn" href="${esc(ORIG.u)}" target="_blank" rel="noopener">📖 Read the full original book on ${esc(ORIG.l)} ↗</a>`:"";
+const origLink=()=>ORIG?`<a class="origbtn" href="${esc(ORIG.u)}" target="_blank" rel="noopener">Read the full original book on ${esc(ORIG.l)} ↗</a>`:"";
 const MARKED=true;
 const XL={"ch": {}, "tb": {}};
 const CHEN={"內閣": "Cabinet", "施政摘錄": "Administrative Record", "土地": "Land", "氣象": "Meteorology", "人口": "Population", "國防": "National Defence", "行政": "Administration", "財政": "Finance", "經濟": "Economy", "産業": "Industries", "交通運輸": "Transport", "遞信": "Communications", "司法": "Justice", "行刑": "Prisons", "警察": "Police", "衞生": "Public Health", "教育": "Education", "社會": "Social Affairs", "勞働": "Labour", "出版": "Publishing", "學藝": "Arts and Letters", "名勝古蹟": "Scenic Sites and Historic Remains", "體育": "Physical Education and Sport", "世界の軍備": "World Armaments", "編輯追錄": "Editorial Addenda"};
