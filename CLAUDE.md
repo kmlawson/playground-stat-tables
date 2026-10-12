@@ -71,7 +71,7 @@ This file is the authoritative process overview (updated 2026-10-07). `build/exa
 ## Site and BOOKS entry
 
 - One entry per book in `BOOKS` (`build/build_site.py`): `slug`, `dir`, `title` (simple title + year; edition
-  year, e.g. "朝鮮年鑑 1940"; add "(incomplete scan)" if large parts are missing), optional `subtitle`
+  year, e.g. "朝鮮年鑑 1940"; never "(incomplete scan)" in the title: put it in `note`, shown under the publisher on the card), optional `subtitle`
   (romanisation/edition), `publisher`, `blurb` (English overview), `source`, `gaps` (what is and isn't
   transcribed, missing pages, how checks were done), `scan` (`…/page/n{leaf}/…` for IA, `https://dl.ndl.go.jp/pid/<pid>/1/{leaf}`
   for NDL; `None` if not online), `item`, `blank_marking: True`; optional `group` to force a home-page section.

@@ -1,4 +1,4 @@
-# Japan-Manchoukuo Year Book 1940 (incomplete scan) — Who's Who & Directories
+# Japan-Manchoukuo Year Book 1940 — Who's Who & Directories
 
 23 entries, LLM-transcribed. These entries were transcribed by the vision model of Opus 5.5. Before using any of these details, you must verify specific details with the original source which is linked to whenever possible.
 
