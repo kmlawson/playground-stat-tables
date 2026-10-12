@@ -18,6 +18,11 @@ import asyncio, json, os, re, shutil, unicodedata
 from urllib.parse import quote
 from pagefind.index import PagefindIndex, IndexConfig
 import build_site as bs
+
+# Leave the machine usable while indexing (user, 2026-10-12): run at low priority and keep a few cores free.
+# The Pagefind service inherits both the niceness and the thread limit.
+os.nice(15)
+os.environ.setdefault("RAYON_NUM_THREADS", str(max(1, (os.cpu_count() or 4) - 3)))
 import inspect, textwrap
 import pagefind.service as _svc
 
@@ -156,9 +161,9 @@ async def main():
             shutil.rmtree(out, ignore_errors=True)
         async with PagefindIndex(config=IndexConfig(force_language="en", output_path=out)) as idx:
             todo = [r for r in recs if r[col]]
-            for k in range(0, len(todo), 2000):  # one request at a time is latency-bound; send them in batches
+            for k in range(0, len(todo), 500):  # one request at a time is latency-bound; send them in modest batches
                 await asyncio.gather(*(idx.add_custom_record(url=r[0], meta=r[1] if col == 2 else title_meta(r[1]), content=r[col], language="en",
-                                                             filters={f: v for f, v in r[4].items() if v}) for r in todo[k:k + 2000]))
+                                                             filters={f: v for f, v in r[4].items() if v}) for r in todo[k:k + 500]))
         # Pagefind's own UI bundles are not used by search.html
         for f in os.listdir(out):
             if f.startswith(("pagefind-ui", "pagefind-modular-ui", "pagefind-component-ui")):

@@ -102,3 +102,7 @@ This file is the authoritative process overview (updated 2026-10-07). `build/exa
   the user uploads them to the server that hosts the site (user, 2026-10-12), so the GitHub Pages copy has no
   search index. `robots.txt` and `llms.txt` ask crawlers to skip them and point to the GitHub data instead. Chinese/Japanese
   characters are indexed spaced, with folded (fold.js) copies of lines that contain variant forms.
+- **Heavy local jobs must leave the machine usable** (user, 2026-10-12): the index build runs at `nice 15` with
+  `RAYON_NUM_THREADS` = cores − 3 (set inside build_search.py); for other CPU-heavy work (ImageMagick montages and
+  crops, rendering, pdfimages over whole books) use `nice -n 15` and `MAGICK_THREAD_LIMIT` = cores − 3, and never
+  run more than one heavy local job at a time.
