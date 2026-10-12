@@ -15,3 +15,6 @@
 *.zip
 .DS_Store
 __pycache__/
+# Full Search index: built locally with build/build_search.py and uploaded to the host; not kept in git
+pagefind/
+pagefind-titles/

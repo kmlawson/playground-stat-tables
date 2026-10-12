@@ -950,7 +950,7 @@ def main():
     with open(os.path.join(HERE, "index.html"), "w", encoding="utf-8") as fh:
         fh.write(landing(cards))
     books = [{"slug": b["slug"], "title": b["title"], "dir": bool(b.get("_dir_n")), "chron": bool(b.get("_chron_n")),
-              "g": group_of(b), "y": years_of(b)} for b, n, c, ch in cards if n]
+              "g": group_of(b), "y": years_of(b), "sc": b.get("scan")} for b, n, c, ch in cards if n]
     with open(os.path.join(HERE, "search.html"), "w", encoding="utf-8") as fh:
         fh.write(SEARCH.replace("__BOOKS__", json.dumps(books, ensure_ascii=False)))
 
@@ -1724,65 +1724,87 @@ const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&g
 const norm=s=>fold(String(s??"").normalize("NFD").replace(/[̀-ͯ]/g,"").toLowerCase());
 function hl(s,terms){s=String(s??"");const n=norm(s);let marks=[];terms.forEach(t=>{let i=0;while(t&&(i=n.indexOf(t,i))>-1){marks.push([i,i+t.length]);i+=t.length}});
  if(!marks.length)return esc(s);marks.sort((a,b)=>a[0]-b[0]);let out="",pos=0;marks.forEach(([a,b])=>{if(a<pos)return;out+=esc(s.slice(pos,a))+"<mark>"+esc(s.slice(a,b))+"</mark>";pos=b});return out+esc(s.slice(pos))}
-const WHO=/who.?s who|contemporary worthies/i;
-let TB=null,DR=null,CH=null;
-async function loadTables(){if(TB)return TB;$("#status").textContent="Loading tables…";
- TB=(await Promise.all(BOOKS.map(b=>fetch("data/"+b.slug+".json").then(r=>r.json()).then(ts=>ts.map(t=>{
-  const rows=(t.parts||[]).flatMap(p=>p.rows||[]);
-  return {b,t,rows,head:norm([t.title,t.table_no,t.chapter,t.caption_extra].join(" ")),tit:norm([t.title,t.table_no,t.en&&t.en.t].join(" ")),all:norm([t.title,t.table_no,t.chapter,t.caption_extra,t.context,...(t.parts||[]).flatMap(p=>[p.label,...(p.columns||[])]),...rows.map(r=>r.join(" ")),...(t.footnotes||[])].join(" \n "))}}))))).flat();return TB}
-async function loadList(kind,flag){$("#status").textContent="Loading "+(kind==="directory"?"directories":"chronologies")+"…";
- return (await Promise.all(BOOKS.filter(b=>b[flag]).map(b=>fetch("data/"+b.slug+"-"+kind+".json").then(r=>r.json()).then(es=>es.map(e=>({b,e,n:norm(e.n),tit:norm(e.n+" "+e.a),all:norm(e.n+" "+e.t+" "+e.s+" "+e.a)}))).catch(()=>[])))).flat()}
-async function loadDirs(){return DR||(DR=await loadList("directory","dir"))}
-async function loadChron(){return CH||(CH=await loadList("chronology","chron"))}
+// Search runs on the Pagefind indexes written by build/build_search.py: pagefind/ (everything) and
+// pagefind-titles/ (table titles, entry names and chronology headings only). Only the index pieces a query
+// needs are downloaded, and only the results on the page shown.
+const PF={};
+function pagefind(ti){const d=ti?"pagefind-titles":"pagefind";return PF[d]||(PF[d]=import("./"+d+"/pagefind.js").then(async m=>{await m.options({excerptLength:40});await m.init();return m}))}
+const CJKC="[々〆぀-ヿ㐀-䶿一-鿿豈-﫿\u{20000}-\u{2fa1f}]",CJK=new RegExp(CJKC,"u"),CJKG=new RegExp(CJKC,"gu");
+// the query is prepared like the indexed text: folded, and Chinese/Japanese characters spaced and searched as a phrase
+// very common English words match most of the collection and make a search take many seconds; they are left out
+// of the query unless nothing else is left
+const STOP=new Set("a an and are as at be by for from in is it of on or that the this to was were with".split(" "));
+function pfQuery(q){let ws=norm(q).replace(/"/g," ").split(/\s+/).filter(Boolean);const kept=ws.filter(w=>!STOP.has(w));if(kept.length)ws=kept;
+ return ws.map(w=>{if(!CJK.test(w))return w;const sp=w.replace(CJKG," $& ").trim().replace(/\s+/g," ");return sp.includes(" ")?`"${sp}"`:sp}).join(" ")}
+// a single Latin letter matches a large part of the index; wait for a second letter (one CJK character is enough)
+const tooShort=q=>{const t=norm(q).replace(/"/g," ").trim();return !t||(!CJK.test(t)&&t.replace(/\s/g,"").length<2)}
+const unspace=h=>String(h||"").replace(new RegExp(`(${CJKC})((?:</?mark>)*) +(?=(?:</?mark>)*${CJKC})`,"gu"),"$1$2");
+const BK=Object.fromEntries(BOOKS.map(b=>[b.slug,b]));
 const PAGE=100;
-let RES={},PG={t:0,d:0,c:0},LAST={};
-function bookFilter(){const g=$("#reg").value,a=parseInt($("#y1").value),z=parseInt($("#y2").value);const lo=isNaN(a)?(isNaN(z)?null:z):a,hi=isNaN(z)?(isNaN(a)?null:a):z;
- const f=b=>(!g||b.g===g)&&(lo===null||(b.y&&b.y[0]!==null&&b.y[1]>=Math.min(lo,hi)&&b.y[0]<=Math.max(lo,hi)));return f}
+let RES={},PG={t:0,d:0,c:0},LAST={},RTOK=0;
+function yearRange(){const a=parseInt($("#y1").value),z=parseInt($("#y2").value);const lo=isNaN(a)?(isNaN(z)?null:z):a,hi=isNaN(z)?(isNaN(a)?null:a):z;return lo===null?[null,null]:[Math.min(lo,hi),Math.max(lo,hi)]}
+function bookFilter(){const g=$("#reg").value,[lo,hi]=yearRange();return b=>(!g||b.g===g)&&(lo===null||(b.y&&b.y[0]!==null&&b.y[1]>=lo&&b.y[0]<=hi))}
+function pfFilters(kind){const f={kind};const g=$("#reg").value;if(g)f.region=g;const [lo,hi]=yearRange();
+ if(lo!==null){const ys=[];for(let y=Math.max(lo,1850);y<=Math.min(hi,1970);y++)ys.push(String(y));f.year={any:ys.length?ys:["none"]}}return f}
 function pager(kind,n){const pages=Math.ceil(n/PAGE);if(pages<=1)return "";const p=PG[kind];
  const nums=[...new Set([0,1,p-1,p,p+1,pages-2,pages-1].filter(x=>x>=0&&x<pages))].sort((a,b)=>a-b);let h="",last=-1;
  nums.forEach(x=>{if(x-last>1)h+="<span>…</span>";h+=`<button data-k="${kind}" data-p="${x}" class="${x===p?"on":""}"${x===p?' aria-current="page"':""}>${x+1}</button>`;last=x});
  return `<div class="pager"><button data-k="${kind}" data-p="${p-1}"${p?"":" disabled"}>‹ Previous</button>${h}<button data-k="${kind}" data-p="${p+1}"${p<pages-1?"":" disabled"}>Next ›</button><span>${(p*PAGE+1).toLocaleString()}–${Math.min(n,(p+1)*PAGE).toLocaleString()} of ${n.toLocaleString()}</span></div>`}
-function slice(kind){const r=RES[kind]||[];return r.slice(PG[kind]*PAGE,(PG[kind]+1)*PAGE)}
-function tablesHTML(res,terms){const by={};res.forEach(x=>(by[x.b.slug]=by[x.b.slug]||[]).push(x));let h="";
- BOOKS.forEach(b=>{const xs=by[b.slug];if(!xs)return;h+=`<div class="bk">${esc(b.title)} · ${xs.length}</div>`;
-  xs.forEach(x=>{const t=x.t;const lab=(t.table_no?`Table ${t.table_no}. `:"")+(t.title||"");
-   const hits=x.rows.filter(r=>terms.some(w=>norm(r.join(" ")).includes(w))).slice(0,3);
-   h+=`<div class="r"><a class="t" href="book/${b.slug}/#${encodeURIComponent(t.id)}">${hl(lab,terms)}</a>${t.en&&t.en.t?`<div class="m">${hl(t.en.t,terms)}</div>`:""}<div class="m">${esc(t.chapter||"")} · p. ${esc((t.printed_pages||[]).join(", "))}${(t.scans||[])[0]&&t.scans[0].url?` · <a href="${t.scans[0].url}" target="_blank" rel="noopener">scan</a>`:""}</div>`+
-    (hits.length?`<div class="snip">${hits.map(r=>`<div>${r.map(c=>hl(c,terms)).join(" · ")}</div>`).join("")}</div>`:"")+`</div>`})});return h}
-function entriesHTML(res,terms,page,q){const by={};res.forEach(x=>(by[x.b.slug]=by[x.b.slug]||[]).push(x));let h="";
- BOOKS.forEach(b=>{const xs=by[b.slug];if(!xs)return;h+=`<div class="bk">${esc(b.title)} · ${xs.length} · <a href="book/${b.slug}/${page}#${new URLSearchParams({q}).toString()}">open in book</a></div>`;
-  xs.forEach(({e})=>{h+=`<div class="r"><b>${hl(e.n,terms)}</b> <span class="snip">${hl(e.t,terms)}</span><div class="m">${esc(e.a)}${e.s?" — "+esc(e.s):""} · p. ${esc(e.p)}${e.u?` · <a href="${e.u}" target="_blank" rel="noopener">${esc(e.l)}</a>`:e.l?" · "+esc(e.l):""}</div></div>`})});return h}
-const match=(xs,terms,key,ok)=>xs.filter(x=>ok(x.b)&&terms.every(w=>x[key].includes(w)));
+const href=d=>String(d.url||"").replace(/^\/+/,"");
+const slugOf=d=>(href(d).match(/^book\/([^/]+)\//)||[])[1]||"";
+// printed pages and scan leaves are stored shifted into the Private Use Area so that searches do not match them
+const unhide=s=>[...String(s||"")].map(c=>String.fromCodePoint(c.codePointAt(0)-0xF0000)).join("");
+function scanUrl(d){const b=BK[slugOf(d)];if(!b||!b.sc||d.meta.n===undefined)return "";const n=unhide(d.meta.n);return b.sc.includes("{leaf}")?b.sc.replace("{leaf}",n):b.sc}
+function groupBy(ds){const by=new Map();ds.forEach(d=>{const s=slugOf(d);if(!d._shown){d._shown=1;d.meta.p=unhide(d.meta.p);d.meta.u=scanUrl(d)}if(!by.has(s))by.set(s,[]);by.get(s).push(d)});return by}
+function tablesHTML(ds,terms){let h="";groupBy(ds).forEach((xs,s)=>{const b=BK[s]||{title:s};h+=`<div class="bk">${esc(b.title)} · ${xs.length}</div>`;
+  xs.forEach(d=>{const m=d.meta;h+=`<div class="r"><a class="t" href="${esc(href(d))}">${hl(m.title,terms)}</a>${m.e?`<div class="m">${hl(m.e,terms)}</div>`:""}<div class="m">${esc(m.c||"")}${m.p?(m.c?" · ":"")+"p. "+esc(m.p):""}${m.u?` · <a href="${esc(m.u)}" target="_blank" rel="noopener">scan</a>`:""}</div>`+
+   snip(d,terms)+`</div>`})});return h}
+// snippet: up to three original lines (table rows, headings) that contain a search term; the index text holds
+// the lines joined with " ¶ " and, after " ¶¶ ", folded copies, which are skipped here
+function snip(d,terms){const lines=String(d.content||"").split(" ¶¶ ")[0].split(" ¶ ").map(unspace);
+ const hits=lines.filter(l=>{const n=norm(l);return terms.some(w=>n.includes(w))}).slice(0,3);
+ return hits.length?`<div class="snip">${hits.map(l=>`<div>${hl(l,terms)}</div>`).join("")}</div>`:""}
+function entriesHTML(ds,terms,page,q){let h="";groupBy(ds).forEach((xs,s)=>{const b=BK[s]||{title:s};h+=`<div class="bk">${esc(b.title)} · ${xs.length} · <a href="book/${s}/${page}#${new URLSearchParams({q}).toString()}">open in book</a></div>`;
+  xs.forEach(d=>{const m=d.meta;h+=`<div class="r"><b>${hl(m.title,terms)}</b> <span class="snip">${hl(m.t,terms)}</span><div class="m">${esc(m.a||"")}${m.x?" — "+esc(m.x):""}${m.p?(m.a?" · ":"")+"p. "+esc(m.p):""}${m.u?` · <a href="${esc(m.u)}" target="_blank" rel="noopener">scan</a>`:""}</div></div>`})});return h}
 const count=(n,one,many)=>`${n.toLocaleString()} ${n===1?one:many}`;
 const KINDS={t:["Tables",""],d:["Who's Who &amp; directories","directory.html"],c:["Chronologies","chronology.html"]};
-function render(){const {terms,q,sc}=LAST;const parts=[];
- ["t","d","c"].forEach(k=>{const r=RES[k];if(!r||!r.length)return;const body=k==="t"?tablesHTML(slice(k),terms):entriesHTML(slice(k),terms,KINDS[k][1],q);
-  parts.push(`<section id="sec-${k}">`+(sc==="all"?`<div class="kind">${KINDS[k][0]}</div>`:"")+pager(k,r.length)+body+pager(k,r.length)+`</section>`)});
- $("#out").innerHTML=parts.join("")||"<p>No matches.</p>"}
+async function render(){const tok=++RTOK;const {terms,q,sc}=LAST;
+ const secs=await Promise.all(["t","d","c"].map(async k=>{const r=RES[k];if(!r||!r.length)return "";
+  const ds=await Promise.all(r.slice(PG[k]*PAGE,(PG[k]+1)*PAGE).map(x=>x.data()));
+  const body=k==="t"?tablesHTML(ds,terms):entriesHTML(ds,terms,KINDS[k][1],q);
+  return `<section id="sec-${k}">`+(sc==="all"?`<div class="kind">${KINDS[k][0]}</div>`:"")+pager(k,r.length)+body+pager(k,r.length)+`</section>`}));
+ if(tok!==RTOK)return false;$("#out").innerHTML=secs.join("")||"<p>No matches.</p>";return true}
 function state(){const o={q:$("#q").value.trim(),s:$("#scope").value};if($("#reg").value)o.r=$("#reg").value;if($("#y1").value)o.y1=$("#y1").value;if($("#y2").value)o.y2=$("#y2").value;if($("#titles").checked)o.ti="1";return o}
-async function run(){const q=$("#q").value.trim(),sc=$("#scope").value,ti=$("#titles").checked;const terms=norm(q).split(/\s+/).filter(Boolean);const ok=bookFilter();
- const st=state();const filt=!!(st.r||st.y1||st.y2||st.ti);$("#reset").hidden=!filt;
+// one search at a time: Pagefind works through queries one by one, so a search started while another runs waits for it;
+// while one runs, only the latest request is kept and it starts when the current one ends
+let BUSY=false,AGAIN=false;
+async function run(){if(BUSY){AGAIN=true;return}BUSY=true;try{do{AGAIN=false;await run1()}while(AGAIN)}finally{BUSY=false}}
+async function run1(){const q=$("#q").value.trim(),sc=$("#scope").value,ti=$("#titles").checked;const terms=norm(q).replace(/"/g," ").split(/\s+/).filter(Boolean);
+ const st=state();const filt=!!(st.r||st.y1||st.y2||st.ti),narrow=!!(st.r||st.y1||st.y2);$("#reset").hidden=!filt;
  try{history.replaceState(null,"",q||sc!=="all"||filt?"#"+new URLSearchParams(st).toString():location.pathname)}catch(e){}
- const nb=BOOKS.filter(ok).length;
- if(!terms.length){RES={};$("#status").textContent=st.r||st.y1||st.y2?`Type to search ${nb} book${nb===1?"":"s"}.`:"Type to search.";$("#out").innerHTML="";return}
- const R={},stat=[];
- if(sc==="all"||sc==="t"){const res=match(await loadTables(),terms,ti?"tit":"all",ok);res.sort((a,b)=>terms.filter(w=>b.head.includes(w)).length-terms.filter(w=>a.head.includes(w)).length);
-  R.t=res;stat.push(count(res.length,"table","tables"))}
- if(sc==="all"||sc==="d"||sc==="w"){let res=match(await loadDirs(),terms,ti?"n":"all",ok);if(sc==="w")res=res.filter(x=>WHO.test(x.e.a));
-  res.sort((a,b)=>terms.filter(w=>b.n.includes(w)).length-terms.filter(w=>a.n.includes(w)).length);
-  R.d=res;stat.push(count(res.length,sc==="w"?"Who's Who entry":"directory entry",sc==="w"?"Who's Who entries":"directory entries"))}
- if(sc==="all"||sc==="c"){const res=match(await loadChron(),terms,ti?"tit":"all",ok);R.c=res;stat.push(count(res.length,"chronology event","chronology events"))}
- if(JSON.stringify(state())!==JSON.stringify(st))return;
- RES=R;PG={t:0,d:0,c:0};LAST={terms,q,sc};
- $("#status").textContent=stat.join(" · ")+(st.r||st.y1||st.y2?` in ${nb} book${nb===1?"":"s"}`:"");render()}
-$("#out").addEventListener("click",e=>{const b=e.target.closest(".pager button[data-p]");if(!b||b.disabled)return;const k=b.dataset.k;PG[k]=+b.dataset.p;render();
- const sec=document.getElementById("sec-"+k);if(sec)sec.scrollIntoView({block:"start"})});
-let tm;$("#q").addEventListener("input",()=>{clearTimeout(tm);tm=setTimeout(run,200)});$("#scope").addEventListener("change",run);
+ const nb=BOOKS.filter(bookFilter()).length,inb=narrow?` in ${nb} book${nb===1?"":"s"}`:"";
+ if(!terms.length||tooShort(q)){RES={};RTOK++;$("#status").textContent=terms.length?"Keep typing…":narrow?`Type to search ${nb} book${nb===1?"":"s"}.`:"Type to search.";$("#out").innerHTML="";return}
+ $("#status").textContent="Searching…";
+ let P;try{P=await pagefind(ti)}catch(e){$("#status").textContent="The search index is not installed on this copy of the site (it is built separately: see build/README.md), or the page is not being served from a web server.";return}
+ const query=pfQuery(q),dirs={any:["d","w"]};
+ const kinds=sc==="all"?[["t","t"],["d",dirs],["c","c"]]:sc==="t"?[["t","t"]]:sc==="w"?[["d","w"]]:sc==="d"?[["d",dirs]]:[["c","c"]];
+ // sections are searched one after another and shown as each finishes, so tables appear while directories are still searched;
+ // a newer search (AGAIN) stops this one between sections
+ const lab={t:["table","tables"],d:sc==="w"?["Who's Who entry","Who's Who entries"]:["directory entry","directory entries"],c:["chronology event","chronology events"]};
+ const names={t:"tables",d:"directories",c:"chronologies"};RES={};PG={t:0,d:0,c:0};LAST={terms,q,sc};const done=[];
+ for(const [i,[k,f]] of kinds.entries()){const r=await P.search(query,{filters:pfFilters(f)});
+  if(AGAIN||JSON.stringify(state())!==JSON.stringify(st))return;
+  RES[k]=r&&r.results?r.results:[];done.push(count(RES[k].length,...lab[k]));
+  const more=i<kinds.length-1?` · searching ${names[kinds[i+1][0]]}…`:inb;
+  if(await render())$("#status").textContent=done.join(" · ")+more}}
+$("#out").addEventListener("click",e=>{const b=e.target.closest(".pager button[data-p]");if(!b||b.disabled)return;const k=b.dataset.k;PG[k]=+b.dataset.p;render().then(ok=>{const sec=ok&&document.getElementById("sec-"+k);if(sec)sec.scrollIntoView({block:"start"})})});
+let tm;$("#q").addEventListener("input",()=>{clearTimeout(tm);tm=setTimeout(run,300)});$("#scope").addEventListener("change",run);
 $("#reg").addEventListener("change",run);$("#titles").addEventListener("change",run);["y1","y2"].forEach(k=>$("#"+k).addEventListener("input",()=>{clearTimeout(tm);tm=setTimeout(run,300)}));
 $("#reset").addEventListener("click",()=>{$("#reg").value="";$("#y1").value="";$("#y2").value="";$("#titles").checked=false;run()});
 $("#toggle").addEventListener("click",()=>{const r=document.documentElement;const d=r.dataset.theme?r.dataset.theme==="dark":matchMedia("(prefers-color-scheme: dark)").matches;r.dataset.theme=d?"light":"dark"});
-try{const p=new URLSearchParams(location.hash.slice(1));$("#q").value=p.get("q")||p.get("t")||p.get("d")||"";const sc=p.get("s")||(p.get("tab")==="d"?"d":"all");if([...$("#scope").options].some(o=>o.value===sc))$("#scope").value=sc;
- if([...$("#reg").options].some(o=>o.value===p.get("r")))$("#reg").value=p.get("r");if(/^\d{4}$/.test(p.get("y1")||""))$("#y1").value=p.get("y1");if(/^\d{4}$/.test(p.get("y2")||""))$("#y2").value=p.get("y2");$("#titles").checked=p.get("ti")==="1"}catch(e){}
+function fromHash(){try{const p=new URLSearchParams(location.hash.slice(1));$("#q").value=p.get("q")||p.get("t")||p.get("d")||"";const sc=p.get("s")||(p.get("tab")==="d"?"d":"all");if([...$("#scope").options].some(o=>o.value===sc))$("#scope").value=sc;
+ if([...$("#reg").options].some(o=>o.value===p.get("r")))$("#reg").value=p.get("r");if(/^\d{4}$/.test(p.get("y1")||""))$("#y1").value=p.get("y1");if(/^\d{4}$/.test(p.get("y2")||""))$("#y2").value=p.get("y2");$("#titles").checked=p.get("ti")==="1"}catch(e){}}
+fromHash();addEventListener("hashchange",()=>{fromHash();run()});
 run();
 </script></body></html>
 """

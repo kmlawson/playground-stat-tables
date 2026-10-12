@@ -96,5 +96,9 @@ This file is the authoritative process overview (updated 2026-10-07). `build/exa
 - Check `git merge-base --is-ancestor origin/main HEAD`, then push explicitly:
   `git push origin refs/heads/<branch>:refs/heads/main`; watch the Pages deploy (`gh run watch`).
 - Commit trailer as given by the session; never the user's identity.
-- The full-text search page needs no separate rebuild: it is regenerated with the site and loads each book's
-  `data/` file at run time.
+- Full Search runs on Pagefind indexes (`pagefind/` = everything, `pagefind-titles/` = titles and names only),
+  written from the committed `data/*.json` by `uv run --with "pagefind[extended]" build/build_search.py`. Rebuild them
+  after build_site whenever tables, directories or chronologies change. The folders are **not in git** (`.gitignore`):
+  the user uploads them to the server that hosts the site (user, 2026-10-12), so the GitHub Pages copy has no
+  search index. `robots.txt` and `llms.txt` ask crawlers to skip them and point to the GitHub data instead. Chinese/Japanese
+  characters are indexed spaced, with folded (fold.js) copies of lines that contain variant forms.

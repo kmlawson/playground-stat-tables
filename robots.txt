@@ -1,0 +1,18 @@
+# Old Year Book Tables of East Asia
+#
+# pagefind/ and pagefind-titles/ hold the search index behind search.html: about 188,000 small binary files with
+# nothing in them that is not on the book pages. Please do not crawl them.
+#
+# The complete data can be downloaded in one go from GitHub instead:
+#   https://github.com/kmlawson/playground-stat-tables
+#     data/       every table, directory entry and chronology event, one JSON file per book
+#     downloads/  the same as Excel workbooks and Markdown, per book
+#   ZIP of the whole repository: https://github.com/kmlawson/playground-stat-tables/archive/refs/heads/main.zip
+#
+# See also llms.txt.
+
+User-agent: *
+Disallow: /pagefind/
+Disallow: /pagefind-titles/
+Disallow: /*/pagefind/
+Disallow: /*/pagefind-titles/

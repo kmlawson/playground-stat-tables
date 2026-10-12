@@ -1,0 +1,31 @@
+# Old Year Book Tables of East Asia
+
+> Statistical tables, directories (Who's Who, firms) and chronologies transcribed from English- and Japanese-language
+> yearbooks and handbooks on Japan, China, Korea, Taiwan and Manchuria, 1905–1950. Every figure was transcribed from
+> page images by a vision model (Claude Opus 5.5, Sonnet 5.5 or Haiku 5.5, named on each book's page) and must be
+> checked against the original scan, which each table and entry links to.
+
+Please do not crawl `pagefind/` or `pagefind-titles/`: they are the search index behind `search.html`, about 188,000
+small binary files with nothing that is not on the book pages. To read or analyse the collection, download it in one
+go from GitHub instead of fetching pages or index files one by one.
+
+## Bulk data
+
+- [GitHub repository](https://github.com/kmlawson/playground-stat-tables): the whole site and its data
+- [ZIP of the repository](https://github.com/kmlawson/playground-stat-tables/archive/refs/heads/main.zip): one download
+- [data/](https://github.com/kmlawson/playground-stat-tables/tree/main/data): one JSON file per book (`<slug>.json`:
+  tables with title, chapter, printed pages, columns, rows, printed footnotes, transcriber's notes and scan links;
+  `<slug>-directory.json` and `<slug>-chronology.json` where the book has them)
+- [downloads/](https://github.com/kmlawson/playground-stat-tables/tree/main/downloads): per book, an Excel workbook
+  of the tables and Markdown files of the directories and chronologies
+
+## Pages
+
+- [All books](index.html): one card per book, grouped by region
+- `book/<slug>/`: a book's tables; `book/<slug>/directory.html` and `chronology.html` where it has them
+- [Full Search](search.html): searches every book (needs the pagefind index on the server)
+
+## Notes on the data
+
+- `"[?]"` in a cell means the figure could not be read in the scan; `""` means the cell is blank in the original.
+- Printed totals were checked; where they do not add up, the transcriber's notes say so. Misprints are kept as printed.

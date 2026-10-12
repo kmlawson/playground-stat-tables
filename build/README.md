@@ -73,3 +73,19 @@ series (Japan Year Book; China Year Book; China Handbook; 朝鮮事情 — never
   `missions.md`). Families sharing a table are merged at build time.
 - Adding a new edition: add it to its series in `chapters.py`, regenerate the listings for its topics and re-run the
   matching for those topics.
+
+## Full Search index (Pagefind)
+
+`search.html` searches a [Pagefind](https://pagefind.app/) index that is **not kept in this repository** (about
+188,000 small files). Build it yourself after building the site, from the repository root:
+
+```sh
+python3 build/build_site.py                                  # pages and data/ (needs STAT_TABLES_ROOT for source folders)
+uv run --with "pagefind[extended]" build/build_search.py     # writes pagefind/ and pagefind-titles/ (about 8 minutes)
+```
+
+`build_search.py` reads only the committed `data/*.json`, so it works on any checkout. It writes two indexes next to
+`search.html`: `pagefind/` (everything) and `pagefind-titles/` (table titles, entry names and chronology headings,
+for the "Titles and names only" option). Upload both folders with the site. Without them the search page says the
+index is not installed; the rest of the site works as before. Serve the site over HTTP (for example
+`python3 -m http.server`), not from `file://`.
