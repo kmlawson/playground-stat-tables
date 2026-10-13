@@ -66,7 +66,13 @@ This file is the authoritative process overview (updated 2026-10-07). `build/exa
 8. **English layer for non-English books** (Korea/Japanese books): `build/translations/<slug>.json` with
    `"_chapters"` (English chapter names) and per table `{"t": English title, "d": one-sentence description}`,
    written by Opus agents from the JSON only (`TRANSLATE_TASK.md`, McCune–Reischauer / Hepburn).
-9. **Publish** (below). Note queued books in `../queue.md`; record per-book state in `_work/STATUS.md`.
+9. **Printed contents** (before deleting the page images; user, 2026-10-13): an agent reads the book's contents pages
+   by eye into `_work/toc.json` (`{"entries": [{"level", "title", "page", "src"}]}`, every chapter and every listed
+   section); entries printed without a page number get a `found_leaf` from an agent that looks for the heading on
+   the pages. `python3 ../_pipeline/toc_leaves.py <book>/_work` maps printed pages to scan leaves via
+   `plan/survey.json`. build_site shows it as a collapsible "Contents of the printed book" on the book's contents
+   page, each entry linked to its scan page, and keeps a copy in `data/<slug>-toc.json` for when `_work` is gone.
+10. **Publish** (below). Note queued books in `../queue.md`; record per-book state in `_work/STATUS.md`.
 
 ## Site and BOOKS entry
 

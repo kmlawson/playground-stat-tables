@@ -526,6 +526,15 @@ BOOKS = [
      "dir_pinyin": {"Dairen": "Dalian", "Mukden": "Fengtian", "Hsinking": "Xinjing", "Antung": "Andong", "Port-Arthur": "Lüshun", "Tsitsihar": "Qiqihar", "Kirin": "Jilin", "Manchouli": "Manzhouli", "Peian": "Bei'an", "Taoan": "Tao'an", "Liao-Yang": "Liaoyang", "Pulantien": "Pulandian", "Rashin": "Rajin", "Kungchuling": "Gongzhuling"},
      "dir_places": ["Dairen", "Mukden", "Harbin", "Hsinking", "Antung", "Fushun", "Hailar", "Port-Arthur", "Yingkou", "Tsitsihar", "Kirin", "Manchouli", "Peian", "Taoan", "Liao-Yang", "Pulantien", "Rashin", "Kungchuling"],
      "blank_marking": True},
+    {"slug": "japan-manchoukuo-1934", "dir": "Japan_Manchoukuo_1934", "group": "manchuria", "model": "Sonnet 5.5 and Opus 5.5",
+     "title": "Japan-Manchoukuo Year Book 1934",
+     "publisher": "Japan-Manchoukuo Year Book Co., Tokyo, 1934",
+     "blurb": "The first Japan-Manchoukuo Year Book, a Tokyo English-language annual in two parts. The Japan part covers geography, history, population, the Imperial Court, politics, administration, diplomacy, defence, religion, education, justice, health, the press, the arts, public works, labour, social problems, communications, railways, shipping, national finance, banking, insurance, agriculture, sericulture, forestry, fisheries, mining, industry, domestic and foreign trade, Korea, Taiwan, Karafuto, the South Sea Islands, the six great cities and sports. The Manchoukuo part covers the new state's geography, history, government, industry, agriculture, mining, railways, communications, finance, currency, banking, foreign trade, forestry and fishery, education and principal cities, followed by government bulletins, speeches, the text of treaties, a Who's Who of Japan and Manchoukuo, a business directory and a guide to foreign firms.",
+     "source": "LLM-transcribed from the Internet Archive scan.",
+     "gaps": "Complete scan (two files on the Internet Archive). All statistical tables and columnar lists, the Who's Who, the business directory, the list of foreign firms, the diplomatic and consular lists and the dated chronologies are transcribed; the running text, photographs, maps, advertisements and charts without printed figures are not. Pages with tables were found from contact sheets. Sonnet 5.5 agents read most pages and Opus 5.5 agents the large trade returns and spreads; every printed total was re-added, and totals that did not reconcile were re-read on zoomed crops by Opus 5.5 — where the print itself does not add up, the figures are kept as printed and noted. The book's printed contents, with every chapter and section linked to its page of the scan, are on the contents page.",
+     "scan": "https://archive.org/details/japan-manchoukuo-year-book-1934/Japan-Manchoukuo%20Year%20Book%201934%20{part}/page/n{leaf}/mode/1up",
+     "item": "https://archive.org/details/japan-manchoukuo-year-book-1934",
+     "blank_marking": True},
     {"slug": "japan-manchoukuo-1940", "dir": "Japan_Manchoukuo_1940", "group": "manchuria",
      "title": "Japan-Manchoukuo Year Book 1940", "note": "Incomplete scan: large parts of the book are missing",
      "publisher": "Japan-Manchoukuo Year Book Co., Tokyo, 1940",
@@ -940,6 +949,7 @@ def main():
                    .replace("__XL__", json.dumps(xl[b["slug"]], ensure_ascii=False).replace("</", "<\\/"))
                    .replace("__HIDEIMG__", "true" if b.get("hide_images") else "false")
                    .replace("__ORIG__", json.dumps(orig_link(b), ensure_ascii=False))
+                   .replace("__PTOC__", json.dumps(printed_toc(b), ensure_ascii=False).replace("</", "<\\/"))
                    .replace("__MARKED__", "true" if b.get("blank_marking") else "false")
                    .replace("__XLSX__", f' · <a href="../../{dl(b["slug"], "tables.xlsx")}" style="color:inherit" download>Excel</a>' if dl(b["slug"], "tables.xlsx") else "")
                    .replace("__CELLS__", f"{c:,}").replace("__BOOK__", html.escape(b["title"]))
@@ -983,6 +993,24 @@ def orig_link(b):
     names = {"archive.org": "the Internet Archive", "dl.ndl.go.jp": "the National Diet Library Digital Collections",
              "ageconsearch.umn.edu": "AgEcon Search"}
     return {"u": u, "l": names.get(host, host)}
+
+
+def printed_toc(b):
+    """The book's printed table of contents, each entry linked to its scan page: [{"l": level, "t": title, "p": page, "u": url}].
+    Read from <book>/_work/toc.json (entries carry the scan "leaf", added by _pipeline/toc_leaves.py) and kept in
+    data/<slug>-toc.json, which is used once the work folder is gone."""
+    saved = os.path.join(HERE, "data", b["slug"] + "-toc.json")
+    f = os.path.join(book_dir(b), "_work", "toc.json")
+    if not os.path.exists(f):
+        return json.load(open(saved, encoding="utf-8")) if os.path.exists(saved) else []
+    out = []
+    for e in json.load(open(f, encoding="utf-8"))["entries"]:
+        sl = scan_links(b, {"image": e["leaf"]}) if b.get("scan") and e.get("leaf") else []
+        u = sl[0]["url"] if sl else None
+        out.append({"l": e.get("level", 1), "t": e["title"], "p": e.get("page", ""), "u": u})
+    with open(saved, "w", encoding="utf-8") as fh:
+        json.dump(out, fh, ensure_ascii=False, indent=0)
+    return out
 
 
 def landing(cards):
@@ -1202,6 +1230,7 @@ mark{background:var(--hi);color:inherit}
 .che2{display:block;font-size:15px;color:var(--muted);margin-top:2px}
 .che3{display:block;font-weight:normal;font-size:max(12px,.54em);color:var(--muted);margin-top:.15em}
 .enn{color:var(--muted);font-size:13px;white-space:nowrap}
+.ptoc{margin:0 0 18px;border:1px solid var(--line,#ccc);border-radius:6px;background:var(--panel);padding:6px 12px}.ptoc summary{cursor:pointer;font-weight:bold;padding:4px 0}.ptoc ul{list-style:none;margin:6px 0;padding:0;columns:2 420px;column-gap:28px}.ptoc li{display:flex;gap:8px;break-inside:avoid;padding:1px 0;line-height:1.35}.ptoc li a{color:inherit}.ptoc li a:hover{color:var(--accent)}.ptoc .pp{margin-left:auto;color:var(--muted,#777);font-variant-numeric:tabular-nums;white-space:nowrap}.ptoc .pl0{font-weight:bold;text-transform:none;margin-top:10px;break-after:avoid}.ptoc .pl1{font-weight:bold;margin-top:4px}.ptoc .pl2{padding-left:16px;font-size:14px}.ptoc .pl3{padding-left:32px;font-size:13px}
 .origbtn{display:inline-block;margin:4px 0 16px;padding:8px 14px;border:1px solid var(--accent);border-radius:6px;background:var(--panel);color:var(--accent);text-decoration:none;font-size:15px;font-weight:bold}.origbtn:hover{background:var(--hi)}
 .ctx{max-width:760px;font-size:14.5px;line-height:1.55;margin:8px 0 12px;padding:9px 12px;border-left:3px solid var(--accent);background:var(--panel)}
 .aboutbtn{margin-left:auto;font:inherit;font-size:14px;background:transparent;color:var(--accent-ink);border:1px solid currentColor;border-radius:5px;padding:5px 12px;cursor:pointer;align-self:center}.aboutbtn+#toggle{margin-left:0}
@@ -1232,6 +1261,8 @@ const pyd=a=>{if(ALTR||!a)return a;const w=a.split(" ")[0];return PY[w]?PY[w]+a.
 const pyl=l=>ALTR?l:pyd(l).replace(/\(([^() ]+)\)$/,(m,w)=>PY[w]?`(${PY[w]})`:m);
 const HIDEIMG=__HIDEIMG__;
 const ORIG=__ORIG__;
+const PTOC=__PTOC__;
+const ptoc=()=>PTOC.length?`<details class="ptoc"><summary>Contents of the printed book (${PTOC.length} entries)${ORIG?` · each links to its page on ${esc(ORIG.l)}`:""}</summary><ul>`+PTOC.map(e=>`<li class="pl${e.l}">${e.u?`<a href="${esc(e.u)}" target="_blank" rel="noopener">${esc(e.t)}</a>`:esc(e.t)}${e.p?`<span class="pp">${esc(e.p)}</span>`:""}</li>`).join("")+`</ul></details>`:"";
 // link to the whole original book (Internet Archive, NDL, …) shown at the top of the contents
 const origLink=()=>ORIG?`<a class="origbtn" href="${esc(ORIG.u)}" target="_blank" rel="noopener">Read the full original book on ${esc(ORIG.l)} ↗</a>`:"";
 const MARKED=__MARKED__;
@@ -1302,9 +1333,9 @@ function dirCards(){if(!DIRCARDS)return "";const card=c=>`<a class="chbtn" href=
  const pl=DIRCARDS.places.map(x=>({...x,l:pyd(x.l)})),bg=DIRCARDS.big||0;
  return `<h2 style="margin:0 0 6px">Directory</h2><div class="chsum">${DIRCARDS.total.toLocaleString()} directory entries. Choose a place or a list. Place names are in pinyin; the directory page has a toggle for the book's own romanization.</div><h3 style="margin:14px 0 8px">Places</h3><div class="chgrid" style="--chfs:15px">`+pl.slice(0,bg).concat(pl.slice(bg).sort((x,y)=>x.l.localeCompare(y.l))).map(card).join("")+`</div>`+(DIRCARDS.other.length?`<h3 style="margin:20px 0 8px">Other lists</h3><div class="chgrid" style="--chfs:15px">`+DIRCARDS.other.map(x=>card({...x,l:pyl(x.l)})).join("")+`</div>`:"")}
 function showHome(){mode="home";cur=null;closeCmp();const n={};T.forEach(t=>{const c=t.chapter||"(no chapter)";n[c]=(n[c]||0)+1});
- if(DIRCARDS){$("#main").innerHTML=`<div class="chhead">Contents</div>`+origLink()+dirCards()+`<h2 style="margin:28px 0 6px">Tables</h2><div class="chsum">${T.length} table${T.length===1?"":"s"} in ${chapters.length} section${chapters.length===1?"":"s"}. Choose a section, or pick a single table from the list.</div><div class="chgrid" style="--chfs:15px">`+
+ if(DIRCARDS){$("#main").innerHTML=`<div class="chhead">Contents</div>`+origLink()+ptoc()+dirCards()+`<h2 style="margin:28px 0 6px">Tables</h2><div class="chsum">${T.length} table${T.length===1?"":"s"} in ${chapters.length} section${chapters.length===1?"":"s"}. Choose a section, or pick a single table from the list.</div><div class="chgrid" style="--chfs:15px">`+
   chapters.map(c=>`<a class="chbtn" href="#ch=${encodeURIComponent(c)}">${esc(c)}${chE(c,"che3")}<small>${n[c]} table${n[c]===1?"":"s"}</small></a>`).join("")+`</div>`+LLMWARN;$("#main").scrollTop=0;mark();anSync();return}
- $("#main").innerHTML=`<div class="chhead">Contents</div>`+origLink()+`<h2 style="margin-bottom:6px">Chapters</h2><div class="chsum">${T.length} table${T.length===1?"":"s"} in ${chapters.length} chapter${chapters.length===1?"":"s"}. Choose a chapter, or pick a single table from the list.</div><div class="chgrid">`+
+ $("#main").innerHTML=`<div class="chhead">Contents</div>`+origLink()+ptoc()+`<h2 style="margin-bottom:6px">Chapters</h2><div class="chsum">${T.length} table${T.length===1?"":"s"} in ${chapters.length} chapter${chapters.length===1?"":"s"}. Choose a chapter, or pick a single table from the list.</div><div class="chgrid">`+
   chapters.map(c=>`<a class="chbtn" href="#ch=${encodeURIComponent(c)}">${esc(c)}${chE(c,"che3")}<small>${n[c]} table${n[c]===1?"":"s"}</small></a>`).join("")+`</div>`+dirCards()+LLMWARN;
  $("#main").scrollTop=0;fitGrid();mark();anSync()}
 // Desktop: pick the largest button font (12-28px) at which every chapter button fits in the pane without scrolling
