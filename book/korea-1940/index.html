@@ -117,7 +117,7 @@ const pyl=l=>ALTR?l:pyd(l).replace(/\(([^() ]+)\)$/,(m,w)=>PY[w]?`(${PY[w]})`:m)
 const HIDEIMG=false;
 const ORIG={"u": "https://dl.ndl.go.jp/pid/1114413", "l": "the National Diet Library Digital Collections"};
 const PTOC=[];
-const ptoc=()=>PTOC.length?`<details class="ptoc"><summary>Contents of the printed book (${PTOC.length} entries)${ORIG?` · each links to its page on ${esc(ORIG.l)}`:""}</summary><ul>`+PTOC.map(e=>`<li class="pl${e.l}">${e.u?`<a href="${esc(e.u)}" target="_blank" rel="noopener">${esc(e.t)}</a>`:esc(e.t)}${e.p?`<span class="pp">${esc(e.p)}</span>`:""}</li>`).join("")+`</ul></details>`:"";
+const ptoc=()=>PTOC.length?`<details class="ptoc"><summary>Contents of the printed book (${PTOC.length} entries)${ORIG?` · each links to its page on ${esc(ORIG.l)}`:""}</summary><ul>`+PTOC.map(e=>`<li class="pl${e.l}">${e.u?`<a href="${esc(e.u)}" target="_blank" rel="noopener"${e.c?` title="No page printed for this section: opens the first page of its chapter"`:""}>${esc(e.t)}</a>`:esc(e.t)}${e.p?`<span class="pp">${esc(e.p)}</span>`:""}</li>`).join("")+`</ul></details>`:"";
 // link to the whole original book (Internet Archive, NDL, …) shown at the top of the contents
 const origLink=()=>ORIG?`<a class="origbtn" href="${esc(ORIG.u)}" target="_blank" rel="noopener">Read the full original book on ${esc(ORIG.l)} ↗</a>`:"";
 const MARKED=false;

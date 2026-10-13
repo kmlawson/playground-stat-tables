@@ -949,7 +949,7 @@ def main():
                    .replace("__XL__", json.dumps(xl[b["slug"]], ensure_ascii=False).replace("</", "<\\/"))
                    .replace("__HIDEIMG__", "true" if b.get("hide_images") else "false")
                    .replace("__ORIG__", json.dumps(orig_link(b), ensure_ascii=False))
-                   .replace("__PTOC__", json.dumps(printed_toc(b), ensure_ascii=False).replace("</", "<\\/"))
+                   .replace("__PTOC__", json.dumps(printed_toc(b, clean), ensure_ascii=False).replace("</", "<\\/"))
                    .replace("__MARKED__", "true" if b.get("blank_marking") else "false")
                    .replace("__XLSX__", f' · <a href="../../{dl(b["slug"], "tables.xlsx")}" style="color:inherit" download>Excel</a>' if dl(b["slug"], "tables.xlsx") else "")
                    .replace("__CELLS__", f"{c:,}").replace("__BOOK__", html.escape(b["title"]))
@@ -995,19 +995,105 @@ def orig_link(b):
     return {"u": u, "l": names.get(host, host)}
 
 
-def printed_toc(b):
+def page_urls(b, tables):
+    """Printed page -> scan URL for a book, from its tables' printed pages and scan images: a page with no table
+    of its own is placed by counting on from the nearest earlier page that has one (one scan leaf per page).
+    Books whose appendices restart the page numbering are split into runs where the numbers fall back; the
+    returned url(page, run) looks only at the given run."""
+    lm = leafmap(b) or {}
+
+    def key(im):
+        m = re.match(r"p(\d)-(\d+)$", im) or re.match(r"p()(\d+)$", im)
+        if m and im not in lm:
+            return (int(m.group(1) or 0), int(m.group(2)))
+        v = lm.get(im)
+        return tuple(v) if isinstance(v, list) else (0, v) if isinstance(v, int) else None
+
+    pts = []
+    for t in tables:
+        im = (t.get("images") or [t.get("image")])[0]
+        m = re.match(r"\s*(\d+)", str((t.get("printed_pages") or [""])[0]))
+        if im and m and key(im) is not None:
+            pts.append((key(im), int(m.group(1)), im))
+    # Group the anchors by offset (scan position minus printed page): the main text drifts slowly as plates are
+    # added, an appendix with its own numbering jumps by hundreds, and a stray misread page stands alone.
+    def pos(k):
+        return k[0] * 100000 + k[1]
+    pts.sort(key=lambda x: pos(x[0]) - x[1])
+    runs, prev = [], None
+    for k, pg, im in pts:
+        o = pos(k) - pg
+        if prev is None or o - prev > 30:
+            runs.append([])
+        runs[-1].append((pg, im)); prev = o
+    runs = [r for r in runs if len(r) >= 3]
+    # printed pages per scan leaf: 1 for a page-by-page scan, 2 where each photo shows an open spread
+    spans = sorted((pg2 - pg1) / (pos(k2) - pos(k1)) for (k1, pg1, _), (k2, pg2, _) in zip(sorted(pts, key=lambda x: pos(x[0])), sorted(pts, key=lambda x: pos(x[0]))[1:])
+                   if pos(k2) - pos(k1) >= 3 and pg2 > pg1)
+    per_leaf = 2 if spans and spans[len(spans) // 2] > 1.5 else 1
+    if runs:  # the main text is the biggest group; runs after it are appendices numbered afresh
+        main = max(range(len(runs)), key=lambda i: len(runs[i]))
+        runs = runs[main:]
+
+    def url(page, run=0):
+        if not b.get("scan") or run >= len(runs):
+            return None
+        # this run, plus runs whose printed pages do not overlap it (a book split into several scan files)
+        lo, hi = min(runs[run])[0], max(runs[run])[0]
+        pool = [a for i, r in enumerate(runs) if i == run or not lo <= sorted(r)[len(r) // 2][0] <= hi for a in r]
+        below = [a for a in pool if a[0] <= page]
+        above = [a for a in pool if a[0] > page]
+        if below and page - max(below)[0] <= 250:  # count on from the last page with a table
+            pg, im = max(below)
+        elif above and min(above)[0] - page <= 40:  # or back from the next one
+            pg, im = min(above)
+        else:
+            return None
+        d = round((page - pg) / per_leaf)
+        mp = re.match(r"p(\d)-(\d+)$", im)
+        if mp:
+            return b["scan"].format(part=int(mp.group(1)), leaf=int(mp.group(2)) + d)
+        mp = re.match(r"p(\d+)$", im)
+        if mp and im not in lm:
+            return b["scan"].format(leaf=int(mp.group(1)) + d)
+        v = lm.get(im)
+        if isinstance(v, list):
+            return b["scan"].format(partname=b["scan_parts"][v[0]], leaf=v[1] + d)
+        if isinstance(v, int):
+            return b["scan"].format(leaf=v + d)
+        return None
+    return url
+
+
+def printed_toc(b, tables=()):
     """The book's printed table of contents, each entry linked to its scan page: [{"l": level, "t": title, "p": page, "u": url}].
-    Read from <book>/_work/toc.json (entries carry the scan "leaf", added by _pipeline/toc_leaves.py) and kept in
-    data/<slug>-toc.json, which is used once the work folder is gone."""
+    Read from <book>/_work/toc.json, or ../_toc/<slug>/toc.json for books finished before their contents were
+    transcribed; an entry's scan page is its "leaf" (added by _pipeline/toc_leaves.py) or else found from its
+    printed page via the book's tables (page_urls). Kept in data/<slug>-toc.json, used once the work folder is gone."""
     saved = os.path.join(HERE, "data", b["slug"] + "-toc.json")
-    f = os.path.join(book_dir(b), "_work", "toc.json")
-    if not os.path.exists(f):
+    f = next((x for x in (os.path.join(book_dir(b), "_work", "toc.json"), os.path.join(ROOT, "_toc", b["slug"], "toc.json"))
+              if os.path.exists(x)), None)
+    if not f:
         return json.load(open(saved, encoding="utf-8")) if os.path.exists(saved) else []
-    out = []
+    by_page = page_urls(b, tables)
+    out, run, top = [], 0, 0
     for e in json.load(open(f, encoding="utf-8"))["entries"]:
         sl = scan_links(b, {"image": e["leaf"]}) if b.get("scan") and e.get("leaf") else []
         u = sl[0]["url"] if sl else None
-        out.append({"l": e.get("level", 1), "t": e["title"], "p": e.get("page", ""), "u": u})
+        m = re.match(r"\s*(\d+)", str(e.get("page", "")))
+        if m and "?" not in str(e.get("page")):  # a half-read page number would send the link astray
+            pg = int(m.group(1))
+            if pg < top - 50:  # page numbering starts again (appendices)
+                run, top = run + 1, 0
+            top = max(top, pg)
+            if not u:
+                u = by_page(pg, run)
+        lv = e.get("level", 1)
+        parent = next((o for o in reversed(out) if o["l"] < lv), None)
+        if not u and not e.get("page") and parent and parent["u"]:  # no page printed: open its chapter's first page
+            out.append({"l": lv, "t": e["title"], "p": "", "u": parent["u"], "c": 1})
+            continue
+        out.append({"l": lv, "t": e["title"], "p": e.get("page", ""), "u": u})
     with open(saved, "w", encoding="utf-8") as fh:
         json.dump(out, fh, ensure_ascii=False, indent=0)
     return out
@@ -1262,7 +1348,7 @@ const pyl=l=>ALTR?l:pyd(l).replace(/\(([^() ]+)\)$/,(m,w)=>PY[w]?`(${PY[w]})`:m)
 const HIDEIMG=__HIDEIMG__;
 const ORIG=__ORIG__;
 const PTOC=__PTOC__;
-const ptoc=()=>PTOC.length?`<details class="ptoc"><summary>Contents of the printed book (${PTOC.length} entries)${ORIG?` · each links to its page on ${esc(ORIG.l)}`:""}</summary><ul>`+PTOC.map(e=>`<li class="pl${e.l}">${e.u?`<a href="${esc(e.u)}" target="_blank" rel="noopener">${esc(e.t)}</a>`:esc(e.t)}${e.p?`<span class="pp">${esc(e.p)}</span>`:""}</li>`).join("")+`</ul></details>`:"";
+const ptoc=()=>PTOC.length?`<details class="ptoc"><summary>Contents of the printed book (${PTOC.length} entries)${ORIG?` · each links to its page on ${esc(ORIG.l)}`:""}</summary><ul>`+PTOC.map(e=>`<li class="pl${e.l}">${e.u?`<a href="${esc(e.u)}" target="_blank" rel="noopener"${e.c?` title="No page printed for this section: opens the first page of its chapter"`:""}>${esc(e.t)}</a>`:esc(e.t)}${e.p?`<span class="pp">${esc(e.p)}</span>`:""}</li>`).join("")+`</ul></details>`:"";
 // link to the whole original book (Internet Archive, NDL, …) shown at the top of the contents
 const origLink=()=>ORIG?`<a class="origbtn" href="${esc(ORIG.u)}" target="_blank" rel="noopener">Read the full original book on ${esc(ORIG.l)} ↗</a>`:"";
 const MARKED=__MARKED__;
