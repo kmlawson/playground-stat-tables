@@ -42,6 +42,9 @@ This file is the authoritative process overview (updated 2026-10-07). `build/exa
    in `sheets/`. Survey agents (Opus, ~8–16 sheets each, `plan/SHEET_SURVEY.md`) list only the images with tables,
    lists, charts with figures or directories, one line each: `pNNNN | pp. | START/CONT | kind | titles | ENDS/RUNS-ON`,
    plus skipped runs (contents, index, ads, prose) and missing/duplicated pages. Only those pages are read later.
+   **Transcribe the printed contents (step 9) before the survey**, and give each survey agent the contents entries
+   for its stretch of pages: it also writes `headings_<x>.json` (`{"<toc index>": "pNNNN"}`) for every listed
+   section heading it can see on the sheets — no extra pass over the pages.
 3. **Brief.** Copy and adapt `BRIEF.md` (rules, JSON format, the book's "This book" section: language, numerals,
    chapter naming, page numbering, spreads/RTL, units) and `MISSION.md`; `prompt.py` + `next.sh` +
    `missions.json` drive the missions; `validate.py` checks files.
@@ -68,9 +71,14 @@ This file is the authoritative process overview (updated 2026-10-07). `build/exa
    written by Opus agents from the JSON only (`TRANSLATE_TASK.md`, McCune–Reischauer / Hepburn).
 9. **Printed contents** (before deleting the page images; user, 2026-10-13): an agent reads the book's contents pages
    by eye into `_work/toc.json` (`{"entries": [{"level", "title", "page", "src"}]}`, every chapter and every listed
-   section); entries printed without a page number get a `found_leaf` from an agent that looks for the heading on
-   the pages. `python3 ../_pipeline/toc_leaves.py <book>/_work` maps printed pages to scan leaves via
-   `plan/survey.json`. build_site shows it as a collapsible "Contents of the printed book" on the book's contents
+   section) — done **first, before the survey** (step 2). Entries printed without a page number get a `found_leaf`
+   from what earlier passes already saw, never from a dedicated re-read of the book (user, 2026-10-14: a separate
+   locate pass over every page of 1939 cost a week's quota): (a) the survey agents' `headings_*.json`; (b) mission
+   reports, which list every section heading seen on their pages (`MISSION.md`); (c) a local fuzzy match of entry
+   titles against the transcribed table titles; (d) only what is still unplaced goes to ONE small agent working
+   from 4-page sheets (2×2, `sheets4/`), limited to the leaves between the neighbouring placed entries. Anything
+   not found links to its chapter — that is acceptable; do not spend a pass to place every subsection.
+   `python3 ../_pipeline/toc_leaves.py <book>/_work` maps printed pages to scan leaves via `plan/survey.json`. build_site shows it as a collapsible "Contents of the printed book" on the book's contents
    page, each entry linked to its scan page, and keeps a copy in `data/<slug>-toc.json` for when `_work` is gone.
 10. **Publish** (below). Note queued books in `../queue.md`; record per-book state in `_work/STATUS.md`.
 
