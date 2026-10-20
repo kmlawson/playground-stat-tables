@@ -1,0 +1,2079 @@
+{
+ "_chapters": {
+  "I 土地": "I Land",
+  "II 氣象": "II Meteorology",
+  "III 戶口": "III Population",
+  "IV 教育": "IV Education",
+  "V 社寺": "V Shrines and Temples",
+  "VI 社會事業": "VI Social Work",
+  "VII 裁判及登記": "VII Courts and Registration",
+  "VIII 警察": "VIII Police",
+  "IX 刑務": "IX Prisons",
+  "X 農業": "X Agriculture",
+  "XI 林業": "XI Forestry",
+  "XII 漁業": "XII Fisheries",
+  "XIII 鑛業": "XIII Mining",
+  "XIV 工業": "XIV Industry",
+  "XV 電氣": "XV Electricity",
+  "XVI 商業及金融": "XVI Commerce and Finance",
+  "XVII 貿易": "XVII Trade",
+  "XVIII 交通": "XVIII Communications and Transport",
+  "XIX 專賣": "XIX Monopolies",
+  "XX 衛生": "XX Public Health",
+  "XXI 財政": "XXI Finance",
+  "XXII 職員": "XXII Officials",
+  "XXIII 恩賞": "XXIII Honours and Awards"
+ },
+ "p0026_1": {
+  "t": "Extreme Points of Longitude and Latitude",
+  "d": "Gives the easternmost/westernmost and northernmost/southernmost points (place name and coordinates) for Taiwan as a whole, the main island and the Pescadores."
+ },
+ "p0026_2": {
+  "t": "Circumference and Area",
+  "d": "Gives the number of dependent islands, circumference and area (main island, dependent islands, total) for Taiwan as a whole, the main island and the Pescadores."
+ },
+ "p0026_3": {
+  "t": "Names, Positions, Circumference and Area of Islands",
+  "d": "Lists each island with its longitude and latitude, circumference, area at high and low tide, and distance to the nearest land."
+ },
+ "p0028_1": {
+  "t": "History of Administrative Divisions",
+  "d": "Chart of the successive administrative divisions of Taiwan, one column per date, from the Meiji period to 1 July 1926 (Taishō 15)."
+ },
+ "p0028_2": {
+  "t": "Locations of the Government-General, Prefectures and Districts",
+  "d": "Gives the seat, longitude and latitude of the Government-General and each prefecture and district, as of the end of Shōwa 1 (1926)."
+ },
+ "p0028_3": {
+  "t": "Area and Extreme Points of Prefectures and Districts",
+  "d": "Gives area and the extreme points of longitude and latitude (place names and coordinates) for each prefecture and district, as of the end of Shōwa 1 (1926)."
+ },
+ "p0029_1": {
+  "t": "Jurisdictions of Prefectures, Districts, Counties and Cities",
+  "d": "Lists, for each prefecture and district, its counties and cities and the areas under each, as of the end of Shōwa 1 (1926)."
+ },
+ "p0031_1": {
+  "t": "Locations and Distances of Prefectural, District, County, City Offices and Branch Offices",
+  "d": "Gives the seat of each prefectural/district, county and city office and branch office, with distances to the Government-General and to the prefectural seat by rail, road and sea, as of the end of Shōwa 1 (1926)."
+ },
+ "p0032_1": {
+  "t": "Prefectures, Districts, County Offices, Branch Offices, Town and Village Offices, Ward Offices, and Cities, Towns and Villages",
+  "d": "Counts offices and administrative units (county offices, branches, city offices, town/village offices, ward offices, cities, towns and villages) by prefecture and district, as of the end of Shōwa 1 (1926)."
+ },
+ "p0032_2": {
+  "t": "Leased Land",
+  "d": "Gives leased land area (paddy, dry field, fish pond, building site, total in kō) and land rent (yen) by prefecture and district, as of 1 January 1926."
+ },
+ "p0032_3": {
+  "t": "Unleased Land by Ownership",
+  "d": "Gives area of unleased land (state-owned, privately owned, total in kō) for each 1 January, from Meiji 39 (1906)."
+ },
+ "p0033_1": {
+  "t": "Unleased Land by Region",
+  "d": "Gives unleased land area by category (paddy, dry field, fish pond, building site, salt field, mineral-spring land, etc.) by prefecture and district, as of 1 January 1926."
+ },
+ "p0034_1": {
+  "t": "Land Under Reclamation Tax Exemption Periods",
+  "d": "Gives land under reclamation tax-exemption terms (paddy, dry field, building site, total in kō) by prefecture, at the end of 1925 (Taishō 14), with 1924 for comparison."
+ },
+ "p0034_2": {
+  "t": "Wasteland Under Tax Exemption Periods",
+  "d": "Gives wasteland under tax-exemption terms (paddy, dry field, fish pond, building site, total in kō) by prefecture and district, at the end of 1925."
+ },
+ "p0034_3": {
+  "t": "Irrigated Area of Irrigation Canals and Reservoirs",
+  "d": "Gives irrigated and drained area (irrigation associations, public canals, unrecognised canals, total) and its ratio to paddy and dry fields, by prefecture and district, as of 1 April 1926."
+ },
+ "p0035_1": {
+  "t": "Meteorological Observatories",
+  "d": "Lists each observatory with its location, longitude, latitude and barometer height above sea level, as of the end of Shōwa 1 (1926)."
+ },
+ "p0035_2": {
+  "t": "Storm-Warning Signal Stations",
+  "d": "Lists each signal station with its location, longitude, latitude and mast height, as of the end of Shōwa 1 (1926)."
+ },
+ "p0035_3": {
+  "t": "Mean Atmospheric Pressure",
+  "d": "Gives mean atmospheric pressure (mm) by month at each meteorological observatory."
+ },
+ "p0036_1": {
+  "t": "Mean Temperature",
+  "d": "Gives mean temperature (Celsius) by month at each meteorological observatory."
+ },
+ "p0036_2": {
+  "t": "Mean of Daily Maximum Temperature",
+  "d": "Gives the mean of daily maximum temperature (Celsius) by month at each meteorological observatory."
+ },
+ "p0036_3": {
+  "t": "Mean of Daily Minimum Temperature",
+  "d": "Gives the mean of daily minimum temperature (Celsius) by month at each meteorological observatory."
+ },
+ "p0036_4": {
+  "t": "Extreme Maximum Temperature",
+  "d": "Gives the highest recorded temperature (Celsius) by month at each meteorological observatory."
+ },
+ "p0037_1": {
+  "t": "Extreme Minimum Temperature",
+  "d": "Gives the lowest recorded temperature (Celsius) by month at each meteorological observatory."
+ },
+ "p0037_2": {
+  "t": "Mean Humidity",
+  "d": "Gives mean relative humidity (percent) by month at each meteorological observatory."
+ },
+ "p0037_3": {
+  "t": "Total Rain and Snow",
+  "d": "Gives total precipitation (mm) by month at each meteorological observatory."
+ },
+ "p0037_4": {
+  "t": "Mean Wind Speed",
+  "d": "Gives mean wind speed (metres per second) by month at each meteorological observatory."
+ },
+ "p0038_1": {
+  "t": "Mean Wind Direction",
+  "d": "Gives mean wind direction (degrees) by month at each meteorological observatory."
+ },
+ "p0038_2": {
+  "t": "Mean Cloud Amount",
+  "d": "Gives mean cloud amount (tenths) by month at each meteorological observatory."
+ },
+ "p0038_3": {
+  "t": "Number of Clear Days",
+  "d": "Gives the number of clear days by month at each meteorological observatory."
+ },
+ "p0038_4": {
+  "t": "Number of Cloudy Days",
+  "d": "Gives the number of cloudy days by month at each meteorological observatory."
+ },
+ "p0039_1": {
+  "t": "Number of Days of Rain and Snow",
+  "d": "Gives the number of days with rain or snow by month at each meteorological observatory."
+ },
+ "p0039_2": {
+  "t": "Number of Stormy Days",
+  "d": "Gives the number of stormy days by month at each meteorological observatory."
+ },
+ "p0039_3": {
+  "t": "Number of Days of Thunder and Lightning",
+  "d": "Gives the number of days with thunder and lightning by month at each meteorological observatory."
+ },
+ "p0039_4": {
+  "t": "Number of Earthquakes",
+  "d": "Gives the number of earthquakes by month at each meteorological observatory."
+ },
+ "p0040_1": {
+  "t": "General Table of Static Population",
+  "d": "Gives the resident population at each year end from Meiji 38 (1905) to Taishō 14 (1925), by Japanese, Taiwanese and others and by sex, with prefecture and district breakdown."
+ },
+ "p0040_2": {
+  "t": "Present Population by Region",
+  "d": "Gives the present population by Japanese, Taiwanese and other nationalities and by sex, for each prefecture and district, at the end of 1925."
+ },
+ "p0041_1": {
+  "t": "Present Population by County, City and Branch Office",
+  "d": "Gives the present population by Japanese, Taiwanese and other nationalities and by sex, for each county, city and branch-office area under each prefecture, at the end of 1925."
+ },
+ "p0041_2": {
+  "t": "Present Population by Town, Village and Ward",
+  "d": "Gives the present population by Japanese, Taiwanese and other nationalities and by sex, for each town, village and ward within each county, at the end of 1925."
+ },
+ "p0044_1": {
+  "t": "Households and Population of Indigenous Villages",
+  "d": "Gives the number of Indigenous villages, households and population by sex, by prefecture/district and by ethnic group, at the end of 1925."
+ },
+ "p0045_1": {
+  "t": "General Table of Population Movement",
+  "d": "Gives population change (increases such as births and in-migration; decreases) as a time series for Meiji 39 (1906) to Taishō 14 (1925), with prefecture and district detail for 1925."
+ },
+ "p0046_1": {
+  "t": "Births",
+  "d": "Gives births by sex and legitimacy by prefecture/district and ethnic group for 1925, with earlier years (Taishō 13 back to 9) for comparison."
+ },
+ "p0047_1": {
+  "t": "Births and Stillbirths by Physical Condition and Month",
+  "d": "Gives births and stillbirths by physical condition and by month, for each prefecture/district and ethnic group, in 1925."
+ },
+ "p0047_2": {
+  "t": "Abandoned Children",
+  "d": "Gives the number of abandoned children by sex and ethnic group by prefecture for 1925, with 1924 for comparison."
+ },
+ "p0047_3": {
+  "t": "Deaths",
+  "d": "Gives deaths by sex for Japanese, Taiwanese and others, by prefecture and district, in 1925."
+ },
+ "p0048_1": {
+  "t": "Deaths by Region and Cause",
+  "d": "Gives deaths by cause of disease (typhoid, paratyphoid, malaria, smallpox and others) for each prefecture and district in 1925."
+ },
+ "p0049_1": {
+  "t": "Deaths by Cause, Ethnic Group, Sex and Month",
+  "d": "Gives deaths for each cause of disease by Japanese, Taiwanese and others, by sex and by month, in 1925."
+ },
+ "p0051_1": {
+  "t": "Deaths by Region, Cause and Age Group",
+  "d": "Gives deaths by cause and age group (under 5, 5-9, 10-14, 15-19 and so on) for each prefecture and district in 1925."
+ },
+ "p0051_2": {
+  "t": "Deaths by Poisoning",
+  "d": "Gives deaths by type of poison (fugu, derris, carbolic acid, mercuric chloride, etc.) by ethnic group, for 1925 and earlier years."
+ },
+ "p0052_1": {
+  "t": "Suicides and Unnatural Deaths by Region",
+  "d": "Gives suicides, homicides and other unnatural deaths by sex, for each prefecture/district and ethnic group (Japanese, Taiwanese, foreigners) in 1925, with earlier years."
+ },
+ "p0052_2": {
+  "t": "Opium Suicides (Reprinted)",
+  "d": "Reprints the opium suicides from the preceding table by sex and nationality, by prefecture and year."
+ },
+ "p0053_1": {
+  "t": "Suicides and Unnatural Deaths by Month and Type",
+  "d": "Gives suicides and unnatural deaths by method (e.g. poison), ethnic group, sex and month, in 1925."
+ },
+ "p0056_1": {
+  "t": "Suicides by Cause",
+  "d": "Gives suicides by cause (mental disorder, illness, lovesickness or jealousy, livelihood hardship, etc.) by ethnic group and sex, for 1925 back to 1920."
+ },
+ "p0057_1": {
+  "t": "Suicides by Age Group and Cause",
+  "d": "Gives suicides by cause and ethnic group, broken down by age group and sex, for 1925, with earlier years."
+ },
+ "p0058_1": {
+  "t": "Marriages and Divorces",
+  "d": "Gives marriages by type (ordinary, husband entering wife's family, adoption by marriage, etc.) and divorces, for each prefecture and district in 1925."
+ },
+ "p0058_2": {
+  "t": "Migration",
+  "d": "Gives in-migration and out-migration by sex for each prefecture/district and ethnic group in 1925."
+ },
+ "p0058_3": {
+  "t": "Japanese and Koreans Travelling to and from Taiwan",
+  "d": "Gives Japanese and Koreans who went to or returned from Taiwan in 1925, by home prefecture, sex and occupation."
+ },
+ "p0062_1": {
+  "t": "Japanese and Koreans Travelling to and from Foreign Countries",
+  "d": "Gives Japanese and Koreans departing for or returning from foreign countries in 1925, by port of arrival/departure, sex and occupation."
+ },
+ "p0064_1": {
+  "t": "Taiwanese Travelling to and from Japan",
+  "d": "Gives Taiwanese who went to or returned from Japan in 1925, by home prefecture, sex and occupation."
+ },
+ "p0064_2": {
+  "t": "Taiwanese Travelling to and from Foreign Countries",
+  "d": "Gives Taiwanese departing for or returning from foreign countries in 1925, by home prefecture, destination and sex, with occupation."
+ },
+ "p0067_1": {
+  "t": "Foreigners Travelling to and from Taiwan",
+  "d": "Gives foreigners who went to or returned from Taiwan in 1925, by port, nationality, sex and occupation."
+ },
+ "p0069_1": {
+  "t": "Teachers and Students of Technical Colleges: Enrolled, Admitted and Graduated",
+  "d": "Gives teachers and students (enrolled, admitted, graduated) of the medical and other technical colleges by ethnic group, for FY1925 with earlier years."
+ },
+ "p0069_2": {
+  "t": "Teachers and Students of Higher Schools: Enrolled and Admitted",
+  "d": "Gives teachers (qualified, unqualified) and students enrolled and admitted by course at the higher school, by ethnic group, for FY1925."
+ },
+ "p0069_3": {
+  "t": "Teachers and Students of Normal Schools",
+  "d": "Gives teachers (qualified, unqualified) and students by course at each normal school and ethnic group, for FY1925."
+ },
+ "p0070_1": {
+  "t": "Admissions and Graduations of Normal School Students",
+  "d": "Gives admissions and graduations by course at each normal school and ethnic group, for FY1925 with earlier years."
+ },
+ "p0070_2": {
+  "t": "Teachers and Students of Middle Schools: Enrolled, Admitted and Graduated",
+  "d": "Gives middle-school teachers and students (enrolled, admitted, graduated) by prefecture and school, for FY1925."
+ },
+ "p0070_3": {
+  "t": "Teachers and Students of Girls' High Schools: Enrolled, Admitted and Graduated",
+  "d": "Gives girls' high-school teachers and students (enrolled, admitted, graduated) by prefecture and school, for FY1925."
+ },
+ "p0071_1": {
+  "t": "Teachers and Students of Vocational Schools",
+  "d": "Gives schools, teachers and students of technical, agricultural/forestry and commercial schools by prefecture, for FY1925."
+ },
+ "p0071_2": {
+  "t": "Admissions and Graduations of Vocational School Students",
+  "d": "Gives admissions and graduations at technical, agricultural/forestry and commercial schools by prefecture and ethnic group, for FY1925."
+ },
+ "p0071_3": {
+  "t": "Applicants and Admissions to Regular Courses by School Type",
+  "d": "Gives applicants for and admissions to regular courses at vocational schools and middle schools etc., by ethnic group, for FY1925."
+ },
+ "p0072_1": {
+  "t": "Teachers and Students of Vocational Continuation Schools",
+  "d": "Gives schools, teachers and students (Japanese, Taiwanese) of agricultural and other continuation schools by prefecture and district, for FY1925."
+ },
+ "p0072_2": {
+  "t": "Admissions and Graduations of Vocational Continuation School Students",
+  "d": "Gives admissions and graduations at continuation schools by type, prefecture/district and ethnic group, for FY1925."
+ },
+ "p0072_3": {
+  "t": "Primary Schools, Classes and Teachers",
+  "d": "Gives primary schools (ordinary, ordinary-higher, higher), classes and teachers for Japanese children by prefecture and district, for FY1925."
+ },
+ "p0072_4": {
+  "t": "School-Age Children (Japanese)",
+  "d": "Gives Japanese children who have reached or not yet reached school age, by sex, by prefecture and district, at the end of FY1925."
+ },
+ "p0073_1": {
+  "t": "Attendance and Non-Attendance of School-Age Japanese Children",
+  "d": "Gives Japanese school-age children attending or having completed primary school, or not attending, by prefecture and district, at the end of FY1925."
+ },
+ "p0073_2": {
+  "t": "Blind, Deaf-Mute and Blind-Deaf-Mute Among School-Age Japanese Children",
+  "d": "Gives blind, deaf-mute and blind-deaf-mute school-age Japanese children by sex, by prefecture and district, at the end of FY1925."
+ },
+ "p0073_3": {
+  "t": "Primary School Pupils",
+  "d": "Gives primary-school pupils by course (ordinary, higher), ethnic group and sex, by prefecture and district, for FY1925."
+ },
+ "p0073_4": {
+  "t": "Admissions and Graduations of Primary School Pupils",
+  "d": "Gives admissions and graduations of primary-school pupils by course and sex, by prefecture/district and ethnic group, for FY1925."
+ },
+ "p0074_1": {
+  "t": "Public Schools, Classes and Teachers",
+  "d": "Gives public schools for Taiwanese children (4-year, 6-year courses), classes and teachers by prefecture/district and ethnic group, for FY1925."
+ },
+ "p0075_1": {
+  "t": "School-Age Children (Taiwanese)",
+  "d": "Gives Taiwanese children who have reached or not yet reached school age, by sex, by prefecture and district, at the end of FY1925."
+ },
+ "p0075_2": {
+  "t": "Attendance and Non-Attendance of School-Age Taiwanese Children",
+  "d": "Gives Taiwanese school-age children attending or having completed public school, or not attending, by prefecture and district, at the end of FY1925."
+ },
+ "p0076_1": {
+  "t": "Blind, Deaf-Mute and Blind-Deaf-Mute Among School-Age Taiwanese Children",
+  "d": "Gives blind, deaf-mute and blind-deaf-mute school-age Taiwanese children by sex, by prefecture and district, at the end of FY1925."
+ },
+ "p0076_2": {
+  "t": "Public School Pupils",
+  "d": "Gives public-school pupils by course length (4 or 6 years) and sex, by prefecture/district and ethnic group, for FY1925."
+ },
+ "p0077_1": {
+  "t": "Admissions and Graduations of Public School Pupils",
+  "d": "Gives admissions and graduations of public-school pupils by course length and sex, by prefecture/district and ethnic group, for FY1925."
+ },
+ "p0078_1": {
+  "t": "Schools and Teachers of Schools for the Blind and Deaf-Mute",
+  "d": "Gives public and private schools for the blind and deaf-mute and their teachers, by prefecture, for FY1925."
+ },
+ "p0078_2": {
+  "t": "Students of Schools for the Blind and Deaf-Mute",
+  "d": "Gives blind and deaf-mute students by course and sex, by prefecture and ethnic group, for FY1925."
+ },
+ "p0079_1": {
+  "t": "Admissions and Graduations of Students at Schools for the Blind and Deaf-Mute",
+  "d": "Gives admissions and graduations by course, ethnic group and sex, by prefecture, for FY1925."
+ },
+ "p0079_2": {
+  "t": "Kindergartens",
+  "d": "Gives kindergartens (public, private), nursery teachers and children by prefecture and district, for FY1925."
+ },
+ "p0079_3": {
+  "t": "Teachers and Trainees of the Police and Prison Officer Training Institute",
+  "d": "Gives teachers (instructors, part-time lecturers) and trainees by course at the institute, at the end of 1925 with earlier years."
+ },
+ "p0080_1": {
+  "t": "Changes in Trainees at the Police and Prison Officer Training Institute",
+  "d": "Gives trainees carried over from the previous year, admitted, graduated and otherwise leaving, by course, for 1925."
+ },
+ "p0080_2": {
+  "t": "Expenses of the Police and Prison Officer Training Institute",
+  "d": "Gives ordinary and extraordinary expenses (salaries, office, repairs, travel, etc.) of the institute for FY1925 with earlier years."
+ },
+ "p0080_3": {
+  "t": "Assets of the Police and Prison Officer Training Institute",
+  "d": "Gives site and building floor area (tsubo) of the institute at the end of FY1925, with earlier years."
+ },
+ "p0080_4": {
+  "t": "Private Schools",
+  "d": "Gives private schools, classes, teachers and students by prefecture and ethnic group, for FY1925."
+ },
+ "p0081_1": {
+  "t": "Traditional Private Schools (Shobō)",
+  "d": "Gives shobō schools, teachers and students by sex, by prefecture, for FY1925."
+ },
+ "p0081_2": {
+  "t": "Libraries",
+  "d": "Gives libraries and their holdings (Japanese/Chinese books, Western books) by prefecture, district and type (government, public, private), at the end of FY1925."
+ },
+ "p0082_1": {
+  "t": "Distribution of Newspapers and Magazines",
+  "d": "Gives copies of each newspaper and magazine (Taiwan Nichinichi Shinpō, Tainan Shinpō, etc.) distributed within Taiwan, by prefecture and by origin in Japan, for 1925."
+ },
+ "p0085_1": {
+  "t": "Shrines and Temples",
+  "d": "Gives shrines by rank and Shinto priests, and temples, by prefecture and district, at the end of 1925."
+ },
+ "p0085_2": {
+  "t": "Temples, Missions and Preaching Stations",
+  "d": "Gives Taiwanese temples, vegetarian halls and divine societies, and mission offices by religion, by prefecture and district, at the end of 1925."
+ },
+ "p0086_1": {
+  "t": "Changes in Temples and Preaching Stations",
+  "d": "Gives newly established and abolished temples, vegetarian halls and preaching stations, by prefecture and district, in 1925."
+ },
+ "p0086_2": {
+  "t": "Missionaries and Believers of Preaching Stations",
+  "d": "Gives missionaries and believers (Japanese, Taiwanese, foreign) by prefecture, district and denomination (Shinto, Buddhism, Christianity), at the end of 1925."
+ },
+ "p0087_1": {
+  "t": "Missionaries and Believers of Temples",
+  "d": "Gives missionaries and believers (Japanese, Taiwanese) of Buddhist sects (Honganji-ha Shin, Ōtani-ha Shin, Rinzai, etc.), by prefecture, at the end of 1925."
+ },
+ "p0087_2": {
+  "t": "Disaster Relief Funds by Type",
+  "d": "Gives disaster relief funds (deposits, securities at face and market value, paddy and other land holdings) by prefecture and district local treasury, at the end of FY1925."
+ },
+ "p0088_1": {
+  "t": "Relief Paid from Local Funds",
+  "d": "Gives relief recipients (carried over from the previous year, newly relieved, and total at year end) by sex, ethnic group and category of need, by prefecture, in 1925."
+ },
+ "p0088_2": {
+  "t": "Sick Travellers",
+  "d": "Gives sick travellers assisted (carried over, newly relieved, by sex) by prefecture/district, ethnic group and illness, in 1925."
+ },
+ "p0091_1": {
+  "t": "Reimbursements for Sick Travellers",
+  "d": "Gives the number of persons and amounts reimbursed (yen) for sick-traveller relief, by source (recipients, dependants or heirs, effects left behind) and ethnic group, in 1925."
+ },
+ "p0091_2": {
+  "t": "Costs of Sick-Traveller Relief",
+  "d": "Gives sick-traveller relief costs (yen) by ethnic group and sex for 1925, with earlier years."
+ },
+ "p0091_3": {
+  "t": "Travellers Who Died",
+  "d": "Gives travellers who died by sex, ethnic group and cause, by prefecture and district, in 1925."
+ },
+ "p0092_1": {
+  "t": "Reimbursements for Deceased Travellers",
+  "d": "Gives the number of cases and amounts reimbursed (yen) for deceased travellers, by source and ethnic group, in 1925."
+ },
+ "p0092_2": {
+  "t": "Costs of Handling Deceased Travellers",
+  "d": "Gives costs (yen) of handling deceased travellers by ethnic group and sex for 1925, with earlier years."
+ },
+ "p0092_3": {
+  "t": "Imperial Relief Grants",
+  "d": "Gives imperial relief grants by year and type of disaster (storm and flood, fire, etc.): amount granted, persons and households affected, for 1925 with earlier years."
+ },
+ "p0092_4": {
+  "t": "Members of the Taiwan Branch of the Japanese Red Cross Society",
+  "d": "Gives members (meritorious, special, etc., by sex) by committee district and ethnic group, at the end of 1925."
+ },
+ "p0093_1": {
+  "t": "Inpatients at Taiwan Branch Hospitals of the Japanese Red Cross Society",
+  "d": "Gives inpatients (old and new patients by sex, with charity-treated cases) by disease category and ethnic group, in 1925."
+ },
+ "p0095_1": {
+  "t": "Outpatients at Taiwan Branch Hospitals of the Japanese Red Cross Society",
+  "d": "Gives outpatients (old and new patients by sex) by disease category and ethnic group, in 1925."
+ },
+ "p0097_1": {
+  "t": "Civil Dispute Conciliation Cases Received and Disposed",
+  "d": "Gives civil dispute conciliation cases received (old, new) and disposed of by outcome, by prefecture and district, in 1925."
+ },
+ "p0097_2": {
+  "t": "Civil Conciliation Sessions, Witnesses, On-Site Inspections and Expert Opinions",
+  "d": "Gives cases disposed, sessions held (number, average per case), witnesses, inspections and expert opinions, by prefecture and district, in 1925."
+ },
+ "p0098_1": {
+  "t": "Civil Conciliation Cases by Type",
+  "d": "Gives civil conciliation cases disposed of by type of dispute (personal status, land, buildings and ships, money, etc.), by prefecture and district, in 1925."
+ },
+ "p0098_2": {
+  "t": "Civil Conciliation Cases by Parties",
+  "d": "Gives civil conciliation cases disposed of by type and by parties (between Japanese, between Taiwanese, between Chinese, between corporations, etc.), by prefecture and district, in 1925."
+ },
+ "p0099_1": {
+  "t": "Civil Conciliation Cases by Value in Dispute",
+  "d": "Gives civil conciliation cases disposed of by value of the matter in dispute (10 yen or less, 50, 100, 300 and so on), by prefecture and district, in 1925."
+ },
+ "p0100_1": {
+  "t": "Concluded Civil Conciliation Cases by Parties",
+  "d": "Gives conciliation cases concluded by outcome and by ethnic group of respondents and applicants, by prefecture and district, in 1925 with earlier years."
+ },
+ "p0101_1": {
+  "t": "Settlement Cases Received and Disposed",
+  "d": "Gives settlement (wakai) cases received (old, new) and disposed of, by district court and type, in 1925."
+ },
+ "p0101_2": {
+  "t": "Payment-Order Cases Received and Disposed",
+  "d": "Gives payment-order (tokusoku) cases received and disposed of (orders issued, withdrawn, rejected), by district court, in 1925."
+ },
+ "p0102_1": {
+  "t": "First-Instance Civil Suits Received and Disposed",
+  "d": "Gives first-instance civil suits received (old, new) and disposed of by outcome, by district court and by single-judge or collegiate bench, in 1925."
+ },
+ "p0102_2": {
+  "t": "First-Instance Civil Suits by Type and Value",
+  "d": "Gives first-instance civil suits disposed of by type of suit and value of the matter in dispute, by district court and by single-judge or collegiate bench, in 1925."
+ },
+ "p0106_1": {
+  "t": "First-Instance Civil Suits by Parties",
+  "d": "Gives first-instance civil suits disposed of by type and parties (between Japanese, Taiwanese, Chinese, other foreigners, etc.), by district court and bench, in 1925."
+ },
+ "p0108_1": {
+  "t": "First-Instance Civil Suits: Evidence, Postponements and Hearings",
+  "d": "Gives evidence taking (witnesses, experts), changes and postponements of dates, and hearings, by type of suit and district court, in 1925."
+ },
+ "p0110_1": {
+  "t": "First-Instance Civil Suits by Court-Cost Bracket",
+  "d": "Gives first-instance civil suits disposed of by value of the matter in dispute and by bracket of court costs (under 50 sen, under 1 yen, etc.), in 1925."
+ },
+ "p0111_1": {
+  "t": "Concluded First-Instance Single-Judge Civil Cases",
+  "d": "Gives concluded single-judge cases by defendant's ethnic group and by contested or default judgment, with outcomes (won/lost) by plaintiff's ethnic group, by district court, in 1925."
+ },
+ "p0113_1": {
+  "t": "Concluded First-Instance Collegiate Civil Cases",
+  "d": "Gives concluded collegiate cases by defendant's ethnic group and by contested or default judgment, with outcomes (won/lost) by plaintiff's ethnic group, by district court, in 1925."
+ },
+ "p0115_1": {
+  "t": "First-Instance Civil Objection Cases Received and Disposed",
+  "d": "Gives civil objection (kosho) cases received and disposed of, by district court and bench, in 1925."
+ },
+ "p0116_1": {
+  "t": "Second-Instance Judgments on First-Instance Civil Judgments",
+  "d": "Gives second-instance judgments (won, lost, partly won) on first-instance civil judgments, by original district court or consulate and by appellant's ethnic group, in 1925."
+ },
+ "p0116_2": {
+  "t": "Provisional Seizure and Provisional Disposition Cases Received and Disposed",
+  "d": "Gives provisional seizure and provisional disposition cases received (old, new) and disposed of, by court, in 1925."
+ },
+ "p0116_3": {
+  "t": "Enforcement Cases Received and Disposed",
+  "d": "Gives enforcement cases (claims and other property rights, distribution procedures, compulsory auctions and others) received and disposed of, by district court, in 1925."
+ },
+ "p0117_1": {
+  "t": "Civil Interlocutory Appeals Received and Disposed",
+  "d": "Gives civil interlocutory appeals (kokoku) received (old, new) and disposed of, by original court, in 1925."
+ },
+ "p0117_2": {
+  "t": "Second-Instance Civil Suits Received and Disposed",
+  "d": "Gives second-instance civil suits received and disposed of (judgments, dismissals, etc.) by original district court and consulate, in 1925."
+ },
+ "p0117_3": {
+  "t": "Civil Retrials Received and Disposed",
+  "d": "Gives civil retrial cases received and disposed of, by court (High Court appeal and appellate divisions, district courts), in 1925."
+ },
+ "p0118_1": {
+  "t": "Second-Instance Civil Suits by Type and Value",
+  "d": "Gives second-instance civil suits disposed of by type of suit and value of the matter in dispute, by original district court, in 1925."
+ },
+ "p0120_1": {
+  "t": "Second-Instance Civil Suits by Parties",
+  "d": "Gives second-instance civil suits disposed of by type and parties (between Japanese, Taiwanese, other foreigners, corporations, etc.), by original district court, in 1925."
+ },
+ "p0121_1": {
+  "t": "Second-Instance Civil Suits: Evidence, Postponements and Hearings",
+  "d": "Gives evidence taking, changes and postponements of dates, and hearings in second-instance suits, by type of suit and original district court, in 1925."
+ },
+ "p0122_1": {
+  "t": "Second-Instance Civil Suits by Court-Cost Bracket",
+  "d": "Gives second-instance civil suits disposed of by value of the matter in dispute and by bracket of court costs, in 1925."
+ },
+ "p0123_1": {
+  "t": "Concluded Second-Instance Civil Cases",
+  "d": "Gives concluded second-instance cases by respondent's ethnic group and by contested or default judgment, with outcomes for appellants by ethnic group, by original district court, in 1925."
+ },
+ "p0125_1": {
+  "t": "Second-Instance Civil Objection Cases Received and Disposed",
+  "d": "Gives second-instance civil objection cases received and disposed of, by original district court, in 1925 with earlier years."
+ },
+ "p0125_2": {
+  "t": "Third-Instance Judgments on Second-Instance Civil Judgments",
+  "d": "Gives third-instance judgments (won, lost, partly won) on second-instance judgments, by original court and appellant, in 1925."
+ },
+ "p0125_3": {
+  "t": "Civil Judicial Assistance Cases Received and Disposed",
+  "d": "Gives judicial assistance requests (service of documents, taking of evidence) received (old, new from Taiwan, Japan proper and Korea) and disposed of, by district court, in 1925."
+ },
+ "p0125_4": {
+  "t": "Bailiff Cases Received and Disposed",
+  "d": "Gives bailiff (shittatsu) cases received and disposed of (including enforcement against movables), by district court, in 1925."
+ },
+ "p0125_5": {
+  "t": "Third-Instance Civil Suits Received and Disposed",
+  "d": "Gives third-instance civil suits received and disposed of (judgments, dismissals, etc.) by court, for 1925 with earlier years."
+ },
+ "p0126_1": {
+  "t": "Third-Instance Civil Suits by Type and Value",
+  "d": "Gives third-instance civil suits disposed of by type of suit and value of the matter in dispute, in 1925."
+ },
+ "p0126_2": {
+  "t": "Third-Instance Civil Suits by Parties",
+  "d": "Gives third-instance civil suits disposed of by type of suit and parties (between Japanese, Taiwanese, corporations, etc.), in 1925."
+ },
+ "p0126_3": {
+  "t": "Third-Instance Civil Suits: Postponements and Hearings",
+  "d": "Gives postponements and changes of dates (cases and times, by court, appellant, respondent) and hearings in third-instance suits, by type, in 1925."
+ },
+ "p0126_4": {
+  "t": "Third-Instance Civil Suits by Court-Cost Bracket",
+  "d": "Gives third-instance civil suits disposed of by value of the matter in dispute and by bracket of court costs, in 1925."
+ },
+ "p0126_5": {
+  "t": "Concluded Third-Instance Civil Cases",
+  "d": "Gives concluded third-instance cases by appellant's outcome (won/lost) and ethnic group, by respondent's ethnic group and original court, in 1925."
+ },
+ "p0126_6": {
+  "t": "Third-Instance Civil Objection Cases Received and Disposed",
+  "d": "Gives third-instance civil objection cases received and disposed of (dismissed, quashed) for 1924 and earlier years."
+ },
+ "p0127_1": {
+  "t": "Cases Received and Disposed by District Court Prosecutors",
+  "d": "Gives criminal cases received (old, new by source such as police and gendarmerie) and disposed of by district court prosecutors' offices, in 1925."
+ },
+ "p0127_2": {
+  "t": "Cases Received and Disposed by High Court Prosecutors",
+  "d": "Gives cases received and disposed of by the High Court prosecutors (including appeals against non-prosecution decisions), for 1925 with earlier years."
+ },
+ "p0127_3": {
+  "t": "First-Instance Criminal Cases Received and Disposed by Court",
+  "d": "Gives first-instance criminal cases received and disposed of (judgments by outcome), by district court and by single-judge or collegiate bench, in 1925."
+ },
+ "p0127_4": {
+  "t": "Preliminary Examination Cases Received and Disposed",
+  "d": "Gives preliminary examination cases received and disposed of, by district court, in 1925."
+ },
+ "p0128_1": {
+  "t": "First-Instance Criminal Cases by Offence",
+  "d": "Gives first-instance criminal cases received (with or without preliminary examination) and disposed of, by offence, in 1925."
+ },
+ "p0128_2": {
+  "t": "First-Instance Criminal Objection Cases by Court",
+  "d": "Gives first-instance criminal objection cases received and disposed of, for 1924 and earlier years."
+ },
+ "p0128_3": {
+  "t": "First-Instance Criminal Objection Cases by Offence",
+  "d": "Gives first-instance criminal objection cases received and disposed of by offence, for 1924 and earlier years."
+ },
+ "p0128_4": {
+  "t": "First-Instance Special Criminal Cases",
+  "d": "Gives special criminal cases received and disposed of (guilty, not guilty) by offence, for earlier years (Taishō 10-13)."
+ },
+ "p0128_5": {
+  "t": "Criminal Appeals Received and Disposed by Court",
+  "d": "Gives criminal appeals (koso) received and disposed of (judgments, guilty, etc.) by original district court, in 1925."
+ },
+ "p0129_1": {
+  "t": "Criminal Appeals by Offence",
+  "d": "Gives criminal appeals received and disposed of by offence (obstructing officials, arson, flooding offences, etc.), in 1925."
+ },
+ "p0129_2": {
+  "t": "Criminal Final Appeals by Court",
+  "d": "Gives criminal final appeals (jokoku) received and disposed of by original court, for 1925 with 1924."
+ },
+ "p0129_3": {
+  "t": "Criminal Final Appeals by Offence",
+  "d": "Gives criminal final appeals received and disposed of by offence, in 1925."
+ },
+ "p0129_4": {
+  "t": "Criminal Judicial Assistance Cases Received and Disposed",
+  "d": "Gives criminal judicial assistance requests received (old, new from Taiwan, Japan proper and Korea) and disposed of, by authority and type, in 1925."
+ },
+ "p0129_5": {
+  "t": "Summary Criminal Proceedings Received and Disposed",
+  "d": "Gives summary-order criminal cases received and disposed of (including transfer to public trial), by district court, in 1925."
+ },
+ "p0130_1": {
+  "t": "Collection of Fines and Other Sums",
+  "d": "Gives sums imposed (old, new, total, in yen) and collected (including by compulsory enforcement) by prosecutors' office and type (fine, petty fine, forfeiture), in 1925."
+ },
+ "p0131_1": {
+  "t": "Criminal Interlocutory Appeals Received and Disposed",
+  "d": "Gives criminal interlocutory appeals received (old, new) and disposed of (including revocation) by original district court, in 1925."
+ },
+ "p0131_2": {
+  "t": "Persons Detained by Length of Detention",
+  "d": "Gives persons detained (convicted or awaiting trial) by court and trial type, by length of detention (up to 3 days, 5 days, 10 days, 15 days, etc.), in 1925."
+ },
+ "p0133_1": {
+  "t": "Real Estate Registrations, Items and Registration Tax",
+  "d": "Gives real-estate registrations (cases and items taxed, registration tax, cases not taxed) by registry office (district courts, branches, sub-offices), in 1925."
+ },
+ "p0133_2": {
+  "t": "Real Estate Registrations by Type",
+  "d": "Gives real-estate registration cases by type of registration (acquisition of ownership by inheritance, gift, sale, etc.), by district court, branch and sub-office, in 1925."
+ },
+ "p0133_3": {
+  "t": "Ship Registrations, Items and Registration Tax by Type",
+  "d": "Gives ship registrations by type (preservation of ownership, acquisition of mortgage, etc.): cases and items taxed, tax and fees, and cases not taxed, in 1925."
+ },
+ "p0133_4": {
+  "t": "Ship Registrations",
+  "d": "Gives ship registration cases by type (acquisition of ownership by sale, preservation of ownership, acquisition of mortgage, correction, etc.), by registry office, for 1925 with earlier years."
+ },
+ "p0134_1": {
+  "t": "Commercial Company and Corporate Registrations",
+  "d": "Gives registrations (establishment, branch offices, capital increases etc.) by registry office and type of company (partnership, limited partnership, joint-stock), in 1925."
+ },
+ "p0136_1": {
+  "t": "Registration Tax and Fees for Commercial Companies and Corporations",
+  "d": "Gives registration tax and fees (yen) by type of company (partnership, limited partnership, joint-stock, joint-stock limited partnership), for 1925 with earlier years."
+ },
+ "p0136_2": {
+  "t": "Registrations of Various Kinds",
+  "d": "Gives registrations, changes, corrections and cancellations of items (trade names, minors, wives, etc.) by registry office, in 1925."
+ },
+ "p0137_1": {
+  "t": "Certified Copies, Extracts and Other Registry Items and Fees",
+  "d": "Gives certified copies and extracts of registers (cases, sheets, fees in yen) by register type (land, buildings, trade names, etc.), in 1925."
+ },
+ "p0137_2": {
+  "t": "Notarial Business by Authority",
+  "d": "Gives notarial deeds (originals, authenticated copies, extract copies, transcripts) by notarial office (district courts, branches, sub-offices), in 1925."
+ },
+ "p0137_3": {
+  "t": "Notarial Business by Type",
+  "d": "Gives notarial deeds by type of matter (employment, mandate, corporations and partnerships, etc.), by district court, branch and sub-office, in 1925."
+ },
+ "p0138_1": {
+  "t": "Fixed-Date Certifications Received by Type",
+  "d": "Gives fixed-date certification cases received by type (personal status, land, buildings and ships, money, etc.), by authority, in 1925."
+ },
+ "p0138_2": {
+  "t": "Fixed-Date Certifications Received by Ethnic Group",
+  "d": "Gives fixed-date certification cases received by type and by parties (between Japanese, between Japanese and Taiwanese, others), in 1925."
+ },
+ "p0139_1": {
+  "t": "Police Offices and Police Officers",
+  "d": "Gives police offices (divisions, stations etc.) and police officers by rank and ethnic group, by prefecture and district, at the end of 1925, with earlier years."
+ },
+ "p0139_2": {
+  "t": "Theft, Fraud, Extortion and Embezzlement",
+  "d": "Gives cases (damage in number and value in yen; arrests in cases and persons) of robbery, theft, fraud, extortion and embezzlement, by prefecture/district and by month, in 1925."
+ },
+ "p0140_1": {
+  "t": "Fires by Region",
+  "d": "Gives fires by cause (accidental, arson, lightning, suspicious), with damage, by prefecture and district, in 1925 with earlier years."
+ },
+ "p0140_2": {
+  "t": "Fires by Month",
+  "d": "Gives the number of fires by cause (accidental, arson, lightning, etc.) by month in 1925."
+ },
+ "p0141_1": {
+  "t": "Police Rescues by Rescuer",
+  "d": "Gives rescues of houses, ships and persons by prefecture/district, by who performed them (police, Japanese, Taiwanese, foreigners, etc.), in 1925."
+ },
+ "p0142_1": {
+  "t": "Police Rescues by Incident",
+  "d": "Gives rescues by type of incident (attempted theft, collapsing houses, etc.) by prefecture/district and ethnic group, in 1925."
+ },
+ "p0143_1": {
+  "t": "Summary Judgments in Criminal Cases Received and Disposed",
+  "d": "Gives summary-judgment cases (gambling, assault and injury, etc.) received (old, new) and disposed of, by prefecture/district and offence, in 1925, with formal-trial requests for earlier years."
+ },
+ "p0144_1": {
+  "t": "Persons Dealt with by Summary Judgment",
+  "d": "Gives persons summarily dealt with by offence (gambling, etc.) and penalty (fine, petty fine, imprisonment), by prefecture/district and ethnic group, in 1925."
+ },
+ "p0145_1": {
+  "t": "Offenders in Opium Cases",
+  "d": "Gives opium offenders by type of offence, ethnic group and sex, by place of offence (plains areas by prefecture), in 1925."
+ },
+ "p0146_1": {
+  "t": "Opium Offenders by Age Group",
+  "d": "Gives opium offenders by age group (under 20, 20 and over, etc.), sex, place of offence and ethnic group, in 1925."
+ },
+ "p0148_1": {
+  "t": "Deaths and Injuries in Police Duty",
+  "d": "Gives police personnel (by rank) and civilians (by ethnic group) killed and injured in police duty, by prefecture and district, in 1925."
+ },
+ "p0148_2": {
+  "t": "Deaths and Injuries in Indigenous-Affairs Police Duty",
+  "d": "Gives police personnel (by rank) and civilians killed and injured in indigenous-affairs police duty, by prefecture and district, in 1925."
+ },
+ "p0148_3": {
+  "t": "Indigenous Attacks by Region",
+  "d": "Gives persons killed and injured in attacks by Indigenous people, by sex and ethnic group of victim, by prefecture, for 1925 and 1924."
+ },
+ "p0148_4": {
+  "t": "Indigenous Attacks by Month",
+  "d": "Gives persons killed and injured in attacks by Indigenous people, by month and prefecture, for 1925 and 1924."
+ },
+ "p0148_5": {
+  "t": "Killings and Injuries of Indigenous People, and Among Indigenous People",
+  "d": "Gives incidents and persons killed and injured (by sex) in killings of Indigenous people and in clashes among Indigenous people, by prefecture and district, in 1925."
+ },
+ "p0149_1": {
+  "t": "Killings and Injuries of Indigenous People, and Among Indigenous People, by Month",
+  "d": "Gives persons killed and injured by month, for attacks on Indigenous people and clashes among Indigenous people, by prefecture and district, in 1925."
+ },
+ "p0149_2": {
+  "t": "Education of Indigenous Children",
+  "d": "Gives education stations and children taught under the Indigenous-children education standard, by prefecture/district, county and branch office, at the end of 1925."
+ },
+ "p0149_3": {
+  "t": "Privately Owned Firearms",
+  "d": "Gives privately owned military rifles and hunting guns by owner's ethnic group, by prefecture and district, at the end of 1925."
+ },
+ "p0150_1": {
+  "t": "Firearms and Gunpowder Held by Dealers",
+  "d": "Gives commercially held firearms (hunting guns, pistols, cane guns, etc.) and gunpowder by type and unit, by prefecture, at the end of 1925."
+ },
+ "p0150_2": {
+  "t": "Changes in Firearms and Gunpowder Held by Dealers",
+  "d": "Gives dealers' firearms and gunpowder by type: stock at the end of the previous year, additions (manufactured, purchased), decreases and balance, in 1925."
+ },
+ "p0150_3": {
+  "t": "Hunting Licences Issued and Holders",
+  "d": "Gives hunting licences newly issued or renewed (professional, recreational, pest control, scientific and other), by prefecture/district and ethnic group, for FY1925."
+ },
+ "p0151_1": {
+  "t": "Occupations Subject to Police Regulation",
+  "d": "Gives the number of persons in occupations under police supervision (gun makers, gun dealers, gunpowder dealers, etc.) by ethnic group and prefecture, at the end of 1925."
+ },
+ "p0155_1": {
+  "t": "Prison Inmates",
+  "d": "Gives convicted inmates by ethnic group (Japanese, Taiwanese, Chinese) and sex, by prison, at the end of 1925."
+ },
+ "p0155_2": {
+  "t": "Sick Inmates and Deaths by Prison",
+  "d": "Gives sick inmates and deaths among Japanese and among Taiwanese and Chinese, by prison, in 1925."
+ },
+ "p0155_3": {
+  "t": "Sick Inmates and Deaths by Disease",
+  "d": "Gives sick inmates (carried over, ill before entry, ill after entry) and deaths by disease category and sex, in 1925."
+ },
+ "p0156_1": {
+  "t": "Convicts by Offence",
+  "d": "Gives convicts by offence, ethnic group and prison (Taihoku, etc.), at the end of 1925."
+ },
+ "p0157_1": {
+  "t": "Convicts by Sentence",
+  "d": "Gives convicts by sentence (life penal servitude, fixed-term penal servitude, etc.), ethnic group and sex, by prison, at the end of 1925."
+ },
+ "p0158_1": {
+  "t": "Convicts by Admission and Discharge",
+  "d": "Gives convicts carried over from the previous year, admitted (new, transferred, returned) and discharged, by prison, ethnic group and sex, in 1925."
+ },
+ "p0161_1": {
+  "t": "Newly Admitted Convicts",
+  "d": "Gives newly admitted convicts by offence, ethnic group and sex and by sentence (death, life, fixed-term penal servitude, etc.), in 1925 with earlier years."
+ },
+ "p0164_1": {
+  "t": "Newly Admitted Convicts by Offence and Age on Admission",
+  "d": "Gives newly admitted convicts by offence, ethnic group, sex and age group on admission (under 18, under 20, etc.), in 1925."
+ },
+ "p0166_1": {
+  "t": "Newly Admitted Convicts by Offence and Property",
+  "d": "Gives newly admitted convicts by offence and ethnic group, by property status (propertied, slightly propertied, etc.) and sex, in 1925."
+ },
+ "p0167_1": {
+  "t": "Newly Admitted Convicts by Offence, Education and Religion",
+  "d": "Gives newly admitted convicts by offence and ethnic group, by level of education (higher, middle, primary) and by religion, in 1925."
+ },
+ "p0169_1": {
+  "t": "Criminal Defendants by Admission and Discharge",
+  "d": "Gives criminal defendants held, carried over, admitted (new, returned, transferred) and discharged, by prison, ethnic group and sex, in 1925."
+ },
+ "p0172_1": {
+  "t": "Detainees by Admission and Discharge",
+  "d": "Gives detainees held in custody, carried over, admitted and discharged, by prison, ethnic group and sex, in 1925."
+ },
+ "p0173_1": {
+  "t": "Education of Inmates",
+  "d": "Gives inmates in classes (by level, from first year) by age group, course (ordinary primary or public school level) and sex, in 1925."
+ },
+ "p0173_2": {
+  "t": "Inmate Labour: Man-Days, Wages and Work Bonuses",
+  "d": "Gives inmate labour by trade (e.g. tailoring) and sex: man-days worked, wages (total, average per person-day) and work bonuses, for FY1925."
+ },
+ "p0174_1": {
+  "t": "Income and Expenditure of Inmate Labour",
+  "d": "Gives income (government work, contract work, total) and expenditure (e.g. agricultural materials) of inmate labour, for FY1925 with earlier years."
+ },
+ "p0174_2": {
+  "t": "Results of Discharged-Prisoner Aid",
+  "d": "Gives discharged-prisoner aid organisations (Sansei Kyōkai hostels) with persons housed (carried over, admitted, released, year-end), for FY1925."
+ },
+ "p0174_3": {
+  "t": "Farm Households and Population",
+  "d": "Gives farm households (owner-cultivators, part-tenants, tenants, total) and population by prefecture and district, at the end of 1925."
+ },
+ "p0174_4": {
+  "t": "Paddy and Dry-Field Area by Year",
+  "d": "Gives paddy and dry-field area (kō) at each year end from Meiji 31 (1898)."
+ },
+ "p0174_5": {
+  "t": "Paddy and Dry-Field Area by Region",
+  "d": "Gives paddy (double-crop, single-crop first and second crop) and dry-field area (kō) by prefecture and district, at the end of 1925."
+ },
+ "p0175_1": {
+  "t": "Agricultural Crops",
+  "d": "Gives planted area (kō) of rice, barley, wheat, soybeans and other crops, by prefecture and district, in 1925."
+ },
+ "p0175_2": {
+  "t": "Average Yield per Kō of Crops",
+  "d": "Gives average yield per kō (koku) of barley, wheat, soybeans and other crops, by prefecture and district, in 1925."
+ },
+ "p0176_1": {
+  "t": "Approximate Prices of Main Agricultural Products",
+  "d": "Gives approximate values (yen) of rice, barley, wheat, soybeans and other main agricultural products, by prefecture and district, in 1925."
+ },
+ "p0176_2": {
+  "t": "Rice Planting and Harvest",
+  "d": "Gives rice planted area (japonica and glutinous; paddy and upland) and harvest in husked rice, by prefecture/district and crop season (first, second), in 1925."
+ },
+ "p0177_1": {
+  "t": "Average Yield of Husked Rice per Kō",
+  "d": "Gives average yield of husked rice per kō (koku) for paddy and upland rice, by crop season, prefecture and district, in 1925."
+ },
+ "p0177_2": {
+  "t": "Sugar Cane Harvest",
+  "d": "Gives sugar cane harvested area (native varieties, improved varieties and totals in kō) by prefecture and district, for the 1925 crop (July 1924 to June 1925)."
+ },
+ "p0177_3": {
+  "t": "Average Sugar Cane Yield per Kō",
+  "d": "Gives average sugar cane yield per kō (catties) by prefecture/district and land category (paddy, dry field), plains or Indigenous districts, for the 1925 crop."
+ },
+ "p0178_1": {
+  "t": "Sugar Cane Planting and Expected Harvest",
+  "d": "Gives sugar cane planted area (native and improved varieties; new planting, ratoon) and expected harvest by prefecture and district, for the 1925 crop (July 1924 to June 1925)."
+ },
+ "p0178_2": {
+  "t": "Green-Manure Crops",
+  "d": "Gives green-manure crop area (kō) by crop, planted singly, by prefecture and district, in 1925."
+ },
+ "p0179_1": {
+  "t": "Vegetables",
+  "d": "Gives production (catties) of radish, other root vegetables, ginger, taro and other vegetables, by prefecture and district, in 1925."
+ },
+ "p0180_1": {
+  "t": "Fruit Trees and Cultivated Area",
+  "d": "Gives fruit trees and cultivated area by kind (citrus varieties and others), by prefecture and district, at the end of 1925."
+ },
+ "p0181_1": {
+  "t": "Fruit Harvest and Approximate Prices",
+  "d": "Gives fruit harvest (catties) by kind, with approximate prices, by prefecture and district, in 1925."
+ },
+ "p0182_1": {
+  "t": "Tea, Mulberry and Indigo Fields",
+  "d": "Gives tea fields (planted and picked area), mulberry fields and indigo fields (kō) by prefecture/district and region (plains, Indigenous districts), in 1925."
+ },
+ "p0183_1": {
+  "t": "Sericulture",
+  "d": "Gives sericulture households, egg-sheets hatched and cocoon production by prefecture/district and region (plains, Indigenous districts), in 1925."
+ },
+ "p0183_2": {
+  "t": "Number of Cattle",
+  "d": "Gives cattle (water buffalo and others; female, male, castrated) by prefecture and district, at the end of 1925."
+ },
+ "p0183_3": {
+  "t": "Number of Pigs",
+  "d": "Gives pigs (native and other breeds; female, male, castrated) by prefecture and district, at the end of 1925."
+ },
+ "p0184_1": {
+  "t": "Goats and Other Livestock",
+  "d": "Gives goats (female, male, castrated) and other livestock by prefecture and district, at the end of 1925."
+ },
+ "p0184_2": {
+  "t": "Approximate Prices of Livestock",
+  "d": "Gives approximate prices (yen) of cattle (water buffalo, yellow cattle, Western cattle, Indian cattle) and other livestock, by prefecture and district, at the end of 1925."
+ },
+ "p0185_1": {
+  "t": "Calves Born",
+  "d": "Gives cattle born (water buffalo, yellow cattle, etc.; female, male) by prefecture and district, in 1925."
+ },
+ "p0185_2": {
+  "t": "Pigs and Other Livestock Born",
+  "d": "Gives pigs (native and Western breeds) and other livestock born, by sex, by prefecture and district, in 1925."
+ },
+ "p0185_3": {
+  "t": "Cattle Deaths",
+  "d": "Gives cattle deaths (water buffalo and others; female, male, castrated) by prefecture and district, in 1925 with earlier years."
+ },
+ "p0186_1": {
+  "t": "Deaths of Pigs and Other Livestock",
+  "d": "Gives deaths of pigs (native breed; female, male, castrated) and other livestock by prefecture and district, in 1925 with earlier years."
+ },
+ "p0187_1": {
+  "t": "Dairy Cattle",
+  "d": "Gives dairy households and dairy cattle (Western, Indian, water buffalo) by prefecture and district, at the end of 1925."
+ },
+ "p0188_1": {
+  "t": "Cattle Markets",
+  "d": "Gives cattle markets (sessions held and animals brought in, by kind and sex) by prefecture, in 1925."
+ },
+ "p0188_2": {
+  "t": "Ranches",
+  "d": "Lists ranches by prefecture/district and name, with location, year founded, area and livestock numbers, at the end of 1925."
+ },
+ "p0189_1": {
+  "t": "Slaughter of Livestock",
+  "d": "Gives slaughterhouses at year end and animals slaughtered (number, quantity in catties, value in yen) by kind, by prefecture and district, in 1925."
+ },
+ "p0189_2": {
+  "t": "Poultry",
+  "d": "Gives fowls, ducks, geese, turkeys and other poultry by prefecture and district, at the end of 1925."
+ },
+ "p0190_1": {
+  "t": "Forest and Field Area",
+  "d": "Gives state-owned and publicly owned forest and field area (kō) by prefecture/district and region (plains, Indigenous districts), at the end of 1925."
+ },
+ "p0190_2": {
+  "t": "Protection Forests",
+  "d": "Gives protection forests (sites and area in kō) by prefecture and district, at the end of FY1925."
+ },
+ "p0190_3": {
+  "t": "Leases and Prior-Contract Sales of State Forest and Field Land",
+  "d": "Gives leases and prior-contract sales of state forest and field land by governing regulation, by prefecture and district, in 1925."
+ },
+ "p0191_1": {
+  "t": "Afforestation",
+  "d": "Gives afforestation area (kō) by state (camphor and other) and private operators, by prefecture and district, for FY1925."
+ },
+ "p0191_2": {
+  "t": "Nurseries and Test Plots",
+  "d": "Gives nurseries and test plots (state, private; camphor and other) by prefecture and district, at the end of FY1925."
+ },
+ "p0191_3": {
+  "t": "Forest Revenue",
+  "d": "Gives forest revenue (main products, by-products, protection-forest fees, total, in yen) by prefecture, for FY1925."
+ },
+ "p0191_4": {
+  "t": "Sales of Main Products from State Forests and Fields",
+  "d": "Gives quantities of main products sold (timber, firewood, bamboo, camphor raw materials, etc.) from state forests and fields, by prefecture and district, for FY1925."
+ },
+ "p0192_1": {
+  "t": "Sales of By-Products from State Forests and Fields",
+  "d": "Gives quantities of by-products sold (earth and stone, bamboo shoots, nuts, rattan, etc.) from state forests and fields, by prefecture and district, for FY1925."
+ },
+ "p0192_2": {
+  "t": "Timber",
+  "d": "Gives timber output (raw material and processed products; quantity in koku and value in yen) by prefecture and district, in 1925."
+ },
+ "p0192_3": {
+  "t": "Bamboo and Bamboo Shoots",
+  "d": "Gives bamboo (poles) and shoots (catties) by species, by prefecture and district, in 1925 with earlier years."
+ },
+ "p0193_1": {
+  "t": "Rattan",
+  "d": "Gives rattan (round and split; quantity in catties and value in yen) by prefecture and district, in 1925."
+ },
+ "p0193_2": {
+  "t": "Firewood and Charcoal Production and Consumption",
+  "d": "Gives production and inter-region shipments of charcoal and firewood (quantity in catties, value in yen), by prefecture and district, in 1925."
+ },
+ "p0194_1": {
+  "t": "Industrial Consumption of Firewood and Charcoal by Use",
+  "d": "Gives quantity (catties) and value (yen) of charcoal and firewood consumed in industry by use (sugar-refining auxiliary fuel, tea manufacturing, etc.), by prefecture, in 1925."
+ },
+ "p0195_1": {
+  "t": "Fishery Workers by Year",
+  "d": "Gives fishery and seaweed-gathering workers (Japanese, Taiwanese; full-time, part-time) at each year end from Meiji 33 (1900)."
+ },
+ "p0195_2": {
+  "t": "Fishery Workers by Region",
+  "d": "Gives fishery and seaweed-gathering workers (Japanese, Taiwanese; full-time, part-time) by prefecture and district, at the end of 1925."
+ },
+ "p0195_3": {
+  "t": "Fishing Boats and Gear",
+  "d": "Gives fishing boats (steam-powered, engine-powered, etc.: number, tonnage, horsepower) and gear by prefecture and district, at the end of 1925."
+ },
+ "p0196_1": {
+  "t": "Fish Catch",
+  "d": "Gives catch by species (sardines, bonito, frigate mackerel, sea bream, etc.) by prefecture and district, in 1925."
+ },
+ "p0199_1": {
+  "t": "Marine Products Manufactured",
+  "d": "Gives processed marine products (dried bonito, shark fin, etc.) by prefecture and district, in 1925."
+ },
+ "p0200_1": {
+  "t": "Aquaculture Ponds",
+  "d": "Gives aquaculture ponds (number and area in kō) for milkfish, oysters and others, by prefecture and district, at the end of 1925."
+ },
+ "p0200_2": {
+  "t": "Aquaculture Harvest",
+  "d": "Gives aquaculture harvest of milkfish, silver carp, grass carp, mud carp and other fish by prefecture and district, in 1925."
+ },
+ "p0200_3": {
+  "t": "Salt Makers",
+  "d": "Gives salt makers (full-time and part-time workers and dependants) by prefecture, at the end of 1925."
+ },
+ "p0200_4": {
+  "t": "Salt Field Area and Salt Output",
+  "d": "Gives salt-field area (kō) at year end and salt output (quantity in catties, value in yen), by prefecture, in 1925."
+ },
+ "p0201_1": {
+  "t": "Mining Applications Received and Disposed",
+  "d": "Gives mining applications (permits, changes of mining area) received (old, new) and disposed of (permitted etc.) by type, in 1925."
+ },
+ "p0201_2": {
+  "t": "Number and Area of Mining Districts",
+  "d": "Gives mining districts (number and area in tsubo) by mineral (gold, gold-copper, etc.), by prefecture and district, and by working or idle status, at the end of 1925."
+ },
+ "p0202_1": {
+  "t": "Minerals Extracted",
+  "d": "Gives quantities of minerals extracted (gold, placer gold, gold-copper ore, gold ore, etc.) by prefecture, in 1925."
+ },
+ "p0202_2": {
+  "t": "Sales of Minerals and Mineral Products",
+  "d": "Gives quantities of minerals and their products sold (gold, placer gold, gold-copper ore, etc.) by prefecture, in 1925."
+ },
+ "p0203_1": {
+  "t": "Miners Employed by Mining Type and Ethnic Group",
+  "d": "Gives miners employed by type of mining, ethnic group and sex, by half-year, for 1925 and 1924."
+ },
+ "p0204_1": {
+  "t": "Miners' Working Days and Man-Days by Mining Type",
+  "d": "Gives mining districts, working days and total man-days (mining, refining) by type of mining, in 1925 and earlier years."
+ },
+ "p0204_2": {
+  "t": "Coal and Coke Consumed in Taiwan by Origin and Use",
+  "d": "Gives coal and coke consumed in Taiwan by use (railways etc.) and grade, with quantity (tons), value and unit price for Japanese and Taiwanese origin, in 1925."
+ },
+ "p0205_1": {
+  "t": "Crude Tea",
+  "d": "Gives crude tea output (catties) by season (spring, summer, autumn, winter) by prefecture/district and region (plains, Indigenous districts), in 1925."
+ },
+ "p0205_2": {
+  "t": "Refined Tea",
+  "d": "Gives refined tea output (oolong, pouchong, green, black, etc.; catties) by prefecture, in 1925."
+ },
+ "p0205_3": {
+  "t": "Sugar Mills",
+  "d": "Gives the number of modern sugar mills by capacity class (1,000 tons or more, 500 tons or more, under 500) and other mills, by prefecture and district, for the 1925 sugar year (November 1924 to October 1925)."
+ },
+ "p0206_1": {
+  "t": "Sugar Manufacture",
+  "d": "Gives, by company and mill, the number of mills, capital, paid-up capital and machinery capacity (tons), with production data, for the 1925 sugar year (November 1924 to October 1925)."
+ },
+ "p0207_1": {
+  "t": "Sugar Refining",
+  "d": "Gives raw sugar used (first to fourth grades; catties) and refined output by prefecture, for the 1925 sugar year (November 1924 to October 1925)."
+ },
+ "p0207_2": {
+  "t": "Rice Hulling and Polishing",
+  "d": "Gives paddy hulled and husked rice (quantity in koku and value in yen), with polished rice, by prefecture and district, in 1925."
+ },
+ "p0208_1": {
+  "t": "Flour Milling",
+  "d": "Gives flour output (quantity in catties and value in yen) by type, by prefecture, in 1925."
+ },
+ "p0208_2": {
+  "t": "Noodles",
+  "d": "Gives noodle output (udon and thick noodles, thin noodles and somen; catties and yen) by prefecture and district, in 1925."
+ },
+ "p0208_3": {
+  "t": "Soy Sauce and Miso",
+  "d": "Gives soy sauce (Japanese style, Taiwanese style) and miso output and value, by prefecture and district, in 1925."
+ },
+ "p0209_1": {
+  "t": "Alcohol",
+  "d": "Gives alcohol output (koku) and value excluding tax (yen) by prefecture and district, for the alcohol year March 1925 to February 1926."
+ },
+ "p0209_2": {
+  "t": "Preserved Fruit and Starch Syrup",
+  "d": "Gives preserved fruit and starch-syrup output (catties, yen) and raw-material consumption, by prefecture and district, in 1925."
+ },
+ "p0209_3": {
+  "t": "Canned Goods",
+  "d": "Gives canned goods output (pineapple, star fruit, etc.; units and yen) by prefecture, in 1925."
+ },
+ "p0209_4": {
+  "t": "Oil and Oil Cake",
+  "d": "Gives oil (peanut, sesame, etc.) and oil-cake output and value, by prefecture and district, in 1925."
+ },
+ "p0210_1": {
+  "t": "Indigo Paste",
+  "d": "Gives indigo-paste output (catties) and value (yen) by prefecture, in 1925."
+ },
+ "p0210_2": {
+  "t": "Dyeing",
+  "d": "Gives dyeing: value of cloth dyed, dye consumption (indigo, other; yen) and finished goods, by prefecture, in 1925."
+ },
+ "p0210_3": {
+  "t": "Papermaking",
+  "d": "Gives paper output (bamboo paper, Japanese paper; catties and yen) by prefecture and district, in 1925."
+ },
+ "p0210_4": {
+  "t": "Gold and Silver Paper and Incense",
+  "d": "Gives raw-material consumption and output (catties, yen) of gold and silver paper and incense sticks, by prefecture, in 1925."
+ },
+ "p0210_5": {
+  "t": "Rush Paper and Rush Mats",
+  "d": "Gives output of rush paper (raw material, catties, yen) and rush mats (Taiko mats etc.) by prefecture, in 1925."
+ },
+ "p0211_1": {
+  "t": "Hats",
+  "d": "Gives hat output (paper hats, Taiko hats, etc.; units and yen) by prefecture, in 1925."
+ },
+ "p0211_2": {
+  "t": "Value of Wood Products",
+  "d": "Gives the value (yen) of wood products (joinery, turned ware, boxes, barrels and casks) by prefecture and district, in 1925."
+ },
+ "p0211_3": {
+  "t": "Value of Bamboo and Rattan Ware",
+  "d": "Gives the value (yen) of bamboo ware (baskets, others) and rattan ware by prefecture and district, in 1925."
+ },
+ "p0211_4": {
+  "t": "Leather",
+  "d": "Gives leather output (yellow-cattle hide, water-buffalo hide; pieces and yen) by prefecture, in 1925."
+ },
+ "p0211_5": {
+  "t": "Shoes and Sandals",
+  "d": "Gives output of shoes (Western and Chinese styles; pairs and yen) and sandals by prefecture and district, in 1925."
+ },
+ "p0212_1": {
+  "t": "Lime and Fertiliser",
+  "d": "Gives lime (including shell lime) and mixed-fertiliser output and value by prefecture and district, in 1925."
+ },
+ "p0212_2": {
+  "t": "Bricks, Tiles and Pottery",
+  "d": "Gives bricks, floor tiles, roof tiles and pottery output (units, yen) by prefecture and district, in 1925."
+ },
+ "p0212_3": {
+  "t": "Ironworking",
+  "d": "Gives ironworking and blacksmithing: raw-material consumption and value of products (yen) by prefecture and district, in 1925."
+ },
+ "p0213_1": {
+  "t": "Value of Textiles",
+  "d": "Gives the value (yen) of cotton fabrics (plain white, plain coloured, striped, towels, etc.) and other textiles by prefecture, in 1925."
+ },
+ "p0213_2": {
+  "t": "Miscellaneous Products",
+  "d": "Gives miscellaneous products (rush, palm, turmeric, etc.) by quantity and value (yen) for each prefecture, in 1925."
+ },
+ "p0216_1": {
+  "t": "Wages",
+  "d": "Gives daily wages (yen) of workers by trade (carpenter, joiner, etc.) and ethnic group, by city and town, for the second half of 1925 and first half of 1926."
+ },
+ "p0218_1": {
+  "t": "Manufacture of Weights and Measures",
+  "d": "Gives weights and measures manufactured (length measures, volume measures: number and value in yen) for FY1925 and earlier years."
+ },
+ "p0218_2": {
+  "t": "Repair of Weights and Measures",
+  "d": "Gives weights and measures repaired (length measures, volume measures: number and value in yen) for FY1925 and earlier years."
+ },
+ "p0218_3": {
+  "t": "Sales of Weights and Measures",
+  "d": "Gives weights and measures sold (length measures, volume measures: number and value in yen) by prefecture and district, for FY1925."
+ },
+ "p0219_1": {
+  "t": "Electric Lighting",
+  "d": "Gives incandescent lamps by candle-power and other lamps by operator and office (Taiwan Electric Power Co. offices etc.), at the end of 1925."
+ },
+ "p0220_1": {
+  "t": "Electric Fans",
+  "d": "Gives electric fans by size (12, 16, 60 inch, etc.) by operator and office, at the end of August 1925."
+ },
+ "p0220_2": {
+  "t": "Electric Power",
+  "d": "Gives electric motors by horsepower class and by use (irrigation, forestry, fisheries and salt making, etc.), at the end of 1925."
+ },
+ "p0221_1": {
+  "t": "General Table of Banks",
+  "d": "Gives branches and offices (in Taiwan, Japan proper, abroad) of each bank (Bank of Taiwan, Nippon Kangyō Bank Taihoku branch, Taiwan Commercial Bank, etc.), at the end of 1925."
+ },
+ "p0221_2": {
+  "t": "Financial Strength of Banks",
+  "d": "Gives paid-up capital, reserves, deposits received, securities and other items for each bank, at the end of 1925."
+ },
+ "p0221_3": {
+  "t": "Bank of Taiwan Notes Issued",
+  "d": "Gives Bank of Taiwan notes issued (reserve-backed, guaranteed, total, remaining issuing capacity; yen) at the end of each month of 1925."
+ },
+ "p0222_1": {
+  "t": "Bank Loans",
+  "d": "Gives each bank's loans issued, collected and outstanding (loans on deeds, on bills, overdrafts, discounted bills; yen) in 1925."
+ },
+ "p0222_2": {
+  "t": "Bank Loans by Region",
+  "d": "Gives bank loans (loans on deeds, bills, overdrafts; yen) and number of offices, by prefecture and district, at the end of 1925."
+ },
+ "p0223_1": {
+  "t": "Bank Deposits",
+  "d": "Gives each bank's deposits received, repaid and outstanding (public funds, current, special current, fixed; yen) in 1925."
+ },
+ "p0223_2": {
+  "t": "Bank Deposits by Region",
+  "d": "Gives bank deposits (public funds, current, special current, etc.; yen) and number of offices, by prefecture and district, at the end of 1925."
+ },
+ "p0223_3": {
+  "t": "Savings Bank Loans",
+  "d": "Gives savings-bank loans (on securities, real-estate mortgage, to depositors, to term-instalment savers; yen) issued, collected and outstanding in 1925."
+ },
+ "p0224_1": {
+  "t": "Savings Deposits",
+  "d": "Gives savings deposits (yen) by bank (Taiwan Savings Bank etc.) and type of account, depositor group and prefecture, at the end of 1925."
+ },
+ "p0225_1": {
+  "t": "Interest on Bank Deposits",
+  "d": "Gives the highest and lowest interest rates (annual, per 100 yen) on fixed deposits at each bank, by month, in 1925."
+ },
+ "p0225_2": {
+  "t": "Interest on Bank Loans",
+  "d": "Gives the highest and lowest daily interest rates (per 100 yen) on loans at each bank, by month, in 1925."
+ },
+ "p0225_3": {
+  "t": "Bank Exchange Business",
+  "d": "Gives bank exchange transactions (remittances, collections; yen) by bank, domestic and foreign, by destination (branches in Taiwan, Japan proper, abroad), in 1925."
+ },
+ "p0226_1": {
+  "t": "Foreign Exchange Rates",
+  "d": "Gives highest and lowest foreign exchange rates (selling and buying; per 100 taels for Shanghai, Hankow, etc.) by month, in 1925."
+ },
+ "p0227_1": {
+  "t": "Clearing-House Transactions",
+  "d": "Gives bills cleared (number and value in yen) at the clearing houses by month in 1925."
+ },
+ "p0227_2": {
+  "t": "Markets",
+  "d": "Gives markets (number, site and building area in tsubo, stalls by trade) by prefecture and district, at the end of 1925."
+ },
+ "p0228_1": {
+  "t": "Prices",
+  "d": "Gives prices of goods (native-produced rice, others) by unit, in cities and towns (Taihoku, Keelung, Giran, etc.), in 1925."
+ },
+ "p0229_1": {
+  "t": "Wholesale Prices of Taiwan-Grown Husked Rice per Koku",
+  "d": "Gives wholesale prices (yen per koku) by grade (upper, middle, lower) and place, by month, in 1925."
+ },
+ "p0230_1": {
+  "t": "Retail Prices of Taiwan-Grown Polished Rice per To",
+  "d": "Gives retail prices (yen per to) by grade (upper, middle, lower) and place, by month, in 1925."
+ },
+ "p0230_2": {
+  "t": "Retail Prices of Japan-Grown Polished Rice per To",
+  "d": "Gives retail prices (yen per to) by grade and place, by month, in 1925."
+ },
+ "p0231_1": {
+  "t": "Joint-Stock Companies",
+  "d": "Gives joint-stock companies (number, paid-up capital, reserves; yen) by line of business (agriculture, land reclamation and afforestation, livestock and dairying, etc.) and prefecture, at the end of 1925."
+ },
+ "p0233_1": {
+  "t": "General and Limited Partnership Companies",
+  "d": "Gives general partnership and limited partnership companies (number and invested capital, yen) by line of business and prefecture, at the end of 1925."
+ },
+ "p0235_1": {
+  "t": "Credit Associations and Credit-Combined Associations",
+  "d": "Gives credit associations (surveyed associations, members, shares, subscribed capital) by prefecture and district, at the end of 1925."
+ },
+ "p0236_1": {
+  "t": "Profit-Making Associations",
+  "d": "Gives profit-making associations (agriculture and others: associations, members, paid-up capital, reserves) by prefecture and district, in 1925."
+ },
+ "p0236_2": {
+  "t": "Mutual Loan (Mujin) Business",
+  "d": "Gives mutual-loan companies with offices, capital (total, paid-up) and number of groups, in 1925."
+ },
+ "p0236_3": {
+  "t": "Public Pawnshops",
+  "d": "Gives each public pawnshop's capital funds at year end and loans during the year (cases, amount) and loans recovered, for FY1925."
+ },
+ "p0237_1": {
+  "t": "Value of Exports and Imports, Long-Term Comparison",
+  "d": "Gives the value of foreign-trade exports, imports, total and import surplus (yen) for selected years from Meiji 29 (1896) to Taishō 14 (1925)."
+ },
+ "p0237_2": {
+  "t": "Value of Exports and Imports by Port, Long-Term Comparison",
+  "d": "Gives the value of foreign-trade exports, imports and total (yen) by port (Tansui, Anping, Keelung, Takao) for selected years from Meiji 29 (1896) to Taishō 14 (1925)."
+ },
+ "p0238_1": {
+  "t": "Value of Exports and Imports by Month, Long-Term Comparison",
+  "d": "Gives the value of foreign-trade exports, imports and total (yen) by month for selected years from Meiji 29 (1896) to Taishō 14 (1925)."
+ },
+ "p0239_1": {
+  "t": "Exports and Imports by Port: Domestic and Foreign Products",
+  "d": "Gives export and import values (yen) by port (Keelung, Tansui, Anping, etc.), distinguishing domestic and foreign products, in 1925."
+ },
+ "p0239_2": {
+  "t": "Exports and Imports: Dutiable, Duty-Free and Ship's Stores",
+  "d": "Gives export and import values (yen) of dutiable goods, duty-free goods and ship's stores, for 1925."
+ },
+ "p0239_3": {
+  "t": "Dutiable and Duty-Free Goods: Domestic and Foreign Products",
+  "d": "Gives export and import values (yen) of dutiable and duty-free goods, distinguishing domestic and foreign products, for 1925."
+ },
+ "p0239_4": {
+  "t": "Exports: Quantity and Value",
+  "d": "Gives export quantities and values (yen) by commodity in 1925, with values for 1924 and 1923 for comparison."
+ },
+ "p0242_1": {
+  "t": "Exports by Port and Country",
+  "d": "Gives export values (yen) from each port to China, Kwantung Leased Territory, Hong Kong, British India and other destinations, in 1925."
+ },
+ "p0243_1": {
+  "t": "Exports by Port and Month",
+  "d": "Gives export values (yen) by month for each port (Keelung, Tansui, Anping, Takao, etc.), in 1925."
+ },
+ "p0243_2": {
+  "t": "Imports: Quantity and Value",
+  "d": "Gives import quantities and values (yen) by commodity in 1925, with values for 1924 and 1923 for comparison."
+ },
+ "p0247_1": {
+  "t": "Imports by Port and Country",
+  "d": "Gives import values (yen) into each port from China, Kwantung Leased Territory, Hong Kong, British India and other origins, in 1925."
+ },
+ "p0247_2": {
+  "t": "Imports by Port and Month",
+  "d": "Gives import values (yen) by month for each port (Keelung, Tansui, Anping, Takao, etc.), in 1925."
+ },
+ "p0247_3": {
+  "t": "Imports of Gold and Silver Coin, Bullion and Paper Money",
+  "d": "Gives imports of gold (coin, bullion), silver (coin, bullion) and paper money (yen) for 1925 and earlier years."
+ },
+ "p0248_1": {
+  "t": "Customs Duties, Tonnage Dues and Other Revenue by Port",
+  "d": "Gives import duties, tonnage dues and other revenue (yen) by port (Keelung, Tansui, Anping, Takao) in 1925, with the last five years for comparison."
+ },
+ "p0248_2": {
+  "t": "Customs Duties, Tonnage Dues and Other Revenue by Port and Month",
+  "d": "Gives customs duties, tonnage dues and other revenue (yen) by port and month, in 1925."
+ },
+ "p0248_3": {
+  "t": "Steamships Clearing Ports by Nationality",
+  "d": "Gives steamships departing each port (number and tonnage) by nationality (Japanese, Chinese, etc.), in 1925."
+ },
+ "p0249_1": {
+  "t": "Sailing Vessels Clearing Ports by Nationality",
+  "d": "Gives sailing vessels departing each port (number and tonnage) by nationality (Japanese, Chinese, etc.), in 1925."
+ },
+ "p0249_2": {
+  "t": "Steamships Entering Ports by Nationality",
+  "d": "Gives steamships entering each port (number and tonnage) by nationality (Japanese, Chinese, etc.), in 1925."
+ },
+ "p0249_3": {
+  "t": "Sailing Vessels Entering Ports by Nationality",
+  "d": "Gives sailing vessels entering each port (number and tonnage) by nationality (Japanese, Chinese, etc.), in 1925."
+ },
+ "p0250_1": {
+  "t": "Value of Shipments to and from Japan Proper, Long-Term Comparison",
+  "d": "Gives the value of goods shipped out to and brought in from Japan proper (home islands), total and surplus of shipments out (yen), for selected years from Meiji 30 (1897) to Taishō 14 (1925)."
+ },
+ "p0250_2": {
+  "t": "Value of Shipments to and from Japan Proper by Port, Long-Term Comparison",
+  "d": "Gives the value of shipments out and in (yen) by port (Keelung, Tansui, Anping, Takao) for selected years from Meiji 30 (1897) to Taishō 14 (1925)."
+ },
+ "p0251_1": {
+  "t": "Value of Shipments to and from Japan Proper by Month, Long-Term Comparison",
+  "d": "Gives the value of shipments out, in and total (yen) by month for selected years from Meiji 30 (1897) to Taishō 14 (1925)."
+ },
+ "p0251_2": {
+  "t": "Value of Shipments by Destination and Origin",
+  "d": "Gives the value (yen) of goods shipped from Taiwan to, and received from, each place in Japan proper (Otaru, Hakodate, Niigata, etc.) in 1925."
+ },
+ "p0252_1": {
+  "t": "Shipments Out to Japan Proper: Quantity and Value",
+  "d": "Gives quantities and values (yen) of goods shipped from Taiwan to Japan proper by commodity in 1925, with values for 1924 and 1923."
+ },
+ "p0254_1": {
+  "t": "Shipments Out to Japan Proper by Port and Month",
+  "d": "Gives the value (yen) of goods shipped out by month for each port (Keelung, Anping, Takao, Makung), in 1925."
+ },
+ "p0254_2": {
+  "t": "Shipments Out of Gold Coin, Bullion and Paper Money",
+  "d": "Gives the value (yen) of gold bullion, small-denomination notes and similar shipped out of Taiwan, for 1924 and earlier years."
+ },
+ "p0254_3": {
+  "t": "Receipts from Japan Proper: Quantity and Value",
+  "d": "Gives quantities and values (yen) of goods received from Japan proper by commodity in 1925, with values for 1924 and 1923."
+ },
+ "p0257_1": {
+  "t": "Receipts from Japan Proper by Port and Month",
+  "d": "Gives the value (yen) of goods received by month for each port (Keelung, Tansui, Anping, Takao), in 1925."
+ },
+ "p0257_2": {
+  "t": "Receipts of Gold and Silver Coin, Bullion and Paper Money",
+  "d": "Gives the value (yen) of gold bullion, subsidiary silver, convertible notes and others received in Taiwan, for 1925 and earlier years."
+ },
+ "p0257_3": {
+  "t": "Vessels Clearing Ports",
+  "d": "Gives vessels departing each port (number and tonnage) for 1925 and 1924."
+ },
+ "p0257_4": {
+  "t": "Vessels Entering Ports",
+  "d": "Gives vessels entering each port (number and tonnage) for 1925 and 1924."
+ },
+ "p0258_1": {
+  "t": "Railway Lines and Land",
+  "d": "Gives government railway lines (main line, Giran line, Tansui line, etc.) with operating mileage and land (track, stations, other; tsubo), at the end of FY1925."
+ },
+ "p0258_2": {
+  "t": "Railway Rolling Stock",
+  "d": "Gives locomotives, passenger cars and other rolling stock (number, weight, seating capacity) by government railway line, at the end of FY1925."
+ },
+ "p0258_3": {
+  "t": "Train and Car Mileage",
+  "d": "Gives train mileage (passenger, freight, mixed, total) and car mileage by government railway line, for FY1925."
+ },
+ "p0258_4": {
+  "t": "Railway Traffic and Revenue",
+  "d": "Gives passengers boarding and alighting, freight dispatched and received (tons) and revenue by railway line and station, for FY1925."
+ },
+ "p0260_1": {
+  "t": "Railway Operating Revenue and Expenditure",
+  "d": "Gives operating revenue (passenger cars, freight cars, miscellaneous, total) and expenditure (yen) by government railway line, for FY1925."
+ },
+ "p0260_2": {
+  "t": "Railway Construction Costs",
+  "d": "Gives total budget and expenditure (to the previous year, for the year, total; yen) on railway construction by line and cost item, for FY1925."
+ },
+ "p0260_3": {
+  "t": "Railway Supplementary and Maintenance Costs",
+  "d": "Gives supplementary and maintenance construction costs (yen) by government railway line, for FY1925."
+ },
+ "p0261_1": {
+  "t": "Railway Casualties",
+  "d": "Gives staff and passengers killed and injured on government railways, by line and ethnic group, for FY1925 with earlier years."
+ },
+ "p0261_2": {
+  "t": "Railway Regulation Violators",
+  "d": "Gives persons violating railway regulations (riding without valid ticket, riding wrong class, not alighting at ticketed station, misdeclaring freight, etc.) by line and ethnic group, for FY1925."
+ },
+ "p0262_1": {
+  "t": "Private Railway Lines",
+  "d": "Gives private railway lines with route length (miles and chains) by operator (Keelung Coal Mining Co., Taiwan Electric Power Co., etc.), at the end of 1925."
+ },
+ "p0262_2": {
+  "t": "Private Railway Rolling Stock",
+  "d": "Gives locomotives, passenger cars and freight cars of private railways by operator, at the end of 1925."
+ },
+ "p0262_3": {
+  "t": "Private Railway Train and Car Mileage",
+  "d": "Gives train mileage (passenger, mixed, freight, total) of private railways by operator, in 1925."
+ },
+ "p0262_4": {
+  "t": "Private Railway Traffic and Revenue",
+  "d": "Gives passengers, freight (commercial, company use, total; tons) and revenue of private railways by operator, in 1925."
+ },
+ "p0263_1": {
+  "t": "Private Railway Casualties",
+  "d": "Gives employees and passengers killed and injured on private railways by operator and ethnic group, in 1925."
+ },
+ "p0263_2": {
+  "t": "Light Railway Lines and Handcars",
+  "d": "Gives light-railway (push-car track) operators with route length (miles and chains) and number of handcars, by prefecture and district, at the end of 1925."
+ },
+ "p0264_1": {
+  "t": "Light Railway Traffic and Revenue",
+  "d": "Gives light-railway passengers, freight (catties) and revenue (yen) by operator, prefecture and district, in 1925."
+ },
+ "p0264_2": {
+  "t": "Light Railway Casualties",
+  "d": "Gives light-railway staff and passengers killed and injured by operator, prefecture/district and ethnic group, in 1925."
+ },
+ "p0265_1": {
+  "t": "Post Offices",
+  "d": "Gives post offices by class (first, second, third-class designated, third-class collection and delivery) by prefecture and district, at the end of FY1925."
+ },
+ "p0265_2": {
+  "t": "Postal Routes",
+  "d": "Gives actual route length (ordinary roads, railways, light rail; ri and chō) by prefecture and district, at the end of FY1925."
+ },
+ "p0265_3": {
+  "t": "Ordinary Mail to Domestic and Foreign Destinations, All Persons, by Region",
+  "d": "Gives ordinary mail accepted (ordinary, registered; paid and unpaid) and related items by prefecture and district, for FY1925."
+ },
+ "p0266_1": {
+  "t": "Ordinary Mail to Domestic and Foreign Destinations, Taiwanese, by Region",
+  "d": "Gives ordinary mail of Taiwanese senders accepted (ordinary, registered; paid and unpaid) by prefecture and district, for FY1925."
+ },
+ "p0266_2": {
+  "t": "Ordinary Mail to Domestic and Foreign Destinations, All Persons, by Month",
+  "d": "Gives ordinary mail accepted (registered; paid and unpaid; value-declared with or without currency) by month, April 1925 onward, for FY1925."
+ },
+ "p0266_3": {
+  "t": "Domestic Ordinary Mail, All Persons, by Region",
+  "d": "Gives domestic ordinary mail accepted (ordinary, registered; paid and unpaid) by prefecture and district, for FY1925."
+ },
+ "p0267_1": {
+  "t": "Domestic Ordinary Mail, Taiwanese, by Region",
+  "d": "Gives domestic ordinary mail of Taiwanese senders accepted (ordinary, registered; paid and unpaid) by prefecture and district, for FY1925."
+ },
+ "p0267_2": {
+  "t": "Domestic Ordinary Mail, All Persons, by Month",
+  "d": "Gives domestic ordinary mail accepted (registered; paid and unpaid; value-declared) by month, April 1925 onward, for FY1925."
+ },
+ "p0267_3": {
+  "t": "Foreign Ordinary Mail, All Persons, by Region",
+  "d": "Gives foreign ordinary mail accepted (ordinary, registered; paid and unpaid) by prefecture and district, for FY1925."
+ },
+ "p0267_4": {
+  "t": "Foreign Ordinary Mail, Taiwanese, by Region",
+  "d": "Gives foreign ordinary mail of Taiwanese senders accepted (paid ordinary, registered, value-declared) by prefecture and district, for FY1925."
+ },
+ "p0268_1": {
+  "t": "Foreign Ordinary Mail, All Persons, by Month",
+  "d": "Gives foreign ordinary mail accepted (registered; value-declared) by month, April 1925 onward, for FY1925."
+ },
+ "p0268_2": {
+  "t": "Undeliverable Ordinary Mail, Domestic and Foreign",
+  "d": "Gives undeliverable ordinary mail (letters, postcards, printed matter, etc.), distinguishing items returned and not returned, domestic and foreign, for FY1925."
+ },
+ "p0268_3": {
+  "t": "Domestic Parcel Post",
+  "d": "Gives domestic parcels accepted (ordinary, registered; paid and unpaid) by prefecture, district and month, for FY1925."
+ },
+ "p0268_4": {
+  "t": "Parcel Post Between Japan Proper and Taiwan",
+  "d": "Gives parcels sent between Japan proper and Taiwan (ordinary, registered, value-declared) by prefecture, district and month, for FY1925."
+ },
+ "p0269_1": {
+  "t": "Foreign Parcel Post",
+  "d": "Gives foreign parcels accepted (paid; ordinary and registered, value-declared) and delivered, by prefecture, district and month, for FY1925."
+ },
+ "p0269_2": {
+  "t": "Domestic Postal Money Orders by Type",
+  "d": "Gives domestic postal money orders issued (ordinary, small; number and amount in yen) for FY1925 with earlier years."
+ },
+ "p0269_3": {
+  "t": "Domestic Postal Money Orders",
+  "d": "Gives domestic postal money orders issued and paid (number and amount in yen) by prefecture, district and month, for FY1925."
+ },
+ "p0269_4": {
+  "t": "Domestic Postal Money Orders of Taiwanese",
+  "d": "Gives domestic postal money orders issued and paid by Taiwanese (number and amount in yen) by prefecture and district, for FY1925."
+ },
+ "p0270_1": {
+  "t": "Foreign Postal Money Orders by Treaty Country",
+  "d": "Gives foreign postal money orders issued and paid (number and amount in yen) by treaty country (China, Hong Kong, Siam, etc.), for FY1925."
+ },
+ "p0270_2": {
+  "t": "Foreign Postal Money Orders",
+  "d": "Gives foreign postal money orders issued and paid (number and amount in yen) by prefecture, district and month, for FY1925."
+ },
+ "p0270_3": {
+  "t": "Foreign Postal Money Orders of Taiwanese",
+  "d": "Gives foreign postal money orders issued and paid by Taiwanese (number and amount in yen) by prefecture and district, for FY1925."
+ },
+ "p0270_4": {
+  "t": "Postal Savings",
+  "d": "Gives postal savings balances (depositors, amount, average per depositor, of which Taiwanese) by prefecture, district and occupation, at the end of FY1925."
+ },
+ "p0271_1": {
+  "t": "Postal Savings by Amount Bracket",
+  "d": "Gives postal savings balances (depositors and amount, of which Taiwanese) by size of account (under 50 sen, under 1 yen, under 2 yen, etc.), at the end of FY1925."
+ },
+ "p0271_2": {
+  "t": "Postal Savings Deposits and Withdrawals",
+  "d": "Gives postal savings deposits and withdrawals (new depositors, full withdrawals, deposits and amounts) by prefecture, district and month, for FY1925."
+ },
+ "p0271_3": {
+  "t": "Postal Savings Deposits and Withdrawals of Taiwanese by Region",
+  "d": "Gives postal savings deposits and withdrawals by Taiwanese (new depositors, full withdrawals, deposits and amounts) by prefecture and district, for FY1925."
+ },
+ "p0271_4": {
+  "t": "Postal Giro Accounts and Transactions by Region",
+  "d": "Gives postal giro accounts (new and closed accounts; receipts by number and amount) by prefecture and district, for FY1925."
+ },
+ "p0272_1": {
+  "t": "Postal Giro Accounts and Transactions by Occupation",
+  "d": "Gives postal giro account holders and balances at the end of FY1925 and receipts (number and amount, yen) by occupation (agriculture, grain dealers, brewing, etc.)."
+ },
+ "p0272_2": {
+  "t": "Postal Giro Savings",
+  "d": "Gives postal giro payments in and out (number and amount in yen) by prefecture, district and month, for FY1925."
+ },
+ "p0272_3": {
+  "t": "Postal Giro Savings of Taiwanese by Region",
+  "d": "Gives postal giro payments in and out by Taiwanese (number and amount in yen) by prefecture and district, for FY1925."
+ },
+ "p0273_1": {
+  "t": "Overland Telegraph Lines and Wires",
+  "d": "Gives overland telegraph line length and wire length (metres) by prefecture and district, at the end of FY1925."
+ },
+ "p0273_2": {
+  "t": "Submarine Telegraph Lines and Wires",
+  "d": "Gives submarine telegraph cables (line length and core length) by section (e.g. Budai to Jingzaijiao/Anping), at the end of FY1925."
+ },
+ "p0273_3": {
+  "t": "Domestic and Foreign Telegrams Sent and Received",
+  "d": "Gives telegrams sent (paid, unpaid, total, fees in yen) and received, by prefecture, district and month, for FY1925."
+ },
+ "p0273_4": {
+  "t": "Domestic and Foreign Telegrams of Taiwanese",
+  "d": "Gives telegrams sent (domestic, foreign) and received by Taiwanese, by prefecture and district, for FY1925."
+ },
+ "p0273_5": {
+  "t": "Domestic Telegrams Sent and Received",
+  "d": "Gives domestic telegrams sent (paid, unpaid, total) and received by prefecture, district and month, for FY1925."
+ },
+ "p0274_1": {
+  "t": "Foreign Telegrams Sent and Received",
+  "d": "Gives foreign telegrams sent (paid, unpaid, total) and received by prefecture, district and month, for FY1925."
+ },
+ "p0274_2": {
+  "t": "Telephone Lines and Wires",
+  "d": "Gives telephone line length and wire length (metres; aerial bare wire, aerial cable, etc.) by prefecture and district, at the end of FY1925."
+ },
+ "p0274_3": {
+  "t": "Paying Telephone Subscribers and Telephone Instruments",
+  "d": "Gives paying subscribers (individual, shared, connected lines) and telephone instruments by prefecture and district, at the end of FY1925."
+ },
+ "p0274_4": {
+  "t": "Non-Paying Telephone Subscribers and Telephone Instruments",
+  "d": "Gives non-paying subscribers, instruments and instruments added by prefecture and district, at the end of FY1925."
+ },
+ "p0275_1": {
+  "t": "Calls Originated by Telephone Subscribers",
+  "d": "Gives calls by subscribers (free calls between subscribers, unpaid calls, paid calls) by prefecture and district, for FY1925."
+ },
+ "p0275_2": {
+  "t": "Calls Originated from Public Telephones",
+  "d": "Gives calls from public telephones (ordinary calls: handlings, calls, notifications, cancellations) by prefecture and district, for FY1925."
+ },
+ "p0275_3": {
+  "t": "Telephone Charges",
+  "d": "Gives telephone subscription fees (registration fee, basic and additional usage fees, total; yen) by prefecture and district, for FY1925."
+ },
+ "p0276_1": {
+  "t": "Lighthouses",
+  "d": "Lists lighthouses with location, latitude, longitude and date first lit (Fugui Cape, Pengjiayu, Keelung, etc.), at the end of FY1925."
+ },
+ "p0277_2": {
+  "t": "Daymarks and Buoys",
+  "d": "Lists daymarks, buoys and leading marks (Taiwanese ports, e.g. Tansui harbour mouth, Anping) with location, colouring, structure and height, and depth at low water, at the end of FY1925."
+ },
+ "p0277_3": {
+  "t": "Ship Registry",
+  "d": "Gives registered Western-style vessels by tonnage class, by prefecture and district, at the end of 1925."
+ },
+ "p0278_1": {
+  "t": "Changes in Western-Style Ship Registry",
+  "d": "Gives changes in registered steamships and sailing vessels (number and tonnage) by tonnage class: stock at the end of 1924, newly built, purchased, etc., in 1925."
+ },
+ "p0278_2": {
+  "t": "Changes in Japanese-Style and Chinese-Style Ship Registry",
+  "d": "Gives changes in registered Japanese-style and Chinese-style vessels (number and tonnage) by size class: stock at the end of 1924, newly built, purchased, etc., in 1925."
+ },
+ "p0279_1": {
+  "t": "Shipwrecks",
+  "d": "Gives crew killed, injured, missing and rescued in shipwrecks, by prefecture and district, in 1925."
+ },
+ "p0279_2": {
+  "t": "Vessels Entering and Clearing Ports",
+  "d": "Gives vessels departing and arriving (steamships and sailing vessels; number and tonnage) by prefecture, district and port (Taihoku, Keelung, Shaliao, etc.), in 1925."
+ },
+ "p0281_1": {
+  "t": "Passengers and Cargo on Government-General Commissioned Shipping Routes",
+  "d": "Gives voyages, passengers (persons, fares) and cargo (tons) by commissioned shipping route (Japan line, outbound and return), for FY1925."
+ },
+ "p0282_1": {
+  "t": "Examinations for Steamship Officers: Candidates and Passes",
+  "d": "Gives candidates and passes in steamship officer examinations (captain, first and second mate, etc.) by class and ethnic group, in 1925 and 1924."
+ },
+ "p0282_2": {
+  "t": "Holders of Marine Certificates",
+  "d": "Gives holders of marine certificates (captain, first and second mate, etc.) by class and ethnic group, at the end of 1925."
+ },
+ "p0282_3": {
+  "t": "Disciplinary Action Against Steamship Officers",
+  "d": "Gives disciplinary cases (collision, sinking, other) and persons (suspension, reprimand, no hearing needed), in 1925."
+ },
+ "p0282_4": {
+  "t": "Roads and Bridges",
+  "d": "Gives road length by width class (under 1 ken, under 2, under 3, under 4, etc.) and bridges, by prefecture and district, at the end of 1925."
+ },
+ "p0282_5": {
+  "t": "Road Construction",
+  "d": "Gives new construction by width class and repair works by prefecture and district, for FY1925."
+ },
+ "p0283_1": {
+  "t": "Opium Paste Agents and Sellers",
+  "d": "Gives opium-paste agents and licensed sellers by prefecture and district, at the end of 1925."
+ },
+ "p0283_2": {
+  "t": "Raw Opium: Quantity and Value",
+  "d": "Gives raw opium by variety (Benares, Persian, Turkish, etc.): stock carried over, purchases and takeovers (quantity in catties, value in yen), for FY1925."
+ },
+ "p0283_3": {
+  "t": "Opium Paste Issued: Quantity and Value",
+  "d": "Gives opium paste issued (first-grade, third-grade, etc.; quantity in catties and value in yen) by prefecture, district and month, in 1925."
+ },
+ "p0284_1": {
+  "t": "Opium Paste Sold to Agents: Quantity and Value",
+  "d": "Gives opium paste sold to agents and licensed sellers (first-grade, third-grade, etc.; catties and yen) by prefecture, district and month, in 1925."
+ },
+ "p0284_2": {
+  "t": "Opium Paste Retail Sales: Quantity and Value",
+  "d": "Gives opium paste sold at retail (first-grade, third-grade, etc.; catties and yen) by prefecture, district and month, in 1925."
+ },
+ "p0285_1": {
+  "t": "Edible Salt Received: Quantity and Compensation",
+  "d": "Gives edible salt received (stock carried over, Taiwan-made salt by quantity and amount, weighing surpluses) and compensation paid, by monopoly bureau, branch and office, for FY1925."
+ },
+ "p0285_2": {
+  "t": "Edible Salt Sold: Quantity and Value",
+  "d": "Gives edible salt sold (within Taiwan, to Japan proper; quantity in catties, value in yen) by monopoly bureau, branch and office, for FY1925."
+ },
+ "p0286_1": {
+  "t": "Output of Crude Camphor, Camphor Oil and Linaloe Oil",
+  "d": "Gives stills at year end and output (catties) of crude camphor, camphor oil and linaloe oil by prefecture and district, for FY1925."
+ },
+ "p0286_2": {
+  "t": "Crude Camphor Received",
+  "d": "Gives crude camphor received by grade (upper, middle, lower, total; catties) by prefecture and district, for FY1925."
+ },
+ "p0286_3": {
+  "t": "Camphor Oil Received and Sold",
+  "d": "Gives camphor oil received (receipts, miscellaneous, total) and sold to re-processors, by monopoly bureau, branch and office, for FY1925."
+ },
+ "p0287_1": {
+  "t": "Compensation for Crude Camphor and Camphor Oil",
+  "d": "Gives compensation paid (yen) for crude camphor and camphor oil by prefecture and district, for FY1925."
+ },
+ "p0287_2": {
+  "t": "Camphor Refining Results",
+  "d": "Gives raw material used and products made (compressed grade B, grade A, improved grade B; catties) by monopoly bureau, branch and place of origin, for FY1925."
+ },
+ "p0287_3": {
+  "t": "Re-Processing of Camphor Oil and Linaloe Oil",
+  "d": "Gives raw material consumed and products (camphor, white oil, red oil; catties) from re-processing camphor oil and linaloe oil, for FY1925."
+ },
+ "p0287_4": {
+  "t": "Re-Processing Percentages for Camphor Oil and Linaloe Oil",
+  "d": "Gives re-processing percentages (yield, loss, camphor and white oil shares) for FY1925 and FY1924."
+ },
+ "p0287_5": {
+  "t": "Camphor Sold: Quantity and Value",
+  "d": "Gives camphor sold (refined powder and compressed, crude improved grade B and others; quantity in catties, value in yen) for FY1925 with earlier years."
+ },
+ "p0288_1": {
+  "t": "Camphor By-Products Sold: Quantity and Value",
+  "d": "Gives red oil and white oil sold (quantity in catties and value in yen) for FY1925 and FY1924."
+ },
+ "p0288_2": {
+  "t": "Linaloe Oil and Perfume Sold",
+  "d": "Gives linaloe oil sold (pounds and yen) and perfume (yen) for FY1925 with earlier years."
+ },
+ "p0288_3": {
+  "t": "Leaf Tobacco Cultivation and Receipts",
+  "d": "Gives leaf tobacco growers, cultivated area (kō), quantity received (catties) and compensation (yen) by prefecture and district, for FY1925."
+ },
+ "p0288_4": {
+  "t": "Leaf Tobacco Receipts and Issues: Quantity",
+  "d": "Gives leaf tobacco received (stock carried over, purchases, miscellaneous) and issued (catties) by origin and variety, for FY1925."
+ },
+ "p0289_1": {
+  "t": "Leaf Tobacco Receipts and Issues: Value",
+  "d": "Gives leaf tobacco received (stock carried over, purchases, miscellaneous) and issued (yen) by origin and variety, for FY1925."
+ },
+ "p0290_1": {
+  "t": "Manufactured Tobacco Receipts and Issues: Value",
+  "d": "Gives manufactured tobacco (Taiwan-made, Japan-made, foreign-made): stock carried over, receipts, total and issues (yen), for FY1925."
+ },
+ "p0290_2": {
+  "t": "Taiwan-Made Tobacco Receipts and Issues",
+  "d": "Gives Taiwan-made tobacco (cigars by brand and package size, etc.): stock carried over, manufactured, miscellaneous receipts, total and issues, for FY1925."
+ },
+ "p0291_1": {
+  "t": "Japan-Made Tobacco Receipts and Issues",
+  "d": "Gives Japan-made tobacco (tipped cigarettes by brand and package size, etc.): stock carried over, receipts, total and issues, for FY1925."
+ },
+ "p0292_1": {
+  "t": "Foreign-Made Tobacco Receipts and Issues",
+  "d": "Gives foreign-made tobacco (cigars and others by brand and package size): stock carried over, receipts, miscellaneous, total and issues, for FY1925."
+ },
+ "p0292_2": {
+  "t": "Raw Materials for Liquor Making",
+  "d": "Gives raw materials for liquor (rice of Japanese and Taiwanese origin, etc.): stock carried over and purchases (quantity, value in yen), for FY1925."
+ },
+ "p0293_1": {
+  "t": "Taiwan-Made Liquor Receipts and Issues: Quantity and Value",
+  "d": "Gives Taiwan-made liquors (sake, rice spirit, molasses spirit, etc.): stock carried over, made, miscellaneous, total and issues (koku and yen), for FY1925."
+ },
+ "p0293_2": {
+  "t": "Japan-Made Liquor Receipts and Issues: Quantity and Value",
+  "d": "Gives Japan-made liquors (sake, mirin, wine, etc.): stock carried over, purchases, total and sales (koku and yen), for FY1925."
+ },
+ "p0293_3": {
+  "t": "Foreign-Made Liquor Receipts and Issues: Quantity and Value",
+  "d": "Gives foreign-made liquors (wine, medicinal liquor, sherry, etc.): stock carried over, purchases, total and sales (koku and yen), for FY1925."
+ },
+ "p0293_4": {
+  "t": "Public Health Institutions",
+  "d": "Gives hospitals (government, public, private) and other public health institutions by prefecture and district, at the end of 1925."
+ },
+ "p0294_1": {
+  "t": "Inpatients and Deaths at Government Hospitals",
+  "d": "Gives inpatient-days by ethnic group (Japanese, Taiwanese, Korean, foreign) and deaths, by government hospital (Taihoku, Keelung, Giran, etc.), in 1925."
+ },
+ "p0294_2": {
+  "t": "Outpatients at Government Hospitals",
+  "d": "Gives outpatient visits by ethnic group (Japanese, Taiwanese, Korean, foreign) by government hospital, in 1925."
+ },
+ "p0295_1": {
+  "t": "Government Hospital Patients by Disease and Age Group",
+  "d": "Gives patients treated at government hospitals by disease category (statutory infectious diseases, other infectious, digestive, etc.) and age group, in 1925."
+ },
+ "p0295_2": {
+  "t": "Government Hospital Inpatients by Disease",
+  "d": "Gives inpatients by disease category (statutory infectious diseases, other infectious, digestive, respiratory, etc.), by hospital, ethnic group and sex, in 1925."
+ },
+ "p0299_1": {
+  "t": "Government Hospital Outpatients by Disease",
+  "d": "Gives outpatients by disease category (statutory infectious diseases, other infectious, digestive, respiratory, etc.), by hospital, ethnic group and sex, in 1925."
+ },
+ "p0302_1": {
+  "t": "Patients Treated and Deaths Under Public Physicians",
+  "d": "Gives patient-days by ethnic group (Japanese, Taiwanese, Korean, foreign) and deaths among patients treated by public physicians, by prefecture and district, in 1925, with earlier years."
+ },
+ "p0303_1": {
+  "t": "Patients Treated by Public Physicians by Disease",
+  "d": "Gives patients treated by public physicians by disease category, by prefecture/district, ethnic group and sex, in 1925."
+ },
+ "p0306_1": {
+  "t": "Infectious Disease Cases and Deaths by Region",
+  "d": "Gives cases and deaths of cholera, dysentery and other infectious diseases by prefecture/district, ethnic group and sex, in 1925."
+ },
+ "p0310_1": {
+  "t": "Infectious Disease Cases and Deaths by Month",
+  "d": "Gives cases and deaths of cholera, dysentery and other infectious diseases by month, ethnic group and sex, in 1925."
+ },
+ "p0311_1": {
+  "t": "Deaths per 100 Infectious Disease Cases",
+  "d": "Gives deaths per 100 cases of cholera, dysentery, smallpox, typhoid and other infectious diseases, by prefecture/district and ethnic group, in 1925."
+ },
+ "p0312_1": {
+  "t": "Vaccinations",
+  "d": "Gives smallpox vaccinations (regular, first and second vaccination, successful and unsuccessful) by prefecture/district and ethnic group, in 1925."
+ },
+ "p0312_2": {
+  "t": "Waterworks",
+  "d": "Gives waterworks with opening date, households with private and shared taps at year end, and water consumed (cubic metres), for FY1925."
+ },
+ "p0312_3": {
+  "t": "Opium Business Licensees",
+  "d": "Gives opium-related licensees (agents, paste sellers, equipment makers and sellers, etc.) by prefecture and district, at the end of 1925."
+ },
+ "p0313_1": {
+  "t": "Licensed Opium Smokers",
+  "d": "Gives licensed opium smokers by age group and sex, by prefecture, district and ethnic group (Taiwanese, Chinese), at the end of 1925."
+ },
+ "p0313_2": {
+  "t": "Changes in Licensed Opium Smokers",
+  "d": "Gives licensed opium smokers (Taiwanese) who died or gave up smoking, with rates per 1,000 licensees, by prefecture and district, in 1925."
+ },
+ "p0314_1": {
+  "t": "Deaths of Licensed Opium Smokers",
+  "d": "Gives deaths of licensed opium smokers by age group and sex, by prefecture, district and ethnic group, in 1925."
+ },
+ "p0314_2": {
+  "t": "Average Daily Opium Consumption per Smoker",
+  "d": "Gives average daily opium paste consumed per smoker (momme) by prefecture and district, by month, in 1925."
+ },
+ "p0315_1": {
+  "t": "Examination and Treatment of Licensed Prostitutes",
+  "d": "Gives prostitutes examined (number found diseased with syphilis, soft chancre, gonorrhoea, tuberculosis and others) and treated, by prefecture/district and ethnic group, in 1925."
+ },
+ "p0315_2": {
+  "t": "Seaport Quarantine",
+  "d": "Gives vessels quarantined (warships, steamships, etc.; number and tonnage) by port and month of arrival and by port of departure (Tokyo, Yokohama, etc.), in 1925."
+ },
+ "p0316_1": {
+  "t": "Government-General of Taiwan Revenue",
+  "d": "Gives revenue by item (taxes such as land tax on paddy, dry fields, building sites, etc.) as FY1926 budget, FY1925 and FY1924 current accounts and FY1923 settled accounts (yen)."
+ },
+ "p0317_1": {
+  "t": "Government-General of Taiwan Expenditure",
+  "d": "Gives expenditure by item (shrines etc.) as FY1926 budget, FY1925 and FY1924 current accounts and FY1923 settled accounts (yen)."
+ },
+ "p0319_1": {
+  "t": "Revenue and Expenditure of the Government Railway Supplies Fund Special Account",
+  "d": "Gives revenue and expenditure of the special account for government railway supplies by item as FY1926 budget, FY1925 and FY1924 current accounts and FY1923 settled accounts (yen)."
+ },
+ "p0320_1": {
+  "t": "Current Tax Revenue",
+  "d": "Gives tax revenue (land tax, tea tax, sugar consumption tax, alcohol tax, etc.; yen) by collecting authority (customs, prefectures), for FY1925."
+ },
+ "p0320_2": {
+  "t": "Current Revenue from Government Enterprises and Property",
+  "d": "Gives revenue (posts, telegraphs and telephones, railways, salt, camphor, etc.; yen) by authority (Government-General, Communications Bureau, Monopoly Bureau, etc.), for FY1925."
+ },
+ "p0321_1": {
+  "t": "Current Revenue from Stamps, Licences and Fees, Miscellaneous, and Customs Receipts",
+  "d": "Gives revenue from stamps (revenue stamps, cash), licences and fees, miscellaneous income and customs receipts (yen) by authority, for FY1925."
+ },
+ "p0321_2": {
+  "t": "Current Revenue from Sales of Government Property and Other Extraordinary Items",
+  "d": "Gives extraordinary revenue (sales of goods, books, land, buildings, etc.; yen) by authority, for FY1925."
+ },
+ "p0322_1": {
+  "t": "Tax Delinquency Dispositions",
+  "d": "Gives delinquency dispositions and write-offs (persons and amounts in yen) for land tax, sugar consumption tax and other taxes, for FY1925 and FY1924."
+ },
+ "p0322_2": {
+  "t": "Settled Revenue of District Local Funds",
+  "d": "Gives settled revenue (yen) by item (land tax surcharge, income tax surcharge, household tax, etc.) for the Chief Administrator, Taitō District and Karenkō District, for FY1925."
+ },
+ "p0323_1": {
+  "t": "Settled Expenditure of District Local Funds",
+  "d": "Gives settled expenditure (yen) by item (ordinary office and public expenses, etc.) for the Chief Administrator, Taitō District and Karenkō District, for FY1925."
+ },
+ "p0323_2": {
+  "t": "Settled Revenue of Prefectural Funds",
+  "d": "Gives settled revenue (yen) by item (prefectural taxes such as land tax surcharge, income tax surcharge, household tax, etc.) by prefecture, for FY1925."
+ },
+ "p0325_1": {
+  "t": "Settled Expenditure of Prefectural Funds",
+  "d": "Gives settled expenditure (yen) by item (shrines, office expenses, salaries, etc.) by prefecture, for FY1925."
+ },
+ "p0328_1": {
+  "t": "Settled Accounts of Prefectural Special Accounts: Disaster Relief Funds",
+  "d": "Gives income and expenditure (yen) of the prefectural disaster relief fund special accounts by prefecture, for FY1925 with earlier years."
+ },
+ "p0328_2": {
+  "t": "Settled Accounts of Special Account for Creating Prefectural Property",
+  "d": "Gives revenue (property income, transfers in, carry-over, miscellaneous; yen) of the prefectural property-creation special accounts, by prefecture, for FY1925 with earlier years."
+ },
+ "p0328_3": {
+  "t": "Settled Accounts of Prefectural Irrigation Works Special Account",
+  "d": "Gives revenue (compensation, transfers in, carry-over, miscellaneous; yen) of the prefectural irrigation special accounts, by prefecture, for FY1925 with earlier years."
+ },
+ "p0329_1": {
+  "t": "Settled Revenue of City Funds",
+  "d": "Gives settled revenue (yen) by item (city taxes such as land-tax, income-tax and household-tax levies) for cities grouped by prefecture (Taihoku, Taichū, Tainan, Takao), for FY1925."
+ },
+ "p0329_2": {
+  "t": "Settled Expenditure of City Funds",
+  "d": "Gives settled expenditure (yen) by item (shrines, city office salaries and allowances, etc.) for cities grouped by prefecture (Taihoku, Taichū, Tainan, Takao), for FY1925."
+ },
+ "p0331_1": {
+  "t": "Settled Revenue of Town and Village Funds",
+  "d": "Gives settled revenue (yen) by item (town and village taxes such as land-tax, income-tax and household-tax levies) by prefecture, for FY1925."
+ },
+ "p0332_1": {
+  "t": "Settled Expenditure of Town and Village Funds",
+  "d": "Gives settled expenditure (yen) by item (shrines, office salaries and allowances, etc.) by prefecture, for FY1925."
+ },
+ "p0336_1": {
+  "t": "Government Officials by Rank: Numbers and Salaries",
+  "d": "Gives the number of officials and annual salary (yen) by authority and rank (senior officials, imperial-appointment and others, by salary level) for the national treasury (Government-General and subordinate offices), at the end of 1925."
+ },
+ "p0341_1": {
+  "t": "Government Officials by Rank and Office: Numbers and Salaries",
+  "d": "Gives the number of officials and annual salary (yen) by rank (chokunin, sōnin and others) for each Government-General office, at the end of 1925."
+ },
+ "p0342_1": {
+  "t": "Prefectural and District Officials by Rank and Office: Numbers and Salaries",
+  "d": "Gives the number of officials and annual salary (yen) by rank (chokunin, sōnin and others) for each prefectural and district office and city office, at the end of 1925."
+ },
+ "p0345_1": {
+  "t": "Officials on Leave of Absence",
+  "d": "Gives officials on leave of absence by rank (chokunin, sōnin, hannin, total) in each office (Monopoly Bureau, medical college, normal schools, etc.), at the end of 1925."
+ },
+ "p0346_1": {
+  "t": "Honours and Awards",
+  "d": "Gives donors of money or grain (persons, amount in yen) and persons honoured for national-treasury-funded undertakings (persons, amount), for 1925 with earlier years."
+ },
+ "p0346_2": {
+  "t": "Annuities and Pensions Received: Number and Amount",
+  "d": "Gives annuity payments (Order of the Rising Sun, Order of the Golden Kite; number and amount in yen) and pensions for FY1925 with earlier years."
+ },
+ "p0347_1": {
+  "t": "Police Awards, Pensions and Aid by Type",
+  "d": "Gives police awards, pensions and aid (bonuses, commendations, lump sums for injury, illness or death) by recipient rank (police inspector, assistant inspector, etc.): persons and amount (yen), in 1925."
+ },
+ "p0347_2": {
+  "t": "Police Awards, Pensions and Aid by Region",
+  "d": "Gives police bonuses, commendations and pensions or retirement allowances for injury or illness (persons and yen) by prefecture and district, in 1925."
+ }
+}
