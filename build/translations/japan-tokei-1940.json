@@ -1,0 +1,879 @@
+{
+ "_chapters": {
+  "度量衡比較、合數及略算法": "Comparison of Weights and Measures, Equivalents and Approximate Conversions",
+  "1 土地": "1 Land",
+  "2 人口": "2 Population",
+  "3 農林及水產": "3 Agriculture, Forestry and Fisheries",
+  "4 工業": "4 Industry",
+  "5 商業及金融": "5 Commerce and Finance",
+  "6 貿易": "6 Trade",
+  "7 交通": "7 Communications and Transport",
+  "8 厚生": "8 Welfare",
+  "9 勞働": "9 Labour",
+  "10 教育、神社及宗教": "10 Education, Shrines and Religion",
+  "11 警察、衛生及災害": "11 Police, Public Health and Disasters",
+  "12 司法": "12 Justice",
+  "13 財政": "13 Public Finance",
+  "14 恩給其ノ他": "14 Pensions and Miscellaneous"
+ },
+ "p0010_1": {
+  "t": "Comparison and Equivalents of Weights and Measures",
+  "d": "Gives, for each unit of length, area, capacity and weight in the metric and yard-pound systems and for other equivalents, the number of target units equal to one unit and the reciprocal."
+ },
+ "p0010_2": {
+  "t": "Approximate Conversions",
+  "d": "Gives simplified (fractional) conversion factors between Japanese units and metric and yard-pound units of length, area, capacity and weight."
+ },
+ "p0014_1": {
+  "t": "Position of the Empire",
+  "d": "Gives the place names and latitude and longitude of the eastern, western, northern and southern extreme points of the Empire as a whole and of each main island and territory."
+ },
+ "p0014_2": {
+  "t": "Coastline and Area",
+  "d": "Gives coastline length (main land and large and small islands) and area by region, with the area and per-mille share of each prefecture of Japan proper, each province of Korea and each division of Taiwan, Karafuto, Kwantung and the South Seas."
+ },
+ "p0015_1": {
+  "t": "Population of the Empire",
+  "d": "Gives the present population by sex, density per km² and males per 100 females for Japan proper, Korea, Taiwan, Karafuto, Kwantung and the South Seas at the censuses of 1920, 1925, 1930 and 1935."
+ },
+ "p0015_2": {
+  "t": "Population of Japan Proper (Estimates)",
+  "d": "Gives the estimated population of Japan proper as of 1 October each year from 1920, by sex, for the whole country, urban districts (with the number of cities) and rural districts."
+ },
+ "p0015_3": {
+  "t": "Resident Population of the Overseas Territories",
+  "d": "Gives the resident population of Korea, Taiwan, Karafuto, Kwantung and the South Seas by year from 1930, by sex and by nationality group (Japanese, natives, foreigners)."
+ },
+ "p0016_1": {
+  "t": "Households and Population of Japan Proper by Prefecture",
+  "d": "Gives the number of households, population by sex, persons per household, density per km² and males per 100 females for each prefecture at the censuses of 1 October 1935 and 1930."
+ },
+ "p0017_1": {
+  "t": "Households and Population of the Cities of Japan Proper",
+  "d": "Gives the number of households and population by sex of each city at the census of 1 October 1935, with its 1930 census population."
+ },
+ "p0018_1": {
+  "t": "Population by Age and Marital Status",
+  "d": "Gives the population of the Empire and of Japan proper by single year of age and sex, with Japan proper broken down by marital status (single, married, widowed, divorced), at the census of 1 October 1935."
+ },
+ "p0020_1": {
+  "t": "Population of Japan Proper by Occupation (Major Group), Industrial Status, Age and Marital Status",
+  "d": "Gives the gainfully occupied population of each major occupational group by sex, with breakdowns by status (employer, own account, employee), age group and marital status, at the census of 1 October 1930."
+ },
+ "p0021_1": {
+  "t": "Municipalities and Population of Japan Proper by Size Class",
+  "d": "Gives the number of cities, towns and villages, their population and population per 1,000 in each population-size class, at censuses and year-end counts from 1898 to 1935."
+ },
+ "p0021_2": {
+  "t": "Population of Japan Proper by Domicile and Nationality",
+  "d": "Gives the population of each prefecture by registered domicile (Japanese, Korean, Taiwanese, Karafuto, South Seas) and by foreign nationality (Chinese, Russian and others), at the census of 1 October 1930 with 1920 totals."
+ },
+ "p0022_1": {
+  "t": "Marriages, Divorces, Births, Stillbirths and Deaths",
+  "d": "Gives the numbers and rates per 1,000 population of marriages, divorces, births, stillbirths and deaths, and natural increase, by year for Japan proper and each territory, and by prefecture and city for 1938."
+ },
+ "p0024_1": {
+  "t": "Marriages in Japan Proper",
+  "d": "Gives the number of marriages, average age at first marriage of husband and wife, and husbands and wives by first marriage or remarriage, by year and by region for 1938."
+ },
+ "p0024_2": {
+  "t": "Marriages by Age",
+  "d": "Gives the number of husbands and wives marrying, total and first marriages only, by age group, by year from 1924."
+ },
+ "p0025_1": {
+  "t": "Divorces in Japan Proper",
+  "d": "Gives the number of divorces by year and by prefecture."
+ },
+ "p0025_2": {
+  "t": "Divorces in Japan Proper by Duration of Marriage",
+  "d": "Gives the number of divorces by length of the marriage (under one year to five years, then five-year bands), by year."
+ },
+ "p0025_3": {
+  "t": "Births and Stillbirths by Legitimacy",
+  "d": "Gives births and stillbirths by sex and by legitimacy (legitimate, illegitimate including acknowledged), in numbers and percentages, by year for Japan proper and the territories and by prefecture for 1938."
+ },
+ "p0026_1": {
+  "t": "Births by Month",
+  "d": "Gives the number of births in each month, by year from 1934, for Japan proper, Korea, Taiwan, Karafuto and Kwantung."
+ },
+ "p0026_2": {
+  "t": "Deaths by Month",
+  "d": "Gives the number of deaths in each month, by year from 1934, for Japan proper, Korea, Taiwan, Karafuto and Kwantung."
+ },
+ "p0027_1": {
+  "t": "Infant Deaths",
+  "d": "Gives deaths of infants under one year by sex for 1938 and totals for 1934–1937, with infant deaths per 100 births, by prefecture of Japan proper and for the territories."
+ },
+ "p0027_2": {
+  "t": "Life Table of Japan Proper",
+  "d": "Gives survivors, deaths, survival and mortality rates and life expectancy by age and sex from the sixth life table (April 1935 to March 1936), with comparison to earlier tables."
+ },
+ "p0028_1": {
+  "t": "Cultivated Land Area",
+  "d": "Gives the area of cultivated land, paddy and upland fields, each split into owner-cultivated and tenanted, by year and by prefecture (end of 1938) for Japan proper, and by year for Korea, Taiwan, Karafuto, Kwantung and the South Seas."
+ },
+ "p0029_1": {
+  "t": "Changes in Cultivated Land in Japan Proper",
+  "d": "Gives the area of paddy and upland fields added (by reclamation or change of land category) and lost (to housing, factory and building sites and other causes), by year from 1934."
+ },
+ "p0029_2": {
+  "t": "Farm Households in Japan Proper",
+  "d": "Gives the number of farm households by tenure (owner, tenant, part-owner) and by size of land cultivated, by year and by prefecture at the end of 1938."
+ },
+ "p0029_3": {
+  "t": "Households Owning Cultivated Land in Japan Proper",
+  "d": "Gives the number of landowning households by size of holding, from under five tan to fifty chō and over, by year from 1934."
+ },
+ "p0030_1": {
+  "t": "Planted Area of Agricultural Crops in Japan Proper",
+  "d": "Gives the area planted to rice (by type), barley, rye, wheat, oats, soybeans and other crops, by year and by prefecture."
+ },
+ "p0031_1": {
+  "t": "Planted Area of Agricultural Crops in the Overseas Territories",
+  "d": "Gives the area planted to rice (by type), barley, wheat, rye, soybeans, red beans and other crops, by year, for Korea, Taiwan, Karafuto and Kwantung."
+ },
+ "p0032_1": {
+  "t": "Agricultural Production of Japan Proper",
+  "d": "Gives the quantity and value of the harvest of rice (by type), wheat and barley, beans and other crops, by year and by prefecture."
+ },
+ "p0037_1": {
+  "t": "Agricultural Production of the Overseas Territories",
+  "d": "Gives the quantity and value of the harvest of rice, barley and wheat, soybeans, red beans, millet and other crops, by year, for Korea, Taiwan, Karafuto and Kwantung."
+ },
+ "p0039_1": {
+  "t": "Yield of Rice and Wheat and Barley per Tan",
+  "d": "Gives the yield per tan of rice (by type) and of barley, naked barley and wheat, by year for Japan proper and for Japan proper and the territories (1939; territories 1938)."
+ },
+ "p0039_2": {
+  "t": "Rice Supply and Demand in Japan Proper",
+  "d": "Gives carry-over, production, imports by country and shipments in from the territories, exports, carry-over to the next year and consumption of rice, by rice year (November to October) from 1935."
+ },
+ "p0040_1": {
+  "t": "Sericulture in Japan Proper",
+  "d": "Gives the number of silkworm-rearing households, quantity of eggs used, cocoon output by grade and value, in total and by season, by year and by prefecture for 1939."
+ },
+ "p0041_1": {
+  "t": "Sericulture in the Overseas Territories",
+  "d": "Gives rearing households, silkworm egg cards used, cocoon output by season and silk production, by year (and by province for 1938) for Korea, and by year for Taiwan and Kwantung."
+ },
+ "p0041_2": {
+  "t": "Livestock and Poultry",
+  "d": "Gives the numbers of cattle, pigs, sheep, goats and chickens, by year for Japan proper and by prefecture and territory for 1938."
+ },
+ "p0042_1": {
+  "t": "Dairy and Meat Products in Japan Proper",
+  "d": "Gives the number of factories and the value and output of condensed milk, butter, margarine, ham, bacon and other products, by year and by prefecture for 1938."
+ },
+ "p0042_2": {
+  "t": "Forest Area",
+  "d": "Gives the area of stocked and unstocked forest land by ownership (imperial, national, public, shrine and temple, private), by year for Japan proper and by prefecture and territory at the end of 1936."
+ },
+ "p0043_1": {
+  "t": "Forests and Forest Production of Japan Proper",
+  "d": "Gives the area newly planted and naturally regenerated, bamboo planting, and the quantity and value of timber, fuelwood and other forest products, by year and by prefecture for 1938."
+ },
+ "p0044_1": {
+  "t": "Forests and Forest Production of the Overseas Territories",
+  "d": "Gives the area under forest management and the quantity and value of timber, bamboo, fuelwood and other products, by year, for Korea, Taiwan and Karafuto."
+ },
+ "p0044_2": {
+  "t": "Fishermen and Fishing Boats",
+  "d": "Gives the number of fishermen (full-time and part-time) and of fishing boats by size and propulsion, by year for Japan proper and by prefecture and territory at the end of 1938."
+ },
+ "p0045_1": {
+  "t": "Coastal Fishery Catch",
+  "d": "Gives the quantity and value of the catch of sardines, bonito, mackerel, tuna and other species, by year for Japan proper and by prefecture and territory for 1938."
+ },
+ "p0047_1": {
+  "t": "Marine Products Manufactured",
+  "d": "Gives the quantity and value of processed marine products such as dried bonito, dried squid and shark fin, by year for Japan proper and by prefecture and territory for 1938."
+ },
+ "p0049_1": {
+  "t": "Offshore and Deep-Sea Fisheries",
+  "d": "Gives the quantity and value of catch by species for Japan's offshore and deep-sea fisheries, fishing off Korea, Taiwan, Kwantung and the Soviet Far East, steam trawling, whaling and mother-ship fisheries, by year."
+ },
+ "p0049_2": {
+  "t": "Aquaculture in Japan Proper",
+  "d": "Gives the number and area of fish and shellfish farms and their harvest by species (carp, eel, mullet, goldfish, trout, oysters, clams etc.), by year."
+ },
+ "p0049_3": {
+  "t": "Agar Manufacture in Japan Proper",
+  "d": "Gives the number of agar factories and the quantity and value of agar produced, by year."
+ },
+ "p0050_1": {
+  "t": "Fishery Workers in Japan Proper",
+  "d": "Gives the number of hired workers in fishing, aquaculture and processing, full-time and part-time, by year and by sex at the end of 1938."
+ },
+ "p0050_2": {
+  "t": "Forestry Workers in Japan Proper",
+  "d": "Gives the number of forestry workers by full-time (regular or temporary) and part-time employment, by age group and sex, and by type of work, by year."
+ },
+ "p0050_3": {
+  "t": "Industrial Cooperatives in Japan Proper",
+  "d": "Gives the number of cooperatives by type (credit, marketing, purchasing, utility and combinations), by year and by prefecture at the end of 1939."
+ },
+ "p0051_1": {
+  "t": "Agricultural Associations in Japan Proper",
+  "d": "Gives the number of municipal, county and prefectural agricultural associations and their members, by year from 1914 and by prefecture at the end of fiscal 1936."
+ },
+ "p0051_2": {
+  "t": "Tea Guilds and Their Federations in Japan Proper",
+  "d": "Gives the number of tea guilds and federated chambers and their members, by year and by prefecture at the end of 1938."
+ },
+ "p0051_3": {
+  "t": "Sericultural Associations and Their Federations in Japan Proper",
+  "d": "Gives the number and membership of silkworm-rearing, egg-producing and silk-reeling associations and their federations, by year and by prefecture at the end of 1938; one column heading is only partly legible."
+ },
+ "p0051_4": {
+  "t": "Livestock Associations and Their Federations in Japan Proper",
+  "d": "Gives the number of livestock associations and federations and their members, by year and by prefecture at the end of 1937."
+ },
+ "p0052_1": {
+  "t": "Forestry Associations in Japan Proper",
+  "d": "Gives the number of forestry associations by purpose (management, engineering works, protection, afforestation etc.) and their members, by year and by prefecture at the end of 1938."
+ },
+ "p0052_2": {
+  "t": "Fishery and Marine Product Organisations in Japan Proper",
+  "d": "Gives the number and membership of marine-products societies, marine-products guilds, fishermen's cooperatives and their federations, by year and by prefecture at the end of 1938."
+ },
+ "p0053_1": {
+  "t": "Factories and Factory Output",
+  "d": "Gives the number of factories and value of output by branch of industry (textiles, metals, machinery, ceramics etc.), by year for Japan proper and each territory and by prefecture for 1938."
+ },
+ "p0055_1": {
+  "t": "Factories and Workers in Japan Proper",
+  "d": "Gives the number of factories (and those using motive power), office and technical staff, and operatives by sex and under age 16, by year and by type of business at the end of 1938, for private factories with five or more workers."
+ },
+ "p0056_1": {
+  "t": "Factories and Operatives",
+  "d": "Gives the number of factories and operatives by sex and by branch of industry, by year for Japan proper and by prefecture and territory, for private factories with five or more workers."
+ },
+ "p0057_1": {
+  "t": "Companies",
+  "d": "Gives the number of companies and their paid-up capital by industry (agriculture, fisheries, mining, manufacturing, commerce etc.), by year, for the whole Empire, Japan proper by legal form, and each territory."
+ },
+ "p0058_1": {
+  "t": "Companies in Japan Proper by Size of Capital",
+  "d": "Gives the number of companies and their paid-up capital by capital-size class, by year and by prefecture at the end of 1938."
+ },
+ "p0058_2": {
+  "t": "Companies in Japan Proper by Type of Business",
+  "d": "Gives the number of companies and their paid-up capital by type of business (agriculture, fisheries, mining, manufacturing, commerce, transport), by year and by prefecture at the end of 1938."
+ },
+ "p0059_1": {
+  "t": "Companies in Japan Proper by Industry",
+  "d": "Gives the number of companies, capital, reserves, net profit, dividends and losses, in total and by legal form, by year and by detailed industry for 1938."
+ },
+ "p0060_1": {
+  "t": "General Survey of Banks",
+  "d": "Gives the number of head and branch offices, capital, reserves, note issues and debentures of banks, by year and by individual bank for 1938."
+ },
+ "p0061_1": {
+  "t": "Bank Deposits and Loans in Japan Proper",
+  "d": "Gives total bank deposits by type (government, fixed, current, savings etc.) and loans, at year end, by year from 1914."
+ },
+ "p0061_2": {
+  "t": "Deposits of Ordinary Banks",
+  "d": "Gives the number of head offices and year-end deposits by type (current, special current, notice, fixed, savings), by year and by prefecture for 1938."
+ },
+ "p0062_1": {
+  "t": "Deposits of Savings Banks",
+  "d": "Gives year-end deposits of savings banks by type (ordinary, deferred, instalment, fixed), by year and by prefecture for 1938."
+ },
+ "p0062_2": {
+  "t": "Loans of Ordinary Banks",
+  "d": "Gives total annual lending and year-end outstanding loans by type (bills, deeds, overdrafts, call loans, discounted bills), by year and by prefecture for 1938."
+ },
+ "p0063_1": {
+  "t": "Loans of Savings Banks",
+  "d": "Gives total annual lending and year-end outstanding loans of savings banks by type of security and borrower, by year and by prefecture at the end of 1938."
+ },
+ "p0063_2": {
+  "t": "Trust Business in Japan Proper",
+  "d": "Gives the number of offices, capital and reserves of trust companies, trust business accepted by type, trusts outstanding, receipts and payments, and profits, by business year (December to November)."
+ },
+ "p0063_3": {
+  "t": "Mujin (Mutual Loan) Business in Japan Proper",
+  "d": "Gives the number of mujin companies and branches, their capital, the number of groups and shares, and contracted, paid and unpaid benefits, at year end, by year."
+ },
+ "p0064_1": {
+  "t": "Central Bank for Industrial Cooperatives",
+  "d": "Gives the capital, reserves, debentures, borrowings, deposits, securities, cash, profit and loss and loans (by type and by prefecture) of the Sangyō Kumiai Chūō Kinko, by year."
+ },
+ "p0064_2": {
+  "t": "Central Bank for Commercial and Industrial Cooperatives",
+  "d": "Gives the capital, reserves, debentures, borrowings, deposits, securities, profit and loss and loans (by type and by borrower) of the Shōkō Kumiai Chūō Kinko, by year from 1936."
+ },
+ "p0065_1": {
+  "t": "Federations of Credit Cooperatives in Japan Proper",
+  "d": "Gives the number of federations and affiliated cooperatives, capital, reserves, savings received and outstanding, loans and other accounts, by year and by prefecture for fiscal 1938."
+ },
+ "p0066_1": {
+  "t": "Credit Cooperatives in Japan Proper",
+  "d": "Gives the number and membership of credit cooperatives (including multi-purpose ones), loans by purpose and security, bills discounted and savings, by year and by prefecture for fiscal 1938."
+ },
+ "p0067_1": {
+  "t": "Domestic Insurance Companies in Japan Proper",
+  "d": "Gives the number of companies, capital, reserves, income, expenditure and contracts, by year, for each class of insurance (life, conscription, accident, fire, marine, transport, credit, boiler, motor, theft, glass)."
+ },
+ "p0068_1": {
+  "t": "Foreign Insurance Companies in Japan Proper",
+  "d": "Gives the number of companies, deposits lodged, premiums, claims paid and new and outstanding contracts, by year, for life, annuity, fire, marine and motor insurance."
+ },
+ "p0068_2": {
+  "t": "Investment of Funds of Domestic Insurance Companies in Japan Proper",
+  "d": "Gives the amounts held in loans by type of security, securities, real estate, deposits and other assets at the end of each fiscal year from 1934 to 1938."
+ },
+ "p0069_1": {
+  "t": "Post Office Life Insurance",
+  "d": "Gives the number of contracts, premiums and sums insured outstanding at fiscal year end, in total and by type (whole life, endowment etc.), by year and for Japan proper and the territories for 1938."
+ },
+ "p0069_2": {
+  "t": "Revenue and Expenditure of Post Office Life Insurance",
+  "d": "Gives receipts (premiums and other) and expenditure (year-end reserve, claims paid and other), by fiscal year."
+ },
+ "p0069_3": {
+  "t": "Postal Annuities",
+  "d": "Gives new and outstanding annuity contracts, contributions and annuity amounts, contributions received and annuities paid, by year, by type of annuity and by prefecture for fiscal 1938."
+ },
+ "p0070_1": {
+  "t": "Postal Savings",
+  "d": "Gives the number and amount of deposits and withdrawals and the depositors and balance at fiscal year end, by year for Japan proper and for Japan proper and the territories for 1938."
+ },
+ "p0070_2": {
+  "t": "Funds and Investments of the Deposit Bureau of the Ministry of Finance",
+  "d": "Gives the funds of the Deposit Bureau by source (postal savings, transfer savings, special accounts etc.), their investment by form and purpose, and profit and loss, at the end of each fiscal year from 1934 to 1938."
+ },
+ "p0071_1": {
+  "t": "Issue, Redemption and Outstanding Amount of Public Bonds and Debentures in Japan Proper",
+  "d": "Gives the amounts issued, redeemed and outstanding of national bonds (domestic and foreign), local bonds and company debentures, by year from 1935 to 1939."
+ },
+ "p0071_2": {
+  "t": "Outstanding Foreign Loans (Japanese Bonds Issued Abroad)",
+  "d": "Gives the amounts of national, local and company bonds issued abroad, in yen equivalents and in sterling, dollar, franc and yen issues, by year from 1931 to 1939."
+ },
+ "p0072_1": {
+  "t": "Currency in Circulation",
+  "d": "Gives the year-end amount of currency in circulation: small notes, Bank of Japan notes, Bank of Korea and Bank of Taiwan notes and subsidiary coins, by year."
+ },
+ "p0072_2": {
+  "t": "Bank of Japan Notes",
+  "d": "Gives the year-end note issue with its specie reserve (gold coin and bullion) and fiduciary reserve (bonds, bills), and total annual issue, by year."
+ },
+ "p0072_3": {
+  "t": "Bank of Taiwan Notes",
+  "d": "Gives the year-end note issue of the Bank of Taiwan with its specie and fiduciary reserves by type, by year."
+ },
+ "p0072_4": {
+  "t": "Bank of Korea Notes",
+  "d": "Gives the year-end note issue of the Bank of Korea with its specie and fiduciary reserves by type, by year."
+ },
+ "p0072_5": {
+  "t": "Yokohama Specie Bank Notes",
+  "d": "Gives the year-end issue of yen, dollar and tael silver notes of the Yokohama Specie Bank with its reserves and total annual issue, by year."
+ },
+ "p0072_6": {
+  "t": "Market Interest Rates in Tokyo and Osaka",
+  "d": "Gives the highest, lowest and usual rates for discount of commercial bills and for call money in Tokyo and Osaka, by year from 1935."
+ },
+ "p0072_7": {
+  "t": "Bank of Japan Interest Rates",
+  "d": "Gives the Bank of Japan's rates for commercial bills, loans secured on government bonds and other security, and overdrafts, at each date of change from 1932."
+ },
+ "p0072_8": {
+  "t": "Agreed Deposit Interest Rates in Tokyo and Osaka",
+  "d": "Gives the bankers' agreed rates on fixed, current, special current, notice and other deposits (class A and B banks) in Tokyo and Osaka, at each date of change from 1931."
+ },
+ "p0072_9": {
+  "t": "Agreed Interest Rates of Savings Banks in Tokyo and Osaka",
+  "d": "Gives the agreed rates on ordinary savings, deferred savings and fixed deposits of savings banks in Tokyo and Osaka, at each date of change from 1931."
+ },
+ "p0073_1": {
+  "t": "Bill Clearings in Japan Proper",
+  "d": "Gives the number of clearing houses, the number and value of bills cleared and of dishonoured bills, by year and for the six large cities (Tokyo, Osaka, Kobe, Kyoto, Nagoya, Yokohama)."
+ },
+ "p0073_2": {
+  "t": "Bill Clearings in the Overseas Territories",
+  "d": "Gives the number and value of bills cleared, in total and by clearing city (Keijō, Jinsen, Fuzan, Heijō etc. in Korea; cities of Taiwan), by year."
+ },
+ "p0073_3": {
+  "t": "Trade Associations for Staple Products and Their Federations in Japan Proper",
+  "d": "Gives the number of trade associations by product (silkworm eggs, sericulture, raw silk, dyeing, textiles, livestock etc.) and of their federations, at year end, by year."
+ },
+ "p0073_4": {
+  "t": "Commercial Associations and Their Federations in Japan Proper",
+  "d": "Gives the number of commercial associations by line of trade (grain, milk, fertiliser, fuel, yarn, textiles, marine products etc.) and of their federations, at year end, by year."
+ },
+ "p0073_5": {
+  "t": "Shipping Associations in Japan Proper",
+  "d": "Gives the number of shipping (marketing) associations for agricultural, marine and livestock products, at year end, by year from 1924."
+ },
+ "p0074_1": {
+  "t": "Total Exports and Imports of the Empire",
+  "d": "Gives exports and imports (including trade between Japan proper and the territories) and the balance, for the Empire, Japan proper, Korea, Taiwan, the South Seas and Kwantung, by year from 1868 and by month for 1939."
+ },
+ "p0075_1": {
+  "t": "Exports and Imports by Country",
+  "d": "Gives the value of exports and imports by country of destination and origin, 1935 to 1939, for Japan proper, Korea, Taiwan and Kwantung."
+ },
+ "p0076_1": {
+  "t": "Exports and Imports by Port",
+  "d": "Gives the value of exports and imports through each port, 1935 to 1939, for Japan proper, Korea, Taiwan, Kwantung and the South Seas."
+ },
+ "p0076_2": {
+  "t": "Exports and Imports of Japan Proper by Class of Goods",
+  "d": "Gives the value of exports and imports by class of commodity, 1936 to 1939."
+ },
+ "p0076_3": {
+  "t": "Export Associations in Japan Proper",
+  "d": "Gives the number of export associations by product (agricultural products, citrus, marine products, textiles, knitwear, bicycles, pottery etc.), by year."
+ },
+ "p0077_1": {
+  "t": "Roads in Japan Proper",
+  "d": "Gives the length of national, prefectural, city and town and village roads and bridges, and road length per km², by year and by prefecture at the end of fiscal 1938."
+ },
+ "p0077_2": {
+  "t": "Bridges in Japan Proper",
+  "d": "Gives the number of bridges (excluding those of 2 m span or less) by class of road and by construction (iron, stone, concrete and brick, wood etc.), by year."
+ },
+ "p0077_3": {
+  "t": "Vehicles",
+  "d": "Gives the number of horse carts, ox carts, handcarts, rickshaws and bicycles, by year for Japan proper and by prefecture and territory."
+ },
+ "p0078_1": {
+  "t": "Vessels Entering Port",
+  "d": "Gives the number and tonnage of steamers and sailing vessels entering each open and principal port, by prefecture and territory, in 1938."
+ },
+ "p0078_2": {
+  "t": "Ships by Tonnage",
+  "d": "Gives the number and tonnage of steamers and sailing vessels by tonnage class, registered and unregistered, by year, for Japan proper, Korea, Taiwan and Kwantung."
+ },
+ "p0079_1": {
+  "t": "Ships by Locality",
+  "d": "Gives the number and tonnage of registered and unregistered steamers and sailing vessels, by prefecture and territory at the end of 1938."
+ },
+ "p0079_2": {
+  "t": "Post and Telegraph Offices",
+  "d": "Gives the number of post offices by class, telegraph offices and agencies (ordinary and wireless) and telephone offices, at fiscal year end, by year for Japan proper and by territory for 1938."
+ },
+ "p0080_1": {
+  "t": "Domestic Post and Telegraphs",
+  "d": "Gives the number of letters and parcels accepted and delivered and telegrams sent and received, by fiscal year for Japan proper and by prefecture and territory for 1938."
+ },
+ "p0080_2": {
+  "t": "Foreign Post and Telegraphs of Japan Proper",
+  "d": "Gives the number of letters and parcels sent and received and telegrams sent and received in foreign service, by fiscal year and by country for 1938."
+ },
+ "p0081_1": {
+  "t": "Cost of Living in Japan Proper",
+  "d": "Gives average household size, income by source and expenditure by item, in amounts and percentages, by monthly income class, for all households, salaried employees and workers, from the family budget survey of September 1938 to August 1939."
+ },
+ "p0082_1": {
+  "t": "Cost-of-Living Index of Japan Proper",
+  "d": "Gives cost-of-living index numbers (July 1937 = 100) for food, housing, fuel and light, clothing and miscellaneous, for workers and salaried employees in 24 major cities, by month."
+ },
+ "p0082_2": {
+  "t": "Military Relief",
+  "d": "Gives the number of persons assisted and amounts paid to wounded and sick soldiers and the families of soldiers, by fiscal year for Japan proper and by prefecture and territory for 1938."
+ },
+ "p0083_1": {
+  "t": "Social Work Institutions by Type",
+  "d": "Gives the number of social work bodies and facilities by type (coordinating bodies, district commissioners, child welfare, relief, medical aid etc.), by fiscal year for Japan proper and by prefecture and territory for 1937."
+ },
+ "p0084_1": {
+  "t": "Relief under the Relief Law in Japan Proper",
+  "d": "Gives the number of persons relieved and amounts paid by category (aged 65 and over, children 13 and under, expectant mothers, the disabled etc.), by prefecture for fiscal 1938."
+ },
+ "p0085_1": {
+  "t": "General Employment Exchanges in Japan Proper",
+  "d": "Gives the number of exchanges, job offers, applicants and placements by sex, by year, by month and by prefecture for 1939, and by occupation."
+ },
+ "p0085_2": {
+  "t": "Day-Labour Placement in Japan Proper",
+  "d": "Gives the number of exchanges, job offers, applicants and persons placed in day labour, by year and by month for 1939."
+ },
+ "p0085_3": {
+  "t": "Fee-Charging Employment Agencies in Japan Proper",
+  "d": "Gives the number of agencies, job offers, applicants and placements by sex, by year and by month for 1939."
+ },
+ "p0086_1": {
+  "t": "Workers in Japan Proper",
+  "d": "Gives the number of workers by sex in agriculture and forestry, fisheries, mining, manufacturing, transport and other sectors, from police household registers, by year and by prefecture at the end of 1939."
+ },
+ "p0087_1": {
+  "t": "Workers in Japan Proper by Industry",
+  "d": "Gives the number of workers by sex in factories, mines, transport and other workplaces, as of 10 October, by survey year from 1924 and by prefecture for 1936."
+ },
+ "p0087_2": {
+  "t": "Wages in Japan Proper",
+  "d": "Gives average daily wages in sen by sex, for 1937 to 1939, for factory workers by branch of industry, transport workers and miners."
+ },
+ "p0087_3": {
+  "t": "Wage Index of Japan Proper",
+  "d": "Gives wage index numbers by year for factory workers by branch of industry and for transport and mine workers."
+ },
+ "p0088_1": {
+  "t": "Schools, Teachers and Pupils",
+  "d": "Gives the number of schools, teachers and students by public or private status, for the Empire, by year for Japan proper, and by type of school."
+ },
+ "p0089_1": {
+  "t": "Children of School Age",
+  "d": "Gives the number of children of school age by sex, those who have reached school age by attendance status (attending, not attending, postponed or exempted), by year for Japan proper and by prefecture and territory."
+ },
+ "p0089_2": {
+  "t": "Elementary Schools and Classes",
+  "d": "Gives the number of elementary schools (ordinary, ordinary-higher, higher, including branch schools) and of classes by course, by year for Japan proper and by prefecture and territory."
+ },
+ "p0090_1": {
+  "t": "Elementary School Pupils",
+  "d": "Gives the number of elementary school pupils by sex and by course (ordinary, higher, supplementary), by year for Japan proper and by prefecture and territory."
+ },
+ "p0091_1": {
+  "t": "Elementary School Teachers",
+  "d": "Gives the number of elementary school teachers by sex and qualification (regular, special-subject, assistant, substitute), by year for Japan proper and by prefecture and territory."
+ },
+ "p0091_2": {
+  "t": "Girls' High Schools",
+  "d": "Gives the number of girls' high schools, teachers by qualification and sex, pupils by course and graduates, by year for Japan proper and by prefecture and territory."
+ },
+ "p0092_1": {
+  "t": "Practical Girls' High Schools",
+  "d": "Gives the number of practical girls' high schools, teachers by qualification and sex, and pupils by course, by year for Japan proper and by prefecture and for Kwantung."
+ },
+ "p0092_2": {
+  "t": "Middle Schools",
+  "d": "Gives the number of middle schools, teachers by qualification, pupils by course and graduates, by year for Japan proper and by prefecture and territory."
+ },
+ "p0093_1": {
+  "t": "Normal Schools",
+  "d": "Gives the number of normal schools, teachers by qualification, and students by course and sex, by year for Japan proper and by prefecture and territory."
+ },
+ "p0093_2": {
+  "t": "Vocational and Technical Schools in Japan Proper",
+  "d": "Gives the number of schools, teachers and pupils of class A and class B technical, agricultural, commercial and other vocational schools, by year and by prefecture."
+ },
+ "p0094_1": {
+  "t": "Schools for the Blind and Deaf-Mute",
+  "d": "Gives the number of schools, teachers and blind and deaf-mute pupils by sex, by year for Japan proper and by prefecture and territory."
+ },
+ "p0095_1": {
+  "t": "Technical Colleges in Japan Proper",
+  "d": "Gives the number of colleges, teachers, students by course and graduates, by year, for colleges of engineering, agriculture, commerce, mercantile marine and fisheries."
+ },
+ "p0095_2": {
+  "t": "Higher Normal Schools and Temporary Teacher Training Institutes in Japan Proper",
+  "d": "Gives the number of schools, teachers, students and graduates of higher normal schools, women's higher normal schools and temporary teacher training institutes, by year."
+ },
+ "p0095_3": {
+  "t": "Colleges in Japan Proper",
+  "d": "Gives the number of colleges, teachers by sex, students and graduates, by government, public or private status and prefecture for fiscal 1932 to 1936, and students and graduates by field of study."
+ },
+ "p0096_1": {
+  "t": "Higher Schools in Japan Proper",
+  "d": "Gives the number of higher schools, teachers, students and graduates, by year and by school for fiscal 1937."
+ },
+ "p0096_2": {
+  "t": "Universities",
+  "d": "Gives the number of universities, teachers and students by faculty (graduate school, law, medicine, science and engineering, letters, economics etc.), by year for Japan proper and by university in Japan proper and the territories for 1937."
+ },
+ "p0097_1": {
+  "t": "Youth Schools",
+  "d": "Gives the number of youth schools, teachers by qualification, instructors and pupils by course, by year for Japan proper and by prefecture and territory for fiscal 1937."
+ },
+ "p0097_2": {
+  "t": "Youth Associations in Japan Proper",
+  "d": "Gives the number of young men's and young women's associations and their regular members, by year and by prefecture for fiscal 1937."
+ },
+ "p0098_1": {
+  "t": "Books Published in Japan Proper",
+  "d": "Gives the number of books published (excluding government publications) by subject (politics, law, economics, sociology, statistics etc.), 1935 to 1939."
+ },
+ "p0098_2": {
+  "t": "Newspapers and Periodicals in Japan Proper",
+  "d": "Gives the number of newspapers and periodicals under the Newspaper Law, with and without security deposit, by frequency of issue, by year and by prefecture at the end of 1939."
+ },
+ "p0098_3": {
+  "t": "Libraries",
+  "d": "Gives the number of public and private libraries, their holdings of Japanese and Chinese and Western books, and readers, by year for Japan proper and by prefecture and territory for fiscal 1937."
+ },
+ "p0099_1": {
+  "t": "Shrines and Shinto Priests",
+  "d": "Gives the number of shrines by rank (Ise, government, national, prefectural and lower shrines) and of Shinto priests, by year for Japan proper and by prefecture and territory for 1938."
+ },
+ "p0099_2": {
+  "t": "Buddhist Temples and Chief Priests",
+  "d": "Gives the number of temples and chief priests by sect (Tendai, Shingon, Jōdo, Rinzai, Sōtō, Ōbaku, Shin etc.), at year end, by year for Japan proper and by prefecture and territory for 1937."
+ },
+ "p0100_1": {
+  "t": "Christianity",
+  "d": "Gives the number of churches and preaching places, missionaries and believers by denomination, by year, for Japan proper, Korea, Taiwan, Karafuto and the South Seas."
+ },
+ "p0100_2": {
+  "t": "Police Offices and Personnel",
+  "d": "Gives the number of police stations, water police stations, police boxes and residential posts, and police personnel by rank, by year for Japan proper and by prefecture and territory at the end of 1939."
+ },
+ "p0101_1": {
+  "t": "Crimes Cleared",
+  "d": "Gives the number of offences cleared by the police by type of crime under the Criminal Code and special laws, by year for Japan proper and by prefecture and territory for 1938."
+ },
+ "p0102_1": {
+  "t": "Businesses under Police Control in Japan Proper",
+  "d": "Gives the number of businesses subject to police regulation (factories under the Factory Act, electricity and gas, firearms, explosives, compressed gas, seal engraving etc.), by year."
+ },
+ "p0102_2": {
+  "t": "Places of Entertainment in Japan Proper",
+  "d": "Gives the number of permanent and temporary theatres and cinemas and annual cinema attendance (adults and children), at year end, by year."
+ },
+ "p0102_3": {
+  "t": "Medical and Pharmaceutical Professions",
+  "d": "Gives the number of physicians, dentists, pharmacists, midwives, nurses, and acupuncturists, moxibustion practitioners and masseurs, at year end, by year for Japan proper and by prefecture and territory for 1938."
+ },
+ "p0103_1": {
+  "t": "Smallpox Vaccinations",
+  "d": "Gives the number of persons vaccinated in public first and second vaccinations, by result (successful, unsuccessful, not yet examined), and private vaccinations, by year for Japan proper and by prefecture and territory for 1938."
+ },
+ "p0104_1": {
+  "t": "Cases of Infectious Diseases",
+  "d": "Gives the number of cases and deaths from cholera, dysentery, typhoid, paratyphoid, cerebrospinal meningitis and other notifiable diseases, by year, for Japan proper and the territories."
+ },
+ "p0104_2": {
+  "t": "Mentally Ill Persons",
+  "d": "Gives the number of mentally ill persons by sex, by place of custody under the Mental Hospitals Law and the Mental Patients' Custody Law, at year end, by year for Japan proper and by prefecture and territory."
+ },
+ "p0105_1": {
+  "t": "Waterworks",
+  "d": "Gives the number of waterworks, taps by type (private, shared, street, metered, fire hydrants) and annual water supplied, by fiscal year for Japan proper and by prefecture and territory."
+ },
+ "p0105_2": {
+  "t": "Fires",
+  "d": "Gives the number of fires by cause (accident, arson, suspicious), buildings totally and partly burnt (dwellings and others) and floor area destroyed, by year for Japan proper and by prefecture and territory."
+ },
+ "p0106_1": {
+  "t": "Judicial Offices and Prison Staff in Japan Proper",
+  "d": "Gives the number of courts by level (Great Court of Cassation, appeal courts, district and local courts and branches), juvenile tribunals, probation offices and reformatories, and prison staff, by year (Japan proper including Karafuto)."
+ },
+ "p0106_2": {
+  "t": "Cases Handled by Local Courts in Japan Proper",
+  "d": "Gives the number of civil cases handled by local courts by type (conciliation, payment orders, first-instance suits, compulsory execution, bankruptcy, land and house lease mediation etc.), by year."
+ },
+ "p0106_3": {
+  "t": "Cases Handled by District Courts in Japan Proper",
+  "d": "Gives the number of civil cases handled by district courts by type (first-instance suits, appeals, complaints, bankruptcy, non-contentious, lease and tenancy mediation), by year."
+ },
+ "p0106_4": {
+  "t": "Cases Handled by Courts of Appeal in Japan Proper",
+  "d": "Gives the total and new civil cases handled by the courts of appeal, by type of appeal and complaint, by year."
+ },
+ "p0106_5": {
+  "t": "Cases Handled by the Great Court of Cassation",
+  "d": "Gives the total and new civil cases handled by the Great Court of Cassation, by type of final appeal and complaint, by year."
+ },
+ "p0106_6": {
+  "t": "Civil Suits in Local Courts of Japan Proper",
+  "d": "Gives the total and new civil suits in local courts by type (ordinary suits, provisional attachment, incompetency, disappearance, public summons etc.), by year."
+ },
+ "p0107_1": {
+  "t": "First-Instance Civil Suits in District Courts of Japan Proper",
+  "d": "Gives the total and new first-instance civil suits in district courts by type and by outcome (judgment for plaintiff or defendant, settlement, withdrawal etc.), by year."
+ },
+ "p0107_2": {
+  "t": "Civil Appeals in Courts of Appeal of Japan Proper",
+  "d": "Gives the total and new civil appeals by type and by outcome (dismissed, reversed, withdrawn, settled), by year."
+ },
+ "p0107_3": {
+  "t": "Notarial Business in Japan Proper",
+  "d": "Gives the number of notarial acts by type (juristic acts, other facts, protests, authentications, grants of execution, copies, inspections), by year."
+ },
+ "p0107_4": {
+  "t": "Deposits with Official Depositories in Japan Proper",
+  "d": "Gives the number and amount of money and securities deposited and paid out, by year."
+ },
+ "p0107_5": {
+  "t": "Criminal Cases Handled in Japan Proper",
+  "d": "Gives the number of criminal cases by stage (investigation, preliminary examination, first instance, appeal, final appeal, complaint, retrial, extraordinary appeal, private action), by year."
+ },
+ "p0107_6": {
+  "t": "First-Instance Criminal Cases in Japan Proper",
+  "d": "Gives cases received, disposed of and pending, and defendants by sex and outcome (convicted, acquitted or otherwise), by year."
+ },
+ "p0107_7": {
+  "t": "Criminal Appeals (Kōso) in Japan Proper",
+  "d": "Gives cases received, new appeals by appellant (prosecutor, defendant, other) and cases disposed of by outcome, by year."
+ },
+ "p0107_8": {
+  "t": "Criminal Final Appeals (Jōkoku) in Japan Proper",
+  "d": "Gives cases received, new final appeals by appellant (prosecutor, defendant, other) and cases disposed of by outcome, by year."
+ },
+ "p0108_1": {
+  "t": "Persons Convicted at First Instance under the Criminal Code in Japan Proper, by Motive",
+  "d": "Gives the number of offenders by motive (greed, extravagance, vanity, temptation, idleness, gambling, carelessness, poverty etc.), by year."
+ },
+ "p0108_2": {
+  "t": "Persons Convicted at First Instance under the Criminal Code in Japan Proper, by Offence",
+  "d": "Gives the number of offenders by offence and sex, 1934 to 1938."
+ },
+ "p0108_3": {
+  "t": "Persons Convicted at First Instance under the Criminal Code in Japan Proper, by Age",
+  "d": "Gives the number of offenders by age group, by year."
+ },
+ "p0109_1": {
+  "t": "Persons Convicted at First Instance under the Criminal Code, by Offence and Penalty",
+  "d": "Gives the number of offenders by offence and penalty (death, penal servitude and imprisonment for life or a term, fine, detention, minor fine), by year for Japan proper and the territories."
+ },
+ "p0109_2": {
+  "t": "Persons Convicted at First Instance under Special Laws, by Offence and Penalty",
+  "d": "Gives the number of offenders under special laws by offence and penalty, by year for Japan proper and the territories."
+ },
+ "p0109_3": {
+  "t": "Defendants with Final Judgments in Japan Proper",
+  "d": "Gives the number of defendants (men, women and juridical persons) whose judgments became final, by instance and outcome (convicted, acquitted or discharged), by year."
+ },
+ "p0110_1": {
+  "t": "Prison Inmates",
+  "d": "Gives the number of inmates by sex and category (convicts, persons detained in workhouses for unpaid fines, accused awaiting trial), by year for Japan proper and the territories."
+ },
+ "p0110_2": {
+  "t": "Convicts Serving Penal Servitude in Japan Proper, by Length of Sentence",
+  "d": "Gives the number of convicts at year end by sex and length of sentence (life and terms from under one year to 15 years and over), by year."
+ },
+ "p0110_3": {
+  "t": "Total Revenue and Expenditure",
+  "d": "Gives total, ordinary and extraordinary revenue and expenditure of the general account and the surplus or deficit, by fiscal year from the first fiscal periods of Meiji."
+ },
+ "p0111_1": {
+  "t": "Ordinary Revenue by Item",
+  "d": "Gives budgeted and settled ordinary revenue of the general account by item (taxes by kind, stamp receipts, public undertakings etc.), by fiscal year from 1932 to 1940."
+ },
+ "p0112_1": {
+  "t": "Extraordinary Revenue by Item",
+  "d": "Gives budgeted and settled extraordinary revenue of the general account by item (excess profits tax, sales of state property, borrowings etc.), by fiscal year from 1932 to 1940."
+ },
+ "p0115_1": {
+  "t": "Ordinary Expenditure by Ministry",
+  "d": "Gives budgeted and settled ordinary expenditure of the general account by ministry and item (Imperial Household, Foreign Affairs etc.), by fiscal year from 1932 to 1940."
+ },
+ "p0118_1": {
+  "t": "Extraordinary Expenditure by Ministry",
+  "d": "Gives budgeted and settled extraordinary expenditure of the general account by ministry (Foreign Affairs, Home Affairs, Finance, Army, Navy etc.), by fiscal year from 1932 to 1940."
+ },
+ "p0118_2": {
+  "t": "Special Accounts",
+  "d": "Gives budgeted and settled revenue and expenditure of each special account, grouped by ministry, by fiscal year from 1932 to 1940."
+ },
+ "p0122_1": {
+  "t": "Special Account of the Government-General of Korea by Item",
+  "d": "Gives budgeted and settled revenue and expenditure of the Government-General of Korea by item, by fiscal year from 1932 to 1940."
+ },
+ "p0123_1": {
+  "t": "Special Account of the Government-General of Taiwan by Item",
+  "d": "Gives budgeted and settled revenue and expenditure of the Government-General of Taiwan by item, by fiscal year from 1932 to 1940."
+ },
+ "p0125_1": {
+  "t": "Special Account of the Karafuto Government by Item",
+  "d": "Gives budgeted and settled revenue and expenditure of the Karafuto Government by item, by fiscal year from 1932 to 1940."
+ },
+ "p0125_2": {
+  "t": "Special Account of the Kwantung Bureau by Item",
+  "d": "Gives budgeted and settled revenue and expenditure of the Kwantung Bureau by item, by fiscal year from 1932 to 1940."
+ },
+ "p0126_1": {
+  "t": "Special Account of the South Seas Government by Item",
+  "d": "Gives budgeted and settled revenue and expenditure of the South Seas Government by item, by fiscal year from 1932 to 1940."
+ },
+ "p0127_1": {
+  "t": "Net Budget of Revenue and Expenditure",
+  "d": "Gives the budget totals of the general and special accounts, the amounts deducted for inter-account transfers, the net budget and its ratio to the gross total, for revenue and expenditure, by fiscal year from 1936."
+ },
+ "p0127_2": {
+  "t": "Breakdown of Deductions (Fiscal 1940)",
+  "d": "Itemises the inter-account transfers deducted from revenue and expenditure in computing the net budget for fiscal 1940."
+ },
+ "p0128_1": {
+  "t": "Income Tax in Japan Proper",
+  "d": "Gives taxpayers, assessed income and tax for the first, second and third classes of income tax, by fiscal year and by prefecture for fiscal 1938, and by kind for fiscal 1936 to 1938."
+ },
+ "p0129_1": {
+  "t": "Third-Class Income by Source",
+  "d": "Gives the amount of third-class (individual) income by source (owner-farmed and tenanted paddy and upland, rented land and houses, livestock and sericulture, fisheries, business, salaries etc.), by year."
+ },
+ "p0129_2": {
+  "t": "Third-Class Income Taxpayers in Japan Proper by Amount of Tax",
+  "d": "Gives the number of third-class income taxpayers by amount of tax paid, from under 10 yen to 5,000 yen and over, by fiscal year."
+ },
+ "p0129_3": {
+  "t": "Land Tax in Japan Proper by Land Category",
+  "d": "Gives the land tax on paddy, upland, building land, forest, salt fields, mineral springs and ponds, and pasture, waste and miscellaneous land, as at 1 January, by year and by prefecture."
+ },
+ "p0130_1": {
+  "t": "Taxable Land",
+  "d": "Gives the area, rental value and average rental value of paddy, upland, building land, forest and other categories of taxable land, at the beginning of each year and by prefecture."
+ },
+ "p0131_1": {
+  "t": "Land Taxpayers in Japan Proper",
+  "d": "Gives the number of land taxpayers by amount of tax, from under 20 sen to 5,000 yen and over, as at 1 January, by year."
+ },
+ "p0131_2": {
+  "t": "Business Profits Tax in Japan Proper",
+  "d": "Gives the number of taxpayers, net profits and tax, and the land-tax deduction allowed, for juridical persons and individuals, by year."
+ },
+ "p0131_3": {
+  "t": "Company Profits in Japan Proper",
+  "d": "Gives the number of companies, authorised and paid-up capital, reserves, debentures, profits, dividends and losses carried forward, by year and by type of business at the end of 1938."
+ },
+ "p0131_4": {
+  "t": "Profits of Individual Businesses in Japan Proper by Type",
+  "d": "Gives the number of individual business taxpayers and their net profits by type of business (merchandising, banking, mujin, money lending etc.), for selected fiscal years from 1933 to 1938."
+ },
+ "p0132_1": {
+  "t": "Inheritance Tax in Japan Proper",
+  "d": "Gives the number of cases, taxable value and tax for succession to headship and inheritance of property, by class, by fiscal year and by bracket of taxable value for fiscal 1938."
+ },
+ "p0132_2": {
+  "t": "Liquor Taxes in Japan Proper",
+  "d": "Gives the number of licensees and breweries, assessed quantity and tax for the sake brewing tax, beer tax and alcohol and alcoholic beverages tax, by fiscal year."
+ },
+ "p0132_3": {
+  "t": "Sugar Consumption Tax in Japan Proper",
+  "d": "Gives the quantity and tax for sugar, molasses and syrup, by fiscal year."
+ },
+ "p0132_4": {
+  "t": "Textile Consumption Tax in Japan Proper",
+  "d": "Gives the taxable value and tax for silk, silk-cotton mixed, hemp, wool and other fabrics, by fiscal year."
+ },
+ "p0133_1": {
+  "t": "Revenue and Expenditure of Local Bodies and the Overseas Territories",
+  "d": "Gives total revenue and expenditure of prefectures, cities and towns and villages, by fiscal year (settled accounts) for Japan proper and by prefecture and territory for fiscal 1939."
+ },
+ "p0133_2": {
+  "t": "National Debt Outstanding",
+  "d": "Gives the amount outstanding of each kind of domestic and foreign national bond and borrowing, at the end of fiscal years 1935 to 1939."
+ },
+ "p0133_3": {
+  "t": "Customs Revenue of Japan Proper",
+  "d": "Gives customs revenue from import duties, tonnage dues, consumption taxes and miscellaneous receipts, by year and by port for 1938."
+ },
+ "p0134_1": {
+  "t": "Local Loans in Japan Proper",
+  "d": "Gives outstanding local loans by type of body (prefectures, cities, towns and villages, irrigation associations) and by purpose (education, sanitation, industry, disaster works etc.), by fiscal year, by body and by prefecture at the end of fiscal 1938."
+ },
+ "p0134_2": {
+  "t": "Persons Entitled to Pensions and Survivors' Allowances, and Amounts",
+  "d": "Gives the number of persons entitled to pensions and survivors' allowances and the amounts, for civil officials, army and navy officers and others, at year end by year and by status for 1939."
+ },
+ "p0135_1": {
+  "t": "Pensions and Survivors' Allowances Awarded, Persons and Amounts",
+  "d": "Gives the number of persons awarded ordinary and additional pensions, survivors' allowances, lump-sum payments and injury grants, and amounts, by category and rank (chokunin, sōnin, hannin etc.), for 1939."
+ },
+ "p0135_2": {
+  "t": "Extinction of Pension and Survivors' Allowance Entitlements",
+  "d": "Gives the number of persons whose entitlement to ordinary and additional pensions and survivors' allowances lapsed and the amounts, by rank, by year from 1935 and by kind for 1939."
+ },
+ "p0135_3": {
+  "t": "Pensions and Survivors' Allowances of Police Officers in Japan Proper",
+  "d": "Gives the number of recipients and amounts of ordinary and additional pensions and survivors' allowances for patrolmen, assistant inspectors and higher ranks, at year end, by year."
+ },
+ "p0136_1": {
+  "t": "Counties, Municipalities and Their Offices",
+  "d": "Gives the number of counties, cities, towns and villages, sub-prefectures and city, town and village offices, as at 1 April, by year for Japan proper and by prefecture and territory for 1940."
+ }
+}
