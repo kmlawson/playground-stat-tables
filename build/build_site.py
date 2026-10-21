@@ -581,6 +581,16 @@ BOOKS = [
      "scan": "https://archive.org/details/japan-manchoukuo-year-book-1940/page/n{leaf}/mode/1up",
      "item": "https://archive.org/details/japan-manchoukuo-year-book-1940",
      "blank_marking": True},
+    {"slug": "nanyo-tokei-1932", "dir": "Nanyo_Tokei_1932", "group": "south-seas",
+     "title": "南洋廳統計年鑑 1932", "subtitle": "Nan'yōchō tōkei nenkan (Statistical Yearbook of the South Seas Government), 第二回 (No. 2), figures for 大正11–昭和7 (1922–1932), published 昭和9年12月 (December 1934)",
+     "publisher": "南洋廳, パラオ (昭和九年)",
+     "blurb": "The statistical yearbook of the South Seas Government (Nan'yōchō), Japan's administration of the mandated islands of Micronesia, in its second edition, which reaches back to the founding of the government in 1922: 257 numbered tables in 14 chapters — land and climate, population (by island, nationality, prefecture of origin, age and occupation), administration, police, public health, justice and prisons, education, religion, industry (agriculture, livestock, forestry, fisheries, manufactures and subsidies), transport and communications, finance and prices, trade by port and commodity, public finance and taxes, and social work — with a short appendix. Most tables give each year from 1922 to 1932 for the whole territory and then for each of the six branch offices (支廳: Saipan, Yap, Palau, Truk, Ponape and Jaluit), often separating Japanese (邦人), islanders (島民: Chamorro and Kanaka) and foreigners. Tables are given in Japanese with the old character forms as printed and Arabic numerals.",
+     "source": "LLM-transcribed from the National Diet Library scan (NDL pid 1280258).",
+     "gaps": "All 257 numbered tables are transcribed, with one unnumbered sub-table and the appendix list of offence-name abbreviations; the contents, the maps, the statistical charts (統計圖表), the prose survey (概說) and the colophon are not. One frame of the scan is a repeat of the previous spread and was skipped. Tables printed across both pages of a spread are joined into one, and long tables read in sections by different readers are joined, by rows or, where later pages add further columns for the same branch offices (tables 30, 166, 183 and 206), by columns. Printed totals were re-added by the readers: totals that do not add up are kept as printed and noted; a few tables (notably 81 and 227) have many branch-office cells that do not add up to the printed totals and may contain misreadings. Where a digit was ambiguous only between 3 and 8 and exactly one reading made a printed total reconcile, that reading is used and noted; in tables 25 and 26 many final digits that have lost their top stroke at a column rule are read as 6 and listed. Small figures printed above a cell (foreigners, half-year taxpayers, quantities) are given in the same cell after the figure; the quantities in tables 230 (Jaluit) and 231 were too blurred to read and are left out. The volume's errata slip (正誤表, 17 corrections) is attached as a note to each table it concerns; the figures stay as printed. About 550 of some 164,000 figure cells could not be read and are marked [?]; a literal ? printed in the book is kept as ?.",
+     "scan": "https://dl.ndl.go.jp/pid/1280258/1/{leaf}",
+     "item": "https://dl.ndl.go.jp/pid/1280258",
+     "model": "Sonnet 5.5",
+     "blank_marking": True},
     {"slug": "japan-tokei-1935", "dir": "Japan_Tokei_1935",
      "title": "大日本帝國統計年鑑 1935", "subtitle": "Dai Nippon Teikoku tōkei nenkan (Statistical Yearbook of the Empire of Japan), 第五十四回 (No. 54), 昭和十年 (Shōwa 10)",
      "publisher": "內閣統計局, 東京 (昭和十年)",
@@ -1077,7 +1087,7 @@ def main():
 
 
 def group_of(b):
-    """Home-page section of a book: japan, china, korea, taiwan, manchuria or other."""
+    """Home-page section of a book: japan, china, korea, taiwan, manchuria, south-seas or other."""
     return b.get("group") or next((g for g in ("japan", "china", "korea", "taiwan") if b["slug"].startswith(g)), "manchuria" if b["slug"].startswith("manch") else "other")
 
 
@@ -1226,16 +1236,17 @@ def landing(cards):
 <div class="stat">{stat}</div><div class="src">LLM-transcribed{item}</div><div class="links">{link}</div></article>"""))
     order = {"far-east": 0, "manchoukuo": 1}
     other = sorted([(sl, h) for g, sl, h in items if g == "other"], key=lambda x: order.get(x[0].rsplit("-", 1)[0], 9))
-    names = {"japan": "Japan", "china": "China", "korea": "Korea", "taiwan": "Taiwan", "manchuria": "Manchuria", "other": "Other"}
+    names = {"japan": "Japan", "china": "China", "korea": "Korea", "taiwan": "Taiwan", "manchuria": "Manchuria", "south-seas": "South Seas Mandate", "other": "Other"}
     body = {g: "\n".join(h for gg, sl, h in items if gg == g) for g in ("japan",)}
     year = {b["slug"]: edition(b) for b in BOOKS}
     body["china"] = "\n".join(h for g, sl, h in sorted((x for x in items if x[0] == "china"), key=lambda x: (year[x[1]], x[1])))  # by edition year
     body["korea"] = "\n".join(h for g, sl, h in sorted((x for x in items if x[0] == "korea"), key=lambda x: (year[x[1]], x[1])))  # by edition year
     body["taiwan"] = "\n".join(h for g, sl, h in sorted((x for x in items if x[0] == "taiwan"), key=lambda x: (year[x[1]], x[1])))
     body["manchuria"] = "\n".join(h for g, sl, h in sorted((x for x in items if x[0] == "manchuria"), key=lambda x: (year[x[1]], x[1])))  # by edition year
+    body["south-seas"] = "\n".join(h for g, sl, h in sorted((x for x in items if x[0] == "south-seas"), key=lambda x: (year[x[1]], x[1])))  # by edition year
     body["other"] = "\n".join(h for _, h in other)
     grids = "".join(f'<section class="grp" id="{g}"><h2 class="grph">{names[g]}</h2><div class="grid">{body[g]}</div></section>'
-                    for g in ("japan", "china", "korea", "taiwan", "manchuria", "other") if body[g])
+                    for g in ("japan", "china", "korea", "taiwan", "manchuria", "south-seas", "other") if body[g])
     return LANDING.replace("__CARDS__", grids)
 
 
@@ -1271,7 +1282,7 @@ body.list .links{margin:0;flex-wrap:nowrap;gap:5px}body.list .dirgo{padding:1px 
 @media(max-width:560px){body.list article{flex-wrap:wrap;gap:4px}body.list article h2{flex-basis:100%}body.list .links{flex-wrap:wrap}.tools{margin-left:0}}
 </style></head><body><div class="band"><div>
 <h1>Old Year Book Tables of East Asia</h1>
-<div class="topnav"><a class="searchbtn" href="search.html">Full Search</a><nav class="jump" id="jump"><a href="#japan" id="j-japan">Japan</a><a href="#china" id="j-china">China</a><a href="#korea">Korea</a><a href="#taiwan">Taiwan</a><a href="#manchuria">Manchuria</a><a href="#other">Other</a></nav><span class="tools"><span class="lbl">View</span><span class="seg"><button class="viewbtn" id="sortbtn" type="button">⇅ A–Z</button><button class="viewbtn" id="viewbtn" type="button" aria-pressed="false">☰ List</button></span></span></div>
+<div class="topnav"><a class="searchbtn" href="search.html">Full Search</a><nav class="jump" id="jump"><a href="#japan" id="j-japan">Japan</a><a href="#china" id="j-china">China</a><a href="#korea">Korea</a><a href="#taiwan">Taiwan</a><a href="#manchuria">Manchuria</a><a href="#south-seas">South Seas</a><a href="#other">Other</a></nav><span class="tools"><span class="lbl">View</span><span class="seg"><button class="viewbtn" id="sortbtn" type="button">⇅ A–Z</button><button class="viewbtn" id="viewbtn" type="button" aria-pressed="false">☰ List</button></span></span></div>
 </div></div>
 <main>
 <div id="groups">
@@ -1952,7 +1963,7 @@ mark{background:var(--mark);color:inherit}
 <option value="all">Everything</option><option value="t">Tables only</option><option value="w">Who's Who only</option>
 <option value="d">All directories</option><option value="c">Chronologies only</option></select>
 <div class="filters">
-<label>Region <select id="reg" aria-label="Region"><option value="">All</option><option value="japan">Japan</option><option value="china">China</option><option value="korea">Korea</option><option value="taiwan">Taiwan</option><option value="manchuria">Manchuria</option><option value="other">Other</option></select></label>
+<label>Region <select id="reg" aria-label="Region"><option value="">All</option><option value="japan">Japan</option><option value="china">China</option><option value="korea">Korea</option><option value="taiwan">Taiwan</option><option value="manchuria">Manchuria</option><option value="south-seas">South Seas Mandate</option><option value="other">Other</option></select></label>
 <span class="yrs">Years <input id="y1" type="number" inputmode="numeric" min="1890" max="1960" placeholder="from" aria-label="From year"> – <input id="y2" type="number" inputmode="numeric" min="1890" max="1960" placeholder="to" aria-label="To year"></span>
 <label><input type="checkbox" id="titles"> Titles and names only</label>
 <button id="reset" type="button" hidden>Clear filters</button>
