@@ -1025,6 +1025,31 @@ def cells(tables):
     return sum(len(r) for t in tables for p in t.get("parts", []) for r in p.get("rows", []))
 
 
+def qstats(tables):
+    """Doubtful cells: unreadable ("[?]", shown with a red hatch) or containing "?"; and tables with more than 20% such cells.
+    Returns (doubtful cells, all cells, doubtful-heavy tables, all tables)."""
+    q = tot = heavy = 0
+    for t in tables:
+        tq = tc = 0
+        for p in t.get("parts", []):
+            for r in p.get("rows", []):
+                for c in r:
+                    tc += 1
+                    tq += isinstance(c, str) and "?" in c
+        q += tq; tot += tc; heavy += tc > 0 and tq / tc > 0.2
+    return q, tot, heavy, len(tables)
+
+
+def qstat_html(tables, cls="qstat"):
+    q, tot, heavy, nt = qstats(tables)
+    if not nt:
+        return ""
+    pc = lambda a, b: f"{100 * a / b:.2f}%" if b else "0%"
+    return (f'<div class="{cls}" title="Cells marked unreadable (red hatch) or containing a printed or doubtful ?">'
+            f'Unreadable or “?” cells: <b>{q:,}</b> of {tot:,} ({pc(q, tot)}) · '
+            f'Tables with more than 20% such cells: <b>{heavy:,}</b> of {nt:,} ({pc(heavy, nt)})</div>')
+
+
 def main():
     os.makedirs(os.path.join(HERE, "data"), exist_ok=True)
     cards, pages = [], []
@@ -1055,6 +1080,7 @@ def main():
             with open(os.path.join(HERE, "data", b["slug"] + ".json"), "w", encoding="utf-8") as fh:
                 json.dump(clean, fh, ensure_ascii=False, indent=1)
             pages.append((b, clean, n, c))
+        b["_qstat"] = qstat_html(tables)
         cards.append((b, n, c, chapters))
         print(f"{b['slug']}: {n} tables, {c:,} cells")
     xl = crosslinks({b["slug"]: clean for b, clean, n, c in pages})
@@ -1068,6 +1094,7 @@ def main():
                    .replace("__ORIG__", json.dumps(orig_link(b), ensure_ascii=False))
                    .replace("__PTOC__", json.dumps(printed_toc(b, clean), ensure_ascii=False).replace("</", "<\\/"))
                    .replace("__MARKED__", "true" if b.get("blank_marking") else "false")
+                   .replace("__QSTAT__", json.dumps(b.get("_qstat", ""), ensure_ascii=False))
                    .replace("__XLSX__", f' · <a href="../../{dl(b["slug"], "tables.xlsx")}" style="color:inherit" download>Excel</a>' if dl(b["slug"], "tables.xlsx") else "")
                    .replace("__CELLS__", f"{c:,}").replace("__BOOK__", html.escape(b["title"]))
                    .replace("__SLUG__", b["slug"]).replace("__SOURCE__", "LLM-transcribed")
@@ -1233,7 +1260,7 @@ def landing(cards):
         grp = group_of(b)
         title = f'<a href="book/{b["slug"]}/" style="color:inherit;text-decoration:none">{html.escape(b["title"])}</a>' if n else html.escape(b["title"])
         items.append((grp, b["slug"], f"""<article data-t="{html.escape(b["title"])}"><h2>{title}</h2><div class="pub">{html.escape(b["publisher"])}</div>{f'<div class="pub"><i>{html.escape(b["note"])}</i></div>' if b.get("note") else ""}
-<div class="stat">{stat}</div><div class="src">LLM-transcribed{item}</div><div class="links">{link}</div></article>"""))
+<div class="stat">{stat}</div><div class="src">LLM-transcribed{item}</div>{b.get("_qstat", "")}<div class="links">{link}</div></article>"""))
     order = {"far-east": 0, "manchoukuo": 1}
     other = sorted([(sl, h) for g, sl, h in items if g == "other"], key=lambda x: order.get(x[0].rsplit("-", 1)[0], 9))
     names = {"japan": "Japan", "china": "China", "korea": "Korea", "taiwan": "Taiwan", "manchuria": "Manchuria", "south-seas": "South Seas Mandate", "other": "Other"}
@@ -1271,13 +1298,13 @@ h2{font-size:20px;font-weight:normal;margin:0 0 4px}.pub{color:var(--muted);font
 .about{font:inherit;font-size:13px;background:transparent;color:var(--accent);border:1px solid var(--accent);border-radius:5px;padding:5px 10px;cursor:pointer;flex-basis:100%;max-width:max-content}
 dialog{max-width:min(560px,calc(100vw - 32px));border:1px solid var(--line);border-top:4px solid var(--accent);background:var(--panel);color:var(--ink);padding:18px 20px;border-radius:6px}
 dialog::backdrop{background:rgba(0,0,0,.45)}dialog h3{margin:0 0 2px;font-weight:normal;font-size:19px}dialog p{font-size:14.5px}
-dialog form button{font:inherit;font-size:14px;background:var(--accent);color:var(--accent-ink);border:0;border-radius:5px;padding:6px 14px;cursor:pointer}.stat{font-size:14px;margin-bottom:6px}.src{font-size:12.5px;color:var(--muted);margin-bottom:12px}
+dialog form button{font:inherit;font-size:14px;background:var(--accent);color:var(--accent-ink);border:0;border-radius:5px;padding:6px 14px;cursor:pointer}.stat{font-size:14px;margin-bottom:6px}.src{font-size:12.5px;color:var(--muted);margin-bottom:12px}.qstat{font-size:12.5px;color:var(--muted);margin:-6px 0 12px}
 a{color:var(--accent)}.go{font-size:15px;text-decoration:none;font-weight:bold}.dirgo{display:inline-block;margin:8px 8px 0 0;background:var(--accent);color:var(--accent-ink);padding:6px 12px;border-radius:5px;font-size:14px}
 .llmwarn{margin:28px 0 0;padding:12px 14px;border:1px solid #8a5a00;border-left:4px solid #8a5a00;background:var(--panel);font-size:14px}
 footer{margin-top:24px;font-size:13px;color:var(--muted);border-top:1px solid var(--line);padding-top:14px}
 .tools{margin-left:auto;display:inline-flex;align-items:center;gap:6px;font-size:13px;color:var(--accent-ink);opacity:.8}.tools:hover{opacity:1}.tools .lbl{font-size:12px;text-transform:uppercase;letter-spacing:.06em}.seg{display:inline-flex;border:1px solid currentColor;border-radius:999px;overflow:hidden}.viewbtn{font:inherit;font-size:13px;background:transparent;color:inherit;border:0;padding:4px 12px;cursor:pointer;white-space:nowrap}.viewbtn+.viewbtn{border-left:1px solid currentColor}.viewbtn:hover{background:rgba(127,127,127,.15)}
 body.list .grid{display:block;margin-top:8px}body.list article{flex-direction:row;align-items:center;gap:12px;padding:5px 10px;border:0;border-bottom:1px solid var(--line);border-left:3px solid var(--accent)}
-body.list article+article{margin-top:0}body.list article h2{font-size:16px;margin:0;flex:1;min-width:0}body.list .pub,body.list .stat,body.list .src{display:none}
+body.list article+article{margin-top:0}body.list article h2{font-size:16px;margin:0;flex:1;min-width:0}body.list .pub,body.list .stat,body.list .src,body.list .qstat{display:none}
 body.list .links{margin:0;flex-wrap:nowrap;gap:5px}body.list .dirgo{padding:1px 8px;font-size:12.5px;font-weight:normal;white-space:nowrap}
 @media(max-width:560px){body.list article{flex-wrap:wrap;gap:4px}body.list article h2{flex-basis:100%}body.list .links{flex-wrap:wrap}.tools{margin-left:0}}
 </style></head><body><div class="band"><div>
@@ -1435,7 +1462,7 @@ mark{background:var(--hi);color:inherit}
 .che3{display:block;font-weight:normal;font-size:max(12px,.54em);color:var(--muted);margin-top:.15em}
 .enn{color:var(--muted);font-size:13px;white-space:nowrap}
 .ptoc{margin:0 0 18px;border:1px solid var(--line,#ccc);border-radius:6px;background:var(--panel);padding:6px 12px}.ptoc summary{cursor:pointer;font-weight:bold;padding:4px 0}.ptoc ul{list-style:none;margin:6px 0;padding:0;columns:2 420px;column-gap:28px}.ptoc li{display:flex;gap:8px;break-inside:avoid;padding:1px 0;line-height:1.35}.ptoc li a{color:inherit}.ptoc li a:hover{color:var(--accent)}.ptoc .pp{margin-left:auto;color:var(--muted,#777);font-variant-numeric:tabular-nums;white-space:nowrap}.ptoc .pl0{font-weight:bold;text-transform:none;margin-top:10px;break-after:avoid}.ptoc .pl1{font-weight:bold;margin-top:4px}.ptoc .pl2{padding-left:16px;font-size:14px}.ptoc .pl3{padding-left:32px;font-size:13px}
-.origbtn{display:inline-block;margin:4px 0 16px;padding:8px 14px;border:1px solid var(--accent);border-radius:6px;background:var(--panel);color:var(--accent);text-decoration:none;font-size:15px;font-weight:bold}.origbtn:hover{background:var(--hi)}
+.qstat{font-size:13.5px;color:var(--muted);margin:0 0 16px}.origbtn{display:inline-block;margin:4px 0 16px;padding:8px 14px;border:1px solid var(--accent);border-radius:6px;background:var(--panel);color:var(--accent);text-decoration:none;font-size:15px;font-weight:bold}.origbtn:hover{background:var(--hi)}
 .ctx{max-width:760px;font-size:14.5px;line-height:1.55;margin:8px 0 12px;padding:9px 12px;border-left:3px solid var(--accent);background:var(--panel)}
 .aboutbtn{margin-left:auto;font:inherit;font-size:14px;background:transparent;color:var(--accent-ink);border:1px solid currentColor;border-radius:5px;padding:5px 12px;cursor:pointer;align-self:center}.aboutbtn+#toggle{margin-left:0}
 .anbtn{margin-left:auto;font:inherit;font-size:14px;background:transparent;color:var(--accent-ink);border:1px solid currentColor;border-radius:5px;padding:5px 12px;cursor:pointer;align-self:center}.anbtn[aria-pressed="true"]{background:var(--accent-ink);color:var(--accent)}.dirbtn+.anbtn,.aboutbtn+.anbtn,.anbtn+#toggle{margin-left:0}
@@ -1470,6 +1497,7 @@ const ptoc=()=>PTOC.length?`<details class="ptoc"><summary>Contents of the print
 // link to the whole original book (Internet Archive, NDL, …) shown at the top of the contents
 const origLink=()=>ORIG?`<a class="origbtn" href="${esc(ORIG.u)}" target="_blank" rel="noopener">Read the full original book on ${esc(ORIG.l)} ↗</a>`:"";
 const MARKED=__MARKED__;
+const QSTAT=__QSTAT__;
 const XL=__XL__;
 const CHEN=__CHEN__;
 const chE=(c,cls)=>CHEN[c]?`<span class="${cls||"che"}">${esc(CHEN[c])}</span>`:"";
@@ -1537,9 +1565,9 @@ function dirCards(){if(!DIRCARDS)return "";const card=c=>`<a class="chbtn" href=
  const pl=DIRCARDS.places.map(x=>({...x,l:pyd(x.l)})),bg=DIRCARDS.big||0;
  return `<h2 style="margin:0 0 6px">Directory</h2><div class="chsum">${DIRCARDS.total.toLocaleString()} directory entries. Choose a place or a list. Place names are in pinyin; the directory page has a toggle for the book's own romanization.</div><h3 style="margin:14px 0 8px">Places</h3><div class="chgrid" style="--chfs:15px">`+pl.slice(0,bg).concat(pl.slice(bg).sort((x,y)=>x.l.localeCompare(y.l))).map(card).join("")+`</div>`+(DIRCARDS.other.length?`<h3 style="margin:20px 0 8px">Other lists</h3><div class="chgrid" style="--chfs:15px">`+DIRCARDS.other.map(x=>card({...x,l:pyl(x.l)})).join("")+`</div>`:"")}
 function showHome(){mode="home";cur=null;closeCmp();const n={};T.forEach(t=>{const c=t.chapter||"(no chapter)";n[c]=(n[c]||0)+1});
- if(DIRCARDS){$("#main").innerHTML=`<div class="chhead">Contents</div>`+origLink()+ptoc()+dirCards()+`<h2 style="margin:28px 0 6px">Tables</h2><div class="chsum">${T.length} table${T.length===1?"":"s"} in ${chapters.length} section${chapters.length===1?"":"s"}. Choose a section, or pick a single table from the list.</div><div class="chgrid" style="--chfs:15px">`+
+ if(DIRCARDS){$("#main").innerHTML=`<div class="chhead">Contents</div>`+origLink()+QSTAT+ptoc()+dirCards()+`<h2 style="margin:28px 0 6px">Tables</h2><div class="chsum">${T.length} table${T.length===1?"":"s"} in ${chapters.length} section${chapters.length===1?"":"s"}. Choose a section, or pick a single table from the list.</div><div class="chgrid" style="--chfs:15px">`+
   chapters.map(c=>`<a class="chbtn" href="#ch=${encodeURIComponent(c)}">${esc(c)}${chE(c,"che3")}<small>${n[c]} table${n[c]===1?"":"s"}</small></a>`).join("")+`</div>`+LLMWARN;$("#main").scrollTop=0;mark();anSync();return}
- $("#main").innerHTML=`<div class="chhead">Contents</div>`+origLink()+ptoc()+`<h2 style="margin-bottom:6px">Chapters</h2><div class="chsum">${T.length} table${T.length===1?"":"s"} in ${chapters.length} chapter${chapters.length===1?"":"s"}. Choose a chapter, or pick a single table from the list.</div><div class="chgrid">`+
+ $("#main").innerHTML=`<div class="chhead">Contents</div>`+origLink()+QSTAT+ptoc()+`<h2 style="margin-bottom:6px">Chapters</h2><div class="chsum">${T.length} table${T.length===1?"":"s"} in ${chapters.length} chapter${chapters.length===1?"":"s"}. Choose a chapter, or pick a single table from the list.</div><div class="chgrid">`+
   chapters.map(c=>`<a class="chbtn" href="#ch=${encodeURIComponent(c)}">${esc(c)}${chE(c,"che3")}<small>${n[c]} table${n[c]===1?"":"s"}</small></a>`).join("")+`</div>`+dirCards()+LLMWARN;
  $("#main").scrollTop=0;fitGrid();mark();anSync()}
 // Desktop: pick the largest button font (12-28px) at which every chapter button fits in the pane without scrolling
