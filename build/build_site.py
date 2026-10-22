@@ -1204,6 +1204,7 @@ def page_urls(b, tables):
         else:
             return None
         d = round((page - pg) / per_leaf)
+        url.last = (key(im)[0], key(im)[1] + d) if key(im) is not None else None  # scan position, for placing tables
         mp = re.match(r"p(\d)-(\d+)$", im)
         if mp:
             return b["scan"].format(part=int(mp.group(1)), leaf=int(mp.group(2)) + d)
@@ -1216,6 +1217,7 @@ def page_urls(b, tables):
         if isinstance(v, int):
             return b["scan"].format(leaf=v + d)
         return None
+    url.key, url.last = key, None
     return url
 
 
@@ -1230,24 +1232,49 @@ def printed_toc(b, tables=()):
     if not f:
         return json.load(open(saved, encoding="utf-8")) if os.path.exists(saved) else []
     by_page = page_urls(b, tables)
-    out, run, top = [], 0, 0
+    out, run, top, where = [], 0, 0, []
     for e in json.load(open(f, encoding="utf-8"))["entries"]:
         sl = scan_links(b, {"image": e["leaf"]}) if b.get("scan") and e.get("leaf") else []
         u = sl[0]["url"] if sl else None
+        lf = e.get("leaf") or e.get("found_leaf")
+        at = by_page.key(lf) if lf else None
         m = re.match(r"\s*(\d+)", str(e.get("page", "")))
         if m and "?" not in str(e.get("page")):  # a half-read page number would send the link astray
             pg = int(m.group(1))
             if pg < top - 50:  # page numbering starts again (appendices)
                 run, top = run + 1, 0
             top = max(top, pg)
-            if not u:
-                u = by_page(pg, run)
+            if not u or at is None:
+                by_page.last = None
+                uu = by_page(pg, run)
+                u = u or uu
+                at = at if at is not None else by_page.last
         lv = e.get("level", 1)
         parent = next((o for o in reversed(out) if o["l"] < lv), None)
         if not u and not e.get("page") and parent and parent["u"]:  # no page printed: open its chapter's first page
-            out.append({"l": lv, "t": e["title"], "p": "", "u": parent["u"], "c": 1})
+            out.append({"l": lv, "t": e["title"], "p": "", "u": parent["u"], "c": 1}); where.append(None)
             continue
-        out.append({"l": lv, "t": e["title"], "p": e.get("page", ""), "u": u})
+        out.append({"l": lv, "t": e["title"], "p": e.get("page", ""), "u": u}); where.append(at)
+    # "Show tables": a numbered table goes under the contents entry with its number ("76 死亡者年齡別"); any other
+    # table under the entry that starts nearest before it in the scan
+    byno = {}
+    for i, o in enumerate(out):
+        m = re.match(r"\s*(?:No\.\s*|Table\s+)?([國]?\d+[A-Za-z]?)[\s.、]", o["t"])
+        if m and o["l"] >= 2:
+            byno.setdefault(m.group(1), []).append(i)
+    for t in tables:
+        im = (t.get("images") or [t.get("image")])[0]
+        k = by_page.key(im) if im else None
+        hit = byno.get(str(t.get("table_no") or "").strip(), [])
+        if len(hit) == 1:
+            best = hit[0]
+        elif k is None:
+            continue
+        else:
+            best = max((i for i, w in enumerate(where) if w is not None and w <= k), key=lambda i: (where[i], i), default=None)
+        if best is not None:
+            lab = (f"{t['table_no']}. " if t.get("table_no") else "") + (t.get("title") or "")
+            out[best].setdefault("k", []).append([t["id"], lab if len(lab) <= 90 else lab[:89] + "…"])
     with open(saved, "w", encoding="utf-8") as fh:
         json.dump(out, fh, ensure_ascii=False, indent=0)
     return out
@@ -1471,7 +1498,7 @@ mark{background:var(--hi);color:inherit}
 .che2{display:block;font-size:15px;color:var(--muted);margin-top:2px}
 .che3{display:block;font-weight:normal;font-size:max(12px,.54em);color:var(--muted);margin-top:.15em}
 .enn{color:var(--muted);font-size:13px;white-space:nowrap}
-.ptoc{margin:0 0 18px;border:1px solid var(--line,#ccc);border-radius:6px;background:var(--panel);padding:6px 12px}.ptoc summary{cursor:pointer;font-weight:bold;padding:4px 0}.ptoc ul{list-style:none;margin:6px 0;padding:0;columns:2 420px;column-gap:28px}.ptoc li{display:flex;gap:8px;break-inside:avoid;padding:1px 0;line-height:1.35}.ptoc li a{color:inherit}.ptoc li a:hover{color:var(--accent)}.ptoc .pp{margin-left:auto;color:var(--muted,#777);font-variant-numeric:tabular-nums;white-space:nowrap}.ptoc .pl0{font-weight:bold;text-transform:none;margin-top:10px;break-after:avoid}.ptoc .pl1{font-weight:bold;margin-top:4px}.ptoc .pl2{padding-left:16px;font-size:14px}.ptoc .pl3{padding-left:32px;font-size:13px}
+.ptoc{margin:0 0 18px;border:1px solid var(--line,#ccc);border-radius:6px;background:var(--panel);padding:6px 12px}.ptoc summary{cursor:pointer;font-weight:bold;padding:4px 0}.ptoc ul{list-style:none;margin:6px 0;padding:0;columns:2 420px;column-gap:28px}.ptoc li{display:flex;gap:8px;break-inside:avoid;padding:1px 0;line-height:1.35}.ptoc li a{color:inherit}.ptoc li a:hover{color:var(--accent)}.ptoc .pp{margin-left:auto;color:var(--muted,#777);font-variant-numeric:tabular-nums;white-space:nowrap}.ptoc .pl0{font-weight:bold;text-transform:none;margin-top:10px;break-after:avoid}.ptoc .pl1{font-weight:bold;margin-top:4px}.ptoc .pl2{padding-left:16px;font-size:14px}.ptoc .pl3{padding-left:32px;font-size:13px}.ptoc .ptk{display:block;font-size:14px;margin:2px 0 6px;cursor:pointer}.ptoc .ptkh{color:var(--muted);font-size:13px}.ptoc li.ptt{display:none;font-size:13px;font-weight:normal}.ptoc ul.showt li.ptt{display:flex}.ptoc li.ptt a{color:color-mix(in srgb,var(--accent) 60%,var(--ink));font-style:italic}.ptoc li.ptt a::before{content:"▸ ";font-style:normal}
 .qstat{font-size:13.5px;color:var(--muted);margin:0 0 16px}.origbtn{display:inline-block;margin:4px 0 16px;padding:8px 14px;border:1px solid var(--accent);border-radius:6px;background:var(--panel);color:var(--accent);text-decoration:none;font-size:15px;font-weight:bold}.origbtn:hover{background:var(--hi)}
 .ctx{max-width:760px;font-size:14.5px;line-height:1.55;margin:8px 0 12px;padding:9px 12px;border-left:3px solid var(--accent);background:var(--panel)}
 .aboutbtn{margin-left:auto;font:inherit;font-size:14px;background:transparent;color:var(--accent-ink);border:1px solid currentColor;border-radius:5px;padding:5px 12px;cursor:pointer;align-self:center}.aboutbtn+#toggle{margin-left:0}
@@ -1503,7 +1530,9 @@ const pyl=l=>ALTR?l:pyd(l).replace(/\(([^() ]+)\)$/,(m,w)=>PY[w]?`(${PY[w]})`:m)
 const HIDEIMG=__HIDEIMG__;
 const ORIG=__ORIG__;
 const PTOC=__PTOC__;
-const ptoc=()=>PTOC.length?`<details class="ptoc"><summary>Contents of the printed book (${PTOC.length} entries)${ORIG?` · each links to its page on ${esc(ORIG.l)}`:""}</summary><ul>`+PTOC.map(e=>`<li class="pl${e.l}">${e.u?`<a href="${esc(e.u)}" target="_blank" rel="noopener"${e.c?` title="No page printed for this section: opens the first page of its chapter"`:""}>${esc(e.t)}</a>`:esc(e.t)}${e.p?`<span class="pp">${esc(e.p)}</span>`:""}</li>`).join("")+`</ul></details>`:"";
+const PTK=PTOC.some(e=>e.k);let ptkOn=false;try{ptkOn=localStorage.getItem("ptocTables")==="1"}catch(e){}
+const ptoc=()=>PTOC.length?`<details class="ptoc"><summary>Contents of the printed book (${PTOC.length} entries)${ORIG?` · each links to its page on ${esc(ORIG.l)}`:""}</summary>${PTK?`<label class="ptk"><input type="checkbox" id="ptocT"${ptkOn?" checked":""} onchange="ptocTables(this.checked)"> Show tables <span class="ptkh">(links to the tables transcribed on this site)</span></label>`:""}<ul${ptkOn?' class="showt"':""}>`+PTOC.map(e=>`<li class="pl${e.l}">${e.u?`<a href="${esc(e.u)}" target="_blank" rel="noopener"${e.c?` title="No page printed for this section: opens the first page of its chapter"`:""}>${esc(e.t)}</a>`:esc(e.t)}${e.p?`<span class="pp">${esc(e.p)}</span>`:""}</li>`+(e.k||[]).map(k=>`<li class="ptt pl${Math.min(e.l+1,3)}"><a href="#${esc(k[0])}" title="Open this table on this site">${esc(k[1])}</a></li>`).join("")).join("")+`</ul></details>`:"";
+function ptocTables(on){ptkOn=on;document.querySelectorAll(".ptoc ul").forEach(u=>u.classList.toggle("showt",on));try{localStorage.setItem("ptocTables",on?"1":"0")}catch(e){}}
 // link to the whole original book (Internet Archive, NDL, …) shown at the top of the contents
 const origLink=()=>ORIG?`<a class="origbtn" href="${esc(ORIG.u)}" target="_blank" rel="noopener">Read the full original book on ${esc(ORIG.l)} ↗</a>`:"";
 const MARKED=__MARKED__;
