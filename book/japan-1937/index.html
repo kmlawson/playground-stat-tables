@@ -46,7 +46,7 @@ td.num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
 td.blank{background:repeating-linear-gradient(45deg,transparent 0 4px,var(--hi) 4px 8px)}
 td.illeg{background:repeating-linear-gradient(45deg,transparent 0 4px,rgba(200,60,40,.32) 4px 8px)}
 tr:hover td{background:var(--hi)}
-tr.sec td:first-child{font-weight:bold;font-style:italic}
+tr.sec td:first-child{font-weight:bold;font-style:italic}tr.sec.cjk td:first-child{font-style:normal}
 .part{font-weight:bold;margin-top:12px}
 .tbl{padding-bottom:22px;margin-bottom:26px;border-bottom:2px solid var(--line)}
 .chhead{font-size:13px;letter-spacing:.06em;text-transform:uppercase;color:var(--accent);margin:0 0 4px}
@@ -123,6 +123,7 @@ function ptocTables(on){ptkOn=on;document.querySelectorAll(".ptoc ul").forEach(u
 // link to the whole original book (Internet Archive, NDL, …) shown at the top of the contents
 const origLink=()=>ORIG?`<a class="origbtn" href="${esc(ORIG.u)}" target="_blank" rel="noopener">Read the full original book on ${esc(ORIG.l)} ↗</a>`:"";
 const MARKED=true;
+const CJK=/[\u3040-\u30ff\u3400-\u9fff\uf900-\ufaff]/;  // never italicise Asian text (user, 2026-10-22)
 const QSTAT="<div class=\"qstat\" title=\"Cells marked unreadable (red hatch) or containing a printed or doubtful ?\">Unreadable or “?” cells: <b>47</b> of 104,991 (0.04%) · Tables with more than 20% such cells: <b>0</b> of 1,541 (0.00%)</div>";
 const XL={"ch": {}, "tb": {}};
 const CHEN={};
@@ -146,11 +147,11 @@ function csv(t){const L=[];(t.parts||[]).forEach(p=>{if(p.label)L.push([p.label]
  return L.map(r=>r.map(c=>/[",\n]/.test(c??"")?'"'+String(c).replace(/"/g,'""')+'"':(c??"")).join(",")).join("\n")}
 function tableHTML(t,q,other){let h=`<section class="tbl" id="t-${t.id}"><h2><a href="#${t.id}">${hl(label(t),q)}</a></h2>${t.en?`<p class="en"><b>${hl(t.en.t,q)}</b>: ${hl(t.en.d,q)} <span class="enn">(Note: LLM translation)</span></p>`:""}<div class="sub">${esc(t.chapter||"")} · printed page${(t.printed_pages||[]).length>1?"s":""} ${esc((t.printed_pages||[]).join(", "))}${HIDEIMG?"":` · ${/^p\d/.test(t.image||"")?"scan leaf":"photo"} ${esc((t.images||[t.image]).join(", "))}`}</div>`;
  if(!other)h+=xlTable(t);
- if(t.caption_extra)h+=`<div class="sub"><i>${hl(t.caption_extra,q)}</i></div>`;
+ if(t.caption_extra)h+=CJK.test(t.caption_extra)?`<div class="sub">${hl(t.caption_extra,q)}</div>`:`<div class="sub"><i>${hl(t.caption_extra,q)}</i></div>`;
  if(t.context)h+=`<p class="ctx"><b>Context.</b> ${hl(t.context,q)}</p>`;
  (t.parts||[]).forEach(p=>{if(p.label)h+=`<div class="part">${hl(p.label,q)}</div>`;
   h+=`<div class="tw"><table><thead><tr>${p.columns.map((c,j)=>`<th class="sortable" data-col="${j}" title="Click to sort">${hl(c,q)}</th>`).join("")}</tr></thead><tbody>`;
-  p.rows.forEach((r,ri)=>{const sec=r.length>1&&r.slice(1).every(c=>c==="");h+=`<tr data-i="${ri}"${sec?' class="sec"':""}>`+r.map((c,j)=>c==="[?]"?`<td class="illeg" title="Unreadable in the scan" aria-label="unreadable"></td>`:`<td class="${j&&isNum(c)?"num":""}${j&&c===""&&!sec&&!MARKED?" blank":""}"${j&&c===""&&!sec&&MARKED?' title="Blank in the original"':""}>${hl(c,q)}</td>`).join("")+"</tr>"});
+  p.rows.forEach((r,ri)=>{const sec=r.length>1&&r.slice(1).every(c=>c==="");h+=`<tr data-i="${ri}"${sec?(CJK.test(r[0])?' class="sec cjk"':' class="sec"'):""}>`+r.map((c,j)=>c==="[?]"?`<td class="illeg" title="Unreadable in the scan" aria-label="unreadable"></td>`:`<td class="${j&&isNum(c)?"num":""}${j&&c===""&&!sec&&!MARKED?" blank":""}"${j&&c===""&&!sec&&MARKED?' title="Blank in the original"':""}>${hl(c,q)}</td>`).join("")+"</tr>"});
   h+="</tbody></table></div>"});
  if((t.footnotes||[]).length){const fn=t.footnotes.map(n=>hl(n,q)),hit=fn.some(x=>x.includes("<mark>"));h+=`<details class="notes"${hit?" open":""}><summary>Printed notes (${fn.length})</summary><ul>${fn.map(x=>`<li>${x}</li>`).join("")}</ul></details>`;}
  if((t.transcriber_notes||[]).length)h+=`<details class="notes"><summary${t._warn?' class="warn"':""}>Transcriber's notes (${t.transcriber_notes.length})${t._warn?" — includes unreadable or doubtful cells":""}</summary><ul>${t.transcriber_notes.map(n=>`<li class="${warnRe.test(n)?"warn":""}">${esc(n)}</li>`).join("")}</ul></details>`;
