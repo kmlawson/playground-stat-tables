@@ -1187,7 +1187,9 @@ def page_urls(b, tables):
     per_leaf = 2 if spans and spans[len(spans) // 2] > 1.5 else 1
     if runs:  # the main text is the biggest group; runs after it are appendices numbered afresh
         main = max(range(len(runs)), key=lambda i: len(runs[i]))
-        runs = runs[main:]
+        part = lambda r: (re.match(r"p(\d)-", r[0][1]) or [None, None])[1]
+        # a book scanned as several files keeps the earlier files' runs (they are the main text, not front matter)
+        runs = [r for i, r in enumerate(runs) if i >= main or (part(r) is not None and part(r) != part(runs[main]))]
 
     def url(page, run=0):
         if not b.get("scan") or run >= len(runs):
