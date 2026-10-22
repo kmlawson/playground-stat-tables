@@ -1068,7 +1068,7 @@ for _f in sorted((Path(__file__).parent / "topics").glob("*.json")):
     if re.fullmatch(r"[a-z]+\.json", _f.name):   # korea.json, taiwan.json (not the agents' tags_*.json)
         TOPIC_TAGS.update(json.loads(_f.read_text()))
 # Every table of these regions gets a chart view (user, 2026-10-22, after the topic tables); elsewhere only tagged tables.
-CHART_ALL = ("korea-", "taiwan-")
+CHART_ALL = ("korea-", "taiwan-", "china-", "japan-")
 
 
 def chart_ids(b, tables):
@@ -1096,6 +1096,10 @@ TOPIC_REGIONS = {
     "korea": ("Korea", [("ar", "Annual Report (English)", r"^korea-\d{4}-\d{2}$"), ("jj", "朝鮮事情", r"^korea-\d{4}$"),
                         ("nk", "朝鮮年鑑", r"^korea-nenkan-"), ("tk", "統計年報", r"^korea-tokanfu-")]),
     "taiwan": ("Taiwan", [("en", "English reports", r"^taiwan-\d{4}$"), ("tk", "臺灣總督府統計書", r"^taiwan-tokei-")]),
+    "china": ("China", [("cy", "China Year Book", r"^china-(19[12]\d|193[18])(-\d+)?$"), ("ch", "China Handbook", r"^china-(1937-43|1944|1950)$"),
+                        ("ot", "Other surveys", r"^china-(flood|handbook|peking)-")]),
+    "japan": ("Japan", [("jy", "Japan Year Book", r"^japan-\d{4}(-\d+)?$"), ("jm", "Japan-Manchoukuo Year Book", r"^japan-manchoukuo-"),
+                        ("tk", "日本帝國統計年鑑", r"^japan-tokei-")]),
 }
 
 
@@ -1127,6 +1131,7 @@ def build_topics(pages):
                                   "pp": ", ".join(t.get("printed_pages") or []), "sub": [x for x in SUBTOPICS[key] if x in tags], "q": n_q})
             nav = " · ".join(f'<b>{n}</b>' if k == key else f'<a href="{region}-{k}.html">{n}</a>' for k, n in TOPICS)
             doc = (TOPIC_PAGE.replace("__TOPIC__", name).replace("__NAV__", nav).replace("__REGION__", rname).replace("__RKEY__", region)
+                   .replace("__WHO__", "the colonial administration" if region in ("korea", "taiwan") else "the officials, editors and publishers")
                    .replace("__DATA__", json.dumps({"items": items, "vols": [vols[s] for s in order], "subs": SUBTOPICS[key],
                                                     "series": [[c, n] for c, n, _ in series]}, ensure_ascii=False).replace("</", "<\\/"))
                    .replace("__N__", str(len(items))).replace("__NV__", str(len({i["s"] for i in items}))))
@@ -1158,7 +1163,7 @@ h2{font-size:19px;font-weight:normal;margin:26px 0 6px;border-bottom:1px solid v
 </style></head><body>
 <div class="band"><div><div class="crumb"><a href="../index.html#__RKEY__">← All books</a> · __REGION__ · topics</div><h1>__REGION__: __TOPIC__</h1><div class="tnav">__NAV__</div></div></div>
 <main>
-<p class="lede">__N__ tables from __NV__ __REGION__ volumes on this site, each as it was printed — with the book's own categories, units, years and gaps — and each opening in its book, where it can be read as a table or a chart. The tables were sorted into these topics by a language model reading their titles and headings, so some may be missing or misplaced; the categories are those of the colonial administration that compiled them, and they change from one volume to the next.</p>
+<p class="lede">__N__ tables from __NV__ __REGION__ volumes on this site, each as it was printed — with the book's own categories, units, years and gaps — and each opening in its book, where it can be read as a table or a chart. The tables were sorted into these topics by a language model reading their titles and headings, so some may be missing or misplaced; the categories are those of __WHO__ that compiled them, and they change from one volume to the next.</p>
 <div class="ctl"><input id="q" type="search" placeholder="Filter titles, translations, chapters…" aria-label="Filter"><select id="sub" aria-label="Subtopic"><option value="">All subtopics</option></select><select id="ord" aria-label="Arrange"><option value="sub">Grouped by subtopic</option><option value="year">Grouped by year</option><option value="vol">Grouped by volume</option></select></div>
 <div class="ser" id="ser"></div>
 <div class="cov" id="cov"></div><p class="covn">Tables per subtopic in each volume, in edition order; an empty cell means no table on it was found in that volume. Click a number to list those tables.</p>
