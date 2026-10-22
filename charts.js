@@ -63,13 +63,16 @@
   const SUF = "(?:\\s*(?:年度末|年度|年末|年))?";
   const RX_ERA = new RegExp("(明治|大正|昭和|光武|隆熙)\\s*" + YN + SUF), RX_W = /(?:^|[^\d])((1[89]\d\d)(?:\s*[-–]\s*(?:\d{4}|\d{2}))?(?:\s*(?:年度末|年度|年末|年))?)(?!\d)/,
     RX_D = new RegExp("^\\s*((?:同|仝|〃)\\s*" + YN + SUF + ")(?![\\d〇一二三四五六七八九十])"), RX_B = new RegExp("^\\s*(" + YN + "\\s*(?:年度末|年度|年末|年))");
+  const RX_ALLY = new RegExp("(?:(?:明治|大正|昭和|光武|隆熙)\\s*" + YN + SUF + "|(?:^|(?<=[\\s\\/(]))(?:同|仝)\\s*" + YN + SUF + "|(?<![\\d])1[89]\\d\\d(?:\\s*[-–]\\s*(?:\\d{4}|\\d{2}))?(?![\\d]))", "g");
   function splitYear(label, ctx) {
     const s0 = String(label || "").normalize("NFKC"), s = s0.replace(/[(（][^()（）]*[)）]/g, x => " ".repeat(x.length));
     let y = null, t = "", m = s.match(RX_ERA);
     if (m && num(m[2]) != null) { ctx.era = m[1]; y = ERA[m[1]] + num(m[2]); t = m[0]; }
     else if ((m = s.match(RX_W))) { y = +m[2]; t = m[1]; }
     else if ((m = s.match(RX_D) || s.match(RX_B)) && ctx.era && num(m[2]) != null) { y = ERA[ctx.era] + num(m[2]); t = m[1]; }
-    const rest = y == null ? s0 : s0.replace(t, "\u0000").split(/\s*(?:—|·)\s*/).map(x => x.replace("\u0000", "").trim()).filter(Boolean).join(" · ");
+    // the rest of the label, without the year phrase or its other-language twin ("明治三十年 / 1897")
+    const rest = y == null ? s0 : s0.replace(t, "\u0000").replace(RX_ALLY, "\u0000").split(/\s*(?:—|·)\s*/)
+      .map(x => x.replace(/\u0000/g, "").replace(/^[\s\/,]+|[\s\/,]+$/g, "").trim()).filter(Boolean).join(" · ");
     return { y, t: t.trim(), rest };
   }
   // A list of printed labels read as a time axis: distinct years in printed order, and the rest of each label.
@@ -244,6 +247,12 @@
     return out;
   }
   const plan = m => views(m)[0];
+  function hasGap(v) {
+    if (!v.prop || !v.x) return false;
+    const ys = v.x.map(x => x.y), st = ys.slice(1).map((y, i) => y - ys[i]).filter(x => x > 0).sort((a, b) => a - b);
+    const med = st.length ? st[st.length >> 1] : 1;
+    return st.some(x => x > Math.max(1, med) * 1.5);
+  }
   // series names that repeat within a chart (Male, Female under several nationalities) carry their group
   function uniq(v) {
     const seen = {};
@@ -358,7 +367,7 @@
       if (nI) bits.push(`${nI} unreadable cell${nI > 1 ? "s" : ""} (marked ?)`);
       if (nB) bits.push(MARKED ? `${nB} blank${nB > 1 ? "s" : ""}` : `${nB} empty cell${nB > 1 ? "s" : ""} (blank in the original or unreadable — this book does not distinguish them)`);
       if (nD) bits.push(`${nD} printed dash${nD > 1 ? "es" : ""}, ditto marks or text`);
-      const axis = p.kind === "line" ? (p.prop ? " Years are spaced by date" + (p.rev ? " (the table prints them newest first)." : ".") + " A dashed line joins years with unprinted years between them." : " Years are evenly spaced in printed order, not by date.") + (p.undated && p.undated.length ? ` Not dated, so not drawn: ${p.undated.slice(0, 4).join(", ")}${p.undated.length > 4 ? "…" : ""}.` : "") : "";
+      const axis = p.kind === "line" ? (p.prop ? " Years are spaced by date" + (p.rev ? " (the table prints them newest first)." : ".") + (hasGap(p) ? " A dashed line joins years with unprinted years between them." : "") : " Years are evenly spaced in printed order, not by date.") + (p.undated && p.undated.length ? ` Not dated, so not drawn: ${p.undated.slice(0, 4).join(", ")}${p.undated.length > 4 ? "…" : ""}.` : "") : "";
       note.textContent = (V.length > 1 ? `The table prints ${V.length} kinds of figures; each has its own chart (buttons above). ` : "") + "Drawn only from the figures printed in the table." + (bits.length ? " Not drawn: " + bits.join(", ") + "; nothing is filled in or interpolated." : "") + axis;
     }
     function setView(i) {

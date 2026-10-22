@@ -1065,7 +1065,7 @@ def qstat_html(tables, cls="qstat"):
 # are listed on the topic pages (user, 2026-10-22: Korea first; charts only for the topic tables for now).
 TOPIC_TAGS = {}
 for _f in sorted((Path(__file__).parent / "topics").glob("*.json")):
-    if not _f.name.startswith("tags_"):
+    if re.fullmatch(r"[a-z]+\.json", _f.name):   # korea.json, taiwan.json (not the agents' tags_*.json)
         TOPIC_TAGS.update(json.loads(_f.read_text()))
 CHART_IDS = {}
 for _k in TOPIC_TAGS:
@@ -1084,46 +1084,52 @@ SUBTOPICS = {
     "crime": ["offences and arrests", "prosecutions and courts", "sentences and convictions", "prisons and prisoners", "police",
               "summary punishments", "thought and public-order offences", "juvenile"],
 }
-KOREA_SERIES = [("ar", "Annual Report (English)", r"^korea-\d{4}-\d{2}$"), ("jj", "朝鮮事情", r"^korea-\d{4}$"),
-                ("nk", "朝鮮年鑑", r"^korea-nenkan-"), ("tk", "統計年報", r"^korea-tokanfu-")]
+TOPIC_REGIONS = {
+    "korea": ("Korea", [("ar", "Annual Report (English)", r"^korea-\d{4}-\d{2}$"), ("jj", "朝鮮事情", r"^korea-\d{4}$"),
+                        ("nk", "朝鮮年鑑", r"^korea-nenkan-"), ("tk", "統計年報", r"^korea-tokanfu-")]),
+    "taiwan": ("Taiwan", [("en", "English reports", r"^taiwan-\d{4}$"), ("tk", "臺灣總督府統計書", r"^taiwan-tokei-")]),
+}
 
 
 def build_topics(pages):
-    """topics/korea-<topic>.html: every tagged Korea table for a topic, as printed, linked into its book."""
+    """topics/<region>-<topic>.html: every tagged table of a region for a topic, as printed, linked into its book."""
     os.makedirs(os.path.join(HERE, "topics"), exist_ok=True)
     by_slug = {b["slug"]: (b, clean) for b, clean, n, c in pages}
-    vols = {}
-    for code, _, rx in KOREA_SERIES:
-        for slug in by_slug:
-            if re.match(rx, slug) and slug in CHART_IDS:
-                b = by_slug[slug][0]
-                vols[slug] = {"s": slug, "ser": code, "ed": edition(b), "y": years_of(b)[0] or 0, "title": b["title"]}
-    order = sorted(vols, key=lambda s: (vols[s]["y"], s))
-    for key, name in TOPICS:
-        items = []
-        for slug in order:
-            b, clean = by_slug[slug]
-            for t in clean:
-                tags = [sub for top, sub in TOPIC_TAGS.get(f"{slug}:{t['id']}", []) if top == key]
-                if not tags:
-                    continue
-                n_q = sum(1 for p in t.get("parts", []) for r in p["rows"] for c in r if c == "[?]")
-                label = (f"Table {t['table_no']}. " if t.get("table_no") else "") + (t.get("title") or "")
-                items.append({"s": slug, "id": t["id"], "t": label, "e": (t.get("en") or {}).get("t", ""), "c": t.get("chapter") or "",
-                              "pp": ", ".join(t.get("printed_pages") or []), "sub": [x for x in SUBTOPICS[key] if x in tags], "q": n_q})
-        nav = " · ".join(f'<b>{n}</b>' if k == key else f'<a href="korea-{k}.html">{n}</a>' for k, n in TOPICS)
-        doc = (TOPIC_PAGE.replace("__TOPIC__", name).replace("__NAV__", nav)
-               .replace("__DATA__", json.dumps({"items": items, "vols": [vols[s] for s in order], "subs": SUBTOPICS[key],
-                                                "series": [[c, n] for c, n, _ in KOREA_SERIES]}, ensure_ascii=False).replace("</", "<\\/"))
-               .replace("__N__", str(len(items))).replace("__NV__", str(len({i["s"] for i in items}))))
-        with open(os.path.join(HERE, "topics", f"korea-{key}.html"), "w", encoding="utf-8") as fh:
-            fh.write(doc)
-        print(f"topics/korea-{key}.html: {len(items)} tables")
+    for region, (rname, series) in TOPIC_REGIONS.items():
+        vols = {}
+        for code, _, rx in series:
+            for slug in by_slug:
+                if re.match(rx, slug) and any(k.startswith(slug + ":") for k in TOPIC_TAGS):
+                    b = by_slug[slug][0]
+                    vols[slug] = {"s": slug, "ser": code, "ed": edition(b), "y": years_of(b)[0] or 0, "title": b["title"]}
+        if not vols:
+            continue
+        order = sorted(vols, key=lambda s: (vols[s]["y"], s))
+        for key, name in TOPICS:
+            items = []
+            for slug in order:
+                b, clean = by_slug[slug]
+                for t in clean:
+                    tags = [sub for top, sub in TOPIC_TAGS.get(f"{slug}:{t['id']}", []) if top == key]
+                    if not tags:
+                        continue
+                    n_q = sum(1 for p in t.get("parts", []) for r in p["rows"] for c in r if c == "[?]")
+                    label = (f"Table {t['table_no']}. " if t.get("table_no") else "") + (t.get("title") or "")
+                    items.append({"s": slug, "id": t["id"], "t": label, "e": (t.get("en") or {}).get("t", ""), "c": t.get("chapter") or "",
+                                  "pp": ", ".join(t.get("printed_pages") or []), "sub": [x for x in SUBTOPICS[key] if x in tags], "q": n_q})
+            nav = " · ".join(f'<b>{n}</b>' if k == key else f'<a href="{region}-{k}.html">{n}</a>' for k, n in TOPICS)
+            doc = (TOPIC_PAGE.replace("__TOPIC__", name).replace("__NAV__", nav).replace("__REGION__", rname).replace("__RKEY__", region)
+                   .replace("__DATA__", json.dumps({"items": items, "vols": [vols[s] for s in order], "subs": SUBTOPICS[key],
+                                                    "series": [[c, n] for c, n, _ in series]}, ensure_ascii=False).replace("</", "<\\/"))
+                   .replace("__N__", str(len(items))).replace("__NV__", str(len({i["s"] for i in items}))))
+            with open(os.path.join(HERE, "topics", f"{region}-{key}.html"), "w", encoding="utf-8") as fh:
+                fh.write(doc)
+            print(f"topics/{region}-{key}.html: {len(items)} tables")
 
 
 TOPIC_PAGE = r"""<!DOCTYPE html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Korea: __TOPIC__ tables</title>
+<title>__REGION__: __TOPIC__ tables</title>
 <style>
 :root{--bg:#f4f5f3;--panel:#ffffff;--ink:#1b2420;--muted:#5d6a62;--line:#d8ded9;--accent:#1f4a2c;--accent-ink:#ffffff;--hi:#e2ece4;--warn:#8a5a00}
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#111814;--panel:#17211b;--ink:#e4ebe6;--muted:#9aa89f;--line:#2c3a31;--accent:#8cc49e;--accent-ink:#0f1a13;--hi:#1f3527;--warn:#e0a54a}}
@@ -1142,16 +1148,16 @@ h2{font-size:19px;font-weight:normal;margin:26px 0 6px;border-bottom:1px solid v
 .empty{color:var(--muted);font-style:italic;padding:12px 0}
 @media (max-width:600px){.it{grid-template-columns:minmax(0,1fr)}.it .v b{display:inline;margin-right:6px}.band h1{font-size:23px}}
 </style></head><body>
-<div class="band"><div><div class="crumb"><a href="../index.html#korea">← All books</a> · Korea · topics</div><h1>Korea: __TOPIC__</h1><div class="tnav">__NAV__</div></div></div>
+<div class="band"><div><div class="crumb"><a href="../index.html#__RKEY__">← All books</a> · __REGION__ · topics</div><h1>__REGION__: __TOPIC__</h1><div class="tnav">__NAV__</div></div></div>
 <main>
-<p class="lede">__N__ tables from __NV__ Korea volumes on this site, each as it was printed — with the book's own categories, units, years and gaps — and each opening in its book, where it can be read as a table or a chart. The tables were sorted into these topics by a language model reading their titles and headings, so some may be missing or misplaced; the categories are those of the colonial administration that compiled them, and they change from one volume to the next.</p>
+<p class="lede">__N__ tables from __NV__ __REGION__ volumes on this site, each as it was printed — with the book's own categories, units, years and gaps — and each opening in its book, where it can be read as a table or a chart. The tables were sorted into these topics by a language model reading their titles and headings, so some may be missing or misplaced; the categories are those of the colonial administration that compiled them, and they change from one volume to the next.</p>
 <div class="ctl"><input id="q" type="search" placeholder="Filter titles, translations, chapters…" aria-label="Filter"><select id="sub" aria-label="Subtopic"><option value="">All subtopics</option></select><select id="ord" aria-label="Arrange"><option value="sub">Grouped by subtopic</option><option value="vol">Grouped by volume</option></select></div>
 <div class="ser" id="ser"></div>
 <div class="cov" id="cov"></div><p class="covn">Tables per subtopic in each volume, in edition order; an empty cell means no table on it was found in that volume. Click a number to list those tables.</p>
 <div id="out"></div>
 </main>
 <script>
-const D=__DATA__;const COL={ar:"#4e79a7",jj:"#e15759",nk:"#59a14f",tk:"#b07aa1"};
+const D=__DATA__;const COL={};D.series.forEach(([c],i)=>COL[c]=["#4e79a7","#e15759","#59a14f","#b07aa1"][i%4]);
 const $=s=>document.querySelector(s),esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const V={};D.vols.forEach(v=>V[v.s]=v);const SER=Object.fromEntries(D.series);let pick=null;
 D.subs.forEach(s=>{const o=document.createElement("option");o.value=s;o.textContent=s;$("#sub").appendChild(o)});
@@ -1454,7 +1460,8 @@ def landing(cards):
     body["manchuria"] = "\n".join(h for g, sl, h in sorted((x for x in items if x[0] == "manchuria"), key=lambda x: (year[x[1]], x[1])))  # by edition year
     body["south-seas"] = "\n".join(h for g, sl, h in sorted((x for x in items if x[0] == "south-seas"), key=lambda x: (year[x[1]], x[1])))  # by edition year
     body["other"] = "\n".join(h for _, h in other)
-    topics = {"korea": '<p class="tlinks">Korea tables by topic: ' + " · ".join(f'<a href="topics/korea-{k}.html">{n}</a>' for k, n in TOPICS) + "</p>"}
+    topics = {r: f'<p class="tlinks">{rn} tables by topic: ' + " · ".join(f'<a href="topics/{r}-{k}.html">{n}</a>' for k, n in TOPICS) + "</p>"
+              for r, (rn, _) in TOPIC_REGIONS.items() if any(k.startswith(r + "-") for k in TOPIC_TAGS)}
     grids = "".join(f'<section class="grp" id="{g}"><h2 class="grph">{names[g]}</h2>{topics.get(g, "")}<div class="grid">{body[g]}</div></section>'
                     for g in ("japan", "china", "korea", "taiwan", "manchuria", "south-seas", "other") if body[g])
     return LANDING.replace("__CARDS__", grids)
