@@ -38,3 +38,9 @@ K06 | done | korea-annual--agriculture korea-annual--mining-forestry-and-fishery
 K07 | done | korea-annual--local-administration korea-annual--justice-and-prisons
 K08 | done | korea-annual--general-survey-and-population korea-annual--police-and-peace-and-order korea-annual--sanitation korea-annual--education
 K09 | done | korea-annual--statistical-appendix
+T01 | done | japan-tokei--commerce-and-banking japan-tokei--weights-measures-and-currency japan-tokei--land-and-climate
+T02 | done | japan-tokei--justice japan-tokei--mining-and-industry japan-tokei--social-work-and-welfare
+T03 | done | japan-tokei--public-finance japan-tokei--education-shrines-and-religion
+T04 | done | japan-tokei--population japan-tokei--agriculture-forestry-and-fisheries japan-tokei--police-public-health-and-disasters
+T05 | done | japan-tokei--elections-officials-military-honours-and-pensions japan-tokei--transport-and-communications japan-tokei--foreign-trade
+T06 | done | japan-tokei--labour japan-tokei--international-tables

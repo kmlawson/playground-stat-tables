@@ -1791,3 +1791,24 @@ def _ka_topics():
 
 SERIES["korea-annual"] = {"name": "Annual Report on Reforms and Progress / Administration of Chosen",
                           "books": _KA_BOOKS, "topics": _ka_topics()}
+
+
+_JT = ["japan-tokei-1935", "japan-tokei-1938", "japan-tokei-1940"]
+_jt = lambda a, b, c: {k: v for k, v in zip(_JT, (a, b, c)) if v}
+SERIES["japan-tokei"] = {"name": "大日本帝國統計年鑑 (Statistical Yearbook of the Empire of Japan)", "books": _JT, "topics": {
+    "Weights, measures and currency": _jt(["度量衡比較及合數", "貨幣純分比價及爲替相場"], ["度量衡比較及合數", "貨幣純分比價及爲替相場"], ["度量衡比較、合數及略算法"]),
+    "Land and climate": _jt(["1 土地及氣象"], ["1 土地"], ["1 土地"]),
+    "Population": _jt(["2 人口"], ["2 人口"], ["2 人口"]),
+    "Agriculture, forestry and fisheries": _jt(["3 農林及水産"], ["3 農林及水産"], ["3 農林及水產"]),
+    "Mining and industry": _jt(["4 鑛業及工業"], ["4 鑛業及工業"], ["4 工業"]),
+    "Commerce and banking": _jt(["5 商業及金融"], ["5 商業及金融", "15 産業團體"], ["5 商業及金融"]),
+    "Foreign trade": _jt(["6 貿易"], ["6 貿易"], ["6 貿易"]),
+    "Transport and communications": _jt(["7 交通"], ["7 交通"], ["7 交通"]),
+    "Social work and welfare": _jt(["8 社會事業"], ["8 社會事業"], ["8 厚生"]),
+    "Labour": _jt(["9 勞働"], ["9 勞働及職業紹介"], ["9 勞働"]),
+    "Education, shrines and religion": _jt(["10 教育及宗教"], ["10 教育、神社及宗教"], ["10 教育、神社及宗教"]),
+    "Police, public health and disasters": _jt(["11 警察、衞生及災害"], ["11 警察、衛生及災害"], ["11 警察、衛生及災害"]),
+    "Justice": _jt(["12 司法"], ["12 司法"], ["12 司法"]),
+    "Public finance": _jt(["13 財政"], ["13 財政"], ["13 財政"]),
+    "Elections, officials, military, honours and pensions": _jt(["14 選擧、官公吏、軍事及恩賞"], ["14 選擧、官公吏、軍事及恩賞"], ["14 恩給其ノ他"]),
+    "International tables": _jt(["國際統計表"], ["國際統計表"], None)}}
