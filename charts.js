@@ -32,7 +32,10 @@
   function isTotal(label) {
     const s = String(label || "").replace(/[\s　]/g, "").normalize("NFKC");
     if (!s) return false;
-    if (TOT.test(s) || /\btotals?\b/i.test(label)) return true;
+    if (TOT.test(s)) return true;
+    // English: "Total", "Totals", "Grand total", "Total (Yen)" — not "Total — women" or "Percentage of total"
+    const e = String(label).replace(/[(（][^)）]*[)）]/g, "").replace(/[:.\s]+$/, "").trim();
+    if (/^(grand\s+)?totals?$/i.test(e)) return true;
     return s.length <= 6 && /計$/.test(s) && !/(統|設|會|会|集|生|時|主)計$/.test(s);
   }
   // A printed year label -> a calendar year (for spacing only; the printed label is always what is shown).
@@ -61,12 +64,12 @@
   const RX_ERA = new RegExp("(明治|大正|昭和|光武|隆熙)\\s*" + YN + SUF), RX_W = /(?:^|[^\d])((1[89]\d\d)(?:\s*[-–]\s*(?:\d{4}|\d{2}))?(?:\s*(?:年度末|年度|年末|年))?)(?!\d)/,
     RX_D = new RegExp("^\\s*((?:同|仝|〃)\\s*" + YN + SUF + ")(?![\\d〇一二三四五六七八九十])"), RX_B = new RegExp("^\\s*(" + YN + "\\s*(?:年度末|年度|年末|年))");
   function splitYear(label, ctx) {
-    const s = String(label || "").normalize("NFKC");
+    const s0 = String(label || "").normalize("NFKC"), s = s0.replace(/[(（][^()（）]*[)）]/g, x => " ".repeat(x.length));
     let y = null, t = "", m = s.match(RX_ERA);
     if (m && num(m[2]) != null) { ctx.era = m[1]; y = ERA[m[1]] + num(m[2]); t = m[0]; }
     else if ((m = s.match(RX_W))) { y = +m[2]; t = m[1]; }
     else if ((m = s.match(RX_D) || s.match(RX_B)) && ctx.era && num(m[2]) != null) { y = ERA[ctx.era] + num(m[2]); t = m[1]; }
-    const rest = y == null ? s : s.replace(t, "\u0000").split(/\s*(?:—|·)\s*/).map(x => x.replace("\u0000", "").trim()).filter(Boolean).join(" · ");
+    const rest = y == null ? s0 : s0.replace(t, "\u0000").split(/\s*(?:—|·)\s*/).map(x => x.replace("\u0000", "").trim()).filter(Boolean).join(" · ");
     return { y, t: t.trim(), rest };
   }
   // A list of printed labels read as a time axis: distinct years in printed order, and the rest of each label.
@@ -88,72 +91,169 @@
   function model(part) {
     const cols = part.columns || [], rows = (part.rows || []).map(r => cols.map((_, j) => cell(r[j])));
     if (!rows.length || cols.length < 2) return null;
-    const numCol = cols.map((_, j) => {
-      if (j === 0) return false;
-      let n = 0, t = 0;
-      rows.forEach(r => { const c = r[j]; if (c.k === "num") n++; else if (c.k === "text") t++; });
-      if (!(n >= 1 && n >= t)) return false;
-      // a column of printed years (1908, 1909 …) labels the rows; it is not a quantity
+    const yearCol = j => {   // a column of printed years (1908, 1909 …) labels the rows; it is not a quantity
       const hd = String(cols[j] || "").normalize("NFKC").trim();
       const yearish = rows.every(r => r[j].k !== "num" || (/^\d{4}$/.test(r[j].s.trim()) && r[j].v >= 1850 && r[j].v <= 1960));
-      return !(yearish && (/^(years?|fiscal years?|年|年次|年度|年別|年末)$/i.test(hd) || hd === ""));
+      return yearish && (/^(years?|fiscal years?|年|年次|年度|年別|年末)$/i.test(hd) || hd === "" || j === 0);
+    };
+    const numCol = cols.map((_, j) => {
+      let n = 0, t = 0;
+      rows.forEach(r => { const c = r[j]; if (c.k === "num") n++; else if (c.k === "text") t++; });
+      if (j === 0 && t > 0) return false;                  // the first column is a label unless it holds only figures
+      return n >= 1 && n >= t && !yearCol(j);
     });
-    const first = numCol.indexOf(true);
-    if (first < 1) return null;
-    const labJ = cols.map((_, j) => j).filter(j => !numCol[j]);
-    const lab = r => labJ.map(j => r[j].s).filter(Boolean).join(" · ");
+    if (!numCol.some(Boolean)) return null;
+    // label columns: those with printed words; all-dash or empty columns label nothing
+    const labJ = cols.map((_, j) => j).filter(j => !numCol[j] && rows.some(r => r[j].k === "text" || r[j].k === "num"));
+    const prev = {};
+    const lab = r => labJ.map(j => {
+      let c = r[j];
+      if ((c.k === "blank" || c.k === "ditto") && prev[j]) c = prev[j];    // printed blank / 〃 under a label = the label above
+      else if (c.k !== "blank") prev[j] = c;
+      return c.s;
+    }).filter(x => x && !/^[-–—]+$/.test(x)).join(" · ");
     const R = [];
     let group = "";
     rows.forEach((r, i) => {
-      const label = lab(r), data = r.filter((_, j) => numCol[j]);
+      const data = r.filter((_, j) => numCol[j]);
       const empty = data.every(c => c.k === "blank");
-      if (empty && label) { group = label; return; }        // section heading row
+      const label = lab(r);
+      if (empty && label) { group = label.replace(/[:：]\s*$/, ""); return; }        // section heading row
       if (!label && empty) return;
-      R.push({ i, label: label || "(no label)", group, total: isTotal(r[0].s) || isTotal(label), cells: r });
+      R.push({ i, label: label || `(row ${i + 1})`, group, total: labJ.some(j => isTotal(r[j].s)) || isTotal(label), cells: r });
     });
     const C = [];
     cols.forEach((h, j) => { if (numCol[j]) { const sg = seg(h); C.push({ j, label: h, last: sg[sg.length - 1], pre: sg.slice(0, -1).join(" — "), total: isTotal(sg[sg.length - 1]) }); } });
     if (!R.length || !C.length) return null;
     const nums = R.reduce((a, r) => a + C.filter(c => r.cells[c.j].k === "num").length, 0);
     if (nums < 2) return null;
-    return { R, C, cols };
+    return { R, C, cols, labHead: labJ.length ? cols[labJ[0]] : "" };
   }
 
-  // The view: x categories, series, kind ("line"|"bar"). Rows (or columns) printed for the same year under different
-  // headings ("昭和7年 內地人", "昭和7年 朝鮮人") become separate lines; undated rows (e.g. totals) are listed, not drawn.
+  // ---- table -> one or more views ----------------------------------------------------------------------------
+  // A view is one chart: kind ("line"|"bar"), x (years) or cats (rows), series. A table becomes several views when it
+  // prints several measures (column groups, units, ratios) or a block of earlier-year rows under its main rows; each
+  // measure gets its own axis. Undated rows of a time series are listed, not drawn.
   const NONE = { k: "none", s: "" };
-  function plan(m) {
+  // Which chart each column belongs to. Two-level headings either name different measures (Revenue — …, Expenditure — …:
+  // one chart each) or the same measures for different categories (Koreans — Male/Female/Total, Japanese — …). In the
+  // second case the categories share one chart if the sub-columns add up to their printed total (one unit), else there
+  // is one chart per sub-column (Schools / Students). Ratios, averages and differences always get their own chart.
+  function viewKeys(m) {
+    const K = {}, sg = c => seg(c.label), leafOf = c => sg(c)[1];
+    const multi = m.C.filter(c => sg(c).length >= 2 && !RATIO.test(c.label));
+    const tops = [...new Set(multi.map(c => sg(c)[0]))], lt = {};
+    multi.forEach(c => (lt[leafOf(c)] = lt[leafOf(c)] || new Set()).add(sg(c)[0]));
+    const leaves = Object.keys(lt);
+    const repeated = tops.length >= 2 && leaves.length >= 2 && leaves.filter(l => lt[l].size >= 2).length >= leaves.length * 0.6;
+    let mode = repeated ? "leaf" : "top";
+    if (repeated) for (const t of tops) {
+      const cs = multi.filter(c => sg(c)[0] === t && sg(c).length === 2), tot = cs.filter(c => isTotal(c.last)), parts = cs.filter(c => !isTotal(c.last));
+      if (tot.length === 1 && parts.length >= 2) {
+        let ok = 0, n = 0;
+        m.R.forEach(r => { const tv = r.cells[tot[0].j]; if (tv.k !== "num" || !parts.every(c => r.cells[c.j].k === "num")) return; n++;
+          if (Math.abs(parts.reduce((a, c) => a + r.cells[c.j].v, 0) - tv.v) <= Math.max(1, Math.abs(tv.v) * 0.005)) ok++; });
+        if (n && ok >= n * 0.5) { mode = "one"; break; }
+      }
+    }
+    m.C.forEach(c => {
+      if (RATIO.test(c.label)) K[c.j] = "~" + (repeated && sg(c).length >= 2 ? leafOf(c) : c.label);
+      else if (sg(c).length < 2) K[c.j] = "";
+      else K[c.j] = mode === "top" ? sg(c)[0] : mode === "leaf" ? leafOf(c) : "";
+    });
+    return K;
+  }
+  function byView(series, names) {
+    const keys = [];
+    series.forEach(s => { if (!keys.includes(s.view)) keys.push(s.view); });
+    return keys.map(k => ({ key: k, name: names(k, series.filter(s => s.view === k)), series: series.filter(s => s.view === k) }));
+  }
+  const listName = ss => { const n = [...new Set(ss.map(s => s.short || s.label))]; const t = n.slice(0, 4).join(", ") + (n.length > 4 ? "…" : ""); return t; };
+  const vname = (k, ss) => k.startsWith("~") ? k.slice(1) : (k || listName(ss));
+  // few years and several categories: grouped bars (categories) × (years) read better than 2–3-point lines
+  function transpose(v) {
+    return Object.assign({}, v, { kind: "bar", transposed: true,
+      cats: v.series.map(s => ({ label: s.short || s.label, group: s.pre || "", total: s.total, i: (s.rows || [])[0] })),
+      series: v.x.map((x, xi) => ({ label: x.label, short: x.label, pre: "", total: false, pts: v.series.map(s => s.pts[xi]) })) });
+  }
+  function views(m) {
+    const out = [], K = viewKeys(m), gkey = c => K[c.j];
     const tr = timeAxis(m.R.map(r => r.label));
     if (tr) {
       const series = [];
       (tr.dup ? tr.rests : [null]).forEach(rest => m.C.forEach(c => {
         const pick = tr.keys.map(k => m.R.findIndex((r, i) => tr.sp[i].y === k.y && (rest === null || tr.sp[i].rest === rest)));
-        series.push({ label: (rest ? rest + " — " : "") + c.label, short: rest && m.C.length > 1 ? rest + " — " + c.last : rest || c.last, pre: rest ? c.label : c.pre, total: c.total || (rest != null && isTotal(rest)),
-          pts: pick.map(i => i < 0 ? NONE : m.R[i].cells[c.j]), rows: pick.map(i => i < 0 ? null : m.R[i].i) });
+        const many = m.C.filter(x => gkey(x) === gkey(c)).length > 1;
+        series.push({ view: gkey(c), label: (rest ? rest + " — " : "") + c.label, short: rest ? rest + (many ? " — " + c.last : "") : c.last, pre: rest && many ? c.last : (rest ? "" : c.pre),
+          total: c.total || (rest != null && isTotal(rest)), pts: pick.map(i => i < 0 ? NONE : m.R[i].cells[c.j]), rows: pick.map(i => i < 0 ? null : m.R[i].i) });
       }));
-      return { kind: "line", x: tr.keys, prop: tr.prop, rev: tr.rev, series, undated: tr.undated };
+      byView(series, vname).forEach(v => out.push(Object.assign({ kind: "line", x: tr.keys, prop: tr.prop, rev: tr.rev, undated: tr.undated }, v)));
+    } else {
+      const tc = timeAxis(m.C.map(c => c.label));
+      if (tc) {
+        const series = [];
+        (tc.dup ? tc.rests : [null]).forEach(rest => m.R.forEach(r => {
+          const pick = tc.keys.map(k => m.C.findIndex((c, i) => tc.sp[i].y === k.y && (rest === null || tc.sp[i].rest === rest)));
+          series.push({ view: rest || "", label: (r.group ? r.group + " — " : "") + r.label + (rest ? " — " + rest : ""), short: r.label, pre: r.group, total: r.total,
+            pts: pick.map(i => i < 0 ? NONE : r.cells[m.C[i].j]), rows: pick.map(() => r.i) });
+        }));
+        byView(series, k => k || "").forEach(v => out.push(Object.assign({ kind: "line", x: tc.keys, prop: tc.prop, rev: tc.rev, byRow: true, undated: tc.undated }, v, { name: v.name || listName(v.series) })));
+      }
     }
-    const tc = timeAxis(m.C.map(c => c.label));
-    if (tc) {
-      const series = [];
-      (tc.dup ? tc.rests : [null]).forEach(rest => m.R.forEach(r => {
-        const pick = tc.keys.map(k => m.C.findIndex((c, i) => tc.sp[i].y === k.y && (rest === null || tc.sp[i].rest === rest)));
-        series.push({ label: (r.group ? r.group + " — " : "") + r.label + (rest ? " — " + rest : ""), short: r.label, pre: rest || r.group, total: r.total || (rest != null && isTotal(rest)),
-          pts: pick.map(i => i < 0 ? NONE : r.cells[m.C[i].j]), rows: pick.map(() => r.i) });
-      }));
-      return { kind: "line", x: tc.keys, prop: tc.prop, rev: tc.rev, byRow: true, series, undated: tc.undated };
+    if (out.length) return out.map(v => v.x.length <= 3 && v.series.length >= 2 ? transpose(v) : v);
+    // bars. One printed row with two-level headings ("Officials — Killed", "Officials — Wounded" …): the first level
+    // gives the categories, the second the series.
+    if (m.R.length === 1 && m.C.every(c => seg(c.label).length === 2 && !RATIO.test(c.label))) {
+      const r = m.R[0], tops = [...new Set(m.C.map(c => seg(c.label)[0]))], leaves = [...new Set(m.C.map(c => c.last))];
+      if (tops.length >= 2 && leaves.length >= 2 && leaves.length < m.C.length)
+        return [{ kind: "bar", name: "", cats: tops.map(t => ({ label: t, group: "", total: isTotal(t), i: r.i })),
+          series: leaves.map(l => ({ label: l, short: l, pre: "", total: isTotal(l), pts: tops.map(t => { const c = m.C.find(c => seg(c.label)[0] === t && c.last === l); return c ? r.cells[c.j] : NONE; }) })) }];
     }
-    if (m.R.length === 1 && m.C.length >= 2) {   // one printed row: its columns are the categories
-      const r = m.R[0];
-      return { kind: "bar", cats: m.C.map(c => ({ label: c.label, group: c.pre, total: c.total, i: r.i })),
-        series: [{ label: r.label, short: r.label, pre: "", total: r.total, pts: m.C.map(c => r.cells[c.j]) }] };
+    // Rows that are only two or three printed years (1911, 1910): the columns are the categories, the years the series.
+    const ctx0 = {};
+    if (m.R.length <= 3 && m.R.length >= 2 && m.R.every(r => { const x = splitYear(r.label, ctx0); return x.y != null && !x.rest; })) {
+      const groups = [];
+      m.C.forEach(c => { const k = gkey(c); let g = groups.find(x => x.key === k); if (!g) groups.push(g = { key: k, cs: [] }); g.cs.push(c); });
+      return groups.map(g => ({ kind: "bar", transposed: true, name: groups.length > 1 ? (g.key.startsWith("~") ? g.key.slice(1) : g.key || listName(g.cs.map(c => ({ short: c.last })))) : "",
+        cats: g.cs.map(c => ({ label: g.key && !g.key.startsWith("~") ? seg(c.label).slice(seg(g.key).length).join(" — ") || c.last : c.label, group: "", total: c.total, i: m.R[0].i })),
+        series: m.R.map(r => ({ label: r.label, short: r.label, pre: "", total: false, pts: g.cs.map(c => r.cells[c.j]) })) }));
     }
-    return { kind: "bar", cats: m.R.map(r => ({ label: r.label, group: r.group, total: r.total, i: r.i })),
-      series: m.C.map(c => ({ label: c.label, short: c.last, pre: c.pre, total: c.total, pts: m.R.map(r => r.cells[c.j]) })) };
+    // One printed row: its columns are the categories, one chart per measure.
+    if (m.R.length === 1) {
+      const r = m.R[0], groups = [];
+      m.C.forEach(c => { const k = gkey(c); let g = groups.find(x => x.key === k); if (!g) groups.push(g = { key: k, cs: [] }); g.cs.push(c); });
+      return groups.map(g => ({ kind: "bar", name: g.key.startsWith("~") ? g.key.slice(1) : (g.key || listName(g.cs.map(c => ({ short: c.last })))),
+        cats: g.cs.map(c => ({ label: g.key && !g.key.startsWith("~") ? c.last : c.label, group: "", total: c.total, i: r.i })),
+        series: [{ label: r.label, short: r.label, pre: "", total: r.total, pts: g.cs.map(c => r.cells[c.j]) }] }));
+    }
+    // rows: the printed rows, and a trailing block of earlier-year rows (with the total above it) as its own chart
+    const ctx = {}, yr = m.R.map(r => { const x = splitYear(r.label, ctx); return x.y != null && !x.rest; });
+    let b0 = yr.indexOf(true);
+    const rowSets = [];
+    if (b0 >= 2 && yr.slice(b0).every((y, k) => y || m.R[b0 + k].total) && yr.slice(0, b0).filter(y => !y).length >= 2) {
+      const tot = b0 > 0 && m.R[b0 - 1].total ? [m.R[b0 - 1]] : [];
+      rowSets.push({ name: "", rows: m.R.slice(0, b0) });
+      rowSets.push({ name: tot.length ? "Total and earlier years" : "Earlier years", rows: tot.concat(m.R.slice(b0)), keepTotals: true });
+    } else rowSets.push({ name: "", rows: m.R });
+    const cs = m.C.map(c => ({ view: gkey(c), c }));
+    const colSets = byView(cs.map(x => Object.assign(x, { short: x.c.last, label: x.c.label })), vname);
+    rowSets.forEach(rs => colSets.forEach(cg => out.push({ kind: "bar", keepTotals: rs.keepTotals,
+      name: [rs.name, colSets.length > 1 || rs.name ? cg.name : ""].filter(Boolean).join(" · ") || (rowSets.length > 1 ? m.labHead || "Rows" : ""),
+      cats: rs.rows.map(r => ({ label: r.label, group: r.group, total: r.total, i: r.i })),
+      series: cg.series.map(x => ({ label: x.c.label, short: x.c.last, pre: x.c.pre, total: x.c.total, pts: rs.rows.map(r => r.cells[x.c.j]) })) })));
+    return out;
+  }
+  const plan = m => views(m)[0];
+  // series names that repeat within a chart (Male, Female under several nationalities) carry their group
+  function uniq(v) {
+    const seen = {};
+    v.series.forEach(s => { const k = s.short || s.label; seen[k] = (seen[k] || 0) + 1; });
+    v.series.forEach(s => { if (seen[s.short || s.label] > 1) s.short = s.pre ? s.pre + " — " + (s.short || s.label) : s.label; });
+    return v;
   }
 
   // Ratios, averages and densities are never stacked.
-  const RATIO = /density|per\b|per cent|percent|%|average|mean|ratio|rate|index|比|率|平均|每|當り|当り|指數|百分|千分|割合|密度/i;
+  const RATIO = /density|\bper\b|per cent|percent|%|average|mean|ratio|\brate\b|index|increase|decrease|period of|比|率|平均|每|當り|当り|指數|百分|千分|割合|密度|增減|増減/i;
   // Stack only where the printed parts add up to the printed total in most rows that can be checked — the rows
   // where they do not are then marked ≠, which is a printed discrepancy rather than a wrong choice of columns.
   function addsUp(S, parts, tot) {
@@ -240,10 +340,10 @@
     const part = (table.parts || [])[pi];
     const m = part && model(part);
     if (!m) { host.classList.add("tc-none"); host.innerHTML = '<p class="tc-msg">No chart for this table: it has too few printed figures to draw.</p>'; return false; }
-    const p = plan(m), d = defaults(p);
-    const st = { on: d.on, mode: d.mode, sort: "printed", totals: false, sep: null };
-    const S = p.series;
+    const V = views(m).map(uniq);
+    let p, S, st;
     host.innerHTML = "";
+    const tabs = document.createElement("div"); tabs.className = "tc-tabs"; host.appendChild(tabs);
     const bar = document.createElement("div"); bar.className = "tc-bar"; host.appendChild(bar);
     const leg = document.createElement("div"); leg.className = "tc-leg"; host.appendChild(leg);
     const plot = document.createElement("div"); plot.className = "tc-plot"; host.appendChild(plot);
@@ -251,16 +351,26 @@
     const note = document.createElement("p"); note.className = "tc-note"; host.appendChild(note);
     const color = k => PAL[k % PAL.length];
 
-    // counts for the note
-    let nI = 0, nB = 0, nD = 0;
-    S.forEach(s => s.pts.forEach(c => { if (c.k === "illeg") nI++; else if (c.k === "blank") nB++; else if (c.k !== "num" && c.k !== "none") nD++; }));
-    const bits = [];
-    if (nI) bits.push(`${nI} unreadable cell${nI > 1 ? "s" : ""} (marked ?)`);
-    if (nB) bits.push(MARKED ? `${nB} blank${nB > 1 ? "s" : ""}` : `${nB} empty cell${nB > 1 ? "s" : ""} (blank in the original or unreadable — this book does not distinguish them)`);
-    if (nD) bits.push(`${nD} printed dash${nD > 1 ? "es" : ""}, ditto marks or text`);
-    const axis = p.kind === "line" ? (p.prop ? " Years are spaced by date" + (p.rev ? " (the table prints them newest first)." : ".") : " Years are evenly spaced in printed order, not by date.") + (p.undated && p.undated.length ? ` Not dated, so not drawn: ${p.undated.slice(0, 4).join(", ")}${p.undated.length > 4 ? "…" : ""}.` : "") : "";
-    note.textContent = "Drawn only from the figures printed in the table." + (bits.length ? " Not drawn: " + bits.join(", ") + "; nothing is filled in or interpolated." : "") + axis;
-
+    function noteText() {
+      let nI = 0, nB = 0, nD = 0;
+      S.forEach(s => s.pts.forEach(c => { if (c.k === "illeg") nI++; else if (c.k === "blank") nB++; else if (c.k !== "num" && c.k !== "none") nD++; }));
+      const bits = [];
+      if (nI) bits.push(`${nI} unreadable cell${nI > 1 ? "s" : ""} (marked ?)`);
+      if (nB) bits.push(MARKED ? `${nB} blank${nB > 1 ? "s" : ""}` : `${nB} empty cell${nB > 1 ? "s" : ""} (blank in the original or unreadable — this book does not distinguish them)`);
+      if (nD) bits.push(`${nD} printed dash${nD > 1 ? "es" : ""}, ditto marks or text`);
+      const axis = p.kind === "line" ? (p.prop ? " Years are spaced by date" + (p.rev ? " (the table prints them newest first)." : ".") + " A dashed line joins years with unprinted years between them." : " Years are evenly spaced in printed order, not by date.") + (p.undated && p.undated.length ? ` Not dated, so not drawn: ${p.undated.slice(0, 4).join(", ")}${p.undated.length > 4 ? "…" : ""}.` : "") : "";
+      note.textContent = (V.length > 1 ? `The table prints ${V.length} kinds of figures; each has its own chart (buttons above). ` : "") + "Drawn only from the figures printed in the table." + (bits.length ? " Not drawn: " + bits.join(", ") + "; nothing is filled in or interpolated." : "") + axis;
+    }
+    function setView(i) {
+      p = V[i]; S = p.series; const d = defaults(p);
+      st = { on: d.on, mode: d.mode, sort: "printed", totals: !!p.keepTotals, sep: null, view: i };
+      tabs.innerHTML = "";
+      if (V.length > 1) V.forEach((v, k) => {
+        const b = document.createElement("button"); b.type = "button"; b.textContent = clip(v.name || `Chart ${k + 1}`, 13, 260); b.title = v.name;
+        if (k === i) b.classList.add("on"); b.onclick = () => setView(k); tabs.appendChild(b);
+      });
+      noteText(); controls(); legend(); draw();
+    }
     function btn(label, on, fn, title) {
       const b = document.createElement("button"); b.type = "button"; b.textContent = label; if (title) b.title = title;
       if (on) b.classList.add("on"); b.addEventListener("click", fn); bar.appendChild(b); return b;
@@ -314,7 +424,8 @@
       tip.style.left = Math.max(4, Math.min(x + 12, hb.width - w - 4)) + "px";
       tip.style.top = (y + 14) + "px";
     }
-    host.addEventListener("pointerleave", () => { tip.hidden = true; });
+    host.addEventListener("pointerleave", ev => { if (ev.pointerType === "mouse") tip.hidden = true; });
+    document.addEventListener("pointerdown", ev => { if (!host.contains(ev.target)) tip.hidden = true; });
     const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 
     // highlight the matching printed row in the table, when the table is on screen too
@@ -354,6 +465,9 @@
       const ys = p.x.map(x => x.y);
       const X = p.prop ? (i => L + (n === 1 ? pw / 2 : (ys[i] - ys[0]) / (ys[n - 1] - ys[0]) * pw)) : (i => L + (n === 1 ? pw / 2 : i / (n - 1) * pw));
       const Y = v => top + (hi - v) / (hi - lo) * ph;
+      // printed years further apart than the usual step: the years between are not printed, so the join is dashed
+      const steps = ys.slice(1).map((y, i) => y - ys[i]).filter(x => x > 0).sort((a, b) => a - b), med = steps.length ? steps[steps.length >> 1] : 1;
+      const gapped = (a, b) => p.prop && ys[b] - ys[a] > Math.max(1, med) * 1.5;
       T.forEach(t => { el("line", { x1: L, x2: W - R, y1: Y(t), y2: Y(t), class: t === 0 ? "tc-zero" : "tc-grid" }, svg); txt(svg, L - 6, Y(t) + 4, fmt(t), { class: "tc-ax", "text-anchor": "end" }); });
       // x labels: as many as fit, always the first and last
       const lw = Math.max(...p.x.map(x => textW(x.label, 10.5))) + 8, every = Math.max(1, Math.ceil(n * Math.min(lw, 90) / pw));
@@ -364,9 +478,16 @@
       });
       on.forEach(k => {
         const s = S[k], col = color(k);
-        let d = "", run = 0;
-        s.pts.forEach((c, i) => { if (c.k === "num") { d += (run ? "L" : "M") + X(i).toFixed(1) + " " + Y(c.v).toFixed(1); run++; } else run = 0; });
+        let d = "", dd = "", last = -1;
+        s.pts.forEach((c, i) => {
+          if (c.k !== "num") { last = -1; return; }
+          const pt = X(i).toFixed(1) + " " + Y(c.v).toFixed(1);
+          if (last >= 0 && gapped(last, i)) { dd += "M" + X(last).toFixed(1) + " " + Y(s.pts[last].v).toFixed(1) + "L" + pt; d += "M" + pt; }
+          else d += (last >= 0 ? "L" : "M") + pt;
+          last = i;
+        });
         if (d) el("path", { d, fill: "none", stroke: col, "stroke-width": 2, "stroke-linejoin": "round" }, svg);
+        if (dd) el("path", { d: dd, fill: "none", stroke: col, "stroke-width": 1.5, "stroke-dasharray": "4 4" }, svg);
         s.pts.forEach((c, i) => {
           if (c.k === "num") {
             const lonely = (i === 0 || s.pts[i - 1].k !== "num") && (i === n - 1 || s.pts[i + 1].k !== "num");
@@ -379,14 +500,15 @@
       // hover / tap: everything printed at that x
       const hit = el("rect", { x: L, y: top, width: pw, height: ph + 6, fill: "transparent", class: "tc-hit" }, svg);
       const guide = el("line", { y1: top, y2: top + ph, class: "tc-guide", visibility: "hidden" }, svg);
-      hit.addEventListener("pointermove", ev => {
+      const at = ev => {
         const r = svg.getBoundingClientRect(), x = (ev.clientX - r.left) * W / r.width;
         let best = 0, bd = 1e9; for (let i = 0; i < n; i++) { const dd = Math.abs(X(i) - x); if (dd < bd) { bd = dd; best = i; } }
         guide.setAttribute("x1", X(best)); guide.setAttribute("x2", X(best)); guide.setAttribute("visibility", "visible");
         showTip(ev, `<b>${esc(p.x[best].label)}</b>` + on.map(k => `<div><i style="background:${color(k)}"></i>${esc(S[k].short || S[k].label)}: ${esc(shown(S[k].pts[best]))}</div>`).join(""));
         if (!p.byRow) flash(S[on[0]].rows[best]); else flash(S[on[0]].rows[0]);
-      });
-      hit.addEventListener("pointerleave", () => guide.setAttribute("visibility", "hidden"));
+      };
+      hit.addEventListener("pointermove", at); hit.addEventListener("pointerdown", at);
+      hit.addEventListener("pointerleave", ev => { if (ev.pointerType === "mouse") guide.setAttribute("visibility", "hidden"); });
       svg.setAttribute("aria-label", `Line chart of ${on.length} series over ${n} printed ${p.byRow ? "columns" : "rows"}`);
     }
 
@@ -448,7 +570,7 @@
         }
         const hit = el("rect", { x: 0, y: y, width: W, height: band, fill: "transparent", class: "tc-hit" }, svg);
         hit.addEventListener("pointermove", ev => { showTip(ev, tipHtml()); flash(c.i); });
-        hit.addEventListener("click", ev => { showTip(ev, tipHtml()); flash(c.i); });
+        hit.addEventListener("pointerdown", ev => { showTip(ev, tipHtml()); flash(c.i); });
       });
       svg.setAttribute("aria-label", `Bar chart of ${cats.length} printed rows`);
     }
@@ -462,7 +584,7 @@
       return `<div class="tc-sum warn">Parts add up to ${(+a.toFixed(4)).toLocaleString("en-US")}; printed total ${esc(t.s)}.</div>`;
     }
 
-    controls(); legend(); draw();
+    setView(0);
     let rw = plot.clientWidth;
     if (window.ResizeObserver) new ResizeObserver(() => { if (Math.abs(plot.clientWidth - rw) > 8) { rw = plot.clientWidth; draw(); } }).observe(plot);
     return true;
@@ -479,5 +601,5 @@
   }
   // Whether a table has anything to chart (decides if the Table/Chart switch is shown).
   const chartable = t => (t.parts || []).some(p => !!model(p));
-  window.TableCharts = { mount, mountAll, chartable, _cell: cell, _year: yearOf, _model: model, _plan: plan, _defaults: defaults };
+  window.TableCharts = { mount, mountAll, chartable, _cell: cell, _year: yearOf, _model: model, _plan: plan, _views: views, _defaults: defaults };
 })();
