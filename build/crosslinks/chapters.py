@@ -1812,3 +1812,14 @@ SERIES["japan-tokei"] = {"name": "大日本帝國統計年鑑 (Statistical Yearb
     "Public finance": _jt(["13 財政"], ["13 財政"], ["13 財政"]),
     "Elections, officials, military, honours and pensions": _jt(["14 選擧、官公吏、軍事及恩賞"], ["14 選擧、官公吏、軍事及恩賞"], ["14 恩給其ノ他"]),
     "International tables": _jt(["國際統計表"], ["國際統計表"], None)}}
+
+
+_NY = ["nanyo-tokei-1932", "nanyo-tokei-1937"]
+_NYCH = [("Land and climate", "I 土地及氣象", "1 土地"), ("Population", "II 戶口", "2 戸口"), ("Administration", "III 行政", "3 行政"),
+         ("Police", "IV 警察", "4 警察"), ("Public health", "V 衛生", "5 衞生"), ("Justice and prisons", "VI 司法行刑", "6 司法行刑"),
+         ("Education", "VII 敎育", "7 敎育"), ("Religion", "VIII 宗敎", "8 宗敎"), ("Industry", "IX 產業", "9 產業"),
+         ("Transport and communications", "X 交通及通信", "10 交通及通信"), ("Finance and prices", "XI 金融", "11 金融"),
+         ("Trade", "XII 貿易", "12 貿易"), ("Public finance", "XIII 財政", "13 財政"), ("Social work", "XIV 社會事業", "14 社會事業"),
+         ("Appendix", "附錄", "附錄")]
+SERIES["nanyo-tokei"] = {"name": "南洋廳統計年鑑 (Statistical Yearbook of the South Seas Government)", "books": _NY,
+                         "topics": {t: {_NY[0]: [a], _NY[1]: [b]} for t, a, b in _NYCH}}
