@@ -79,7 +79,7 @@ details.notes{margin:6px 0}details.notes>summary{cursor:pointer;font-weight:bold
 .scan a img{height:160px;border:1px solid var(--line)}
 mark{background:var(--hi);color:inherit}
 #toggle{margin-left:auto}
-.dirbtn{margin-left:auto;background:var(--accent-ink);color:var(--accent)!important;opacity:1!important;font-weight:bold;font-size:14px;padding:6px 14px;border-radius:5px;text-decoration:none;align-self:center}.dirbtn:hover{filter:brightness(.93)}.dirbtn+#toggle,.dirbtn+.dirbtn,.dirbtn+.aboutbtn{margin-left:0}
+.dirbtn{margin-left:auto;background:var(--accent-ink);color:var(--accent)!important;opacity:1!important;font-weight:bold;font-size:14px;padding:6px 14px;border-radius:5px;text-decoration:none;align-self:center}.homebtn~.dirbtn,.homebtn~.aboutbtn,.homebtn~.anbtn{margin-left:0}.dirbtn:hover{filter:brightness(.93)}.dirbtn+#toggle,.dirbtn+.dirbtn,.dirbtn+.aboutbtn{margin-left:0}
 .en{margin:2px 0 6px;font-size:15px}
 .che{display:block;text-transform:none;letter-spacing:0;font-size:11.5px;color:var(--muted);margin-top:1px}
 .che2{display:block;font-size:15px;color:var(--muted);margin-top:2px}
@@ -96,9 +96,9 @@ dialog{max-width:min(560px,calc(100vw - 32px));border:1px solid var(--line);bord
 </style>
 </head>
 <body>
-<header><a href="../../" style="text-decoration:none;font-size:14px">← All books</a><h1>The Japan Year Book 1906</h1>
+<header><a href="../../" style="text-decoration:none;font-size:14px">← All books</a><h1><a href="./" onclick="goHome();return false" style="color:inherit;text-decoration:none" title="Back to this book's contents">The Japan Year Book 1906</a></h1>
 <span class="meta">765 tables · 33,472 cells · LLM-transcribed · <a href="../../data/japan-1906.json" style="color:inherit">JSON</a> · <a href="../../downloads/japan-1906-tables.xlsx" style="color:inherit" download>Excel</a></span>
-<a class="dirbtn" href="directory.html">Directories</a><button class="aboutbtn" onclick="document.getElementById('about').showModal()">About</button><dialog id="about" onclick="if(event.target===this)this.close()"><h3>The Japan Year Book 1906</h3><div class="pub">Y. Takenob (ed.); Tokyo: The Japan Year Book Office, 1906</div><p>Only tables, columnar lists and directory entries are transcribed; prose, chronologies, law texts, advertisements, the contents and the index are not. Pages with tables and directories were found from contact sheets by Claude Sonnet 5.5, so small tables set into the prose may be missing. Each page was read once by Claude Haiku 5.5 from full-resolution crops and not checked by eye; unreadable figures are marked, and printed totals that do not add up are noted and kept as read. Tables continued over pages were joined where the column headings match. The Who&#x27;s Who and directories are on the Who&#x27;s Who &amp; Directories page.</p><form method="dialog"><button>Close</button></form></dialog><button id="toggle" title="Toggle light/dark">◐</button></header>
+<a class="dirbtn homebtn" href="./" onclick="goHome();return false" title="Back to this book's contents (chapters and the printed table of contents)">☰ Contents</a><a class="dirbtn" href="directory.html">Directories</a><button class="aboutbtn" onclick="document.getElementById('about').showModal()">About</button><dialog id="about" onclick="if(event.target===this)this.close()"><h3>The Japan Year Book 1906</h3><div class="pub">Y. Takenob (ed.); Tokyo: The Japan Year Book Office, 1906</div><p>Only tables, columnar lists and directory entries are transcribed; prose, chronologies, law texts, advertisements, the contents and the index are not. Pages with tables and directories were found from contact sheets by Claude Sonnet 5.5, so small tables set into the prose may be missing. Each page was read once by Claude Haiku 5.5 from full-resolution crops and not checked by eye; unreadable figures are marked, and printed totals that do not add up are noted and kept as read. Tables continued over pages were joined where the column headings match. The Who&#x27;s Who and directories are on the Who&#x27;s Who &amp; Directories page.</p><form method="dialog"><button>Close</button></form></dialog><button id="toggle" title="Toggle light/dark">◐</button></header>
 <div id="wrap">
 <nav id="side"><div class="ctl">
 <input id="q" type="search" placeholder="Search titles, headings, cells…">
@@ -272,6 +272,7 @@ $("#ch").addEventListener("input",()=>{renderList();const ch=$("#ch").value;
  if(ch)location.hash="ch="+encodeURIComponent(ch);else{history.replaceState(null,"",location.pathname);showHome()}});
 ["q","flag"].forEach(k=>$("#"+k).addEventListener("input",()=>{renderList();if(mode==="chapter")showChapter($("#ch").value)}));
 window.addEventListener("hashchange",route);
+function goHome(){if(location.hash)history.pushState(null,"",location.pathname+location.search);route();scrollTo(0,0);const m=$("#main");if(m)m.scrollTop=0}
 $("#toggle").onclick=()=>{const r=document.documentElement,d=r.dataset.theme==="dark"||(!r.dataset.theme&&matchMedia("(prefers-color-scheme: dark)").matches);r.dataset.theme=d?"light":"dark";anSync(true)};
 function anView(){return mode==="one"?cur||"":mode==="chapter"?"ch="+$("#ch").value:""}
 function anGo(v){history.replaceState(null,"",location.pathname+(v?"#"+v:""));route()}

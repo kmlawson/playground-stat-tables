@@ -79,7 +79,7 @@ details.notes{margin:6px 0}details.notes>summary{cursor:pointer;font-weight:bold
 .scan a img{height:160px;border:1px solid var(--line)}
 mark{background:var(--hi);color:inherit}
 #toggle{margin-left:auto}
-.dirbtn{margin-left:auto;background:var(--accent-ink);color:var(--accent)!important;opacity:1!important;font-weight:bold;font-size:14px;padding:6px 14px;border-radius:5px;text-decoration:none;align-self:center}.dirbtn:hover{filter:brightness(.93)}.dirbtn+#toggle,.dirbtn+.dirbtn,.dirbtn+.aboutbtn{margin-left:0}
+.dirbtn{margin-left:auto;background:var(--accent-ink);color:var(--accent)!important;opacity:1!important;font-weight:bold;font-size:14px;padding:6px 14px;border-radius:5px;text-decoration:none;align-self:center}.homebtn~.dirbtn,.homebtn~.aboutbtn,.homebtn~.anbtn{margin-left:0}.dirbtn:hover{filter:brightness(.93)}.dirbtn+#toggle,.dirbtn+.dirbtn,.dirbtn+.aboutbtn{margin-left:0}
 .en{margin:2px 0 6px;font-size:15px}
 .che{display:block;text-transform:none;letter-spacing:0;font-size:11.5px;color:var(--muted);margin-top:1px}
 .che2{display:block;font-size:15px;color:var(--muted);margin-top:2px}
@@ -96,9 +96,9 @@ dialog{max-width:min(560px,calc(100vw - 32px));border:1px solid var(--line);bord
 </style>
 </head>
 <body>
-<header><a href="../../" style="text-decoration:none;font-size:14px">← All books</a><h1>Annual Report on Administration of Tyosen 1938-39</h1>
+<header><a href="../../" style="text-decoration:none;font-size:14px">← All books</a><h1><a href="./" onclick="goHome();return false" style="color:inherit;text-decoration:none" title="Back to this book's contents">Annual Report on Administration of Tyosen 1938-39</a></h1>
 <span class="meta">56 tables · 2,222 cells · LLM-transcribed · <a href="../../data/korea-1938-39.json" style="color:inherit">JSON</a> · <a href="../../downloads/korea-1938-39-tables.xlsx" style="color:inherit" download>Excel</a></span>
-<button class="aboutbtn" onclick="document.getElementById('about').showModal()">About</button><dialog id="about" onclick="if(event.target===this)this.close()"><h3>Annual Report on Administration of Tyosen 1938-39</h3><div class="pub">Government-General of Tyosen, Keizyo, December 1939</div><p>Only tables are transcribed; the running text, photographs, maps, organisation charts, the contents and the list of illustrations are not. Table pages were found from contact sheets by Claude Haiku 5.5 and re-checked by Claude Sonnet 5.5; small tables set into the prose may still be missing. Each table page was read twice independently by Haiku from full-resolution crops, and a third time where the two readings differed; a figure stands where at least two readings agree and is otherwise marked unreadable. Tables continued over pages were joined where the column headings match. Printed totals are checked automatically and differences noted; they are kept as read. The one-sentence context notes are written by the model from the text on the same page. This volume was not checked by eye.</p><form method="dialog"><button>Close</button></form></dialog><button id="toggle" title="Toggle light/dark">◐</button></header>
+<a class="dirbtn homebtn" href="./" onclick="goHome();return false" title="Back to this book's contents (chapters and the printed table of contents)">☰ Contents</a><button class="aboutbtn" onclick="document.getElementById('about').showModal()">About</button><dialog id="about" onclick="if(event.target===this)this.close()"><h3>Annual Report on Administration of Tyosen 1938-39</h3><div class="pub">Government-General of Tyosen, Keizyo, December 1939</div><p>Only tables are transcribed; the running text, photographs, maps, organisation charts, the contents and the list of illustrations are not. Table pages were found from contact sheets by Claude Haiku 5.5 and re-checked by Claude Sonnet 5.5; small tables set into the prose may still be missing. Each table page was read twice independently by Haiku from full-resolution crops, and a third time where the two readings differed; a figure stands where at least two readings agree and is otherwise marked unreadable. Tables continued over pages were joined where the column headings match. Printed totals are checked automatically and differences noted; they are kept as read. The one-sentence context notes are written by the model from the text on the same page. This volume was not checked by eye.</p><form method="dialog"><button>Close</button></form></dialog><button id="toggle" title="Toggle light/dark">◐</button></header>
 <div id="wrap">
 <nav id="side"><div class="ctl">
 <input id="q" type="search" placeholder="Search titles, headings, cells…">
@@ -272,6 +272,7 @@ $("#ch").addEventListener("input",()=>{renderList();const ch=$("#ch").value;
  if(ch)location.hash="ch="+encodeURIComponent(ch);else{history.replaceState(null,"",location.pathname);showHome()}});
 ["q","flag"].forEach(k=>$("#"+k).addEventListener("input",()=>{renderList();if(mode==="chapter")showChapter($("#ch").value)}));
 window.addEventListener("hashchange",route);
+function goHome(){if(location.hash)history.pushState(null,"",location.pathname+location.search);route();scrollTo(0,0);const m=$("#main");if(m)m.scrollTop=0}
 $("#toggle").onclick=()=>{const r=document.documentElement,d=r.dataset.theme==="dark"||(!r.dataset.theme&&matchMedia("(prefers-color-scheme: dark)").matches);r.dataset.theme=d?"light":"dark";anSync(true)};
 function anView(){return mode==="one"?cur||"":mode==="chapter"?"ch="+$("#ch").value:""}
 function anGo(v){history.replaceState(null,"",location.pathname+(v?"#"+v:""));route()}
