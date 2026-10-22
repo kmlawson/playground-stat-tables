@@ -372,7 +372,7 @@ BOOKS = [
      "item": "https://archive.org/details/annualreportonreformsandprogressinchosenkorea192425",
      "blank_marking": True},
     {"slug": "korea-1926-27", "dir": "Korea_Annual_Report_1926", "model": "Sonnet 5.5",
-     "title": "Annual Report on Reforms and Progress in Chosen 1926-27",
+     "title": "Annual Report on Administration of Chosen 1926-27",
      "publisher": "Government-General of Chosen, Keijo, 1928",
      "blurb": "The Government-General's English-language report for 1926-27: population by occupation, the annual accounts and budgets, taxes and monopolies (ginseng, tobacco, salt), banking, note issue and trade, fisheries, mining and companies, schools, opium and epidemics, railways, shipping, telephones and postal savings, criminal justice, provinces, councils, provincial and municipal finance, and the populations of principal cities and towns. Each table carries a one-sentence note on its context in the report.",
      "source": "LLM-transcribed from the Internet Archive scan.",
