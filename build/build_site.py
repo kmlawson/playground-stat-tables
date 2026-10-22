@@ -1223,6 +1223,20 @@ def page_urls(b, tables):
     return url
 
 
+def kanji_int(t):
+    """一〇〇 (digit by digit) or 百二十 (with unit characters) -> int."""
+    d = {c: i for i, c in enumerate("〇一二三四五六七八九")}; d["零"] = 0
+    if not re.search(r"[十百千]", t):
+        return int("".join(str(d[c]) for c in t))
+    n = cur = 0
+    for c in t:
+        if c in d:
+            cur = d[c]
+        else:
+            n += (cur or 1) * {"十": 10, "百": 100, "千": 1000}[c]; cur = 0
+    return n + cur
+
+
 def printed_toc(b, tables=()):
     """The book's printed table of contents, each entry linked to its scan page: [{"l": level, "t": title, "p": page, "u": url}].
     Read from <book>/_work/toc.json, or ../_toc/<slug>/toc.json for books finished before their contents were
@@ -1262,8 +1276,12 @@ def printed_toc(b, tables=()):
     byno = {}
     for i, o in enumerate(out):
         m = re.match(r"\s*(?:No\.\s*|Table\s+)?([國]?\d+[A-Za-z]?)[\s.、]", o["t"])
-        if m and o["l"] >= 2:
-            byno.setdefault(m.group(1), []).append(i)
+        k = m.group(1) if m else None
+        mk = re.match(r"\s*第([〇零一二三四五六七八九十百千]+)表", o["t"])  # 第一〇〇表 / 第百二十表
+        if mk:
+            k = str(kanji_int(mk.group(1)))
+        if k and o["l"] >= 2:
+            byno.setdefault(k, []).append(i)
     for t in tables:
         im = (t.get("images") or [t.get("image")])[0]
         k = by_page.key(im) if im else None
@@ -1541,7 +1559,7 @@ function ptLike(a,b){const x=ptNorm(a),y=ptNorm(b);if(!x||!y||x.includes(y)||y.i
  // Chinese/Japanese: share half the characters; other scripts: share half the words (3+ letters)
  const cjk=CJK.test(x+y),tok=t=>cjk?[...new Set(ptNorm(t))]:[...new Set(String(t).normalize("NFKC").toLowerCase().match(/[a-z\u00c0-\u024f]{3,}/g)||[])];
  const A=tok(a),B=new Set(tok(b));if(!A.length||!B.size)return false;return A.filter(c=>B.has(c)).length/Math.min(A.length,B.size)>=0.5}
-function ptNorm(t){return String(t).normalize("NFKC").replace(/^\s*(?:No\.\s*|Table\s+)?[國]?\d+[A-Za-z]?[\s.、:]*/i,"").replace(/[\s、，,.．・:：;；()（）\[\]［］「」『』〔〕\-—–]/g,"").toLowerCase()}
+function ptNorm(t){return String(t).normalize("NFKC").replace(/^\s*第[〇零一二三四五六七八九十百千]+表\s*/,"").replace(/^\s*(?:No\.\s*|Table\s+)?[國]?\d+[A-Za-z]?[\s.、:]*/i,"").replace(/[\s、，,.．・:：;；()（）\[\]［］「」『』〔〕\-—–]/g,"").toLowerCase()}
 function ptocTables(on){ptkOn=on;document.querySelectorAll(".ptoc ul").forEach(u=>u.classList.toggle("showt",on));try{localStorage.setItem("ptocTables",on?"1":"0")}catch(e){}}
 // link to the whole original book (Internet Archive, NDL, …) shown at the top of the contents
 const origLink=()=>ORIG?`<a class="origbtn" href="${esc(ORIG.u)}" target="_blank" rel="noopener">Read the full original book on ${esc(ORIG.l)} ↗</a>`:"";
