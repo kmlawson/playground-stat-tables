@@ -6,6 +6,7 @@ For each book in BOOKS, reads <book dir>/_work/tables/*.json and writes
 as "in progress" on the landing page. Scan links point to the online scan where one exists.
 """
 import json, glob, os, re, html
+from pathlib import Path
 
 SCRIPTS = os.path.dirname(os.path.abspath(__file__))  # build/: scripts, leaf maps, docs (not deployed)
 HERE = os.path.dirname(SCRIPTS)  # site root: everything here except build/, CLAUDE.md and .git is deployed
@@ -1060,6 +1061,124 @@ def qstat_html(tables, cls="qstat"):
             f'Tables with more than 20% such cells: <b>{heavy:,}</b> of {nt:,} ({pc(heavy, nt)})</div>')
 
 
+# Topic tags (build/topics/<region>.json: {"slug:id": [[topic, subtopic], …]}). Tagged tables get chart views and
+# are listed on the topic pages (user, 2026-10-22: Korea first; charts only for the topic tables for now).
+TOPIC_TAGS = {}
+for _f in sorted((Path(__file__).parent / "topics").glob("*.json")):
+    if not _f.name.startswith("tags_"):
+        TOPIC_TAGS.update(json.loads(_f.read_text()))
+CHART_IDS = {}
+for _k in TOPIC_TAGS:
+    _s, _id = _k.split(":", 1)
+    CHART_IDS.setdefault(_s, []).append(_id)
+
+
+# ---- Topic pages (Korea first; user, 2026-10-22) ---------------------------------------------------------------
+TOPICS = [("population", "Population"), ("education", "Education"), ("religion", "Religion"), ("crime", "Crime and justice")]
+SUBTOPICS = {
+    "population": ["totals and density", "by nationality", "by province or district", "households", "births, deaths and marriages",
+                   "migration and foreign residents", "occupations", "age and sex"],
+    "education": ["schools and pupils, overview", "elementary and common schools", "secondary and higher schools", "vocational and normal schools",
+                  "private schools and sŏdang", "teachers", "finance", "libraries, students abroad and other"],
+    "religion": ["overview", "Shinto and shrines", "Buddhism", "Christianity and missions", "other religions and religious bodies"],
+    "crime": ["offences and arrests", "prosecutions and courts", "sentences and convictions", "prisons and prisoners", "police",
+              "summary punishments", "thought and public-order offences", "juvenile"],
+}
+KOREA_SERIES = [("ar", "Annual Report (English)", r"^korea-\d{4}-\d{2}$"), ("jj", "朝鮮事情", r"^korea-\d{4}$"),
+                ("nk", "朝鮮年鑑", r"^korea-nenkan-"), ("tk", "統計年報", r"^korea-tokanfu-")]
+
+
+def build_topics(pages):
+    """topics/korea-<topic>.html: every tagged Korea table for a topic, as printed, linked into its book."""
+    os.makedirs(os.path.join(HERE, "topics"), exist_ok=True)
+    by_slug = {b["slug"]: (b, clean) for b, clean, n, c in pages}
+    vols = {}
+    for code, _, rx in KOREA_SERIES:
+        for slug in by_slug:
+            if re.match(rx, slug) and slug in CHART_IDS:
+                b = by_slug[slug][0]
+                vols[slug] = {"s": slug, "ser": code, "ed": edition(b), "y": years_of(b)[0] or 0, "title": b["title"]}
+    order = sorted(vols, key=lambda s: (vols[s]["y"], s))
+    for key, name in TOPICS:
+        items = []
+        for slug in order:
+            b, clean = by_slug[slug]
+            for t in clean:
+                tags = [sub for top, sub in TOPIC_TAGS.get(f"{slug}:{t['id']}", []) if top == key]
+                if not tags:
+                    continue
+                n_q = sum(1 for p in t.get("parts", []) for r in p["rows"] for c in r if c == "[?]")
+                label = (f"Table {t['table_no']}. " if t.get("table_no") else "") + (t.get("title") or "")
+                items.append({"s": slug, "id": t["id"], "t": label, "e": (t.get("en") or {}).get("t", ""), "c": t.get("chapter") or "",
+                              "pp": ", ".join(t.get("printed_pages") or []), "sub": [x for x in SUBTOPICS[key] if x in tags], "q": n_q})
+        nav = " · ".join(f'<b>{n}</b>' if k == key else f'<a href="korea-{k}.html">{n}</a>' for k, n in TOPICS)
+        doc = (TOPIC_PAGE.replace("__TOPIC__", name).replace("__NAV__", nav)
+               .replace("__DATA__", json.dumps({"items": items, "vols": [vols[s] for s in order], "subs": SUBTOPICS[key],
+                                                "series": [[c, n] for c, n, _ in KOREA_SERIES]}, ensure_ascii=False).replace("</", "<\\/"))
+               .replace("__N__", str(len(items))).replace("__NV__", str(len({i["s"] for i in items}))))
+        with open(os.path.join(HERE, "topics", f"korea-{key}.html"), "w", encoding="utf-8") as fh:
+            fh.write(doc)
+        print(f"topics/korea-{key}.html: {len(items)} tables")
+
+
+TOPIC_PAGE = r"""<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Korea: __TOPIC__ tables</title>
+<style>
+:root{--bg:#f4f5f3;--panel:#ffffff;--ink:#1b2420;--muted:#5d6a62;--line:#d8ded9;--accent:#1f4a2c;--accent-ink:#ffffff;--hi:#e2ece4;--warn:#8a5a00}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#111814;--panel:#17211b;--ink:#e4ebe6;--muted:#9aa89f;--line:#2c3a31;--accent:#8cc49e;--accent-ink:#0f1a13;--hi:#1f3527;--warn:#e0a54a}}
+:root[data-theme="dark"]{--bg:#111814;--panel:#17211b;--ink:#e4ebe6;--muted:#9aa89f;--line:#2c3a31;--accent:#8cc49e;--accent-ink:#0f1a13;--hi:#1f3527;--warn:#e0a54a}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 Georgia,"Times New Roman","Hiragino Mincho ProN","Yu Mincho","Noto Serif CJK JP","Noto Serif JP",serif}
+.band{background:var(--accent);color:var(--accent-ink)}.band>div{max-width:1040px;margin:0 auto;padding:22px 16px 20px}.band a{color:var(--accent-ink)}.band h1{font-weight:normal;font-size:28px;margin:4px 0 6px}.crumb{font-size:14px;opacity:.9}.tnav{font-size:15px}
+main{max-width:1040px;margin:0 auto;padding:20px 16px 60px}.lede{color:var(--muted);max-width:760px;font-size:15px}
+.ctl{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:16px 0 10px}input,select,button{font:inherit;font-size:14px;padding:6px 8px;border:1px solid var(--line);background:var(--panel);color:var(--ink);border-radius:4px}#q{flex:1 1 220px;min-width:0}
+.ser{display:flex;flex-wrap:wrap;gap:4px 12px;font-size:14px}.ser label{white-space:nowrap}.sw{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:4px;vertical-align:0}
+.cov{overflow-x:auto;border:1px solid var(--line);background:var(--panel);margin:14px 0 6px}.cov table{border-collapse:collapse;font-size:12px}.cov th,.cov td{border-bottom:1px solid var(--line);padding:3px 4px;text-align:center;white-space:nowrap}.cov th.sub{text-align:left;font-weight:normal;position:sticky;left:0;background:var(--panel);padding-right:10px;max-width:200px;white-space:normal;min-width:130px}
+.cov thead th{font-weight:normal;color:var(--muted);vertical-align:bottom;writing-mode:vertical-rl;transform:rotate(180deg);height:62px;padding:4px 2px}.cov td.c{cursor:pointer;min-width:20px}.cov td.c b{display:inline-block;min-width:17px;padding:0 3px;border-radius:3px;color:#fff;font-weight:normal}.cov td.c.sel b{outline:2px solid var(--ink)}.cov td.z{color:var(--line)}
+.covn{font-size:12.5px;color:var(--muted);margin:0 0 16px}
+h2{font-size:19px;font-weight:normal;margin:26px 0 6px;border-bottom:1px solid var(--line);padding-bottom:4px}h2 small{color:var(--muted);font-size:13px}
+.it{display:grid;grid-template-columns:118px minmax(0,1fr);gap:2px 14px;padding:8px 2px;border-bottom:1px solid var(--line)}.it .v{font-size:13px;color:var(--muted)}.it .v b{display:block;color:var(--ink);font-weight:normal;font-size:14px}
+.it a.tt{color:var(--ink);text-decoration:none;font-size:15.5px}.it a.tt:hover{text-decoration:underline}.it .en{font-size:13.5px;color:var(--muted)}.it .meta{font-size:12.5px;color:var(--muted)}.it .q{color:var(--warn)}
+.empty{color:var(--muted);font-style:italic;padding:12px 0}
+@media (max-width:600px){.it{grid-template-columns:minmax(0,1fr)}.it .v b{display:inline;margin-right:6px}.band h1{font-size:23px}}
+</style></head><body>
+<div class="band"><div><div class="crumb"><a href="../index.html#korea">← All books</a> · Korea · topics</div><h1>Korea: __TOPIC__</h1><div class="tnav">__NAV__</div></div></div>
+<main>
+<p class="lede">__N__ tables from __NV__ Korea volumes on this site, each as it was printed — with the book's own categories, units, years and gaps — and each opening in its book, where it can be read as a table or a chart. The tables were sorted into these topics by a language model reading their titles and headings, so some may be missing or misplaced; the categories are those of the colonial administration that compiled them, and they change from one volume to the next.</p>
+<div class="ctl"><input id="q" type="search" placeholder="Filter titles, translations, chapters…" aria-label="Filter"><select id="sub" aria-label="Subtopic"><option value="">All subtopics</option></select><select id="ord" aria-label="Arrange"><option value="sub">Grouped by subtopic</option><option value="vol">Grouped by volume</option></select></div>
+<div class="ser" id="ser"></div>
+<div class="cov" id="cov"></div><p class="covn">Tables per subtopic in each volume, in edition order; an empty cell means no table on it was found in that volume. Click a number to list those tables.</p>
+<div id="out"></div>
+</main>
+<script>
+const D=__DATA__;const COL={ar:"#4e79a7",jj:"#e15759",nk:"#59a14f",tk:"#b07aa1"};
+const $=s=>document.querySelector(s),esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const V={};D.vols.forEach(v=>V[v.s]=v);const SER=Object.fromEntries(D.series);let pick=null;
+D.subs.forEach(s=>{const o=document.createElement("option");o.value=s;o.textContent=s;$("#sub").appendChild(o)});
+$("#ser").innerHTML=D.series.map(([c,n])=>`<label><input type="checkbox" value="${c}" checked> <span class="sw" style="background:${COL[c]}"></span>${esc(n)}</label>`).join("");
+const on=()=>new Set([...document.querySelectorAll("#ser input:checked")].map(i=>i.value));
+function fold(s){return String(s).normalize("NFKC").toLowerCase()}
+function rows(){const q=fold($("#q").value.trim()),sub=$("#sub").value,ser=on();
+ return D.items.filter(i=>ser.has(V[i.s].ser)&&(!sub||i.sub.includes(sub))&&(!q||fold(i.t+" "+i.e+" "+i.c).includes(q))&&(!pick||(i.s===pick[0]&&i.sub.includes(pick[1]))))}
+function cov(){const ser=on(),vs=D.vols.filter(v=>ser.has(v.ser)&&D.items.some(i=>i.s===v.s));
+ let h=`<table><thead><tr><th class="sub"></th>${vs.map(v=>`<th title="${esc(v.title)}">${esc(v.ed)}</th>`).join("")}</tr></thead><tbody>`;
+ D.subs.forEach(s=>{h+=`<tr><th class="sub">${esc(s)}</th>`+vs.map(v=>{const n=D.items.filter(i=>i.s===v.s&&i.sub.includes(s)).length;
+  return n?`<td class="c${pick&&pick[0]===v.s&&pick[1]===s?" sel":""}" data-s="${v.s}" data-u="${esc(s)}" title="${esc(v.title)} — ${esc(s)}: ${n}"><b style="background:${COL[v.ser]}">${n}</b></td>`:`<td class="z">·</td>`}).join("")+"</tr>"});
+ $("#cov").innerHTML=h+"</tbody></table>"}
+function item(i){const v=V[i.s];return `<div class="it"><div class="v"><b>${esc(v.ed)}</b><span class="sw" style="background:${COL[v.ser]}"></span>${esc(SER[v.ser])}</div><div><a class="tt" href="../book/${i.s}/#${encodeURIComponent(i.id)}">${esc(i.t)}</a>${i.e&&i.e!==i.t?`<div class="en">${esc(i.e)}</div>`:""}<div class="meta">${esc(v.title)} · ${esc(i.c)}${i.pp?` · p. ${esc(i.pp)}`:""}${i.q?` · <span class="q">${i.q} unreadable cell${i.q>1?"s":""}</span>`:""}</div></div></div>`}
+function render(){cov();const R=rows();let h="";
+ if(pick)h+=`<p class="covn">Showing ${esc(V[pick[0]].title)} — ${esc(pick[1])}. <a href="#" id="clr">Show all</a></p>`;
+ if($("#ord").value==="sub"){D.subs.forEach(s=>{const L=R.filter(i=>i.sub.includes(s));if(L.length)h+=`<h2>${esc(s)} <small>${L.length}</small></h2>`+L.map(item).join("")})}
+ else{D.vols.forEach(v=>{const L=R.filter(i=>i.s===v.s);if(L.length)h+=`<h2>${esc(v.title)} <small>${L.length}</small></h2>`+L.map(item).join("")})}
+ $("#out").innerHTML=h||'<p class="empty">No tables match.</p>';const c=$("#clr");if(c)c.onclick=e=>{e.preventDefault();pick=null;render()}}
+document.addEventListener("input",e=>{if(e.target.closest(".ctl,#ser"))render()});
+$("#cov").addEventListener("click",e=>{const td=e.target.closest("td.c");if(!td)return;pick=pick&&pick[0]===td.dataset.s&&pick[1]===td.dataset.u?null:[td.dataset.s,td.dataset.u];render();$("#out").scrollIntoView({behavior:"smooth",block:"start"})});
+render();
+</script>
+</body></html>
+"""
+
+
 def main():
     os.makedirs(os.path.join(HERE, "data"), exist_ok=True)
     cards, pages = [], []
@@ -1104,6 +1223,8 @@ def main():
                    .replace("__ORIG__", json.dumps(orig_link(b), ensure_ascii=False))
                    .replace("__PTOC__", json.dumps(printed_toc(b, clean), ensure_ascii=False).replace("</", "<\\/"))
                    .replace("__MARKED__", "true" if b.get("blank_marking") else "false")
+                   .replace("__CHARTIDS__", json.dumps(CHART_IDS.get(b["slug"], [])))
+                   .replace("__CHARTJS__", '<script src="../../charts.js"></script>\n' if CHART_IDS.get(b["slug"]) else "")
                    .replace("__QSTAT__", json.dumps(b.get("_qstat", ""), ensure_ascii=False))
                    .replace("__XLSX__", f' · <a href="../../{dl(b["slug"], "tables.xlsx")}" style="color:inherit" download>Excel</a>' if dl(b["slug"], "tables.xlsx") else "")
                    .replace("__CELLS__", f"{c:,}").replace("__BOOK__", html.escape(b["title"]))
@@ -1117,6 +1238,7 @@ def main():
                 fh.write(doc)
     with open(os.path.join(HERE, "index.html"), "w", encoding="utf-8") as fh:
         fh.write(landing(cards))
+    build_topics(pages)
     books = [{"slug": b["slug"], "title": b["title"], "dir": bool(b.get("_dir_n")), "chron": bool(b.get("_chron_n")),
               "g": group_of(b), "y": years_of(b), "sc": b.get("scan")} for b, n, c, ch in cards if n]
     with open(os.path.join(HERE, "search.html"), "w", encoding="utf-8") as fh:
@@ -1332,7 +1454,8 @@ def landing(cards):
     body["manchuria"] = "\n".join(h for g, sl, h in sorted((x for x in items if x[0] == "manchuria"), key=lambda x: (year[x[1]], x[1])))  # by edition year
     body["south-seas"] = "\n".join(h for g, sl, h in sorted((x for x in items if x[0] == "south-seas"), key=lambda x: (year[x[1]], x[1])))  # by edition year
     body["other"] = "\n".join(h for _, h in other)
-    grids = "".join(f'<section class="grp" id="{g}"><h2 class="grph">{names[g]}</h2><div class="grid">{body[g]}</div></section>'
+    topics = {"korea": '<p class="tlinks">Korea tables by topic: ' + " · ".join(f'<a href="topics/korea-{k}.html">{n}</a>' for k, n in TOPICS) + "</p>"}
+    grids = "".join(f'<section class="grp" id="{g}"><h2 class="grph">{names[g]}</h2>{topics.get(g, "")}<div class="grid">{body[g]}</div></section>'
                     for g in ("japan", "china", "korea", "taiwan", "manchuria", "south-seas", "other") if body[g])
     return LANDING.replace("__CARDS__", grids)
 
@@ -1349,7 +1472,7 @@ LANDING = r"""<!DOCTYPE html>
 .band{background:var(--accent);color:var(--accent-ink)}.band>div{max-width:980px;margin:0 auto;padding:34px 16px 30px}.band h1{font-weight:normal;font-size:30px;margin:0 0 8px}.band .lede{color:var(--accent-ink);opacity:.9;margin:0}
 main{max-width:980px;margin:0 auto;padding:26px 16px 60px}
 .topnav{margin:18px 0 0;display:flex;gap:8px;flex-wrap:wrap;align-items:center}.jump{display:contents}.jump a{display:inline-block;border:1px solid var(--accent-ink);color:var(--accent-ink);padding:6px 16px;border-radius:5px;text-decoration:none;font-size:15px}.jump a:hover{background:var(--accent-ink);color:var(--accent)}
-.grp{scroll-margin-top:12px}.grp{border-top:2px solid var(--line);margin-top:34px;padding-top:6px}.grp:first-child{margin-top:4px}.grph{font-size:14px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);margin:18px 0 0;font-weight:bold}.grp .grid{margin-top:14px}
+.grp{scroll-margin-top:12px}.grp{border-top:2px solid var(--line);margin-top:34px;padding-top:6px}.grp:first-child{margin-top:4px}.grph{font-size:14px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);margin:18px 0 0;font-weight:bold}.grp .grid{margin-top:14px}.tlinks{margin:8px 0 0;font-size:15px}.tlinks a{color:var(--accent)}
 .searchbtn{display:inline-block;background:var(--accent-ink);color:var(--accent);font-weight:bold;padding:9px 16px;border-radius:5px;text-decoration:none;font-size:15px}
 .lede{color:var(--muted);max-width:720px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px;margin-top:28px}
 article{background:var(--panel);border:1px solid var(--line);border-top:3px solid var(--accent);padding:18px 18px 16px;display:flex;flex-direction:column}
@@ -1528,6 +1651,13 @@ mark{background:var(--hi);color:inherit}
 .anbtn{margin-left:auto;font:inherit;font-size:14px;background:transparent;color:var(--accent-ink);border:1px solid currentColor;border-radius:5px;padding:5px 12px;cursor:pointer;align-self:center}.anbtn[aria-pressed="true"]{background:var(--accent-ink);color:var(--accent)}.dirbtn+.anbtn,.aboutbtn+.anbtn,.anbtn+#toggle{margin-left:0}
 @media (max-width:640px){html body #__an_bar.an-right,html body #__an_bar.an-left{flex-direction:row;left:0;right:0;margin:0 auto;width:max-content;max-width:calc(100vw - 12px);transform:none;bottom:10px;gap:2px;padding:5px}html body #__an_bar .an-btn,html body #__an_colorbtn{width:min(36px,calc((100vw - 44px)/9.5));height:36px}html body #__an_bar .an-sep{width:1px;height:24px;margin:0 2px}html body #__an_bar #__an_colorpop{right:auto;left:50%;transform:translateX(-50%);bottom:52px;top:auto;width:max-content}body.notes-on{padding-bottom:70px}}
 dialog{max-width:min(560px,calc(100vw - 32px));border:1px solid var(--line);border-top:4px solid var(--accent);background:var(--panel);color:var(--ink);padding:18px 20px;border-radius:6px;font-size:14.5px}dialog::backdrop{background:rgba(0,0,0,.45)}dialog h3{margin:0 0 2px;font-weight:normal;font-size:19px}dialog .pub{color:var(--muted);font-size:13px}dialog form button{font:inherit;font-size:14px;background:var(--accent);color:var(--accent-ink);border:0;border-radius:5px;padding:6px 14px;cursor:pointer}
+.vsw{display:inline-flex;border:1px solid var(--line);border-radius:5px;overflow:hidden;margin:4px 0 2px;vertical-align:middle}.vsw button{border:0;border-radius:0;padding:4px 11px;font-size:13px;background:var(--panel);color:var(--muted)}.vsw button+button{border-left:1px solid var(--line)}.vsw button.on{background:var(--accent);color:var(--accent-ink)}
+body.vw-chart .tbl.hasch .tw{display:none}body.vw-table .tchart{display:none}
+.tchart{position:relative;border:1px solid var(--line);background:var(--panel);margin:8px 0 16px;padding:10px 12px}.tchart.tc-none{display:none}.tc-bar{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:6px}.tc-bar:empty{display:none}.tc-bar button,.tc-bar select{font-size:13px;padding:3px 9px}.tc-bar button.on{background:var(--hi);border-color:var(--accent);color:var(--ink)}
+.tc-leg{display:flex;flex-wrap:wrap;gap:4px 6px;margin-bottom:8px;max-height:10em;overflow:auto}.tc-chip{font-size:12.5px;padding:2px 9px;border-radius:12px;opacity:.5;display:inline-flex;align-items:center;gap:5px;max-width:100%;text-align:left}.tc-chip.on{opacity:1;border-color:var(--muted)}.tc-chip i,.tc-tip i,.tc-mt i{display:inline-block;width:10px;height:10px;border-radius:2px;flex:none}.tc-grp{font-size:12px;color:var(--muted);width:100%;margin-top:2px}.tc-all{font-size:12px;padding:2px 9px}
+.tc-svg{display:block;overflow:visible}.tc-ax{font-size:10.5px;fill:var(--muted)}.tc-lab{font-size:12px;fill:var(--ink)}.tc-tot{font-weight:600}.tc-gl{font-size:12px;font-weight:600;fill:var(--ink)}.tc-grid{stroke:var(--line);stroke-width:1}.tc-zero{stroke:var(--muted);stroke-width:1}.tc-guide{stroke:var(--muted);stroke-dasharray:3 3}.tc-q{font-size:12px;font-weight:700;fill:#c0392b}.tc-neq{font-size:14px;font-weight:700;fill:var(--warn)}.tc-totmark{stroke:var(--ink);stroke-width:2}
+.tc-tip{position:absolute;z-index:5;background:var(--panel);color:var(--ink);border:1px solid var(--line);box-shadow:0 2px 8px rgba(0,0,0,.2);padding:6px 9px;font-size:12.5px;max-width:min(360px,92%);pointer-events:none;line-height:1.45}.tc-tip div{display:flex;gap:5px;align-items:baseline}.tc-tip i{position:relative;top:1px}.tc-sum{margin-top:4px;color:var(--muted)}.tc-sum.warn{color:var(--warn)}
+.tc-note{font-size:12px;color:var(--muted);margin:8px 0 0}.tc-msg{font-size:13px;color:var(--muted)}.tc-multi{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,300px),1fr));gap:14px}.tc-mt{font-size:12.5px;display:flex;gap:6px;align-items:center;margin-bottom:2px}tr.tc-hl td{background:var(--hi)}
 @media (max-width:760px){#wrap,body.cmp #wrap{grid-template-columns:minmax(0,1fr);height:auto}#cmp{border-left:0;border-top:2px solid var(--accent);padding:14px 16px}#side,#main{min-width:0;max-width:100vw}#list a{overflow-wrap:anywhere}.tw{max-height:none}header{padding:12px 16px}header h1{font-size:18px}.dirbtn{margin-left:0}#side{border-right:0;border-bottom:1px solid var(--line)}#list{max-height:40vh}#main{padding:14px 16px}.chgrid{gap:8px}.chbtn{padding:11px 13px}.chbtn small{font-size:12px}}
 </style>
 </head>
@@ -1545,8 +1675,9 @@ dialog{max-width:min(560px,calc(100vw - 32px));border:1px solid var(--line);bord
 <main id="main"></main>
 <aside id="cmp" hidden></aside>
 </div>
-<script>
+__CHARTJS__<script>
 const T=__DATA__;
+const CHARTIDS=new Set(__CHARTIDS__);let VW="both";try{VW=localStorage.getItem("tview")||"both"}catch(e){}document.body.classList.add("vw-"+VW);
 const DIRCARDS=__DIRCARDS__;const PY=__PINYIN__;let ALTR=false;try{ALTR=localStorage.getItem("altrom")==="1"}catch(e){}
 const pyd=a=>{if(ALTR||!a)return a;const w=a.split(" ")[0];return PY[w]?PY[w]+a.slice(w.length):a};
 const pyl=l=>ALTR?l:pyd(l).replace(/\(([^() ]+)\)$/,(m,w)=>PY[w]?`(${PY[w]})`:m);
@@ -1589,14 +1720,19 @@ function renderList(){const q=fold($("#q").value.trim().toLowerCase()),ch=$("#ch
 function hl(s,q){s=esc(s);if(!q)return s;q.split(/\s+/).filter(Boolean).forEach(w=>{s=s.replace(new RegExp("("+foldRe(w)+")","ig"),"<mark>$1</mark>")});return s}
 function csv(t){const L=[];(t.parts||[]).forEach(p=>{if(p.label)L.push([p.label]);L.push(p.columns);p.rows.forEach(r=>L.push(r));L.push([])});
  return L.map(r=>r.map(c=>/[",\n]/.test(c??"")?'"'+String(c).replace(/"/g,'""')+'"':(c??"")).join(",")).join("\n")}
-function tableHTML(t,q,other){let h=`<section class="tbl" id="t-${t.id}"><h2><a href="#${t.id}">${hl(label(t),q)}</a></h2>${t.en?`<p class="en"><b>${hl(t.en.t,q)}</b>: ${hl(t.en.d,q)} <span class="enn">(Note: LLM translation)</span></p>`:""}<div class="sub">${esc(t.chapter||"")} · printed page${(t.printed_pages||[]).length>1?"s":""} ${esc((t.printed_pages||[]).join(", "))}${HIDEIMG?"":` · ${/^p\d/.test(t.image||"")?"scan leaf":"photo"} ${esc((t.images||[t.image]).join(", "))}`}</div>`;
+function hasChart(t){return CHARTIDS.has(t.id)&&window.TableCharts&&TableCharts.chartable(t)}
+function vsw(){return `<div class="vsw" role="group" aria-label="Show table, chart or both">${[["table","Table"],["chart","Chart"],["both","Both"]].map(([v,l])=>`<button type="button" data-vw="${v}" class="${VW===v?"on":""}">${l}</button>`).join("")}</div>`}
+function setVW(v){VW=v;try{localStorage.setItem("tview",v)}catch(e){}document.body.classList.remove("vw-table","vw-chart","vw-both");document.body.classList.add("vw-"+v);document.querySelectorAll(".vsw button").forEach(b=>b.classList.toggle("on",b.dataset.vw===v));chartsGo()}
+function chartsGo(){if(window.TableCharts)TableCharts.mountAll(document.getElementById("main"),id=>T.find(x=>x.id===id),{marked:MARKED})}
+document.addEventListener("click",e=>{const b=e.target.closest(".vsw button");if(b)setVW(b.dataset.vw)});
+function tableHTML(t,q,other){const ch=!other&&hasChart(t);let h=`<section class="tbl${ch?" hasch":""}" id="t-${t.id}"><h2><a href="#${t.id}">${hl(label(t),q)}</a></h2>${t.en?`<p class="en"><b>${hl(t.en.t,q)}</b>: ${hl(t.en.d,q)} <span class="enn">(Note: LLM translation)</span></p>`:""}<div class="sub">${esc(t.chapter||"")} · printed page${(t.printed_pages||[]).length>1?"s":""} ${esc((t.printed_pages||[]).join(", "))}${HIDEIMG?"":` · ${/^p\d/.test(t.image||"")?"scan leaf":"photo"} ${esc((t.images||[t.image]).join(", "))}`}</div>`+(ch?vsw():"");
  if(!other)h+=xlTable(t);
  if(t.caption_extra)h+=CJK.test(t.caption_extra)?`<div class="sub">${hl(t.caption_extra,q)}</div>`:`<div class="sub"><i>${hl(t.caption_extra,q)}</i></div>`;
  if(t.context)h+=`<p class="ctx"><b>Context.</b> ${hl(t.context,q)}</p>`;
- (t.parts||[]).forEach(p=>{if(p.label)h+=`<div class="part">${hl(p.label,q)}</div>`;
-  h+=`<div class="tw"><table><thead><tr>${p.columns.map((c,j)=>`<th class="sortable" data-col="${j}" title="Click to sort">${hl(c,q)}</th>`).join("")}</tr></thead><tbody>`;
+ (t.parts||[]).forEach((p,pi)=>{if(p.label)h+=`<div class="part">${hl(p.label,q)}</div>`;
+  h+=`<div class="tw" data-p="${pi}"><table><thead><tr>${p.columns.map((c,j)=>`<th class="sortable" data-col="${j}" title="Click to sort">${hl(c,q)}</th>`).join("")}</tr></thead><tbody>`;
   p.rows.forEach((r,ri)=>{const sec=r.length>1&&r.slice(1).every(c=>c==="");h+=`<tr data-i="${ri}"${sec?(CJK.test(r[0])?' class="sec cjk"':' class="sec"'):""}>`+r.map((c,j)=>c==="[?]"?`<td class="illeg" title="Unreadable in the scan" aria-label="unreadable"></td>`:`<td class="${j&&isNum(c)?"num":""}${j&&c===""&&!sec&&!MARKED?" blank":""}"${j&&c===""&&!sec&&MARKED?' title="Blank in the original"':""}>${hl(c,q)}</td>`).join("")+"</tr>"});
-  h+="</tbody></table></div>"});
+  h+="</tbody></table></div>";if(ch)h+=`<div class="tchart" data-id="${esc(t.id)}" data-p="${pi}"></div>`});
  if((t.footnotes||[]).length){const fn=t.footnotes.map(n=>hl(n,q)),hit=fn.some(x=>x.includes("<mark>"));h+=`<details class="notes"${hit?" open":""}><summary>Printed notes (${fn.length})</summary><ul>${fn.map(x=>`<li>${x}</li>`).join("")}</ul></details>`;}
  if((t.transcriber_notes||[]).length)h+=`<details class="notes"><summary${t._warn?' class="warn"':""}>Transcriber's notes (${t.transcriber_notes.length})${t._warn?" — includes unreadable or doubtful cells":""}</summary><ul>${t.transcriber_notes.map(n=>`<li class="${warnRe.test(n)?"warn":""}">${esc(n)}</li>`).join("")}</ul></details>`;
  h+=`<div class="row"><button data-act="dl" data-id="${t.id}">Download CSV</button><button data-act="cp" data-id="${t.id}">Copy as TSV</button></div>`;
@@ -1651,11 +1787,11 @@ function fitGrid(){const g=$(".chgrid");if(!g)return;g.style.removeProperty("--c
 let fitRaf=0;addEventListener("resize",()=>{if(mode!=="home"||DIRCARDS)return;cancelAnimationFrame(fitRaf);fitRaf=requestAnimationFrame(fitGrid)});
 function showOne(id){const t=T.find(x=>x.id===id)||T[0];if(!t){$("#main").innerHTML="<p>No tables yet.</p>";return}
  mode="one";cur=t.id;$("#main").innerHTML=tableHTML(t,$("#q").value.trim())+LLMWARN;$("#main").scrollTop=0;
- document.querySelectorAll("#main table").forEach(initSort);mark();if(cmpS)showCmp();anSync()}
+ document.querySelectorAll("#main table").forEach(initSort);chartsGo();mark();if(cmpS)showCmp();anSync()}
 function showChapter(ch){const q=$("#q").value.trim();const ts=filtered();mode="chapter";cur=null;closeCmp();
  let h=`<div class="chhead"><a href="#">All chapters</a> · Chapter</div><h2 style="margin-bottom:6px">${esc(ch)}${chE(ch,"che2")}</h2><div class="chsum">${ts.length} table${ts.length===1?"":"s"}${$("#flag").checked||q?" matching the current filters":""}</div>`+xlChapter(ch);
  h+=(ts.map(t=>tableHTML(t,q)).join("")||"<p>No tables match.</p>")+LLMWARN;
- $("#main").innerHTML=h;$("#main").scrollTop=0;document.querySelectorAll("#main table").forEach(initSort);
+ $("#main").innerHTML=h;$("#main").scrollTop=0;document.querySelectorAll("#main table").forEach(initSort);chartsGo();
  if(enterAt&&ts.length){const t=enterAt==="first"?ts[0]:ts[ts.length-1];cur=t.id;const el=document.getElementById("t-"+t.id);if(el&&enterAt==="last")el.scrollIntoView({block:"start"});
   const a=document.querySelector(`#list a[href="#${CSS.escape(t.id)}"]`);if(a)a.scrollIntoView({block:"nearest"})}
  enterAt=null;mark();anSync()}

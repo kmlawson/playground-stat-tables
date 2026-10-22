@@ -85,7 +85,13 @@ This file is the authoritative process overview (updated 2026-10-07). `build/exa
    starts nearest before them in the scan). build_site does this automatically from `toc.json` — so give every new
    book a contents transcription with leaves. Table links are a different shade from the scan links; **never italicise
    Asian (CJK) text** anywhere on the site (user, 2026-10-22).
-10. **Publish** (below). Note queued books in `../queue.md`; record per-book state in `_work/STATUS.md`.
+10. **Charts and topic pages** (user, 2026-10-22; Korea only so far): `build/topics/korea.json` tags tables
+   (`{"slug:id": [[topic, subtopic], …]}`, topics population / education / religion / crime, fixed subtopic lists in
+   `build_site.SUBTOPICS`; brief in `build/topics/TOPIC_TASK.md`, Sonnet agents working from title listings only).
+   Tagged tables get a Table / Chart / Both switch (`charts.js`, our own code, no library); `topics/korea-<topic>.html`
+   lists them with a coverage grid. Charts draw only printed figures: [?], blanks, dashes and ditto marks are gaps, never
+   filled; labels and year order as printed; printed totals are marked on stacked bars and parts that do not add up show ≠.
+11. **Publish** (below). Note queued books in `../queue.md`; record per-book state in `_work/STATUS.md`.
 
 ## Site and BOOKS entry
 
