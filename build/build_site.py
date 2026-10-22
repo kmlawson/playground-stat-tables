@@ -1189,7 +1189,10 @@ def page_urls(b, tables):
         main = max(range(len(runs)), key=lambda i: len(runs[i]))
         part = lambda r: (re.match(r"p(\d)-", r[0][1]) or [None, None])[1]
         # a book scanned as several files keeps the earlier files' runs (they are the main text, not front matter)
-        runs = [r for i, r in enumerate(runs) if i >= main or (part(r) is not None and part(r) != part(runs[main]))]
+        # ... or all of them, when no two runs share a printed page: one numbering, scanned out of order
+        sp = sorted((min(r)[0], max(r)[0]) for r in runs)
+        one_seq = all(a[1] < b[0] for a, b in zip(sp, sp[1:]))
+        runs = [r for i, r in enumerate(runs) if i >= main or one_seq or (part(r) is not None and part(r) != part(runs[main]))]
 
     def url(page, run=0):
         if not b.get("scan") or run >= len(runs):
