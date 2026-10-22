@@ -85,10 +85,10 @@ This file is the authoritative process overview (updated 2026-10-07). `build/exa
    starts nearest before them in the scan). build_site does this automatically from `toc.json` — so give every new
    book a contents transcription with leaves. Table links are a different shade from the scan links; **never italicise
    Asian (CJK) text** anywhere on the site (user, 2026-10-22).
-10. **Charts and topic pages** (user, 2026-10-22; Korea and Taiwan): `build/topics/<region>.json` tags tables
+10. **Charts and topic pages** (user, 2026-10-22; Korea, Taiwan, China, Japan): `build/topics/<region>.json` tags tables
    (`{"slug:id": [[topic, subtopic], …]}`, topics population / education / religion / crime, fixed subtopic lists in
    `build_site.SUBTOPICS`; brief in `build/topics/TOPIC_TASK.md`, Sonnet agents working from title listings only).
-   Every Korea and Taiwan table gets a Table / Chart / Both switch (`charts.js`, our own code, no library; `CHART_ALL` in
+   Every Korea, Taiwan, China and Japan table gets a Table / Chart / Both switch (`charts.js`, our own code, no library; `CHART_ALL` in
    build_site), elsewhere only tagged tables; `topics/<region>-<topic>.html` lists the tagged ones with a coverage grid.
    A table printing several measures gets one chart per measure (tabs); earlier-year rows under a list form their own chart. Charts draw only printed figures: [?], blanks, dashes and ditto marks are gaps, never
    filled; labels and year order as printed; printed totals are marked on stacked bars and parts that do not add up show ≠.
