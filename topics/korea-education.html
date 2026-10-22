@@ -22,7 +22,7 @@ h2{font-size:19px;font-weight:normal;margin:26px 0 6px;border-bottom:1px solid v
 <div class="band"><div><div class="crumb"><a href="../index.html#korea">← All books</a> · Korea · topics</div><h1>Korea: Education</h1><div class="tnav"><a href="korea-population.html">Population</a> · <b>Education</b> · <a href="korea-religion.html">Religion</a> · <a href="korea-crime.html">Crime and justice</a></div></div></div>
 <main>
 <p class="lede">286 tables from 33 Korea volumes on this site, each as it was printed — with the book's own categories, units, years and gaps — and each opening in its book, where it can be read as a table or a chart. The tables were sorted into these topics by a language model reading their titles and headings, so some may be missing or misplaced; the categories are those of the colonial administration that compiled them, and they change from one volume to the next.</p>
-<div class="ctl"><input id="q" type="search" placeholder="Filter titles, translations, chapters…" aria-label="Filter"><select id="sub" aria-label="Subtopic"><option value="">All subtopics</option></select><select id="ord" aria-label="Arrange"><option value="sub">Grouped by subtopic</option><option value="vol">Grouped by volume</option></select></div>
+<div class="ctl"><input id="q" type="search" placeholder="Filter titles, translations, chapters…" aria-label="Filter"><select id="sub" aria-label="Subtopic"><option value="">All subtopics</option></select><select id="ord" aria-label="Arrange"><option value="sub">Grouped by subtopic</option><option value="year">Grouped by year</option><option value="vol">Grouped by volume</option></select></div>
 <div class="ser" id="ser"></div>
 <div class="cov" id="cov"></div><p class="covn">Tables per subtopic in each volume, in edition order; an empty cell means no table on it was found in that volume. Click a number to list those tables.</p>
 <div id="out"></div>
@@ -46,6 +46,7 @@ function item(i){const v=V[i.s];return `<div class="it"><div class="v"><b>${esc(
 function render(){cov();const R=rows();let h="";
  if(pick)h+=`<p class="covn">Showing ${esc(V[pick[0]].title)} — ${esc(pick[1])}. <a href="#" id="clr">Show all</a></p>`;
  if($("#ord").value==="sub"){D.subs.forEach(s=>{const L=R.filter(i=>i.sub.includes(s));if(L.length)h+=`<h2>${esc(s)} <small>${L.length}</small></h2>`+L.map(item).join("")})}
+ else if($("#ord").value==="year"){[...new Set(D.vols.map(v=>v.y))].forEach(y=>{const L=R.filter(i=>V[i.s].y===y);if(L.length)h+=`<h2>${y||"Undated"} <small>${L.length} · edition year</small></h2>`+L.map(item).join("")})}
  else{D.vols.forEach(v=>{const L=R.filter(i=>i.s===v.s);if(L.length)h+=`<h2>${esc(v.title)} <small>${L.length}</small></h2>`+L.map(item).join("")})}
  $("#out").innerHTML=h||'<p class="empty">No tables match.</p>';const c=$("#clr");if(c)c.onclick=e=>{e.preventDefault();pick=null;render()}}
 document.addEventListener("input",e=>{if(e.target.closest(".ctl,#ser"))render()});
