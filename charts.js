@@ -160,7 +160,10 @@
       }
     }
     m.C.forEach(c => {
-      if (RATIO.test(c.label)) K[c.j] = "~" + (repeated && sg(c).length >= 2 ? leafOf(c) : c.label);
+      if (RATIO.test(c.label)) {   // a ratio measure keeps its categories together: key by the heading level that names the ratio
+        const g = sg(c), at = g.findIndex(x => RATIO.test(x));
+        K[c.j] = "~" + (g.length < 2 ? c.label : at >= 0 ? g[at] : c.label);
+      }
       else if (sg(c).length < 2) K[c.j] = "";
       else K[c.j] = mode === "top" ? sg(c)[0] : mode === "leaf" ? leafOf(c) : "";
     });
@@ -262,7 +265,7 @@
   }
 
   // Ratios, averages and densities are never stacked.
-  const RATIO = /density|\bper\b|per cent|percent|%|average|mean|ratio|\brate\b|index|increase|decrease|period of|比|率|平均|每|當り|当り|指數|百分|千分|割合|密度|增減|増減/i;
+  const RATIO = /density|\bper\b|per cent|percent|%|average|mean|ratio|\brate\b|index|increase|decrease|period of|比|率|平均|每|當り|当り|指數|百分|千分|割合|密度|增減|増減|ニ付|に付|ニ對スル|に對する/i;
   // Stack only where the printed parts add up to the printed total in most rows that can be checked — the rows
   // where they do not are then marked ≠, which is a printed discrepancy rather than a wrong choice of columns.
   function addsUp(S, parts, tot) {

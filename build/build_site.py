@@ -1067,6 +1067,14 @@ TOPIC_TAGS = {}
 for _f in sorted((Path(__file__).parent / "topics").glob("*.json")):
     if re.fullmatch(r"[a-z]+\.json", _f.name):   # korea.json, taiwan.json (not the agents' tags_*.json)
         TOPIC_TAGS.update(json.loads(_f.read_text()))
+# Every table of these regions gets a chart view (user, 2026-10-22, after the topic tables); elsewhere only tagged tables.
+CHART_ALL = ("korea-", "taiwan-")
+
+
+def chart_ids(b, tables):
+    return [t["id"] for t in tables] if b["slug"].startswith(CHART_ALL) else CHART_IDS.get(b["slug"], [])
+
+
 CHART_IDS = {}
 for _k in TOPIC_TAGS:
     _s, _id = _k.split(":", 1)
@@ -1229,8 +1237,8 @@ def main():
                    .replace("__ORIG__", json.dumps(orig_link(b), ensure_ascii=False))
                    .replace("__PTOC__", json.dumps(printed_toc(b, clean), ensure_ascii=False).replace("</", "<\\/"))
                    .replace("__MARKED__", "true" if b.get("blank_marking") else "false")
-                   .replace("__CHARTIDS__", json.dumps(CHART_IDS.get(b["slug"], [])))
-                   .replace("__CHARTJS__", '<script src="../../charts.js" charset="utf-8"></script>\n' if CHART_IDS.get(b["slug"]) else "")
+                   .replace("__CHARTIDS__", json.dumps(chart_ids(b, clean)))
+                   .replace("__CHARTJS__", '<script src="../../charts.js" charset="utf-8"></script>\n' if chart_ids(b, clean) else "")
                    .replace("__QSTAT__", json.dumps(b.get("_qstat", ""), ensure_ascii=False))
                    .replace("__XLSX__", f' · <a href="../../{dl(b["slug"], "tables.xlsx")}" style="color:inherit" download>Excel</a>' if dl(b["slug"], "tables.xlsx") else "")
                    .replace("__CELLS__", f"{c:,}").replace("__BOOK__", html.escape(b["title"]))
