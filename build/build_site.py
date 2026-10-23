@@ -1107,6 +1107,8 @@ def build_topics(pages):
     """topics/<region>-<topic>.html: every tagged table of a region for a topic, as printed, linked into its book."""
     os.makedirs(os.path.join(HERE, "topics"), exist_ok=True)
     by_slug = {b["slug"]: (b, clean) for b, clean, n, c in pages}
+    counts = {}   # (region, topic) -> (tables, volumes)
+    have = [r for r, (rn, sr) in TOPIC_REGIONS.items() if any(re.match(rx, k.split(":")[0]) for _, _, rx in sr for k in TOPIC_TAGS)]
     for region, (rname, series) in TOPIC_REGIONS.items():
         vols = {}
         for code, _, rx in series:
@@ -1129,7 +1131,10 @@ def build_topics(pages):
                     label = (f"Table {t['table_no']}. " if t.get("table_no") else "") + (t.get("title") or "")
                     items.append({"s": slug, "id": t["id"], "t": label, "e": (t.get("en") or {}).get("t", ""), "c": t.get("chapter") or "",
                                   "pp": ", ".join(t.get("printed_pages") or []), "sub": [x for x in SUBTOPICS[key] if x in tags], "q": n_q})
-            nav = " · ".join(f'<b>{n}</b>' if k == key else f'<a href="{region}-{k}.html">{n}</a>' for k, n in TOPICS)
+            nav = (" · ".join(f'<b>{n}</b>' if k == key else f'<a href="{region}-{k}.html">{n}</a>' for k, n in TOPICS)
+                   + '<br><span class="also">' + name + " in: " + " · ".join(f'<b>{TOPIC_REGIONS[r][0]}</b>' if r == region else f'<a href="{r}-{key}.html">{TOPIC_REGIONS[r][0]}</a>' for r in have)
+                   + ' · <a href="index.html">All topics</a></span>')
+            counts[(region, key)] = (len(items), len({i["s"] for i in items}))
             doc = (TOPIC_PAGE.replace("__TOPIC__", name).replace("__NAV__", nav).replace("__REGION__", rname).replace("__RKEY__", region)
                    .replace("__WHO__", "the colonial administration" if region in ("korea", "taiwan") else "the officials, editors and publishers")
                    .replace("__DATA__", json.dumps({"items": items, "vols": [vols[s] for s in order], "subs": SUBTOPICS[key],
@@ -1138,6 +1143,35 @@ def build_topics(pages):
             with open(os.path.join(HERE, "topics", f"{region}-{key}.html"), "w", encoding="utf-8") as fh:
                 fh.write(doc)
             print(f"topics/{region}-{key}.html: {len(items)} tables")
+    rows = "".join(f'<tr><th>{n}</th>' + "".join(f'<td><a href="{r}-{k}.html"><b>{TOPIC_REGIONS[r][0]}</b><span>{counts[(r, k)][0]:,} tables · {counts[(r, k)][1]} volumes</span></a></td>' if (r, k) in counts else "<td></td>" for r in have) + "</tr>" for k, n in TOPICS)
+    with open(os.path.join(HERE, "topics", "index.html"), "w", encoding="utf-8") as fh:
+        fh.write(TOPIC_INDEX.replace("__ROWS__", rows).replace("__HEAD__", "".join(f"<th>{TOPIC_REGIONS[r][0]}</th>" for r in have)))
+    return counts, have
+
+
+def topics_menu(counts, have, prefix=""):
+    """The topic menu on the home page: one row per topic, one link per region."""
+    if not counts:
+        return ""
+    rows = "".join(f'<div class="tmrow"><span class="tmt">{n}</span>' + "".join(f'<a href="{prefix}topics/{r}-{k}.html">{TOPIC_REGIONS[r][0]} <small>{counts[(r, k)][0]:,}</small></a>' for r in have if (r, k) in counts) + "</div>" for k, n in TOPICS)
+    return f'<section class="tmenu" id="topics"><h2 class="grph">Browse by topic</h2><p class="tmn">Tables on population, education, religion and crime gathered from every volume of a region, each as printed and linked into its book. <a href="{prefix}topics/index.html">All topics →</a></p>{rows}</section>'
+
+
+TOPIC_INDEX = r"""<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Tables by topic</title>
+<style>
+:root{--bg:#f4f5f3;--panel:#ffffff;--ink:#1b2420;--muted:#5d6a62;--line:#d8ded9;--accent:#1f4a2c;--accent-ink:#ffffff}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#111814;--panel:#17211b;--ink:#e4ebe6;--muted:#9aa89f;--line:#2c3a31;--accent:#8cc49e;--accent-ink:#0f1a13}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 Georgia,"Hiragino Mincho ProN","Yu Mincho","Noto Serif CJK JP",serif}
+.band{background:var(--accent);color:var(--accent-ink)}.band>div{max-width:1040px;margin:0 auto;padding:22px 16px 20px}.band a{color:var(--accent-ink)}.band h1{font-weight:normal;font-size:28px;margin:4px 0 6px}
+main{max-width:1040px;margin:0 auto;padding:20px 16px 60px}.lede{color:var(--muted);max-width:760px;font-size:15px}
+.tw{overflow-x:auto}table{border-collapse:collapse;width:100%;min-width:560px;background:var(--panel);border:1px solid var(--line)}th,td{border-bottom:1px solid var(--line);padding:10px 12px;text-align:left;vertical-align:top}thead th{font-weight:normal;color:var(--muted);font-size:14px}tbody th{font-weight:normal;font-size:18px;white-space:nowrap}
+td a{display:block;color:var(--ink);text-decoration:none}td a b{font-weight:normal;color:var(--accent);text-decoration:underline}td a span{display:block;font-size:12.5px;color:var(--muted)}
+</style></head><body>
+<div class="band"><div><a href="../index.html">← All books</a><h1>Tables by topic</h1></div></div>
+<main><p class="lede">Each page gathers the tables on one topic from every volume of one region, as printed — with their own categories, units, years and gaps — in edition order, with a grid showing which volumes have tables on what. The tables were sorted into topics by a language model reading their titles and headings, so some may be missing or misplaced.</p>
+<div class="tw"><table><thead><tr><th></th>__HEAD__</tr></thead><tbody>__ROWS__</tbody></table></div></main></body></html>
+"""
 
 
 TOPIC_PAGE = r"""<!DOCTYPE html>
@@ -1148,7 +1182,7 @@ TOPIC_PAGE = r"""<!DOCTYPE html>
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#111814;--panel:#17211b;--ink:#e4ebe6;--muted:#9aa89f;--line:#2c3a31;--accent:#8cc49e;--accent-ink:#0f1a13;--hi:#1f3527;--warn:#e0a54a}}
 :root[data-theme="dark"]{--bg:#111814;--panel:#17211b;--ink:#e4ebe6;--muted:#9aa89f;--line:#2c3a31;--accent:#8cc49e;--accent-ink:#0f1a13;--hi:#1f3527;--warn:#e0a54a}
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 Georgia,"Times New Roman","Hiragino Mincho ProN","Yu Mincho","Noto Serif CJK JP","Noto Serif JP",serif}
-.band{background:var(--accent);color:var(--accent-ink)}.band>div{max-width:1040px;margin:0 auto;padding:22px 16px 20px}.band a{color:var(--accent-ink)}.band h1{font-weight:normal;font-size:28px;margin:4px 0 6px}.crumb{font-size:14px;opacity:.9}.tnav{font-size:15px}
+.band{background:var(--accent);color:var(--accent-ink)}.band>div{max-width:1040px;margin:0 auto;padding:22px 16px 20px}.band a{color:var(--accent-ink)}.band h1{font-weight:normal;font-size:28px;margin:4px 0 6px}.crumb{font-size:14px;opacity:.9}.tnav{font-size:15px}.tnav .also{font-size:13.5px;opacity:.9}
 main{max-width:1040px;margin:0 auto;padding:20px 16px 60px}.lede{color:var(--muted);max-width:760px;font-size:15px}
 .ctl{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:16px 0 10px}input,select,button{font:inherit;font-size:14px;padding:6px 8px;border:1px solid var(--line);background:var(--panel);color:var(--ink);border-radius:4px}#q{flex:1 1 220px;min-width:0}
 .ser{display:flex;flex-wrap:wrap;gap:4px 12px;font-size:14px}.ser label{white-space:nowrap}.sw{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:4px;vertical-align:0}
@@ -1256,9 +1290,9 @@ def main():
                                f'<p>{html.escape(b["gaps"])}</p>{"" if b.get("blank_marking") else BLANK_NOTE}<form method="dialog"><button>Close</button></form></dialog>' if b.get("gaps") else "")))
             with open(os.path.join(HERE, "book", b["slug"], "index.html"), "w", encoding="utf-8") as fh:
                 fh.write(doc)
+    tcounts, thave = build_topics(pages)
     with open(os.path.join(HERE, "index.html"), "w", encoding="utf-8") as fh:
-        fh.write(landing(cards))
-    build_topics(pages)
+        fh.write(landing(cards).replace("__TOPICMENU__", topics_menu(tcounts, thave)))
     books = [{"slug": b["slug"], "title": b["title"], "dir": bool(b.get("_dir_n")), "chron": bool(b.get("_chron_n")),
               "g": group_of(b), "y": years_of(b), "sc": b.get("scan")} for b, n, c, ch in cards if n]
     with open(os.path.join(HERE, "search.html"), "w", encoding="utf-8") as fh:
@@ -1478,7 +1512,7 @@ def landing(cards):
               for r, (rn, _) in TOPIC_REGIONS.items() if any(k.startswith(r + "-") for k in TOPIC_TAGS)}
     grids = "".join(f'<section class="grp" id="{g}"><h2 class="grph">{names[g]}</h2>{topics.get(g, "")}<div class="grid">{body[g]}</div></section>'
                     for g in ("japan", "china", "korea", "taiwan", "manchuria", "south-seas", "other") if body[g])
-    return LANDING.replace("__CARDS__", grids)
+    return LANDING.replace("__CARDS__", "__TOPICMENU__" + grids)
 
 
 LANDING = r"""<!DOCTYPE html>
@@ -1493,7 +1527,7 @@ LANDING = r"""<!DOCTYPE html>
 .band{background:var(--accent);color:var(--accent-ink)}.band>div{max-width:980px;margin:0 auto;padding:34px 16px 30px}.band h1{font-weight:normal;font-size:30px;margin:0 0 8px}.band .lede{color:var(--accent-ink);opacity:.9;margin:0}
 main{max-width:980px;margin:0 auto;padding:26px 16px 60px}
 .topnav{margin:18px 0 0;display:flex;gap:8px;flex-wrap:wrap;align-items:center}.jump{display:contents}.jump a{display:inline-block;border:1px solid var(--accent-ink);color:var(--accent-ink);padding:6px 16px;border-radius:5px;text-decoration:none;font-size:15px}.jump a:hover{background:var(--accent-ink);color:var(--accent)}
-.grp{scroll-margin-top:12px}.grp{border-top:2px solid var(--line);margin-top:34px;padding-top:6px}.grp:first-child{margin-top:4px}.grph{font-size:14px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);margin:18px 0 0;font-weight:bold}.grp .grid{margin-top:14px}.tlinks{margin:8px 0 0;font-size:15px}.tlinks a{color:var(--accent)}
+.grp{scroll-margin-top:12px}.grp{border-top:2px solid var(--line);margin-top:34px;padding-top:6px}.grp:first-child{margin-top:4px}.grph{font-size:14px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);margin:18px 0 0;font-weight:bold}.grp .grid{margin-top:14px}.tmenu{margin:4px 0 8px}.tmn{color:var(--muted);font-size:14.5px;margin:6px 0 10px}.tmn a{color:var(--accent)}.tmrow{display:flex;flex-wrap:wrap;gap:6px 8px;align-items:baseline;padding:7px 0;border-top:1px solid var(--line)}.tmt{min-width:150px;font-size:16px}.tmrow a{color:var(--accent);text-decoration:none;border:1px solid var(--line);background:var(--panel);border-radius:14px;padding:2px 11px;font-size:14.5px}.tmrow a:hover{border-color:var(--accent)}.tmrow small{color:var(--muted)}.tlinks{margin:8px 0 0;font-size:15px}.tlinks a{color:var(--accent)}
 .searchbtn{display:inline-block;background:var(--accent-ink);color:var(--accent);font-weight:bold;padding:9px 16px;border-radius:5px;text-decoration:none;font-size:15px}
 .lede{color:var(--muted);max-width:720px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px;margin-top:28px}
 article{background:var(--panel);border:1px solid var(--line);border-top:3px solid var(--accent);padding:18px 18px 16px;display:flex;flex-direction:column}
@@ -1513,7 +1547,7 @@ body.list .links{margin:0;flex-wrap:nowrap;gap:5px}body.list .dirgo{padding:1px 
 @media(max-width:560px){body.list article{flex-wrap:wrap;gap:4px}body.list article h2{flex-basis:100%}body.list .links{flex-wrap:wrap}.tools{margin-left:0}}
 </style></head><body><div class="band"><div>
 <h1>Old Year Book Tables of East Asia</h1>
-<div class="topnav"><a class="searchbtn" href="search.html">Full Search</a><nav class="jump" id="jump"><a href="#japan" id="j-japan">Japan</a><a href="#china" id="j-china">China</a><a href="#korea">Korea</a><a href="#taiwan">Taiwan</a><a href="#manchuria">Manchuria</a><a href="#south-seas">South Seas</a><a href="#other">Other</a></nav><span class="tools"><span class="lbl">View</span><span class="seg"><button class="viewbtn" id="sortbtn" type="button">⇅ A–Z</button><button class="viewbtn" id="viewbtn" type="button" aria-pressed="false">☰ List</button></span></span></div>
+<div class="topnav"><a class="searchbtn" href="search.html">Full Search</a><a class="searchbtn" href="topics/index.html">Topics</a><nav class="jump" id="jump"><a href="#japan" id="j-japan">Japan</a><a href="#china" id="j-china">China</a><a href="#korea">Korea</a><a href="#taiwan">Taiwan</a><a href="#manchuria">Manchuria</a><a href="#south-seas">South Seas</a><a href="#other">Other</a></nav><span class="tools"><span class="lbl">View</span><span class="seg"><button class="viewbtn" id="sortbtn" type="button">⇅ A–Z</button><button class="viewbtn" id="viewbtn" type="button" aria-pressed="false">☰ List</button></span></span></div>
 </div></div>
 <main>
 <div id="groups">
