@@ -1068,7 +1068,7 @@ for _f in sorted((Path(__file__).parent / "topics").glob("*.json")):
     if re.fullmatch(r"[a-z]+\.json", _f.name):   # korea.json, taiwan.json (not the agents' tags_*.json)
         TOPIC_TAGS.update(json.loads(_f.read_text()))
 # Every table of these regions gets a chart view (user, 2026-10-22, after the topic tables); elsewhere only tagged tables.
-CHART_ALL = ("korea-", "taiwan-", "china-", "japan-", "manchuria-", "manchoukuo-", "manchukuo-")
+CHART_ALL = ("korea-", "taiwan-", "china-", "japan-", "manchuria-", "manchoukuo-", "manchukuo-", "nanyo-", "far-east-")
 
 
 def chart_ids(b, tables):
@@ -1103,6 +1103,8 @@ TOPIC_REGIONS = {
     "manchuria": ("Manchuria", [("rp", "Report on Progress in Manchuria", r"^manchuria-\d{4}$"),
                                 ("yb", "Manchuria / Manchoukuo Year Book", r"^(manchuria-year-book-|manchoukuo-)"),
                                 ("dr", "Manchukuo Directory", r"^manchukuo-directory-")]),
+    "south-seas": ("South Seas", [("ny", "南洋廳統計年鑑", r"^nanyo-tokei-")]),
+    "other": ("Far East Year Book", [("fe", "Far East Year Book", r"^far-east-")]),
 }
 
 
@@ -1139,7 +1141,7 @@ def build_topics(pages):
                    + ' · <a href="index.html">All topics</a></span>')
             counts[(region, key)] = (len(items), len({i["s"] for i in items}))
             doc = (TOPIC_PAGE.replace("__TOPIC__", name).replace("__NAV__", nav).replace("__REGION__", rname).replace("__RKEY__", region)
-                   .replace("__WHO__", "the colonial administration" if region in ("korea", "taiwan") else "the officials, editors and publishers")
+                   .replace("__WHO__", "the colonial administration" if region in ("korea", "taiwan", "south-seas") else "the officials, editors and publishers")
                    .replace("__DATA__", json.dumps({"items": items, "vols": [vols[s] for s in order], "subs": SUBTOPICS[key],
                                                     "series": [[c, n] for c, n, _ in series]}, ensure_ascii=False).replace("</", "<\\/"))
                    .replace("__N__", str(len(items))).replace("__NV__", str(len({i["s"] for i in items}))))
@@ -1512,7 +1514,7 @@ def landing(cards):
     body["south-seas"] = "\n".join(h for g, sl, h in sorted((x for x in items if x[0] == "south-seas"), key=lambda x: (year[x[1]], x[1])))  # by edition year
     body["other"] = "\n".join(h for _, h in other)
     topics = {r: f'<p class="tlinks">{rn} tables by topic: ' + " · ".join(f'<a href="topics/{r}-{k}.html">{n}</a>' for k, n in TOPICS) + "</p>"
-              for r, (rn, _) in TOPIC_REGIONS.items() if any(k.startswith(r + "-") for k in TOPIC_TAGS)}
+              for r, (rn, sr) in TOPIC_REGIONS.items() if any(re.match(rx, k.split(":")[0]) for _, _, rx in sr for k in TOPIC_TAGS)}
     grids = "".join(f'<section class="grp" id="{g}"><h2 class="grph">{names[g]}</h2>{topics.get(g, "")}<div class="grid">{body[g]}</div></section>'
                     for g in ("japan", "china", "korea", "taiwan", "manchuria", "south-seas", "other") if body[g])
     return LANDING.replace("__CARDS__", "__TOPICMENU__" + grids)
