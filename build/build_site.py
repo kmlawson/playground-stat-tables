@@ -1068,7 +1068,7 @@ for _f in sorted((Path(__file__).parent / "topics").glob("*.json")):
     if re.fullmatch(r"[a-z]+\.json", _f.name):   # korea.json, taiwan.json (not the agents' tags_*.json)
         TOPIC_TAGS.update(json.loads(_f.read_text()))
 # Every table of these regions gets a chart view (user, 2026-10-22, after the topic tables); elsewhere only tagged tables.
-CHART_ALL = ("korea-", "taiwan-", "china-", "japan-")
+CHART_ALL = ("korea-", "taiwan-", "china-", "japan-", "manchuria-", "manchoukuo-", "manchukuo-")
 
 
 def chart_ids(b, tables):
@@ -1100,6 +1100,9 @@ TOPIC_REGIONS = {
                         ("ot", "Other surveys", r"^china-(flood|handbook|peking)-")]),
     "japan": ("Japan", [("jy", "Japan Year Book", r"^japan-\d{4}(-\d+)?$"), ("jm", "Japan-Manchoukuo Year Book", r"^japan-manchoukuo-"),
                         ("tk", "日本帝國統計年鑑", r"^japan-tokei-")]),
+    "manchuria": ("Manchuria", [("rp", "Report on Progress in Manchuria", r"^manchuria-\d{4}$"),
+                                ("yb", "Manchuria / Manchoukuo Year Book", r"^(manchuria-year-book-|manchoukuo-)"),
+                                ("dr", "Manchukuo Directory", r"^manchukuo-directory-")]),
 }
 
 
