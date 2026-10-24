@@ -1174,7 +1174,7 @@ main{max-width:1040px;margin:0 auto;padding:20px 16px 60px}.lede{color:var(--mut
 td a{display:block;color:var(--ink);text-decoration:none}td a b{font-weight:normal;color:var(--accent);text-decoration:underline}td a span{display:block;font-size:12.5px;color:var(--muted)}
 </style></head><body>
 <div class="band"><div><a href="../index.html">← All books</a><h1>Tables by topic</h1></div></div>
-<main><p class="lede">Each page gathers the tables on one topic from every volume of one region, as printed — with their own categories, units, years and gaps — in edition order, with a grid showing which volumes have tables on what. The tables were sorted into topics by a language model reading their titles and headings, so some may be missing or misplaced.</p>
+<main><p class="lede">Each page linked below includes a selection (which should not be seen as complete) of tables for a few key topics across one collection of volumes.</p>
 <div class="tw"><table><thead><tr><th></th>__HEAD__</tr></thead><tbody>__ROWS__</tbody></table></div></main></body></html>
 """
 
@@ -1297,7 +1297,7 @@ def main():
                 fh.write(doc)
     tcounts, thave = build_topics(pages)
     with open(os.path.join(HERE, "index.html"), "w", encoding="utf-8") as fh:
-        fh.write(landing(cards).replace("__TOPICMENU__", topics_menu(tcounts, thave)))
+        fh.write(landing(cards).replace("__TOPICMENU__", ""))   # topic menu removed from the home page (user, 2026-10-24); Topics button stays
     books = [{"slug": b["slug"], "title": b["title"], "dir": bool(b.get("_dir_n")), "chron": bool(b.get("_chron_n")),
               "g": group_of(b), "y": years_of(b), "sc": b.get("scan")} for b, n, c, ch in cards if n]
     with open(os.path.join(HERE, "search.html"), "w", encoding="utf-8") as fh:
