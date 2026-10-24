@@ -85,7 +85,7 @@ function pager(kind,n){const pages=Math.ceil(n/PAGE);if(pages<=1)return "";const
  const nums=[...new Set([0,1,p-1,p,p+1,pages-2,pages-1].filter(x=>x>=0&&x<pages))].sort((a,b)=>a-b);let h="",last=-1;
  nums.forEach(x=>{if(x-last>1)h+="<span>…</span>";h+=`<button data-k="${kind}" data-p="${x}" class="${x===p?"on":""}"${x===p?' aria-current="page"':""}>${x+1}</button>`;last=x});
  return `<div class="pager"><button data-k="${kind}" data-p="${p-1}"${p?"":" disabled"}>‹ Previous</button>${h}<button data-k="${kind}" data-p="${p+1}"${p<pages-1?"":" disabled"}>Next ›</button><span>${(p*PAGE+1).toLocaleString()}–${Math.min(n,(p+1)*PAGE).toLocaleString()} of ${n.toLocaleString()}</span></div>`}
-const href=d=>String(d.url||"").replace(/^\/+/,"");
+const href=d=>{const u=String(d.url||"");const i=u.indexOf("book/");return i>=0?u.slice(i):u.replace(/^\/+/,"")};   // Pagefind prefixes the folder the site is served from (e.g. /reference/old-tables/); links are relative to search.html
 const slugOf=d=>(href(d).match(/^book\/([^/]+)\//)||[])[1]||"";
 // printed pages and scan leaves are stored shifted into the Private Use Area so that searches do not match them
 const unhide=s=>[...String(s||"")].map(c=>String.fromCodePoint(c.codePointAt(0)-0xF0000)).join("");
