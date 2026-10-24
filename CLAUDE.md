@@ -80,7 +80,7 @@ This file is the authoritative process overview (updated 2026-10-07). `build/exa
    not found links to its chapter — that is acceptable; do not spend a pass to place every subsection.
    `python3 ../_pipeline/toc_leaves.py <book>/_work` maps printed pages to scan leaves via `plan/survey.json`. build_site shows it as a collapsible "Contents of the printed book" on the book's contents
    page, each entry linked to its scan page, and keeps a copy in `data/<slug>-toc.json` for when `_work` is gone.
-   Every book with a printed contents also gets a **"Show tables"** checkbox there (user, 2026-10-22): ticked, each
+   Every book with a printed contents also gets an **"Include table links [T]"** checkbox there, on by default (user, 2026-10-22): ticked, each
    entry lists links to this site's tables under it (numbered tables by their number, others under the entry that
    starts nearest before them in the scan). build_site does this automatically from `toc.json` — so give every new
    book a contents transcription with leaves. Table links are a different shade from the scan links; **never italicise
