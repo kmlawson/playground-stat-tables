@@ -16,14 +16,18 @@
     const s = String(c == null ? "" : c).trim();
     if (s === "") return { k: "blank", s };
     if (s === "[?]" || s === "?" || /^\[\?\]$/.test(s)) return { k: "illeg", s };
-    const n = s.normalize("NFKC").replace(/\s+/g, " ").trim();
-    if (/^[-–—―‐−ー…\.・]{1,3}$/.test(n) || n === "...") return { k: "dash", s };
+    let n = s.normalize("NFKC").replace(/\s+/g, " ").trim();
+    // a figure followed by a second one in brackets, "12,262 (71)": the first is drawn, the bracketed one shown in the tooltip
+    let par = false;
+    const pm = n.match(/^(.*?\S)\s*\(\s*[\d,.]+\s*\)$/);
+    if (pm) { n = pm[1]; par = true; }
+    if (/^[-–—―‐−ー…\.・]{1,3}$/.test(n) || n === "...") return { k: "dash", s, par };
     if (/^(同|〃|仝|″|"|do\.?|ditto)$/i.test(n)) return { k: "ditto", s };
     const m = n.match(/^(△|▲|-|−|\+|減|增|増)?\s*[¥$]?\s*(\d{1,3}(?:[,、]\d{3})+|\d+)?(\.\d+)?\.?\s*(%|[㐀-鿿]{1,2})?$/);
     if (m && (m[2] || m[3])) {
       let v = parseFloat((m[2] || "0").replace(/[,、]/g, "") + (m[3] || ""));
       if (m[1] && /[△▲\-−減]/.test(m[1])) v = -v;
-      return { k: "num", v, s };
+      return par ? { k: "num", v, s, par } : { k: "num", v, s };
     }
     return { k: "text", s };
   }
@@ -188,14 +192,16 @@
   }
   function views(m) {
     const out = [], K = viewKeys(m), gkey = c => K[c.j];
+    // a column's own name within its chart: its heading without the level that names the chart ("農耕 — 男" in chart 男 → 農耕)
+    const own = c => seg(c.label).filter(x => x !== K[c.j]).join(" — ") || c.last;
     const tr = timeAxis(m.R.map(r => r.label));
     if (tr) {
       const series = [];
       (tr.dup ? tr.rests : [null]).forEach(rest => m.C.forEach(c => {
         const pick = tr.keys.map(k => m.R.findIndex((r, i) => tr.sp[i].y === k.y && (rest === null || tr.sp[i].rest === rest)));
         const many = m.C.filter(x => gkey(x) === gkey(c)).length > 1;
-        series.push({ view: gkey(c), label: (rest ? rest + " — " : "") + c.label, short: rest ? rest + (many ? " — " + c.last : "") : c.last, pre: rest && many ? c.last : (rest ? "" : c.pre),
-          total: c.total || (rest != null && isTotal(rest)), pts: pick.map(i => i < 0 ? NONE : m.R[i].cells[c.j]), rows: pick.map(i => i < 0 ? null : m.R[i].i) });
+        series.push({ view: gkey(c), label: (rest ? rest + " — " : "") + c.label, short: rest ? rest + (many ? " — " + own(c) : "") : own(c), pre: rest && many ? own(c) : (rest ? "" : (K[c.j] === c.last ? "" : c.pre)),
+          total: c.total || isTotal(own(c)) || (rest != null && isTotal(rest)), pts: pick.map(i => i < 0 ? NONE : m.R[i].cells[c.j]), rows: pick.map(i => i < 0 ? null : m.R[i].i) });
       }));
       byView(series, vname).forEach(v => out.push(Object.assign({ kind: "line", x: tr.keys, prop: tr.prop, rev: tr.rev, undated: tr.undated }, v)));
     } else {
@@ -225,7 +231,7 @@
       const groups = [];
       m.C.forEach(c => { const k = gkey(c); let g = groups.find(x => x.key === k); if (!g) groups.push(g = { key: k, cs: [] }); g.cs.push(c); });
       return groups.map(g => ({ kind: "bar", transposed: true, name: groups.length > 1 ? (g.key.startsWith("~") ? g.key.slice(1) : g.key || listName(g.cs.map(c => ({ short: c.last })))) : "",
-        cats: g.cs.map(c => ({ label: g.key && !g.key.startsWith("~") ? seg(c.label).slice(seg(g.key).length).join(" — ") || c.last : c.label, group: "", total: c.total, i: m.R[0].i })),
+        cats: g.cs.map(c => ({ label: g.key && !g.key.startsWith("~") ? seg(c.label).filter(x => x !== g.key).join(" — ") || c.last : c.label, group: "", total: isTotal(seg(c.label).filter(x => x !== g.key).join("")) || c.total, i: m.R[0].i })),
         series: m.R.map(r => ({ label: r.label, short: r.label, pre: "", total: false, pts: g.cs.map(c => r.cells[c.j]) })) }));
     }
     // One printed row: its columns are the categories, one chart per measure.
@@ -250,7 +256,7 @@
     rowSets.forEach(rs => colSets.forEach(cg => out.push({ kind: "bar", keepTotals: rs.keepTotals,
       name: [rs.name, colSets.length > 1 || rs.name ? cg.name : ""].filter(Boolean).join(" · ") || (rowSets.length > 1 ? m.labHead || "Rows" : ""),
       cats: rs.rows.map(r => ({ label: r.label, group: r.group, total: r.total, i: r.i })),
-      series: cg.series.map(x => ({ label: x.c.label, short: x.c.last, pre: x.c.pre, total: x.c.total, pts: rs.rows.map(r => r.cells[x.c.j]) })) })));
+      series: cg.series.map(x => ({ label: x.c.label, short: own(x.c), pre: K[x.c.j] === x.c.last ? "" : x.c.pre, total: x.c.total || isTotal(own(x.c)), pts: rs.rows.map(r => r.cells[x.c.j]) })) })));
     return out;
   }
   const plan = m => views(m)[0];
@@ -376,8 +382,9 @@
       if (nI) bits.push(`${nI} unreadable cell${nI > 1 ? "s" : ""} (marked ?)`);
       if (nB) bits.push(MARKED ? `${nB} blank${nB > 1 ? "s" : ""}` : `${nB} empty cell${nB > 1 ? "s" : ""} (blank in the original or unreadable — this book does not distinguish them)`);
       if (nD) bits.push(`${nD} printed dash${nD > 1 ? "es" : ""}, ditto marks or text`);
+      const nP = S.reduce((a, s) => a + s.pts.filter(c => c.par).length, 0);
       const axis = p.kind === "line" ? (p.prop ? " Years are spaced by date" + (p.rev ? " (the table prints them newest first)." : ".") + (hasGap(p) ? " A dashed line joins years with unprinted years between them." : "") : " Years are evenly spaced in printed order, not by date.") + (p.undated && p.undated.length ? ` Not dated, so not drawn: ${p.undated.slice(0, 4).join(", ")}${p.undated.length > 4 ? "…" : ""}.` : "") : "";
-      note.textContent = (V.length > 1 ? `The table prints ${V.length} kinds of figures; each has its own chart (buttons above). ` : "") + "Drawn only from the figures printed in the table." + (bits.length ? " Not drawn: " + bits.join(", ") + "; nothing is filled in or interpolated." : "") + axis;
+      note.textContent = (nP ? `Where a cell prints a second figure in brackets — e.g. “12,262 (71)” — the first is drawn and the whole cell is shown when you hover or tap (${nP} cells). ` : "") + (V.length > 1 ? `The table prints ${V.length} kinds of figures; each has its own chart (buttons above). ` : "") + "Drawn only from the figures printed in the table." + (bits.length ? " Not drawn: " + bits.join(", ") + "; nothing is filled in or interpolated." : "") + axis;
     }
     function setView(i) {
       p = V[i]; S = p.series; const d = defaults(p);
