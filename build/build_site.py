@@ -1516,7 +1516,12 @@ def landing(cards):
     body["other"] = "\n".join(h for _, h in other)
     topics = {r: f'<p class="tlinks">{rn} tables by topic: ' + " · ".join(f'<a href="topics/{r}-{k}.html">{n}</a>' for k, n in TOPICS) + "</p>"
               for r, (rn, sr) in TOPIC_REGIONS.items() if any(re.match(rx, k.split(":")[0]) for _, _, rx in sr for k in TOPIC_TAGS)}
-    grids = "".join(f'<section class="grp" id="{g}"><h2 class="grph">{names[g]}</h2>{topics.get(g, "")}<div class="grid">{body[g]}</div></section>'
+    def gstat(g):
+        bs = [(b, n) for b, n, c, ch in cards if group_of(b) == g]
+        tb, de = sum(n for b, n in bs), sum(b.get("_dir_n") or 0 for b, n in bs)
+        return (f'<p class="gstat">{len(bs)} volume{"s" if len(bs) != 1 else ""}, with a total of {tb:,} table{"s" if tb != 1 else ""}'
+                + (f', and {de:,} directory entr{"ies" if de != 1 else "y"}' if de else "") + "</p>")
+    grids = "".join(f'<section class="grp" id="{g}"><h2 class="grph">{names[g]}</h2>{gstat(g)}{topics.get(g, "")}<div class="grid">{body[g]}</div></section>'
                     for g in ("japan", "china", "korea", "taiwan", "manchuria", "south-seas", "other") if body[g])
     return LANDING.replace("__CARDS__", "__TOPICMENU__" + grids)
 
@@ -1533,7 +1538,7 @@ LANDING = r"""<!DOCTYPE html>
 .band{background:var(--accent);color:var(--accent-ink)}.band>div{max-width:980px;margin:0 auto;padding:34px 16px 30px}.band h1{font-weight:normal;font-size:30px;margin:0 0 8px}.band .lede{color:var(--accent-ink);opacity:.9;margin:0}
 main{max-width:980px;margin:0 auto;padding:26px 16px 60px}
 .topnav{margin:18px 0 0;display:flex;gap:8px;flex-wrap:wrap;align-items:center}.jump{display:contents}.jump a{display:inline-block;border:1px solid var(--accent-ink);color:var(--accent-ink);padding:6px 16px;border-radius:5px;text-decoration:none;font-size:15px}.jump a:hover{background:var(--accent-ink);color:var(--accent)}
-.grp{scroll-margin-top:12px}.grp{border-top:2px solid var(--line);margin-top:34px;padding-top:6px}.grp:first-child{margin-top:4px}.grph{font-size:14px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);margin:18px 0 0;font-weight:bold}.grp .grid{margin-top:14px}.tmenu{margin:4px 0 8px}.tmn{color:var(--muted);font-size:14.5px;margin:6px 0 10px}.tmn a{color:var(--accent)}.tmrow{display:flex;flex-wrap:wrap;gap:6px 8px;align-items:baseline;padding:7px 0;border-top:1px solid var(--line)}.tmt{min-width:150px;font-size:16px}.tmrow a{color:var(--accent);text-decoration:none;border:1px solid var(--line);background:var(--panel);border-radius:14px;padding:2px 11px;font-size:14.5px}.tmrow a:hover{border-color:var(--accent)}.tmrow small{color:var(--muted)}.tlinks{margin:8px 0 0;font-size:15px}.tlinks a{color:var(--accent)}
+.grp{scroll-margin-top:12px}.grp{border-top:2px solid var(--line);margin-top:34px;padding-top:6px}.grp:first-child{margin-top:4px}.grph{font-size:14px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);margin:18px 0 0;font-weight:bold}.grp .grid{margin-top:14px}.tmenu{margin:4px 0 8px}.tmn{color:var(--muted);font-size:14.5px;margin:6px 0 10px}.tmn a{color:var(--accent)}.tmrow{display:flex;flex-wrap:wrap;gap:6px 8px;align-items:baseline;padding:7px 0;border-top:1px solid var(--line)}.tmt{min-width:150px;font-size:16px}.tmrow a{color:var(--accent);text-decoration:none;border:1px solid var(--line);background:var(--panel);border-radius:14px;padding:2px 11px;font-size:14.5px}.tmrow a:hover{border-color:var(--accent)}.tmrow small{color:var(--muted)}.gstat{margin:8px 0 0;font-size:15px;color:var(--muted)}.tlinks{margin:4px 0 0;font-size:15px}.tlinks a{color:var(--accent)}
 .searchbtn{display:inline-block;background:var(--accent-ink);color:var(--accent);font-weight:bold;padding:9px 16px;border-radius:5px;text-decoration:none;font-size:15px}
 .lede{color:var(--muted);max-width:720px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px;margin-top:28px}
 article{background:var(--panel);border:1px solid var(--line);border-top:3px solid var(--accent);padding:18px 18px 16px;display:flex;flex-direction:column}
