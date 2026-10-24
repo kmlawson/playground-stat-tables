@@ -162,7 +162,11 @@
     m.C.forEach(c => {
       if (RATIO.test(c.label)) {   // a ratio measure keeps its categories together: key by the heading level that names the ratio
         const g = sg(c), at = g.findIndex(x => RATIO.test(x));
-        K[c.j] = "~" + (g.length < 2 ? c.label : at >= 0 ? g[at] : c.label);
+        let key = g.length < 2 ? c.label : at >= 0 ? g[at] : c.label;
+        // columns printed in the same unit ("… (Per cent.)", "… (Per 1,000)") share one chart
+        const unit = (key.match(/[(（][^()（）]*[)）]/g) || []).map(x => x.slice(1, -1).trim()).find(x => RATIO.test(x));
+        if (unit) key = unit.replace(/\.$/, "");
+        K[c.j] = "~" + key;
       }
       else if (sg(c).length < 2) K[c.j] = "";
       else K[c.j] = mode === "top" ? sg(c)[0] : mode === "leaf" ? leafOf(c) : "";
