@@ -352,7 +352,9 @@
     const part = (table.parts || [])[pi];
     const m = part && model(part);
     if (!m) { host.classList.add("tc-none"); host.innerHTML = '<p class="tc-msg">No chart for this table: it has too few printed figures to draw.</p>'; return false; }
-    const V = views(m).map(uniq);
+    // only series with at least one printed figure are offered, and only charts that still have a series
+    const V = views(m).map(v => Object.assign(v, { series: v.series.filter(s => s.pts.some(c => c.k === "num")) })).filter(v => v.series.length).map(uniq);
+    if (!V.length) { host.classList.add("tc-none"); host.innerHTML = ""; return false; }
     let p, S, st;
     host.innerHTML = "";
     const tabs = document.createElement("div"); tabs.className = "tc-tabs"; host.appendChild(tabs);
@@ -376,6 +378,8 @@
     function setView(i) {
       p = V[i]; S = p.series; const d = defaults(p);
       st = { on: d.on, mode: d.mode, sort: "printed", totals: !!p.keepTotals, sep: null, view: i };
+      // figures printed only in total rows: show those rows rather than an empty chart
+      if (p.kind === "bar" && !st.totals && !p.cats.some((c, ci) => !c.total && S.some(s => s.pts[ci].k === "num"))) st.totals = true;
       tabs.innerHTML = "";
       if (V.length > 1) V.forEach((v, k) => {
         const b = document.createElement("button"); b.type = "button"; b.textContent = clip(v.name || `Chart ${k + 1}`, 13, 260); b.title = v.name;
