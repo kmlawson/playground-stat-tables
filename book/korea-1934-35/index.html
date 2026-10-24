@@ -152,7 +152,7 @@ function ptocTables(on){ptkOn=on;document.querySelectorAll(".ptoc ul").forEach(u
 const origLink=()=>ORIG?`<a class="origbtn" href="${esc(ORIG.u)}" target="_blank" rel="noopener">Read the full original book on ${esc(ORIG.l)} ↗</a>`:"";
 const MARKED=true;
 const CJK=/[\u3040-\u30ff\u3400-\u9fff\uf900-\ufaff]/;  // never italicise Asian text (user, 2026-10-22)
-const QSTAT="<div class=\"qstat\" title=\"Cells marked unreadable (red hatch) or containing a printed or doubtful ?\">Unreadable or “?” cells: <b>6</b> of 2,943 (0.20%) · Tables with more than 20% such cells: <b>0</b> of 50 (0.00%)</div>";
+const QSTAT="<div class=\"qstat\" title=\"Cells marked unreadable (red hatch) or containing a printed or doubtful ?\">Unreadable or “?” cells: <b>6</b> of 2,943 (0.20%) · Tables with more than 20% such cells: <b>0</b> of 50</div>";
 const XL={"ch": {}, "tb": {}};
 const CHEN={};
 const chE=(c,cls)=>CHEN[c]?`<span class="${cls||"che"}">${esc(CHEN[c])}</span>`:"";

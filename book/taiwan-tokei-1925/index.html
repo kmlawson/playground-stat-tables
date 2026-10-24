@@ -152,7 +152,7 @@ function ptocTables(on){ptkOn=on;document.querySelectorAll(".ptoc ul").forEach(u
 const origLink=()=>ORIG?`<a class="origbtn" href="${esc(ORIG.u)}" target="_blank" rel="noopener">Read the full original book on ${esc(ORIG.l)} ↗</a>`:"";
 const MARKED=true;
 const CJK=/[\u3040-\u30ff\u3400-\u9fff\uf900-\ufaff]/;  // never italicise Asian text (user, 2026-10-22)
-const QSTAT="<div class=\"qstat\" title=\"Cells marked unreadable (red hatch) or containing a printed or doubtful ?\">Unreadable or “?” cells: <b>1,528</b> of 278,892 (0.55%) · Tables with more than 20% such cells: <b>0</b> of 513 (0.00%)</div>";
+const QSTAT="<div class=\"qstat\" title=\"Cells marked unreadable (red hatch) or containing a printed or doubtful ?\">Unreadable or “?” cells: <b>1,528</b> of 278,892 (0.55%) · Tables with more than 20% such cells: <b>0</b> of 513</div>";
 const XL={"ch": {}, "tb": {}};
 const CHEN={"I 土地": "I Land", "II 氣象": "II Meteorology", "III 戶口": "III Population", "IV 教育": "IV Education", "V 社寺": "V Shrines and Temples", "VI 社會事業": "VI Social Work", "VII 裁判及登記": "VII Courts and Registration", "VIII 警察": "VIII Police", "IX 刑務": "IX Prisons", "X 農業": "X Agriculture", "XI 林業": "XI Forestry", "XII 漁業": "XII Fisheries", "XIII 鑛業": "XIII Mining", "XIV 工業": "XIV Industry", "XV 電氣": "XV Electricity", "XVI 商業及金融": "XVI Commerce and Finance", "XVII 貿易": "XVII Trade", "XVIII 交通": "XVIII Communications and Transport", "XIX 專賣": "XIX Monopolies", "XX 衛生": "XX Public Health", "XXI 財政": "XXI Finance", "XXII 職員": "XXII Officials", "XXIII 恩賞": "XXIII Honours and Awards"};
 const chE=(c,cls)=>CHEN[c]?`<span class="${cls||"che"}">${esc(CHEN[c])}</span>`:"";

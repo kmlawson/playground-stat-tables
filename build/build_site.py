@@ -1055,10 +1055,10 @@ def qstat_html(tables, cls="qstat"):
     q, tot, heavy, nt = qstats(tables)
     if not nt:
         return ""
-    pc = lambda a, b: f"{100 * a / b:.2f}%" if b else "0%"
+    pc = lambda a, b: f" ({100 * a / b:.2f}%)" if b and f"{100 * a / b:.2f}" != "0.00" else ""   # no "(0.00%)"
     return (f'<div class="{cls}" title="Cells marked unreadable (red hatch) or containing a printed or doubtful ?">'
-            f'Unreadable or “?” cells: <b>{q:,}</b> of {tot:,} ({pc(q, tot)}) · '
-            f'Tables with more than 20% such cells: <b>{heavy:,}</b> of {nt:,} ({pc(heavy, nt)})</div>')
+            f'Unreadable or “?” cells: <b>{q:,}</b> of {tot:,}{pc(q, tot)} · '
+            f'Tables with more than 20% such cells: <b>{heavy:,}</b> of {nt:,}{pc(heavy, nt)}</div>')
 
 
 # Topic tags (build/topics/<region>.json: {"slug:id": [[topic, subtopic], …]}). Tagged tables get chart views and

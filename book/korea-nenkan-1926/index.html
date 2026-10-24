@@ -152,7 +152,7 @@ function ptocTables(on){ptkOn=on;document.querySelectorAll(".ptoc ul").forEach(u
 const origLink=()=>ORIG?`<a class="origbtn" href="${esc(ORIG.u)}" target="_blank" rel="noopener">Read the full original book on ${esc(ORIG.l)} ↗</a>`:"";
 const MARKED=false;
 const CJK=/[\u3040-\u30ff\u3400-\u9fff\uf900-\ufaff]/;  // never italicise Asian text (user, 2026-10-22)
-const QSTAT="<div class=\"qstat\" title=\"Cells marked unreadable (red hatch) or containing a printed or doubtful ?\">Unreadable or “?” cells: <b>188</b> of 76,403 (0.25%) · Tables with more than 20% such cells: <b>0</b> of 601 (0.00%)</div>";
+const QSTAT="<div class=\"qstat\" title=\"Cells marked unreadable (red hatch) or containing a printed or doubtful ?\">Unreadable or “?” cells: <b>188</b> of 76,403 (0.25%) · Tables with more than 20% such cells: <b>0</b> of 601</div>";
 const XL={"ch": {}, "tb": {}};
 const CHEN={"第一門 帝國皇室、其他": "Section 1: The Imperial Household, etc.", "第二門 朝鮮、土地及人口": "Section 2: Korea — Land and Population", "第三門 治政": "Section 3: Administration", "第四門 宗敎、敎育": "Section 4: Religion and Education", "第五門 軍事": "Section 5: Military Affairs", "第六門 司法、刑務": "Section 6: Justice and Prisons", "第七門 警察、消防": "Section 7: Police and Fire Services", "第八門 交通、通信": "Section 8: Transport and Communications", "第九門 財政、經濟": "Section 9: Finance and Economy", "第十門 産業": "Section 10: Industries", "第十一門 社會": "Section 11: Society", "第十二門 間島及琿春": "Section 12: Kando and Hunchun", "第十三門 日用便覽": "Section 13: Everyday Reference"};
 const chE=(c,cls)=>CHEN[c]?`<span class="${cls||"che"}">${esc(CHEN[c])}</span>`:"";

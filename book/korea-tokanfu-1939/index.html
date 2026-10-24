@@ -152,7 +152,7 @@ function ptocTables(on){ptkOn=on;document.querySelectorAll(".ptoc ul").forEach(u
 const origLink=()=>ORIG?`<a class="origbtn" href="${esc(ORIG.u)}" target="_blank" rel="noopener">Read the full original book on ${esc(ORIG.l)} ↗</a>`:"";
 const MARKED=true;
 const CJK=/[\u3040-\u30ff\u3400-\u9fff\uf900-\ufaff]/;  // never italicise Asian text (user, 2026-10-22)
-const QSTAT="<div class=\"qstat\" title=\"Cells marked unreadable (red hatch) or containing a printed or doubtful ?\">Unreadable or “?” cells: <b>694</b> of 264,098 (0.26%) · Tables with more than 20% such cells: <b>0</b> of 470 (0.00%)</div>";
+const QSTAT="<div class=\"qstat\" title=\"Cells marked unreadable (red hatch) or containing a printed or doubtful ?\">Unreadable or “?” cells: <b>694</b> of 264,098 (0.26%) · Tables with more than 20% such cells: <b>0</b> of 470</div>";
 const XL={"ch": {}, "tb": {}};
 const CHEN={"總括表": "General Summary Table", "1. 土地": "1. Land", "2. 戸口": "2. Population", "3. 農業": "3. Agriculture", "4. 林業": "4. Forestry", "5. 水産業": "5. Fisheries", "6. 鑛業・工業": "6. Mining and Industry", "7. 商業・金融": "7. Commerce and Finance", "8. 貿易": "8. Trade", "9. 物價・賃銀": "9. Prices and Wages", "10. 土木・水運": "10. Civil Engineering and Water Transport", "11. 遞信": "11. Communications", "12. 鐵道": "12. Railways", "13. 專賣": "13. Monopolies", "14. 神社・敎育": "14. Shrines and Education", "15. 宗敎・社會事業": "15. Religion and Social Work", "16. 警察": "16. Police", "17. 衛生": "17. Public Health", "18. 裁判・登記・供託": "18. Courts, Registration and Deposits", "19. 監獄": "19. Prisons", "20. 財政": "20. Public Finance", "21. 官公吏・恩給": "21. Officials and Pensions", "附録": "Appendix"};
 const chE=(c,cls)=>CHEN[c]?`<span class="${cls||"che"}">${esc(CHEN[c])}</span>`:"";
