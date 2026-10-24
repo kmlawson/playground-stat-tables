@@ -1144,11 +1144,11 @@ def build_topics(pages):
                    .replace("__WHO__", "the colonial administration" if region in ("korea", "taiwan", "south-seas") else "the officials, editors and publishers")
                    .replace("__DATA__", json.dumps({"items": items, "vols": [vols[s] for s in order], "subs": SUBTOPICS[key],
                                                     "series": [[c, n] for c, n, _ in series]}, ensure_ascii=False).replace("</", "<\\/"))
-                   .replace("__N__", str(len(items))).replace("__NV__", str(len({i["s"] for i in items}))))
+                   .replace("__NTXT__", (lambda n, v: f'{n:,} table{"s" if n != 1 else ""} from {v} {rname} volume{"s" if v != 1 else ""}')(len(items), len({i["s"] for i in items}))))
             with open(os.path.join(HERE, "topics", f"{region}-{key}.html"), "w", encoding="utf-8") as fh:
                 fh.write(doc)
             print(f"topics/{region}-{key}.html: {len(items)} tables")
-    rows = "".join(f'<tr><th>{n}</th>' + "".join(f'<td><a href="{r}-{k}.html"><b>{TOPIC_REGIONS[r][0]}</b><span>{counts[(r, k)][0]:,} tables · {counts[(r, k)][1]} volumes</span></a></td>' if (r, k) in counts else "<td></td>" for r in have) + "</tr>" for k, n in TOPICS)
+    rows = "".join(f'<tr><th>{n}</th>' + "".join(f'<td><a href="{r}-{k}.html"><b>{TOPIC_REGIONS[r][0]}</b><span>{counts[(r, k)][0]:,} table{"s" if counts[(r, k)][0] != 1 else ""} · {counts[(r, k)][1]} volume{"s" if counts[(r, k)][1] != 1 else ""}</span></a></td>' if (r, k) in counts else "<td></td>" for r in have) + "</tr>" for k, n in TOPICS)
     with open(os.path.join(HERE, "topics", "index.html"), "w", encoding="utf-8") as fh:
         fh.write(TOPIC_INDEX.replace("__ROWS__", rows).replace("__HEAD__", "".join(f"<th>{TOPIC_REGIONS[r][0]}</th>" for r in have)))
     return counts, have
@@ -1172,6 +1172,7 @@ TOPIC_INDEX = r"""<!DOCTYPE html>
 main{max-width:1040px;margin:0 auto;padding:20px 16px 60px}.lede{color:var(--muted);max-width:760px;font-size:15px}
 .tw{overflow-x:auto}table{border-collapse:collapse;width:100%;min-width:560px;background:var(--panel);border:1px solid var(--line)}th,td{border-bottom:1px solid var(--line);padding:10px 12px;text-align:left;vertical-align:top}thead th{font-weight:normal;color:var(--muted);font-size:14px}tbody th{font-weight:normal;font-size:18px;white-space:nowrap}
 td a{display:block;color:var(--ink);text-decoration:none}td a b{font-weight:normal;color:var(--accent);text-decoration:underline}td a span{display:block;font-size:12.5px;color:var(--muted)}
+@media (max-width:640px){.band h1{font-size:24px}table{min-width:0;border:0;background:transparent}thead{display:none}tbody,tr,th,td{display:block}tr{background:var(--panel);border:1px solid var(--line);margin:0 0 14px;padding:4px 0 8px}tbody th{border:0;padding:10px 14px 4px;font-size:19px}td{display:inline-block;width:calc(50% - 4px);border:0;padding:6px 14px;vertical-align:top}td:empty{display:none}}
 </style></head><body>
 <div class="band"><div><a href="../index.html">← All books</a><h1>Tables by topic</h1></div></div>
 <main><p class="lede">Each page linked below includes a selection (which should not be seen as complete) of tables for a few key topics across one collection of volumes.</p>
@@ -1202,7 +1203,7 @@ h2{font-size:19px;font-weight:normal;margin:26px 0 6px;border-bottom:1px solid v
 </style></head><body>
 <div class="band"><div><div class="crumb"><a href="../index.html#__RKEY__">← All books</a> · __REGION__ · topics</div><h1>__REGION__: __TOPIC__</h1><div class="tnav">__NAV__</div></div></div>
 <main>
-<p class="lede">__N__ tables from __NV__ __REGION__ volumes on this site, each as it was printed — with the book's own categories, units, years and gaps — and each opening in its book, where it can be read as a table or a chart. The tables were sorted into these topics by a language model reading their titles and headings, so some may be missing or misplaced; the categories are those of __WHO__ that compiled them, and they change from one volume to the next.</p>
+<p class="lede">__NTXT__ on this site, each as it was printed — with the book's own categories, units, years and gaps — and each opening in its book, where it can be read as a table or a chart. The tables were sorted into these topics by a language model reading their titles and headings, so some may be missing or misplaced; the categories are those of __WHO__ that compiled them, and they change from one volume to the next.</p>
 <div class="ctl"><input id="q" type="search" placeholder="Filter titles, translations, chapters…" aria-label="Filter"><select id="sub" aria-label="Subtopic"><option value="">All subtopics</option></select><select id="ord" aria-label="Arrange"><option value="sub">Grouped by subtopic</option><option value="year">Grouped by year</option><option value="vol">Grouped by volume</option></select></div>
 <div class="ser" id="ser"></div>
 <div class="cov" id="cov"></div><p class="covn">Tables per subtopic in each volume, in edition order; an empty cell means no table on it was found in that volume. Click a number to list those tables.</p>
