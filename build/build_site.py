@@ -1636,7 +1636,9 @@ header a,header .meta{color:var(--accent-ink)!important;opacity:.88}
 header button{background:transparent;color:var(--accent-ink);border-color:currentColor}
 header h1{font-size:20px;margin:0;font-weight:normal}
 header .meta{color:var(--muted);font-size:13px}
-#wrap{display:grid;grid-template-columns:340px 1fr;height:calc(100vh - 56px)}
+#wrap{display:grid;grid-template-columns:340px 1fr;height:calc(100vh - 56px);position:relative}
+#sidetog{position:absolute;z-index:3;top:calc(50% - 13px);left:327px;width:26px;height:26px;padding:0;border-radius:50%;border:1px solid var(--line);background:var(--panel);color:var(--muted);font-size:15px;line-height:1;box-shadow:none;cursor:pointer}#sidetog:hover{color:var(--ink);border-color:var(--muted)}
+body.cmp #sidetog{left:267px}body.noside #sidetog{left:6px}body.noside #side{display:none}body.noside #wrap{grid-template-columns:minmax(0,1fr)}body.noside.cmp #wrap{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}body.noside #main{padding-left:44px}
 #side{border-right:1px solid var(--line);display:flex;flex-direction:column;min-height:0}
 #side .ctl{padding:10px;border-bottom:1px solid var(--line);display:flex;flex-direction:column;gap:6px}
 input,select,button{font:inherit;font-size:14px;padding:6px 8px;border:1px solid var(--line);background:var(--panel);color:var(--ink);border-radius:4px}
@@ -1719,7 +1721,7 @@ body.vw-chart .tbl.hasch .tw{display:none}body.vw-table .tchart{display:none}
 .tc-svg{display:block;overflow:visible}.tc-ax{font-size:10.5px;fill:var(--muted)}.tc-lab{font-size:12px;fill:var(--ink)}.tc-tot{font-weight:600}.tc-gl{font-size:12px;font-weight:600;fill:var(--ink)}.tc-grid{stroke:var(--line);stroke-width:1}.tc-zero{stroke:var(--muted);stroke-width:1}.tc-guide{stroke:var(--muted);stroke-dasharray:3 3}.tc-q{font-size:12px;font-weight:700;fill:#c0392b}.tc-neq{font-size:14px;font-weight:700;fill:var(--warn)}.tc-totmark{stroke:var(--ink);stroke-width:2}
 .tc-tip{position:absolute;z-index:5;background:var(--panel);color:var(--ink);border:1px solid var(--line);box-shadow:0 2px 8px rgba(0,0,0,.2);padding:6px 9px;font-size:12.5px;max-width:min(360px,92%);pointer-events:none;line-height:1.45}.tc-tip div{display:flex;gap:5px;align-items:baseline}.tc-tip i{position:relative;top:1px}.tc-sum{margin-top:4px;color:var(--muted)}.tc-sum.warn{color:var(--warn)}
 .tc-note{font-size:12px;color:var(--muted);margin:8px 0 0}.tc-msg{font-size:13px;color:var(--muted)}.tc-multi{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,300px),1fr));gap:14px}.tc-mt{font-size:12.5px;display:flex;gap:6px;align-items:center;margin-bottom:2px}tr.tc-hl td{background:var(--hi)}
-@media (max-width:760px){#wrap,body.cmp #wrap{grid-template-columns:minmax(0,1fr);height:auto}#cmp{border-left:0;border-top:2px solid var(--accent);padding:14px 16px}#side,#main{min-width:0;max-width:100vw}#list a{overflow-wrap:anywhere}.tw{max-height:none}header{padding:12px 16px}header h1{font-size:18px}.dirbtn{margin-left:0}#side{border-right:0;border-bottom:1px solid var(--line)}#list{max-height:40vh}#main{padding:14px 16px}.chgrid{gap:8px}.chbtn{padding:11px 13px}.chbtn small{font-size:12px}}
+@media (max-width:760px){#sidetog{display:none}body.noside #side{display:flex}body.noside #main{padding-left:16px}#wrap,body.cmp #wrap{grid-template-columns:minmax(0,1fr);height:auto}#cmp{border-left:0;border-top:2px solid var(--accent);padding:14px 16px}#side,#main{min-width:0;max-width:100vw}#list a{overflow-wrap:anywhere}.tw{max-height:none}header{padding:12px 16px}header h1{font-size:18px}.dirbtn{margin-left:0}#side{border-right:0;border-bottom:1px solid var(--line)}#list{max-height:40vh}#main{padding:14px 16px}.chgrid{gap:8px}.chbtn{padding:11px 13px}.chbtn small{font-size:12px}}
 </style>
 </head>
 <body>
@@ -1727,6 +1729,7 @@ body.vw-chart .tbl.hasch .tw{display:none}body.vw-table .tchart{display:none}
 <span class="meta">__COUNT__ tables · __CELLS__ cells · __SOURCE__ · <a href="../../data/__SLUG__.json" style="color:inherit">JSON</a>__XLSX__</span>
 <a class="dirbtn homebtn" href="./" onclick="goHome();return false" title="Back to this book's contents (chapters and the printed table of contents)">☰ Contents</a>__DIRLINK__<button id="annot" class="anbtn" aria-pressed="false" title="Private notes: highlight and comment on tables. Saved only in this browser.">Notes</button><button id="toggle" title="Toggle light/dark">◐</button></header>
 <div id="wrap">
+<button id="sidetog" type="button" title="Hide the table list" aria-label="Hide the table list" aria-expanded="true">‹</button>
 <nav id="side"><div class="ctl">
 <input id="q" type="search" placeholder="Search titles, headings, cells…">
 <select id="ch"><option value="">All chapters</option></select>
@@ -1738,6 +1741,8 @@ body.vw-chart .tbl.hasch .tw{display:none}body.vw-table .tchart{display:none}
 </div>
 __CHARTJS__<script>
 const T=__DATA__;
+(function(){const b=document.getElementById("sidetog");const set=off=>{document.body.classList.toggle("noside",off);b.textContent=off?"›":"‹";b.title=b.ariaLabel=off?"Show the table list":"Hide the table list";b.setAttribute("aria-expanded",!off);try{localStorage.setItem("sideoff",off?"1":"0")}catch(e){}};
+ let off=false;try{off=localStorage.getItem("sideoff")==="1"}catch(e){}set(off);b.onclick=()=>set(!document.body.classList.contains("noside"))})();
 const CHARTIDS=new Set(__CHARTIDS__);let VW="both";try{VW=localStorage.getItem("tview")||"both"}catch(e){}document.body.classList.add("vw-"+VW);
 const DIRCARDS=__DIRCARDS__;const PY=__PINYIN__;let ALTR=false;try{ALTR=localStorage.getItem("altrom")==="1"}catch(e){}
 const pyd=a=>{if(ALTR||!a)return a;const w=a.split(" ")[0];return PY[w]?PY[w]+a.slice(w.length):a};
