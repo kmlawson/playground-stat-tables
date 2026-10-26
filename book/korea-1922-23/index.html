@@ -169,7 +169,7 @@ function label(t){return (t.table_no?`Table ${t.table_no}. `:"")+(t.title||"")+(
 function renderList(){const q=fold($("#q").value.trim().toLowerCase()),ch=$("#ch").value,fl=$("#flag").checked;let h="",last=null,n=0;
  T.forEach((t,i)=>{if(ch&&(t.chapter||"(no chapter)")!==ch)return;if(fl&&!t._warn)return;if(q&&!q.split(/\s+/).every(w=>t._text.includes(w)))return;
   const c=t.chapter||"(no chapter)";if(c!==last){h+=`<div class="ch" data-ch="${esc(c)}">${esc(c)}${chE(c)}</div>`;last=c}
-  h+=`<a href="#${t.id}" data-i="${i}">${esc(label(t))}<small>p. ${esc((t.printed_pages||[]).join(", "))}${HIDEIMG?"":" · "+esc(t.image)}${t._warn?" · ⚠":""}</small></a>`;n++});
+  h+=`<a href="#${t.id}" data-i="${i}">${esc(label(t))}<small>p. ${esc((t.printed_pages||[]).join(", "))}${HIDEIMG?"":" · "+esc(t.image)}${t._warn?" · ⚠":""}</small></a>${TableTags.render(TABLE_TAG_DATA[t.id],"../../",{pending:false})}`;n++});
  $("#list").innerHTML=h||"<p style='padding:10px'>No matches.</p>";mark()}
 function hl(s,q){s=esc(s);if(!q)return s;q.split(/\s+/).filter(Boolean).forEach(w=>{s=s.replace(new RegExp("("+foldRe(w)+")","ig"),"<mark>$1</mark>")});return s}
 function csv(t){const L=[];(t.parts||[]).forEach(p=>{if(p.label)L.push([p.label]);L.push(p.columns);p.rows.forEach(r=>L.push(r));L.push([])});
