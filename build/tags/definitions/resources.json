@@ -1,0 +1,2159 @@
+{
+  "topics": {
+    "geography": {
+      "label": "Geography",
+      "definition": "The natural setting, territorial extent, physical features and environmental conditions of places.",
+      "includes": [
+        "Location, area, topography, geology, climate, natural species and land surveys."
+      ],
+      "excludes": [
+        "Administrative organisation without geographical substance",
+        "extractive output alone."
+      ],
+      "aliases": []
+    },
+    "disasters": {
+      "label": "Disasters",
+      "definition": "Destructive natural or accidental events, their losses, preparedness and responses.",
+      "includes": [
+        "Earthquakes, volcanic eruptions, floods, famine, storms, fires, disaster losses and relief."
+      ],
+      "excludes": [
+        "Routine weather",
+        "disease incidence without a disaster frame",
+        "preventive public works without a disaster purpose."
+      ],
+      "aliases": []
+    },
+    "agriculture": {
+      "label": "Agriculture",
+      "definition": "Cultivation, animal husbandry and the land, inputs and practices supporting farming.",
+      "includes": [
+        "Crops, cultivated area, farm tenure, livestock, sericulture, irrigation and agricultural improvement."
+      ],
+      "excludes": [
+        "Commercial forestry and capture fisheries alone",
+        "food manufacturing without a substantive farming subject."
+      ],
+      "aliases": []
+    },
+    "forestry": {
+      "label": "Forestry",
+      "definition": "Forest resources, their cultivation, protection, harvesting and primary forest products.",
+      "includes": [
+        "Forest area, standing timber, logging, afforestation, camphor, bamboo, fuelwood and charcoal."
+      ],
+      "excludes": [
+        "General wild species inventories",
+        "paper manufacture without forest resources or forestry activity."
+      ],
+      "aliases": []
+    },
+    "fisheries": {
+      "label": "Fisheries",
+      "definition": "Capture and cultivation of aquatic resources and the organisation of their exploitation.",
+      "includes": [
+        "Marine and inland fishing, aquaculture, whaling, seaweed and fishing rights."
+      ],
+      "excludes": [
+        "Salt manufacture without aquatic-resource harvesting",
+        "food processing without a substantive fisheries subject."
+      ],
+      "aliases": []
+    },
+    "mining": {
+      "label": "Mining",
+      "definition": "Mineral resources and their exploration, rights, extraction and primary preparation.",
+      "includes": [
+        "Mineral deposits, mines, quarries, coal, petroleum, ores, salt and mining concessions."
+      ],
+      "excludes": [
+        "Metal manufacture without mineral extraction or commodity content",
+        "utility supply alone."
+      ],
+      "aliases": []
+    },
+    "manufacturing": {
+      "label": "Manufacturing",
+      "definition": "Transforming raw materials into industrial, artisan or processed products.",
+      "includes": [
+        "Factories, industrial output, textiles, metals, machinery, chemicals, processed foods and cottage industries."
+      ],
+      "excludes": [
+        "Agricultural harvests and mineral extraction alone",
+        "construction or utility operations alone."
+      ],
+      "aliases": []
+    },
+    "utilities": {
+      "label": "Utilities",
+      "definition": "Public and industrial service infrastructure and civil works that supply or improve the built environment.",
+      "includes": [
+        "Electricity, gas, water, sewerage, construction, river works, land reclamation and urban planning."
+      ],
+      "excludes": [
+        "Transport or communications operations alone",
+        "disaster losses without infrastructure or service content."
+      ],
+      "aliases": []
+    }
+  },
+  "tags": {
+    "land-area": {
+      "label": "land area",
+      "definition": "The extent of a territory or a classified part of its land surface.",
+      "includes": [
+        "Territorial area, boundaries expressed as area, and land-use area totals."
+      ],
+      "excludes": [
+        "Population density without substantive area data",
+        "cadastral survey methods alone."
+      ],
+      "aliases": [
+        "territorial area",
+        "surface area"
+      ],
+      "related_topics": [
+        "geography"
+      ]
+    },
+    "physical-geography": {
+      "label": "physical geography",
+      "definition": "Natural landforms, location, geology, soils, coasts and other physical characteristics of a region.",
+      "includes": [
+        "Mountains, lakes, coastlines, geological formations and soil descriptions."
+      ],
+      "excludes": [
+        "Weather observations",
+        "mineral output or reserves without geographical description."
+      ],
+      "aliases": [
+        "geographical features",
+        "physical features"
+      ],
+      "related_topics": [
+        "geography"
+      ]
+    },
+    "weather": {
+      "label": "weather",
+      "definition": "Atmospheric conditions and their observed or seasonal patterns.",
+      "includes": [
+        "Temperature, rainfall, humidity, sunshine, frost, wind and climate comparisons."
+      ],
+      "excludes": [
+        "Damage or relief from a particular storm",
+        "river discharge without weather data."
+      ],
+      "aliases": [
+        "climate",
+        "meteorology",
+        "precipitation"
+      ],
+      "related_topics": [
+        "geography"
+      ]
+    },
+    "flora-and-fauna": {
+      "label": "flora and fauna",
+      "definition": "Wild plants and animals and their distribution or natural characteristics.",
+      "includes": [
+        "Species inventories, native vegetation, wildlife populations and natural habitats."
+      ],
+      "excludes": [
+        "Cultivated crop yields",
+        "livestock husbandry",
+        "commercial fish catches alone."
+      ],
+      "aliases": [
+        "wild plants and animals"
+      ],
+      "related_topics": [
+        "geography"
+      ]
+    },
+    "earthquakes-and-volcanoes": {
+      "label": "earthquakes and volcanoes",
+      "definition": "Seismic activity and volcanic features, eruptions and associated effects.",
+      "includes": [
+        "Earthquake frequency and intensity, volcanoes, eruptions and earthquake losses."
+      ],
+      "excludes": [
+        "Other disasters",
+        "geological description with no seismic or volcanic subject."
+      ],
+      "aliases": [
+        "seismicity",
+        "volcanism"
+      ],
+      "related_topics": [
+        "geography",
+        "disasters"
+      ]
+    },
+    "rivers-and-waterways": {
+      "label": "rivers and waterways",
+      "definition": "The physical characteristics, courses and water regimes of rivers and other inland waterways.",
+      "includes": [
+        "River systems, lengths, drainage basins, lakes connected to waterways and seasonal navigability."
+      ],
+      "excludes": [
+        "Cargo traffic alone",
+        "flood prevention works without substantive river description."
+      ],
+      "aliases": [
+        "river systems",
+        "hydrology",
+        "inland waterways"
+      ],
+      "related_topics": [
+        "geography",
+        "transportation"
+      ]
+    },
+    "land-surveys": {
+      "label": "land surveys",
+      "definition": "Measurement and mapping of land for geographical, cadastral or administrative knowledge.",
+      "includes": [
+        "Surveyed acreage, cadastral surveying, triangulation and land survey operations."
+      ],
+      "excludes": [
+        "Registration of ownership or deeds alone",
+        "crop area estimates without survey activity."
+      ],
+      "aliases": [
+        "land surveying"
+      ],
+      "related_topics": [
+        "geography",
+        "government"
+      ]
+    },
+    "floods": {
+      "label": "floods",
+      "definition": "Inundation events and their incidence, extent, causes or consequences.",
+      "includes": [
+        "River floods, storm surges, flooded districts and inundated acreage."
+      ],
+      "excludes": [
+        "Flood prevention infrastructure without an inundation event",
+        "routine rainfall alone."
+      ],
+      "aliases": [
+        "inundation",
+        "flooding"
+      ],
+      "related_topics": [
+        "disasters"
+      ]
+    },
+    "famine": {
+      "label": "famine",
+      "definition": "Severe food scarcity affecting populations and its incidence or consequences.",
+      "includes": [
+        "Famine districts, affected population, starvation and crop failure explicitly linked to famine."
+      ],
+      "excludes": [
+        "Ordinary food prices, rationing or nutrition without severe scarcity."
+      ],
+      "aliases": [
+        "food famine"
+      ],
+      "related_topics": [
+        "disasters"
+      ]
+    },
+    "disaster-losses": {
+      "label": "disaster losses",
+      "definition": "Deaths, injuries and material or economic damage attributed to disasters.",
+      "includes": [
+        "Destroyed buildings, damaged crops, disaster casualties and estimated losses."
+      ],
+      "excludes": [
+        "Routine mortality without disaster attribution",
+        "relief expenditure alone."
+      ],
+      "aliases": [
+        "disaster damage",
+        "calamity losses"
+      ],
+      "related_topics": [
+        "disasters"
+      ]
+    },
+    "disaster-relief": {
+      "label": "disaster relief",
+      "definition": "Aid, rescue, recovery support and public assistance responding to a disaster.",
+      "includes": [
+        "Relief funds, emergency food, shelter, rescue operations and disaster assistance recipients."
+      ],
+      "excludes": [
+        "Routine poor relief",
+        "preventive engineering without disaster response."
+      ],
+      "aliases": [
+        "emergency disaster assistance",
+        "calamity relief"
+      ],
+      "related_topics": [
+        "disasters",
+        "welfare"
+      ]
+    },
+    "fires": {
+      "label": "fires",
+      "definition": "Uncontrolled fires and their incidence, causes or damage.",
+      "includes": [
+        "Urban and rural fires, burned property, fire causes and conflagration losses."
+      ],
+      "excludes": [
+        "Fire brigades or equipment without fire-event statistics",
+        "industrial fuel consumption."
+      ],
+      "aliases": [
+        "conflagrations"
+      ],
+      "related_topics": [
+        "disasters"
+      ]
+    },
+    "storms-and-typhoons": {
+      "label": "storms and typhoons",
+      "definition": "Severe atmospheric storms and their tracks, frequency or impacts.",
+      "includes": [
+        "Typhoons, cyclones, violent storms and their damage."
+      ],
+      "excludes": [
+        "Routine wind and rainfall observations",
+        "floods without a storm connection."
+      ],
+      "aliases": [
+        "cyclones",
+        "hurricanes",
+        "storm damage"
+      ],
+      "related_topics": [
+        "disasters",
+        "geography"
+      ]
+    },
+    "firefighting": {
+      "label": "firefighting",
+      "definition": "Organisation, personnel, equipment and activity for preventing or extinguishing fires.",
+      "includes": [
+        "Fire brigades, fire engines, hydrants, fire prevention and emergency responses."
+      ],
+      "excludes": [
+        "Fire loss statistics without response or prevention activity",
+        "military incendiaries."
+      ],
+      "aliases": [
+        "fire brigades",
+        "fire services",
+        "fire prevention"
+      ],
+      "related_topics": [
+        "disasters",
+        "government"
+      ]
+    },
+    "arable-land": {
+      "label": "arable land",
+      "definition": "Land available for or used in cultivation, classified by agricultural use.",
+      "includes": [
+        "Cultivated acreage, paddy and dry fields, fallow land and agricultural land utilisation."
+      ],
+      "excludes": [
+        "Crop output without area",
+        "forest area",
+        "land title registration alone."
+      ],
+      "aliases": [
+        "cultivated land",
+        "farm acreage",
+        "agricultural land"
+      ],
+      "related_topics": [
+        "agriculture"
+      ]
+    },
+    "land-tenure": {
+      "label": "land tenure",
+      "definition": "Rights and arrangements under which agricultural land is held, rented or farmed.",
+      "includes": [
+        "Owner and tenant farms, tenancy rents, farm holdings, land ownership and tenancy reform."
+      ],
+      "excludes": [
+        "Cadastral survey operations alone",
+        "non-agricultural property transfers."
+      ],
+      "aliases": [
+        "farm tenancy",
+        "agricultural landownership"
+      ],
+      "related_topics": [
+        "agriculture"
+      ]
+    },
+    "crop-production": {
+      "label": "crop production",
+      "definition": "The quantity, value, yield and cultivated extent of crops collectively or across several crop types.",
+      "includes": [
+        "Harvest totals, crop yields, planted areas, forecasts and comparative crop production."
+      ],
+      "excludes": [
+        "Livestock totals",
+        "manufactured foods",
+        "a single crop when its specific tag suffices."
+      ],
+      "aliases": [
+        "crop output",
+        "harvests"
+      ],
+      "related_topics": [
+        "agriculture"
+      ]
+    },
+    "rice": {
+      "label": "rice",
+      "definition": "Rice as a crop or commodity, including paddy and upland rice.",
+      "includes": [
+        "Rice cultivation, yields, stocks, prices and trade in rice or paddy."
+      ],
+      "excludes": [
+        "Rice milling establishments or milling activity without substantive rice data",
+        "other cereals."
+      ],
+      "aliases": [
+        "paddy",
+        "upland rice"
+      ],
+      "related_topics": [
+        "agriculture",
+        "trade"
+      ]
+    },
+    "cereals": {
+      "label": "cereals",
+      "definition": "Grain crops collectively or types without a more specific cereal tag.",
+      "includes": [
+        "Millet, kaoliang or sorghum, maize, oats and mixed-grain production or trade."
+      ],
+      "excludes": [
+        "Soybeans and other pulses",
+        "rice, wheat or barley alone when a specific tag suffices."
+      ],
+      "aliases": [
+        "grains",
+        "grain crops"
+      ],
+      "related_topics": [
+        "agriculture",
+        "trade"
+      ]
+    },
+    "horticulture": {
+      "label": "horticulture",
+      "definition": "Cultivation and production of fruit, vegetables, flowers and other garden crops.",
+      "includes": [
+        "Orchards, market gardens, fruit and vegetable yields and nursery plants."
+      ],
+      "excludes": [
+        "Field cereals",
+        "a named crop with a sufficient specific tag",
+        "wild plant inventories."
+      ],
+      "aliases": [
+        "garden cultivation"
+      ],
+      "related_topics": [
+        "agriculture"
+      ]
+    },
+    "tea": {
+      "label": "tea",
+      "definition": "Tea cultivation and tea as a processed or traded commodity.",
+      "includes": [
+        "Tea acreage, leaf output, tea preparation, prices and tea exports."
+      ],
+      "excludes": [
+        "Coffee",
+        "herbal medicines",
+        "beverages with no substantive tea content."
+      ],
+      "aliases": [
+        "tea leaf"
+      ],
+      "related_topics": [
+        "agriculture",
+        "manufacturing",
+        "trade"
+      ]
+    },
+    "industrial-crops": {
+      "label": "industrial crops",
+      "definition": "Crops grown principally as raw material for non-food processing, or mixed industrial-crop statistics.",
+      "includes": [
+        "Industrial crop areas and yields, sugar beet and raw materials where no specific crop tag suffices."
+      ],
+      "excludes": [
+        "Manufactured industrial goods",
+        "named crops adequately covered by a specific tag."
+      ],
+      "aliases": [
+        "industrial raw-material crops"
+      ],
+      "related_topics": [
+        "agriculture"
+      ]
+    },
+    "livestock": {
+      "label": "livestock",
+      "definition": "Domesticated farm animals and their husbandry or primary products.",
+      "includes": [
+        "Cattle, horses, sheep, pigs, dairy farming, breeding, milk and livestock trade."
+      ],
+      "excludes": [
+        "Wildlife",
+        "poultry or eggs alone when the specific tag suffices",
+        "animal disease control alone."
+      ],
+      "aliases": [
+        "animal husbandry",
+        "live-stock",
+        "stockbreeding"
+      ],
+      "related_topics": [
+        "agriculture",
+        "trade"
+      ]
+    },
+    "sericulture": {
+      "label": "sericulture",
+      "definition": "Rearing silkworms and producing cocoons for silk.",
+      "includes": [
+        "Silkworm eggs, mulberry cultivation for silkworms, cocoons and tussah or wild silk rearing."
+      ],
+      "excludes": [
+        "Silk reeling, yarn and fabric manufacture without silkworm rearing or cocoons."
+      ],
+      "aliases": [
+        "silkworm rearing",
+        "silk culture"
+      ],
+      "related_topics": [
+        "agriculture"
+      ]
+    },
+    "irrigation": {
+      "label": "irrigation",
+      "definition": "Supplying and distributing water to agricultural land.",
+      "includes": [
+        "Irrigated acreage, farm canals, irrigation associations, reservoirs and irrigation charges."
+      ],
+      "excludes": [
+        "Urban water supply",
+        "flood prevention works without agricultural water use."
+      ],
+      "aliases": [
+        "agricultural water supply",
+        "irrigation canals"
+      ],
+      "related_topics": [
+        "agriculture",
+        "utilities"
+      ]
+    },
+    "wheat": {
+      "label": "wheat",
+      "definition": "Wheat as a crop or commodity.",
+      "includes": [
+        "Wheat acreage, yields, harvests, prices and trade."
+      ],
+      "excludes": [
+        "Flour manufacture without substantive wheat data",
+        "other cereals."
+      ],
+      "aliases": [
+        "wheat crop"
+      ],
+      "related_topics": [
+        "agriculture",
+        "trade"
+      ]
+    },
+    "soybeans": {
+      "label": "soybeans",
+      "definition": "Soybeans and their primary commodity products, including beans, bean cake and bean oil when the soybean connection is substantive.",
+      "includes": [
+        "Soybean cultivation, harvests, stocks, prices, trade and comparisons of soybean products."
+      ],
+      "excludes": [
+        "Other beans",
+        "oil milling without an identified soybean subject."
+      ],
+      "aliases": [
+        "soya beans",
+        "soya-beans",
+        "soy beans"
+      ],
+      "related_topics": [
+        "agriculture",
+        "trade",
+        "manufacturing"
+      ]
+    },
+    "oilseeds": {
+      "label": "oilseeds",
+      "definition": "Seeds and nuts grown or traded chiefly as a source of vegetable oil.",
+      "includes": [
+        "Sesame, perilla, rapeseed, groundnuts, castor seed and mixed oilseed statistics."
+      ],
+      "excludes": [
+        "Finished vegetable oils alone",
+        "soybeans alone when the specific tag suffices."
+      ],
+      "aliases": [
+        "oil-bearing seeds"
+      ],
+      "related_topics": [
+        "agriculture",
+        "trade"
+      ]
+    },
+    "eggs-and-poultry": {
+      "label": "eggs and poultry",
+      "definition": "Domesticated birds, poultry keeping, eggs and their primary products.",
+      "includes": [
+        "Chicken, duck and other poultry numbers, egg production and egg or poultry trade."
+      ],
+      "excludes": [
+        "Other livestock",
+        "wild birds",
+        "general food processing without poultry content."
+      ],
+      "aliases": [
+        "poultry farming",
+        "eggs"
+      ],
+      "related_topics": [
+        "agriculture",
+        "trade"
+      ]
+    },
+    "farm-inputs": {
+      "label": "farm inputs",
+      "definition": "Materials, equipment and other production inputs used in farming.",
+      "includes": [
+        "Farm implements, seed supplies, fertiliser use, animal feed and agricultural input costs."
+      ],
+      "excludes": [
+        "Production of machinery or fertilisers without farm use",
+        "farm credit alone."
+      ],
+      "aliases": [
+        "agricultural inputs"
+      ],
+      "related_topics": [
+        "agriculture"
+      ]
+    },
+    "ginseng": {
+      "label": "ginseng",
+      "definition": "Ginseng cultivation, output and commerce.",
+      "includes": [
+        "Ginseng acreage, roots, production, processing and trade."
+      ],
+      "excludes": [
+        "Other medicinal plants",
+        "pharmaceuticals without an identified ginseng subject."
+      ],
+      "aliases": [
+        "ginseng root"
+      ],
+      "related_topics": [
+        "agriculture",
+        "trade"
+      ]
+    },
+    "barley": {
+      "label": "barley",
+      "definition": "Barley as a crop or commodity.",
+      "includes": [
+        "Barley acreage, harvests, yields, prices and trade."
+      ],
+      "excludes": [
+        "Other cereals",
+        "beer production without barley data."
+      ],
+      "aliases": [
+        "barley crop"
+      ],
+      "related_topics": [
+        "agriculture",
+        "trade"
+      ]
+    },
+    "agricultural-extension": {
+      "label": "agricultural extension",
+      "definition": "Institutions and activities that spread agricultural knowledge or improve farming practice.",
+      "includes": [
+        "Model farms, experiment stations offering agricultural improvement, demonstrations, training and advisory work."
+      ],
+      "excludes": [
+        "General school statistics",
+        "crop production with no extension activity."
+      ],
+      "aliases": [
+        "agricultural advisory services",
+        "farm extension"
+      ],
+      "related_topics": [
+        "agriculture",
+        "education",
+        "science-and-technology"
+      ]
+    },
+    "land-improvement": {
+      "label": "land improvement",
+      "definition": "Works that improve existing agricultural land or its productive condition.",
+      "includes": [
+        "Farm drainage, field consolidation, soil improvement and agricultural land improvement associations."
+      ],
+      "excludes": [
+        "Reclamation creating new land",
+        "irrigation alone when its specific tag suffices",
+        "general urban works."
+      ],
+      "aliases": [
+        "agricultural land improvement",
+        "farm drainage"
+      ],
+      "related_topics": [
+        "agriculture",
+        "utilities"
+      ]
+    },
+    "shifting-cultivation": {
+      "label": "shifting cultivation",
+      "definition": "Farming that rotates cultivation between plots after clearing vegetation and leaving land fallow.",
+      "includes": [
+        "Swidden acreage, slash-and-burn farming, cultivation cycles and regulation of shifting cultivation."
+      ],
+      "excludes": [
+        "Permanent-field crop rotation",
+        "forest clearing without evidence of shifting cultivation."
+      ],
+      "aliases": [
+        "swidden",
+        "slash-and-burn cultivation"
+      ],
+      "related_topics": [
+        "agriculture"
+      ]
+    },
+    "sugarcane": {
+      "label": "sugarcane",
+      "definition": "Sugarcane cultivation and cane as an agricultural commodity.",
+      "includes": [
+        "Cane acreage, yields, harvests and cane deliveries or trade."
+      ],
+      "excludes": [
+        "Refined sugar or sugar factories without cane data",
+        "sugar beet."
+      ],
+      "aliases": [
+        "sugar cane"
+      ],
+      "related_topics": [
+        "agriculture",
+        "trade"
+      ]
+    },
+    "pineapples": {
+      "label": "pineapples",
+      "definition": "Pineapple cultivation and pineapple as a commodity.",
+      "includes": [
+        "Pineapple acreage, harvests, fresh fruit and pineapple trade."
+      ],
+      "excludes": [
+        "Mixed fruit totals without pineapple detail",
+        "canning activity without an identified pineapple subject."
+      ],
+      "aliases": [
+        "pineapple crop"
+      ],
+      "related_topics": [
+        "agriculture",
+        "trade"
+      ]
+    },
+    "plant-fibres": {
+      "label": "plant fibres",
+      "definition": "Plants and raw vegetable fibres used for textiles, cordage and related manufacture.",
+      "includes": [
+        "Hemp, flax, jute, ramie, abaca and their cultivated area, raw fibre output or trade."
+      ],
+      "excludes": [
+        "Finished fabric alone",
+        "cotton alone when the specific tag suffices",
+        "synthetic fibres."
+      ],
+      "aliases": [
+        "vegetable fibres",
+        "hemp",
+        "flax",
+        "jute",
+        "ramie",
+        "abaca"
+      ],
+      "related_topics": [
+        "agriculture",
+        "manufacturing",
+        "trade"
+      ]
+    },
+    "indigo": {
+      "label": "indigo",
+      "definition": "Indigo cultivation and natural indigo dye production or commerce.",
+      "includes": [
+        "Indigo acreage, leaves, dye extraction, production and trade."
+      ],
+      "excludes": [
+        "Synthetic dyestuffs without natural indigo",
+        "other industrial crops."
+      ],
+      "aliases": [
+        "natural indigo",
+        "indigo dye"
+      ],
+      "related_topics": [
+        "agriculture",
+        "manufacturing",
+        "trade"
+      ]
+    },
+    "coconuts": {
+      "label": "coconuts",
+      "definition": "Coconut palms and their whole fruit or other primary agricultural products.",
+      "includes": [
+        "Coconut planting, palm counts, nuts harvested and coconut trade."
+      ],
+      "excludes": [
+        "Copra alone when its specific tag suffices",
+        "coconut oil manufacture alone."
+      ],
+      "aliases": [
+        "coconut nuts"
+      ],
+      "related_topics": [
+        "agriculture",
+        "trade"
+      ]
+    },
+    "copra": {
+      "label": "copra",
+      "definition": "Dried coconut kernel produced or traded as a commodity.",
+      "includes": [
+        "Copra output, drying, stocks, prices and trade."
+      ],
+      "excludes": [
+        "Whole coconuts without copra",
+        "extracted coconut oil without copra data."
+      ],
+      "aliases": [
+        "dried coconut kernel"
+      ],
+      "related_topics": [
+        "agriculture",
+        "trade"
+      ]
+    },
+    "coffee": {
+      "label": "coffee",
+      "definition": "Coffee cultivation, preparation and commerce.",
+      "includes": [
+        "Coffee acreage, beans, harvests, roasting, prices and trade."
+      ],
+      "excludes": [
+        "Tea",
+        "general beverage totals without coffee detail."
+      ],
+      "aliases": [
+        "coffee beans"
+      ],
+      "related_topics": [
+        "agriculture",
+        "manufacturing",
+        "trade"
+      ]
+    },
+    "forest-area": {
+      "label": "forest area",
+      "definition": "The extent, distribution and composition of forest land and standing timber.",
+      "includes": [
+        "Forest acreage, forest types, ownership classes and standing timber volume."
+      ],
+      "excludes": [
+        "Harvested timber output without forest extent",
+        "afforestation operations alone."
+      ],
+      "aliases": [
+        "forest acreage"
+      ],
+      "related_topics": [
+        "forestry"
+      ]
+    },
+    "timber": {
+      "label": "timber",
+      "definition": "Wood harvested or processed for construction and other material uses.",
+      "includes": [
+        "Logging, lumber output, sawmilling, timber species in commerce, prices and trade."
+      ],
+      "excludes": [
+        "Forest area without timber content",
+        "fuelwood, charcoal or paper pulp alone."
+      ],
+      "aliases": [
+        "lumber",
+        "logs",
+        "sawn wood"
+      ],
+      "related_topics": [
+        "forestry",
+        "manufacturing",
+        "trade"
+      ]
+    },
+    "forest-management": {
+      "label": "forest management",
+      "definition": "Administration, regulation, protection and planned exploitation of forests.",
+      "includes": [
+        "Forest working plans, concessions, forest protection, forestry administration and harvesting control."
+      ],
+      "excludes": [
+        "Planting operations alone",
+        "forest acreage without management content."
+      ],
+      "aliases": [
+        "forestry management"
+      ],
+      "related_topics": [
+        "forestry"
+      ]
+    },
+    "afforestation": {
+      "label": "afforestation",
+      "definition": "Planting and regeneration of forests.",
+      "includes": [
+        "Tree planting, reforestation, nurseries supplying forest trees and restored forest acreage."
+      ],
+      "excludes": [
+        "Routine forest harvests",
+        "agricultural orchards",
+        "erosion works with no tree planting."
+      ],
+      "aliases": [
+        "reforestation",
+        "forest planting"
+      ],
+      "related_topics": [
+        "forestry"
+      ]
+    },
+    "camphor": {
+      "label": "camphor",
+      "definition": "Camphor trees, natural camphor production and its commerce or control.",
+      "includes": [
+        "Camphor extraction, camphor oil, tree resources, production, trade and monopoly operations."
+      ],
+      "excludes": [
+        "General chemicals without camphor detail",
+        "unrelated essential oils."
+      ],
+      "aliases": [
+        "natural camphor",
+        "camphor oil"
+      ],
+      "related_topics": [
+        "forestry",
+        "manufacturing",
+        "trade"
+      ]
+    },
+    "bamboo-and-rattan": {
+      "label": "bamboo and rattan",
+      "definition": "Bamboo and rattan resources, harvesting and commodities.",
+      "includes": [
+        "Bamboo groves, rattan collection, culms, canes and bamboo or rattan products and trade."
+      ],
+      "excludes": [
+        "Other timber or plant fibres without bamboo or rattan detail."
+      ],
+      "aliases": [
+        "bamboo",
+        "rattan"
+      ],
+      "related_topics": [
+        "forestry",
+        "manufacturing",
+        "trade"
+      ]
+    },
+    "fuelwood-and-charcoal": {
+      "label": "fuelwood and charcoal",
+      "definition": "Wood and wood-derived charcoal produced or used as fuel.",
+      "includes": [
+        "Firewood harvesting, charcoal kilns, production, fuel consumption and trade."
+      ],
+      "excludes": [
+        "Coal and coke",
+        "timber used as material",
+        "non-wood charcoal without forest connection."
+      ],
+      "aliases": [
+        "firewood",
+        "wood charcoal"
+      ],
+      "related_topics": [
+        "forestry",
+        "trade"
+      ]
+    },
+    "fishing": {
+      "label": "fishing",
+      "definition": "Capture fisheries and their catches, vessels, workers and operations.",
+      "includes": [
+        "Marine and freshwater fishing, catches by species, fishing boats and fishing households."
+      ],
+      "excludes": [
+        "Fish farming alone",
+        "manufactured fish products without capture-fishery data."
+      ],
+      "aliases": [
+        "capture fisheries",
+        "fishery"
+      ],
+      "related_topics": [
+        "fisheries"
+      ]
+    },
+    "aquaculture": {
+      "label": "aquaculture",
+      "definition": "Cultivating aquatic animals or plants under managed conditions.",
+      "includes": [
+        "Fish ponds, hatcheries, oyster or shellfish culture and aquaculture output."
+      ],
+      "excludes": [
+        "Wild catches",
+        "fish processing",
+        "wild seaweed collection alone."
+      ],
+      "aliases": [
+        "fish farming",
+        "pisciculture",
+        "fish culture"
+      ],
+      "related_topics": [
+        "fisheries"
+      ]
+    },
+    "whaling": {
+      "label": "whaling",
+      "definition": "Hunting whales and producing or trading primary whale products.",
+      "includes": [
+        "Whaling vessels, catches, species, whale meat and whale oil."
+      ],
+      "excludes": [
+        "General fishing without whales",
+        "industrial oils without an identified whale source."
+      ],
+      "aliases": [
+        "whale hunting"
+      ],
+      "related_topics": [
+        "fisheries",
+        "trade"
+      ]
+    },
+    "fishing-rights-and-licences": {
+      "label": "fishing rights and licences",
+      "definition": "Legal rights, permits and regulation governing access to fisheries.",
+      "includes": [
+        "Fishing concessions, fishing licences, fishing grounds rights and licence fees."
+      ],
+      "excludes": [
+        "Catch totals without rights or licensing",
+        "mining concessions."
+      ],
+      "aliases": [
+        "fishing licenses",
+        "fishery rights",
+        "fishing concessions"
+      ],
+      "related_topics": [
+        "fisheries",
+        "government"
+      ]
+    },
+    "seaweed": {
+      "label": "seaweed",
+      "definition": "Seaweed and other harvested or cultivated marine algae as resources or commodities.",
+      "includes": [
+        "Kelp, laver, seaweed culture, collection, output, agar feedstocks and seaweed trade."
+      ],
+      "excludes": [
+        "Other aquatic crops",
+        "agar manufacture without substantive seaweed data."
+      ],
+      "aliases": [
+        "kelp",
+        "laver",
+        "marine algae"
+      ],
+      "related_topics": [
+        "fisheries",
+        "trade"
+      ]
+    },
+    "mineral-production": {
+      "label": "mineral production",
+      "definition": "Extraction and initial preparation of minerals, collectively or without a sufficient specific mineral tag.",
+      "includes": [
+        "Mine output, quarries, ore dressing, mine counts and mixed mineral production."
+      ],
+      "excludes": [
+        "Unworked reserves alone",
+        "smelting or finished industrial goods without extraction."
+      ],
+      "aliases": [
+        "mining output",
+        "mineral output",
+        "quarrying"
+      ],
+      "related_topics": [
+        "mining"
+      ]
+    },
+    "coal": {
+      "label": "coal",
+      "definition": "Coal and coal-derived coke as mineral or fuel commodities.",
+      "includes": [
+        "Coal mining, collieries, lignite, coal output, coke, consumption, prices and trade."
+      ],
+      "excludes": [
+        "Manufactured gas alone",
+        "charcoal",
+        "petroleum and oil shale."
+      ],
+      "aliases": [
+        "mineral coal"
+      ],
+      "related_topics": [
+        "mining",
+        "trade"
+      ]
+    },
+    "petroleum": {
+      "label": "petroleum",
+      "definition": "Crude oil, shale oil and refined petroleum products as resources or commodities.",
+      "includes": [
+        "Oil extraction, oil shale workings and distillation, refining, fuel oil and petroleum trade."
+      ],
+      "excludes": [
+        "Manufactured town gas",
+        "vegetable oils",
+        "coal output without oil."
+      ],
+      "aliases": [
+        "mineral oil",
+        "petroleum oil"
+      ],
+      "related_topics": [
+        "mining",
+        "manufacturing",
+        "trade"
+      ]
+    },
+    "gold": {
+      "label": "gold",
+      "definition": "Gold as a mineral, metal or commodity.",
+      "includes": [
+        "Gold mining, placer deposits, output, bullion and gold trade."
+      ],
+      "excludes": [
+        "Currency values merely expressed in gold",
+        "gold-standard policy without gold commodity data."
+      ],
+      "aliases": [
+        "gold mining",
+        "gold bullion"
+      ],
+      "related_topics": [
+        "mining",
+        "trade"
+      ]
+    },
+    "silver": {
+      "label": "silver",
+      "definition": "Silver as a mineral, metal or commodity.",
+      "includes": [
+        "Silver mining, output, bullion and silver trade."
+      ],
+      "excludes": [
+        "Currency or exchange rates merely expressed in silver",
+        "coin circulation without commodity data."
+      ],
+      "aliases": [
+        "silver mining",
+        "silver bullion"
+      ],
+      "related_topics": [
+        "mining",
+        "trade"
+      ]
+    },
+    "copper": {
+      "label": "copper",
+      "definition": "Copper ores and copper metal as resources or commodities.",
+      "includes": [
+        "Copper mines, output, smelting, copper products and trade."
+      ],
+      "excludes": [
+        "Copper currency denominations or coins without commodity data",
+        "brass goods without copper detail."
+      ],
+      "aliases": [
+        "copper ore",
+        "copper metal"
+      ],
+      "related_topics": [
+        "mining",
+        "manufacturing",
+        "trade"
+      ]
+    },
+    "mineral-reserves": {
+      "label": "mineral reserves",
+      "definition": "Identified mineral deposits, estimated reserves and prospective mineral resources.",
+      "includes": [
+        "Ore deposits, coal reserves, geological estimates of recoverable minerals and resource surveys."
+      ],
+      "excludes": [
+        "Actual mine output alone",
+        "corporate financial reserves."
+      ],
+      "aliases": [
+        "mineral deposits",
+        "ore reserves",
+        "mineral resources"
+      ],
+      "related_topics": [
+        "mining"
+      ]
+    },
+    "iron-ore": {
+      "label": "iron ore",
+      "definition": "Iron-bearing ore and its extraction, deposits or commerce.",
+      "includes": [
+        "Iron mines, iron ore output, reserves, grades and trade."
+      ],
+      "excludes": [
+        "Pig iron, steel or finished iron goods without ore data."
+      ],
+      "aliases": [
+        "iron mines",
+        "ironstone"
+      ],
+      "related_topics": [
+        "mining",
+        "trade"
+      ]
+    },
+    "tin": {
+      "label": "tin",
+      "definition": "Tin ores and tin metal as resources or commodities.",
+      "includes": [
+        "Tin mines, cassiterite, output, refining and trade."
+      ],
+      "excludes": [
+        "Tinplate or canned goods without substantive tin commodity data."
+      ],
+      "aliases": [
+        "tin ore",
+        "cassiterite"
+      ],
+      "related_topics": [
+        "mining",
+        "manufacturing",
+        "trade"
+      ]
+    },
+    "tungsten": {
+      "label": "tungsten",
+      "definition": "Tungsten ores and metal as resources or commodities.",
+      "includes": [
+        "Wolfram, scheelite, tungsten mining, output and trade."
+      ],
+      "excludes": [
+        "Alloy steel without substantive tungsten data",
+        "tung oil."
+      ],
+      "aliases": [
+        "wolfram",
+        "scheelite",
+        "wolframite"
+      ],
+      "related_topics": [
+        "mining",
+        "manufacturing",
+        "trade"
+      ]
+    },
+    "antimony": {
+      "label": "antimony",
+      "definition": "Antimony ores and metal as resources or commodities.",
+      "includes": [
+        "Stibnite, antimony mining, output, smelting and trade."
+      ],
+      "excludes": [
+        "Other nonferrous metals or chemicals without antimony detail."
+      ],
+      "aliases": [
+        "antimony ore",
+        "stibnite"
+      ],
+      "related_topics": [
+        "mining",
+        "manufacturing",
+        "trade"
+      ]
+    },
+    "manganese": {
+      "label": "manganese",
+      "definition": "Manganese ores and metal as resources or commodities.",
+      "includes": [
+        "Manganese mining, deposits, ore output and trade."
+      ],
+      "excludes": [
+        "Steel alloys without substantive manganese data."
+      ],
+      "aliases": [
+        "manganese ore"
+      ],
+      "related_topics": [
+        "mining",
+        "manufacturing",
+        "trade"
+      ]
+    },
+    "lead-and-zinc": {
+      "label": "lead and zinc",
+      "definition": "Lead and zinc ores, metals and their primary commodity products.",
+      "includes": [
+        "Lead or zinc mining, output, smelting and trade."
+      ],
+      "excludes": [
+        "Other metals without lead or zinc detail",
+        "manufactured goods where metal content is incidental."
+      ],
+      "aliases": [
+        "lead",
+        "zinc",
+        "lead ore",
+        "zinc ore"
+      ],
+      "related_topics": [
+        "mining",
+        "manufacturing",
+        "trade"
+      ]
+    },
+    "salt": {
+      "label": "salt",
+      "definition": "Common salt as an extracted, manufactured or traded commodity.",
+      "includes": [
+        "Salt fields, seawater evaporation, rock salt, output, salt manufacture and trade."
+      ],
+      "excludes": [
+        "Salt tax receipts alone",
+        "chemical salts unrelated to common salt."
+      ],
+      "aliases": [
+        "common salt",
+        "salt manufacture",
+        "salt fields"
+      ],
+      "related_topics": [
+        "mining",
+        "manufacturing",
+        "trade"
+      ]
+    },
+    "graphite": {
+      "label": "graphite",
+      "definition": "Natural graphite resources, extraction and commerce.",
+      "includes": [
+        "Graphite deposits, mines, output, grades and trade."
+      ],
+      "excludes": [
+        "Pencil manufacture without substantive graphite data",
+        "other carbon products."
+      ],
+      "aliases": [
+        "plumbago",
+        "natural graphite"
+      ],
+      "related_topics": [
+        "mining",
+        "trade"
+      ]
+    },
+    "mining-rights-and-concessions": {
+      "label": "mining rights and concessions",
+      "definition": "Legal rights, permits and concessions for mineral exploration or extraction.",
+      "includes": [
+        "Mining licences, mining leases, registered claims, concession acreage and mineral-rights regulation."
+      ],
+      "excludes": [
+        "Mine output without rights information",
+        "foreign concessions without mineral rights."
+      ],
+      "aliases": [
+        "mining licenses",
+        "mining licences",
+        "mineral rights",
+        "mining leases"
+      ],
+      "related_topics": [
+        "mining",
+        "government"
+      ]
+    },
+    "phosphate-rock": {
+      "label": "phosphate rock",
+      "definition": "Natural phosphate-bearing rock mined or traded for fertiliser and other uses.",
+      "includes": [
+        "Phosphate deposits, extraction, output, exports and phosphate mining concessions."
+      ],
+      "excludes": [
+        "Manufactured phosphate fertilisers without raw phosphate-rock data."
+      ],
+      "aliases": [
+        "rock phosphate",
+        "phosphorite"
+      ],
+      "related_topics": [
+        "mining",
+        "trade"
+      ]
+    },
+    "industrial-output": {
+      "label": "industrial output",
+      "definition": "Manufacturing production, capacity and industrial establishments collectively or without a sufficient specific industry tag.",
+      "includes": [
+        "Factory counts, production value, industrial capacity and output across manufacturing branches."
+      ],
+      "excludes": [
+        "Mineral extraction alone",
+        "utility supply alone",
+        "corporate finance without manufacturing production."
+      ],
+      "aliases": [
+        "manufacturing output",
+        "factory production"
+      ],
+      "related_topics": [
+        "manufacturing"
+      ]
+    },
+    "textiles": {
+      "label": "textiles",
+      "definition": "Textile manufacturing and textile products collectively or without a sufficient specific fibre tag.",
+      "includes": [
+        "Spinning, weaving, cloth, yarn, mixed textiles and fabric manufacture or trade."
+      ],
+      "excludes": [
+        "Raw plant-fibre farming",
+        "a single textile fibre when its specific tag suffices."
+      ],
+      "aliases": [
+        "textile industry",
+        "fabric industry"
+      ],
+      "related_topics": [
+        "manufacturing",
+        "trade"
+      ]
+    },
+    "silk": {
+      "label": "silk",
+      "definition": "Silk fibre, reeling, yarn, fabric and their commerce, including tussah silk.",
+      "includes": [
+        "Raw silk output, filatures, silk reeling, silk fabrics and trade."
+      ],
+      "excludes": [
+        "Silkworm rearing or cocoon production alone",
+        "unrelated textiles."
+      ],
+      "aliases": [
+        "silk fibre",
+        "silk products"
+      ],
+      "related_topics": [
+        "manufacturing",
+        "trade"
+      ]
+    },
+    "cotton": {
+      "label": "cotton",
+      "definition": "Cotton cultivation, raw cotton, cotton yarn and fabrics and their commerce.",
+      "includes": [
+        "Cotton acreage, harvests, ginning, spinning, weaving and cotton-goods trade."
+      ],
+      "excludes": [
+        "Other plant fibres or textiles without cotton detail."
+      ],
+      "aliases": [
+        "cotton fibre",
+        "cotton products"
+      ],
+      "related_topics": [
+        "manufacturing",
+        "agriculture",
+        "trade"
+      ]
+    },
+    "wool": {
+      "label": "wool",
+      "definition": "Animal wool and its preparation, textile manufacture and commerce.",
+      "includes": [
+        "Wool clips, scouring, woollen yarn, felt, woollen fabrics and wool trade."
+      ],
+      "excludes": [
+        "Sheep numbers alone",
+        "hides or furs without wool detail."
+      ],
+      "aliases": [
+        "wool fibre",
+        "wool products"
+      ],
+      "related_topics": [
+        "manufacturing",
+        "agriculture",
+        "trade"
+      ]
+    },
+    "rayon": {
+      "label": "rayon",
+      "definition": "Regenerated cellulose fibres and textile products made from them.",
+      "includes": [
+        "Artificial silk, rayon fibre, yarn, fabric output and trade."
+      ],
+      "excludes": [
+        "Natural silk",
+        "other synthetic fibres without rayon content."
+      ],
+      "aliases": [
+        "artificial silk",
+        "viscose rayon"
+      ],
+      "related_topics": [
+        "manufacturing",
+        "trade"
+      ]
+    },
+    "iron-and-steel": {
+      "label": "iron and steel",
+      "definition": "Smelting, refining and manufacture of iron and steel and their products.",
+      "includes": [
+        "Pig iron, steelworks, iron casting, rolled steel and iron or steel trade."
+      ],
+      "excludes": [
+        "Iron ore extraction alone",
+        "machinery counts without substantive iron or steel production."
+      ],
+      "aliases": [
+        "iron and steel industry"
+      ],
+      "related_topics": [
+        "manufacturing",
+        "trade"
+      ]
+    },
+    "machinery": {
+      "label": "machinery",
+      "definition": "Manufacture and commerce of machines, engines, tools and mechanical equipment.",
+      "includes": [
+        "Industrial machinery, machine tools, engines, electrical equipment and vehicle manufacture except ships."
+      ],
+      "excludes": [
+        "Machine use without equipment as a subject",
+        "shipbuilding alone",
+        "raw metal output."
+      ],
+      "aliases": [
+        "machine manufacture",
+        "machines"
+      ],
+      "related_topics": [
+        "manufacturing",
+        "trade"
+      ]
+    },
+    "shipbuilding": {
+      "label": "shipbuilding",
+      "definition": "Construction and repair of ships, boats and marine craft.",
+      "includes": [
+        "Shipyards, dockyards, vessels built, ship repairs and marine construction capacity."
+      ],
+      "excludes": [
+        "Vessel traffic or fleet counts without ship construction or repair",
+        "dock cargo handling."
+      ],
+      "aliases": [
+        "ship construction",
+        "boatbuilding"
+      ],
+      "related_topics": [
+        "manufacturing",
+        "transportation"
+      ]
+    },
+    "chemicals": {
+      "label": "chemicals",
+      "definition": "Chemical manufacture and chemical commodities collectively or without a sufficient specific product tag.",
+      "includes": [
+        "Acids, alkalis, dyestuffs, soap, matches, paints and industrial chemical production or trade."
+      ],
+      "excludes": [
+        "A specific chemical adequately covered by its dedicated tag",
+        "mineral extraction alone."
+      ],
+      "aliases": [
+        "chemical industry",
+        "chemical manufactures"
+      ],
+      "related_topics": [
+        "manufacturing",
+        "trade"
+      ]
+    },
+    "fertilisers": {
+      "label": "fertilisers",
+      "definition": "Manufacture, commerce and agricultural use of substances added to improve plant nutrition.",
+      "includes": [
+        "Chemical and organic fertilisers, fertiliser factories, output, imports and farm application."
+      ],
+      "excludes": [
+        "Raw phosphate-rock mining alone",
+        "animal feed",
+        "general soil works without fertiliser."
+      ],
+      "aliases": [
+        "fertilizers"
+      ],
+      "related_topics": [
+        "manufacturing",
+        "agriculture",
+        "trade"
+      ]
+    },
+    "paper-and-pulp": {
+      "label": "paper and pulp",
+      "definition": "Paper, paperboard and pulp manufacture and their commerce.",
+      "includes": [
+        "Paper mills, wood pulp, paper output, paper products and trade."
+      ],
+      "excludes": [
+        "Book or newspaper publication counts",
+        "timber harvests alone."
+      ],
+      "aliases": [
+        "paper and wood pulp"
+      ],
+      "related_topics": [
+        "manufacturing",
+        "trade"
+      ]
+    },
+    "ceramics-and-glass": {
+      "label": "ceramics and glass",
+      "definition": "Manufacture and commerce of ceramic, pottery and glass products.",
+      "includes": [
+        "Porcelain, earthenware, pottery, glassworks and glass output or trade."
+      ],
+      "excludes": [
+        "Cement and ordinary bricks alone",
+        "clay or silica extraction without finished-product data."
+      ],
+      "aliases": [
+        "ceramic and glass products"
+      ],
+      "related_topics": [
+        "manufacturing",
+        "trade"
+      ]
+    },
+    "food-processing": {
+      "label": "food processing",
+      "definition": "Manufacturing and preparation of foods collectively or without a sufficient specific product or process tag.",
+      "includes": [
+        "Flour milling, meat or fish processing, dairy manufacture, preserved foods and condiments."
+      ],
+      "excludes": [
+        "Farm harvests alone",
+        "a specific process or commodity when its dedicated tag suffices."
+      ],
+      "aliases": [
+        "food manufacture",
+        "comestible industry"
+      ],
+      "related_topics": [
+        "manufacturing",
+        "trade"
+      ]
+    },
+    "sugar": {
+      "label": "sugar",
+      "definition": "Sugar manufacture, refined or raw sugar and its commerce.",
+      "includes": [
+        "Sugar mills, refining, sugar output, beet sugar and sugar trade."
+      ],
+      "excludes": [
+        "Sugarcane cultivation without sugar production or commodity data",
+        "other sweeteners alone."
+      ],
+      "aliases": [
+        "sugar manufacture"
+      ],
+      "related_topics": [
+        "manufacturing",
+        "trade"
+      ]
+    },
+    "alcohol": {
+      "label": "alcohol",
+      "definition": "Alcoholic drinks and industrial alcohol as manufactured or traded products.",
+      "includes": [
+        "Brewing, distilling, wine, beer, spirits, alcohol output and trade."
+      ],
+      "excludes": [
+        "Alcohol-related illness or crime without commodity data",
+        "unfermented crops."
+      ],
+      "aliases": [
+        "alcoholic liquor",
+        "alcoholic beverages"
+      ],
+      "related_topics": [
+        "manufacturing",
+        "trade"
+      ]
+    },
+    "tobacco": {
+      "label": "tobacco",
+      "definition": "Tobacco cultivation, leaf preparation, manufactured tobacco and commerce.",
+      "includes": [
+        "Tobacco acreage, leaf yields, cigarettes, cigars, factories, output and trade."
+      ],
+      "excludes": [
+        "Smoking prevalence or health effects without tobacco production or commodity data."
+      ],
+      "aliases": [
+        "tobacco products"
+      ],
+      "related_topics": [
+        "manufacturing",
+        "agriculture",
+        "trade"
+      ]
+    },
+    "cottage-industries": {
+      "label": "cottage industries",
+      "definition": "Manufacturing carried out in households or small domestic workshops.",
+      "includes": [
+        "Home weaving, household handicrafts, artisan production and domestic workshop output."
+      ],
+      "excludes": [
+        "Large factory production",
+        "household consumption without manufacturing."
+      ],
+      "aliases": [
+        "household industries",
+        "domestic industries",
+        "handicrafts"
+      ],
+      "related_topics": [
+        "manufacturing"
+      ]
+    },
+    "rubber": {
+      "label": "rubber",
+      "definition": "Natural or synthetic rubber, including cultivation and latex extraction, and rubber-product manufacture or commerce.",
+      "includes": [
+        "Rubber plantations, latex tapping and extraction, raw rubber, synthetic rubber, tyres, rubber goods and trade."
+      ],
+      "excludes": [
+        "Other resins",
+        "plant fibres",
+        "general chemicals without rubber detail."
+      ],
+      "aliases": [
+        "rubber goods",
+        "rubber industry"
+      ],
+      "related_topics": [
+        "manufacturing",
+        "agriculture",
+        "forestry",
+        "trade"
+      ]
+    },
+    "leather-and-furs": {
+      "label": "leather and furs",
+      "definition": "Hides, skins, leather and furs and their processing or commerce.",
+      "includes": [
+        "Tanning, leather goods, fur dressing, hides output and trade."
+      ],
+      "excludes": [
+        "Livestock numbers without hides",
+        "wool textiles alone."
+      ],
+      "aliases": [
+        "leather and fur products"
+      ],
+      "related_topics": [
+        "manufacturing",
+        "trade"
+      ]
+    },
+    "cement-and-bricks": {
+      "label": "cement and bricks",
+      "definition": "Manufacture and commerce of cement, bricks and related basic building materials.",
+      "includes": [
+        "Cement plants, cement output, brickworks, tiles used as building materials and trade."
+      ],
+      "excludes": [
+        "Glass or decorative ceramics",
+        "quarrying of stone without manufactured building materials."
+      ],
+      "aliases": [
+        "cement and brick manufacture"
+      ],
+      "related_topics": [
+        "manufacturing",
+        "trade"
+      ]
+    },
+    "vegetable-oils": {
+      "label": "vegetable oils",
+      "definition": "Oils extracted from plants and their manufacture or commerce.",
+      "includes": [
+        "Oil milling, bean oil, groundnut oil, coconut oil and solidified vegetable oils."
+      ],
+      "excludes": [
+        "Unprocessed oilseeds without oil data",
+        "petroleum",
+        "a single oil with a sufficient specific tag."
+      ],
+      "aliases": [
+        "plant oils",
+        "vegetable oil industry"
+      ],
+      "related_topics": [
+        "manufacturing",
+        "trade"
+      ]
+    },
+    "tung-oil": {
+      "label": "tung oil",
+      "definition": "Oil obtained from tung-tree seeds and its manufacture or commerce.",
+      "includes": [
+        "Tung oil production, extraction, grades, prices and trade."
+      ],
+      "excludes": [
+        "Other vegetable oils without tung detail",
+        "tungsten ores."
+      ],
+      "aliases": [
+        "China wood oil",
+        "wood oil"
+      ],
+      "related_topics": [
+        "manufacturing",
+        "trade"
+      ]
+    },
+    "rice-milling": {
+      "label": "rice milling",
+      "definition": "The industrial removal of husks and processing of rice grain.",
+      "includes": [
+        "Rice mills, milling capacity, milled rice output and polishing operations."
+      ],
+      "excludes": [
+        "Rice cultivation or rice trade without milling as a substantive subject",
+        "flour milling."
+      ],
+      "aliases": [
+        "rice processing",
+        "rice polishing"
+      ],
+      "related_topics": [
+        "manufacturing"
+      ]
+    },
+    "canning": {
+      "label": "canning",
+      "definition": "Preserving food in sealed cans or containers by industrial processing.",
+      "includes": [
+        "Fruit, vegetable, meat or fish canneries, canned-food output and capacity."
+      ],
+      "excludes": [
+        "Other food preservation without canning",
+        "fresh-food trade alone."
+      ],
+      "aliases": [
+        "food canning",
+        "canned-food manufacture"
+      ],
+      "related_topics": [
+        "manufacturing"
+      ]
+    },
+    "electricity": {
+      "label": "electricity",
+      "definition": "Generation, transmission, distribution and use of electrical power.",
+      "includes": [
+        "Power stations, supply networks, electricity output, sales, consumption and tariffs."
+      ],
+      "excludes": [
+        "Electrical machinery manufacture alone",
+        "hydroelectric schemes when their specific tag suffices."
+      ],
+      "aliases": [
+        "electric power",
+        "power supply"
+      ],
+      "related_topics": [
+        "utilities",
+        "manufacturing"
+      ]
+    },
+    "gas": {
+      "label": "gas",
+      "definition": "Manufactured or distributed gas supplied as a utility or industrial fuel.",
+      "includes": [
+        "Gas works, town gas, gas output, mains, consumers and utility tariffs."
+      ],
+      "excludes": [
+        "Petroleum extraction or natural gas reserves without supply activity",
+        "unrelated gases as chemicals."
+      ],
+      "aliases": [
+        "town gas",
+        "gas supply",
+        "gasworks"
+      ],
+      "related_topics": [
+        "utilities"
+      ]
+    },
+    "water-and-sewerage": {
+      "label": "water and sewerage",
+      "definition": "Public water supply, drainage, sewage collection and treatment services.",
+      "includes": [
+        "Waterworks, piped water, sewers, purification, customers and water or sewer charges."
+      ],
+      "excludes": [
+        "Agricultural irrigation alone",
+        "river dimensions",
+        "disease statistics without services."
+      ],
+      "aliases": [
+        "waterworks",
+        "water supply",
+        "sewage",
+        "sanitary drainage"
+      ],
+      "related_topics": [
+        "utilities",
+        "health"
+      ]
+    },
+    "construction": {
+      "label": "construction",
+      "definition": "Building and civil engineering works, their extent, costs and activity.",
+      "includes": [
+        "Buildings erected, public works, construction expenditure, contracts and engineering projects."
+      ],
+      "excludes": [
+        "Maintenance budgets with no construction content",
+        "a single specific infrastructure service without building activity."
+      ],
+      "aliases": [
+        "building works",
+        "civil engineering"
+      ],
+      "related_topics": [
+        "utilities"
+      ]
+    },
+    "flood-control": {
+      "label": "flood control",
+      "definition": "Works and measures intended to prevent or reduce inundation.",
+      "includes": [
+        "Dikes, levees, flood storage, protective embankments and flood prevention expenditure."
+      ],
+      "excludes": [
+        "Flood losses or relief alone",
+        "navigation dredging without flood-protection purpose."
+      ],
+      "aliases": [
+        "flood prevention",
+        "flood protection"
+      ],
+      "related_topics": [
+        "utilities",
+        "disasters"
+      ]
+    },
+    "river-conservancy": {
+      "label": "river conservancy",
+      "definition": "Engineering, administration and maintenance of river channels and their regimes.",
+      "includes": [
+        "River dredging, channel improvement, bank protection, conservancy boards and expenditure."
+      ],
+      "excludes": [
+        "River traffic alone",
+        "river descriptions without conservancy",
+        "urban sewer maintenance."
+      ],
+      "aliases": [
+        "river improvement",
+        "river regulation"
+      ],
+      "related_topics": [
+        "utilities",
+        "transportation"
+      ]
+    },
+    "land-reclamation": {
+      "label": "land reclamation",
+      "definition": "Creating usable land by bringing water-covered, coastal, marsh or previously uncultivated ground into use.",
+      "includes": [
+        "Reclaimed acreage, coastal reclamation, marsh drainage for new land and reclamation works."
+      ],
+      "excludes": [
+        "Improvement of existing farmland",
+        "routine land surveys",
+        "forest planting alone."
+      ],
+      "aliases": [
+        "reclaimed land",
+        "coastal reclamation"
+      ],
+      "related_topics": [
+        "utilities",
+        "agriculture"
+      ]
+    },
+    "hydroelectricity": {
+      "label": "hydroelectricity",
+      "definition": "Generating electrical power from flowing or stored water.",
+      "includes": [
+        "Hydroelectric stations, power dams, capacity, output and hydroelectric development schemes."
+      ],
+      "excludes": [
+        "Irrigation dams without power generation",
+        "mixed electricity supply without identified hydropower."
+      ],
+      "aliases": [
+        "hydropower",
+        "water power"
+      ],
+      "related_topics": [
+        "utilities"
+      ]
+    },
+    "erosion-control": {
+      "label": "erosion control",
+      "definition": "Works or practices intended to prevent loss of soil or degradation of slopes and watersheds.",
+      "includes": [
+        "Sabo works, check dams, slope stabilisation and soil conservation projects."
+      ],
+      "excludes": [
+        "Ordinary river dredging",
+        "flood losses without erosion measures",
+        "tree planting without erosion purpose."
+      ],
+      "aliases": [
+        "soil erosion prevention"
+      ],
+      "related_topics": [
+        "utilities",
+        "forestry",
+        "agriculture"
+      ]
+    },
+    "urban-planning": {
+      "label": "urban planning",
+      "definition": "Planned development, layout and improvement of towns and cities.",
+      "includes": [
+        "City plans, zoning, street layouts, planned districts, capital construction programmes and municipal improvements."
+      ],
+      "excludes": [
+        "General local government accounts",
+        "individual building construction without planning context."
+      ],
+      "aliases": [
+        "city planning",
+        "town planning",
+        "city improvement"
+      ],
+      "related_topics": [
+        "utilities",
+        "government"
+      ]
+    }
+  },
+  "proposed_additions": {
+    "topics": [
+      {
+        "id": "history",
+        "label": "History",
+        "definition": "Past events and historical change presented as a general account or chronology spanning several substantive subjects.",
+        "includes": [
+          "General historical chronologies and event tables; accounts of successive historical periods and political or social change across subjects."
+        ],
+        "excludes": [
+          "A dated series whose substantive subject is a specific sector, such as crop output or railway construction; calendar and era conversions alone."
+        ],
+        "aliases": [
+          "general history"
+        ]
+      }
+    ],
+    "tags": [
+      {
+        "id": "historical-chronologies",
+        "label": "historical chronologies",
+        "definition": "Tabulated sequences of historical events providing a general account across subjects, arranged by date or period.",
+        "includes": [
+          "Year-and-event tables, chronologies of a region and tables of outstanding events covering several historical subjects."
+        ],
+        "excludes": [
+          "A chronology devoted to a single substantive subject adequately described by its specific tag; statistical time series; calendar conversion tables."
+        ],
+        "aliases": [
+          "chronological tables of events",
+          "historical timelines"
+        ],
+        "related_topics": [
+          "history"
+        ]
+      }
+    ]
+  }
+}

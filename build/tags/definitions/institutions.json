@@ -1,0 +1,2300 @@
+{
+  "topics": {
+    "economy": {
+      "label": "Economy",
+      "definition": "The organisation, coordination and overall performance of economic activity.",
+      "includes": [
+        "Economic plans, controls, cooperatives and supply policies",
+        "Aggregate economic output and recovery"
+      ],
+      "excludes": [
+        "A single industry's physical production without economic policy",
+        "Banking or government accounts alone"
+      ],
+      "aliases": []
+    },
+    "finance": {
+      "label": "Finance",
+      "definition": "Public and private money, credit, investment, insurance and financial accounts.",
+      "includes": [
+        "Government revenue, expenditure, taxation and debt",
+        "Banks, currency, capital and insurance"
+      ],
+      "excludes": [
+        "Merchandise volumes alone",
+        "A company's physical output without financial measures"
+      ],
+      "aliases": []
+    },
+    "trade": {
+      "label": "Trade",
+      "definition": "Exchange and commercial distribution of goods and services within or across borders.",
+      "includes": [
+        "Imports, exports, prices, companies and markets",
+        "Trade regulation and commercial organisations"
+      ],
+      "excludes": [
+        "Production without exchange or distribution",
+        "Transportation traffic without trade measures"
+      ],
+      "aliases": []
+    },
+    "transportation": {
+      "label": "Transportation",
+      "definition": "Systems and services moving people or goods by land, water or air.",
+      "includes": [
+        "Rail, road, tram, shipping and aviation networks and traffic",
+        "Ports, transport costs, tourism and transport safety"
+      ],
+      "excludes": [
+        "Post and telecommunications alone",
+        "Vehicle manufacture without transport operation"
+      ],
+      "aliases": []
+    },
+    "communications": {
+      "label": "Communications",
+      "definition": "Networks and services transmitting messages, mail and broadcasts.",
+      "includes": [
+        "Postal, telegraph, telephone and radio operations",
+        "Postal financial services when the postal channel is explicit"
+      ],
+      "excludes": [
+        "Transport described historically as communications but carrying people or cargo",
+        "Newspaper and book publishing alone"
+      ],
+      "aliases": []
+    },
+    "labour": {
+      "label": "Labour",
+      "definition": "Employment, remuneration, work conditions and organisation of workers.",
+      "includes": [
+        "Employment and placement, wages, hours and labour relations",
+        "Occupational accidents and identified worker groups"
+      ],
+      "excludes": [
+        "General population by occupation without employment measures",
+        "Household consumption alone"
+      ],
+      "aliases": [
+        "labor"
+      ]
+    },
+    "education": {
+      "label": "Education",
+      "definition": "Teaching, learning and the institutions, people and resources supporting them.",
+      "includes": [
+        "Schools, pupils, teachers and education expenditure",
+        "Higher, vocational, adult and special education and libraries"
+      ],
+      "excludes": [
+        "Scientific research without instruction",
+        "Religious adherents or worship without teaching"
+      ],
+      "aliases": []
+    },
+    "religion": {
+      "label": "Religion",
+      "definition": "Religious traditions, belief communities, worship and religious organisations.",
+      "includes": [
+        "Named religions, rites, adherents and religious institutions",
+        "Missionary activity and religious propagation"
+      ],
+      "excludes": [
+        "An ethnic classification without religious evidence",
+        "Secular education or art merely located in a temple"
+      ],
+      "aliases": []
+    },
+    "press": {
+      "label": "Press",
+      "definition": "Production, circulation and regulation of printed publications and news.",
+      "includes": [
+        "Newspapers, journals, books, publishers and news agencies",
+        "Censorship of publishing, broadcasting or films"
+      ],
+      "excludes": [
+        "Paper manufacture without publishing",
+        "General telecommunications traffic without news production"
+      ],
+      "aliases": []
+    },
+    "culture": {
+      "label": "Culture",
+      "definition": "Artistic expression, cultural institutions, heritage and recreation.",
+      "includes": [
+        "Art, music, performance, cinema, museums and archaeology",
+        "Amusements and cultural participation"
+      ],
+      "excludes": [
+        "Sporting competition, records and clubs",
+        "Production of ordinary industrial goods without cultural content"
+      ],
+      "aliases": []
+    },
+    "sport": {
+      "label": "Sport",
+      "definition": "Organised physical games, athletic competition and sporting activity.",
+      "includes": [
+        "Results and records, championships, clubs and sporting facilities",
+        "Recreational sports when the activity is explicit"
+      ],
+      "excludes": [
+        "General amusements and theatrical entertainment",
+        "A mountain's height without evidence of sporting use"
+      ],
+      "aliases": []
+    },
+    "science-and-technology": {
+      "label": "Science and technology",
+      "definition": "Scientific investigation, technical knowledge, invention and standards of measurement.",
+      "includes": [
+        "Research institutions and activity, patents and inventions",
+        "Measurement systems and technical standards"
+      ],
+      "excludes": [
+        "Routine output of manufactured goods without technical or research content",
+        "School enrolment without scientific investigation"
+      ],
+      "aliases": []
+    }
+  },
+  "tags": {
+    "economic-planning": {
+      "label": "economic planning",
+      "definition": "Formal plans setting future economic development, investment or production objectives.",
+      "includes": [
+        "Multi-year industrial plans",
+        "Planned capital outlay and production targets"
+      ],
+      "excludes": [
+        "Actual output without a plan",
+        "A company's ordinary annual budget"
+      ],
+      "aliases": [],
+      "related_topics": [
+        "economy",
+        "government"
+      ]
+    },
+    "economic-controls": {
+      "label": "economic controls",
+      "definition": "Administrative direction or restriction of economic activity and resource allocation.",
+      "includes": [
+        "Industry control laws",
+        "Production allocation, licensing and compulsory coordination"
+      ],
+      "excludes": [
+        "Ordinary business association membership",
+        "Price movements without regulatory action"
+      ],
+      "aliases": [],
+      "related_topics": [
+        "economy",
+        "government"
+      ]
+    },
+    "price-controls": {
+      "label": "price controls",
+      "definition": "Rules fixing or limiting prices, rents or permitted margins.",
+      "includes": [
+        "Official maximum or minimum prices",
+        "Enforcement of price ceilings"
+      ],
+      "excludes": [
+        "Observed market prices without controls",
+        "General inflation measures"
+      ],
+      "aliases": [],
+      "related_topics": [
+        "economy",
+        "trade"
+      ]
+    },
+    "inflation": {
+      "label": "inflation",
+      "definition": "A sustained rise in the general price level or loss of purchasing power.",
+      "includes": [
+        "Inflation rates and general price-level increases",
+        "Currency depreciation explicitly analysed as inflation"
+      ],
+      "excludes": [
+        "A single commodity price",
+        "Exchange rates without evidence of domestic inflation"
+      ],
+      "aliases": [],
+      "related_topics": [
+        "economy"
+      ]
+    },
+    "cooperatives": {
+      "label": "cooperatives",
+      "definition": "Member-owned or mutual organisations conducting shared economic business.",
+      "includes": [
+        "Consumer, producer, agricultural and credit cooperatives",
+        "Cooperative membership, capital and business"
+      ],
+      "excludes": [
+        "Ordinary joint-stock corporations",
+        "Trade unions organised for labour representation"
+      ],
+      "aliases": [],
+      "related_topics": [
+        "economy",
+        "agriculture",
+        "trade",
+        "finance"
+      ]
+    },
+    "reconstruction": {
+      "label": "reconstruction",
+      "definition": "Restoration of economic assets, activity or infrastructure after damage or disruption.",
+      "includes": [
+        "Postwar reconstruction",
+        "Rebuilding damaged railways, factories or settlements"
+      ],
+      "excludes": [
+        "Ordinary expansion without restoration",
+        "Disaster losses without recovery activity"
+      ],
+      "aliases": [],
+      "related_topics": [
+        "economy",
+        "utilities",
+        "disasters"
+      ]
+    },
+    "food-supply-and-rationing": {
+      "label": "food supply and rationing",
+      "definition": "Provision, distribution and controlled allocation of food for consumption.",
+      "includes": [
+        "Food balances, provisioning, stocks and ration allowances",
+        "Government food procurement and distribution"
+      ],
+      "excludes": [
+        "Crop output without supply or distribution measures",
+        "Nutritional disease alone"
+      ],
+      "aliases": [],
+      "related_topics": [
+        "economy",
+        "agriculture",
+        "welfare"
+      ]
+    },
+    "state-monopolies": {
+      "label": "state monopolies",
+      "definition": "Exclusive state rights or monopolistic state enterprises controlling specified products or services.",
+      "includes": [
+        "Salt, tobacco, opium and alcohol monopolies",
+        "Monopoly sales, receipts and administration"
+      ],
+      "excludes": [
+        "Every publicly owned company",
+        "Private market concentration without state exclusivity"
+      ],
+      "aliases": [],
+      "related_topics": [
+        "economy",
+        "government",
+        "finance"
+      ]
+    },
+    "rural-development": {
+      "label": "rural development",
+      "definition": "Coordinated measures to improve rural economic conditions and infrastructure.",
+      "includes": [
+        "Rural improvement programmes",
+        "Village development and agricultural settlement support"
+      ],
+      "excludes": [
+        "Crop output alone",
+        "Urban redevelopment"
+      ],
+      "aliases": [],
+      "related_topics": [
+        "economy",
+        "agriculture"
+      ]
+    },
+    "production-subsidies": {
+      "label": "production subsidies",
+      "definition": "Public grants or financial assistance supporting production or the operation of economic services.",
+      "includes": [
+        "Industry and farm production grants",
+        "Subsidised shipping or air services and producer incentives"
+      ],
+      "excludes": [
+        "Ordinary government purchases",
+        "Poor relief or household welfare grants"
+      ],
+      "aliases": [],
+      "related_topics": [
+        "economy",
+        "finance",
+        "transportation",
+        "agriculture"
+      ]
+    },
+    "public-budgets": {
+      "label": "public budgets",
+      "definition": "Government revenue, expenditure and budget accounts at national or local level.",
+      "includes": [
+        "General and special accounts",
+        "Municipal budgets and public expenditure by service"
+      ],
+      "excludes": [
+        "Private company revenue and expenditure",
+        "Debt balances without budget flows"
+      ],
+      "aliases": [],
+      "related_topics": [
+        "finance",
+        "government"
+      ]
+    },
+    "taxation": {
+      "label": "taxation",
+      "definition": "Taxes, their assessment, rates, receipts and distribution.",
+      "includes": [
+        "Income, inheritance, business and other taxes",
+        "Tax burden per person or household"
+      ],
+      "excludes": [
+        "Prices or commercial fees",
+        "Government revenue entirely from non-tax sources"
+      ],
+      "aliases": [],
+      "related_topics": [
+        "finance",
+        "government"
+      ]
+    },
+    "public-debt": {
+      "label": "public debt",
+      "definition": "Borrowing liabilities and debt service of national or local governments.",
+      "includes": [
+        "Government loans, treasury debt and municipal bonds",
+        "Debt outstanding, issuance and repayment"
+      ],
+      "excludes": [
+        "Corporate borrowing without public guarantee or liability",
+        "Government spending without debt measures"
+      ],
+      "aliases": [],
+      "related_topics": [
+        "finance",
+        "government"
+      ]
+    },
+    "banking": {
+      "label": "banking",
+      "definition": "Banks and their organisation, accounts, clearing and financial business.",
+      "includes": [
+        "Central, ordinary, special and foreign banks",
+        "Bank assets, liabilities, deposits, loans and clearing houses"
+      ],
+      "excludes": [
+        "All non-bank credit by default",
+        "Currency manufacture without banking activity"
+      ],
+      "aliases": [],
+      "related_topics": [
+        "finance"
+      ]
+    },
+    "savings-and-loans": {
+      "label": "savings and loans",
+      "definition": "Deposits, savings and lending balances or transactions.",
+      "includes": [
+        "Savings deposits, bank loans and postal savings",
+        "Loan amounts by borrower or purpose"
+      ],
+      "excludes": [
+        "Interest rates without loan or deposit amounts",
+        "Securities issuance without lending or saving"
+      ],
+      "aliases": [],
+      "related_topics": [
+        "finance"
+      ]
+    },
+    "currency": {
+      "label": "currency",
+      "definition": "Monetary systems, coins, notes and reserves supporting money circulation.",
+      "includes": [
+        "Currency issuance, circulation, metallic content and gold reserves",
+        "Monetary standards and convertibility"
+      ],
+      "excludes": [
+        "Mined gold output without monetary use",
+        "Exchange rates between currencies"
+      ],
+      "aliases": [],
+      "related_topics": [
+        "finance"
+      ]
+    },
+    "foreign-exchange": {
+      "label": "foreign exchange",
+      "definition": "Conversion, valuation and control of one currency against another.",
+      "includes": [
+        "Exchange rates and quotations",
+        "Foreign-exchange transactions and controls"
+      ],
+      "excludes": [
+        "Domestic interest rates",
+        "Merchandise exports without currency conversion measures"
+      ],
+      "aliases": [],
+      "related_topics": [
+        "finance"
+      ]
+    },
+    "securities-and-investment": {
+      "label": "securities and investment",
+      "definition": "Investment capital, tradable financial claims and their returns or holdings.",
+      "includes": [
+        "Shares, bonds, debentures, trusts and capital issues",
+        "Securities prices, yields and portfolios"
+      ],
+      "excludes": [
+        "Physical production without financial investment",
+        "Bank deposits alone"
+      ],
+      "aliases": [],
+      "related_topics": [
+        "finance"
+      ]
+    },
+    "insurance-and-pensions": {
+      "label": "insurance and pensions",
+      "definition": "Insurance, annuities, retirement pensions and organised risk pooling.",
+      "includes": [
+        "Life, fire, marine and health insurance business",
+        "Pension funds, payments and entitlement schedules"
+      ],
+      "excludes": [
+        "Poor relief without insurance or pension entitlement",
+        "All mortality tables without an insurance context"
+      ],
+      "aliases": [],
+      "related_topics": [
+        "finance",
+        "welfare",
+        "labour"
+      ]
+    },
+    "national-income-and-wealth": {
+      "label": "national income and wealth",
+      "definition": "Aggregate income, economic product or stocks of national wealth.",
+      "includes": [
+        "National income and its composition",
+        "National wealth, aggregate product and per-capita measures"
+      ],
+      "excludes": [
+        "A company's earnings",
+        "Commodity output alone without an economy-wide aggregate"
+      ],
+      "aliases": [],
+      "related_topics": [
+        "finance",
+        "economy"
+      ]
+    },
+    "foreign-loans": {
+      "label": "foreign loans",
+      "definition": "Loans raised from or owed to lenders outside the borrowing territory.",
+      "includes": [
+        "Foreign public loans and externally issued corporate debt",
+        "Foreign loan service, terms and balances"
+      ],
+      "excludes": [
+        "Domestic loans",
+        "Foreign equity investment without lending"
+      ],
+      "aliases": [],
+      "related_topics": [
+        "finance"
+      ]
+    },
+    "foreign-investment": {
+      "label": "foreign investment",
+      "definition": "Capital invested across territorial borders or held by foreign investors.",
+      "includes": [
+        "Foreign-owned enterprises and capital holdings",
+        "Foreign direct and portfolio investment by origin or destination"
+      ],
+      "excludes": [
+        "Domestic capital without foreign ownership",
+        "Foreign trade values without investment"
+      ],
+      "aliases": [],
+      "related_topics": [
+        "finance",
+        "economy"
+      ]
+    },
+    "indemnities": {
+      "label": "indemnities",
+      "definition": "Financial obligations imposed as compensation, particularly by treaties or conflict settlements.",
+      "includes": [
+        "War indemnity principal and service",
+        "Customs receipts assigned to indemnity payments"
+      ],
+      "excludes": [
+        "Private insurance claims",
+        "Ordinary loans without an indemnity obligation"
+      ],
+      "aliases": [],
+      "related_topics": [
+        "finance",
+        "foreign-relations",
+        "informal-imperialism"
+      ]
+    },
+    "customs-revenue": {
+      "label": "customs revenue",
+      "definition": "Revenue collected by customs authorities from duties and related customs levies.",
+      "includes": [
+        "Customs receipts by port or duty",
+        "Maritime customs revenue and its allocation"
+      ],
+      "excludes": [
+        "Tariff rates without actual revenue",
+        "Trade values merely recorded by customs"
+      ],
+      "aliases": [],
+      "related_topics": [
+        "finance",
+        "trade"
+      ]
+    },
+    "likin": {
+      "label": "likin",
+      "definition": "The historical Chinese internal transit and commercial levy known as likin.",
+      "includes": [
+        "Likin assessment, collection and receipts",
+        "Likin stations and abolition"
+      ],
+      "excludes": [
+        "All internal taxes",
+        "Maritime customs duties"
+      ],
+      "aliases": [
+        "lijin"
+      ],
+      "related_topics": [
+        "finance",
+        "trade"
+      ]
+    },
+    "salt-tax": {
+      "label": "salt tax",
+      "definition": "Taxes or fiscal levies assessed specifically on salt.",
+      "includes": [
+        "Salt duty, tax receipts and fiscal administration",
+        "Tax rates on salt production or sales"
+      ],
+      "excludes": [
+        "Salt output alone",
+        "Monopoly sales receipts not identified as tax"
+      ],
+      "aliases": [],
+      "related_topics": [
+        "finance",
+        "mining"
+      ]
+    },
+    "land-tax": {
+      "label": "land tax",
+      "definition": "Taxes assessed on land, its value or agricultural landholding.",
+      "includes": [
+        "Land-tax assessments, rates and receipts",
+        "Agricultural land tax and cadastral fiscal charges"
+      ],
+      "excludes": [
+        "Rent paid to landlords",
+        "Land values or registration without tax measures"
+      ],
+      "aliases": [],
+      "related_topics": [
+        "finance",
+        "agriculture"
+      ]
+    },
+    "mutual-credit": {
+      "label": "mutual credit",
+      "definition": "Mutual lending and pooled credit arrangements among participating members.",
+      "includes": [
+        "Mujin and rotating mutual-credit associations",
+        "Mutual-credit membership, funds and lending"
+      ],
+      "excludes": [
+        "Ordinary commercial bank loans",
+        "Insurance mutual aid without credit activity"
+      ],
+      "aliases": [
+        "mujin",
+        "mujin associations"
+      ],
+      "related_topics": [
+        "finance",
+        "economy"
+      ]
+    },
+    "pawnshops": {
+      "label": "pawnshops",
+      "definition": "Pawnbroking institutions and loans secured on pledged movable goods.",
+      "includes": [
+        "Public and private pawnshops",
+        "Pledged goods, loans, capital and pawnbroking charges"
+      ],
+      "excludes": [
+        "Mortgage lending secured on real property",
+        "All small loans without pledged collateral"
+      ],
+      "aliases": [],
+      "related_topics": [
+        "finance"
+      ]
+    },
+    "interest-rates": {
+      "label": "interest rates",
+      "definition": "The rates charged or paid for borrowing, deposits or discounting credit.",
+      "includes": [
+        "Bank lending and deposit rates",
+        "Central-bank discount rates and money-market rates"
+      ],
+      "excludes": [
+        "Loan principal alone",
+        "Share prices or dividend yields without a credit rate"
+      ],
+      "aliases": [],
+      "related_topics": [
+        "finance"
+      ]
+    },
+    "public-property": {
+      "label": "public property",
+      "definition": "Assets and property owned by national or local public authorities.",
+      "includes": [
+        "Public land and buildings",
+        "Government property stocks, sales and asset values"
+      ],
+      "excludes": [
+        "All privately held national wealth",
+        "Government expenditure without identified property"
+      ],
+      "aliases": [],
+      "related_topics": [
+        "finance",
+        "government"
+      ]
+    },
+    "agricultural-credit": {
+      "label": "agricultural credit",
+      "definition": "Loans, credit institutions and financing explicitly serving agriculture or farmers.",
+      "includes": [
+        "Farm loans and agricultural banks",
+        "Credit for land improvement, seed or farm equipment"
+      ],
+      "excludes": [
+        "All rural banking without agricultural purpose",
+        "Farm subsidies without repayment obligations"
+      ],
+      "aliases": [],
+      "related_topics": [
+        "finance",
+        "agriculture"
+      ]
+    },
+    "head-tax": {
+      "label": "head tax",
+      "definition": "A fixed tax assessed per person or taxable individual.",
+      "includes": [
+        "Poll tax rates and receipts",
+        "Taxpayer counts for personal capitation taxes"
+      ],
+      "excludes": [
+        "Household tax without per-person assessment",
+        "Income tax scaled by earnings"
+      ],
+      "aliases": [],
+      "related_topics": [
+        "finance"
+      ]
+    },
+    "domestic-trade": {
+      "label": "domestic trade",
+      "definition": "Commercial exchange within a territory's domestic market.",
+      "includes": [
+        "Internal trade flows, retail and wholesale sales",
+        "Domestic distribution by region or commodity"
+      ],
+      "excludes": [
+        "Foreign imports and exports",
+        "Production retained for own use"
+      ],
+      "aliases": [],
+      "related_topics": [
+        "trade"
+      ]
+    },
+    "imports": {
+      "label": "imports",
+      "definition": "Goods entering a territory from outside its stated trade boundary.",
+      "includes": [
+        "Imports by commodity, origin, port, value or quantity",
+        "Import dependence and import trade indices"
+      ],
+      "excludes": [
+        "Domestic production",
+        "Goods merely passing through without entry to the importing market"
+      ],
+      "aliases": [],
+      "related_topics": [
+        "trade"
+      ]
+    },
+    "exports": {
+      "label": "exports",
+      "definition": "Goods leaving a territory across its stated trade boundary.",
+      "includes": [
+        "Exports by commodity, destination, port, value or quantity",
+        "Export trade indices and export shares"
+      ],
+      "excludes": [
+        "Domestic sales",
+        "Services or income transfers without goods exports"
+      ],
+      "aliases": [],
+      "related_topics": [
+        "trade"
+      ]
+    },
+    "tariffs": {
+      "label": "tariffs",
+      "definition": "Schedules, rates and rules of customs duties on cross-border goods.",
+      "includes": [
+        "Import and export duty rates",
+        "Tariff classifications, exemptions and tariff changes"
+      ],
+      "excludes": [
+        "Customs receipts without rates or tariff rules",
+        "Domestic excise taxation"
+      ],
+      "aliases": [],
+      "related_topics": [
+        "trade",
+        "finance"
+      ]
+    },
+    "prices": {
+      "label": "prices",
+      "definition": "Observed or quoted prices and price indices of goods or services.",
+      "includes": [
+        "Wholesale and retail commodity prices",
+        "Market quotations and price indices"
+      ],
+      "excludes": [
+        "Wages and interest rates alone",
+        "Administrative price ceilings without observed prices"
+      ],
+      "aliases": [],
+      "related_topics": [
+        "trade",
+        "economy"
+      ]
+    },
+    "companies": {
+      "label": "companies",
+      "definition": "Commercial enterprises, their organisation, ownership, capital and business results.",
+      "includes": [
+        "Company counts, corporate forms and capitalisation",
+        "Company balance sheets, subsidiaries and profits"
+      ],
+      "excludes": [
+        "A mere incidental company name in a commodity table",
+        "Public administrative offices"
+      ],
+      "aliases": [],
+      "related_topics": [
+        "trade",
+        "finance",
+        "economy"
+      ]
+    },
+    "business-associations": {
+      "label": "business associations",
+      "definition": "Organisations representing or coordinating commercial and industrial businesses.",
+      "includes": [
+        "Chambers of commerce, merchant guilds and industry associations",
+        "Business association membership and functions"
+      ],
+      "excludes": [
+        "Worker trade unions",
+        "Member-owned trading cooperatives unless also an association"
+      ],
+      "aliases": [],
+      "related_topics": [
+        "trade"
+      ]
+    },
+    "re-exports": {
+      "label": "re exports",
+      "definition": "Exports of goods previously imported into the same trade territory.",
+      "includes": [
+        "Re-export values and commodities",
+        "Foreign goods exported again from entrepots"
+      ],
+      "excludes": [
+        "Exports of domestically produced goods",
+        "Goods recorded solely as transit cargo"
+      ],
+      "aliases": [
+        "reexports"
+      ],
+      "related_topics": [
+        "trade"
+      ]
+    },
+    "transit-trade": {
+      "label": "transit trade",
+      "definition": "Goods passing through a territory en route between other origins and destinations.",
+      "includes": [
+        "Transit cargo and transit trade routes",
+        "Through trade under customs transit arrangements"
+      ],
+      "excludes": [
+        "Goods imported for domestic use",
+        "All port cargo without evidence of transit status"
+      ],
+      "aliases": [],
+      "related_topics": [
+        "trade"
+      ]
+    },
+    "advertising": {
+      "label": "advertising",
+      "definition": "Commercial promotion through advertisements and related services.",
+      "includes": [
+        "Advertising expenditure, agencies and advertisement receipts",
+        "Published commercial advertisements as the tabulated subject"
+      ],
+      "excludes": [
+        "News circulation alone",
+        "Public notices without promotional purpose"
+      ],
+      "aliases": [],
+      "related_topics": [
+        "trade"
+      ]
+    },
+    "warehousing": {
+      "label": "warehousing",
+      "definition": "Commercial storage of goods and the operation of warehouses.",
+      "includes": [
+        "Goods in godowns",
+        "Warehouse stocks, capacity, receipts and storage business"
+      ],
+      "excludes": [
+        "All unsold factory stock without warehousing",
+        "Government grain reserves without storage measures"
+      ],
+      "aliases": [
+        "godowns"
+      ],
+      "related_topics": [
+        "trade"
+      ]
+    },
+    "markets-and-exchanges": {
+      "label": "markets and exchanges",
+      "definition": "Organised venues or institutions for trading goods, securities or commercial claims.",
+      "includes": [
+        "Commodity markets and stock exchanges",
+        "Exchange turnover, listings and market institutions"
+      ],
+      "excludes": [
+        "Prices alone without a market institution or trading venue",
+        "Clearing houses handling bank settlement only"
+      ],
+      "aliases": [],
+      "related_topics": [
+        "trade",
+        "finance"
+      ]
+    },
+    "intra-imperial-trade": {
+      "label": "intra imperial trade",
+      "definition": "Trade between territories or political units within the same empire.",
+      "includes": [
+        "Metropole-colony and intercolonial imports and exports",
+        "Trade explicitly inclusive of other parts of an empire"
+      ],
+      "excludes": [
+        "All trade with a dominant foreign power",
+        "Yen-bloc trade without evidence of shared imperial jurisdiction"
+      ],
+      "aliases": [
+        "intercolonial trade"
+      ],
+      "related_topics": [
+        "trade",
+        "colonial-rule"
+      ]
+    },
+    "railways": {
+      "label": "railways",
+      "definition": "Railway infrastructure, rolling stock, services, traffic and operating results.",
+      "includes": [
+        "State, local, light and industrial railways",
+        "Rail mileage, trains, passengers, freight and railway accounts"
+      ],
+      "excludes": [
+        "Street tram services identified as trams",
+        "Locomotive manufacture without railway-system measures"
+      ],
+      "aliases": [
+        "railroads"
+      ],
+      "related_topics": [
+        "transportation"
+      ]
+    },
+    "roads-and-bridges": {
+      "label": "roads and bridges",
+      "definition": "Road and bridge infrastructure, construction, condition and financing.",
+      "includes": [
+        "Road mileage and classification",
+        "Bridge counts and road or bridge works"
+      ],
+      "excludes": [
+        "Vehicles and bus traffic without infrastructure measures",
+        "Railway bridges tabulated only as railway assets"
+      ],
+      "aliases": [],
+      "related_topics": [
+        "transportation"
+      ]
+    },
+    "road-transport": {
+      "label": "road transport",
+      "definition": "Movement of people or goods by road and the vehicles or services used.",
+      "includes": [
+        "Motor buses, cars, taxis, lorries and bicycles in transport",
+        "Vehicle registration, road traffic and bus routes"
+      ],
+      "excludes": [
+        "Vehicle manufacture alone",
+        "Road length without traffic or vehicles"
+      ],
+      "aliases": [],
+      "related_topics": [
+        "transportation"
+      ]
+    },
+    "shipping": {
+      "label": "shipping",
+      "definition": "Waterborne transport, merchant fleets and ship operations.",
+      "includes": [
+        "Registered ships, tonnage, sea routes and shipping companies",
+        "Seaborne passengers, cargo and operating results"
+      ],
+      "excludes": [
+        "Shipbuilding output alone",
+        "Fishing catch without transport or fleet measures"
+      ],
+      "aliases": [
+        "merchant shipping"
+      ],
+      "related_topics": [
+        "transportation"
+      ]
+    },
+    "ports": {
+      "label": "ports",
+      "definition": "Harbours, docks and port facilities and traffic.",
+      "includes": [
+        "Ship entrances and clearances",
+        "Cargo loaded or unloaded and port capacity"
+      ],
+      "excludes": [
+        "National ship totals without a port measure",
+        "All coastal geography"
+      ],
+      "aliases": [],
+      "related_topics": [
+        "transportation"
+      ]
+    },
+    "aviation": {
+      "label": "aviation",
+      "definition": "Civil air transport, aircraft operation and aviation infrastructure.",
+      "includes": [
+        "Air routes, schedules, passengers and air freight",
+        "Airfields, civil aviators and air transport services"
+      ],
+      "excludes": [
+        "Aircraft manufacture alone",
+        "Air force combat units without civil aviation content"
+      ],
+      "aliases": [],
+      "related_topics": [
+        "transportation"
+      ]
+    },
+    "tourism": {
+      "label": "tourism",
+      "definition": "Travel for visiting or recreation and services accommodating visitors.",
+      "includes": [
+        "Tourist and foreign-visitor numbers and spending",
+        "Hotels, travel services and tourist attractions in a travel context"
+      ],
+      "excludes": [
+        "Migration or permanent settlement",
+        "Passenger counts without visitor or tourism evidence"
+      ],
+      "aliases": [],
+      "related_topics": [
+        "transportation",
+        "economy"
+      ]
+    },
+    "trams": {
+      "label": "trams",
+      "definition": "Street or interurban tram systems confirmed by service context, rather than railway terminology alone.",
+      "includes": [
+        "Streetcars and urban street tram services",
+        "Interurban tram routes, passenger traffic and accounts when their tram character is confirmed"
+      ],
+      "excludes": [
+        "Ordinary, light, industrial or hand-pushed railways without street or interurban tram context",
+        "The term 軌道 alone, or a broad translation as tramway without functional evidence"
+      ],
+      "aliases": [
+        "tramways",
+        "streetcars",
+        "street railways"
+      ],
+      "related_topics": [
+        "transportation"
+      ]
+    },
+    "inland-navigation": {
+      "label": "inland navigation",
+      "definition": "Water transport on rivers, canals and inland lakes.",
+      "includes": [
+        "River voyage routes and results",
+        "Inland vessels, river ports and canal traffic"
+      ],
+      "excludes": [
+        "Seagoing shipping without inland operation",
+        "River dimensions without navigation measures"
+      ],
+      "aliases": [
+        "river transportation"
+      ],
+      "related_topics": [
+        "transportation",
+        "geography"
+      ]
+    },
+    "freight-and-transport-costs": {
+      "label": "freight and transport costs",
+      "definition": "Charges, rates and financial costs of moving passengers or goods.",
+      "includes": [
+        "Freight rates, fares, charterage and baggage charges",
+        "Transport operating costs and route charge schedules"
+      ],
+      "excludes": [
+        "Cargo quantities without cost measures",
+        "Goods prices excluding transport charges"
+      ],
+      "aliases": [],
+      "related_topics": [
+        "transportation",
+        "trade"
+      ]
+    },
+    "navigation-aids": {
+      "label": "navigation aids",
+      "definition": "Services and installations assisting safe navigation.",
+      "includes": [
+        "Lighthouses, buoys, beacons and pilots",
+        "Navigation signals and aids to passage"
+      ],
+      "excludes": [
+        "Ships or ports without navigational aids",
+        "Road traffic signs"
+      ],
+      "aliases": [],
+      "related_topics": [
+        "transportation"
+      ]
+    },
+    "transport-accidents": {
+      "label": "transport accidents",
+      "definition": "Accidents and casualties arising from transport operations.",
+      "includes": [
+        "Shipwrecks, railway crashes and civil aviation accidents",
+        "Transport accident rates, losses and casualties"
+      ],
+      "excludes": [
+        "Workplace accidents without transport operation",
+        "Storm losses without identified transport incidents"
+      ],
+      "aliases": [],
+      "related_topics": [
+        "transportation",
+        "disasters",
+        "health"
+      ]
+    },
+    "postal-services": {
+      "label": "postal services",
+      "definition": "Collection, conveyance and delivery of mail and parcels through postal networks.",
+      "includes": [
+        "Post offices, mail routes, items handled and postal fees",
+        "Airmail and international mail"
+      ],
+      "excludes": [
+        "Postal savings alone",
+        "Cargo carriage without postal mail"
+      ],
+      "aliases": [],
+      "related_topics": [
+        "communications"
+      ]
+    },
+    "telegraph": {
+      "label": "telegraph",
+      "definition": "Transmission of written messages by wired, cable or wireless telegraphy.",
+      "includes": [
+        "Telegraph lines, offices, cables and telegram traffic",
+        "Radiotelegraph services"
+      ],
+      "excludes": [
+        "Telephone voice traffic",
+        "Radio broadcasting without telegraph messages"
+      ],
+      "aliases": [],
+      "related_topics": [
+        "communications"
+      ]
+    },
+    "telephone": {
+      "label": "telephone",
+      "definition": "Voice telecommunications networks and services.",
+      "includes": [
+        "Telephone lines, offices, subscribers and calls",
+        "International and radio telephone services"
+      ],
+      "excludes": [
+        "Telegram traffic",
+        "One-way radio broadcasting"
+      ],
+      "aliases": [],
+      "related_topics": [
+        "communications"
+      ]
+    },
+    "radio": {
+      "label": "radio",
+      "definition": "Wireless broadcasting and radio communication systems.",
+      "includes": [
+        "Broadcasting stations, receivers and listeners",
+        "Radio transmission networks and wireless services"
+      ],
+      "excludes": [
+        "Cinema exhibition",
+        "A wired telephone network without radio transmission"
+      ],
+      "aliases": [],
+      "related_topics": [
+        "communications"
+      ]
+    },
+    "postal-remittances": {
+      "label": "postal remittances",
+      "definition": "Money transfers made through postal money orders or postal giro systems.",
+      "includes": [
+        "Postal money orders, transfers and remittances",
+        "Postal transfer accounts and transaction values"
+      ],
+      "excludes": [
+        "Postal savings balances without transfers",
+        "Migrant remittances without an identified postal channel"
+      ],
+      "aliases": [
+        "postal money orders",
+        "postal giro"
+      ],
+      "related_topics": [
+        "communications",
+        "finance"
+      ]
+    },
+    "employment-and-unemployment": {
+      "label": "employment and unemployment",
+      "definition": "Numbers, distribution and movement of employed, unemployed or economically active workers.",
+      "includes": [
+        "Workforce counts, labour turnover and unemployment rates",
+        "Workers by industry, enterprise or employment status"
+      ],
+      "excludes": [
+        "Population by occupation alone without work status",
+        "Wage rates without employment measures"
+      ],
+      "aliases": [],
+      "related_topics": [
+        "labour"
+      ]
+    },
+    "wages": {
+      "label": "wages",
+      "definition": "Pay and monetary or in-kind remuneration for work.",
+      "includes": [
+        "Daily and monthly wages, salaries and wage indices",
+        "Official pay scales and earnings by worker group"
+      ],
+      "excludes": [
+        "Investment income",
+        "Household spending without pay measures"
+      ],
+      "aliases": [],
+      "related_topics": [
+        "labour",
+        "government"
+      ]
+    },
+    "working-conditions": {
+      "label": "working conditions",
+      "definition": "Terms and circumstances under which labour is performed.",
+      "includes": [
+        "Hours, days, rest periods, workplace welfare and labour law",
+        "Employment contract conditions and factory regulation"
+      ],
+      "excludes": [
+        "Wages alone",
+        "General housing statistics without a work connection"
+      ],
+      "aliases": [],
+      "related_topics": [
+        "labour"
+      ]
+    },
+    "trade-unions": {
+      "label": "trade unions",
+      "definition": "Worker organisations formed to represent labour interests.",
+      "includes": [
+        "Union membership, branches and occupational coverage",
+        "Worker union activity and labour movement organisations"
+      ],
+      "excludes": [
+        "Employer associations",
+        "Producer cooperatives without labour representation"
+      ],
+      "aliases": [],
+      "related_topics": [
+        "labour"
+      ]
+    },
+    "labour-disputes": {
+      "label": "labour disputes",
+      "definition": "Conflicts between workers and employers over employment and their settlement.",
+      "includes": [
+        "Strikes, lockouts and disputes by cause, duration or industry",
+        "Labour conciliation and arbitration"
+      ],
+      "excludes": [
+        "Ordinary civil litigation",
+        "Tenant disputes without an employment relationship"
+      ],
+      "aliases": [],
+      "related_topics": [
+        "labour"
+      ]
+    },
+    "child-labour": {
+      "label": "child labour",
+      "definition": "Employment or working conditions of children and young workers.",
+      "includes": [
+        "Child factory workers and minimum working ages",
+        "Employment statistics explicitly identifying under-age workers"
+      ],
+      "excludes": [
+        "School enrolment",
+        "Age breakdowns lacking a child or youth worker category"
+      ],
+      "aliases": [],
+      "related_topics": [
+        "labour",
+        "welfare"
+      ]
+    },
+    "women-workers": {
+      "label": "women workers",
+      "definition": "Women's employment, occupations and working conditions as an explicit subject.",
+      "includes": [
+        "Female workforce counts and participation",
+        "Women's wages and occupations"
+      ],
+      "excludes": [
+        "General female population totals",
+        "A sex breakdown unrelated to work"
+      ],
+      "aliases": [],
+      "related_topics": [
+        "labour"
+      ]
+    },
+    "employment-placement": {
+      "label": "employment placement",
+      "definition": "Services matching people to jobs or arranging recruitment.",
+      "includes": [
+        "Employment exchanges, vacancies and placements",
+        "Public and private recruitment offices"
+      ],
+      "excludes": [
+        "Employment totals without placement activity",
+        "School admissions"
+      ],
+      "aliases": [],
+      "related_topics": [
+        "labour"
+      ]
+    },
+    "industrial-accidents": {
+      "label": "industrial accidents",
+      "definition": "Workplace accidents, injuries and occupational casualties.",
+      "includes": [
+        "Factory and mine accidents",
+        "Occupational accident rates and compensation cases"
+      ],
+      "excludes": [
+        "Transport accidents without a workplace relation",
+        "General mortality or illness"
+      ],
+      "aliases": [],
+      "related_topics": [
+        "labour",
+        "health"
+      ]
+    },
+    "schools-and-pupils": {
+      "label": "schools and pupils",
+      "definition": "Educational institutions, enrolments, attendance and student populations across school types.",
+      "includes": [
+        "School and pupil totals",
+        "School-age children and attendance obligations"
+      ],
+      "excludes": [
+        "Teacher salaries alone",
+        "Research institutes without educational enrolment"
+      ],
+      "aliases": [],
+      "related_topics": [
+        "education"
+      ]
+    },
+    "primary-education": {
+      "label": "primary education",
+      "definition": "The initial compulsory or elementary stage of formal schooling.",
+      "includes": [
+        "Elementary and primary schools and pupils",
+        "Primary school-age children and attendance"
+      ],
+      "excludes": [
+        "Kindergarten",
+        "Secondary schools even when the English name is higher school"
+      ],
+      "aliases": [],
+      "related_topics": [
+        "education"
+      ]
+    },
+    "secondary-education": {
+      "label": "secondary education",
+      "definition": "Formal schooling following the primary stage and preceding higher education.",
+      "includes": [
+        "Middle schools, secondary schools and pupils",
+        "Higher schools where their preparatory secondary status is established"
+      ],
+      "excludes": [
+        "Universities",
+        "Assuming every institution called higher or special is secondary"
+      ],
+      "aliases": [],
+      "related_topics": [
+        "education"
+      ]
+    },
+    "higher-education": {
+      "label": "higher education",
+      "definition": "Postsecondary institutions and advanced academic instruction.",
+      "includes": [
+        "Universities, colleges, degrees and postsecondary specialist schools",
+        "Higher-education enrolments and institutions"
+      ],
+      "excludes": [
+        "Primary and secondary education",
+        "Institutions called higher whose historical level is unresolved"
+      ],
+      "aliases": [],
+      "related_topics": [
+        "education"
+      ]
+    },
+    "vocational-education": {
+      "label": "vocational education",
+      "definition": "Organised instruction preparing learners for a trade, technical occupation or profession.",
+      "includes": [
+        "Technical, industrial, agricultural and professional schools",
+        "Vocational courses and youth vocational schools"
+      ],
+      "excludes": [
+        "Academic education without occupational instruction",
+        "On-the-job apprenticeships without school instruction"
+      ],
+      "aliases": [],
+      "related_topics": [
+        "education"
+      ]
+    },
+    "teachers": {
+      "label": "teachers",
+      "definition": "Teaching staff, their qualifications, licensing, employment and pay.",
+      "includes": [
+        "Teacher counts, licences and certification",
+        "School teachers and kindergarten educators"
+      ],
+      "excludes": [
+        "Teacher-training enrolments alone",
+        "General civil servants without teaching roles"
+      ],
+      "aliases": [],
+      "related_topics": [
+        "education"
+      ]
+    },
+    "libraries": {
+      "label": "libraries",
+      "definition": "Institutions and collections providing organised access to books and other materials.",
+      "includes": [
+        "Public, school and research libraries",
+        "Library holdings, readers and circulation"
+      ],
+      "excludes": [
+        "Book publication and printing alone",
+        "Museums without library collections"
+      ],
+      "aliases": [],
+      "related_topics": [
+        "education",
+        "culture"
+      ]
+    },
+    "literacy-and-adult-education": {
+      "label": "literacy and adult education",
+      "definition": "Ability to read and write and organised instruction for adults outside ordinary school progression.",
+      "includes": [
+        "Literacy rates and illiteracy",
+        "Adult classes, continuing education and popular education"
+      ],
+      "excludes": [
+        "School enrolment alone",
+        "All youth schooling without adult or literacy content"
+      ],
+      "aliases": [],
+      "related_topics": [
+        "education"
+      ]
+    },
+    "students-abroad": {
+      "label": "students abroad",
+      "definition": "Students pursuing education outside their home territory.",
+      "includes": [
+        "Government-sponsored overseas students",
+        "Students studying in Japan from another territory"
+      ],
+      "excludes": [
+        "Foreign residents without student status",
+        "Domestic study tours"
+      ],
+      "aliases": [],
+      "related_topics": [
+        "education",
+        "foreign-relations"
+      ]
+    },
+    "mission-schools": {
+      "label": "mission schools",
+      "definition": "Educational institutions founded, operated or explicitly supported by religious missions.",
+      "includes": [
+        "Mission schools, their pupils and teachers",
+        "Religious mission education"
+      ],
+      "excludes": [
+        "Missionaries without educational work",
+        "Every private or religious school without a mission connection"
+      ],
+      "aliases": [],
+      "related_topics": [
+        "education",
+        "religion"
+      ]
+    },
+    "education-finance": {
+      "label": "education finance",
+      "definition": "Funding, revenue, expenditure and financial support specifically for education.",
+      "includes": [
+        "Educational budgets and school expenditure",
+        "School fees, scholarships and student financial relief"
+      ],
+      "excludes": [
+        "Enrolment alone",
+        "All expenditure of a welfare department without educational evidence"
+      ],
+      "aliases": [],
+      "related_topics": [
+        "education",
+        "finance"
+      ]
+    },
+    "traditional-schools": {
+      "label": "traditional schools",
+      "definition": "Institutions explicitly practising established premodern or indigenous forms of formal learning.",
+      "includes": [
+        "Classical academies, temple schools and traditional private schools",
+        "Traditional curricula and school populations"
+      ],
+      "excludes": [
+        "Any old school building",
+        "Modern private schools without traditional instruction"
+      ],
+      "aliases": [],
+      "related_topics": [
+        "education"
+      ]
+    },
+    "teacher-training": {
+      "label": "teacher training",
+      "definition": "Preparation and professional education of teachers.",
+      "includes": [
+        "Normal schools and teacher-training colleges",
+        "Teacher education students and courses"
+      ],
+      "excludes": [
+        "Teacher licences without training data",
+        "Ordinary vocational schools for other professions"
+      ],
+      "aliases": [
+        "normal schools"
+      ],
+      "related_topics": [
+        "education"
+      ]
+    },
+    "kindergartens": {
+      "label": "kindergartens",
+      "definition": "Preschool educational institutions for children before primary entry.",
+      "includes": [
+        "Kindergarten classes, pupils and educators",
+        "Preschool education statistics"
+      ],
+      "excludes": [
+        "Primary schools",
+        "Childcare or foundling care without educational provision"
+      ],
+      "aliases": [
+        "preschool education"
+      ],
+      "related_topics": [
+        "education"
+      ]
+    },
+    "special-education": {
+      "label": "special education",
+      "definition": "Education explicitly adapted for disabled learners or other defined special educational needs.",
+      "includes": [
+        "Schools for blind, deaf or other disabled pupils",
+        "Special-education enrolment and provision"
+      ],
+      "excludes": [
+        "Higher special schools meaning specialist professional education",
+        "General school health statistics"
+      ],
+      "aliases": [
+        "schools for blind and deaf learners"
+      ],
+      "related_topics": [
+        "education"
+      ]
+    },
+    "language-education": {
+      "label": "language education",
+      "definition": "Teaching and learning of languages as an explicit educational activity.",
+      "includes": [
+        "Foreign-language schools and courses",
+        "Language instruction, teachers and learners"
+      ],
+      "excludes": [
+        "Population by mother tongue",
+        "Colonial assimilation inferred solely from language of a table"
+      ],
+      "aliases": [],
+      "related_topics": [
+        "education",
+        "population"
+      ]
+    },
+    "school-boarding": {
+      "label": "school boarding",
+      "definition": "Residential accommodation and board provided for school or college pupils.",
+      "includes": [
+        "Boarding schools, dormitories and resident pupils",
+        "Educational boarding fees and provision"
+      ],
+      "excludes": [
+        "Hotels",
+        "Student enrolment without residence measures"
+      ],
+      "aliases": [],
+      "related_topics": [
+        "education"
+      ]
+    },
+    "apprenticeships": {
+      "label": "apprenticeships",
+      "definition": "Occupational training through a recognised apprenticeship relationship or structured work placement.",
+      "includes": [
+        "Apprentice numbers, contracts and training",
+        "Registered apprenticeship systems"
+      ],
+      "excludes": [
+        "All young workers",
+        "School-based vocational courses without apprenticeship"
+      ],
+      "aliases": [],
+      "related_topics": [
+        "education",
+        "labour"
+      ]
+    },
+    "shinto": {
+      "label": "shinto",
+      "definition": "Shinto beliefs, communities, rites and institutions.",
+      "includes": [
+        "Shinto shrines, priests and adherents",
+        "Shrine and sect Shinto when specified"
+      ],
+      "excludes": [
+        "Buddhist temples",
+        "All Japanese religion or ancestor rites by default"
+      ],
+      "aliases": [
+        "Shintoism"
+      ],
+      "related_topics": [
+        "religion"
+      ]
+    },
+    "buddhism": {
+      "label": "buddhism",
+      "definition": "Buddhist traditions, communities, clergy and institutions.",
+      "includes": [
+        "Buddhist temples, sects and adherents",
+        "Buddhist religious propagation"
+      ],
+      "excludes": [
+        "All temples without religious identification",
+        "Shinto shrines"
+      ],
+      "aliases": [],
+      "related_topics": [
+        "religion"
+      ]
+    },
+    "christianity": {
+      "label": "christianity",
+      "definition": "Christian churches, communities, denominations and religious activity.",
+      "includes": [
+        "Christian adherents, clergy and churches",
+        "Catholic, Protestant and Orthodox institutions"
+      ],
+      "excludes": [
+        "Western residents without religion stated",
+        "Mission schools without evidence of Christian affiliation"
+      ],
+      "aliases": [],
+      "related_topics": [
+        "religion"
+      ]
+    },
+    "other-religions": {
+      "label": "other religions",
+      "definition": "Named religious traditions without a dedicated controlled tag or explicitly residual religious categories.",
+      "includes": [
+        "Hinduism and Sikhism when identified",
+        "Source categories explicitly labelled other religions"
+      ],
+      "excludes": [
+        "Unspecified religion",
+        "Traditions already represented by a dedicated religion tag"
+      ],
+      "aliases": [],
+      "related_topics": [
+        "religion"
+      ]
+    },
+    "confucianism": {
+      "label": "confucianism",
+      "definition": "Confucian religious, ritual or institutional traditions when explicitly identified.",
+      "includes": [
+        "Confucian temples, rites and religious communities",
+        "Confucian religious organisations"
+      ],
+      "excludes": [
+        "All classical education",
+        "General references to Chinese culture"
+      ],
+      "aliases": [],
+      "related_topics": [
+        "religion"
+      ]
+    },
+    "taoism": {
+      "label": "taoism",
+      "definition": "Taoist or Daoist religious traditions and institutions.",
+      "includes": [
+        "Taoist temples, clergy, rites and adherents",
+        "Taoist religious associations"
+      ],
+      "excludes": [
+        "All Chinese folk religion",
+        "Philosophical text production without religious content"
+      ],
+      "aliases": [
+        "Daoism"
+      ],
+      "related_topics": [
+        "religion"
+      ]
+    },
+    "islam": {
+      "label": "islam",
+      "definition": "Muslim religious communities, beliefs and institutions.",
+      "includes": [
+        "Mosques, imams and Muslim adherents",
+        "Islamic religious organisations and education"
+      ],
+      "excludes": [
+        "An ethnic group presumed Muslim",
+        "Middle Eastern trade without religious content"
+      ],
+      "aliases": [],
+      "related_topics": [
+        "religion"
+      ]
+    },
+    "judaism": {
+      "label": "judaism",
+      "definition": "Jewish religious communities, practices and institutions.",
+      "includes": [
+        "Synagogues, rabbis and Jewish religious adherents",
+        "Jewish religious organisations"
+      ],
+      "excludes": [
+        "Jewish ethnicity alone without religious evidence",
+        "Foreign residents presumed to follow Judaism"
+      ],
+      "aliases": [],
+      "related_topics": [
+        "religion"
+      ]
+    },
+    "missions": {
+      "label": "missions",
+      "definition": "Organised religious propagation and missionary personnel or establishments.",
+      "includes": [
+        "Missionaries by nationality or denomination",
+        "Mission stations and religious propagation"
+      ],
+      "excludes": [
+        "Diplomatic missions",
+        "Mission schools when only ordinary school operations are measured"
+      ],
+      "aliases": [],
+      "related_topics": [
+        "religion",
+        "foreign-relations"
+      ]
+    },
+    "ancestor-rites": {
+      "label": "ancestor rites",
+      "definition": "Ritual observance and worship specifically directed to ancestors.",
+      "includes": [
+        "Ancestor worship, ancestral halls and rites",
+        "Ritual institutions for ancestral observance"
+      ],
+      "excludes": [
+        "Genealogy without rites",
+        "All Confucianism or folk religion by assumption"
+      ],
+      "aliases": [],
+      "related_topics": [
+        "religion"
+      ]
+    },
+    "folk-religion": {
+      "label": "folk religion",
+      "definition": "Local or popular religious traditions explicitly identified as such.",
+      "includes": [
+        "Village cults, local deities and popular religious practices",
+        "Folk-religious institutions and observances"
+      ],
+      "excludes": [
+        "Any religion practised by indigenous people",
+        "Named institutional religions solely because locally popular"
+      ],
+      "aliases": [],
+      "related_topics": [
+        "religion"
+      ]
+    },
+    "religious-institutions": {
+      "label": "religious institutions",
+      "definition": "Organisations, personnel and establishments providing religious worship or religious governance.",
+      "includes": [
+        "Shrines, temples, churches, clergy and religious associations",
+        "Comparative institutional statistics across religions"
+      ],
+      "excludes": [
+        "Adherent totals alone without institutional measures",
+        "Religious schools tabulated only as schools"
+      ],
+      "aliases": [],
+      "related_topics": [
+        "religion"
+      ]
+    },
+    "tenrikyo": {
+      "label": "tenrikyo",
+      "definition": "Tenrikyo religious communities, teachings and institutions.",
+      "includes": [
+        "Tenrikyo adherents, clergy, churches and propagation",
+        "Tenrikyo organisations explicitly identified"
+      ],
+      "excludes": [
+        "All Japanese new religions",
+        "Automatic reassignment to Shinto based solely on historical official grouping"
+      ],
+      "aliases": [
+        "Tenri-kyo"
+      ],
+      "related_topics": [
+        "religion"
+      ]
+    },
+    "newspapers": {
+      "label": "newspapers",
+      "definition": "Regular news publications issued as newspapers and the enterprises producing them.",
+      "includes": [
+        "Newspaper titles, circulation and publishers",
+        "Newspaper capital, prices and publication counts"
+      ],
+      "excludes": [
+        "Magazine and journal statistics",
+        "All printed publications without newspaper identification"
+      ],
+      "aliases": [],
+      "related_topics": [
+        "press"
+      ]
+    },
+    "periodicals": {
+      "label": "periodicals",
+      "definition": "Serial print publications other than newspapers, including journals and magazines.",
+      "includes": [
+        "Magazine and journal titles, circulation and publication counts",
+        "Periodical publishing"
+      ],
+      "excludes": [
+        "Newspapers",
+        "Books issued as monographs"
+      ],
+      "aliases": [],
+      "related_topics": [
+        "press"
+      ]
+    },
+    "books": {
+      "label": "books",
+      "definition": "Books and other monographic printed publications and their publication or circulation.",
+      "includes": [
+        "Book titles, editions, subjects and publishing",
+        "Book imports and exports"
+      ],
+      "excludes": [
+        "Paper output alone",
+        "Serial newspapers and magazines unless combined publication statistics are indivisible"
+      ],
+      "aliases": [],
+      "related_topics": [
+        "press",
+        "culture",
+        "education"
+      ]
+    },
+    "news-agencies": {
+      "label": "news agencies",
+      "definition": "Organisations gathering and distributing news to media outlets.",
+      "includes": [
+        "News services and wire agencies",
+        "Agency personnel, offices and business"
+      ],
+      "excludes": [
+        "Telegraph companies carrying general messages",
+        "Newspaper publishers without an agency function"
+      ],
+      "aliases": [],
+      "related_topics": [
+        "press",
+        "communications"
+      ]
+    },
+    "censorship": {
+      "label": "censorship",
+      "definition": "Official review, restriction or suppression of publication, performance or public expression.",
+      "includes": [
+        "Press restrictions and censored books",
+        "Film censorship and content approvals"
+      ],
+      "excludes": [
+        "Routine licensing without content control",
+        "Criminal arrests without an expression or publication link"
+      ],
+      "aliases": [],
+      "related_topics": [
+        "press",
+        "government",
+        "culture"
+      ]
+    },
+    "arts-and-music": {
+      "label": "arts and music",
+      "definition": "Visual arts, artistic crafts and musical creation, performance or institutions.",
+      "includes": [
+        "Art exhibitions, painters, arts boards and music societies",
+        "Art schools and artistic awards when art is the subject"
+      ],
+      "excludes": [
+        "Ordinary industrial output without artistic content",
+        "Sporting competitions"
+      ],
+      "aliases": [],
+      "related_topics": [
+        "culture"
+      ]
+    },
+    "theatre-and-cinema": {
+      "label": "theatre and cinema",
+      "definition": "Dramatic performance, film production, distribution and exhibition.",
+      "includes": [
+        "Theatres, cinemas, films and attendance",
+        "Film producers and motion-picture exhibition"
+      ],
+      "excludes": [
+        "Radio broadcasting alone",
+        "Sporting venues"
+      ],
+      "aliases": [],
+      "related_topics": [
+        "culture"
+      ]
+    },
+    "museums-and-heritage": {
+      "label": "museums and heritage",
+      "definition": "Museums, collections and recognised cultural or historic heritage.",
+      "includes": [
+        "Museum institutions and collections",
+        "National treasures, historic monuments and heritage protection"
+      ],
+      "excludes": [
+        "Libraries without museum collections",
+        "Natural scenery without heritage designation"
+      ],
+      "aliases": [],
+      "related_topics": [
+        "culture"
+      ]
+    },
+    "recreation-and-amusements": {
+      "label": "recreation and amusements",
+      "definition": "Leisure, entertainment and amusement activities outside organised sport.",
+      "includes": [
+        "Amusement venues, parks and public entertainment",
+        "Non-sport recreational participation"
+      ],
+      "excludes": [
+        "Sporting records and competitions",
+        "Theatre or cinema alone where the more precise tag suffices"
+      ],
+      "aliases": [],
+      "related_topics": [
+        "culture"
+      ]
+    },
+    "archaeology": {
+      "label": "archaeology",
+      "definition": "Investigation and material remains of past human societies.",
+      "includes": [
+        "Archaeological excavations, sites and antiquities",
+        "Archaeological research and collections"
+      ],
+      "excludes": [
+        "General history or chronology",
+        "Mining and geological surveys"
+      ],
+      "aliases": [],
+      "related_topics": [
+        "culture",
+        "science-and-technology"
+      ]
+    },
+    "sports-records": {
+      "label": "sports records",
+      "definition": "Documented competitive sporting results, performance records and champions.",
+      "includes": [
+        "Championship winners and match results",
+        "National and world athletic records"
+      ],
+      "excludes": [
+        "Sporting club or venue lists without results",
+        "General physical exercise or leisure"
+      ],
+      "aliases": [],
+      "related_topics": [
+        "sport"
+      ]
+    },
+    "scientific-research": {
+      "label": "scientific research",
+      "definition": "Systematic scientific investigation and the organisations and resources supporting it.",
+      "includes": [
+        "Research institutes, academies and scientific councils",
+        "Research personnel, projects, findings and expenditure"
+      ],
+      "excludes": [
+        "Routine school enrolment",
+        "Production of scientific instruments without research activity"
+      ],
+      "aliases": [],
+      "related_topics": [
+        "science-and-technology"
+      ]
+    },
+    "patents-and-trademarks": {
+      "label": "patents and trademarks",
+      "definition": "Legal registration and protection of inventions, utility models, designs and commercial marks.",
+      "includes": [
+        "Patent, utility-model, design and trademark registrations",
+        "Inventors and industrial-property rights"
+      ],
+      "excludes": [
+        "Land or mining property rights",
+        "All company registration"
+      ],
+      "aliases": [
+        "industrial property"
+      ],
+      "related_topics": [
+        "science-and-technology",
+        "trade",
+        "manufacturing"
+      ]
+    },
+    "measurement-and-units": {
+      "label": "measurement and units",
+      "definition": "Systems, standards and conversions for quantitative measurement.",
+      "includes": [
+        "Weights, measures and monetary-unit equivalents",
+        "Metrology, measurement standards and unit conversion tables"
+      ],
+      "excludes": [
+        "Any table containing numbers or units",
+        "Instrument manufacture without standards or conversion content"
+      ],
+      "aliases": [
+        "weights and measures"
+      ],
+      "related_topics": [
+        "science-and-technology",
+        "finance"
+      ]
+    }
+  },
+  "proposed_additions": {
+    "topics": [],
+    "tags": [
+      {
+        "id": "balance-of-payments",
+        "label": "balance of payments",
+        "definition": "Accounts of economic transactions between a territory and the rest of the world, including goods, services, income and capital flows.",
+        "includes": [
+          "International balance-of-payments accounts",
+          "Current and capital account balances"
+        ],
+        "excludes": [
+          "Merchandise imports and exports alone",
+          "A company balance sheet"
+        ],
+        "aliases": [],
+        "related_topics": [
+          "finance",
+          "trade"
+        ]
+      },
+      {
+        "id": "services-and-invisible-trade",
+        "label": "services and invisible trade",
+        "definition": "Cross-border service earnings and payments and other receipts historically grouped as invisible trade.",
+        "includes": [
+          "Invisible trade accounts",
+          "International transport, tourism, insurance and other service receipts"
+        ],
+        "excludes": [
+          "Merchandise trade",
+          "All capital flows merely because they are non-merchandise"
+        ],
+        "aliases": [
+          "invisible trade",
+          "trade in services"
+        ],
+        "related_topics": [
+          "trade",
+          "finance"
+        ]
+      },
+      {
+        "id": "migrant-remittances",
+        "label": "migrant remittances",
+        "definition": "Money sent by migrants or overseas residents to people or households in their territory of origin.",
+        "includes": [
+          "Emigrant remittances",
+          "Transfers home by overseas communities"
+        ],
+        "excludes": [
+          "Postal transfers without a migrant connection",
+          "Foreign investment or public foreign loans"
+        ],
+        "aliases": [],
+        "related_topics": [
+          "finance",
+          "population"
+        ]
+      },
+      {
+        "id": "labour-productivity",
+        "label": "labour productivity",
+        "definition": "Output relative to labour input, measured per worker or unit of working time.",
+        "includes": [
+          "Output or production value per operative",
+          "Indices explicitly measuring labour productivity"
+        ],
+        "excludes": [
+          "Worker totals without output per labour input",
+          "Total factory output alone"
+        ],
+        "aliases": [
+          "labor productivity"
+        ],
+        "related_topics": [
+          "labour",
+          "economy",
+          "manufacturing"
+        ]
+      },
+      {
+        "id": "cost-of-living",
+        "label": "cost of living",
+        "definition": "The expenditure needed to maintain a defined household or individual living standard and its index over time.",
+        "includes": [
+          "Cost-of-living indices",
+          "Minimum living expenses and worker-family living costs"
+        ],
+        "excludes": [
+          "Wholesale commodity prices alone",
+          "Wage rates without a living-cost measure"
+        ],
+        "aliases": [],
+        "related_topics": [
+          "economy",
+          "welfare",
+          "labour"
+        ]
+      },
+      {
+        "id": "sports-organisations-and-facilities",
+        "label": "sports organisations and facilities",
+        "definition": "Clubs, associations and physical venues established for sporting activities.",
+        "includes": [
+          "Horse race clubs and sporting associations",
+          "Golf links, playing fields and sports venues"
+        ],
+        "excludes": [
+          "Championship results without organisational or venue measures",
+          "General amusement venues without a sporting function"
+        ],
+        "aliases": [
+          "sports clubs",
+          "sports facilities"
+        ],
+        "related_topics": [
+          "sport"
+        ]
+      },
+      {
+        "id": "calendars-and-time",
+        "label": "calendars and time",
+        "definition": "Systems for reckoning years, dates and time and converting between calendar or time conventions.",
+        "includes": [
+          "Era and year-name equivalence tables",
+          "International time charts and time-zone comparisons"
+        ],
+        "excludes": [
+          "Any historical table merely containing years",
+          "Sunrise and sunset observations without time-system comparison"
+        ],
+        "aliases": [
+          "year names",
+          "time standards"
+        ],
+        "related_topics": [
+          "science-and-technology",
+          "government"
+        ]
+      },
+      {
+        "id": "religious-affiliation",
+        "label": "religious affiliation",
+        "definition": "Counts or distribution of people by stated religious membership or adherence.",
+        "includes": [
+          "Followers of multiple religions",
+          "Adherents classified by religious group"
+        ],
+        "excludes": [
+          "Religion inferred solely from ethnicity",
+          "Clergy or temple counts without adherent measures"
+        ],
+        "aliases": [],
+        "related_topics": [
+          "religion",
+          "population"
+        ]
+      }
+    ]
+  }
+}
