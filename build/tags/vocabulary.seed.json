@@ -1,0 +1,4018 @@
+{
+  "schema_version": 1,
+  "vocabulary_version": "1.0.0-pilot",
+  "status": "pilot",
+  "limits": {
+    "topics": {
+      "min": 1,
+      "max": 2
+    },
+    "tags": {
+      "min": 1,
+      "max": 3
+    }
+  },
+  "topics": [
+    {
+      "id": "geography",
+      "label": "Geography",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": []
+    },
+    {
+      "id": "disasters",
+      "label": "Disasters",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": []
+    },
+    {
+      "id": "population",
+      "label": "Population",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": []
+    },
+    {
+      "id": "government",
+      "label": "Government",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": []
+    },
+    {
+      "id": "informal-imperialism",
+      "label": "Informal imperialism",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": []
+    },
+    {
+      "id": "colonial-rule",
+      "label": "Colonial rule",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": []
+    },
+    {
+      "id": "indigenous-peoples",
+      "label": "Indigenous peoples",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": []
+    },
+    {
+      "id": "foreign-relations",
+      "label": "Foreign relations",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": []
+    },
+    {
+      "id": "military",
+      "label": "Military",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": []
+    },
+    {
+      "id": "economy",
+      "label": "Economy",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": []
+    },
+    {
+      "id": "finance",
+      "label": "Finance",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": []
+    },
+    {
+      "id": "trade",
+      "label": "Trade",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": []
+    },
+    {
+      "id": "agriculture",
+      "label": "Agriculture",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": []
+    },
+    {
+      "id": "forestry",
+      "label": "Forestry",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": []
+    },
+    {
+      "id": "fisheries",
+      "label": "Fisheries",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": []
+    },
+    {
+      "id": "mining",
+      "label": "Mining",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": []
+    },
+    {
+      "id": "manufacturing",
+      "label": "Manufacturing",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": []
+    },
+    {
+      "id": "utilities",
+      "label": "Utilities",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": []
+    },
+    {
+      "id": "transportation",
+      "label": "Transportation",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": []
+    },
+    {
+      "id": "communications",
+      "label": "Communications",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": []
+    },
+    {
+      "id": "labour",
+      "label": "Labour",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": []
+    },
+    {
+      "id": "education",
+      "label": "Education",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": []
+    },
+    {
+      "id": "religion",
+      "label": "Religion",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": []
+    },
+    {
+      "id": "crime-and-justice",
+      "label": "Crime and justice",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": []
+    },
+    {
+      "id": "narcotics",
+      "label": "Narcotics",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": []
+    },
+    {
+      "id": "health",
+      "label": "Health",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": []
+    },
+    {
+      "id": "welfare",
+      "label": "Welfare",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": []
+    },
+    {
+      "id": "press",
+      "label": "Press",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": []
+    },
+    {
+      "id": "culture",
+      "label": "Culture",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": []
+    },
+    {
+      "id": "sport",
+      "label": "Sport",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": []
+    },
+    {
+      "id": "science-and-technology",
+      "label": "Science and technology",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": []
+    }
+  ],
+  "tags": [
+    {
+      "id": "land-area",
+      "label": "land area",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "geography"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "physical-geography",
+      "label": "physical geography",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "geography"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "weather",
+      "label": "weather",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "geography"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "flora-and-fauna",
+      "label": "flora and fauna",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "geography"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "earthquakes-and-volcanoes",
+      "label": "earthquakes and volcanoes",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "geography"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "rivers-and-waterways",
+      "label": "rivers and waterways",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "geography"
+      ],
+      "origin": "china-review"
+    },
+    {
+      "id": "land-surveys",
+      "label": "land surveys",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "geography"
+      ],
+      "origin": "korea-review"
+    },
+    {
+      "id": "floods",
+      "label": "floods",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "disasters"
+      ],
+      "origin": "china-review"
+    },
+    {
+      "id": "famine",
+      "label": "famine",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "disasters"
+      ],
+      "origin": "china-review"
+    },
+    {
+      "id": "disaster-losses",
+      "label": "disaster losses",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "disasters"
+      ],
+      "origin": "china-review"
+    },
+    {
+      "id": "disaster-relief",
+      "label": "disaster relief",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "disasters"
+      ],
+      "origin": "china-review"
+    },
+    {
+      "id": "fires",
+      "label": "fires",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "disasters"
+      ],
+      "origin": "korea-review"
+    },
+    {
+      "id": "storms-and-typhoons",
+      "label": "storms and typhoons",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "disasters"
+      ],
+      "origin": "taiwan-review"
+    },
+    {
+      "id": "firefighting",
+      "label": "firefighting",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "disasters"
+      ],
+      "origin": "taiwan-review"
+    },
+    {
+      "id": "population-totals",
+      "label": "population totals",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "population"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "age-and-sex",
+      "label": "age and sex",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "population"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "households",
+      "label": "households",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "population"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "births-and-deaths",
+      "label": "births and deaths",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "population"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "marriage-and-divorce",
+      "label": "marriage and divorce",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "population"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "migration",
+      "label": "migration",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "population"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "nationality-and-ethnicity",
+      "label": "nationality and ethnicity",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "population"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "occupations",
+      "label": "occupations",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "population"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "languages",
+      "label": "languages",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "population"
+      ],
+      "origin": "china-review"
+    },
+    {
+      "id": "overseas-communities",
+      "label": "overseas communities",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "population"
+      ],
+      "origin": "china-review"
+    },
+    {
+      "id": "household-registration",
+      "label": "household registration",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "population"
+      ],
+      "origin": "korea-review"
+    },
+    {
+      "id": "suicide",
+      "label": "suicide",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "population"
+      ],
+      "origin": "taiwan-review"
+    },
+    {
+      "id": "infant-mortality",
+      "label": "infant mortality",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "population"
+      ],
+      "origin": "south-seas-review"
+    },
+    {
+      "id": "government-offices",
+      "label": "government offices",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "government"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "elections-and-parties",
+      "label": "elections and parties",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "government"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "local-government",
+      "label": "local government",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "government"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "imperial-household",
+      "label": "imperial household",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "government"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "honours-and-ranks",
+      "label": "honours and ranks",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "government"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "constitutions-and-laws",
+      "label": "constitutions and laws",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "government"
+      ],
+      "origin": "china-review"
+    },
+    {
+      "id": "administrative-divisions",
+      "label": "administrative divisions",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "government"
+      ],
+      "origin": "taiwan-review"
+    },
+    {
+      "id": "passports-and-travel-permits",
+      "label": "passports and travel permits",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "government"
+      ],
+      "origin": "south-seas-review"
+    },
+    {
+      "id": "foreign-concessions",
+      "label": "foreign concessions",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "informal-imperialism"
+      ],
+      "origin": "china-review"
+    },
+    {
+      "id": "extraterritoriality",
+      "label": "extraterritoriality",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "informal-imperialism"
+      ],
+      "origin": "china-review"
+    },
+    {
+      "id": "treaty-ports",
+      "label": "treaty ports",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "informal-imperialism"
+      ],
+      "origin": "china-review"
+    },
+    {
+      "id": "foreign-garrisons",
+      "label": "foreign garrisons",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "informal-imperialism"
+      ],
+      "origin": "china-review"
+    },
+    {
+      "id": "annexation-and-protectorates",
+      "label": "annexation and protectorates",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "colonial-rule"
+      ],
+      "origin": "korea-review"
+    },
+    {
+      "id": "colonial-administration",
+      "label": "colonial administration",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "colonial-rule"
+      ],
+      "origin": "korea-review"
+    },
+    {
+      "id": "settler-migration",
+      "label": "settler migration",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "colonial-rule"
+      ],
+      "origin": "korea-review"
+    },
+    {
+      "id": "assimilation-policies",
+      "label": "assimilation policies",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "colonial-rule"
+      ],
+      "origin": "korea-review"
+    },
+    {
+      "id": "independence-movements",
+      "label": "independence movements",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "colonial-rule"
+      ],
+      "origin": "korea-review"
+    },
+    {
+      "id": "frontier-policing",
+      "label": "frontier policing",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "indigenous-peoples"
+      ],
+      "origin": "taiwan-review"
+    },
+    {
+      "id": "guard-lines",
+      "label": "guard lines",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "indigenous-peoples"
+      ],
+      "origin": "taiwan-review"
+    },
+    {
+      "id": "diplomatic-service",
+      "label": "diplomatic service",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "foreign-relations"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "treaties",
+      "label": "treaties",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "foreign-relations"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "international-organisations",
+      "label": "international organisations",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "foreign-relations"
+      ],
+      "origin": "china-review"
+    },
+    {
+      "id": "army",
+      "label": "army",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "military"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "navy",
+      "label": "navy",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "military"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "war-and-mobilisation",
+      "label": "war and mobilisation",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "military"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "air-force",
+      "label": "air force",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "military"
+      ],
+      "origin": "china-review"
+    },
+    {
+      "id": "arms-and-arsenals",
+      "label": "arms and arsenals",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "military"
+      ],
+      "origin": "china-review"
+    },
+    {
+      "id": "military-casualties",
+      "label": "military casualties",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "military"
+      ],
+      "origin": "china-review"
+    },
+    {
+      "id": "recruitment-and-conscription",
+      "label": "recruitment and conscription",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "military"
+      ],
+      "origin": "korea-review"
+    },
+    {
+      "id": "air-defence",
+      "label": "air defence",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "military"
+      ],
+      "origin": "korea-review"
+    },
+    {
+      "id": "economic-planning",
+      "label": "economic planning",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "economy"
+      ],
+      "origin": "china-review"
+    },
+    {
+      "id": "economic-controls",
+      "label": "economic controls",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "economy"
+      ],
+      "origin": "china-review"
+    },
+    {
+      "id": "price-controls",
+      "label": "price controls",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "economy"
+      ],
+      "origin": "china-review"
+    },
+    {
+      "id": "inflation",
+      "label": "inflation",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "economy"
+      ],
+      "origin": "china-review"
+    },
+    {
+      "id": "cooperatives",
+      "label": "cooperatives",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "economy"
+      ],
+      "origin": "china-review"
+    },
+    {
+      "id": "reconstruction",
+      "label": "reconstruction",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "economy"
+      ],
+      "origin": "china-review"
+    },
+    {
+      "id": "food-supply-and-rationing",
+      "label": "food supply and rationing",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "economy"
+      ],
+      "origin": "china-review"
+    },
+    {
+      "id": "state-monopolies",
+      "label": "state monopolies",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "economy"
+      ],
+      "origin": "china-review"
+    },
+    {
+      "id": "rural-development",
+      "label": "rural development",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "economy"
+      ],
+      "origin": "korea-review"
+    },
+    {
+      "id": "production-subsidies",
+      "label": "production subsidies",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "economy"
+      ],
+      "origin": "south-seas-review"
+    },
+    {
+      "id": "public-budgets",
+      "label": "public budgets",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "finance"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "taxation",
+      "label": "taxation",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "finance"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "public-debt",
+      "label": "public debt",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "finance"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "banking",
+      "label": "banking",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "finance"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "savings-and-loans",
+      "label": "savings and loans",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "finance"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "currency",
+      "label": "currency",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "finance"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "foreign-exchange",
+      "label": "foreign exchange",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "finance"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "securities-and-investment",
+      "label": "securities and investment",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "finance"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "insurance-and-pensions",
+      "label": "insurance and pensions",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "finance"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "national-income-and-wealth",
+      "label": "national income and wealth",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "finance"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "foreign-loans",
+      "label": "foreign loans",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "finance"
+      ],
+      "origin": "china-review"
+    },
+    {
+      "id": "foreign-investment",
+      "label": "foreign investment",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "finance"
+      ],
+      "origin": "china-review"
+    },
+    {
+      "id": "indemnities",
+      "label": "indemnities",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "finance"
+      ],
+      "origin": "china-review"
+    },
+    {
+      "id": "customs-revenue",
+      "label": "customs revenue",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "finance"
+      ],
+      "origin": "china-review"
+    },
+    {
+      "id": "likin",
+      "label": "likin",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "finance"
+      ],
+      "origin": "china-review"
+    },
+    {
+      "id": "salt-tax",
+      "label": "salt tax",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "finance"
+      ],
+      "origin": "china-review"
+    },
+    {
+      "id": "land-tax",
+      "label": "land tax",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "finance"
+      ],
+      "origin": "korea-review"
+    },
+    {
+      "id": "mutual-credit",
+      "label": "mutual credit",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "finance"
+      ],
+      "origin": "korea-review"
+    },
+    {
+      "id": "pawnshops",
+      "label": "pawnshops",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "finance"
+      ],
+      "origin": "korea-review"
+    },
+    {
+      "id": "interest-rates",
+      "label": "interest rates",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "finance"
+      ],
+      "origin": "korea-review"
+    },
+    {
+      "id": "public-property",
+      "label": "public property",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "finance"
+      ],
+      "origin": "korea-review"
+    },
+    {
+      "id": "agricultural-credit",
+      "label": "agricultural credit",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "finance"
+      ],
+      "origin": "korea-review"
+    },
+    {
+      "id": "head-tax",
+      "label": "head tax",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "finance"
+      ],
+      "origin": "south-seas-review"
+    },
+    {
+      "id": "domestic-trade",
+      "label": "domestic trade",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "trade"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "imports",
+      "label": "imports",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "trade"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "exports",
+      "label": "exports",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "trade"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "tariffs",
+      "label": "tariffs",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "trade"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "prices",
+      "label": "prices",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "trade"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "companies",
+      "label": "companies",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "trade"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "business-associations",
+      "label": "business associations",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "trade"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "re-exports",
+      "label": "re exports",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "trade"
+      ],
+      "origin": "china-review"
+    },
+    {
+      "id": "transit-trade",
+      "label": "transit trade",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "trade"
+      ],
+      "origin": "china-review"
+    },
+    {
+      "id": "advertising",
+      "label": "advertising",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "trade"
+      ],
+      "origin": "china-review"
+    },
+    {
+      "id": "warehousing",
+      "label": "warehousing",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "trade"
+      ],
+      "origin": "china-review"
+    },
+    {
+      "id": "markets-and-exchanges",
+      "label": "markets and exchanges",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "trade"
+      ],
+      "origin": "korea-review"
+    },
+    {
+      "id": "intra-imperial-trade",
+      "label": "intra imperial trade",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "trade"
+      ],
+      "origin": "korea-review"
+    },
+    {
+      "id": "arable-land",
+      "label": "arable land",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "agriculture"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "land-tenure",
+      "label": "land tenure",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "agriculture"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "crop-production",
+      "label": "crop production",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "agriculture"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "rice",
+      "label": "rice",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "agriculture"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "cereals",
+      "label": "cereals",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "agriculture"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "horticulture",
+      "label": "horticulture",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "agriculture"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "tea",
+      "label": "tea",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "agriculture"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "industrial-crops",
+      "label": "industrial crops",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "agriculture"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "livestock",
+      "label": "livestock",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "agriculture"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "sericulture",
+      "label": "sericulture",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "agriculture"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "irrigation",
+      "label": "irrigation",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "agriculture"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "wheat",
+      "label": "wheat",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "agriculture"
+      ],
+      "origin": "china-review"
+    },
+    {
+      "id": "soybeans",
+      "label": "soybeans",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "agriculture"
+      ],
+      "origin": "china-review"
+    },
+    {
+      "id": "oilseeds",
+      "label": "oilseeds",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "agriculture"
+      ],
+      "origin": "china-review"
+    },
+    {
+      "id": "eggs-and-poultry",
+      "label": "eggs and poultry",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "agriculture"
+      ],
+      "origin": "china-review"
+    },
+    {
+      "id": "farm-inputs",
+      "label": "farm inputs",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "agriculture"
+      ],
+      "origin": "china-review"
+    },
+    {
+      "id": "ginseng",
+      "label": "ginseng",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "agriculture"
+      ],
+      "origin": "korea-review"
+    },
+    {
+      "id": "barley",
+      "label": "barley",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "agriculture"
+      ],
+      "origin": "korea-review"
+    },
+    {
+      "id": "agricultural-extension",
+      "label": "agricultural extension",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "agriculture"
+      ],
+      "origin": "korea-review"
+    },
+    {
+      "id": "land-improvement",
+      "label": "land improvement",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "agriculture"
+      ],
+      "origin": "korea-review"
+    },
+    {
+      "id": "shifting-cultivation",
+      "label": "shifting cultivation",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "agriculture"
+      ],
+      "origin": "korea-review"
+    },
+    {
+      "id": "sugarcane",
+      "label": "sugarcane",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "agriculture"
+      ],
+      "origin": "taiwan-review"
+    },
+    {
+      "id": "pineapples",
+      "label": "pineapples",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "agriculture"
+      ],
+      "origin": "taiwan-review"
+    },
+    {
+      "id": "plant-fibres",
+      "label": "plant fibres",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "agriculture"
+      ],
+      "origin": "taiwan-review"
+    },
+    {
+      "id": "indigo",
+      "label": "indigo",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "agriculture"
+      ],
+      "origin": "taiwan-review"
+    },
+    {
+      "id": "coconuts",
+      "label": "coconuts",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "agriculture"
+      ],
+      "origin": "south-seas-review"
+    },
+    {
+      "id": "copra",
+      "label": "copra",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "agriculture"
+      ],
+      "origin": "south-seas-review"
+    },
+    {
+      "id": "coffee",
+      "label": "coffee",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "agriculture"
+      ],
+      "origin": "south-seas-review"
+    },
+    {
+      "id": "forest-area",
+      "label": "forest area",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "forestry"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "timber",
+      "label": "timber",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "forestry"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "forest-management",
+      "label": "forest management",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "forestry"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "afforestation",
+      "label": "afforestation",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "forestry"
+      ],
+      "origin": "korea-review"
+    },
+    {
+      "id": "camphor",
+      "label": "camphor",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "forestry"
+      ],
+      "origin": "taiwan-review"
+    },
+    {
+      "id": "bamboo-and-rattan",
+      "label": "bamboo and rattan",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "forestry"
+      ],
+      "origin": "taiwan-review"
+    },
+    {
+      "id": "fuelwood-and-charcoal",
+      "label": "fuelwood and charcoal",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "forestry"
+      ],
+      "origin": "taiwan-review"
+    },
+    {
+      "id": "fishing",
+      "label": "fishing",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "fisheries"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "aquaculture",
+      "label": "aquaculture",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "fisheries"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "whaling",
+      "label": "whaling",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "fisheries"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "fishing-rights-and-licences",
+      "label": "fishing rights and licences",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "fisheries"
+      ],
+      "origin": "korea-review"
+    },
+    {
+      "id": "seaweed",
+      "label": "seaweed",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "fisheries"
+      ],
+      "origin": "korea-review"
+    },
+    {
+      "id": "mineral-production",
+      "label": "mineral production",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "mining"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "coal",
+      "label": "coal",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "mining"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "petroleum",
+      "label": "petroleum",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "mining"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "gold",
+      "label": "gold",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "mining"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "silver",
+      "label": "silver",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "mining"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "copper",
+      "label": "copper",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "mining"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "mineral-reserves",
+      "label": "mineral reserves",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "mining"
+      ],
+      "origin": "china-review"
+    },
+    {
+      "id": "iron-ore",
+      "label": "iron ore",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "mining"
+      ],
+      "origin": "china-review"
+    },
+    {
+      "id": "tin",
+      "label": "tin",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "mining"
+      ],
+      "origin": "china-review"
+    },
+    {
+      "id": "tungsten",
+      "label": "tungsten",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "mining"
+      ],
+      "origin": "china-review"
+    },
+    {
+      "id": "antimony",
+      "label": "antimony",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "mining"
+      ],
+      "origin": "china-review"
+    },
+    {
+      "id": "manganese",
+      "label": "manganese",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "mining"
+      ],
+      "origin": "china-review"
+    },
+    {
+      "id": "lead-and-zinc",
+      "label": "lead and zinc",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "mining"
+      ],
+      "origin": "china-review"
+    },
+    {
+      "id": "salt",
+      "label": "salt",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "mining"
+      ],
+      "origin": "china-review"
+    },
+    {
+      "id": "graphite",
+      "label": "graphite",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "mining"
+      ],
+      "origin": "korea-review"
+    },
+    {
+      "id": "mining-rights-and-concessions",
+      "label": "mining rights and concessions",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "mining"
+      ],
+      "origin": "korea-review"
+    },
+    {
+      "id": "phosphate-rock",
+      "label": "phosphate rock",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "mining"
+      ],
+      "origin": "south-seas-review"
+    },
+    {
+      "id": "industrial-output",
+      "label": "industrial output",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "manufacturing"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "textiles",
+      "label": "textiles",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "manufacturing"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "silk",
+      "label": "silk",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "manufacturing"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "cotton",
+      "label": "cotton",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "manufacturing"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "wool",
+      "label": "wool",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "manufacturing"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "rayon",
+      "label": "rayon",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "manufacturing"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "iron-and-steel",
+      "label": "iron and steel",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "manufacturing"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "machinery",
+      "label": "machinery",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "manufacturing"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "shipbuilding",
+      "label": "shipbuilding",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "manufacturing"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "chemicals",
+      "label": "chemicals",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "manufacturing"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "fertilisers",
+      "label": "fertilisers",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "manufacturing"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "paper-and-pulp",
+      "label": "paper and pulp",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "manufacturing"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "ceramics-and-glass",
+      "label": "ceramics and glass",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "manufacturing"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "food-processing",
+      "label": "food processing",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "manufacturing"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "sugar",
+      "label": "sugar",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "manufacturing"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "alcohol",
+      "label": "alcohol",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "manufacturing"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "tobacco",
+      "label": "tobacco",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "manufacturing"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "cottage-industries",
+      "label": "cottage industries",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "manufacturing"
+      ],
+      "origin": "china-review"
+    },
+    {
+      "id": "rubber",
+      "label": "rubber",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "manufacturing"
+      ],
+      "origin": "china-review"
+    },
+    {
+      "id": "leather-and-furs",
+      "label": "leather and furs",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "manufacturing"
+      ],
+      "origin": "china-review"
+    },
+    {
+      "id": "cement-and-bricks",
+      "label": "cement and bricks",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "manufacturing"
+      ],
+      "origin": "china-review"
+    },
+    {
+      "id": "vegetable-oils",
+      "label": "vegetable oils",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "manufacturing"
+      ],
+      "origin": "china-review"
+    },
+    {
+      "id": "tung-oil",
+      "label": "tung oil",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "manufacturing"
+      ],
+      "origin": "china-review"
+    },
+    {
+      "id": "rice-milling",
+      "label": "rice milling",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "manufacturing"
+      ],
+      "origin": "taiwan-review"
+    },
+    {
+      "id": "canning",
+      "label": "canning",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "manufacturing"
+      ],
+      "origin": "taiwan-review"
+    },
+    {
+      "id": "electricity",
+      "label": "electricity",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "utilities"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "gas",
+      "label": "gas",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "utilities"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "water-and-sewerage",
+      "label": "water and sewerage",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "utilities"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "construction",
+      "label": "construction",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "utilities"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "flood-control",
+      "label": "flood control",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "utilities"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "river-conservancy",
+      "label": "river conservancy",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "utilities"
+      ],
+      "origin": "china-review"
+    },
+    {
+      "id": "land-reclamation",
+      "label": "land reclamation",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "utilities"
+      ],
+      "origin": "china-review"
+    },
+    {
+      "id": "hydroelectricity",
+      "label": "hydroelectricity",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "utilities"
+      ],
+      "origin": "korea-review"
+    },
+    {
+      "id": "erosion-control",
+      "label": "erosion control",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "utilities"
+      ],
+      "origin": "korea-review"
+    },
+    {
+      "id": "urban-planning",
+      "label": "urban planning",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "utilities"
+      ],
+      "origin": "korea-review"
+    },
+    {
+      "id": "railways",
+      "label": "railways",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "transportation"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "roads-and-bridges",
+      "label": "roads and bridges",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "transportation"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "road-transport",
+      "label": "road transport",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "transportation"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "shipping",
+      "label": "shipping",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "transportation"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "ports",
+      "label": "ports",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "transportation"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "aviation",
+      "label": "aviation",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "transportation"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "tourism",
+      "label": "tourism",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "transportation"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "trams",
+      "label": "trams",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "transportation"
+      ],
+      "origin": "user-request"
+    },
+    {
+      "id": "inland-navigation",
+      "label": "inland navigation",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "transportation"
+      ],
+      "origin": "china-review"
+    },
+    {
+      "id": "freight-and-transport-costs",
+      "label": "freight and transport costs",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "transportation"
+      ],
+      "origin": "china-review"
+    },
+    {
+      "id": "navigation-aids",
+      "label": "navigation aids",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "transportation"
+      ],
+      "origin": "korea-review"
+    },
+    {
+      "id": "transport-accidents",
+      "label": "transport accidents",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "transportation"
+      ],
+      "origin": "taiwan-review"
+    },
+    {
+      "id": "postal-services",
+      "label": "postal services",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "communications"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "telegraph",
+      "label": "telegraph",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "communications"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "telephone",
+      "label": "telephone",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "communications"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "radio",
+      "label": "radio",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "communications"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "postal-remittances",
+      "label": "postal remittances",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "communications"
+      ],
+      "origin": "china-review"
+    },
+    {
+      "id": "employment-and-unemployment",
+      "label": "employment and unemployment",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "labour"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "wages",
+      "label": "wages",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "labour"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "working-conditions",
+      "label": "working conditions",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "labour"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "trade-unions",
+      "label": "trade unions",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "labour"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "labour-disputes",
+      "label": "labour disputes",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "labour"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "child-labour",
+      "label": "child labour",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "labour"
+      ],
+      "origin": "china-review"
+    },
+    {
+      "id": "women-workers",
+      "label": "women workers",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "labour"
+      ],
+      "origin": "china-review"
+    },
+    {
+      "id": "employment-placement",
+      "label": "employment placement",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "labour"
+      ],
+      "origin": "korea-review"
+    },
+    {
+      "id": "industrial-accidents",
+      "label": "industrial accidents",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "labour"
+      ],
+      "origin": "korea-review"
+    },
+    {
+      "id": "schools-and-pupils",
+      "label": "schools and pupils",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "education"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "primary-education",
+      "label": "primary education",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "education"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "secondary-education",
+      "label": "secondary education",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "education"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "higher-education",
+      "label": "higher education",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "education"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "vocational-education",
+      "label": "vocational education",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "education"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "teachers",
+      "label": "teachers",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "education"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "libraries",
+      "label": "libraries",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "education"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "literacy-and-adult-education",
+      "label": "literacy and adult education",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "education"
+      ],
+      "origin": "china-review"
+    },
+    {
+      "id": "students-abroad",
+      "label": "students abroad",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "education"
+      ],
+      "origin": "china-review"
+    },
+    {
+      "id": "mission-schools",
+      "label": "mission schools",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "education"
+      ],
+      "origin": "china-review"
+    },
+    {
+      "id": "education-finance",
+      "label": "education finance",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "education"
+      ],
+      "origin": "china-review"
+    },
+    {
+      "id": "traditional-schools",
+      "label": "traditional schools",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "education"
+      ],
+      "origin": "korea-review"
+    },
+    {
+      "id": "teacher-training",
+      "label": "teacher training",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "education"
+      ],
+      "origin": "korea-review"
+    },
+    {
+      "id": "kindergartens",
+      "label": "kindergartens",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "education"
+      ],
+      "origin": "korea-review"
+    },
+    {
+      "id": "special-education",
+      "label": "special education",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "education"
+      ],
+      "origin": "korea-review"
+    },
+    {
+      "id": "language-education",
+      "label": "language education",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "education"
+      ],
+      "origin": "korea-review"
+    },
+    {
+      "id": "school-boarding",
+      "label": "school boarding",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "education"
+      ],
+      "origin": "south-seas-review"
+    },
+    {
+      "id": "apprenticeships",
+      "label": "apprenticeships",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "education"
+      ],
+      "origin": "south-seas-review"
+    },
+    {
+      "id": "shinto",
+      "label": "shinto",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "religion"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "buddhism",
+      "label": "buddhism",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "religion"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "christianity",
+      "label": "christianity",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "religion"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "other-religions",
+      "label": "other religions",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "religion"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "confucianism",
+      "label": "confucianism",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "religion"
+      ],
+      "origin": "china-review"
+    },
+    {
+      "id": "taoism",
+      "label": "taoism",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "religion"
+      ],
+      "origin": "china-review"
+    },
+    {
+      "id": "islam",
+      "label": "islam",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "religion"
+      ],
+      "origin": "china-review"
+    },
+    {
+      "id": "judaism",
+      "label": "judaism",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "religion"
+      ],
+      "origin": "china-review"
+    },
+    {
+      "id": "missions",
+      "label": "missions",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "religion"
+      ],
+      "origin": "china-review"
+    },
+    {
+      "id": "ancestor-rites",
+      "label": "ancestor rites",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "religion"
+      ],
+      "origin": "korea-review"
+    },
+    {
+      "id": "folk-religion",
+      "label": "folk religion",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "religion"
+      ],
+      "origin": "korea-review"
+    },
+    {
+      "id": "religious-institutions",
+      "label": "religious institutions",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "religion"
+      ],
+      "origin": "taiwan-review"
+    },
+    {
+      "id": "tenrikyo",
+      "label": "tenrikyo",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "religion"
+      ],
+      "origin": "south-seas-review"
+    },
+    {
+      "id": "police",
+      "label": "police",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "crime-and-justice"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "courts",
+      "label": "courts",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "crime-and-justice"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "offences-and-convictions",
+      "label": "offences and convictions",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "crime-and-justice"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "prisons",
+      "label": "prisons",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "crime-and-justice"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "smuggling",
+      "label": "smuggling",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "crime-and-justice"
+      ],
+      "origin": "china-review"
+    },
+    {
+      "id": "piracy",
+      "label": "piracy",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "crime-and-justice"
+      ],
+      "origin": "china-review"
+    },
+    {
+      "id": "sex-work",
+      "label": "sex work",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "crime-and-justice"
+      ],
+      "origin": "china-review"
+    },
+    {
+      "id": "political-policing",
+      "label": "political policing",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "crime-and-justice"
+      ],
+      "origin": "korea-review"
+    },
+    {
+      "id": "summary-justice",
+      "label": "summary justice",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "crime-and-justice"
+      ],
+      "origin": "korea-review"
+    },
+    {
+      "id": "civil-litigation",
+      "label": "civil litigation",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "crime-and-justice"
+      ],
+      "origin": "korea-review"
+    },
+    {
+      "id": "land-registration",
+      "label": "land registration",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "crime-and-justice"
+      ],
+      "origin": "korea-review"
+    },
+    {
+      "id": "prison-labour",
+      "label": "prison labour",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "crime-and-justice"
+      ],
+      "origin": "korea-review"
+    },
+    {
+      "id": "juvenile-justice",
+      "label": "juvenile justice",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "crime-and-justice"
+      ],
+      "origin": "korea-review"
+    },
+    {
+      "id": "prisoner-aftercare",
+      "label": "prisoner aftercare",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "crime-and-justice"
+      ],
+      "origin": "korea-review"
+    },
+    {
+      "id": "corporal-punishment",
+      "label": "corporal punishment",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "crime-and-justice"
+      ],
+      "origin": "taiwan-review"
+    },
+    {
+      "id": "mediation-and-arbitration",
+      "label": "mediation and arbitration",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "crime-and-justice"
+      ],
+      "origin": "taiwan-review"
+    },
+    {
+      "id": "opium",
+      "label": "opium",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "narcotics"
+      ],
+      "origin": "china-review"
+    },
+    {
+      "id": "morphine-and-heroin",
+      "label": "morphine and heroin",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "narcotics"
+      ],
+      "origin": "china-review"
+    },
+    {
+      "id": "drug-suppression",
+      "label": "drug suppression",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "narcotics"
+      ],
+      "origin": "china-review"
+    },
+    {
+      "id": "opium-licensing",
+      "label": "opium licensing",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "narcotics"
+      ],
+      "origin": "taiwan-review"
+    },
+    {
+      "id": "drug-consumption",
+      "label": "drug consumption",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "narcotics"
+      ],
+      "origin": "taiwan-review"
+    },
+    {
+      "id": "medical-services",
+      "label": "medical services",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "health"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "diseases",
+      "label": "diseases",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "health"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "public-health",
+      "label": "public health",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "health"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "nutrition",
+      "label": "nutrition",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "health"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "epidemics",
+      "label": "epidemics",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "health"
+      ],
+      "origin": "china-review"
+    },
+    {
+      "id": "quarantine",
+      "label": "quarantine",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "health"
+      ],
+      "origin": "china-review"
+    },
+    {
+      "id": "maternal-and-child-health",
+      "label": "maternal and child health",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "health"
+      ],
+      "origin": "china-review"
+    },
+    {
+      "id": "pharmaceuticals",
+      "label": "pharmaceuticals",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "health"
+      ],
+      "origin": "china-review"
+    },
+    {
+      "id": "vaccination",
+      "label": "vaccination",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "health"
+      ],
+      "origin": "korea-review"
+    },
+    {
+      "id": "leprosy",
+      "label": "leprosy",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "health"
+      ],
+      "origin": "korea-review"
+    },
+    {
+      "id": "veterinary-health",
+      "label": "veterinary health",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "health"
+      ],
+      "origin": "korea-review"
+    },
+    {
+      "id": "malaria",
+      "label": "malaria",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "health"
+      ],
+      "origin": "taiwan-review"
+    },
+    {
+      "id": "mental-health",
+      "label": "mental health",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "health"
+      ],
+      "origin": "south-seas-review"
+    },
+    {
+      "id": "food-inspection",
+      "label": "food inspection",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "health"
+      ],
+      "origin": "south-seas-review"
+    },
+    {
+      "id": "poor-relief",
+      "label": "poor relief",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "welfare"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "child-welfare",
+      "label": "child welfare",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "welfare"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "housing",
+      "label": "housing",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "welfare"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "household-budgets",
+      "label": "household budgets",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "welfare"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "poverty",
+      "label": "poverty",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "welfare"
+      ],
+      "origin": "china-review"
+    },
+    {
+      "id": "refugees-and-displacement",
+      "label": "refugees and displacement",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "welfare"
+      ],
+      "origin": "china-review"
+    },
+    {
+      "id": "charitable-institutions",
+      "label": "charitable institutions",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "welfare"
+      ],
+      "origin": "china-review"
+    },
+    {
+      "id": "foreign-aid",
+      "label": "foreign aid",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "welfare"
+      ],
+      "origin": "china-review"
+    },
+    {
+      "id": "work-relief",
+      "label": "work relief",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "welfare"
+      ],
+      "origin": "korea-review"
+    },
+    {
+      "id": "veterans-and-military-families",
+      "label": "veterans and military families",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "welfare"
+      ],
+      "origin": "korea-review"
+    },
+    {
+      "id": "youth-organisations",
+      "label": "youth organisations",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "welfare"
+      ],
+      "origin": "korea-review"
+    },
+    {
+      "id": "newspapers",
+      "label": "newspapers",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "press"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "periodicals",
+      "label": "periodicals",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "press"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "books",
+      "label": "books",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "press"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "news-agencies",
+      "label": "news agencies",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "press"
+      ],
+      "origin": "china-review"
+    },
+    {
+      "id": "censorship",
+      "label": "censorship",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "press"
+      ],
+      "origin": "china-review"
+    },
+    {
+      "id": "arts-and-music",
+      "label": "arts and music",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "culture"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "theatre-and-cinema",
+      "label": "theatre and cinema",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "culture"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "museums-and-heritage",
+      "label": "museums and heritage",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "culture"
+      ],
+      "origin": "china-review"
+    },
+    {
+      "id": "recreation-and-amusements",
+      "label": "recreation and amusements",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "culture"
+      ],
+      "origin": "china-review"
+    },
+    {
+      "id": "archaeology",
+      "label": "archaeology",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "culture"
+      ],
+      "origin": "korea-review"
+    },
+    {
+      "id": "sports-records",
+      "label": "sports records",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "sport"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "scientific-research",
+      "label": "scientific research",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "science-and-technology"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "patents-and-trademarks",
+      "label": "patents and trademarks",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "science-and-technology"
+      ],
+      "origin": "japan-review"
+    },
+    {
+      "id": "measurement-and-units",
+      "label": "measurement and units",
+      "definition": "",
+      "includes": [],
+      "excludes": [],
+      "aliases": [],
+      "related_topics": [
+        "science-and-technology"
+      ],
+      "origin": "japan-review"
+    }
+  ],
+  "flags": [
+    {
+      "id": "text-tables",
+      "label": "Text table",
+      "definition": "A table whose substantive content is text rather than statistical quantities. Dates, years, identifiers, ranks and list numbering alone do not make it statistical."
+    }
+  ]
+}

@@ -18,3 +18,7 @@ __pycache__/
 # Full Search index: built locally with build/build_search.py and uploaded to the host; not kept in git
 pagefind/
 pagefind-titles/
+# Local classification request databases, caches and logs are not site data.
+build/tags/**/*.sqlite*
+build/tags/**/*.log
+build/tags/**/worker.lock

@@ -1240,6 +1240,8 @@ render();
 
 
 def main():
+    from build_tags import load_assignments, book_tags, build_tag_pages
+    tag_assignments = load_assignments()
     os.makedirs(os.path.join(HERE, "data"), exist_ok=True)
     cards, pages = [], []
     for b in BOOKS:
@@ -1278,6 +1280,7 @@ def main():
             data = json.dumps(clean, ensure_ascii=False).replace("</", "<\\/")
             doc = (TEMPLATE.replace("__MODEL__", b.get("model", "Opus 5.5")).replace("__DATA__", data).replace("__DIRCARDS__", dir_cards(b)).replace("__PINYIN__", json.dumps(b.get("dir_pinyin", {}), ensure_ascii=False)).replace("__COUNT__", str(n))
                    .replace("__CHEN__", json.dumps(b.get("_chen") or {}, ensure_ascii=False))
+                   .replace("__TAGDATA__", json.dumps(book_tags(b["slug"], tag_assignments), ensure_ascii=False).replace("<", "\\u003c"))
                    .replace("__XL__", json.dumps(xl[b["slug"]], ensure_ascii=False).replace("</", "<\\/"))
                    .replace("__HIDEIMG__", "true" if b.get("hide_images") else "false")
                    .replace("__ORIG__", json.dumps(orig_link(b), ensure_ascii=False))
@@ -1296,7 +1299,7 @@ def main():
                                f'<p>{html.escape(b["gaps"])}</p>{"" if b.get("blank_marking") else BLANK_NOTE}<form method="dialog"><button>Close</button></form></dialog>' if b.get("gaps") else "")))
             with open(os.path.join(HERE, "book", b["slug"], "index.html"), "w", encoding="utf-8") as fh:
                 fh.write(doc)
-    tcounts, thave = build_topics(pages)
+    build_tag_pages(pages)
     with open(os.path.join(HERE, "index.html"), "w", encoding="utf-8") as fh:
         nb, nt = sum(1 for b, n, c, ch in cards), sum(n for b, n, c, ch in cards)
         fh.write(landing(cards).replace("__TOPICMENU__", f'<p class="allstat">{nb} volumes, with a total of {nt:,} tables</p>'))   # site totals; the topic menu was removed (user, 2026-10-24)
@@ -1734,7 +1737,7 @@ body.vw-chart .tbl.hasch .tw{display:none}body.vw-table .tchart{display:none}
 .tc-note{font-size:12px;color:var(--muted);margin:8px 0 0}.tc-msg{font-size:13px;color:var(--muted)}.tc-multi{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,300px),1fr));gap:14px}.tc-mt{font-size:12.5px;display:flex;gap:6px;align-items:center;margin-bottom:2px}tr.tc-hl td{background:var(--hi)}
 @media (max-width:760px){#sidetog,body.noside #sideopen{display:none}body.noside #side{display:flex}body.noside #main{padding-left:16px}#wrap,body.cmp #wrap{grid-template-columns:minmax(0,1fr);height:auto}#cmp{border-left:0;border-top:2px solid var(--accent);padding:14px 16px}#side,#main{min-width:0;max-width:100vw}#list a{overflow-wrap:anywhere}.tw{max-height:none}header{padding:12px 16px}header h1{font-size:18px}.dirbtn{margin-left:0}#side{border-right:0;border-bottom:1px solid var(--line)}#list{max-height:40vh}#main{padding:14px 16px}.chgrid{gap:8px}.chbtn{padding:11px 13px}.chbtn small{font-size:12px}}
 </style>
-</head>
+<link rel="stylesheet" href="../../tags.css"><script src="../../data/tags/vocabulary.js"></script><script src="../../tags.js"></script></head>
 <body>
 <header><a href="../../" style="text-decoration:none;font-size:14px">← All books</a><h1><a href="./" onclick="goHome();return false" style="color:inherit;text-decoration:none" title="Back to this book's contents">__BOOK__</a></h1>
 <span class="meta">__COUNT__ tables · __CELLS__ cells · __SOURCE__ · <a href="../../data/__SLUG__.json" style="color:inherit">JSON</a>__XLSX__</span>
@@ -1751,6 +1754,7 @@ body.vw-chart .tbl.hasch .tw{display:none}body.vw-table .tchart{display:none}
 <aside id="cmp" hidden></aside>
 </div>
 __CHARTJS__<script>
+const TABLE_TAG_DATA=__TAGDATA__;
 const T=__DATA__;
 (function(){const set=off=>{document.body.classList.toggle("noside",off);try{localStorage.setItem("sideoff",off?"1":"0")}catch(e){}};
  let off=false;try{off=localStorage.getItem("sideoff")==="1"}catch(e){}set(off);
@@ -1803,7 +1807,7 @@ function vsw(){return `<div class="vsw" role="group" aria-label="Show table, cha
 function setVW(v){VW=v;try{localStorage.setItem("tview",v)}catch(e){}document.body.classList.remove("vw-table","vw-chart","vw-both");document.body.classList.add("vw-"+v);document.querySelectorAll(".vsw button").forEach(b=>b.classList.toggle("on",b.dataset.vw===v));chartsGo()}
 function chartsGo(){if(window.TableCharts)TableCharts.mountAll(document.getElementById("main"),id=>T.find(x=>x.id===id),{marked:MARKED})}
 document.addEventListener("click",e=>{const b=e.target.closest(".vsw button");if(b)setVW(b.dataset.vw)});
-function tableHTML(t,q,other){const ch=!other&&hasChart(t);let h=`<section class="tbl${ch?" hasch":""}" id="t-${t.id}"><h2><a href="#${t.id}">${hl(label(t),q)}</a></h2>${t.en?`<p class="en"><b>${hl(t.en.t,q)}</b>: ${hl(t.en.d,q)} <span class="enn">(Note: LLM translation)</span></p>`:""}<div class="sub">${esc(t.chapter||"")} · printed page${(t.printed_pages||[]).length>1?"s":""} ${esc((t.printed_pages||[]).join(", "))}${HIDEIMG?"":` · ${/^p\d/.test(t.image||"")?"scan leaf":"photo"} ${esc((t.images||[t.image]).join(", "))}`}</div>`+(ch?vsw():"");
+function tableHTML(t,q,other){const ch=!other&&hasChart(t);let h=`<section class="tbl${ch?" hasch":""}" id="t-${t.id}"><h2><a href="#${t.id}">${hl(label(t),q)}</a></h2>${!other?TableTags.render(TABLE_TAG_DATA[t.id],"../../"):""}${t.en?`<p class="en"><b>${hl(t.en.t,q)}</b>: ${hl(t.en.d,q)} <span class="enn">(Note: LLM translation)</span></p>`:""}<div class="sub">${esc(t.chapter||"")} · printed page${(t.printed_pages||[]).length>1?"s":""} ${esc((t.printed_pages||[]).join(", "))}${HIDEIMG?"":` · ${/^p\d/.test(t.image||"")?"scan leaf":"photo"} ${esc((t.images||[t.image]).join(", "))}`}</div>`+(ch?vsw():"");
  if(!other)h+=xlTable(t);
  if(t.caption_extra)h+=CJK.test(t.caption_extra)?`<div class="sub">${hl(t.caption_extra,q)}</div>`:`<div class="sub"><i>${hl(t.caption_extra,q)}</i></div>`;
  if(t.context)h+=`<p class="ctx"><b>Context.</b> ${hl(t.context,q)}</p>`;

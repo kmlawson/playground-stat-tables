@@ -1,0 +1,1862 @@
+{
+  "topics": {
+    "population": {
+      "label": "Population",
+      "definition": "The size, composition, distribution and movement of human populations and their vital events.",
+      "includes": [
+        "Population and household counts, demographic characteristics and vital statistics.",
+        "Migration and the demographic circumstances of resident communities."
+      ],
+      "excludes": [
+        "Use the subject topic for workers, patients or pupils counted only as participants in an institution or activity.",
+        "A place or ethnic label alone does not make an unrelated economic table demographic."
+      ],
+      "aliases": [
+        "demography"
+      ]
+    },
+    "government": {
+      "label": "Government",
+      "definition": "The institutions, personnel, territorial organization and legal foundations through which public authority is exercised.",
+      "includes": [
+        "Central and local administration, political institutions, elections and public officials.",
+        "Constitutions, laws, administrative jurisdictions and official status."
+      ],
+      "excludes": [
+        "Government ownership or provision alone: use the substantive topic for state factories, hospitals or schools.",
+        "Public revenue, expenditure and debt without administrative substance belong under finance."
+      ],
+      "aliases": [
+        "administration",
+        "politics"
+      ]
+    },
+    "informal-imperialism": {
+      "label": "Informal imperialism",
+      "definition": "Foreign power exercised through unequal privileges, jurisdiction, strategic footholds or control without formal incorporation into the ruling power’s colonial administration.",
+      "includes": [
+        "Foreign concessions, treaty-port privileges, extraterritorial jurisdiction and foreign garrisons.",
+        "Documented foreign direction of a nominally sovereign state or its institutions."
+      ],
+      "excludes": [
+        "Formal colonial government, annexed possessions, protectorates, mandates and formally administered colonial leased territories: use colonial-rule.",
+        "Foreign trade, investment, migration or observations about Manchoukuo do not establish imperial control by themselves."
+      ],
+      "aliases": [
+        "informal empire"
+      ]
+    },
+    "colonial-rule": {
+      "label": "Colonial rule",
+      "definition": "Formal political rule over annexed territories, colonies, protectorates, mandates or colonial territories administered under lease.",
+      "includes": [
+        "Colonial governing institutions and the establishment or change of formal colonial status.",
+        "Settlement, assimilation or resistance when colonial rule itself is a substantive subject."
+      ],
+      "excludes": [
+        "Unequal foreign privileges or external control in nominally sovereign territory without formal colonial administration: use informal-imperialism.",
+        "Statistics about a colony’s crops, population or schools without substantive evidence about colonial power: use their subject topics."
+      ],
+      "aliases": [
+        "colonial administration",
+        "formal empire"
+      ]
+    },
+    "indigenous-peoples": {
+      "label": "Indigenous peoples",
+      "definition": "Indigenous communities, their societies, livelihoods and relationships with governing authorities.",
+      "includes": [
+        "Identified indigenous peoples as the substantive subject, including historical accounts and community statistics.",
+        "Policies, frontier control and institutions specifically directed at indigenous communities."
+      ],
+      "excludes": [
+        "Do not classify every ethnic minority or every historically named tribe as indigenous solely from a label.",
+        "A geographic location associated with indigenous peoples does not justify the topic for unrelated production or infrastructure."
+      ],
+      "aliases": [
+        "indigenous communities"
+      ]
+    },
+    "foreign-relations": {
+      "label": "Foreign relations",
+      "definition": "Official relations between states and their participation in international institutions.",
+      "includes": [
+        "Diplomacy, recognition, treaties, international negotiations and interstate disputes.",
+        "Diplomatic and consular missions and international organizations."
+      ],
+      "excludes": [
+        "Cross-border trade, finance or migration without diplomatic or interstate substance.",
+        "A foreign nationality or country comparison alone."
+      ],
+      "aliases": [
+        "diplomacy",
+        "international relations"
+      ]
+    },
+    "military": {
+      "label": "Military",
+      "definition": "Armed forces, warfare, defence organization and preparation for or conduct of military operations.",
+      "includes": [
+        "Service branches, equipment, recruitment, defence institutions and military operations.",
+        "Military mobilisation, casualties and civil air-defence arrangements."
+      ],
+      "excludes": [
+        "Civilian aviation, shipping or manufacturing without an explicit defence purpose.",
+        "Ordinary police work and criminal cases without military participation or purpose."
+      ],
+      "aliases": [
+        "defence",
+        "national defense"
+      ]
+    },
+    "crime-and-justice": {
+      "label": "Crime and justice",
+      "definition": "Law enforcement, judicial proceedings, offences, punishment and the administration of justice.",
+      "includes": [
+        "Police, courts, criminal and civil proceedings, detention and correctional institutions.",
+        "Illegal trade, regulated sex work and coercive enforcement when these are the substantive subject."
+      ],
+      "excludes": [
+        "An activity is not a justice subject merely because it is regulated by law.",
+        "Constitutions and legislative organization without adjudication or enforcement belong under government."
+      ],
+      "aliases": [
+        "justice",
+        "law enforcement"
+      ]
+    },
+    "narcotics": {
+      "label": "Narcotics",
+      "definition": "Opium and other narcotic drugs: their production, distribution, use, control and treatment of dependence.",
+      "includes": [
+        "Poppy cultivation, narcotic trade, state monopolies, licensing and suppression.",
+        "Drug consumption, dependence and services treating narcotic addiction."
+      ],
+      "excludes": [
+        "Alcohol and tobacco unless the table substantively addresses a narcotic alongside them.",
+        "General medicines, pharmacy or medical services without a narcotic subject."
+      ],
+      "aliases": [
+        "drugs",
+        "drug control"
+      ]
+    },
+    "health": {
+      "label": "Health",
+      "definition": "Human or animal health, disease prevention, medical care and the conditions affecting health.",
+      "includes": [
+        "Disease, mortality by health cause, medical personnel and institutions, preventive services and sanitation.",
+        "Nutrition, maternal and child health, mental health, veterinary health and pharmaceuticals."
+      ],
+      "excludes": [
+        "Population totals or births and deaths without a health measure or cause do not require health.",
+        "Water infrastructure, food output or welfare services without substantive health content use their own topics."
+      ],
+      "aliases": [
+        "medicine",
+        "public health"
+      ]
+    },
+    "welfare": {
+      "label": "Welfare",
+      "definition": "Living conditions and organized support for people facing poverty, dependency, displacement or other social needs.",
+      "includes": [
+        "Relief, charitable institutions, child and family support, housing and household living standards.",
+        "Support for refugees, veterans and military families and work-relief schemes."
+      ],
+      "excludes": [
+        "Ordinary wages, employment or commercial finance without a living-standard or support measure.",
+        "Medical treatment and education alone belong under health or education."
+      ],
+      "aliases": [
+        "social welfare",
+        "social assistance"
+      ]
+    }
+  },
+  "tags": {
+    "population-totals": {
+      "label": "population totals",
+      "definition": "Counts, estimates or density of the total resident population of a place.",
+      "includes": [
+        "Censuses, population estimates, urban and rural totals, and comparative population density."
+      ],
+      "excludes": [
+        "Counts of employees, patients, pupils or passengers without a population denominator or demographic purpose."
+      ],
+      "aliases": [
+        "population size",
+        "population density"
+      ],
+      "related_topics": [
+        "population"
+      ]
+    },
+    "age-and-sex": {
+      "label": "age and sex",
+      "definition": "The distribution or demographic characteristics of people by age or sex.",
+      "includes": [
+        "Age groups, sex ratios, age pyramids and demographic tables cross-classified by age or sex."
+      ],
+      "excludes": [
+        "Age or sex appearing only as a minor label in an otherwise unrelated institutional table."
+      ],
+      "aliases": [
+        "age groups",
+        "sex ratios"
+      ],
+      "related_topics": [
+        "population"
+      ]
+    },
+    "households": {
+      "label": "households",
+      "definition": "The number, size, composition or demographic circumstances of households and families.",
+      "includes": [
+        "Household counts, persons per household, family composition and household demographic comparisons."
+      ],
+      "excludes": [
+        "Household expenditure without household-demographic content: use household-budgets.",
+        "The administration of household registers: use household-registration."
+      ],
+      "aliases": [
+        "families",
+        "household size"
+      ],
+      "related_topics": [
+        "population"
+      ]
+    },
+    "births-and-deaths": {
+      "label": "births and deaths",
+      "definition": "The occurrence, number or rate of births, stillbirths and deaths.",
+      "includes": [
+        "Vital statistics, natural increase, fertility, death rates and stillbirths."
+      ],
+      "excludes": [
+        "Age composition alone; use infant-mortality or a named health tag when the table’s focus is more specific."
+      ],
+      "aliases": [
+        "vital statistics",
+        "natality",
+        "mortality"
+      ],
+      "related_topics": [
+        "population",
+        "health"
+      ]
+    },
+    "marriage-and-divorce": {
+      "label": "marriage and divorce",
+      "definition": "The formation and dissolution of marriages and people’s marital status.",
+      "includes": [
+        "Marriage and divorce counts or rates, marriage age and marital-status distributions."
+      ],
+      "excludes": [
+        "Family size alone; judicial divorce procedure without marriage or divorce outcomes."
+      ],
+      "aliases": [
+        "marital status",
+        "nuptiality"
+      ],
+      "related_topics": [
+        "population"
+      ]
+    },
+    "migration": {
+      "label": "migration",
+      "definition": "Movement of people that changes their usual residence or records a recurring labour or settlement flow.",
+      "includes": [
+        "Immigration, emigration, internal migration and seasonal migrant-worker arrivals and departures."
+      ],
+      "excludes": [
+        "Passenger traffic, port landings and departures that do not establish migration.",
+        "Use settler-migration when settlement associated with colonial expansion or foreign state sponsorship is the evidenced specific subject."
+      ],
+      "aliases": [
+        "immigration",
+        "emigration",
+        "seasonal migration"
+      ],
+      "related_topics": [
+        "population",
+        "labour"
+      ]
+    },
+    "nationality-and-ethnicity": {
+      "label": "nationality and ethnicity",
+      "definition": "The composition or characteristics of people by nationality, ethnicity or the source’s racial classifications.",
+      "includes": [
+        "Residents or migrant populations classified by nationality, citizenship, ethnic community or historically used racial categories."
+      ],
+      "excludes": [
+        "The nationality of ships, trading partners or companies without a human-population subject.",
+        "Do not infer ethnicity from language, location or a publisher’s political claims."
+      ],
+      "aliases": [
+        "nationality",
+        "ethnicity",
+        "racial classifications"
+      ],
+      "related_topics": [
+        "population",
+        "indigenous-peoples"
+      ]
+    },
+    "occupations": {
+      "label": "occupations",
+      "definition": "The distribution or classification of people by occupation, calling or livelihood.",
+      "includes": [
+        "Population by profession, trade, occupational class or principal livelihood."
+      ],
+      "excludes": [
+        "Wage levels, working hours or enterprise output without occupational-composition content."
+      ],
+      "aliases": [
+        "callings",
+        "professions"
+      ],
+      "related_topics": [
+        "population",
+        "labour"
+      ]
+    },
+    "languages": {
+      "label": "languages",
+      "definition": "Languages spoken or used by populations, communities or public services.",
+      "includes": [
+        "Linguistic distribution, mother tongues, language use and services classified by language."
+      ],
+      "excludes": [
+        "Language teaching or school curricula alone: use language-education.",
+        "The language in which a table is printed."
+      ],
+      "aliases": [
+        "linguistic distribution",
+        "mother tongue"
+      ],
+      "related_topics": [
+        "population",
+        "culture",
+        "communications"
+      ]
+    },
+    "overseas-communities": {
+      "label": "overseas communities",
+      "definition": "Communities living outside their place of national or ethnic origin and their collective institutions or circumstances.",
+      "includes": [
+        "Overseas residents, diaspora communities and their associations, schools or local distribution when the community is the subject."
+      ],
+      "excludes": [
+        "Migration flows alone; foreign trade by country; automatically treating every overseas resident as a colonial settler."
+      ],
+      "aliases": [
+        "diaspora",
+        "overseas residents"
+      ],
+      "related_topics": [
+        "population"
+      ]
+    },
+    "household-registration": {
+      "label": "household registration",
+      "definition": "Systems and records that officially register households, family membership or changes in civil status.",
+      "includes": [
+        "Household registers, registration offices, registered persons and entries or changes in civil registers."
+      ],
+      "excludes": [
+        "Household totals from a census without a registration-system subject."
+      ],
+      "aliases": [
+        "family registration",
+        "civil registration"
+      ],
+      "related_topics": [
+        "population",
+        "government"
+      ]
+    },
+    "suicide": {
+      "label": "suicide",
+      "definition": "Intentional self-inflicted deaths and recorded attempts to take one’s own life.",
+      "includes": [
+        "Suicide totals and rates and their distribution by method, age, sex or recorded cause."
+      ],
+      "excludes": [
+        "All-cause mortality; mental illness without suicidal behaviour; accidental deaths; self-injury without suicidal intent."
+      ],
+      "aliases": [
+        "self-inflicted deaths"
+      ],
+      "related_topics": [
+        "population",
+        "health"
+      ]
+    },
+    "infant-mortality": {
+      "label": "infant mortality",
+      "definition": "Deaths or survival rates of infants, ordinarily before their first birthday.",
+      "includes": [
+        "Infant and neonatal death counts, mortality rates and comparisons of infant survival."
+      ],
+      "excludes": [
+        "Stillbirths counted separately by the source; deaths of older children without an infant measure."
+      ],
+      "aliases": [
+        "neonatal mortality",
+        "infant deaths"
+      ],
+      "related_topics": [
+        "population",
+        "health"
+      ]
+    },
+    "government-offices": {
+      "label": "government offices",
+      "definition": "Public administrative bodies, their functions, officeholders and civil-service personnel.",
+      "includes": [
+        "Ministries, boards, administrative organization, official appointments, staffing and civil-service salaries or allowances."
+      ],
+      "excludes": [
+        "The activity of a public hospital, school or enterprise when administrative organization is incidental.",
+        "Use local-government for specifically local governing institutions."
+      ],
+      "aliases": [
+        "ministries",
+        "public administration",
+        "civil service"
+      ],
+      "related_topics": [
+        "government"
+      ]
+    },
+    "elections-and-parties": {
+      "label": "elections and parties",
+      "definition": "Electoral systems, voting, political parties and representative political organization.",
+      "includes": [
+        "Franchise, electors, election results, party membership and elected assemblies or party organizations."
+      ],
+      "excludes": [
+        "Appointments to a ministry without an electoral or party subject."
+      ],
+      "aliases": [
+        "elections",
+        "political parties",
+        "suffrage"
+      ],
+      "related_topics": [
+        "government"
+      ]
+    },
+    "local-government": {
+      "label": "local government",
+      "definition": "The institutions, personnel and administration of subnational governing authorities.",
+      "includes": [
+        "Municipal, provincial, prefectural, county, district, village or banner government and local councils."
+      ],
+      "excludes": [
+        "Local population or production alone; lists of territorial units without governing functions use administrative-divisions."
+      ],
+      "aliases": [
+        "municipal government",
+        "provincial administration"
+      ],
+      "related_topics": [
+        "government"
+      ]
+    },
+    "imperial-household": {
+      "label": "imperial household",
+      "definition": "The reigning emperor or monarch, royal family, court and institutions or property attached to the royal household.",
+      "includes": [
+        "Royal genealogies, succession, court officials, household organization and crown estates as royal property."
+      ],
+      "excludes": [
+        "The whole empire merely because it has an emperor; ordinary government institutions unrelated to the court."
+      ],
+      "aliases": [
+        "imperial court",
+        "royal household",
+        "royal family"
+      ],
+      "related_topics": [
+        "government"
+      ]
+    },
+    "honours-and-ranks": {
+      "label": "honours and ranks",
+      "definition": "Official decorations, honours, precedence and civil or military status ranks.",
+      "includes": [
+        "Orders, medals, recipients of honours, rank systems and officials classified by rank."
+      ],
+      "excludes": [
+        "Salary tables without a substantive rank structure; a numbered list or league ranking."
+      ],
+      "aliases": [
+        "decorations",
+        "orders and medals",
+        "official ranks"
+      ],
+      "related_topics": [
+        "government",
+        "military"
+      ]
+    },
+    "constitutions-and-laws": {
+      "label": "constitutions and laws",
+      "definition": "Constitutional arrangements, legislation and legal rules treated as texts, frameworks or legislative outputs.",
+      "includes": [
+        "Constitutions, promulgated laws, legal reforms, law lists and the content or scope of statutes and regulations."
+      ],
+      "excludes": [
+        "A statistical activity merely operating under a law; court case outcomes without a substantive legal-framework subject."
+      ],
+      "aliases": [
+        "legislation",
+        "legal frameworks",
+        "regulations"
+      ],
+      "related_topics": [
+        "government",
+        "crime-and-justice"
+      ]
+    },
+    "administrative-divisions": {
+      "label": "administrative divisions",
+      "definition": "Territorial units, boundaries and jurisdictions used to organize government.",
+      "includes": [
+        "Provinces, prefectures, counties, municipalities, banners and changes to their administrative boundaries or status."
+      ],
+      "excludes": [
+        "Physical landforms and area alone; activity totals merely grouped by province."
+      ],
+      "aliases": [
+        "territorial administration",
+        "administrative boundaries"
+      ],
+      "related_topics": [
+        "government",
+        "geography"
+      ]
+    },
+    "passports-and-travel-permits": {
+      "label": "passports and travel permits",
+      "definition": "Official documents and permissions authorizing travel, entry, exit or residence.",
+      "includes": [
+        "Passports, visas, travel passes, permits and their issue, refusal or administration."
+      ],
+      "excludes": [
+        "Migration totals without a documentary-permission subject; ordinary travel timetables or fares."
+      ],
+      "aliases": [
+        "visas",
+        "travel passes",
+        "visés"
+      ],
+      "related_topics": [
+        "government",
+        "foreign-relations"
+      ]
+    },
+    "foreign-concessions": {
+      "label": "foreign concessions",
+      "definition": "Territorial concessions or foreign-administered settlements granted through unequal arrangements in a nominally sovereign state.",
+      "includes": [
+        "Foreign settlements, concession governments, special foreign rights and their geographic or institutional extent."
+      ],
+      "excludes": [
+        "Ordinary commercial contracts or mining licences; formal colonial administration of annexed or colonial leased territories."
+      ],
+      "aliases": [
+        "foreign settlements",
+        "concession territories"
+      ],
+      "related_topics": [
+        "informal-imperialism",
+        "government"
+      ]
+    },
+    "extraterritoriality": {
+      "label": "extraterritoriality",
+      "definition": "Exemption from local jurisdiction through foreign or consular legal authority.",
+      "includes": [
+        "Consular courts, foreign jurisdiction, nationality-based legal privilege and its abolition or transfer."
+      ],
+      "excludes": [
+        "Ordinary overseas diplomacy; court systems without foreign-jurisdiction privileges."
+      ],
+      "aliases": [
+        "consular jurisdiction",
+        "extraterritorial jurisdiction"
+      ],
+      "related_topics": [
+        "informal-imperialism",
+        "crime-and-justice",
+        "foreign-relations"
+      ]
+    },
+    "treaty-ports": {
+      "label": "treaty ports",
+      "definition": "Ports opened to foreign residence or commerce under a treaty-created system of special rights.",
+      "includes": [
+        "Treaty-port status, opening agreements, institutions and port comparisons explicitly organized around that system."
+      ],
+      "excludes": [
+        "Cargo or vessel totals for an ordinary port; a port’s treaty history does not make all its later trade tables treaty-port tables."
+      ],
+      "aliases": [
+        "open ports"
+      ],
+      "related_topics": [
+        "informal-imperialism",
+        "trade",
+        "foreign-relations"
+      ]
+    },
+    "foreign-garrisons": {
+      "label": "foreign garrisons",
+      "definition": "Foreign armed forces stationed in another nominally sovereign territory under special rights or unequal power arrangements.",
+      "includes": [
+        "Foreign troop stations, garrison privileges, deployment and support of such foreign forces."
+      ],
+      "excludes": [
+        "A state’s ordinary home garrisons; colonial forces where formal colonial administration is the subject."
+      ],
+      "aliases": [
+        "foreign troops",
+        "foreign military stations"
+      ],
+      "related_topics": [
+        "informal-imperialism",
+        "military"
+      ]
+    },
+    "annexation-and-protectorates": {
+      "label": "annexation and protectorates",
+      "definition": "The establishment, terms or termination of annexation or formal protectorate status.",
+      "includes": [
+        "Annexation agreements, protectorate treaties, transfers of sovereignty and changes in formal dependency."
+      ],
+      "excludes": [
+        "A declaration of statehood or diplomatic recognition without annexation or protectorate status.",
+        "Foreign economic influence without a formal status change."
+      ],
+      "aliases": [
+        "annexation",
+        "protectorates"
+      ],
+      "related_topics": [
+        "colonial-rule",
+        "government",
+        "foreign-relations"
+      ]
+    },
+    "colonial-administration": {
+      "label": "colonial administration",
+      "definition": "The governing machinery, powers and practices of formally administered colonial territories.",
+      "includes": [
+        "Governors-general, colonial departments, mandated administration, colonial legal regimes and administration of colonial leased territories."
+      ],
+      "excludes": [
+        "An ordinary administrative table in a nominally sovereign state without formal colonial jurisdiction.",
+        "Production or social observations in a colony when the governing relationship is incidental."
+      ],
+      "aliases": [
+        "colonial government",
+        "mandate administration"
+      ],
+      "related_topics": [
+        "colonial-rule",
+        "government"
+      ]
+    },
+    "settler-migration": {
+      "label": "settler migration",
+      "definition": "Organized settlement migration associated with colonial expansion or foreign state-sponsored settlement projects.",
+      "includes": [
+        "Settler groups, settlement locations, pioneer schemes, settler subsidies and their land or demographic circumstances."
+      ],
+      "excludes": [
+        "Ordinary migrant labour or overseas residents without an evidenced settlement scheme.",
+        "A settler table does not by itself establish that its territory was formally colonized."
+      ],
+      "aliases": [
+        "settlement migration",
+        "pioneer settlement",
+        "colonization schemes"
+      ],
+      "related_topics": [
+        "colonial-rule",
+        "population",
+        "informal-imperialism"
+      ]
+    },
+    "assimilation-policies": {
+      "label": "assimilation policies",
+      "definition": "Policies intended to remake a subject community’s language, identity, customs or social institutions to conform to a ruling group.",
+      "includes": [
+        "Explicit assimilation programmes, compulsory identity or language changes and related institutions."
+      ],
+      "excludes": [
+        "Japanese-language schools, religious institutions or cultural change without evidence of an assimilation policy."
+      ],
+      "aliases": [
+        "cultural assimilation",
+        "Japanization"
+      ],
+      "related_topics": [
+        "colonial-rule",
+        "education",
+        "indigenous-peoples"
+      ]
+    },
+    "independence-movements": {
+      "label": "independence movements",
+      "definition": "Collective political action seeking self-rule or freedom from colonial or dependent status.",
+      "includes": [
+        "Independence organizations, anti-colonial campaigns, self-government movements and documented resistance pursuing sovereignty."
+      ],
+      "excludes": [
+        "Official founding declarations or recognition of a new regime without a popular or organized independence movement.",
+        "Criminal or armed groups whose political purpose is not established."
+      ],
+      "aliases": [
+        "anti-colonial movements",
+        "self-determination movements"
+      ],
+      "related_topics": [
+        "colonial-rule",
+        "government",
+        "informal-imperialism"
+      ]
+    },
+    "frontier-policing": {
+      "label": "frontier policing",
+      "definition": "Policing and coercive control of frontier areas or indigenous communities.",
+      "includes": [
+        "Frontier police, expeditions described as pacification, security posts and enforcement directed at indigenous areas."
+      ],
+      "excludes": [
+        "Ordinary urban policing; every military campaign or border dispute; an indigenous location without policing content."
+      ],
+      "aliases": [
+        "frontier control",
+        "pacification policing"
+      ],
+      "related_topics": [
+        "indigenous-peoples",
+        "crime-and-justice",
+        "colonial-rule"
+      ]
+    },
+    "guard-lines": {
+      "label": "guard lines",
+      "definition": "Guarded barriers or lines of posts used to control access, movement or territory along an indigenous or colonial frontier.",
+      "includes": [
+        "Guard lines, barrier posts, frontier cordons and their staffing, length, costs or extension."
+      ],
+      "excludes": [
+        "Railway guards, ordinary border stations or historic walls unless their frontier-control function is the subject."
+      ],
+      "aliases": [
+        "frontier cordons",
+        "guard posts"
+      ],
+      "related_topics": [
+        "indigenous-peoples",
+        "crime-and-justice",
+        "colonial-rule"
+      ]
+    },
+    "diplomatic-service": {
+      "label": "diplomatic service",
+      "definition": "Diplomatic and consular missions, representatives and the official services that conduct foreign relations.",
+      "includes": [
+        "Embassies, legations, consulates, ambassadors, consular officers and establishments abroad."
+      ],
+      "excludes": [
+        "Foreign residents or traders without an official diplomatic role; interstate agreements without service or mission content."
+      ],
+      "aliases": [
+        "consular service",
+        "embassies and consulates"
+      ],
+      "related_topics": [
+        "foreign-relations",
+        "government"
+      ]
+    },
+    "treaties": {
+      "label": "treaties",
+      "definition": "Formal agreements between states and the negotiation, operation or termination of those agreements.",
+      "includes": [
+        "Treaties, protocols, interstate conventions, trade or navigation agreements and treaty-text indexes."
+      ],
+      "excludes": [
+        "Private commercial agreements; a trade table that merely concerns countries with a treaty."
+      ],
+      "aliases": [
+        "international agreements",
+        "protocols",
+        "conventions"
+      ],
+      "related_topics": [
+        "foreign-relations"
+      ]
+    },
+    "international-organisations": {
+      "label": "international organisations",
+      "definition": "Intergovernmental or international coordinating institutions, their membership, proceedings and activities.",
+      "includes": [
+        "The League of Nations, international commissions and conferences functioning as institutions, and participation or withdrawal."
+      ],
+      "excludes": [
+        "Any foreign company or domestic association; a single bilateral treaty without an international institution."
+      ],
+      "aliases": [
+        "League of Nations",
+        "international commissions"
+      ],
+      "related_topics": [
+        "foreign-relations"
+      ]
+    },
+    "army": {
+      "label": "army",
+      "definition": "Land armed forces, their organization, personnel, units and military activities.",
+      "includes": [
+        "Army formations, land-force stations, standing armies and army-specific equipment or expenditure."
+      ],
+      "excludes": [
+        "Ordinary civilian police; naval or air forces unless army aviation is explicitly part of the land service."
+      ],
+      "aliases": [
+        "land forces",
+        "standing army"
+      ],
+      "related_topics": [
+        "military"
+      ]
+    },
+    "navy": {
+      "label": "navy",
+      "definition": "Naval forces and their personnel, warships, bases and operations.",
+      "includes": [
+        "Fleet organization, naval stations, gunboats, naval aviation and navy-specific expenditure."
+      ],
+      "excludes": [
+        "Merchant shipping, civilian ports or commercial shipbuilding without naval content."
+      ],
+      "aliases": [
+        "naval forces",
+        "fleets"
+      ],
+      "related_topics": [
+        "military"
+      ]
+    },
+    "war-and-mobilisation": {
+      "label": "war and mobilisation",
+      "definition": "Warfare, military campaigns and the mobilisation of people or resources for conflict.",
+      "includes": [
+        "War operations, military incidents, requisition, wartime mobilisation laws and conflict-specific expenditure or losses."
+      ],
+      "excludes": [
+        "Peacetime organization alone; ordinary economic plans without an explicit war or defence purpose."
+      ],
+      "aliases": [
+        "warfare",
+        "mobilization",
+        "military campaigns"
+      ],
+      "related_topics": [
+        "military",
+        "economy"
+      ]
+    },
+    "air-force": {
+      "label": "air force",
+      "definition": "Military aviation forces, their organization, aircraft, personnel and operations.",
+      "includes": [
+        "Air units, military air bases, armed-service aviation and military aircraft strength."
+      ],
+      "excludes": [
+        "Civil airlines, civil aircraft manufacture or civil airfields without military use as a substantive subject."
+      ],
+      "aliases": [
+        "military aviation",
+        "air services"
+      ],
+      "related_topics": [
+        "military"
+      ]
+    },
+    "arms-and-arsenals": {
+      "label": "arms and arsenals",
+      "definition": "Weapons, ammunition, military equipment and the facilities that produce or store them.",
+      "includes": [
+        "Munitions, arsenals, arms manufacture, military stocks and captured weapons."
+      ],
+      "excludes": [
+        "Industrial machinery, chemicals or explosives whose military use is not evidenced."
+      ],
+      "aliases": [
+        "armaments",
+        "munitions",
+        "arsenals"
+      ],
+      "related_topics": [
+        "military",
+        "manufacturing"
+      ]
+    },
+    "military-casualties": {
+      "label": "military casualties",
+      "definition": "Deaths, wounds, missing personnel or other human casualties attributed to military service or operations.",
+      "includes": [
+        "Battle casualties, forces’ losses and civilians explicitly enumerated as casualties of military conflict."
+      ],
+      "excludes": [
+        "All-cause population deaths; property damage; ordinary crime victims without a military-operation connection."
+      ],
+      "aliases": [
+        "war casualties",
+        "battle losses"
+      ],
+      "related_topics": [
+        "military",
+        "health"
+      ]
+    },
+    "recruitment-and-conscription": {
+      "label": "recruitment and conscription",
+      "definition": "The enlistment, compulsory recruitment or selection of personnel for military service.",
+      "includes": [
+        "Conscription systems, recruits, examinations, exemptions, reserve call-ups and enlistment."
+      ],
+      "excludes": [
+        "Total serving personnel without recruitment content; civilian employment placement."
+      ],
+      "aliases": [
+        "conscription",
+        "military recruitment",
+        "enlistment"
+      ],
+      "related_topics": [
+        "military"
+      ]
+    },
+    "air-defence": {
+      "label": "air defence",
+      "definition": "Measures to detect, deter or protect people and infrastructure against aerial attack.",
+      "includes": [
+        "Air-raid precautions, warning systems, shelters, anti-aircraft defence and civil defence specifically against air attack."
+      ],
+      "excludes": [
+        "Routine aviation safety, general firefighting or weather warnings."
+      ],
+      "aliases": [
+        "air-raid precautions",
+        "civil air defence",
+        "anti-aircraft defence"
+      ],
+      "related_topics": [
+        "military"
+      ]
+    },
+    "police": {
+      "label": "police",
+      "definition": "Civil law-enforcement institutions, personnel, organization and routine activities.",
+      "includes": [
+        "Police offices, stations, officers, water police, arrests and policing expenditure or jurisdiction."
+      ],
+      "excludes": [
+        "Military organization alone; judicial proceedings after referral to court."
+      ],
+      "aliases": [
+        "policing",
+        "water police",
+        "police stations"
+      ],
+      "related_topics": [
+        "crime-and-justice",
+        "government"
+      ]
+    },
+    "courts": {
+      "label": "courts",
+      "definition": "Courts, prosecutorial institutions, their jurisdictions, staff and judicial business.",
+      "includes": [
+        "Judicial organization, procurators, court officials, trials, court workloads and case dispositions."
+      ],
+      "excludes": [
+        "Police activity without adjudication; legal texts without courts or proceedings."
+      ],
+      "aliases": [
+        "judiciary",
+        "procurators",
+        "judicial administration"
+      ],
+      "related_topics": [
+        "crime-and-justice",
+        "government"
+      ]
+    },
+    "offences-and-convictions": {
+      "label": "offences and convictions",
+      "definition": "Recorded crimes, suspects, prosecutions, convictions and criminal penalties or outcomes.",
+      "includes": [
+        "Offence categories, criminal case totals, arrests by offence, convicted persons and sentences."
+      ],
+      "excludes": [
+        "Civil lawsuits; general police staffing; political character of an offence inferred only from the regime."
+      ],
+      "aliases": [
+        "crime statistics",
+        "convictions",
+        "criminal cases"
+      ],
+      "related_topics": [
+        "crime-and-justice"
+      ]
+    },
+    "prisons": {
+      "label": "prisons",
+      "definition": "Detention and correctional institutions and the people held in them.",
+      "includes": [
+        "Prison locations, capacity, inmates, admissions, releases, prison administration and inmate conditions."
+      ],
+      "excludes": [
+        "Police arrests without detention information; post-release aid alone."
+      ],
+      "aliases": [
+        "prison inmates",
+        "penal institutions",
+        "detention"
+      ],
+      "related_topics": [
+        "crime-and-justice"
+      ]
+    },
+    "smuggling": {
+      "label": "smuggling",
+      "definition": "The unlawful movement of goods across customs, tax or other controlled boundaries.",
+      "includes": [
+        "Contraband, seizures, smuggling offences and suppression of illicit cross-border trade."
+      ],
+      "excludes": [
+        "Legal imports and exports; ordinary customs receipts or tariffs."
+      ],
+      "aliases": [
+        "contraband",
+        "illicit trade"
+      ],
+      "related_topics": [
+        "crime-and-justice",
+        "trade"
+      ]
+    },
+    "piracy": {
+      "label": "piracy",
+      "definition": "Robbery, violent seizure or raiding directed at vessels or traffic on sea or inland waters.",
+      "includes": [
+        "Pirate attacks, river piracy, suppression and losses explicitly identified as piracy."
+      ],
+      "excludes": [
+        "Banditry without a waterborne attack; naval warfare; legal shipping traffic."
+      ],
+      "aliases": [
+        "river piracy",
+        "pirate attacks"
+      ],
+      "related_topics": [
+        "crime-and-justice",
+        "transportation"
+      ]
+    },
+    "sex-work": {
+      "label": "sex work",
+      "definition": "Commercial sexual services and the people, premises and regulatory institutions associated with them.",
+      "includes": [
+        "Licensed or unlicensed prostitution, brothels, workers, registration and related inspections."
+      ],
+      "excludes": [
+        "Marriage statistics; venereal disease totals without a sex-work population or setting."
+      ],
+      "aliases": [
+        "prostitution",
+        "brothels"
+      ],
+      "related_topics": [
+        "crime-and-justice",
+        "labour",
+        "health"
+      ]
+    },
+    "political-policing": {
+      "label": "political policing",
+      "definition": "Police surveillance, investigation and repression of political beliefs, organizations or dissent.",
+      "includes": [
+        "Political arrests, security policing, surveillance and enforcement against political activity."
+      ],
+      "excludes": [
+        "Ordinary crime enforcement; assume no political motive from an offence label alone.",
+        "Publication suppression without policing content can use censorship."
+      ],
+      "aliases": [
+        "political surveillance",
+        "security police"
+      ],
+      "related_topics": [
+        "crime-and-justice",
+        "government"
+      ]
+    },
+    "summary-justice": {
+      "label": "summary justice",
+      "definition": "Judicial or police disposal of cases through simplified or administrative procedures outside ordinary full trials.",
+      "includes": [
+        "Summary trials, police adjudication, immediate dispositions and summary penalties."
+      ],
+      "excludes": [
+        "A summary statistical table about ordinary court cases; all convictions or punishments."
+      ],
+      "aliases": [
+        "summary trials",
+        "police adjudication"
+      ],
+      "related_topics": [
+        "crime-and-justice"
+      ]
+    },
+    "civil-litigation": {
+      "label": "civil litigation",
+      "definition": "Court proceedings over private rights, obligations and non-criminal disputes.",
+      "includes": [
+        "Civil suits, civil judgments, litigation over property, debt, contracts and family rights."
+      ],
+      "excludes": [
+        "Criminal prosecutions; property registration without a dispute; private arbitration without court litigation."
+      ],
+      "aliases": [
+        "civil cases",
+        "civil suits"
+      ],
+      "related_topics": [
+        "crime-and-justice"
+      ]
+    },
+    "land-registration": {
+      "label": "land registration",
+      "definition": "Legal registration of land ownership, title and other rights in real property.",
+      "includes": [
+        "Land registers, deeds, title transfers, registered mortgages and cadastral records used to establish legal rights."
+      ],
+      "excludes": [
+        "Physical land surveys alone; cultivated area or land tenure without registration."
+      ],
+      "aliases": [
+        "land titles",
+        "deeds registration",
+        "real-property registration"
+      ],
+      "related_topics": [
+        "crime-and-justice",
+        "agriculture",
+        "government"
+      ]
+    },
+    "prison-labour": {
+      "label": "prison labour",
+      "definition": "Work performed by detained or sentenced people and its organization or economic results.",
+      "includes": [
+        "Prison industries, inmate employment, penal labour, output, earnings and working arrangements."
+      ],
+      "excludes": [
+        "Ordinary factory labour; forced work outside a penal or detention setting unless a prison connection is explicit."
+      ],
+      "aliases": [
+        "penal labour",
+        "inmate work"
+      ],
+      "related_topics": [
+        "crime-and-justice",
+        "labour"
+      ]
+    },
+    "juvenile-justice": {
+      "label": "juvenile justice",
+      "definition": "Law enforcement and judicial or correctional treatment specifically involving young offenders.",
+      "includes": [
+        "Juvenile offences, youth courts, reformatories, probation and correctional education for offenders."
+      ],
+      "excludes": [
+        "Child welfare, ordinary schooling or youth organizations without a justice purpose."
+      ],
+      "aliases": [
+        "young offenders",
+        "reformatories"
+      ],
+      "related_topics": [
+        "crime-and-justice",
+        "welfare"
+      ]
+    },
+    "prisoner-aftercare": {
+      "label": "prisoner aftercare",
+      "definition": "Support and supervision intended to reintegrate people after release from detention or punishment.",
+      "includes": [
+        "Discharged-prisoner aid, aftercare organizations, post-release employment help and reintegration services."
+      ],
+      "excludes": [
+        "Care of current inmates; general poverty relief without a released-prisoner population."
+      ],
+      "aliases": [
+        "released-prisoner aid",
+        "offender reintegration"
+      ],
+      "related_topics": [
+        "crime-and-justice",
+        "welfare"
+      ]
+    },
+    "corporal-punishment": {
+      "label": "corporal punishment",
+      "definition": "Punishment deliberately inflicted on the body, such as flogging or caning.",
+      "includes": [
+        "Corporal sentences, recipients and regulations or administration of physical disciplinary punishment."
+      ],
+      "excludes": [
+        "Imprisonment, fines, capital punishment, military casualties or injury statistics without corporal punishment."
+      ],
+      "aliases": [
+        "flogging",
+        "caning"
+      ],
+      "related_topics": [
+        "crime-and-justice"
+      ]
+    },
+    "mediation-and-arbitration": {
+      "label": "mediation and arbitration",
+      "definition": "Resolution of disputes by a mediator or arbitrator rather than an ordinary judicial judgment.",
+      "includes": [
+        "Mediation panels, conciliation cases, arbitration proceedings and settlements, including labour disputes."
+      ],
+      "excludes": [
+        "Ordinary civil or criminal trials; interstate negotiations without a mediation or arbitration mechanism."
+      ],
+      "aliases": [
+        "conciliation",
+        "arbitration",
+        "mediation"
+      ],
+      "related_topics": [
+        "crime-and-justice",
+        "labour"
+      ]
+    },
+    "opium": {
+      "label": "opium",
+      "definition": "Opium, poppy cultivation for opium and the production, distribution or use of opium.",
+      "includes": [
+        "Poppy-growing areas, opium purchases and sales, trade, smoking, revenue and opium-control systems."
+      ],
+      "excludes": [
+        "Other narcotics without an opium component; ordinary pharmaceutical totals."
+      ],
+      "aliases": [
+        "poppy cultivation",
+        "opium smoking"
+      ],
+      "related_topics": [
+        "narcotics",
+        "agriculture",
+        "trade"
+      ]
+    },
+    "morphine-and-heroin": {
+      "label": "morphine and heroin",
+      "definition": "Morphine and heroin as named narcotic substances, including their production, trade, use and control.",
+      "includes": [
+        "Morphine or heroin quantities, seizures, consumption, manufacture and regulation."
+      ],
+      "excludes": [
+        "Opium alone; medicines or narcotics in aggregate without either named substance."
+      ],
+      "aliases": [
+        "morphine",
+        "heroin"
+      ],
+      "related_topics": [
+        "narcotics",
+        "health"
+      ]
+    },
+    "drug-suppression": {
+      "label": "drug suppression",
+      "definition": "Measures to prevent, prohibit or enforce restrictions on narcotic production, trade or use.",
+      "includes": [
+        "Anti-drug campaigns, seizures, destruction of poppy crops, illicit-trade enforcement and suppression results."
+      ],
+      "excludes": [
+        "Lawful state purchases or licensing alone; treatment of addiction without a suppression programme."
+      ],
+      "aliases": [
+        "narcotics suppression",
+        "anti-opium campaigns"
+      ],
+      "related_topics": [
+        "narcotics",
+        "crime-and-justice"
+      ]
+    },
+    "opium-licensing": {
+      "label": "opium licensing",
+      "definition": "Official permission and registration systems regulating opium cultivation, sale, supply or smoking.",
+      "includes": [
+        "Licensed growing areas, opium sellers, registered smokers and issue or withdrawal of smoking certificates."
+      ],
+      "excludes": [
+        "Illicit seizures alone; drug consumption totals without a licensing or registration component."
+      ],
+      "aliases": [
+        "opium smoking certificates",
+        "registered opium smokers",
+        "poppy licences"
+      ],
+      "related_topics": [
+        "narcotics",
+        "government"
+      ]
+    },
+    "drug-consumption": {
+      "label": "drug consumption",
+      "definition": "The extent, pattern or circumstances of narcotic use and dependence in a population.",
+      "includes": [
+        "Drug users, smoking quantities, consumption rates, addicts and patterns of narcotic dependence."
+      ],
+      "excludes": [
+        "Production or trade quantities without evidence of use; counts of treatment facilities without consumption or dependence measures."
+      ],
+      "aliases": [
+        "narcotic use",
+        "drug dependence",
+        "addiction prevalence"
+      ],
+      "related_topics": [
+        "narcotics",
+        "health"
+      ]
+    },
+    "medical-services": {
+      "label": "medical services",
+      "definition": "The provision, organization, personnel and use of medical or dental care.",
+      "includes": [
+        "Hospitals, clinics, physicians, dentists, nurses, medical capacity, patients treated and service costs."
+      ],
+      "excludes": [
+        "Medical-school enrolment alone; disease incidence without a care-service measure; medical goods alone."
+      ],
+      "aliases": [
+        "hospitals and clinics",
+        "medical personnel",
+        "healthcare"
+      ],
+      "related_topics": [
+        "health"
+      ]
+    },
+    "diseases": {
+      "label": "diseases",
+      "definition": "The occurrence, distribution, causes or outcomes of named or classified illnesses.",
+      "includes": [
+        "Morbidity, disease-specific deaths, notifiable diseases and patients classified by diagnosis."
+      ],
+      "excludes": [
+        "All-cause deaths without disease information; hospital staffing alone; an epidemic label without evidence of an outbreak."
+      ],
+      "aliases": [
+        "morbidity",
+        "illness",
+        "disease mortality"
+      ],
+      "related_topics": [
+        "health"
+      ]
+    },
+    "public-health": {
+      "label": "public health",
+      "definition": "Collective measures and institutions protecting population health and improving sanitary conditions.",
+      "includes": [
+        "Health administration, sanitation, hygiene, disease prevention, health inspection and environmental health."
+      ],
+      "excludes": [
+        "General utility capacity or construction without a health or sanitation purpose; individual clinical care alone."
+      ],
+      "aliases": [
+        "sanitation",
+        "hygiene",
+        "health administration"
+      ],
+      "related_topics": [
+        "health",
+        "government"
+      ]
+    },
+    "nutrition": {
+      "label": "nutrition",
+      "definition": "Diet, nutritional intake and the adequacy or health effects of food consumption.",
+      "includes": [
+        "Dietary composition, calories, nutrient intake, malnutrition and nutrition programmes."
+      ],
+      "excludes": [
+        "Crop output, food trade, ration quantities or household food spending without nutritional content."
+      ],
+      "aliases": [
+        "diet",
+        "nutrient intake",
+        "malnutrition"
+      ],
+      "related_topics": [
+        "health",
+        "welfare"
+      ]
+    },
+    "epidemics": {
+      "label": "epidemics",
+      "definition": "Outbreaks or exceptional spread of infectious disease and organized responses to them.",
+      "includes": [
+        "Epidemic episodes, outbreak mortality, transmission patterns and epidemic-control campaigns."
+      ],
+      "excludes": [
+        "Routine infectious-disease counts without outbreak or epidemic evidence; every case of a contagious disease."
+      ],
+      "aliases": [
+        "disease outbreaks",
+        "epidemic control"
+      ],
+      "related_topics": [
+        "health"
+      ]
+    },
+    "quarantine": {
+      "label": "quarantine",
+      "definition": "Restriction, inspection or isolation intended to prevent disease crossing a boundary or spreading from exposed persons, animals or goods.",
+      "includes": [
+        "Port health checks, quarantine stations, inspected travellers or vessels and isolation measures."
+      ],
+      "excludes": [
+        "Ordinary customs inspection, immigration documentation or disease treatment without quarantine."
+      ],
+      "aliases": [
+        "port quarantine",
+        "health isolation"
+      ],
+      "related_topics": [
+        "health",
+        "transportation"
+      ]
+    },
+    "maternal-and-child-health": {
+      "label": "maternal and child health",
+      "definition": "Health conditions and medical or preventive services specifically concerning mothers, pregnancy, childbirth or children.",
+      "includes": [
+        "Maternity services, midwifery, maternal mortality, infant clinics and child-health programmes."
+      ],
+      "excludes": [
+        "Birth counts alone; general child welfare or schooling without a health subject."
+      ],
+      "aliases": [
+        "maternity care",
+        "child health",
+        "midwifery"
+      ],
+      "related_topics": [
+        "health",
+        "welfare"
+      ]
+    },
+    "pharmaceuticals": {
+      "label": "pharmaceuticals",
+      "definition": "Medicines, their preparation, supply, regulation and pharmaceutical personnel or establishments.",
+      "includes": [
+        "Medicinal drugs, pharmacies, pharmacists, drug manufacture, pharmaceutical imports and quality control."
+      ],
+      "excludes": [
+        "General chemical output; opium or other narcotics when only narcotic control or use is discussed."
+      ],
+      "aliases": [
+        "medicines",
+        "pharmacy",
+        "pharmacists"
+      ],
+      "related_topics": [
+        "health",
+        "manufacturing",
+        "trade"
+      ]
+    },
+    "vaccination": {
+      "label": "vaccination",
+      "definition": "Administration and organization of vaccines or comparable immunization programmes.",
+      "includes": [
+        "Vaccinations, vaccinated persons, vaccine supply and campaigns against specified diseases."
+      ],
+      "excludes": [
+        "Other disease treatments, quarantine or general prevention without immunization."
+      ],
+      "aliases": [
+        "immunization",
+        "inoculation"
+      ],
+      "related_topics": [
+        "health"
+      ]
+    },
+    "leprosy": {
+      "label": "leprosy",
+      "definition": "Leprosy and the institutions, policies and services specifically directed at people affected by it.",
+      "includes": [
+        "Leprosy cases, leprosaria, segregation policies, treatment and patient populations."
+      ],
+      "excludes": [
+        "General infectious-disease tables without a substantive leprosy measure."
+      ],
+      "aliases": [
+        "Hansen’s disease",
+        "leprosaria"
+      ],
+      "related_topics": [
+        "health"
+      ]
+    },
+    "veterinary-health": {
+      "label": "veterinary health",
+      "definition": "The health of animals and services preventing or treating animal disease.",
+      "includes": [
+        "Animal disease, veterinary staff, animal-health laboratories, vaccination, inspections and epizootics."
+      ],
+      "excludes": [
+        "Livestock numbers, breeding, slaughter output or meat production without animal-health content."
+      ],
+      "aliases": [
+        "animal health",
+        "veterinary services",
+        "animal disease"
+      ],
+      "related_topics": [
+        "health",
+        "agriculture"
+      ]
+    },
+    "malaria": {
+      "label": "malaria",
+      "definition": "Malaria, its incidence and the measures or services intended to prevent or treat it.",
+      "includes": [
+        "Malaria cases and deaths, mosquito-control programmes explicitly against malaria and malaria treatment."
+      ],
+      "excludes": [
+        "Other fevers or general sanitation without an explicit malaria connection."
+      ],
+      "aliases": [
+        "malarial disease"
+      ],
+      "related_topics": [
+        "health"
+      ]
+    },
+    "mental-health": {
+      "label": "mental health",
+      "definition": "Mental illness, psychological health and institutions or services providing psychiatric care.",
+      "includes": [
+        "Psychiatric patients, mental hospitals, mental-health diagnoses and care."
+      ],
+      "excludes": [
+        "Suicide totals without mental-health evidence; drug use or dependence without psychiatric care or diagnosis."
+      ],
+      "aliases": [
+        "psychiatric care",
+        "mental illness"
+      ],
+      "related_topics": [
+        "health"
+      ]
+    },
+    "food-inspection": {
+      "label": "food inspection",
+      "definition": "Inspection, testing or regulation of food safety and the sanitary fitness of food for consumption.",
+      "includes": [
+        "Food and drink inspections, adulteration, slaughterhouse sanitary checks and condemned food."
+      ],
+      "excludes": [
+        "Food quantities, commodity standards or trade classification without a health-safety inspection purpose."
+      ],
+      "aliases": [
+        "food safety",
+        "food adulteration",
+        "sanitary food inspection"
+      ],
+      "related_topics": [
+        "health"
+      ]
+    },
+    "poor-relief": {
+      "label": "poor relief",
+      "definition": "Material aid and services directed at people unable to meet basic needs.",
+      "includes": [
+        "Poor relief recipients, expenditure, almshouses, subsistence aid and support in cash or kind."
+      ],
+      "excludes": [
+        "Poverty measurements without an assistance programme; ordinary wages or loans."
+      ],
+      "aliases": [
+        "public assistance",
+        "destitute relief"
+      ],
+      "related_topics": [
+        "welfare"
+      ]
+    },
+    "child-welfare": {
+      "label": "child welfare",
+      "definition": "Support and protection for children and dependent young people outside ordinary schooling or clinical care.",
+      "includes": [
+        "Orphanages, child protection, foster care, childcare and support for dependent children."
+      ],
+      "excludes": [
+        "School attendance or child-health services alone; juvenile punishment without a welfare-service subject."
+      ],
+      "aliases": [
+        "child protection",
+        "orphan care",
+        "childcare"
+      ],
+      "related_topics": [
+        "welfare"
+      ]
+    },
+    "housing": {
+      "label": "housing",
+      "definition": "Residential accommodation, housing conditions and the provision or support of dwellings.",
+      "includes": [
+        "Dwelling supply, rents, overcrowding, worker housing, public housing and housing assistance."
+      ],
+      "excludes": [
+        "Household counts without dwelling information; general construction output or urban planning without a housing subject."
+      ],
+      "aliases": [
+        "dwellings",
+        "residential accommodation",
+        "housing conditions"
+      ],
+      "related_topics": [
+        "welfare",
+        "utilities"
+      ]
+    },
+    "household-budgets": {
+      "label": "household budgets",
+      "definition": "Observed income, expenditure, consumption and savings budgets of households or families.",
+      "includes": [
+        "Family income/expenditure surveys, actual spending baskets, consumption and household savings."
+      ],
+      "excludes": [
+        "Business accounts or public budgets; isolated living-cost indices without observed family budgets belong to cost-of-living."
+      ],
+      "aliases": [
+        "family budgets",
+        "household expenditure"
+      ],
+      "related_topics": [
+        "welfare",
+        "economy",
+        "labour"
+      ]
+    },
+    "poverty": {
+      "label": "poverty",
+      "definition": "The extent, characteristics or experience of inadequate resources and material deprivation.",
+      "includes": [
+        "Poverty counts, destitution, deprivation and household living standards explicitly evaluated as poverty."
+      ],
+      "excludes": [
+        "Low wages or sparse housing without evidence of deprivation; relief administration alone."
+      ],
+      "aliases": [
+        "destitution",
+        "material deprivation"
+      ],
+      "related_topics": [
+        "welfare"
+      ]
+    },
+    "refugees-and-displacement": {
+      "label": "refugees and displacement",
+      "definition": "People forced to leave their homes and the circumstances or support of displaced populations.",
+      "includes": [
+        "Refugees, evacuees, internally displaced people, resettlement and relief following forced movement."
+      ],
+      "excludes": [
+        "Voluntary migration or ordinary settler schemes without evidence of forced displacement."
+      ],
+      "aliases": [
+        "refugees",
+        "forced displacement",
+        "evacuees"
+      ],
+      "related_topics": [
+        "welfare",
+        "population"
+      ]
+    },
+    "charitable-institutions": {
+      "label": "charitable institutions",
+      "definition": "Organizations and establishments providing philanthropic relief or social support.",
+      "includes": [
+        "Charities, relief societies, philanthropic foundations, charitable homes and their beneficiaries or finances."
+      ],
+      "excludes": [
+        "Every religious institution; commercial insurance; a hospital or school without an explicit charitable role."
+      ],
+      "aliases": [
+        "charities",
+        "philanthropic institutions",
+        "relief societies"
+      ],
+      "related_topics": [
+        "welfare"
+      ]
+    },
+    "foreign-aid": {
+      "label": "foreign aid",
+      "definition": "Assistance supplied across national boundaries for relief, social support or recovery.",
+      "includes": [
+        "Foreign relief grants, donated supplies, international humanitarian assistance and aid programmes."
+      ],
+      "excludes": [
+        "Commercial foreign loans or investment; ordinary diplomatic expenses; domestic relief without foreign assistance."
+      ],
+      "aliases": [
+        "international assistance",
+        "humanitarian aid"
+      ],
+      "related_topics": [
+        "welfare",
+        "foreign-relations"
+      ]
+    },
+    "work-relief": {
+      "label": "work relief",
+      "definition": "Employment or public works organized primarily to provide relief to people lacking income or work.",
+      "includes": [
+        "Relief work, assistance through employment, relief-work participants and related expenditure."
+      ],
+      "excludes": [
+        "Ordinary infrastructure projects or job placement without a relief purpose."
+      ],
+      "aliases": [
+        "relief employment",
+        "public works relief"
+      ],
+      "related_topics": [
+        "welfare",
+        "labour"
+      ]
+    },
+    "veterans-and-military-families": {
+      "label": "veterans and military families",
+      "definition": "The circumstances, benefits and support of former service members and military dependants.",
+      "includes": [
+        "Veterans’ relief, disabled service members, war bereaved, military-family assistance and related pensions."
+      ],
+      "excludes": [
+        "Serving troop strength or military recruitment; general pensions without a veteran or military-family population."
+      ],
+      "aliases": [
+        "veterans",
+        "military dependants",
+        "war bereaved"
+      ],
+      "related_topics": [
+        "welfare",
+        "military"
+      ]
+    },
+    "youth-organisations": {
+      "label": "youth organisations",
+      "definition": "Organized associations for the development, service, training or support of young people.",
+      "includes": [
+        "Youth associations, youth groups, scouts and membership or activities of youth organizations."
+      ],
+      "excludes": [
+        "School enrolment, military recruitment or juvenile justice without an association as the subject."
+      ],
+      "aliases": [
+        "youth associations",
+        "youth groups"
+      ],
+      "related_topics": [
+        "welfare",
+        "education",
+        "government"
+      ]
+    }
+  },
+  "proposed_additions": {
+    "topics": [],
+    "tags": [
+      {
+        "id": "banditry",
+        "label": "banditry",
+        "definition": "Armed robbery and raiding by groups described by the source as bandits, and official campaigns directed against them.",
+        "includes": [
+          "Bandit groups, raids, surrender, seized weapons, damage and suppression outcomes.",
+          "Retain the source’s bandit classification as a reported category; establish political purpose separately."
+        ],
+        "excludes": [
+          "Ordinary theft without armed-group activity; interstate war; automatically reclassifying all insurgents or independence movements as criminals."
+        ],
+        "aliases": [
+          "bandit suppression",
+          "armed banditry"
+        ],
+        "related_topics": [
+          "crime-and-justice",
+          "military"
+        ],
+        "evidence": [
+          "japan-manchoukuo-1936: p1-0758_1 and p1-0759_1",
+          "japan-manchoukuo-1938: p1-0757_1 through p1-0760_3",
+          "japan-manchoukuo-1939: p1-0728_1 through p1-0729_4",
+          "japan-manchoukuo-1940: p0115_2 through p0116_2"
+        ]
+      },
+      {
+        "id": "addiction-treatment",
+        "label": "addiction treatment",
+        "definition": "Medical or organized services intended to treat narcotic dependence and support recovery.",
+        "includes": [
+          "Narcotic treatment stations, patients receiving addiction care, detoxification and treatment outcomes."
+        ],
+        "excludes": [
+          "Drug-user or licensed-smoker counts without treatment; seizures and suppression without a care programme; general hospital activity without addiction care."
+        ],
+        "aliases": [
+          "drug treatment",
+          "narcotic addiction care"
+        ],
+        "related_topics": [
+          "narcotics",
+          "health",
+          "welfare"
+        ],
+        "evidence": [
+          "japan-manchoukuo-1938: p1-0965_1 Number of Addicts Cared For at Narcotic Stations",
+          "japan-manchoukuo-1939: p1-0922_1 Number of Addicts Cared For at Narcotic Stations (1935)",
+          "japan-manchoukuo-1940: p0211_1 Statistics of Narcotic Stations"
+        ]
+      }
+    ]
+  }
+}

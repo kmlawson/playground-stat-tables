@@ -1,0 +1,49 @@
+{
+  "topics": {},
+  "tags": {},
+  "proposed_additions": {
+    "topics": [],
+    "tags": [
+      {
+        "id": "sports-participation",
+        "label": "sports participation",
+        "definition": "Numbers and characteristics of people taking part in sporting events, training or organised sporting activities.",
+        "includes": ["Entrants and participants by sport, event, age or sex; active sporting participation and training."],
+        "excludes": ["Competitive results and performance records alone; inventories of sporting venues or organisations without participation measures."],
+        "aliases": ["athletic participation", "sporting entrants"],
+        "related_topics": ["sport", "education"],
+        "evidence": ["korea-1942:p0131_1"]
+      },
+      {
+        "id": "hunting",
+        "label": "hunting",
+        "definition": "Hunting activity and its regulation, including hunting licences issued for recreational, commercial or scientific purposes.",
+        "includes": ["Hunting licences, game hunting, hunting returns and hunting-management measures."],
+        "excludes": ["Fishing licences; general firearm permits without a hunting subject; wildlife censuses without hunting or game-management content."],
+        "aliases": ["hunting licences", "game hunting"],
+        "related_topics": ["government", "sport", "geography"],
+        "evidence": ["nanyo-tokei-1937:p0041_3"]
+      },
+      {
+        "id": "economic-indicators",
+        "label": "economic indicators",
+        "definition": "Broad summaries or index sets combining several economic domains to describe general economic conditions.",
+        "includes": ["Economic barometers combining prices, production, trade, freight, banking, currency or securities indices."],
+        "excludes": ["Single-sector production, price, wage or living-cost series; policy and plans without an indicator summary."],
+        "aliases": ["economic barometers", "general economic indices"],
+        "related_topics": ["economy", "finance", "trade", "labour"],
+        "evidence": ["japan-1937:p0409_1", "japan-manchoukuo-1940:p0034_1"]
+      },
+      {
+        "id": "welfare-institutions",
+        "label": "welfare institutions",
+        "definition": "General inventories of public, private or mixed social-work institutions, facilities and coordinating bodies across welfare functions.",
+        "includes": ["Multi-category censuses of child protection, economic protection, employment relief, poor relief, medical protection and aftercare facilities."],
+        "excludes": ["Commercial institutions without a welfare function; a table devoted solely to a specific welfare activity or charitable body when a more specific tag fits."],
+        "aliases": ["social work institutions", "social welfare facilities"],
+        "related_topics": ["welfare", "health", "labour", "education"],
+        "evidence": ["japan-tokei-1938:p0142_1"]
+      }
+    ]
+  }
+}

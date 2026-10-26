@@ -1,0 +1,713 @@
+{
+  "schema_version": 1,
+  "approval": {
+    "instruction": "great, add all the proposed tags.",
+    "source": "reviews/china-uncovered-2026-10-26/proposals.json",
+    "scope": "All 23 consolidated candidates, including optional and conditional candidates."
+  },
+  "topics": {},
+  "tags": {},
+  "proposed_additions": {
+    "topics": [],
+    "tags": [
+      {
+        "id": "route-distances",
+        "label": "route distances and journey times",
+        "definition": "Measured distances or elapsed journey times between named places along travel routes, including comparative origin-destination references across transport modes.",
+        "includes": [
+          "Sea, river, rail and overland distance matrices.",
+          "Route lengths and comparative journey durations from a place to other destinations.",
+          "Sea, coastal, river and overland distance matrices.",
+          "Direct and via-route mileage comparisons between named endpoints.",
+          "Port-to-port sea distances; river inter-port mileages; origin/destination distance matrices; cumulative distances via a named transport corridor, including mixed-mode routes.",
+          "Sea and coast port-to-port distances.",
+          "Rail, overland or mixed-route distances and route-distance reference matrices."
+        ],
+        "excludes": [
+          "Calendar dates, clock-time conversions and time-zone tables.",
+          "Ticket fares and freight charges without route-distance or duration measures.",
+          "A railway inventory whose principal subject is railway operation rather than comparative access between places.",
+          "Total network length or newly constructed mileage without endpoint-distance comparisons.",
+          "Fares and freight charges, which use freight-and-transport-costs.",
+          "Physical river length without a travel-route subject.",
+          "Total national network length or road construction mileage without place-to-place travel distances.",
+          "Territorial surface area or physical river length without a navigation/travel-route measure.",
+          "Fares and freight charges (freight-and-transport-costs).",
+          "Transport fares or freight charges.",
+          "Vessel mileage actually travelled as a traffic-output measure.",
+          "River length or territorial dimensions without a transport route."
+        ],
+        "related_topics": [
+          "geography",
+          "transportation"
+        ],
+        "aliases": [
+          "distances and journey times"
+        ],
+        "evidence_keys": [
+          "china-handbook-1926:p0023_1",
+          "china-1912:p0043_2",
+          "china-1912:p0043_3",
+          "china-1912:p0043_4",
+          "china-1912:p0044_1",
+          "china-1912:p0044_2",
+          "china-1912:p0044_3",
+          "china-1914:p0024_2",
+          "china-1914:p0024_3",
+          "china-1914:p0024_4",
+          "china-1914:p0025_1",
+          "china-1914:p0025_2",
+          "china-1914:p0025_3",
+          "china-1919:p0030_2",
+          "china-1919:p0030_3",
+          "china-1919:p0030_4",
+          "china-1919:p0031_1",
+          "china-1919:p0031_3",
+          "china-1913:p0022_2",
+          "china-1913:p0022_3",
+          "china-1913:p0022_4",
+          "china-1913:p0023_1",
+          "china-1913:p0023_3",
+          "china-1916:p0028_2",
+          "china-1916:p0028_3",
+          "china-1916:p0028_4",
+          "china-1916:p0029_1",
+          "china-1916:p0029_3",
+          "china-1922:p0050_1",
+          "china-1922:p0050_2",
+          "china-1922:p0050_3",
+          "china-1922:p0050_4",
+          "china-1922:p0051_1",
+          "china-1922:p0051_2",
+          "china-1923:p0071_1",
+          "china-1923:p0071_2",
+          "china-1923:p0071_3",
+          "china-1923:p0071_4",
+          "china-1923:p0072_1",
+          "china-1923:p0072_2",
+          "china-1924-5:p0053_1",
+          "china-1924-5:p0053_2",
+          "china-1924-5:p0053_3",
+          "china-1924-5:p0053_4",
+          "china-1924-5:p0054_1",
+          "china-1924-5:p0054_2",
+          "china-1925-6:p0079_1",
+          "china-1925-6:p0079_2",
+          "china-1925-6:p0079_3",
+          "china-1925-6:p0079_4",
+          "china-1925-6:p0080_1",
+          "china-1925-6:p0080_2",
+          "china-1926-7:p0062_1",
+          "china-1926-7:p0062_2",
+          "china-1926-7:p0062_3",
+          "china-1926-7:p0062_4",
+          "china-1926-7:p0063_1",
+          "china-1926-7:p0063_2",
+          "china-1928:p0034_1",
+          "china-1928:p0034_2",
+          "china-1928:p0034_3",
+          "china-1928:p0034_4",
+          "china-1928:p0034_5",
+          "china-1929-30:p0029_1",
+          "china-1931-2:p0019_3",
+          "china-1931-2:p0020_1",
+          "china-1931-2:p0020_2",
+          "china-1931-2:p0020_3",
+          "china-1931-2:p0020_4"
+        ],
+        "approval_note": "All proposed tags approved by the user; individual table evidence still requires confidence."
+      },
+      {
+        "id": "commodity-origins",
+        "label": "commodity origins",
+        "definition": "The geographical distribution of the origins or producing regions of commodities, especially comparative inventories across products or sectors.",
+        "includes": [
+          "Product-to-province and province-to-product origin catalogues.",
+          "Producing districts linked to export ports or outward routes as an explicitly organised geographical inventory.",
+          "Inventories pairing many commodities with their producing regions.",
+          "Mixed crop, animal-product, mineral, timber and manufactured-product origin lists.",
+          "Products paired with producing provinces/regions; province-by-product reference lists; geographical origins and associated export gateways when the regional product pattern is substantial."
+        ],
+        "excludes": [
+          "A numerical crop, mine or factory production table merely broken down by province.",
+          "General economic indicators combining quantitative domains.",
+          "A single incidental place name in a commodity table.",
+          "A single commodity adequately described by its commodity tag.",
+          "Quantitative multi-domain economic barometers, which use economic-indicators.",
+          "Trade quantities by origin or destination without a substantive inventory of regional products.",
+          "Single-commodity production or trade tables adequately described by their commodity tag.",
+          "Broad numerical economic barometers (economic-indicators).",
+          "Pure lists of ports or places without product-origin information."
+        ],
+        "related_topics": [
+          "geography",
+          "trade",
+          "economy",
+          "agriculture"
+        ],
+        "aliases": [
+          "commodity geography",
+          "regional products"
+        ],
+        "evidence_keys": [
+          "china-1914:p0061_1",
+          "china-1914:p0062_1",
+          "china-1914:p0063_1",
+          "china-1919:p0067_1",
+          "china-1919:p0069_1",
+          "china-1913:p0057_1",
+          "china-1913:p0058_1",
+          "china-1916:p0065_1",
+          "china-1916:p0066_1",
+          "china-1922:p0159_1",
+          "china-1923:p0257_1",
+          "china-1923:p0258_1"
+        ],
+        "approval_note": "All proposed tags approved by the user; individual table evidence still requires confidence."
+      },
+      {
+        "id": "anthropometry",
+        "label": "human body measurements",
+        "definition": "Measured physical dimensions and proportional characteristics of human bodies and the distributions or typologies constructed from those measurements.",
+        "includes": [
+          "Height, weight and body proportions; cranial/cephalic indices; tables grouping people by measured physical traits, retaining the source's historical categories.",
+          "Cephalic indices, head-shape distributions, stature and bodily measurements.",
+          "Descriptive physical-type categories explicitly based on anthropometric observations."
+        ],
+        "excludes": [
+          "Nationality or ethnic-community labels without physical measurement (nationality-and-ethnicity).",
+          "Age and sex distributions alone (age-and-sex).",
+          "Nutrition or disease statistics without bodily measurements.",
+          "Nationality or ethnicity without physical measurements or bodily-trait classification.",
+          "Clinical disease or nutritional status alone.",
+          "Endorsement or modern reclassification of the source's racial theories."
+        ],
+        "related_topics": [
+          "population",
+          "health",
+          "science-and-technology"
+        ],
+        "aliases": [],
+        "evidence_keys": [
+          "china-1925-6:p0197_1",
+          "china-1926-7:p0163_1",
+          "china-1928:p0062_1",
+          "china-1929-30:p0057_1",
+          "china-1929-30:p0057_2",
+          "china-1938:p0030_1"
+        ],
+        "approval_note": "All proposed tags approved by the user; individual table evidence still requires confidence."
+      },
+      {
+        "id": "census-and-survey-methods",
+        "label": "census and survey methods",
+        "definition": "The organisation, instruments and procedures used to collect census or survey information.",
+        "includes": [
+          "Census questions, blank survey cards, schedules and enumeration forms.",
+          "Instructions to enumerators, census-board reporting categories and data-collection procedures.",
+          "Survey sample design and the allocation of sampled units by place or stratum."
+        ],
+        "excludes": [
+          "Ordinary population, religious or household statistics merely derived from a census or survey.",
+          "Legal household registration without a census or survey collection subject."
+        ],
+        "related_topics": [
+          "population",
+          "science-and-technology",
+          "agriculture"
+        ],
+        "aliases": [],
+        "evidence_keys": [
+          "china-peking-1921:p0105_1",
+          "china-peking-1921:p0106_1",
+          "china-peking-1921:p0367_1",
+          "china-1929-30:p0971_1"
+        ],
+        "approval_note": "All proposed tags approved by the user; individual table evidence still requires confidence."
+      },
+      {
+        "id": "public-holidays-and-commemorations",
+        "label": "public holidays and commemorations",
+        "definition": "Recognised public holidays and recurring civic or historical commemoration days and the occasions they mark.",
+        "includes": [
+          "Official public holiday and anniversary calendars.",
+          "Dates and events commemorated by state or civic observances.",
+          "National holidays; civic commemoration days; recurring memorial observances; lists pairing the calendar day with the remembered event.",
+          "National commemorative days and statutory holidays.",
+          "Calendars listing the occasion being celebrated or remembered."
+        ],
+        "excludes": [
+          "General historical event chronologies.",
+          "Calendar conversion, era equivalences and time standards without an observance subject.",
+          "Astronomical events without a holiday or commemoration.",
+          "Calendar/era conversions and time-zone conventions (calendars-and-time).",
+          "One-off chronological event lists not organised as recurring observances.",
+          "Religious institutions or adherent counts without an observance subject.",
+          "Calendar-system equivalences and time zones, which remain calendars-and-time.",
+          "A date incidental to an unrelated table."
+        ],
+        "related_topics": [
+          "culture",
+          "government",
+          "history",
+          "religion"
+        ],
+        "aliases": [
+          "holidays and commemorations"
+        ],
+        "evidence_keys": [
+          "china-1922:p1009_1",
+          "china-1925-6:p0997_1",
+          "china-1926-7:p0638_1",
+          "china-1928:p1256_1"
+        ],
+        "approval_note": "All proposed tags approved by the user; individual table evidence still requires confidence."
+      },
+      {
+        "id": "legal-profession",
+        "label": "legal profession",
+        "definition": "Lawyers, advocates and other practising legal professionals, including qualification, licensing, registration and professional establishment.",
+        "includes": [
+          "Licensed or certified lawyers and advocates by place.",
+          "Legal professional admissions, certificates and practice qualifications."
+        ],
+        "excludes": [
+          "Judicial caseload or court establishments alone.",
+          "Police and prison personnel.",
+          "Professional-school curricula alone, which remain vocational-education or higher-education."
+        ],
+        "related_topics": [
+          "crime-and-justice",
+          "labour"
+        ],
+        "aliases": [],
+        "evidence_keys": [
+          "china-1944:p0222_1",
+          "china-1937-43:p2-0064_1",
+          "china-1950:p1-0121_2"
+        ],
+        "approval_note": "All proposed tags approved by the user; individual table evidence still requires confidence."
+      },
+      {
+        "id": "writing-systems-and-phonetics",
+        "label": "writing systems and phonetics",
+        "definition": "Writing systems, orthographic or phonetic notation, pronunciation systems and the representation of speech sounds.",
+        "includes": [
+          "Alphabets, syllabaries and phonetic symbols; consonant and vowel/final inventories; romanisation/transliteration equivalences; spelling or script reforms."
+        ],
+        "excludes": [
+          "Language distribution or language of public services without script/sound analysis (languages).",
+          "Language teaching programmes or school language curricula alone (language-education).",
+          "Military or technical glossaries whose main subject is the named institutions or objects rather than speech sounds."
+        ],
+        "related_topics": [
+          "education",
+          "culture",
+          "science-and-technology"
+        ],
+        "aliases": [],
+        "evidence_keys": [
+          "china-1923:p0399_1",
+          "china-1923:p0400_1",
+          "china-1923:p0400_2"
+        ],
+        "approval_note": "All proposed tags approved by the user; individual table evidence still requires confidence."
+      },
+      {
+        "id": "real-estate",
+        "label": "real estate",
+        "definition": "Transactions, market values and rents of land and buildings as property.",
+        "includes": [
+          "Land and building sales, transaction areas and consideration paid.",
+          "Urban land lease rents and quoted values or rents of offices, warehouses and residential property."
+        ],
+        "excludes": [
+          "Agricultural ownership and tenancy arrangements without a property-market measure: use land-tenure.",
+          "Property taxation alone: use land-tax or taxation.",
+          "Residential overcrowding, dwelling conditions or housing support without a property-market subject: use housing."
+        ],
+        "related_topics": [
+          "economy",
+          "finance"
+        ],
+        "aliases": [],
+        "evidence_keys": [
+          "china-handbook-1926:p0543_1",
+          "china-handbook-1926:p0745_1",
+          "china-handbook-1926:p0793_1"
+        ],
+        "approval_note": "All proposed tags approved by the user; individual table evidence still requires confidence."
+      },
+      {
+        "id": "printing",
+        "label": "printing",
+        "definition": "Printing, lithography, engraving and related reproduction of printed matter, including the establishments providing these services.",
+        "includes": [
+          "Printing and lithographic works, presses and engraving establishments.",
+          "Printing capacity, production, personnel, charges and business inventories.",
+          "Commercial and mission printing establishments and presses.",
+          "Printing, typesetting, lithography and related print-production activity."
+        ],
+        "excludes": [
+          "Paper and pulp production without printing.",
+          "Lists or circulation of publications without a printing-production or printing-establishment subject.",
+          "Publication-title or circulation statistics alone, which use books, newspapers or periodicals."
+        ],
+        "related_topics": [
+          "manufacturing",
+          "press"
+        ],
+        "aliases": [],
+        "evidence_keys": [
+          "china-1914:p0121_2",
+          "china-1916:p0121_1"
+        ],
+        "approval_note": "All proposed tags approved by the user; individual table evidence still requires confidence."
+      },
+      {
+        "id": "professional-associations",
+        "label": "professional associations",
+        "definition": "Organised bodies representing or coordinating members of a learned or licensed profession and their governance, membership or professional activities.",
+        "includes": [
+          "Medical, legal, engineering and similar professional associations.",
+          "Professional association committees, officers and membership."
+        ],
+        "excludes": [
+          "Commercial chambers and industry associations, which use business-associations.",
+          "Worker bargaining organisations, which use trade-unions.",
+          "A roster of licensed practitioners without an association, or an institution devoted solely to scientific research."
+        ],
+        "related_topics": [
+          "labour",
+          "health",
+          "education",
+          "science-and-technology"
+        ],
+        "aliases": [],
+        "evidence_keys": [
+          "china-1922:p1029_1"
+        ],
+        "approval_note": "All proposed tags approved by the user; individual table evidence still requires confidence."
+      },
+      {
+        "id": "demobilisation",
+        "label": "demobilisation",
+        "definition": "The disbandment, reduction or release of armed forces and the organisation or financing of that process.",
+        "includes": [
+          "Troop-disbandment allocations and implementation.",
+          "Release and transition measures explicitly tied to military demobilisation.",
+          "Troop disbandment plans and costs.",
+          "Demobilisation numbers, discharge arrangements and unit reductions."
+        ],
+        "excludes": [
+          "Recruitment or mobilisation.",
+          "Veterans' continuing benefits or employment when the demobilisation process itself is not the subject.",
+          "Routine peacetime force organisation.",
+          "Recruitment or conscription into service.",
+          "Routine peacetime unit organisation without a release or disbandment subject.",
+          "Welfare of former servicemen after discharge without a substantive demobilisation process."
+        ],
+        "related_topics": [
+          "military",
+          "finance"
+        ],
+        "aliases": [],
+        "evidence_keys": [
+          "china-1914:p0422_2",
+          "china-1919:p0423_1",
+          "china-1916:p0396_1"
+        ],
+        "approval_note": "All proposed tags approved by the user; individual table evidence still requires confidence."
+      },
+      {
+        "id": "asbestos",
+        "label": "asbestos",
+        "definition": "Asbestos as a mineral fibre or industrial material and its extraction, manufacture and commerce.",
+        "includes": [
+          "Asbestos mining and raw fibre; manufactured asbestos articles and output; asbestos-product trade."
+        ],
+        "excludes": [
+          "Unspecified non-metallic mineral output without explicit asbestos.",
+          "General building material manufacture that does not identify asbestos.",
+          "Health effects inferred solely from asbestos production, without health observations."
+        ],
+        "related_topics": [
+          "mining",
+          "manufacturing",
+          "trade"
+        ],
+        "aliases": [],
+        "evidence_keys": [
+          "china-1924-5:p0165_2",
+          "china-1925-6:p0189_2",
+          "china-1926-7:p0156_2"
+        ],
+        "approval_note": "All proposed tags approved by the user; individual table evidence still requires confidence."
+      },
+      {
+        "id": "mercury",
+        "label": "mercury",
+        "definition": "Mercury (quicksilver), its ores and metal, as a mineral resource, extracted product or traded commodity.",
+        "includes": [
+          "Mercury ore and concentrate production.",
+          "Quicksilver deposits, output and commodity imports or exports."
+        ],
+        "excludes": [
+          "Mercury merely mentioned as an incidental ingredient in a pharmaceutical or chemical inventory.",
+          "Mixed mineral production without a substantive mercury component."
+        ],
+        "related_topics": [
+          "mining",
+          "manufacturing",
+          "trade"
+        ],
+        "aliases": [],
+        "evidence_keys": [
+          "china-1923:p0167_1"
+        ],
+        "approval_note": "All proposed tags approved by the user; individual table evidence still requires confidence."
+      },
+      {
+        "id": "school-curricula",
+        "label": "school curricula",
+        "definition": "Prescribed subjects, courses, lesson hours and credits that organise formal school instruction.",
+        "includes": [
+          "Weekly timetables, course-hour allocations, curriculum requirements and academic credits.",
+          "Comparisons of prescribed instruction by grade or school type."
+        ],
+        "excludes": [
+          "Enrolment or school counts without instructional content.",
+          "Subjects of public lectures without a formal school curriculum."
+        ],
+        "related_topics": [
+          "education"
+        ],
+        "aliases": [],
+        "evidence_keys": [
+          "china-peking-1921:p0454_2"
+        ],
+        "approval_note": "All proposed tags approved by the user; individual table evidence still requires confidence."
+      },
+      {
+        "id": "domestic-service",
+        "label": "domestic service",
+        "definition": "Paid or otherwise dependent household service performed by servants and the households employing them.",
+        "includes": [
+          "Domestic servants, household employers, servant wages and conditions.",
+          "Counts and proportions of households keeping servants."
+        ],
+        "excludes": [
+          "Household manufacture: use cottage-industries.",
+          "Public service employment or workers serving customers outside private households.",
+          "Family composition or budgets without a domestic-service subject."
+        ],
+        "related_topics": [
+          "labour",
+          "welfare"
+        ],
+        "aliases": [],
+        "evidence_keys": [
+          "china-peking-1921:p0542_3"
+        ],
+        "approval_note": "All proposed tags approved by the user; individual table evidence still requires confidence."
+      },
+      {
+        "id": "native-place-associations",
+        "label": "native-place associations",
+        "definition": "Associations and collective institutions organised around a shared town, district or provincial place of origin.",
+        "includes": [
+          "Native-place guilds, provincial associations and huiguan halls.",
+          "Their membership, facilities, accommodation, mutual support and finances."
+        ],
+        "excludes": [
+          "Merchant or industrial associations organised primarily by business or occupation: use business-associations.",
+          "An overseas population count without a native-place association as subject.",
+          "Ordinary hotel or dwelling inventories without a native-place institution."
+        ],
+        "related_topics": [
+          "culture",
+          "welfare",
+          "population"
+        ],
+        "aliases": [],
+        "evidence_keys": [
+          "china-peking-1921:p0251_1"
+        ],
+        "approval_note": "All proposed tags approved by the user; individual table evidence still requires confidence."
+      },
+      {
+        "id": "fish-and-fish-products",
+        "label": "fish and fish products",
+        "definition": "Fish and primary or processed fish commodities in commerce, supply and processing when capture or cultivation is not the principal stated activity.",
+        "includes": [
+          "Trade, market supply and commodity values of fish and fishery products.",
+          "Fresh, dried, salted and otherwise processed fish products, when the source identifies them."
+        ],
+        "excludes": [
+          "Catch, fishing fleets and capture operations: use fishing.",
+          "Aquaculture operations alone: use aquaculture.",
+          "Whaling and seaweed when their dedicated tags suffice."
+        ],
+        "related_topics": [
+          "fisheries",
+          "trade",
+          "manufacturing"
+        ],
+        "aliases": [],
+        "evidence_keys": [
+          "china-1912:p0529_1"
+        ],
+        "approval_note": "All proposed tags approved by the user; individual table evidence still requires confidence."
+      },
+      {
+        "id": "militias-and-volunteer-forces",
+        "label": "militias and volunteer forces",
+        "definition": "Organised volunteer, municipal-defence or militia land forces and their units, strength and service.",
+        "includes": [
+          "Volunteer corps and municipal defence forces.",
+          "Militia membership, unit organisation, reserves and equipment."
+        ],
+        "excludes": [
+          "Every irregular armed group without evidence of militia or volunteer status.",
+          "Civilian police, ordinary standing-army personnel and sporting volunteer clubs.",
+          "Automatic inference of foreign-garrison rights from a member's nationality."
+        ],
+        "related_topics": [
+          "military"
+        ],
+        "aliases": [],
+        "evidence_keys": [
+          "china-1926-7:p1155_1",
+          "china-1928:p1359_1",
+          "china-1929-30:p1129_1"
+        ],
+        "approval_note": "All proposed tags approved by the user; individual table evidence still requires confidence."
+      },
+      {
+        "id": "diplomatic-claims",
+        "label": "diplomatic claims",
+        "definition": "Compensation, restitution or other claims advanced through relations between states, including claims for losses arising from incidents and their negotiation or settlement.",
+        "includes": [
+          "Foreign nationals' incident-loss claims presented through governments; diplomatic compensation demands; interstate property restitution claims and negotiated settlements."
+        ],
+        "excludes": [
+          "Ordinary government loans or debt service.",
+          "Private insurance claims or purely domestic civil litigation.",
+          "An imposed treaty/war indemnity already adequately covered by indemnities."
+        ],
+        "related_topics": [
+          "foreign-relations",
+          "finance",
+          "informal-imperialism"
+        ],
+        "aliases": [],
+        "evidence_keys": [
+          "china-1924-5:p0881_1"
+        ],
+        "approval_note": "All proposed tags approved by the user; individual table evidence still requires confidence."
+      },
+      {
+        "id": "colonies-and-leased-territories",
+        "label": "colonies and leased territories",
+        "definition": "Colonial possessions and formally leased territories as political holdings, including inventories of their status and administering powers.",
+        "includes": [
+          "Lists of foreign possessions grouped by holding power.",
+          "Comparisons of colonies and leased territories as geopolitical units."
+        ],
+        "excludes": [
+          "Ordinary production or population statistics merely published in a colony.",
+          "Urban concession systems in a nominally sovereign state, which use foreign-concessions.",
+          "Annexation or protectorate establishment and termination, when annexation-and-protectorates is the precise subject."
+        ],
+        "related_topics": [
+          "colonial-rule",
+          "geography",
+          "government"
+        ],
+        "aliases": [],
+        "evidence_keys": [
+          "china-1922:p1013_2"
+        ],
+        "approval_note": "All proposed tags approved by the user; individual table evidence still requires confidence."
+      },
+      {
+        "id": "foreign-trade",
+        "label": "foreign trade",
+        "definition": "Merchandise exchange across a territory's external trade boundary when treated in aggregate or without a supported single direction.",
+        "includes": [
+          "Combined total imports-and-exports values by port, partner or period.",
+          "Explicit foreign-country merchandise trade for which the source does not establish import/export direction."
+        ],
+        "excludes": [
+          "Domestic exchange and purely internal customs movements without external-trade evidence.",
+          "Cross-border service, income and capital accounts: use the relevant balance-of-payments or services tags.",
+          "A direction-specific series adequately described by imports or exports."
+        ],
+        "related_topics": [
+          "trade"
+        ],
+        "aliases": [],
+        "evidence_keys": [
+          "china-handbook-1926:p0506_1",
+          "china-1914:p0197_1",
+          "china-1914:p0199_1",
+          "china-1914:p0201_1",
+          "china-1919:p0209_1",
+          "china-1919:p0211_1"
+        ],
+        "approval_note": "All proposed tags approved by the user; individual table evidence still requires confidence."
+      },
+      {
+        "id": "foreign-trade-relations",
+        "label": "foreign trade relations",
+        "definition": "The establishment and institutional development of commercial relations between territories or states, considered separately from the quantity or value of trade flows.",
+        "includes": [
+          "First direct trading contacts; establishment or opening of commercial relationships; development of trading partnerships and access arrangements."
+        ],
+        "excludes": [
+          "Routine import/export quantities or values with no substantive relationship/history subject.",
+          "Diplomatic missions or treaties without a commercial relationship subject.",
+          "Treaty-created port privileges already adequately covered by treaty-ports."
+        ],
+        "related_topics": [
+          "trade",
+          "foreign-relations",
+          "history"
+        ],
+        "aliases": [],
+        "evidence_keys": [
+          "china-1923:p0288_1",
+          "china-1924-5:p0704_1",
+          "china-1914:p0128_1",
+          "china-1913:p0108_1",
+          "china-1916:p0127_1",
+          "china-1922:p0227_1"
+        ],
+        "approval_note": "All proposed tags approved by the user; individual table evidence still requires confidence."
+      },
+      {
+        "id": "riots-and-civil-unrest",
+        "label": "riots and civil unrest",
+        "definition": "Episodes of collective civil disorder, riots or violent unrest, with documented participants, casualties, damage or official responses.",
+        "includes": [
+          "Riot events and damage or casualties explicitly attributed to them.",
+          "Collective disturbances without an established interstate-war or independence-movement purpose."
+        ],
+        "excludes": [
+          "Ordinary individual offences.",
+          "Military conflict casualties without civil-unrest context.",
+          "Peaceful political-party organisation or all ethnic population tables."
+        ],
+        "related_topics": [
+          "crime-and-justice",
+          "government"
+        ],
+        "aliases": [],
+        "evidence_keys": [
+          "china-1931-2:p0626_1"
+        ],
+        "approval_note": "All proposed tags approved by the user; individual table evidence still requires confidence."
+      }
+    ]
+  }
+}
