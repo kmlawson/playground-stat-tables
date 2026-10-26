@@ -195,6 +195,11 @@ def patch_book_pages(pages):
         if replacement not in doc:
             assert target in doc, b["slug"]
             doc = doc.replace(target, replacement, 1)
+        list_target = '</small></a>`;n++'
+        list_replacement = '</small></a>${TableTags.render(TABLE_TAG_DATA[t.id],"../../",{pending:false})}`;n++'
+        if list_replacement not in doc:
+            assert list_target in doc, b["slug"]
+            doc = doc.replace(list_target, list_replacement, 1)
         path.write_text(doc)
 
 
