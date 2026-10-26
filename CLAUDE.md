@@ -1,16 +1,19 @@
 # CLAUDE.md — East Asian statistical tables site
 
-Static site of statistical tables (and directories) transcribed from yearbooks and handbooks on Japan, Korea,
-Taiwan, Manchuria and China — in English, Japanese or both. The transcriptions (JSON) live **outside** this repo
-in each book's `_work/` folder next to it; `build/build_site.py` regenerates everything here from them.
-This file is the authoritative process overview (updated 2026-10-07). `build/example/` holds the templates
-(`BRIEF.md`, `MISSION.md`) and git/merge details (`guidance.md`).
+Static site of statistical tables, directories and chronologies transcribed from yearbooks and handbooks on Japan,
+Korea, Taiwan, Manchuria, China and the South Seas Mandate — in English, Japanese or both. The transcriptions (JSON)
+live **outside** this repo in each book's `_work/` folder next to it; `build/build_site.py` regenerates everything
+here from them. This file is the authoritative process overview (updated 2026-10-26). `build/example/` holds the
+templates (`BRIEF.md`, `MISSION.md`) and git/merge details (`guidance.md`); `../_pipeline/kits/` holds the latest
+working toolkits (below); `docs/` holds dated session snapshots (history, lessons, open items). The book log is
+`../queue.md`.
 
 ## Hard rules (every book, every sub-agent prompt)
 
-- **No OCR, ever.** Every figure is read by the model from image crops with its own eyes. No tesseract, Apple
-  Vision, `llm`/Gemini, PDF text layers, OCR files, or pixel/darkness/stroke-counting scripts. Cropping,
-  zooming and contrast for the agent's own eyes are fine. Say this in every sub-agent prompt.
+- **No OCR, ever.** Every figure is read by a Claude model from the page image. No tesseract, Apple Vision,
+  Gemini (`llm`/`llmimage` with non-Claude models), PDF text layers, OCR files, or pixel/darkness/stroke-counting
+  scripts. Cropping, zooming and contrast for the model's own eyes are fine; so is sending page images to Claude
+  models through the `llm` CLI (the `llm` pipeline below). Say this in every sub-agent prompt.
 - **Never guess.** Transcribe as printed, misprints included; re-add every printed total and note whether it
   reconciles. A wrong digit is worse than a blank.
 - **Two kinds of empty cell.** Empty *in the original* = `""`; could not read = `"[?]"` (whole cell) plus a
@@ -25,13 +28,31 @@ This file is the authoritative process overview (updated 2026-10-07). `build/exa
   - In both cases every other cell in that sum must be read with confidence; never chain; only printed sums,
     sub-totals, balances or %-to-100 count (not averages, ratios, prose or other tables); and every such cell is
     listed in the table's `transcriber_notes` with candidates and total. Otherwise the cell is `"[?]"`.
-- **Opus for reading.** Model tests: on a dense vertical-numeral table (統監府統計年報 第一〇六表) Opus 5.5 scored
-  91–100% per reading, Sonnet 5.5 98.3% (slower, more tokens), Haiku 4.5 0% (gave up). On 朝鮮年鑑 1925 Opus also
-  clearly beat Sonnet. Use Opus agents, at most 10 at a time (the user's limit).
+- **Models (user, 2026-10-07/08/13).** Sonnet by default — missions, contact-sheet surveys, directories,
+  chronologies, second transcriptions and third readers. Haiku for easy missions: at most one dense page and no
+  sideways pages or spreads (Japan-Manchoukuo 1939 trial: 99.4% figure agreement with Sonnet; tell Haiku to keep
+  figures exactly as printed, commas and dots included). Opus only for the hard ones: 3+ dense pages, sideways
+  pages, spreads, dense Japanese 目次. Pass the model on every Agent call and set `"model"` in the BOOKS entry to
+  the model that did the reading. At most 10 agents at a time (the user's limit). History: in September Opus did
+  all the reading and clearly beat Sonnet on dense kanji tables (統監府統計年報, 朝鮮年鑑 1925); later Opus
+  spot-checks of Sonnet on the NDL statistical yearbooks agreed 99.7–100%, so there are no more Opus tests.
 - **Privacy.** Nothing identifying the user in commits, request headers (User-Agent/From), file metadata or
   pages. Descriptive, non-identifying User-Agent for downloads.
 
-## Workflow for a book
+## Two production methods
+
+- **Agent missions** (Claude Code sub-agents; the workflow below). For Japanese-language books, dense or
+  hard-to-read books, and books whose tables need care (statistical yearbooks, the Japan-Manchoukuo Year Books).
+  Toolkits: `../_pipeline/kits/ndl-tokei/` (NDL statistical yearbooks, from 臺灣統計書 1942) and
+  `../_pipeline/kits/english-yearbook/` (English yearbooks, from Japan-Manchoukuo 1939).
+- **The `llm` pipeline** (`../_pipeline/`, section below). For long English yearbooks with mostly simple tables
+  (China Year Books, Japan Year Books, Manchuria Year Books, Korea annual reports 1930–39): a Sonnet survey and
+  one Haiku read per page through the `llm` CLI, no checking by eye. Much cheaper; the BOOKS `gaps` text says so.
+
+Before committing to a book, check the scan resolution and the `[?]`/blank rate of a small pilot: 朝鮮年鑑 1941 was
+abandoned after 12 of 50 missions with about 68% of cells blank (5068 px per spread).
+
+## Workflow for a book (agent missions)
 
 1. **Get the scan.** `ia download` (Internet Archive) or the user's PDF (often NDL, on the Oma drive). Book folder
    `<Name_Year>/` next to this repo; work in `<Name_Year>/_work/`. Extract page images to `full/pNNNN.jpg`
@@ -39,7 +60,7 @@ This file is the authoritative process overview (updated 2026-10-07). `build/exa
    `pNNNN` = PDF page / scan leaf, 1-based (keep a `build/leafmaps/<slug>.json` if the online viewer counts
    differently). Make 1600–1800 px copies in `plan/`.
 2. **Contact sheets.** 8 images per sheet, 4×2, each labelled with its file name (`magick montage … -label pNNNN`)
-   in `sheets/`. Survey agents (Opus, ~8–16 sheets each, `plan/SHEET_SURVEY.md`) list only the images with tables,
+   in `sheets/`. Survey agents (Sonnet, ~8–16 sheets each, `plan/SHEET_SURVEY.md`) list only the images with tables,
    lists, charts with figures or directories, one line each: `pNNNN | pp. | START/CONT | kind | titles | ENDS/RUNS-ON`,
    plus skipped runs (contents, index, ads, prose) and missing/duplicated pages. Only those pages are read later.
    **Transcribe the printed contents (step 9) before the survey**, and give each survey agent the contents entries
@@ -52,15 +73,20 @@ This file is the authoritative process overview (updated 2026-10-07). `build/exa
    tables, 4–6 single pages for English tables), never splitting before a `CONT` page; a mission whose last table
    runs on is told to read into the next image, the next mission is told to skip that continuation. Directory or
    Who's Who pages get separate DIRECTORY missions (`directory/<leaf>.json`); columnar lists are tables.
-   Run on a rolling basis, ≤10 Opus agents; each mission: report in `reports/<MID>.md`, crops and helper scripts
+   **Chronologies** (dated-event lists) are transcribed in every book except the Japan Year Books
+   (`chronology/<leaf>.json`: events with full dates, year/month carried over, ditto marks resolved); a chronology
+   printed as a table inside a chapter belongs with the tables (user, 2026-10-12).
+   Run on a rolling basis, ≤10 agents, model per mission as in "Models" above; each mission: report in `reports/<MID>.md`, crops and helper scripts
    only in `crops/<MID>/`, never anything in `/tmp`. Mission ids/status in `missions.json`; `./next.sh <done-MID>`
    marks one done and prepares the next prompt. Reply to the user per mission only "N done, M left".
 5. **Follow-ups (FIXES.md).** Log from mission reports: tables nobody owns, duplicates, orphan fragments whose
    first page is missing, and every cell an agent *changed after a total check flagged it*. No 10% random check
    pass (the user judged its yield too low).
-6. **Blind verification.** (a) Cells changed after a total check, and total mismatches that look like one-digit
-   misreads, are re-read by an agent that sees only table/row/column (`BLIND_TASK.md`, `blind/`), never the
-   values; agreeing readings stand. (b) The hardest tables (tiny/compressed type, many `[?]` or large mismatches)
+6. **Blind verification — kept small (cut back for cost).** The default is (a) only; (b) and (c) only when a book
+   clearly needs them, and no elaborate check rounds after a book is finished (user, 統計年報 1939: "No elaborate
+   check rounds after you finish"), no Opus spot-checks. (a) Cells changed after a total check, and total
+   mismatches that look like one-digit misreads, are re-read by an agent that sees only table/row/column
+   (`BLIND_TASK.md`, `blind/`), never the values; agreeing readings stand. (b) The hardest tables (tiny/compressed type, many `[?]` or large mismatches)
    get a full independent second transcription; every disagreeing cell goes to a third reader shown both
    candidates: agreement with one → use it; three different readings or unsure → `"[?]"`. Keep the first
    version (`blind/*.first.json`) and note every change in the table. (c) Books with many `[?]` (faint print):
@@ -68,7 +94,7 @@ This file is the authoritative process overview (updated 2026-10-07). `build/exa
 7. **Normalise** chapter names (one per printed chapter, numbered as printed), titles, duplicate files.
 8. **English layer for non-English books** (Korea/Japanese books): `build/translations/<slug>.json` with
    `"_chapters"` (English chapter names) and per table `{"t": English title, "d": one-sentence description}`,
-   written by Opus agents from the JSON only (`TRANSLATE_TASK.md`, McCune–Reischauer / Hepburn).
+   written by Sonnet agents from the JSON only (`TRANSLATE_TASK.md`, McCune–Reischauer / Hepburn).
 9. **Printed contents** (before deleting the page images; user, 2026-10-13): an agent reads the book's contents pages
    by eye into `_work/toc.json` (`{"entries": [{"level", "title", "page", "src"}]}`, every chapter and every listed
    section) — done **first, before the survey** (step 2). Entries printed without a page number get a `found_leaf`
@@ -78,6 +104,8 @@ This file is the authoritative process overview (updated 2026-10-07). `build/exa
    titles against the transcribed table titles; (d) only what is still unplaced goes to ONE small agent working
    from 4-page sheets (2×2, `sheets4/`), limited to the leaves between the neighbouring placed entries. Anything
    not found links to its chapter — that is acceptable; do not spend a pass to place every subsection.
+   Sonnet on contents pages guesses smudged page numbers and calls its own misreads "misprints": send every item
+   it marks uncertain or out of sequence back for a tight-crop re-read (tools: `../_toc/`, `TOC_BRIEF.md`).
    `python3 ../_pipeline/toc_leaves.py <book>/_work` maps printed pages to scan leaves via `plan/survey.json`. build_site shows it as a collapsible "Contents of the printed book" on the book's contents
    page, each entry linked to its scan page, and keeps a copy in `data/<slug>-toc.json` for when `_work` is gone.
    Every book with a printed contents also gets an **"Include table links [T]"** checkbox there, on by default (user, 2026-10-22): ticked, each
@@ -92,7 +120,43 @@ This file is the authoritative process overview (updated 2026-10-07). `build/exa
    build_site), elsewhere only tagged tables; `topics/<region>-<topic>.html` lists the tagged ones with a coverage grid.
    A table printing several measures gets one chart per measure (tabs); earlier-year rows under a list form their own chart. Charts draw only printed figures: [?], blanks, dashes and ditto marks are gaps, never
    filled; labels and year order as printed; printed totals are marked on stacked bars and parts that do not add up show ≠.
-11. **Publish** (below). Note queued books in `../queue.md`; record per-book state in `_work/STATUS.md`.
+11. **Publish** (below). Note queued books in `../queue.md`; record per-book state in `_work/STATUS.md` (every
+   book, including `llm`-pipeline books: method, models, counts, what is missing, publish commit).
+12. **Clean up after publishing.** Copy downloaded originals (not plan copies, crops or sheets) to
+   `/Volumes/Oma/Book Scans/<series>/<year>/` and verify counts/sizes, then delete the book's `full/`, `plan/`
+   images, `sheets/` and crops; never delete `tables/`, `directory/`, `chronology/` or `toc.json`. Delete the
+   finished sub-agent transcripts (~100 MB per mission, crops embedded) by literal path, never by a broad glob
+   (`crops/M_p1-021*` once also matched `M_p1-0215`). Check `df -h` before any job that writes gigabytes.
+
+## The `llm` pipeline (`../_pipeline/`)
+
+Claude models called through the `llm` CLI, not sub-agents. `run.py jobs.json N` runs a list of
+`{"imgs", "prompt_file", "model", "out"}` jobs in parallel (default `claude-haiku-5.5`; skips existing outputs,
+retries rate limits).
+- `pipeline.sh <Folder|year>` (`PFX=cyb|jyb|gen` picks the prompt set): contact sheets (`sheets.py`) → Sonnet
+  survey per sheet (`*_survey.txt`, finds rotated pages and spreads) → `cyb_jobs.py` builds per-page Haiku jobs
+  (`*_table.txt`, `*_dir.txt`) → `run.py` → re-run empty outputs → `cyb_assemble.py` writes `tables/` and
+  `directory/` (joins continued tables where column headings match).
+- `myb_pipeline.sh <Folder> <pdf>` does the same from a PDF (extracts images first) with the Manchuria Year Book
+  prompts, including chronologies (`myb_chron.txt` → `chronology/`). The chronology rule above applies here too:
+  survey pages of kind "chronology" must go to the chronology prompt, not be dropped.
+- `jyb_one.sh <edition>` renders a Japan Year Book PDF from Oma and runs the pipeline; `jyb_pub.sh`,
+  `jyb_publish.py`, `cyb_publish.py` add the BOOKS entry (with the standard "read once by Haiku, not checked by eye"
+  `gaps` text) and publish. `chapfix.py` normalises chapters; `toc_get.py`/`toc_leaves.py`/`tocmap.py` do the contents.
+- **Known bug:** `pipeline.sh` and `myb_pipeline.sh` call `$H/../sheets.py`, but `sheets.py` now lives in
+  `_pipeline/` — fix to `$H/sheets.py` before the next run.
+
+## Toolkits (`../_pipeline/kits/`, copied 2026-10-26)
+
+The paths inside still name the book they came from — edit them first.
+- `ndl-tokei/`: NDL statistical yearbooks (from 臺灣統計書 1942): BRIEF, MISSION, `crop.sh`, `validate.py`,
+  `dl.sh`, and `plan/` (`make_plan`, `prompt`, `swap`, `status`, `join_frags`, `glue_columns` for column-wise joins,
+  `compare`, `normalise`, `skeleton`).
+- `english-yearbook/`: agent missions for English yearbooks (from Japan-Manchoukuo 1939): BRIEF, MISSION, FIX,
+  TOC_LOCATE, `crop.sh`, `validate.py`, and `plan/` (`make_plan`, `prompt`, `swap`, `status`, `chapters`,
+  `toc_fix`, `toc_merge`, `cmp_trial` for Haiku-vs-Sonnet trials, `mkimg.sh`).
+- `chart-debug/`: Node helpers that load `charts.js` (`ct.js` per-table statistics, `vw.js slug:id` views from the
+  site root, `dossier.js` review batches, `topic_tags_txt2json.py` → `build/topics/*_tags_N.json`).
 
 ## Site and BOOKS entry
 
@@ -120,11 +184,16 @@ This file is the authoritative process overview (updated 2026-10-07). `build/exa
   `search.html` and any book pages a shared-code change touched; revert other rebuilt files (often
   `book/japan-1935/directory.html`, `book/korea-nenkan-1926/directory.html`, other books' downloads).
 - Check `git merge-base --is-ancestor origin/main HEAD`, then push explicitly:
-  `git push origin refs/heads/<branch>:refs/heads/main`; watch the Pages deploy (`gh run watch`).
+  `git push origin refs/heads/<branch>:refs/heads/main`; watch the Pages deploy (`gh run watch`). Never a bare
+  `git push`: with `push.default=upstream` a tracking branch once went straight to `main`.
+- This checkout is a git worktree whose git directory is on `/Volumes/Oma` (`.git` file): git fails if Oma is not
+  mounted.
+- `cp` and `mv` are aliased to interactive mode (a background `mv` hung on an overwrite prompt): use `\cp -f`, `\mv -f`.
 - Commit trailer as given by the session; never the user's identity.
 - Full Search runs on Pagefind indexes (`pagefind/` = everything, `pagefind-titles/` = titles and names only),
   written from the committed `data/*.json` by `uv run --with "pagefind[extended]" build/build_search.py`. Rebuild them
-  after build_site whenever tables, directories or chronologies change. The folders are **not in git** (`.gitignore`):
+  once after a series or batch of books is published (not per volume — user, 2026-10-13), then pack them as
+  `../search-index-upload.tar.gz` for the user to upload. The folders are **not in git** (`.gitignore`):
   the user uploads them to the server that hosts the site (user, 2026-10-12), so the GitHub Pages copy has no
   search index. `robots.txt` and `llms.txt` ask crawlers to skip them and point to the GitHub data instead. Chinese/Japanese
   characters are indexed spaced, with folded (fold.js) copies of lines that contain variant forms.
