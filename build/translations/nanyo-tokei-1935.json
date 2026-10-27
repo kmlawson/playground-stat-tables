@@ -1,0 +1,903 @@
+{
+ "_chapters": {
+  "1 土地": "1 Land",
+  "2 戸口": "2 Households and Population",
+  "3 行政": "3 Administration",
+  "4 警察": "4 Police",
+  "5 衛生": "5 Public Health",
+  "6 司法行刑": "6 Justice and Prisons",
+  "7 教育": "7 Education",
+  "8 宗教": "8 Religion",
+  "9 産業": "9 Industry",
+  "10 交通及通信": "10 Communications and Transport",
+  "11 金融": "11 Money and Banking",
+  "12 貿易": "12 Trade",
+  "13 財政": "13 Public Finance",
+  "14 社會事業": "14 Social Work",
+  "附錄": "Appendix"
+ },
+ "p0025_1": {
+  "t": "Position",
+  "d": "Gives the longitude and latitude ranges of the South Seas Islands as a whole and of the Mariana, Caroline and Marshall groups."
+ },
+ "p0025_2": {
+  "t": "Positions of the Extreme Islands",
+  "d": "Gives the place names and the longitude and latitude of the easternmost, westernmost, southernmost and northernmost points of the South Seas Islands."
+ },
+ "p0025_3": {
+  "t": "Number and Area of Islands",
+  "d": "Gives the number of islands, their area in square kilometres and the principal islands, for the South Seas Islands as a whole, for the Mariana, Caroline and Marshall groups and for each branch office."
+ },
+ "p0025_4": {
+  "t": "Area of the Principal Islands",
+  "d": "Gives the area in square kilometres of each principal island, such as Saipan, Tinian, Rota, Yap, Babelthuap (Palau main island) and Koror."
+ },
+ "p0026_1": {
+  "t": "Government Land Leased",
+  "d": "Gives the number of leases and the area of government land leased, with the paid leases and their rents shown separately, by use (agricultural land, building sites, coconut groves and others), at each fiscal year end from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0027_1": {
+  "t": "Resident Households",
+  "d": "Gives the number of resident households as of 1 October, split between Japanese (from Japan proper and Koreans), islanders (Chamorro and Kanaka) and foreigners, by year from 1931 to 1935, in total and for each branch office."
+ },
+ "p0027_2": {
+  "t": "Resident Population",
+  "d": "Gives the resident population as of 1 October by sex, split between Japanese (from Japan proper, Koreans and Taiwanese), islanders (Chamorro and Kanaka) and foreigners, by year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0028_1": {
+  "t": "Population by Principal Island",
+  "d": "Gives the resident population by sex, split between Japanese, islanders (Chamorro and Kanaka) and foreigners, by year from 1931 to 1935 for each principal island, from Saipan, Tinian and Rota to Ponape, Kusaie and Jaluit."
+ },
+ "p0030_1": {
+  "t": "Japanese Population by Prefecture of Registered Domicile",
+  "d": "Gives the Japanese population by sex according to the prefecture (or Korea, Taiwan and other territory) of their registered domicile, by year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0031_1": {
+  "t": "Foreign Population by Nationality",
+  "d": "Gives the foreign population by sex and nationality (Chinese, Spanish and others), by year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0031_2": {
+  "t": "Resident Population by Age",
+  "d": "Gives the resident population as of 1 October by age group and sex, separately for Japanese, foreigners and islanders, by year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0032_1": {
+  "t": "Resident Population by Occupation",
+  "d": "Gives the resident population by occupation (agriculture, livestock and others) and by sex, separately for Japanese, foreigners and islanders, by year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0034_1": {
+  "t": "Births, Stillbirths and Deaths",
+  "d": "Gives the number of births, stillbirths and deaths by sex, split between Japanese, islanders (Chamorro and Kanaka) and foreigners, by year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0034_2": {
+  "t": "Marriages and Divorces of Islanders",
+  "d": "Gives the number of marriages and divorces among islanders, by age group of husband and of wife, by year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0034_3": {
+  "t": "Migration",
+  "d": "Gives the number of persons moving in and moving out by sex, split between Japanese, islanders and foreigners, by year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0034_4": {
+  "t": "Authorised Staff",
+  "d": "Gives the authorised number of officials by rank (chokunin, sōnin, hannin, hannin-equivalent and employees), by year from 1931 to 1935, for the South Seas Government as a whole and for its head office, branch offices, schools, courts, industrial experiment station, mining office, hospitals, post offices and observatory."
+ },
+ "p0035_1": {
+  "t": "Documents Received and Sent",
+  "d": "Gives the number of documents received and sent by the Governor's secretariat and by each section of the South Seas Government (including confidential matters), by year from 1931 to 1935."
+ },
+ "p0035_2": {
+  "t": "Islander Village Officials",
+  "d": "Gives the number of islander village officials, Chamorro ward heads and assistants and Kanaka chief village heads, village heads and assistants, as of the end of June, by year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0035_3": {
+  "t": "Japanese Settlements",
+  "d": "Gives, for each Japanese settlement (buraku) at the end of 1935, such as Garapan, Chalan Kanoa, Tinian, Koror and Colonia towns, its location, the number of representatives, deputy representatives and council members, and its resident Japanese population by sex, with the 1934 population for comparison."
+ },
+ "p0035_4": {
+  "t": "Police Officials in Service",
+  "d": "Gives the number of police officials in service by rank (superintendent, inspector, assistant inspector, constable and islander policeman) at year end, by year from 1931 to 1935, with the 1935 figures by office."
+ },
+ "p0036_1": {
+  "t": "Police Documents and Oral Applications and Notifications",
+  "d": "Gives the number of police documents and oral applications and notifications carried over, received, handled and pending, by year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0036_2": {
+  "t": "Crimes Known and Cleared",
+  "d": "Gives the number of crimes known and of crimes cleared, under the Criminal Code by offence and under special laws, by year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0037_1": {
+  "t": "Persons Arrested for Crimes",
+  "d": "Gives the number of persons arrested, Japanese and islanders, under the Criminal Code by offence and under special laws, by year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0037_2": {
+  "t": "Losses from Theft, Fraud and Embezzlement",
+  "d": "Gives the number of cases and the value of losses from theft, fraud and embezzlement, by kind of property (cash, securities, watches, precious metals and others), by year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0038_1": {
+  "t": "Recovery of Property Lost through Theft, Fraud and Embezzlement",
+  "d": "Gives the number of cases and the value of property recovered after theft, fraud and embezzlement, by kind of property (cash, securities, watches, precious metals and others), by year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0038_2": {
+  "t": "Disasters",
+  "d": "Gives the number of storms and floods and the value of damage to buildings, forests and fields, vessels and other property, with persons killed or injured, by year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0038_3": {
+  "t": "Fires by Cause",
+  "d": "Gives the number of fires and the value of damage by cause (accidental fires from lamps, tobacco or matches, electricity and others, arson and unknown), by year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0038_4": {
+  "t": "Fires",
+  "d": "Gives the total damage from fires and the number of fires, floor area burnt and value of damage for dwellings, other buildings and other property, by year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0039_1": {
+  "t": "Unnatural Deaths and Injuries",
+  "d": "Gives the number of persons dead and of persons injured without death by sex, split between Japanese and islanders, by kind (suicide, homicide, accident and others), by year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0039_2": {
+  "t": "Suicides by Motive",
+  "d": "Gives the number of completed and attempted suicides, Japanese and islanders, by motive (insanity, illness, poverty or misfortune and others), by year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0040_1": {
+  "t": "Suicides by Means",
+  "d": "Gives the number of completed and attempted suicides, Japanese and islanders, by means (hanging, drowning, cutting and others), by year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0040_2": {
+  "t": "Suicides by Age",
+  "d": "Gives the number of suicides by age group and by sex, split between Japanese and islanders, by year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0040_3": {
+  "t": "Persons Killed or Injured by Others, by Motive",
+  "d": "Gives the number of persons killed and injured by others, Japanese and islanders, by motive (robbery, grudge, quarrel or anger and others), by year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0041_1": {
+  "t": "Accidental Deaths and Injuries by Cause",
+  "d": "Gives the number of persons accidentally killed and injured, Japanese and islanders, by cause (poisoning, animals, fish, birds and insects, earthquake and fire and others), by year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0042_1": {
+  "t": "Inquests and Inspections",
+  "d": "Gives the number of inquests on bodies by cause (suicide, disaster, abandoned infant, accidental homicide and others) and by examining official, and of on-site inspections, by year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0042_2": {
+  "t": "Police Enforcement and Warnings",
+  "d": "Gives the number of warnings, demands, admonitions and accusations issued by the police, by field of police administration (public order and others), by year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0042_3": {
+  "t": "Administrative Detentions",
+  "d": "Gives the number of persons taken into administrative police custody by sex, split between Japanese and islanders, by reason, by year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0043_1": {
+  "t": "Firearms Imported",
+  "d": "Gives the number of firearms imported from abroad and from Japan, military and non-military (rifles, short guns and pistols), by year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0043_2": {
+  "t": "Firearms in Possession",
+  "d": "Gives the number of firearms held at year end, military and non-military (rifles, short guns and pistols), by year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0043_3": {
+  "t": "Explosives Used",
+  "d": "Gives the quantity of gunpowder used for hunting and construction, high explosives, fuses and cartridges, by year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0043_4": {
+  "t": "Narcotics Imported",
+  "d": "Gives the quantities of medicinal opium, opium, morphine, diacetylmorphine, dihydrooxycodeinone, methylmorphine (codeine), cocaine, Indian hemp and other narcotics imported, by year from 1932 to 1935, with the 1935 figures by branch office."
+ },
+ "p0043_5": {
+  "t": "Lost Articles",
+  "d": "Gives the number and value of money and of articles reported lost, with clothing, watches and precious metals and other kinds shown separately, by year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0043_6": {
+  "t": "Articles Found and Buried Property",
+  "d": "Gives the number and value of money and of articles found or unearthed, with clothing and other kinds shown separately, by year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0043_7": {
+  "t": "Drifted Articles",
+  "d": "Gives the number and value of articles found adrift or washed ashore, timber, vessels and boats and others, by year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0044_1": {
+  "t": "Businesses and Other Establishments under Police Control",
+  "d": "Gives the number of factories, fireworks works, printers, prime movers, electricity undertakings, civil-engineering contractors, places of entertainment, barmaids, waitresses, rickshaws and other establishments and trades under police regulation at year end, by year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0044_2": {
+  "t": "Public Entertainments",
+  "d": "Gives the number of performances, days and admissions for theatre, motion pictures and other entertainments, by year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0044_3": {
+  "t": "Hunting Licences Issued",
+  "d": "Gives the number of hunting licences issued for sport, professional hunting and scientific research or other purposes, by year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0044_4": {
+  "t": "Women Serving Customers",
+  "d": "Gives the number of women serving customers in inns, restaurants and eating houses at year end, by year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0044_5": {
+  "t": "Lodgers",
+  "d": "Gives the number of persons lodging at inns by sex, split between Japanese, foreigners and islanders, by year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0045_1": {
+  "t": "Foreign Passports and Identity Certificates Issued: Cases by Destination",
+  "d": "Gives the number of passports and identity certificates issued for travel abroad, Japanese and islanders, by destination (Guam, Shanghai, the Philippines, Hong Kong, Java, Netherlands Indies, British Gilbert Islands, Celebes and New Guinea), by year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0045_2": {
+  "t": "Foreign Passports and Identity Certificates Issued: Cases by Purpose",
+  "d": "Gives the number of passports and identity certificates issued for travel abroad, Japanese and islanders, by purpose (official inspection, agriculture, research, entertainment, business, sightseeing, visiting relatives, fishing and others), by year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0045_3": {
+  "t": "Foreign Passports and Identity Certificates Issued: Persons by Destination",
+  "d": "Gives the number of persons issued passports and identity certificates for travel abroad, by sex, Japanese and islanders, by destination (Guam, Shanghai, the Philippines, Hong Kong, Java, Netherlands Indies, British Gilbert Islands, Celebes and New Guinea), by year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0046_1": {
+  "t": "Foreign Passports and Identity Certificates Issued: Persons by Purpose",
+  "d": "Gives the number of persons issued passports and identity certificates for travel abroad, by sex, Japanese and islanders, by purpose (official inspection, agriculture, research, entertainment, business, sightseeing, visiting relatives, fishing and others), by year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0046_2": {
+  "t": "Foreign Passports and Identity Certificates Issued: Persons by Occupation",
+  "d": "Gives the number of persons issued passports and identity certificates for travel abroad, by sex, Japanese and islanders, by occupation (commerce, company employees, craftsmen, agriculture, seamen, physicians, students, officials, servants, fishing and others), by year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0046_3": {
+  "t": "Authorised Hospital Staff",
+  "d": "Gives the authorised number of hospital staff by grade (director, medical officers, doctors, pharmacists, clerks, assistants and others) as of the end of June, by year from 1931 to 1935, with the 1935 figures for each government hospital."
+ },
+ "p0047_1": {
+  "t": "Patients Treated at Government Hospitals",
+  "d": "Gives the number of outpatients and inpatients and their total days of treatment by sex, separately for Japanese, foreigners and islanders, by year from 1931 to 1935, with the 1935 figures by hospital."
+ },
+ "p0047_2": {
+  "t": "Patients Treated at Government Hospitals, by Disease Group",
+  "d": "Gives the number of patients treated by sex and by group of diseases (infectious and endemic diseases, general and metabolic diseases and others), separately for non-islanders and islanders, for 1932 to 1935, with the 1935 figures by hospital."
+ },
+ "p0048_1": {
+  "t": "Deaths by Age",
+  "d": "Gives the number of deaths by age and by sex, separately for Japanese and islanders, by year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0048_2": {
+  "t": "Deaths by Cause",
+  "d": "Gives the number of deaths by sex and by cause (typhoid, paratyphoid and other epidemic, endemic and infectious diseases, and other groups of causes), separately for Japanese and islanders, for 1932 to 1935, with the 1935 figures by branch office."
+ },
+ "p0050_1": {
+  "t": "Infant Deaths by Age in Months",
+  "d": "Gives the number of deaths of children under one year by sex and by age in months, separately for Japanese and islanders, by year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0050_2": {
+  "t": "Infant Deaths by Cause",
+  "d": "Gives the number of deaths of children under one year by sex and by group of causes, separately for Japanese and islanders, for 1932 to 1935, with the 1935 figures by branch office."
+ },
+ "p0051_1": {
+  "t": "Infectious Diseases",
+  "d": "Gives the number of cases of and deaths from amoebic dysentery, dysentery and other notifiable diseases, split between Japanese and islanders, by year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0051_2": {
+  "t": "Quarantine",
+  "d": "Gives the number of quarantine inspections, persons inspected and infectious-disease patients or carriers found, split between Japanese, islanders and foreigners, by year from 1931 to 1935, with the 1935 figures by port."
+ },
+ "p0051_3": {
+  "t": "Health Examinations of Geisha and Barmaids",
+  "d": "Gives the number of geisha and barmaids at year end, the number of examinations due and held, and the venereal and other contagious diseases found (syphilis, gonorrhoea, soft chancre and others), by year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0052_1": {
+  "t": "Smallpox Vaccinations",
+  "d": "Gives the number of persons vaccinated in the first and second periods and in extraordinary vaccinations of Japanese and islanders, by result (successful or unsuccessful), by year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0052_2": {
+  "t": "Mentally Ill Persons by Symptom",
+  "d": "Gives the number of mentally ill persons at year end by symptom and by sex, split between Japanese and islanders, by year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0052_3": {
+  "t": "Results of Food and Drink Inspection",
+  "d": "Gives the number of inspections of liquor, fruit and vegetables, tinned and bottled goods, soft drinks and other foods, with the number found unfit and the measures taken against them, by year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0052_4": {
+  "t": "Mentally Ill Persons",
+  "d": "Gives the number of mentally ill persons under custody and not under custody at year end by sex, split between Japanese and islanders, by year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0053_1": {
+  "t": "Authorised Court Staff",
+  "d": "Gives the authorised number of judges, procurators, clerks and employees as of the end of June, by year from 1931 to 1935, with the 1935 figures by court."
+ },
+ "p0053_2": {
+  "t": "Documents Handled by the Courts",
+  "d": "Gives the number of documents carried over, received, disposed of and pending, by kind (correspondence with government offices, applications and notifications from the public and others), by year from 1931 to 1935, with the 1935 figures by court."
+ },
+ "p0053_3": {
+  "t": "Documents Handled by the Procurators' Offices",
+  "d": "Gives the number of documents carried over, received, disposed of and pending, by kind, by year from 1931 to 1935, with the 1935 figures by procurators' office."
+ },
+ "p0053_4": {
+  "t": "Summary Police Judgments: Cases by Offence",
+  "d": "Gives the number of cases summarily sentenced under the Criminal Code, under special laws by offence (liquor, infectious diseases, livestock diseases, residence and others) and under the police offences ordinance, by year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0054_1": {
+  "t": "Summary Police Judgments: Persons by Offence",
+  "d": "Gives the number of persons summarily sentenced, Japanese and islanders, under the Criminal Code, under special laws by offence and for police offences, by year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0054_2": {
+  "t": "Summary Police Judgments by Penalty",
+  "d": "Gives the number of cases and of persons summarily sentenced, by penalty and by sex, split between Japanese and islanders, for all offences, Criminal Code, special-law and police offences, by year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0055_1": {
+  "t": "Criminal Cases Handled by the District Courts",
+  "d": "Gives the number of criminal cases received (carried over and new), concluded as guilty, not guilty or otherwise, and pending, for all offences, Criminal Code, special-law and police offences, by year from 1931 to 1935, with the 1935 figures by court."
+ },
+ "p0056_1": {
+  "t": "Criminal Defendants Handled by the District Courts",
+  "d": "Gives the number of criminal defendants received (carried over and new) and those found guilty or not guilty by sex, split between Japanese and islanders, for all offences, Criminal Code, special-law and police offences, by year from 1931 to 1935, with the 1935 figures by court."
+ },
+ "p0056_2": {
+  "t": "District Court Criminal Cases Resulting in Conviction, by Offence",
+  "d": "Gives the number of criminal cases ending in conviction at the district courts, by Criminal Code offence and special-law offences, by year from 1931 to 1935, with the 1935 figures by court."
+ },
+ "p0057_1": {
+  "t": "District Court Convicted Persons, by Offence",
+  "d": "Gives the number of persons convicted at the district courts, by Criminal Code offence and special-law offences, in total and separately for Japanese, foreigners and islanders, by year from 1931 to 1935, with the 1935 figures by court."
+ },
+ "p0058_1": {
+  "t": "District Court Convicted Persons, by Penalty",
+  "d": "Gives the number of persons convicted at the district courts by penalty (penal servitude, imprisonment, fine and others) and by sex, split between Japanese and islanders, for all offences, Criminal Code, special-law and police offences, by year from 1931 to 1935, with the 1935 figures by court."
+ },
+ "p0059_1": {
+  "t": "Criminal Cases Handled by the High Court",
+  "d": "Gives the number of criminal cases received (carried over and new), concluded as guilty, not guilty or otherwise, and pending, for all offences, Criminal Code, special-law and police offences, by year from 1931 to 1935."
+ },
+ "p0059_2": {
+  "t": "Criminal Defendants Handled by the High Court",
+  "d": "Gives the number of criminal defendants received (carried over and new) and those found guilty or not guilty by sex, split between Japanese and islanders, for all offences, Criminal Code, special-law and police offences, by year from 1931 to 1935."
+ },
+ "p0059_3": {
+  "t": "High Court Criminal Cases Resulting in Conviction, by Offence",
+  "d": "Gives the number of criminal cases ending in conviction at the High Court, by Criminal Code offence and special-law offences, by year from 1931 to 1935."
+ },
+ "p0059_4": {
+  "t": "High Court Convicted Persons, by Offence",
+  "d": "Gives the number of persons convicted at the High Court, by Criminal Code offence and special-law offences, in total and separately for Japanese, foreigners and islanders, by year from 1931 to 1935."
+ },
+ "p0060_1": {
+  "t": "High Court Convicted Persons, by Penalty",
+  "d": "Gives the number of persons convicted at the High Court by penalty and by sex, split between Japanese and islanders, for all offences, Criminal Code, special-law and police offences, by year from 1931 to 1935."
+ },
+ "p0061_1": {
+  "t": "Criminal Cases Handled by the District Court Procurators' Offices",
+  "d": "Gives the number of criminal cases received (carried over and new) and disposed of by prosecution, suspended prosecution, non-prosecution and otherwise, for all offences, Criminal Code, special-law and police offences, by year from 1931 to 1935, with the 1935 figures by procurators' office."
+ },
+ "p0061_2": {
+  "t": "Criminal Suspects Handled by the District Court Procurators' Offices",
+  "d": "Gives the number of suspects received (carried over and new) and disposed of, split between Japanese and islanders, for all offences, Criminal Code, special-law and police offences, by year from 1931 to 1935, with the 1935 figures by procurators' office."
+ },
+ "p0062_1": {
+  "t": "Disposals of Criminal Suspects by the District Court Procurators' Offices",
+  "d": "Gives the number of suspects disposed of by prosecution, suspended prosecution, non-prosecution and otherwise, split between Japanese and islanders, for all offences, Criminal Code, special-law and police offences, by year from 1931 to 1935, with the 1935 figures by procurators' office."
+ },
+ "p0062_2": {
+  "t": "Prosecutions by the District Court Procurators' Offices: Cases by Offence",
+  "d": "Gives the number of criminal cases prosecuted, by Criminal Code offence and special-law offences, by year from 1931 to 1935, with the 1935 figures by procurators' office."
+ },
+ "p0063_1": {
+  "t": "Prosecutions by the District Court Procurators' Offices: Persons by Offence",
+  "d": "Gives the number of persons prosecuted, by Criminal Code offence and special-law offences, in total and separately for Japanese, foreigners and islanders, by year from 1931 to 1935, with the 1935 figures by procurators' office."
+ },
+ "p0064_1": {
+  "t": "Criminal Cases Handled by the High Court Procurators' Office",
+  "d": "Gives the number of criminal cases received (carried over and new) and disposed of by prosecution, suspended prosecution, non-prosecution and otherwise, by year from 1931 to 1935."
+ },
+ "p0064_2": {
+  "t": "Criminal Suspects Handled by the High Court Procurators' Office",
+  "d": "Gives the number of suspects received (carried over and new) and disposed of, split between Japanese and islanders, by year from 1931 to 1935."
+ },
+ "p0064_3": {
+  "t": "Disposals of Criminal Suspects by the High Court Procurators' Office",
+  "d": "Gives the number of suspects disposed of by prosecution, suspended prosecution, non-prosecution and otherwise, split between Japanese and islanders, by year from 1931 to 1935."
+ },
+ "p0064_4": {
+  "t": "Prosecutions by the High Court Procurators' Office: Cases by Offence",
+  "d": "Gives the number of criminal cases prosecuted, by Criminal Code offence and special-law offences, by year from 1931 to 1935."
+ },
+ "p0065_1": {
+  "t": "Prosecutions by the High Court Procurators' Office: Persons by Offence",
+  "d": "Gives the number of persons prosecuted, by Criminal Code offence and special-law offences, by year from 1931 to 1935."
+ },
+ "p0065_2": {
+  "t": "Conciliation Cases",
+  "d": "Gives the number of conciliation (wakai) cases received (carried over and new) and concluded as settled, unsettled, withdrawn or otherwise, by year from 1931 to 1935, with the 1935 figures by court."
+ },
+ "p0065_3": {
+  "t": "Summary Demand Procedure Cases",
+  "d": "Gives the number of demand-for-payment cases received (carried over and new) and concluded by payment order, dismissal or withdrawal, by year from 1931 to 1935, with the 1935 figures by court."
+ },
+ "p0066_1": {
+  "t": "Compulsory Execution Cases",
+  "d": "Gives the number of compulsory execution cases received (carried over and new) and concluded by distribution, compulsory auction, compulsory administration and otherwise, by year from 1931 to 1935, with the 1935 figures by court and branch office."
+ },
+ "p0066_2": {
+  "t": "Deposit Cases",
+  "d": "Gives the number and amount of deposits received (carried over and new) and paid out, by year from 1931 to 1935, with the 1935 figures by court and branch office."
+ },
+ "p0066_3": {
+  "t": "Cases Served by Court Bailiffs",
+  "d": "Gives the number of bailiff cases received (carried over and new), concluded and pending, and of new cases by kind (execution against movables, claims and other property, and others), by year from 1931 to 1935, with the 1935 figures by court and branch office."
+ },
+ "p0066_4": {
+  "t": "Notarial Cases",
+  "d": "Gives the number of notarial acts (preparation of notarial deeds, authentication of private documents, grant of execution clauses, protests, issue of certified copies and others), by year from 1931 to 1935, with the 1935 figures by court and branch office."
+ },
+ "p0067_1": {
+  "t": "Registrations",
+  "d": "Gives the number of registrations by kind (buildings, factory foundations, incorporated associations and foundations, commercial companies, trade names and others), by year from 1931 to 1935, with the 1935 figures by court and branch office."
+ },
+ "p0067_2": {
+  "t": "Registry Business other than Registrations",
+  "d": "Gives the number of copies and extracts issued, inspections, certificates of change or absence of registration, registration certificates and other registry business, by year from 1931 to 1935, with the 1935 figures by court and branch office."
+ },
+ "p0067_3": {
+  "t": "Certified Dates",
+  "d": "Gives the number of documents given a certified date, by nationality of the parties (between Japanese, between islanders, between foreigners, and mixed), by year from 1931 to 1935, with the 1935 figures by court and branch office."
+ },
+ "p0067_4": {
+  "t": "Registrations of Commercial Companies",
+  "d": "Gives the number of registrations of unlimited partnerships, limited partnerships and joint-stock companies, for head offices and branches, by year from 1931 to 1935, with the 1935 figures by court and branch office."
+ },
+ "p0067_5": {
+  "t": "Civil Judicial Assistance Cases",
+  "d": "Gives the number of civil judicial assistance cases received (carried over and new), concluded and pending, and of new cases by kind (taking of evidence, service and others), by year from 1931 to 1935, with the 1935 figures by court."
+ },
+ "p0068_1": {
+  "t": "Civil Dispute Mediation Cases",
+  "d": "Gives the number of civil mediation cases received (carried over and new) and concluded as successful, unsuccessful, withdrawn or otherwise, by year from 1931 to 1935, with the 1935 figures by court and branch office."
+ },
+ "p0068_2": {
+  "t": "Civil Provisional Attachments and Dispositions",
+  "d": "Gives the number of applications for provisional attachment and provisional disposition received (carried over and new) and concluded by order, rejection or otherwise, by year from 1931 to 1935, with the 1935 figures by court."
+ },
+ "p0068_3": {
+  "t": "Civil Suits in the District Courts",
+  "d": "Gives the number of civil suits received (carried over and new) and concluded by judgment after appearance or by default, withdrawal, compromise or otherwise, by year from 1931 to 1935, with the 1935 figures by court."
+ },
+ "p0068_4": {
+  "t": "Civil Suits in the High Court",
+  "d": "Gives the number of civil suits received (carried over and new) and concluded by judgment dismissing the appeal or quashing in whole or part, withdrawal or otherwise, by year from 1931 to 1935."
+ },
+ "p0069_1": {
+  "t": "Prison Inmates",
+  "d": "Gives the number of persons in prison at year end by sex, as convicts, persons detained in workhouses and accused awaiting trial, separately for Japanese and islanders, by year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0069_2": {
+  "t": "Prison Admissions and Discharges",
+  "d": "Gives the number of persons admitted to and discharged from prison, with discharges of convicts by reason (expiry of sentence, death, parole and others), separately for Japanese and islanders, by year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0069_3": {
+  "t": "Newly Admitted Convicts by Penalty",
+  "d": "Gives the number of newly admitted convicts by sex and by penalty (penal servitude for life or for a term by length, imprisonment and others), separately for Japanese and islanders, by year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0070_1": {
+  "t": "Newly Admitted Convicts by Age",
+  "d": "Gives the number of newly admitted convicts by sex and by age group, separately for Japanese and islanders, by year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0070_2": {
+  "t": "Newly Admitted Convicts by Offence",
+  "d": "Gives the number of newly admitted convicts by sex and by Criminal Code offence and special-law offences, separately for Japanese and islanders, by year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0070_3": {
+  "t": "Saipan Vocational School",
+  "d": "Gives the number of classes by school year, teachers (regular and part-time), students and graduates of the Saipan Vocational School, as of the end of April 1933, 1934 and 1935."
+ },
+ "p0071_1": {
+  "t": "Primary Schools",
+  "d": "Gives the number of teachers (regular and part-time), classes in the ordinary and higher courses, and pupils by sex at the primary schools for Japanese children, as of the end of April, by year from 1931 to 1935, with the 1935 figures by school."
+ },
+ "p0071_2": {
+  "t": "Public Schools for Islanders",
+  "d": "Gives the number of teachers (Japanese and islander), classes in the regular and supplementary courses, and pupils by sex at the public schools (kōgakkō) for island children, as of the end of April, by year from 1931 to 1935, with the 1935 figures by school."
+ },
+ "p0071_3": {
+  "t": "Primary School Graduates",
+  "d": "Gives the number of graduates of the ordinary and higher courses of the primary schools by sex, by school year from 1931 to 1935, with the 1935 figures by school."
+ },
+ "p0071_4": {
+  "t": "Public School Graduates",
+  "d": "Gives the number of graduates of the regular and supplementary courses of the public schools for islanders by sex, by school year from 1931 to 1935, with the 1935 figures by school."
+ },
+ "p0072_1": {
+  "t": "Woodworking Apprentice Training School",
+  "d": "Gives the number of classes, staff (full-time and part-time instructors and assistants), students in the regular and other courses, and graduates, by year from 1931 to 1935."
+ },
+ "p0072_2": {
+  "t": "Kindergartens",
+  "d": "Gives the number of kindergartens, nursery teachers and assistants, and children by sex, as of the end of April, by year from 1931 to 1935, in total and for each branch office."
+ },
+ "p0072_3": {
+  "t": "Islanders Residing in Japan Proper",
+  "d": "Gives the number of islanders staying in Japan proper by sex, by purpose (study at primary, secondary and other schools, and others), as of 1 March, by year from 1931 to 1935, with the 1935 figures by branch office of origin."
+ },
+ "p0072_4": {
+  "t": "Christianity",
+  "d": "Gives the number of Catholic and Protestant mission stations (churches and preaching halls), missionaries (missionaries, brothers, nuns and islander evangelists) and adherents (Japanese, foreigners and islanders), as of the end of April, by year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0072_5": {
+  "t": "Boarders at Public School Dormitories",
+  "d": "Gives the number of island children boarding at the dormitories of the Yap, Koror, Natsushima (Dublon, Truk), Kolonia (Ponape), Jabor (Jaluit), Wotje and other public schools, as of the end of April, by year from 1931 to 1935."
+ },
+ "p0073_1": {
+  "t": "Buddhism",
+  "d": "Gives the number of Buddhist mission stations, missionaries and adherents (Japanese, foreigners and islanders), by year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0073_2": {
+  "t": "Religious Schools",
+  "d": "Gives the number of Catholic and Protestant mission schools, their pupils by sex and their teachers (Japanese, foreigners and islanders), by year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0073_3": {
+  "t": "Missionaries by Nationality",
+  "d": "Gives the number of missionaries by religion and nationality (Spanish and Colombian Catholics; Japanese, German, Swiss, American and Australian Protestants; Japanese Buddhists and others), by year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0073_4": {
+  "t": "Tenrikyō",
+  "d": "Gives the number of Tenrikyō mission stations, teachers and adherents (Japanese, foreigners and islanders), by year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0073_5": {
+  "t": "Area of Cultivated Land",
+  "d": "Gives the area of cultivated land (paddy and upland fields) at year end and of land newly brought under cultivation during the year, by year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0074_1": {
+  "t": "Planted Area of Agricultural Crops",
+  "d": "Gives the area planted to rice, millets, maize, soya beans, red beans, groundnuts, other beans, sweet potatoes and other crops, by year from 1931 to 1935, in total and by branch office."
+ },
+ "p0074_2": {
+  "t": "Harvested Area of Agricultural Crops",
+  "d": "Gives the harvested area of rice, millets, maize, beans, sweet potatoes, vegetables, fruits, sugar cane, tobacco, cotton, coffee, cacao and other crops, by year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0075_1": {
+  "t": "Agricultural Production",
+  "d": "Gives the quantity and value of agricultural products by crop (rice, millets, maize, beans, sweet potatoes, taro, vegetables, fruits, cacao and others), by year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0076_1": {
+  "t": "Yield per Hectare of Agricultural Crops",
+  "d": "Gives the yield per hectare of rice, millets, maize, beans, sweet potatoes, vegetables, fruits and other crops, by year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0076_2": {
+  "t": "Consumption of Fertilizers",
+  "d": "Gives the quantity and value of commercial fertilizers consumed (superphosphate of lime, compound fertilizers, ammonium sulphate, bone meal and others) and the quantity of farm-produced fertilizers used, by year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0077_1": {
+  "t": "Production of Fertilizers",
+  "d": "Gives the quantity of farm-produced fertilizers (manure, compost, night soil, plant ash, green manures, animal and bird droppings and others) and the quantity and value of guano sold, by year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0077_2": {
+  "t": "Livestock and Poultry",
+  "d": "Gives the number of cattle, horses, goats, pigs, other livestock and poultry at year end, by sex and age (adult or young), by year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0078_1": {
+  "t": "Livestock by Age",
+  "d": "Gives the number of cattle, horses, pigs, sheep and other livestock at year end by age and by sex (female, male, castrated), by year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0079_1": {
+  "t": "Deaths of Livestock and Poultry",
+  "d": "Gives the number of cattle, horses, goats, pigs, other livestock and poultry that died during the year, by sex and young, by year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0079_2": {
+  "t": "Births of Livestock and Poultry",
+  "d": "Gives the number of cattle, horses, sheep, goats, pigs, rabbits and poultry born or hatched during the year, with the cattle, horses, sheep, goats, pigs and rabbits by sex, by year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0079_3": {
+  "t": "Slaughtered Animals",
+  "d": "Gives the number of cattle, horses, water buffalo, goats, rabbits and pigs slaughtered and the quantity of meat obtained, by year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0079_4": {
+  "t": "Livestock Products",
+  "d": "Gives the quantity and value of milk, hens' eggs, duck eggs, raw hides and other livestock products, by year from 1931 to 1935, in total and by branch office."
+ },
+ "p0080_1": {
+  "t": "Sugar Cane Harvested Area, Cane Harvest and Sugar Output",
+  "d": "Gives the harvested area, the cane harvest, sugar output by grade, extraction rate, cane yield per hectare and molasses, by crushing season from 1931-32 to 1935-36, with the 1935-36 figures by island."
+ },
+ "p0080_2": {
+  "t": "Wages",
+  "d": "Gives the daily wages of carpenters, ship carpenters, sawyers, joiners and other trades, for Japanese and islanders, at year end by year from 1931 to 1935, by branch office."
+ },
+ "p0081_1": {
+  "t": "Retail Prices of Daily Necessities",
+  "d": "Gives the retail prices in yen of principal daily necessities, with their brand and unit, as of 16 December each year from 1931 to 1935, by branch office."
+ },
+ "p0082_1": {
+  "t": "Charges for Services",
+  "d": "Gives charges for haircuts and shaves, monthly board and lodging and daily hotel rates (highest, ordinary and lowest) and other services, at year end by year from 1931 to 1935, by branch office."
+ },
+ "p0082_2": {
+  "t": "Companies",
+  "d": "Gives the number of companies and their nominal and paid-up capital, by line of business (agriculture and forestry, commerce and others), at year end by year from 1931 to 1935, with companies having their head office in the South Seas shown separately."
+ },
+ "p0082_3": {
+  "t": "Production of Alcoholic Beverages",
+  "d": "Gives the quantity in litres of alcoholic beverages produced by kind (shōchū, sugar spirit, whisky, wine, sake and others, with their alcohol strength), by year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0083_1": {
+  "t": "Manufactured Products",
+  "d": "Gives the quantity and value of manufactured products (sugar, molasses, alcohol, liquor, coconut oil, canned goods, ice, soft drinks, miso, soy sauce, salt, plaited goods, rope and others), by year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0083_2": {
+  "t": "Coconut Plantations",
+  "d": "Gives the area of coconut plantations and the number of trees standing and bearing, government-owned and private, at year end by year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0083_3": {
+  "t": "Coconut Production",
+  "d": "Gives the quantity and value of coconuts produced, government-owned and private, by year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0084_1": {
+  "t": "Forest Products",
+  "d": "Gives the quantity and value of forest products (timber by species, firewood, bark, coconuts, charcoal, copra and others), by year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0084_2": {
+  "t": "Fishing Licences",
+  "d": "Gives the number of fishing licences in force at year end by kind (bonito, tuna long-line, pearl-shell, trochus, green-snail, hawksbill turtle and other fishing), by year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0084_3": {
+  "t": "Fishing Boats",
+  "d": "Gives the number of fishing boats at year end, without engines by tonnage class and with steam or motor engines by tonnage class, by year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0085_1": {
+  "t": "Marine Catch",
+  "d": "Gives the quantity and value of the marine catch by kind (fish such as bonito, tuna and mackerel, shellfish and others), by year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0085_2": {
+  "t": "Manufactured Marine Products",
+  "d": "Gives the quantity and value of dried bonito (katsuobushi), dried tuna, bêche-de-mer, shark fins and other processed marine products, by year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0086_1": {
+  "t": "Phosphate Mining and Shipments",
+  "d": "Gives the quantity of crude phosphate ore mined, of refined ore produced, and the quantity and value of refined ore shipped out, in long tons, by fiscal year from 1931 to 1935 (Angaur)."
+ },
+ "p0086_2": {
+  "t": "Workers and Miners at the Mining Office",
+  "d": "Gives the number of workers and miners at the Angaur Mining Office at fiscal year end, Japanese, Chinese and islanders, with the islanders by origin (Chamorro and Kanaka from Angaur, Palau, Yap and other islands), by year from 1931 to 1935."
+ },
+ "p0086_3": {
+  "t": "Sugar Industry Subsidies Granted",
+  "d": "Gives the number of recipients and the amount of subsidies, Japanese and islanders, by purpose (new planting, land clearance, cane nurseries, import of cane seedlings, green manure and others), by fiscal year from 1931 to 1935."
+ },
+ "p0086_4": {
+  "t": "Revenue and Expenditure of the Phosphate Mining Undertaking",
+  "d": "Gives the receipts from phosphate sales and the expenditure on salaries, office expenses, mining, other payments and repairs, with the net profit, by fiscal year from 1931 to 1935."
+ },
+ "p0086_5": {
+  "t": "Industrial Subsidies Granted",
+  "d": "Gives the total amount of subsidies granted and the amounts for sugar, vegetable, coffee, livestock, coconut, fisheries, commerce and industry and pineapple growing, by fiscal year from 1931 to 1935."
+ },
+ "p0087_1": {
+  "t": "Areas and Quantities Subsidised in the Sugar Industry",
+  "d": "Gives the area of new planting, land clearance and cane nurseries and other quantities subsidised, Japanese and islanders, by fiscal year from 1931 to 1935."
+ },
+ "p0087_2": {
+  "t": "Coffee and Other Crop Cultivation Subsidies Granted",
+  "d": "Gives the number of recipients and the amount of subsidies for coffee and other crop cultivation, Japanese and islanders, by purpose (land clearing and others), by fiscal year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0087_3": {
+  "t": "Vegetable and Other Crop Cultivation Subsidies Granted",
+  "d": "Gives the number of recipients and the amount of subsidies for vegetable and other crop cultivation, Japanese and islanders, by purpose, by fiscal year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0087_4": {
+  "t": "Area Covered by Coffee and Other Crop Cultivation Subsidies",
+  "d": "Gives the area cleared, newly planted and fertilised under the coffee and other crop cultivation subsidies, Japanese and islanders, by fiscal year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0088_1": {
+  "t": "Livestock Subsidies Granted",
+  "d": "Gives the number of recipients and the amount of livestock subsidies, Japanese and islanders, by purpose (including upkeep of breeding bulls), by fiscal year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0088_2": {
+  "t": "Animals Covered by Livestock Subsidies",
+  "d": "Gives the number of breeding bulls, breeding boars and animals reared under the livestock subsidies, Japanese and islanders, by fiscal year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0088_3": {
+  "t": "Coconut-Planting Subsidies Granted",
+  "d": "Gives the number of recipients and the amount of subsidies for coconut planting, Japanese and islanders, by purpose (new planting, improvement of plantations, copra driers and others), by fiscal year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0088_4": {
+  "t": "Subsidised Coconut Plantation Area and Copra Driers",
+  "d": "Gives the area of coconut plantations newly planted and improved and the number of copra drying sheds built with subsidies, Japanese and islanders, by fiscal year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0089_1": {
+  "t": "Fisheries Subsidies Granted",
+  "d": "Gives the number of recipients and the amount of fisheries subsidies, Japanese and islanders, by purpose (fishing gear and boats, technicians, processing facilities and shipment out), by fiscal year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0089_2": {
+  "t": "Commerce and Industry Subsidies Granted",
+  "d": "Gives the number of recipients and the amount of subsidies granted to commercial and industrial undertakings (coffee growing and processing, charcoal burning, dairying, canning, slaughtering, ferry service and others), Japanese and islanders, by fiscal year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0090_1": {
+  "t": "Pineapple Growing Subsidies Granted",
+  "d": "Gives the number of recipients, the area and the amount of subsidies for pineapple growing, Japanese and islanders, in total and for clearing and new planting, by fiscal year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0090_2": {
+  "t": "Length of Roads",
+  "d": "Gives the length of roads in kilometres at year end by width (under four metres, under seven metres, seven metres and over), by year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0090_3": {
+  "t": "Vehicles",
+  "d": "Gives the number of bicycles, carriages, rickshaws, ox and horse carts, handcarts and other vehicles at year end, by year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0091_1": {
+  "t": "Length of Light Railways",
+  "d": "Gives the length of rail track in metres at year end, for carrying sugar cane, phosphate and other goods, by year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0091_2": {
+  "t": "Vessels",
+  "d": "Gives the number and tonnage of steamers, motor vessels, steam and motor launches and sailing vessels by size, at year end by year from 1931 to 1935, in total and by branch office."
+ },
+ "p0091_3": {
+  "t": "Shipping Routes under South Seas Government Contract",
+  "d": "Gives the number and gross tonnage of ships used, voyages made, total nautical miles sailed and cargo carried on the subsidised routes of the Nippon Yūsen Kaisha and the Nan'yō Bōeki Kaisha, by fiscal year from 1931 to 1935, with the 1935 figures by line."
+ },
+ "p0091_4": {
+  "t": "Aids to Navigation",
+  "d": "Gives the number of light beacons, buoys, beacons, leading marks, landmarks and mooring buoys at fiscal year end, by year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0092_1": {
+  "t": "Vessels Entered and Cleared",
+  "d": "Gives the number and gross tonnage of steamers and sailing vessels entering and leaving port, by year from 1931 to 1935, with the 1935 figures by port."
+ },
+ "p0092_2": {
+  "t": "Registered Tonnage of Vessels Entered and Cleared",
+  "d": "Gives the registered tonnage of steamers and sailing vessels entering and leaving port, by year from 1931 to 1935, in total and by port."
+ },
+ "p0092_3": {
+  "t": "Steamer Passengers Embarking and Landing",
+  "d": "Gives the number of steamer passengers embarking and landing by sex, split between Japanese, foreigners and islanders, by year from 1931 to 1935, with the 1935 figures by port."
+ },
+ "p0093_1": {
+  "t": "Steamer Passengers by Origin and Destination",
+  "d": "Gives the number of passengers embarking by destination and landing by place of departure (Japan proper, within the islands and elsewhere), by year from 1931 to 1935, with the 1935 figures by port."
+ },
+ "p0093_2": {
+  "t": "Postal Matter",
+  "d": "Gives the number of ordinary and special letters and of parcels posted and delivered, by fiscal year from 1931 to 1935, with the 1935 figures by post office."
+ },
+ "p0093_3": {
+  "t": "Telegrams",
+  "d": "Gives the number of domestic and foreign telegrams sent and received and of relayed messages, by fiscal year from 1931 to 1935, with the 1935 figures by post office."
+ },
+ "p0093_4": {
+  "t": "Telephones",
+  "d": "Gives the length of telephone lines, circuits and wires (cable and open wire), and the number of subscribers and instruments, at fiscal year end from 1931 to 1935, with the 1935 figures by post office."
+ },
+ "p0093_5": {
+  "t": "Private Telephones",
+  "d": "Gives the number of private telephone installations and instruments, for government and private use, at fiscal year end from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0094_1": {
+  "t": "Use of Postal and Telegraph Services by Islanders",
+  "d": "Gives the number of letters and parcels posted and delivered, telegrams sent and received, and other postal services used by islanders, by fiscal year from 1931 to 1935, with the 1935 figures by post office."
+ },
+ "p0094_2": {
+  "t": "Postal Life Insurance",
+  "d": "Gives the number of policies and sums insured for new contracts, revivals, deaths, maturities and lapses or cancellations, by fiscal year from 1931 to 1935, with the 1935 figures by post office."
+ },
+ "p0094_3": {
+  "t": "Electricity",
+  "d": "Gives the number of generators and their prime movers (heavy-oil, light-oil and steam engines) and the number of electric lamps by wattage, at fiscal year end from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0095_1": {
+  "t": "Mujin Mutual Loan Associations",
+  "d": "Gives the number of mujin (rotating credit) associations, members and instalments due over their term at year end, and instalments paid and sums drawn during the year, by year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0095_2": {
+  "t": "Industrial Cooperatives by Purpose",
+  "d": "Gives the number of industrial cooperatives, members, shares and paid-up capital, for all cooperatives and by purpose (credit, credit-sales-purchasing and others), at year end for 1933 to 1935, with the 1935 figures by branch office."
+ },
+ "p0095_3": {
+  "t": "Money Orders, Postal Savings, Annuities and Pensions",
+  "d": "Gives the number and amount of domestic and foreign money orders issued and paid, postal savings deposits and withdrawals, and annuities and pensions paid, by fiscal year from 1931 to 1935, with the 1935 figures by post office."
+ },
+ "p0095_4": {
+  "t": "Industrial Cooperatives by Form of Liability",
+  "d": "Gives the number of industrial cooperatives, members, shares and paid-up capital, for all cooperatives and by form of liability (limited and unlimited), at year end for 1933 to 1935, with the 1935 figures by branch office."
+ },
+ "p0096_1": {
+  "t": "Exports by Commodity",
+  "d": "Gives the value of exports to foreign countries by commodity group and item, by year from 1931 to 1935, with the 1935 figures by port."
+ },
+ "p0097_1": {
+  "t": "Shipments to Japan by Commodity",
+  "d": "Gives the value of shipments to Japan proper and other parts of the Empire by commodity group and item, by year from 1931 to 1935, with the 1935 figures by port."
+ },
+ "p0098_1": {
+  "t": "Imports by Commodity",
+  "d": "Gives the value of imports from foreign countries by commodity group and item, by year from 1931 to 1935, with the 1935 figures by port."
+ },
+ "p0099_1": {
+  "t": "Shipments from Japan by Commodity",
+  "d": "Gives the value of shipments received from Japan proper and other parts of the Empire by commodity group and item, by year from 1931 to 1935, with the 1935 figures by port."
+ },
+ "p0100_1": {
+  "t": "Exports and Imports of Alcoholic Beverages",
+  "d": "Gives the quantity of sake, beer, shōchū, mirin, wine, whisky and other liquors exported and imported, by year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0100_2": {
+  "t": "Shipments of Alcoholic Beverages from Japan",
+  "d": "Gives the quantity of sake, shōchū, mirin, shirozake, beer, wine, whisky, brandy and other liquors received from Japan proper, with their alcohol strength, by year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0100_3": {
+  "t": "Budget and Final Accounts of the South Seas Government Special Account",
+  "d": "Gives the budgeted and final-account revenue and expenditure of the South Seas Government special account, in total and for the ordinary and extraordinary parts, by fiscal year from 1931 to 1935."
+ },
+ "p0100_4": {
+  "t": "Shipments of Alcoholic Beverages to Japan",
+  "d": "Gives the quantity of sake, shōchū, sugar spirit, whisky, beer and wine shipped to Japan proper, by year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0101_1": {
+  "t": "South Seas Government Special Account: Settled Revenue by Item",
+  "d": "Gives the settled revenue of the South Seas Government special account by item (taxes such as the poll tax, departure tax, customs and mining-area tax, and receipts from posts and telegraphs, hospitals, forestry, copra and phosphate), by fiscal year from 1931 to 1935."
+ },
+ "p0104_1": {
+  "t": "Poll Tax on Non-Islanders",
+  "d": "Gives the number of non-islanders assessed and the amount of poll tax by tax class (first class 50 yen, second class 40 yen, third class 30 yen and lower), by fiscal year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0104_2": {
+  "t": "Poll Tax on Islanders",
+  "d": "Gives the number of islanders assessed, the quantity of copra delivered in kind and the amount of poll tax by rate (40, 25 yen and lower), by fiscal year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0104_3": {
+  "t": "Export Duties",
+  "d": "Gives the quantity shipped out and the duty collected on sugar, molasses, alcohol and other dutiable goods, by fiscal year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0104_4": {
+  "t": "Customs Duties",
+  "d": "Gives the number of payers and the amount of customs duties collected, by fiscal year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0104_5": {
+  "t": "Mining Area Tax",
+  "d": "Gives the number of payers and the amount of mining area tax collected, by fiscal year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0105_1": {
+  "t": "Postal, Telegraph and Telephone Receipts",
+  "d": "Gives the receipts from postage, postage stamps, telegraphs and telephones, by fiscal year from 1931 to 1935, with the 1935 figures by office."
+ },
+ "p0105_2": {
+  "t": "Hospital Receipts",
+  "d": "Gives the receipts of the government hospitals, by fiscal year from 1931 to 1935, with the 1935 figures by hospital."
+ },
+ "p0105_3": {
+  "t": "Forestry Receipts",
+  "d": "Gives the receipts from sales of copra from government plantations and miscellaneous forestry receipts, by fiscal year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0105_4": {
+  "t": "Rents from Government Property",
+  "d": "Gives the rents received for government land, buildings and goods leased, by fiscal year from 1931 to 1935, with the 1935 figures by office."
+ },
+ "p0105_5": {
+  "t": "Electric Lighting Receipts",
+  "d": "Gives the receipts from electric lighting, by fiscal year from 1931 to 1935, with the 1935 figures by office."
+ },
+ "p0105_6": {
+  "t": "Revenue Stamp Receipts",
+  "d": "Gives the receipts from sales of revenue stamps, by fiscal year from 1931 to 1935, with the 1935 figures by post office."
+ },
+ "p0105_7": {
+  "t": "Licence Fees and Charges",
+  "d": "Gives the receipts from licence fees and from administrative charges, by fiscal year from 1931 to 1935, with the 1935 figures by office."
+ },
+ "p0105_8": {
+  "t": "Fines and Confiscations",
+  "d": "Gives the receipts from fines and minor fines and from confiscated money, by fiscal year from 1931 to 1935, with the 1935 figures by office."
+ },
+ "p0105_9": {
+  "t": "Miscellaneous Receipts",
+  "d": "Gives miscellaneous revenue, by fiscal year from 1931 to 1935, with the 1935 figures by office."
+ },
+ "p0106_1": {
+  "t": "Proceeds from Sales of Government Property",
+  "d": "Gives the proceeds from sales of government goods, vessels, buildings and land, by fiscal year from 1931 to 1935, with the 1935 figures by office."
+ },
+ "p0106_2": {
+  "t": "Social Education Organizations",
+  "d": "Gives the number of youth associations and other social education organizations and their members by sex, split between Japanese and islanders, by year from 1931 to 1935, in total and by branch office."
+ },
+ "p0106_3": {
+  "t": "Expenditure from the Reserve Funds",
+  "d": "Gives the total expenditure from the reserve funds, with the chapter, section, item and amount of each disbursement, by fiscal year from 1931 to 1935."
+ },
+ "p0107_1": {
+  "t": "Work of the Imperial Gift Foundation Jikeikai",
+  "d": "Gives the number of leprosy patients cared for and their attendants, poor patients given free treatment and destitute persons relieved, with the expenditure on each, by fiscal year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0107_2": {
+  "t": "Members of Islander Sightseeing Parties to Japan",
+  "d": "Gives the number of islanders who toured Japan proper in organized sightseeing parties, the length of the tours in days and the subsidies paid, by year from 1931 to 1935, with the 1935 figures by branch office."
+ },
+ "p0107_3": {
+  "t": "Comparative Table of Weights and Measures",
+  "d": "Gives the conversion factors and their reciprocals between metric and yard-pound units and the corresponding Japanese units of length, area, volume and weight."
+ }
+}
