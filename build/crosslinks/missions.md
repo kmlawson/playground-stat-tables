@@ -47,3 +47,14 @@ T06 | done | japan-tokei--labour japan-tokei--international-tables
 N01 | done | nanyo-tokei--justice-and-prisons nanyo-tokei--administration nanyo-tokei--religion nanyo-tokei--social-work nanyo-tokei--appendix
 N02 | done | nanyo-tokei--industry nanyo-tokei--police nanyo-tokei--finance-and-prices
 N03 | done | nanyo-tokei--public-finance nanyo-tokei--transport-and-communications nanyo-tokei--public-health nanyo-tokei--land-and-climate nanyo-tokei--population nanyo-tokei--education nanyo-tokei--trade
+S01 | done | south-seas-mandate (new series 2026-10-28: mandate-report 1925/1930/1931 + gyosei-nenpo 1928/1929): general-remarks, administration-police-and-justice, finance, education
+S02 | done | south-seas-mandate: industry-land-and-labour, religion, laws-and-regulations
+S03 | done | south-seas-mandate: communications-navigation-and-trade, welfare-of-the-islanders-and-population, public-health
+NU1 | done | nanyo-tokei update (1933–36, 1938, 1939 added): population, land-and-climate, administration
+NU2 | done | nanyo-tokei update: police, public-health, justice-and-prisons
+NU3 | done | nanyo-tokei update: education, religion, social-work, appendix
+NU4 | done | nanyo-tokei update: industry, transport-and-communications
+NU5 | done | nanyo-tokei update: finance-and-prices, trade, public-finance
+KU1 | done | korea-annual update (1907, 1908-09, 1909-10, 1910-11 added): general survey, local admin, justice, police, religion, sanitation, education
+KU2 | done | korea-annual update: finance, currency-and-banking, government-undertakings, communications
+KU3 | done | korea-annual update: commerce, agriculture, companies, mining-forestry-fishery, statistical-appendix

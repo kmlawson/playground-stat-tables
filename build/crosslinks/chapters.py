@@ -1734,7 +1734,7 @@ SERIES = {
 
 # Annual Report on Reforms and Progress / Administration of Chosen (English, Government-General), 1911-12 to 1929-30.
 # Combined chapters (e.g. "Finance and Economy", "Production and Industry") sit under several topics.
-_KA_BOOKS = ["korea-1911-12", "korea-1912-13", "korea-1913-14", "korea-1914-15", "korea-1915-16", "korea-1916-17",
+_KA_BOOKS = ["korea-1907", "korea-1908-09", "korea-1909-10", "korea-1910-11", "korea-1911-12", "korea-1912-13", "korea-1913-14", "korea-1914-15", "korea-1915-16", "korea-1916-17",
              "korea-1917-18", "korea-1918-21", "korea-1921-22", "korea-1922-23", "korea-1923-24", "korea-1924-25",
              "korea-1926-27", "korea-1927-28", "korea-1928-29", "korea-1929-30"]
 _KA = {
@@ -1767,8 +1767,27 @@ _KA = {
     "Sanitation": {"XVI. Sanitation": "*", "XIV. Sanitation": "*", "Sanitation": "*", "Public Hygiene": "*"},
     "Education": {"XVII. Education": "*", "XV. Education": "*", "XIII. Education": "*", "Education": "*"},
     "Religion and charity": {"Shrines and Religion": "*", "Shrines and Religions": "*", "Charity and Relief": "*"},
-    "Statistical appendix": {"Statistical Tables": "*", "Statistics": "*"},
+    "Statistical appendix": {"Statistical Tables": "*", "Statistics": "*", "Tables": "*", "Appendix": "*"},
 }
+_KA_EXTRA = {  # 1907-1911 reports (user, 2026-10-28)
+    "General survey and population": ["Introduction", "General", "Imperial Household", "Central Administration", "Administration"],
+    "Local administration": ["Local Administration", "Japanese Settlement Municipality Administration"],
+    "Justice and prisons": ["Judiciary", "Justice"],
+    "Police and peace and order": ["Peace and Order", "Defence"],
+    "Finance": ["Finance"],
+    "Currency and banking": ["Currency", "Banking, Etc", "Currency, Banking, Etc"],
+    "Government undertakings and monopolies": ["Government Undertakings", "Public Undertakings"],
+    "Communications and transport": ["Communications"],
+    "Commerce and foreign trade": ["Commerce", "Foreign Commerce"],
+    "Agriculture": ["Agriculture", "Agricultural, and Industrial"],
+    "Companies and manufacturing": ["Trade and Industry", "Agricultural, and Industrial"],
+    "Mining, forestry and fishery": ["Mining", "Forestry", "Fishery", "Mining, Forestry and Fishing", "Mining, Forestry and Fishery"],
+    "Sanitation": ["Sanitation"],
+    "Education": ["Education", "Education, Etc"],
+    "Religion and charity": ["Charities"],
+}
+import re as _re
+def _kan(c): return _re.sub(r'[^a-z, ]', '', _re.sub(r'^[IVXL]+\.\s*', '', str(c or '')).lower()).strip(' ,')
 
 
 def _ka_topics():
@@ -1782,7 +1801,8 @@ def _ka_topics():
                 chs[b] = list(dict.fromkeys(t.get("chapter") for t in json.load(fh)))
     out = {}
     for topic, names in _KA.items():
-        m = {b: [c for c in cs if c in names] for b, cs in chs.items()}
+        extra = {_kan(x) for x in _KA_EXTRA.get(topic, [])} | {_kan(x) for x in names}
+        m = {b: [c for c in cs if c in names or (b in _KA_BOOKS[:4] and _kan(c) in extra)] for b, cs in chs.items()}
         m = {b: v for b, v in m.items() if v}
         if len(m) >= 2:
             out[topic] = m
@@ -1814,12 +1834,54 @@ SERIES["japan-tokei"] = {"name": "大日本帝國統計年鑑 (Statistical Yearb
     "International tables": _jt(["國際統計表"], ["國際統計表"], None)}}
 
 
-_NY = ["nanyo-tokei-1932", "nanyo-tokei-1937"]
+_NY = ["nanyo-tokei-1932", "nanyo-tokei-1933", "nanyo-tokei-1934", "nanyo-tokei-1935", "nanyo-tokei-1936", "nanyo-tokei-1937",
+       "nanyo-tokei-1938", "nanyo-tokei-1939"]
 _NYCH = [("Land and climate", "I 土地及氣象", "1 土地"), ("Population", "II 戶口", "2 戸口"), ("Administration", "III 行政", "3 行政"),
          ("Police", "IV 警察", "4 警察"), ("Public health", "V 衛生", "5 衞生"), ("Justice and prisons", "VI 司法行刑", "6 司法行刑"),
          ("Education", "VII 敎育", "7 敎育"), ("Religion", "VIII 宗敎", "8 宗敎"), ("Industry", "IX 產業", "9 產業"),
          ("Transport and communications", "X 交通及通信", "10 交通及通信"), ("Finance and prices", "XI 金融", "11 金融"),
          ("Trade", "XII 貿易", "12 貿易"), ("Public finance", "XIII 財政", "13 財政"), ("Social work", "XIV 社會事業", "14 社會事業"),
          ("Appendix", "附錄", "附錄")]
+def _ny_topics():  # chapters are numbered alike in every edition (I/1 … XIV/14, 附錄); match by number
+    import json, os
+    d = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "data")
+    ROMAN = {r: i for i, r in enumerate("I II III IV V VI VII VIII IX X XI XII XIII XIV".split(), 1)}
+    num = lambda c: ROMAN.get(str(c).split()[0], None) or (int(str(c).split()[0]) if str(c).split()[0].isdigit() else str(c))
+    out = {}
+    for b in _NY:
+        f = os.path.join(d, b + ".json")
+        if not os.path.exists(f): continue
+        for c in dict.fromkeys(t.get("chapter") for t in json.load(open(f, encoding="utf-8"))):
+            for k, (t, a, _) in enumerate(_NYCH, 1):
+                if num(c) == (k if a != "附錄" else "附錄"): out.setdefault(t, {}).setdefault(b, []).append(c)
+    return out
 SERIES["nanyo-tokei"] = {"name": "南洋廳統計年鑑 (Statistical Yearbook of the South Seas Government)", "books": _NY,
-                         "topics": {t: {_NY[0]: [a], _NY[1]: [b]} for t, a, b in _NYCH}}
+                         "topics": _ny_topics()}
+
+# Japan's annual report to the League of Nations on the South Sea Islands: English editions and the Japanese edition
+# (日本帝國委任統治地域行政年報) of the same report (user, 2026-10-28)
+_SM = ["mandate-report-1925", "gyosei-nenpo-1928", "gyosei-nenpo-1929", "mandate-report-1930", "mandate-report-1931"]
+_SMK = [("General remarks, area and climate", ["General Remarks", "總說"]),
+        ("Administration, police and justice", ["Administration", "行政一般", "Justice"]),
+        ("Finance", ["Financ", "財政"]),
+        ("Education", ["Education", "敎育", "教育"]),
+        ("Religion", ["Religion", "宗敎", "宗教"]),
+        ("Industry, land and labour", ["Industry", "產業", "産業", "Land System", "土地制度", "Labour", "勞働", "Mining"]),
+        ("Communications, navigation and trade", ["Communication", "通信", "Navigation", "Trade", "貿易"]),
+        ("Welfare of the islanders and population", ["Well-being", "福祉", "Population", "人口"]),
+        ("Public health", ["Public Health", "衞生年報", "衛生年報"]),
+        ("Laws and regulations", ["Laws", "法令"])]
+def _sm_topics():
+    import json, os
+    d = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "data")
+    out = {}
+    for b in _SM:
+        f = os.path.join(d, b + ".json")
+        if not os.path.exists(f): continue
+        for c in dict.fromkeys(t.get("chapter") for t in json.load(open(f, encoding="utf-8"))):
+            for t, keys in _SMK:
+                if c and any(k in c for k in keys):
+                    out.setdefault(t, {}).setdefault(b, []).append(c); break
+    return out
+SERIES["south-seas-mandate"] = {"name": "Annual Report to the League of Nations on the South Sea Islands (English and Japanese editions)",
+                                "books": _SM, "topics": _sm_topics()}

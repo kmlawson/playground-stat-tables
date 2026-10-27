@@ -1,0 +1,13 @@
+You are adding newly finished editions to an existing cross-edition table matching, so a website can link "similar tables" between editions and show them side by side.
+
+Working folder: /Users/kml/shell/projects/yearbooks/japanyearbooks/stat-tables-site/build/crosslinks
+Your mission NU5 covers these listing files (in listings/): nanyo-tokei--finance-and-prices.txt, nanyo-tokei--trade.txt, nanyo-tokei--public-finance.txt
+These are eight editions of 南洋廳統計年鑑, the South Seas Government's statistical yearbook (nanyo-tokei-1932 … nanyo-tokei-1939; the slugs give the years covered), in Japanese; titles may carry an English gloss as [EN: …]. Table numbers differ between editions, so match on content, not number.
+The NEW editions are nanyo-tokei-1933, nanyo-tokei-1934, nanyo-tokei-1935, nanyo-tokei-1936, nanyo-tokei-1938, nanyo-tokei-1939: their tables are the ones to place. Lines for all editions are in each listing:
+  slug | id | chapter | printed pages | title | caption | column headings | first-column row labels
+families/X.json may already exist. Do NOT remove or reshuffle existing members. For each table of a new edition not yet in a family: add it to the existing family it matches (in edition order), or create a new family with a matching table from another edition not yet in any family, or leave it out. If families/X.json does not exist, build it from scratch over all editions.
+Same recurring table = same subject AND the same kind of breakdown (e.g. "population by branch office", "imports by commodity", "births by year") AND comparable measures; years, units, title wording, column order, row counts and LANGUAGE may differ. Not the same: a different breakdown, sub-population, region or unit of analysis. A family must span at least two editions; add two or more tables from one edition only when that edition split the table into pieces. A table belongs to at most one family. Be conservative: a wrong link is worse than a missing one.
+Labels are short neutral English names; "note" only for something a reader should know.
+Write each families/X.json (valid JSON, UTF-8: {"listing": "X", "families": [{"label", "members": ["<slug>/<id>", ...], "note"}]}, members ordered by edition) and validate it with python3 -c "import json;json.load(open('families/X.json'))".
+Work only from the listing files and ../../data/<slug>.json (a short python3 script may look up a table by "id"); no scans, no OCR. No sub-agents. Never write in /tmp.
+When done, reply with one line per listing: name, families, tables linked (new tables added). Nothing else.
