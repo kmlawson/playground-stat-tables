@@ -99,6 +99,14 @@ abandoned after 12 of 50 missions with about 68% of cells blank (5068 px per spr
 9a. **Errata slip** (正誤表): look at every front frame (covers, endpapers, title leaf) for a pasted slip — it is
    easy to miss on the contact sheets (南洋 第三回 2026-10-27). Transcribe it with the contents into `_work/errata.json`
    and attach each correction as a transcriber note to its table; the figures stay as printed.
+9b. **Second readings — keep them rare** (user, 2026-10-28: "not so much rereading"). A non-reconciling total is
+   normally a misprint in the source and stays as printed with a note; it is NOT by itself a reason to re-read.
+   - Blind re-read of single cells only: cells settled by the 3-vs-8 / 一/二/三 rule, and cells a reader marked doubtful.
+   - A full independent second transcription of a table only when ALL of these hold: kanji (stacked-stroke) numerals;
+     3 or more total mismatches in that table; and the gaps have the shape of stroke-grouping misreads (a power of ten
+     or 2×, e.g. 10, 1,000, 20,000), not arbitrary amounts. Never for Arabic-numeral (English) tables: on the 1925
+     League report a full second reading of 3,000 cells agreed with the first on all but one.
+   - Where a first and second reading differ, one blind third reading of just those cells decides (two of three).
 9. **Printed contents** (before deleting the page images; user, 2026-10-13): an agent reads the book's contents pages
    by eye into `_work/toc.json` (`{"entries": [{"level", "title", "page", "src"}]}`, every chapter and every listed
    section) — done **first, before the survey** (step 2). Entries printed without a page number get a `found_leaf`
