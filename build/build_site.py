@@ -1566,7 +1566,7 @@ def landing(cards):
         tb, de = sum(n for b, n in bs), sum(b.get("_dir_n") or 0 for b, n in bs)
         return (f'<p class="gstat">{len(bs)} volume{"s" if len(bs) != 1 else ""}, with a total of {tb:,} table{"s" if tb != 1 else ""}'
                 + (f', and {de:,} directory entr{"ies" if de != 1 else "y"}' if de else "") + "</p>")
-    grids = "".join(f'<section class="grp" id="{g}"><h2 class="grph">{names[g]}</h2>{gstat(g)}{topics.get(g, "")}<div class="grid">{body[g]}</div></section>'
+    grids = "".join(f'<section class="grp" id="{g}"><h2 class="grph">{names[g]}</h2>{gstat(g)}<div class="grid">{body[g]}</div></section>'
                     for g in ("japan", "china", "korea", "taiwan", "manchuria", "south-seas", "other") if body[g])
     return LANDING.replace("__CARDS__", "__TOPICMENU__" + grids)
 
