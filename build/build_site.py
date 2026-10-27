@@ -633,6 +633,17 @@ BOOKS = [
      "item": "https://dl.ndl.go.jp/pid/1443806",
      "model": "Opus 5.5",
      "blank_marking": True},
+    {"slug": "mandate-report-1925", "dir": "Mandate_Report_1925", "group": "south-seas",
+     "title": "Annual Report to the League of Nations on the South Sea Islands 1925",
+     "subtitle": "Annual Report to the League of Nations on the Administration of the South Sea Islands under Japanese Mandate for the Year 1925",
+     "publisher": "Prepared by the Japanese Government, 1926",
+     "blurb": "Japan's English-language annual report to the League of Nations on the mandated South Sea Islands (Micronesia) for 1925: general remarks (islands, area, climate), administration, police, justice and prisons, finance and taxes, education and school curricula, industry (agriculture, marine products, phosphate mining), navigation and trade, population, and answers to the Permanent Mandates Commission, with the 1925 public health report (hospitals, patients and diseases) and a collection of laws and regulations (fee scales and hospital charges) as annexes.",
+     "source": "LLM-transcribed from the PDF of the copy in the League of Nations archives (United Nations Geneva, COL22-1-1). Table links give the PDF page number.",
+     "gaps": "All tables in the report and its annexes are transcribed, including the fee scales and hospital price lists in the laws annex; the prose, the organisation charts, the photographs, the map and the legal texts are not. The scan is a PDF at 200 dpi; fold-out tables carry no printed page number, so for every table the PDF page number is given (PDF page N). Printed totals were re-added by the readers: totals that do not add up are kept as printed and noted — an independent second reading of the dense health and population fold-outs (about 3,000 figures) agreed with the first on every figure but one, so these differences are in the printed report. Where a digit was ambiguous only between 3 and 8 and exactly one reading made a printed total reconcile, that reading was used and re-read by a second reader; cells not confirmed are marked [?].",
+     "scan": "https://archives.ungeneva.org/gsxx-r5rs-peh2",
+     "item": "https://archives.ungeneva.org/gsxx-r5rs-peh2",
+     "leaf_label": "PDF page",
+     "model": "Haiku 5.5 and Sonnet 5.5"},
     {"slug": "mandate-report-1931", "dir": "Mandate_Report_1931", "group": "south-seas",
      "title": "Annual Report to the League of Nations on the South Sea Islands 1931",
      "subtitle": "Annual Report to the League of Nations on the Administration of the South Sea Islands under Japanese Mandate for the Year 1931",
@@ -1031,7 +1042,7 @@ def scan_links(book, t):
             continue
         m = re.match(r"p(\d+)$", im or "")
         if book["scan"] and m:
-            out.append({"label": f"scan leaf {int(m.group(1))}", "url": book["scan"].format(leaf=int(m.group(1)))})
+            out.append({"label": f"{book.get('leaf_label', 'scan leaf')} {int(m.group(1))}", "url": book["scan"].format(leaf=int(m.group(1)))})
         else:
             out.append({"label": "" if book.get("hide_images") else f"photo {im}", "url": None})
     return out
