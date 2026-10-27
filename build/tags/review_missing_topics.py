@@ -456,6 +456,9 @@ def build(verbose=True):
 
 
 def finalize():
+    existing = b.PUBLISHED / "overrides.json"
+    if existing.exists() and any(set(fields) - {"topics", "stage"} for fields in b.read(existing)["assignments"].values()):
+        raise RuntimeError("This historical high-level export would overwrite later detailed-tag reviews. Rebuild the website with build/build_tags.py instead.")
     build(False)
     manifest = b.read(OUT / "manifest.json")
     records = b.read(OUT / "records.json")
