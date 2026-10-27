@@ -96,6 +96,9 @@ abandoned after 12 of 50 missions with about 68% of cells blank (5068 px per spr
 8. **English layer for non-English books** (Korea/Japanese books): `build/translations/<slug>.json` with
    `"_chapters"` (English chapter names) and per table `{"t": English title, "d": one-sentence description}`,
    written by Sonnet agents from the JSON only (`TRANSLATE_TASK.md`, McCune–Reischauer / Hepburn).
+9a. **Errata slip** (正誤表): look at every front frame (covers, endpapers, title leaf) for a pasted slip — it is
+   easy to miss on the contact sheets (南洋 第三回 2026-10-27). Transcribe it with the contents into `_work/errata.json`
+   and attach each correction as a transcriber note to its table; the figures stay as printed.
 9. **Printed contents** (before deleting the page images; user, 2026-10-13): an agent reads the book's contents pages
    by eye into `_work/toc.json` (`{"entries": [{"level", "title", "page", "src"}]}`, every chapter and every listed
    section) — done **first, before the survey** (step 2). Entries printed without a page number get a `found_leaf`
