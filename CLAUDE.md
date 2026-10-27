@@ -32,7 +32,8 @@ working toolkits (below); `docs/` holds dated session snapshots (history, lesson
   chronologies, second transcriptions and third readers. Haiku for easy missions: at most one dense page and no
   sideways pages or spreads (Japan-Manchoukuo 1939 trial: 99.4% figure agreement with Sonnet; tell Haiku to keep
   figures exactly as printed, commas and dots included). Opus only for the hard ones: 3+ dense pages, sideways
-  pages, spreads, dense Japanese 目次. Pass the model on every Agent call and set `"model"` in the BOOKS entry to
+  pages, spreads, dense Japanese 目次. **Japanese tables: kanji (old-style) numerals → Opus; Arabic numerals →
+  Sonnet** (user, 2026-10-27). Pass the model on every Agent call and set `"model"` in the BOOKS entry to
   the model that did the reading. At most 10 agents at a time (the user's limit). History: in September Opus did
   all the reading and clearly beat Sonnet on dense kanji tables (統監府統計年報, 朝鮮年鑑 1925); later Opus
   spot-checks of Sonnet on the NDL statistical yearbooks agreed 99.7–100%, so there are no more Opus tests.
@@ -120,6 +121,16 @@ abandoned after 12 of 50 missions with about 68% of cells blank (5068 px per spr
    build_site), elsewhere only tagged tables; `topics/<region>-<topic>.html` lists the tagged ones with a coverage grid.
    A table printing several measures gets one chart per measure (tabs); earlier-year rows under a list form their own chart. Charts draw only printed figures: [?], blanks, dashes and ditto marks are gaps, never
    filled; labels and year order as printed; printed totals are marked on stacked bars and parts that do not add up show ≠.
+10b. **Controlled tags** (user, 2026-10-27; every new book): each table gets topics and tags from the controlled
+   vocabulary (`build/tags/vocabulary.json`, `VOCABULARY.md`; rules `README.md` + `CLASSIFICATION.md`): 0–2 high-level
+   topics, 0–3 detailed tags, `text-tables` flag for textual tables — **only where a term genuinely fits the
+   table's subject**, otherwise left empty. After `data/<slug>.json` is built:
+   `python3 build/tags/new_book_tags.py prepare <slug> --prior <earlier editions of the series>` writes batches of
+   ~40 compact table records (with the same-title table's tags from earlier editions as a hint); Sonnet agents
+   follow `build/tags/NEW_BOOK_TASK.md` and write `results/bNN.json`; `new_book_tags.py apply <slug>` validates
+   every key, ID and limit and saves them in `build/tags/published/assignments.json` (stage
+   `new-book-full-content`); build_site then shows them under table titles and on the topic pages (not in the
+   sidebar table list). Commit the batches/results folder `build/tags/runs/new-<slug>/` with the book.
 11. **Publish** (below). Note queued books in `../queue.md`; record per-book state in `_work/STATUS.md` (every
    book, including `llm`-pipeline books: method, models, counts, what is missing, publish commit).
 12. **Clean up after publishing.** Copy downloaded originals (not plan copies, crops or sheets) to
