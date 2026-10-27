@@ -99,6 +99,12 @@ abandoned after 12 of 50 missions with about 68% of cells blank (5068 px per spr
 9a. **Errata slip** (正誤表): look at every front frame (covers, endpapers, title leaf) for a pasted slip — it is
    easy to miss on the contact sheets (南洋 第三回 2026-10-27). Transcribe it with the contents into `_work/errata.json`
    and attach each correction as a transcriber note to its table; the figures stay as printed.
+10c. **Similar tables / Compare** (user, 2026-10-28): when a book belongs to a series (another edition already on the
+   site), add it to its series in `build/crosslinks/chapters.py` (`SERIES`: books + topic → chapters), run
+   `make_listings.py`, and have Sonnet agents match its tables into `build/crosslinks/families/<series>--<topic>.json`
+   (update-mode prompts like `prompts/NU1.txt`/`KU1.txt`: add new-edition tables to existing families, never reshuffle;
+   new series: `prompts/S01.txt`). Record the mission in `missions.md`. Families drive both "Similar table in other
+   editions" and the Compare view. Series include `south-seas-mandate` (English League reports + Japanese 行政年報).
 9b. **Second readings — keep them rare** (user, 2026-10-28: "not so much rereading"). A non-reconciling total is
    normally a misprint in the source and stays as printed with a note; it is NOT by itself a reason to re-read.
    - Blind re-read of single cells only: cells settled by the 3-vs-8 / 一/二/三 rule, and cells a reader marked doubtful.
