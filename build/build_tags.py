@@ -185,9 +185,13 @@ def patch_book_pages(pages):
         assets = marker + '<script src="../../data/tags/vocabulary.js"></script><script src="../../tags.js"></script>'
         if marker not in doc:
             doc = doc.replace("</head>", assets + "</head>", 1)
-        data = "const TABLE_TAG_DATA=" + inline(book_tags(b["slug"], assignments)) + ";\n"
+        labels = book_tags(b["slug"], assignments)
+        data = "const TABLE_TAG_DATA=" + inline(labels) + ";\n"
         if "const TABLE_TAG_DATA=" in doc:
-            doc = re.sub(r"const TABLE_TAG_DATA=.*?;\n", lambda _: data, doc, count=1)
+            existing = re.search(r"const TABLE_TAG_DATA=(.*?);\n", doc)
+            assert existing, b["slug"]
+            if json.loads(existing.group(1)) != labels:
+                doc = doc[:existing.start()] + data + doc[existing.end():]
         else:
             doc = doc.replace("const T=", data + "const T=", 1)
         target = '</h2>${t.en?'
@@ -195,11 +199,6 @@ def patch_book_pages(pages):
         if replacement not in doc:
             assert target in doc, b["slug"]
             doc = doc.replace(target, replacement, 1)
-        list_target = '</small></a>`;n++'
-        list_replacement = '</small></a>${TableTags.render(TABLE_TAG_DATA[t.id],"../../",{pending:false})}`;n++'
-        if list_replacement not in doc:
-            assert list_target in doc, b["slug"]
-            doc = doc.replace(list_target, list_replacement, 1)
         path.write_text(doc)
 
 

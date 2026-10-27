@@ -28,3 +28,10 @@ cells select a book/tag intersection; related-tag links open that tag's own page
 The fixed 7,662-table detailed-review cohort is recorded in
 `../reviews/deferred-detailed-tags-2026-10-26.json` and is not consumed by high-level
 review.
+
+The contents review of the Manchuria and South Seas portion is recorded in
+[`manchuria-south-seas-detailed-2026-10-27/REPORT.md`](../reviews/manchuria-south-seas-detailed-2026-10-27/REPORT.md).
+Its `remaining-deferred-details.json` records the current remainder without
+rewriting the original 7,662-table list. Historical run exporters are archival;
+use `build/build_tags.py` for ordinary website rebuilds so later corrections are
+retained.
