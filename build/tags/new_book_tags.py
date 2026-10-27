@@ -42,7 +42,7 @@ def compact(t, en):
         parts.append({"label": p.get("label"), "columns": p.get("columns", []),
                       "row_labels": labels[:40] + (["…"] if len(labels) > 40 else []), "rows": len(rows)})
     return {"table_no": t.get("table_no"), "title": t.get("title"), "en": en, "chapter": t.get("chapter"),
-            "caption_extra": t.get("caption_extra", ""), "parts": parts, "footnotes": t.get("footnotes", [])[:6]}
+            "caption_extra": t.get("caption_extra", ""), "parts": parts, "footnotes": (t.get("footnotes") or [])[:6]}
 
 
 def prepare(slug, prior, size):
