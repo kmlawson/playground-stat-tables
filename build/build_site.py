@@ -904,6 +904,16 @@ BOOKS = [
      "scan": "https://archive.org/details/far-east-year-book-1941/{partname}/page/n{leaf}/mode/1up",
      "scan_parts": {1: "Far%20East%20Year%20Book%201941%20Part%201%20Japan", 2: "Far%20East%20Year%20Book%201941%20Part%202"},
      "item": "https://archive.org/details/far-east-year-book-1941"},
+    {"slug": "pacific-survey-1941-part-1", "dir": "Pacific_Survey_1941_Part1", "model": "Haiku 5.5 and Sonnet 5.5",
+     "title": "An Economic Survey of the Pacific Area, Part I: Population and Land Utilization",
+     "subtitle": "By Karl J. Pelzer (Frederick V. Field, general editor)",
+     "publisher": "International Secretariat, Institute of Pacific Relations, 1941; printed in Shanghai by the Willow Pattern Press",
+     "blurb": "The first part of the Institute of Pacific Relations' economic survey of the Pacific: population (distribution, growth, age, rural and urban, occupations, migration) and land utilization and land tenure (crop, forest and pasture land, farm size, tenancy) for the Soviet Union, Manchuria, Japan, Korea, Formosa, China, the Philippines, French Indo-China, Thailand, British Malaya, the Netherlands Indies, Australia, New Zealand, Canada and the United States.",
+     "source": "LLM-transcribed (Claude Haiku 5.5, and Claude Sonnet 5.5 for very large dense tables, via the API) from a Google scan of a University of Michigan copy (via HathiTrust), uploaded to the Internet Archive.",
+     "gaps": "Only the statistical tables are transcribed; the text, maps, the lists of tables, the index and the Institute's front matter are not. Pages with tables were found from contact sheets by Claude Sonnet 5.5, which also flagged pages printed sideways (turned upright before reading), very dense tables and tables continued over pages; a table running over several pages was read in one call with all its pages. Each page was read once and not checked by eye; unreadable figures are marked [?], and printed totals that do not add up are noted and kept as read. Tables are filed under the chapter and country section in which they are printed, from the book's contents.",
+     "scan": "https://archive.org/details/economic-survey-pacific-area-1941-part-1/page/n{leaf}/mode/1up",
+     "item": "https://archive.org/details/economic-survey-pacific-area-1941-part-1",
+     "blank_marking": True},
     {"slug": "china-1912", "dir": "China_Year_Book_1912", "title": "The China Year Book 1912",
      "publisher": "H. T. Montague Bell and H. G. W. Woodhead (eds.); London: George Routledge & Sons; New York: E. P. Dutton & Co.",
      "blurb": "The first edition of the English-language reference book on China, compiled during the 1911 Revolution.",
@@ -1298,7 +1308,7 @@ for _f in sorted((Path(__file__).parent / "topics").glob("*.json")):
     if re.fullmatch(r"[a-z]+\.json", _f.name):   # korea.json, taiwan.json (not the agents' tags_*.json)
         TOPIC_TAGS.update(json.loads(_f.read_text()))
 # Every table of these regions gets a chart view (user, 2026-10-22, after the topic tables); elsewhere only tagged tables.
-CHART_ALL = ("korea-", "taiwan-", "china-", "japan-", "manchuria-", "manchoukuo-", "manchukuo-", "nanyo-", "far-east-")
+CHART_ALL = ("korea-", "taiwan-", "china-", "japan-", "manchuria-", "manchoukuo-", "manchukuo-", "nanyo-", "far-east-", "pacific-survey-")
 
 
 def chart_ids(b, tables):
@@ -1334,7 +1344,7 @@ TOPIC_REGIONS = {
                                 ("yb", "Manchuria / Manchoukuo Year Book", r"^(manchuria-year-book-|manchoukuo-)"),
                                 ("dr", "Manchukuo Directory", r"^manchukuo-directory-")]),
     "south-seas": ("South Seas", [("ny", "南洋廳統計年鑑", r"^nanyo-tokei-")]),
-    "other": ("Far East Year Book", [("fe", "Far East Year Book", r"^far-east-")]),
+    "other": ("Other", [("fe", "Far East Year Book", r"^far-east-"), ("ps", "Economic Survey of the Pacific Area", r"^pacific-survey-")]),
 }
 
 
