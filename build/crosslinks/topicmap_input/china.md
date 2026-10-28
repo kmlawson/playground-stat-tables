@@ -1,0 +1,320 @@
+# Series china: The China Year Book
+Existing editions: china-1912, china-1922, china-1929-30, china-1938
+New editions: china-1913, china-1914, china-1916, china-1919, china-1923, china-1924-5, china-1925-6, china-1926-7, china-1928, china-1931-2
+
+## Existing topics (chapters each existing edition maps to it)
+- Calendar: china-1912: Calendars | china-1938: Calendar
+- General Information: Area and Population: china-1912: The Chinese Empire | china-1922: Area and Population of China, Geography | china-1929-30: General Information | china-1938: General Information
+- Fauna: china-1912: Fauna | china-1922: Fauna
+- Climate and Meteorology: china-1912: Climate and Meteorology | china-1922: Climate & Meteorology | china-1938: The Climate of China
+- People and Language: china-1912: People and Language | china-1922: People & Language
+- Products and Agriculture: china-1912: Products | china-1922: Products | china-1929-30: Products—General, Pastoral and Agricultural
+- Mines and Minerals: china-1912: Mines and Mining | china-1922: Mines and Minerals | china-1929-30: Mines and Minerals | china-1938: Mineral Industry
+- Money, Currency and Banking: china-1912: Money, Weights and Measures | china-1922: Money, Weights & Measures, Currency | china-1929-30: Currency, Banks, Weights and Measures | china-1938: Currency and Banking
+- Manufactures and Industry: china-1912: Manufactures | china-1922: Manufactures | china-1938: Modern Chinese Industries
+- Commerce: china-1912: Commerce | china-1922: Commerce | china-1929-30: Trade and Commerce | china-1938: The Foreign Trade of China
+- Customs Revenue and Trade Statistics: china-1912: Trade Statistics, Trade Statistics—Silk, Trade Statistics—Tea, Trade Statistics—Bullion, Trade Statistics—Bullion and Specie | china-1922: Customs Revenue and Trade Statistics | china-1929-30: Customs Revenue and Trade Returns | china-1938: Customs Revenue and Trade Statistics
+- Customs Tariff: china-1922: The Chinese Customs Tariff | china-1929-30: Customs Import Tariff of the Republic of China | china-1938: Customs Import Tariff of the Republic of China
+- Communications: china-1912: Communications, The Chinese Imperial Post Office | china-1922: Communications | china-1929-30: Communications—Railways and Roads, Communications—Posts, Telegraphs and Aviation | china-1938: Communications
+- Government: china-1912: The Government, Constitutional Reform | china-1922: The Chinese Government | china-1929-30: The Chinese Government, The Kuomintang | china-1938: The Kuomintang and the Government
+- Army and Navy: china-1912: Defence, The Navy | china-1922: Defence | china-1929-30: Army and Navy | china-1938: Army and Navy
+- Finance: china-1912: Finance | china-1922: Finance, The New Consortium | china-1929-30: Finance | china-1938: Finance
+- Shipping: china-1912: Shipping | china-1929-30: Shipping | china-1938: Shipping
+- Education: china-1912: Education | china-1922: Education | china-1929-30: Education | china-1938: Education
+- Religions: china-1912: Religions | china-1922: Religions | china-1929-30: Religions | china-1938: Religions
+- Public Justice: china-1922: Public Justice | china-1929-30: Public Justice | china-1938: Public Justice
+- River Conservancy and Harbours: china-1922: River Conservancy & Harbour Works | china-1929-30: River Conservancy and Harbour Works | china-1938: River Conservancy and Harbours
+- Public Health: china-1929-30: Public Health and Medical Events during 1927 and 1928 | china-1938: Public Health
+- Labour: china-1929-30: Labour | china-1938: Labour
+- Colonies, Leased Territories and Concessions: china-1929-30: Colonies, Leased Territories and Settlements | china-1938: Colonies, Leased Territories, Concessions, Etc., Colonies, Leased Territories, Concessions, etc.
+- Greater China: china-1929-30: Greater China | china-1938: Greater China
+- International Problems: china-1922: China's War & Post-War Problems | china-1929-30: China's International Problems
+- Miscellaneous: china-1912: Miscellaneous | china-1922: Miscellaneous | china-1929-30: Miscellaneous | china-1938: Miscellaneous
+
+## china-1913: chapters (table count; sample titles)
+- 'Front Matter' (1): [Area of Chinese Territory by Division]
+- 'I. General Description—The Republic of China' (14): [Families Returned for the Empire (Exclusive of Ti; [Estimated Population by Region]; [Estimated Population at Various Dates]; [Provinces of the Chinese Republic: Area, Populati
+- 'III. Fauna' (1): [Sharks Listed in the Chinese Catalogue]
+- 'V. Climate and Meteorology' (8): Mean Barometric Pressure; Rainfall (Monthly Average); Maximum Temperatures, F. (Shanghai); Mean Temperatures and Humidity
+- 'VI. People and Language' (2): Table of Races in the Chinese Empire; [Rulers of the Manchu Dynasty]
+- 'VII. Products' (37): [Thirteen Chinese Products Whose Export Exceeds £1; List of the Principal Chinese Products, as Shown i; List of the Principal Chinese Products—contd.; List of the Principal Chinese Products, Arranged A
+- 'VIII. Money, Weights and Measures' (7): [Theoretical Tables of Chinese Money]; Exchange Values; Haikuan Tael Equivalent To; Standard Ch'ih Lengths in Various Trades
+- 'IX. Manufactures' (4): [Factories and Works in Operation by Trade]; [Factories by Industry and Nationality, Continued]; [Cotton Mills in China]; Advertisers—Machinery, Etc.
+- 'X. Commerce' (25): [Dates of Western Nations' Direct Trade Dealings w; Indoor Staff (Foreign); Indoor Staff (Chinese); Outdoor Staff (Foreign)
+- 'XI. Trade Statistics' (75): [Haikuan Tael Equivalents, 1899–1911]; Customs Revenue, 1900 to 1911; Duties on Native Produce Exported and Revenue by T; Total Revenue of
+- 'XII. Communications' (13): A.—Opened to Traffic or under Construction; Railways Projected; Locomotives; Rolling Stock
+- 'XIII. Posts and Telegraphs' (10): Annual Statistics; Statistics by Area; Summary of Mail Matter Dealt with During 1911, Tog; [Postal Returns by District, Gross, Deducted in Tr
+- 'XIV. The Government' (4): [Old and New Names of the Ministries of State]; [Viceroyalties Up to the Revolution and Their Prov; [Ten Classes of Central Government Officials, Octo; [Scale of Official Salaries]
+- 'XV. Defence' (15): [Scale of Pay per Month in the Luchun]; List of Chinese Military Ranks; [Troops Disbanded in Various Provinces, July and A; State of the Luchun (National Army) and Hsun Fang 
+- 'XVI. Finance' (54): Estimated Revenue for 1912; Estimated Expenditure for 1912; [Money Remitted to Peking by the Provinces, July]; Estimated Income
+- 'XVII. Shipping' (6): [Vessels and Tonnage by Flag, 1901–1905]; [Vessels and Tonnage Entered by Flag, 1906–1911]; Percentage of Tonnage to Each Flag; The Shipping for the Years 1902-1911 Divided Betwe
+- 'XX. Public Justice' (3): [Courts Already Established by Province]; [Courts Established and To Be Established by Class; List of Prisons (Established or Projected)
+- 'XXI. Constitutional Reform' (3): [Representatives from Each Province in the House o; [Representatives of Mongolia, Tibet and Chinghai i; [Number of Members of Each Provincial Assembly]
+- 'XXII. Religions' (15): [Gifts Received from the Throne by a Visiting Dala; [Foreign Missionary Societies: Staff Statistics]; [Statistics of Protestant Missions in China, 1910]; [Imperial Decrees on Missionaries]
+- 'XXIV. China in 1912' (5): [Coalition Republican Cabinet, 1912, with Votes Ca; Members of the Tung-yi-kung-ho-tang (Coalition Par; Members of the Kung-ho-tang (Conservative Party); [Voting Results on First List of Cabinet Nominees]
+- 'XXVI. Greater China' (11): Ranks of Mongolian Chieftains (Dzassaks); Mongolian Tribes and Banners; [Mongol Chieftains: Rank, Name and Date of Success; Khalkhas (86 Banners)
+- 'XXVII. Miscellaneous' (17): [Foreigners in China by Nationality, 1911]; Foreign Population of the International Settlement; Envoys Extraordinary and Ministers Plenipotentiary; His Majesty's Legation in Peking
+- 'Appendix B. Customs Tariff' (24): Import Duties; Customs Tariff of China—continued; Customs Tariff of China—Continued; Customs Tariff of China—continued
+
+## china-1914: chapters (table count; sample titles)
+- 'I. General Description—The Republic of China' (15): [Area of Chinese Territory]; [Families of the Whole Empire by Region]; [Estimated Population by Region]; [Estimated Population of China at Various Dates]
+- 'III. Fauna' (1): [Sharks Recorded in Chinese Waters]
+- 'V. Climate and Meteorology' (8): Mean Barometric Pressure; Rainfall (Monthly Average); Maximum Temperatures, F. (Shanghai); Mean Temperatures and Humidity
+- 'VI. People and Language' (2): Table of Races in the Chinese Empire; [Rulers of the Manchu Dynasty]
+- 'VII. Products' (25): [Chief Products of China and Value of Export Abroa; List of the Principal Chinese Products; List of the Principal Chinese Products—contd.; List of the Principal Chinese Products, Arranged A
+- 'VIII. Money, Weights and Measures' (8): [Theoretical Money Equivalents]; Exchange Values; Weight; Weights Fixed for Foreign Trade
+- 'IX. Manufactures' (14): [Paper Mills]; Printing and Lithographic Works; Railway Works; Rice Hulling and Cleaning Mills
+- 'X. Commerce' (25): [Dates of First Direct Trade Dealings with the Chi; Indoor Staff; Outdoor Staff; Coast Staff
+- 'XI. Trade Statistics' (79): [Haikuan Tael Equivalents by Year]; Customs Revenue, 1901 to 1912; Transit Dues, Opium Likin and Total Customs Revenu; Duties on Native Produce Exported to Foreign Count
+- 'XII. Communications' (13): A.—Opened to Traffic or under Construction; Railways Projected; Locomotives; [Employees and Salaries for 1910]
+- 'XIII. Posts and Telegraphs' (35): [Total Annual Results of Postal Operations]; [Main Postal Results by Geographical Division, 191; Courier, Native Boat, Steamer and Railway Lines; Mail Matter Received
+- 'XIV. The Government' (9): [Change in Nomenclature of the Various Ministries]; [Viceroyalties Up to the Time of the Revolution]; [Scale of Salaries]; [Salary Scale for Classes 6 to 9 Officials]
+- 'XV. Defence' (13): [Scale of Pay per Month in the Luchün]; [Military Districts and Proposed Troop Allocation]; List of Chinese Military Ranks; Non-Combatant Officers
+- 'XVI. Finance' (87): [Budget Summary for the First Six Months of 1913]; [Budget Estimates by Ministry: Original Estimates,; [Monthly Estimates of Expenditure by Ministry Comp; [Amounts Placed to the Credit of Ministries, Janua
+- 'XVII. Shipping' (5): [Vessels and Tonnage by Flag, 1902–1906]; [Shipping Entered and Cleared by Flag, 1907–1912]; Percentage of Tonnage to Each Flag; The Shipping for the Years 1902-1912 Was Divided B
+- 'XX. Public Justice' (3): [Courts Already Established by Province]; [Courts Established or To Be Established Throughou; List of Prisons (Established or Projected)
+- 'XXI. Constitutional Reform' (5): [Representatives in the National Assembly by Provi; [Representatives of Mongolia, Chinghai and Tibet i; [Articles Cross-Referenced to Election Laws of Hou; [Articles 34 to 38: Ditto References to Election L
+- 'XXII. Religions' (13): [Gifts Received by a Dalai Lama from the Throne Wh; Statistics of the Work of Protestant Missions in C; Protestant Missions in China; Catholic Missions in China, 1912
+- 'XXVI. Greater China' (10): Ranks of Mongolian Chieftains (Jassaks); Mongolian Tribes and Banners; [Mongol Chieftains: Rank, Name and Date of Success; Outer (Wai Meng); 150 Banners
+- 'XXVII. Miscellaneous' (19): Foreigners in China by Nationality; [Foreign Population of the International Settlemen; Envoys Extraordinary and Ministers Plenipotentiary; The Following Are the Members of His Majesty's Con
+- 'Appendix. Customs Tariff' (24): Import Duties; Customs Tariff of China—continued; Customs Tariff of China—Continued; Customs Tariff of China—continued
+
+## china-1916: chapters (table count; sample titles)
+- 'Front Matter' (1): [Area of Chinese Territory by Division]
+- 'I. General Description—China' (14): [Families Returned by Division, 1911 Census]; [Estimated Population Worked Out from Family Retur; [Estimated Population of China at Various Dates]; [Provinces of China: Area, Population, Capitals an
+- 'III. Fauna' (1): [Sharks Recorded with Lengths]
+- 'V. Climate and Meteorology' (8): Mean Barometric Pressure; Rainfall (Monthly Average); Maximum Temperatures, F. (Shanghai); Mean Temperatures and Humidity
+- 'VI. People and Language' (4): Table of Races in the Chinese Empire; [Races and Languages of Western China]; [Rulers of the Manchu Dynasty]; [Official Estimate of Chinese Living Abroad]
+- 'VII. Products' (26): [Chief Products of China with Value of Export Abro; List of the Principal Chinese Products; List of the Principal Chinese Products—contd.; List of the Principal Chinese Products, Arranged A
+- 'VIII. Money, Weights and Measures' (10): [Theoretical Money Equivalents]; Exchange Values Between the More Important Kinds o; Units of Length, Area, Capacity and Weight; [Chinese Units of Weight Equivalents]
+- 'IX. Manufactures' (21): Canning Factories; Cement and Brick Works; Chemical Works; Confectionery Manufacturers
+- 'X. Commerce' (25): [Dates of Direct Trade Dealings with China by West; Indoor Staff; Outdoor Staff; Coast Staff
+- 'XI. Trade Statistics' (85): [Haikuan Tael Equivalents for Pounds Sterling, Ame; Customs Revenue, 1903 to 1914; Duties on Native Produce Exported to; [Revenue by Foreign and Home Trade, 1903 to 1914]
+- 'XII. Communications' (13): A.—Opened to Traffic or under Construction; Railways Projected; Government Railways, 1915; Locomotives (1913)
+- 'XIII. Posts and Telegraphs' (18): [Total Annual Results of Postal Operations, Hsüan ; [Length of Lines of Communication, 1913 and 1914]; Mail Matter Received; During the Year
+- 'XIV. The Government' (4): [Old and New Names of Government Ministries]; [Viceroyalties Up to the Time of the Revolution]; [Scale of Official Salaries]; Provincial Officials
+- 'XV. Defence' (17): [Departments of the Special Military Council and T; [Scale of Pay per Month in the Luchün]; [Military Districts and Provinces Comprised, with ; [Composition of Each Division]
+- 'XVI. Finance' (80): Ordinary Expenditures; Extraordinary Expenditures; Ordinary Revenue; Extraordinary Revenue
+- 'XVII. Shipping' (4): [Shipping Vessels and Tonnage by Flag, 1909–1914]; Percentage of Tonnage to Each Flag; [Shipping of Steamers and Sailing Vessels, 1902–19; Registered Vessels Plying Under Steam on the Inlan
+- 'XVIII. Land' (1): [Cultivated Land by Province]
+- 'XIX. Education' (1): [Statistics of Schools, Students, Teachers and Edu
+- 'XX. Public Justice' (3): [Courts Already Established by Province]; [Courts Established or To Be Established Throughou; List of Prisons (Established or Projected)
+- 'XXI. Constitutional Development' (2): [Votes Cast for the Establishment of a Monarchy, b; [Distribution of Members among Electoral Colleges]
+- 'XXII. Religions' (11): [Gifts from the Throne to a Dalai Lama on Visiting; Catholic Missions in China, 1912; [Roman Catholic Missions in the Third and Fourth R; Catholic Missions in China, 1912—continued
+- 'XXIV. China in 1915' (1): [Mining Localities in Fengtien and Kirin]
+- 'XXVI. Greater China' (6): Ranks of Mongolian Chieftains (Jassaks); Inner Mongolia (Nei Mêng Ku); 49 Banners; [Mongol Chieftains, Ranks and Dates of Succession]; Khalkhas (86 Banners)
+- 'XXVII. Foreigners in China' (7): [Foreigners in China by Nationality, 1914]; International Settlement, Shanghai; The Diplomatic Corps in Peking; His Majesty's Consular Service in China (1913)
+- 'XXIX. Opium' (8): Total Net Importations of Foreign Opium; [Average Annual Importation of Foreign Opium by De; [Average Net Weight per Chest of Opium Imported]; Duty and Likin Collected on Native and Foreign Opi
+- 'XXX. Miscellaneous' (2): Titles of Merit; [Newspapers Registered for Transmission through th
+
+## china-1919: chapters (table count; sample titles)
+- 'Front Matter' (1): [Area of Chinese Territory by Division]
+- 'I. General Description—China' (14): [Families Returned by Census]; [Estimated Population by Division]; [Estimated Population of China at Various Dates]; [Area and Population of the Provinces of China]
+- 'III. Fauna' (1): [Sharks Cited in the Chinese Catalogue]
+- 'V. Climate and Meteorology' (8): Mean Barometric Pressure; Rainfall (Monthly Average); Maximum Temperatures, F. (Shanghai); Mean Temperatures and Humidity
+- 'VI. People and Language' (7): Table of Races in the Chinese Empire; [Turki Family Races and Locations]; Mongoloid Races of Tibetan Intermediate Speech; Mongoloid Races of Chinese Isolating Speech
+- 'VII. Products' (27): [Chief Products of China by Value of Export Abroad; List of the Principal Chinese Products; List of the Principal Chinese Products, Arranged A; [Division of the World's Raw Silk Trade by Country
+- 'VIII. Money, Weights and Measures' (11): [Theoretical Money Units]; Exchange Values; Units of Length, Area, Capacity and Weight; Weights Used in China
+- 'IX. Manufactures' (15): Albumen Factories; Arsenals; Canning Factories; Cement and Brick Works
+- 'X. Commerce' (29): [Western Nations' Dates of Direct Trade Dealings w; Indoor Staff; Outdoor Staff; Coast Staff
+- 'XI. Trade Statistics' (94): [Haikuan Tael Equivalents by Year]; Customs Revenue, 1906 to 1917; Revenue, 1906 to 1917; Duties on Native Produce Exported to Foreign Count
+- 'XII. Communications' (22): Opened to Traffic or under Construction; B.—Railways Projected; [Capital per Mile of Line of Chinese Government Ra; [Result of the Year's Working of Government Railwa
+- 'XIII. Posts and Telegraphs' (30): Comparative Table Showing Mail Matter Posted; [Articles Posted for Local Delivery]; Articles Collected from Letter-boxes, Box Offices,; Native Clubbed Mails Posted
+- 'XIV. The Government' (4): [Signatories to the Manifesto of the Military Gove; [Viceroyalties Up to the Revolution]; [Chinese Terms and English Equivalents]; Provincial Officials
+- 'XV. Defence' (14): [Departments of the Special Military Council and T; Scale of Pay per Month in the Luchun; [Military Districts and Divisions]; [Units Contained in Each Division]
+- 'XVI. Finance' (56): Revenue; Expenditures; [Income Directly Received by Central Government]; Salt Revenue
+- 'XVII. Shipping' (4): [Vessels Entered and Cleared by Flag, 1912-1917]; Percentage of Tonnage to Each Flag; The Shipping for the Years 1902-1914 Was Divided B; Inland Waters
+- 'XVIII. Land' (1): Cultivated Land by Province
+- 'XIX. Education' (1): [Later Return of Educational Statistics]
+- 'XX. Public Justice' (3): [Courts Already Established by Province]; [Courts Established or to Be Established Throughou; List of Prisons (Established or Projected)
+- 'XXI. Religions' (13): [Gifts from the Throne to a Dalai Lama Visiting Pe; Centres of Work; Distribution of Missionaries; Chinese Christian Workers
+- 'XXII. Public Health' (1): Work of Hospitals
+- 'XXIV. China in 1915' (1): [Mining Areas in South Manchuria Open to Japanese 
+- 'XXV. Greater China' (11): Ranks of Mongolian Chieftains (Jassaks); I. Inner Mongolia (Nei Měng Ku); 49 Banners; [Succession of Chieftains]; Khalkhas (86 Banners)
+- 'XXVI. Foreigners in China' (16): [Foreigners Resident in China by Nationality, 1917; [Foreign Population of the International Settlemen; [Members of His Majesty's Consular Service in Chin; British Marriage Officers in China
+- 'XXVIII. Opium' (10): [Further Seizures Reported by Telegram from Kiukia; Total Net Importations of Foreign Opium; [Average Annual Importation of Foreign Opium by De; [Average Net Weight per Chest of Foreign Opium]
+- 'XXIX. Miscellaneous' (3): Red Sash; Commemoration Days of the Republic; [Newspapers Registered for Transmission through th
+- 'Appendix. The Revised Import Tariff' (19): Cotton and Cotton Goods; [Revised Import Tariff: Cotton Flannel and Cotton ; [Agreed Values and Proposed Duty Rates on Cotton P; [Revised Import Tariff: Cotton Goods]
+
+## china-1923: chapters (table count; sample titles)
+- 'Front Matter' (1): [Area of Chinese Territory by Division]
+- 'I. Area and Population of China' (44): [Families of the Whole Empire]; [Estimated Population by Region]; [Estimated Population at Various Dates]; Area and Population of China
+- 'II. Geography' (14): Distances (Nautical Miles); Distances (Via Siberia); Coast Distances.—A; Coast Distances.—B
+- 'V. Flora, Forestry & Reforestation' (5): China Imported During; Imports of Lumber 1921; [Imports of Lumber, Continued from Previous Page]; Timber (Hardwood) by Superficial Feet
+- 'VI. Climate and Meteorology' (18): Mean Barometric Pressure; Rainfall (Monthly Average); Mean Temperatures and Humidity; Snow
+- 'VII. Mines and Minerals' (32): Mining Area Conceded for Metallic Ores (1914-1921); Mining Area Conceded for Non-Metals (1914-1921); [Coal Reserves of China by Province]; Analysis of Principal Coals Produced in China
+- 'VIII. People and Language' (4): Table of Races in China; Table of Races; [Rulers of the Manchu Dynasty]; [Official Estimate of Chinese Living Abroad]
+- 'IX. Newspapers & Periodicals in China' (23): List of Newspapers Registered with the C.P.O. in C; Newspapers and Periodicals in the Chihli District; Newspapers and Periodicals in Chihli District (Con; Chihli District
+- 'X. Products—General, Pastoral and Agricultural' (14): Exports (Including Re-exports) Direct to Foreign C; List of the Principal Chinese Products; List of the Principal Chinese Products, Arranged A; [Division of the World's Raw Silk Trade by Countri
+- 'XI. Money, Weights and Measures' (10): Theoretical Money Tables; Cash, Cent and Dollar Equivalents; [Exchange Values Between Tael Kinds]; [Chinese Units of Weight]
+- 'XII. Commerce' (19): [Dates of Direct Trade Dealings between Western Na; Percentage Advance of Exports from 1900 to 1919; Gross Value of the Foreign Trade of China, 1910 to; Net Value of the Foreign Trade of China, 1910 to 1
+- 'XIII. Currency' (17): The Following Is a List of the Principal Taels Cur; Equivalent of the Haikwan Tael in Foreign Currenci; [Approximate Exchange Values Between Varieties of ; [Number of 10 Cash Pieces to the Dollar at Chinese
+- 'XIV. Public Justice' (5): Law Courts; [Modern Prisons: Date of Opening, Accommodation an; List of Modern Prisons; List of Modern Prisons
+- 'XV. Education' (4): 24 Consonants (聲母); 15 Finals (韵母) Of Which The First Three Are Consid; 22 Derived Finals (結合韻母); Summary of the Educational Statistics of August, 1
+- 'XVI. Communications' (27): Government Lines Opened to Traffic; Railway Lines under Contract; [Capital per Mile of Line of Chinese Government Ra; [Railway Operating Statistics, 1920 and 1919]
+- 'XVII. Communications (Continued)' (31): [Minchu Mail Carried on Behalf of Native Agencies,; [Staff Returns, 1908 and 1922]; [Nationalities of Foreign Employees of the Chinese; [Postal Progress, 1906–1921]
+- 'XVIII. Shipping' (3): Coast and River Steamers; Inland Waters Steam Navigation: Vessels Registered; Shipping: Vessels Entered and Cleared, 1917 to 192
+- 'XIX. Manufactures. (List of Factories Using Foreign Machinery)' (4): Silk Filatures; Wusih; In Kwangtung (According to the Latest Investigatio; [Silk Filatures — Factories and Number of Spindles
+- 'XX. The Chinese Customs Tariff' (34): Cotton Piece Goods, Grey; Cotton Piece Goods, Yarn-Dyed; Cotton, Raw; Cotton Thread, Cotton Yarn, and Manuf; [Flax, Hemp and Jute Goods Import Tariff]
+- 'XXI. River Conservancy and Harbour Works' (1): Financial Summary
+- 'XXII. Defence' (29): [Theoretical Strength of Units]; [Distinctive Colours of the Arms of Service]; [Army Ranks, Shoulder Straps and Stars]; Estimated Strength of Chinese Army
+- 'XXIII. The Chinese Eastern Railway' (17): Results of the Operation of the C. E. Railway and ; [Company Accounts Showing 1914 Operating Result]; [Cash Reserve of the Railway, June 4th 1921]; [Value of Railway Stocks in Divers Materials, June
+- 'XXIV. Greater China' (1): [Chinese and Turki Denominations and Values of Cur
+- 'XXV. Finance' (71): Revenue; Expenditures; [Income Directly Received by Central Government In; Table A: Details of the Monthly Military and Polic
+- 'XXVII. Opium' (2): [Estimated Annual Supply of Prepared Opium under t; Customs Seizures
+- 'XXVIII. Religions' (7): Force at Work — Foreign, 1921; Force at Work, Chinese, 1921; III.—Extent of Occupation—The Christian Community,; IV.—Extent of Occupation—The Christian School, 192
+- 'XXIX. Medical Progress in China Under the Republic' (2): A.—List of Medical Schools in China; List of Hospitals in China Affiliated to A
+- 'XXX. Customs Revenue & Trade Statistics' (34): Maritime Customs Revenue, 1912 to 1921; Total Maritime Customs Revenue of Each Port, 1917 ; [Import and Export Duty by Port]; Total Maritime Customs Revenue of Each Port, 1917 
+- 'XXXI. Miscellaneous' (27): [British Consular Service in China: Places, Ranks ; Registration Fees for China Companies, China Trade; Heads of Revenue; [Revenue Receipts]
+- 'XXXII. The Chinese Government' (5): [Central Government Ministries and Their Chief Off; Provincial Officials; Tartar Generals (Tutung); Foreign Advisers to the Government of China
+- 'XXXIII. China & The Washington Conference' (1): Inter-Power Agreements with Reference to China
+- 'XXXIV. The Shantung Negotiations' (1): [Valuation of Public Properties Claimed by Japan]
+- 'II. Agreement for Withdrawal of Japanese Troops from the Shantung Railway' (1): [Sections and Dates for Completion of Chinese Poli
+
+## china-1924-5: chapters (table count; sample titles)
+- 'Front Matter' (1): [Area of Chinese Territory by Division]
+- 'I. Area & Population of China' (34): [Families of the Whole Empire (Exclusive of Tibet); [Estimated Population by Division]; [Estimated Population at Various Dates]; Area and Population of China
+- 'II. Geography' (14): Distances (Nautical Miles); Distances (Via Siberia); Coast Distances.—A.; Coast Distances.—B.
+- 'V. Flora, Forestry & Reforestation' (6): Imports and Exports of Timber; Imports of Lumber, 1922; [Timber Imports, Continued from Previous Page]; Timber (Hardwood) by Superficial Feet
+- 'VI. Climate & Meteorology' (12): Mean Barometric Pressure; Rainfall (Monthly Average); Mean Temperatures and Humidity; Wind — Annual Variation
+- 'VII. Mines & Minerals' (35): Mining Area Conceded for Metallic Ores (1914-1921); Mining Area Conceded for Non-Metals (1914-1921); [Coal Reserves by Province]; Analysis of Principal Coals Produced in China.
+- 'VIII. People & Language' (4): [Cephalic Indices of the Living Population]; [Traditional Chinese Dynasties and Their Dates]; Classification of Aboriginal Races of China by Lin; [Rulers of the Manchu Dynasty]
+- 'IX. Manufactures' (9): Silk Filatures and Weaving Mills; Hupeh; Kiangsu: Chinkiang; Kiangsu: Shanghai
+- 'X. Education' (9): [Educational Situation in Shansi, 1916, 1919 and 1; [Christian Colleges in China: Staff, Enrollment, A; Chinese National Amateur Records; [Chinese National Athletic Records]
+- 'XI. Public Justice' (3): Law Courts; List of Modern Prisons; List of Modern Prisons (Continued)
+- 'XII. River Improvement & Harbour Works' (1): [Surtax and Dues Rates for Liao River Conservancy 
+- 'XIII. Communications. Railways' (24): Government Lines Opened to Traffic; [Railways Under Contract]; [Capital per Mile of Line of Chinese Government Ra; [Railway Statistics, 1922 and 1921]
+- 'XIV. Communications. Post Office & Telegraphs' (32): [Number of Packages, Weight and Letters Carried fo; Staff Returns, 1908 and 1922; [Nationalities of Foreign Employees]; [Offices Participating in the International C.O.D.
+- 'XV. Shipping' (9): Radio Stations to Be Erected by Foreign Companies ; Radio Stations Now Being Erected; [Radio Stations in China and Hongkong Summary by C; Mail and Passenger Lines
+- 'XVI. The Chinese Customs Tariff' (44): Cotton Piece Goods, Grey; Cotton Piece Goods, White or Dyed; [Cotton Piece Goods Import Tariff]; Customs Import Tariff: Cotton Piece Goods
+- 'XVII. Customs Revenue & Trade Statistics' (34): Maritime Customs Revenue, 1913 to 1922; Duties on Chinese Produce Exported To; Revenue by Foreign and Home Trade; Total Maritime Customs Revenue of Each Port, 1918 
+- 'XVIII. Products—General, Pastoral, & Agricultural, Including Exports' (11): Exports (Including Re-exports) Direct to Foreign C; Exports (Including Re-exports) Direct to Foreign C; [Silk Production in China, 1910–1922]; [Quantity of Cotton Consumed in China]
+- 'XIX. Opium' (3): [Steamer Seizures of Opium, June 1923]; Statement of Opium, Morphia, Etc., Confiscated by ; World's Opium Production
+- 'XX. Greater China' (1): [Chinese and Turki Monetary Denominations]
+- 'XXII. Religions' (12): Bishops of the Anglican Communion in China; Force at Work—Foreign, 1921; Force at Work, Chinese, 1921; III.—Extent of Occupation—The Christian Community,
+- 'XXIV. Labour' (3): [Monthly Budget of a Middle-Class Family in Peking; [Rise of Food Commodity Prices in Peking, 1902–191; [Causes of Strikes in China, September to December
+- 'XXV. Commerce' (23): [Western Nations in the Order of Direct Trade Deal; Gross Value of the Foreign Trade of China, 1913 to; Net Value of the Foreign Trade of China, 1913 to 1; [Lighting Districts of the Coast of China]
+- 'XXVI. Currency, Banks, Weights, and Measures' (28): [Copper Coins Minted by All Mints to December 1917; [Number of 10-Cash Pieces to the Dollar at Treaty ; [Copper Ingot Imports Into Hankow, January 1 to Ma; Dollar Exchange in Peking in 1923
+- 'XXVII. Finance' (72): Comparative Table of Republican Budgets; Expenditure; Total Expenditure; [Income Directly Received by Central Government, 1
+- 'XXVIII. International Issues' (5): Foreign Claims; [Method of Payment Selected by Signatory Powers]; [Gold Equivalents of the Haikwan Tael]; [Constructive Purposes for the Use of the Funds]
+- 'XXIX. Defence' (46): [Theoretical Strength of Units by Branch of Servic; [Band Strength Table]; [Distinctive Colours of the Arms of the Service]; [Rank Identification by Shoulder Straps and Stars]
+- 'XXXI. The Chinese Government' (4): [Personnel of Central Government]; Provincial Officials; Tartar Generals (Tutung); Foreign Advisers to the Government of China
+- 'XXXII. Miscellaneous' (38): Foreign Diplomatic and Consular Services — Great B; Chinese Orders — Chia-ho Decorations; Commemoration Days of the Republic; Heads of Revenue
+
+## china-1925-6: chapters (table count; sample titles)
+- 'Front Matter' (1): [Area of Chinese Territory by Region]
+- 'I. Area & Population of China' (44): [Families Returned for the Empire by Division]; [Estimated Population by Division, Based on Person; [Estimated Population of China at Various Dates, A; Area and Population of China
+- 'II. Geography' (14): Distances (Nautical Miles); Distances (Via Siberia); Coast Distances.—A; Coast Distances.—B
+- 'V. Flora, Forestry, & Reforestation' (7): Imports and Exports of Timber; Imports of Lumber, 1923; [Timber Imports by Cubic Feet (Continued)]; Timber (Hardwood) by Superficial Feet.
+- 'VI. Climate & Meteorology' (9): Mean Barometric Pressure; Rainfall (Monthly Average); Mean Temperatures and Humidity; Annual Variation
+- 'VII. Mines & Minerals' (44): Mining Area Conceded up to June 1924; Analysis of Principal Coals Produced in China; Statistics of Production 1918-1923 of the Principa; Capital Invested in Principal Coal Mines, 1923
+- 'VIII. People & Language' (4): [Percentages of Cephalic Types among the Living Po; [Classification of Mon-Khmer Aboriginal Groups]; [Classification of Aboriginal Races: Shan and Tibe; [Rulers of the Manchu Dynasty]
+- 'IX. Manufactures' (6): Silk Filatures; Silk Filatures; Silk Filatures; Silk Filatures
+- 'X. Education' (10): [Educational Situation in Shansi, 1916, 1919 and 1; [List of Universities and Colleges in China]; [Number of Students and Teachers of Middle School ; Field and Track
+- 'XI. River Improvement & Harbour Works' (1): [Vessels Crossing the Bar and Arriving at Tientsin
+- 'XII. Customs Revenue & Trade Statistics' (36): Maritime Customs Revenue, 1914 to 1923; Revenue Apportioned Between Foreign and Home Trade; Duties on Chinese Produce Exported To; Total Maritime Customs Revenue of Each Port, 1919 
+- 'XIII. Communications. Railways' (29): [Railway Contracts and Lines Referred to in Manchu; Government Lines Opened to Traffic; Lines Under Contract; [Railway Statistics, 1923 and 1922]
+- 'XIV. Communications. Post Office and Telegraphs' (30): [Number of Letters Carried by Minchu Agencies, 190; Staff Returns of 1908 and 1924 (November); [Nationalities of Foreign Employees of the Chinese; [Post Offices Participating in International C.O.D
+- 'XV. Greater China' (1): [Chinese and Turki Money Denominations]
+- 'XVII. The Chinese Customs Tariff' (42): Cotton Piece Goods, Grey; Cotton Piece Goods, White or Dyed (Irrespective of; [Customs Import Duties on Cotton Piece Goods]; [Customs Import Tariff: Cotton Piece Goods, Dyed a
+- 'XVIII. Products—Pastoral and Agricultural' (15): 1923 Exports Of; 1922 Exports Of; Exports (1923); [Number of Flour Mills by Province]
+- 'XIX. Religions' (10): Bishops of the Anglican Communion in China.; Force at Work.—Foreign, 1921.; II.—Force at Work, Chinese, 1921; Extent of Occupation—The Christian Community
+- 'XX. Labour' (9): [Shanghai Retail Prices, 1910, 1919 and 1923]; [Mukden Prices, 1912 and 1921]; [Antung Prices, 1912 and 1921]; [Tientsin Cost of Living, 1911 and 1921]
+- 'XXI. Opium' (10): [Seizures on Steamers from China to Singapore]; Tientsin Maritime Customs Seizures of Narcotics, 1; Morphia and Morphia Pills Seized and Destroyed in ; [Narcotics Seized at Tsingtao During 1924]
+- 'XXII. Public Justice' (4): Law Courts.; [Modern Prisons]; List of Modern Prisons; List of Modern Prisons (Continued)
+- "XXIII. China's Constitutions & Election Laws" (3): [Districts of Election and Number of Members to Be; [Members of the Senate Elected by Each Class of th; [Allocation of Members to Mongolian, Tibetan and C
+- 'XXIV. Finance' (67): Comparative Table of Republican Budgets; Income Directly Received by Central Government; Expenditure; Estimated Number of Troops in the Republic
+- 'XXV. Public Documents' (6): [German Advance Portion of the Indemnity Payments ; [Payments Under Sino-German Agreement, Article II]; [Oil Prospecting Operations]; [Machinery Used in Oil Boring]
+- 'XXVI. Trade Marks' (2): [Fees Required for Registration of Trade Marks]; Fees Payable on Trade Mark Applications
+- 'XXVII. Political Summary, 1924-1925' (1): Cabinet Appointments
+- 'XXVIII. Taxation' (5): [Mow Bought, Annual Taxes and Average Tax per Mow ; [Tsungwenmen Octroi Collections, 1923 and 1924]; [Stamp Tax Revenue, 1913–1916]; [Stamp Tax Receipts by Year, 1917-1921]
+- 'XXIX. Commerce' (25): 1923 Russia; Value of the Export of Chinese Produce in 1923 to; Value of the Direct Import in 1923 from; Principal Articles Imported (Net) from Foreign Cou
+- 'XXX. Miscellaneous' (34): [British Consular Service in China: Places, Ranks ; Commemoration Days of the Republic; Heads of Revenue; [Excess Under Miscellaneous Services]
+- 'XXXI. Currency, Banks, Weights & Measures' (34): [Total Copper Coinage Minted by All Mints, to Dece; [Copper and Silver Dollar Exchange Quotations at S; [Half-yearly Index Figures, December 1913 to Decem; [Comparative Exchange Quotations at Shanghai and O
+- 'XXXII. The Chinese Government' (11): The Cabinet; [Central Government Personnel]; Provincial Officials; Tartar Generals (Tutung)
+- 'XXXIII. Shipping' (11): [Distribution of Shipping Visiting Shanghai by Fla; [Ratio of Ocean-going Shipping Tonnage to Gross Tr; [Annual Average Tonnage per Ship of Ocean-Going St; Coast and River Steamers
+- 'XXXIV. Newspapers & Periodicals in China' (110): Chihli District.—Continued; Newspapers and Periodicals in Peking District; Newspapers and Periodicals Published in Peking; Peking District.—Continued.
+
+## china-1926-7: chapters (table count; sample titles)
+- 'I. Area & Population of China' (49): [Area of Chinese Territory by Regions]; [Population by Region (First Estimate)]; [Population by Region (Family Multiple Estimate)]; [Estimated Population of China at Various Dates]
+- 'II. Geography' (12): Distances (Nautical Miles); Distances (Via Siberia); Coast Distances.—A.; Coast Distances.—B.
+- 'IV. The Fauna of China' (1): Mammals Of China Orders
+- 'V. Climate & Meteorology' (9): Mean Barometric Pressure; Rainfall (Monthly Average).; Mean Temperatures and Humidity.; Annual Variation.
+- 'VI. Mines & Minerals' (43): Mining Area Conceded up to June 1924; Analysis of Principal Coals Produced in China.; Statistics of Production 1918-1924 of the Principa; Capital Invested in Principal Coal Mines, 1924.
+- 'VII. People & Language' (3): [Cephalic Index Percentages of the Living Populati; [Classification of Aboriginal Tribes of China Prop; [Rulers of the Manchu Dynasty]
+- 'VIII. Manufactures' (11): Grand Total; [Electricity Works by Province and City]; [Electricity Works by Locality]; [Electricity Works in Chinese Cities]
+- 'IX. Customs Revenue & Trade Statistics' (32): Maritime Customs Revenue, 1915 to 1924; Revenue from Foreign and Home Trade, 1915 to 1924; Duties on Chinese Produce Exported To; Customs Revenue of Each Port, 1921 to 1924
+- 'X. Communications. Railways' (35): Railways Open, Under Construction, & Contemplated; Lines under Contract; [Railway Statistics, 1923 and 1922]; Distribution of Investment Assets, 1923
+- 'XI. Communications, Post Office and Telegraphs' (33): [Number of Letters Carried on Behalf of Minchu Age; [Staff Returns, 1908 and 1925 (December)]; [Nationalities of Foreign Employes]; Offices Participating in the International C.O.D. 
+- 'XII. River Improvement & Harbour Works' (2): [List of Conservancy Works by Port and River]; [Vessels Crossing the Bar and Arriving at Tientsin
+- 'XIII. Education' (13): [Growth of Middle Schools Under the Republic]; National Universities; Private Institutions Approved by the Ministry of E; Private Institutions on the Probation List of the 
+- 'XIV. Finance' (57): Comparative Table of Republican Budgets; Income Directly Received by Central Government in ; Secured Loans; Unsecured Loans
+- 'XV. Currency, Banks, Weights & Measures' (46): [Initial Output of 1-Cent Copper Pieces, 1904–1908; [Copper-Cent Exchange Rates, 1912–1925]; [Loss Ratio on Conversion of Copper-Cents into Dol; Imports and Exports of Bar Silver and Sycee, 1892-
+- 'XVI. Miscellaneous' (49): [British Consular Officers in China, by Place]; British Consular Service; Orders of Merit.; [Full List of Chia-ho Decorations]
+- 'XVII. Opium' (16): Statement of Opium, Morphia, Etc. Confiscated by t; [Opium and Drugs Seized and Burned in Peking, Marc; [Seizures in Peking, November 1925]; [Narcotic Seizures by the Maritime Customs at Tien
+- 'XVIII. Religions' (17): NN. SS. LES ÉVÊQUES, VICAIRES ET PREFETS APOSTOLIQ; NN. SS. Les Évêques, Vicaires et Préfets Apostoliq; NN. SS. Les Évêques, Vicaires et Préfets Apostoliq; Roman Catholic Missions 1924
+- 'XIX. Products—General, Pastoral and Agricultural' (47): [Wool and Skins Exports, 1923–1924]; 1924 Exports; Exports of Flour; Imports of Wheat and Flour, 1924
+- 'XX. Public Health and Medical Events During 1925' (3): Monthly Prevalence of Certain Communicable Disease; Monthly Prevalence of Certain Communicable Disease; Monthly Prevalence of Certain Communicable Disease
+- 'XXI. Forestry in China' (4): Timber Trees of Primary Importance; Timber Imports In 1924; Point Measure.; Funds Appropriated by Different Provinces for Prom
+- 'XXII. Public Justice' (8): Modern Courts; List of Modern Prisons; List of Modern Prisons.—(Continued); List of Modern Prisons.—(Continued)
+- 'XXIII. Greater China' (1): [Chinese and Turki Currency Denominations]
+- 'XXIV. Shipping' (11): [Tonnage Share of Each Flag at Shanghai, 1922-1924; [Present Normal Shipping of Canton by Nationality]; Hongkong Shipping in 1924 and 1925; [Principal Dimensions of the Fushun]
+- 'XXV. Trade and Commerce' (33): [Trade of Macao and Portugal with China]; Exports; Imports; Imports
+- 'XXVI. Labour, Strikes, and the Anti-Foreign Agitation' (13): Wages at Taiyuanfu; [Postal Workers' Wages and Living Allowance, Shang; [Hours of Work and Holidays Reported by Mr. Giles,; [Hours of Work and Holidays by Trade]
+- 'XXVII. Defence' (47): [Theoretical Strength of Army Units by Branch of S; [Rank Insignia of the Chinese Army]; [Standard Military Pay Scale]; Yunnan Currency Monthly Pay
+- 'XXIX. Special Conference on the Chinese Customs Tariff' (2): Preparatory Measures to be taken in the Interim Pe; Table of "A" Grade Luxuries
+- 'XXXI. The Chinese Government' (18): The Regency Cabinet; Provincial Officials; Provincial Officials.—(Continued); Tartar Generals (Tutung)
+
+## china-1928: chapters (table count; sample titles)
+- 'I. General Information' (33): [Area of Chinese Territory by Division]; [Population by Division, Census Count of Individua; [Population by Division, Estimate Based on Persons; [Estimated Population at Various Dates]
+- 'II. Mines and Minerals' (75): Mining Areas conceded in the different Provinces o; Mining Areas Conceded for the Different Minerals; Total Value of Minerals Produced in the Different ; Total Value of Mineral Production of 1925 (Arrange
+- 'III. Revenue and Trade Statistics' (34): Maritime Customs Revenue, 1916 to 1925; Revenue; Customs Revenue of Each Port, 1921 to 1925; Maritime Customs Revenue by Ports (Import, Export,
+- 'IV. Public Health and Medical Events During, 1926' (5): Monthly Prevalence of Certain Communicable Disease; Monthly Prevalence of Certain Communicable Disease; Monthly Prevalence of Certain Communicable Disease; Monthly Prevalence of Certain Communicable Disease
+- 'V. River Conservancy & Harbours' (10): [Number and Size of Vessels Accommodated at Antung; Pilotage Rates at Newchwang; [Vessels Crossing the Bar and Arriving at Tientsin; [Shipping Dues Rates]
+- 'VI. Currency, Banks, Weights & Measures' (50): [Initial Output of 1-cent Copper Pieces, 1904–1908; [Copper Cents Exchange Rate, 1912–1925]; [Loss Ratio on Copper-Cent Conversion, Shanghai Tr; [Total Imports and Exports of Bar Silver and Sycee
+- 'VII. Communications—Railways & Roads' (49): [South Manchuria Railway Main and Branch Line Dist; Railways Open, Under Construction, & Contemplated; Lines under Contract; [Railway Statistics, 1924 and 1923]
+- 'VIII. Communications—Posts and Telegraphs' (38): [Minchu Packages, Weight and Letters Carried, 1905; Staff Returns, 1908 and 1926 (December); [Nationalities of Foreign Employees]; [Offices Participating in the International C.O.D.
+- 'IX. Greater China' (1): [Chinese and Turki Coin Denominations]
+- 'X. Public Justice' (3): Modern Courts; List of Modern Prisons; List of Modern Prisons (Continued)
+- 'XI. Religions' (10): [Roman Catholic Missions: Bishops and Their Dates ; [Roman Catholic Missions]; [Roman Catholic Missions in China by Region]; [Roman Catholic Mission Statistics by Region]
+- 'XII. Education' (5): Statistical Summary; Comparative Enrolment for the Years 1920, 1924, 19; Enrolment of Women Students; Source of Student Body—Schools from which they Com
+- 'XIII. Opium' (4): Customs Seizures.; [Szechwan Government Budget Revenue from Opium Ite; [Narcotic Drugs Seized by Shanghai Post Office Tra; Narcotic Drugs Seized on Steamers
+- 'XIV. Finance' (108): Comparative Table of Republican Budgets; [Income Directly Received by Central Government in; Expenditures; Expenditures (Military) Continued
+- 'XV. Shipping' (16): Percentage Contributed by Principal Flags 1916 and; Tonnage of Vessels Engaged in the Carrying Trade, ; Tonnage of Vessels Engaged in the Carrying Trade, ; [Indo-China Steam Navigation Company Financial Sum
+- 'XVII. British Concessions at Hankow and Kiukiang' (1): [Foreign Population of Hankow, Six Months Ago and 
+- 'XIX. Sino-Russian Incidents' (6): Estimate of Funds Required for Military-Political ; Expenses for the II and III People's Armies (Kuomi; In All for China; List of Arms and Munitions Delivered to the 1st Ku
+- 'XX. Products—General, Pastoral, and Agricultural' (70): 1925 Exports; 1924 Exports; 1925 Exports; 1924 Exports
+- 'XXI. Colonies, Leased Territories, Concessions and Settlements' (35): [Pupils at Schools in the Colony, 1925]; Heads of Revenue; [Revenue Items Continued and Total]; [Excess Under Miscellaneous Services]
+- 'XXII. Labour' (35): [Monthly Expenditure of a Four-Person Family in Sh; [Monthly Budget of Family B]; Index Numbers of Wholesale Prices in Canton by the; Index Numbers of Wholesale Prices in Canton by the
+- 'XXIII. Trade and Commerce' (33): [Trade with Macao and Portugal]; Exports; Imports; Imports
+- 'XXV. Miscellaneous' (31): [British Consular Staff by Place]; Commemoration Days of the Republic; Anglo-Chinese Calendar, 1926 — January (XI—XII Moo; Anglo-Chinese Calendar, 1926 — February (XII—I Moo
+- 'XXVI. The Chinese Government' (18): Central (Peking) Government; Provincial Officials; Consulate-General at Jesselton, North Borneo; Consulate-General at Johannesburg, Transvaal
+- 'XXVII. Defence' (22): [Theoretical Strength of Each Unit]; [Rank Distinctions of Chinese Army Officers and Me; Military Terms; [Chinese Military Units, Commanders and Ranks]
+- 'XXVIII. The Kuomintang' (3): [Annual Receipts of Kwangtung Province, 1912-1924]; [Monthly Receipts of Kwangtung, 1925–1926]; [Organisation of the Kwangtung Army by Corps]
+
+## china-1931-2: chapters (table count; sample titles)
+- 'Front Matter' (4): [Area of Chinese Territory by Region]; [Population Returned by Census Divisions]; [Estimated Population by Division Based on Persons; Estimated Population at Various Dates
+- 'I. General Information' (21): [Population of China by Year]; [British Empire Areas and Populations]; Foreign Population in China, 1930 (Customs Estimat; Area and Population of China
+- 'II. Greater China' (10): [Population of Outer Mongolia by Aimak]; [Government Revenue and Expenditure, 1923–1926]; [Customs Duty Returns, 1922–1925]; [Assets and Liabilities of the Emission Section of
+- 'IV. Products — General—Pastoral and Agricultural' (71): Animals Living; [Exports of Sheep's Wool from China by Countries, ; Exports; [Skins — Tanned and Untanned, 1929 and 1930]
+- 'V. Colonies, Leased Territories, Concessions and Settlements' (57): [Revenue and Expenditure for the Last Five Years]; [Average Monthly Exchange Rates]; [Tin Exported from Hongkong in 1930, by Destinatio; [Highest and Lowest Tin Prices in Hongkong, 1925-1
+- 'VI. Public Health and Medical Events During 1931' (29): [Budget of the Wei Sheng Shu and Its Subsidiary Or; [New 1931 Salary Scale General for the Central Gov; Poisonous Drugs, Group B; Powerful Drugs, Group A
+- 'VII. The Climate of China' (6): Centigrade and Fahrenheit Temperatures; Table I.—Monthly and Annual Mean Precipitation, Gr; Table I.—Monthly and Annual Mean Precipitation; Table I.—Monthly and Annual Mean Precipitation, Gr
+- 'VIII. Geology, Mines and Minerals' (10): [Stratigraphic Succession of Formations in North a; General History of the Tectonic Movements and Igne; Coal Production from Some Leading Coal Mining Comp; Production of Iron Ore in South Manchuria
+- 'IX. Trade and Commerce' (40): [Trade of China with Macao and Portugal]; Trade Statistics for Spain (Including Gibraltar); [Trade of China with the Netherlands and Dutch Ind; Exports To
+- 'X. Imports' (24): [Net and Gross Imports, 1924-1930]; [Sterling Value of China's Imports, 1926-1930]; Imports Direct from Foreign Countries; [Importations of Piece Goods, 1928–1930]
+- 'XI. Customs Revenue and Trade Statistics' (17): Maritime Customs Revenue, 1921 to 1930; Maritime Customs Revenue of Each Port, 1930; [Including Likin and Chingfei: Import, Export and ; Total Maritime Customs Revenue of Each Port, 1929 
+- 'XIII. Communications' (126): [Distances of South Manchuria Railway Main and Bra; Kilometres in Operation, Classified by Railways, 1; Distribution of Investment Assets, 1927; Distribution of Investment Assets, 1927 (Continued
+- 'XIV. River Conservancy and Harbours' (13): [Pilotage Charges at Newchwang]; [Cuttings Made in the River, Hai Ho]; [Vessels Arriving at Tientsin Bund, 1900–1930]; [Pilotage Charges, Tientsin Harbour]
+- 'XV. The Yangtze River Flood of 1931' (5): Area of Yangtze River Watershed; Rainfall for Months of June, July and August, 1931; Maximum and Minimum Height of Yangtze River at Han; [Maximum Height of Yangtze and Some Tributaries, 1
+- 'XVI. Currency, Banks, Weights and Measures' (39): [Output of 1-Cent Copper Pieces, 1904–1908]; Shanghai Exchange Rate of Copper Cents to the Doll; [Loss Ratio on Copper Cents Converted into Dollars; [Movement of Bar Silver to and from Shanghai, 1919
+- 'XVII. Finance' (109): General Statement of Cash Receipts and Payments fo; Customs Revenue, 1928-1930; [Cost of Remitting £8,500,000 at Average Exchange ; [Comparative Salt Revenue, Second Half of 1929 and
+- 'XVIII. Labour' (24): [Production per Hour of Man Labour for Three Crops; [Contract Labour in Mines]; Table 1—Provincial Distribution of China's Industr; Industrial Workers in 29 Cities, 9 Provinces, 1930
+- 'XIX. The Kuomintang' (1): [Registered Members of the Kuomintang by Classific
+- 'XX. Religions' (4): [Christian Universities by Location and Number of ; [Christian Colleges and Universities in China]; Catholic Missions in China in 1931; [Summary of Catholic Missions in China, 1931]
+- 'XXI. Shipping' (21): Vessels Engaged in the Coast Trade; China Navigation Company, Ltd.; Dairen Kisen Kabushiki Kaisha; Hongkong, Canton & Macao Steamboat Co., Ltd.
+- 'XXII. Army and Navy' (47): [Monthly Output of Arsenal]; The Central Government Scale of Pay; Office Allowances; Entertainment Allowances
+- 'XXIII. Japanese Invasion of Manchuria and the Shanghai Area, with Other Sino-Japanese Issues' (6): [Quantities of Tsingtao Salt Contracted and Cancel; [Chinese Farmers Whose Lands Were Damaged by Japan; [Casualties Found by the Investigations at Pingyan; Japanese Army
+- 'XXVI. Public Justice' (6): Kiangsu Province; Modern Courts in Operation; [Modern Courts by Province]; [Modern Courts in Operation, Court Names and Roman
+- 'XXVII. Education' (25): New Curriculum for the Elementary Schools; New Curriculum for the Junior Middle School; New Curriculum for General Department of the Senio; [Curriculum of the Regular Three-Year Normal Cours
+- 'XXVIII. Miscellaneous' (25): Customs and Bank Holidays; Anglo-Chinese Calendar; Twenty-First Year of the Republic, 1932; Twenty-Second Year of the Republic, 1933 (January 
