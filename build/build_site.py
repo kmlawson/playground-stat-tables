@@ -914,35 +914,16 @@ BOOKS = [
      "scan": "https://archive.org/details/far-east-year-book-1941/{partname}/page/n{leaf}/mode/1up",
      "scan_parts": {1: "Far%20East%20Year%20Book%201941%20Part%201%20Japan", 2: "Far%20East%20Year%20Book%201941%20Part%202"},
      "item": "https://archive.org/details/far-east-year-book-1941"},
-    {"slug": "pacific-survey-1941-part-1", "dir": "Pacific_Survey_1941_Part1", "model": "Haiku 5.5 and Sonnet 5.5",
-     "title": "An Economic Survey of the Pacific Area, Part I: Population and Land Utilization 1941",
-     "subtitle": "By Karl J. Pelzer (Frederick V. Field, general editor)",
-     "publisher": "International Secretariat, Institute of Pacific Relations, 1941; printed in Shanghai by the Willow Pattern Press",
-     "blurb": "The first part of the Institute of Pacific Relations' economic survey of the Pacific: population (distribution, growth, age, rural and urban, occupations, migration) and land utilization and land tenure (crop, forest and pasture land, farm size, tenancy) for the Soviet Union, Manchuria, Japan, Korea, Formosa, China, the Philippines, French Indo-China, Thailand, British Malaya, the Netherlands Indies, Australia, New Zealand, Canada and the United States.",
-     "source": "LLM-transcribed (Claude Haiku 5.5, and Claude Sonnet 5.5 for very large dense tables, via the API) from a Google scan of a University of Michigan copy (via HathiTrust), uploaded to the Internet Archive.",
-     "gaps": "Only the statistical tables are transcribed; the text, maps, the lists of tables, the index and the Institute's front matter are not. Pages with tables were found from contact sheets by Claude Sonnet 5.5, which also flagged pages printed sideways (turned upright before reading), very dense tables and tables continued over pages; a table running over several pages was read in one call with all its pages. Each page was read once and not checked by eye; unreadable figures are marked [?], and printed totals that do not add up are noted and kept as read. Tables are filed under the chapter and country section in which they are printed, from the book's contents.",
-     "scan": "https://archive.org/details/economic-survey-pacific-area-1941-part-1/page/n{leaf}/mode/1up",
+    {"slug": "pacific-survey-1941-42", "dir": "Pacific_Survey_1941_42", "model": "Haiku 5.5 and Sonnet 5.5",
+     "title": "An Economic Survey of the Pacific Area 1941-42",
+     "subtitle": "Part I: Population and Land Utilization (Karl J. Pelzer, 1941) · Part II: Transportation (Katrine R. C. Greene, 1941) · Part III: Industrialization of the Western Pacific (Kate L. Mitchell, 1942)",
+     "publisher": "International Secretariat, Institute of Pacific Relations (Frederick V. Field, general editor), 1941-1942; Parts I and II printed in Shanghai by the Willow Pattern Press, Part III in New York by the Haddon Craftsmen",
+     "blurb": "The Institute of Pacific Relations' three-part economic survey of the Pacific on the eve of the Pacific War. Part I: population (distribution, growth, age, rural and urban, occupations, migration) and land utilization and tenure. Part II: shipping, railways, highways and motor vehicles, and airways. Part III: industrial and mining development and wartime industry. Countries covered include the Soviet Union, Japan, Korea, Formosa, Manchuria, China, the Philippines, French Indo-China, Thailand, British Malaya, Burma, the Netherlands Indies, India, Australia, New Zealand, Canada and the United States.",
+     "source": "LLM-transcribed (Claude Haiku 5.5, and Claude Sonnet 5.5 for very large dense tables, via the API) from Google scans (via HathiTrust) of copies at the University of Michigan (Part I), the University of California (Part II) and the University of Wisconsin (Part III), each uploaded to the Internet Archive.",
+     "gaps": "Only the statistical tables are transcribed; the text, maps, lists of tables, indexes, the publisher's list and the Institute's front matter are not. Pages with tables were found from contact sheets by Claude Sonnet 5.5, which also flagged pages printed sideways (turned upright before reading), very dense tables and tables continued over pages; a table running over several pages was read in one call with all its pages. Each page was read once and not checked by eye; unreadable figures are marked [?], and printed totals that do not add up are noted and kept as read. Each part numbers its pages from 1; chapters are labelled Part I, II or III, and tables are filed under the chapter and country section in which they are printed, from each part's contents.",
+     "scan": "https://archive.org/details/{partname}/page/n{leaf}/mode/1up",
+     "scan_parts": {1: "economic-survey-pacific-area-1941-part-1", 2: "economic-survey-pacific-area-1941-part-2", 3: "economic-survey-pacific-area-1942-part-3"},
      "item": "https://archive.org/details/economic-survey-pacific-area-1941-part-1",
-     "blank_marking": True},
-    {"slug": "pacific-survey-1941-part-2", "dir": "Pacific_Survey_1941_Part2", "model": "Haiku 5.5 and Sonnet 5.5",
-     "title": "An Economic Survey of the Pacific Area, Part II: Transportation 1941",
-     "subtitle": "By Katrine R. C. Greene (Frederick V. Field, general editor)",
-     "publisher": "International Secretariat, Institute of Pacific Relations, 1941; printed in Shanghai by the Willow Pattern Press",
-     "blurb": "The second part of the Institute of Pacific Relations' economic survey of the Pacific: shipping, railways, highways and motor vehicles, and airways, with the effects of the war, for the Soviet Union, Japan, Manchuria, Korea, Formosa, China, Indo-China, Thailand, British Malaya, the Netherlands East Indies, the Philippines, Australia, New Zealand, Canada and the United States.",
-     "source": "LLM-transcribed (Claude Haiku 5.5, and Claude Sonnet 5.5 for very large dense tables, via the API) from a Google scan of a University of California copy (via HathiTrust), uploaded to the Internet Archive.",
-     "gaps": "Only the statistical tables are transcribed; the text, maps, the list of tables and the Institute's front matter are not. Pages with tables were found from contact sheets by Claude Sonnet 5.5, which also flagged pages printed sideways (turned upright before reading), very dense tables and tables continued over pages; a table running over several pages was read in one call with all its pages. Each page was read once and not checked by eye; unreadable figures are marked [?], and printed totals that do not add up are noted and kept as read. Tables are filed under the country section in which they are printed, from the book's contents.",
-     "scan": "https://archive.org/details/economic-survey-pacific-area-1941-part-2/page/n{leaf}/mode/1up",
-     "item": "https://archive.org/details/economic-survey-pacific-area-1941-part-2",
-     "blank_marking": True},
-    {"slug": "pacific-survey-1942-part-3", "dir": "Pacific_Survey_1942_Part3", "model": "Haiku 5.5 and Sonnet 5.5",
-     "title": "An Economic Survey of the Pacific Area, Part III: Industrialization of the Western Pacific 1942",
-     "subtitle": "By Kate L. Mitchell (I.P.R. Inquiry Series)",
-     "publisher": "International Secretariat, Institute of Pacific Relations, New York, 1942; printed by the Haddon Craftsmen",
-     "blurb": "The third part of the Institute of Pacific Relations' economic survey of the Pacific: industrial and mining development and wartime industry in Japan, Formosa and Korea, Manchukuo, China (including Japan's industrial offensive in the occupied areas), French Indo-China, Thailand, British Malaya, Burma, the Netherlands Indies, the Philippine Commonwealth, Australia, New Zealand and India.",
-     "source": "LLM-transcribed (Claude Haiku 5.5, and Claude Sonnet 5.5 for very large dense tables, via the API) from a Google scan of a University of Wisconsin copy (via HathiTrust), uploaded to the Internet Archive.",
-     "gaps": "Only the statistical tables are transcribed; the text, maps, the list of tables, the index, the publisher's list and the Institute's front matter are not. Pages with tables were found from contact sheets by Claude Sonnet 5.5, which also flagged pages printed sideways (turned upright before reading), very dense tables and tables continued over pages; a table running over several pages was read in one call with all its pages. Each page was read once and not checked by eye; unreadable figures are marked [?], and printed totals that do not add up are noted and kept as read. Tables are filed under the country chapter in which they are printed, from the book's contents.",
-     "scan": "https://archive.org/details/economic-survey-pacific-area-1942-part-3/page/n{leaf}/mode/1up",
-     "item": "https://archive.org/details/economic-survey-pacific-area-1942-part-3",
      "blank_marking": True},
     {"slug": "china-1912", "dir": "China_Year_Book_1912", "title": "The China Year Book 1912",
      "publisher": "H. T. Montague Bell and H. G. W. Woodhead (eds.); London: George Routledge & Sons; New York: E. P. Dutton & Co.",
@@ -1204,7 +1185,7 @@ def scan_links(book, t):
         mp = re.match(r"p(\d)-(\d+)$", im or "")  # multi-part scans: one IA file per part
         if book["scan"] and mp:
             part, leaf = int(mp.group(1)), int(mp.group(2))
-            out.append({"label": f"scan part {part}, leaf {leaf}", "url": book["scan"].format(part=part, leaf=leaf)})
+            out.append({"label": f"scan part {part}, leaf {leaf}", "url": book["scan"].format(part=part, partname=book.get("scan_parts", {}).get(part, ""), leaf=leaf)})
             continue
         lm = leafmap(book)
         if book["scan"] and lm is not None and im in lm:  # photo names mapped to the online scan's leaves
@@ -1677,7 +1658,7 @@ def page_urls(b, tables):
         url.last = (key(im)[0], key(im)[1] + d) if key(im) is not None else None  # scan position, for placing tables
         mp = re.match(r"p(\d)-(\d+)$", im)
         if mp:
-            return b["scan"].format(part=int(mp.group(1)), leaf=int(mp.group(2)) + d)
+            return b["scan"].format(part=int(mp.group(1)), partname=b.get("scan_parts", {}).get(int(mp.group(1)), ""), leaf=int(mp.group(2)) + d)
         mp = re.match(r"p(\d+)$", im)
         if mp and im not in lm:
             return b["scan"].format(leaf=int(mp.group(1)) + d)
