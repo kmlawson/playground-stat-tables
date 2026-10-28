@@ -61,3 +61,4 @@ KU3 | done | korea-annual update: commerce, agriculture, companies, mining-fores
 JL  | done | japan: 16 editions added (1906–1924-25, 1937, 1942-43) via topicmaps/japan.json; 46 listings by Sonnet through llm (xl_llm.py), 6 (agriculture, education, finance, foreign-trade, industry, justice) by agents JU1–JU6
 CL  | done | china: 10 editions added (1913–1931-2) via topicmaps/china.json; agents CU1–CU8
 KV/HV | done | korea-annual: 1930-32…1938-39 added (topicmaps/korea-annual.json; Finance and Economy also under banking/trade/undertakings), agents KV1–KV4; china-handbook: 1944 added, agents HV1–HV2
+TW  | done | taiwan-tokei: new series (1925, 1933, 1938, 1942), topicmaps/taiwan-tokei.json, agents TW1–TW3
