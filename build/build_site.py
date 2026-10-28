@@ -924,6 +924,16 @@ BOOKS = [
      "scan": "https://archive.org/details/economic-survey-pacific-area-1941-part-2/page/n{leaf}/mode/1up",
      "item": "https://archive.org/details/economic-survey-pacific-area-1941-part-2",
      "blank_marking": True},
+    {"slug": "pacific-survey-1942-part-3", "dir": "Pacific_Survey_1942_Part3", "model": "Haiku 5.5 and Sonnet 5.5",
+     "title": "An Economic Survey of the Pacific Area, Part III: Industrialization of the Western Pacific",
+     "subtitle": "By Kate L. Mitchell (I.P.R. Inquiry Series)",
+     "publisher": "International Secretariat, Institute of Pacific Relations, New York, 1942; printed by the Haddon Craftsmen",
+     "blurb": "The third part of the Institute of Pacific Relations' economic survey of the Pacific: industrial and mining development and wartime industry in Japan, Formosa and Korea, Manchukuo, China (including Japan's industrial offensive in the occupied areas), French Indo-China, Thailand, British Malaya, Burma, the Netherlands Indies, the Philippine Commonwealth, Australia, New Zealand and India.",
+     "source": "LLM-transcribed (Claude Haiku 5.5, and Claude Sonnet 5.5 for very large dense tables, via the API) from a Google scan of a University of Wisconsin copy (via HathiTrust), uploaded to the Internet Archive.",
+     "gaps": "Only the statistical tables are transcribed; the text, maps, the list of tables, the index, the publisher's list and the Institute's front matter are not. Pages with tables were found from contact sheets by Claude Sonnet 5.5, which also flagged pages printed sideways (turned upright before reading), very dense tables and tables continued over pages; a table running over several pages was read in one call with all its pages. Each page was read once and not checked by eye; unreadable figures are marked [?], and printed totals that do not add up are noted and kept as read. Tables are filed under the country chapter in which they are printed, from the book's contents.",
+     "scan": "https://archive.org/details/economic-survey-pacific-area-1942-part-3/page/n{leaf}/mode/1up",
+     "item": "https://archive.org/details/economic-survey-pacific-area-1942-part-3",
+     "blank_marking": True},
     {"slug": "china-1912", "dir": "China_Year_Book_1912", "title": "The China Year Book 1912",
      "publisher": "H. T. Montague Bell and H. G. W. Woodhead (eds.); London: George Routledge & Sons; New York: E. P. Dutton & Co.",
      "blurb": "The first edition of the English-language reference book on China, compiled during the 1911 Revolution.",
@@ -1927,6 +1937,7 @@ th.sortable::after{content:"\2195";position:absolute;right:5px;opacity:.3;font-w
 th.sortable[aria-sort="ascending"]::after{content:"\25B2";opacity:.9}
 th.sortable[aria-sort="descending"]::after{content:"\25BC";opacity:.9}
 th.sortable:hover{background:var(--hi)}
+thead.ml{position:sticky;top:0;z-index:1}thead.ml th{position:relative;vertical-align:bottom}thead.ml th.grp{text-align:center;vertical-align:middle;font-weight:bold}
 td.num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
 td.blank{background:repeating-linear-gradient(45deg,transparent 0 4px,var(--hi) 4px 8px)}
 td.illeg{background:repeating-linear-gradient(45deg,transparent 0 4px,rgba(200,60,40,.32) 4px 8px)}
@@ -2057,12 +2068,27 @@ function vsw(){return `<div class="vsw" role="group" aria-label="Show table, cha
 function setVW(v){VW=v;try{localStorage.setItem("tview",v)}catch(e){}document.body.classList.remove("vw-table","vw-chart","vw-both");document.body.classList.add("vw-"+v);document.querySelectorAll(".vsw button").forEach(b=>b.classList.toggle("on",b.dataset.vw===v));chartsGo()}
 function chartsGo(){if(window.TableCharts)TableCharts.mountAll(document.getElementById("main"),id=>T.find(x=>x.id===id),{marked:MARKED})}
 document.addEventListener("click",e=>{const b=e.target.closest(".vsw button");if(b)setVW(b.dataset.vw)});
+// Column headings flattened as "Upper — Lower" are drawn as a multi-row header: neighbouring columns with the same
+// upper heading share one cell spanning them, as printed. Display only: the column names themselves are unchanged.
+function headHTML(cols,q){const L=cols.map(c=>{const x=String(c??"").split(" — ").filter(y=>y.trim());return x.length?x:[""]}),D=Math.max(1,...L.map(x=>x.length));
+ const leaf=(c,j,rs)=>`<th class="sortable" data-col="${j}"${rs>1?` rowspan="${rs}"`:""} title="${esc(c)} — click to sort">${hl(L[j][L[j].length-1],q)}</th>`;
+ if(D===1)return `<thead><tr>${cols.map((c,j)=>`<th class="sortable" data-col="${j}" title="Click to sort">${hl(c,q)}</th>`).join("")}</tr></thead>`;
+ let h=`<thead class="ml">`;
+ for(let r=0;r<D;r++){h+="<tr>";let j=0;
+  while(j<L.length){const n=L[j].length;
+   if(r===n-1){h+=leaf(cols[j],j,D-n+1);j++;continue}
+   if(r>n-1){j++;continue}
+   const key=L[j].slice(0,r+1).join(" — ");let k=j+1;
+   while(k<L.length&&L[k].length-1>r&&L[k].slice(0,r+1).join(" — ")===key)k++;
+   h+=`<th class="grp"${k-j>1?` colspan="${k-j}"`:""}>${hl(L[j][r],q)}</th>`;j=k}
+  h+="</tr>"}
+ return h+"</thead>"}
 function tableHTML(t,q,other){const ch=!other&&hasChart(t);let h=`<section class="tbl${ch?" hasch":""}" id="t-${t.id}"><h2><a href="#${t.id}">${hl(label(t),q)}</a></h2>${!other?TableTags.render(TABLE_TAG_DATA[t.id],"../../"):""}${t.en?`<p class="en"><b>${hl(t.en.t,q)}</b>: ${hl(t.en.d,q)} <span class="enn">(Note: LLM translation)</span></p>`:""}<div class="sub">${esc(t.chapter||"")} · printed page${(t.printed_pages||[]).length>1?"s":""} ${esc((t.printed_pages||[]).join(", "))}${HIDEIMG?"":` · ${/^p\d/.test(t.image||"")?"scan leaf":"photo"} ${esc((t.images||[t.image]).join(", "))}`}</div>`+(ch?vsw():"");
  if(!other)h+=xlTable(t);
  if(t.caption_extra)h+=CJK.test(t.caption_extra)?`<div class="sub">${hl(t.caption_extra,q)}</div>`:`<div class="sub"><i>${hl(t.caption_extra,q)}</i></div>`;
  if(t.context)h+=`<p class="ctx"><b>Context.</b> ${hl(t.context,q)}</p>`;
  (t.parts||[]).forEach((p,pi)=>{if(p.label)h+=`<div class="part">${hl(p.label,q)}</div>`;
-  h+=`<div class="tw" data-p="${pi}"><table><thead><tr>${p.columns.map((c,j)=>`<th class="sortable" data-col="${j}" title="Click to sort">${hl(c,q)}</th>`).join("")}</tr></thead><tbody>`;
+  h+=`<div class="tw" data-p="${pi}"><table>${headHTML(p.columns,q)}<tbody>`;
   p.rows.forEach((r,ri)=>{const sec=r.length>1&&r.slice(1).every(c=>c==="");h+=`<tr data-i="${ri}"${sec?(CJK.test(r[0])?' class="sec cjk"':' class="sec"'):""}>`+r.map((c,j)=>c==="[?]"?`<td class="illeg" title="Unreadable in the scan" aria-label="unreadable"></td>`:`<td class="${j&&isNum(c)?"num":""}${j&&c===""&&!sec&&!MARKED?" blank":""}"${j&&c===""&&!sec&&MARKED?' title="Blank in the original"':""}>${hl(c,q)}</td>`).join("")+"</tr>"});
   h+="</tbody></table></div>";if(ch)h+=`<div class="tchart" data-id="${esc(t.id)}" data-p="${pi}"></div>`});
  if((t.footnotes||[]).length){const fn=t.footnotes.map(n=>hl(n,q)),hit=fn.some(x=>x.includes("<mark>"));h+=`<details class="notes"${hit?" open":""}><summary>Printed notes (${fn.length})</summary><ul>${fn.map(x=>`<li>${x}</li>`).join("")}</ul></details>`;}
