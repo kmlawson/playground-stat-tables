@@ -64,3 +64,4 @@ KV/HV | done | korea-annual: 1930-32…1938-39 added (topicmaps/korea-annual.jso
 TW  | done | taiwan-tokei: new series (1925, 1933, 1938, 1942), topicmaps/taiwan-tokei.json, agents TW1–TW3
 JM  | done | japan-manchoukuo: new series (1934, 1936, 1938, 1939, 1940), topicmaps/japan-manchoukuo.json, agents JM1–JM6
 MP  | done | manchuria-progress: new series (1929, 1931, 1936, 1939), agents MP1–MP2
+MY  | done | manchuria-yb: new series (Manchuria Year Book 1931, 1932-33; Manchoukuo Year Book 1934, 1942), agents MY1–MY3
