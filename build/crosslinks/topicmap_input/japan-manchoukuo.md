@@ -1,0 +1,325 @@
+# Series japan-manchoukuo: The Japan-Manchoukuo Year Book
+Existing editions: (none: new series)
+New editions: japan-manchoukuo-1934, japan-manchoukuo-1936, japan-manchoukuo-1938, japan-manchoukuo-1939, japan-manchoukuo-1940
+
+## Existing topics (chapters each existing edition maps to it)
+
+## japan-manchoukuo-1934: chapters (table count; sample titles)
+- 'Front matter' (5): Distance and Length; Land Measure; Quantity, Capacity and Cubic Measures; Weights
+- 'Japan — Geography' (20): [Position, area, arable and mountainous land]; [Area of the Japanese realm]; [Population of the Japanese realm]; [Principal peaks in Japan proper, Taiwan and Chose
+- 'Japan — Geology, Volcanoes, Mineral Springs & Earthquakes' (12): Geological Composition of Japan; [Table of sedimentary formations and igneous rocks; Number and Kinds of Hot Springs; List of Popular Hot Springs
+- 'Japan — Population & Emigration' (30): [Population increase of Japan and principal countr; [Population of the entire realm]; [Sex ratio, Japan proper, 1920–1930]; [Population in large cities (over 100,000), Japan 
+- 'Japan — Imperial Court' (4): Genealogy of the Imperial House; Area of Crown Landed Estates; Number of Decorations and Holders Thereof; [Decorations conferred on foreigners]
+- 'Japan — Politics & Political Parties' (12): [Original and revised Election Laws]; The Saito Cabinet; [Relative strength of political parties in the Hou; Cabinet Changes since 1885
+- 'Japan — Administrative System' (18): Scale of Salaries — Principal Posts in Civil and M; "Sonin" and "Hannin" Rank — Salary Scale; Diplomatic & Consular Service; Imperial Household Service
+- 'Japan — Diplomacy' (1): Japanese Consulates Abroad
+- 'Japan — National Defence' (41): The Army Expenditure; The Navy Expenditure; [Physical Examination of Conscripts by Grade, 1930; Stature
+- 'Japan — Religion & Religious Works' (5): [Relative number of followers in Japan proper]; Shrines and Priests; No. of Temples; No. of Priests
+- 'Japan — Education' (39): General Statistics of Education Institutions in Ja; Statistics of Elementary Schools; Number of Children of School Age under Obligation ; [The Yochi-en (Kindergarten): schools, conductors 
+- 'Japan — Justice, Police & Prisons' (35): [Stamp duty on civil actions of 1st Instance]; Composition of Courts (End of 1931); Number of Civil Cases in 1931; Civil Cases Disposed of
+- 'Japan — Medicine & Sanitation' (10): Medical Practitioners (classification for 1931); Other Classes of Professionals; Number of Hospitals; Number of In-patients
+- 'Japan — Press & Publication' (5): Number of Dailies and Periodicals; Leading Magazines Published in Tokyo; Books and Periodicals Published; Original Works by Subject
+- 'Japan — Arts & Crafts' (1): Result of 1932 Exhibition
+- 'Japan — Amusements' (2): [Motion Pictures Produced and Rejected, 1927-1931]; [Films Classified by Country, 1931]
+- 'Japan — Public Works' (10): Expenditure Borne by State; Expenditure Borne by Prefectures, Etc.; [Road and bridge outlay]; [Statistics of damage by floods and ordinary river
+- 'Japan — Patents, Designs, Trade-Marks & Utility Models' (4): Registration of Patent Right; Registration of Utility Models; Registration of Designs; Registration of Trade-Marks
+- 'Japan — Labor' (25): [Number and membership of labor unions]; [Labor unions by kind of trade, 1932]; [Number of laborers by occupation]; [Number of factories and operatives]
+- 'Japan — Social Problems and Facts' (20): Common Lodging Houses; Public Markets; Public Dining Halls; Public Pawn Shops
+- 'Japan — Post, Telegraph & Telephone' (29): Regular Air Mail Lines Under State Subsidy; [Postal Rates for Air Mail Fees via U.S.A., per 20; Length of Inland Telegraph Lines; Radio Telegram Fees (Ships at Sea)
+- 'Japan — Railways' (32): [Statistical abstract of railway working in Japan,; Mileage Open to Traffic (Km.); Capital Invested and Percentage of Profit; [Staff of the State Railways]
+- 'Japan — Shipping & Shipbuilding' (20): Number and Tonnage of Vessels; Increase and Decrease of Registered Vessels; Increase or Decrease of Tonnage of Vessels as the ; Condition of Registered Vessels, 1927-1932
+- 'Japan — National Finance' (43): State Revenue and Expenditure; Average per Capita of Population; General Account; Special Account
+- 'Japan — Banks & Banking Business' (36): Number of Banking Organs, Exclusive of the Special; Speculation; Business; [Nippon Kwangyo Ginko: loans and debentures to end
+- 'Japan — Insurance Business' (41): [Life insurance: new contracts and contracts cance; [Life insurance business statistics, Life Assuranc; [Actual and expected deaths, all life insurance co; [Principal causes of deaths of insured]
+- 'Japan — Agriculture' (38): [Live-stock per 1,000 population]; [Number of farmers by extent of area tilled]; Farming Population in Japan Proper; Farming Households and Area
+- 'Japan — Sericulture' (26): Establishments classified by Number of Basins; Classified by Kind of Thread Produced; Number of Basins employed for Reeling; Thread-end Number of Filatures
+- 'Japan — Forestry' (18): Number and Area of Forests by Ownership; Number and Area of Principal Protection Forests; Percentage Forests (Number and Area); Results of Afforestation Work by Ownership of Fore
+- 'Japan — Fishery' (13): [Value of catches in recent years]; Permanent Fishermen and Occasional Fishermen; Fishing Craft; Coastwise Fishery and Marine Products
+- 'Japan — Mines & Mining' (16): [Total mining lots and lots under work]; Mineral Production; [Copper: production, export and import (in kilogra; [Demand and supply of pig iron, iron ore and steel
+- 'Japan — Industry' (131): Factories and Employees; [Factories and operatives by nature of business, 1; [Factories by nature of industry and motive power,; [Production by nature of business, 1927–1931]
+- 'Japan — Trade' (18): Deflation in Recent Years; [Business promotion by nature of enterprise, 1932]; General Statistics on Economic Corporations: Compa; General Statistics on Economic Corporations: Compa
+- 'Japan — Foreign Trade' (17): [Balance of Foreign Trade, 1919-1933]; Import Tariff (Extract); [Comparison of the Statutory Tariff and "Luxury Ta; Movement of Foreign Trade
+- 'Japan — Korea (Chosen)' (56): Meteorological Observation; Area, Population and Households; No. of Households Classified by Calling; No. of Population Classified by Calling
+- 'Japan — Taiwan (Formosa)' (41): Meteorological Observations — Temperature (1931); Meteorological Observations — Rainfall (1931); [Population of Taiwan at the end of 1931]; [Population of Taiwan by sex and class, selected y
+- 'Japan — Karafuto (Southern or Japanese Saghalien)' (20): [Area by district]; Climate; [Population of Karafuto, 1926-1930]; Population in Principal Towns (1930)
+- 'Japan — The South Sea Islands' (25): [Number and area of the islands by group]; [Number and area of the islands by branch bureau o; [Principal islands and their areas]; [Branch Bureaus of the South Seas Office]
+- 'Japan — Six Premier Cities' (18): [Area and population of the six premier cities]; [Comparative area and population of Tokyo, Osaka a; [Per capita tax burdens in the six premier cities]; [Area and number of villages, Old Tokyo and New To
+- 'Japan — Sports' (7): [9th Far Eastern Athletic Meeting, May 23-31, 1930; All Japan Track and Field Official Records; Speed Swimming Official Records; [Peaks of the Japanese Alps standing 10,000 ft. or
+- 'Manchoukuo — Government Posts, Organization, Weights and Measures' (2): Occupants of Leading Manchoukuo Government Posts; Weights, Measures and Moneys
+- 'Manchoukuo — Geography' (6): Area of Manchoukuo; Average Climatic Conditions in Manchoukuo; No. and Location of Meteorological Observatories o; Location of Storm Signal Stations of the Kwantung 
+- 'Manchoukuo — Historical Background' (2): [Russian expenditure on undertakings in Manchuria]; Japanese Investments in Manchuria
+- 'Manchoukuo — Establishment of the Manchoukuo Government' (2): Foreign Diplomatic and Consular Officials in Manch; Manchoukuo's Diplomatic and Consular Establishment
+- 'Manchoukuo — Industry' (49): Newly Established Companies in Manchoukuo; Companies Under Project in Manchoukuo; General Survey of Industry in Manchoukuo, 1931; Important Productions of Manchoukuo
+- 'Manchoukuo — Agriculture' (21): Percentages for Staples; Percentages for Areas of Cultivation; Crop Forecast for 1933; Output of Agricultural Products (1931)
+- 'Manchoukuo — Mining' (13): Mineral Production in Manchoukuo; Coal Deposits in Manchoukuo; Coal Production in Manchoukuo; Export of Coal of Manchoukuo
+- 'Manchoukuo — Railways' (15): New Investments & Undertakings of S.M.R., for 1934; [Business returns of railways in Manchoukuo for 19; Traffic Growth of S. M. R., 1931; Railway of Manchoukuo
+- 'Manchoukuo — Transportation & Communication' (4): Telegraph of Manchoukuo, 1931; Telephone of Manchoukuo, 1931; [Regular air lines of the Manchoukuo Air Transport; Table of Bureaus
+- 'Manchoukuo — Finance' (13): Foreign Investments in Manchoukuo, at the End of 1; Expenditures for Second Fiscal Year of Tatung (193; Revenues for Second Fiscal Year of Tatung (1933-34; Revenues for Second Fiscal Year of Tatung (1933-34
+- 'Manchoukuo — Currency' (10): [Notes issued by the Central Bank of Manchou, July; [Old notes taken over and redeemed by the Bank of ; Exchange Rate of New Currency for Former Currencie; Monthly Average Quotation of New Currency of Manch
+- 'Manchoukuo — Banking' (12): [Offices and employees taken over by the Central B; Principal Manchurian Banks; [Executive staff of the Central Bank of Manchoukuo; Balance Sheet of the Central Bank of Manchou, June
+- 'Manchoukuo — Foreign Trade' (11): Foreign Trade of Manchoukuo by Countries (1932); Staples Exported (1932); Staples Imported (1932); Comparisons between 1931 and 1932
+- 'Manchoukuo — Forestry & Fishery' (6): [Area and estimated quantity of standing timber in; Timber Output in Manchoukuo, 1931; Fish Catch in Manchoukuo; Value of Marine Products of Manchoukuo, 1931
+- 'Manchoukuo — Educational and Social Enterprises' (11): [Schools and students in Manchoukuo, July 1933]; [Popular educational institutions and libraries ma; [Schools maintained by the Japanese in the Kwantun; [Shrines, temples, churches and followers in Manch
+- 'Manchoukuo — Economic Transformation of Manchuria Vis-A-Vis Foreign Influence' (3): [Trade returns of the port of Newchwang, 1872-1909; Distribution of Manchurian Exports Through the Por; [Imports of cotton goods into Newchwang by country
+- 'Manchoukuo — Supplement I. Abstracts from Manchoukuo Government Bulletins' (11): Air Mail Special Postage Rates; Air Mail Routes Opened; [Messages sent from the Harbin Telegraph Office, b; [Exchange rates of the Gold Unit and Haikwan Tael 
+- 'Manchoukuo — Supplement II' (11): Employment of Graduates of Higher Special Schools ; Employment of Specialists and Others of Department; Increase of Japanese Residents in Manchoukuo (excl; Japanese in Kwantung Leased Territory
+- 'Manchoukuo — Supplement III. Text of Treaties, Agreements, Notes and Statutes' (4): [Officials of the Government of Kwantung (Article ; Schedule, Part I; Schedule, Part II; [Articles in Part I covered only in part]
+- "Appendix I. Who's Who" (1): List of Abbreviations
+
+## japan-manchoukuo-1936: chapters (table count; sample titles)
+- 'Front matter' (6): Census Population of Japan Proper and the Colonies; Population of Kwantung Province, the South Manchur; Errata; Weights, Measures and Moneys (Japan) — With Englis
+- 'Japan — Geography' (20): Area of Japan; Population of Japan; Principal Peaks; Principal Rivers
+- 'Japan — Geology' (13): Geological Composition of Japan; Sedimentary Formation and Contemporaneous Ingeous ; Number and Kinds of Hot Springs; List of Popular Hot Springs
+- 'Japan — Population and Emigration' (32): Population of Japan Compared with Other Countries; Density of Population; Population By Sex; Population By Urban and Suburban Districts
+- 'Japan — Imperial Court' (7): Area of Crown Landed Estates; Imperial Hereditary Estates; Number of Decorations and Holders Thereof; [Orders of Merit conferred, 1927-1933]
+- 'Japan — Administrative System' (11): Total Force of Government Service; Scale of Salaries; Pension System for Army and Navy; [Invalid Allowance rates]
+- 'Japan — Politics and Political Parties' (15): Important Features in Original and Revised Electio; Relative Strength of Political Parties; [Saito coalition Cabinet, May 26, 1932]; [Okada Cabinet, July 8, 1934]
+- 'Japan — Diplomacy' (1): List of Treaties Between Japan and Foreign Countri
+- 'Japan — National Defence' (21): The Army Expenditure; The Navy Expenditure; Statistics of Conscript Examinations; No. of Officers on Active List
+- 'Japan — Religion' (4): Number of Followers of Three Religions; No. of Shinto Shrines and Priests; No. of Temples and Priests; Statistics of Christianity
+- 'Japan — Education' (42): Number of Elementary Schools Compared With Other C; General Statistics of Educational Institutions in ; Statistics of Elementary Schools; Number of Children of School Age Under Obligation 
+- 'Japan — Judicature' (37): [Stamp duty on civil actions, 1st Instance]; Competition of Courts; Number of Civil Cases in 1933; Civil Cases Disposed of
+- 'Japan — Medicine and Sanitation' (20): Number of Medical Practitioners by Sex and Qualifi; Recipients of Licences by Qualifications; Dentists, Pharmacists and Other Professionals; Public Hospitals
+- 'Japan — Press and Publications' (6): No. of Dailies and Periodicals; Foreign Correspondents in Tokyo; Leading Magazines Published in Tokyo; Publications for Past Five Years
+- 'Japan — Arts and Crafts' (6): List of Membership of the Imperial Academy of Art; Members of Hanging Committee for 1934 Exhibition; Results of 1934 Exhibition; Honorary Mention Nominees
+- 'Japan — Public Works' (11): Expenditure Borne by State; Expenditure Borne by Prefectures, Etc.; Road Construction in Recent Years; Road and Bridge Outlay
+- 'Japan — Communications' (33): Number of Post Offices; Inland Mail Routes (Kms.); Number of Ordinary Mail at Inland Post Offices; Ordinary Foreign Mail Matter
+- 'Japan — Labour' (32): Number of Labourers; Various Kinds of Labourers; Number and Membership of Labour Unions by Kinds of; May Day Demonstrations for Nine Years
+- 'Japan — Social Problems' (24): Various Economic Provisions for Masses; Details of Co-operative Societies; Co-operative Societies By Kind of Business; Details of Co-operative Consumers' Societies
+- 'Japan — Industrial Properties' (4): Registration of Patent Right; Registration of Utility Models; Registration of Designs; Registration of Trade-Marks
+- 'Japan — Transportation' (42): [Length of railway lines in operation, end of 1932; General Condition of Railway Lines in Japan; General Statistics of Railways; Capital Invested and Percentage of Profits
+- 'Japan — Shipping and Shipbuilding' (23): Number and Tonnage of Ships; Increase and Decrease of Registered Ships; [Increase or decrease of tonnage as result of reme; Condition of Registered Vessels
+- 'Japan — Public and Local Finance' (42): General Budget for 1935-1936; General Account — Revenue; General Account — Expenditure; [Service and general expenditure, 1931-32 and 1935
+- 'Japan — Banking' (37): Bank Merger and Capitalization; Rates of Dividend Paid by Banks in Latter Half of ; Rate of Dividend; [Public Loan Bonds Underwritten and Sold by the Ba
+- 'Japan — Insurance' (40): General Condition of Life Insurance; Number of Contracts; Actual and Estimated Deaths; Number of Deaths By Causes
+- 'Japan — Agriculture' (50): [Population of Japan Proper and farming population; [Area of whole country and arable land]; [Proportion of arable land compared with other cou; [Damage to rice crops in Tohoku prefectures]
+- 'Japan — Sericulture' (12): Output of Cocoons, etc.; Silk-worm Eggs; Mulberry Plantations; Number of Basins and Filatures
+- 'Japan — Forestry' (24): Area of Forests; [Area of forests in Japan Proper at the end of 193; Area of Forests by Ownership; [Protection forests at the end of 1933]
+- 'Japan — Fishery' (19): Total Value of Catches; Number and Membership of Associations; Fishing Population; Number of Fishing Craft
+- 'Japan — Mining' (15): Mining Lots and Those Under Work; Principal Mineral Products in Japan Proper; Production and Import and Export of Copper; Pig-iron and Steel
+- 'Japan — Manufacturing Industries' (136): Production Indices; Output of Staple Industrial Products for First Hal; Number of Factories and Operatives; Number of Factories and Operatives by Industry
+- 'Japan — Trade' (27): Promotion, Extension, Reduction and Dissolution; Promotion, Extension, etc., By Business; Speculation; Business Indices: Wholesale Prices, Retail Price I
+- 'Japan — Foreign Trade' (31): Exports and Imports By Groups; Values of Exports and Imports by Countries, 1934 —; Values of Exports and Imports by Countries, 1934 —; Principal Articles Exported and Imported, 1934 — I
+- 'Japan — Korea (Chosen)' (47): Number of Households By Occupations; Population by Occupations; Movement of Population; Number of Household and Population of Koreans
+- 'Japan — Formosa (Taiwan)' (46): Temperature (1932); Rainfall (1932); Total Population at End of 1933-34; Census Population By Sex
+- 'Japan — Karafuto (Southern or Japanese Saghalien)' (24): Area of Karafuto By Districts; Climate (in 1933); Population By Sex and Nationality; Population of Principal Towns
+- 'Japan — South Sea Islands' (24): Groups of Islands and Their Area; Islands By Jurisdiction of Branch Bureaus of South; Principal Islands and Their Area; Names, Sites and Sphere of Jurisdiction of Branch 
+- 'Japan — Six Premier Cities' (41): Area and Population of Six Cities; Area and Population of Tokyo and Osaka Compared Wi; Tax Burdens; Tax Burdens per Capita and per Household
+- 'Japan — Sports' (27): 1934 All-Japan Men's Championships; 1934 All-Japan Women's Championships; 1934 All-Japan Students Championships; 1935 U.S.-Japan Dual Meet, Won by Japan, 36 to 27
+- 'Manchoukuo — Diagrammatic Chart of Government Organization of Manchoukuo' (2): Occupants of Leading Manchoukuo Government Posts, ; Weights, Measures and Moneys
+- 'Manchoukuo — Geography & Geology' (9): Area; Geologic Formation of Manchuria; Geologic Formation of Mongolia; Monthly Temperature Averages
+- 'Manchoukuo — Historical Outline' (3): [Russian expenditure on the Chinese Eastern Railwa; Japanese Investments in Manchuria; Japanese Investments since 1932
+- 'Manchoukuo — Population and Immigration' (13): Population of Manchoukuo including S.M.R. Zone; Population of Kwantung Leased Territory; Comparative Population of Manchoukuo Proper and S.; Population of Manchoukuo classified by nationality
+- 'Manchoukuo — Administration' (5): Table of Industries to be Placed Under the Economi; Allowance to Officials; [Pension to resigned officials by period of servic; [Four ranks of officials and monthly salary]
+- 'Manchoukuo — Judicature' (2): No. of Judicial Officials; [Names and locations of prisons]
+- 'Manchoukuo — National Defence' (7): [Japanese Appropriation for National Defence of Ma; [Sections of the Third Part of the Department of N; Army Organization of Manchoukuo; [Steps in the Military Reorganization of Manchouku
+- 'Manchoukuo — Education' (15): No. of Educational Institutions; Enrollment at Primary Schools; Enrollment at Middle Schools; Enrollment at Normal Schools
+- 'Manchoukuo — State Finance' (18): [Yearly expansion of the state Budget]; General Accounts Budget for 2nd Fiscal Year of Kan; Special Accounts Budget for 2nd Fiscal Year of Kan; General Accounts Supplementary Budget (No. 1) (Nov
+- 'Manchoukuo — Currency' (8): Exchange Rate of New Currency for Former Curencies; Amount of Old Notes Redeemed; Note Issue and Amount of Reserve; Amount of Subsidary Coins Issued
+- 'Manchoukuo — Banking' (13): [Offices and employees taken over by the Central B; Balance Statement of the Central Bank of Manchou; Principal Native Banks in Manchoukuo (1935); Assets and Liabilities of Native Ordinary Banks an
+- 'Manchoukuo — Transportations and Communications' (20): Roads Newly Constructed by the Highway Constructio; Opened & Projected National Bus Lines of Manchouku; Private Bus Lines of Manchoukuo; Scheduled Flights
+- 'Manchoukuo — Railways' (6): [Railways of Manchoukuo classified by ownership]; Railway Mileage to Area; Railway Mileage to Population; Manchoukuo State Railways
+- 'Manchoukuo — Purchase of the N. M. R.' (5): Population; Revenue; Generating Capacity; Revenue & Expenditure
+- 'Manchoukuo — Agriculture' (10): Principal Crops & Output; [Landed farmers by acreage, Pulantien prefecture]; [Farmers by acreage, Liaoyang prefecture]; [Farmers by acreage cultivated, same province]
+- 'Manchoukuo — Forestry' (12): The Wealth of Forests; Volume of Trees (Tumen River Valley); Volume of Trees (Sungari River Valley); Volume of Trees (Moutankiang River Valley)
+- 'Manchoukuo — Fishery' (13): No. of Fishing Households and Population; No. of Fishing Crafts; Kinds of Marine Catches; Principal Marine Catches
+- 'Manchoukuo — Mining' (16): [Principal mineral resources]; Mining Output; Coal Deposits; Coal Output Fushun Colliery (Heavy Tons)
+- 'Manchoukuo — Industries' (43): Amount of Industrial Investment & Value of Product; Foreign Capital Investments in Manchoukuo (1930); Amount of Industrial Investment & Production Class; No. of Plants & Operatives as Classified by Enterp
+- 'Manchoukuo — Foreign Trade' (12): [Total Foreign Trade of Manchoukuo]; [Trade Balance of Manchoukuo]; Trade by Countries; Foreign Trade*
+- 'Manchoukuo — Sanitation' (6): Location of Public Physicians; No. of Patients & Mortality; Patients Treated in Leased Territory; Number of Patients
+- 'Manchoukuo — Kwantung Leased Territory' (8): Annual Revenue and Expenditure; No. of Post, Telegraph and Telephone Offices, etc.; Mail Lines Classified; Mail Matters
+- 'Manchoukuo — Hsingan (The Mongol Province)' (11): Area and Population of Hsingan Province; Banners of Manchoukuo; Distribution of the Mongol Tribes; Local Administrative Divisions
+- 'Manchoukuo — Jehol (Gateway to Mongolia)' (4): Area & Population; Monthly Average Temperatures (Fahrenheit); Mines of Jehol Province; [External trade of Jehol Province, 1930: goods abo
+- 'Manchoukuo — South Manchuria Railway Company' (22): [Successive Presidents of the South Manchuria Rail; S.M.R. Lines; General Balance Sheet of the S.M.R. as on March 31; Profit and Loss Account
+- 'Manchoukuo — Custom Tariff' (2): Import Tariff; Export Tariff
+- 'Supplement — Manchoukuo: Government Bulletins' (1): Law Governing Mining Registration Fees: Schedule o
+- 'Supplement — Manchoukuo: Treaties' (1): List of Abbreviations
+- 'Konzerns of Japan' (4): Companies Controlled by Mitsui; Companies Controlled by the Mitsubishi; Companies Controlled by the Sumitomo; Companies Controlled by the Yasuda
+- 'Map Index of Place Names' (4): Map Index of Place Names; [Note: Typical Differences in Pronunciation betwee; Phonetic Representation of Characters; Meaning of Common Endings
+
+## japan-manchoukuo-1938: chapters (table count; sample titles)
+- 'Japan — Diagrammatic Charts' (10): Japan's Population by Occupations; Japan's Wealth; State Revenues & Expenditures, General Account; Foreign Trade of Japan Proper: By Countries and By
+- 'Japan — Weights, Measures, Moneys' (1): Weights, Measures and Moneys (Japan) — With Englis
+- 'Japan — Japanese and Manchoukuo Year Dates' (2): Japanese Year Dates; Manchoukuo Year Dates
+- 'Japan — Geography' (20): Area of Japan; [Position and Area of the Empire]; Principal Peaks in Japan Proper; Principal Rivers
+- 'Japan — Geology' (11): Geological Composition of Japan; Sedimentary Formation and Contemporaneous Igneous ; Number and Kinds of Hot Springs; List of Popular Hot Springs
+- 'Japan — Population and Emigration' (28): Population of Japan Compared with Other Countries; Density of Population; Population By Sex; Population By Urban and Surburban Districts
+- 'Japan — Imperial Court' (7): Area of Crown Landed Estates; Imperial Estates; Number of Decorations and Holders thereof; Decorations Presented to or Conferred on Foreigner
+- 'Japan — Administrative System' (10): Total Force of Government Service; Scale of Salaries; Pension System for Army and Navy; Retiring Allowance for Army and Navy
+- 'Japan — Politics and Political Parties' (12): Composition of the House of Peers; Factions in House of Peers; Chronological Session of House of Representatives; Important Features in Original and Revised Electio
+- 'Japan — Diplomacy' (1): List of Treaties Between Japan and Foreign Countri
+- 'Japan — National Defence' (19): The Army Expenditure; The Navy Expenditure; Statistics of Conscript Examinations; No. of Officers on Active List
+- 'Japan — Religion' (4): Number of Followers of Three Religions; No. of Shinto Shrines and Priests; No. of Temples and Priests; Statistics of Christianity
+- 'Japan — Education' (42): Number of Elementary Schools Compared With Other C; General Statistics of Educational Institutions in ; Statistics of Elementary Schools; Number of Children of School Age Under Obligation 
+- 'Japan — Judicature' (28): [Costs of 1st Instance in civil procedure: stamp d; Composition of Courts; Number of Civil Cases in 1935; Civil Cases Disposed of
+- 'Japan — Medicine and Sanitation' (22): Number of Medical Practitioners by Sex Qualificati; Recipients of Licences by Qualifications; Dentists, Pharmacists and Other Professionals; Public Hospitals
+- 'Japan — Press and Publications' (6): No. of Dailies and Periodicals; Foreign Correspondents in Tokyo; Leading Magazines Published in Tokyo; Publications for Past Five Years
+- 'Japan — Arts and Crafts' (6): List of Membership of the Imperial Academy of Art; Members of Hanging Committee for 1936 Exhibition o; Results of 1936 Exhibition of Fine Arts Held by Th; Honorary Mention Nominees
+- 'Japan — Public Work' (13): Expenditure Borne for Public Works By State; Expenditure Borne for Public Works By Prefectures,; Road Construction in Recent Years; Road and Bridge Outlay
+- 'Japan — Communications' (34): Number of Post Offices; Inland Mail Routes; Number of Ordinary Mail at Inland Post Offices; Ordinary Foreign Mail Matter
+- 'Japan — Labor' (26): Numerical Strength of Labor Unions in Japan; Number of Labourers; Labourers Classified; Number and Membership of Labour Unions By Kinds of
+- 'Japan — Social Problems' (23): Various Economic Provisions for Masses; Details of Co-operative Societies; Co-operative Societies By Kind of Business; Details of Co-operative Consumers' Societies
+- 'Japan — Industrial Problems' (5): Registration of Patent Right; Registration of Utility Models; Registration of Designs; Registration of Trade-Marks
+- 'Japan — Transportation' (50): General Condition of Railway Lines in Japan; General Statistics of Railways; Capital Invested and Percentage of Profits; Number of Officials and Employees
+- 'Japan — Shipping and Shipbuilding' (24): Number and Tonnage of Ships in Japan Proper; Increase and Decrease of Registered Ships; Condition of Registered Vessels; Steamers By Age
+- 'Japan — Public and Local Finance' (43): General Budget for 1937–38; General Account; Special Account; Supplementary Budget for 1937-38
+- 'Japan — Banking' (32): Bank Merger and Capitalization; Banks T.T. Selling Rates on London and New York; Principal Accounts of Special, Ordinary and Saving; Principal Accounts of Banks Classified
+- 'Japan — Insurance' (38): General Condition of Life Insurance; Number of Contracts; Actual and Expected Deaths; Number of Deaths By Causes
+- 'Japan — Agriculture' (41): Farms Classified by Area; Area of Arable Land and Farming Population; Area of Land Utilized for Various Purposes; Average Agricultural Gross Income per Household
+- 'Japan — Sericulture' (9): Output of Cocoons, etc.; Silk-worm Eggs; Mulberry Plantations; Number of Basins and Filatures
+- 'Japan — Forestry' (19): Area of Forests; Area of Forests By Ownership; [Protection forests at the end of 1935]; Protection Forests By Purposes
+- 'Japan — Fishery' (19): Total Value of Catches; Number and Membership of Associations; Fishing Population; Number of Fishing Crafts
+- 'Japan — Mining' (18): Mining Lots and Those Under Work; Principal Mineral Products in Japan Proper; Production, Import and Export of Copper; Pig-iron and Steel
+- 'Japan — Manufacturing Industries' (126): Industrial Production Indices; Number of Factories and Operatives; Number of Factories and Operatives By Industry; Number of Factories By Industry and Power
+- 'Japan — Trade' (24): Promotion, Extension, Reduction and Dissolution; Promotion, Extension, etc., By Business in 1936; Capital and Profit and Loss of Companies; Number of Companies By Business
+- 'Japan — Foreign Trade' (21): Exports and Imports By Groups; Trade With New Markets; Foreign Trade of Japanese Empire since 1889; Foreign Trade Indices
+- 'Japan — Korea (Chosen)' (52): Temperature; Weather Conditions (1935); Area, Population and Households; Number of Households By Occupations
+- 'Japan — Formosa (Taiwan)' (44): Temperature (1935); Rainfall (1935); Total Population at End of 1935; Census Population By Sex
+- 'Japan — Karafuto (Southern or Japanese Saghalien)' (24): Area of Karafuto By Districts; Climate (in 1935); Population By Sex and Nationality; Population of Principal Towns
+- 'Japan — South Sea Islands' (23): Groups of Islands and Their Area; Islands By Jurisdiction of Branch Bureaus of South; Principal Islands and Their Area; Names, Sites and Sphere of Jurisdiction of Branch 
+- 'Japan — Six Premier Cities' (40): Area and Population of Six Cities; Area and Population of Tokyo and Osaka Compared Wi; Tax Burdens in 1934; Tax Burdens per Capita and per Household in 1934
+- 'Japan — Sports' (20): All-Japan Men's Championships and Preliminaries of; All-Japan Women's Championships and Preliminaries ; Men's Japanese Swimming Records; Women's Japanese Swimming Records
+- "Supplement — Japan's Industrial Position in North China" (27): (A) Area and Population of North China By Province; (B) Japanese Residents at Principal Cities in Nort; Revenue from Customs Houses; Spinning and Weaving Cos. Under Japanese Capitaliz
+- 'Manchoukuo — Diagrammatic Chart of Government Organization of Manchoukuo' (1): Occupants of Leading Manchoukuo Government Posts, 
+- 'Manchoukuo — Weights, Measures and Money' (1): Weights, Measures and Moneys
+- 'Manchoukuo — Geography & Geology' (9): Area; Ten Largest River Basins of Manchoukuo; Geologic Formation of Manchuria; Geologic Formation of Mongolia
+- 'Manchoukuo — Population and Immigration' (17): [Subsidy to self-guarding Japanese immigrants per ; Population By Nationality; Population By Province; No. of Households for Recent Years
+- 'Manchoukuo — Administration' (6): Members of The New Cabinet; Allowance to Officials; Grand to Officials; Order & Salary of Officials
+- 'Manchoukuo — Judicature' (9): Number of Civil Cases; Number of Criminal Cases; Water Police Bureaus; Number of Police Offices and Fire Stations
+- 'Manchoukuo — National Defence' (13): Amount of Allotment of National Defense Expenditur; Manchuria Incident Expenses of the Army and Navy D; Army Organization of Manchoukuo; [Steps in the Military Reorganization of Manchouku
+- 'Manchoukuo — Education' (13): No. of Educational Institutions; Statistics of Primary Schools By Provinces; Statistics of Middle Schools; Statistics of Normal Schools
+- 'Manchoukuo — State Finance' (9): State Revenue and Expenditure Since Foundation of ; General Accounts Budget For 3rd Fiscal Year of Kan; General Accounts Budget For 3rd Fiscal Year of Kan; Special Accounts Budget For 3rd Fiscal Year of Kan
+- 'Manchoukuo — Currency' (5): Note Issue and Amount of Reserve; Amount of Subsidiary Coins Issued; Manchoukuo Yuan Foreign Exchange Rates; Kinds of Old Currency
+- 'Manchoukuo — Banking' (14): [Offices and employees taken over by the Central B; Balance Statement of the Central Bank of Manchou; Principal Native Banks in Manchoukuo (1936); Ordinary Banks Under Manchoukuo Banking Law
+- 'Manchoukuo — Transportation' (17): Roads Newly Constructed by the Highway Constructio; Special Bridges Newly Constructed by the Highway C; Extension of Motor-bus Lines; National Bus Lines of Manchoukuo
+- 'Manchoukuo — Communications' (12): Broadcasting Station in Manchoukuo; Assets & Liabilities of the Manchuria Telegraph & ; General Statistics on Telegraph, Telephone, Radio; Telephone & Telegraph Offices By Superintendence B
+- 'Manchoukuo — Railways' (7): Railways Classified; Railway Mileage per 100 Square Kilometers By Desti; Railway Mileage per 10,000 Population By Destinati; General Statistics on Railways
+- 'Manchoukuo — Agriculture' (16): Arable Area and Farming Population; Details of Arable Land (1936); Koreans in Manchoukuo; Farming Immigrants from China
+- 'Manchoukuo — Commerce' (15): Chambers of Commerce; Registration of Trade Mark; Registration of Patent Right; Registration of Designs
+- 'Manchoukuo — Forestry' (6): The Wealth of Forests by Hsiens; Demand and Supply of Timber; Forestry Offices of Manchoukuo, 1936; Area of Forests in Kwantung Province (End of 1935)
+- 'Manchoukuo — Aquatic Products Industry' (12): Value and Volume of Catches of Salt Water Fish in ; Fresh Water Catches; Exports & Imports of Marine Products; No. of Fishing Households and Population in Kwantu
+- 'Manchoukuo — Mining' (19): Mineral Resources; Mining Output; Coal Deposits; Output & Consumption of Coal in Manchoukuo
+- 'Manchoukuo — Manufacturing Industry' (50): General Condition of Industries in 1936; Number of Factories, etc.; Average Wages in Principal Cities; Working Hours & Wages (1933)
+- 'Manchoukuo — Foreign Trade' (19): Foreign Trade of Manchuria; Foreign Trade By Months; [Imports and exports (inclusive of re-imports and ; Staple Exports
+- 'Manchoukuo — Sanitation' (17): Number of Infectious Cases and Mortality; No. of Hospitals, etc.; No. of Patients Treated by Public Physicians by Di; Number of Physicians
+- 'Manchoukuo — Labor' (12): Movement of Chinese Laborers into and from Manchou; Origins of Chinese Labor Immigration into Manchouk; Chinese Entering and Leaving Manchoukuo*; Labor Immigration and Emigration By Month
+- 'Manchoukuo — South Manchuria Railway Company' (11): [Successive Presidents of the Company]; S.M.R. Lines; S.M.R. Capital; S.M.R. Debentures
+- 'Manchoukuo — Kwantung Leased Territory' (11): Annual Revenue and Expenditure; [Revenue from national and local taxes, 1935]; Condition of Primary Schools; No. of Live-stock in Kwantung Government District
+- 'Manchoukuo — Japan-Manchoukuo Economic Relations' (9): Principal Japanese Investments Since 1932; Total Number of Companies & Capitalization by Kind; Capitalization Since the Manchurian Incident; Total Number of Companies and Capitalization in Ma
+- "Who's Who in Japan & Manchoukuo" (1): Abbreviations
+- 'Konzerns of Japan' (9): Companies Controlled by the House of Mitsui; Companies Controlled by the House of Mitsubishi; Companies Controlled by the House of Sumitomo; Companies Controlled by the House of Yasuda
+
+## japan-manchoukuo-1939: chapters (table count; sample titles)
+- 'Front matter' (15): Capital Investment in Japan; State Revenue & Expenditures, General Accounts, Ja; Foreign Trade of Japan Proper: By Kinds, 1937; Foreign Trade of Japan Proper: By Countries, 1937
+- 'Japan — Geography' (11): Japan's Position in Area and Population; Area of Japan; [Principal plains (fragment; start of table missin; Atmospheric Pressure (in mm.)
+- 'Japan — Geology' (11): Geological Composition of Japan; Sedimentary Formation and Contemporaneous Igneous ; Number and Kinds of Hot Springs; List of Popular Hot Springs
+- 'Japan — Population and Emigration' (22): Population of Japan Compared with Other Countries; Density of Population; Census Population By Sex; Population By Urban and Suburban Districts
+- 'Japan — Imperial Court' (7): Area of Crown Landed Estates; Imperial Estates; Number of Decorations and Holders Thereof; Decorations Presented to or Conferred on Foreigner
+- 'Japan — Administrative System' (11): Government Civil Service; Scale of Salaries; Pension System for Army and Navy; [Invalid allowance rates]
+- 'Japan — Politics and Political Parties' (11): Composition of the House of Peers; Factions in House of Peers; Chronological Session of House of Representatives; Important Features in Original and Revised Electio
+- 'Japan — Diplomacy' (1): List of Treaties Between Japan and Foreign Countri
+- 'Japan — National Defence' (22): The Army Expenditure; The Navy Expenditure; Statistics of Conscript Examinations; No. of Officers on Active List
+- 'Japan — Religion' (4): Number of Followers of the Three Religions; No. of Shinto Shrines and Priests; No. of Temples and Priests; Statistics of Christianity
+- 'Japan — Education' (36): International Comparison of Number of Elementary S; General Statistics of Educational Institutions in ; Statistics of Elementary Schools; Number of Children of School Age Under Obligation 
+- 'Japan — Judicature' (27): Composition of Courts; Number of Civil Cases in 1936; Civil Cases Disposed of; Nature of Civil Cases Settled at 1st Instance
+- 'Japan — Medicine and Sanitation' (21): Number of Medical Practitioners by Sex Qualificati; Recipients of Licences by Qualifications; Dentists, Pharmacists and Other Professionals; Public Hospitals
+- 'Japan — Press and Publications' (6): No. of Dailies and Periodicals; Foreign Correspondents in Tokyo; Leading Magazines Published in Tokyo; Publications
+- 'Japan — Arts and Crafts' (5): Imperial Board of Art (Teikoku Geijyutsu-in); Members of Hanging Committee for 1938 Exhibition o; List of National Treasures; List of Court Artists
+- 'Japan — Public Works' (13): Expenditure Borne for Public Works by State; Expenditure Borne for Public Works by Prefectures,; Road Classified in Recent Years; Road and Bridge Outlay
+- 'Japan — Communications' (32): Number of Post Offices; Inland Mail Routes; Number of Ordinary Mail at Inland Post Offices; Ordinary Foreign Mail Matter
+- 'Japan — Labor' (27): Indices of Number of Laborers; Indices of Number of Laborers By Countries; Number of Laborers*; Indices of the Number of Laborers by Kinds of Indu
+- 'Japan — Social Problems' (20): Various Economic Provisions for Masses; Details of Co-operative Societies; Co-operative Societies By Kind of Business; Government Mutual Aid Associations
+- 'Japan — Industrial Properties' (5): Registration of Patent Right; Registration of Utility Models; Registration of Designs; Registration of Trade-Marks
+- 'Japan — Transportation' (46): Japan's Position in Railways; General Condition of Railway Lines in Japan; Length of Railways; Capital Invested and Percentage of Profits
+- 'Japan — Shipping & Shipbuilding' (21): Japan's Position in World Shipping; Number and Tonnage of Ships Launched in Japan Comp; Number and Tonnage of Ships in Japan Proper; Increase and Decrease of Registered Ships
+- 'Japan — Public and Local Finances' (41): 1935-36 Revenue Estimates; 1935-36 Expenditure Estimates; [New Budget]; Position of State Expenditure to State Revenue and
+- 'Japan — Banking' (36): Number & Capitalization of Banks; Employment of Banking Funds; Banking Resources and Investments; Various Loans to Industries Classified
+- 'Japan — Insurance' (14): Japan's Position in Life Insurance; Rates of Investment Yields of Life Insurance Compa; The Position of the Big Five Companies in Life Ins; Percentage of Business Expenses to Premiums Receiv
+- 'Japan — Agriculture' (51): Value of Principal Agricultural and Pastoral Produ; Farms Classified by Area; Area of Arable Land and Farming Population of the ; Area of Land Utilized for Various Purposes
+- 'Japan — Sericulture' (9): Output of Cocoons in Japan Proper Compared With Ot; Output of Cocoons, Etc. in Japan Proper; Silk-worm Eggs; Mulberry Plantations
+- 'Japan — Forestry' (18): Japan's Position in Area of Forests; Area of Forests; Area of Forests By Ownership; Protection Forests By Purposes
+- 'Japan — Fishery' (24): Japan's Position in Fishery Catches; Total Value of Catches; Number and Membership of Associations; Fishing Population
+- 'Japan — Mining' (29): Volume Indices of Mineral Production; Value of Mineral Production in Japanese Empire; Japan's Position in Output of Certain Basic Minera; Statistics of Mining Lots
+- 'Japan — Manufacturing Industries' (10): Indices of Industrial Production by Countries; Trend of Industrial Production in Japan; Volume Indices of Industrial Production by Princip; Production and Number of Factories and Operatives 
+- 'Japan — Textile Industry' (34): Volume Indices of Textile Production; Japan's Position in Number of Spindles and Consump; Comparison of British and Japanese Cotton Fabric E; Cotton Cloth Output, Etc. By Member Companies of t
+- 'Japan — Electric and Gas Industries' (12): Principal Rivers & Average Potential Output of H.P; Power Generating Capacity; Demand for Electric Lights; Consumption of Electric Power by Industries
+- 'Japan — Chemical and Ceramic Industries' (41): Volume Indices of Chemical & Ceramic Production; Output Value of Commercial Fertilizer; Production of Chemical Fertilizers Classified; Demand & Supply of Fertilizer
+- 'Japan — Foodstuff Industry' (19): Japan's Position in Cane Sugar Production; Sugar Production of Japanese Empire; Sugar Export; Export of Refined Sugar By Destinations
+- 'Japan — Mechanical Industry' (24): Demand and Supply in the Mechanical Industry; Output Classified in the Mechanical Industry; Principal Items of Exports; Principal Items of Imports
+- 'Japan — Miscellaneous Industries' (13): Production and Exports of Knitted Goods; Production and Exports of Hats; Production of Lacquer Ware; Production of Leather & Hide, Manufactured Goods
+- 'Japan — Trade' (22): Production in Japan Proper; General Statistics of Companies by Business; Business Results of Leading Companies (At End of 2; Capitalization of Companies Classified
+- 'Japan — Foreign Trade' (18): Japan's Trade Distribution by Political Units; Exports and Imports by Groups; Foreign Trade of Japanese Empire Since 1889; Foreign Trade Indices
+- 'Japan — Six Premier Cities' (26): Area and Population of Six Premier Cities; Tax Burden in 1935–36; Revenue of Six Premier Cities; Expenditure of Six Premier Cities
+- 'Japan — Sports' (23): Results of All-Japan Aquatic Meet Held at the Meij; Comparison of Amano's Lap-time with Arne Borg's; Results of 1938 All-Japan Aquatic Meet; Results of 17th All-Japan Students Aquatic Meet
+- 'Japan — Chosen (Korea)' (48): Temperature (1936); Weather Conditions in 1936; Area, Population and Households; Population by Occupation
+- 'Japan — Taiwan (Formosa)' (44): Average Temperature (1936); Rainfall in 1936 (mm.); Census Population By Sex; Population By Japanese, Natives and Foreigners
+- 'Japan — Karafuto (Saghalien)' (25): Area of Karafuto By Districts; Climate (1936); Population By Sex and Nationality; Population and Household in Principal Towns
+- 'Japan — The South Sea Mandated Islands' (22): Groups of Islands and Their Area; Islands By Jurisdiction of Branch Bureau of South ; Principal Islands and Their Area; Names, Sites and Sphere of Jurisdiction of Branch 
+- 'Supplement — Diplomatic & Consular Service' (1): Foreign Consulates in Japan
+- 'Manchoukuo — Geography & Geology' (13): Occupants of Leading Manchoukuo Government Posts, ; Weights, Measures and Moneys (Manchoukuo); Area; Principal Mountain Systems in Manchoukuo
+- 'Manchoukuo — Population and Immigration' (21): Population of Manchoukuo and Kwantung Classified b; Population by Provinces; Population of Principal Cities; Population By Age in Manchoukuo
+- 'Manchoukuo — Administration' (6): Members of The New Cabinet; Allowance to Officials; Grants to Officials — Pension for Resigned Officia; Order & Salary of Officials
+- 'Manchoukuo — Judicature' (10): Number of Civil Cases; Number of Criminal Cases; [Police Boards and districts under their jurisdict; Water Police Bureaus
+- 'Manchoukuo — Diplomacy' (2): Foreign Diplomats and Consular Officials in Mancho; Manchoukuo's Diplomatic and Consular Services
+- 'Manchoukuo — National Defence' (10): National Defense Appropriations to Japanese Army a; Manchuria Incident Expenses of the Army and Navy D; Gunboats of Manchoukuo; No. of Bandits
+- 'Manchoukuo — Education (And Religion)' (18): No. of Educational Institutions; Number of Children of School Age Under Obligation ; Statistics of Primary Schools; Revenue and Expenditure of Primary Schools in 1936
+- 'Manchoukuo — State Finance' (8): State Revenue and Expenditure Since Foundation of ; State Revenue Classified; State Expenditures Classified; National Loans and Borrowings Outstanding
+- 'Manchoukuo — Banking & Currency' (20): Principal Accounts of the Central Bank of Manchou; Principal Native Banks in Manchoukuo; Principal Accounts of the Industrial Bank of Manch; Principal Japanese Banks in Manchoukuo
+- 'Manchoukuo — Communications' (25): Broadcasting Stations in Manchoukuo; Number of Radio Listeners-in by Nationality; Radio Broadcasting by Languages in 1937; Radio Programs Classified
+- 'Manchoukuo — Transportation' (14): Condition of Motor Bus Transportation; National Bus Lines of Manchoukuo; Projected Lines; Number of Road Accidents and Casualties (1935)
+- 'Manchoukuo — Railways' (8): General Statistics of Railways in Manchuria; Railways Built Prior to Founding of Manchoukuo in ; Railways Built Since 1933; Goods Hauled by Kinds
+- 'Manchoukuo — Agriculture' (18): Arable Land & Farming Population; Details of Arable Land; Imports of Agricultural Machinery, Implements, Too; Imports of Fertilizers
+- 'Manchoukuo — Commerce' (13): Chambers of Commerce and Industry; Details of Chambers of Commerce and Industry; Application and Registration of Patent, Design and; Condition of Import Guilds
+- 'Manchoukuo — Forestry' (12): The Wealth of Forests by Hsiens; Demand and Supply of Timber; Investment in Forestry Industry; Output Value of Timber, Fagot and Charcoal
+- 'Manchoukuo — Fisheries' (12): Value and Volume of Catches of Salt Water Fish in ; Fresh Water Catches; Exports & Imports of Marine Products; No. of Fishing Households and Population in Kwantu
+- 'Manchoukuo — Mining' (27): Mineral Resources; Mining Output; Coal Deposits; Coal Output by Mines
+- 'Manchoukuo — Manufacturing Industry' (50): Statistics of Manufacturing Industries in Manchuri; Capital Investment Outstanding in Manufacturing In; Details of Spinning Industry; Leading Spinning and Weaving Companies in Manchouk
+- 'Manchoukuo — Foreign Trade' (12): Foreign Trade of Manchuria; Value Percentage of Exports & Imports of Merchandi; Value of Staple Exports; Value of Staple Imports
+- 'Manchoukuo — Sanitation' (17): Number of Infectious Cases and Mortality; No. of Hospitals, etc.; Number of Patients Treated by Public Physicians; No. of Physicians
+- 'Manchoukuo — Labor' (14): Chinese Laborers Entering Manchuria, Classified by; Origins of Chinese Laborers Entering Manchoukuo; Chinese, Including Laborers, Entering and Leaving ; Labor Immigration and Emigration By Month
+- 'Manchoukuo — The South Manchuria Railway Company' (11): S.M.R. Lines; [Successive Presidents of the Company]; General Balance Sheet; Profit and Loss Account
+- 'Manchoukuo — Economic Policy' (10): Estimated Capital Outlay for Original and Revised ; Suppliers of Capital for Original and Revised 5-Ye; Estimated Annual Production in Closing Year of Ori; Japan's Investments Outstanding in Manchuria
+- 'Manchoukuo — Kwantung Leased Territory' (2): Annual Revenue and Expenditure; Tax Revenue
+- "Supplement — Japan's Economic Position in China" (30): Foreign Investment in China and Manchuria, 1902; Foreign Investment in China and Manchuria, 1931; Foreign Investment in China, 1931; Distribution by Purpose, 1931
+- "Who's Who in Japan & Manchoukuo" (1): Abbreviations
+- 'Business Directory' (2): Position of Konzerns in Production; Paid-up Capital of Konzerns in Japan
+- 'Konzerns of Japan' (22): Estimated Worth of Companies Controlled by Konzern; Percentage of Shares Owned by Konzerns; Paid-up Capital of Konzerns Classified; Paid-up Capital of Konzerns by Enterprises
+
+## japan-manchoukuo-1940: chapters (table count; sample titles)
+- 'Diagrams' (12): Production in Japan — Production of Manufacturing ; Position of 14 Konzerns in Japan's Economic Struct; Position in Industries and Financing Resources of ; Foreign Trade of Japan Proper
+- 'Weights, Measures and Year Dates' (2): Weights, Measures and Moneys (Japan) With English ; Japanese Year Dates; Manchoukuo Year Dates
+- 'Japan — Geography' (2): Japan's Position in Area and Population; Area of Japan
+- 'Japan — National Defence' (7): [Japanese Navy vessels: Torpedo Boats and Mine Swe; Headquarters of Naval Air Regiments; Casualties in the Sino-Japanese Hostilities; List of Arms Seized by the Japanese Forces
+- 'Japan — Transportation' (1): Distance and Fares of Principal Airways
+- 'Japan — Chosen (Korea)' (45): Weather Condition in 1938; Area & Population of Chosen; Population by Occupation; Movement of Population per 1,000 Inhabitants
+- 'Japan — Taiwan (Formosa)' (44): Average Temperature; Census Population by Sex; Census Population in Principal Cities in 1935; Population Classified by Nationality
+- 'Japan — Karafuto (Southern or Japanese Saghalien)' (26): Area of Karafuto by Districts; Climate (1937); Population by Sex and Nationality; Population and Households in Principal Towns
+- 'Japan — Nanyo (The South Sea Mandated Islands)' (28): Islands by Jurisdiction of Branch Bureau of South ; Principal Islands and Their Area; Names, Sites and Sphere of Jurisdiction of Branch ; Inhabitants Classified by Islands
+- 'Manchoukuo — Plates' (2): Occupants of Leading Manchoukuo Government Posts, ; Weights, Measures and Moneys (Manchoukuo)
+- 'Manchoukuo — Geography & Geology' (8): Area; Principal Mountain Systems in Manchoukuo; Principal River Systems; Principal Lakes
+- 'Manchoukuo — Population' (6): Population of Manchuria Classified by Nationality; Population by Provinces; Population of Principal Cities; Population By Age in Manchoukuo
+- 'Manchoukuo — Immigration' (8): Movement of Chinese Laborers; Japanese Immigrant Groups Settled in Manchoukuo; [Income and Expenditure of the Japanese Settlement; Economic Condition of Japanese Settlements
+- 'Manchoukuo — Administration' (7): Cabinet Members of Manchoukuo; Allowance to Officials; Grants to Officials; Order & Salary of Officials
+- 'Manchoukuo — Judicature' (11): Number of Civil and Criminal Cases Handled; [Police Boards and Districts under Their Jurisdict; Water Police Bureaus; Number of Police Stations and Officers
+- 'Manchoukuo — Diplomacy' (2): Foreign Diplomats and Consular Officials in Mancho; Manchoukuo's Diplomatic and Consular Services
+- 'Manchoukuo — National Defence' (11): District Defense Force; National Defense Appropriations to Japanese Army a; Manchuria Incident Expenses of the Army and Navy o; Gunboats of Manchoukuo
+- 'Manchoukuo — Education' (9): Statistics of Educational Institutions; National Schools Classified by Provinces; Higher National Schools; Normal Schools Classified by Provinces
+- 'Manchoukuo — State Finance' (8): State Revenue and Expenditure Since Foundation of ; State Revenue Classified; [State Revenue — Table 2 (B)] Special Account (Rev; State Expenditures Classified
+- 'Manchoukuo — Banking & Currency' (16): Deposits & Loans of Financing Organs in Manchuria; Principal Accounts of the Central Bank of Manchou; Principal Accounts of the Industrial Bank of Manch; Statistics of Deposits & Loans (Excluding Central 
+- 'Manchoukuo — Communications' (10): No. of Broadcasting Stations; Statistics of Radio Broadcasting; Assets & Liabilities of the Manchuria Telegraph & ; General Statistics on Telegraph and Telephone
+- 'Manchoukuo — Transportation' (15): Road and Bridge Construction; Length of Roads Classified; Five-Year Plan for Improvement of Local Roads and ; Condition of Motor Bus Transportation
+- 'Manchoukuo — Railways' (7): General Statistics of Railways in Manchuria; Railways Built Prior to Founding of Manchoukuo in ; State Railways Built Since 1933; South Manchuria Railway Lines
+- 'Manchoukuo — Agriculture' (15): Utilization of Land and Farming Population (1937); Farming Land and Population; Imports of Agricultural Machineries, Implements, T; Area Under Various Crops
+- 'Manchoukuo — Commerce' (16): Chambers of Commerce & Industry; Condition of Import Guilds; Number and Amount of Capital of Companies in Manch; Number and Paid-up Capital of Joint Stock Companie
+- 'Manchoukuo — Forestry' (7): The Wealth of Forest By Provinces; Demand and Supply of Timber; Forestry Output By Districts and Kinds; Outline of Lumber Producers' Guilds in Manchoukuo
+- 'Manchoukuo — Fisheries' (8): No. of Fishing Households and Population in Kwantu; Fresh Water Catches; Exports & Imports of Marine Products; No. of Fishing Crafts in Kwantung Province
+- 'Manchoukuo — Mining' (27): Mineral Resources; Output of Principal Minerals; Principal Coal Deposits by Regions; Coal Output by Principal Mines
+- 'Manchoukuo — Manufacturing Industries—I' (34): Statistics of Manufacturing Industries in Manchuri; Capital Investment Outstanding in Manufacturing In; Details of Spinning Industry; Statistics of Spinning Cos. in Manchuria
+- 'Manchoukuo — Manufacturing Industries—II' (10): Electric Power Generation Potentialities of Princi; Statistics of Power Generation; Electric Power Consumption Classified; Electric Power Consumption Classified by Industrie
+- 'Manchoukuo — Foreign Trade' (10): Foreign Trade of Manchoukuo; Value Percentage of Exports & Imports of Merchandi; Manchoukuo's Foreign Trade Classified by Principal; Volume of Principal Articles Exported & Imported
+- 'Manchoukuo — Sanitation' (7): Medical Organs in Manchuria; State Hospitals; Number of Physicians, etc. per 1,000 Inhabitants; Number of Patients Treated by Public Physicians (1
+- 'Manchoukuo — Labor' (12): Chinese Laborers Entering Manchuria, Classified by; Origin of Chinese Laborers Entering Manchuria; Destinations of Chinese Laborers Entering Manchuri; Shortage of Laborers in Public Works and Building 
+- 'Manchoukuo — The South Manchuria Railway Company' (10): [Successive Presidents of the South Manchuria Rail; S.M.R. Lines; General Balance Sheet as on March 31, 1939; Profit and Loss Account
+- 'Manchoukuo — Economic Policy' (14): [Industries Under New Law: The Nineteen Industries; Estimated Capital Outlay for Original and Revised ; Suppliers of Capital for Original and Revised 5-Ye; Estimated Annual Production in Closing Year of Ori
+- 'Manchoukuo — Kwantung Leased Territory' (1): Annual Revenue & Expenditure
+- 'Japan — Konzerns of Japan' (1): [Kawasaki Konzern: Capital and Shares of Companies
