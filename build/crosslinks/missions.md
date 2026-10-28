@@ -65,3 +65,4 @@ TW  | done | taiwan-tokei: new series (1925, 1933, 1938, 1942), topicmaps/taiwan
 JM  | done | japan-manchoukuo: new series (1934, 1936, 1938, 1939, 1940), topicmaps/japan-manchoukuo.json, agents JM1–JM6
 MP  | done | manchuria-progress: new series (1929, 1931, 1936, 1939), agents MP1–MP2
 MY  | done | manchuria-yb: new series (Manchuria Year Book 1931, 1932-33; Manchoukuo Year Book 1934, 1942), agents MY1–MY3
+KN/KT | done | korea-nenkan (1926, 1940) and korea-tokei (統監府統計年報 1908, 朝鮮總督府統計年報 1939): new series, agents KN1, KT1
