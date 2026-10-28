@@ -1,0 +1,138 @@
+# Series chinese-yb: The Chinese Year Book (Council of International Affairs, Nationalist government)
+Existing editions: (none: new series)
+New editions: china-cyb-1937, china-cyb-1938-39, china-cyb-1944-45
+
+## Existing topics (chapters each existing edition maps to it)
+
+## china-cyb-1937: chapters (table count; sample titles)
+- 'Front Matter' (1): Information Bulletin
+- 'Geography' (1): [Area of China by Province, January 1937]
+- 'Astronomy' (6): The World Calendar; Solar Terms, with Sunrise and Sunset for 1938 (Lon; Phases of the Moon for 1938; Eclipses for 1938
+- 'Climate' (9): Mean Monthly Frequency of Cyclones in China; Frequency of Cyclones Occurred Between Longitude 1; Number of Typhoons During the Period 1904–1934; Distribution of Four Seasons in China
+- 'Population' (6): Statistics of Chinese Population, Taken from the 1; Statistics of Non-Chinese-Speaking Peoples in Chin; Statistics of Foreign Population in China, Mainly,; [Population by Nationality and Sex]
+- 'Mohammedanism' (5): Distribution of Mohammedans and Mosques in China; A List of Famous Mosques; A List of Mohammedan Organizations; A List of Mohammedan Schools
+- 'Catholicism' (6): [Vicariates Apostolic of China and Their Bishops]; [Ecclesiastical Divisions and Church Personnel, 19; [Catholic Ecclesiastical Regions in China, 1934]; [Chinese Secular Clergy Ecclesiastical Districts]
+- 'Protestantism' (12): [Protestant Missions in China — Group Statistics]; Academic Year 1936–1937 — Organization and Enrollm; Working Budget; Total Teaching Semester Hours (1934–1935)
+- 'History' (3): [Eight-Point Program Issued at Sian, December 1936; [Four Conditions for Reconciliation with the Reds,; [Four Main Issues Confronting the Assembly, Third 
+- 'The Kuomintang' (12): Party Strength (December 1936); Members of the Central Executive Committee; Reserve Members of the Central Executive Committee; Members of the Standing Committee of the Central E
+- 'Central and Local Administrative Systems' (2): Number of Administrative Units; List of Principal Personnel of the Legislative Yua
+- 'Appendix Ii' (4): List of Publications — Periodicals; List of Publications — Non-Periodical Publications; Index Number of Wholesale Prices in China: A. Shan; Comparative Statistics for Higher Education in 193
+- 'Appendix III' (2): Constitution; Central Government
+- 'Legislative Yuan' (11): Legislative Yuan; Legislative Yuan; Local Governments; Administration of Internal Affairs
+- 'Criminal Laws' (2): Legislative Yuan; Criminal Laws
+- 'Judicial Yuan' (45): List of Chinese Courts and Their Locations — Kiang; List of Chinese Courts and Their Locations — Cheki; List of Chinese Courts and Their Locations — Anhwe; List of Chinese Courts and Their Locations — Kiang
+- 'Control Yuan' (8): [Disciplinary Organs and Impeached Officials]; Number of Impeachments, 1931 (March-December)—1937; Impeached Officials Classified According to Offici; Impeachments Classified According to the Nature of
+- 'Examination Yuan' (7): Higher Examinations; Ordinary Examinations; Special Examinations; [Ranks and Monthly Salaries of Government Official
+- 'The National Economic Council' (3): [Improved Cotton Seeds Distributed to Stations and; [Extension Area of Improved Cotton Seeds by Provin; [Distribution of Farm Families, Persons and Land b
+- 'Home Affairs' (1): Table Showing Area and Population in China
+- 'Foreign Relations' (1): List of International Conventions
+- 'The Army' (9): [Forces Under the Kuomintang Flag, 1926]; [Organization of a Division]; [Military Schools]; [Other Special Military Schools]
+- 'The Navy' (14): [Vessels Assigned to the Fleet Squadrons, Coast Gu; Naval Ranks; The Department, Rank, and Personnel in the Ministr; The Fleet
+- 'Military Aviation' (2): 5. Italian Naval Squadron; [Topics Dealt With in the Following Sections]
+- 'Public Finance and Taxation' (122): [Chapter Contents, Public Finance and Taxation (Fi; [Departments Proper of the Ministry of Finance]; [Commissions Established under the Ministry of Fin; [Functions of the New Department of Salt Affairs]
+- 'Banking' (33): Special Rights of the Central Bank of China; Kinds of Business the Central Bank of China Is Aut; Functions of the Board of Directors; Functions of the Supervisory Committee
+- 'Currency' (10): Legal Tender Notes as Percentages of the Total Cur; [Silver Holdings of Japanese Banks Transferred to ; Domestic Exchange Rates in Shanghai, 1935–1937; Statistics of China's Gold Movement, Since 1912
+- 'Appendix' (1): Official Foreign Exchange T. T. Quotations in Shan
+- 'Insurance' (20): [Insurance Companies in China, as of June 1937]; 1. Chinese Property Insurance Companies; British; American
+- 'Domestic Trade' (64): [Net Imports, Net Exports and Excess of Imports, 1; [Comparison of Domestic and Foreign Trade, 1932–19; [Percentages of Shipping Transport by Mode, Railwa; [Smuggled Goods Passing from East Hopei to Tientsi
+- 'Appendix I' (1): Daily Index of Staple Commodities Prices in China
+- 'Foreign Trade' (39): China's Imports and Exports for the Period 1930–19; Monthly Exports and Imports of 1936 and Index Figu; Monthly Exports and Imports During 1936 in Compari; China's Excess of Imports and Percentage as Compar
+- 'Industry' (62): (A) Japanese Cotton Mills in Operation; (B) Japanese Cotton Mills under Erection; (C) Japanese Cotton Mills to be Built in the Near ; Cotton Spinning and Weaving Industry in China
+- 'Cotton Spinning and Weaving Mills in China / Industry' (1): Cotton Spinning and Weaving Mills in China: 1. Chi
+- 'Mining and Metallurgical Industry' (19): Coal Resources of China (in Millions of Metric Ton; Facts About the Important Collieries in China; Coal Production in China, 1934–1936 (In Tons); Average Cost of Coal per Ton at Mines
+- 'Labor Conditions' (19): [Number of Workers in Places Within the Scope of t; Labor Organizations; Geographical Distribution of Labor Unions in China; Special Labor Unions in China
+- 'Agricultural Economy' (7): Production of Food and Cotton Crops Compared; Wholesale Prices of Agricultural Products in Shang; Estimated Acreage and Production of Important Wint; Estimated Acreage and Production of Important Summ
+- 'The Co-operative Movement' (11): Number of Co-operative Societies; Number of Societies and Members in 11 Leading Prov; Classification of Co-operative Societies; Membership of Societies
+- 'Animal Husbandry' (11): [Estimated Livestock of China]; Distribution of Live Stock in China; Estimate of Live Stock per 100 Farms; Consumption of Meat Animals in China
+- 'Fisheries' (15): Marine Products School of China; Investigation and Directorate Institutions on Fish; Fishery Conditions of Liaoning Province; Fishery Conditions of Hopei Province
+- 'Forestry' (7): [Publications on Forestry]; The Bamboo Group; The Coniferous Group; The Broad-Leaved Species
+- 'Hydraulic Engineering Works' (2): [Repairs and Works on the Middle Section of the Yu; [Components of the Irrigation System Described in 
+- 'Railways' (23): [Principal Lines Comprising the System of Chinese ; [Higher Officials of the Ministry of Railways]; [Lung-Hai Railway Loan Issues]; Issuance of Bonds
+- 'Highways' (10): Progress of the Inter-Provincial Highways in the P; Present Status of the Inter-Provincial Highways in; [Important New Highways under the Council's Augmen; [Estimated Construction Cost of Highways by Class 
+- 'Commercial Aviation' (7): List of Civil Airdromes; Kilometers of Airlines and Number of Airports, 193; [Comparison of Aircraft Types Employed, 1930 and 1; Commercial Aviation Operations by Fiscal Year, 193
+- 'Shipping' (8): Total Ships Registered Up to the End of 1935; Total Sailing Vessels Registered Up to the End of ; Ships Inspected, Measured and Registered during 19; Sailing Vessels Inspected, Measured and Registered
+- "Description of the Ships of China Merchants' Steam Navigation Company, Limited" (1): Description of the Ships of China Merchants' Steam
+- 'SHIPPING (partly visible, rotated at right edge)' (1): Budget of Shipbuilding Subsidy for Six Years
+- 'Electrical Communications' (43): [Telegraph Development in China, 1931–1936]; Number of Telegraph Offices in China, 1936; [New Telegraph Lines Laid in 1936]; Table Showing Progress Made in Wireless Telegraphs
+- 'Post Office' (25): [Classification of Postal Staff, December 1936]; [Personnel of the Post Office Since the First Year; [Post Office Establishments, 21st to 25th Fiscal Y; Distribution of Post Office Establishments at the 
+- 'Education' (28): [Sources of Income of Institutions of Higher Educa; Distribution of Expenditure; Relative Position of Public and Private Institutio; [Students Attending and Graduates Classified by Ma
+- 'Appendix Iii' (1): Comparative Statistics for Number of Schools in Se
+- 'Appendix Iv — Statistics for Elementary Education' (1): Comparative Statistics for Number of Schools in El
+- 'The Press' (15): [Books Registered by Subject, May 1936 to February; [Newspapers, News Agencies and Periodicals Registe; Newspapers, News Agencies and Periodicals Register; [Newspapers, News Agencies and Periodicals Registe
+- 'Publications' (10): Serial Publications; Textbooks; Statistics of Books Published in the Year 1936 in ; Statistics of Books Published in the Year 1936 by 
+- 'Motion Pictures' (2): Motion Pictures Censored by the Central Board of M; Motion Pictures Censored by the Central Board of M
+- 'Physical Education' (7): Men's Records; Women's Records; Men's Records; Women's Records
+- 'Public Health' (27): Numbers of Outpatient Visits and of Inpatients at ; Numbers of Government Health Institutions in Certa; Details Concerning Certain Rural Health Organizati; Statistical Summary of Miscellaneous Activities of
+- 'Plan of Initiating and Extending Hsien Health Administration' (1): [Hsien Health Administration Organization and Popu
+- 'Opium Suppression' (8): Progress of Opium Suppression by Province; Special Commissioners for Opium Suppression Detect; Registered Smokers Reported by Various Provinces a; ANTIOPIUM HOSPITALS AND STATIONS AND OTHER HOSPITA
+- 'Northeastern China' (34): Japan's Military Expenses in North-Eastern China; Japanese Investments in Northeastern China; Japanese Investments in Northeastern China (Since ; Investments of Foreign Countries
+- 'Mongolia' (9): Mongol Leagues and Banners in Chinese Territory; Estimated Mongol Population in Different Areas; [Mongol and Chinese Population by Territory]; [Outer Mongolia Trade with China and Soviet Russia
+- 'Tibet' (1): [Sixteen Cardinal Virtues of the Tibetan Moral Cod
+- 'The Chinese Overseas' (3): [Estimated Number of Chinese Abroad by Country]; [Unfavorable Trade Balance and Remittances from Ov; [Trade between China and Overseas Population Cente
+- 'General Appendix' (109): Relations Between the Standard and the Market Syst; Conversion Between the Market and the Foot-Pound S; Market System to Old Standard and English Systems; Old System to New System and English System
+
+## china-cyb-1938-39: chapters (table count; sample titles)
+- 'Geography' (1): [Area of China by Province]
+- 'Astronomy' (4): The World Calendar; Solar Terms, with Sunrise and Sunset for 1938; Phases of the Moon for 1938; Eclipses for 1938
+- 'Climate' (9): Mean Monthly Frequency of Cyclones in China; Frequency of Cyclones Occurred between Longitude 1; Number of Typhoons during the Period 1904-34; Distribution of Four Seasons in China
+- 'Population' (3): Statistics of Non-Chinese-Speaking Peoples in Chin; Statistics of Non-Chinese-Speaking Peoples in Chin; Statistics of Foreign Population in China, Mainly 
+- 'Religions' (14): Distribution of Mohammedans and Mosques in China; A List of Famous Mosques; A List of Mohammedan Organizations; A List of Mohammedan Schools
+- 'History' (2): [Five Periods of Chinese Ancient History]; [Five Eras of the Second Cycle]
+- 'Frontier Regions' (22): Japan's Military Expenses in Northeastern China; Japanese Investments in Northeastern China; Japanese Investments in Northeastern China since 1; Investments of Foreign Countries
+- 'Plans for Political and Economic Hegemony in China' (3): General Structure of the "Provisional Government" ; [Companies Planned Under the North China Developme; [Distribution of So-Called Occupied Areas Up to Oc
+- 'World Sympathy for China' (2): [French Delegates to the World Conference on Boyco; Summary of Contributions
+- 'Consolidation of Democracy in China' (8): Members of the Standing Committee of the Central E; Secretariat, Departmental Chiefs and Assistants of; Members of the Central Executive Committee; Reserve Members of the Central Executive Committee
+- "The People's Political Council" (7): [Allotment of Councilorships by Group]; Group A Councillors; Group B Councillors; Group C Councillors
+- 'Reorganization of the National Government' (1): [Items Investigated by Representatives of the Cont
+- 'The National Military Council' (1): [The Departments of the National Military Council]
+- 'War Finance' (70): [Estimated Notes Outstanding in North China by Ban; Decisions of the Bankers' Conference in Hankow; [New Coins Produced, 1936 and 1937]; [Legal-Tender Notes in Circulation by Issuing Bank
+- 'War Economy' (33): [Excess of Import over Export, 1932–1937]; [Percentage of Import to Export, 1932–1937]; [Special Regulations Promulgated to Meet the Needs; Production of Winter Crops, 1937–38
+- 'Communication and Transportation Systems' (58): Higher Officials of the Ministry of Communications; [Decline in China's Railway Locomotives and Cars A; [Interest Paid on Railway Loans, Second Instalment; [Interest Paid on Tientsin-Pukow Railway Loans, 19
+- 'Relations With Western Powers' (2): [Ambassadors Presenting Credentials After the Outb; [Ministers Presenting Credentials During the Same 
+- 'Education' (6): Property Losses of National Universities and Colle; Property Losses of Provincial Universities and Col; Property Losses of Private Universities and Colleg; Property Losses of Middle Schools, Primary Schools
+- 'Education / From the War Areas' (1): Relief for Middle and Primary School Teachers from
+- 'Public Health' (3): List of Registered Medical, Dental, and Pharmacy S; [Contributions Received for Medical and Relief Wor; [Eight Relief Districts and Number of People Assis
+- 'The Problem of War Refugees and Their Relief' (4): [Stations of the National Relief Commission, Sub-s; [Monthly Appropriations of the National Government; [District Agents and Refugees Assisted by Province; [Distribution of Registered Newspapers in Cities a
+- 'General Appendix' (58): Relations between the Standard and the Market Syst; Conversion between the Market and the Foot-Pound S; Market System to Old, Standard and English Systems; Old System to New System and English System
+
+## china-cyb-1944-45: chapters (table count; sample titles)
+- 'Georgraphy' (4): The Topographical Area of China; Heights in Meters of Important Mountain Peaks in C; Total Length and Navigable Conditions of Important; Location and Area of Important Lakes in China
+- 'Taiwan' (17): [Administrative Districts and Cities of Taiwan]; [Area of Taiwan by Elevation]; [Seasonal and Annual Rainfall at Keelung and Koshu; [Monthly and Mean Temperatures of Taikoku and Kohs
+- 'The Nine Northeastern Provinces' (1): The Nine Provinces
+- 'Astronomy' (9): 1945 Gregorian Calendar — First Quarter; 1945 Gregorian Calendar — Third Quarter; 1945 Gregorian Calendar — Second Quarter; 1945 Gregorian Calendar — Fourth Quarter
+- 'Climate' (8): Mean Monthly Frequency of Cyclones in China; Frequency of Cyclones Occurred Between Longitude 1; Number of Typhoons during the Period 1904-1934; Distribution of Four Seasons in China
+- 'Chapter IV Population' (1): The Population of the Republic of China 1931-1944
+- 'Population' (16): Total Number of Households and Population in China; Percentages of Small and "Greater Families" in Dif; Average Number of Persons per Household in China 1; Average Number of Persons per Household in Rural A
+- 'The Legislature' (5): Bills Passed by the Legislative Yuan from January ; Bills Passed by the Legislative Yuan from January ; [Budgets, Expenditure Acts and Related Measures Pa; Treaties and Conventions
+- 'The Judiciary' (5): Cases Received and Settled by the Civil Division o; Cases Received and Settled by the Criminal Divisio; Number of Candidates Passing the Various Examinati; List of High Courts, Branch High Courts and Distri
+- 'Appendix II. Lists of Existing Civil and Criminal Laws' (1): Civil Laws
+- 'B. Criminal Laws' (1): B. Criminal Laws
+- 'The Control Yuan' (4): Impeachments Instituted and Submitted by the Contr; Officials Censured by the Control Yuan; Propositions Made by the Control Yuan; Successful Candidates in the Various Kinds of Exam
+- 'The Examination Yuan' (3): Number of Civil Servants Awarded with Pensions and; Number of Appointments Reviewed (1933—March 1945); Examination on Merits
+- 'Home Affairs' (3): [Officials of the Ministry of Home Affairs, Number; [Police Organizations in Free China, April 1945]; Police Officers Education Central Police College (
+- 'Mongolian and Tibetan Affairs' (2): [Resident Officers in Mongolia in the Ching Dynast; [Social Classes of Tibet]
+- 'Overseas Chinese Affairs' (2): [Decisions on Post-war Overseas Affairs, 1944]; [Allowances to Overseas Students, 1944–1945]
+- 'Ministry of War' (3): [Actual Amounts Paid Out by the Ministry of War, 1; [Subordinate Organs of the Ministry of War, 1945]; [Daily Food Allotment per Capita]
+- 'The Chinese Air Force' (9): Number and Results of Air Combats of CAF in 1944; Number and Results of Air Combats of CAF Since the; Statistics and Percentages of Yearly Casualties in; Number of CAF Perronnel Trained in U.S.A.
+- 'Chinese Air Force' (1): [Planned First-Year Aircraft Production by Type]
+- 'International Conferences' (1): [Governments Signing the Charter of the United Nat
+- 'Public Finance' (23): Annual Collections of Customs Duties and Wartime C; Annual Collections of Salt Revenue from 1937 to Ju; Annual Collections of Commodity Taxes since 1937; Existing Commodity Tax Rates
+- 'Banking and Currency' (26): [Bank-Note Issue of the Central Bank of China]; Statistics of Deposits, Loans and Remittances of t; Clearing Sections of the Central Bank of China; Clearing Sections of the Central Bank of China
+- 'Foreign Trade' (5): [Loans Contracted by Country for Foreign Goods]; Principal Exports from China, 1937-1944; Principal Imports to China, 1937-1944; Gross Imports from and Exports to Foreign Countrie
+- "China's Resources and Industrial Development" (35): The Estimated Water Power Resources of China Exclu; The Estimated Coal Reserves of China; The Estimated Oil Reserves of China; The Estimated Iron Reserve of China
+- 'Agriculture' (11): Increase of Food Production by Province, 1944; Cotton Field Acreage and Peel Cotton Production by; Animal Husbandry Organizations and Heads of Cattle; Epizootic Prevention Organizations, Manufacture of
+- 'Forestry' (6): National Forestry Work 1940-1944; Provincial Forestry Work 1942-1944; Private Forestry Work; Forestation Work in Manchuria
+- 'Land Administration' (14): Shows the Work of Land Ownership Registration by t; Shows the Program Outlined by The National Land Ad; Shows the Work of Land Ownership Registration by t; Shows the Registration of Land Ownership in Urban 
+- 'Communication and Transportation' (5): [Repair Work on Locomotives, Coaches and Freight C; [Starting Points, Termini and Mileage of Main Stag; [Name of Route: Sinkiang-India and Sikang-Tibet-In; [Passengers, Luggage, Freight and Mail Carried by 
+- 'Food Administration' (1): [Average Annual Production of Ten Kinds of Foodstu
+- 'Chinese Industrial Cooperatives' (4): The Development of the C.I.C. (December, 1938-Marc; Classification of the C.I.C. by Region (March 1945; Classification of the C.I.C. by Industries (March ; [Distribution of Cooperative Loans by Region and O
+- 'Education' (8): [Periods of Popular Education Work, 1941–1945]; [Popular, Chung Hsin People's and Other Primary Sc; [Sources of Funds for Popular Education]; Comparative Statistics on High Education (1944-194
+- 'The Press' (2): [Newspapers and News Agencies in Free China, June ; Summary of the Important Activities of the Health 
+- 'Public Health' (11): Increase in Number of Health Organizations in Chin; Summary of the More Important Activities of the Hi; A Statistical Summary of the Patients in Chungking; Summary of the More Important Activities of the Ch
+- 'Social Administration' (6): Provincial and Municipal Social Administration Org; [Regulations and Laws Enacted by the Ministry of S; [Outlines and Principles Adopted as Party Resoluti; Popular Organizations and Membership
+- 'Christian Movement Under Protestant Auspices' (21): [War Losses of Christian Institutions of Higher Le; [Estimated War Damage to Soochow University]; [Distribution of Christian Middle Schools and Stud; [Theological Schools in China, 1934-5]
+- 'The Catholic Church' (3): VI. Distribution of Catholic Institutions; VII. General Statistics of the Catholic Church in ; [Catholic Church in China: Personnel, Seminaries a
+- 'The Chinese Red Cross' (3): Red Cross Cases Treated by Month, July 1944 to Jun; [Income and Expenditures of the Chinese Red Cross]; Table Showing the Allotment of Relief Funds in the
+- 'Post-war Relief and Rehabilitation in China' (1): [Relief and Rehabilitation Program: Requirements a
+- 'Chronology of Major Events' (2): Directory of High-Ranking Officials of Central and; Department of Civil Affairs 文官處
+- 'General Appendix' (152): Department of Military Affairs 參軍處; Comptroller-General's Office 主計處; Academia Sinica 中央研究院; Secretaries of Academia Sinica
