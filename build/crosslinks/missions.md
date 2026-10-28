@@ -68,3 +68,6 @@ MY  | done | manchuria-yb: new series (Manchuria Year Book 1931, 1932-33; Mancho
 KN/KT | done | korea-nenkan (1926, 1940) and korea-tokei (統監府統計年報 1908, 朝鮮總督府統計年報 1939): new series, agents KN1, KT1
 FE  | done | japan-fea: new series; IA bub_gb_wYk9AQAAMAAJ split into japan-fea-1904 (p0001–p0180) and japan-fea-1905 (p0181–); agents FE1, FU1
 CY  | done | chinese-yb: new series (Chinese Year Book 1937, 1938-39, 1944-45), agents CY1-CY2
+TU1 | done | taiwan-tokei update (1897, 1898 added): land, population, education, religion, social-work, public-health, courts
+TU2 | done | taiwan-tokei update: police, prisons, agriculture, fisheries, mining, manufacturing
+TU3 | done | taiwan-tokei update: commerce-and-banking, monopolies, foreign-trade, transport, public-finance, officials

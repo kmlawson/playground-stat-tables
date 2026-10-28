@@ -1,0 +1,692 @@
+{
+ "_chapters": {
+  "1 土地": "1 Land",
+  "10 衞生": "10 Public Health",
+  "11 財政": "11 Finance",
+  "12 官制": "12 Government Offices and Officials",
+  "2 戶口": "2 Population",
+  "3 敎育": "3 Education",
+  "4 民事及刑事裁判": "4 Civil and Criminal Justice",
+  "5 警察": "5 Police",
+  "6 監獄": "6 Prisons",
+  "7 農業及工業": "7 Agriculture and Industry",
+  "8 外國貿易": "8 Foreign Trade",
+  "9 交通": "9 Communications and Transport"
+ },
+ "p0006_1": {
+  "t": "Extreme Points of Longitude and Latitude",
+  "d": "Gives the easternmost, westernmost, southernmost and northernmost points (place name and degrees and minutes) for Taiwan and for the Pescadores."
+ },
+ "p0006_2": {
+  "t": "Circumference and Area",
+  "d": "Gives the number of dependent islands, circumference in ri and area in square ri (main island, dependent islands, total) for Taiwan and the Pescadores."
+ },
+ "p0007_1": {
+  "t": "Locations, Areas and Extreme Points of Prefectures and Districts",
+  "d": "Gives the seat, longitude and latitude, area in square ri and the place names and longitude or latitude of the extreme points for each prefecture and district."
+ },
+ "p0007_2": {
+  "t": "Names, Positions, Circumference and Area of Islands",
+  "d": "Lists each island with its jurisdiction, longitude and latitude, circumference, area in square ri and nearest land."
+ },
+ "p0008_1": {
+  "t": "Wards (Hō and Ri) and Other Divisions under Each Prefecture and Sub-prefecture Office",
+  "d": "Lists, for each prefecture and sub-prefecture office (benmusho), the hō, ri and other divisions under its jurisdiction."
+ },
+ "p0009_1": {
+  "t": "Names of Aboriginal Villages under Each Prefecture and Pacification Office",
+  "d": "Lists the major and minor aboriginal villages (banshe) by prefecture and by the pacification office (bukonsho) that administers them."
+ },
+ "p0011_1": {
+  "t": "Paddy Fields and Dry Fields",
+  "d": "Gives the area in kō of paddy fields and dry fields by grade, by prefecture and district."
+ },
+ "p0012_1": {
+  "t": "Names and Positions of Meteorological Observatories",
+  "d": "Lists each observatory with its location, longitude, latitude, barometer height above sea level, standard time and date of founding."
+ },
+ "p0012_2": {
+  "t": "Meteorology, Part 1 (1897)",
+  "d": "Gives monthly mean air pressure and mean temperature at Taipei, Taichung, Tainan, Hengchun and the Pescadores, 1897."
+ },
+ "p0013_1": {
+  "t": "Meteorology, Part 2 (1897)",
+  "d": "Gives monthly mean air temperature and vapour pressure at the five observatories, 1897."
+ },
+ "p0013_2": {
+  "t": "Meteorology, Part 3 (1897)",
+  "d": "Gives monthly mean humidity and total rain and snowfall at the five observatories, 1897."
+ },
+ "p0014_1": {
+  "t": "Meteorology, Part 4 (1897)",
+  "d": "Gives monthly mean cloud cover and number of days of rain or snow at the five observatories, 1897."
+ },
+ "p0014_2": {
+  "t": "Meteorology, Part 5: Wind Direction (1897)",
+  "d": "Gives the frequency of wind by compass direction at the five observatories, 1897."
+ },
+ "p0015_1": {
+  "t": "Resident Households and Population, Part 1 (End of December 1897)",
+  "d": "Gives resident households and population (Japanese and Taiwanese; male, female, total) by prefecture and district, with sub-prefecture offices and pacification offices combined, at the end of December 1897."
+ },
+ "p0016_1": {
+  "t": "Resident Households and Population, Part 2 (End of December 1897)",
+  "d": "Gives resident households and population (Japanese and Taiwanese; male, female, total) by prefecture, sub-prefecture office and ward or village, at the end of December 1897."
+ },
+ "p0022_1": {
+  "t": "Resident Households and Population of Settled Aborigines",
+  "d": "Gives households and population (male, female, total) of settled aborigines by prefecture, sub-prefecture office and ward or village, appended to Table 15."
+ },
+ "p0023_1": {
+  "t": "Resident Households and Population of Aboriginal Villages (End of December 1897)",
+  "d": "Gives households and population (male, female, total) of aboriginal villages by pacification office, at the end of December 1897."
+ },
+ "p0023_2": {
+  "t": "Resident Population of Places with 5,000 or More Inhabitants (End of December 1897)",
+  "d": "Lists each place with 5,000 or more residents, with Japanese, Taiwanese and total population by sex, at the end of December 1897."
+ },
+ "p0024_1": {
+  "t": "Deaths of Resident Persons, Part 1 (1897)",
+  "d": "Gives deaths of resident persons by prefecture and district, with Japanese and Taiwanese by sex, 1897."
+ },
+ "p0024_2": {
+  "t": "Deaths of Resident Persons, Part 2 (1897)",
+  "d": "Continues the deaths of resident persons by prefecture, district and sub-prefecture office, 1897."
+ },
+ "p0026_1": {
+  "t": "Registered Households and Population (End of December 1897)",
+  "d": "Gives households and population by place of registry (honseki) by prefecture and district at the end of December 1897."
+ },
+ "p0026_2": {
+  "t": "Registered Population by Age and Marital Status (End of December 1897)",
+  "d": "Gives registered population by age, married and unmarried, by sex, at the end of December 1897."
+ },
+ "p0028_1": {
+  "t": "Deaths of Registered Persons by Age (1897)",
+  "d": "Gives deaths of registered persons by age group and sex, 1897."
+ },
+ "p0031_1": {
+  "t": "Japanese Landing in Taiwan by Prefecture of Origin (1897)",
+  "d": "Gives Japanese arrivals by Japanese prefecture of origin (grouped by region) and by sex, for each Taiwan prefecture and district of landing, 1897."
+ },
+ "p0032_1": {
+  "t": "Japanese Landing in Taiwan by Occupation (1897)",
+  "d": "Gives Japanese arrivals by prefecture of origin, occupation (official, agriculture, commerce, industry, miscellaneous, none) and sex, 1897."
+ },
+ "p0033_1": {
+  "t": "Japanese Returning from and to Taiwan (1897)",
+  "d": "Gives Japanese returning voyagers and returning residents by prefecture and district: households, persons by sex and occupation, 1897."
+ },
+ "p0034_1": {
+  "t": "Landing and Return of Taiwanese and Chinese (1897)",
+  "d": "Gives Taiwanese and Chinese arrivals by type of permit and returning persons, by port and sex, 1897."
+ },
+ "p0034_2": {
+  "t": "Landing and Return of Taiwanese and Chinese by Occupation (1897)",
+  "d": "Gives Taiwanese and Chinese arrivals and returnees by occupation (agriculture, commerce, industry, miscellaneous), by port and sex, 1897."
+ },
+ "p0035_1": {
+  "t": "Teachers and Pupils of Government Schools (End of December 1897)",
+  "d": "Gives, for each government school, teachers, pupils by course and the year's admissions, graduations and withdrawals, at the end of December 1897."
+ },
+ "p0036_1": {
+  "t": "Private Schools, Part 1 (End of March 1898)",
+  "d": "Lists each private school with location, date of opening, subjects, teachers, pupils (Japanese and Taiwanese by sex) and graduates, at the end of March 1898."
+ },
+ "p0037_1": {
+  "t": "Private Schools, Part 2: Village Schools (End of February 1898)",
+  "d": "Gives village schools (shobō), teachers, pupils by sex and income (fees and payments in kind, in yen) by prefecture and district, at the end of February 1898."
+ },
+ "p0038_1": {
+  "t": "Civil Cases: Appeals to the High Court (1897)",
+  "d": "Gives appeal cases accepted, disposed of and pending, with days taken to dispose, High Court, 1897."
+ },
+ "p0038_2": {
+  "t": "Civil Cases: Appeals to the Court of Appeal (1897)",
+  "d": "Gives appeals accepted (old, new), disposed of (quashed, remanded, dismissed, settled, withdrawn) and pending, by court of origin, Court of Appeal, 1897."
+ },
+ "p0039_1": {
+  "t": "Civil Cases: Lawsuits in District Courts (1897)",
+  "d": "Gives lawsuits accepted, disposed of (judgment, dismissed, settled, withdrawn) and pending, by district court, 1897."
+ },
+ "p0039_2": {
+  "t": "Civil Cases: Lawsuits by Type (1897)",
+  "d": "Gives lawsuits in district courts by type (personal status, land, buildings, money, rice, goods, commerce, miscellaneous), by court, 1897."
+ },
+ "p0039_3": {
+  "t": "Civil Cases: Compulsory Execution (1897)",
+  "d": "Gives compulsory execution cases (old, new, total, disposed of, pending) by district court, 1897."
+ },
+ "p0039_4": {
+  "t": "Civil Cases: Provisional Attachments and Provisional Dispositions (1897)",
+  "d": "Gives provisional attachment and provisional disposition cases accepted, decided and pending, by district court, 1897."
+ },
+ "p0040_1": {
+  "t": "Civil Cases: Disputes Conciliated by Type (1897)",
+  "d": "Gives disputes accepted, disposed of (settled, withdrawn, failed, dismissed, lapsed) and pending, by type of dispute, 1897."
+ },
+ "p0040_2": {
+  "t": "Civil Cases: Disputes Conciliated by Locality and Type (1897)",
+  "d": "Gives disputes accepted, disposed of and pending, by prefecture/district and type of dispute, 1897."
+ },
+ "p0042_1": {
+  "t": "Civil Cases: Disputes Conciliated by Sub-prefecture Office (1897)",
+  "d": "Gives disputes accepted, disposed of and pending, by sub-prefecture office (benmusho), 1897."
+ },
+ "p0044_1": {
+  "t": "Civil Cases: Disputes Conciliated by Parties Involved (1897)",
+  "d": "Gives disputes by parties (Japanese v. Japanese, Taiwanese v. Taiwanese, Japanese v. Taiwanese and the reverse, joint), by prefecture and district, 1897."
+ },
+ "p0045_1": {
+  "t": "Civil Cases: Disputes Conciliated by Period of Examination (1897)",
+  "d": "Gives disputes disposed of and pending by length of examination period, by prefecture and district, 1897."
+ },
+ "p0045_2": {
+  "t": "Criminal Cases: Appeals to the High Court (1897)",
+  "d": "Gives criminal appeals accepted, disposed of (quashed, dismissed, withdrawn, lapsed) and pending, with days taken, 1897."
+ },
+ "p0045_3": {
+  "t": "Criminal Cases: Appeals to the Court of Appeal (1897)",
+  "d": "Gives criminal appeals accepted, disposed of (set aside, dismissed, withdrawn) by prosecutor and defendant, and pending, by court of origin, 1897."
+ },
+ "p0045_4": {
+  "t": "Criminal Cases: Complaints (Kōkoku) to the Court of Appeal (1897)",
+  "d": "Gives complaint cases accepted, disposed of and by days taken, by court of origin, 1897."
+ },
+ "p0046_1": {
+  "t": "Criminal Cases: Dispositions by Public Prosecutors (1897)",
+  "d": "Gives cases accepted (old, new; flagrant, non-flagrant) and disposed of (indictment, non-prosecution, transfer) by court, 1897."
+ },
+ "p0046_2": {
+  "t": "Criminal Cases: Offences by Type (1897)",
+  "d": "Gives offences handled by type of crime (against the state, public order, health, morals, officials, person, property, regulations) by court, 1897."
+ },
+ "p0046_3": {
+  "t": "Criminal Cases: Preliminary Examinations (1897)",
+  "d": "Gives preliminary examination cases accepted, and disposed of (sent to trial for felony or misdemeanour, dismissed, lapsed), by court, 1897."
+ },
+ "p0047_1": {
+  "t": "Criminal Cases: Public Trials (1897)",
+  "d": "Gives public trial cases accepted, disposed of (guilty, not guilty, dismissed, lapsed), pending and days taken, by court and type, 1897."
+ },
+ "p0047_2": {
+  "t": "Criminal Cases: Persons Sentenced in Absentia (1897)",
+  "d": "Gives persons sentenced in absentia, and the result (executed, referred, objected, lapsed), by court, 1897."
+ },
+ "p0048_1": {
+  "t": "Criminal Cases: Period of Detention of the Accused (1897)",
+  "d": "Gives accused persons by length of detention in days, by court and type, 1897."
+ },
+ "p0048_2": {
+  "t": "Criminal Cases: Fines, Petty Fines, Additional Collections and Confiscated Money (1897)",
+  "d": "Gives amounts in yen of fines, petty fines, additional collections and confiscations, with amounts collected, by court, 1897."
+ },
+ "p0049_1": {
+  "t": "Opium Offenders (FY1897)",
+  "d": "Gives persons committing opium offences by type of offence and sex, for each prefecture and district, FY1897."
+ },
+ "p0049_2": {
+  "t": "Opium Offenders by Age Group (FY1897)",
+  "d": "Gives opium offenders by age group and sex, for each prefecture and district, FY1897."
+ },
+ "p0050_1": {
+  "t": "Thefts (1897)",
+  "d": "Gives thefts by type (robbery, burglary and others) and victims (Japanese, Taiwanese), with number of cases and goods stolen (grain, clothing, miscellaneous, livestock; quantity and value), 1897."
+ },
+ "p0051_1": {
+  "t": "Thefts by Locality (1897)",
+  "d": "Gives thefts by type and victims, with goods stolen (quantity and value), by prefecture and district, 1897."
+ },
+ "p0054_1": {
+  "t": "Recovery of Stolen Goods (1897)",
+  "d": "Gives stolen goods recovered by means of recovery and by persons (Japanese, Taiwanese), by quantity and value, 1897."
+ },
+ "p0054_2": {
+  "t": "Recovery of Stolen Goods by Locality (1897)",
+  "d": "Gives stolen goods recovered by means and persons, by quantity and value, by prefecture and district, 1897."
+ },
+ "p0056_1": {
+  "t": "Unnatural Deaths and Abandoned Children (1897)",
+  "d": "Gives suicides by method, other unnatural deaths and abandoned children by sex, for Japanese and Taiwanese, by prefecture and district, 1897."
+ },
+ "p0057_1": {
+  "t": "Unnatural Deaths and Abandoned Children by Month (1897)",
+  "d": "Gives suicides by method, other unnatural deaths and abandoned children by sex, for Japanese and Taiwanese, by month, 1897."
+ },
+ "p0058_1": {
+  "t": "Fires (1897)",
+  "d": "Gives fires by cause (accidental, arson, unknown or lightning) for Japanese and Taiwanese, with buildings burned and damage, by prefecture and district, 1897."
+ },
+ "p0058_2": {
+  "t": "Police Relief and Protection (1897)",
+  "d": "Gives persons and property protected by the police (against theft, murder, injury, assault, unnatural death) for Japanese and Taiwanese, 1897."
+ },
+ "p0059_1": {
+  "t": "Police Relief and Protection by Locality (1897)",
+  "d": "Gives the same categories of police protection by prefecture and district, 1897."
+ },
+ "p0061_1": {
+  "t": "Lost Property (1897)",
+  "d": "Gives lost and found property (money, clothing, miscellaneous) and strayed livestock, for Japanese and Taiwanese, 1897."
+ },
+ "p0061_2": {
+  "t": "Persons Arrested for Crimes, Police Offences and Violations of Regulations (1897)",
+  "d": "Gives arrests (flagrant and quasi-flagrant; Japanese and Taiwanese by sex) by type of offence, 1897."
+ },
+ "p0063_1": {
+  "t": "Persons Arrested for Crimes, Police Offences and Violations of Regulations by Locality (1897)",
+  "d": "Gives arrests (flagrant and quasi-flagrant; Japanese and Taiwanese by sex) by type of offence, for each prefecture and district, 1897."
+ },
+ "p0068_1": {
+  "t": "Persons Punished for Police Offences (1897)",
+  "d": "Gives persons dealt with for police offences by type of offence and result (guilty, acquitted, dismissed, detention, petty fine), Japanese and Taiwanese by sex, 1897."
+ },
+ "p0069_1": {
+  "t": "Persons Punished for Police Offences by Locality (1897)",
+  "d": "Gives persons dealt with for police offences by type of offence and result, Japanese and Taiwanese by sex, by prefecture and district, 1897."
+ },
+ "p0071_1": {
+  "t": "Persons Punished for Violations of Regulations (1897)",
+  "d": "Gives violations of regulations by type, with cases and persons by result (detention or heavier, acquitted, dismissed, petty fine) and sex, by prefecture and district, 1897."
+ },
+ "p0071_2": {
+  "t": "Police Admonitions (1897)",
+  "d": "Gives persons admonished by the police by reason, Japanese and Taiwanese, by prefecture and district, 1897."
+ },
+ "p0074_1": {
+  "t": "Police Deaths and Injuries (1897)",
+  "d": "Gives police inspectors, constables, gendarmes, employees and civilians killed or wounded, by circumstance and locality, 1897."
+ },
+ "p0074_2": {
+  "t": "Police Commendations and Assistance (1897)",
+  "d": "Gives commendations, rewards and relief payments in the police service (persons and amounts in yen) for Japanese and Taiwanese, 1897."
+ },
+ "p0075_1": {
+  "t": "Newspapers Issued (1897)",
+  "d": "Gives copies issued of the Taiwan Shinpō, Taiwan Nichinichi and Taiwan Minpō by locality, 1897."
+ },
+ "p0075_2": {
+  "t": "Privately Owned Firearms (December 1897)",
+  "d": "Gives privately owned military rifles and hunting guns (Western and Japanese type) by prefecture and district, December 1897."
+ },
+ "p0076_1": {
+  "t": "Slaughter of Livestock (1897)",
+  "d": "Gives animals slaughtered (cattle, horses, sheep, goats, pigs; female, male, total) by prefecture and district, 1897."
+ },
+ "p0076_2": {
+  "t": "Prisoners Held (End of December 1897)",
+  "d": "Gives convicts, criminal defendants and persons in separate cells (Japanese, Taiwanese, total) by prefecture and district at the end of December 1897."
+ },
+ "p0076_3": {
+  "t": "Prisoners by Offence (End of December 1897)",
+  "d": "Gives prisoners by offence and sex, Japanese and Taiwanese, by prefecture and district, at the end of December 1897."
+ },
+ "p0078_1": {
+  "t": "Prisoners by Sentence (End of December 1897)",
+  "d": "Gives prisoners by type of sentence and sex, Japanese and Taiwanese, by prefecture and district, at the end of December 1897."
+ },
+ "p0078_2": {
+  "t": "Admissions and Discharges of Prisoners (1897)",
+  "d": "Gives prisoners carried over, admitted, discharged and remaining, by sex, Japanese and Taiwanese, by prefecture and district, 1897."
+ },
+ "p0079_1": {
+  "t": "Admissions and Discharges of Criminal Defendants (1897)",
+  "d": "Gives criminal defendants carried over, admitted (new, re-admitted, transferred) and discharged, by sex, Japanese and Taiwanese, 1897."
+ },
+ "p0079_2": {
+  "t": "Admissions and Discharges of Persons Held in Separate Cells (1897)",
+  "d": "Gives persons held in separate cells under supervision, carried over, admitted and released, by sex, Japanese and Taiwanese, 1897."
+ },
+ "p0079_3": {
+  "t": "Months in Custody of Criminal Defendants Released (1897)",
+  "d": "Gives released criminal defendants by offence and months spent in custody, by disposition, Japanese and Taiwanese, 1897."
+ },
+ "p0081_1": {
+  "t": "Rice Planting and Harvest (1896)",
+  "d": "Gives area planted in kō and harvest in koku of early and late paddy and upland rice, by prefecture, branch office and district, 1896."
+ },
+ "p0082_1": {
+  "t": "Harvest of Ordinary Crops (1896)",
+  "d": "Gives harvest of wheat, millet, beans, peanuts, sesame, sweet potatoes and other crops, by prefecture and district, 1896."
+ },
+ "p0082_2": {
+  "t": "Harvest of Special Crops (1896)",
+  "d": "Gives harvest of sweet potatoes, citrus, sugar cane, tea, tobacco leaf, jute, ramie, pineapple fibre, indigo, mushrooms and other special crops in catties, by prefecture and district, 1896."
+ },
+ "p0082_3": {
+  "t": "Tea Manufacture, Part 1 (1897)",
+  "d": "Gives households, pans and estimated output by season (spring, summer, autumn, winter) of tea manufacture, by locality, 1897."
+ },
+ "p0083_1": {
+  "t": "Tea Manufacture, Part 2 (1896)",
+  "d": "Gives households, pans and output by season (spring, summer, autumn, winter) of tea manufacture, by prefecture and district, 1896."
+ },
+ "p0084_1": {
+  "t": "Sugar Manufacture (1896)",
+  "d": "Gives households, cane presses, raw material and output of white sugar, brown sugar and molasses by prefecture and district, 1896."
+ },
+ "p0084_2": {
+  "t": "Camphor Manufacture (1897)",
+  "d": "Gives workers, stills and output of camphor and camphor oil, by pacification office, 1897."
+ },
+ "p0085_1": {
+  "t": "Camphor Manufacture by Month (1897)",
+  "d": "Gives output of camphor and camphor oil by month, by pacification office, 1897."
+ },
+ "p0085_2": {
+  "t": "Manufacture of Indigo and Ramie Cloth (1896)",
+  "d": "Gives indigo households, raw material, output and value, and households, output and value of ramie (wu-ma) mats, by prefecture and district, 1896."
+ },
+ "p0085_3": {
+  "t": "Cattle and Water Buffalo (1897)",
+  "d": "Gives numbers of yellow cattle and water buffalo (female, male, total) by prefecture and district, 1897."
+ },
+ "p0086_1": {
+  "t": "Raw Opium (FY1897)",
+  "d": "Gives raw opium by kind (Benares, Persian, Szechuan and others): carried over, purchased and taken over, and consumed, in English pounds and yen, FY1897."
+ },
+ "p0086_2": {
+  "t": "Manufacture of Prepared Opium (FY1897)",
+  "d": "Gives prepared opium by grade (first, second, third): carried over, produced, canned, stored and remaining, in momme, FY1897."
+ },
+ "p0087_1": {
+  "t": "Prepared Opium Dispatched by Locality (FY1897)",
+  "d": "Gives prepared opium dispatched by grade (first, second, third; cans and yen) by prefecture and district, FY1897."
+ },
+ "p0087_2": {
+  "t": "Prepared Opium Dispatched by Month (FY1897)",
+  "d": "Gives prepared opium dispatched by grade (cans and yen) by month, FY1897."
+ },
+ "p0087_3": {
+  "t": "Prepared Opium Sold to Dealers by Locality (FY1897)",
+  "d": "Gives prepared opium sold to dealers by grade (quantity and yen) by prefecture and district, FY1897."
+ },
+ "p0088_1": {
+  "t": "Prepared Opium Sold to Dealers by Month (FY1897)",
+  "d": "Gives prepared opium sold to dealers by grade (quantity and yen) by month, FY1897."
+ },
+ "p0088_2": {
+  "t": "Prepared Opium Retail Sales by Locality (FY1897)",
+  "d": "Gives retail sales of prepared opium by grade (momme and yen) by prefecture and district, FY1897."
+ },
+ "p0088_3": {
+  "t": "Prepared Opium Retail Sales by Month (FY1897)",
+  "d": "Gives retail sales of prepared opium by grade (momme and yen) by month, FY1897."
+ },
+ "p0089_1": {
+  "t": "Total Exports and Imports, Multi-year Comparison",
+  "d": "Gives value of exports, imports, total and export surplus of goods, and of coin and bullion, in yen for successive years from 1897 backwards."
+ },
+ "p0089_2": {
+  "t": "Exports by Commodity, Multi-year Comparison",
+  "d": "Gives value of exports by commodity in yen for 1897 and the ten preceding years."
+ },
+ "p0090_1": {
+  "t": "Imports by Commodity, Multi-year Comparison",
+  "d": "Gives value of imports by commodity in yen for 1897 and the ten preceding years."
+ },
+ "p0093_1": {
+  "t": "Exports of Coin and Bullion, Multi-year Comparison",
+  "d": "Gives exported gold bullion, silver coin and bullion (one-yen, Mexican) and paper money in yen for successive years."
+ },
+ "p0093_2": {
+  "t": "Imports of Coin and Bullion, Multi-year Comparison",
+  "d": "Gives imported gold and silver coin and bullion (British gold, one-yen, Hong Kong and Mexican silver) and paper money in yen for successive years."
+ },
+ "p0093_3": {
+  "t": "Exports and Imports: Dutiable, Duty-free and Ships' Stores (1897)",
+  "d": "Gives value of exports and imports of dutiable goods, duty-free goods and ships' stores, by domestic and foreign origin, in yen, 1897."
+ },
+ "p0094_1": {
+  "t": "Exports and Imports by Port (1897)",
+  "d": "Gives value of exports (domestic, foreign) and imports (foreign, domestic) at each port, in yen, 1897."
+ },
+ "p0094_2": {
+  "t": "Exports by Port and Country of Destination (1897)",
+  "d": "Gives value of exports in yen by country of destination for Tamsui, Anping, Keelung, Takow, Lukang, Chiu-kang, Wuchi, Tungshih, Houlung, Makung and Tungkang, 1897."
+ },
+ "p0094_3": {
+  "t": "Exports by Port and Month (1897)",
+  "d": "Gives value of exports in yen by month for Tamsui, Anping, Keelung, Takow, Lukang, Chiu-kang, Wuchi, Tungshih, Houlung, Makung and Tungkang, 1897."
+ },
+ "p0095_1": {
+  "t": "Exports by Commodity and Month (1897)",
+  "d": "Gives value of exports in yen by commodity and month, 1897."
+ },
+ "p0096_1": {
+  "t": "Imports by Port and Country of Origin (1897)",
+  "d": "Gives value of imports in yen by country of origin for Tamsui, Anping, Keelung, Takow, Lukang, Chiu-kang, Wuchi, Tungshih, Houlung, Makung and Tungkang, 1897."
+ },
+ "p0096_2": {
+  "t": "Imports by Port and Month (1897)",
+  "d": "Gives value of imports in yen by month for Tamsui, Anping, Keelung, Takow, Lukang, Chiu-kang, Wuchi, Tungshih, Houlung, Makung and Tungkang, 1897."
+ },
+ "p0097_1": {
+  "t": "Imports by Commodity and Month (1897)",
+  "d": "Gives value of imports in yen by commodity and month, 1897."
+ },
+ "p0099_1": {
+  "t": "Exports and Imports of Coin and Bullion by Port (1897)",
+  "d": "Gives value of coin, silver and gold bullion and paper money exported and imported at each port, in yen, 1897."
+ },
+ "p0100_1": {
+  "t": "Customs Revenue by Port (1897)",
+  "d": "Gives export duties, import duties, miscellaneous receipts and total at each port, in yen, 1897."
+ },
+ "p0100_2": {
+  "t": "Customs Revenue by Port and Month (1897)",
+  "d": "Gives customs revenue in yen by month for Tamsui, Anping, Keelung, Takow, Lukang, Chiu-kang, Wuchi, Tungshih, Houlung, Makung and Tungkang, 1897."
+ },
+ "p0100_3": {
+  "t": "Vessels Clearing Ports by Port (1897)",
+  "d": "Gives number and tonnage of vessels clearing each port by type (steamers, sailing ships) and flag, 1897."
+ },
+ "p0101_1": {
+  "t": "Vessels Entering Ports by Port (1897)",
+  "d": "Gives number and tonnage of vessels entering each port by type (steamers, sailing ships) and flag, 1897."
+ },
+ "p0102_1": {
+  "t": "Railways: Stations, Lines and Rolling Stock (End of FY1897)",
+  "d": "Gives, by section and station, station grounds, line length in miles and chains, line ground, and locomotives, passenger and freight cars, at the end of FY1897."
+ },
+ "p0103_1": {
+  "t": "Railway Passengers and Freight by Station (FY1897)",
+  "d": "Gives passengers boarding and alighting (first and ordinary class) and freight sent and received, by station, FY1897."
+ },
+ "p0103_2": {
+  "t": "Railway Passenger and Freight Receipts by Station (FY1897)",
+  "d": "Gives fares (first and ordinary class) and freight charges in yen by station, FY1897."
+ },
+ "p0103_3": {
+  "t": "Actual Length of Postal Routes (End of FY1897)",
+  "d": "Gives route length of ordinary roads (main, middle, minor lines; ri, chō, ken) and railways (miles and chains) by prefecture and district, at the end of FY1897."
+ },
+ "p0104_1": {
+  "t": "Domestic Mail by Post Office (FY1897)",
+  "d": "Gives domestic mail collected and delivered (letters, postcards, newspapers, books, samples, seed, duty-free) by post office, jurisdiction and district, FY1897."
+ },
+ "p0106_1": {
+  "t": "Domestic Mail by Month (FY1897)",
+  "d": "Gives domestic mail collected and delivered by kind (ordinary and registered) and month, FY1897."
+ },
+ "p0107_1": {
+  "t": "International Mail by Post Office (FY1897)",
+  "d": "Gives international mail collected and delivered (letters, postcards, printed matter, legal and commercial papers, samples, duty-free) by post office, jurisdiction and district, FY1897."
+ },
+ "p0109_1": {
+  "t": "International Mail by Month (FY1897)",
+  "d": "Gives international mail collected and delivered by kind (ordinary and registered) and month, FY1897."
+ },
+ "p0109_2": {
+  "t": "Domestic Parcel Post by Post Office (FY1897)",
+  "d": "Gives parcels accepted (ordinary, declared value, free; number and weight in momme) by post office, jurisdiction and district, FY1897."
+ },
+ "p0111_1": {
+  "t": "Domestic Parcel Post by Month (FY1897)",
+  "d": "Gives parcels accepted (ordinary, declared value, free; number and weight in momme) by month, FY1897."
+ },
+ "p0111_2": {
+  "t": "Cash-on-Delivery Parcels by Post Office (FY1897)",
+  "d": "Gives cash-on-delivery parcels delivered to addressees and returned to senders (number and yen) by post office, jurisdiction and district, FY1897."
+ },
+ "p0112_1": {
+  "t": "Cash-on-Delivery Parcels by Month (FY1897)",
+  "d": "Gives cash-on-delivery parcels delivered and returned (number and yen) by month, FY1897."
+ },
+ "p0112_2": {
+  "t": "Sales of Postage Stamps and Stationery by Post Office (FY1897)",
+  "d": "Gives sales of stamps, postcards and envelopes (pieces and yen) by post office, jurisdiction and district, FY1897."
+ },
+ "p0114_1": {
+  "t": "Sales of Postage Stamps and Stationery by Month (FY1897)",
+  "d": "Gives sales of stamps, postcards and envelopes (pieces and yen) by month, FY1897."
+ },
+ "p0114_2": {
+  "t": "Postal Money Orders by Post Office (FY1897)",
+  "d": "Gives postal and transfer money orders issued and paid (number and yen) by post office, jurisdiction and district, FY1897."
+ },
+ "p0116_1": {
+  "t": "Postal Money Orders by Month (FY1897)",
+  "d": "Gives postal and transfer money orders issued and paid (number and yen) by month, FY1897."
+ },
+ "p0116_2": {
+  "t": "Postal Savings by Post Office (FY1897)",
+  "d": "Gives postal savings deposits and withdrawals (number and yen) and new depositors by post office, jurisdiction and district, FY1897."
+ },
+ "p0118_1": {
+  "t": "Postal Savings by Month (FY1897)",
+  "d": "Gives depositors on hand, deposits and withdrawals (number and yen) by month, FY1897."
+ },
+ "p0118_2": {
+  "t": "Length of Telegraph Lines (End of FY1897)",
+  "d": "Gives route length and wire length (ri, chō, ken) by prefecture and district, at the end of FY1897."
+ },
+ "p0119_1": {
+  "t": "Domestic Telegrams Sent and Received by Office (FY1897)",
+  "d": "Gives domestic telegrams sent and received (paid, free, total; words and messages; Japanese and European script) by office, FY1897."
+ },
+ "p0121_1": {
+  "t": "Domestic Telegrams Sent and Received by Month (FY1897)",
+  "d": "Gives domestic telegrams sent and received (paid, free, total; Japanese and European script) by month, FY1897."
+ },
+ "p0122_1": {
+  "t": "International Telegrams Sent and Received by Office (FY1897)",
+  "d": "Gives international telegrams sent (official, private, charged service, free) and received by office, jurisdiction and district, FY1897."
+ },
+ "p0123_1": {
+  "t": "International Telegrams Sent and Received by Month (FY1897)",
+  "d": "Gives international telegrams sent (official, private, service) and received by month, FY1897."
+ },
+ "p0123_2": {
+  "t": "Navigation Aids, Part 1: Lights (End of FY1897)",
+  "d": "Lists lighthouses and other lights with location, longitude, latitude, date first lit, structure, characteristics and height, at the end of FY1897."
+ },
+ "p0124_1": {
+  "t": "Navigation Aids, Part 2: Day Marks (End of December 1897)",
+  "d": "Lists day marks (beacons and buoys) with position, colour, structure, height, depth of water and remarks, at the end of December 1897."
+ },
+ "p0124_2": {
+  "t": "Navigation Aids, Part 3: Fog Signals (End of FY1897)",
+  "d": "Lists fog signals with position, longitude, latitude and remarks, at the end of FY1897."
+ },
+ "p0124_3": {
+  "t": "Ships (End of FY1897)",
+  "d": "Gives Western-type steamships and Japanese-type vessels by tonnage class, by prefecture and district, at the end of FY1897."
+ },
+ "p0125_1": {
+  "t": "Shipwrecks by Locality (FY1897)",
+  "d": "Gives vessels wrecked by type (Western steam and sail, Japanese, Chinese) by prefecture and district, with FY1896 comparison, FY1897."
+ },
+ "p0125_2": {
+  "t": "Shipwrecks by Month (FY1897)",
+  "d": "Gives vessels wrecked by type (Western steam and sail, Japanese, Chinese) by month, with FY1896 comparison, FY1897."
+ },
+ "p0126_1": {
+  "t": "Hospitals, Physicians and Related Personnel (End of December 1897)",
+  "d": "Gives government and private hospitals, physicians, midwives, pharmacists and drug dealers by prefecture and district, at the end of December 1897."
+ },
+ "p0126_2": {
+  "t": "Patients by Disease Group (1897)",
+  "d": "Gives patients by disease group (infectious, nutritional, skin, circulatory, nervous, respiratory, digestive, urogenital, injury and others) for Japanese and Taiwanese, by prefecture and district, 1897."
+ },
+ "p0127_1": {
+  "t": "Deaths by Disease Group (1897)",
+  "d": "Gives deaths by disease group for Japanese and Taiwanese, by prefecture and district, 1897."
+ },
+ "p0127_2": {
+  "t": "Patients and Deaths from the Eight Notifiable Infectious Diseases (1897)",
+  "d": "Gives patients and deaths from plague, typhoid, dysentery, diphtheria, smallpox and other notifiable diseases for Japanese and Taiwanese, by prefecture and district, 1897."
+ },
+ "p0128_1": {
+  "t": "Patients and Deaths from the Eight Notifiable Infectious Diseases by Month (1897)",
+  "d": "Gives patients and deaths from the notifiable diseases for Japanese and Taiwanese, by month, 1897."
+ },
+ "p0129_1": {
+  "t": "Vaccination (1897)",
+  "d": "Gives persons vaccinated against smallpox, first and repeat vaccinations by age and result (successful, unsuccessful), by prefecture and district, 1897."
+ },
+ "p0130_1": {
+  "t": "Syphilis Examinations (1897)",
+  "d": "Gives examination stations, examining physicians, average daily number of prostitutes and results of examinations (Japanese and Taiwanese) by prefecture and district, 1897."
+ },
+ "p0130_2": {
+  "t": "Opium Agents and Licence Holders (End of FY1897)",
+  "d": "Gives opium agents and licensees (paste dealers, equipment makers and sellers, smoking houses, powdered-opium wholesalers) by prefecture and district, at the end of FY1897."
+ },
+ "p0131_1": {
+  "t": "Revenue by Category, Part 1",
+  "d": "Gives government revenue by category in yen: FY1898 budget, FY1897 budget and FY1897 actual."
+ },
+ "p0132_1": {
+  "t": "Revenue by Category, Part 2 (FY1896)",
+  "d": "Gives government revenue by category in yen, budget and actual, FY1896."
+ },
+ "p0132_2": {
+  "t": "Expenditure by Category, Part 1",
+  "d": "Gives government expenditure by category in yen: FY1898 budget, FY1897 budget and FY1897 actual."
+ },
+ "p0134_1": {
+  "t": "Expenditure by Category, Part 2 (FY1896)",
+  "d": "Gives government expenditure by category in yen, budget and actual, FY1896."
+ },
+ "p0135_1": {
+  "t": "Domestic Taxes Actually Collected by Locality (FY1897)",
+  "d": "Gives land tax, tea tax, sugar tax, camphor tax, mining tax and registration tax in yen by prefecture and district, FY1897."
+ },
+ "p0136_1": {
+  "t": "Customs Duties Actually Collected by Customs House (FY1897)",
+  "d": "Gives export duties, import duties and miscellaneous receipts in yen at each customs house and branch, FY1897."
+ },
+ "p0136_2": {
+  "t": "Receipts from Government Enterprises, Part 1: Posts and Telegraphs (FY1897)",
+  "d": "Gives postal and telegraph receipts in yen by office, jurisdiction and district, FY1897."
+ },
+ "p0137_1": {
+  "t": "Receipts from Government Enterprises, Part 2: Hospitals (FY1897)",
+  "d": "Gives hospital receipts in yen by hospital, FY1897."
+ },
+ "p0137_2": {
+  "t": "Receipts from Government Enterprises and Property, Part 3 (FY1897)",
+  "d": "Gives opium, forest, convict labour, government land rent and government property rental receipts in yen by prefecture and district, FY1897."
+ },
+ "p0137_3": {
+  "t": "Sales of Government Property by Office (FY1897)",
+  "d": "Gives proceeds in yen from sales of land, buildings, goods and ships, by selling office, FY1897."
+ },
+ "p0138_1": {
+  "t": "Officials (End of December 1897)",
+  "d": "Gives officials and annual salaries in yen by rank (chokunin, sōnin, hannin and others), compared with 1896, at the end of December 1897."
+ },
+ "p0140_1": {
+  "t": "Officials by Government Office (End of December 1897)",
+  "d": "Gives officials and annual salaries in yen by office and by rank (chokunin, sōnin, hannin, contract staff), at the end of December 1897."
+ },
+ "p0143_2": {
+  "t": "Officials by Status of Registry (End of December)",
+  "d": "Gives officials by rank (chokunin, sōnin, hannin) for nobility, gentry and commoners, 1897 and 1896."
+ },
+ "p0143_3": {
+  "t": "Officials by Rank in Each Government Office (End of December 1897)",
+  "d": "Gives officials in service (persons and annual salary) and on leave by office and rank, at the end of December 1897."
+ }
+}

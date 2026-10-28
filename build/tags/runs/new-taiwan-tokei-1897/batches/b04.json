@@ -1,0 +1,2556 @@
+[
+ {
+  "key": "taiwan-tokei-1897:p0103_2",
+  "table_no": "120",
+  "title": "鐵道乘客及貨物賃金",
+  "en": {
+   "t": "Railway Passenger and Freight Receipts by Station (FY1897)",
+   "d": "Gives fares (first and ordinary class) and freight charges in yen by station, FY1897."
+  },
+  "chapter": "9 交通",
+  "caption_extra": "明治30年度",
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "停車場",
+     "乘客賃金 — 上等 (円)",
+     "乘客賃金 — 並等 (円)",
+     "乘客賃金 — 計 (円)",
+     "貨物賃金 — 手荷物及小荷物 (円)",
+     "貨物賃金 — 荷物 (円)",
+     "貨物賃金 — 計 (円)",
+     "合計 (円)"
+    ],
+    "row_labels": [
+     "基隆臺北間",
+     "基隆",
+     "七堵",
+     "水返脚",
+     "臺北",
+     "合計",
+     "臺北新竹間",
+     "淡水橋",
+     "海山口",
+     "桃仔園",
+     "中壢",
+     "大湖口",
+     "紅毛田",
+     "新竹",
+     "合計",
+     "總計"
+    ],
+    "rows": 16
+   }
+  ],
+  "footnotes": []
+ },
+ {
+  "key": "taiwan-tokei-1897:p0103_3",
+  "table_no": "121",
+  "title": "郵便線路實里程",
+  "en": {
+   "t": "Actual Length of Postal Routes (End of FY1897)",
+   "d": "Gives route length of ordinary roads (main, middle, minor lines; ri, chō, ken) and railways (miles and chains) by prefecture and district, at the end of FY1897."
+  },
+  "chapter": "9 交通",
+  "caption_extra": "明治30年度末日",
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "管轄區 — 地方",
+     "通常道路 — 大線 (里.丁.間)",
+     "通常道路 — 中線 (里.丁.間)",
+     "通常道路 — 小線 (里.丁.間)",
+     "通常道路 — 合計 (里.丁.間)",
+     "鐵道 (哩.鎖)"
+    ],
+    "row_labels": [
+     "臺北 — 臺北",
+     "臺北 — 新竹",
+     "臺北 — 合計",
+     "臺中 — 臺中",
+     "臺中 — 嘉義",
+     "臺中 — 合計",
+     "臺南 — 臺南",
+     "臺南 — 鳳山",
+     "臺南 — 合計",
+     "宜蘭 — 宜蘭",
+     "臺東 — 臺東",
+     "總計"
+    ],
+    "rows": 12
+   }
+  ],
+  "footnotes": [
+   "本表ノ外海路七百九十六浬八分川路十浬アリ又表中×ヲ附スルハ輕便鐵道ノ哩數ナリ"
+  ]
+ },
+ {
+  "key": "taiwan-tokei-1897:p0104_1",
+  "table_no": "122",
+  "title": "內國郵便物",
+  "en": {
+   "t": "Domestic Mail by Post Office (FY1897)",
+   "d": "Gives domestic mail collected and delivered (letters, postcards, newspapers, books, samples, seed, duty-free) by post office, jurisdiction and district, FY1897."
+  },
+  "chapter": "9 交通",
+  "caption_extra": "明治30年度",
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "局名",
+     "管轄區",
+     "地方",
+     "種別",
+     "取集 — 書狀",
+     "取集 — 葉書",
+     "取集 — 新聞紙雜誌類",
+     "取集 — 書籍類",
+     "取集 — 見本",
+     "取集 — 農產物種子",
+     "取集 — 免稅",
+     "取集 — 合計",
+     "配達"
+    ],
+    "row_labels": [
+     "臺北",
+     "臺北",
+     "臺北支局大稻埕",
+     "臺北支局大稻埕",
+     "臺北支局艋舺",
+     "臺北支局艋舺",
+     "基隆",
+     "基隆",
+     "基隆支局金包里",
+     "基隆支局金包里",
+     "基隆支局頂双溪",
+     "基隆支局頂双溪",
+     "淡水",
+     "淡水",
+     "桃仔園",
+     "桃仔園",
+     "大嵙崁",
+     "大嵙崁",
+     "景尾",
+     "景尾",
+     "水返脚",
+     "水返脚",
+     "新竹",
+     "新竹",
+     "苗栗",
+     "苗栗",
+     "苗栗支局後壠",
+     "苗栗支局後壠",
+     "大甲",
+     "大甲",
+     "合計",
+     "合計",
+     "臺中",
+     "臺中",
+     "鹿港",
+     "鹿港",
+     "埔里社",
+     "埔里社",
+     "彰化",
+     "彰化",
+     "…"
+    ],
+    "rows": 108
+   },
+   {
+    "label": "表中本島人ニ係ル郵便物ヲ掲クレハ左ノ如シ但明治二十九年度ハ十月以降ノ調査ナリ",
+    "columns": [
+     "年度",
+     "種別",
+     "取集 — 書狀",
+     "取集 — 葉書",
+     "取集 — 新聞雜誌類",
+     "取集 — 書籍類",
+     "取集 — 見本",
+     "取集 — 免稅",
+     "取集 — 合計",
+     "配達"
+    ],
+    "row_labels": [
+     "明治30年度",
+     "明治30年度",
+     "明治30年度",
+     "明治29年度",
+     "明治29年度",
+     "明治29年度"
+    ],
+    "rows": 6
+   }
+  ],
+  "footnotes": []
+ },
+ {
+  "key": "taiwan-tokei-1897:p0106_1",
+  "table_no": "123",
+  "title": "內國郵便物月別",
+  "en": {
+   "t": "Domestic Mail by Month (FY1897)",
+   "d": "Gives domestic mail collected and delivered by kind (ordinary and registered) and month, FY1897."
+  },
+  "chapter": "9 交通",
+  "caption_extra": "明治30年度",
+  "parts": [
+   {
+    "label": "明治30年度 (with 明治29年度 for comparison)",
+    "columns": [
+     "月",
+     "取集 — 書狀 — 通常",
+     "取集 — 書狀 — 書留",
+     "取集 — 葉書 — 通常",
+     "取集 — 葉書 — 書留",
+     "取集 — 新聞雜誌類 — 通常",
+     "取集 — 新聞雜誌類 — 書留",
+     "取集 — 書籍類 — 通常",
+     "取集 — 書籍類 — 書留",
+     "取集 — 見本 — 通常",
+     "取集 — 見本 — 書留",
+     "取集 — 農產物種子 — 通常",
+     "取集 — 農產物種子 — 書留",
+     "取集 — 免稅 — 通常",
+     "取集 — 免稅 — 書留",
+     "取集 — 計 — 通常",
+     "取集 — 計 — 書留",
+     "取集 — 計 — 計",
+     "配達 — 通常",
+     "配達 — 書留",
+     "配達 — 計",
+     "明治29年度 — 取集 — 通常",
+     "明治29年度 — 取集 — 書留",
+     "明治29年度 — 取集 — 計",
+     "明治29年度 — 配達 — 通常",
+     "明治29年度 — 配達 — 書留",
+     "明治29年度 — 配達 — 計"
+    ],
+    "row_labels": [
+     "四月",
+     "五月",
+     "六月",
+     "七月",
+     "八月",
+     "九月",
+     "十月",
+     "十一月",
+     "十二月",
+     "一月",
+     "二月",
+     "三月",
+     "合計"
+    ],
+    "rows": 13
+   },
+   {
+    "label": "表中本島人ニ係ル郵便物ヲ掲クレハ左ノ如シ但明治二十九年度ノ九月以前ハ之カ調査ヲ闕ク",
+    "columns": [
+     "月",
+     "明治30年度 — 取集 — 通常",
+     "明治30年度 — 取集 — 書留",
+     "明治30年度 — 取集 — 計",
+     "明治30年度 — 配達 — 通常",
+     "明治30年度 — 配達 — 書留",
+     "明治30年度 — 配達 — 計",
+     "明治29年度 — 取集 — 通常",
+     "明治29年度 — 取集 — 書留",
+     "明治29年度 — 取集 — 計",
+     "明治29年度 — 配達 — 通常",
+     "明治29年度 — 配達 — 書留",
+     "明治29年度 — 配達 — 計"
+    ],
+    "row_labels": [
+     "四月",
+     "五月",
+     "六月",
+     "七月",
+     "八月",
+     "九月",
+     "十月",
+     "十一月",
+     "十二月",
+     "一月",
+     "二月",
+     "三月",
+     "合計"
+    ],
+    "rows": 13
+   }
+  ],
+  "footnotes": []
+ },
+ {
+  "key": "taiwan-tokei-1897:p0107_1",
+  "table_no": "124",
+  "title": "外國郵便物",
+  "en": {
+   "t": "International Mail by Post Office (FY1897)",
+   "d": "Gives international mail collected and delivered (letters, postcards, printed matter, legal and commercial papers, samples, duty-free) by post office, jurisdiction and district, FY1897."
+  },
+  "chapter": "9 交通",
+  "caption_extra": "明治30年度",
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "局名",
+     "管轄區",
+     "地方",
+     "種別",
+     "取集 — 書狀",
+     "取集 — 葉書",
+     "取集 — 印刷物",
+     "取集 — 訴訟商業書類",
+     "取集 — 商品見本",
+     "取集 — 免稅",
+     "取集 — 合計",
+     "配達"
+    ],
+    "row_labels": [
+     "臺北",
+     "臺北",
+     "臺北支局大稻埕",
+     "臺北支局大稻埕",
+     "臺北支局艋舺",
+     "臺北支局艋舺",
+     "基隆",
+     "基隆",
+     "淡水",
+     "淡水",
+     "大嵙崁",
+     "大嵙崁",
+     "景尾",
+     "景尾",
+     "水返脚",
+     "水返脚",
+     "新竹",
+     "新竹",
+     "苗栗",
+     "苗栗",
+     "苗栗支局後壠",
+     "苗栗支局後壠",
+     "大甲",
+     "大甲",
+     "合計",
+     "合計",
+     "臺中",
+     "臺中",
+     "鹿港",
+     "鹿港",
+     "埔里社",
+     "埔里社",
+     "彰化",
+     "彰化",
+     "北斗",
+     "北斗",
+     "葫蘆墩",
+     "葫蘆墩",
+     "葫蘆墩支局東勢角",
+     "葫蘆墩支局東勢角",
+     "…"
+    ],
+    "rows": 80
+   },
+   {
+    "label": null,
+    "columns": [
+     "局名",
+     "種別",
+     "取集 — 書狀",
+     "取集 — 葉書",
+     "取集 — 印刷物",
+     "取集 — 訴訟商業書類",
+     "取集 — 商品見本",
+     "取集 — 免稅",
+     "取集 — 合計",
+     "配達"
+    ],
+    "row_labels": [
+     "東臺 合計",
+     "東臺 合計",
+     "總計",
+     "總計",
+     "總計",
+     "明治29年度",
+     "明治29年度",
+     "明治29年度"
+    ],
+    "rows": 8
+   }
+  ],
+  "footnotes": []
+ },
+ {
+  "key": "taiwan-tokei-1897:p0109_1",
+  "table_no": "125",
+  "title": "外國郵便物月別",
+  "en": {
+   "t": "International Mail by Month (FY1897)",
+   "d": "Gives international mail collected and delivered by kind (ordinary and registered) and month, FY1897."
+  },
+  "chapter": "9 交通",
+  "caption_extra": "明治30年度",
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "月",
+     "取集 — 書狀 通常",
+     "取集 — 書狀 書留",
+     "取集 — 葉書 通常",
+     "取集 — 印刷物 通常",
+     "取集 — 印刷物 書留",
+     "取集 — 訴訟商業書類 通常",
+     "取集 — 訴訟商業書類 書留",
+     "取集 — 商品見本 通常",
+     "取集 — 商品見本 書留",
+     "取集 — 免稅 通常",
+     "取集 — 免稅 書留",
+     "取集 計 — 通常",
+     "取集 計 — 書留",
+     "取集 計 — 計",
+     "配達 — 通常",
+     "配達 — 書留",
+     "配達 — 計",
+     "明治29年度 取集 — 通常",
+     "明治29年度 取集 — 書留",
+     "明治29年度 取集 — 計",
+     "明治29年度 配達 — 通常",
+     "明治29年度 配達 — 書留",
+     "明治29年度 配達 — 計"
+    ],
+    "row_labels": [
+     "四月",
+     "五月",
+     "六月",
+     "七月",
+     "八月",
+     "九月",
+     "十月",
+     "十一月",
+     "十二月",
+     "一月",
+     "二月",
+     "三月",
+     "合計"
+    ],
+    "rows": 13
+   }
+  ],
+  "footnotes": [
+   "明治二十九年度ハ同年八月一日外國郵便物取扱開始以後ノ分ナリ"
+  ]
+ },
+ {
+  "key": "taiwan-tokei-1897:p0109_2",
+  "table_no": "126",
+  "title": "內國小包郵便物數量",
+  "en": {
+   "t": "Domestic Parcel Post by Post Office (FY1897)",
+   "d": "Gives parcels accepted (ordinary, declared value, free; number and weight in momme) by post office, jurisdiction and district, FY1897."
+  },
+  "chapter": "9 交通",
+  "caption_extra": "明治30年度",
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "管轄區",
+     "地方",
+     "局名",
+     "引受 — 個數 — 通常",
+     "引受 — 個數 — 價格登記",
+     "引受 — 個數 — 免料",
+     "引受 — 個數 — 合計",
+     "引受 — 量目 — 通常 (匁)",
+     "引受 — 量目 — 價格登記 (匁)",
+     "引受 — 量目 — 免料 (匁)",
+     "引受 — 量目 — 合計 (匁)",
+     "引受 — 郵便料 — 通常 (円)",
+     "引受 — 郵便料 — 價格登記 (円)",
+     "引受 — 保險料 (円)",
+     "引受 — 諸手數料 (円)",
+     "引受 — 登記金額 (円)",
+     "配達個數"
+    ],
+    "row_labels": [
+     "臺北",
+     "臺北",
+     "臺北",
+     "臺北",
+     "臺北",
+     "臺北",
+     "臺北",
+     "臺北",
+     "臺北",
+     "臺北",
+     "臺北",
+     "臺北",
+     "臺北",
+     "臺北",
+     "臺北",
+     "臺北",
+     "臺中",
+     "臺中",
+     "臺中",
+     "臺中",
+     "臺中",
+     "臺中",
+     "臺中",
+     "臺中",
+     "臺中",
+     "臺中",
+     "臺中",
+     "臺中",
+     "臺中",
+     "臺中",
+     "臺南",
+     "臺南",
+     "臺南",
+     "臺南",
+     "臺南",
+     "臺南",
+     "臺南",
+     "臺南",
+     "臺南",
+     "臺南",
+     "…"
+    ],
+    "rows": 53
+   }
+  ],
+  "footnotes": [
+   "明治二十九年度ハ同年八月小包郵便物取扱開始以降ノ數ナリ",
+   "表中本島人ニ係ル小包郵便物ハ明治二十九年度ニ於テハ引受八百四十二個配達一千零二十個ナリ但二十九年度ハ別ニ之ヲ區別セシ調査ナシ"
+  ]
+ },
+ {
+  "key": "taiwan-tokei-1897:p0111_1",
+  "table_no": "127",
+  "title": "內國小包郵便物數量月別",
+  "en": {
+   "t": "Domestic Parcel Post by Month (FY1897)",
+   "d": "Gives parcels accepted (ordinary, declared value, free; number and weight in momme) by month, FY1897."
+  },
+  "chapter": "9 交通",
+  "caption_extra": "明治30年度",
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "月次",
+     "引受 — 個數 — 通常",
+     "引受 — 個數 — 價額登記",
+     "引受 — 個數 — 免料",
+     "引受 — 個數 — 合計",
+     "引受 — 量目 — 通常 (匁)",
+     "引受 — 量目 — 價額登記 (匁)",
+     "引受 — 量目 — 免料 (匁)",
+     "引受 — 量目 — 合計 (匁)",
+     "引受 — 郵便料 — 通常 (円)",
+     "引受 — 郵便料 — 價額登記 (円)",
+     "引受 — 保險料 (円)",
+     "引受 — 諸手數料 (円)",
+     "引受 — 登記金額 (円)",
+     "配達個數"
+    ],
+    "row_labels": [
+     "四月",
+     "五月",
+     "六月",
+     "七月",
+     "八月",
+     "九月",
+     "十月",
+     "十一月",
+     "十二月",
+     "一月",
+     "二月",
+     "三月",
+     "總計"
+    ],
+    "rows": 13
+   }
+  ],
+  "footnotes": []
+ },
+ {
+  "key": "taiwan-tokei-1897:p0111_2",
+  "table_no": "128",
+  "title": "代金引換小包郵便物",
+  "en": {
+   "t": "Cash-on-Delivery Parcels by Post Office (FY1897)",
+   "d": "Gives cash-on-delivery parcels delivered to addressees and returned to senders (number and yen) by post office, jurisdiction and district, FY1897."
+  },
+  "chapter": "9 交通",
+  "caption_extra": "明治30年度",
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "管轄區",
+     "地方",
+     "局名",
+     "受取人ヘ交付 — 個數",
+     "受取人ヘ交付 — 金額 (円)",
+     "差出人ヘ還付 — 個數",
+     "差出人ヘ還付 — 金額 (円)"
+    ],
+    "row_labels": [
+     "臺北",
+     "臺北",
+     "臺北",
+     "臺北",
+     "臺北",
+     "臺北",
+     "臺北",
+     "臺北",
+     "臺北",
+     "臺北",
+     "臺北",
+     "臺北",
+     "臺北",
+     "臺北",
+     "臺中",
+     "臺中",
+     "臺中",
+     "臺中",
+     "臺中",
+     "臺中",
+     "臺中",
+     "臺中",
+     "臺中",
+     "臺中",
+     "臺中",
+     "臺中",
+     "臺中",
+     "臺中",
+     "臺南",
+     "臺南",
+     "臺南",
+     "臺南",
+     "鳳山",
+     "打狗",
+     "恒春",
+     "枋寮",
+     "阿公店",
+     "東港",
+     "澎湖島",
+     "合計",
+     "…"
+    ],
+    "rows": 51
+   }
+  ],
+  "footnotes": [
+   "明治二十九年度ハ二十九年十二月ヨリ三十年三月迄ノ數ナリ"
+  ]
+ },
+ {
+  "key": "taiwan-tokei-1897:p0112_1",
+  "table_no": "129",
+  "title": "代金引換小包郵便物月別",
+  "en": {
+   "t": "Cash-on-Delivery Parcels by Month (FY1897)",
+   "d": "Gives cash-on-delivery parcels delivered and returned (number and yen) by month, FY1897."
+  },
+  "chapter": "9 交通",
+  "caption_extra": "明治三十年度",
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "月次",
+     "受取人ヘ交付 — 個數",
+     "受取人ヘ交付 — 金額 (円)",
+     "差出人ヘ還付 — 個數",
+     "差出人ヘ還付 — 金額 (円)",
+     "合計 — 個數",
+     "合計 — 金額 (円)"
+    ],
+    "row_labels": [
+     "四月",
+     "五月",
+     "六月",
+     "七月",
+     "八月",
+     "九月",
+     "十月",
+     "十一月",
+     "十二月",
+     "一月",
+     "二月",
+     "三月",
+     "總計"
+    ],
+    "rows": 13
+   }
+  ],
+  "footnotes": []
+ },
+ {
+  "key": "taiwan-tokei-1897:p0112_2",
+  "table_no": "130",
+  "title": "郵便切手類賣下高",
+  "en": {
+   "t": "Sales of Postage Stamps and Stationery by Post Office (FY1897)",
+   "d": "Gives sales of stamps, postcards and envelopes (pieces and yen) by post office, jurisdiction and district, FY1897."
+  },
+  "chapter": "9 交通",
+  "caption_extra": "明治三十年度",
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "局名",
+     "管轄區",
+     "地方",
+     "切手 — 枚數",
+     "切手 — 金額 (円)",
+     "葉書 — 枚數",
+     "葉書 — 金額 (円)",
+     "封皮 — 枚數",
+     "封皮 — 金額 (円)",
+     "合計 — 枚數",
+     "合計 — 金額 (円)"
+    ],
+    "row_labels": [
+     "臺北",
+     "臺北大稻埕支局",
+     "臺北艋舺支局",
+     "基隆",
+     "基隆金包里支局",
+     "基隆頂双溪支局",
+     "淡水",
+     "桃仔園",
+     "大嵙崁",
+     "景尾",
+     "水返脚",
+     "新竹",
+     "苗栗",
+     "苗栗後壠支局",
+     "大甲",
+     "合計",
+     "臺中",
+     "鹿港",
+     "埔里社",
+     "彰化",
+     "北斗",
+     "葫蘆墩",
+     "葫蘆墩東勢角支局",
+     "嘉義",
+     "嘉義北港支局",
+     "嘉義樸仔脚支局",
+     "雲林",
+     "新營庄",
+     "林圮埔",
+     "合計",
+     "臺南",
+     "臺南安平支局",
+     "臺南蕃薯寮支局",
+     "曾文溪",
+     "鳳山",
+     "打狗",
+     "恒春",
+     "枋寮",
+     "阿公店",
+     "東港",
+     "…"
+    ],
+    "rows": 53
+   }
+  ],
+  "footnotes": []
+ },
+ {
+  "key": "taiwan-tokei-1897:p0114_1",
+  "table_no": "131",
+  "title": "郵便切手類賣下高月別",
+  "en": {
+   "t": "Sales of Postage Stamps and Stationery by Month (FY1897)",
+   "d": "Gives sales of stamps, postcards and envelopes (pieces and yen) by month, FY1897."
+  },
+  "chapter": "9 交通",
+  "caption_extra": "明治30年度",
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "月次",
+     "切手 — 枚數",
+     "切手 — 金額 (圓)",
+     "葉書 — 枚數",
+     "葉書 — 金額 (圓)",
+     "封皮 — 枚數",
+     "封皮 — 金額 (圓)",
+     "合計 — 枚數",
+     "合計 — 金額 (圓)"
+    ],
+    "row_labels": [
+     "4月",
+     "5月",
+     "6月",
+     "7月",
+     "8月",
+     "9月",
+     "10月",
+     "11月",
+     "12月",
+     "1月",
+     "2月",
+     "3月",
+     "總計"
+    ],
+    "rows": 13
+   }
+  ],
+  "footnotes": []
+ },
+ {
+  "key": "taiwan-tokei-1897:p0114_2",
+  "table_no": "132",
+  "title": "郵便爲替",
+  "en": {
+   "t": "Postal Money Orders by Post Office (FY1897)",
+   "d": "Gives postal and transfer money orders issued and paid (number and yen) by post office, jurisdiction and district, FY1897."
+  },
+  "chapter": "9 交通",
+  "caption_extra": "明治30年度",
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "局所名",
+     "管轄區",
+     "地方",
+     "振出 — 郵便爲替 — 口數",
+     "振出 — 郵便爲替 — 金額 (圓)",
+     "振出 — 振替爲替 — 口數",
+     "振出 — 振替爲替 — 金額 (圓)",
+     "拂渡 — 郵便爲替 — 口數",
+     "拂渡 — 郵便爲替 — 金額 (圓)",
+     "拂渡 — 振替爲替 — 口數",
+     "拂渡 — 振替爲替 — 金額 (圓)"
+    ],
+    "row_labels": [
+     "臺北",
+     "臺北大稻埕支局",
+     "臺北艋舺支局",
+     "基隆",
+     "基隆金包里支局",
+     "基隆頂双溪支局",
+     "淡水",
+     "桃仔園",
+     "大嵙崁",
+     "景尾",
+     "水返脚",
+     "×臺北士林",
+     "×基隆瑞芳",
+     "新竹",
+     "苗栗",
+     "新竹後壠支局",
+     "大甲",
+     "合計",
+     "臺中",
+     "鹿港",
+     "埔里社",
+     "彰化",
+     "北斗",
+     "葫蘆墩",
+     "葫蘆墩東勢角支局",
+     "牛馬頭",
+     "×北斗二林",
+     "嘉義",
+     "嘉義北港支局",
+     "嘉義樸仔脚支局",
+     "雲林",
+     "新營庄",
+     "林圮埔",
+     "合計",
+     "臺南",
+     "臺南安平支局",
+     "臺南蕃薯寮支局",
+     "曾文溪",
+     "鳳山",
+     "打狗",
+     "…"
+    ],
+    "rows": 57
+   },
+   {
+    "label": "表中本島人ニ係ル郵便爲替",
+    "columns": [
+     "年度",
+     "振出 — 口數",
+     "振出 — 金額 (圓)",
+     "拂渡 — 口數",
+     "拂渡 — 金額 (圓)"
+    ],
+    "row_labels": [
+     "明治30年度",
+     "同29年度"
+    ],
+    "rows": 2
+   }
+  ],
+  "footnotes": [
+   "表中×ヲ附スルモノハ郵便受取所ニシテ郵便爲替ヲ取扱フモノナリ",
+   "明治二十九年度ハ八月郵便爲替開始以降ノ數ナリ",
+   "表中本島人ニ係ル郵便爲替ヲ掲クレハ左ノ如シ"
+  ]
+ },
+ {
+  "key": "taiwan-tokei-1897:p0116_1",
+  "table_no": "133",
+  "title": "郵便爲替月別",
+  "en": {
+   "t": "Postal Money Orders by Month (FY1897)",
+   "d": "Gives postal and transfer money orders issued and paid (number and yen) by month, FY1897."
+  },
+  "chapter": "9 交通",
+  "caption_extra": "明治30年度",
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "月次",
+     "振出 — 郵便爲替 — 口數",
+     "振出 — 郵便爲替 — 金額 (圓)",
+     "振出 — 振替爲替 — 口數",
+     "振出 — 振替爲替 — 金額 (圓)",
+     "拂渡 — 郵便爲替 — 口數",
+     "拂渡 — 郵便爲替 — 金額 (圓)",
+     "拂渡 — 振替爲替 — 口數",
+     "拂渡 — 振替爲替 — 金額 (圓)"
+    ],
+    "row_labels": [
+     "4月",
+     "5月",
+     "6月",
+     "7月",
+     "8月",
+     "9月",
+     "10月",
+     "11月",
+     "12月",
+     "1月",
+     "2月",
+     "3月",
+     "總計"
+    ],
+    "rows": 13
+   },
+   {
+    "label": "表中本島人ニ係ル郵便爲替ノ月別",
+    "columns": [
+     "月次",
+     "振出 — 口數",
+     "振出 — 金額 (圓)",
+     "拂渡 — 口數",
+     "拂渡 — 金額 (圓)"
+    ],
+    "row_labels": [
+     "4月",
+     "5月",
+     "6月",
+     "7月",
+     "8月",
+     "9月",
+     "10月",
+     "11月",
+     "12月",
+     "1月",
+     "2月",
+     "3月",
+     "總計"
+    ],
+    "rows": 13
+   }
+  ],
+  "footnotes": [
+   "表中本島人ニ係ル郵便爲替ノ月別ヲ掲クレハ左ノ如シ"
+  ]
+ },
+ {
+  "key": "taiwan-tokei-1897:p0116_2",
+  "table_no": "134",
+  "title": "郵便貯金",
+  "en": {
+   "t": "Postal Savings by Post Office (FY1897)",
+   "d": "Gives postal savings deposits and withdrawals (number and yen) and new depositors by post office, jurisdiction and district, FY1897."
+  },
+  "chapter": "9 交通",
+  "caption_extra": "明治30年度",
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "局所名",
+     "管轄區",
+     "地方",
+     "預入 — 度數",
+     "預入 — 金額 (圓)",
+     "拂戻 — 度數",
+     "拂戻 — 金額 (圓)",
+     "新規人員"
+    ],
+    "row_labels": [
+     "臺北",
+     "臺北大稻埕支局",
+     "臺北艋舺支局",
+     "基隆",
+     "基隆金包里支局",
+     "基隆頂双溪支局",
+     "淡水",
+     "桃仔園",
+     "大嵙崁",
+     "景尾",
+     "水返脚",
+     "×臺北士林",
+     "×基隆瑞芳",
+     "新竹",
+     "臺北",
+     "臺北",
+     "臺北",
+     "臺北",
+     "臺中",
+     "臺中",
+     "臺中",
+     "臺中",
+     "臺中",
+     "臺中",
+     "臺中",
+     "臺中",
+     "臺中",
+     "臺中",
+     "臺中",
+     "臺中",
+     "臺中",
+     "臺中",
+     "臺中",
+     "臺中",
+     "臺南",
+     "臺南",
+     "臺南",
+     "臺南",
+     "臺南",
+     "臺南",
+     "…"
+    ],
+    "rows": 57
+   },
+   {
+    "label": "表中本島人ニ係ル郵便貯金ヲ掲クレハ左ノ如シ但預人員ハ調査ヲ缺ク",
+    "columns": [
+     "年度",
+     "預入 — 度數",
+     "預入 — 金額 (円)",
+     "拂戻 — 度數",
+     "拂戻 — 金額 (円)"
+    ],
+    "row_labels": [
+     "明治30年度",
+     "同29年度"
+    ],
+    "rows": 2
+   },
+   {
+    "label": "本表ハ各局所ニ於テ取扱ヒタル郵便貯金ノ事實ニシテ其年度末ノ現況ニ在リテハ即チ左ノ如シ",
+    "columns": [
+     "年度末",
+     "預人員",
+     "預金額 / 預金高 (円)",
+     "一人ニ付預金高 (円)"
+    ],
+    "row_labels": [
+     "明治30年度末",
+     "同29年度末"
+    ],
+    "rows": 2
+   }
+  ],
+  "footnotes": [
+   "表中×ヲ附スルモノハ郵便受取所ニシテ郵便貯金ヲ取扱フモノナリ",
+   "明治二十九年度ハ八月郵便貯金開始以降ノ數ナリ",
+   "表中本島人ニ係ル郵便貯金ヲ掲クレハ左ノ如シ但預人員ハ調査ヲ缺ク",
+   "本表ハ各局所ニ於テ取扱ヒタル郵便貯金ノ事實ニシテ其年度末ノ現況ニ在リテハ即チ左ノ如シ"
+  ],
+  "prior": {
+   "key": "taiwan-tokei-1925:p0270_4",
+   "topics": [
+    "finance"
+   ],
+   "tags": [
+    "savings-and-loans"
+   ],
+   "flags": []
+  }
+ },
+ {
+  "key": "taiwan-tokei-1897:p0118_1",
+  "table_no": "135",
+  "title": "郵便貯金月別",
+  "en": {
+   "t": "Postal Savings by Month (FY1897)",
+   "d": "Gives depositors on hand, deposits and withdrawals (number and yen) by month, FY1897."
+  },
+  "chapter": "9 交通",
+  "caption_extra": "明治30年度",
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "月次",
+     "現在人員",
+     "預入 — 度數",
+     "預入 — 金額 (円)",
+     "拂戻 — 度數",
+     "拂戻 — 金額 (円)"
+    ],
+    "row_labels": [
+     "四月",
+     "五月",
+     "六月",
+     "七月",
+     "八月",
+     "九月",
+     "十月",
+     "十一月",
+     "十二月",
+     "一月",
+     "二月",
+     "三月",
+     "總計"
+    ],
+    "rows": 13
+   },
+   {
+    "label": "表中本島人ニ係ル郵便貯金ノ月別ヲ掲クレハ左ノ如シ",
+    "columns": [
+     "月次",
+     "預入 — 度數",
+     "預入 — 金額 (円)",
+     "拂戻 — 度數",
+     "拂戻 — 金額 (円)"
+    ],
+    "row_labels": [
+     "四月",
+     "五月",
+     "六月",
+     "七月",
+     "八月",
+     "九月",
+     "十月",
+     "十一月",
+     "十二月",
+     "一月",
+     "二月",
+     "三月",
+     "總計"
+    ],
+    "rows": 13
+   }
+  ],
+  "footnotes": [
+   "表中本島人ニ係ル郵便貯金ノ月別ヲ掲クレハ左ノ如シ"
+  ]
+ },
+ {
+  "key": "taiwan-tokei-1897:p0118_2",
+  "table_no": "136",
+  "title": "電信線路里程",
+  "en": {
+   "t": "Length of Telegraph Lines (End of FY1897)",
+   "d": "Gives route length and wire length (ri, chō, ken) by prefecture and district, at the end of FY1897."
+  },
+  "chapter": "9 交通",
+  "caption_extra": "明治30年度末日",
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "地方",
+     "線路亘長 (里・丁・間)",
+     "線條延長 (里・丁・間)"
+    ],
+    "row_labels": [
+     "臺北",
+     "新竹",
+     "臺中",
+     "嘉義",
+     "臺南",
+     "鳳山",
+     "宜蘭",
+     "臺東",
+     "澎湖",
+     "總計"
+    ],
+    "rows": 10
+   },
+   {
+    "label": "本表ノ外河底線及海底線ヲ掲クレハ左ノ如シ",
+    "columns": [
+     "種別",
+     "所在",
+     "線條長 (浬)",
+     "心線延長 (浬)"
+    ],
+    "row_labels": [
+     "河底線",
+     "河底線",
+     "河底線",
+     "河底線",
+     "河底線",
+     "海底線"
+    ],
+    "rows": 6
+   }
+  ],
+  "footnotes": [
+   "本表ノ外河底線及海底線ヲ掲クレハ左ノ如シ"
+  ]
+ },
+ {
+  "key": "taiwan-tokei-1897:p0119_1",
+  "table_no": "137",
+  "title": "內國發著電報",
+  "en": {
+   "t": "Domestic Telegrams Sent and Received by Office (FY1897)",
+   "d": "Gives domestic telegrams sent and received (paid, free, total; words and messages; Japanese and European script) by office, FY1897."
+  },
+  "chapter": "9 交通",
+  "caption_extra": "明治30年度",
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "管轄區",
+     "地方",
+     "局所名",
+     "和歐",
+     "發 — 有料 — 信語數",
+     "發 — 有料 — 通數",
+     "發 — 無料 — 信語數",
+     "發 — 無料 — 通數",
+     "發 — 合計 — 信語數",
+     "發 — 合計 — 通數",
+     "著 — 有料 — 信語數",
+     "著 — 有料 — 通數",
+     "著 — 無料 — 信語數",
+     "著 — 無料 — 通數",
+     "著 — 合計 — 信語數",
+     "著 — 合計 — 通數",
+     "料金 (円)"
+    ],
+    "row_labels": [
+     "臺北",
+     "臺北",
+     "臺北",
+     "臺北",
+     "臺北",
+     "臺北",
+     "臺北",
+     "臺北",
+     "臺北",
+     "臺北",
+     "臺北",
+     "臺北",
+     "臺北",
+     "臺北",
+     "臺北",
+     "臺北",
+     "臺北",
+     "臺北",
+     "臺北",
+     "臺北",
+     "臺北",
+     "臺北",
+     "臺北",
+     "臺北",
+     "臺北",
+     "臺北",
+     "臺北",
+     "臺北",
+     "臺北",
+     "臺北",
+     "臺北",
+     "臺北",
+     "臺北",
+     "臺北",
+     "臺中",
+     "臺中",
+     "臺中",
+     "臺中",
+     "臺中",
+     "臺中",
+     "…"
+    ],
+    "rows": 101
+   }
+  ],
+  "footnotes": [
+   "表中×ヲ附スルモノハ非常通信所ナリ但非常通信ハ其調査ヲ闕クヲ以テ之ヲ包含セス",
+   "本島人ニ係ル電報ハ内國ト外國トニ區別セシ調査ナシ今其内外國ノ通數ヲ擧クレハ明治三十年度ハ發信五千三百四十六ニシテ著信五千三百四十一此料金七千百二十六圓四十五錢ナリ又各月ノ事實ニ至リテハ之ヲ次表ニ附載ス但二十九年度ハ調査ヲ闕ク"
+  ],
+  "prior": {
+   "key": "taiwan-tokei-1925:p0273_5",
+   "topics": [
+    "communications"
+   ],
+   "tags": [
+    "telegraph"
+   ],
+   "flags": []
+  }
+ },
+ {
+  "key": "taiwan-tokei-1897:p0121_1",
+  "table_no": "138",
+  "title": "內國發著電報月別",
+  "en": {
+   "t": "Domestic Telegrams Sent and Received by Month (FY1897)",
+   "d": "Gives domestic telegrams sent and received (paid, free, total; Japanese and European script) by month, FY1897."
+  },
+  "chapter": "9 交通",
+  "caption_extra": "明治三十年度",
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "月次",
+     "和歐",
+     "發信 — 有料 — 信語數",
+     "發信 — 有料 — 通數",
+     "發信 — 無料 — 信語數",
+     "發信 — 無料 — 通數",
+     "發信 — 合計 — 信語數",
+     "發信 — 合計 — 通數",
+     "著信 — 有料 — 信語數",
+     "著信 — 有料 — 通數",
+     "著信 — 無料 — 信語數",
+     "著信 — 無料 — 通數",
+     "著信 — 合計 — 信語數",
+     "著信 — 合計 — 通數",
+     "料金 (圓)"
+    ],
+    "row_labels": [
+     "4月",
+     "4月",
+     "5月",
+     "5月",
+     "6月",
+     "6月",
+     "7月",
+     "7月",
+     "8月",
+     "8月",
+     "9月",
+     "9月",
+     "10月",
+     "10月",
+     "11月",
+     "11月",
+     "12月",
+     "12月",
+     "1月",
+     "1月",
+     "2月",
+     "2月",
+     "3月",
+     "3月",
+     "總計",
+     "總計",
+     "總計"
+    ],
+    "rows": 27
+   },
+   {
+    "label": "本島人ニ係ル内外國電報ヲ揭クレハ左ノ如シ",
+    "columns": [
+     "月次",
+     "内外國發著電報通數 — 發信",
+     "内外國發著電報通數 — 著信",
+     "料金 (圓)"
+    ],
+    "row_labels": [
+     "4月",
+     "5月",
+     "6月",
+     "7月",
+     "8月",
+     "9月",
+     "10月",
+     "11月",
+     "12月",
+     "1月",
+     "2月",
+     "3月",
+     "總計"
+    ],
+    "rows": 13
+   }
+  ],
+  "footnotes": []
+ },
+ {
+  "key": "taiwan-tokei-1897:p0122_1",
+  "table_no": "139",
+  "title": "外國發著電報",
+  "en": {
+   "t": "International Telegrams Sent and Received by Office (FY1897)",
+   "d": "Gives international telegrams sent (official, private, charged service, free) and received by office, jurisdiction and district, FY1897."
+  },
+  "chapter": "9 交通",
+  "caption_extra": "明治三十年度",
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "管轄區",
+     "地方",
+     "局名",
+     "發信通數 — 有料 — 官報",
+     "發信通數 — 有料 — 私報",
+     "發信通數 — 有料 — 課金事務報",
+     "發信通數 — 有料 — 計",
+     "發信通數 — 無料事務報",
+     "發信通數 — 合計",
+     "著信通數 — 有料 — 官報及私報",
+     "著信通數 — 有料 — 課金事務報",
+     "著信通數 — 有料 — 計",
+     "著信通數 — 無料事務報",
+     "著信通數 — 合計",
+     "料金 — 內國料 (圓)",
+     "料金 — 外國料 (圓)",
+     "料金 — 合計 (圓)"
+    ],
+    "row_labels": [
+     "臺北",
+     "臺北",
+     "臺北",
+     "臺北",
+     "臺北",
+     "臺北",
+     "臺北",
+     "臺北",
+     "臺北",
+     "臺北",
+     "臺中",
+     "臺中",
+     "臺中",
+     "臺中",
+     "臺中",
+     "臺中",
+     "臺中",
+     "臺中",
+     "臺南",
+     "臺南",
+     "臺南",
+     "臺南",
+     "臺南",
+     "澎湖島",
+     "合計",
+     "宜蘭",
+     "蘇澳",
+     "合計",
+     "臺東",
+     "總計",
+     "明治二十九年度"
+    ],
+    "rows": 31
+   }
+  ],
+  "footnotes": [],
+  "prior": {
+   "key": "taiwan-tokei-1925:p0274_1",
+   "topics": [
+    "communications"
+   ],
+   "tags": [
+    "telegraph"
+   ],
+   "flags": []
+  }
+ },
+ {
+  "key": "taiwan-tokei-1897:p0123_1",
+  "table_no": "140",
+  "title": "外國發著電報月別",
+  "en": {
+   "t": "International Telegrams Sent and Received by Month (FY1897)",
+   "d": "Gives international telegrams sent (official, private, service) and received by month, FY1897."
+  },
+  "chapter": "9 交通",
+  "caption_extra": "明治三十年度",
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "月次",
+     "發信通數 — 有料 — 官報",
+     "發信通數 — 有料 — 私報",
+     "發信通數 — 有料 — 課金事務報",
+     "發信通數 — 有料 — 計",
+     "發信通數 — 無料事務報",
+     "發信通數 — 合計",
+     "著信通數 — 有料 — 官報及私報",
+     "著信通數 — 有料 — 課金事務報",
+     "著信通數 — 有料 — 計",
+     "著信通數 — 無料事務報",
+     "著信通數 — 合計",
+     "料金 — 內國料 (円)",
+     "料金 — 外國料 (円)",
+     "料金 — 合計 (円)"
+    ],
+    "row_labels": [
+     "四月",
+     "五月",
+     "六月",
+     "七月",
+     "八月",
+     "九月",
+     "十月",
+     "十一月",
+     "十二月",
+     "一月",
+     "二月",
+     "三月",
+     "總計"
+    ],
+    "rows": 13
+   }
+  ],
+  "footnotes": []
+ },
+ {
+  "key": "taiwan-tokei-1897:p0123_2",
+  "table_no": "141",
+  "title": "航路標識ノ一 (夜標)",
+  "en": {
+   "t": "Navigation Aids, Part 1: Lights (End of FY1897)",
+   "d": "Lists lighthouses and other lights with location, longitude, latitude, date first lit, structure, characteristics and height, at the end of FY1897."
+  },
+  "chapter": "9 交通",
+  "caption_extra": "明治三十年度末日",
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "通稱",
+     "種類",
+     "位置 — 所在地名",
+     "位置 — 東經 (度.分.秒)",
+     "位置 — 北緯 (度.分.秒)",
+     "初點年月日",
+     "構造",
+     "等級及燈質",
+     "明弧",
+     "燈火ノ高サ — 自基礎 (丈)",
+     "燈火ノ高サ — 自水面 (丈)",
+     "光達距離 (浬)"
+    ],
+    "row_labels": [
+     "鼻頭角",
+     "富基角",
+     "淡水",
+     "淡水",
+     "安平",
+     "打狗",
+     "鵞鑾鼻",
+     "漁翁島"
+    ],
+    "rows": 8
+   }
+  ],
+  "footnotes": []
+ },
+ {
+  "key": "taiwan-tokei-1897:p0124_1",
+  "table_no": "142",
+  "title": "航路標識ノ二 (晝標)",
+  "en": {
+   "t": "Navigation Aids, Part 2: Day Marks (End of December 1897)",
+   "d": "Lists day marks (beacons and buoys) with position, colour, structure, height, depth of water and remarks, at the end of December 1897."
+  },
+  "chapter": "9 交通",
+  "caption_extra": "明治三十年十二月末日",
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "通號",
+     "種類",
+     "位置",
+     "著色",
+     "構造及水面上ノ高サ",
+     "大低潮ノ水深及大低潮礁ノ高低 (尋)",
+     "記事"
+    ],
+    "row_labels": [
+     "北門洲",
+     "南門洲",
+     "ハーボール",
+     "インフレキシブル礁",
+     "石花灘 (コーラルショール)",
+     "ブッシュ島"
+    ],
+    "rows": 6
+   }
+  ],
+  "footnotes": [
+   "設置年月ハ未詳ナルヲ以テ茲ニ之ヲ闕ク"
+  ]
+ },
+ {
+  "key": "taiwan-tokei-1897:p0124_2",
+  "table_no": "143",
+  "title": "航路標識ノ三 (警號)",
+  "en": {
+   "t": "Navigation Aids, Part 3: Fog Signals (End of FY1897)",
+   "d": "Lists fog signals with position, longitude, latitude and remarks, at the end of FY1897."
+  },
+  "chapter": "9 交通",
+  "caption_extra": "明治三十年度末日",
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "通號",
+     "種類",
+     "位置 — 所在地名",
+     "位置 — 東經 (度.分.秒)",
+     "位置 — 北緯 (度.分.秒)",
+     "記事"
+    ],
+    "row_labels": [
+     "漁翁島"
+    ],
+    "rows": 1
+   }
+  ],
+  "footnotes": [
+   "設置年月ハ未詳ナルヲ以テ茲ニ之ヲ闕ク"
+  ]
+ },
+ {
+  "key": "taiwan-tokei-1897:p0124_3",
+  "table_no": "144",
+  "title": "船舶",
+  "en": {
+   "t": "Ships (End of FY1897)",
+   "d": "Gives Western-type steamships and Japanese-type vessels by tonnage class, by prefecture and district, at the end of FY1897."
+  },
+  "chapter": "9 交通",
+  "caption_extra": "明治三十年度末日",
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "地方",
+     "西洋形船 (蒸汽) — 十五噸未滿",
+     "西洋形船 (蒸汽) — 十五噸以上百噸未滿",
+     "西洋形船 (蒸汽) — 計",
+     "日本形船 — 百五十石未滿",
+     "日本形船 — 百五十石以上二百石未滿",
+     "日本形船 — 計",
+     "支那形船 — 五十担未滿",
+     "支那形船 — 五十担以上百担未滿",
+     "支那形船 — 百担以上二百担未滿",
+     "支那形船 — 二百担以上三百担未滿",
+     "支那形船 — 三百担以上四百担未滿",
+     "支那形船 — 四百担以上五百担未滿",
+     "支那形船 — 五百担以上六百担未滿",
+     "支那形船 — 六百担以上七百担未滿",
+     "支那形船 — 七百担以上八百担未滿",
+     "支那形船 — 八百担以上九百担未滿",
+     "支那形船 — 九百担以上千担未滿",
+     "支那形船 — 千担以上",
+     "支那形船 — 計",
+     "合計"
+    ],
+    "row_labels": [
+     "臺北",
+     "新竹",
+     "臺中",
+     "嘉義",
+     "臺南",
+     "鳳山",
+     "宜蘭",
+     "臺東",
+     "澎湖",
+     "總計",
+     "明治二十九年度"
+    ],
+    "rows": 11
+   }
+  ],
+  "footnotes": [
+   "本表ノ外明治二十九年度ニ於テ石數不明ノ支那形船二百八十一隻アリ"
+  ]
+ },
+ {
+  "key": "taiwan-tokei-1897:p0125_1",
+  "table_no": "145",
+  "title": "遭難船舶地方別",
+  "en": {
+   "t": "Shipwrecks by Locality (FY1897)",
+   "d": "Gives vessels wrecked by type (Western steam and sail, Japanese, Chinese) by prefecture and district, with FY1896 comparison, FY1897."
+  },
+  "chapter": "9 交通",
+  "caption_extra": "明治三十年度",
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "種別",
+     "西洋形船 — 蒸汽",
+     "西洋形船 — 風帆",
+     "日本形船",
+     "支那形船",
+     "總計",
+     "明治二十九年度"
+    ],
+    "row_labels": [
+     "臺北",
+     "新竹",
+     "臺中",
+     "嘉義",
+     "臺南",
+     "鳳山",
+     "宜蘭",
+     "澎湖",
+     "合計"
+    ],
+    "rows": 9
+   },
+   {
+    "label": "本表ニ就キ遭難ノ種類ヲ掲クレハ左ノ如シ",
+    "columns": [
+     "種別",
+     "西洋形船 — 蒸汽",
+     "西洋形船 — 風帆"
+    ],
+    "row_labels": [
+     "觸礁又ハ坐礁 — 沈沒",
+     "觸礁又ハ坐礁 — 破壞",
+     "觸礁又ハ坐礁 — 損傷",
+     "觸礁又ハ坐礁 — 漂流",
+     "風災 — 沈沒",
+     "風災 — 破壞",
+     "風災 — 損傷",
+     "風災 — 漂流",
+     "其他 — 沈沒",
+     "其他 — 破壞",
+     "其他 — 損傷",
+     "其他 — 漂流",
+     "合計"
+    ],
+    "rows": 13
+   }
+  ],
+  "footnotes": [
+   "明治三十年度ニ於テハ蒸氣船沈沒ノ爲死亡セシ者八十四人支那形船沈沒ノ爲死亡セシ者二十六人アリ又明治二十九年度ニ於テハ支那形船沈沒ノ爲死亡セシ者三十八人アリ"
+  ]
+ },
+ {
+  "key": "taiwan-tokei-1897:p0125_2",
+  "table_no": "146",
+  "title": "遭難船舶月別",
+  "en": {
+   "t": "Shipwrecks by Month (FY1897)",
+   "d": "Gives vessels wrecked by type (Western steam and sail, Japanese, Chinese) by month, with FY1896 comparison, FY1897."
+  },
+  "chapter": "9 交通",
+  "caption_extra": "明治三十年度",
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "種別",
+     "西洋形船 — 蒸汽",
+     "西洋形船 — 風帆",
+     "日本形船",
+     "支那形船",
+     "總計",
+     "明治二十九年度"
+    ],
+    "row_labels": [
+     "四月",
+     "五月",
+     "六月",
+     "七月",
+     "八月",
+     "九月",
+     "十月",
+     "十一月",
+     "十二月",
+     "一月",
+     "二月",
+     "三月",
+     "合計"
+    ],
+    "rows": 13
+   }
+  ],
+  "footnotes": []
+ },
+ {
+  "key": "taiwan-tokei-1897:p0126_1",
+  "table_no": "147",
+  "title": "病院及醫師其他",
+  "en": {
+   "t": "Hospitals, Physicians and Related Personnel (End of December 1897)",
+   "d": "Gives government and private hospitals, physicians, midwives, pharmacists and drug dealers by prefecture and district, at the end of December 1897."
+  },
+  "chapter": "10 衞生",
+  "caption_extra": "明治30年12月末日",
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "地方",
+     "病院 — 官立",
+     "病院 — 私立",
+     "病院 — 合計",
+     "醫師",
+     "產婆",
+     "藥劑師",
+     "藥種商"
+    ],
+    "row_labels": [
+     "臺北",
+     "新竹",
+     "臺中",
+     "嘉義",
+     "臺南",
+     "鳳山",
+     "宜蘭",
+     "臺東",
+     "澎湖",
+     "總計"
+    ],
+    "rows": 10
+   }
+  ],
+  "footnotes": []
+ },
+ {
+  "key": "taiwan-tokei-1897:p0126_2",
+  "table_no": "148",
+  "title": "患者病類別",
+  "en": {
+   "t": "Patients by Disease Group (1897)",
+   "d": "Gives patients by disease group (infectious, nutritional, skin, circulatory, nervous, respiratory, digestive, urogenital, injury and others) for Japanese and Taiwanese, by prefecture and district, 1897."
+  },
+  "chapter": "10 衞生",
+  "caption_extra": "明治30年",
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "地方",
+     "傳染性病",
+     "發育及營養的病",
+     "皮膚及筋病",
+     "血行器病",
+     "神經系及五官病",
+     "呼吸器病",
+     "消化器病",
+     "泌尿及生殖器病",
+     "外傷性變死",
+     "中毒症",
+     "病症不詳",
+     "合計",
+     "上欄ノ內 — 麻剌里亞",
+     "上欄ノ內 — 脚氣"
+    ],
+    "row_labels": [
+     "臺北 內地人",
+     "臺北 本島人",
+     "新竹 內地人",
+     "新竹 本島人",
+     "臺中 內地人",
+     "臺中 本島人",
+     "嘉義 內地人",
+     "嘉義 本島人",
+     "臺南 內地人",
+     "臺南 本島人",
+     "鳳山 內地人",
+     "鳳山 本島人",
+     "宜蘭 內地人",
+     "宜蘭 本島人",
+     "臺東 內地人",
+     "臺東 本島人",
+     "澎湖 內地人",
+     "澎湖 本島人",
+     "總計 內地人",
+     "總計 本島人",
+     "總計 計"
+    ],
+    "rows": 21
+   }
+  ],
+  "footnotes": [
+   "本表ハ醫院及公醫ノ取扱ニ係ルモノノミニシテ本島患者ノ全數ニアラス",
+   "本表ニハ陸海軍軍人軍屬及在監人ヲ算入セス以下諸表モ亦同シ"
+  ]
+ },
+ {
+  "key": "taiwan-tokei-1897:p0127_1",
+  "table_no": "149",
+  "title": "死亡者病類別",
+  "en": {
+   "t": "Deaths by Disease Group (1897)",
+   "d": "Gives deaths by disease group for Japanese and Taiwanese, by prefecture and district, 1897."
+  },
+  "chapter": "10 衞生",
+  "caption_extra": "明治30年",
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "地方",
+     "傳染性病",
+     "發育及營養的病",
+     "皮膚及筋病",
+     "骨及關節病",
+     "血行器病",
+     "神經系及五官病",
+     "呼吸器病",
+     "消化器病",
+     "泌尿及生殖器病",
+     "外傷性變死",
+     "原因不詳",
+     "合計",
+     "上欄ノ內 — 麻剌里亞",
+     "上欄ノ內 — 脚氣",
+     "上欄ノ內 — 肺結核"
+    ],
+    "row_labels": [
+     "臺北 內地人",
+     "臺北 本島人",
+     "新竹 內地人",
+     "新竹 本島人",
+     "臺中 內地人",
+     "臺中 本島人",
+     "嘉義 內地人",
+     "嘉義 本島人",
+     "鳳山 內地人",
+     "鳳山 本島人",
+     "宜蘭 內地人",
+     "宜蘭 本島人",
+     "澎湖 內地人",
+     "澎湖 本島人",
+     "總計 內地人",
+     "總計 本島人",
+     "總計 計"
+    ],
+    "rows": 17
+   }
+  ],
+  "footnotes": [
+   "本表ハ醫院及公醫ノ取扱ニ係ルモノノミニシテ本島死亡者ノ全數ニアラス",
+   "臺南縣並臺東廳ハ死亡者ノ調査ヲ闕ク"
+  ]
+ },
+ {
+  "key": "taiwan-tokei-1897:p0127_2",
+  "table_no": "150",
+  "title": "八種傳染病患者及死亡者病類別",
+  "en": {
+   "t": "Patients and Deaths from the Eight Notifiable Infectious Diseases (1897)",
+   "d": "Gives patients and deaths from plague, typhoid, dysentery, diphtheria, smallpox and other notifiable diseases for Japanese and Taiwanese, by prefecture and district, 1897."
+  },
+  "chapter": "10 衞生",
+  "caption_extra": "明治30年",
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "地方",
+     "百斯篤 — 患者",
+     "百斯篤 — 死亡",
+     "腸窒扶私 — 患者",
+     "腸窒扶私 — 死亡",
+     "赤痢 — 患者",
+     "赤痢 — 死亡",
+     "實布垤里亞 — 患者",
+     "實布垤里亞 — 死亡",
+     "痘瘡 — 患者",
+     "痘瘡 — 死亡",
+     "猩紅熱 — 患者",
+     "合計 — 患者",
+     "合計 — 死亡"
+    ],
+    "row_labels": [
+     "臺北 內地人",
+     "臺北 本島人",
+     "新竹 內地人",
+     "新竹 本島人",
+     "臺中 內地人",
+     "臺中 本島人",
+     "嘉義 內地人",
+     "嘉義 本島人",
+     "臺南 內地人",
+     "臺南 本島人",
+     "鳳山 內地人",
+     "鳳山 本島人",
+     "宜蘭 內地人",
+     "宜蘭 本島人",
+     "臺東 內地人",
+     "澎湖 內地人",
+     "澎湖 本島人",
+     "總計 內地人",
+     "總計 本島人",
+     "總計 計"
+    ],
+    "rows": 20
+   },
+   {
+    "label": "[患者百人ニ對スル死亡者ノ比例]",
+    "columns": [
+     "地方",
+     "百斯篤 — 內地人",
+     "百斯篤 — 本島人",
+     "腸窒扶私 — 內地人",
+     "腸窒扶私 — 本島人",
+     "赤痢 — 內地人",
+     "赤痢 — 本島人",
+     "實布垤里亞 — 本島人",
+     "痘瘡 — 內地人",
+     "痘瘡 — 本島人",
+     "合計 — 內地人",
+     "合計 — 本島人"
+    ],
+    "row_labels": [
+     "臺北",
+     "新竹",
+     "臺中",
+     "嘉義",
+     "臺南",
+     "鳳山",
+     "宜蘭",
+     "澎湖",
+     "總計"
+    ],
+    "rows": 9
+   }
+  ],
+  "footnotes": [
+   "八種傳染病中虎列剌及發疹窒扶私ハ患者ナキヲ以テ之ヲ省ク次表モ亦同シ",
+   "本表ニ就キ患者百人ニ對スル死亡者ノ比例ヲ掲クレハ左ノ如シ"
+  ]
+ },
+ {
+  "key": "taiwan-tokei-1897:p0128_1",
+  "table_no": "151",
+  "title": "八種傳染病患者及死亡者病類月別",
+  "en": {
+   "t": "Patients and Deaths from the Eight Notifiable Infectious Diseases by Month (1897)",
+   "d": "Gives patients and deaths from the notifiable diseases for Japanese and Taiwanese, by month, 1897."
+  },
+  "chapter": "10 衞生",
+  "caption_extra": "明治30年",
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "月次",
+     "百斯篤 — 患者",
+     "百斯篤 — 死亡",
+     "腸窒扶私 — 患者",
+     "腸窒扶私 — 死亡",
+     "赤痢 — 患者",
+     "赤痢 — 死亡",
+     "實布垤里亞 — 患者",
+     "實布垤里亞 — 死亡",
+     "痘瘡 — 患者",
+     "痘瘡 — 死亡",
+     "猩紅熱 — 患者",
+     "合計 — 患者",
+     "合計 — 死亡"
+    ],
+    "row_labels": [
+     "1月 內地人",
+     "1月 本島人",
+     "2月 內地人",
+     "2月 本島人",
+     "3月 內地人",
+     "3月 本島人",
+     "4月 內地人",
+     "4月 本島人",
+     "5月 內地人",
+     "5月 本島人",
+     "6月 內地人",
+     "6月 本島人",
+     "7月 內地人",
+     "7月 本島人",
+     "8月 內地人",
+     "8月 本島人",
+     "9月 內地人",
+     "9月 本島人",
+     "10月 內地人",
+     "10月 本島人",
+     "11月 內地人",
+     "11月 本島人",
+     "12月 內地人",
+     "12月 本島人",
+     "總計 內地人",
+     "總計 本島人",
+     "總計 計"
+    ],
+    "rows": 27
+   }
+  ],
+  "footnotes": []
+ },
+ {
+  "key": "taiwan-tokei-1897:p0129_1",
+  "table_no": "152",
+  "title": "種痘",
+  "en": {
+   "t": "Vaccination (1897)",
+   "d": "Gives persons vaccinated against smallpox, first and repeat vaccinations by age and result (successful, unsuccessful), by prefecture and district, 1897."
+  },
+  "chapter": "10 衞生",
+  "caption_extra": "明治30年",
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "地方",
+     "初種 — 滿一年迄",
+     "初種 — 滿一年以上滿二年迄",
+     "初種 — 滿二年以上滿五年迄",
+     "初種 — 滿五年以上滿十年迄",
+     "初種 — 滿十年以上滿十五年迄",
+     "初種 — 十五年以上",
+     "初種 — 計",
+     "再種",
+     "三種以上",
+     "合計",
+     "初種感否百分比例"
+    ],
+    "row_labels": [
+     "臺北 善感",
+     "臺北 不善感",
+     "新竹 善感",
+     "新竹 不善感",
+     "臺中 善感",
+     "臺中 不善感",
+     "嘉義 善感",
+     "嘉義 不善感",
+     "臺南 善感",
+     "臺南 不善感",
+     "鳳山 善感",
+     "鳳山 不善感",
+     "宜蘭 善感",
+     "宜蘭 不善感",
+     "臺東 善感",
+     "臺東 不善感",
+     "澎湖 善感",
+     "澎湖 不善感",
+     "總計 善感",
+     "總計 不善感",
+     "總計 計"
+    ],
+    "rows": 21
+   }
+  ],
+  "footnotes": [
+   "本表ノ外旅行其他ノ事故ニ依リ成否ヲ診スルコト能ハサリシモノ新竹縣ニ五百六十人鳳山縣ニ百十九人宜蘭廳ニ三百九十七人臺東廳ニ二百三十三人アリ又臺南縣ノ種痘人員少キハ春季ニ於テペスト病猖獗ヲ極メ普ク種痘スルコト能ハサリシニ因ル"
+  ]
+ },
+ {
+  "key": "taiwan-tokei-1897:p0130_1",
+  "table_no": "153",
+  "title": "黴毒檢査",
+  "en": {
+   "t": "Syphilis Examinations (1897)",
+   "d": "Gives examination stations, examining physicians, average daily number of prostitutes and results of examinations (Japanese and Taiwanese) by prefecture and district, 1897."
+  },
+  "chapter": "10 衞生",
+  "caption_extra": "明治30年",
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "地方",
+     "檢查所",
+     "檢查所設立年月",
+     "檢查所數",
+     "檢查醫人員",
+     "娼妓一日平均人員 — 內地人",
+     "娼妓一日平均人員 — 本島人",
+     "娼妓一日平均人員 — 合計",
+     "檢查人員 — 眞性患者 — 內地人",
+     "檢查人員 — 眞性患者 — 本島人",
+     "檢查人員 — 眞性患者 — 計",
+     "檢查人員 — 假性患者 — 內地人",
+     "檢查人員 — 假性患者 — 本島人",
+     "檢查人員 — 假性患者 — 計",
+     "檢查人員 — 不患者 — 內地人",
+     "檢查人員 — 不患者 — 本島人",
+     "檢查人員 — 不患者 — 計",
+     "檢查人員 — 合計",
+     "檢查人員百ニ付患者"
+    ],
+    "row_labels": [
+     "臺北",
+     "臺北",
+     "臺北（艋舺・滬尾）",
+     "新竹",
+     "臺中",
+     "澎湖",
+     "總計"
+    ],
+    "rows": 7
+   }
+  ],
+  "footnotes": [
+   "嘉義臺南鳳山ノ三縣及宜蘭臺東ノ二廳管下ハ未タ娼妓營業取締規則ヲ施行セサルヲ以テ檢査所ノ設ケナシ"
+  ]
+ },
+ {
+  "key": "taiwan-tokei-1897:p0130_2",
+  "table_no": "154",
+  "title": "阿片烟膏取次人及特許者",
+  "en": {
+   "t": "Opium Agents and Licence Holders (End of FY1897)",
+   "d": "Gives opium agents and licensees (paste dealers, equipment makers and sellers, smoking houses, powdered-opium wholesalers) by prefecture and district, at the end of FY1897."
+  },
+  "chapter": "10 衞生",
+  "caption_extra": "明治30年度末",
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "地方",
+     "取次人",
+     "特許者 — 烟膏請賣",
+     "特許者 — 器具製造販賣",
+     "特許者 — 器具請賣",
+     "特許者 — 吸食所",
+     "特許者 — 吸食",
+     "特許者 — 粉末阿片卸賣",
+     "特許者 — 合計"
+    ],
+    "row_labels": [
+     "臺北",
+     "新竹",
+     "臺中",
+     "嘉義",
+     "臺南",
+     "鳳山",
+     "宜蘭",
+     "臺東",
+     "澎湖",
+     "總計"
+    ],
+    "rows": 10
+   }
+  ],
+  "footnotes": [
+   "表中特許者ハ臺北ハ明治三十年四月新竹臺南ハ同五月臺中嘉義鳳山ハ同六月澎湖ハ同七月宜蘭ハ同八月臺東ハ明治三十一年一月ヨリ特許ヲ與ヘタル者ナリ"
+  ]
+ },
+ {
+  "key": "taiwan-tokei-1897:p0131_1",
+  "table_no": "155",
+  "title": "歲入種類別ノ一",
+  "en": {
+   "t": "Revenue by Category, Part 1",
+   "d": "Gives government revenue by category in yen: FY1898 budget, FY1897 budget and FY1897 actual."
+  },
+  "chapter": "11 財政",
+  "caption_extra": "",
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "科目",
+     "明治31年度 — 豫算額 (圓)",
+     "同30年度 — 豫算額 (圓)",
+     "同30年度 — 現計額 (圓)"
+    ],
+    "row_labels": [
+     "歲入經常部",
+     "內地稅",
+     "地租",
+     "製茶稅",
+     "糖業稅",
+     "樟腦稅",
+     "船稅",
+     "鑛業稅",
+     "登記稅",
+     "計",
+     "海關稅",
+     "輸出稅",
+     "輸入稅",
+     "計",
+     "官業及官有財產收入",
+     "稅關雜收入",
+     "郵便電信收入",
+     "阿片收入",
+     "森林收入",
+     "病院收入",
+     "鐵道收入",
+     "囚徒工錢及製造收入",
+     "官有地小作料",
+     "官有物貸下料",
+     "計",
+     "雜收入",
+     "諸免許料",
+     "懲罰及沒收金",
+     "辨償金",
+     "雜入",
+     "計",
+     "合計",
+     "歲入臨時部",
+     "官有物拂下代",
+     "地所拂下代",
+     "建物拂下代",
+     "物品拂下代",
+     "船舶拂下代",
+     "計",
+     "補充金",
+     "…"
+    ],
+    "rows": 43
+   }
+  ],
+  "footnotes": []
+ },
+ {
+  "key": "taiwan-tokei-1897:p0132_1",
+  "table_no": "156",
+  "title": "歲入種類別ノ二",
+  "en": {
+   "t": "Revenue by Category, Part 2 (FY1896)",
+   "d": "Gives government revenue by category in yen, budget and actual, FY1896."
+  },
+  "chapter": "11 財政",
+  "caption_extra": "明治29年度",
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "科目",
+     "豫算額 (圓)",
+     "現計額 (圓)"
+    ],
+    "row_labels": [
+     "臺灣歲入",
+     "地租",
+     "製茶稅",
+     "製糖稅",
+     "樟腦稅",
+     "製藍稅",
+     "船稅",
+     "車稅",
+     "輸出稅",
+     "輸入稅",
+     "稅關雜收入",
+     "登記稅",
+     "砂金鑑札料",
+     "官有地小作料",
+     "官有地貸下料",
+     "郵便電信收入",
+     "諸免許及手數料",
+     "懲罰及沒收金",
+     "病院收入",
+     "辨償金",
+     "雜入",
+     "官吏遺族扶助法納金",
+     "阿片拂下代",
+     "官有物拂下代",
+     "製艦費納金",
+     "鐵道收入",
+     "鑛業稅",
+     "總計"
+    ],
+    "rows": 28
+   }
+  ],
+  "footnotes": []
+ },
+ {
+  "key": "taiwan-tokei-1897:p0132_2",
+  "table_no": "157",
+  "title": "歲出種類別ノ一",
+  "en": {
+   "t": "Expenditure by Category, Part 1",
+   "d": "Gives government expenditure by category in yen: FY1898 budget, FY1897 budget and FY1897 actual."
+  },
+  "chapter": "11 財政",
+  "caption_extra": "",
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "科目",
+     "明治31年度 豫算額 (円)",
+     "明治30年度 豫算額 (円)",
+     "明治30年度 現計額 (円)"
+    ],
+    "row_labels": [
+     "歲出經常部",
+     "民政費",
+     "傣給及諸給",
+     "廳費",
+     "修繕費",
+     "褒賞費",
+     "死傷手當",
+     "恩賜及救助費",
+     "難破船費",
+     "裁判費",
+     "在監人諸費",
+     "賠償及訴訟費",
+     "旅費",
+     "雜給及雜費",
+     "學生費",
+     "編書費",
+     "街庄社總代費",
+     "機密費",
+     "傭外國人諸給",
+     "計",
+     "稅關費",
+     "傣給及諸給",
+     "廳費",
+     "修繕費",
+     "從價稅品買上代",
+     "死傷手當",
+     "賠償及訴訟費",
+     "旅費",
+     "雜給及雜費",
+     "計",
+     "遞信費",
+     "傣給及諸給",
+     "廳費",
+     "修繕費",
+     "死傷手當",
+     "遞信事業費",
+     "電信技術練習費",
+     "賠償及訴訟費",
+     "諸拂戻金",
+     "旅費",
+     "…"
+    ],
+    "rows": 84
+   }
+  ],
+  "footnotes": [
+   "表中明治三十一年度豫算額ハ同年度施行豫算額、前年度繰越金、第一豫備金補充額、第二豫備金支出額、前年度餘剩金支出額ヲ當該各款項ヘ計上シタルモノナリ"
+  ]
+ },
+ {
+  "key": "taiwan-tokei-1897:p0134_1",
+  "table_no": "158",
+  "title": "歲出種類別ノ二",
+  "en": {
+   "t": "Expenditure by Category, Part 2 (FY1896)",
+   "d": "Gives government expenditure by category in yen, budget and actual, FY1896."
+  },
+  "chapter": "11 財政",
+  "caption_extra": "明治29年度",
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "科目",
+     "豫算額 (円)",
+     "現計額 (円)"
+    ],
+    "row_labels": [
+     "歲出經常部",
+     "民政費",
+     "傣給及諸給",
+     "廳費",
+     "修繕費",
+     "恩賞費",
+     "死傷手當",
+     "恩賜及救助費",
+     "難破船費",
+     "在監人諸費",
+     "賠償及訴訟費",
+     "旅費",
+     "雜給及雜費",
+     "學生費",
+     "編書費",
+     "撫墾費",
+     "裁判費",
+     "現金遞送費",
+     "計",
+     "稅關費",
+     "傣給及諸給",
+     "廳費",
+     "修繕費",
+     "從價稅品買上代",
+     "死傷手當",
+     "賠償及訴訟費",
+     "旅費",
+     "雜給及雜費",
+     "計",
+     "遞信費",
+     "傣給及諸給",
+     "廳費",
+     "修繕費",
+     "死傷手當",
+     "遞信事業費",
+     "諸拂戻金",
+     "旅費",
+     "雜給及雜費",
+     "航路標識事業費",
+     "計",
+     "…"
+    ],
+    "rows": 75
+   }
+  ],
+  "footnotes": []
+ },
+ {
+  "key": "taiwan-tokei-1897:p0135_1",
+  "table_no": "159",
+  "title": "內地稅現計額地方別",
+  "en": {
+   "t": "Domestic Taxes Actually Collected by Locality (FY1897)",
+   "d": "Gives land tax, tea tax, sugar tax, camphor tax, mining tax and registration tax in yen by prefecture and district, FY1897."
+  },
+  "chapter": "11 財政",
+  "caption_extra": "明治30年度",
+  "parts": [
+   {
+    "label": null,
+    "columns": [
+     "地方",
+     "地租 (円)",
+     "製茶稅 (円)",
+     "糖業稅 (円)",
+     "樟腦稅 (円)",
+     "鑛業稅 (円)",
+     "登記稅 (円)",
+     "合計 (円)"
+    ],
+    "row_labels": [
+     "臺北",
+     "新竹",
+     "臺中",
+     "嘉義",
+     "臺南",
+     "鳳山",
+     "宜蘭",
+     "臺東",
+     "澎湖",
+     "總計"
+    ],
+    "rows": 10
+   }
+  ],
+  "footnotes": []
+ }
+]
