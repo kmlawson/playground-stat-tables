@@ -1,54 +1,1589 @@
-{"listing": "japan--agriculture", "families": [
- {"label": "Gross area of land by ownership", "members": ["japan-1905/p0130_1", "japan-1910/p0348_1"], "note": ""},
- {"label": "Arable land: paddy and upland fields", "members": ["japan-1905/p0130_2", "japan-1910/p0349_1"], "note": ""},
- {"label": "Margin of reclamation by island", "members": ["japan-1905/p0131_1", "japan-1910/p0349_2"], "note": ""},
- {"label": "Farming families: sole farming and with subsidiary occupation", "members": ["japan-1910/p0350_2", "japan-1920-21/p0610_3"], "note": ""},
- {"label": "Farm households by tenure", "members": ["japan-1920-21/p0610_2", "japan-1946-48/p0348_2"], "note": ""},
- {"label": "Farm households by area cultivated", "members": ["japan-1920-21/p0610_4", "japan-1930/p0395_2", "japan-1946-48/p0350_1"], "note": ""},
- {"label": "Farm households, owners of arable land and arable land", "members": ["japan-1935/p0493_1", "japan-1935/p0493_2", "japan-1935/p0494_1", "japan-1939-40/p0450_1"], "note": "1935 prints the three sections as separate tables; 1939-40 as one."},
- {"label": "Average yield of paddy per tan", "members": ["japan-1910/p0351_2", "japan-1920-21/p0612_1", "japan-1930/p0398_1"], "note": ""},
- {"label": "One-crop and two-crop paddy fields", "members": ["japan-1910/p0352_3", "japan-1920-21/p0612_2"], "note": ""},
- {"label": "Value of farm production by item", "members": ["japan-1930/p0397_3", "japan-1939-40/p0451_2"], "note": ""},
- {"label": "Rice: area and production by year", "members": ["japan-1905/p0132_1", "japan-1910/p0354_2", "japan-1920-21/p0614_1", "japan-1930/p0399_1", "japan-1935/p0496_1", "japan-1939-40/p0454_1", "japan-1946-48/p0353_2"], "note": "1910, 1920-21 and 1930 add rice exports and imports; 1946-48 is a long-run series of five-year averages."},
- {"label": "Yield per tan of rice varieties", "members": ["japan-1920-21/p0614_2", "japan-1930/p0399_2"], "note": ""},
- {"label": "Barley, naked barley and wheat production", "members": ["japan-1905/p0132_3", "japan-1910/p0356_1", "japan-1920-21/p0614_4", "japan-1930/p0400_3", "japan-1946-48/p0355_1"], "note": "1946-48 gives barley, wheat and rye, with area and yield per tan, as a long-run series."},
- {"label": "Barley and wheat area in paddy and upland fields", "members": ["japan-1910/p0356_2", "japan-1920-21/p0615_1", "japan-1930/p0400_4"], "note": ""},
- {"label": "Miscellaneous grains production", "members": ["japan-1905/p0133_1", "japan-1910/p0356_3", "japan-1920-21/p0615_2", "japan-1930/p0400_5"], "note": ""},
- {"label": "Beans and potatoes production", "members": ["japan-1905/p0133_2", "japan-1905/p0133_3", "japan-1910/p0357_1", "japan-1920-21/p0616_1", "japan-1930/p0401_1"], "note": "1905 prints beans and potatoes as separate tables."},
- {"label": "Special crops production (indigo, tobacco, etc.)", "members": ["japan-1905/p0133_4", "japan-1910/p0357_2", "japan-1920-21/p0616_2", "japan-1930/p0401_2"], "note": "1905 covers indigo and tobacco only."},
- {"label": "Minor crops production", "members": ["japan-1910/p0358_1", "japan-1920-21/p0617_1", "japan-1930/p0401_3"], "note": ""},
- {"label": "Mulberry area and sericultural households", "members": ["japan-1905/p0134_2", "japan-1905/p0134_3", "japan-1910/p0359_1", "japan-1920-21/p0624_1"], "note": "1905 prints mulberry area and households as separate tables."},
- {"label": "Output of cocoons by grade", "members": ["japan-1905/p0134_4", "japan-1910/p0359_2", "japan-1920-21/p0624_2"], "note": ""},
- {"label": "Cocoons by season", "members": ["japan-1905/p0134_5", "japan-1910/p0359_3"], "note": ""},
- {"label": "Production of raw and waste silk", "members": ["japan-1905/p0135_1", "japan-1920-21/p0625_1"], "note": ""},
- {"label": "Leading districts of raw silk production", "members": ["japan-1905/p0135_2", "japan-1910/p0360_2"], "note": ""},
- {"label": "Exports of raw silk by year", "members": ["japan-1905/p0136_1", "japan-1910/p0360_1"], "note": ""},
- {"label": "Raw silk exports by country", "members": ["japan-1905/p0136_2", "japan-1910/p0360_3"], "note": ""},
- {"label": "Imports of cocoons from China", "members": ["japan-1905/p0136_3", "japan-1910/p0361_1"], "note": ""},
- {"label": "Raw silk exports by Japanese and foreign firms", "members": ["japan-1910/p0361_3", "japan-1920-21/p0625_3"], "note": ""},
- {"label": "Tea plantation area and number of manufacturers", "members": ["japan-1905/p0136_4", "japan-1905/p0137_1", "japan-1910/p0362_1", "japan-1920-21/p0627_1", "japan-1930/p0404_1"], "note": "1905 prints area and manufacturers as separate tables."},
- {"label": "Output of tea by kind", "members": ["japan-1905/p0137_2", "japan-1910/p0362_2", "japan-1920-21/p0627_2", "japan-1930/p0404_2"], "note": ""},
- {"label": "Leading tea-producing districts", "members": ["japan-1905/p0137_3", "japan-1910/p0362_3", "japan-1920-21/p0627_3", "japan-1930/p0404_3"], "note": "1905 gives families engaged and value; later editions output and value."},
- {"label": "Exports of tea by year", "members": ["japan-1905/p0137_4", "japan-1910/p0363_1"], "note": ""},
- {"label": "Destinations of green tea exports", "members": ["japan-1905/p0138_1", "japan-1910/p0363_3"], "note": "1905 in kin; 1910 in 1,000 yen."},
- {"label": "Number of cattle", "members": ["japan-1905/p0138_3", "japan-1910/p0366_2", "japan-1920-21/p0619_2", "japan-1930/p0402_1"], "note": "1905 and 1910 break down by breed (native, cross, foreign); 1920-21 and 1930 by cows and bulls."},
- {"label": "Number of horses", "members": ["japan-1905/p0138_4", "japan-1910/p0365_2", "japan-1920-21/p0620_1", "japan-1930/p0402_2"], "note": "1910 column headings are not legible in the transcription."},
- {"label": "Sheep, goats and swine", "members": ["japan-1905/p0139_2", "japan-1910/p0366_3", "japan-1920-21/p0620_3", "japan-1930/p0402_3"], "note": ""},
- {"label": "Animals slaughtered", "members": ["japan-1905/p0139_3", "japan-1910/p0366_4", "japan-1920-21/p0620_4", "japan-1930/p0402_4", "japan-1935/p0504_1", "japan-1939-40/p0455_6"], "note": "1935 and 1939-40 give a single year by kind of animal."},
- {"label": "Poultry and eggs", "members": ["japan-1910/p0368_1", "japan-1920-21/p0621_1", "japan-1930/p0402_5"], "note": ""},
- {"label": "Leading dairy districts", "members": ["japan-1910/p0368_3", "japan-1920-21/p0621_2"], "note": ""},
- {"label": "Dairy: milk cows and milk output", "members": ["japan-1930/p0403_1", "japan-1946-48/p0362_2"], "note": ""},
- {"label": "Output of fruits by kind", "members": ["japan-1910/p0369_1", "japan-1920-21/p0623_1", "japan-1930/p0403_3", "japan-1946-48/p0360_1"], "note": ""},
- {"label": "Animal epidemics", "members": ["japan-1920-21/p0622_1", "japan-1930/p0403_2"], "note": ""},
- {"label": "Supply and demand of rice", "members": ["japan-1935/p0495_2", "japan-1939-40/p0452_2"], "note": ""},
- {"label": "Rice conditions in Korea", "members": ["japan-1935/p0496_2", "japan-1939-40/p0453_1"], "note": ""},
- {"label": "Rice conditions in Formosa", "members": ["japan-1935/p0496_3", "japan-1939-40/p0453_2"], "note": ""},
- {"label": "Rice consumption by use", "members": ["japan-1935/p0497_2", "japan-1939-40/p0453_3"], "note": ""},
- {"label": "Value of cereal production", "members": ["japan-1935/p0501_1", "japan-1939-40/p0454_2"], "note": ""},
- {"label": "Soy-beans and azuki beans", "members": ["japan-1935/p0502_1", "japan-1939-40/p0455_1"], "note": ""},
- {"label": "Chief industrial crops", "members": ["japan-1935/p0503_1", "japan-1939-40/p0455_3"], "note": ""},
- {"label": "Chief vegetables", "members": ["japan-1935/p0503_2", "japan-1939-40/p0455_4"], "note": ""},
- {"label": "Predominant fruits (single year)", "members": ["japan-1935/p0503_3", "japan-1939-40/p0455_5"], "note": ""},
- {"label": "Quantity of meat obtained", "members": ["japan-1935/p0504_2", "japan-1939-40/p0456_1"], "note": ""},
- {"label": "Eggs obtained", "members": ["japan-1935/p0504_3", "japan-1939-40/p0456_2"], "note": ""}
-]}
+{
+ "listing": "japan--agriculture",
+ "families": [
+  {
+   "label": "Gross area of land by ownership",
+   "members": [
+    "japan-1905/p0130_1",
+    "japan-1906/p0187_1",
+    "japan-1907/p0366_1",
+    "japan-1908-09/p0365_1",
+    "japan-1910/p0348_1",
+    "japan-1911/p0359_1",
+    "japan-1912/p0343_1",
+    "japan-1913/p0203_1"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Arable land: paddy and upland fields",
+   "members": [
+    "japan-1905/p0130_2",
+    "japan-1906/p0187_2",
+    "japan-1907/p0366_2",
+    "japan-1908-09/p0365_2",
+    "japan-1910/p0349_1",
+    "japan-1911/p0360_1",
+    "japan-1912/p0344_1",
+    "japan-1913/p0204_1",
+    "japan-1914/p0384_1"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Margin of reclamation by island",
+   "members": [
+    "japan-1905/p0131_1",
+    "japan-1906/p0187_3",
+    "japan-1907/p0366_3",
+    "japan-1908-09/p0365_3",
+    "japan-1910/p0349_2",
+    "japan-1911/p0360_2",
+    "japan-1912/p0344_2",
+    "japan-1913/p0204_2",
+    "japan-1914/p0384_2"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Farming families: sole farming and with subsidiary occupation",
+   "members": [
+    "japan-1906/p0188_2",
+    "japan-1907/p0367_2",
+    "japan-1908-09/p0366_2",
+    "japan-1910/p0350_2",
+    "japan-1911/p0361_2",
+    "japan-1912/p0345_1",
+    "japan-1913/p0205_1",
+    "japan-1914/p0384_3",
+    "japan-1915/p0382_3",
+    "japan-1916/p0390_3",
+    "japan-1917/p0575_3",
+    "japan-1918/p0579_3",
+    "japan-1919-20/p0629_3",
+    "japan-1920-21/p0610_3"
+   ],
+   "note": "1906-1914 give householders, families farming only and farming with other occupations (1903 and a later year); 1915-1920 give the series by year."
+  },
+  {
+   "label": "Farm households by tenure",
+   "members": [
+    "japan-1915/p0382_2",
+    "japan-1916/p0390_2",
+    "japan-1917/p0575_2",
+    "japan-1918/p0579_2",
+    "japan-1919-20/p0629_2",
+    "japan-1920-21/p0610_2",
+    "japan-1923/p0575_3",
+    "japan-1924-25/p0555_3",
+    "japan-1946-48/p0348_2"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Farm households by area cultivated",
+   "members": [
+    "japan-1914/p0386_3",
+    "japan-1915/p0382_4",
+    "japan-1916/p0390_4",
+    "japan-1917/p0575_4",
+    "japan-1918/p0579_4",
+    "japan-1919-20/p0629_4",
+    "japan-1920-21/p0610_4",
+    "japan-1923/p0575_4",
+    "japan-1924-25/p0555_4",
+    "japan-1930/p0395_2",
+    "japan-1946-48/p0350_1"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Farm households, owners of arable land and arable land",
+   "members": [
+    "japan-1935/p0493_1",
+    "japan-1935/p0493_2",
+    "japan-1935/p0494_1",
+    "japan-1937/p0494_1",
+    "japan-1937/p0494_2",
+    "japan-1937/p0494_3",
+    "japan-1939-40/p0450_1",
+    "japan-1942-43/p0452_1",
+    "japan-1942-43/p0453_1",
+    "japan-1942-43/p0453_2"
+   ],
+   "note": "1935 prints the three sections as separate tables; 1939-40 as one. 1935 and 1937 and 1942-43 print the three sections as separate tables; 1939-40 as one."
+  },
+  {
+   "label": "Average yield of paddy per tan",
+   "members": [
+    "japan-1906/p0192_2",
+    "japan-1907/p0369_1",
+    "japan-1908-09/p0368_1",
+    "japan-1910/p0351_2",
+    "japan-1911/p0362_4",
+    "japan-1912/p0346_2",
+    "japan-1913/p0206_2",
+    "japan-1914/p0386_2",
+    "japan-1915/p0383_3",
+    "japan-1916/p0391_3",
+    "japan-1917/p0576_3",
+    "japan-1918/p0580_3",
+    "japan-1919-20/p0631_1",
+    "japan-1920-21/p0612_1",
+    "japan-1923/p0576_4",
+    "japan-1924-25/p0556_4",
+    "japan-1930/p0398_1"
+   ],
+   "note": ""
+  },
+  {
+   "label": "One-crop and two-crop paddy fields",
+   "members": [
+    "japan-1906/p0193_1",
+    "japan-1907/p0370_1",
+    "japan-1908-09/p0368_4",
+    "japan-1910/p0352_3",
+    "japan-1911/p0364_1",
+    "japan-1912/p0347_1",
+    "japan-1913/p0207_1",
+    "japan-1914/p0387_1",
+    "japan-1915/p0384_1",
+    "japan-1916/p0392_1",
+    "japan-1917/p0577_1",
+    "japan-1918/p0581_1",
+    "japan-1919-20/p0631_2",
+    "japan-1920-21/p0612_2",
+    "japan-1923/p0577_1",
+    "japan-1924-25/p0557_1"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Value of farm production by item",
+   "members": [
+    "japan-1930/p0397_3",
+    "japan-1937/p0495_1",
+    "japan-1939-40/p0451_2",
+    "japan-1942-43/p0454_1",
+    "japan-1942-43/p0454_2"
+   ],
+   "note": "1942-43 splits the table in two pieces."
+  },
+  {
+   "label": "Rice: area and production by year",
+   "members": [
+    "japan-1905/p0132_1",
+    "japan-1906/p0195_1",
+    "japan-1907/p0372_1",
+    "japan-1908-09/p0371_1",
+    "japan-1910/p0354_2",
+    "japan-1911/p0366_1",
+    "japan-1912/p0349_2",
+    "japan-1912/p0350_1",
+    "japan-1913/p0209_2",
+    "japan-1913/p0210_1",
+    "japan-1914/p0389_2",
+    "japan-1915/p0386_2",
+    "japan-1916/p0394_1",
+    "japan-1917/p0579_1",
+    "japan-1918/p0583_1",
+    "japan-1919-20/p0633_1",
+    "japan-1920-21/p0614_1",
+    "japan-1923/p0578_1",
+    "japan-1924-25/p0558_1",
+    "japan-1930/p0399_1",
+    "japan-1935/p0496_1",
+    "japan-1937/p0496_1",
+    "japan-1939-40/p0454_1",
+    "japan-1942-43/p0456_5",
+    "japan-1946-48/p0353_2"
+   ],
+   "note": "1910, 1920-21 and 1930 add rice exports and imports; 1946-48 is a long-run series of five-year averages. 1912 and 1913 print the table in two pieces (earlier and later years)."
+  },
+  {
+   "label": "Yield per tan of rice varieties",
+   "members": [
+    "japan-1911/p0366_2",
+    "japan-1912/p0350_2",
+    "japan-1913/p0210_2",
+    "japan-1914/p0389_3",
+    "japan-1915/p0386_3",
+    "japan-1916/p0394_2",
+    "japan-1917/p0579_2",
+    "japan-1918/p0583_2",
+    "japan-1919-20/p0633_3",
+    "japan-1920-21/p0614_2",
+    "japan-1923/p0578_2",
+    "japan-1924-25/p0558_2",
+    "japan-1930/p0399_2"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Barley, naked barley and wheat production",
+   "members": [
+    "japan-1905/p0132_3",
+    "japan-1906/p0195_3",
+    "japan-1907/p0372_3",
+    "japan-1908-09/p0371_2",
+    "japan-1910/p0356_1",
+    "japan-1911/p0367_1",
+    "japan-1912/p0350_4",
+    "japan-1913/p0210_4",
+    "japan-1914/p0390_1",
+    "japan-1915/p0387_1",
+    "japan-1916/p0394_3",
+    "japan-1917/p0579_4",
+    "japan-1918/p0583_4",
+    "japan-1919-20/p0633_4",
+    "japan-1920-21/p0614_4",
+    "japan-1923/p0579_1",
+    "japan-1924-25/p0559_1",
+    "japan-1930/p0400_3",
+    "japan-1946-48/p0355_1"
+   ],
+   "note": "1946-48 gives barley, wheat and rye, with area and yield per tan, as a long-run series."
+  },
+  {
+   "label": "Barley and wheat area in paddy and upland fields",
+   "members": [
+    "japan-1910/p0356_2",
+    "japan-1911/p0367_2",
+    "japan-1912/p0351_1",
+    "japan-1913/p0211_1",
+    "japan-1914/p0390_2",
+    "japan-1915/p0387_2",
+    "japan-1916/p0395_1",
+    "japan-1917/p0580_1",
+    "japan-1918/p0584_1",
+    "japan-1919-20/p0634_1",
+    "japan-1920-21/p0615_1",
+    "japan-1923/p0579_2",
+    "japan-1924-25/p0559_2",
+    "japan-1930/p0400_4"
+   ],
+   "note": "1924-25 gives output in koku by field type; the others give area in cho."
+  },
+  {
+   "label": "Miscellaneous grains production",
+   "members": [
+    "japan-1905/p0133_1",
+    "japan-1906/p0196_1",
+    "japan-1907/p0373_1",
+    "japan-1908-09/p0372_1",
+    "japan-1910/p0356_3",
+    "japan-1911/p0367_3",
+    "japan-1912/p0351_2",
+    "japan-1913/p0211_2",
+    "japan-1914/p0390_3",
+    "japan-1915/p0387_3",
+    "japan-1916/p0395_2",
+    "japan-1917/p0580_2",
+    "japan-1918/p0584_2",
+    "japan-1919-20/p0634_2",
+    "japan-1920-21/p0615_2",
+    "japan-1923/p0579_3",
+    "japan-1924-25/p0559_3",
+    "japan-1930/p0400_5"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Beans and potatoes production",
+   "members": [
+    "japan-1905/p0133_2",
+    "japan-1905/p0133_3",
+    "japan-1906/p0196_2",
+    "japan-1907/p0373_2",
+    "japan-1908-09/p0372_2",
+    "japan-1910/p0357_1",
+    "japan-1911/p0368_1",
+    "japan-1912/p0351_3",
+    "japan-1913/p0211_3",
+    "japan-1914/p0391_1",
+    "japan-1915/p0388_1",
+    "japan-1916/p0395_3",
+    "japan-1917/p0580_3",
+    "japan-1918/p0584_3",
+    "japan-1919-20/p0635_1",
+    "japan-1920-21/p0616_1",
+    "japan-1923/p0580_1",
+    "japan-1924-25/p0560_1",
+    "japan-1930/p0401_1"
+   ],
+   "note": "1905 prints beans and potatoes as separate tables."
+  },
+  {
+   "label": "Special crops production (indigo, tobacco, etc.)",
+   "members": [
+    "japan-1905/p0133_4",
+    "japan-1906/p0196_3",
+    "japan-1907/p0373_3",
+    "japan-1908-09/p0372_3",
+    "japan-1910/p0357_2",
+    "japan-1911/p0368_2",
+    "japan-1912/p0352_1",
+    "japan-1913/p0212_1",
+    "japan-1914/p0392_1",
+    "japan-1915/p0388_2",
+    "japan-1916/p0396_1",
+    "japan-1917/p0581_1",
+    "japan-1918/p0585_1",
+    "japan-1919-20/p0635_2",
+    "japan-1920-21/p0616_2",
+    "japan-1923/p0580_2",
+    "japan-1924-25/p0560_2",
+    "japan-1930/p0401_2"
+   ],
+   "note": "1905 covers indigo and tobacco only. 1906-1908 cover indigo and tobacco only; from 1911 cotton, hemp and other crops are added."
+  },
+  {
+   "label": "Minor crops production",
+   "members": [
+    "japan-1907/p0373_5",
+    "japan-1907/p0374_1",
+    "japan-1908-09/p0372_5",
+    "japan-1908-09/p0373_1",
+    "japan-1910/p0358_1",
+    "japan-1911/p0369_1",
+    "japan-1912/p0352_2",
+    "japan-1912/p0353_1",
+    "japan-1913/p0212_2",
+    "japan-1913/p0213_1",
+    "japan-1914/p0392_2",
+    "japan-1915/p0389_1",
+    "japan-1916/p0396_2",
+    "japan-1916/p0397_1",
+    "japan-1917/p0581_2",
+    "japan-1918/p0585_2",
+    "japan-1918/p0610_1",
+    "japan-1919-20/p0636_1",
+    "japan-1920-21/p0617_1",
+    "japan-1923/p0580_3",
+    "japan-1923/p0581_1",
+    "japan-1924-25/p0560_3",
+    "japan-1924-25/p0561_1",
+    "japan-1930/p0401_3"
+   ],
+   "note": "Many editions print the list in two pieces."
+  },
+  {
+   "label": "Mulberry area and sericultural households",
+   "members": [
+    "japan-1905/p0134_2",
+    "japan-1905/p0134_3",
+    "japan-1906/p0196_5",
+    "japan-1907/p0374_2",
+    "japan-1908-09/p0373_2",
+    "japan-1910/p0359_1",
+    "japan-1911/p0370_1",
+    "japan-1912/p0354_1",
+    "japan-1913/p0214_1",
+    "japan-1914/p0393_1",
+    "japan-1915/p0390_1",
+    "japan-1916/p0398_1",
+    "japan-1917/p0583_1",
+    "japan-1918/p0587_1",
+    "japan-1919-20/p0643_1",
+    "japan-1920-21/p0624_1",
+    "japan-1923/p0587_1",
+    "japan-1923/p0589_3",
+    "japan-1924-25/p0567_1",
+    "japan-1924-25/p0569_3"
+   ],
+   "note": "1905 prints mulberry area and households as separate tables. Some editions give only mulberry area; 1923 and 1924-25 print sericultural families by season and mulberry plantations as separate tables."
+  },
+  {
+   "label": "Output of cocoons by grade",
+   "members": [
+    "japan-1905/p0134_4",
+    "japan-1906/p0197_1",
+    "japan-1907/p0374_3",
+    "japan-1908-09/p0373_3",
+    "japan-1910/p0359_2",
+    "japan-1911/p0370_2",
+    "japan-1912/p0354_2",
+    "japan-1913/p0214_2",
+    "japan-1914/p0393_2",
+    "japan-1915/p0390_3",
+    "japan-1915/p0391_1",
+    "japan-1916/p0398_3",
+    "japan-1917/p0583_2",
+    "japan-1918/p0587_2",
+    "japan-1919-20/p0643_2",
+    "japan-1920-21/p0624_2",
+    "japan-1923/p0588_1",
+    "japan-1924-25/p0568_1"
+   ],
+   "note": "1915 prints the table in two pieces (spring/summer and autumn)."
+  },
+  {
+   "label": "Cocoons by season",
+   "members": [
+    "japan-1905/p0134_5",
+    "japan-1906/p0197_2",
+    "japan-1907/p0374_4",
+    "japan-1908-09/p0373_4",
+    "japan-1910/p0359_3",
+    "japan-1911/p0370_3",
+    "japan-1912/p0354_3",
+    "japan-1913/p0214_3",
+    "japan-1914/p0394_1"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Production of raw and waste silk",
+   "members": [
+    "japan-1905/p0135_1",
+    "japan-1906/p0197_3",
+    "japan-1907/p0375_1",
+    "japan-1911/p0371_1",
+    "japan-1912/p0354_4",
+    "japan-1913/p0214_4",
+    "japan-1914/p0394_2",
+    "japan-1915/p0391_2",
+    "japan-1916/p0399_1",
+    "japan-1917/p0584_1",
+    "japan-1918/p0588_1",
+    "japan-1919-20/p0644_1",
+    "japan-1920-21/p0625_1",
+    "japan-1923/p0588_3",
+    "japan-1924-25/p0568_3"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Leading districts of raw silk production",
+   "members": [
+    "japan-1905/p0135_2",
+    "japan-1906/p0198_3",
+    "japan-1907/p0376_1",
+    "japan-1908-09/p0374_2",
+    "japan-1910/p0360_2",
+    "japan-1911/p0371_5",
+    "japan-1912/p0355_3",
+    "japan-1913/p0215_3",
+    "japan-1914/p0394_6"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Exports of raw silk by year",
+   "members": [
+    "japan-1905/p0136_1",
+    "japan-1906/p0197_4",
+    "japan-1907/p0375_2",
+    "japan-1908-09/p0374_1",
+    "japan-1910/p0360_1"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Raw silk exports by country",
+   "members": [
+    "japan-1905/p0136_2",
+    "japan-1906/p0197_5",
+    "japan-1906/p0198_1",
+    "japan-1907/p0375_3",
+    "japan-1908-09/p0374_4",
+    "japan-1910/p0360_3",
+    "japan-1914/p0395_4",
+    "japan-1915/p0392_2",
+    "japan-1916/p0399_4",
+    "japan-1917/p0584_4",
+    "japan-1918/p0588_4"
+   ],
+   "note": "1906 prints the table in two pieces; the 1915 table is mistitled as tea exports but lists raw silk by destination."
+  },
+  {
+   "label": "Imports of cocoons from China",
+   "members": [
+    "japan-1905/p0136_3",
+    "japan-1906/p0198_2",
+    "japan-1907/p0375_5",
+    "japan-1908-09/p0375_2",
+    "japan-1910/p0361_1",
+    "japan-1911/p0372_1",
+    "japan-1912/p0355_4",
+    "japan-1913/p0215_4"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Raw silk exports by Japanese and foreign firms",
+   "members": [
+    "japan-1906/p0201_2",
+    "japan-1907/p0376_2",
+    "japan-1908-09/p0376_1",
+    "japan-1910/p0361_3",
+    "japan-1911/p0372_3",
+    "japan-1912/p0356_2",
+    "japan-1913/p0216_2",
+    "japan-1914/p0395_3",
+    "japan-1915/p0392_1",
+    "japan-1916/p0399_3",
+    "japan-1917/p0584_3",
+    "japan-1918/p0588_3",
+    "japan-1919-20/p0644_2",
+    "japan-1920-21/p0625_3",
+    "japan-1923/p0589_4",
+    "japan-1924-25/p0569_4"
+   ],
+   "note": "The 1915 table is mistitled as tea exports."
+  },
+  {
+   "label": "Tea plantation area and number of manufacturers",
+   "members": [
+    "japan-1905/p0136_4",
+    "japan-1905/p0137_1",
+    "japan-1906/p0202_2",
+    "japan-1907/p0376_3",
+    "japan-1908-09/p0376_2",
+    "japan-1910/p0362_1",
+    "japan-1911/p0373_1",
+    "japan-1912/p0357_1",
+    "japan-1913/p0217_1",
+    "japan-1914/p0396_1",
+    "japan-1915/p0393_1",
+    "japan-1916/p0400_1",
+    "japan-1917/p0585_1",
+    "japan-1918/p0589_1",
+    "japan-1919-20/p0645_1",
+    "japan-1920-21/p0627_1",
+    "japan-1923/p0590_1",
+    "japan-1924-25/p0570_1",
+    "japan-1930/p0404_1",
+    "japan-1942-43/p0459_1"
+   ],
+   "note": "1905 prints area and manufacturers as separate tables. 1942-43 gives tea garden area only, in chobu."
+  },
+  {
+   "label": "Output of tea by kind",
+   "members": [
+    "japan-1905/p0137_2",
+    "japan-1906/p0202_3",
+    "japan-1907/p0377_1",
+    "japan-1908-09/p0376_3",
+    "japan-1910/p0362_2",
+    "japan-1911/p0373_2",
+    "japan-1912/p0357_2",
+    "japan-1913/p0217_2",
+    "japan-1914/p0396_2",
+    "japan-1915/p0393_2",
+    "japan-1916/p0400_2",
+    "japan-1917/p0585_2",
+    "japan-1918/p0589_2",
+    "japan-1919-20/p0645_2",
+    "japan-1920-21/p0627_2",
+    "japan-1923/p0591_1",
+    "japan-1924-25/p0571_1",
+    "japan-1930/p0404_2",
+    "japan-1942-43/p0459_4"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Leading tea-producing districts",
+   "members": [
+    "japan-1905/p0137_3",
+    "japan-1906/p0203_1",
+    "japan-1907/p0377_2",
+    "japan-1908-09/p0377_1",
+    "japan-1910/p0362_3",
+    "japan-1911/p0373_3",
+    "japan-1912/p0357_3",
+    "japan-1913/p0217_3",
+    "japan-1914/p0397_1",
+    "japan-1915/p0393_3",
+    "japan-1916/p0401_1",
+    "japan-1917/p0589_1",
+    "japan-1918/p0590_1",
+    "japan-1919-20/p0646_1",
+    "japan-1920-21/p0627_3",
+    "japan-1923/p0591_2",
+    "japan-1924-25/p0571_2",
+    "japan-1930/p0404_3"
+   ],
+   "note": "1905 gives families engaged and value; later editions output and value."
+  },
+  {
+   "label": "Exports of tea by year",
+   "members": [
+    "japan-1905/p0137_4",
+    "japan-1906/p0203_2",
+    "japan-1907/p0377_3",
+    "japan-1908-09/p0377_2",
+    "japan-1910/p0363_1",
+    "japan-1911/p0374_1",
+    "japan-1912/p0357_4",
+    "japan-1913/p0217_4",
+    "japan-1914/p0397_2",
+    "japan-1915/p0393_4",
+    "japan-1916/p0401_2",
+    "japan-1942-43/p0460_1"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Destinations of green tea exports",
+   "members": [
+    "japan-1905/p0138_1",
+    "japan-1906/p0203_3",
+    "japan-1907/p0377_4",
+    "japan-1908-09/p0377_3",
+    "japan-1910/p0363_3",
+    "japan-1911/p0374_2",
+    "japan-1912/p0358_1",
+    "japan-1913/p0218_1"
+   ],
+   "note": "1905 in kin; 1910 in 1,000 yen."
+  },
+  {
+   "label": "Number of cattle",
+   "members": [
+    "japan-1905/p0138_3",
+    "japan-1906/p0206_3",
+    "japan-1907/p0381_1",
+    "japan-1908-09/p0381_1",
+    "japan-1910/p0366_2",
+    "japan-1911/p0377_1",
+    "japan-1912/p0361_1",
+    "japan-1913/p0221_1",
+    "japan-1914/p0400_1",
+    "japan-1915/p0396_1",
+    "japan-1916/p0403_2",
+    "japan-1917/p0587_2",
+    "japan-1918/p0592_1",
+    "japan-1919-20/p0638_1",
+    "japan-1920-21/p0619_2",
+    "japan-1923/p0583_1",
+    "japan-1924-25/p0563_1",
+    "japan-1930/p0402_1"
+   ],
+   "note": "1905 and 1910 break down by breed (native, cross, foreign); 1920-21 and 1930 by cows and bulls."
+  },
+  {
+   "label": "Number of horses",
+   "members": [
+    "japan-1905/p0138_4",
+    "japan-1906/p0206_4",
+    "japan-1907/p0381_2",
+    "japan-1908-09/p0380_1",
+    "japan-1910/p0365_2",
+    "japan-1911/p0376_2",
+    "japan-1912/p0360_2",
+    "japan-1913/p0220_2",
+    "japan-1914/p0399_1",
+    "japan-1915/p0395_1",
+    "japan-1916/p0402_1",
+    "japan-1917/p0586_1",
+    "japan-1918/p0591_1",
+    "japan-1919-20/p0639_1",
+    "japan-1920-21/p0620_1",
+    "japan-1923/p0583_2",
+    "japan-1924-25/p0563_2",
+    "japan-1930/p0402_2"
+   ],
+   "note": "1910 column headings are not legible in the transcription."
+  },
+  {
+   "label": "Sheep, goats and swine",
+   "members": [
+    "japan-1905/p0139_2",
+    "japan-1906/p0207_1",
+    "japan-1907/p0381_4",
+    "japan-1908-09/p0381_2",
+    "japan-1910/p0366_3",
+    "japan-1911/p0377_2",
+    "japan-1912/p0361_2",
+    "japan-1913/p0221_2",
+    "japan-1914/p0400_2",
+    "japan-1915/p0396_2",
+    "japan-1916/p0404_1",
+    "japan-1917/p0588_1",
+    "japan-1918/p0593_1",
+    "japan-1919-20/p0639_3",
+    "japan-1920-21/p0620_3",
+    "japan-1923/p0584_2",
+    "japan-1924-25/p0564_1",
+    "japan-1930/p0402_3"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Animals slaughtered",
+   "members": [
+    "japan-1905/p0139_3",
+    "japan-1906/p0207_2",
+    "japan-1907/p0381_5",
+    "japan-1908-09/p0381_3",
+    "japan-1910/p0366_4",
+    "japan-1911/p0377_3",
+    "japan-1912/p0361_3",
+    "japan-1913/p0221_3",
+    "japan-1914/p0400_3",
+    "japan-1915/p0396_3",
+    "japan-1916/p0404_2",
+    "japan-1917/p0588_2",
+    "japan-1918/p0593_2",
+    "japan-1919-20/p0639_4",
+    "japan-1920-21/p0620_4",
+    "japan-1923/p0584_3",
+    "japan-1924-25/p0564_2",
+    "japan-1930/p0402_4",
+    "japan-1935/p0504_1",
+    "japan-1937/p0503_1",
+    "japan-1939-40/p0455_6",
+    "japan-1942-43/p0458_1"
+   ],
+   "note": "1935 and 1939-40 give a single year by kind of animal."
+  },
+  {
+   "label": "Poultry and eggs",
+   "members": [
+    "japan-1907/p0382_1",
+    "japan-1908-09/p0382_1",
+    "japan-1910/p0368_1",
+    "japan-1911/p0379_1",
+    "japan-1912/p0362_2",
+    "japan-1913/p0222_2",
+    "japan-1914/p0401_2",
+    "japan-1915/p0397_2",
+    "japan-1916/p0405_1",
+    "japan-1917/p0590_1",
+    "japan-1918/p0594_1",
+    "japan-1919-20/p0640_1",
+    "japan-1920-21/p0621_1",
+    "japan-1923/p0584_4",
+    "japan-1924-25/p0564_3",
+    "japan-1930/p0402_5"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Leading dairy districts",
+   "members": [
+    "japan-1907/p0383_1",
+    "japan-1908-09/p0383_1",
+    "japan-1910/p0368_3",
+    "japan-1911/p0379_3",
+    "japan-1912/p0363_2",
+    "japan-1913/p0223_2",
+    "japan-1914/p0402_1",
+    "japan-1915/p0398_1",
+    "japan-1916/p0405_2",
+    "japan-1917/p0590_2",
+    "japan-1918/p0594_2",
+    "japan-1919-20/p0640_2",
+    "japan-1920-21/p0621_2",
+    "japan-1923/p0585_1",
+    "japan-1924-25/p0565_1"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Dairy: milk cows and milk output",
+   "members": [
+    "japan-1930/p0403_1",
+    "japan-1946-48/p0362_2"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Output of fruits by kind",
+   "members": [
+    "japan-1906/p0208_1",
+    "japan-1907/p0383_2",
+    "japan-1908-09/p0383_2",
+    "japan-1910/p0369_1",
+    "japan-1911/p0381_1",
+    "japan-1912/p0365_1",
+    "japan-1913/p0225_1",
+    "japan-1914/p0403_1",
+    "japan-1915/p0399_1",
+    "japan-1916/p0406_2",
+    "japan-1917/p0591_2",
+    "japan-1918/p0595_2",
+    "japan-1919-20/p0642_1",
+    "japan-1920-21/p0623_1",
+    "japan-1923/p0586_1",
+    "japan-1924-25/p0566_1",
+    "japan-1930/p0403_3",
+    "japan-1942-43/p0463_3",
+    "japan-1946-48/p0360_1"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Animal epidemics",
+   "members": [
+    "japan-1911/p0380_2",
+    "japan-1912/p0363_3",
+    "japan-1913/p0223_3",
+    "japan-1914/p0402_2",
+    "japan-1915/p0398_2",
+    "japan-1916/p0406_1",
+    "japan-1917/p0591_1",
+    "japan-1918/p0595_1",
+    "japan-1919-20/p0641_1",
+    "japan-1920-21/p0622_1",
+    "japan-1923/p0585_2",
+    "japan-1924-25/p0565_2",
+    "japan-1930/p0403_2"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Supply and demand of rice",
+   "members": [
+    "japan-1935/p0495_2",
+    "japan-1937/p0500_1",
+    "japan-1937/p0500_2",
+    "japan-1939-40/p0452_2",
+    "japan-1942-43/p0455_2",
+    "japan-1942-43/p0455_3"
+   ],
+   "note": "1937 and 1942-43 print supply and demand as two tables."
+  },
+  {
+   "label": "Rice conditions in Korea",
+   "members": [
+    "japan-1935/p0496_2",
+    "japan-1937/p0500_3",
+    "japan-1939-40/p0453_1",
+    "japan-1942-43/p0456_1"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Rice conditions in Formosa",
+   "members": [
+    "japan-1935/p0496_3",
+    "japan-1937/p0500_4",
+    "japan-1939-40/p0453_2",
+    "japan-1942-43/p0456_2"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Rice consumption by use",
+   "members": [
+    "japan-1935/p0497_2",
+    "japan-1939-40/p0453_3",
+    "japan-1942-43/p0456_3"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Value of cereal production",
+   "members": [
+    "japan-1935/p0501_1",
+    "japan-1937/p0501_3",
+    "japan-1939-40/p0454_2",
+    "japan-1942-43/p0457_1"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Soy-beans and azuki beans",
+   "members": [
+    "japan-1935/p0502_1",
+    "japan-1937/p0502_1",
+    "japan-1939-40/p0455_1",
+    "japan-1942-43/p0457_3"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Chief industrial crops",
+   "members": [
+    "japan-1935/p0503_1",
+    "japan-1937/p0502_3",
+    "japan-1939-40/p0455_3",
+    "japan-1942-43/p0457_2"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Chief vegetables",
+   "members": [
+    "japan-1935/p0503_2",
+    "japan-1937/p0502_4",
+    "japan-1939-40/p0455_4",
+    "japan-1942-43/p0457_5"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Predominant fruits (single year)",
+   "members": [
+    "japan-1935/p0503_3",
+    "japan-1937/p0502_5",
+    "japan-1939-40/p0455_5",
+    "japan-1942-43/p0457_6"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Quantity of meat obtained",
+   "members": [
+    "japan-1935/p0504_2",
+    "japan-1937/p0503_2",
+    "japan-1939-40/p0456_1",
+    "japan-1942-43/p0458_2"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Eggs obtained",
+   "members": [
+    "japan-1935/p0504_3",
+    "japan-1937/p0503_3",
+    "japan-1939-40/p0456_2",
+    "japan-1942-43/p0458_3"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Arable land cultivated by owners and tenants",
+   "members": [
+    "japan-1906/p0188_3",
+    "japan-1907/p0367_3",
+    "japan-1908-09/p0366_3",
+    "japan-1910/p0350_3",
+    "japan-1911/p0361_3",
+    "japan-1912/p0345_2",
+    "japan-1913/p0205_2",
+    "japan-1914/p0385_1",
+    "japan-1915/p0382_1",
+    "japan-1916/p0390_1",
+    "japan-1917/p0575_1",
+    "japan-1918/p0579_1",
+    "japan-1919-20/p0629_1",
+    "japan-1920-21/p0610_1",
+    "japan-1923/p0575_2",
+    "japan-1924-25/p0555_2"
+   ],
+   "note": "1906-1914 give area cultivated by owners and by tenants with percentages; 1915 onward give landowners' and tenanted area by year."
+  },
+  {
+   "label": "Forests and wild land converted to arable",
+   "members": [
+    "japan-1906/p0188_1",
+    "japan-1907/p0367_1",
+    "japan-1908-09/p0366_1",
+    "japan-1910/p0350_1",
+    "japan-1911/p0361_1",
+    "japan-1912/p0344_3",
+    "japan-1913/p0204_3"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Taxable land area",
+   "members": [
+    "japan-1906/p0188_4",
+    "japan-1907/p0368_1",
+    "japan-1908-09/p0367_1",
+    "japan-1910/p0350_4",
+    "japan-1911/p0362_1",
+    "japan-1912/p0345_3",
+    "japan-1913/p0205_3",
+    "japan-1914/p0385_2",
+    "japan-1915/p0383_1",
+    "japan-1916/p0391_1",
+    "japan-1917/p0576_1",
+    "japan-1918/p0580_1",
+    "japan-1919-20/p0630_1",
+    "japan-1920-21/p0611_1",
+    "japan-1923/p0574_1",
+    "japan-1924-25/p0554_1"
+   ],
+   "note": "1906-1908 give area and value of taxable land by year."
+  },
+  {
+   "label": "Rate per tsubo of urban dwelling-land",
+   "members": [
+    "japan-1906/p0189_1",
+    "japan-1907/p0368_2",
+    "japan-1908-09/p0367_2",
+    "japan-1911/p0362_2"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Rate per tsubo of rural dwelling-land",
+   "members": [
+    "japan-1906/p0189_2",
+    "japan-1907/p0368_3",
+    "japan-1908-09/p0367_3",
+    "japan-1911/p0362_3"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Market price of farm land by prefecture or region",
+   "members": [
+    "japan-1912/p0346_1",
+    "japan-1913/p0206_1",
+    "japan-1914/p0385_3",
+    "japan-1914/p0386_1",
+    "japan-1915/p0383_2",
+    "japan-1916/p0391_2",
+    "japan-1917/p0576_2",
+    "japan-1918/p0580_2",
+    "japan-1919-20/p0630_2",
+    "japan-1920-21/p0611_2"
+   ],
+   "note": "1914 prints the highest and lowest prices as two tables."
+  },
+  {
+   "label": "Average price of paddy and upland fields by year",
+   "members": [
+    "japan-1923/p0576_3",
+    "japan-1924-25/p0556_3",
+    "japan-1930/p0397_5",
+    "japan-1942-43/p0453_3"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Assessed value of land: average, maximum and minimum",
+   "members": [
+    "japan-1923/p0576_1",
+    "japan-1924-25/p0556_1"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Total assessed value of land by category",
+   "members": [
+    "japan-1923/p0576_2",
+    "japan-1924-25/p0556_2"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Taxable land as percentage of gross area and per-capita tax",
+   "members": [
+    "japan-1923/p0575_1",
+    "japan-1924-25/p0555_1"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Ratio of increase of paddy yield (1887 = 100)",
+   "members": [
+    "japan-1906/p0192_3",
+    "japan-1907/p0369_2"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Increase of tillage area in old Japan",
+   "members": [
+    "japan-1906/p0192_4",
+    "japan-1907/p0369_3",
+    "japan-1908-09/p0368_2",
+    "japan-1910/p0351_3",
+    "japan-1911/p0362_5",
+    "japan-1912/p0346_3",
+    "japan-1913/p0206_3"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Transfers of ownership of arable land",
+   "members": [
+    "japan-1906/p0192_5",
+    "japan-1907/p0369_4",
+    "japan-1908-09/p0368_3",
+    "japan-1910/p0352_1",
+    "japan-1911/p0363_2"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Average farm area per farmer's family by region",
+   "members": [
+    "japan-1910/p0352_2",
+    "japan-1911/p0363_3",
+    "japan-1912/p0346_4",
+    "japan-1913/p0206_4"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Human and animal labour in tillage",
+   "members": [
+    "japan-1906/p0193_3",
+    "japan-1907/p0370_3",
+    "japan-1908-09/p0369_2",
+    "japan-1910/p0352_4",
+    "japan-1911/p0364_2",
+    "japan-1912/p0347_2",
+    "japan-1913/p0207_2",
+    "japan-1914/p0387_2",
+    "japan-1915/p0384_2",
+    "japan-1916/p0392_2",
+    "japan-1917/p0577_2",
+    "japan-1918/p0581_2",
+    "japan-1919-20/p0631_3",
+    "japan-1920-21/p0612_3",
+    "japan-1923/p0577_2",
+    "japan-1924-25/p0557_2"
+   ],
+   "note": "1906-1911 give area tilled by human and animal labour; from 1912 animal labour only (area, later numbers of animals)."
+  },
+  {
+   "label": "Cattle and horses used for farm work",
+   "members": [
+    "japan-1906/p0193_2",
+    "japan-1907/p0370_2"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Land improvement and farm adjustment projects",
+   "members": [
+    "japan-1906/p0194_1",
+    "japan-1907/p0371_1",
+    "japan-1908-09/p0370_1",
+    "japan-1910/p0353_1",
+    "japan-1911/p0365_1",
+    "japan-1912/p0348_1",
+    "japan-1913/p0208_1"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Consumption of fertilizers by kind",
+   "members": [
+    "japan-1906/p0194_2",
+    "japan-1907/p0371_2",
+    "japan-1908-09/p0370_2",
+    "japan-1914/p0389_1",
+    "japan-1915/p0386_1",
+    "japan-1916/p0393_1"
+   ],
+   "note": "1906-1908 list night soil, stable manure, bean cakes and so on; 1914-1916 list mixed manure, oil cake, bone, superphosphate and so on."
+  },
+  {
+   "label": "Home production and imports of fertilizers",
+   "members": [
+    "japan-1906/p0194_3",
+    "japan-1907/p0371_3",
+    "japan-1908-09/p0370_3",
+    "japan-1910/p0354_1",
+    "japan-1911/p0365_2"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Artificial fertilizer output by place",
+   "members": [
+    "japan-1906/p0194_4",
+    "japan-1907/p0371_4",
+    "japan-1908-09/p0370_4"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Fertilizer manufacturers and importers",
+   "members": [
+    "japan-1912/p0349_1",
+    "japan-1913/p0209_1"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Exports and imports of rice",
+   "members": [
+    "japan-1905/p0132_2",
+    "japan-1906/p0195_2",
+    "japan-1907/p0372_2"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Output of rice by kind (ordinary, glutinous, upland)",
+   "members": [
+    "japan-1917/p0579_3",
+    "japan-1918/p0583_3",
+    "japan-1919-20/p0633_2",
+    "japan-1920-21/p0614_3"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Prices of rice",
+   "members": [
+    "japan-1911/p0366_3",
+    "japan-1912/p0350_3",
+    "japan-1913/p0210_3"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Rice consumed at home",
+   "members": [
+    "japan-1923/p0578_3",
+    "japan-1924-25/p0558_3",
+    "japan-1930/p0400_1"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Standard prices of rice",
+   "members": [
+    "japan-1939-40/p0453_4",
+    "japan-1942-43/p0456_4"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Cost of production of rice",
+   "members": [
+    "japan-1935/p0497_3",
+    "japan-1939-40/p0453_5"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Oats production",
+   "members": [
+    "japan-1906/p0195_4",
+    "japan-1907/p0372_4",
+    "japan-1908-09/p0371_3"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Fibre crops",
+   "members": [
+    "japan-1905/p0134_1",
+    "japan-1906/p0196_4",
+    "japan-1907/p0373_4",
+    "japan-1908-09/p0372_4"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Tuber and root crops",
+   "members": [
+    "japan-1937/p0502_2",
+    "japan-1939-40/p0455_2",
+    "japan-1942-43/p0457_4"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Egg-cards hatched",
+   "members": [
+    "japan-1915/p0390_2",
+    "japan-1916/p0398_2"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Silk production by type (filature, frame, tama)",
+   "members": [
+    "japan-1908-09/p0374_3",
+    "japan-1910/p0359_4",
+    "japan-1911/p0371_2",
+    "japan-1911/p0371_3",
+    "japan-1912/p0354_5",
+    "japan-1912/p0355_1",
+    "japan-1913/p0214_5",
+    "japan-1913/p0215_1",
+    "japan-1914/p0394_3",
+    "japan-1914/p0394_4"
+   ],
+   "note": "Several editions print the table in two pieces."
+  },
+  {
+   "label": "Export of Shinshu filature silk by kind",
+   "members": [
+    "japan-1911/p0371_4",
+    "japan-1912/p0355_2",
+    "japan-1913/p0215_2"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Silk conditioning returns",
+   "members": [
+    "japan-1910/p0361_2",
+    "japan-1911/p0372_2",
+    "japan-1912/p0356_1",
+    "japan-1913/p0216_1",
+    "japan-1914/p0395_2",
+    "japan-1915/p0391_3",
+    "japan-1916/p0399_2",
+    "japan-1917/p0584_2",
+    "japan-1918/p0588_2"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Average price of raw silk",
+   "members": [
+    "japan-1914/p0394_5",
+    "japan-1920-21/p0625_2"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Exports of waste silk",
+   "members": [
+    "japan-1907/p0375_4",
+    "japan-1908-09/p0375_1",
+    "japan-1910/p0360_4"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Reeling establishments and basins",
+   "members": [
+    "japan-1923/p0588_2",
+    "japan-1924-25/p0568_2"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Silkworm eggs produced",
+   "members": [
+    "japan-1923/p0589_2",
+    "japan-1924-25/p0569_2"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Tea exports by kind",
+   "members": [
+    "japan-1917/p0589_2",
+    "japan-1918/p0590_2",
+    "japan-1919-20/p0646_2",
+    "japan-1920-21/p0627_4",
+    "japan-1923/p0591_3",
+    "japan-1924-25/p0571_3"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Destinations of black tea exports",
+   "members": [
+    "japan-1905/p0138_2",
+    "japan-1906/p0203_4",
+    "japan-1907/p0378_1",
+    "japan-1908-09/p0377_4"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Destinations of tea exports (all kinds)",
+   "members": [
+    "japan-1914/p0397_4",
+    "japan-1915/p0394_1",
+    "japan-1916/p0401_3",
+    "japan-1942-43/p0460_2"
+   ],
+   "note": "1942-43 gives exports by country in quantity and value."
+  },
+  {
+   "label": "Tea exports by port",
+   "members": [
+    "japan-1910/p0363_2",
+    "japan-1914/p0397_3",
+    "japan-1915/p0393_5",
+    "japan-1920-21/p0626_1"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Number of stallions",
+   "members": [
+    "japan-1906/p0205_1",
+    "japan-1912/p0360_3",
+    "japan-1913/p0220_3",
+    "japan-1914/p0399_2",
+    "japan-1915/p0395_2",
+    "japan-1916/p0403_1",
+    "japan-1917/p0587_1",
+    "japan-1919-20/p0639_2",
+    "japan-1920-21/p0620_2",
+    "japan-1923/p0584_1"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Castration of horses",
+   "members": [
+    "japan-1908-09/p0379_2",
+    "japan-1910/p0365_1",
+    "japan-1911/p0376_1",
+    "japan-1912/p0360_1",
+    "japan-1913/p0220_1"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Colts of improved breed reared",
+   "members": [
+    "japan-1912/p0359_1",
+    "japan-1913/p0219_1"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Average prices of two-year-old colts",
+   "members": [
+    "japan-1906/p0206_1",
+    "japan-1907/p0380_1",
+    "japan-1908-09/p0379_3"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Foreign horses imported by the Government",
+   "members": [
+    "japan-1907/p0379_1",
+    "japan-1908-09/p0378_1"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Horses at government studs and depots",
+   "members": [
+    "japan-1906/p0205_2",
+    "japan-1907/p0379_2",
+    "japan-1908-09/p0379_1",
+    "japan-1910/p0364_1"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Cattle imported for breeding",
+   "members": [
+    "japan-1906/p0206_2",
+    "japan-1907/p0380_2"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Government cattle pastures: imports, foaling and sales",
+   "members": [
+    "japan-1908-09/p0380_2",
+    "japan-1910/p0366_1"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Births and deaths of cattle and horses",
+   "members": [
+    "japan-1905/p0139_1",
+    "japan-1906/p0206_5",
+    "japan-1907/p0381_3"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Leading stock farms",
+   "members": [
+    "japan-1908-09/p0381_4",
+    "japan-1910/p0367_1",
+    "japan-1911/p0378_1",
+    "japan-1912/p0361_4",
+    "japan-1912/p0362_1",
+    "japan-1913/p0221_4",
+    "japan-1913/p0222_1",
+    "japan-1914/p0400_4",
+    "japan-1914/p0401_1",
+    "japan-1915/p0396_4",
+    "japan-1915/p0397_1",
+    "japan-1916/p0404_3",
+    "japan-1917/p0588_3"
+   ],
+   "note": "Several editions add a second table of government and private farms."
+  },
+  {
+   "label": "Leading poultry districts",
+   "members": [
+    "japan-1907/p0382_2",
+    "japan-1908-09/p0382_2",
+    "japan-1910/p0368_2",
+    "japan-1911/p0379_2",
+    "japan-1912/p0363_1",
+    "japan-1913/p0223_1",
+    "japan-1914/p0401_3",
+    "japan-1915/p0397_3"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Output of principal fruit districts",
+   "members": [
+    "japan-1907/p0383_3",
+    "japan-1910/p0370_1",
+    "japan-1911/p0382_1"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Exports of fruits and vegetables",
+   "members": [
+    "japan-1908-09/p0384_1",
+    "japan-1910/p0370_2",
+    "japan-1911/p0382_2",
+    "japan-1912/p0365_2",
+    "japan-1913/p0225_2"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Sale of State land in Hokkaido: limits and prices",
+   "members": [
+    "japan-1908-09/p0384_2",
+    "japan-1910/p0370_3",
+    "japan-1911/p0382_3"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Time limits for work on purchased or leased State land in Hokkaido",
+   "members": [
+    "japan-1908-09/p0384_3",
+    "japan-1910/p0370_4",
+    "japan-1911/p0382_4"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Co-operative societies by type",
+   "members": [
+    "japan-1937/p0503_4",
+    "japan-1939-40/p0456_3",
+    "japan-1942-43/p0464_1"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Operation of co-operative societies",
+   "members": [
+    "japan-1937/p0504_2",
+    "japan-1939-40/p0457_1",
+    "japan-1942-43/p0465_1"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Village warehouses",
+   "members": [
+    "japan-1939-40/p0458_1",
+    "japan-1942-43/p0466_1"
+   ],
+   "note": ""
+  }
+ ]
+}

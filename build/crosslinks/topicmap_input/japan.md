@@ -1,0 +1,717 @@
+# Series japan: The Japan Year Book
+Existing editions: japan-1905, japan-1910, japan-1920-21, japan-1930, japan-1935, japan-1939-40, japan-1946-48
+New editions: japan-1906, japan-1907, japan-1908-09, japan-1911, japan-1912, japan-1913, japan-1914, japan-1915, japan-1916, japan-1917, japan-1918, japan-1919-20, japan-1923, japan-1924-25, japan-1937, japan-1942-43
+
+## Existing topics (chapters each existing edition maps to it)
+- Weights, Measures and Moneys: japan-1905: Weights, Measures and Moneys | japan-1910: Weights, Measures and Moneys | japan-1920-21: Weights, Measures and Moneys | japan-1930: Weights, Measures and Moneys
+- Geography: japan-1905: Geography | japan-1910: Geography | japan-1920-21: Geography | japan-1930: Geography
+- Earthquakes, Volcanoes and Mineral Springs: japan-1910: Earthquakes, Volcanoes and Mineral Springs | japan-1920-21: Earthquakes, Volcanoes and Mineral Springs | japan-1930: Geology, Volcanoes and Mineral Springs, Earthquakes in Japan
+- History: japan-1920-21: Outline of Japanese History | japan-1939-40: Outline of History | japan-1946-48: Outline of the Cultural History
+- Population: japan-1905: Population | japan-1910: Population | japan-1920-21: Population | japan-1930: Population and Emigration
+- Imperial Court: japan-1905: Imperial Court | japan-1910: Imperial Court | japan-1920-21: Imperial Court | japan-1930: Imperial Court
+- Government and Politics: japan-1905: Politics | japan-1910: Politics | japan-1920-21: Politics | japan-1930: Politics and Local Government
+- Local Government: japan-1905: Local Administration | japan-1910: Local Administration | japan-1920-21: Local Government | japan-1930: Politics and Local Government
+- Civil and Military Service: japan-1920-21: Civil and Military Service | japan-1930: Civil and Military Service
+- Diplomacy and Foreign Relations: japan-1905: Diplomacy and Dip'tic and Consular Services | japan-1910: Diplomacy and Diplomatic Service | japan-1920-21: Diplomacy | japan-1930: Diplomacy
+- Army, Navy and National Defence: japan-1905: Army and the Navy | japan-1910: Army and the Navy | japan-1920-21: The Army, Navy and Aviation | japan-1930: National Defence
+- Finance: japan-1905: Finances, War Finance | japan-1910: Finances | japan-1920-21: Finance | japan-1930: Finance
+- Banking: japan-1905: Banks and Banking Business | japan-1910: Banks and Banking Business | japan-1920-21: Banks and Banking Business | japan-1930: Banks and Banking Business
+- Insurance: japan-1920-21: Insurance | japan-1930: Insurance | japan-1935: Insurance | japan-1939-40: Insurance
+- Agriculture: japan-1905: Agriculture | japan-1910: Agriculture | japan-1920-21: Agriculture | japan-1930: Agriculture
+- Sericulture and Raw Silk: japan-1930: Sericulture | japan-1935: Sericulture and Raw Silk | japan-1939-40: Sericulture and Raw Silk | japan-1946-48: Sericulture and Raw Silk
+- Forestry: japan-1905: Forestry and Fishery | japan-1910: Forestry | japan-1920-21: Forestry | japan-1930: Forestry
+- Fisheries: japan-1905: Forestry and Fishery | japan-1910: Fishery | japan-1920-21: Fishery | japan-1930: Fishery
+- Mining: japan-1905: Mines and Mining | japan-1910: Mines and Mining | japan-1920-21: Mines and Mining | japan-1930: Mines and Mining
+- Industry: japan-1905: Manufacturing Industry | japan-1910: Industry | japan-1920-21: Industry | japan-1930: Industry
+- Public Utilities: japan-1935: Utilities | japan-1939-40: Utilities | japan-1946-48: Public Utilities
+- Patents, Designs and Trade-Marks: japan-1905: Patents, Designs and Trade Marks | japan-1910: Patents, Trade-marks and Designs | japan-1920-21: Patents, Designs, Trade-Marks and Utility Models
+- Home Trade and Commerce: japan-1905: Mercantile Establishments | japan-1910: Home Trade, Economic Corporations | japan-1920-21: Trade | japan-1930: Trade
+- Foreign Trade: japan-1905: Foreign Trade | japan-1910: Foreign Trade | japan-1920-21: Foreign Trade | japan-1930: Foreign Trade
+- Communications (Post, Telegraph, Telephone): japan-1905: Communications, Communications (Post, Telegraph and Telephone) | japan-1910: Communications | japan-1920-21: Communications | japan-1930: Post, Telegraph & Telephone
+- Railways and Land Transport: japan-1905: Railways | japan-1910: Railways | japan-1920-21: Railways | japan-1930: Railways
+- Shipping and Shipbuilding: japan-1905: Mercantile Marine | japan-1910: Mercantile Marine | japan-1920-21: Mercantile Marine & Shipbuilding Industry | japan-1930: Shipping and Shipbuilding
+- Public Works and Construction: japan-1910: Construction & Public Works | japan-1920-21: Public Works | japan-1930: Construction
+- Education: japan-1905: Education | japan-1910: Education | japan-1920-21: Education | japan-1930: Education
+- Religion: japan-1905: Religions | japan-1910: Religions and Religious Works | japan-1920-21: Religions and Religious Work | japan-1930: Religion and Religious Works
+- Justice, Police and Prisons: japan-1905: Justice, Police and Sanitation | japan-1910: Justice, Prisons, Police and Sanitation | japan-1920-21: Justice, Prisons, Police and Sanitation | japan-1930: Justice, Police and Prisons
+- Medicine and Sanitation: japan-1905: Justice, Police and Sanitation | japan-1910: Justice, Prisons, Police and Sanitation | japan-1920-21: Justice, Prisons, Police and Sanitation | japan-1930: Medicine and Sanitation
+- Charity, Relief and Social Work: japan-1910: Charity and Relief | japan-1920-21: Charity and Relief | japan-1930: Social Problems and Facts | japan-1935: Social Problems and Social Works
+- Labour: japan-1910: Social Politics & Labour Problems | japan-1920-21: Social Politics and Labor Problems | japan-1930: Labor | japan-1935: Labour and Labour Movements
+- Press and Publications: japan-1905: The Press | japan-1910: The Press | japan-1920-21: Press and Publication | japan-1930: Press and Publication
+- Arts, Literature and Music: japan-1910: Arts and Crafts of Modern Japan | japan-1920-21: Arts and Crafts | japan-1930: Arts and Crafts | japan-1935: Literature, Arts and Music
+- Sports: japan-1920-21: Sports and Amusements, Sports and Amusement | japan-1930: Sports | japan-1935: Sports | japan-1939-40: Sports
+- Amusements: japan-1920-21: Sports and Amusements, Sports and Amusement | japan-1930: Amusements | japan-1935: Amusements and Calendar of Annual Events | japan-1939-40: Amusements and Calendar of Annual Events
+- Great Cities: japan-1930: Six Premier Cities | japan-1935: Tokyo, Five Big Cities | japan-1939-40: Tokyo, Five Big Cities
+- Korea (Chosen): japan-1905: Korea | japan-1910: Korea | japan-1920-21: Chosen (Korea) | japan-1930: Chosen (Korea)
+- Taiwan (Formosa): japan-1905: Formosa | japan-1910: Formosa | japan-1920-21: Taiwan (Formosa) | japan-1930: Taiwan (Formosa)
+- Karafuto (Saghalien): japan-1910: Karafuto | japan-1920-21: Karafuto (Saghalien) | japan-1930: Karafuto (Saghalien, Southern Half Below 50°) | japan-1935: Karafuto (Saghalien)
+- South Manchuria and Manchoukuo: japan-1910: South Manchuria | japan-1920-21: South Manchuria, the South Sea Islands and Tsingtao | japan-1930: South Manchuria & South Sea Islands, South Manchuria and the South Sea Islands | japan-1935: Manchoukuo
+- South Sea Islands: japan-1920-21: South Manchuria, the South Sea Islands and Tsingtao | japan-1930: South Manchuria & South Sea Islands, South Manchuria and the South Sea Islands | japan-1935: South Sea Islands under Japan's Mandate | japan-1939-40: South Sea Islands under Japan's Mandate
+- Progress of Science: japan-1935: Progress of Science | japan-1939-40: Progress of Science
+- Customs Tariff: japan-1905: Appendix: Import Tariff List | japan-1935: Appendix: Customs Tariff
+
+## japan-1906: chapters (table count; sample titles)
+- 'Weights, Measures and Moneys' (1): Weights, Measures and Moneys
+- 'Geography' (9): [Principal Mountain Peaks Above 8,000 Feet]; [Area of Japan by Islands and Districts]; Mineral Springs; Rivers
+- 'Earthquakes and Seismic Disasters' (4): [Principal Calamities During the Tokugawa Period]; [Severe Earthquakes in Recent Times]; [Earthquake Casualties — People]; [Earthquake Damage — Buildings]
+- 'Population' (22): Movement of Population; Density; Birth-Rates; Death-Rates
+- 'Imperial Court' (2): [Recipients of the Golden Kite by Grade]; [Number of Peers by Rank, 1884–1904]
+- 'Politics' (29): [Returns on the Members of the House]; [Membership of the House of Peers, 1897–1905]; [Composition of the House of Peers, December 1905]; [Political Groups in the House of Peers]
+- 'Local Administration' (7): [Prefectures, Area and Number of Administrative Di; [Prefectures: Area and Administrative Divisions]; [Returns for 1903 of Members, Electors and Eligibl; Local Administrative Jurisdiction
+- 'Diplomacy' (40): Great Britain; U. S. A.; Germany; France
+- 'Agriculture' (77): Obituary; Gross Area; Arable Land; Margin of Reclamation
+- 'Mines and Mining' (25): Distribution of Strata; Output of Gold and Silver; Output of Principal Gold and Silver Mines (1905); [Gold Output by Mines]
+- 'Fishery' (11): Accidents to Fishing-Boats and Casualties to Fishe; The Value of Catches and of Marine Products; Returns for 1904 Distributed by Main Divisions of ; Principal Kinds of Fish of Commercial Value for 19
+- 'Forestry' (10): Area of Forest; Prefectures Containing Not Less Than 500,000 Cho o; [Forest Yield of Japan, 1904-1905]; [Financial Yield of Forests by Ownership, 1904]
+- 'Industry' (50): [Industrial Activities by Kind, Gross and Paid-up ; [Leading Districts by Number of Companies and Capi; Industrial Companies Run by Foreigners; Factories Classified by Motive Power (1)
+- 'Finances' (74): Items of Ordinary and Extraordinary Revenues; Extraordinary Revenue; Ordinary Expenditures; Extraordinary Expenditures
+- 'The War Finance' (11): III.—Items of Naval Expenditures Sanctioned by the; IV.—Monthly Expenditures of Both Services as Sanct; [Monthly War Expenditures, Feb. 1904 to Sept. 1905; Extraordinary War Receipts from Various Sources
+- 'Banks and Banking Business' (24): Number of Banks (June 1906); Foreign Banks in Japan (June 1906); Liabilities; Assets
+- 'Home Trade' (35): Chambers of Commerce at Principal Districts; Tokyo Mercantile Agency; Osaka Mercantile Agency; Number, Capital, Etc. of Exchanges
+- 'Foreign Trade' (50): Exports and Imports of Commodities; Exports and Imports of Specie in Bullion; Monthly Trade Returns in 1905; Specie and Bullion
+- 'Economic Corporations' (9): Total Number of Companies; Companies with Capital of above 100,000 Yen; Companies Established by Foreigners; Number and Capital of Companies Classified by Kind
+- 'Army and the Navy' (24): Military Expenditure for 1906-7; List of Full Generals on Active Service; Distribution of the Standing Army; [Army Divisions, Garrison Towns and Infantry Regim
+- 'Education' (59): General Statistics on Education; Expenditure for the Department of Education (1905–; Expenditure for the Institutions under Direct Cont; Foreign Instructors at the Institutions under Dire
+- 'Charity and Relief' (13): Resume of Statistics of Christian Missions in Japa; Relief Fund; [State Relief Paupers, Amounts Paid and Foundlings; [Offences Committed by Inmates of the Home]
+- 'Patents, Designs and Trade-marks' (5): Patents; Designs; Trade-Marks; Applications by Foreigners
+- 'Communications' (28): [Letter Postage Rates by Distance Zone]; Money Orders Fees; Telegraphic Money Orders Fees; Foreign Parcels
+- 'Mercantile Marine' (25): Number of Registered Steamers Classified According; Steamships, Sailing Vessels and Junks; Built at Home; Purchased Abroad
+- 'Railways' (24): Mileage Open to Traffic; State Railways in 1904-5; [Mileage, Construction Expenses and Rolling Stock ; Table II
+- 'Justice, Police and Sanitation' (45): Nature of Cases of the Court of Cassation; Cases Involving Aliens at the Court of Cassation; Civil Cases at the Five Appeal Courts; Nature of Cases at the Appeal Courts
+- 'Formosa' (19): [Revenue Figures, Continued from Previous Page]; Expenditures; List of Governor-Generals; Population
+- 'Korea' (19): Temperature; Rainfalls; No. of Days of Rainfalls and Snowfalls; [Monthly Figures (Continued from Previous Page)]
+- 'Manchuria' (11): Cost of Engineering Work etc.; [Government Capital Allocation for Manchurian Work; Valuation of the Government Property; Estimate of Investment and Profit of South Manchur
+- 'Karafuto (saghalien.)' (3): Estimates for the Island of Karafuto for the Fisca; [Catch by Japanese Fishermen in Karafuto, to Begin; [Disposal of Fishing Grounds in Karafuto, 1906]
+
+## japan-1907: chapters (table count; sample titles)
+- 'Geography' (9): Weights, Measures and Moneys; [Area of Japan by Districts]; [Principal Mountain Peaks Above 8,000 Feet]; [Principal Mineral Springs of Japan]
+- 'Population' (23): [Disastrous Seismic Calamities Recorded in the Pre; [Principal Calamities During the Tokugawa Period]; [Severe Earthquakes in Recent Times]; Movement of Population
+- 'Imperial Court' (7): [Golden Kite Decorations Conferred for the China T; Holders of the Grand Order; [Number of Peers by Grade, 1884–1901]; [Continuation of Table of Yearly Figures, 1902–190
+- 'Politics' (26): [Membership of the House of Peers by Date]; [Composition of the House of Peers at the Last Men; [Groups or Coteries in the House of Peers]; Sessions of the House
+- 'Local Administration' (8): [Administrative Divisions of Prefectures]; [Prefectural Figures, Continued from Previous Page; [Returns for 1903 of Members, Electors and Those E; [Figures by Prefecture, Local Administration]
+- 'Diplomacy' (32): Austria-Hungary; France; Great Britain; Italy
+- 'Education' (70): General Statistics of Education; Expenditure for the Department of Education (1906–; Expenditure for the Institutions under Direct Cont; Foreign Instructors at the Institutions Under Dire
+- 'Religions' (2): Resume of Statistics of Christian Missions in Japa; [Statistics of Protestant, Roman Orthodox Church a
+- 'Charity and Relief' (4): Relief Fund; [Paupers and Foundlings Supported at State Expense; [Ex-Convicts Classified by Disposition]; [Ticket-of-Leave Convicts at Mr. Hara's Home, by O
+- 'Justice, Police and Sanitation' (46): Courts of Law and Judiciary Force; Prisons and Prisoners; Civil Cases at the Court of Cassation; Nature of Cases at the Court of Cassation
+- 'Arts and Crafts of Modern Japan' (7): Living Painters Classified According to Special Li; [Japanese Style Painters (Continued)]; Flowers and Birds and Animals; Manners and Customs and Human Figures (Not Portrai
+- 'Agriculture' (61): [Gross Area of Land in Japan Proper]; [Arable Land Classified by Type]; [Land Available for Reclamation by Region]; Forests and Wild Land Converted
+- 'Mines and Mining' (19): Output of Gold and Silver; Output of Principal Gold and Silver Mines (1905 an; [Gold and Silver Output by Mines, 1905–1906]; Output of Copper and Its Export
+- 'Fishery' (13): [Fishing Boats by Length and Main Division]; Accidents to Fishing-Boats and Casualties to Fishe; The Value of Catches and of Marine Products; [Catches and Marine Products by Main Division, 190
+- 'Forestry' (11): Area of Forests; [Prefectural Figures Continued From Previous Page]; [Forest Yield for the 1905–1906 Year]; [Financial Yield of Forests by Kind of Forest, 190
+- 'Finances' (60): Items of Ordinary and Extraordinary Revenues; Extraordinary Revenues; Ordinary Expenditures; Extraordinary Expenditures
+- 'Industry' (61): Progress of Industrial Investment; [Industrial Companies with Paid-Up Capital of Y. 5; Distribution of Industries; Factories and Its Employees
+- 'Industdy' (7): Bricks and Tiles in 1905; Milling Districts in 1905 (by Machine.); Canned Articles in 1905 (in Y. 1,000); [Prefectural Figures, Continued from Previous Page
+- 'Banks and Banking Business' (29): Liabilities; Assets; Profit and Loss Account; Assets
+- 'Economic Corporations' (12): [New Enterprises Launched or Expanded, October 190; [New Capital and Expansion of Companies by Nature ; Total Number of Companies; Companies Established by Foreigners
+- 'Home Trade' (31): Chambers of Commerce at Principal Districts; Tokyo Mercantile Agency; Osaka Mercantile Agency; Number, Capital, Etc. of Exchanges
+- 'Foreign Trade' (47): Export and Import of Commodities; Exports and Imports of Specie and Bullion; Monthly Trade Returns in 1906; Specie and Bullion
+- 'Army and the Navy' (29): Under Control of Brigade Headquarters at Yokosuka; Under Control of Brigade Headquarters at Shimonose; Field Artillery Brigades and Their Stations; Military Expenditure for 1906–7
+- 'Patents, Designs and Trade-marks' (8): Patents; Designs; Trade-Marks; Applications by Foreigners
+- 'Communications' (28): [Postage Rates by Weight, Japan Proper and Adjacen; Money Orders Fees; Telegraphic Money Orders Fees; Foreign Parcels
+- 'Mercantile Marine' (25): Number of Registered Vessels Classified According ; Registered Steamers of Over 1,000 Tons Classified ; Registered Steamers of Over 1,000 Tons Classified ; Steamers Classified by Speed (March '06)
+- 'Railways' (27): Mileage Open to Traffic; Table I; [Open Railway Lines: Mileage, Construction Cost an; Table II
+- 'Formosa' (20): Cost of Living; Ladies' Wardrobe; Servants' Wages per Month; Revenues
+- 'Industrial Products' (5): Textile Fabrics; Camphor and Camphor Oil; Amount of Opium Manufactured; Opium-smokers
+- 'Karafuto (saghalien)' (6): [Estimated Expenditures and Revenues of Karafuto, ; [Karafuto Population at End of 1905 and 1906]; [Settlers by Urban and Rural Districts at End of 1; Aliens
+- 'Korea' (19): Temperature; Rainfalls; No. of Days of Rainfalls and Snowfalls; [Monthly Figures, Continued From Previous Page]
+- 'Manchuria' (10): Cost of Engineering Work etc.; Valuation of the Government Property; Estimate of Investment and Profit of South Manchur; Construction and Working Expenses of the Tairen-Ch
+
+## japan-1908-09: chapters (table count; sample titles)
+- 'Weights, Measures and Moneys' (1): Weights, Measures and Moneys
+- 'Geography' (8): [Area of Japan by Districts]; [Principal Mountain Peaks Above 8,000 Feet]; [Rivers Above 40 Ri in Length]; Coast-Line of the Principal Islands
+- 'Earthquakes, Volcanoes and Mineral Springs' (7): [Most Disastrous Seismic Calamities in the Pre-Tok; [Principal Calamities during the Tokugawa Period]; [Seven Earthquakes in Recent Time]; [Principal Mineral Springs]
+- 'Population' (19): [Number of Villages, Towns and Cities by Populatio; Rate per 100 Population; Population by Ages and Sexes; Marriages and Divorces
+- 'Imperial Court' (6): [Recipients of the Golden Kite by Grade]; [Number of Peers by Rank, 1884–1907]; Precedent at Court; List of Princes
+- 'Politics' (37): [Membership of the House of Representatives, 1894–; [Composition of the House in the Last Session, Dec; Sessions of the House; [Sessions of the Imperial Diet, Dates and Officers
+- 'Local Administration' (3): [Area, Counties, Cities, Towns and Villages by Pre; [Members, Electors and Eligible Persons by Prefect; Local Administrative Jurisdiction
+- 'Diplomacy' (44): [France (Continued)]; Germany; Great Britain; Italy
+- 'Arts and Crafts of Modern Japan' (3): Paris Fair in 1900; [Prize Winners in Art Industries, Continued]; [Prize-Winning Artists and Craftsmen]
+- 'Education' (69): Expenditure for the Department of Education (1908-; General Statistics on Education; Foreign Instructors at the Institutions Under Dire; Curriculum of the Ordinary Elementary Schools
+- 'Religions and Religious Work' (5): Shrines and Ministers.; Buddhist Temples and Priests.; [Priests, 1901–1905]; Statistics of Protestant Church in Japan (1906)
+- 'Charity and Relief' (10): Relief Fund; [Paupers and Foundlings Supported at End of Year]; [Classification of Persons Cared for in Ex-Convict; [Ticket-of-Leave Convicts Classified by Offense]
+- 'Justice, Prisons, Police and Sanitation' (49): Courts of Law and Judiciary Force; Civil Cases at the Court of Cassation; Nature of Cases at the Court of Cassation; Cases Involving Aliens at the Court of Cassation
+- "Who's Who in Japan" (12): Appeals Coming from the Local Courts; Civil Case at the District Courts; Cases Affecting Aliens by Nationality of Party; Nature of Cases at the District Courts
+- 'Agriculture' (62): [Gross Area of Japan Proper]; [Arable Land by Classification]; [Margin of Reclamation by Districts]; Progress of Reclamation of Forests and Wild Land
+- 'Mines and Mining' (14): [Relative Distribution of Strata in Japan Proper]; Mineral Productions; [Mining Exports and Imports, 1901–1907]; Output of Principal Gold and Silver Mines (1907)
+- 'Fishery' (18): [Fishing-Boats Classified by Length and Region, 19; Accidents to Fishing-Boats and Casualties to Fishe; The Value of Catches and of Marine Products; [Catches and Marine Products by Main Divisions, 19
+- 'Forestry' (16): Area of Forests; Distribution of Forests; Forest Yield, 1906–1907; Financial Yield of Forests by Ownership, 1905
+- 'Industry' (60): Progress of Industrial Investment; Industrial Establishments Classified by Amount of ; Distribution of Industries; Factories and Its Employees
+- 'Finance' (88): [Patents, Designs and Trade-Marks: Applications an; [Utility Model Designs: Applications and Registrat; [Estimated Expenditure for the 1908-9 Year]; [Revenue, Expenditure and Deficit in the 1908-9 Bu
+- 'Home Trade' (22): Chambers of Commerce at Principal Districts (1906); [Tokyo Agency Subscribers, Inquiries and Replies, ; Osaka Mercantile Agency (Established 1901); Number, Capital, Etc. of Exchanges
+- 'Foreign Trade' (28): Foreign Trade in the 1st Half Year of 1908; Monthly Trade of Merchandise; Monthly Exports and Imports of Specie and Bullion; Trade Returns of Leading Ports
+- 'Banks and Banking Business' (20): Number of Banks (March, 1908.); Foreign Banks in Japan (March, 1908.); Liabilities; Profit and Loss Account
+- 'Labour Movement' (3): [Railway Mutual Aid Corporation Data at End of Mar; Operatives Classified According to Employment; [Factory Operatives Employed and Average Daily Wag
+- 'Economic Corporations' (16): [Business Projects Launched or Expanded, October 1; [New Investments by Nature of Project]; Total Number of Companies; Number and Capital of Companies Classified by Natu
+- 'Army and the Navy' (42): [Coast Garrison Units under Yokosuka and Shimonose; [Field Artillery Brigades and Their Stations]; Education of Young Men Examined by Conscription Of; Military Expenditure for 1907-8 and for 1908-9
+- 'Communications' (33): [Domestic Parcel Post Charges Outside Each Localit; [Charges for Postal Parcels Exchanged Between Japa; Postal Money Orders Fees; Telegraphic Money Orders Fees
+- 'Mercantile Marine' (35): Registered Steamers of over 1,000 Tons Classified ; Registered Steamers of over 1,000 Tons Classified ; Steamers Classified by Speed; Registered and Unregistered Steamers Classified Ac
+- 'Railways' (20): Volume of Passengers and Freight Service; Net Profit of State and Private Railways; State Railways in 1906–7; Earnings and Expenses per Day per Mile
+- 'Formosa' (16): Revenues; Expenditures; List of Governor-Generals; Area of Tillage of Land
+- 'Karafuto (saghalien)' (3): [Estimated Expenditures and Revenues of Karafuto, ; [Settlers at End of 1905 and 1906]; [Distribution of Settlers Between Urban and Rural 
+- 'South Manchuria' (13): The Government-General's Office; Revenue; Expenditure; Japanese in Manchuria (on 31st Dec. 1907)
+- 'Korea' (19): Temperature; Rainfalls; No. of Days of Rainfalls and Snowfalls; Residency-General
+
+## japan-1911: chapters (table count; sample titles)
+- 'Weights, Measures and Moneys' (8): Weights; Land Measure (Tsubo); Capacity Measure; Artizan Measure (Kane)
+- 'Geography' (11): [Mountains Above 8,000 Feet]; [Rivers Above 40 Ri in Length]; Area; [Principal Mountain Peaks Above 8,000 Feet]
+- 'Earthquakes, Volcanoes and Mineral Springs' (7): Seismic Calamities Recorded in the Pre-Tokugawa Pe; The Principal Calamities That Occurred During the ; Seven Earthquakes in Recent Time; [Earthquake Records, Continued]
+- 'Population' (21): [Area, Population and Density of Principal Countri; Relative Increase in Urban and Rural Districts; Population by Ages and Sexes; Marriages and Divorces
+- 'Imperial Court' (6): Holders of the Grand Order; Holders of the 1st Grade Golden Kite; Holders of Decorations; Holders of the Golden Kite (Military Honour)
+- 'Directory Civil and Military Service' (4): [Army Offices, Directors and Chiefs]; General Staff Office; Military Educational Department; The Navy
+- 'Arts and Crafts of Modern Japan' (4): [Art Exhibition Entries and Selections, 1907–1910]; Recipients of 2nd Prizes; State Aid for Preservation of National Treasures; Number of Treasures
+- 'Education' (60): Expenditure for the Department of Education (1910-; General Statistics on Education; Foreign Instructors at the Institutions Under Dire; Curriculum of the Ordinary Elementary Schools
+- 'Publications & Press' (4): [Output of Books, 1906–1908]; Statistics; Censorship; Press Statistics
+- 'Religions and Religious Work' (4): Shrines and Ministers; Buddhist Temples and Priests; [Priests Statistics, 1904–1908]; Statistics of Churches in Japan (1909)
+- 'Charity and Relief' (6): Relief Fund; Paupers and Foundlings Supported by the State; Number of Members; [Membership, Expense, Receipt and Fund of the Wome
+- 'Sports and Amusements' (2): [Membership of Kodo-kwan, 1882–1910]; [Physical Particulars of Tokyo Wrestlers by Camp]
+- 'Justice, Prisons, Police and Sanitation' (64): Stamps in Civil Suits; Composition of Courts, at End of 1909; No. of Cases during 1909; No. of Cases at District and Local Courts during 1
+- 'Agriculture' (59): Gross Area; Arable Land Classified for 1908; Margin of Reclamation; Forests and Wild Land Converted
+- 'Mines and Mining' (31): Distribution of Strata; Mineral Productions: Gold, Silver, Copper and Lead; Mineral Productions: Iron, Iron Pyrites, Antimony ; Mineral Productions: Coal, Sulphur, Petroleum, Oth
+- 'Fishery' (12): [Fishing-Boats by Year, 1904–1908]; Accidents to Fishing-Boats and Casualties to Fishe; The Value of Catches and of Marine Products; Value of Catch and Commercial Value of Principal K
+- 'Forestry' (13): Area of Forests; Prefectures Containing Not Less Than 500,000 Cho o; Forest Yield for 1908–1909; [Financial Yield of Forests by Ownership, 1908-9]
+- 'Industry' (67): Progress of Industrial Investment; [Industrial Companies, 1905–1908 (Continued)]; Industrial Establishments Classified by Amount of ; [Industries by Number of Companies and Paid-Up Cap
+- 'Social Politics and Labor Problems' (24): Data at End of March '09; [Percentage of Mine-workers According to Length of; [Days and Hours of Work by Class of Mine-Workers]; [Average Wages Per Day in Big Mines, 1906]
+- 'Patents, Designs, Trade-marks and Utility Models' (4): [Applications and Registrations of Patents, Design; [Actions for Trials by Nationality, 1904–1909]; No. of Actions for Trials, in 1908; Transfer, Hypothecation, Exploitation
+- 'Public Works' (6): [Expenditure on River Works by Agency, 1902–1906]; Principal Harbor-Works; [Harbour Works at Ports, with Work, Dates Commence; [Civil Engineering Expenses by Classification, 190
+- 'Communications' (34): Domestic Parcel Post Charges to a Locality under a; [Charges for Postal Parcels Within Japan Proper]; Charges for Postal Parcels Exchanged Between Japan; Foreign Parcels
+- 'Mercantile Marine' (19): Number of Registered Vessels Classified According ; Registered Steamers Classified by Age; Registered Steamers of Over 1,000 Tons Classified ; Steamers Classified by Speed
+- 'Railways' (29): General Statistics; Volume of Passengers and Freight Service; Goods Mileage; Traffic Receipts
+- 'Politics' (28): [Members of the Second Katsura Ministry]; Ministries From 1885 (1); Ministries From 1885 (2); Katsura Ministry: Ministers by Date of Appointment
+- 'Local Administration' (4): [Prefectures and Their Administrative Divisions]; [Prefectural Governors and Statistics, Continued]; Mayors, No. of Population and Households of Princi; [Local Officials and Figures by Place]
+- 'Diplomacy' (47): List of Treaty Powers; [Embassy Staff (continued from previous page)]; Germany — 14, Nagata-cho, Ichome Kojimachi-ku (Tel; Great Britain — 1, Goban-cho, Kojimachi-ku (Teleph
+- 'Finance' (63): [Budget for the 1910—'11 Year, Revenue and Expendi; Revenue; Expenditure; Ordinary Revenue
+- 'Home Trade' (27): [Issue of Debenture Bonds by Economic Corporations; Outstanding Debentures in 1910 Classified (in Y. 1; [Outstanding Debentures at End of 1909 by Objects]; [Rate of Interest on Debentures]
+- 'Foreign Trade' (47): Exports and Imports of Commodities; Exports and Imports of Specie and Bullion; Trade Returns of Leading Ports; Exports by Countries
+- 'Banks and Banking Business' (15): Banks (At End of 1909.); General Statistics; Statistics; Statistics (Y. 1000)
+- 'Economic Corporation' (21): [Nature of Projects of Newly Organized Companies, ; General Statistics on Economic Corporations; Rate of Interest of the Tokyo Bankers Association; [Rate of Interest of the Yokohama Specie Bank, Con
+- 'Army and the Navy' (38): Under Control of Brigade Headquarters at Yokosuka; Under Control of Brigade Headquarters at Shimonose; [Field Artillery Brigades and Their Stations]; Murata's Magazine-Rifle of 1905 Type
+- 'Army and Navy' (11): [Army Divisions, Brigades and Regiments by Garriso; [Army Divisions, Garrison Towns and Regiment Numbe; List of Divisional and Brigade Commanders; Infantry Brigade Commanders
+- 'Korea' (26): Monetary Endowment on Communities; [Provincial Fund Amounts by Province]; Japan's Disbursements on Account of Korean Protect; Loans
+- 'Formosa' (24): Revenues; Expenditures; Population; [Foreign Residents in Japan, 1904-1908]
+- 'Karafuto (Saghalien.)' (2): [Estimated Expenditures and Revenues of Karafuto, ; [Marine Products of Karafuto, 1907–1909]
+- 'South Manchuria' (8): Finance; Japanese in Manchuria (on 31st Dec. 1907); Foreign Trade at Dairen (1909); Inventory for the 2nd Half of 1909-10
+
+## japan-1912: chapters (table count; sample titles)
+- 'Weights, Measures and Moneys' (9): Weights (Japanese); Avoirdupois, Troy and Metric Weights; Artizan's Measure (Kane); Dry Goods (Kujira)
+- 'Geography' (9): [Area of Japan by Islands]; [Principal Mountain Peaks Above 8,000 Feet]; [Rivers Above 40 ri in Length]; Coast-Line of the Principal Islands
+- 'Earthquakes, Volcanoes and Mineral Springs' (3): Principal Calamities during the Tokugawa Period; Seven Earthquakes in Recent Time; [Mineral Springs of Japan]
+- 'Population' (24): Movement of Population; [Population Density and Family Size by Region, 190; [Area and Population of Principal Countries]; Population by Ages and Sexes
+- 'Imperial Court' (4): Holders of Decorations; Holders of the Golden Kite (Military Honor); [Peerage Holders by Rank, 1903-1910]; [Imperial Grant to the Peers, 1894]
+- 'Directory Civil and Military Service' (47): Scale of Salaries; [Salaries of Higher Government Officials]; Diplomatic and Consular Service; Officials of the Imperial Household
+- 'Education' (65): General Statistics on Education; Foreign Instructors at the Institutions Under Dire; Curriculum of the Ordinary Elementary Schools; Curriculum of the Higher Elementary Schools
+- 'Publication and Press' (7): [Output of Books, 1906-1909]; Statistics; Censorship; Press Statistics
+- 'Religions and Religious Work' (4): Shrines and Ministers; [Statistics of Buddhist Ministers, 1904–1908]; Buddhist Temples and Priests; Statistics of Churches in Japan (1909)
+- 'Charity and Relief' (7): Relief Fund; [Paupers and Foundlings Supported by the State]; [Red Cross Society Membership, 1877–1910]; [Women's Patriotic Society Membership, Expenses, R
+- 'Sports and Amusements' (1): [Famous Wrestlers of Tokyo]
+- 'Social Politics and Labor Problems' (22): Data at End of March '09; [Percentage of Workers According to Length of Serv; [Days and Hours of Work by Class of Mine-Worker]; [Average Wages Per Day in Big Mines, 1906]
+- 'Justice, Prisons, Police and Sanitation' (66): Stamps in Civil Suits; Composition of Courts, at End of 1909; No. of Cases During 1909; No. of Cases at District and Local Courts During 1
+- 'Constructions and Public Works' (6): [Cost of Works Undertaken by Different Agencies, 1; Principal Harbor-Works; [Harbour and Port Works, Continued from Previous P; [Classification of Civil Engineering Expenses, 190
+- 'Agriculture' (57): Gross Area; [Arable Land Classification, 1908]; [Margin of Reclamation by Region]; Forests and Wild Land Converted
+- 'Mines and Mining' (30): Distribution of Strata; Mineral Productions; [Mineral Output, 1904–1909 (Continued From Previou; [Output of Minerals, 1902–1909]
+- 'Fishery' (11): [Fishing-Boats by Year, 1905–1909]; Accidents to Fishing-Boats and Casualties to Fishe; The Value of Catches and of Marine Products; Value of Catch and Commercial Value of Principal K
+- 'Forestry' (12): Area of Forests (1 cho=2½ acres); [Forest Area of Prefectures Containing Not Less Th; [Forest Yield by Species, 1909-1910]; [Value of Forest Products by Ownership]
+- 'Industry' (69): [Industrial Companies: Number, Paid-up Capital and; [Number and Paid-Up Capital of Industrial Establis; Industrial Establishments Classified by Amount of ; [Industries Continued from Previous Page: Ice to P
+- 'Communications' (22): [Domestic Parcel Post Charges to a Locality under ; Charges for Postal Parcels Exchanged between Japan; Foreign Parcels; [Parcel Post Rates by Country]
+- 'Mercantile Marine' (17): Number of Registered Vessels Classified; Registered Steamers Classified by Age (End, Dec. '; Registered Steamers of Over 1,000 Tons Classified ; Steamers Classified by Speed
+- 'Railways' (22): General Statistics; Traffic and Receipt of State and Private Railways; Revenue and Expenditure of State and Private Railw; Earnings and Expenses Etc. Per Day Per Mile (1910-
+- 'Banks and Banking Business' (13): Banks; General Statistics; Statistics; Statistics
+- 'Economic Corporations' (16): [New Enterprises and Expansions of Old Ones by Nat; General Statistics on Economic Corporations — Numb; [Companies by Type: Number, Paid-up Capital and Re; Life Insurance
+- 'Diplomacy' (49): Schedule Part I; Duties on Gray and Bleached Tissues; [Import Duties on Wool Tissues, Iron and Steel She; Table A
+- 'Politics' (15): Ministers From 1885 (1); Ministers From 1885 (2); Ministry from 1885 (?); [Fixed Number of Members of the House of Peers, 18
+- 'Local Administration' (2): [Prefectures: Governors, Area and Administrative D; [Prefectural Figures, Local Administration]
+- 'Finance' (74): [Budget Revenue and Expenditure Summary, 1911-12]; Revenue; Expenditure; Items of Ordinary and Extraordinary Revenue
+- 'Home Trade' (16): [Chambers of Commerce at Principal Districts, 1904; Number, Capital, etc. of Exchanges; Amount of Bonds and Shares Transacted at the Stock; Amount of Rice Transacted at the Rice Exchanges
+- 'Foreign Trade' (36): Exports and Imports of Commodities; Exports and Imports of Specie and Bullion; Trade Returns of Leading Ports (1910); Exports by Countries
+- 'The Army and Navy' (34): Under Control of Brigade Headquarters at Yokosuka; Under Control of Brigade Headquarters at Shimonose; Organization of the Field Artillery Brigades; Murata's Magazine-Rifle of 1905 Type
+- 'Arts and Crafts' (5): States Aid for Preservation on National Treasures; Number of Treasures; Exhibits Submitted to the Committee from the First; Recipients of 2nd Prizes
+- 'Chosen' (27): [Provincial Grants to the Relief Fund]; Temperature; Rainfalls; No. of Days of Rainfalls and Snowfalls
+- 'Taiwan (Formosa)' (2): Revenue; [Taiwan Ordinary Expenditure]
+- 'Taiwan' (23): [Taiwan Government Expenditure, Continued]; Population; Forests and Plains; State Forests and Plains Under Promise of Sale
+- 'Karafuto (Saghalien)' (1): Estimates for the Island of Karafuto for Fiscal Ye
+- 'Karafuto' (1): Marine Products in the Last Few Years
+- 'South Manchuria' (8): Finance; Japanese in Manchuria; [Japanese Residents in Manchurian Towns]; Foreign Trade at Dairen (1909)
+
+## japan-1913: chapters (table count; sample titles)
+- 'Weights, Measure and Moneys' (10): Weights (Japanese); Weights (Western); Land Measures (Tsubo); Capacity Measures
+- 'Geography' (9): [Area of Japan by Islands and Groups]; Principal Mountain Peaks Above 8,000 Feet; Rivers Above 40 Ri in Length; [Coast-Line of the Principal Islands]
+- 'Earthquakes, Volcanoes and Mineral Springs' (3): Principal Calamities That Occurred During the Toku; Seven Earthquakes in Recent Time; [Hot Springs in Japan: Name, Distance, Prefecture,
+- 'Population' (25): Movement of Population; [Population Density and Family Size by Region, 190; [Area, Population and Density of Principal Countri; Distribution of Population in Rural and Urban Dist
+- 'Imperial Court' (4): Holders of Decoration; Holders of the Golden Kite (Military Honor); Number of Peers and Its Movement, 1903-1911; [Imperial Grants to Kuge Peers, 1894]
+- 'Education' (68): General Statistics on Education; Foreign Instructors at the Institutions Under Dire; Curriculum of the Ordinary Elementary Schools; Curriculum of the Higher Elementary Schools
+- 'Publication & Press' (6): [Output of Books, 1907–1910]; Statistics; Censorship; [Number of Dailies and Periodicals, 1903–1910]
+- 'Religions and Religious Work' (4): Shrines and Ministers; [Religious Statistics, 1906–1910]; Buddhist Temples and Priests; Statistics of Churches in Japan (1909)
+- 'Charity and Relief' (6): Relief Fund; [State Outlay for Paupers and Foundlings]; Number of Members; [Society Membership, Expense, Receipts and Fund, 1
+- 'Arts and Crafts' (6): States Aid for Preservation on National Treasures; Number of Treasures; [Exhibits Submitted to the Hanging Committee of th; [Recipients of 2nd Prizes at the National Art Exhi
+- 'Sports and Amusements' (1): [Membership of Kodo-kwan, 1882–1910]
+- 'Agriculture' (58): [Famous Wrestlers of Tokyo]; Gross Area; Arable Land; Margin of Reclamation
+- 'Mines and Mining' (27): Distribution of Strata; Mineral Productions; [Mineral Output, 1906-1911 (Continued)]; [Output of Minerals, 1904-1911]
+- 'Fishery' (10): [Fishing-Boats, 1907–1911]; Accidents to Fishing-Boats and Casualties to Fishe; The Value of Catches and of Marine Products; Value of Catch and Commercial Value of Principal K
+- 'Forestry' (13): Area of Forests; [Forest Area by Prefecture, 1911-12]; [Forest Yield, 1911-12]; Financial Yield of Classified Forest (1912)
+- 'Industry' (62): [Organized Industrial Companies, 1902–1903]; [Industrial Establishments and Figures, 1905–1911]; Industrial Establishments Classified by Amount of ; [Industries by Number of Companies and Paid Up Cap
+- 'Patents, Designs, Trade-Marks and Utility Models' (4): [Fee for Extension of Patent]; [Applications and Registrations of Patents, Design; No. of Actions for Trials, in 1910-11; Transfer, Hypothecation, Exploitation, Etc.
+- 'Justice, Prisons, Police and Sanitation' (50): Stamps in Civil Suits; Composition of Courts, at End of 1911; No. of Civil Cases During 1911; No. of Civil Cases Demanded for Revision
+- 'Communication' (21): Domestic Parcel Post Charges Within a Locality Und; [Domestic Parcel Post Charges To a Locality Under ; [Domestic Postal Parcel Charges (Continued)]; Charges for Postal Parcels Exchanged between Japan
+- 'Mercantile Marine' (19): Number of Registered Vessels Classified; Registered Steamers Classified by Age (End of 1911; Registered Steamers of Over 1,000 Tons Classified ; Steamers Classified by Speed (1911)
+- 'Railways' (20): General Statistics; Traffic and Finance of State and Private Railways; Earnings and Expenses Etc. Per Day Per Mile (1910-; Average Per Train-Mile
+- 'Constructions and Public Works' (6): [Cost of River Works Undertaken by Different Finan; Principal Harbor-Works; [Port Construction Works, Ujina to Misumi]; Civil Engineering Expenses, 1904–1908
+- 'Social Politics and Labor Problems' (20): Data at End of March 1912; [Percentage of Workers According to Length of Serv; [Days and Hours of Work of Mine-Workers]; [Average Wages per Day in Big Mines, 1911]
+- 'Banks and Banking Business' (16): Banks (At End of the Years of 1912); General Statistics; Statistic; Statistic
+- 'Economic Corporations' (14): [Investments in New Enterprises by Nature of Proje; Number and Capital Classified by Nature of Enterpr; [Companies by Industrial, Commercial, Transportati; Life Insurance
+- 'Home Trade' (16): [Chambers of Commerce at Principal Districts, 1906; Number, Capital, etc. of Exchanges; Amount of Bonds and Shares Transacted at the Stock; Amount of Rice Transacted at the Rice Exchanges
+- 'Foreign Trade' (35): Exports and Imports of Commodities; Exports and Imports of Specie and Bullion; Trade Returns of Leading Ports; Total Value of Commodities (1911)
+- 'Diplomacy' (52): Schedule, Part I; [Customs Duties on Gray and Bleached Cotton Tissue; Tissues of Wool, and Mixed Tissues of Wool and Cot; Iron
+- 'Politics' (16): The Distribution of Ministerial Chairs; Ministers From 1885 (1); Ministries From 1885 (2); [Cabinet Ministers from 1896 to 1901 (Continued)]
+- 'Local Administration' (2): [Prefectures, Governors, Area and Administrative D; [Prefectures, Governors and Figures]
+- 'Finance' (76): Budget for the 1913-14 Year; General Account — Ordinary Expenditure; General Account — Extraordinary Expenditure; Savings and Increase in Annual Revenue
+- 'The Army and Navy' (41): [Expenditure on National Defence, 1902-3 to 1912-1; [Siege Artillery Units Under Brigade Headquarters ; [Siege Artillery Units Under Brigade Headquarters ; [Stationing of Field Artillery Brigades]
+- 'Directory Civil and Military Service' (33): Scale of Salaries; [Salaries of Senior Civil Officials and Local Gove; Diplomatic and Consular Service; Officials of the Imperial Household
+- 'Chosen' (30): [Provincial Relief Fund Grants by Province]; Temperature; Rainfalls; No. of Days of Rainfalls and Snowfalls
+- 'Taiwan (formosa)' (4): Revenue; Expenditure; [Government Expenditure Table (Continued)]; Population
+- 'Taiwan' (24): Forests and Plains; State Forests and Plains Under Promise of Sale; Tree Planting; List of Governor-Generals
+- 'Karafuto (Saghalien)' (2): Finance; [Marine Products in Karafuto, 1907–1910]
+- 'South Manchuria' (11): Home Treasury's Burdens; Finance; Home Treasury's Burdens; Japanese in Manchuria
+
+## japan-1914: chapters (table count; sample titles)
+- 'Weights, Measures and Moneys' (1): Weights, Measures and Moneys
+- 'Geography' (10): [Coast Line and Area of Japanese Territory by Dist; Principal Mountain Peaks Measuring Above 8,000 Fee; Rivers Above 70 Ri in Navigable Length; Gales in 1912
+- 'Outline of Japanese History' (8): List of Mikados in Alphabetical Order; [Sovereigns and Dates of Their Reigns]; List of the Shōguns and the Regents (Shikken); List of Japanese "Year-Names"
+- 'Earthquakes, Volcanoes and Mineral Springs' (18): Mineral Springs by Type and Region; Cations in Dogo Spring; [Anions of Mineral Water Analysis, Continued]; Analysis of 'Jizo-no-yu,' Kusatsu
+- 'Population' (24): Movement of Population; Average Density and Families per Region; Distribution of Population in Rural and Urban Dist; Population by Ages and Sexes
+- 'Imperial Court' (4): Decorations Granted Each Year; Holders of the Golden Kite (Military Honor); [Number of Peers by Rank, 1904-1912]; [Imperial Grants to Kuge Peers, 1894]
+- 'Arts and Crafts' (5): [National Art Exhibition: Works Submitted, Selecte; Recipients of Prizes; States Aid for Preservation of National Treasures; [Annual Figures, 1910–1912, Continued From Previou
+- 'Religions and Religious Work' (3): Buddhist Temples and Priests; Statistics of Christian Churches in Japan (1911); Church Expenses in Japan
+- 'Charity and Relief' (10): Relief Fund; [Paupers and Foundlings Supported by the State]; [Sums Granted by the Court for Calamities, May 189; [Red Cross Society Membership, 1877–1913]
+- 'General Statistics on Education' (3): General Statistics on Education; Foreign Instructors at the Institutions under Dire; Curriculum of the Ordinary Elementary Schools
+- 'Education' (50): Curriculum of the Ordinary Elementary Schools (Con; Curriculum of the Higher Elementary Schools; Number of Children of School Age; Salaries of Teachers of Both Sexes in Public Eleme
+- 'Justice, Prisons, Police and Sanitation' (44): Stamps in Civil Suits; Composition of Courts, at End of 1912; No. of Civil Cases During 1912; No. of Civil Cases Demanded for Revision
+- 'Social Politics and Labor Problems' (22): [Labor Strikes by Year, 1908–1911]; Data at End of March 1913; [Mutual Relief Society Members and Payments by Est; [Index Numbers of Mechanic, Output and Spindles in
+- 'Press and Publication' (5): [Number of Dailies and Periodicals Existing at End; [Japanese Periodicals Published in Tokyo]; [Output of Books, 1908-1911]; Statistics
+- 'Sports and Amusements' (1): [Famous Wrestlers of Tokyo]
+- 'Constructions and Public Works' (6): [Cost of River Works by Different Finances, 1905–1; Principal Harbor-Works; [Harbour Works at Ports Listed in the Opening Para; [Civil Engineering Expenses by Classification, 190
+- 'Agriculture' (50): [Arable Land: Paddy and Upland Fields]; [Unreclaimed Land Inclined Less Than 15 Degrees]; [Farming Population by Families, 1903 and 1912]; Independent Farmers and Tenant Farmers
+- 'Mines and Mining' (18): [Distribution of Strata by Rock Type]; Mineral Production; Principal Metal-mines; [Mine Output Figures, Continued]
+- 'Fishery' (10): Fishing-Boat; Accidents to Fishing-Boats and Casualties to Fishe; The Value of Catches and Marine Products; Value of Catch and Commercial Value of Principal K
+- 'Forestry' (15): Area of Forests; Distribution of Forests; Forest Yield for 1912-13 (Exclusive of Formosa and; Average Output of Forest Products for Years (1908-
+- 'Industry' (63): [Joint Stock Companies, 1907–1912]; Industrial Establishments Classified by Amount of ; [Industrial Companies by Industry, Factories, Hand; Leading Districts Containing Companies with Capita
+- 'Patents, Designs, Trade-Marks and Utility Models' (1): [Fee for Extension of Patent]
+- 'Patents, Designs, Trade-marks, Etc' (3): No. of Applications and Registrations; No. of Actions for Trial and No. of Cases Upheld; No. Existing at the End of the Fiscal Years
+- 'Trade' (19): [Investment by Nature of Project]; Number and Capital Classified by Nature of Enterpr; [Bonus of Some Well-Known Banks and Companies, Fir; [Chambers of Commerce, 1908 to 1912]
+- 'Foreign Trade' (45): Exports and Imports of Commodities; Exports and Imports of Specie and Bullion; Trade Returns at Leading Ports; Staple Items of Trade Classified — Exports
+- 'Insurance' (12): Marine Insurance; Carriage Insurance; Fidelity Insurance; Engine & Boiler Insurance
+- 'Banks and Banking Business' (33): General Statistics at the End of 1912; Special Banks; Ordinary Banks; Incomes and Outgoes of Ordinary Banks
+- 'Communications' (18): [Domestic Parcel Post Charges to a Locality under ; [Charges for Postal Parcels Exchanged with Formosa; Foreign Parcels; [Postal Rates to Foreign Countries by Route and We
+- 'The Japan Year Bank' (2): Rate to Formosa, Korea Etc.; International Rates
+- 'The Army and the Navy' (23): Statistics; [Military Training Schools: Staff, Students, Gradu; [Siege Artillery Corps Deployment by Brigade Headq; Murata's Magazine-Rifle of 1905 Type
+- 'Railways' (33): General Statistics of State & Private Railways; Redemption of the Railway Nationalization Loan; Imperial Railways District Offices and Open Mileag; State in December, 1913
+- 'Mercantile Marine' (28): Number of Registered Vessels Classified; Registered Steamers Classified by Age (End of 1912; Registered Steamers of Over 1,000 Tons Classified ; Steamers Classified by Speed (1912)
+- 'Diplomacy' (38): Austria-Hungary; France; Russia; United States of America
+- 'Finance' (102): Budget for the 1914-15 Year; [Estimate and Actual Receipts of Taxes and Revenue; [Actual Receipts 1912-13 Compared with Estimate 19; Items of Revenue of Ordinary and Extraordinary Fin
+- 'Politics' (16): The Distribution of Ministerial Chairs (April 1914; Ministries from 1885 to 1896; [Ministries Before 1896 (Continued)]; Ministries from 1896 to 1901
+- 'Local Administration' (2): [Prefectures, Governors and Administrative Divisio; [Prefectures and Their Governors, with Area and Fi
+- 'Civil and Military Service' (33): Civil Officials; Military Officers; Shin-nin Rank; Chokunin Rank
+- 'Chosen (korea)' (37): Meteorological Observation (Average Record); Rainfalls and Snowfalls & No. of Days Thereof; Native Population; Births and Still Births of Natives
+- 'Taiwan (formosa)' (32): Temperature; Rainfalls; [Rainfall in Taiwan, August to Total]; No. of Days of Rainfalls
+- 'Karafuto (Saghalien)' (2): Budget; [Marine Products of Karafuto, 1907-1910]
+- 'South Manchuria' (11): Population; Three Principal Cities; Budgets; Foreign Trade at Dairen (1912)
+
+## japan-1915: chapters (table count; sample titles)
+- 'Geography' (11): Weights, Measures and Moneys; [Area and Coast Line of the Imperial Realm by Terr; [Principal Mountain Peaks Above 8,000 Feet]; Rivers Above 70 ri in Navigable Length
+- 'Outline of Japanese History' (8): List of Mikados in Alphabetical Order; [Mikados and Their Reign Dates]; List of the Shōguns and the Regents (Shikken); List of Japanese "Year-Names"
+- 'Earthquakes, Volcanoes and Mineral Springs' (16): [Mineral Springs by Kind and District]; Analysis of Dogo Spring; [Anions of Mineral Water, Continued]; Analysis of "Jizo-no-yu," Kusatsu
+- 'Population' (23): Population in Japan Proper; Population; Population in Rural and Urban Districts; Population by Ages and Sexes
+- 'Imperial Court' (4): Decorations Granted Each Year; Holders of the Golden Kite (Military Honor); [Number of Peers]; [Imperial Grants to Kuge Courtiers, 1894]
+- 'Arts and Crafts' (7): [Exhibits Submitted to the National Art Exhibition; Recipients of 2nd Prizes; [Judges of Annual Art Exhibitions, 4th to 8th]; States Aid for Preservation of National Treasures
+- 'Religions and Religious Work' (2): Buddhist Temples and Priests; Statistics of Christian Churches in Japan (1913)
+- 'Charity and Relief' (9): Relief Fund; [Paupers and Foundlings Supported by the State]; [Relief Allowances for Persons Unable to Work]; [Inmates of Leper Hospitals at End of 1912]
+- 'Education' (54): General Statistics on Education; Foreign Instructors at the Institutions under Dire; Curriculum of the Ordinary Elementary Schools; Curriculum of the Higher Elementary Schools
+- 'Justice, Prisons, Police and Sanitation' (42): Composition of Courts, at End of 1912; No. of Civil Cases During 1912; No. of Civil Cases Demanded for Revision; No. of Civil Cases Appealed
+- 'Social Politics and Labor Problems' (23): [Strikes and Laborers Involved, 1908-1911]; Data at End of March 1913; [Members and Payments of the Mutual Relief Society; [Index Numbers of Mechanics, Output and Spindles i
+- 'Press and Publication' (5): [Periodicals Listed by Title, Subject, Frequency a; [Books Published, 1911-1913]; [Prohibitions of Publications and Sales of Newspap; [Cases of Other Publications Forbidden, Suppressed
+- 'Public Works' (7): [Famous Wrestlers of Tokyo]; [Cost of River Works Undertaken by Different Finan; Principal Harbor-Works; [Harbour Works Completed or Under Construction (Co
+- 'Agriculture' (44): Arable Land and Farming Population; [Farming Families by Category of Holding, 1911–191; [Farming Families Rearranged by Occupation, 1911–1; Farmer's Family Classified as to Area of Cultivati
+- 'Mines and Mining' (21): Distribution of Strata; Mineral Production: Gold, Silver, Copper and Lead; Mineral Production: Iron, Iron Pyrites, Antimony a; Mineral Production: Coal, Sulphur, Petroleum and T
+- 'Fishery' (10): [Fishing-Boats by Type, 1911-1913]; Accidents to Fishing Boats and Casualties to Fishe; Catches and Marine Production; Principal Catches
+- 'Forestry' (12): Forests in Japan Proper by Proprietorship; [Prefectures Containing Not Less Than 500,000 Cho ; Forest Yield in Japan Proper, 1913-14; Financial Yield of Forest Classified (1913-14)
+- 'Industry' (44): [Industrial Companies and Capital at the End of Ye; Industrial Companies Classified by Amount of Inves; Distribution of Industries; Factories and Employees
+- 'Industries' (6): Matches; [Match Exports from Kobe and Osaka to Places, 1914; [Paper Production, Exports and Imports, 1913]; [Paper Production, Exports and Imports]
+- 'Patents, Designs, Trade-marks, Etc' (4): [Patent Fee for Extension of Period]; No. of Applications and Registrations; No. of Actions for Trial and No. of Cases Upheld; No. Existing at the End of the Fiscal Years
+- 'Trade' (24): Paid Up Capital of Sales Companies in 1913; [Companies Established in New Enterprises, 1914, C; [Companies by Industry, with Increase Compared wit; Companies Classified by Organization
+- 'Foreign Trade' (65): Movement of Specie; Excess of Exports and Imports of Goods and Specie; The Balance of Trade between the Whole Empire and ; [Exports and Imports by Classes, Japan Proper, 191
+- 'Insurance' (13): Life Insurance; Fire Insurance; Marine Insurance; Carriage Insurance
+- 'Banks and Banking Business' (40): General Statistics of Banking Business; Special Banks; [Capital, Deposits, Loans and Dividends of Banks]; Classified by Nature of Organisation
+- 'Communications' (23): Length of Aerial Lines, Underground Cables and Sub; [Wireless Telegraph Stations Equipment]; [Wireless Stations of Japan]; Number of Telephone Apparatus
+- 'Railways' (31): [Rate of Profit from Railway Working, 1906—1915]; General Statistics of State & Private Railways; Redemption of the Railway Nationalization Loan; [Imperial Railway Districts and Open Mileage, Marc
+- 'Mercantile Marine' (25): Number of Registered Vessels Classified by Tonnage; Number of Registered Steamers Classified by Age; Registered Steamers of Over 1,000 Tons Classified ; Steamers Classified by Speed (1912)
+- 'The Army and the Navy' (29): Statistics (1912); [Army Schools: Staff, Students, Graduates and Admi; [Siege Artillery Corps Organization]; Stations of the Field Artillery Brigades
+- 'Diplomacy' (37): Reciprocal Protection of Industrial Property in Ch; Province of Fengtien; Province of Kirin (Southern Portion); Province of Fengtien
+- 'Finance' (94): Budget for the 1915-16 Year; Working Budget for 1915-16 Year; [Government Expenditure for the Fiscal Year]; Total Expenditures Classified (yen 1,000)
+- 'Politics' (22): The Okuma Cabinet; Ministries from 1885 to 1896; [Ministries Before 1896 (Continued from Previous P; Ministries from 1896 to 1901
+- 'Civil and Military Service' (31): Shin-nin Rank; Chokunin Rank; Diplomatic and Consular Service; [Consular Salaries (Continued)]
+- 'Chosen (korea)' (32): Rainfalls and Snowfalls & No. of Days Thereof; Native Population; Principal Cities at the End of 1912; [Japanese Immigrants in Korea, 1910-1914]
+- 'Taiwan (formosa)' (21): [Aboriginal Raids: Police and Other Killed and Wou; [Forest Area by Year, Protection and Other Forests; Tree Planting (in ko); [Principal Timber Trees of Arisan]
+- 'Karafuto (Saghalien)' (2): Budget; [Marine Products of Karafuto, 1911–1913]
+- 'South Manchuria' (11): Population; Three Principal Cities; Budgets; Foreign Trade at Dairen (1912)
+
+## japan-1916: chapters (table count; sample titles)
+- 'Weights, Measures and Moneys' (8): Distance and Length; Land Measures; Quantity, Capacity and Cubic Measures; Weights
+- 'Geography' (7): Gales in 1912; [Average and Last Occurrence Dates by Place]; Monthly Average Temperature in Japan; Average Monthly Rainfalls and Snowfalls in Japan f
+- 'Outline of Japanese History' (8): List of Mikados in Alphabetical Order; [List of Mikados and Their Reign Dates]; List of the Shoguns and the Regents (Shikken); List of Japanese "Year-Names"
+- 'Earthquakes, Volcanoes and Mineral Springs' (1): [Mineral Springs Classified by Kind and Region]
+- 'Population' (21): Population in Japan Proper; Population in Japan Proper — Returns of "Legal" Po; Population by Ages and Sexes*; Married and Unmarried
+- 'Imperial Court' (3): Holders of Decorations Granted (Dec. 31, 1914); [Number of Peers by Rank, Dec. 31, 1913 and 1914]; [Imperial Grant to Kuge Courtiers, 1894]
+- 'Arts and Crafts' (5): [Exhibits Submitted to the National Art Exhibition; States Aid for Preservation of National Treasures; [Continuation of Unlabelled Statistical Table, 191; Number of Treasures
+- 'Religions and Religious Work' (2): Buddhist Temples and Priests; Statistics of Christian Churches in Japan
+- 'Charity and Relief' (7): Relief Fund; [Paupers and Foundlings Supported by the State]; [Relief Allowances for Destitute Classes]; [Leper Hospitals and Inmates, End of 1912]
+- 'Education' (54): General Statistics on Educational Institutions in ; Foreign Instructors at the Institutions under Dire; Curriculum of the Ordinary Elementary Schools; Curriculum of the Ordinary Elementary Schools—(Con
+- 'Justice, Prisons, Police and Sanitation' (32): Composition of Courts, at End of 1914; Number of Civil Cases during 1914; Civil Cases Disposed Of; [Cases Appealed, Complained and Demanded for Revis
+- 'Police and Sanitations' (8): [Police Offences]; Unnatural Deaths; Foundlings, 1913; Fires
+- 'Iv. Medicine and Sanitary Affairs' (2): [Medical Practitioners, Hospitals and Midwives, 19; [Total Numbers of Licensed Patent Medicines and Re
+- 'Social Politics and Labor Problems' (23): [Number of Co-operative Societies by Type, 1913-19; [Hotokukai Credit Operations, Continued]; [Labor Disputes and Strikes, 1908-1911]; Data at the End of March 1915
+- 'Press and Publication' (6): [Japanese Periodicals and Their Publishers]; Output of Books, 1911-1914; [Annual Average Sale of Books, 1910-14]; [Cases of Prohibition of Newspapers and Periodical
+- 'Sports and Amusements' (3): [Famous Wrestlers of Tokyo]; [Athletic Records to 1915, Japan]; [Peaks of the North Alps, Japan Alps]
+- 'Public Works' (7): [Cost of Works Undertaken by Different Finances]; [Public Works Expenditure by Source, 1906-7 to 191; Principal Harbor-Works; [Harbour Works, Continued]
+- 'Agriculture' (41): [Gross Area of Arable Land in Japan Proper]; [Number of Families Engaged in Farming]; [Farming Families Rearranged by Subsidiary Occupat; [Farming Families Classified by Area Cultivated]
+- 'Mines and Mining' (18): Distribution of Strata; Mineral Production; Principal Metal Mines and the Production; [Output of Principal Mines by Metal, 1914]
+- 'Fishery' (10): [Fishing-Boats by Type, 1913 and 1914]; Accidents to Fishing Boats and Casualties to Fishe; Catches and Marine Production; Principal Catches
+- 'Forestry' (13): [Area of Forests by Class, End of March 1915]; [Forests in Prefectures Containing Not Less Than 5; [Forest Area by Prefecture, March 1913–1915]; [Forest Yield in Japan Proper by Kind of Trees, 19
+- 'Industry' (55): [Industrial Enterprises at the End of Each Year, 1; Industrial Companies Classified by Amount of Inves; [Industrial Companies by Kind]; Distribution of Industries
+- 'Patents, Designs, Trade-marks, Etc' (4): [Fee for Extension of Patent Period]; No. of Applications and Registrations; No. of Actions for Trial and No. of Cases Upheld; No. Existing at the End of the Fiscal Years
+- 'Trade' (24): Paid Up Capital of Sales Companies in 1913; [New Enterprises Launched in 1915]; Companies Classified By Nature; Companies Classified By Organization
+- 'Foreign Trade' (46): Staple Exports and Imports Affected by the War; The Trade Between Japan Proper and Formosa and Kor; Exports and Imports of Commodities; Exports and Imports of Specie and Bullion
+- 'Insurance' (17): [Life Insurance Contracts, 1912–1915]; [Ratios of New Contracts, Net Increase and Dissolv; [Mortality Rate of Assured in Japan and England pe; Rates in Tokyo, %
+- 'Banks and Banking Business' (37): General Statistics of Banking Business; Special Banks; Classified by Nature of Organisation (the End of 1; Outgoes and Incomes
+- 'Communications' (24): [Length of Telegraph and Telephone Lines]; Equipment of Shore Wireless Stations; [Wireless Stations]; Number of Telephone Apparatus
+- 'Railways' (35): [Rate of Profit from Railway Working, 1906–1915]; General Statistics on Railways; Financial Result of Nationalization; [Railway Traffic, Passenger Mileage, Tonnage and R
+- 'Mercantile Marine' (24): Number of Registered Vessels Classified by Tonnage; Registered Steamers Classified by Age (1914); Registered Steamers Classified by Materials (1914); Steamers Classified by Speed (1914)
+- 'The Army and the Navy' (25): Statistics (1912); [Army and Navy Schools: Staff, Students, Graduates; [Organization of the Siege Artillery Corps]; Murata's Magazine-Rifle of 1905 Type
+- 'Diplomacy' (38): Province of Fengtien; Province of Kirin; Foreign Embassies in Tokyo; Italy
+- 'Finance' (82): Budget for the 1916-17 Year; [Budget Changes: Ordinary Revenue]; [Budget Changes: Extraordinary Revenue]; [Budget Changes: Ordinary Expenditure]
+- 'Politics' (21): The Okuma Cabinet; Ministries from 1885 to 1896; [Cabinet Chairs Continued from Previous Page]; Ministries from 1896 to 1901
+- 'Local Administration' (2): [Prefectures with Area, Governor and Administrativ; [Prefectures: Governors, Area, Gun, City, Town and
+- 'Civil and Military Service' (31): Shin-nin Rank; Choku-nin Rank; Diplomatic and Consular Service; [Consular Salaries (Continued)]
+- 'Chosen (korea)' (25): Population in Principal Cities, 1913; Japanese in Korea; Foreigners in Korea; [Prefectures of Korea and Their Governors]
+- 'Taiwan (formosa)' (29): Temperature; Rainfalls; [Rainfall in Taiwan by Station, Aug., Nov. and Tot; Number of Days of Rainfalls
+- 'Karafuto (Saghalien)' (2): Budget Estimates of Karafuto for the Fiscal Year 1; [Catches and Marine Products, Karafuto, 1912-1914]
+- 'South Manchuria' (10): [Population of Kwantung Province, 1913–1914]; [Population of the Railway Zone at End of 1913]; Three Principal Cities at the End of 1913; Budgets for 1916-17
+
+## japan-1917: chapters (table count; sample titles)
+- 'Weights, Measures and Moneys' (5): Distance and Length; Land Measures; Quantity, Capacity and Cubic Measures; Weights
+- 'Geography' (8): [Coast Line and Area of Japanese Territory]; [Principal Mountain Peaks Above 8,000 Feet]; Rivers Above 70 Ri in Navigable Length; Gales in 1912
+- 'Outline of Japanese History' (8): List of Mikados in Alphabetical Order; [List of the Mikados (Sovereigns) and Their Reign ; List of the Shōguns and the Regents (Shikken); List of Japanese "Year-Names"
+- 'Earthquakes, Volcanoes and Mineral Springs' (1): [Classification of Mineral Springs by Type and Reg
+- 'Population' (21): Population in Japan Proper; Population in Japan Proper; Population by Ages and Sexes; Married and Unmarried
+- 'Imperial Court' (3): Holders of Decorations Granted (Dec. 31, 1915); [Number of Peers by Grade, 1914–1915]; [Imperial Grants to Peers, 1894]
+- 'Arts and Crafts' (2): [Exhibition Statistics of Japanese Painting, Weste; Shrines and Priests
+- 'Religions and Religious Work' (2): Buddhist Temples and Priests; Statistics of Christian Churches in Japan (1915)
+- 'Charity and Relief' (7): Relief Fund; [Paupers and Foundlings Supported by the State and; [Rice Relief Allowances by Class of Person]; Inmates of Leper Hospitals at the End of 1912
+- 'Education' (52): General Statistics on Educational Institutions in ; Foreign Instructors in Service of the Institutions; Curriculum of the Ordinary Elementary Schools; Curriculum of the Higher Elementary Schools
+- 'Justice, Prisons, Police and Sanitation' (36): Composition of Courts at End of 1915; Number of Civil Cases during 1915; Civil Cases Disposed Of; [Civil Cases Appealed, Complained Against and Dema
+- 'Social Politics and Labor Problems' (21): [Number of Co-operative Societies in Japan by Type; [Strikes Reported in Newspapers Since the Beginnin; Data at the End of March 1915; [Mutual Relief Societies by Institution]
+- 'Press and Publication' (7): Press Statistics; [Japanese Magazines and Periodicals with Prices an; [Output of Books, 1911–1915]; [Average Annual Sale of Textbooks, Magazines and G
+- 'Sports and Amusements' (3): [Famous Wrestlers of Tokyo]; [Japanese Athletic Records Up to 1915]; [North Alps Peaks of the Japan Alps]
+- 'Public Works' (7): [Cost of River Works by Different Finances]; [Expenses on Roads and Bridges, 1906-7 to 1910-11]; Principal Harbor-Works; [Public Works Continued: Ports, Works and Expendit
+- 'Communications' (23): [Length of Telegraph and Telephone Lines, End of M; [Wireless Shore Stations Equipment]; [Wireless Shore Stations (Continued)]; Number of Telephone Apparatus
+- 'Railways' (35): [Rate of Profit from Railway Working, 1906–1916]; General Statistics on Railways; Financial Result of Nationalization; [Passenger Mileage and Goods Tonnage]
+- 'Marcantile Marine' (25): Number of Registered Vessels Classified by Tonnage; Registered Steamers Classified by Age (1914); Registered Steamers Classified by Materials (1914); Steamers Classified by Speed (1914)
+- 'Patents, Designs, Trade-marks, Etc' (4): Registration of Patent Right; Registration of Designs; Registration of Trade-Marks; Registration of Utility Models
+- 'Insurance' (8): [Life Insurance Policy Amounts, New Contracts, Dis; [Ratios of New Contracts, Net Increase and Dissolv; [Mortality Rate of Assured in Japan and England pe; Rates in Tokyo, %
+- 'Banks and Banking Business' (21): [Deposit Account of the Tokyo Union Bankers at Mid; [Average Rates of Interest in Tokyo]; Banking Statistics; [Bank Statistics by Class of Bank, 1913–1915]
+- 'The Army, Navy and Aviation' (22): Statistics (1914); [Military Schools: Staff, Students, Graduates and ; Siege Artillery Corps Stations; Murata's Magazine-Rifle of 1905 Type
+- 'Diplomacy' (33): List of Treaty Powers; Reciprocal Protection of Industrial Property in Ch; Province of Fengtien; Province of Kirin
+- 'Trade' (27): Paid Up Capital of Sales Companies in 1913; New Enterprises in 1916; Companies Classified by Organization; General Statistics on Economic Corporations
+- 'Foreign Trade' (55): Items Affected by the War; Trade Between Japan Proper and Colonies; Japan's Trade With China (1916); Exports and Imports of Commodities
+- 'Agriculture' (38): [Gross Area of Arable Land in Japan Proper]; [Numbers of Families Engaged in Farming]; [Farming Families Rearranged by Subsidiary Occupat; [Farming Families Classified by Area Cultivated pe
+- 'Mines and Mining' (19): Distribution of Strata; [Mineral Production, 1912–1915]; Demand of Pig Iron and Steel; Production at Present and Prospective of Pig-iron 
+- 'Fishery' (11): [Fishing-boats in Japan, 1915]; [Fishing Population, 1915]; Accidents to Fishing Boats and Casualties to Fishe; Catches and Marine Production
+- 'Forestry' (14): [Area of Forests in Japan Proper by Class of Owner; [Prefectures Containing Not Less Than 500,000 Cho ; [Forest Yield of Principal Timbers, Japan Proper, ; Financial Yield of Forests (Dec. 1915)
+- 'Industry' (54): [Number of Companies, Paid-up Capital and Reserves; [Industrial Companies by Kind]; [Number of Companies and Capital by District]; Factories and Employees
+- 'Finance' (119): [Working Budget Revenue and Expenditure]; Budget at 38th Session; [Ordinary Revenue Items Cut Down]; [Principal Extraordinary Revenue Decreases]
+- 'Politics' (17): The Terauchi Cabinet (Created Oct., 1916); Cabinet Ministries Since the Inception 1885; [Cabinet Ministers, 1896–1914]; [Composition of the House of Peers, June 20th, 191
+- 'Local Administration' (3): Composition of Prefectures; Cities and Mayors; [Cities and Their Mayors]
+- 'Civil and Military Service' (33): Shin-nin Rank; Choku-nin Rank; Diplomatic and Consular Service; [Consul Salaries (Continued)]
+- 'Chosen (korea)' (39): Meteorological Observation (Average Record); Rainfalls and Snowfalls & No. of Days Thereof; Native Population; [Births and Still Births of Native Population]
+- 'Taiwan (formosa)' (21): [Record of Raids by the Aborigines]; Revenue and Expenditure; Education; Justice
+- 'Karafuto (Saghalien)' (2): Budget Estimates for Karafuto, Fiscal Year 1916–17; [Catches and Marine Products, Karafuto, 1912–1915]
+- 'Souta Manchuria' (9): [Population of Kwantung Province, 1913 and 1914]; [Population Including Railway Zone, End of 1914]; Three Principal Cities at the End of 1914; Budgets for 1916-17 (in ¥1,000)
+- 'Japan and the European War' (1): [War Risks Underwritten Under the War Insurance Co
+
+## japan-1918: chapters (table count; sample titles)
+- 'Geography' (15): Distance and Length; Land Measures; Quantity, Capacity and Cubic Measures; Weights
+- 'Outline of Japanese History' (8): List of Mikados in Alphabetical Order; [Reigns of the Mikados]; List of the Shoguns and the Regents (Shikken); List of Japanese "Year-Names"
+- 'Earthquakes, Volcanoes and Mineral Springs' (2): [Mineral Springs in Japan by Kind and Region]; Population in Japan Proper
+- 'Population' (20): Population in Japan Proper; Population by Ages and Sexes; Married and Unmarried; Ratios of These Numbers Are as Follows
+- 'Imperial Court' (3): Holders of Decorations Granted (Dec. 31, 1915); [Number of Peers by Grade]; [Imperial Grants to Kuge Peers, 1894]
+- 'Arts and Crafts' (2): [Exhibition Statistics of Works Submitted, Exhibit; Shrines and Priests
+- 'Religions and Religious Work' (5): Buddhist Temples and Priests; Statistics of Christian Churches in Japan; Relief Fund; [Disbursements to Paupers, Foundlings and Sick Tra
+- 'Charity and Relief' (3): The Blind as Bread-Earners; Reform and Relief Work (1915); [State-Aided Institutions and Their Locations]
+- 'Education' (52): General Statistics on Educational Institutions in ; Foreign Instructors at the Institutions under Dire; Curriculum of the Ordinary Elementary Schools; Curriculum of the Higher Elementary Schools
+- 'Justice, Prisons, Police and Sanitation' (33): Composition of Courts at End of 1915; Number of Civil Cases during 1915; Civil Cases Disposed Of; [Civil Cases Appealed, Complained Of and Demanding
+- 'IV. Medicine and Sanitary Affairs' (2): [Hospitals, Practitioners, Dispensers, Midwives an; [Licensed Patent Medicines and Receipts, 1913–1915
+- 'Social Politics and Labor Problems' (27): [Co-operative Societies by Kind, 1915–1916]; [Labor Disputes, 1914–1917]; Data at the End of March 1917; [Mutual Relief Societies: Members, Persons Helped 
+- 'Press and Publication' (5): Output of Books, 1912-1916; Annual Average Sale of Books, 1910-14; [Prohibition of Sale and Suppression of Newspapers; [Prohibition of Sale and Suppression of Other Publ
+- 'Sports and Amusements' (4): The Famous Wrestlers of Tokyo; [Athletic Records Brought Up to 1915]; [Principal Peaks of the North Alps]; [Principal Peaks of the Japan Alps — Continued]
+- 'Public Works' (8): Cost of River Works by Source of Finance; [Expenses on Roads and Bridges, 1906-7 to 1910-11]; Principal Harbor-Works; [Harbour Works Undertaken at Ports, with Dates and
+- 'Communications' (25): Length of Aerial Lines, Underground Cables and Sub; [Wireless Shore Stations Equipment]; [Wireless Shore Stations — Vibration, Power and Tr; Number of Telephone Apparatus
+- 'Railways' (34): General Statistics on Railways; Ten Year Result of the Nationalization; [Railway Working Statistics, 1903 and 1917]; [Coaching and Goods Receipts Proportions, 1907-8 t
+- 'Mercantile Marine' (23): Number of Registered Vessels Classified by Tonnage; Registered Steamers Classified by Age (Dec. 1916); Registered Steamers Classified by Materials (Dec. ; Steamers Classified by Speed (Dec. 1916)
+- 'Patents, Designs, Trade-marks, Etc' (6): Registration of Patent Right; Registration of Designs; Registration of Trade-Marks; Registration of Utility Models
+- 'Insurance' (6): Mortality Rate of Assured in Japan; Rates in Tokyo, %; Statistics of Insurance Companies; [Insurance Business by Kind, Years Ended March 191
+- 'Banks and Banking Business' (22): [Discount Rate in Tokyo and Osaka, 1915-1917]; Banking Statistics; [Bank Statistics, 1914–1917]; [Bank Balance Sheet Items, 1913–1917 (Continued)]
+- 'The Army, Navy and Aviation' (22): Statistics (1915); [Military Schools: Staff, Students, Graduates and ; [Siege Artillery Corps Distribution by Brigade Hea; Brigade Stationing of Field Artillery
+- 'Diplomacy' (37): List of Treaty Powers; [Reciprocal Protection of Industrial Property in C; Province of Fengtien; Province of Kirin (Southern Portion)
+- 'Trade' (26): Paid Up Capital of Sales Companies in 1913; New Enterprises in 1917; Companies Classified by Organization; General Statistics on Economic Corporations
+- 'Foreign Trade' (58): Items Affected by the War; Trade Between Japan Proper and Colonies; Japan's Trade With China; [Continued Row of Imports Table]
+- 'Agriculture' (57): [Gross Area of Arable Land in Japan Proper]; [Number of Families Engaged in Farming]; [Farming Families Classified by Subsidiary Occupat; [Farming Families Classified by Area Cultivated pe
+- 'Mines and Mining' (32): Distribution of Strata; [Mineral Production by Kind, 1913–1916]; Demand of Pig Iron and Steel; Production at Present and Prospective of Pig-iron 
+- 'The Japan Year-book' (6): [Petroleum Production by Classes]; [Capital Paid Up in Mining Companies by Groups, 19; [Leading Concessionaires of Mines, 1914]; [Petroleum Production by Classes]
+- 'Fishery' (10): Fishing Boats (1916); Fishing Population (1916); Accidents to Fishing Boats and Casualties of Fishe; Catches and Marine Production
+- 'Forestry' (14): [Area of Forests by Ownership, End of March 1912–1; [Prefectures Containing Not Less Than 500,000 Cho ; Forest Yield of Principal Timbers, Japan Proper (1; Financial Yield of Forests (Dec. 1915)
+- 'Industry' (50): [Data on Manufacturing Companies, 1912-1916]; [Industrial Companies by Kind, with Number, Paid-u; [Number of Companies and Capital by District]; Factories and Employees
+- 'Finance' (66): Budget for the Year 1918-19; [Revenue Estimate, Actual Yield and Increase, 1917; [Taxes, Excises and Other Revenue Items, 1917-18]; The 1918-19 Budget Revenues
+- 'State Monopolies and Undertakings' (4): Tobacco Leaf; Salt; Camphor; Profit and Loss Account (Yen)
+- 'Politics' (16): The Terauchi Cabinet (created Oct., 1916); Cabinet Ministries Since the Inception 1885; [Cabinet Ministers by Portfolio, 1896–1914 (Contin; [Composition of the House of Peers, Dec. 25th, 191
+- 'Local Administration' (4): Composition of Prefectures; Cities and Mayors; Composition of [?]; [Cities and Their Mayors]
+- 'Civil and Military Service' (32): Shin-nin Rank; Chokunin Rank; Diplomatic and Consular Service; [Consular Salaries]
+- 'Chosen (korea)' (35): Meteorological Observation (Average Record); Rainfalls and Snowfalls & No. of Days Thereof; Native Population; [Japanese Residents in Korea, 1912–1915]
+- 'Taiwan (formosa)' (19): Record of Raid by the Aborigines; Revenue and Expenditure; Education (March, 1915); Justice
+- 'Karafuto (Saghalien)' (3): Budget Estimates of Karafuto for the Fiscal Year 1; Budget Estimates of Karafuto for the Fiscal Year 1; [Catches and Marine Products in Karafuto, 1912–191
+- 'South Manchuria' (11): [Population of Kwantung Province, 1916]; [South Manchuria Population at End of 1915, Railwa; Three Principal Cities at the End of 1915; Budgets for 1918-19 (in ¥ 1,000)
+- 'Japan and the European War' (1): [Disbursements by Japan to the Allies]
+
+## japan-1919-20: chapters (table count; sample titles)
+- 'Weights, Measures and Moneys' (5): Distance and Length; Land Measures; Quantity, Capacity and Cubic Measures; Weights
+- 'Geography' (9): [Coast Line, Area and Percentage of Area of Japane; [Principal Mountain Peaks Measuring above 8,000 Fe; [Principal Rivers with Navigable Length above 70 r; Harbors Open to Foreign Steamers
+- 'Outline of Japanese History' (8): List of Mikados in Alphabetical Order; [List of the Mikados and Their Reigns]; List of the Shoguns and the Regents (Shikken); List of Japanese "Year-Names"
+- 'Earthquakes, Volcanoes and Mineral Springs' (1): [Mineral Springs in Japan by Kind and Region]
+- 'Population' (20): Population in Japan Proper — Returns "Legal" Popul; Population by Ages and Sexes; Married and Unmarried; [Ratios of Married and Unmarried Numbers]
+- 'Arts and Crafts' (2): [National Art Exhibition Submissions, Committee Ex; Shrines and Priests
+- 'Religions and Religious Work' (3): Buddhist Temples and Priests; [Priests by Sect, 1915–1916]; Statistics of Christian Churches in Japan for 1917
+- 'Charity and Relief' (4): Relief Fund; [Outlay for Paupers, Foundlings and Sick Traveller; [Charitable Institutions and Relief Works at End o; [Inmates of Government and Private Leper Hospitals
+- 'Education' (45): General Statistics on Educational Institutions in ; Foreign Instructors at the Institutions under Dire; Number of Children of School Age under Obligation ; Percentage Attending School
+- 'The Japan Year-book' (4): [School Fees Collected and Pupils Paying, 1914-15 ; Blind, Deaf and Dumb of School-Age; Steel Materials; Annual Output at Leading Foundries in Japan Proper
+- 'Justice, Prisons, Police and Sanitation' (37): [Costs of First Instance in Civil Procedure]; Composition of Courts at End of 1917; Number of Civil Cases During 1917; Civil Cases Disposed Of
+- 'Social Politics and Labor Problems' (19): Mutual Aid Associations of Workmen in Five Governm; Data of Mutual Aid Societies of the Five Establish; Living Expenses of Workpeople and Petty Salary Men; [Cost of Living Compared, Feb. 1918 and June 1914]
+- 'Women Problem' (1): [Marriage Record of Alumni of the Tokyo Higher Wom
+- 'Press and Publication' (7): Press Statistics; Periodicals Published in Tokyo; [Output of Books, 1913-1917]; [Annual Average Sale of Publications, 1910-14]
+- 'Sports and Amusements' (3): [Famous Wrestlers of Tokyo]; The Athletic Record in Japan; [Japan Alps Peaks, Heights and Nearest Railway Sta
+- 'Public Works' (5): [Cost of Works Undertaken by Different Finances, 1; Principal Harbor-Works; [Classification of Flood Prevention Expenses, 1911; Damage from Floods, Tidal Waves and Typhoons, 1912
+- 'Communications' (24): [Length of Telegraph and Telephone Lines at End of; [Wireless Shore Stations of Japan]; [Wireless Shore Stations (Continued)]; Number of Telephone Apparatus
+- 'Railways' (32): [Rates of Profit from Railway Working, 1913–14 to ; General Statistics on Railways; [State and Private Railway Capital and Profit, Yea; The Ten Year Result of the Nationalization
+- 'Mercantile Marine' (30): Number of Registered Vessels Classified by Tonnage; Registered Steamers Classified by Age (Dec. 1917); Registered Steamers Classified by Materials (Dec. ; Steamers Classified by Speed (1918)
+- 'Insurance' (11): Mortality Rate of Assured in Japan and England Per; Rates in Tokyo, %; [Fire Insurance Tariff Rates (Continued)]; Statistics of Insurance Companies
+- 'Banks and Banking Business' (21): [Discount Rates in Tokyo and Osaka, 1916-1918]; [Banking Business in Japan Proper, 1913–1917]; [Banking Business in Japan Proper, Loans, Bills an; [Loans, Bills Discounted and Cash Account of Banks
+- 'The Army, Navy and Aviation' (24): Statistics (1918); Under Control of Brigade Headquarters at Yokosuka; Under Control of Brigade Headquarters at Shimonose; [Field Artillery Brigades and Their Stations]
+- 'Diplomacy' (38): List of Treaty Powers; Reciprocal Protection of Industrial Property in Ch; Province of Fengtien; Province of Kirin (Southern Portion)
+- 'Trade' (47): [Companies by Industry, 1917]; Companies Classified by Organization; General Statistics on Economic Corporations; [Industries, Trade, Transportation and Total, 1914
+- 'Foreign Trade' (57): Items Affected by the War; Trade Between Japan Proper and Colonies; Japan's Trade With China; Exports and Imports of Commodities
+- 'Agriculture' (35): Gross Area of Arable Land in Japan Proper; Numbers of Families Engaged in Farming; [Farming Families Rearranged by Subsidiary Occupat; [Farming Families Classified by Area Cultivated pe
+- 'Mines and Mining' (19): Distribution of Strata; [Output of Metals and Minerals, 1913–1917]; Demand of Pig Iron and Steel; Production at Present and Prospective of Pig-Iron 
+- 'Fishery' (8): Accidents to Fishing Boats and Casualties of Fishe; Catches and Marine Production; Principal Catches; Principal Marine Products
+- 'Forestry' (16): [Forest Area of Japan Proper by Ownership, End of ; [Forest Area by Prefecture]; [Forest Yield of Principal Timbers in Japan Proper; Financial Yield of Forests (Dec. 1917)
+- 'Industry' (52): [Manufacturing Companies, 1913–1917]; [Principal Kinds of Industries and Capital Investe; Distribution of Industries; Factories and Employees
+- 'Finance' (70): Budget for the Year 1919-20; Record Revenue in 1918-19; Taxes, Excises, Etc.; [Taxes, Excises, Etc. (Continued)]
+- 'Politics' (19): The Hara (Seiyu-kai) Cabinet (created Sept., 1918); Cabinet Changes since 1885; Cabinets of Japan, 1896–1914 (Continued); Terauchi (Oct. 1918)
+- 'Local Government' (3): Composition of Prefectures; [Prefectural Assemblies — Continued Table]; Cities and Mayors
+- 'Civil and Military Service' (48): Shin-nin Rank; Cholu-nin Rank; Diplomatic and Consular Service; [Consul Salaries]
+- 'Chosen (korea)' (36): Temperature; Weather Condition in the Year; Dates of Early and Late Frost and Snow; Native Population
+- 'Taiwan (formosa)' (30): Temperature; Rainfalls; Numbers of Days of Rainfall; Population
+- 'Karafuto (saghalien)' (2): Estimates for the Island of Karafuto for the Fisca; [Catches and Marine Products in Karafuto, 1915–191
+- 'South Manchuria' (12): [Population of South Manchuria, 1916]; [Population Including Railway Zone, End of 1916]; Three Principal Cities at the End of 1916; Budgets for 1919-20
+- 'Siberian Expedition' (1): Troops Despatched by Allies
+
+## japan-1923: chapters (table count; sample titles)
+- 'Additions' (8): Estimates for 1923-24 in ¥1,000; Limitation Curtailment; Continuation Military Expenditure Curtailed; Administrative Adjustment
+- 'Weights, Measures and Moneys' (5): Distance and Length; Land Measures; Quantity, Capacity and Cubic Measures; Weights
+- 'Geography' (16): [Area and Coast Line of Japan's Territory by Regio; Principal Mountain Peaks Measuring Above 8,000 Fee; [Principal Rivers of Japan]; Circumference
+- 'Earthquakes, Volcanoes and Mineral Springs' (5): [Principal Earthquakes and Tidal Waves, 1605–1855]; [Principal Earthquakes and Tidal Waves, 1891–1914]; Hot Springs; List of Popular Hot Spring Resorts
+- 'Population' (16): Population in Japan Proper; Population by Ages and Sexes; Married and Unmarried; [Married and Unmarried Ratio per 100 Population]
+- 'Imperial Court' (2): Holders of Decorations; [Number of Peers, Dec. 31, 1920]
+- 'Politics & Local Government' (16): Cabinet Changes Since 1885; [Cabinet Ministers by Premier, 2nd Matsukata to 1s; [Cabinet Ministers by Premier, 1st Saionji to 2nd ; Hara (Oct. 1918)
+- 'Civil and Military Service' (19): Shin-nin Rank; Choku-nin Rank; [So-nin and Han-nin Ranks, New Scale]; Diplomatic and Consular Service
+- 'Diplomacy' (12): [Foreign Legations in Tokyo: Staff and Addresses]; [Foreign Legations in Japan]; Foreign Consulates in Japan; [Foreign Consular Representatives in Japan and Kor
+- 'The Army, Navy and Aviation' (30): [Eyesight, Trachoma and Venereal Disease Among Con; No. of Officers on Active List; Statistics (Dec. 1919); [Special Corps Schools Figures]
+- 'Charity and Relief' (7): [Rice Relief Rates for Decrepit, Infant and Invali; [Paupers, Foundlings and Sick Travellers Relieved ; [Relief Work Given, Years Ended March 1917–1919]; [Eleemosynary Work Summarised, Year Ending March 1
+- 'Education' (61): General Statistics of Educational Institutions in ; Foreign Instructors at the Institutions under Dire; General Statistics of Elementary Schools (Mar. 192; [Teachers, Pupils and Graduates of Schools]
+- 'Labor and Social Problems' (20): [Labor Unions by Occupation, January 1921]; [Mutual Aid Associations of Workmen: Membership an; [Relief Payments of Mutual Aid Associations]; [Factory Workers by Age and Sex, 1920]
+- "Women's Problem" (3): Female Teachers in Elementary & Girls' High School; Monthly Earnings of Occupational Women in Tokyo; Alumnae Marriage Record of the Tokyo Women's Highe
+- 'Justice, Prisons and Police' (32): Costs of First Instance; Composition of Courts at End of 1921; Number of Civil Cases in 1920; Civil Cases Disposed Of
+- 'Medicine and Sanitation' (6): [Medical Practitioners, Dentists, Pharmacists and ; [Public Hospitals, 1920]; [Refuse Collected in Six Cities]; Epidemic Mortality
+- 'Press and Publication' (3): [Publication Statistics, 1917–1921]; Western Books in Customs Returns; Epochs in Japanese Art
+- 'Arts and Crafts' (1): [Number of Works Submitted and Exhibits Selected, 
+- 'Sports' (22): [Famous Wrestlers of Tokyo]; All Subscription Australian Races; N.R.C. Subscription Country Bred Griffin Races; All Subscription Country-Bred Races
+- 'Amusements' (2): [Tokyo Theatres: Days Open and Tickets Sold]; [Cinema-hall Statistics, Latest Available Figures]
+- 'Public Works' (9): [Public Works Expenditure by Works, 1915 and 1916]; [Public Works Expenditure by Administrative Body, ; [Annual Expenditure on Roads and Bridges, 1907–'17; [Flood Damage and Repair Costs, 1916-1919]
+- 'Post, Telegraph & Telephone' (20): Telegraph and Telephone Service; Number of Telephone Apparatuses; Post and Telegraph Offices; Ordinary Mail Matters
+- 'Railways' (31): [Rate of Profit from Railway Working, 1916-17 to 1; Railway Mileage Open to Traffic; Capital, Profit and Reserves of State and Private ; Staff of the Government Railways on March 31st, 19
+- 'Shipping and Shipbuilding' (26): Number of Registered Vessels Classified by Tonnage; Tonnage Registered in Kwantung, Korea and Formosa; Licensed Seamen of Higher Grade; Pilots
+- 'Patents, Designs, Trade-marks and Utility Models' (5): Fee for Extended Patent; Registration of Patent Right; Registration of Designs; Registration of Trade-Marks
+- 'Insurance' (9): [Statistics of Insurance Companies by Class of Bus; [Minor Insurance Businesses: Engine & Boiler, Auto; Life Insurance Companies (Year Ended March 31st 19; Property Insurance Companies (Year Ended March 31s
+- 'Banks and Banking Business' (29): [Exchange Firms and Brokerage in Tokyo, Yokohama, ; [Volume of Transactions by Japanese Banks, 1919–19; [Banks in Japan: Number, Capital, Reserves, Deposi; [Loans, Deposits, Bonds and Cash of Banks, 1919–19
+- 'Finance' (63): [Revenue and Expenditure Before and After the War]; General Budget for 1922-23 as Passed by the 45th S; No. 2 (for the Entertainment of the Prince of Wale; No. 4 (for South Sea Islands Administration Office
+- 'Agriculture' (42): Taxable & Private Owned Land; [Taxable Land to Gross Area and Per Capita Rate of; [Area of Arable Land in Japan Proper]; [Number of Families Engaged in Farming]
+- 'Forestry' (7): Area of Forests; Yield of Forests in Yen (Dec. 1920); [State Forest Receipts, Expenses and Balance, 1917; [Forest Yield of Principal Timbers, 1920]
+- 'Fishery' (7): Catches and Marine Production; Principal Catches; Principal Marine Products; Export of Fish and Marine Products
+- 'Mines and Mining' (18): Distribution of Strata; [Mineral Production, 1917-1921]; [Copper Production, Import, Export, Consumption an; Principal Metal Mines (in 1920)
+- 'Industry' (92): [Factories Employing Over 5 Operatives, 1914–1921]; [Factories by Nature of Industry, 1921]; [Engines Used in Factories, Development of Motive ; [Average Annual Output of Cotton Yarn by Count Gra
+- 'Trade' (26): [Main Features of Sales Business in 1920]; Business Promotion in 1922; Companies Classified by Organization (End, 1920); [Number, Paid-up Capital and Reserves of Companies
+- 'Foreign Trade' (47): [Comparative Exports, Imports and Total Trade, 192; [Comparative Imports, Exports and Excess of Trade,; Movement of Important Items; Trade Between Japan Proper and Colonies
+- 'Six Premier Cities' (20): [Revenue and Expenditure of the Municipality of To; [Tokyo Municipal Rates and Special Taxes, 1920–192; [Revenue and Expenditure of General Account and Tw; [Allotment of Road Improvement Scheme Funds, 1920-
+- 'Chosen (korea)' (31): Temperature; Weather Condition in the Year; [Early and Late Frost and Snow Dates]; Native Population
+- 'Taiwan (formosa)' (29): Temperature (1920); Rainfalls (1920); Number of Days of Rainfall (1920); Population
+- 'Karafuto (saghalien)' (4): Estimates for the Island of Karafuto, 1922-23 and ; [Karafuto Government Revenue and Expenditure Summa; [Marine Products Catches and Output, 1919–1921]; [Railway Traffic Results]
+- 'South Manchuria' (13): [Population of the Leased Territory, 1921]; [Inhabitants of the Railway Zone at the End of 192; Three Principal Cities at the End of 1921; Budget for 1922-23 and 1923-24
+- 'Bibliography' (1): Railway Dept.—Official Guide-Book to Eastern Asia 
+
+## japan-1924-25: chapters (table count; sample titles)
+- 'Weights, Measures and Moneys' (10): Distance and Length; Land Measures; Quantity, Capacity and Cubic Measures; Capacity and Cubic Measures of Other Units
+- 'Geography' (14): [Principal Rivers of Japan]; Circumference; Harbors Open to Foreign Steamers; Average Temperature
+- 'Earthquakes, Volcanoes and Mineral Springs' (6): [Principal Calamities Since 1605]; [Later Major Earthquakes With Houses Destroyed, De; Hot Springs; List of Popular Hot Spring Resorts
+- 'Population' (17): Population in Japan Proper; Population by Ages and Sexes (Dec. 31, 1918); Married and Unmarried; [Ratios of Married and Unmarried per 1,000 Populat
+- 'Imperial Court' (2): Holders of Decorations (Dec. 31, 1920); [Number of Peers, October 30, 1923]
+- 'Politics & Local Government' (17): Cabinet Changes Since 1885; [Successive Cabinets and Their Ministers (Continue; [Successive Cabinets and Their Ministers (Continue; [Successive Cabinets and Their Ministers (Continue
+- 'Civil and Military Service' (23): Shin-nin Rank; Chokunin Rank; [New Scale of Salaries for So-nin and Han-nin Rank; Diplomatic and Consular Service
+- 'Diplomacy' (19): Netherlands; Mexico; Norway; Peru
+- 'The Army, Navy and Aviation' (38): [Conscripts by Stature Group, with Trachoma and Ve; No. of Officers on Active List; Statistics (Dec. 1922); [Military Schools Statistics, Continued]
+- 'Charity and Relief' (7): Rates of Rice Relief for Paupers; Paupers, Foundlings and Sick Travellers Attended t; [Relief Given by Year, 1917–1919]; Eleemosynary Work Summarised
+- 'Education' (58): General Statistics of Educational Institutions in ; Foreign Instructors at the Institutions under Dire; General Statistics of Elementary Schools (Mar. 192; [Teachers, Pupils and Graduates in Schools]
+- 'Labor and Social Problems' (22): [Representative Labor Unions With More Than 1,000 ; Mutual Aid Associations of Workmen; [Mutual Aid Society Payments by Category]; [Factory Workers by Age Group and Sex, 1920]
+- 'Women Problem' (3): Female Teachers in Elementary & Girls' High School; Monthly Earnings of Occupational Women in Tokyo; [Alumnae Marriage Record of the Tokyo Women's High
+- 'Justice, Prisons and Police' (34): Costs of First Instance in Civil Procedure; Composition of Courts at End of 1921; Number of Civil Cases in 1920; Civil Cases Disposed Of
+- 'Medicine and Sanitation' (6): [Dentists, Pharmacists, Midwives, Nurses and Acupu; [Hospitals in Japan, 1920]; [Refuse Collected in Six Cities]; Epidemic Mortality
+- 'Press and Publication' (3): [Number of Books Published, 1917–1921]; [Imports of Foreign Books by Country, 1913–1922]; Epochs in Japanese Art
+- 'Arts and Crafts' (1): [Works Submitted and Exhibits Selected]
+- 'Sports' (21): [Famous Wrestlers of Tokyo]; All Subscription Australian Races; N.R.C. Subscription Country Bred Griffin Races; All Subscription Country-Bred Races
+- 'Amusements' (2): Latest Figures for Tokyo Theatres; [Cinema-halls: Latest Available Figures]
+- 'Public Works' (9): [Public Works Expenditure by Works, 1915 and 1916]; [Public Works Expenditure by Authority, 1915 and 1; [Average Annual Expenditure on Roads and Bridges, ; [Damage Caused by Floods, 1916-1919]
+- 'Post, Telegraph & Telephone' (24): Telegraph and Telephone Service; [Wireless Message Fees]; Number of Telephone Apparatuses; Post and Telegraph Offices
+- 'Railways' (33): [Rate of Profit Accruing from Railway Working, 191; Railway Mileage Open to Traffic; [Capital, Profit and Reserves of State and Private; [Staff of the Government Railways on March 31st, 1
+- 'Shipping and Shipbuilding' (26): Number of Registered Vessels Classified by Tonnage; Tonnage Registered in Kwantung, Korea and Formosa; Licensed Seamen of Higher Grade; Pilots
+- 'Patents, Designs, Trade-marks and Utility Models' (5): [Fee for Extended Patent]; Registration of Patent Right; Registration of Designs; Registration of Trade-Marks
+- 'Insurance' (7): Life Insurance; Leading Life Insurance Cos. (1921 for Chohei); Conscription; Post Life Insurance
+- 'Usiness,—also Marine' (2): Marine Business of Leading Companies; Amount of Issue of the Three Banks
+- 'Banks and Banking Business' (27): Banks' Selling T. T. Rate; Banks in Japan Proper, Including Branch Office of ; [Balance of Loans, Deposits, Bonds and Cash Accoun; [Ordinary Loans and Loans on Immovables, 1918–1921
+- 'Finance' (55): [Working Budget for 1924-25: Revenue and Expenditu; [Reconstruction Appropriations in the Extraordinar; No. 1 Supplementary Budget; No. 2 Supplementary Budget
+- 'Agriculture' (41): Taxable & Private Owned Land; [Percentage of Taxable Land and Per Capita Rate of; Area of Arable Land in Japan Proper; Number of Families Engaged in Farming
+- 'Forestry' (7): [Area of Forests by Ownership, 1915–1920]; Yield of Forests in Yen (Dec. 1920); [State Forests Receipts, Expenses and Balance, 191; Forest Yield of Principal Timbers in Japan Proper,
+- 'Fishery' (8): Catches and Marine Production; Principal Catches; Principal Marine Products; [Fishery Products Output, 1920–1921]
+- 'Mines and Mining' (20): Distribution of Strata; [Gold, Silver, Copper and Lead Production]; [Iron, Iron Pyrite, Antimony and Manganese Product; [Coal, Sulphur, Petroleum and Total Mining Value]
+- 'Industry' (91): [Factories Employing Over 5 Operatives, 1914-1921]; [Factories Run by Motive and Manual Power and Empl; [Motive Powers Classified by Kind of Engine, 1921]; [Yarn Output by Count Grade]
+- 'Trade' (27): [Main Features of Sales Business for 1920]; [Business Promotion in 1923 by Business]; Companies Classified by Organization (End, 1921); [Companies by Industry, 1919–1921]
+- 'Foreign Trade' (57): [Comparison of Old and New Duties on Luxury Articl; [Silk and Mixed Fabric Duty Rates (continued)]; Movement of Important Items; Trade Between Japan Proper and Colonies
+- 'Six Premier Cities' (21): [Tokyo Municipal Revenue and Expenditure, Years En; [Tokyo Municipal Taxes, 1921-1923]; Revenue and Expenditure of the General Account and; [Allotments of Road Improvement Funds, 1920-1926]
+- 'Chosen (korea)' (29): Weather Condition in the Year; Native Population; Births and Still-births; Deaths, Marriages and Divorces
+- 'Taiwan (formosa)' (29): Temperature (1923); Rainfall (1923); Number of Days of Rainfall; Population
+- 'Karafuto (Saghalien)' (4): Budget; [Karafuto Government Expenditure, 1922–'23 and 192; [Catches and Manufactures of Karafuto, 1920–1922]; [Light Railway Traffic and Working Results, Years 
+- 'South Manchuria' (13): [Population of South Manchuria, 1921]; [Inhabitants of the Railway Zone at End of 1921]; Three Principal Cities at the End of 1921; Budget for 1922-23 and 1923-24
+- 'The Great Earthquake' (1): [Number of After-Shocks Felt in Tokyo, September–O
+- 'The Destruction of Life and Property' (1): [Noted Fatal Earthquakes of the Past]
+- 'The Destruction of Life, Etc' (3): [Casualties of the September 1 Earthquake by Place; [Foreign Sufferers in Tokyo and Yokohama]; [Estimated Material Losses of Private Property in 
+- 'Damage to Public Works' (1): [Amount of Damage to Public Works in the Devastate
+- 'Architecture' (1): [Values of K in Tokyo and Adjoining Places]
+- 'Relief Measures' (18): Relief Funds Received by June 30th, 1924; Foreign Donations in Cash Classified according to ; [Foreign Relief Contributions by Country]; [Disbursements of Relief Funds Up to the End of Ju
+- 'The Army and Navy' (6): [Roads Cleared and Bridges Repaired after the Eart; [Railway Lines Reconstructed After the Earthquake]; [Staff of the City Planning Bureau]; Roads in the City of Tokyo
+- 'Reconstruction of Tokyo' (13): [Estimate of Reconstruction Work by Tokyo Municipa; [Tokyo Reconstruction Project Costs by Facility]; [Restoration Works Expenditure Estimates (Continue; [Restoration Works Undertaken Independently by Tok
+- 'Reconstruction of Yokohama' (3): [Existing and Projected Streets of Yokohama]; [Existing and Projected Parks of Yokohama]; Estimate of Expenditure for 18 Months' Supply
+- 'Reconstruction Materials' (6): [Summary of Reconstruction Materials Estimate]; Estimate for the Purchase of Goods and Materials; Estimate of the Sale of Goods and Materials; [Iron and Steel Materials Required for Reconstruct
+- 'Earthquake and "sympathy Payments"' (7): For the Whole Country; For the Affected Districts; Later Figures of Earthquake Loss and Percentage of; [Percentage of Damage by Prefecture]
+- 'Earthquake and Finance' (21): [Emergency Earthquake Expenditure]; [Estimated Revenue Shortfall for Fiscal Year 1924–; Revised Budget for Fiscal Year 1923-24; Budget for the Year 1924–25
+- 'Disaster and Foreign Trade' (11): [Imports Admitted Duty Free under the Special Emer; [Imports of Principal Commodities]; Luxurious Tariff List; [Tariff Classification Items: Paper, Stones and Po
+- 'Earthquake and the Money Market' (4): Loans as Shown in the Bank of Japan's Weekly Bulle; Volume of Convertible Notes Issued; Loan Account; Rates of Interest on Debentures
+- 'Earthquake and Economic Restoration' (12): [Profit Percentage by Kind of Enterprise]; [Loans of Government Funds Advanced by the Hypothe; [Hypothec Bank Debentures, Loans and Reconstructio; [Spinning Companies: Pre-quake and Restored Equipm
+- 'Sanitation and Medical Service' (5): Consulting Dispensaries; Hospital Accommodation in Tokyo Prefecture; [Epidemic Cases in Tokyo and Kanagawa Prefectures ; [Epidemic Cases Among Inmates of Temporary Sheds a
+- 'Communications and Transportation' (8): [Progress of Telephone Restoration in Tokyo]; [Progress of Telephone Restoration in Yokohama]; Tracks and Structures; Rolling Stock
+- 'Imperial Edicts and Emergency Legislation' (7): Schedule of Articles Exempted; [Schedule of Articles Listed by Tariff Item Number; [Tariff Items Exempted or Reduced Under Imperial O; [Income Tax Remission for Damage to Residence or H
+
+## japan-1937: chapters (table count; sample titles)
+- 'Front Matter' (13): Weights; Measures of Length; Measures of Surface; Measures of Capacity
+- 'I. Geography' (16): [Area of Prefectures]; Meteorological Observations; Meteorological Observations; [Areas of Rocks of Different Geological Eras in Ja
+- 'II. Population' (40): [Population Increase by Decade]; Families by Size 1920 and 1930; According to the Census of October 1, 1930; According to the Census of October 1, 1935
+- 'IV. Government' (4): Family Status; Premiers Since 1885; [Number and Total Amount of Salaries Paid to Civil; Fixed Number of Lower House Representatives and Nu
+- 'V. Parties and Politics' (21): [Age Distribution of Members of the First House of; [Classification of Members of the Lower House, 191; [Result of the General Election of May 10, 1920]; [Line-up in the Houses of the 64th Session of the 
+- 'VI. Foreign Relations' (8): [Customs Duty Rates on Japanese Cotton Piece-Goods; List of Envoys; Foreign Envoys to Japan; [Foreign Legations in Japan — Representatives and 
+- 'VII. National Defence' (46): [Medical Classes and Allocated Service]; [Results of Medical Examination for Conscription, ; [Average Height and Weight of Conscripts, 1928–193; [Grades of Education Attained by Men Examined for 
+- 'VIII. Public Finance' (130): [Allocation of the War Indemnity Funds]; Yearly Comparison of Revenue and Expenditure, Nati; Yearly Comparison of Per Capita National Expenditu; Yearly Comparison of Revenue and Expenditure of Lo
+- 'IX. Banking and the Money Market' (61): [Interest Rates for Loans by Member Banks of the T; [Deposits of Banking Organs at End of 1936]; [Increase in Deposits by Banking Organs in 1936]; Balance on Hand at Year-End
+- 'X. Home Trade and Commerce' (123): [Number of Companies, 1925-1935]; Goshi Kaisha; Kabushiki Kaisha; Goshi Kaisha
+- 'XI. Foreign Trade' (59): Exports of Japan Proper; Exports of Overseas Territories; Imports of Japan Proper; Imports of Overseas Territories
+- 'XII. Insurance' (29): Life Insurance Contracts During Past 10 Years; [Life Insurance Net Increase, Year-End Contracts, ; [Business Expenditure as Percentage of Premiums Re; [Grand Total of Insurance Business, Business Years
+- 'XIII. Agriculture' (40): Farm Households; Owners of Arable-Lands; Arable Lands; Production by Farmers in 1935
+- 'XIV. Sericulture and Raw Silk' (20): Production of Silkworm Eggs; Cost of Cocoon Production; [Cocoon Prices, 1932–1937]; Cocoon Production in 1930-1935
+- 'XV. Fisheries' (39): [Whaling Results of Four Prominent Whaling Countri; [Canned Fish and Crab Production, 1936 and 1935]; Number of Persons Engaged in Various Branches of t; Number of Persons Classified According to Employer
+- 'XVI. Forestry' (18): Area of Forests, Bamboo Groves and Wild Lands in J; [Growing Timber in Japan Proper by Ownership, 1933; Standing Timber in Hokkaido, Formosa, Korea and Sa; Total Stand of Timber in Japan in 1933
+- 'XVII. Mining' (33): Number of Mine-lots Operated and Their Area; Number of Mine-lots Prospected and Their Areas; Number of Mine-lots Prospected and Their Areas; Number of Mine-lots Operated and Their Areas
+- 'XVIII. The Textile Industry' (37): [Number of Operatives by Kind of Industry, 1934 an; Spinners' Capital and Equipment; Raw Cotton Imports; Consumption of Cotton
+- 'XIX. Machinery and Engineering' (37): [Production Value of Machinery Industry, 1932–1936; [Production of the Big Seven Machinery Companies, ; [Fixed Capital of Principal Companies, Half-yearly; [Fixed Capital of Individual Companies, First Half
+- 'XX. Utilities' (24): Total Volume of Electric Power Generated for Light; Growth of Demand for Power for Lighting; Electric Lighting in Various Prefectures at the En; Amount of Electric Power Consumed by Various Kinds
+- 'XXI. Foodstuffs' (16): Production of Domestic Wheat and Its Acreage; Quantities of Wheat Imported; Exports of Wheat Flour; Flour Production, Consumption, Etc
+- 'XXII. Miscellaneous Industries' (33): Production of Paper Since 1925; Production of Paper Since 1925 (Other Paper Types); Production of Paper Since 1925 (Minogami, Torinoko; Production of Cellophane
+- 'XXIII. Miscellaneous Industries (Continued)' (30): [Record Production Demand by Industry]; Price Per 100 Kilograms; [Business Conditions of the Soda Companies, 1934–1; Production and Imports of Soda Ash
+- 'XXIV. Communications' (40): [Number of Post Offices, 1871–1882]; [Number of Post Offices in Japan Proper, 1927–1936; Number of Post Offices (September 30, 1936); Volume of Mail Matter Handled in Japan Proper
+- 'XXV. Land and Air Transportation' (29): [Goods and Passengers Carried by the State Railway; State Lines Open in 1934; [State Railway Revenue and Expenditure, 1926-27 to; [State Railway Capital, Stores and Construction Ac
+- 'XXVI. Sea Transportation' (22): Balance of Japan's International Payments Through ; Ordinary Accounts of 1935 Invisible Foreign Trade; Receipts in Connection with Shipping; [Receipts and Payments in Connection with Shipping
+- 'XXVII. Justice and Police' (25): Number of Courts (June, 1936); Number of Civil Cases Handled at Courts in 1934; Number of Criminal Cases Handled in 1930—1934; Criminals Sentenced in the First Instance, Japan P
+- 'XXVIII. Education' (46): Schools and Students in Japan Proper, 1931–1935; Schools and Students in Japan Proper by Types, Mar; [Schools and Students in Various Kinds of Educatio; [School-age Children and School Attendance, 1931-1
+- 'XXIX. Religion' (4): [Number of Shrines at the End of 1934]; Sectarian Shinto; Buddhism; Christianity
+- 'XXX. Social Problems and Social Works' (20): Conditions of the Work of the Block Committee; Number of families and their members in cities, to; Estimated Expenditure of the Social Bureau; [Children Protected by the Law, 1934–1935]
+- 'XXXI. Labour and Labour Movements' (75): [Workers by Industry, Sex and Number]; Age Distribution; Comparison of Index Numbers of Labourers in 1935 a; Unemployment by Kinds of Labour
+- 'XXXII. Medicine and Sanitation' (37): [Refuse Removal and Sanitary Statistics, 1935]; [Animals Slaughtered for Food, 1935]; [Weight of Meat from Slaughtered Animals, 1935]; [Meat Inspected and Condemned, 1935]
+- 'XXXIII. Progress of Science' (8): [Contact Times of the Total Solar Eclipse, 1936]; [Optical Parts of the Spectrograph]; [Unidentified Lines in the Chromospheric Spectrum]; [Exposures for the Corona]
+- 'XXXIV. Press and Publications' (14): [Lines of Foreign News in Five Large Tokyo Dailies; [Newspapers Classified by Prefecture]; Increase or Decrease; Estimated Circulation
+- 'XXXV. Literature, Arts and Music' (3): The 1935-36 Exhibitions; [Teiten Exhibition Results, 1936]; [First Education Ministry (Bunten) Exhibition Work
+- 'XXXVI. Sports' (45): Baseball; Basketball; Volleyball; Football
+- 'XXXVII. Amusements and Calendar of Annual Events' (5): Home and Imported Films Inspected in 1934; [Percentage of Listeners Preferring Each Radio Pro; [Percentage of Listeners Preferring News and Educa; [Names and Locations of Eleven Permitted Race Club
+- 'XXXVIII. Tokyo' (24): [Land Ownership in Tokyo]; Retail Price Index Number in Tokyo; Wholesale Price Index Number; Factories and Operatives in Tokyo
+- 'XXXIX. Five Big Cities' (40): [Principal Industries of Osaka]; Principal Incoming & Outgoing Commodities; Foreign Trade of Osaka, 1936; [Factories and Production of Kyoto, 1935]
+- 'XL. Chosen (Korea)' (37): Population of Chosen; Population According to Occupation; Budgets 1911—1936; Budget for 1936-1937
+- 'XLI. Taiwan (Formosa)' (37): [Takao Province Area, Population and Administrativ; [Aboriginal Population of Taiwan by Tribes, 1934 a; [Educational Expenses, 1930–1935]; [Cultivated Area of Taiwan, 1900–1935]
+- 'XLII. Karafuto (Saghalien)' (21): Revenues; Military Training Camps; [Overseas Trade by Destination, 1927–1935]; Shipments to and from Japan Proper
+- "XLIII. South Sea Islands Under Japan's Mandate" (109): Density of Population; Number of Households; Population by Groups; Yearly Increase of Population
+- 'Appendix' (23): List of Emperors; Schedule; [Part I Items Excepted from the Chinese Customs Im; Part II
+
+## japan-1942-43: chapters (table count; sample titles)
+- 'Front Matter' (16): Weights; Measures of Length; Measures of Surface; Measures of Capacity
+- 'I. Geography' (10): [Prefectures by Area and Percentage of Total]; [Areas of Rocks of Different Geological Eras in Ja; Mountains; Other Famous Mountains (Below 2,500 m.)
+- 'II. Population' (36): [Population by Region, Census of 1920 (Continued)]; According to the Census of October 1, 1935; According to the Census of October 1, 1940; Population in Occupied Territories
+- 'IV. Government' (45): Ito Cabinet (First); Kuroda Cabinet; Matsukata Cabinet (First); Ito Cabinet (Second)
+- 'V. Parties and Politics' (12): [Classification of Members of the Lower House, 191; [Results of the General Election of May 10, 1920]; [Membership of the House of Peers and House of Rep; [Strength of Political Parties at Dissolution of t
+- 'VII. National Defense (Section I)' (8): [Medical Classes and Corresponding Military Servic; [Army Units and Their Strength]; Flying Schools; [Naval Officers on the Active List by Rank, End of
+- 'VIII. Public Finance' (84): [Revenue, 1936-37 to 1941-42]; Expenditure; Supplementary Budget for 1941-42 (General Account); Supplementary Budget for 1941-42 (Published on Nov
+- 'IX. Banking and the Money Market' (49): Deposits and Loans of the Banks; Deposits and Loans of the Banks; Principal Accounts of the Bank of Japan; Notes Issued, Deposits and Loans by Month (Continu
+- 'X. Commerce and Industry' (38): Index Number of Companies by Enterprise; Number, Capital and Business Conditions of Compani; Mining Companies; Industrial Companies
+- 'XI. Foreign Trade' (32): Foreign Trade of the Empire; Yearly Comparison of the Value of Exports and Impo; [Foreign Trade Exports, Imports and Totals, 1905–1; Rate of Trade Expansion of Japan Proper and Karafu
+- 'XII. Insurance' (23): Insurance Companies by Kinds 1934-1939; Business Conditions; Conditions of Business Earnings; Conditions of Business Earnings
+- 'XIII. Agriculture' (45): Farm Households in Japan Proper, 1935–1939; Owners of Arable-Lands; Arable Lands; Fluctuations of Prices of Farmland
+- 'XIV. Sericulture and Raw Silk' (18): Rice-Planted Areas; Rice Production; [Asia and World Totals, Continued]; Per-Hectare Production
+- 'XV. Fisheries' (30): Catches in Japan Proper; Number of Persons Engaged in Various Branches of t; Fishery Employers and Employees; [Number of Fishing Boats and Vessels, 1931-1939]
+- 'XVI. Forestry' (13): Area of Forests, Bamboo-Groves and Wild Lands in J; [Growing Timber in Japan Proper by Ownership, 1933; Standing Timber in Hokkaido, Taiwan, Chosen and Ka; Total Stand of Timber in Japan in 1933
+- 'XVII. Mining' (3): [Principal Zinc Mines and Places of Production]; Numbers of Operatives, Mills, Etc. in Textile Indu; [Operatives and Workers in Textile Industry, 1937 
+- 'XVIII. Textile Industry' (26): Business Conditions of Cotton Spinning Companies i; Spinners' Capital and Equipment; Production, Consumption, Imports and Exports of Co; Production of Cotton Yarns in Japan Proper
+- 'XIX. Machinery and Engineering' (19): Growth of Number of Operatives in Machinery Indust; Increase in Number of Machinery Factories; Expansion of Production in Machinery Industry; Number of Companies and Amount of Capital in Machi
+- 'XX. Public Utilities' (16): Power Supplying Companies; Profits of Electric Industry; Consumption of Electric Power by Industries; [Electric Companies Valued at Over ¥10,000,000]
+- 'XXI. Chemical Industry' (39): Production and Sale of Foreign Style Papers in the; Production of Paper Since 1930; Consumption of Foreign-Style Paper; Production of Cellophane
+- 'XXII. Miscellaneous Industries' (52): Quantities of Wheat Imported; Exports of Wheat Flour; Flour Production, Consumption, Etc.; Production of Sugar
+- 'XXIII. Communications' (22): [Number of Post Offices, 1871–1882]; [Number of Post Offices in Japan Proper, 1931–1940; Number of Post Offices (September 30, 1939); Volume of Mail Matter Handled in Japan Proper
+- 'XXIV. Land and Air Transportation' (10): [Earnings of State Railways from Traffic in Japan ; Indices of Car-loadings; [Capital Account Revenue and Expenditure, 1936-37 ; [Stores Account Receipts and Expenses, 1936-37 to 
+- 'XXV. Sea Transportation' (6): List of Large N.Y.K. Vessels; List of Large O.S.K. Ships; List of Kokusai Liners; Stocks in Warehouses in Japan Proper
+- 'XXVI. Labor and Labor Movements' (25): Industrial Statistics for 1939; [Aggregate Labor Hours, Total Wages and Per Hour W; Average Daily Wages of Laborers (In 13 Largest Cit; Average Daily Wages of Workers Employed in Transpo
+- 'XXVII. Justice and Police' (21): Number of Courts (October 1, 1941); Fixed Number of Judges and Procurators (November 2; [Judges and Court Staff by Court]; Number of Civil Cases Handled at Courts in 1940
+- 'XXVIII. Education' (39): Schools and Students in Japan Proper, 1935-1939; Schools and Students in Japan Proper by Type, Marc; Rate of Attendance; Elementary Schools in 1939
+- 'XXIX. Religion' (9): [Number of Shrines at the End of June 1941]; [Important Shrines (continued)]; Important Shrines; [Principal Sects of Shintoism]
+- 'XXX. Social Work' (11): Conditions of the Work of the Block Committee; Number of Poor Families and Their Members Which Ar; Relief of Mothers and Children; Pawners at the Public Pawnshops
+- 'XXXI. Medicine and Sanitation' (24): Manufacturers of Non-Alcoholic Drinks; Quantity of Non-Alcoholic Drinks Manufactured in 1; [Waterworks Sanctioned and Completed, April 1938 t; [Animals Slaughtered for Food in 1938]
+- 'XXXII. Progress of Science' (3): Doctor's Degrees; Doctor's Degrees; Number of Daily Papers According to Districts in 1
+- 'XXXIII. Press and Publications' (8): [Publications by District and Prefecture, 1937, 19; Yearly Comparison of the Number of Periodicals in ; Estimated Circulation; [Magazines on Sale in Tokyo by Type]
+- 'XXXV. Sports' (27): Japan's and World's Track and Field Records; [Jumping, Weight Events and Decathlon Records]; Women's Japan and World Track and Field Record; Japan's and World's Best Swimming Records
+- 'XXXVI. Amusements and Calendar of Annual Events' (2): Domestic and Imported Films Inspected in 1938; [Race Courses Permitted Under the Horse Race Law]
+- 'XXXVII. Principal Cities and Noted Places in Japan' (2): Foreigner's Entry to Japan; [Population and Households of Tokyo, 1878–1940]
+- 'XXXVIII. Tokyo' (17): [Classified Ownership of Area in Tokyo, January 19; Retail Price Index Number in Tokyo; Wholesale Price Index Number; [Factories and Operatives by Kind of Industry, Tok
+- 'XXXIX. Five Big Cities' (39): Factories in Osaka at the End of 1938; Principal Incoming & Outgoing Commodities; Exports and Imports by Kinds and Countries; Foreign Trade of Osaka in 1939 by Countries
+- 'XL. Chosen (Korea)' (33): Population of Chosen; Births and Deaths; Distribution by Age Groups; Population of Chosen According to Provinces
+- 'XLI. Taiwan (Formosa)' (28): [Area, Population and Administrative Divisions of ; [Schools and Pupils in Taiwan at the End of April ; Number of Facilities or Organizations for Social W; [Cultivated Area by Type of Land, 1931-1940]
+- 'XLII. Karafuto (Saghalien)' (15): Revenue and Expenditure; [Overseas Trade of Karafuto, 1931–1933]; [Trade of Karafuto with Foreign Countries and Japa; Shipments to and from Japan Proper
+- "XLIII. South Sea Islands Under Japan's Mandate" (9): Yearly Increase of Population; Actual Revenue and Expenditure of the Nanyo Cho; [Value of Principal Industrial Products, 1940]; [Production of Phosphate Rocks, 1931–1937]
+- 'Manchoukuo' (54): Population of Kwantung Leased Territory; Population of Principal Cities; Manchoukuo's National Budget; 1942 Budget of Manchoukuo
+- 'China' (38): [Foreign Concessions and Settlements in China]; [Territories Leased to Foreign Powers in China]; [Number of Households, Population and Density in C; [Population of Chinese Provinces and Cities]
+- 'VII. National Defense (Section II)' (7): [Enemy Naval and Merchant Losses Reported by the N; Southern Area and Area of the Aleutians; China Area; War Vessels Sunk
+- 'Appendix' (2): List of Emperors; [Emperors, Year Names and Duration of Reigns]

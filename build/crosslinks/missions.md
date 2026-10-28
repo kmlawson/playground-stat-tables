@@ -58,3 +58,4 @@ NU5 | done | nanyo-tokei update: finance-and-prices, trade, public-finance
 KU1 | done | korea-annual update (1907, 1908-09, 1909-10, 1910-11 added): general survey, local admin, justice, police, religion, sanitation, education
 KU2 | done | korea-annual update: finance, currency-and-banking, government-undertakings, communications
 KU3 | done | korea-annual update: commerce, agriculture, companies, mining-forestry-fishery, statistical-appendix
+JL  | done | japan: 16 editions added (1906–1924-25, 1937, 1942-43) via topicmaps/japan.json; 46 listings by Sonnet through llm (xl_llm.py), 6 (agriculture, education, finance, foreign-trade, industry, justice) by agents JU1–JU6

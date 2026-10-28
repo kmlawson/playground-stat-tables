@@ -1885,3 +1885,20 @@ def _sm_topics():
     return out
 SERIES["south-seas-mandate"] = {"name": "Annual Report to the League of Nations on the South Sea Islands (English and Japanese editions)",
                                 "books": _SM, "topics": _sm_topics()}
+
+
+# Extra series / editions added from topicmaps/<series>.json (2026-10-28): {"name": ..., "books": [...], "topics":
+# {topic: {slug: [chapter names]}}}. Books are merged into an existing series (kept in date order by slug); topics
+# merged chapter by chapter. Topics present in only one edition are dropped.
+def _merge_topicmaps():
+    import json, os, glob, re
+    for f in sorted(glob.glob(os.path.join(os.path.dirname(os.path.abspath(__file__)), "topicmaps", "*.json"))):
+        d = json.load(open(f, encoding="utf-8")); k = os.path.basename(f)[:-5]
+        S = SERIES.setdefault(k, {"name": d.get("name", k), "books": [], "topics": {}})
+        S["books"] = sorted(set(S["books"]) | set(d.get("books", [])), key=lambda b: (re.search(r"(18|19)\d\d", b).group(0) if re.search(r"(18|19)\d\d", b) else "9999", b))
+        for t, m in d.get("topics", {}).items():
+            T = S["topics"].setdefault(t, {})
+            for b, chs in m.items():
+                T[b] = list(dict.fromkeys(T.get(b, []) + list(chs)))
+        S["topics"] = {t: m for t, m in S["topics"].items() if len(m) >= 2}
+_merge_topicmaps()

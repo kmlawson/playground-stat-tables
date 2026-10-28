@@ -4,9 +4,35 @@
   {
    "label": "Budget: revenue and expenditure by item",
    "members": [
+    "japan-1908-09/p0600_1",
     "japan-1910/p0686_1",
+    "japan-1911/p0751_1",
+    "japan-1912/p0698_1",
+    "japan-1913/p0715_1",
+    "japan-1914/p0752_1",
+    "japan-1915/p0768_1",
+    "japan-1916/p0766_1",
+    "japan-1917/p0774_1",
+    "japan-1918/p0784_1",
+    "japan-1919-20/p0817_1",
     "japan-1920-21/p0796_1",
-    "japan-1930/p0548_1"
+    "japan-1923/p0755_1",
+    "japan-1924-25/p0735_1",
+    "japan-1930/p0548_1",
+    "japan-1942-43/p1001_2"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Budget expenditure by item",
+   "members": [
+    "japan-1908-09/p0601_1",
+    "japan-1911/p0751_2",
+    "japan-1912/p0698_2",
+    "japan-1912/p0699_1",
+    "japan-1913/p0715_2",
+    "japan-1913/p0716_1",
+    "japan-1942-43/p1001_3"
    ],
    "note": ""
   },
@@ -14,8 +40,18 @@
    "label": "Population by class",
    "members": [
     "japan-1905/p0381_2",
+    "japan-1906/p0543_4",
+    "japan-1907/p0629_4",
     "japan-1910/p0687_1",
+    "japan-1911/p0752_1",
+    "japan-1912/p0699_2",
+    "japan-1913/p0716_2",
+    "japan-1914/p0749_3",
+    "japan-1916/p0763_3",
+    "japan-1919-20/p0815_3",
     "japan-1920-21/p0794_3",
+    "japan-1923/p0753_3",
+    "japan-1924-25/p0733_3",
     "japan-1930/p0547_1",
     "japan-1935/p1142_1",
     "japan-1939-40/p0975_1"
@@ -25,7 +61,12 @@
   {
    "label": "Temperature by station",
    "members": [
+    "japan-1914/p0748_1",
+    "japan-1916/p0762_1",
+    "japan-1919-20/p0814_1",
     "japan-1920-21/p0793_1",
+    "japan-1923/p0752_1",
+    "japan-1924-25/p0732_1",
     "japan-1930/p0546_2"
    ],
    "note": ""
@@ -33,7 +74,14 @@
   {
    "label": "Rainfall by station",
    "members": [
+    "japan-1914/p0748_2",
+    "japan-1914/p0749_1",
+    "japan-1916/p0762_2",
+    "japan-1916/p0763_1",
+    "japan-1919-20/p0815_1",
     "japan-1920-21/p0794_1",
+    "japan-1923/p0753_1",
+    "japan-1924-25/p0733_1",
     "japan-1930/p0546_3"
    ],
    "note": ""
@@ -41,23 +89,49 @@
   {
    "label": "Number of days of rainfall by station",
    "members": [
+    "japan-1914/p0749_2",
+    "japan-1916/p0763_2",
+    "japan-1919-20/p0815_2",
     "japan-1920-21/p0794_2",
+    "japan-1923/p0753_2",
+    "japan-1924-25/p0733_2",
     "japan-1930/p0546_4"
    ],
-   "note": "1920-21 is by month; 1930 gives annual totals by year."
+   "note": "1920-21 is by month; 1930 and 1924-25 give annual totals by year."
   },
   {
    "label": "Births, deaths, marriages and divorces",
    "members": [
+    "japan-1914/p0749_4",
+    "japan-1916/p0763_4",
+    "japan-1919-20/p0815_4",
     "japan-1920-21/p0794_4",
+    "japan-1923/p0753_4",
+    "japan-1924-25/p0733_4",
     "japan-1930/p0547_2"
    ],
    "note": ""
   },
   {
+   "label": "Vital statistics rates",
+   "members": [
+    "japan-1914/p0749_5",
+    "japan-1916/p0763_5",
+    "japan-1919-20/p0815_5",
+    "japan-1923/p0754_1",
+    "japan-1924-25/p0734_1"
+   ],
+   "note": "1923 gives rates per 10,000; others per 1,000."
+  },
+  {
    "label": "Population of principal cities",
    "members": [
+    "japan-1914/p0749_6",
+    "japan-1916/p0763_6",
+    "japan-1919-20/p0816_1",
     "japan-1920-21/p0795_1",
+    "japan-1923/p0754_2",
+    "japan-1924-25/p0734_2",
     "japan-1930/p0547_3"
    ],
    "note": ""
@@ -65,16 +139,63 @@
   {
    "label": "Schools, teachers and pupils",
    "members": [
+    "japan-1913/p0719_1",
+    "japan-1914/p0752_2",
+    "japan-1915/p0768_2",
+    "japan-1916/p0766_2",
+    "japan-1917/p0774_2",
+    "japan-1918/p0784_2",
+    "japan-1919-20/p0817_2",
+    "japan-1919-20/p0818_1",
     "japan-1920-21/p0796_2",
-    "japan-1930/p0549_1"
+    "japan-1923/p0756_1",
+    "japan-1924-25/p0736_1",
+    "japan-1930/p0549_1",
+    "japan-1942-43/p0992_1"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Schools by year",
+   "members": [
+    "japan-1905/p0385_3",
+    "japan-1906/p0546_4",
+    "japan-1907/p0633_1"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Schools classified by ownership",
+   "members": [
+    "japan-1905/p0385_4",
+    "japan-1906/p0547_1",
+    "japan-1907/p0633_2"
    ],
    "note": ""
   },
   {
    "label": "Civil and criminal cases in the courts",
    "members": [
+    "japan-1913/p0719_2",
+    "japan-1914/p0753_1",
+    "japan-1914/p0753_2",
+    "japan-1915/p0769_1",
+    "japan-1916/p0766_3",
+    "japan-1917/p0774_3",
+    "japan-1918/p0784_3",
+    "japan-1919-20/p0818_2",
     "japan-1920-21/p0797_1",
+    "japan-1923/p0757_1",
+    "japan-1924-25/p0737_1",
     "japan-1930/p0549_2"
+   ],
+   "note": "1914 prints civil and criminal cases as separate tables."
+  },
+  {
+   "label": "Persons subjected to flogging",
+   "members": [
+    "japan-1913/p0720_2",
+    "japan-1914/p0753_3"
    ],
    "note": ""
   },
@@ -82,28 +203,148 @@
    "label": "Area of afforestation",
    "members": [
     "japan-1910/p0689_2",
+    "japan-1911/p0754_3",
+    "japan-1912/p0701_1",
+    "japan-1913/p0718_2",
+    "japan-1914/p0751_2",
+    "japan-1915/p0767_2",
+    "japan-1916/p0765_2",
+    "japan-1917/p0775_1",
+    "japan-1918/p0785_1",
+    "japan-1919-20/p0818_3",
     "japan-1920-21/p0797_2",
+    "japan-1923/p0757_2",
+    "japan-1924-25/p0737_2",
     "japan-1930/p0550_1"
    ],
    "note": "1910 splits government and private only, not camphor and other trees."
   },
   {
+   "label": "Forest area by year (protection and other forests)",
+   "members": [
+    "japan-1914/p0750_1",
+    "japan-1914/p0751_1",
+    "japan-1915/p0767_1",
+    "japan-1916/p0765_1"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Forests and plains by district",
+   "members": [
+    "japan-1910/p0688_1",
+    "japan-1911/p0753_1",
+    "japan-1911/p0754_1",
+    "japan-1912/p0700_1",
+    "japan-1913/p0717_1"
+   ],
+   "note": ""
+  },
+  {
+   "label": "State forests and plains under promise of sale",
+   "members": [
+    "japan-1910/p0689_1",
+    "japan-1911/p0754_2",
+    "japan-1912/p0700_2",
+    "japan-1913/p0718_1"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Arisan timber stock by species",
+   "members": [
+    "japan-1914/p0751_3",
+    "japan-1915/p0767_3",
+    "japan-1916/p0765_3",
+    "japan-1917/p0775_2",
+    "japan-1918/p0785_2",
+    "japan-1919-20/p0819_1",
+    "japan-1920-21/p0798_2",
+    "japan-1923/p0758_1",
+    "japan-1924-25/p0738_1"
+   ],
+   "note": ""
+  },
+  {
+   "label": "List of Governor-Generals",
+   "members": [
+    "japan-1906/p0543_3",
+    "japan-1907/p0629_3",
+    "japan-1908-09/p0602_1",
+    "japan-1910/p0690_1",
+    "japan-1911/p0755_1",
+    "japan-1912/p0701_2",
+    "japan-1913/p0718_3"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Foreign residents",
+   "members": [
+    "japan-1910/p0687_2",
+    "japan-1911/p0752_2"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Aboriginal raids: killed and wounded",
+   "members": [
+    "japan-1915/p0766_1",
+    "japan-1916/p0764_1",
+    "japan-1917/p0773_1",
+    "japan-1918/p0783_1",
+    "japan-1918/p0788_1",
+    "japan-1919-20/p0816_2"
+   ],
+   "note": ""
+  },
+  {
    "label": "Area of cultivated land (paddy and upland)",
    "members": [
     "japan-1905/p0382_1",
+    "japan-1906/p0544_1",
+    "japan-1907/p0630_1",
+    "japan-1908-09/p0602_2",
     "japan-1910/p0690_2",
+    "japan-1911/p0755_2",
+    "japan-1912/p0702_2",
+    "japan-1913/p0720_3",
+    "japan-1914/p0753_4",
+    "japan-1915/p0769_2",
+    "japan-1916/p0767_1",
+    "japan-1917/p0776_1",
+    "japan-1918/p0786_1",
+    "japan-1919-20/p0819_2",
     "japan-1920-21/p0798_3",
+    "japan-1923/p0758_2",
+    "japan-1924-25/p0738_2",
     "japan-1930/p0550_2",
     "japan-1935/p1147_2",
-    "japan-1939-40/p0981_2"
+    "japan-1937/p1032_2",
+    "japan-1939-40/p0981_2",
+    "japan-1942-43/p0993_1"
    ],
-   "note": "1920-21 and 1930 also give planted area by crop."
+   "note": "Later editions also give planted area by crop."
   },
   {
    "label": "Principal crops",
    "members": [
+    "japan-1906/p0544_2",
+    "japan-1907/p0630_2",
+    "japan-1908-09/p0602_3",
     "japan-1910/p0690_3",
+    "japan-1911/p0755_3",
+    "japan-1912/p0702_3",
+    "japan-1913/p0720_4",
+    "japan-1914/p0753_5",
+    "japan-1915/p0769_3",
+    "japan-1916/p0767_2",
+    "japan-1917/p0776_2",
+    "japan-1918/p0786_2",
+    "japan-1919-20/p0820_1",
     "japan-1920-21/p0799_1",
+    "japan-1923/p0759_1",
+    "japan-1924-25/p0739_1",
     "japan-1930/p0551_1"
    ],
    "note": ""
@@ -113,14 +354,19 @@
    "members": [
     "japan-1905/p0382_2",
     "japan-1935/p1148_1",
-    "japan-1939-40/p0980_1"
+    "japan-1937/p1032_3",
+    "japan-1939-40/p0980_1",
+    "japan-1942-43/p0993_2"
    ],
    "note": ""
   },
   {
    "label": "Fruits",
    "members": [
+    "japan-1919-20/p0820_2",
     "japan-1920-21/p0799_2",
+    "japan-1923/p0759_2",
+    "japan-1924-25/p0739_2",
     "japan-1930/p0551_2"
    ],
    "note": ""
@@ -130,16 +376,47 @@
    "members": [
     "japan-1905/p0383_2",
     "japan-1910/p0690_4",
+    "japan-1911/p0755_4",
+    "japan-1912/p0702_4",
+    "japan-1913/p0720_5",
+    "japan-1914/p0753_6",
+    "japan-1915/p0769_4",
+    "japan-1916/p0767_3",
+    "japan-1917/p0776_3",
+    "japan-1918/p0786_3",
+    "japan-1919-20/p0820_3",
     "japan-1920-21/p0799_3",
+    "japan-1923/p0759_3",
+    "japan-1924-25/p0739_3",
     "japan-1930/p0551_3"
    ],
-   "note": "1920-21 combines live stock with marine products."
+   "note": "Several editions combine live stock with marine products."
   },
   {
    "label": "Marine products: quantity and value",
    "members": [
     "japan-1905/p0383_4",
-    "japan-1910/p0691_1"
+    "japan-1906/p0544_3",
+    "japan-1907/p0630_3",
+    "japan-1908-09/p0602_4",
+    "japan-1910/p0691_1",
+    "japan-1911/p0755_5",
+    "japan-1912/p0703_1",
+    "japan-1913/p0721_2",
+    "japan-1914/p0754_3"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Value of fishery catches and marine products",
+   "members": [
+    "japan-1915/p0770_2",
+    "japan-1923/p0759_4",
+    "japan-1924-25/p0739_4",
+    "japan-1930/p0551_4",
+    "japan-1935/p1155_2",
+    "japan-1937/p1038_2",
+    "japan-1942-43/p0997_1"
    ],
    "note": ""
   },
@@ -147,19 +424,62 @@
    "label": "Mineral production",
    "members": [
     "japan-1905/p0383_6",
+    "japan-1906/p0544_4",
+    "japan-1907/p0630_4",
+    "japan-1908-09/p0602_5",
     "japan-1910/p0691_2",
+    "japan-1911/p0756_1",
+    "japan-1912/p0703_2",
+    "japan-1913/p0721_3",
+    "japan-1914/p0754_4",
+    "japan-1915/p0770_3",
+    "japan-1916/p0770_2",
+    "japan-1917/p0779_2",
+    "japan-1918/p0789_2",
+    "japan-1919-20/p0823_2",
     "japan-1920-21/p0802_2",
+    "japan-1923/p0760_2",
+    "japan-1924-25/p0740_2",
     "japan-1930/p0551_5",
     "japan-1935/p1156_1",
-    "japan-1939-40/p0986_1"
+    "japan-1937/p1038_3",
+    "japan-1937/p1039_1",
+    "japan-1939-40/p0986_1",
+    "japan-1942-43/p0998_1"
    ],
-   "note": "1905, 1910 and 1920-21 give quantities; 1930 gives values (¥1,000)."
+   "note": "Early editions give quantities; 1930 and later give values."
+  },
+  {
+   "label": "Principal mineral fields (area)",
+   "members": [
+    "japan-1916/p0770_1",
+    "japan-1917/p0779_1",
+    "japan-1918/p0789_1",
+    "japan-1919-20/p0823_1",
+    "japan-1920-21/p0802_1",
+    "japan-1923/p0760_1",
+    "japan-1924-25/p0740_1"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Gold output by mine, 1907",
+   "members": [
+    "japan-1910/p0694_2",
+    "japan-1911/p0759_2",
+    "japan-1912/p0707_1",
+    "japan-1913/p0725_2"
+   ],
+   "note": ""
   },
   {
    "label": "Sugar output",
    "members": [
     "japan-1905/p0382_5",
+    "japan-1919-20/p0820_5",
     "japan-1920-21/p0800_1",
+    "japan-1923/p0761_2",
+    "japan-1924-25/p0741_2",
     "japan-1930/p0552_2"
    ],
    "note": "1905 gives the total only; later editions break it down by kind."
@@ -167,9 +487,16 @@
   {
    "label": "Sugar production by company",
    "members": [
+    "japan-1914/p0754_2",
+    "japan-1917/p0777_1",
+    "japan-1918/p0787_1",
+    "japan-1919-20/p0821_1",
     "japan-1920-21/p0800_2",
+    "japan-1923/p0761_3",
+    "japan-1924-25/p0741_3",
     "japan-1930/p0552_3",
     "japan-1935/p1153_1",
+    "japan-1937/p1036_2",
     "japan-1939-40/p0983_3"
    ],
    "note": ""
@@ -177,143 +504,19 @@
   {
    "label": "Sugar cane: area and crop",
    "members": [
+    "japan-1915/p0769_5",
+    "japan-1916/p0768_1",
+    "japan-1917/p0776_4",
+    "japan-1918/p0786_4",
+    "japan-1919-20/p0820_4",
     "japan-1920-21/p0799_4",
+    "japan-1923/p0761_1",
+    "japan-1924-25/p0741_1",
     "japan-1930/p0552_1",
     "japan-1935/p1151_1",
-    "japan-1939-40/p0984_1"
-   ],
-   "note": ""
-  },
-  {
-   "label": "Camphor and camphor oil output",
-   "members": [
-    "japan-1905/p0384_2",
-    "japan-1905/p0384_3",
-    "japan-1910/p0693_3",
-    "japan-1930/p0553_2"
-   ],
-   "note": "1905 prints camphor and camphor oil as separate tables."
-  },
-  {
-   "label": "Opium manufacture",
-   "members": [
-    "japan-1905/p0384_4",
-    "japan-1910/p0693_2"
-   ],
-   "note": ""
-  },
-  {
-   "label": "Salt production",
-   "members": [
-    "japan-1905/p0383_5",
-    "japan-1910/p0694_1"
-   ],
-   "note": ""
-  },
-  {
-   "label": "Foreign trade by year",
-   "members": [
-    "japan-1905/p0385_2",
-    "japan-1910/p0691_3",
-    "japan-1935/p1159_2",
-    "japan-1939-40/p0988_2"
-   ],
-   "note": ""
-  },
-  {
-   "label": "Trade with Japan proper by year",
-   "members": [
-    "japan-1910/p0691_4",
-    "japan-1935/p1160_3",
-    "japan-1939-40/p0990_1"
-   ],
-   "note": ""
-  },
-  {
-   "label": "Trade with Japan proper and foreign countries by year",
-   "members": [
-    "japan-1920-21/p0802_3",
-    "japan-1930/p0553_3"
-   ],
-   "note": ""
-  },
-  {
-   "label": "Chief exports",
-   "members": [
-    "japan-1910/p0691_5",
-    "japan-1920-21/p0802_4",
-    "japan-1930/p0553_4",
-    "japan-1935/p1159_3",
-    "japan-1939-40/p0989_1"
-   ],
-   "note": ""
-  },
-  {
-   "label": "Chief imports",
-   "members": [
-    "japan-1910/p0692_1",
-    "japan-1920-21/p0802_5",
-    "japan-1930/p0554_1",
-    "japan-1935/p1160_2",
-    "japan-1939-40/p0989_3"
-   ],
-   "note": ""
-  },
-  {
-   "label": "Exports by country of destination",
-   "members": [
-    "japan-1920-21/p0803_1",
-    "japan-1930/p0554_2"
-   ],
-   "note": ""
-  },
-  {
-   "label": "Imports by country of origin",
-   "members": [
-    "japan-1920-21/p0803_2",
-    "japan-1930/p0554_3"
-   ],
-   "note": ""
-  },
-  {
-   "label": "State railway receipts by year",
-   "members": [
-    "japan-1905/p0385_1",
-    "japan-1930/p0555_1",
-    "japan-1935/p1164_1",
-    "japan-1939-40/p0993_1"
-   ],
-   "note": ""
-  },
-  {
-   "label": "Provinces and districts: area and population",
-   "members": [
-    "japan-1935/p1143_1",
-    "japan-1939-40/p0975_2"
-   ],
-   "note": ""
-  },
-  {
-   "label": "Aboriginal population by tribe",
-   "members": [
-    "japan-1935/p1145_1",
-    "japan-1939-40/p0977_1"
-   ],
-   "note": ""
-  },
-  {
-   "label": "Educational expenses",
-   "members": [
-    "japan-1935/p1147_1",
-    "japan-1939-40/p0981_1"
-   ],
-   "note": ""
-  },
-  {
-   "label": "Other agricultural products: area and production",
-   "members": [
-    "japan-1935/p1149_1",
-    "japan-1939-40/p0980_2"
+    "japan-1937/p1035_1",
+    "japan-1939-40/p0984_1",
+    "japan-1942-43/p0995_1"
    ],
    "note": ""
   },
@@ -321,6 +524,7 @@
    "label": "Sugar-cane pressing capacity by mill",
    "members": [
     "japan-1935/p1152_1",
+    "japan-1937/p1035_2",
     "japan-1939-40/p0983_1"
    ],
    "note": ""
@@ -329,22 +533,394 @@
    "label": "Sugar companies: capital and mills",
    "members": [
     "japan-1935/p1152_2",
-    "japan-1939-40/p0983_2"
+    "japan-1937/p1036_1",
+    "japan-1939-40/p0983_2",
+    "japan-1942-43/p0996_1"
    ],
    "note": ""
   },
   {
-   "label": "Value of fishery catches and marine products",
+   "label": "Sugar production by type of mill",
    "members": [
-    "japan-1930/p0551_4",
-    "japan-1935/p1155_2"
+    "japan-1935/p1153_2",
+    "japan-1937/p1036_3",
+    "japan-1942-43/p0996_2"
    ],
-   "note": "1930 gives ¥1,000 and splits catches into fish, shellfish and seaweed; 1935 gives yen."
+   "note": ""
+  },
+  {
+   "label": "Tea production",
+   "members": [
+    "japan-1915/p0770_1",
+    "japan-1916/p0769_1",
+    "japan-1917/p0778_1",
+    "japan-1919-20/p0822_1",
+    "japan-1920-21/p0801_1",
+    "japan-1923/p0762_1",
+    "japan-1924-25/p0742_1",
+    "japan-1930/p0553_1"
+   ],
+   "note": "Most editions give output by season; 1930 gives coarse and refined."
+  },
+  {
+   "label": "Camphor and camphor oil output",
+   "members": [
+    "japan-1905/p0384_2",
+    "japan-1905/p0384_3",
+    "japan-1906/p0545_2",
+    "japan-1908-09/p0603_2",
+    "japan-1910/p0693_3",
+    "japan-1911/p0758_3",
+    "japan-1912/p0706_3",
+    "japan-1930/p0553_2"
+   ],
+   "note": "1905 prints camphor and camphor oil as separate tables."
+  },
+  {
+   "label": "Opium manufacture",
+   "members": [
+    "japan-1905/p0384_4",
+    "japan-1906/p0545_3",
+    "japan-1908-09/p0603_3",
+    "japan-1910/p0693_2",
+    "japan-1911/p0758_2",
+    "japan-1912/p0706_2"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Opium smokers",
+   "members": [
+    "japan-1905/p0384_5",
+    "japan-1906/p0545_4",
+    "japan-1908-09/p0603_4"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Opium sales",
+   "members": [
+    "japan-1935/p1163_1",
+    "japan-1937/p1044_2"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Production of opium, salt, camphor and tobacco",
+   "members": [
+    "japan-1916/p0769_2",
+    "japan-1917/p0778_2",
+    "japan-1919-20/p0822_2",
+    "japan-1920-21/p0801_2",
+    "japan-1923/p0763_1",
+    "japan-1924-25/p0743_1"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Salt production",
+   "members": [
+    "japan-1905/p0383_5",
+    "japan-1910/p0694_1",
+    "japan-1911/p0759_1",
+    "japan-1912/p0706_4",
+    "japan-1913/p0725_1",
+    "japan-1914/p0756_2",
+    "japan-1915/p0772_2"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Revenue from the state monopolies",
+   "members": [
+    "japan-1910/p0693_1",
+    "japan-1911/p0758_1",
+    "japan-1912/p0706_1",
+    "japan-1913/p0724_1"
+   ],
+   "note": ""
+  },
+  {
+   "label": "State monopolies: quantity and value manufactured and sold",
+   "members": [
+    "japan-1913/p0724_2",
+    "japan-1914/p0756_1",
+    "japan-1915/p0772_1"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Tobacco sold in the island",
+   "members": [
+    "japan-1914/p0757_1",
+    "japan-1915/p0773_1"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Textile fabrics",
+   "members": [
+    "japan-1905/p0384_1",
+    "japan-1906/p0545_1",
+    "japan-1908-09/p0603_1"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Three important undertakings",
+   "members": [
+    "japan-1910/p0692_2",
+    "japan-1912/p0705_1",
+    "japan-1913/p0723_2",
+    "japan-1914/p0755_5"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Revenue by year",
+   "members": [
+    "japan-1905/p0380_1",
+    "japan-1907/p0628_1"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Chief items of ordinary revenue by year",
+   "members": [
+    "japan-1905/p0380_2",
+    "japan-1907/p0628_2",
+    "japan-1907/p0629_1"
+   ],
+   "note": "1907 table continues on the next page."
+  },
+  {
+   "label": "Expenditure by year",
+   "members": [
+    "japan-1905/p0381_1",
+    "japan-1906/p0543_2",
+    "japan-1907/p0629_2"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Revenue and expenditure of the Government-General by year",
+   "members": [
+    "japan-1935/p1162_1",
+    "japan-1937/p1044_1",
+    "japan-1942-43/p1001_1"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Foreign trade by year",
+   "members": [
+    "japan-1905/p0385_2",
+    "japan-1906/p0545_5",
+    "japan-1907/p0632_1",
+    "japan-1908-09/p0603_5",
+    "japan-1910/p0691_3",
+    "japan-1911/p0756_2",
+    "japan-1912/p0704_1",
+    "japan-1913/p0722_2",
+    "japan-1914/p0755_1",
+    "japan-1915/p0771_1",
+    "japan-1935/p1159_2",
+    "japan-1937/p1041_2",
+    "japan-1939-40/p0988_2",
+    "japan-1942-43/p1000_2"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Trade with Japan proper by year",
+   "members": [
+    "japan-1906/p0546_1",
+    "japan-1907/p0632_2",
+    "japan-1908-09/p0603_6",
+    "japan-1910/p0691_4",
+    "japan-1911/p0756_3",
+    "japan-1912/p0704_2",
+    "japan-1913/p0722_3",
+    "japan-1914/p0755_2",
+    "japan-1915/p0771_2",
+    "japan-1935/p1160_3",
+    "japan-1937/p1042_3",
+    "japan-1939-40/p0990_1"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Trade with Japan proper and foreign countries by year",
+   "members": [
+    "japan-1916/p0770_4",
+    "japan-1917/p0779_3",
+    "japan-1917/p0779_4",
+    "japan-1918/p0789_3",
+    "japan-1919-20/p0823_3",
+    "japan-1920-21/p0802_3",
+    "japan-1923/p0763_2",
+    "japan-1924-25/p0743_2",
+    "japan-1930/p0553_3"
+   ],
+   "note": "1917 prints Japan proper and foreign countries as separate tables."
+  },
+  {
+   "label": "Overseas trade: abroad and with Japan proper",
+   "members": [
+    "japan-1935/p1159_1",
+    "japan-1937/p1041_1",
+    "japan-1939-40/p0988_1",
+    "japan-1942-43/p1000_1"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Chief exports",
+   "members": [
+    "japan-1906/p0546_2",
+    "japan-1907/p0632_3",
+    "japan-1908-09/p0604_1",
+    "japan-1910/p0691_5",
+    "japan-1911/p0756_4",
+    "japan-1911/p0757_1",
+    "japan-1912/p0704_3",
+    "japan-1913/p0722_4",
+    "japan-1914/p0755_3",
+    "japan-1915/p0771_3",
+    "japan-1916/p0770_5",
+    "japan-1917/p0779_5",
+    "japan-1918/p0789_4",
+    "japan-1919-20/p0823_4",
+    "japan-1920-21/p0802_4",
+    "japan-1923/p0763_3",
+    "japan-1924-25/p0743_3",
+    "japan-1930/p0553_4",
+    "japan-1935/p1159_3",
+    "japan-1937/p1041_3",
+    "japan-1939-40/p0989_1"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Chief imports",
+   "members": [
+    "japan-1906/p0546_3",
+    "japan-1907/p0632_4",
+    "japan-1908-09/p0604_2",
+    "japan-1910/p0692_1",
+    "japan-1911/p0757_2",
+    "japan-1912/p0704_4",
+    "japan-1913/p0723_1",
+    "japan-1914/p0755_4",
+    "japan-1915/p0771_4",
+    "japan-1916/p0770_6",
+    "japan-1917/p0779_6",
+    "japan-1918/p0789_5",
+    "japan-1919-20/p0823_5",
+    "japan-1920-21/p0802_5",
+    "japan-1923/p0763_4",
+    "japan-1924-25/p0743_4",
+    "japan-1930/p0554_1",
+    "japan-1935/p1160_2",
+    "japan-1937/p1042_2",
+    "japan-1939-40/p0989_3"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Exports by country of destination",
+   "members": [
+    "japan-1916/p0771_1",
+    "japan-1917/p0780_1",
+    "japan-1918/p0790_1",
+    "japan-1919-20/p0824_1",
+    "japan-1920-21/p0803_1",
+    "japan-1923/p0763_5",
+    "japan-1924-25/p0743_5",
+    "japan-1930/p0554_2"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Imports by country of origin",
+   "members": [
+    "japan-1916/p0771_2",
+    "japan-1917/p0780_2",
+    "japan-1918/p0790_2",
+    "japan-1919-20/p0824_2",
+    "japan-1920-21/p0803_2",
+    "japan-1923/p0764_1",
+    "japan-1924-25/p0744_1",
+    "japan-1930/p0554_3"
+   ],
+   "note": ""
+  },
+  {
+   "label": "State railway receipts by year",
+   "members": [
+    "japan-1905/p0385_1",
+    "japan-1906/p0547_2",
+    "japan-1907/p0633_3",
+    "japan-1908-09/p0604_3",
+    "japan-1930/p0555_1",
+    "japan-1935/p1164_1",
+    "japan-1937/p1045_1",
+    "japan-1939-40/p0993_1",
+    "japan-1942-43/p1002_1"
+   ],
+   "note": "Earlier editions give mileage and total receipts; later ones split receipts by source."
+  },
+  {
+   "label": "Provinces and districts: area and population",
+   "members": [
+    "japan-1935/p1143_1",
+    "japan-1937/p1029_1",
+    "japan-1939-40/p0975_2",
+    "japan-1942-43/p0989_1"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Aboriginal population by tribe",
+   "members": [
+    "japan-1935/p1145_1",
+    "japan-1937/p1030_1",
+    "japan-1939-40/p0977_1"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Educational expenses",
+   "members": [
+    "japan-1935/p1147_1",
+    "japan-1937/p1032_1",
+    "japan-1939-40/p0981_1"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Other agricultural products: area and production",
+   "members": [
+    "japan-1935/p1149_1",
+    "japan-1937/p1033_1",
+    "japan-1939-40/p0980_2",
+    "japan-1942-43/p0994_1"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Sales of government timber by destination",
+   "members": [
+    "japan-1935/p1155_1",
+    "japan-1937/p1037_1"
+   ],
+   "note": ""
   },
   {
    "label": "Kinkwaseki mine production",
    "members": [
     "japan-1935/p1157_1",
+    "japan-1937/p1039_2",
     "japan-1939-40/p0986_2"
    ],
    "note": ""
@@ -353,6 +929,7 @@
    "label": "Zuiho mine gold and silver output",
    "members": [
     "japan-1935/p1157_2",
+    "japan-1937/p1039_3",
     "japan-1939-40/p0987_1"
    ],
    "note": ""
@@ -361,15 +938,10 @@
    "label": "Other industries: value of production",
    "members": [
     "japan-1935/p1158_1",
-    "japan-1939-40/p0987_2"
-   ],
-   "note": ""
-  },
-  {
-   "label": "Overseas trade: abroad and with Japan proper",
-   "members": [
-    "japan-1935/p1159_1",
-    "japan-1939-40/p0988_1"
+    "japan-1937/p1040_1",
+    "japan-1937/p1040_2",
+    "japan-1939-40/p0987_2",
+    "japan-1942-43/p0999_1"
    ],
    "note": ""
   },
@@ -377,6 +949,7 @@
    "label": "Tea exports",
    "members": [
     "japan-1935/p1160_1",
+    "japan-1937/p1042_1",
     "japan-1939-40/p0989_2"
    ],
    "note": ""
@@ -385,6 +958,7 @@
    "label": "Leading exports to Japan proper",
    "members": [
     "japan-1935/p1161_1",
+    "japan-1937/p1043_1",
     "japan-1939-40/p0990_2"
    ],
    "note": ""
@@ -393,6 +967,7 @@
    "label": "Leading imports from Japan proper",
    "members": [
     "japan-1935/p1161_2",
+    "japan-1937/p1043_2",
     "japan-1939-40/p0990_3"
    ],
    "note": ""
@@ -401,7 +976,17 @@
    "label": "Private railway statistics",
    "members": [
     "japan-1935/p1164_2",
+    "japan-1937/p1045_2",
+    "japan-1937/p1046_1",
     "japan-1939-40/p0993_2"
+   ],
+   "note": ""
+  },
+  {
+   "label": "Light railways",
+   "members": [
+    "japan-1937/p1046_2",
+    "japan-1939-40/p0993_3"
    ],
    "note": ""
   },
@@ -409,9 +994,26 @@
    "label": "Electric enterprises",
    "members": [
     "japan-1935/p1165_1",
+    "japan-1937/p1047_1",
     "japan-1939-40/p0994_1"
    ],
    "note": ""
+  },
+  {
+   "label": "Population by race or nationality (Karafuto-type table)",
+   "members": [
+    "japan-1937/p1049_1",
+    "japan-1942-43/p1006_1"
+   ],
+   "note": "Appears under the Taiwan chapter but lists Ainu and Karafuto-style groups."
+  },
+  {
+   "label": "Population in chief towns (Karafuto-type table)",
+   "members": [
+    "japan-1937/p1049_2",
+    "japan-1942-43/p1006_2"
+   ],
+   "note": "Appears under the Taiwan chapter but lists Karafuto towns."
   }
  ]
 }
