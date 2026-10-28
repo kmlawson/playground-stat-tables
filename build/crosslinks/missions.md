@@ -66,3 +66,4 @@ JM  | done | japan-manchoukuo: new series (1934, 1936, 1938, 1939, 1940), topicm
 MP  | done | manchuria-progress: new series (1929, 1931, 1936, 1939), agents MP1–MP2
 MY  | done | manchuria-yb: new series (Manchuria Year Book 1931, 1932-33; Manchoukuo Year Book 1934, 1942), agents MY1–MY3
 KN/KT | done | korea-nenkan (1926, 1940) and korea-tokei (統監府統計年報 1908, 朝鮮總督府統計年報 1939): new series, agents KN1, KT1
+FE  | done | japan-fea: new series; IA bub_gb_wYk9AQAAMAAJ split into japan-fea-1904 (p0001–p0180) and japan-fea-1905 (p0181–); agents FE1, FU1
