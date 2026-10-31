@@ -2407,7 +2407,8 @@ def build_directory(book):
            .replace("__PROG__", " · <i>transcription in progress</i>" if book.get("dir_in_progress") else "")
            .replace("__MD__", f' · <a href="../../{dl(book["slug"], "directory.md")}" download>Markdown</a>' if dl(book["slug"], "directory.md") else ""))
     if book.get("dir_only"):  # no tables page: drop the link to it and give the book's description here instead
-        doc = doc.replace('<a href="./" style="text-decoration:none;font-size:14px">← Tables</a>', "", 1)
+        doc = doc.replace('<a href="./" style="text-decoration:none;font-size:14px">← Tables</a><a href="../../" style="text-decoration:none;font-size:14px">All books</a>',
+                          '<a href="../../" style="text-decoration:none;font-size:14px">← All books</a>', 1)
         about = "".join(f"<p>{html.escape(book[k])}</p>" for k in ("blurb", "gaps") if book.get(k))
         sub = f'<p>{html.escape(book["subtitle"])} · {html.escape(book["publisher"])}</p>' if book.get("subtitle") else ""
         doc = doc.replace('<main><div id="toc">', f'<main><details style="margin:0 0 14px;font-size:15px"><summary>About this book</summary>{sub}{about}</details><div id="toc">', 1)
