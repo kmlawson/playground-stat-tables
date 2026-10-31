@@ -24,6 +24,15 @@ BOOKS = [
      "scan": "https://dl.ndl.go.jp/pid/2937065/1/{leaf}",
      "item": "https://dl.ndl.go.jp/pid/2937065",
      "blank_marking": True},
+    {"slug": "japan-tokyo-trade-1940", "dir": "Tokyo_Trade_Directory_1940", "model": "GPT-6.1 Sol (firms), Gemini 3.8 Flash (index) and Claude Sonnet 5.5",
+     "title": "Trade Directory of Tokyo 1940", "subtitle": "東京貿易業者名鑑 (Tokyo Commercial & Industrial Museum)",
+     "publisher": "Tokyo Commercial & Industrial Museum (府立東京商工奨勵館), Tokyo, December 1939",
+     "blurb": "A bilingual directory of the Tokyo firms engaged in export and import, compiled by the prefectural Tokyo Commercial and Industrial Museum for foreign buyers. Its 1,305 numbered firm entries (pp. 1–218, with a supplement) give each firm's name and address in English and in Japanese, its kind of business (manufacturers, traders), cable address, telegraph codes and bankers, and what it exports and imports, usually with the countries traded with. An alphabetical index of articles, separately for exports and imports, lists the firm numbers dealing in each commodity, from abrasives to zip fasteners.",
+     "source": "LLM-transcribed from the National Diet Library scan (public domain).",
+     "gaps": "The firm entries and the index of articles are transcribed; the foreword, the description of the museum and the alphabetical index of firms (which only repeats names and numbers) are not. Each two-page spread was read once: the firm entries by GPT-6.1 Sol (Codex), the index of articles by Gemini 3.8 Flash (Antigravity), with no checking by eye. Japanese characters the first reader could not make out (about 6% of firms had one) were re-read by Claude Sonnet 5.5 from the page image, which filled all but one; a reading was accepted only if it changed nothing but the unreadable characters. Japanese names and addresses keep the old character forms as printed. Firm numbers are as printed, including the book's own gaps in the numbering (e.g. no. 516) and a second no. 959.",
+     "scan": "https://dl.ndl.go.jp/pid/1036387/1/{leaf}",
+     "item": "https://dl.ndl.go.jp/pid/1036387",
+     "dir_only": True, "blank_marking": True},
     {"slug": "japan-1905", "dir": "Japan_Year_Book_1905", "title": "The Japan Year Book 1905",
      "publisher": "The \"Japan Year Book\" Office, Tokyo, 1905",
      "blurb": "The first edition of The Japan Year Book, compiled during the Russo-Japanese War: geography, population, the Imperial Court, politics, finance, banking, industry, trade, education, the army and navy, communications, a Who's Who (\"Contemporary Worthies\"), diplomacy, the press, Formosa, Korea, and an appended import tariff.",
@@ -2348,6 +2357,8 @@ def build_directory(book):
                 flat = lambda v: "; ".join(map(str, v)) if isinstance(v, list) else str(v)
                 side = lambda x: " · ".join(flat(x[k]) for k in ("business", "tel", "address", "person", "other") if x.get(k))
                 names = " / ".join(flat(x["name"]) for x in (en, ja) if x.get("name")) or "[continued]"
+                if e.get("no"):  # numbered firms (indexes refer to the number)
+                    names = f'{e["no"]}. {names}'
                 txt = " ‖ ".join(t for t in (side(en), side(ja)) if t)
                 if e.get("note"):
                     txt += f" [note: {e['note']}]"
