@@ -1827,8 +1827,8 @@ def landing(cards):
     order = {"far-east": 0, "manchoukuo": 1}
     other = sorted([(sl, h) for g, sl, h in items if g == "other"], key=lambda x: order.get(x[0].rsplit("-", 1)[0], 9))
     names = {"japan": "Japan", "china": "China", "korea": "Korea", "taiwan": "Taiwan", "manchuria": "Manchuria", "south-seas": "South Seas Mandate", "other": "Other"}
-    body = {g: "\n".join(h for gg, sl, h in items if gg == g) for g in ("japan",)}
     year = {b["slug"]: edition(b) for b in BOOKS}
+    body = {"japan": "\n".join(h for g, sl, h in sorted((x for x in items if x[0] == "japan"), key=lambda x: (year[x[1]], x[1])))}  # by edition year
     body["china"] = "\n".join(h for g, sl, h in sorted((x for x in items if x[0] == "china"), key=lambda x: (year[x[1]], x[1])))  # by edition year
     body["korea"] = "\n".join(h for g, sl, h in sorted((x for x in items if x[0] == "korea"), key=lambda x: (year[x[1]], x[1])))  # by edition year
     body["taiwan"] = "\n".join(h for g, sl, h in sorted((x for x in items if x[0] == "taiwan"), key=lambda x: (year[x[1]], x[1])))

@@ -194,7 +194,7 @@ The paths inside still name the book they came from — edit them first.
   transcribed, missing pages, how checks were done), `scan` (`…/page/n{leaf}/…` for IA, `https://dl.ndl.go.jp/pid/<pid>/1/{leaf}`
   for NDL; `None` if not online), `item`, `blank_marking: True`; optional `group` to force a home-page section.
 - Home-page sections: Japan, China, Korea, Taiwan, Manchuria, Other — chosen from the slug prefix
-  (`japan-`, `china-`, `korea-`, `taiwan-`, `manch…`) or `group`; Korea, Taiwan, Manchuria and China sort by
+  (`japan-`, `china-`, `korea-`, `taiwan-`, `manch…`) or `group`; every section except Other sorts by
   edition year. Slugs: 朝鮮年鑑 = `korea-nenkan-YYYY`, 朝鮮事情 = `korea-YYYY`, statistical annual = `korea-tokanfu-YYYY`.
 - Directory books can set `dir_cards`, `dir_places`, `dir_pinyin` (place cards, pinyin with "alt. romanization").
 - Table pages show printed notes and transcriber's notes in collapsible sections under each table.
