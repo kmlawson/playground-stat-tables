@@ -23,6 +23,9 @@
     if (pm) { n = pm[1]; par = true; }
     if (/^[-–—―‐−ー…\.・]{1,3}$/.test(n) || n === "...") return { k: "dash", s, par };
     if (/^(同|〃|仝|″|"|do\.?|ditto)$/i.test(n)) return { k: "ditto", s };
+    // a reference mark printed before a figure (×962,647, ※1,203, *45): the figure is drawn, the mark kept in the tooltip
+    const rm = n.match(/^[×※＊*†‡](\s*\d.*)$/);
+    if (rm) { const c = cell(rm[1]); if (c.k === "num") return Object.assign(c, { s, mark: true }); }
     const m = n.match(/^(△|▲|-|−|\+|減|增|増)?\s*[¥$]?\s*(\d{1,3}(?:[,、]\d{3})+|\d+)?(\.\d+)?\.?\s*(%|[㐀-鿿]{1,2})?$/);
     if (m && (m[2] || m[3])) {
       let v = parseFloat((m[2] || "0").replace(/[,、]/g, "") + (m[3] || ""));
@@ -37,6 +40,8 @@
     const s = String(label || "").replace(/[\s　]/g, "").normalize("NFKC");
     if (!s) return false;
     if (TOT.test(s)) return true;
+    const sp = s.replace(/[(（][^()（）]*[)）]/g, "");      // 總數(內地), 計（内地人）: a total with a note on what it covers
+    if (sp && sp !== s && TOT.test(sp)) return true;
     // English: "Total", "Totals", "Grand total", "Total (Yen)" — not "Total — women" or "Percentage of total"
     const e = String(label).replace(/[(（][^)）]*[)）]/g, "").replace(/[:.\s]+$/, "").trim();
     if (/^(grand\s+)?totals?$/i.test(e)) return true;
@@ -119,6 +124,10 @@
       else if (c.k !== "blank") prev[j] = c;
       return c.s;
     }).filter(x => x && !/^[-–—]+$/.test(x)).join(" · ");
+    // △/▲ before a figure means minus only in columns of change, difference or balance; elsewhere it is a reference mark
+    const CHG = /增減|増減|差|增|増|減|損|益|收支|収支|過不足|比較|對前|対前|increase|decrease|differ|balance|profit|loss|net|surplus|deficit|change/i;
+    cols.forEach((h, j) => { if (!numCol[j] || CHG.test(h)) return;
+      rows.forEach(r => { const c = r[j]; if (c.k === "num" && c.v < 0 && /^[△▲]/.test(c.s.trim())) r[j] = Object.assign({}, c, { v: -c.v, mark: true }); }); });
     const R = [];
     let group = "";
     rows.forEach((r, i) => {
@@ -154,7 +163,14 @@
     const leaves = Object.keys(lt);
     const repeated = tops.length >= 2 && leaves.length >= 2 && leaves.filter(l => lt[l].size >= 2).length >= leaves.length * 0.6;
     let mode = repeated ? "leaf" : "top";
-    if (repeated) for (const t of tops) {
+    // Headings three levels deep (現住人口 — 內地人 — 男), or second-level columns that print their own total under
+    // every top heading (現住戶數 — 內地人/本島人/合計), make the top level the measure: households and persons never
+    // share a chart. Categories share one chart only when one of the top headings is itself a total (Total — Male …).
+    const deep = multi.some(c => sg(c).length >= 3);
+    const leafTot = tops.every(t => multi.some(c => sg(c)[0] === t && isTotal(sg(c)[1])));
+    const yearTops = tops.filter(t => splitYear(t, {}).y != null).length >= tops.length - 1;   // 1910 — Gold …, 1911 — Gold …: years share a chart
+    if (repeated && !yearTops && (deep || (leafTot && !tops.some(isTotal)))) mode = "top";
+    if (mode === "leaf") for (const t of tops) {
       const cs = multi.filter(c => sg(c)[0] === t && sg(c).length === 2), tot = cs.filter(c => isTotal(c.last)), parts = cs.filter(c => !isTotal(c.last));
       if (tot.length === 1 && parts.length >= 2) {
         let ok = 0, n = 0;
@@ -246,16 +262,21 @@
     const ctx = {}, yr = m.R.map(r => { const x = splitYear(r.label, ctx); return x.y != null && !x.rest; });
     let b0 = yr.indexOf(true);
     const rowSets = [];
-    if (b0 >= 2 && yr.slice(b0).every((y, k) => y || m.R[b0 + k].total) && yr.slice(0, b0).filter(y => !y).length >= 2) {
+    const cmpRows = new Set();
+    if (b0 >= 2 && yr.slice(b0).every((y, k) => y || m.R[b0 + k].total) && yr.slice(0, b0).filter(y => !y).length >= 2 && m.R.length - b0 <= 2 && m.R[b0 - 1].total) {
+      // one or two earlier years printed under the total (明治30年): compared with the total, not a chart of their own
+      m.R.slice(b0).forEach(r => cmpRows.add(r));
+      rowSets.push({ name: "", rows: m.R });
+    } else if (b0 >= 2 && yr.slice(b0).every((y, k) => y || m.R[b0 + k].total) && yr.slice(0, b0).filter(y => !y).length >= 2) {
       const tot = b0 > 0 && m.R[b0 - 1].total ? [m.R[b0 - 1]] : [];
       rowSets.push({ name: "", rows: m.R.slice(0, b0) });
       rowSets.push({ name: tot.length ? "Total and earlier years" : "Earlier years", rows: tot.concat(m.R.slice(b0)), keepTotals: true });
     } else rowSets.push({ name: "", rows: m.R });
     const cs = m.C.map(c => ({ view: gkey(c), c }));
     const colSets = byView(cs.map(x => Object.assign(x, { short: x.c.last, label: x.c.label })), vname);
-    rowSets.forEach(rs => colSets.forEach(cg => out.push({ kind: "bar", keepTotals: rs.keepTotals,
+    rowSets.forEach(rs => colSets.forEach(cg => out.push({ kind: "bar", keepTotals: rs.keepTotals, key: cg.key,
       name: [rs.name, colSets.length > 1 || rs.name ? cg.name : ""].filter(Boolean).join(" · ") || (rowSets.length > 1 ? m.labHead || "Rows" : ""),
-      cats: rs.rows.map(r => ({ label: r.label, group: r.group, total: r.total, i: r.i })),
+      cats: rs.rows.map(r => ({ label: r.label, group: r.group, total: r.total || cmpRows.has(r), cmp: cmpRows.has(r), i: r.i })),
       series: cg.series.map(x => ({ label: x.c.label, short: own(x.c), pre: K[x.c.j] === x.c.last ? "" : x.c.pre, total: x.c.total || isTotal(own(x.c)), pts: rs.rows.map(r => r.cells[x.c.j]) })) })));
     return out;
   }
@@ -292,14 +313,27 @@
     const S = p.series, n = S.length;
     p.stackable = null;
     if (p.kind === "bar") {
-      const byPre = {};
+      const byPre = {}, cands = [];
+      const ok = k => !RATIO.test(S[k].label) && S[k].pts.every(c => c.k !== "num" || c.v >= 0);
       S.forEach((s, k) => (byPre[s.pre] = byPre[s.pre] || []).push(k));
       for (const pre in byPre) {
         const ks = byPre[pre], tot = ks.filter(k => S[k].total), parts = ks.filter(k => !S[k].total);
-        const sub = parts.filter(k => !RATIO.test(S[k].label) && S[k].pts.every(c => c.k !== "num" || c.v >= 0));
-        if (tot.length === 1 && sub.length >= 2 && addsUp(S, sub, tot[0])) { p.stackable = { total: tot[0], parts: sub }; break; }
+        const sub = parts.filter(ok);
+        if (tot.length === 1 && sub.length >= 2 && addsUp(S, sub, tot[0])) cands.push({ total: tot[0], parts: sub, by: sub.map(k => seg(S[k].short).pop()).join(" / ") + (Object.keys(byPre).length > 1 && pre ? ` (${seg(pre).pop()})` : ""), names: Object.fromEntries(sub.map(k => [k, seg(S[k].short).pop()])) });
       }
-      if (p.stackable) return { on: new Set(p.stackable.parts), mode: "stack" };
+      // across groups: each group's own total (內地人 — 計, 本島人 — 計) as the parts of the group that is a total (合計 — 計)
+      const preLast = k => seg(S[k].pre).pop();
+      const leafOf = k => seg(S[k].short).pop();
+      const gt = S.map((s, k) => k).filter(k => S[k].total && S[k].pre && ok(k));
+      const leaves = [...new Set(gt.map(leafOf))];
+      leaves.forEach(lf => {
+        const ks = gt.filter(k => leafOf(k) === lf), tot = ks.filter(k => isTotal(preLast(k))), parts = ks.filter(k => !isTotal(preLast(k)));
+        if (tot.length === 1 && parts.length >= 2 && addsUp(S, parts, tot[0])) cands.push({ total: tot[0], parts, cross: true, by: parts.map(preLast).join(" / "), names: Object.fromEntries(parts.map(k => [k, preLast(k)])) });
+      });
+      // the same for leaves under one top heading (現住戶數 — 內地人 / 本島人 / 合計 has pre "", handled above)
+      const size = c => S[c.total].pts.reduce((a, x) => a + (x.k === "num" ? Math.abs(x.v) : 0), 0);
+      cands.sort((a, b) => size(b) - size(a) || (b.cross ? 1 : 0) - (a.cross ? 1 : 0));
+      if (cands.length) { p.stacks = cands; p.stackable = cands[0]; return { on: new Set(p.stackable.parts), mode: "stack" }; }
       if (n <= 3) return { on: new Set(S.map((_, k) => k)), mode: "group" };
       const t = S.findIndex(s => s.total);
       return { on: new Set([t >= 0 ? t : 0]), mode: "group" };
@@ -365,6 +399,11 @@
     // only series with at least one printed figure are offered, and only charts that still have a series
     const V = views(m).map(v => Object.assign(v, { series: v.series.filter(s => s.pts.some(c => c.k === "num")) })).filter(v => v.series.length).map(uniq);
     if (!V.length) { host.classList.add("tc-none"); host.innerHTML = ""; return false; }
+    if (V.every(v => v.kind === "bar") && V.length > 1) {
+      const main = v => v.key != null && !String(v.key).startsWith("~") && !/^(Total and earlier years|Earlier years)/.test(v.name || "");
+      let b = -1; V.forEach((v, k) => { if (main(v) && (b < 0 || v.series.length > V[b].series.length)) b = k; });
+      if (b > 0) V.unshift(V.splice(b, 1)[0]);
+    }
     let p, S, st;
     host.innerHTML = "";
     const tabs = document.createElement("div"); tabs.className = "tc-tabs"; host.appendChild(tabs);
@@ -373,7 +412,10 @@
     const plot = document.createElement("div"); plot.className = "tc-plot"; host.appendChild(plot);
     const tip = document.createElement("div"); tip.className = "tc-tip"; tip.hidden = true; host.appendChild(tip);
     const note = document.createElement("p"); note.className = "tc-note"; host.appendChild(note);
-    const color = k => PAL[k % PAL.length];
+    // stacked parts take the first palette colours in order (never two near-identical greens side by side)
+    const color = k => { const i = st && st.mode === "stack" && p && p.stackable ? p.stackable.parts.indexOf(k) : -1; return PAL[(i >= 0 ? i : k) % PAL.length]; };
+    const pname = k => (p.stackable && p.stackable.names && p.stackable.names[k]) || S[k].short || S[k].label;
+    const ink = k => { const h = color(k).slice(1), r = parseInt(h.slice(0, 2), 16), g = parseInt(h.slice(2, 4), 16), b = parseInt(h.slice(4), 16); return (0.299 * r + 0.587 * g + 0.114 * b) > 165 ? "#222" : "#fff"; };
 
     function noteText() {
       let nI = 0, nB = 0, nD = 0;
@@ -388,7 +430,7 @@
     }
     function setView(i) {
       p = V[i]; S = p.series; const d = defaults(p);
-      st = { on: d.on, mode: d.mode, sort: "printed", totals: !!p.keepTotals, sep: null, view: i };
+      st = { on: d.on, mode: d.mode, sort: "printed", totals: !!p.keepTotals, sep: null, view: i, share: false };
       // figures printed only in total rows: show those rows rather than an empty chart
       if (p.kind === "bar" && !st.totals && !p.cats.some((c, ci) => !c.total && S.some(s => s.pts[ci].k === "num"))) st.totals = true;
       tabs.innerHTML = "";
@@ -407,7 +449,17 @@
       if (p.kind === "bar") {
         if (p.stackable) {
           btn("Stacked", st.mode === "stack", () => { st.mode = "stack"; st.on = new Set(p.stackable.parts); legend(); controls(); draw(); }, "Parts stacked, with the printed total marked");
-          btn("Side by side", st.mode === "group", () => { st.mode = "group"; controls(); draw(); });
+          btn("Side by side", st.mode === "group", () => { st.mode = "group"; st.share = false; controls(); draw(); });
+          if (p.stacks && p.stacks.length > 1 && st.mode === "stack") {
+            const bs = document.createElement("select"); bs.setAttribute("aria-label", "Breakdown");
+            p.stacks.forEach((c, k) => { const o = document.createElement("option"); o.value = k; o.textContent = "Split by " + c.by; if (c === p.stackable) o.selected = true; bs.appendChild(o); });
+            bs.addEventListener("change", () => { p.stackable = p.stacks[+bs.value]; st.on = new Set(p.stackable.parts); st.legAll = false; legend(); controls(); draw(); });
+            bar.appendChild(bs);
+          }
+          if (st.mode === "stack") {
+            btn("Numbers", !st.share, () => { st.share = false; controls(); draw(); });
+            btn("Shares", st.share, () => { st.share = true; controls(); draw(); }, "Each bar as 100%: the share of each part in its row's printed total");
+          }
         }
         const sel = document.createElement("select"); sel.setAttribute("aria-label", "Order of bars");
         [["printed", "Printed order"], ["desc", "Largest first"], ["asc", "Smallest first"]].forEach(([v, l]) => { const o = document.createElement("option"); o.value = v; o.textContent = l; if (st.sort === v) o.selected = true; sel.appendChild(o); });
@@ -430,6 +482,14 @@
         leg.append(a, z);
       }
       let pre = null;
+      const only = st.mode === "stack" && p.stackable && !st.legAll;
+      if (only) {
+        leg.innerHTML = "";
+        p.stackable.parts.forEach(k => { const b = document.createElement("span"); b.className = "tc-chip on"; b.title = S[k].label; b.innerHTML = `<i style="background:${color(k)}"></i>`; b.appendChild(document.createTextNode(pname(k))); leg.appendChild(b); });
+        if (S.length > p.stackable.parts.length + 1) { const more = document.createElement("button"); more.type = "button"; more.className = "tc-all"; more.textContent = `All ${S.length} series…`;
+          more.onclick = () => { st.legAll = true; legend(); }; leg.appendChild(more); }
+        return;
+      }
       S.forEach((s, k) => {
         if (s.pre && s.pre !== pre && S.some(x => x.pre !== s.pre)) { const g = document.createElement("span"); g.className = "tc-grp"; g.textContent = s.pre; leg.appendChild(g); }
         pre = s.pre;
@@ -550,15 +610,20 @@
         cats = groups.flatMap(g => g.c);
       }
       if (!cats.length) { const q = document.createElement("p"); q.className = "tc-msg"; q.textContent = "Only total rows are printed here — use “Show total rows”."; box.appendChild(q); return; }
+      const share = stack && st.share;
+      const rowTot = c => { const t = S[p.stackable.total].pts[c.k]; if (t.k === "num" && t.v > 0) return t.v; const a = sk.reduce((s, k) => s + (S[k].pts[c.k].k === "num" ? S[k].pts[c.k].v : 0), 0); return a || null; };
+      const V_ = (c, v) => share ? (rowTot(c) ? v / rowTot(c) * 100 : 0) : v;
+      if (stack && !st.totals) totalPanel(box, W, narrow, sk, share);
       const vals = [];
       cats.forEach(c => {
-        if (stack) { let a = 0; sk.forEach(k => { const x = S[k].pts[c.k]; if (x.k === "num") a += x.v; }); vals.push(a); const t = S[p.stackable.total].pts[c.k]; if (t.k === "num") vals.push(t.v); }
+        if (share) { vals.push(100); }
+        else if (stack) { let a = 0; sk.forEach(k => { const x = S[k].pts[c.k]; if (x.k === "num") a += x.v; }); vals.push(a); const t = S[p.stackable.total].pts[c.k]; if (t.k === "num") vals.push(t.v); }
         else sk.forEach(k => { const x = S[k].pts[c.k]; if (x.k === "num") vals.push(x.v); });
       });
       if (!vals.length) { const q = document.createElement("p"); q.className = "tc-msg"; q.textContent = "No printed figures in the chosen series."; box.appendChild(q); return; }
       const T = ticks(Math.min(0, ...vals), Math.max(0, ...vals), narrow ? 3 : 5), lo = T[0], hi = T[T.length - 1];
       const labW = narrow ? 0 : Math.min(W * 0.38, Math.max(...cats.map(c => textW(c.label, 12))) + 10);
-      const L = narrow ? 6 : labW + 6, R = 34, top = 22;
+      const L = narrow ? 6 : labW + 6, R = stack && !share && cats.length <= 40 ? Math.max(34, Math.max(...cats.map(c => textW((S[p.stackable.total].pts[c.k].s || ""), 11))) + 10) : 34, top = 22;
       const bh = stack ? 14 : Math.max(5, Math.min(13, 26 / sk.length)), band = (stack ? bh : bh * sk.length) + (narrow ? 22 : 8);
       let hasGroup = false, H = top;
       const rowsY = [];
@@ -567,7 +632,7 @@
       H += 8;
       const svg = el("svg", { viewBox: `0 0 ${W} ${H}`, width: "100%", class: "tc-svg", role: "img" }, box);
       const pw = W - L - R, Xv = v => L + (v - lo) / (hi - lo) * pw;
-      T.forEach(t => { el("line", { x1: Xv(t), x2: Xv(t), y1: top - 4, y2: H - 6, class: t === 0 ? "tc-zero" : "tc-grid" }, svg); txt(svg, Xv(t), top - 9, fmt(t), { class: "tc-ax", "text-anchor": "middle" }); });
+      T.forEach(t => { el("line", { x1: Xv(t), x2: Xv(t), y1: top - 4, y2: H - 6, class: t === 0 ? "tc-zero" : "tc-grid" }, svg); txt(svg, Xv(t), top - 9, share ? t + "%" : fmt(t), { class: "tc-ax", "text-anchor": "middle" }); });
       g0 = null;
       cats.forEach((c, ci) => {
         let y = rowsY[ci];
@@ -576,13 +641,17 @@
         const by = narrow ? y + 16 : y + 4;
         if (narrow) txt(svg, L, y + 11, clip(c.label, 12, W - 12), { class: "tc-lab" + (c.total ? " tc-tot" : "") });
         else txt(svg, L - 6, by + (stack ? bh : bh * sk.length) / 2 + 4, clip(c.label, 12, labW - 4), { class: "tc-lab" + (c.total ? " tc-tot" : ""), "text-anchor": "end" });
-        const tipHtml = () => `<b>${esc((c.group ? c.group + " — " : "") + c.label)}</b>` + (stack ? sk.concat([p.stackable.total]) : sk).map(k => `<div><i style="background:${color(k)}"></i>${esc(S[k].short || S[k].label)}: ${esc(shown(S[k].pts[c.k]))}</div>`).join("") + (stack ? sumNote(c) : "");
+        const pc = k => { const x = S[k].pts[c.k], rt = stack ? rowTot(c) : null; return stack && rt && x.k === "num" && k !== p.stackable.total ? ` (${(x.v / rt * 100).toFixed(1)}%)` : ""; };
+        const tipHtml = () => `<b>${esc((c.group ? c.group + " — " : "") + c.label)}</b>` + (stack ? sk.concat([p.stackable.total]) : sk).map(k => `<div><i style="background:${color(k)}"></i>${esc(stack && k !== p.stackable.total ? pname(k) : S[k].short || S[k].label)}: ${esc(shown(S[k].pts[c.k]))}${pc(k)}</div>`).join("") + (stack ? sumNote(c) : "");
         if (stack) {
           let a = 0;
-          sk.forEach(k => { const x = S[k].pts[c.k]; if (x.k === "num" && x.v > 0) { el("rect", { x: Xv(a), y: by, width: Math.max(0.5, Xv(a + x.v) - Xv(a)), height: bh, fill: color(k) }, svg); a += x.v; } });
+          sk.forEach(k => { const x = S[k].pts[c.k]; if (x.k === "num" && x.v > 0) { const w = V_(c, x.v); el("rect", { x: Xv(a), y: by, width: Math.max(0.5, Xv(a + w) - Xv(a)), height: bh, fill: color(k) }, svg);
+            if (share && Xv(a + w) - Xv(a) > 34) txt(svg, (Xv(a) + Xv(a + w)) / 2, by + bh - 3, (+w.toFixed(w < 10 ? 1 : 0)) + "%", { class: "tc-in", "text-anchor": "middle", fill: ink(k) });
+            a += w; } });
           const miss = sk.filter(k => S[k].pts[c.k].k === "illeg").length;
           const t = S[p.stackable.total].pts[c.k];
-          if (t.k === "num") {
+          if (t.k === "num" && !share) txt(svg, Math.max(Xv(a), Xv(t.v)) + 6, by + bh - 2, t.s, { class: "tc-val" });
+          if (t.k === "num" && !share) {
             el("line", { x1: Xv(t.v), x2: Xv(t.v), y1: by - 3, y2: by + bh + 3, class: "tc-totmark" }, svg);
             const allNum = sk.every(k => S[k].pts[c.k].k === "num") && sk.length === p.stackable.parts.length;
             if (allNum && Math.abs(a - t.v) > 1e-6 * Math.max(1, Math.abs(t.v))) txt(svg, Math.max(Xv(a), Xv(t.v)) + 5, by + bh - 2, "≠", { class: "tc-neq" });
@@ -600,6 +669,41 @@
         hit.addEventListener("pointerdown", ev => { showTip(ev, tipHtml()); flash(c.i); });
       });
       svg.setAttribute("aria-label", `Bar chart of ${cats.length} printed rows`);
+    }
+    // The printed total row(s), and an earlier year printed beside them, as their own bars above the chart: the overall
+    // figure and its make-up, on a scale shared only by these rows (the parts would otherwise look tiny next to them).
+    function totalPanel(box, W, narrow, sk, share) {
+      const rows = p.cats.map((c, i) => Object.assign({ k: i }, c)).filter(c => c.total && !c.group && S[p.stackable.total].pts[c.k].k === "num");
+      if (!rows.length) return;
+      const tv = c => S[p.stackable.total].pts[c.k].v;
+      const mx = Math.max(...rows.map(tv));
+      const wrap = document.createElement("div"); wrap.className = "tc-totp"; box.appendChild(wrap);
+      const labW = narrow ? 0 : Math.min(W * 0.38, Math.max(...rows.map(c => textW(c.label, 12.5))) + 10), L = narrow ? 6 : labW + 6;
+      const R = Math.max(...rows.map(c => textW(S[p.stackable.total].pts[c.k].s, 12))) + 14, bh = 22, band = bh + (narrow ? 26 : 10);
+      const H = rows.length * band + 6;
+      const svg = el("svg", { viewBox: `0 0 ${W} ${H}`, width: "100%", class: "tc-svg", role: "img" }, wrap);
+      const pw = W - L - R;
+      rows.forEach((c, ri) => {
+        const y = ri * band + (narrow ? 18 : 4), t = S[p.stackable.total].pts[c.k], full = share ? pw : pw * tv(c) / mx;
+        if (narrow) txt(svg, L, y - 4, c.label, { class: "tc-lab tc-tot" });
+        else txt(svg, L - 6, y + bh / 2 + 5, clip(c.label, 12.5, labW - 4), { class: "tc-lab tc-tot", "text-anchor": "end" });
+        let a = 0;
+        sk.forEach(k => { const x = S[k].pts[c.k]; if (x.k !== "num" || x.v <= 0) return; const w = full * x.v / tv(c);
+          el("rect", { x: L + a, y, width: Math.max(0.5, w), height: bh, fill: color(k) }, svg);
+          const lab = pname(k) + " " + (x.v / tv(c) * 100).toFixed(x.v / tv(c) < 0.1 ? 1 : 0) + "%";
+          if (w > textW(lab, 11) + 8) txt(svg, L + a + w / 2, y + bh / 2 + 4, lab, { class: "tc-in", "text-anchor": "middle", fill: ink(k) });
+          a += w; });
+        txt(svg, L + Math.max(a, full) + 6, y + bh / 2 + 5, t.s, { class: "tc-val tc-big" });
+        const hit = el("rect", { x: 0, y: y - 2, width: W, height: bh + 4, fill: "transparent", class: "tc-hit" }, svg);
+        const tipHtml = () => `<b>${esc(c.label)}</b>` + sk.concat([p.stackable.total]).map(k => { const x = S[k].pts[c.k]; return `<div><i style="background:${color(k)}"></i>${esc(S[k].short || S[k].label)}: ${esc(shown(x))}${k !== p.stackable.total && x.k === "num" ? ` (${(x.v / tv(c) * 100).toFixed(1)}%)` : ""}</div>`; }).join("") + sumNote(c);
+        hit.addEventListener("pointermove", ev => { showTip(ev, tipHtml()); flash(c.i); });
+        hit.addEventListener("pointerdown", ev => { showTip(ev, tipHtml()); flash(c.i); });
+      });
+      svg.setAttribute("aria-label", "Printed total" + (rows.length > 1 ? "s" : "") + " and their parts");
+      const c0 = rows[0], line = document.createElement("div"); line.className = "tc-parts";
+      line.innerHTML = `<b>${esc(c0.label)}</b> ` + esc(S[p.stackable.total].pts[c0.k].s) + " = " + sk.map(k => { const x = S[k].pts[c0.k];
+        return `<span><i style="background:${color(k)}"></i>${esc(pname(k))} ${esc(x.s || "—")}${x.k === "num" ? ` (${(x.v / tv(c0) * 100).toFixed(1)}%)` : ""}</span>`; }).join(" + ");
+      wrap.appendChild(line);
     }
     function sumNote(c) {
       const t = S[p.stackable.total].pts[c.k];
