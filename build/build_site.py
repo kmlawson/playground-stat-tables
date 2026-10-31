@@ -32,7 +32,7 @@ BOOKS = [
      "gaps": "The firm entries and the index of articles are transcribed; the foreword, the description of the museum and the alphabetical index of firms (which only repeats names and numbers) are not. Each two-page spread was read once: the firm entries by GPT-6.1 Sol (Codex), the index of articles by Gemini 3.8 Flash (Antigravity), with no checking by eye. Japanese characters the first reader could not make out (about 6% of firms had one) were re-read by Claude Sonnet 5.5 from the page image, which filled all but one; a reading was accepted only if it changed nothing but the unreadable characters. Japanese names and addresses keep the old character forms as printed. Firm numbers are as printed, including the book's own gaps in the numbering (e.g. no. 516) and a second no. 959.",
      "scan": "https://dl.ndl.go.jp/pid/1036387/1/{leaf}",
      "item": "https://dl.ndl.go.jp/pid/1036387",
-     "dir_only": True, "blank_marking": True},
+     "dir_only": True, "dir_index": "Index of Articles", "blank_marking": True},
     {"slug": "japan-railways-1931", "dir": "Railways_Annual_Report_1931", "model": "GPT-6.1 Sol and Gemini 3.8 Flash",
      "title": "Department of Railways Annual Report 1931", "subtitle": "Annual Report for the Year Ending March 31st, 1931 (English edition)",
      "publisher": "Department of Railways, Government of Japan, Tokyo, 1931",
@@ -2380,14 +2380,15 @@ def build_directory(book):
                     sec = sec[:1].upper() + sec[1:]
                 if sec.startswith("German Firms"):  # a list of its own, grouped by city
                     place, sec = sec, place
-                entries.append({"a": place, "s": sec, "n": names, "t": txt,
+                entries.append({"a": place, "s": sec, "n": names, "t": txt, **({"no": str(e["no"])} if e.get("no") else {}),
                                 "ne": flat(en.get("name") or ""), "te": side(en), "nj": flat(ja.get("name") or ""), "tj": side(ja),
                                 "p": e.get("page") or ", ".join(d.get("printed_pages") or []), "l": scan["label"], "u": scan["url"]})
                 continue
             sec = e.get("section") or ""
             if sec.isupper():
                 sec = sec.title()
-            entries.append({"a": e.get("appendix") or d.get("appendix") or "", "s": sec, "n": (e.get("name") or "").rstrip(" ,.") + (" " + e["mark"] if e.get("mark") else "") + (f' ({e["rank"]})' if e.get("rank") else ""),
+            app = e.get("appendix") or d.get("appendix") or ""
+            entries.append({"a": app, "s": sec, **({"k": "i"} if book.get("dir_index") and app.startswith(book["dir_index"]) else {}), "n": (e.get("name") or "").rstrip(" ,.") + (" " + e["mark"] if e.get("mark") else "") + (f' ({e["rank"]})' if e.get("rank") else ""),
                             "t": e.get("text") or "", "p": e.get("page") or ", ".join(d.get("printed_pages") or []),
                             "l": scan["label"], "u": scan["url"]})
     committed = os.path.join(HERE, "data", book["slug"] + "-directory.json")
@@ -2510,6 +2511,7 @@ mark{background:#f3e3a0;color:inherit}
 <label style="font-size:13px" id="jflab" hidden><input type="checkbox" id="jafirst"> 日本語 first</label>
 <label style="font-size:13px" id="arlab" hidden><input type="checkbox" id="altrom"> alt. romanization</label>
 <div id="cnt"></div></div></div>
+<style>.ixb{column-width:15em;column-gap:22px;margin:4px 0 6px;font-size:14.5px;line-height:1.35}.ix{break-inside:avoid;padding:1px 0}.ix a{color:var(--accent)}.ixp{font-size:13px;color:var(--muted);margin:0 0 18px}.ixp a{color:var(--accent)}.e.hit{outline:2px solid var(--accent)}</style>
 <main><div id="toc"></div><div id="out"></div><button id="more" hidden>Show more</button>
 <div class="llmwarn" role="note"><b>Warning:</b> These entries were transcribed by the vision model of __MODEL__. Before using any of them, you must verify specific details with the original source which is linked to whenever possible.</div></main>
 <script>
@@ -2552,13 +2554,25 @@ function run(){const q=norm($("#q").value.trim());const terms=q.split(/\s+/).fil
  $("#cnt").textContent=`${res.length.toLocaleString()} of ${E.length.toLocaleString()} entries`;
  $("#out").innerHTML="";shown=0;more(terms);
  try{history.replaceState(null,"",(q||v)?"#"+new URLSearchParams({q:$("#q").value.trim(),s:v}).toString():location.pathname)}catch(e){}anSync()}
+const FIRM=new Set(E.filter(e=>e.no).map(e=>e.no));
+const ixLinks=(t,terms)=>esc(t).replace(/\d+/g,d=>FIRM.has(d)?`<a href="#" data-f="${d}">${d}</a>`:d);
 function more(terms){terms=terms||norm($("#q").value.trim()).split(/\s+/).filter(Boolean);
- let h="",last=shown?groupOf(res[shown-1]):null;
- res.slice(shown,shown+STEP).forEach(e=>{const g=groupOf(e);if(g!==last){h+=`<div class="sec">${esc(g)}</div>`;last=g}
+ let h="",last=shown?groupOf(res[shown-1]):null,i=shown,end=Math.min(res.length,shown+STEP);
+ while(i<end){const e=res[i];const g=groupOf(e);if(g!==last){h+=`<div class="sec">${esc(g)}</div>`;last=g}
+  if(e.k==="i"){let j=i,pg=[],seen=new Set();h+=`<div class="ixb">`;
+   while(j<res.length&&res[j].k==="i"&&groupOf(res[j])===g){const x=res[j];h+=`<div class="ix"><b>${hl(x.n,terms)}</b> ${ixLinks(x.t,terms)}</div>`;
+    if(!seen.has(x.p)){seen.add(x.p);pg.push(x)}j++}
+   h+=`</div><div class="ixp">Pages: ${pg.map(x=>x.u?`<a href="${x.u}" target="_blank" rel="noopener">p. ${esc(x.p)}</a>`:"p. "+esc(x.p)).join(" · ")}</div>`;
+   i=j;end=Math.max(end,i);continue}
+  i++;
   const ln=(n,t)=>(n?`<b>${hl(n,terms)}</b> `:"")+`<span class="t">${hl(t||"",terms)}</span>`;
   const body=(e.nj!==undefined)?(JF?[[e.nj,e.tj],[e.ne,e.te]]:[[e.ne,e.te],[e.nj,e.tj]]).filter(x=>x[0]||x[1]).map((x,i)=>`<div class="l${i+1}">${ln(x[0],x[1])}</div>`).join(""):`<b>${hl(e.n,terms)}</b> <span class="t">${hl(e.t,terms)}</span>`;
-  h+=`<div class="e">${body}<div class="m">p. ${esc(e.p)}${e.u?` · <a href="${e.u}" target="_blank" rel="noopener">${esc(e.l)}</a>`:e.l?" · "+esc(e.l):""}</div></div>`});
- $("#out").insertAdjacentHTML("beforeend",h);shown=Math.min(res.length,shown+STEP);$("#more").hidden=shown>=res.length}
+  h+=`<div class="e"${e.no?` id="f-${esc(e.no)}"`:""}>${body}<div class="m">p. ${esc(e.p)}${e.u?` · <a href="${e.u}" target="_blank" rel="noopener">${esc(e.l)}</a>`:e.l?" · "+esc(e.l):""}</div></div>`}
+ $("#out").insertAdjacentHTML("beforeend",h);shown=Math.min(res.length,i);$("#more").hidden=shown>=res.length}
+function goFirm(no){const f=E.find(e=>e.no===no);if(!f)return;$("#q").value="";sel.value="A:"+f.a;run();
+ while(!document.getElementById("f-"+no)&&shown<res.length)more();const el=document.getElementById("f-"+no);
+ if(el){document.querySelectorAll(".e.hit").forEach(x=>x.classList.remove("hit"));el.classList.add("hit");el.scrollIntoView({block:"center"})}}
+$("#out").addEventListener("click",ev=>{const a=ev.target.closest("[data-f]");if(!a)return;ev.preventDefault();goFirm(a.dataset.f)});
 const groupOf=e=>disp(e.a)+(e.s?" — "+e.s:"");
 let tm;$("#q").addEventListener("input",()=>{clearTimeout(tm);tm=setTimeout(run,120)});
 sel.addEventListener("change",run);$("#toc").addEventListener("click",ev=>{const a=ev.target.closest("[data-s]");if(!a)return;ev.preventDefault();sel.value=a.dataset.s;run();scrollTo(0,0)});$("#nameonly").addEventListener("change",run);$("#more").addEventListener("click",()=>more());
