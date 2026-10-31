@@ -47,11 +47,11 @@ mark{background:#f3e3a0;color:inherit}
 <div class="bar"><div>
 <input id="q" type="search" placeholder="Filter names, places, firms, words…" autofocus>
 <select id="ap"><option value="">All sections</option></select>
-<label style="font-size:13px"><input type="checkbox" id="nameonly"> names only</label>
+<label style="font-size:13px" title="Show only the names, and search only in names"><input type="checkbox" id="nameonly"> names only</label>
 <label style="font-size:13px" id="jflab" hidden><input type="checkbox" id="jafirst"> 日本語 first</label>
 <label style="font-size:13px" id="arlab" hidden><input type="checkbox" id="altrom"> alt. romanization</label>
 <div id="cnt"></div></div></div>
-<style>.ixb{column-width:15em;column-gap:22px;margin:4px 0 6px;font-size:14.5px;line-height:1.35}.ix{break-inside:avoid;padding:1px 0}.ix a{color:var(--accent)}.ixp{font-size:13px;color:var(--muted);margin:0 0 18px}.ixp a{color:var(--accent)}.e.hit{outline:2px solid var(--accent)}</style>
+<style>.ixb{column-width:15em;column-gap:22px;margin:4px 0 6px;font-size:14.5px;line-height:1.35}.ix{break-inside:avoid;padding:1px 0}.ix a{color:var(--accent)}.ixp{font-size:13px;color:var(--muted);margin:0 0 18px}.ixp a{color:var(--accent)}.e.hit{outline:2px solid var(--accent)}.fno{font-weight:bold;color:var(--muted)}#out.nonly .e .t{display:none}#out.nonly .e{padding-top:4px;padding-bottom:4px}</style>
 <main><div id="toc"></div><div id="out"></div><button id="more" hidden>Show more</button>
 <div class="llmwarn" role="note"><b>Warning:</b> These entries were transcribed by the vision model of Sonnet 5.5 and Opus 5.5. Before using any of them, you must verify specific details with the original source which is linked to whenever possible.</div></main>
 <script>
@@ -92,7 +92,7 @@ function run(){const q=norm($("#q").value.trim());const terms=q.split(/\s+/).fil
  res=E.filter(e=>{if(v.startsWith("A:")&&e.a!==v.slice(2))return false;if(v.startsWith("G:")&&e.a+(e.s?" — "+e.s:"")!==v.slice(2))return false;
   const hay=no?e._n:e._all;return terms.every(t=>hay.includes(t))});
  $("#cnt").textContent=`${res.length.toLocaleString()} of ${E.length.toLocaleString()} entries`;
- $("#out").innerHTML="";shown=0;more(terms);
+ $("#out").innerHTML="";$("#out").classList.toggle("nonly",no);shown=0;more(terms);
  try{history.replaceState(null,"",(q||v)?"#"+new URLSearchParams({q:$("#q").value.trim(),s:v}).toString():location.pathname)}catch(e){}anSync()}
 const FIRM=new Set(E.filter(e=>e.no).map(e=>e.no));
 const ixLinks=(t,terms)=>esc(t).replace(/\d+/g,d=>FIRM.has(d)?`<a href="#" data-f="${d}">${d}</a>`:d);
@@ -106,7 +106,7 @@ function more(terms){terms=terms||norm($("#q").value.trim()).split(/\s+/).filter
    i=j;end=Math.max(end,i);continue}
   i++;
   const ln=(n,t)=>(n?`<b>${hl(n,terms)}</b> `:"")+`<span class="t">${hl(t||"",terms)}</span>`;
-  const body=(e.nj!==undefined)?(JF?[[e.nj,e.tj],[e.ne,e.te]]:[[e.ne,e.te],[e.nj,e.tj]]).filter(x=>x[0]||x[1]).map((x,i)=>`<div class="l${i+1}">${ln(x[0],x[1])}</div>`).join(""):`<b>${hl(e.n,terms)}</b> <span class="t">${hl(e.t,terms)}</span>`;
+  const body=(e.nj!==undefined)?(JF?[[e.nj,e.tj],[e.ne,e.te]]:[[e.ne,e.te],[e.nj,e.tj]]).filter(x=>x[0]||x[1]).map((x,i)=>`<div class="l${i+1}">${i===0&&e.no?`<span class="fno">${esc(e.no)}.</span> `:""}${ln(x[0],x[1])}</div>`).join(""):`<b>${hl(e.n,terms)}</b> <span class="t">${hl(e.t,terms)}</span>`;
   h+=`<div class="e"${e.no?` id="f-${esc(e.no)}"`:""}>${body}<div class="m">p. ${esc(e.p)}${e.u?` · <a href="${e.u}" target="_blank" rel="noopener">${esc(e.l)}</a>`:e.l?" · "+esc(e.l):""}</div></div>`}
  $("#out").insertAdjacentHTML("beforeend",h);shown=Math.min(res.length,i);$("#more").hidden=shown>=res.length}
 function goFirm(no){const f=E.find(e=>e.no===no);if(!f)return;$("#q").value="";sel.value="A:"+f.a;run();

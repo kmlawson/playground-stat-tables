@@ -29,7 +29,7 @@ BOOKS = [
      "publisher": "Tokyo Commercial & Industrial Museum (府立東京商工奨勵館), Tokyo, December 1939",
      "blurb": "A bilingual directory of the Tokyo firms engaged in export and import, compiled by the prefectural Tokyo Commercial and Industrial Museum for foreign buyers. Its 1,305 numbered firm entries (pp. 1–218, with a supplement) give each firm's name and address in English and in Japanese, its kind of business (manufacturers, traders), cable address, telegraph codes and bankers, and what it exports and imports, usually with the countries traded with. An alphabetical index of articles, separately for exports and imports, lists the firm numbers dealing in each commodity, from abrasives to zip fasteners.",
      "source": "LLM-transcribed from the National Diet Library scan (public domain).",
-     "gaps": "The firm entries and the index of articles are transcribed; the foreword, the description of the museum and the alphabetical index of firms (which only repeats names and numbers) are not. Each two-page spread was read once: the firm entries by GPT-6.1 Sol (Codex), the index of articles by Gemini 3.8 Flash (Antigravity), with no checking by eye. Japanese characters the first reader could not make out (about 6% of firms had one) were re-read by Claude Sonnet 5.5 from the page image, which filled all but one; a reading was accepted only if it changed nothing but the unreadable characters. Japanese names and addresses keep the old character forms as printed. Firm numbers are as printed, including the book's own gaps in the numbering (e.g. no. 516) and a second no. 959.",
+     "gaps": "The firm entries and the index of articles are transcribed; the foreword, the description of the museum and the alphabetical index of firms (which only repeats names and numbers) are not. Each two-page spread was read once: the firm entries by GPT-6.1 Sol (Codex), the index of articles by Gemini 3.8 Flash (Antigravity), with no checking by eye. Japanese characters the first reader could not make out (about 6% of firms had one) were re-read by Claude Sonnet 5.5 from the page image, which filled all but one; a reading was accepted only if it changed nothing but the unreadable characters. Japanese names and addresses keep the old character forms as printed. Firm numbers are as printed, including the book's own gaps in the numbering (e.g. nos. 516 and 798); the index of articles also cites nos. 798 and 1313, which have no entry in the directory. Firm numbers in the index link to the firm's entry.",
      "scan": "https://dl.ndl.go.jp/pid/1036387/1/{leaf}",
      "item": "https://dl.ndl.go.jp/pid/1036387",
      "dir_only": True, "dir_index": "Index of Articles", "blank_marking": True},
@@ -2507,11 +2507,11 @@ mark{background:#f3e3a0;color:inherit}
 <div class="bar"><div>
 <input id="q" type="search" placeholder="Filter names, places, firms, words…" autofocus>
 <select id="ap"><option value="">All sections</option></select>
-<label style="font-size:13px"><input type="checkbox" id="nameonly"> names only</label>
+<label style="font-size:13px" title="Show only the names, and search only in names"><input type="checkbox" id="nameonly"> names only</label>
 <label style="font-size:13px" id="jflab" hidden><input type="checkbox" id="jafirst"> 日本語 first</label>
 <label style="font-size:13px" id="arlab" hidden><input type="checkbox" id="altrom"> alt. romanization</label>
 <div id="cnt"></div></div></div>
-<style>.ixb{column-width:15em;column-gap:22px;margin:4px 0 6px;font-size:14.5px;line-height:1.35}.ix{break-inside:avoid;padding:1px 0}.ix a{color:var(--accent)}.ixp{font-size:13px;color:var(--muted);margin:0 0 18px}.ixp a{color:var(--accent)}.e.hit{outline:2px solid var(--accent)}</style>
+<style>.ixb{column-width:15em;column-gap:22px;margin:4px 0 6px;font-size:14.5px;line-height:1.35}.ix{break-inside:avoid;padding:1px 0}.ix a{color:var(--accent)}.ixp{font-size:13px;color:var(--muted);margin:0 0 18px}.ixp a{color:var(--accent)}.e.hit{outline:2px solid var(--accent)}.fno{font-weight:bold;color:var(--muted)}#out.nonly .e .t{display:none}#out.nonly .e{padding-top:4px;padding-bottom:4px}</style>
 <main><div id="toc"></div><div id="out"></div><button id="more" hidden>Show more</button>
 <div class="llmwarn" role="note"><b>Warning:</b> These entries were transcribed by the vision model of __MODEL__. Before using any of them, you must verify specific details with the original source which is linked to whenever possible.</div></main>
 <script>
@@ -2552,7 +2552,7 @@ function run(){const q=norm($("#q").value.trim());const terms=q.split(/\s+/).fil
  res=E.filter(e=>{if(v.startsWith("A:")&&e.a!==v.slice(2))return false;if(v.startsWith("G:")&&e.a+(e.s?" — "+e.s:"")!==v.slice(2))return false;
   const hay=no?e._n:e._all;return terms.every(t=>hay.includes(t))});
  $("#cnt").textContent=`${res.length.toLocaleString()} of ${E.length.toLocaleString()} entries`;
- $("#out").innerHTML="";shown=0;more(terms);
+ $("#out").innerHTML="";$("#out").classList.toggle("nonly",no);shown=0;more(terms);
  try{history.replaceState(null,"",(q||v)?"#"+new URLSearchParams({q:$("#q").value.trim(),s:v}).toString():location.pathname)}catch(e){}anSync()}
 const FIRM=new Set(E.filter(e=>e.no).map(e=>e.no));
 const ixLinks=(t,terms)=>esc(t).replace(/\d+/g,d=>FIRM.has(d)?`<a href="#" data-f="${d}">${d}</a>`:d);
@@ -2566,7 +2566,7 @@ function more(terms){terms=terms||norm($("#q").value.trim()).split(/\s+/).filter
    i=j;end=Math.max(end,i);continue}
   i++;
   const ln=(n,t)=>(n?`<b>${hl(n,terms)}</b> `:"")+`<span class="t">${hl(t||"",terms)}</span>`;
-  const body=(e.nj!==undefined)?(JF?[[e.nj,e.tj],[e.ne,e.te]]:[[e.ne,e.te],[e.nj,e.tj]]).filter(x=>x[0]||x[1]).map((x,i)=>`<div class="l${i+1}">${ln(x[0],x[1])}</div>`).join(""):`<b>${hl(e.n,terms)}</b> <span class="t">${hl(e.t,terms)}</span>`;
+  const body=(e.nj!==undefined)?(JF?[[e.nj,e.tj],[e.ne,e.te]]:[[e.ne,e.te],[e.nj,e.tj]]).filter(x=>x[0]||x[1]).map((x,i)=>`<div class="l${i+1}">${i===0&&e.no?`<span class="fno">${esc(e.no)}.</span> `:""}${ln(x[0],x[1])}</div>`).join(""):`<b>${hl(e.n,terms)}</b> <span class="t">${hl(e.t,terms)}</span>`;
   h+=`<div class="e"${e.no?` id="f-${esc(e.no)}"`:""}>${body}<div class="m">p. ${esc(e.p)}${e.u?` · <a href="${e.u}" target="_blank" rel="noopener">${esc(e.l)}</a>`:e.l?" · "+esc(e.l):""}</div></div>`}
  $("#out").insertAdjacentHTML("beforeend",h);shown=Math.min(res.length,i);$("#more").hidden=shown>=res.length}
 function goFirm(no){const f=E.find(e=>e.no===no);if(!f)return;$("#q").value="";sel.value="A:"+f.a;run();
