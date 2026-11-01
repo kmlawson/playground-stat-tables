@@ -1,0 +1,19 @@
+You are matching recurring statistical tables across editions of the same series, so a website can link "similar tables" between editions and show them side by side.
+Below is one LISTING: every table in one topic from each edition, one line per table:
+  slug | id | chapter | printed pages | title | caption | column headings | first-column row labels
+Build the families from scratch over all editions in the listing.
+
+Same recurring table = same subject AND the same kind of breakdown (e.g. "population by prefecture", "imports by country", "births by year") AND comparable measures; years, units, title wording, column order, row counts and language may differ. NOT the same: a different breakdown, sub-population, region or unit of analysis. A family must span at least two editions; include two or more tables from one edition only when that edition split the same table into pieces. A table belongs to at most one family. Be conservative: a wrong link is worse than a missing one.
+Return ONLY JSON (no prose, no fences): {"families": [{"label": "<short neutral English name>", "members": ["<slug>/<id>", ...], "note": ""}]} — ALL families for this listing (existing ones with any new members added, plus new ones), members copied exactly from the listing as slug/id, in edition order.
+
+LISTING:
+# Series: The Japan Year Book — topic: Women's Problems
+# Editions: japan-1919-20, japan-1924-25
+# Format: slug | id | chapter | pp. | title | caption | columns | first-column row labels
+
+## japan-1919-20
+japan-1919-20 | p0381_1 | Women Problem | 313 | [Marriage Record of Alumni of the Tokyo Higher Women's School] |  | Year; No. of Graduates; Married — No.; Married — %; Unmarried — No.; Unmarried — %; Death — No.; Death — % | 1879–88; 1889–98; 1899–08; 1909–18; Total
+## japan-1924-25
+japan-1924-25 | p0301_1 | Women Problem |  | Female Teachers in Elementary & Girls' High Schools |  | ; 1918; 1918 — Male; 1919; 1919 — Male; 1920; 1920 — Male | Elementary; Girls' High
+japan-1924-25 | p0302_1 | Women Problem | 248 | Monthly Earnings of Occupational Women in Tokyo |  | Profession; Maximum; Minimum; Average with extra | Teachers; Typists; Office girls; Sales ,,; Telephone ,,
+japan-1924-25 | p0307_1 | Women Problem | 253 | [Alumnae Marriage Record of the Tokyo Women's Higher Normal School] |  | Year; No. of graduates; Married — Count; Married — %; Unmarried — Count; Unmarried — %; Death — Count; Death — % | 1879-88; 1889-98; 1899-08; 1909-18; Total

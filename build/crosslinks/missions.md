@@ -72,3 +72,4 @@ TU1 | done | taiwan-tokei update (1897, 1898 added): land, population, education
 TU2 | done | taiwan-tokei update: police, prisons, agriculture, fisheries, mining, manufacturing
 TU3 | done | taiwan-tokei update: commerce-and-banking, monopolies, foreign-trade, transport, public-finance, officials
 FU  | done | japan-fea: added 1901 (No. I) and 1902 (No. II); topicmaps/japan-fea.json; agents FU2, FU3 (2026-11-01)
+SN  | done | japan-sanitary: 1877 cholera table linked to 1907-08 Tables XV/XXV (hand-made, main session, 2026-11-01)

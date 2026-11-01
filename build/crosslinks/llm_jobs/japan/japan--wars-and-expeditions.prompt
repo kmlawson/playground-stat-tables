@@ -1,0 +1,19 @@
+You are matching recurring statistical tables across editions of the same series, so a website can link "similar tables" between editions and show them side by side.
+Below is one LISTING: every table in one topic from each edition, one line per table:
+  slug | id | chapter | printed pages | title | caption | column headings | first-column row labels
+Build the families from scratch over all editions in the listing.
+
+Same recurring table = same subject AND the same kind of breakdown (e.g. "population by prefecture", "imports by country", "births by year") AND comparable measures; years, units, title wording, column order, row counts and language may differ. NOT the same: a different breakdown, sub-population, region or unit of analysis. A family must span at least two editions; include two or more tables from one edition only when that edition split the same table into pieces. A table belongs to at most one family. Be conservative: a wrong link is worse than a missing one.
+Return ONLY JSON (no prose, no fences): {"families": [{"label": "<short neutral English name>", "members": ["<slug>/<id>", ...], "note": ""}]} — ALL families for this listing (existing ones with any new members added, plus new ones), members copied exactly from the listing as slug/id, in edition order.
+
+LISTING:
+# Series: The Japan Year Book — topic: Wars and Expeditions
+# Editions: japan-1917, japan-1918, japan-1919-20
+# Format: slug | id | chapter | pp. | title | caption | columns | first-column row labels
+
+## japan-1917
+japan-1917 | p0833_1 | Japan and the European War | 703 | [War Risks Underwritten Under the War Insurance Compensation Law] | (In ¥1,000) | Underwriters; Hull; Cargoes; Premium; Reinsurance — Hull; Reinsurance — Cargoes; Reinsurance — Premium | Japanese ......; Foreign ......; Total......
+## japan-1918
+japan-1918 | p0879_1 | Japan and the European War | 769,770 | [Disbursements by Japan to the Allies] |  | Item; Amount | Disbursement made for Britain; „ „ Russia; „ „ France; Particulars of the British account are as follows:—; 1. British …
+## japan-1919-20
+japan-1919-20 | p0883_1 | Siberian Expedition | 791 | Troops Despatched by Allies |  | Powers; Max. strength; Sept. 19 | Japanese; American; British; French; Czechs; Rumanian, etc; Italian; Chinese
