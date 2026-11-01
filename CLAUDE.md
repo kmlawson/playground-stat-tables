@@ -148,6 +148,10 @@ abandoned after 12 of 50 missions with about 68% of cells blank (5068 px per spr
    every key, ID and limit and saves them in `build/tags/published/assignments.json` (stage
    `new-book-full-content`); build_site then shows them under table titles and on the topic pages (not in the
    sidebar table list). Commit the batches/results folder `build/tags/runs/new-<slug>/` with the book.
+10d. **Contents check before publishing (user, 2026-11-01: more important than tags or similar tables).** Every book,
+   whatever pipeline read it (agents, llm CLI, agy, Codex), gets its FULL printed contents transcribed into `_work/toc.json`
+   with leaves before the first publish; after the build confirm `data/<slug>-toc.json` exists and has the book's
+   chapters, sections and listed tables. A chapter-only list is not enough when the book prints a fuller contents.
 11. **Publish** (below). Note queued books in `../queue.md`; record per-book state in `_work/STATUS.md` (every
    book, including `llm`-pipeline books: method, models, counts, what is missing, publish commit).
 12. **Clean up after publishing.** Copy downloaded originals (not plan copies, crops or sheets) to
