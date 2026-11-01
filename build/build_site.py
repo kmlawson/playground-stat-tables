@@ -100,6 +100,15 @@ BOOKS = [
      "gaps": "Each page was read once by a Claude Haiku 5.5 agent (the text sections and the first half of the statistics) or a Claude Sonnet 5.5 agent (the dense statistical tables), from full-resolution crops, with sideways pages turned upright; pages the first Haiku reader marked hard were read again from scratch by a Sonnet 5.5 agent, whose reading replaces the first. Nothing was checked by eye. Unreadable figures are marked [?]; totals that do not add up are kept as printed. Most statistical tables are printed across two facing pages and are given here as two tables (left and right halves); right halves carry the row labels of the facing page. Only tables are transcribed; the running text is not. The scan repeats printed pp. 144–145 (read once).",
      "scan": "https://archive.org/details/annualreportmin03monbgoog/page/n{leaf}/mode/1up",
      "item": "https://archive.org/details/annualreportmin03monbgoog", "blank_marking": True},
+    {"slug": "japan-education-1895", "dir": "Mombusho_1895", "model": "Claude Haiku 5.5 and Sonnet 5.5",
+     "title": "Annual Report of the Minister of State for Education 1895",
+     "subtitle": "Twenty-third Annual Report of the Minister of State for Education, for the Twenty-eighth Year of Meiji (1895)",
+     "publisher": "Department of Education (Mombushō), Tokyo, 1897",
+     "blurb": "The English edition of the Mombushō's annual report for 1895, the year of the Sino-Japanese War. Part I sketches the business of the Department and its officials and expenditure; Part II reports on elementary schools, apprentices' schools, supplementary technical schools, schools for the blind and dumb, kindergartens, normal, middle and higher schools, higher female schools, the Imperial University, special, technical and miscellaneous schools, libraries, teachers' licences, foreign instructors, school inspectors and committees, the Tokyo Academy, the Earthquake Investigation Committee, school books, educational societies, degrees, meteorology, pensions and public school finance. Part III gives 71 statistical tables, mostly by Fu and Ken: school population, children receiving and not receiving instruction, elementary schools by size and course, teachers and their salaries, classes, pupils, attendance, graduates and fees; each kind of secondary, normal, higher and special school; libraries; teachers' examinations and licences; years of service and salaries of school officials; and the expenditure, income and property of the public schools of Fu and Ken, Gun, cities, towns and villages, with pensions.",
+     "source": "Transcribed by Claude agents from the Internet Archive (Google Books) scan.",
+     "gaps": "Each page was read once by a Claude Haiku 5.5 agent (the text sections and the first statistical tables) or a Claude Sonnet 5.5 agent (the dense statistical tables), from full-resolution crops, with sideways pages turned upright; pages the first Haiku reader marked hard were read again from scratch by a Sonnet 5.5 agent, whose reading replaces the first. Nothing was checked by eye. Unreadable figures are marked [?]; totals that do not add up are kept as printed. Many statistical tables are printed across two facing pages and are given as two tables (left and right halves). Only tables are transcribed; the running text is not. The Google scan is defective in Part III: it repeats several runs of pages (read once here) and lacks printed pp. 140, 143, 146–147, 151, 154–155, 250–255, 272–277 and 316–317, so Tables 9, 46, 47, 53 and 54 are missing and Tables 3–6, 8, 55 and 69 are incomplete.",
+     "scan": "https://archive.org/details/annualreportmin00monbgoog/page/n{leaf}/mode/1up",
+     "item": "https://archive.org/details/annualreportmin00monbgoog", "blank_marking": True},
     {"slug": "japan-1905", "dir": "Japan_Year_Book_1905", "title": "The Japan Year Book 1905",
      "publisher": "The \"Japan Year Book\" Office, Tokyo, 1905",
      "blurb": "The first edition of The Japan Year Book, compiled during the Russo-Japanese War: geography, population, the Imperial Court, politics, finance, banking, industry, trade, education, the army and navy, communications, a Who's Who (\"Contemporary Worthies\"), diplomacy, the press, Formosa, Korea, and an appended import tariff.",
@@ -1834,7 +1843,7 @@ def printed_toc(b, tables=()):
         lf = e.get("leaf") or e.get("found_leaf")
         at = by_page.key(lf) if lf else None
         m = re.match(r"\s*(\d+)", str(e.get("page", "")))
-        if m and "?" not in str(e.get("page")):  # a half-read page number would send the link astray
+        if m and "?" not in str(e.get("page")) and not e.get("no_scan"):  # a half-read page number would send the link astray; no_scan: page missing from the scan
             pg = int(m.group(1))
             if pg < top - 50:  # page numbering starts again (appendices)
                 run, top = run + 1, 0
