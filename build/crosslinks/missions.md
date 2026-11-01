@@ -71,3 +71,4 @@ CY  | done | chinese-yb: new series (Chinese Year Book 1937, 1938-39, 1944-45), 
 TU1 | done | taiwan-tokei update (1897, 1898 added): land, population, education, religion, social-work, public-health, courts
 TU2 | done | taiwan-tokei update: police, prisons, agriculture, fisheries, mining, manufacturing
 TU3 | done | taiwan-tokei update: commerce-and-banking, monopolies, foreign-trade, transport, public-finance, officials
+FU  | done | japan-fea: added 1901 (No. I) and 1902 (No. II); topicmaps/japan-fea.json; agents FU2, FU3 (2026-11-01)
