@@ -93,9 +93,12 @@ abandoned after 12 of 50 missions with about 68% of cells blank (5068 px per spr
    version (`blind/*.first.json`) and note every change in the table. (c) Books with many `[?]` (faint print):
    a re-read pass over the `[?]` cells only (`REREAD_TASK.md`).
 7. **Normalise** chapter names (one per printed chapter, numbered as printed), titles, duplicate files.
-8. **English layer for non-English books** (Korea/Japanese books): `build/translations/<slug>.json` with
+8. **English layer for every Japanese, Chinese and Korean book — REQUIRED before publishing** (user, 2026-11-03,
+   after 日本都市年鑑 1931 went out without it): `build/translations/<slug>.json` with
    `"_chapters"` (English chapter names) and per table `{"t": English title, "d": one-sentence description}`,
-   written by Sonnet agents from the JSON only (`TRANSLATE_TASK.md`, McCune–Reischauer / Hepburn).
+   written by Sonnet agents from the JSON only (`../_pipeline/kits/ndl-tokei/TRANSLATE_TASK.md`; Hepburn for
+   Japanese, McCune–Reischauer for Korean, pinyin/Wade-Giles as the book's period usage for Chinese). Check one
+   entry per table file before building; a book in an East Asian language is not finished without it.
 9a. **Errata slip** (正誤表): look at every front frame (covers, endpapers, title leaf) for a pasted slip — it is
    easy to miss on the contact sheets (南洋 第三回 2026-10-27). Transcribe it with the contents into `_work/errata.json`
    and attach each correction as a transcriber note to its table; the figures stay as printed.
