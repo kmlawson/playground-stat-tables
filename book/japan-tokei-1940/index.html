@@ -255,13 +255,15 @@ function fitGrid(){const g=$(".chgrid");if(!g)return;g.style.removeProperty("--c
  for(let k=0;k<9;k++){const mid=(lo+hi)/2;if(fits(mid))lo=mid;else hi=mid}
  g.style.setProperty("--chfs",lo.toFixed(2)+"px")}
 let fitRaf=0;addEventListener("resize",()=>{if(mode!=="home"||DIRCARDS)return;cancelAnimationFrame(fitRaf);fitRaf=requestAnimationFrame(fitGrid)});
+// On narrow screens (single-column layout, <=760px) the window scrolls, not #main: bring the top of #main into view.
+function mainTop(){const m=$("#main");m.scrollTop=0;if(matchMedia("(max-width:760px)").matches){const y=m.getBoundingClientRect().top+scrollY;if(scrollY>y||scrollY<y-innerHeight/2)scrollTo(0,y)}}
 function showOne(id){const t=T.find(x=>x.id===id)||T[0];if(!t){$("#main").innerHTML="<p>No tables yet.</p>";return}
- mode="one";cur=t.id;$("#main").innerHTML=tableHTML(t,$("#q").value.trim())+LLMWARN;$("#main").scrollTop=0;
+ mode="one";cur=t.id;$("#main").innerHTML=tableHTML(t,$("#q").value.trim())+LLMWARN;mainTop();
  document.querySelectorAll("#main table").forEach(initSort);chartsGo();mark();if(cmpS)showCmp();anSync()}
 function showChapter(ch){const q=$("#q").value.trim();const ts=filtered();mode="chapter";cur=null;closeCmp();
  let h=`<div class="chhead"><a href="#">All chapters</a> · Chapter</div><h2 style="margin-bottom:6px">${esc(ch)}${chE(ch,"che2")}</h2><div class="chsum">${ts.length} table${ts.length===1?"":"s"}${$("#flag").checked||q?" matching the current filters":""}</div>`+xlChapter(ch);
  h+=(ts.map(t=>tableHTML(t,q)).join("")||"<p>No tables match.</p>")+LLMWARN;
- $("#main").innerHTML=h;$("#main").scrollTop=0;document.querySelectorAll("#main table").forEach(initSort);chartsGo();
+ $("#main").innerHTML=h;mainTop();document.querySelectorAll("#main table").forEach(initSort);chartsGo();
  if(enterAt&&ts.length){const t=enterAt==="first"?ts[0]:ts[ts.length-1];cur=t.id;const el=document.getElementById("t-"+t.id);if(el&&enterAt==="last")el.scrollIntoView({block:"start"});
   const a=document.querySelector(`#list a[href="#${CSS.escape(t.id)}"]`);if(a)a.scrollIntoView({block:"nearest"})}
  enterAt=null;mark();anSync()}
