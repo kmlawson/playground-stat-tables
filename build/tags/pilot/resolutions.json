@@ -1,0 +1,239 @@
+{
+  "schema_version": 1,
+  "vocabulary_version": "1.0.2-pilot",
+  "status": "pilot classification questions resolved",
+  "decisions": {
+    "korea-1942:p0131_1": {
+      "topics": [
+        "sport"
+      ],
+      "tags": [
+        "sports-participation"
+      ],
+      "flags": [],
+      "rationale": "The full 24-sport list counts entrants in the 1940 Korea Shrine athletic meet, including combined male/female gymnastics and a total of 20,731. It measures participation, with no competitive outcomes; the shrine name and education chapter do not independently establish religion or education as table subjects.",
+      "reason": "Adopt the revised specific tag and full-record boundary review."
+    },
+    "manchuria-1939:p0091_1": {
+      "topics": [
+        "population",
+        "agriculture"
+      ],
+      "tags": [
+        "migration",
+        "households",
+        "arable-land"
+      ],
+      "flags": [],
+      "rationale": "All 23 self-protective villages are grouped into dated settlement cohorts, with household/member counts and cultivated hectares. These support migration, household demographics and cultivated land. No nationality, sponsoring foreign state or explicit relation to colonial expansion appears in the complete record, so the narrower settler-migration tag and either imperial topic lack sufficient evidence.",
+      "reason": "Close the assignment question conservatively: the record supports migration, households and cultivation. Colonial sponsorship is not established, so no narrower settler or imperial label is required. This resolves tagging without determining the historical identity or sponsorship of these villages."
+    },
+    "nanyo-tokei-1937:p0041_3": {
+      "topics": [
+        "government"
+      ],
+      "tags": [
+        "hunting"
+      ],
+      "flags": [],
+      "rationale": "Both parts count 狩獵免狀 licences by year and branch office, dividing 遊獵, 職獵 and 學術研究其ノ他. This is hunting licensing administration spanning recreation, professional activity and research. The foreign-licence annotations and note that islanders have no applicable entries are incidental, not an Indigenous-peoples subject.",
+      "reason": "Adopt the revised specific tag and full-record boundary review."
+    },
+    "japan-1937:p0409_1": {
+      "topics": [
+        "economy"
+      ],
+      "tags": [
+        "economic-indicators"
+      ],
+      "flags": [],
+      "rationale": "The two complete parts combine monthly wholesale prices, exports, imports, industrial production, railway freight, bank clearings, note issue and stock quotations. This is a broad economic indicator set; choosing three individual components would misrepresent its scope.",
+      "reason": "Adopt the revised specific tag and full-record boundary review."
+    },
+    "japan-tokei-1938:p0142_1": {
+      "topics": [
+        "welfare"
+      ],
+      "tags": [
+        "welfare-institutions"
+      ],
+      "flags": [],
+      "rationale": "All year and locality rows enumerate social-work facilities across coordination/research, child protection, housing and other economic protection, employment relief, poor relief, medical protection and judicial aftercare. The aggregate welfare-institutions tag describes the full multi-function inventory, including the colonial rows, without elevating incidental facility types to separate subjects.",
+      "reason": "Adopt the revised specific tag and full-record boundary review."
+    },
+    "korea-1935-36:p0167_1": {
+      "topics": [
+        "transportation"
+      ],
+      "tags": [
+        "trams"
+      ],
+      "flags": [],
+      "rationale": "The complete list explicitly identifies urban tramways in Keijo, Fusan and Heijo, plus another Keijo line and others, with kilometres and a total. Confirmed urban tram content supports trams at table level; the less-specific Keijo line and Others do not justify a speculative additional railways tag.",
+      "reason": "Retain the tram tag supported by substantial confirmed urban systems. The ambiguous minor line is a limit on row-level interpretation, not a blocker to this table-level assignment."
+    },
+    "taiwan-tokei-1933:p0353_2": {
+      "topics": [
+        "narcotics",
+        "trade"
+      ],
+      "tags": [
+        "opium-licensing"
+      ],
+      "flags": [],
+      "rationale": "The annual and locality rows count the same five commercial categories: opium-paste wholesalers, retailers, medicinal-opium wholesalers and smoking-utensil makers and sellers. Narcotic licensing is principal; commercial distribution substantially organises every category and supports trade as the second topic. Drug consumption, treatment and seizures are not measured; the health chapter does not establish health.",
+      "reason": "Accept the content-based repeated-family review; all three commercial licence inventories use narcotics/trade, while the mixed sugar/opium record retains its distinct scope."
+    },
+    "taiwan-tokei-1938:p0272_2": {
+      "topics": [
+        "narcotics",
+        "trade"
+      ],
+      "tags": [
+        "opium-licensing"
+      ],
+      "flags": [],
+      "rationale": "The annual and locality rows count the same five commercial categories: opium-paste wholesalers, retailers, medicinal-opium wholesalers and smoking-utensil makers and sellers. Narcotic licensing is principal; commercial distribution substantially organises every category and supports trade as the second topic. Drug consumption, treatment and seizures are not measured; the health chapter does not establish health.",
+      "reason": "Accept the content-based repeated-family review; all three commercial licence inventories use narcotics/trade, while the mixed sugar/opium record retains its distinct scope."
+    },
+    "taiwan-tokei-1942:p0129_1": {
+      "topics": [
+        "narcotics",
+        "trade"
+      ],
+      "tags": [
+        "opium-licensing"
+      ],
+      "flags": [],
+      "rationale": "The annual and locality rows count the same five commercial categories: opium-paste wholesalers, retailers, medicinal-opium wholesalers and smoking-utensil makers and sellers. Narcotic licensing is principal; commercial distribution substantially organises every category and supports trade as the second topic. Drug consumption, treatment and seizures are not measured; the health chapter does not establish health.",
+      "reason": "Accept the content-based repeated-family review; all three commercial licence inventories use narcotics/trade, while the mixed sugar/opium record retains its distinct scope."
+    },
+    "korea-1922-23:p0254_1": {
+      "topics": [
+        "education",
+        "finance"
+      ],
+      "tags": [
+        "education-finance"
+      ],
+      "flags": [],
+      "rationale": "The annual series measures school associations, their supporting population, budgets and average household funding burden. Education-finance represents the whole dedicated funding table; the population is its financing constituency.",
+      "reason": "Use education-finance consistently across this repeated series. The school funding subject is established; a separate taxation tag is unnecessary without a substantive tax breakdown. Preserve the source-description conflict rather than infer a nationality label."
+    },
+    "korea-1923-24:p0205_1": {
+      "topics": [
+        "education",
+        "finance"
+      ],
+      "tags": [
+        "education-finance"
+      ],
+      "flags": [],
+      "rationale": "The annual series measures school associations, their supporting population, budgets and average household funding burden. Education-finance represents the whole dedicated funding table; the population is its financing constituency.",
+      "reason": "Use education-finance consistently across this repeated series. The school funding subject is established; a separate taxation tag is unnecessary without a substantive tax breakdown. Preserve the source-description conflict rather than infer a nationality label."
+    },
+    "korea-1924-25:p0190_1": {
+      "topics": [
+        "education",
+        "finance"
+      ],
+      "tags": [
+        "education-finance"
+      ],
+      "flags": [],
+      "rationale": "The annual series measures school associations, their supporting population, budgets and average household funding burden. Education-finance represents the whole dedicated funding table; the population is its financing constituency.",
+      "reason": "Use education-finance consistently across this repeated series. The school funding subject is established; a separate taxation tag is unnecessary without a substantive tax breakdown. Preserve the source-description conflict rather than infer a nationality label."
+    },
+    "korea-1926-27:p0198_1": {
+      "topics": [
+        "education",
+        "finance"
+      ],
+      "tags": [
+        "education-finance"
+      ],
+      "flags": [],
+      "rationale": "The annual series measures school associations, their supporting population, budgets and average household funding burden. Education-finance represents the whole dedicated funding table; the population is its financing constituency. The supplied title and context conflict about the school population; neither interpretation changes these subject tags.",
+      "reason": "Use education-finance consistently across this repeated series. The school funding subject is established; a separate taxation tag is unnecessary without a substantive tax breakdown. Preserve the source-description conflict rather than infer a nationality label."
+    },
+    "korea-1927-28:p0159_1": {
+      "topics": [
+        "education",
+        "finance"
+      ],
+      "tags": [
+        "education-finance"
+      ],
+      "flags": [],
+      "rationale": "The annual series measures school associations, their supporting population, budgets and average household funding burden. Education-finance represents the whole dedicated funding table; the population is its financing constituency.",
+      "reason": "Use education-finance consistently across this repeated series. The school funding subject is established; a separate taxation tag is unnecessary without a substantive tax breakdown. Preserve the source-description conflict rather than infer a nationality label."
+    },
+    "japan-tokei-1935:p0092_3": {
+      "topics": [
+        "manufacturing",
+        "narcotics"
+      ],
+      "tags": [
+        "sugar",
+        "opium",
+        "opium-licensing"
+      ],
+      "flags": [],
+      "rationale": "This is not a fourth opium-business-licensing inventory. One full part measures sugar and molasses output; the other measures raw-opium stocks, licensed smokers by source population/sex and prepared-opium sales. Both substantial subjects justify its distinct manufacturing/narcotics assignment.",
+      "reason": "Accept the content-based repeated-family review; all three commercial licence inventories use narcotics/trade, while the mixed sugar/opium record retains its distinct scope."
+    },
+    "japan-manchoukuo-1940:p0034_1": {
+      "topics": [
+        "economy",
+        "labour"
+      ],
+      "tags": [
+        "economic-indicators"
+      ],
+      "flags": [],
+      "rationale": "Annual and monthly business indicators combine wholesale and retail prices, living costs, labour earnings, wage rates, employment and industrial production. The aggregate tag represents the complete multi-domain barometer; labour is also a substantial organised component.",
+      "reason": "Apply the aggregate-summary rule introduced during calibration to the other matching pilot records. Retain the substantial high-level subjects supported by the full body."
+    },
+    "japan-manchoukuo-1934:p1-0367_1": {
+      "topics": [
+        "economy",
+        "labour"
+      ],
+      "tags": [
+        "economic-indicators"
+      ],
+      "flags": [],
+      "rationale": "The complete business barometer combines several wholesale and retail price indices with actual earnings, wage rates and employment. Economic-indicators covers the full set, with labour a substantial organised component.",
+      "reason": "Apply the aggregate-summary rule introduced during calibration to the other matching pilot records. Retain the substantial high-level subjects supported by the full body."
+    },
+    "japan-tokei-1935:p0033_1": {
+      "topics": [
+        "finance",
+        "trade"
+      ],
+      "tags": [
+        "economic-indicators"
+      ],
+      "flags": [],
+      "rationale": "The commerce, banking, finance and trade summary combines companies and capital, currency, bank deposits and loans, clearing, postal finance, insurance, prices and merchandise trade. Economic-indicators represents the complete summary rather than three selected financial components.",
+      "reason": "Apply the aggregate-summary rule introduced during calibration to the other matching pilot records. Retain the substantial high-level subjects supported by the full body."
+    }
+  },
+  "remaining_source_context_limits": [
+    {
+      "key": "manchuria-1939:p0091_1",
+      "limitation": "Nationality and colonial/foreign sponsorship are absent from the supplied record. No inference of either is made.",
+      "classification_blocked": false
+    },
+    {
+      "key": "korea-1935-36:p0167_1",
+      "limitation": "One minor line may be a light railway; confirmed city systems establish the table-level trams label.",
+      "classification_blocked": false
+    },
+    {
+      "key": "korea-1926-27:p0198_1",
+      "limitation": "The supplied title identifies Korean schools but the context describes mainly Japanese financing. Tags do not resolve beneficiary identity.",
+      "classification_blocked": false
+    }
+  ]
+}

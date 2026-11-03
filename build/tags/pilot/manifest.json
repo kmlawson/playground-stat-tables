@@ -1,0 +1,3160 @@
+{
+  "schema_version": 1,
+  "pilot_id": "calibration-001",
+  "sampling_seed": 20261026,
+  "vocabulary_version": "1.0.2-pilot",
+  "vocabulary_sha256": "4bbb6c09dbd0d0ec01503ad92d6b3858d6b40286123bbc7a52bd1efa32e9fd1f",
+  "summary": {
+    "corpus_tables": 45563,
+    "corpus_books": 102,
+    "pilot_tables": 200,
+    "pilot_books": 102,
+    "collections": {
+      "china": 38,
+      "other": 10,
+      "japan": 48,
+      "manchuria": 28,
+      "korea": 37,
+      "taiwan": 25,
+      "south-seas": 14
+    },
+    "features": {
+      "multipart": 57,
+      "marked_unreadable": 52,
+      "roster_candidate": 19,
+      "japanese_original": 68
+    },
+    "batch_chars": [
+      305885,
+      300108,
+      299136,
+      70505
+    ],
+    "batch_tables": [
+      60,
+      60,
+      60,
+      20
+    ]
+  },
+  "source_files": {
+    "data/japan-1905.json": "83bd4713fb66f8c027bb08849d5c91e8a80ee6462d370e925ef7c707e9d56b88",
+    "data/japan-1906.json": "25d242b9487753dbf8c31494795239e99acfce9e9ed53e61345918c1494c3ccd",
+    "data/japan-1907.json": "b0623958c6ab9f55f5bc7b52fc72888e40c92a2ea543a60ff4558e68db1c3111",
+    "data/japan-1908-09.json": "ae12fde7b67131da4d558810c39081f16de45648dab580aa0ad5e5d2e619dace",
+    "data/japan-1910.json": "b7280867ffe8f719027683799d28e1a6fce758db997510df205d7519b0b71129",
+    "data/japan-1911.json": "3d77652c37def5e6c858edfae2394992e88ca7b24e187931e7fef1e4a476fb80",
+    "data/japan-1912.json": "1796a9b12e00dce0522fa7111ee0e3448548d574ed63bccf3f577b793652cd53",
+    "data/japan-1913.json": "3f5fdf7b5968027e258065778560d8c6fd9f05e3b7dbd9c5de19aebc538c67db",
+    "data/japan-1914.json": "51ff4c55c1fec8d141f2b11aceda3ab5bae91c39b4b7028a3b463b237f62cf18",
+    "data/japan-1915.json": "1274e093663ca3f07dbc3e9b5b7f3beecf4785d0346aa4798da915b62039dbb1",
+    "data/japan-1916.json": "0a629e59a01f85180a39b7f1c180d81bc9c5cbbf9d9148b42ec61d41a3595009",
+    "data/japan-1917.json": "6882cbd37a2ac7411117887adaba6357fcae683349d7a21337b26fa1ff8833e5",
+    "data/japan-1918.json": "dffeaeda8d019e92d627ab394ba52dfe4888eef4ecd135ba6b94c8da2971c181",
+    "data/japan-1919-20.json": "d7ee9d761acadedaefd0276663ac9b9cc3fa9c96a07773717e6a317bfd24392c",
+    "data/japan-1920-21.json": "5c37558fd976f98e0d2ce35af9bf0a0d698e7476622082420748baf3435643ef",
+    "data/japan-1923.json": "a028fc322f845180faed27e0bfb890e4e9e8118772ff252030c7beee251f5289",
+    "data/japan-1924-25.json": "f6f82ca6d6ff42dd74e94b6e1a5d2449fcc619bd7be758f24252f4b6ffe5803a",
+    "data/japan-1930.json": "5fb5b35e61bfcf3e4ae57eda2dbb2f2589d7768add0b13b97811ca8fbdf282ba",
+    "data/japan-1935.json": "2f1a9ed21418d07e2e1c9590c7dc02578338fb73ef13e864aebfd4c669bf84e4",
+    "data/japan-1937.json": "fa980ab9cfbfffe2a5c3980768e3abd23fdb90705870da2e5d9f3e70bdf64e5d",
+    "data/japan-1939-40.json": "7cf91650bf513fe02f9daa784e34099014f54d0eb9c543ae24127b124eebd7e2",
+    "data/japan-1942-43.json": "6514e82d5d1bad98e70661c663b3ea7955d2e503dc8f5c402c7637d411d0977e",
+    "data/japan-1946-48.json": "515bea36606e5f2c78db7eab0b40d6afdb763e125dc3b088c73b39d90e994123",
+    "data/korea-1911-12.json": "16d5467d7153e3cc5f70be9db44b43b593a13268e69f5459d61e5b34c6ff22e7",
+    "data/korea-1912-13.json": "b064babd1e8e4eaca5b058791dc66ae0e1bfbd528a660c46e7d15596affd8b73",
+    "data/korea-1913-14.json": "05ad108578398a4ca3e97da901372b5ddc84695b2a874b9a4de6e81437e4a1df",
+    "data/korea-1914-15.json": "4c20840bd745d2f414cdcaa21382b3d546d309fcaa4e1404932da5ec0d922c85",
+    "data/korea-1915-16.json": "5db3d2e350b643186eebd112335fa6fd7a524aa4ed6144f028818f17ea20e3a8",
+    "data/korea-1916-17.json": "24ea780b39141f160ef3a797966a63129b3647a86df759e3b1c8798ef3f3ef52",
+    "data/korea-1917-18.json": "a2ba5c4332937ea503a827fc222dbb06f4d416c89e25a2f4cdf8a56420c73862",
+    "data/korea-1930-32.json": "be8f49ef5e57d1bed71332d3585d1e4ec0a0415343a93bba2a0c9882399b4ca8",
+    "data/korea-1932-33.json": "080af579e8093ef993abc116a59a597338da36de6c598e580923d9c06378f187",
+    "data/korea-1933-34.json": "c33fee79a78bf9721d651a4017ba4749c32a7a6a50c2d13e557da7a6865a9c17",
+    "data/korea-1934-35.json": "ffdee94193830cf2e53bae2f106643e9f5145300760986af10756b94643e6eb9",
+    "data/korea-1935-36.json": "66390307657628f9f70cd5e611233fbdaad0e1da783dd7e40977586e0b07130c",
+    "data/korea-1936-37.json": "bdb59e9e953814fc4a2aee0bf06dfe68025d702f6afe955a0c72b56c897dec8b",
+    "data/korea-1937-38.json": "c5a0162b392faceefcef9ef6dc5d9573bbb9a9c0c956778d973e1751cbc7075c",
+    "data/korea-1938-39.json": "8590c0fe61f11d1a9172afe36d5b3d19f3c422e4d50f99928a46c7661372f073",
+    "data/korea-1918-21.json": "8c7d733714c4a82a9005c7d2d5b51185e5bb74becee02252f8d077d9a0bdf6ca",
+    "data/korea-1921-22.json": "72d1819041376e2000ed2ecc07efb2acb1f57ca9e5f9dba36bf3e3191eb327ce",
+    "data/korea-1922-23.json": "e3751ffe1c09d4df6b561c10b1ec4d7eaad6388a960ac3f12aa4323d64bb9bda",
+    "data/korea-1923-24.json": "d23d3c9ac94470e674a9d565a1f8c54ba2b37106583411564ce490003c90e7a0",
+    "data/korea-1924-25.json": "660c2038b8fc26e3763094589d97d3a0df6937dc85cbf8820300cd1ab5ed9787",
+    "data/korea-1926-27.json": "ba43f9532da057bdcd5aa2a19ebc6b5cde93859d7b0b21049f88f02e66854d6d",
+    "data/korea-1927-28.json": "771cb13ef057ba771f8c8bd35e605203a592cecfd78bacd3352059fd59fabdfe",
+    "data/korea-1928-29.json": "bbbbfe8e1a27436b2e0b62a43762a2f2e5470f79c984b77a2fa0242c49da5e93",
+    "data/korea-1929-30.json": "f3ab017b30bd9ec354df4a25eba51f9ccaa1eee1e51d8c5ba1033d8cca7c85bc",
+    "data/korea-nenkan-1926.json": "08abf6870c3dc60165a1a51ad9400d1257afc042e5bd45c81707f3e3b73f163d",
+    "data/korea-tokanfu-1908.json": "a54ec742c11787cd84dfea3dc788c5d99445406b6c78f7044cc8342907e80508",
+    "data/korea-tokanfu-1939.json": "fc9638bdeba7e43e4ded8cab0d536b5c634498d135097b6b1f7e2f94ba51749d",
+    "data/korea-nenkan-1940.json": "645783a6bab1ebde45c6df0d4fc6405a71524cd33aa8f29266d6f7f6cf3a37a8",
+    "data/korea-1935.json": "6e5615319c287f9e017e1ba60af1002b0b1132b954cc81e9697f74f75883d581",
+    "data/korea-1940.json": "396758f09c1aa9643944cd4891ce6981b5fb8290a72525f3e5bd62e81641afc7",
+    "data/korea-1942.json": "d5460c4a8f156cc2844d4ba7ecd0b0c516b9859e5eab0ce1cc1dce34727cd51a",
+    "data/korea-1943.json": "ab5081c9f3de7ae61cc638ab5daf169616f0c1111d31f1f100f8d5fd7cc967ed",
+    "data/korea-1944.json": "42f521f795a0331b4261f42b60e3fc15985d19c8d59331fb98f48f9b00972bf2",
+    "data/manchuria-1929.json": "e0cd38b88f5805b7225114ae2df0563f0186f564a94a86d0d7c0fd046ea250d3",
+    "data/manchuria-1931.json": "3a712251e5b9369a9db51f27893a5a1bc263976f6b2c1ba31f29ecc7e2500d21",
+    "data/manchuria-1936.json": "895f882d69a6f9f050d4038c9caf98a0dd7cc87f3b3593bc281ad5f26f89e6d5",
+    "data/manchuria-1939.json": "30d7d7ab201e1777e57c50f22fb4b3708cc47e8c9f49a11625231066a924240a",
+    "data/manchuria-year-book-1931.json": "500997451554b990662322563987b3f9e586e13bce008425c276e6662675ffeb",
+    "data/manchuria-year-book-1932-33.json": "22ed7b27e7e845a6d71461b3ea230d395957fcba4efda103fcc4851628042267",
+    "data/manchoukuo-1934.json": "f9ccdd2e093a605f32a999c25a889add880dcfd507f64721c515f079fbe70cb0",
+    "data/manchukuo-directory-1938.json": "3d3a24fba5527fa63b021b8f3528dd4d0986029c2bdb6584be6888a2dcf4a1ac",
+    "data/japan-manchoukuo-1934.json": "9d1f828dfa2b32b41d0757559f5cf22db3649d74be875d9521682655d548ce39",
+    "data/japan-manchoukuo-1936.json": "61f54a7e72dd1222af2c3328bb0ad3362267b629005df3611c58adef657f9a51",
+    "data/japan-manchoukuo-1938.json": "91d298436ffa135f73d9584efcfd13a9b4de47eb1568e6d56703aebca8906b85",
+    "data/japan-manchoukuo-1939.json": "f80422144f09b30481207cc636ed35e16582dca53ab8d2b141d185f5460c20da",
+    "data/japan-manchoukuo-1940.json": "4cc236731d88cb8bc092a5e8a185cba4b2ff787724e188b40b7a4554527868a5",
+    "data/nanyo-tokei-1937.json": "fd0823fc4865d42c23af9d307f56ec236369c51210e4109016add273c4694886",
+    "data/nanyo-tokei-1932.json": "1c1a5d5e8ce1d46ca40b2c9dd57ece5a6850ec25560fd42eaf140e1d533867ab",
+    "data/japan-tokei-1935.json": "9d22994ab95b0629bc1a774d68988d3697628fdbc24c2de75eda7b3441b3f3c4",
+    "data/japan-tokei-1938.json": "c548726d64736c210d8fe6d6e2d04810a3c524a836bde489f2690bcc16388130",
+    "data/japan-tokei-1940.json": "00e652c73ea450060469afbdaff3e15dc39ee58c642d200995613aa1aaa2ba3e",
+    "data/taiwan-tokei-1933.json": "e604bfc48fe61157a20c186f9f8727a1aa59def72fd220132648dffb06de2f65",
+    "data/taiwan-tokei-1942.json": "69e08399ad5b5914bb3d7a74b009da23e9c95be1adeb017d818f0f088df058bf",
+    "data/taiwan-tokei-1938.json": "10e959ed476b6f0fc7c6cc19152736a91cc2c3a8b35b2e397c304fa18e214cab",
+    "data/taiwan-tokei-1925.json": "8996c9a74f8bd65cf5593dc5f2b3097bb6fd9d6b496a25b0658a0ca28ff20882",
+    "data/taiwan-1905.json": "c0393687132999fd2988dca708e58772b4b4ef619c561e4fbab9bfbe21bd1905",
+    "data/taiwan-1912.json": "1ba712c85c75be566309ecb7a2b5c4d9ee4936dfbebadaccc099dab46f70c770",
+    "data/china-peking-1921.json": "b9d473c2c26c2f7d274f92753f163d0e4f8d2a6a92fa3f6f335be3b42e632d79",
+    "data/china-handbook-1926.json": "35653cb5c00aa73b94fd4b89c1a41c481e56ec91afadda5b732ae7b5445c8c4a",
+    "data/manchoukuo-1942.json": "051c2284a7ca6f54a6c4ee98c035f70093be17356251ac59b75161d069a1d1c6",
+    "data/far-east-1941.json": "c14b9fdb7cd8e54959b43336b72f386ce32e2bac32b98bbda216d6a771cd98c8",
+    "data/china-1912.json": "1b106c9184b8261ff79a8e9b6de96c925829e99972b2fa017346125a09561187",
+    "data/china-1914.json": "edbfdeed2453c8c32df0efa0a3085ccc9987ffce02a5f05957895bfd6d085cc2",
+    "data/china-1919.json": "aec221ebef151f43e855e1d687df5955350066085d6e5583a4e5e26ab8496ea8",
+    "data/china-1913.json": "5e1b62bbb703d1873335cbaacffd2943e313949cec4cab764059fdbca7cf6b34",
+    "data/china-1916.json": "357e6b5af6c1857db71d2b9136240f011437d7603c4e36c3c73a87f9b6830f1f",
+    "data/china-1922.json": "761f61f08cf3573db2b44c125eb2f56c949eae66c780dd2bf8b9bcfe1d09b72a",
+    "data/china-1923.json": "1ddaeed20cdea80e73400c8e2f8eada85b5e9aaf26d7b271054db387b399fdc7",
+    "data/china-1924-5.json": "a4bacb99f611212d4a03140fd7dec55042d70ef7c2c812d2c039f0dc2e659cda",
+    "data/china-1925-6.json": "6268ef995e563fd1281ece929bdb4817f5efd9671b2706bfa0cc77c651988ec7",
+    "data/china-1926-7.json": "a19fae4b11faf51162a6361fb48ef223d142893601790e05a7973c3986cde31e",
+    "data/china-1928.json": "87a0db3c5f67a1b13d037f3efe3c71100d86839c9b2d4192f6e059c0bd38465a",
+    "data/china-1929-30.json": "059045b309d3222e90dd23ac2cb1e15ee92c8b709bc9ccf90c2bf78ba2bf9404",
+    "data/china-1931-2.json": "d015efe9167acc1fc4963612650f8ee1155a0ef126e67a33a22ab76ca01826ca",
+    "data/china-1944.json": "b2d3e1ca74fcb193bd45fb94bbd1b98906cf3b1a8f80fbc41c77b1f5bcc63dd5",
+    "data/china-flood-1931.json": "466a68b98a0788e187aeafd0a32fac39851164cc04fe59ece0798e55ad7d7a4e",
+    "data/china-1938.json": "cdbfccdc1f1e9525749269f80f6f7138a852155b52687db6c2782e2d0801d606",
+    "data/china-1937-43.json": "31d4481c7dd239a0ae8f765f2c76be20d4be4d4aa76583d27d87e95e39b49a63",
+    "data/china-1950.json": "b4a80bd34da1043e99b04f6c4d4f6f8486037aeaf9d42ceeb6e122d4ef3c94e7"
+  },
+  "tables": [
+    {
+      "key": "china-1916:p0125_6",
+      "batch_id": "pilot-a",
+      "input": "input/china-1916--p0125_6.json",
+      "input_sha256": "74e5470ac0ff4d27494a78b1814a960240104709a7f6d1298c47151ed3a6b01c",
+      "source": "data/china-1916.json",
+      "selection_reason": "all-book coverage",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 765
+    },
+    {
+      "key": "china-1923:p0995_1",
+      "batch_id": "pilot-a",
+      "input": "input/china-1923--p0995_1.json",
+      "input_sha256": "8ef4c570f60a3fe3394b74914a4ebb5e938354a9151bf1c5810439e431ccaeca",
+      "source": "data/china-1923.json",
+      "selection_reason": "collection balance and content diversity",
+      "features": {
+        "multipart": true,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 3963
+    },
+    {
+      "key": "china-1926-7:p0396_1",
+      "batch_id": "pilot-a",
+      "input": "input/china-1926-7--p0396_1.json",
+      "input_sha256": "73f1a885f31e5a1bd77bce4210199d8eafd595b21f9ba35bfb490239a1c9d4dc",
+      "source": "data/china-1926-7.json",
+      "selection_reason": "collection balance and content diversity",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": true,
+        "japanese_original": false
+      },
+      "chars": 2004
+    },
+    {
+      "key": "china-1928:p0272_1",
+      "batch_id": "pilot-a",
+      "input": "input/china-1928--p0272_1.json",
+      "input_sha256": "7caa90f4de7836f66fe78e83d8670941ae33381997bae4db5b007f9d63d49a50",
+      "source": "data/china-1928.json",
+      "selection_reason": "collection balance and content diversity",
+      "features": {
+        "multipart": false,
+        "roster_candidate": true,
+        "marked_unreadable": true,
+        "japanese_original": false
+      },
+      "chars": 6046
+    },
+    {
+      "key": "china-1931-2:p0341_3",
+      "batch_id": "pilot-a",
+      "input": "input/china-1931-2--p0341_3.json",
+      "input_sha256": "af57da0535748710bc681fd7d5ba64ae21ba06ec135488616c999b2d6bbee1a6",
+      "source": "data/china-1931-2.json",
+      "selection_reason": "all-book coverage",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 1771
+    },
+    {
+      "key": "china-1937-43:p3-0044_2",
+      "batch_id": "pilot-a",
+      "input": "input/china-1937-43--p3-0044_2.json",
+      "input_sha256": "a6228f5b4969f3c7d9307754acb6b2998f56f84be1880587b89d0ae461ca3cad",
+      "source": "data/china-1937-43.json",
+      "selection_reason": "all-book coverage",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 4767
+    },
+    {
+      "key": "china-flood-1931:p0051_1",
+      "batch_id": "pilot-a",
+      "input": "input/china-flood-1931--p0051_1.json",
+      "input_sha256": "d4354dd67d94cd3a3520a22c05e8c0c5295e26999ed71f799ec23074bb77016c",
+      "source": "data/china-flood-1931.json",
+      "selection_reason": "all-book coverage",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 8981
+    },
+    {
+      "key": "china-handbook-1926:p0732_1",
+      "batch_id": "pilot-a",
+      "input": "input/china-handbook-1926--p0732_1.json",
+      "input_sha256": "5dddf22437962e41b52489ffc2888f4ce9da428056789581f89d6f88216f8ca4",
+      "source": "data/china-handbook-1926.json",
+      "selection_reason": "collection balance and content diversity",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 1202
+    },
+    {
+      "key": "china-peking-1921:p0542_2",
+      "batch_id": "pilot-a",
+      "input": "input/china-peking-1921--p0542_2.json",
+      "input_sha256": "552019b1ed92c4ee0a6edc4db397da73731d13686c5dbda0f779f8d7a4698a60",
+      "source": "data/china-peking-1921.json",
+      "selection_reason": "all-book coverage",
+      "features": {
+        "multipart": false,
+        "roster_candidate": true,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 1596
+    },
+    {
+      "key": "far-east-1941:IMG_4864_2",
+      "batch_id": "pilot-a",
+      "input": "input/far-east-1941--IMG_4864_2.json",
+      "input_sha256": "7c3259bbc01851f0281f3b6e3b8d45ebbc24d05530dc3374482335a96253839e",
+      "source": "data/far-east-1941.json",
+      "selection_reason": "theme sampling: informal-imperialism",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 9250
+    },
+    {
+      "key": "far-east-1941:IMG_4888_2",
+      "batch_id": "pilot-a",
+      "input": "input/far-east-1941--IMG_4888_2.json",
+      "input_sha256": "aef211830a2c24035c4db257e33b9b148362ba3838de0a5cc66a4ec710f87360",
+      "source": "data/far-east-1941.json",
+      "selection_reason": "collection balance and content diversity",
+      "features": {
+        "multipart": false,
+        "roster_candidate": true,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 2251
+    },
+    {
+      "key": "japan-1905:p0153_2",
+      "batch_id": "pilot-a",
+      "input": "input/japan-1905--p0153_2.json",
+      "input_sha256": "d268d3ba73ffb571130418204942e875a840c5c197fb2d0851ea834c4e29fa24",
+      "source": "data/japan-1905.json",
+      "selection_reason": "all-book coverage",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 2467
+    },
+    {
+      "key": "japan-1906:p0545_4",
+      "batch_id": "pilot-a",
+      "input": "input/japan-1906--p0545_4.json",
+      "input_sha256": "5bb5002c19d8a2e0f8458723367de813e93514185bf1111df05aefd37c935f33",
+      "source": "data/japan-1906.json",
+      "selection_reason": "theme sampling: narcotics",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 872
+    },
+    {
+      "key": "japan-1908-09:p0045_1",
+      "batch_id": "pilot-a",
+      "input": "input/japan-1908-09--p0045_1.json",
+      "input_sha256": "e1922ef638ada029e4445f154ec969d18130dc6cefd36c74bb5e7b244339b665",
+      "source": "data/japan-1908-09.json",
+      "selection_reason": "all-book coverage",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 1489
+    },
+    {
+      "key": "japan-1910:p0690_1",
+      "batch_id": "pilot-a",
+      "input": "input/japan-1910--p0690_1.json",
+      "input_sha256": "f644b1ec666996fe013e8aaae8a994fccc55ac499a8f4b378e18a4593da30620",
+      "source": "data/japan-1910.json",
+      "selection_reason": "all-book coverage",
+      "features": {
+        "multipart": false,
+        "roster_candidate": true,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 819
+    },
+    {
+      "key": "japan-1911:p0638_2",
+      "batch_id": "pilot-a",
+      "input": "input/japan-1911--p0638_2.json",
+      "input_sha256": "62b6d893ccd419ad572ff1baffcc681b7b0d5e4c6d43d3df6be29be916de4932",
+      "source": "data/japan-1911.json",
+      "selection_reason": "theme sampling: trade",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 946
+    },
+    {
+      "key": "japan-1912:p0483_6",
+      "batch_id": "pilot-a",
+      "input": "input/japan-1912--p0483_6.json",
+      "input_sha256": "08ad60ccc4f495e3559dbe13442759898ec58737a925a2ea515e27c54b69c6c1",
+      "source": "data/japan-1912.json",
+      "selection_reason": "all-book coverage",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 954
+    },
+    {
+      "key": "japan-1918:p0353_1",
+      "batch_id": "pilot-a",
+      "input": "input/japan-1918--p0353_1.json",
+      "input_sha256": "08b9883b03e4daab375b8ac89fd07935971d844490c28461ec3f9a4c4b3b360a",
+      "source": "data/japan-1918.json",
+      "selection_reason": "all-book coverage",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": true,
+        "japanese_original": false
+      },
+      "chars": 1553
+    },
+    {
+      "key": "japan-1920-21:p0338_2",
+      "batch_id": "pilot-a",
+      "input": "input/japan-1920-21--p0338_2.json",
+      "input_sha256": "a0ddb46a9c2e7e817d8f90214b269981f3e814cb0236a82e7ff3653ba1feb99c",
+      "source": "data/japan-1920-21.json",
+      "selection_reason": "all-book coverage",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 754
+    },
+    {
+      "key": "japan-1923:p0105_2",
+      "batch_id": "pilot-a",
+      "input": "input/japan-1923--p0105_2.json",
+      "input_sha256": "59326b31ad8e7bff8fceb21be8e6a4fa447967df3f4abba089144c67384b8266",
+      "source": "data/japan-1923.json",
+      "selection_reason": "theme sampling: mining",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": true,
+        "japanese_original": false
+      },
+      "chars": 1313
+    },
+    {
+      "key": "japan-1923:p0453_1",
+      "batch_id": "pilot-a",
+      "input": "input/japan-1923--p0453_1.json",
+      "input_sha256": "5eebf656de682f5a5f23f4dd9cb6a8bbcdae04637ec1b4497a17e29d9c28aeef",
+      "source": "data/japan-1923.json",
+      "selection_reason": "theme sampling: culture",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 811
+    },
+    {
+      "key": "japan-1924-25:p0963_2",
+      "batch_id": "pilot-a",
+      "input": "input/japan-1924-25--p0963_2.json",
+      "input_sha256": "d86e4c6685107d27ad75f35e65dd819aef84110d37ae555dcbe3fc46a03e20d9",
+      "source": "data/japan-1924-25.json",
+      "selection_reason": "all-book coverage",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 1156
+    },
+    {
+      "key": "japan-1935:p0308_1",
+      "batch_id": "pilot-a",
+      "input": "input/japan-1935--p0308_1.json",
+      "input_sha256": "8f7b07fa0d2833e3d23e1a9ce4ae270de4ae16a37eac1dea38f67ba1353f266d",
+      "source": "data/japan-1935.json",
+      "selection_reason": "all-book coverage",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 4271
+    },
+    {
+      "key": "japan-1939-40:p1093_2",
+      "batch_id": "pilot-a",
+      "input": "input/japan-1939-40--p1093_2.json",
+      "input_sha256": "cef7d19ec2d8f6a22c4de4c875e029ade059ff262c6b4ca4059e79577c8742aa",
+      "source": "data/japan-1939-40.json",
+      "selection_reason": "all-book coverage",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 2363
+    },
+    {
+      "key": "japan-1942-43:p1069_1",
+      "batch_id": "pilot-a",
+      "input": "input/japan-1942-43--p1069_1.json",
+      "input_sha256": "2baad9cc3e26a985aa0cd0dadf5c8ac926fddf50184a041d9d9fd3b3fbfd42d2",
+      "source": "data/japan-1942-43.json",
+      "selection_reason": "all-book coverage",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 1662
+    },
+    {
+      "key": "japan-manchoukuo-1936:p1-0264_3",
+      "batch_id": "pilot-a",
+      "input": "input/japan-manchoukuo-1936--p1-0264_3.json",
+      "input_sha256": "c617cad6c63405c7cc51074c5892d7544da69e1d2149ce6557d33d9b3efb780b",
+      "source": "data/japan-manchoukuo-1936.json",
+      "selection_reason": "theme sampling: communications",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 1251
+    },
+    {
+      "key": "japan-manchoukuo-1936:p1-0365_1",
+      "batch_id": "pilot-a",
+      "input": "input/japan-manchoukuo-1936--p1-0365_1.json",
+      "input_sha256": "e2222b6b3545eee65d35dd1364f8fc83a31473b7f0771ed72de44f64c7b2ec19",
+      "source": "data/japan-manchoukuo-1936.json",
+      "selection_reason": "theme sampling: welfare",
+      "features": {
+        "multipart": true,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 3090
+    },
+    {
+      "key": "japan-manchoukuo-1938:p1-0066_4",
+      "batch_id": "pilot-a",
+      "input": "input/japan-manchoukuo-1938--p1-0066_4.json",
+      "input_sha256": "58f40cf80926e0e41e071ebdeb77002446a2b107b11f478d1910327e896eb98f",
+      "source": "data/japan-manchoukuo-1938.json",
+      "selection_reason": "theme sampling: geography",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 1209
+    },
+    {
+      "key": "japan-manchoukuo-1938:p1-0383_1",
+      "batch_id": "pilot-a",
+      "input": "input/japan-manchoukuo-1938--p1-0383_1.json",
+      "input_sha256": "ed7c71f9e448d492c9225909c929d8a226ec7dbfbb55a601ac8cc7640f836e83",
+      "source": "data/japan-manchoukuo-1938.json",
+      "selection_reason": "collection balance and content diversity",
+      "features": {
+        "multipart": false,
+        "roster_candidate": true,
+        "marked_unreadable": true,
+        "japanese_original": false
+      },
+      "chars": 2524
+    },
+    {
+      "key": "japan-manchoukuo-1939:p1-0329_1",
+      "batch_id": "pilot-a",
+      "input": "input/japan-manchoukuo-1939--p1-0329_1.json",
+      "input_sha256": "de5e71d7bce6d62d01da90c9ca69d53e5492043de43098f0576cac01e15b2ec4",
+      "source": "data/japan-manchoukuo-1939.json",
+      "selection_reason": "all-book coverage",
+      "features": {
+        "multipart": true,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 2661
+    },
+    {
+      "key": "japan-manchoukuo-1940:p0034_1",
+      "batch_id": "pilot-a",
+      "input": "input/japan-manchoukuo-1940--p0034_1.json",
+      "input_sha256": "0156187b465a50cf33b21c658993de497157b8071254ce0b93e0b5b0a4b0edda",
+      "source": "data/japan-manchoukuo-1940.json",
+      "selection_reason": "all-book coverage",
+      "features": {
+        "multipart": false,
+        "roster_candidate": true,
+        "marked_unreadable": true,
+        "japanese_original": false
+      },
+      "chars": 6221
+    },
+    {
+      "key": "japan-tokei-1935:p0033_1",
+      "batch_id": "pilot-a",
+      "input": "input/japan-tokei-1935--p0033_1.json",
+      "input_sha256": "582d5499688f58f40477c6514cc9e3897f39a2ff09183df6481e0f74d47844d3",
+      "source": "data/japan-tokei-1935.json",
+      "selection_reason": "collection balance and content diversity",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": true,
+        "japanese_original": true
+      },
+      "chars": 7835
+    },
+    {
+      "key": "japan-tokei-1935:p0169_2",
+      "batch_id": "pilot-a",
+      "input": "input/japan-tokei-1935--p0169_2.json",
+      "input_sha256": "c7ccc4dc527c214bb0504989d7a28afc15ca9ca5dd0664548cb0face420685be",
+      "source": "data/japan-tokei-1935.json",
+      "selection_reason": "collection balance and content diversity",
+      "features": {
+        "multipart": true,
+        "roster_candidate": false,
+        "marked_unreadable": true,
+        "japanese_original": true
+      },
+      "chars": 7601
+    },
+    {
+      "key": "japan-tokei-1935:p0245_2",
+      "batch_id": "pilot-a",
+      "input": "input/japan-tokei-1935--p0245_2.json",
+      "input_sha256": "1a3680a27f0600de1d6df4691e1b73f04d736efc718a38cec34a17d391083a2a",
+      "source": "data/japan-tokei-1935.json",
+      "selection_reason": "theme sampling: government",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": true
+      },
+      "chars": 4610
+    },
+    {
+      "key": "japan-tokei-1938:p0153_1",
+      "batch_id": "pilot-a",
+      "input": "input/japan-tokei-1938--p0153_1.json",
+      "input_sha256": "4cb83cb46658eccb3847b395ad3ede3176373513d744a7f53692e044108d4cd1",
+      "source": "data/japan-tokei-1938.json",
+      "selection_reason": "collection balance and content diversity",
+      "features": {
+        "multipart": true,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": true
+      },
+      "chars": 3755
+    },
+    {
+      "key": "japan-tokei-1938:p0170_1",
+      "batch_id": "pilot-a",
+      "input": "input/japan-tokei-1938--p0170_1.json",
+      "input_sha256": "01dc0e4d78d9a26b23150f819b5d9f3c52ffbbb437f88708db072c9328a24519",
+      "source": "data/japan-tokei-1938.json",
+      "selection_reason": "collection balance and content diversity",
+      "features": {
+        "multipart": true,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": true
+      },
+      "chars": 8290
+    },
+    {
+      "key": "japan-tokei-1940:p0087_3",
+      "batch_id": "pilot-a",
+      "input": "input/japan-tokei-1940--p0087_3.json",
+      "input_sha256": "44a1bdf0e007cb3f313dfcf9cdb029b21ffdaa4653f2822be252c2ed8cf2410e",
+      "source": "data/japan-tokei-1940.json",
+      "selection_reason": "all-book coverage",
+      "features": {
+        "multipart": true,
+        "roster_candidate": true,
+        "marked_unreadable": false,
+        "japanese_original": true
+      },
+      "chars": 3154
+    },
+    {
+      "key": "japan-tokei-1940:p0100_2",
+      "batch_id": "pilot-a",
+      "input": "input/japan-tokei-1940--p0100_2.json",
+      "input_sha256": "68673d10fc7a4e1021bd4947d5388575e270dc75c747b2cb04360d37c1259ea4",
+      "source": "data/japan-tokei-1940.json",
+      "selection_reason": "collection balance and content diversity",
+      "features": {
+        "multipart": true,
+        "roster_candidate": true,
+        "marked_unreadable": false,
+        "japanese_original": true
+      },
+      "chars": 7290
+    },
+    {
+      "key": "korea-1915-16:p0108_1",
+      "batch_id": "pilot-a",
+      "input": "input/korea-1915-16--p0108_1.json",
+      "input_sha256": "74c664e5ce2469008b737749292ed6db2e06bb075fd19dc5e1e406e0e997a42c",
+      "source": "data/korea-1915-16.json",
+      "selection_reason": "all-book coverage",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 2671
+    },
+    {
+      "key": "korea-1918-21:p0222_1",
+      "batch_id": "pilot-a",
+      "input": "input/korea-1918-21--p0222_1.json",
+      "input_sha256": "f307735ba58a5c59f423dfb55dd71352cd59b1c29a9b9c5cece915107a609b05",
+      "source": "data/korea-1918-21.json",
+      "selection_reason": "all-book coverage",
+      "features": {
+        "multipart": true,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 3377
+    },
+    {
+      "key": "korea-1926-27:p0198_1",
+      "batch_id": "pilot-a",
+      "input": "input/korea-1926-27--p0198_1.json",
+      "input_sha256": "1fa1d8fdb743fad7a1c861c1a72743b1ea6d0608972cf6105f9462bf52bfae4b",
+      "source": "data/korea-1926-27.json",
+      "selection_reason": "all-book coverage",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 1695
+    },
+    {
+      "key": "korea-1928-29:p0113_1",
+      "batch_id": "pilot-a",
+      "input": "input/korea-1928-29--p0113_1.json",
+      "input_sha256": "bd7e3cdb66f0721c2c87605a233584f98ae236a4adee56b03a97f0a1e5c81c11",
+      "source": "data/korea-1928-29.json",
+      "selection_reason": "all-book coverage",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 1580
+    },
+    {
+      "key": "korea-1929-30:p0103_1",
+      "batch_id": "pilot-a",
+      "input": "input/korea-1929-30--p0103_1.json",
+      "input_sha256": "d4ec7ef706ec17f3869278333a7ac6642e292d264323eb26b039d1e4a8e068e4",
+      "source": "data/korea-1929-30.json",
+      "selection_reason": "theme sampling: religion",
+      "features": {
+        "multipart": true,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 2802
+    },
+    {
+      "key": "korea-1933-34:p0066_1",
+      "batch_id": "pilot-a",
+      "input": "input/korea-1933-34--p0066_1.json",
+      "input_sha256": "f2612ce32a9c684a441f08e4a2b65d01e9952f6411abdb62c147e59ab83af466",
+      "source": "data/korea-1933-34.json",
+      "selection_reason": "all-book coverage",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 1032
+    },
+    {
+      "key": "korea-1935:p0172_1",
+      "batch_id": "pilot-a",
+      "input": "input/korea-1935--p0172_1.json",
+      "input_sha256": "0e779a898658d9414edab64ea7b9f086de0ea9103bf0bc46506301de3b4cacce",
+      "source": "data/korea-1935.json",
+      "selection_reason": "all-book coverage",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": true
+      },
+      "chars": 1750
+    },
+    {
+      "key": "korea-1937-38:p0077_2",
+      "batch_id": "pilot-a",
+      "input": "input/korea-1937-38--p0077_2.json",
+      "input_sha256": "b71c6829a559204e1b3f286e7cd312d4816e31a03fbebdf72900b3d07a688ec6",
+      "source": "data/korea-1937-38.json",
+      "selection_reason": "all-book coverage",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 925
+    },
+    {
+      "key": "korea-1942:p0131_1",
+      "batch_id": "pilot-a",
+      "input": "input/korea-1942--p0131_1.json",
+      "input_sha256": "6a530bb3002b7aba8b6853f2dbce07360c7c839534b4077999b95645dd29cab8",
+      "source": "data/korea-1942.json",
+      "selection_reason": "all-book coverage",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": true
+      },
+      "chars": 1357
+    },
+    {
+      "key": "korea-nenkan-1926:p0061_6",
+      "batch_id": "pilot-a",
+      "input": "input/korea-nenkan-1926--p0061_6.json",
+      "input_sha256": "5c967b77829c249e40244d25b62613602eca89d5072794181d656d6125426058",
+      "source": "data/korea-nenkan-1926.json",
+      "selection_reason": "all-book coverage",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": true
+      },
+      "chars": 1397
+    },
+    {
+      "key": "korea-nenkan-1940:p0397_2",
+      "batch_id": "pilot-a",
+      "input": "input/korea-nenkan-1940--p0397_2.json",
+      "input_sha256": "a33cbaac6a767e89f7dbe82399975f70c160851927e9f654ad6f3e1bf2a24e13",
+      "source": "data/korea-nenkan-1940.json",
+      "selection_reason": "theme sampling: military",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": true
+      },
+      "chars": 686
+    },
+    {
+      "key": "korea-tokanfu-1908:p0125_1",
+      "batch_id": "pilot-a",
+      "input": "input/korea-tokanfu-1908--p0125_1.json",
+      "input_sha256": "3d97b6cebc0b8407b26e221d7f597e8f7a76386c06b2ae2c5a1bcb30d14eebe2",
+      "source": "data/korea-tokanfu-1908.json",
+      "selection_reason": "all-book coverage",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": true
+      },
+      "chars": 5297
+    },
+    {
+      "key": "korea-tokanfu-1939:p0073_2",
+      "batch_id": "pilot-a",
+      "input": "input/korea-tokanfu-1939--p0073_2.json",
+      "input_sha256": "47d8501aba917832e141e9ef93df02c72582cf0c38aa85e06b6d614f0aa56989",
+      "source": "data/korea-tokanfu-1939.json",
+      "selection_reason": "large complete-record edge case",
+      "features": {
+        "multipart": true,
+        "roster_candidate": false,
+        "marked_unreadable": true,
+        "japanese_original": true
+      },
+      "chars": 127268
+    },
+    {
+      "key": "manchukuo-directory-1938:p0039_2",
+      "batch_id": "pilot-a",
+      "input": "input/manchukuo-directory-1938--p0039_2.json",
+      "input_sha256": "f6bb3fa220447751727929e1bb640de7c28a945a58d53c4f45b964fd84f56a7c",
+      "source": "data/manchukuo-directory-1938.json",
+      "selection_reason": "all-book coverage",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": true
+      },
+      "chars": 1019
+    },
+    {
+      "key": "manchuria-1939:p0091_1",
+      "batch_id": "pilot-a",
+      "input": "input/manchuria-1939--p0091_1.json",
+      "input_sha256": "13f9606496c3253825110fb811d3a4ce13a336d59ee9f84b2f3d63567ce5e293",
+      "source": "data/manchuria-1939.json",
+      "selection_reason": "all-book coverage",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 1908
+    },
+    {
+      "key": "manchuria-year-book-1932-33:p0531_1",
+      "batch_id": "pilot-a",
+      "input": "input/manchuria-year-book-1932-33--p0531_1.json",
+      "input_sha256": "b4d43776ad9a5b97e222a6b1fa97d574568676661ac19abc36da110cb147558b",
+      "source": "data/manchuria-year-book-1932-33.json",
+      "selection_reason": "all-book coverage",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 3577
+    },
+    {
+      "key": "taiwan-tokei-1925:p0138_1",
+      "batch_id": "pilot-a",
+      "input": "input/taiwan-tokei-1925--p0138_1.json",
+      "input_sha256": "fb371e426fa3a341e07e079d4586fd500a3896493c205dad4a3b44d1a6b19700",
+      "source": "data/taiwan-tokei-1925.json",
+      "selection_reason": "theme sampling: transportation",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": true
+      },
+      "chars": 2104
+    },
+    {
+      "key": "taiwan-tokei-1925:p0320_2",
+      "batch_id": "pilot-a",
+      "input": "input/taiwan-tokei-1925--p0320_2.json",
+      "input_sha256": "fa8b79b28b4778ef846d2522a43bfa63575ee1ebd805ce8667e5ef21e313a649",
+      "source": "data/taiwan-tokei-1925.json",
+      "selection_reason": "collection balance and content diversity",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": true
+      },
+      "chars": 6483
+    },
+    {
+      "key": "taiwan-tokei-1925:p0328_1",
+      "batch_id": "pilot-a",
+      "input": "input/taiwan-tokei-1925--p0328_1.json",
+      "input_sha256": "5a0f7306ff55d571b05028a459c67cd3780f905981f8e0af260ee284eb9dbcce",
+      "source": "data/taiwan-tokei-1925.json",
+      "selection_reason": "theme sampling: disasters",
+      "features": {
+        "multipart": true,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": true
+      },
+      "chars": 2330
+    },
+    {
+      "key": "taiwan-tokei-1933:p0257_1",
+      "batch_id": "pilot-a",
+      "input": "input/taiwan-tokei-1933--p0257_1.json",
+      "input_sha256": "d13194dd0d529205ed8f8b1f34c9173beee57637b629935a464d658c942c6c81",
+      "source": "data/taiwan-tokei-1933.json",
+      "selection_reason": "collection balance and content diversity",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": true
+      },
+      "chars": 5025
+    },
+    {
+      "key": "taiwan-tokei-1938:p0272_2",
+      "batch_id": "pilot-a",
+      "input": "input/taiwan-tokei-1938--p0272_2.json",
+      "input_sha256": "859b0d24eb173ff4b37d461016fabaeb982a591101cfa3db0e90576e25991d08",
+      "source": "data/taiwan-tokei-1938.json",
+      "selection_reason": "collection balance and content diversity",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": true,
+        "japanese_original": true
+      },
+      "chars": 2180
+    },
+    {
+      "key": "taiwan-tokei-1938:p0281_2",
+      "batch_id": "pilot-a",
+      "input": "input/taiwan-tokei-1938--p0281_2.json",
+      "input_sha256": "8420e9a8fe93309ec7fd9eba1067087f299abae0e4e33064d739d70102e7957a",
+      "source": "data/taiwan-tokei-1938.json",
+      "selection_reason": "all-book coverage",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": true,
+        "japanese_original": true
+      },
+      "chars": 5905
+    },
+    {
+      "key": "china-1912:p0122_2",
+      "batch_id": "pilot-b",
+      "input": "input/china-1912--p0122_2.json",
+      "input_sha256": "55e84ecb868142705b01ed85b077a0d09c91ad87782d82ec0833ef8ecf7ed29a",
+      "source": "data/china-1912.json",
+      "selection_reason": "all-book coverage",
+      "features": {
+        "multipart": true,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 9066
+    },
+    {
+      "key": "china-1913:p0457_2",
+      "batch_id": "pilot-b",
+      "input": "input/china-1913--p0457_2.json",
+      "input_sha256": "b9ee46ce8e9c8678767d7f5dafb8403914362d61ffe5d35eaa193186cedf6572",
+      "source": "data/china-1913.json",
+      "selection_reason": "all-book coverage",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 4734
+    },
+    {
+      "key": "china-1919:p0501_2",
+      "batch_id": "pilot-b",
+      "input": "input/china-1919--p0501_2.json",
+      "input_sha256": "ad57bea1f3fb756e3ab57a8357dd3742a92d47840cbfa168928ec17e0f85ec9b",
+      "source": "data/china-1919.json",
+      "selection_reason": "all-book coverage",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 1672
+    },
+    {
+      "key": "china-1923:p0194_1",
+      "batch_id": "pilot-b",
+      "input": "input/china-1923--p0194_1.json",
+      "input_sha256": "b2cc08af2e4852d74ce4f04cee703ee03b6162a295e72f93513941f6b3278a07",
+      "source": "data/china-1923.json",
+      "selection_reason": "collection balance and content diversity",
+      "features": {
+        "multipart": false,
+        "roster_candidate": true,
+        "marked_unreadable": true,
+        "japanese_original": false
+      },
+      "chars": 7748
+    },
+    {
+      "key": "china-1923:p0985_1",
+      "batch_id": "pilot-b",
+      "input": "input/china-1923--p0985_1.json",
+      "input_sha256": "8837feacc3c408a9dabf92382e3b5ba29ebf677560040f3dd1ab86f482071a2e",
+      "source": "data/china-1923.json",
+      "selection_reason": "collection balance and content diversity",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": true,
+        "japanese_original": false
+      },
+      "chars": 5045
+    },
+    {
+      "key": "china-1924-5:p0284_1",
+      "batch_id": "pilot-b",
+      "input": "input/china-1924-5--p0284_1.json",
+      "input_sha256": "3f877fba13d7d34fe9edd34f155be93065ed8c005b4fde3b0d03aef78164ad8a",
+      "source": "data/china-1924-5.json",
+      "selection_reason": "theme sampling: sport",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 1332
+    },
+    {
+      "key": "china-1928:p0264_4",
+      "batch_id": "pilot-b",
+      "input": "input/china-1928--p0264_4.json",
+      "input_sha256": "134af5e0742d2d0d283299ee572369dca86c2cd9b64437b87cd639db54923f48",
+      "source": "data/china-1928.json",
+      "selection_reason": "all-book coverage",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 951
+    },
+    {
+      "key": "china-1928:p0380_1",
+      "batch_id": "pilot-b",
+      "input": "input/china-1928--p0380_1.json",
+      "input_sha256": "d38046cade214c6944825e7c502ee66cc3d48485a8da12a8b4d04552be12bcf1",
+      "source": "data/china-1928.json",
+      "selection_reason": "collection balance and content diversity",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": true,
+        "japanese_original": false
+      },
+      "chars": 1888
+    },
+    {
+      "key": "china-1929-30:p0815_1",
+      "batch_id": "pilot-b",
+      "input": "input/china-1929-30--p0815_1.json",
+      "input_sha256": "23637effa258372d28a0295a571139413ee93c414ae504dfdc839fe7f5467027",
+      "source": "data/china-1929-30.json",
+      "selection_reason": "all-book coverage",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 3570
+    },
+    {
+      "key": "china-1937-43:p2-0063_1",
+      "batch_id": "pilot-b",
+      "input": "input/china-1937-43--p2-0063_1.json",
+      "input_sha256": "d5ce8aff53cd99ecd58603229393cd8731a879890240b1f676d32a94798de67e",
+      "source": "data/china-1937-43.json",
+      "selection_reason": "collection balance and content diversity",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 11619
+    },
+    {
+      "key": "china-1944:p0263_1",
+      "batch_id": "pilot-b",
+      "input": "input/china-1944--p0263_1.json",
+      "input_sha256": "ec71bc6f535a23b013a276a7ca82354d83a1c514c5f5ca42b4d78ba5ca779fa1",
+      "source": "data/china-1944.json",
+      "selection_reason": "collection balance and content diversity",
+      "features": {
+        "multipart": true,
+        "roster_candidate": true,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 10759
+    },
+    {
+      "key": "china-1950:p3-0017_2",
+      "batch_id": "pilot-b",
+      "input": "input/china-1950--p3-0017_2.json",
+      "input_sha256": "1287da02eeaa44d384f2e20669a20b928b38f0f1c973b5185fb921bb2f220464",
+      "source": "data/china-1950.json",
+      "selection_reason": "collection balance and content diversity",
+      "features": {
+        "multipart": false,
+        "roster_candidate": true,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 1754
+    },
+    {
+      "key": "china-1950:p3-0050_1",
+      "batch_id": "pilot-b",
+      "input": "input/china-1950--p3-0050_1.json",
+      "input_sha256": "bdf6604e26c66411f8b1f40faae299077a7e34e6a2f0e59066227f80e4de0628",
+      "source": "data/china-1950.json",
+      "selection_reason": "theme sampling: education",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 1394
+    },
+    {
+      "key": "china-handbook-1926:p0473_1",
+      "batch_id": "pilot-b",
+      "input": "input/china-handbook-1926--p0473_1.json",
+      "input_sha256": "9690f50e29d16cbe3e56d583306210c825068ef44b4de077e040f9c1bede5020",
+      "source": "data/china-handbook-1926.json",
+      "selection_reason": "collection balance and content diversity",
+      "features": {
+        "multipart": false,
+        "roster_candidate": true,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 1225
+    },
+    {
+      "key": "china-handbook-1926:p0656_1",
+      "batch_id": "pilot-b",
+      "input": "input/china-handbook-1926--p0656_1.json",
+      "input_sha256": "c156f4e266e6e0d6071a4fa8fd317ee53088db5e845ab5cd87516dab42f5fd6a",
+      "source": "data/china-handbook-1926.json",
+      "selection_reason": "theme sampling: foreign-relations",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": true,
+        "japanese_original": false
+      },
+      "chars": 4002
+    },
+    {
+      "key": "far-east-1941:IMG_4917_2",
+      "batch_id": "pilot-b",
+      "input": "input/far-east-1941--IMG_4917_2.json",
+      "input_sha256": "97102c62e12f17048f46a612a5dae1c075387ba54a4bc30fbac1d676829dcd53",
+      "source": "data/far-east-1941.json",
+      "selection_reason": "collection balance and content diversity",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 3183
+    },
+    {
+      "key": "far-east-1941:IMG_4960_2",
+      "batch_id": "pilot-b",
+      "input": "input/far-east-1941--IMG_4960_2.json",
+      "input_sha256": "29466856cdc1b828e9f0b00ca81e0c928563b11e3c49abcd160f65524ae1afe9",
+      "source": "data/far-east-1941.json",
+      "selection_reason": "collection balance and content diversity",
+      "features": {
+        "multipart": true,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 2625
+    },
+    {
+      "key": "japan-1907:p0625_1",
+      "batch_id": "pilot-b",
+      "input": "input/japan-1907--p0625_1.json",
+      "input_sha256": "73405bbc0f2fa70b71b4ae846c90c84738c1df7156616a27456a678aa0cf332a",
+      "source": "data/japan-1907.json",
+      "selection_reason": "all-book coverage",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 1578
+    },
+    {
+      "key": "japan-1913:p0065_1",
+      "batch_id": "pilot-b",
+      "input": "input/japan-1913--p0065_1.json",
+      "input_sha256": "be7a7b7269b3cd2aa6e80f463c585ca453706e47c12c18a6b77a62fff516c6a1",
+      "source": "data/japan-1913.json",
+      "selection_reason": "all-book coverage",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 1105
+    },
+    {
+      "key": "japan-1914:p0358_3",
+      "batch_id": "pilot-b",
+      "input": "input/japan-1914--p0358_3.json",
+      "input_sha256": "66a2f145280e03ffee8da5201a74a0950b2cf2a67e69a912542141d6fc313d50",
+      "source": "data/japan-1914.json",
+      "selection_reason": "all-book coverage",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 1279
+    },
+    {
+      "key": "japan-1915:p0570_1",
+      "batch_id": "pilot-b",
+      "input": "input/japan-1915--p0570_1.json",
+      "input_sha256": "5e4c6abeea04e4683e524ea6c675a0d17b8e4f8da366333d5ba46d734fa48271",
+      "source": "data/japan-1915.json",
+      "selection_reason": "all-book coverage",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": true,
+        "japanese_original": false
+      },
+      "chars": 1452
+    },
+    {
+      "key": "japan-1916:p0770_6",
+      "batch_id": "pilot-b",
+      "input": "input/japan-1916--p0770_6.json",
+      "input_sha256": "73d7efb90214b42daeeac37c71107dd06f30c0b049be70c019c1c0b9461256ea",
+      "source": "data/japan-1916.json",
+      "selection_reason": "all-book coverage",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": true,
+        "japanese_original": false
+      },
+      "chars": 1014
+    },
+    {
+      "key": "japan-1917:p0779_6",
+      "batch_id": "pilot-b",
+      "input": "input/japan-1917--p0779_6.json",
+      "input_sha256": "95d98304b793192c6525a93d748011aacfdf5ccecfea85f8951cac59356a5fe8",
+      "source": "data/japan-1917.json",
+      "selection_reason": "all-book coverage",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 1021
+    },
+    {
+      "key": "japan-1919-20:p0816_2",
+      "batch_id": "pilot-b",
+      "input": "input/japan-1919-20--p0816_2.json",
+      "input_sha256": "fa9a958fbb761c43ce1a67ea489d48d736c13de65d3ae936b17141b2cdaf1592",
+      "source": "data/japan-1919-20.json",
+      "selection_reason": "theme sampling: indigenous-peoples",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 1183
+    },
+    {
+      "key": "japan-1946-48:p0285_1",
+      "batch_id": "pilot-b",
+      "input": "input/japan-1946-48--p0285_1.json",
+      "input_sha256": "4f3e561d98b00c316b1e51b74fdfe8b8e75f425e6f4ce9d02b9f1490d17f482b",
+      "source": "data/japan-1946-48.json",
+      "selection_reason": "all-book coverage",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 3099
+    },
+    {
+      "key": "japan-manchoukuo-1934:p1-0367_1",
+      "batch_id": "pilot-b",
+      "input": "input/japan-manchoukuo-1934--p1-0367_1.json",
+      "input_sha256": "a39e72eb62ad0d7b8f49fb589855b044b76e65c5c215683cc330fc064c752404",
+      "source": "data/japan-manchoukuo-1934.json",
+      "selection_reason": "all-book coverage",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 5443
+    },
+    {
+      "key": "japan-manchoukuo-1939:p1-0591_1",
+      "batch_id": "pilot-b",
+      "input": "input/japan-manchoukuo-1939--p1-0591_1.json",
+      "input_sha256": "a01c613768dc5d0f02d097c72b56f206d74ec6ed38f0f9526bb5ed0f815907e1",
+      "source": "data/japan-manchoukuo-1939.json",
+      "selection_reason": "collection balance and content diversity",
+      "features": {
+        "multipart": true,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 2086
+    },
+    {
+      "key": "japan-tokei-1935:p0092_3",
+      "batch_id": "pilot-b",
+      "input": "input/japan-tokei-1935--p0092_3.json",
+      "input_sha256": "e23d4372292aa07bbb7001e1f3a494a3e59a093dc84dc4d34a848b27592e1c5b",
+      "source": "data/japan-tokei-1935.json",
+      "selection_reason": "collection balance and content diversity",
+      "features": {
+        "multipart": true,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": true
+      },
+      "chars": 2897
+    },
+    {
+      "key": "japan-tokei-1935:p0240_1",
+      "batch_id": "pilot-b",
+      "input": "input/japan-tokei-1935--p0240_1.json",
+      "input_sha256": "28c9c9ed457054e80d7b3b51b6a31670846a088aa0bd8d6be2fb32e42c01c8b5",
+      "source": "data/japan-tokei-1935.json",
+      "selection_reason": "collection balance and content diversity",
+      "features": {
+        "multipart": false,
+        "roster_candidate": true,
+        "marked_unreadable": false,
+        "japanese_original": true
+      },
+      "chars": 2108
+    },
+    {
+      "key": "japan-tokei-1938:p0150_3",
+      "batch_id": "pilot-b",
+      "input": "input/japan-tokei-1938--p0150_3.json",
+      "input_sha256": "98a8fd27f7de9cac604599ba9d32827fbabf623b7c4b800669317d4683cf0b20",
+      "source": "data/japan-tokei-1938.json",
+      "selection_reason": "theme sampling: labour",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": true
+      },
+      "chars": 1493
+    },
+    {
+      "key": "japan-tokei-1938:p0154_2",
+      "batch_id": "pilot-b",
+      "input": "input/japan-tokei-1938--p0154_2.json",
+      "input_sha256": "1065e26ab1504f741ce8644f0423be449f03ca4172b81f2f49eb27fa9f3e3f28",
+      "source": "data/japan-tokei-1938.json",
+      "selection_reason": "collection balance and content diversity",
+      "features": {
+        "multipart": true,
+        "roster_candidate": false,
+        "marked_unreadable": true,
+        "japanese_original": true
+      },
+      "chars": 7892
+    },
+    {
+      "key": "japan-tokei-1938:p0179_4",
+      "batch_id": "pilot-b",
+      "input": "input/japan-tokei-1938--p0179_4.json",
+      "input_sha256": "e5f47b8cd28c84d5de898ea2500710168fff93dd5eb0e78949a1f142b4699555",
+      "source": "data/japan-tokei-1938.json",
+      "selection_reason": "collection balance and content diversity",
+      "features": {
+        "multipart": true,
+        "roster_candidate": true,
+        "marked_unreadable": false,
+        "japanese_original": true
+      },
+      "chars": 7566
+    },
+    {
+      "key": "korea-1911-12:p0290_1",
+      "batch_id": "pilot-b",
+      "input": "input/korea-1911-12--p0290_1.json",
+      "input_sha256": "abb71b573df62037a856bab87e37febcef50569ff7cf5e0d07555093305b65c1",
+      "source": "data/korea-1911-12.json",
+      "selection_reason": "all-book coverage",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 3652
+    },
+    {
+      "key": "korea-1912-13:p0042_1",
+      "batch_id": "pilot-b",
+      "input": "input/korea-1912-13--p0042_1.json",
+      "input_sha256": "f90335ccae97d759f633d7a1eccf3d89b2929920084f99600cdac45857b934d5",
+      "source": "data/korea-1912-13.json",
+      "selection_reason": "all-book coverage",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 2517
+    },
+    {
+      "key": "korea-1913-14:p0158_1",
+      "batch_id": "pilot-b",
+      "input": "input/korea-1913-14--p0158_1.json",
+      "input_sha256": "3d61828abbf4a9d884a435db3d32e5ca89e3ba01c0e87b146f08ecae40140544",
+      "source": "data/korea-1913-14.json",
+      "selection_reason": "all-book coverage",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 2665
+    },
+    {
+      "key": "korea-1914-15:p0189_1",
+      "batch_id": "pilot-b",
+      "input": "input/korea-1914-15--p0189_1.json",
+      "input_sha256": "fe1be3efb755c07ddfb3fc80431235ac0c0d44326ea5398baf840e030c1c36ac",
+      "source": "data/korea-1914-15.json",
+      "selection_reason": "all-book coverage",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 2241
+    },
+    {
+      "key": "korea-1924-25:p0190_1",
+      "batch_id": "pilot-b",
+      "input": "input/korea-1924-25--p0190_1.json",
+      "input_sha256": "e2f9dad5a62f7bfa53a941948a32feba5e63354e69ba49fa3b68beda66fcf36c",
+      "source": "data/korea-1924-25.json",
+      "selection_reason": "all-book coverage",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 1606
+    },
+    {
+      "key": "korea-1943:p0017_3",
+      "batch_id": "pilot-b",
+      "input": "input/korea-1943--p0017_3.json",
+      "input_sha256": "9f15a8e159db66925f6cacf581ce57cd5fd356004760d7e09e76c6c4d16b0aab",
+      "source": "data/korea-1943.json",
+      "selection_reason": "all-book coverage",
+      "features": {
+        "multipart": true,
+        "roster_candidate": false,
+        "marked_unreadable": true,
+        "japanese_original": true
+      },
+      "chars": 4603
+    },
+    {
+      "key": "korea-1944:p0195_1",
+      "batch_id": "pilot-b",
+      "input": "input/korea-1944--p0195_1.json",
+      "input_sha256": "c53aa14ad553186720124c69c8ded8f3cdb75ccbd6dba317286647ad102976dc",
+      "source": "data/korea-1944.json",
+      "selection_reason": "theme sampling: forestry",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": true
+      },
+      "chars": 1209
+    },
+    {
+      "key": "korea-nenkan-1940:p0259_1",
+      "batch_id": "pilot-b",
+      "input": "input/korea-nenkan-1940--p0259_1.json",
+      "input_sha256": "bebeb048d3163cec0582d4d2fe798962d5d8537cf468969b479d57341de2e2eb",
+      "source": "data/korea-nenkan-1940.json",
+      "selection_reason": "theme sampling: utilities",
+      "features": {
+        "multipart": false,
+        "roster_candidate": true,
+        "marked_unreadable": true,
+        "japanese_original": true
+      },
+      "chars": 2340
+    },
+    {
+      "key": "korea-nenkan-1940:p0331_1",
+      "batch_id": "pilot-b",
+      "input": "input/korea-nenkan-1940--p0331_1.json",
+      "input_sha256": "c91911dd1f72714e12f0a870db55ebd0d62a8d7f93204aecfb5447e9bd61f759",
+      "source": "data/korea-nenkan-1940.json",
+      "selection_reason": "theme sampling: press",
+      "features": {
+        "multipart": false,
+        "roster_candidate": true,
+        "marked_unreadable": true,
+        "japanese_original": true
+      },
+      "chars": 1730
+    },
+    {
+      "key": "manchoukuo-1934:p0497_1",
+      "batch_id": "pilot-b",
+      "input": "input/manchoukuo-1934--p0497_1.json",
+      "input_sha256": "ce1c2678091cb6d41e1b9273ed7ec2965f817fd8128b95108f7e1b2f140c2066",
+      "source": "data/manchoukuo-1934.json",
+      "selection_reason": "all-book coverage",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 2449
+    },
+    {
+      "key": "manchuria-1929:p0188_1",
+      "batch_id": "pilot-b",
+      "input": "input/manchuria-1929--p0188_1.json",
+      "input_sha256": "8573df1205270ae949834820917572ba9abb47e4ab47371c5ddf7e93f38a79bf",
+      "source": "data/manchuria-1929.json",
+      "selection_reason": "all-book coverage",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 2272
+    },
+    {
+      "key": "manchuria-year-book-1931:p0041_1",
+      "batch_id": "pilot-b",
+      "input": "input/manchuria-year-book-1931--p0041_1.json",
+      "input_sha256": "fea248dc987a6d40045d89dabbbd0ccbb0f4393aecc6c956d12b371fe6c4a967",
+      "source": "data/manchuria-year-book-1931.json",
+      "selection_reason": "collection balance and content diversity",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 6368
+    },
+    {
+      "key": "nanyo-tokei-1932:p0114_1",
+      "batch_id": "pilot-b",
+      "input": "input/nanyo-tokei-1932--p0114_1.json",
+      "input_sha256": "3868d34387ac4f3e10567f8daece52a23d4387b2e90243412157d3ea5df7c0ea",
+      "source": "data/nanyo-tokei-1932.json",
+      "selection_reason": "all-book coverage",
+      "features": {
+        "multipart": true,
+        "roster_candidate": false,
+        "marked_unreadable": true,
+        "japanese_original": true
+      },
+      "chars": 36047
+    },
+    {
+      "key": "nanyo-tokei-1932:p0143_1",
+      "batch_id": "pilot-b",
+      "input": "input/nanyo-tokei-1932--p0143_1.json",
+      "input_sha256": "dcf4c4c7c9afdd079ad1355730ed156177b6b28b8dcd0e7e0d4a01a667d9f953",
+      "source": "data/nanyo-tokei-1932.json",
+      "selection_reason": "collection balance and content diversity",
+      "features": {
+        "multipart": true,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": true
+      },
+      "chars": 9717
+    },
+    {
+      "key": "nanyo-tokei-1932:p0152_1",
+      "batch_id": "pilot-b",
+      "input": "input/nanyo-tokei-1932--p0152_1.json",
+      "input_sha256": "9e40dcab2c2763e39a4c460cb902fa995fbcc5f5b35375c1be3a9c71d211ffd7",
+      "source": "data/nanyo-tokei-1932.json",
+      "selection_reason": "collection balance and content diversity",
+      "features": {
+        "multipart": true,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": true
+      },
+      "chars": 14697
+    },
+    {
+      "key": "nanyo-tokei-1932:p0155_1",
+      "batch_id": "pilot-b",
+      "input": "input/nanyo-tokei-1932--p0155_1.json",
+      "input_sha256": "4d8ce10a88b3c9879653c4b73037e5ec4dcfed3b79c9a4e80ecbcf604ddd8ef9",
+      "source": "data/nanyo-tokei-1932.json",
+      "selection_reason": "collection balance and content diversity",
+      "features": {
+        "multipart": true,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": true
+      },
+      "chars": 9652
+    },
+    {
+      "key": "nanyo-tokei-1937:p0033_2",
+      "batch_id": "pilot-b",
+      "input": "input/nanyo-tokei-1937--p0033_2.json",
+      "input_sha256": "3b18ae0713f879ae70a1fd760885ca5d675190f08a739babf061771ccf55106f",
+      "source": "data/nanyo-tokei-1937.json",
+      "selection_reason": "collection balance and content diversity",
+      "features": {
+        "multipart": true,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": true
+      },
+      "chars": 13407
+    },
+    {
+      "key": "nanyo-tokei-1937:p0034_1",
+      "batch_id": "pilot-b",
+      "input": "input/nanyo-tokei-1937--p0034_1.json",
+      "input_sha256": "942978f58626dd59740526426c2c41b6139f6d60fc5123f82025d2e11ed49af0",
+      "source": "data/nanyo-tokei-1937.json",
+      "selection_reason": "collection balance and content diversity",
+      "features": {
+        "multipart": true,
+        "roster_candidate": false,
+        "marked_unreadable": true,
+        "japanese_original": true
+      },
+      "chars": 12305
+    },
+    {
+      "key": "nanyo-tokei-1937:p0041_3",
+      "batch_id": "pilot-b",
+      "input": "input/nanyo-tokei-1937--p0041_3.json",
+      "input_sha256": "47641ad8d164de46f8d14208419e012f7f2d60a1f4cc42b79fab0bf0b8fe1531",
+      "source": "data/nanyo-tokei-1937.json",
+      "selection_reason": "theme sampling: science-and-technology",
+      "features": {
+        "multipart": true,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": true
+      },
+      "chars": 1582
+    },
+    {
+      "key": "nanyo-tokei-1937:p0077_2",
+      "batch_id": "pilot-b",
+      "input": "input/nanyo-tokei-1937--p0077_2.json",
+      "input_sha256": "f1192a5b62e591a3f8c6f806be213af8e30771033b201adcaee233649ad55099",
+      "source": "data/nanyo-tokei-1937.json",
+      "selection_reason": "theme sampling: colonial-rule",
+      "features": {
+        "multipart": true,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": true
+      },
+      "chars": 5911
+    },
+    {
+      "key": "nanyo-tokei-1937:p0079_3",
+      "batch_id": "pilot-b",
+      "input": "input/nanyo-tokei-1937--p0079_3.json",
+      "input_sha256": "c9b20b45c9c960760289a70f3edb0e8b6a87062bf59123cb2f235156bdb533a6",
+      "source": "data/nanyo-tokei-1937.json",
+      "selection_reason": "theme sampling: fisheries",
+      "features": {
+        "multipart": true,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": true
+      },
+      "chars": 2708
+    },
+    {
+      "key": "taiwan-1905:p0088_2",
+      "batch_id": "pilot-b",
+      "input": "input/taiwan-1905--p0088_2.json",
+      "input_sha256": "0d1373229fb985ec748df793bce155ef1122bf9d459d0f9cbfbe297df80ecfc2",
+      "source": "data/taiwan-1905.json",
+      "selection_reason": "all-book coverage",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": true,
+        "japanese_original": true
+      },
+      "chars": 4769
+    },
+    {
+      "key": "taiwan-tokei-1925:p0062_1",
+      "batch_id": "pilot-b",
+      "input": "input/taiwan-tokei-1925--p0062_1.json",
+      "input_sha256": "8240ee17117e47f191ba37eec0f3ac8ea94ccf3f736dafd784e4c7b8782efc3d",
+      "source": "data/taiwan-tokei-1925.json",
+      "selection_reason": "collection balance and content diversity",
+      "features": {
+        "multipart": true,
+        "roster_candidate": false,
+        "marked_unreadable": true,
+        "japanese_original": true
+      },
+      "chars": 14381
+    },
+    {
+      "key": "taiwan-tokei-1933:p0082_1",
+      "batch_id": "pilot-b",
+      "input": "input/taiwan-tokei-1933--p0082_1.json",
+      "input_sha256": "caf0ce94dbe057b2becbee63f3f2e7aafcf69f4cba444078d7bf1daaabd6a59c",
+      "source": "data/taiwan-tokei-1933.json",
+      "selection_reason": "collection balance and content diversity",
+      "features": {
+        "multipart": true,
+        "roster_candidate": false,
+        "marked_unreadable": true,
+        "japanese_original": true
+      },
+      "chars": 8758
+    },
+    {
+      "key": "taiwan-tokei-1938:p0035_1",
+      "batch_id": "pilot-b",
+      "input": "input/taiwan-tokei-1938--p0035_1.json",
+      "input_sha256": "5f07a8068521637acb02fcb42550a759701ad11de00ae6ac66418af8b3039627",
+      "source": "data/taiwan-tokei-1938.json",
+      "selection_reason": "collection balance and content diversity",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": true,
+        "japanese_original": true
+      },
+      "chars": 6939
+    },
+    {
+      "key": "taiwan-tokei-1938:p0282_2",
+      "batch_id": "pilot-b",
+      "input": "input/taiwan-tokei-1938--p0282_2.json",
+      "input_sha256": "bc5cbeb8190ccbe8496a66ac0ac4ff50ea39ad6bbc99c9adb5a3715bfb3c6e5f",
+      "source": "data/taiwan-tokei-1938.json",
+      "selection_reason": "collection balance and content diversity",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": true
+      },
+      "chars": 6054
+    },
+    {
+      "key": "taiwan-tokei-1942:p0070_1",
+      "batch_id": "pilot-b",
+      "input": "input/taiwan-tokei-1942--p0070_1.json",
+      "input_sha256": "9d40c8a67999db25e29512de6493a01e3d428eb00786f17aafa33b630b62da39",
+      "source": "data/taiwan-tokei-1942.json",
+      "selection_reason": "theme sampling: crime-and-justice",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": true,
+        "japanese_original": true
+      },
+      "chars": 3799
+    },
+    {
+      "key": "taiwan-tokei-1942:p0201_5",
+      "batch_id": "pilot-b",
+      "input": "input/taiwan-tokei-1942--p0201_5.json",
+      "input_sha256": "dcadc4f16ca02e5d797accb976c68b5ecbe2a97b1b593efc00333af42dd54d70",
+      "source": "data/taiwan-tokei-1942.json",
+      "selection_reason": "theme sampling: economy",
+      "features": {
+        "multipart": true,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": true
+      },
+      "chars": 1947
+    },
+    {
+      "key": "china-1914:p0535_2",
+      "batch_id": "pilot-c",
+      "input": "input/china-1914--p0535_2.json",
+      "input_sha256": "60e0001983906e6046073c9ac2bd4cff4c67cef728fee71d5ddaec429e7f62c6",
+      "source": "data/china-1914.json",
+      "selection_reason": "all-book coverage",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": true,
+        "japanese_original": false
+      },
+      "chars": 3882
+    },
+    {
+      "key": "china-1922:p0857_1",
+      "batch_id": "pilot-c",
+      "input": "input/china-1922--p0857_1.json",
+      "input_sha256": "d0c3fd3419259139c1613255c262600d7ffd7868f6fc55f787fc7774bc08a5fe",
+      "source": "data/china-1922.json",
+      "selection_reason": "all-book coverage",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 5352
+    },
+    {
+      "key": "china-1923:p0820_1",
+      "batch_id": "pilot-c",
+      "input": "input/china-1923--p0820_1.json",
+      "input_sha256": "1243b8d2430dd3056d0dd9ee4bf6b8d149f2574adf692200628ac7fb4b812923",
+      "source": "data/china-1923.json",
+      "selection_reason": "theme sampling: agriculture",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 3359
+    },
+    {
+      "key": "china-1925-6:p0074_1",
+      "batch_id": "pilot-c",
+      "input": "input/china-1925-6--p0074_1.json",
+      "input_sha256": "7c488a64c807f692f3c74add46a7a575410458ffe1302e0e55fbcdd2e1fe51f3",
+      "source": "data/china-1925-6.json",
+      "selection_reason": "theme sampling: population",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": true,
+        "japanese_original": false
+      },
+      "chars": 1336
+    },
+    {
+      "key": "china-1925-6:p1272_1",
+      "batch_id": "pilot-c",
+      "input": "input/china-1925-6--p1272_1.json",
+      "input_sha256": "0437c68fe49cd94de6ada88413b4d13c6e191b9b2a44a745ef66212abea5d18e",
+      "source": "data/china-1925-6.json",
+      "selection_reason": "collection balance and content diversity",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 2665
+    },
+    {
+      "key": "china-1926-7:p0242_2",
+      "batch_id": "pilot-c",
+      "input": "input/china-1926-7--p0242_2.json",
+      "input_sha256": "18ec5de9a639016cfdceacf13d9670288ab570534872da32607ed2ab714c37b7",
+      "source": "data/china-1926-7.json",
+      "selection_reason": "theme sampling: manufacturing",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 6094
+    },
+    {
+      "key": "china-1926-7:p0748_1",
+      "batch_id": "pilot-c",
+      "input": "input/china-1926-7--p0748_1.json",
+      "input_sha256": "784356d8c9959d24c306b53b3a47a08639ef39b7aa3100ac3bf09742a909f5d6",
+      "source": "data/china-1926-7.json",
+      "selection_reason": "theme sampling: health",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 1204
+    },
+    {
+      "key": "china-1937-43:p3-0040_1",
+      "batch_id": "pilot-c",
+      "input": "input/china-1937-43--p3-0040_1.json",
+      "input_sha256": "8cdef357aafec268860c4683ee040ada558f6fef00600bb7b3676ecca37aacec",
+      "source": "data/china-1937-43.json",
+      "selection_reason": "collection balance and content diversity",
+      "features": {
+        "multipart": false,
+        "roster_candidate": true,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 1302
+    },
+    {
+      "key": "china-1938:p0063_1",
+      "batch_id": "pilot-c",
+      "input": "input/china-1938--p0063_1.json",
+      "input_sha256": "44424387d27e3405e7e7af1e7e0c43853d7d16d12dbb2efccd1d8a0d44da8f02",
+      "source": "data/china-1938.json",
+      "selection_reason": "all-book coverage",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 9551
+    },
+    {
+      "key": "china-1944:p0210_1",
+      "batch_id": "pilot-c",
+      "input": "input/china-1944--p0210_1.json",
+      "input_sha256": "eec67319484471d961723a0216bad448349b64879c3ae6d3d226880495d7a350",
+      "source": "data/china-1944.json",
+      "selection_reason": "collection balance and content diversity",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 2616
+    },
+    {
+      "key": "china-1944:p0224_1",
+      "batch_id": "pilot-c",
+      "input": "input/china-1944--p0224_1.json",
+      "input_sha256": "166e7b63fed0552407eb27582210b097cf24be4573ba07172d9984abfb635a7e",
+      "source": "data/china-1944.json",
+      "selection_reason": "all-book coverage",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 7616
+    },
+    {
+      "key": "china-1950:p1-0057_1",
+      "batch_id": "pilot-c",
+      "input": "input/china-1950--p1-0057_1.json",
+      "input_sha256": "76ef593abdc077aa28cb4f001eab22657b5be02c4c41cd4859bbcceabef4b2ec",
+      "source": "data/china-1950.json",
+      "selection_reason": "collection balance and content diversity",
+      "features": {
+        "multipart": true,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 14542
+    },
+    {
+      "key": "china-flood-1931:p0057_2",
+      "batch_id": "pilot-c",
+      "input": "input/china-flood-1931--p0057_2.json",
+      "input_sha256": "3faa5c817c4254754622ace656039a8810af38f887574a65969da7331997aa36",
+      "source": "data/china-flood-1931.json",
+      "selection_reason": "collection balance and content diversity",
+      "features": {
+        "multipart": false,
+        "roster_candidate": true,
+        "marked_unreadable": true,
+        "japanese_original": false
+      },
+      "chars": 2500
+    },
+    {
+      "key": "china-flood-1931:p0058_2",
+      "batch_id": "pilot-c",
+      "input": "input/china-flood-1931--p0058_2.json",
+      "input_sha256": "7242a793774364f18b593fb815379b3f3fe33d47a3fc45e5eeacc0c78f3867af",
+      "source": "data/china-flood-1931.json",
+      "selection_reason": "collection balance and content diversity",
+      "features": {
+        "multipart": false,
+        "roster_candidate": true,
+        "marked_unreadable": true,
+        "japanese_original": false
+      },
+      "chars": 2417
+    },
+    {
+      "key": "far-east-1941:IMG_5005_3",
+      "batch_id": "pilot-c",
+      "input": "input/far-east-1941--IMG_5005_3.json",
+      "input_sha256": "07c38e82849ff87f9750f902b5f256c38250038df45f1e6dd8793aebd24fab05",
+      "source": "data/far-east-1941.json",
+      "selection_reason": "collection balance and content diversity",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 2155
+    },
+    {
+      "key": "far-east-1941:IMG_5403_3",
+      "batch_id": "pilot-c",
+      "input": "input/far-east-1941--IMG_5403_3.json",
+      "input_sha256": "22aa2a50c771cc07241f4d4eb9bf17fe279c6719526a842ad4622809783fff3e",
+      "source": "data/far-east-1941.json",
+      "selection_reason": "collection balance and content diversity",
+      "features": {
+        "multipart": true,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 4643
+    },
+    {
+      "key": "japan-1930:p0559_1",
+      "batch_id": "pilot-c",
+      "input": "input/japan-1930--p0559_1.json",
+      "input_sha256": "05e85f2c2cb33352210b1d98715a2f11a0a1c2357274d16c89c322b07d4da903",
+      "source": "data/japan-1930.json",
+      "selection_reason": "all-book coverage",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 1395
+    },
+    {
+      "key": "japan-1937:p0409_1",
+      "batch_id": "pilot-c",
+      "input": "input/japan-1937--p0409_1.json",
+      "input_sha256": "41387cab2f47602f75267be800a29ef1db32bb9e943f1c6a402ce669557aa25e",
+      "source": "data/japan-1937.json",
+      "selection_reason": "all-book coverage",
+      "features": {
+        "multipart": true,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 2791
+    },
+    {
+      "key": "japan-manchoukuo-1934:p1-0495_2",
+      "batch_id": "pilot-c",
+      "input": "input/japan-manchoukuo-1934--p1-0495_2.json",
+      "input_sha256": "99f657777d21eb587a31744d99be7bfd10ef716761f5749cd8f634950804bb86",
+      "source": "data/japan-manchoukuo-1934.json",
+      "selection_reason": "collection balance and content diversity",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 4011
+    },
+    {
+      "key": "japan-manchoukuo-1936:p1-0407_4",
+      "batch_id": "pilot-c",
+      "input": "input/japan-manchoukuo-1936--p1-0407_4.json",
+      "input_sha256": "3daeb6c2d2a357e50086b0f3d4bdfa8e2b97dc0453c65d8bd42a4a7980f3dcea",
+      "source": "data/japan-manchoukuo-1936.json",
+      "selection_reason": "theme sampling: finance",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 988
+    },
+    {
+      "key": "japan-manchoukuo-1939:p1-0283_3",
+      "batch_id": "pilot-c",
+      "input": "input/japan-manchoukuo-1939--p1-0283_3.json",
+      "input_sha256": "9339beae2a9c1fc013a84702d082f18a29a1c5988a68e2770b4d9d6309efdf48",
+      "source": "data/japan-manchoukuo-1939.json",
+      "selection_reason": "collection balance and content diversity",
+      "features": {
+        "multipart": true,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 2846
+    },
+    {
+      "key": "japan-manchoukuo-1939:p1-0935_1",
+      "batch_id": "pilot-c",
+      "input": "input/japan-manchoukuo-1939--p1-0935_1.json",
+      "input_sha256": "9575352cf9c54d199ca08ee61eab13820324e81a3bb5467eddf64a73be19bf36",
+      "source": "data/japan-manchoukuo-1939.json",
+      "selection_reason": "collection balance and content diversity",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 1977
+    },
+    {
+      "key": "japan-tokei-1935:p0182_1",
+      "batch_id": "pilot-c",
+      "input": "input/japan-tokei-1935--p0182_1.json",
+      "input_sha256": "bdae4e0642a4ac33ed34a27e7874c0ab1dc2af748ff4e1f3d12ceb95e355be45",
+      "source": "data/japan-tokei-1935.json",
+      "selection_reason": "collection balance and content diversity",
+      "features": {
+        "multipart": true,
+        "roster_candidate": false,
+        "marked_unreadable": true,
+        "japanese_original": true
+      },
+      "chars": 15896
+    },
+    {
+      "key": "japan-tokei-1935:p0230_1",
+      "batch_id": "pilot-c",
+      "input": "input/japan-tokei-1935--p0230_1.json",
+      "input_sha256": "92144c1774f52382cc1ccb6f29065a450d2b2137af8b61a50d071afebb623577",
+      "source": "data/japan-tokei-1935.json",
+      "selection_reason": "collection balance and content diversity",
+      "features": {
+        "multipart": true,
+        "roster_candidate": false,
+        "marked_unreadable": true,
+        "japanese_original": true
+      },
+      "chars": 9066
+    },
+    {
+      "key": "japan-tokei-1938:p0142_1",
+      "batch_id": "pilot-c",
+      "input": "input/japan-tokei-1938--p0142_1.json",
+      "input_sha256": "f701a1e67f3e610b950ab62cd7e60768ed095c8766d64dae194461b5067fb17c",
+      "source": "data/japan-tokei-1938.json",
+      "selection_reason": "collection balance and content diversity",
+      "features": {
+        "multipart": true,
+        "roster_candidate": false,
+        "marked_unreadable": true,
+        "japanese_original": true
+      },
+      "chars": 15761
+    },
+    {
+      "key": "japan-tokei-1940:p0134_1",
+      "batch_id": "pilot-c",
+      "input": "input/japan-tokei-1940--p0134_1.json",
+      "input_sha256": "538b39cc602adf07509a6a7b3ce8039e4b5330f11c118f710b6aaba7a8ea7999",
+      "source": "data/japan-tokei-1940.json",
+      "selection_reason": "collection balance and content diversity",
+      "features": {
+        "multipart": true,
+        "roster_candidate": false,
+        "marked_unreadable": true,
+        "japanese_original": true
+      },
+      "chars": 10421
+    },
+    {
+      "key": "korea-1916-17:p0096_1",
+      "batch_id": "pilot-c",
+      "input": "input/korea-1916-17--p0096_1.json",
+      "input_sha256": "d4eb6e853a3da9b1c13c28970946940494dc0bc4a53af3b55ab4ea0bba5bfe94",
+      "source": "data/korea-1916-17.json",
+      "selection_reason": "all-book coverage",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": true,
+        "japanese_original": false
+      },
+      "chars": 3380
+    },
+    {
+      "key": "korea-1917-18:p0191_1",
+      "batch_id": "pilot-c",
+      "input": "input/korea-1917-18--p0191_1.json",
+      "input_sha256": "2dc8650e798df7adb8953197277db0468cf6828bdbf016b013e23ba74d0195ad",
+      "source": "data/korea-1917-18.json",
+      "selection_reason": "all-book coverage",
+      "features": {
+        "multipart": true,
+        "roster_candidate": false,
+        "marked_unreadable": true,
+        "japanese_original": false
+      },
+      "chars": 11786
+    },
+    {
+      "key": "korea-1921-22:p0280_1",
+      "batch_id": "pilot-c",
+      "input": "input/korea-1921-22--p0280_1.json",
+      "input_sha256": "9d619b0530210ae10b99d3165fb5ca576fb4ecc482c295afdd806d88675f1e5a",
+      "source": "data/korea-1921-22.json",
+      "selection_reason": "all-book coverage",
+      "features": {
+        "multipart": true,
+        "roster_candidate": false,
+        "marked_unreadable": true,
+        "japanese_original": false
+      },
+      "chars": 4367
+    },
+    {
+      "key": "korea-1922-23:p0254_1",
+      "batch_id": "pilot-c",
+      "input": "input/korea-1922-23--p0254_1.json",
+      "input_sha256": "9471584989ceeca508472ce4b829761529f75c145cccaec40923cb68b857e99c",
+      "source": "data/korea-1922-23.json",
+      "selection_reason": "all-book coverage",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 1218
+    },
+    {
+      "key": "korea-1923-24:p0205_1",
+      "batch_id": "pilot-c",
+      "input": "input/korea-1923-24--p0205_1.json",
+      "input_sha256": "070479dda81371ea514f4e610ffced3a028560c0f8a2a4bca20761edcc9fc9d0",
+      "source": "data/korea-1923-24.json",
+      "selection_reason": "all-book coverage",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 1399
+    },
+    {
+      "key": "korea-1927-28:p0159_1",
+      "batch_id": "pilot-c",
+      "input": "input/korea-1927-28--p0159_1.json",
+      "input_sha256": "419130b9a55e35b2868607609f5bece09674fcb9d0342c986fa33eea44c1ba16",
+      "source": "data/korea-1927-28.json",
+      "selection_reason": "all-book coverage",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 1567
+    },
+    {
+      "key": "korea-1930-32:p0105_1",
+      "batch_id": "pilot-c",
+      "input": "input/korea-1930-32--p0105_1.json",
+      "input_sha256": "e938289b18223f3e9c6733f2f567a594fbe20664b171340132c8904ce8eeac1f",
+      "source": "data/korea-1930-32.json",
+      "selection_reason": "all-book coverage",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 1604
+    },
+    {
+      "key": "korea-1932-33:p0213_1",
+      "batch_id": "pilot-c",
+      "input": "input/korea-1932-33--p0213_1.json",
+      "input_sha256": "44bd17c2973dadc2b2c773a0d93d8700de3aad1815ad2a1ed664ad33d905f2f2",
+      "source": "data/korea-1932-33.json",
+      "selection_reason": "all-book coverage",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 1684
+    },
+    {
+      "key": "korea-1934-35:p0076_1",
+      "batch_id": "pilot-c",
+      "input": "input/korea-1934-35--p0076_1.json",
+      "input_sha256": "22c56fdbeed48ae87185cde4757285ba2691b6907ce4aa666136731be6c36bce",
+      "source": "data/korea-1934-35.json",
+      "selection_reason": "all-book coverage",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 1028
+    },
+    {
+      "key": "korea-1935-36:p0167_1",
+      "batch_id": "pilot-c",
+      "input": "input/korea-1935-36--p0167_1.json",
+      "input_sha256": "ea80aadb71376d56bcd9b899e3f8cbf68b1789e155a9b9254b1d32e7cce4f921",
+      "source": "data/korea-1935-36.json",
+      "selection_reason": "all-book coverage",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 1164
+    },
+    {
+      "key": "korea-1936-37:p0043_2",
+      "batch_id": "pilot-c",
+      "input": "input/korea-1936-37--p0043_2.json",
+      "input_sha256": "29d2a329fc8a8e3623a0a278fb55ef64ea4e2253de61abccc1c95a9f16dae189",
+      "source": "data/korea-1936-37.json",
+      "selection_reason": "all-book coverage",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 1113
+    },
+    {
+      "key": "korea-1938-39:p0240_1",
+      "batch_id": "pilot-c",
+      "input": "input/korea-1938-39--p0240_1.json",
+      "input_sha256": "7c804c6098314d48ab578b4bb34cabf909982268883bebc2ec6d4c651c540e44",
+      "source": "data/korea-1938-39.json",
+      "selection_reason": "all-book coverage",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 1768
+    },
+    {
+      "key": "korea-1940:p0016_2",
+      "batch_id": "pilot-c",
+      "input": "input/korea-1940--p0016_2.json",
+      "input_sha256": "ee12c1da3568cc92f4741f2dc370faa36aa3e332f619328121860ace2a023048",
+      "source": "data/korea-1940.json",
+      "selection_reason": "all-book coverage",
+      "features": {
+        "multipart": true,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": true
+      },
+      "chars": 2201
+    },
+    {
+      "key": "korea-nenkan-1940:p0276_3",
+      "batch_id": "pilot-c",
+      "input": "input/korea-nenkan-1940--p0276_3.json",
+      "input_sha256": "33d25883a9d692a6e96cc6fc9849f65f22972170ae2ad17bee219d3f3e074245",
+      "source": "data/korea-nenkan-1940.json",
+      "selection_reason": "theme sampling: history",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": true,
+        "japanese_original": true
+      },
+      "chars": 1548
+    },
+    {
+      "key": "manchoukuo-1942:IMG_5879_1",
+      "batch_id": "pilot-c",
+      "input": "input/manchoukuo-1942--IMG_5879_1.json",
+      "input_sha256": "7625750700f2055650c712b635ee7b555e673ba7e308c64d4ba029e44b82f6b7",
+      "source": "data/manchoukuo-1942.json",
+      "selection_reason": "all-book coverage",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 2363
+    },
+    {
+      "key": "manchuria-1931:p0022_3",
+      "batch_id": "pilot-c",
+      "input": "input/manchuria-1931--p0022_3.json",
+      "input_sha256": "c2eeaa860d608883f0bae5da89ee1c3f4d334396e4c73156653bf756c2d72021",
+      "source": "data/manchuria-1931.json",
+      "selection_reason": "all-book coverage",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 1586
+    },
+    {
+      "key": "manchuria-1936:p0096_1",
+      "batch_id": "pilot-c",
+      "input": "input/manchuria-1936--p0096_1.json",
+      "input_sha256": "ff05bfc63c1ae190ec30b5febe2dfc2ffe84da9e693314762422fe0787648e93",
+      "source": "data/manchuria-1936.json",
+      "selection_reason": "all-book coverage",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 1740
+    },
+    {
+      "key": "manchuria-year-book-1931:p0216_1",
+      "batch_id": "pilot-c",
+      "input": "input/manchuria-year-book-1931--p0216_1.json",
+      "input_sha256": "9e7f34e1d52813871f85bc8d414a33568c3e500e2e85fe68e3b22ec70aea01ed",
+      "source": "data/manchuria-year-book-1931.json",
+      "selection_reason": "all-book coverage",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 2262
+    },
+    {
+      "key": "nanyo-tokei-1932:p0068_1",
+      "batch_id": "pilot-c",
+      "input": "input/nanyo-tokei-1932--p0068_1.json",
+      "input_sha256": "fbf25e1a3d0307b326026608bde244b7f5bd4a79ccad348021a383e0106bbd49",
+      "source": "data/nanyo-tokei-1932.json",
+      "selection_reason": "collection balance and content diversity",
+      "features": {
+        "multipart": true,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": true
+      },
+      "chars": 10834
+    },
+    {
+      "key": "nanyo-tokei-1932:p0213_1",
+      "batch_id": "pilot-c",
+      "input": "input/nanyo-tokei-1932--p0213_1.json",
+      "input_sha256": "1958826bd498a4fffc913e2fb2c3b04922685e910cf359d9594f60ce739a448c",
+      "source": "data/nanyo-tokei-1932.json",
+      "selection_reason": "collection balance and content diversity",
+      "features": {
+        "multipart": true,
+        "roster_candidate": false,
+        "marked_unreadable": true,
+        "japanese_original": true
+      },
+      "chars": 6231
+    },
+    {
+      "key": "nanyo-tokei-1932:p0269_1",
+      "batch_id": "pilot-c",
+      "input": "input/nanyo-tokei-1932--p0269_1.json",
+      "input_sha256": "e6dda3e6538d2113bea5c749b0fa4e10530d29148f7c9675f03c96bc4bdcb317",
+      "source": "data/nanyo-tokei-1932.json",
+      "selection_reason": "collection balance and content diversity",
+      "features": {
+        "multipart": true,
+        "roster_candidate": false,
+        "marked_unreadable": true,
+        "japanese_original": true
+      },
+      "chars": 12519
+    },
+    {
+      "key": "nanyo-tokei-1937:p0032_1",
+      "batch_id": "pilot-c",
+      "input": "input/nanyo-tokei-1937--p0032_1.json",
+      "input_sha256": "ebeca174d4371f457514f58b67a2f68a41505d5084ca68933c6800a33fe34e71",
+      "source": "data/nanyo-tokei-1937.json",
+      "selection_reason": "collection balance and content diversity",
+      "features": {
+        "multipart": true,
+        "roster_candidate": false,
+        "marked_unreadable": true,
+        "japanese_original": true
+      },
+      "chars": 7310
+    },
+    {
+      "key": "nanyo-tokei-1937:p0049_1",
+      "batch_id": "pilot-c",
+      "input": "input/nanyo-tokei-1937--p0049_1.json",
+      "input_sha256": "360ffee6be1ad57355ec54952e6582cc9ded5437178fde59e7dab7a57f42f687",
+      "source": "data/nanyo-tokei-1937.json",
+      "selection_reason": "collection balance and content diversity",
+      "features": {
+        "multipart": true,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": true
+      },
+      "chars": 7003
+    },
+    {
+      "key": "taiwan-1912:p0179_1",
+      "batch_id": "pilot-c",
+      "input": "input/taiwan-1912--p0179_1.json",
+      "input_sha256": "7dff25f7c52b79aded43aa63bf3cacfbb3a83615dcb17f71dda56e7f3226312a",
+      "source": "data/taiwan-1912.json",
+      "selection_reason": "all-book coverage",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 3132
+    },
+    {
+      "key": "taiwan-tokei-1925:p0067_1",
+      "batch_id": "pilot-c",
+      "input": "input/taiwan-tokei-1925--p0067_1.json",
+      "input_sha256": "3fa724bdf4ddcf56ca7b98a2cea3053a6729b8556c941a2ea5bcf07266c8e69b",
+      "source": "data/taiwan-tokei-1925.json",
+      "selection_reason": "collection balance and content diversity",
+      "features": {
+        "multipart": true,
+        "roster_candidate": false,
+        "marked_unreadable": true,
+        "japanese_original": true
+      },
+      "chars": 14042
+    },
+    {
+      "key": "taiwan-tokei-1933:p0079_1",
+      "batch_id": "pilot-c",
+      "input": "input/taiwan-tokei-1933--p0079_1.json",
+      "input_sha256": "549f61c4d23ae8b583c1b19ff3fec1d66ef546f46282ea97536dbc23cb3b5178",
+      "source": "data/taiwan-tokei-1933.json",
+      "selection_reason": "collection balance and content diversity",
+      "features": {
+        "multipart": true,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": true
+      },
+      "chars": 7887
+    },
+    {
+      "key": "taiwan-tokei-1933:p0083_1",
+      "batch_id": "pilot-c",
+      "input": "input/taiwan-tokei-1933--p0083_1.json",
+      "input_sha256": "a1d84382c66dede62541016453f07966363d4af52ec555c9c2c4faec11945252",
+      "source": "data/taiwan-tokei-1933.json",
+      "selection_reason": "collection balance and content diversity",
+      "features": {
+        "multipart": true,
+        "roster_candidate": false,
+        "marked_unreadable": true,
+        "japanese_original": true
+      },
+      "chars": 8515
+    },
+    {
+      "key": "taiwan-tokei-1933:p0186_1",
+      "batch_id": "pilot-c",
+      "input": "input/taiwan-tokei-1933--p0186_1.json",
+      "input_sha256": "0b2ced5dacce13ef7a40916506b3ecd34cf8c4bdf23cbdf1bab884ea64968f43",
+      "source": "data/taiwan-tokei-1933.json",
+      "selection_reason": "collection balance and content diversity",
+      "features": {
+        "multipart": true,
+        "roster_candidate": false,
+        "marked_unreadable": true,
+        "japanese_original": true
+      },
+      "chars": 17824
+    },
+    {
+      "key": "taiwan-tokei-1933:p0353_2",
+      "batch_id": "pilot-c",
+      "input": "input/taiwan-tokei-1933--p0353_2.json",
+      "input_sha256": "3038c23d2cb15f0a6aabfb66ca4de132e6e2e2cec9bc0ae95b6b54369ba62495",
+      "source": "data/taiwan-tokei-1933.json",
+      "selection_reason": "collection balance and content diversity",
+      "features": {
+        "multipart": true,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": true
+      },
+      "chars": 1834
+    },
+    {
+      "key": "taiwan-tokei-1933:p0363_1",
+      "batch_id": "pilot-c",
+      "input": "input/taiwan-tokei-1933--p0363_1.json",
+      "input_sha256": "39b2361135cebe584bce166fd250b9dec721788d8f4cf44120d2cec6ddd96446",
+      "source": "data/taiwan-tokei-1933.json",
+      "selection_reason": "all-book coverage",
+      "features": {
+        "multipart": true,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": true
+      },
+      "chars": 5067
+    },
+    {
+      "key": "taiwan-tokei-1938:p0194_2",
+      "batch_id": "pilot-c",
+      "input": "input/taiwan-tokei-1938--p0194_2.json",
+      "input_sha256": "dd3b64cb0d9c056fdc8b3bd25c0e11d4cd6216096efb92b0343095368966d853",
+      "source": "data/taiwan-tokei-1938.json",
+      "selection_reason": "collection balance and content diversity",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": true,
+        "japanese_original": true
+      },
+      "chars": 3690
+    },
+    {
+      "key": "taiwan-tokei-1938:p0239_3",
+      "batch_id": "pilot-c",
+      "input": "input/taiwan-tokei-1938--p0239_3.json",
+      "input_sha256": "9346f0327e07567b4a3f71476646139fb052b18b3958db52f45cb8da327f058e",
+      "source": "data/taiwan-tokei-1938.json",
+      "selection_reason": "collection balance and content diversity",
+      "features": {
+        "multipart": true,
+        "roster_candidate": false,
+        "marked_unreadable": true,
+        "japanese_original": true
+      },
+      "chars": 4992
+    },
+    {
+      "key": "taiwan-tokei-1942:p0129_1",
+      "batch_id": "pilot-c",
+      "input": "input/taiwan-tokei-1942--p0129_1.json",
+      "input_sha256": "1d98b606af590d9921cc7fcb1046856a88ce2751dc23d0a1dd291b0cb7efdbdc",
+      "source": "data/taiwan-tokei-1942.json",
+      "selection_reason": "collection balance and content diversity",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": true,
+        "japanese_original": true
+      },
+      "chars": 2055
+    },
+    {
+      "key": "taiwan-tokei-1942:p0247_3",
+      "batch_id": "pilot-c",
+      "input": "input/taiwan-tokei-1942--p0247_3.json",
+      "input_sha256": "01d8bd2d398b2528e7933298522ef32649339f9922bb93b6d55d041cd11ddb49",
+      "source": "data/taiwan-tokei-1942.json",
+      "selection_reason": "collection balance and content diversity",
+      "features": {
+        "multipart": true,
+        "roster_candidate": false,
+        "marked_unreadable": true,
+        "japanese_original": true
+      },
+      "chars": 6037
+    },
+    {
+      "key": "manchoukuo-1942:IMG_5508_1",
+      "batch_id": "pilot-d",
+      "input": "input/manchoukuo-1942--IMG_5508_1.json",
+      "input_sha256": "e5d1d299a30d00905b4e67ba17c07a6baaabc53289c7861650962ccdb1f194c6",
+      "source": "data/manchoukuo-1942.json",
+      "selection_reason": "targeted boundary: general historical chronology",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 33460
+    },
+    {
+      "key": "manchoukuo-1942:IMG_5455_1",
+      "batch_id": "pilot-d",
+      "input": "input/manchoukuo-1942--IMG_5455_1.json",
+      "input_sha256": "d21255cec6a3d570835e4423e8ea0c8a5e9dc8aa6370dd98c8b01cde92ab36b4",
+      "source": "data/manchoukuo-1942.json",
+      "selection_reason": "targeted boundary: calendar years without statistical observations",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 2076
+    },
+    {
+      "key": "japan-1942-43:p1068_6",
+      "batch_id": "pilot-d",
+      "input": "input/japan-1942-43--p1068_6.json",
+      "input_sha256": "a290edada712c421d8b0310afe9ca01dff2f4a5bad8541a8b9af5329a52a3317",
+      "source": "data/japan-1942-43.json",
+      "selection_reason": "targeted boundary: explicit foreign-concession subject",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 814
+    },
+    {
+      "key": "japan-manchoukuo-1934:p2-0003_2",
+      "batch_id": "pilot-d",
+      "input": "input/japan-manchoukuo-1934--p2-0003_2.json",
+      "input_sha256": "f44938b55fea46432b564a5543068f744cd6fcf7286cd91e69e42634dbef98b4",
+      "source": "data/japan-manchoukuo-1934.json",
+      "selection_reason": "targeted boundary: ordinary meteorology within a colonial territory",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 1037
+    },
+    {
+      "key": "japan-1939-40:p1088_1",
+      "batch_id": "pilot-d",
+      "input": "input/japan-1939-40--p1088_1.json",
+      "input_sha256": "1701b3d0e5fb1bf2991093ba5ac14c219eb9a7aa78b323a3295c5180127f0421",
+      "source": "data/japan-1939-40.json",
+      "selection_reason": "targeted boundary: ordinary budget within a colonial territory",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 998
+    },
+    {
+      "key": "japan-manchoukuo-1940:p0115_6",
+      "batch_id": "pilot-d",
+      "input": "input/japan-manchoukuo-1940--p0115_6.json",
+      "input_sha256": "74509a5303cbbb7aafa67ecc090a12a4a032bf4c7e9d3f3fd2b82c0518bbd0ca",
+      "source": "data/japan-manchoukuo-1940.json",
+      "selection_reason": "targeted boundary: reported bandit-surrender classification",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 967
+    },
+    {
+      "key": "japan-manchoukuo-1938:p1-0965_1",
+      "batch_id": "pilot-d",
+      "input": "input/japan-manchoukuo-1938--p1-0965_1.json",
+      "input_sha256": "60928a2a0e7deba858b0cfe218c0741bccd8578dbfa882b79e01d1a9de21ba06",
+      "source": "data/japan-manchoukuo-1938.json",
+      "selection_reason": "targeted boundary: narcotic treatment rather than commodity production",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 2612
+    },
+    {
+      "key": "japan-1920-21:p0720_3",
+      "batch_id": "pilot-d",
+      "input": "input/japan-1920-21--p0720_3.json",
+      "input_sha256": "ea04b59cb20305010bbf9ea94d539891f6f730461f42159e907c56be70531b0a",
+      "source": "data/japan-1920-21.json",
+      "selection_reason": "targeted boundary: confirmed urban tram traffic",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 716
+    },
+    {
+      "key": "taiwan-tokei-1925:p0263_2",
+      "batch_id": "pilot-d",
+      "input": "input/taiwan-tokei-1925--p0263_2.json",
+      "input_sha256": "5c73254cc4263ee04071db6b261a44722c70039eb359b6929c23d704668349fd",
+      "source": "data/taiwan-tokei-1925.json",
+      "selection_reason": "targeted boundary: track and trolley terminology requiring functional interpretation",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": true,
+        "japanese_original": true
+      },
+      "chars": 4106
+    },
+    {
+      "key": "japan-1939-40:p0696_1",
+      "batch_id": "pilot-d",
+      "input": "input/japan-1939-40--p0696_1.json",
+      "input_sha256": "5175a572a5a526f2143bdf554c64885029178f6cd78ead89f83930a4559bc0d7",
+      "source": "data/japan-1939-40.json",
+      "selection_reason": "targeted boundary: dedicated education expenditure",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 885
+    },
+    {
+      "key": "korea-tokanfu-1939:p0246_1",
+      "batch_id": "pilot-d",
+      "input": "input/korea-tokanfu-1939--p0246_1.json",
+      "input_sha256": "d0edfb3bbbc17c394b2d873bbfdfb13bdc3a2b77f4b4a5ef6aac37c9edc2a357",
+      "source": "data/korea-tokanfu-1939.json",
+      "selection_reason": "targeted boundary: general government account",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": true
+      },
+      "chars": 3093
+    },
+    {
+      "key": "japan-1920-21:p0456_1",
+      "batch_id": "pilot-d",
+      "input": "input/japan-1920-21--p0456_1.json",
+      "input_sha256": "10b1242875259ebb24f925765a3d1a7f115edcf87a441508bc95385eff39a162",
+      "source": "data/japan-1920-21.json",
+      "selection_reason": "targeted boundary: textual patent-law reference list",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 680
+    },
+    {
+      "key": "japan-1910:p0347_2",
+      "batch_id": "pilot-d",
+      "input": "input/japan-1910--p0347_2.json",
+      "input_sha256": "d456223c0c5434d6816753c7529f971361c85d498ed5c6e5ddfeb9514faf762e",
+      "source": "data/japan-1910.json",
+      "selection_reason": "targeted boundary: patent medicines as a lexical false friend",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 749
+    },
+    {
+      "key": "far-east-1941:IMG_5400_1",
+      "batch_id": "pilot-d",
+      "input": "input/far-east-1941--IMG_5400_1.json",
+      "input_sha256": "f06b8739bf0ccdfd9683392774341bd463e6ba7c1e5443f1672f6f3c49bfd327",
+      "source": "data/far-east-1941.json",
+      "selection_reason": "targeted boundary: three commodities crossing two production sectors",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 1141
+    },
+    {
+      "key": "japan-1930:p0513_2",
+      "batch_id": "pilot-d",
+      "input": "input/japan-1930--p0513_2.json",
+      "input_sha256": "d6d42dad4c01a27e43de34d1592e538dd1281810de4c011c239aa5c4203de01d",
+      "source": "data/japan-1930.json",
+      "selection_reason": "targeted boundary: invisible trade",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 893
+    },
+    {
+      "key": "japan-manchoukuo-1939:p1-0258_2",
+      "batch_id": "pilot-d",
+      "input": "input/japan-manchoukuo-1939--p1-0258_2.json",
+      "input_sha256": "ee836794d25ebb615cf4600a8b029e23fb51e194b939c19982142dfdee47f693",
+      "source": "data/japan-manchoukuo-1939.json",
+      "selection_reason": "targeted boundary: living-cost indices rather than family budgets",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 1331
+    },
+    {
+      "key": "far-east-1941:IMG_5089_4",
+      "batch_id": "pilot-d",
+      "input": "input/far-east-1941--IMG_5089_4.json",
+      "input_sha256": "8e981780401e9ce4abafe3ae8886c719f6e189fee9c72e0ede0f641791d27fe7",
+      "source": "data/far-east-1941.json",
+      "selection_reason": "targeted boundary: sporting venues rather than sporting results",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 2133
+    },
+    {
+      "key": "far-east-1941:IMG_5124_2",
+      "batch_id": "pilot-d",
+      "input": "input/far-east-1941--IMG_5124_2.json",
+      "input_sha256": "3450871455b14d9b1e282240dfb244559d8b83dd588f14f219fa5ca0048f7f41",
+      "source": "data/far-east-1941.json",
+      "selection_reason": "targeted boundary: multi-religion affiliation summary",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 1316
+    },
+    {
+      "key": "far-east-1941:IMG_4895_1",
+      "batch_id": "pilot-d",
+      "input": "input/far-east-1941--IMG_4895_1.json",
+      "input_sha256": "b357ce1f4b6111caf8e2a38908822d8cc17b93b1e1b2957b24a21e42501a8ab0",
+      "source": "data/far-east-1941.json",
+      "selection_reason": "targeted boundary: table evidence contrary to its saved contents placement",
+      "features": {
+        "multipart": true,
+        "roster_candidate": false,
+        "marked_unreadable": false,
+        "japanese_original": false
+      },
+      "chars": 2747
+    },
+    {
+      "key": "japan-1942-43:p1157_1",
+      "batch_id": "pilot-d",
+      "input": "input/japan-1942-43--p1157_1.json",
+      "input_sha256": "2237efc81a2b7e1d316d8ff98bae4d246c5df57351044238d84710b361f11623",
+      "source": "data/japan-1942-43.json",
+      "selection_reason": "targeted boundary: reign dates together with substantive durations",
+      "features": {
+        "multipart": false,
+        "roster_candidate": false,
+        "marked_unreadable": true,
+        "japanese_original": false
+      },
+      "chars": 8751
+    }
+  ],
+  "initial_vocabulary": {
+    "version": "1.0.0-pilot",
+    "sha256": "09861ffce1c254bd0b51a753eb0c2b2a2b73ec57b87825344bd874bc1b7919f3",
+    "path": "vocabulary.initial.json"
+  },
+  "sampling_design": "180 all-book records plus 20 targeted boundary cases; a calibration sample, not a prevalence or accuracy estimate.",
+  "archived_vocabularies": [
+    {
+      "version": "1.0.1-pilot",
+      "sha256": "cdba9d6e6492747ca9325e34bc77614c1d0c77bbc0b9d612603c3052c3ce8d47",
+      "path": "vocabulary.calibration.json"
+    }
+  ],
+  "classification_rules_sha256": "2787ebdfec857f83ef02824627bad28af49d212fef0ada06f081c32772fc295a"
+}

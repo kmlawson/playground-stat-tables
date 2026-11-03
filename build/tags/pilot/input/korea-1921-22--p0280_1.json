@@ -1,0 +1,217 @@
+{
+ "key": "korea-1921-22:p0280_1",
+ "book": {
+  "slug": "korea-1921-22",
+  "title": "Annual Report on Reforms and Progress in Chosen 1921-22",
+  "collection": "korea"
+ },
+ "table": {
+  "image": "p0280",
+  "images": [
+   "p0280",
+   "p0281"
+  ],
+  "printed_pages": [
+   "230",
+   "231"
+  ],
+  "chapter": "Local Administration",
+  "table_no": null,
+  "title": "[Local Expenses Budget, 1922, 1921 and 1910: Revenue and Expenditure]",
+  "caption_extra": "[Section 75, Local Finance, (1) Provincial Expenditure] Lead-in: 'The Local Expenses Budget for 1922 as compared with preceding years is given below'. Printed as 'Revenue' (two blocks of columns, second marked '(Continued)') and 'Expenditure' (two blocks, second marked '(Continued)' at top of p. 231). Yen printed small above the first figure of each column.",
+  "continued": true,
+  "parts": [
+   {
+    "label": "Revenue",
+    "columns": [
+     "Year",
+     "Additional Levy on Land & Urban Land Tax (Yen)",
+     "Household & House Tax (Yen)",
+     "Market Tax (Yen)",
+     "Abattoir & Slaughtering Tax (Yen)",
+     "Income Tax on Real Estate Ownership & Mortgage (Yen)",
+     "Fishing Tax (Yen)",
+     "Shipping Tax (Yen)"
+    ],
+    "rows": [
+     [
+      "1922",
+      "4,361,898",
+      "4,801,493",
+      "581,388",
+      "684,630",
+      "—",
+      "151,089",
+      "5,119"
+     ],
+     [
+      "1921",
+      "3,439,439",
+      "4,665,412",
+      "489,718",
+      "581,766",
+      "—",
+      "150,086",
+      "4,470"
+     ],
+     [
+      "1910",
+      "605,427",
+      "—",
+      "137,535",
+      "241,347",
+      "16,407",
+      "—",
+      "—"
+     ]
+    ]
+   },
+   {
+    "label": "Revenue (Continued)",
+    "columns": [
+     "Year",
+     "Vehicle Tax (Yen)",
+     "Receipts from Imperial Donation Funds (Yen)",
+     "Subsidy from Central Government (Yen)",
+     "Balance Transferred (Yen)",
+     "Other Sources (Yen)",
+     "Grand Total (Yen)"
+    ],
+    "rows": [
+     [
+      "1922",
+      "432,238",
+      "903,293",
+      "3,618,778",
+      "1,360,725",
+      "2,361,005",
+      "19,293,656"
+     ],
+     [
+      "1921",
+      "327,447",
+      "910,478",
+      "3,469,764",
+      "709,433",
+      "1,418,601",
+      "16,166,614"
+     ],
+     [
+      "1610",
+      "—",
+      "—",
+      "235,427",
+      "56,390",
+      "17,237",
+      "1.309,769"
+     ]
+    ]
+   },
+   {
+    "label": "Expenditure",
+    "columns": [
+     "Year",
+     "Civil Engineering (Yen)",
+     "Industrial Encouragement (Yen)",
+     "Affording Means of Livelihood (Yen)",
+     "Education (Yen)",
+     "Sanitation & Hospitals (Yen)",
+     "Relief & Charity (Yen)"
+    ],
+    "rows": [
+     [
+      "1922",
+      "4,911,100",
+      "4,310,867",
+      "1,340,684",
+      "6,698,395",
+      "221,922",
+      "33,880"
+     ],
+     [
+      "1921",
+      "4,099,627",
+      "3,688,245",
+      "1,227,021",
+      "5,480,312",
+      "172,888",
+      "33,685"
+     ],
+     [
+      "1910",
+      "303,464",
+      "104,458",
+      "—",
+      "164,238",
+      "35,281",
+      "3,600"
+     ]
+    ]
+   },
+   {
+    "label": "Expenditure (Continued)",
+    "columns": [
+     "Year",
+     "Provincial Councils (Yen)",
+     "Social Works (Yen)",
+     "Transferred to Imperial Donation Funds (Yen)",
+     "Miscellaneous (Yen)",
+     "Reserve Funds (Yen)",
+     "Total (Yen)"
+    ],
+    "rows": [
+     [
+      "1922",
+      "83,671",
+      "485,902",
+      "75,835",
+      "771,794",
+      "369,606",
+      "19,293,656"
+     ],
+     [
+      "1921",
+      "97,722",
+      "349,732",
+      "49,823",
+      "588,401",
+      "379,155",
+      "16,166,612"
+     ],
+     [
+      "1910",
+      "—",
+      "—",
+      "—",
+      "135,265",
+      "—",
+      "746,306"
+     ]
+    ]
+   }
+  ],
+  "footnotes": [],
+  "context": "Compares the provincial Local Expenses Budget for 1922 with 1921 and 1910, by source of revenue and head of expenditure, to illustrate the text's statement that the budget has grown some fifteen times since 1910.",
+  "transcriber_notes": [
+   "Rows: 3 per block x 4 blocks as printed. A dash '—' is printed for nil.",
+   "Row label printed '1610' in the Revenue (Continued) block (third row): misprint for 1910, kept as printed.",
+   "Revenue Grand Total 1910 printed '1.309,769' (period instead of comma), kept as printed.",
+   "Totals check (python3, dashes = 0): Revenue 1922 items sum to 19,261,656 vs printed Grand Total 19,293,656 (differs by 32,000; not reconciled, digits not altered). Revenue 1921 items sum to 16,166,614 = printed. Revenue 1910 items sum to 1,309,770 vs printed 1,309,769 (differs by 1).",
+   "Expenditure 1922 items sum to 19,303,656 vs printed Total 19,293,656 (differs by 10,000; not reconciled). Expenditure 1921 items sum to 16,166,611 vs printed 16,166,612 (differs by 1). Expenditure 1910 items sum to 746,306 = printed.",
+   "The bold Grand Total/Total figures are heavy type; read from 3x enlargements as 19,293,656, 16,166,614, 1.309,769 (revenue) and 19,293,656, 16,166,612, 746,306 (expenditure). No digit used 3-vs-8 rule.",
+   "Expenditure (Continued) block is at the top of p. 231 (printed '(Continued)').",
+   "Verified: an independent blind second transcription agreed on every other cell; cells the readers could not agree on are [?]; the totals that do not reconcile are as printed."
+  ],
+  "id": "p0280_1",
+  "scans": [
+   {
+    "label": "scan leaf 279",
+    "url": "https://archive.org/details/annualreportonreformsandprogressinchosenkorea192122/page/n279/mode/1up"
+   },
+   {
+    "label": "scan leaf 280",
+    "url": "https://archive.org/details/annualreportonreformsandprogressinchosenkorea192122/page/n280/mode/1up"
+   }
+  ]
+ }
+}

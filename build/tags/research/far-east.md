@@ -1,0 +1,2658 @@
+# Far East Year Book 1941: vocabulary coverage survey
+
+This research artifact surveys every row and every existing table-title reference in `data/far-east-1941-toc.json`. It reads the supplied JSON only. No OCR, image extraction, source repair, published-data mutation or pilot tagging was performed. Topic and tag suggestions describe vocabulary coverage, not final table assignments.
+
+- Source SHA-256: `a5cff32300b7987d548251d3e5f8420cf5ba9c70ff7271e4506d111c592636d0`.
+- 1,184 ToC rows; 1,354 table references with 1,354 unique IDs; 96 rows carry table arrays.
+- 1,069 rows have blank printed-page fields; 1,065 have continuation markers; 8 have no source URL. There are no empty heading strings.
+- Row numbers below are zero-based JSON array indexes. Printed pages and URLs are reproduced as supplied; table placement within a ToC row is evidence of storage location, not proof of subject or geography.
+- The complete inventory at the end preserves all 1,184 headings and all 1,354 exact table-ID/title pairs, including source spelling, ellipses and bracketed descriptions.
+
+## Entire-source coverage
+
+| Source section | Row range | ToC rows | Table references | Coverage and limits |
+|---|---:|---:|---:|---|
+| JAPAN SECTION | 0–572 | 573 | 868 | All 44 numbered chapters, including Korea, Taiwan, Karafuto and the South Sea mandated islands; all vocabulary domains appear. Chapter bundles can begin with tables from the preceding chapter. |
+| MANCHOUKUO SECTION | 573–897 | 325 | 295 | All 28 numbered chapters, including colonization, economic policy, Kwantung and the South Manchuria Railway Company; mixed institutions, sectors and social data. |
+| CHINA SECTION | 898–1023 | 126 | 152 | All 12 chapters plus appendix, including Shanghai and Outer Mongolia; trade commodity breakdowns require inherited export/import context within their table series. |
+| COMMONWEALTH OF THE PHILIPPINES | 1024–1048 | 25 | 7 | Geography through foreign trade, including government independence, US investment, crops, forests and minerals. |
+| FRENCH INDO-CHINA | 1049–1066 | 18 | 3 | Position/area through foreign trade; three additional trade tables apparently continuing this section are stored at the following Thailand boundary (sequence-based inference). |
+| THAILAND | 1067–1090 | 24 | 10 | Position through Thai/French Indo-China border settlement; stored tables include a misplaced Japan religion block and preceding Indo-China trade tables. |
+| BRITISH MALAYA | 1091–1120 | 30 | 3 | Area/topography through foreign trade, including finance, currency, rubber, coconuts, oil palms, crops and mineral headings. Only three table references, all trade. |
+| NETHERLANDS EAST INDIES | 1121–1170 | 50 | 16 | Topography through foreign trade, with occupation, plantation crops, livestock, minerals, petroleum, foreign-owned factories, shipping and air service. |
+| BRITISH BORNEO | 1171–1178 | 8 | 0 | History, area, population, resources/industries, external trade, Brunei and Sarawak headings. No table references: retain as a coverage gap, not evidence of absent subject matter. |
+| GENERAL INDEX | 1179–1179 | 1 | 0 | Index heading only; no table references. |
+| MAP and DIAGRAMS | 1180–1183 | 4 | 0 | Air-route map, railway map and diagrams headings; URLs are null and no table references are supplied. |
+
+Southeast Asia is explicitly included: the Philippines, French Indo-China, Thailand, British Malaya, Netherlands East Indies and British Borneo together occupy 155 rows with 39 stored table references. These storage counts include the misplaced boundary blocks described below and therefore do not establish 39 Southeast Asian subject tables.
+
+## Evidence for additions in institutions.json
+
+These eight detailed terms fill distinct retrieval gaps. No new high-level topic is needed for the evidence reviewed. All eight are fully defined under `proposed_additions.tags` in `build/tags/definitions/institutions.json`; the seed vocabulary remains unchanged.
+
+| Proposed tag | Exact table evidence | Gap and boundary |
+|---|---|---|
+| `balance-of-payments` | `IMG_5077_2` (row 446): “13-B. Balance of International Payments”<br>`IMG_5173_1` (row 647): “8. International Balance of Payments” | Imports/exports describe goods flows; banking and foreign exchange do not cover an international transaction account. Do not apply to company balance sheets. |
+| `services-and-invisible-trade` | `IMG_5077_1` (row 446): “13-A. Invisible Trade” | Invisible trade is explicitly tabulated, beyond merchandise imports and exports. The Manchoukuo ToC also has “Invisible Trade” at row 653. Do not assume all capital flows are services. |
+| `migrant-remittances` | `IMG_4863_3` (row 28): “18. Emigrants Going and Returning and Remittances” | Existing postal-remittances requires a postal channel. Here emigrants and remittances are explicit but the title does not establish postal transmission. |
+| `labour-productivity` | `IMG_5003_2` (row 312): “8. Productivity of Labor” | Employment counts and industrial output alone cannot express output per worker. The heading “Production Value per Operative” also occurs at row 354. |
+| `cost-of-living` | `IMG_5004_2` (row 312): “15. Indices of Cost of Living and Retail Price”<br>`IMG_5267_3` (row 853): “12. Index Showing Rising Cost of Living”<br>`IMG_5300_2` (row 939): “2. Index of Cost of Living of Workers in Shanghai” | Wholesale prices are not household living costs; household-budgets need not be a cost-of-living index. Preserve both concepts where the table combines them. |
+| `sports-organisations-and-facilities` | `IMG_5089_4` (row 470): “7. Leading Golf Links”<br>`IMG_5092_3` (row 470): “16. Horse Race Clubs” | The seed sport topic has only sports-records, which excludes clubs and venues without results. Keep sport separate from culture. |
+| `calendars-and-time` | `IMG_4844_2` (row 2): “Year Names and Equivalents”<br>`IMG_4869_3` (row 36): “5. List of Japanese Year-Names”<br>`IMG_5131_1` (row 574): “International Time Chart” | Era equivalence and international time comparison are neither physical units alone nor a generic history label. Dates and year numbers do not by themselves make these statistical tables. |
+| `religious-affiliation` | `IMG_4894_2` (row 88): “1. Number of Followers of the Three Religions” | Follower totals across traditions need an affiliation term. Religious-institutions is for establishments/personnel and must not be forced onto adherent totals. |
+
+## Existing terms and cross-topic calibration
+
+Detailed tags are globally reusable. Their `related_topics` are browsing associations and impose no requirement to assign the corresponding high-level topic. Each pilot table still receives 1–2 high-level topics and 1–3 detailed tags; `text-tables` is a separate format flag.
+
+| Exact evidence | Vocabulary implication |
+|---|---|
+| `IMG_4903_3` (row 99): “20. Educational Expenditure Borne by Public Bodies” | A table devoted to education expenditure supports education + finance and education-finance. A general state budget with one education row would ordinarily use finance. |
+| `IMG_5065_3` (row 446): “6. Specie & Bullion” | “Specie & Bullion” is stored in Foreign Trade. Use trade when the table measures cross-border goods movement; a monetary value does not independently justify finance. |
+| `IMG_5097_4` (row 489): “16. Imports and Exports of Gold Specie and Bullion” | Gold specie and bullion imports/exports may use imports/exports and gold globally. Finance requires substantive currency or financial-account content beyond monetary trade values. |
+| `IMG_4937_4` (row 199): “25. Tramways by Motive Power” | The English title says tramways, but confirm street/interurban function if the underlying source uses broad 軌道 terminology. Do not collapse light, industrial or hand-pushed railways into trams. |
+| `IMG_5083_3` (row 459): “4. Statistics of Municipal Tram and Bus” | A mixed municipal tram-and-bus table is transportation; trams and road-transport can coexist when their functions are established. |
+| `IMG_4924_3` (row 172): “19. Postal Savings Transacted in Japanese Empire” | Postal savings are substantively finance, with savings-and-loans; add communications only if postal operations are also a main subject, not merely the provider name. |
+| `IMG_5128_2` (row 553): “28. Postal Money Orders and Postal Savings” | Postal money orders and savings combine distinct postal-remittances and savings-and-loans concepts; no need for a generic postal-finance duplicate. |
+| `IMG_5127_5` (row 553): “25. Staple Exports (Inclusive of Exports to Other Parts of the Japanese Empire)” | The explicit inclusion of other parts of the Japanese Empire supports intra-imperial-trade where substantive. Do not infer shared imperial jurisdiction from yen-bloc trade alone. |
+| `IMG_5412_3` (row 1163): “[Principal factories built with foreign capital]” | Foreign capital in factories supports foreign-investment and companies within finance/economy or manufacturing, depending on actual measures. Corporate names alone can be text-tables. |
+| `IMG_5413_1` (row 1163): “[Regular shipping lines between the Netherlands East Indies and Europe]” | A list of shipping lines/routes can be text-tables if it contains only names and places; inspect for substantive distances, capacities or traffic before deciding. |
+| `IMG_5413_2` (row 1163): “10. Air Service” | Air service has a precise aviation tag; the broader historical heading Communications must not force telecommunications classification. |
+| `IMG_4900_2` (row 99): “5. Schools for Blind, Deaf and Dumb” | The historical wording denotes disability education; special-education is appropriate. “Special schools” elsewhere may instead be technical or professional schools. |
+| `IMG_4901_3` (row 99): “11. Statistics of Higher Schools (Koto Gakko)” | Koto Gakko historical educational level needs context. The word higher alone does not establish postsecondary level. |
+| `IMG_4903_2` (row 99): “19. Organization of National Research Council (Gakujutsu Kenkyu Kaigi)” | A research council belongs to scientific-research even though stored under Education. An organisation list can carry text-tables when numbers are only dates or serials. |
+| `IMG_4920_1` (row 159): “5. Motion Picture Films Censored in Japan Classified by Countries of Production” | Film censorship is culture + press where both film and official content control are substantive; theatre-and-cinema and censorship are globally reusable. |
+| `IMG_5089_4` (row 470): “7. Leading Golf Links” | Golf links belong to sport, not culture, and reveal the need for a venue/organisation detail rather than sports-records. |
+
+## Southeast Asian evidence and remaining resource coverage
+
+Every Southeast Asian row appears in the complete inventory. A heading without a `k` array is evidence that the ToC discusses a subject, but supplies no table ID for a tagging pilot.
+
+| Territory | Exact evidence | Coverage or gap |
+|---|---|---|
+| Philippines | Row 1030 “Tydings-McDuffie Act”; row 1034 “United States Investments in the Philippines”; `IMG_5392_2` “3. Investments of the United States in the Philippines Classified (1935)” | Existing independence-movements / constitutions-and-laws and foreign-investment are available. Do not add political tags to the investment table from surrounding headings alone. |
+| Philippines | Row 1040 “Manila Hemp”; row 1047 “Chromite”; `IMG_5393_1` “4. Principal Agricultural Output” | plant-fibres and crop-production cover crops; generic mineral-production covers chromite without inventing a specific commodity tag from a heading alone. |
+| French Indo-China | `IMG_5395_1` “1. Area and Population”; `IMG_5396_1` “2. Principal Mineral Output”; `IMG_5397_1` “3. Yearly Comparison of Foreign Trade” | Existing geography/population, mining and trade vocabulary covers the supplied tables. The three following Indo-China trade tables are stored at row 1067. |
+| Thailand | Row 1074 “Foreign Economic Influence”; row 1088 “Telegraph & Telephone”; row 1090 “Thai & French Indo-China Border Settlement”; `IMG_5400_1` “1. Production of Rubber, Tin Ore, Rice” | Existing foreign-investment / foreign-relations concepts may cover the narrative only if the actual content establishes them. The mixed production table needs agriculture/mining judgement and up to three global commodity tags; rubber may be a plantation crop. |
+| British Malaya | Rows 1107–1111 “Rubber”, “Coconuts”, “Rice”, “Oil Palms”, “Pineapples”; `IMG_5407_2` “2. Imports and Exports of British Malaya by Countries” | Existing crop and trade terms cover the evidence. Oil palms are not coconuts: use industrial-crops or vegetable-oils as the actual measure warrants. No separate crop tag is compelled by the three supplied trade titles. |
+| Netherlands East Indies | Rows 1134–1148 include “Cinchona”, “Pepper”, “Kapok”, “Sisal”, “Cantala”, “Gambier”, “Coca”, “Nutmeg”, “Tapioca”, “Citronella”, “Cassava Roots”; `IMG_5409_1` “4. Output of Agricultural Products”; `IMG_5410_1` “5. Other Crops Grown by Natives” | crop-production, industrial-crops, plant-fibres and horticulture are broad existing coverage. Cinchona/quinine, spices and cassava are candidates for future specificity only after inspecting crop rows; do not infer narcotics solely from coca mentioned in a heading. Preserve the historical title verbatim while using neutral definitions. |
+| Netherlands East Indies | Rows 1156, 1159, 1160: “Bauxite”, “Nickel”, “Sulphur”; `IMG_5411_2` “7. Output of Principal Minerals” | Existing mineral-production provides coverage; individual mineral details can be proposed when actual table contents justify them. The seed has no dedicated bauxite, nickel or sulphur tags. |
+| Netherlands East Indies | `IMG_5412_1` “8. Petroleum Production Classified by Islands”; `IMG_5412_2` “9. Derivates of Petroleum Classified”; `IMG_5412_3` “[Principal factories built with foreign capital]”; `IMG_5413_1` “[Regular shipping lines between the Netherlands East Indies and Europe]”; `IMG_5413_2` “10. Air Service” | Petroleum, manufacturing, foreign investment, shipping and aviation are distinct subjects within one storage bundle. Table content controls classification. |
+| British Borneo | Rows 1172–1178: “History”, “Area”, “Population”, “Material Resources and Industries”, “External Trade”, “Kingdom of Brunei”, “Kingdom of Sarawak” | No table IDs supplied. Do not manufacture a pilot record or infer absent topics; these remain title-only coverage evidence. |
+
+Outside Southeast Asia, aluminium and nonmetallic minerals also expose possible specificity gaps: `IMG_5016_1` “19. Production and Imports of Aluminium”; `IMG_5200_2` “18. Soapstone Production”; `IMG_5200_3` “19. Alumina Shale Reserves”; `IMG_5200_4` “20. Statistics of Principal Magnesite Regions”; `IMG_5200_5` “21. Chemical Analysis of Machurian Dolomite”; `IMG_5328_2` “12. Gypsum Production”. Existing mineral-production/mineral-reserves and relevant manufacturing terms give broad coverage; these are recorded as resource-owner follow-ups rather than additions in this institutions file.
+
+## Source-placement and evidence limits
+
+1. **Misplaced Japan religion block:** row 1068 is Thailand “Position”, printed page `114`, URL ending `/Part%202/page/n269/mode/1up`, but contains `IMG_4895_1` “2. No. of Shinto Shrines and Priests”, `IMG_4896_1` “3. No. of Temples and Priests”, `IMG_4897_1` “4. Statistics of Christianity”. These IDs occur only here. Numbering and image sequence align with the Japan religion block (`IMG_4894_2` then education at `IMG_4899_1`); this supports a placement-error inference, not a source-data edit or automatic Thai religious assignment.
+2. **Indo-China/Thailand boundary:** row 1067 “THAILAND” contains `IMG_5398_1` “4. Foreign Trade Classified By Countries”, `IMG_5398_2` “5. Principal Commodities Exported”, and `IMG_5398_3` “6. Principal Commodities Imported”. Their numbering follows Indo-China tables 1–3 immediately before the boundary. The table titles do not themselves name a territory, so use manual source context before assigning geography. No titles explicitly label these three as Indo-China; the placement diagnosis is an inference from sequence.
+3. **Preceding-chapter carry-over is common:** row 28 Population starts `IMG_4859_1` “11. Number of Earthquakes in Tokyo and Vicinity”; row 88 Religion starts `IMG_4894_1` “15. Date of Occupation of Important Points in China by the Japanese Forces in the Sino-Ja…”; row 194 Industrial Properties begins poor-relief tables; row 514 Taiwan starts three Oriental Development Company tables continued from Korea; row 718 Education starts `IMG_5203_1` “26. Oil Shale Reserves”; row 930 Labor contains `IMG_5296_1` “6. Construction Expenses of Chinese National Railways”; row 955 Manufacturing starts two foreign-bank tables. Never assign topic solely from the containing row title.
+4. **Series context matters:** China foreign-trade row 989 stores export commodity Groups I–XXXI and import commodity Groups I–XXXII, many with no repeated “export” or “import” word. Preserve series boundaries and inspect neighbouring titles; do not treat a generic “Group” title as subjectless.
+5. **Format requires content evidence:** lists of names, offices, routes or titles with only serials, ranks or dates/years qualify for `text-tables`. Substantive quantities or measurements, including mixed text and statistics, remain statistical. The ToC title alone cannot settle every case; retain uncertainty rather than treating every numeric-looking field as a statistic.
+6. **Source spelling and truncation:** supplied titles contain “Foregin”, “Revenuue” misspellings, historic language, bracketed descriptions and ellipses. The complete inventory preserves source strings rather than silently repairing them. A truncated title remains incomplete evidence.
+7. **No absence inference:** British Borneo and several topical subsections have headings but no tables. No OCR or fresh extraction is authorised. Their lack of `k` entries limits pilot sampling, not the scope of the historical subject.
+
+## Complete row and table-title inventory
+
+This is a preservation inventory, not a classification output. `c=1` is the source continuation marker. Each linked heading points to its supplied URL; the link is not guaranteed to isolate every attached table.
+
+### JAPAN SECTION
+
+- Row `0`; L0; p=`blank`: JAPAN SECTION (URL missing)
+- Row `1`; L1; p=`i`: FOREWORD (URL missing)
+- Row `2`; L1; p=`13`: [YEAR DATE](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n30/mode/1up)
+  - `IMG_4844_1`: Foreign Trade of China, 1939: By Countries and by Commodities
+  - `IMG_4844_2`: Year Names and Equivalents
+- Row `3`; L1; p=`14`: [WEIGHT & MEASURE](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n31/mode/1up)
+- Row `4`; L1; p=`15`: [I. GEOGRAPHY](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n31/mode/1up)
+  - `IMG_4845_1`: Weights, Measures and Moneys (Japan) with English and French Equivalents
+  - `IMG_4845_2`: 1. Japan's Position in Area and Population
+  - `IMG_4845_3`: 2. Area of Japanese Empire
+  - `IMG_4846_1`: 3. Principal Peaks in Japan
+  - `IMG_4846_2`: 4. Principal Rivers
+  - `IMG_4846_3`: 5. Principal Lakes
+  - `IMG_4846_4`: 6. Principal Plains
+  - `IMG_4847_1`: 7. Average Atmospheric Pressure
+  - `IMG_4848_1`: 8. Directions of Prevailing Wind
+  - `IMG_4848_2`: 9. Average Velocity of Wind (Metre per Second)
+  - `IMG_4848_3`: 10. Number of Stormy Days (Velocity above 10 m/sec.)
+  - `IMG_4848_4`: 11. Monthly Mean Temperature of Air (in °C.)
+  - `IMG_4849_1`: 12. Amount of Precipitation (in mm.) (1938)
+  - `IMG_4849_2`: 13. No. of Days with Precipitation (Above 0.1 mm.)
+  - `IMG_4849_3`: 14. Average Frost Season
+  - `IMG_4849_4`: 15. Average Humidity (Taking Satuation as 100)
+- Row `5`; L2; p=`blank`; c=1: [Position](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n31/mode/1up)
+- Row `6`; L2; p=`blank`; c=1: [Physical Features](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n31/mode/1up)
+- Row `7`; L2; p=`blank`; c=1: [Area](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n31/mode/1up)
+- Row `8`; L2; p=`blank`; c=1: [Climate](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n31/mode/1up)
+- Row `9`; L2; p=`blank`; c=1: [Fauna and Flora](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n31/mode/1up)
+- Row `10`; L1; p=`29`: [II. OUTLINE OF HISTORY](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n38/mode/1up)
+  - `IMG_4852_1`: 19. Flora Species
+- Row `11`; L2; p=`blank`; c=1: [Mythical Period](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n38/mode/1up)
+- Row `12`; L2; p=`blank`; c=1: [Legendary Period](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n38/mode/1up)
+- Row `13`; L2; p=`blank`; c=1: [Period of Foundation](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n38/mode/1up)
+- Row `14`; L2; p=`blank`; c=1: [Nara Period](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n38/mode/1up)
+- Row `15`; L2; p=`blank`; c=1: [Heian Period](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n38/mode/1up)
+- Row `16`; L2; p=`blank`; c=1: [Kamakura Period](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n38/mode/1up)
+- Row `17`; L2; p=`blank`; c=1: [Muromachi Period](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n38/mode/1up)
+- Row `18`; L2; p=`blank`; c=1: [Yedo Period](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n38/mode/1up)
+- Row `19`; L2; p=`blank`; c=1: [Modern Japan](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n38/mode/1up)
+- Row `20`; L2; p=`blank`; c=1: [Manchurian Incident](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n38/mode/1up)
+- Row `21`; L2; p=`blank`; c=1: [Sino-Japanese Hostilities](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n38/mode/1up)
+- Row `22`; L2; p=`blank`; c=1: [Chronicle of Important Events](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n38/mode/1up)
+- Row `23`; L1; p=`35`: [III. GEOLOGY](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n41/mode/1up)
+  - `IMG_4855_1`: 1. Geological Composition of Japan
+  - `IMG_4855_2`: 2. Sedimentary Formation and Contemporaneous Igneous Rocks
+  - `IMG_4856_1`: 3. Number and Kinds of Hot Springs
+  - `IMG_4856_2`: 4. List of Popular Hot Springs
+  - `IMG_4857_1`: 5. List of Principal Radio-Active Springs
+  - `IMG_4858_1`: 6. Seismographic Record
+  - `IMG_4858_2`: 7. Number of After-shocks
+  - `IMG_4858_3`: 8. Seismographic Record
+  - `IMG_4858_4`: 9. Seismic Record in Japan
+  - `IMG_4858_5`: 10. Number of Earthquakes Since 1923 Disaster
+- Row `24`; L2; p=`blank`; c=1: [Geological Composition](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n41/mode/1up)
+- Row `25`; L2; p=`blank`; c=1: [Volcanoes](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n41/mode/1up)
+- Row `26`; L2; p=`blank`; c=1: [Hot Springs](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n41/mode/1up)
+- Row `27`; L2; p=`blank`; c=1: [Earthquakes](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n41/mode/1up)
+- Row `28`; L1; p=`43`: [IV. POPULATION AND EMIGRATION](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n45/mode/1up)
+  - `IMG_4859_1`: 11. Number of Earthquakes in Tokyo and Vicinity
+  - `IMG_4859_2`: 1. Population of Japan Compared with Other Countries
+  - `IMG_4860_1`: 2. Comparison of Population by Age Groups
+  - `IMG_4860_2`: 3. Census Population of Japanese Empire
+  - `IMG_4860_3`: 4. Urban and Suburban Population
+  - `IMG_4860_4`: 5. Population of Tokyo Compared with Foreign Cities
+  - `IMG_4860_5`: 6. Japan's Position in Rate of Birth and Death per 1,000 People
+  - `IMG_4861_1`: 7. Statistics of Birth, Death, Marriage and Divorce, etc.
+  - `IMG_4861_2`: 8. Average Age of First Marriage
+  - `IMG_4861_3`: 9. Census Population in Japan Proper Classified by Nationality, and Race
+  - `IMG_4861_4`: 10. Census Population of the Cities
+  - `IMG_4861_5`: 11. Distribution of Urban and Rural Population
+  - `IMG_4862_1`: 12. Population Classified By Calling
+  - `IMG_4862_2`: 13. Foreign Residents By Nationalities
+  - `IMG_4862_3`: 14. Foreign Residents By Occupation
+  - `IMG_4862_4`: 15. Foreign Visitors to Japan
+  - `IMG_4862_5`: 16. Naturalization
+  - `IMG_4863_1`: 17-A. Principal Occupations of Japanese Residing Abroad
+  - `IMG_4863_2`: 17-B. Number of New Emigrants in Recent Years
+  - `IMG_4863_3`: 18. Emigrants Going and Returning and Remittances
+  - `IMG_4864_1`: 19. Japanese Residents Abroad By Continents
+  - `IMG_4864_2`: 20. Number of Japanese Residing Abroad By Consular Jurisdictions
+- Row `29`; L2; p=`blank`; c=1: [Population of Japanese Empire](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n45/mode/1up)
+- Row `30`; L2; p=`blank`; c=1: [Population by Age Groups](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n45/mode/1up)
+- Row `31`; L2; p=`blank`; c=1: [Number of Births, Deaths, Still-Births, Marriages and Divorces](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n45/mode/1up)
+- Row `32`; L2; p=`blank`; c=1: [Foreign Residents, Legal Status of Foreigners](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n45/mode/1up)
+- Row `33`; L2; p=`blank`; c=1: [Naturalization](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n45/mode/1up)
+- Row `34`; L2; p=`blank`; c=1: [Emigration](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n45/mode/1up)
+- Row `35`; L2; p=`blank`; c=1: [Japanese Residing Abroad](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n45/mode/1up)
+- Row `36`; L1; p=`54`: [V. IMPERIAL COURT](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n51/mode/1up)
+  - `IMG_4867_1`: 1. Area of Crown Landed Estates
+  - `IMG_4867_2`: 2. Imperial Estates
+  - `IMG_4868_1`: 3. Number of Decorations Granted
+  - `IMG_4869_1`: 4. Genealogy of the Imperial House
+  - `IMG_4869_2`: [Emperors and period of reign, alphabetical (Sujin–Yûryaku)]
+  - `IMG_4869_3`: 5. List of Japanese Year-Names
+- Row `37`; L2; p=`blank`; c=1: [The Imperial House](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n51/mode/1up)
+- Row `38`; L2; p=`blank`; c=1: [The Reigning Sovereign](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n51/mode/1up)
+- Row `39`; L2; p=`blank`; c=1: [Members of the Imperial Family](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n51/mode/1up)
+- Row `40`; L2; p=`blank`; c=1: [Royal House of Chosen](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n51/mode/1up)
+- Row `41`; L2; p=`blank`; c=1: [Area of Crown Landed Estate](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n51/mode/1up)
+- Row `42`; L2; p=`blank`; c=1: [Imperial Property Law](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n51/mode/1up)
+- Row `43`; L2; p=`blank`; c=1: [Decorations](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n51/mode/1up)
+- Row `44`; L2; p=`blank`; c=1: [Genealogy of the Imperial House](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n51/mode/1up)
+- Row `45`; L2; p=`blank`; c=1: [List of Japanese Year-Names](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n51/mode/1up)
+- Row `46`; L1; p=`65`: [VI. ADMINISTRATIVE SYSTEM](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n56/mode/1up)
+  - `IMG_4871_1`: 1. No. of Civil Officers and Salary
+  - `IMG_4871_2`: 2. Scale of Salaries
+  - `IMG_4872_1`: 3. Pension System for Army and Navy
+  - `IMG_4873_1`: 4. Retiring Allowance for Army and Navy
+  - `IMG_4873_2`: 5. Pension
+  - `IMG_4873_3`: 6. Annuity Attached to the Order of Golden Kite and Rising Sun
+  - `IMG_4873_4`: [Votes polled by party, first prefectural assembly elections under universal suffrage, 19…
+  - `IMG_4873_5`: 7. No. of Cities, Towns, Villages, etc.
+- Row `47`; L2; p=`blank`; c=1: [The Central Government](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n56/mode/1up)
+- Row `48`; L2; p=`blank`; c=1: [Composition of Ministries](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n56/mode/1up)
+- Row `49`; L2; p=`blank`; c=1: [Civil and Military Service](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n56/mode/1up)
+- Row `50`; L2; p=`blank`; c=1: [Scale of Salaries](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n56/mode/1up)
+- Row `51`; L2; p=`blank`; c=1: [Pension System](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n56/mode/1up)
+- Row `52`; L2; p=`blank`; c=1: [Local Government](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n56/mode/1up)
+- Row `53`; L2; p=`blank`; c=1: [Reform in Japanese Administrative Machinery in Manchoukuo](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n56/mode/1up)
+- Row `54`; L1; p=`73`: [VII. POLITICS AND POLITICAL PARTIES](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n60/mode/1up)
+  - `IMG_4874_1`: 8. Members of Local Assemblies
+  - `IMG_4875_1`: 1. Composition of the House of Peers
+  - `IMG_4876_1`: 2. Factions in House of Peers
+  - `IMG_4876_2`: 3. Important Features in Original and Revised Election Laws
+  - `IMG_4877_1`: 4. Results of General Election
+  - `IMG_4877_2`: 5. Relative Strength of Political Parties
+  - `IMG_4877_3`: 6. Franchise Holders
+  - `IMG_4877_4`: 7. Occupation of M.P.
+  - `IMG_4877_5`: 8. Age of M.P.'s
+  - `IMG_4877_6`: 9. Statistics of Violation of Election Law
+  - `IMG_4878_1`: 10. Cabinet Changes Since 1915
+- Row `55`; L2; p=`blank`; c=1: [Politics](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n60/mode/1up)
+- Row `56`; L2; p=`blank`; c=1: [The Emperor](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n60/mode/1up)
+- Row `57`; L2; p=`blank`; c=1: [The Privy Council](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n60/mode/1up)
+- Row `58`; L2; p=`blank`; c=1: [The Cabinet](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n60/mode/1up)
+- Row `59`; L2; p=`blank`; c=1: [The "Genro"](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n60/mode/1up)
+- Row `60`; L2; p=`blank`; c=1: [The Imperial Diet](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n60/mode/1up)
+- Row `61`; L2; p=`blank`; c=1: [Composition of the Imperial Diet](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n60/mode/1up)
+- Row `62`; L2; p=`blank`; c=1: [The Electoral System](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n60/mode/1up)
+- Row `63`; L2; p=`blank`; c=1: [Cabinet Changes Since 1915](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n60/mode/1up)
+- Row `64`; L2; p=`blank`; c=1: [Economic Legislation](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n60/mode/1up)
+- Row `65`; L2; p=`blank`; c=1: [Enunciation of Japan's National Policy](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n60/mode/1up)
+- Row `66`; L2; p=`blank`; c=1: [Dissolution of Political Parties](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n60/mode/1up)
+- Row `67`; L1; p=`87`: [VIII. [title not printed]](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n68/mode/1up)
+  - `IMG_4885_1`: List of Treaties Between Japan and Foreign Countries
+- Row `68`; L2; p=`blank`; c=1: [Historical](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n68/mode/1up)
+- Row `69`; L2; p=`blank`; c=1: [Recent Situation](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n68/mode/1up)
+- Row `70`; L2; p=`blank`; c=1: [China Policy](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n68/mode/1up)
+- Row `71`; L2; p=`blank`; c=1: [Establishment of China's New Central Government](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n68/mode/1up)
+- Row `72`; L2; p=`blank`; c=1: [Japan-Germany-Italy Mutual Assistance Pact](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n68/mode/1up)
+- Row `73`; L2; p=`blank`; c=1: [List of Treaties](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n68/mode/1up)
+- Row `74`; L1; p=`98`: [IX. NATIONAL DEFENCE](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n73/mode/1up)
+  - `IMG_4887_1`: 1. The Army Expenditure
+  - `IMG_4887_2`: 2. The Navy Expenditure
+  - `IMG_4888_1`: 3. No. of Officers on Active List
+  - `IMG_4888_2`: 4. List of Military Educational Institutions
+  - `IMG_4888_3`: 5. Distribution of Army Districts
+  - `IMG_4889_1`: 6. No. of Officers and Sub-officers on Active Service
+  - `IMG_4889_2`: 7. Elimination of Officers in Connexion With Armament Limitation
+  - `IMG_4889_3`: 8. Annual Enlistment of Men
+  - `IMG_4889_4`: 9. Age-Limit of Officers in Active Service
+  - `IMG_4889_5`: 10. List of Naval Educational Institutions
+  - `IMG_4890_1`: 11. Japan's Position in Naval Power
+  - `IMG_4890_2`: 12. War Vessels Recently Launched
+  - `IMG_4890_3`: 13. List of Warships
+  - `IMG_4892_1`: 14. Headquarters of Naval Air Regiments
+- Row `75`; L2; p=`blank`; c=1: [Introductory Remarks](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n73/mode/1up)
+- Row `76`; L2; p=`blank`; c=1: [Board of Marshals and Fleet-Admirals](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n73/mode/1up)
+- Row `77`; L2; p=`blank`; c=1: [The Supreme War Council](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n73/mode/1up)
+- Row `78`; L2; p=`blank`; c=1: [The Court-Martial Law](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n73/mode/1up)
+- Row `79`; L2; p=`blank`; c=1: [Defence Expenditure](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n73/mode/1up)
+- Row `80`; L2; p=`blank`; c=1: [Conscription](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n73/mode/1up)
+- Row `81`; L2; p=`blank`; c=1: [Personnel of Active Service](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n73/mode/1up)
+- Row `82`; L2; p=`blank`; c=1: [Army Education](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n73/mode/1up)
+- Row `83`; L2; p=`blank`; c=1: [Distribution of Army Districts](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n73/mode/1up)
+- Row `84`; L2; p=`blank`; c=1: [Naval Districts and Bases](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n73/mode/1up)
+- Row `85`; L2; p=`blank`; c=1: [Naval Education](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n73/mode/1up)
+- Row `86`; L2; p=`blank`; c=1: [War Vessels Recently Launched](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n73/mode/1up)
+- Row `87`; L2; p=`blank`; c=1: [List of Warships](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n73/mode/1up)
+- Row `88`; L1; p=`113`: [X. RELIGION](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n80/mode/1up)
+  - `IMG_4894_1`: 15. Date of Occupation of Important Points in China by the Japanese Forces in the Sino-Ja…
+  - `IMG_4894_2`: 1. Number of Followers of the Three Religions
+- Row `89`; L2; p=`blank`; c=1: [Shintoism](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n80/mode/1up)
+- Row `90`; L2; p=`blank`; c=1: [Buddhism](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n80/mode/1up)
+- Row `91`; L2; p=`blank`; c=1: [Christianity](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n80/mode/1up)
+- Row `92`; L2; p=`blank`; c=1: [Temples](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n80/mode/1up)
+- Row `93`; L2; p=`blank`; c=1: [Churches](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n80/mode/1up)
+- Row `94`; L2; p=`blank`; c=1: [Missionaries](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n80/mode/1up)
+- Row `95`; L2; p=`blank`; c=1: [Y.M.C.A.](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n80/mode/1up)
+- Row `96`; L2; p=`blank`; c=1: [Y.W.C.A.](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n80/mode/1up)
+- Row `97`; L2; p=`blank`; c=1: [The Salvation Army](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n80/mode/1up)
+- Row `98`; L2; p=`blank`; c=1: [Tenrikyo](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n80/mode/1up)
+- Row `99`; L1; p=`122`: [XI. EDUCATION](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n85/mode/1up)
+  - `IMG_4899_1`: 1. Japan's Position in Elementary Schools
+  - `IMG_4899_2`: 2. General Statistics of Educational Institutions in Japan Proper
+  - `IMG_4899_3`: 3. Number of Children of School Age Under Obligation to Attend Schools
+  - `IMG_4900_1`: 4. Statistics of Kindergartens
+  - `IMG_4900_2`: 5. Schools for Blind, Deaf and Dumb
+  - `IMG_4900_3`: 6. Blind and Mute of School Age
+  - `IMG_4900_4`: 7. Number of Doctors' Degree Issued
+  - `IMG_4900_5`: 8. List of Universities
+  - `IMG_4901_1`: 9. Statistics of Universities
+  - `IMG_4901_2`: 10. Statistics of Government Technical and Special Schools
+  - `IMG_4901_3`: 11. Statistics of Higher Schools (Koto Gakko)
+  - `IMG_4902_1`: 12. Kinds of Public Special Schools
+  - `IMG_4902_2`: 13. Statistics of Higher Special Schools
+  - `IMG_4902_3`: 14. Statistics of Higher Technical Schools
+  - `IMG_4902_4`: 15. Technical Schools of Secondary Grade
+  - `IMG_4902_5`: 16. Statistics of Normal Schools
+  - `IMG_4902_6`: 17. Statistics of Higher Normal Schools
+  - `IMG_4903_1`: 18. Organization of Imperial Academy
+  - `IMG_4903_2`: 19. Organization of National Research Council (Gakujutsu Kenkyu Kaigi)
+  - `IMG_4903_3`: 20. Educational Expenditure Borne by Public Bodies
+  - `IMG_4903_4`: 21. Public Relief for Elementary School Children
+  - `IMG_4903_5`: 22. Health of Students
+  - `IMG_4904_1`: 23. Rate of Near-sighted Students Classified by Schools
+  - `IMG_4904_2`: 24. Geographical Influence on Phyisical Condition of Japanese Children
+  - `IMG_4904_3`: 25. Statistics of Libraries
+  - `IMG_4905_1`: 26. Statistics of Youths' Schools
+  - `IMG_4905_2`: 27. Number of Students Despatched Abroad by the Dept. of Education
+  - `IMG_4905_3`: 28. No. of Licenses Issued for Elementary School Teachers and Kindergarten Nurses Classif…
+  - `IMG_4905_4`: 29. Licenses Issued for School Teachers
+- Row `100`; L2; p=`blank`; c=1: [Primary Education](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n85/mode/1up)
+- Row `101`; L2; p=`blank`; c=1: [Secondary Education](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n85/mode/1up)
+- Row `102`; L2; p=`blank`; c=1: [University Education](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n85/mode/1up)
+- Row `103`; L2; p=`blank`; c=1: [List of Universities](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n85/mode/1up)
+- Row `104`; L2; p=`blank`; c=1: [Technical Professional Education](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n85/mode/1up)
+- Row `105`; L2; p=`blank`; c=1: [Teachers' Training Schools](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n85/mode/1up)
+- Row `106`; L2; p=`blank`; c=1: [Societies and Council](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n85/mode/1up)
+- Row `107`; L2; p=`blank`; c=1: [School Hygiene](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n85/mode/1up)
+- Row `108`; L2; p=`blank`; c=1: [Museums](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n85/mode/1up)
+- Row `109`; L2; p=`blank`; c=1: [Moral Education and Physical Culture](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n85/mode/1up)
+- Row `110`; L2; p=`blank`; c=1: [Youths' Schools](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n85/mode/1up)
+- Row `111`; L2; p=`blank`; c=1: [Boy Scouts](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n85/mode/1up)
+- Row `112`; L1; p=`136`: [XII. JUDICATURE](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n92/mode/1up)
+  - `IMG_4906_1`: [Stamp duty on 1st Instance costs in civil procedure]
+  - `IMG_4906_2`: 1. Statistics of Judicial Institutions, etc.
+  - `IMG_4906_3`: 2. No. of Civil Cases Handled
+  - `IMG_4907_1`: 3. No. of Criminal Cases Handled
+  - `IMG_4907_2`: 4. Legal Sanctions Classified
+  - `IMG_4907_3`: 5. Foreigners' Criminal Cases by Cause & Nationality
+  - `IMG_4907_4`: 6. Cases at Juvenile Courts
+  - `IMG_4908_1`: 7. No. of Police Stations and Officers
+  - `IMG_4908_2`: 8. No. of Arrests by Police Classified
+  - `IMG_4908_3`: 9. Number of Suicides
+  - `IMG_4908_4`: 10. Suicides Classified by Cause and Age
+  - `IMG_4909_1`: 11. Unnatural Deaths
+  - `IMG_4909_2`: 12. Statistics of Fire Brigade
+  - `IMG_4909_3`: 13. Statistics of Fires
+  - `IMG_4909_4`: 14. No. of Prisons, Prison Officers and Prison Inmates
+  - `IMG_4910_1`: 15. Convicts Classified by Sex and Crimes
+  - `IMG_4910_2`: 16. No. of Convicts Classified by Age
+  - `IMG_4910_3`: 17. Convicts Classified by Sentence
+  - `IMG_4910_4`: 18. Revenue of Prisons
+- Row `113`; L2; p=`blank`; c=1: [Judicial System](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n92/mode/1up)
+- Row `114`; L2; p=`blank`; c=1: [Actions](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n92/mode/1up)
+- Row `115`; L2; p=`blank`; c=1: [Appeal, Revision and Complaint](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n92/mode/1up)
+- Row `116`; L2; p=`blank`; c=1: [Summary Proceedings](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n92/mode/1up)
+- Row `117`; L2; p=`blank`; c=1: [Acknowledgements](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n92/mode/1up)
+- Row `118`; L2; p=`blank`; c=1: [Sundry Fees](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n92/mode/1up)
+- Row `119`; L2; p=`blank`; c=1: [Lawyer's Fees](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n92/mode/1up)
+- Row `120`; L2; p=`blank`; c=1: [Age-limit for Judicial Officials](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n92/mode/1up)
+- Row `121`; L2; p=`blank`; c=1: [Jury System](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n92/mode/1up)
+- Row `122`; L2; p=`blank`; c=1: [New System](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n92/mode/1up)
+- Row `123`; L2; p=`blank`; c=1: [New Civil Procedure Law](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n92/mode/1up)
+- Row `124`; L2; p=`blank`; c=1: [Criminal Cases](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n92/mode/1up)
+- Row `125`; L2; p=`blank`; c=1: [Juvenile Courts](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n92/mode/1up)
+- Row `126`; L2; p=`blank`; c=1: [Police](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n92/mode/1up)
+- Row `127`; L2; p=`blank`; c=1: [Police Offences](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n92/mode/1up)
+- Row `128`; L2; p=`blank`; c=1: [Peace Preservation Law](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n92/mode/1up)
+- Row `129`; L2; p=`blank`; c=1: [Arrests by Police](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n92/mode/1up)
+- Row `130`; L2; p=`blank`; c=1: [Suicides](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n92/mode/1up)
+- Row `131`; L2; p=`blank`; c=1: [Unnatural Deaths](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n92/mode/1up)
+- Row `132`; L2; p=`blank`; c=1: [Fire Brigades](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n92/mode/1up)
+- Row `133`; L2; p=`blank`; c=1: [Prisons and Prisoners](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n92/mode/1up)
+- Row `134`; L2; p=`blank`; c=1: [Prison Revenue](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n92/mode/1up)
+- Row `135`; L1; p=`146`: [XIII. SANITATION](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n97/mode/1up)
+  - `IMG_4911_1`: 1. No. of Physicians, Dentists and Pharmacists by Qualification and Sex
+  - `IMG_4911_2`: 2. No. of Midwives, Nurses, etc.
+  - `IMG_4911_3`: 3. No. of Hospitals and Consulting Offices
+  - `IMG_4911_4`: 4. Statistics of Insane Asylums
+  - `IMG_4912_1`: 5. Conditions in Tuberculosis Hospitals
+  - `IMG_4912_2`: 6. Proportion of Men Affected with Tuberculosis
+  - `IMG_4912_3`: 7. Conditions in Leprosaria
+  - `IMG_4912_4`: 8. Conditions in Hospitals for Prostitute
+  - `IMG_4913_1`: 9. Proportion of Men Affected with Trachoma
+  - `IMG_4913_2`: 10. No. of Epidemic Cases and Mortality
+  - `IMG_4913_3`: 11. Death Rate per 10,000 Population Classified by Causes
+  - `IMG_4913_4`: 12. Mortality of Infants
+  - `IMG_4914_1`: 13. Juvenile Mortality by Causes
+  - `IMG_4914_2`: 14. Poisoning by Causes
+  - `IMG_4914_3`: 15. Expectancy of Life
+- Row `136`; L2; p=`blank`; c=1: [Introductory Remarks](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n97/mode/1up)
+- Row `137`; L2; p=`blank`; c=1: [Medical Practitioners](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n97/mode/1up)
+- Row `138`; L2; p=`blank`; c=1: [Hospitals and Consulting Offices](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n97/mode/1up)
+- Row `139`; L2; p=`blank`; c=1: [Insane Asylums](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n97/mode/1up)
+- Row `140`; L2; p=`blank`; c=1: [Tuberculosis](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n97/mode/1up)
+- Row `141`; L2; p=`blank`; c=1: [Leper Hospital](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n97/mode/1up)
+- Row `142`; L2; p=`blank`; c=1: [Trachoma](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n97/mode/1up)
+- Row `143`; L2; p=`blank`; c=1: [Epidemic Cases and Mortality](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n97/mode/1up)
+- Row `144`; L2; p=`blank`; c=1: [Deaths Classified by Causes](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n97/mode/1up)
+- Row `145`; L2; p=`blank`; c=1: [Mortality of Infants](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n97/mode/1up)
+- Row `146`; L2; p=`blank`; c=1: [Port Quarantine](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n97/mode/1up)
+- Row `147`; L2; p=`blank`; c=1: [Aerial Quarantine](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n97/mode/1up)
+- Row `148`; L2; p=`blank`; c=1: [Expectancy of Life](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n97/mode/1up)
+- Row `149`; L2; p=`blank`; c=1: [Japanese Red Cross Society](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n97/mode/1up)
+- Row `150`; L1; p=`155`: [XIV. PRESS AND PUBLICATIONS](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n101/mode/1up)
+  - `IMG_4916_1`: 1. Number of Newspapers Published in Japan Proper
+  - `IMG_4916_2`: 2. List of Leading Newspapers in Japan
+- Row `151`; L2; p=`blank`; c=1: [Introductory Remarks](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n101/mode/1up)
+- Row `152`; L2; p=`blank`; c=1: [Peculiar Features of Japanese Press](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n101/mode/1up)
+- Row `153`; L2; p=`blank`; c=1: [The Press Law](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n101/mode/1up)
+- Row `154`; L2; p=`blank`; c=1: [Censorship and Freedom of Discussion](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n101/mode/1up)
+- Row `155`; L2; p=`blank`; c=1: [Circulation, Capital and Prices](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n101/mode/1up)
+- Row `156`; L2; p=`blank`; c=1: [Leading Journals](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n101/mode/1up)
+- Row `157`; L2; p=`blank`; c=1: [News Agencies](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n101/mode/1up)
+- Row `158`; L2; p=`blank`; c=1: [Publications](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n101/mode/1up)
+- Row `159`; L1; p=`159`: [XV. ARTS AND CRAFTS](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n103/mode/1up)
+  - `IMG_4917_1`: 3. Publications
+  - `IMG_4917_2`: 4. Ordinary Publications by Subjects
+  - `IMG_4917_3`: 5. Import and Export of Books
+  - `IMG_4918_1`: 1. Imperial Board of Art
+  - `IMG_4918_2`: 2. Chief Members of Hanging Committee for 1939 Exhibition of Fine Arts Held by the Dep't …
+  - `IMG_4918_3`: 3. Results of "Bunten" Fine Art Exhibition (Former "Teiten")
+  - `IMG_4919_1`: 4. List of National Treasures
+  - `IMG_4920_1`: 5. Motion Picture Films Censored in Japan Classified by Countries of Production
+  - `IMG_4920_2`: 6. Censorship of New Films Classified by Producers
+  - `IMG_4920_3`: 7. Statistics of Motion Picture Theaters in Japan Proper
+- Row `160`; L2; p=`blank`; c=1: [Japanese Painting Since Meiji Eera](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n103/mode/1up)
+- Row `161`; L2; p=`blank`; c=1: [Art Societies and Exhibitions](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n103/mode/1up)
+- Row `162`; L2; p=`blank`; c=1: [Imperial Board of Art](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n103/mode/1up)
+- Row `163`; L2; p=`blank`; c=1: ["Bunten" Fine Art Exhibition](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n103/mode/1up)
+- Row `164`; L2; p=`blank`; c=1: [Private Art Societies](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n103/mode/1up)
+- Row `165`; L2; p=`blank`; c=1: [Cultural Decoration](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n103/mode/1up)
+- Row `166`; L2; p=`blank`; c=1: [Art Museums and Schools](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n103/mode/1up)
+- Row `167`; L2; p=`blank`; c=1: [National Treasures](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n103/mode/1up)
+- Row `168`; L2; p=`blank`; c=1: [Japanese Music](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n103/mode/1up)
+- Row `169`; L2; p=`blank`; c=1: [Western Music](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n103/mode/1up)
+- Row `170`; L2; p=`blank`; c=1: [Motion Picture](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n103/mode/1up)
+- Row `171`; L2; p=`blank`; c=1: [Western Pictures in Japan](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n103/mode/1up)
+- Row `172`; L1; p=`166`: [XVI. COMMUNICATIONS](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n107/mode/1up)
+  - `IMG_4921_1`: 1. Number of Post Offices
+  - `IMG_4921_2`: 2. Inland Mail Routes
+  - `IMG_4921_3`: 3. Mail Matters Handled
+  - `IMG_4921_4`: 4. Ordinary Foreign Mail Matter
+  - `IMG_4921_5`: 5. Ordinary Foreign Mail Matter by Continents
+  - `IMG_4922_1`: 6. Revenue & Expenditure of Post, Telegraph, Telephone, Etc.
+  - `IMG_4922_2`: 7. Length of Inland Telegraph Lines
+  - `IMG_4922_3`: 8. Number of Telegraph Offices
+  - `IMG_4922_4`: 9. Number of Telegrams Handled
+  - `IMG_4922_5`: 10. Submarine Cables and Land Lines
+  - `IMG_4922_6`: 11. International Radio Telephone Service
+  - `IMG_4923_1`: 12. Japan's Oversea Radio Telegraphic Communication
+  - `IMG_4923_2`: 13. Length of Inland Telephone Lines
+  - `IMG_4923_3`: 14. Number of Telephone Offices
+  - `IMG_4923_4`: 15. Number of Inland Telephone Subscribers
+  - `IMG_4923_5`: 16. Radio Broadcasting in Japan Proper
+  - `IMG_4924_1`: 17. Air Mail Rates
+  - `IMG_4924_2`: 18. Air Mail Routes
+  - `IMG_4924_3`: 19. Postal Savings Transacted in Japanese Empire
+  - `IMG_4924_4`: 20. Statistics of Postal Money Orders in Japanese Empire
+  - `IMG_4924_5`: 21. Statistics of Postal Transfer in Japanese Empire
+  - `IMG_4924_6`: 22. Summary of Post Office Life and Annuity Business
+- Row `173`; L2; p=`blank`; c=1: [Introductory Remarks](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n107/mode/1up)
+- Row `174`; L2; p=`blank`; c=1: [Post](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n107/mode/1up)
+- Row `175`; L2; p=`blank`; c=1: [Telegraph Service](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n107/mode/1up)
+- Row `176`; L2; p=`blank`; c=1: [International Cable Service](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n107/mode/1up)
+- Row `177`; L2; p=`blank`; c=1: [Wireless Telegraphy](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n107/mode/1up)
+- Row `178`; L2; p=`blank`; c=1: [Telephone Service](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n107/mode/1up)
+- Row `179`; L2; p=`blank`; c=1: [Radio Broadcasting](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n107/mode/1up)
+- Row `180`; L2; p=`blank`; c=1: [Airmail](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n107/mode/1up)
+- Row `181`; L2; p=`blank`; c=1: [Postal Savings](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n107/mode/1up)
+- Row `182`; L1; p=`174`: [XVII. SOCIAL PROBLEMS](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n111/mode/1up)
+  - `IMG_4925_1`: 1. Various Economic Provisions for Masses
+  - `IMG_4926_1`: 2. Details of Co-operative Societies
+  - `IMG_4926_2`: 3. Statistics of Cooperativs Society Union
+  - `IMG_4926_3`: 4. Government Mutual Aid Associations
+  - `IMG_4926_4`: 5. Government Mutual Aid Associations, By Business
+  - `IMG_4927_1`: 6. Statistics of Health Insurance
+  - `IMG_4927_2`: 7. Number of Employed
+  - `IMG_4927_3`: 8. Statistics of Public Employment Exchanges
+  - `IMG_4928_1`: 9. Female Population Classified By Work
+  - `IMG_4928_2`: 10. Women's Occupation Classified
+- Row `183`; L2; p=`blank`; c=1: [General Remarks](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n111/mode/1up)
+- Row `184`; L2; p=`blank`; c=1: [Prominent Social Affairs](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n111/mode/1up)
+- Row `185`; L2; p=`blank`; c=1: [Organs for Control, Deliberation and Arbitration](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n111/mode/1up)
+- Row `186`; L2; p=`blank`; c=1: [Paternalism in Labor Disputes](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n111/mode/1up)
+- Row `187`; L2; p=`blank`; c=1: [Cooperative Society](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n111/mode/1up)
+- Row `188`; L2; p=`blank`; c=1: [Mutual Aid Associations of Workers](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n111/mode/1up)
+- Row `189`; L2; p=`blank`; c=1: [Health Insurance](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n111/mode/1up)
+- Row `190`; L2; p=`blank`; c=1: [Unemployment and Employment](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n111/mode/1up)
+- Row `191`; L2; p=`blank`; c=1: [Women Problems](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n111/mode/1up)
+- Row `192`; L2; p=`blank`; c=1: [Eleemosynary Works](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n111/mode/1up)
+- Row `193`; L2; p=`blank`; c=1: [Social Welfare Works](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n111/mode/1up)
+- Row `194`; L1; p=`184`: [XVIII. INDUSTRIAL PROPERTIES](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n115/mode/1up)
+  - `IMG_4929_1`: 11. Relief of Paupers, Foundlings and Sick Travelers
+  - `IMG_4929_2`: 12. Disbursement of Disaster Relief Fund
+  - `IMG_4929_3`: 13. Number Under Relief By Relief Law
+  - `IMG_4929_4`: 14. Military Relief Service
+  - `IMG_4929_5`: 15. Sources of Encouragement Subsidies Granted to Various Social Work Organs
+  - `IMG_4931_1`: 1. Registration of Patent Rights
+  - `IMG_4931_2`: 2. Registration of Utility Models
+  - `IMG_4931_3`: 3. Registration of Designs
+  - `IMG_4931_4`: 4. Registration of Trade-Marks
+  - `IMG_4932_1`: 5. List of Inventors Specially Honoured by the Imperial Invention Association in March 19…
+- Row `195`; L2; p=`blank`; c=1: [Main Features of the Laws](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n115/mode/1up)
+- Row `196`; L2; p=`blank`; c=1: [Patents, Utility Models, Designs, Trade Marks](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n115/mode/1up)
+- Row `197`; L2; p=`blank`; c=1: [Encouragement of Inventions](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n115/mode/1up)
+- Row `198`; L2; p=`blank`; c=1: [The Chemical & Physical Research Institute](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n115/mode/1up)
+- Row `199`; L1; p=`190`: [XIX. TRANSPORTATION](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n119/mode/1up)
+  - `IMG_4933_1`: 1. Japan's Position in Railways
+  - `IMG_4933_2`: 2. General Condition of Railway Lines in Japan
+  - `IMG_4933_3`: 3. Length of Railways
+  - `IMG_4933_4`: 4. Capital Invested and Percentage of Profits
+  - `IMG_4933_5`: 5. Number of Railway Officials and Employees Classified by Ranks
+  - `IMG_4934_1`: 6. Mileage of Lines Worked and Length of Tracks
+  - `IMG_4934_2`: 7. Passenger Earnings, Etc.
+  - `IMG_4934_3`: 8. Passengers Carried, Etc.
+  - `IMG_4934_4`: 9. Goods Hauled and Earnings
+  - `IMG_4934_5`: 10. Important Goods Handled by State Railways
+  - `IMG_4934_6`: 11. Statistics of Average Earnings, etc.
+  - `IMG_4935_1`: 12. Working Revenues and Expenses
+  - `IMG_4935_2`: 13. Working Expenses Classified
+  - `IMG_4935_3`: 14. Other Expenses
+  - `IMG_4935_4`: 15. Value of Fixed Property
+  - `IMG_4935_5`: 16. Railway Stores Purchased and on Store
+  - `IMG_4936_1`: 17. (A) Length of Tunnels; (B) Principal Tunnels
+  - `IMG_4936_2`: 18. Representative Express Train Service
+  - `IMG_4936_3`: 19. Condition of Motor-car Service
+  - `IMG_4936_4`: 20. General Situation on Local Railways
+  - `IMG_4936_5`: 21. Train and Vehicle Kilometers of Local Railways (Kms.)
+  - `IMG_4937_1`: 22. Passenger and Goods Traffic of Local Railways
+  - `IMG_4937_2`: 23. Financial Position of Local Railways (¥1,000)
+  - `IMG_4937_3`: 24. Situation in Leading Local Railways
+  - `IMG_4937_4`: 25. Tramways by Motive Power
+  - `IMG_4937_5`: 26. Financial Position of Tramways
+  - `IMG_4938_1`: 27. Expenditure Borne for Public Works By State
+  - `IMG_4938_2`: 28. Expenditure Borne for Public Works (¥1,000)
+  - `IMG_4938_3`: 29. Statistics of Road
+  - `IMG_4938_4`: 30. Statistics of Bridges
+  - `IMG_4940_1`: 35. Distance and Fares of Principal Airways
+  - `IMG_4941_1`: 31. Operation Results of Japanese Regular Air Service Cos.
+  - `IMG_4941_2`: 32. Excess Baggage & Freight Rates
+  - `IMG_4941_3`: 33. Japan's Position in Air Transport Budgets & Subsidies
+  - `IMG_4941_4`: 34. Civilian Aviation Record
+  - `IMG_4942_1`: 36. Percentage of Accidents
+  - `IMG_4942_2`: 37. Time Table of Principal Daily Air Service
+  - `IMG_4942_3`: 38. Japan's Position in Regular Air Lines, etc.
+  - `IMG_4943_1`: 39. Statistics of Air Service
+  - `IMG_4943_2`: 40. Number of Civil Aviators, Navigators and Engineers
+  - `IMG_4943_3`: 41. Manufacturers of Airplanes
+  - `IMG_4943_4`: 42. Number of Foreign Visitors by Nationality
+  - `IMG_4943_5`: 43. Spendings by Foreign Visitors
+  - `IMG_4943_6`: 44. Hotels in Japan, Chosen and Taiwan (1939)
+- Row `200`; L2; p=`blank`; c=1: [State Railways](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n119/mode/1up)
+- Row `201`; L2; p=`blank`; c=1: [State Railways Finance](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n119/mode/1up)
+- Row `202`; L2; p=`blank`; c=1: [Goods & Passengers Carried](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n119/mode/1up)
+- Row `203`; L2; p=`blank`; c=1: [Local Railways](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n119/mode/1up)
+- Row `204`; L2; p=`blank`; c=1: [Tramways](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n119/mode/1up)
+- Row `205`; L2; p=`blank`; c=1: [Road Costruction](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n119/mode/1up)
+- Row `206`; L2; p=`blank`; c=1: [Public Works](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n119/mode/1up)
+- Row `207`; L2; p=`blank`; c=1: [Commercial Aviation](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n119/mode/1up)
+- Row `208`; L2; p=`blank`; c=1: [Japan Airways Company Law](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n119/mode/1up)
+- Row `209`; L2; p=`blank`; c=1: [Round-World Flight](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n119/mode/1up)
+- Row `210`; L2; p=`blank`; c=1: [Principal Airways](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n119/mode/1up)
+- Row `211`; L2; p=`blank`; c=1: [Aviation Records](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n119/mode/1up)
+- Row `212`; L2; p=`blank`; c=1: [Air Service Time Table](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n119/mode/1up)
+- Row `213`; L2; p=`blank`; c=1: [No. of Foreign Tourists in Japan](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n119/mode/1up)
+- Row `214`; L2; p=`blank`; c=1: [Hotels in Japan](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n119/mode/1up)
+- Row `215`; L1; p=`211`: [XX. SHIPPING & SHIPBUILDING](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n130/mode/1up)
+  - `IMG_4944_1`: [References: sources of Tables 1–44]
+  - `IMG_4944_2`: 1. Japan's Position in World Shipping
+  - `IMG_4945_1`: 2. Number and Tonnage of Ships in Japan Proper
+  - `IMG_4945_2`: 3. Increase and Decrease of Registered Ships
+  - `IMG_4945_3`: 4. Steamers in Japan Proper by Age, Speed & Tonnage
+  - `IMG_4945_4`: 5. Leading Shipowners
+  - `IMG_4946_1`: 6. Results of N. Y. K. and O. S. K.
+  - `IMG_4946_2`: 7. (A) Overseas Subsidized Service; (B) Nearsea Subsidized Service
+  - `IMG_4947_1`: 8. Allocation of Tramp Steamers
+  - `IMG_4948_1`: 9. Freight Rates
+  - `IMG_4948_2`: 10. Monthly Average of Charterage Per Ton
+  - `IMG_4948_3`: 11 (a). Statistics of Idle Ships
+  - `IMG_4948_4`: 11 (b). Movement of Registered Ships in Japan Proper
+  - `IMG_4948_5`: 12. Number of Licensed Seamen Classified
+  - `IMG_4948_6`: 13. Number of Pilots
+  - `IMG_4949_1`: 14. Number of Lighthouses, Buoys and Beacons
+  - `IMG_4949_2`: 15. Number of Shipwrecks
+  - `IMG_4949_3`: 16. Casualties from Shipwrecks
+  - `IMG_4950_1`: 17. Number and Tonnage of Ships Built
+  - `IMG_4950_2`: 18. Ships Launched Classified
+  - `IMG_4950_3`: 19. Vessels Launched by Leading Shipyards
+  - `IMG_4950_4`: 20. Principal Shipyards (1939)
+- Row `216`; L2; p=`blank`; c=1: [Development of Japanese Shipping](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n130/mode/1up)
+- Row `217`; L2; p=`blank`; c=1: [Importation of Old Vessels](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n130/mode/1up)
+- Row `218`; L2; p=`blank`; c=1: [Registered vessels](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n130/mode/1up)
+- Row `219`; L2; p=`blank`; c=1: [Leading Shipowners](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n130/mode/1up)
+- Row `220`; L2; p=`blank`; c=1: [Subsidized Service](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n130/mode/1up)
+- Row `221`; L2; p=`blank`; c=1: [Tramp Steamers](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n130/mode/1up)
+- Row `222`; L2; p=`blank`; c=1: [Freight Market](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n130/mode/1up)
+- Row `223`; L2; p=`blank`; c=1: [Idle Ships](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n130/mode/1up)
+- Row `224`; L2; p=`blank`; c=1: [Navigation](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n130/mode/1up)
+- Row `225`; L2; p=`blank`; c=1: [Salvage Work](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n130/mode/1up)
+- Row `226`; L2; p=`blank`; c=1: [Shipbuilding](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n130/mode/1up)
+- Row `227`; L2; p=`blank`; c=1: [Shipyards](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n130/mode/1up)
+- Row `228`; L2; p=`blank`; c=1: [Recent Situation](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n130/mode/1up)
+- Row `229`; L1; p=`226`: [XXI. PUBLIC AND LOCAL FINANCE](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n138/mode/1up)
+  - `IMG_4953_1`: 1935-36 Revenue Estimates
+  - `IMG_4953_2`: 1935-36 Expenditure Estimates
+  - `IMG_4953_3`: [New Budget, 1935-36]
+  - `IMG_4954_1`: 1. State of Japan's National Budgets
+  - `IMG_4954_2`: 2. Yearly Comparison of State Revenue and Expenditure (General Account)
+  - `IMG_4955_1`: 3. State Revenue and Expenditure Classified (General Account): (A) Revenue
+  - `IMG_4955_2`: 4. Summary of State Finance (General Account)
+  - `IMG_4955_3`: 5. Distribution of State Expenditure
+  - `IMG_4956_1`: 6. Details of Special Accounts
+  - `IMG_4957_1`: 7. Revenue & Expenditure of Local Bodies
+  - `IMG_4957_2`: 8. Details of Revenue and Expenditure of Local Bodies Classified
+  - `IMG_4958_1`: 9. Finance of Cities
+  - `IMG_4958_2`: 10. Finance of Towns and Villages
+  - `IMG_4958_3`: 11. Statistics of Bonds & Debentures
+  - `IMG_4959_1`: 12. Outstanding Domestic and Foreign Loans Classified
+  - `IMG_4959_2`: 13. Municipal Bonds Issued Abroad; Municipal Loans Issued Abroad Outstanding
+  - `IMG_4959_3`: 14. Company Debentures Issued Abroad Classified
+  - `IMG_4959_4`: 15. Loans & Debentures Issued By Yield and Terms
+  - `IMG_4959_5`: 16. Local Loans
+  - `IMG_4960_1`: 17. Local Loans By Services
+  - `IMG_4960_2`: 18. Outstanding Amount of Debentures Issued
+  - `IMG_4960_3`: 19. Imports of Foreign Capital Outstanding in Japan
+  - `IMG_4960_4`: 20. Composition of National Income
+  - `IMG_4960_5`: 21. Per Capita National Income and National Debts
+  - `IMG_4961_1`: 22. National Wealth
+  - `IMG_4961_2`: 23. Tax Rate
+  - `IMG_4962_1`: [Compound income tax rates]
+  - `IMG_4963_1`: 24. Revised Succession Tax Rates
+  - `IMG_4963_2`: 25. Per Capita and Per Household Taxation
+  - `IMG_4963_3`: 26. Tax Receipts Classified
+  - `IMG_4964_1`: 27. State Revenue and Expenditure as Closed on July 31
+- Row `230`; L2; p=`blank`; c=1: [Bugetary System](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n138/mode/1up)
+- Row `231`; L2; p=`blank`; c=1: [Structure of the Budget](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n138/mode/1up)
+- Row `232`; L2; p=`blank`; c=1: [General Account](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n138/mode/1up)
+- Row `233`; L2; p=`blank`; c=1: [Special Account](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n138/mode/1up)
+- Row `234`; L2; p=`blank`; c=1: [Local Finance](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n138/mode/1up)
+- Row `235`; L2; p=`blank`; c=1: [National Debt](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n138/mode/1up)
+- Row `236`; L2; p=`blank`; c=1: [Domestic & Foreign Loans](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n138/mode/1up)
+- Row `237`; L2; p=`blank`; c=1: [Debentures Issued](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n138/mode/1up)
+- Row `238`; L2; p=`blank`; c=1: [National Wealth](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n138/mode/1up)
+- Row `239`; L2; p=`blank`; c=1: [State Monopolies and Undertaking](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n138/mode/1up)
+- Row `240`; L2; p=`blank`; c=1: [Taxation System](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n138/mode/1up)
+- Row `241`; L2; p=`blank`; c=1: [Recent Situation](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n138/mode/1up)
+- Row `242`; L2; p=`blank`; c=1: [1940-41 Budget](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n138/mode/1up)
+- Row `243`; L2; p=`blank`; c=1: [Temporary War Expenditure Special Account](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n138/mode/1up)
+- Row `244`; L1; p=`254`: [XXII. BANKING & CURRENCY](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n151/mode/1up)
+  - `IMG_4965_1`: 28. Special Account for Temporary National Defense
+  - `IMG_4965_2`: 29. Bonds Issued in Connection with the China Incident
+  - `IMG_4966_1`: 1. Number & Capitalization of Banks
+  - `IMG_4967_1`: 2. Principal Accounts of Banks Classified
+  - `IMG_4967_2`: 3. Returns of the Bank of Japan
+  - `IMG_4967_3`: 4. Various Loans to Industries Classified
+  - `IMG_4968_1`: 5. Principal Accounts of Special Banks
+  - `IMG_4968_2`: 6. Accounts of Principal Ordinary and Savings Banks
+  - `IMG_4968_3`: 7. Foreign Banks in Japan
+  - `IMG_4968_4`: 7-A. Assets and Liabilities of Foreign Banks in Japan
+  - `IMG_4968_5`: 8. Statistics of Public Pawn Shops
+  - `IMG_4969_1`: Principal Accounts of All Banks in Japan Proper
+  - `IMG_4970_1`: 9. (a) General Condition of "Mujin" (Mutual Credit Associations); (b) Business Results
+  - `IMG_4970_2`: 10. Funds Available for Investment Purposes
+  - `IMG_4970_3`: 11. Capital Issues in Japan
+  - `IMG_4970_4`: 12. Value of Currencies as Percentage of Their Gold Parity in 1929
+  - `IMG_4970_5`: 13. Amount of Currency in Circulation
+  - `IMG_4971_1`: 14. Velocity of Circulation of Deposits
+  - `IMG_4971_2`: 15. Average Amount of Notes Issued by the Bank of Japan
+  - `IMG_4971_3`: 16. Production of Gold and Silver in Japanese Empire
+  - `IMG_4971_4`: 17. Japan's Position in Gold Holdings
+  - `IMG_4971_5`: 18. Government Gold Purchase Price
+  - `IMG_4971_6`: 19. Comparison of Discount Rates of Central Banks
+  - `IMG_4971_7`: 20. Japan's Position in Market Rates of Discount
+  - `IMG_4972_1`: 21. Rates of Interest at the Bank of Japan
+  - `IMG_4972_2`: 22. Interest Rates on Deposits
+  - `IMG_4972_3`: 23. Trend of Foreign Exchange Rates
+  - `IMG_4973_1`: 24. Bills Cleared at the Clearing-Houses
+  - `IMG_4974_1`: 25. Statistics of Trust Companies
+  - `IMG_4974_2`: 27. Assets and Liabilities of Leading Trust Companies
+- Row `245`; L2; p=`blank`; c=1: [Banking System](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n151/mode/1up)
+- Row `246`; L2; p=`blank`; c=1: [Special Banks](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n151/mode/1up)
+- Row `247`; L2; p=`blank`; c=1: [Ordinary and Savings Banks](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n151/mode/1up)
+- Row `248`; L2; p=`blank`; c=1: [Foreign Banks in Japan](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n151/mode/1up)
+- Row `249`; L2; p=`blank`; c=1: [Monetary Organ for Poor Classes](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n151/mode/1up)
+- Row `250`; L2; p=`blank`; c=1: [Principal Bank Accounts](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n151/mode/1up)
+- Row `251`; L2; p=`blank`; c=1: ["Mujin"](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n151/mode/1up)
+- Row `252`; L2; p=`blank`; c=1: [Investment Funds](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n151/mode/1up)
+- Row `253`; L2; p=`blank`; c=1: [Currency System](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n151/mode/1up)
+- Row `254`; L2; p=`blank`; c=1: [Capital Issues](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n151/mode/1up)
+- Row `255`; L2; p=`blank`; c=1: [Currency in Circulation](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n151/mode/1up)
+- Row `256`; L2; p=`blank`; c=1: [Velocity of Circulation of Deposits](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n151/mode/1up)
+- Row `257`; L2; p=`blank`; c=1: [Gold Reserve](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n151/mode/1up)
+- Row `258`; L2; p=`blank`; c=1: [Discount Rates](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n151/mode/1up)
+- Row `259`; L2; p=`blank`; c=1: [Interest Rates](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n151/mode/1up)
+- Row `260`; L2; p=`blank`; c=1: [Foreign Exchange Business](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n151/mode/1up)
+- Row `261`; L2; p=`blank`; c=1: [Linkage of Yen to U. S. $](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n151/mode/1up)
+- Row `262`; L2; p=`blank`; c=1: [Clearing-Houses](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n151/mode/1up)
+- Row `263`; L2; p=`blank`; c=1: [Trust Business](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n151/mode/1up)
+- Row `264`; L1; p=`273`: [XXIII. INSURANCE](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n161/mode/1up)
+  - `IMG_4975_1`: 1. Japan's Position in Insurance Business
+  - `IMG_4976_1`: 2. Rates of Investment Yields of Life Insurance Companies*
+  - `IMG_4976_2`: 3. The Position of the Big Five Companies in Life Insurance
+  - `IMG_4976_3`: 4. Percentage of Business Expenses to Premiums Received
+  - `IMG_4977_1`: 5. Number of Deaths of Insured Classified By Causes
+  - `IMG_4977_2`: 6. No. and Capitalization, etc. of Insurance Companies
+  - `IMG_4977_3`: 7. Investments Classified of Insurance Companies
+  - `IMG_4977_4`: 8. Loans Classified By Mortgages
+  - `IMG_4978_1`: 9. Assets of Insurance Companies
+  - `IMG_4978_2`: 10. Liabilities of Insurance Companies
+  - `IMG_4978_3`: 11. State of Insurance Companies by Kinds
+  - `IMG_4979_1`: 12. Condition of Leading Insurance Companies
+  - `IMG_4980_1`: 13. Statistics of Foreign Insurance Companies in Japan
+- Row `265`; L2; p=`blank`; c=1: [The Big Five Life Insurance Cos.](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n161/mode/1up)
+- Row `266`; L2; p=`blank`; c=1: [Mortality Table](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n161/mode/1up)
+- Row `267`; L2; p=`blank`; c=1: [Capitalization of Insurance Cos.](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n161/mode/1up)
+- Row `268`; L2; p=`blank`; c=1: [Insurance Business Law](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n161/mode/1up)
+- Row `269`; L2; p=`blank`; c=1: [Foreign Insurance Cos. in Japan](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n161/mode/1up)
+- Row `270`; L1; p=`284`: [XXIV. AGRICULTURE & STOCKBREEDING](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n167/mode/1up)
+  - `IMG_4981_1`: 1. Value of Agricultural and Pastoral Products
+  - `IMG_4981_2`: 1-B. Volume Indices of Agricultural Production
+  - `IMG_4981_3`: 2. Area of Arable Land and Farming Population of the Japanese Empire
+  - `IMG_4981_4`: 3. Area of Land Utilized for Various Purposes
+  - `IMG_4981_5`: 4. Price and Rent of Arable Land
+  - `IMG_4982_1`: 5. Area Under Various Kinds of Crops
+  - `IMG_4982_2`: 6. Farm Products
+  - `IMG_4982_3`: 7. Yield of Rice and Other Cereals Per "Tan"*
+  - `IMG_4982_4`: 8. Area Under Rice
+  - `IMG_4982_5`: 9. Production of Rice in Recent Years
+  - `IMG_4982_6`: 10. Imports & Exports of Rice By Japan Proper
+  - `IMG_4983_1`: 11. Demand and Supply of Rice
+  - `IMG_4983_2`: 12. Cost of Rice Cultivation Per "Tan"*
+  - `IMG_4983_3`: 13. Average Price of Medium Rice Quoted at Fukagawa Market, Tokyo
+  - `IMG_4983_4`: 14. Rice Stock in Japan Proper
+  - `IMG_4983_5`: 15. Area Under Barley and Crop
+  - `IMG_4983_6`: 16. Area Under Rye and Crop
+  - `IMG_4983_7`: 17. Area Under Wheat and Crop
+  - `IMG_4983_8`: 18. Demand and Supply of Wheat (inclusisve of flour)
+  - `IMG_4983_9`: 19. Production of Various Grains, Potatoes, etc.
+  - `IMG_4984_1`: 20. Other Minor Crops
+  - `IMG_4984_2`: 21. Output of Fruits
+  - `IMG_4984_3`: 22. Industrial Crops
+  - `IMG_4984_4`: 23. Domestic Production of Manufactured Tobacco
+  - `IMG_4984_5`: 24. Import and Export of Leaf Tobacco
+  - `IMG_4985_1`: 25. Area Under Camphor and Its Output in Japan Proper
+  - `IMG_4985_2`: 26. Sales of Manufactured Camphor
+  - `IMG_4985_3`: 27. Japan's Position in Tea Production
+  - `IMG_4985_4`: 28. Area, Production, Export, etc. of Tea
+  - `IMG_4985_5`: 29. Tea Production Classified by Kinds and Districts
+  - `IMG_4986_1`: 30. Japan's Position in Number of Domestic Animals
+  - `IMG_4986_2`: 31. Japan's Position in Meat Consumption
+  - `IMG_4986_3`: 32. Slaughter House Returns
+  - `IMG_4986_4`: 33. Statistics of Stock-farming
+  - `IMG_4987_1`: 34. Statistics of Poultry
+  - `IMG_4987_2`: 35. Statistics of Dairy Farming
+  - `IMG_4987_3`: 36. Livestock Insurance
+  - `IMG_4987_4`: 37. Live-stock Associations
+  - `IMG_4987_5`: 38. Number of Animals Affected
+  - `IMG_4988_1`: 39. Economic Status of Farming Households
+- Row `271`; L2; p=`blank`; c=1: [Value of Agricultural and Pastoral Products](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n167/mode/1up)
+- Row `272`; L2; p=`blank`; c=1: [Principal Crops](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n167/mode/1up)
+- Row `273`; L2; p=`blank`; c=1: [Horticulture](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n167/mode/1up)
+- Row `274`; L2; p=`blank`; c=1: [Industrial Crops](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n167/mode/1up)
+- Row `275`; L2; p=`blank`; c=1: [Camphor](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n167/mode/1up)
+- Row `276`; L2; p=`blank`; c=1: [Tea](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n167/mode/1up)
+- Row `277`; L2; p=`blank`; c=1: [Stockbreeding](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n167/mode/1up)
+- Row `278`; L2; p=`blank`; c=1: [Dairy and Meat Preserving](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n167/mode/1up)
+- Row `279`; L2; p=`blank`; c=1: [Poultry](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n167/mode/1up)
+- Row `280`; L2; p=`blank`; c=1: [Livestock](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n167/mode/1up)
+- Row `281`; L2; p=`blank`; c=1: [Insurance](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n167/mode/1up)
+- Row `282`; L2; p=`blank`; c=1: [Recent Situation](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n167/mode/1up)
+- Row `283`; L2; p=`blank`; c=1: [Wartime Agricultural Reorganization](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n167/mode/1up)
+- Row `284`; L2; p=`blank`; c=1: [Economic Status of Farming Households](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n167/mode/1up)
+- Row `285`; L2; p=`blank`; c=1: [Fertlizers](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n167/mode/1up)
+- Row `286`; L1; p=`301`: [XXV. SERICULTURE](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n175/mode/1up)
+  - `IMG_4989_1`: 40. Consumption of Self-supplied Manure
+  - `IMG_4989_2`: 1. Japan's Position in Raw Silk Output
+  - `IMG_4990_1`: 2. Output of Cocoons, Etc. in Japan Proper
+  - `IMG_4990_2`: 3. Mulberry Plantations
+  - `IMG_4990_3`: 4. Number of Basins and Filatures
+  - `IMG_4990_4`: 5. Raw Silk Output
+- Row `287`; L2; p=`blank`; c=1: [Climatic Characteristics](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n175/mode/1up)
+- Row `288`; L2; p=`blank`; c=1: [Cocooning](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n175/mode/1up)
+- Row `289`; L2; p=`blank`; c=1: [Raw Silk Production](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n175/mode/1up)
+- Row `290`; L2; p=`blank`; c=1: [Demand and Supply of Raw Silk](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n175/mode/1up)
+- Row `291`; L2; p=`blank`; c=1: [Movement of Raw Silk Price](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n175/mode/1up)
+- Row `292`; L1; p=`305`: [XXVI. FORESTRY](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n177/mode/1up)
+  - `IMG_4991_1`: 6. Movement of Raw Silk on Yokohama Spot Market
+  - `IMG_4991_2`: 7. Raw Silk Export
+  - `IMG_4991_3`: 1. Forestry Output in the Japanese Empire
+  - `IMG_4992_1`: 2. Area of Forests
+  - `IMG_4992_2`: 3. Area of Forests by Ownership
+  - `IMG_4992_3`: 4. Protection Forests by Purposes
+  - `IMG_4992_4`: 5. Number and Area of Percentage Forests*
+  - `IMG_4992_5`: 6. Natural Afforestation Area By Ownership
+  - `IMG_4993_1`: 7. Number of Seedlings Planted for Afforestation
+  - `IMG_4993_2`: 8. Forestry Output
+  - `IMG_4993_3`: 9. Number of Trees Newly Planted
+  - `IMG_4993_4`: 10. Principal Forestry By-Products
+  - `IMG_4993_5`: 11. Imports and Exports of Timber
+- Row `293`; L2; p=`blank`; c=1: [Forestry Output in the Japanese Empire](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n177/mode/1up)
+- Row `294`; L2; p=`blank`; c=1: [Area of Forest](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n177/mode/1up)
+- Row `295`; L2; p=`blank`; c=1: [Adjustment of State Forests](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n177/mode/1up)
+- Row `296`; L2; p=`blank`; c=1: [Natural Afforestation](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n177/mode/1up)
+- Row `297`; L2; p=`blank`; c=1: [Demand and Supply of Timber](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n177/mode/1up)
+- Row `298`; L2; p=`blank`; c=1: [Sawing and Lumbering](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n177/mode/1up)
+- Row `299`; L1; p=`311`: [XXVII. FISHERIES](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n180/mode/1up)
+  - `IMG_4994_1`: 12. Imports of Timber by Countries of Origin
+  - `IMG_4994_2`: 13. Japan's Position in Lumber Consumption
+  - `IMG_4994_3`: 1. Japan's Position in Fishery Crops
+  - `IMG_4994_4`: 2. Statistics of Fishery Results in Japanese Empire
+  - `IMG_4995_1`: 3. Number and Membership of Associations
+  - `IMG_4995_2`: 4. Number of People Engaged in Aquatic Industry
+  - `IMG_4995_3`: 5. Number of Fishing Crafts
+  - `IMG_4996_1`: 6. Coastwise Fishing Crops
+  - `IMG_4996_2`: 7. Principal Coastwise Fishing Crops Classified
+  - `IMG_4996_3`: 8. Boats Engaged in Deep Sea Fishery
+  - `IMG_4996_4`: 9. Results of Deep Sea Fishing
+  - `IMG_4997_1`: 10. Japan's Position in Whaling in the Antarctic Sea
+  - `IMG_4997_2`: 11. Results of Whaling in Japanese Waters and Antarctic Ocean
+  - `IMG_4997_3`: 12. Coral Collection
+  - `IMG_4997_4`: 13. Aquatic Manufactures
+  - `IMG_4997_5`: 14. Statistics of Kanten or Japanese Isinglass
+  - `IMG_4997_6`: 15. Statistics of Fish-culture
+  - `IMG_4997_7`: 16. Pearl Culture
+  - `IMG_4997_8`: 17. State of Coastwise Fisheries in Hokkaido
+  - `IMG_4998_1`: 18. Classification of Catches in Hokkaido
+  - `IMG_4998_2`: 19. Exports and Imports of Fish and Marine Manufactures
+  - `IMG_4998_3`: 20. Ratio in No. of Fishing Grounds in Soviet Waters
+  - `IMG_4999_1`: 21. Statistics of Soviet Water Fishery
+  - `IMG_4999_2`: 22. Japanese Fishing Activities in Soviet Waters Excluding Floating Canneries
+  - `IMG_4999_3`: 23. Output and Export by the Nichiro Fishery Co.
+  - `IMG_4999_4`: 24. Japanese Floating Crab Canneries*
+  - `IMG_4999_5`: 25. Japanese Floating Salmon Canneries*
+  - `IMG_4999_6`: 26. Fishing Vessel Disasters
+- Row `300`; L2; p=`blank`; c=1: [Fishery Results in Japanese Empire](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n180/mode/1up)
+- Row `301`; L2; p=`blank`; c=1: [Marine Manufactures](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n180/mode/1up)
+- Row `302`; L2; p=`blank`; c=1: [Kinds of Fish](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n180/mode/1up)
+- Row `303`; L2; p=`blank`; c=1: [Aquatic Administration](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n180/mode/1up)
+- Row `304`; L2; p=`blank`; c=1: [Coastwise, Deep-sea Fishing](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n180/mode/1up)
+- Row `305`; L2; p=`blank`; c=1: [Whaling](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n180/mode/1up)
+- Row `306`; L2; p=`blank`; c=1: [Coral Collection](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n180/mode/1up)
+- Row `307`; L2; p=`blank`; c=1: [Fish-culture](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n180/mode/1up)
+- Row `308`; L2; p=`blank`; c=1: [Pearl Culture](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n180/mode/1up)
+- Row `309`; L2; p=`blank`; c=1: [Soviet Water Fishery](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n180/mode/1up)
+- Row `310`; L2; p=`blank`; c=1: [Fishing Vessel Disasters](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n180/mode/1up)
+- Row `311`; L2; p=`blank`; c=1: [Salt Industry](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n180/mode/1up)
+- Row `312`; L1; p=`323`: [XXVIII. LABOR](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n186/mode/1up)
+  - `IMG_5001_1`: 27. Japan's Position in Salt Output
+  - `IMG_5001_2`: 28. Demand and Supply of Salt in Japan Proper
+  - `IMG_5001_3`: 29. Consumption of Salt by Purposes
+  - `IMG_5001_4`: 1. Statistics of Private Factory Workers
+  - `IMG_5002_1`: 2. Indices of Number of Laborers by Countries
+  - `IMG_5002_2`: 3. Number of Laborers*
+  - `IMG_5002_3`: 4. Number and Membership of Labor Unions by Kinds of Trade
+  - `IMG_5002_4`: 5. May Day Demonstrations
+  - `IMG_5002_5`: 6. Average Daily Wages of Laborers Classified in 13 Principal Cities of Japan
+  - `IMG_5003_1`: 7. Daily Wages of Transport & Mining Workers
+  - `IMG_5003_2`: 8. Productivity of Labor
+  - `IMG_5003_3`: 9. Japan's Position in Industrial Working Hours
+  - `IMG_5004_1`: 10. Net Working Hours (per day) and Days (per month) by Industries
+  - `IMG_5004_2`: 15. Indices of Cost of Living and Retail Price
+  - `IMG_5004_3`: 12. Cost of Living of Salaried Men
+  - `IMG_5004_4`: 13. Cost of Living of Laborers
+  - `IMG_5004_5`: 14. Indices of Cost of Living by Countries
+  - `IMG_5005_1`: 15. Statistics of Labor Disputes
+  - `IMG_5005_2`: 16. Labor Disputes by Causes
+  - `IMG_5005_3`: 17. Labor Disputes Classified by Industries
+  - `IMG_5005_4`: 18. Number of Labour Disputes Classified by Days
+  - `IMG_5005_5`: 19. Tenant Disputes
+  - `IMG_5005_6`: 20. Unions of Peasants and of Landowners
+  - `IMG_5005_7`: 21. Statistics of Factory Accidents
+  - `IMG_5006_1`: 22. Statistics of Mine Workers
+  - `IMG_5006_2`: 23. Accidents at Mines
+- Row `313`; L2; p=`blank`; c=1: [Peasant Movement](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n186/mode/1up)
+- Row `314`; L2; p=`blank`; c=1: [Number of Laborers](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n186/mode/1up)
+- Row `315`; L2; p=`blank`; c=1: [Factory Laborers](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n186/mode/1up)
+- Row `316`; L2; p=`blank`; c=1: [May Day Demonstration](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n186/mode/1up)
+- Row `317`; L2; p=`blank`; c=1: [Wages](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n186/mode/1up)
+- Row `318`; L2; p=`blank`; c=1: [Productivity of Labor](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n186/mode/1up)
+- Row `319`; L2; p=`blank`; c=1: [The Factory Law](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n186/mode/1up)
+- Row `320`; L2; p=`blank`; c=1: [Working Hours](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n186/mode/1up)
+- Row `321`; L2; p=`blank`; c=1: [Cost of Living](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n186/mode/1up)
+- Row `322`; L2; p=`blank`; c=1: [Labor Disputes](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n186/mode/1up)
+- Row `323`; L2; p=`blank`; c=1: [Tenant Disputes](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n186/mode/1up)
+- Row `324`; L2; p=`blank`; c=1: [Factory Accidents](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n186/mode/1up)
+- Row `325`; L2; p=`blank`; c=1: [Mine Workers](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n186/mode/1up)
+- Row `326`; L2; p=`blank`; c=1: [Wartime Labor Politics](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n186/mode/1up)
+- Row `327`; L2; p=`blank`; c=1: [Position of Small Tradesmen](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n186/mode/1up)
+- Row `328`; L1; p=`336`: [XXIX. MINING](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n193/mode/1up)
+  - `IMG_5008_1`: 1. Indices of Mineral Production
+  - `IMG_5008_2`: 2. Value of Mineral Production in Japanese Empire
+  - `IMG_5008_3`: 3. Japan's Position in Output of Certain Basic Minerals in 1937
+  - `IMG_5008_4`: 4. Principal Mineral Output in Japan Proper
+  - `IMG_5008_5`: 5. Statistics of Mining Lots
+  - `IMG_5009_1`: 6. Production & Demand of Pig Iron and Steel Materials
+  - `IMG_5009_2`: 7. Statistics of Steel Materials
+  - `IMG_5011_1`: 8. Production of Steel Ingots Classified by Method
+  - `IMG_5011_2`: 9. Consumption Ratio of Steel Materials Classified by Industries
+  - `IMG_5012_1`: 9A. Iron and Steel Production Expansion Program for the Japanese Empire
+  - `IMG_5012_2`: 10. Imports of Iron Ore, Steel Materials, etc.
+  - `IMG_5012_3`: 11. Imports of Iron Ore Classified by Countries of Origin
+  - `IMG_5012_4`: 12. Imports of Scrap and Old Iron by Countries of Origin
+  - `IMG_5012_5`: 13. Imports of Pig Iron by Countries of Origin
+  - `IMG_5013_1`: 14. Imports of Steel Materials by Countries of Origin
+  - `IMG_5013_2`: 15. Production of Pig Iron, Ferro Alloys and Steels Classified by Companies
+  - `IMG_5013_3`: 16. Output of Gold and Silver
+  - `IMG_5013_4`: 17. Output of Leading Gold & Silver Mines
+  - `IMG_5015_1`: 18. Demand and Supply of Principal Minerals
+  - `IMG_5016_1`: 19. Production and Imports of Aluminium
+  - `IMG_5016_2`: 20. Imports of Aluminium by Countries of Origin
+  - `IMG_5016_3`: 21. Coal Reserves in Japan Proper
+  - `IMG_5016_4`: 22. Demand and Supply of Coal
+  - `IMG_5016_5`: 23. Coal Consumption by Enterprises Classified
+  - `IMG_5017_1`: 24. Japan's Position in Production of Crude Petroleum and Shale Oil
+  - `IMG_5017_2`: 25. Demand and Supply of Crude Oil in Japan
+  - `IMG_5017_3`: 26. Output of Petroleum By-Products
+  - `IMG_5017_4`: 27. Demand and Supply of Refined Oil (Inclusive of Colonies)
+  - `IMG_5018_1`: 28. Petroleum Wholesale Price in Tokyo
+  - `IMG_5018_2`: 29. Import of Petroleum by Countries of Origin
+- Row `329`; L2; p=`blank`; c=1: [Value of Mineral Production in Japanese Empire](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n193/mode/1up)
+- Row `330`; L2; p=`blank`; c=1: [Principal Mineral Output](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n193/mode/1up)
+- Row `331`; L2; p=`blank`; c=1: [Raw Material Supply](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n193/mode/1up)
+- Row `332`; L2; p=`blank`; c=1: [Recent Steel Demand and Supply](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n193/mode/1up)
+- Row `333`; L2; p=`blank`; c=1: [Productive Capacity](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n193/mode/1up)
+- Row `334`; L2; p=`blank`; c=1: [Industry Under Control](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n193/mode/1up)
+- Row `335`; L2; p=`blank`; c=1: [Five Year Plan of Steel and Iron Production](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n193/mode/1up)
+- Row `336`; L2; p=`blank`; c=1: [Principal Gold Mines](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n193/mode/1up)
+- Row `337`; L2; p=`blank`; c=1: [Coal Mining](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n193/mode/1up)
+- Row `338`; L2; p=`blank`; c=1: [Petroleum Industry](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n193/mode/1up)
+- Row `339`; L2; p=`blank`; c=1: [Demand and Supply of Refined Oil](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n193/mode/1up)
+- Row `340`; L2; p=`blank`; c=1: [Petroleum Wholesale Price](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n193/mode/1up)
+- Row `341`; L2; p=`blank`; c=1: [Import of Petroleum](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n193/mode/1up)
+- Row `342`; L2; p=`blank`; c=1: [Coal Liquefaction](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n193/mode/1up)
+- Row `343`; L1; p=`359`: [XXX. MANUFACTURING INDUSTRY](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n204/mode/1up)
+  - `IMG_5019_1`: 1. Indices of Industrial Production by Countries
+  - `IMG_5020_1`: 2. Trend of Industrial Production in Japan Proper
+  - `IMG_5020_2`: 3. Volume Indices of Industrial Production by Principal Commodities
+  - `IMG_5021_1`: 4. Production and Number of Factories and Operatives Classified by Principal Industries
+  - `IMG_5022_1`: 5. Consumption of Fuel & Motive Power by Industries
+  - `IMG_5022_2`: 6. Volume Ratio of Domestic Production to Demand of Principal Raw Materials in 1936
+  - `IMG_5023_1`: 7. Number of Industrial Associations & Unions Classified
+  - `IMG_5023_2`: 8. Production Curtailment of Principal Commodities
+  - `IMG_5023_3`: 9. Value of Stocked Commodities Classified by Industries
+- Row `344`; L2; p=`blank`; c=1: [Trend of Industrial Production](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n204/mode/1up)
+- Row `345`; L2; p=`blank`; c=1: [Factory Statistics](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n204/mode/1up)
+- Row `346`; L2; p=`blank`; c=1: [Fuel Consumption](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n204/mode/1up)
+- Row `347`; L2; p=`blank`; c=1: [Dependence on Foreign Raw Materials](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n204/mode/1up)
+- Row `348`; L2; p=`blank`; c=1: [Industrial Associations](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n204/mode/1up)
+- Row `349`; L2; p=`blank`; c=1: [Production Curtailment](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n204/mode/1up)
+- Row `350`; L2; p=`blank`; c=1: [Stocked Commodities](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n204/mode/1up)
+- Row `351`; L2; p=`blank`; c=1: [Three Year Production Expansion Program](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n204/mode/1up)
+- Row `352`; L1; p=`369`: [XXXI. TEXTILE INDUSTRY](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n209/mode/1up)
+  - `IMG_5024_1`: 10. Three Year Production Expansion Program
+  - `IMG_5025_1`: 1. Volume Indices of Textile Production
+  - `IMG_5025_2`: 2. Japan's Position in Number of Spindles and Consumption of Raw Cotton at the End of Jan…
+  - `IMG_5025_3`: 3. Comparison of British and Japanese Cotton Fabric Exports
+  - `IMG_5025_4`: 4. Equipment of Japanese Spinning Cos. in Japan, Manchoukuo & China
+  - `IMG_5025_5`: 5. Japan's Import of Raw Cotton by Countries of Origin
+  - `IMG_5026_1`: 6. Demand and Supply of Cotton Yarn
+  - `IMG_5026_2`: 7. Cotton Yarn Production
+  - `IMG_5026_3`: 8. Exports of Cotton Yarn by Destinations
+  - `IMG_5026_4`: 9. Output of Cotton Cloth Classified
+  - `IMG_5026_5`: 10. Demand and Supply of Cotton Textiles
+  - `IMG_5027_1`: 11. Exports of Cotton Cloth by Destinations
+  - `IMG_5027_2`: 12. Capitalization of Cotton Spinning Companies in Japan Proper and Chosen
+  - `IMG_5027_3`: 13. Number of Factories, Looms and Operatives of Silk and Silk Mixture Fabrics
+  - `IMG_5028_1`: 14. Production of Silk Fabrics
+  - `IMG_5028_2`: 15. Exports of Silk Fabrics Inclusive of Cotton Mixture
+  - `IMG_5028_3`: 16. Japan's Position in Rayon Yarn Production
+  - `IMG_5028_4`: 17. Demand and Supply of Rayon Yarns in Japan Proper
+  - `IMG_5028_5`: 18. Production of Rayon Yarn by Member Cos. of the Japan Rayon Federation Classified by D…
+  - `IMG_5028_6`: 19. Rayon Yarn Exports by Destinations
+  - `IMG_5029_1`: 19-B. Production of Rayon Fabrics
+  - `IMG_5029_2`: 20. Exports of Principal Rayon Goods Classified
+  - `IMG_5029_3`: 21. Exports of Rayon Fabrics Classified
+  - `IMG_5029_4`: 22-A. Japan's Position in Staple Fibre Production
+  - `IMG_5029_5`: 22-B. Production of Staple Fibre and Staple Fibre Yarn
+  - `IMG_5029_6`: 23. Export of Staple Fibre and Tissue
+  - `IMG_5029_7`: 24. Import of Wool, Camel and Goat Hair, Etc.
+  - `IMG_5029_8`: 25. Wool Imports by Countries of Origin
+  - `IMG_5030_1`: 26. Demand and Supply of Woolen Yarn
+  - `IMG_5030_2`: 27. Output of Woolen Fabric
+  - `IMG_5030_3`: 28. Export of Woolen Cloth
+  - `IMG_5030_4`: 29. Imports of Woolen Cloth by Country of Origin
+  - `IMG_5030_5`: 30. Production of Hemp Cloth, Etc.
+  - `IMG_5030_6`: 31. Crops of Hemps, Ramie, Flax, Etc. in Japan Proper
+- Row `353`; L2; p=`blank`; c=1: [General Remarks](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n209/mode/1up)
+- Row `354`; L2; p=`blank`; c=1: [Production Value per Operative](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n209/mode/1up)
+- Row `355`; L2; p=`blank`; c=1: [No. of Spindles](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n209/mode/1up)
+- Row `356`; L2; p=`blank`; c=1: [Cotton Spinning](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n209/mode/1up)
+- Row `357`; L2; p=`blank`; c=1: [Cotton Weaving](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n209/mode/1up)
+- Row `358`; L2; p=`blank`; c=1: [Raw Cotton Imports](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n209/mode/1up)
+- Row `359`; L2; p=`blank`; c=1: [Cotton Textile Exports](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n209/mode/1up)
+- Row `360`; L2; p=`blank`; c=1: [Japanese Factories in China](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n209/mode/1up)
+- Row `361`; L2; p=`blank`; c=1: [Silk Textiles](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n209/mode/1up)
+- Row `362`; L2; p=`blank`; c=1: [Rayon](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n209/mode/1up)
+- Row `363`; L2; p=`blank`; c=1: [Staple Fibre](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n209/mode/1up)
+- Row `364`; L2; p=`blank`; c=1: [Woolen Cloth and Worsted Yarn](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n209/mode/1up)
+- Row `365`; L2; p=`blank`; c=1: [Import of Wool](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n209/mode/1up)
+- Row `366`; L2; p=`blank`; c=1: [Hemp Cloth](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n209/mode/1up)
+- Row `367`; L1; p=`383`: [XXXII. ELECTRIC AND GAS INDUSTRIES](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n216/mode/1up)
+  - `IMG_5031_1`: 32. Import of Hemp, Flax, Etc.
+  - `IMG_5031_2`: 33. Exports of Principal Hemp, Flax, Ramie Products
+  - `IMG_5031_3`: 1. Japan's Position in Production of Electricity
+  - `IMG_5032_1`: 2. Capacity of Hydro Power Generation Plants Classified by Principal Rivers
+  - `IMG_5032_2`: 3. Power Generation Capacity Classified
+  - `IMG_5032_3`: 4. Power Stations Classified by Capacity
+  - `IMG_5033_1`: 5. Per Capita Consumption Classified by Districts
+  - `IMG_5033_2`: 6. Volume of Power Generated Classified
+  - `IMG_5033_3`: 7. Demand for Electric Lights
+  - `IMG_5033_4`: 8. Consumption of Electric Power by Industries
+  - `IMG_5033_5`: 9. Consumption of Hydro-Electric and Thermal Electric Power
+  - `IMG_5033_6`: 10. Transmission Lines Classified by Voltages
+  - `IMG_5033_7`: 11. Fuel Consumptions by Power Stations
+  - `IMG_5034_1`: 12. Financial Condition of Electric Companies
+  - `IMG_5034_2`: 13. Statistics of Gas Industry in Japan Proper
+  - `IMG_5034_3`: 14. Production of Gas by Kinds
+- Row `368`; L2; p=`blank`; c=1: [Japan's Position in Production of Electricity](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n216/mode/1up)
+- Row `369`; L2; p=`blank`; c=1: [Capacity of Hydro Power Generation Plants Classified by Rivers](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n216/mode/1up)
+- Row `370`; L2; p=`blank`; c=1: [Volume of Power Generated Classified](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n216/mode/1up)
+- Row `371`; L2; p=`blank`; c=1: [Consumption of Electric Power by Industries](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n216/mode/1up)
+- Row `372`; L2; p=`blank`; c=1: [Power Shortage in 1939](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n216/mode/1up)
+- Row `373`; L2; p=`blank`; c=1: [Gas Industry](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n216/mode/1up)
+- Row `374`; L2; p=`blank`; c=1: [Production of Gas by Kinds](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n216/mode/1up)
+- Row `375`; L1; p=`390`: [XXXIII. CHEMICAL & CERAMIC INDUSTRIES](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n220/mode/1up)
+  - `IMG_5035_1`: 1. Volume Indices of Chemical & Ceramic Production
+  - `IMG_5035_2`: 2. Output Value of Commercial Fertilizer
+  - `IMG_5035_3`: 3. Production of Chemical Fertilizers Classified
+  - `IMG_5035_4`: 4. Demand & Supply of Fertilizer
+  - `IMG_5035_5`: 5. Imports of Commercial Fertilizers
+  - `IMG_5035_6`: 6. Output of Industrial Chemicals
+  - `IMG_5036_1`: 7. Demand and Supply of Ammonium Sulphate
+  - `IMG_5036_2`: 8. Demand and Supply of Synthetic Dye-stuffs Classified
+  - `IMG_5036_3`: 9. Imports of Synthetic Dyestuffs by Countries of Origin
+  - `IMG_5036_4`: 10. Production of Paint and Pigment
+  - `IMG_5037_1`: 17. Demand and Supply of Paper
+  - `IMG_5037_2`: 18. Output of Paper Classified
+  - `IMG_5037_3`: 19. Imports and Exports of Papers
+  - `IMG_5037_4`: 20. Japan's Position in Wood Pulp Output
+  - `IMG_5037_5`: 21. Demand and Supply of Pulp
+  - `IMG_5038_1`: 22. Five-Year Plan of Pulp Production in Japan and Manchoukuo
+  - `IMG_5038_2`: 24. World Consumption of Rubber
+  - `IMG_5038_3`: 25. Production of Rubber Goods
+  - `IMG_5038_4`: 23. Pulp Consumption Classified
+  - `IMG_5038_5`: 26. Imports of Crude Rubber and Exports of Principal Rubber Goods
+  - `IMG_5038_6`: 27. Japanese Rubber Plantations Abroad
+  - `IMG_5039_1`: 28. Chinaware Production
+  - `IMG_5039_2`: 29. Production of Tiles, Drainage Pipes and Bricks
+  - `IMG_5039_3`: 30. Exports of Potteries by Kinds
+  - `IMG_5039_4`: 31. Japan's Position in Cement Production
+  - `IMG_5039_5`: 32. Demand and Supply of Cement
+  - `IMG_5040_1`: 33. Cement Consumption Classified
+  - `IMG_5040_2`: 34. Export of Cement by Destinations
+  - `IMG_5040_3`: 35. Glass Manufactures Production by Kinds
+  - `IMG_5040_4`: 36. Export of Glass & Glasswares Classified
+  - `IMG_5040_5`: 37. Imports of Glass by Kinds
+  - `IMG_5040_6`: 38. Vegetable Oil Production
+  - `IMG_5041_1`: 39. Exports & Imports of Vegetable Oils
+  - `IMG_5041_2`: 40. Production of Fish Oil & Animal Fat
+  - `IMG_5041_3`: 41. Export of Fish Oil, etc.
+  - `IMG_5041_4`: 42. Demand & Supply of Glycerine and Hardened-oil
+  - `IMG_5041_5`: 43. Production and Export of Soap
+  - `IMG_5041_6`: 44. Production and Export of Menthol
+- Row `376`; L2; p=`blank`; c=1: [Volume Indices of Chemical & Ceramic Production](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n220/mode/1up)
+- Row `377`; L2; p=`blank`; c=1: [Production of Chemical Fertilizers](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n220/mode/1up)
+- Row `378`; L2; p=`blank`; c=1: [Output of Industrial Chemicals](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n220/mode/1up)
+- Row `379`; L2; p=`blank`; c=1: [Ammonia Sulphate](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n220/mode/1up)
+- Row `380`; L2; p=`blank`; c=1: [Dyestuff](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n220/mode/1up)
+- Row `381`; L2; p=`blank`; c=1: [Paint and Pigment](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n220/mode/1up)
+- Row `382`; L2; p=`blank`; c=1: [Bleaching Powder](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n220/mode/1up)
+- Row `383`; L2; p=`blank`; c=1: [Caustic Soda & Soda Ash](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n220/mode/1up)
+- Row `384`; L2; p=`blank`; c=1: [Paper](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n220/mode/1up)
+- Row `385`; L2; p=`blank`; c=1: [Pulp](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n220/mode/1up)
+- Row `386`; L2; p=`blank`; c=1: [Rubber](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n220/mode/1up)
+- Row `387`; L2; p=`blank`; c=1: [Ceramic Industry](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n220/mode/1up)
+- Row `388`; L2; p=`blank`; c=1: [Cement](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n220/mode/1up)
+- Row `389`; L2; p=`blank`; c=1: [Glass](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n220/mode/1up)
+- Row `390`; L2; p=`blank`; c=1: [Vegetable Oil](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n220/mode/1up)
+- Row `391`; L2; p=`blank`; c=1: [Fish Oil](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n220/mode/1up)
+- Row `392`; L2; p=`blank`; c=1: [Menthol](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n220/mode/1up)
+- Row `393`; L2; p=`blank`; c=1: [Soap](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n220/mode/1up)
+- Row `394`; L2; p=`blank`; c=1: [Camphor](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n220/mode/1up)
+- Row `395`; L2; p=`blank`; c=1: [Celluloid](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n220/mode/1up)
+- Row `396`; L1; p=`407`: [XXXIV. FOODSTUFF INDUSTRY](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n227/mode/1up)
+  - `IMG_5042_1`: 45. Output and Export of Camphor and Camphor Oil
+  - `IMG_5042_2`: 46. Statistics of Celluloid Industry
+  - `IMG_5042_3`: 1. Japan's Position in Cane Sugar Production
+  - `IMG_5042_4`: 2. Comparison of Per Capita Sugar Consumption
+  - `IMG_5043_1`: 3-A. Demand and Supply of Sugar in Japan Proper
+  - `IMG_5043_2`: 3-B. Sugar Production of Japanese Empire
+  - `IMG_5043_3`: 4. Sugar Exports
+  - `IMG_5043_4`: 5. Imports of Sugar Classified
+  - `IMG_5043_5`: 6. Statistics of Modern Process Sugar Companies
+  - `IMG_5043_6`: 7. Demand and Supply of Wheat Flour in Japan Proper
+  - `IMG_5044_1`: 8. Export of Wheat Flour
+  - `IMG_5044_2`: 9. Import of Wheat by Countries of Origin
+  - `IMG_5044_3`: 10. Capacity and Production of Four Principal Companies
+  - `IMG_5044_4`: 11. Production of Alcoholic Drinks
+  - `IMG_5044_5`: 12. Production and Export of Beer
+  - `IMG_5044_6`: 13. Export of Beer by Destinations
+  - `IMG_5044_7`: 14. Production of Principal Beer Cos.
+  - `IMG_5044_8`: 15. Manufacture of Soft Drinks
+  - `IMG_5045_1`: 16. Production of Canned Goods Classified
+  - `IMG_5045_2`: 17. Output of Dairy and Meat Products
+  - `IMG_5045_3`: 18. Imports of Black Tea, Coffee & Cocoa
+  - `IMG_5045_4`: 19. Production of Ice
+- Row `397`; L2; p=`blank`; c=1: [Sugar](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n227/mode/1up)
+- Row `398`; L2; p=`blank`; c=1: [Flour Milling](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n227/mode/1up)
+- Row `399`; L2; p=`blank`; c=1: [Brewing](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n227/mode/1up)
+- Row `400`; L2; p=`blank`; c=1: [Sake](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n227/mode/1up)
+- Row `401`; L2; p=`blank`; c=1: [Beer](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n227/mode/1up)
+- Row `402`; L2; p=`blank`; c=1: [Beer Companies](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n227/mode/1up)
+- Row `403`; L2; p=`blank`; c=1: [Soft Drinks](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n227/mode/1up)
+- Row `404`; L2; p=`blank`; c=1: [Canned Provisions](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n227/mode/1up)
+- Row `405`; L2; p=`blank`; c=1: [Dairy and Meat Products](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n227/mode/1up)
+- Row `406`; L2; p=`blank`; c=1: [Black Tea, Coffee and Cocoa](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n227/mode/1up)
+- Row `407`; L2; p=`blank`; c=1: [Ice Industry](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n227/mode/1up)
+- Row `408`; L1; p=`414`: [XXXV. MACHINERY & ENGINEERING](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n231/mode/1up)
+  - `IMG_5046_1`: 1. Demand and Supply in the Machinery Industry
+  - `IMG_5046_2`: 2. Output of Principal Machineries Classified
+  - `IMG_5046_3`: 3. Export of Principal Machineries
+  - `IMG_5046_4`: 4. Imports of Principal Machineries
+  - `IMG_5047_1`: 5. Output of Machineries by Uses
+  - `IMG_5047_2`: 6. Production of Scientific and Medical Instruments and Testing Machines, Etc.
+  - `IMG_5047_3`: 7. Production of Optical Instruments
+  - `IMG_5047_4`: 8. Production of Locomotives
+  - `IMG_5047_5`: 9. Production of Rolling Stock
+  - `IMG_5048_1`: [Values of the constant C in B.H.P.=CND²]
+  - `IMG_5048_2`: 10. Marine Diesel Engines; Makers & Dimensions of Largest Engines Built
+  - `IMG_5049_1`: 11. Production of Cranes, Elevators, Etc.
+  - `IMG_5049_2`: 12. Production of Machine Tools and Accessories
+  - `IMG_5049_3`: 13. Production of Automobiles in Japan Proper
+  - `IMG_5050_1`: 14. Exports of Automobiles and Parts
+  - `IMG_5050_2`: 15. Imports of Automobiles and Parts
+  - `IMG_5050_3`: 16. Imports of Automobiles & Parts By Countries of Origin
+  - `IMG_5050_4`: 17. Specification of Principal Domestic Made Automobiles
+  - `IMG_5050_5`: 18. Registered Motor Vehicles in Japan
+  - `IMG_5051_1`: 19. Production and Export of Bicycles, Parts & Accessories
+  - `IMG_5051_2`: 20. Production of Watches and Clocks
+  - `IMG_5051_3`: 21. Export of Clocks
+  - `IMG_5051_4`: 22. Production of Measuring and Weighing Instruments
+  - `IMG_5051_5`: 23. Production of Various Meters
+  - `IMG_5052_1`: 24. Building Schedule at 21 Principal Cities
+- Row `409`; L2; p=`blank`; c=1: [Output of Principal Machineries](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n231/mode/1up)
+- Row `410`; L2; p=`blank`; c=1: [Export and Import](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n231/mode/1up)
+- Row `411`; L2; p=`blank`; c=1: [Scientific and Medical Instruments](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n231/mode/1up)
+- Row `412`; L2; p=`blank`; c=1: [Production of Optical Instruments, Locomotives, Rolling Stock](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n231/mode/1up)
+- Row `413`; L2; p=`blank`; c=1: [Diesel and Semi-Diesel Engines](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n231/mode/1up)
+- Row `414`; L2; p=`blank`; c=1: [Cranes](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n231/mode/1up)
+- Row `415`; L2; p=`blank`; c=1: [Machine Tools](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n231/mode/1up)
+- Row `416`; L2; p=`blank`; c=1: [Automobiles](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n231/mode/1up)
+- Row `417`; L2; p=`blank`; c=1: [Bicycles](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n231/mode/1up)
+- Row `418`; L2; p=`blank`; c=1: [Watches & Clocks](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n231/mode/1up)
+- Row `419`; L2; p=`blank`; c=1: [Building Industry](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n231/mode/1up)
+- Row `420`; L1; p=`428`: [XXXVI. MISCELLANEOUS INDUSTRIES](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n238/mode/1up)
+  - `IMG_5053_1`: 1. Production and Exports of Knitted Goods
+  - `IMG_5053_2`: 2. Production and Exports of Hats
+  - `IMG_5053_3`: 3. Production of Lacquer Ware
+  - `IMG_5053_4`: 4. Production of Leather & Hide, Manufactured Goods
+  - `IMG_5053_5`: 5. Imports of Hides & Leathers
+  - `IMG_5053_6`: 6. Production and Export of Brushes
+  - `IMG_5053_7`: 7. Production of Bamboo Manufactures
+  - `IMG_5053_8`: 8. Production and Export of Straw, Chip and Hemp Braids
+  - `IMG_5054_1`: 9. Production and Export of Electric Bulbs
+  - `IMG_5054_2`: 10. Production and Exports of Pyrethrum
+  - `IMG_5054_3`: 11. Production & Exports of Toys
+  - `IMG_5054_4`: 12. Output & Export of Buttons
+  - `IMG_5054_5`: 13. Output and Export of Matches
+  - `IMG_5054_6`: 14. Production and Exports of Pencils
+- Row `421`; L2; p=`blank`; c=1: [Knitted Goods](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n238/mode/1up)
+- Row `422`; L2; p=`blank`; c=1: [Hats](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n238/mode/1up)
+- Row `423`; L2; p=`blank`; c=1: [Lacquer Ware](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n238/mode/1up)
+- Row `424`; L2; p=`blank`; c=1: [Leather & Hide](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n238/mode/1up)
+- Row `425`; L2; p=`blank`; c=1: [Bamboo Manufactures, Brushes, Straw Braids](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n238/mode/1up)
+- Row `426`; L2; p=`blank`; c=1: [Pyrethrums](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n238/mode/1up)
+- Row `427`; L2; p=`blank`; c=1: [Electric Bulbs](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n238/mode/1up)
+- Row `428`; L2; p=`blank`; c=1: [Toys](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n238/mode/1up)
+- Row `429`; L2; p=`blank`; c=1: [Buttons](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n238/mode/1up)
+- Row `430`; L2; p=`blank`; c=1: [Matches](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n238/mode/1up)
+- Row `431`; L2; p=`blank`; c=1: [Fountain Pens, Pencils](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n238/mode/1up)
+- Row `432`; L1; p=`433`: [XXXVII. COMMERCE](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n240/mode/1up)
+  - `IMG_5055_1`: 15. Production and Exports of Fountain Pens
+  - `IMG_5056_1`: Business Results of Leading Companies (At End of 2nd Half, 1938)
+  - `IMG_5058_1`: 1. Production Value of All Industries in Japan Proper
+  - `IMG_5058_2`: 2. General Statistics of Companies by Business
+  - `IMG_5059_1`: 3. No. of Companies Classified by Corporate Organization
+  - `IMG_5059_2`: 4 (A). No. of Companies Classified by Capital
+  - `IMG_5059_3`: 4 (B). Debentures Issued Classified by Enterprises
+  - `IMG_5059_4`: 6. Number of Chambers of Commerce and Industry
+  - `IMG_5060_1`: 7. Value of Securities in the Whole Country
+  - `IMG_5060_2`: 8. Japan's Position in Market Value: Indices of Industrial Shares
+  - `IMG_5060_3`: 9. Value Indices of Shares in Japan
+  - `IMG_5060_4`: 10. Stocks and Bonds
+  - `IMG_5061_1`: 11. Foreign Quotations of Japanese National Bonds
+  - `IMG_5061_2`: 12. Goods in Godowns in Japan Proper
+  - `IMG_5061_3`: 13. Volume of Warehoused Goods
+  - `IMG_5061_4`: 14. Index Number of Wholesale Prices by Countries
+  - `IMG_5062_1`: 15. Index Number of Wholesale Prices
+  - `IMG_5062_2`: 16. Average Wholesale Prices of Staple Commodities in Tokyo
+  - `IMG_5062_3`: 17. Yearly Movement of Forward Quotations of Principal Staple Commodities
+  - `IMG_5063_1`: 18. Yields of Bonds and Stocks in Japan
+  - `IMG_5063_2`: 19. Principal Foreign Investment in Japanese Enterprises
+- Row `433`; L2; p=`blank`; c=1: [Formation of Companies](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n240/mode/1up)
+- Row `434`; L2; p=`blank`; c=1: [Business Results of Leading Companies](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n240/mode/1up)
+- Row `435`; L2; p=`blank`; c=1: [Production Value of All Industries](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n240/mode/1up)
+- Row `436`; L2; p=`blank`; c=1: [General Statistics of Companies by Business](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n240/mode/1up)
+- Row `437`; L2; p=`blank`; c=1: [Chamber of Commerce & Industry](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n240/mode/1up)
+- Row `438`; L2; p=`blank`; c=1: [Exchanges](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n240/mode/1up)
+- Row `439`; L2; p=`blank`; c=1: [Value of Securities](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n240/mode/1up)
+- Row `440`; L2; p=`blank`; c=1: [Value Indices of Shares, Stocks, Bonds](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n240/mode/1up)
+- Row `441`; L2; p=`blank`; c=1: [Warehousing](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n240/mode/1up)
+- Row `442`; L2; p=`blank`; c=1: [Wholesale Prices](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n240/mode/1up)
+- Row `443`; L2; p=`blank`; c=1: [Commercial Museum](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n240/mode/1up)
+- Row `444`; L2; p=`blank`; c=1: [Yields of Bonds and Stocks](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n240/mode/1up)
+- Row `445`; L2; p=`blank`; c=1: [Principal Foreign Investments in Japanese Enterprises](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n240/mode/1up)
+- Row `446`; L1; p=`450`: [XXXVIII. FOREIGN TRADE](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n249/mode/1up)
+  - `IMG_5064_1`: 1. Japan's Position in World Foreign Trade
+  - `IMG_5064_2`: 2. Foreign Trade of Japanese Empire Since 1889
+  - `IMG_5064_3`: 3. Foreign Trade Indices
+  - `IMG_5065_1`: 4. Exports and Imports by Groups
+  - `IMG_5065_2`: 5. Japan's Trade Distribution by Political Units
+  - `IMG_5065_3`: 6. Specie & Bullion
+  - `IMG_5065_4`: 7. Import Ratio of Industrial Raw Materials Against Total Consumption
+  - `IMG_5066_1`: 8. Summary of Principal Exports and Imports by Groups
+  - `IMG_5067_1`: 9-A. Japan Proper's Foreign Trade With Yen Bloc and Other Countries
+  - `IMG_5067_2`: 10-A. Imports By Commodities and Countries of Origin
+  - `IMG_5069_1`: 10-B. Exports By Commodities and Destinations
+  - `IMG_5072_1`: 11. Japan's Principal Imports and Exports By Countries
+  - `IMG_5075_1`: 12. Imports of Principal Industrial Raw Materials Classified By Countries of Origin
+  - `IMG_5077_1`: 13-A. Invisible Trade
+  - `IMG_5077_2`: 13-B. Balance of International Payments
+  - `IMG_5078_1`: 14. Exports and Imports by Principal Ports
+  - `IMG_5078_2`: 15. Entrance of Steamers by Flags
+  - `IMG_5078_3`: 16. World Foreign Trade Classified by Leading Customer Countries
+  - `IMG_5080_1`: 17. Customs Revenue
+- Row `447`; L2; p=`blank`; c=1: [Introductory Remarks](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n249/mode/1up)
+- Row `448`; L2; p=`blank`; c=1: [Foreign Trade in 1940](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n249/mode/1up)
+- Row `449`; L2; p=`blank`; c=1: [Foreign Trade since 1889](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n249/mode/1up)
+- Row `450`; L2; p=`blank`; c=1: [Trade by Political Units, by Continents](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n249/mode/1up)
+- Row `451`; L2; p=`blank`; c=1: [Imports and Exports by Commodities and by Countries of Origin and Destinations](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n249/mode/1up)
+- Row `452`; L2; p=`blank`; c=1: [Invisible Trade](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n249/mode/1up)
+- Row `453`; L2; p=`blank`; c=1: [Balance of International Payments](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n249/mode/1up)
+- Row `454`; L2; p=`blank`; c=1: [Commerce by Ports](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n249/mode/1up)
+- Row `455`; L2; p=`blank`; c=1: [Entrance of Steamers by Flags](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n249/mode/1up)
+- Row `456`; L2; p=`blank`; c=1: [World Foreign Trade Classified by Leading Countries](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n249/mode/1up)
+- Row `457`; L2; p=`blank`; c=1: [Import Tariff](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n249/mode/1up)
+- Row `458`; L2; p=`blank`; c=1: [Recent Trade Agreements](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n249/mode/1up)
+- Row `459`; L1; p=`487`: [XXXIX. SIX PREMIER CITIES](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n267/mode/1up)
+  - `IMG_5082_1`: 1. Population of All the Cities in Japan Proper
+  - `IMG_5083_1`: 2. Revenue and Expenditure of All the Cities in Japan
+  - `IMG_5083_2`: 3. Movement of Municipal Loans in 1938
+  - `IMG_5083_3`: 4. Statistics of Municipal Tram and Bus
+  - `IMG_5083_4`: 5. Statistics of City-water
+  - `IMG_5083_5`: 6. No. of Hospitals, Physicians, etc.
+  - `IMG_5083_6`: 7. No. of Municipal Primary Schools
+  - `IMG_5083_7`: 7-B. Social Work Expenditure of 6 Premier Cities
+  - `IMG_5084_1`: 8. Area and Population of Tokyo Classified by Ward
+  - `IMG_5085_1`: 9. Area and Population of Osaka Classified by Ward
+  - `IMG_5086_1`: 10. Area and Population of Kyoto Classified by Ward
+  - `IMG_5086_2`: 11. Area and Population of Yokohama Classified by Ward
+  - `IMG_5086_3`: 12. Area and Population of Kobe Classified by Ward
+  - `IMG_5086_4`: 13. Area and Population of Nagoya Classified by Ward
+  - `IMG_5086_5`: 14. Foreign Trade by Principal Cities
+- Row `460`; L2; p=`blank`; c=1: [City Planning Law](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n267/mode/1up)
+- Row `461`; L2; p=`blank`; c=1: [Population of All Cities](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n267/mode/1up)
+- Row `462`; L2; p=`blank`; c=1: [Revenue & Expenditure of Cities](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n267/mode/1up)
+- Row `463`; L2; p=`blank`; c=1: [Social Works](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n267/mode/1up)
+- Row `464`; L2; p=`blank`; c=1: [Tokyo](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n267/mode/1up)
+- Row `465`; L2; p=`blank`; c=1: [Osaka](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n267/mode/1up)
+- Row `466`; L2; p=`blank`; c=1: [Kyoto](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n267/mode/1up)
+- Row `467`; L2; p=`blank`; c=1: [Yokohama](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n267/mode/1up)
+- Row `468`; L2; p=`blank`; c=1: [Kobe](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n267/mode/1up)
+- Row `469`; L2; p=`blank`; c=1: [Nagoya](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n267/mode/1up)
+- Row `470`; L1; p=`497`: [XL. SPORTS](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n272/mode/1up)
+  - `IMG_5087_1`: 1. Results of the All-Japan Aquatic Meet
+  - `IMG_5087_2`: 2. Japan's Best Five in 1940 Contest
+  - `IMG_5088_1`: 3. Japanese Swimming Records Compared with World Records
+  - `IMG_5089_1`: 4. Holders of All-Japan Open Golf Championship
+  - `IMG_5089_2`: 5. Holders of All-Japan Amateur Golf Championship
+  - `IMG_5089_3`: 6. Holders of All-Japan Professional Golf Championship
+  - `IMG_5089_4`: 7. Leading Golf Links
+  - `IMG_5090_1`: 8. Holders of the Inter-College Basketball Championship
+  - `IMG_5090_2`: 9. Japanese Track and Field Records Compared with World Records
+  - `IMG_5090_3`: 10. Holders of All-Japan Soccer Championship
+  - `IMG_5091_1`: 11. Rugby Results
+  - `IMG_5091_2`: 12. All-Japan Hockey Championship
+  - `IMG_5091_3`: 13. Japan's Performance in the Davis Cup Tournaments
+  - `IMG_5092_1`: 14. Japanese Highest Skating Records Compared with World Records
+  - `IMG_5092_2`: 15. Highest Japanese Record
+  - `IMG_5092_3`: 16. Horse Race Clubs
+  - `IMG_5092_4`: 17. Peaks
+  - `IMG_5093_1`: 18. List of Game Birds & Beasts in Japan
+- Row `471`; L2; p=`blank`; c=1: [Swimming](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n272/mode/1up)
+- Row `472`; L2; p=`blank`; c=1: [Baseball](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n272/mode/1up)
+- Row `473`; L2; p=`blank`; c=1: [Golf](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n272/mode/1up)
+- Row `474`; L2; p=`blank`; c=1: [Boxing](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n272/mode/1up)
+- Row `475`; L2; p=`blank`; c=1: [Basketball](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n272/mode/1up)
+- Row `476`; L2; p=`blank`; c=1: [Track and Field Athletics](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n272/mode/1up)
+- Row `477`; L2; p=`blank`; c=1: [Volley-ball](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n272/mode/1up)
+- Row `478`; L2; p=`blank`; c=1: [Soccer and Rugby](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n272/mode/1up)
+- Row `479`; L2; p=`blank`; c=1: [Hockey and Cricket](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n272/mode/1up)
+- Row `480`; L2; p=`blank`; c=1: [Lawn Tennis](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n272/mode/1up)
+- Row `481`; L2; p=`blank`; c=1: [Rowing](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n272/mode/1up)
+- Row `482`; L2; p=`blank`; c=1: [Wrestling](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n272/mode/1up)
+- Row `483`; L2; p=`blank`; c=1: [Skating and Skiing](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n272/mode/1up)
+- Row `484`; L2; p=`blank`; c=1: [Horse Riding and Races](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n272/mode/1up)
+- Row `485`; L2; p=`blank`; c=1: [Mountaineering](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n272/mode/1up)
+- Row `486`; L2; p=`blank`; c=1: [National Parks](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n272/mode/1up)
+- Row `487`; L2; p=`blank`; c=1: [Game Law](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n272/mode/1up)
+- Row `488`; L2; p=`blank`; c=1: [List of Game Birds & Beasts](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n272/mode/1up)
+- Row `489`; L1; p=`510`: [XLI. CHOSEN (Korea)](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n279/mode/1up)
+  - `IMG_5094_1`: 1. Weather Condition (Average for 1906–1938)
+  - `IMG_5094_2`: 2. Area & Population of Chosen
+  - `IMG_5094_3`: 3. Population by Occupation
+  - `IMG_5094_4`: 4. Movement of Population per 1,000 Inhabitants
+  - `IMG_5094_5`: 5. Population in Principal Cities
+  - `IMG_5095_1`: 6. Provinces and Seats of Government
+  - `IMG_5095_2`: 7. Revenue & Expenditure
+  - `IMG_5095_3`: 8. Government Loans Outstanding
+  - `IMG_5095_4`: 9. Statistics on Schools
+  - `IMG_5096_1`: 10. State of Religious Propagation
+  - `IMG_5096_2`: 11. Number of Hospitals Physicians, etc. in Chosen
+  - `IMG_5096_3`: 12. Number of Convicts and Accused
+  - `IMG_5097_1`: 13. Principal Accounts of Bank of Chosen
+  - `IMG_5097_2`: 14. Principal Accounts of Ordinary Banks in Chosen
+  - `IMG_5097_3`: 15. Chosen's Foreign Trade
+  - `IMG_5097_4`: 16. Imports and Exports of Gold Specie and Bullion
+  - `IMG_5098_1`: 17. Staple Exports
+  - `IMG_5098_2`: 18. Staple Imports
+  - `IMG_5098_3`: 19. Imports and Exports By Countries
+  - `IMG_5099_1`: 20. Entrance of Ships in Chosen Ports
+  - `IMG_5099_2`: 21. Statistics on Salt
+  - `IMG_5099_3`: 22. Area Under Tobacco and Production
+  - `IMG_5099_4`: 23. Industrial Production in Chosen
+  - `IMG_5100_1`: 24. Farming Households and Arable Lands Under Cultivation
+  - `IMG_5100_2`: 25. Demand and Supply of Rice
+  - `IMG_5100_3`: 26. Output of Staple Crops
+  - `IMG_5100_4`: 27. Other Minor Crops
+  - `IMG_5100_5`: 28. Principal Industrial Crops
+  - `IMG_5100_6`: 29. Statistics of Cocooning
+  - `IMG_5100_7`: 30. Number of Cattle, Horses, etc.
+  - `IMG_5101_1`: 31. Statistics of Fishery in Chosen
+  - `IMG_5101_2`: 32. Number of Mining Lots and Mine Output
+  - `IMG_5101_3`: 33. Output Value and Volume of Principal Minerals
+  - `IMG_5102_1`: 34. Area of Forests by Localities
+  - `IMG_5102_2`: 35. Area of Forest by Ownership
+  - `IMG_5102_3`: 36. Forestry Products
+  - `IMG_5102_4`: 37. Yearly Comparison of Value of Manufacturing Industry
+  - `IMG_5102_5`: 38. Value of Production in the Manufacturing Industries
+  - `IMG_5103_1`: 39. Number of Companies in Chosen by Business
+  - `IMG_5103_2`: 40. Principal Railways in Chosen
+  - `IMG_5104_1`: 41. Results of State Railways
+  - `IMG_5104_2`: 42. Statistics of Communications
+- Row `490`; L2; p=`blank`; c=1: [Geography](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n279/mode/1up)
+- Row `491`; L2; p=`blank`; c=1: [Population](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n279/mode/1up)
+- Row `492`; L2; p=`blank`; c=1: [Administration](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n279/mode/1up)
+- Row `493`; L2; p=`blank`; c=1: [Finance](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n279/mode/1up)
+- Row `494`; L2; p=`blank`; c=1: [Education & Religion](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n279/mode/1up)
+- Row `495`; L2; p=`blank`; c=1: [Sanitation](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n279/mode/1up)
+- Row `496`; L2; p=`blank`; c=1: [Garrison and Police](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n279/mode/1up)
+- Row `497`; L2; p=`blank`; c=1: [Public Works](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n279/mode/1up)
+- Row `498`; L2; p=`blank`; c=1: [Banking and Other Financing Organizations](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n279/mode/1up)
+- Row `499`; L2; p=`blank`; c=1: [Foreign Trade](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n279/mode/1up)
+- Row `500`; L2; p=`blank`; c=1: [Monopoly](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n279/mode/1up)
+- Row `501`; L2; p=`blank`; c=1: [Entrance of Ships](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n279/mode/1up)
+- Row `502`; L2; p=`blank`; c=1: [Salt](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n279/mode/1up)
+- Row `503`; L2; p=`blank`; c=1: [Tobacco](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n279/mode/1up)
+- Row `504`; L2; p=`blank`; c=1: [Value of Industrial Output](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n279/mode/1up)
+- Row `505`; L2; p=`blank`; c=1: [Agriculture](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n279/mode/1up)
+- Row `506`; L2; p=`blank`; c=1: [Sericulture](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n279/mode/1up)
+- Row `507`; L2; p=`blank`; c=1: [Fisheries](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n279/mode/1up)
+- Row `508`; L2; p=`blank`; c=1: [Mining](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n279/mode/1up)
+- Row `509`; L2; p=`blank`; c=1: [Principal Mineral Output](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n279/mode/1up)
+- Row `510`; L2; p=`blank`; c=1: [Forestry](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n279/mode/1up)
+- Row `511`; L2; p=`blank`; c=1: [Manufacturing Industries](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n279/mode/1up)
+- Row `512`; L2; p=`blank`; c=1: [Trade](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n279/mode/1up)
+- Row `513`; L2; p=`blank`; c=1: [Railways](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n279/mode/1up)
+- Row `514`; L1; p=`533`: [XLII. TAIWAN (Formosa)](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n290/mode/1up)
+  - `IMG_5105_1`: 44. Results of Oriental Development Company
+  - `IMG_5105_2`: 45. Various Loans Outstanding by the Oriental Development Company Classified by Purposes
+  - `IMG_5105_3`: 46. Work of Oriental Development Co.
+  - `IMG_5105_4`: 1. Average Temperature
+  - `IMG_5105_5`: 2. Census Population by Sex
+  - `IMG_5106_1`: 3. Census Population in Principal Cities in 1935
+  - `IMG_5106_2`: 4. Population Classified by Nationality
+  - `IMG_5106_3`: 5. Movement of Population per 1,000 Inhabitants
+  - `IMG_5106_4`: 6. Revenue and Expenditure
+  - `IMG_5106_5`: 7. Summary of Revenue & Expenditure
+  - `IMG_5107_1`: 8. Statistics on Educational Institutions
+  - `IMG_5107_2`: 9. Number of Hospitals, Physicians, etc. in Taiwan
+  - `IMG_5107_3`: 10. Statistics of Law Courts
+  - `IMG_5107_4`: 11. Industrial Production in Taiwan
+  - `IMG_5107_5`: 12-A. Output Value of Manufacturing Industries Classified
+  - `IMG_5108_1`: 12-B. Output of Manufacturing Industrial Products
+  - `IMG_5108_2`: 13. Area of Forests by Ownership
+  - `IMG_5108_3`: 14. Forestry Output
+  - `IMG_5109_1`: 15. Aquatic Catches Classified in Taiwan
+  - `IMG_5109_2`: 16. Marine Manufactures Classified
+  - `IMG_5109_3`: 17. Principal Mineral Output
+  - `IMG_5109_4`: 18. Area Under Cultivation
+  - `IMG_5110_1`: 19. Demand & Supply of Rice
+  - `IMG_5110_2`: 20. Production of Minor Crops
+  - `IMG_5110_3`: 21. Production of Fruits
+  - `IMG_5110_4`: 22. Area and Output of Sugar Cane
+  - `IMG_5110_5`: 23. Demand and Supply of Sugar
+  - `IMG_5110_6`: 24. Area Under and Output of Coarse Tea
+  - `IMG_5111_1`: 25. Production of Refined Tea
+  - `IMG_5111_2`: 26. Statistics of Stock-breeding & Poultry
+  - `IMG_5111_3`: 27. Slaughter House Returns
+  - `IMG_5111_4`: 28. Output of Opium
+  - `IMG_5111_5`: 29. Statistics of Opium
+  - `IMG_5111_6`: 30. No. of Licensed Opium-smokers
+  - `IMG_5111_7`: 31. Statistics of Salt Industry
+  - `IMG_5112_1`: 32. Statistics of Tobacco Monopoly
+  - `IMG_5112_2`: 33. Demand & Supply of Alcoholic Liquor
+  - `IMG_5112_3`: 34. Foreign Trade of Taiwan
+  - `IMG_5112_4`: 35. Principal Exports of Taiwan
+  - `IMG_5113_1`: 36. Principal Imports of Taiwan
+  - `IMG_5113_2`: 37. Foreign Trade Classified By Countries
+  - `IMG_5113_3`: 38. Statistics of Roads and Bridges in Taiwan
+  - `IMG_5114_1`: 39. Statistics on Mails and Parcels
+  - `IMG_5114_2`: 40. Results of Railways
+  - `IMG_5115_1`: 41. Important Goods Hauled by the Government Railways
+  - `IMG_5115_2`: 42. Capitalization of Companies Classified by Industry
+  - `IMG_5115_3`: 43. Affiliated Cos. of the Taiwan Development Co.
+- Row `515`; L2; p=`blank`; c=1: [Geography](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n290/mode/1up)
+- Row `516`; L2; p=`blank`; c=1: [Population](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n290/mode/1up)
+- Row `517`; L2; p=`blank`; c=1: [Administration](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n290/mode/1up)
+- Row `518`; L2; p=`blank`; c=1: [Finance](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n290/mode/1up)
+- Row `519`; L2; p=`blank`; c=1: [Education](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n290/mode/1up)
+- Row `520`; L2; p=`blank`; c=1: [Justice and Prisons](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n290/mode/1up)
+- Row `521`; L2; p=`blank`; c=1: [Manufacturing Industries](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n290/mode/1up)
+- Row `522`; L2; p=`blank`; c=1: [Forestry](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n290/mode/1up)
+- Row `523`; L2; p=`blank`; c=1: [Fishery and Marine Products](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n290/mode/1up)
+- Row `524`; L2; p=`blank`; c=1: [Mining](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n290/mode/1up)
+- Row `525`; L2; p=`blank`; c=1: [Agriculture](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n290/mode/1up)
+- Row `526`; L2; p=`blank`; c=1: [Fruits](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n290/mode/1up)
+- Row `527`; L2; p=`blank`; c=1: [Sugar Industry](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n290/mode/1up)
+- Row `528`; L2; p=`blank`; c=1: [Tea](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n290/mode/1up)
+- Row `529`; L2; p=`blank`; c=1: [Stock Farming](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n290/mode/1up)
+- Row `530`; L2; p=`blank`; c=1: [Monopoly](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n290/mode/1up)
+- Row `531`; L2; p=`blank`; c=1: [Salt Industry](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n290/mode/1up)
+- Row `532`; L2; p=`blank`; c=1: [Camphor](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n290/mode/1up)
+- Row `533`; L2; p=`blank`; c=1: [Tobacco](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n290/mode/1up)
+- Row `534`; L2; p=`blank`; c=1: [Foreign Trade](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n290/mode/1up)
+- Row `535`; L2; p=`blank`; c=1: [Public Works](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n290/mode/1up)
+- Row `536`; L2; p=`blank`; c=1: [Communications](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n290/mode/1up)
+- Row `537`; L2; p=`blank`; c=1: [Railways](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n290/mode/1up)
+- Row `538`; L2; p=`blank`; c=1: [Banking](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n290/mode/1up)
+- Row `539`; L1; p=`555`: [XLIII. KARAFUTO (Southern or Japanese Saghalien)](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n301/mode/1up)
+  - `IMG_5116_1`: 1. Area of Karafuto by Districts
+  - `IMG_5116_2`: 2. Climate
+  - `IMG_5116_3`: 3. Population by Sex and Nationality
+  - `IMG_5116_4`: 4. Population and Households in Principal Towns
+  - `IMG_5117_1`: 5. Population Classified by Occupation
+  - `IMG_5117_2`: 6. Movement of Population per 1,000 Inhabitants
+  - `IMG_5117_3`: 7. Census Population
+  - `IMG_5117_4`: 8. Revenue and Expenditure
+  - `IMG_5117_5`: 9. Budget for 1939-40 & 1940-41
+  - `IMG_5117_6`: 10. Statistics of Banks
+  - `IMG_5117_7`: 11. Number of Hospitals, Physicians, etc. in Karafuto
+  - `IMG_5118_1`: 12. Number of Schools, Teachers and Pupils
+  - `IMG_5118_2`: 13. Statistics of Religions
+  - `IMG_5118_3`: 14. Peasant Settlers in Recent Years
+  - `IMG_5118_4`: 15. Farming Population, Area and Output
+  - `IMG_5118_5`: 16. Principal Agricultural Crops
+  - `IMG_5118_6`: 17. Statistics of General Situation in Fishery
+  - `IMG_5118_7`: 18. Principal Fishery Catches Classified
+  - `IMG_5118_8`: 19. Output of Marine Products
+  - `IMG_5119_1`: 20. Forestry Products
+  - `IMG_5119_2`: 21. Output of Pulp and Paper
+  - `IMG_5119_3`: 22. Demand and Supply of Oil
+  - `IMG_5119_4`: 23. Coal Mining in Karafuto
+  - `IMG_5119_5`: 24. Statistics on Railways
+  - `IMG_5120_1`: 25. Number of Companies By Industries
+  - `IMG_5120_2`: 26. Total Production in Karafuto Classified by Industries
+- Row `540`; L2; p=`blank`; c=1: [Geography](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n301/mode/1up)
+- Row `541`; L2; p=`blank`; c=1: [Climate](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n301/mode/1up)
+- Row `542`; L2; p=`blank`; c=1: [Population](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n301/mode/1up)
+- Row `543`; L2; p=`blank`; c=1: [Finance](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n301/mode/1up)
+- Row `544`; L2; p=`blank`; c=1: [Banking](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n301/mode/1up)
+- Row `545`; L2; p=`blank`; c=1: [Sanitation, Religion, Education](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n301/mode/1up)
+- Row `546`; L2; p=`blank`; c=1: [Agriculture](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n301/mode/1up)
+- Row `547`; L2; p=`blank`; c=1: [Immigration](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n301/mode/1up)
+- Row `548`; L2; p=`blank`; c=1: [Fishery](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n301/mode/1up)
+- Row `549`; L2; p=`blank`; c=1: [Forestry](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n301/mode/1up)
+- Row `550`; L2; p=`blank`; c=1: [Mining](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n301/mode/1up)
+- Row `551`; L2; p=`blank`; c=1: [Railways](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n301/mode/1up)
+- Row `552`; L2; p=`blank`; c=1: [Industrial Output](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n301/mode/1up)
+- Row `553`; L1; p=`564`: [XLIV. NANYO (The South Sea Mandated Islands)](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n306/mode/1up)
+  - `IMG_5121_1`: 1. Islands By Jurisdiction of Branch Bureau of South Seas Office
+  - `IMG_5121_2`: 2. Principal Islands and Their Area
+  - `IMG_5122_1`: 3. Names, Sites and Sphere of Jurisdiction of Branch Bureau
+  - `IMG_5123_1`: 4. Inhabitants Classified By Islands
+  - `IMG_5123_2`: 5. Movement of Population
+  - `IMG_5123_3`: 6. Revenue and Expenditure
+  - `IMG_5124_1`: 7. Summary of Revenue and Expenditure
+  - `IMG_5124_2`: 8. Statistics of Religious Parties
+  - `IMG_5124_3`: 9. Primary Schools
+  - `IMG_5125_1`: 10. Number of Police Offices and of Police Officers
+  - `IMG_5125_2`: 11. Number of Hospitals, Physicians, etc.
+  - `IMG_5125_3`: 12. Number of Farming Population and Area Under Cultivation
+  - `IMG_5125_4`: 13. Principal Agricultural Production
+  - `IMG_5125_5`: 14. Output of Fruits
+  - `IMG_5126_1`: 15. Output of Special Crops
+  - `IMG_5126_2`: 16. Production of Timber, Fagots and Charcoal
+  - `IMG_5126_3`: 17. Output of Coco-nuts & Copra
+  - `IMG_5126_4`: 18. Statistics on Fishery
+  - `IMG_5126_5`: 19. Fishery Catch and Products Classified
+  - `IMG_5126_6`: 20. No. of Companies
+  - `IMG_5127_1`: 21. Industrial Production
+  - `IMG_5127_2`: 22. Principal Manufactured Goods
+  - `IMG_5127_3`: 23. Production of Refined Phosphate
+  - `IMG_5127_4`: 24. Imports and Exports
+  - `IMG_5127_5`: 25. Staple Exports (Inclusive of Exports to Other Parts of the Japanese Empire)
+  - `IMG_5127_6`: 26. Staple Imports (Inclusive of Imports from Other Parts of the Japanese Empire)
+  - `IMG_5128_1`: 27. No. of Mail & Telegrams, etc.
+  - `IMG_5128_2`: 28. Postal Money Orders and Postal Savings
+  - `IMG_5128_3`: 29. Affiliated Companies of the Nanyo Takushoku K.K.
+- Row `554`; L2; p=`blank`; c=1: [Geography](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n306/mode/1up)
+- Row `555`; L2; p=`blank`; c=1: [Climate](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n306/mode/1up)
+- Row `556`; L2; p=`blank`; c=1: [Race, Language, Manners and Customs](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n306/mode/1up)
+- Row `557`; L2; p=`blank`; c=1: [Administration](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n306/mode/1up)
+- Row `558`; L2; p=`blank`; c=1: [Population](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n306/mode/1up)
+- Row `559`; L2; p=`blank`; c=1: [Finance](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n306/mode/1up)
+- Row `560`; L2; p=`blank`; c=1: [Justice and Police](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n306/mode/1up)
+- Row `561`; L2; p=`blank`; c=1: [Education](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n306/mode/1up)
+- Row `562`; L2; p=`blank`; c=1: [Religion](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n306/mode/1up)
+- Row `563`; L2; p=`blank`; c=1: [Police](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n306/mode/1up)
+- Row `564`; L2; p=`blank`; c=1: [Agriculture](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n306/mode/1up)
+- Row `565`; L2; p=`blank`; c=1: [Sanitation](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n306/mode/1up)
+- Row `566`; L2; p=`blank`; c=1: [Forestry](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n306/mode/1up)
+- Row `567`; L2; p=`blank`; c=1: [Fisheries](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n306/mode/1up)
+- Row `568`; L2; p=`blank`; c=1: [Commerce and Industry](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n306/mode/1up)
+- Row `569`; L2; p=`blank`; c=1: [Mining](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n306/mode/1up)
+- Row `570`; L2; p=`blank`; c=1: [Foreign Trade](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n306/mode/1up)
+- Row `571`; L2; p=`blank`; c=1: [Communications](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n306/mode/1up)
+- Row `572`; L2; p=`blank`; c=1: [Railways](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n306/mode/1up)
+### MANCHOUKUO SECTION
+
+- Row `573`; L0; p=`blank`: MANCHOUKUO SECTION (URL missing)
+- Row `574`; L1; p=`581`: [I. GEOGRAPHY & GEOLOGY](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n314/mode/1up)
+  - `IMG_5129_1`: Weights, Measures and Moneys (Manchoukuo)
+  - `IMG_5131_1`: International Time Chart
+  - `IMG_5132_1`: 1. Area of Manchoukuo
+  - `IMG_5132_2`: 2. Principal Mountain Systems in Manchoukuo
+  - `IMG_5134_1`: 3. Principal River Systems
+  - `IMG_5135_1`: 4. Principal Lakes
+  - `IMG_5135_2`: 5. Geologic Formation of Manchuria
+  - `IMG_5136_1`: 6. Geologic Formation of Mongolia
+  - `IMG_5137_1`: 7. Mean Temperature in Manchoukuo
+  - `IMG_5137_2`: 8. Precipitation, Snow, Frost
+  - `IMG_5137_3`: 9. Sunrise and Sunset
+  - `IMG_5137_4`: 10. Vertical Radiant Heat
+  - `IMG_5138_1`: 11. Direction of the Wind
+- Row `575`; L2; p=`blank`; c=1: [Physiographic Division](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n314/mode/1up)
+- Row `576`; L2; p=`blank`; c=1: [Area](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n314/mode/1up)
+- Row `577`; L2; p=`blank`; c=1: [Mountains](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n314/mode/1up)
+- Row `578`; L2; p=`blank`; c=1: [Volcanoes](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n314/mode/1up)
+- Row `579`; L2; p=`blank`; c=1: [Rivers](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n314/mode/1up)
+- Row `580`; L2; p=`blank`; c=1: [Lakes](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n314/mode/1up)
+- Row `581`; L2; p=`blank`; c=1: [Coastline](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n314/mode/1up)
+- Row `582`; L2; p=`blank`; c=1: [Harbours](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n314/mode/1up)
+- Row `583`; L2; p=`blank`; c=1: [Geology](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n314/mode/1up)
+- Row `584`; L2; p=`blank`; c=1: [Climate](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n314/mode/1up)
+- Row `585`; L2; p=`blank`; c=1: [Flora and Fauna](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n314/mode/1up)
+- Row `586`; L1; p=`599`: [II. OUTLINE OF HISTORY](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n11/mode/1up)
+- Row `587`; L2; p=`blank`; c=1: [Ancient Times](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n11/mode/1up)
+- Row `588`; L2; p=`blank`; c=1: [Aboriginal Tribes](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n11/mode/1up)
+- Row `589`; L2; p=`blank`; c=1: [Mongols](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n11/mode/1up)
+- Row `590`; L2; p=`blank`; c=1: [Manchuria under Manchou Rule](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n11/mode/1up)
+- Row `591`; L2; p=`blank`; c=1: [Modern Times](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n11/mode/1up)
+- Row `592`; L2; p=`blank`; c=1: [Independence of Three Eastern Provinces](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n11/mode/1up)
+- Row `593`; L2; p=`blank`; c=1: [Founding of Manchoukuo](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n11/mode/1up)
+- Row `594`; L2; p=`blank`; c=1: [Japan-Manchoukuo Protocol](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n11/mode/1up)
+- Row `595`; L2; p=`blank`; c=1: [Birth of Imperial Regime](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n11/mode/1up)
+- Row `596`; L2; p=`blank`; c=1: [Chronology of Important Events](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n11/mode/1up)
+- Row `597`; L1; p=`610`: [III. POPULATION](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n17/mode/1up)
+  - `IMG_5146_1`: 1. Yearly Comparison of Population
+  - `IMG_5146_2`: 2. Census Population by Province
+  - `IMG_5146_3`: 3. City Population
+  - `IMG_5146_4`: 4. Manchoukuoans Classified by Races
+  - `IMG_5146_5`: 5. Population by Age in Manchoukuo
+- Row `598`; L2; p=`blank`; c=1: [Yearly Comparison of Population](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n17/mode/1up)
+- Row `599`; L2; p=`blank`; c=1: [Population by Provinces, Cities, Races](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n17/mode/1up)
+- Row `600`; L2; p=`blank`; c=1: [Population by Age Groups](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n17/mode/1up)
+- Row `601`; L2; p=`blank`; c=1: [Population by Occupation](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n17/mode/1up)
+- Row `602`; L2; p=`blank`; c=1: [Foreign Population](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n17/mode/1up)
+- Row `603`; L1; p=`613`: [IV. COLONIZATION](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n18/mode/1up)
+  - `IMG_5147_1`: 6. Population Classified by Occupations
+  - `IMG_5147_2`: 7. Population by Races in Manchoukuo
+  - `IMG_5147_3`: 1. Movement of Chinese Laborers
+  - `IMG_5148_1`: 2. Japanese Immigrant Groups Settled in Manchoukuo
+  - `IMG_5148_2`: [Income of Japanese settlers — fragment]
+  - `IMG_5148_3`: 3. Per Household Government Subsidy
+  - `IMG_5148_4`: 4. Economic Condition of Japanese Settlers
+  - `IMG_5148_5`: 5. Area Under Crops in Japanese Group Settlements
+  - `IMG_5148_6`: 6. Number of Livestocks Possessed
+  - `IMG_5148_7`: 7. Other Japanese Settlers
+  - `IMG_5148_8`: 8. Twenty Year Plan for Implanting 1,000,000, Japanese Families (5,000,000 Persons) in Ma…
+  - `IMG_5149_1`: 9. No. of Chosenese Group Settlers
+  - `IMG_5149_2`: 10. Voluntary Youth Immigrants Training Station
+- Row `604`; L2; p=`blank`; c=1: [Movement of Chinese Laborers](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n18/mode/1up)
+- Row `605`; L2; p=`blank`; c=1: [Japanese Settlers](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n18/mode/1up)
+- Row `606`; L2; p=`blank`; c=1: [Twenty Year Immigration Plan](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n18/mode/1up)
+- Row `607`; L2; p=`blank`; c=1: [Reorganization of Manchuria Colonial Development Company](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n18/mode/1up)
+- Row `608`; L1; p=`619`: [V. ADMINISTRATIVE SYSTEM](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n22/mode/1up)
+  - `IMG_5153_1`: Allowance to Officials
+  - `IMG_5153_2`: Grants to Officials
+  - `IMG_5153_3`: Order & Salary of Officials
+  - `IMG_5153_4`: [Number of officials by rank]
+  - `IMG_5154_1`: [Industries designated as "important industries" by the Law Controlling Important Industr…
+  - `IMG_5155_1`: Occupants of Leading Manchoukuo Government Posts
+- Row `609`; L2; p=`blank`; c=1: [Central Government](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n22/mode/1up)
+- Row `610`; L2; p=`blank`; c=1: [The Emperor](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n22/mode/1up)
+- Row `611`; L2; p=`blank`; c=1: [Legislative Council](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n22/mode/1up)
+- Row `612`; L2; p=`blank`; c=1: [State Council](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n22/mode/1up)
+- Row `613`; L2; p=`blank`; c=1: [Local Administrative Units](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n22/mode/1up)
+- Row `614`; L2; p=`blank`; c=1: [Special Municipality](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n22/mode/1up)
+- Row `615`; L2; p=`blank`; c=1: [The Hsien](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n22/mode/1up)
+- Row `616`; L2; p=`blank`; c=1: [Banner](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n22/mode/1up)
+- Row `617`; L2; p=`blank`; c=1: [Concordia Association](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n22/mode/1up)
+- Row `618`; L2; p=`blank`; c=1: [Occupants of Leading Manchoukuo Government Post](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n22/mode/1up)
+- Row `619`; L1; p=`631`: [VI. JUDICATURE](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n27/mode/1up)
+  - `IMG_5157_1`: 1. Number of Judicial Courts and High Procurators' Offices
+  - `IMG_5158_1`: [Police Boards and districts under jurisdiction]
+  - `IMG_5158_2`: 2. Water Police Bureaus
+  - `IMG_5158_3`: 3. Number of Police Stations and Officers
+  - `IMG_5159_1`: 4. Number of Judicial Officers Despatched to Japan for Study
+  - `IMG_5159_2`: 5. Number of Japanese Officers Classified by Judicial Institutes in Manchoukuo
+  - `IMG_5159_3`: 6. Statistics of Prison Inmates in 1935
+  - `IMG_5159_4`: 7. Prison Inmates Classified
+- Row `620`; L2; p=`blank`; c=1: [Courts and Jurisdiction](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n27/mode/1up)
+- Row `621`; L2; p=`blank`; c=1: [Trial System in Mongolia](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n27/mode/1up)
+- Row `622`; L2; p=`blank`; c=1: [Number of Courts](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n27/mode/1up)
+- Row `623`; L2; p=`blank`; c=1: [Conciliation Act](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n27/mode/1up)
+- Row `624`; L2; p=`blank`; c=1: [Police System](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n27/mode/1up)
+- Row `625`; L2; p=`blank`; c=1: [Police Boards](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n27/mode/1up)
+- Row `626`; L2; p=`blank`; c=1: [Consular Jurisdiction](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n27/mode/1up)
+- Row `627`; L2; p=`blank`; c=1: [Finger-print Supervision Bureaus](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n27/mode/1up)
+- Row `628`; L1; p=`639`: [VII. DIPLOMACY](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n31/mode/1up)
+  - `IMG_5160_1`: [De jure recognition of Manchoukuo by foreign countries]
+  - `IMG_5161_1`: Foreign Diplomatic and Consular Officials in Manchoukuo
+- Row `629`; L2; p=`blank`; c=1: [Recognition by Foreign Countries](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n31/mode/1up)
+- Row `630`; L2; p=`blank`; c=1: [Relations with China](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n31/mode/1up)
+- Row `631`; L2; p=`blank`; c=1: [Manchoukuo and the Tripartite Pact](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n31/mode/1up)
+- Row `632`; L2; p=`blank`; c=1: [Anti-Comintern Pact](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n31/mode/1up)
+- Row `633`; L2; p=`blank`; c=1: [Boarder Transgressions](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n31/mode/1up)
+- Row `634`; L2; p=`blank`; c=1: [Extraterritoriality](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n31/mode/1up)
+- Row `635`; L2; p=`blank`; c=1: [Foreign Diplomatic and Consular Officials in Manchoukuo](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n31/mode/1up)
+- Row `636`; L1; p=`643`: [VIII. NATIONAL DEFENCE](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n33/mode/1up)
+  - `IMG_5163_1`: 1. Location of Army Headquarters
+  - `IMG_5163_2`: 2. Military Educational Organs
+  - `IMG_5163_3`: 3. Term of Posts
+  - `IMG_5165_1`: 4. National Defense Appropriations to Japanese Army and Navy
+  - `IMG_5165_2`: 5. Manchuria Incident Expenses of the Army and Navy of Japan
+  - `IMG_5165_3`: 6. Results of Bandit Suppression
+  - `IMG_5165_4`: 7. Suppression of River Bandits
+  - `IMG_5165_5`: 8. Railway Damages from Bandits
+- Row `637`; L2; p=`blank`; c=1: [Army Organization](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n33/mode/1up)
+- Row `638`; L2; p=`blank`; c=1: [Composition of the Army](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n33/mode/1up)
+- Row `639`; L2; p=`blank`; c=1: [Location of Army Headquarters](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n33/mode/1up)
+- Row `640`; L2; p=`blank`; c=1: [Military Educational Organs](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n33/mode/1up)
+- Row `641`; L2; p=`blank`; c=1: [Terms of Post](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n33/mode/1up)
+- Row `642`; L2; p=`blank`; c=1: [New National Army Law](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n33/mode/1up)
+- Row `643`; L2; p=`blank`; c=1: [Manchuria Incident Expenses](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n33/mode/1up)
+- Row `644`; L2; p=`blank`; c=1: [Bandit Suppression](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n33/mode/1up)
+- Row `645`; L2; p=`blank`; c=1: [National Mobilization Law](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n33/mode/1up)
+- Row `646`; L2; p=`blank`; c=1: [National Defence Act](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n33/mode/1up)
+- Row `647`; L1; p=`652`: [IX. FOREIGN TRADE](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n38/mode/1up)
+  - `IMG_5167_1`: 1. Foreign Trade of Manchoukuo
+  - `IMG_5167_2`: 2. Value Percentage of Exports & Imports of Merchandise By Countries and by Categories
+  - `IMG_5168_1`: 3. Manchoukuo's Foreign Trade Classified by Principal Countries
+  - `IMG_5168_2`: 4. Volume of Principal Articles Exported & Imported
+  - `IMG_5169_1`: 5. Commerce By Principal Customs Districts
+  - `IMG_5169_2`: 6. Exports of Principal Commodities
+  - `IMG_5171_1`: 7. Imports of Principal Commodities
+  - `IMG_5173_1`: 8. International Balance of Payments
+  - `IMG_5174_1`: 9. Vessels Entered and Cleared By Flags
+- Row `648`; L2; p=`blank`; c=1: [General Survey](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n38/mode/1up)
+- Row `649`; L2; p=`blank`; c=1: [Value Percentages of Exports & Imports](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n38/mode/1up)
+- Row `650`; L2; p=`blank`; c=1: [Foreign Trade By Principal Countries](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n38/mode/1up)
+- Row `651`; L2; p=`blank`; c=1: [Commerce By Customs Districts](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n38/mode/1up)
+- Row `652`; L2; p=`blank`; c=1: [By Principal Commodities](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n38/mode/1up)
+- Row `653`; L2; p=`blank`; c=1: [Invisible Trade](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n38/mode/1up)
+- Row `654`; L2; p=`blank`; c=1: [Vessels Entered and Cleared](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n38/mode/1up)
+- Row `655`; L2; p=`blank`; c=1: [The New Customs Tariff](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n38/mode/1up)
+- Row `656`; L2; p=`blank`; c=1: [Foreign Trade Control Law](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n38/mode/1up)
+- Row `657`; L2; p=`blank`; c=1: [Manchoukuo-German Trade Agreement](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n38/mode/1up)
+- Row `658`; L1; p=`672`: [X. RAILWAY](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n47/mode/1up)
+  - `IMG_5176_1`: [Manchoukuo-German trade accounts under the trade agreements]
+  - `IMG_5177_1`: 1. General Statistics of Railways in Manchuria
+  - `IMG_5177_2`: 2. Railways Built Prior to Founding of Manchoukuo in 1932
+  - `IMG_5177_3`: 3. State Railways Built Since 1933
+  - `IMG_5178_1`: 4. South Manchuria Railway Lines
+  - `IMG_5181_1`: 5. Goods Hauled by Kinds
+  - `IMG_5181_2`: 6. Principal Commodities Hauled
+  - `IMG_5181_3`: [Estimated decrease in freight revenue from various products]
+- Row `659`; L2; p=`blank`; c=1: [Location of Railways](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n47/mode/1up)
+- Row `660`; L2; p=`blank`; c=1: [Railway Investment](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n47/mode/1up)
+- Row `661`; L2; p=`blank`; c=1: [Operation of Railway](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n47/mode/1up)
+- Row `662`; L2; p=`blank`; c=1: [New Railway Lines](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n47/mode/1up)
+- Row `663`; L2; p=`blank`; c=1: [Railways Built Since 1933](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n47/mode/1up)
+- Row `664`; L2; p=`blank`; c=1: [Railway Map](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n47/mode/1up)
+- Row `665`; L2; p=`blank`; c=1: [History](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n47/mode/1up)
+- Row `666`; L2; p=`blank`; c=1: [Freight Traffic](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n47/mode/1up)
+- Row `667`; L1; p=`680`: [XI. AGRICULTURE](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n53/mode/1up)
+  - `IMG_5182_1`: 1. Utilization of Land and Farming Population
+  - `IMG_5182_2`: 2. Farming Land and Population
+  - `IMG_5183_1`: 3. Imports of Agricultural Machineries, Implements, Tools, Etc.
+  - `IMG_5183_2`: 4. Area Under Various Crops
+  - `IMG_5184_1`: 5. Output of Principal Crops
+  - `IMG_5184_2`: 6. Principal Industrial Crops
+  - `IMG_5185_1`: 7. Twenty-Five-Year Expansion Plan for Wheat Production
+  - `IMG_5186_1`: 8. First Crop Forecast, 1940
+  - `IMG_5186_2`: 9. Number of Domestic Animals
+  - `IMG_5187_1`: 10. No. of Animals Slaughtered
+  - `IMG_5187_2`: 11. 30-Year Plan for Sheep's Wool Production in Manchoukuo and Kwantung Province
+  - `IMG_5188_1`: 12. Wool Yield By Breeds
+  - `IMG_5188_2`: 13. Legalized Area for Poppy Growing
+  - `IMG_5188_3`: 14. State Purchases and Sales of Opium
+  - `IMG_5188_4`: 15. Statistics on Granaries
+- Row `668`; L2; p=`blank`; c=1: [Lands Utilized Classified](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n53/mode/1up)
+- Row `669`; L2; p=`blank`; c=1: [Farming Land and Population](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n53/mode/1up)
+- Row `670`; L2; p=`blank`; c=1: [Agricultural Division](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n53/mode/1up)
+- Row `671`; L2; p=`blank`; c=1: [Methods of Farming](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n53/mode/1up)
+- Row `672`; L2; p=`blank`; c=1: [Area under Various Crops](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n53/mode/1up)
+- Row `673`; L2; p=`blank`; c=1: [Principal Crops](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n53/mode/1up)
+- Row `674`; L2; p=`blank`; c=1: [Industrial Crops](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n53/mode/1up)
+- Row `675`; L2; p=`blank`; c=1: [Agriculture](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n53/mode/1up)
+- Row `676`; L2; p=`blank`; c=1: [Vegetables](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n53/mode/1up)
+- Row `677`; L2; p=`blank`; c=1: [Stock Farming](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n53/mode/1up)
+- Row `678`; L2; p=`blank`; c=1: [30-year Wool Production Plan](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n53/mode/1up)
+- Row `679`; L2; p=`blank`; c=1: [Poppy Growing](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n53/mode/1up)
+- Row `680`; L2; p=`blank`; c=1: [Life of Manchoukuoan Farmers](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n53/mode/1up)
+- Row `681`; L1; p=`696`: [XII. FORESTRY](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n61/mode/1up)
+  - `IMG_5190_1`: 1. The Wealth of Forest By Provinces
+  - `IMG_5191_1`: 2. Export or Timber and Wood
+  - `IMG_5191_2`: 3. Import of Timber and Wood
+  - `IMG_5191_3`: 4. Demand and Supply of Timber
+  - `IMG_5191_4`: 5. Forestry Output By Districts and Kinds
+  - `IMG_5191_5`: 6. Outline of Lumber Producers' Guilds in Manchoukuo
+- Row `682`; L2; p=`blank`; c=1: [Distribution of Forest Zones](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n61/mode/1up)
+- Row `683`; L2; p=`blank`; c=1: [Wealth of Forest](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n61/mode/1up)
+- Row `684`; L2; p=`blank`; c=1: [Supply and Demand of Timber](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n61/mode/1up)
+- Row `685`; L2; p=`blank`; c=1: [Pulp Industry](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n61/mode/1up)
+- Row `686`; L1; p=`701`: [XIII. FISHERY](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n63/mode/1up)
+  - `IMG_5192_1`: 7. Pulp Companies in Manchoukuo and Kwantung
+  - `IMG_5192_2`: 8. Area of Forests in Kwantung By Ownership
+  - `IMG_5193_1`: 1. No. of Fishing Households and Population in Kwantung Province
+  - `IMG_5193_2`: 2. Fishery Catch Classified
+  - `IMG_5193_3`: 3. Exports & Imports of Marine Products
+  - `IMG_5193_4`: 4. No. of Fishing Crafts in Kwantung Province
+  - `IMG_5193_5`: 5. Marine Catches in Kwantung Province
+  - `IMG_5193_6`: 6. Amount and Value of Marine Manufactures in Kwantung Province
+- Row `687`; L2; p=`blank`; c=1: [General Remarks](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n63/mode/1up)
+- Row `688`; L2; p=`blank`; c=1: [Salt Water Fishing](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n63/mode/1up)
+- Row `689`; L2; p=`blank`; c=1: [Fresh Water Fishing](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n63/mode/1up)
+- Row `690`; L2; p=`blank`; c=1: [Fishing Population](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n63/mode/1up)
+- Row `691`; L2; p=`blank`; c=1: [Exports and Imports of Marine Products](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n63/mode/1up)
+- Row `692`; L2; p=`blank`; c=1: [Fishery Catches in Manchoukuo and Kwantung](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n63/mode/1up)
+- Row `693`; L2; p=`blank`; c=1: [Salt Manufacture](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n63/mode/1up)
+- Row `694`; L2; p=`blank`; c=1: [Demand and Supply of Salt](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n63/mode/1up)
+- Row `695`; L1; p=`705`: [XIV. MINING](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n65/mode/1up)
+  - `IMG_5194_1`: 7. Salt Production in Manchuria
+  - `IMG_5194_2`: 8. Demand and Supply of Salt
+  - `IMG_5195_1`: 1. Mineral Resources
+  - `IMG_5195_2`: 2. Output of Principal Minerals
+  - `IMG_5195_3`: 3. Principal Coal Deposits by Regions
+  - `IMG_5196_1`: 4. Coal Output by Principal Mines
+  - `IMG_5196_2`: 5. Coal Consumption Classified
+  - `IMG_5197_1`: 6. Principal Iron Deposits by Regions
+  - `IMG_5197_2`: 7. Chemical Analysis of Manchurian Iron Ore
+  - `IMG_5197_3`: 8. Iron Ore Production in Manchoukuo
+  - `IMG_5197_4`: 9. Production of Steel Materials by Kinds in Manchoukuo
+  - `IMG_5198_1`: 10. Pig Iron Production in Manchoukuo*
+  - `IMG_5198_2`: 11. Pig Iron Production in Manchoukuo Classified by Companies
+  - `IMG_5199_1`: 12. Pig Iron Production Capacity in Manchoukuo
+  - `IMG_5199_2`: 13. Production Expansion Plans of Showa Steel Works
+  - `IMG_5199_3`: 14. Principal By-Products in Pig Iron Manufacturing in Manchoukuo
+  - `IMG_5199_4`: 15. Gold Output in Manchoukuo
+  - `IMG_5199_5`: 16. Five-Year Gold Mining Plan (1937–1941) Compared with Actual Production in 1936
+  - `IMG_5200_1`: 17. Gold Mining Companies in Manchuria
+  - `IMG_5200_2`: 18. Soapstone Production
+  - `IMG_5200_3`: 19. Alumina Shale Reserves
+  - `IMG_5200_4`: 20. Statistics of Principal Magnesite Regions
+  - `IMG_5200_5`: 21. Chemical Analysis of Machurian Dolomite
+  - `IMG_5200_6`: 22. Lead, Zinc and Copper Reserves
+  - `IMG_5201_1`: 23. Limestone Production
+  - `IMG_5201_2`: [Tungpientao Development Company: scheduled output of iron ore and coal for 1939]
+  - `IMG_5202_1`: 24. Gasoline Demand
+  - `IMG_5202_2`: 25. Leading Coal Liquefaction Companies in Manchoukuo
+- Row `696`; L2; p=`blank`; c=1: [General Survey](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n65/mode/1up)
+- Row `697`; L2; p=`blank`; c=1: [Mineral Resources](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n65/mode/1up)
+- Row `698`; L2; p=`blank`; c=1: [Principal Minerals](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n65/mode/1up)
+- Row `699`; L2; p=`blank`; c=1: [Mining Policy](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n65/mode/1up)
+- Row `700`; L2; p=`blank`; c=1: [Legal Minerals](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n65/mode/1up)
+- Row `701`; L2; p=`blank`; c=1: [Geological Institute](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n65/mode/1up)
+- Row `702`; L2; p=`blank`; c=1: [Principal Coal Regions](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n65/mode/1up)
+- Row `703`; L2; p=`blank`; c=1: [Coal Output](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n65/mode/1up)
+- Row `704`; L2; p=`blank`; c=1: [Coal Consumption](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n65/mode/1up)
+- Row `705`; L2; p=`blank`; c=1: [Iron Regions](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n65/mode/1up)
+- Row `706`; L2; p=`blank`; c=1: [Production of Steel Materials](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n65/mode/1up)
+- Row `707`; L2; p=`blank`; c=1: [Showa Steel Works](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n65/mode/1up)
+- Row `708`; L2; p=`blank`; c=1: [Gold Output](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n65/mode/1up)
+- Row `709`; L2; p=`blank`; c=1: [Silver](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n65/mode/1up)
+- Row `710`; L2; p=`blank`; c=1: [Soapstone](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n65/mode/1up)
+- Row `711`; L2; p=`blank`; c=1: [Alumina Shale Reserves](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n65/mode/1up)
+- Row `712`; L2; p=`blank`; c=1: [Dolomite, Lead, Zinc and Copper](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n65/mode/1up)
+- Row `713`; L2; p=`blank`; c=1: [Mineral Resources of Tungpientao Region](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n65/mode/1up)
+- Row `714`; L2; p=`blank`; c=1: [Petrolcum](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n65/mode/1up)
+- Row `715`; L2; p=`blank`; c=1: [Fuhsin Oil Field](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n65/mode/1up)
+- Row `716`; L2; p=`blank`; c=1: [Coal Liquefaction](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n65/mode/1up)
+- Row `717`; L2; p=`blank`; c=1: [Shale Oil](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n65/mode/1up)
+- Row `718`; L1; p=`723`: [XV. EDUCATION](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n74/mode/1up)
+  - `IMG_5203_1`: 26. Oil Shale Reserves
+  - `IMG_5203_2`: 1. Statistics of Educational Organs
+  - `IMG_5204_1`: 2. National Schools Classified By Localities
+  - `IMG_5204_2`: 3. Children of Primary Education Age
+  - `IMG_5204_3`: 4. Private Institutes
+  - `IMG_5205_1`: 5. Kindergartens
+  - `IMG_5205_2`: 6. Higher Educational Organs
+  - `IMG_5205_3`: 7. Higher Educational Organs
+  - `IMG_5206_1`: 8. Students Despatched for Further Study by the Manchoukuo Government
+  - `IMG_5206_2`: 9. Students Studying in Japan Classified
+  - `IMG_5206_3`: 10. Expenditures of the Peoples' Welfare Department
+  - `IMG_5207_1`: 11. Publications Classified
+  - `IMG_5208_1`: 12. Statistics of Religious Parties
+  - `IMG_5208_2`: 13. Number of Foreign Missionaries
+- Row `719`; L2; p=`blank`; c=1: [Primary Schools](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n74/mode/1up)
+- Row `720`; L2; p=`blank`; c=1: [National Schools](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n74/mode/1up)
+- Row `721`; L2; p=`blank`; c=1: [Children of Primary Education Age](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n74/mode/1up)
+- Row `722`; L2; p=`blank`; c=1: [Kindergartens](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n74/mode/1up)
+- Row `723`; L2; p=`blank`; c=1: [Higher Educational Organs](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n74/mode/1up)
+- Row `724`; L2; p=`blank`; c=1: [Private Schools](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n74/mode/1up)
+- Row `725`; L2; p=`blank`; c=1: [Text Books](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n74/mode/1up)
+- Row `726`; L2; p=`blank`; c=1: [Students Sent Abroad](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n74/mode/1up)
+- Row `727`; L2; p=`blank`; c=1: [Educational Expenditure](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n74/mode/1up)
+- Row `728`; L2; p=`blank`; c=1: [Libraries](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n74/mode/1up)
+- Row `729`; L2; p=`blank`; c=1: [Museums](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n74/mode/1up)
+- Row `730`; L2; p=`blank`; c=1: [Education of Mongols](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n74/mode/1up)
+- Row `731`; L2; p=`blank`; c=1: [Education of Russians](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n74/mode/1up)
+- Row `732`; L2; p=`blank`; c=1: [Japanese Educational Enterprise](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n74/mode/1up)
+- Row `733`; L2; p=`blank`; c=1: [Motion Picture Industry](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n74/mode/1up)
+- Row `734`; L2; p=`blank`; c=1: [Religion](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n74/mode/1up)
+- Row `735`; L2; p=`blank`; c=1: [Number of Foreign Missioneries](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n74/mode/1up)
+- Row `736`; L1; p=`734`: [XVI. STATE FINANCE](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n80/mode/1up)
+  - `IMG_5209_1`: 1. Yearly Comparison of State Finance
+  - `IMG_5209_2`: 2. State Revenue Classified
+  - `IMG_5210_1`: 3. State Expenditures Classified
+  - `IMG_5211_1`: 4. National Loans & Borrowings Outstanding
+  - `IMG_5211_2`: 5. Details of Outstanding National Loans (End of 1939)
+  - `IMG_5212_1`: 6. Former Chinese Foreign Loans
+  - `IMG_5212_2`: 7. Internal Tax System of Manchoukuo
+  - `IMG_5213_1`: 8. Revenue from Customs
+- Row `737`; L2; p=`blank`; c=1: [Yearly Comparison of State Finance](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n80/mode/1up)
+- Row `738`; L2; p=`blank`; c=1: [1940 Budget](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n80/mode/1up)
+- Row `739`; L2; p=`blank`; c=1: [Summary of State Revenue and Expenditure](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n80/mode/1up)
+- Row `740`; L2; p=`blank`; c=1: [National Loans](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n80/mode/1up)
+- Row `741`; L2; p=`blank`; c=1: [Taxation System](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n80/mode/1up)
+- Row `742`; L2; p=`blank`; c=1: [Maritime Customs](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n80/mode/1up)
+- Row `743`; L2; p=`blank`; c=1: [State Monopoly System](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n80/mode/1up)
+- Row `744`; L1; p=`745`: [XVII. BANKING AND CURRENCY](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n85/mode/1up)
+  - `IMG_5214_1`: [Numbers of banks and other monetary institutions as on May 1, 1940]
+  - `IMG_5215_1`: 1. Deposits & Loans of Financing Organs in Manchuria
+  - `IMG_5216_1`: 2. Principal Accounts of the Central Bank of Manchoukuo
+  - `IMG_5216_2`: 3. Principal Accounts of the Industrial Bank of Manchou
+  - `IMG_5217_1`: 4. Statistics of Banks at the Principal Cities
+  - `IMG_5218_1`: 5. Other Financing Organs (Credit Associations and Unions)
+  - `IMG_5219_1`: 6. Loans Classified by Purposes
+  - `IMG_5219_2`: 7. Statistics of Postal Savings
+  - `IMG_5219_3`: 8. Statistics of Postal Money Orders
+  - `IMG_5220_1`: 9. Interest Rates at the Central Bank of Manchou
+  - `IMG_5220_2`: 10. Amount of Bills Cleared at Clearing Houses
+  - `IMG_5220_3`: 11. Results of Insurance Companies in Kwantung Province
+  - `IMG_5221_1`: 12. Notes Issued and Amount of Reserves of the Central Bank of Manchou
+  - `IMG_5221_2`: 13. Amount of Gold Purchased by the Central Bank of Manchou
+  - `IMG_5221_3`: 14. Gold Purchase Rate of Central Bank of Manchou
+  - `IMG_5221_4`: 15. Manchoukuo Yuan Foreign Exchange Rates
+- Row `745`; L2; p=`blank`; c=1: [Deposits and Loans of Finance Organs](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n85/mode/1up)
+- Row `746`; L2; p=`blank`; c=1: [Bank Deposits](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n85/mode/1up)
+- Row `747`; L2; p=`blank`; c=1: [Bank Loans](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n85/mode/1up)
+- Row `748`; L2; p=`blank`; c=1: [The Central Bank of Manchou](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n85/mode/1up)
+- Row `749`; L2; p=`blank`; c=1: [Industrial Bank of Manchou](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n85/mode/1up)
+- Row `750`; L2; p=`blank`; c=1: [Ordinary Domestic Banks](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n85/mode/1up)
+- Row `751`; L2; p=`blank`; c=1: [Japanese Banks](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n85/mode/1up)
+- Row `752`; L2; p=`blank`; c=1: [Chinese Banks](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n85/mode/1up)
+- Row `753`; L2; p=`blank`; c=1: [Occidental Banks](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n85/mode/1up)
+- Row `754`; L2; p=`blank`; c=1: [People's Monetary Organs](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n85/mode/1up)
+- Row `755`; L2; p=`blank`; c=1: [Pawnshops Monetary Advances to Industries](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n85/mode/1up)
+- Row `756`; L2; p=`blank`; c=1: [Postal Savings](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n85/mode/1up)
+- Row `757`; L2; p=`blank`; c=1: [Money Rate](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n85/mode/1up)
+- Row `758`; L2; p=`blank`; c=1: [Clearing-house](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n85/mode/1up)
+- Row `759`; L2; p=`blank`; c=1: [Insurance Business](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n85/mode/1up)
+- Row `760`; L2; p=`blank`; c=1: [Currency](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n85/mode/1up)
+- Row `761`; L2; p=`blank`; c=1: [Note Issue and Amount of Reserves](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n85/mode/1up)
+- Row `762`; L2; p=`blank`; c=1: [Gold Purchase](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n85/mode/1up)
+- Row `763`; L2; p=`blank`; c=1: [Exchange Business](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n85/mode/1up)
+- Row `764`; L2; p=`blank`; c=1: [Foreign Exchange Rate](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n85/mode/1up)
+- Row `765`; L2; p=`blank`; c=1: [Exchange Control Law](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n85/mode/1up)
+- Row `766`; L1; p=`761`: [XVIII. COMMERCE](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n93/mode/1up)
+  - `IMG_5223_1`: 1. No. of Chambers of Commerce and Industry
+  - `IMG_5223_2`: 2. No. of Patent Rights, Utility Models & Trade Marks Registered
+  - `IMG_5224_1`: 3. Condition of Import Guilds
+  - `IMG_5225_1`: 4. Number and Amount of Capital of Companies in Manchoukuo and Kwantung
+  - `IMG_5225_2`: 5. Paid-up Capital of Joint-Stock Companies in Manchoukuo and Kwantung
+  - `IMG_5225_3`: 6. Paid-up Capital of Joint-stock Companies Classified by Industries
+  - `IMG_5225_4`: 7. Companies Classified by Scale of Paid-up Capital
+  - `IMG_5226_1`: 8. Number of Companies and Movement of Capital
+  - `IMG_5226_2`: 9. Companies Classified by Business
+  - `IMG_5227_1`: 10. Principal Companies in Manchuria
+  - `IMG_5230_1`: 11. International Comparison of Wholesale Prices
+  - `IMG_5231_1`: 12. Wholesale Commodity Price Index in Hsinking
+  - `IMG_5231_2`: 13. Wholesale Prices of Principal Staple Commodities in Hsinking
+- Row `767`; L2; p=`blank`; c=1: [Introductory Remarks](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n93/mode/1up)
+- Row `768`; L2; p=`blank`; c=1: [Commercial Organs](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n93/mode/1up)
+- Row `769`; L2; p=`blank`; c=1: [Chamber of Commerce and Industry](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n93/mode/1up)
+- Row `770`; L2; p=`blank`; c=1: [Trade Marks](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n93/mode/1up)
+- Row `771`; L2; p=`blank`; c=1: [Exchanges](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n93/mode/1up)
+- Row `772`; L2; p=`blank`; c=1: [Commodity Market](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n93/mode/1up)
+- Row `773`; L2; p=`blank`; c=1: [Warehousing](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n93/mode/1up)
+- Row `774`; L2; p=`blank`; c=1: [Condition of Corporations](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n93/mode/1up)
+- Row `775`; L2; p=`blank`; c=1: [Number and Amount of Capital of Cos.](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n93/mode/1up)
+- Row `776`; L2; p=`blank`; c=1: [Cos. Classified By Business](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n93/mode/1up)
+- Row `777`; L2; p=`blank`; c=1: [Revision in Management Policy of Special Concerns](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n93/mode/1up)
+- Row `778`; L2; p=`blank`; c=1: [Rationalization of Business](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n93/mode/1up)
+- Row `779`; L2; p=`blank`; c=1: [Enterprises of Special Corporation](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n93/mode/1up)
+- Row `780`; L2; p=`blank`; c=1: [Principal Companies in Manchuria](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n93/mode/1up)
+- Row `781`; L2; p=`blank`; c=1: [Activity of Minor Manchu Merchants and Industrialists](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n93/mode/1up)
+- Row `782`; L2; p=`blank`; c=1: [Weights and Measures](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n93/mode/1up)
+- Row `783`; L2; p=`blank`; c=1: [Commodity Prices](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n93/mode/1up)
+- Row `784`; L1; p=`780`: [XIX. COMMUNICATIONS](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n103/mode/1up)
+  - `IMG_5232_1`: 1. General Statistics on Telegraph and Telephone
+  - `IMG_5232_2`: 2. No. of Telegraph Offices
+  - `IMG_5232_3`: 3. Number of Telegrams Handled
+  - `IMG_5233_1`: 4. No. of Broadcasting Stations
+  - `IMG_5233_2`: 5. Statistics of Radio Broadcasting
+  - `IMG_5233_3`: 6. Number of Post Offices By Jusrisdictions
+  - `IMG_5233_4`: 6. Number of Post Offices By Jurisdictions
+  - `IMG_5234_1`: 8. Foreign Mails Handled
+  - `IMG_5234_2`: 9. Air Mails Handled
+  - `IMG_5234_3`: 10. Fees for Domestic and Foreign Ordinary Mails
+  - `IMG_5235_1`: 11. Assets & Liabilities of the Manchuria Telegraph & Telephone Co.
+- Row `785`; L2; p=`blank`; c=1: [Telegraph & Telephone](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n103/mode/1up)
+- Row `786`; L2; p=`blank`; c=1: [Radio Broadcasting](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n103/mode/1up)
+- Row `787`; L2; p=`blank`; c=1: [Statistics of Post Office](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n103/mode/1up)
+- Row `788`; L2; p=`blank`; c=1: [Manchuria Telegraph and Telephone Co.](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n103/mode/1up)
+- Row `789`; L1; p=`788`: [XX. TRANSPORTATION](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n107/mode/1up)
+  - `IMG_5236_1`: 1. Road and Bridge Construction
+  - `IMG_5236_2`: 2. Length of Roads Classified
+  - `IMG_5236_3`: 3. Five-Year Plan for Improvement of Local Roads and Bridges
+  - `IMG_5236_4`: 4. Condition of Motor Bus Transportation
+  - `IMG_5237_1`: 5. State Bus Lines
+  - `IMG_5238_1`: 6. Number of Cars
+  - `IMG_5238_2`: 7. Navigation Bureau by Territories
+  - `IMG_5238_3`: 8. Regular River Voyage Course
+  - `IMG_5238_4`: 9. Results of River Voyage
+  - `IMG_5240_1`: [Routes between Harbin and Tokyo, with mileage]
+  - `IMG_5240_2`: 10. Number of Registered Vessels
+  - `IMG_5240_3`: 11. Cargos Loaded & Unloaded by Ports during 1938
+  - `IMG_5240_4`: 12. Arrival and Departure of People Through Ports of Kwantung Province
+  - `IMG_5241_1`: 13. Principal Airlines and Time Tables
+- Row `790`; L2; p=`blank`; c=1: [Roads](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n107/mode/1up)
+- Row `791`; L2; p=`blank`; c=1: [Motor Bus Transportation](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n107/mode/1up)
+- Row `792`; L2; p=`blank`; c=1: [Number of Cars](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n107/mode/1up)
+- Row `793`; L2; p=`blank`; c=1: [River Transportation](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n107/mode/1up)
+- Row `794`; L2; p=`blank`; c=1: [Principal River Ports](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n107/mode/1up)
+- Row `795`; L2; p=`blank`; c=1: [Number of Registered Vessels](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n107/mode/1up)
+- Row `796`; L2; p=`blank`; c=1: [Air Transportation](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n107/mode/1up)
+- Row `797`; L2; p=`blank`; c=1: [Principal Airlines and Time Tables](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n107/mode/1up)
+- Row `798`; L2; p=`blank`; c=1: [Hotels](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n107/mode/1up)
+- Row `799`; L1; p=`801`: [XXI. MANUFACTURING INDUSTRIES—I](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n113/mode/1up)
+  - `IMG_5242_2`: 1. Statistics of Manufacturing Industries in Manchuria
+  - `IMG_5243_1`: 2. Capital Investment Outstanding in Manufacturing Industries in Manchuria
+  - `IMG_5243_2`: 3. Details of Spinning Industry
+  - `IMG_5244_1`: 4. Spinning Companies in Manchuria
+  - `IMG_5244_2`: 5. Raw Cotton Import
+  - `IMG_5244_3`: 6. Cotton Yarn Import
+  - `IMG_5244_4`: 7. Imports of Wool and Woolen Goods
+  - `IMG_5244_5`: 8. Woolen Fabric Companies in Manchoukuo
+  - `IMG_5244_6`: 9. Import of Flax, Ramie, Hemp and Manufactures Thereof
+  - `IMG_5245_1`: 10. Exports (inclusive of shipment to Japan) of Wild Silk Cocoons and Others
+  - `IMG_5245_2`: 11. Demand and Supply of Cement in Manchoukuo
+  - `IMG_5245_3`: 12. Cement Manufacturing Companies in Manchuria
+  - `IMG_5245_4`: 13. Components of Fire Clay by Leading Producing Districts
+  - `IMG_5245_5`: 14. Sheet Glass Manufacturing Companies
+  - `IMG_5246_1`: 15. Pulp Manufacturing Concerns
+  - `IMG_5246_2`: 16. Production of Sulphate of Ammonia
+  - `IMG_5246_3`: 17. Production Capacity of Manchuria Chemical Industrial Co.
+  - `IMG_5247_1`: 18. Demand and Supply of Soap in Manchoukuo
+  - `IMG_5247_2`: 19. Match Manufacturing Companies in Manchuria
+  - `IMG_5248_1`: 20. Output of Bean Oil at the Principal Cities
+  - `IMG_5248_2`: 21. Output of Bean-cake at the Principal Cities
+  - `IMG_5248_3`: 22. Number of Bean-cake Mills and Productive Capacity
+  - `IMG_5248_4`: 23. Export of Bean Oil and Bean-cake By Destinations
+  - `IMG_5249_1`: 24. Production of Alcoholic Liquors in Kwantung
+  - `IMG_5249_2`: 25. Beer Brewery Companies in Manchoukuo
+  - `IMG_5249_3`: 26. Alcohol Factories in Manchoukuo
+  - `IMG_5249_4`: 27. Production of Soy and Miso (Bean paste) in Kwantung
+  - `IMG_5250_1`: 28. Sugar Production in Manchoukuo and Kwantung
+  - `IMG_5250_2`: 29. Sugar Manufacturing Companies in Manchuria
+  - `IMG_5250_3`: 30. Demand and Supply of Sugar in Kwantung by Kinds
+  - `IMG_5250_4`: 31. Sugar Imports of Manchoukuo and Kwantung by Kinds
+  - `IMG_5250_5`: 32. Statistics of Flour Mills
+- Row `800`; L2; p=`blank`; c=1: [General Remarks](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n113/mode/1up)
+- Row `801`; L2; p=`blank`; c=1: [Statistics of Factories in Manchuria](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n113/mode/1up)
+- Row `802`; L2; p=`blank`; c=1: [Capital Investments](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n113/mode/1up)
+- Row `803`; L2; p=`blank`; c=1: [Textile Industry](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n113/mode/1up)
+- Row `804`; L2; p=`blank`; c=1: [Chemical Industry](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n113/mode/1up)
+- Row `805`; L2; p=`blank`; c=1: [Bean Oil & Cake](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n113/mode/1up)
+- Row `806`; L2; p=`blank`; c=1: [Foodstuffs and Drinks](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n113/mode/1up)
+- Row `807`; L2; p=`blank`; c=1: [Sugar](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n113/mode/1up)
+- Row `808`; L2; p=`blank`; c=1: [Flour](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n113/mode/1up)
+- Row `809`; L1; p=`818`: [XXII. MANUFACTURING INDUSTRIES—II](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n122/mode/1up)
+  - `IMG_5251_1`: 1. Electric Power Generation Potentialities of Principal River Systems
+  - `IMG_5251_2`: [Planned coal power electricity facilities of the Manchuria Electric Corporation]
+  - `IMG_5252_1`: 2. Statistics of Power Generation
+  - `IMG_5252_2`: 3. Electric Power Consumption Classified
+  - `IMG_5252_3`: 4. Electric Power Consumption Classified By Industries
+  - `IMG_5252_4`: 5. Electric Power Consumption Classified By Industries
+  - `IMG_5253_1`: 6. Subsidiary Companies of the Manchuria Electric Co.
+  - `IMG_5253_2`: 7. Statistics of Gas Industry
+  - `IMG_5254_1`: 8. Imports of Machinery and Tools, Vehicles and Vessels
+  - `IMG_5254_2`: 9. Principal Machinery and Metal-ware Companies
+  - `IMG_5255_1`: Cigarette Production by Companies
+  - `IMG_5255_2`: 10. Imports of Tobacco Classified
+- Row `810`; L2; p=`blank`; c=1: [Electric and Gas Industries](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n122/mode/1up)
+- Row `811`; L2; p=`blank`; c=1: [Recent Power Projects](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n122/mode/1up)
+- Row `812`; L2; p=`blank`; c=1: [Sungari Power Plant](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n122/mode/1up)
+- Row `813`; L2; p=`blank`; c=1: [Statistics of Power Generation](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n122/mode/1up)
+- Row `814`; L2; p=`blank`; c=1: [Power Consumption](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n122/mode/1up)
+- Row `815`; L2; p=`blank`; c=1: [Machinery and Engineering](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n122/mode/1up)
+- Row `816`; L2; p=`blank`; c=1: [Machine Tools, etc.](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n122/mode/1up)
+- Row `817`; L2; p=`blank`; c=1: [Import of Machinery and Tools, Vehicles, etc.](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n122/mode/1up)
+- Row `818`; L2; p=`blank`; c=1: [Principal Machinery and Metal-ware Cos.](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n122/mode/1up)
+- Row `819`; L2; p=`blank`; c=1: [Motor Car Industry](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n122/mode/1up)
+- Row `820`; L2; p=`blank`; c=1: [Tobacco](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n122/mode/1up)
+- Row `821`; L2; p=`blank`; c=1: [Hides & Leather Industry](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n122/mode/1up)
+- Row `822`; L1; p=`829`: [XXIII. SANITATION](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n127/mode/1up)
+  - `IMG_5256_1`: 11. Exports of Hide, Leather and Skins
+  - `IMG_5256_2`: 1. Number of Medical Institutes and Physicians
+  - `IMG_5257_1`: 2. Number of Patients Treated by Public Physicians
+  - `IMG_5258_1`: 3. Notifiable Infectious Diseases
+  - `IMG_5258_2`: 4. Lesser Infectious Cases Handled by Public Clinics
+- Row `823`; L2; p=`blank`; c=1: [Public Health Organization](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n127/mode/1up)
+- Row `824`; L2; p=`blank`; c=1: [Medical Institutes and Physicians](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n127/mode/1up)
+- Row `825`; L2; p=`blank`; c=1: [People's Welfare Hospitals](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n127/mode/1up)
+- Row `826`; L2; p=`blank`; c=1: [Public Hospitals](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n127/mode/1up)
+- Row `827`; L2; p=`blank`; c=1: [Statistics of Epidemics](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n127/mode/1up)
+- Row `828`; L2; p=`blank`; c=1: [Nutrition](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n127/mode/1up)
+- Row `829`; L2; p=`blank`; c=1: [Foreign Medical Institutions](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n127/mode/1up)
+- Row `830`; L2; p=`blank`; c=1: [Opium Smoking](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n127/mode/1up)
+- Row `831`; L2; p=`blank`; c=1: [Narcotic Stations](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n127/mode/1up)
+- Row `832`; L1; p=`836`: [XXIV. PRINCIPAL CITIES](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n130/mode/1up)
+  - `IMG_5259_1`: 5. Foreign Hospitals
+  - `IMG_5259_2`: 6. Licenses Issued to Opium Smokers
+  - `IMG_5259_3`: 7. Statistics of Narcotic Stations
+- Row `833`; L2; p=`blank`; c=1: [Anshan](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n130/mode/1up)
+- Row `834`; L2; p=`blank`; c=1: [Antung](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n130/mode/1up)
+- Row `835`; L2; p=`blank`; c=1: [Chiamussu](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n130/mode/1up)
+- Row `836`; L2; p=`blank`; c=1: [Chinchow](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n130/mode/1up)
+- Row `837`; L2; p=`blank`; c=1: [Dairen](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n130/mode/1up)
+- Row `838`; L2; p=`blank`; c=1: [Fuhsin](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n130/mode/1up)
+- Row `839`; L2; p=`blank`; c=1: [Tsitsihar](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n130/mode/1up)
+- Row `840`; L2; p=`blank`; c=1: [Harbin](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n130/mode/1up)
+- Row `841`; L2; p=`blank`; c=1: [Hsinking](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n130/mode/1up)
+- Row `842`; L2; p=`blank`; c=1: [Kirin](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n130/mode/1up)
+- Row `843`; L2; p=`blank`; c=1: [Liaoyang](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n130/mode/1up)
+- Row `844`; L2; p=`blank`; c=1: [Mukden](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n130/mode/1up)
+- Row `845`; L2; p=`blank`; c=1: [Mutankiang](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n130/mode/1up)
+- Row `846`; L2; p=`blank`; c=1: [Penhsifu](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n130/mode/1up)
+- Row `847`; L2; p=`blank`; c=1: [Ryojun](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n130/mode/1up)
+- Row `848`; L2; p=`blank`; c=1: [Ssupingkai](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n130/mode/1up)
+- Row `849`; L2; p=`blank`; c=1: [Tiehling](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n130/mode/1up)
+- Row `850`; L2; p=`blank`; c=1: [Tsitsihar](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n130/mode/1up)
+- Row `851`; L2; p=`blank`; c=1: [Yenki](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n130/mode/1up)
+- Row `852`; L2; p=`blank`; c=1: [Yingkow](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n130/mode/1up)
+- Row `853`; L1; p=`845`: [XXV. LABOR](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n135/mode/1up)
+  - `IMG_5264_1`: 1. Immigration Movement from North China
+  - `IMG_5266_1`: 2. Population of North China By Province
+  - `IMG_5266_2`: 3. Immigrants from North China By Province
+  - `IMG_5266_3`: 4. Frequency of Entry Per 500 Immigrants
+  - `IMG_5266_4`: 5. Family Connections Per 500 Immigrants
+  - `IMG_5266_5`: 6. Immigrants and Their Families
+  - `IMG_5266_6`: 7. Organized and Individual Immigration
+  - `IMG_5266_7`: 8. Distribution of Immigrants By Province
+  - `IMG_5266_8`: 9. Distribution of Immigrants By Engagement
+  - `IMG_5267_1`: 10. Comparison of Wages in North China and Manchoukuo
+  - `IMG_5267_2`: 11. Wage Index in Manchoukuo and North China
+  - `IMG_5267_3`: 12. Index Showing Rising Cost of Living
+  - `IMG_5267_4`: 13. Lowest Living Expenses Against Income
+  - `IMG_5267_5`: 14. Indices of Cost of Living
+  - `IMG_5268_1`: 15. Average Daily Wages
+  - `IMG_5268_2`: 16. Scheduled Standard Wages
+  - `IMG_5268_3`: 17. Labor Hours and Days
+- Row `854`; L2; p=`blank`; c=1: [Immigration Movement](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n135/mode/1up)
+- Row `855`; L2; p=`blank`; c=1: [Sources of Chinese Labor](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n135/mode/1up)
+- Row `856`; L2; p=`blank`; c=1: [The Coolies](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n135/mode/1up)
+- Row `857`; L2; p=`blank`; c=1: [Living Condition of Laborer](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n135/mode/1up)
+- Row `858`; L2; p=`blank`; c=1: [Organized and Individual Immigration](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n135/mode/1up)
+- Row `859`; L2; p=`blank`; c=1: [Wages](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n135/mode/1up)
+- Row `860`; L2; p=`blank`; c=1: [Indices of Cost of Living](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n135/mode/1up)
+- Row `861`; L2; p=`blank`; c=1: [Labor](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n135/mode/1up)
+- Row `862`; L2; p=`blank`; c=1: [Hours](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n135/mode/1up)
+- Row `863`; L2; p=`blank`; c=1: [Labor Disputes](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n135/mode/1up)
+- Row `864`; L1; p=`855`: [XXVI. SOUTH MANCHURIA RAILWAY COMPANY](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n140/mode/1up)
+  - `IMG_5269_1`: 18. Labor Disputes
+  - `IMG_5269_2`: 19. Labor Disputes By Causes
+  - `IMG_5270_1`: [Successive Presidents of the Company]
+  - `IMG_5270_2`: 1. S.M.R. Lines
+  - `IMG_5270_3`: 2. S.M.R. Capital
+  - `IMG_5270_4`: 3. General Balance Sheet of S.M.R.
+  - `IMG_5271_1`: 4. Investments in Undertakings of S.M.R. Company
+  - `IMG_5271_2`: 5. Revenue and Expenditure Classified
+  - `IMG_5271_3`: 6. Disposal of Net Profit
+- Row `865`; L2; p=`blank`; c=1: [Introductory Remarks](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n140/mode/1up)
+- Row `866`; L2; p=`blank`; c=1: [Early History](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n140/mode/1up)
+- Row `867`; L2; p=`blank`; c=1: [S.M.R. Lines](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n140/mode/1up)
+- Row `868`; L2; p=`blank`; c=1: [Co.'s Finance](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n140/mode/1up)
+- Row `869`; L2; p=`blank`; c=1: [General Balance Sheet](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n140/mode/1up)
+- Row `870`; L2; p=`blank`; c=1: [Business Results for the Year Ending March, 1940](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n140/mode/1up)
+- Row `871`; L2; p=`blank`; c=1: [Varied Undertakings](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n140/mode/1up)
+- Row `872`; L1; p=`861`: [XXVII. ECONOMIC POLICY](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n143/mode/1up)
+  - `IMG_5274_1`: 1. Estimated Capital Outlay for Original and Revised 5-Year Industrial Plan, 1937—1941
+  - `IMG_5274_2`: 2. Suppliers of Capital for Original and Revised 5-Year Industrial Plans, 1937—1941
+  - `IMG_5274_3`: 3. Estimated Annual Production in Closing Year of Original and Revised 5-Year Industrial …
+  - `IMG_5276_1`: [Products to have been supplied to Japan by Manchoukuo in 1938]
+  - `IMG_5276_2`: 4. Japan's Investments Outstanding in Manchuria
+  - `IMG_5276_3`: 5. Principal Japanese Investments Since 1932
+  - `IMG_5276_4`: 6. Position of Japanese Companies in Manchuria
+  - `IMG_5277_1`: 7. Foreign Investments in Manchuria by Countries (1928)
+  - `IMG_5277_2`: 8. Financial Condition
+  - `IMG_5277_3`: 9. Assets & Liabilities
+  - `IMG_5277_4`: 10. Securities Owned Classified
+- Row `873`; L2; p=`blank`; c=1: [General Survey](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n143/mode/1up)
+- Row `874`; L2; p=`blank`; c=1: [Law Controlling Important Industries](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n143/mode/1up)
+- Row `875`; L2; p=`blank`; c=1: [Five-Year Industrial Plan](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n143/mode/1up)
+- Row `876`; L2; p=`blank`; c=1: [The Revised Five-Year Plan](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n143/mode/1up)
+- Row `877`; L2; p=`blank`; c=1: [Capital Resources](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n143/mode/1up)
+- Row `878`; L2; p=`blank`; c=1: [Results of Third Year of the Five Year Plan](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n143/mode/1up)
+- Row `879`; L2; p=`blank`; c=1: [Results for 1940](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n143/mode/1up)
+- Row `880`; L2; p=`blank`; c=1: [Japanese Investments](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n143/mode/1up)
+- Row `881`; L2; p=`blank`; c=1: [Position of Japanese Companies in Manchuria](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n143/mode/1up)
+- Row `882`; L2; p=`blank`; c=1: [Foreign Investment](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n143/mode/1up)
+- Row `883`; L2; p=`blank`; c=1: [Manchuria Industrial Development Corp.](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n143/mode/1up)
+- Row `884`; L1; p=`873`: [XXVIII. KWANTUNG LEASED TERRITORY](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n149/mode/1up)
+  - `IMG_5279_1`: Annual Revenue and Expenditure
+- Row `885`; L2; p=`blank`; c=1: [Geographical Position and Area](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n149/mode/1up)
+- Row `886`; L2; p=`blank`; c=1: [Administration](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n149/mode/1up)
+- Row `887`; L2; p=`blank`; c=1: [Defence Services](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n149/mode/1up)
+- Row `888`; L2; p=`blank`; c=1: [Finance](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n149/mode/1up)
+- Row `889`; L2; p=`blank`; c=1: [Education](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n149/mode/1up)
+- Row `890`; L2; p=`blank`; c=1: [Religion](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n149/mode/1up)
+- Row `891`; L2; p=`blank`; c=1: [Agriculture](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n149/mode/1up)
+- Row `892`; L2; p=`blank`; c=1: [Sericulture](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n149/mode/1up)
+- Row `893`; L2; p=`blank`; c=1: [Stock-breeding](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n149/mode/1up)
+- Row `894`; L2; p=`blank`; c=1: [Fishery](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n149/mode/1up)
+- Row `895`; L2; p=`blank`; c=1: [Manufacturing Industry](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n149/mode/1up)
+- Row `896`; L2; p=`blank`; c=1: [Dairen Customs](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n149/mode/1up)
+- Row `897`; L2; p=`blank`; c=1: [Communication System](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n149/mode/1up)
+### CHINA SECTION
+
+- Row `898`; L0; p=`blank`: CHINA SECTION (URL missing)
+- Row `899`; L1; p=`877`: [I. GEOGRAPHY](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n151/mode/1up)
+  - `IMG_5280_1`: 1. Area and Population of China
+  - `IMG_5280_2`: [Islands in Chinese waters by province]
+- Row `900`; L2; p=`blank`; c=1: [Position](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n151/mode/1up)
+- Row `901`; L2; p=`blank`; c=1: [Area and Population](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n151/mode/1up)
+- Row `902`; L2; p=`blank`; c=1: [Topography](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n151/mode/1up)
+- Row `903`; L2; p=`blank`; c=1: [Mountainous Zone](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n151/mode/1up)
+- Row `904`; L2; p=`blank`; c=1: [Highland Regions](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n151/mode/1up)
+- Row `905`; L2; p=`blank`; c=1: [Plains](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n151/mode/1up)
+- Row `906`; L2; p=`blank`; c=1: [Climate](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n151/mode/1up)
+- Row `907`; L2; p=`blank`; c=1: [Influence of Geographic Conditions](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n151/mode/1up)
+- Row `908`; L2; p=`blank`; c=1: [Foreign Population](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n151/mode/1up)
+- Row `909`; L1; p=`882`: [II. AGRICULTURE](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n153/mode/1up)
+  - `IMG_5284_1`: 1. Area Under Cultivation Classified by Provinces
+  - `IMG_5284_2`: 2. Production of Crops
+  - `IMG_5285_1`: 3. Production of Beans, Sugar Cane, Potatoes etc.
+  - `IMG_5285_2`: 4. Production of Industrial Crops
+  - `IMG_5285_3`: 5. Production of Principal Winter Crops
+  - `IMG_5285_4`: 6. Production of Principal Summer Crops
+  - `IMG_5285_5`: 7. Production of Tea
+  - `IMG_5285_6`: 8. Production of Cocoons
+  - `IMG_5286_1`: 9. Estimate of Livestocks
+- Row `910`; L2; p=`blank`; c=1: [General Remarks](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n153/mode/1up)
+- Row `911`; L2; p=`blank`; c=1: [Arable Area](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n153/mode/1up)
+- Row `912`; L2; p=`blank`; c=1: [Agricultural Methods](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n153/mode/1up)
+- Row `913`; L2; p=`blank`; c=1: [Irrigation](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n153/mode/1up)
+- Row `914`; L2; p=`blank`; c=1: [Food Crops](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n153/mode/1up)
+- Row `915`; L2; p=`blank`; c=1: [Forests and Afforestation](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n153/mode/1up)
+- Row `916`; L2; p=`blank`; c=1: [Livestock Raising](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n153/mode/1up)
+- Row `917`; L2; p=`blank`; c=1: [Agricultural Economics](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n153/mode/1up)
+- Row `918`; L2; p=`blank`; c=1: [Area Under Cultivation Classified by Provinces](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n153/mode/1up)
+- Row `919`; L2; p=`blank`; c=1: [Production of Crops](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n153/mode/1up)
+- Row `920`; L2; p=`blank`; c=1: [Tung Oil, etc.](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n153/mode/1up)
+- Row `921`; L1; p=`890`: [III. RAILWAYS](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n158/mode/1up)
+  - `IMG_5288_1`: 1. Railway Mileage Compared by Regions
+  - `IMG_5288_2`: 2. Railway Construction Compared by Regions and Ten-Year Periods
+  - `IMG_5290_1`: 3. Number of Employees Outstanding on N. China Railways
+  - `IMG_5295_1`: 4. Mileage of Chinese National Railways (1936)
+  - `IMG_5295_2`: 5. Number of Coaches, Locomotives and Goods Wagons
+- Row `922`; L2; p=`blank`; c=1: [Five Year Railway Construction Plan](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n158/mode/1up)
+- Row `923`; L2; p=`blank`; c=1: [Railways in North China](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n158/mode/1up)
+- Row `924`; L2; p=`blank`; c=1: [Railway Mileage Compared by Regions](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n158/mode/1up)
+- Row `925`; L2; p=`blank`; c=1: [Reconstruction of Railways in North China](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n158/mode/1up)
+- Row `926`; L2; p=`blank`; c=1: [Railways in the Future](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n158/mode/1up)
+- Row `927`; L2; p=`blank`; c=1: [Historical Outline](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n158/mode/1up)
+- Row `928`; L2; p=`blank`; c=1: [Conditions of Railways in Operation](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n158/mode/1up)
+- Row `929`; L2; p=`blank`; c=1: [Number of Coaches Etc.](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n158/mode/1up)
+- Row `930`; L1; p=`909`: [IV. LABOR](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n167/mode/1up)
+  - `IMG_5296_1`: 6. Construction Expenses of Chinese National Railways
+- Row `931`; L2; p=`blank`; c=1: [General Situation](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n167/mode/1up)
+- Row `932`; L2; p=`blank`; c=1: [Living Conditions](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n167/mode/1up)
+- Row `933`; L2; p=`blank`; c=1: [Wages](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n167/mode/1up)
+- Row `934`; L2; p=`blank`; c=1: [Working Hours and Rest Days](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n167/mode/1up)
+- Row `935`; L2; p=`blank`; c=1: [Unemployment](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n167/mode/1up)
+- Row `936`; L2; p=`blank`; c=1: [Labor Disputes and Labor Movement](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n167/mode/1up)
+- Row `937`; L2; p=`blank`; c=1: [Peculiar Conditions of Labor](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n167/mode/1up)
+- Row `938`; L2; p=`blank`; c=1: [Cost of Living of Chinese Workers](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n167/mode/1up)
+- Row `939`; L1; p=`918`: [V. FINANCE](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n171/mode/1up)
+  - `IMG_5300_1`: 1. Percentage Distribution of Expenditure by Nationalities
+  - `IMG_5300_2`: 2. Index of Cost of Living of Workers in Shanghai
+  - `IMG_5301_1`: 1. Revenue and Expenditure
+  - `IMG_5302_1`: 2. Summary of National Budget
+  - `IMG_5302_2`: 3. Foreign Loans of the Chinese Government Outstanding
+  - `IMG_5302_3`: 4. Chinese Government-Secured Foreign Loans Outstanding
+  - `IMG_5302_4`: 5. Quotation of Chinese Loans
+  - `IMG_5302_5`: 6. Foreign Investments in China
+  - `IMG_5302_6`: 7. British Private Enterprises in China
+  - `IMG_5306_1`: 8. Japanese Investments in China
+- Row `940`; L2; p=`blank`; c=1: [Characteristics of State Expenditure](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n171/mode/1up)
+- Row `941`; L2; p=`blank`; c=1: [Recent Situation](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n171/mode/1up)
+- Row `942`; L2; p=`blank`; c=1: [Revenue and Expenditure Classified](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n171/mode/1up)
+- Row `943`; L2; p=`blank`; c=1: [Foreign Loans Outstanding](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n171/mode/1up)
+- Row `944`; L2; p=`blank`; c=1: [Foreign Investments in China](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n171/mode/1up)
+- Row `945`; L2; p=`blank`; c=1: [Japanese Investments in China](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n171/mode/1up)
+- Row `946`; L1; p=`930`: [VI. BANKING](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n178/mode/1up)
+  - `IMG_5308_1`: 1. Shanghai Official Opening T.T. Quotations
+  - `IMG_5309_1`: 2. Contents Analysis of Various Coins
+  - `IMG_5309_2`: 3. Movement of Gold and Silver To and From China
+  - `IMG_5309_3`: 4. Shanghai Silver Stocks
+- Row `947`; L2; p=`blank`; c=1: [Introductory Remarks](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n178/mode/1up)
+- Row `948`; L2; p=`blank`; c=1: [Description of Banks](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n178/mode/1up)
+- Row `949`; L2; p=`blank`; c=1: [Native Banks](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n178/mode/1up)
+- Row `950`; L2; p=`blank`; c=1: [Foreign Banks](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n178/mode/1up)
+- Row `951`; L2; p=`blank`; c=1: [Foreign Exchange Quotations](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n178/mode/1up)
+- Row `952`; L2; p=`blank`; c=1: [Movement of Gold and Silver](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n178/mode/1up)
+- Row `953`; L2; p=`blank`; c=1: [Notes in Circulation](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n178/mode/1up)
+- Row `954`; L2; p=`blank`; c=1: [Leading Banks](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n178/mode/1up)
+- Row `955`; L1; p=`937`: [VII. MANUFACTURING INDUSTRY](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n181/mode/1up)
+  - `IMG_5310_1`: 5. Leading Foreign Banks in China
+  - `IMG_5310_2`: 6. Leading Japanese Banks
+  - `IMG_5311_1`: 1. No. of Cotton Spinning Operatives at Tsingtao
+  - `IMG_5311_2`: 2. Recent Trend in Wages for Tsingtao Spinning Operatives
+  - `IMG_5311_3`: 3. Working Hours, Production, Wages in the Textile Industry Compared with Japan
+  - `IMG_5311_4`: 4. Movement of Labour at a Spinning Mill in Tsingtao
+  - `IMG_5312_1`: 5. Tsingtao Spinning Operatives Classified by Age and Sex
+  - `IMG_5312_2`: 6. Cost of Living of Operatives Without Dependents
+  - `IMG_5312_3`: 7. Cost of Living of Operatives With Dependents
+  - `IMG_5313_1`: 8. North China Production
+  - `IMG_5313_2`: 9. Cotton Yield Estimate
+  - `IMG_5314_1`: 10. Projected Cotton Production in North China
+  - `IMG_5315_1`: 11. Cigaret Machines in Central China, Classified by Companies
+  - `IMG_5315_2`: 12. Tobacco Production in China
+  - `IMG_5316_1`: [Large Machine Works in Shanghai, 1937]
+- Row `956`; L2; p=`blank`; c=1: [Cotton Spinning](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n181/mode/1up)
+- Row `957`; L2; p=`blank`; c=1: [Working Hours, Production Wages in Textile Industry](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n181/mode/1up)
+- Row `958`; L2; p=`blank`; c=1: [Recent Cotton Situation](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n181/mode/1up)
+- Row `959`; L2; p=`blank`; c=1: [Tobacco Industry](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n181/mode/1up)
+- Row `960`; L2; p=`blank`; c=1: [Shanghai's Machine Industry](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n181/mode/1up)
+- Row `961`; L2; p=`blank`; c=1: [Machine Works in 1940](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n181/mode/1up)
+- Row `962`; L2; p=`blank`; c=1: [Products of Machine Works](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n181/mode/1up)
+- Row `963`; L2; p=`blank`; c=1: [Prices of Local-Made Machines](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n181/mode/1up)
+- Row `964`; L1; p=`951`: [VIII. ELECTRIC INDUSTRY](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n189/mode/1up)
+  - `IMG_5318_1`: 1. Conditions of Principal Electric Plants
+  - `IMG_5318_2`: 2. Production of Electricity
+  - `IMG_5318_3`: 3. Electric Enterprises by Provinces
+  - `IMG_5321_1`: 4. Working Condition of Power Plants of Central China Electricity & Waterworks Company
+  - `IMG_5321_2`: 5. Number of Households Using Electric Light
+  - `IMG_5321_3`: 6. The Amount of Power Used in the Past Few Years in h.p.
+- Row `965`; L2; p=`blank`; c=1: [General Remarks](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n189/mode/1up)
+- Row `966`; L2; p=`blank`; c=1: [Recent Situation](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n189/mode/1up)
+- Row `967`; L2; p=`blank`; c=1: [Conditions of Principal Electric Plants](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n189/mode/1up)
+- Row `968`; L2; p=`blank`; c=1: [Electric Enterprises by Provinces](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n189/mode/1up)
+- Row `969`; L2; p=`blank`; c=1: [Electric Industry in Shanghai, Hankow, Wuchang, Hanyang, Tientsin](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n189/mode/1up)
+- Row `970`; L1; p=`961`: [IX. MINING](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n193/mode/1up)
+  - `IMG_5322_1`: 7. Electric Companies Recently Established in North China
+  - `IMG_5322_2`: 8. Revival of Power Plants Under the Japanese Army
+  - `IMG_5322_3`: 1. Estimated Iron Deposits
+  - `IMG_5322_4`: 2. Output of Iron Ore and Pig Iron
+  - `IMG_5324_1`: 3. Coal Reserves of China
+  - `IMG_5325_1`: 4. Coal Production of China
+  - `IMG_5326_1`: 5. Planned Output of Coal by Coal Areas
+  - `IMG_5326_2`: 6. Reserves and Production of Tungsten
+  - `IMG_5327_1`: 7. Tin Production
+  - `IMG_5327_2`: 8. Antimony Production and Export
+  - `IMG_5327_3`: 9. Manganese Ore Production
+  - `IMG_5327_4`: 10. Lead and Zinc Ore Production
+  - `IMG_5328_1`: 11. Copper Production, Export and Import
+  - `IMG_5328_2`: 12. Gypsum Production
+  - `IMG_5328_3`: 13. Alum Production
+  - `IMG_5328_4`: 14. Salt Production Expansion Plan
+- Row `971`; L2; p=`blank`; c=1: [General Remarks](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n193/mode/1up)
+- Row `972`; L2; p=`blank`; c=1: [Iron Mining](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n193/mode/1up)
+- Row `973`; L2; p=`blank`; c=1: [Iron Deposits and Iron Production](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n193/mode/1up)
+- Row `974`; L2; p=`blank`; c=1: [Lungyen Iron Mine](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n193/mode/1up)
+- Row `975`; L2; p=`blank`; c=1: [Tayeh Iron Mine](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n193/mode/1up)
+- Row `976`; L2; p=`blank`; c=1: [Coal Mining](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n193/mode/1up)
+- Row `977`; L2; p=`blank`; c=1: [Coal Reserves and Production](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n193/mode/1up)
+- Row `978`; L2; p=`blank`; c=1: [Kailan Coal Mine](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n193/mode/1up)
+- Row `979`; L2; p=`blank`; c=1: [Tungsten](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n193/mode/1up)
+- Row `980`; L2; p=`blank`; c=1: [Tin](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n193/mode/1up)
+- Row `981`; L2; p=`blank`; c=1: [Gold](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n193/mode/1up)
+- Row `982`; L2; p=`blank`; c=1: [Antimony](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n193/mode/1up)
+- Row `983`; L2; p=`blank`; c=1: [Manganese](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n193/mode/1up)
+- Row `984`; L2; p=`blank`; c=1: [Lead](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n193/mode/1up)
+- Row `985`; L2; p=`blank`; c=1: [Zinc](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n193/mode/1up)
+- Row `986`; L2; p=`blank`; c=1: [Copper](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n193/mode/1up)
+- Row `987`; L2; p=`blank`; c=1: [Gypsum](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n193/mode/1up)
+- Row `988`; L2; p=`blank`; c=1: [Salt](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n193/mode/1up)
+- Row `989`; L1; p=`976`: [X. FOREIGN TRADE](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n201/mode/1up)
+  - `IMG_5330_1`: 1. Net Foreign Trade of China Since 1910
+  - `IMG_5330_2`: 2. Foreign Trade by Political Units
+  - `IMG_5331_1`: 3. Vessels Entered and Cleared, by Flags
+  - `IMG_5331_2`: 4. Maritime Customs Revenue Classified
+  - `IMG_5331_3`: 5. Maritime Customs Revenue
+  - `IMG_5331_4`: 6. Total Maritime Customs Revenue of Leading Ports
+  - `IMG_5331_5`: 7. Services of Foreign Loans and Indemnities Charged Thereon from
+  - `IMG_5332_1`: 8. Gross Imports and Exports of China, by Countries
+  - `IMG_5333_1`: 9. Analysis of Exports — Group I. Animal & Animal Products
+  - `IMG_5335_1`: Group II. Hides, Leather & Skins (furs)
+  - `IMG_5336_1`: Group III. Fishery and Sea Products
+  - `IMG_5337_1`: Group IV. Beans and Peas
+  - `IMG_5337_2`: Group V. Cereals and Cereal Products
+  - `IMG_5338_1`: Group VI. Dyestuffs, Vegetable
+  - `IMG_5338_2`: Group VII. Fruits, Fresh, Dried and Preserved
+  - `IMG_5339_1`: Group VIII. Medicinal Substances and Spices
+  - `IMG_5340_1`: Group IX. Oils, Tallow and Wax
+  - `IMG_5340_2`: Group X. Seeds
+  - `IMG_5341_1`: Group XI. Spirituous Beverages
+  - `IMG_5341_2`: Group XII. Sugar
+  - `IMG_5341_3`: Group XIII. Tea
+  - `IMG_5342_1`: Group XIV. Tobacco
+  - `IMG_5342_2`: Group XV. Vegetables
+  - `IMG_5343_1`: Group XVI. Other Vegetable Products
+  - `IMG_5343_2`: Group XVII. Bamboo
+  - `IMG_5344_1`: Group XVIII. Fuel
+  - `IMG_5344_2`: Group XIX. Rattan
+  - `IMG_5344_3`: Group XX. Timber, Wood, and Manufactures Thereof
+  - `IMG_5344_4`: Group XXI. Paper
+  - `IMG_5345_1`: Group XXII. Textile Fibres
+  - `IMG_5346_1`: Group XXIII. Yarn, Thread, Plaited and Knitted Goods
+  - `IMG_5347_1`: Group XXIV. Piece Goods
+  - `IMG_5347_2`: Group XXV. Other Textile Products
+  - `IMG_5348_1`: Group XXVI. Ores, Metals and Metallic Products
+  - `IMG_5349_1`: Group XXVII. Glass and Glassware
+  - `IMG_5349_2`: Group XXVIII. Stone, Earth, Sand and Manufactures Thereof
+  - `IMG_5350_1`: Group XXIX. Chemicals and Chemical Products
+  - `IMG_5350_2`: Group XXX. Printed Matter
+  - `IMG_5351_1`: Group XXXI. Sundry
+  - `IMG_5353_1`: 10. Analysis of Imports — Group I. Cotton Piece Goods, Grey
+  - `IMG_5353_2`: 10. Analysis of Imports — Group II. Cotton Piece Goods, White or Dyed
+  - `IMG_5354_1`: 10. Analysis of Imports — Group III. Cotton Piece Goods, Printed
+  - `IMG_5355_1`: 10. Analysis of Imports — Group IV. Cotton Piece Goods, Miscellaneous
+  - `IMG_5355_2`: 10. Analysis of Imports — Group V. Cotton Raw: Cotton Yarn, and Cotton Thread
+  - `IMG_5355_3`: 10. Analysis of Imports — Group VI. Cotton Manufactures, Sundry
+  - `IMG_5356_1`: Group VII. Flax, Ramie, Hemp, Jute, & Manufactures Thereof
+  - `IMG_5356_2`: Group VIII. Wool & Manufactures Thereof
+  - `IMG_5358_1`: Group IX. Silk (incl. Artificial Silk) & Manufactures Thereof
+  - `IMG_5358_2`: Group X. Metals and Ores
+  - `IMG_5360_1`: Group XI. Machinery and Tools
+  - `IMG_5361_1`: Group XII. Vehicles and Vessels
+  - `IMG_5362_1`: Group XIII. Miscellaneous Metal Manufactures
+  - `IMG_5363_1`: Group XIV. Fishery & Sea Products
+  - `IMG_5364_1`: Group XV. Animal Products, Canned Goods, & Groceries
+  - `IMG_5365_1`: Group XVI. Cereals and Flour
+  - `IMG_5366_1`: Group XVII. Fruits, Seeds and Vegetables
+  - `IMG_5366_2`: Group XVIII. Medicinal Substances and Spices
+  - `IMG_5367_1`: Group XIX. Sugar
+  - `IMG_5367_2`: Group XX. Wines, Beer, Spirits, Table Waters, Etc.
+  - `IMG_5368_1`: Group XXI. Tobacco
+  - `IMG_5368_2`: Group XXII. Chemicals and Pharmaceuticals
+  - `IMG_5369_1`: Group XXIII. Dyes, Pigments, Paints, and Varnishes
+  - `IMG_5371_1`: Group XXIV. Candles, Soap, Oils, Fats, Waxes, Gums & Resins
+  - `IMG_5372_1`: Group XXV. Books, Maps, Paper, and Wood Pulp
+  - `IMG_5373_1`: Group XXVI. Hides, Leather, and Other Animals Substances
+  - `IMG_5374_1`: Group XXVII. Timber
+  - `IMG_5374_2`: Group XXVIII. Wood, Bamboos, Rattans, Coir, Straw and Manufactures, Thereof
+  - `IMG_5375_1`: Group XXIX. Coal, Fuel, Pitch and Tar
+  - `IMG_5375_2`: Group XXX. Chinaware, Enamelledware, Glass, Etc.
+  - `IMG_5376_1`: Group XXXI. Stone, Earth, and Manufactures Thereof
+  - `IMG_5376_2`: Group XXXII. Sundry
+- Row `990`; L2; p=`blank`; c=1: [General Remarks](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n201/mode/1up)
+- Row `991`; L2; p=`blank`; c=1: [Foreign Trade in 1940](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n201/mode/1up)
+- Row `992`; L2; p=`blank`; c=1: [Net Foreign Trade Since 1910](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n201/mode/1up)
+- Row `993`; L2; p=`blank`; c=1: [Foreign Trade by Political Units](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n201/mode/1up)
+- Row `994`; L2; p=`blank`; c=1: [Vessels Entered and Cleared](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n201/mode/1up)
+- Row `995`; L2; p=`blank`; c=1: [Maritime Customs Revenue](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n201/mode/1up)
+- Row `996`; L2; p=`blank`; c=1: [Gross Imports and Exports of China by Countries](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n201/mode/1up)
+- Row `997`; L1; p=`1074`: [XI. SHANGHAI](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n249/mode/1up)
+- Row `998`; L2; p=`blank`; c=1: [Geographical Position](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n249/mode/1up)
+- Row `999`; L2; p=`blank`; c=1: [Whangpoo Conservancy Board](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n249/mode/1up)
+- Row `1000`; L2; p=`blank`; c=1: [Early History](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n249/mode/1up)
+- Row `1001`; L2; p=`blank`; c=1: [Shanghai Harbor](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n249/mode/1up)
+- Row `1002`; L2; p=`blank`; c=1: [Shipyards and Docks](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n249/mode/1up)
+- Row `1003`; L2; p=`blank`; c=1: [Construction of Greater Shanghai](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n249/mode/1up)
+- Row `1004`; L1; p=`1080`: [XII. OUTER MONGOLIA](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n253/mode/1up)
+  - `IMG_5382_1`: 1. Census Population of Outer Mongolia (1934)
+  - `IMG_5383_1`: 2. Distribution of Livestock (1934)
+  - `IMG_5383_2`: 3. Production of Livestock Products
+  - `IMG_5384_1`: 4. Area Under Crops
+  - `IMG_5384_2`: 5. Output of Various Crops
+  - `IMG_5385_1`: 6. Principal Highways
+  - `IMG_5385_2`: 7. Bus Lines
+  - `IMG_5385_3`: 8. Revenuue and Expenditure (1934)
+  - `IMG_5386_1`: 9. Transactions with Soviet
+  - `IMG_5386_2`: 10. Imports from U.S.S.R. Classified
+  - `IMG_5386_3`: 11. Exports to U.S.S.R. Classified
+- Row `1005`; L2; p=`blank`; c=1: [Territory](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n253/mode/1up)
+- Row `1006`; L2; p=`blank`; c=1: [Administrative Districts](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n253/mode/1up)
+- Row `1007`; L2; p=`blank`; c=1: [Population](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n253/mode/1up)
+- Row `1008`; L2; p=`blank`; c=1: [State Organization](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n253/mode/1up)
+- Row `1009`; L2; p=`blank`; c=1: [Political Parties](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n253/mode/1up)
+- Row `1010`; L2; p=`blank`; c=1: [Culture](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n253/mode/1up)
+- Row `1011`; L2; p=`blank`; c=1: [Stock-Raising](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n253/mode/1up)
+- Row `1012`; L2; p=`blank`; c=1: [Agriculture](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n253/mode/1up)
+- Row `1013`; L2; p=`blank`; c=1: [Game Hunting](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n253/mode/1up)
+- Row `1014`; L2; p=`blank`; c=1: [Mining and Manufacturing Industries](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n253/mode/1up)
+- Row `1015`; L2; p=`blank`; c=1: [Communications](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n253/mode/1up)
+- Row `1016`; L2; p=`blank`; c=1: [Finance](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n253/mode/1up)
+- Row `1017`; L2; p=`blank`; c=1: [Banking](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n253/mode/1up)
+- Row `1018`; L2; p=`blank`; c=1: [Internal Trade](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n253/mode/1up)
+- Row `1019`; L2; p=`blank`; c=1: [Foreign Trade](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n253/mode/1up)
+- Row `1020`; L2; p=`blank`; c=1: [Mongolia Federal Autonomous Government](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n253/mode/1up)
+- Row `1021`; L1; p=`1092`: [APPENDIX](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n259/mode/1up)
+  - `IMG_5389_1`: 1. Affiliated Companies of the Central China Development Company
+  - `IMG_5389_2`: 2. Affiliated Companies of the North China Development Company
+- Row `1022`; L2; p=`blank`; c=1: [Affiliated Companies of Central China Development Company](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n259/mode/1up)
+- Row `1023`; L2; p=`blank`; c=1: [Affiliated Companies of North China Development Company](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n259/mode/1up)
+### COMMONWEALTH OF THE PHILIPPINES
+
+- Row `1024`; L0; p=`1096`: [COMMONWEALTH OF THE PHILIPPINES](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n261/mode/1up)
+- Row `1025`; L2; p=`1096`: [Geography](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n261/mode/1up)
+  - `IMG_5390_1`: 1. Population, Area, and Density of All Islands Having an Area of 100 or More Square Kilo…
+- Row `1026`; L2; p=`blank`; c=1: [Climate](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n261/mode/1up)
+- Row `1027`; L2; p=`blank`; c=1: [Population](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n261/mode/1up)
+- Row `1028`; L2; p=`blank`; c=1: [Culture](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n261/mode/1up)
+- Row `1029`; L2; p=`blank`; c=1: [Independence and Government](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n261/mode/1up)
+- Row `1030`; L2; p=`1098`: [Tydings-McDuffie Act](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n262/mode/1up)
+- Row `1031`; L2; p=`blank`; c=1: [Constitution](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n261/mode/1up)
+- Row `1032`; L2; p=`blank`; c=1: [Finance](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n261/mode/1up)
+- Row `1033`; L2; p=`blank`; c=1: [Revenue & Expenditure](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n261/mode/1up)
+- Row `1034`; L2; p=`blank`; c=1: [United States Investments in the Philippines](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n261/mode/1up)
+- Row `1035`; L2; p=`1101`: [Natural Wealth](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n263/mode/1up)
+  - `IMG_5392_1`: 2. State Revenue & Expenditure
+  - `IMG_5392_2`: 3. Investments of the United States in the Philippines Classified (1935)
+  - `IMG_5393_1`: 4. Principal Agricultural Output
+  - `IMG_5394_1`: 5. Foreign Trade of the Philippines
+  - `IMG_5394_2`: 6. Foreign Trade of Philippines Classified By Countries
+  - `IMG_5394_3`: 7. Principal Commodities Imported and Exported
+- Row `1036`; L2; p=`blank`; c=1: [Agriculture](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n261/mode/1up)
+- Row `1037`; L2; p=`blank`; c=1: [Principal Agricultural Output](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n261/mode/1up)
+- Row `1038`; L2; p=`blank`; c=1: [Rice](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n261/mode/1up)
+- Row `1039`; L2; p=`blank`; c=1: [Palm Trees](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n261/mode/1up)
+- Row `1040`; L2; p=`blank`; c=1: [Manila Hemp](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n261/mode/1up)
+- Row `1041`; L2; p=`blank`; c=1: [Tobacco](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n261/mode/1up)
+- Row `1042`; L2; p=`blank`; c=1: [Forestry](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n261/mode/1up)
+- Row `1043`; L2; p=`blank`; c=1: [Mining](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n261/mode/1up)
+- Row `1044`; L2; p=`blank`; c=1: [Gold](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n261/mode/1up)
+- Row `1045`; L2; p=`blank`; c=1: [Iron](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n261/mode/1up)
+- Row `1046`; L2; p=`blank`; c=1: [Coal](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n261/mode/1up)
+- Row `1047`; L2; p=`blank`; c=1: [Chromite](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n261/mode/1up)
+- Row `1048`; L2; p=`blank`; c=1: [Foreign Trade](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n261/mode/1up)
+### FRENCH INDO-CHINA
+
+- Row `1049`; L0; p=`1106`: [FRENCH INDO-CHINA](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n266/mode/1up)
+- Row `1050`; L2; p=`1106`: [Position & Area](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n266/mode/1up)
+  - `IMG_5395_1`: 1. Area and Population
+- Row `1051`; L2; p=`blank`; c=1: [Population](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n266/mode/1up)
+- Row `1052`; L2; p=`blank`; c=1: [Topography](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n266/mode/1up)
+- Row `1053`; L2; p=`blank`; c=1: [Climate](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n266/mode/1up)
+- Row `1054`; L2; p=`blank`; c=1: [Inhabitants](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n266/mode/1up)
+- Row `1055`; L2; p=`blank`; c=1: [Government](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n266/mode/1up)
+- Row `1056`; L2; p=`1108`: [Industries & Resources](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n267/mode/1up)
+- Row `1057`; L2; p=`blank`; c=1: [Agriculture](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n266/mode/1up)
+- Row `1058`; L2; p=`blank`; c=1: [Forestry](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n266/mode/1up)
+- Row `1059`; L2; p=`blank`; c=1: [Fishery](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n266/mode/1up)
+- Row `1060`; L2; p=`blank`; c=1: [Mining](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n266/mode/1up)
+- Row `1061`; L2; p=`blank`; c=1: [Principal Mineral Output](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n266/mode/1up)
+- Row `1062`; L2; p=`1109`: [Manufacturing Industry](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n267/mode/1up)
+  - `IMG_5396_1`: 2. Principal Mineral Output
+  - `IMG_5397_1`: 3. Yearly Comparison of Foreign Trade
+- Row `1063`; L2; p=`blank`; c=1: [Communications](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n266/mode/1up)
+- Row `1064`; L2; p=`blank`; c=1: [Railways](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n266/mode/1up)
+- Row `1065`; L2; p=`blank`; c=1: [Shipping](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n266/mode/1up)
+- Row `1066`; L2; p=`blank`; c=1: [Foreign Trade](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n266/mode/1up)
+### THAILAND
+
+- Row `1067`; L0; p=`1114`: [THAILAND](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n269/mode/1up)
+  - `IMG_5398_1`: 4. Foreign Trade Classified By Countries
+  - `IMG_5398_2`: 5. Principal Commodities Exported
+  - `IMG_5398_3`: 6. Principal Commodities Imported
+- Row `1068`; L2; p=`114`: [Position](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%201%20Japan/page/n81/mode/1up)
+  - `IMG_4895_1`: 2. No. of Shinto Shrines and Priests
+  - `IMG_4896_1`: 3. No. of Temples and Priests
+  - `IMG_4897_1`: 4. Statistics of Christianity
+- Row `1069`; L2; p=`blank`; c=1: [Area](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n269/mode/1up)
+- Row `1070`; L2; p=`blank`; c=1: [Population](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n269/mode/1up)
+- Row `1071`; L2; p=`blank`; c=1: [Social Communities & Culture](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n269/mode/1up)
+- Row `1072`; L2; p=`blank`; c=1: [Politics](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n269/mode/1up)
+- Row `1073`; L2; p=`blank`; c=1: [Banking & Finances](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n269/mode/1up)
+- Row `1074`; L2; p=`blank`; c=1: [Foreign Economic Influence](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n269/mode/1up)
+- Row `1075`; L2; p=`1117`: [Industries](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n271/mode/1up)
+- Row `1076`; L2; p=`blank`; c=1: [Agriculture](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n269/mode/1up)
+- Row `1077`; L2; p=`blank`; c=1: [Rubber](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n269/mode/1up)
+- Row `1078`; L2; p=`blank`; c=1: [Tin](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n269/mode/1up)
+- Row `1079`; L2; p=`blank`; c=1: [Rice](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n269/mode/1up)
+- Row `1080`; L2; p=`blank`; c=1: [Tobacco](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n269/mode/1up)
+- Row `1081`; L2; p=`blank`; c=1: [Cotton](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n269/mode/1up)
+- Row `1082`; L2; p=`blank`; c=1: [Stock-breeding](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n269/mode/1up)
+- Row `1083`; L2; p=`1118`: [Forestry](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n271/mode/1up)
+  - `IMG_5400_1`: 1. Production of Rubber, Tin Ore, Rice
+  - `IMG_5403_1`: 2. Foreign Trade of Thailand
+  - `IMG_5403_2`: 3. Foreign Trade by Principal Countries
+  - `IMG_5403_3`: 4. Principal Commodities Imported and Exported
+- Row `1084`; L2; p=`blank`; c=1: [Mining](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n269/mode/1up)
+- Row `1085`; L2; p=`blank`; c=1: [Communications](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n269/mode/1up)
+- Row `1086`; L2; p=`blank`; c=1: [Railways](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n269/mode/1up)
+- Row `1087`; L2; p=`blank`; c=1: [Navigation](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n269/mode/1up)
+- Row `1088`; L2; p=`blank`; c=1: [Telegraph & Telephone](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n269/mode/1up)
+- Row `1089`; L2; p=`blank`; c=1: [Foreign Trade](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n269/mode/1up)
+- Row `1090`; L2; p=`blank`; c=1: [Thai & French Indo-China Border Settlement](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n269/mode/1up)
+### BRITISH MALAYA
+
+- Row `1091`; L0; p=`1123`: [BRITISH MALAYA](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n275/mode/1up)
+- Row `1092`; L2; p=`1123`: [Area & Topography](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n275/mode/1up)
+- Row `1093`; L2; p=`blank`; c=1: [Administrative Divisions](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n275/mode/1up)
+- Row `1094`; L2; p=`blank`; c=1: [Christmas Island](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n275/mode/1up)
+- Row `1095`; L2; p=`blank`; c=1: [Malacca](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n275/mode/1up)
+- Row `1096`; L2; p=`blank`; c=1: [Penang](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n275/mode/1up)
+- Row `1097`; L2; p=`blank`; c=1: [Labuan](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n275/mode/1up)
+- Row `1098`; L2; p=`blank`; c=1: [Federated Malay States](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n275/mode/1up)
+- Row `1099`; L2; p=`blank`; c=1: [Non-Federated Malay States](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n275/mode/1up)
+- Row `1100`; L2; p=`1124`: [Climate](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n276/mode/1up)
+  - `IMG_5407_1`: 1. Foreign Trade of British Malaya
+  - `IMG_5407_2`: 2. Imports and Exports of British Malaya by Countries
+  - `IMG_5407_3`: 3. Principal Imports and Exports of British Malaya
+- Row `1101`; L2; p=`blank`; c=1: [Races & Population](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n275/mode/1up)
+- Row `1102`; L2; p=`blank`; c=1: [Government](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n275/mode/1up)
+- Row `1103`; L2; p=`blank`; c=1: [Finance](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n275/mode/1up)
+- Row `1104`; L2; p=`blank`; c=1: [Currency](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n275/mode/1up)
+- Row `1105`; L2; p=`blank`; c=1: [Industries](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n275/mode/1up)
+- Row `1106`; L2; p=`blank`; c=1: [Agriculture](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n275/mode/1up)
+- Row `1107`; L2; p=`blank`; c=1: [Rubber](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n275/mode/1up)
+- Row `1108`; L2; p=`blank`; c=1: [Coconuts](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n275/mode/1up)
+- Row `1109`; L2; p=`blank`; c=1: [Rice](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n275/mode/1up)
+- Row `1110`; L2; p=`blank`; c=1: [Oil Palms](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n275/mode/1up)
+- Row `1111`; L2; p=`blank`; c=1: [Pineapples](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n275/mode/1up)
+- Row `1112`; L2; p=`blank`; c=1: [Tin](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n275/mode/1up)
+- Row `1113`; L2; p=`blank`; c=1: [Gold](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n275/mode/1up)
+- Row `1114`; L2; p=`blank`; c=1: [Coal](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n275/mode/1up)
+- Row `1115`; L2; p=`blank`; c=1: [Iron Ore](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n275/mode/1up)
+- Row `1116`; L2; p=`blank`; c=1: [Tungsten](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n275/mode/1up)
+- Row `1117`; L2; p=`blank`; c=1: [Manganese](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n275/mode/1up)
+- Row `1118`; L2; p=`blank`; c=1: [Galena](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n275/mode/1up)
+- Row `1119`; L2; p=`blank`; c=1: [Fisheries](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n275/mode/1up)
+- Row `1120`; L2; p=`blank`; c=1: [Foreign Trade](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n275/mode/1up)
+### NETHERLANDS EAST INDIES
+
+- Row `1121`; L0; p=`1130`: [NETHERLANDS EAST INDIES](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n279/mode/1up)
+- Row `1122`; L2; p=`1130`: [Topography and Climate](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n279/mode/1up)
+- Row `1123`; L2; p=`blank`; c=1: [Area](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n279/mode/1up)
+- Row `1124`; L2; p=`blank`; c=1: [Population](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n279/mode/1up)
+- Row `1125`; L2; p=`blank`; c=1: [Population by Occupation](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n279/mode/1up)
+- Row `1126`; L2; p=`1132`: [Agriculture](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n279/mode/1up)
+  - `IMG_5408_1`: 1. Area of Netherlands East Indies
+  - `IMG_5408_2`: 2. Population of the Netherlands East Indies Classified by Nationalities
+  - `IMG_5408_3`: 3. Population Classified by Occupation
+  - `IMG_5409_1`: 4. Output of Agricultural Products
+- Row `1127`; L2; p=`blank`; c=1: [Output of Agricultural Products](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n279/mode/1up)
+- Row `1128`; L2; p=`blank`; c=1: [Sugar Cane](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n279/mode/1up)
+- Row `1129`; L2; p=`blank`; c=1: [Rubber](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n279/mode/1up)
+- Row `1130`; L2; p=`blank`; c=1: [Tea](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n279/mode/1up)
+- Row `1131`; L2; p=`blank`; c=1: [Coffee](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n279/mode/1up)
+- Row `1132`; L2; p=`blank`; c=1: [Copra](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n279/mode/1up)
+- Row `1133`; L2; p=`blank`; c=1: [Palm Oil](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n279/mode/1up)
+- Row `1134`; L2; p=`blank`; c=1: [Cinchona](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n279/mode/1up)
+- Row `1135`; L2; p=`blank`; c=1: [Tobacco](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n279/mode/1up)
+- Row `1136`; L2; p=`blank`; c=1: [Pepper](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n279/mode/1up)
+- Row `1137`; L2; p=`blank`; c=1: [Kapok](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n279/mode/1up)
+- Row `1138`; L2; p=`blank`; c=1: [Sisal](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n279/mode/1up)
+- Row `1139`; L2; p=`blank`; c=1: [Cantala](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n279/mode/1up)
+- Row `1140`; L2; p=`blank`; c=1: [Gambier](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n279/mode/1up)
+- Row `1141`; L2; p=`blank`; c=1: [Coca](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n279/mode/1up)
+- Row `1142`; L2; p=`blank`; c=1: [Nutmeg](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n279/mode/1up)
+- Row `1143`; L2; p=`blank`; c=1: [Tapioca](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n279/mode/1up)
+- Row `1144`; L2; p=`blank`; c=1: [Citronella](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n279/mode/1up)
+- Row `1145`; L2; p=`blank`; c=1: [Rice](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n279/mode/1up)
+- Row `1146`; L2; p=`blank`; c=1: [Maize](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n279/mode/1up)
+- Row `1147`; L2; p=`blank`; c=1: [Groundnuts](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n279/mode/1up)
+- Row `1148`; L2; p=`blank`; c=1: [Cassava Roots](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n279/mode/1up)
+- Row `1149`; L2; p=`1134`: [Quinine](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n281/mode/1up)
+  - `IMG_5410_1`: 5. Other Crops Grown by Natives
+  - `IMG_5411_1`: 6. Number of Livestocks
+  - `IMG_5411_2`: 7. Output of Principal Minerals
+- Row `1150`; L2; p=`blank`; c=1: [Forestry](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n279/mode/1up)
+- Row `1151`; L2; p=`blank`; c=1: [Livestock](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n279/mode/1up)
+- Row `1152`; L2; p=`blank`; c=1: [Mining](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n279/mode/1up)
+- Row `1153`; L2; p=`blank`; c=1: [Tin](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n279/mode/1up)
+- Row `1154`; L2; p=`blank`; c=1: [Coal](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n279/mode/1up)
+- Row `1155`; L2; p=`blank`; c=1: [Zinc](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n279/mode/1up)
+- Row `1156`; L2; p=`blank`; c=1: [Bauxite](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n279/mode/1up)
+- Row `1157`; L2; p=`blank`; c=1: [Phosphate](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n279/mode/1up)
+- Row `1158`; L2; p=`blank`; c=1: [Manganese](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n279/mode/1up)
+- Row `1159`; L2; p=`blank`; c=1: [Nickel](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n279/mode/1up)
+- Row `1160`; L2; p=`blank`; c=1: [Sulphur](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n279/mode/1up)
+- Row `1161`; L2; p=`blank`; c=1: [Petroleum](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n279/mode/1up)
+- Row `1162`; L2; p=`blank`; c=1: [Coal](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n279/mode/1up)
+- Row `1163`; L2; p=`1139`: [Manufacturing Industries](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n283/mode/1up)
+  - `IMG_5412_1`: 8. Petroleum Production Classified by Islands
+  - `IMG_5412_2`: 9. Derivates of Petroleum Classified
+  - `IMG_5412_3`: [Principal factories built with foreign capital]
+  - `IMG_5413_1`: [Regular shipping lines between the Netherlands East Indies and Europe]
+  - `IMG_5413_2`: 10. Air Service
+- Row `1164`; L2; p=`blank`; c=1: [Communications](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n279/mode/1up)
+- Row `1165`; L2; p=`blank`; c=1: [Shipping](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n279/mode/1up)
+- Row `1166`; L2; p=`blank`; c=1: [Railways](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n279/mode/1up)
+- Row `1167`; L2; p=`blank`; c=1: [Highways](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n279/mode/1up)
+- Row `1168`; L2; p=`blank`; c=1: [Air Transport](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n279/mode/1up)
+- Row `1169`; L2; p=`blank`; c=1: [Postal Service](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n279/mode/1up)
+- Row `1170`; L2; p=`1142`: [Foreign Trade](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n285/mode/1up)
+  - `IMG_5414_1`: 11. Foreign Trade
+  - `IMG_5414_2`: 12. Foregin Trade of Dutch East Indies
+  - `IMG_5414_3`: 13. Analysis of Imports
+  - `IMG_5416_1`: 14. Analysis of Exports
+### BRITISH BORNEO
+
+- Row `1171`; L0; p=`1148`: [BRITISH BORNEO](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n288/mode/1up)
+- Row `1172`; L2; p=`1148`: [History](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n288/mode/1up)
+- Row `1173`; L2; p=`blank`; c=1: [Area](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n288/mode/1up)
+- Row `1174`; L2; p=`blank`; c=1: [Population](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n288/mode/1up)
+- Row `1175`; L2; p=`blank`; c=1: [Material Resources and Industries](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n288/mode/1up)
+- Row `1176`; L2; p=`blank`; c=1: [External Trade](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n288/mode/1up)
+- Row `1177`; L2; p=`blank`; c=1: [Kingdom of Brunei](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n288/mode/1up)
+- Row `1178`; L2; p=`blank`; c=1: [Kingdom of Sarawak](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n288/mode/1up)
+### GENERAL INDEX
+
+- Row `1179`; L0; p=`1151`: [GENERAL INDEX](https://archive.org/details/far-east-year-book-1941/Far%20East%20Year%20Book%201941%20Part%202/page/n289/mode/1up)
+### MAP and DIAGRAMS
+
+- Row `1180`; L0; p=`blank`: MAP and DIAGRAMS (URL missing)
+- Row `1181`; L1; p=`204`: Air Route Map of Japan, Manchoukuo and China (URL missing)
+- Row `1182`; L1; p=`674`: Manchoukuo Railway Map (URL missing)
+- Row `1183`; L1; p=`1`: Diagrams (URL missing)

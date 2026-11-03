@@ -1,0 +1,692 @@
+monopoly-finance|(?:monopoly.{0,15}(?:receipts|income|revenue)|income from.{0,15}monopoly)|finance|state-monopolies|Government monopoly receipts and income.
+opium|opium|narcotics|opium|Opium cultivation, manufacture, sales or consumption.
+morphine|morphine|narcotics|morphine-and-heroin|Morphine manufacture, sales or consumption.
+navy|(?:naval|navy)|military|navy|Naval forces and vessels.
+army|(?:army|military forces|troop)|military|army|Army establishments, personnel and forces.
+elections|(?:election|ballot|councils)|government|elections-and-parties,local-government|Local representative councils and elections.
+honours|(?:meritorious conduct|honou?rs|decorations|ranks)|government|honours-and-ranks|Official honours, recognition and status.
+suspension-sentence|suspension of penal|crime-and-justice|offences-and-convictions|Suspended penal sentences.
+rehabilitation-offenders|(?:probation|aftercare|discharged prisoners)|crime-and-justice|prisoner-aftercare|Aftercare and rehabilitation of released prisoners.
+comm-general2|communications (?:offices|services)|communications|postal-services,telegraph,telephone|Combined postal and telecommunication facilities or operating accounts.
+air-transport|(?:air transport|air traffic|aviation|airlines)|transportation|aviation|Air transport establishments and traffic.
+patients|patients treated|health|medical-services|Patient attendance and treatment.
+water-conservancy|(?:river improvement|river conservancy|dikes|embankments)|utilities|river-conservancy,flood-control|River engineering and protective works.
+roads2|road improvement|transportation|roads-and-bridges|Road improvement length and expenditure.
+financial-deposits|(?:advances.{0,12}deposits|deposits.{0,12}advances)|finance|savings-and-loans|Lending and deposit balances.
+interest2|rates of interest|finance|interest-rates|Deposit and lending interest quotations.
+trade-general2|(?:trade (?:for|with|of chosen)|trade.{0,10}foreign)|trade|exports,imports|Foreign and interterritorial trade by year, country or direction.
+contract-navigation|(?:contract.{0,15}(?:navigation|marine transportation))|transportation|shipping|Contract shipping routes, subsidies and traffic.
+fruit-trees2|fruit.trees|agriculture|horticulture|Fruit tree counts and yields.
+odc-accounts|business returns of o|trade|companies|Oriental Development Company operating and capital accounts.
+mining-permits2|mining (?:permit|applications|permissions)|mining|mining-rights-and-concessions|Applications and permissions for mining rights.
+mineral-deposits|mineral deposits|mining|mineral-reserves|Location or extent of mineral deposits.
+fund-accounts|(?:accounts of fund|allotment of funds)|finance,welfare|public-budgets|Public donation fund receipts and allocation for livelihood, education and relief.
+mineral-output2|(?:output of minerals|principal minerals)|mining|mineral-production|Multi-mineral production quantities and values.
+fishing2|(?:fishing industry|fishing grants)|fisheries|fishing|Fishing establishments, boats, participants and catch.
+education-institutions|educational institutions|education|schools-and-pupils|Educational establishments, staff and enrolment.
+currency2|currency.{0,10}circulation|finance|currency|Currency stocks and circulation.
+nav-signals|navigation signals|transportation|navigation-aids|Coastal navigation signals and facilities.
+incorporations|(?:incorporated|joint.stock|partnerships)|trade|companies|Business incorporation, establishments and capital.
+construction|(?:buildings|construction works)|utilities|construction|Construction projects and buildings.
+forestry-products|forest products|forestry|timber|Forest products and output.
+farmhouseholds|farm households|agriculture|households|Farm household numbers and distribution.
+landowner|landowners|agriculture|land-tenure|Landowners and agricultural ownership.
+households|(?:households|families)|population|households|Household and family counts.
+total-area|(?:area and population|total area|areas of|area of chosen)|geography|land-area|Territorial land area.
+suicide|suicide|population|suicide|Reported suicides without inferred diagnosis.
+health-nutrition|nutrition|health|nutrition|Food consumption and nutritional composition.
+industrial-accidents|industrial accidents|labour|industrial-accidents|Workplace accidents and injuries.
+cost-living|cost of living|labour|cost-of-living|Worker living cost indices.
+scientific-research|(?:scientific|research institutes)|science-and-technology|scientific-research|Scientific research institutions, activities and resources.
+patents|(?:patents|trademarks|trade marks)|science-and-technology|patents-and-trademarks|Patent and trademark applications or registrations.
+warehouses|warehouses?|trade|warehousing|Warehouse facilities and stored goods.
+domestic-trade|domestic trade|trade|domestic-trade|Domestic goods transactions.
+whaling|whaling|fisheries|whaling|Whale catch and whaling operations.
+aquaculture|(?:aquaculture|fish cultivation|fish breeding)|fisheries|aquaculture|Cultivation and breeding of aquatic species.
+sugar|sugar|manufacturing|sugar|Sugar manufacture and processing.
+camphor|camphor|forestry|camphor|Camphor resources, production and control.
+textile-silk|(?:silk (?:manufactur|reel|industry)|raw silk)|manufacturing|silk|Silk manufacture and reeling.
+textile-cotton|(?:cotton (?:mills|yarn|cloth)|cotton weaving)|manufacturing|cotton|Cotton textile manufacture.
+textiles|(?:textiles|weaving|spinning)|manufacturing|textiles|Textile manufacture and capacity.
+ceramics|(?:pottery|porcelain|ceramics|glass)|manufacturing|ceramics-and-glass|Ceramic and glass manufacture.
+cement|(?:cement|bricks)|manufacturing|cement-and-bricks|Cement and brick manufacture.
+chemicals|(?:chemicals|sulphuric|matches)|manufacturing|chemicals|Chemical and match manufacture.
+food-process|(?:flour mills|food processing|brewing|sake|liquors)|manufacturing|food-processing,alcohol|Food processing and alcoholic beverage manufacture.
+leather|(?:leather|tanning)|manufacturing|leather-and-furs|Leather processing and tanning.
+paper|\bpaper\b|manufacturing|paper-and-pulp|Paper and pulp manufacture.
+steel|(?:pig iron|steel|iron foundr)|manufacturing|iron-and-steel|Iron and steel smelting and manufacture.
+coal2|coal|mining|coal|Coal mining and output.
+ore-metals|(?:copper mines|copper production)|mining|copper|Copper extraction and production.
+silver|silver mines|mining|silver|Silver mining.
+tea|\btea\b|agriculture|tea|Tea cultivation and output.
+pineapples|pineapples|agriculture|pineapples|Pineapple cultivation and output.
+sugarcane|sugar.?cane|agriculture|sugarcane|Sugarcane cultivation and harvest.
+coffee|coffee|agriculture|coffee|Coffee cultivation and harvest.
+soybeans|soy.?beans|agriculture|soybeans|Soybean cultivation and production.
+barley|barley|agriculture|barley|Barley cultivation and production.
+wheat|wheat|agriculture|wheat|Wheat cultivation and production.
+oilseeds|(?:rapeseed|sesame|peanuts|oilseeds)|agriculture|oilseeds|Oilseed cultivation and production.
+hemp|(?:hemp|ramie|jute)|agriculture|plant-fibres|Fibre crop cultivation and output.
+vegetables|(?:vegetables|horticultur|fruits)|agriculture|horticulture|Fruit and vegetable crops.
+tobacco|tobacco|agriculture|tobacco|Tobacco crop cultivation and production.
+land-reclamation|reclaimed land|agriculture|land-reclamation|Land reclamation and development.
+
+public-donation-funds|imperial (?:donation|gift).{0,25}fund|finance,welfare|public-budgets|Imperial donation fund receipts and allocations for education and relief.
+note-associations|note associations|finance|mutual-credit|Associations guaranteeing members' bills and credit.
+printing-office|printing office|manufacturing|industrial-output|Printing establishment production, accounts and staff; no narrower printing tag exists.
+public-buildings|government buildings|utilities,government|construction,government-offices|Public buildings constructed, repaired or extended.
+communications-general|communication (?:services|facilities)|communications|postal-services,telegraph,telephone|Combined postal and telecommunication establishments or activity.
+vaccinated|vaccinated|health|vaccination|People receiving vaccination.
+water-works|water.works|utilities|water-and-sewerage|Water supply facilities and operating results.
+textbooks|text.books|education,press|books|Production and distribution of school textbooks.
+official-documents|official documents|government|government-offices|Documents received and despatched by public offices.
+overseas-residents|(?:residing abroad|residents abroad|overseas)|population|overseas-communities|Resident communities outside their home territory.
+real-estate-certification|certification of real estate|crime-and-justice|land-registration|Certification of land and real property rights.
+temples|temples|religion|buddhism,religious-institutions|Buddhist temple establishments.
+kei-guilds|money.saving guilds|finance|mutual-credit|Rotating local savings and credit guilds.
+special-accounts|special account|finance|public-budgets|Government special account revenue and expenditure.
+levies|(?:additional levies|local levies)|finance|taxation|Locally levied taxes and additional assessments.
+customs-receipts2|customs receipts|finance|customs-revenue|Customs receipts compared with estimates.
+ferries|(?:ferry|steam.{0,10}sailing ships|contract navigation)|transportation|shipping|Ferry and coastal vessel routes and operations.
+river-transport|river transportation|transportation|inland-navigation|Transport services on inland rivers.
+contract-shipping|business of contract services|transportation|shipping|Contract vessel service operating statistics.
+pilotage|pilotage|transportation|navigation-aids,shipping|Pilot services for vessel navigation.
+coastal-lights|illuminating apparatus|transportation|navigation-aids|Coastal navigation lights and signals.
+improved-rice|improved rice|agriculture|rice,agricultural-extension|Improved rice varieties, area and yield.
+japanese-farms|agricultural undertakings|agriculture|land-tenure|Agricultural ownership, capital and cultivated area.
+chambers|chambers of commerce|trade|business-associations|Chambers of commerce and their membership and activities.
+iron-ore|iron ore|mining|iron-ore|Iron ore extraction, supply and resources.
+hygienic-laboratory|hygienic laboratory|health|public-health,food-inspection|Laboratory examination of drugs, food, drinks and materials.
+geographical-position|geographical (?:situation|position)|geography|physical-geography|Territorial locations and geographical coordinates.
+posts-parcels|posts and parcels|communications|postal-services|Postal mail and parcel service.
+village-income|(?:village offices.{0,8}income|income of village offices)|finance,government|public-budgets,local-government|Village public income accounts.
+yoktun|yoktun|finance,agriculture|public-property,land-tenure|Public agricultural estates, tenants and rental receipts.
+currency-circulation|money in circulation|finance|currency|Currency circulation by kind and issuing authority.
+irrigation-barrages|barrages and ponds|agriculture|irrigation|Irrigation works, repair costs, command area and yield benefits.
+fruit-trees|fruit trees|agriculture|horticulture|Fruit tree populations and yields.
+mining-products|mining products|mining|mineral-production|Multi-mineral extraction output.
+anti-epizootic|(?:cattle plagues|epizootic)|health,agriculture|veterinary-health|Animal diseases and prevention.
+mixed-cases|civil and criminal cases|crime-and-justice|courts,civil-litigation|Civil and criminal caseload, not an assumption of criminal conviction.
+
+# id|title regex|topics|tags|reason
+units|weights.{0,20}measures|science-and-technology|measurement-and-units|Physical units and their equivalents or administrative measurement standards.
+units-jp|度量衡|science-and-technology|measurement-and-units|Weights and measures, instruments or inspection.
+calendar|calendar|science-and-technology|calendars-and-time|Calendar and date reference table.
+chronology|chronolog|history|historical-chronologies|Chronology of historical events.
+land-survey|land survey|geography|land-surveys|Land survey work, surveyed area or dedicated survey resources.
+land-registration|land registration|crime-and-justice|land-registration|Registration of land rights and transactions.
+property-certification|certification of immovable|crime-and-justice|land-registration|Official certification of immovable property rights.
+land-tax|land tax|finance|land-tax|Land taxation, taxable units or tax receipts.
+salt-tax|salt tax|finance|salt-tax|Salt taxation and production.
+customs-receipts|customs (?:duties|revenue)|finance|customs-revenue|Receipts or collection of customs duties.
+excise|(?:tax|taxation|impost|稅|税)|finance|taxation|Tax rates, assessment, exemptions or receipts.
+public-debt|public loans|finance|public-debt|Government borrowing and debt service.
+postal-savings|postal savings|finance|savings-and-loans|Post office savings accounts and deposits.
+post-office-savings|post office savings|finance|savings-and-loans|Post office savings balances and transactions.
+postal-remittances|money orders|communications|postal-remittances|Postal money orders and remittances.
+remittances|remittance|finance|migrant-remittances|Remittance flows; specialised postal transfers are handled separately.
+currency|coins|finance|currency|Coinage, withdrawal or circulation of currency.
+notes-currency|bank.?notes|finance|currency|Banknote issues and reserve backing.
+exchange|exchange rates|finance|foreign-exchange|Currency exchange quotations.
+interest|interest rates|finance|interest-rates|Interest rates by financial institution or transaction.
+insurance|insurance|finance|insurance-and-pensions|Insurance organisations, contracts or claims.
+pawnshops|pawn.?shop|finance|pawnshops|Pawnbroking establishments and transactions.
+mutual-credit|kiny[uū] kumiai|finance|mutual-credit|Kinyu kumiai mutual credit associations.
+banking|banks?|finance|banking|Bank organisations, capital or financial operations.
+clearing-houses|clearing house|finance|banking|Clearing of bills and cheques.
+securities|securities|finance|securities-and-investment|Securities and financial investment.
+shares|stock exchange|finance,trade|securities-and-investment,markets-and-exchanges|Securities exchange quotations and transactions.
+savings|savings|finance|savings-and-loans|Savings accounts and deposit transactions.
+loans|loans|finance|savings-and-loans|Lending balances and transactions.
+press-censorship|(?:newspapers|books|printed matter).{0,25}(?:confiscated|prohibited)|press,government|censorship|Suppression of publications.
+newspapers|newspapers|press|newspapers|Newspaper publication and circulation.
+periodicals|periodicals|press|periodicals|Periodical publications.
+books|books published|press|books|Book publication.
+exports-imports|(?:foreign trade|exports? and imports?|imports? and exports?|trade according to)|trade|exports,imports|Foreign or interterritorial merchandise trade.
+exports|exports?|trade|exports|Outward merchandise trade.
+imports|imports?|trade|imports|Inward merchandise trade.
+bullion-trade|specie and bullion|trade|exports,imports|Cross-border movements of specie and bullion.
+tariff|tariff|trade|tariffs|Cross-border tariff rates or commodity schedules.
+market-prices|(?:prices|price index)|trade|prices|Commodity price quotations or price indices.
+wages|wages|labour|wages|Pay rates by occupation or industry.
+labour-disputes|(?:labou?r disputes|strikes)|labour|labour-disputes|Labour disputes and affected workers.
+labour-unions|(?:labou?r unions|trade unions)|labour|trade-unions|Worker organisation and membership.
+working-hours|working hours|labour|working-conditions|Duration and conditions of work.
+worker-employment|(?:employees|workers|labou?rers).{0,25}(?:industry|nationality)|labour|employment-and-unemployment|Workforce counts and distribution.
+employment-placement|employment (?:exchanges|placement)|labour|employment-placement|Employment matching and placement services.
+prison-labour|prison.{0,15}(?:labou?r|work)|crime-and-justice|prisons,prison-labour|Prison labour and its products.
+prisons|prison|crime-and-justice|prisons|Prisons, prison staff and prisoners.
+criminal-cases|(?:criminal cases|criminals|convictions|offences|offenses)|crime-and-justice|offences-and-convictions|Criminal offences and case outcomes.
+civil-cases|civil cases|crime-and-justice|civil-litigation,courts|Civil litigation caseload.
+courts|(?:courts|judicial cases)|crime-and-justice|courts|Judicial institutions and caseload.
+police|(?:police|gendarm)|crime-and-justice|police|Police establishments, strength and activity.
+suppression-insurgents|suppression of insurgents|military,colonial-rule|war-and-mobilisation,independence-movements,military-casualties|Armed suppression of colonial resistance and reported casualties.
+medical-training|(?:medical|nurses?).{0,20}(?:schools|training)|health,education|vocational-education,medical-services|Training of medical personnel.
+health-diseases|(?:diseases|plague|epidemic|cholera)|health|diseases,epidemics|Disease incidence and epidemic control.
+veterinary|(?:cattle plague|epizootic|veterinary)|health,agriculture|veterinary-health|Animal disease and veterinary measures.
+vaccination|vaccination|health|vaccination|Preventive vaccination activities.
+medical-services|(?:hospitals|physicians|medical|midwives|dispensar)|health|medical-services|Healthcare personnel, institutions and treatment.
+quarantine|quarantine|health|quarantine|Quarantine examination and control.
+public-health|(?:sanitation|sanitary)|health|public-health|Public health and sanitation services.
+mission-religion|(?:christian churches|christianity|missionaries)|religion|christianity,missions|Christian missions, institutions and adherents.
+religious-general|religio|religion|religious-institutions,religious-affiliation|Religious organisations and adherents.
+buddhism|buddhis|religion|buddhism|Buddhist institutions and adherents.
+shinto|shinto|religion|shinto|Shinto institutions and worship.
+confucianism|confucian|religion|confucianism|Confucian institutions and ceremonies.
+school-finance|(?:school|education).{0,25}(?:expenses|expenditure|receipts|revenue|budget|funds)|education,finance|education-finance|Dedicated educational finance.
+student-abroad|(?:students abroad|studying abroad)|education|students-abroad|Students studying overseas.
+kindergarten|kindergarten|education|kindergartens|Kindergarten institutions and pupils.
+primary-education|(?:primary schools?|elementary schools?|common schools?)|education|primary-education|Primary education institutions, pupils and staff.
+secondary-education|(?:middle schools?|secondary schools?|high schools?)|education|secondary-education|Secondary education institutions, pupils and staff.
+higher-education|(?:universit|higher education|colleges?)|education|higher-education|Universities and colleges, teaching and enrolment.
+teacher-training|(?:normal schools?|teacher training)|education|teacher-training|Teacher training institutions and students.
+vocational-education|(?:technical schools?|industrial schools?|vocational|industrial training)|education|vocational-education|Practical and vocational education.
+libraries|librar|education|libraries|Libraries and holdings.
+schools|(?:schools?|education statistics)|education|schools-and-pupils|School institutions and enrolment collectively.
+charity|(?:charit|poor relief|relief)|welfare|poor-relief|Relief and assistance programmes.
+fires|(?:fires|conflagration)|disasters|fires|Fire incidents and losses.
+floods|flood|disasters|floods,disaster-losses|Flood events, affected areas and damage.
+forestry-survey|forest investigation|forestry|forest-area,timber|Surveyed forest area and timber resources.
+afforestation|(?:afforestation|reforestation|trees planted|forest seedlings|seedling stations)|forestry|afforestation|Forest nurseries, seedlings and planting.
+forestry-area|(?:forest area|area of forests)|forestry|forest-area|Forest extent and classification.
+timber|(?:timber|lumber|logs|felling|rafting)|forestry|timber|Timber felling, processing and movement.
+forestry-management|forest|forestry|forest-management|Forest administration and operations.
+mining-rights|(?:mining.{0,20}(?:permits|concessions|licences|claims)|mining areas)|mining|mining-rights-and-concessions|Mining licences, concessions and rights.
+mineral-output|(?:mineral products|mineral production|mining industry)|mining|mineral-production|Mineral extraction and output collectively.
+coal|coal|mining|coal|Coal production or mine operations.
+petroleum|(?:petroleum|oil wells)|mining|petroleum|Petroleum extraction and resources.
+gold|gold mines?|mining|gold|Gold mining and output.
+mineral-reserves|mineral reserves|mining|mineral-reserves|Estimated mineral deposits and reserves.
+salt|salt|mining|salt|Salt extraction, salterns and output.
+ginseng|ginseng|agriculture|ginseng|Ginseng cultivation, processing and monopoly operations.
+sericulture|(?:sericulture|silkworm|cocoons|mulberry)|agriculture|sericulture|Silkworm, cocoon and mulberry husbandry.
+cotton-agriculture|cotton (?:plant|cultiv)|agriculture|cotton|Cotton crop cultivation and production.
+rice-cultivation|(?:rice.{0,12}(?:production|cultiv|crop)|rice fields)|agriculture|rice|Rice cultivation and crop output.
+crops|(?:agricultural products|crops)|agriculture|crop-production|Crop production across agricultural products.
+arable-land|(?:cultivated lands?|cultivated area|arable|farm area)|agriculture|arable-land|Cultivated area and agricultural land use.
+land-tenure|(?:tenants|tenancy|land ownership)|agriculture|land-tenure|Farm ownership, tenancy and rents.
+wasteland|(?:waste lands?|reclamation)|agriculture|land-reclamation,land-tenure|Land reclamation, leases and allocation.
+irrigation|(?:irrigation|water utili[sz]ing)|agriculture|irrigation|Agricultural irrigation and water associations.
+agriculture-extension|(?:agricultural improvement|model farms|seeds and seedlings|agricultural experiment)|agriculture|agricultural-extension,farm-inputs|Agricultural improvement and distribution of improved inputs.
+livestock|(?:live.stock|cattle|horses|poultry)|agriculture|livestock|Livestock populations and animal husbandry.
+fishery-rights|(?:fishery.{0,20}(?:applications|permits|rights)|fishing.{0,15}(?:licences|permits))|fisheries|fishing-rights-and-licences|Fishing licences and fishery rights.
+fisheries|(?:fisher|marine products)|fisheries|fishing|Fishing activity and marine catch.
+manufacturing|(?:manufactur|factories|industrial products)|manufacturing|industrial-output|Manufacturing establishments and output.
+electricity|electric|utilities|electricity|Electric supply facilities, power and use.
+waterworks|waterworks|utilities|water-and-sewerage|Water supply infrastructure and operations.
+gas|gas works|utilities|gas|Gas supply facilities and production.
+tramways|tramways?|transportation|trams|Street or interurban tram systems.
+railways|railway|transportation|railways|Railway lines, traffic, construction and operating accounts.
+roads|(?:roads|road construction|bridges)|transportation|roads-and-bridges|Road or bridge construction and extent.
+motor-transport|(?:motor vehicles|motor buses|automobiles)|transportation|road-transport|Road vehicles and traffic.
+ports|(?:harbou?r|ports)|transportation|ports|Harbour and port infrastructure.
+shipping|(?:shipping|steamers|vessels|navigation services)|transportation|shipping|Vessels, sea traffic and navigation services.
+navigation-aids|(?:light.house|buoys|beacons)|transportation|navigation-aids|Navigation lights, beacons and signals.
+postal|(?:postal|post offices?|mails|parcel post)|communications|postal-services|Postal establishments, routes and mail traffic.
+telegraph|telegraph|communications|telegraph|Telegraph facilities and message traffic.
+telephone|telephone|communications|telephone|Telephone network and service traffic.
+radio|(?:broadcast|radio stations)|communications|radio|Radio and broadcasting facilities.
+markets|markets?|trade|markets-and-exchanges,domestic-trade|Markets and transactions in domestic goods.
+companies|(?:companies|corporations|company)|trade|companies|Business corporations, capital and operations.
+production-subsidies|(?:industrial encouragement|subsidies)|economy|production-subsidies|Public financial support for productive activities.
+cooperatives|co.?operativ|economy|cooperatives|Cooperative societies and activities.
+population-occupation|population.{0,20}occupation|population|occupations|Population by occupation.
+population-age|(?:population.{0,15}age|age.{0,15}population)|population|age-and-sex|Population age distribution.
+migration|(?:immigra|emigra|migration)|population|migration|Movement and settlement of people.
+birth-death|(?:births|deaths|vital statistics)|population|births-and-deaths|Births, deaths and natural population change.
+marriage|(?:marriages|divorces)|population|marriage-and-divorce|Marriage and divorce events.
+population|(?:population|census|dwellings)|population|population-totals|Population totals and distributions.
+area|(?:land area|area of provinces)|geography|land-area|Territorial surface area.
+mountains|(?:mountains|mountain peaks)|geography|physical-geography|Mountain locations and measured elevations.
+rivers|rivers|geography|rivers-and-waterways|River locations, lengths and waterways.
+islands|(?:islands|lakes|bays)|geography|physical-geography|Physical geographical features and measurements.
+weather|(?:meteorolog|rainfall|temperature|climate)|geography|weather|Weather observations and climate measures.
+admin-divisions|administrative divisions|government|administrative-divisions|Administrative territories and unit counts.
+public-property|state propert|finance|public-property|Public property and returns.
+public-budgets|(?:budget|revenue|expenditure|\btreasur(?:y|ies)\b|expenses)|finance|public-budgets|Public revenue and expenditure accounts.
+local-government|local government|government|local-government|Local governing institutions and administration.
+public-officials|(?:officials|government.general|government employees)|government|government-offices|Public institutions and civil service staffing.
+village-accounts|village office accounts|finance,government|public-budgets,local-government|Local office receipts and expenditure.
+governors-general|governors.general|government,colonial-rule|colonial-administration,government-offices|Formal colonial governors and administrative superintendents and their tenure.
+economic-indicators|(?:economic statistics|economic indicators|economic progress|commercial and industrial conditions|commerce and finance)|economy|economic-indicators|Comparative barometer spanning trade, finance and productive sectors.
+air-passengers|air passengers|transportation|aviation|Air passenger, mail and freight traffic.
+poppy|poppy|narcotics,agriculture|opium|Poppy crop area and opium production.
+new-insurance-contracts|new contracts by fiscal|finance|insurance-and-pensions,nationality-and-ethnicity|Postal insurance contracts by nationality and year.
+rural-self-help|(?:rural self.help|replenishing the shortage of food)|economy,welfare|rural-development,food-supply-and-rationing,poverty|Rural livelihood guidance and household food shortages.
+rural-debt|repayment of debts|finance,economy|savings-and-loans,rural-development|Rural household debt and repayment under guidance plans.
+household-budgets|accounts per household|welfare|household-budgets|Household income, expenditure and deficits.
+place-names|geographical place names|geography,population|physical-geography,languages|Place names and their readings in different languages.
+inhabitants|houses and inhabitants|population|population-totals,households,nationality-and-ethnicity|Resident population and dwellings by nationality.
+christian-propagation|christian propagation|religion|missions,christianity,religious-affiliation|Christian missions, preaching and believers.
+mission-education|educational undertakings.{0,25}churches|education,religion|mission-schools|Schools run by Christian missions.
+road-vehicles|number of vehicles|transportation|road-transport|Road vehicles by type.
+registered-ships|ships registered|transportation|shipping|Registered vessels and tonnage.
+annual-budget|annual account|finance|public-budgets|Government annual budget accounts.
+municipal-accounts|(?:aggregate accounts|accounts of the cities)|finance|public-budgets|Combined municipal public accounts.
+annexation|annexation|colonial-rule,government|annexation-and-protectorates,government-offices|Annexation instruments and associated officials.
+area-situation|area and situation|geography|land-area,physical-geography|Territorial area, extent and location.
+mail-matter|mail matters?|communications|postal-services|Mail collected and delivered.
+irrigation-utilization|water.utili[sz]ation associations|agriculture|irrigation|Irrigation association counts, area and costs.
+admin-reform|(?:reform plans|essential points aimed|subjects of definite plans|subjects of the plans|definite plans were drawn)|government,colonial-rule|colonial-administration|Colonial administrative reform objectives and plans.
+national-debt|national debt|finance|public-debt|Government debt outstanding.
+trade-figures|(?:trade figures|trade by countries|table showing trade figures)|trade|exports,imports|Merchandise trade by year and partner.
+educational-organs|educational organs|education|schools-and-pupils|School institution and enrolment counts.
+japanese-language|(?:speaking japanese|understanding japanese)|education|language-education|Japanese language proficiency counts.
+mineral-output3|mineral output|mining|mineral-production|Multi-mineral output values.
+fish-catch|fish catch|fisheries|fishing|Fish catch by species and value.
+royal-house|(?:royal family|王族|王公族)|government|imperial-household|Royal household members, residences and status.
+peerage|(?:peerage|貴族)|government|honours-and-ranks|Peerage and hereditary rank.
+holidays|(?:holidays|祝祭日)|science-and-technology|calendars-and-time|Public holidays and calendar observances.
+age-reckoner|(?:reckoner of ages|年齡早見)|science-and-technology|calendars-and-time|Age and birth-year calendar concordance.
+area-jp|^(?:area |面積 )|geography|land-area|Territorial area.
+river-navigation|(?:river navigation|江運)|transportation|inland-navigation|Navigable river routes and distances.
+hydrology|(?:water.level|stream.gauging|discharge|測水|水位|流量)|geography|rivers-and-waterways|Hydrological observations and gauging stations.
+coastline|(?:coastline|海岸延長)|geography|physical-geography|Coastal length and configuration.
+coastal-divisions|provinces.{0,30}without sea coast|government,geography|administrative-divisions,physical-geography|Administrative units classified by access to the sea.
+weather2|(?:wind velocity|precipitation|clear days|stormy days|foggy days|frost seasons|snow seasons|降水|快晴|暴風日|霧日|霜|初雪|終雪)|geography|weather|Weather observations and seasonal dates.
+sex-ratio|(?:females per thousand|sex ratio|男千人)|population|age-and-sex|Population sex ratios.
+household-size|persons per household|population|households|Average household size.
+province-names|(?:alternative names of the provinces|各道古來)|geography|administrative-divisions|Province names and historical aliases.
+designated-towns|designated townships|government|administrative-divisions|Designated local administrative units.
+administration-directors|(?:directors.general of administration|bureau directors|provincial governors|department heads|section chiefs|municipal mayors|heads of designated|advisory body|政務總監|各局長|知事|府尹)|government|government-offices,local-government|Administrative offices and named provincial or municipal officials.
+committees|members of various committees|government|government-offices|Members of public administrative committees.
+consulates|(?:consulates|consular|領事館)|foreign-relations|diplomatic-service|Consular offices and representatives.
+public-works|(?:public works|土木)|utilities|construction|Public works offices, jurisdictions and engineering activity.
+religion-adherents|(?:adherents|mission stations|信徒|布教)|religion|religious-affiliation,religious-institutions|Religious adherence and associated establishments.
+monasteries|monasteries|religion|buddhism,religious-institutions|Buddhist monasteries and locations.
+confucian-academy|(?:kyŏnghagwŏn|經學院)|religion|confucianism|Confucian academy personnel and activities.
+textbooks2|(?:textbooks|教科書)|education,press|books|School textbooks and distribution.
+student-health|(?:pupils.{0,15}physical|students.{0,15}physical|身體檢查)|health,education|public-health,schools-and-pupils|Pupil physical examinations and measurements.
+students-in-japan|(?:students studying in japan|留學)|education|students-abroad|Students studying outside their home territory.
+private-academies|(?:private academies|私塾|書堂)|education|traditional-schools|Private traditional academies and training establishments.
+military-commanders|(?:commanders|chiefs of staff|military units|military offices|軍隊|軍衙)|military|army|Military organisation, commanders and units.
+military-offenders|(?:military offenders|軍人犯罪)|military,crime-and-justice|offences-and-convictions|Military offences and offenders.
+civil-suits|civil suits|crime-and-justice|civil-litigation,courts|Civil suits and their disposition.
+offenders-arrest|(?:offenders|crimes of convicts|persons arrested|犯罪者|檢擧)|crime-and-justice|offences-and-convictions|Criminal offences, arrests and convicted persons.
+fingerprint|(?:fingerprint|指紋)|crime-and-justice|police|Police fingerprint identification activity.
+notarial|(?:notarial|notaries|bailiffs|scriveners|公證|執達|代書)|crime-and-justice||Legal professional and notarial services; no precise approved detailed term fits.
+lawyers|(?:lawyers|辯護士|弁護士)|crime-and-justice||Lawyer directories and professional counts; no approved legal profession tag.
+confinement|(?:confinement|inmates|在監|集禁)|crime-and-justice|prisons|Prison confinement and inmates.
+infectious|(?:infectious|傳染病|傳染性)|health|diseases,epidemics|Communicable disease incidence and mortality.
+sex-work|(?:prostitutes|barmaids|娼妓|酌婦)|crime-and-justice,health|sex-work|Licensed sex work and associated health inspection.
+hunting|(?:hunting licen|狩獵免許)|government|hunting|Hunting licences by class and purpose.
+frontier-bandits|(?:bandits|匪賊)|crime-and-justice|banditry|Bandit attacks and losses in frontier districts.
+fire-brigades|(?:fire brigades|fire stations|消防)|disasters|firefighting|Firefighting establishments, staff and equipment.
+passenger-migration|arrivals and departures of passengers|population|migration|Passenger entry and departure by resident group.
+trade-crossings|designated crossing points for trade|trade,government|treaty-ports|Designated frontier crossings for foreign trade.
+steamship-routes|steamship routes|transportation|shipping|Sea service routes, calls and voyages.
+station-sales|station box lunches|trade|domestic-trade|Food and tea sold at railway stations.
+hot-springs|(?:hot springs|溫泉|温泉)|geography|physical-geography|Hot spring locations and physical features.
+deposits|^deposits |finance|savings-and-loans|Savings deposits and transactions.
+withdrawals|^withdrawals |finance|savings-and-loans|Withdrawal of deposited savings.
+maritime-offices|maritime affairs|transportation|shipping|Maritime administration offices and jurisdictions.
+lighthouses|lighthouse|transportation|navigation-aids|Lighthouses and beacon lights.
+storm-signals|storm signal stations|transportation|navigation-aids|Maritime weather warning stations.
+shipwrecks|(?:shipwrecks|遭難)|transportation|transport-accidents,shipping|Vessel losses and maritime accidents.
+seamen|seamen|transportation,labour|shipping,employment-and-unemployment|Seafaring workforce.
+shipments-japan-out|shipments to japan|trade|exports,intra-imperial-trade|Shipments from the territory to Japan.
+shipments-japan-in|shipments from japan|trade|imports,intra-imperial-trade|Shipments into the territory from Japan.
+monopoly-offices|monopoly (?:branch|substations)|economy,government|state-monopolies,government-offices|Government monopoly administration offices and jurisdictions.
+yoktun2|(?:station and garrison lands|驛屯土)|finance,agriculture|public-property,land-tenure|Public agricultural estates, land area and rental arrangements.
+commodity-exchange|(?:rice and bean exchange|米豆取引所)|trade|markets-and-exchanges|Commodity exchanges, brokers and transactions.
+bills-clearing|(?:bill clearings|dishonoured bills|手形交換|不渡手形)|finance|banking|Bills clearing and dishonoured financial instruments.
+financial-associations|(?:financial associations|金融組合)|finance|mutual-credit|Local mutual credit associations and their membership and operations.
+industrial-establishments|^industry |manufacturing|industrial-output|Industrial establishments.
+commerce-institutions|^commerce |trade|business-associations|Commercial institutions and association offices.
+nurseries|nurseries|forestry|afforestation|Tree nurseries and seedlings.
+seed-stations|seed and nursery stations|agriculture|agricultural-extension,farm-inputs|Agricultural seed stations and improved inputs.
+grain-inspection|grain inspection|agriculture,trade|crop-production|Inspection of agricultural goods; no food-safety purpose inferred.
+land-improvement|(?:land improvement|土地改良)|agriculture|land-improvement|Land improvement districts, works, costs and benefits.
+erosion-control|(?:erosion control|治山)|utilities,forestry|erosion-control,afforestation|Slope stabilisation and protective planting.
+fishing-boats|(?:fishing boats|fishing gear|catch per boat|漁獲|漁具)|fisheries|fishing|Fishing fleets, equipment and catch.
+rice-jp|(?:rice (?:acreage|yield|harvest)|稻作|水稻|陸稻)|agriculture|rice|Rice crop area, harvest and yields.
+cereals|(?:millet|minor grain|miscellaneous grains|雜穀)|agriculture|cereals|Grain crop acreage, production and yields.
+pulses|(?:pulses|豆類)|agriculture|crop-production|Mixed pulse crop production without privileging one incidental crop.
+cotton-production|cotton.{0,20}(?:yield|production)|agriculture|cotton|Cotton crop yields and output.
+cotton-sales|(?:sales of.{0,15}cotton|棉花共同販賣|實棉共同販賣|繰棉共同販賣)|trade|domestic-trade,cotton|Joint cotton sales by grade and value.
+fertilisers|fertili[sz]ers|agriculture,manufacturing|fertilisers,farm-inputs|Fertiliser production, supply and consumption.
+straw-manufacture|(?:production of straw|叺筵|繩叺製造)|manufacturing|cottage-industries|Straw bags, mats and rope manufacture.
+agricultural-training|agricultural training|education,agriculture|vocational-education,agricultural-extension|Agricultural training institutes and students.
+animal-counts|(?:breeding bulls|milk output|number of (?:pigs|sheep|donkeys|goats)|畜産|豚數|緬羊數|驢|騾|山羊)|agriculture|livestock|Livestock numbers, breeding and primary animal products.
+chickens|(?:chickens|鷄數|雞數|鷄卵)|agriculture|eggs-and-poultry|Poultry populations, eggs and output.
+cocoon2|(?:cocoon|産繭|生繭)|agriculture|sericulture|Cocoon production and handling.
+corporate-persons|(?:juridical persons|法人)|trade|companies|Corporations by organisation, business and capital.
+social-work|(?:social work|社會事業)|welfare|welfare-institutions|Social welfare organisations and activities.
+theatre-cinema|(?:theatres|cinemas|劇場|活動寫眞館)|culture|theatre-and-cinema|Theatres, cinemas and performances.
+red-cross|(?:red cross|赤十字)|welfare|charitable-institutions|Red Cross membership and charitable services.
+patriotic-women|(?:patriotic women|愛國婦人)|welfare|veterans-and-military-families,charitable-institutions|Patriotic women's welfare association membership and support for military families.
+territorial-position|positions of japan proper|geography|physical-geography|Geographical coordinates and extents of territories.
+time-names|(?:names for the hours|solar terms|時刻新舊)|science-and-technology|calendars-and-time|Calendar terms and clock naming conventions.
+envelopes|envelope sizes|communications|postal-services,measurement-and-units|Standard quantitative dimensions of postal envelopes.
+metre|on the metre|science-and-technology|measurement-and-units|Metric unit reference and conversion.
+currency-conversion|currency conversion|finance|foreign-exchange|Fixed currency conversion factors.
+registered-domicile|(?:registered domicile|本籍地方)|population|household-registration|Registered domicile distribution of residents.
+resident-foreigners|(?:resident foreigners|現住外國人)|population|nationality-and-ethnicity|Foreign residents by nationality and demographic breakdown.
+resident-age|(?:broad age group|年齡大別)|population|age-and-sex|Population age and sex distribution.
+arrivals-departures|(?:arrivals.*departures|旅客出入|渡航歸航)|population|migration|Arrivals and departures of people.
+theft|(?:thefts|盗難)|crime-and-justice|offences-and-convictions|Theft incidents and losses.
+residence-bans|banned from residence|crime-and-justice,government|police,passports-and-travel-permits|Police restrictions on residence.
+firearm-ownership|firearms owned|government,crime-and-justice|arms-and-arsenals,police|Regulated civilian firearm ownership.
+slaughter|(?:slaughter|屠畜|屠殺)|agriculture,health|livestock,food-inspection|Livestock slaughter and sanitary inspection.
+venereal|(?:venereal|黴毒)|health|diseases,medical-services|Venereal disease examinations and patients.
+convicts|(?:convicts|囚人)|crime-and-justice|offences-and-convictions,prisons|Sentenced prisoners by offence and punishment.
+civil-procedure|(?:civil appeals|summary payment|provisional attach|compulsory execution|civil matters|non.contentious|民事上訴|非訟事件|督促件數|假差押|强制執行)|crime-and-justice|civil-litigation,courts|Civil judicial procedure and case handling.
+conciliation|(?:conciliation|和解件數)|crime-and-justice|mediation-and-arbitration,civil-litigation|Conciliation and settlement of civil disputes.
+registration|(?:registrations|登記件數)|crime-and-justice|land-registration|Registration cases and property rights.
+commercial-registrations|(?:commercial registrations|商業各種登記)|trade,government|companies|Commercial register entries and changes.
+prosecutors|(?:prosecutors|preliminary examinations|criminal appeals|criminal matters|檢務|檢察處分|豫審件數|刑事上訴|刑事共助)|crime-and-justice|courts|Prosecution, preliminary examination and criminal judicial procedure.
+crimes|(?:crimes by type|犯罪種類)|crime-and-justice|offences-and-convictions|Offences classified by type.
+detention|(?:detention of accused|penal sentences|刑事被告人拘留|體刑執行)|crime-and-justice|prisons|Judicial detention and penal sentences.
+fines|(?:fines|罰金科料)|crime-and-justice|offences-and-convictions|Financial penalties and confiscations imposed in judicial proceedings.
+interest-deposits|(?:interest on|預金利息|貸越利息|手形利息)|finance|interest-rates|Financial interest rates by deposit and lending type.
+new-currency|(?:new korean currency|韓國新貨)|finance|currency|Currency issues and circulation.
+bill-associations|(?:bill associations|手形組合)|finance|mutual-credit|Member bill guarantee associations.
+oilseeds2|(?:perilla|castor)|agriculture|oilseeds|Oilseed cultivation and harvest.
+coasting-trade|(?:coasting trade|沿岸貿易|未開港地貿易)|trade|domestic-trade|Domestic coastal merchandise movements.
+navigation-aids2|(?:aids to navigation|航路標識)|transportation|navigation-aids|Navigation lights, daymarks and fog signals.
+mail|\bmail\b|communications|postal-services|Postal mail handling, delivery and traffic.
+telegrams|(?:telegrams|電報)|communications|telegraph|Telegraph message traffic and charges.
+fruit-harvest|(?:harvest of fruit|fruit production|果實生産|果實收穫)|agriculture|horticulture|Fruit harvest and yields.
+weather-warning|storm warning|transportation|navigation-aids|Coastal warning signals and stations.
+disease-type|(?:type of disease|患者種類別)|health|diseases,medical-services|Patients by disease type.
+soybean-singular|(?:soybean|大豆推定)|agriculture|soybeans|Soybean cultivation and output.
+fishing-licence|fishing licen[cs]e|fisheries|fishing-rights-and-licences|Fishing licences and licence fees.
+postage|(?:postage stamps|郵便切手)|communications|postal-services|Postage stamp and postal stationery sales.
+communications-bureau|communications bureau|communications,government|postal-services,telegraph,telephone|Combined postal and telecommunication offices and staff.
+land-state|state.owned land|finance,geography|public-property,land-area|State-owned land by type and area.
+domicile-registry|domicile of registry|population|household-registration|Registered domicile distribution of residents.
+slash-burn|slash.and.burn|agriculture|shifting-cultivation|Slash-and-burn land and cultivators.
+rice-generic|^rice |agriculture|rice|Rice crop area, output and yields.
+pigs|(?:^pigs |pig vital)|agriculture|livestock|Pig populations and vital movements.
+sheep|(?:^sheep |sheep vital)|agriculture|livestock|Sheep populations and vital movements.
+rabbits-bees|(?:rabbit raising|beekeeping)|agriculture|livestock|Rabbit husbandry and beekeeping output.
+milk|milk production|agriculture|livestock|Dairy animal numbers and milk output.
+poultry-types|(?:geese|turkeys)|agriculture|eggs-and-poultry|Poultry numbers by type.
+agricultural-value|agricultural production value|agriculture|crop-production,livestock,sericulture|Aggregate value of agricultural plant, animal and sericultural output.
+tree-planting|(?:tree planting|植樹)|forestry|afforestation|Tree planting activity and participants.
+factory-output|(?:factory output|工場生産額)|manufacturing|industrial-output|Factory production value across branches.
+industrial-coops|industrial cooperatives|economy|cooperatives|Industrial cooperative societies.
+financial-institutions|financial institutions|finance|banking|Financial institution establishments by type.
+trade-general3|^(?:summary of korean trade|trade \()|trade|exports,imports|Merchandise trade by direction.
+shipments-receipts|shipments to and receipts from japan|trade|exports,imports,intra-imperial-trade|Two-way interterritorial trade with Japan.
+wage-index|(?:wage index|賃銀指數)|labour|wages|Wage index comparisons.
+ferries-plural|ferries|transportation|inland-navigation|Ferry crossing facilities and vessels.
+motor-services|(?:motor services|motor transport)|transportation|road-transport|Motor vehicle services and operating route lengths.
+abandoned-children|abandoned children|welfare|child-welfare|Abandoned children and institutional care.
+private-firearms|privately owned firearms|government,crime-and-justice|police,arms-and-arsenals|Civilian firearms and control.
+business-prohibitions|suspensions.{0,35}business|government,trade|economic-controls|Regulation, suspension and revocation of business licences.
+entertainments|public entertainments|culture|theatre-and-cinema,recreation-and-amusements|Entertainment performances, attendance and revenue.
+harmful-animals|harmful animals|government|flora-and-fauna|Wildlife damage and control; recreational hunting is not inferred.
+judicial-personnel|judicial personnel|crime-and-justice|courts|Judicial officials and staffing.
+civil-actions|(?:civil actions|civil judicial|civil dispute|payment order|compulsory auction|interdiction|executions on movables|claims included in distribution)|crime-and-justice|civil-litigation,courts|Civil proceedings, execution of claims and case dispositions.
+real-estate-register|(?:real estate and ship|estate.{0,10}registers|estate.{0,10}registration)|crime-and-justice|land-registration|Property register cases and official copies.
+prelim-examination|preliminary examination|crime-and-justice|courts|Preliminary judicial examination caseload.
+criminal-defendants|criminal defendants|crime-and-justice|courts|Criminal defendants tried and court outcomes.
+finally-convicted|finally convicted|crime-and-justice|offences-and-convictions|Final criminal convictions and offender characteristics.
+criminal-appeals|(?:criminal interlocutory|private prosecution|criminal compensation)|crime-and-justice|courts|Criminal judicial proceedings, appeals and compensation.
+suspended-sentence|suspension of sentence|crime-and-justice|offences-and-convictions|Suspended sentences and revocations.
+juvenile-justice|(?:persons under 18|juvenile|少年)|crime-and-justice|juvenile-justice|Juvenile offenders and judicial dispositions.
+prison-admission|(?:convict admissions|defendants admitted|workhouses|勞役場留置)|crime-and-justice|prisons|Prison admissions, releases and penal detention.
+prison-rewards|(?:person.days not working|labour rewards on release)|crime-and-justice|prison-labour,prisons|Prison work and labour reward allowances.
+public-finance|public finance|finance|public-budgets|Public budget revenues and expenditure.
+local-debt|(?:provincial debt|city debt|town and township debt|national bonds|provincial bonds|city bonds|town and township bonds|國債|道債|府債|邑面債)|finance|public-debt|Government and local authority borrowing and debt outstanding.
+public-staff|(?:state.paid staff|provincially paid staff|city.paid staff|town and township staff)|government|government-offices,local-government|Public civil service staffing and salaries.
+yi-household|yi household|government|imperial-household|Korean royal household office staffing and salaries.
+pensions|pensions|finance|insurance-and-pensions|Pensions and survivor allowances.
+cabinets|successive cabinets|government|government-offices|Cabinet officeholder and tenure chronology.
+latitude|(?:latitudes|緯度比較)|geography|physical-geography|Geographical latitude comparisons.
+area-comparison|comparison of areas|geography|land-area|Territorial area comparisons.
+foreign-nationality|foreigners by nationality|population|nationality-and-ethnicity|Foreign residents classified by nationality.
+japanese-domicile|residents by prefecture of domicile|population|household-registration|Registered home prefectures of residents.
+recruitment|(?:volunteer soldier|recruitment|conscription)|military|recruitment-and-conscription|Military recruitment and volunteer applicants.
+air-defence|air defence|military|air-defence|Air defence institutions, sheltering and precautions.
+admin-units|(?:number of provinces|provincial jurisdiction)|government|administrative-divisions|Administrative unit counts and provincial territories.
+narcotics|narcotics|narcotics|opium,morphine-and-heroin|Controlled narcotic manufacture and sales.
+income-tax|class iii income|finance|taxation|Taxable income classes and sources.
+trusts|(?:trusts by type|money trusts)|finance|banking,securities-and-investment|Trust company funds and financial trust contracts.
+commodity-markets|(?:list of exchanges|rice exchanges)|trade|markets-and-exchanges|Commodity exchange establishments and transactions.
+shares-yields|(?:shares by issue|yields of leading)|finance|securities-and-investment|Share prices, dividends and investment yields.
+price-wage|price and wage|trade,labour|prices,wages|Comparative commodity price and wage indices.
+transit-trade|transit goods|trade|transit-trade|Goods passing through the territory to another destination.
+straw-products|straw products|manufacturing|cottage-industries|Straw product manufacture.
+farm-implements|farm implements|agriculture|farm-inputs|Farm machinery and implement adoption.
+rice-indices|rice indices|agriculture|rice|Rice acreage, harvest and price indices.
+rice-storage|rice storage|trade,agriculture|rice,warehousing|Rice warehouse stocks and storage facilities.
+potatoes|potatoes|agriculture|crop-production|Potato and sweet potato area and harvest.
+seaweeds|seaweeds|fisheries|seaweed|Seaweed harvest by type.
+industrial-output|industrial output|manufacturing|industrial-output|Manufacturing output across industrial branches.
+power-generation|(?:power generation|generating capacity)|utilities|electricity|Electrical generation, capacity and fuel use.
+gas-supply|gas supply|utilities|gas|Gas production and supply.
+motor-routes|licensed motor routes|transportation|road-transport|Licensed motor transport routes and operators.
+radio-listeners|(?:radio licen[cs]e|radio listeners|聽取者)|communications|radio|Radio listeners, subscriptions and licences.
+leprosy|(?:leprosaria|leprosy|癩)|health|leprosy|Leprosy patients and treatment institutions.
+blind-deaf|(?:blind and deaf|盲啞)|education|special-education|Education and training for blind or deaf pupils.
+japanese-language2|(?:understand japanese|國語を解)|education|language-education|Japanese language proficiency counts.
+social-education|social education|education|literacy-and-adult-education|Social and adult education organisations.
+youth-associations|(?:youth organisations|young women.s associations|靑年團|青年團)|welfare|youth-organisations|Youth association establishments and membership.
+miners|(?:number of miners|increase in mine workers)|mining,labour|employment-and-unemployment|mining workforce and employment growth.
+mine-accidents|(?:mine accidents|accidents in mines|miners killed|災害ニ因ル死傷鑛夫)|mining,labour|industrial-accidents|Mine accident incidents and casualties.
+unemployment|unemployment|labour|employment-and-unemployment|Unemployment rates and workforce counts.
+worker-increase|(?:increase in.{0,30}workers|workers selected)|labour|employment-and-unemployment|Worker recruitment and employment changes.
+serial-publications|(?:serial publications|continuing publications|繼續發行物)|press|newspapers,periodicals|Directories of newspapers and periodicals.
+books-directory|(?:principal.{0,25}books|單行本)|press|books|Book bibliography and publishing.
+arts|(?:art exhibition|美術展覽)|culture|arts-and-music|Art exhibitions, entries and attendance.
+heritage|(?:historic sites|natural monuments|preservation society|古蹟|天然記念)|culture|museums-and-heritage|Heritage sites, natural monuments and preservation bodies.
+sport-records|(?:weightlifting|rugby|table tennis|basketball|tennis|boxing|cycling|rowing|swimming|martial arts|archery|athletics|baseball|athletic meet|best three performances|體育大會|競技|選手權大會)|sport|sports-records|Competition results, scores, times and records.
+military-service|(?:military service|terms of service|兵役|服役年限)|military|recruitment-and-conscription|Military service terms, conscription and reserve obligations.
+military-strength|(?:military strength|strength of forces|peacetime strength|principal units|armed organisations|armies of the powers|兵力|主要部隊)|military|army|Military force strengths and organisation.
+airfields|airfields|military|air-force|Military airfields and aviation facilities.
+aircraft-production|aircraft production|manufacturing,military|air-force,arms-and-arsenals|Military aircraft production.
+air-strength|(?:air strength|air programme|land.based air units|air ministry|空軍)|military|air-force|Air force strength, units and development plans.
+weapons-equipment|new weapons and equipment|military|arms-and-arsenals|Military weapons and equipment inventories.
+imperial-news|imperial household news|government|imperial-household|Imperial family appointments and news.
+cabinet-members|members of.{0,15}cabinet|government|government-offices|Named cabinet members.
+rice-stocks|rice stocks|trade,agriculture|rice,warehousing|Rice inventories by district.
+marine-certificates|marine officer certificates|transportation|shipping|Seafarer qualification certificates.
+produce-inspection|(?:rice inspection|bean.{0,15}inspection|pea inspection)|agriculture,trade|crop-production|Agricultural produce grading and inspection, without a food-safety inference.
+growers-guilds|growers. guilds|trade,agriculture|business-associations,horticulture|Fruit grower associations.
+breweries|breweries|manufacturing|alcohol|Alcoholic beverage breweries and output.
+trade-by|trade by|trade|exports,imports|Merchandise trade by partner, port or direction.
+royal-ancestral|royal (?:ancestral|tombs)|government,religion|imperial-household,ancestor-rites|Royal ancestral shrines and official tomb rites.
+map-surveys|(?:general maps|topographic maps|secret maps|plates.{0,20}maintain)|geography|land-surveys|Survey maps, map sheets and cartographic plate production.
+division-deployment|deployment of divisions|military|army|Military divisional deployments.
+mutual-aid|industrial mutual aid|finance|mutual-credit|Local mutual economic assistance societies.
+cotton-area|cotton.{0,12}area planted|agriculture|cotton|Cotton crop acreage and harvest.
+fertilizer-consumption|fertili[sz]er|agriculture|farm-inputs|Fertilisers used as farm production inputs.
+agricultural-promotion|agricultural promotion|agriculture|agricultural-extension|Agricultural extension and improvement institutions.
+household-rehab|household rehabilitation|economy,welfare|rural-development,household-budgets|Rural household rehabilitation and livelihood deficits.
+gas-utilities|gas utilities|utilities|gas|Gas businesses, capital and capacity.
+safe-farming|safe farming villages|agriculture,economy|rural-development|Rural livelihood improvement and agricultural settlement facilities.
+local-finance|local finance|finance|public-budgets|Local government public budgets.
+shrine|(?:shrines|visitors to the korea shrine|神社|神宮參拜)|religion|shinto|Shinto shrines, priests and worshippers.
+road-length|road length|transportation|roads-and-bridges|Road network length.
+ships|(?:table \d+: ships|船舶)|transportation|shipping|Vessel numbers, tonnage and traffic.
+agricultural-production|(?:value of agricultural production|農產價額)|agriculture|crop-production,livestock|Agricultural output value across plant and animal products.
+marine-production|marine production|fisheries|fishing,aquaculture|Fisheries output across wild catch and cultivation.
+industrial-production|industrial production|manufacturing|industrial-output|Manufacturing production value and branches.
+trade-jp|(?:貿易額|貿易概況)|trade|exports,imports|Merchandise trade across external and interterritorial directions.
+settlers-manchuria|korean settlers in manchuria|population|migration|Settlement groups and numbers; foreign state sponsorship requires explicit evidence.
+customs-goods|goods shipped.{0,30}customs|trade|imports,intra-imperial-trade|Interterritorial goods subject to customs procedure.
+naval-district|chinhae guard district|military|navy|Naval guard district organisation and units.
+worker-increase2|increase in.{0,45}workers|labour|employment-and-unemployment|Industry workforce growth.
+legal-domicile|prefecture of legal domicile|population|household-registration|Registered home prefectures of residents.
+health-consultation|health consultations|health|medical-services|Mobile health consultation services.
+empire-area|(?:area of the japanese empire|area compared|面積\(帝國|面積\(內地)|geography|land-area|Territorial surface areas and comparisons.
+rice-table|(?:table \d+: rice| 米$)|agriculture|rice|Rice cultivation, acreage and harvest.
+pig-table|(?:table \d+: pigs| 豚$)|agriculture|livestock|Pig husbandry and populations.
+sheep-table|(?:table \d+: sheep| 緬羊$)|agriculture|livestock|Sheep husbandry and populations.
+geo-extremes|(?:extreme points|position of (?:taiwan|korea)|circumference and area)|geography|physical-geography,land-area|Geographical coordinates, coastline and territorial area.
+admin-jurisdiction|(?:jurisdictions of prefectures|numbers of prefectures|counties.{0,45}by prefecture)|government|administrative-divisions|Administrative units and jurisdictional boundaries.
+admin-distances|locations and distances of prefecture|government,transportation|government-offices|Administrative office locations and travel distances; no precise multi-mode distance detail.
+taxable-land|(?:有租地|無租地)|finance,geography|land-tax,land-area|Taxable and tax-exempt land areas by ownership and land class.
+indigenous-land|land owned by indigenous|indigenous-peoples,agriculture|land-tenure,land-area|Indigenous landowners and land areas by use.
+typhoon-signals|typhoon warning|transportation|navigation-aids|Coastal typhoon warning signal infrastructure.
+weather-general|(?:atmospheric pressure|humidity|rain and snow|wind speed|wind direction|cloud amount|cloudy days|days of rain|days with thunder)|geography|weather|Meteorological observations.
+earthquakes|earthquakes|geography|earthquakes-and-volcanoes|Observed earthquakes by station and period.
+foundlings|foundlings|welfare|child-welfare|Foundlings and abandoned children.
+travelling-population|travelling to and from|population|migration|People entering and leaving the territory by origin or destination.
+magazines|magazines|press|periodicals|Magazine distribution and publication.
+sick-travellers|sick travellers|welfare,health|poor-relief,medical-services|Relief and treatment of sick itinerant people and reimbursements.
+dead-travellers|travellers who died|welfare|poor-relief|Public assistance and funeral reimbursements for itinerant people who died.
+civil-procedure2|(?:civil retrial|civil interlocutory|judgments on.{0,25}civil judgments)|crime-and-justice|civil-litigation,courts|Civil appellate and retrial proceedings.
+settlements|settlement cases|crime-and-justice|mediation-and-arbitration,civil-litigation|Judicial settlement and conciliation cases.
+criminal-procedure2|(?:non.prosecution dispositions|criminal final appeals|criminal retrial)|crime-and-justice|courts|Criminal appeal and retrial proceedings.
+custody|persons in custody|crime-and-justice|prisons|Detention by duration.
+register-copies|copies and extracts of registers|crime-and-justice|land-registration|Copies and extracts of property registers and fees.
+fixed-date|fixed.date applications|crime-and-justice|courts|Judicial certification of document dates.
+crime-types2|(?:theft|fraud|extortion|embezzlement)|crime-and-justice|offences-and-convictions|Criminal incidents, detection and losses.
+indigenous-education|education of indigenous|indigenous-peoples,education|schools-and-pupils|Educational institutions and Indigenous pupils.
+firearm-stock|(?:firearm and gunpowder|firearm.{0,20}stocks)|government,trade|arms-and-arsenals|Regulated civilian arms dealers and stocks.
+fruit-harvest2|fruit harvest|agriculture|horticulture|Fruit harvest and approximate value.
+poultry-prices|price per bird|trade,agriculture|prices,eggs-and-poultry|Poultry price quotations.
+livestock-value|value of livestock|agriculture|livestock|Livestock production values and species breakdowns.
+pastures|pastures|agriculture|livestock,arable-land|Livestock pasture areas and animal counts.
+raw-hides|raw hides|agriculture|livestock,leather-and-furs|Unprocessed animal hides and output value.
+bamboo-rattan|(?:bamboo|rattan)|forestry|bamboo-and-rattan|Bamboo and rattan resources and products.
+mineral-extraction|mineral extraction|mining|mineral-production|Mineral extraction quantities and values.
+miners-work|miners at work|mining,labour|employment-and-unemployment|Mining workforce by sector and resident group.
+miners-days|(?:man.days of miners|working days.{0,20}miners)|mining,labour|working-conditions,employment-and-unemployment|Miner workdays and employment man-days.
+food-products|(?:flour milling|noodles|soy sauce|miso|confectionery|candied fruit)|manufacturing|food-processing|Manufactured foods and condiments.
+industrial-alcohol|industrial alcohol|manufacturing|alcohol|Industrial and denatured alcohol manufacture.
+canning|canned goods|manufacturing|canning|Canned food output by product.
+vegetable-oils|vegetable oils|manufacturing|vegetable-oils|Vegetable oils and oil-cake production.
+indigo|indigo dye|manufacturing|indigo|Indigo dye processing and production.
+dyeing|dyeing|manufacturing|textiles|Textile dyeing and finishing.
+hats|^hats |manufacturing|industrial-output|Hat manufacture across raw materials.
+wooden-products|wooden products|manufacturing|industrial-output|Wood product manufacturing output.
+lime|^lime |manufacturing|chemicals|Lime manufacture and output.
+ironworking|ironworking|manufacturing|iron-and-steel|Ironworking, forging and cast metal production.
+textile-fabrics|textile fabrics|manufacturing|textiles|Textile fabric production by fibre and kind.
+factory-workers|factory workers|manufacturing,labour|employment-and-unemployment|Manufacturing workforce by industry and sex.
+indigenous-labour|labour of indigenous|indigenous-peoples,labour|employment-and-unemployment|Indigenous workforce by activity and sex.
+industrial-motors|motors by type|manufacturing|machinery|Industrial motive power equipment and horsepower.
+trade-associations|trade associations|trade|business-associations|Business associations by commercial function.
+mutual-finance|(?:mutual financing|mujin)|finance|mutual-credit|Mutual credit and rotating financing business.
+trade-values|trade values|trade|exports,imports|Foreign trade values by port, month and origin.
+steamships|(?:steamships|sailing ships)|transportation|shipping|Vessel arrivals, departures and tonnage.
+shipments-both|(?:shipments out and in|out and in by)|trade|exports,imports,intra-imperial-trade|Interterritorial merchandise shipments in both directions.
+shipments-out|shipments out|trade|exports,intra-imperial-trade|Outward interterritorial merchandise shipments.
+shipments-in|shipments in|trade|imports,intra-imperial-trade|Inward interterritorial merchandise shipments.
+railway-track|(?:stations.{0,10}lines and land|train and vehicle)|transportation|railways|Railway tracks, station land and train kilometres.
+post-telecommunication|post and telecommunication|communications|postal-services,telegraph,telephone|Combined postal and telecommunications offices.
+ship-registry|ship registry|transportation|shipping|Registered vessel counts and tonnage.
+steamship-discipline|disciplinary actions against steamship|transportation|shipping|Discipline of ship officers.
+liquor|(?:liquor making|made liquor|island liquor)|manufacturing,trade|alcohol|Alcoholic beverage manufacture, receipts and sales.
+public-health-institutions|public health institutions|health|medical-services|Healthcare institutions and personnel.
+hospital-singular|hospital |health|medical-services|Hospital treatment and patients.
+local-property|total local property|finance|public-property|Property owned by local government.
+local-debt2|total local debt|finance|public-debt|Local government debt outstanding.
+commendations|commendations|government|honours-and-ranks|Official commendations and award amounts.
+summary-criminal|summary criminal|crime-and-justice|courts,summary-justice|Summary criminal judicial proceedings.
+register-services|(?:copies.{0,30}registers|registry items)|crime-and-justice|land-registration|Property register copies, extracts and fees.
+prison-suspects|admissions and releases of suspects|crime-and-justice|prisons|Prison admission and release of suspects and accused.
+release-protection|protection after release|crime-and-justice,welfare|prisoner-aftercare|Protection and assistance to released prisoners.
+marine-officers2|(?:marine officers.? certificates|marine certificates|examinations for steamship)|transportation|shipping|Seafarer qualification certificates and examinations.
+liquor-sales|liquor wholesalers|trade|alcohol,domestic-trade|Alcohol distributors, retailers and sales.
+profit-associations|profit.making associations|economy|cooperatives|Profit-making cooperative societies.
+commodity-prices|(?:wholesale price|retail price)|trade|prices|Commodity price quotations.
+credit-associations|(?:credit associations|credit.purchasing associations|信用組合|信用購買組合)|finance,economy|mutual-credit,cooperatives|Credit cooperative organisations and financial balances.
+enterprise-associations|enterprise associations|economy|cooperatives|Business cooperative organisations.
+loan-funds|loan funds|finance|savings-and-loans|Public low-interest loan allocations, balances and repayments.
+vegetable-harvest|vegetable harvest|agriculture|horticulture|Vegetable harvest by crop type.
+honey|honey production|agriculture|livestock|Beekeeping honey and wax production.
+nursery-seedlings|nursery seedlings|forestry|afforestation|Forest nursery seedlings by tree species.
+rush-mats|rush mats|manufacturing|cottage-industries|Rush mat manufacturing output.
+footwear|(?:footwear|shoes and sandals)|manufacturing|industrial-output|Footwear manufacture across material types.
+metal-products|metal products|manufacturing|industrial-output|Mixed metal manufactured goods.
+machinery|machinery and|manufacturing|machinery|Machinery and tool manufacturing output.
+education-general|general table of education|education|schools-and-pupils,teachers|Schools, pupils, graduates and teaching staff across educational levels.
+takasago-education|education of takasago|indigenous-peoples,education|schools-and-pupils|Education of Indigenous children.
+publications|distribution of publications|press|newspapers,periodicals|Distribution of serial publications.
+agricultural-livestock-value|agricultural and livestock|agriculture|crop-production,livestock|Mixed crop and animal production value.
+logging|logging and sawmilling|forestry,manufacturing|timber|Timber felling and sawmill output.
+precious-metalwork|gold and silver work|manufacturing|gold,silver|Precious metal craftwork and material consumption.
+marine-inquiry|marine accident inquiry|transportation,crime-and-justice|transport-accidents,shipping|Maritime accident inquiries and discipline.
+admin-prefectures|(?:counties.{0,55}aboriginal areas|prefectures.{0,80}ward offices)|government|administrative-divisions|Administrative unit counts, including designated Indigenous areas.
+storm-warning2|storm.warning|transportation|navigation-aids|Coastal storm warning infrastructure.
+thunder|days of thunder|geography|weather|Thunder and lightning observations.
+deceased-travellers|deceased travellers|welfare|poor-relief|Public costs and reimbursement for deceased itinerant people.
+civil-objections|civil objection|crime-and-justice|civil-litigation,courts|Objections to civil judgments by trial level.
+criminal-objections|criminal objection|crime-and-justice|courts|Objections to criminal judgments.
+detained|persons detained|crime-and-justice|prisons|Detention durations.
+summary-judgment|summary judgment|crime-and-justice|summary-justice|Summary disposal of criminal cases and persons.
+indigenous-attacks|(?:indigenous attacks|injuries of indigenous|attacks by aborigines|victims of aborigines)|indigenous-peoples,crime-and-justice|frontier-policing|Reported attacks, deaths and injuries involving Indigenous people in frontier control context.
+firearms-dealers|firearms and gunpowder|government,trade|arms-and-arsenals|Regulated arms dealers, stock movements and sales.
+paddy-fields|paddy and dry.field|agriculture|arable-land|Paddy and upland field areas.
+calves|calves born|agriculture|livestock|Cattle births by breed and sex.
+ranches|ranches|agriculture|livestock|Ranch areas, stock and facilities.
+mining-districts|mining districts|mining|mining-rights-and-concessions|Mining district counts and licensed concession areas.
+minerals-extracted|minerals extracted|mining|mineral-production|Multi-mineral extraction output.
+miners-employed|miners employed|mining,labour|employment-and-unemployment|Miners employed by mining type and resident group.
+miners-workdays|miners. working days|mining,labour|working-conditions,employment-and-unemployment|Miner workdays and employment man-days.
+alcohol-generic|^alcohol |manufacturing|alcohol|Alcohol manufacture.
+preserved-fruit|preserved fruit|manufacturing|food-processing|Preserved fruit and starch syrup production.
+oil-cake|oil and oil cake|manufacturing|vegetable-oils|Vegetable oil and cake manufacture.
+indigo-paste|(?:indigo paste|製藍)|manufacturing|indigo|Indigo processing and dye output.
+papermaking|papermaking|manufacturing|paper-and-pulp|Paper production.
+wood-products|wood products|manufacturing|industrial-output|Manufactured wood articles and output value.
+interterritorial-trade|(?:shipments to and from japan|shipments by destination and origin|移出入品價額)|trade|exports,imports,intra-imperial-trade|Interterritorial goods shipments with Japan by origin and destination.
+receipts-japan|receipts from japan|trade|imports,intra-imperial-trade|Goods received from Japan.
+train-mileage|train and car mileage|transportation|railways|Train and rolling stock mileage.
+steamship-discipline2|disciplinary action against steamship|transportation|shipping|Marine officer disciplinary cases.
+perfume-sales|(?:linaloe oil|perfume sold)|trade,economy|domestic-trade,state-monopolies|Government monopoly aromatic oil and perfume sales.
+coast-extent|extent of coast|geography|physical-geography,land-area|Coastal length and territorial area.
+silver-currency|value of silver yen|finance|currency,foreign-exchange|Official gold value of silver currency.
+foreign-exchange|rates of foreign exchange|finance|foreign-exchange|Foreign currency exchange quotations.
+inoculations|inoculations|health|vaccination|Vaccination recipients and results.
+robbery|(?:persons and houses robbed|burglaries)|crime-and-justice|offences-and-convictions|Robbery and theft incidents and losses.
+penal-institutions|penal institutions|crime-and-justice|prisons|Prisons, staff and inmates.
+punishments|(?:punishments|classifications of crimes)|crime-and-justice|offences-and-convictions|Offenders, offences and punishments.
+village-officers|village and street officers|government|local-government,wages|Local officers and their allowances.
+prefectural-offices|(?:prefectural offices|sub.prefectural offices|districts under the jurisdiction|number of sub.prefectures)|government|administrative-divisions,government-offices|Local administrative offices and jurisdictions.
+geo-coordinates|(?:extremes of longitude|size of prefectures)|geography|physical-geography|Geographical positions and territorial extents.
+clouds|average amount of clouds|geography|weather|Cloud observations.
+rainy-days|(?:rainy or snowy|fine days)|geography|weather|Observed rainfall and fine weather days.
+death-age|death age|population|births-and-deaths,age-and-sex|Age distribution of deaths.
+go-return-taiwan|going to and returning from taiwan|population|migration|Migration and travel between Taiwan and Japan.
+sectarian|sectarian offices|religion|religious-institutions|Religious establishments by faith.
+bailiff|bailiff cases|crime-and-justice|civil-litigation,courts|Bailiff execution of civil judgments.
+prelim-trial|preliminary trial|crime-and-justice|courts|Preliminary criminal trial cases.
+workhouse|returns for the workhouse|crime-and-justice|prisons|Workhouse detainees and their disposition.
+flogging|flogged|crime-and-justice|corporal-punishment|Judicial corporal punishment.
+guard-line|aiyu line|indigenous-peoples,government|guard-lines,frontier-policing|Guard line length in Indigenous frontier administration.
+aboriginal-education|education of aboriginal|indigenous-peoples,education|schools-and-pupils|Indigenous school pupils and institutions.
+cultivated-fields|cultivated fields|agriculture|arable-land|Cultivated paddy and upland field areas.
+farmers|farmers|agriculture|households,employment-and-unemployment|Farm household and agricultural worker counts.
+farm-produce|farm produce|agriculture|crop-production|Crop acreage and output across produce types.
+colonization-land|land fit for.{0,20}colonization|colonial-rule,agriculture|settler-migration,land-reclamation|Land explicitly reserved for colonial settlement.
+stock-farming|stock farming|agriculture|livestock|Livestock populations and husbandry.
+stock-butchered|stock butchered|agriculture|livestock|Slaughtered livestock quantities and values.
+marine-industry|marine product industry|fisheries|fishing|Fishery workforce and activity.
+fishing-craft|(?:fishing craft|marine catches)|fisheries|fishing|Fishing boats, gear and catches.
+fish-ponds|fish ponds|fisheries|aquaculture|Fish pond cultivation and yield.
+school-associations|school associations|education,finance|education-finance|School association institutions, educational budgets and household contributions.
+opium-licences|(?:licensed opium|opium licen[cs])|narcotics,trade|opium-licensing|Licensed commercial opium suppliers and distributors.
+mixed-narcotics|(?:morphine and opium|opium and morphine)|narcotics,manufacturing|morphine-and-heroin,opium|Production or sale of both medicinal narcotics.
+fertilizer-use|(?:fertili[sz]er.{0,20}consumption|consumption of.{0,30}fertili[sz]er)|agriculture|farm-inputs|Fertilisers used as agricultural inputs.
+sport-participants|participants in.{0,35}athletic|sport|sports-participation|Athletic meet entrant counts by sport.
+news-agency|news agenc|press|news-agencies|News agency directories and activities.
+indigenous-school|(?:schools for aborigines|school.{0,20}indigenous)|education,indigenous-peoples|schools-and-pupils|Schools and pupils specifically serving Indigenous communities.
+population-work|(?:population by occupation|population according to occupation|households and population by occupation)|population|occupations,households|Resident households and population by occupation.
+public-debt-specific|(?:national debt|school expense debt|school association debt|outstanding.{0,30}debt)|finance|public-debt|Government, local authority and school authority debt outstanding.
+judicial-stamps|(?:revenue stamps|stamp revenue)|finance|taxation|Revenue stamp proceeds and fiscal duties.
+veterinary-epidemics|(?:animal epidemic|cattle dying|stock epidemic)|health,agriculture|veterinary-health|Livestock epidemic cases, deaths and sanitary slaughter.
+mission-schools|mission schools|education,religion|mission-schools|Schools operated by religious missions.
+professional-schools|(?:professional schools|agricultural and dendrological school|higher commercial school|higher school of commerce)|education|vocational-education|Professional, technical and agricultural school training.
+traditional-village-school|(?:s[oŏō]dang|sohtang|shob[oō]|traditional private schools)|education|traditional-schools|Traditional private and village schools.
+special-schools|(?:schools for the blind|blind.{0,15}deaf.mute)|education|special-education|Education of blind or deaf pupils.
+primary-national-schools|(?:national schools|national \(primary\) schools)|education|primary-education|National primary school classes, staff and pupils.
+national-language-school|(?:national language school|japanese language school)|education|language-education|Schools devoted to Japanese language instruction.
+reformatory|(?:reformatory|reformator)|crime-and-justice|juvenile-justice|Juvenile reformatory staff, pupils and inmates.
+child-rearing|child.rearing department|welfare|child-welfare|Institutional care and education of children.
+relief-institute|(?:relief institute|charity asylum)|welfare|welfare-institutions|Public relief institution staff, facilities and residents.
+disaster-relief|(?:disaster relief|relief of disaster|relief from calamities|calamity.stricken)|disasters,welfare|disaster-relief|Relief of disaster victims and dedicated relief fund accounts.
+work-relief-erosion|poverty.relief erosion|welfare,utilities|work-relief,erosion-control|Relief work through erosion control projects.
+heritage-treasures|^treasures |culture|museums-and-heritage|Designated cultural treasures.
+prison-work-accounts|(?:inmate labour|inmate labor)|crime-and-justice|prison-labour,prisons|Prison labour receipts, expenses and production.
+nav-rivers|rivers open to navigation|transportation|inland-navigation|River routes navigable by vessels.
+charity-organisations|(?:charity and relief organizations|charitable organizations|finance of charity)|welfare|charitable-institutions|Charitable institutions, membership and accounts.
+company-directory|(?:list of.{0,70}(?:companies|corporations)|principal manufacturing companies)|trade|companies|Corporate directory and company capital by business.
+indigenous-population|(?:aboriginal population|indigenous population)|population,indigenous-peoples|population-totals,nationality-and-ethnicity|Indigenous communities by locality or printed group.
+population-occupation2|population.{0,45}by occupation|population|occupations|Population classified by occupation.
+place-pronunciations|names? of provinces.*japanese.*korean|geography,population|physical-geography,languages|Place-name pronunciation concordance without geographical measurements.
