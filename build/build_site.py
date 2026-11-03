@@ -2616,9 +2616,15 @@ def build_directory(book):
         about = "".join(f"<p>{html.escape(book[k])}</p>" for k in ("blurb", "gaps") if book.get(k))
         sub = f'<p>{html.escape(book["subtitle"])} · {html.escape(book["publisher"])}</p>' if book.get("subtitle") else ""
         ptoc = printed_toc(book)
-        tl = "".join(f'<li style="margin-left:{(o["l"]-1)*1.3}em">' + (f'<a href="{o["u"]}" target="_blank" rel="noopener">{html.escape(o["t"])}</a>' if o.get("u") else html.escape(o["t"]))
-                     + (f' <span style="color:var(--muted)">{html.escape(str(o["p"]))}</span>' if o.get("p") else "") + "</li>" for o in ptoc)
-        ctoc = f'<details style="margin:0 0 14px;font-size:15px"><summary>Contents of the printed book</summary><ul style="list-style:none;padding-left:0;columns:18em;column-gap:28px">{tl}</ul></details>' if ptoc else ""
+        # one block per top-level entry (with its sub-entries), so a column break never separates a heading from its items
+        groups = []
+        for o in ptoc:
+            line = (f'<div style="padding-left:{(o["l"]-1)*1.3+1.2}em;text-indent:-1.2em">' + (f'<a href="{o["u"]}" target="_blank" rel="noopener">{html.escape(o["t"])}</a>' if o.get("u") else html.escape(o["t"]))
+                    + (f' <span style="color:var(--muted)">{html.escape(str(o["p"]))}</span>' if o.get("p") else "") + "</div>")
+            if o["l"] <= 1 or not groups: groups.append([])
+            groups[-1].append(line)
+        tl = "".join('<li style="break-inside:avoid;margin:0 0 6px">' + "".join(g) + "</li>" for g in groups)
+        ctoc = f'<details style="margin:0 0 14px;font-size:15px"><summary>Contents of the printed book</summary><ul style="list-style:none;padding-left:0;columns:18em;column-gap:28px;margin:8px 0">{tl}</ul></details>' if ptoc else ""
         doc = doc.replace('<main><div id="toc">', f'<main><details style="margin:0 0 8px;font-size:15px"><summary>About this book</summary>{sub}{about}</details>{ctoc}<div id="toc">', 1)
     with open(os.path.join(HERE, "book", book["slug"], "directory.html"), "w", encoding="utf-8") as fh:
         fh.write(doc)
