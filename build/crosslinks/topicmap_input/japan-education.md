@@ -1,0 +1,518 @@
+# Series japan-education: Annual Reports of the Minister of State for Education (Mombushō)
+Existing editions: (none: new series)
+New editions: japan-education-1891, japan-education-1895, japan-education-1896, japan-education-1899, japan-education-1900-01, japan-education-1901-02, japan-education-1902-03, japan-education-1903-04, japan-education-1904-05, japan-education-1905-06, japan-education-1906-07
+
+## Existing topics (chapters each existing edition maps to it)
+
+## japan-education-1891: chapters (table count; sample titles)
+- 'Part I. Expenditure' (3): Amount of Expenditure for the Department of Educat; [Expenditure of Institutions under the Control of ; [Expenditure of Institutions under the Control of 
+- 'Part II. General Summary' (1): Table Showing the Number of Government, Public, an
+- 'Part II. Elementary Schools' (10): Table Showing the Comparative Amounts of Salaries ; Table Showing the Annual Rate of Increase during t; Table Showing the Number of Public and [?] and Pup; [?] Private Elementary Schools, Teachers, [and Pup
+- 'Part II. Kindergartens' (2): [Literacy of Men of Conscription Age, Ken of Ishik; Table Showing the Number of Kindergartens of Gover
+- 'Part II. Normal Schools' (1): Table Showing the Number of Ordinary Normal School
+- 'Part II. Middle Schools' (3): Table Showing the Number of Ordinary [?] the 24th ; [Table Showing the Number of Ordinary] Middle Scho; Table Showing the Number of Higher Middle Schools,
+- 'Part II. Higher Female Schools' (1): Table Showing the Number of Higher Female Schools,
+- 'Part II. Special and Technical Schools' (2): Table showing the Number of Instructors, Students,; Table showing the Number of Government Special Sch
+- 'Part II. Blind and Dumb Schools and Miscellaneous Schools' (2): Table showing the Number of Public and Private Spe; Table showing the Number of Miscellaneous Schools,
+- 'Part II. Libraries' (2): [Table Showing the Number of Miscellaneous Schools; Table Showing the Number of Libraries, Works, etc.
+- 'Part II. Teachers' (1): Table Showing the Number of Years of Services of P
+- 'Part II. The Academy' (1): Table Showing the Ages of Public Elementary School
+- 'Part II. Text-books' (1): Table Showing the Number of Foreign Teachers
+- 'Part II. Public School Finance' (1): Table Showing the Estimated Amount of Educational 
+- 'Part II. Students in Foreign Countries' (11): Table Showing the Items of Income of Public School; Table Showing the Amount of Income of the Public E; Table Showing the Amount of School Fees in [?] and; Table Showing the Amount of School Fees in Public 
+- 'Part III. Statistical Tables relating to Education' (5): [Statistical Summary: Elementary Education, Popula; Statistical Summary — Continued [Elementary School; Statistical Summary [Normal, Middle, Higher Female; Table Showing the Number of Kindergartens, Conduct
+- 'Part III. The Number of School-Districts, Population and School-population' (2): Statistical Table Showing for the 24th Year [of Me; Statistical Table Showing for the 24th Year of Mei
+- 'Part III. The Number of Children of School Age receiving Instruction' (2): Statistical Table Showing for the 24th Year of Mei; Statistical Table Showing for the 24th Year of Mei
+- 'Part III. The Number of Children of School Age not receiving Instruction' (2): Statistical Table Showing for the 24th Year of Mei; Statistical Table Showing for the 24th Year of Mei
+- 'Part III. The Number of Elementary Schools' (2): Statistical Table Showing for the 24th Year of Mei; Statistical Table Showing for the 24th Year of Mei
+- 'Part III. The Number of Directors of, and Teachers and Pupil-Teachers in, Elementary Schools' (2): Statistical Table Showing for the 24th Year of Mei; Statistical Table Showing for the 24th Year of Mei
+- 'Part III. The Number of Pupils in Elementary Schools' (4): Statistical Table Showing for the 24th Year [?] in; Statistical Table Showing for the 24th Year of Mei; Statistical Table Showing for the 24th Year [of Me; Total Number of Pupils in Government, Public, and 
+- 'Part III. The Number of Pupils who have completed the Elementary School Course' (4): Statistical Table Showing for the 24th Year Comple; Statistical Table Showing for the 24th Year of Mei; Statistical Table Showing for the 24th Year [?] Co; Statistical Table Showing for the 24th Year of Mei
+- 'Part III. The Number of Kindergartens, and of Conductors, etc' (2): Statistical Table Showing for the 24th Year and of; Statistical Table Showing for the 24th Year of Mei
+- 'Part III. The Number of Normal Schools and of Instructors, etc' (2): Statistical Table Showing for the 24th Year [?] an; Statistical Table Showing for the 24th Year of Mei
+- 'Part III. The Number of Middle Schools, Instructors, etc' (2): Statistical Table Showing for the 24th Year of [?]; Statistical Table Showing for the 24th Year of Mei
+- 'Part III. The Number of Higher Schools for Females and of Instructors, etc' (2): Statistical Table Showing for the 24th Year for Fe; Statistical Table Showing for the 24th Year of Mei
+- 'Part III. The Number of Universities and Special Schools and of Instructors, etc' (4): Statistical Table Showing for the 24th Year Specia; Statistical Table Showing for the 24th Year of Mei; Statistical Table Showing for the 24th Year Specia; Statistical Table Showing for the 24th Year of Mei
+- 'Part III. The Number of Miscellaneous Schools and of Instructors, etc' (2): Statistical Table Showing for the 24th Year of Mei; Statistical Table Showing for the 24th Year of Mei
+- 'Part III. The Total Number of Public and Private Schools and of Instructors, etc' (2): Statistical Table Showing for the 24th Year of Mei; Statistical Table Showing for the 24th Year of Mei
+- 'Part III. The Items of Income of Public Schools' (4): No. 1. Statistical Table Showing for the 24th Year; No. 1. Statistical Table Showing for the 24th Year; Statistical Table Showing for the ... of Public Sc; 24th Year of Meiji (1891) The Items of Income ... 
+- 'Part III. The Items of Expenditure of Public Schools' (4): Statistical Table Showing for the 24th Year ... tu; Year of Meiji (1891) The Items of Expenditure of H; Statistical Table Showing for the 24th Year ... tu; Year of Meiji (1891) The Items of Expenditure of H
+- 'Part III. The Amount of Income of Public Elementary Schools' (2): Statistical Table Showing for the 24th Year Elemen; Of Meiji (1891) The Amount of Income of Public ...
+- 'Part III. The Amount of Expenditure of Public Elementary Schools' (2): Statistical Table Showing for the 24th Year Public; Of Meiji (1891) The Amount of Expenditure of Hokka
+- 'Part III. The Amount of Income of Public Ordinary Normal Schools' (2): Statistical Table Showing for the 24th Year Ordina; Of Meiji (1891) The Items of Income of Public ... 
+- 'Part III. The Amount of Expenditure of Public Ordinary Normal Schools' (2): Statistical Table Showing for the 24th Year Public; Of Meiji (1891) The Amount of Expenditure of ... H
+- 'Part III. The Items of Income of Public Ordinary Middle Schools' (2): Statistical Table Showing for the 24th Year Ordina; Of Meiji (1891) The Items of Income of Public ... 
+- 'Part III. The Items of Expenditure of Public Ordinary Middle Schools' (2): Statistical Table Showing for the 24th Year Public; Of Meiji (1891) The Items of Expenditure of Hokkai
+- 'Part III. The Items of Income of Public Special Schools' (2): Statistical Table Showing for the 24th Year Public; Year of Meiji (1891) The Items of Income of Hokkai
+- 'Part III. The Items of Expenditure of Public Special Schools' (2): Statistical Table Showing for the 24th Year Public; Of Meiji (1891) The Items of Expenditure of Hokkai
+- 'Part III. The Amount of Income of Public Miscellaneous Schools' (2): Statistical Table Showing for the 24th Year Miscel; Of Meiji (1891) The Amount of Income of Public Hok
+- 'Part III. The Amount of Expenditure of Public Miscellaneous Schools' (2): Statistical Table Showing for the 24th Year Public; Of Meiji (1891) The Amount of Expenditure of Hokka
+- 'Part III. The Amount of Income of Public Kindergartens and Libraries' (2): Statistical Table Showing for the 24th Year Kinder; Of Meiji (1891) The Amount of Income of Public Hok
+- 'Part III. The Amount of Expenditure of Public Kindergartens and Libraries' (2): Statistical Table Showing for the 24th Year Public; The Amount of Expenditure of the Hokkaido and in E
+- 'Part III. The Items of Income not Included in the Above Tables' (2): Statistical Table Showing for the 24th [?] Not Inc; Year of Meiji (1891) the Items of Income [?] the A
+- 'Part III. The Items of Expenditure not Included in the Above Tables' (2): Statistical Table Showing for the Expenditure Not ; 24th Year of Meiji (1891) the Items of [?] in the 
+- 'Part III. The Value of Public School Property, etc' (2): Statistical Table Showing for the 24th Year Proper; Of Meiji (1891) the Value of Public School and in 
+- 'Part III. The Amount of Voluntary Contributions to Education' (2): Statistical Table Showing for the 24th Year Contri; Of Meiji (1891) the Amount of Voluntary [?] Hokkai
+- 'Part III. Comparative Table showing the Monthly Amount of Public Elementary School Fees' (2): Comparative Table Showing for the 24th [?] of Publ; Year of Meiji (1891) the Monthly Amount [?] the Ho
+- 'Part III. Comparative Table showing the Amount of Monthly Salaries of Teachers and Pupil-Teachers in Public Elementary Schools' (2): Comparative Table Showing for the 24th [?] Salarie; Year of Meiji (1891) the Amount of Monthly Teacher
+- 'Part III. The Condition of Education in Each Province of the Empire' (4): Statistical Table Showing for the [?] of Education; 24th Year of Meiji (1891) the Condition [?] Provin; Statistical Table Showing for the 24th [?] Educati; Year of Meiji (1891) the Condition of of the FMPIR
+
+## japan-education-1895: chapters (table count; sample titles)
+- 'Part I. Officials and Expenditure' (4): Officials of the Department of Education and of th; Officials suspended from Their Duties, in the Depa; Foreign Employés in the Department of Education an; Amount of Expenditure for the Department of Educat
+- 'Part II. General Summary' (1): Statistical Table relating to Schools
+- 'Part II. Elementary Schools' (9): Statistical Table relating to the Elementary Schoo; Table showing the Number of Public and Private Ele; Table showing the Number of Public and Private Ele; Table showing the Number of Teachers in Public Ele
+- "Part II. Apprentices' Schools" (2): Statistical Table relating to the Apprentices' Sch; Statistical Table relating to Public and Private A
+- 'Part II. Supplementary Schools for Technical Instruction' (1): Statistical Table relating to the Public Supplemen
+- 'Part II. Blind and Dumb Schools' (1): Statistical Table relating to the Tokyo Blind and 
+- 'Part II. Kindergartens' (3): Statistical Table relating to the Blind and Dumb S; Statistical Table relating to the Kindergarten att; Statistical Table relating to the Public and Priva
+- 'Part II. Normal Schools' (2): Statistical Table relating to Ordinary Normal Scho; Statistical Table relating to the Higher Normal Sc
+- 'Part II. Ordinary Middle Schools' (3): Statistical Table relating to the Higher Normal Sc; Statistical Table relating to the Ordinary Middle ; Statistical Table relating to the Public and Priva
+- 'Part II. Higher Schools' (1): Statistical Table relating to Higher Schools and t
+- 'Part II. Higher Female Schools' (2): Statistical Table relating to the Higher Female Sc; Statistical Table relating to the Higher Female Sc
+- 'Part II. Imperial University' (2): Statistical Table relating to the Imperial Univers; Table showing the Number of Students, Pupils, and 
+- 'Part II. Special Schools' (1): Statistical Table relating to the Public and Priva
+- 'Part II. Technical Schools' (5): Statistical Table relating to the Higher Commercia; Statistical Table relating to the Tokyo Technical ; Statistical Table relating to the Sapporo Agricult; Statistical Table relating to the Tokyo Fine Arts 
+- 'Part II. Miscellaneous Schools' (1): [?]
+- 'Part II. Libraries' (2): Statistical Table relating to the Tokyo Library; Statistical Table relating to the Public and Priva
+- 'Part II. Testing of the Qualification of Teachers for Licences' (2): Statistical Table showing for the year 1895 the Nu; Statistical Table showing for the yeas 1895 the Nu
+- 'Part II. Foreign Instructors' (1): Statistical Table relating to Foreign Instructors 
+- 'Part II. Gun School Inspectors and School Committee' (3): Statistical Table relating to Foreign Instructors ; Statistical Table relating to the Gun School Inspe; Statistical Table relating to the Gun School Inspe
+- 'Part II. Pensions to Public School Officials' (4): Statistical Table Showing for the 28th Financial Y; Statistical Table Showing for the 28th Financial Y; Statistical Table relating to the Number of Years ; Statistical Table relating to the Number of Years 
+- 'Part II. Public School Finance' (15): Statistical Table showing, for the 28th Financial ; Statistical Table showing, for the 28th Financial ; Statistical Table showing, for the 28th Financial ; Statistical Table showing, for the 28th Financial 
+- 'Part III. Statistical Summary' (9): Statistical Summary Relating to Education; Table 1—Statistical Summary Relating to Education—; Table 1—Statistical Summary Relating to Education—; Table 1—Statistical Summary Relating to Education—
+- 'Part III. Dwelling-houses, Population, School-population' (1): Table 2.—Dwelling-Houses, Population and School-Po
+- 'Part III. Children of School Age not receiving the Prescribed Course of instruction' (3): Table 4.—Number of Children of School Age Not Rece; Table 5.—Number of Children of School Age, Not Rec; Table 5.—Number of Children of School Age, Not Rec
+- 'Part III. Elementary Schools' (3): Table 8.—Elementary [?] (rest of title cut off at ; Table—8. Elementary [?]; Table—8. Elementary Schools — Continued
+- 'Part III. Children of School Age receiving the Prescribed Course of Instruction' (1): [Untitled statistical table by circuit and prefect
+- 'Part III. Elementary Schools classified according to the Number of Classes' (12): Table 10.—Elementary Schools Classified [title cli; Table 10.—Elementary Schools Classified According ; Table 10.—Elementary Schools Classified [According; Table 10.—Elementary Schools Classified According 
+- 'Part III. Children receiving Instruction per cent. of School-population' (2): Table 7.—Number of Children Receiving Instruction ; Table 7.—Number of Children Receiving Instruction 
+- 'Part III. Elementary Schools plovided with Additional Branches of Sewing, Handiwork, etc' (2): Table 12 — Elementary Schools Provided with Additi; Elementary Schools Provided with Additional Branch
+- 'Part III. Elementary School Teachers' (4): Elementary School Teachers; Elementary School Teachers; Elementary School Teachers; School Teachers
+- 'Part III. Amount of Monthly Salaries of Teachers in Public Elementary Schools' (5): Amount of Monthly Salaries of Teachers in Public E; [?]; Amount of Monthly Salaries of Teachers in Public E; Amount of Monthly Salaries of Teachers in Public E
+- 'Part III. Number of Elementary School Teachers per Class' (2): Number of Elementary School Teachers per Class; [?]
+- 'Part III. Number of Elementary School Pupils per Teacher' (4): Number of Elementary [?]; School Pupils per Teacher; Number of Elementary [?]; School Pupils per Teacher — Continued
+- 'Part III. Number of Classes in Public Elementary Schools' (2): Number of Classes in Public Elementary Schools; [?]
+- 'Part III. Number of Pupils in Elementary Schools' (9): Number of Pupils; Table 21.—Number of Pupils in Elementary Schools (; Table 21.—Number of Pupils in Elementary Schools (; Table 21.—Number of Pupils in Elementary Schools—C
+- 'Part III. Average Number of Daily Attendance' (1): Table 24.—Number of Pupils in Elementary Schools (
+- 'Part III. Number of those who completed the Elementary School Course' (8): Table 25.—Number of Pupils Who Have Instruction in; Table 25 — Number of Pupils Who Have [?] ... Compl; Table 25 — Number of Pupils Who Have ... [continue; Table 25 — Number of Pupils Who Have ... Completed
+- 'Part III. Monthly Amount of Public Elementary School Fees' (1): Table 27 — Monthly Amount of Public Elemntary [sic
+- 'Part III. Number of Children to whom Tuition-fees are remitted' (1): Table 28 — Number of Public Elementary Schools Fre
+- "Part III. Apprentices' Schools" (2): [?] (untitled in the visible part: schools, teache; [?] ... Schools (Corrected up to the 31st December
+- 'Part III. Blind and Dumb Schools' (4): Table 30 — Public Supplementary Schools for Techni; Table 31 — Blind and Dumb Schools (Corrected up to; Table 31 — Blind and Dumb Schools — Continued (Cor; Table 31 — Blind and Dumb Schools — Continued: No.
+- 'Part III. Kindergartens' (4): Table 32 — Number of [?] (title cut off; table of ; Table 32.—Number of Kindergartens (Corrected up to; Table 32.—Number of Kindergartens (Corrected up to; Table 32.—Number of Kindergartens (Corrected up to
+- 'Part III. Higher Normal Schools' (2): Table 33.—Higher Normal Schools (Corrected up to t; Table 33.—Higher Normal Schools (Corrected up to t
+- 'Part III. Ordinary Normal Schools' (3): Table 34.—Ordinary Normal Schools (Corrected up to; Table 35.—Ordinary Normal Schools (Corrected up to; Table 36.—Ordinary Normal Schools (No. of Graduate
+- 'Part III. Ordinary Middle Schools' (7): Table 37.—Ordinary Middle Schools (Corrected up to; Table 38—Ordinary [?] (title cut off at right edge; Table 38—Ordinary Middle Schools (right half): No.; Table 38.—Ordina[ry Middle Schools] (title cut off
+- 'Part III. Higher Female Schools' (4): Table 41.—Higher [?] (title cut off at right edge ; Table 41.—Higher Female Schools (right half): Inst; Table 42.—Higher Female Schools: No. of Pupils; Table 42.—Higher Female Schools (right half): No. 
+- 'Part III. Higher Schools, with Higher Middle Schools' (1): Table 43.—Higher Schools and Higher Middle Schools
+- 'Part III. Imperial University' (1): Table 44.—Imperial University
+- 'Part III. Special Schools' (1): Table 45.—Special Schools: Total Number of Special
+- 'Part III. Libraries' (2): Table 48.—[?]; Libraries
+- 'Part III. Examination for Elementary School Teachers' (7): Table 49.—Examination for [?]; Elementary School Teachers for 1895 (right-hand ha; Table 49.—Examination for Elementary School Teache; Elementary School Teachers for 1895—Continued
+- 'Part III. Licensing of Instructors in Ordinary Normal Schools, Ordinary Middle Schools, etc' (1): Table 51.—Licensing of Instructors in Ordinary Mid
+- 'Part III. No. of Years of Service of Public School Officials, with the Amount of their Annual Salaries' (3): Table 52.—Number of Years of Service of the Amount; Public School Officials, Together with Annual Sala; Public School Officials, Together with Annual Sala
+- 'Part III. Public School Expenditure of Fu and Ken' (1): Table 55.—Public School Expenditure of Fu and Ken 
+- 'Part III. Public School Expenditure of Gun' (2): Table 56—Public School Expenditure of Gun for 1895; Table 56—Public School Expenditure of Gun for 1895
+- 'Part III. Public School Expenditure of Cities' (2): Table 57.—Public School Expenditure of Cities for ; Table 57.—Public School Expenditure of Cities for 
+- 'Part III. Public School Expenditure of Towns and Villages' (3): Table 58.—Public School Expenditure of Towns and V; [Untitled table, right-hand part, by Circuit, Fu a; Table 58.—Public School Expenditure of Towns and V
+- 'Part III. Public School Expenditure Specified according to the Class of Schools' (1): Table 59.—Amount of Public School Expenditure of F
+- 'Part III. Public School Income of Fu and Ken' (1): Table 60.—Public School Income of Fu and Ken for 1
+- 'Part III. Public School Income of Gun' (2): Table 61.—Public School [title continues on the ne; Table 61.—Public School Income of Gun for 1895-96
+- 'Part III. Public School Income of Cities' (1): Table 62.—Public School Income of Cities for 1895-
+- 'Part III. Public School Income of Towns and Villages' (1): Table 63.—Public School Income of Towns and Villag
+- 'Part III. Public School Income Specified According to the Class of Schools' (1): Amount of Public School Income of Fu, Ken, Gun, Ci
+- 'Part III. Public School Property of Fu and Ken' (2): Public School Property of Fu and Ken for 1895-96; Table 65.—Public School Property of Fu and Ken for
+- 'Part III. Public School Property of Gun' (1): Public School Property of Gun for 1895-96
+- 'Part III. Public School Property of Cities' (2): Public School Property of Cities for 1895-96; Public School Property of Cities for 1895-96
+- 'Part III. Public School Property of Towns and Villages' (3): Public School Property of Towns and Villages for 1; Table 68.—Public School Property of Towns and Vill; Table 68.—Public School Property of Towns and Vill
+- 'Part III. Public School Property of Fu, Ken, Gun, Cities, Towns, and Villages' (1): Table 69.—Public School Property of Fu, Ken, Gun, 
+- 'Part III. Pensions to Elementary School Teachers' (2): Table 70.—Pensions to Teachers in City, Town and V; Table 70.—Pensions to Teachers in City, Town, and 
+- 'Part III. Pensions to the Officials in Fu or Ken Normal Schools and Public Middle Schools' (2): Pensions to the Officials in Fu or Ken Normal Scho; [?]
+
+## japan-education-1896: chapters (table count; sample titles)
+- 'Part I. Officials and Expenditure' (4): Officials of the Department of Education and of th; Officials Suspended from Their Duties, in the Depa; Foreign Employés in the Department of Education an; Amount of Expenditure for the Department of Educat
+- 'Part II. General Summary' (1): Statistical Table relating to Schools
+- 'Part II. Elementary Schools' (12): Statistical Table relating to the Elementary Schoo; Table Showing the Number of Public and Private Ele; Table Showing the Number of Public and Private Ele; Table Showing the Number of Public and Private Ele
+- 'Part II. Apprentice Schools' (2): Statistical Table Relating to the Apprentice Schoo; Statistical Table Relating to Public and Private A
+- 'Part II. Supplementary Schools for Technical Instruction' (1): Statistical Table relating to Public and Private S
+- 'Part II. Blind and Dumb Schools' (1): Statistical Table Relating to the Tōkyō Blind and 
+- 'Part II. Kindergartens' (3): Statistical Table Relating to Blind and Dumb Schoo; Statistical Table Relating to the Kindergarten Att; Statistical Table relating to Public and Private K
+- 'Part II. Normal Schools' (2): Statistical Table relating to Ordinary Normal Scho; Statistical Table relating to the Higher Normal Sc
+- 'Part II. Ordinary Middle Schools' (3): Statistical Table relating to the Higher Normal Sc; Statistical Table relating to the Ordinary Middle ; Statistical Table relating to Public and Private O
+- 'Part II. Higher Schools' (1): Statistical Table relating to Higher Schools
+- 'Part II. Higher Female Schools' (2): Statistical Table relating to the Higher Female Sc; Statistical Table relating to the Higher Female Sc
+- 'Part II. Imperial University' (2): Statistical Table relating to the Imperial Univers; Table showing the Number of Students, Pupils, and 
+- 'Part II. Special Schools' (1): Statistical Table relating to the Public and Priva
+- 'Part II. Technical Schools' (7): Statistical Table relating to the Higher Commercia; Statistical Table relating to the Tokyo Technical ; Statistical Table relating to the Institute for Tr; Statistical Table relating to the Sapporo Agricult
+- 'Part II. Miscellaneous Schools' (1): Statistical Table relating to Public and Private M
+- 'Part II. Libraries' (2): Statistical Table relating to the Tokyo Library (C; Statistical Table relating to Public and Private L
+- 'Part II. Testing of the Qualification of Teachers for Licences' (1): Statistical Table showing for the year 1896 the Nu
+- 'Part II. Foreign Instructors' (3): Statistical Table showing for the year 1896 the Nu; Statistical Table relating to Foreign Instructors ; Statistical Table relating to Foreign Instructors 
+- 'Part II. Pensions to Public School Officials' (6): Statistical Table Showing for the 29th Financial Y; Statistical Table Relating to the Number of Years ; Statistical Table Relating to the Number of Years ; Statistical Table Showing for the 29th Financial Y
+- 'Part III. Dwelling-houses, Population, and School-population' (1): Number of Dwelling-houses, Population and School-p
+- 'Part III. Children of School Age receiving the Prescribed Course of Instruction' (1): Number of Children of School Age Receiving the Pre
+- 'Part III. Children receiving Instruction per cent. of School-population' (4): Number of Children Receiving Instruction per cent.; Number of Elementary Schools Provided with Supplem; Table 6.—Number of Ordinary Elementary Schools Cla; Table 7.—Number of Higher Elementary Schools Class
+- 'Part III. Elementary School Teachers' (4): Table 8.—Number of Elementary [?]; [Number of Elementary School Teachers] (continued ; Table 9.—Number of Elementary School Teachers per ; Table 10.—Number of Elementary School Pupils per T
+- 'Part III. Number of Classes in Public Elementary Schools' (1): Table 11.—Number of Classes in Public Elementary S
+- 'Part III. Number of Pupils in Elementary Schools' (4): Table 12.—Number of Pupils in Ordinary Elementary ; Number of Pupils in Higher Elementary Schools (Cor; Total Number of Pupils in Elementary Schools (Corr; Total Number of Pupils in Elementary Schools (Corr
+- 'Part III. Average Number of Daily Attendance' (1): Average Number of Daily Attendance of Pupils in El
+- 'Part III. Number of those who completed the Elementary School Course' (2): Number of Pupils who Completed the Ordinary Elemen; Number of Pupils who Completed the Higher Elementa
+- 'Part III. Monthly Amount of Public Elementary School Fees' (1): Monthly Amount of Public Elementary School Fees
+- 'Part III. Apprentice Schools' (2): Apprentice [Schools]; Apprentice Schools
+- 'Part III. Supplementary Schools for Technical Instruction' (2): Supplementary Schools for Technical Instruction; Supplementary Schools for Technical Instruction
+- 'Part III. Blind and Dumb Schools' (3): Blind and Dumb Schools; Blind and Dumb Schools — Continued; Blind and Dumb Schools — Continued
+- 'Part III. Kindergartens' (1): Kindergartens
+- 'Part III. Higher Normal Schools' (1): Higher Normal Schools
+- 'Part III. Ordinary Normal Schools' (2): Number of Ordinary Normal Schools and of Instructo; Number of Pupils in Ordinary Normal Schools
+- 'Part III. Ordinary Middle Schools' (4): Table 28.—Number of Instructors in Ordinary Middle; Table 29.—Number of Pupils in Ordinary Middle Scho; Table 30.—Number of Graduates in Ordinary Middle S; Table 31.—Showing the Career of Pupils after Gradu
+- 'Part III. Higher Female Schools' (4): Table 32.—Number of Higher Female [?]; [Table 32 continued] [?] Schools and of Instructor; Table 33.—Number of Pupils in Higher [Female Schoo; [Table 33 continued] Number of Pupils in Higher Fe
+- 'Part III. Higher Schools' (1): Table 34.—Higher Schools
+- 'Part III. Imperial University' (1): Table 35.—Imperial University
+- 'Part III. Special Schools' (1): Table 36.—Special Schools
+- 'Part III. Technical Schools' (1): Table 37.—Technical Schools
+- 'Part III. Miscellaneous Schools' (1): Table 38.—Miscellaneous Schools
+- 'Part III. Libraries' (2): Libraries (Corrected up to the 31st December, 1896; Libraries (Corrected up to the 31st December, 1896
+- 'Part III. Public School Expenditure' (2): Total Amount of Public School Expenditure for 1896; Total Amount of Public School Expenditure for 1896
+- 'Part III. Public School Expenditure Specified according to the Class of Schools' (1): Amount of Public School Expenditure for 1896–97, S
+- 'Part III. Public School Income' (1): Total Amount of Public School Income for 1896–97
+- 'Part III. Public School Income Specified according to the Class of Schools' (1): Amount of Public School Income for 1896–97, Specif
+- 'Part III. Public School Property' (2): Table 44.—Public School Property for 1896-97; Table 44.—Public School Property for 1896-97.—Cont
+
+## japan-education-1899: chapters (table count; sample titles)
+- 'Part I. Officials' (1): Table Showing the Number of Officials of the Depar
+- 'Part I. Expenditure' (3): [Number of Foreign Instructors by Nationality, 189; Table Showing the Amount of Expenditure for the De; Table Showing the Amount of Expenditure for the In
+- 'Part II. General Summary' (1): Statistical Table relating to Schools
+- 'Part II. Elementary Schools' (6): Table Showing the Number of Public and Private Ele; Table Showing the Number of Public and Private Ele; Table Showing the Number of Teachers in Public Ele; Statistical Table relating to Public and Private E
+- 'Part II. Kindergartens' (1): Statistical Table relating to Public and Private K
+- 'Part II. Normal Schools' (3): Statistical Table relating to the Higher Normal Sc; Statistical Table relating to the Higher Normal Sc; Statistical Table relating to Normal Schools
+- 'Part II. Higher Female Schools' (1): Statistical Table relating to Public and Private M
+- 'Part II. Middle Schools' (1): Statistical Table relating to Higher Female School
+- 'Part II. Higher Schools' (1): Statistical Table relating to Higher Schools
+- 'Part II. Imperial Universities' (8): Statistical Table relating to the Imperial Univers; Table showing the Number of Students, Pupils, and ; [Applicants for Admission, Enrolment and Withdrawa; [Careers of the College Graduates, Annual Comparis
+- 'Part II. Special Schools' (4): Statistical Table relating to the Tōkyō Foreign La; Statistical Table relating to the Tōkyō Fine Arts ; Statistical Table relating to the Tōkyō Academy of; Statistical Table relating to Special Schools
+- 'Part II. Technical Schools' (5): Statistical Table relating to the Sapporo Agricult; Statistical Table relating to the Higher Commercia; Statistical Table relating to the Tōkyō Technical ; Statistical Table relating to the Osaka Technical 
+- 'Part II. Miscellaneous Schools' (1): Statistical Table relating to Miscellaneous School
+- 'Part II. Foreign Instructors' (1): Statistical Table relating to Foreign Instructors 
+- 'Part II. School Hygiene' (4): Statistical Table relating to Foreign Instructors ; Statistical Table Showing the Results of Examinati; Statistical Table Showing the Results of Examinati; Statistical Table Showing the Results of Examinati
+- 'Part II. Libraries' (2): Statistical Table relating to the Imperial Library; Statistical Table relating to Public and Private L
+- 'Part II. Testing of the Qualifications of Teachers for Licences' (1): Statistical Table showing for the year 1899 the Re
+- 'Part II. Pensions to Public School Officials' (1): Statistical Table Showing for 1899—1900 the Income
+- 'Part II. Public School Expenditure and Property' (2): Statistical Table Relating to Public School Expend; Statistical Table Relating to Public School Proper
+- 'Part III. School Population' (2): Table I.—School Population; Table I.—School Population
+- 'Part III. Number of Children of School Age receiving the Prescribed Course of Instruction' (2): Table 2.—Number of Children of School Age Receivin; Table 2.—Number of Children of School Age Receivin
+- 'Part III. Children of School Age not receiving the Prescribed Course of Instruction' (2): Table 3.—Number of Children of School Age Not Rece; Table 3.—Number of Children of School Age Not Rece
+- 'Part III. Children receiving Instruction per cent. of School Population' (2): Table 4.—Number of Children Receiving Instruction ; Table 4.—Number of Children Receiving Instruction 
+- 'Part III. Number of Elementary Schools' (2): Table 5.—Number of Elementary Schools; Table 5.—Number of Elementary Schools
+- 'Part III. Elementary Schools Provided with Supplementary Courses, etc' (2): Table 6.—Number of Elementary Schools Provided wit; Table 6.—Number of Elementary Schools Provided wit
+- 'Part III. Elementary School Teachers' (4): Table 7.—Number of Teachers; Table 7.—Number of Teachers in Elementary Schools; Table 7.—Number of Teachers (Elementary School Tea; Table 7.—Number of Teachers in Elementary Schools—
+- 'Part III. Number of Classes in Public Elementary Schools' (4): Table 8.—Number of Classes in [Elementary Schools]; Table 8.—Number of Classes in Public Elementary Sc; Table 9.—Number of Pupils in [Elementary Schools]; Table 9.—Number of Pupils in Ordinary Elementary S
+- 'Part III. Number of Pupils in Elementary Schools' (4): Table 9.—Number of Pupils in Ordinary [Elementary ; Table 9.—Number of Pupils in Ordinary Elementary S; Table 10.—Number of Pupils in [...]; Table 10.—Number of Pupils in Higher Elementary Sc
+- 'Part III. Average Number of Daily Attendance' (2): Table 11.—Average Number of Daily Attendance [...]; Table 11.—Average Number of Daily Attendance of Pu
+- 'Part III. Number of Pupils who Completed the Elementary School Course' (6): Table 12.—Number of Pupils who Completed [...]; Table 12.—Number of Pupils who Completed the Ordin; Table 12.—Number of Pupils who Completed the [Ordi; Table 12.—Number of Pupils who Completed the Ordin
+- 'Part III. Blind and Dumb Schools' (3): Blind and Dumb Schools; Blind and Dumb Schools — No. of Pupils; Blind and Dumb Schools — Continued (No. of Pupils 
+- 'Part III. Kindergartens' (3): Kindergartens; Kindergartens — Continued; Kindergartens — Continued
+- 'Part III. Higher Normal Schools' (29): Higher Normal Schools; Number of Normal Schools and of Instructors; Number of Pupils [title continues on facing page]; Number of Pupils in Normal Schools
+
+## japan-education-1900-01: chapters (table count; sample titles)
+- 'Part I. Officials' (2): Table Showing, for 1900-1901, the Number of Offici; [Annual Comparative Statistics of Foreign Instruct
+- 'Part I. Expenditure' (2): Table Showing, for 1900–1901, the Amount of Expend; Table Showing, for 1900–1901, the Amount of Expend
+- 'Part II. General Summary' (1): Statistical Table showing for 1900-1901 the Number
+- 'Part II. Elementary Schools' (5): Statistical Table relating to Gov., Public, and Pr; Table showing, for 1900-1901, the Number of Public; Table showing, for 1900–1901, the Number of Teache; [Monthly Salary Maximum, Minimum and Average of Te
+- 'Part II. Kindergartens' (3): Table Showing the Percentage of Children Receiving; [Percentage of Children Receiving Instruction in C; Statistical Table relating to Public and Private K
+- 'Part II. Blind and Dumb Schools' (1): Statistical Table relating to Blind and Dumb Schoo
+- 'Part II. Normal Schools' (4): Statistical Table relating to the Higher Normal Sc; Statistical Table Relating to the Higher Normal Sc; Statistical Table relating to Normal Schools; [Number of Pupils in the Regular and Simpler Cours
+- 'Part II. Middle Schools' (1): Statistical Table relating to Public and Private M
+- 'Part II. Higher Schools for Females' (2): [Number of Pupils in the Main Courses of Higher Sc; Statistical Table relating to Higher Female School
+- 'Part II. Imperial Universities' (11): [Ages of those enrolled, by college]; Statistical Table relating to the Imperial Univers; Table showing, for 1900-1901, the Number of Studen; [Reasons for leaving, by college]
+- 'Part II. Special Schools' (4): Statistical Table Relating to the Tokyo Foreign La; Statistical Table relating to the Tokyo Fine Arts ; Statistical Table Relating to the Tokyo Academy of; Statistical Table relating to Special Schools for 
+- 'Part II. Technical Schools' (5): Statistical Table Relating to the Sapporo Agricult; Statistiical Table Relating to the Higher Commerci; Statistical Table relating to the Tokyo Technical ; Statistical Table relating to the Osaka Technical 
+- 'Part II. Miscellaneous Schools' (1): Statistical Table relating to Miscellaneous School
+- 'Part II. School Hygiene' (2): Table Showing for 1900-1901, the Percentage of Pup; Table Showing, for 1900-1901, the Percentage of Pu
+- 'Part II. Libraries' (2): Statistical Table Relating to the Imperial Library; Statistical Table Relating to Public and Private L
+- 'Part II. Public School Expenditure and Property' (4): Statistical Table Showing, for 1900–1901, the Inco; Statistical Table showing, for 1900-1901, the Amou; School Expenditure of Fu, Ken, Gun, Cities, Towns ; Statistical Table showing, for 1900-1901, the Valu
+- 'Part III. School Population' (2): Table I.-School Population (1900-1901); Table I.-School Population (1900-1901)
+- 'Part III. Number of Children of School Age receiving the Prescribed Course of Instruction' (2): Table 2.-Number of Children of School Age receivin; Table 2.-Number of Children of School Age receivin
+- 'Part III. Children of School Age not receiving the Prescribed Course of Instruction' (2): Table 3.-Number of Children of School Age not rece; Table 3.-Number of Children of School Age not rece
+- 'Part III. Children receiving Instruction per cent. of School Population' (2): Table 4.-Number of Children receiving Instruction ; Table 4.-Number of Children receiving Instruction 
+- 'Part III. Number of Elementary Schools' (2): Table 5.-Number of Elementary Schools (1900-1901); Table 5.-Number of Elementary Schools (1900-1901)
+- 'Part III. Elementary Schools Provided with Supplementary Courses' (2): Table 6.-Number of Elementary Schools provided wit; Table 6.-Number of Elementary Schools provided wit
+- 'Part III. Teachers in Elementary School' (2): Table 7.-Number of Teachers; Number of Teachers in Elementary Schools (1900-190
+- 'Part III. Number of Classes in Public Elementary Schools' (2): Number of Classes in Public Elementary Schools (19; Number of Classes in Public Elementary Schools (19
+- 'Part III. Number of Pupils in Elementary Schools' (6): Number of Pupils in Ordinary Elementary Schools (1; Number of Pupils in Ordinary Elementary Schools (1; Number of Pupils in Ordinary Elementary Schools (1; Number of Pupils in Ordinary Elementary Schools (1
+- 'Part III. Average Number of Daily Attendance' (2): Average Number of Daily Attendance of [title conti; Average Number of Daily Attendance of Pupils in El
+- 'Part III. Number of Pupils who Completed Elementary School Course' (6): Number of Pupils who Completed [title continues on; Ordinary Elementary Course (1900-1901); Number of Pupils who completed Supplementary Cours; Ordinary Elementary Course (1900-1901) — Continued
+- 'Part III. Kindergartens' (4): Statistics of [?] (title cut off); Kindergartens (1900-1901); Statistics of [?] (title cut off; Infants); Kindergartens (1900-1901) — Continued
+- 'Part III. Blind and Dumb Schools' (3): Statistics of Blind and Dumb Schools (1900-1901); Statistics of Bilnd [sic] and Dumb Schools (1900-1; Blind and Dumb Schools (1900-1901) — Continued
+- 'Part III. Normal Schools' (7): Statistics of Higher Normal Schools (1900-1901); Number of Normal [?] (title cut off); Number of Normal Schools and of Instructors (1900-; Number of Pupils in Normal Schools (1900-1901)
+- 'Part III. Middle Schools' (3): Table 20.—Number of Middle Schools and of Instruct; Table 21.—Number of Pupils in Middle Schools (1900; Table 21.—Number of Pupils in Middle Schools and o
+- 'Part III. Higher Schools for Females' (4): Table 22.—Number of Higher Female [Schools, contin; Table 22.—Number of Higher Female Schools and of I; Table 23.—Number of Pupils in Higher [Female Schoo; Table 23.—Number of Pupils in Higher Female School
+- 'Part III. Higher Schools' (1): Table 24.—Statistics of Higher Schools (1900–1901)
+- 'Part III. Imperial Universities' (1): Table 25.—Imperial Universities (1900–1901)
+- 'Part III. Special Schools' (2): Table 26.—Statistics of [?]; Statistics of Special Schools (1900–1901)
+- 'Part III. Technical Schools' (1): Statistics of Technical Schools (1900–1901)
+- 'Part III. Miscellaneous Schools' (1): Statistics of Miscellaneous Schools (1900–1901)
+- 'Part III. Public School Expenditure' (6): Amount of Public [title continues on next page]; Amount of Public School Expenditure (1900–1901); Amount of Public School [title continues on next p; Amount of Public School Expenditure (1900–1901).—C
+- 'Part III. Public School Income' (4): Amount of Public [title continues on next page]; Amount of Public School Income (1900–1901); Amount of Public School Income (Including ...) [ti; Amount of Public School Income Specified with Refe
+- 'Part III. Public School Property' (4): Public School [title continues on next page]; Public School Property (1900–1901); Public School [title continues on next page]; Property (1900-1901)—Continued: School Stock Prope
+
+## japan-education-1901-02: chapters (table count; sample titles)
+- 'Part I. Officials' (2): Table Showing, for 1900-1902, the Number of Offici; [Foreign Instructors by Nationality, 1897-1902]
+- 'Part I. Expenditure' (2): Table Showing, for 1901-1902, the Amount of Expend; Table Showing, for 1901-1902, the Amount of Expend
+- 'Part II. General Summary' (1): Statistical Table Showing for 1901-1902 the Number
+- 'Part II. Elementary Schools' (5): Table Showing for 1901-1902 the Number of Governme; Table Showing, for 1901-1902, the Number of Teache; Table Showing the Number of Children of School Age; Table Showing the Percentage of Children Receiving
+- 'Part II. Kindergartens' (1): Statistical Table relating to Public and Private K
+- 'Part II. Blind and Dumb Schools' (2): Statistical Table relating to the Tokyo Blind and ; Statistical Table relating to Blind and Dumb Schoo
+- 'Part II. Normal Schools' (3): Statistical Table relating to the Higher Normal Sc; Statistical Table Relating to the Higher Normal Sc; Statistical Table Relating to Normal Schools
+- 'Part II. Middle Schools' (2): [Applicants for Admission to and Enrolment in Midd; Statistical Table Relating to Public and Private M
+- 'Part II. Higher Schools for Females' (2): [Pupils in the Main Courses for 1901-1902, Classif; Statistical Table Relating to Higher Schools for F
+- 'Part II. Higher Schools' (1): Statistical Table Relating to Higher Schools for 1
+- 'Part II. Imperial Universities' (11): [Ages of Students by College, Imperial University ; Statistical Table Relating to the Imperial Univers; Table Showing, for 1901-1902, the Number of Studen; Table Showing, for 1901-1902, the Number of Studen
+- 'Part II. Special Schools' (6): In-patients; Statistical Table relating to Special Schools of M; Statistical Table relating to the Tokyo Foreign La; Statistical Table Relating to the Tokyo Fine Arts 
+- 'Part II. Technical Schools' (5): Statistical Table Relating to the Sapporo Agricult; Statistical Table Relating to the Higher Commercia; Statistical Table Relating to the Tokyo Higher Tec; Statistical Table relating to the Osaka Higher Tec
+- 'Part II. Miscellaneous Schools' (1): Statistical Table relating to Miscellaneous School
+- 'Part II. School Hygiene' (6): [Percentages of Strong Constitutions and Normal Si; Those Having Strong Constitutions per cent. of Ele; Average Height of Elementary School Children (a ce; Average Weight of Elementary School Children
+- 'Part II. Libraries' (2): Statistical Table relating to the Imperial Library; Statistical Table relating to Public and Private L
+- 'Part II. Pensions to Public School Officials' (2): Statistical Table Showing, for 1901-1902, the Inco; Statistical Table Showing for 1901-1902 the Amount
+- 'Part II. Public School Expenditure and Property' (3): Statistical Table Showing, for 1901-1902, the Amou; School Expenditure of Fu, Ken, Gun, Cities, Towns ; Statistical Table Showing the Value of Public Scho
+- 'Part III. School Population' (2): School Population, 1901-1902; School Population, 1901-1902
+- 'Part III. Number of Children of School Age receiving the Prescribed Course of Instruction' (2): Number of Children of School Age receiving the Edu; Prescribed Course of Instruction, 1901-1902
+- 'Part III. Children of School Age not receiving the Prescribed Course of Instruction' (2): Number of Children of School Age not receiving [th; [Number of Children of School Age not receiving] t
+- 'Part III. Children receiving Instruction per cent. of School Population' (2): Number of Children receiving Instruction per cent; [Number of Children receiving Instruction per cent
+- 'Part III. Number of Elementary Schools' (2): Number of Elementary Schools, 1901-1902; Number of Elementary Schools, 1901-1902
+- 'Part III. Elementary Schools Provided with Supplementary Courses' (2): Number of Elementary Schools Provided with Supplem; Number of Elementary Schools Provided with Supplem
+- 'Part III. Teachers in Elementary Schools' (2): Number of Teachers, Elementary Schools, 1901–1902 ; Number of Teachers, Elementary Schools, 1901–1902 
+- 'Part III. Number of Classes in Public Elementary Schools' (2): Number of Classes in Public [?] Elementary Schools; Number of Classes in Public [?] Elementary Schools
+- 'Part III. Number of Pupils in Elementary Schools' (4): Number of Pupils in Ordinary [?] Schools; Number of Pupils in Ordinary [?] Schools — Continu; Number of Pupils in Higher [?] Schools; Number of Pupils in Higher [?] Schools — Continued
+- 'Part III. Average Number of Daily Attendance' (2): Average Number of Daily Attendance of Pupils in El; Average Number of Daily Attendance of Pupils in El
+- 'Part III. Number of Pupils who Completed Elementary School Course' (4): Number of Pupils Who Completed Ordinary Elementary; Number of Pupils Who Completed Ordinary Elementary; Number of Pupils Who Completed Higher Elementary C; Number of Pupils Who Completed Higher Elementary C
+- 'Part III. Kindergartens' (4): Number of Kindergartens and Conductors, 1901–1902; Number of Kindergartens and Conductors, 1901–1902 ; Kindergartens: Number of Infants, etc., 1901-1902; Kindergartens: Number of Infants, etc., 1901-1902 
+- 'Part III. Blind and Dumb Schools' (3): Blind and Dumb Schools: Number of Schools and Teac; Blind and Dumb Schools—Continued. Number of Pupils; Blind and Dumb Schools—Continued. No. of Pupils wh
+- 'Part III. Normal Schools' (7): Higher Normal Schools, Number of Schools, Instruct; Normal Schools: Number of Schools and Instructors,; Normal Schools: Number of Schools and Instructors,; Normal Schools: Number of Pupils, 1901-1902
+- 'Part III. Higher Schools for Females' (4): Higher Female Schools — Number of Schools and Inst; Higher Female Schools — Number of Schools and Inst; Higher Female Schools — Number of Pupils; Higher Female Schools — Continued. Number of Pupil
+- 'Part III. Higher Schools' (1): Higher Schools — Number of Schools, Instructors, e
+- 'Part III. Imperial Universities' (1): Imperial Universities — Number of Professors, Stud
+- 'Part III. Special Schools' (2): Special Schools — Number of Schools, Instructors [; Special Schools — Number of Schools, Instructors, 
+- 'Part III. Technical Schools' (1): Technical Schools — Number of Schools, Instructors
+- 'Part III. Miscellaneous Schools' (1): Miscellaneous Schools — Number of Schools, Instruc
+- 'Part III. Public School Expenditure' (6): Amount of Public School [Expenditure — title cut a; Amount of Public School Expenditure, 1901–1902 (co; Amount of Public School [Expenses] by Fu and Ken (; Amount of Public School Expenditure, 1901-1902 (ri
+- 'Part III. Public School Income, etc' (8): Amount of Public [?]; School Income, 1901-1902 (right part); Amount of Public School Income Specified (Includin; Amount of Public School Income Specified with Refe
+
+## japan-education-1902-03: chapters (table count; sample titles)
+- 'Part I. Officials' (1): Table showing, for 1902-3, the Number of Officials
+- 'Part I. Expenditure' (3): Annual Comparative Statistics Relating to the Numb; Table showing, for 1902-3, the Amount of Expenditu; Table showing, for 1902-3, the Amount of Expenditu
+- 'Part II. General Summary' (1): Statistical Table showing, for 1902-3, the Number 
+- 'Part II. Elementary Schools' (9): Table showing, for 1902-3, the Number of Governmen; [Number of Children in Ordinary Elementary Schools; [Number of Children in Higher Elementary Schools b; [Proportion of Children in Ordinary Elementary Cou
+- 'Part II. Kindergatens' (1): Statistical Table relating to Public and Private K
+- 'Part II. Blind and Dumb Schools' (2): Statistical Table relating to the Tokyo Blind and ; Statistical Table relating to Blind and Dumb Schoo
+- 'Part II. Higher Normal Schools and Higher Normal School for Females' (2): Statistical Table relating to the Higher Normal Sc; Statistical Table Relating to the Higher Normal Sc
+- 'Part II. Normal Schools' (1): Statistical Table relating to Normal Schools
+- 'Part II. Middle Schools' (2): [Middle School Applicants, Enrolments and Percenta; Statistical Table relating to Public and Private M
+- 'Part II. Higher Schools for Females' (2): [Pupils in the Main Courses, 1902–3, Classified by; Statistical Table relating to Higher Schools for F
+- 'Part II. Higher Schools' (1): Statistical Table relating to Higher Schools for 1
+- 'Part II. Imperial Universities' (6): [Ages of Students and Pupils of the Imperial Unive; Statistical Table relating to the Imperial Univers; Table showing, for 1902-3, the Number of Students,; [Ages of Students and Pupils Enrolled (Maximum, Mi
+- 'Part II. Special Schools' (5): Statistical Table relating to Special Schools of M; Statistical Table relating to the Tokyo Foreign La; Statistical Table Relating to the Tōkyō Fine Art S; Statistical Table Relating to the Tōkyō Academy of
+- 'Part II. Technical Schools' (5): Statistical Table Relating to the Sapporo Agricult; Statistical Table Relating to the Tōkyō Higher Com; Statistical Table relating to the Tōkyō Higher Tec; Statistical Table relating to the Osaka Higher Tec
+- 'Part II. School Hygiene' (5): Those having Strong Constitutions per cent. of Ele; Average Height of Elementary School Children; Average Weight of Elementary School Children; Table showing, for 1902-3, the Percentage of Male 
+- 'Part II. Libraries' (2): Statistical Table relating to the Imperial Library; Statistical Table relating to Public and Private L
+- 'Part II. Pensions to Public School Officials' (2): Statistical Table Showing, for 1902-3, the Income ; Statistical Table Showing, for 1901-2, the Amount 
+- 'Part II. Public School Expenditure' (2): Statistical Table Showing, for 1902-3, the Amount ; School Expenditure of Fu, Ken, Gun, Cities, Towns 
+- 'Part II. Public School Property' (1): Statistical Table Showing the Value of Public Scho
+- 'Part III. School Population' (2): Elementary School Popula[?]; [School Population, 1902-3 (right-hand half)]
+- 'Part III. Number of Children of School Age receiving the Prescribed Course of Instruction' (2): Number of Children of School Age Receiving the Pre; Number of Children of School Age Receiving the Pre
+- 'Part III. Number of Children of School Age not receiving the Prescribed Course of Instruction' (2): Number of Children of School Age Not Receiving the; Number of Children of School Age Not Receiving the
+- 'Part III. Number of Children receiving Instruction per cent. of School Population for five Successive Years' (2): Number of Children Receiving Instruction per cent.; Number of Children Receiving Instruction per cent.
+- 'Part III. Number of Elementary Schools' (2): Number of Elementary Schools, 1902-3; Number of Elementary Schools, 1902-3
+- 'Part III. Number of Elementary Schools provided with Supplementary Courses' (2): Number of Elementary Schools provided with Supplem; Number of Elementary Schools provided with Supplem
+- 'Part III. Number of Teachrs' (2): Number of Teachers [Elementary Schools, 1902-3]; Number of Teachers, Elementary Schools, 1902-3 (co
+- 'Part III. Number of Classes in Public Elementary Schools' (2): Number of Classes in Public [and Private Elementar; Number of Classes in Public [and Private Elementar
+- 'Part III. Number of Pupils in Elementary Schools' (4): Number of Pupils in Ordinary [Courses of Elementar; Elementary Schools, 1902-3 [Number of Pupils, cont; Number of Pupils in Higher [Courses of Elementary ; Elementary Schools, 1902-3 [Number of Pupils in Hi
+- 'Part III. Average Number of Daily Attendance' (2): Average Number of Daily Attendance of [Pupils in E; Pupils in Elementary Schools, 1902-3 [Average Numb
+- 'Part III. Number of Pupils who Completd Elementary School Course' (4): Number of Pupils who Completed [the Ordinary Eleme; Ordinary Elementary Course, 1902-3 [Pupils who Com; Number of Pupils who Completed [the Higher Element; Higher Elementary Course, 1902-3 [Pupils who Compl
+- 'Part III. Kindergartens' (4): Number of Kindergartens [and Conductors] (title cu; Number of Kindergartens and Conductors, 192-3 [as ; Number of Infants, [Kindergartens, etc., 1902-3] (; Kindergartens, etc., 1902-3 [Number of Infants, co
+- 'Part III. Blind and Dumb Schools' (4): Number of Schools and Teachers, 1902-3; Blind and Dumb Schools — Number of Pupils, 1902-3; No. of Pupils Who Completed Their Courses of Study; No. of Pupils Who Completed Their Courses of Study
+- 'Part III. Normal Schools' (6): Number of Schools [heading cut off at right edge; ; Number of Schools and Instructors, 1902-3; Number of Pupils, 1902-3; Number of Pupils, 1902-3
+- 'Part III. Middle Schools' (3): Number of Schools and Instructors, 1902-3; Number of Pupils [heading continues on facing page; [?] and Graduates, 1902–3
+- 'Part III. Higher Schools for Females' (4): Number of Schools and [?]; [?] Instructors, 1902–3; Number of Pupils; [?] and Graduates, 1902–3
+- 'Part III. Special Schools' (2): Number of Schools, [?]; [?] Instructors, etc., 1902–3
+- 'Part III. Technical Shools' (1): Number of Schools, Instructors, etc., 1902–3
+- 'Part III. Miscellaneous Schools' (1): Number of Schools, Instructors, etc., 1902–3
+- 'Part III. Public School Expenditure' (6): Amount of Public School [?]; Amount of Public School Expenditure, 1902–3; Amount of Public School [?]; Amount of Public School Expenditure, 1902–3
+- 'Part III. Public School Income, etc' (7): Amount of Public [School Revenue]; School Income, 1902-3; Amount of Public School Income Specified with Refe; Amount of Public School Income Specified with Refe
+
+## japan-education-1903-04: chapters (table count; sample titles)
+- 'Part I. Officials' (1): Table showing, for 1903-4, the Number of Officials
+- 'Part I. Expenditure' (3): [Annual Comparative Statistics of Foreign Instruct; Table showing, for 1903-4, the Amount of Expenditu; Table showing, for 1903-4, the Amount of Expenditu
+- 'Part II. General Summary' (1): Statistical Table showing, for 1903-4, the Number 
+- 'Part II. Elementary Schools' (9): Table showing, for 1903-4, the Number of Governmen; [Children in Ordinary Elementary Schools by School; [Children in Higher Elementary Schools by School Y; [Population and Children in Ordinary Elementary Co
+- 'Part II. Kindergartens' (1): Statistical Table relating to Public and Private K
+- 'Part II. Blind and Dumb Schools' (2): Statistical Table relating to the Tokyo Blind and ; Statistical Table relating to Blind and Dumb Schoo
+- 'Part II. Higher Normal Schools and Higher Normal School for Females' (3): Statistical Table relating to the Tōkyō Higher Nor; Statistical Table Relating to the Hiroshima Higher; Statistical Table Relating to the Higher Normal Sc
+- 'Part II. Normal Schools' (1): Statistical Table relating to Normal Schools
+- 'Part II. Middle Schools' (3): [Applicants for Admission, Pupils Enrolled and Per; Statistical Table relating to Public and Private M; [Pupils in the Main Courses, 1903–4, by School Yea
+- 'Part II. Higher Schools for Females' (1): Statistical Table relating to Higher Schools for F
+- 'Part II. Higher Schools' (1): Statistical Table relating to Higher Schools for 1
+- 'Part II. Imperial Universities' (7): [Ages of Those Enrolled, by College]; Statistical Table relating to the Imperial Univers; Table showing, for 1903-4, the Number of Students,; [Ages of Students Enrolled, Imperial University of
+- 'Part II. Special Schools' (5): Statistical Table Relating to Special Schools of M; Statistical Table Relating to the Tōkyō Foreign La; Statistical Table relating to the Tōkyō Fine Art S; Statistical Table relating to the Tōkyō Academy of
+- 'Part II. Technical Schools' (5): Statistical Table relating to the Sapporo Agricult; Statistical Table relating to the Tōkyō Higher Com; Statistical Table relating to the Tōkyō Higher Tec; Statistical Table relating to the Ōsaka Higher Tec
+- 'Part II. Miscellaneous Schools' (1): Statistical Table relating to Miscellaneous School
+- 'Part II. School Hygiene' (5): Those having Strong Constitutions per cents. of El; Average Height of Elementary School Children; Average Weight of Elementary School Children; Table showing, for 1903—4, the Percentage of Male 
+- 'Part II. Libraries' (2): Statistical Table relating to the Imperial Library; Statistical Table relating to Public and Private L
+- 'Part II. Pensions to Public School Officials' (2): Statistical Table showing, for 1903-4, the Income ; Statistical Table showing, for 1902-3, the Amount 
+- 'Part II. Public School Expenditure' (2): Statistical Table showing, for 1903-4, the Amount ; School Expenditure of Fu, Ken, Gun, Cities, Towns 
+- 'Part II. Public School Property' (1): Statistical Table showing the Value of Public Scho
+- 'Part III. School Population' (2): Elementary Schools — School Population, 1903—4 [le; Elementary Schools — School Population, 1903—4 [ri
+- 'Part III. Number of Children of School Age receiving the Prescribed Course of Instruction' (2): Number of Children of School Age receiving the [In; Number of Children of School Age receiving the Pre
+- 'Part III. Number of Children of School Age not receiving the Prescribed Course of Instruction' (2): Number of Children of School Age not receiving the; Number of Children of School Age not receiving the
+- 'Part III. Number of Children receiving Instruction per cent. of School Population for five Successive Years' (2): Number of Children receiving Instruction per cent.; Number of Children receiving Instruction per cent.
+- 'Part III. Number of Elementary Schools' (2): Number of Elementary Schools [left half]; Number of Elementary Schools [right half]
+- 'Part III. Number of Elementary Schools provided with Supplementary Courses' (2): Number of Elementary Schools provided [clipped] [l; Number of Elementary Schools provided with Supplem
+- 'Part III. Number of Teachers' (2): Number of Teachers, [clipped] [left half]; Number of Teachers, [clipped] [right half]
+- 'Part III. Number of Classes in Public Elementary Schools' (2): Number of Classes in Public [and Private Elementar; Number of Classes in Public [and Private Elementar
+- 'Part III. Number of Pupils in Elementary Schools' (8): Number of Pupils in Ordinary [Course — clipped] [l; Elementary Schools, 1903—4 (Number of Pupils in Or; Elementary Schools — Number of Pupils in Ordinary ; Elementary Schools, 1903—4 (Pupils in Supplementar
+- 'Part III. Average Number of Daily Attendance' (2): Average Number of Daily Attendance of [Pupils in E; Average Number of Daily Attendance of Pupils in El
+- 'Part III. Number of Pupils who completed Elementary School Course' (8): Number of Pupils who Completed [Elementary School ; Ordinary Elementary Course, 1903—4 (Number of Pupi; Number of Pupils who Completed [Elementary Supplem; Number of Pupils Who Completed Supplementary Cours
+- 'Part III. Kindergartens' (4): Number of Kindergartens; Number of Kindergartens and Conductors, 1903–4 (co; Number of Infants, [?]; Number of Infants, etc., 1903–4 (continued)
+- 'Part III. Blind and Dumb Schools' (4): Number of Schools and Teachers, 1903–4; Number of Pupils, 1903–4; No. of Pupils Who Completed [?]; No. of Pupils Who Completed Their Courses of Study
+- 'Part III. Normal Schools' (6): Number of Schools and [Instructors]; Number of Schools and Instructors, 1903–4 (continu; Number of [Pupils]; Number of Pupils, 1903–4 (continued)
+- 'Part III. Middle Schools' (2): Middle Schools: Number of Schools and Instructors,; Middle Schools—Continued: Number of Pupils and Gra
+- 'Part III. Higher Schools for Females' (4): Girls' Higher Schools: Number of Schools and Instr; Girls' Higher Schools: Instructors, 1903–4; Girls' Higher Schools: Number of Pupils and Gradua; Girls' Higher Schools: Number of Pupils and Gradua
+- 'Part III. Special Schools' (2): Special Schools: Number of Schools and Instructors; Special Schools: Pupils and Graduates, 1903–4
+- 'Part III. Technical Schools' (1): Technical Schools: Number of Schools, Instructors,
+- 'Part III. Miscellaneous Schools' (1): Number of Schools, Instructors, Etc., 1903—4
+- 'Part III. Public School Expenditure' (6): Amount of Public [?]; School Expenditure, 1903—4; Amount of Public School [?]; Amount of Public School Expenditure, 1903—4
+- 'Part III. Public School Income, etc' (5): Amount of Public School Income, 1903—4; Amount of Public School Income Specified with Refe; Public School [?]; Public School Property, 1903—4
+
+## japan-education-1904-05: chapters (table count; sample titles)
+- 'Part I. Officials' (2): Table showing, for 1904-5, the Number of Officials; [Comparative Statistics of Foreign Instructors by 
+- 'Part I. Expenditure' (2): Table showing, for 1904-5, the Amount of Expenditu; Table showing, for 1904-5, the Amount of Expenditu
+- 'Part II. General Summary' (1): Statistical Table showing, for 1904-5, the Number 
+- 'Part II. Elementary Schools' (12): Table showing, for 1904-5, the Number of Governmen; Table showing in detail the Number of Elementary S; Table showing the Number of Children in the Ordina; Table showing the Number of Children in the Higher
+- 'Part II. Kindergartens' (2): Statistical Table relating to the Kindergarten con; Statistical Table relating to Public and Private K
+- 'Part II. Blind and Dumb Schools' (2): Statistical Table relating to the Tōkyō Blind and ; Statistical Table relating to Blind and Dumb Schoo
+- 'Part II. Higher Normal Schools' (1): Statistical Table relating to the Tōkyō Higher Nor
+- 'Part II. Higher Normal School for Girls' (2): Statistical Table Relating to the Hiroshima Higher; Statistical Table Relating to the Higher Normal Sc
+- 'Part II. Special Institutes for the Training of Teachers' (1): Statistical Table relating to the Special Institut
+- 'Part II. Normal Schools' (2): [Applicants for Admission and Those Admitted to th; Statistical Table relating to Normal Schools
+- 'Part II. Middle Schools' (5): Statistical Table relating to the Middle School co; [Qualified and Unqualified Teachers of Middle Scho; [Applicants for Admission and Those Admitted to th; Statistical Table relating to Public and Private M
+- 'Part II. High Schools for Girls' (4): Statistical Table relating to the High School for ; [Number of Qualified and Unqualified Instructors, ; [Number of Applicants for Admission and Those Admi; Statistical Table relating to High Schools for Gir
+- 'Part II. High Schools' (3): [Applicants for Admission to the Preparatory Cours; [Applicants Examined and Those Passed at the Entra; Statistical Table relating to High Schools for 190
+- 'Part II. Imperial Universities' (8): [Maximum, Minimum and Average Ages of Those Admitt; Statistical Table relating to the Imperial Univers; Table showing, for 1904-5, the Number of Students,; Careers of the Graduates since the Foundation of t
+- 'Part II. Special Schools' (6): Statistical Table relating to Special Schools of M; [Pupils of the Tōkyō School of Foreign Languages b; Statistical Table relating to the Tōkyō School of ; Statistical Table relating to the Tōkyō Fine Art S
+- 'Part II. Technical Schools' (10): Statistical Table relating to the Sapporo Agricult; Statistical Table relating to the Morioka Higher S; Statistical Table relating to the Tōkyō Higher Com; Statistical Table relating to the Kōbe Higher Comm
+- 'Part II. Institutes for the Training of Technical School Teachers' (2): Statistical Table relating to the Institutes for t; Table showing, for 1904-5, the Number of Pupils, G
+- 'Part II. Miscellaneous Schools' (1): Statistical Table relating to Miscellaneous School
+- 'Part II. School Hygiene' (11): Table showing the Number of Schools in which Physi; Table showing the Number of School Physicians clas; [Average Height, Weight and Chest Measurement of S; Those having Strong Constitutions per cent. of Ele
+- 'Part II. Libraries' (2): Statistical Table relating to the Imperial Library; Statistical Table relating to Public and Private L
+- 'Part II. Committee for Testing the Qualifications of Teachers for Licences' (2): Statistical Table showing the Number of Applicants; Statistical Table showing the Number of Persons wh
+- 'Part II. Testing of the Qualifications of Elementary School Teachers for Licences' (1): Statistical Table Showing the Number of Applicants
+- 'Part II. Granting of the Fu or Ken Licences as Elementary School Teachers' (1): Statistical Table showing the Number of Persons gr
+- 'Part II. Pensions to Public School Officials' (4): Statistical Table showing, for 1904-5, the Income ; Statistical Table showing, for 1904-5, the Income ; Statistical Table showing, for 1904-5, the Income ; Statistical Table showing, for 1904-5, the Amount 
+- 'Part II. Educational Fund' (1): Statistical Table showing the Value of the Educati
+- 'Part II. Public School Expenditure' (3): [Amount of Public School Expenditure and Increase ; Statistical Table showing, for 1904-5, the Amount ; Statistical Table showing, for 1904-5, the Amount 
+- 'Part II. Public School Property' (1): Statistical Table showing the Value of Public Scho
+- 'Part III. School Population' (2): School Population, 1904-5; School Population, 1904-5 (continued)
+- 'Part III. Number of Children of School Age receiving the Prescribed Course of Instruction' (2): Number of Children of School Age receiving the Pre; Number of Children of School Age receiving the Pre
+- 'Part III. Number of Children of School Age not receiving the Prescribed Course of Instruction' (2): Number of Children of School Age not receiving the; [Number of Children of School Age not receiving th
+- 'Part III. Number of Children receiving Instruction per cent. of School Population for five Successive Years' (2): Number of Children receiving Instruction per cent; [Number of Children receiving Instruction per cent
+- 'Part III. Number of Blind and Dumb Children of School Age' (1): Number of Blind and Dumb Children of School Age, 1
+- 'Part III. Number of Elementary Schools' (2): Number of Elementary Schools, 1904–5; Number of Elementary Schools, 1904–5
+- 'Part III. Number of Elementary Schools provided with Supplementary Courses' (2): Number of Elementary Schools provided with Supplem; Number of Elementary Schools provided with Supplem
+- 'Part III. Number of Teachers' (2): Number of Teachers, [Elementary Schools], 1904–5; Number of Teachers, [Elementary Schools], 1904–5
+- 'Part III. Number of Classes in Public and private Elementary Schools' (2): Number of Classes in Public and Private Elementary; Number of Classes in Public and Private Elementary
+- 'Part III. Number of Pupils in Elementary Schools' (8): Number of Pupils in Ordinary Course, Elementary Sc; Number of Pupils in Ordinary Course, Elementary Sc; Number of Pupils in Ordinary Course, Elementary Sc; Number of Pupils in Ordinary Course, Elementary Sc
+- 'Part III. Average Number of Daily Attendance of Pupils in Elementary Schools' (2): Average Number of Daily Attendance of [?]; Pupils in Elementary Schools, 1904-5 [continued: N
+- 'Part III. Number of Pupils who completed the Prescribed Course of Instruction in Elementary Schools' (8): Number of Pupils who Completed [?]; Ordinary Elementary Course, 1904-5 [continued: pup; Number of Pupils who Completed [?]; Ordinary Elementary Course, 1904-5 [continued: pup
+- 'Part III. Kindergartens' (4): Number of Kindergartens; Number of Kindergartens and Conductors, 1904-5; Number of Infants, [1904-5]; Number of Infants, etc., 1904-5 (right-hand part)
+- 'Part III. Blind and Dumb Schools' (4): Blind and Dumb Schools: Number of Schools and Teac; Blind and Dumb Schools — Continued. Number of Pupi; No. of Pupils who Completed [title cut off at righ; No. of Pupils who Completed Their Courses of Study
+- 'Part III. Normal Schools' (6): Normal Schools: Number of Schools [and Instructors; Normal Schools: Number of Schools and Instructors,; Normal [Schools]: Number of [Students] [title cut ; Normal Schools — Continued. Number of Pupils, 1904
+- 'Part III. Middle Schools' (3): Middle Schools: Number of Schools and Instructors,; Number of Pupils; Number of Pupils and Graduates, 1904-5
+- 'Part III. High Schools for Girls' (3): Number of Schools and Instructors, 1904-5; Number of Pupils; Number of Graduates, 1904-5
+- 'Part III. Special Schools' (2): Number of Schools and [?]; Number of Schools and Instructors, Pupils and Grad
+- 'Part III. Technical Schools' (1): Number of Schools, Instructors, etc., 1904-5
+- 'Part III. Miscellaneous Schools' (1): Number of Schools, Instructors, etc., 1904-5
+- 'Part III. Public School Expenditure' (6): Amount of Public School Expenditure, 1904-5; Amount of Public School Expenditure, 1904-5; Amount of Public School Expenditure, 1904-5; Amount of Public School Expenditure, 1904-5
+- 'Part III. Public School Income' (2): Amount of Public School Income, 1904-5; Amount of Public School Income Specified with Refe
+- 'Part III. Public School Property' (3): Public School Property, 1904-5; Public School Property, 1904-5; Public School Property, 1904-5.—Continued. [School
+
+## japan-education-1905-06: chapters (table count; sample titles)
+- 'Part I. Officials' (4): Table Showing, for 1905-6, the Number of Officials; [Number of Foreign Instructors by Nationality, 190; Table Showing, for 1905-6, the Amount of Expenditu; Table Showing, for 1905-6, the Amount of Expenditu
+- 'Part II. General Summary' (1): Statistical Table Showing, for 1905-6, the Number 
+- 'Part II. Elementary Schools' (13): Table Showing, for 1905-6, the Number of Governmen; Table Showing in Detail the Number of Elementary S; [Number of Children in the Ordinary Course of Elem; [Number of Children in the Higher Course of Elemen
+- 'Part II. Kindergartens' (2): Statistical Table relating to the Kindergarten con; Statistical Table relating to Public and Private K
+- 'Part II. Blind and Dumb Schools' (2): Statistical Table Relating to the Tōkyo Blind and ; Statistical Table relating to Blind and Dumb Schoo
+- 'Part II. Higher Normal Schools' (2): Statistical Table relating to the Tōkyō Higher Nor; Statistical Table relating to the Hiroshima Higher
+- 'Part II. Higher Normal School for Girls' (1): Statistical Table relating to the Higher Normal Sc
+- 'Part II. Special Institutes for the Training of Teachers' (1): Statistical Table relating to the Special Institut
+- 'Part II. Normal Schools' (4): Regular Courses; Simpler Coruses; Preparatory Courses; Statistical Table relating to Normal Schools
+- 'Part II. Middle Schools' (7): Statistical Table relating to the Middle School co; Statistical Table relating to the Middle School co; [Comparative Numbers of Qualified and Unqualified ; [Pupils in the Regular and Supplementary Courses o
+- 'Part II. High Schools for Girls' (6): Statistical Table relating to the High School for ; [Instructors Classified by Qualification, Past Fiv; [Pupils in the Regular Course by School Year]; [Careers of Graduates of the Regular Courses, Comp
+- 'Part II. High Schools' (2): [Applicants for Admission and Those Admitted to th; Statistical Table relating to High Schools for 190
+- 'Part II. Imperial Universities' (8): [Ages of Those Admitted to the University Hall and; Statistical Table relating to the Imperial Univers; Table showing, for 1905-6, the number of Students,; [Careers of the Students Graduated from the Colleg
+- 'Part II. Special Schools' (5): Statistical Table relating to Special Schools of M; Statistical Table relating to the Tokyo School of ; Statistical Table relating to the Tokyo Fine Art S; Statistical Table relating to the Tokyo Academy of
+- 'Part II. Technical Schools' (14): Statistical Table relating to the Sapporo Agricult; Statistical Table relating to the Morioka Higher S; Statistical Table relating to the Tokyo Higher Com; Statistical Table relating to the Kobe Higher Comm
+- 'Part II. Institutes for the Training of Technical School Teachers' (2): Statistical Table relating to the Institute for th; Table showing, for 1905-6, the Number of Pupils, G
+- 'Part II. Miscellaneous Schools' (1): Statistical Table relating to Miscellaneous School
+- 'Part II. School Hygiene' (6): Table showing the Number of Schools in which Physi; Table showing the Number of School Physicians clas; [Average Height, Weight and Chest Measurement of T; [Average Height, Weight and Chest Measurement of T
+- 'Part II. Libraries' (2): Statistical Table relating to the Imperial Library; Statistical Table relating to Public and Private L
+- 'Part II. Committee for Testing the Qualifications of Teachers for Licences' (3): Statistical Table showing the Number of Applicants; Statistical Table showing the Number of Persons wh; Statistical Table showing the Number of Persons wh
+- 'Part II. Testing of the Qualifications of Elementary School Teachers for Licences' (1): Statistical Table showing the Number of Applicants
+- 'Part II. Granting of the Fu or Ken Licences as Elementary School Teachers' (1): Statistical Table showing the Number of Persons gr
+- 'Part II. Pensions to Public School Officials' (2): Statistical Table Showing for 1905-6, the Income a; Statistical Table Showing, for 1905-6, the Amount 
+- 'Part II. Educational Fund' (1): Statistical Table showing the Value of the Educati
+- 'Part II. Public School Expenditure' (2): [Public School Expenditure by Type of School, with; Statistical Table [of Public School Expenditure an
+- 'Part II. Public School Property' (1): Statistical Table showing the Value of Public Scho
+
+## japan-education-1906-07: chapters (table count; sample titles)
+- 'Part I. Students in Foreign Countries' (2): Annual Comparative Statistics of Those Who Hold De; [Annual Comparative Statistics of Persons Sent by 
+- 'Part I. Honour and Encouragement for Meritorious Persons connected with Elementary School Education' (2): [Persons Receiving Licences as Instructors and Reg; [Persons Receiving the Letter of Merit in Connecti
+- 'Part I. Examination and Publication of School Books and Charts' (1): [Annual Statistics of Books and Charts Published, 
+- 'Part I. Government sanction for Associations and Foundations treated as Juridical Persons' (1): [Number of Schools Aided and Amount of Aid Receive
+- 'Part I. Buildings and Repairs' (1): [Associations and Foundations Treated as Juridical
+- 'Part I. Official Orders' (1): [Annual Statistics Relating to Expenditure on Buil
+- 'Part I. Officials' (2): Table showing for 1906-7, the Number of Officials ; [Number of Foreign Instructors, by Nationality, 19
+- 'Part I. Expenditure' (2): Table showing, for 1906–7, the amount of Expenditu; Table showing, for 1906–7, the amount of Expenditu
+- 'Part II. General Summary' (1): Statistical Table showing, for 1906-7, the Number 
+- 'Part II. Elementary Schools' (17): Table showing, for 1906-7, the Number of Governmen; Table showing in detail the Number of Elementary S; [Children in the Ordinary Course of Elementary Sch; [Children in the Higher Courses of Elementary Scho
+- 'Part II. Kindergartens' (2): Statistical Table relating to the Kindergarten con; Statistical Table Relating to Public and Private K
+- 'Part II. The Tokyo Blind and Dumb School' (1): Statistical Table Relating to the Tōkyō Blind and 
+- 'Part II. Public and Private Blind and Dumb Schools' (1): Statistical Table Relating to Blind and Dumb Schoo
+- 'Part II. The Tokyo Higher Normal School' (1): Statistical Table relating to the Tōkyō Higher Nor
+- 'Part II. The Hiroshima Higher Normal School' (1): Statistical Table relating to the Hiroshima Higher
+- 'Part II. Higher Normal School for Girls' (2): [Age of Pupils in Each Course, Higher Normal Schoo; Statistical Table relating to the Higher Normal Sc
+- 'Part II. Special Institutes for the Training of Teachers' (1): Statistical Table relating to the Special Institut
+- 'Part II. Normal Schools' (4): [Teachers Holding Licences by Source of Qualificat; [Applicants for Admission and Those Admitted, by C; [Qualifications of Pupils Admitted to the Regular ; Statistical Table relating to Normal Schools
+- 'Part II. Middle Schools' (9): Statistical Table relating to the Middle School co; Statistical Table relating to the Middle School co; [Licences Granted to Instructors of Public and Pri; [Qualified and Unqualified Teachers in Public and 
+- 'Part II. High Schools for Girls' (9): Statistical Table Relating to the High School for ; [Licences Granted to Teachers of High Schools for ; [Instructors of High Schools for Girls Classified ; [Pupils of Public and Private High Schools for Gir
+- 'Part II. High Schools' (4): [Graduates of the Preparatory Courses for the Impe; [Careers of Graduates of the Preparatory Courses f; [Applicants for Admission to the Preparatory Cours; Statistical Table Relating to High Schools, for 19
+- 'Part II. The Imperial University of Tokyo' (7): [Annual Comparative Statistics of Graduates of the; Table Showing the Comparative Ages of Those Admitt; Statistical Table Relating to the Imperial Univers; Table Showing, for 1906-7, the Number of Students,
+- 'Part II. The Imperial University of Kyoto' (5): [Annual Comparative Statistics of the Students and; [Age of Those Admitted]; Statistical Table relating to the Imperial Univers; Table Showing, for 1906-7, the Number of Students,
+- 'Part II. The Special Schools of Medicine at Chiba, Sendai, Okayama, Kanazawa and Nagasaki' (2): [Careers of the Graduates for the Last Five Years,; Statistical Table Relating to Special Schools of M
+- 'Part II. The Tokyo School of Foreign Languages' (3): [Annual Comparative Statistics of the Graduates in; [Careers of the Graduates from the Regular Course ; Statistical Table relating to the Tokyo School of 
+- 'Part II. The Tokyo Fine Art School' (2): [Number of Graduates of the Tokyo Fine Art School ; [Careers of the Graduates of the Tokyo Fine Art Sc
+- 'Part II. The Tokyo Academy of Music' (4): Statistical Table relating to the Tokyo Fine Art S; [Graduates of the Tokyo Academy of Music by Course; [Careers of the Graduates of the Tokyo Academy of ; Statistical Table relating to the Tokyo Academy of
+- 'Part II. Public and Private Special Schools' (3): [Pupils and Graduates of Public and Private Specia; [Applicants for Admission and Those Admitted, Publ; Statistical Table relating to Special Schools for 
+- 'Part II. The Sapporo Agricultural College' (3): [Graduates of the Sapporo Agricultural College by ; [Careers of Graduates, 1902-3 to 1906-7]; Statistical Table relating to the Sapporo Agricult
+- 'Part II. The Tokyo Higher Commercial School' (2): Statistical Table relating to the Morioka Higher S; [Careers of Graduates of the Professional Departme
+- 'Part II. The Kobe Higher Commercial School' (1): Statistical Table relating to the Tokyo Higher Com
+- 'Part II. The Nagasaki Higher Commercial School' (2): Statistical Table relating to the Kobe Higher Comm; Statistical Table Relating to the Nagasaki Higher 
+- 'Part II. The Tokyo Higher Technical School' (4): Statistical Table Relating to the Yamaguchi Higher; [Graduates by Section, Tokyo Higher Technical Scho; [Careers of Graduates in Main and Elective Courses; Statistical Table Relating to the Tokyo Higher Tec
+- 'Part II. The Osaka Higher Technical School' (2): [Graduates by Section, Osaka Higher Technical Scho; [Careers of Graduates in the Main Course, Last Fiv
+- 'Part II. The Kyoto Higher Technical School' (3): Statistical Table Relating to the Osaka Higher Tec; [Graduates of Kyoto Higher Technical School by Cou; [Careers of Graduates of Kyoto Higher Technical Sc
+- 'Part II. The Nagoya Higher Technical School' (1): Statistical Table relating to the Kyoto Higher Tec
+- 'Part II. The Kumamoto Higher Technical School' (1): Statistical Table relating to the Nagoya Higher Te
+- 'Part II. The Sendai Higher Technical School' (3): Statistical Table relating to the Kumamoto Higher ; Statistical Table relating to the Apprentices' Sch; Statistical Table relating to the Supplementary In
+- 'Part II. Public and Private Technical Schools' (3): [Applicants for Admission and Those Admitted to Te; Statistical Table relating to Technical Schools fo; Statistical Table relating to Technical Schools fo
+- 'Part II. Institutes for the Training of Technical School Teachers' (2): Statistical Table relating to the Institutes for t; Table showing, for 1906-7, the Number of Pupils, G
+- 'Part II. Miscellaneous Schools' (1): Statistical Table relating to Miscellaneous School
+- 'Part II. School Hygiene' (8): Table showing the Number of Schools in which Physi; Table showing the Number of School Physicians clas; Table showing, for 1906-7, the Percentage of Male ; Table showing, for 1906-7, the Percentage of Male 
+- 'Part II. The Imperial Library' (1): Statistical Table relating to the Imperial Library
+- 'Part II. Public and Private Libraries' (1): Statistical Table relating to Public and Private L
+- 'Part II. Committee for Testing the Qualifications of Teachers for Licences' (5): Statistical Table showing the Number of Applicants; Statistical Table showing the Number of Persons wh; Statistical Table showing the Number of Persons wh; Statistical Table showing the Number of Persons wh
+- 'Part II. Testing of the Qualifications of Elementary School Teachers for Licences' (1): Statistical Table showing the Number of Applicants
+- 'Part II. Granting of the Fu or Ken Licences as Elementary School Teachers' (1): Statistical Table showing the Number of Persons gr
+- 'Part II. Committee for the Examination of Medical Practitioners and Pharmaceutists' (1): Statistical Table showing the Number of Applicants
+- 'Part II. Pensions to Public School Officials' (4): Statistical Table Showing, for 1906-7, the Income ; Statistical Table Showing, for 1906-7, the Income ; Statistical Table Showing for, 1906-7, the Distrib; Statistical Table Showing, for 1906-7, the Amount 
+- 'Part II. Educational Fund' (1): Statistical Table Showing the Value of the Educati
+- 'Part II. Stock Fund for Additional Salaries to Teachers in City, Town or Village Elementary Schools' (1): Statistical Table Showing the Amount of Stock Fund
+- 'Part II. Public School Expenditure' (3): [Statistical Table of Public School Expenditure, O; Statistical Table Showing, for 1906-7, the Amount ; School Expenditure of Fu, Ken, Gun, Cities, Towns 
+- 'Part II. Public School Property' (1): Statistical Table showing the Value of Public Scho
