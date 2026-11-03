@@ -2636,7 +2636,7 @@ def build_directory(book):
             if o["l"] <= 1 or not groups: groups.append([])
             groups[-1].append(line)
         tl = "".join('<li style="break-inside:avoid;margin:0 0 6px">' + "".join(g) + "</li>" for g in groups)
-        ctoc = f'<details style="margin:0 0 14px;font-size:15px"><summary>Contents of the printed book</summary><ul style="list-style:none;padding-left:0;columns:18em;column-gap:28px;margin:8px 0">{tl}</ul></details>' if ptoc else ""
+        ctoc = f'<details class="ctoc" style="margin:0 0 14px;font-size:15px"><style>.ctoc a{{color:var(--accent);text-decoration:none}}.ctoc a:hover{{text-decoration:underline}}</style><summary>Contents of the printed book</summary><ul style="list-style:none;padding-left:0;columns:18em;column-gap:28px;margin:8px 0">{tl}</ul></details>' if ptoc else ""
         doc = doc.replace('<main><div id="toc">', f'<main><details style="margin:0 0 8px;font-size:15px"><summary>About this book</summary>{sub}{about}</details>{ctoc}<div id="toc">', 1)
     with open(os.path.join(HERE, "book", book["slug"], "directory.html"), "w", encoding="utf-8") as fh:
         fh.write(doc)
