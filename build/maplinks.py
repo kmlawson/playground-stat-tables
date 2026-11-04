@@ -7,8 +7,13 @@ base64url-encoded, in the URL fragment (#t=…) so that no server sees or limits
 import base64, json, os, re, unicodedata, zlib
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-SITE = "https://kmlawson.github.io/playground-stat-tables/"
-MAP = "https://froginawell.net/reference/japanese-empire/"
+# Two copies of each site: the live one on froginawell.net and a draft on GitHub Pages. Links are built for the live
+# copies; the table page swaps the map base for the GitHub one when it is itself on github.io (see build_site.py), and
+# the map is expected to join src.path to the tables site on its own host (MAPLINK_SPEC.md, section 1).
+HOSTS = {"live": {"tables": "https://froginawell.net/reference/old-tables/", "map": "https://froginawell.net/reference/japanese-empire/"},
+         "gh": {"tables": "https://kmlawson.github.io/playground-stat-tables/", "map": "https://kmlawson.github.io/japanese-empire-student-map/"}}
+SITE = HOSTS["live"]["tables"]
+MAP = HOSTS["live"]["map"]
 VIEWS = {"japan": {"where": "125.41,21.53,147.92,48.77", "layers": "2w"}}   # named map views (query parameters)
 SUFFIX = re.compile(r"(府|縣|県|廳|庁|道|都|\s*prefecture|-fu|-ken|-ku|\s+fu|\s+ken)$", re.I)
 VARCH = str.maketrans({"縣": "県", "廣": "広", "靜": "静", "德": "徳", "兒": "児", "繩": "縄", "臺": "台", "灣": "湾",
@@ -104,7 +109,8 @@ def build_payload(book, t, tr, cfg):
     title_en = (tr or {}).get("t")
     p = {
         "v": 1,
-        "src": {"url": f"{SITE}book/{book['slug']}/#{t['id']}", "book": book["slug"], "table": t["id"]},
+        "src": {"url": f"{SITE}book/{book['slug']}/#{t['id']}", "path": f"book/{book['slug']}/#{t['id']}",
+                "book": book["slug"], "table": t["id"]},
         "title": {"ja": t.get("title", ""), **({"en": title_en} if title_en else {})},
         "volume": {"title": book["title"], "year": cfg.get("volume_year") or book.get("_year"),
                    **({"en": book["subtitle"]} if book.get("subtitle") else {})},

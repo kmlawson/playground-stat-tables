@@ -1,6 +1,6 @@
 # Map links from *Old Year Book Tables of East Asia* — payload spec, version 1
 
-Some tables on the statistics site (https://kmlawson.github.io/playground-stat-tables/) have a **"Show on map"**
+Some tables on the statistics site "Old Tables" (https://froginawell.net/reference/old-tables/, draft copy at https://kmlawson.github.io/playground-stat-tables/) have a **"Show on map"**
 link. It opens the Japanese Empire map (https://froginawell.net/reference/japanese-empire/). The address carries one
 table's figures by prefecture, so that the map can colour the prefectures.
 
@@ -24,6 +24,39 @@ https://froginawell.net/reference/japanese-empire/?where=125.41,21.53,147.92,48.
   - raw DEFLATE has no zlib or gzip header, which is the `"deflate-raw"` format of the browser's
     `DecompressionStream`.
 - **If there is no `#t=`**, the map behaves exactly as it does today.
+
+### Two hosts: live (Frog in a Well) and draft (GitHub Pages)
+
+Both sites exist twice:
+
+| | live (froginawell.net) | draft (GitHub Pages) |
+|---|---|---|
+| tables site ("Old Tables") | https://froginawell.net/reference/old-tables/ | https://kmlawson.github.io/playground-stat-tables/ |
+| map | https://froginawell.net/reference/japanese-empire/ | https://kmlawson.github.io/japanese-empire-student-map/ |
+
+- **Tables site → map.** The *View as Map* button links to the map on the same host as the page it is on.
+  - On `*.github.io` it opens the GitHub Pages map; everywhere else it opens the live froginawell map.
+  - For testing, the tables page accepts `?map=gh` or `?map=live` in its address to force either one.
+  - Only the base address changes. `where`, `layers` and `#t=` are identical.
+- **Map → tables site.** The payload carries the table location both ways:
+  - `src.path` is a relative path, e.g. `book/japan-keishicho-1935/#p0110_1`;
+  - `src.url` is the full live URL.
+- **What the map should do.** Build its "source table" link by joining `src.path` to the tables site **on its own
+  host**:
+  - the map on froginawell.net links to `https://froginawell.net/reference/old-tables/` + `src.path`;
+  - the map on `kmlawson.github.io` links to `https://kmlawson.github.io/playground-stat-tables/` + `src.path`;
+  - on any other host (e.g. a local preview), use `src.url`.
+
+```js
+function sourceTableUrl(p) {
+  const base = /github\.io$/.test(location.hostname)
+    ? "https://kmlawson.github.io/playground-stat-tables/"
+    : /froginawell\.net$/.test(location.hostname)
+      ? "https://froginawell.net/reference/old-tables/"
+      : null;
+  return base && p.src.path ? base + p.src.path : p.src.url;
+}
+```
 
 ### Decoding in the browser (no library needed)
 
@@ -50,7 +83,8 @@ async function readTablePayload() {
 {
   "v": 1,                                   // payload version; always check it
   "src": {                                  // where the data came from: link back to it
-    "url": "https://kmlawson.github.io/playground-stat-tables/book/japan-keishicho-1935/#p0110_1",
+    "url": "https://froginawell.net/reference/old-tables/book/japan-keishicho-1935/#p0110_1",  // full live URL
+    "path": "book/japan-keishicho-1935/#p0110_1",  // relative: join to the tables site on the map's own host (section 1)
     "book": "japan-keishicho-1935",         // site's id for the volume
     "table": "p0110_1"                      // site's id for the table within the volume
   },
