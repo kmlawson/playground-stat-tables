@@ -5,7 +5,7 @@ For each book in BOOKS, reads <book dir>/_work/tables/*.json and writes
 <slug>/index.html (self-contained) and data/<slug>.json. Books without tables yet are listed
 as "in progress" on the landing page. Scan links point to the online scan where one exists.
 """
-import json, glob, os, re, html
+import json, glob, os, re, html, datetime
 from pathlib import Path
 
 SCRIPTS = os.path.dirname(os.path.abspath(__file__))  # build/: scripts, leaf maps, docs (not deployed)
@@ -2104,7 +2104,20 @@ def printed_toc(b, tables=()):
     return out
 
 
+def added_dates():
+    """build/added_dates.json: {slug: ISO time the book's data first went into git}. A book not yet listed is
+    stamped with the current time on its first build, so the record keeps itself up to date."""
+    f = os.path.join(SCRIPTS, "added_dates.json")
+    d = json.load(open(f)) if os.path.exists(f) else {}
+    now = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    new = {b["slug"]: now for b in BOOKS if b["slug"] not in d}
+    if new:
+        d.update(new); json.dump(dict(sorted(d.items())), open(f, "w"), indent=1)
+    return d
+
+
 def landing(cards):
+    added = added_dates()
     items = []
     for b, n, c, ch in cards:
         stat = (f"<b>{n}</b> tables · <b>{c:,}</b> cells · {ch} chapters" if n else "" if b.get("dir_only") else "<i>transcription in progress</i>")
@@ -2121,7 +2134,7 @@ def landing(cards):
         grp = group_of(b)
         home = f'book/{b["slug"]}/' if n else f'book/{b["slug"]}/directory.html' if b.get("dir_only") and b.get("_dir_n") else None
         title = f'<a href="{home}" style="color:inherit;text-decoration:none">{html.escape(b["title"])}</a>' if home else html.escape(b["title"])
-        items.append((grp, b["slug"], f"""<article data-t="{html.escape(b["title"])}"><h2>{title}</h2><div class="pub">{html.escape(b["publisher"])}</div>{f'<div class="pub"><i>{html.escape(b["note"])}</i></div>' if b.get("note") else ""}
+        items.append((grp, b["slug"], f"""<article data-t="{html.escape(b["title"])}" data-a="{added.get(b["slug"], "")}"><h2>{title}</h2><div class="pub">{html.escape(b["publisher"])}</div>{f'<div class="pub"><i>{html.escape(b["note"])}</i></div>' if b.get("note") else ""}
 <div class="stat">{stat}</div><div class="src">LLM-transcribed{item}</div>{b.get("_qstat", "")}<div class="links">{link}</div></article>"""))
     order = {"far-east": 0, "manchoukuo": 1}
     other = sorted([(sl, h) for g, sl, h in items if g == "other"], key=lambda x: order.get(x[0].rsplit("-", 1)[0], 9))
@@ -2185,9 +2198,11 @@ body.list .links{margin:0;flex-wrap:nowrap;gap:5px}body.list .dirgo{padding:1px 
 __CARDS__
 </div>
 <script>(function(){const b=document.getElementById("sortbtn");document.querySelectorAll("#groups .grid").forEach(g=>[...g.children].forEach((a,i)=>a.dataset.i=i));
-const key=t=>t.replace(/^(The|A|An)\s+/i,"").toLowerCase();function set(az){document.querySelectorAll("#groups .grid").forEach(g=>{const a=[...g.children];a.sort(az?(x,y)=>key(x.dataset.t).localeCompare(key(y.dataset.t),"en",{numeric:true}):(x,y)=>x.dataset.i-y.dataset.i);a.forEach(e=>g.appendChild(e))});
-b.textContent=az?"⇅ By date":"⇅ A–Z";b.title=az?"Showing A–Z; click to sort by date":"Showing by date; click to sort A–Z";try{localStorage.setItem("homesort",az?"az":"date")}catch(e){}b.dataset.az=az?"1":""}
-let az=false;try{az=localStorage.getItem("homesort")==="az"}catch(e){}set(az);b.onclick=()=>set(!b.dataset.az)})();</script>
+const key=t=>t.replace(/^(The|A|An)\s+/i,"").toLowerCase(),M=["date","az","added"],LBL={date:"⇅ By date",az:"⇅ A–Z",added:"⇅ Recently added"},TIP={date:"Showing by edition date",az:"Showing A–Z",added:"Showing most recently added first"};
+const CMP={date:(x,y)=>x.dataset.i-y.dataset.i,az:(x,y)=>key(x.dataset.t).localeCompare(key(y.dataset.t),"en",{numeric:true}),added:(x,y)=>(y.dataset.a||"").localeCompare(x.dataset.a||"")||x.dataset.i-y.dataset.i};
+function set(m){if(!M.includes(m))m="date";document.querySelectorAll("#groups .grid").forEach(g=>{const a=[...g.children];a.sort(CMP[m]);a.forEach(e=>g.appendChild(e))});
+const nx=M[(M.indexOf(m)+1)%M.length];b.textContent=LBL[m];b.title=TIP[m]+"; click for "+LBL[nx].slice(2).toLowerCase();b.dataset.m=m;try{localStorage.setItem("homesort",m)}catch(e){}}
+let m="date";try{m=localStorage.getItem("homesort")||"date"}catch(e){}set(m);b.onclick=()=>set(M[(M.indexOf(b.dataset.m)+1)%M.length])})();</script>
 <script>(function(){const b=document.getElementById("viewbtn");function set(l){document.body.classList.toggle("list",l);b.textContent=l?"▦ Cards":"☰ List";b.setAttribute("aria-pressed",l);try{localStorage.setItem("homeview",l?"list":"cards")}catch(e){}}
 let l=false;try{l=localStorage.getItem("homeview")==="list"}catch(e){}set(l);b.onclick=()=>set(!document.body.classList.contains("list"))})();</script>
 <script>(function(){let s={};try{s=JSON.parse(localStorage.getItem("homeshut")||"{}")}catch(e){}
