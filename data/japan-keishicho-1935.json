@@ -47167,9 +47167,9 @@
      "上揭以外警察上重大ナル事件ニ關シ措置又ハ職務執行 — 人員 (*印)",
      "上揭以外警察上重大ナル事件ニ關シ措置又ハ職務執行 — 人員",
      "上揭以外警察上重大ナル事件ニ關シ措置又ハ職務執行 — 金額",
-     "勤續滿二十年以上ニシテ其ノ功勞表彰者 — 人員 (*印)",
-     "勤續滿二十年以上ニシテ其ノ功勞表彰者 — 人員",
-     "勤續滿二十年以上ニシテ其ノ功勞表彰者 — 金額"
+     "勤續滿二十年以上 — 人員 (*印)",
+     "勤續滿二十年以上 — 人員",
+     "勤續滿二十年以上 — 金額"
     ],
     "rows": [
      [
@@ -49420,7 +49420,8 @@
    "Checks, rows: in each row 計 (*印, 人員, 金額) = sum of the six reason headings. All rows reconcile except: 小石川 富坂 人員 (計 89, other cells sum 5 plus the [?] cell: with 81 would be 86, with 84 would be 89); 目黑 *印 (計 100, parts 3+2 plus the [?] cell, which would have to be 95); 巢鴨 *印 (計 63, parts 50+1+11+2 = 64) and 巢鴨 人員 (計 74, parts 64+8+1 = 73; the 水火災 cell is printed '*1 — 3.000').",
    "Checks, subtotals: left 小計 reconciles in every column (犯罪 人員 only with the [?] cell at 84); right 小計 reconciles in every column except 犯罪 *印 (parts 2,868 plus the [?] cell, printed 2,908) and 水火災 (*印 parts 13 vs printed 12; 人員 23 vs 24; both explained by the 巢鴨 cell above). 郡部計, 島嶼計 reconcile; 市部計 = left 小計 + right 小計; 總計 = 本廳 + 市部計 + 郡部計 + 島嶼計 in every column.",
    "Thousands separators in the unmarked 人員 and * columns are faint or missing in the print in places (e.g. '*6 357'); written with a comma.",
-   "Row '小石川 — 大塚', col 計 金額: 3-vs-8 settled by the printed sum (candidates 43.000 / 48.000; only 48.000 reconciles with 1.500+43.500+1.000+2.000)."
+   "Row '小石川 — 大塚', col 計 金額: 3-vs-8 settled by the printed sum (candidates 43.000 / 48.000; only 48.000 reconciles with 1.500+43.500+1.000+2.000).",
+   "Corrected 2026-11-04 after an Opus review against the scan: column heading is printed only 勤續滿二十年以上."
   ],
   "id": "p0054_1",
   "scans": [
@@ -87887,10 +87888,10 @@
      "營利職業紹介事業 — 寄子 — 其ノ他",
      "營利職業紹介事業 — 其ノ他 — 法人",
      "營利職業紹介事業 — 其ノ他 — 其ノ他",
-     "紹介營業 — 藝妓娼妓酌婦ニ類スル者",
+     "紹介營業 — 藝妓娼妓酌婦之ニ類スル者",
      "紹介營業 — 里子",
      "紹介營業 — 結婚",
-     "紹介營業 — 不動產賣買貸借",
+     "紹介營業 — 不動產賣買賃貸借",
      "請負營業 — 土木",
      "請負營業 — 建築",
      "請負營業 — 土木兼建築",
@@ -88837,8 +88838,8 @@
       "—",
       "—",
       "—",
-      "",
-      "",
+      "—",
+      "—",
       "—",
       "—",
       "2",
@@ -88856,8 +88857,8 @@
       "—",
       "—",
       "—",
-      "",
-      "",
+      "—",
+      "—",
       "—",
       "—",
       "3",
@@ -89655,7 +89656,8 @@
    "Columns (16 figures): 代書業 (司法, 其ノ他); 建築代願人; 營利職業紹介事業 (寄子 法人 / 其ノ他, 其ノ他 法人 / 其ノ他); 紹介營業 (藝妓娼妓酌婦ニ類スル者, 里子, 結婚, 不動產賣買貸借); 請負營業 (土木, 建築, 土木兼建築); 勞働者募集 (募集主, 募集從事者). Sub-heading '建築' is printed vertically beside 代願人.",
    "Cells empty in the original ('') : 六本木 col 紹介營業 — 藝妓娼妓酌婦ニ類スル者; 早稻田 col 營利職業紹介事業 — 其ノ他 — 其ノ他; 蒲田 and 世田谷 cols 營利職業紹介事業 — 其ノ他 — 其ノ他 and 紹介營業 — 藝妓娼妓酌婦ニ類スル者.",
    "Totals: 小計 #1 (39 stations) reconciles in all 16 columns. 小計 #2 (36 stations + 東京水上) reconciles in 15 columns; column 請負營業 — 土木兼建築: printed 1,852, parts sum to 1,850 — does NOT reconcile (diff 2); cells of that column re-read, all legible as recorded. 郡部計 (6 stations) reconciles; 島嶼計 (4 islands) reconciles; 市部計 = 小計 #1 + 小計 #2 in all columns; 總計 = 市部計 + 郡部計 + 島嶼計 in all columns.",
-   "Page 126: the table heading is on page 125; 募集從事者 figures in the last column on page 126 are slightly faint at the trimmed page edge but legible."
+   "Page 126: the table heading is on page 125; 募集從事者 figures in the last column on page 126 are slightly faint at the trimmed page edge but legible.",
+   "Corrected 2026-11-04 after an Opus review against the scan: headings 藝妓娼妓酌婦之ニ類スル者 and 不動產賣買賃貸借 as printed; 蒲田 and 世田谷 print dashes (not blanks) under 營利職業紹介事業 其ノ他—其ノ他 and 藝妓娼妓酌婦…."
   ],
   "id": "p0087_2",
   "scans": [

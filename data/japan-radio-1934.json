@@ -8848,12 +8848,12 @@
      "總數 — 女",
      "25歲以下 — 男",
      "25歲以下 — 女",
-     "26—35歲 — 男",
-     "26—35歲 — 女",
+     "25—35歲 — 男",
+     "25—35歲 — 女",
      "36—45歲 — 男",
      "36—45歲 — 女",
-     "46—55歲 — 男",
-     "46—55歲 — 女",
+     "45—55歲 — 男",
+     "45—55歲 — 女",
      "56歲以上 — 男",
      "56歲以上 — 女"
     ],
@@ -9116,12 +9116,12 @@
      "25歲以下 — 女",
      "26—35歲 — 男",
      "26—35歲 — 女",
-     "36—45歲 — 男",
-     "36—45歲 — 女",
+     "35—45歲 — 男",
+     "35—45歲 — 女",
      "46—55歲 — 男",
      "46—55歲 — 女",
-     "56歲以上 — 男",
-     "56歲以上 — 女"
+     "55歲以上 — 男",
+     "55歲以上 — 女"
     ],
     "rows": [
      [
@@ -9380,8 +9380,8 @@
      "總數 — 女",
      "25歲以下 — 男",
      "25歲以下 — 女",
-     "26—35歲 — 男",
-     "26—35歲 — 女",
+     "25—35歲 — 男",
+     "25—35歲 — 女",
      "36—45歲 — 男",
      "36—45歲 — 女",
      "46—55歲 — 男",
@@ -9517,8 +9517,8 @@
      "26—35歲 — 女",
      "36—45歲 — 男",
      "36—45歲 — 女",
-     "46—55歲 — 男",
-     "46—55歲 — 女",
+     "45—55歲 — 男",
+     "45—55歲 — 女",
      "56歲以上 — 男",
      "56歲以上 — 女"
     ],
@@ -9783,8 +9783,8 @@
      "26—35歲 — 女",
      "36—45歲 — 男",
      "36—45歲 — 女",
-     "46—55歲 — 男",
-     "46—55歲 — 女",
+     "45—55歲 — 男",
+     "45—55歲 — 女",
      "56歲以上 — 男",
      "56歲以上 — 女"
     ],
@@ -10180,8 +10180,8 @@
      "25歲以下 — 女",
      "26—35歲 — 男",
      "26—35歲 — 女",
-     "36—45歲 — 男",
-     "36—45歲 — 女",
+     "35—45歲 — 男",
+     "35—45歲 — 女",
      "46—55歲 — 男",
      "46—55歲 — 女",
      "56歲以上 — 男",
@@ -10978,8 +10978,8 @@
      "25歲以下 — 女",
      "26—35歲 — 男",
      "26—35歲 — 女",
-     "36—45歲 — 男",
-     "36—45歲 — 女",
+     "35—45歲 — 男",
+     "35—45歲 — 女",
      "46—55歲 — 男",
      "46—55歲 — 女",
      "56歲以上 — 男",
@@ -11106,7 +11106,8 @@
    "Rows: 7 per sub-table x 17 sub-tables (10 市部 + 7 郡部) = 119 rows, 13 data columns each, as printed. Row labels are the seven items printed staggered beside the brace.",
    "Rank table: no totals printed. As an informal check every column of every sub-table is a permutation of 1-7 (no ties printed).",
    "The 市部 sub-tables on p. 21 (名古屋市 to 熊本市, left column) and 仙臺市, 札幌市 (right column) and the 郡部 埼玉-愛知 are on p. 21; 廣島郡部 to 北海道郡部 are on p. 22. Column headings printed 25—35 / 35—45 in a few sub-tables are misprints/blur for 26—35 / 36—45 and are given in standard form.",
-   "No unreadable cells."
+   "No unreadable cells.",
+   "Corrected 2026-11-04 after an Opus review against the scan: age-band headings restored as printed where the book misprints them (東京市 25—35/45—55, 京都市 35—45/55歲以上, 神戸市 25—35, 橫濱市 and 熊本市 45—55, 埼玉郡部 and 北海道郡部 35—45); the bands are the standard 26—35, 36—45, 46—55, 56歲以上."
   ],
   "id": "p0067_1",
   "scans": [
@@ -47719,7 +47720,7 @@
      "職業",
      "希望總數",
      "報道",
-     "教養",
+     "敎養",
      "慰安",
      "子供ノ時間"
     ],
@@ -47797,7 +47798,7 @@
       "1"
      ],
      [
-      "9. 共ノ他ノ有業者",
+      "9. 其ノ他ノ有業者",
       "1,490",
       "209",
       "223",
@@ -47820,7 +47821,7 @@
      "職業",
      "希望總數",
      "報道",
-     "教養",
+     "敎養",
      "慰安",
      "子供ノ時間"
     ],
@@ -47861,7 +47862,7 @@
       "4. 工業",
       "1000.0",
       "196.8",
-      "[?]",
+      "145.6",
       "639.1",
       "17.5"
      ],
@@ -47898,7 +47899,7 @@
       "28.6"
      ],
      [
-      "9. 共ノ他ノ有業者",
+      "9. 其ノ他ノ有業者",
       "1000.0",
       "140.3",
       "149.6",
@@ -47923,7 +47924,8 @@
    "Part 比例 (per mille of each occupation's 希望總數; 總數 row is each column's share of 1000.0): 總數 row 教養 printed '18?.0' — third digit damaged on the scan, read as [?]; row '4. 工業' 教養 printed '14?.6' — third digit damaged, [?]. Neither settled from totals.",
    "Part 比例 總數 row 慰安 is printed '582,3' (comma in place of the decimal point) — kept as printed. Row '1. 農業' 慰安 is 582.3 with a point.",
    "Part 實數 row '10. 無業' 慰安 read as 8,805 (one specked character; the column sum 95,750 is consistent with it).",
-   "Column heading '希總/望數' read as 希望總數; '子時/供/ノ間' read as 子供ノ時間. Row labels printed with wide letter-spacing; spaces removed."
+   "Column heading '希總/望數' read as 希望總數; '子時/供/ノ間' read as 子供ノ時間. Row labels printed with wide letter-spacing; spaces removed.",
+   "Corrected 2026-11-04 after an Opus review against the scan: 比例 4. 工業 敎養 read as 145.6; heading 教養 → 敎養 and row 9 共ノ他 → 其ノ他 as printed."
   ],
   "id": "p0100_3",
   "scans": [

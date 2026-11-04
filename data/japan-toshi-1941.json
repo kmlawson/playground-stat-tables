@@ -96906,9 +96906,9 @@
     "columns": [
      "種別",
      "實數 昭13 — 床面積 (アール)",
-     "實數 昭13 — 工事費 (千圓)",
+     "實數 昭13 — 工事費 (千円)",
      "實數 昭14 — 床面積 (アール)",
-     "實數 昭14 — 工事費 (千圓)",
+     "實數 昭14 — 工事費 (千円)",
      "指數 (昭12=100) 13 — 床面積",
      "指數 (昭12=100) 13 — 工事費",
      "指數 (昭12=100) 14 — 床面積",
@@ -96986,7 +96986,8 @@
   ],
   "footnotes": [],
   "transcriber_notes": [
-   "Rows: 6 as printed. No totals printed."
+   "Rows: 6 as printed. No totals printed.",
+   "Corrected 2026-11-04 after an Opus review against the scan: unit is printed (千円)."
   ],
   "id": "p0168_3",
   "scans": [
@@ -113077,9 +113078,9 @@
      "市 — 金額(円)",
      "町村 — 實人員",
      "町村 — 金額(円)",
-     "合 — 實人員",
-     "合 — 延人員",
-     "計 — 金額(円)"
+     "合計 — 實人員",
+     "合計 — 延人員",
+     "合計 — 金額(円)"
     ],
     "rows": [
      [
@@ -113087,7 +113088,7 @@
       "居宅",
       "151",
       "2,364",
-      "[?]",
+      "12,369",
       "25,212",
       "11,426",
       "171,035",
@@ -113113,7 +113114,7 @@
       "居宅",
       "429",
       "5,308",
-      "[?]",
+      "38,130",
       "669,765",
       "23,100",
       "284,500",
@@ -113130,7 +113131,7 @@
       "1,724",
       "21",
       "469",
-      "[?]",
+      "198",
       "7,663",
       "2,217"
      ],
@@ -113247,11 +113248,12 @@
   ],
   "transcriber_notes": [
    "Rows: 12 as printed (生活扶助, 養育扶助, 醫療, 生業扶助 each 居宅/入院; 合計 居宅/入院/計; 埋葬). 生業扶助 入院 row is all dashes as printed.",
-   "Smudged figures written as [?] (not inferred): 生活扶助 居宅 × 市 實人員 (reads 12,969); 生活扶助 居宅 × 市 金額 (second digit smudged, reads 2?5,212); 生活扶助 入院 × 町村 實人員 (reads 43); 養育扶助 居宅 × 市 實人員 (reads 58,130); 養育扶助 入院 × 合 實人員 (reads 198).",
+   "Smudged figures written as [?] (not inferred): 生活扶助 居宅 × 市 實人員 (printed 12,369); 生活扶助 居宅 × 市 金額 (second digit smudged, reads 2?5,212); 生活扶助 入院 × 町村 實人員 (reads 43); 養育扶助 居宅 × 市 實人員 (reads 38,130); 養育扶助 入院 × 合 實人員 (reads 198).",
    "Totals check (居宅 parts vs 合計 居宅): 道府縣 實人員 600 ✓; 道府縣 金額 7,766 ✓; 市 實人員 parts sum to 72,762 vs printed 52,062 — does NOT reconcile (the 生活扶助 and 養育扶助 市 實人員 cells are [?]); 市 金額 parts sum to 705,294 vs printed 905,294 — does NOT reconcile (diff 200,000; 生活扶助 市 金額 is [?]); 町村 實人員 34,953 ✓; 町村 金額 parts sum to 468,539 vs printed 460,064 — does NOT reconcile (diff 8,475, 生活扶助 and 養育扶助 町村 金額 read clearly; not corrected); 合 實人員 87,615 ✓; 延人員 parts sum to 11,938,895 vs printed 11,968,695 — does NOT reconcile (diff 29,800); 計 金額 parts sum to 1,363,124 vs printed 1,373,124 — does NOT reconcile (diff 10,000).",
    "Totals check (入院 parts vs 合計 入院): 道府縣 13 ✓; 道府縣金額 76 ✓; 市 實人員 327 ✓; 市 金額 6,294 ✓; 町村 實人員 parts sum to 93 vs printed 98 — does NOT reconcile (diff 5; 生活扶助 入院 町村 reads 43 which is [?]); 町村 金額 2,816 ✓; 合 實人員 parts sum to 508 vs printed 438 — does NOT reconcile (diff 70; 養育扶助 入院 合 reads 198 which is [?]; the printed 438 would imply 128); 計 金額 9,186 ✓.",
    "Totals check (計 = 居宅 + 入院): 道府縣 613(19), 7,842; 市 52,389(1,194), 911,588; 町村 35,051(447), 462,880; 合 88,053(1,666), 11,995,221; 計金額 1,382,310 — all reconcile.  Parenthesised figures (括弧内, 同一人の再掲) were not separately summed.",
-   "Unreadable cells in the original: see [?] list above; all other figures read as printed in the tight crops, including the italic-looking parenthesised figures."
+   "Unreadable cells in the original: see [?] list above; all other figures read as printed in the tight crops, including the italic-looking parenthesised figures.",
+   "Corrected 2026-11-04 after an Opus review against the scan: 市實人員 生活扶助居宅 is printed 12,369 and 養育扶助居宅 38,130, 合 實人員 養育扶助入院 198 (all clear; they do not reconcile with the totals and are kept as printed); the letter-spaced heading over the last three columns is 合計."
   ],
   "id": "p0188_5",
   "scans": [
