@@ -2184,25 +2184,25 @@ dialog form button{font:inherit;font-size:14px;background:var(--accent);color:va
 a{color:var(--accent)}.go{font-size:15px;text-decoration:none;font-weight:bold}.dirgo{display:inline-block;margin:8px 8px 0 0;background:var(--accent);color:var(--accent-ink);padding:6px 12px;border-radius:5px;font-size:14px}
 .llmwarn{margin:28px 0 0;padding:12px 14px;border:1px solid #8a5a00;border-left:4px solid #8a5a00;background:var(--panel);font-size:14px}
 footer{margin-top:24px;font-size:13px;color:var(--muted);border-top:1px solid var(--line);padding-top:14px}
-.tools{margin-left:auto;display:inline-flex;align-items:center;gap:6px;font-size:13px;color:var(--accent-ink);opacity:.8}.tools:hover{opacity:1}.tools .lbl{font-size:12px;text-transform:uppercase;letter-spacing:.06em}.seg{display:inline-flex;border:1px solid currentColor;border-radius:999px;overflow:hidden}.viewbtn{font:inherit;font-size:13px;background:transparent;color:inherit;border:0;padding:4px 12px;cursor:pointer;white-space:nowrap}.viewbtn+.viewbtn{border-left:1px solid currentColor}.viewbtn:hover{background:rgba(127,127,127,.15)}
+.tools{margin-left:auto;display:inline-flex;align-items:center;gap:6px;font-size:13px;color:var(--accent-ink);opacity:.8}.tools:hover{opacity:1}.tools .lbl{font-size:12px;text-transform:uppercase;letter-spacing:.06em}.seg{display:inline-flex;border:1px solid currentColor;border-radius:999px;overflow:hidden}.viewbtn{font:inherit;font-size:13px;background:transparent;color:inherit;border:0;padding:4px 12px;cursor:pointer;white-space:nowrap}.viewbtn+.viewbtn{border-left:1px solid currentColor}.viewbtn:hover{background:rgba(127,127,127,.15)}#sortseg .viewbtn[aria-pressed="true"]{background:var(--accent-ink);color:var(--accent);font-weight:600}.tools{flex-wrap:wrap}
 body.list .grid{display:block;margin-top:8px}body.list article{flex-direction:row;align-items:center;gap:12px;padding:5px 10px;border:0;border-bottom:1px solid var(--line);border-left:3px solid var(--accent)}
 body.list article+article{margin-top:0}body.list article h2{font-size:16px;margin:0;flex:1;min-width:0}body.list .pub,body.list .stat,body.list .src,body.list .qstat{display:none}
 body.list .links{margin:0;flex-wrap:nowrap;gap:5px}body.list .dirgo{padding:1px 8px;font-size:12.5px;font-weight:normal;white-space:nowrap}
 @media(max-width:560px){body.list article{flex-wrap:wrap;gap:4px}body.list article h2{flex-basis:100%}body.list .links{flex-wrap:wrap}.tools{margin-left:0}}
 </style></head><body><div class="band"><div>
 <h1>Old Year Book Tables of East Asia</h1>
-<div class="topnav"><a class="searchbtn" href="search.html">Full Search</a><a class="searchbtn" href="topics/index.html">Topics</a><nav class="jump" id="jump"><a href="#japan" id="j-japan">Japan</a><a href="#china" id="j-china">China</a><a href="#korea">Korea</a><a href="#taiwan">Taiwan</a><a href="#manchuria">Manchuria</a><a href="#south-seas">South Seas</a><a href="#other">Other</a></nav><span class="tools"><span class="lbl">View</span><span class="seg"><button class="viewbtn" id="sortbtn" type="button">⇅ A–Z</button><button class="viewbtn" id="viewbtn" type="button" aria-pressed="false">☰ List</button></span></span></div>
+<div class="topnav"><a class="searchbtn" href="search.html">Full Search</a><a class="searchbtn" href="topics/index.html">Topics</a><nav class="jump" id="jump"><a href="#japan" id="j-japan">Japan</a><a href="#china" id="j-china">China</a><a href="#korea">Korea</a><a href="#taiwan">Taiwan</a><a href="#manchuria">Manchuria</a><a href="#south-seas">South Seas</a><a href="#other">Other</a></nav><span class="tools"><span class="lbl">Sort</span><span class="seg" id="sortseg" role="group" aria-label="Sort books"><button class="viewbtn" data-m="date" type="button" aria-pressed="true" title="Sort by edition year">Edition year</button><button class="viewbtn" data-m="az" type="button" aria-pressed="false" title="Sort alphabetically">A–Z</button><button class="viewbtn" data-m="added" type="button" aria-pressed="false" title="Most recently added first">Recently added</button></span><span class="seg"><button class="viewbtn" id="viewbtn" type="button" aria-pressed="false">☰ List</button></span></span></div>
 </div></div>
 <main>
 <div id="groups">
 __CARDS__
 </div>
-<script>(function(){const b=document.getElementById("sortbtn");document.querySelectorAll("#groups .grid").forEach(g=>[...g.children].forEach((a,i)=>a.dataset.i=i));
-const key=t=>t.replace(/^(The|A|An)\s+/i,"").toLowerCase(),M=["date","az","added"],LBL={date:"⇅ By date",az:"⇅ A–Z",added:"⇅ Recently added"},TIP={date:"Showing by edition date",az:"Showing A–Z",added:"Showing most recently added first"};
+<script>(function(){const bs=[...document.querySelectorAll("#sortseg button")];document.querySelectorAll("#groups .grid").forEach(g=>[...g.children].forEach((a,i)=>a.dataset.i=i));
+const key=t=>t.replace(/^(The|A|An)\s+/i,"").toLowerCase();
 const CMP={date:(x,y)=>x.dataset.i-y.dataset.i,az:(x,y)=>key(x.dataset.t).localeCompare(key(y.dataset.t),"en",{numeric:true}),added:(x,y)=>(y.dataset.a||"").localeCompare(x.dataset.a||"")||x.dataset.i-y.dataset.i};
-function set(m){if(!M.includes(m))m="date";document.querySelectorAll("#groups .grid").forEach(g=>{const a=[...g.children];a.sort(CMP[m]);a.forEach(e=>g.appendChild(e))});
-const nx=M[(M.indexOf(m)+1)%M.length];b.textContent=LBL[m];b.title=TIP[m]+"; click for "+LBL[nx].slice(2).toLowerCase();b.dataset.m=m;try{localStorage.setItem("homesort",m)}catch(e){}}
-let m="date";try{m=localStorage.getItem("homesort")||"date"}catch(e){}set(m);b.onclick=()=>set(M[(M.indexOf(b.dataset.m)+1)%M.length])})();</script>
+function set(m){if(!CMP[m])m="date";document.querySelectorAll("#groups .grid").forEach(g=>{const a=[...g.children];a.sort(CMP[m]);a.forEach(e=>g.appendChild(e))});
+bs.forEach(b=>b.setAttribute("aria-pressed",b.dataset.m===m?"true":"false"));try{localStorage.setItem("homesort",m)}catch(e){}}
+let m="date";try{m=localStorage.getItem("homesort")||"date"}catch(e){}set(m);bs.forEach(b=>b.onclick=()=>set(b.dataset.m))})();</script>
 <script>(function(){const b=document.getElementById("viewbtn");function set(l){document.body.classList.toggle("list",l);b.textContent=l?"▦ Cards":"☰ List";b.setAttribute("aria-pressed",l);try{localStorage.setItem("homeview",l?"list":"cards")}catch(e){}}
 let l=false;try{l=localStorage.getItem("homeview")==="list"}catch(e){}set(l);b.onclick=()=>set(!document.body.classList.contains("list"))})();</script>
 <script>(function(){let s={};try{s=JSON.parse(localStorage.getItem("homeshut")||"{}")}catch(e){}
