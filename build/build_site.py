@@ -2336,7 +2336,7 @@ td.num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
 td.blank{background:repeating-linear-gradient(45deg,transparent 0 4px,var(--hi) 4px 8px)}
 td.illeg{background:repeating-linear-gradient(45deg,transparent 0 4px,rgba(200,60,40,.32) 4px 8px)}
 tr:hover td{background:var(--hi)}
-td.nw,th.nw{white-space:nowrap}.maplink{margin:6px 0 10px}.mapbtn{display:inline-block;font-size:14px;font-weight:600;padding:4px 12px;border:1px solid currentColor;border-radius:999px;text-decoration:none}.mapbtn:hover{text-decoration:underline}td.w6,th.w6{min-width:6.3em}tr.sec td:first-child{font-weight:bold;font-style:italic}tr.sec.cjk td:first-child{font-style:normal}
+td.nw,th.nw{white-space:nowrap}.maplink{margin:6px 0 10px}.mapbtn,.mapbtn:visited{display:inline-block;font-size:13px;font-weight:600;padding:4px 11px;border:1px solid var(--accent);border-radius:5px;background:var(--accent);color:var(--accent-ink);text-decoration:none}.mapbtn:hover{filter:brightness(1.15);text-decoration:none}td.w6,th.w6{min-width:6.3em}tr.sec td:first-child{font-weight:bold;font-style:italic}tr.sec.cjk td:first-child{font-style:normal}
 .part{font-weight:bold;margin-top:12px}
 .tbl{padding-bottom:22px;margin-bottom:26px;border-bottom:2px solid var(--line)}
 .chhead{font-size:13px;letter-spacing:.06em;text-transform:uppercase;color:var(--accent);margin:0 0 4px}
