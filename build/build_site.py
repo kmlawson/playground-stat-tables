@@ -1064,6 +1064,16 @@ BOOKS = [
      "model": "Claude Sonnet 5.5",
      "dir_label": "Request classification",
      "blank_marking": True},
+    {"slug": "japan-keishicho-1935", "dir": "Keishicho_Tokei_1935",
+     "title": "警視廳統計書 1935", "subtitle": "Keishichō tōkeisho (Statistical Report of the Metropolitan Police Board), 第45回, 昭和10年 (1935)",
+     "publisher": "警視總監官房文書課 (Secretariat, Superintendent-General of the Metropolitan Police), 東京, 1936",
+     "blurb": "The annual statistical report of the Tokyo Metropolitan Police Board for 1935, covering the whole of Tokyo prefecture station by station. Besides police organisation, staff, pay, discipline and budgets, it is a detailed record of urban life: fires and their causes, population movement and resident foreigners, meetings, labour disputes and associations, pawnshops and second-hand dealers, inns, employment agents, theatres, cinemas and other entertainments with their audiences, geisha, licensed prostitutes, cafés and waitresses, entertainers and teachers of the arts, vehicles and traffic accidents, factories and workers, building permits, infectious diseases, hospitals, doctors and midwives, food inspection and slaughterhouses, suicides by method and motive, accidental deaths, lost property, missing persons, protective custody, crime by type, place, method, month and station, arrests by age, education, occupation and motive, stolen property, and summary convictions for police offences.",
+     "source": "LLM-transcribed from the National Diet Library scan (NDL pid 1462000).",
+     "gaps": "All 353 numbered statistical tables are transcribed; the contents, the chapter dividers and the coloured charts (圖表) are not. Each spread was read once by Claude Sonnet 5.5 from full-resolution crops, with no checking by eye. Columns next to the binding are sometimes clipped or faded, so some tables have runs of [?] in their innermost column; printed totals that do not add up are kept as printed and noted.",
+     "scan": "https://dl.ndl.go.jp/pid/1462000/1/{leaf}",
+     "item": "https://dl.ndl.go.jp/pid/1462000",
+     "model": "Claude Sonnet 5.5",
+     "blank_marking": True},
     {"slug": "japan-kaji-1939", "dir": "Kaji_Nenkan_1939",
      "title": "家事年鑑 1939", "subtitle": "Kaji nenkan (Household Management Yearbook), 昭和14年版 (1939 edition)",
      "publisher": "國勢社 (Kokuseisha), 「國勢グラフ」編輯部 ed., 東京・京城, 1939",
@@ -2488,10 +2498,14 @@ function mainTop(){const m=$("#main");m.scrollTop=0;if(matchMedia("(max-width:76
 function showOne(id){const t=T.find(x=>x.id===id)||T[0];if(!t){$("#main").innerHTML="<p>No tables yet.</p>";return}
  mode="one";cur=t.id;$("#main").innerHTML=tableHTML(t,$("#q").value.trim())+LLMWARN;mainTop();
  document.querySelectorAll("#main table").forEach(initSort);chartsGo();mark();if(cmpS)showCmp();anSync()}
+const CH_BUDGET=30000;function tCells(t){return (t.parts||[]).reduce((a,p)=>a+(p.rows||[]).length*Math.max(1,(p.columns||[]).length),0)}
 function showChapter(ch){const q=$("#q").value.trim();const ts=filtered();mode="chapter";cur=null;closeCmp();
  let h=`<div class="chhead"><a href="#">All chapters</a> · Chapter</div><h2 style="margin-bottom:6px">${esc(ch)}${chE(ch,"che2")}</h2><div class="chsum">${ts.length} table${ts.length===1?"":"s"}${$("#flag").checked||q?" matching the current filters":""}</div>`+xlChapter(ch);
- h+=(ts.map(t=>tableHTML(t,q)).join("")||"<p>No tables match.</p>")+LLMWARN;
+ let ci=0;const batch=()=>{let s="",c=0;while(ci<ts.length&&(c===0||c+tCells(ts[ci])<=CH_BUDGET)){c+=tCells(ts[ci]);s+=tableHTML(ts[ci],q);ci++}return s};
+ const more=()=>ci<ts.length?`<p id="chmore"><button type="button">Show more tables (${ts.length-ci} of ${ts.length} not shown yet)</button></p>`:"";
+ h+=(ts.length?`<div id="chbody">${batch()}</div>${more()}`:"<p>No tables match.</p>")+LLMWARN;
  $("#main").innerHTML=h;mainTop();document.querySelectorAll("#main table").forEach(initSort);chartsGo();
+ const wire=()=>{const b=document.querySelector("#chmore button");if(!b)return;b.onclick=()=>{const tmp=document.createElement("div");tmp.innerHTML=batch();const nodes=[...tmp.children];document.getElementById("chbody").append(...nodes);nodes.forEach(n=>n.querySelectorAll("table").forEach(initSort));document.getElementById("chmore").outerHTML=more();chartsGo();mark();wire()}};wire();
  if(enterAt&&ts.length){const t=enterAt==="first"?ts[0]:ts[ts.length-1];cur=t.id;const el=document.getElementById("t-"+t.id);if(el&&enterAt==="last")el.scrollIntoView({block:"start"});
   const a=document.querySelector(`#list a[href="#${CSS.escape(t.id)}"]`);if(a)a.scrollIntoView({block:"nearest"})}
  enterAt=null;mark();anSync()}
