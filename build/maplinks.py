@@ -15,18 +15,21 @@ HOSTS = {"live": {"tables": "https://froginawell.net/reference/old-tables/", "ma
 SITE = HOSTS["live"]["tables"]
 MAP = HOSTS["live"]["map"]
 VIEWS = {"japan": {"where": "125.41,21.53,147.92,48.77", "layers": "2w"}}   # named map views (query parameters)
-SUFFIX = re.compile(r"(府|縣|県|廳|庁|道|都|\s*prefecture|-fu|-ken|-ku|\s+fu|\s+ken)$", re.I)
+SUFFIX = re.compile(r"(府|縣|県|廳|庁|道|都|\s*prefecture|[-\s](?:fu|ken|cho|chō|do|dō))$", re.I)
 VARCH = str.maketrans({"縣": "県", "廣": "広", "靜": "静", "德": "徳", "兒": "児", "繩": "縄", "臺": "台", "灣": "湾",
                        "關": "関", "廳": "庁", "櫔": "栃", "杤": "栃"})
+
+
+MARKS = re.compile(r"[*＊※†‡]|\s*[(（]\s*\d+\s*[)）]\s*$|[.。]+$")
 
 
 def _fold(s):
     s = unicodedata.normalize("NFKC", str(s)).strip()
     s = "".join(c for c in unicodedata.normalize("NFKD", s) if not unicodedata.combining(c))   # Tōkyō -> Tokyo
-    s = re.sub(r"\s+", "", s.translate(VARCH)).lower()
+    s = MARKS.sub("", MARKS.sub("", s)).strip().translate(VARCH).lower()
     for _ in range(2):
-        s = SUFFIX.sub("", s)
-    return s
+        s = SUFFIX.sub("", s).strip()
+    return re.sub(r"\s+", "", s)
 
 
 _INDEX = None
@@ -156,3 +159,27 @@ if __name__ == "__main__":
             ts = d if isinstance(d, list) else d.get("tables", [])
             t = next((x for x in ts if x.get("id") == c["table"]), None)
             print(f"{c['book']}:{c['table']}\t{(t or {}).get('map') or '(no link: rebuild the site)'}")
+    if "--audit" in sys.argv:
+        # Row labels that look like prefecture names but do not match, in tables where >= 8 prefectures already match.
+        # Run after adding books: add real variants to build/places/japan_prefectures.json, ignore totals and cities.
+        import collections, glob
+        only = [a for a in sys.argv[1:] if not a.startswith("--")]
+        site = os.path.dirname(HERE); miss = collections.Counter(); where = {}
+        for f in glob.glob(os.path.join(site, "data", "*.json")):
+            slug = os.path.basename(f)[:-5]
+            if slug.endswith(("-toc", "-directory", "-chronology")) or (only and slug not in only):
+                continue
+            try:
+                d = json.load(open(f))
+            except Exception:
+                continue
+            for t in (d if isinstance(d, list) else d.get("tables", [])):
+                for p in (t.get("parts") or []) if isinstance(t, dict) else []:
+                    labs = [str(r[0]).strip() for r in p.get("rows", []) if r]
+                    if len({match_place(l) for l in labs} - {None}) < 8:
+                        continue
+                    for l in labs:
+                        if l and not match_place(l) and "／" not in l and not re.search(r"郡部|市$|City|Total|計|總|合|Average|Circuit|不明|Others?$", l):
+                            miss[l] += 1; where.setdefault(l, f"{slug}:{t.get('id')}")
+        for l, c in miss.most_common(200):
+            print(f"{c:5}  {l!r:40} {where[l]}")

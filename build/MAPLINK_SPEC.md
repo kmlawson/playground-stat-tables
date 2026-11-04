@@ -201,7 +201,7 @@ The ids are the **JIS X 0401 prefecture codes as two-digit strings**. They fit t
   `chosen-NN` and `taiwan-NN` in a later version. The `units` field will tell you which kind of row a payload
   holds.
 
-The site keeps the master list in `build/places/japan_prefectures.json`: each id with its modern form, English
+The site matches printed row labels to these ids in Japanese and English, including old character forms (廣島, 靜岡, 鹿兒島, 沖繩), office names (北海道廳, 樺太廳), pre-war romanisations (Tokio, Kioto, Hiogo, Miye, Gumma, Shidzuoka, Yehime …), separate suffixes (Tōkyō Fu, Kanagawa Ken, Hokkaidō Chō) and footnote marks; city rows and sub-units (兵庫縣／神戸市, 郡部) are never matched to a prefecture. The site keeps the master list in `build/places/japan_prefectures.json`: each id with its modern form, English
 name and old printed variants. The map does not need it; the ids above are the contract.
 
 ## 5. Examples
