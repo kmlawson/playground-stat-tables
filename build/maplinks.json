@@ -1,0 +1,39 @@
+{
+ "_doc": "Tables that get a 'Show on map' link (spec: build/MAPLINK_SPEC.md; code: build/maplinks.py). Per table: book, table (id), part (index, default 0), label_col (default 0), columns (indices to send; default all but the label column), default (index into the sent columns), total_row (row index of the printed total, or null), date (table date, ISO-like: 1935, 1935-12, 1935-12-31), period (map period to show: 1930 or 1942), en_columns {col index: English}, col_meta {col index: {unit, kind: count|amount|rate|index|other, pc: per-capita view allowed, color: seq|div}}, row_ids {row index: place id} to override the automatic match, notes (short English notes for the map), view (named bounding box in maplinks.py; default japan).",
+ "tables": [
+  {
+   "book": "japan-keishicho-1935",
+   "table": "p0110_1",
+   "part": 0,
+   "label_col": 0,
+   "columns": [1],
+   "default": 0,
+   "total_row": 0,
+   "date": "1935-12-31",
+   "period": "1930",
+   "en_columns": {"1": "Geisha (persons)"},
+   "col_meta": {"1": {"unit": "人", "kind": "count", "pc": true, "color": "seq"}},
+   "notes": ["Geisha licensed in the Tokyo Metropolitan Police district, by prefecture of registered domicile (本籍). Rows for 朝鮮 and 樺太 are included; one row for 露西亞 (Russia, 2 persons) is not mapped."]
+  },
+  {
+   "book": "japan-kaji-1939",
+   "table": "p0105_1",
+   "part": 0,
+   "label_col": 0,
+   "columns": [1, 2, 3, 4],
+   "default": 0,
+   "total_row": 47,
+   "date": "1937",
+   "period": "1942",
+   "en_columns": {"1": "Births", "2": "Stillbirths", "3": "Deaths", "4": "Natural increase"},
+   "col_meta": {
+    "1": {"unit": "per 1,000 population (人口千に付)", "kind": "rate", "pc": false, "color": "seq"},
+    "2": {"unit": "per 1,000 population (人口千に付)", "kind": "rate", "pc": false, "color": "seq"},
+    "3": {"unit": "per 1,000 population (人口千に付)", "kind": "rate", "pc": false, "color": "seq"},
+    "4": {"unit": "per 1,000 population (人口千に付)", "kind": "rate", "pc": false, "color": "seq"}
+   },
+   "notes": ["Rates per 1,000 population for 1937; the 計 row is the national rate, not a sum of the prefectures."],
+   "check_total": false
+  }
+ ]
+}

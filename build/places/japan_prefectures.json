@@ -1,0 +1,352 @@
+{
+ "_doc": "Stable place IDs for map links (JIS X 0401 prefecture codes 01–47, plus named codes for the colonies). 'ja' is the modern form; 'variants' are old character forms and office names as printed. Matching strips spaces and the suffixes 府 縣 県 廳 庁 道 都 (and English ' Prefecture', '-fu', '-ken', '-ku'), and compares macron-free romanisations case-insensitively.",
+ "places": {
+  "01": {
+   "ja": "北海道",
+   "en": "Hokkaidō",
+   "variants": [
+    "北海道廳",
+    "北海道庁"
+   ],
+   "kind": "prefecture"
+  },
+  "02": {
+   "ja": "青森",
+   "en": "Aomori",
+   "variants": [],
+   "kind": "prefecture"
+  },
+  "03": {
+   "ja": "岩手",
+   "en": "Iwate",
+   "variants": [],
+   "kind": "prefecture"
+  },
+  "04": {
+   "ja": "宮城",
+   "en": "Miyagi",
+   "variants": [],
+   "kind": "prefecture"
+  },
+  "05": {
+   "ja": "秋田",
+   "en": "Akita",
+   "variants": [],
+   "kind": "prefecture"
+  },
+  "06": {
+   "ja": "山形",
+   "en": "Yamagata",
+   "variants": [],
+   "kind": "prefecture"
+  },
+  "07": {
+   "ja": "福島",
+   "en": "Fukushima",
+   "variants": [],
+   "kind": "prefecture"
+  },
+  "08": {
+   "ja": "茨城",
+   "en": "Ibaraki",
+   "variants": [],
+   "kind": "prefecture"
+  },
+  "09": {
+   "ja": "栃木",
+   "en": "Tochigi",
+   "variants": [
+    "杤木",
+    "櫔木"
+   ],
+   "kind": "prefecture"
+  },
+  "10": {
+   "ja": "群馬",
+   "en": "Gunma",
+   "variants": [],
+   "kind": "prefecture"
+  },
+  "11": {
+   "ja": "埼玉",
+   "en": "Saitama",
+   "variants": [],
+   "kind": "prefecture"
+  },
+  "12": {
+   "ja": "千葉",
+   "en": "Chiba",
+   "variants": [],
+   "kind": "prefecture"
+  },
+  "13": {
+   "ja": "東京",
+   "en": "Tōkyō",
+   "variants": [],
+   "kind": "prefecture"
+  },
+  "14": {
+   "ja": "神奈川",
+   "en": "Kanagawa",
+   "variants": [],
+   "kind": "prefecture"
+  },
+  "15": {
+   "ja": "新潟",
+   "en": "Niigata",
+   "variants": [],
+   "kind": "prefecture"
+  },
+  "16": {
+   "ja": "富山",
+   "en": "Toyama",
+   "variants": [],
+   "kind": "prefecture"
+  },
+  "17": {
+   "ja": "石川",
+   "en": "Ishikawa",
+   "variants": [],
+   "kind": "prefecture"
+  },
+  "18": {
+   "ja": "福井",
+   "en": "Fukui",
+   "variants": [],
+   "kind": "prefecture"
+  },
+  "19": {
+   "ja": "山梨",
+   "en": "Yamanashi",
+   "variants": [],
+   "kind": "prefecture"
+  },
+  "20": {
+   "ja": "長野",
+   "en": "Nagano",
+   "variants": [],
+   "kind": "prefecture"
+  },
+  "21": {
+   "ja": "岐阜",
+   "en": "Gifu",
+   "variants": [],
+   "kind": "prefecture"
+  },
+  "22": {
+   "ja": "静岡",
+   "en": "Shizuoka",
+   "variants": [
+    "靜岡"
+   ],
+   "kind": "prefecture"
+  },
+  "23": {
+   "ja": "愛知",
+   "en": "Aichi",
+   "variants": [],
+   "kind": "prefecture"
+  },
+  "24": {
+   "ja": "三重",
+   "en": "Mie",
+   "variants": [],
+   "kind": "prefecture"
+  },
+  "25": {
+   "ja": "滋賀",
+   "en": "Shiga",
+   "variants": [],
+   "kind": "prefecture"
+  },
+  "26": {
+   "ja": "京都",
+   "en": "Kyōto",
+   "variants": [],
+   "kind": "prefecture"
+  },
+  "27": {
+   "ja": "大阪",
+   "en": "Ōsaka",
+   "variants": [],
+   "kind": "prefecture"
+  },
+  "28": {
+   "ja": "兵庫",
+   "en": "Hyōgo",
+   "variants": [],
+   "kind": "prefecture"
+  },
+  "29": {
+   "ja": "奈良",
+   "en": "Nara",
+   "variants": [],
+   "kind": "prefecture"
+  },
+  "30": {
+   "ja": "和歌山",
+   "en": "Wakayama",
+   "variants": [],
+   "kind": "prefecture"
+  },
+  "31": {
+   "ja": "鳥取",
+   "en": "Tottori",
+   "variants": [],
+   "kind": "prefecture"
+  },
+  "32": {
+   "ja": "島根",
+   "en": "Shimane",
+   "variants": [],
+   "kind": "prefecture"
+  },
+  "33": {
+   "ja": "岡山",
+   "en": "Okayama",
+   "variants": [],
+   "kind": "prefecture"
+  },
+  "34": {
+   "ja": "広島",
+   "en": "Hiroshima",
+   "variants": [
+    "廣島"
+   ],
+   "kind": "prefecture"
+  },
+  "35": {
+   "ja": "山口",
+   "en": "Yamaguchi",
+   "variants": [],
+   "kind": "prefecture"
+  },
+  "36": {
+   "ja": "徳島",
+   "en": "Tokushima",
+   "variants": [
+    "德島"
+   ],
+   "kind": "prefecture"
+  },
+  "37": {
+   "ja": "香川",
+   "en": "Kagawa",
+   "variants": [],
+   "kind": "prefecture"
+  },
+  "38": {
+   "ja": "愛媛",
+   "en": "Ehime",
+   "variants": [],
+   "kind": "prefecture"
+  },
+  "39": {
+   "ja": "高知",
+   "en": "Kōchi",
+   "variants": [],
+   "kind": "prefecture"
+  },
+  "40": {
+   "ja": "福岡",
+   "en": "Fukuoka",
+   "variants": [],
+   "kind": "prefecture"
+  },
+  "41": {
+   "ja": "佐賀",
+   "en": "Saga",
+   "variants": [],
+   "kind": "prefecture"
+  },
+  "42": {
+   "ja": "長崎",
+   "en": "Nagasaki",
+   "variants": [],
+   "kind": "prefecture"
+  },
+  "43": {
+   "ja": "熊本",
+   "en": "Kumamoto",
+   "variants": [],
+   "kind": "prefecture"
+  },
+  "44": {
+   "ja": "大分",
+   "en": "Ōita",
+   "variants": [],
+   "kind": "prefecture"
+  },
+  "45": {
+   "ja": "宮崎",
+   "en": "Miyazaki",
+   "variants": [],
+   "kind": "prefecture"
+  },
+  "46": {
+   "ja": "鹿児島",
+   "en": "Kagoshima",
+   "variants": [
+    "鹿兒島"
+   ],
+   "kind": "prefecture"
+  },
+  "47": {
+   "ja": "沖縄",
+   "en": "Okinawa",
+   "variants": [
+    "沖繩"
+   ],
+   "kind": "prefecture"
+  },
+  "karafuto": {
+   "ja": "樺太",
+   "en": "Karafuto",
+   "variants": [
+    "樺太廳",
+    "樺太庁"
+   ],
+   "kind": "colony"
+  },
+  "taiwan": {
+   "ja": "台湾",
+   "en": "Taiwan",
+   "variants": [
+    "臺灣",
+    "臺灣總督府",
+    "台湾総督府",
+    "Formosa"
+   ],
+   "kind": "colony"
+  },
+  "chosen": {
+   "ja": "朝鮮",
+   "en": "Chōsen (Korea)",
+   "variants": [
+    "朝鮮總督府",
+    "Korea"
+   ],
+   "kind": "colony"
+  },
+  "kwantung": {
+   "ja": "関東州",
+   "en": "Kwantung Leased Territory",
+   "variants": [
+    "關東州",
+    "Kwantung"
+   ],
+   "kind": "colony"
+  },
+  "nanyo": {
+   "ja": "南洋群島",
+   "en": "South Seas Islands (Nan'yō)",
+   "variants": [
+    "南洋廳",
+    "南洋庁",
+    "南洋",
+    "South Sea Islands"
+   ],
+   "kind": "colony"
+  }
+ }
+}

@@ -1647,6 +1647,23 @@ def add_english(book, tables):
     book["_chen"] = tr.get("_chapters", {})
 
 
+def add_maplinks(book, tables):
+    """"Show on map" links for the tables listed in build/maplinks.json (spec: build/MAPLINK_SPEC.md)."""
+    import importlib.util
+    if not hasattr(add_maplinks, "mod"):
+        spec = importlib.util.spec_from_file_location("maplinks", os.path.join(SCRIPTS, "maplinks.py"))
+        add_maplinks.mod = importlib.util.module_from_spec(spec); spec.loader.exec_module(add_maplinks.mod)
+        add_maplinks.cfg = add_maplinks.mod.load_config()
+    M, cfg = add_maplinks.mod, add_maplinks.cfg
+    if not any(c.get("book") == book["slug"] for c in cfg.get("tables", [])):
+        return
+    book["_year"] = edition(book)
+    for t in tables:
+        u = M.map_url(book, t, t.get("en"), cfg)
+        if u:
+            t["map"] = u
+
+
 def cells(tables):
     return sum(len(r) for t in tables for p in t.get("parts", []) for r in p.get("rows", []))
 
@@ -1879,6 +1896,7 @@ def main():
         for t in tables:
             t["scans"] = scan_links(b, t)
         add_english(b, tables)
+        add_maplinks(b, tables)
         n, c = len(tables), cells(tables)
         chapters = len({t.get("chapter") for t in tables})
         if tables:
@@ -2318,7 +2336,7 @@ td.num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
 td.blank{background:repeating-linear-gradient(45deg,transparent 0 4px,var(--hi) 4px 8px)}
 td.illeg{background:repeating-linear-gradient(45deg,transparent 0 4px,rgba(200,60,40,.32) 4px 8px)}
 tr:hover td{background:var(--hi)}
-td.nw,th.nw{white-space:nowrap}td.w6,th.w6{min-width:6.3em}tr.sec td:first-child{font-weight:bold;font-style:italic}tr.sec.cjk td:first-child{font-style:normal}
+td.nw,th.nw{white-space:nowrap}.maplink{margin:4px 0 8px;font-size:14px}.maplink a{font-weight:600}.maplink .mlh{color:var(--muted);font-size:12px}td.w6,th.w6{min-width:6.3em}tr.sec td:first-child{font-weight:bold;font-style:italic}tr.sec.cjk td:first-child{font-style:normal}
 .part{font-weight:bold;margin-top:12px}
 .tbl{padding-bottom:22px;margin-bottom:26px;border-bottom:2px solid var(--line)}
 .chhead{font-size:13px;letter-spacing:.06em;text-transform:uppercase;color:var(--accent);margin:0 0 4px}
@@ -2461,7 +2479,7 @@ function headHTML(cols,q){const L=cols.map(c=>{const x=String(c??"").split(" —
    h+=`<th class="grp${wcls(L[j][r],6,2)}"${k-j>1?` colspan="${k-j}"`:""}>${hl(L[j][r],q)}</th>`;j=k}
   h+="</tr>"}
  return h+"</thead>"}
-function tableHTML(t,q,other){const ch=!other&&hasChart(t);let h=`<section class="tbl${ch?" hasch":""}" id="t-${t.id}"><h2><a href="#${t.id}">${hl(label(t),q)}</a></h2>${!other?TableTags.render(TABLE_TAG_DATA[t.id],"../../"):""}${t.en?`<p class="en"><b>${hl(t.en.t,q)}</b>: ${hl(t.en.d,q)} <span class="enn">(Note: LLM translation)</span></p>`:""}<div class="sub">${esc(t.chapter||"")} · printed page${(t.printed_pages||[]).length>1?"s":""} ${esc((t.printed_pages||[]).join(", "))}${HIDEIMG?"":` · ${/^p\d/.test(t.image||"")?"scan leaf":"photo"} ${esc((t.images||[t.image]).join(", "))}`}</div>`+(ch?vsw():"");
+function tableHTML(t,q,other){const ch=!other&&hasChart(t);let h=`<section class="tbl${ch?" hasch":""}" id="t-${t.id}"><h2><a href="#${t.id}">${hl(label(t),q)}</a></h2>${!other?TableTags.render(TABLE_TAG_DATA[t.id],"../../"):""}${t.en?`<p class="en"><b>${hl(t.en.t,q)}</b>: ${hl(t.en.d,q)} <span class="enn">(Note: LLM translation)</span></p>`:""}<div class="sub">${esc(t.chapter||"")} · printed page${(t.printed_pages||[]).length>1?"s":""} ${esc((t.printed_pages||[]).join(", "))}${HIDEIMG?"":` · ${/^p\d/.test(t.image||"")?"scan leaf":"photo"} ${esc((t.images||[t.image]).join(", "))}`}</div>`+(t.map?`<div class="maplink"><a href="${esc(t.map)}" target="_blank" rel="noopener">🗺 Show on map</a> <span class="mlh">(opens the Japanese Empire map with this table's figures by prefecture)</span></div>`:"")+(ch?vsw():"");
  if(!other)h+=xlTable(t);
  if(t.caption_extra)h+=CJK.test(t.caption_extra)?`<div class="sub">${hl(t.caption_extra,q)}</div>`:`<div class="sub"><i>${hl(t.caption_extra,q)}</i></div>`;
  if(t.context)h+=`<p class="ctx"><b>Context.</b> ${hl(t.context,q)}</p>`;
