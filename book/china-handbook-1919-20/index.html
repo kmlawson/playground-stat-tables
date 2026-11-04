@@ -53,7 +53,7 @@ td.num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
 td.blank{background:repeating-linear-gradient(45deg,transparent 0 4px,var(--hi) 4px 8px)}
 td.illeg{background:repeating-linear-gradient(45deg,transparent 0 4px,rgba(200,60,40,.32) 4px 8px)}
 tr:hover td{background:var(--hi)}
-tr.sec td:first-child{font-weight:bold;font-style:italic}tr.sec.cjk td:first-child{font-style:normal}
+td.nw,th.nw{white-space:nowrap}tr.sec td:first-child{font-weight:bold;font-style:italic}tr.sec.cjk td:first-child{font-style:normal}
 .part{font-weight:bold;margin-top:12px}
 .tbl{padding-bottom:22px;margin-bottom:26px;border-bottom:2px solid var(--line)}
 .chhead{font-size:13px;letter-spacing:.06em;text-transform:uppercase;color:var(--accent);margin:0 0 4px}
@@ -182,8 +182,9 @@ function chartsGo(){if(window.TableCharts)TableCharts.mountAll(document.getEleme
 document.addEventListener("click",e=>{const b=e.target.closest(".vsw button");if(b)setVW(b.dataset.vw)});
 // Column headings flattened as "Upper — Lower" are drawn as a multi-row header: neighbouring columns with the same
 // upper heading share one cell spanning them, as printed. Display only: the column names themselves are unchanged.
+function shortLab(c,n,w){const s=String(c??"").trim();if(!s)return false;return CJK.test(s)?s.replace(/\s/g,"").length<=n:s.split(/\s+/).length<=w}
 function headHTML(cols,q){const L=cols.map(c=>{const x=String(c??"").split(" — ").filter(y=>y.trim());return x.length?x:[""]}),D=Math.max(1,...L.map(x=>x.length));
- const leaf=(c,j,rs)=>`<th class="sortable" data-col="${j}"${rs>1?` rowspan="${rs}"`:""} title="${esc(c)} — click to sort">${hl(L[j][L[j].length-1],q)}</th>`;
+ const leaf=(c,j,rs)=>`<th class="sortable${shortLab(L[j][L[j].length-1],6,2)?" nw":""}" data-col="${j}"${rs>1?` rowspan="${rs}"`:""} title="${esc(c)} — click to sort">${hl(L[j][L[j].length-1],q)}</th>`;
  if(D===1)return `<thead><tr>${cols.map((c,j)=>`<th class="sortable" data-col="${j}" title="Click to sort">${hl(c,q)}</th>`).join("")}</tr></thead>`;
  let h=`<thead class="ml">`;
  for(let r=0;r<D;r++){h+="<tr>";let j=0;
@@ -192,7 +193,7 @@ function headHTML(cols,q){const L=cols.map(c=>{const x=String(c??"").split(" —
    if(r>n-1){j++;continue}
    const key=L[j].slice(0,r+1).join(" — ");let k=j+1;
    while(k<L.length&&L[k].length-1>r&&L[k].slice(0,r+1).join(" — ")===key)k++;
-   h+=`<th class="grp"${k-j>1?` colspan="${k-j}"`:""}>${hl(L[j][r],q)}</th>`;j=k}
+   h+=`<th class="grp${shortLab(L[j][r],6,2)?" nw":""}"${k-j>1?` colspan="${k-j}"`:""}>${hl(L[j][r],q)}</th>`;j=k}
   h+="</tr>"}
  return h+"</thead>"}
 function tableHTML(t,q,other){const ch=!other&&hasChart(t);let h=`<section class="tbl${ch?" hasch":""}" id="t-${t.id}"><h2><a href="#${t.id}">${hl(label(t),q)}</a></h2>${!other?TableTags.render(TABLE_TAG_DATA[t.id],"../../"):""}${t.en?`<p class="en"><b>${hl(t.en.t,q)}</b>: ${hl(t.en.d,q)} <span class="enn">(Note: LLM translation)</span></p>`:""}<div class="sub">${esc(t.chapter||"")} · printed page${(t.printed_pages||[]).length>1?"s":""} ${esc((t.printed_pages||[]).join(", "))}${HIDEIMG?"":` · ${/^p\d/.test(t.image||"")?"scan leaf":"photo"} ${esc((t.images||[t.image]).join(", "))}`}</div>`+(ch?vsw():"");
@@ -201,7 +202,7 @@ function tableHTML(t,q,other){const ch=!other&&hasChart(t);let h=`<section class
  if(t.context)h+=`<p class="ctx"><b>Context.</b> ${hl(t.context,q)}</p>`;
  (t.parts||[]).forEach((p,pi)=>{if(p.label)h+=`<div class="part">${hl(p.label,q)}</div>`;
   h+=`<div class="tw" data-p="${pi}"><table>${headHTML(p.columns,q)}<tbody>`;
-  p.rows.forEach((r,ri)=>{const sec=r.length>1&&r.slice(1).every(c=>c==="");h+=`<tr data-i="${ri}"${sec?(CJK.test(r[0])?' class="sec cjk"':' class="sec"'):""}>`+r.map((c,j)=>c==="[?]"?`<td class="illeg" title="Unreadable in the scan" aria-label="unreadable"></td>`:`<td class="${j&&isNum(c)?"num":""}${j&&c===""&&!sec&&!MARKED?" blank":""}"${j&&c===""&&!sec&&MARKED?' title="Blank in the original"':""}>${hl(c,q)}</td>`).join("")+"</tr>"});
+  p.rows.forEach((r,ri)=>{const sec=r.length>1&&r.slice(1).every(c=>c==="");h+=`<tr data-i="${ri}"${sec?(CJK.test(r[0])?' class="sec cjk"':' class="sec"'):""}>`+r.map((c,j)=>c==="[?]"?`<td class="illeg" title="Unreadable in the scan" aria-label="unreadable"></td>`:`<td class="${j&&isNum(c)?"num":""}${!j&&shortLab(c,12,3)?"nw":""}${j&&c===""&&!sec&&!MARKED?" blank":""}"${j&&c===""&&!sec&&MARKED?' title="Blank in the original"':""}>${hl(c,q)}</td>`).join("")+"</tr>"});
   h+="</tbody></table></div>";if(ch)h+=`<div class="tchart" data-id="${esc(t.id)}" data-p="${pi}"></div>`});
  if((t.footnotes||[]).length){const fn=t.footnotes.map(n=>hl(n,q)),hit=fn.some(x=>x.includes("<mark>"));h+=`<details class="notes"${hit?" open":""}><summary>Printed notes (${fn.length})</summary><ul>${fn.map(x=>`<li>${x}</li>`).join("")}</ul></details>`;}
  if((t.transcriber_notes||[]).length)h+=`<details class="notes"><summary${t._warn?' class="warn"':""}>Transcriber's notes (${t.transcriber_notes.length})${t._warn?" — includes unreadable or doubtful cells":""}</summary><ul>${t.transcriber_notes.map(n=>`<li class="${warnRe.test(n)?"warn":""}">${esc(n)}</li>`).join("")}</ul></details>`;
