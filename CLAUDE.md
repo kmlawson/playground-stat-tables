@@ -60,7 +60,10 @@ abandoned after 12 of 50 missions with about 68% of cells blank (5068 px per spr
    (`pdfimages -j` for the original JPEGs; render at 300 dpi only for non-JPEG pages; JP2 zips via `magick`).
    `pNNNN` = PDF page / scan leaf, 1-based (keep a `build/leafmaps/<slug>.json` if the online viewer counts
    differently). Make 1600–1800 px copies in `plan/`.
-2. **Contact sheets.** 8 images per sheet, 4×2, each labelled with its file name (`magick montage … -label pNNNN`)
+2. **Contact sheets.** Make them with the `contactsheet` skill (user, 2026-11-05): it renders PDF pages with MuPDF in
+   parallel straight at cell size, caches thumbnails, and can split a whole volume into many sheets in one run; use it in
+   place of the older `imagegrid` skill and hand-rolled `magick montage` loops. 8 images per sheet, 4×2, each labelled with
+   its leaf name (`pNNNN`, as the old `magick montage … -label pNNNN`)
    in `sheets/`. Survey agents (Sonnet, ~8–16 sheets each, `plan/SHEET_SURVEY.md`) list only the images with tables,
    lists, charts with figures or directories, one line each: `pNNNN | pp. | START/CONT | kind | titles | ENDS/RUNS-ON`,
    plus skipped runs (contents, index, ads, prose) and missing/duplicated pages. Only those pages are read later.
