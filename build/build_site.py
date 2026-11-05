@@ -9,6 +9,17 @@ import json, glob, os, re, html, datetime
 from pathlib import Path
 
 SCRIPTS = os.path.dirname(os.path.abspath(__file__))  # build/: scripts, leaf maps, docs (not deployed)
+
+
+def version_line():
+    """'Version 1 update N · last updated DD Month YYYY, HH:MM' from build/VERSION.json (see build/bump_version.py)."""
+    import datetime
+    f = os.path.join(SCRIPTS, "VERSION.json")
+    if not os.path.exists(f):
+        return ""
+    v = json.load(open(f))
+    t = datetime.datetime.strptime(v["updated"], "%Y-%m-%dT%H:%M%z")
+    return f'Version {v["major"]} update {v["update"]} · last updated {t.strftime("%d %B %Y, %H:%M")}'
 HERE = os.path.dirname(SCRIPTS)  # site root: everything here except build/, CLAUDE.md and .git is deployed
 # Folder holding the book folders. A worktree placed elsewhere (e.g. the far-east-1941 branch)
 # must set STAT_TABLES_ROOT to the Manchoukuo folder, or relative book dirs resolve wrongly.
@@ -1929,13 +1940,13 @@ def main():
                             + ('<a class="dirbtn" href="chronology.html">Chronologies</a>' if b.get("_chron_n") else "")
                             + (f'<button class="aboutbtn" onclick="document.getElementById(\'about\').showModal()">About</button>'
                                f'<dialog id="about" onclick="if(event.target===this)this.close()"><h3>{html.escape(b["title"])}</h3>{f'<div class="pub">{html.escape(b["subtitle"])}</div>' if b.get("subtitle") else ""}<div class="pub">{html.escape(b["publisher"])}</div>'
-                               f'<p>{html.escape(b["gaps"])}</p>{"" if b.get("blank_marking") else BLANK_NOTE}<form method="dialog"><button>Close</button></form></dialog>' if b.get("gaps") else "")))
+                               f'<p>{html.escape(b["gaps"])}</p>{"" if b.get("blank_marking") else BLANK_NOTE}<p class="ver">{html.escape(version_line())}</p><form method="dialog"><button>Close</button></form></dialog>' if b.get("gaps") else "")))
             with open(os.path.join(HERE, "book", b["slug"], "index.html"), "w", encoding="utf-8") as fh:
                 fh.write(doc)
     build_tag_pages(pages)
     with open(os.path.join(HERE, "index.html"), "w", encoding="utf-8") as fh:
         nb, nt = sum(1 for b, n, c, ch in cards), sum(n for b, n, c, ch in cards)
-        fh.write(landing(cards).replace("__TOPICMENU__", f'<p class="allstat">{nb} volumes, with a total of {nt:,} tables</p>'))   # site totals; the topic menu was removed (user, 2026-10-24)
+        fh.write(landing(cards).replace("__TOPICMENU__", f'<p class="allstat">{nb} volumes, with a total of {nt:,} tables</p>').replace("__VERSION__", html.escape(version_line())))   # site totals; the topic menu was removed (user, 2026-10-24)
     books = [{"slug": b["slug"], "title": b["title"], "dir": bool(b.get("_dir_n")), "chron": bool(b.get("_chron_n")),
               "g": group_of(b), "y": years_of(b), "sc": b.get("scan")} for b, n, c, ch in cards if n]
     with open(os.path.join(HERE, "search.html"), "w", encoding="utf-8") as fh:
@@ -2233,7 +2244,7 @@ const n=document.getElementById("jump");n.insertBefore(document.getElementById("
 <div class="llmwarn" role="note"><b>Warning:</b> These tables were transcribed by the vision models of Opus 5.5, Sonnet 5.5, or Haiku 5.5 (named on each book's page). Before using any of these figures, you must verify specific statistics with the original source which is linked to whenever possible.</div>
 <script>document.addEventListener("click",e=>{const b=e.target.closest("[data-about]");if(b){document.getElementById(b.dataset.about).showModal();return}
 if(e.target.tagName==="DIALOG")e.target.close()});</script>
-<footer>Each table can be downloaded as CSV from its page. Each book can be downloaded whole as an Excel workbook (one sheet per table, with a linked contents sheet) or as JSON; directories are available as Markdown.<br><br>The website was created by Claude Opus 5.5 with <a href="https://muninn.net/">Konrad M. Lawson</a> at the prompt. See: <a href="https://froginawell.net/frog/sources/">Other Resources at Frog in a Well</a></footer>
+<footer>Each table can be downloaded as CSV from its page. Each book can be downloaded whole as an Excel workbook (one sheet per table, with a linked contents sheet) or as JSON; directories are available as Markdown.<br><br>The website was created by Claude Opus 5.5 with <a href="https://muninn.net/">Konrad M. Lawson</a> at the prompt. See: <a href="https://froginawell.net/frog/sources/">Other Resources at Frog in a Well</a><br><span class="ver">__VERSION__</span></footer>
 </main></body></html>
 """
 
@@ -2336,7 +2347,7 @@ td.num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
 td.blank{background:repeating-linear-gradient(45deg,transparent 0 4px,var(--hi) 4px 8px)}
 td.illeg{background:repeating-linear-gradient(45deg,transparent 0 4px,rgba(200,60,40,.32) 4px 8px)}
 tr:hover td{background:var(--hi)}
-td.nw,th.nw{white-space:nowrap}.vrow{display:flex;align-items:stretch;gap:8px;flex-wrap:wrap}.vrow .vsw{margin:4px 0 2px}.mapbtn,.mapbtn:visited{display:inline-flex;align-items:center;box-sizing:border-box;margin:4px 0 2px;font-size:13px;font-weight:400;line-height:inherit;padding:0 11px;border:1px solid var(--accent);border-radius:5px;background:var(--accent);color:var(--accent-ink);text-decoration:none}.mapbtn:hover{filter:brightness(1.15);text-decoration:none}td.w6,th.w6{min-width:6.3em}tr.sec td:first-child{font-weight:bold;font-style:italic}tr.sec.cjk td:first-child{font-style:normal}
+td.nw,th.nw{white-space:nowrap}.ver{color:var(--muted);font-size:12px}.vrow{display:flex;align-items:stretch;gap:8px;flex-wrap:wrap}.vrow .vsw{margin:4px 0 2px}.mapbtn,.mapbtn:visited{display:inline-flex;align-items:center;box-sizing:border-box;margin:4px 0 2px;font-size:13px;font-weight:400;line-height:inherit;padding:0 11px;border:1px solid var(--accent);border-radius:5px;background:var(--accent);color:var(--accent-ink);text-decoration:none}.mapbtn:hover{filter:brightness(1.15);text-decoration:none}td.w6,th.w6{min-width:6.3em}tr.sec td:first-child{font-weight:bold;font-style:italic}tr.sec.cjk td:first-child{font-style:normal}
 .part{font-weight:bold;margin-top:12px}
 .tbl{padding-bottom:22px;margin-bottom:26px;border-bottom:2px solid var(--line)}
 .chhead{font-size:13px;letter-spacing:.06em;text-transform:uppercase;color:var(--accent);margin:0 0 4px}

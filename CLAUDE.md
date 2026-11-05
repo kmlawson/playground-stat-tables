@@ -215,6 +215,10 @@ The paths inside still name the book they came from — edit them first.
 
 - Build: `STAT_TABLES_ROOT=/Users/kml/shell/projects/yearbooks/japanyearbooks python3 build/build_site.py`, then
   `uv run --with openpyxl build/build_downloads.py`, then build_site again (so the page links the new download).
+- **Version** (user, 2026-11-05): the site is version 1.<update> (1.100, 1.101 … 1.999, 1.1000 …), kept in
+  `build/VERSION.json` and shown as "Version 1 update N · last updated …" in the home footer and book About panels.
+  Run `python3 build/bump_version.py` before building whenever a commit is more than a very minor fix (new book,
+  feature, design change, data corrections).
 - Branch from `origin/main` with `--no-track`; commit only the new book's files plus `build_site.py`, `index.html`,
   `search.html` and any book pages a shared-code change touched; revert other rebuilt files (often
   `book/japan-1935/directory.html`, `book/korea-nenkan-1926/directory.html`, other books' downloads).
