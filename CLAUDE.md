@@ -213,6 +213,11 @@ The paths inside still name the book they came from — edit them first.
 
 ## Building and publishing (this session runs the repo — user, 2026-10-06)
 
+- **Kanji numerals are converted for display only** (user, 2026-11-05): `build/kanji_nums.js`, inlined in every book page,
+  shows positional numbers (`五〇〇瓦` → `500瓦`, `第一三類` → `第13類`) as Arabic with an Arabic / As printed switch; the
+  data, CSV, Excel and Full Search keep the printed form. BOOKS flag `"kanji_full": True` also converts single digits and
+  十百千 before a unit (`五寸五分`); only 百貨店年鑑 has it. Grades and ranks stay in kanji (`一級`, `九等`, `二番狸毫`), as
+  do names and lists. When in doubt the rule leaves the kanji. After changing it, read every comma and decimal conversion.
 - Build: `STAT_TABLES_ROOT=/Users/kml/shell/projects/yearbooks/japanyearbooks python3 build/build_site.py`, then
   `uv run --with openpyxl build/build_downloads.py`, then build_site again (so the page links the new download).
 - **Version** (user, 2026-11-05): the site is version 1.<update> (1.100, 1.101 … 1.999, 1.1000 …), kept in

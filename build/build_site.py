@@ -1107,7 +1107,7 @@ BOOKS = [
      "model": "Claude Sonnet 5.5",
      "dir_label": "Lists",
      "blank_marking": True},
-    {"slug": "japan-hyakkaten-1941", "dir": "Hyakkaten_Nenkan_1941",
+    {"slug": "japan-hyakkaten-1941", "dir": "Hyakkaten_Nenkan_1941", "kanji_full": True,
      "title": "百貨店年鑑 1941", "subtitle": "Hyakkaten nenkan (Department Store Yearbook), 昭和16・17年版 (1941–42 edition)",
      "publisher": "日本百貨店通信社 (Nihon Hyakkaten Tsūshinsha), 東京, 1941",
      "blurb": "A yearbook of the Japanese department-store trade on the eve of the Pacific War. It prints the 1937 Department Store Law and the rules of the Japan Department Store Association; a survey of every department store in Japan, Korea, Taiwan and Manchuria, region by region, with each company's founding date, capital, shareholders, directors, floor space, staff numbers and profit and loss, followed by its staff list post by post; an address book of department-store people; a directory of the leading suppliers in the Kantō and Kansai regions (trade, firm, telephone, address, proprietor); and, at the end, a digest of the official maximum prices (公定價格) set by the Ministry of Commerce and Industry in 1940–41 for hundreds of everyday goods — furoshiki, ready-made woollen clothing and raincoats, knitwear, shoes, ties, scarves, sports goods, smoking articles, watches, sandals, umbrellas, toys, stationery, cutlery, lacquerware, china, aluminium ware, brooms, carpets, curtains, dried fish, pickles, soy sauce, ham, jam and tsukudani — with producer, wholesale and retail prices.",
@@ -1927,6 +1927,8 @@ def main():
                    .replace("__TAGDATA__", json.dumps(book_tags(b["slug"], tag_assignments), ensure_ascii=False).replace("<", "\\u003c"))
                    .replace("__XL__", json.dumps(xl[b["slug"]], ensure_ascii=False).replace("</", "<\\/"))
                    .replace("__HIDEIMG__", "true" if b.get("hide_images") else "false")
+                   .replace("__KANJINUMS__", open(os.path.join(SCRIPTS, "kanji_nums.js"), encoding="utf-8").read().replace("if(typeof module!==\"undefined\")module.exports=KN;\n", ""))
+                   .replace("__KNFULL__", "true" if b.get("kanji_full") else "false")
                    .replace("__ORIG__", json.dumps(orig_link(b), ensure_ascii=False))
                    .replace("__PTOC__", json.dumps(printed_toc(b, clean), ensure_ascii=False).replace("</", "<\\/"))
                    .replace("__MARKED__", "true" if b.get("blank_marking") else "false")
@@ -2333,7 +2335,7 @@ body.kbd #list a:not(.on):hover{background:transparent}
 #main{overflow:auto;padding:18px 22px;min-width:0}
 h2{margin:0 0 4px;font-weight:normal;font-size:22px}
 .sub{color:var(--muted);font-size:14px;margin-bottom:10px}
-.tw{overflow:auto;border:1px solid var(--line);background:var(--panel);margin:8px 0 16px;max-height:70vh}
+.tw{overflow:auto;border:1px solid var(--line);background:var(--panel);margin:8px 0 16px;max-height:70vh;width:fit-content;max-width:100%}.tw:focus{outline:none}.tw:focus-visible{outline:2px solid var(--line)}
 table{border-collapse:collapse;font-size:13.5px;font-family:"Iowan Old Style",Georgia,"Noto Serif JP","Hiragino Mincho ProN","Hiragino Mincho Pro","Yu Mincho","YuMincho","Noto Serif CJK JP","Source Han Serif JP","MS PMincho",serif}
 th,td{border:1px solid var(--line);padding:3px 7px;vertical-align:top}
 th{position:sticky;top:0;background:var(--panel);text-align:left;font-weight:bold;font-size:12.5px}
@@ -2414,7 +2416,7 @@ body.vw-chart .tbl.hasch .tw{display:none}body.vw-table .tchart{display:none}
 <input id="q" type="search" placeholder="Search titles, headings, cells…">
 <select id="ch"><option value="">All chapters</option></select>
 <input type="checkbox" id="flag" hidden>
-<div class="keyrow"><span class="keys">↑ / ↓ keys: previous / next table</span><button id="sidetog" type="button" title="Hide the table list" aria-label="Hide the table list" aria-expanded="true"></button></div>
+<div class="keyrow"><span class="keys">↑ ↓ ← → keys: previous / next table · 1 2 3: table / chart / both</span><button id="sidetog" type="button" title="Hide the table list" aria-label="Hide the table list" aria-expanded="true"></button></div>
 </div><div id="list"></div></nav>
 <main id="main"></main>
 <aside id="cmp" hidden></aside>
@@ -2430,6 +2432,9 @@ const DIRCARDS=__DIRCARDS__;const PY=__PINYIN__;let ALTR=false;try{ALTR=localSto
 const pyd=a=>{if(ALTR||!a)return a;const w=a.split(" ")[0];return PY[w]?PY[w]+a.slice(w.length):a};
 const pyl=l=>ALTR?l:pyd(l).replace(/\(([^() ]+)\)$/,(m,w)=>PY[w]?`(${PY[w]})`:m);
 const HIDEIMG=__HIDEIMG__;
+__KANJINUMS__
+const KNFULL=__KNFULL__;let NF="a";try{NF=localStorage.getItem("numform")||"a"}catch(e){}
+const kn=(s,q)=>NF==="a"?KN(s,KNFULL):s;
 const ORIG=__ORIG__;
 const PTOC=__PTOC__;
 const PTK=PTOC.some(e=>e.k);let ptkOn=true;try{ptkOn=localStorage.getItem("ptocTables")!=="0"}catch(e){}
@@ -2455,7 +2460,7 @@ const $=s=>document.querySelector(s);
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const isNum=s=>/^[\s(]*[-—–]?[\d.,]+[)*%]*\s*$/.test(s)||/^[—–-]$/.test(s.trim())||s.trim()==="...";
 const warnRe=/not reconcile|unreadable|illegible|uncertain|could not|does not/i;
-T.forEach(t=>{t._text=fold([t.title,t.en&&t.en.t,t.en&&t.en.d,t.table_no,t.caption_extra,t.context,t.chapter,...(t.parts||[]).flatMap(p=>[p.label,...p.columns,...p.rows.flat()]),...(t.footnotes||[])].join(" ").toLowerCase());
+T.forEach(t=>{t._text=fold([t.title,t.en&&t.en.t,t.en&&t.en.d,t.table_no,t.caption_extra,t.context,t.chapter,...(t.parts||[]).flatMap(p=>[p.label,...p.columns,...p.rows.flat()]),...(t.parts||[]).flatMap(p=>[...p.columns,...p.rows.flat()]).filter(c=>typeof c==="string"&&KN(c,KNFULL)!==c).map(c=>KN(c,KNFULL)),...(t.footnotes||[])].join(" ").toLowerCase());
  t._warn=(t.transcriber_notes||[]).some(n=>warnRe.test(n));});
 const chapters=[...new Set(T.map(t=>t.chapter||"(no chapter)"))];
 chapters.forEach(c=>$("#ch").insertAdjacentHTML("beforeend",`<option value="${esc(c)}">${esc(c)}${CHEN[c]?" — "+esc(CHEN[c]):""}</option>`));
@@ -2470,17 +2475,23 @@ function csv(t){const L=[];(t.parts||[]).forEach(p=>{if(p.label)L.push([p.label]
  return L.map(r=>r.map(c=>/[",\n]/.test(c??"")?'"'+String(c).replace(/"/g,'""')+'"':(c??"")).join(",")).join("\n")}
 function hasChart(t){return CHARTIDS.has(t.id)&&window.TableCharts&&TableCharts.chartable(t)}
 function vsw(){return `<div class="vsw" role="group" aria-label="Show table, chart or both">${[["table","Table"],["chart","Chart"],["both","Both"]].map(([v,l])=>`<button type="button" data-vw="${v}" class="${VW===v?"on":""}">${l}</button>`).join("")}</div>`}
+function knHas(t){if(t._kn===undefined)t._kn=(t.parts||[]).some(p=>[...p.columns,...p.rows.flat()].some(c=>typeof c==="string"&&KN(c,KNFULL)!==c));return t._kn}
+function nsw(){return `<div class="vsw nsw" role="group" aria-label="Numerals" title="Kanji numerals are shown as Arabic numerals for reading; the data, the downloads and the CSV keep them as printed">${[["a","Arabic"],["p","As printed"]].map(([v,l])=>`<button type="button" data-nf="${v}" class="${NF===v?"on":""}">${l}</button>`).join("")}</div>`}
 function setVW(v){VW=v;try{localStorage.setItem("tview",v)}catch(e){}document.body.classList.remove("vw-table","vw-chart","vw-both");document.body.classList.add("vw-"+v);document.querySelectorAll(".vsw button").forEach(b=>b.classList.toggle("on",b.dataset.vw===v));chartsGo()}
 function chartsGo(){if(window.TableCharts)TableCharts.mountAll(document.getElementById("main"),id=>T.find(x=>x.id===id),{marked:MARKED})}
-document.addEventListener("click",e=>{const b=e.target.closest(".vsw button");if(b)setVW(b.dataset.vw)});
+// 1, 2, 3: Table, Chart, Both, on views that offer the choice (ignored while typing in a field)
+document.addEventListener("keydown",e=>{const v={"1":"table","2":"chart","3":"both"}[e.key];if(!v||e.altKey||e.ctrlKey||e.metaKey||e.repeat)return;
+ const ae=document.activeElement;if(ae&&(/INPUT|SELECT|TEXTAREA/.test(ae.tagName)||ae.isContentEditable))return;
+ if(document.querySelector(".vsw button[data-vw]"))setVW(v)});
+document.addEventListener("click",e=>{const n=e.target.closest(".nsw button");if(n){NF=n.dataset.nf;try{localStorage.setItem("numform",NF)}catch(x){}const m=$("#main"),y=m.scrollTop,w=scrollY;route();m.scrollTop=y;scrollTo(0,w);return}const b=e.target.closest(".vsw button");if(b)setVW(b.dataset.vw)});
 // Column headings flattened as "Upper — Lower" are drawn as a multi-row header: neighbouring columns with the same
 // upper heading share one cell spanning them, as printed. Display only: the column names themselves are unchanged.
 function wcls(c,n,w){return shortLab(c,n,w)?" nw":CJK.test(String(c??""))?" w6":""}
 function mapHref(u){const L="https://froginawell.net/reference/japanese-empire/",G="https://kmlawson.github.io/japanese-empire-student-map/";let o=null;try{o=new URLSearchParams(location.search).get("map")}catch(e){}const gh=o?o==="gh":/github\.io$/.test(location.hostname);return gh?u.replace(L,G):u}
 function shortLab(c,n,w){const s=String(c??"").trim();if(!s)return false;return CJK.test(s)?s.replace(/\s/g,"").length<=n:s.split(/\s+/).length<=w}
 function headHTML(cols,q){const L=cols.map(c=>{const x=String(c??"").split(" — ").filter(y=>y.trim());return x.length?x:[""]}),D=Math.max(1,...L.map(x=>x.length));
- const leaf=(c,j,rs)=>`<th class="sortable${wcls(L[j][L[j].length-1],6,2)}" data-col="${j}"${rs>1?` rowspan="${rs}"`:""} title="${esc(c)} — click to sort">${hl(L[j][L[j].length-1],q)}</th>`;
- if(D===1)return `<thead><tr>${cols.map((c,j)=>`<th class="sortable" data-col="${j}" title="Click to sort">${hl(c,q)}</th>`).join("")}</tr></thead>`;
+ const leaf=(c,j,rs)=>`<th class="sortable${wcls(L[j][L[j].length-1],6,2)}" data-col="${j}"${rs>1?` rowspan="${rs}"`:""} title="${esc(c)} — click to sort">${hl(kn(L[j][L[j].length-1]),q)}</th>`;
+ if(D===1)return `<thead><tr>${cols.map((c,j)=>`<th class="sortable" data-col="${j}" title="Click to sort">${hl(kn(c),q)}</th>`).join("")}</tr></thead>`;
  let h=`<thead class="ml">`;
  for(let r=0;r<D;r++){h+="<tr>";let j=0;
   while(j<L.length){const n=L[j].length;
@@ -2488,16 +2499,16 @@ function headHTML(cols,q){const L=cols.map(c=>{const x=String(c??"").split(" —
    if(r>n-1){j++;continue}
    const key=L[j].slice(0,r+1).join(" — ");let k=j+1;
    while(k<L.length&&L[k].length-1>r&&L[k].slice(0,r+1).join(" — ")===key)k++;
-   h+=`<th class="grp${wcls(L[j][r],6,2)}"${k-j>1?` colspan="${k-j}"`:""}>${hl(L[j][r],q)}</th>`;j=k}
+   h+=`<th class="grp${wcls(L[j][r],6,2)}"${k-j>1?` colspan="${k-j}"`:""}>${hl(kn(L[j][r]),q)}</th>`;j=k}
   h+="</tr>"}
  return h+"</thead>"}
-function tableHTML(t,q,other){const ch=!other&&hasChart(t);let h=`<section class="tbl${ch?" hasch":""}" id="t-${t.id}"><h2><a href="#${t.id}">${hl(label(t),q)}</a></h2>${!other?TableTags.render(TABLE_TAG_DATA[t.id],"../../"):""}${t.en?`<p class="en"><b>${hl(t.en.t,q)}</b>: ${hl(t.en.d,q)} <span class="enn">(Note: LLM translation)</span></p>`:""}<div class="sub">${esc(t.chapter||"")} · printed page${(t.printed_pages||[]).length>1?"s":""} ${esc((t.printed_pages||[]).join(", "))}${HIDEIMG?"":` · ${/^p\d/.test(t.image||"")?"scan leaf":"photo"} ${esc((t.images||[t.image]).join(", "))}`}</div>`+((ch||t.map)?`<div class="vrow">${ch?vsw():""}${t.map?`<a class="mapbtn" href="${esc(mapHref(t.map))}" target="_blank" rel="noopener" title="Opens the Japanese Empire map in a new tab, with this table's figures by prefecture">View as Map ↗</a>`:""}</div>`:"");
+function tableHTML(t,q,other){const ch=!other&&hasChart(t);let h=`<section class="tbl${ch?" hasch":""}" id="t-${t.id}"><h2><a href="#${t.id}">${hl(label(t),q)}</a></h2>${!other?TableTags.render(TABLE_TAG_DATA[t.id],"../../"):""}${t.en?`<p class="en"><b>${hl(t.en.t,q)}</b>: ${hl(t.en.d,q)} <span class="enn">(Note: LLM translation)</span></p>`:""}<div class="sub">${esc(t.chapter||"")} · printed page${(t.printed_pages||[]).length>1?"s":""} ${esc((t.printed_pages||[]).join(", "))}${HIDEIMG?"":` · ${/^p\d/.test(t.image||"")?"scan leaf":"photo"} ${esc((t.images||[t.image]).join(", "))}`}</div>`+((ch||t.map||knHas(t))?`<div class="vrow">${ch?vsw():""}${knHas(t)?nsw():""}${t.map?`<a class="mapbtn" href="${esc(mapHref(t.map))}" target="_blank" rel="noopener" title="Opens the Japanese Empire map in a new tab, with this table's figures by prefecture">View as Map ↗</a>`:""}</div>`:"");
  if(!other)h+=xlTable(t);
  if(t.caption_extra)h+=CJK.test(t.caption_extra)?`<div class="sub">${hl(t.caption_extra,q)}</div>`:`<div class="sub"><i>${hl(t.caption_extra,q)}</i></div>`;
  if(t.context)h+=`<p class="ctx"><b>Context.</b> ${hl(t.context,q)}</p>`;
  (t.parts||[]).forEach((p,pi)=>{if(p.label)h+=`<div class="part">${hl(p.label,q)}</div>`;
-  h+=`<div class="tw" data-p="${pi}"><table>${headHTML(p.columns,q)}<tbody>`;
-  p.rows.forEach((r,ri)=>{const sec=r.length>1&&r.slice(1).every(c=>c==="");h+=`<tr data-i="${ri}"${sec?(CJK.test(r[0])?' class="sec cjk"':' class="sec"'):""}>`+r.map((c,j)=>c==="[?]"?`<td class="illeg" title="Unreadable in the scan" aria-label="unreadable"></td>`:`<td class="${j&&isNum(c)?"num":""}${!j?wcls(c,12,3):""}${j&&c===""&&!sec&&!MARKED?" blank":""}"${j&&c===""&&!sec&&MARKED?' title="Blank in the original"':""}>${hl(c,q)}</td>`).join("")+"</tr>"});
+  h+=`<div class="tw" data-p="${pi}" tabindex="0"><table>${headHTML(p.columns,q)}<tbody>`;
+  p.rows.forEach((r,ri)=>{const sec=r.length>1&&r.slice(1).every(c=>c==="");h+=`<tr data-i="${ri}"${sec?(CJK.test(r[0])?' class="sec cjk"':' class="sec"'):""}>`+r.map((c,j)=>c==="[?]"?`<td class="illeg" title="Unreadable in the scan" aria-label="unreadable"></td>`:`<td class="${j&&isNum(kn(c))?"num":""}${!j?wcls(c,12,3):""}${j&&c===""&&!sec&&!MARKED?" blank":""}"${j&&c===""&&!sec&&MARKED?' title="Blank in the original"':""}>${hl(kn(c),q)}</td>`).join("")+"</tr>"});
   h+="</tbody></table></div>";if(ch)h+=`<div class="tchart" data-id="${esc(t.id)}" data-p="${pi}"></div>`});
  if((t.footnotes||[]).length){const fn=t.footnotes.map(n=>hl(n,q)),hit=fn.some(x=>x.includes("<mark>"));h+=`<details class="notes"${hit?" open":""}><summary>Printed notes (${fn.length})</summary><ul>${fn.map(x=>`<li>${x}</li>`).join("")}</ul></details>`;}
  if((t.transcriber_notes||[]).length)h+=`<details class="notes"><summary${t._warn?' class="warn"':""}>Transcriber's notes (${t.transcriber_notes.length})${t._warn?" — includes unreadable or doubtful cells":""}</summary><ul>${t.transcriber_notes.map(n=>`<li class="${warnRe.test(n)?"warn":""}">${esc(n)}</li>`).join("")}</ul></details>`;
@@ -2583,12 +2594,14 @@ function act(b,t){
  if(b.dataset.act==="dl"){const bl=new Blob(["﻿"+csv(t)],{type:"text/csv"});const a=document.createElement("a");a.href=URL.createObjectURL(bl);a.download=t.id+".csv";a.click()}
  else navigator.clipboard.writeText((t.parts||[]).map(p=>[p.columns,...p.rows].map(r=>r.join("\t")).join("\n")).join("\n\n"))}
 $("#list").addEventListener("click",e=>{const c=e.target.closest(".ch");if(!c)return;location.hash="ch="+encodeURIComponent(c.dataset.ch||c.textContent)});
-// Up/Down arrows: previous/next table in the sidebar list (ignored while typing in a field)
-document.addEventListener("keydown",e=>{if(e.key!=="ArrowDown"&&e.key!=="ArrowUp")return;if(e.altKey||e.ctrlKey||e.metaKey)return;
- const tag=(document.activeElement&&document.activeElement.tagName)||"";if(/INPUT|SELECT|TEXTAREA/.test(tag))return;
+// Arrow keys: previous/next table in the sidebar list (ignored while typing in a field). With the focus in a table that
+// scrolls on that key's axis, the key scrolls the table instead; a table that fits has nothing to scroll, so it browses.
+document.addEventListener("keydown",e=>{if(!["ArrowDown","ArrowUp","ArrowLeft","ArrowRight"].includes(e.key))return;if(e.altKey||e.ctrlKey||e.metaKey)return;
+ const ae=document.activeElement,tag=(ae&&ae.tagName)||"";if(/INPUT|SELECT|TEXTAREA/.test(tag))return;
+ const tw=ae&&ae.closest&&ae.closest(".tw");if(tw&&(/Left|Right/.test(e.key)?tw.scrollWidth>tw.clientWidth:tw.scrollHeight>tw.clientHeight))return;
  const links=[...document.querySelectorAll("#list a[href^='#']")];if(!links.length)return;
  document.body.classList.add("kbd");
- let i=links.findIndex(a=>a.classList.contains("on"));const down=e.key==="ArrowDown";
+ let i=links.findIndex(a=>a.classList.contains("on"));const down=e.key==="ArrowDown"||e.key==="ArrowRight";
  const ch=$("#ch").value;
  // at either end of a chapter's list, step into the next/previous chapter
  if(ch&&i>-1&&((down&&i===links.length-1)||(!down&&i===0))){

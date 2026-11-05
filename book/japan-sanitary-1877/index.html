@@ -39,7 +39,7 @@ body.kbd #list a:not(.on):hover{background:transparent}
 #main{overflow:auto;padding:18px 22px;min-width:0}
 h2{margin:0 0 4px;font-weight:normal;font-size:22px}
 .sub{color:var(--muted);font-size:14px;margin-bottom:10px}
-.tw{overflow:auto;border:1px solid var(--line);background:var(--panel);margin:8px 0 16px;max-height:70vh}
+.tw{overflow:auto;border:1px solid var(--line);background:var(--panel);margin:8px 0 16px;max-height:70vh;width:fit-content;max-width:100%}.tw:focus{outline:none}.tw:focus-visible{outline:2px solid var(--line)}
 table{border-collapse:collapse;font-size:13.5px;font-family:"Iowan Old Style",Georgia,"Noto Serif JP","Hiragino Mincho ProN","Hiragino Mincho Pro","Yu Mincho","YuMincho","Noto Serif CJK JP","Source Han Serif JP","MS PMincho",serif}
 th,td{border:1px solid var(--line);padding:3px 7px;vertical-align:top}
 th{position:sticky;top:0;background:var(--panel);text-align:left;font-weight:bold;font-size:12.5px}
@@ -113,14 +113,14 @@ body.vw-chart .tbl.hasch .tw{display:none}body.vw-table .tchart{display:none}
 <body>
 <header><a href="../../" style="text-decoration:none;font-size:14px">← All books</a><h1><a href="./" onclick="goHome();return false" style="color:inherit;text-decoration:none" title="Back to this book's contents">Central Sanitary Bureau Report on Cholera 1877</a></h1>
 <span class="meta">1 tables · 276 cells · LLM-transcribed · <a href="../../data/japan-sanitary-1877.json" style="color:inherit">JSON</a> · <a href="../../downloads/japan-sanitary-1877-tables.xlsx" style="color:inherit" download>Excel</a></span>
-<a class="dirbtn homebtn" href="./" onclick="goHome();return false" title="Back to this book's contents (chapters and the printed table of contents)">☰ Contents</a><button class="aboutbtn" onclick="document.getElementById('about').showModal()">About</button><dialog id="about" onclick="if(event.target===this)this.close()"><h3>Central Sanitary Bureau Report on Cholera 1877</h3><div class="pub">Report of the Director of the Central Sanitary Bureau to H.E. the Minister of the Home Department on Choleraic Diseases in Japan during the 10th Year of Meiji (1877)</div><div class="pub">Central Sanitary Bureau, Home Department, Tokyo, 1877</div><p>The single appendix table is transcribed (read once by Claude Sonnet 5.5, not checked by eye; its printed totals, 13,710 attacked and 7,967 dead, agree with the text). The running text and the government notifications are not transcribed.</p><p class="ver">Version 1 update 101 · last updated 05 November 2026, 12:03</p><form method="dialog"><button>Close</button></form></dialog><button id="toggle" title="Toggle light/dark">◐</button></header>
+<a class="dirbtn homebtn" href="./" onclick="goHome();return false" title="Back to this book's contents (chapters and the printed table of contents)">☰ Contents</a><button class="aboutbtn" onclick="document.getElementById('about').showModal()">About</button><dialog id="about" onclick="if(event.target===this)this.close()"><h3>Central Sanitary Bureau Report on Cholera 1877</h3><div class="pub">Report of the Director of the Central Sanitary Bureau to H.E. the Minister of the Home Department on Choleraic Diseases in Japan during the 10th Year of Meiji (1877)</div><div class="pub">Central Sanitary Bureau, Home Department, Tokyo, 1877</div><p>The single appendix table is transcribed (read once by Claude Sonnet 5.5, not checked by eye; its printed totals, 13,710 attacked and 7,967 dead, agree with the text). The running text and the government notifications are not transcribed.</p><p class="ver">Version 1 update 102 · last updated 05 November 2026, 13:54</p><form method="dialog"><button>Close</button></form></dialog><button id="toggle" title="Toggle light/dark">◐</button></header>
 <div id="wrap">
 <button id="sideopen" type="button" title="Show the table list" aria-label="Show the table list"></button>
 <nav id="side"><div class="ctl">
 <input id="q" type="search" placeholder="Search titles, headings, cells…">
 <select id="ch"><option value="">All chapters</option></select>
 <input type="checkbox" id="flag" hidden>
-<div class="keyrow"><span class="keys">↑ / ↓ keys: previous / next table</span><button id="sidetog" type="button" title="Hide the table list" aria-label="Hide the table list" aria-expanded="true"></button></div>
+<div class="keyrow"><span class="keys">↑ ↓ ← → keys: previous / next table · 1 2 3: table / chart / both</span><button id="sidetog" type="button" title="Hide the table list" aria-label="Hide the table list" aria-expanded="true"></button></div>
 </div><div id="list"></div></nav>
 <main id="main"></main>
 <aside id="cmp" hidden></aside>
@@ -137,6 +137,58 @@ const DIRCARDS=null;const PY={};let ALTR=false;try{ALTR=localStorage.getItem("al
 const pyd=a=>{if(ALTR||!a)return a;const w=a.split(" ")[0];return PY[w]?PY[w]+a.slice(w.length):a};
 const pyl=l=>ALTR?l:pyd(l).replace(/\(([^() ]+)\)$/,(m,w)=>PY[w]?`(${PY[w]})`:m);
 const HIDEIMG=false;
+// Kanji numerals to Arabic, for DISPLAY only: the transcribed data stays as printed.
+// KN(s,full): full=false converts positional numbers (五〇〇, 二二匁, 第一三類, 町三六ノ二) that are clearly numbers;
+// full=true also converts single digits and 十百千 numbers before a unit of measure (五寸五分, 七匁, 百匁當).
+// A number is left alone when in doubt: names (持地六三郎, 富永一二, 三五公司), size names (二二幅物 = 2.2 widths), words
+// (二重, 一越縮緬, 五分利), grades and ranks (一級, 九等, 二番狸毫) and lists (二、三四、五年). No lookbehind: older Safari cannot parse it, and it would break the page.
+const KN=(function(){
+const DV={"〇":0,"零":0,"一":1,"二":2,"三":3,"四":4,"五":5,"六":6,"七":7,"八":8,"九":9};
+const D="〇零一二三四五六七八九",DM=D+"十百千";
+const isK=c=>!!c&&/[㐀-鿿〇]/.test(c),isDig=c=>!!c&&DM.includes(c);
+const pos=s=>[...s].map(c=>DV[c]).join("");
+const trad=s=>{let n=0,c=0;for(const x of s){if(x in DV)c=DV[x];else{n+=(c||1)*({"十":10,"百":100,"千":1000}[x]);c=0}}return String(n+c)};
+const val=s=>/[十百千]/.test(s)?trad(s):pos(s);
+// units, each with what must not follow it (三本絹, 文具, 合計, 二分の一 …)
+const UNIT="(?:類|回|條|號|番|年|月|日|週|時間|時|秒|米|粁|里|町|丁(?![目刃杼も])|間|尺|寸(?!豆)|厘|毛|匁|貫|斤|瓦|瓩|噸|糎|粍|吋|呎|碼|勺|升|斗|石|坪|枚|箇|個|打|組|足|色|歳|歲|圓|錢|銭|%|％|切|立|羽|函|封|段|張|俵|袋|校|度|種|歩|丈|割|揃|戸|グロス|ダース|ボンド|本(?![絹織邦町人店部社縮])|文(?![具房庫書字])|合(?![計資名同])|分(?![の利オ])|線|オンス|名(?![古前稱義簿])|人(?![絹參造]))";
+const POSUNIT=new RegExp("^"+UNIT);
+const NAMEAFTER=/^(?:郎|公司|商|會|社|幅|越|重|德|瓶|ツ)/;
+const PREFIX="第町里洞目番地號ノ長高巾徑丈全約各";
+const GROUP=new RegExp("["+D+"]{1,3}(?:、["+D+"]{3})+(?!["+D+"])","g");
+const DEC=new RegExp("["+D+"]+・["+D+"]+(?!["+D+"])","g");
+const ADDR=new RegExp("(["+D+"]+丁目)?(["+D+"]+(?:ノ["+D+"]+)*)","g");
+const RUN=new RegExp("["+DM+"]+","g");
+const decOk=a=>a===""||POSUNIT.test(a)||/^[—–－～ /、)）]/.test(a);
+function conv(s,full){
+ if(typeof s!=="string"||!RUN.test(s)){RUN.lastIndex=0;return s}RUN.lastIndex=0;
+ let t=s.replace(GROUP,(m,o,str)=>isDig(str[o-1])||(isK(str[o-1])&&!PREFIX.includes(str[o-1]))||!/^(?:$|[本番人千圓羽\s)）])/.test(str.slice(o+m.length))?m:m.split("、").map(pos).join(","));
+ t=t.replace(DEC,(m,o,str)=>{if(isDig(str[o-1])||!decOk(str.slice(o+m.length)))return m;const[a,b]=m.split("・");if(b.length>=3&&/^[番本]/.test(str.slice(o+m.length)))return pos(a)+","+pos(b); /* 二・〇〇〇番: a printed dot used as a thousands mark */return pos(a)+"."+pos(b)});
+ t=t.replace(ADDR,(m,c,chain,o,str)=>{const b=str[o-1];if(isDig(b)||!((c||(b&&"町里洞目地通 ".includes(b)))&&(chain.includes("ノ")||c)))return m;
+  return (c?pos(c.slice(0,-2))+"丁目":"")+chain.split("ノ").map(pos).join("ノ")});
+ t=t.replace(new RegExp("第(["+D+"]+)(?=類)","g"),(m,d)=>"第"+pos(d));
+ t=t.replace(new RegExp("號の(["+D+"])(?:及(["+D+"]))?","g"),(m,x,y)=>"號の"+pos(x)+(y?"及"+pos(y):""));
+ return t.replace(RUN,(m,o,str)=>{const b=str[o-1]||"",a=str.slice(o+m.length),isTrad=/[十百千]/.test(m);
+  if(NAMEAFTER.test(a))return m;
+  if(/^[〇零]+$/.test(m))return m;                       // 〇 alone is a mark or a blank, not zero
+  const unit=POSUNIT.test(a);
+  if((b==="・"&&isDig(str[o-2]))||(a[0]==="・"&&isDig(a[1])))return m;     // 九・一八事變: a decimal point was refused above
+  if(m[0]==="〇"||m[0]==="零")return m;                  // (〇五四%): the point is not printed; do not guess
+  if(/^["一二三四五六七八九〇零十百千"]+\s/.test(str)&&o===0&&/^\s/.test(a))return m;   // "一〇 雜品": a list number, as its neighbours 九 etc.
+  if(m.length===1&&/^[—–－～][〇零一二三四五六七八九]{2,}/.test(a))return pos(m);  // 七—一四日
+  if((isTrad||m.length===1)&&/^番(?!線)/.test(a))return m;   // 二番狸毫, 五番目: a rank, stays in kanji like 一級 and 九等
+  if(isTrad||m.length===1)return full&&(unit||/^[—–－～][0-9〇零一二三四五六七八九十百千]/.test(a))&&!/^[十百千]{2,}/.test(m)?val(m):m;
+  if((b==="、"&&isDig(str[o-2]))||(a[0]==="、"&&isDig(a[1])))return m; // 二、三四、五年
+  if(a[0]==="迄"||/^[%％][一二三四五六七八九]/.test(a))return m;           // 一九%五 is 19.5%
+  if(unit)return pos(m);
+  if(/^[—–－～](?:明治|大正|昭和)?[〇零一二三四五六七八九]/.test(a))return pos(m); // 大正一〇—大正一四年
+  if(isK(a[0]))return m;                                 // 五四結庄, 三五公司: a number inside a name
+  if(b===" "||b==="　")return isK(str[o-2])?m:pos(m);     // 富永 一二 is a name
+  if(isK(b)&&!PREFIX.includes(b))return m;               // 富永一二, 四割三二
+  return pos(m)})}
+return conv})();
+
+const KNFULL=false;let NF="a";try{NF=localStorage.getItem("numform")||"a"}catch(e){}
+const kn=(s,q)=>NF==="a"?KN(s,KNFULL):s;
 const ORIG={"u": "https://archive.org/details/reportofdirector00toky", "l": "the Internet Archive"};
 const PTOC=[{"l": 1, "t": "I.—A Short History of the Cholera Disease in Japan", "p": "1", "u": "https://archive.org/details/reportofdirector00toky/page/n19/mode/1up"}, {"l": 1, "t": "II.—Report on the Prevalence of Choleraic Diseases in Japan during the 10th year of Meiji (1877)", "p": "7", "u": "https://archive.org/details/reportofdirector00toky/page/n25/mode/1up"}, {"l": 1, "t": "III.—Table showing the Number of Persons attacked by and who died of Cholera, in the different Fu and Ken of the Empire, during the last four months of the 10th year of Meiji (1877)", "p": "36", "u": "https://archive.org/details/reportofdirector00toky/page/n57/mode/1up", "k": [["p0057_1", "Table Showing the Number of Persons Attacked by and Who Died of Cholera, in the Different…"]]}, {"l": 1, "t": "IV.—Government Notifications", "p": "37", "u": "https://archive.org/details/reportofdirector00toky/page/n59/mode/1up"}];
 const PTK=PTOC.some(e=>e.k);let ptkOn=true;try{ptkOn=localStorage.getItem("ptocTables")!=="0"}catch(e){}
@@ -162,7 +214,7 @@ const $=s=>document.querySelector(s);
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const isNum=s=>/^[\s(]*[-—–]?[\d.,]+[)*%]*\s*$/.test(s)||/^[—–-]$/.test(s.trim())||s.trim()==="...";
 const warnRe=/not reconcile|unreadable|illegible|uncertain|could not|does not/i;
-T.forEach(t=>{t._text=fold([t.title,t.en&&t.en.t,t.en&&t.en.d,t.table_no,t.caption_extra,t.context,t.chapter,...(t.parts||[]).flatMap(p=>[p.label,...p.columns,...p.rows.flat()]),...(t.footnotes||[])].join(" ").toLowerCase());
+T.forEach(t=>{t._text=fold([t.title,t.en&&t.en.t,t.en&&t.en.d,t.table_no,t.caption_extra,t.context,t.chapter,...(t.parts||[]).flatMap(p=>[p.label,...p.columns,...p.rows.flat()]),...(t.parts||[]).flatMap(p=>[...p.columns,...p.rows.flat()]).filter(c=>typeof c==="string"&&KN(c,KNFULL)!==c).map(c=>KN(c,KNFULL)),...(t.footnotes||[])].join(" ").toLowerCase());
  t._warn=(t.transcriber_notes||[]).some(n=>warnRe.test(n));});
 const chapters=[...new Set(T.map(t=>t.chapter||"(no chapter)"))];
 chapters.forEach(c=>$("#ch").insertAdjacentHTML("beforeend",`<option value="${esc(c)}">${esc(c)}${CHEN[c]?" — "+esc(CHEN[c]):""}</option>`));
@@ -177,17 +229,23 @@ function csv(t){const L=[];(t.parts||[]).forEach(p=>{if(p.label)L.push([p.label]
  return L.map(r=>r.map(c=>/[",\n]/.test(c??"")?'"'+String(c).replace(/"/g,'""')+'"':(c??"")).join(",")).join("\n")}
 function hasChart(t){return CHARTIDS.has(t.id)&&window.TableCharts&&TableCharts.chartable(t)}
 function vsw(){return `<div class="vsw" role="group" aria-label="Show table, chart or both">${[["table","Table"],["chart","Chart"],["both","Both"]].map(([v,l])=>`<button type="button" data-vw="${v}" class="${VW===v?"on":""}">${l}</button>`).join("")}</div>`}
+function knHas(t){if(t._kn===undefined)t._kn=(t.parts||[]).some(p=>[...p.columns,...p.rows.flat()].some(c=>typeof c==="string"&&KN(c,KNFULL)!==c));return t._kn}
+function nsw(){return `<div class="vsw nsw" role="group" aria-label="Numerals" title="Kanji numerals are shown as Arabic numerals for reading; the data, the downloads and the CSV keep them as printed">${[["a","Arabic"],["p","As printed"]].map(([v,l])=>`<button type="button" data-nf="${v}" class="${NF===v?"on":""}">${l}</button>`).join("")}</div>`}
 function setVW(v){VW=v;try{localStorage.setItem("tview",v)}catch(e){}document.body.classList.remove("vw-table","vw-chart","vw-both");document.body.classList.add("vw-"+v);document.querySelectorAll(".vsw button").forEach(b=>b.classList.toggle("on",b.dataset.vw===v));chartsGo()}
 function chartsGo(){if(window.TableCharts)TableCharts.mountAll(document.getElementById("main"),id=>T.find(x=>x.id===id),{marked:MARKED})}
-document.addEventListener("click",e=>{const b=e.target.closest(".vsw button");if(b)setVW(b.dataset.vw)});
+// 1, 2, 3: Table, Chart, Both, on views that offer the choice (ignored while typing in a field)
+document.addEventListener("keydown",e=>{const v={"1":"table","2":"chart","3":"both"}[e.key];if(!v||e.altKey||e.ctrlKey||e.metaKey||e.repeat)return;
+ const ae=document.activeElement;if(ae&&(/INPUT|SELECT|TEXTAREA/.test(ae.tagName)||ae.isContentEditable))return;
+ if(document.querySelector(".vsw button[data-vw]"))setVW(v)});
+document.addEventListener("click",e=>{const n=e.target.closest(".nsw button");if(n){NF=n.dataset.nf;try{localStorage.setItem("numform",NF)}catch(x){}const m=$("#main"),y=m.scrollTop,w=scrollY;route();m.scrollTop=y;scrollTo(0,w);return}const b=e.target.closest(".vsw button");if(b)setVW(b.dataset.vw)});
 // Column headings flattened as "Upper — Lower" are drawn as a multi-row header: neighbouring columns with the same
 // upper heading share one cell spanning them, as printed. Display only: the column names themselves are unchanged.
 function wcls(c,n,w){return shortLab(c,n,w)?" nw":CJK.test(String(c??""))?" w6":""}
 function mapHref(u){const L="https://froginawell.net/reference/japanese-empire/",G="https://kmlawson.github.io/japanese-empire-student-map/";let o=null;try{o=new URLSearchParams(location.search).get("map")}catch(e){}const gh=o?o==="gh":/github\.io$/.test(location.hostname);return gh?u.replace(L,G):u}
 function shortLab(c,n,w){const s=String(c??"").trim();if(!s)return false;return CJK.test(s)?s.replace(/\s/g,"").length<=n:s.split(/\s+/).length<=w}
 function headHTML(cols,q){const L=cols.map(c=>{const x=String(c??"").split(" — ").filter(y=>y.trim());return x.length?x:[""]}),D=Math.max(1,...L.map(x=>x.length));
- const leaf=(c,j,rs)=>`<th class="sortable${wcls(L[j][L[j].length-1],6,2)}" data-col="${j}"${rs>1?` rowspan="${rs}"`:""} title="${esc(c)} — click to sort">${hl(L[j][L[j].length-1],q)}</th>`;
- if(D===1)return `<thead><tr>${cols.map((c,j)=>`<th class="sortable" data-col="${j}" title="Click to sort">${hl(c,q)}</th>`).join("")}</tr></thead>`;
+ const leaf=(c,j,rs)=>`<th class="sortable${wcls(L[j][L[j].length-1],6,2)}" data-col="${j}"${rs>1?` rowspan="${rs}"`:""} title="${esc(c)} — click to sort">${hl(kn(L[j][L[j].length-1]),q)}</th>`;
+ if(D===1)return `<thead><tr>${cols.map((c,j)=>`<th class="sortable" data-col="${j}" title="Click to sort">${hl(kn(c),q)}</th>`).join("")}</tr></thead>`;
  let h=`<thead class="ml">`;
  for(let r=0;r<D;r++){h+="<tr>";let j=0;
   while(j<L.length){const n=L[j].length;
@@ -195,16 +253,16 @@ function headHTML(cols,q){const L=cols.map(c=>{const x=String(c??"").split(" —
    if(r>n-1){j++;continue}
    const key=L[j].slice(0,r+1).join(" — ");let k=j+1;
    while(k<L.length&&L[k].length-1>r&&L[k].slice(0,r+1).join(" — ")===key)k++;
-   h+=`<th class="grp${wcls(L[j][r],6,2)}"${k-j>1?` colspan="${k-j}"`:""}>${hl(L[j][r],q)}</th>`;j=k}
+   h+=`<th class="grp${wcls(L[j][r],6,2)}"${k-j>1?` colspan="${k-j}"`:""}>${hl(kn(L[j][r]),q)}</th>`;j=k}
   h+="</tr>"}
  return h+"</thead>"}
-function tableHTML(t,q,other){const ch=!other&&hasChart(t);let h=`<section class="tbl${ch?" hasch":""}" id="t-${t.id}"><h2><a href="#${t.id}">${hl(label(t),q)}</a></h2>${!other?TableTags.render(TABLE_TAG_DATA[t.id],"../../"):""}${t.en?`<p class="en"><b>${hl(t.en.t,q)}</b>: ${hl(t.en.d,q)} <span class="enn">(Note: LLM translation)</span></p>`:""}<div class="sub">${esc(t.chapter||"")} · printed page${(t.printed_pages||[]).length>1?"s":""} ${esc((t.printed_pages||[]).join(", "))}${HIDEIMG?"":` · ${/^p\d/.test(t.image||"")?"scan leaf":"photo"} ${esc((t.images||[t.image]).join(", "))}`}</div>`+((ch||t.map)?`<div class="vrow">${ch?vsw():""}${t.map?`<a class="mapbtn" href="${esc(mapHref(t.map))}" target="_blank" rel="noopener" title="Opens the Japanese Empire map in a new tab, with this table's figures by prefecture">View as Map ↗</a>`:""}</div>`:"");
+function tableHTML(t,q,other){const ch=!other&&hasChart(t);let h=`<section class="tbl${ch?" hasch":""}" id="t-${t.id}"><h2><a href="#${t.id}">${hl(label(t),q)}</a></h2>${!other?TableTags.render(TABLE_TAG_DATA[t.id],"../../"):""}${t.en?`<p class="en"><b>${hl(t.en.t,q)}</b>: ${hl(t.en.d,q)} <span class="enn">(Note: LLM translation)</span></p>`:""}<div class="sub">${esc(t.chapter||"")} · printed page${(t.printed_pages||[]).length>1?"s":""} ${esc((t.printed_pages||[]).join(", "))}${HIDEIMG?"":` · ${/^p\d/.test(t.image||"")?"scan leaf":"photo"} ${esc((t.images||[t.image]).join(", "))}`}</div>`+((ch||t.map||knHas(t))?`<div class="vrow">${ch?vsw():""}${knHas(t)?nsw():""}${t.map?`<a class="mapbtn" href="${esc(mapHref(t.map))}" target="_blank" rel="noopener" title="Opens the Japanese Empire map in a new tab, with this table's figures by prefecture">View as Map ↗</a>`:""}</div>`:"");
  if(!other)h+=xlTable(t);
  if(t.caption_extra)h+=CJK.test(t.caption_extra)?`<div class="sub">${hl(t.caption_extra,q)}</div>`:`<div class="sub"><i>${hl(t.caption_extra,q)}</i></div>`;
  if(t.context)h+=`<p class="ctx"><b>Context.</b> ${hl(t.context,q)}</p>`;
  (t.parts||[]).forEach((p,pi)=>{if(p.label)h+=`<div class="part">${hl(p.label,q)}</div>`;
-  h+=`<div class="tw" data-p="${pi}"><table>${headHTML(p.columns,q)}<tbody>`;
-  p.rows.forEach((r,ri)=>{const sec=r.length>1&&r.slice(1).every(c=>c==="");h+=`<tr data-i="${ri}"${sec?(CJK.test(r[0])?' class="sec cjk"':' class="sec"'):""}>`+r.map((c,j)=>c==="[?]"?`<td class="illeg" title="Unreadable in the scan" aria-label="unreadable"></td>`:`<td class="${j&&isNum(c)?"num":""}${!j?wcls(c,12,3):""}${j&&c===""&&!sec&&!MARKED?" blank":""}"${j&&c===""&&!sec&&MARKED?' title="Blank in the original"':""}>${hl(c,q)}</td>`).join("")+"</tr>"});
+  h+=`<div class="tw" data-p="${pi}" tabindex="0"><table>${headHTML(p.columns,q)}<tbody>`;
+  p.rows.forEach((r,ri)=>{const sec=r.length>1&&r.slice(1).every(c=>c==="");h+=`<tr data-i="${ri}"${sec?(CJK.test(r[0])?' class="sec cjk"':' class="sec"'):""}>`+r.map((c,j)=>c==="[?]"?`<td class="illeg" title="Unreadable in the scan" aria-label="unreadable"></td>`:`<td class="${j&&isNum(kn(c))?"num":""}${!j?wcls(c,12,3):""}${j&&c===""&&!sec&&!MARKED?" blank":""}"${j&&c===""&&!sec&&MARKED?' title="Blank in the original"':""}>${hl(kn(c),q)}</td>`).join("")+"</tr>"});
   h+="</tbody></table></div>";if(ch)h+=`<div class="tchart" data-id="${esc(t.id)}" data-p="${pi}"></div>`});
  if((t.footnotes||[]).length){const fn=t.footnotes.map(n=>hl(n,q)),hit=fn.some(x=>x.includes("<mark>"));h+=`<details class="notes"${hit?" open":""}><summary>Printed notes (${fn.length})</summary><ul>${fn.map(x=>`<li>${x}</li>`).join("")}</ul></details>`;}
  if((t.transcriber_notes||[]).length)h+=`<details class="notes"><summary${t._warn?' class="warn"':""}>Transcriber's notes (${t.transcriber_notes.length})${t._warn?" — includes unreadable or doubtful cells":""}</summary><ul>${t.transcriber_notes.map(n=>`<li class="${warnRe.test(n)?"warn":""}">${esc(n)}</li>`).join("")}</ul></details>`;
@@ -290,12 +348,14 @@ function act(b,t){
  if(b.dataset.act==="dl"){const bl=new Blob(["﻿"+csv(t)],{type:"text/csv"});const a=document.createElement("a");a.href=URL.createObjectURL(bl);a.download=t.id+".csv";a.click()}
  else navigator.clipboard.writeText((t.parts||[]).map(p=>[p.columns,...p.rows].map(r=>r.join("\t")).join("\n")).join("\n\n"))}
 $("#list").addEventListener("click",e=>{const c=e.target.closest(".ch");if(!c)return;location.hash="ch="+encodeURIComponent(c.dataset.ch||c.textContent)});
-// Up/Down arrows: previous/next table in the sidebar list (ignored while typing in a field)
-document.addEventListener("keydown",e=>{if(e.key!=="ArrowDown"&&e.key!=="ArrowUp")return;if(e.altKey||e.ctrlKey||e.metaKey)return;
- const tag=(document.activeElement&&document.activeElement.tagName)||"";if(/INPUT|SELECT|TEXTAREA/.test(tag))return;
+// Arrow keys: previous/next table in the sidebar list (ignored while typing in a field). With the focus in a table that
+// scrolls on that key's axis, the key scrolls the table instead; a table that fits has nothing to scroll, so it browses.
+document.addEventListener("keydown",e=>{if(!["ArrowDown","ArrowUp","ArrowLeft","ArrowRight"].includes(e.key))return;if(e.altKey||e.ctrlKey||e.metaKey)return;
+ const ae=document.activeElement,tag=(ae&&ae.tagName)||"";if(/INPUT|SELECT|TEXTAREA/.test(tag))return;
+ const tw=ae&&ae.closest&&ae.closest(".tw");if(tw&&(/Left|Right/.test(e.key)?tw.scrollWidth>tw.clientWidth:tw.scrollHeight>tw.clientHeight))return;
  const links=[...document.querySelectorAll("#list a[href^='#']")];if(!links.length)return;
  document.body.classList.add("kbd");
- let i=links.findIndex(a=>a.classList.contains("on"));const down=e.key==="ArrowDown";
+ let i=links.findIndex(a=>a.classList.contains("on"));const down=e.key==="ArrowDown"||e.key==="ArrowRight";
  const ch=$("#ch").value;
  // at either end of a chapter's list, step into the next/previous chapter
  if(ch&&i>-1&&((down&&i===links.length-1)||(!down&&i===0))){
