@@ -96,6 +96,10 @@ abandoned after 12 of 50 missions with about 68% of cells blank (5068 px per spr
    version (`blind/*.first.json`) and note every change in the table. (c) Books with many `[?]` (faint print):
    a re-read pass over the `[?]` cells only (`REREAD_TASK.md`).
 7. **Normalise** chapter names (one per printed chapter, numbered as printed), titles, duplicate files.
+   **Assign chapters by the table's first printed page, never by its scan frame** (user, 2026-11-05): on a two-page
+   spread a chapter can begin on the right page, and every table on the left page then lands in the wrong chapter
+   (日本都市年鑑 1931/1936/1941 and Railways 1931, 20 tables). Where a table sits on the very page a chapter starts,
+   decide by its subject and table number: in the 南洋廳統計年鑑 the previous chapter often runs on to that page.
 8. **English layer for every Japanese, Chinese and Korean book — REQUIRED before publishing** (user, 2026-11-03,
    after 日本都市年鑑 1931 went out without it): `build/translations/<slug>.json` with
    `"_chapters"` (English chapter names) and per table `{"t": English title, "d": one-sentence description}`,
