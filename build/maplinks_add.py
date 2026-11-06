@@ -21,13 +21,13 @@ import maplinks as M  # noqa: E402
 
 TOTAL = re.compile(r"^(total|grand total|totals|whole (country|empire)|empire|all japan|japan proper|sum|"
                    r"計|合計|總計|総計|全國|全国|總數|総数|帝國|帝国|內地|内地)\b", re.I)
-RATE = re.compile(r"per\b|%|percent|per cent|ratio|rate|average|mean|density|毎|千ニ付|千に付|比率|割合|平均|百分|歩合", re.I)
+RATE = re.compile(r"per\b|%|percent|per cent|ratio|rate|average|mean|density|毎|ニ付|に付|當リ|當り|当り|當收|率|割合|平均|百分|歩合", re.I)
 INDEX = re.compile(r"\bindex\b|指數|指数", re.I)
 AMOUNT = re.compile(r"\byen\b|圓|円|value|amount|cost|expend|revenue|income|價額|金額|錢|銭|£|\$", re.I)
 MIN_PREF = 30
 TYPO = {"nngasaki": "42", "niye": "24", "osakafu": "27"}   # misprints or misreadings, pinned with row_ids
 POP = re.compile(r"population|inhabitants|人口", re.I)
-AREA = re.compile(r"\barea\b|sq\.|square|chobu|chō|町歩|面積|ri\b", re.I)
+AREA = re.compile(r"\barea\b|sq\.|square|chobu|chō|町歩|面積|ri\b|[(（](町|反|坪|陌|方里|ヘクタール)[)）]", re.I)
 YEAR = re.compile(r"^\s*(1[89]\d\d)\b")
 BLOCK = re.compile(r"\s*[—–]\s*(left|right|middle|first|second|third|fourth) block\s*$", re.I)
 
@@ -69,11 +69,31 @@ def table(book, tid):
 
 
 def year_of(book, t):
+    e = era_year(" ".join([t.get("title") or "", t.get("caption_extra") or ""]))
+    if e:
+        return e
     ys = [int(y) for y in re.findall(r"\b(1[89]\d\d)\b", " ".join([t.get("title") or "", t.get("caption_extra") or ""]))]
     if ys:
         return str(max(ys))
     m = re.search(r"(1[89]\d\d)", book)
     return m.group(1) if m else None
+
+
+KN = {"〇": 0, "一": 1, "二": 2, "三": 3, "四": 4, "五": 5, "六": 6, "七": 7, "八": 8, "九": 9}
+
+
+def era_year(label):
+    """The year in a part label such as "地方別 (昭和八年)" or "府縣別 (昭和13年)", or None."""
+    m = re.search(r"(明治|大正|昭和)\s*([〇一二三四五六七八九十]+|\d+)\s*年", str(label or ""))
+    if not m:
+        return None
+    n = m.group(2)
+    if not n.isdigit():
+        v = 0
+        for ch in n:
+            v = (v or 1) * 10 if ch == "十" else v - v % 10 + KN[ch] if v % 10 == 0 and v >= 10 else v * 10 + KN[ch]
+        n = v
+    return str({"明治": 1867, "大正": 1911, "昭和": 1925}[m.group(1)] + int(n))
 
 
 def entry(book, tid):
@@ -99,7 +119,9 @@ def entry_for(book, tid, t, pi, lc, n, only=None):
         return None, "a table of cities (its names overlap the prefectures'); the map link sends prefectures only"
     ids = [place(r[lc]) if len(r) > lc else None for r in p["rows"]]
     from collections import Counter
-    if sum(1 for v in Counter(i for i in ids if i).values() if v > 1) >= 3:
+    rep = Counter(i for i in ids if i)
+    ids = [None if i and not i.isdigit() and rep[i] > 1 else i for i in ids]   # 朝鮮 — 小學校 / 普通學校: sub-rows, not the colony
+    if sum(1 for k, v in Counter(i for i in ids if i).items() if v > 1) >= 3:
         return None, "prefectures repeat (sub-rows, e.g. port and rest of prefecture)"
     rows = [r for r, i in zip(p["rows"], ids) if i]
     cols, meta = [], {}
@@ -111,9 +133,10 @@ def entry_for(book, tid, t, pi, lc, n, only=None):
         if vals and nums >= 0.5 * len(vals):
             cols.append(j)
             name = str(c)
-            title_rate = bool(RATE.search((t.get("title") or "") + " " + (t.get("caption_extra") or "")))
+            title_rate = bool(RATE.search(t.get("title") or ""))
+            yen = bool(re.search(r"Unit: ?(円|圓)|單位[^)）]*(円|圓)|歳出|歳入|豫算|決算", (t.get("title") or "") + " " + (t.get("caption_extra") or "")))
             kind = ("rate" if RATE.search(name) or title_rate else "index" if INDEX.search(name)
-                    else "amount" if AMOUNT.search(name) else "other" if AREA.search(name) else "count")
+                    else "amount" if AMOUNT.search(name) or yen else "other" if AREA.search(name) else "count")
             pc = kind == "count" and not POP.search(name)
             meta[str(j)] = {"unit": "", "kind": kind, "pc": pc, "color": "seq"}
     if not cols:
@@ -125,7 +148,7 @@ def entry_for(book, tid, t, pi, lc, n, only=None):
             break
     row_ids = {str(ri): i for ri, (r, i) in enumerate(zip(p["rows"], ids))
                if i and len(r) > lc and not M.match_place(str(r[lc]))}
-    y = year_of(book, t)
+    y = era_year(p.get("label")) or year_of(book, t)
     years = [int(YEAR.match(str(p["columns"][j])).group(1)) if YEAR.match(str(p["columns"][j])) else None for j in cols]
     default = years.index(max(y for y in years if y)) if all(years) and len(cols) > 1 else 0
     en = {str(j): BLOCK.sub("", str(p["columns"][j])) for j in cols if BLOCK.search(str(p["columns"][j]))}

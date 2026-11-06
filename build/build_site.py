@@ -2319,7 +2319,13 @@ def landing(cards):
                 + (f', and {de:,} directory entr{"ies" if de != 1 else "y"}' if de else "") + "</p>")
     grids = "".join(f'<section class="grp" id="{g}"><h2 class="grph"><button class="gtog" type="button" aria-expanded="true" title="Collapse or expand this section"><span class="tri" aria-hidden="true">▾</span>{names[g]}</button></h2>{gstat(g)}<div class="grid">{body[g]}</div></section>'
                     for g in ("japan", "china", "korea", "taiwan", "manchuria", "south-seas", "other") if body[g])
-    return LANDING.replace("__CARDS__", "__TOPICMENU__" + grids)
+    # a floating stack, shown once the reader has scrolled: back to the top, then one letter per section, in the page's
+    # order (the China/Japan coin-flip below swaps C and J along with the sections)
+    letter = {"japan": "J", "china": "C", "korea": "K", "taiwan": "T", "manchuria": "M", "south-seas": "S", "other": "O"}
+    fab = ('<nav id="fab" aria-label="Jump to a section"><a href="#top" class="up" title="Back to the top" aria-label="Back to the top">↑</a>'
+           + "".join(f'<a href="#{g}" id="f-{g}" title="{names[g]}">{letter[g]}</a>'
+                     for g in ("japan", "china", "korea", "taiwan", "manchuria", "south-seas", "other") if body[g]) + "</nav>")
+    return LANDING.replace("__CARDS__", "__TOPICMENU__" + grids + fab)
 
 
 LANDING = r"""<!DOCTYPE html>
@@ -2350,7 +2356,7 @@ footer{margin-top:24px;font-size:13px;color:var(--muted);border-top:1px solid va
 .tools{margin-left:auto;display:inline-flex;align-items:center;gap:6px;font-size:13px;color:var(--accent-ink);opacity:.8}.tools:hover{opacity:1}.tools .lbl{font-size:12px;text-transform:uppercase;letter-spacing:.06em}.seg{display:inline-flex;border:1px solid currentColor;border-radius:999px;overflow:hidden}.viewbtn{font:inherit;font-size:13px;background:transparent;color:inherit;border:0;padding:4px 12px;cursor:pointer;white-space:nowrap}.viewbtn+.viewbtn{border-left:1px solid currentColor}.viewbtn:hover{background:rgba(127,127,127,.15)}#sortseg .viewbtn[aria-pressed="true"]{background:var(--accent-ink);color:var(--accent);font-weight:600}.tools{flex-wrap:wrap}
 body.list .grid{display:block;margin-top:8px}body.list article{flex-direction:row;align-items:center;gap:12px;padding:5px 10px;border:0;border-bottom:1px solid var(--line);border-left:3px solid var(--accent)}
 body.list article+article{margin-top:0}body.list article h2{font-size:16px;margin:0;flex:1;min-width:0}body.list .pub,body.list .stat,body.list .src,body.list .qstat{display:none}
-.scango{display:none!important}body.list .scango{display:inline-block!important;background:#cfe6d5;color:#1f4a2c}:root[data-theme="dark"] body.list .scango{background:#2f5a3d;color:#e4ebe6}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) body.list .scango{background:#2f5a3d;color:#e4ebe6}}body.list .links{margin:0;flex-wrap:nowrap;gap:5px}body.list .dirgo{padding:1px 8px;font-size:12.5px;font-weight:normal;white-space:nowrap}
+#fab{position:fixed;right:14px;bottom:14px;z-index:20;display:flex;flex-direction:column;gap:3px;opacity:0;pointer-events:none;transition:opacity .2s}#fab.on{opacity:1;pointer-events:auto}#fab a{display:flex;align-items:center;justify-content:center;width:30px;height:26px;border-radius:5px;background:var(--panel);color:var(--accent);border:1px solid var(--line);font:bold 13px/1 system-ui,sans-serif;text-decoration:none;box-shadow:0 1px 3px rgba(0,0,0,.15)}#fab a:hover{background:var(--accent);color:var(--accent-ink)}#fab a.up{height:30px;font-size:16px;margin-bottom:3px;background:var(--accent);color:var(--accent-ink)}@media print{#fab{display:none}}.scango{display:none!important}body.list .scango{display:inline-block!important;background:#cfe6d5;color:#1f4a2c}:root[data-theme="dark"] body.list .scango{background:#2f5a3d;color:#e4ebe6}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) body.list .scango{background:#2f5a3d;color:#e4ebe6}}body.list .links{margin:0;flex-wrap:nowrap;gap:5px}body.list .dirgo{padding:1px 8px;font-size:12.5px;font-weight:normal;white-space:nowrap}
 @media(max-width:560px){body.list article{flex-wrap:wrap;gap:4px}body.list article h2{flex-basis:100%}body.list .links{flex-wrap:wrap}.tools{margin-left:0}}
 </style></head><body><div class="band"><div>
 <h1>Old Year Book Tables of East Asia</h1>
@@ -2372,9 +2378,12 @@ let l=false;try{l=localStorage.getItem("homeview")==="list"}catch(e){}set(l);b.o
 function set(g,shut){g.classList.toggle("shut",shut);g.querySelector(".gtog").setAttribute("aria-expanded",!shut);if(shut)s[g.id]=1;else delete s[g.id];try{localStorage.setItem("homeshut",JSON.stringify(s))}catch(e){}}
 document.querySelectorAll("#groups .grp").forEach(g=>{if(s[g.id])set(g,true);g.querySelector(".gtog").onclick=()=>set(g,!g.classList.contains("shut"))});
 function open(){const g=location.hash&&document.getElementById(location.hash.slice(1));if(g&&g.classList.contains("shut"))set(g,false)}
-document.getElementById("jump").addEventListener("click",e=>{const a=e.target.closest("a");if(a){const g=document.getElementById(a.getAttribute("href").slice(1));if(g&&g.classList.contains("shut"))set(g,false)}});open()})();</script>
+["jump","fab"].forEach(id=>document.getElementById(id)&&document.getElementById(id).addEventListener("click",e=>{const a=e.target.closest("a");if(a){const g=document.getElementById(a.getAttribute("href").slice(1));if(g&&g.classList.contains("shut"))set(g,false)}}));open()})();</script>
 <script>if(Math.random()<.5){const g=document.getElementById("groups");g.insertBefore(document.getElementById("china"),document.getElementById("japan"));
-const n=document.getElementById("jump");n.insertBefore(document.getElementById("j-china"),document.getElementById("j-japan"))}</script>
+const n=document.getElementById("jump");n.insertBefore(document.getElementById("j-china"),document.getElementById("j-japan"));
+const f=document.getElementById("fab");if(f)f.insertBefore(document.getElementById("f-china"),document.getElementById("f-japan"))}</script>
+<script>(function(){const f=document.getElementById("fab");if(!f)return;const t=()=>f.classList.toggle("on",scrollY>window.innerHeight*.6);addEventListener("scroll",t,{passive:true});t();
+f.querySelector(".up").addEventListener("click",e=>{e.preventDefault();scrollTo({top:0,behavior:"smooth"});history.replaceState(null,"",location.pathname+location.search)})})();</script>
 <div class="llmwarn" role="note"><b>Warning:</b> These tables were transcribed by the vision models of Opus 5.5, Sonnet 5.5, or Haiku 5.5 (named on each book's page). Before using any of these figures, you must verify specific statistics with the original source which is linked to whenever possible.</div>
 <script>document.addEventListener("click",e=>{const b=e.target.closest("[data-about]");if(b){document.getElementById(b.dataset.about).showModal();return}
 if(e.target.tagName==="DIALOG")e.target.close()});</script>

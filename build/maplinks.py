@@ -20,13 +20,14 @@ VARCH = str.maketrans({"縣": "県", "廣": "広", "靜": "静", "德": "徳", "
                        "關": "関", "廳": "庁", "櫔": "栃", "杤": "栃"})
 
 
-MARKS = re.compile(r"[*＊※†‡]|\s*[(（]\s*\d+\s*[)）]\s*$|[.。]+$")
+MARKS = re.compile(r"[*＊※†‡△▲×○◎]|\s*[(（]\s*\d+\s*[)）]\s*$|[.。]+$")
 
 
 def _fold(s):
     s = unicodedata.normalize("NFKC", str(s)).strip()
     s = "".join(c for c in unicodedata.normalize("NFKD", s) if not unicodedata.combining(c))   # Tōkyō -> Tokyo
     s = MARKS.sub("", MARKS.sub("", s)).strip().translate(VARCH).lower()
+    s = re.sub(r"^\d{1,2}\s+(?=\D)", "", s)   # a numbered row: "1 北海道" (統計年鑑)
     for _ in range(2):
         s = SUFFIX.sub("", s).strip()
     return re.sub(r"\s+", "", s)
@@ -202,6 +203,19 @@ def build_payload(book, t, tr, cfg):
             vals = [value(r[j]) if j < len(r) else "" for j in ouse]
             if pid and not any(x["id"] == pid for x in rows):
                 rows.append({"id": pid, "label": label, "row": ri, "table": ex["table"], "v": vals})
+    # "1.396" among whole numbers in a count column: a thousands point as printed (1,396), not a decimal. Sent as
+    # the printed text, which the map shows without colouring, rather than as 1.4.
+    for k, j in enumerate(use):
+        if meta.get(str(j), {}).get("kind", "count") not in ("count", "amount"):
+            continue
+        col = [x["v"][k] for x in rows]
+        if sum(isinstance(v, int) for v in col) >= 0.8 * len(col):
+            for x in rows:
+                v = x["v"][k]
+                if isinstance(v, float):
+                    raw = "" if x.get("table") else str(part["rows"][x["row"]][j])   # rows of this part only
+                    if re.fullmatch(r"\d{1,3}\.\d{3}", raw.strip()):
+                        x["v"][k] = raw.strip()
     if cfg.get("total_row") is not None and total and cfg.get("check_total", True):
         for k in range(len(use)):
             nums = [x["v"][k] for x in rows]
