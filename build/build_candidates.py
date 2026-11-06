@@ -455,9 +455,12 @@ REGIONS = [
     ("korea", "Korea", ("korea",)),
     ("taiwan", "Taiwan", ("taiwan-shu", "taiwan-gun")),
     ("south-seas", "South Seas", ("mandate",)),
+    ("manchuria", "Manchuria", ("manchukuo",)),
+    ("other", "Other volumes", ("prefectures",)),
 ]
 PRIMARY_NAME = {"prefectures": "Prefecture map", "china": "Chinese provinces", "korea": "Korean provinces (道)",
-                "taiwan-shu": "Taiwanese prefectures and districts", "mandate": "South Seas groups (支廳)"}
+                "taiwan-shu": "Taiwanese prefectures and districts", "mandate": "South Seas groups (支廳)",
+                "manchukuo": "Manchukuo provinces (省)"}
 
 
 def group_of(b):
@@ -576,7 +579,7 @@ KINDS = [
 
 
 def kinds_for(region, primary):
-    if region == "japan":
+    if primary == ("prefectures",):
         return [("primary", "prefectures", "1. Prefecture map",
                  "Thirty or more of the 47 prefectures down the first column or across the headings. "
                  "These are what the tables site's <em>Show on map</em> link already sends."),
@@ -589,7 +592,9 @@ def kinds_for(region, primary):
     need = " or ".join("%d of the %s" % (SETS[p][0], SETS[p][1]) for p in primary)
     return [("primary", primary[0], "1. " + PRIMARY_NAME[primary[0]],
              "Tables naming at least %s the map draws before 1945, down the first column or across the "
-             "headings, in any state. The map has these units; the link does not send them yet." % need),
+             "headings, in any state. The map has these units; the link does not send them yet." % need
+             + (" <b>Listed for reference only: Taiwan's prefectures were redrawn too often, so these tables are not "
+                "linked.</b>" if region == "taiwan" else "")),
             ("pref", "prefectures", "2. Japanese prefectures",
              "Thirty or more of the 47 prefectures: these the link can send now."),
             ("city", "cities", "3. Data attached to cities",
@@ -644,7 +649,8 @@ def section(found, seen_books, site, region="japan", rname="Japan", primary=("pr
         order = [b for b, _ in seen_books if b["slug"] in groups]
         for b in order:
             rows = groups[b["slug"]]
-            out.append('<details class="book"><summary><span class="bt" lang="ja">%s</span>'
+            out.append('<details class="book"><summary><input type="checkbox" class="pickall" title="Choose every table shown in this volume"'
+                       ' aria-label="Choose every table shown in this volume"> <span class="bt" lang="ja">%s</span>'
                        ' <span class="slug">%s</span> <span class="n">%d</span></summary>'
                        % (esc(b.get("title")), esc(b["slug"]), len(rows)))
             out.append('<table><thead><tr><th>Table</th><th>Title</th><th>Matched</th>'
@@ -770,8 +776,26 @@ PICKER = """
     b.checked = !!picks[b.dataset.u];
     b.addEventListener('change', function () { if (b.checked) picks[b.dataset.u] = b.dataset.t; else delete picks[b.dataset.u]; save(); count(); });
   });
+  // A volume's box chooses (or clears) every table now shown in it: the filter and "good only" hide rows, and a
+  // hidden row is left as it is. Its tick says whether every shown table is chosen.
+  function shown(d) { return Array.prototype.filter.call(d.querySelectorAll('input.pick'), function (b) { return !b.closest('tr').classList.contains('hide'); }); }
+  function sync(d) { var s = shown(d), a = d.querySelector('input.pickall'); if (!a) return;
+    var n = s.filter(function (b) { return b.checked; }).length; a.checked = s.length > 0 && n === s.length; a.indeterminate = n > 0 && n < s.length; }
+  function syncAll() { document.querySelectorAll('details.book').forEach(sync); }
+  document.querySelectorAll('details.book > summary').forEach(function (sm) {
+    sm.addEventListener('click', function (e) {
+      var a = e.target.closest('input.pickall'); if (!a) return;
+      e.preventDefault();                      // a click in the summary would open or close the volume
+      var d = sm.parentNode, s = shown(d), on = !s.every(function (b) { return b.checked; });
+      s.forEach(function (b) { b.checked = on; if (on) picks[b.dataset.u] = b.dataset.t; else delete picks[b.dataset.u]; });
+      save(); count(); setTimeout(function () { sync(d); }, 0);   // after the browser undoes the cancelled click
+    });
+  });
+  boxes.forEach(function (b) { b.addEventListener('change', function () { sync(b.closest('details.book')); }); });
+  document.querySelectorAll('.filters input').forEach(function (i) { i.addEventListener(i.type === 'checkbox' ? 'change' : 'input', function () { setTimeout(syncAll, 0); }); });
+  syncAll();
   count();
-  document.getElementById('pickclear').onclick = function () { picks = {}; boxes.forEach(function (b) { b.checked = false; }); save(); count(); };
+  document.getElementById('pickclear').onclick = function () { picks = {}; boxes.forEach(function (b) { b.checked = false; }); save(); count(); syncAll(); };
   document.getElementById('pickcopy').onclick = function () {
     var us = Object.keys(picks);
     if (!us.length) { alert('No tables chosen.'); return; }
