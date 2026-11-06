@@ -95,6 +95,24 @@ BOOKS = [
      "gaps": "Every page was surveyed on contact sheets and the 122 pages with tables were read once by GPT-6.1-Sol (low reasoning effort) from 360-dpi crops; the six tables printed sideways were turned upright before reading. All 106 numbered tables and 28 unnumbered ones are transcribed; the running text (most of the book) is not. Nothing was checked by eye apart from spot checks; unreadable figures are marked [?]. The scan appears to lack printed page 294.",
      "scan": "https://archive.org/details/in.ernet.dli.2015.229044/page/n{leaf}/mode/1up",
      "item": "https://archive.org/details/in.ernet.dli.2015.229044", "blank_marking": True},
+    {"slug": "japan-ussbs-urban-economy-1947", "dir": "USSBS_Urban_Economy_1947", "model": "Gemini 4 Argon and Gemini 3.8 Flash (agy)",
+     "title": "The Effects of Air Attack on Japanese Urban Economy 1947",
+     "subtitle": "United States Strategic Bombing Survey, Urban Areas Division — Summary Report",
+     "publisher": "United States Strategic Bombing Survey, Washington, March 1947",
+     "blurb": "The Strategic Bombing Survey's summary of how the air attack affected the economy of Japan's cities: the concentration of industry in the urban areas, production in plants hit and not hit, the loss of labour time and of productive hours, the decline of output in individual industries and cities, and pre-raid and post-raid data for the bombed urban areas. Its 30 tables give figures by industry and by city, mostly for 1944 and 1945.",
+     "source": "LLM-transcribed (Google Gemini 4 Argon and Gemini 3.8 Flash via the Antigravity CLI) from the Internet Archive scan.",
+     "gaps": "Every page was surveyed on contact sheets by Claude Sonnet, and the pages with tables were read once: by Gemini 4 Argon (low) where the tables are dense or printed sideways, by Gemini 3.8 Flash otherwise. The seven sideways pages were turned upright before reading. All 30 numbered tables and 3 unnumbered ones are transcribed; the running text and the graphs are not. Nothing was checked by eye apart from spot checks; unreadable figures are marked [?].",
+     "scan": "https://archive.org/details/effectsofairatta55unit/page/n{leaf}/mode/1up",
+     "item": "https://archive.org/details/effectsofairatta55unit", "blank_marking": True},
+    {"slug": "japan-military-industries-1922", "dir": "Military_Industries_Japan_1922", "model": "Gemini 4 Argon and Gemini 3.8 Flash (agy)",
+     "title": "Military Industries of Japan 1922",
+     "subtitle": "Ushisaburō Kobayashi — Japanese Monographs, ed. Baron Y. Sakatani; Carnegie Endowment for International Peace, Division of Economics and History",
+     "publisher": "Oxford University Press, American Branch, New York, 1922",
+     "blurb": "A Carnegie Endowment monograph on Japan's military industries from the Tokugawa period to about 1920: the historical survey of the army and navy arsenals, dockyards and military factories before and after the Russo-Japanese War, their organisation, output, workers and wages, and the economic effects of military industry on Japanese industry and finance. Its tables, most of them small ones set in the text, give arsenal capital, expenditure and revenue, production of arms, munitions, cloth and ships, workmen and wages, and imports of metals.",
+     "source": "LLM-transcribed (Google Gemini 4 Argon and Gemini 3.8 Flash via the Antigravity CLI) from the Internet Archive scan.",
+     "gaps": "Every page was surveyed on contact sheets by Claude Sonnet, and the pages with tables were read once: by Gemini 4 Argon (low) where the tables are dense or printed sideways, by Gemini 3.8 Flash otherwise. The eleven sideways pages were turned upright before reading. The book does not number its tables; all 82 are transcribed (sub-tables printed under one heading are parts of one table). The running text is not transcribed. Nothing was checked by eye apart from spot checks; unreadable figures are marked [?].",
+     "scan": "https://archive.org/details/militaryindustri0000ushi/page/n{leaf}/mode/1up",
+     "item": "https://archive.org/details/militaryindustri0000ushi", "blank_marking": True},
     {"slug": "japan-ussbs-war-economy-1946", "dir": "USSBS_War_Economy_1946", "model": "Gemini 4 Argon, Gemini 3.8 Flash (agy) and GPT-6-Astra (Codex)",
      "title": "The Effects of Strategic Bombing on Japan's War Economy 1946",
      "subtitle": "United States Strategic Bombing Survey, Over-all Economic Effects Division — with Appendixes A, B, C",
@@ -1721,6 +1739,7 @@ def add_maplinks(book, tables):
     M, cfg = add_maplinks.mod, add_maplinks.cfg
     if not any(c.get("book") == book["slug"] for c in cfg.get("tables", [])):
         return
+    M.BOOK_TABLES = {x["id"]: x for x in tables}
     book["_year"] = edition(book)
     for t in tables:
         u = M.map_url(book, t, t.get("en"), cfg)

@@ -33,6 +33,7 @@ def _fold(s):
 
 
 _INDEX = None
+BOOK_TABLES = {}   # id -> table of the book being built, for "also" (set by build_site.add_maplinks)
 
 
 def place_index():
@@ -102,6 +103,22 @@ def build_payload(book, t, tr, cfg):
             total = {"label": label, "row": ri, "v": vals}
         elif label and any(v not in ("", "-") for v in vals):
             unmatched.append(label)
+    # A table printed over two pages and stored as two records: "also" names the other half(s), whose rows
+    # (same part, label column and column positions) join the first's. BOOK_TABLES is set by build_site.
+    for ex in cfg.get("also", []):
+        ot = BOOK_TABLES.get(ex["table"])
+        if not ot:
+            print(f"maplinks: {book['slug']}:{t['id']} also-table {ex['table']} not found")
+            continue
+        olab = ex.get("label_col", lab)
+        ouse = ex.get("columns") or use   # a block printed beside the first: its own columns, in the same order
+        for ri, r in enumerate(ot["parts"][ex.get("part", 0)]["rows"]):
+            label = str(r[olab]).strip() if len(r) > olab else ""
+            pid = ex.get("row_ids", {}).get(str(ri)) or match_place(label) or (
+                match_place(re.split(r"\s*[—–]\s*", label)[0]) if re.search(r"[—–]", label) else None)
+            vals = [value(r[j]) if j < len(r) else "" for j in ouse]
+            if pid and not any(x["id"] == pid for x in rows):
+                rows.append({"id": pid, "label": label, "row": ri, "table": ex["table"], "v": vals})
     if cfg.get("total_row") is not None and total and cfg.get("check_total", True):
         for k in range(len(use)):
             nums = [x["v"][k] for x in rows]

@@ -6,33 +6,5589 @@
    "table": "p0110_1",
    "part": 0,
    "label_col": 0,
-   "columns": [1],
+   "columns": [
+    1
+   ],
    "default": 0,
    "total_row": 0,
    "date": "1935-12-31",
    "period": "1930",
-   "en_columns": {"1": "Geisha (persons)"},
-   "col_meta": {"1": {"unit": "人", "kind": "count", "pc": true, "color": "seq"}},
-   "notes": ["Geisha licensed in the Tokyo Metropolitan Police district, by prefecture of registered domicile (本籍). Rows for 朝鮮 and 樺太 are included; one row for 露西亞 (Russia, 2 persons) is not mapped."]
+   "en_columns": {
+    "1": "Geisha (persons)"
+   },
+   "col_meta": {
+    "1": {
+     "unit": "人",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    }
+   },
+   "notes": [
+    "Geisha licensed in the Tokyo Metropolitan Police district, by prefecture of registered domicile (本籍). Rows for 朝鮮 and 樺太 are included; one row for 露西亞 (Russia, 2 persons) is not mapped."
+   ]
   },
   {
    "book": "japan-kaji-1939",
    "table": "p0105_1",
    "part": 0,
    "label_col": 0,
-   "columns": [1, 2, 3, 4],
+   "columns": [
+    1,
+    2,
+    3,
+    4
+   ],
    "default": 0,
    "total_row": 47,
    "date": "1937",
    "period": "1942",
-   "en_columns": {"1": "Births", "2": "Stillbirths", "3": "Deaths", "4": "Natural increase"},
-   "col_meta": {
-    "1": {"unit": "per 1,000 population (人口千に付)", "kind": "rate", "pc": false, "color": "seq"},
-    "2": {"unit": "per 1,000 population (人口千に付)", "kind": "rate", "pc": false, "color": "seq"},
-    "3": {"unit": "per 1,000 population (人口千に付)", "kind": "rate", "pc": false, "color": "seq"},
-    "4": {"unit": "per 1,000 population (人口千に付)", "kind": "rate", "pc": false, "color": "seq"}
+   "en_columns": {
+    "1": "Births",
+    "2": "Stillbirths",
+    "3": "Deaths",
+    "4": "Natural increase"
    },
-   "notes": ["Rates per 1,000 population for 1937; the 計 row is the national rate, not a sum of the prefectures."],
+   "col_meta": {
+    "1": {
+     "unit": "per 1,000 population (人口千に付)",
+     "kind": "rate",
+     "pc": false,
+     "color": "seq"
+    },
+    "2": {
+     "unit": "per 1,000 population (人口千に付)",
+     "kind": "rate",
+     "pc": false,
+     "color": "seq"
+    },
+    "3": {
+     "unit": "per 1,000 population (人口千に付)",
+     "kind": "rate",
+     "pc": false,
+     "color": "seq"
+    },
+    "4": {
+     "unit": "per 1,000 population (人口千に付)",
+     "kind": "rate",
+     "pc": false,
+     "color": "seq"
+    }
+   },
+   "notes": [
+    "Rates per 1,000 population for 1937; the 計 row is the national rate, not a sum of the prefectures."
+   ],
+   "check_total": false
+  },
+  {
+   "book": "japan-sanitary-1907-08",
+   "table": "p0146_1",
+   "part": 0,
+   "label_col": 0,
+   "columns": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   "default": 9,
+   "total_row": null,
+   "date": "1907",
+   "period": "1930",
+   "col_meta": {
+    "1": {
+     "unit": "",
+     "kind": "rate",
+     "pc": false,
+     "color": "seq"
+    },
+    "2": {
+     "unit": "",
+     "kind": "rate",
+     "pc": false,
+     "color": "seq"
+    },
+    "3": {
+     "unit": "",
+     "kind": "rate",
+     "pc": false,
+     "color": "seq"
+    },
+    "4": {
+     "unit": "",
+     "kind": "rate",
+     "pc": false,
+     "color": "seq"
+    },
+    "5": {
+     "unit": "",
+     "kind": "rate",
+     "pc": false,
+     "color": "seq"
+    },
+    "6": {
+     "unit": "",
+     "kind": "rate",
+     "pc": false,
+     "color": "seq"
+    },
+    "7": {
+     "unit": "",
+     "kind": "rate",
+     "pc": false,
+     "color": "seq"
+    },
+    "8": {
+     "unit": "",
+     "kind": "rate",
+     "pc": false,
+     "color": "seq"
+    },
+    "9": {
+     "unit": "",
+     "kind": "rate",
+     "pc": false,
+     "color": "seq"
+    },
+    "10": {
+     "unit": "",
+     "kind": "rate",
+     "pc": false,
+     "color": "seq"
+    }
+   },
+   "check_total": false
+  },
+  {
+   "book": "japan-sanitary-1907-08",
+   "table": "p0154_1",
+   "part": 0,
+   "label_col": 0,
+   "columns": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    13,
+    14
+   ],
+   "default": 0,
+   "total_row": null,
+   "date": "1907",
+   "period": "1930",
+   "col_meta": {
+    "1": {
+     "unit": "",
+     "kind": "rate",
+     "pc": false,
+     "color": "seq"
+    },
+    "2": {
+     "unit": "",
+     "kind": "rate",
+     "pc": false,
+     "color": "seq"
+    },
+    "3": {
+     "unit": "",
+     "kind": "rate",
+     "pc": false,
+     "color": "seq"
+    },
+    "4": {
+     "unit": "",
+     "kind": "rate",
+     "pc": false,
+     "color": "seq"
+    },
+    "5": {
+     "unit": "",
+     "kind": "rate",
+     "pc": false,
+     "color": "seq"
+    },
+    "6": {
+     "unit": "",
+     "kind": "rate",
+     "pc": false,
+     "color": "seq"
+    },
+    "13": {
+     "unit": "",
+     "kind": "rate",
+     "pc": false,
+     "color": "seq"
+    },
+    "14": {
+     "unit": "",
+     "kind": "rate",
+     "pc": false,
+     "color": "seq"
+    }
+   },
+   "check_total": false
+  },
+  {
+   "book": "japan-sanitary-1907-08",
+   "table": "p0160_1",
+   "part": 0,
+   "label_col": 0,
+   "columns": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27
+   ],
+   "default": 0,
+   "total_row": 47,
+   "date": "1907",
+   "period": "1930",
+   "col_meta": {
+    "1": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "2": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "3": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "4": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "5": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "6": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "7": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "8": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "9": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "10": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "11": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "12": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "13": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "14": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "15": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "16": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "17": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "18": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "19": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "20": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "21": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "22": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "23": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "24": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "25": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "26": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "27": {
+     "unit": "",
+     "kind": "rate",
+     "pc": false,
+     "color": "seq"
+    }
+   },
+   "check_total": false
+  },
+  {
+   "book": "japan-sanitary-1907-08",
+   "table": "p0166_1",
+   "part": 0,
+   "label_col": 0,
+   "columns": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27
+   ],
+   "default": 0,
+   "total_row": 47,
+   "date": "1907",
+   "period": "1930",
+   "col_meta": {
+    "1": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "2": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "3": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "4": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "5": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "6": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "7": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "8": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "9": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "10": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "11": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "12": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "13": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "14": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "15": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "16": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "17": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "18": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "19": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "20": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "21": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "22": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "23": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "24": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "25": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "26": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "27": {
+     "unit": "",
+     "kind": "rate",
+     "pc": false,
+     "color": "seq"
+    }
+   },
+   "check_total": false
+  },
+  {
+   "book": "japan-sanitary-1907-08",
+   "table": "p0152_1",
+   "part": 0,
+   "label_col": 0,
+   "columns": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    13,
+    14
+   ],
+   "default": 0,
+   "total_row": 47,
+   "date": "1907",
+   "period": "1930",
+   "col_meta": {
+    "1": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "2": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "3": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "4": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "5": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "6": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "13": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "14": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    }
+   }
+  },
+  {
+   "book": "japan-sanitary-1907-08",
+   "table": "p0170_1",
+   "part": 0,
+   "label_col": 0,
+   "columns": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    11,
+    13,
+    14
+   ],
+   "default": 0,
+   "total_row": 47,
+   "date": "1908",
+   "period": "1930",
+   "col_meta": {
+    "3": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "4": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "5": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "6": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "7": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "8": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "11": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "13": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "14": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    }
+   }
+  },
+  {
+   "book": "japan-sanitary-1907-08",
+   "table": "p0172_1",
+   "part": 0,
+   "label_col": 0,
+   "columns": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    11,
+    13,
+    14
+   ],
+   "default": 0,
+   "total_row": null,
+   "date": "1908",
+   "period": "1930",
+   "col_meta": {
+    "3": {
+     "unit": "",
+     "kind": "rate",
+     "pc": false,
+     "color": "seq"
+    },
+    "4": {
+     "unit": "",
+     "kind": "rate",
+     "pc": false,
+     "color": "seq"
+    },
+    "5": {
+     "unit": "",
+     "kind": "rate",
+     "pc": false,
+     "color": "seq"
+    },
+    "6": {
+     "unit": "",
+     "kind": "rate",
+     "pc": false,
+     "color": "seq"
+    },
+    "7": {
+     "unit": "",
+     "kind": "rate",
+     "pc": false,
+     "color": "seq"
+    },
+    "8": {
+     "unit": "",
+     "kind": "rate",
+     "pc": false,
+     "color": "seq"
+    },
+    "11": {
+     "unit": "",
+     "kind": "rate",
+     "pc": false,
+     "color": "seq"
+    },
+    "13": {
+     "unit": "",
+     "kind": "rate",
+     "pc": false,
+     "color": "seq"
+    },
+    "14": {
+     "unit": "",
+     "kind": "rate",
+     "pc": false,
+     "color": "seq"
+    }
+   },
+   "check_total": false
+  },
+  {
+   "book": "japan-sanitary-1907-08",
+   "table": "p0178_1",
+   "part": 0,
+   "label_col": 0,
+   "columns": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27
+   ],
+   "default": 0,
+   "total_row": 47,
+   "date": "1907",
+   "period": "1930",
+   "col_meta": {
+    "1": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "2": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "3": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "4": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "5": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "6": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "7": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "8": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "9": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "10": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "11": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "12": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "13": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "14": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "15": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "16": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "17": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "18": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "19": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "20": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "21": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "22": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "23": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "24": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "25": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "26": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "27": {
+     "unit": "",
+     "kind": "rate",
+     "pc": false,
+     "color": "seq"
+    }
+   },
+   "check_total": false
+  },
+  {
+   "book": "japan-sanitary-1907-08",
+   "table": "p0180_1",
+   "part": 0,
+   "label_col": 0,
+   "columns": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    25,
+    26,
+    27
+   ],
+   "default": 0,
+   "total_row": 45,
+   "date": "1907",
+   "period": "1930",
+   "col_meta": {
+    "1": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "2": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "3": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "4": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "5": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "6": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "7": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "8": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "9": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "10": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "11": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "25": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "26": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "27": {
+     "unit": "",
+     "kind": "rate",
+     "pc": false,
+     "color": "seq"
+    }
+   },
+   "check_total": false
+  },
+  {
+   "book": "japan-sanitary-1907-08",
+   "table": "p0182_2",
+   "part": 0,
+   "label_col": 0,
+   "columns": [
+    21,
+    25,
+    26,
+    27
+   ],
+   "default": 0,
+   "total_row": 30,
+   "date": "1907",
+   "period": "1930",
+   "col_meta": {
+    "21": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "25": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "26": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "27": {
+     "unit": "",
+     "kind": "rate",
+     "pc": false,
+     "color": "seq"
+    }
+   },
+   "check_total": false
+  },
+  {
+   "book": "japan-sanitary-1907-08",
+   "table": "p0184_1",
+   "part": 0,
+   "label_col": 0,
+   "columns": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27
+   ],
+   "default": 0,
+   "total_row": 47,
+   "date": "1907",
+   "period": "1930",
+   "col_meta": {
+    "1": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "2": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "3": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "4": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "5": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "6": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "7": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "8": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "9": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "10": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "11": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "12": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "13": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "14": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "15": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "16": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "17": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "18": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "19": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "20": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "21": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "22": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "23": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "24": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "25": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "26": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "27": {
+     "unit": "",
+     "kind": "rate",
+     "pc": false,
+     "color": "seq"
+    }
+   },
+   "check_total": false
+  },
+  {
+   "book": "japan-sanitary-1907-08",
+   "table": "p0256_1",
+   "part": 0,
+   "label_col": 0,
+   "columns": [
+    3,
+    5,
+    7,
+    8,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
+   ],
+   "default": 0,
+   "total_row": 47,
+   "date": "1908",
+   "period": "1930",
+   "col_meta": {
+    "3": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "5": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "7": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "8": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "11": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "12": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "13": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "14": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "15": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "16": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "17": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "18": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    }
+   }
+  },
+  {
+   "book": "japan-sanitary-1907-08",
+   "table": "p0258_1",
+   "part": 0,
+   "label_col": 0,
+   "columns": [
+    1,
+    2,
+    3,
+    5
+   ],
+   "default": 0,
+   "total_row": null,
+   "date": "1908",
+   "period": "1930",
+   "col_meta": {
+    "1": {
+     "unit": "",
+     "kind": "rate",
+     "pc": false,
+     "color": "seq"
+    },
+    "2": {
+     "unit": "",
+     "kind": "rate",
+     "pc": false,
+     "color": "seq"
+    },
+    "3": {
+     "unit": "",
+     "kind": "rate",
+     "pc": false,
+     "color": "seq"
+    },
+    "5": {
+     "unit": "",
+     "kind": "rate",
+     "pc": false,
+     "color": "seq"
+    }
+   },
+   "check_total": false
+  },
+  {
+   "book": "japan-sanitary-1907-08",
+   "table": "p0266_2",
+   "part": 0,
+   "label_col": 0,
+   "columns": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "default": 0,
+   "total_row": 46,
+   "date": "1907",
+   "period": "1930",
+   "col_meta": {
+    "1": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "2": {
+     "unit": "",
+     "kind": "rate",
+     "pc": false,
+     "color": "seq"
+    },
+    "3": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "4": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "5": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "6": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    }
+   },
+   "check_total": false
+  },
+  {
+   "book": "japan-sanitary-1907-08",
+   "table": "p0294_2",
+   "part": 0,
+   "label_col": 0,
+   "columns": [
+    2,
+    3,
+    4
+   ],
+   "default": 0,
+   "total_row": 47,
+   "date": "1907",
+   "period": "1930",
+   "col_meta": {
+    "2": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "3": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "4": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    }
+   }
+  },
+  {
+   "book": "japan-sanitary-1907-08",
+   "table": "p0270_2",
+   "part": 0,
+   "label_col": 0,
+   "columns": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "default": 0,
+   "total_row": 46,
+   "date": "1907",
+   "period": "1930",
+   "col_meta": {
+    "1": {
+     "unit": "",
+     "kind": "rate",
+     "pc": false,
+     "color": "seq"
+    },
+    "2": {
+     "unit": "",
+     "kind": "rate",
+     "pc": false,
+     "color": "seq"
+    },
+    "3": {
+     "unit": "",
+     "kind": "rate",
+     "pc": false,
+     "color": "seq"
+    },
+    "4": {
+     "unit": "",
+     "kind": "rate",
+     "pc": false,
+     "color": "seq"
+    },
+    "5": {
+     "unit": "",
+     "kind": "rate",
+     "pc": false,
+     "color": "seq"
+    }
+   },
+   "check_total": false
+  },
+  {
+   "book": "japan-sanitary-1907-08",
+   "table": "p0270_1",
+   "part": 0,
+   "label_col": 0,
+   "columns": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    9,
+    10
+   ],
+   "default": 0,
+   "total_row": 46,
+   "date": "1907",
+   "period": "1930",
+   "col_meta": {
+    "1": {
+     "unit": "",
+     "kind": "rate",
+     "pc": false,
+     "color": "seq"
+    },
+    "2": {
+     "unit": "",
+     "kind": "rate",
+     "pc": false,
+     "color": "seq"
+    },
+    "3": {
+     "unit": "",
+     "kind": "rate",
+     "pc": false,
+     "color": "seq"
+    },
+    "4": {
+     "unit": "",
+     "kind": "rate",
+     "pc": false,
+     "color": "seq"
+    },
+    "5": {
+     "unit": "",
+     "kind": "rate",
+     "pc": false,
+     "color": "seq"
+    },
+    "6": {
+     "unit": "",
+     "kind": "rate",
+     "pc": false,
+     "color": "seq"
+    },
+    "9": {
+     "unit": "",
+     "kind": "rate",
+     "pc": false,
+     "color": "seq"
+    },
+    "10": {
+     "unit": "",
+     "kind": "rate",
+     "pc": false,
+     "color": "seq"
+    }
+   },
+   "check_total": false
+  },
+  {
+   "book": "japan-education-1891",
+   "table": "p0096_1",
+   "part": 0,
+   "label_col": 0,
+   "columns": [
+    1,
+    2,
+    3
+   ],
+   "default": 0,
+   "total_row": 11,
+   "date": "1891",
+   "period": "1930",
+   "col_meta": {
+    "1": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "2": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "3": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    }
+   }
+  },
+  {
+   "book": "japan-education-1896",
+   "table": "p0148_1",
+   "part": 1,
+   "label_col": 0,
+   "columns": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "default": 0,
+   "total_row": 7,
+   "date": "1896",
+   "period": "1930",
+   "col_meta": {
+    "1": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "2": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "3": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "4": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "5": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "6": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "7": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "8": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "9": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "10": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "11": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "12": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "13": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "14": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "15": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    }
+   },
+   "also": [
+    {
+     "table": "p0148_1",
+     "part": 0,
+     "label_col": 0
+    }
+   ]
+  },
+  {
+   "book": "japan-education-1899",
+   "table": "p0144_1",
+   "part": 0,
+   "label_col": 0,
+   "columns": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "default": 0,
+   "total_row": 52,
+   "date": "1899",
+   "period": "1930",
+   "col_meta": {
+    "1": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "2": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "3": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "4": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "5": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "6": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    }
+   },
+   "row_ids": {
+    "0": "13",
+    "1": "14",
+    "2": "15",
+    "3": "11",
+    "4": "12",
+    "5": "08",
+    "6": "10",
+    "7": "09",
+    "8": "22",
+    "9": "19",
+    "10": "20",
+    "12": "01",
+    "13": "04",
+    "14": "07",
+    "15": "03",
+    "16": "02",
+    "17": "06",
+    "18": "05",
+    "20": "26",
+    "21": "27",
+    "22": "28",
+    "23": "29",
+    "24": "24",
+    "25": "23",
+    "26": "25",
+    "27": "21",
+    "28": "18",
+    "29": "17",
+    "30": "16",
+    "31": "30",
+    "33": "31",
+    "34": "32",
+    "35": "33",
+    "36": "34",
+    "37": "35",
+    "38": "36",
+    "39": "37",
+    "40": "38",
+    "41": "39",
+    "43": "42",
+    "44": "40",
+    "45": "44",
+    "46": "41",
+    "47": "43",
+    "48": "45",
+    "49": "46",
+    "50": "47"
+   }
+  },
+  {
+   "book": "japan-education-1900-01",
+   "table": "p0166_1",
+   "part": 0,
+   "label_col": 0,
+   "columns": [
+    1,
+    2,
+    3
+   ],
+   "default": 0,
+   "total_row": 12,
+   "date": "1901",
+   "period": "1930",
+   "col_meta": {
+    "1": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "2": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "3": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    }
+   }
+  },
+  {
+   "book": "japan-education-1901-02",
+   "table": "p0178_1",
+   "part": 0,
+   "label_col": 0,
+   "columns": [
+    1,
+    2,
+    3
+   ],
+   "default": 0,
+   "total_row": 52,
+   "date": "1901",
+   "period": "1930",
+   "col_meta": {
+    "1": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "2": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "3": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    }
+   },
+   "row_ids": {
+    "0": "13",
+    "1": "14",
+    "2": "15",
+    "3": "11",
+    "4": "12",
+    "5": "08",
+    "6": "10",
+    "7": "09",
+    "8": "22",
+    "9": "19",
+    "10": "20",
+    "12": "01",
+    "13": "04",
+    "14": "07",
+    "15": "03",
+    "16": "02",
+    "17": "06",
+    "18": "05",
+    "20": "26",
+    "21": "27",
+    "22": "28",
+    "23": "29",
+    "24": "24",
+    "25": "23",
+    "26": "25",
+    "27": "21",
+    "28": "18",
+    "29": "17",
+    "30": "16",
+    "31": "30",
+    "33": "31",
+    "34": "32",
+    "35": "33",
+    "36": "34",
+    "37": "35",
+    "38": "36",
+    "39": "37",
+    "40": "38",
+    "41": "39",
+    "43": "42",
+    "44": "40",
+    "45": "44",
+    "46": "41",
+    "47": "43",
+    "48": "45",
+    "49": "46",
+    "50": "47"
+   }
+  },
+  {
+   "book": "japan-education-1902-03",
+   "table": "p0176_1",
+   "part": 0,
+   "label_col": 0,
+   "columns": [
+    1,
+    2,
+    3
+   ],
+   "default": 0,
+   "total_row": 52,
+   "date": "1902",
+   "period": "1930",
+   "col_meta": {
+    "1": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "2": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "3": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    }
+   },
+   "row_ids": {
+    "0": "13",
+    "1": "14",
+    "2": "15",
+    "3": "11",
+    "4": "12",
+    "5": "08",
+    "6": "10",
+    "7": "09",
+    "8": "22",
+    "9": "19",
+    "10": "20",
+    "12": "01",
+    "13": "04",
+    "14": "07",
+    "15": "03",
+    "16": "02",
+    "17": "06",
+    "18": "05",
+    "20": "26",
+    "21": "27",
+    "22": "28",
+    "23": "29",
+    "24": "24",
+    "25": "23",
+    "26": "25",
+    "27": "21",
+    "28": "18",
+    "29": "17",
+    "30": "16",
+    "31": "30",
+    "33": "31",
+    "34": "32",
+    "35": "33",
+    "36": "34",
+    "37": "35",
+    "38": "36",
+    "39": "37",
+    "40": "38",
+    "41": "39",
+    "43": "42",
+    "44": "40",
+    "45": "44",
+    "46": "41",
+    "47": "43",
+    "48": "45",
+    "49": "46",
+    "50": "47"
+   }
+  },
+  {
+   "book": "japan-education-1903-04",
+   "table": "p0187_1",
+   "part": 0,
+   "label_col": 0,
+   "columns": [
+    1,
+    2,
+    3
+   ],
+   "default": 0,
+   "total_row": 52,
+   "date": "1903",
+   "period": "1930",
+   "col_meta": {
+    "1": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "2": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "3": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    }
+   },
+   "row_ids": {
+    "0": "13",
+    "1": "14",
+    "2": "15",
+    "3": "11",
+    "4": "12",
+    "5": "08",
+    "6": "10",
+    "7": "09",
+    "8": "22",
+    "9": "19",
+    "10": "20",
+    "12": "01",
+    "13": "04",
+    "14": "07",
+    "15": "03",
+    "16": "02",
+    "17": "06",
+    "18": "05",
+    "20": "26",
+    "21": "27",
+    "22": "28",
+    "23": "29",
+    "24": "24",
+    "25": "23",
+    "26": "25",
+    "27": "21",
+    "28": "18",
+    "29": "17",
+    "30": "16",
+    "31": "30",
+    "33": "31",
+    "34": "32",
+    "35": "33",
+    "36": "34",
+    "37": "35",
+    "38": "36",
+    "39": "37",
+    "40": "38",
+    "41": "39",
+    "43": "42",
+    "44": "40",
+    "45": "44",
+    "46": "41",
+    "47": "43",
+    "48": "45",
+    "49": "46",
+    "50": "47"
+   }
+  },
+  {
+   "book": "japan-education-1904-05",
+   "table": "p0241_1",
+   "part": 0,
+   "label_col": 0,
+   "columns": [
+    1,
+    2,
+    3
+   ],
+   "default": 0,
+   "total_row": 52,
+   "date": "1904",
+   "period": "1930",
+   "col_meta": {
+    "1": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "2": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "3": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    }
+   },
+   "row_ids": {
+    "0": "13",
+    "1": "14",
+    "2": "15",
+    "3": "11",
+    "4": "12",
+    "5": "08",
+    "6": "10",
+    "7": "09",
+    "8": "22",
+    "9": "19",
+    "10": "20",
+    "12": "01",
+    "13": "04",
+    "14": "07",
+    "15": "03",
+    "16": "02",
+    "17": "06",
+    "18": "05",
+    "20": "26",
+    "21": "27",
+    "22": "28",
+    "23": "29",
+    "24": "24",
+    "25": "23",
+    "26": "25",
+    "27": "21",
+    "28": "18",
+    "29": "17",
+    "30": "16",
+    "31": "30",
+    "33": "31",
+    "34": "32",
+    "35": "33",
+    "36": "34",
+    "37": "35",
+    "38": "36",
+    "39": "37",
+    "40": "38",
+    "41": "39",
+    "43": "42",
+    "44": "40",
+    "45": "44",
+    "46": "41",
+    "47": "43",
+    "48": "45",
+    "49": "46",
+    "50": "47"
+   }
+  },
+  {
+   "book": "japan-1905",
+   "table": "p0090_1",
+   "part": 0,
+   "label_col": 0,
+   "columns": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "default": 0,
+   "total_row": null,
+   "date": "1903",
+   "period": "1930",
+   "col_meta": {
+    "1": {
+     "unit": "",
+     "kind": "other",
+     "pc": false,
+     "color": "seq"
+    },
+    "2": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "3": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "4": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "5": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    }
+   }
+  },
+  {
+   "book": "japan-1906",
+   "table": "p0077_1",
+   "part": 0,
+   "label_col": 0,
+   "columns": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "default": 0,
+   "total_row": null,
+   "date": "1906",
+   "period": "1930",
+   "col_meta": {
+    "1": {
+     "unit": "",
+     "kind": "other",
+     "pc": false,
+     "color": "seq"
+    },
+    "2": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "3": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "4": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "5": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    }
+   },
+   "also": [
+    {
+     "table": "p0078_1",
+     "part": 0,
+     "label_col": 0
+    }
+   ]
+  },
+  {
+   "book": "japan-1906",
+   "table": "p0078_1",
+   "part": 0,
+   "label_col": 0,
+   "columns": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "default": 0,
+   "total_row": null,
+   "date": "1906",
+   "period": "1930",
+   "col_meta": {
+    "1": {
+     "unit": "",
+     "kind": "other",
+     "pc": false,
+     "color": "seq"
+    },
+    "2": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "3": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "4": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "5": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    }
+   },
+   "also": [
+    {
+     "table": "p0077_1",
+     "part": 0,
+     "label_col": 0
+    }
+   ]
+  },
+  {
+   "book": "japan-1907",
+   "table": "p0105_1",
+   "part": 0,
+   "label_col": 0,
+   "columns": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "default": 0,
+   "total_row": null,
+   "date": "1907",
+   "period": "1930",
+   "col_meta": {
+    "1": {
+     "unit": "",
+     "kind": "other",
+     "pc": false,
+     "color": "seq"
+    },
+    "2": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "3": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "4": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "5": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    }
+   },
+   "also": [
+    {
+     "table": "p0106_1",
+     "part": 0,
+     "label_col": 0
+    }
+   ]
+  },
+  {
+   "book": "japan-1907",
+   "table": "p0106_1",
+   "part": 0,
+   "label_col": 0,
+   "columns": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "default": 0,
+   "total_row": null,
+   "date": "1907",
+   "period": "1930",
+   "col_meta": {
+    "1": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "2": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "3": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "4": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "5": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    }
+   },
+   "also": [
+    {
+     "table": "p0105_1",
+     "part": 0,
+     "label_col": 0
+    }
+   ]
+  },
+  {
+   "book": "japan-1908-09",
+   "table": "p0096_1",
+   "part": 0,
+   "label_col": 0,
+   "columns": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "default": 0,
+   "total_row": null,
+   "date": "1908",
+   "period": "1930",
+   "col_meta": {
+    "1": {
+     "unit": "",
+     "kind": "other",
+     "pc": false,
+     "color": "seq"
+    },
+    "2": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "3": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "4": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "5": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    }
+   }
+  },
+  {
+   "book": "japan-1910",
+   "table": "p0534_1",
+   "part": 0,
+   "label_col": 0,
+   "columns": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "default": 0,
+   "total_row": null,
+   "date": "1906",
+   "period": "1930",
+   "col_meta": {
+    "1": {
+     "unit": "",
+     "kind": "other",
+     "pc": false,
+     "color": "seq"
+    },
+    "2": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "3": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "4": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "5": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    }
+   }
+  },
+  {
+   "book": "japan-1911",
+   "table": "p0546_1",
+   "part": 0,
+   "label_col": 0,
+   "columns": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "default": 0,
+   "total_row": null,
+   "date": "1911",
+   "period": "1930",
+   "col_meta": {
+    "1": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "2": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "3": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "4": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "5": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    }
+   },
+   "row_ids": {
+    "0": "25",
+    "1": "18",
+    "2": "17",
+    "3": "16",
+    "4": "15",
+    "5": "07",
+    "6": "04",
+    "7": "06",
+    "8": "05",
+    "9": "03",
+    "10": "02",
+    "11": "26",
+    "12": "27",
+    "13": "29",
+    "14": "30",
+    "15": "28",
+    "16": "33",
+    "17": "34",
+    "18": "35",
+    "19": "32",
+    "20": "31",
+    "21": "36",
+    "22": "37",
+    "23": "38",
+    "24": "39",
+    "25": "42",
+    "26": "41",
+    "27": "40",
+    "28": "43",
+    "29": "44",
+    "30": "45",
+    "31": "46",
+    "32": "47",
+    "33": "01"
+   }
+  },
+  {
+   "book": "japan-1912",
+   "table": "p0565_1",
+   "part": 0,
+   "label_col": 0,
+   "columns": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "default": 0,
+   "total_row": null,
+   "date": "1912",
+   "period": "1930",
+   "col_meta": {
+    "1": {
+     "unit": "",
+     "kind": "rate",
+     "pc": false,
+     "color": "seq"
+    },
+    "2": {
+     "unit": "",
+     "kind": "rate",
+     "pc": false,
+     "color": "seq"
+    },
+    "3": {
+     "unit": "",
+     "kind": "rate",
+     "pc": false,
+     "color": "seq"
+    },
+    "4": {
+     "unit": "",
+     "kind": "rate",
+     "pc": false,
+     "color": "seq"
+    },
+    "5": {
+     "unit": "",
+     "kind": "rate",
+     "pc": false,
+     "color": "seq"
+    }
+   },
+   "row_ids": {
+    "0": "15",
+    "1": "07",
+    "2": "04",
+    "3": "06",
+    "4": "05",
+    "5": "03",
+    "6": "02",
+    "7": "26",
+    "8": "27",
+    "9": "29",
+    "10": "30",
+    "11": "28",
+    "12": "33",
+    "13": "34",
+    "14": "35",
+    "15": "32",
+    "16": "31",
+    "17": "36",
+    "18": "37",
+    "19": "38",
+    "20": "39",
+    "21": "42",
+    "22": "41",
+    "23": "40",
+    "24": "43",
+    "25": "44",
+    "27": "46",
+    "28": "47",
+    "29": "01"
+   },
+   "check_total": false
+  },
+  {
+   "book": "japan-1913",
+   "table": "p0502_1",
+   "part": 0,
+   "label_col": 0,
+   "columns": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "default": 0,
+   "total_row": null,
+   "date": "1913",
+   "period": "1930",
+   "col_meta": {
+    "1": {
+     "unit": "",
+     "kind": "other",
+     "pc": false,
+     "color": "seq"
+    },
+    "2": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "3": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "4": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "5": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    }
+   },
+   "row_ids": {
+    "0": "13",
+    "1": "14",
+    "2": "11",
+    "3": "12",
+    "4": "08",
+    "5": "09",
+    "6": "10",
+    "7": "20",
+    "8": "19",
+    "9": "22",
+    "10": "23",
+    "11": "24",
+    "12": "21",
+    "13": "25",
+    "14": "18",
+    "15": "17",
+    "16": "16"
+   },
+   "also": [
+    {
+     "table": "p0503_1",
+     "part": 0,
+     "label_col": 0
+    }
+   ]
+  },
+  {
+   "book": "japan-1913",
+   "table": "p0503_1",
+   "part": 0,
+   "label_col": 0,
+   "columns": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "default": 0,
+   "total_row": null,
+   "date": "1913",
+   "period": "1930",
+   "col_meta": {
+    "1": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "2": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "3": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "4": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "5": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    }
+   },
+   "row_ids": {
+    "0": "15",
+    "1": "07",
+    "2": "04",
+    "3": "06",
+    "4": "05",
+    "5": "03",
+    "6": "02",
+    "7": "26",
+    "8": "27",
+    "9": "29",
+    "10": "30",
+    "11": "28",
+    "12": "33",
+    "13": "34",
+    "14": "35",
+    "15": "32",
+    "16": "31",
+    "17": "36",
+    "18": "37",
+    "19": "38",
+    "20": "39",
+    "21": "42",
+    "22": "41",
+    "23": "40",
+    "24": "43",
+    "25": "44",
+    "26": "45",
+    "27": "46",
+    "28": "47",
+    "29": "01"
+   }
+  },
+  {
+   "book": "japan-1914",
+   "table": "p0711_1",
+   "part": 0,
+   "label_col": 0,
+   "columns": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "default": 0,
+   "total_row": 40,
+   "date": "1914",
+   "period": "1930",
+   "col_meta": {
+    "1": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "2": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "3": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "4": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "5": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    }
+   },
+   "row_ids": {
+    "0": "20",
+    "1": "19",
+    "2": "22",
+    "3": "23",
+    "4": "24",
+    "5": "21",
+    "6": "25",
+    "7": "18",
+    "8": "17",
+    "9": "16",
+    "10": "15",
+    "11": "07",
+    "12": "04",
+    "13": "06",
+    "14": "05",
+    "15": "03",
+    "16": "02",
+    "17": "26",
+    "18": "27",
+    "19": "29",
+    "20": "30",
+    "21": "28",
+    "22": "33",
+    "23": "34",
+    "24": "35",
+    "25": "32",
+    "26": "31",
+    "27": "36",
+    "28": "37",
+    "29": "38",
+    "30": "39",
+    "31": "42",
+    "32": "41",
+    "33": "40",
+    "34": "43",
+    "35": "44",
+    "36": "45",
+    "37": "46",
+    "38": "47",
+    "39": "01"
+   }
+  },
+  {
+   "book": "japan-1916",
+   "table": "p0725_1",
+   "part": 0,
+   "label_col": 0,
+   "columns": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "default": 0,
+   "total_row": 42,
+   "date": "1916",
+   "period": "1930",
+   "col_meta": {
+    "1": {
+     "unit": "",
+     "kind": "other",
+     "pc": false,
+     "color": "seq"
+    },
+    "2": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "3": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "4": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "5": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    }
+   },
+   "row_ids": {
+    "0": "18",
+    "1": "40",
+    "2": "07",
+    "3": "21",
+    "4": "10",
+    "5": "34",
+    "6": "01",
+    "7": "28",
+    "8": "08",
+    "9": "17",
+    "10": "03",
+    "11": "37",
+    "12": "46",
+    "13": "14",
+    "14": "39",
+    "15": "43",
+    "16": "26",
+    "17": "04",
+    "18": "45",
+    "19": "24",
+    "20": "20",
+    "21": "42",
+    "22": "29",
+    "23": "15",
+    "24": "44",
+    "25": "33",
+    "26": "47",
+    "27": "27",
+    "28": "41",
+    "29": "11",
+    "30": "25",
+    "31": "32",
+    "32": "22",
+    "33": "09",
+    "34": "36",
+    "35": "13",
+    "36": "31",
+    "37": "16",
+    "38": "30",
+    "39": "06",
+    "40": "35",
+    "41": "19"
+   }
+  },
+  {
+   "book": "japan-1917",
+   "table": "p0732_1",
+   "part": 0,
+   "label_col": 0,
+   "columns": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "default": 0,
+   "total_row": 47,
+   "date": "1917",
+   "period": "1930",
+   "col_meta": {
+    "2": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "3": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "4": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "5": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    }
+   }
+  },
+  {
+   "book": "japan-1918",
+   "table": "p0740_1",
+   "part": 0,
+   "label_col": 0,
+   "columns": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "default": 0,
+   "total_row": 47,
+   "date": "1918",
+   "period": "1930",
+   "col_meta": {
+    "2": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "3": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "4": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "5": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    }
+   }
+  },
+  {
+   "book": "japan-1919-20",
+   "table": "p0774_1",
+   "part": 0,
+   "label_col": 0,
+   "columns": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "default": 0,
+   "total_row": null,
+   "date": "1919",
+   "period": "1930",
+   "col_meta": {
+    "2": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "3": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "4": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "5": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    }
+   },
+   "also": [
+    {
+     "table": "p0775_1",
+     "part": 0,
+     "label_col": 0
+    }
+   ]
+  },
+  {
+   "book": "japan-1920-21",
+   "table": "p0754_1",
+   "part": 0,
+   "label_col": 0,
+   "columns": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "default": 0,
+   "total_row": 47,
+   "date": "1920",
+   "period": "1930",
+   "col_meta": {
+    "2": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "3": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "4": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "5": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    }
+   }
+  },
+  {
+   "book": "japan-1923",
+   "table": "p0173_1",
+   "part": 0,
+   "label_col": 0,
+   "columns": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "default": 0,
+   "total_row": null,
+   "date": "1923",
+   "period": "1930",
+   "col_meta": {
+    "1": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "2": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "3": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "4": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    }
+   },
+   "also": [
+    {
+     "table": "p0173_1",
+     "part": 0,
+     "label_col": 5,
+     "columns": [
+      6,
+      7,
+      8,
+      9
+     ]
+    }
+   ]
+  },
+  {
+   "book": "japan-1924-25",
+   "table": "p0152_1",
+   "part": 1,
+   "label_col": 0,
+   "columns": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "default": 0,
+   "total_row": null,
+   "date": "1924",
+   "period": "1930",
+   "col_meta": {
+    "1": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "2": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "3": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "4": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    }
+   },
+   "also": [
+    {
+     "table": "p0152_1",
+     "part": 0,
+     "label_col": 0
+    },
+    {
+     "table": "p0152_1",
+     "part": 2,
+     "label_col": 0
+    }
+   ]
+  },
+  {
+   "book": "japan-1927",
+   "table": "p0180_1",
+   "part": 0,
+   "label_col": 0,
+   "columns": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "default": 0,
+   "total_row": 47,
+   "date": "1927",
+   "period": "1930",
+   "col_meta": {
+    "1": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "2": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "3": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "4": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    }
+   },
+   "row_ids": {
+    "33": "24"
+   }
+  },
+  {
+   "book": "japan-1928",
+   "table": "p0163_2",
+   "part": 0,
+   "label_col": 0,
+   "columns": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "default": 0,
+   "total_row": 47,
+   "date": "1928",
+   "period": "1930",
+   "col_meta": {
+    "1": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "2": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "3": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "4": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    }
+   }
+  },
+  {
+   "book": "japan-1929",
+   "table": "p0210_1",
+   "part": 0,
+   "label_col": 0,
+   "columns": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "default": 0,
+   "total_row": 47,
+   "date": "1929",
+   "period": "1930",
+   "col_meta": {
+    "1": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "2": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "3": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "4": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    }
+   }
+  },
+  {
+   "book": "japan-1930",
+   "table": "p0141_2",
+   "part": 0,
+   "label_col": 0,
+   "columns": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "default": 0,
+   "total_row": 47,
+   "date": "1930",
+   "period": "1930",
+   "col_meta": {
+    "1": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "2": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "3": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "4": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    }
+   }
+  },
+  {
+   "book": "japan-1917",
+   "table": "p0082_2",
+   "part": 0,
+   "label_col": 0,
+   "columns": [
+    1,
+    2
+   ],
+   "default": 0,
+   "total_row": null,
+   "date": "1913",
+   "period": "1930",
+   "col_meta": {
+    "1": {
+     "unit": "",
+     "kind": "other",
+     "pc": false,
+     "color": "seq"
+    },
+    "2": {
+     "unit": "",
+     "kind": "count",
+     "pc": false,
+     "color": "seq"
+    }
+   },
+   "also": [
+    {
+     "table": "p0082_2",
+     "part": 0,
+     "label_col": 3,
+     "columns": [
+      4,
+      5
+     ]
+    }
+   ]
+  },
+  {
+   "book": "japan-1918",
+   "table": "p0080_2",
+   "part": 0,
+   "label_col": 0,
+   "columns": [
+    1,
+    2
+   ],
+   "default": 0,
+   "total_row": null,
+   "date": "1913",
+   "period": "1930",
+   "col_meta": {
+    "1": {
+     "unit": "",
+     "kind": "other",
+     "pc": false,
+     "color": "seq"
+    },
+    "2": {
+     "unit": "",
+     "kind": "count",
+     "pc": false,
+     "color": "seq"
+    }
+   },
+   "also": [
+    {
+     "table": "p0080_2",
+     "part": 0,
+     "label_col": 3,
+     "columns": [
+      4,
+      5
+     ]
+    }
+   ]
+  },
+  {
+   "book": "japan-1919-20",
+   "table": "p0100_1",
+   "part": 1,
+   "label_col": 0,
+   "columns": [
+    1,
+    2
+   ],
+   "default": 0,
+   "total_row": null,
+   "date": "1916",
+   "period": "1930",
+   "col_meta": {
+    "1": {
+     "unit": "",
+     "kind": "other",
+     "pc": false,
+     "color": "seq"
+    },
+    "2": {
+     "unit": "",
+     "kind": "count",
+     "pc": false,
+     "color": "seq"
+    }
+   },
+   "also": [
+    {
+     "table": "p0100_1",
+     "part": 0,
+     "label_col": 0
+    }
+   ]
+  },
+  {
+   "book": "japan-1920-21",
+   "table": "p0099_1",
+   "part": 0,
+   "label_col": 0,
+   "columns": [
+    1,
+    2
+   ],
+   "default": 0,
+   "total_row": null,
+   "date": "1919",
+   "period": "1930",
+   "col_meta": {
+    "1": {
+     "unit": "",
+     "kind": "other",
+     "pc": false,
+     "color": "seq"
+    },
+    "2": {
+     "unit": "",
+     "kind": "count",
+     "pc": false,
+     "color": "seq"
+    }
+   }
+  },
+  {
+   "book": "japan-1923",
+   "table": "p0117_1",
+   "part": 0,
+   "label_col": 0,
+   "columns": [
+    1,
+    2
+   ],
+   "default": 0,
+   "total_row": null,
+   "date": "1920",
+   "period": "1930",
+   "col_meta": {
+    "1": {
+     "unit": "",
+     "kind": "other",
+     "pc": false,
+     "color": "seq"
+    },
+    "2": {
+     "unit": "",
+     "kind": "count",
+     "pc": false,
+     "color": "seq"
+    }
+   },
+   "en_columns": {
+    "1": "Area (sq. ri)",
+    "2": "Population"
+   },
+   "also": [
+    {
+     "table": "p0117_1",
+     "part": 0,
+     "label_col": 3,
+     "columns": [
+      4,
+      5
+     ]
+    }
+   ]
+  },
+  {
+   "book": "japan-1924-25",
+   "table": "p0097_1",
+   "part": 0,
+   "label_col": 0,
+   "columns": [
+    1,
+    2
+   ],
+   "default": 0,
+   "total_row": null,
+   "date": "1920",
+   "period": "1930",
+   "col_meta": {
+    "1": {
+     "unit": "",
+     "kind": "other",
+     "pc": false,
+     "color": "seq"
+    },
+    "2": {
+     "unit": "",
+     "kind": "count",
+     "pc": false,
+     "color": "seq"
+    }
+   },
+   "also": [
+    {
+     "table": "p0097_1",
+     "part": 0,
+     "label_col": 3,
+     "columns": [
+      4,
+      5
+     ]
+    }
+   ]
+  },
+  {
+   "book": "japan-1927",
+   "table": "p0116_3",
+   "part": 0,
+   "label_col": 0,
+   "columns": [
+    1,
+    2,
+    3
+   ],
+   "default": 0,
+   "total_row": null,
+   "date": "1925",
+   "period": "1930",
+   "col_meta": {
+    "1": {
+     "unit": "",
+     "kind": "other",
+     "pc": false,
+     "color": "seq"
+    },
+    "2": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "3": {
+     "unit": "",
+     "kind": "rate",
+     "pc": false,
+     "color": "seq"
+    }
+   },
+   "check_total": false
+  },
+  {
+   "book": "japan-1928",
+   "table": "p0098_3",
+   "part": 0,
+   "label_col": 0,
+   "columns": [
+    1,
+    2,
+    3
+   ],
+   "default": 0,
+   "total_row": null,
+   "date": "1925",
+   "period": "1930",
+   "col_meta": {
+    "1": {
+     "unit": "",
+     "kind": "other",
+     "pc": false,
+     "color": "seq"
+    },
+    "2": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "3": {
+     "unit": "",
+     "kind": "rate",
+     "pc": false,
+     "color": "seq"
+    }
+   },
+   "check_total": false
+  },
+  {
+   "book": "japan-1929",
+   "table": "p0143_3",
+   "part": 0,
+   "label_col": 0,
+   "columns": [
+    1,
+    2,
+    3
+   ],
+   "default": 0,
+   "total_row": null,
+   "date": "1925",
+   "period": "1930",
+   "col_meta": {
+    "1": {
+     "unit": "",
+     "kind": "other",
+     "pc": false,
+     "color": "seq"
+    },
+    "2": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "3": {
+     "unit": "",
+     "kind": "rate",
+     "pc": false,
+     "color": "seq"
+    }
+   },
+   "check_total": false,
+   "also": [
+    {
+     "table": "p0143_3",
+     "part": 0,
+     "label_col": 4,
+     "columns": [
+      5,
+      6,
+      7
+     ]
+    }
+   ]
+  },
+  {
+   "book": "japan-1930",
+   "table": "p0095_1",
+   "part": 0,
+   "label_col": 0,
+   "columns": [
+    1,
+    2,
+    3
+   ],
+   "default": 0,
+   "total_row": null,
+   "date": "1925",
+   "period": "1930",
+   "col_meta": {
+    "1": {
+     "unit": "",
+     "kind": "other",
+     "pc": false,
+     "color": "seq"
+    },
+    "2": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "3": {
+     "unit": "",
+     "kind": "rate",
+     "pc": false,
+     "color": "seq"
+    }
+   },
+   "check_total": false
+  },
+  {
+   "book": "japan-1935",
+   "table": "p0077_1",
+   "part": 0,
+   "label_col": 0,
+   "columns": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "default": 0,
+   "total_row": 0,
+   "date": "1930",
+   "period": "1930",
+   "col_meta": {
+    "1": {
+     "unit": "",
+     "kind": "other",
+     "pc": false,
+     "color": "seq"
+    },
+    "2": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "3": {
+     "unit": "",
+     "kind": "count",
+     "pc": false,
+     "color": "seq"
+    },
+    "4": {
+     "unit": "",
+     "kind": "rate",
+     "pc": false,
+     "color": "seq"
+    },
+    "5": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    }
+   },
+   "check_total": false
+  },
+  {
+   "book": "japan-1937",
+   "table": "p0065_2",
+   "part": 0,
+   "label_col": 0,
+   "columns": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "default": 0,
+   "total_row": 47,
+   "date": "1935",
+   "period": "1930",
+   "col_meta": {
+    "1": {
+     "unit": "",
+     "kind": "other",
+     "pc": false,
+     "color": "seq"
+    },
+    "2": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "3": {
+     "unit": "",
+     "kind": "count",
+     "pc": false,
+     "color": "seq"
+    },
+    "4": {
+     "unit": "",
+     "kind": "rate",
+     "pc": false,
+     "color": "seq"
+    }
+   },
+   "check_total": false
+  },
+  {
+   "book": "japan-1939-40",
+   "table": "p0080_3",
+   "part": 0,
+   "label_col": 0,
+   "columns": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "default": 0,
+   "total_row": 47,
+   "date": "1938",
+   "period": "1942",
+   "col_meta": {
+    "1": {
+     "unit": "",
+     "kind": "other",
+     "pc": false,
+     "color": "seq"
+    },
+    "2": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "3": {
+     "unit": "",
+     "kind": "count",
+     "pc": false,
+     "color": "seq"
+    },
+    "4": {
+     "unit": "",
+     "kind": "rate",
+     "pc": false,
+     "color": "seq"
+    },
+    "5": {
+     "unit": "",
+     "kind": "count",
+     "pc": false,
+     "color": "seq"
+    }
+   },
+   "check_total": false
+  },
+  {
+   "book": "japan-1942-43",
+   "table": "p0066_1",
+   "part": 0,
+   "label_col": 0,
+   "columns": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "default": 0,
+   "total_row": 44,
+   "date": "1941",
+   "period": "1942",
+   "col_meta": {
+    "1": {
+     "unit": "",
+     "kind": "other",
+     "pc": false,
+     "color": "seq"
+    },
+    "2": {
+     "unit": "",
+     "kind": "count",
+     "pc": false,
+     "color": "seq"
+    },
+    "3": {
+     "unit": "",
+     "kind": "rate",
+     "pc": false,
+     "color": "seq"
+    },
+    "4": {
+     "unit": "",
+     "kind": "count",
+     "pc": false,
+     "color": "seq"
+    },
+    "5": {
+     "unit": "",
+     "kind": "count",
+     "pc": false,
+     "color": "seq"
+    },
+    "6": {
+     "unit": "",
+     "kind": "count",
+     "pc": false,
+     "color": "seq"
+    }
+   },
+   "check_total": false
+  },
+  {
+   "book": "japan-1946-48",
+   "table": "p0064_2",
+   "part": 0,
+   "label_col": 0,
+   "columns": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "default": 0,
+   "total_row": 46,
+   "date": "1946",
+   "period": "1942",
+   "col_meta": {
+    "1": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "2": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "3": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "4": {
+     "unit": "",
+     "kind": "count",
+     "pc": false,
+     "color": "seq"
+    }
+   }
+  },
+  {
+   "book": "japan-education-1891",
+   "table": "p0037_1",
+   "part": 0,
+   "label_col": 0,
+   "columns": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   "default": 0,
+   "total_row": 11,
+   "date": "1891",
+   "period": "1930",
+   "col_meta": {
+    "1": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "2": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "3": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "4": {
+     "unit": "",
+     "kind": "rate",
+     "pc": false,
+     "color": "seq"
+    },
+    "5": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "6": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "7": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "8": {
+     "unit": "",
+     "kind": "rate",
+     "pc": false,
+     "color": "seq"
+    },
+    "9": {
+     "unit": "",
+     "kind": "rate",
+     "pc": false,
+     "color": "seq"
+    },
+    "10": {
+     "unit": "",
+     "kind": "rate",
+     "pc": false,
+     "color": "seq"
+    }
+   },
+   "check_total": false
+  },
+  {
+   "book": "japan-education-1891",
+   "table": "p0094_1",
+   "part": 0,
+   "label_col": 0,
+   "columns": [
+    1,
+    2,
+    3
+   ],
+   "default": 0,
+   "total_row": 11,
+   "date": "1891",
+   "period": "1930",
+   "col_meta": {
+    "1": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "2": {
+     "unit": "",
+     "kind": "count",
+     "pc": false,
+     "color": "seq"
+    },
+    "3": {
+     "unit": "",
+     "kind": "count",
+     "pc": false,
+     "color": "seq"
+    }
+   }
+  },
+  {
+   "book": "japan-education-1891",
+   "table": "p0095_1",
+   "part": 0,
+   "label_col": 0,
+   "columns": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "default": 0,
+   "total_row": 11,
+   "date": "1891",
+   "period": "1930",
+   "col_meta": {
+    "1": {
+     "unit": "",
+     "kind": "count",
+     "pc": false,
+     "color": "seq"
+    },
+    "2": {
+     "unit": "",
+     "kind": "count",
+     "pc": false,
+     "color": "seq"
+    },
+    "3": {
+     "unit": "",
+     "kind": "count",
+     "pc": false,
+     "color": "seq"
+    },
+    "4": {
+     "unit": "",
+     "kind": "count",
+     "pc": false,
+     "color": "seq"
+    }
+   }
+  },
+  {
+   "book": "japan-education-1895",
+   "table": "p0148_1",
+   "part": 0,
+   "label_col": 0,
+   "columns": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "default": 0,
+   "total_row": 52,
+   "date": "1895",
+   "period": "1930",
+   "col_meta": {
+    "1": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "2": {
+     "unit": "",
+     "kind": "count",
+     "pc": false,
+     "color": "seq"
+    },
+    "3": {
+     "unit": "",
+     "kind": "count",
+     "pc": false,
+     "color": "seq"
+    },
+    "4": {
+     "unit": "",
+     "kind": "count",
+     "pc": false,
+     "color": "seq"
+    },
+    "5": {
+     "unit": "",
+     "kind": "count",
+     "pc": false,
+     "color": "seq"
+    },
+    "6": {
+     "unit": "",
+     "kind": "count",
+     "pc": false,
+     "color": "seq"
+    },
+    "7": {
+     "unit": "",
+     "kind": "count",
+     "pc": false,
+     "color": "seq"
+    },
+    "8": {
+     "unit": "",
+     "kind": "count",
+     "pc": false,
+     "color": "seq"
+    },
+    "9": {
+     "unit": "",
+     "kind": "count",
+     "pc": false,
+     "color": "seq"
+    },
+    "10": {
+     "unit": "",
+     "kind": "count",
+     "pc": false,
+     "color": "seq"
+    },
+    "11": {
+     "unit": "",
+     "kind": "count",
+     "pc": false,
+     "color": "seq"
+    }
+   },
+   "row_ids": {
+    "0": "13",
+    "1": "14",
+    "2": "15",
+    "3": "11",
+    "4": "12",
+    "5": "08",
+    "6": "10",
+    "7": "09",
+    "8": "22",
+    "9": "19",
+    "10": "20",
+    "12": "01",
+    "13": "04",
+    "14": "07",
+    "15": "03",
+    "16": "02",
+    "17": "06",
+    "18": "05",
+    "20": "26",
+    "21": "27",
+    "22": "28",
+    "23": "29",
+    "24": "24",
+    "25": "23",
+    "26": "25",
+    "27": "21",
+    "28": "18",
+    "29": "17",
+    "30": "16",
+    "31": "30",
+    "33": "31",
+    "34": "32",
+    "35": "33",
+    "36": "34",
+    "37": "35",
+    "38": "36",
+    "39": "37",
+    "40": "38",
+    "41": "39",
+    "43": "42",
+    "44": "40",
+    "45": "44",
+    "46": "41",
+    "47": "43",
+    "48": "45",
+    "49": "46",
+    "50": "47"
+   }
+  },
+  {
+   "book": "japan-1905",
+   "table": "p0092_1",
+   "part": 0,
+   "label_col": 0,
+   "columns": [
+    1,
+    2,
+    3
+   ],
+   "default": 0,
+   "total_row": 45,
+   "date": "1903",
+   "period": "1930",
+   "col_meta": {
+    "1": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "2": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "3": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    }
+   }
+  },
+  {
+   "book": "japan-1906",
+   "table": "p0078_2",
+   "part": 0,
+   "label_col": 0,
+   "columns": [
+    1,
+    2,
+    3
+   ],
+   "default": 0,
+   "total_row": 45,
+   "date": "1903",
+   "period": "1930",
+   "col_meta": {
+    "1": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "2": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "3": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    }
+   }
+  },
+  {
+   "book": "japan-1907",
+   "table": "p0106_2",
+   "part": 0,
+   "label_col": 0,
+   "columns": [
+    1,
+    2,
+    3
+   ],
+   "default": 0,
+   "total_row": null,
+   "date": "1903",
+   "period": "1930",
+   "col_meta": {
+    "1": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "2": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "3": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    }
+   },
+   "also": [
+    {
+     "table": "p0107_1",
+     "part": 0,
+     "label_col": 0
+    }
+   ]
+  },
+  {
+   "book": "japan-1907",
+   "table": "p0107_1",
+   "part": 0,
+   "label_col": 0,
+   "columns": [
+    1,
+    2,
+    3
+   ],
+   "default": 0,
+   "total_row": 35,
+   "date": "1907",
+   "period": "1930",
+   "col_meta": {
+    "1": {
+     "unit": "",
+     "kind": "rate",
+     "pc": false,
+     "color": "seq"
+    },
+    "2": {
+     "unit": "",
+     "kind": "rate",
+     "pc": false,
+     "color": "seq"
+    },
+    "3": {
+     "unit": "",
+     "kind": "rate",
+     "pc": false,
+     "color": "seq"
+    }
+   },
+   "row_ids": {
+    "15": "27"
+   },
+   "check_total": false
+  },
+  {
+   "book": "japan-1908-09",
+   "table": "p0097_1",
+   "part": 0,
+   "label_col": 0,
+   "columns": [
+    1,
+    2,
+    3
+   ],
+   "default": 0,
+   "total_row": 45,
+   "date": "1903",
+   "period": "1930",
+   "col_meta": {
+    "1": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "2": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "3": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    }
+   }
+  },
+  {
+   "book": "japan-1910",
+   "table": "p0536_1",
+   "part": 0,
+   "label_col": 0,
+   "columns": [
+    1,
+    2,
+    3
+   ],
+   "default": 0,
+   "total_row": null,
+   "date": "1907",
+   "period": "1930",
+   "col_meta": {
+    "1": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "2": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "3": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    }
+   }
+  },
+  {
+   "book": "japan-1905",
+   "table": "p0049_1",
+   "part": 0,
+   "label_col": 0,
+   "columns": [
+    1,
+    2,
+    3
+   ],
+   "default": 0,
+   "total_row": 33,
+   "date": "1903",
+   "period": "1930",
+   "col_meta": {
+    "1": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "2": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "3": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    }
+   }
+  },
+  {
+   "book": "japan-1935",
+   "table": "p0635_2",
+   "part": 0,
+   "label_col": 0,
+   "columns": [
+    1
+   ],
+   "default": 0,
+   "total_row": null,
+   "date": "1933",
+   "period": "1930",
+   "col_meta": {
+    "1": {
+     "unit": "",
+     "kind": "rate",
+     "pc": false,
+     "color": "seq"
+    }
+   },
+   "check_total": false
+  },
+  {
+   "book": "japan-1937",
+   "table": "p0605_3",
+   "part": 0,
+   "label_col": 0,
+   "columns": [
+    1
+   ],
+   "default": 0,
+   "total_row": null,
+   "date": "1935",
+   "period": "1930",
+   "col_meta": {
+    "1": {
+     "unit": "",
+     "kind": "rate",
+     "pc": false,
+     "color": "seq"
+    }
+   },
+   "check_total": false,
+   "also": [
+    {
+     "table": "p0605_3",
+     "part": 0,
+     "label_col": 2,
+     "columns": [
+      3
+     ]
+    },
+    {
+     "table": "p0605_3",
+     "part": 0,
+     "label_col": 4,
+     "columns": [
+      5
+     ]
+    },
+    {
+     "table": "p0605_3",
+     "part": 0,
+     "label_col": 6,
+     "columns": [
+      7
+     ]
+    }
+   ]
+  },
+  {
+   "book": "japan-1939-40",
+   "table": "p0544_4",
+   "part": 0,
+   "label_col": 0,
+   "columns": [
+    1
+   ],
+   "default": 0,
+   "total_row": null,
+   "date": "1935",
+   "period": "1930",
+   "col_meta": {
+    "1": {
+     "unit": "",
+     "kind": "rate",
+     "pc": false,
+     "color": "seq"
+    }
+   },
+   "check_total": false
+  },
+  {
+   "book": "japan-1935",
+   "table": "p0982_1",
+   "part": 0,
+   "label_col": 0,
+   "columns": [
+    1,
+    2,
+    3
+   ],
+   "default": 0,
+   "total_row": 47,
+   "date": "1933",
+   "period": "1930",
+   "col_meta": {
+    "1": {
+     "unit": "",
+     "kind": "rate",
+     "pc": false,
+     "color": "seq"
+    },
+    "2": {
+     "unit": "",
+     "kind": "rate",
+     "pc": false,
+     "color": "seq"
+    },
+    "3": {
+     "unit": "",
+     "kind": "rate",
+     "pc": false,
+     "color": "seq"
+    }
+   },
+   "row_ids": {
+    "5": "42"
+   },
+   "check_total": false
+  },
+  {
+   "book": "japan-1937",
+   "table": "p0888_1",
+   "part": 0,
+   "label_col": 0,
+   "columns": [
+    1,
+    2,
+    3
+   ],
+   "default": 0,
+   "total_row": 47,
+   "date": "1937",
+   "period": "1930",
+   "col_meta": {
+    "1": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "2": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "3": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    }
+   }
+  },
+  {
+   "book": "japan-1939-40",
+   "table": "p0816_1",
+   "part": 0,
+   "label_col": 0,
+   "columns": [
+    1,
+    2,
+    3
+   ],
+   "default": 0,
+   "total_row": 47,
+   "date": "1937",
+   "period": "1930",
+   "col_meta": {
+    "1": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "2": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "3": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    }
+   }
+  },
+  {
+   "book": "japan-1942-43",
+   "table": "p0563_3",
+   "part": 0,
+   "label_col": 0,
+   "columns": [
+    1,
+    2,
+    5,
+    6
+   ],
+   "default": 0,
+   "total_row": 47,
+   "date": "1938",
+   "period": "1942",
+   "col_meta": {
+    "1": {
+     "unit": "",
+     "kind": "rate",
+     "pc": false,
+     "color": "seq"
+    },
+    "2": {
+     "unit": "",
+     "kind": "rate",
+     "pc": false,
+     "color": "seq"
+    },
+    "5": {
+     "unit": "",
+     "kind": "rate",
+     "pc": false,
+     "color": "seq"
+    },
+    "6": {
+     "unit": "",
+     "kind": "rate",
+     "pc": false,
+     "color": "seq"
+    }
+   },
+   "check_total": false
+  },
+  {
+   "book": "japan-1942-43",
+   "table": "p0618_1",
+   "part": 0,
+   "label_col": 0,
+   "columns": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "default": 0,
+   "total_row": 49,
+   "date": "1942",
+   "period": "1942",
+   "col_meta": {
+    "1": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "2": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "3": {
+     "unit": "",
+     "kind": "rate",
+     "pc": false,
+     "color": "seq"
+    },
+    "4": {
+     "unit": "",
+     "kind": "rate",
+     "pc": false,
+     "color": "seq"
+    }
+   },
+   "check_total": false
+  },
+  {
+   "book": "japan-1946-48",
+   "table": "p0507_1",
+   "part": 0,
+   "label_col": 0,
+   "columns": [
+    1
+   ],
+   "default": 0,
+   "total_row": 46,
+   "date": "1947",
+   "period": "1942",
+   "col_meta": {
+    "1": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    }
+   }
+  },
+  {
+   "book": "japan-1946-48",
+   "table": "p0072_1",
+   "part": 0,
+   "label_col": 0,
+   "columns": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "default": 0,
+   "total_row": 46,
+   "date": "1947",
+   "period": "1942",
+   "col_meta": {
+    "1": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "2": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "3": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "4": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    }
+   }
+  },
+  {
+   "book": "japan-1946-48",
+   "table": "p0235_1",
+   "part": 0,
+   "label_col": 0,
+   "columns": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "default": 0,
+   "total_row": null,
+   "date": "1945",
+   "period": "1942",
+   "col_meta": {
+    "1": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "2": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "3": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "4": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "5": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    }
+   }
+  },
+  {
+   "book": "japan-1946-48",
+   "table": "p0353_3",
+   "part": 0,
+   "label_col": 0,
+   "columns": [
+    1,
+    2,
+    3
+   ],
+   "default": 0,
+   "total_row": null,
+   "date": "1946",
+   "period": "1942",
+   "col_meta": {
+    "1": {
+     "unit": "",
+     "kind": "other",
+     "pc": false,
+     "color": "seq"
+    },
+    "2": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "3": {
+     "unit": "",
+     "kind": "rate",
+     "pc": false,
+     "color": "seq"
+    }
+   },
+   "check_total": false
+  },
+  {
+   "book": "japan-1946-48",
+   "table": "p0366_1",
+   "part": 0,
+   "label_col": 0,
+   "columns": [
+    1,
+    2,
+    5,
+    6,
+    7,
+    8
+   ],
+   "default": 0,
+   "total_row": 46,
+   "date": "1947",
+   "period": "1942",
+   "col_meta": {
+    "1": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "2": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "5": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "6": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "7": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "8": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    }
+   }
+  },
+  {
+   "book": "japan-1946-48",
+   "table": "p0542_2",
+   "part": 0,
+   "label_col": 0,
+   "columns": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "default": 0,
+   "total_row": 45,
+   "date": "1947",
+   "period": "1942",
+   "col_meta": {
+    "1": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "2": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "3": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    },
+    "4": {
+     "unit": "",
+     "kind": "count",
+     "pc": true,
+     "color": "seq"
+    }
+   }
+  },
+  {
+   "book": "japan-manchoukuo-1934",
+   "table": "p1-0076_3",
+   "part": 0,
+   "label_col": 0,
+   "columns": [
+    1,
+    2,
+    3
+   ],
+   "default": 0,
+   "total_row": null,
+   "date": "1930",
+   "period": "1930",
+   "col_meta": {
+    "1": {
+     "unit": "",
+     "kind": "other",
+     "pc": false,
+     "color": "seq"
+    },
+    "2": {
+     "unit": "",
+     "kind": "count",
+     "pc": false,
+     "color": "seq"
+    },
+    "3": {
+     "unit": "",
+     "kind": "rate",
+     "pc": false,
+     "color": "seq"
+    }
+   },
+   "check_total": false
+  },
+  {
+   "book": "japan-manchoukuo-1936",
+   "table": "p1-0087_4",
+   "part": 0,
+   "label_col": 0,
+   "columns": [
+    1,
+    2
+   ],
+   "default": 0,
+   "total_row": null,
+   "date": "1930",
+   "period": "1930",
+   "col_meta": {
+    "1": {
+     "unit": "",
+     "kind": "rate",
+     "pc": false,
+     "color": "seq"
+    },
+    "2": {
+     "unit": "",
+     "kind": "rate",
+     "pc": false,
+     "color": "seq"
+    }
+   },
+   "check_total": false
+  },
+  {
+   "book": "japan-manchoukuo-1938",
+   "table": "p1-0096_2",
+   "part": 0,
+   "label_col": 0,
+   "columns": [
+    1,
+    2
+   ],
+   "default": 0,
+   "total_row": null,
+   "date": "1935",
+   "period": "1930",
+   "col_meta": {
+    "1": {
+     "unit": "",
+     "kind": "rate",
+     "pc": false,
+     "color": "seq"
+    },
+    "2": {
+     "unit": "",
+     "kind": "rate",
+     "pc": false,
+     "color": "seq"
+    }
+   },
+   "check_total": false
+  },
+  {
+   "book": "japan-manchoukuo-1939",
+   "table": "p1-0089_2",
+   "part": 0,
+   "label_col": 0,
+   "columns": [
+    1,
+    2
+   ],
+   "default": 0,
+   "total_row": null,
+   "date": "1935",
+   "period": "1930",
+   "col_meta": {
+    "1": {
+     "unit": "",
+     "kind": "rate",
+     "pc": false,
+     "color": "seq"
+    },
+    "2": {
+     "unit": "",
+     "kind": "rate",
+     "pc": false,
+     "color": "seq"
+    }
+   },
    "check_total": false
   }
  ]
