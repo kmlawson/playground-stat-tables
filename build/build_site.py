@@ -120,7 +120,7 @@ BOOKS = [
      "source": "LLM-transcribed from the Internet Archive scan (photographs of the pamphlet).",
      "gaps": "All ryokan listings (50 tables, one per prefecture or territory as printed), the Bureau's offices, the transport guide (one row per place) and the colophon are transcribed; the prose on buying and using coupons and the reply forms are not. The column headings printed on p. 6 are used for every listing, as the pamphlet does not repeat them. The telephone numbers are printed in very small stacked kanji numerals; those that could not be read with confidence are marked [?]. Read by Claude Opus agents, one spread per mission; not checked by a second reader.",
      "scan": "https://archive.org/details/20220423_20220423_1107/page/n{leaf}/mode/1up",
-     "item": "https://archive.org/details/20220423_20220423_1107", "blank_marking": True},
+     "item": "https://archive.org/details/20220423_20220423_1107", "blank_marking": True, "kanji_full": "cells"},
     {"slug": "japan-sanitary-1907-08", "dir": "Japan_Sanitary_Bureau_1907", "model": "Claude Sonnet 5.5 and Haiku 5.5",
      "title": "Annual Report of the Central Sanitary Bureau 1907-08", "subtitle": "The Annual Report of the Central Sanitary Bureau of the Department for Home Affairs of the Imperial Japanese Government for the 40th and 41st Years of Meiji",
      "publisher": "Central Sanitary Bureau, Department for Home Affairs, Tokyo, 1910",
@@ -1963,7 +1963,7 @@ def main():
                    .replace("__XL__", json.dumps(xl[b["slug"]], ensure_ascii=False).replace("</", "<\\/"))
                    .replace("__HIDEIMG__", "true" if b.get("hide_images") else "false")
                    .replace("__KANJINUMS__", open(os.path.join(SCRIPTS, "kanji_nums.js"), encoding="utf-8").read().replace("if(typeof module!==\"undefined\")module.exports=KN;\n", ""))
-                   .replace("__KNFULL__", "true" if b.get("kanji_full") else "false")
+                   .replace("__KNFULL__", json.dumps(b.get("kanji_full") or False))
                    .replace("__ORIG__", json.dumps(orig_link(b), ensure_ascii=False))
                    .replace("__PTOC__", json.dumps(printed_toc(b, clean), ensure_ascii=False).replace("</", "<\\/"))
                    .replace("__MARKED__", "true" if b.get("blank_marking") else "false")
@@ -2543,7 +2543,7 @@ function tableHTML(t,q,other){const ch=!other&&hasChart(t);let h=`<section class
  if(t.context)h+=`<p class="ctx"><b>Context.</b> ${hl(t.context,q)}</p>`;
  (t.parts||[]).forEach((p,pi)=>{if(p.label)h+=`<div class="part">${hl(p.label,q)}</div>`;
   h+=`<div class="tw" data-p="${pi}" tabindex="0"><table>${headHTML(p.columns,q)}<tbody>`;
-  p.rows.forEach((r,ri)=>{const sec=r.length>1&&r.slice(1).every(c=>c==="");h+=`<tr data-i="${ri}"${sec?(CJK.test(r[0])?' class="sec cjk"':' class="sec"'):""}>`+r.map((c,j)=>c==="[?]"?`<td class="illeg" title="Unreadable in the scan" aria-label="unreadable"></td>`:`<td class="${j&&isNum(kn(c))?"num":""}${!j?wcls(c,12,3):""}${j&&c===""&&!sec&&!MARKED?" blank":""}"${j&&c===""&&!sec&&MARKED?' title="Blank in the original"':""}>${hl(kn(c),q)}</td>`).join("")+"</tr>"});
+  p.rows.forEach((r,ri)=>{const sec=r.length>1&&r.slice(1).every(c=>c==="");h+=`<tr data-i="${ri}"${sec?(CJK.test(r[0])?' class="sec cjk"':' class="sec"'):""}>`+r.map((c,j)=>c==="[?]"?`<td class="illeg" title="Unreadable in the scan" aria-label="unreadable"></td>`:`<td class="${j&&isNum(kn(c))?"num":""}${!j?wcls(c,12,3):""}${j&&c===""&&!sec&&!MARKED?" blank":""}"${j&&c===""&&!sec&&MARKED?' title="Blank in the original"':""}>${/^https:\/\/archive\.org\/details\/\S+$/.test(c)?`<a href="${esc(c)}" target="_blank" rel="noopener">scan ↗</a>`:hl(kn(c),q)}</td>`).join("")+"</tr>"});
   h+="</tbody></table></div>";if(ch)h+=`<div class="tchart" data-id="${esc(t.id)}" data-p="${pi}"></div>`});
  if((t.footnotes||[]).length){const fn=t.footnotes.map(n=>hl(n,q)),hit=fn.some(x=>x.includes("<mark>"));h+=`<details class="notes"${hit?" open":""}><summary>Printed notes (${fn.length})</summary><ul>${fn.map(x=>`<li>${x}</li>`).join("")}</ul></details>`;}
  if((t.transcriber_notes||[]).length)h+=`<details class="notes"><summary${t._warn?' class="warn"':""}>Transcriber's notes (${t.transcriber_notes.length})${t._warn?" — includes unreadable or doubtful cells":""}</summary><ul>${t.transcriber_notes.map(n=>`<li class="${warnRe.test(n)?"warn":""}">${esc(n)}</li>`).join("")}</ul></details>`;
@@ -2790,7 +2790,10 @@ def build_directory(book):
             app = e.get("appendix") or d.get("appendix") or ""
             entries.append({"a": app, "s": sec, **({"k": "i"} if book.get("dir_index") and app.startswith(book["dir_index"]) else {}), "n": (e.get("name") or "").rstrip(" ,.") + (" " + e["mark"] if e.get("mark") else "") + (f' ({e["rank"]})' if e.get("rank") else ""),
                             "t": e.get("text") or "", "p": e.get("page") or ", ".join(d.get("printed_pages") or []),
-                            "l": scan["label"], "u": scan["url"]})
+                            "l": scan["label"], "u": scan["url"],
+                            # optional: the entry's printed fields as [label, value] pairs and its descriptive text,
+                            # shown one field per line under bold labels ("t" keeps everything, for search)
+                            **({"f": e["fields"]} if e.get("fields") else {}), **({"d": e["description"]} if e.get("description") else {})})
     committed = os.path.join(HERE, "data", book["slug"] + "-directory.json")
     if not files and os.path.exists(committed):  # book folder not on this machine: rebuild the page from the committed data
         with open(committed, encoding="utf-8") as fh:
@@ -2897,6 +2900,7 @@ main{max-width:900px;margin:0 auto;padding:10px 16px 60px}
 .e{background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--accent);padding:9px 12px;margin:0 0 8px}
 .e b{font-size:15.5px}
 .e .t{font-size:14.5px}
+.e .fl{font-size:14px;margin:4px 0 0;line-height:1.4}.e .fl>div{padding-left:1.2em;text-indent:-1.2em}.e .dsc{font-size:14.5px;margin:6px 0 0}
 #toc h2{margin:4px 0 6px;font-size:20px}#toc h3{margin:14px 0 8px;font-size:16px}
 .tocgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,190px),1fr));gap:8px;margin-bottom:6px}
 .tocbtn{display:block;padding:8px 10px;border:1px solid var(--line);border-radius:6px;background:var(--panel);color:var(--ink);text-decoration:none;font-weight:bold;font-size:15px;line-height:1.25}
@@ -2977,7 +2981,7 @@ function more(terms){terms=terms||norm($("#q").value.trim()).split(/\s+/).filter
    i=j;end=Math.max(end,i);continue}
   i++;
   const ln=(n,t)=>(n?`<b>${hl(n,terms)}</b> `:"")+`<span class="t">${hl(t||"",terms)}</span>`;
-  const body=(e.nj!==undefined)?(JF?[[e.nj,e.tj],[e.ne,e.te]]:[[e.ne,e.te],[e.nj,e.tj]]).filter(x=>x[0]||x[1]).map((x,i)=>`<div class="l${i+1}">${i===0&&e.no?`<span class="fno">${esc(e.no)}.</span> `:""}${ln(x[0],x[1])}</div>`).join(""):`<b>${hl(e.n,terms)}</b> <span class="t">${hl(e.t,terms)}</span>`;
+  const body=(e.nj!==undefined)?(JF?[[e.nj,e.tj],[e.ne,e.te]]:[[e.ne,e.te],[e.nj,e.tj]]).filter(x=>x[0]||x[1]).map((x,i)=>`<div class="l${i+1}">${i===0&&e.no?`<span class="fno">${esc(e.no)}.</span> `:""}${ln(x[0],x[1])}</div>`).join(""):(e.f?`<b>${hl(e.n,terms)}</b><div class="fl">${e.f.map(([k,v])=>`<div><b>${esc(k)}:</b> ${hl(v,terms)}</div>`).join("")}</div>${e.d?`<div class="dsc">${hl(e.d,terms)}</div>`:""}`:`<b>${hl(e.n,terms)}</b> <span class="t">${hl(e.t,terms)}</span>`);
   h+=`<div class="e"${e.no?` id="f-${esc(e.no)}"`:""}>${body}<div class="m">p. ${esc(e.p)}${e.u?` · <a href="${e.u}" target="_blank" rel="noopener">${esc(e.l)}</a>`:e.l?" · "+esc(e.l):""}</div></div>`}
  $("#out").insertAdjacentHTML("beforeend",h);shown=Math.min(res.length,i);$("#more").hidden=shown>=res.length}
 function goFirm(no){const f=E.find(e=>e.no===no);if(!f)return;$("#q").value="";sel.value="A:"+f.a;run();

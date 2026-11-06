@@ -46,5 +46,13 @@ function conv(s,full){
   if(b===" "||b==="　")return isK(str[o-2])?m:pos(m);     // 富永 一二 is a name
   if(isK(b)&&!PREFIX.includes(b))return m;               // 富永一二, 四割三二
   return pos(m)})}
-return conv})();
+// full="cells" (クーポン旅館一覧): listings whose figure columns hold bare numbers. A cell that is a number and nothing
+// else converts whatever its length (telephone 三 → 3), and 、 between yen and its sen is a decimal point
+// (二、五〇 → 2.50, 和六、〇〇 → 和6.00); the rest of the text gets the cautious rules, so 三本木町 stays a name.
+const YEN=new RegExp("(["+D+"]+)、(["+D+"]{1,2})(?!["+D+"])","g"),WHOLE=new RegExp("^["+D+"]+$");
+function cells(s){
+ if(typeof s!=="string")return s;const w=s.trim();
+ if(WHOLE.test(w)&&!/^[〇零]+$/.test(w))return pos(w);
+ return conv(s.replace(YEN,(m,a,b,o,str)=>isDig(str[o-1])?m:pos(a)+"."+pos(b)),false)}
+return (s,full)=>full==="cells"?cells(s):conv(s,full)})();
 if(typeof module!=="undefined")module.exports=KN;

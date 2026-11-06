@@ -113,7 +113,7 @@ body.vw-chart .tbl.hasch .tw{display:none}body.vw-table .tchart{display:none}
 <body>
 <header><a href="../../" style="text-decoration:none;font-size:14px">← All books</a><h1><a href="./" onclick="goHome();return false" style="color:inherit;text-decoration:none" title="Back to this book's contents">The Manchoukuo Year Book 1942</a></h1>
 <span class="meta">278 tables · 31,785 cells · LLM-transcribed · <a href="../../data/manchoukuo-1942.json" style="color:inherit">JSON</a> · <a href="../../downloads/manchoukuo-1942-tables.xlsx" style="color:inherit" download>Excel</a></span>
-<a class="dirbtn homebtn" href="./" onclick="goHome();return false" title="Back to this book's contents (chapters and the printed table of contents)">☰ Contents</a><a class="dirbtn" href="directory.html">Directories</a><button class="aboutbtn" onclick="document.getElementById('about').showModal()">About</button><dialog id="about" onclick="if(event.target===this)this.close()"><h3>The Manchoukuo Year Book 1942</h3><div class="pub">Manchoukuo Year Book Co., Hsinking, 1942</div><p>The online Internet Archive copy is the same set of photographs, cropped and in greyscale, so the scan links open the same spread. Pages 502–503 (Mining) and 966–967 (Index) were not photographed. Gaps in table numbering (e.g. Agriculture Tables 2–3 and 11–17) are in the printed book itself.</p><p class="blanknote"><b>Note:</b> In the early books added to this website, cells that are marked blank may be blank because the original was blank, or because the large language model extracting the table had difficulty in reading the cell. Read the transcription notes for each table and check the original source when in doubt.</p><p class="ver">Version 1 update 106 · last updated 05 November 2026, 23:54</p><form method="dialog"><button>Close</button></form></dialog><button id="toggle" title="Toggle light/dark">◐</button></header>
+<a class="dirbtn homebtn" href="./" onclick="goHome();return false" title="Back to this book's contents (chapters and the printed table of contents)">☰ Contents</a><a class="dirbtn" href="directory.html">Directories</a><button class="aboutbtn" onclick="document.getElementById('about').showModal()">About</button><dialog id="about" onclick="if(event.target===this)this.close()"><h3>The Manchoukuo Year Book 1942</h3><div class="pub">Manchoukuo Year Book Co., Hsinking, 1942</div><p>The online Internet Archive copy is the same set of photographs, cropped and in greyscale, so the scan links open the same spread. Pages 502–503 (Mining) and 966–967 (Index) were not photographed. Gaps in table numbering (e.g. Agriculture Tables 2–3 and 11–17) are in the printed book itself.</p><p class="blanknote"><b>Note:</b> In the early books added to this website, cells that are marked blank may be blank because the original was blank, or because the large language model extracting the table had difficulty in reading the cell. Read the transcription notes for each table and check the original source when in doubt.</p><p class="ver">Version 1 update 107 · last updated 06 November 2026, 07:48</p><form method="dialog"><button>Close</button></form></dialog><button id="toggle" title="Toggle light/dark">◐</button></header>
 <div id="wrap">
 <button id="sideopen" type="button" title="Show the table list" aria-label="Show the table list"></button>
 <nav id="side"><div class="ctl">
@@ -185,7 +185,15 @@ function conv(s,full){
   if(b===" "||b==="　")return isK(str[o-2])?m:pos(m);     // 富永 一二 is a name
   if(isK(b)&&!PREFIX.includes(b))return m;               // 富永一二, 四割三二
   return pos(m)})}
-return conv})();
+// full="cells" (クーポン旅館一覧): listings whose figure columns hold bare numbers. A cell that is a number and nothing
+// else converts whatever its length (telephone 三 → 3), and 、 between yen and its sen is a decimal point
+// (二、五〇 → 2.50, 和六、〇〇 → 和6.00); the rest of the text gets the cautious rules, so 三本木町 stays a name.
+const YEN=new RegExp("(["+D+"]+)、(["+D+"]{1,2})(?!["+D+"])","g"),WHOLE=new RegExp("^["+D+"]+$");
+function cells(s){
+ if(typeof s!=="string")return s;const w=s.trim();
+ if(WHOLE.test(w)&&!/^[〇零]+$/.test(w))return pos(w);
+ return conv(s.replace(YEN,(m,a,b,o,str)=>isDig(str[o-1])?m:pos(a)+"."+pos(b)),false)}
+return (s,full)=>full==="cells"?cells(s):conv(s,full)})();
 
 const KNFULL=false;let NF="a";try{NF=localStorage.getItem("numform")||"a"}catch(e){}
 const kn=(s,q)=>NF==="a"?KN(s,KNFULL):s;
@@ -262,7 +270,7 @@ function tableHTML(t,q,other){const ch=!other&&hasChart(t);let h=`<section class
  if(t.context)h+=`<p class="ctx"><b>Context.</b> ${hl(t.context,q)}</p>`;
  (t.parts||[]).forEach((p,pi)=>{if(p.label)h+=`<div class="part">${hl(p.label,q)}</div>`;
   h+=`<div class="tw" data-p="${pi}" tabindex="0"><table>${headHTML(p.columns,q)}<tbody>`;
-  p.rows.forEach((r,ri)=>{const sec=r.length>1&&r.slice(1).every(c=>c==="");h+=`<tr data-i="${ri}"${sec?(CJK.test(r[0])?' class="sec cjk"':' class="sec"'):""}>`+r.map((c,j)=>c==="[?]"?`<td class="illeg" title="Unreadable in the scan" aria-label="unreadable"></td>`:`<td class="${j&&isNum(kn(c))?"num":""}${!j?wcls(c,12,3):""}${j&&c===""&&!sec&&!MARKED?" blank":""}"${j&&c===""&&!sec&&MARKED?' title="Blank in the original"':""}>${hl(kn(c),q)}</td>`).join("")+"</tr>"});
+  p.rows.forEach((r,ri)=>{const sec=r.length>1&&r.slice(1).every(c=>c==="");h+=`<tr data-i="${ri}"${sec?(CJK.test(r[0])?' class="sec cjk"':' class="sec"'):""}>`+r.map((c,j)=>c==="[?]"?`<td class="illeg" title="Unreadable in the scan" aria-label="unreadable"></td>`:`<td class="${j&&isNum(kn(c))?"num":""}${!j?wcls(c,12,3):""}${j&&c===""&&!sec&&!MARKED?" blank":""}"${j&&c===""&&!sec&&MARKED?' title="Blank in the original"':""}>${/^https:\/\/archive\.org\/details\/\S+$/.test(c)?`<a href="${esc(c)}" target="_blank" rel="noopener">scan ↗</a>`:hl(kn(c),q)}</td>`).join("")+"</tr>"});
   h+="</tbody></table></div>";if(ch)h+=`<div class="tchart" data-id="${esc(t.id)}" data-p="${pi}"></div>`});
  if((t.footnotes||[]).length){const fn=t.footnotes.map(n=>hl(n,q)),hit=fn.some(x=>x.includes("<mark>"));h+=`<details class="notes"${hit?" open":""}><summary>Printed notes (${fn.length})</summary><ul>${fn.map(x=>`<li>${x}</li>`).join("")}</ul></details>`;}
  if((t.transcriber_notes||[]).length)h+=`<details class="notes"><summary${t._warn?' class="warn"':""}>Transcriber's notes (${t.transcriber_notes.length})${t._warn?" — includes unreadable or doubtful cells":""}</summary><ul>${t.transcriber_notes.map(n=>`<li class="${warnRe.test(n)?"warn":""}">${esc(n)}</li>`).join("")}</ul></details>`;

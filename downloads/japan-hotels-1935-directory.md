@@ -1,6 +1,6 @@
 # Hotels in Japan 1935 — Who's Who & Directories
 
-128 entries, LLM-transcribed. These entries were transcribed by the vision model of Opus 5.5. Before using any of these details, you must verify specific details with the original source which is linked to whenever possible.
+85 entries, LLM-transcribed. These entries were transcribed by the vision model of Opus 5.5. Before using any of these details, you must verify specific details with the original source which is linked to whenever possible.
 
 
 ## Hotels
@@ -183,7 +183,7 @@
 
 ### Unzen
 
-**** Unzen is a popular hot-spring resort on the slope of Mt. Unzendake. It attracts many visitors during the hot-season, the majority coming from Shanghai, Hongkong, Tsingtao, and other places in China. All the hotels, situated closely together in the town, are clean and comfortable, and provide excellent accommodation for their clientele. — p. 26 ([scan leaf 25](https://archive.org/details/hotels-in-japan/page/n25/mode/1up))
+**Unzen** Unzen is a popular hot-spring resort on the slope of Mt. Unzendake. It attracts many visitors during the hot-season, the majority coming from Shanghai, Hongkong, Tsingtao, and other places in China. All the hotels, situated closely together in the town, are clean and comfortable, and provide excellent accommodation for their clientele. — p. 26 ([scan leaf 25](https://archive.org/details/hotels-in-japan/page/n25/mode/1up))
 
 **Kyushu Hotel, Unzen *** Address: Unzen, Obama-machi, Nagasaki Prefecture. Access: 1 hr. by motor-car from Isahaya Station, 2 hrs. from Nagasaki Station and 40 mins. from Hizen-obama Station on Obama Rly.; Motor-buses are available. Cable ad.: “Kyusyu” Unzen. Telephone: Unzen 9. Management: Tatsuma Shichijo, Proprietor.; Tatsuo Shichijo, Manager. No. of rooms: 56. Total capacity: 100. Charges: (A.P.) Single with bath ¥ 10-13; Double with bath ¥ 18-30; Single without bath ¥ 6-8; Double without bath ¥ 12-16. Meal charges: Breakfast ¥ 1.50; Luncheon ¥ 2.50; Dinner ¥ 2.50. — p. 26 ([scan leaf 25](https://archive.org/details/hotels-in-japan/page/n25/mode/1up))
 
@@ -258,11 +258,6 @@ For walking along the corridors, slippers are provided, which are not, however, 
 
 **4. Food is served in the guests’ room, generally at whatever hour desired** The dishes of the three meals at an inn are somewhat alike. They ordinarily consist of soup (sometimes of two kinds), fish in some form, boiled eggs or omelette, chopped delicacies, vegetables, sliced pickles, etc., and boiled rice (gohan). The guest may eat as many bowls of rice as he wishes. Two or three are usually taken by the average Japanese. The maid (neisan) serves during the meal. She sits near the low table or lacquered tray (o-zen), on which all the dishes are placed in a certain order, and she is ready to refill the china bowl with steaming rice from a wooden tub, or to serve her guests in any other way. To foreign guests who prefer — p. 34 ([scan leaf 33](https://archive.org/details/hotels-in-japan/page/n33/mode/1up))
 
-
-## Useful Hints
-
-### Useful Hints
-
 **5. Guest room serves for dining-room, drawing-room, and bed-room** The bed is made in the middle of the room by spreading over thickly-wadded quilts (futon) on the mats, a single undersheet being attached. The cover is also a thickly-padded futon, usually covered by clean white linen. Should the foreign guests find the absence of a spring mattress rather distressing, they may make the Japanese bed still soft by piling up two or three futon between them and the straw mats (tatami). Extra futon may be had on application. The Japanese pillow is rather tightly stuffed with oat-husks, but foreign tourists may have a softer pillow by folding or doubling a cushion (zabuton) which is used while sitting on the floor. A brazier (hibachi), provides the only heating in the Japanese rooms. It is always put in a convenient place. In the large hibachi, the iron tripod (gotoku) with live charcoal in the middle is laid, and on this a quaint kettle (tetsubin) filled with water is set to keep a constant supply of boiling water. Near the hibachi is placed a dainty tray with a porcelain tea-pot (kyūsu), several teacups and a metal canister of green tea (o-cha) which is supplied by the inn free of charge. In respect of heating it should be pointed out that many inns have now gas and electric-heating, while there are a few which have installed central-heating throughout their premises.
 
 In order to avoid the disturbing attacks of mosquitoes (ka) in summer, the inns provide mosquito-nets (kaya), usually dyed green, and almost as large as the room in which they are hung. Mosquito bites are not dangerous at all, but very vexatious. In large hygienic cities where little water is exposed there are scarcely any mosquitoes at all even in summer. — p. 36 ([scan leaf 35](https://archive.org/details/hotels-in-japan/page/n35/mode/1up))
@@ -288,147 +283,3 @@ Formerly, the perplexing chadai (tea-price) system prevailed in this country. Th
 ### Japan Hotel Association
 
 **JAPAN HOTEL ASSOCIATION** The Japan Hotel Association is an organization affiliated to the Government Board of Tourist Industry and Japan Tourist Bureau. Its aim is to promote the development of hotels and the hotel business in Japan Proper, Chosen, Taiwan, South Manchuria; to provide satisfactory accommodation and entertainment for foreign visitors; to foster mutual cordiality among its members; to correct any possible abuses, and in every way to devise means to add to the comfort and enjoyment of tourists visiting the Orient. Among its members are all the chief and most reliable hotels in the above-mentioned places. The headquarters are in the Traffic Bureau of the Government Railways, Tokyo. Members of the Association are as follows: — p. 38 ([scan leaf 38](https://archive.org/details/hotels-in-japan/page/n38/mode/1up))
-
-### Tokyo
-
-**Imperial Hotel**  — p. 39 ([scan leaf 38](https://archive.org/details/hotels-in-japan/page/n38/mode/1up))
-
-**Marunouchi Hotel**  — p. 39 ([scan leaf 38](https://archive.org/details/hotels-in-japan/page/n38/mode/1up))
-
-**Mampei Hotel**  — p. 39 ([scan leaf 38](https://archive.org/details/hotels-in-japan/page/n38/mode/1up))
-
-**Tokyo Railway Hotel**  — p. 39 ([scan leaf 38](https://archive.org/details/hotels-in-japan/page/n38/mode/1up))
-
-**Omori Hotel**  — p. 39 ([scan leaf 38](https://archive.org/details/hotels-in-japan/page/n38/mode/1up))
-
-### Yokohama
-
-**Hotel New Grand**  — p. 39 ([scan leaf 38](https://archive.org/details/hotels-in-japan/page/n38/mode/1up))
-
-### Kamakura
-
-**Kaihin Hotel**  — p. 39 ([scan leaf 38](https://archive.org/details/hotels-in-japan/page/n38/mode/1up))
-
-### Miyanoshita
-
-**Fujiya Hotel**  — p. 39 ([scan leaf 38](https://archive.org/details/hotels-in-japan/page/n38/mode/1up))
-
-### Atami
-
-**Atami Hotel**  — p. 39 ([scan leaf 38](https://archive.org/details/hotels-in-japan/page/n38/mode/1up))
-
-**Mampei Hotel**  — p. 39 ([scan leaf 38](https://archive.org/details/hotels-in-japan/page/n38/mode/1up))
-
-### Nikko
-
-**Kanaya Hotel**  — p. 39 ([scan leaf 38](https://archive.org/details/hotels-in-japan/page/n38/mode/1up))
-
-**Lakeside Hotel**  — p. 39 ([scan leaf 38](https://archive.org/details/hotels-in-japan/page/n38/mode/1up))
-
-### Karuizawa
-
-**Mampei Hotel**  — p. 39 ([scan leaf 38](https://archive.org/details/hotels-in-japan/page/n38/mode/1up))
-
-**Mikasa Hotel**  — p. 39 ([scan leaf 38](https://archive.org/details/hotels-in-japan/page/n38/mode/1up))
-
-### Matsushima
-
-**Park Hotel**  — p. 39 ([scan leaf 38](https://archive.org/details/hotels-in-japan/page/n38/mode/1up))
-
-### Nagoya
-
-**Nagoya Hotel**  — p. 39 ([scan leaf 38](https://archive.org/details/hotels-in-japan/page/n38/mode/1up))
-
-### Gifu
-
-**Nagaragawa Hotel**  — p. 39 ([scan leaf 38](https://archive.org/details/hotels-in-japan/page/n38/mode/1up))
-
-### Kyoto
-
-**Kyoto Hotel**  — p. 39 ([scan leaf 38](https://archive.org/details/hotels-in-japan/page/n38/mode/1up))
-
-**Kyoto Station Hotel**  — p. 39 ([scan leaf 38](https://archive.org/details/hotels-in-japan/page/n38/mode/1up))
-
-**Miyako Hotel**  — p. 39 ([scan leaf 38](https://archive.org/details/hotels-in-japan/page/n38/mode/1up))
-
-### Nara
-
-**Nara Hotel**  — p. 39 ([scan leaf 38](https://archive.org/details/hotels-in-japan/page/n38/mode/1up))
-
-### Osaka
-
-**Dobuil Hotel**  — p. 39 ([scan leaf 38](https://archive.org/details/hotels-in-japan/page/n38/mode/1up))
-
-**Osaka Hotel**  — p. 39 ([scan leaf 38](https://archive.org/details/hotels-in-japan/page/n38/mode/1up))
-
-### Kōshien
-
-**Koshien Hotel**  — p. 39 ([scan leaf 38](https://archive.org/details/hotels-in-japan/page/n38/mode/1up))
-
-### Takarazuka
-
-**Takarazuka Hotel**  — p. 39 ([scan leaf 38](https://archive.org/details/hotels-in-japan/page/n38/mode/1up))
-
-### Kobe
-
-**Oriental Hotel**  — p. 39 ([scan leaf 38](https://archive.org/details/hotels-in-japan/page/n38/mode/1up))
-
-**Tor Hotel**  — p. 39 ([scan leaf 38](https://archive.org/details/hotels-in-japan/page/n38/mode/1up))
-
-### Miyajima
-
-**Miyajima Hotel**  — p. 39 ([scan leaf 38](https://archive.org/details/hotels-in-japan/page/n38/mode/1up))
-
-### Shimonoseki
-
-**San-yo Hotel**  — p. 39 ([scan leaf 38](https://archive.org/details/hotels-in-japan/page/n38/mode/1up))
-
-### Beppu
-
-**Kamenoi Hotel**  — p. 39 ([scan leaf 38](https://archive.org/details/hotels-in-japan/page/n38/mode/1up))
-
-### Nagasaki
-
-**Hotel du Japon**  — p. 39 ([scan leaf 38](https://archive.org/details/hotels-in-japan/page/n38/mode/1up))
-
-### Unzen
-
-**Kyushu Hotel**  — p. 39 ([scan leaf 38](https://archive.org/details/hotels-in-japan/page/n38/mode/1up))
-
-**Shinyu Hotel**  — p. 39 ([scan leaf 38](https://archive.org/details/hotels-in-japan/page/n38/mode/1up))
-
-**Unzen Hotel**  — p. 39 ([scan leaf 38](https://archive.org/details/hotels-in-japan/page/n38/mode/1up))
-
-**Yumei Hotel**  — p. 39 ([scan leaf 38](https://archive.org/details/hotels-in-japan/page/n38/mode/1up))
-
-### Taihoku
-
-**Taiwan Railway Hotel**  — p. 39 ([scan leaf 38](https://archive.org/details/hotels-in-japan/page/n38/mode/1up))
-
-### Keijo
-
-**Chosen Hotel**  — p. 39 ([scan leaf 38](https://archive.org/details/hotels-in-japan/page/n38/mode/1up))
-
-### Heijo
-
-**Heijo Railway Hotel**  — p. 39 ([scan leaf 38](https://archive.org/details/hotels-in-japan/page/n38/mode/1up))
-
-### Dairen
-
-**Yamato Hotel**  — p. 39 ([scan leaf 38](https://archive.org/details/hotels-in-japan/page/n38/mode/1up))
-
-### Hoshigaura
-
-**Yamato Hotel**  — p. 39 ([scan leaf 38](https://archive.org/details/hotels-in-japan/page/n38/mode/1up))
-
-### Ryojun
-
-**Yamato Hotel**  — p. 39 ([scan leaf 38](https://archive.org/details/hotels-in-japan/page/n38/mode/1up))
-
-### Mukden
-
-**Yamato Hotel**  — p. 39 ([scan leaf 38](https://archive.org/details/hotels-in-japan/page/n38/mode/1up))
-
-### Hsinking
-
-**Yamato Hotel**  — p. 39 ([scan leaf 38](https://archive.org/details/hotels-in-japan/page/n38/mode/1up))
