@@ -173,7 +173,7 @@ def build_tag_pages(pages):
     key_html = '<div class="coverage-key" aria-label="Collection colour key"><b>Collections:</b>' + ''.join(f'<span><i style="background:{COLORS[i]}"></i>{html.escape(name)}</span>' for i, name in enumerate(COLLECTIONS.values())) + '</div>'
     body = body.replace('<div class="coverage">', key_html + '<div class="coverage">', 1)
     body = ('<p style="margin:4px 0 18px"><a href="with-maps.html" style="display:inline-block;padding:8px 14px;border-radius:6px;'
-            'background:var(--accent);color:var(--accent-ink);text-decoration:none;font:600 15px/1.2 system-ui,sans-serif">'
+            'background:var(--accent);color:var(--accent-ink);text-decoration:none;font-weight:600;font-size:15px;line-height:1.2">'
             'Tables with Map →</a></p>') + body
     (topics_dir / "index.html").write_text(shell("Tables by topic and tag", body, {"mode": "index", "books": books, "tagCounts": {identifier: facet_counts[("tags", identifier)] for identifier in labels["tags"]}, "tagTopics": {identifier: sorted(topics) for identifier, topics in tag_topics.items()}}))
     print(f"Tag pages: {len(labels['topics'])} topics, {len(labels['tags'])} details, {len(items):,} tables; original data unchanged")
