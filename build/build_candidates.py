@@ -105,7 +105,7 @@ OLD = str.maketrans({
     "鐵": "鉄", "與": "与", "來": "来", "兩": "両", "壽": "寿", "榮": "栄", "莊": "荘", "惠": "恵",
     "衞": "衛", "傳": "伝", "實": "実", "鹽": "塩", "驛": "駅", "舊": "旧", "淺": "浅", "峯": "峰",
     "髙": "高", "﨑": "崎", "嵜": "崎", "邉": "辺", "澁": "渋", "澀": "渋", "籠": "篭", "肅": "粛",
-    "陜": "陝", "雲": "雲", "藝": "芸", "條": "条", "險": "険", "檜": "桧", "蠣": "蛎", "與": "与",
+    "陜": "陝", "尙": "尚", "淸": "清", "灣": "湾", "臺": "台", "廣": "広", "東": "東", "蘇": "蘇", "隸": "隷", "爾": "爾", "雲": "雲", "藝": "芸", "條": "条", "險": "険", "檜": "桧", "蠣": "蛎", "與": "与",
 })
 CITY_SUFFIX = re.compile(r"(市|區|区|府|町|驛|駅|[-\s]?(?:shi|city|machi|fu)|\s*station)$", re.I)
 PROV_SUFFIX = re.compile(r"(省|州|廳|庁|道|[-\s]?(?:sho|shō|shu|shū|cho|chō|do|dō|province))$", re.I)
@@ -204,6 +204,16 @@ def build_indexes(F, M):
     ix["taiwan-gun"] = index(gun, F.city, ["en", "local", "ja", "zh"])
     ix["manchukuo"] = index(sub("manchukuo"), F.prov, ["en", "local", "ja", "zh"])
     ix["china"] = index(sub("china"), F.prov, ["en", "local", "ja", "zh"])
+    # Older names and spellings in the year books for provinces the map draws (Chihli is Hebei before 1928,
+    # Fengtien/Shengking is Liaoning before 1929).
+    for k, names in {"Hebei": ["Chihli", "直隸", "Hopeh", "Hopei"], "Liaoning": ["Fengtien", "奉天", "Shengking", "Mukden Province"],
+                     "Sichuan": ["Szechuan", "Szechuen", "Sze-chuan", "Szechwan"], "Guizhou": ["Kueichow", "Kweichau", "Kweichou"],
+                     "Guangxi": ["Kuangsi", "Kwangsi"], "Guangdong": ["Kuangtung", "Kwangtung"], "Qinghai": ["Chinghai", "Tsinghai", "Kokonor"],
+                     "Ningxia": ["Ningsia", "Ninghsia"], "Hubei": ["Hupei"], "Heilongjiang": ["Heilungchiang", "Hei-lung-chiang"],
+                     "Shaanxi": ["Shenhsi", "Shensi"], "Shanxi": ["Shanhsi"], "Gansu": ["Kansuh"], "Fujian": ["Fuhkien"],
+                     "Zhejiang": ["Chehkiang"], "Jiangsu": ["Kiangsoo"], "Henan": ["Honan"], "Xinjiang": ["Sinkiang"]}.items():
+        for n in names:
+            ix["china"].setdefault(F.prov(n), k)
     ix["mandate"] = index(sub("mandate-groups"), F.prov, ["en", "local", "ja", "zh"])
     # The colonies the site's spec already carries, by its own matcher.
     ix["empire"] = None
@@ -280,6 +290,9 @@ def chains(tables):
     return out
 
 
+# The twenty 廳 of 1901–1920, which the 1920 州 do not follow (names not also a 州 or 廳 of 1920 onwards).
+OLD_TING = {"宜蘭", "桃園", "苗栗", "彰化", "南投", "斗六", "嘉義", "鹽水港", "塩水港", "蕃薯寮", "鳳山", "阿緱", "恒春", "恆春",
+            "深坑", "基隆"}
 CIRCUITS = {"kinai", "sanyo", "sanin", "nankai", "saikai"}
 TW_SHU = re.compile(r"(州|廳|[-\s](?:sh[uū]|ch[oō])|\bprefecture)$", re.I)
 STATION_WORDS = re.compile(r"驛|駅|停車場|\bstations?\b", re.I)
@@ -290,7 +303,8 @@ TAIL = re.compile(r"\s*(?:[(（][^)）]*[)）]|[*＊※])$")
 
 
 def clean(label):
-    s = LEAD.sub("", str(label)).strip()
+    s = re.sub(r"\s*\((?:cont[\'’]?d\.?|continued)\)\s*$", "", str(label), flags=re.I)
+    s = LEAD.sub("", s).strip()
     s = re.sub(r"(?<=[一-鿿])\s+(?=[一-鿿])", "", s)
     if re.search(r"[一-鿿]", s):     # English labels keep "(Formosa)" and the like
         s = TAIL.sub("", s)
@@ -342,10 +356,13 @@ def classify(labels, M, F, ix, stations_said=False):
         hit = {ix[name][fold(l)] for l in rows_hit}
         if len(hit) < SETS[name][0]:
             continue
-        # 臺北 is a city and a prefecture: without the suffix it is the city.
-        if name == "taiwan-shu" and suffixed < 3:
+        # 臺北 is a city and a prefecture: without the suffix it is the city, unless six of the eight 州・廳 are
+        # named (新竹, 臺東, 花蓮港 and 澎湖 together are a list of prefectures, not of towns).
+        if name == "taiwan-shu" and suffixed < 3 and len(hit) < 6:
             continue
         fl = []
+        if name == "taiwan-shu" and any(F.prov(l) in OLD_TING for l in labs):
+            fl.append("older 廳 scheme (before 1920): does not fit the map's 州")
         if name == "countries":
             fl.append("%d of %d rows are on the map" % (len(rows_hit), n))
         elif len(rows_hit) < MIN_OTHER_SHARE * n:
@@ -409,8 +426,27 @@ def state(part, axis, M, F):
     return g, share, unread, cells
 
 
-def survey(site, M, F, ix):
-    books = [b for b in books_of(site) if b["slug"].startswith("japan-")]
+# The volumes surveyed, by the home page's sections (build_site.group_of), and the units each region's tables are
+# first of all about: the prefectures for Japan, the provinces or prefectures for the colonies and China.
+REGIONS = [
+    ("japan", "Japan", ("prefectures",)),
+    ("china", "China", ("china",)),
+    ("korea", "Korea", ("korea",)),
+    ("taiwan", "Taiwan", ("taiwan-shu", "taiwan-gun")),
+    ("south-seas", "South Seas", ("mandate",)),
+]
+PRIMARY_NAME = {"prefectures": "Prefecture map", "china": "Chinese provinces", "korea": "Korean provinces (道)",
+                "taiwan-shu": "Taiwanese prefectures and districts", "mandate": "South Seas groups (支廳)"}
+
+
+def group_of(b):
+    """The home page's section of a book (the same rule as build_site.group_of)."""
+    return b.get("group") or next((g for g in ("japan", "china", "korea", "taiwan") if b["slug"].startswith(g)),
+                                  "manchuria" if b["slug"].startswith("manch") else "other")
+
+
+def survey(site, M, F, ix, region="japan", primary=("prefectures",)):
+    books = [b for b in books_of(site) if group_of(b) == region]
     linked = {(c["book"], c["table"]) for c in M.load_config().get("tables", [])}
     found = []
     seen_books = []
@@ -441,7 +477,10 @@ def survey(site, M, F, ix):
             if not hits:
                 continue
             en = (tr.get(t["id"]) or {}).get("t") if isinstance(tr.get(t["id"]), dict) else None
-            for kind in ("pref", "city", "other"):
+            for h in hits:
+                if h["set"] in primary:
+                    h["kind"] = "primary"
+            for kind in ("primary", "pref", "city", "other"):
                 hs = [h for h in hits if h["kind"] == kind]
                 if not hs:
                     continue
@@ -488,13 +527,13 @@ def row_html(c):
     text = " ".join([b["slug"], t["id"], t.get("title") or "", c["en"] or "", " ".join(sets), parts]).lower()
     return (
         '<tr data-grade="%s" data-text="%s">'
-        '<td class="id"><a href="%s">%s</a>%s<div class="sub">%s</div></td>'
+        '<td class="id"><input type="checkbox" class="pick" data-u="%s" data-t="%s" aria-label="Choose this table"> <a href="%s">%s</a>%s<div class="sub">%s</div></td>'
         '<td><div lang="ja">%s</div>%s</td>'
         '<td>%s<div class="sub">%s</div></td>'
         '<td class="num">%d × %d</td>'
         '<td><span class="g g-%s">%s</span><div class="sub">%d%% figures%s</div></td>'
         "</tr>"
-    ) % (best["grade"], esc(text), esc(url), esc(t["id"]), badge,
+    ) % (best["grade"], esc(text), esc(url), esc(t.get("title") or ""), esc(url), esc(t["id"]), badge,
          esc(" · ".join(x for x in (no, where + more) if x)),
          title, en, esc(", ".join(sets)), esc(parts),
          best["nrows"], best["ncols"],
@@ -515,32 +554,62 @@ KINDS = [
 ]
 
 
-def section(found, seen_books, site):
+def kinds_for(region, primary):
+    if region == "japan":
+        return [("primary", "prefectures", "1. Prefecture map",
+                 "Thirty or more of the 47 prefectures down the first column or across the headings. "
+                 "These are what the tables site's <em>Show on map</em> link already sends."),
+                ("city", "cities", "2. Data attached to cities",
+                 "Six or more of the map's cities, at least three of them not also a prefecture's name, "
+                 "or ten rows ending in 市. The map has no city link yet."),
+                ("other", "other", "3. Other units the map draws",
+                 "Provinces, colonies, countries, stations and regions, in a good or fair state only. "
+                 "None of these can be sent yet.")]
+    need = " or ".join("%d of the %s" % (SETS[p][0], SETS[p][1]) for p in primary)
+    return [("primary", primary[0], "1. " + PRIMARY_NAME[primary[0]],
+             "Tables naming at least %s the map draws before 1945, down the first column or across the "
+             "headings, in any state. The map has these units; the link does not send them yet." % need),
+            ("pref", "prefectures", "2. Japanese prefectures",
+             "Thirty or more of the 47 prefectures: these the link can send now."),
+            ("city", "cities", "3. Data attached to cities",
+             "Six or more of the map's cities, at least three of them not also a prefecture's name, "
+             "or ten rows ending in 市."),
+            ("other", "other", "4. Other units the map draws",
+             "Other provinces, colonies, countries and regions, in a good or fair state only.")]
+
+
+def section(found, seen_books, site, region="japan", rname="Japan", primary=("prefectures",)):
+    KINDS = kinds_for(region, primary)
     by_kind = defaultdict(list)
     for c in found:
         by_kind[c["kind"]].append(c)
     out = []
     total_tables = sum(n for _, n in seen_books)
-    out.append('<section id="map-candidates" data-section="Map-link candidates">')
-    out.append("<h2>Map-link candidates</h2>")
-    out.append('<p class="lede">Tables in the %d Japan volumes of <em>Old Tables</em> (%s tables) '
+    sid = "map-candidates" if region == "japan" else "map-candidates-" + region
+    out.append('<section id="%s" data-section="%s">' % (sid, "Map-link candidates" if region == "japan" else esc(rname)))
+    out.append("<h2>Map-link candidates: %s</h2>" % esc(rname))
+    out.append(('<p class="lede">Tables in the %d %s volumes of <em>Old Tables</em> (%s tables) '
                "whose rows or headings name places this map can draw. Built %s from the tables site at "
                "<code>%s</code>.</p>"
-               % (len(seen_books), f"{total_tables:,}", datetime.now().strftime("%-d %B %Y, %H:%M"),
-                  esc(site.replace(os.path.expanduser("~"), "~", 1))))
+               % (len(seen_books), esc(rname), f"{total_tables:,}", datetime.now().strftime("%-d %B %Y, %H:%M"),
+                  esc(site.replace(os.path.expanduser("~"), "~", 1)))))
     out.append('<ul class="counts">')
     for kind, slug, head, _ in KINDS:
         L = by_kind[kind]
         g = Counter(max((h["grade"] for h in c["hits"]), key=["check", "fair", "good"].index) for c in L)
-        out.append('<li><a href="#cand-%s">%s</a>: %d tables (%d good, %d fair, %d to check)</li>'
-                   % (slug, esc(head), len(L), g["good"], g["fair"], g["check"]))
+        if not L and kind == "pref" and region != "japan":
+            continue
+        out.append('<li><a href="#cand-%s-%s">%s</a>: %d tables (%d good, %d fair, %d to check)</li>'
+                   % (region, slug, esc(head), len(L), g["good"], g["fair"], g["check"]))
     out.append("</ul>")
     out.append('<div class="filters"><label>Filter <input type="search" class="q" placeholder="title, table id, set…"></label>'
                ' <label><input type="checkbox" class="goodonly"> good only</label></div>')
 
     for kind, slug, head, blurb in KINDS:
         L = by_kind[kind]
-        out.append('<section id="cand-%s" class="kind">' % slug)
+        if not L and kind == "pref" and region != "japan":
+            continue
+        out.append('<section id="cand-%s-%s" class="kind">' % (region, slug))
         out.append("<h3>%s <span class=\"n\">%d</span></h3>" % (esc(head), len(L)))
         out.append("<p>%s</p>" % blurb)
         if kind == "other":
@@ -665,6 +734,36 @@ tr.hide { display: none; }
 """
 
 
+# Ticks persist in this browser; Copy puts the chosen tables' addresses on the clipboard as a request to add map buttons.
+PICKER = """
+<div id="pickbar" style="position:fixed;right:16px;bottom:16px;z-index:5;display:flex;gap:8px;align-items:center;background:var(--card);border:1px solid var(--rule);border-radius:8px;padding:8px 10px;box-shadow:0 2px 8px rgba(0,0,0,.15);font-size:14px">
+<span id="pickn">0 chosen</span><button type="button" id="pickcopy">Copy</button><button type="button" id="pickclear">Clear</button></div>
+<script>
+(function () {
+  var KEY = 'mapcand-picks', picks = {};
+  try { picks = JSON.parse(localStorage.getItem(KEY) || '{}'); } catch (e) {}
+  var boxes = document.querySelectorAll('input.pick');
+  function save() { try { localStorage.setItem(KEY, JSON.stringify(picks)); } catch (e) {} }
+  function count() { var n = Object.keys(picks).length; document.getElementById('pickn').textContent = n + ' chosen'; }
+  boxes.forEach(function (b) {
+    b.checked = !!picks[b.dataset.u];
+    b.addEventListener('change', function () { if (b.checked) picks[b.dataset.u] = b.dataset.t; else delete picks[b.dataset.u]; save(); count(); });
+  });
+  count();
+  document.getElementById('pickclear').onclick = function () { picks = {}; boxes.forEach(function (b) { b.checked = false; }); save(); count(); };
+  document.getElementById('pickcopy').onclick = function () {
+    var us = Object.keys(picks);
+    if (!us.length) { alert('No tables chosen.'); return; }
+    var txt = 'Please add Map buttons to the following tables, and to their similar tables in other editions:\\n\\n' + us.join('\\n') + '\\n';
+    var done = function () { var b = document.getElementById('pickcopy'); b.textContent = 'Copied ' + us.length; setTimeout(function () { b.textContent = 'Copy'; }, 1500); };
+    if (navigator.clipboard) navigator.clipboard.writeText(txt).then(done, function () { prompt('Copy this:', txt); });
+    else prompt('Copy this:', txt);
+  };
+})();
+</script>
+"""
+
+
 def write(block):
     page = open(OUT, encoding="utf-8").read() if os.path.exists(OUT) else TEMPLATE
     if BEGIN not in page or END not in page:
@@ -685,11 +784,15 @@ def main():
     M = load_module(os.path.join(a.site, "build", "maplinks.py"), "maplinks")
     F = Folder(M)
     ix, _ = build_indexes(F, M)
-    found, seen = survey(a.site, M, F, ix)
-    write(section(found, seen, a.site))
-    k = Counter(c["kind"] for c in found)
-    print("%d volumes, %d tables: %d prefecture, %d city, %d other -> %s"
-          % (len(seen), sum(n for _, n in seen), k["pref"], k["city"], k["other"], os.path.relpath(OUT, DEFAULT_SITE)))
+    blocks = []
+    for region, rname, primary in REGIONS:
+        found, seen = survey(a.site, M, F, ix, region, primary)
+        blocks.append(section(found, seen, a.site, region, rname, primary))
+        k = Counter(c["kind"] for c in found)
+        print("%-10s %3d volumes, %6d tables: %d %s, %d prefecture, %d city, %d other"
+              % (rname, len(seen), sum(n for _, n in seen), k["primary"], PRIMARY_NAME[primary[0]], k["pref"], k["city"], k["other"]))
+    write("\n".join(blocks) + PICKER)
+    print("->", os.path.relpath(OUT, DEFAULT_SITE))
 
 
 if __name__ == "__main__":
