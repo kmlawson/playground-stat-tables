@@ -257,3 +257,11 @@ The paths inside still name the book they came from — edit them first.
   `RAYON_NUM_THREADS` = cores − 3 (set inside build_search.py); for other CPU-heavy work (ImageMagick montages and
   crops, rendering, pdfimages over whole books) use `nice -n 15` and `MAGICK_THREAD_LIMIT` = cores − 3, and never
   run more than one heavy local job at a time.
+
+## Directory entries with "label: value" text
+
+`DIR_FIELDS` in `build/build_site.py` names the books whose directory entries run labelled items together, and how
+they are separated (`dot` " · ", `semi` "; ", `prose` sentences). `split_fields` turns them into `f` (one line per
+field, bold label) and `h` (the text before the first label); `t` keeps everything for search. In `prose` a label
+must recur three or more times in the book, so a misprinted colon after an occupation is not taken for a field.
+Bilingual (English/Japanese) entries are left alone. A new directory with this kind of text: add it to `DIR_FIELDS`.

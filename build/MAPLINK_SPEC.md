@@ -204,6 +204,24 @@ The ids are the **JIS X 0401 prefecture codes as two-digit strings**. They fit t
 The site matches printed row labels to these ids in Japanese and English, including old character forms (廣島, 靜岡, 鹿兒島, 沖繩), office names (北海道廳, 樺太廳), pre-war romanisations (Tokio, Kioto, Hiogo, Miye, Gumma, Shidzuoka, Yehime …), separate suffixes (Tōkyō Fu, Kanagawa Ken, Hokkaidō Chō) and footnote marks; city rows and sub-units (兵庫縣／神戸市, 郡部) are never matched to a prefecture. The site keeps the master list in `build/places/japan_prefectures.json`: each id with its modern form, English
 name and old printed variants. The map does not need it; the ids above are the contract.
 
+## 4a. Tables of the empire's parts (additions, still `v: 1`)
+
+Agreed with the map (its `docs/table-links.md`, 2026-11-06); all fields optional and ignored by older code.
+
+- **`units: "territory"`**: the rows are parts of the empire, ids `naichi` (内地), `chosen`, `taiwan`, `karafuto`,
+  `kwantung` (關東州, also 關東州及鐵道附屬地 with the printed label kept), `nanyo`. Never mixed with prefecture ids.
+- **Rows are always places.** A table printed with the places across the top is turned; columns that are neither
+  place nor measure (期間, 年數, 區分) are not sent, and what they say goes into the heading ("(5 years)").
+- **The whole is `total`**, never a row (帝國, 總數, 合計), with **`total.en`** ("Empire", "Total") and `mismatch`
+  against the places sent. A printed 總數 that is a measure (all vehicles) is an ordinary column.
+- **Every part in one payload**: `name` "part — column", `en` with the same levels; short labels written out.
+- **`cols[].series`**: the same string on columns that are one measure at several dates (one scale);
+  **`cols[].date`** orders them. 5- and 10-year rates are separate series.
+- Footnote marks are taken off figures (`* 163.1` → 163.1) and explained in `notes`; `def` opens on a rate where
+  the places differ a hundredfold in size.
+- Site side: entries in `maplinks.json` with `"units": "territory"` list each column by hand (`part`, `line` = the
+  printed row when `"across": true`, else the printed column); `build_territory` in `maplinks.py` builds them.
+
 ## 5. Examples
 
 Two tables carry links at first:

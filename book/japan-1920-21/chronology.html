@@ -107,7 +107,7 @@ function more(terms){terms=terms||norm($("#q").value.trim()).split(/\s+/).filter
    i=j;end=Math.max(end,i);continue}
   i++;
   const ln=(n,t)=>(n?`<b>${hl(n,terms)}</b> `:"")+`<span class="t">${hl(t||"",terms)}</span>`;
-  const body=(e.nj!==undefined)?(JF?[[e.nj,e.tj],[e.ne,e.te]]:[[e.ne,e.te],[e.nj,e.tj]]).filter(x=>x[0]||x[1]).map((x,i)=>`<div class="l${i+1}">${i===0&&e.no?`<span class="fno">${esc(e.no)}.</span> `:""}${ln(x[0],x[1])}</div>`).join(""):(e.f?`<b>${hl(e.n,terms)}</b><div class="fl">${e.f.map(([k,v])=>`<div><b>${esc(k)}:</b> ${hl(v,terms)}</div>`).join("")}</div>${e.d?`<div class="dsc">${hl(e.d,terms)}</div>`:""}`:`<b>${hl(e.n,terms)}</b> <span class="t">${hl(e.t,terms)}</span>`);
+  const body=(e.nj!==undefined)?(JF?[[e.nj,e.tj],[e.ne,e.te]]:[[e.ne,e.te],[e.nj,e.tj]]).filter(x=>x[0]||x[1]).map((x,i)=>`<div class="l${i+1}">${i===0&&e.no?`<span class="fno">${esc(e.no)}.</span> `:""}${ln(x[0],x[1])}</div>`).join(""):(e.f?`<b>${hl(e.n,terms)}</b>${e.h?` <span class="t">${hl(e.h,terms)}</span>`:""}<div class="fl">${e.f.map(([k,v])=>`<div>${k?`<b>${esc(k)}:</b> `:""}${hl(v,terms)}</div>`).join("")}</div>${e.d?`<div class="dsc">${hl(e.d,terms)}</div>`:""}`:`<b>${hl(e.n,terms)}</b> <span class="t">${hl(e.t,terms)}</span>`);
   h+=`<div class="e"${e.no?` id="f-${esc(e.no)}"`:""}>${body}<div class="m">p. ${esc(e.p)}${e.u?` · <a href="${e.u}" target="_blank" rel="noopener">${esc(e.l)}</a>`:e.l?" · "+esc(e.l):""}</div></div>`}
  $("#out").insertAdjacentHTML("beforeend",h);shown=Math.min(res.length,i);$("#more").hidden=shown>=res.length}
 function goFirm(no){const f=E.find(e=>e.no===no);if(!f)return;$("#q").value="";sel.value="A:"+f.a;run();

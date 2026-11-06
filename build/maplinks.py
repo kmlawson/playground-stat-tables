@@ -84,8 +84,91 @@ def encode(payload):
     return base64.urlsafe_b64encode(co.compress(raw) + co.flush()).decode().rstrip("=")
 
 
+TERR = [("關東州", "kwantung"), ("関東州", "kwantung"), ("南洋", "nanyo"), ("內地", "naichi"), ("内地", "naichi"),
+        ("朝鮮", "chosen"), ("臺灣", "taiwan"), ("台湾", "taiwan"), ("樺太", "karafuto")]
+FOOTMARK = re.compile(r"[*＊※†‡]")
+
+
+def match_territory(label):
+    """A part of the empire from a printed label (marks and a parenthesis after it ignored): naichi, chosen, …"""
+    l = re.sub(r"\s*[(（].*$", "", FOOTMARK.sub("", str(label))).strip()
+    return next((pid for k, pid in TERR if l.startswith(k)), None)
+
+
+def clean_label(label):
+    return re.sub(r"\s*[(（].*$", "", FOOTMARK.sub("", str(label))).strip()
+
+
+def tvalue(cell):
+    """value(), with footnote marks taken off the figure ("* 163.1" -> 163.1); their meaning is in the notes."""
+    return value(FOOTMARK.sub("", str(cell)).strip())
+
+
+def build_territory(book, t, tr, cfg):
+    """A table of the empire's parts (spec additions in interactive-japan-map docs/table-links.md): one row per
+    territory, each sent column given by hand in maplinks.json as {"part", "line", name, en, kind, unit, color,
+    series, date}. "across": true when the printed table has the territories across the top, so that "line" is the
+    printed row that becomes the column; otherwise the territories run down "label_col" and "line" is a printed
+    column. "total": {"label", "en"} names the printed whole (a column when across, a row otherwise)."""
+    lab = cfg.get("label_col", 0)
+    tot = cfg.get("total") or {}
+    places, tvals = {}, []
+    for k, c in enumerate(cfg["cols"]):
+        part = t["parts"][c.get("part", 0)]
+        if cfg.get("across"):
+            r = part["rows"][c["line"]]
+            for j, h in enumerate(part["columns"]):
+                pid = match_territory(h)
+                if pid:
+                    places.setdefault(pid, {"id": pid, "label": clean_label(h), "row": j, "v": [""] * len(cfg["cols"])})
+                    places[pid]["v"][k] = tvalue(r[j]) if j < len(r) else ""
+                elif tot and clean_label(h) == tot["label"]:
+                    tvals.append(tvalue(r[j]) if j < len(r) else "")
+        else:
+            got = False
+            for ri, r in enumerate(part["rows"]):
+                pid = match_territory(r[lab])
+                if pid:
+                    places.setdefault(pid, {"id": pid, "label": clean_label(r[lab]), "row": ri, "v": [""] * len(cfg["cols"])})
+                    places[pid]["v"][k] = tvalue(r[c["line"]]) if c["line"] < len(r) else ""
+                elif tot and clean_label(r[lab]) == tot["label"] and not got:
+                    tvals.append(tvalue(r[c["line"]])); got = True
+    rows = list(places.values())
+    total = None
+    if tot and len(tvals) == len(cfg["cols"]):
+        total = {"label": tot["label"], "en": tot.get("en"), "v": tvals}
+        for k, c in enumerate(cfg["cols"]):
+            nums = [x["v"][k] for x in rows if isinstance(x["v"][k], (int, float))]
+            if c.get("kind") in ("count", "amount") and nums and isinstance(tvals[k], (int, float)):
+                sm = round(sum(nums), 6)
+                if abs(sm - tvals[k]) > 1e-6:
+                    total.setdefault("mismatch", {})[str(k)] = sm
+    title_en = (tr or {}).get("t")
+    keys = ("name", "en", "unit", "kind", "color", "series", "date")
+    p = {
+        "v": 1,
+        "src": {"url": f"{SITE}book/{book['slug']}/#{t['id']}", "path": f"book/{book['slug']}/#{t['id']}",
+                "book": book["slug"], "table": t["id"]},
+        "title": {"ja": t.get("title", ""), **({"en": title_en} if title_en else {})},
+        "volume": {"title": book["title"], "year": cfg.get("volume_year") or book.get("_year"),
+                   **({"en": book["subtitle"]} if book.get("subtitle") else {})},
+        "date": cfg.get("date"),
+        "period": cfg.get("period"),
+        "part": None,
+        "units": "territory",
+        "cols": [{k: c[k] for k in keys if c.get(k) is not None} for c in cfg["cols"]],
+        "def": cfg.get("default", 0),
+        "rows": rows,
+        "total": total,
+        "notes": cfg.get("notes") or [],
+    }
+    return p, []
+
+
 def build_payload(book, t, tr, cfg):
     """The v1 payload for one table and its maplinks.json entry (see MAPLINK_SPEC.md)."""
+    if cfg.get("units") == "territory":
+        return build_territory(book, t, tr, cfg)
     part = t["parts"][cfg.get("part", 0)]
     cols = part["columns"]
     lab = cfg.get("label_col", 0)

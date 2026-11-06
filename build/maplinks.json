@@ -5590,6 +5590,714 @@
     }
    },
    "check_total": false
+  },
+  {
+   "book": "japan-toshi-1936",
+   "table": "p0029_2",
+   "units": "territory",
+   "across": true,
+   "total": {
+    "label": "總數",
+    "en": "Total"
+   },
+   "cols": [
+    {
+     "part": 0,
+     "line": 0,
+     "name": "人口 — 大正9年",
+     "en": "Population — 1920 (Taishō 9)",
+     "unit": "人",
+     "kind": "count",
+     "color": "seq",
+     "series": "人口",
+     "date": "1920"
+    },
+    {
+     "part": 0,
+     "line": 1,
+     "name": "人口 — 大正14年",
+     "en": "Population — 1925 (Taishō 14)",
+     "unit": "人",
+     "kind": "count",
+     "color": "seq",
+     "series": "人口",
+     "date": "1925"
+    },
+    {
+     "part": 0,
+     "line": 2,
+     "name": "人口 — 昭和5年",
+     "en": "Population — 1930 (Shōwa 5)",
+     "unit": "人",
+     "kind": "count",
+     "color": "seq",
+     "series": "人口",
+     "date": "1930"
+    },
+    {
+     "part": 0,
+     "line": 3,
+     "name": "人口 — 昭和10年 (速報)",
+     "en": "Population — 1935 (Shōwa 10) preliminary",
+     "unit": "人",
+     "kind": "count",
+     "color": "seq",
+     "series": "人口",
+     "date": "1935"
+    },
+    {
+     "part": 1,
+     "line": 0,
+     "name": "増加數 — 大正9年—大正14年",
+     "en": "Increase — 1920–1925 (5 years)",
+     "unit": "人",
+     "kind": "count",
+     "color": "div",
+     "series": "増加數 (5年)",
+     "date": "1925"
+    },
+    {
+     "part": 1,
+     "line": 1,
+     "name": "増加數 — 大正14年—昭和5年",
+     "en": "Increase — 1925–1930 (5 years)",
+     "unit": "人",
+     "kind": "count",
+     "color": "div",
+     "series": "増加數 (5年)",
+     "date": "1930"
+    },
+    {
+     "part": 1,
+     "line": 2,
+     "name": "増加數 — 昭和5年—昭和10年",
+     "en": "Increase — 1930–1935 (5 years)",
+     "unit": "人",
+     "kind": "count",
+     "color": "div",
+     "series": "増加數 (5年)",
+     "date": "1935"
+    },
+    {
+     "part": 1,
+     "line": 3,
+     "name": "増加數 — 大正9年—昭和5年",
+     "en": "Increase — 1920–1930 (10 years)",
+     "unit": "人",
+     "kind": "count",
+     "color": "div",
+     "series": "増加數 (10年)",
+     "date": "1930"
+    },
+    {
+     "part": 1,
+     "line": 4,
+     "name": "増加數 — 大正14年—昭和10年",
+     "en": "Increase — 1925–1935 (10 years)",
+     "unit": "人",
+     "kind": "count",
+     "color": "div",
+     "series": "増加數 (10年)",
+     "date": "1935"
+    },
+    {
+     "part": 1,
+     "line": 5,
+     "name": "増加數 — 大正9年—昭和10年",
+     "en": "Increase — 1920–1935 (15 years)",
+     "unit": "人",
+     "kind": "count",
+     "color": "div",
+     "date": "1935"
+    },
+    {
+     "part": 2,
+     "line": 0,
+     "name": "増加率 — 大正9年—大正14年",
+     "en": "Rate of increase — 1920–1925 (5 years)",
+     "unit": "%",
+     "kind": "rate",
+     "color": "div",
+     "series": "増加率 (5年)",
+     "date": "1925"
+    },
+    {
+     "part": 2,
+     "line": 1,
+     "name": "増加率 — 大正14年—昭和5年",
+     "en": "Rate of increase — 1925–1930 (5 years)",
+     "unit": "%",
+     "kind": "rate",
+     "color": "div",
+     "series": "増加率 (5年)",
+     "date": "1930"
+    },
+    {
+     "part": 2,
+     "line": 2,
+     "name": "増加率 — 昭和5年—昭和10年",
+     "en": "Rate of increase — 1930–1935 (5 years)",
+     "unit": "%",
+     "kind": "rate",
+     "color": "div",
+     "series": "増加率 (5年)",
+     "date": "1935"
+    },
+    {
+     "part": 2,
+     "line": 3,
+     "name": "増加率 — 大正9年—昭和5年",
+     "en": "Rate of increase — 1920–1930 (10 years)",
+     "unit": "%",
+     "kind": "rate",
+     "color": "div",
+     "series": "増加率 (10年)",
+     "date": "1930"
+    },
+    {
+     "part": 2,
+     "line": 4,
+     "name": "増加率 — 大正14年—昭和10年",
+     "en": "Rate of increase — 1925–1935 (10 years)",
+     "unit": "%",
+     "kind": "rate",
+     "color": "div",
+     "series": "増加率 (10年)",
+     "date": "1935"
+    },
+    {
+     "part": 2,
+     "line": 5,
+     "name": "増加率 — 大正9年—昭和10年",
+     "en": "Rate of increase — 1920–1935 (15 years)",
+     "unit": "%",
+     "kind": "rate",
+     "color": "div",
+     "date": "1935"
+    }
+   ],
+   "default": 15,
+   "date": "1935",
+   "period": "1930",
+   "notes": [
+    "Korea 1920: population from the registers, with many omissions.",
+    "1935: the census's preliminary count."
+   ]
+  },
+  {
+   "book": "japan-toshi-1941",
+   "table": "p0041_1",
+   "units": "territory",
+   "across": true,
+   "total": {
+    "label": "總數",
+    "en": "Total"
+   },
+   "cols": [
+    {
+     "part": 0,
+     "line": 0,
+     "name": "人口 — 大正9年",
+     "en": "Population — 1920 (Taishō 9)",
+     "unit": "人",
+     "kind": "count",
+     "color": "seq",
+     "series": "人口",
+     "date": "1920"
+    },
+    {
+     "part": 0,
+     "line": 1,
+     "name": "人口 — 大正14年",
+     "en": "Population — 1925 (Taishō 14)",
+     "unit": "人",
+     "kind": "count",
+     "color": "seq",
+     "series": "人口",
+     "date": "1925"
+    },
+    {
+     "part": 0,
+     "line": 2,
+     "name": "人口 — 昭和5年",
+     "en": "Population — 1930 (Shōwa 5)",
+     "unit": "人",
+     "kind": "count",
+     "color": "seq",
+     "series": "人口",
+     "date": "1930"
+    },
+    {
+     "part": 0,
+     "line": 3,
+     "name": "人口 — 昭和10年",
+     "en": "Population — 1935 (Shōwa 10)",
+     "unit": "人",
+     "kind": "count",
+     "color": "seq",
+     "series": "人口",
+     "date": "1935"
+    },
+    {
+     "part": 1,
+     "line": 0,
+     "name": "増加數 — 大正9年—大正14年",
+     "en": "Increase — 1920–1925 (5 years)",
+     "unit": "人",
+     "kind": "count",
+     "color": "div",
+     "series": "増加數 (5年)",
+     "date": "1925"
+    },
+    {
+     "part": 1,
+     "line": 1,
+     "name": "増加數 — 大正14年—昭和5年",
+     "en": "Increase — 1925–1930 (5 years)",
+     "unit": "人",
+     "kind": "count",
+     "color": "div",
+     "series": "増加數 (5年)",
+     "date": "1930"
+    },
+    {
+     "part": 1,
+     "line": 2,
+     "name": "増加數 — 昭和5年—昭和10年",
+     "en": "Increase — 1930–1935 (5 years)",
+     "unit": "人",
+     "kind": "count",
+     "color": "div",
+     "series": "増加數 (5年)",
+     "date": "1935"
+    },
+    {
+     "part": 1,
+     "line": 3,
+     "name": "増加數 — 大正9年—昭和5年",
+     "en": "Increase — 1920–1930 (10 years)",
+     "unit": "人",
+     "kind": "count",
+     "color": "div",
+     "series": "増加數 (10年)",
+     "date": "1930"
+    },
+    {
+     "part": 1,
+     "line": 4,
+     "name": "増加數 — 大正14年—昭和10年",
+     "en": "Increase — 1925–1935 (10 years)",
+     "unit": "人",
+     "kind": "count",
+     "color": "div",
+     "series": "増加數 (10年)",
+     "date": "1935"
+    },
+    {
+     "part": 1,
+     "line": 5,
+     "name": "増加數 — 大正9年—昭和10年",
+     "en": "Increase — 1920–1935 (15 years)",
+     "unit": "人",
+     "kind": "count",
+     "color": "div",
+     "date": "1935"
+    },
+    {
+     "part": 2,
+     "line": 0,
+     "name": "増加率 — 大正9年—大正14年",
+     "en": "Rate of increase — 1920–1925 (5 years)",
+     "unit": "%",
+     "kind": "rate",
+     "color": "div",
+     "series": "増加率 (5年)",
+     "date": "1925"
+    },
+    {
+     "part": 2,
+     "line": 1,
+     "name": "増加率 — 大正14年—昭和5年",
+     "en": "Rate of increase — 1925–1930 (5 years)",
+     "unit": "%",
+     "kind": "rate",
+     "color": "div",
+     "series": "増加率 (5年)",
+     "date": "1930"
+    },
+    {
+     "part": 2,
+     "line": 2,
+     "name": "増加率 — 昭和5年—昭和10年",
+     "en": "Rate of increase — 1930–1935 (5 years)",
+     "unit": "%",
+     "kind": "rate",
+     "color": "div",
+     "series": "増加率 (5年)",
+     "date": "1935"
+    },
+    {
+     "part": 2,
+     "line": 3,
+     "name": "増加率 — 大正9年—昭和5年",
+     "en": "Rate of increase — 1920–1930 (10 years)",
+     "unit": "%",
+     "kind": "rate",
+     "color": "div",
+     "series": "増加率 (10年)",
+     "date": "1930"
+    },
+    {
+     "part": 2,
+     "line": 4,
+     "name": "増加率 — 大正14年—昭和10年",
+     "en": "Rate of increase — 1925–1935 (10 years)",
+     "unit": "%",
+     "kind": "rate",
+     "color": "div",
+     "series": "増加率 (10年)",
+     "date": "1935"
+    },
+    {
+     "part": 2,
+     "line": 5,
+     "name": "増加率 — 大正9年—昭和10年",
+     "en": "Rate of increase — 1920–1935 (15 years)",
+     "unit": "%",
+     "kind": "rate",
+     "color": "div",
+     "date": "1935"
+    }
+   ],
+   "default": 15,
+   "date": "1935",
+   "period": "1930",
+   "notes": [
+    "Korea 1920: population from the registers, with many omissions."
+   ]
+  },
+  {
+   "book": "japan-toshi-1936",
+   "table": "p0032_1",
+   "units": "territory",
+   "label_col": 0,
+   "cols": [
+    {
+     "line": 1,
+     "name": "總數 — 全土",
+     "en": "All persons — Whole territory",
+     "unit": "男/女100",
+     "kind": "rate",
+     "color": "seq"
+    },
+    {
+     "line": 2,
+     "name": "總數 — 都市",
+     "en": "All persons — Cities",
+     "unit": "男/女100",
+     "kind": "rate",
+     "color": "seq"
+    },
+    {
+     "line": 3,
+     "name": "內地人 — 全土",
+     "en": "Japanese — Whole territory",
+     "unit": "男/女100",
+     "kind": "rate",
+     "color": "seq"
+    },
+    {
+     "line": 4,
+     "name": "內地人 — 都市",
+     "en": "Japanese — Cities",
+     "unit": "男/女100",
+     "kind": "rate",
+     "color": "seq"
+    },
+    {
+     "line": 5,
+     "name": "土著人 — 全土",
+     "en": "Natives — Whole territory",
+     "unit": "男/女100",
+     "kind": "rate",
+     "color": "seq"
+    },
+    {
+     "line": 6,
+     "name": "土著人 — 都市",
+     "en": "Natives — Cities",
+     "unit": "男/女100",
+     "kind": "rate",
+     "color": "seq"
+    }
+   ],
+   "default": 0,
+   "date": "1930-10-01",
+   "period": "1930",
+   "notes": [
+    "Males per 100 females, 1930 census.",
+    "Kwantung natives include Chinese and a few other foreigners."
+   ]
+  },
+  {
+   "book": "japan-toshi-1936",
+   "table": "p0136_2",
+   "units": "territory",
+   "across": true,
+   "cols": [
+    {
+     "line": 0,
+     "name": "大正11年",
+     "en": "1922 (Taishō 11)",
+     "unit": "kW",
+     "kind": "amount",
+     "color": "seq",
+     "series": "落成發電力",
+     "date": "1922"
+    },
+    {
+     "line": 1,
+     "name": "昭和2年",
+     "en": "1927 (Shōwa 2)",
+     "unit": "kW",
+     "kind": "amount",
+     "color": "seq",
+     "series": "落成發電力",
+     "date": "1927"
+    },
+    {
+     "line": 2,
+     "name": "昭和7年",
+     "en": "1932 (Shōwa 7)",
+     "unit": "kW",
+     "kind": "amount",
+     "color": "seq",
+     "series": "落成發電力",
+     "date": "1932"
+    },
+    {
+     "line": 3,
+     "name": "昭和8年",
+     "en": "1933 (Shōwa 8)",
+     "unit": "kW",
+     "kind": "amount",
+     "color": "seq",
+     "series": "落成發電力",
+     "date": "1933"
+    }
+   ],
+   "default": 3,
+   "date": "1933",
+   "period": "1930",
+   "notes": [
+    "Korea and Karafuto at the end of March of the following year, Taiwan at the year's end, Kwantung at the end of March.",
+    "Not yet completed at the same dates: Korea 323,170 kW, Taiwan 100,000 kW, Karafuto 20 kW."
+   ]
+  },
+  {
+   "book": "japan-toshi-1936",
+   "table": "p0097_3",
+   "units": "territory",
+   "across": true,
+   "total": {
+    "label": "合計",
+    "en": "Total"
+   },
+   "cols": [
+    {
+     "line": 0,
+     "name": "總數",
+     "en": "All motor vehicles",
+     "unit": "臺",
+     "kind": "count",
+     "color": "seq"
+    },
+    {
+     "line": 1,
+     "name": "乘用車",
+     "en": "Passenger cars",
+     "unit": "臺",
+     "kind": "count",
+     "color": "seq"
+    },
+    {
+     "line": 2,
+     "name": "貨物車",
+     "en": "Goods vehicles",
+     "unit": "臺",
+     "kind": "count",
+     "color": "seq"
+    },
+    {
+     "line": 3,
+     "name": "特殊用途車",
+     "en": "Special-purpose vehicles",
+     "unit": "臺",
+     "kind": "count",
+     "color": "seq"
+    }
+   ],
+   "default": 0,
+   "date": "1935-10-31",
+   "period": "1930",
+   "notes": [
+    "From the Resources Bureau's journal Shigen, August 1935."
+   ]
+  },
+  {
+   "book": "japan-toshi-1931",
+   "table": "p0368_1",
+   "units": "territory",
+   "label_col": 0,
+   "total": {
+    "label": "帝國",
+    "en": "Empire"
+   },
+   "cols": [
+    {
+     "line": 2,
+     "name": "人口 — 昭和5年",
+     "en": "Population — 1930 (Shōwa 5)",
+     "unit": "人",
+     "kind": "count",
+     "color": "seq",
+     "series": "人口",
+     "date": "1930"
+    },
+    {
+     "line": 3,
+     "name": "男 — 昭和5年",
+     "en": "Male — 1930 (Shōwa 5)",
+     "unit": "人",
+     "kind": "count",
+     "color": "seq",
+     "date": "1930"
+    },
+    {
+     "line": 4,
+     "name": "女 — 昭和5年",
+     "en": "Female — 1930 (Shōwa 5)",
+     "unit": "人",
+     "kind": "count",
+     "color": "seq",
+     "date": "1930"
+    },
+    {
+     "line": 1,
+     "name": "世帶 — 昭和5年",
+     "en": "Households — 1930 (Shōwa 5)",
+     "unit": "世帶",
+     "kind": "count",
+     "color": "seq",
+     "date": "1930"
+    },
+    {
+     "line": 5,
+     "name": "人口 — 大正14年",
+     "en": "Population — 1925 (Taishō 14)",
+     "unit": "人",
+     "kind": "count",
+     "color": "seq",
+     "series": "人口",
+     "date": "1925"
+    },
+    {
+     "line": 6,
+     "name": "人口 — 大正9年",
+     "en": "Population — 1920 (Taishō 9)",
+     "unit": "人",
+     "kind": "count",
+     "color": "seq",
+     "series": "人口",
+     "date": "1920"
+    }
+   ],
+   "default": 0,
+   "date": "1930-10-01",
+   "period": "1930",
+   "notes": [
+    "1930: the census's preliminary count.",
+    "Korea 1920: population from the registers."
+   ]
+  },
+  {
+   "book": "japan-toshi-1931",
+   "table": "p0368_2",
+   "units": "territory",
+   "label_col": 0,
+   "total": {
+    "label": "帝國",
+    "en": "Empire"
+   },
+   "cols": [
+    {
+     "line": 2,
+     "name": "増加數 — 大正9年—大正14年",
+     "en": "Increase — 1920–1925 (5 years)",
+     "unit": "人",
+     "kind": "count",
+     "color": "div",
+     "series": "増加數",
+     "date": "1925"
+    },
+    {
+     "line": 1,
+     "name": "増加數 — 大正14年—昭和5年",
+     "en": "Increase — 1925–1930 (5 years)",
+     "unit": "人",
+     "kind": "count",
+     "color": "div",
+     "series": "増加數",
+     "date": "1930"
+    },
+    {
+     "line": 5,
+     "name": "増加率 — 大正9年—大正14年 — 總増加率",
+     "en": "Rate of increase — 1920–1925 — Whole period (%)",
+     "unit": "%",
+     "kind": "rate",
+     "color": "div",
+     "series": "總増加率",
+     "date": "1925"
+    },
+    {
+     "line": 3,
+     "name": "増加率 — 大正14年—昭和5年 — 總増加率",
+     "en": "Rate of increase — 1925–1930 — Whole period (%)",
+     "unit": "%",
+     "kind": "rate",
+     "color": "div",
+     "series": "總増加率",
+     "date": "1930"
+    },
+    {
+     "line": 6,
+     "name": "増加率 — 大正9年—大正14年 — 年平均",
+     "en": "Rate of increase — 1920–1925 — Yearly average (%)",
+     "unit": "%",
+     "kind": "rate",
+     "color": "div",
+     "series": "年平均",
+     "date": "1925"
+    },
+    {
+     "line": 4,
+     "name": "増加率 — 大正14年—昭和5年 — 年平均",
+     "en": "Rate of increase — 1925–1930 — Yearly average (%)",
+     "unit": "%",
+     "kind": "rate",
+     "color": "div",
+     "series": "年平均",
+     "date": "1930"
+    }
+   ],
+   "default": 3,
+   "date": "1930-10-01",
+   "period": "1930",
+   "notes": [
+    "1930: the census's preliminary count.",
+    "Korea 1920 is from the registers, so its 1920–1925 increase is overstated."
+   ]
   }
  ]
 }

@@ -2207,6 +2207,64 @@ def printed_toc(b, tables=()):
     return out
 
 
+# Directory entries whose text runs "label: value" items together get them split into fields ("f", one per line under a
+# bold label) and any leading text ("h", shown after the name). "t" keeps the whole text for search. Modes: "dot" (items
+# separated by " · "), "semi" (by "; "), "prose" (sentences, a label being one to four words without a full stop starting
+# a sentence, plus the abbreviated labels in DOT_LABELS). Only entries with two or more labels are split.
+DIR_FIELDS = {"japan-kanko-1941": "dot", "japan-hyakkaten-1941": "dot", "china-1923": "semi", "china-1925-6": "semi",
+              "china-1924-5": "prose", "manchoukuo-1942": "prose", "japan-manchoukuo-1934": "prose",
+              "japan-manchoukuo-1936": "prose", "japan-manchoukuo-1938": "prose", "japan-manchoukuo-1939": "prose",
+              "japan-1929": "prose", "china-1944": "prose"}
+DOT_LABELS = ["Tel.", "Bank Ref.", "Cable Add."]
+PROSE_LABEL = re.compile(r"(?:^|(?<=[.;)] ))(" + "|".join(re.escape(x) for x in DOT_LABELS) +
+                         r"|[A-Z][A-Za-z'&/-]*(?: [A-Za-z'&/-]+){0,3})\s?[:：](?:\s|[—–])")
+
+
+def split_fields(entries, mode):
+    """In "prose" a label must recur (3+ times in the book) and must not be followed by "b. …" or nothing, which is an
+    occupation printed with a colon ("Lieutenant-General: b. 1885"), not a field."""
+    def prose(t, ok):
+        ms = [m for m in PROSE_LABEL.finditer(t) if ok is None or m.group(1) in ok]
+        out = []
+        for i, m in enumerate(ms):
+            end = ms[i + 1].start() if i + 1 < len(ms) else len(t)
+            v = t[m.end():end].strip().lstrip("—–").strip().rstrip(";").strip()
+            out.append((m, v))
+        return out
+    ok = None
+    if mode == "prose":
+        from collections import Counter
+        cnt = Counter(m.group(1) for e in entries if not e.get("f") for m, v in prose(e.get("t") or "", None)
+                      if v and not v.startswith("b. "))
+        ok = {k for k, c in cnt.items() if c >= 3}
+    n = 0
+    for e in entries:
+        t = e.get("t") or ""
+        if e.get("f") or e.get("nj") is not None or not t:
+            continue
+        head, f = "", []
+        if mode in ("dot", "semi"):
+            for seg in t.split(" · " if mode == "dot" else "; "):
+                m = re.match(r"^\s*([^:：]{1,24}?)\s*[:：]\s*(.*)$", seg, re.S)
+                if m and m.group(2):
+                    f.append([m.group(1), m.group(2).strip()])
+                elif f:
+                    f.append(["", seg.strip()])
+                else:
+                    head += (" · " if head else "") + seg.strip()
+        else:
+            ps = [(m, v) for m, v in prose(t, ok) if v and not v.startswith("b. ")]
+            ps = prose(t, {m.group(1) for m, v in ps}) if ps else []   # re-cut so a dropped label stays in the text
+            head = t[:ps[0][0].start()].strip() if ps else t
+            f = [[m.group(1), v] for m, v in ps]
+        if sum(1 for k, _ in f if k) >= 2:
+            e["f"] = f
+            if head:
+                e["h"] = head
+            n += 1
+    return n
+
+
 def added_dates():
     """build/added_dates.json: {slug: ISO time the book's data first went into git}. A book not yet listed is
     stamped with the current time on its first build, so the record keeps itself up to date."""
@@ -2234,6 +2292,8 @@ def landing(cards):
             stat += f' · <b>{b["_chron_n"]:,}</b> chronology events'
             link += f' <a class="go dirgo" href="book/{b["slug"]}/chronology.html">Chronologies →</a>'
         item = f' · <a href="{b["item"]}">original scan</a>' if b.get("item") else ""
+        if b.get("item"):   # list view only (the card has "original scan" under the source line)
+            link += f' <a class="go dirgo scango" href="{b["item"]}" target="_blank" rel="noopener">Original Scan ↗</a>'
         grp = group_of(b)
         home = f'book/{b["slug"]}/' if n else f'book/{b["slug"]}/directory.html' if b.get("dir_only") and b.get("_dir_n") else None
         title = f'<a href="{home}" style="color:inherit;text-decoration:none">{html.escape(b["title"])}</a>' if home else html.escape(b["title"])
@@ -2290,7 +2350,7 @@ footer{margin-top:24px;font-size:13px;color:var(--muted);border-top:1px solid va
 .tools{margin-left:auto;display:inline-flex;align-items:center;gap:6px;font-size:13px;color:var(--accent-ink);opacity:.8}.tools:hover{opacity:1}.tools .lbl{font-size:12px;text-transform:uppercase;letter-spacing:.06em}.seg{display:inline-flex;border:1px solid currentColor;border-radius:999px;overflow:hidden}.viewbtn{font:inherit;font-size:13px;background:transparent;color:inherit;border:0;padding:4px 12px;cursor:pointer;white-space:nowrap}.viewbtn+.viewbtn{border-left:1px solid currentColor}.viewbtn:hover{background:rgba(127,127,127,.15)}#sortseg .viewbtn[aria-pressed="true"]{background:var(--accent-ink);color:var(--accent);font-weight:600}.tools{flex-wrap:wrap}
 body.list .grid{display:block;margin-top:8px}body.list article{flex-direction:row;align-items:center;gap:12px;padding:5px 10px;border:0;border-bottom:1px solid var(--line);border-left:3px solid var(--accent)}
 body.list article+article{margin-top:0}body.list article h2{font-size:16px;margin:0;flex:1;min-width:0}body.list .pub,body.list .stat,body.list .src,body.list .qstat{display:none}
-body.list .links{margin:0;flex-wrap:nowrap;gap:5px}body.list .dirgo{padding:1px 8px;font-size:12.5px;font-weight:normal;white-space:nowrap}
+.scango{display:none!important}body.list .scango{display:inline-block!important;background:#cfe6d5;color:#1f4a2c}:root[data-theme="dark"] body.list .scango{background:#2f5a3d;color:#e4ebe6}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) body.list .scango{background:#2f5a3d;color:#e4ebe6}}body.list .links{margin:0;flex-wrap:nowrap;gap:5px}body.list .dirgo{padding:1px 8px;font-size:12.5px;font-weight:normal;white-space:nowrap}
 @media(max-width:560px){body.list article{flex-wrap:wrap;gap:4px}body.list article h2{flex-basis:100%}body.list .links{flex-wrap:wrap}.tools{margin-left:0}}
 </style></head><body><div class="band"><div>
 <h1>Old Year Book Tables of East Asia</h1>
@@ -2859,6 +2919,9 @@ def build_directory(book):
             entries = json.load(fh)
     if not entries:
         return 0
+    if DIR_FIELDS.get(book["slug"]):
+        n = split_fields(entries, DIR_FIELDS[book["slug"]])
+        print(f"  {book['slug']}: {n:,} directory entries shown as labelled fields")
     os.makedirs(os.path.join(HERE, "book", book["slug"]), exist_ok=True)
     with open(committed, "w", encoding="utf-8") as fh:
         json.dump(entries, fh, ensure_ascii=False, indent=1)
@@ -3040,7 +3103,7 @@ function more(terms){terms=terms||norm($("#q").value.trim()).split(/\s+/).filter
    i=j;end=Math.max(end,i);continue}
   i++;
   const ln=(n,t)=>(n?`<b>${hl(n,terms)}</b> `:"")+`<span class="t">${hl(t||"",terms)}</span>`;
-  const body=(e.nj!==undefined)?(JF?[[e.nj,e.tj],[e.ne,e.te]]:[[e.ne,e.te],[e.nj,e.tj]]).filter(x=>x[0]||x[1]).map((x,i)=>`<div class="l${i+1}">${i===0&&e.no?`<span class="fno">${esc(e.no)}.</span> `:""}${ln(x[0],x[1])}</div>`).join(""):(e.f?`<b>${hl(e.n,terms)}</b><div class="fl">${e.f.map(([k,v])=>`<div><b>${esc(k)}:</b> ${hl(v,terms)}</div>`).join("")}</div>${e.d?`<div class="dsc">${hl(e.d,terms)}</div>`:""}`:`<b>${hl(e.n,terms)}</b> <span class="t">${hl(e.t,terms)}</span>`);
+  const body=(e.nj!==undefined)?(JF?[[e.nj,e.tj],[e.ne,e.te]]:[[e.ne,e.te],[e.nj,e.tj]]).filter(x=>x[0]||x[1]).map((x,i)=>`<div class="l${i+1}">${i===0&&e.no?`<span class="fno">${esc(e.no)}.</span> `:""}${ln(x[0],x[1])}</div>`).join(""):(e.f?`<b>${hl(e.n,terms)}</b>${e.h?` <span class="t">${hl(e.h,terms)}</span>`:""}<div class="fl">${e.f.map(([k,v])=>`<div>${k?`<b>${esc(k)}:</b> `:""}${hl(v,terms)}</div>`).join("")}</div>${e.d?`<div class="dsc">${hl(e.d,terms)}</div>`:""}`:`<b>${hl(e.n,terms)}</b> <span class="t">${hl(e.t,terms)}</span>`);
   h+=`<div class="e"${e.no?` id="f-${esc(e.no)}"`:""}>${body}<div class="m">p. ${esc(e.p)}${e.u?` · <a href="${e.u}" target="_blank" rel="noopener">${esc(e.l)}</a>`:e.l?" · "+esc(e.l):""}</div></div>`}
  $("#out").insertAdjacentHTML("beforeend",h);shown=Math.min(res.length,i);$("#more").hidden=shown>=res.length}
 function goFirm(no){const f=E.find(e=>e.no===no);if(!f)return;$("#q").value="";sel.value="A:"+f.a;run();
