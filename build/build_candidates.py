@@ -215,6 +215,13 @@ def build_indexes(F, M):
         for n in names:
             ix["china"].setdefault(F.prov(n), k)
     ix["mandate"] = index(sub("mandate-groups"), F.prov, ["en", "local", "ja", "zh"])
+    # The tables name the branch offices (支廳), the map the island groups: Saipan's office is the Marianas, Jaluit's
+    # the Marshalls (Tinian and Rota, printed apart in later years, stay unplaced rather than be added together).
+    for n, k in {"サイパン": "Marianas", "Saipan": "Marianas", "塞班": "Marianas", "ヤルート": "Marshalls", "Jaluit": "Marshalls",
+                 "ヤルート島": "Marshalls", "Jaluit Island": "Marshalls", "トラック": "Chuuk", "Truk": "Chuuk",
+                 "ポナペ": "Pohnpei", "Ponape": "Pohnpei", "クサイ": "Kosrae", "Kusaie": "Kosrae",
+                 "ヤツプ": "Yap", "トラツク": "Chuuk", "ボナペ": "Pohnpei", "ヤルト": "Marshalls"}.items():
+        ix["mandate"].setdefault(F.prov(n), k)
     # The colonies the site's spec already carries, by its own matcher.
     ix["empire"] = None
     terr = {}
