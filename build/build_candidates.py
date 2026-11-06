@@ -211,7 +211,7 @@ def build_indexes(F, M):
                      "Guangxi": ["Kuangsi", "Kwangsi"], "Guangdong": ["Kuangtung", "Kwangtung"], "Qinghai": ["Chinghai", "Tsinghai", "Kokonor"],
                      "Ningxia": ["Ningsia", "Ninghsia"], "Hubei": ["Hupei"], "Heilongjiang": ["Heilungchiang", "Hei-lung-chiang"],
                      "Shaanxi": ["Shenhsi", "Shensi"], "Shanxi": ["Shanhsi"], "Gansu": ["Kansuh"], "Fujian": ["Fuhkien"],
-                     "Zhejiang": ["Chehkiang"], "Jiangsu": ["Kiangsoo"], "Henan": ["Honan"], "Xinjiang": ["Sinkiang"]}.items():
+                     "Zhejiang": ["Chehkiang"], "Jiangsu": ["Kiangsoo"], "Henan": ["Honan"], "Anhui": ["Anhuei", "Nganhwei"], "Xinjiang": ["Sinkiang"]}.items():
         for n in names:
             ix["china"].setdefault(F.prov(n), k)
     ix["mandate"] = index(sub("mandate-groups"), F.prov, ["en", "local", "ja", "zh"])

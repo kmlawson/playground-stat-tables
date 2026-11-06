@@ -183,29 +183,44 @@ def city_index():
         spec.loader.exec_module(bc)
         F = bc.Folder(M)
         ix, _ = bc.build_indexes(F, M)
-        _CITY = (F, ix["cities"], bc.clean, bc)
+        _CITY = (F, ix["cities"], bc.clean, bc, ix)
     return _CITY
 
 
+# The units other than prefectures and the empire's parts that a link can carry, by the candidates page's set names,
+# and the "units" value each is sent as (MAPLINK_SPEC 4b, 4c). Ids are the map's own: its city ids, and the "key"
+# column of texts/territories/sub-units/<file>.csv for the rest.
+UNITS = {"cities": "city", "china": "china-province", "korea": "korea-province", "manchukuo": "manchukuo-province",
+         "taiwan-shu": "taiwan-prefecture", "taiwan-gun": "taiwan-district", "mandate": "nanyo-group"}
+
+
 def city_entry(book, tid, t):
-    """A table of cities (units "city"): the part, and axis, naming the most of the map's cities, with six or more."""
-    F, cities, clean, bc = city_index()
+    """A table of cities or of provinces, prefectures or groups the map draws outside Japan proper: the part and axis
+    the candidates page's classifier names best (bc.classify), with the ids from the same gazetteer."""
+    F, cities, clean, bc, ix = city_index()
     best = None
     for pi, p in enumerate(t.get("parts") or []):
-        for lc in (0, 1):
-            labs = [r[lc] if len(r) > lc else "" for r in p["rows"]]
-            ids = {ri: cities.get(F.city(clean(l))) for ri, l in enumerate(labs) if str(l).strip()}
+        axes = [(lc, False, [r[lc] if len(r) > lc else "" for r in p["rows"]]) for lc in (0, 1)]
+        axes.append((0, True, [""] + list((p.get("columns") or [])[1:])))
+        for lc, across, labs in axes:
+            c = bc.classify([l for l in labs if str(l).strip()], M, F, ix, False)
+            if not c or c[1] not in UNITS:
+                continue
+            index = ix[c[1]]
+            fold = F.city if c[1] in ("cities", "taiwan-gun") else F.prov
+            def look(l):
+                hit = index.get(fold(clean(l)))
+                if not hit and re.search(r"[(（]", str(l)):   # "Chihli (Hopei)": either name
+                    hit = next((index.get(fold(x.strip())) for x in re.split(r"[()（）]", str(l)) if x.strip() and index.get(fold(x.strip()))), None)
+                return hit
+            ids = {k: look(l) for k, l in enumerate(labs) if str(l).strip() and not (across and k == 0)}
             ids = {k: v for k, v in ids.items() if v}
-            if len(set(ids.values())) >= 6 and (best is None or len(set(ids.values())) > best[3]):
-                best = (pi, lc, False, len(set(ids.values())), ids)
-        heads = p.get("columns") or []
-        ids = {j: cities.get(F.city(clean(h))) for j, h in enumerate(heads) if j > 0 and str(h).strip()}
-        ids = {k: v for k, v in ids.items() if v}
-        if len(set(ids.values())) >= 6 and (best is None or len(set(ids.values())) > best[3]):
-            best = (pi, 0, True, len(set(ids.values())), ids)
+            n = len(set(ids.values()))
+            if n and (best is None or n > best[3]):
+                best = (pi, lc, across, n, ids, c[1])
     if not best:
-        return None, "nor six of the map's cities"
-    pi, lc, across, n, ids = best
+        return None, "nor a set of the map's cities or provinces"
+    pi, lc, across, n, ids, unit = best
     p = t["parts"][pi]
     title_rate = bool(RATE.search(t.get("title") or ""))
     yen = bool(re.search(r"Unit: ?(円|圓)|單位[^)）]*(円|圓)|歳出|歳入|豫算|決算", (t.get("title") or "") + " " + (t.get("caption_extra") or "")))
@@ -244,13 +259,13 @@ def city_entry(book, tid, t):
     names = [str(p["rows"][li][lc]) for li in cols] if across else [str(p["columns"][j]) for j in cols]
     years = [int(YEAR.match(x).group(1)) if YEAR.match(x) else None for x in names]
     default = years.index(max(v for v in years if v)) if all(years) and len(cols) > 1 else 0
-    e = {"book": book, "table": tid, "units": "city", "part": pi, "label_col": lc, "default": default, "date": y,
+    e = {"book": book, "table": tid, "units": UNITS[unit], "part": pi, "label_col": lc, "default": default, "date": y,
          "period": "1930" if y and int(y) < 1938 else "1942", "col_meta": meta, "ids": {str(k): v for k, v in ids.items()}}
     if across:
         e.update({"across": True, "lines": cols, **({"total_col": tc} if tc is not None else {})})
     else:
         e.update({"columns": cols, **({"total_row": total} if total is not None else {})})
-    return e, f"{n} cities, part {pi}, {'across the top' if across else 'down column %d' % lc}, {len(cols)} measures"
+    return e, f"{n} {UNITS[unit]}, part {pi}, {'across the top' if across else 'down column %d' % lc}, {len(cols)} measures"
 
 
 def prefs(t):

@@ -234,6 +234,24 @@ Agreed with the map (its `docs/table-links.md`, 2026-11-06); all fields optional
   cities). Weather tables are `kind: "other"`.
 - Site side: `city_entry` in `maplinks_add.py`, `build_city` in `maplinks.py`.
 
+## 4c. Provinces, prefectures and groups outside Japan proper (addition, still `v: 1`)
+
+The same shape as cities (4b), with `units` naming the set and `rows[].id` the `key` column of the map's
+`texts/territories/sub-units/<file>.csv`:
+
+| `units` | file | e.g. |
+|---|---|---|
+| `china-province` | `china.csv` | `Hebei` (printed Chihli or Hopei), `Liaoning` (Fengtien) |
+| `korea-province` | `korea.csv` | 京畿道 |
+| `manchukuo-province` | `manchukuo.csv` | |
+| `taiwan-prefecture` | `taiwan.csv` (州・廳) | |
+| `taiwan-district` | `taiwan.csv` (市・郡) | |
+| `nanyo-group` | `mandate-groups.csv` | |
+
+Older names are matched to the province the map draws (Chihli → Hebei, Fengtien → Liaoning); `label` keeps the
+printed name. Rows the set does not cover (Shanghai, Peiping and other municipalities, "Manchuria", "Ki-Hei")
+are in `unplaced`.
+
 ## 5. Examples
 
 Two tables carry links at first:

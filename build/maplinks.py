@@ -214,7 +214,7 @@ def build_city(book, t, tr, cfg):
         "date": cfg.get("date"),
         "period": cfg.get("period"),
         "part": part.get("label") or None,
-        "units": "city",
+        "units": cfg.get("units", "city"),
         "cols": cols,
         "def": cfg.get("default", 0),
         "rows": rows,
@@ -229,8 +229,8 @@ def build_payload(book, t, tr, cfg):
     """The v1 payload for one table and its maplinks.json entry (see MAPLINK_SPEC.md)."""
     if cfg.get("units") == "territory":
         return build_territory(book, t, tr, cfg)
-    if cfg.get("units") == "city":
-        return build_city(book, t, tr, cfg)
+    if cfg.get("units") not in (None, "prefecture"):
+        return build_city(book, t, tr, cfg)   # city, china-province, korea-province … (keyed by the map's ids)
     part = t["parts"][cfg.get("part", 0)]
     cols = part["columns"]
     lab = cfg.get("label_col", 0)
