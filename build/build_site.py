@@ -113,7 +113,7 @@ BOOKS = [
      "gaps": "Every page was surveyed on contact sheets by Claude Sonnet, and the 50 pages with tables were read once by Gemini 3.8 Flash from page crops; the one table printed sideways was turned upright before reading. All 36 numbered tables and 14 unnumbered ones are transcribed; the running text is not. Two fold-out tables (XXI and XXVII) are cut off at the right edge in the scan, so their last columns are missing. Nothing was checked by eye apart from spot checks; unreadable figures are marked [?].",
      "scan": "https://archive.org/details/laborconditionsi0000unse_l4j9/page/n{leaf}/mode/1up",
      "item": "https://archive.org/details/laborconditionsi0000unse_l4j9", "blank_marking": True},
-    {"slug": "japan-hotels-1935", "dir": "Hotels_in_Japan_1935", "model": "GPT-6.1-Sol (Codex)",
+    {"slug": "japan-hotels-1935", "dir": "Hotels_in_Japan_1935", "model": "GPT-6.1-Sol (Codex)", "dir_first": True,
      "title": "Hotels in Japan 1935",
      "publisher": "Japanese Government Railways, Tokyo, c. 1935",
      "blurb": "An illustrated English guide to the foreign-style hotels of Japan and its empire, issued by the Japanese Government Railways for foreign visitors. Hotel by hotel, from Tokyo, Yokohama, Hakone, Nikkō, Karuizawa, Kyoto, Osaka and Kobe to Unzen, Beppu, Hokkaido, Taiwan, Korea, the Kwantung Leased Territory and Manchukuo, it gives the address, access, cable address, telephone, management, number of rooms, capacity, room and meal charges, and a description of each house (an asterisk marks members of the Japan Hotel Association), followed by hints for visitors to Japanese inns and the offices of the Board of Tourist Industry and the Japan Tourist Bureau. Undated; the Internet Archive item dates it to the first half of 1935 (it mentions the Biwako Hotel, completed in November 1934, and the coming summer season of 1935).",
@@ -1966,7 +1966,7 @@ def main():
     for b, clean, n, c in pages:
             os.makedirs(os.path.join(HERE, "book", b["slug"]), exist_ok=True)
             data = json.dumps(clean, ensure_ascii=False).replace("</", "<\\/")
-            doc = (TEMPLATE.replace("__MODEL__", b.get("model", "Opus 5.5")).replace("__DATA__", data).replace("__DIRCARDS__", dir_cards(b)).replace("__PINYIN__", json.dumps(b.get("dir_pinyin", {}), ensure_ascii=False)).replace("__COUNT__", str(n))
+            doc = (TEMPLATE.replace("__MODEL__", b.get("model", "Opus 5.5")).replace("__DATA__", data).replace("__DIRCARDS__", dir_cards(b)).replace("__DIRSEC__", dir_section(b, clean)).replace("__PINYIN__", json.dumps(b.get("dir_pinyin", {}), ensure_ascii=False)).replace("__COUNT__", str(n))
                    .replace("__CHEN__", json.dumps(b.get("_chen") or {}, ensure_ascii=False))
                    .replace("__TAGDATA__", json.dumps(book_tags(b["slug"], tag_assignments), ensure_ascii=False).replace("<", "\\u003c"))
                    .replace("__XL__", json.dumps(xl[b["slug"]], ensure_ascii=False).replace("</", "<\\/"))
@@ -2472,7 +2472,7 @@ const T=__DATA__;
  let off=false;try{off=localStorage.getItem("sideoff")==="1"}catch(e){}set(off);
  document.getElementById("sidetog").onclick=()=>set(true);document.getElementById("sideopen").onclick=()=>set(false)})();
 const CHARTIDS=new Set(__CHARTIDS__);let VW="both";try{VW=localStorage.getItem("tview")||"both"}catch(e){}document.body.classList.add("vw-"+VW);
-const DIRCARDS=__DIRCARDS__;const PY=__PINYIN__;let ALTR=false;try{ALTR=localStorage.getItem("altrom")==="1"}catch(e){}
+const DIRCARDS=__DIRCARDS__;const DIRSEC=__DIRSEC__;const PY=__PINYIN__;let ALTR=false;try{ALTR=localStorage.getItem("altrom")==="1"}catch(e){}
 const pyd=a=>{if(ALTR||!a)return a;const w=a.split(" ")[0];return PY[w]?PY[w]+a.slice(w.length):a};
 const pyl=l=>ALTR?l:pyd(l).replace(/\(([^() ]+)\)$/,(m,w)=>PY[w]?`(${PY[w]})`:m);
 const HIDEIMG=__HIDEIMG__;
@@ -2493,7 +2493,7 @@ function ptLike(a,b){const x=ptNorm(a),y=ptNorm(b);if(!x||!y||x.includes(y)||y.i
 function ptNorm(t){return String(t).normalize("NFKC").replace(/^\s*第[〇零一二三四五六七八九十百千]+表\s*/,"").replace(/^\s*(?:No\.\s*|Table\s+)?[國]?\d+[A-Za-z]?[\s.、:]*/i,"").replace(/[\s、，,.．・:：;；()（）\[\]［］「」『』〔〕\-—–]/g,"").toLowerCase()}
 function ptocTables(on){ptkOn=on;document.querySelectorAll(".ptoc ul").forEach(u=>u.classList.toggle("showt",on));try{localStorage.setItem("ptocTables",on?"1":"0")}catch(e){}}
 // link to the whole original book (Internet Archive, NDL, …) shown at the top of the contents
-const origLink=()=>ORIG?`<a class="origbtn" href="${esc(ORIG.u)}" target="_blank" rel="noopener">Read the full original book on ${esc(ORIG.l)} ↗</a>`:"";
+const origLink=()=>ORIG?`<a class="origbtn" href="${esc(ORIG.u)}" target="_blank" rel="noopener">View Original</a>`:"";
 const MARKED=__MARKED__;
 const CJK=/[\u3040-\u30ff\u3400-\u9fff\uf900-\ufaff]/;  // never italicise Asian text (user, 2026-10-22)
 const QSTAT=__QSTAT__;
@@ -2592,14 +2592,17 @@ let mode="one",cur=null;
 function dirCards(){if(!DIRCARDS)return "";const card=c=>`<a class="chbtn" href="directory.html#s=${encodeURIComponent(c.s)}">${esc(c.l)}<small>${c.n.toLocaleString()} entr${c.n===1?"y":"ies"}</small></a>`;
  const pl=DIRCARDS.places.map(x=>({...x,l:pyd(x.l)})),bg=DIRCARDS.big||0;
  return `<h2 style="margin:0 0 6px">Directory</h2><div class="chsum">${DIRCARDS.total.toLocaleString()} directory entries. Choose a place or a list. Place names are in pinyin; the directory page has a toggle for the book's own romanization.</div><h3 style="margin:14px 0 8px">Places</h3><div class="chgrid" style="--chfs:15px">`+pl.slice(0,bg).concat(pl.slice(bg).sort((x,y)=>x.l.localeCompare(y.l))).map(card).join("")+`</div>`+(DIRCARDS.other.length?`<h3 style="margin:20px 0 8px">Other lists</h3><div class="chgrid" style="--chfs:15px">`+DIRCARDS.other.map(x=>card({...x,l:pyl(x.l)})).join("")+`</div>`:"")}
+function dirSec(top){if(!DIRSEC)return "";const g=DIRSEC.groups;
+ return `<h2 style="margin:${top?0:28}px 0 6px">Directory</h2><div class="chsum">${DIRSEC.total.toLocaleString()} directory entr${DIRSEC.total===1?"y":"ies"}${g.length>1?` in ${g.length} sections`:""}. Choose a section to open the directory.</div><div class="chgrid" style="--chfs:15px">`+
+  g.map(c=>`<a class="chbtn" href="directory.html${c.s?"#s="+encodeURIComponent(c.s):""}">${esc(c.l)}<small>${c.n.toLocaleString()} entr${c.n===1?"y":"ies"}</small></a>`).join("")+`</div>`}
 function showHome(){mode="home";cur=null;closeCmp();const n={};T.forEach(t=>{const c=t.chapter||"(no chapter)";n[c]=(n[c]||0)+1});
  if(DIRCARDS){$("#main").innerHTML=`<div class="chhead">Contents</div>`+origLink()+QSTAT+ptoc()+dirCards()+`<h2 style="margin:28px 0 6px">Tables</h2><div class="chsum">${T.length} table${T.length===1?"":"s"} in ${chapters.length} section${chapters.length===1?"":"s"}. Choose a section, or pick a single table from the list.</div><div class="chgrid" style="--chfs:15px">`+
   chapters.map(c=>`<a class="chbtn" href="#ch=${encodeURIComponent(c)}">${esc(c)}${chE(c,"che3")}<small>${n[c]} table${n[c]===1?"":"s"}</small></a>`).join("")+`</div>`+LLMWARN;$("#main").scrollTop=0;mark();anSync();return}
- $("#main").innerHTML=`<div class="chhead">Contents</div>`+origLink()+QSTAT+ptoc()+`<h2 style="margin-bottom:6px">Chapters</h2><div class="chsum">${T.length} table${T.length===1?"":"s"} in ${chapters.length} chapter${chapters.length===1?"":"s"}. Choose a chapter, or pick a single table from the list.</div><div class="chgrid">`+
-  chapters.map(c=>`<a class="chbtn" href="#ch=${encodeURIComponent(c)}">${esc(c)}${chE(c,"che3")}<small>${n[c]} table${n[c]===1?"":"s"}</small></a>`).join("")+`</div>`+dirCards()+LLMWARN;
+ $("#main").innerHTML=`<div class="chhead">Contents</div>`+origLink()+QSTAT+ptoc()+(DIRSEC&&DIRSEC.first?dirSec(true):"")+`<h2 style="margin:${DIRSEC&&DIRSEC.first?28:0}px 0 6px">Chapters</h2><div class="chsum">${T.length} table${T.length===1?"":"s"} in ${chapters.length} chapter${chapters.length===1?"":"s"}. Choose a chapter, or pick a single table from the list.</div><div class="chgrid" id="chgrid">`+
+  chapters.map(c=>`<a class="chbtn" href="#ch=${encodeURIComponent(c)}">${esc(c)}${chE(c,"che3")}<small>${n[c]} table${n[c]===1?"":"s"}</small></a>`).join("")+`</div>`+dirCards()+(DIRSEC&&!DIRSEC.first?dirSec(false):"")+LLMWARN;
  $("#main").scrollTop=0;fitGrid();mark();anSync()}
 // Desktop: pick the largest button font (12-28px) at which every chapter button fits in the pane without scrolling
-function fitGrid(){const g=$(".chgrid");if(!g)return;g.style.removeProperty("--chfs");if(innerWidth<=760)return;
+function fitGrid(){const g=$("#chgrid");if(!g)return;g.style.removeProperty("--chfs");if(innerWidth<=760)return;
  const m=$("#main"),limit=()=>m.getBoundingClientRect().bottom-parseFloat(getComputedStyle(m).paddingBottom);
  const fits=x=>{g.style.setProperty("--chfs",x+"px");return g.getBoundingClientRect().bottom<=limit()};
  let lo=12,hi=28;if(fits(hi))return;if(!fits(lo))return;
@@ -2732,6 +2735,25 @@ def section_summary(names, last=False):
 
 
 BIG_PLACES = ["Hsinking", "Harbin", "Dairen", "Mukden", "Kirin"]
+
+
+def dir_section(book, tables):
+    """JSON for the "Directory" section on a book's home page (books without "dir_cards"): one chapter-style card
+    per directory section, and whether the section goes before the chapters. It goes first when the directory
+    covers more scan pages than the tables do, or when the book sets "dir_first" (user, 2026-11-06)."""
+    f = os.path.join(HERE, "data", book["slug"] + "-directory.json")
+    if book.get("dir_cards") or not os.path.exists(f):
+        return "null"
+    es = json.load(open(f, encoding="utf-8"))
+    if not es:
+        return "null"
+    from collections import Counter
+    groups = Counter(e.get("a") or "" for e in es)
+    dir_leaves = {e.get("u") for e in es if e.get("u")}
+    table_leaves = {i for t in tables for i in (t.get("images") or [t.get("image")]) if i}
+    out = {"total": len(es), "first": bool(book.get("dir_first")) or len(dir_leaves) > len(table_leaves),
+           "groups": [{"l": a or "Directory", "s": "A:" + a if a else "", "n": n} for a, n in groups.items()]}
+    return json.dumps(out, ensure_ascii=False).replace("</", "<\\/")
 
 
 def dir_cards(book):
