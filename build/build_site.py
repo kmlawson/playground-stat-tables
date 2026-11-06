@@ -104,7 +104,7 @@ BOOKS = [
      "gaps": "Every page was surveyed on contact sheets by Claude Sonnet, and the pages with tables were read once: by Gemini 4 Argon (low) where the tables are dense or printed sideways, by Gemini 3.8 Flash otherwise. The seven sideways pages were turned upright before reading. All 30 numbered tables and 3 unnumbered ones are transcribed; the running text and the graphs are not. Nothing was checked by eye apart from spot checks; unreadable figures are marked [?].",
      "scan": "https://archive.org/details/effectsofairatta55unit/page/n{leaf}/mode/1up",
      "item": "https://archive.org/details/effectsofairatta55unit", "blank_marking": True},
-    {"slug": "japan-military-industries-1922", "dir": "Military_Industries_Japan_1922", "model": "Gemini 4 Argon and Gemini 3.8 Flash (agy)",
+    {"slug": "japan-military-industries-1922", "author": "Ushisaburō Kobayashi", "dir": "Military_Industries_Japan_1922", "model": "Gemini 4 Argon and Gemini 3.8 Flash (agy)",
      "title": "Military Industries of Japan 1922",
      "subtitle": "Ushisaburō Kobayashi — Japanese Monographs, ed. Baron Y. Sakatani; Carnegie Endowment for International Peace, Division of Economics and History",
      "publisher": "Oxford University Press, American Branch, New York, 1922",
@@ -122,7 +122,7 @@ BOOKS = [
      "gaps": "Every page was surveyed on contact sheets by Claude Sonnet, and the 182 pages with tables were read once: by Gemini 4 Argon (low) where the tables are dense or printed sideways, by Gemini 3.8 Flash otherwise, and the last twelve batches by GPT-6-Astra (low). The 25 sideways pages were turned upright before reading. All numbered tables (1–28, A-1–A-11, B-1–B-15, C-1–C-205) and 8 unnumbered ones are transcribed; the running text is not. Nothing was checked by eye apart from spot checks; unreadable figures are marked [?].",
      "scan": "https://archive.org/details/effectsofstrateg53unit/page/n{leaf}/mode/1up",
      "item": "https://archive.org/details/effectsofstrateg53unit", "blank_marking": True},
-    {"slug": "japan-population-pressure-1937", "dir": "Population_Pressure_Japan_1937", "model": "GPT-6.1-Sol (Codex)",
+    {"slug": "japan-population-pressure-1937", "author": "Ryoichi Ishii", "dir": "Population_Pressure_Japan_1937", "model": "GPT-6.1-Sol (Codex)",
      "title": "Population Pressure and Economic Life in Japan 1937",
      "subtitle": "Ryoichi Ishii, Ph.D. (石井了一)",
      "publisher": "P. S. King & Son, London, 1937",
@@ -131,7 +131,7 @@ BOOKS = [
      "gaps": "Every page was surveyed on contact sheets by Claude Sonnet, and the 120 pages with tables were read once by GPT-6.1-Sol (low reasoning effort) from 360-dpi crops; the seven tables printed sideways were turned upright before reading. All 101 numbered tables and 35 unnumbered ones (most of them in footnotes) are transcribed; the running text is not. Nothing was checked by eye apart from spot checks; unreadable figures are marked [?].",
      "scan": "https://archive.org/details/in.ernet.dli.2015.90303/page/n{leaf}/mode/1up",
      "item": "https://archive.org/details/in.ernet.dli.2015.90303", "blank_marking": True},
-    {"slug": "japan-labor-conditions-1928", "dir": "Labor_Conditions_Japan_1928", "model": "Gemini 3.8 Flash (agy)",
+    {"slug": "japan-labor-conditions-1928", "author": "Shuichi Harada", "dir": "Labor_Conditions_Japan_1928", "model": "Gemini 3.8 Flash (agy)",
      "title": "Labor Conditions in Japan 1928",
      "subtitle": "Shuichi Harada, Ph.D.",
      "publisher": "Columbia University Press, New York; P. S. King & Son, London, 1928",
@@ -181,7 +181,7 @@ BOOKS = [
      "gaps": "Each page was read once by Claude Haiku 5.5 through the llm CLI from full-resolution crops, with no check by eye; pages with sideways tables were turned upright and read by Claude Sonnet 5.5, as were two pages whose first reading was malformed. Unreadable figures are marked [?]. Only tables are transcribed; the running text and photographs are not. Several fold-out tables were scanned folded, so only their left-hand columns appear (e.g. the provincial table of industrial schools, p. 71, the private schools table, p. 92, and the appendix to the expenditure table): those columns are transcribed and the rest is missing. The scan repeats printed p. 69 (read once).",
      "scan": "https://archive.org/details/manualeducation00gakugoog/page/n{leaf}/mode/1up",
      "item": "https://archive.org/details/manualeducation00gakugoog", "blank_marking": True},
-    {"slug": "taiwan-education-1908", "dir": "Formosa_Education_1908", "model": "Claude Haiku 5.5",
+    {"slug": "taiwan-education-1908", "author": "Julean H. Arnold", "dir": "Formosa_Education_1908", "model": "Claude Haiku 5.5",
      "title": "Education in Formosa 1908", "subtitle": "By Julean H. Arnold. U.S. Bureau of Education Bulletin, 1908, No. 5",
      "publisher": "U.S. Bureau of Education, Washington, 1908",
      "blurb": "An American consular officer's account of education in Taiwan, from the Chinese period (public, private and quasi-public schools and the schools for aborigines under the Qing) to the Japanese system after 1895: the public schools for Chinese, the language school and its normal and academic departments, the schools for Japanese children, the medical, industrial and agricultural schools, the middle school, the schools for aborigines, and educational finance. Its tables give the schools of the Chinese period, the population and children of school age in 1905, school attendance, study schedules (hours per week by subject and year) for each kind of school, school expenditure, and school statistics for 1900–1906.",
@@ -2002,6 +2002,7 @@ def main():
                    .replace("__KANJINUMS__", open(os.path.join(SCRIPTS, "kanji_nums.js"), encoding="utf-8").read().replace("if(typeof module!==\"undefined\")module.exports=KN;\n", ""))
                    .replace("__KNFULL__", json.dumps(b.get("kanji_full") or False))
                    .replace("__ORIG__", json.dumps(orig_link(b), ensure_ascii=False))
+                   .replace("__CITE__", json.dumps(citation(b), ensure_ascii=False))
                    .replace("__PTOC__", json.dumps(printed_toc(b, clean), ensure_ascii=False).replace("</", "<\\/"))
                    .replace("__MARKED__", "true" if b.get("blank_marking") else "false")
                    .replace("__CHARTIDS__", json.dumps(chart_ids(b, clean)))
@@ -2013,7 +2014,7 @@ def main():
                    .replace("__DIRLINK__", ('<a class="dirbtn" href="directory.html">Directories</a>' if b.get("_dir_n") else "")
                             + ('<a class="dirbtn" href="chronology.html">Chronologies</a>' if b.get("_chron_n") else "")
                             + (f'<button class="aboutbtn" onclick="document.getElementById(\'about\').showModal()">About</button>'
-                               f'<dialog id="about" onclick="if(event.target===this)this.close()"><h3>{html.escape(b["title"])}</h3>{f'<div class="pub">{html.escape(b["subtitle"])}</div>' if b.get("subtitle") else ""}<div class="pub">{html.escape(b["publisher"])}</div>'
+                               f'<dialog id="about" onclick="if(event.target===this)this.close()"><h3>{html.escape(b["title"])}</h3>{f'<div class="pub">{html.escape(b["subtitle"])}</div>' if b.get("subtitle") else ""}<div class="pub">{html.escape((b["author"] + "; ") if b.get("author") else "")}{html.escape(b["publisher"])}</div>'
                                f'<p>{html.escape(b["gaps"])}</p>{"" if b.get("blank_marking") else BLANK_NOTE}<p class="ver">{html.escape(version_line())}</p><form method="dialog"><button>Close</button></form></dialog>' if b.get("gaps") else "")))
             with open(os.path.join(HERE, "book", b["slug"], "index.html"), "w", encoding="utf-8") as fh:
                 fh.write(doc)
@@ -2040,6 +2041,15 @@ def years_of(b):
     y1, tail = int(m.group(1)), m.group(2)
     y2 = int(str(y1)[:4 - len(tail)] + tail) if tail else y1
     return y1, max(y1, y2)
+
+
+def citation(b):
+    """The volume's citation for the top of its page: author (books with a personal author, whose site title then
+    loses the year the site adds), title, publication line as listed, and the original's address."""
+    title = b["title"]
+    if b.get("author"):
+        title = re.sub(r"\s+(1[89]\d\d)(-\d+)?$", "", title)
+    return {"a": b.get("author") or "", "t": title, "p": b["publisher"], "u": b.get("item") or ""}
 
 
 def orig_link(b):
@@ -2297,7 +2307,7 @@ def landing(cards):
         grp = group_of(b)
         home = f'book/{b["slug"]}/' if n else f'book/{b["slug"]}/directory.html' if b.get("dir_only") and b.get("_dir_n") else None
         title = f'<a href="{home}" style="color:inherit;text-decoration:none">{html.escape(b["title"])}</a>' if home else html.escape(b["title"])
-        items.append((grp, b["slug"], f"""<article data-t="{html.escape(b["title"])}" data-a="{added.get(b["slug"], "")}"><h2>{title}</h2><div class="pub">{html.escape(b["publisher"])}</div>{f'<div class="pub"><i>{html.escape(b["note"])}</i></div>' if b.get("note") else ""}
+        items.append((grp, b["slug"], f"""<article data-t="{html.escape(b["title"])}" data-a="{added.get(b["slug"], "")}"><h2>{title}</h2><div class="pub">{html.escape((b["author"] + "; ") if b.get("author") else "")}{html.escape(b["publisher"])}</div>{f'<div class="pub"><i>{html.escape(b["note"])}</i></div>' if b.get("note") else ""}
 <div class="stat">{stat}</div><div class="src">LLM-transcribed{item}</div>{b.get("_qstat", "")}<div class="links">{link}</div></article>"""))
     order = {"far-east": 0, "manchoukuo": 1}
     other = sorted([(sl, h) for g, sl, h in items if g == "other"], key=lambda x: order.get(x[0].rsplit("-", 1)[0], 9))
@@ -2530,7 +2540,7 @@ mark{background:var(--hi);color:inherit}
 .che3{display:block;font-weight:normal;font-size:max(12px,.54em);color:var(--muted);margin-top:.15em}
 .enn{color:var(--muted);font-size:13px;white-space:nowrap}
 .ptoc{margin:0 0 18px;border:1px solid var(--line,#ccc);border-radius:6px;background:var(--panel);padding:6px 12px}.ptoc summary{cursor:pointer;font-weight:bold;padding:4px 0}.ptoc ul{list-style:none;margin:6px 0;padding:0;columns:2 420px;column-gap:28px}.ptoc li{display:flex;gap:8px;break-inside:avoid;padding:1px 0;line-height:1.35}.ptoc li a{color:inherit}.ptoc li a:hover{color:var(--accent)}.ptoc .pp{margin-left:auto;color:var(--muted,#777);font-variant-numeric:tabular-nums;white-space:nowrap}.ptoc .pl0{font-weight:bold;text-transform:none;margin-top:10px;break-after:avoid}.ptoc .pl1{font-weight:bold;margin-top:4px}.ptoc .pl2{padding-left:16px;font-size:14px}.ptoc .pl3{padding-left:32px;font-size:13px}.ptoc .ptk{display:block;font-size:14px;margin:2px 0 6px;cursor:pointer}.ptoc .ptkh{color:var(--muted);font-size:13px}.ptoc li.ptt{display:none;font-size:13px;font-weight:normal}.ptoc ul.showt li.ptt{display:flex}.ptoc a.ptti{display:none;color:color-mix(in srgb,var(--accent) 60%,var(--ink));text-decoration:none;padding:0 6px}.ptoc .tbadge{display:inline-flex;align-items:center;justify-content:center;box-sizing:border-box;width:15px;height:15px;padding:0;border:1.5px solid currentColor;border-radius:3px;font:700 10px/1 system-ui,-apple-system,"Segoe UI",Arial,sans-serif;margin-right:5px;vertical-align:-2px;flex:none}.ptoc a.ptti .tbadge{margin:0}.ptoc ul.showt a.ptti{display:inline}.ptoc li.ptt a{color:color-mix(in srgb,var(--accent) 60%,var(--ink))}
-.qstat{font-size:13.5px;color:var(--muted);margin:0 0 16px}.origbtn{display:inline-block;margin:4px 0 16px;padding:8px 14px;border:1px solid var(--accent);border-radius:6px;background:var(--panel);color:var(--accent);text-decoration:none;font-size:15px;font-weight:bold}.origbtn:hover{background:var(--hi)}
+.qstat{font-size:13.5px;color:var(--muted);margin:0 0 16px}.cite{font-size:13.5px;color:var(--muted);margin:0 0 16px;overflow-wrap:anywhere}.cite b{color:var(--ink);font-weight:600}.origbtn{display:inline-block;margin:4px 0 16px;padding:8px 14px;border:1px solid var(--accent);border-radius:6px;background:var(--panel);color:var(--accent);text-decoration:none;font-size:15px;font-weight:bold}.origbtn:hover{background:var(--hi)}
 .ctx{max-width:760px;font-size:14.5px;line-height:1.55;margin:8px 0 12px;padding:9px 12px;border-left:3px solid var(--accent);background:var(--panel)}
 .aboutbtn{margin-left:auto;font:inherit;font-size:14px;background:transparent;color:var(--accent-ink);border:1px solid currentColor;border-radius:5px;padding:5px 12px;cursor:pointer;align-self:center}.aboutbtn+#toggle{margin-left:0}
 .anbtn{margin-left:auto;font:inherit;font-size:14px;background:transparent;color:var(--accent-ink);border:1px solid currentColor;border-radius:5px;padding:5px 12px;cursor:pointer;align-self:center}.anbtn[aria-pressed="true"]{background:var(--accent-ink);color:var(--accent)}.dirbtn+.anbtn,.aboutbtn+.anbtn,.anbtn+#toggle{margin-left:0}
@@ -2576,7 +2586,7 @@ const HIDEIMG=__HIDEIMG__;
 __KANJINUMS__
 const KNFULL=__KNFULL__;let NF="a";try{NF=localStorage.getItem("numform")||"a"}catch(e){}
 const kn=(s,q)=>NF==="a"?KN(s,KNFULL):s;
-const ORIG=__ORIG__;
+const ORIG=__ORIG__;const CITE=__CITE__;
 const PTOC=__PTOC__;
 const PTK=PTOC.some(e=>e.k);let ptkOn=true;try{ptkOn=localStorage.getItem("ptocTables")!=="0"}catch(e){}
 const ptoc=()=>PTOC.length?`<details class="ptoc"><summary>Contents of the printed book (${PTOC.length} entries)${ORIG?` · each links to its page on ${esc(ORIG.l)}`:""}</summary>${PTK?`<label class="ptk"><input type="checkbox" id="ptocT"${ptkOn?" checked":""} onchange="ptocTables(this.checked)"> Include table links <span class="tbadge" style="margin:0 0 0 3px">T</span></label>`:""}<ul${ptkOn?' class="showt"':""}>`+PTOC.map(e=>{const ks=e.k||[],same=ks.length===1?ks.filter(k=>ptLike(k[1],e.t)):ks.filter(k=>ptNorm(k[1])===ptNorm(e.t)),rest=ks.filter(k=>!same.includes(k));
@@ -2590,7 +2600,7 @@ function ptLike(a,b){const x=ptNorm(a),y=ptNorm(b);if(!x||!y||x.includes(y)||y.i
 function ptNorm(t){return String(t).normalize("NFKC").replace(/^\s*第[〇零一二三四五六七八九十百千]+表\s*/,"").replace(/^\s*(?:No\.\s*|Table\s+)?[國]?\d+[A-Za-z]?[\s.、:]*/i,"").replace(/[\s、，,.．・:：;；()（）\[\]［］「」『』〔〕\-—–]/g,"").toLowerCase()}
 function ptocTables(on){ptkOn=on;document.querySelectorAll(".ptoc ul").forEach(u=>u.classList.toggle("showt",on));try{localStorage.setItem("ptocTables",on?"1":"0")}catch(e){}}
 // link to the whole original book (Internet Archive, NDL, …) shown at the top of the contents
-const origLink=()=>ORIG?`<a class="origbtn" href="${esc(ORIG.u)}" target="_blank" rel="noopener">View Original</a>`:"";
+const origLink=()=>(ORIG?`<a class="origbtn" href="${esc(ORIG.u)}" target="_blank" rel="noopener">View Original</a>`:"")+(CITE?`<p class="cite"><b>Citation:</b> ${CITE.a?esc(CITE.a)+", ":""}<i>${esc(CITE.t)}</i> (${esc(CITE.p)})${CITE.u?`. ${esc(CITE.u)}`:""}</p>`:"");
 const MARKED=__MARKED__;
 const CJK=/[\u3040-\u30ff\u3400-\u9fff\uf900-\ufaff]/;  // never italicise Asian text (user, 2026-10-22)
 const QSTAT=__QSTAT__;
@@ -2955,7 +2965,13 @@ def build_directory(book):
             groups[-1].append(line)
         tl = "".join('<li style="break-inside:avoid;margin:0 0 6px">' + "".join(g) + "</li>" for g in groups)
         ctoc = f'<details class="ctoc" style="margin:0 0 14px;font-size:15px"><style>.ctoc a{{color:var(--accent);text-decoration:none}}.ctoc a:hover{{text-decoration:underline}}</style><summary>Contents of the printed book</summary><ul style="list-style:none;padding-left:0;columns:18em;column-gap:28px;margin:8px 0">{tl}</ul></details>' if ptoc else ""
-        doc = doc.replace('<main><div id="toc">', f'<main><details style="margin:0 0 8px;font-size:15px"><summary>About this book</summary>{sub}{about}</details>{ctoc}<div id="toc">', 1)
+        ci = citation(book)
+        ol = orig_link(book)
+        cite = ((f'<a class="origbtn" href="{html.escape(ol["u"])}" target="_blank" rel="noopener" style="display:inline-block;margin:4px 0 8px;padding:6px 12px;border:1px solid var(--accent);border-radius:6px;color:var(--accent);text-decoration:none">View Original</a>' if ol else "")
+                + f'<p style="font-size:13.5px;color:var(--muted);margin:0 0 12px;overflow-wrap:anywhere"><b style="color:var(--ink);font-weight:600">Citation:</b> '
+                + (html.escape(ci["a"]) + ", " if ci["a"] else "") + f'<i>{html.escape(ci["t"])}</i> ({html.escape(ci["p"])})'
+                + (f'. {html.escape(ci["u"])}' if ci["u"] else "") + "</p>")
+        doc = doc.replace('<main><div id="toc">', f'<main>{cite}<details style="margin:0 0 8px;font-size:15px"><summary>About this book</summary>{sub}{about}</details>{ctoc}<div id="toc">', 1)
     with open(os.path.join(HERE, "book", book["slug"], "directory.html"), "w", encoding="utf-8") as fh:
         fh.write(doc)
     print(f"{book['slug']}: {len(entries)} directory entries")
