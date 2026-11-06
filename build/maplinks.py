@@ -14,7 +14,36 @@ HOSTS = {"live": {"tables": "https://froginawell.net/reference/old-tables/", "ma
          "gh": {"tables": "https://kmlawson.github.io/playground-stat-tables/", "map": "https://kmlawson.github.io/japanese-empire-student-map/"}}
 SITE = HOSTS["live"]["tables"]
 MAP = HOSTS["live"]["map"]
-VIEWS = {"japan": {"where": "125.41,21.53,147.92,48.77", "layers": "2w"}}   # named map views (query parameters)
+# named map views (query parameters): where = west,south,east,north in degrees
+VIEWS = {"japan": {"where": "125.41,21.53,147.92,48.77", "layers": "2w"},
+         "china": {"where": "73.5,17.5,135.5,53.8", "layers": "2w"},
+         "korea": {"where": "123.8,33.0,131.2,43.2", "layers": "2w"},
+         "taiwan": {"where": "119.2,21.8,122.3,25.4", "layers": "2w"},
+         "manchuria": {"where": "114.0,38.2,135.5,53.6", "layers": "2w"},
+         "south-seas": {"where": "130.0,0.0,173.5,21.5", "layers": "2w"},
+         "empire": {"where": "112.0,0.0,175.0,51.0", "layers": "2w"},
+         "asia": {"where": "60.0,-12.0,180.0,60.0", "layers": "2w"}}
+UNIT_VIEW = {"china-province": "china", "korea-province": "korea", "manchukuo-province": "manchuria",
+             "taiwan-prefecture": "taiwan", "taiwan-district": "taiwan", "nanyo-group": "south-seas",
+             "territory": "empire", "country": "asia"}
+
+
+def view_for(book, cfg):
+    """The map view a link opens on: the entry's own "view", else the kind of place it carries, else (cities,
+    prefectures) the region of the volume it comes from."""
+    if cfg.get("view"):
+        return cfg["view"]
+    u = cfg.get("units")
+    if u in UNIT_VIEW:
+        return UNIT_VIEW[u]
+    if u == "city":
+        slug = book["slug"]
+        for pre, v in (("china", "china"), ("korea", "korea"), ("taiwan", "taiwan"), ("manch", "manchuria"),
+                       ("japan-manchoukuo", "manchuria"), ("nanyo", "south-seas"), ("mandate", "south-seas"),
+                       ("gyosei", "south-seas"), ("far-east", "asia"), ("pacific", "asia")):
+            if slug.startswith(pre):
+                return v
+    return "japan"
 SUFFIX = re.compile(r"(府|縣|県|廳|庁|道|都|\s*prefecture|[-\s](?:fu|ken|cho|chō|do|dō))$", re.I)
 VARCH = str.maketrans({"縣": "県", "廣": "広", "靜": "静", "德": "徳", "兒": "児", "繩": "縄", "臺": "台", "灣": "湾",
                        "關": "関", "廳": "庁", "櫔": "栃", "杤": "栃"})
@@ -347,7 +376,7 @@ def map_url(book, t, tr=None, cfg_all=None):
             p, unmatched = build_payload(book, t, tr, cfg)
             if unmatched:
                 print(f"maplinks: {book['slug']}:{t['id']} rows not matched to a place: {', '.join(unmatched[:12])}")
-            view = VIEWS[cfg.get("view", "japan")]
+            view = VIEWS[view_for(book, cfg)]
             return f"{MAP}?where={view['where']}&layers={view['layers']}#t={encode(p)}"
     return None
 
