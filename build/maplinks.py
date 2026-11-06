@@ -166,10 +166,71 @@ def build_territory(book, t, tr, cfg):
     return p, []
 
 
+def build_city(book, t, tr, cfg):
+    """A table of cities (units "city", MAPLINK_SPEC 4b). The ids are the map's own city ids, matched when the entry
+    was written (maplinks_add.py, from the map's gazetteer) and stored in the entry, so this build needs no map
+    checkout. Down the side: "ids" {printed row: id}, "columns" the printed columns sent. Across the top ("across"):
+    "ids" {printed column: id}, "lines" the printed rows sent, each becoming a column."""
+    part = t["parts"][cfg.get("part", 0)]
+    lab = cfg.get("label_col", 0)
+    ids = {int(k): v for k, v in cfg["ids"].items()}
+    meta = cfg.get("col_meta", {})
+    rows, seen, unplaced, total = [], set(), [], None
+    if cfg.get("across"):
+        lines = cfg["lines"]
+        cols = [dict({"name": str(part["rows"][li][lab]).strip()}, **meta.get(str(li), {})) for li in lines]
+        for j, h in enumerate(part["columns"]):
+            if j == lab:
+                continue
+            vals = [value(part["rows"][li][j]) if j < len(part["rows"][li]) else "" for li in lines]
+            if j in ids and ids[j] not in seen:
+                seen.add(ids[j])
+                rows.append({"id": ids[j], "label": str(h).strip(), "row": j, "v": vals})
+            elif cfg.get("total_col") == j:
+                total = {"label": str(h).strip(), "v": vals}
+            elif str(h).strip() and any(isinstance(v, (int, float)) for v in vals):
+                unplaced.append(str(h).strip())
+    else:
+        use = cfg["columns"]
+        cols = [dict({"name": part["columns"][j]}, **meta.get(str(j), {})) for j in use]
+        for ri, r in enumerate(part["rows"]):
+            label = str(r[lab]).strip() if len(r) > lab else ""
+            vals = [value(r[j]) if j < len(r) else "" for j in use]
+            if ri in ids and ids[ri] not in seen:
+                seen.add(ids[ri])
+                rows.append({"id": ids[ri], "label": label, "row": ri, "v": vals})
+            elif cfg.get("total_row") == ri:
+                total = {"label": label, "row": ri, "v": vals}
+            elif label and any(isinstance(v, (int, float)) for v in vals):
+                unplaced.append(label)
+    title_en = (tr or {}).get("t")
+    p = {
+        "v": 1,
+        "src": {"url": f"{SITE}book/{book['slug']}/#{t['id']}", "path": f"book/{book['slug']}/#{t['id']}",
+                "book": book["slug"], "table": t["id"]},
+        "title": {"ja": t.get("title", ""), **({"en": title_en} if title_en else {})},
+        "volume": {"title": book["title"], "year": cfg.get("volume_year") or book.get("_year"),
+                   **({"en": book["subtitle"]} if book.get("subtitle") else {})},
+        "date": cfg.get("date"),
+        "period": cfg.get("period"),
+        "part": part.get("label") or None,
+        "units": "city",
+        "cols": cols,
+        "def": cfg.get("default", 0),
+        "rows": rows,
+        "total": total,
+        "unplaced": unplaced[:80],
+        "notes": cfg.get("notes") or [n for n in (t.get("footnotes") or [])][:3],
+    }
+    return p, []
+
+
 def build_payload(book, t, tr, cfg):
     """The v1 payload for one table and its maplinks.json entry (see MAPLINK_SPEC.md)."""
     if cfg.get("units") == "territory":
         return build_territory(book, t, tr, cfg)
+    if cfg.get("units") == "city":
+        return build_city(book, t, tr, cfg)
     part = t["parts"][cfg.get("part", 0)]
     cols = part["columns"]
     lab = cfg.get("label_col", 0)

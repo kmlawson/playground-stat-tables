@@ -108,9 +108,16 @@ def entry(book, tid):
             if n >= MIN_PREF and (best is None or n > best[2]):
                 best = (pi, lc, n, ids)
     if not best:
-        return joined(book, tid, t)
+        e, why = joined(book, tid, t)
+        if e:
+            return e, why
+        c, cwhy = city_entry(book, tid, t)
+        return (c, cwhy) if c else (None, why + "; " + cwhy)
     pi, lc, n, ids = best
-    return entry_for(book, tid, t, pi, lc, n)
+    e, why = entry_for(book, tid, t, pi, lc, n)
+    if not e and why.startswith("a table of cities"):
+        return city_entry(book, tid, t)
+    return e, why
 
 
 def entry_for(book, tid, t, pi, lc, n, only=None):
@@ -161,6 +168,89 @@ def entry_for(book, tid, t, pi, lc, n, only=None):
     if any(m["kind"] in ("rate", "index") for m in meta.values()):
         e["check_total"] = False
     return e, f"{n} prefectures, part {pi}, label column {lc}, {len(cols)} columns"
+
+
+_CITY = None
+
+
+def city_index():
+    """The map's city gazetteer as the candidates page reads it: (folder, {folded name: city id}, clean)."""
+    global _CITY
+    if _CITY is None:
+        import importlib.util
+        spec = importlib.util.spec_from_file_location("bc", os.path.join(HERE, "build_candidates.py"))
+        bc = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(bc)
+        F = bc.Folder(M)
+        ix, _ = bc.build_indexes(F, M)
+        _CITY = (F, ix["cities"], bc.clean, bc)
+    return _CITY
+
+
+def city_entry(book, tid, t):
+    """A table of cities (units "city"): the part, and axis, naming the most of the map's cities, with six or more."""
+    F, cities, clean, bc = city_index()
+    best = None
+    for pi, p in enumerate(t.get("parts") or []):
+        for lc in (0, 1):
+            labs = [r[lc] if len(r) > lc else "" for r in p["rows"]]
+            ids = {ri: cities.get(F.city(clean(l))) for ri, l in enumerate(labs) if str(l).strip()}
+            ids = {k: v for k, v in ids.items() if v}
+            if len(set(ids.values())) >= 6 and (best is None or len(set(ids.values())) > best[3]):
+                best = (pi, lc, False, len(set(ids.values())), ids)
+        heads = p.get("columns") or []
+        ids = {j: cities.get(F.city(clean(h))) for j, h in enumerate(heads) if j > 0 and str(h).strip()}
+        ids = {k: v for k, v in ids.items() if v}
+        if len(set(ids.values())) >= 6 and (best is None or len(set(ids.values())) > best[3]):
+            best = (pi, 0, True, len(set(ids.values())), ids)
+    if not best:
+        return None, "nor six of the map's cities"
+    pi, lc, across, n, ids = best
+    p = t["parts"][pi]
+    title_rate = bool(RATE.search(t.get("title") or ""))
+    yen = bool(re.search(r"Unit: ?(円|圓)|單位[^)）]*(円|圓)|歳出|歳入|豫算|決算", (t.get("title") or "") + " " + (t.get("caption_extra") or "")))
+    weather = bool(re.search(r"temperature|precipitat|rain|gale|wind|humidity|weather|climat|snow|氣溫|気温|降水|雨|風|濕度|氣象", (t.get("title") or ""), re.I))
+    def kind_of(name):
+        if weather:
+            return {"unit": "", "kind": "other", "pc": False, "color": "seq"}
+        k = ("rate" if RATE.search(name) or title_rate else "index" if INDEX.search(name)
+             else "amount" if AMOUNT.search(name) or yen else "other" if AREA.search(name) else "count")
+        return {"unit": "", "kind": k, "pc": k == "count" and not POP.search(name), "color": "seq"}
+    meta, total = {}, None
+    if across:
+        lines = []
+        for li, r in enumerate(p["rows"]):
+            vals = [v for v in (M.value(r[j]) for j in ids if j < len(r)) if v not in ("", "-")]
+            if vals and sum(isinstance(v, (int, float)) for v in vals) >= 0.5 * len(vals) and str(r[lc]).strip():
+                lines.append(li)
+                meta[str(li)] = kind_of(str(r[lc]))
+        if not lines:
+            return None, "a table of cities across the top with no row of figures"
+        tc = next((j for j, h in enumerate(p["columns"]) if j not in ids and j > 0 and TOTAL.search(str(h).strip())), None)
+        cols = lines
+    else:
+        cols = []
+        for j, c in enumerate(p["columns"]):
+            if j == lc:
+                continue
+            vals = [v for v in (M.value(p["rows"][ri][j]) for ri in ids if j < len(p["rows"][ri])) if v not in ("", "-")]
+            if vals and sum(isinstance(v, (int, float)) for v in vals) >= 0.5 * len(vals):
+                cols.append(j)
+                meta[str(j)] = kind_of(str(c))
+        if not cols:
+            return None, "a table of cities with no column of figures"
+        total = next((ri for ri, r in enumerate(p["rows"]) if ri not in ids and len(r) > lc and TOTAL.search(str(r[lc]).strip())), None)
+    y = era_year(p.get("label")) or year_of(book, t)
+    names = [str(p["rows"][li][lc]) for li in cols] if across else [str(p["columns"][j]) for j in cols]
+    years = [int(YEAR.match(x).group(1)) if YEAR.match(x) else None for x in names]
+    default = years.index(max(v for v in years if v)) if all(years) and len(cols) > 1 else 0
+    e = {"book": book, "table": tid, "units": "city", "part": pi, "label_col": lc, "default": default, "date": y,
+         "period": "1930" if y and int(y) < 1938 else "1942", "col_meta": meta, "ids": {str(k): v for k, v in ids.items()}}
+    if across:
+        e.update({"across": True, "lines": cols, **({"total_col": tc} if tc is not None else {})})
+    else:
+        e.update({"columns": cols, **({"total_row": total} if total is not None else {})})
+    return e, f"{n} cities, part {pi}, {'across the top' if across else 'down column %d' % lc}, {len(cols)} measures"
 
 
 def prefs(t):

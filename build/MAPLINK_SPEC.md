@@ -222,6 +222,18 @@ Agreed with the map (its `docs/table-links.md`, 2026-11-06); all fields optional
 - Site side: entries in `maplinks.json` with `"units": "territory"` list each column by hand (`part`, `line` = the
   printed row when `"across": true`, else the printed column); `build_territory` in `maplinks.py` builds them.
 
+## 4b. Tables of cities (addition, still `v: 1`)
+
+- **`units: "city"`**: each row is a city, and `rows[].id` is the map's own city id (`data/cities-1930.csv`,
+  `data/cities-1942.csv`, named in `texts/city-names.csv` and `texts/sites/sites.csv`). The site matches printed
+  labels against that gazetteer when the entry is written and stores the ids in `maplinks.json`.
+- **`unplaced`** (new, optional): the printed labels of rows with figures that match no city on the map (呉市,
+  堺市 …), so the map can say how much of the table it is not showing. Totals are in `total`, not here.
+- A table printed with the cities across the top is turned as for territories: each printed row is a column.
+- `kind`/`pc` as before: `pc: true` means a per-head view makes sense (the map has `pop_c1920/1930/1940` for its
+  cities). Weather tables are `kind: "other"`.
+- Site side: `city_entry` in `maplinks_add.py`, `build_city` in `maplinks.py`.
+
 ## 5. Examples
 
 Two tables carry links at first:

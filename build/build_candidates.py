@@ -250,7 +250,14 @@ def build_indexes(F, M):
             polity.setdefault(r["id"], r.get("polity") or r.get("polity_1940") or "")
             for a in alternatives(r.get("name_en"), r.get("name_local")):
                 cities.setdefault(F.city(a), r["id"])
+    # The great cities' Japanese names are in the map's sites list, not city-names.csv (名古屋, 大阪, 東京 …)
+    for r in read_csv(os.path.join(ROOT, "texts", "sites", "sites.csv")):
+        if r["id"] in polity:
+            for a_ in alternatives(r.get("en"), r.get("ja"), r.get("orig"), r.get("zh"), r.get("local")):
+                cities.setdefault(F.city(a_), r["id"])
     cities = {k: v for k, v in cities.items() if len(k) >= 2}
+    if "kyoto" in polity:      # the fold takes 都 for a prefecture's suffix and leaves 京, too short to keep
+        cities.setdefault("京都", "kyoto")
     ix["cities"] = cities
 
     stations = set()
