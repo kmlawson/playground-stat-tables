@@ -235,7 +235,7 @@ def city_entry(book, tid, t):
             if n and (best is None or n > best[3]):
                 best = (pi, lc, across, n, ids, c[1])
     if not best:
-        return None, "nor a set of the map's cities or provinces"
+        return territory_entry(book, tid, t)
     pi, lc, across, n, ids, unit = best
     p = t["parts"][pi]
     title_rate = bool(RATE.search(t.get("title") or ""))
@@ -277,11 +277,60 @@ def city_entry(book, tid, t):
     default = years.index(max(v for v in years if v)) if all(years) and len(cols) > 1 else 0
     e = {"book": book, "table": tid, "units": UNITS[unit], "part": pi, "label_col": lc, "default": default, "date": y,
          "period": "1930" if y and int(y) < 1938 else "1942", "col_meta": meta, "ids": {str(k): v for k, v in ids.items()}}
+    # Taiwan's prefectures were redrawn again and again (1895–1920), so tables by them are not linked (user,
+    # 2026-11-06): neither the 州・廳 of 1920 nor the earlier 縣・廳, which would otherwise pass as their seats' towns.
+    if unit in ("taiwan-shu", "taiwan-gun"):
+        return None, "a table of Taiwan's prefectures or districts: not linked (their boundaries changed too often)"
+    if unit == "cities" and book.startswith("taiwan") and y and int(y) < 1920:
+        return None, "a table of Taiwan's prefectures of the time (縣・廳), not of towns: not linked"
     if across:
         e.update({"across": True, "lines": cols, **({"total_col": tc} if tc is not None else {})})
     else:
         e.update({"columns": cols, **({"total_row": total} if total is not None else {})})
     return e, f"{n} {UNITS[unit]}, part {pi}, {'across the top' if across else 'down column %d' % lc}, {len(cols)} measures"
+
+
+def territory_entry(book, tid, t):
+    """A small table of the empire's parts (内地, 朝鮮, 臺灣, 樺太 …), down the side or across the top: an entry in
+    the hand-written territory form (maplinks.build_territory), each printed line or column a column of its own."""
+    best = None
+    for pi, p in enumerate(t.get("parts") or []):
+        heads = p.get("columns") or []
+        across = [j for j, h in enumerate(heads) if j and M.match_territory(h)]
+        down = [ri for ri, r in enumerate(p["rows"]) if r and M.match_territory(r[0])]
+        for kind, hit in (("across", across), ("down", down)):
+            if len({M.match_territory(heads[j] if kind == "across" else p["rows"][j][0]) for j in hit}) >= 3 and (best is None or len(hit) > best[2]):
+                best = (pi, kind, len(hit))
+    if not best:
+        return None, "nor a set of the map's cities, provinces or the empire's parts"
+    pi, kind, n = best
+    p = t["parts"][pi]
+    title_rate = bool(RATE.search(t.get("title") or ""))
+    def meta(name):
+        k = "rate" if RATE.search(name) or title_rate else "index" if INDEX.search(name) else "amount" if AMOUNT.search(name) else "count"
+        return {"unit": "", "kind": k, "color": "seq"}
+    cols = []
+    if kind == "across":
+        for li, r in enumerate(p["rows"]):
+            vals = [M.value(r[j]) for j, h in enumerate(p["columns"]) if j and M.match_territory(h) and j < len(r)]
+            if r and str(r[0]).strip() and sum(isinstance(v, (int, float)) for v in vals) >= 0.5 * max(1, len(vals)):
+                cols.append({"part": pi, "line": li, "name": str(r[0]).strip(), **meta(str(r[0]))})
+    else:
+        for j, h in enumerate(p["columns"]):
+            if j == 0:
+                continue
+            vals = [M.value(r[j]) for r in p["rows"] if r and M.match_territory(r[0]) and j < len(r)]
+            if sum(isinstance(v, (int, float)) for v in vals) >= 0.5 * max(1, len(vals)):
+                cols.append({"part": pi, "line": j, "name": str(h).strip(), **meta(str(h))})
+    if not cols:
+        return None, "a table of the empire's parts with no figures"
+    labels = [str(h).strip() for h in p["columns"]] if kind == "across" else [str(r[0]).strip() for r in p["rows"] if r]
+    tot = next((l for l in labels if re.match(r"^(帝國|總數|合計|總計|全國|Total|Empire)$", l)), None)
+    y = era_year(p.get("label")) or year_of(book, t)
+    e = {"book": book, "table": tid, "units": "territory", "label_col": 0, "cols": cols, "default": 0, "date": y,
+         "period": "1930" if y and int(y) < 1938 else "1942", **({"across": True} if kind == "across" else {}),
+         **({"total": {"label": tot, "en": "Empire" if tot == "帝國" else "Total"}} if tot else {})}
+    return e, f"{n} parts of the empire, {kind}, {len(cols)} measures"
 
 
 def prefs(t):

@@ -167,7 +167,7 @@ def build_territory(book, t, tr, cfg):
 
 
 # rows that are not places at all (years, ditto marks, totals) are not "unplaced"
-NOT_PLACE = re.compile('^\\s*([\u3003\u2033\u201e",]+|明治|大正|昭和|民國|Year|\\d{4}\\b|\\d+\\s*$|計$|合計|總數|總計|Total)')
+NOT_PLACE = re.compile('^\\s*([\u3003\u2033\u201e",]+|同\\s*\\d|明治|大正|昭和|民國|Year|\\d{4}\\b|\\d+\\s*$|計$|合計|總數|總計|Total)')
 
 
 def build_city(book, t, tr, cfg):

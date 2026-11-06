@@ -105,7 +105,7 @@ OLD = str.maketrans({
     "鐵": "鉄", "與": "与", "來": "来", "兩": "両", "壽": "寿", "榮": "栄", "莊": "荘", "惠": "恵",
     "衞": "衛", "傳": "伝", "實": "実", "鹽": "塩", "驛": "駅", "舊": "旧", "淺": "浅", "峯": "峰",
     "髙": "高", "﨑": "崎", "嵜": "崎", "邉": "辺", "澁": "渋", "澀": "渋", "籠": "篭", "肅": "粛",
-    "陜": "陝", "尙": "尚", "淸": "清", "灣": "湾", "臺": "台", "廣": "広", "東": "東", "蘇": "蘇", "隸": "隷", "爾": "爾", "雲": "雲", "藝": "芸", "條": "条", "險": "険", "檜": "桧", "蠣": "蛎", "與": "与",
+    "陜": "陝", "鎭": "鎮", "尙": "尚", "淸": "清", "灣": "湾", "臺": "台", "廣": "広", "東": "東", "蘇": "蘇", "隸": "隷", "爾": "爾", "雲": "雲", "藝": "芸", "條": "条", "險": "険", "檜": "桧", "蠣": "蛎", "與": "与",
 })
 CITY_SUFFIX = re.compile(r"(市|區|区|府|町|驛|駅|[-\s]?(?:shi|city|machi|fu)|\s*station)$", re.I)
 PROV_SUFFIX = re.compile(r"(省|州|廳|庁|道|[-\s]?(?:sho|shō|shu|shū|cho|chō|do|dō|province))$", re.I)
@@ -256,6 +256,13 @@ def build_indexes(F, M):
             for a_ in alternatives(r.get("en"), r.get("ja"), r.get("orig"), r.get("zh"), r.get("local")):
                 cities.setdefault(F.city(a_), r["id"])
     cities = {k: v for k, v in cities.items() if len(k) >= 2}
+    # Spellings in the colonial year books that the gazetteer does not carry (Japanese readings, older romanisations)
+    for name, cid in {"Fuzan": "pusan", "Busan": "pusan", "Bazan": "masan", "Kwoshu": "kwangju", "Koshu": "kwangju",
+                      "Chinnampo": "nampo", "Chinampo": "nampo", "Genzan": "wonsan", "Gensan": "wonsan", "Heijo": "pyongyang",
+                      "Keijo": "seoul", "Jinsen": "incheon", "Taikyu": "taegu", "Moppo": "mokpo", "Gunzan": "kunsan",
+                      "Seishin": "chongjin", "Shingishu": "sinuiju", "Zenshu": "chonju"}.items():
+        if cid in polity:
+            cities.setdefault(F.city(name), cid)
     if "kyoto" in polity:      # the fold takes 都 for a prefecture's suffix and leaves 京, too short to keep
         cities.setdefault("京都", "kyoto")
     ix["cities"] = cities
