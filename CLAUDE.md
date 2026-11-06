@@ -211,6 +211,10 @@ The paths inside still name the book they came from — edit them first.
   (`japan-`, `china-`, `korea-`, `taiwan-`, `manch…`) or `group`; every section except Other sorts by
   edition year. Slugs: 朝鮮年鑑 = `korea-nenkan-YYYY`, 朝鮮事情 = `korea-YYYY`, statistical annual = `korea-tokanfu-YYYY`.
 - Directory books can set `dir_cards`, `dir_places`, `dir_pinyin` (place cards, pinyin with "alt. romanization").
+  A directory entry may carry `"fields": [[label, value], …]` and `"description"`: the card then shows each field on its
+  own line under a bold label, then the description (`text` still holds everything, for search). Hotels in Japan 1935
+  does this, with all hotels also as one sortable table whose last column is a scan link (a cell holding only an
+  archive.org URL shows as "scan ↗").
 - Table pages show printed notes and transcriber's notes in collapsible sections under each table.
 - **Notes** (reader annotations): table, directory and chronology pages have an opt-in Notes button that loads the
   vendored `annotate.js` 1.4.0 (MIT; `annotate.js` + `annotate.LICENSE.txt` at the site root; never load it from a CDN).
@@ -223,7 +227,8 @@ The paths inside still name the book they came from — edit them first.
 - **Kanji numerals are converted for display only** (user, 2026-11-05): `build/kanji_nums.js`, inlined in every book page,
   shows positional numbers (`五〇〇瓦` → `500瓦`, `第一三類` → `第13類`) as Arabic with an Arabic / As printed switch; the
   data, CSV, Excel and Full Search keep the printed form. BOOKS flag `"kanji_full": True` also converts single digits and
-  十百千 before a unit (`五寸五分`); only 百貨店年鑑 has it. Grades and ranks stay in kanji (`一級`, `九等`, `二番狸毫`), as
+  十百千 before a unit (`五寸五分`); only 百貨店年鑑 has it. `"kanji_full": "cells"` is for listings whose figure columns hold bare numbers (クーポン旅館一覧 1936): a cell that
+  is only a number converts whatever its length, and 、 between yen and sen is a decimal point (二、五〇 → 2.50). Grades and ranks stay in kanji (`一級`, `九等`, `二番狸毫`), as
   do names and lists. When in doubt the rule leaves the kanji. After changing it, read every comma and decimal conversion.
 - Build: `STAT_TABLES_ROOT=/Users/kml/shell/projects/yearbooks/japanyearbooks python3 build/build_site.py`, then
   `uv run --with openpyxl build/build_downloads.py`, then build_site again (so the page links the new download).
