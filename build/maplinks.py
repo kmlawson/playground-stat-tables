@@ -166,6 +166,10 @@ def build_territory(book, t, tr, cfg):
     return p, []
 
 
+# rows that are not places at all (years, ditto marks, totals) are not "unplaced"
+NOT_PLACE = re.compile('^\\s*([\u3003\u2033\u201e",]+|明治|大正|昭和|民國|Year|\\d{4}\\b|\\d+\\s*$|計$|合計|總數|總計|Total)')
+
+
 def build_city(book, t, tr, cfg):
     """A table of cities (units "city", MAPLINK_SPEC 4b). The ids are the map's own city ids, matched when the entry
     was written (maplinks_add.py, from the map's gazetteer) and stored in the entry, so this build needs no map
@@ -190,6 +194,20 @@ def build_city(book, t, tr, cfg):
                 total = {"label": str(h).strip(), "v": vals}
             elif str(h).strip() and any(isinstance(v, (int, float)) for v in vals):
                 unplaced.append(str(h).strip())
+    elif cfg.get("split_col") is not None:
+        # each place printed on several rows told apart by a column (男 / 女): one column per measure and value
+        sc, use = cfg["split_col"], cfg["columns"]
+        svals = list(dict.fromkeys(str(r[sc]).strip() for ri, r in enumerate(part["rows"]) if ri in ids and len(r) > sc))
+        cols = [dict({"name": f"{part['columns'][j]} — {sv}"}, **meta.get(str(j), {})) for sv in svals for j in use]
+        by = {}
+        for ri, r in enumerate(part["rows"]):
+            if ri not in ids:
+                continue
+            x = by.setdefault(ids[ri], {"id": ids[ri], "label": str(r[lab]).strip(), "row": ri, "v": [""] * len(cols)})
+            k = svals.index(str(r[sc]).strip())
+            for n, j in enumerate(use):
+                x["v"][k * len(use) + n] = value(r[j]) if j < len(r) else ""
+        rows = list(by.values())
     else:
         use = cfg["columns"]
         cols = [dict({"name": part["columns"][j]}, **meta.get(str(j), {})) for j in use]
@@ -219,7 +237,8 @@ def build_city(book, t, tr, cfg):
         "def": cfg.get("default", 0),
         "rows": rows,
         "total": total,
-        "unplaced": unplaced[:80],
+        # rows that are not places at all (years, ditto marks, 計) are not "unplaced"
+        "unplaced": [u for u in unplaced if not NOT_PLACE.match(u)][:80],
         "notes": cfg.get("notes") or [n for n in (t.get("footnotes") or [])][:3],
     }
     return p, []
@@ -229,7 +248,7 @@ def build_payload(book, t, tr, cfg):
     """The v1 payload for one table and its maplinks.json entry (see MAPLINK_SPEC.md)."""
     if cfg.get("units") == "territory":
         return build_territory(book, t, tr, cfg)
-    if cfg.get("units") not in (None, "prefecture"):
+    if cfg.get("units") not in (None, "prefecture") or cfg.get("across") or cfg.get("split_col") is not None:
         return build_city(book, t, tr, cfg)   # city, china-province, korea-province … (keyed by the map's ids)
     part = t["parts"][cfg.get("part", 0)]
     cols = part["columns"]

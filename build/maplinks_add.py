@@ -120,7 +120,7 @@ def entry(book, tid):
     return e, why
 
 
-def entry_for(book, tid, t, pi, lc, n, only=None):
+def entry_for(book, tid, t, pi, lc, n, only=None, pairs=False):
     p = t["parts"][pi]
     if re.search(r"\bcit(y|ies)\b|市", str(p["columns"][lc]), re.I):
         return None, "a table of cities (its names overlap the prefectures'); the map link sends prefectures only"
@@ -128,7 +128,17 @@ def entry_for(book, tid, t, pi, lc, n, only=None):
     from collections import Counter
     rep = Counter(i for i in ids if i)
     ids = [None if i and not i.isdigit() and rep[i] > 1 else i for i in ids]   # 朝鮮 — 小學校 / 普通學校: sub-rows, not the colony
-    if sum(1 for k, v in Counter(i for i in ids if i).items() if v > 1) >= 3:
+    if not pairs and sum(1 for k, v in Counter(i for i in ids if i).items() if v > 1) >= 3:
+        # 男 / 女 rows under each prefecture: one entry, the sex column splitting the measures (maplinks.build_city)
+        sc = lc + 1
+        sx = [str(r[sc]).strip() if len(r) > sc else "" for r, i in zip(p["rows"], ids) if i]
+        if sx and set(sx) <= {"男", "女", "計", "總數", "Male", "Female", "M", "F", "Total"} and len(set(sx)) >= 2:
+            e, why = entry_for(book, tid, t, pi, lc, n, [j for j in range(len(p["columns"])) if j not in (lc, sc)], pairs=True)
+            if e:
+                e.pop("row_ids", None)
+                e.update({"units": "prefecture", "split_col": sc, "ids": {str(ri): i for ri, i in enumerate(ids) if i}})
+                e.pop("total_row", None)
+                return e, why + "; 男 / 女 rows under each prefecture"
         return None, "prefectures repeat (sub-rows, e.g. port and rest of prefecture)"
     rows = [r for r, i in zip(p["rows"], ids) if i]
     cols, meta = [], {}
@@ -190,7 +200,7 @@ def city_index():
 # The units other than prefectures and the empire's parts that a link can carry, by the candidates page's set names,
 # and the "units" value each is sent as (MAPLINK_SPEC 4b, 4c). Ids are the map's own: its city ids, and the "key"
 # column of texts/territories/sub-units/<file>.csv for the rest.
-UNITS = {"cities": "city", "china": "china-province", "korea": "korea-province", "manchukuo": "manchukuo-province",
+UNITS = {"prefectures": "prefecture", "cities": "city", "china": "china-province", "korea": "korea-province", "manchukuo": "manchukuo-province",
          "taiwan-shu": "taiwan-prefecture", "taiwan-gun": "taiwan-district", "mandate": "nanyo-group"}
 
 
@@ -206,9 +216,15 @@ def city_entry(book, tid, t):
             c = bc.classify([l for l in labs if str(l).strip()], M, F, ix, False)
             if not c or c[1] not in UNITS:
                 continue
-            index = ix[c[1]]
-            fold = F.city if c[1] in ("cities", "taiwan-gun") else F.prov
+            if c[1] == "prefectures":     # only reached across the top: a prefecture table down the side is entry()'s
+                index, fold = None, None
+            else:
+                index = ix[c[1]]
+                fold = F.city if c[1] in ("cities", "taiwan-gun") else F.prov
             def look(l):
+                if index is None:
+                    p_ = place(l)
+                    return p_ if p_ and p_.isdigit() else None
                 hit = index.get(fold(clean(l)))
                 if not hit and re.search(r"[(（]", str(l)):   # "Chihli (Hopei)": either name
                     hit = next((index.get(fold(x.strip())) for x in re.split(r"[()（）]", str(l)) if x.strip() and index.get(fold(x.strip()))), None)
