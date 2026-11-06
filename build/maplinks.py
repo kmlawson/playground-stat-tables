@@ -228,6 +228,14 @@ def build_city(book, t, tr, cfg):
                 total = {"label": label, "row": ri, "v": vals}
             elif label and any(isinstance(v, (int, float)) for v in vals):
                 unplaced.append(label)
+    notes = list(cfg.get("notes") or [n for n in (t.get("footnotes") or [])][:3])
+    if cfg.get("units") == "manchukuo-province":
+        # The map draws the 14 provinces of 1934. A table naming one created later (Mutankiang, Tunghua 1937;
+        # Peian; Tungan 1939; Szeping 1941) is from a different scheme: those rows are left off, and the note says so.
+        later = [u for u in unplaced if re.match(r"(?i)\s*(mutan|tunghua|peian|pei-an|tungan|tung-an|szeping|ssuping|牡丹江|通化|北安|東安|四平)", u)]
+        if later:
+            notes.insert(0, "Left off: " + ", ".join(dict.fromkeys(later)) + ", provinces created after the map's 1934 boundaries; "
+                         "the provinces they were cut from are drawn with their 1934 outlines.")
     title_en = (tr or {}).get("t")
     p = {
         "v": 1,
@@ -246,7 +254,7 @@ def build_city(book, t, tr, cfg):
         "total": total,
         # rows that are not places at all (years, ditto marks, 計) are not "unplaced"
         "unplaced": [u for u in unplaced if not NOT_PLACE.match(u)][:80],
-        "notes": cfg.get("notes") or [n for n in (t.get("footnotes") or [])][:3],
+        "notes": notes,
     }
     return p, []
 
