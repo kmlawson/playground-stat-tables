@@ -203,6 +203,9 @@ def build_indexes(F, M):
     ix["taiwan-shu"] = index(shu, F.prov, ["en", "local", "ja", "zh"])
     ix["taiwan-gun"] = index(gun, F.city, ["en", "local", "ja", "zh"])
     ix["manchukuo"] = index(sub("manchukuo"), F.prov, ["en", "local", "ja", "zh"])
+    for d, k in (("North", "Hsing An Peh"), ("East", "Hsing An Tung"), ("West", "Hsing An Si"), ("South", "Hsing An Nan")):
+        for n in (f"{d} Hsingan", f"Hsingan {d}", f"Hsingan, {d}", f"Hsingan {d[0]}.", f"{d} Hsing-an", f"Hsing-an {d}"):
+            ix["manchukuo"].setdefault(F.prov(n), k)
     ix["china"] = index(sub("china"), F.prov, ["en", "local", "ja", "zh"])
     # Older names and spellings in the year books for provinces the map draws (Chihli is Hebei before 1928,
     # Fengtien/Shengking is Liaoning before 1929).

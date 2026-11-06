@@ -86,7 +86,11 @@ def encode(payload):
 
 
 TERR = [("關東州", "kwantung"), ("関東州", "kwantung"), ("南洋", "nanyo"), ("內地", "naichi"), ("内地", "naichi"),
-        ("朝鮮", "chosen"), ("臺灣", "taiwan"), ("台湾", "taiwan"), ("樺太", "karafuto")]
+        ("朝鮮", "chosen"), ("臺灣", "taiwan"), ("台湾", "taiwan"), ("樺太", "karafuto"),
+        # English year books (Far East Year Book, Pacific survey): "Japan" alone is left out, as it may be the empire
+        ("Japan Proper", "naichi"), ("Chosen", "chosen"), ("Korea", "chosen"), ("Taiwan", "taiwan"), ("Formosa", "taiwan"),
+        ("Karafuto", "karafuto"), ("Saghalien", "karafuto"), ("Kwantung", "kwantung"), ("Nanyo", "nanyo"),
+        ("South Sea", "nanyo"), ("South Seas", "nanyo")]
 FOOTMARK = re.compile(r"[*＊※†‡]")
 
 
@@ -127,12 +131,15 @@ def build_territory(book, t, tr, cfg):
                     tvals.append(tvalue(r[j]) if j < len(r) else "")
         else:
             got = False
+            sc = cfg.get("split_col")   # a place printed on several rows, told apart by this column (a year)
             for ri, r in enumerate(part["rows"]):
                 pid = match_territory(r[lab])
-                if pid:
+                if pid and (sc is None or FOOTMARK.sub("", str(r[sc])).strip() == c.get("when")):
                     places.setdefault(pid, {"id": pid, "label": clean_label(r[lab]), "row": ri, "v": [""] * len(cfg["cols"])})
-                    places[pid]["v"][k] = tvalue(r[c["line"]]) if c["line"] < len(r) else ""
-                elif tot and clean_label(r[lab]) == tot["label"] and not got:
+                    if places[pid]["v"][k] == "":
+                        places[pid]["v"][k] = tvalue(r[c["line"]]) if c["line"] < len(r) else ""
+                elif tot and clean_label(r[lab]) == tot["label"] and not got and (
+                        sc is None or FOOTMARK.sub("", str(r[sc])).strip() == c.get("when")):
                     tvals.append(tvalue(r[c["line"]])); got = True
     rows = list(places.values())
     total = None

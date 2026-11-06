@@ -200,7 +200,7 @@ def city_index():
 # The units other than prefectures and the empire's parts that a link can carry, by the candidates page's set names,
 # and the "units" value each is sent as (MAPLINK_SPEC 4b, 4c). Ids are the map's own: its city ids, and the "key"
 # column of texts/territories/sub-units/<file>.csv for the rest.
-UNITS = {"prefectures": "prefecture", "cities": "city", "china": "china-province", "korea": "korea-province", "manchukuo": "manchukuo-province",
+UNITS = {"prefectures": "prefecture", "cities": "city", "countries": "country", "china": "china-province", "korea": "korea-province", "manchukuo": "manchukuo-province",
          "taiwan-shu": "taiwan-prefecture", "taiwan-gun": "taiwan-district", "mandate": "nanyo-group"}
 
 
@@ -324,12 +324,28 @@ def territory_entry(book, tid, t):
                 cols.append({"part": pi, "line": j, "name": str(h).strip(), **meta(str(h))})
     if not cols:
         return None, "a table of the empire's parts with no figures"
+    if kind == "down":
+        from collections import Counter
+        rep_ = Counter(M.match_territory(r[0]) for r in p["rows"] if r and M.match_territory(r[0]))
+        if max(rep_.values()) > 1:
+            # each part printed once a year: the column of years splits the measures (one column per measure and year)
+            yc = next((j for j in range(1, len(p["columns"])) if sum(1 for r in p["rows"] if len(r) > j and YEAR.match(str(r[j]))) >= 0.6 * len(p["rows"])), None)
+            if yc is None:
+                return None, "the empire's parts repeat with no column of years to tell the rows apart"
+            yrs = list(dict.fromkeys(M.FOOTMARK.sub("", str(r[yc])).strip() for r in p["rows"] if len(r) > yc and YEAR.match(str(r[yc]))))
+            cols = [dict(c, name=f"{c['name']} — {y_}", when=y_, series=c["name"], date=y_[:4])
+                    for c in cols if c["line"] != yc for y_ in yrs]
+            extra = {"split_col": yc}
+        else:
+            extra = {}
+    else:
+        extra = {}
     labels = [str(h).strip() for h in p["columns"]] if kind == "across" else [str(r[0]).strip() for r in p["rows"] if r]
     tot = next((l for l in labels if re.match(r"^(帝國|總數|合計|總計|全國|Total|Empire)$", l)), None)
     y = era_year(p.get("label")) or year_of(book, t)
     e = {"book": book, "table": tid, "units": "territory", "label_col": 0, "cols": cols, "default": 0, "date": y,
          "period": "1930" if y and int(y) < 1938 else "1942", **({"across": True} if kind == "across" else {}),
-         **({"total": {"label": tot, "en": "Empire" if tot == "帝國" else "Total"}} if tot else {})}
+         **({"total": {"label": tot, "en": "Empire" if tot == "帝國" else "Total"}} if tot else {}), **extra}
     return e, f"{n} parts of the empire, {kind}, {len(cols)} measures"
 
 
