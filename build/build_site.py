@@ -2019,6 +2019,7 @@ def main():
             with open(os.path.join(HERE, "book", b["slug"], "index.html"), "w", encoding="utf-8") as fh:
                 fh.write(doc)
     build_tag_pages(pages)
+    build_with_maps(pages, tag_assignments)
     with open(os.path.join(HERE, "index.html"), "w", encoding="utf-8") as fh:
         nb, nt = sum(1 for b, n, c, ch in cards), sum(n for b, n, c, ch in cards)
         fh.write(landing(cards).replace("__TOPICMENU__", f'<p class="allstat">{nb} volumes, with a total of {nt:,} tables</p>').replace("__VERSION__", html.escape(version_line())))   # site totals; the topic menu was removed (user, 2026-10-24)
@@ -2026,6 +2027,70 @@ def main():
               "g": group_of(b), "y": years_of(b), "sc": b.get("scan")} for b, n, c, ch in cards if n]
     with open(os.path.join(HERE, "search.html"), "w", encoding="utf-8") as fh:
         fh.write(SEARCH.replace("__BOOKS__", json.dumps(books, ensure_ascii=False)))
+
+
+def build_with_maps(pages, assignments):
+    """topics/with-maps.html: every table with a View as Map link, searchable by title or tag, by area, sortable."""
+    import maplinks as M
+    voc = json.load(open(os.path.join(HERE, "data", "tags", "vocabulary.json"), encoding="utf-8"))
+    lab = {e["id"]: e["label"] for kind in ("topics", "tags") for e in voc[kind]}
+    dates = {(c["book"], c["table"]): str(c.get("date") or "")[:4] for c in M.load_config().get("tables", [])}
+    items = []
+    for b, clean, n, c in pages:
+        for t in clean:
+            if not t.get("map"):
+                continue
+            row = assignments.get(f'{b["slug"]}:{t["id"]}', {})
+            d = dates.get((b["slug"], t["id"])) or str(years_of(b)[0] or "")
+            items.append({"s": b["slug"], "id": t["id"], "b": b["title"], "g": group_of(b), "d": int(d) if d.isdigit() else 0,
+                          "t": (f"Table {t['table_no']}. " if t.get("table_no") else "") + (t.get("title") or ""),
+                          "e": (t.get("en") or {}).get("t", ""), "tg": [lab[x] for x in row.get("topics", []) + row.get("tags", []) if x in lab],
+                          "m": t["map"]})
+    areas = [[g, n] for g, n in (("japan", "Japan"), ("china", "China"), ("korea", "Korea"), ("taiwan", "Taiwan"), ("manchuria", "Manchuria"),
+                                 ("south-seas", "South Seas"), ("other", "Other")) if any(i["g"] == g for i in items)]
+    doc = WITH_MAPS.replace("__DATA__", json.dumps({"items": items, "areas": areas}, ensure_ascii=False).replace("</", "<\\/")).replace("__N__", f"{len(items):,}")
+    with open(os.path.join(HERE, "topics", "with-maps.html"), "w", encoding="utf-8") as fh:
+        fh.write(doc)
+    print(f"topics/with-maps.html: {len(items)} tables")
+
+
+WITH_MAPS = r"""<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Tables with Map</title><link rel="stylesheet" href="../tags.css">
+<style>
+.ctl{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:4px 0 14px}.ctl input,.ctl select{font:14px system-ui,sans-serif;padding:7px 9px;border:1px solid var(--line);background:var(--panel);color:var(--ink);border-radius:5px}
+#q{flex:1 1 260px;min-width:0}#n{color:var(--muted);font:13px system-ui,sans-serif;margin:0 0 10px}
+.mi{background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--accent);padding:10px 14px;margin:0 0 8px;display:flex;gap:14px;align-items:flex-start}
+.mi .tx{flex:1;min-width:0}.mi h3{font-size:17px;font-weight:normal;margin:0 0 2px;border:0;padding:0}.mi h3 a{color:var(--ink);text-decoration:none}.mi h3 a:hover{text-decoration:underline}
+.mi .en{color:var(--muted);font-size:14px;margin:0 0 3px}.mi .bk{font:13px system-ui,sans-serif;color:var(--muted)}.mi .bk a{color:var(--accent)}
+.mi .tags{display:flex;flex-wrap:wrap;gap:4px;margin-top:6px}.mi .tags span{font:12px/1.3 system-ui,sans-serif;border:1px solid var(--line);border-radius:10px;padding:2px 8px;cursor:pointer}.mi .tags span:hover{border-color:var(--accent)}
+.mi .go{white-space:nowrap;align-self:center;display:inline-block;padding:6px 11px;border-radius:5px;background:var(--accent);color:var(--accent-ink);text-decoration:none;font:600 13px system-ui,sans-serif}
+@media(max-width:600px){.mi{flex-direction:column;gap:6px}.mi .go{align-self:flex-start}}
+</style></head><body class="tag-browser">
+<header class="band"><div><nav class="navigation"><a href="../index.html">← All books</a> · <a href="index.html">All topics and tags</a></nav><h1>Tables with Map</h1></div></header>
+<main><p class="lede">The __N__ tables whose figures can be opened on the Japanese Empire map. Search by title or tag, choose an area, and sort.</p>
+<div class="ctl"><input id="q" type="search" placeholder="Search titles and tags…" aria-label="Search titles and tags"><select id="area" aria-label="Area"><option value="">All areas</option></select>
+<select id="sort" aria-label="Sort"><option value="d">Date, earliest first</option><option value="-d">Date, latest first</option><option value="az">Title A–Z</option></select></div>
+<p id="n"></p><div id="out"></div></main>
+<script>
+const D=__DATA__;const $=s=>document.querySelector(s);const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+function mapHref(u){const L="https://froginawell.net/reference/japanese-empire/",G="https://kmlawson.github.io/japanese-empire-student-map/";let o=null;try{o=new URLSearchParams(location.search).get("map")}catch(e){}const gh=o?o==="gh":/github\.io$/.test(location.hostname);return gh?u.replace(L,G):u}
+D.areas.forEach(([g,n])=>$("#area").insertAdjacentHTML("beforeend",`<option value="${g}">${esc(n)}</option>`));
+const fold=s=>String(s).toLowerCase().normalize("NFKD").replace(/[\u0300-\u036f]/g,"");
+D.items.forEach(i=>i.k=fold([i.t,i.e,i.b,...i.tg].join(" ")));
+function render(){const q=fold($("#q").value.trim()).split(/\s+/).filter(Boolean),a=$("#area").value,so=$("#sort").value;
+let r=D.items.filter(i=>(!a||i.g===a)&&q.every(w=>i.k.includes(w)));
+const az=(x,y)=>(x.e||x.t).localeCompare(y.e||y.t);
+r.sort(so==="az"?az:so==="-d"?(x,y)=>y.d-x.d||az(x,y):(x,y)=>x.d-y.d||az(x,y));
+$("#n").textContent=`${r.length.toLocaleString()} of ${D.items.length.toLocaleString()} tables`;
+$("#out").innerHTML=r.map(i=>`<div class="mi"><div class="tx"><h3><a href="../book/${i.s}/#${i.id}">${esc(i.t)}</a></h3>${i.e?`<p class="en">${esc(i.e)}</p>`:""}<div class="bk"><a href="../book/${i.s}/">${esc(i.b)}</a>${i.d?` · ${i.d}`:""}</div>${i.tg.length?`<div class="tags">${i.tg.map(x=>`<span data-t="${esc(x)}">${esc(x)}</span>`).join("")}</div>`:""}</div><a class="go" href="${esc(mapHref(i.m))}" target="_blank" rel="noopener">View as Map ↗</a></div>`).join("");
+try{const p=new URLSearchParams();if($("#q").value)p.set("q",$("#q").value);if(a)p.set("a",a);if(so!=="d")p.set("s",so);history.replaceState(null,"","#"+p)}catch(e){}}
+try{const p=new URLSearchParams(location.hash.slice(1));$("#q").value=p.get("q")||"";if(p.get("a"))$("#area").value=p.get("a");if(p.get("s"))$("#sort").value=p.get("s")}catch(e){}
+$("#q").addEventListener("input",render);$("#area").addEventListener("change",render);$("#sort").addEventListener("change",render);
+$("#out").addEventListener("click",e=>{const t=e.target.closest("[data-t]");if(t){$("#q").value=t.dataset.t;render();scrollTo({top:0})}});
+render();
+</script></body></html>
+"""
 
 
 def group_of(b):
