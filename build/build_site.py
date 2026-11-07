@@ -2049,29 +2049,80 @@ def main():
         fh.write(SEARCH.replace("__BOOKS__", json.dumps(books, ensure_ascii=False)))
 
 
+# What a table's map is drawn by, from the payload's `units` (MAPLINK_SPEC): the with-maps page filters on it.
+# "admin" = prefectures, provinces and the South Seas island groups; "city" = points; "other" = whole countries
+# or the empire's parts. A units value not listed here is "other" and the build says so, so a new kind is seen.
+MAP_KINDS = {"prefecture": "admin", "china-province": "admin", "korea-province": "admin", "manchukuo-province": "admin",
+             "nanyo-group": "admin", "city": "city", "territory": "other", "country": "other"}
+
+
 def build_with_maps(pages, assignments):
-    """topics/with-maps.html: every table with a View as Map link, searchable by title or tag, by area, sortable."""
+    """topics/with-maps.html: every table with a View as Map link, searchable by title or tag, filtered by area and by
+    what the map draws (provinces, cities, other), sortable.
+
+    The map addresses are NOT in the page. Each carries the table's figures, compressed, so together they were 88% of a
+    4.3 MB page (2.9 MB gzipped) that showed nothing until all of it had arrived; the list without them is about 60 KB
+    gzipped. They go to topics/maps/<book>.json instead, and the button links to topics/map.html?b=<book>&t=<id>,
+    which fetches that one small file and replaces itself with the map. A real link keeps middle-click, open in new
+    tab and copy link working, which a fetch-then-window.open on click would not (popup blockers)."""
     import maplinks as M
     voc = json.load(open(os.path.join(HERE, "data", "tags", "vocabulary.json"), encoding="utf-8"))
     lab = {e["id"]: e["label"] for kind in ("topics", "tags") for e in voc[kind]}
     dates = {(c["book"], c["table"]): str(c.get("date") or "")[:4] for c in M.load_config().get("tables", [])}
-    items = []
+    items, shards, unknown = [], {}, set()
     for b, clean, n, c in pages:
         for t in clean:
             if not t.get("map"):
                 continue
             row = assignments.get(f'{b["slug"]}:{t["id"]}', {})
             d = dates.get((b["slug"], t["id"])) or str(years_of(b)[0] or "")
+            units = M.decode(t["map"]).get("units") or "prefecture"
+            if units not in MAP_KINDS:
+                unknown.add(units)
             items.append({"s": b["slug"], "id": t["id"], "b": b["title"], "g": group_of(b), "d": int(d) if d.isdigit() else 0,
+                          "u": MAP_KINDS.get(units, "other"),
                           "t": (f"Table {t['table_no']}. " if t.get("table_no") else "") + (t.get("title") or ""),
-                          "e": (t.get("en") or {}).get("t", ""), "tg": [lab[x] for x in row.get("topics", []) + row.get("tags", []) if x in lab],
-                          "m": t["map"]})
+                          "e": (t.get("en") or {}).get("t", ""), "tg": [lab[x] for x in row.get("topics", []) + row.get("tags", []) if x in lab]})
+            shards.setdefault(b["slug"], {})[t["id"]] = t["map"]
+    if unknown:
+        print(f"with-maps: map units not in MAP_KINDS, listed as Other: {', '.join(sorted(unknown))}")
     areas = [[g, n] for g, n in (("japan", "Japan"), ("china", "China"), ("korea", "Korea"), ("taiwan", "Taiwan"), ("manchuria", "Manchuria"),
                                  ("south-seas", "South Seas"), ("other", "Other")) if any(i["g"] == g for i in items)]
-    doc = WITH_MAPS.replace("__DATA__", json.dumps({"items": items, "areas": areas}, ensure_ascii=False).replace("</", "<\\/")).replace("__N__", f"{len(items):,}")
+    kinds = [[k, n] for k, n in (("admin", "By province or prefecture"), ("city", "By city"), ("other", "Other (countries, the empire’s parts)"))
+             if any(i["u"] == k for i in items)]
+    sd = os.path.join(HERE, "topics", "maps")
+    os.makedirs(sd, exist_ok=True)
+    for slug, links in shards.items():
+        with open(os.path.join(sd, slug + ".json"), "w", encoding="utf-8") as fh:
+            json.dump(links, fh, ensure_ascii=False, separators=(",", ":"))
+    for f in os.listdir(sd):   # a book that no longer has any map link
+        if f.endswith(".json") and f[:-5] not in shards:
+            os.remove(os.path.join(sd, f))
+    with open(os.path.join(HERE, "topics", "map.html"), "w", encoding="utf-8") as fh:
+        fh.write(MAP_REDIRECT)
+    data = json.dumps({"items": items, "areas": areas, "kinds": kinds}, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
+    doc = WITH_MAPS.replace("__DATA__", data).replace("__N__", f"{len(items):,}")
     with open(os.path.join(HERE, "topics", "with-maps.html"), "w", encoding="utf-8") as fh:
         fh.write(doc)
-    print(f"topics/with-maps.html: {len(items)} tables")
+    print(f"topics/with-maps.html: {len(items)} tables, {len(doc.encode()) // 1024} KB; map links in topics/maps/ ({len(shards)} books)")
+
+
+# topics/map.html?b=<book>&t=<table id>[&map=gh]: fetch that book's map links and go to the table's map. The address
+# replaces this page in the history, so Back returns to the list.
+MAP_REDIRECT = r"""<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Opening the map…</title><meta name="robots" content="noindex"><link rel="stylesheet" href="../tags.css"></head>
+<body class="tag-browser"><main><p id="msg" class="lede">Opening the map…</p></main>
+<script>
+(async()=>{const p=new URLSearchParams(location.search),b=p.get("b")||"",t=p.get("t")||"",msg=document.getElementById("msg");
+const L="https://froginawell.net/reference/japanese-empire/",G="https://kmlawson.github.io/japanese-empire-student-map/";
+const o=p.get("map"),gh=o?o==="gh":/github\.io$/.test(location.hostname);
+try{if(!/^[\w.-]+$/.test(b))throw 0;const r=await fetch("maps/"+b+".json");if(!r.ok)throw 0;const u=(await r.json())[t];
+if(typeof u!=="string"||!u.startsWith(L))throw 0;location.replace(gh?u.replace(L,G):u)}
+catch(e){msg.textContent="";const a=document.createElement("a");a.href=/^[\w.-]+$/.test(b)?"../book/"+b+"/#"+encodeURIComponent(t):"with-maps.html";
+a.textContent="Open the table";msg.append("This map link could not be found. ",a,".")}})();
+</script></body></html>
+"""
 
 
 WITH_MAPS = r"""<!DOCTYPE html>
@@ -2085,28 +2136,39 @@ WITH_MAPS = r"""<!DOCTYPE html>
 .mi .en{color:var(--muted);font-size:14px;margin:0 0 3px}.mi .bk{font:13px system-ui,sans-serif;color:var(--muted)}.mi .bk a{color:var(--accent)}
 .mi .tags{display:flex;flex-wrap:wrap;gap:4px;margin-top:6px}.mi .tags span{font:12px/1.3 system-ui,sans-serif;border:1px solid var(--line);border-radius:10px;padding:2px 8px;cursor:pointer}.mi .tags span:hover{border-color:var(--accent)}
 .mi .go{white-space:nowrap;align-self:center;display:inline-block;padding:6px 11px;border-radius:5px;background:var(--accent);color:var(--accent-ink);text-decoration:none;font:600 13px system-ui,sans-serif}
+.mi{content-visibility:auto;contain-intrinsic-size:auto 96px}
+#more{color:var(--muted);font:13px system-ui,sans-serif;padding:6px 0 20px}
 @media(max-width:600px){.mi{flex-direction:column;gap:6px}.mi .go{align-self:flex-start}}
 </style></head><body class="tag-browser">
 <header class="band"><div><nav class="navigation"><a href="../index.html">← All books</a> · <a href="index.html">All topics and tags</a></nav><h1>Tables with Map</h1></div></header>
-<main><p class="lede">The __N__ tables whose figures can be opened on the Japanese Empire map. Search by title or tag, choose an area, and sort.</p>
+<main><p class="lede">The __N__ tables whose figures can be opened on the Japanese Empire map. Search by title or tag, choose an area or what the map shows, and sort.</p>
 <div class="ctl"><input id="q" type="search" placeholder="Search titles and tags…" aria-label="Search titles and tags"><select id="area" aria-label="Area"><option value="">All areas</option></select>
+<select id="kind" aria-label="What the map shows"><option value="">Provinces, cities and other</option></select>
 <select id="sort" aria-label="Sort"><option value="d">Date, earliest first</option><option value="-d">Date, latest first</option><option value="az">Title A–Z</option></select></div>
-<p id="n"></p><div id="out"></div></main>
+<p id="n"></p><div id="out"></div><p id="more" hidden>Loading more tables…</p></main>
 <script>
 const D=__DATA__;const $=s=>document.querySelector(s);const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
-function mapHref(u){const L="https://froginawell.net/reference/japanese-empire/",G="https://kmlawson.github.io/japanese-empire-student-map/";let o=null;try{o=new URLSearchParams(location.search).get("map")}catch(e){}const gh=o?o==="gh":/github\.io$/.test(location.hostname);return gh?u.replace(L,G):u}
+let mapQ="";try{const o=new URLSearchParams(location.search).get("map");if(o)mapQ="&map="+encodeURIComponent(o)}catch(e){}
 D.areas.forEach(([g,n])=>$("#area").insertAdjacentHTML("beforeend",`<option value="${g}">${esc(n)}</option>`));
+D.kinds.forEach(([k,n])=>$("#kind").insertAdjacentHTML("beforeend",`<option value="${k}">${esc(n)}</option>`));
 const fold=s=>String(s).toLowerCase().normalize("NFKD").replace(/[\u0300-\u036f]/g,"");
 D.items.forEach(i=>i.k=fold([i.t,i.e,i.b,...i.tg].join(" ")));
-function render(){const q=fold($("#q").value.trim()).split(/\s+/).filter(Boolean),a=$("#area").value,so=$("#sort").value;
-let r=D.items.filter(i=>(!a||i.g===a)&&q.every(w=>i.k.includes(w)));
+const row=i=>`<div class="mi"><div class="tx"><h3><a href="../book/${i.s}/#${i.id}">${esc(i.t)}</a></h3>${i.e?`<p class="en">${esc(i.e)}</p>`:""}<div class="bk"><a href="../book/${i.s}/">${esc(i.b)}</a>${i.d?` · ${i.d}`:""}</div>${i.tg.length?`<div class="tags">${i.tg.map(x=>`<span data-t="${esc(x)}">${esc(x)}</span>`).join("")}</div>`:""}</div><a class="go" href="map.html?b=${encodeURIComponent(i.s)}&amp;t=${encodeURIComponent(i.id)}${esc(mapQ)}" target="_blank" rel="noopener">View as Map ↗</a></div>`;
+// The first rows are drawn at once and the rest in batches after, so a long list shows straight away; a new search
+// abandons the batches of the old one (gen).
+const FIRST=150,BATCH=400;let gen=0;
+function drawRest(r,at,g){if(g!==gen)return;if(at>=r.length){$("#more").hidden=true;return}
+$("#out").insertAdjacentHTML("beforeend",r.slice(at,at+BATCH).map(row).join(""));setTimeout(()=>drawRest(r,at+BATCH,g),0)}
+function render(){const q=fold($("#q").value.trim()).split(/\s+/).filter(Boolean),a=$("#area").value,u=$("#kind").value,so=$("#sort").value;
+let r=D.items.filter(i=>(!a||i.g===a)&&(!u||i.u===u)&&q.every(w=>i.k.includes(w)));
 const az=(x,y)=>(x.e||x.t).localeCompare(y.e||y.t);
 r.sort(so==="az"?az:so==="-d"?(x,y)=>y.d-x.d||az(x,y):(x,y)=>x.d-y.d||az(x,y));
 $("#n").textContent=`${r.length.toLocaleString()} of ${D.items.length.toLocaleString()} tables`;
-$("#out").innerHTML=r.map(i=>`<div class="mi"><div class="tx"><h3><a href="../book/${i.s}/#${i.id}">${esc(i.t)}</a></h3>${i.e?`<p class="en">${esc(i.e)}</p>`:""}<div class="bk"><a href="../book/${i.s}/">${esc(i.b)}</a>${i.d?` · ${i.d}`:""}</div>${i.tg.length?`<div class="tags">${i.tg.map(x=>`<span data-t="${esc(x)}">${esc(x)}</span>`).join("")}</div>`:""}</div><a class="go" href="${esc(mapHref(i.m))}" target="_blank" rel="noopener">View as Map ↗</a></div>`).join("");
-try{const p=new URLSearchParams();if($("#q").value)p.set("q",$("#q").value);if(a)p.set("a",a);if(so!=="d")p.set("s",so);history.replaceState(null,"","#"+p)}catch(e){}}
-try{const p=new URLSearchParams(location.hash.slice(1));$("#q").value=p.get("q")||"";if(p.get("a"))$("#area").value=p.get("a");if(p.get("s"))$("#sort").value=p.get("s")}catch(e){}
-$("#q").addEventListener("input",render);$("#area").addEventListener("change",render);$("#sort").addEventListener("change",render);
+const g=++gen;$("#out").innerHTML=r.slice(0,FIRST).map(row).join("");$("#more").hidden=r.length<=FIRST;
+if(r.length>FIRST)setTimeout(()=>drawRest(r,FIRST,g),0);
+try{const p=new URLSearchParams();if($("#q").value)p.set("q",$("#q").value);if(a)p.set("a",a);if(u)p.set("u",u);if(so!=="d")p.set("s",so);history.replaceState(null,"","#"+p)}catch(e){}}
+try{const p=new URLSearchParams(location.hash.slice(1));$("#q").value=p.get("q")||"";if(p.get("a"))$("#area").value=p.get("a");if(p.get("u"))$("#kind").value=p.get("u");if(p.get("s"))$("#sort").value=p.get("s")}catch(e){}
+$("#q").addEventListener("input",render);$("#area").addEventListener("change",render);$("#kind").addEventListener("change",render);$("#sort").addEventListener("change",render);
 $("#out").addEventListener("click",e=>{const t=e.target.closest("[data-t]");if(t){$("#q").value=t.dataset.t;render();scrollTo({top:0})}});
 render();
 </script></body></html>

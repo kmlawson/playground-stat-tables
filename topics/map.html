@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Opening the map…</title><meta name="robots" content="noindex"><link rel="stylesheet" href="../tags.css"></head>
+<body class="tag-browser"><main><p id="msg" class="lede">Opening the map…</p></main>
+<script>
+(async()=>{const p=new URLSearchParams(location.search),b=p.get("b")||"",t=p.get("t")||"",msg=document.getElementById("msg");
+const L="https://froginawell.net/reference/japanese-empire/",G="https://kmlawson.github.io/japanese-empire-student-map/";
+const o=p.get("map"),gh=o?o==="gh":/github\.io$/.test(location.hostname);
+try{if(!/^[\w.-]+$/.test(b))throw 0;const r=await fetch("maps/"+b+".json");if(!r.ok)throw 0;const u=(await r.json())[t];
+if(typeof u!=="string"||!u.startsWith(L))throw 0;location.replace(gh?u.replace(L,G):u)}
+catch(e){msg.textContent="";const a=document.createElement("a");a.href=/^[\w.-]+$/.test(b)?"../book/"+b+"/#"+encodeURIComponent(t):"with-maps.html";
+a.textContent="Open the table";msg.append("This map link could not be found. ",a,".")}})();
+</script></body></html>
