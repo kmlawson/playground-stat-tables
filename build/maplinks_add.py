@@ -247,7 +247,7 @@ def city_entry(book, tid, t):
         k = ("rate" if RATE.search(name) or title_rate else "index" if INDEX.search(name)
              else "amount" if AMOUNT.search(name) or yen else "other" if AREA.search(name) else "count")
         return {"unit": "", "kind": k, "pc": k == "count" and not POP.search(name), "color": "seq"}
-    meta, total = {}, None
+    meta, total, blocks = {}, None, None
     if across:
         lines = []
         for li, r in enumerate(p["rows"]):
@@ -271,6 +271,16 @@ def city_entry(book, tid, t):
         if not cols:
             return None, "a table of cities with no column of figures"
         total = next((ri for ri, r in enumerate(p["rows"]) if ri not in ids and len(r) > lc and TOTAL.search(str(r[lc]).strip())), None)
+        # the same places printed again in a second block below (the first place reappears, most of the others too)
+        first = ids[min(ids)]
+        starts = [ri for ri in sorted(ids) if ids[ri] == first]
+        if len(starts) > 1:
+            bounds = starts + [len(p["rows"])]
+            B = [[bounds[k], bounds[k + 1]] for k in range(len(starts))]
+            sets = [{ids[ri] for ri in ids if a <= ri < z} for a, z in B]
+            if all(len(x & sets[0]) >= 0.5 * len(sets[0]) for x in sets[1:]):
+                B[0][0] = 0
+                blocks = B
     y = era_year(p.get("label")) or year_of(book, t)
     names = [str(p["rows"][li][lc]) for li in cols] if across else [str(p["columns"][j]) for j in cols]
     years = [int(YEAR.match(x).group(1)) if YEAR.match(x) else None for x in names]
@@ -286,7 +296,7 @@ def city_entry(book, tid, t):
     if across:
         e.update({"across": True, "lines": cols, **({"total_col": tc} if tc is not None else {})})
     else:
-        e.update({"columns": cols, **({"total_row": total} if total is not None else {})})
+        e.update({"columns": cols, **({"total_row": total} if total is not None else {}), **({"blocks": blocks} if blocks else {})})
     return e, f"{n} {UNITS[unit]}, part {pi}, {'across the top' if across else 'down column %d' % lc}, {len(cols)} measures"
 
 

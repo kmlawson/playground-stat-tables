@@ -203,7 +203,7 @@ def build_territory(book, t, tr, cfg):
 
 
 # rows that are not places at all (years, ditto marks, totals) are not "unplaced"
-NOT_PLACE = re.compile('^\\s*([\u3003\u2033\u201e",]+|同\\s*\\d|明治|大正|昭和|民國|Year|\\d{4}\\b|\\d+\\s*$|計$|合計|總數|總計|Total)')
+NOT_PLACE = re.compile('^\\s*([\u3003\u2033\u201e",]+|同\\s*\\d|明治|大正|昭和|民國|Year|\\d{4}\\b|\\d+\\s*$|計$|合計|總數|總計|Total|Grand Total|Others?$)')
 
 
 def build_city(book, t, tr, cfg):
@@ -244,6 +244,28 @@ def build_city(book, t, tr, cfg):
             for n, j in enumerate(use):
                 x["v"][k * len(use) + n] = value(r[j]) if j < len(r) else ""
         rows = list(by.values())
+    elif cfg.get("blocks"):
+        # the places printed again further down (a second block of rows, with its own total): one set of columns
+        # per block, "(block 2)" and so on, so that no block's figures are dropped
+        use, B = cfg["columns"], cfg["blocks"]
+        cols = [dict({"name": part["columns"][j] + (f" (block {b + 1})" if b else "")}, **meta.get(str(j), {}))
+                for b in range(len(B)) for j in use]
+        by = {}
+        for b, (a, z) in enumerate(B):
+            for ri in range(a, z):
+                r = part["rows"][ri]
+                if ri not in ids:
+                    label = str(r[lab]).strip() if len(r) > lab else ""
+                    if b == 0 and label and any(isinstance(value(r[j]), (int, float)) for j in use if j < len(r)) \
+                            and not (cfg.get("total_row") == ri):
+                        unplaced.append(label)
+                    continue
+                x = by.setdefault(ids[ri], {"id": ids[ri], "label": str(r[lab]).strip(), "row": ri, "v": [""] * len(cols)})
+                for n, j in enumerate(use):
+                    k = b * len(use) + n
+                    if x["v"][k] == "":
+                        x["v"][k] = value(r[j]) if j < len(r) else ""
+        rows = list(by.values())
     else:
         use = cfg["columns"]
         cols = [dict({"name": part["columns"][j]}, **meta.get(str(j), {})) for j in use]
@@ -258,6 +280,9 @@ def build_city(book, t, tr, cfg):
             elif label and any(isinstance(v, (int, float)) for v in vals):
                 unplaced.append(label)
     notes = list(cfg.get("notes") or [n for n in (t.get("footnotes") or [])][:3])
+    if cfg.get("blocks"):
+        notes.insert(0, f"The table prints the places {len(cfg['blocks'])} times, in blocks one under another; each block is a set of "
+                     "columns here, (block 2) and so on. See the scan for what each block counts.")
     if cfg.get("units") == "manchukuo-province":
         # The map draws the 14 provinces of 1934. A table naming one created later (Mutankiang, Tunghua 1937;
         # Peian; Tungan 1939; Szeping 1941) is from a different scheme: those rows are left off, and the note says so.

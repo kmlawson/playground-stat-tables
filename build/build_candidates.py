@@ -154,10 +154,11 @@ class Folder:
         return f
 
     def prov(self, s):
-        f = self.base(s)
+        f = self.base(re.sub(r"^[\[(†‡*＊※]+|[\])†‡*＊※.]+$|\s*\.{2,}.*$", "", str(s).strip()))
         for _ in range(2):
             f = PROV_SUFFIX.sub("", f).strip(" -")
-        return f
+        # Szechw'an, Sui-yuan, Szech'uan: the same name with or without apostrophes and hyphens
+        return re.sub(r"[\s'’ʻ`\-‐–]+", "", f)
 
     def region(self, s):
         f = self.base(s)
@@ -214,7 +215,16 @@ def build_indexes(F, M):
                      "Guangxi": ["Kuangsi", "Kwangsi"], "Guangdong": ["Kuangtung", "Kwangtung"], "Qinghai": ["Chinghai", "Tsinghai", "Kokonor"],
                      "Ningxia": ["Ningsia", "Ninghsia"], "Hubei": ["Hupei"], "Heilongjiang": ["Heilungchiang", "Hei-lung-chiang"],
                      "Shaanxi": ["Shenhsi", "Shensi"], "Shanxi": ["Shanhsi"], "Gansu": ["Kansuh"], "Fujian": ["Fuhkien"],
-                     "Zhejiang": ["Chehkiang"], "Jiangsu": ["Kiangsoo"], "Henan": ["Honan"], "Anhui": ["Anhuei", "Nganhwei"], "Xinjiang": ["Sinkiang"]}.items():
+                     "Zhejiang": ["Chehkiang"], "Jiangsu": ["Kiangsoo"], "Henan": ["Honan", "Ho-nan"], "Anhui": ["Anhuei", "Nganhwei", "Nganhui", "Anhwei"],
+                     "Fujian": ["Fokien", "Fukien", "Fuhkien", "Fu-chien", "Fuchien"], "Xinjiang": ["Singkiang", "Sinkiang", "Hsinchiang", "Hsin-chiang", "Chinese Turkestan"],
+                     "Xikang": ["Sikong", "Sikang", "Hsikang", "Hsi-kang"], "Chahaer": ["Charhar", "Chahar", "Chakhar"],
+                     "Shandong": ["Shangtung", "Shantung", "Shan-tung"], "Zhejiang": ["Cheklang", "Chekiang", "Chehkiang", "Che-chiang"],
+                     "Sichuan": ["Szechw'an", "Szech'uan", "Szechuan", "Szechuen", "Ssuchuan", "Ssu-ch'uan", "Sze-chuen"],
+                     "Suiyuan": ["Sui-yuan"], "Jiangsu": ["Kiangsoo", "Chiangsu"], "Jiangxi": ["Kiangsi", "Chiang-hsi"],
+                     "Guangdong": ["Kwangtung", "Kuangtung", "Canton Province"], "Guangxi": ["Kwangsi", "Kuangsi"],
+                     "Hubei": ["Hupeh", "Hupei"], "Hunan": ["Hu-nan"], "Gansu": ["Kansu", "Kan-su"], "Yunnan": ["Yun-nan"],
+                     "Guizhou": ["Kweichow", "Kueichow", "Kweichau"], "Shanxi": ["Shansi", "Shan-hsi"], "Shaanxi": ["Shensi", "Shen-hsi"],
+                     "Heilongjiang": ["Heilungkiang", "Hei-lung-kiang"], "Jilin": ["Kirin", "Chi-lin"], "Jehol": ["Jehol", "Rehe"], "Xinjiang": ["Singkiang", "Sinkiang", "Hsinchiang", "Hsin-chiang", "Chinese Turkestan"]}.items():
         for n in names:
             ix["china"].setdefault(F.prov(n), k)
     ix["mandate"] = index(sub("mandate-groups"), F.prov, ["en", "local", "ja", "zh"])
