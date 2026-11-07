@@ -177,6 +177,8 @@ that writes gigabytes.
 
 ## Finder pages (`figures/`, user 2026-11-07)
 
+Overview of the feature (purpose, what visitors see, how it is built, limits): `docs/2026.11.07-finder-pages.md`.
+
 `figures/population.html` (the first; hub `figures/index.html`, linked from the Topics index and from the population
 topic/tag pages, not from the home page): every population figure (people, male, female, households; by group) for
 every place, year by year. The same figure from several tables is shown once with a link to each; differing figures

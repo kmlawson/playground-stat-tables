@@ -1,7 +1,7 @@
 # Finder pages
 
 Pages that gather one kind of figure from every table on the site, place by place and year by year
-(`figures/<name>.html`, hub `figures/index.html`). The process is in the repository's CLAUDE.md ("Finder pages").
+(`figures/<name>.html`, hub `figures/index.html`). The process is in the repository's CLAUDE.md ("Finder pages"); an overview is in `docs/2026.11.07-finder-pages.md`.
 
 - `finderlib.py` — shared: figures and dates out of transcribed cells, place matching, tables, specs, fingerprints
 - `places/` — the gazetteer (`places.json`, rebuilt by `make_gazetteer.py` from the Japanese Empire map) and hand
