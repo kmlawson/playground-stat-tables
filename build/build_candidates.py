@@ -364,7 +364,7 @@ def city_forms(label):
     ("Swatow (approx.)", "Tairen (Dalny)"); and, marked ("alt", name), the bracketed name, used only when it is not
     an area (match_city checks)."""
     s = clean(label)
-    s = re.sub(r"^\[\?\]\s*|\[\?\]|[¹²³⁴⁵⁶⁷⁸⁹⁰]+", "", s).replace("靑", "青")      # "[?] 秋田市", "室蘭[?]", "Shanghai ¹"
+    s = re.sub(r"^\[\?\]\s*|\[\?\]|[¹²³⁴⁵⁶⁷⁸⁹⁰]+", "", s).replace("靑", "青").replace("內", "内")   # "[?] 秋田市", "Shanghai ¹", 川內
     s = re.sub(r"\s*(?:\[printed [^\]]*\]|\(No\.\s*\d+\)|\s[イロハニ]|//)$", "", s)  # "京城府 イ", "Keijo (Seoul) (No. 1)"
     s = re.sub(r"\s+[—–]\s.*$|\s*[—–]$|\s*:\s.*$", "", s)                           # "Dairen — summer", "Kowloon: Railway …"
     s = re.sub(r"(?<=[一-鿿])、(?=[一-鿿])", "", s)                                  # "岐、阜市"
@@ -381,14 +381,23 @@ def city_forms(label):
     return out
 
 
+# Names two map cities share: told apart only by what the label prints beside the name (若松市(福島), 會津若松);
+# with nothing printed the row stays unplaced rather than go to whichever was indexed first.
+SHARED = {"若松": [("aizuwakamatsu", r"福島|fukushima|會津|会津|aizu"), ("wakamatsu", r"福岡|fukuoka|九州|kyushu|kiushiu")],
+          "wakamatsu": [("aizuwakamatsu", r"福島|fukushima|會津|会津|aizu"), ("wakamatsu", r"福岡|fukuoka|九州|kyushu|kiushiu")]}
+
+
 def match_city(label, M, F, ix):
-    """The map city id for a printed label, or None (see city_forms)."""
+    """The map city id for a printed label, or None (see city_forms and SHARED)."""
     for f in city_forms(label):
         if isinstance(f, tuple):
             f = f[1]
             if ADMIN_TAIL.search(f) or is_pref(M, f) or any(ix[n].get(F.prov(f)) for n in ("korea", "taiwan-shu", "manchukuo", "china", "countries")):
                 continue
-        c = ix["cities"].get(F.city(f))
+        k = F.city(f)
+        if k in SHARED and any(i in ix["cities"].values() for i, _ in SHARED[k]):
+            return next((i for i, rx in SHARED[k] if re.search(rx, str(label), re.I)), None)
+        c = ix["cities"].get(k)
         if c:
             return c
     return None

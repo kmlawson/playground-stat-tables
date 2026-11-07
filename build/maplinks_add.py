@@ -204,6 +204,11 @@ UNITS = {"prefectures": "prefecture", "cities": "city", "countries": "country", 
          "taiwan-shu": "taiwan-prefecture", "taiwan-gun": "taiwan-district", "mandate": "nanyo-group"}
 
 
+# Map cities that stopped being cities: a table dated later leaves the row unplaced (伏見 was merged into Kyoto in
+# 1931 and is on the map's 1930 sheet only).
+CITY_UNTIL = {"fushimi": 1931}
+
+
 def city_entry(book, tid, t):
     """A table of cities or of provinces, prefectures or groups the map draws outside Japan proper: the part and axis
     the candidates page's classifier names best (bc.classify), with the ids from the same gazetteer."""
@@ -284,7 +289,8 @@ def city_entry(book, tid, t):
                 B[0][0] = 0
                 blocks = B
     y = era_year(p.get("label")) or year_of(book, t)
-    names = [str(p["rows"][li][lc]) for li in cols] if across else [str(p["columns"][j]) for j in cols]
+    ids = {k: v for k, v in ids.items() if not (v in CITY_UNTIL and y and int(y) > CITY_UNTIL[v])}
+    names =[str(p["rows"][li][lc]) for li in cols] if across else [str(p["columns"][j]) for j in cols]
     years = [int(YEAR.match(x).group(1)) if YEAR.match(x) else None for x in names]
     default = years.index(max(v for v in years if v)) if all(years) and len(cols) > 1 else 0
     e = {"book": book, "table": tid, "units": UNITS[unit], "part": pi, "label_col": lc, "default": default, "date": y,
