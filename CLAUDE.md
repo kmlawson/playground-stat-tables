@@ -1,19 +1,47 @@
-# CLAUDE.md — East Asian statistical tables site
+# CLAUDE.md — Old Tables of East Asia (stat-tables site)
 
 Static site of statistical tables, directories and chronologies transcribed from yearbooks and handbooks on Japan,
-Korea, Taiwan, Manchuria, China and the South Seas Mandate — in English, Japanese or both. The transcriptions (JSON)
-live **outside** this repo in each book's `_work/` folder next to it; `build/build_site.py` regenerates everything
-here from them. This file is the authoritative process overview (updated 2026-10-26). `build/example/` holds the
-templates (`BRIEF.md`, `MISSION.md`) and git/merge details (`guidance.md`); `../_pipeline/kits/` holds the latest
-working toolkits (below); `docs/` holds dated session snapshots (history, lessons, open items). The book log is
-`../queue.md`.
+Korea, Taiwan, Manchuria, China and the South Seas Mandate — in English, Japanese or both (177 books, 2026-11-07).
+This file is the authoritative process overview (updated 2026-11-07). Rarely-needed details are in
+`docs/reference.md`; the book log is `../queue.md`. When a rule changes, change it here (and in the templates), not in
+memory notes.
+
+## Where things are
+
+- **Live site:** https://froginawell.net/reference/old-tables/ (the user updates that copy; a push does not).
+  **GitHub Pages** (https://kmlawson.github.io/playground-stat-tables/) deploys from `main` on every push and is the
+  draft. The Pagefind index is not in git and exists only on the live server.
+- **Sources are outside the repo:** each book's transcriptions are JSON in `../<Name_Year>/_work/` (`tables/`,
+  `directory/`, `chronology/`, `toc.json`, `STATUS.md`). The build reads them through `STAT_TABLES_ROOT`.
+- **Built (committed) output:** `index.html`, `about.html`, `search.html`; `book/<slug>/` (one self-contained page
+  per book, plus `directory.html`, `chronology.html`); `data/<slug>.json` (+ `-toc.json`); `downloads/` (Excel,
+  Markdown); `topics/` (topic pages, tag pages, `with-maps.html` with `maps/` and `map.html`); `support/`
+  (map-link candidates). Never edit these by hand: change `build/` and rebuild.
+- **Site scripts at the root** (hand-written, served as is): `charts.js`, `tags.js`, `tags.css`, `fold.js`,
+  `annotate.js`. `inspect/` is a local, git-ignored inspection tool.
+- **`build/`:**
+  - `build_site.py` — everything: `BOOKS` (one entry per book, the first ~1,550 lines), loaders, crosslinks, English layer,
+    map links, topic pages, with-maps, landing page and the page templates (`TEMPLATE`, `DIRTEMPLATE`, `SEARCH`).
+  - `build_downloads.py` (Excel/Markdown), `build_search.py` (Pagefind), `build_tags.py` (tag pages),
+    `bump_version.py` + `VERSION.json`, `about_text.py` (the author's own text: change only when asked),
+    `added_dates.json` (when each book first went in), `leafmaps/` (scan-leaf corrections).
+  - `maplinks.py`, `maplinks.json`, `maplinks_add.py`, `build_candidates.py`, `MAPLINK_SPEC.md` — "View as Map".
+  - `translations/<slug>.json` (English layer), `topics/` (topic tags + `TOPIC_TASK*.md`), `tags/` (controlled
+    vocabulary, `new_book_tags.py`, `published/assignments.json`), `crosslinks/` (series, families, prompts),
+    `example/` (templates `BRIEF.md`, `MISSION.md`; `guidance.md` for parallel sessions and branches).
+- **Next to the repo:** `../_pipeline/` (llm pipeline, `toc_leaves.py`, `kits/`), `../_codex/`, `../_haiku/`,
+  `../_review/`, `../_toc/`. The `fareast/` and `chinahandbook1950/` folders beside `japanyearbooks/` hold other
+  worktrees of this same repo on their own branches.
+- **Git:** this checkout is a worktree whose git directory is on `/Volumes/Oma` (`.git` file): git fails if Oma is
+  not mounted.
 
 ## Hard rules (every book, every sub-agent prompt)
 
-- **No OCR, ever.** Every figure is read by a Claude model from the page image. No tesseract, Apple Vision,
-  Gemini (`llm`/`llmimage` with non-Claude models), PDF text layers, OCR files, or pixel/darkness/stroke-counting
-  scripts. Cropping, zooming and contrast for the model's own eyes are fine; so is sending page images to Claude
-  models through the `llm` CLI (the `llm` pipeline below). Say this in every sub-agent prompt.
+- **No OCR, ever.** Every figure is read from the page image by a vision model: no tesseract, Apple Vision, PDF text
+  layers, OCR files, or pixel/darkness/stroke-counting scripts. Cropping, zooming and contrast for the model's own
+  eyes are fine. Claude sub-agents by default; Codex (gpt-6.1-sol/astra) or agy (Gemini) only for the books the user
+  names for them (`../queue.md` records which); the `llm` CLI only when the user asks for it (user, 2026-10-28), and
+  a permission given for one batch ends with that batch. Say this in every sub-agent prompt.
 - **Never guess.** Transcribe as printed, misprints included; re-add every printed total and note whether it
   reconciles. A wrong digit is worse than a blank.
 - **Two kinds of empty cell.** Empty *in the original* = `""`; could not read = `"[?]"` (whole cell) plus a
@@ -28,240 +56,155 @@ working toolkits (below); `docs/` holds dated session snapshots (history, lesson
   - In both cases every other cell in that sum must be read with confidence; never chain; only printed sums,
     sub-totals, balances or %-to-100 count (not averages, ratios, prose or other tables); and every such cell is
     listed in the table's `transcriber_notes` with candidates and total. Otherwise the cell is `"[?]"`.
-- **Models (user, 2026-10-07/08/13).** Sonnet by default — missions, contact-sheet surveys, directories,
+- **Models (user, 2026-10-07/08/13/27).** Sonnet by default — missions, contact-sheet surveys, directories,
   chronologies, second transcriptions and third readers. Haiku for easy missions: at most one dense page and no
   sideways pages or spreads (Japan-Manchoukuo 1939 trial: 99.4% figure agreement with Sonnet; tell Haiku to keep
   figures exactly as printed, commas and dots included). Opus only for the hard ones: 3+ dense pages, sideways
   pages, spreads, dense Japanese 目次. **Japanese tables: kanji (old-style) numerals → Opus; Arabic numerals →
-  Sonnet** (user, 2026-10-27). Pass the model on every Agent call and set `"model"` in the BOOKS entry to
-  the model that did the reading. At most 10 agents at a time (the user's limit). History: in September Opus did
-  all the reading and clearly beat Sonnet on dense kanji tables (統監府統計年報, 朝鮮年鑑 1925); later Opus
-  spot-checks of Sonnet on the NDL statistical yearbooks agreed 99.7–100%, so there are no more Opus tests.
+  Sonnet.** Pass the model on every Agent call and set `"model"` in the BOOKS entry to the model that did the
+  reading. At most 10 agents at a time (the user's limit). No more Opus spot-checks (Sonnet agreed 99.7–100%; an
+  Opus review of Haiku/Sonnet samples on 2026-11-04 found 99.92%, with Haiku over-marking clear figures `[?]`).
 - **Privacy.** Nothing identifying the user in commits, request headers (User-Agent/From), file metadata or
   pages. Descriptive, non-identifying User-Agent for downloads.
 
-## Two production methods
+## How a book is read
 
-- **Agent missions** (Claude Code sub-agents; the workflow below). For Japanese-language books, dense or
-  hard-to-read books, and books whose tables need care (statistical yearbooks, the Japan-Manchoukuo Year Books).
-  Toolkits: `../_pipeline/kits/ndl-tokei/` (NDL statistical yearbooks, from 臺灣統計書 1942) and
-  `../_pipeline/kits/english-yearbook/` (English yearbooks, from Japan-Manchoukuo 1939).
-- **The `llm` pipeline** (`../_pipeline/`, section below). For long English yearbooks with mostly simple tables
-  (China Year Books, Japan Year Books, Manchuria Year Books, Korea annual reports 1930–39): a Sonnet survey and
-  one Haiku read per page through the `llm` CLI, no checking by eye. Much cheaper; the BOOKS `gaps` text says so.
+- **Agent missions** (Claude Code sub-agents; the workflow below) are the default. Toolkits:
+  `../_pipeline/kits/ndl-tokei/` (NDL statistical yearbooks) and `../_pipeline/kits/english-yearbook/`.
+- **Codex / agy / the `llm` pipeline** only when the user names them for a book (`docs/reference.md`).
 
 Before committing to a book, check the scan resolution and the `[?]`/blank rate of a small pilot: 朝鮮年鑑 1941 was
-abandoned after 12 of 50 missions with about 68% of cells blank (5068 px per spread).
+abandoned after 12 of 50 missions with about 68% of cells blank (5068 px per spread). Check `df -h` before any job
+that writes gigabytes.
 
-## Workflow for a book (agent missions)
+## Workflow for a book
 
 1. **Get the scan.** `ia download` (Internet Archive) or the user's PDF (often NDL, on the Oma drive). Book folder
    `<Name_Year>/` next to this repo; work in `<Name_Year>/_work/`. Extract page images to `full/pNNNN.jpg`
    (`pdfimages -j` for the original JPEGs; render at 300 dpi only for non-JPEG pages; JP2 zips via `magick`).
    `pNNNN` = PDF page / scan leaf, 1-based (keep a `build/leafmaps/<slug>.json` if the online viewer counts
    differently). Make 1600–1800 px copies in `plan/`.
-2. **Contact sheets.** Make them with the `contactsheet` skill (user, 2026-11-05): it renders PDF pages with MuPDF in
-   parallel straight at cell size, caches thumbnails, and can split a whole volume into many sheets in one run; use it in
-   place of the older `imagegrid` skill and hand-rolled `magick montage` loops. 8 images per sheet, 4×2, each labelled with
-   its leaf name (`pNNNN`, as the old `magick montage … -label pNNNN`)
-   in `sheets/`. Survey agents (Sonnet, ~8–16 sheets each, `plan/SHEET_SURVEY.md`) list only the images with tables,
-   lists, charts with figures or directories, one line each: `pNNNN | pp. | START/CONT | kind | titles | ENDS/RUNS-ON`,
-   plus skipped runs (contents, index, ads, prose) and missing/duplicated pages. Only those pages are read later.
-   **Transcribe the printed contents (step 9) before the survey**, and give each survey agent the contents entries
-   for its stretch of pages: it also writes `headings_<x>.json` (`{"<toc index>": "pNNNN"}`) for every listed
-   section heading it can see on the sheets — no extra pass over the pages.
-3. **Brief.** Copy and adapt `BRIEF.md` (rules, JSON format, the book's "This book" section: language, numerals,
+2. **Printed contents first** (user, 2026-10-13/14; 2026-11-01: more important than tags or similar tables). An
+   agent reads the book's contents pages by eye into `_work/toc.json` (`{"entries": [{"level", "title", "page",
+   "src"}]}`, every chapter and every listed section), whatever pipeline will read the tables. A chapter-only list
+   is not enough when the book prints a fuller contents. Entries printed without a page number get a `found_leaf`
+   from what other passes already saw, never from a dedicated re-read of the book (a locate pass over every page of
+   1939 cost a week's quota): (a) the survey agents' `headings_*.json`; (b) mission reports, which list every
+   section heading seen on their pages (`MISSION.md`); (c) a local fuzzy match of entry titles against the
+   transcribed table titles; (d) only what is still unplaced goes to ONE small agent working from 4-page sheets
+   (2×2, `sheets4/`), limited to the leaves between the neighbouring placed entries. Anything not found links to its
+   chapter. Sonnet on contents pages guesses smudged page numbers and calls its own misreads "misprints": send every
+   item it marks uncertain or out of sequence back for a tight-crop re-read (`../_toc/`, `TOC_BRIEF.md`).
+   `python3 ../_pipeline/toc_leaves.py <book>/_work` maps printed pages to leaves via `plan/survey.json`. The build
+   shows it as a collapsible "Contents of the printed book", each entry linked to its scan page, with an
+   **"Include table links [T]"** checkbox on by default, and keeps a copy in `data/<slug>-toc.json`.
+3. **Contact sheets and survey.** Make sheets with the `contactsheet` skill (user, 2026-11-05): 8 images per sheet,
+   4×2, each labelled with its leaf name (`pNNNN`) in `sheets/`. Survey agents (Sonnet, ~8–16 sheets each,
+   `plan/SHEET_SURVEY.md`) list only the images with tables, lists, charts with figures or directories, one line
+   each: `pNNNN | pp. | START/CONT | kind | titles | ENDS/RUNS-ON`, plus skipped runs (contents, index, ads, prose)
+   and missing/duplicated pages. Only those pages are read later. Give each survey agent the contents entries for
+   its stretch: it also writes `headings_<x>.json` (`{"<toc index>": "pNNNN"}`) for every listed heading it sees.
+   Note every page printed sideways and make its crops already rotated upright before the missions (user,
+   2026-10-30); say in the prompt that the crop has been rotated.
+4. **Brief.** Copy and adapt `BRIEF.md` (rules, JSON format, the book's "This book" section: language, numerals,
    chapter naming, page numbering, spreads/RTL, units) and `MISSION.md`; `prompt.py` + `next.sh` +
    `missions.json` drive the missions; `validate.py` checks files.
-4. **Missions.** Built from the survey lines: ~3–6 images per mission (3 spreads for dense vertical Japanese
+5. **Missions.** Built from the survey lines: ~3–6 images per mission (3 spreads for dense vertical Japanese
    tables, 4–6 single pages for English tables), never splitting before a `CONT` page; a mission whose last table
    runs on is told to read into the next image, the next mission is told to skip that continuation. Directory or
    Who's Who pages get separate DIRECTORY missions (`directory/<leaf>.json`); columnar lists are tables.
    **Chronologies** (dated-event lists) are transcribed in every book except the Japan Year Books
    (`chronology/<leaf>.json`: events with full dates, year/month carried over, ditto marks resolved); a chronology
-   printed as a table inside a chapter belongs with the tables (user, 2026-10-12).
-   Run on a rolling basis, ≤10 agents, model per mission as in "Models" above; each mission: report in `reports/<MID>.md`, crops and helper scripts
-   only in `crops/<MID>/`, never anything in `/tmp`. Mission ids/status in `missions.json`; `./next.sh <done-MID>`
-   marks one done and prepares the next prompt. Reply to the user per mission only "N done, M left".
-5. **Follow-ups (FIXES.md).** Log from mission reports: tables nobody owns, duplicates, orphan fragments whose
-   first page is missing, and every cell an agent *changed after a total check flagged it*. No 10% random check
-   pass (the user judged its yield too low).
-6. **Blind verification — kept small (cut back for cost).** The default is (a) only; (b) and (c) only when a book
-   clearly needs them, and no elaborate check rounds after a book is finished (user, 統計年報 1939: "No elaborate
-   check rounds after you finish"), no Opus spot-checks. (a) Cells changed after a total check, and total
-   mismatches that look like one-digit misreads, are re-read by an agent that sees only table/row/column
-   (`BLIND_TASK.md`, `blind/`), never the values; agreeing readings stand. (b) The hardest tables (tiny/compressed type, many `[?]` or large mismatches)
-   get a full independent second transcription; every disagreeing cell goes to a third reader shown both
-   candidates: agreement with one → use it; three different readings or unsure → `"[?]"`. Keep the first
-   version (`blind/*.first.json`) and note every change in the table. (c) Books with many `[?]` (faint print):
-   a re-read pass over the `[?]` cells only (`REREAD_TASK.md`).
-7. **Normalise** chapter names (one per printed chapter, numbered as printed), titles, duplicate files.
-   **Assign chapters by the table's first printed page, never by its scan frame** (user, 2026-11-05): on a two-page
-   spread a chapter can begin on the right page, and every table on the left page then lands in the wrong chapter
-   (日本都市年鑑 1931/1936/1941 and Railways 1931, 20 tables). Where a table sits on the very page a chapter starts,
-   decide by its subject and table number: in the 南洋廳統計年鑑 the previous chapter often runs on to that page.
-8. **English layer for every Japanese, Chinese and Korean book — REQUIRED before publishing** (user, 2026-11-03,
-   after 日本都市年鑑 1931 went out without it): `build/translations/<slug>.json` with
-   `"_chapters"` (English chapter names) and per table `{"t": English title, "d": one-sentence description}`,
-   written by Sonnet agents from the JSON only (`../_pipeline/kits/ndl-tokei/TRANSLATE_TASK.md`; Hepburn for
-   Japanese, McCune–Reischauer for Korean, pinyin/Wade-Giles as the book's period usage for Chinese). Check one
-   entry per table file before building; a book in an East Asian language is not finished without it.
-9a. **Errata slip** (正誤表): look at every front frame (covers, endpapers, title leaf) for a pasted slip — it is
-   easy to miss on the contact sheets (南洋 第三回 2026-10-27). Transcribe it with the contents into `_work/errata.json`
-   and attach each correction as a transcriber note to its table; the figures stay as printed.
-10c. **Similar tables / Compare** (user, 2026-10-28): when a book belongs to a series (another edition already on the
-   site), add it to its series in `build/crosslinks/chapters.py` (`SERIES`: books + topic → chapters), run
-   `make_listings.py`, and have Sonnet agents match its tables into `build/crosslinks/families/<series>--<topic>.json`
-   (update-mode prompts like `prompts/NU1.txt`/`KU1.txt`: add new-edition tables to existing families, never reshuffle;
-   new series: `prompts/S01.txt`). Record the mission in `missions.md`. Families drive both "Similar table in other
-   editions" and the Compare view. Series include `south-seas-mandate` (English League reports + Japanese 行政年報).
-9b. **Second readings — keep them rare** (user, 2026-10-28: "not so much rereading"). A non-reconciling total is
-   normally a misprint in the source and stays as printed with a note; it is NOT by itself a reason to re-read.
-   - Blind re-read of single cells only: cells settled by the 3-vs-8 / 一/二/三 rule, and cells a reader marked doubtful.
-   - A full independent second transcription of a table only when ALL of these hold: kanji (stacked-stroke) numerals;
-     3 or more total mismatches in that table; and the gaps have the shape of stroke-grouping misreads (a power of ten
-     or 2×, e.g. 10, 1,000, 20,000), not arbitrary amounts. Never for Arabic-numeral (English) tables: on the 1925
-     League report a full second reading of 3,000 cells agreed with the first on all but one.
-   - Where a first and second reading differ, one blind third reading of just those cells decides (two of three).
-9. **Printed contents** (before deleting the page images; user, 2026-10-13): an agent reads the book's contents pages
-   by eye into `_work/toc.json` (`{"entries": [{"level", "title", "page", "src"}]}`, every chapter and every listed
-   section) — done **first, before the survey** (step 2). Entries printed without a page number get a `found_leaf`
-   from what earlier passes already saw, never from a dedicated re-read of the book (user, 2026-10-14: a separate
-   locate pass over every page of 1939 cost a week's quota): (a) the survey agents' `headings_*.json`; (b) mission
-   reports, which list every section heading seen on their pages (`MISSION.md`); (c) a local fuzzy match of entry
-   titles against the transcribed table titles; (d) only what is still unplaced goes to ONE small agent working
-   from 4-page sheets (2×2, `sheets4/`), limited to the leaves between the neighbouring placed entries. Anything
-   not found links to its chapter — that is acceptable; do not spend a pass to place every subsection.
-   Sonnet on contents pages guesses smudged page numbers and calls its own misreads "misprints": send every item
-   it marks uncertain or out of sequence back for a tight-crop re-read (tools: `../_toc/`, `TOC_BRIEF.md`).
-   `python3 ../_pipeline/toc_leaves.py <book>/_work` maps printed pages to scan leaves via `plan/survey.json`. build_site shows it as a collapsible "Contents of the printed book" on the book's contents
-   page, each entry linked to its scan page, and keeps a copy in `data/<slug>-toc.json` for when `_work` is gone.
-   Every book with a printed contents also gets an **"Include table links [T]"** checkbox there, on by default (user, 2026-10-22): ticked, each
-   entry lists links to this site's tables under it (numbered tables by their number, others under the entry that
-   starts nearest before them in the scan). build_site does this automatically from `toc.json` — so give every new
-   book a contents transcription with leaves. Table links are a different shade from the scan links; **never italicise
-   Asian (CJK) text** anywhere on the site (user, 2026-10-22).
-10. **Charts and topic pages** (user, 2026-10-22/23; all regions): `build/topics/<region>.json` tags tables
-   (`{"slug:id": [[topic, subtopic], …]}`, topics population / education / religion / crime, fixed subtopic lists in
-   `build_site.SUBTOPICS`; brief in `build/topics/TOPIC_TASK.md`, Sonnet agents working from title listings only).
-   Every table of every book gets a Table / Chart / Both switch (`charts.js`, our own code, no library; `CHART_ALL` in
-   build_site), elsewhere only tagged tables; `topics/<region>-<topic>.html` lists the tagged ones with a coverage grid.
-   A table printing several measures gets one chart per measure (tabs); earlier-year rows under a list form their own chart. Charts draw only printed figures: [?], blanks, dashes and ditto marks are gaps, never
-   filled; labels and year order as printed; printed totals are marked on stacked bars and parts that do not add up show ≠.
-10b. **Controlled tags** (user, 2026-10-27; every new book): each table gets topics and tags from the controlled
-   vocabulary (`build/tags/vocabulary.json`, `VOCABULARY.md`; rules `README.md` + `CLASSIFICATION.md`): 0–2 high-level
-   topics, 0–3 detailed tags, `text-tables` flag for textual tables — **only where a term genuinely fits the
-   table's subject**, otherwise left empty. After `data/<slug>.json` is built:
-   `python3 build/tags/new_book_tags.py prepare <slug> --prior <earlier editions of the series>` writes batches of
-   ~40 compact table records (with the same-title table's tags from earlier editions as a hint); Sonnet agents
-   follow `build/tags/NEW_BOOK_TASK.md` and write `results/bNN.json`; `new_book_tags.py apply <slug>` validates
-   every key, ID and limit and saves them in `build/tags/published/assignments.json` (stage
-   `new-book-full-content`); build_site then shows them under table titles and on the topic pages (not in the
-   sidebar table list). Commit the batches/results folder `build/tags/runs/new-<slug>/` with the book.
-10d. **Contents check before publishing (user, 2026-11-01: more important than tags or similar tables).** Every book,
-   whatever pipeline read it (agents, llm CLI, agy, Codex), gets its FULL printed contents transcribed into `_work/toc.json`
-   with leaves before the first publish; after the build confirm `data/<slug>-toc.json` exists and has the book's
-   chapters, sections and listed tables. A chapter-only list is not enough when the book prints a fuller contents.
-11. **Publish** (below). Note queued books in `../queue.md`; record per-book state in `_work/STATUS.md` (every
-   book, including `llm`-pipeline books: method, models, counts, what is missing, publish commit).
-12. **Clean up after publishing.** Copy downloaded originals (not plan copies, crops or sheets) to
-   `/Volumes/Oma/Book Scans/<series>/<year>/` and verify counts/sizes, then delete the book's `full/`, `plan/`
-   images, `sheets/` and crops; never delete `tables/`, `directory/`, `chronology/` or `toc.json`. Delete the
-   finished sub-agent transcripts (~100 MB per mission, crops embedded) by literal path, never by a broad glob
-   (`crops/M_p1-021*` once also matched `M_p1-0215`). Check `df -h` before any job that writes gigabytes.
+   printed as a table inside a chapter belongs with the tables (user, 2026-10-12). Run on a rolling basis, ≤10
+   agents; each mission: report in `reports/<MID>.md`, crops and helper scripts only in `crops/<MID>/`, never
+   anything in `/tmp`. `./next.sh <done-MID>` marks one done and prepares the next prompt. Reply to the user per
+   mission only "N done, M left".
+6. **Follow-ups (FIXES.md).** Log from mission reports: tables nobody owns, duplicates, orphan fragments whose
+   first page is missing, and every cell an agent *changed after a total check flagged it*.
+7. **Checking — light** (user, 2026-10-28 and 2026-11-03: "avoid excessive checking after extraction"). After
+   missions, only mechanical assembly (joins, duplicates, orphan fragments, `validate.py`) and publish; no re-read
+   passes unless a mission clearly failed (gave up, empty output, wrong layout). No 10% random check, no Opus
+   spot-checks, no elaborate rounds after a book is finished. A non-reconciling total is normally a misprint in the
+   source and stays as printed with a note; it is NOT by itself a reason to re-read. When a second reading is due:
+   - Blind re-read of single cells only (an agent that sees table/row/column, never the values; `BLIND_TASK.md`,
+     `blind/`): cells settled by the 3-vs-8 / 一/二/三 rule, and cells a reader marked doubtful.
+   - A full independent second transcription of a table only when ALL hold: kanji (stacked-stroke) numerals; 3 or
+     more total mismatches in that table; and the gaps have the shape of stroke-grouping misreads (a power of ten
+     or 2×), not arbitrary amounts. Never for Arabic-numeral tables.
+   - Where readings differ, one blind third reading of just those cells decides (two of three); three different
+     readings or unsure → `"[?]"`. Keep the first version (`blind/*.first.json`) and note every change.
+8. **Normalise** chapter names (one per printed chapter, numbered as printed), titles, duplicate files. **Assign
+   chapters by the table's first printed page, never by its scan frame** (user, 2026-11-05): on a two-page spread a
+   chapter can begin on the right page. Where a table sits on the very page a chapter starts, decide by its subject
+   and table number. Huge single-part books get bracketed site chapters in printed order.
+9. **Errata slip** (正誤表): look at every front frame (covers, endpapers, title leaf) for a pasted slip. Transcribe
+   it with the contents into `_work/errata.json` and attach each correction as a transcriber note to its table; the
+   figures stay as printed.
+10. **English layer for every Japanese, Chinese and Korean book — REQUIRED before publishing** (user, 2026-11-03):
+    `build/translations/<slug>.json` with `"_chapters"` (English chapter names) and per table `{"t": English
+    title, "d": one-sentence description}`, written by Sonnet agents from the JSON only
+    (`../_pipeline/kits/ndl-tokei/TRANSLATE_TASK.md`; Hepburn for Japanese, McCune–Reischauer for Korean,
+    pinyin/Wade-Giles as the book's period usage for Chinese). Check one entry per table file before building.
+11. **Controlled tags** (user, 2026-10-27): each table gets 0–2 high-level topics, 0–3 detailed tags and a
+    `text-tables` flag from `build/tags/vocabulary.json` (`VOCABULARY.md`; rules `README.md` + `CLASSIFICATION.md`)
+    — **only where a term genuinely fits**. After `data/<slug>.json` is built:
+    `python3 build/tags/new_book_tags.py prepare <slug> --prior <earlier editions>` writes batches; Sonnet agents
+    follow `build/tags/NEW_BOOK_TASK.md` and write `results/bNN.json`; `new_book_tags.py apply <slug>` validates and
+    saves to `build/tags/published/assignments.json`. Commit `build/tags/runs/new-<slug>/` with the book.
+12. **Similar tables / Compare** (user, 2026-10-28): when a book belongs to a series, add it to `SERIES` in
+    `build/crosslinks/chapters.py`, run `make_listings.py`, and have Sonnet agents match its tables into
+    `build/crosslinks/families/<series>--<topic>.json` (update-mode prompts like `prompts/NU1.txt`/`KU1.txt`: add
+    new-edition tables to existing families, never reshuffle; new series: `prompts/S01.txt`). Record the mission in
+    `missions.md`.
+13. **Topic tags for charts** (user, 2026-10-22/23): `build/topics/<region>.json` (`{"slug:id": [[topic,
+    subtopic], …]}`; topics population / education / religion / crime, subtopics in `build_site.SUBTOPICS`; brief
+    `build/topics/TOPIC_TASK.md`, Sonnet agents from title listings). Every table has a Table / Chart / Both switch
+    (`charts.js`, our own code); charts draw only printed figures: `[?]`, blanks, dashes and ditto marks are gaps,
+    never filled; printed totals are marked and parts that do not add up show ≠. **Never italicise CJK text.**
+14. **Map links** (tables by prefecture, province, island group, city or country): `python3 build/maplinks_add.py
+    --dry <slug>/<id> …`, then without `--dry`; check the build's `maplinks:` lines for unplaced rows and places on
+    more than one row (`docs/reference.md`).
+15. **Publish** (below). Record per-book state in `_work/STATUS.md` (method, models, counts, what is missing,
+    publish commit) and mark the book in `../queue.md`. Push each volume as soon as it is complete (user,
+    2026-10-31).
+16. **Clean up after publishing.** Copy downloaded originals (not plan copies, crops or sheets) to
+    `/Volumes/Oma/Book Scans/<series>/<year>/` and verify counts/sizes, then delete the book's `full/`, `plan/`
+    images, `sheets/` and crops; never delete `tables/`, `directory/`, `chronology/` or `toc.json`. Delete finished
+    sub-agent transcripts (~100 MB per mission) by literal path, never by a broad glob (`crops/M_p1-021*` once also
+    matched `M_p1-0215`).
 
-## The `llm` pipeline (`../_pipeline/`)
+## BOOKS entry
 
-Claude models called through the `llm` CLI, not sub-agents. `run.py jobs.json N` runs a list of
-`{"imgs", "prompt_file", "model", "out"}` jobs in parallel (default `claude-haiku-5.5`; skips existing outputs,
-retries rate limits).
-- `pipeline.sh <Folder|year>` (`PFX=cyb|jyb|gen` picks the prompt set): contact sheets (`sheets.py`) → Sonnet
-  survey per sheet (`*_survey.txt`, finds rotated pages and spreads) → `cyb_jobs.py` builds per-page Haiku jobs
-  (`*_table.txt`, `*_dir.txt`) → `run.py` → re-run empty outputs → `cyb_assemble.py` writes `tables/` and
-  `directory/` (joins continued tables where column headings match).
-- `myb_pipeline.sh <Folder> <pdf>` does the same from a PDF (extracts images first) with the Manchuria Year Book
-  prompts, including chronologies (`myb_chron.txt` → `chronology/`). The chronology rule above applies here too:
-  survey pages of kind "chronology" must go to the chronology prompt, not be dropped.
-- `jyb_one.sh <edition>` renders a Japan Year Book PDF from Oma and runs the pipeline; `jyb_pub.sh`,
-  `jyb_publish.py`, `cyb_publish.py` add the BOOKS entry (with the standard "read once by Haiku, not checked by eye"
-  `gaps` text) and publish. `chapfix.py` normalises chapters; `toc_get.py`/`toc_leaves.py`/`tocmap.py` do the contents.
-- **Known bug:** `pipeline.sh` and `myb_pipeline.sh` call `$H/../sheets.py`, but `sheets.py` now lives in
-  `_pipeline/` — fix to `$H/sheets.py` before the next run.
-
-## Toolkits (`../_pipeline/kits/`, copied 2026-10-26)
-
-The paths inside still name the book they came from — edit them first.
-- `ndl-tokei/`: NDL statistical yearbooks (from 臺灣統計書 1942): BRIEF, MISSION, `crop.sh`, `validate.py`,
-  `dl.sh`, and `plan/` (`make_plan`, `prompt`, `swap`, `status`, `join_frags`, `glue_columns` for column-wise joins,
-  `compare`, `normalise`, `skeleton`).
-- `english-yearbook/`: agent missions for English yearbooks (from Japan-Manchoukuo 1939): BRIEF, MISSION, FIX,
-  TOC_LOCATE, `crop.sh`, `validate.py`, and `plan/` (`make_plan`, `prompt`, `swap`, `status`, `chapters`,
-  `toc_fix`, `toc_merge`, `cmp_trial` for Haiku-vs-Sonnet trials, `mkimg.sh`).
-- `chart-debug/`: Node helpers that load `charts.js` (`ct.js` per-table statistics, `vw.js slug:id` views from the
-  site root, `dossier.js` review batches, `topic_tags_txt2json.py` → `build/topics/*_tags_N.json`).
-
-## Site and BOOKS entry
-
-- One entry per book in `BOOKS` (`build/build_site.py`): `slug`, `dir`, `title` (simple title + year; edition
-  year, e.g. "朝鮮年鑑 1940"; never "(incomplete scan)" in the title: put it in `note`, shown under the publisher on the card), optional `subtitle`
-  (romanisation/edition), `publisher`, `blurb` (English overview), `source`, `gaps` (what is and isn't
-  transcribed, missing pages, how checks were done), `scan` (`…/page/n{leaf}/…` for IA, `https://dl.ndl.go.jp/pid/<pid>/1/{leaf}`
-  for NDL; `None` if not online), `item`, `blank_marking: True`; optional `group` to force a home-page section.
-- Home-page sections: Japan, China, Korea, Taiwan, Manchuria, Other — chosen from the slug prefix
-  (`japan-`, `china-`, `korea-`, `taiwan-`, `manch…`) or `group`; every section except Other sorts by
-  edition year. Slugs: 朝鮮年鑑 = `korea-nenkan-YYYY`, 朝鮮事情 = `korea-YYYY`, statistical annual = `korea-tokanfu-YYYY`.
-- Directory books can set `dir_cards`, `dir_places`, `dir_pinyin` (place cards, pinyin with "alt. romanization").
-  A directory entry may carry `"fields": [[label, value], …]` and `"description"`: the card then shows each field on its
-  own line under a bold label, then the description (`text` still holds everything, for search). Hotels in Japan 1935
-  does this, with all hotels also as one sortable table whose last column is a scan link (a cell holding only an
-  archive.org URL shows as "scan ↗").
-- Table pages show printed notes and transcriber's notes in collapsible sections under each table.
-- **Notes** (reader annotations): table, directory and chronology pages have an opt-in Notes button that loads the
-  vendored `annotate.js` 1.4.0 (MIT; `annotate.js` + `annotate.LICENSE.txt` at the site root; never load it from a CDN).
-  Notes stay in the reader's localStorage (project `stat-tables`), keyed per view (one table, chapter or directory
-  section). Loader and workarounds live in `ANNOT_JS` in `build_site.py`; no feedback endpoint (user, 2026-10-10).
-  **Switched off for now** (user, 2026-10-10: "a bit too confusing"): `NOTES_ENABLED = False` removes the button and loader.
+- `slug`, `dir`, `title` (simple title + edition year, e.g. "朝鮮年鑑 1940"; never "(incomplete scan)" in the
+  title: put it in `note`), optional `subtitle` (romanisation/edition), `publisher`, `blurb` (English overview),
+  `source`, `gaps` (what is and isn't transcribed, missing pages, how checks were done), `scan`
+  (`…/page/n{leaf}/…` for IA, `https://dl.ndl.go.jp/pid/<pid>/1/{leaf}` for NDL; `None` if not online), `item`,
+  `model`, `blank_marking: True`; optional `group` to force a home-page section. Directory options are in
+  `docs/reference.md`.
+- Home-page sections: Japan, China, Korea, Taiwan, Manchuria, Other — from the slug prefix (`japan-`, `china-`,
+  `korea-`, `taiwan-`, `manch…`) or `group`; every section except Other sorts by edition year. Slugs: 朝鮮年鑑 =
+  `korea-nenkan-YYYY`, 朝鮮事情 = `korea-YYYY`, statistical annual = `korea-tokanfu-YYYY`.
 
 ## Building and publishing (this session runs the repo — user, 2026-10-06)
 
-- **Kanji numerals are converted for display only** (user, 2026-11-05): `build/kanji_nums.js`, inlined in every book page,
-  shows positional numbers (`五〇〇瓦` → `500瓦`, `第一三類` → `第13類`) as Arabic with an Arabic / As printed switch; the
-  data, CSV, Excel and Full Search keep the printed form. BOOKS flag `"kanji_full": True` also converts single digits and
-  十百千 before a unit (`五寸五分`); only 百貨店年鑑 has it. `"kanji_full": "cells"` is for listings whose figure columns hold bare numbers (クーポン旅館一覧 1936): a cell that
-  is only a number converts whatever its length, and 、 between yen and sen is a decimal point (二、五〇 → 2.50). Grades and ranks stay in kanji (`一級`, `九等`, `二番狸毫`), as
-  do names and lists. When in doubt the rule leaves the kanji. After changing it, read every comma and decimal conversion.
-- Build: `STAT_TABLES_ROOT=/Users/kml/shell/projects/yearbooks/japanyearbooks python3 build/build_site.py`, then
-  `uv run --with openpyxl build/build_downloads.py`, then build_site again (so the page links the new download).
-- **Version** (user, 2026-11-05): the site is version 1.<update> (1.100, 1.101 … 1.999, 1.1000 …), kept in
-  `build/VERSION.json` and shown as "Version 1 update N · last updated …" in the home footer and book About panels.
-  Run `python3 build/bump_version.py` before building whenever a commit is more than a very minor fix (new book,
-  feature, design change, data corrections).
-- Branch from `origin/main` with `--no-track`; commit only the new book's files plus `build_site.py`, `index.html`,
-  `search.html` and any book pages a shared-code change touched; revert other rebuilt files (often
-  `book/japan-1935/directory.html`, `book/korea-nenkan-1926/directory.html`, other books' downloads).
+- **Check first:** `git status` and the recent log. Another session may be working in this checkout; if one is,
+  work in your own worktree (`git worktree add --no-track -b <branch> <path> origin/main`) and do not build here.
+- Build (about 4 minutes): `STAT_TABLES_ROOT=/Users/kml/shell/projects/yearbooks/japanyearbooks python3
+  build/build_site.py`; for a new book then `uv run --with openpyxl build/build_downloads.py` and build_site again
+  (so the page links the new download).
+- **Version** (user, 2026-11-05): 1.<update> in `build/VERSION.json`, shown in the home footer and book About
+  panels. Run `python3 build/bump_version.py` before building whenever a commit is more than a very minor fix, and
+  give the new number in the reply. A bump touches every book page (one line each).
+- Branch from `origin/main` with `--no-track`. Commit only what the change made, plus the pages a shared-code change
+  touched; revert unrelated rebuilt files
+  (often `book/japan-1935/directory.html`, `book/korea-nenkan-1926/directory.html`, other books' downloads).
 - Check `git merge-base --is-ancestor origin/main HEAD`, then push explicitly:
   `git push origin refs/heads/<branch>:refs/heads/main`; watch the Pages deploy (`gh run watch`). Never a bare
   `git push`: with `push.default=upstream` a tracking branch once went straight to `main`.
-- This checkout is a git worktree whose git directory is on `/Volumes/Oma` (`.git` file): git fails if Oma is not
-  mounted.
-- `cp` and `mv` are aliased to interactive mode (a background `mv` hung on an overwrite prompt): use `\cp -f`, `\mv -f`.
-- Commit trailer as given by the session; never the user's identity.
-- Full Search runs on Pagefind indexes (`pagefind/` = everything, `pagefind-titles/` = titles and names only),
-  written from the committed `data/*.json` by `uv run --with "pagefind[extended]" build/build_search.py`. Rebuild them
-  once after a series or batch of books is published (not per volume — user, 2026-10-13), then pack them as
-  `../search-index-upload.tar.gz` for the user to upload. The folders are **not in git** (`.gitignore`):
-  the user uploads them to the server that hosts the site (user, 2026-10-12), so the GitHub Pages copy has no
-  search index. `robots.txt` and `llms.txt` ask crawlers to skip them and point to the GitHub data instead. Chinese/Japanese
-  characters are indexed spaced, with folded (fold.js) copies of lines that contain variant forms.
-- **Heavy local jobs must leave the machine usable** (user, 2026-10-12): the index build runs at `nice 15` with
-  `RAYON_NUM_THREADS` = cores − 3 (set inside build_search.py); for other CPU-heavy work (ImageMagick montages and
-  crops, rendering, pdfimages over whole books) use `nice -n 15` and `MAGICK_THREAD_LIMIT` = cores − 3, and never
-  run more than one heavy local job at a time.
-
-## Directory entries with "label: value" text
-
-`DIR_FIELDS` in `build/build_site.py` names the books whose directory entries run labelled items together, and how
-they are separated (`dot` " · ", `semi` "; ", `prose` sentences). `split_fields` turns them into `f` (one line per
-field, bold label) and `h` (the text before the first label); `t` keeps everything for search. In `prose` a label
-must recur three or more times in the book, so a misprinted colon after an occupation is not taken for a field.
-Bilingual (English/Japanese) entries are left alone. A new directory with this kind of text: add it to `DIR_FIELDS`.
+- `cp` and `mv` are aliased to interactive mode: use `\cp -f`, `\mv -f`. Commit trailer as given by the session;
+  never the user's identity.
+- **Full Search** (Pagefind; `pagefind/`, `pagefind-titles/`, not in git): `uv run --with "pagefind[extended]"
+  build/build_search.py` from the committed `data/*.json`, once after a series or batch of books (not per volume),
+  then pack `../search-index-upload.tar.gz` for the user to upload.
+- **Heavy local jobs leave the machine usable** (user, 2026-10-12): `nice -n 15`, `MAGICK_THREAD_LIMIT` /
+  `RAYON_NUM_THREADS` = cores − 3, never more than one heavy job at a time.
