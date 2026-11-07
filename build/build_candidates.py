@@ -198,6 +198,10 @@ def build_indexes(F, M):
     sub = lambda n: read_csv(os.path.join(T, "sub-units", n + ".csv"))
     ix = {}
     ix["korea"] = index(sub("korea"), F.prov, ["en", "local", "ja", "zh", "ko"])
+    # The Japan-Manchoukuo Year Book 1940 prints 平安 as "Keian" (p. 505; as printed, not a misreading).
+    for k, names in {"Heiannan": ["Keian Nan-do", "Keian Nan", "South Keian"], "Heianhoku": ["Keian Hoku-do", "Keian Hoku", "North Keian"]}.items():
+        for n in names:
+            ix["korea"].setdefault(F.prov(n), k)
     tw = sub("taiwan")
     shu = [r for r in tw if re.search(r"[州廳]\s*\(", r.get("ja", ""))]
     gun = [r for r in tw if re.search(r"[市郡]\s*\(", r.get("ja", ""))]

@@ -202,8 +202,9 @@ def build_territory(book, t, tr, cfg):
     return p, []
 
 
-# rows that are not places at all (years, ditto marks, totals) are not "unplaced"
-NOT_PLACE = re.compile('^\\s*([\u3003\u2033\u201e",]+|同\\s*\\d|明治|大正|昭和|民國|Year|\\d{4}\\b|\\d+\\s*$|計$|合計|總數|總計|Total|Grand Total|Others?$)')
+# rows that are not places at all (years, ditto marks, totals, averages) are not "unplaced"; a leading mark
+# (◇合計, ※計) is not part of the label
+NOT_PLACE = re.compile('^[\\s\u25c7\u25c6\u25cb\u25cf\u203b*]*([\u3003\u2033\u201e",]+|同\\s*\\d|明治|大正|昭和|民國|Year|\\d{4}\\b|\\d+\\s*$|計$|合計|總數|總計|總額|総額|平均|Total|Grand Total|Average|Others?$)')
 
 
 def build_city(book, t, tr, cfg):
@@ -214,6 +215,13 @@ def build_city(book, t, tr, cfg):
     part = t["parts"][cfg.get("part", 0)]
     lab = cfg.get("label_col", 0)
     ids = {int(k): v for k, v in cfg["ids"].items()}
+    if not cfg.get("blocks") and cfg.get("split_col") is None and len(set(ids.values())) < len(ids):
+        # A place on two rows: only the first would be drawn, as if it were the whole (醫療機關表 sent its 內 row of
+        # 內/鮮/外/計; a table of school kinds sent its first kind). Usually it is harmless (a city printed twice,
+        # once with its wards), so the build says so rather than refusing: about a hundred entries do it.
+        twice = sorted({v for v in ids.values() if list(ids.values()).count(v) > 1})
+        print(f"maplinks: {book['slug']}:{t['id']}: places on more than one row, only the first drawn "
+              f"({', '.join(twice[:6])}); if the rows are parts of a whole, pick the rows in ids or use blocks or split_col")
     meta = cfg.get("col_meta", {})
     rows, seen, unplaced, total = [], set(), [], None
     if cfg.get("across"):
@@ -234,6 +242,8 @@ def build_city(book, t, tr, cfg):
         # each place printed on several rows told apart by a column (男 / 女): one column per measure and value
         sc, use = cfg["split_col"], cfg["columns"]
         svals = list(dict.fromkeys(str(r[sc]).strip() for ri, r in enumerate(part["rows"]) if ri in ids and len(r) > sc))
+        if cfg.get("split_first") in svals:   # the whole (計) first, so the map opens on it rather than on one part
+            svals.remove(cfg["split_first"]); svals.insert(0, cfg["split_first"])
         cols = [dict({"name": f"{part['columns'][j]} — {sv}"}, **meta.get(str(j), {})) for sv in svals for j in use]
         by = {}
         for ri, r in enumerate(part["rows"]):
@@ -246,9 +256,10 @@ def build_city(book, t, tr, cfg):
         rows = list(by.values())
     elif cfg.get("blocks"):
         # the places printed again further down (a second block of rows, with its own total): one set of columns
-        # per block, "(block 2)" and so on, so that no block's figures are dropped
-        use, B = cfg["columns"], cfg["blocks"]
-        cols = [dict({"name": part["columns"][j] + (f" (block {b + 1})" if b else "")}, **meta.get(str(j), {}))
+        # per block, "(block 2)" and so on, so that no block's figures are dropped; or named by "block_names" when
+        # the table heads each block (one block per kind of school)
+        use, B, BN = cfg["columns"], cfg["blocks"], cfg.get("block_names")
+        cols = [dict({"name": part["columns"][j] + (f" ({BN[b]})" if BN else f" (block {b + 1})" if b else "")}, **meta.get(str(j), {}))
                 for b in range(len(B)) for j in use]
         by = {}
         for b, (a, z) in enumerate(B):
@@ -280,7 +291,10 @@ def build_city(book, t, tr, cfg):
             elif label and any(isinstance(v, (int, float)) for v in vals):
                 unplaced.append(label)
     notes = list(cfg.get("notes") or [n for n in (t.get("footnotes") or [])][:3])
-    if cfg.get("blocks"):
+    if cfg.get("blocks") and cfg.get("block_names"):
+        notes.insert(0, f"The table prints the places {len(cfg['blocks'])} times, once for each of: {', '.join(cfg['block_names'])}. "
+                     "Each is a set of columns here.")
+    elif cfg.get("blocks"):
         notes.insert(0, f"The table prints the places {len(cfg['blocks'])} times, in blocks one under another; each block is a set of "
                      "columns here, (block 2) and so on. See the scan for what each block counts.")
     if cfg.get("units") == "manchukuo-province":
@@ -398,7 +412,11 @@ def map_url(book, t, tr=None, cfg_all=None):
     cfg_all = cfg_all or load_config()
     for cfg in cfg_all.get("tables", []):
         if cfg.get("book") == book["slug"] and cfg.get("table") == t["id"]:
-            p, unmatched = build_payload(book, t, tr, cfg)
+            try:
+                p, unmatched = build_payload(book, t, tr, cfg)
+            except ValueError as e:   # an entry that would draw the wrong figures: no link, and the build says why
+                print(f"maplinks: NO LINK for {e}")
+                return None
             if unmatched:
                 print(f"maplinks: {book['slug']}:{t['id']} rows not matched to a place: {', '.join(unmatched[:12])}")
             view = VIEWS[view_for(book, cfg)]
