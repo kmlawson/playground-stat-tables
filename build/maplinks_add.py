@@ -225,6 +225,8 @@ def city_entry(book, tid, t):
                 if index is None:
                     p_ = place(l)
                     return p_ if p_ and p_.isdigit() else None
+                if c[1] == "cities":      # "青森縣／青森市", "Tairen (Dalny)", never the bracketed prefecture
+                    return bc.match_city(l, M, F, ix)
                 hit = index.get(fold(clean(l)))
                 if not hit and re.search(r"[(（]", str(l)):   # "Chihli (Hopei)": either name
                     hit = next((index.get(fold(x.strip())) for x in re.split(r"[()（）]", str(l)) if x.strip() and index.get(fold(x.strip()))), None)

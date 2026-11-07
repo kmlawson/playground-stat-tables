@@ -287,6 +287,10 @@ def build_indexes(F, M):
                       "Seishin": "chongjin", "Shingishu": "sinuiju", "Zenshu": "chonju"}.items():
         if cid in polity:
             cities.setdefault(F.city(name), cid)
+    # Old romanisations, Japanese readings and misprints found in the tables (build/places/city-aliases.json)
+    for name, cid in json.load(open(os.path.join(HERE, "places", "city-aliases.json"), encoding="utf-8"))["aliases"].items():
+        if cid in polity:
+            cities.setdefault(F.city(name), cid)
     if "kyoto" in polity:      # the fold takes 都 for a prefecture's suffix and leaves 京, too short to keep
         cities.setdefault("京都", "kyoto")
     ix["cities"] = cities
@@ -347,6 +351,47 @@ def clean(label):
     if re.search(r"[一-鿿]", s):     # English labels keep "(Formosa)" and the like
         s = TAIL.sub("", s)
     return s
+
+
+# A bracketed name that is a prefecture, province or other area names where the town lies, not the town:
+# "Kelung (Taihoku)" is Keelung, "Wakamatsu (Fukuoka-ken)" is not Fukuoka city.
+ADMIN_TAIL = re.compile(r"(縣|県|府|道|廳|庁|州|省|[-\s]?ken|prefecture|province|formosa|land line.*|approx\.?)$", re.I)
+
+
+def city_forms(label):
+    """The forms of one printed town label to try, in order: as printed (tidied of a footnote mark or dot leader:
+    "浦和市0", "屏東市 a", "Shasi ..."); the town after a prefecture ("青森縣／青森市"); the name before brackets
+    ("Swatow (approx.)", "Tairen (Dalny)"); and, marked ("alt", name), the bracketed name, used only when it is not
+    an area (match_city checks)."""
+    s = clean(label)
+    s = re.sub(r"^\[\?\]\s*|\[\?\]|[¹²³⁴⁵⁶⁷⁸⁹⁰]+", "", s).replace("靑", "青")      # "[?] 秋田市", "室蘭[?]", "Shanghai ¹"
+    s = re.sub(r"\s*(?:\[printed [^\]]*\]|\(No\.\s*\d+\)|\s[イロハニ]|//)$", "", s)  # "京城府 イ", "Keijo (Seoul) (No. 1)"
+    s = re.sub(r"\s+[—–]\s.*$|\s*[—–]$|\s*:\s.*$", "", s)                           # "Dairen — summer", "Kowloon: Railway …"
+    s = re.sub(r"(?<=[一-鿿])、(?=[一-鿿])", "", s)                                  # "岐、阜市"
+    s = re.sub(r"(?<=[一-鿿])\s*(?:[0-9０-９]+|[a-zａ-ｚ])$", "", s)
+    s = re.sub(r"(\s*[.…·]+)+$", "", s).strip(" ,;:*†‡")
+    out = [s]
+    m = re.match(r"^(.+?[縣県府道廳庁])\s*[／/]\s*(.+)$", s)
+    if m:
+        out.append(m.group(2).strip())
+    m = re.match(r"^([^(（]+?)\s*[(（]([^)）]+)[)）]$", s)
+    if m:
+        out.append(m.group(1).strip())
+        out.append(("alt", m.group(2).strip()))
+    return out
+
+
+def match_city(label, M, F, ix):
+    """The map city id for a printed label, or None (see city_forms)."""
+    for f in city_forms(label):
+        if isinstance(f, tuple):
+            f = f[1]
+            if ADMIN_TAIL.search(f) or is_pref(M, f) or any(ix[n].get(F.prov(f)) for n in ("korea", "taiwan-shu", "manchukuo", "china", "countries")):
+                continue
+        c = ix["cities"].get(F.city(f))
+        if c:
+            return c
+    return None
 
 
 def classify(labels, M, F, ix, stations_said=False):
@@ -412,13 +457,14 @@ def classify(labels, M, F, ix, stations_said=False):
         found.append((len(col_rows) / n, ("other", "empire", len(cols), [])))
 
     city_ids = {}
+    hits = {l: match_city(l, M, F, ix) for l in labs}
     for l in labs:
-        c = ix["cities"].get(F.city(l))
+        c = hits[l]
         if c:
             city_ids[c] = l
     not_pref = [c for c, l in city_ids.items() if not is_pref(M, l)]
     shi = [l for l in labs if re.search(r"市$", l)]
-    city_rows = {l for l in labs if F.city(l) in ix["cities"]} | set(shi)
+    city_rows = {l for l in labs if hits[l]} | set(shi)
     if (len(city_ids) >= MIN_CITIES and len(not_pref) >= MIN_CITIES_NOT_PREF
             and len(city_rows) >= MIN_CITY_SHARE * n) or len(shi) >= 10:
         fl = ["%d of %d on the map's gazetteer" % (len(city_ids), len({F.city(l) for l in city_rows}))]
