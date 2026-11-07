@@ -22,3 +22,5 @@ pagefind-titles/
 build/tags/**/*.sqlite*
 build/tags/**/*.log
 build/tags/**/worker.lock
+# Local table-extraction inspection pages and source images.
+/inspect/
