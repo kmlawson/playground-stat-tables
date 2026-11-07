@@ -1,0 +1,232 @@
+__HEAD__<title>Population · Old Tables of East Asia</title>
+<meta name="description" content="Every population figure in the Old Tables of East Asia, by place and year, with links to the tables they come from.">
+<style>
+__STYLE__
+/* Population page */
+.pintro{margin:4px 0 16px;max-width:760px}.pintro p{margin:0 0 8px}
+.psearch{position:relative;max-width:620px;margin:6px 0 22px}
+.psearch input{width:100%;font:inherit;font-size:17px;padding:10px 14px;border:1px solid var(--line);border-radius:6px;background:var(--panel);color:var(--ink)}
+.psearch input:focus{outline:2px solid var(--accent);outline-offset:1px}
+.sugg{position:absolute;left:0;right:0;top:100%;z-index:30;background:var(--panel);border:1px solid var(--line);border-top:0;border-radius:0 0 6px 6px;max-height:380px;overflow:auto;box-shadow:0 6px 16px rgba(0,0,0,.12)}
+.sugg a{display:flex;gap:10px;align-items:baseline;padding:7px 12px;color:var(--ink);text-decoration:none;border-top:1px solid var(--line)}
+.sugg a:first-child{border-top:0}.sugg a.on,.sugg a:hover{background:var(--bg)}.sugg .sk{color:var(--muted);font-size:13px;margin-left:auto;white-space:nowrap}.sugg .sj{color:var(--muted)}
+.try{margin:-12px 0 20px;font-size:14.5px;color:var(--muted)}.try a{color:var(--accent)}
+.tiles{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:12px;margin:8px 0 26px}
+.tile{display:block;background:var(--panel);border:1px solid var(--line);border-top:3px solid var(--accent);padding:12px 14px;text-decoration:none;color:var(--ink)}
+.tile:hover{border-color:var(--accent)}.tile b{font-weight:normal;font-size:18px;display:block}.tile .tj{color:var(--muted)}.tile small{display:block;color:var(--muted);font-size:13px;margin-top:4px}
+.crumbs{font-size:14px;color:var(--muted);margin:2px 0 4px}.crumbs a{color:var(--accent);text-decoration:none}.crumbs a:hover{text-decoration:underline}
+.ph{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 14px;margin:0 0 4px}.ph h2{font-size:28px;margin:0;font-weight:normal}.ph .pj{font-size:22px;color:var(--muted)}
+.psum{color:var(--muted);font-size:14.5px;margin:0 0 14px}
+.ctrl{display:flex;flex-wrap:wrap;gap:8px 18px;align-items:center;margin:10px 0 6px;font-size:14px}
+.ctrl .lbl{font-size:12px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin-right:4px}
+.chips{display:inline-flex;flex-wrap:wrap;gap:5px}
+.chip{font:inherit;font-size:13.5px;border:1px solid var(--line);background:var(--panel);color:var(--ink);border-radius:14px;padding:2px 11px;cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}.chip small{opacity:.75}
+.chip:disabled{opacity:.4;cursor:default}
+.chartbox{background:var(--panel);border:1px solid var(--line);padding:8px 8px 2px;margin:8px 0 6px;position:relative}
+.chartbox svg{display:block;width:100%;height:auto;overflow:visible}
+.chartbox .ax{stroke:var(--line)}.chartbox .gl{stroke:var(--line);stroke-dasharray:2 3}.chartbox text{fill:var(--muted);font:12px system-ui,sans-serif}
+.chartbox .dot{fill:var(--accent);stroke:var(--panel);stroke-width:2;cursor:pointer}.chartbox .dot.ap{fill:var(--panel);stroke:var(--accent);stroke-width:2}
+.chartbox .cband{fill:#b7791f;opacity:.13}.chartbox .dot.hov{stroke:var(--ink)}
+.ctip{position:absolute;pointer-events:none;background:var(--ink);color:var(--bg);font:13px/1.35 system-ui,sans-serif;padding:6px 9px;border-radius:5px;white-space:nowrap;z-index:5;transform:translate(-50%,calc(-100% - 10px))}
+.chartnote{font-size:12.5px;color:var(--muted);margin:0 0 4px;display:flex;flex-wrap:wrap;gap:4px 14px;align-items:center}
+.lg{display:inline-flex;align-items:center;gap:5px}.lg i{display:inline-block;width:10px;height:10px;border-radius:50%;background:var(--accent)}.lg i.ap{background:var(--panel);border:2px solid var(--accent);width:8px;height:8px}.lg i.cb{border-radius:2px;background:#b7791f;opacity:.35;width:12px}
+.zbtn{font:inherit;font-size:12.5px;background:none;border:1px solid var(--line);border-radius:4px;color:var(--accent);cursor:pointer;padding:1px 8px;margin-left:auto}
+h3.sec{font-size:14px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);margin:26px 0 8px;font-weight:bold;display:flex;align-items:center;gap:12px}
+h3.sec .zbtn{margin-left:0;text-transform:none;letter-spacing:0;font-weight:normal}
+.yrs{border-top:1px solid var(--line)}
+.yr{display:grid;grid-template-columns:86px 1fr;gap:4px 14px;padding:9px 0;border-bottom:1px solid var(--line);scroll-margin-top:10px}
+.yr.flash{animation:fl 1.6s}@keyframes fl{0%{background:rgba(183,121,31,.25)}100%{background:transparent}}
+.yl{font-size:19px;line-height:1.2}.yl small{display:block;font-size:12px;color:#8a5a00;margin-top:3px}
+.fig{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 10px;padding:2px 0}
+.fig+.fig{border-top:1px dashed var(--line);padding-top:6px;margin-top:4px}
+.fv{font-size:18px;font-variant-numeric:tabular-nums;min-width:150px}.fw{display:block;font-size:12px;color:var(--muted);font-variant-numeric:normal;line-height:1.3}.fv .gap{font-size:12.5px;color:#8a5a00;margin-left:6px}
+.srcs{display:flex;flex-wrap:wrap;gap:5px;flex:1;min-width:240px}
+.sp{display:inline-flex;align-items:baseline;gap:6px;font-size:13px;border:1px solid var(--line);background:var(--bg);border-radius:5px;padding:2px 8px;color:var(--ink);text-decoration:none;max-width:100%}
+.sp:hover{border-color:var(--accent);background:var(--panel)}.sp b{font-weight:600;color:var(--accent)}.sp .sd{color:var(--muted)}
+.more{font:inherit;font-size:12.5px;background:none;border:0;color:var(--accent);cursor:pointer;padding:0 4px}
+.xp{display:contents}.xp[hidden]{display:none}.fig.rd{border-top:0;margin-top:0;padding-top:0}.fig.rd .fv{font-size:15px;color:var(--muted)}
+.det{flex-basis:100%;font-size:13.5px;margin:4px 0 2px;padding-left:12px;border-left:2px solid var(--line)}
+.det div{margin:3px 0}.det a{color:var(--accent)}.det .dm{color:var(--muted)}
+.sub{width:100%;border-collapse:collapse;font-size:14.5px;margin-top:4px}
+.sub th{text-align:left;font-weight:normal;color:var(--muted);font-size:12.5px;text-transform:uppercase;letter-spacing:.05em;border-bottom:1px solid var(--line);padding:6px 8px;cursor:pointer;white-space:nowrap}
+.sub th.r,.sub td.r{text-align:right}.sub td{border-bottom:1px solid var(--line);padding:6px 8px;vertical-align:baseline}
+.sub td a{color:var(--accent);text-decoration:none}.sub td a:hover{text-decoration:underline}.sub .sj{color:var(--muted)}.sub td.r{font-variant-numeric:tabular-nums}
+.sub tr.kh td{background:var(--bg);font-size:12.5px;text-transform:uppercase;letter-spacing:.06em;color:var(--accent);font-weight:bold;padding-top:12px}
+.none{color:var(--muted);font-style:italic}
+.ploading{color:var(--muted);padding:30px 0}
+.howto{font-size:14px;color:var(--muted);margin:30px 0 0;max-width:760px}.howto p{margin:0 0 8px}
+@media(max-width:560px){.yr{grid-template-columns:1fr}.fv{min-width:0}.ph h2{font-size:24px}}
+</style></head><body>__BAND__
+<main>
+<div class="crumbs" id="topcrumbs"><a href="../topics/index.html">Topics</a> › <a href="index.html">Find figures</a> › Population</div>
+<div id="pop"><p class="ploading">Loading population figures…</p></div>
+__NOSCRIPT__
+<div class="howto" id="howto" hidden>
+<p><b>How these figures were gathered.</b> Every figure on this page is a cell of one of the site's transcribed tables, exactly as transcribed. Agents first worked out, table by table, which rows and columns hold counts of people or households for a place and a date; a script then took the figures from the tables. Nothing has been re-read, corrected, averaged or filled in. The same figure printed in several tables is shown once, with a link to each table; different figures for the same place and year are shown side by side, with the gap between them.</p>
+<p>A year comes from the table (its title, column heads, row labels or notes). Where a table gives no date the edition year of the book is used and the figure is marked “date not stated” (hollow dot). Figures printed in thousands are multiplied out and marked. Places are matched to a gazetteer by the names printed in the tables; the printed name is shown with each figure. Matching and dating were done by machine and may be wrong: always check the table, and the original scan linked from it.</p>
+</div>
+<div class="llmwarn" role="note"><b>Warning:</b> These tables were transcribed by the vision models of Opus 5.5, Sonnet 5.5, or Haiku 5.5 (named on each book's page), and the figures on this page were gathered from them by machine. Before using any of these figures, you must verify specific statistics with the original source which is linked to whenever possible.</div>
+__FOOT__
+</main>
+<script>
+(function(){
+const $=s=>document.querySelector(s),esc=s=>String(s==null?"":s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const CJK=/[぀-ヿ㐀-鿿]/;
+const fmt=n=>n.toLocaleString("en-US");
+const KIND={empire:"Empire",region:"Regions",colony:"Colonies and territories",country:"Countries",prefecture:"Prefectures",province:"Provinces",island:"Island groups",city:"Cities",district:"Districts and counties",ward:"Wards",town:"Towns and villages",settlement:"Settlements and concessions",world:"",other:"Other units (as printed)"};
+const KIND1={empire:"empire",region:"region",colony:"colony",country:"country",prefecture:"prefecture",province:"province",island:"island group",city:"city",district:"district",ward:"ward",town:"town",settlement:"settlement",world:"",other:"unit"};
+const KORDER=["colony","region","prefecture","province","island","country","settlement","city","district","ward","town","other"];
+const MNAME={total:"Population",male:"Male",female:"Female",households:"Households"};
+const GNAME={all:"Everyone",japanese:"Japanese",korean:"Korean",chinese:"Chinese",taiwanese:"Taiwanese (Han)",aborigine:"Taiwan Indigenous",islander:"Islanders",ainu:"Ainu",manchu:"Manchu",mongol:"Mongol",foreign:"Foreigners",manchurian:"Manchurians (Manchukuo nationals)",kanaka:"Kanaka",chamorro:"Chamorro",native:"Natives",muslim:"Muslims"};
+const BNAME={census:"census",registered:"registered (honseki)",resident:"resident (genjū)",estimate:"estimate",survey:"survey",police:"police count",other:""};
+let I=null;const BK={};let st={p:null,m:"total",g:"all",zero:false,desc:false};
+const gname=g=>GNAME[g]||g.replace(/^./,c=>c.toUpperCase());
+function name(id){const p=I.places[id];return p?p.en:id}
+function load(b){return BK[b]||(BK[b]=fetch("../data/population/"+b+".json").then(r=>{if(!r.ok)throw r.status;return r.json()}))}
+let KIDS=null;function kids(id){if(!KIDS){KIDS={};for(const [k,p] of Object.entries(I.places))if(p.up&&p.nt>0)(KIDS[p.up]=KIDS[p.up]||[]).push(k)}return KIDS[id]||[]}
+function chain(id){const out=[];let p=id;const seen={};while(p&&I.places[p]&&!seen[p]){seen[p]=1;out.unshift(p);p=I.places[p].up}return out}
+function short(src){let t=src[2].replace(/^The /,"");if(t.length<=34)return t;const m=t.match(/^(.*?)[\s,]*((?:1[89]|19)\d\d(?:[-–]\d{1,4})?)\s*$/);const y=m?m[2]:"",b=m?m[1]:t;
+ let c=b.slice(0,26);c=c.slice(0,Math.max(c.lastIndexOf(" "),16));return c+"…"+(y?" "+y:"")}
+function link(src,c){return `../book/${src[0]}/#${encodeURIComponent(src[1])}~${c[6]}.${c[7]}.${c[8]}`}
+
+/* ---------- routing ---------- */
+function parse(){const p=new URLSearchParams(location.hash.slice(1));st.p=p.get("p");st.m=p.get("m")||"total";st.g=p.get("g")||"all";st.zero=p.get("z")==="1"}
+function go(o,replace){Object.assign(st,o);const p=new URLSearchParams();if(st.p)p.set("p",st.p);if(st.m!=="total")p.set("m",st.m);if(st.g!=="all")p.set("g",st.g);if(st.zero)p.set("z","1");
+ const h="#"+p.toString();if(h!==location.hash){if(replace)history.replaceState(null,"",h);else history.pushState(null,"",h)}render()}
+addEventListener("popstate",()=>{parse();render()});
+
+/* ---------- search ---------- */
+let SX=null;
+function fold(s){return String(s||"").normalize("NFKD").replace(/[̀-ͯ]/g,"").toLowerCase().replace(/[-'’ʻ`.\s]+/g,"")}
+function buildSX(){SX=[];for(const [id,p] of Object.entries(I.places)){if(!p.nt)continue;const names=[p.en,p.ja,...(p.a||[])].filter(Boolean);SX.push({id,f:names.map(fold),n:p.nt})}}
+function searchBox(){return `<div class="psearch"><input id="q" type="search" placeholder="Find a place — Keijō, 京城, Kwangtung, Tokyo-fu, Saipan…" autocomplete="off" aria-label="Find a place"><div class="sugg" id="sugg" hidden></div></div>`}
+function wireSearch(){const q=$("#q"),box=$("#sugg");let k=-1;
+ const show=()=>{const v=fold(q.value);if(v.length<1){box.hidden=true;return}
+  const hits=SX.map(x=>{let s=0;for(const f of x.f){if(f===v)s=Math.max(s,3);else if(f.startsWith(v))s=Math.max(s,2);else if(v.length>1&&f.includes(v))s=Math.max(s,1)}return [s,x]}).filter(h=>h[0]).sort((a,b)=>b[0]-a[0]||b[1].n-a[1].n).slice(0,14);
+  k=-1;box.innerHTML=hits.map(([s,x])=>{const p=I.places[x.id],up=p.up?I.places[p.up]:null;return `<a href="#p=${encodeURIComponent(x.id)}" data-id="${esc(x.id)}">${esc(p.en)} <span class="sj">${esc(p.ja)}</span><span class="sk">${esc(KIND1[p.k]||"")}${up?" in "+esc(up.en):""} · ${fmt(x.n)} figure${x.n===1?"":"s"}</span></a>`}).join("")||`<a class="none">No place of that name has figures</a>`;box.hidden=false};
+ q.addEventListener("input",show);q.addEventListener("focus",show);
+ q.addEventListener("keydown",e=>{const a=[...box.querySelectorAll("a[data-id]")];if(e.key==="ArrowDown"||e.key==="ArrowUp"){e.preventDefault();k=Math.max(0,Math.min(a.length-1,k+(e.key==="ArrowDown"?1:-1)));a.forEach((x,i)=>x.classList.toggle("on",i===k))}
+  else if(e.key==="Enter"){const t=a[k]||a[0];if(t){e.preventDefault();box.hidden=true;q.value="";go({p:t.dataset.id,g:"all",m:"total"})}}else if(e.key==="Escape")box.hidden=true});
+ box.addEventListener("click",e=>{const a=e.target.closest("a[data-id]");if(a){e.preventDefault();box.hidden=true;q.value="";go({p:a.dataset.id,g:"all",m:"total"})}});
+ document.addEventListener("click",e=>{if(!e.target.closest(".psearch"))box.hidden=true})}
+
+/* ---------- home ---------- */
+function tryLinks(){const ids=["c-seoul","c-taipei","c-shanghai","jp13","c-dairen","ss-Marianas","c-harbin","kr-Keiki"].filter(id=>I.places[id]&&I.places[id].nt);
+ return ids.length?`<p class="try">Try: ${ids.map(id=>`<a href="#p=${id}">${esc(I.places[id].en)}</a>`).join(" · ")}</p>`:""}
+function home(){const t=I.tops.map(id=>{const p=I.places[id];const sub=kids(id).length;return `<a class="tile" href="#p=${id}"><b>${esc(p.en)}</b><span class="tj">${esc(p.ja)}</span><small>${fmt(p.nt)} figures${p.y?"":""}${sub?" · "+sub+" places within":""}</small></a>`}).join("");
+ $("#pop").innerHTML=`<div class="pintro"><p>Population figures for every country, colony, prefecture, province, city and district in the site's tables — <b>${fmt(I.n)}</b> figures from <b>${fmt(I.tables)}</b> tables. Find a place, or start from a region and drill down. Figures that several tables agree on are shown once with links to each table; figures that disagree are shown side by side.</p></div>${searchBox()}${tryLinks()}<div class="tiles">${t}</div>`;
+ $("#howto").hidden=false;wireSearch();document.title="Population · Old Tables of East Asia"}
+
+/* ---------- a place ---------- */
+async function place(id){const P=I.places[id];if(!P){home();return}
+ $("#pop").innerHTML=`<p class="ploading">Loading ${esc(P.en)}…</p>`;
+ let rows=[],D=null;try{D=await load(P.b);rows=D.c[id]||[]}catch(e){$("#pop").innerHTML=`<p class="none">Could not load the figures (${esc(e)}).</p>`;return}
+ if(st.p!==id)return;
+ document.title=P.en+" · Population · Old Tables of East Asia";
+ const C=rows.map(r=>({y:r[0],d:r[1],m:I.metrics[r[2]],g:I.groups[r[3]],v:r[4],s:r[5],part:r[6],row:r[7],col:r[8],b:I.bases[r[9]],n:r[10]>=0?D.notes[r[10]]:"",ap:!!r[11],l:r[12]>=0?D.labels[r[12]]:"",raw:r}));
+ const mC={},gC={};C.forEach(c=>{mC[c.m]=(mC[c.m]||0)+1;if(c.m===st.m)gC[c.g]=(gC[c.g]||0)+1});
+ if(C.length&&!mC[st.m]){st.m=Object.keys(mC).sort((a,b)=>I.metrics.indexOf(a)-I.metrics.indexOf(b))[0];C.forEach(c=>{if(c.m===st.m)gC[c.g]=(gC[c.g]||0)+1})}
+ if(C.length&&!gC[st.g])st.g=gC.all?"all":Object.keys(gC).sort((a,b)=>gC[b]-gC[a])[0];
+ const S=C.filter(c=>c.m===st.m&&c.g===st.g);
+ // year -> value -> claims
+ const Y=new Map();S.forEach(c=>{if(!Y.has(c.y))Y.set(c.y,new Map());const m=Y.get(c.y);if(!m.has(c.v))m.set(c.v,[]);m.get(c.v).push(c)});
+ const years=[...Y.keys()].sort((a,b)=>a-b);
+ const crumbs=chain(id).slice(0,-1).map(k=>`<a href="#p=${encodeURIComponent(k)}">${esc(name(k))}</a>`);
+ const nconf=years.filter(y=>clusters(Y.get(y)).length>1).length;
+ const tables=new Set(C.map(c=>c.s)).size;
+ let h=searchBox()+`<div class="crumbs"><a href="population.html" onclick="history.pushState(null,'',location.pathname);dispatchEvent(new PopStateEvent('popstate'));return false">Population</a>${crumbs.length?" › "+crumbs.join(" › "):""}</div>`;
+ h+=`<div class="ph"><h2>${esc(P.en)}</h2>${P.ja?`<span class="pj">${esc(P.ja)}</span>`:""}</div>`;
+ h+=`<p class="psum">${esc(KIND1[P.k]||"")}${P.up?" in "+esc(name(P.up)):""}${C.length?` · ${fmt(C.length)} figure${C.length===1?"":"s"} from ${fmt(tables)} table${tables===1?"":"s"}${P.y?`, ${P.y[0]}–${P.y[1]}`:""}`:""}${P.a?` · printed as ${P.a.slice(0,4).map(esc).join(", ")}`:""}</p>`;
+ if(C.length){
+  h+=`<div class="ctrl"><span><span class="lbl">Count</span><span class="chips">${I.metrics.map(m=>`<button class="chip" data-m="${m}" aria-pressed="${m===st.m}"${mC[m]?"":" disabled"}>${MNAME[m]} <small>${mC[m]||0}</small></button>`).join("")}</span></span>`;
+  const gs=Object.keys(gC).sort((a,b)=>(a==="all"?-1:b==="all"?1:gC[b]-gC[a]));
+  if(gs.length>1||st.g!=="all")h+=`<span><span class="lbl">Who</span><span class="chips">${gs.map(g=>`<button class="chip" data-g="${esc(g)}" aria-pressed="${g===st.g}">${esc(gname(g))} <small>${gC[g]}</small></button>`).join("")}</span></span>`;
+  h+=`</div>`;
+  h+=`<div class="chartbox" id="chart"></div><div class="chartnote"><span class="lg"><i></i>figure (larger = more tables)</span><span class="lg"><i class="ap"></i>date not stated in the table</span>${nconf?`<span class="lg"><i class="cb"></i>year with differing figures (${nconf})</span>`:""}<button class="zbtn" id="zero">${st.zero?"Zoom to the figures":"Start the scale at zero"}</button></div>`;
+  h+=`<h3 class="sec">${esc(MNAME[st.m])}${st.g!=="all"?" · "+esc(gname(st.g)):""} by year <button class="zbtn" id="ord">${st.desc?"Oldest first":"Newest first"}</button></h3><div class="yrs">`;
+  const ys=st.desc?[...years].reverse():years;
+  for(const y of ys){const cl=clusters(Y.get(y));
+   const allAp=cl.every(k=>k.all.every(c=>c.ap));
+   h+=`<div class="yr" id="y-${y}"><div class="yl">${allAp?"c. ":""}${y}${cl.length>1?`<small>${cl.length} differing figures</small>`:""}</div><div>`;
+   const top=cl[0].v;
+   for(const k of cl){
+    const d=(k.v-top)/top*100,pct=cl.length>1&&k!==cl[0]?` <span class="gap">${d>0?"+":"−"}${Math.abs(d)<.1?Math.abs(d).toFixed(2):Math.abs(d).toFixed(1)}%</span>`:"";
+    h+=figHTML(k.v,k.cs,pct,"");
+    for(const [rv,rcs] of k.rounded)h+=figHTML(rv,rcs,"",`<span class="gap" title="Printed rounded: agrees with the figure above to the precision printed">≈ same, rounded</span>`,true)}
+   h+=`</div></div>`}  h+=`</div>`;
+ } else h+=`<p class="none">No figures for ${esc(P.en)} itself${P.nt?"; see the places within it below":""}.</p>`;
+ // places within
+ const ks=kids(id);
+ if(ks.length){
+  h+=`<h3 class="sec">Places within ${esc(P.en)}</h3><table class="sub" id="subt"><thead><tr><th data-k="n">Place</th><th class="r" data-k="l">Latest population</th><th class="r" data-k="y">Years</th><th class="r" data-k="c">Figures</th></tr></thead><tbody></tbody></table>`}
+ $("#pop").innerHTML=h;$("#howto").hidden=false;wireSearch();
+ if(C.length){drawChart(years,Y);
+  document.querySelectorAll("[data-m]").forEach(b=>b.onclick=()=>go({m:b.dataset.m,g:"all"},true));
+  document.querySelectorAll("[data-g]").forEach(b=>b.onclick=()=>go({g:b.dataset.g},true));
+  $("#zero").onclick=()=>go({zero:!st.zero},true);$("#ord").onclick=()=>{st.desc=!st.desc;render()};
+  document.querySelectorAll("[data-xp]").forEach(b=>b.onclick=()=>{b.previousElementSibling.hidden=false;b.remove()});
+  document.querySelectorAll("[data-more]").forEach(b=>b.onclick=()=>{const d=b.closest(".fig").querySelector(".det");d.hidden=!d.hidden;b.setAttribute("aria-expanded",!d.hidden);b.textContent=d.hidden?"details":"hide"})}
+ if(ks.length)subTable(ks,"k")}
+
+// the same year's figures: exact figures first; a figure printed rounded (…,000) that agrees with one of them to the
+// precision printed goes with it, not as a differing figure
+function tz(v){let z=0;while(v%10===0&&v>0&&z<9){v/=10;z++}return z}
+function clusters(m){const vals=[...m.entries()].sort((a,b)=>tz(a[0])-tz(b[0])||b[1].length-a[1].length);const out=[];
+ for(const [v,cs] of vals){const z=tz(v),u=Math.pow(10,z);const k=z>=3&&out.find(k=>Math.abs(k.v-v)<u&&tz(k.v)<z);
+  if(k){k.rounded.push([v,cs]);k.all.push(...cs)}else out.push({v,cs,rounded:[],all:[...cs]})}
+ return out.sort((a,b)=>b.all.length-a.all.length||a.v-b.v)}
+const MON=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+function dshort(d){const m=String(d||"").match(/^\d{4}-(\d\d)(?:-(\d\d))?/);if(!m)return "";return (m[2]?(+m[2])+" ":"")+MON[+m[1]-1]}
+// what the tables say about when and how the figure was counted: "1 Oct · census", or nothing if they do not say
+function when(cs){const ds=[...new Set(cs.map(c=>dshort(c.d)).filter(Boolean))],bs=[...new Set(cs.map(c=>BNAME[c.b]||"").filter(Boolean))];
+ const a=ds.length===1?ds[0]:ds.length>1?"various dates":"",b=bs.length===1?bs[0]:"";return [a,b].filter(Boolean).join(" · ")}
+function figHTML(v,cs,pct,tag,sub){const bySrc=[];cs.forEach(c=>{if(!bySrc.find(x=>x.s===c.s))bySrc.push(c)});const w=when(cs);
+ bySrc.sort((a,b)=>I.src[a.s][3]-I.src[b.s][3]||I.src[a.s][2].localeCompare(I.src[b.s][2]));
+ const pill=c=>{const s=I.src[c.s];return `<a class="sp" href="${link(s,c)}" title="${esc(s[4]+(s[5]?" — "+s[5]:""))}"><b>${esc(short(s))}</b>${s[6]?`<span class="sd">p. ${esc(s[6].split(", ")[0])}</span>`:""}</a>`};
+ const SHOW=4,extra=bySrc.length-SHOW;
+ const pills=bySrc.slice(0,extra>1?SHOW-1:SHOW).map(pill).join("")+(extra>1?`<span class="xp" hidden>${bySrc.slice(SHOW-1).map(pill).join("")}</span><button class="more" data-xp>+${bySrc.length-SHOW+1} more tables</button>`:"");
+ return `<div class="fig${sub?" rd":""}"><span class="fv">${fmt(v)}${pct}${tag}${w?`<span class="fw">${esc(w)}</span>`:""}</span><span class="srcs">${pills}<button class="more" data-more aria-expanded="false">details</button></span>
+  <div class="det" hidden>${bySrc.map(c=>{const s=I.src[c.s];const bits=[c.d?("as of "+c.d):(c.ap?"date not stated (edition year used)":""),BNAME[c.b]||"",c.n,c.l?("printed as “"+c.l+"”"):""].filter(Boolean);
+   return `<div><a href="${link(s,c)}">${esc(s[2])}</a>, ${esc(s[4]||"untitled table")}${s[5]&&s[5]!==s[4]?` <span class="dm">(${esc(s[5])})</span>`:""}${s[6]?`, p. ${esc(s[6])}`:""} <span class="dm">· ${esc(bits.join(" · "))}</span></div>`}).join("")}</div></div>`}
+function subTable(ks,sort){const tb=$("#subt tbody");let key=sort,dir=1;
+ const val=(id,k)=>{const p=I.places[id];return k==="n"?p.en.toLowerCase():k==="l"?(p.l?p.l[1]:-1):k==="y"?(p.y?p.y[1]:0):k==="c"?p.nt:0};
+ function draw(){let L=[...ks];const groups=key==="k";
+  L.sort((a,b)=>{if(groups){const ka=KORDER.indexOf(I.places[a].k),kb=KORDER.indexOf(I.places[b].k);if(ka!==kb)return ka-kb;return (I.places[b].nt-I.places[a].nt)}const va=val(a,key),vb=val(b,key);return (va<vb?-1:va>vb?1:0)*dir});
+  let h="",lastK=null;
+  for(const id of L){const p=I.places[id];if(groups&&p.k!==lastK){h+=`<tr class="kh"><td colspan="4">${esc(KIND[p.k]||p.k)}</td></tr>`;lastK=p.k}
+   const n=kids(id).length;
+   h+=`<tr><td><a href="#p=${encodeURIComponent(id)}">${esc(p.en)}</a> <span class="sj">${esc(p.ja)}</span>${n?` <span class="sj">· ${n} within</span>`:""}</td><td class="r">${p.l?`${fmt(p.l[1])} <span class="sj">(${p.l[0]})</span>`:"—"}</td><td class="r">${p.y?(p.y[0]===p.y[1]?p.y[0]:p.y[0]+"–"+p.y[1]):"—"}</td><td class="r">${fmt(p.nt)}</td></tr>`}
+  tb.innerHTML=h}
+ document.querySelectorAll("#subt th").forEach(th=>th.onclick=()=>{const k=th.dataset.k;if(key===k)dir=-dir;else{key=k;dir=(k==="n"?1:-1)}draw()});draw()}
+
+/* ---------- chart: one dot per distinct figure; nothing joins the dots (gaps stay gaps) ---------- */
+function drawChart(years,Y){const box=$("#chart");lastC=[years,Y];lastW=box.clientWidth;const W=Math.max(320,box.clientWidth-16),H=Math.round(Math.min(300,Math.max(200,W*.32)));
+ const L=64,R=14,T=12,B=26;
+ const pts=[],CY={};for(const y of years){const cl=clusters(Y.get(y));CY[y]=cl.length;for(const k of cl)pts.push({y,v:k.v,n:new Set(k.all.map(c=>c.s)).size,ap:k.all.every(c=>c.ap),k:cl.length>1})}
+ let y0=Math.min(...years),y1=Math.max(...years);if(y0===y1){y0-=1;y1+=1}const padY=Math.max(1,(y1-y0)*.03);y0-=padY;y1+=padY;
+ let v0=st.zero?0:Math.min(...pts.map(p=>p.v)),v1=Math.max(...pts.map(p=>p.v));if(v0===v1){v0=st.zero?0:v0*.9;v1=v1*1.1||1}
+ const pad=(v1-v0)*.08;if(!st.zero)v0=Math.max(0,v0-pad);v1+=pad;
+ const X=y=>L+(y-y0)/(y1-y0)*(W-L-R),Yv=v=>T+(1-(v-v0)/(v1-v0))*(H-T-B);
+ const nice=(a,b,n)=>{const span=b-a,step0=span/n,mag=Math.pow(10,Math.floor(Math.log10(step0))),f=step0/mag,step=(f<1.5?1:f<3?2:f<7?5:10)*mag;const out=[];for(let v=Math.ceil(a/step)*step;v<=b;v+=step)out.push(v);return out};
+ const sh=v=>v>=1e9?(v/1e9).toFixed(v%1e9?1:0)+"B":v>=1e6?(+(v/1e6).toFixed(2))+"M":v>=1e3?(+(v/1e3).toFixed(1))+"k":String(v);
+ let s=`<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Figures by year">`;
+ const yt=nice(v0,v1,5);yt.forEach(v=>{s+=`<line class="gl" x1="${L}" x2="${W-R}" y1="${Yv(v)}" y2="${Yv(v)}"/><text x="${L-6}" y="${Yv(v)+4}" text-anchor="end">${sh(v)}</text>`});
+ const xt=nice(Math.ceil(y0),Math.floor(y1),Math.max(2,Math.floor(W/90)));xt.forEach(y=>{if(Math.round(y)===y)s+=`<text x="${X(y)}" y="${H-6}" text-anchor="middle">${y}</text>`});
+ s+=`<line class="ax" x1="${L}" x2="${W-R}" y1="${H-B}" y2="${H-B}"/>`;
+ const bw=Math.max(6,(W-L-R)/(y1-y0)*.8);
+ years.filter(y=>CY[y]>1).forEach(y=>{s+=`<rect class="cband" x="${X(y)-bw/2}" y="${T}" width="${bw}" height="${H-T-B}"/>`});
+ pts.sort((a,b)=>b.n-a.n).forEach((p,i)=>{const r=Math.min(9,4+Math.sqrt(p.n)*1.6);s+=`<circle class="dot${p.ap?" ap":""}" cx="${X(p.y)}" cy="${Yv(p.v)}" r="${r}" data-y="${p.y}" data-v="${p.v}" data-n="${p.n}"><title>${p.y}: ${fmt(p.v)} (${p.n} table${p.n===1?"":"s"})</title></circle>`});
+ s+=`</svg><div class="ctip" id="ctip" hidden></div>`;box.innerHTML=s;
+ const tip=$("#ctip");
+ box.querySelectorAll(".dot").forEach(d=>{d.querySelector("title").remove();
+  d.addEventListener("mouseenter",()=>{d.classList.add("hov");const bb=box.getBoundingClientRect(),db=d.getBoundingClientRect();tip.innerHTML=`<b>${d.dataset.y}</b> · ${fmt(+d.dataset.v)}<br>${d.dataset.n} table${d.dataset.n==="1"?"":"s"} · click to see`;tip.style.left=(db.left+db.width/2-bb.left)+"px";tip.style.top=(db.top-bb.top)+"px";tip.hidden=false});
+  d.addEventListener("mouseleave",()=>{d.classList.remove("hov");tip.hidden=true});
+  d.addEventListener("click",()=>{const e=document.getElementById("y-"+d.dataset.y);if(e){e.scrollIntoView({behavior:"smooth",block:"center"});e.classList.remove("flash");void e.offsetWidth;e.classList.add("flash")}})})}
+let rz,lastW=0,lastC=null;addEventListener("resize",()=>{clearTimeout(rz);rz=setTimeout(()=>{const b=$("#chart");if(b&&lastC&&Math.abs(b.clientWidth-lastW)>20)drawChart(...lastC)},250)});
+
+function render(){if(!I)return;const tc=$("#topcrumbs");if(tc)tc.hidden=!!(st.p&&I.places[st.p]);if(st.p&&I.places[st.p])place(st.p);else home();}
+fetch("../data/population/index.json").then(r=>r.json()).then(d=>{for(const k in d.places){const a=d.places[k];d.places[k]={en:a[0],ja:a[1],k:a[2],up:a[3]||null,n:a[4],y:a[4]?[a[5],a[6]]:null,l:a[8]?[a[7],a[8]]:null,b:a[9],nt:a[10],a:a[11]}}I=d;buildSX();parse();render()}).catch(e=>{$("#pop").innerHTML=`<p class="none">Could not load the population index (${esc(e)}).</p>`});
+})();
+</script>
+</body></html>

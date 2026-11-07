@@ -23,7 +23,11 @@ go from GitHub instead of fetching pages or index files one by one.
 
 - [All books](index.html): one card per book, grouped by region
 - `book/<slug>/`: a book's tables; `book/<slug>/directory.html` and `chronology.html` where it has them
-- [Full Search](search.html): searches every book (needs the pagefind index on the server)
+- [Search](search.html): searches every book (needs the pagefind index on the server)
+- [Find figures](figures/index.html): pages that gather one kind of figure from every table, place by place and year
+  by year; [Population](figures/population.html) is the first (every population and household figure for each place,
+  with links to the tables, the same figure from several tables shown once, differing figures side by side). Its
+  data: `data/population/index.json` (places, sources) and one file per region (`data/population/<region>.json`)
 
 ## Notes on the data
 

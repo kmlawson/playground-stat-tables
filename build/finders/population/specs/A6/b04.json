@@ -1,0 +1,5979 @@
+[
+ {
+  "t": "japan-1929:p0755_1",
+  "x": [
+   {
+    "pt": "city",
+    "in": "Japan",
+    "d": "1925-10-01",
+    "b": "census",
+    "rp": {
+     "0": "Osaka"
+    },
+    "cols": [
+     {
+      "c": 2
+     }
+    ]
+   }
+  ],
+  "fp": "23c931254e"
+ },
+ {
+  "t": "japan-1929:p0755_2",
+  "x": [
+   {
+    "pt": "city",
+    "in": "World",
+    "d": "~1929",
+    "rp": {
+     "0": "Osaka",
+     "2": "London"
+    },
+    "cols": [
+     {
+      "c": 2
+     }
+    ]
+   }
+  ],
+  "fp": "1011d5b22f"
+ },
+ {
+  "t": "japan-1929:p0755_3",
+  "x": [
+   {
+    "pt": "city",
+    "in": "Japan",
+    "d": "1925-10-01",
+    "b": "census",
+    "rp": {
+     "0": "Osaka"
+    },
+    "cols": [
+     {
+      "c": 4
+     },
+     {
+      "c": 2,
+      "m": "male"
+     },
+     {
+      "c": 3,
+      "m": "female"
+     },
+     {
+      "c": 1,
+      "m": "households"
+     }
+    ]
+   }
+  ],
+  "fp": "454daa0e8f"
+ },
+ {
+  "t": "japan-1929:p0756_1",
+  "skip": "municipal finance",
+  "fp": "5788834b50"
+ },
+ {
+  "t": "japan-1929:p0756_2",
+  "skip": "municipal finance",
+  "fp": "5788834b50"
+ },
+ {
+  "t": "japan-1929:p0766_1",
+  "x": [
+   {
+    "pt": "city",
+    "in": "Japan",
+    "d": "~1927",
+    "rp": {
+     "0": "Yokohama (new boundaries)",
+     "1": "Yokohama"
+    },
+    "cols": [
+     {
+      "c": 3
+     },
+     {
+      "c": 2,
+      "m": "households"
+     }
+    ]
+   }
+  ],
+  "fp": "989cb69a8f"
+ },
+ {
+  "t": "japan-1929:p0766_2",
+  "x": [
+   {
+    "pt": "ward",
+    "in": "Yokohama",
+    "d": "1927-10-01",
+    "n": "based on end-1926 census",
+    "rp": {
+     "5": "Yokohama (new boundaries)"
+    },
+    "cols": [
+     {
+      "c": 1
+     },
+     {
+      "c": 2,
+      "m": "households"
+     }
+    ]
+   }
+  ],
+  "fp": "25b63c7f61"
+ },
+ {
+  "t": "japan-1929:p0770_1",
+  "x": [
+   {
+    "rows": "cells",
+    "cells": [
+     {
+      "r": 0,
+      "c": 3,
+      "p": "Korea",
+      "d": "1925-10-01",
+      "m": "total",
+      "g": "all"
+     },
+     {
+      "r": 0,
+      "c": 1,
+      "p": "Korea",
+      "d": "1925-10-01",
+      "m": "male",
+      "g": "all"
+     },
+     {
+      "r": 0,
+      "c": 2,
+      "p": "Korea",
+      "d": "1925-10-01",
+      "m": "female",
+      "g": "all"
+     },
+     {
+      "r": 0,
+      "c": 0,
+      "p": "Korea",
+      "d": "1925-10-01",
+      "m": "households",
+      "g": "all"
+     }
+    ]
+   }
+  ],
+  "fp": "d61729e97c"
+ },
+ {
+  "t": "japan-1929:p0770_2",
+  "x": [
+   {
+    "rows": "dates",
+    "p": "Korea",
+    "g": "korean",
+    "cols": [
+     {
+      "c": 4
+     },
+     {
+      "c": 2,
+      "m": "male"
+     },
+     {
+      "c": 3,
+      "m": "female"
+     },
+     {
+      "c": 1,
+      "m": "households"
+     }
+    ]
+   }
+  ],
+  "fp": "6543ec486a"
+ },
+ {
+  "t": "japan-1929:p0770_5",
+  "skip": "rates only",
+  "fp": "085c761089"
+ },
+ {
+  "t": "japan-1929:p0771_1",
+  "x": [
+   {
+    "rows": "dates",
+    "p": "Korea",
+    "g": "japanese",
+    "cols": [
+     {
+      "c": 4
+     },
+     {
+      "c": 2,
+      "m": "male"
+     },
+     {
+      "c": 3,
+      "m": "female"
+     },
+     {
+      "c": 1,
+      "m": "households"
+     }
+    ]
+   }
+  ],
+  "fp": "c6e18c5080"
+ },
+ {
+  "t": "japan-1929:p0771_2",
+  "x": [
+   {
+    "pt": "city",
+    "in": "Korea",
+    "d": "1926-12-31",
+    "cols": [
+     {
+      "c": 3
+     },
+     {
+      "c": 1,
+      "g": "japanese"
+     },
+     {
+      "c": 2,
+      "g": "korean"
+     }
+    ]
+   }
+  ],
+  "fp": "b271e06312"
+ },
+ {
+  "t": "japan-1929:p0771_3",
+  "x": [
+   {
+    "rows": "dates",
+    "p": "Korea",
+    "g": "foreign",
+    "cols": [
+     {
+      "c": 3
+     },
+     {
+      "c": 1,
+      "m": "male"
+     },
+     {
+      "c": 2,
+      "m": "female"
+     }
+    ]
+   }
+  ],
+  "fp": "868b3ed49f"
+ },
+ {
+  "t": "japan-1929:p0784_2",
+  "skip": "prison inmates",
+  "fp": "f6d024df3c"
+ },
+ {
+  "t": "japan-1929:p0788_3",
+  "x": [
+   {
+    "rows": "cells",
+    "cells": [
+     {
+      "r": 0,
+      "c": 3,
+      "p": "Taiwan",
+      "d": "1924",
+      "m": "total",
+      "g": "japanese"
+     },
+     {
+      "r": 0,
+      "c": 1,
+      "p": "Taiwan",
+      "d": "1924",
+      "m": "male",
+      "g": "japanese"
+     },
+     {
+      "r": 0,
+      "c": 2,
+      "p": "Taiwan",
+      "d": "1924",
+      "m": "female",
+      "g": "japanese"
+     },
+     {
+      "r": 1,
+      "c": 3,
+      "p": "Taiwan",
+      "d": "1924",
+      "m": "total",
+      "g": "taiwanese"
+     },
+     {
+      "r": 1,
+      "c": 1,
+      "p": "Taiwan",
+      "d": "1924",
+      "m": "male",
+      "g": "taiwanese"
+     },
+     {
+      "r": 1,
+      "c": 2,
+      "p": "Taiwan",
+      "d": "1924",
+      "m": "female",
+      "g": "taiwanese"
+     },
+     {
+      "r": 2,
+      "c": 3,
+      "p": "Taiwan",
+      "d": "1924",
+      "m": "total",
+      "g": "aborigine"
+     },
+     {
+      "r": 2,
+      "c": 1,
+      "p": "Taiwan",
+      "d": "1924",
+      "m": "male",
+      "g": "aborigine"
+     },
+     {
+      "r": 2,
+      "c": 2,
+      "p": "Taiwan",
+      "d": "1924",
+      "m": "female",
+      "g": "aborigine"
+     },
+     {
+      "r": 3,
+      "c": 3,
+      "p": "Taiwan",
+      "d": "1924",
+      "m": "total",
+      "g": "foreign"
+     },
+     {
+      "r": 3,
+      "c": 1,
+      "p": "Taiwan",
+      "d": "1924",
+      "m": "male",
+      "g": "foreign"
+     },
+     {
+      "r": 3,
+      "c": 2,
+      "p": "Taiwan",
+      "d": "1924",
+      "m": "female",
+      "g": "foreign"
+     },
+     {
+      "r": 4,
+      "c": 3,
+      "p": "Taiwan",
+      "d": "1924",
+      "m": "total",
+      "g": "all"
+     },
+     {
+      "r": 4,
+      "c": 1,
+      "p": "Taiwan",
+      "d": "1924",
+      "m": "male",
+      "g": "all"
+     },
+     {
+      "r": 4,
+      "c": 2,
+      "p": "Taiwan",
+      "d": "1924",
+      "m": "female",
+      "g": "all"
+     },
+     {
+      "r": 5,
+      "c": 3,
+      "p": "Taiwan",
+      "d": "1925",
+      "m": "total",
+      "g": "japanese"
+     },
+     {
+      "r": 5,
+      "c": 1,
+      "p": "Taiwan",
+      "d": "1925",
+      "m": "male",
+      "g": "japanese"
+     },
+     {
+      "r": 5,
+      "c": 2,
+      "p": "Taiwan",
+      "d": "1925",
+      "m": "female",
+      "g": "japanese"
+     },
+     {
+      "r": 6,
+      "c": 3,
+      "p": "Taiwan",
+      "d": "1925",
+      "m": "total",
+      "g": "taiwanese"
+     },
+     {
+      "r": 6,
+      "c": 1,
+      "p": "Taiwan",
+      "d": "1925",
+      "m": "male",
+      "g": "taiwanese"
+     },
+     {
+      "r": 6,
+      "c": 2,
+      "p": "Taiwan",
+      "d": "1925",
+      "m": "female",
+      "g": "taiwanese"
+     },
+     {
+      "r": 7,
+      "c": 3,
+      "p": "Taiwan",
+      "d": "1925",
+      "m": "total",
+      "g": "aborigine"
+     },
+     {
+      "r": 7,
+      "c": 1,
+      "p": "Taiwan",
+      "d": "1925",
+      "m": "male",
+      "g": "aborigine"
+     },
+     {
+      "r": 7,
+      "c": 2,
+      "p": "Taiwan",
+      "d": "1925",
+      "m": "female",
+      "g": "aborigine"
+     },
+     {
+      "r": 8,
+      "c": 3,
+      "p": "Taiwan",
+      "d": "1925",
+      "m": "total",
+      "g": "foreign"
+     },
+     {
+      "r": 8,
+      "c": 1,
+      "p": "Taiwan",
+      "d": "1925",
+      "m": "male",
+      "g": "foreign"
+     },
+     {
+      "r": 8,
+      "c": 2,
+      "p": "Taiwan",
+      "d": "1925",
+      "m": "female",
+      "g": "foreign"
+     },
+     {
+      "r": 9,
+      "c": 3,
+      "p": "Taiwan",
+      "d": "1925",
+      "m": "total",
+      "g": "all"
+     },
+     {
+      "r": 9,
+      "c": 1,
+      "p": "Taiwan",
+      "d": "1925",
+      "m": "male",
+      "g": "all"
+     },
+     {
+      "r": 9,
+      "c": 2,
+      "p": "Taiwan",
+      "d": "1925",
+      "m": "female",
+      "g": "all"
+     },
+     {
+      "r": 10,
+      "c": 3,
+      "p": "Taiwan",
+      "d": "1926",
+      "m": "total",
+      "g": "japanese"
+     },
+     {
+      "r": 10,
+      "c": 1,
+      "p": "Taiwan",
+      "d": "1926",
+      "m": "male",
+      "g": "japanese"
+     },
+     {
+      "r": 10,
+      "c": 2,
+      "p": "Taiwan",
+      "d": "1926",
+      "m": "female",
+      "g": "japanese"
+     },
+     {
+      "r": 11,
+      "c": 3,
+      "p": "Taiwan",
+      "d": "1926",
+      "m": "total",
+      "g": "taiwanese"
+     },
+     {
+      "r": 11,
+      "c": 1,
+      "p": "Taiwan",
+      "d": "1926",
+      "m": "male",
+      "g": "taiwanese"
+     },
+     {
+      "r": 11,
+      "c": 2,
+      "p": "Taiwan",
+      "d": "1926",
+      "m": "female",
+      "g": "taiwanese"
+     },
+     {
+      "r": 12,
+      "c": 3,
+      "p": "Taiwan",
+      "d": "1926",
+      "m": "total",
+      "g": "aborigine"
+     },
+     {
+      "r": 12,
+      "c": 1,
+      "p": "Taiwan",
+      "d": "1926",
+      "m": "male",
+      "g": "aborigine"
+     },
+     {
+      "r": 12,
+      "c": 2,
+      "p": "Taiwan",
+      "d": "1926",
+      "m": "female",
+      "g": "aborigine"
+     },
+     {
+      "r": 13,
+      "c": 3,
+      "p": "Taiwan",
+      "d": "1926",
+      "m": "total",
+      "g": "foreign"
+     },
+     {
+      "r": 13,
+      "c": 1,
+      "p": "Taiwan",
+      "d": "1926",
+      "m": "male",
+      "g": "foreign"
+     },
+     {
+      "r": 13,
+      "c": 2,
+      "p": "Taiwan",
+      "d": "1926",
+      "m": "female",
+      "g": "foreign"
+     },
+     {
+      "r": 14,
+      "c": 3,
+      "p": "Taiwan",
+      "d": "1926",
+      "m": "total",
+      "g": "all"
+     },
+     {
+      "r": 14,
+      "c": 1,
+      "p": "Taiwan",
+      "d": "1926",
+      "m": "male",
+      "g": "all"
+     },
+     {
+      "r": 14,
+      "c": 2,
+      "p": "Taiwan",
+      "d": "1926",
+      "m": "female",
+      "g": "all"
+     }
+    ]
+   }
+  ],
+  "fp": "112af4ec17"
+ },
+ {
+  "t": "japan-1929:p0788_5",
+  "skip": "rates only",
+  "fp": "615bdf204d"
+ },
+ {
+  "t": "japan-1929:p0789_1",
+  "x": [
+   {
+    "pt": "city",
+    "in": "Taiwan",
+    "d": "1926-12-31",
+    "cols": [
+     {
+      "c": 1
+     }
+    ]
+   },
+   {
+    "lc": 2,
+    "pt": "city",
+    "in": "Taiwan",
+    "d": "1926-12-31",
+    "cols": [
+     {
+      "c": 3
+     }
+    ]
+   }
+  ],
+  "fp": "786e5050cc"
+ },
+ {
+  "t": "japan-1929:p0803_1",
+  "x": [
+   {
+    "rows": "cells",
+    "cells": [
+     {
+      "r": 0,
+      "c": 3,
+      "p": "Kwantung Leased Territory",
+      "d": "1926",
+      "m": "total",
+      "g": "japanese"
+     },
+     {
+      "r": 0,
+      "c": 1,
+      "p": "Kwantung Leased Territory",
+      "d": "1926",
+      "m": "male",
+      "g": "japanese"
+     },
+     {
+      "r": 0,
+      "c": 2,
+      "p": "Kwantung Leased Territory",
+      "d": "1926",
+      "m": "female",
+      "g": "japanese"
+     },
+     {
+      "r": 1,
+      "c": 3,
+      "p": "Kwantung Leased Territory",
+      "d": "1926",
+      "m": "total",
+      "g": "chinese"
+     },
+     {
+      "r": 1,
+      "c": 1,
+      "p": "Kwantung Leased Territory",
+      "d": "1926",
+      "m": "male",
+      "g": "chinese"
+     },
+     {
+      "r": 1,
+      "c": 2,
+      "p": "Kwantung Leased Territory",
+      "d": "1926",
+      "m": "female",
+      "g": "chinese"
+     },
+     {
+      "r": 2,
+      "c": 3,
+      "p": "Kwantung Leased Territory",
+      "d": "1926",
+      "m": "total",
+      "g": "foreign"
+     },
+     {
+      "r": 2,
+      "c": 1,
+      "p": "Kwantung Leased Territory",
+      "d": "1926",
+      "m": "male",
+      "g": "foreign"
+     },
+     {
+      "r": 2,
+      "c": 2,
+      "p": "Kwantung Leased Territory",
+      "d": "1926",
+      "m": "female",
+      "g": "foreign"
+     },
+     {
+      "r": 3,
+      "c": 3,
+      "p": "Kwantung Leased Territory",
+      "d": "1926",
+      "m": "total",
+      "g": "all"
+     },
+     {
+      "r": 3,
+      "c": 1,
+      "p": "Kwantung Leased Territory",
+      "d": "1926",
+      "m": "male",
+      "g": "all"
+     },
+     {
+      "r": 3,
+      "c": 2,
+      "p": "Kwantung Leased Territory",
+      "d": "1926",
+      "m": "female",
+      "g": "all"
+     }
+    ]
+   }
+  ],
+  "fp": "8b83f78f8d"
+ },
+ {
+  "t": "japan-1929:p0804_1",
+  "x": [
+   {
+    "rows": "cells",
+    "cells": [
+     {
+      "r": 0,
+      "c": 1,
+      "p": "South Manchuria Railway Zone",
+      "d": "1927-08-31",
+      "m": "total",
+      "g": "japanese"
+     },
+     {
+      "r": 1,
+      "c": 1,
+      "p": "South Manchuria Railway Zone",
+      "d": "1927-08-31",
+      "m": "total",
+      "g": "chinese"
+     },
+     {
+      "r": 2,
+      "c": 1,
+      "p": "South Manchuria Railway Zone",
+      "d": "1927-08-31",
+      "m": "total",
+      "g": "foreign"
+     },
+     {
+      "r": 3,
+      "c": 1,
+      "p": "South Manchuria Railway Zone",
+      "d": "1927-08-31",
+      "m": "total",
+      "g": "all"
+     }
+    ]
+   }
+  ],
+  "fp": "d68c02f677"
+ },
+ {
+  "t": "japan-1929:p0804_2",
+  "x": [
+   {
+    "pt": "city",
+    "in": "Kwantung Leased Territory",
+    "d": "1927-08-31",
+    "cols": [
+     {
+      "c": 4
+     },
+     {
+      "c": 1,
+      "g": "japanese"
+     },
+     {
+      "c": 2,
+      "g": "chinese"
+     },
+     {
+      "c": 3,
+      "g": "foreign"
+     }
+    ]
+   }
+  ],
+  "fp": "32cd2e1cfd"
+ },
+ {
+  "t": "japan-directory-1884:p0023_4",
+  "x": [
+   {
+    "rows": "dates",
+    "p": "Japan proper",
+    "cols": [
+     {
+      "c": 3
+     },
+     {
+      "c": 1,
+      "m": "male"
+     },
+     {
+      "c": 2,
+      "m": "female"
+     }
+    ]
+   }
+  ],
+  "fp": "d0e710aed4"
+ },
+ {
+  "t": "japan-manchoukuo-1936:p1-0042_1",
+  "x": [
+   {
+    "pt": "other",
+    "in": "Japanese Empire",
+    "b": "census",
+    "rp": {
+     "0": "Japanese Empire",
+     "3": "Taiwan"
+    },
+    "cols": [
+     {
+      "c": 2,
+      "d": "1935-10-01"
+     },
+     {
+      "c": 3,
+      "m": "male",
+      "d": "1935-10-01"
+     },
+     {
+      "c": 4,
+      "m": "female",
+      "d": "1935-10-01"
+     },
+     {
+      "c": 1,
+      "m": "households",
+      "d": "1935-10-01"
+     },
+     {
+      "c": 5,
+      "d": "1930-10-01"
+     },
+     {
+      "c": 6,
+      "d": "1925-10-01"
+     }
+    ]
+   }
+  ],
+  "fp": "8662df7b58"
+ },
+ {
+  "t": "japan-manchoukuo-1936:p1-0043_1",
+  "x": [
+   {
+    "d": "~1935",
+    "rp": {
+     "0": "-",
+     "1": "Kwantung Leased Territory",
+     "2": "South Manchuria Railway Zone",
+     "3": "South Seas Mandate"
+    },
+    "cols": [
+     {
+      "c": 1
+     },
+     {
+      "c": 2,
+      "m": "male"
+     },
+     {
+      "c": 3,
+      "m": "female"
+     }
+    ]
+   }
+  ],
+  "fp": "e5fa9c2764"
+ },
+ {
+  "t": "japan-manchoukuo-1936:p1-0046_2",
+  "x": [
+   {
+    "pt": "other",
+    "in": "Japanese Empire",
+    "d": "1930-10-01",
+    "b": "census",
+    "mult": 1000000,
+    "rp": {
+     "0": "-",
+     "1": "-",
+     "2": "Japan proper",
+     "5": "Korea",
+     "7": "South Seas Mandate"
+    },
+    "only": [
+     2,
+     3,
+     4,
+     5,
+     6,
+     7
+    ],
+    "cols": [
+     {
+      "c": 1
+     }
+    ]
+   }
+  ],
+  "fp": "46b94c4571"
+ },
+ {
+  "t": "japan-manchoukuo-1936:p1-0048_2",
+  "skip": "plains",
+  "fp": "3c8bbc1903"
+ },
+ {
+  "t": "japan-manchoukuo-1936:p1-0083_1",
+  "x": [
+   {
+    "pt": "country",
+    "in": "World",
+    "d": "~1931",
+    "n": "year varies by row",
+    "rp": {
+     "0": "Japanese Empire",
+     "1": "Japan proper",
+     "2": "-",
+     "5": "England"
+    },
+    "cols": [
+     {
+      "c": 3
+     },
+     {
+      "c": 4,
+      "m": "male"
+     },
+     {
+      "c": 5,
+      "m": "female"
+     }
+    ]
+   }
+  ],
+  "fp": "5ecfd744b8"
+ },
+ {
+  "t": "japan-manchoukuo-1936:p1-0084_1",
+  "x": [
+   {
+    "d": "1930-10-01",
+    "b": "census",
+    "rp": {
+     "0": "Japan proper",
+     "4": "Korea",
+     "7": "Japanese Empire",
+     "8": "-",
+     "9": "-",
+     "10": "Kwantung Leased Territory",
+     "11": "South Seas Mandate"
+    },
+    "cols": [
+     {
+      "c": 2
+     }
+    ]
+   }
+  ],
+  "fp": "b9c0b01823"
+ },
+ {
+  "t": "japan-manchoukuo-1936:p1-0084_2",
+  "x": [
+   {
+    "rows": "dates",
+    "p": "Japan proper",
+    "b": "census",
+    "cols": [
+     {
+      "c": 1,
+      "m": "male"
+     },
+     {
+      "c": 2,
+      "m": "female"
+     }
+    ]
+   }
+  ],
+  "fp": "36c9da10a5"
+ },
+ {
+  "t": "japan-manchoukuo-1936:p1-0084_3",
+  "skip": "urban/suburban split",
+  "fp": "5c0f7be029"
+ },
+ {
+  "t": "japan-manchoukuo-1936:p1-0085_1",
+  "skip": "city populations only",
+  "fp": "956b159083"
+ },
+ {
+  "t": "japan-manchoukuo-1936:p1-0085_2",
+  "skip": "rates only",
+  "fp": "ad68676684"
+ },
+ {
+  "t": "japan-manchoukuo-1936:p1-0085_3",
+  "skip": "projections",
+  "fp": "9651fe2536"
+ },
+ {
+  "t": "japan-manchoukuo-1936:p1-0085_6",
+  "skip": "births and deaths",
+  "fp": "ab27ed3024"
+ },
+ {
+  "t": "japan-manchoukuo-1936:p1-0086_1",
+  "x": [
+   {
+    "rows": "cells",
+    "cells": [
+     {
+      "r": 22,
+      "c": 3,
+      "p": "Japan proper",
+      "d": "1925-10-01",
+      "m": "total",
+      "g": "all"
+     },
+     {
+      "r": 22,
+      "c": 1,
+      "p": "Japan proper",
+      "d": "1925-10-01",
+      "m": "male",
+      "g": "all"
+     },
+     {
+      "r": 22,
+      "c": 2,
+      "p": "Japan proper",
+      "d": "1925-10-01",
+      "m": "female",
+      "g": "all"
+     }
+    ]
+   }
+  ],
+  "fp": "ab92242bb3"
+ },
+ {
+  "t": "japan-manchoukuo-1936:p1-0086_2",
+  "skip": "marital status",
+  "fp": "400cfa8696"
+ },
+ {
+  "t": "japan-manchoukuo-1936:p1-0087_4",
+  "x": [
+   {
+    "pt": "prefecture",
+    "in": "Japan",
+    "d": "1930-10-01",
+    "b": "census",
+    "cols": [
+     {
+      "c": 2
+     }
+    ]
+   }
+  ],
+  "fp": "908bc3a7e0"
+ },
+ {
+  "t": "japan-manchoukuo-1936:p1-0088_1",
+  "x": [
+   {
+    "pt": "city",
+    "in": "Japan",
+    "d": "1930-10-01",
+    "b": "census",
+    "cols": [
+     {
+      "c": 1
+     },
+     {
+      "c": 2,
+      "m": "households"
+     }
+    ]
+   }
+  ],
+  "fp": "183d7b0c5b"
+ },
+ {
+  "t": "japan-manchoukuo-1936:p1-0089_1",
+  "x": [
+   {
+    "rows": "cells",
+    "cells": [
+     {
+      "r": 8,
+      "c": 5,
+      "p": "Japan proper",
+      "d": "1930-10-01",
+      "m": "total",
+      "g": "all"
+     },
+     {
+      "r": 8,
+      "c": 2,
+      "p": "Japan proper",
+      "d": "1925-10-01",
+      "m": "total",
+      "g": "all"
+     }
+    ]
+   }
+  ],
+  "fp": "d9c2ba6358"
+ },
+ {
+  "t": "japan-manchoukuo-1936:p1-0089_2",
+  "x": [
+   {
+    "rows": "cells",
+    "cells": [
+     {
+      "r": 9,
+      "c": 5,
+      "p": "Japan proper",
+      "d": "1920-10-01",
+      "m": "total",
+      "g": "all"
+     }
+    ]
+   }
+  ],
+  "fp": "c00d07e29d"
+ },
+ {
+  "t": "japan-manchoukuo-1936:p1-0089_3",
+  "x": [
+   {
+    "rows": "cells",
+    "cells": [
+     {
+      "r": 10,
+      "c": 3,
+      "p": "Japan proper",
+      "d": "1930-10-01",
+      "m": "total",
+      "g": "all"
+     },
+     {
+      "r": 10,
+      "c": 1,
+      "p": "Japan proper",
+      "d": "1930-10-01",
+      "m": "male",
+      "g": "all"
+     },
+     {
+      "r": 10,
+      "c": 2,
+      "p": "Japan proper",
+      "d": "1930-10-01",
+      "m": "female",
+      "g": "all"
+     }
+    ]
+   }
+  ],
+  "fp": "5f363bbac8"
+ },
+ {
+  "t": "japan-manchoukuo-1936:p1-0089_4",
+  "x": [
+   {
+    "rows": "dates",
+    "p": "Japan proper",
+    "g": "foreign",
+    "cols": [
+     {
+      "c": 3
+     },
+     {
+      "c": 1,
+      "m": "male"
+     },
+     {
+      "c": 2,
+      "m": "female"
+     }
+    ]
+   }
+  ],
+  "fp": "97cbaf4e71"
+ },
+ {
+  "t": "japan-manchoukuo-1936:p1-0089_5",
+  "x": [
+   {
+    "rows": "cells",
+    "cells": [
+     {
+      "r": 0,
+      "c": 1,
+      "p": "Japan proper",
+      "d": "1931",
+      "m": "total",
+      "g": "austria"
+     },
+     {
+      "r": 0,
+      "c": 2,
+      "p": "Japan proper",
+      "d": "1932",
+      "m": "total",
+      "g": "austria"
+     },
+     {
+      "r": 0,
+      "c": 3,
+      "p": "Japan proper",
+      "d": "1933",
+      "m": "total",
+      "g": "austria"
+     },
+     {
+      "r": 1,
+      "c": 1,
+      "p": "Japan proper",
+      "d": "1931",
+      "m": "total",
+      "g": "britishindia"
+     },
+     {
+      "r": 1,
+      "c": 2,
+      "p": "Japan proper",
+      "d": "1932",
+      "m": "total",
+      "g": "britishindia"
+     },
+     {
+      "r": 1,
+      "c": 3,
+      "p": "Japan proper",
+      "d": "1933",
+      "m": "total",
+      "g": "britishindia"
+     },
+     {
+      "r": 2,
+      "c": 1,
+      "p": "Japan proper",
+      "d": "1931",
+      "m": "total",
+      "g": "china"
+     },
+     {
+      "r": 2,
+      "c": 2,
+      "p": "Japan proper",
+      "d": "1932",
+      "m": "total",
+      "g": "china"
+     },
+     {
+      "r": 2,
+      "c": 3,
+      "p": "Japan proper",
+      "d": "1933",
+      "m": "total",
+      "g": "china"
+     },
+     {
+      "r": 3,
+      "c": 1,
+      "p": "Japan proper",
+      "d": "1931",
+      "m": "total",
+      "g": "canada"
+     },
+     {
+      "r": 3,
+      "c": 2,
+      "p": "Japan proper",
+      "d": "1932",
+      "m": "total",
+      "g": "canada"
+     },
+     {
+      "r": 3,
+      "c": 3,
+      "p": "Japan proper",
+      "d": "1933",
+      "m": "total",
+      "g": "canada"
+     },
+     {
+      "r": 4,
+      "c": 1,
+      "p": "Japan proper",
+      "d": "1931",
+      "m": "total",
+      "g": "denmark"
+     },
+     {
+      "r": 4,
+      "c": 2,
+      "p": "Japan proper",
+      "d": "1932",
+      "m": "total",
+      "g": "denmark"
+     },
+     {
+      "r": 4,
+      "c": 3,
+      "p": "Japan proper",
+      "d": "1933",
+      "m": "total",
+      "g": "denmark"
+     },
+     {
+      "r": 5,
+      "c": 1,
+      "p": "Japan proper",
+      "d": "1931",
+      "m": "total",
+      "g": "france"
+     },
+     {
+      "r": 5,
+      "c": 2,
+      "p": "Japan proper",
+      "d": "1932",
+      "m": "total",
+      "g": "france"
+     },
+     {
+      "r": 5,
+      "c": 3,
+      "p": "Japan proper",
+      "d": "1933",
+      "m": "total",
+      "g": "france"
+     },
+     {
+      "r": 6,
+      "c": 1,
+      "p": "Japan proper",
+      "d": "1931",
+      "m": "total",
+      "g": "germany"
+     },
+     {
+      "r": 6,
+      "c": 2,
+      "p": "Japan proper",
+      "d": "1932",
+      "m": "total",
+      "g": "germany"
+     },
+     {
+      "r": 6,
+      "c": 3,
+      "p": "Japan proper",
+      "d": "1933",
+      "m": "total",
+      "g": "germany"
+     },
+     {
+      "r": 7,
+      "c": 1,
+      "p": "Japan proper",
+      "d": "1931",
+      "m": "total",
+      "g": "greatbritain"
+     },
+     {
+      "r": 7,
+      "c": 2,
+      "p": "Japan proper",
+      "d": "1932",
+      "m": "total",
+      "g": "greatbritain"
+     },
+     {
+      "r": 7,
+      "c": 3,
+      "p": "Japan proper",
+      "d": "1933",
+      "m": "total",
+      "g": "greatbritain"
+     },
+     {
+      "r": 8,
+      "c": 1,
+      "p": "Japan proper",
+      "d": "1931",
+      "m": "total",
+      "g": "italy"
+     },
+     {
+      "r": 8,
+      "c": 2,
+      "p": "Japan proper",
+      "d": "1932",
+      "m": "total",
+      "g": "italy"
+     },
+     {
+      "r": 8,
+      "c": 3,
+      "p": "Japan proper",
+      "d": "1933",
+      "m": "total",
+      "g": "italy"
+     },
+     {
+      "r": 9,
+      "c": 1,
+      "p": "Japan proper",
+      "d": "1931",
+      "m": "total",
+      "g": "netherlands"
+     },
+     {
+      "r": 9,
+      "c": 2,
+      "p": "Japan proper",
+      "d": "1932",
+      "m": "total",
+      "g": "netherlands"
+     },
+     {
+      "r": 9,
+      "c": 3,
+      "p": "Japan proper",
+      "d": "1933",
+      "m": "total",
+      "g": "netherlands"
+     },
+     {
+      "r": 10,
+      "c": 1,
+      "p": "Japan proper",
+      "d": "1931",
+      "m": "total",
+      "g": "portugal"
+     },
+     {
+      "r": 10,
+      "c": 2,
+      "p": "Japan proper",
+      "d": "1932",
+      "m": "total",
+      "g": "portugal"
+     },
+     {
+      "r": 10,
+      "c": 3,
+      "p": "Japan proper",
+      "d": "1933",
+      "m": "total",
+      "g": "portugal"
+     },
+     {
+      "r": 11,
+      "c": 1,
+      "p": "Japan proper",
+      "d": "1931",
+      "m": "total",
+      "g": "sovietrussia"
+     },
+     {
+      "r": 11,
+      "c": 2,
+      "p": "Japan proper",
+      "d": "1932",
+      "m": "total",
+      "g": "sovietrussia"
+     },
+     {
+      "r": 11,
+      "c": 3,
+      "p": "Japan proper",
+      "d": "1933",
+      "m": "total",
+      "g": "sovietrussia"
+     },
+     {
+      "r": 12,
+      "c": 1,
+      "p": "Japan proper",
+      "d": "1931",
+      "m": "total",
+      "g": "sweden"
+     },
+     {
+      "r": 12,
+      "c": 2,
+      "p": "Japan proper",
+      "d": "1932",
+      "m": "total",
+      "g": "sweden"
+     },
+     {
+      "r": 12,
+      "c": 3,
+      "p": "Japan proper",
+      "d": "1933",
+      "m": "total",
+      "g": "sweden"
+     },
+     {
+      "r": 13,
+      "c": 1,
+      "p": "Japan proper",
+      "d": "1931",
+      "m": "total",
+      "g": "switzerland"
+     },
+     {
+      "r": 13,
+      "c": 2,
+      "p": "Japan proper",
+      "d": "1932",
+      "m": "total",
+      "g": "switzerland"
+     },
+     {
+      "r": 13,
+      "c": 3,
+      "p": "Japan proper",
+      "d": "1933",
+      "m": "total",
+      "g": "switzerland"
+     },
+     {
+      "r": 14,
+      "c": 1,
+      "p": "Japan proper",
+      "d": "1931",
+      "m": "total",
+      "g": "unitedstates"
+     },
+     {
+      "r": 14,
+      "c": 2,
+      "p": "Japan proper",
+      "d": "1932",
+      "m": "total",
+      "g": "unitedstates"
+     },
+     {
+      "r": 14,
+      "c": 3,
+      "p": "Japan proper",
+      "d": "1933",
+      "m": "total",
+      "g": "unitedstates"
+     },
+     {
+      "r": 15,
+      "c": 1,
+      "p": "Japan proper",
+      "d": "1931",
+      "m": "total",
+      "g": "foreign"
+     },
+     {
+      "r": 15,
+      "c": 2,
+      "p": "Japan proper",
+      "d": "1932",
+      "m": "total",
+      "g": "foreign"
+     },
+     {
+      "r": 15,
+      "c": 3,
+      "p": "Japan proper",
+      "d": "1933",
+      "m": "total",
+      "g": "foreign"
+     }
+    ]
+   }
+  ],
+  "fp": "58de1e6e20"
+ },
+ {
+  "t": "japan-manchoukuo-1936:p1-0093_2",
+  "x": [
+   {
+    "g": "japanese",
+    "in": "World",
+    "d": "1933",
+    "rp": {
+     "2": "Canada",
+     "12": "Colombia",
+     "19": "-",
+     "25": "-",
+     "31": "-",
+     "32": "Kwantung Leased Territory",
+     "33": "South Seas Mandate",
+     "34": "-"
+    },
+    "cols": [
+     {
+      "c": 1
+     }
+    ]
+   }
+  ],
+  "fp": "7052eaadcb"
+ },
+ {
+  "t": "japan-manchoukuo-1936:p1-0215_2",
+  "skip": "offenders",
+  "fp": "dd12952f31"
+ },
+ {
+  "t": "japan-manchoukuo-1936:p1-0232_1",
+  "skip": "relief",
+  "fp": "036edb5ebc"
+ },
+ {
+  "t": "japan-manchoukuo-1936:p1-0314_1",
+  "skip": "visitors",
+  "fp": "6f10355901"
+ },
+ {
+  "t": "japan-manchoukuo-1936:p1-0347_3",
+  "skip": "finance",
+  "fp": "880ea6fc9c"
+ },
+ {
+  "t": "japan-manchoukuo-1936:p1-0409_1",
+  "x": [
+   {
+    "n": "printed as census of Oct. 1, 1934; equals the 1920 census figure",
+    "rp": {
+     "0": "Japan proper"
+    },
+    "d": "1934-10-01",
+    "cols": [
+     {
+      "c": 1
+     }
+    ],
+    "only": [
+     0
+    ]
+   }
+  ],
+  "fp": "e0c54baae1"
+ },
+ {
+  "t": "japan-manchoukuo-1936:p1-0411_2",
+  "x": [
+   {
+    "part": 1,
+    "rows": "dates",
+    "p": "Japan proper",
+    "cols": [
+     {
+      "c": 1
+     },
+     {
+      "c": 2,
+      "m": "households"
+     }
+    ]
+   }
+  ],
+  "fp": "a5f7d49a5f"
+ },
+ {
+  "t": "japan-manchoukuo-1936:p1-0441_2",
+  "skip": "fishing population",
+  "fp": "29d3807fc8"
+ },
+ {
+  "t": "japan-manchoukuo-1936:p1-0561_2",
+  "skip": "ship entrances",
+  "fp": "69a6122b3f"
+ },
+ {
+  "t": "japan-manchoukuo-1936:p1-0569_3",
+  "x": [
+   {
+    "pt": "province",
+    "in": "Korea",
+    "d": "1933-12-31",
+    "rp": {
+     "13": "Korea"
+    },
+    "cols": [
+     {
+      "c": 9
+     },
+     {
+      "c": 6,
+      "g": "japanese"
+     },
+     {
+      "c": 7,
+      "g": "korean"
+     },
+     {
+      "c": 8,
+      "g": "foreign"
+     },
+     {
+      "c": 5,
+      "m": "households"
+     },
+     {
+      "c": 2,
+      "m": "households",
+      "g": "japanese"
+     },
+     {
+      "c": 3,
+      "m": "households",
+      "g": "korean"
+     },
+     {
+      "c": 4,
+      "m": "households",
+      "g": "foreign"
+     }
+    ]
+   }
+  ],
+  "fp": "44354cdb2b"
+ },
+ {
+  "t": "japan-manchoukuo-1936:p1-0570_1",
+  "x": [
+   {
+    "rows": "cells",
+    "cells": [
+     {
+      "r": 0,
+      "c": 7,
+      "p": "Korea",
+      "d": "1933-12-31",
+      "m": "households",
+      "g": "japanese"
+     },
+     {
+      "r": 0,
+      "c": 8,
+      "p": "Korea",
+      "d": "1932-12-31",
+      "m": "households",
+      "g": "japanese"
+     },
+     {
+      "r": 1,
+      "c": 7,
+      "p": "Korea",
+      "d": "1933-12-31",
+      "m": "households",
+      "g": "korean"
+     },
+     {
+      "r": 1,
+      "c": 8,
+      "p": "Korea",
+      "d": "1932-12-31",
+      "m": "households",
+      "g": "korean"
+     },
+     {
+      "r": 2,
+      "c": 7,
+      "p": "Korea",
+      "d": "1933-12-31",
+      "m": "households",
+      "g": "foreign"
+     },
+     {
+      "r": 2,
+      "c": 8,
+      "p": "Korea",
+      "d": "1932-12-31",
+      "m": "households",
+      "g": "foreign"
+     }
+    ]
+   }
+  ],
+  "fp": "4faab39777"
+ },
+ {
+  "t": "japan-manchoukuo-1936:p1-0570_2",
+  "x": [
+   {
+    "rows": "cells",
+    "cells": [
+     {
+      "r": 0,
+      "c": 7,
+      "p": "Korea",
+      "d": "1933-12-31",
+      "m": "total",
+      "g": "japanese"
+     },
+     {
+      "r": 0,
+      "c": 8,
+      "p": "Korea",
+      "d": "1932-12-31",
+      "m": "total",
+      "g": "japanese"
+     },
+     {
+      "r": 1,
+      "c": 7,
+      "p": "Korea",
+      "d": "1933-12-31",
+      "m": "total",
+      "g": "korean"
+     },
+     {
+      "r": 1,
+      "c": 8,
+      "p": "Korea",
+      "d": "1932-12-31",
+      "m": "total",
+      "g": "korean"
+     },
+     {
+      "r": 2,
+      "c": 7,
+      "p": "Korea",
+      "d": "1933-12-31",
+      "m": "total",
+      "g": "foreign"
+     },
+     {
+      "r": 2,
+      "c": 8,
+      "p": "Korea",
+      "d": "1932-12-31",
+      "m": "total",
+      "g": "foreign"
+     }
+    ]
+   }
+  ],
+  "fp": "4faab39777"
+ },
+ {
+  "t": "japan-manchoukuo-1936:p1-0570_3",
+  "skip": "vital events",
+  "fp": "b24549895e"
+ },
+ {
+  "t": "japan-manchoukuo-1936:p1-0570_4",
+  "x": [
+   {
+    "rows": "cells",
+    "cells": [
+     {
+      "r": 0,
+      "c": 1,
+      "p": "Korea",
+      "d": "1926",
+      "m": "households",
+      "g": "korean"
+     },
+     {
+      "r": 1,
+      "c": 1,
+      "p": "Korea",
+      "d": "1926",
+      "m": "male",
+      "g": "korean"
+     },
+     {
+      "r": 2,
+      "c": 1,
+      "p": "Korea",
+      "d": "1926",
+      "m": "female",
+      "g": "korean"
+     },
+     {
+      "r": 3,
+      "c": 1,
+      "p": "Korea",
+      "d": "1926",
+      "m": "total",
+      "g": "korean"
+     },
+     {
+      "r": 0,
+      "c": 2,
+      "p": "Korea",
+      "d": "1927",
+      "m": "households",
+      "g": "korean"
+     },
+     {
+      "r": 1,
+      "c": 2,
+      "p": "Korea",
+      "d": "1927",
+      "m": "male",
+      "g": "korean"
+     },
+     {
+      "r": 2,
+      "c": 2,
+      "p": "Korea",
+      "d": "1927",
+      "m": "female",
+      "g": "korean"
+     },
+     {
+      "r": 3,
+      "c": 2,
+      "p": "Korea",
+      "d": "1927",
+      "m": "total",
+      "g": "korean"
+     },
+     {
+      "r": 0,
+      "c": 3,
+      "p": "Korea",
+      "d": "1928",
+      "m": "households",
+      "g": "korean"
+     },
+     {
+      "r": 1,
+      "c": 3,
+      "p": "Korea",
+      "d": "1928",
+      "m": "male",
+      "g": "korean"
+     },
+     {
+      "r": 2,
+      "c": 3,
+      "p": "Korea",
+      "d": "1928",
+      "m": "female",
+      "g": "korean"
+     },
+     {
+      "r": 3,
+      "c": 3,
+      "p": "Korea",
+      "d": "1928",
+      "m": "total",
+      "g": "korean"
+     },
+     {
+      "r": 0,
+      "c": 4,
+      "p": "Korea",
+      "d": "1929",
+      "m": "households",
+      "g": "korean"
+     },
+     {
+      "r": 1,
+      "c": 4,
+      "p": "Korea",
+      "d": "1929",
+      "m": "male",
+      "g": "korean"
+     },
+     {
+      "r": 2,
+      "c": 4,
+      "p": "Korea",
+      "d": "1929",
+      "m": "female",
+      "g": "korean"
+     },
+     {
+      "r": 3,
+      "c": 4,
+      "p": "Korea",
+      "d": "1929",
+      "m": "total",
+      "g": "korean"
+     },
+     {
+      "r": 0,
+      "c": 5,
+      "p": "Korea",
+      "d": "1930",
+      "m": "households",
+      "g": "korean"
+     },
+     {
+      "r": 1,
+      "c": 5,
+      "p": "Korea",
+      "d": "1930",
+      "m": "male",
+      "g": "korean"
+     },
+     {
+      "r": 2,
+      "c": 5,
+      "p": "Korea",
+      "d": "1930",
+      "m": "female",
+      "g": "korean"
+     },
+     {
+      "r": 3,
+      "c": 5,
+      "p": "Korea",
+      "d": "1930",
+      "m": "total",
+      "g": "korean"
+     },
+     {
+      "r": 0,
+      "c": 6,
+      "p": "Korea",
+      "d": "1931",
+      "m": "households",
+      "g": "korean"
+     },
+     {
+      "r": 1,
+      "c": 6,
+      "p": "Korea",
+      "d": "1931",
+      "m": "male",
+      "g": "korean"
+     },
+     {
+      "r": 2,
+      "c": 6,
+      "p": "Korea",
+      "d": "1931",
+      "m": "female",
+      "g": "korean"
+     },
+     {
+      "r": 3,
+      "c": 6,
+      "p": "Korea",
+      "d": "1931",
+      "m": "total",
+      "g": "korean"
+     },
+     {
+      "r": 0,
+      "c": 7,
+      "p": "Korea",
+      "d": "1932",
+      "m": "households",
+      "g": "korean"
+     },
+     {
+      "r": 1,
+      "c": 7,
+      "p": "Korea",
+      "d": "1932",
+      "m": "male",
+      "g": "korean"
+     },
+     {
+      "r": 2,
+      "c": 7,
+      "p": "Korea",
+      "d": "1932",
+      "m": "female",
+      "g": "korean"
+     },
+     {
+      "r": 3,
+      "c": 7,
+      "p": "Korea",
+      "d": "1932",
+      "m": "total",
+      "g": "korean"
+     }
+    ]
+   }
+  ],
+  "fp": "04b1fbb0f1"
+ },
+ {
+  "t": "japan-manchoukuo-1936:p1-0570_5",
+  "x": [
+   {
+    "pt": "city",
+    "in": "Korea",
+    "d": "1932-12-31",
+    "cols": [
+     {
+      "c": 1
+     }
+    ]
+   }
+  ],
+  "fp": "2baadd1946"
+ },
+ {
+  "t": "japan-manchoukuo-1936:p1-0581_3",
+  "skip": "farming households",
+  "fp": "e6266e46bb"
+ },
+ {
+  "t": "japan-manchoukuo-1936:p1-0590_1",
+  "x": [
+   {
+    "rows": "cells",
+    "cells": [
+     {
+      "r": 0,
+      "c": 1,
+      "p": "Taiwan",
+      "d": "1933-12-31",
+      "m": "total",
+      "g": "all"
+     },
+     {
+      "r": 0,
+      "c": 2,
+      "p": "Taiwan",
+      "d": "1933-12-31",
+      "m": "male",
+      "g": "all"
+     },
+     {
+      "r": 0,
+      "c": 3,
+      "p": "Taiwan",
+      "d": "1933-12-31",
+      "m": "female",
+      "g": "all"
+     },
+     {
+      "r": 1,
+      "c": 1,
+      "p": "Taiwan",
+      "d": "1933-12-31",
+      "m": "total",
+      "g": "japanese"
+     },
+     {
+      "r": 1,
+      "c": 2,
+      "p": "Taiwan",
+      "d": "1933-12-31",
+      "m": "male",
+      "g": "japanese"
+     },
+     {
+      "r": 1,
+      "c": 3,
+      "p": "Taiwan",
+      "d": "1933-12-31",
+      "m": "female",
+      "g": "japanese"
+     },
+     {
+      "r": 2,
+      "c": 1,
+      "p": "Taiwan",
+      "d": "1933-12-31",
+      "m": "total",
+      "g": "korean"
+     },
+     {
+      "r": 2,
+      "c": 2,
+      "p": "Taiwan",
+      "d": "1933-12-31",
+      "m": "male",
+      "g": "korean"
+     },
+     {
+      "r": 2,
+      "c": 3,
+      "p": "Taiwan",
+      "d": "1933-12-31",
+      "m": "female",
+      "g": "korean"
+     },
+     {
+      "r": 3,
+      "c": 1,
+      "p": "Taiwan",
+      "d": "1933-12-31",
+      "m": "total",
+      "g": "taiwanese"
+     },
+     {
+      "r": 3,
+      "c": 2,
+      "p": "Taiwan",
+      "d": "1933-12-31",
+      "m": "male",
+      "g": "taiwanese"
+     },
+     {
+      "r": 3,
+      "c": 3,
+      "p": "Taiwan",
+      "d": "1933-12-31",
+      "m": "female",
+      "g": "taiwanese"
+     },
+     {
+      "r": 4,
+      "c": 1,
+      "p": "Taiwan",
+      "d": "1933-12-31",
+      "m": "total",
+      "g": "aborigine"
+     },
+     {
+      "r": 4,
+      "c": 2,
+      "p": "Taiwan",
+      "d": "1933-12-31",
+      "m": "male",
+      "g": "aborigine"
+     },
+     {
+      "r": 4,
+      "c": 3,
+      "p": "Taiwan",
+      "d": "1933-12-31",
+      "m": "female",
+      "g": "aborigine"
+     },
+     {
+      "r": 5,
+      "c": 1,
+      "p": "Taiwan",
+      "d": "1933-12-31",
+      "m": "total",
+      "g": "chinese"
+     },
+     {
+      "r": 5,
+      "c": 2,
+      "p": "Taiwan",
+      "d": "1933-12-31",
+      "m": "male",
+      "g": "chinese"
+     },
+     {
+      "r": 5,
+      "c": 3,
+      "p": "Taiwan",
+      "d": "1933-12-31",
+      "m": "female",
+      "g": "chinese"
+     }
+    ]
+   }
+  ],
+  "fp": "536a46a079"
+ },
+ {
+  "t": "japan-manchoukuo-1936:p1-0590_2",
+  "x": [
+   {
+    "rows": "cells",
+    "cells": [
+     {
+      "r": 0,
+      "c": 1,
+      "p": "Taiwan",
+      "d": "1930-10-01",
+      "m": "male",
+      "g": "all"
+     },
+     {
+      "r": 0,
+      "c": 2,
+      "p": "Taiwan",
+      "d": "1925-10-01",
+      "m": "male",
+      "g": "all"
+     },
+     {
+      "r": 0,
+      "c": 3,
+      "p": "Taiwan",
+      "d": "1920-10-01",
+      "m": "male",
+      "g": "all"
+     },
+     {
+      "r": 0,
+      "c": 4,
+      "p": "Taiwan",
+      "d": "1915-10-01",
+      "m": "male",
+      "g": "all"
+     },
+     {
+      "r": 0,
+      "c": 5,
+      "p": "Taiwan",
+      "d": "1905-10-01",
+      "m": "male",
+      "g": "all"
+     },
+     {
+      "r": 1,
+      "c": 1,
+      "p": "Taiwan",
+      "d": "1930-10-01",
+      "m": "female",
+      "g": "all"
+     },
+     {
+      "r": 1,
+      "c": 2,
+      "p": "Taiwan",
+      "d": "1925-10-01",
+      "m": "female",
+      "g": "all"
+     },
+     {
+      "r": 1,
+      "c": 3,
+      "p": "Taiwan",
+      "d": "1920-10-01",
+      "m": "female",
+      "g": "all"
+     },
+     {
+      "r": 1,
+      "c": 4,
+      "p": "Taiwan",
+      "d": "1915-10-01",
+      "m": "female",
+      "g": "all"
+     },
+     {
+      "r": 1,
+      "c": 5,
+      "p": "Taiwan",
+      "d": "1905-10-01",
+      "m": "female",
+      "g": "all"
+     },
+     {
+      "r": 2,
+      "c": 1,
+      "p": "Taiwan",
+      "d": "1930-10-01",
+      "m": "total",
+      "g": "all"
+     },
+     {
+      "r": 2,
+      "c": 2,
+      "p": "Taiwan",
+      "d": "1925-10-01",
+      "m": "total",
+      "g": "all"
+     },
+     {
+      "r": 2,
+      "c": 3,
+      "p": "Taiwan",
+      "d": "1920-10-01",
+      "m": "total",
+      "g": "all"
+     },
+     {
+      "r": 2,
+      "c": 4,
+      "p": "Taiwan",
+      "d": "1915-10-01",
+      "m": "total",
+      "g": "all"
+     },
+     {
+      "r": 2,
+      "c": 5,
+      "p": "Taiwan",
+      "d": "1905-10-01",
+      "m": "total",
+      "g": "all"
+     }
+    ],
+    "b": "census"
+   }
+  ],
+  "fp": "5aeea5b46f"
+ },
+ {
+  "t": "japan-manchoukuo-1936:p1-0590_3",
+  "x": [
+   {
+    "rows": "cells",
+    "cells": [
+     {
+      "r": 0,
+      "c": 3,
+      "p": "Taiwan",
+      "d": "1905",
+      "m": "total",
+      "g": "japanese"
+     },
+     {
+      "r": 0,
+      "c": 1,
+      "p": "Taiwan",
+      "d": "1905",
+      "m": "male",
+      "g": "japanese"
+     },
+     {
+      "r": 0,
+      "c": 2,
+      "p": "Taiwan",
+      "d": "1905",
+      "m": "female",
+      "g": "japanese"
+     },
+     {
+      "r": 1,
+      "c": 3,
+      "p": "Taiwan",
+      "d": "1905",
+      "m": "total",
+      "g": "taiwanese"
+     },
+     {
+      "r": 1,
+      "c": 1,
+      "p": "Taiwan",
+      "d": "1905",
+      "m": "male",
+      "g": "taiwanese"
+     },
+     {
+      "r": 1,
+      "c": 2,
+      "p": "Taiwan",
+      "d": "1905",
+      "m": "female",
+      "g": "taiwanese"
+     },
+     {
+      "r": 2,
+      "c": 3,
+      "p": "Taiwan",
+      "d": "1905",
+      "m": "total",
+      "g": "foreign"
+     },
+     {
+      "r": 2,
+      "c": 1,
+      "p": "Taiwan",
+      "d": "1905",
+      "m": "male",
+      "g": "foreign"
+     },
+     {
+      "r": 2,
+      "c": 2,
+      "p": "Taiwan",
+      "d": "1905",
+      "m": "female",
+      "g": "foreign"
+     },
+     {
+      "r": 3,
+      "c": 3,
+      "p": "Taiwan",
+      "d": "1905",
+      "m": "total",
+      "g": "all"
+     },
+     {
+      "r": 3,
+      "c": 1,
+      "p": "Taiwan",
+      "d": "1905",
+      "m": "male",
+      "g": "all"
+     },
+     {
+      "r": 3,
+      "c": 2,
+      "p": "Taiwan",
+      "d": "1905",
+      "m": "female",
+      "g": "all"
+     },
+     {
+      "r": 4,
+      "c": 3,
+      "p": "Taiwan",
+      "d": "1910",
+      "m": "total",
+      "g": "japanese"
+     },
+     {
+      "r": 4,
+      "c": 1,
+      "p": "Taiwan",
+      "d": "1910",
+      "m": "male",
+      "g": "japanese"
+     },
+     {
+      "r": 4,
+      "c": 2,
+      "p": "Taiwan",
+      "d": "1910",
+      "m": "female",
+      "g": "japanese"
+     },
+     {
+      "r": 5,
+      "c": 3,
+      "p": "Taiwan",
+      "d": "1910",
+      "m": "total",
+      "g": "taiwanese"
+     },
+     {
+      "r": 5,
+      "c": 1,
+      "p": "Taiwan",
+      "d": "1910",
+      "m": "male",
+      "g": "taiwanese"
+     },
+     {
+      "r": 5,
+      "c": 2,
+      "p": "Taiwan",
+      "d": "1910",
+      "m": "female",
+      "g": "taiwanese"
+     },
+     {
+      "r": 6,
+      "c": 3,
+      "p": "Taiwan",
+      "d": "1910",
+      "m": "total",
+      "g": "foreign"
+     },
+     {
+      "r": 6,
+      "c": 1,
+      "p": "Taiwan",
+      "d": "1910",
+      "m": "male",
+      "g": "foreign"
+     },
+     {
+      "r": 6,
+      "c": 2,
+      "p": "Taiwan",
+      "d": "1910",
+      "m": "female",
+      "g": "foreign"
+     },
+     {
+      "r": 7,
+      "c": 3,
+      "p": "Taiwan",
+      "d": "1910",
+      "m": "total",
+      "g": "all"
+     },
+     {
+      "r": 7,
+      "c": 1,
+      "p": "Taiwan",
+      "d": "1910",
+      "m": "male",
+      "g": "all"
+     },
+     {
+      "r": 7,
+      "c": 2,
+      "p": "Taiwan",
+      "d": "1910",
+      "m": "female",
+      "g": "all"
+     },
+     {
+      "r": 8,
+      "c": 3,
+      "p": "Taiwan",
+      "d": "1912",
+      "m": "total",
+      "g": "japanese"
+     },
+     {
+      "r": 8,
+      "c": 1,
+      "p": "Taiwan",
+      "d": "1912",
+      "m": "male",
+      "g": "japanese"
+     },
+     {
+      "r": 8,
+      "c": 2,
+      "p": "Taiwan",
+      "d": "1912",
+      "m": "female",
+      "g": "japanese"
+     },
+     {
+      "r": 9,
+      "c": 3,
+      "p": "Taiwan",
+      "d": "1912",
+      "m": "total",
+      "g": "taiwanese"
+     },
+     {
+      "r": 9,
+      "c": 1,
+      "p": "Taiwan",
+      "d": "1912",
+      "m": "male",
+      "g": "taiwanese"
+     },
+     {
+      "r": 9,
+      "c": 2,
+      "p": "Taiwan",
+      "d": "1912",
+      "m": "female",
+      "g": "taiwanese"
+     },
+     {
+      "r": 10,
+      "c": 3,
+      "p": "Taiwan",
+      "d": "1912",
+      "m": "total",
+      "g": "foreign"
+     },
+     {
+      "r": 10,
+      "c": 1,
+      "p": "Taiwan",
+      "d": "1912",
+      "m": "male",
+      "g": "foreign"
+     },
+     {
+      "r": 10,
+      "c": 2,
+      "p": "Taiwan",
+      "d": "1912",
+      "m": "female",
+      "g": "foreign"
+     },
+     {
+      "r": 11,
+      "c": 3,
+      "p": "Taiwan",
+      "d": "1912",
+      "m": "total",
+      "g": "all"
+     },
+     {
+      "r": 11,
+      "c": 1,
+      "p": "Taiwan",
+      "d": "1912",
+      "m": "male",
+      "g": "all"
+     },
+     {
+      "r": 11,
+      "c": 2,
+      "p": "Taiwan",
+      "d": "1912",
+      "m": "female",
+      "g": "all"
+     },
+     {
+      "r": 12,
+      "c": 3,
+      "p": "Taiwan",
+      "d": "1930",
+      "m": "total",
+      "g": "japanese"
+     },
+     {
+      "r": 12,
+      "c": 1,
+      "p": "Taiwan",
+      "d": "1930",
+      "m": "male",
+      "g": "japanese"
+     },
+     {
+      "r": 12,
+      "c": 2,
+      "p": "Taiwan",
+      "d": "1930",
+      "m": "female",
+      "g": "japanese"
+     },
+     {
+      "r": 13,
+      "c": 3,
+      "p": "Taiwan",
+      "d": "1930",
+      "m": "total",
+      "g": "taiwanese"
+     },
+     {
+      "r": 13,
+      "c": 1,
+      "p": "Taiwan",
+      "d": "1930",
+      "m": "male",
+      "g": "taiwanese"
+     },
+     {
+      "r": 13,
+      "c": 2,
+      "p": "Taiwan",
+      "d": "1930",
+      "m": "female",
+      "g": "taiwanese"
+     },
+     {
+      "r": 14,
+      "c": 3,
+      "p": "Taiwan",
+      "d": "1930",
+      "m": "total",
+      "g": "foreign"
+     },
+     {
+      "r": 14,
+      "c": 1,
+      "p": "Taiwan",
+      "d": "1930",
+      "m": "male",
+      "g": "foreign"
+     },
+     {
+      "r": 14,
+      "c": 2,
+      "p": "Taiwan",
+      "d": "1930",
+      "m": "female",
+      "g": "foreign"
+     },
+     {
+      "r": 15,
+      "c": 3,
+      "p": "Taiwan",
+      "d": "1930",
+      "m": "total",
+      "g": "all"
+     },
+     {
+      "r": 15,
+      "c": 1,
+      "p": "Taiwan",
+      "d": "1930",
+      "m": "male",
+      "g": "all"
+     },
+     {
+      "r": 15,
+      "c": 2,
+      "p": "Taiwan",
+      "d": "1930",
+      "m": "female",
+      "g": "all"
+     },
+     {
+      "r": 16,
+      "c": 3,
+      "p": "Taiwan",
+      "d": "1931",
+      "m": "total",
+      "g": "japanese"
+     },
+     {
+      "r": 16,
+      "c": 1,
+      "p": "Taiwan",
+      "d": "1931",
+      "m": "male",
+      "g": "japanese"
+     },
+     {
+      "r": 16,
+      "c": 2,
+      "p": "Taiwan",
+      "d": "1931",
+      "m": "female",
+      "g": "japanese"
+     },
+     {
+      "r": 17,
+      "c": 3,
+      "p": "Taiwan",
+      "d": "1931",
+      "m": "total",
+      "g": "taiwanese"
+     },
+     {
+      "r": 17,
+      "c": 1,
+      "p": "Taiwan",
+      "d": "1931",
+      "m": "male",
+      "g": "taiwanese"
+     },
+     {
+      "r": 17,
+      "c": 2,
+      "p": "Taiwan",
+      "d": "1931",
+      "m": "female",
+      "g": "taiwanese"
+     },
+     {
+      "r": 18,
+      "c": 3,
+      "p": "Taiwan",
+      "d": "1931",
+      "m": "total",
+      "g": "foreign"
+     },
+     {
+      "r": 18,
+      "c": 1,
+      "p": "Taiwan",
+      "d": "1931",
+      "m": "male",
+      "g": "foreign"
+     },
+     {
+      "r": 18,
+      "c": 2,
+      "p": "Taiwan",
+      "d": "1931",
+      "m": "female",
+      "g": "foreign"
+     },
+     {
+      "r": 19,
+      "c": 3,
+      "p": "Taiwan",
+      "d": "1931",
+      "m": "total",
+      "g": "all"
+     },
+     {
+      "r": 19,
+      "c": 1,
+      "p": "Taiwan",
+      "d": "1931",
+      "m": "male",
+      "g": "all"
+     },
+     {
+      "r": 19,
+      "c": 2,
+      "p": "Taiwan",
+      "d": "1931",
+      "m": "female",
+      "g": "all"
+     },
+     {
+      "r": 20,
+      "c": 3,
+      "p": "Taiwan",
+      "d": "1932",
+      "m": "total",
+      "g": "japanese"
+     },
+     {
+      "r": 20,
+      "c": 1,
+      "p": "Taiwan",
+      "d": "1932",
+      "m": "male",
+      "g": "japanese"
+     },
+     {
+      "r": 20,
+      "c": 2,
+      "p": "Taiwan",
+      "d": "1932",
+      "m": "female",
+      "g": "japanese"
+     },
+     {
+      "r": 21,
+      "c": 3,
+      "p": "Taiwan",
+      "d": "1932",
+      "m": "total",
+      "g": "taiwanese"
+     },
+     {
+      "r": 21,
+      "c": 1,
+      "p": "Taiwan",
+      "d": "1932",
+      "m": "male",
+      "g": "taiwanese"
+     },
+     {
+      "r": 21,
+      "c": 2,
+      "p": "Taiwan",
+      "d": "1932",
+      "m": "female",
+      "g": "taiwanese"
+     },
+     {
+      "r": 22,
+      "c": 3,
+      "p": "Taiwan",
+      "d": "1932",
+      "m": "total",
+      "g": "foreign"
+     },
+     {
+      "r": 22,
+      "c": 1,
+      "p": "Taiwan",
+      "d": "1932",
+      "m": "male",
+      "g": "foreign"
+     },
+     {
+      "r": 22,
+      "c": 2,
+      "p": "Taiwan",
+      "d": "1932",
+      "m": "female",
+      "g": "foreign"
+     },
+     {
+      "r": 23,
+      "c": 3,
+      "p": "Taiwan",
+      "d": "1932",
+      "m": "total",
+      "g": "all"
+     },
+     {
+      "r": 23,
+      "c": 1,
+      "p": "Taiwan",
+      "d": "1932",
+      "m": "male",
+      "g": "all"
+     },
+     {
+      "r": 23,
+      "c": 2,
+      "p": "Taiwan",
+      "d": "1932",
+      "m": "female",
+      "g": "all"
+     },
+     {
+      "r": 24,
+      "c": 3,
+      "p": "Taiwan",
+      "d": "1933",
+      "m": "total",
+      "g": "japanese"
+     },
+     {
+      "r": 24,
+      "c": 1,
+      "p": "Taiwan",
+      "d": "1933",
+      "m": "male",
+      "g": "japanese"
+     },
+     {
+      "r": 24,
+      "c": 2,
+      "p": "Taiwan",
+      "d": "1933",
+      "m": "female",
+      "g": "japanese"
+     },
+     {
+      "r": 25,
+      "c": 3,
+      "p": "Taiwan",
+      "d": "1933",
+      "m": "total",
+      "g": "taiwanese"
+     },
+     {
+      "r": 25,
+      "c": 1,
+      "p": "Taiwan",
+      "d": "1933",
+      "m": "male",
+      "g": "taiwanese"
+     },
+     {
+      "r": 25,
+      "c": 2,
+      "p": "Taiwan",
+      "d": "1933",
+      "m": "female",
+      "g": "taiwanese"
+     },
+     {
+      "r": 26,
+      "c": 3,
+      "p": "Taiwan",
+      "d": "1933",
+      "m": "total",
+      "g": "foreign"
+     },
+     {
+      "r": 26,
+      "c": 1,
+      "p": "Taiwan",
+      "d": "1933",
+      "m": "male",
+      "g": "foreign"
+     },
+     {
+      "r": 26,
+      "c": 2,
+      "p": "Taiwan",
+      "d": "1933",
+      "m": "female",
+      "g": "foreign"
+     },
+     {
+      "r": 27,
+      "c": 3,
+      "p": "Taiwan",
+      "d": "1933",
+      "m": "total",
+      "g": "all"
+     },
+     {
+      "r": 27,
+      "c": 1,
+      "p": "Taiwan",
+      "d": "1933",
+      "m": "male",
+      "g": "all"
+     },
+     {
+      "r": 27,
+      "c": 2,
+      "p": "Taiwan",
+      "d": "1933",
+      "m": "female",
+      "g": "all"
+     }
+    ]
+   }
+  ],
+  "fp": "bf85c1025b"
+ },
+ {
+  "t": "japan-manchoukuo-1936:p1-0591_1",
+  "skip": "vital events",
+  "fp": "ee07f88042"
+ },
+ {
+  "t": "japan-manchoukuo-1936:p1-0591_2",
+  "x": [
+   {
+    "pt": "city",
+    "in": "Taiwan",
+    "d": "1933",
+    "cols": [
+     {
+      "c": 1
+     }
+    ]
+   }
+  ],
+  "fp": "8f89f81eb9"
+ },
+ {
+  "t": "japan-manchoukuo-1936:p1-0606_3",
+  "x": [
+   {
+    "rows": "dates",
+    "p": "Karafuto",
+    "cols": [
+     {
+      "c": 1,
+      "m": "male"
+     },
+     {
+      "c": 2,
+      "m": "female"
+     },
+     {
+      "c": 3,
+      "m": "male",
+      "g": "japanese"
+     },
+     {
+      "c": 4,
+      "m": "female",
+      "g": "japanese"
+     },
+     {
+      "c": 5,
+      "m": "male",
+      "g": "ainu",
+      "n": "natives"
+     },
+     {
+      "c": 6,
+      "m": "female",
+      "g": "ainu",
+      "n": "natives"
+     },
+     {
+      "c": 7,
+      "m": "male",
+      "g": "foreign"
+     },
+     {
+      "c": 8,
+      "m": "female",
+      "g": "foreign"
+     }
+    ]
+   }
+  ],
+  "fp": "c3c35943ba"
+ },
+ {
+  "t": "japan-manchoukuo-1936:p1-0606_4",
+  "x": [
+   {
+    "pt": "town",
+    "in": "Karafuto",
+    "d": "~1936",
+    "cols": [
+     {
+      "c": 2
+     },
+     {
+      "c": 1,
+      "m": "households"
+     }
+    ]
+   }
+  ],
+  "fp": "0e9e9fcad1"
+ },
+ {
+  "t": "japan-manchoukuo-1936:p1-0606_5",
+  "x": [
+   {
+    "rows": "cells",
+    "cells": [
+     {
+      "r": 6,
+      "c": 1,
+      "p": "Karafuto",
+      "d": "1933-12-31",
+      "m": "total",
+      "g": "all"
+     }
+    ]
+   }
+  ],
+  "fp": "ddb240d0e9"
+ },
+ {
+  "t": "japan-manchoukuo-1936:p1-0607_1",
+  "skip": "vital events",
+  "fp": "a38f3a6c50"
+ },
+ {
+  "t": "japan-manchoukuo-1936:p1-0607_2",
+  "x": [
+   {
+    "rows": "dates",
+    "p": "Karafuto",
+    "b": "census",
+    "cols": [
+     {
+      "c": 3
+     },
+     {
+      "c": 1,
+      "m": "male"
+     },
+     {
+      "c": 2,
+      "m": "female"
+     }
+    ]
+   }
+  ],
+  "fp": "a4ec56d40c"
+ },
+ {
+  "t": "japan-manchoukuo-1936:p1-0619_1",
+  "x": [
+   {
+    "rows": "cells",
+    "cells": [
+     {
+      "r": 0,
+      "c": 2,
+      "p": "Saipan",
+      "d": "1925-10-01",
+      "m": "male",
+      "g": "japanese"
+     },
+     {
+      "r": 0,
+      "c": 3,
+      "p": "Saipan",
+      "d": "1925-10-01",
+      "m": "female",
+      "g": "japanese"
+     },
+     {
+      "r": 0,
+      "c": 4,
+      "p": "Saipan",
+      "d": "1925-10-01",
+      "m": "male",
+      "g": "islander"
+     },
+     {
+      "r": 0,
+      "c": 5,
+      "p": "Saipan",
+      "d": "1925-10-01",
+      "m": "female",
+      "g": "islander"
+     },
+     {
+      "r": 0,
+      "c": 6,
+      "p": "Saipan",
+      "d": "1925-10-01",
+      "m": "male",
+      "g": "foreign"
+     },
+     {
+      "r": 0,
+      "c": 7,
+      "p": "Saipan",
+      "d": "1925-10-01",
+      "m": "female",
+      "g": "foreign"
+     },
+     {
+      "r": 0,
+      "c": 8,
+      "p": "Saipan",
+      "d": "1925-10-01",
+      "m": "male",
+      "g": "all"
+     },
+     {
+      "r": 0,
+      "c": 9,
+      "p": "Saipan",
+      "d": "1925-10-01",
+      "m": "female",
+      "g": "all"
+     },
+     {
+      "r": 1,
+      "c": 2,
+      "p": "Saipan",
+      "d": "1930-10-01",
+      "m": "male",
+      "g": "japanese"
+     },
+     {
+      "r": 1,
+      "c": 3,
+      "p": "Saipan",
+      "d": "1930-10-01",
+      "m": "female",
+      "g": "japanese"
+     },
+     {
+      "r": 1,
+      "c": 4,
+      "p": "Saipan",
+      "d": "1930-10-01",
+      "m": "male",
+      "g": "islander"
+     },
+     {
+      "r": 1,
+      "c": 5,
+      "p": "Saipan",
+      "d": "1930-10-01",
+      "m": "female",
+      "g": "islander"
+     },
+     {
+      "r": 1,
+      "c": 6,
+      "p": "Saipan",
+      "d": "1930-10-01",
+      "m": "male",
+      "g": "foreign"
+     },
+     {
+      "r": 1,
+      "c": 7,
+      "p": "Saipan",
+      "d": "1930-10-01",
+      "m": "female",
+      "g": "foreign"
+     },
+     {
+      "r": 1,
+      "c": 8,
+      "p": "Saipan",
+      "d": "1930-10-01",
+      "m": "male",
+      "g": "all"
+     },
+     {
+      "r": 1,
+      "c": 9,
+      "p": "Saipan",
+      "d": "1930-10-01",
+      "m": "female",
+      "g": "all"
+     },
+     {
+      "r": 2,
+      "c": 2,
+      "p": "Saipan",
+      "d": "1932-04-01",
+      "m": "male",
+      "g": "japanese"
+     },
+     {
+      "r": 2,
+      "c": 3,
+      "p": "Saipan",
+      "d": "1932-04-01",
+      "m": "female",
+      "g": "japanese"
+     },
+     {
+      "r": 2,
+      "c": 4,
+      "p": "Saipan",
+      "d": "1932-04-01",
+      "m": "male",
+      "g": "islander"
+     },
+     {
+      "r": 2,
+      "c": 5,
+      "p": "Saipan",
+      "d": "1932-04-01",
+      "m": "female",
+      "g": "islander"
+     },
+     {
+      "r": 2,
+      "c": 6,
+      "p": "Saipan",
+      "d": "1932-04-01",
+      "m": "male",
+      "g": "foreign"
+     },
+     {
+      "r": 2,
+      "c": 7,
+      "p": "Saipan",
+      "d": "1932-04-01",
+      "m": "female",
+      "g": "foreign"
+     },
+     {
+      "r": 2,
+      "c": 8,
+      "p": "Saipan",
+      "d": "1932-04-01",
+      "m": "male",
+      "g": "all"
+     },
+     {
+      "r": 2,
+      "c": 9,
+      "p": "Saipan",
+      "d": "1932-04-01",
+      "m": "female",
+      "g": "all"
+     },
+     {
+      "r": 3,
+      "c": 2,
+      "p": "Saipan",
+      "d": "1933-04-01",
+      "m": "male",
+      "g": "japanese"
+     },
+     {
+      "r": 3,
+      "c": 3,
+      "p": "Saipan",
+      "d": "1933-04-01",
+      "m": "female",
+      "g": "japanese"
+     },
+     {
+      "r": 3,
+      "c": 4,
+      "p": "Saipan",
+      "d": "1933-04-01",
+      "m": "male",
+      "g": "islander"
+     },
+     {
+      "r": 3,
+      "c": 5,
+      "p": "Saipan",
+      "d": "1933-04-01",
+      "m": "female",
+      "g": "islander"
+     },
+     {
+      "r": 3,
+      "c": 6,
+      "p": "Saipan",
+      "d": "1933-04-01",
+      "m": "male",
+      "g": "foreign"
+     },
+     {
+      "r": 3,
+      "c": 7,
+      "p": "Saipan",
+      "d": "1933-04-01",
+      "m": "female",
+      "g": "foreign"
+     },
+     {
+      "r": 3,
+      "c": 8,
+      "p": "Saipan",
+      "d": "1933-04-01",
+      "m": "male",
+      "g": "all"
+     },
+     {
+      "r": 3,
+      "c": 9,
+      "p": "Saipan",
+      "d": "1933-04-01",
+      "m": "female",
+      "g": "all"
+     },
+     {
+      "r": 4,
+      "c": 2,
+      "p": "Saipan",
+      "d": "1934-04-01",
+      "m": "male",
+      "g": "japanese"
+     },
+     {
+      "r": 4,
+      "c": 3,
+      "p": "Saipan",
+      "d": "1934-04-01",
+      "m": "female",
+      "g": "japanese"
+     },
+     {
+      "r": 4,
+      "c": 4,
+      "p": "Saipan",
+      "d": "1934-04-01",
+      "m": "male",
+      "g": "islander"
+     },
+     {
+      "r": 4,
+      "c": 5,
+      "p": "Saipan",
+      "d": "1934-04-01",
+      "m": "female",
+      "g": "islander"
+     },
+     {
+      "r": 4,
+      "c": 6,
+      "p": "Saipan",
+      "d": "1934-04-01",
+      "m": "male",
+      "g": "foreign"
+     },
+     {
+      "r": 4,
+      "c": 7,
+      "p": "Saipan",
+      "d": "1934-04-01",
+      "m": "female",
+      "g": "foreign"
+     },
+     {
+      "r": 4,
+      "c": 8,
+      "p": "Saipan",
+      "d": "1934-04-01",
+      "m": "male",
+      "g": "all"
+     },
+     {
+      "r": 4,
+      "c": 9,
+      "p": "Saipan",
+      "d": "1934-04-01",
+      "m": "female",
+      "g": "all"
+     },
+     {
+      "r": 5,
+      "c": 2,
+      "p": "Yap",
+      "d": "1925-10-01",
+      "m": "male",
+      "g": "japanese"
+     },
+     {
+      "r": 5,
+      "c": 3,
+      "p": "Yap",
+      "d": "1925-10-01",
+      "m": "female",
+      "g": "japanese"
+     },
+     {
+      "r": 5,
+      "c": 4,
+      "p": "Yap",
+      "d": "1925-10-01",
+      "m": "male",
+      "g": "islander"
+     },
+     {
+      "r": 5,
+      "c": 5,
+      "p": "Yap",
+      "d": "1925-10-01",
+      "m": "female",
+      "g": "islander"
+     },
+     {
+      "r": 5,
+      "c": 6,
+      "p": "Yap",
+      "d": "1925-10-01",
+      "m": "male",
+      "g": "foreign"
+     },
+     {
+      "r": 5,
+      "c": 7,
+      "p": "Yap",
+      "d": "1925-10-01",
+      "m": "female",
+      "g": "foreign"
+     },
+     {
+      "r": 5,
+      "c": 8,
+      "p": "Yap",
+      "d": "1925-10-01",
+      "m": "male",
+      "g": "all"
+     },
+     {
+      "r": 5,
+      "c": 9,
+      "p": "Yap",
+      "d": "1925-10-01",
+      "m": "female",
+      "g": "all"
+     },
+     {
+      "r": 6,
+      "c": 2,
+      "p": "Yap",
+      "d": "1930-10-01",
+      "m": "male",
+      "g": "japanese"
+     },
+     {
+      "r": 6,
+      "c": 3,
+      "p": "Yap",
+      "d": "1930-10-01",
+      "m": "female",
+      "g": "japanese"
+     },
+     {
+      "r": 6,
+      "c": 4,
+      "p": "Yap",
+      "d": "1930-10-01",
+      "m": "male",
+      "g": "islander"
+     },
+     {
+      "r": 6,
+      "c": 5,
+      "p": "Yap",
+      "d": "1930-10-01",
+      "m": "female",
+      "g": "islander"
+     },
+     {
+      "r": 6,
+      "c": 6,
+      "p": "Yap",
+      "d": "1930-10-01",
+      "m": "male",
+      "g": "foreign"
+     },
+     {
+      "r": 6,
+      "c": 7,
+      "p": "Yap",
+      "d": "1930-10-01",
+      "m": "female",
+      "g": "foreign"
+     },
+     {
+      "r": 6,
+      "c": 8,
+      "p": "Yap",
+      "d": "1930-10-01",
+      "m": "male",
+      "g": "all"
+     },
+     {
+      "r": 6,
+      "c": 9,
+      "p": "Yap",
+      "d": "1930-10-01",
+      "m": "female",
+      "g": "all"
+     },
+     {
+      "r": 7,
+      "c": 2,
+      "p": "Yap",
+      "d": "1932-04-01",
+      "m": "male",
+      "g": "japanese"
+     },
+     {
+      "r": 7,
+      "c": 3,
+      "p": "Yap",
+      "d": "1932-04-01",
+      "m": "female",
+      "g": "japanese"
+     },
+     {
+      "r": 7,
+      "c": 4,
+      "p": "Yap",
+      "d": "1932-04-01",
+      "m": "male",
+      "g": "islander"
+     },
+     {
+      "r": 7,
+      "c": 5,
+      "p": "Yap",
+      "d": "1932-04-01",
+      "m": "female",
+      "g": "islander"
+     },
+     {
+      "r": 7,
+      "c": 6,
+      "p": "Yap",
+      "d": "1932-04-01",
+      "m": "male",
+      "g": "foreign"
+     },
+     {
+      "r": 7,
+      "c": 7,
+      "p": "Yap",
+      "d": "1932-04-01",
+      "m": "female",
+      "g": "foreign"
+     },
+     {
+      "r": 7,
+      "c": 8,
+      "p": "Yap",
+      "d": "1932-04-01",
+      "m": "male",
+      "g": "all"
+     },
+     {
+      "r": 7,
+      "c": 9,
+      "p": "Yap",
+      "d": "1932-04-01",
+      "m": "female",
+      "g": "all"
+     },
+     {
+      "r": 8,
+      "c": 2,
+      "p": "Yap",
+      "d": "1933-04-01",
+      "m": "male",
+      "g": "japanese"
+     },
+     {
+      "r": 8,
+      "c": 3,
+      "p": "Yap",
+      "d": "1933-04-01",
+      "m": "female",
+      "g": "japanese"
+     },
+     {
+      "r": 8,
+      "c": 4,
+      "p": "Yap",
+      "d": "1933-04-01",
+      "m": "male",
+      "g": "islander"
+     },
+     {
+      "r": 8,
+      "c": 5,
+      "p": "Yap",
+      "d": "1933-04-01",
+      "m": "female",
+      "g": "islander"
+     },
+     {
+      "r": 8,
+      "c": 6,
+      "p": "Yap",
+      "d": "1933-04-01",
+      "m": "male",
+      "g": "foreign"
+     },
+     {
+      "r": 8,
+      "c": 7,
+      "p": "Yap",
+      "d": "1933-04-01",
+      "m": "female",
+      "g": "foreign"
+     },
+     {
+      "r": 8,
+      "c": 8,
+      "p": "Yap",
+      "d": "1933-04-01",
+      "m": "male",
+      "g": "all"
+     },
+     {
+      "r": 8,
+      "c": 9,
+      "p": "Yap",
+      "d": "1933-04-01",
+      "m": "female",
+      "g": "all"
+     },
+     {
+      "r": 9,
+      "c": 2,
+      "p": "Yap",
+      "d": "1934-04-01",
+      "m": "male",
+      "g": "japanese"
+     },
+     {
+      "r": 9,
+      "c": 3,
+      "p": "Yap",
+      "d": "1934-04-01",
+      "m": "female",
+      "g": "japanese"
+     },
+     {
+      "r": 9,
+      "c": 4,
+      "p": "Yap",
+      "d": "1934-04-01",
+      "m": "male",
+      "g": "islander"
+     },
+     {
+      "r": 9,
+      "c": 5,
+      "p": "Yap",
+      "d": "1934-04-01",
+      "m": "female",
+      "g": "islander"
+     },
+     {
+      "r": 9,
+      "c": 6,
+      "p": "Yap",
+      "d": "1934-04-01",
+      "m": "male",
+      "g": "foreign"
+     },
+     {
+      "r": 9,
+      "c": 7,
+      "p": "Yap",
+      "d": "1934-04-01",
+      "m": "female",
+      "g": "foreign"
+     },
+     {
+      "r": 9,
+      "c": 8,
+      "p": "Yap",
+      "d": "1934-04-01",
+      "m": "male",
+      "g": "all"
+     },
+     {
+      "r": 9,
+      "c": 9,
+      "p": "Yap",
+      "d": "1934-04-01",
+      "m": "female",
+      "g": "all"
+     },
+     {
+      "r": 10,
+      "c": 2,
+      "p": "Palau",
+      "d": "1925-10-01",
+      "m": "male",
+      "g": "japanese"
+     },
+     {
+      "r": 10,
+      "c": 3,
+      "p": "Palau",
+      "d": "1925-10-01",
+      "m": "female",
+      "g": "japanese"
+     },
+     {
+      "r": 10,
+      "c": 4,
+      "p": "Palau",
+      "d": "1925-10-01",
+      "m": "male",
+      "g": "islander"
+     },
+     {
+      "r": 10,
+      "c": 5,
+      "p": "Palau",
+      "d": "1925-10-01",
+      "m": "female",
+      "g": "islander"
+     },
+     {
+      "r": 10,
+      "c": 6,
+      "p": "Palau",
+      "d": "1925-10-01",
+      "m": "male",
+      "g": "foreign"
+     },
+     {
+      "r": 10,
+      "c": 7,
+      "p": "Palau",
+      "d": "1925-10-01",
+      "m": "female",
+      "g": "foreign"
+     },
+     {
+      "r": 10,
+      "c": 8,
+      "p": "Palau",
+      "d": "1925-10-01",
+      "m": "male",
+      "g": "all"
+     },
+     {
+      "r": 10,
+      "c": 9,
+      "p": "Palau",
+      "d": "1925-10-01",
+      "m": "female",
+      "g": "all"
+     },
+     {
+      "r": 11,
+      "c": 2,
+      "p": "Palau",
+      "d": "1930-10-01",
+      "m": "male",
+      "g": "japanese"
+     },
+     {
+      "r": 11,
+      "c": 3,
+      "p": "Palau",
+      "d": "1930-10-01",
+      "m": "female",
+      "g": "japanese"
+     },
+     {
+      "r": 11,
+      "c": 4,
+      "p": "Palau",
+      "d": "1930-10-01",
+      "m": "male",
+      "g": "islander"
+     },
+     {
+      "r": 11,
+      "c": 5,
+      "p": "Palau",
+      "d": "1930-10-01",
+      "m": "female",
+      "g": "islander"
+     },
+     {
+      "r": 11,
+      "c": 6,
+      "p": "Palau",
+      "d": "1930-10-01",
+      "m": "male",
+      "g": "foreign"
+     },
+     {
+      "r": 11,
+      "c": 7,
+      "p": "Palau",
+      "d": "1930-10-01",
+      "m": "female",
+      "g": "foreign"
+     },
+     {
+      "r": 11,
+      "c": 8,
+      "p": "Palau",
+      "d": "1930-10-01",
+      "m": "male",
+      "g": "all"
+     },
+     {
+      "r": 11,
+      "c": 9,
+      "p": "Palau",
+      "d": "1930-10-01",
+      "m": "female",
+      "g": "all"
+     },
+     {
+      "r": 12,
+      "c": 2,
+      "p": "Palau",
+      "d": "1932-04-01",
+      "m": "male",
+      "g": "japanese"
+     },
+     {
+      "r": 12,
+      "c": 3,
+      "p": "Palau",
+      "d": "1932-04-01",
+      "m": "female",
+      "g": "japanese"
+     },
+     {
+      "r": 12,
+      "c": 4,
+      "p": "Palau",
+      "d": "1932-04-01",
+      "m": "male",
+      "g": "islander"
+     },
+     {
+      "r": 12,
+      "c": 5,
+      "p": "Palau",
+      "d": "1932-04-01",
+      "m": "female",
+      "g": "islander"
+     },
+     {
+      "r": 12,
+      "c": 6,
+      "p": "Palau",
+      "d": "1932-04-01",
+      "m": "male",
+      "g": "foreign"
+     },
+     {
+      "r": 12,
+      "c": 7,
+      "p": "Palau",
+      "d": "1932-04-01",
+      "m": "female",
+      "g": "foreign"
+     },
+     {
+      "r": 12,
+      "c": 8,
+      "p": "Palau",
+      "d": "1932-04-01",
+      "m": "male",
+      "g": "all"
+     },
+     {
+      "r": 12,
+      "c": 9,
+      "p": "Palau",
+      "d": "1932-04-01",
+      "m": "female",
+      "g": "all"
+     },
+     {
+      "r": 13,
+      "c": 2,
+      "p": "Palau",
+      "d": "1933-04-01",
+      "m": "male",
+      "g": "japanese"
+     },
+     {
+      "r": 13,
+      "c": 3,
+      "p": "Palau",
+      "d": "1933-04-01",
+      "m": "female",
+      "g": "japanese"
+     },
+     {
+      "r": 13,
+      "c": 4,
+      "p": "Palau",
+      "d": "1933-04-01",
+      "m": "male",
+      "g": "islander"
+     },
+     {
+      "r": 13,
+      "c": 5,
+      "p": "Palau",
+      "d": "1933-04-01",
+      "m": "female",
+      "g": "islander"
+     },
+     {
+      "r": 13,
+      "c": 6,
+      "p": "Palau",
+      "d": "1933-04-01",
+      "m": "male",
+      "g": "foreign"
+     },
+     {
+      "r": 13,
+      "c": 7,
+      "p": "Palau",
+      "d": "1933-04-01",
+      "m": "female",
+      "g": "foreign"
+     },
+     {
+      "r": 13,
+      "c": 8,
+      "p": "Palau",
+      "d": "1933-04-01",
+      "m": "male",
+      "g": "all"
+     },
+     {
+      "r": 13,
+      "c": 9,
+      "p": "Palau",
+      "d": "1933-04-01",
+      "m": "female",
+      "g": "all"
+     },
+     {
+      "r": 14,
+      "c": 2,
+      "p": "Palau",
+      "d": "1934-04-01",
+      "m": "male",
+      "g": "japanese"
+     },
+     {
+      "r": 14,
+      "c": 3,
+      "p": "Palau",
+      "d": "1934-04-01",
+      "m": "female",
+      "g": "japanese"
+     },
+     {
+      "r": 14,
+      "c": 4,
+      "p": "Palau",
+      "d": "1934-04-01",
+      "m": "male",
+      "g": "islander"
+     },
+     {
+      "r": 14,
+      "c": 5,
+      "p": "Palau",
+      "d": "1934-04-01",
+      "m": "female",
+      "g": "islander"
+     },
+     {
+      "r": 14,
+      "c": 6,
+      "p": "Palau",
+      "d": "1934-04-01",
+      "m": "male",
+      "g": "foreign"
+     },
+     {
+      "r": 14,
+      "c": 7,
+      "p": "Palau",
+      "d": "1934-04-01",
+      "m": "female",
+      "g": "foreign"
+     },
+     {
+      "r": 14,
+      "c": 8,
+      "p": "Palau",
+      "d": "1934-04-01",
+      "m": "male",
+      "g": "all"
+     },
+     {
+      "r": 14,
+      "c": 9,
+      "p": "Palau",
+      "d": "1934-04-01",
+      "m": "female",
+      "g": "all"
+     },
+     {
+      "r": 15,
+      "c": 2,
+      "p": "Truk",
+      "d": "1925-10-01",
+      "m": "male",
+      "g": "japanese"
+     },
+     {
+      "r": 15,
+      "c": 3,
+      "p": "Truk",
+      "d": "1925-10-01",
+      "m": "female",
+      "g": "japanese"
+     },
+     {
+      "r": 15,
+      "c": 4,
+      "p": "Truk",
+      "d": "1925-10-01",
+      "m": "male",
+      "g": "islander"
+     },
+     {
+      "r": 15,
+      "c": 5,
+      "p": "Truk",
+      "d": "1925-10-01",
+      "m": "female",
+      "g": "islander"
+     },
+     {
+      "r": 15,
+      "c": 6,
+      "p": "Truk",
+      "d": "1925-10-01",
+      "m": "male",
+      "g": "foreign"
+     },
+     {
+      "r": 15,
+      "c": 7,
+      "p": "Truk",
+      "d": "1925-10-01",
+      "m": "female",
+      "g": "foreign"
+     },
+     {
+      "r": 15,
+      "c": 8,
+      "p": "Truk",
+      "d": "1925-10-01",
+      "m": "male",
+      "g": "all"
+     },
+     {
+      "r": 15,
+      "c": 9,
+      "p": "Truk",
+      "d": "1925-10-01",
+      "m": "female",
+      "g": "all"
+     },
+     {
+      "r": 16,
+      "c": 2,
+      "p": "Truk",
+      "d": "1930-10-01",
+      "m": "male",
+      "g": "japanese"
+     },
+     {
+      "r": 16,
+      "c": 3,
+      "p": "Truk",
+      "d": "1930-10-01",
+      "m": "female",
+      "g": "japanese"
+     },
+     {
+      "r": 16,
+      "c": 4,
+      "p": "Truk",
+      "d": "1930-10-01",
+      "m": "male",
+      "g": "islander"
+     },
+     {
+      "r": 16,
+      "c": 5,
+      "p": "Truk",
+      "d": "1930-10-01",
+      "m": "female",
+      "g": "islander"
+     },
+     {
+      "r": 16,
+      "c": 6,
+      "p": "Truk",
+      "d": "1930-10-01",
+      "m": "male",
+      "g": "foreign"
+     },
+     {
+      "r": 16,
+      "c": 7,
+      "p": "Truk",
+      "d": "1930-10-01",
+      "m": "female",
+      "g": "foreign"
+     },
+     {
+      "r": 16,
+      "c": 8,
+      "p": "Truk",
+      "d": "1930-10-01",
+      "m": "male",
+      "g": "all"
+     },
+     {
+      "r": 16,
+      "c": 9,
+      "p": "Truk",
+      "d": "1930-10-01",
+      "m": "female",
+      "g": "all"
+     },
+     {
+      "r": 17,
+      "c": 2,
+      "p": "Truk",
+      "d": "1932-04-01",
+      "m": "male",
+      "g": "japanese"
+     },
+     {
+      "r": 17,
+      "c": 3,
+      "p": "Truk",
+      "d": "1932-04-01",
+      "m": "female",
+      "g": "japanese"
+     },
+     {
+      "r": 17,
+      "c": 4,
+      "p": "Truk",
+      "d": "1932-04-01",
+      "m": "male",
+      "g": "islander"
+     },
+     {
+      "r": 17,
+      "c": 5,
+      "p": "Truk",
+      "d": "1932-04-01",
+      "m": "female",
+      "g": "islander"
+     },
+     {
+      "r": 17,
+      "c": 6,
+      "p": "Truk",
+      "d": "1932-04-01",
+      "m": "male",
+      "g": "foreign"
+     },
+     {
+      "r": 17,
+      "c": 7,
+      "p": "Truk",
+      "d": "1932-04-01",
+      "m": "female",
+      "g": "foreign"
+     },
+     {
+      "r": 17,
+      "c": 8,
+      "p": "Truk",
+      "d": "1932-04-01",
+      "m": "male",
+      "g": "all"
+     },
+     {
+      "r": 17,
+      "c": 9,
+      "p": "Truk",
+      "d": "1932-04-01",
+      "m": "female",
+      "g": "all"
+     },
+     {
+      "r": 18,
+      "c": 2,
+      "p": "Truk",
+      "d": "1933-04-01",
+      "m": "male",
+      "g": "japanese"
+     },
+     {
+      "r": 18,
+      "c": 3,
+      "p": "Truk",
+      "d": "1933-04-01",
+      "m": "female",
+      "g": "japanese"
+     },
+     {
+      "r": 18,
+      "c": 4,
+      "p": "Truk",
+      "d": "1933-04-01",
+      "m": "male",
+      "g": "islander"
+     },
+     {
+      "r": 18,
+      "c": 5,
+      "p": "Truk",
+      "d": "1933-04-01",
+      "m": "female",
+      "g": "islander"
+     },
+     {
+      "r": 18,
+      "c": 6,
+      "p": "Truk",
+      "d": "1933-04-01",
+      "m": "male",
+      "g": "foreign"
+     },
+     {
+      "r": 18,
+      "c": 7,
+      "p": "Truk",
+      "d": "1933-04-01",
+      "m": "female",
+      "g": "foreign"
+     },
+     {
+      "r": 18,
+      "c": 8,
+      "p": "Truk",
+      "d": "1933-04-01",
+      "m": "male",
+      "g": "all"
+     },
+     {
+      "r": 18,
+      "c": 9,
+      "p": "Truk",
+      "d": "1933-04-01",
+      "m": "female",
+      "g": "all"
+     },
+     {
+      "r": 19,
+      "c": 2,
+      "p": "Truk",
+      "d": "1934-04-01",
+      "m": "male",
+      "g": "japanese"
+     },
+     {
+      "r": 19,
+      "c": 3,
+      "p": "Truk",
+      "d": "1934-04-01",
+      "m": "female",
+      "g": "japanese"
+     },
+     {
+      "r": 19,
+      "c": 4,
+      "p": "Truk",
+      "d": "1934-04-01",
+      "m": "male",
+      "g": "islander"
+     },
+     {
+      "r": 19,
+      "c": 5,
+      "p": "Truk",
+      "d": "1934-04-01",
+      "m": "female",
+      "g": "islander"
+     },
+     {
+      "r": 19,
+      "c": 6,
+      "p": "Truk",
+      "d": "1934-04-01",
+      "m": "male",
+      "g": "foreign"
+     },
+     {
+      "r": 19,
+      "c": 7,
+      "p": "Truk",
+      "d": "1934-04-01",
+      "m": "female",
+      "g": "foreign"
+     },
+     {
+      "r": 19,
+      "c": 8,
+      "p": "Truk",
+      "d": "1934-04-01",
+      "m": "male",
+      "g": "all"
+     },
+     {
+      "r": 19,
+      "c": 9,
+      "p": "Truk",
+      "d": "1934-04-01",
+      "m": "female",
+      "g": "all"
+     },
+     {
+      "r": 20,
+      "c": 2,
+      "p": "Ponape",
+      "d": "1925-10-01",
+      "m": "male",
+      "g": "japanese"
+     },
+     {
+      "r": 20,
+      "c": 3,
+      "p": "Ponape",
+      "d": "1925-10-01",
+      "m": "female",
+      "g": "japanese"
+     },
+     {
+      "r": 20,
+      "c": 4,
+      "p": "Ponape",
+      "d": "1925-10-01",
+      "m": "male",
+      "g": "islander"
+     },
+     {
+      "r": 20,
+      "c": 5,
+      "p": "Ponape",
+      "d": "1925-10-01",
+      "m": "female",
+      "g": "islander"
+     },
+     {
+      "r": 20,
+      "c": 6,
+      "p": "Ponape",
+      "d": "1925-10-01",
+      "m": "male",
+      "g": "foreign"
+     },
+     {
+      "r": 20,
+      "c": 7,
+      "p": "Ponape",
+      "d": "1925-10-01",
+      "m": "female",
+      "g": "foreign"
+     },
+     {
+      "r": 20,
+      "c": 8,
+      "p": "Ponape",
+      "d": "1925-10-01",
+      "m": "male",
+      "g": "all"
+     },
+     {
+      "r": 20,
+      "c": 9,
+      "p": "Ponape",
+      "d": "1925-10-01",
+      "m": "female",
+      "g": "all"
+     },
+     {
+      "r": 21,
+      "c": 2,
+      "p": "Ponape",
+      "d": "1930-10-01",
+      "m": "male",
+      "g": "japanese"
+     },
+     {
+      "r": 21,
+      "c": 3,
+      "p": "Ponape",
+      "d": "1930-10-01",
+      "m": "female",
+      "g": "japanese"
+     },
+     {
+      "r": 21,
+      "c": 4,
+      "p": "Ponape",
+      "d": "1930-10-01",
+      "m": "male",
+      "g": "islander"
+     },
+     {
+      "r": 21,
+      "c": 5,
+      "p": "Ponape",
+      "d": "1930-10-01",
+      "m": "female",
+      "g": "islander"
+     },
+     {
+      "r": 21,
+      "c": 6,
+      "p": "Ponape",
+      "d": "1930-10-01",
+      "m": "male",
+      "g": "foreign"
+     },
+     {
+      "r": 21,
+      "c": 7,
+      "p": "Ponape",
+      "d": "1930-10-01",
+      "m": "female",
+      "g": "foreign"
+     },
+     {
+      "r": 21,
+      "c": 8,
+      "p": "Ponape",
+      "d": "1930-10-01",
+      "m": "male",
+      "g": "all"
+     },
+     {
+      "r": 21,
+      "c": 9,
+      "p": "Ponape",
+      "d": "1930-10-01",
+      "m": "female",
+      "g": "all"
+     },
+     {
+      "r": 22,
+      "c": 2,
+      "p": "Ponape",
+      "d": "1932-04-01",
+      "m": "male",
+      "g": "japanese"
+     },
+     {
+      "r": 22,
+      "c": 3,
+      "p": "Ponape",
+      "d": "1932-04-01",
+      "m": "female",
+      "g": "japanese"
+     },
+     {
+      "r": 22,
+      "c": 4,
+      "p": "Ponape",
+      "d": "1932-04-01",
+      "m": "male",
+      "g": "islander"
+     },
+     {
+      "r": 22,
+      "c": 5,
+      "p": "Ponape",
+      "d": "1932-04-01",
+      "m": "female",
+      "g": "islander"
+     },
+     {
+      "r": 22,
+      "c": 6,
+      "p": "Ponape",
+      "d": "1932-04-01",
+      "m": "male",
+      "g": "foreign"
+     },
+     {
+      "r": 22,
+      "c": 7,
+      "p": "Ponape",
+      "d": "1932-04-01",
+      "m": "female",
+      "g": "foreign"
+     },
+     {
+      "r": 22,
+      "c": 8,
+      "p": "Ponape",
+      "d": "1932-04-01",
+      "m": "male",
+      "g": "all"
+     },
+     {
+      "r": 22,
+      "c": 9,
+      "p": "Ponape",
+      "d": "1932-04-01",
+      "m": "female",
+      "g": "all"
+     },
+     {
+      "r": 23,
+      "c": 2,
+      "p": "Ponape",
+      "d": "1933-04-01",
+      "m": "male",
+      "g": "japanese"
+     },
+     {
+      "r": 23,
+      "c": 3,
+      "p": "Ponape",
+      "d": "1933-04-01",
+      "m": "female",
+      "g": "japanese"
+     },
+     {
+      "r": 23,
+      "c": 4,
+      "p": "Ponape",
+      "d": "1933-04-01",
+      "m": "male",
+      "g": "islander"
+     },
+     {
+      "r": 23,
+      "c": 5,
+      "p": "Ponape",
+      "d": "1933-04-01",
+      "m": "female",
+      "g": "islander"
+     },
+     {
+      "r": 23,
+      "c": 6,
+      "p": "Ponape",
+      "d": "1933-04-01",
+      "m": "male",
+      "g": "foreign"
+     },
+     {
+      "r": 23,
+      "c": 7,
+      "p": "Ponape",
+      "d": "1933-04-01",
+      "m": "female",
+      "g": "foreign"
+     },
+     {
+      "r": 23,
+      "c": 8,
+      "p": "Ponape",
+      "d": "1933-04-01",
+      "m": "male",
+      "g": "all"
+     },
+     {
+      "r": 23,
+      "c": 9,
+      "p": "Ponape",
+      "d": "1933-04-01",
+      "m": "female",
+      "g": "all"
+     },
+     {
+      "r": 24,
+      "c": 2,
+      "p": "Ponape",
+      "d": "1934-04-01",
+      "m": "male",
+      "g": "japanese"
+     },
+     {
+      "r": 24,
+      "c": 3,
+      "p": "Ponape",
+      "d": "1934-04-01",
+      "m": "female",
+      "g": "japanese"
+     },
+     {
+      "r": 24,
+      "c": 4,
+      "p": "Ponape",
+      "d": "1934-04-01",
+      "m": "male",
+      "g": "islander"
+     },
+     {
+      "r": 24,
+      "c": 5,
+      "p": "Ponape",
+      "d": "1934-04-01",
+      "m": "female",
+      "g": "islander"
+     },
+     {
+      "r": 24,
+      "c": 6,
+      "p": "Ponape",
+      "d": "1934-04-01",
+      "m": "male",
+      "g": "foreign"
+     },
+     {
+      "r": 24,
+      "c": 7,
+      "p": "Ponape",
+      "d": "1934-04-01",
+      "m": "female",
+      "g": "foreign"
+     },
+     {
+      "r": 24,
+      "c": 8,
+      "p": "Ponape",
+      "d": "1934-04-01",
+      "m": "male",
+      "g": "all"
+     },
+     {
+      "r": 24,
+      "c": 9,
+      "p": "Ponape",
+      "d": "1934-04-01",
+      "m": "female",
+      "g": "all"
+     },
+     {
+      "r": 25,
+      "c": 2,
+      "p": "Jaluit",
+      "d": "1925-10-01",
+      "m": "male",
+      "g": "japanese"
+     },
+     {
+      "r": 25,
+      "c": 3,
+      "p": "Jaluit",
+      "d": "1925-10-01",
+      "m": "female",
+      "g": "japanese"
+     },
+     {
+      "r": 25,
+      "c": 4,
+      "p": "Jaluit",
+      "d": "1925-10-01",
+      "m": "male",
+      "g": "islander"
+     },
+     {
+      "r": 25,
+      "c": 5,
+      "p": "Jaluit",
+      "d": "1925-10-01",
+      "m": "female",
+      "g": "islander"
+     },
+     {
+      "r": 25,
+      "c": 6,
+      "p": "Jaluit",
+      "d": "1925-10-01",
+      "m": "male",
+      "g": "foreign"
+     },
+     {
+      "r": 25,
+      "c": 7,
+      "p": "Jaluit",
+      "d": "1925-10-01",
+      "m": "female",
+      "g": "foreign"
+     },
+     {
+      "r": 25,
+      "c": 8,
+      "p": "Jaluit",
+      "d": "1925-10-01",
+      "m": "male",
+      "g": "all"
+     },
+     {
+      "r": 25,
+      "c": 9,
+      "p": "Jaluit",
+      "d": "1925-10-01",
+      "m": "female",
+      "g": "all"
+     },
+     {
+      "r": 26,
+      "c": 2,
+      "p": "Jaluit",
+      "d": "1930-10-01",
+      "m": "male",
+      "g": "japanese"
+     },
+     {
+      "r": 26,
+      "c": 3,
+      "p": "Jaluit",
+      "d": "1930-10-01",
+      "m": "female",
+      "g": "japanese"
+     },
+     {
+      "r": 26,
+      "c": 4,
+      "p": "Jaluit",
+      "d": "1930-10-01",
+      "m": "male",
+      "g": "islander"
+     },
+     {
+      "r": 26,
+      "c": 5,
+      "p": "Jaluit",
+      "d": "1930-10-01",
+      "m": "female",
+      "g": "islander"
+     },
+     {
+      "r": 26,
+      "c": 6,
+      "p": "Jaluit",
+      "d": "1930-10-01",
+      "m": "male",
+      "g": "foreign"
+     },
+     {
+      "r": 26,
+      "c": 7,
+      "p": "Jaluit",
+      "d": "1930-10-01",
+      "m": "female",
+      "g": "foreign"
+     },
+     {
+      "r": 26,
+      "c": 8,
+      "p": "Jaluit",
+      "d": "1930-10-01",
+      "m": "male",
+      "g": "all"
+     },
+     {
+      "r": 26,
+      "c": 9,
+      "p": "Jaluit",
+      "d": "1930-10-01",
+      "m": "female",
+      "g": "all"
+     },
+     {
+      "r": 27,
+      "c": 2,
+      "p": "Jaluit",
+      "d": "1932-04-01",
+      "m": "male",
+      "g": "japanese"
+     },
+     {
+      "r": 27,
+      "c": 3,
+      "p": "Jaluit",
+      "d": "1932-04-01",
+      "m": "female",
+      "g": "japanese"
+     },
+     {
+      "r": 27,
+      "c": 4,
+      "p": "Jaluit",
+      "d": "1932-04-01",
+      "m": "male",
+      "g": "islander"
+     },
+     {
+      "r": 27,
+      "c": 5,
+      "p": "Jaluit",
+      "d": "1932-04-01",
+      "m": "female",
+      "g": "islander"
+     },
+     {
+      "r": 27,
+      "c": 6,
+      "p": "Jaluit",
+      "d": "1932-04-01",
+      "m": "male",
+      "g": "foreign"
+     },
+     {
+      "r": 27,
+      "c": 7,
+      "p": "Jaluit",
+      "d": "1932-04-01",
+      "m": "female",
+      "g": "foreign"
+     },
+     {
+      "r": 27,
+      "c": 8,
+      "p": "Jaluit",
+      "d": "1932-04-01",
+      "m": "male",
+      "g": "all"
+     },
+     {
+      "r": 27,
+      "c": 9,
+      "p": "Jaluit",
+      "d": "1932-04-01",
+      "m": "female",
+      "g": "all"
+     },
+     {
+      "r": 28,
+      "c": 2,
+      "p": "Jaluit",
+      "d": "1933-04-01",
+      "m": "male",
+      "g": "japanese"
+     },
+     {
+      "r": 28,
+      "c": 3,
+      "p": "Jaluit",
+      "d": "1933-04-01",
+      "m": "female",
+      "g": "japanese"
+     },
+     {
+      "r": 28,
+      "c": 4,
+      "p": "Jaluit",
+      "d": "1933-04-01",
+      "m": "male",
+      "g": "islander"
+     },
+     {
+      "r": 28,
+      "c": 5,
+      "p": "Jaluit",
+      "d": "1933-04-01",
+      "m": "female",
+      "g": "islander"
+     },
+     {
+      "r": 28,
+      "c": 6,
+      "p": "Jaluit",
+      "d": "1933-04-01",
+      "m": "male",
+      "g": "foreign"
+     },
+     {
+      "r": 28,
+      "c": 7,
+      "p": "Jaluit",
+      "d": "1933-04-01",
+      "m": "female",
+      "g": "foreign"
+     },
+     {
+      "r": 28,
+      "c": 8,
+      "p": "Jaluit",
+      "d": "1933-04-01",
+      "m": "male",
+      "g": "all"
+     },
+     {
+      "r": 28,
+      "c": 9,
+      "p": "Jaluit",
+      "d": "1933-04-01",
+      "m": "female",
+      "g": "all"
+     },
+     {
+      "r": 29,
+      "c": 2,
+      "p": "Jaluit",
+      "d": "1934-04-01",
+      "m": "male",
+      "g": "japanese"
+     },
+     {
+      "r": 29,
+      "c": 3,
+      "p": "Jaluit",
+      "d": "1934-04-01",
+      "m": "female",
+      "g": "japanese"
+     },
+     {
+      "r": 29,
+      "c": 4,
+      "p": "Jaluit",
+      "d": "1934-04-01",
+      "m": "male",
+      "g": "islander"
+     },
+     {
+      "r": 29,
+      "c": 5,
+      "p": "Jaluit",
+      "d": "1934-04-01",
+      "m": "female",
+      "g": "islander"
+     },
+     {
+      "r": 29,
+      "c": 6,
+      "p": "Jaluit",
+      "d": "1934-04-01",
+      "m": "male",
+      "g": "foreign"
+     },
+     {
+      "r": 29,
+      "c": 7,
+      "p": "Jaluit",
+      "d": "1934-04-01",
+      "m": "female",
+      "g": "foreign"
+     },
+     {
+      "r": 29,
+      "c": 8,
+      "p": "Jaluit",
+      "d": "1934-04-01",
+      "m": "male",
+      "g": "all"
+     },
+     {
+      "r": 29,
+      "c": 9,
+      "p": "Jaluit",
+      "d": "1934-04-01",
+      "m": "female",
+      "g": "all"
+     },
+     {
+      "r": 30,
+      "c": 2,
+      "p": "South Seas Mandate",
+      "d": "1925-10-01",
+      "m": "male",
+      "g": "japanese"
+     },
+     {
+      "r": 30,
+      "c": 3,
+      "p": "South Seas Mandate",
+      "d": "1925-10-01",
+      "m": "female",
+      "g": "japanese"
+     },
+     {
+      "r": 30,
+      "c": 4,
+      "p": "South Seas Mandate",
+      "d": "1925-10-01",
+      "m": "male",
+      "g": "islander"
+     },
+     {
+      "r": 30,
+      "c": 5,
+      "p": "South Seas Mandate",
+      "d": "1925-10-01",
+      "m": "female",
+      "g": "islander"
+     },
+     {
+      "r": 30,
+      "c": 6,
+      "p": "South Seas Mandate",
+      "d": "1925-10-01",
+      "m": "male",
+      "g": "foreign"
+     },
+     {
+      "r": 30,
+      "c": 7,
+      "p": "South Seas Mandate",
+      "d": "1925-10-01",
+      "m": "female",
+      "g": "foreign"
+     },
+     {
+      "r": 30,
+      "c": 8,
+      "p": "South Seas Mandate",
+      "d": "1925-10-01",
+      "m": "male",
+      "g": "all"
+     },
+     {
+      "r": 30,
+      "c": 9,
+      "p": "South Seas Mandate",
+      "d": "1925-10-01",
+      "m": "female",
+      "g": "all"
+     },
+     {
+      "r": 31,
+      "c": 2,
+      "p": "South Seas Mandate",
+      "d": "1930-10-01",
+      "m": "male",
+      "g": "japanese"
+     },
+     {
+      "r": 31,
+      "c": 3,
+      "p": "South Seas Mandate",
+      "d": "1930-10-01",
+      "m": "female",
+      "g": "japanese"
+     },
+     {
+      "r": 31,
+      "c": 4,
+      "p": "South Seas Mandate",
+      "d": "1930-10-01",
+      "m": "male",
+      "g": "islander"
+     },
+     {
+      "r": 31,
+      "c": 5,
+      "p": "South Seas Mandate",
+      "d": "1930-10-01",
+      "m": "female",
+      "g": "islander"
+     },
+     {
+      "r": 31,
+      "c": 6,
+      "p": "South Seas Mandate",
+      "d": "1930-10-01",
+      "m": "male",
+      "g": "foreign"
+     },
+     {
+      "r": 31,
+      "c": 7,
+      "p": "South Seas Mandate",
+      "d": "1930-10-01",
+      "m": "female",
+      "g": "foreign"
+     },
+     {
+      "r": 31,
+      "c": 8,
+      "p": "South Seas Mandate",
+      "d": "1930-10-01",
+      "m": "male",
+      "g": "all"
+     },
+     {
+      "r": 31,
+      "c": 9,
+      "p": "South Seas Mandate",
+      "d": "1930-10-01",
+      "m": "female",
+      "g": "all"
+     },
+     {
+      "r": 32,
+      "c": 2,
+      "p": "South Seas Mandate",
+      "d": "1932-04-01",
+      "m": "male",
+      "g": "japanese"
+     },
+     {
+      "r": 32,
+      "c": 3,
+      "p": "South Seas Mandate",
+      "d": "1932-04-01",
+      "m": "female",
+      "g": "japanese"
+     },
+     {
+      "r": 32,
+      "c": 4,
+      "p": "South Seas Mandate",
+      "d": "1932-04-01",
+      "m": "male",
+      "g": "islander"
+     },
+     {
+      "r": 32,
+      "c": 5,
+      "p": "South Seas Mandate",
+      "d": "1932-04-01",
+      "m": "female",
+      "g": "islander"
+     },
+     {
+      "r": 32,
+      "c": 6,
+      "p": "South Seas Mandate",
+      "d": "1932-04-01",
+      "m": "male",
+      "g": "foreign"
+     },
+     {
+      "r": 32,
+      "c": 7,
+      "p": "South Seas Mandate",
+      "d": "1932-04-01",
+      "m": "female",
+      "g": "foreign"
+     },
+     {
+      "r": 32,
+      "c": 8,
+      "p": "South Seas Mandate",
+      "d": "1932-04-01",
+      "m": "male",
+      "g": "all"
+     },
+     {
+      "r": 32,
+      "c": 9,
+      "p": "South Seas Mandate",
+      "d": "1932-04-01",
+      "m": "female",
+      "g": "all"
+     },
+     {
+      "r": 33,
+      "c": 2,
+      "p": "South Seas Mandate",
+      "d": "1933-04-01",
+      "m": "male",
+      "g": "japanese"
+     },
+     {
+      "r": 33,
+      "c": 3,
+      "p": "South Seas Mandate",
+      "d": "1933-04-01",
+      "m": "female",
+      "g": "japanese"
+     },
+     {
+      "r": 33,
+      "c": 4,
+      "p": "South Seas Mandate",
+      "d": "1933-04-01",
+      "m": "male",
+      "g": "islander"
+     },
+     {
+      "r": 33,
+      "c": 5,
+      "p": "South Seas Mandate",
+      "d": "1933-04-01",
+      "m": "female",
+      "g": "islander"
+     },
+     {
+      "r": 33,
+      "c": 6,
+      "p": "South Seas Mandate",
+      "d": "1933-04-01",
+      "m": "male",
+      "g": "foreign"
+     },
+     {
+      "r": 33,
+      "c": 7,
+      "p": "South Seas Mandate",
+      "d": "1933-04-01",
+      "m": "female",
+      "g": "foreign"
+     },
+     {
+      "r": 33,
+      "c": 8,
+      "p": "South Seas Mandate",
+      "d": "1933-04-01",
+      "m": "male",
+      "g": "all"
+     },
+     {
+      "r": 33,
+      "c": 9,
+      "p": "South Seas Mandate",
+      "d": "1933-04-01",
+      "m": "female",
+      "g": "all"
+     },
+     {
+      "r": 34,
+      "c": 2,
+      "p": "South Seas Mandate",
+      "d": "1934-04-01",
+      "m": "male",
+      "g": "japanese"
+     },
+     {
+      "r": 34,
+      "c": 3,
+      "p": "South Seas Mandate",
+      "d": "1934-04-01",
+      "m": "female",
+      "g": "japanese"
+     },
+     {
+      "r": 34,
+      "c": 4,
+      "p": "South Seas Mandate",
+      "d": "1934-04-01",
+      "m": "male",
+      "g": "islander"
+     },
+     {
+      "r": 34,
+      "c": 5,
+      "p": "South Seas Mandate",
+      "d": "1934-04-01",
+      "m": "female",
+      "g": "islander"
+     },
+     {
+      "r": 34,
+      "c": 6,
+      "p": "South Seas Mandate",
+      "d": "1934-04-01",
+      "m": "male",
+      "g": "foreign"
+     },
+     {
+      "r": 34,
+      "c": 7,
+      "p": "South Seas Mandate",
+      "d": "1934-04-01",
+      "m": "female",
+      "g": "foreign"
+     },
+     {
+      "r": 34,
+      "c": 8,
+      "p": "South Seas Mandate",
+      "d": "1934-04-01",
+      "m": "male",
+      "g": "all"
+     },
+     {
+      "r": 34,
+      "c": 9,
+      "p": "South Seas Mandate",
+      "d": "1934-04-01",
+      "m": "female",
+      "g": "all"
+     }
+    ]
+   }
+  ],
+  "fp": "edc1548fc9"
+ },
+ {
+  "t": "japan-manchoukuo-1936:p1-0620_1",
+  "x": [
+   {
+    "pt": "island",
+    "in": "South Seas",
+    "d": "~1936",
+    "rp": {
+     "6": "South Seas Mandate"
+    },
+    "cols": [
+     {
+      "c": 1
+     },
+     {
+      "c": 4,
+      "m": "households"
+     }
+    ]
+   }
+  ],
+  "fp": "0a8e27b620"
+ },
+ {
+  "t": "japan-manchoukuo-1936:p1-0620_2",
+  "skip": "vital events",
+  "fp": "f04b0a3902"
+ },
+ {
+  "t": "japan-manchoukuo-1936:p1-0625_2",
+  "skip": "farming households",
+  "fp": "99c25d5213"
+ },
+ {
+  "t": "japan-manchoukuo-1936:p1-0631_1",
+  "x": [
+   {
+    "pt": "city",
+    "in": "Japan",
+    "d": "1934-10-01",
+    "b": "census",
+    "cols": [
+     {
+      "c": 1
+     },
+     {
+      "c": 2,
+      "m": "households"
+     }
+    ]
+   }
+  ],
+  "fp": "71ecb5b290"
+ },
+ {
+  "t": "japan-manchoukuo-1936:p1-0631_2",
+  "x": [
+   {
+    "pt": "city",
+    "in": "World",
+    "d": "~1934",
+    "n": "year varies by city (1930-1934)",
+    "cols": [
+     {
+      "c": 2
+     }
+    ]
+   }
+  ],
+  "fp": "adcb113ce1"
+ },
+ {
+  "t": "japan-manchoukuo-1936:p1-0722_1",
+  "x": [
+   {
+    "in": "Manchuria",
+    "rp": {
+     "0": "Manchukuo",
+     "2": "-"
+    },
+    "cols": [
+     {
+      "c": 1,
+      "d": "1932-12-31"
+     },
+     {
+      "c": 2,
+      "d": "1933-12-31"
+     },
+     {
+      "c": 3,
+      "d": "1934-12-31"
+     }
+    ]
+   }
+  ],
+  "fp": "c61f5286e3"
+ },
+ {
+  "t": "japan-manchoukuo-1936:p1-0723_1",
+  "x": [
+   {
+    "rows": "cells",
+    "cells": [
+     {
+      "r": 0,
+      "c": 1,
+      "p": "Kwantung Leased Territory",
+      "d": "1932-12-31",
+      "m": "total",
+      "g": "japanese"
+     },
+     {
+      "r": 0,
+      "c": 2,
+      "p": "Kwantung Leased Territory",
+      "d": "1933-12-31",
+      "m": "total",
+      "g": "japanese"
+     },
+     {
+      "r": 0,
+      "c": 3,
+      "p": "Kwantung Leased Territory",
+      "d": "1934-12-31",
+      "m": "total",
+      "g": "japanese"
+     },
+     {
+      "r": 1,
+      "c": 1,
+      "p": "Kwantung Leased Territory",
+      "d": "1932-12-31",
+      "m": "total",
+      "g": "chinese"
+     },
+     {
+      "r": 1,
+      "c": 2,
+      "p": "Kwantung Leased Territory",
+      "d": "1933-12-31",
+      "m": "total",
+      "g": "chinese"
+     },
+     {
+      "r": 1,
+      "c": 3,
+      "p": "Kwantung Leased Territory",
+      "d": "1934-12-31",
+      "m": "total",
+      "g": "chinese"
+     },
+     {
+      "r": 2,
+      "c": 1,
+      "p": "Kwantung Leased Territory",
+      "d": "1932-12-31",
+      "m": "total",
+      "g": "foreign"
+     },
+     {
+      "r": 2,
+      "c": 2,
+      "p": "Kwantung Leased Territory",
+      "d": "1933-12-31",
+      "m": "total",
+      "g": "foreign"
+     },
+     {
+      "r": 2,
+      "c": 3,
+      "p": "Kwantung Leased Territory",
+      "d": "1934-12-31",
+      "m": "total",
+      "g": "foreign"
+     },
+     {
+      "r": 3,
+      "c": 1,
+      "p": "Kwantung Leased Territory",
+      "d": "1932-12-31",
+      "m": "total",
+      "g": "all"
+     },
+     {
+      "r": 3,
+      "c": 2,
+      "p": "Kwantung Leased Territory",
+      "d": "1933-12-31",
+      "m": "total",
+      "g": "all"
+     },
+     {
+      "r": 3,
+      "c": 3,
+      "p": "Kwantung Leased Territory",
+      "d": "1934-12-31",
+      "m": "total",
+      "g": "all"
+     }
+    ],
+    "n": "as printed; row labels Japanese and Manchurians appear swapped"
+   }
+  ],
+  "fp": "e3938ec949"
+ },
+ {
+  "t": "japan-manchoukuo-1936:p1-0723_2",
+  "x": [
+   {
+    "rows": "cells",
+    "cells": [
+     {
+      "r": 1,
+      "c": 1,
+      "p": "Manchukuo",
+      "d": "1932-12-31",
+      "m": "total",
+      "g": "chinese"
+     },
+     {
+      "r": 1,
+      "c": 2,
+      "p": "Manchukuo",
+      "d": "1933-12-31",
+      "m": "total",
+      "g": "chinese"
+     },
+     {
+      "r": 1,
+      "c": 3,
+      "p": "Manchukuo",
+      "d": "1934-12-31",
+      "m": "total",
+      "g": "chinese"
+     },
+     {
+      "r": 2,
+      "c": 1,
+      "p": "Manchukuo",
+      "d": "1932-12-31",
+      "m": "total",
+      "g": "japanese"
+     },
+     {
+      "r": 2,
+      "c": 2,
+      "p": "Manchukuo",
+      "d": "1933-12-31",
+      "m": "total",
+      "g": "japanese"
+     },
+     {
+      "r": 2,
+      "c": 3,
+      "p": "Manchukuo",
+      "d": "1934-12-31",
+      "m": "total",
+      "g": "japanese"
+     },
+     {
+      "r": 3,
+      "c": 1,
+      "p": "Manchukuo",
+      "d": "1932-12-31",
+      "m": "total",
+      "g": "foreign"
+     },
+     {
+      "r": 3,
+      "c": 2,
+      "p": "Manchukuo",
+      "d": "1933-12-31",
+      "m": "total",
+      "g": "foreign"
+     },
+     {
+      "r": 3,
+      "c": 3,
+      "p": "Manchukuo",
+      "d": "1934-12-31",
+      "m": "total",
+      "g": "foreign"
+     },
+     {
+      "r": 4,
+      "c": 1,
+      "p": "Manchukuo",
+      "d": "1932-12-31",
+      "m": "total",
+      "g": "all"
+     },
+     {
+      "r": 4,
+      "c": 2,
+      "p": "Manchukuo",
+      "d": "1933-12-31",
+      "m": "total",
+      "g": "all"
+     },
+     {
+      "r": 4,
+      "c": 3,
+      "p": "Manchukuo",
+      "d": "1934-12-31",
+      "m": "total",
+      "g": "all"
+     },
+     {
+      "r": 6,
+      "c": 1,
+      "p": "South Manchuria Railway Zone",
+      "d": "1932-12-31",
+      "m": "total",
+      "g": "chinese"
+     },
+     {
+      "r": 6,
+      "c": 2,
+      "p": "South Manchuria Railway Zone",
+      "d": "1933-12-31",
+      "m": "total",
+      "g": "chinese"
+     },
+     {
+      "r": 6,
+      "c": 3,
+      "p": "South Manchuria Railway Zone",
+      "d": "1934-12-31",
+      "m": "total",
+      "g": "chinese"
+     },
+     {
+      "r": 7,
+      "c": 1,
+      "p": "South Manchuria Railway Zone",
+      "d": "1932-12-31",
+      "m": "total",
+      "g": "japanese"
+     },
+     {
+      "r": 7,
+      "c": 2,
+      "p": "South Manchuria Railway Zone",
+      "d": "1933-12-31",
+      "m": "total",
+      "g": "japanese"
+     },
+     {
+      "r": 7,
+      "c": 3,
+      "p": "South Manchuria Railway Zone",
+      "d": "1934-12-31",
+      "m": "total",
+      "g": "japanese"
+     },
+     {
+      "r": 8,
+      "c": 1,
+      "p": "South Manchuria Railway Zone",
+      "d": "1932-12-31",
+      "m": "total",
+      "g": "foreign"
+     },
+     {
+      "r": 8,
+      "c": 2,
+      "p": "South Manchuria Railway Zone",
+      "d": "1933-12-31",
+      "m": "total",
+      "g": "foreign"
+     },
+     {
+      "r": 8,
+      "c": 3,
+      "p": "South Manchuria Railway Zone",
+      "d": "1934-12-31",
+      "m": "total",
+      "g": "foreign"
+     },
+     {
+      "r": 9,
+      "c": 1,
+      "p": "South Manchuria Railway Zone",
+      "d": "1932-12-31",
+      "m": "total",
+      "g": "all"
+     },
+     {
+      "r": 9,
+      "c": 2,
+      "p": "South Manchuria Railway Zone",
+      "d": "1933-12-31",
+      "m": "total",
+      "g": "all"
+     },
+     {
+      "r": 9,
+      "c": 3,
+      "p": "South Manchuria Railway Zone",
+      "d": "1934-12-31",
+      "m": "total",
+      "g": "all"
+     }
+    ]
+   }
+  ],
+  "fp": "f346aad07a"
+ }
+]

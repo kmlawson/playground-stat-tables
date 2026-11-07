@@ -24,3 +24,5 @@ build/tags/**/*.log
 build/tags/**/worker.lock
 # Local table-extraction inspection pages and source images.
 /inspect/
+# Finder pages: work files (previews, agent scratch, reports); the specs that matter are in build/finders/<name>/specs/
+build/finders/*/work/

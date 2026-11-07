@@ -1,0 +1,10651 @@
+[
+ {
+  "t": "japan-tokei-1938:p0026_1",
+  "x": [
+   {
+    "part": 0,
+    "pt": "prefecture",
+    "in": "Japan",
+    "d": "1930-10-01",
+    "b": "census",
+    "rp": {
+     "0": "Japan proper",
+     "48": "-",
+     "49": "-"
+    },
+    "cols": [
+     {
+      "c": 1
+     },
+     {
+      "c": 2,
+      "m": "male"
+     }
+    ]
+   }
+  ],
+  "fp": "eb3bddc0ac"
+ },
+ {
+  "t": "japan-tokei-1938:p0029_1",
+  "skip": "households by head's industry",
+  "fp": "351d4489ab"
+ },
+ {
+  "t": "japan-tokei-1938:p0030_1",
+  "x": [
+   {
+    "rows": "cells",
+    "b": "census",
+    "cells": [
+     {
+      "r": 0,
+      "c": 1,
+      "p": "Japan proper",
+      "d": "1930-10-01"
+     },
+     {
+      "r": 0,
+      "c": 2,
+      "p": "Japan proper",
+      "d": "1920-10-01"
+     }
+    ]
+   }
+  ],
+  "fp": "349c1a2cf7"
+ },
+ {
+  "t": "japan-tokei-1938:p0031_1",
+  "x": [
+   {
+    "pt": "ward",
+    "in": "Osaka",
+    "d": "1930-10-01",
+    "b": "census",
+    "only": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13
+    ],
+    "cols": [
+     {
+      "c": 1
+     },
+     {
+      "c": 2,
+      "m": "male"
+     },
+     {
+      "c": 3,
+      "m": "female"
+     }
+    ]
+   },
+   {
+    "pt": "ward",
+    "in": "Tokyo",
+    "d": "1930-10-01",
+    "b": "census",
+    "only": [
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29
+    ],
+    "cols": [
+     {
+      "c": 1
+     },
+     {
+      "c": 2,
+      "m": "male"
+     },
+     {
+      "c": 3,
+      "m": "female"
+     }
+    ]
+   },
+   {
+    "pt": "ward",
+    "in": "Nagoya",
+    "d": "1930-10-01",
+    "b": "census",
+    "only": [
+     31,
+     32,
+     33,
+     34
+    ],
+    "cols": [
+     {
+      "c": 1
+     },
+     {
+      "c": 2,
+      "m": "male"
+     },
+     {
+      "c": 3,
+      "m": "female"
+     }
+    ]
+   },
+   {
+    "pt": "ward",
+    "in": "Kyoto",
+    "d": "1930-10-01",
+    "b": "census",
+    "only": [
+     37,
+     38,
+     39,
+     40,
+     41
+    ],
+    "cols": [
+     {
+      "c": 1
+     },
+     {
+      "c": 2,
+      "m": "male"
+     },
+     {
+      "c": 3,
+      "m": "female"
+     }
+    ]
+   },
+   {
+    "pt": "ward",
+    "in": "Yokohama",
+    "d": "1930-10-01",
+    "b": "census",
+    "only": [
+     43,
+     44,
+     45,
+     46,
+     47
+    ],
+    "cols": [
+     {
+      "c": 1
+     },
+     {
+      "c": 2,
+      "m": "male"
+     },
+     {
+      "c": 3,
+      "m": "female"
+     }
+    ]
+   },
+   {
+    "pt": "city",
+    "in": "Japan",
+    "d": "1930-10-01",
+    "b": "census",
+    "only": [
+     0,
+     14,
+     30,
+     35,
+     36,
+     42,
+     48,
+     49,
+     50,
+     51,
+     52,
+     53,
+     54,
+     55,
+     56,
+     57,
+     58,
+     59,
+     60,
+     61,
+     62,
+     63,
+     64,
+     65,
+     66,
+     67,
+     68,
+     69
+    ],
+    "cols": [
+     {
+      "c": 1
+     },
+     {
+      "c": 2,
+      "m": "male"
+     },
+     {
+      "c": 3,
+      "m": "female"
+     }
+    ]
+   }
+  ],
+  "fp": "5f4bf9a6f6"
+ },
+ {
+  "t": "japan-tokei-1938:p0031_2",
+  "x": [
+   {
+    "part": 0,
+    "pt": "prefecture",
+    "in": "Japan",
+    "d": "1935-10-01",
+    "cols": [
+     {
+      "c": 1,
+      "b": "census"
+     },
+     {
+      "c": 2,
+      "b": "other",
+      "n": "usual resident population"
+     },
+     {
+      "c": 3,
+      "m": "male",
+      "b": "other",
+      "n": "usual resident population"
+     },
+     {
+      "c": 4,
+      "m": "female",
+      "b": "other",
+      "n": "usual resident population"
+     }
+    ],
+    "rp": {
+     "0": "Japan proper"
+    }
+   },
+   {
+    "part": 1,
+    "pt": "city",
+    "in": "Japan",
+    "d": "1935-10-01",
+    "cols": [
+     {
+      "c": 1,
+      "b": "census"
+     },
+     {
+      "c": 2,
+      "b": "other",
+      "n": "usual resident population"
+     },
+     {
+      "c": 3,
+      "m": "male",
+      "b": "other",
+      "n": "usual resident population"
+     },
+     {
+      "c": 4,
+      "m": "female",
+      "b": "other",
+      "n": "usual resident population"
+     }
+    ]
+   }
+  ],
+  "fp": "b8add0551e"
+ },
+ {
+  "t": "japan-tokei-1938:p0032_1",
+  "x": [
+   {
+    "rows": "cells",
+    "part": 1,
+    "cells": [
+     {
+      "r": 0,
+      "c": 1,
+      "p": "Japan proper",
+      "d": "1935-10-01"
+     },
+     {
+      "r": 0,
+      "c": 2,
+      "p": "Japan proper",
+      "d": "1930-10-01"
+     },
+     {
+      "r": 0,
+      "c": 3,
+      "p": "Japan proper",
+      "d": "1925-10-01"
+     },
+     {
+      "r": 0,
+      "c": 4,
+      "p": "Japan proper",
+      "d": "1920-10-01"
+     },
+     {
+      "r": 0,
+      "c": 5,
+      "p": "Japan proper",
+      "d": "1920-12-31"
+     },
+     {
+      "r": 0,
+      "c": 6,
+      "p": "Japan proper",
+      "d": "1913-12-31"
+     },
+     {
+      "r": 0,
+      "c": 7,
+      "p": "Japan proper",
+      "d": "1908-12-31"
+     },
+     {
+      "r": 0,
+      "c": 8,
+      "p": "Japan proper",
+      "d": "1903-12-31"
+     },
+     {
+      "r": 0,
+      "c": 9,
+      "p": "Japan proper",
+      "d": "1898-12-31"
+     }
+    ]
+   }
+  ],
+  "fp": "61a3e4dede"
+ },
+ {
+  "t": "japan-tokei-1938:p0032_2",
+  "x": [
+   {
+    "pt": "city",
+    "in": "Japan",
+    "b": "census",
+    "cols": [
+     {
+      "c": 2,
+      "d": "1935-10-01"
+     },
+     {
+      "c": 1,
+      "m": "households",
+      "d": "1935-10-01"
+     },
+     {
+      "c": 3,
+      "m": "male",
+      "d": "1935-10-01"
+     },
+     {
+      "c": 4,
+      "m": "female",
+      "d": "1935-10-01"
+     },
+     {
+      "c": 5,
+      "d": "1930-10-01"
+     }
+    ]
+   }
+  ],
+  "fp": "e44928443e"
+ },
+ {
+  "t": "japan-tokei-1938:p0033_1",
+  "x": [
+   {
+    "pt": "town",
+    "in": "Japan",
+    "b": "census",
+    "cols": [
+     {
+      "c": 2,
+      "d": "1935-10-01"
+     },
+     {
+      "c": 1,
+      "m": "households",
+      "d": "1935-10-01"
+     },
+     {
+      "c": 3,
+      "m": "male",
+      "d": "1935-10-01"
+     },
+     {
+      "c": 4,
+      "m": "female",
+      "d": "1935-10-01"
+     },
+     {
+      "c": 5,
+      "d": "1930-10-01"
+     }
+    ]
+   }
+  ],
+  "fp": "fa1d21c54d"
+ },
+ {
+  "t": "japan-tokei-1938:p0033_2",
+  "x": [
+   {
+    "rows": "cells",
+    "b": "census",
+    "cells": [
+     {
+      "r": 0,
+      "c": 1,
+      "p": "Japan proper",
+      "d": "1920-10-01"
+     },
+     {
+      "r": 0,
+      "c": 2,
+      "p": "Japan proper",
+      "d": "1920-10-01",
+      "g": "japanese"
+     },
+     {
+      "r": 0,
+      "c": 3,
+      "p": "Japan proper",
+      "d": "1920-10-01",
+      "g": "korean"
+     },
+     {
+      "r": 0,
+      "c": 4,
+      "p": "Japan proper",
+      "d": "1920-10-01",
+      "g": "taiwanese"
+     },
+     {
+      "r": 0,
+      "c": 5,
+      "p": "Japan proper",
+      "d": "1920-10-01",
+      "g": "saghalienian"
+     },
+     {
+      "r": 0,
+      "c": 6,
+      "p": "Japan proper",
+      "d": "1920-10-01",
+      "g": "islander"
+     },
+     {
+      "r": 0,
+      "c": 7,
+      "p": "Japan proper",
+      "d": "1920-10-01",
+      "g": "foreign"
+     },
+     {
+      "r": 0,
+      "c": 8,
+      "p": "Japan proper",
+      "d": "1920-10-01",
+      "g": "chinese"
+     },
+     {
+      "r": 0,
+      "c": 9,
+      "p": "Japan proper",
+      "d": "1920-10-01",
+      "g": "russian"
+     },
+     {
+      "r": 0,
+      "c": 10,
+      "p": "Japan proper",
+      "d": "1920-10-01",
+      "g": "american"
+     },
+     {
+      "r": 0,
+      "c": 11,
+      "p": "Japan proper",
+      "d": "1920-10-01",
+      "g": "british"
+     },
+     {
+      "r": 0,
+      "c": 12,
+      "p": "Japan proper",
+      "d": "1920-10-01",
+      "g": "german"
+     },
+     {
+      "r": 0,
+      "c": 13,
+      "p": "Japan proper",
+      "d": "1920-10-01",
+      "g": "french"
+     },
+     {
+      "r": 1,
+      "c": 1,
+      "p": "Japan proper",
+      "d": "1930-10-01"
+     },
+     {
+      "r": 1,
+      "c": 2,
+      "p": "Japan proper",
+      "d": "1930-10-01",
+      "g": "japanese"
+     },
+     {
+      "r": 1,
+      "c": 3,
+      "p": "Japan proper",
+      "d": "1930-10-01",
+      "g": "korean"
+     },
+     {
+      "r": 1,
+      "c": 4,
+      "p": "Japan proper",
+      "d": "1930-10-01",
+      "g": "taiwanese"
+     },
+     {
+      "r": 1,
+      "c": 5,
+      "p": "Japan proper",
+      "d": "1930-10-01",
+      "g": "saghalienian"
+     },
+     {
+      "r": 1,
+      "c": 6,
+      "p": "Japan proper",
+      "d": "1930-10-01",
+      "g": "islander"
+     },
+     {
+      "r": 1,
+      "c": 7,
+      "p": "Japan proper",
+      "d": "1930-10-01",
+      "g": "foreign"
+     },
+     {
+      "r": 1,
+      "c": 8,
+      "p": "Japan proper",
+      "d": "1930-10-01",
+      "g": "chinese"
+     },
+     {
+      "r": 1,
+      "c": 9,
+      "p": "Japan proper",
+      "d": "1930-10-01",
+      "g": "russian"
+     },
+     {
+      "r": 1,
+      "c": 10,
+      "p": "Japan proper",
+      "d": "1930-10-01",
+      "g": "american"
+     },
+     {
+      "r": 1,
+      "c": 11,
+      "p": "Japan proper",
+      "d": "1930-10-01",
+      "g": "british"
+     },
+     {
+      "r": 1,
+      "c": 12,
+      "p": "Japan proper",
+      "d": "1930-10-01",
+      "g": "german"
+     },
+     {
+      "r": 1,
+      "c": 13,
+      "p": "Japan proper",
+      "d": "1930-10-01",
+      "g": "french"
+     }
+    ]
+   },
+   {
+    "pt": "prefecture",
+    "in": "Japan",
+    "d": "1930-10-01",
+    "b": "census",
+    "only": [
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33,
+     34,
+     35,
+     36,
+     37,
+     38,
+     39,
+     40,
+     41,
+     42,
+     43,
+     44,
+     45,
+     46,
+     47,
+     48
+    ],
+    "cols": [
+     {
+      "c": 1
+     },
+     {
+      "c": 2,
+      "g": "japanese"
+     },
+     {
+      "c": 3,
+      "g": "korean"
+     },
+     {
+      "c": 4,
+      "g": "taiwanese"
+     },
+     {
+      "c": 5,
+      "g": "saghalienian"
+     },
+     {
+      "c": 6,
+      "g": "islander"
+     },
+     {
+      "c": 7,
+      "g": "foreign"
+     },
+     {
+      "c": 8,
+      "g": "chinese"
+     },
+     {
+      "c": 9,
+      "g": "russian"
+     },
+     {
+      "c": 10,
+      "g": "american"
+     },
+     {
+      "c": 11,
+      "g": "british"
+     },
+     {
+      "c": 12,
+      "g": "german"
+     },
+     {
+      "c": 13,
+      "g": "french"
+     }
+    ]
+   }
+  ],
+  "fp": "d302529796"
+ },
+ {
+  "t": "japan-tokei-1938:p0044_1",
+  "x": [
+   {
+    "rows": "dates",
+    "p": "Hokkaido",
+    "g": "ainu",
+    "only": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ],
+    "rd": {
+     "1": "1927",
+     "2": "1928",
+     "3": "1929",
+     "4": "1930",
+     "5": "1931",
+     "6": "1932",
+     "7": "1933",
+     "8": "1934",
+     "9": "1935",
+     "10": "1936"
+    },
+    "cols": [
+     {
+      "c": 1
+     },
+     {
+      "c": 2,
+      "m": "male"
+     },
+     {
+      "c": 3,
+      "m": "female"
+     }
+    ]
+   }
+  ],
+  "fp": "7c7e4cc411"
+ },
+ {
+  "t": "japan-tokei-1938:p0046_2",
+  "x": [
+   {
+    "rows": "cells",
+    "cells": [
+     {
+      "r": 0,
+      "c": 1,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "foreign"
+     },
+     {
+      "r": 0,
+      "c": 2,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "foreign",
+      "m": "male"
+     },
+     {
+      "r": 0,
+      "c": 3,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "foreign",
+      "m": "female"
+     },
+     {
+      "r": 1,
+      "c": 1,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "chinese"
+     },
+     {
+      "r": 1,
+      "c": 2,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "chinese",
+      "m": "male"
+     },
+     {
+      "r": 1,
+      "c": 3,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "chinese",
+      "m": "female"
+     },
+     {
+      "r": 2,
+      "c": 1,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "manchukuoan"
+     },
+     {
+      "r": 2,
+      "c": 2,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "manchukuoan",
+      "m": "male"
+     },
+     {
+      "r": 2,
+      "c": 3,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "manchukuoan",
+      "m": "female"
+     },
+     {
+      "r": 3,
+      "c": 1,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "siamese"
+     },
+     {
+      "r": 3,
+      "c": 2,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "siamese",
+      "m": "male"
+     },
+     {
+      "r": 3,
+      "c": 3,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "siamese",
+      "m": "female"
+     },
+     {
+      "r": 4,
+      "c": 1,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "straits settlements"
+     },
+     {
+      "r": 4,
+      "c": 2,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "straits settlements",
+      "m": "male"
+     },
+     {
+      "r": 4,
+      "c": 3,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "straits settlements",
+      "m": "female"
+     },
+     {
+      "r": 5,
+      "c": 1,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "filipino"
+     },
+     {
+      "r": 5,
+      "c": 2,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "filipino",
+      "m": "male"
+     },
+     {
+      "r": 5,
+      "c": 3,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "filipino",
+      "m": "female"
+     },
+     {
+      "r": 6,
+      "c": 1,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "dutch east indies"
+     },
+     {
+      "r": 6,
+      "c": 2,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "dutch east indies",
+      "m": "male"
+     },
+     {
+      "r": 6,
+      "c": 3,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "dutch east indies",
+      "m": "female"
+     },
+     {
+      "r": 7,
+      "c": 1,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "iraqi"
+     },
+     {
+      "r": 7,
+      "c": 2,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "iraqi",
+      "m": "male"
+     },
+     {
+      "r": 7,
+      "c": 3,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "iraqi",
+      "m": "female"
+     },
+     {
+      "r": 8,
+      "c": 1,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "french india"
+     },
+     {
+      "r": 8,
+      "c": 2,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "french india",
+      "m": "male"
+     },
+     {
+      "r": 8,
+      "c": 3,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "french india",
+      "m": "female"
+     },
+     {
+      "r": 9,
+      "c": 1,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "british indian"
+     },
+     {
+      "r": 9,
+      "c": 2,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "british indian",
+      "m": "male"
+     },
+     {
+      "r": 9,
+      "c": 3,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "british indian",
+      "m": "female"
+     },
+     {
+      "r": 10,
+      "c": 1,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "afghan"
+     },
+     {
+      "r": 10,
+      "c": 2,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "afghan",
+      "m": "male"
+     },
+     {
+      "r": 10,
+      "c": 3,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "afghan",
+      "m": "female"
+     },
+     {
+      "r": 11,
+      "c": 1,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "burmese"
+     },
+     {
+      "r": 11,
+      "c": 2,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "burmese",
+      "m": "male"
+     },
+     {
+      "r": 11,
+      "c": 3,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "burmese",
+      "m": "female"
+     },
+     {
+      "r": 12,
+      "c": 1,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "armenian"
+     },
+     {
+      "r": 12,
+      "c": 2,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "armenian",
+      "m": "male"
+     },
+     {
+      "r": 12,
+      "c": 3,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "armenian",
+      "m": "female"
+     },
+     {
+      "r": 13,
+      "c": 1,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "iranian"
+     },
+     {
+      "r": 13,
+      "c": 2,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "iranian",
+      "m": "male"
+     },
+     {
+      "r": 13,
+      "c": 3,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "iranian",
+      "m": "female"
+     },
+     {
+      "r": 14,
+      "c": 1,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "british malayan"
+     },
+     {
+      "r": 14,
+      "c": 2,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "british malayan",
+      "m": "male"
+     },
+     {
+      "r": 14,
+      "c": 3,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "british malayan",
+      "m": "female"
+     },
+     {
+      "r": 15,
+      "c": 1,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "turkish"
+     },
+     {
+      "r": 15,
+      "c": 2,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "turkish",
+      "m": "male"
+     },
+     {
+      "r": 15,
+      "c": 3,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "turkish",
+      "m": "female"
+     },
+     {
+      "r": 16,
+      "c": 1,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "syrian"
+     },
+     {
+      "r": 16,
+      "c": 2,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "syrian",
+      "m": "male"
+     },
+     {
+      "r": 16,
+      "c": 3,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "syrian",
+      "m": "female"
+     },
+     {
+      "r": 17,
+      "c": 1,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "russian"
+     },
+     {
+      "r": 17,
+      "c": 2,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "russian",
+      "m": "male"
+     },
+     {
+      "r": 17,
+      "c": 3,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "russian",
+      "m": "female"
+     },
+     {
+      "r": 18,
+      "c": 1,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "arabian"
+     },
+     {
+      "r": 18,
+      "c": 2,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "arabian",
+      "m": "male"
+     },
+     {
+      "r": 18,
+      "c": 3,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "arabian",
+      "m": "female"
+     },
+     {
+      "r": 19,
+      "c": 1,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "polish"
+     },
+     {
+      "r": 19,
+      "c": 2,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "polish",
+      "m": "male"
+     },
+     {
+      "r": 19,
+      "c": 3,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "polish",
+      "m": "female"
+     },
+     {
+      "r": 20,
+      "c": 1,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "latvian"
+     },
+     {
+      "r": 20,
+      "c": 2,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "latvian",
+      "m": "male"
+     },
+     {
+      "r": 20,
+      "c": 3,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "latvian",
+      "m": "female"
+     },
+     {
+      "r": 21,
+      "c": 1,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "lithuanian"
+     },
+     {
+      "r": 21,
+      "c": 2,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "lithuanian",
+      "m": "male"
+     },
+     {
+      "r": 21,
+      "c": 3,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "lithuanian",
+      "m": "female"
+     },
+     {
+      "r": 22,
+      "c": 1,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "estonian"
+     },
+     {
+      "r": 22,
+      "c": 2,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "estonian",
+      "m": "male"
+     },
+     {
+      "r": 22,
+      "c": 3,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "estonian",
+      "m": "female"
+     },
+     {
+      "r": 23,
+      "c": 1,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "finnish"
+     },
+     {
+      "r": 23,
+      "c": 2,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "finnish",
+      "m": "male"
+     },
+     {
+      "r": 23,
+      "c": 3,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "finnish",
+      "m": "female"
+     },
+     {
+      "r": 24,
+      "c": 1,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "soviet"
+     },
+     {
+      "r": 24,
+      "c": 2,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "soviet",
+      "m": "male"
+     },
+     {
+      "r": 24,
+      "c": 3,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "soviet",
+      "m": "female"
+     },
+     {
+      "r": 25,
+      "c": 1,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "swedish"
+     },
+     {
+      "r": 25,
+      "c": 2,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "swedish",
+      "m": "male"
+     },
+     {
+      "r": 25,
+      "c": 3,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "swedish",
+      "m": "female"
+     },
+     {
+      "r": 26,
+      "c": 1,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "norwegian"
+     },
+     {
+      "r": 26,
+      "c": 2,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "norwegian",
+      "m": "male"
+     },
+     {
+      "r": 26,
+      "c": 3,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "norwegian",
+      "m": "female"
+     },
+     {
+      "r": 27,
+      "c": 1,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "danish"
+     },
+     {
+      "r": 27,
+      "c": 2,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "danish",
+      "m": "male"
+     },
+     {
+      "r": 27,
+      "c": 3,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "danish",
+      "m": "female"
+     },
+     {
+      "r": 28,
+      "c": 1,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "british"
+     },
+     {
+      "r": 28,
+      "c": 2,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "british",
+      "m": "male"
+     },
+     {
+      "r": 28,
+      "c": 3,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "british",
+      "m": "female"
+     },
+     {
+      "r": 29,
+      "c": 1,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "dutch"
+     },
+     {
+      "r": 29,
+      "c": 2,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "dutch",
+      "m": "male"
+     },
+     {
+      "r": 29,
+      "c": 3,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "dutch",
+      "m": "female"
+     },
+     {
+      "r": 30,
+      "c": 1,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "belgian"
+     },
+     {
+      "r": 30,
+      "c": 2,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "belgian",
+      "m": "male"
+     },
+     {
+      "r": 30,
+      "c": 3,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "belgian",
+      "m": "female"
+     },
+     {
+      "r": 31,
+      "c": 1,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "luxembourger"
+     },
+     {
+      "r": 31,
+      "c": 2,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "luxembourger",
+      "m": "male"
+     },
+     {
+      "r": 31,
+      "c": 3,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "luxembourger",
+      "m": "female"
+     },
+     {
+      "r": 32,
+      "c": 1,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "french"
+     },
+     {
+      "r": 32,
+      "c": 2,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "french",
+      "m": "male"
+     },
+     {
+      "r": 32,
+      "c": 3,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "french",
+      "m": "female"
+     },
+     {
+      "r": 33,
+      "c": 1,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "spanish"
+     },
+     {
+      "r": 33,
+      "c": 2,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "spanish",
+      "m": "male"
+     },
+     {
+      "r": 33,
+      "c": 3,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "spanish",
+      "m": "female"
+     },
+     {
+      "r": 34,
+      "c": 1,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "portuguese"
+     },
+     {
+      "r": 34,
+      "c": 2,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "portuguese",
+      "m": "male"
+     },
+     {
+      "r": 34,
+      "c": 3,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "portuguese",
+      "m": "female"
+     },
+     {
+      "r": 35,
+      "c": 1,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "italian"
+     },
+     {
+      "r": 35,
+      "c": 2,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "italian",
+      "m": "male"
+     },
+     {
+      "r": 35,
+      "c": 3,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "italian",
+      "m": "female"
+     },
+     {
+      "r": 36,
+      "c": 1,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "swiss"
+     },
+     {
+      "r": 36,
+      "c": 2,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "swiss",
+      "m": "male"
+     },
+     {
+      "r": 36,
+      "c": 3,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "swiss",
+      "m": "female"
+     },
+     {
+      "r": 37,
+      "c": 1,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "german"
+     },
+     {
+      "r": 37,
+      "c": 2,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "german",
+      "m": "male"
+     },
+     {
+      "r": 37,
+      "c": 3,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "german",
+      "m": "female"
+     },
+     {
+      "r": 38,
+      "c": 1,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "austrian"
+     },
+     {
+      "r": 38,
+      "c": 2,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "austrian",
+      "m": "male"
+     },
+     {
+      "r": 38,
+      "c": 3,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "austrian",
+      "m": "female"
+     },
+     {
+      "r": 39,
+      "c": 1,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "hungarian"
+     },
+     {
+      "r": 39,
+      "c": 2,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "hungarian",
+      "m": "male"
+     },
+     {
+      "r": 39,
+      "c": 3,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "hungarian",
+      "m": "female"
+     },
+     {
+      "r": 40,
+      "c": 1,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "bulgarian"
+     },
+     {
+      "r": 40,
+      "c": 2,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "bulgarian",
+      "m": "male"
+     },
+     {
+      "r": 40,
+      "c": 3,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "bulgarian",
+      "m": "female"
+     },
+     {
+      "r": 41,
+      "c": 1,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "czechoslovak"
+     },
+     {
+      "r": 41,
+      "c": 2,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "czechoslovak",
+      "m": "male"
+     },
+     {
+      "r": 41,
+      "c": 3,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "czechoslovak",
+      "m": "female"
+     },
+     {
+      "r": 42,
+      "c": 1,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "rumanian"
+     },
+     {
+      "r": 42,
+      "c": 2,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "rumanian",
+      "m": "male"
+     },
+     {
+      "r": 42,
+      "c": 3,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "rumanian",
+      "m": "female"
+     },
+     {
+      "r": 43,
+      "c": 1,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "yugoslav"
+     },
+     {
+      "r": 43,
+      "c": 2,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "yugoslav",
+      "m": "male"
+     },
+     {
+      "r": 43,
+      "c": 3,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "yugoslav",
+      "m": "female"
+     },
+     {
+      "r": 44,
+      "c": 1,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "maltese"
+     },
+     {
+      "r": 44,
+      "c": 2,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "maltese",
+      "m": "male"
+     },
+     {
+      "r": 44,
+      "c": 3,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "maltese",
+      "m": "female"
+     },
+     {
+      "r": 45,
+      "c": 1,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "greek"
+     },
+     {
+      "r": 45,
+      "c": 2,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "greek",
+      "m": "male"
+     },
+     {
+      "r": 45,
+      "c": 3,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "greek",
+      "m": "female"
+     },
+     {
+      "r": 46,
+      "c": 1,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "egyptian"
+     },
+     {
+      "r": 46,
+      "c": 2,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "egyptian",
+      "m": "male"
+     },
+     {
+      "r": 46,
+      "c": 3,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "egyptian",
+      "m": "female"
+     },
+     {
+      "r": 47,
+      "c": 1,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "south african"
+     },
+     {
+      "r": 47,
+      "c": 2,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "south african",
+      "m": "male"
+     },
+     {
+      "r": 47,
+      "c": 3,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "south african",
+      "m": "female"
+     },
+     {
+      "r": 48,
+      "c": 1,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "canadian"
+     },
+     {
+      "r": 48,
+      "c": 2,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "canadian",
+      "m": "male"
+     },
+     {
+      "r": 48,
+      "c": 3,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "canadian",
+      "m": "female"
+     },
+     {
+      "r": 49,
+      "c": 1,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "american"
+     },
+     {
+      "r": 49,
+      "c": 2,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "american",
+      "m": "male"
+     },
+     {
+      "r": 49,
+      "c": 3,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "american",
+      "m": "female"
+     },
+     {
+      "r": 50,
+      "c": 1,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "mexican"
+     },
+     {
+      "r": 50,
+      "c": 2,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "mexican",
+      "m": "male"
+     },
+     {
+      "r": 50,
+      "c": 3,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "mexican",
+      "m": "female"
+     },
+     {
+      "r": 51,
+      "c": 1,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "nicaraguan"
+     },
+     {
+      "r": 51,
+      "c": 2,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "nicaraguan",
+      "m": "male"
+     },
+     {
+      "r": 51,
+      "c": 3,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "nicaraguan",
+      "m": "female"
+     },
+     {
+      "r": 52,
+      "c": 1,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "panamanian"
+     },
+     {
+      "r": 52,
+      "c": 2,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "panamanian",
+      "m": "male"
+     },
+     {
+      "r": 52,
+      "c": 3,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "panamanian",
+      "m": "female"
+     },
+     {
+      "r": 53,
+      "c": 1,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "salvadoran"
+     },
+     {
+      "r": 53,
+      "c": 2,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "salvadoran",
+      "m": "male"
+     },
+     {
+      "r": 53,
+      "c": 3,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "salvadoran",
+      "m": "female"
+     },
+     {
+      "r": 54,
+      "c": 1,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "venezuelan"
+     },
+     {
+      "r": 54,
+      "c": 2,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "venezuelan",
+      "m": "male"
+     },
+     {
+      "r": 54,
+      "c": 3,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "venezuelan",
+      "m": "female"
+     },
+     {
+      "r": 55,
+      "c": 1,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "dominican"
+     },
+     {
+      "r": 55,
+      "c": 2,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "dominican",
+      "m": "male"
+     },
+     {
+      "r": 55,
+      "c": 3,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "dominican",
+      "m": "female"
+     },
+     {
+      "r": 56,
+      "c": 1,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "cuban"
+     },
+     {
+      "r": 56,
+      "c": 2,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "cuban",
+      "m": "male"
+     },
+     {
+      "r": 56,
+      "c": 3,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "cuban",
+      "m": "female"
+     },
+     {
+      "r": 57,
+      "c": 1,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "brazilian"
+     },
+     {
+      "r": 57,
+      "c": 2,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "brazilian",
+      "m": "male"
+     },
+     {
+      "r": 57,
+      "c": 3,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "brazilian",
+      "m": "female"
+     },
+     {
+      "r": 58,
+      "c": 1,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "colombian"
+     },
+     {
+      "r": 58,
+      "c": 2,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "colombian",
+      "m": "male"
+     },
+     {
+      "r": 58,
+      "c": 3,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "colombian",
+      "m": "female"
+     },
+     {
+      "r": 59,
+      "c": 1,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "bolivian"
+     },
+     {
+      "r": 59,
+      "c": 2,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "bolivian",
+      "m": "male"
+     },
+     {
+      "r": 59,
+      "c": 3,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "bolivian",
+      "m": "female"
+     },
+     {
+      "r": 60,
+      "c": 1,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "argentine"
+     },
+     {
+      "r": 60,
+      "c": 2,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "argentine",
+      "m": "male"
+     },
+     {
+      "r": 60,
+      "c": 3,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "argentine",
+      "m": "female"
+     },
+     {
+      "r": 61,
+      "c": 1,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "peruvian"
+     },
+     {
+      "r": 61,
+      "c": 2,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "peruvian",
+      "m": "male"
+     },
+     {
+      "r": 61,
+      "c": 3,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "peruvian",
+      "m": "female"
+     },
+     {
+      "r": 62,
+      "c": 1,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "guatemalan"
+     },
+     {
+      "r": 62,
+      "c": 2,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "guatemalan",
+      "m": "male"
+     },
+     {
+      "r": 62,
+      "c": 3,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "guatemalan",
+      "m": "female"
+     },
+     {
+      "r": 63,
+      "c": 1,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "chilean"
+     },
+     {
+      "r": 63,
+      "c": 2,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "chilean",
+      "m": "male"
+     },
+     {
+      "r": 63,
+      "c": 3,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "chilean",
+      "m": "female"
+     },
+     {
+      "r": 64,
+      "c": 1,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "ecuadorian"
+     },
+     {
+      "r": 64,
+      "c": 2,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "ecuadorian",
+      "m": "male"
+     },
+     {
+      "r": 64,
+      "c": 3,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "ecuadorian",
+      "m": "female"
+     },
+     {
+      "r": 65,
+      "c": 1,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "uruguayan"
+     },
+     {
+      "r": 65,
+      "c": 2,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "uruguayan",
+      "m": "male"
+     },
+     {
+      "r": 65,
+      "c": 3,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "uruguayan",
+      "m": "female"
+     },
+     {
+      "r": 66,
+      "c": 1,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "australian"
+     },
+     {
+      "r": 66,
+      "c": 2,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "australian",
+      "m": "male"
+     },
+     {
+      "r": 66,
+      "c": 3,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "australian",
+      "m": "female"
+     },
+     {
+      "r": 67,
+      "c": 1,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "hawaiian"
+     },
+     {
+      "r": 67,
+      "c": 2,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "hawaiian",
+      "m": "male"
+     },
+     {
+      "r": 67,
+      "c": 3,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "hawaiian",
+      "m": "female"
+     },
+     {
+      "r": 68,
+      "c": 1,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "new zealander"
+     },
+     {
+      "r": 68,
+      "c": 2,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "new zealander",
+      "m": "male"
+     },
+     {
+      "r": 68,
+      "c": 3,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "new zealander",
+      "m": "female"
+     },
+     {
+      "r": 69,
+      "c": 1,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "stateless"
+     },
+     {
+      "r": 69,
+      "c": 2,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "stateless",
+      "m": "male"
+     },
+     {
+      "r": 69,
+      "c": 3,
+      "p": "Japan proper",
+      "d": "1937-12-31",
+      "g": "stateless",
+      "m": "female"
+     }
+    ]
+   }
+  ],
+  "fp": "178613abc5"
+ },
+ {
+  "t": "japan-tokei-1938:p0048_2",
+  "skip": "farm households",
+  "fp": "7a8527179d"
+ },
+ {
+  "t": "japan-tokei-1938:p0048_3",
+  "skip": "landowning households",
+  "fp": "0a2fc6452d"
+ },
+ {
+  "t": "japan-tokei-1938:p0189_6",
+  "skip": "court appeals",
+  "fp": "4153a7b9a2"
+ },
+ {
+  "t": "japan-tokei-1938:p0247_1",
+  "x": [
+   {
+    "rows": "cells",
+    "cells": [
+     {
+      "r": 0,
+      "c": 3,
+      "p": "World",
+      "d": "~1937"
+     },
+     {
+      "r": 9,
+      "c": 3,
+      "p": "Japanese Empire",
+      "d": "1935-10-01"
+     },
+     {
+      "r": 9,
+      "c": 4,
+      "p": "Japanese Empire",
+      "d": "1935-10-01",
+      "m": "male"
+     },
+     {
+      "r": 9,
+      "c": 5,
+      "p": "Japanese Empire",
+      "d": "1935-10-01",
+      "m": "female"
+     },
+     {
+      "r": 11,
+      "c": 3,
+      "p": "Japan proper",
+      "d": "1935-10-01"
+     },
+     {
+      "r": 11,
+      "c": 4,
+      "p": "Japan proper",
+      "d": "1935-10-01",
+      "m": "male"
+     },
+     {
+      "r": 11,
+      "c": 5,
+      "p": "Japan proper",
+      "d": "1935-10-01",
+      "m": "female"
+     },
+     {
+      "r": 12,
+      "c": 3,
+      "p": "Japan proper",
+      "d": "1937-10-01"
+     },
+     {
+      "r": 12,
+      "c": 4,
+      "p": "Japan proper",
+      "d": "1937-10-01",
+      "m": "male"
+     },
+     {
+      "r": 12,
+      "c": 5,
+      "p": "Japan proper",
+      "d": "1937-10-01",
+      "m": "female"
+     },
+     {
+      "r": 13,
+      "c": 3,
+      "p": "Japan proper",
+      "d": "1938-10-01"
+     },
+     {
+      "r": 13,
+      "c": 4,
+      "p": "Japan proper",
+      "d": "1938-10-01",
+      "m": "male"
+     },
+     {
+      "r": 13,
+      "c": 5,
+      "p": "Japan proper",
+      "d": "1938-10-01",
+      "m": "female"
+     },
+     {
+      "r": 14,
+      "c": 3,
+      "p": "Korea",
+      "d": "1935-10-01"
+     },
+     {
+      "r": 14,
+      "c": 4,
+      "p": "Korea",
+      "d": "1935-10-01",
+      "m": "male"
+     },
+     {
+      "r": 14,
+      "c": 5,
+      "p": "Korea",
+      "d": "1935-10-01",
+      "m": "female"
+     },
+     {
+      "r": 15,
+      "c": 3,
+      "p": "Korea",
+      "d": "1937-12-31"
+     },
+     {
+      "r": 15,
+      "c": 4,
+      "p": "Korea",
+      "d": "1937-12-31",
+      "m": "male"
+     },
+     {
+      "r": 15,
+      "c": 5,
+      "p": "Korea",
+      "d": "1937-12-31",
+      "m": "female"
+     },
+     {
+      "r": 16,
+      "c": 3,
+      "p": "Taiwan",
+      "d": "1935-10-01"
+     },
+     {
+      "r": 16,
+      "c": 4,
+      "p": "Taiwan",
+      "d": "1935-10-01",
+      "m": "male"
+     },
+     {
+      "r": 16,
+      "c": 5,
+      "p": "Taiwan",
+      "d": "1935-10-01",
+      "m": "female"
+     },
+     {
+      "r": 17,
+      "c": 3,
+      "p": "Taiwan",
+      "d": "1937-12-31"
+     },
+     {
+      "r": 17,
+      "c": 4,
+      "p": "Taiwan",
+      "d": "1937-12-31",
+      "m": "male"
+     },
+     {
+      "r": 17,
+      "c": 5,
+      "p": "Taiwan",
+      "d": "1937-12-31",
+      "m": "female"
+     },
+     {
+      "r": 18,
+      "c": 3,
+      "p": "Karafuto",
+      "d": "1935-10-01"
+     },
+     {
+      "r": 18,
+      "c": 4,
+      "p": "Karafuto",
+      "d": "1935-10-01",
+      "m": "male"
+     },
+     {
+      "r": 18,
+      "c": 5,
+      "p": "Karafuto",
+      "d": "1935-10-01",
+      "m": "female"
+     },
+     {
+      "r": 19,
+      "c": 3,
+      "p": "Karafuto",
+      "d": "1937-12-31"
+     },
+     {
+      "r": 19,
+      "c": 4,
+      "p": "Karafuto",
+      "d": "1937-12-31",
+      "m": "male"
+     },
+     {
+      "r": 19,
+      "c": 5,
+      "p": "Karafuto",
+      "d": "1937-12-31",
+      "m": "female"
+     },
+     {
+      "r": 20,
+      "c": 3,
+      "p": "Kwantung Leased Territory",
+      "d": "1935-10-01"
+     },
+     {
+      "r": 20,
+      "c": 4,
+      "p": "Kwantung Leased Territory",
+      "d": "1935-10-01",
+      "m": "male"
+     },
+     {
+      "r": 20,
+      "c": 5,
+      "p": "Kwantung Leased Territory",
+      "d": "1935-10-01",
+      "m": "female"
+     },
+     {
+      "r": 21,
+      "c": 3,
+      "p": "Kwantung Leased Territory",
+      "d": "1937-12-31"
+     },
+     {
+      "r": 21,
+      "c": 4,
+      "p": "Kwantung Leased Territory",
+      "d": "1937-12-31",
+      "m": "male"
+     },
+     {
+      "r": 21,
+      "c": 5,
+      "p": "Kwantung Leased Territory",
+      "d": "1937-12-31",
+      "m": "female"
+     },
+     {
+      "r": 22,
+      "c": 3,
+      "p": "South Manchuria Railway Zone",
+      "d": "1935-10-01"
+     },
+     {
+      "r": 22,
+      "c": 4,
+      "p": "South Manchuria Railway Zone",
+      "d": "1935-10-01",
+      "m": "male"
+     },
+     {
+      "r": 22,
+      "c": 5,
+      "p": "South Manchuria Railway Zone",
+      "d": "1935-10-01",
+      "m": "female"
+     },
+     {
+      "r": 23,
+      "c": 3,
+      "p": "South Manchuria Railway Zone",
+      "d": "1936-12-31"
+     },
+     {
+      "r": 23,
+      "c": 4,
+      "p": "South Manchuria Railway Zone",
+      "d": "1936-12-31",
+      "m": "male"
+     },
+     {
+      "r": 23,
+      "c": 5,
+      "p": "South Manchuria Railway Zone",
+      "d": "1936-12-31",
+      "m": "female"
+     },
+     {
+      "r": 24,
+      "c": 3,
+      "p": "South Seas Mandate",
+      "d": "1935-10-01"
+     },
+     {
+      "r": 24,
+      "c": 4,
+      "p": "South Seas Mandate",
+      "d": "1935-10-01",
+      "m": "male"
+     },
+     {
+      "r": 24,
+      "c": 5,
+      "p": "South Seas Mandate",
+      "d": "1935-10-01",
+      "m": "female"
+     },
+     {
+      "r": 25,
+      "c": 3,
+      "p": "South Seas Mandate",
+      "d": "1937-10-01"
+     },
+     {
+      "r": 25,
+      "c": 4,
+      "p": "South Seas Mandate",
+      "d": "1937-10-01",
+      "m": "male"
+     },
+     {
+      "r": 25,
+      "c": 5,
+      "p": "South Seas Mandate",
+      "d": "1937-10-01",
+      "m": "female"
+     },
+     {
+      "r": 26,
+      "c": 3,
+      "p": "Manchukuo",
+      "d": "1935-12-31"
+     },
+     {
+      "r": 26,
+      "c": 4,
+      "p": "Manchukuo",
+      "d": "1935-12-31",
+      "m": "male"
+     },
+     {
+      "r": 26,
+      "c": 5,
+      "p": "Manchukuo",
+      "d": "1935-12-31",
+      "m": "female"
+     },
+     {
+      "r": 27,
+      "c": 3,
+      "p": "Manchukuo",
+      "d": "1936-12-31"
+     },
+     {
+      "r": 27,
+      "c": 4,
+      "p": "Manchukuo",
+      "d": "1936-12-31",
+      "m": "male"
+     },
+     {
+      "r": 27,
+      "c": 5,
+      "p": "Manchukuo",
+      "d": "1936-12-31",
+      "m": "female"
+     },
+     {
+      "r": 28,
+      "c": 3,
+      "p": "吉林省",
+      "d": "1936-12-31"
+     },
+     {
+      "r": 29,
+      "c": 3,
+      "p": "龍江省",
+      "d": "1936-12-31"
+     },
+     {
+      "r": 30,
+      "c": 3,
+      "p": "黑河省",
+      "d": "1936-12-31"
+     },
+     {
+      "r": 31,
+      "c": 3,
+      "p": "三江省",
+      "d": "1936-12-31"
+     },
+     {
+      "r": 32,
+      "c": 3,
+      "p": "濱江省",
+      "d": "1936-12-31"
+     },
+     {
+      "r": 33,
+      "c": 3,
+      "p": "間島省",
+      "d": "1936-12-31"
+     },
+     {
+      "r": 34,
+      "c": 3,
+      "p": "安東省",
+      "d": "1936-12-31"
+     },
+     {
+      "r": 35,
+      "c": 3,
+      "p": "奉天省",
+      "d": "1936-12-31"
+     },
+     {
+      "r": 36,
+      "c": 3,
+      "p": "錦州省",
+      "d": "1936-12-31"
+     },
+     {
+      "r": 37,
+      "c": 3,
+      "p": "熱河省",
+      "d": "1936-12-31"
+     },
+     {
+      "r": 38,
+      "c": 3,
+      "p": "新京特別市",
+      "d": "1936-12-31"
+     },
+     {
+      "r": 39,
+      "c": 3,
+      "p": "哈爾濱特別市",
+      "d": "1936-12-31"
+     },
+     {
+      "r": 40,
+      "c": 3,
+      "p": "興安西省",
+      "d": "1936-12-31"
+     },
+     {
+      "r": 41,
+      "c": 3,
+      "p": "興安南省",
+      "d": "1936-12-31"
+     },
+     {
+      "r": 42,
+      "c": 3,
+      "p": "興安東省",
+      "d": "1936-12-31"
+     },
+     {
+      "r": 43,
+      "c": 3,
+      "p": "興安北省",
+      "d": "1936-12-31"
+     },
+     {
+      "r": 44,
+      "c": 3,
+      "p": "中國",
+      "d": "1936-12-31"
+     },
+     {
+      "r": 45,
+      "c": 3,
+      "p": "中國本部",
+      "d": "1936-12-31"
+     },
+     {
+      "r": 46,
+      "c": 3,
+      "p": "四川省",
+      "d": "1936-12-31"
+     },
+     {
+      "r": 47,
+      "c": 3,
+      "p": "山東省",
+      "d": "1936-12-31"
+     },
+     {
+      "r": 48,
+      "c": 3,
+      "p": "江蘇省",
+      "d": "1936-12-31"
+     },
+     {
+      "r": 49,
+      "c": 3,
+      "p": "河南省",
+      "d": "1936-12-31"
+     },
+     {
+      "r": 50,
+      "c": 3,
+      "p": "廣東省",
+      "d": "1936-12-31"
+     },
+     {
+      "r": 51,
+      "c": 3,
+      "p": "河北省",
+      "d": "1936-12-31"
+     },
+     {
+      "r": 52,
+      "c": 3,
+      "p": "湖南省",
+      "d": "1936-12-31"
+     },
+     {
+      "r": 53,
+      "c": 3,
+      "p": "湖北省",
+      "d": "1936-12-31"
+     },
+     {
+      "r": 54,
+      "c": 3,
+      "p": "安徽省",
+      "d": "1936-12-31"
+     },
+     {
+      "r": 55,
+      "c": 3,
+      "p": "浙江省",
+      "d": "1936-12-31"
+     },
+     {
+      "r": 56,
+      "c": 3,
+      "p": "江西省",
+      "d": "1936-12-31"
+     },
+     {
+      "r": 57,
+      "c": 3,
+      "p": "廣西省",
+      "d": "1936-12-31"
+     },
+     {
+      "r": 58,
+      "c": 3,
+      "p": "雲南省",
+      "d": "1936-12-31"
+     },
+     {
+      "r": 59,
+      "c": 3,
+      "p": "福建省",
+      "d": "1936-12-31"
+     },
+     {
+      "r": 60,
+      "c": 3,
+      "p": "山西省",
+      "d": "1936-12-31"
+     },
+     {
+      "r": 61,
+      "c": 3,
+      "p": "陝西省",
+      "d": "1936-12-31"
+     },
+     {
+      "r": 62,
+      "c": 3,
+      "p": "貴州省",
+      "d": "1936-12-31"
+     },
+     {
+      "r": 63,
+      "c": 3,
+      "p": "甘肅省",
+      "d": "1936-12-31"
+     },
+     {
+      "r": 64,
+      "c": 3,
+      "p": "內蒙古",
+      "d": "1936-12-31"
+     },
+     {
+      "r": 65,
+      "c": 3,
+      "p": "察哈爾省",
+      "d": "1936-12-31"
+     },
+     {
+      "r": 66,
+      "c": 3,
+      "p": "綏遠省",
+      "d": "1936-12-31"
+     },
+     {
+      "r": 67,
+      "c": 3,
+      "p": "寧夏省",
+      "d": "1936-12-31"
+     },
+     {
+      "r": 68,
+      "c": 3,
+      "p": "青海省",
+      "d": "1936-12-31"
+     },
+     {
+      "r": 69,
+      "c": 3,
+      "p": "西康省",
+      "d": "1936-12-31"
+     },
+     {
+      "r": 70,
+      "c": 3,
+      "p": "新疆省",
+      "d": "1936-12-31"
+     },
+     {
+      "r": 71,
+      "c": 3,
+      "p": "外蒙古",
+      "d": "1936-12-31"
+     },
+     {
+      "r": 72,
+      "c": 3,
+      "p": "西藏",
+      "d": "1936-12-31"
+     },
+     {
+      "r": 73,
+      "c": 3,
+      "p": "ソヴイエト聯邦(亞細亞の部)",
+      "d": "1933-01-01"
+     },
+     {
+      "r": 74,
+      "c": 3,
+      "p": "トルコ",
+      "d": "1927-10-28"
+     },
+     {
+      "r": 74,
+      "c": 4,
+      "p": "トルコ",
+      "d": "1927-10-28",
+      "m": "male"
+     },
+     {
+      "r": 74,
+      "c": 5,
+      "p": "トルコ",
+      "d": "1927-10-28",
+      "m": "female"
+     },
+     {
+      "r": 75,
+      "c": 3,
+      "p": "トルコ",
+      "d": "1935-10-20"
+     },
+     {
+      "r": 75,
+      "c": 4,
+      "p": "トルコ",
+      "d": "1935-10-20",
+      "m": "male"
+     },
+     {
+      "r": 75,
+      "c": 5,
+      "p": "トルコ",
+      "d": "1935-10-20",
+      "m": "female"
+     },
+     {
+      "r": 76,
+      "c": 3,
+      "p": "トルコ(亞細亞の部)",
+      "d": "1927-10-28"
+     },
+     {
+      "r": 76,
+      "c": 4,
+      "p": "トルコ(亞細亞の部)",
+      "d": "1927-10-28",
+      "m": "male"
+     },
+     {
+      "r": 76,
+      "c": 5,
+      "p": "トルコ(亞細亞の部)",
+      "d": "1927-10-28",
+      "m": "female"
+     },
+     {
+      "r": 77,
+      "c": 3,
+      "p": "トルコ(亞細亞の部)",
+      "d": "1935-10-20"
+     },
+     {
+      "r": 77,
+      "c": 4,
+      "p": "トルコ(亞細亞の部)",
+      "d": "1935-10-20",
+      "m": "male"
+     },
+     {
+      "r": 77,
+      "c": 5,
+      "p": "トルコ(亞細亞の部)",
+      "d": "1935-10-20",
+      "m": "female"
+     },
+     {
+      "r": 78,
+      "c": 3,
+      "p": "暹羅",
+      "d": "1929-07-15"
+     },
+     {
+      "r": 78,
+      "c": 4,
+      "p": "暹羅",
+      "d": "1929-07-15",
+      "m": "male"
+     },
+     {
+      "r": 78,
+      "c": 5,
+      "p": "暹羅",
+      "d": "1929-07-15",
+      "m": "female"
+     },
+     {
+      "r": 79,
+      "c": 3,
+      "p": "暹羅",
+      "d": "1937-05-23"
+     },
+     {
+      "r": 80,
+      "c": 3,
+      "p": "イラン(ペルシア)",
+      "d": "1935"
+     },
+     {
+      "r": 81,
+      "c": 3,
+      "p": "アフガニスタン",
+      "d": "1935"
+     },
+     {
+      "r": 82,
+      "c": 3,
+      "p": "ネパール",
+      "d": "1935"
+     },
+     {
+      "r": 83,
+      "c": 3,
+      "p": "スード・アラビア",
+      "d": "1934"
+     },
+     {
+      "r": 84,
+      "c": 3,
+      "p": "イラク",
+      "d": "1935"
+     },
+     {
+      "r": 85,
+      "c": 3,
+      "p": "エーメン",
+      "d": "1932"
+     },
+     {
+      "r": 86,
+      "c": 3,
+      "p": "オーマン",
+      "d": "1932"
+     },
+     {
+      "r": 87,
+      "c": 3,
+      "p": "ブータン",
+      "d": "1935"
+     },
+     {
+      "r": 88,
+      "c": 3,
+      "p": "トルシア",
+      "d": "1916"
+     },
+     {
+      "r": 89,
+      "c": 3,
+      "p": "コーウェート",
+      "d": "1931"
+     },
+     {
+      "r": 90,
+      "c": 3,
+      "p": "クアタル",
+      "d": "1931"
+     },
+     {
+      "r": 92,
+      "c": 3,
+      "p": "英吉利屬領(亞細亞の部)",
+      "d": "1931"
+     },
+     {
+      "r": 93,
+      "c": 3,
+      "p": "英領印度",
+      "d": "1931-02-24"
+     },
+     {
+      "r": 93,
+      "c": 4,
+      "p": "英領印度",
+      "d": "1931-02-24",
+      "m": "male"
+     },
+     {
+      "r": 93,
+      "c": 5,
+      "p": "英領印度",
+      "d": "1931-02-24",
+      "m": "female"
+     },
+     {
+      "r": 94,
+      "c": 3,
+      "p": "直轄地",
+      "d": "1931-02-24"
+     },
+     {
+      "r": 94,
+      "c": 4,
+      "p": "直轄地",
+      "d": "1931-02-24",
+      "m": "male"
+     },
+     {
+      "r": 94,
+      "c": 5,
+      "p": "直轄地",
+      "d": "1931-02-24",
+      "m": "female"
+     },
+     {
+      "r": 95,
+      "c": 3,
+      "p": "王侯領",
+      "d": "1931-02-24"
+     },
+     {
+      "r": 95,
+      "c": 4,
+      "p": "王侯領",
+      "d": "1931-02-24",
+      "m": "male"
+     },
+     {
+      "r": 95,
+      "c": 5,
+      "p": "王侯領",
+      "d": "1931-02-24",
+      "m": "female"
+     },
+     {
+      "r": 102,
+      "c": 3,
+      "p": "錫倫",
+      "d": "1937-12-31"
+     },
+     {
+      "r": 103,
+      "c": 3,
+      "p": "英領馬來",
+      "d": "1937-12-31"
+     },
+     {
+      "r": 104,
+      "c": 3,
+      "p": "馬來聯邦",
+      "d": "1937-12-31"
+     },
+     {
+      "r": 105,
+      "c": 3,
+      "p": "ペラク",
+      "d": "1937-06-30"
+     },
+     {
+      "r": 106,
+      "c": 3,
+      "p": "セランゴル",
+      "d": "1937-06-30"
+     },
+     {
+      "r": 107,
+      "c": 3,
+      "p": "ネグリ・センビラン",
+      "d": "1937-06-30"
+     },
+     {
+      "r": 108,
+      "c": 3,
+      "p": "パハン",
+      "d": "1937-06-30"
+     },
+     {
+      "r": 109,
+      "c": 3,
+      "p": "聯邦外諸邦",
+      "d": "1937-12-31"
+     },
+     {
+      "r": 110,
+      "c": 3,
+      "p": "ジョホール",
+      "d": "1937-12-31"
+     },
+     {
+      "r": 111,
+      "c": 3,
+      "p": "ケダー",
+      "d": "1937-12-31"
+     },
+     {
+      "r": 112,
+      "c": 3,
+      "p": "ケランタン",
+      "d": "1937-12-31"
+     },
+     {
+      "r": 113,
+      "c": 3,
+      "p": "トレンガヌ",
+      "d": "1937-12-31"
+     },
+     {
+      "r": 114,
+      "c": 3,
+      "p": "ペルリス",
+      "d": "1937-12-31"
+     },
+     {
+      "r": 115,
+      "c": 3,
+      "p": "海峽植民地",
+      "d": "1937-12-31"
+     },
+     {
+      "r": 116,
+      "c": 3,
+      "p": "シンガポール島",
+      "d": "1937-06-30"
+     },
+     {
+      "r": 117,
+      "c": 3,
+      "p": "ペナン島",
+      "d": "1937-06-30"
+     },
+     {
+      "r": 118,
+      "c": 3,
+      "p": "ウエレスレイ",
+      "d": "1937-06-30"
+     },
+     {
+      "r": 119,
+      "c": 3,
+      "p": "マラツカ",
+      "d": "1937-06-30"
+     },
+     {
+      "r": 120,
+      "c": 3,
+      "p": "ラブアン島",
+      "d": "1937-06-30"
+     },
+     {
+      "r": 121,
+      "c": 3,
+      "p": "クリスマス島",
+      "d": "1937-06-30"
+     },
+     {
+      "r": 122,
+      "c": 3,
+      "p": "ココス島",
+      "d": "1937-06-30"
+     },
+     {
+      "r": 123,
+      "c": 3,
+      "p": "香港",
+      "d": "1937-06-30"
+     },
+     {
+      "r": 123,
+      "c": 4,
+      "p": "香港",
+      "d": "1937-06-30",
+      "m": "male"
+     },
+     {
+      "r": 123,
+      "c": 5,
+      "p": "香港",
+      "d": "1937-06-30",
+      "m": "female"
+     },
+     {
+      "r": 124,
+      "c": 3,
+      "p": "英領ボルネオ",
+      "d": "1937-12-31"
+     },
+     {
+      "r": 125,
+      "c": 3,
+      "p": "サラワク",
+      "d": "1937-12-31"
+     },
+     {
+      "r": 126,
+      "c": 3,
+      "p": "北ボルネオ",
+      "d": "1937-12-31"
+     },
+     {
+      "r": 127,
+      "c": 3,
+      "p": "ブルネイ",
+      "d": "1937-12-31"
+     },
+     {
+      "r": 127,
+      "c": 4,
+      "p": "ブルネイ",
+      "d": "1937-12-31",
+      "m": "male"
+     },
+     {
+      "r": 127,
+      "c": 5,
+      "p": "ブルネイ",
+      "d": "1937-12-31",
+      "m": "female"
+     },
+     {
+      "r": 128,
+      "c": 3,
+      "p": "サイプラス(キプロス)島",
+      "d": "1937-12-31"
+     },
+     {
+      "r": 128,
+      "c": 4,
+      "p": "サイプラス(キプロス)島",
+      "d": "1937-12-31",
+      "m": "male"
+     },
+     {
+      "r": 128,
+      "c": 5,
+      "p": "サイプラス(キプロス)島",
+      "d": "1937-12-31",
+      "m": "female"
+     },
+     {
+      "r": 129,
+      "c": 3,
+      "p": "バーレイン諸島",
+      "d": "1931"
+     },
+     {
+      "r": 130,
+      "c": 3,
+      "p": "マルヂヴ諸島",
+      "d": "1931"
+     },
+     {
+      "r": 131,
+      "c": 3,
+      "p": "ソコトラ島",
+      "d": "1931"
+     },
+     {
+      "r": 132,
+      "c": 3,
+      "p": "クリア・ムリア諸島",
+      "d": "1931"
+     },
+     {
+      "r": 133,
+      "c": 3,
+      "p": "英吉利委任統治區域(亞細亞の部)",
+      "d": "1936"
+     },
+     {
+      "r": 134,
+      "c": 3,
+      "p": "パレスタイン",
+      "d": "1937-12-31"
+     },
+     {
+      "r": 134,
+      "c": 4,
+      "p": "パレスタイン",
+      "d": "1937-12-31",
+      "m": "male"
+     },
+     {
+      "r": 134,
+      "c": 5,
+      "p": "パレスタイン",
+      "d": "1937-12-31",
+      "m": "female"
+     },
+     {
+      "r": 135,
+      "c": 3,
+      "p": "トランスジョルダン",
+      "d": "1936"
+     },
+     {
+      "r": 136,
+      "c": 3,
+      "p": "佛蘭西屬領(亞細亞の部)",
+      "d": "1931"
+     },
+     {
+      "r": 137,
+      "c": 3,
+      "p": "佛領印度支那",
+      "d": "1936-07-01"
+     },
+     {
+      "r": 138,
+      "c": 3,
+      "p": "安南",
+      "d": "1936-07-01"
+     },
+     {
+      "r": 139,
+      "c": 3,
+      "p": "カンボチヤ",
+      "d": "1936-07-01"
+     },
+     {
+      "r": 140,
+      "c": 3,
+      "p": "交趾支那",
+      "d": "1936-07-01"
+     },
+     {
+      "r": 141,
+      "c": 3,
+      "p": "ラオス",
+      "d": "1936-07-01"
+     },
+     {
+      "r": 142,
+      "c": 3,
+      "p": "東京",
+      "d": "1936-07-01"
+     },
+     {
+      "r": 143,
+      "c": 3,
+      "p": "佛領印度",
+      "d": "1936-07-01"
+     },
+     {
+      "r": 144,
+      "c": 3,
+      "p": "ボンデシエリ",
+      "d": "1936"
+     },
+     {
+      "r": 145,
+      "c": 3,
+      "p": "カリカル",
+      "d": "1936"
+     },
+     {
+      "r": 146,
+      "c": 3,
+      "p": "シヤンデルナゴル",
+      "d": "1936"
+     },
+     {
+      "r": 147,
+      "c": 3,
+      "p": "マヘ",
+      "d": "1936"
+     },
+     {
+      "r": 148,
+      "c": 3,
+      "p": "ヤナオン",
+      "d": "1936"
+     },
+     {
+      "r": 149,
+      "c": 3,
+      "p": "廣州灣(租借地)",
+      "d": "1931"
+     },
+     {
+      "r": 150,
+      "c": 3,
+      "p": "シェーク・シェード",
+      "d": "1931"
+     },
+     {
+      "r": 152,
+      "c": 3,
+      "p": "シリア及リバノン",
+      "d": "1936"
+     },
+     {
+      "r": 153,
+      "c": 3,
+      "p": "伊太利屬領(亞細亞の部)",
+      "d": "1936-04-21"
+     },
+     {
+      "r": 154,
+      "c": 3,
+      "p": "エーゲ諸島",
+      "d": "1936-04-21"
+     },
+     {
+      "r": 161,
+      "c": 3,
+      "p": "天津(租借地)",
+      "d": "1936-04-21"
+     },
+     {
+      "r": 163,
+      "c": 3,
+      "p": "蘭領印度",
+      "d": "1930-10-07"
+     },
+     {
+      "r": 164,
+      "c": 3,
+      "p": "ジャヴァ島",
+      "d": "1930-10-07"
+     },
+     {
+      "r": 164,
+      "c": 4,
+      "p": "ジャヴァ島",
+      "d": "1930-10-07",
+      "m": "male"
+     },
+     {
+      "r": 164,
+      "c": 5,
+      "p": "ジャヴァ島",
+      "d": "1930-10-07",
+      "m": "female"
+     },
+     {
+      "r": 165,
+      "c": 3,
+      "p": "スマトラ島",
+      "d": "1930-10-07"
+     },
+     {
+      "r": 165,
+      "c": 4,
+      "p": "スマトラ島",
+      "d": "1930-10-07",
+      "m": "male"
+     },
+     {
+      "r": 165,
+      "c": 5,
+      "p": "スマトラ島",
+      "d": "1930-10-07",
+      "m": "female"
+     },
+     {
+      "r": 166,
+      "c": 3,
+      "p": "セレベス島",
+      "d": "1930-10-07"
+     },
+     {
+      "r": 166,
+      "c": 4,
+      "p": "セレベス島",
+      "d": "1930-10-07",
+      "m": "male"
+     },
+     {
+      "r": 166,
+      "c": 5,
+      "p": "セレベス島",
+      "d": "1930-10-07",
+      "m": "female"
+     },
+     {
+      "r": 167,
+      "c": 3,
+      "p": "蘭領ボルネオ",
+      "d": "1930-10-07"
+     },
+     {
+      "r": 167,
+      "c": 4,
+      "p": "蘭領ボルネオ",
+      "d": "1930-10-07",
+      "m": "male"
+     },
+     {
+      "r": 167,
+      "c": 5,
+      "p": "蘭領ボルネオ",
+      "d": "1930-10-07",
+      "m": "female"
+     },
+     {
+      "r": 168,
+      "c": 3,
+      "p": "マヅラ島",
+      "d": "1930-10-07"
+     },
+     {
+      "r": 168,
+      "c": 4,
+      "p": "マヅラ島",
+      "d": "1930-10-07",
+      "m": "male"
+     },
+     {
+      "r": 168,
+      "c": 5,
+      "p": "マヅラ島",
+      "d": "1930-10-07",
+      "m": "female"
+     },
+     {
+      "r": 169,
+      "c": 3,
+      "p": "バリ島",
+      "d": "1930-10-07"
+     },
+     {
+      "r": 169,
+      "c": 4,
+      "p": "バリ島",
+      "d": "1930-10-07",
+      "m": "male"
+     },
+     {
+      "r": 169,
+      "c": 5,
+      "p": "バリ島",
+      "d": "1930-10-07",
+      "m": "female"
+     },
+     {
+      "r": 170,
+      "c": 3,
+      "p": "フロレス島",
+      "d": "1930-10-07"
+     },
+     {
+      "r": 170,
+      "c": 4,
+      "p": "フロレス島",
+      "d": "1930-10-07",
+      "m": "male"
+     },
+     {
+      "r": 170,
+      "c": 5,
+      "p": "フロレス島",
+      "d": "1930-10-07",
+      "m": "female"
+     },
+     {
+      "r": 171,
+      "c": 3,
+      "p": "ロンボツク島",
+      "d": "1930-10-07"
+     },
+     {
+      "r": 171,
+      "c": 4,
+      "p": "ロンボツク島",
+      "d": "1930-10-07",
+      "m": "male"
+     },
+     {
+      "r": 171,
+      "c": 5,
+      "p": "ロンボツク島",
+      "d": "1930-10-07",
+      "m": "female"
+     },
+     {
+      "r": 172,
+      "c": 3,
+      "p": "モルツケン諸島",
+      "d": "1930-10-07"
+     },
+     {
+      "r": 173,
+      "c": 3,
+      "p": "蘭領チモル",
+      "d": "1930-10-07"
+     },
+     {
+      "r": 173,
+      "c": 4,
+      "p": "蘭領チモル",
+      "d": "1930-10-07",
+      "m": "male"
+     },
+     {
+      "r": 173,
+      "c": 5,
+      "p": "蘭領チモル",
+      "d": "1930-10-07",
+      "m": "female"
+     },
+     {
+      "r": 174,
+      "c": 3,
+      "p": "スンバワ島",
+      "d": "1930-10-07"
+     },
+     {
+      "r": 174,
+      "c": 4,
+      "p": "スンバワ島",
+      "d": "1930-10-07",
+      "m": "male"
+     },
+     {
+      "r": 174,
+      "c": 5,
+      "p": "スンバワ島",
+      "d": "1930-10-07",
+      "m": "female"
+     },
+     {
+      "r": 175,
+      "c": 3,
+      "p": "蘭領ニユーギニア",
+      "d": "1930-10-07"
+     },
+     {
+      "r": 176,
+      "c": 3,
+      "p": "スンバ島",
+      "d": "1930-10-07"
+     },
+     {
+      "r": 176,
+      "c": 4,
+      "p": "スンバ島",
+      "d": "1930-10-07",
+      "m": "male"
+     },
+     {
+      "r": 176,
+      "c": 5,
+      "p": "スンバ島",
+      "d": "1930-10-07",
+      "m": "female"
+     },
+     {
+      "r": 177,
+      "c": 3,
+      "p": "其ノ他諸島",
+      "d": "1930-10-07"
+     },
+     {
+      "r": 178,
+      "c": 3,
+      "p": "ポルトガル領(亞細亞の部)",
+      "d": "1931"
+     },
+     {
+      "r": 179,
+      "c": 3,
+      "p": "ポルトガル領印度",
+      "d": "1931"
+     },
+     {
+      "r": 179,
+      "c": 4,
+      "p": "ポルトガル領印度",
+      "d": "1931",
+      "m": "male"
+     },
+     {
+      "r": 179,
+      "c": 5,
+      "p": "ポルトガル領印度",
+      "d": "1931",
+      "m": "female"
+     },
+     {
+      "r": 180,
+      "c": 3,
+      "p": "ポルトガル領チモル",
+      "d": "1934"
+     },
+     {
+      "r": 181,
+      "c": 3,
+      "p": "澳門",
+      "d": "1935"
+     },
+     {
+      "r": 181,
+      "c": 4,
+      "p": "澳門",
+      "d": "1935",
+      "m": "male"
+     },
+     {
+      "r": 181,
+      "c": 5,
+      "p": "澳門",
+      "d": "1935",
+      "m": "female"
+     },
+     {
+      "r": 183,
+      "c": 3,
+      "p": "比律賓",
+      "d": "1935-06-30"
+     },
+     {
+      "r": 184,
+      "c": 3,
+      "p": "比律賓",
+      "d": "1936-06-30"
+     },
+     {
+      "r": 186,
+      "c": 3,
+      "p": "ソヴイエト聯邦",
+      "d": "1926-01-01"
+     },
+     {
+      "r": 186,
+      "c": 4,
+      "p": "ソヴイエト聯邦",
+      "d": "1926-01-01",
+      "m": "male"
+     },
+     {
+      "r": 186,
+      "c": 5,
+      "p": "ソヴイエト聯邦",
+      "d": "1926-01-01",
+      "m": "female"
+     },
+     {
+      "r": 187,
+      "c": 3,
+      "p": "ソヴイエト聯邦",
+      "d": "1933-01-01"
+     },
+     {
+      "r": 188,
+      "c": 3,
+      "p": "ロシヤ",
+      "d": "1933-01-01"
+     },
+     {
+      "r": 189,
+      "c": 3,
+      "p": "ウクライナ",
+      "d": "1933-01-01"
+     },
+     {
+      "r": 190,
+      "c": 3,
+      "p": "白ロシア",
+      "d": "1933-01-01"
+     },
+     {
+      "r": 191,
+      "c": 3,
+      "p": "トランスコーカシア",
+      "d": "1933-01-01"
+     },
+     {
+      "r": 192,
+      "c": 3,
+      "p": "アゼルバイヂヤン",
+      "d": "1933-01-01"
+     },
+     {
+      "r": 193,
+      "c": 3,
+      "p": "ジョージア",
+      "d": "1933-01-01"
+     },
+     {
+      "r": 194,
+      "c": 3,
+      "p": "アルメニア",
+      "d": "1933-01-01"
+     },
+     {
+      "r": 195,
+      "c": 3,
+      "p": "ウズベツク",
+      "d": "1933-01-01"
+     },
+     {
+      "r": 196,
+      "c": 3,
+      "p": "トルクメン",
+      "d": "1933-01-01"
+     },
+     {
+      "r": 197,
+      "c": 3,
+      "p": "タジク",
+      "d": "1933-01-01"
+     },
+     {
+      "r": 198,
+      "c": 3,
+      "p": "ソヴイエト聯邦(歐羅巴の部)",
+      "d": "1933-01-01"
+     },
+     {
+      "r": 199,
+      "c": 3,
+      "p": "獨逸",
+      "d": "1937-01-01"
+     },
+     {
+      "r": 200,
+      "c": 3,
+      "p": "獨逸",
+      "d": "1938-01-01"
+     },
+     {
+      "r": 201,
+      "c": 3,
+      "p": "獨逸(ザール地方を除く)",
+      "d": "1925-06-16"
+     },
+     {
+      "r": 201,
+      "c": 4,
+      "p": "獨逸(ザール地方を除く)",
+      "d": "1925-06-16",
+      "m": "male"
+     },
+     {
+      "r": 201,
+      "c": 5,
+      "p": "獨逸(ザール地方を除く)",
+      "d": "1925-06-16",
+      "m": "female"
+     },
+     {
+      "r": 202,
+      "c": 3,
+      "p": "獨逸(ザール地方を除く)",
+      "d": "1933-06-16"
+     },
+     {
+      "r": 202,
+      "c": 4,
+      "p": "獨逸(ザール地方を除く)",
+      "d": "1933-06-16",
+      "m": "male"
+     },
+     {
+      "r": 202,
+      "c": 5,
+      "p": "獨逸(ザール地方を除く)",
+      "d": "1933-06-16",
+      "m": "female"
+     },
+     {
+      "r": 203,
+      "c": 3,
+      "p": "ザール地方",
+      "d": "1935-06-25"
+     },
+     {
+      "r": 203,
+      "c": 4,
+      "p": "ザール地方",
+      "d": "1935-06-25",
+      "m": "male"
+     },
+     {
+      "r": 203,
+      "c": 5,
+      "p": "ザール地方",
+      "d": "1935-06-25",
+      "m": "female"
+     },
+     {
+      "r": 204,
+      "c": 3,
+      "p": "(B)英吉利(屬領及委任統治區域を含む)",
+      "d": "1931"
+     },
+     {
+      "r": 205,
+      "c": 3,
+      "p": "英吉利(本國)",
+      "d": "1937-06-30"
+     },
+     {
+      "r": 205,
+      "c": 4,
+      "p": "英吉利(本國)",
+      "d": "1937-06-30",
+      "m": "male"
+     },
+     {
+      "r": 205,
+      "c": 5,
+      "p": "英吉利(本國)",
+      "d": "1937-06-30",
+      "m": "female"
+     },
+     {
+      "r": 206,
+      "c": 3,
+      "p": "大ブリテン",
+      "d": "1931-04-26"
+     },
+     {
+      "r": 206,
+      "c": 4,
+      "p": "大ブリテン",
+      "d": "1931-04-26",
+      "m": "male"
+     },
+     {
+      "r": 206,
+      "c": 5,
+      "p": "大ブリテン",
+      "d": "1931-04-26",
+      "m": "female"
+     },
+     {
+      "r": 207,
+      "c": 3,
+      "p": "大ブリテン",
+      "d": "1937-06-30"
+     },
+     {
+      "r": 207,
+      "c": 4,
+      "p": "大ブリテン",
+      "d": "1937-06-30",
+      "m": "male"
+     },
+     {
+      "r": 207,
+      "c": 5,
+      "p": "大ブリテン",
+      "d": "1937-06-30",
+      "m": "female"
+     },
+     {
+      "r": 208,
+      "c": 3,
+      "p": "イングランド及ウエールス",
+      "d": "1931-04-26"
+     },
+     {
+      "r": 208,
+      "c": 4,
+      "p": "イングランド及ウエールス",
+      "d": "1931-04-26",
+      "m": "male"
+     },
+     {
+      "r": 208,
+      "c": 5,
+      "p": "イングランド及ウエールス",
+      "d": "1931-04-26",
+      "m": "female"
+     },
+     {
+      "r": 209,
+      "c": 3,
+      "p": "イングランド及ウエールス",
+      "d": "1937-06-30"
+     },
+     {
+      "r": 209,
+      "c": 4,
+      "p": "イングランド及ウエールス",
+      "d": "1937-06-30",
+      "m": "male"
+     },
+     {
+      "r": 209,
+      "c": 5,
+      "p": "イングランド及ウエールス",
+      "d": "1937-06-30",
+      "m": "female"
+     },
+     {
+      "r": 210,
+      "c": 3,
+      "p": "スコツトランド",
+      "d": "1931-04-26"
+     },
+     {
+      "r": 210,
+      "c": 4,
+      "p": "スコツトランド",
+      "d": "1931-04-26",
+      "m": "male"
+     },
+     {
+      "r": 210,
+      "c": 5,
+      "p": "スコツトランド",
+      "d": "1931-04-26",
+      "m": "female"
+     },
+     {
+      "r": 211,
+      "c": 3,
+      "p": "スコツトランド",
+      "d": "1937-06-30"
+     },
+     {
+      "r": 211,
+      "c": 4,
+      "p": "スコツトランド",
+      "d": "1937-06-30",
+      "m": "male"
+     },
+     {
+      "r": 211,
+      "c": 5,
+      "p": "スコツトランド",
+      "d": "1937-06-30",
+      "m": "female"
+     },
+     {
+      "r": 212,
+      "c": 3,
+      "p": "北部愛蘭",
+      "d": "1931"
+     },
+     {
+      "r": 213,
+      "c": 3,
+      "p": "北部愛蘭",
+      "d": "1937-02-28"
+     },
+     {
+      "r": 213,
+      "c": 4,
+      "p": "北部愛蘭",
+      "d": "1937-02-28",
+      "m": "male"
+     },
+     {
+      "r": 213,
+      "c": 5,
+      "p": "北部愛蘭",
+      "d": "1937-02-28",
+      "m": "female"
+     },
+     {
+      "r": 214,
+      "c": 3,
+      "p": "英吉利屬領",
+      "d": "1931"
+     },
+     {
+      "r": 215,
+      "c": 3,
+      "p": "英吉利屬領(歐羅巴の部)",
+      "d": "1931"
+     },
+     {
+      "r": 216,
+      "c": 3,
+      "p": "愛蘭自由國",
+      "d": "1936-04-26"
+     },
+     {
+      "r": 216,
+      "c": 4,
+      "p": "愛蘭自由國",
+      "d": "1936-04-26",
+      "m": "male"
+     },
+     {
+      "r": 216,
+      "c": 5,
+      "p": "愛蘭自由國",
+      "d": "1936-04-26",
+      "m": "female"
+     },
+     {
+      "r": 217,
+      "c": 3,
+      "p": "愛蘭自由國",
+      "d": "1937-06-30"
+     },
+     {
+      "r": 218,
+      "c": 3,
+      "p": "マルタ島",
+      "d": "1937-12-31"
+     },
+     {
+      "r": 218,
+      "c": 4,
+      "p": "マルタ島",
+      "d": "1937-12-31",
+      "m": "male"
+     },
+     {
+      "r": 218,
+      "c": 5,
+      "p": "マルタ島",
+      "d": "1937-12-31",
+      "m": "female"
+     },
+     {
+      "r": 219,
+      "c": 3,
+      "p": "海峽群島",
+      "d": "1937-12-31"
+     },
+     {
+      "r": 220,
+      "c": 3,
+      "p": "ジエルセイ島",
+      "d": "1937-12-31"
+     },
+     {
+      "r": 221,
+      "c": 3,
+      "p": "ゲルンセイ島",
+      "d": "1931-04-27"
+     },
+     {
+      "r": 222,
+      "c": 3,
+      "p": "アルダネイ島",
+      "d": "1931-04-27"
+     },
+     {
+      "r": 223,
+      "c": 3,
+      "p": "其ノ他諸島",
+      "d": "1931-04-27"
+     },
+     {
+      "r": 224,
+      "c": 3,
+      "p": "マン島",
+      "d": "1931-04-27"
+     },
+     {
+      "r": 224,
+      "c": 4,
+      "p": "マン島",
+      "d": "1931-04-27",
+      "m": "male"
+     },
+     {
+      "r": 224,
+      "c": 5,
+      "p": "マン島",
+      "d": "1931-04-27",
+      "m": "female"
+     },
+     {
+      "r": 225,
+      "c": 3,
+      "p": "ジブラルタル",
+      "d": "1937-12-31"
+     },
+     {
+      "r": 225,
+      "c": 4,
+      "p": "ジブラルタル",
+      "d": "1937-12-31",
+      "m": "male"
+     },
+     {
+      "r": 225,
+      "c": 5,
+      "p": "ジブラルタル",
+      "d": "1937-12-31",
+      "m": "female"
+     },
+     {
+      "r": 226,
+      "c": 3,
+      "p": "英吉利委任統治區域",
+      "d": "1931"
+     },
+     {
+      "r": 227,
+      "c": 3,
+      "p": "佛蘭西(屬領及委任統治區域を含む)",
+      "d": "1931"
+     },
+     {
+      "r": 228,
+      "c": 3,
+      "p": "佛蘭西(本國)",
+      "d": "1931-03-08"
+     },
+     {
+      "r": 229,
+      "c": 3,
+      "p": "佛蘭西(本國)",
+      "d": "1936-03-08"
+     },
+     {
+      "r": 230,
+      "c": 3,
+      "p": "佛蘭西(本國)",
+      "d": "1937-06-30"
+     },
+     {
+      "r": 232,
+      "c": 3,
+      "p": "佛蘭西屬領",
+      "d": "1931"
+     },
+     {
+      "r": 233,
+      "c": 3,
+      "p": "佛蘭西委任統治區域",
+      "d": "1935"
+     },
+     {
+      "r": 234,
+      "c": 3,
+      "p": "伊太利(屬領を含む)",
+      "d": "1936"
+     },
+     {
+      "r": 235,
+      "c": 3,
+      "p": "伊太利(本國)",
+      "d": "1931-04-21"
+     },
+     {
+      "r": 235,
+      "c": 4,
+      "p": "伊太利(本國)",
+      "d": "1931-04-21",
+      "m": "male"
+     },
+     {
+      "r": 235,
+      "c": 5,
+      "p": "伊太利(本國)",
+      "d": "1931-04-21",
+      "m": "female"
+     },
+     {
+      "r": 236,
+      "c": 3,
+      "p": "伊太利(本國)",
+      "d": "1936-04-21"
+     },
+     {
+      "r": 236,
+      "c": 4,
+      "p": "伊太利(本國)",
+      "d": "1936-04-21",
+      "m": "male"
+     },
+     {
+      "r": 236,
+      "c": 5,
+      "p": "伊太利(本國)",
+      "d": "1936-04-21",
+      "m": "female"
+     },
+     {
+      "r": 237,
+      "c": 3,
+      "p": "伊太利(本國)",
+      "d": "1937-12-31"
+     },
+     {
+      "r": 240,
+      "c": 3,
+      "p": "伊太利屬領",
+      "d": "1936"
+     },
+     {
+      "r": 241,
+      "c": 3,
+      "p": "ポーランド",
+      "d": "1931-12-09"
+     },
+     {
+      "r": 242,
+      "c": 3,
+      "p": "ポーランド",
+      "d": "1938-01-01"
+     },
+     {
+      "r": 243,
+      "c": 3,
+      "p": "西班牙(屬領を含む)",
+      "d": "1936"
+     },
+     {
+      "r": 244,
+      "c": 3,
+      "p": "西班牙(本國)",
+      "d": "1930-12-31"
+     },
+     {
+      "r": 244,
+      "c": 4,
+      "p": "西班牙(本國)",
+      "d": "1930-12-31",
+      "m": "male"
+     },
+     {
+      "r": 244,
+      "c": 5,
+      "p": "西班牙(本國)",
+      "d": "1930-12-31",
+      "m": "female"
+     },
+     {
+      "r": 245,
+      "c": 3,
+      "p": "西班牙(本國)",
+      "d": "1936-12-31"
+     },
+     {
+      "r": 248,
+      "c": 3,
+      "p": "西班牙屬領",
+      "d": "1936"
+     },
+     {
+      "r": 249,
+      "c": 3,
+      "p": "ルーマニア",
+      "d": "1930-12-29"
+     },
+     {
+      "r": 250,
+      "c": 3,
+      "p": "ルーマニア",
+      "d": "1937-12-31"
+     },
+     {
+      "r": 251,
+      "c": 3,
+      "p": "チエツコスロヴアキア",
+      "d": "1930-12-31"
+     },
+     {
+      "r": 251,
+      "c": 4,
+      "p": "チエツコスロヴアキア",
+      "d": "1930-12-31",
+      "m": "male"
+     },
+     {
+      "r": 251,
+      "c": 5,
+      "p": "チエツコスロヴアキア",
+      "d": "1930-12-31",
+      "m": "female"
+     },
+     {
+      "r": 252,
+      "c": 3,
+      "p": "チエツコスロヴアキア",
+      "d": "1936-06-30"
+     },
+     {
+      "r": 253,
+      "c": 3,
+      "p": "ユーゴースラヴイア",
+      "d": "1931-03-31"
+     },
+     {
+      "r": 253,
+      "c": 4,
+      "p": "ユーゴースラヴイア",
+      "d": "1931-03-31",
+      "m": "male"
+     },
+     {
+      "r": 253,
+      "c": 5,
+      "p": "ユーゴースラヴイア",
+      "d": "1931-03-31",
+      "m": "female"
+     },
+     {
+      "r": 254,
+      "c": 3,
+      "p": "ユーゴースラヴイア",
+      "d": "1937-12-31"
+     },
+     {
+      "r": 255,
+      "c": 3,
+      "p": "ハンガリー",
+      "d": "1930-12-31"
+     },
+     {
+      "r": 255,
+      "c": 4,
+      "p": "ハンガリー",
+      "d": "1930-12-31",
+      "m": "male"
+     },
+     {
+      "r": 255,
+      "c": 5,
+      "p": "ハンガリー",
+      "d": "1930-12-31",
+      "m": "female"
+     },
+     {
+      "r": 256,
+      "c": 3,
+      "p": "ハンガリー",
+      "d": "1936-12-31"
+     },
+     {
+      "r": 257,
+      "c": 3,
+      "p": "白耳義(屬領及委任統治區域を含む)",
+      "d": "1936"
+     },
+     {
+      "r": 258,
+      "c": 3,
+      "p": "白耳義(本國)",
+      "d": "1920-12-31"
+     },
+     {
+      "r": 258,
+      "c": 4,
+      "p": "白耳義(本國)",
+      "d": "1920-12-31",
+      "m": "male"
+     },
+     {
+      "r": 258,
+      "c": 5,
+      "p": "白耳義(本國)",
+      "d": "1920-12-31",
+      "m": "female"
+     },
+     {
+      "r": 259,
+      "c": 3,
+      "p": "白耳義(本國)",
+      "d": "1930-12-31"
+     },
+     {
+      "r": 259,
+      "c": 4,
+      "p": "白耳義(本國)",
+      "d": "1930-12-31",
+      "m": "male"
+     },
+     {
+      "r": 259,
+      "c": 5,
+      "p": "白耳義(本國)",
+      "d": "1930-12-31",
+      "m": "female"
+     },
+     {
+      "r": 260,
+      "c": 3,
+      "p": "白耳義(本國)",
+      "d": "1936-12-31"
+     },
+     {
+      "r": 261,
+      "c": 3,
+      "p": "白耳義屬領",
+      "d": "1936"
+     },
+     {
+      "r": 262,
+      "c": 3,
+      "p": "白耳義委任統治區域",
+      "d": "1936"
+     },
+     {
+      "r": 263,
+      "c": 3,
+      "p": "和蘭(屬領を含む)",
+      "d": "1930"
+     },
+     {
+      "r": 264,
+      "c": 3,
+      "p": "和蘭(本國)",
+      "d": "1920-12-31"
+     },
+     {
+      "r": 264,
+      "c": 4,
+      "p": "和蘭(本國)",
+      "d": "1920-12-31",
+      "m": "male"
+     },
+     {
+      "r": 264,
+      "c": 5,
+      "p": "和蘭(本國)",
+      "d": "1920-12-31",
+      "m": "female"
+     },
+     {
+      "r": 265,
+      "c": 3,
+      "p": "和蘭(本國)",
+      "d": "1930-12-31"
+     },
+     {
+      "r": 265,
+      "c": 4,
+      "p": "和蘭(本國)",
+      "d": "1930-12-31",
+      "m": "male"
+     },
+     {
+      "r": 265,
+      "c": 5,
+      "p": "和蘭(本國)",
+      "d": "1930-12-31",
+      "m": "female"
+     },
+     {
+      "r": 266,
+      "c": 3,
+      "p": "和蘭(本國)",
+      "d": "1937-12-31"
+     },
+     {
+      "r": 267,
+      "c": 3,
+      "p": "和蘭屬領",
+      "d": "1930"
+     },
+     {
+      "r": 268,
+      "c": 3,
+      "p": "ポルトガル(屬領を含む)",
+      "d": "1930"
+     },
+     {
+      "r": 269,
+      "c": 3,
+      "p": "ポルトガル(本國)",
+      "d": "1930-12-01"
+     },
+     {
+      "r": 269,
+      "c": 4,
+      "p": "ポルトガル(本國)",
+      "d": "1930-12-01",
+      "m": "male"
+     },
+     {
+      "r": 269,
+      "c": 5,
+      "p": "ポルトガル(本國)",
+      "d": "1930-12-01",
+      "m": "female"
+     },
+     {
+      "r": 273,
+      "c": 3,
+      "p": "ポルトガル屬領",
+      "d": "1931"
+     },
+     {
+      "r": 274,
+      "c": 3,
+      "p": "墺地利",
+      "d": "1930-03-22"
+     },
+     {
+      "r": 274,
+      "c": 4,
+      "p": "墺地利",
+      "d": "1930-03-22",
+      "m": "male"
+     },
+     {
+      "r": 274,
+      "c": 5,
+      "p": "墺地利",
+      "d": "1930-03-22",
+      "m": "female"
+     },
+     {
+      "r": 276,
+      "c": 3,
+      "p": "希臘",
+      "d": "1928-05-16"
+     },
+     {
+      "r": 276,
+      "c": 4,
+      "p": "希臘",
+      "d": "1928-05-16",
+      "m": "male"
+     },
+     {
+      "r": 276,
+      "c": 5,
+      "p": "希臘",
+      "d": "1928-05-16",
+      "m": "female"
+     },
+     {
+      "r": 278,
+      "c": 3,
+      "p": "瑞典",
+      "d": "1936-12-31"
+     },
+     {
+      "r": 278,
+      "c": 4,
+      "p": "瑞典",
+      "d": "1936-12-31",
+      "m": "male"
+     },
+     {
+      "r": 278,
+      "c": 5,
+      "p": "瑞典",
+      "d": "1936-12-31",
+      "m": "female"
+     },
+     {
+      "r": 280,
+      "c": 3,
+      "p": "ブルガリア",
+      "d": "1934-12-31"
+     },
+     {
+      "r": 280,
+      "c": 4,
+      "p": "ブルガリア",
+      "d": "1934-12-31",
+      "m": "male"
+     },
+     {
+      "r": 280,
+      "c": 5,
+      "p": "ブルガリア",
+      "d": "1934-12-31",
+      "m": "female"
+     },
+     {
+      "r": 282,
+      "c": 3,
+      "p": "瑞西",
+      "d": "1920-12-01"
+     },
+     {
+      "r": 282,
+      "c": 4,
+      "p": "瑞西",
+      "d": "1920-12-01",
+      "m": "male"
+     },
+     {
+      "r": 282,
+      "c": 5,
+      "p": "瑞西",
+      "d": "1920-12-01",
+      "m": "female"
+     },
+     {
+      "r": 285,
+      "c": 3,
+      "p": "フィンランド",
+      "d": "1930-12-31"
+     },
+     {
+      "r": 285,
+      "c": 4,
+      "p": "フィンランド",
+      "d": "1930-12-31",
+      "m": "male"
+     },
+     {
+      "r": 285,
+      "c": 5,
+      "p": "フィンランド",
+      "d": "1930-12-31",
+      "m": "female"
+     },
+     {
+      "r": 287,
+      "c": 3,
+      "p": "丁抹(屬領を含む)",
+      "d": "1930"
+     },
+     {
+      "r": 288,
+      "c": 3,
+      "p": "丁抹(本國)",
+      "d": "1935-11-05"
+     },
+     {
+      "r": 288,
+      "c": 4,
+      "p": "丁抹(本國)",
+      "d": "1935-11-05",
+      "m": "male"
+     },
+     {
+      "r": 288,
+      "c": 5,
+      "p": "丁抹(本國)",
+      "d": "1935-11-05",
+      "m": "female"
+     },
+     {
+      "r": 290,
+      "c": 3,
+      "p": "丁抹屬領",
+      "d": "1930"
+     },
+     {
+      "r": 292,
+      "c": 3,
+      "p": "フェーウァネ(フエロール)",
+      "d": "1935-11-05"
+     },
+     {
+      "r": 293,
+      "c": 3,
+      "p": "諾威(屬領を含む)",
+      "d": "1930-12-01"
+     },
+     {
+      "r": 294,
+      "c": 3,
+      "p": "諾威(本國)",
+      "d": "1930-12-01"
+     },
+     {
+      "r": 294,
+      "c": 4,
+      "p": "諾威(本國)",
+      "d": "1930-12-01",
+      "m": "male"
+     },
+     {
+      "r": 294,
+      "c": 5,
+      "p": "諾威(本國)",
+      "d": "1930-12-01",
+      "m": "female"
+     },
+     {
+      "r": 296,
+      "c": 3,
+      "p": "諾威屬領",
+      "d": "1930-12-01"
+     },
+     {
+      "r": 297,
+      "c": 3,
+      "p": "スヴァルバルド(スピッツベルゲン)",
+      "d": "1930-12-01"
+     },
+     {
+      "r": 298,
+      "c": 3,
+      "p": "ヤンマエン",
+      "d": "1930-12-01"
+     },
+     {
+      "r": 299,
+      "c": 3,
+      "p": "リスアニア",
+      "d": "1923"
+     },
+     {
+      "r": 299,
+      "c": 4,
+      "p": "リスアニア",
+      "d": "1923",
+      "m": "male"
+     },
+     {
+      "r": 299,
+      "c": 5,
+      "p": "リスアニア",
+      "d": "1923",
+      "m": "female"
+     },
+     {
+      "r": 301,
+      "c": 3,
+      "p": "ラトヴィア",
+      "d": "1935-02-12"
+     },
+     {
+      "r": 301,
+      "c": 4,
+      "p": "ラトヴィア",
+      "d": "1935-02-12",
+      "m": "male"
+     },
+     {
+      "r": 301,
+      "c": 5,
+      "p": "ラトヴィア",
+      "d": "1935-02-12",
+      "m": "female"
+     },
+     {
+      "r": 303,
+      "c": 3,
+      "p": "トルコ(歐羅巴の部)",
+      "d": "1927-10-28"
+     },
+     {
+      "r": 303,
+      "c": 4,
+      "p": "トルコ(歐羅巴の部)",
+      "d": "1927-10-28",
+      "m": "male"
+     },
+     {
+      "r": 303,
+      "c": 5,
+      "p": "トルコ(歐羅巴の部)",
+      "d": "1927-10-28",
+      "m": "female"
+     },
+     {
+      "r": 305,
+      "c": 3,
+      "p": "エストニア",
+      "d": "1934-03-01"
+     },
+     {
+      "r": 305,
+      "c": 4,
+      "p": "エストニア",
+      "d": "1934-03-01",
+      "m": "male"
+     },
+     {
+      "r": 305,
+      "c": 5,
+      "p": "エストニア",
+      "d": "1934-03-01",
+      "m": "female"
+     },
+     {
+      "r": 307,
+      "c": 3,
+      "p": "アルバニア",
+      "d": "1930-05-25"
+     },
+     {
+      "r": 308,
+      "c": 3,
+      "p": "ダンチヒ自由市",
+      "d": "1929-08-18"
+     },
+     {
+      "r": 308,
+      "c": 4,
+      "p": "ダンチヒ自由市",
+      "d": "1929-08-18",
+      "m": "male"
+     },
+     {
+      "r": 308,
+      "c": 5,
+      "p": "ダンチヒ自由市",
+      "d": "1929-08-18",
+      "m": "female"
+     },
+     {
+      "r": 310,
+      "c": 3,
+      "p": "ルクセンブルグ",
+      "d": "1935-12-31"
+     },
+     {
+      "r": 310,
+      "c": 4,
+      "p": "ルクセンブルグ",
+      "d": "1935-12-31",
+      "m": "male"
+     },
+     {
+      "r": 310,
+      "c": 5,
+      "p": "ルクセンブルグ",
+      "d": "1935-12-31",
+      "m": "female"
+     },
+     {
+      "r": 312,
+      "c": 3,
+      "p": "アイスランド",
+      "d": "1930-12-01"
+     },
+     {
+      "r": 312,
+      "c": 4,
+      "p": "アイスランド",
+      "d": "1930-12-01",
+      "m": "male"
+     },
+     {
+      "r": 312,
+      "c": 5,
+      "p": "アイスランド",
+      "d": "1930-12-01",
+      "m": "female"
+     },
+     {
+      "r": 314,
+      "c": 3,
+      "p": "モナコ",
+      "d": "1933-01-01"
+     },
+     {
+      "r": 315,
+      "c": 3,
+      "p": "サンマリノ",
+      "d": "1932"
+     },
+     {
+      "r": 316,
+      "c": 3,
+      "p": "リヒテンシュタイン",
+      "d": "1930"
+     },
+     {
+      "r": 317,
+      "c": 3,
+      "p": "アンドラ",
+      "d": "1934"
+     },
+     {
+      "r": 318,
+      "c": 3,
+      "p": "ヴアティカン市",
+      "d": "1932-12-31"
+     },
+     {
+      "r": 318,
+      "c": 4,
+      "p": "ヴアティカン市",
+      "d": "1932-12-31",
+      "m": "male"
+     },
+     {
+      "r": 318,
+      "c": 5,
+      "p": "ヴアティカン市",
+      "d": "1932-12-31",
+      "m": "female"
+     },
+     {
+      "r": 320,
+      "c": 3,
+      "p": "北米合衆國(屬領を含む)",
+      "d": "1930"
+     },
+     {
+      "r": 321,
+      "c": 3,
+      "p": "北米合衆國(本國)",
+      "d": "1920-01-01"
+     },
+     {
+      "r": 321,
+      "c": 4,
+      "p": "北米合衆國(本國)",
+      "d": "1920-01-01",
+      "m": "male"
+     },
+     {
+      "r": 321,
+      "c": 5,
+      "p": "北米合衆國(本國)",
+      "d": "1920-01-01",
+      "m": "female"
+     },
+     {
+      "r": 325,
+      "c": 3,
+      "p": "ニューイングランド地方",
+      "d": "1935-06-30"
+     },
+     {
+      "r": 326,
+      "c": 3,
+      "p": "メイン州",
+      "d": "1935-06-30"
+     },
+     {
+      "r": 327,
+      "c": 3,
+      "p": "ニュー・ハンプシヤイア州",
+      "d": "1935-06-30"
+     },
+     {
+      "r": 328,
+      "c": 3,
+      "p": "ヴアーモント州",
+      "d": "1935-06-30"
+     },
+     {
+      "r": 329,
+      "c": 3,
+      "p": "マサチユーセツツ州",
+      "d": "1935-06-30"
+     },
+     {
+      "r": 330,
+      "c": 3,
+      "p": "ロードアイランド州",
+      "d": "1935-06-30"
+     },
+     {
+      "r": 331,
+      "c": 3,
+      "p": "コンネチカツト州",
+      "d": "1935-06-30"
+     },
+     {
+      "r": 332,
+      "c": 3,
+      "p": "中央大西洋沿岸地方",
+      "d": "1935-06-30"
+     },
+     {
+      "r": 333,
+      "c": 3,
+      "p": "ニューヨーク州",
+      "d": "1935-06-30"
+     },
+     {
+      "r": 334,
+      "c": 3,
+      "p": "ニュージヤーシー州",
+      "d": "1935-06-30"
+     },
+     {
+      "r": 335,
+      "c": 3,
+      "p": "ペンシルヴアニア州",
+      "d": "1935-06-30"
+     },
+     {
+      "r": 336,
+      "c": 3,
+      "p": "東北中部地方",
+      "d": "1935-06-30"
+     },
+     {
+      "r": 337,
+      "c": 3,
+      "p": "オハイオ州",
+      "d": "1935-06-30"
+     },
+     {
+      "r": 338,
+      "c": 3,
+      "p": "インヂアナ州",
+      "d": "1935-06-30"
+     },
+     {
+      "r": 339,
+      "c": 3,
+      "p": "イリノイ州",
+      "d": "1935-06-30"
+     },
+     {
+      "r": 340,
+      "c": 3,
+      "p": "ミシガン州",
+      "d": "1935-06-30"
+     },
+     {
+      "r": 341,
+      "c": 3,
+      "p": "ウイスコンシン州",
+      "d": "1935-06-30"
+     },
+     {
+      "r": 342,
+      "c": 3,
+      "p": "西北中部地方",
+      "d": "1935-06-30"
+     },
+     {
+      "r": 343,
+      "c": 3,
+      "p": "ミネソタ州",
+      "d": "1935-06-30"
+     },
+     {
+      "r": 344,
+      "c": 3,
+      "p": "アイオワ州",
+      "d": "1935-06-30"
+     },
+     {
+      "r": 345,
+      "c": 3,
+      "p": "ミズーリ州",
+      "d": "1935-06-30"
+     },
+     {
+      "r": 346,
+      "c": 3,
+      "p": "北ダコタ州",
+      "d": "1935-06-30"
+     },
+     {
+      "r": 347,
+      "c": 3,
+      "p": "南ダコタ州",
+      "d": "1935-06-30"
+     },
+     {
+      "r": 348,
+      "c": 3,
+      "p": "ネブラスカ州",
+      "d": "1935-06-30"
+     },
+     {
+      "r": 349,
+      "c": 3,
+      "p": "カンサス州",
+      "d": "1935-06-30"
+     },
+     {
+      "r": 350,
+      "c": 3,
+      "p": "南大西洋沿岸地方",
+      "d": "1935-06-30"
+     },
+     {
+      "r": 351,
+      "c": 3,
+      "p": "デラウエアー州",
+      "d": "1935-06-30"
+     },
+     {
+      "r": 352,
+      "c": 3,
+      "p": "メリーランド州",
+      "d": "1935-06-30"
+     },
+     {
+      "r": 353,
+      "c": 3,
+      "p": "コロンビア區",
+      "d": "1935-06-30"
+     },
+     {
+      "r": 354,
+      "c": 3,
+      "p": "ヴアージニア州",
+      "d": "1935-06-30"
+     },
+     {
+      "r": 355,
+      "c": 3,
+      "p": "西ヴアージニア州",
+      "d": "1935-06-30"
+     },
+     {
+      "r": 356,
+      "c": 3,
+      "p": "北カロライナ州",
+      "d": "1935-06-30"
+     },
+     {
+      "r": 357,
+      "c": 3,
+      "p": "南カロライナ州",
+      "d": "1935-06-30"
+     },
+     {
+      "r": 358,
+      "c": 3,
+      "p": "ジヨージア州",
+      "d": "1935-06-30"
+     },
+     {
+      "r": 359,
+      "c": 3,
+      "p": "フロリダ州",
+      "d": "1935-06-30"
+     },
+     {
+      "r": 360,
+      "c": 3,
+      "p": "東南中部地方",
+      "d": "1935-06-30"
+     },
+     {
+      "r": 361,
+      "c": 3,
+      "p": "ケンタツキー州",
+      "d": "1935-06-30"
+     },
+     {
+      "r": 362,
+      "c": 3,
+      "p": "テンネツシー州",
+      "d": "1935-06-30"
+     },
+     {
+      "r": 363,
+      "c": 3,
+      "p": "アラバマ州",
+      "d": "1935-06-30"
+     },
+     {
+      "r": 364,
+      "c": 3,
+      "p": "ミシシツピ州",
+      "d": "1935-06-30"
+     },
+     {
+      "r": 365,
+      "c": 3,
+      "p": "西南中部地方",
+      "d": "1935-06-30"
+     },
+     {
+      "r": 366,
+      "c": 3,
+      "p": "アーカンサス州",
+      "d": "1935-06-30"
+     },
+     {
+      "r": 367,
+      "c": 3,
+      "p": "ルイジアナ州",
+      "d": "1935-06-30"
+     },
+     {
+      "r": 368,
+      "c": 3,
+      "p": "オクラホマ州",
+      "d": "1935-06-30"
+     },
+     {
+      "r": 369,
+      "c": 3,
+      "p": "テキサス州",
+      "d": "1935-06-30"
+     },
+     {
+      "r": 370,
+      "c": 3,
+      "p": "山嶽地方",
+      "d": "1935-06-30"
+     },
+     {
+      "r": 371,
+      "c": 3,
+      "p": "モンタナ州",
+      "d": "1935-06-30"
+     },
+     {
+      "r": 372,
+      "c": 3,
+      "p": "アイダホ州",
+      "d": "1935-06-30"
+     },
+     {
+      "r": 373,
+      "c": 3,
+      "p": "ワイオミング州",
+      "d": "1935-06-30"
+     },
+     {
+      "r": 374,
+      "c": 3,
+      "p": "コロラド州",
+      "d": "1935-06-30"
+     },
+     {
+      "r": 375,
+      "c": 3,
+      "p": "ニューメキシコ州",
+      "d": "1935-06-30"
+     },
+     {
+      "r": 376,
+      "c": 3,
+      "p": "アリゾナ州",
+      "d": "1935-06-30"
+     },
+     {
+      "r": 377,
+      "c": 3,
+      "p": "ユター州",
+      "d": "1935-06-30"
+     },
+     {
+      "r": 378,
+      "c": 3,
+      "p": "ネヴアダ州",
+      "d": "1935-06-30"
+     },
+     {
+      "r": 379,
+      "c": 3,
+      "p": "太平洋沿岸地方",
+      "d": "1935-06-30"
+     },
+     {
+      "r": 380,
+      "c": 3,
+      "p": "ワシントン州",
+      "d": "1935-06-30"
+     },
+     {
+      "r": 381,
+      "c": 3,
+      "p": "オレゴン州",
+      "d": "1935-06-30"
+     },
+     {
+      "r": 382,
+      "c": 3,
+      "p": "カリフオルニア州",
+      "d": "1935-06-30"
+     },
+     {
+      "r": 383,
+      "c": 3,
+      "p": "北米合衆國屬領",
+      "d": "1930"
+     },
+     {
+      "r": 384,
+      "c": 3,
+      "p": "北米合衆國屬領(北亞米利加の部)",
+      "d": "1936-12-31"
+     },
+     {
+      "r": 385,
+      "c": 3,
+      "p": "ポート・リコ",
+      "d": "1936-12-31"
+     },
+     {
+      "r": 386,
+      "c": 3,
+      "p": "アラスカ",
+      "d": "1936-12-31"
+     },
+     {
+      "r": 387,
+      "c": 3,
+      "p": "パナマ運河地帶",
+      "d": "1936-12-31"
+     },
+     {
+      "r": 388,
+      "c": 3,
+      "p": "ヴアージン群島",
+      "d": "1936-12-31"
+     },
+     {
+      "r": 389,
+      "c": 3,
+      "p": "メキシコ",
+      "d": "1930-05-15"
+     },
+     {
+      "r": 389,
+      "c": 4,
+      "p": "メキシコ",
+      "d": "1930-05-15",
+      "m": "male"
+     },
+     {
+      "r": 389,
+      "c": 5,
+      "p": "メキシコ",
+      "d": "1930-05-15",
+      "m": "female"
+     },
+     {
+      "r": 391,
+      "c": 3,
+      "p": "キユーバ",
+      "d": "1931-09-21"
+     },
+     {
+      "r": 393,
+      "c": 3,
+      "p": "ハイティ",
+      "d": "1936-12-31"
+     },
+     {
+      "r": 394,
+      "c": 3,
+      "p": "グアテマラ",
+      "d": "1936-12-31"
+     },
+     {
+      "r": 396,
+      "c": 3,
+      "p": "サルヴアドル",
+      "d": "1930-05-01"
+     },
+     {
+      "r": 396,
+      "c": 4,
+      "p": "サルヴアドル",
+      "d": "1930-05-01",
+      "m": "male"
+     },
+     {
+      "r": 396,
+      "c": 5,
+      "p": "サルヴアドル",
+      "d": "1930-05-01",
+      "m": "female"
+     },
+     {
+      "r": 398,
+      "c": 3,
+      "p": "ドミニカ",
+      "d": "1935-05-13"
+     },
+     {
+      "r": 398,
+      "c": 4,
+      "p": "ドミニカ",
+      "d": "1935-05-13",
+      "m": "male"
+     },
+     {
+      "r": 398,
+      "c": 5,
+      "p": "ドミニカ",
+      "d": "1935-05-13",
+      "m": "female"
+     },
+     {
+      "r": 400,
+      "c": 3,
+      "p": "ホンヂユラス",
+      "d": "1935-06-30"
+     },
+     {
+      "r": 400,
+      "c": 4,
+      "p": "ホンヂユラス",
+      "d": "1935-06-30",
+      "m": "male"
+     },
+     {
+      "r": 400,
+      "c": 5,
+      "p": "ホンヂユラス",
+      "d": "1935-06-30",
+      "m": "female"
+     },
+     {
+      "r": 402,
+      "c": 3,
+      "p": "ニカラグア",
+      "d": "1936-12-31"
+     },
+     {
+      "r": 403,
+      "c": 3,
+      "p": "コスタリカ",
+      "d": "1927-05-11"
+     },
+     {
+      "r": 403,
+      "c": 4,
+      "p": "コスタリカ",
+      "d": "1927-05-11",
+      "m": "male"
+     },
+     {
+      "r": 403,
+      "c": 5,
+      "p": "コスタリカ",
+      "d": "1927-05-11",
+      "m": "female"
+     },
+     {
+      "r": 405,
+      "c": 3,
+      "p": "パナマ",
+      "d": "1930-01-01"
+     },
+     {
+      "r": 405,
+      "c": 4,
+      "p": "パナマ",
+      "d": "1930-01-01",
+      "m": "male"
+     },
+     {
+      "r": 405,
+      "c": 5,
+      "p": "パナマ",
+      "d": "1930-01-01",
+      "m": "female"
+     },
+     {
+      "r": 407,
+      "c": 3,
+      "p": "英吉利屬領(北亞米利加の部)",
+      "d": "1931"
+     },
+     {
+      "r": 408,
+      "c": 3,
+      "p": "カナダ",
+      "d": "1921-06-01"
+     },
+     {
+      "r": 408,
+      "c": 4,
+      "p": "カナダ",
+      "d": "1921-06-01",
+      "m": "male"
+     },
+     {
+      "r": 408,
+      "c": 5,
+      "p": "カナダ",
+      "d": "1921-06-01",
+      "m": "female"
+     },
+     {
+      "r": 411,
+      "c": 3,
+      "p": "英領西印度諸島",
+      "d": "1936"
+     },
+     {
+      "r": 412,
+      "c": 3,
+      "p": "ジヤマイカ",
+      "d": "1937-12-31"
+     },
+     {
+      "r": 412,
+      "c": 4,
+      "p": "ジヤマイカ",
+      "d": "1937-12-31",
+      "m": "male"
+     },
+     {
+      "r": 412,
+      "c": 5,
+      "p": "ジヤマイカ",
+      "d": "1937-12-31",
+      "m": "female"
+     },
+     {
+      "r": 413,
+      "c": 3,
+      "p": "トリニダート",
+      "d": "1937-12-31"
+     },
+     {
+      "r": 413,
+      "c": 4,
+      "p": "トリニダート",
+      "d": "1937-12-31",
+      "m": "male"
+     },
+     {
+      "r": 413,
+      "c": 5,
+      "p": "トリニダート",
+      "d": "1937-12-31",
+      "m": "female"
+     },
+     {
+      "r": 414,
+      "c": 3,
+      "p": "バルバドス",
+      "d": "1937-12-31"
+     },
+     {
+      "r": 414,
+      "c": 4,
+      "p": "バルバドス",
+      "d": "1937-12-31",
+      "m": "male"
+     },
+     {
+      "r": 414,
+      "c": 5,
+      "p": "バルバドス",
+      "d": "1937-12-31",
+      "m": "female"
+     },
+     {
+      "r": 415,
+      "c": 3,
+      "p": "リワード",
+      "d": "1936-12-31"
+     },
+     {
+      "r": 416,
+      "c": 3,
+      "p": "ドミニカ島",
+      "d": "1936-12-31"
+     },
+     {
+      "r": 417,
+      "c": 3,
+      "p": "アンティグア島",
+      "d": "1936-12-31"
+     },
+     {
+      "r": 419,
+      "c": 3,
+      "p": "ヴアージン諸島",
+      "d": "1936-12-31"
+     },
+     {
+      "r": 421,
+      "c": 3,
+      "p": "ネビス島",
+      "d": "1936-12-31"
+     },
+     {
+      "r": 423,
+      "c": 3,
+      "p": "モンツエラツト島",
+      "d": "1936-12-31"
+     },
+     {
+      "r": 424,
+      "c": 3,
+      "p": "グレナダ",
+      "d": "1936-12-31"
+     },
+     {
+      "r": 425,
+      "c": 3,
+      "p": "バハマ",
+      "d": "1937-12-31"
+     },
+     {
+      "r": 425,
+      "c": 4,
+      "p": "バハマ",
+      "d": "1937-12-31",
+      "m": "male"
+     },
+     {
+      "r": 425,
+      "c": 5,
+      "p": "バハマ",
+      "d": "1937-12-31",
+      "m": "female"
+     },
+     {
+      "r": 440,
+      "c": 3,
+      "p": "セント・ルシア",
+      "d": "1937-12-31"
+     },
+     {
+      "r": 440,
+      "c": 4,
+      "p": "セント・ルシア",
+      "d": "1937-12-31",
+      "m": "male"
+     },
+     {
+      "r": 440,
+      "c": 5,
+      "p": "セント・ルシア",
+      "d": "1937-12-31",
+      "m": "female"
+     },
+     {
+      "r": 441,
+      "c": 3,
+      "p": "セント・ヴインセント",
+      "d": "1937-12-31"
+     },
+     {
+      "r": 442,
+      "c": 3,
+      "p": "トバコ",
+      "d": "1937-12-31"
+     },
+     {
+      "r": 442,
+      "c": 4,
+      "p": "トバコ",
+      "d": "1937-12-31",
+      "m": "male"
+     },
+     {
+      "r": 442,
+      "c": 5,
+      "p": "トバコ",
+      "d": "1937-12-31",
+      "m": "female"
+     },
+     {
+      "r": 443,
+      "c": 3,
+      "p": "ケイマン諸島",
+      "d": "1937-12-31"
+     },
+     {
+      "r": 444,
+      "c": 3,
+      "p": "タークス及ケイコス諸島",
+      "d": "1937-12-31"
+     },
+     {
+      "r": 445,
+      "c": 3,
+      "p": "ニユー・フアウンドランド",
+      "d": "1937-12-31"
+     },
+     {
+      "r": 445,
+      "c": 4,
+      "p": "ニユー・フアウンドランド",
+      "d": "1937-12-31",
+      "m": "male"
+     },
+     {
+      "r": 445,
+      "c": 5,
+      "p": "ニユー・フアウンドランド",
+      "d": "1937-12-31",
+      "m": "female"
+     },
+     {
+      "r": 446,
+      "c": 3,
+      "p": "英領ホンヂユラス",
+      "d": "1937-12-31"
+     },
+     {
+      "r": 446,
+      "c": 4,
+      "p": "英領ホンヂユラス",
+      "d": "1937-12-31",
+      "m": "male"
+     },
+     {
+      "r": 446,
+      "c": 5,
+      "p": "英領ホンヂユラス",
+      "d": "1937-12-31",
+      "m": "female"
+     },
+     {
+      "r": 447,
+      "c": 3,
+      "p": "ベルムダ",
+      "d": "1937-12-31"
+     },
+     {
+      "r": 447,
+      "c": 4,
+      "p": "ベルムダ",
+      "d": "1937-12-31",
+      "m": "male"
+     },
+     {
+      "r": 447,
+      "c": 5,
+      "p": "ベルムダ",
+      "d": "1937-12-31",
+      "m": "female"
+     },
+     {
+      "r": 448,
+      "c": 3,
+      "p": "ラブラドル",
+      "d": "1937-12-31"
+     },
+     {
+      "r": 448,
+      "c": 4,
+      "p": "ラブラドル",
+      "d": "1937-12-31",
+      "m": "male"
+     },
+     {
+      "r": 448,
+      "c": 5,
+      "p": "ラブラドル",
+      "d": "1937-12-31",
+      "m": "female"
+     },
+     {
+      "r": 449,
+      "c": 3,
+      "p": "佛蘭西屬領(北亞米利加の部)",
+      "d": "1936-07-01"
+     },
+     {
+      "r": 450,
+      "c": 3,
+      "p": "グアドループ",
+      "d": "1936-07-01"
+     },
+     {
+      "r": 451,
+      "c": 3,
+      "p": "マルチニツク",
+      "d": "1936-07-01"
+     },
+     {
+      "r": 452,
+      "c": 3,
+      "p": "セントピエール及ミクロン",
+      "d": "1936-07-01"
+     },
+     {
+      "r": 454,
+      "c": 3,
+      "p": "キユラサオ諸島",
+      "d": "1936-12-31"
+     },
+     {
+      "r": 455,
+      "c": 3,
+      "p": "キユラサオ島",
+      "d": "1936-12-31"
+     },
+     {
+      "r": 456,
+      "c": 3,
+      "p": "アルバ島",
+      "d": "1936-12-31"
+     },
+     {
+      "r": 457,
+      "c": 3,
+      "p": "ボネアー島",
+      "d": "1936-12-31"
+     },
+     {
+      "r": 458,
+      "c": 3,
+      "p": "セント・マルチン島",
+      "d": "1936-12-31"
+     },
+     {
+      "r": 459,
+      "c": 3,
+      "p": "セント・イウスタテイス島",
+      "d": "1936-12-31"
+     },
+     {
+      "r": 460,
+      "c": 3,
+      "p": "サバ島",
+      "d": "1936-12-31"
+     },
+     {
+      "r": 462,
+      "c": 3,
+      "p": "グリーンランド",
+      "d": "1930-10-01"
+     },
+     {
+      "r": 462,
+      "c": 4,
+      "p": "グリーンランド",
+      "d": "1930-10-01",
+      "m": "male"
+     },
+     {
+      "r": 462,
+      "c": 5,
+      "p": "グリーンランド",
+      "d": "1930-10-01",
+      "m": "female"
+     },
+     {
+      "r": 464,
+      "c": 3,
+      "p": "ブラジル",
+      "d": "1936-12-31"
+     },
+     {
+      "r": 465,
+      "c": 3,
+      "p": "アルゼンティン",
+      "d": "1938-01-01"
+     },
+     {
+      "r": 466,
+      "c": 3,
+      "p": "コロンビア",
+      "d": "1928-11-16"
+     },
+     {
+      "r": 466,
+      "c": 4,
+      "p": "コロンビア",
+      "d": "1928-11-16",
+      "m": "male"
+     },
+     {
+      "r": 466,
+      "c": 5,
+      "p": "コロンビア",
+      "d": "1928-11-16",
+      "m": "female"
+     },
+     {
+      "r": 468,
+      "c": 3,
+      "p": "ペルー",
+      "d": "1936-12-31"
+     },
+     {
+      "r": 469,
+      "c": 3,
+      "p": "チリ",
+      "d": "1930-11-27"
+     },
+     {
+      "r": 469,
+      "c": 4,
+      "p": "チリ",
+      "d": "1930-11-27",
+      "m": "male"
+     },
+     {
+      "r": 469,
+      "c": 5,
+      "p": "チリ",
+      "d": "1930-11-27",
+      "m": "female"
+     },
+     {
+      "r": 471,
+      "c": 3,
+      "p": "ヴエネズエラ",
+      "d": "1936"
+     },
+     {
+      "r": 472,
+      "c": 3,
+      "p": "ボリヴィア",
+      "d": "1931-12-31"
+     },
+     {
+      "r": 474,
+      "c": 3,
+      "p": "エクアドル",
+      "d": "1936-12-31"
+     },
+     {
+      "r": 475,
+      "c": 3,
+      "p": "ウルグアイ",
+      "d": "1936-12-31"
+     },
+     {
+      "r": 477,
+      "c": 3,
+      "p": "パラグアイ",
+      "d": "1936"
+     },
+     {
+      "r": 478,
+      "c": 3,
+      "p": "英吉利屬領(南亞米利加の部)",
+      "d": "1936"
+     },
+     {
+      "r": 478,
+      "c": 4,
+      "p": "英吉利屬領(南亞米利加の部)",
+      "d": "1936",
+      "m": "male"
+     },
+     {
+      "r": 478,
+      "c": 5,
+      "p": "英吉利屬領(南亞米利加の部)",
+      "d": "1936",
+      "m": "female"
+     },
+     {
+      "r": 479,
+      "c": 3,
+      "p": "英領ギヤナ",
+      "d": "1937-12-31"
+     },
+     {
+      "r": 479,
+      "c": 4,
+      "p": "英領ギヤナ",
+      "d": "1937-12-31",
+      "m": "male"
+     },
+     {
+      "r": 479,
+      "c": 5,
+      "p": "英領ギヤナ",
+      "d": "1937-12-31",
+      "m": "female"
+     },
+     {
+      "r": 480,
+      "c": 3,
+      "p": "フオークランド諸島",
+      "d": "1936"
+     },
+     {
+      "r": 480,
+      "c": 4,
+      "p": "フオークランド諸島",
+      "d": "1936",
+      "m": "male"
+     },
+     {
+      "r": 480,
+      "c": 5,
+      "p": "フオークランド諸島",
+      "d": "1936",
+      "m": "female"
+     },
+     {
+      "r": 481,
+      "c": 3,
+      "p": "南ジヨージア",
+      "d": "1936"
+     },
+     {
+      "r": 481,
+      "c": 4,
+      "p": "南ジヨージア",
+      "d": "1936",
+      "m": "male"
+     },
+     {
+      "r": 481,
+      "c": 5,
+      "p": "南ジヨージア",
+      "d": "1936",
+      "m": "female"
+     },
+     {
+      "r": 483,
+      "c": 3,
+      "p": "佛領ギヤナ",
+      "d": "1936-07-01"
+     },
+     {
+      "r": 485,
+      "c": 3,
+      "p": "蘭領ギヤナ(スリナム)",
+      "d": "1936-12-31"
+     },
+     {
+      "r": 487,
+      "c": 3,
+      "p": "エジプト",
+      "d": "1937-03-26"
+     },
+     {
+      "r": 487,
+      "c": 4,
+      "p": "エジプト",
+      "d": "1937-03-26",
+      "m": "male"
+     },
+     {
+      "r": 487,
+      "c": 5,
+      "p": "エジプト",
+      "d": "1937-03-26",
+      "m": "female"
+     },
+     {
+      "r": 488,
+      "c": 3,
+      "p": "リベリア",
+      "d": "1936-12-31"
+     },
+     {
+      "r": 490,
+      "c": 3,
+      "p": "タンヂール地帶",
+      "d": "1936-12-31"
+     },
+     {
+      "r": 492,
+      "c": 3,
+      "p": "アングロ・エジプシアン・スーダン",
+      "d": "1936"
+     },
+     {
+      "r": 493,
+      "c": 3,
+      "p": "英吉利屬領(阿弗利加の部)",
+      "d": "1931"
+     },
+     {
+      "r": 494,
+      "c": 3,
+      "p": "ナイジエリア",
+      "d": "1937-12-31"
+     },
+     {
+      "r": 495,
+      "c": 3,
+      "p": "南阿聯邦",
+      "d": "1921-05-03"
+     },
+     {
+      "r": 495,
+      "c": 4,
+      "p": "南阿聯邦",
+      "d": "1921-05-03",
+      "m": "male"
+     },
+     {
+      "r": 495,
+      "c": 5,
+      "p": "南阿聯邦",
+      "d": "1921-05-03",
+      "m": "female"
+     },
+     {
+      "r": 498,
+      "c": 3,
+      "p": "ケープ州",
+      "d": "1938-06-30"
+     },
+     {
+      "r": 500,
+      "c": 3,
+      "p": "ナタール州",
+      "d": "1938-06-30"
+     },
+     {
+      "r": 501,
+      "c": 3,
+      "p": "トランスヴアール州",
+      "d": "1938-06-30"
+     },
+     {
+      "r": 502,
+      "c": 3,
+      "p": "オレンヂ・自由州",
+      "d": "1938-06-30"
+     },
+     {
+      "r": 503,
+      "c": 3,
+      "p": "ウガンダ",
+      "d": "1937-12-31"
+     },
+     {
+      "r": 504,
+      "c": 3,
+      "p": "ケニア",
+      "d": "1937-12-31"
+     },
+     {
+      "r": 504,
+      "c": 4,
+      "p": "ケニア",
+      "d": "1937-12-31",
+      "m": "male"
+     },
+     {
+      "r": 504,
+      "c": 5,
+      "p": "ケニア",
+      "d": "1937-12-31",
+      "m": "female"
+     },
+     {
+      "r": 505,
+      "c": 3,
+      "p": "ゴールドコースト",
+      "d": "1937-12-31"
+     },
+     {
+      "r": 505,
+      "c": 4,
+      "p": "ゴールドコースト",
+      "d": "1937-12-31",
+      "m": "male"
+     },
+     {
+      "r": 505,
+      "c": 5,
+      "p": "ゴールドコースト",
+      "d": "1937-12-31",
+      "m": "female"
+     },
+     {
+      "r": 506,
+      "c": 3,
+      "p": "シエラ・レオネ",
+      "d": "1931-04-26"
+     },
+     {
+      "r": 506,
+      "c": 4,
+      "p": "シエラ・レオネ",
+      "d": "1931-04-26",
+      "m": "male"
+     },
+     {
+      "r": 506,
+      "c": 5,
+      "p": "シエラ・レオネ",
+      "d": "1931-04-26",
+      "m": "female"
+     },
+     {
+      "r": 507,
+      "c": 3,
+      "p": "ナイアサランド",
+      "d": "1937-12-31"
+     },
+     {
+      "r": 507,
+      "c": 4,
+      "p": "ナイアサランド",
+      "d": "1937-12-31",
+      "m": "male"
+     },
+     {
+      "r": 507,
+      "c": 5,
+      "p": "ナイアサランド",
+      "d": "1937-12-31",
+      "m": "female"
+     },
+     {
+      "r": 508,
+      "c": 3,
+      "p": "北ローデシア",
+      "d": "1931-04-27"
+     },
+     {
+      "r": 509,
+      "c": 3,
+      "p": "南ローデシア",
+      "d": "1937-12-31"
+     },
+     {
+      "r": 510,
+      "c": 3,
+      "p": "バストーランド",
+      "d": "1936-05-01"
+     },
+     {
+      "r": 510,
+      "c": 4,
+      "p": "バストーランド",
+      "d": "1936-05-01",
+      "m": "male"
+     },
+     {
+      "r": 510,
+      "c": 5,
+      "p": "バストーランド",
+      "d": "1936-05-01",
+      "m": "female"
+     },
+     {
+      "r": 511,
+      "c": 3,
+      "p": "モーリシアス",
+      "d": "1937-12-31"
+     },
+     {
+      "r": 511,
+      "c": 4,
+      "p": "モーリシアス",
+      "d": "1937-12-31",
+      "m": "male"
+     },
+     {
+      "r": 511,
+      "c": 5,
+      "p": "モーリシアス",
+      "d": "1937-12-31",
+      "m": "female"
+     },
+     {
+      "r": 515,
+      "c": 3,
+      "p": "英領ソマリーランド",
+      "d": "1937-12-31"
+     },
+     {
+      "r": 515,
+      "c": 4,
+      "p": "英領ソマリーランド",
+      "d": "1937-12-31",
+      "m": "male"
+     },
+     {
+      "r": 515,
+      "c": 5,
+      "p": "英領ソマリーランド",
+      "d": "1937-12-31",
+      "m": "female"
+     },
+     {
+      "r": 516,
+      "c": 3,
+      "p": "ザンジバル",
+      "d": "1937-12-31"
+     },
+     {
+      "r": 517,
+      "c": 3,
+      "p": "ザンジバル島",
+      "d": "1931-03-28"
+     },
+     {
+      "r": 518,
+      "c": 3,
+      "p": "ペンバ島",
+      "d": "1931-03-28"
+     },
+     {
+      "r": 519,
+      "c": 3,
+      "p": "ベチユアナランド",
+      "d": "1936-05-01"
+     },
+     {
+      "r": 519,
+      "c": 4,
+      "p": "ベチユアナランド",
+      "d": "1936-05-01",
+      "m": "male"
+     },
+     {
+      "r": 519,
+      "c": 5,
+      "p": "ベチユアナランド",
+      "d": "1936-05-01",
+      "m": "female"
+     },
+     {
+      "r": 520,
+      "c": 3,
+      "p": "ガンビア",
+      "d": "1937-12-31"
+     },
+     {
+      "r": 520,
+      "c": 4,
+      "p": "ガンビア",
+      "d": "1937-12-31",
+      "m": "male"
+     },
+     {
+      "r": 520,
+      "c": 5,
+      "p": "ガンビア",
+      "d": "1937-12-31",
+      "m": "female"
+     },
+     {
+      "r": 521,
+      "c": 3,
+      "p": "スワジーランド",
+      "d": "1937-12-31"
+     },
+     {
+      "r": 521,
+      "c": 4,
+      "p": "スワジーランド",
+      "d": "1937-12-31",
+      "m": "male"
+     },
+     {
+      "r": 521,
+      "c": 5,
+      "p": "スワジーランド",
+      "d": "1937-12-31",
+      "m": "female"
+     },
+     {
+      "r": 522,
+      "c": 3,
+      "p": "セーシエル",
+      "d": "1936-12-31"
+     },
+     {
+      "r": 522,
+      "c": 4,
+      "p": "セーシエル",
+      "d": "1936-12-31",
+      "m": "male"
+     },
+     {
+      "r": 522,
+      "c": 5,
+      "p": "セーシエル",
+      "d": "1936-12-31",
+      "m": "female"
+     },
+     {
+      "r": 523,
+      "c": 3,
+      "p": "セント・ヘレナ",
+      "d": "1937-12-31"
+     },
+     {
+      "r": 524,
+      "c": 3,
+      "p": "アツセンシヨン",
+      "d": "1937-12-31"
+     },
+     {
+      "r": 525,
+      "c": 3,
+      "p": "英吉利委任統治區域(阿弗利加の部)",
+      "d": "1931"
+     },
+     {
+      "r": 526,
+      "c": 3,
+      "p": "タンガニイカ",
+      "d": "1937-12-31"
+     },
+     {
+      "r": 526,
+      "c": 4,
+      "p": "タンガニイカ",
+      "d": "1937-12-31",
+      "m": "male"
+     },
+     {
+      "r": 526,
+      "c": 5,
+      "p": "タンガニイカ",
+      "d": "1937-12-31",
+      "m": "female"
+     },
+     {
+      "r": 527,
+      "c": 3,
+      "p": "カメルン",
+      "d": "1937-12-31"
+     },
+     {
+      "r": 528,
+      "c": 3,
+      "p": "トーゴランド",
+      "d": "1931"
+     },
+     {
+      "r": 528,
+      "c": 4,
+      "p": "トーゴランド",
+      "d": "1931",
+      "m": "male"
+     },
+     {
+      "r": 528,
+      "c": 5,
+      "p": "トーゴランド",
+      "d": "1931",
+      "m": "female"
+     },
+     {
+      "r": 530,
+      "c": 3,
+      "p": "西南阿弗利加",
+      "d": "1936-05-04"
+     },
+     {
+      "r": 530,
+      "c": 4,
+      "p": "西南阿弗利加",
+      "d": "1936-05-04",
+      "m": "male"
+     },
+     {
+      "r": 530,
+      "c": 5,
+      "p": "西南阿弗利加",
+      "d": "1936-05-04",
+      "m": "female"
+     },
+     {
+      "r": 531,
+      "c": 3,
+      "p": "佛蘭西屬領(阿弗利加の部)",
+      "d": "1936"
+     },
+     {
+      "r": 532,
+      "c": 3,
+      "p": "佛領西阿弗利加",
+      "d": "1936-03-08"
+     },
+     {
+      "r": 533,
+      "c": 3,
+      "p": "ダカル",
+      "d": "1936-03-08"
+     },
+     {
+      "r": 534,
+      "c": 3,
+      "p": "セネガル",
+      "d": "1936-03-08"
+     },
+     {
+      "r": 535,
+      "c": 3,
+      "p": "モウリタニ",
+      "d": "1936-03-08"
+     },
+     {
+      "r": 536,
+      "c": 3,
+      "p": "佛領ギニア",
+      "d": "1936-03-08"
+     },
+     {
+      "r": 537,
+      "c": 3,
+      "p": "アイボリーコースト",
+      "d": "1936-03-08"
+     },
+     {
+      "r": 538,
+      "c": 3,
+      "p": "ダホメ",
+      "d": "1936-03-08"
+     },
+     {
+      "r": 539,
+      "c": 3,
+      "p": "佛領スーダン",
+      "d": "1936-03-08"
+     },
+     {
+      "r": 540,
+      "c": 3,
+      "p": "佛領ナイジエリア",
+      "d": "1936-03-08"
+     },
+     {
+      "r": 541,
+      "c": 3,
+      "p": "アルジエリア",
+      "d": "1936-03-08"
+     },
+     {
+      "r": 542,
+      "c": 3,
+      "p": "北アルジエリア",
+      "d": "1936-03-08"
+     },
+     {
+      "r": 543,
+      "c": 3,
+      "p": "南アルジエリア",
+      "d": "1936-03-08"
+     },
+     {
+      "r": 544,
+      "c": 3,
+      "p": "佛領モロツコ",
+      "d": "1936-03-08"
+     },
+     {
+      "r": 545,
+      "c": 3,
+      "p": "マダガスカル",
+      "d": "1936-07-01"
+     },
+     {
+      "r": 546,
+      "c": 3,
+      "p": "マダガスカル島",
+      "d": "1936-07-01"
+     },
+     {
+      "r": 547,
+      "c": 3,
+      "p": "コモロ諸島",
+      "d": "1936-07-01"
+     },
+     {
+      "r": 548,
+      "c": 3,
+      "p": "メヨツト島",
+      "d": "1936-07-01"
+     },
+     {
+      "r": 551,
+      "c": 3,
+      "p": "シアド",
+      "d": "1936-07-01"
+     },
+     {
+      "r": 552,
+      "c": 3,
+      "p": "ガブン",
+      "d": "1936-07-01"
+     },
+     {
+      "r": 553,
+      "c": 3,
+      "p": "中央コンゴー",
+      "d": "1936-07-01"
+     },
+     {
+      "r": 554,
+      "c": 3,
+      "p": "ウバンキ・シヤリ",
+      "d": "1936-07-01"
+     },
+     {
+      "r": 555,
+      "c": 3,
+      "p": "チユニス",
+      "d": "1936-03-22"
+     },
+     {
+      "r": 556,
+      "c": 3,
+      "p": "レユニオン(ブールボン)",
+      "d": "1936-07-01"
+     },
+     {
+      "r": 557,
+      "c": 3,
+      "p": "佛領ソマリーコースト",
+      "d": "1936-07-01"
+     },
+     {
+      "r": 558,
+      "c": 3,
+      "p": "佛蘭西委任統治區域(阿弗利加の部)",
+      "d": "1935"
+     },
+     {
+      "r": 559,
+      "c": 3,
+      "p": "カメルン",
+      "d": "1935-07-01"
+     },
+     {
+      "r": 560,
+      "c": 3,
+      "p": "トーゴ",
+      "d": "1936-07-01"
+     },
+     {
+      "r": 562,
+      "c": 3,
+      "p": "白耳義領コンゴー",
+      "d": "1936-01-01"
+     },
+     {
+      "r": 564,
+      "c": 3,
+      "p": "ルアング・ウルンデイ",
+      "d": "1934-01-01"
+     },
+     {
+      "r": 565,
+      "c": 3,
+      "p": "ポルトガル屬領(阿弗利加の部)",
+      "d": "1933"
+     },
+     {
+      "r": 566,
+      "c": 3,
+      "p": "モザンビツク",
+      "d": "1936"
+     },
+     {
+      "r": 567,
+      "c": 3,
+      "p": "アンゴウラ",
+      "d": "1933"
+     },
+     {
+      "r": 567,
+      "c": 4,
+      "p": "アンゴウラ",
+      "d": "1933",
+      "m": "male"
+     },
+     {
+      "r": 567,
+      "c": 5,
+      "p": "アンゴウラ",
+      "d": "1933",
+      "m": "female"
+     },
+     {
+      "r": 568,
+      "c": 3,
+      "p": "ポルトガル領ギニア",
+      "d": "1936"
+     },
+     {
+      "r": 569,
+      "c": 3,
+      "p": "ケープ・ヴエルデ",
+      "d": "1933"
+     },
+     {
+      "r": 569,
+      "c": 4,
+      "p": "ケープ・ヴエルデ",
+      "d": "1933",
+      "m": "male"
+     },
+     {
+      "r": 569,
+      "c": 5,
+      "p": "ケープ・ヴエルデ",
+      "d": "1933",
+      "m": "female"
+     },
+     {
+      "r": 570,
+      "c": 3,
+      "p": "セントトマス及プリンセス",
+      "d": "1936"
+     },
+     {
+      "r": 571,
+      "c": 3,
+      "p": "伊太利屬領(阿弗利加の部)",
+      "d": "1936"
+     },
+     {
+      "r": 572,
+      "c": 3,
+      "p": "エテイオピア",
+      "d": "1936-06-30"
+     },
+     {
+      "r": 573,
+      "c": 3,
+      "p": "伊領ソマリーランド",
+      "d": "1936-06-30"
+     },
+     {
+      "r": 574,
+      "c": 3,
+      "p": "伊領リビア",
+      "d": "1936-04-21"
+     },
+     {
+      "r": 574,
+      "c": 4,
+      "p": "伊領リビア",
+      "d": "1936-04-21",
+      "m": "male"
+     },
+     {
+      "r": 574,
+      "c": 5,
+      "p": "伊領リビア",
+      "d": "1936-04-21",
+      "m": "female"
+     },
+     {
+      "r": 575,
+      "c": 3,
+      "p": "エリトレア",
+      "d": "1936-06-30"
+     },
+     {
+      "r": 576,
+      "c": 3,
+      "p": "西班牙屬領(阿弗利加の部)",
+      "d": "1936-12-31"
+     },
+     {
+      "r": 578,
+      "c": 3,
+      "p": "リオ・デ・オロ",
+      "d": "1936-12-31"
+     },
+     {
+      "r": 580,
+      "c": 3,
+      "p": "西班牙領ギニア",
+      "d": "1936-12-31"
+     },
+     {
+      "r": 581,
+      "c": 3,
+      "p": "リオ・ムニ",
+      "d": "1936-12-31"
+     },
+     {
+      "r": 582,
+      "c": 3,
+      "p": "フエルナンドポ島",
+      "d": "1936-12-31"
+     },
+     {
+      "r": 583,
+      "c": 3,
+      "p": "コリスコ島",
+      "d": "1936-12-31"
+     },
+     {
+      "r": 584,
+      "c": 3,
+      "p": "アノボン島",
+      "d": "1936-12-31"
+     },
+     {
+      "r": 585,
+      "c": 3,
+      "p": "リツトル・エロビー島",
+      "d": "1936-12-31"
+     },
+     {
+      "r": 586,
+      "c": 3,
+      "p": "グレート・エロビー島",
+      "d": "1936-12-31"
+     },
+     {
+      "r": 587,
+      "c": 3,
+      "p": "西班牙領北部阿弗利加",
+      "d": "1936-12-31"
+     },
+     {
+      "r": 590,
+      "c": 3,
+      "p": "ニユー・ヘブライヅ",
+      "d": "1935-12-31"
+     },
+     {
+      "r": 591,
+      "c": 3,
+      "p": "英吉利屬領(大洋洲の部)",
+      "d": "1936"
+     },
+     {
+      "r": 592,
+      "c": 3,
+      "p": "豪州(本土)",
+      "d": "1933-06-30"
+     },
+     {
+      "r": 592,
+      "c": 4,
+      "p": "豪州(本土)",
+      "d": "1933-06-30",
+      "m": "male"
+     },
+     {
+      "r": 592,
+      "c": 5,
+      "p": "豪州(本土)",
+      "d": "1933-06-30",
+      "m": "female"
+     },
+     {
+      "r": 594,
+      "c": 3,
+      "p": "ニユー・サウスウエールス",
+      "d": "1936-06-30"
+     },
+     {
+      "r": 595,
+      "c": 3,
+      "p": "ヴイクトリア",
+      "d": "1936-06-30"
+     },
+     {
+      "r": 596,
+      "c": 3,
+      "p": "クキーンズランド",
+      "d": "1936-06-30"
+     },
+     {
+      "r": 597,
+      "c": 3,
+      "p": "南オーストラリア",
+      "d": "1936-06-30"
+     },
+     {
+      "r": 598,
+      "c": 3,
+      "p": "西オーストラリア",
+      "d": "1936-06-30"
+     },
+     {
+      "r": 599,
+      "c": 3,
+      "p": "タスマニア",
+      "d": "1936-06-30"
+     },
+     {
+      "r": 600,
+      "c": 3,
+      "p": "ノーザン・テリトリー",
+      "d": "1936-06-30"
+     },
+     {
+      "r": 601,
+      "c": 3,
+      "p": "フエデラルキヤピタル・テリトリー",
+      "d": "1936-06-30"
+     },
+     {
+      "r": 603,
+      "c": 3,
+      "p": "パプア",
+      "d": "1936-06-30"
+     },
+     {
+      "r": 604,
+      "c": 3,
+      "p": "ノーフオーク",
+      "d": "1936-06-30"
+     },
+     {
+      "r": 604,
+      "c": 4,
+      "p": "ノーフオーク",
+      "d": "1936-06-30",
+      "m": "male"
+     },
+     {
+      "r": 604,
+      "c": 5,
+      "p": "ノーフオーク",
+      "d": "1936-06-30",
+      "m": "female"
+     },
+     {
+      "r": 605,
+      "c": 3,
+      "p": "新西蘭(本土)",
+      "d": "1936-03-24"
+     },
+     {
+      "r": 605,
+      "c": 4,
+      "p": "新西蘭(本土)",
+      "d": "1936-03-24",
+      "m": "male"
+     },
+     {
+      "r": 605,
+      "c": 5,
+      "p": "新西蘭(本土)",
+      "d": "1936-03-24",
+      "m": "female"
+     },
+     {
+      "r": 607,
+      "c": 3,
+      "p": "北島",
+      "d": "1937-04-01"
+     },
+     {
+      "r": 608,
+      "c": 3,
+      "p": "南島",
+      "d": "1937-04-01"
+     },
+     {
+      "r": 609,
+      "c": 3,
+      "p": "ステワード諸島",
+      "d": "1937-04-01"
+     },
+     {
+      "r": 610,
+      "c": 3,
+      "p": "キヤスアム諸島",
+      "d": "1937-04-01"
+     },
+     {
+      "r": 612,
+      "c": 3,
+      "p": "クツク諸島",
+      "d": "1930-04-30"
+     },
+     {
+      "r": 619,
+      "c": 3,
+      "p": "ニウ島",
+      "d": "1936-04-20"
+     },
+     {
+      "r": 619,
+      "c": 4,
+      "p": "ニウ島",
+      "d": "1936-04-20",
+      "m": "male"
+     },
+     {
+      "r": 619,
+      "c": 5,
+      "p": "ニウ島",
+      "d": "1936-04-20",
+      "m": "female"
+     },
+     {
+      "r": 620,
+      "c": 3,
+      "p": "トケラウ(ユニオン)諸島",
+      "d": "1936-11-04"
+     },
+     {
+      "r": 621,
+      "c": 3,
+      "p": "ケルマデツク諸島",
+      "d": "1936"
+     },
+     {
+      "r": 629,
+      "c": 3,
+      "p": "フイジー諸島",
+      "d": "1937-12-31"
+     },
+     {
+      "r": 629,
+      "c": 4,
+      "p": "フイジー諸島",
+      "d": "1937-12-31",
+      "m": "male"
+     },
+     {
+      "r": 629,
+      "c": 5,
+      "p": "フイジー諸島",
+      "d": "1937-12-31",
+      "m": "female"
+     },
+     {
+      "r": 633,
+      "c": 3,
+      "p": "英領ソロモン諸島",
+      "d": "1937-12-31"
+     },
+     {
+      "r": 633,
+      "c": 4,
+      "p": "英領ソロモン諸島",
+      "d": "1937-12-31",
+      "m": "male"
+     },
+     {
+      "r": 633,
+      "c": 5,
+      "p": "英領ソロモン諸島",
+      "d": "1937-12-31",
+      "m": "female"
+     },
+     {
+      "r": 634,
+      "c": 3,
+      "p": "トンガ諸島",
+      "d": "1937-12-31"
+     },
+     {
+      "r": 634,
+      "c": 4,
+      "p": "トンガ諸島",
+      "d": "1937-12-31",
+      "m": "male"
+     },
+     {
+      "r": 634,
+      "c": 5,
+      "p": "トンガ諸島",
+      "d": "1937-12-31",
+      "m": "female"
+     },
+     {
+      "r": 635,
+      "c": 3,
+      "p": "ギルバート諸島",
+      "d": "1936-12-31"
+     },
+     {
+      "r": 636,
+      "c": 3,
+      "p": "エリース諸島",
+      "d": "1936-12-31"
+     },
+     {
+      "r": 637,
+      "c": 3,
+      "p": "オーシヤン島",
+      "d": "1936-12-31"
+     },
+     {
+      "r": 638,
+      "c": 3,
+      "p": "ピチケイリン島",
+      "d": "1936-06-30"
+     },
+     {
+      "r": 639,
+      "c": 3,
+      "p": "フアニング島",
+      "d": "1936-12-31"
+     },
+     {
+      "r": 640,
+      "c": 3,
+      "p": "ワシントン島",
+      "d": "1936-12-31"
+     },
+     {
+      "r": 641,
+      "c": 3,
+      "p": "ボエニクス諸島",
+      "d": "1936"
+     },
+     {
+      "r": 642,
+      "c": 3,
+      "p": "ジヤルヴイス島",
+      "d": "1936"
+     },
+     {
+      "r": 643,
+      "c": 3,
+      "p": "クリスマス島",
+      "d": "1936"
+     },
+     {
+      "r": 648,
+      "c": 3,
+      "p": "ナウルー",
+      "d": "1937-12-31"
+     },
+     {
+      "r": 648,
+      "c": 4,
+      "p": "ナウルー",
+      "d": "1937-12-31",
+      "m": "male"
+     },
+     {
+      "r": 648,
+      "c": 5,
+      "p": "ナウルー",
+      "d": "1937-12-31",
+      "m": "female"
+     },
+     {
+      "r": 650,
+      "c": 3,
+      "p": "ニユー・ギニア",
+      "d": "1937-06-30"
+     },
+     {
+      "r": 650,
+      "c": 4,
+      "p": "ニユー・ギニア",
+      "d": "1937-06-30",
+      "m": "male"
+     },
+     {
+      "r": 650,
+      "c": 5,
+      "p": "ニユー・ギニア",
+      "d": "1937-06-30",
+      "m": "female"
+     },
+     {
+      "r": 652,
+      "c": 3,
+      "p": "ウエスト・サモア",
+      "d": "1937-12-31"
+     },
+     {
+      "r": 652,
+      "c": 4,
+      "p": "ウエスト・サモア",
+      "d": "1937-12-31",
+      "m": "male"
+     },
+     {
+      "r": 652,
+      "c": 5,
+      "p": "ウエスト・サモア",
+      "d": "1937-12-31",
+      "m": "female"
+     },
+     {
+      "r": 655,
+      "c": 3,
+      "p": "佛蘭西屬領(大洋洲の部)",
+      "d": "1936"
+     },
+     {
+      "r": 656,
+      "c": 3,
+      "p": "ニユー・カレドニア",
+      "d": "1936-07-01"
+     },
+     {
+      "r": 657,
+      "c": 3,
+      "p": "東部大洋洲諸島",
+      "d": "1936-05-03"
+     },
+     {
+      "r": 666,
+      "c": 3,
+      "p": "北米合衆國屬領(太洋洲の部)",
+      "d": "1930"
+     },
+     {
+      "r": 667,
+      "c": 3,
+      "p": "布哇",
+      "d": "1930-04-01"
+     },
+     {
+      "r": 667,
+      "c": 4,
+      "p": "布哇",
+      "d": "1930-04-01",
+      "m": "male"
+     },
+     {
+      "r": 667,
+      "c": 5,
+      "p": "布哇",
+      "d": "1930-04-01",
+      "m": "female"
+     },
+     {
+      "r": 674,
+      "c": 3,
+      "p": "グアム島",
+      "d": "1930-04-01"
+     },
+     {
+      "r": 675,
+      "c": 3,
+      "p": "米領サモア",
+      "d": "1930-04-01"
+     },
+     {
+      "r": 677,
+      "c": 3,
+      "p": "南洋群島",
+      "d": "1935-10-01"
+     },
+     {
+      "r": 677,
+      "c": 4,
+      "p": "南洋群島",
+      "d": "1935-10-01",
+      "m": "male"
+     },
+     {
+      "r": 677,
+      "c": 5,
+      "p": "南洋群島",
+      "d": "1935-10-01",
+      "m": "female"
+     }
+    ]
+   }
+  ],
+  "fp": "1fc1b0251d"
+ },
+ {
+  "t": "japan-tokei-1938:p0252_1",
+  "x": [
+   {
+    "part": 0,
+    "rows": "dates",
+    "cols": [
+     {
+      "c": 1,
+      "p": "Japanese Empire"
+     },
+     {
+      "c": 2,
+      "p": "Japan proper"
+     },
+     {
+      "c": 3,
+      "p": "Korea"
+     },
+     {
+      "c": 4,
+      "p": "Taiwan"
+     },
+     {
+      "c": 5,
+      "p": "Karafuto"
+     },
+     {
+      "c": 6,
+      "p": "Kwantung Leased Territory"
+     },
+     {
+      "c": 7,
+      "p": "South Manchuria Railway Zone"
+     },
+     {
+      "c": 8,
+      "p": "South Seas Mandate"
+     },
+     {
+      "c": 9,
+      "p": "Manchukuo"
+     },
+     {
+      "c": 10,
+      "p": "Siam"
+     },
+     {
+      "c": 11,
+      "p": "United Kingdom"
+     },
+     {
+      "c": 12,
+      "p": "Great Britain"
+     },
+     {
+      "c": 13,
+      "p": "England and Wales"
+     },
+     {
+      "c": 14,
+      "p": "Scotland"
+     },
+     {
+      "c": 15,
+      "p": "Northern Ireland"
+     },
+     {
+      "c": 16,
+      "p": "United States"
+     }
+    ]
+   },
+   {
+    "part": 1,
+    "rows": "dates",
+    "cols": [
+     {
+      "c": 1,
+      "p": "Germany",
+      "n": "year-end"
+     },
+     {
+      "c": 2,
+      "p": "Germany",
+      "n": "end of June"
+     },
+     {
+      "c": 3,
+      "p": "France"
+     },
+     {
+      "c": 4,
+      "p": "Italy"
+     },
+     {
+      "c": 5,
+      "p": "Canada"
+     },
+     {
+      "c": 6,
+      "p": "South Africa"
+     },
+     {
+      "c": 7,
+      "p": "Australia",
+      "n": "end of June"
+     },
+     {
+      "c": 8,
+      "p": "Australia",
+      "n": "year-end"
+     },
+     {
+      "c": 9,
+      "p": "New Zealand",
+      "n": "end of June"
+     },
+     {
+      "c": 10,
+      "p": "New Zealand",
+      "n": "year-end"
+     },
+     {
+      "c": 11,
+      "p": "Poland"
+     },
+     {
+      "c": 12,
+      "p": "Spain"
+     },
+     {
+      "c": 13,
+      "p": "Romania"
+     },
+     {
+      "c": 14,
+      "p": "Czechoslovakia"
+     },
+     {
+      "c": 15,
+      "p": "Yugoslavia",
+      "n": "end of June"
+     },
+     {
+      "c": 16,
+      "p": "Yugoslavia",
+      "n": "year-end"
+     }
+    ]
+   },
+   {
+    "part": 2,
+    "rows": "dates",
+    "cols": [
+     {
+      "c": 1,
+      "p": "Hungary"
+     },
+     {
+      "c": 2,
+      "p": "Belgium"
+     },
+     {
+      "c": 3,
+      "p": "Netherlands",
+      "n": "end of June"
+     },
+     {
+      "c": 4,
+      "p": "Netherlands",
+      "n": "year-end"
+     },
+     {
+      "c": 5,
+      "p": "Greece"
+     },
+     {
+      "c": 6,
+      "p": "Austria"
+     },
+     {
+      "c": 7,
+      "p": "Sweden",
+      "n": "end of June"
+     },
+     {
+      "c": 8,
+      "p": "Sweden",
+      "n": "year-end"
+     },
+     {
+      "c": 9,
+      "p": "Bulgaria",
+      "n": "year-end"
+     },
+     {
+      "c": 10,
+      "p": "Bulgaria",
+      "n": "end of June"
+     },
+     {
+      "c": 11,
+      "p": "Switzerland"
+     },
+     {
+      "c": 12,
+      "p": "Denmark"
+     },
+     {
+      "c": 13,
+      "p": "Norway"
+     },
+     {
+      "c": 14,
+      "p": "Lithuania"
+     },
+     {
+      "c": 15,
+      "p": "Argentina"
+     },
+     {
+      "c": 16,
+      "p": "Chile"
+     }
+    ]
+   }
+  ],
+  "fp": "71dcdbe041"
+ },
+ {
+  "t": "japan-tokei-1938:p0253_1",
+  "x": [
+   {
+    "rows": "cells",
+    "cells": [
+     {
+      "r": 2,
+      "c": 1,
+      "p": "東京",
+      "d": "1938"
+     },
+     {
+      "r": 3,
+      "c": 1,
+      "p": "大阪",
+      "d": "1938"
+     },
+     {
+      "r": 4,
+      "c": 1,
+      "p": "名古屋",
+      "d": "1938"
+     },
+     {
+      "r": 5,
+      "c": 1,
+      "p": "京都",
+      "d": "1938"
+     },
+     {
+      "r": 6,
+      "c": 1,
+      "p": "神戸",
+      "d": "1938"
+     },
+     {
+      "r": 7,
+      "c": 1,
+      "p": "横濱",
+      "d": "1938"
+     },
+     {
+      "r": 8,
+      "c": 1,
+      "p": "廣島",
+      "d": "1938"
+     },
+     {
+      "r": 9,
+      "c": 1,
+      "p": "福岡",
+      "d": "1938"
+     },
+     {
+      "r": 10,
+      "c": 1,
+      "p": "吳",
+      "d": "1938"
+     },
+     {
+      "r": 11,
+      "c": 1,
+      "p": "八幡",
+      "d": "1938"
+     },
+     {
+      "r": 12,
+      "c": 1,
+      "p": "仙臺",
+      "d": "1938"
+     },
+     {
+      "r": 13,
+      "c": 1,
+      "p": "長崎",
+      "d": "1938"
+     },
+     {
+      "r": 14,
+      "c": 1,
+      "p": "靜岡",
+      "d": "1938"
+     },
+     {
+      "r": 15,
+      "c": 1,
+      "p": "川崎",
+      "d": "1938"
+     },
+     {
+      "r": 16,
+      "c": 1,
+      "p": "函館",
+      "d": "1938"
+     },
+     {
+      "r": 17,
+      "c": 1,
+      "p": "佐世保",
+      "d": "1938"
+     },
+     {
+      "r": 18,
+      "c": 1,
+      "p": "横須賀",
+      "d": "1938"
+     },
+     {
+      "r": 19,
+      "c": 1,
+      "p": "札幌",
+      "d": "1938"
+     },
+     {
+      "r": 20,
+      "c": 1,
+      "p": "熊本",
+      "d": "1938"
+     },
+     {
+      "r": 22,
+      "c": 1,
+      "p": "京城",
+      "d": "1935"
+     },
+     {
+      "r": 24,
+      "c": 1,
+      "p": "大連",
+      "d": "1935"
+     },
+     {
+      "r": 26,
+      "c": 1,
+      "p": "臺北",
+      "d": "1935"
+     },
+     {
+      "r": 28,
+      "c": 1,
+      "p": "奉天",
+      "d": "1936"
+     },
+     {
+      "r": 29,
+      "c": 1,
+      "p": "哈爾賓",
+      "d": "1936"
+     },
+     {
+      "r": 30,
+      "c": 1,
+      "p": "新京",
+      "d": "1936"
+     },
+     {
+      "r": 32,
+      "c": 1,
+      "p": "上海",
+      "d": "1936"
+     },
+     {
+      "r": 33,
+      "c": 1,
+      "p": "北京",
+      "d": "1936"
+     },
+     {
+      "r": 34,
+      "c": 1,
+      "p": "天津",
+      "d": "1936"
+     },
+     {
+      "r": 35,
+      "c": 1,
+      "p": "廣州",
+      "d": "1936"
+     },
+     {
+      "r": 36,
+      "c": 1,
+      "p": "南京",
+      "d": "1936"
+     },
+     {
+      "r": 37,
+      "c": 1,
+      "p": "漢口",
+      "d": "1936"
+     },
+     {
+      "r": 38,
+      "c": 1,
+      "p": "杭州",
+      "d": "1936"
+     },
+     {
+      "r": 39,
+      "c": 1,
+      "p": "青島",
+      "d": "1936"
+     },
+     {
+      "r": 40,
+      "c": 1,
+      "p": "重慶",
+      "d": "1936"
+     },
+     {
+      "r": 41,
+      "c": 1,
+      "p": "長沙",
+      "d": "1936"
+     },
+     {
+      "r": 42,
+      "c": 1,
+      "p": "成都",
+      "d": "1936"
+     },
+     {
+      "r": 43,
+      "c": 1,
+      "p": "濟南",
+      "d": "1936"
+     },
+     {
+      "r": 44,
+      "c": 1,
+      "p": "蘇州",
+      "d": "1936"
+     },
+     {
+      "r": 45,
+      "c": 1,
+      "p": "福州",
+      "d": "1936"
+     },
+     {
+      "r": 46,
+      "c": 1,
+      "p": "武昌",
+      "d": "1936"
+     },
+     {
+      "r": 47,
+      "c": 1,
+      "p": "開封",
+      "d": "1936"
+     },
+     {
+      "r": 48,
+      "c": 1,
+      "p": "南昌",
+      "d": "1936"
+     },
+     {
+      "r": 49,
+      "c": 1,
+      "p": "紹興城",
+      "d": "1936"
+     },
+     {
+      "r": 50,
+      "c": 1,
+      "p": "鎭江",
+      "d": "1936"
+     },
+     {
+      "r": 51,
+      "c": 1,
+      "p": "寧波",
+      "d": "1936"
+     },
+     {
+      "r": 52,
+      "c": 1,
+      "p": "拱北",
+      "d": "1936"
+     },
+     {
+      "r": 53,
+      "c": 1,
+      "p": "溫州",
+      "d": "1936"
+     },
+     {
+      "r": 54,
+      "c": 1,
+      "p": "油頭",
+      "d": "1936"
+     },
+     {
+      "r": 56,
+      "c": 1,
+      "p": "バンコク",
+      "d": "1937"
+     },
+     {
+      "r": 58,
+      "c": 1,
+      "p": "テヘラン",
+      "d": "1933"
+     },
+     {
+      "r": 59,
+      "c": 1,
+      "p": "タブリーズ",
+      "d": "1933"
+     },
+     {
+      "r": 61,
+      "c": 1,
+      "p": "バグダード",
+      "d": "1930"
+     },
+     {
+      "r": 63,
+      "c": 1,
+      "p": "カルカツタ",
+      "d": "1931"
+     },
+     {
+      "r": 64,
+      "c": 1,
+      "p": "ボンベイ",
+      "d": "1931"
+     },
+     {
+      "r": 65,
+      "c": 1,
+      "p": "マドラス",
+      "d": "1931"
+     },
+     {
+      "r": 66,
+      "c": 1,
+      "p": "ハイダラバード",
+      "d": "1931"
+     },
+     {
+      "r": 67,
+      "c": 1,
+      "p": "デリー",
+      "d": "1931"
+     },
+     {
+      "r": 68,
+      "c": 1,
+      "p": "ラホール",
+      "d": "1931"
+     },
+     {
+      "r": 69,
+      "c": 1,
+      "p": "ラングーン",
+      "d": "1931"
+     },
+     {
+      "r": 70,
+      "c": 1,
+      "p": "アーマダバード",
+      "d": "1931"
+     },
+     {
+      "r": 71,
+      "c": 1,
+      "p": "バンガロア",
+      "d": "1931"
+     },
+     {
+      "r": 72,
+      "c": 1,
+      "p": "ラクノー",
+      "d": "1931"
+     },
+     {
+      "r": 73,
+      "c": 1,
+      "p": "アムリツアール",
+      "d": "1931"
+     },
+     {
+      "r": 74,
+      "c": 1,
+      "p": "カラチ",
+      "d": "1931"
+     },
+     {
+      "r": 75,
+      "c": 1,
+      "p": "プーナ",
+      "d": "1931"
+     },
+     {
+      "r": 76,
+      "c": 1,
+      "p": "カウンポール",
+      "d": "1931"
+     },
+     {
+      "r": 77,
+      "c": 1,
+      "p": "アグラ",
+      "d": "1931"
+     },
+     {
+      "r": 78,
+      "c": 1,
+      "p": "ナグプル",
+      "d": "1931"
+     },
+     {
+      "r": 79,
+      "c": 1,
+      "p": "ベナレス",
+      "d": "1931"
+     },
+     {
+      "r": 81,
+      "c": 1,
+      "p": "シンガポール",
+      "d": "1931"
+     },
+     {
+      "r": 83,
+      "c": 1,
+      "p": "コロンボ",
+      "d": "1931"
+     },
+     {
+      "r": 85,
+      "c": 1,
+      "p": "ヴィクトリア",
+      "d": "1931"
+     },
+     {
+      "r": 86,
+      "c": 1,
+      "p": "九龍",
+      "d": "1931"
+     },
+     {
+      "r": 88,
+      "c": 1,
+      "p": "サイゴン",
+      "d": "1931"
+     },
+     {
+      "r": 90,
+      "c": 1,
+      "p": "アレブ",
+      "d": "1934"
+     },
+     {
+      "r": 91,
+      "c": 1,
+      "p": "ダマスクス",
+      "d": "1934"
+     },
+     {
+      "r": 93,
+      "c": 1,
+      "p": "バタヴィア",
+      "d": "1930"
+     },
+     {
+      "r": 94,
+      "c": 1,
+      "p": "スラバヤ",
+      "d": "1930"
+     },
+     {
+      "r": 95,
+      "c": 1,
+      "p": "サマラング",
+      "d": "1930"
+     },
+     {
+      "r": 97,
+      "c": 1,
+      "p": "マニラ",
+      "d": "1935"
+     },
+     {
+      "r": 99,
+      "c": 1,
+      "p": "モスコー",
+      "d": "1935"
+     },
+     {
+      "r": 100,
+      "c": 1,
+      "p": "レニングラード",
+      "d": "1935"
+     },
+     {
+      "r": 101,
+      "c": 1,
+      "p": "バクー",
+      "d": "1935"
+     },
+     {
+      "r": 102,
+      "c": 1,
+      "p": "ハルコフ",
+      "d": "1935"
+     },
+     {
+      "r": 103,
+      "c": 1,
+      "p": "キエフ",
+      "d": "1935"
+     },
+     {
+      "r": 104,
+      "c": 1,
+      "p": "タシケント",
+      "d": "1935"
+     },
+     {
+      "r": 105,
+      "c": 1,
+      "p": "ゴルキー",
+      "d": "1935"
+     },
+     {
+      "r": 106,
+      "c": 1,
+      "p": "オデツサ",
+      "d": "1935"
+     },
+     {
+      "r": 107,
+      "c": 1,
+      "p": "ロストフ・オン・ドン",
+      "d": "1935"
+     },
+     {
+      "r": 108,
+      "c": 1,
+      "p": "スフェルドロフスク",
+      "d": "1935"
+     },
+     {
+      "r": 109,
+      "c": 1,
+      "p": "チフリス",
+      "d": "1935"
+     },
+     {
+      "r": 110,
+      "c": 1,
+      "p": "スターリングラード",
+      "d": "1935"
+     },
+     {
+      "r": 111,
+      "c": 1,
+      "p": "ドニエプロペトロフスク",
+      "d": "1935"
+     },
+     {
+      "r": 112,
+      "c": 1,
+      "p": "サラトフ",
+      "d": "1935"
+     },
+     {
+      "r": 113,
+      "c": 1,
+      "p": "ノヴォシビルスク",
+      "d": "1935"
+     },
+     {
+      "r": 114,
+      "c": 1,
+      "p": "スタリノー",
+      "d": "1935"
+     },
+     {
+      "r": 115,
+      "c": 1,
+      "p": "カザン",
+      "d": "1935"
+     },
+     {
+      "r": 116,
+      "c": 1,
+      "p": "クウイブウイシエフ",
+      "d": "1935"
+     },
+     {
+      "r": 117,
+      "c": 1,
+      "p": "チエリヤビンスク",
+      "d": "1935"
+     },
+     {
+      "r": 118,
+      "c": 1,
+      "p": "アストラハン",
+      "d": "1935"
+     },
+     {
+      "r": 119,
+      "c": 1,
+      "p": "オムスク",
+      "d": "1935"
+     },
+     {
+      "r": 120,
+      "c": 1,
+      "p": "ウオロネエジ",
+      "d": "1935"
+     },
+     {
+      "r": 121,
+      "c": 1,
+      "p": "ウラヂオストツク",
+      "d": "1935"
+     },
+     {
+      "r": 122,
+      "c": 1,
+      "p": "アルハンゲリスク",
+      "d": "1935"
+     },
+     {
+      "r": 123,
+      "c": 1,
+      "p": "スタリンスク",
+      "d": "1935"
+     },
+     {
+      "r": 125,
+      "c": 1,
+      "p": "イワノヴオ",
+      "d": "1935"
+     },
+     {
+      "r": 126,
+      "c": 1,
+      "p": "マグニトゴオルスク",
+      "d": "1935"
+     },
+     {
+      "r": 127,
+      "c": 1,
+      "p": "ヤロスラヴ",
+      "d": "1935"
+     },
+     {
+      "r": 128,
+      "c": 1,
+      "p": "ザポロジエ",
+      "d": "1935"
+     },
+     {
+      "r": 129,
+      "c": 1,
+      "p": "ツーラ",
+      "d": "1935"
+     },
+     {
+      "r": 131,
+      "c": 1,
+      "p": "ベルリン",
+      "d": "1937"
+     },
+     {
+      "r": 132,
+      "c": 1,
+      "p": "ハンブルグ",
+      "d": "1937"
+     },
+     {
+      "r": 133,
+      "c": 1,
+      "p": "ケルン",
+      "d": "1937"
+     },
+     {
+      "r": 134,
+      "c": 1,
+      "p": "ミユンヘン",
+      "d": "1937"
+     },
+     {
+      "r": 135,
+      "c": 1,
+      "p": "ライブチツヒ",
+      "d": "1937"
+     },
+     {
+      "r": 136,
+      "c": 1,
+      "p": "エツセン",
+      "d": "1937"
+     },
+     {
+      "r": 137,
+      "c": 1,
+      "p": "ドレスデン",
+      "d": "1937"
+     },
+     {
+      "r": 138,
+      "c": 1,
+      "p": "ブレスラウ",
+      "d": "1937"
+     },
+     {
+      "r": 139,
+      "c": 1,
+      "p": "フランクフルト・アム・マイン",
+      "d": "1937"
+     },
+     {
+      "r": 140,
+      "c": 1,
+      "p": "ドルトムンド",
+      "d": "1937"
+     },
+     {
+      "r": 141,
+      "c": 1,
+      "p": "デユツセルドルフ",
+      "d": "1937"
+     },
+     {
+      "r": 142,
+      "c": 1,
+      "p": "ハノーヴアー",
+      "d": "1937"
+     },
+     {
+      "r": 143,
+      "c": 1,
+      "p": "デユイスボルグ・ハンボルン",
+      "d": "1937"
+     },
+     {
+      "r": 144,
+      "c": 1,
+      "p": "シユツットガルト",
+      "d": "1937"
+     },
+     {
+      "r": 145,
+      "c": 1,
+      "p": "ニユルンベルグ",
+      "d": "1937"
+     },
+     {
+      "r": 146,
+      "c": 1,
+      "p": "ウツペルタール",
+      "d": "1937"
+     },
+     {
+      "r": 147,
+      "c": 1,
+      "p": "ケムニツツ",
+      "d": "1937"
+     },
+     {
+      "r": 148,
+      "c": 1,
+      "p": "ゲルセンキルヘン",
+      "d": "1937"
+     },
+     {
+      "r": 149,
+      "c": 1,
+      "p": "ブレーメン",
+      "d": "1937"
+     },
+     {
+      "r": 150,
+      "c": 1,
+      "p": "ケーニスベルグ",
+      "d": "1937"
+     },
+     {
+      "r": 151,
+      "c": 1,
+      "p": "ボフム",
+      "d": "1937"
+     },
+     {
+      "r": 152,
+      "c": 1,
+      "p": "マグデブルグ",
+      "d": "1937"
+     },
+     {
+      "r": 153,
+      "c": 1,
+      "p": "マンハイム",
+      "d": "1937"
+     },
+     {
+      "r": 154,
+      "c": 1,
+      "p": "ステツチン",
+      "d": "1937"
+     },
+     {
+      "r": 155,
+      "c": 1,
+      "p": "アルトナ",
+      "d": "1937"
+     },
+     {
+      "r": 156,
+      "c": 1,
+      "p": "キール",
+      "d": "1937"
+     },
+     {
+      "r": 157,
+      "c": 1,
+      "p": "ハルレ",
+      "d": "1937"
+     },
+     {
+      "r": 158,
+      "c": 1,
+      "p": "カツセル",
+      "d": "1937"
+     },
+     {
+      "r": 161,
+      "c": 1,
+      "p": "ロンドン",
+      "d": "1936"
+     },
+     {
+      "r": 162,
+      "c": 1,
+      "p": "バーミンガム",
+      "d": "1936"
+     },
+     {
+      "r": 163,
+      "c": 1,
+      "p": "リヴアープール",
+      "d": "1936"
+     },
+     {
+      "r": 164,
+      "c": 1,
+      "p": "マンチエスター",
+      "d": "1936"
+     },
+     {
+      "r": 165,
+      "c": 1,
+      "p": "シエフイールド",
+      "d": "1936"
+     },
+     {
+      "r": 166,
+      "c": 1,
+      "p": "リーヅ",
+      "d": "1936"
+     },
+     {
+      "r": 167,
+      "c": 1,
+      "p": "ブリストル",
+      "d": "1936"
+     },
+     {
+      "r": 168,
+      "c": 1,
+      "p": "キングストン・アポン・ハル",
+      "d": "1936"
+     },
+     {
+      "r": 169,
+      "c": 1,
+      "p": "ニユーキヤスル・アポン・チン",
+      "d": "1936"
+     },
+     {
+      "r": 170,
+      "c": 1,
+      "p": "ブラツトフオード",
+      "d": "1936"
+     },
+     {
+      "r": 171,
+      "c": 1,
+      "p": "ノツチンガム",
+      "d": "1936"
+     },
+     {
+      "r": 172,
+      "c": 1,
+      "p": "ストツク・オン・トレント",
+      "d": "1936"
+     },
+     {
+      "r": 173,
+      "c": 1,
+      "p": "ウエスト・ハム",
+      "d": "1936"
+     },
+     {
+      "r": 174,
+      "c": 1,
+      "p": "レイセスター",
+      "d": "1936"
+     },
+     {
+      "r": 175,
+      "c": 1,
+      "p": "ポーツマウス",
+      "d": "1936"
+     },
+     {
+      "r": 176,
+      "c": 1,
+      "p": "クロイドム",
+      "d": "1936"
+     },
+     {
+      "r": 177,
+      "c": 1,
+      "p": "カルデイフ",
+      "d": "1936"
+     },
+     {
+      "r": 178,
+      "c": 1,
+      "p": "サルフオード",
+      "d": "1936"
+     },
+     {
+      "r": 179,
+      "c": 1,
+      "p": "プリモウス",
+      "d": "1936"
+     },
+     {
+      "r": 181,
+      "c": 1,
+      "p": "グラスゴウ",
+      "d": "1936"
+     },
+     {
+      "r": 182,
+      "c": 1,
+      "p": "エデインバラ",
+      "d": "1936"
+     },
+     {
+      "r": 184,
+      "c": 1,
+      "p": "ベルフアスト",
+      "d": "1936"
+     },
+     {
+      "r": 186,
+      "c": 1,
+      "p": "ダブリン",
+      "d": "1936"
+     },
+     {
+      "r": 188,
+      "c": 1,
+      "p": "パリー",
+      "d": "1936"
+     },
+     {
+      "r": 190,
+      "c": 1,
+      "p": "マルセイユ",
+      "d": "1936"
+     },
+     {
+      "r": 191,
+      "c": 1,
+      "p": "リヨン",
+      "d": "1936"
+     },
+     {
+      "r": 192,
+      "c": 1,
+      "p": "ボルドー",
+      "d": "1936"
+     },
+     {
+      "r": 193,
+      "c": 1,
+      "p": "ニース",
+      "d": "1936"
+     },
+     {
+      "r": 194,
+      "c": 1,
+      "p": "ツルーズ",
+      "d": "1936"
+     },
+     {
+      "r": 195,
+      "c": 1,
+      "p": "リール",
+      "d": "1936"
+     },
+     {
+      "r": 197,
+      "c": 1,
+      "p": "ローマ",
+      "d": "1936"
+     },
+     {
+      "r": 198,
+      "c": 1,
+      "p": "ミラノ",
+      "d": "1936"
+     },
+     {
+      "r": 199,
+      "c": 1,
+      "p": "ナポリ",
+      "d": "1936"
+     },
+     {
+      "r": 200,
+      "c": 1,
+      "p": "トリノ",
+      "d": "1936"
+     },
+     {
+      "r": 201,
+      "c": 1,
+      "p": "ゼノア",
+      "d": "1936"
+     },
+     {
+      "r": 202,
+      "c": 1,
+      "p": "パレルモ",
+      "d": "1936"
+     },
+     {
+      "r": 203,
+      "c": 1,
+      "p": "フロレンス",
+      "d": "1936"
+     },
+     {
+      "r": 204,
+      "c": 1,
+      "p": "ボロネ",
+      "d": "1936"
+     },
+     {
+      "r": 205,
+      "c": 1,
+      "p": "ベニス",
+      "d": "1936"
+     },
+     {
+      "r": 206,
+      "c": 1,
+      "p": "トリエスト",
+      "d": "1936"
+     },
+     {
+      "r": 207,
+      "c": 1,
+      "p": "カタニア",
+      "d": "1936"
+     },
+     {
+      "r": 209,
+      "c": 1,
+      "p": "ワルソー",
+      "d": "1936"
+     },
+     {
+      "r": 210,
+      "c": 1,
+      "p": "ロツヅ",
+      "d": "1936"
+     },
+     {
+      "r": 211,
+      "c": 1,
+      "p": "ルボオウ",
+      "d": "1936"
+     },
+     {
+      "r": 212,
+      "c": 1,
+      "p": "ポーゼン",
+      "d": "1936"
+     },
+     {
+      "r": 213,
+      "c": 1,
+      "p": "クラカウ",
+      "d": "1936"
+     },
+     {
+      "r": 214,
+      "c": 1,
+      "p": "ヴイルナ",
+      "d": "1936"
+     },
+     {
+      "r": 216,
+      "c": 1,
+      "p": "バルセロナ",
+      "d": "1934"
+     },
+     {
+      "r": 217,
+      "c": 1,
+      "p": "マドリツド",
+      "d": "1934"
+     },
+     {
+      "r": 218,
+      "c": 1,
+      "p": "ヴアレンシア",
+      "d": "1934"
+     },
+     {
+      "r": 219,
+      "c": 1,
+      "p": "セヴイラ",
+      "d": "1934"
+     },
+     {
+      "r": 220,
+      "c": 1,
+      "p": "マラガ",
+      "d": "1934"
+     },
+     {
+      "r": 222,
+      "c": 1,
+      "p": "ブカレスト",
+      "d": "1936"
+     },
+     {
+      "r": 224,
+      "c": 1,
+      "p": "ブラーグ",
+      "d": "1930"
+     },
+     {
+      "r": 225,
+      "c": 1,
+      "p": "ブルノ",
+      "d": "1930"
+     },
+     {
+      "r": 227,
+      "c": 1,
+      "p": "ベルグラード",
+      "d": "1931"
+     },
+     {
+      "r": 229,
+      "c": 1,
+      "p": "ブダペスト",
+      "d": "1936"
+     },
+     {
+      "r": 231,
+      "c": 1,
+      "p": "アントワープ",
+      "d": "1935"
+     },
+     {
+      "r": 233,
+      "c": 1,
+      "p": "アムステルダム",
+      "d": "1936"
+     },
+     {
+      "r": 234,
+      "c": 1,
+      "p": "ロツテルダム",
+      "d": "1936"
+     },
+     {
+      "r": 235,
+      "c": 1,
+      "p": "ヘーグ",
+      "d": "1936"
+     },
+     {
+      "r": 237,
+      "c": 1,
+      "p": "リスボン",
+      "d": "1930"
+     },
+     {
+      "r": 238,
+      "c": 1,
+      "p": "オポルト",
+      "d": "1930"
+     },
+     {
+      "r": 240,
+      "c": 1,
+      "p": "ウイーン",
+      "d": "1934"
+     },
+     {
+      "r": 242,
+      "c": 1,
+      "p": "アテネ",
+      "d": "1928"
+     },
+     {
+      "r": 243,
+      "c": 1,
+      "p": "ピレー",
+      "d": "1928"
+     },
+     {
+      "r": 244,
+      "c": 1,
+      "p": "サロニツク",
+      "d": "1928"
+     },
+     {
+      "r": 246,
+      "c": 1,
+      "p": "ストツクフオルム",
+      "d": "1937"
+     },
+     {
+      "r": 247,
+      "c": 1,
+      "p": "ゲーテブルグ",
+      "d": "1937"
+     },
+     {
+      "r": 249,
+      "c": 1,
+      "p": "ソフイア",
+      "d": "1934"
+     },
+     {
+      "r": 251,
+      "c": 1,
+      "p": "チユーリツヒ",
+      "d": "1936"
+     },
+     {
+      "r": 253,
+      "c": 1,
+      "p": "ヘルシンキ",
+      "d": "1936"
+     },
+     {
+      "r": 255,
+      "c": 1,
+      "p": "コペンハーゲン",
+      "d": "1937"
+     },
+     {
+      "r": 257,
+      "c": 1,
+      "p": "オスロ",
+      "d": "1937"
+     },
+     {
+      "r": 259,
+      "c": 1,
+      "p": "リガ",
+      "d": "1935"
+     },
+     {
+      "r": 261,
+      "c": 1,
+      "p": "イスタンブール",
+      "d": "1935"
+     },
+     {
+      "r": 263,
+      "c": 1,
+      "p": "ダンチヒ",
+      "d": "1935"
+     },
+     {
+      "r": 265,
+      "c": 1,
+      "p": "ニユー・ヨーク",
+      "d": "1936"
+     },
+     {
+      "r": 266,
+      "c": 1,
+      "p": "シカゴ",
+      "d": "1936"
+     },
+     {
+      "r": 267,
+      "c": 1,
+      "p": "フイラデルフイア",
+      "d": "1936"
+     },
+     {
+      "r": 268,
+      "c": 1,
+      "p": "デトロイト",
+      "d": "1936"
+     },
+     {
+      "r": 269,
+      "c": 1,
+      "p": "ロスアンゼルス",
+      "d": "1936"
+     },
+     {
+      "r": 270,
+      "c": 1,
+      "p": "クリーヴランド",
+      "d": "1936"
+     },
+     {
+      "r": 271,
+      "c": 1,
+      "p": "ボルチモア",
+      "d": "1936"
+     },
+     {
+      "r": 272,
+      "c": 1,
+      "p": "セント・ルイス",
+      "d": "1936"
+     },
+     {
+      "r": 273,
+      "c": 1,
+      "p": "ボストン",
+      "d": "1936"
+     },
+     {
+      "r": 274,
+      "c": 1,
+      "p": "サン・フランシスコ",
+      "d": "1936"
+     },
+     {
+      "r": 275,
+      "c": 1,
+      "p": "ピツツバーグ",
+      "d": "1936"
+     },
+     {
+      "r": 276,
+      "c": 1,
+      "p": "ワシントン",
+      "d": "1936"
+     },
+     {
+      "r": 277,
+      "c": 1,
+      "p": "ミルウオーキー",
+      "d": "1936"
+     },
+     {
+      "r": 278,
+      "c": 1,
+      "p": "バツフアロ",
+      "d": "1936"
+     },
+     {
+      "r": 279,
+      "c": 1,
+      "p": "ニユーオルレアンス",
+      "d": "1936"
+     },
+     {
+      "r": 280,
+      "c": 1,
+      "p": "ミネアポリス",
+      "d": "1936"
+     },
+     {
+      "r": 281,
+      "c": 1,
+      "p": "シンシナチ",
+      "d": "1936"
+     },
+     {
+      "r": 282,
+      "c": 1,
+      "p": "ニユーアーク",
+      "d": "1936"
+     },
+     {
+      "r": 283,
+      "c": 1,
+      "p": "カンサス・シテイ",
+      "d": "1936"
+     },
+     {
+      "r": 284,
+      "c": 1,
+      "p": "インデイアナポリス",
+      "d": "1936"
+     },
+     {
+      "r": 285,
+      "c": 1,
+      "p": "シアトル",
+      "d": "1936"
+     },
+     {
+      "r": 286,
+      "c": 1,
+      "p": "ハウストン",
+      "d": "1936"
+     },
+     {
+      "r": 287,
+      "c": 1,
+      "p": "ルイスヴイル",
+      "d": "1936"
+     },
+     {
+      "r": 288,
+      "c": 1,
+      "p": "ロチエスター",
+      "d": "1936"
+     },
+     {
+      "r": 289,
+      "c": 1,
+      "p": "ジヤージー・シテイ",
+      "d": "1936"
+     },
+     {
+      "r": 290,
+      "c": 1,
+      "p": "コロムバス",
+      "d": "1936"
+     },
+     {
+      "r": 291,
+      "c": 1,
+      "p": "ポートランド",
+      "d": "1936"
+     },
+     {
+      "r": 292,
+      "c": 1,
+      "p": "ダラス",
+      "d": "1936"
+     },
+     {
+      "r": 293,
+      "c": 1,
+      "p": "トレド",
+      "d": "1936"
+     },
+     {
+      "r": 294,
+      "c": 1,
+      "p": "セント・ポール",
+      "d": "1936"
+     },
+     {
+      "r": 295,
+      "c": 1,
+      "p": "オークランド",
+      "d": "1936"
+     },
+     {
+      "r": 296,
+      "c": 1,
+      "p": "デンヴアー",
+      "d": "1936"
+     },
+     {
+      "r": 297,
+      "c": 1,
+      "p": "アトランタ",
+      "d": "1936"
+     },
+     {
+      "r": 298,
+      "c": 1,
+      "p": "バーミンガム",
+      "d": "1936"
+     },
+     {
+      "r": 299,
+      "c": 1,
+      "p": "メンフイス",
+      "d": "1936"
+     },
+     {
+      "r": 300,
+      "c": 1,
+      "p": "アクロン",
+      "d": "1936"
+     },
+     {
+      "r": 301,
+      "c": 1,
+      "p": "プロヴイデンス",
+      "d": "1936"
+     },
+     {
+      "r": 302,
+      "c": 1,
+      "p": "サン・アントニオ",
+      "d": "1936"
+     },
+     {
+      "r": 303,
+      "c": 1,
+      "p": "デイトン",
+      "d": "1936"
+     },
+     {
+      "r": 304,
+      "c": 1,
+      "p": "シラキユーズ",
+      "d": "1936"
+     },
+     {
+      "r": 305,
+      "c": 1,
+      "p": "オマハ",
+      "d": "1936"
+     },
+     {
+      "r": 306,
+      "c": 1,
+      "p": "オクラホマ・シチイ",
+      "d": "1936"
+     },
+     {
+      "r": 307,
+      "c": 1,
+      "p": "ウオーセスター",
+      "d": "1936"
+     },
+     {
+      "r": 309,
+      "c": 1,
+      "p": "モントリオール",
+      "d": "1931"
+     },
+     {
+      "r": 310,
+      "c": 1,
+      "p": "トロント",
+      "d": "1931"
+     },
+     {
+      "r": 311,
+      "c": 1,
+      "p": "ヴアンクーヴアー",
+      "d": "1931"
+     },
+     {
+      "r": 312,
+      "c": 1,
+      "p": "ウイニペグ",
+      "d": "1931"
+     },
+     {
+      "r": 314,
+      "c": 1,
+      "p": "メキシコ",
+      "d": "1930"
+     },
+     {
+      "r": 316,
+      "c": 1,
+      "p": "バヴアナ",
+      "d": "1931"
+     },
+     {
+      "r": 318,
+      "c": 1,
+      "p": "リオ・デ・ジヤネイロ",
+      "d": "1933"
+     },
+     {
+      "r": 319,
+      "c": 1,
+      "p": "サン・パウロ",
+      "d": "1933"
+     },
+     {
+      "r": 320,
+      "c": 1,
+      "p": "レシフエ",
+      "d": "1933"
+     },
+     {
+      "r": 321,
+      "c": 1,
+      "p": "サルヴアドル",
+      "d": "1933"
+     },
+     {
+      "r": 322,
+      "c": 1,
+      "p": "ポート・アレグレ",
+      "d": "1933"
+     },
+     {
+      "r": 323,
+      "c": 1,
+      "p": "ベレム",
+      "d": "1933"
+     },
+     {
+      "r": 324,
+      "c": 1,
+      "p": "カンポス",
+      "d": "1933"
+     },
+     {
+      "r": 326,
+      "c": 1,
+      "p": "ブエノス・アイレス",
+      "d": "1936"
+     },
+     {
+      "r": 327,
+      "c": 1,
+      "p": "ロザリオ",
+      "d": "1936"
+     },
+     {
+      "r": 328,
+      "c": 1,
+      "p": "コルドバ",
+      "d": "1936"
+     },
+     {
+      "r": 329,
+      "c": 1,
+      "p": "アヴエラネダ",
+      "d": "1936"
+     },
+     {
+      "r": 331,
+      "c": 1,
+      "p": "ボゴタ",
+      "d": "1936"
+     },
+     {
+      "r": 333,
+      "c": 1,
+      "p": "リマ",
+      "d": "1931"
+     },
+     {
+      "r": 335,
+      "c": 1,
+      "p": "サンチヤゴ",
+      "d": "1933"
+     },
+     {
+      "r": 337,
+      "c": 1,
+      "p": "モンテヴイデオ",
+      "d": "1936"
+     },
+     {
+      "r": 339,
+      "c": 1,
+      "p": "アスンシヨン",
+      "d": "1933"
+     },
+     {
+      "r": 341,
+      "c": 1,
+      "p": "カイロ",
+      "d": "1937"
+     },
+     {
+      "r": 342,
+      "c": 1,
+      "p": "アレキサンドリア",
+      "d": "1937"
+     },
+     {
+      "r": 344,
+      "c": 1,
+      "p": "ヨハネスブルグ",
+      "d": "1936"
+     },
+     {
+      "r": 345,
+      "c": 1,
+      "p": "ケープタウン",
+      "d": "1936"
+     },
+     {
+      "r": 346,
+      "c": 1,
+      "p": "ダーバン",
+      "d": "1936"
+     },
+     {
+      "r": 348,
+      "c": 1,
+      "p": "イバダン",
+      "d": "1931"
+     },
+     {
+      "r": 350,
+      "c": 1,
+      "p": "アルジエリア",
+      "d": "1936"
+     },
+     {
+      "r": 352,
+      "c": 1,
+      "p": "チユニス",
+      "d": "1936"
+     },
+     {
+      "r": 354,
+      "c": 1,
+      "p": "カサブランカ",
+      "d": "1936"
+     },
+     {
+      "r": 356,
+      "c": 1,
+      "p": "シドニー",
+      "d": "1933"
+     },
+     {
+      "r": 357,
+      "c": 1,
+      "p": "メルボルン",
+      "d": "1933"
+     },
+     {
+      "r": 358,
+      "c": 1,
+      "p": "ブリスベン",
+      "d": "1933"
+     },
+     {
+      "r": 359,
+      "c": 1,
+      "p": "アデレイド",
+      "d": "1933"
+     },
+     {
+      "r": 360,
+      "c": 1,
+      "p": "パース",
+      "d": "1933"
+     },
+     {
+      "r": 362,
+      "c": 1,
+      "p": "オークランド",
+      "d": "1936"
+     }
+    ]
+   }
+  ],
+  "fp": "9a0d44387d"
+ },
+ {
+  "t": "japan-tokei-1938:p0254_1",
+  "x": [
+   {
+    "rows": "cells",
+    "mult": 1000,
+    "cells": [
+     {
+      "r": 0,
+      "c": 2,
+      "p": "Japan proper",
+      "d": "1930"
+     },
+     {
+      "r": 1,
+      "c": 2,
+      "p": "英領印度",
+      "d": "1931"
+     },
+     {
+      "r": 2,
+      "c": 2,
+      "p": "墺地利",
+      "d": "1934"
+     },
+     {
+      "r": 3,
+      "c": 2,
+      "p": "白耳義",
+      "d": "1930"
+     },
+     {
+      "r": 4,
+      "c": 2,
+      "p": "ブルガリア",
+      "d": "1934"
+     },
+     {
+      "r": 5,
+      "c": 2,
+      "p": "チエツコスロヴアキア",
+      "d": "1930"
+     },
+     {
+      "r": 6,
+      "c": 2,
+      "p": "丁抹",
+      "d": "1935"
+     },
+     {
+      "r": 7,
+      "c": 2,
+      "p": "エストニア",
+      "d": "1934"
+     },
+     {
+      "r": 8,
+      "c": 2,
+      "p": "フインランド",
+      "d": "1930"
+     },
+     {
+      "r": 9,
+      "c": 2,
+      "p": "佛蘭西",
+      "d": "1931"
+     },
+     {
+      "r": 10,
+      "c": 2,
+      "p": "獨逸",
+      "d": "1933"
+     },
+     {
+      "r": 11,
+      "c": 2,
+      "p": "希臘",
+      "d": "1928"
+     },
+     {
+      "r": 12,
+      "c": 2,
+      "p": "英吉利",
+      "d": "1931"
+     },
+     {
+      "r": 13,
+      "c": 2,
+      "p": "ハンガリー",
+      "d": "1930"
+     },
+     {
+      "r": 14,
+      "c": 2,
+      "p": "伊太利",
+      "d": "1936"
+     },
+     {
+      "r": 15,
+      "c": 2,
+      "p": "ラトヴイア",
+      "d": "1935"
+     },
+     {
+      "r": 16,
+      "c": 2,
+      "p": "和蘭",
+      "d": "1930"
+     },
+     {
+      "r": 17,
+      "c": 2,
+      "p": "リスアニア",
+      "d": "1923"
+     },
+     {
+      "r": 18,
+      "c": 2,
+      "p": "諾威",
+      "d": "1930"
+     },
+     {
+      "r": 19,
+      "c": 2,
+      "p": "ポーランド",
+      "d": "1931"
+     },
+     {
+      "r": 20,
+      "c": 2,
+      "p": "ポルトガル",
+      "d": "1930"
+     },
+     {
+      "r": 21,
+      "c": 2,
+      "p": "ルーマニア",
+      "d": "1930"
+     },
+     {
+      "r": 22,
+      "c": 2,
+      "p": "西班牙",
+      "d": "1920"
+     },
+     {
+      "r": 23,
+      "c": 2,
+      "p": "瑞西",
+      "d": "1930"
+     },
+     {
+      "r": 24,
+      "c": 2,
+      "p": "瑞典",
+      "d": "1935"
+     },
+     {
+      "r": 25,
+      "c": 2,
+      "p": "ユーゴスラヴイア",
+      "d": "1931"
+     },
+     {
+      "r": 26,
+      "c": 2,
+      "p": "北米合衆國",
+      "d": "1930"
+     },
+     {
+      "r": 27,
+      "c": 2,
+      "p": "カナダ",
+      "d": "1931"
+     },
+     {
+      "r": 28,
+      "c": 2,
+      "p": "南阿聯邦",
+      "d": "1931"
+     },
+     {
+      "r": 29,
+      "c": 2,
+      "p": "濠洲",
+      "d": "1933"
+     },
+     {
+      "r": 30,
+      "c": 2,
+      "p": "新西蘭",
+      "d": "1934"
+     }
+    ]
+   }
+  ],
+  "fp": "7e7309322c"
+ },
+ {
+  "t": "japan-tokei-1938:p0254_2",
+  "x": [
+   {
+    "rows": "cells",
+    "mult": 1000,
+    "cells": [
+     {
+      "r": 0,
+      "c": 2,
+      "p": "Japan proper",
+      "d": "1930"
+     },
+     {
+      "r": 1,
+      "c": 2,
+      "p": "英領印度",
+      "d": "1931"
+     },
+     {
+      "r": 2,
+      "c": 2,
+      "p": "北米合衆國",
+      "d": "1930"
+     },
+     {
+      "r": 3,
+      "c": 2,
+      "p": "獨逸",
+      "d": "1933"
+     },
+     {
+      "r": 4,
+      "c": 2,
+      "p": "英吉利",
+      "d": "1931"
+     },
+     {
+      "r": 5,
+      "c": 2,
+      "p": "佛蘭西",
+      "d": "1931"
+     },
+     {
+      "r": 6,
+      "c": 2,
+      "p": "伊太利",
+      "d": "1931"
+     },
+     {
+      "r": 7,
+      "c": 2,
+      "p": "チエツコスロヴアキア",
+      "d": "1930"
+     },
+     {
+      "r": 8,
+      "c": 2,
+      "p": "カナダ",
+      "d": "1931"
+     },
+     {
+      "r": 9,
+      "c": 2,
+      "p": "ハンガリー",
+      "d": "1930"
+     },
+     {
+      "r": 10,
+      "c": 2,
+      "p": "和蘭",
+      "d": "1930"
+     },
+     {
+      "r": 11,
+      "c": 2,
+      "p": "白耳義",
+      "d": "1920"
+     },
+     {
+      "r": 12,
+      "c": 2,
+      "p": "墺地利",
+      "d": "1934"
+     },
+     {
+      "r": 13,
+      "c": 2,
+      "p": "瑞典",
+      "d": "1930"
+     },
+     {
+      "r": 14,
+      "c": 2,
+      "p": "ブルガリア",
+      "d": "1926"
+     },
+     {
+      "r": 15,
+      "c": 2,
+      "p": "濠洲",
+      "d": "1933"
+     },
+     {
+      "r": 16,
+      "c": 2,
+      "p": "瑞西",
+      "d": "1930"
+     },
+     {
+      "r": 17,
+      "c": 2,
+      "p": "フインランド",
+      "d": "1930"
+     },
+     {
+      "r": 18,
+      "c": 2,
+      "p": "丁抹",
+      "d": "1930"
+     },
+     {
+      "r": 19,
+      "c": 2,
+      "p": "諾威",
+      "d": "1930"
+     },
+     {
+      "r": 20,
+      "c": 2,
+      "p": "南阿聯邦",
+      "d": "1926"
+     }
+    ]
+   }
+  ],
+  "fp": "fc6209d2fd"
+ },
+ {
+  "t": "japan-tokei-1938:p0255_1",
+  "x": [
+   {
+    "rows": "cells",
+    "mult": 1000,
+    "cells": [
+     {
+      "r": 0,
+      "c": 3,
+      "p": "Japan proper",
+      "d": "1930"
+     },
+     {
+      "r": 0,
+      "c": 4,
+      "p": "Japan proper",
+      "d": "1930",
+      "m": "male"
+     },
+     {
+      "r": 0,
+      "c": 5,
+      "p": "Japan proper",
+      "d": "1930",
+      "m": "female"
+     },
+     {
+      "r": 1,
+      "c": 3,
+      "p": "英領印度",
+      "d": "1931"
+     },
+     {
+      "r": 1,
+      "c": 4,
+      "p": "英領印度",
+      "d": "1931",
+      "m": "male"
+     },
+     {
+      "r": 1,
+      "c": 5,
+      "p": "英領印度",
+      "d": "1931",
+      "m": "female"
+     },
+     {
+      "r": 2,
+      "c": 3,
+      "p": "墺地利",
+      "d": "1934"
+     },
+     {
+      "r": 2,
+      "c": 4,
+      "p": "墺地利",
+      "d": "1934",
+      "m": "male"
+     },
+     {
+      "r": 2,
+      "c": 5,
+      "p": "墺地利",
+      "d": "1934",
+      "m": "female"
+     },
+     {
+      "r": 3,
+      "c": 3,
+      "p": "白耳義",
+      "d": "1930"
+     },
+     {
+      "r": 3,
+      "c": 4,
+      "p": "白耳義",
+      "d": "1930",
+      "m": "male"
+     },
+     {
+      "r": 3,
+      "c": 5,
+      "p": "白耳義",
+      "d": "1930",
+      "m": "female"
+     },
+     {
+      "r": 4,
+      "c": 3,
+      "p": "ブルガリア",
+      "d": "1934"
+     },
+     {
+      "r": 4,
+      "c": 4,
+      "p": "ブルガリア",
+      "d": "1934",
+      "m": "male"
+     },
+     {
+      "r": 4,
+      "c": 5,
+      "p": "ブルガリア",
+      "d": "1934",
+      "m": "female"
+     },
+     {
+      "r": 5,
+      "c": 3,
+      "p": "チェツコスロヴァキア",
+      "d": "1930"
+     },
+     {
+      "r": 5,
+      "c": 4,
+      "p": "チェツコスロヴァキア",
+      "d": "1930",
+      "m": "male"
+     },
+     {
+      "r": 5,
+      "c": 5,
+      "p": "チェツコスロヴァキア",
+      "d": "1930",
+      "m": "female"
+     },
+     {
+      "r": 6,
+      "c": 3,
+      "p": "丁抹",
+      "d": "1935"
+     },
+     {
+      "r": 6,
+      "c": 4,
+      "p": "丁抹",
+      "d": "1935",
+      "m": "male"
+     },
+     {
+      "r": 6,
+      "c": 5,
+      "p": "丁抹",
+      "d": "1935",
+      "m": "female"
+     },
+     {
+      "r": 7,
+      "c": 3,
+      "p": "フィンランド",
+      "d": "1930"
+     },
+     {
+      "r": 7,
+      "c": 4,
+      "p": "フィンランド",
+      "d": "1930",
+      "m": "male"
+     },
+     {
+      "r": 7,
+      "c": 5,
+      "p": "フィンランド",
+      "d": "1930",
+      "m": "female"
+     },
+     {
+      "r": 8,
+      "c": 3,
+      "p": "佛蘭西",
+      "d": "1931"
+     },
+     {
+      "r": 8,
+      "c": 4,
+      "p": "佛蘭西",
+      "d": "1931",
+      "m": "male"
+     },
+     {
+      "r": 8,
+      "c": 5,
+      "p": "佛蘭西",
+      "d": "1931",
+      "m": "female"
+     },
+     {
+      "r": 9,
+      "c": 3,
+      "p": "獨逸",
+      "d": "1933"
+     },
+     {
+      "r": 9,
+      "c": 4,
+      "p": "獨逸",
+      "d": "1933",
+      "m": "male"
+     },
+     {
+      "r": 9,
+      "c": 5,
+      "p": "獨逸",
+      "d": "1933",
+      "m": "female"
+     },
+     {
+      "r": 10,
+      "c": 3,
+      "p": "希臘",
+      "d": "1928"
+     },
+     {
+      "r": 10,
+      "c": 4,
+      "p": "希臘",
+      "d": "1928",
+      "m": "male"
+     },
+     {
+      "r": 10,
+      "c": 5,
+      "p": "希臘",
+      "d": "1928",
+      "m": "female"
+     },
+     {
+      "r": 11,
+      "c": 3,
+      "p": "英吉利",
+      "d": "1931"
+     },
+     {
+      "r": 11,
+      "c": 4,
+      "p": "英吉利",
+      "d": "1931",
+      "m": "male"
+     },
+     {
+      "r": 11,
+      "c": 5,
+      "p": "英吉利",
+      "d": "1931",
+      "m": "female"
+     },
+     {
+      "r": 12,
+      "c": 3,
+      "p": "ハンガリー",
+      "d": "1930"
+     },
+     {
+      "r": 12,
+      "c": 4,
+      "p": "ハンガリー",
+      "d": "1930",
+      "m": "male"
+     },
+     {
+      "r": 12,
+      "c": 5,
+      "p": "ハンガリー",
+      "d": "1930",
+      "m": "female"
+     },
+     {
+      "r": 13,
+      "c": 3,
+      "p": "伊太利",
+      "d": "1936"
+     },
+     {
+      "r": 13,
+      "c": 4,
+      "p": "伊太利",
+      "d": "1936",
+      "m": "male"
+     },
+     {
+      "r": 13,
+      "c": 5,
+      "p": "伊太利",
+      "d": "1936",
+      "m": "female"
+     },
+     {
+      "r": 14,
+      "c": 3,
+      "p": "ラトヴィア",
+      "d": "1935"
+     },
+     {
+      "r": 14,
+      "c": 4,
+      "p": "ラトヴィア",
+      "d": "1935",
+      "m": "male"
+     },
+     {
+      "r": 14,
+      "c": 5,
+      "p": "ラトヴィア",
+      "d": "1935",
+      "m": "female"
+     },
+     {
+      "r": 15,
+      "c": 3,
+      "p": "和蘭",
+      "d": "1930"
+     },
+     {
+      "r": 15,
+      "c": 4,
+      "p": "和蘭",
+      "d": "1930",
+      "m": "male"
+     },
+     {
+      "r": 15,
+      "c": 5,
+      "p": "和蘭",
+      "d": "1930",
+      "m": "female"
+     },
+     {
+      "r": 16,
+      "c": 3,
+      "p": "諾威",
+      "d": "1930"
+     },
+     {
+      "r": 16,
+      "c": 4,
+      "p": "諾威",
+      "d": "1930",
+      "m": "male"
+     },
+     {
+      "r": 16,
+      "c": 5,
+      "p": "諾威",
+      "d": "1930",
+      "m": "female"
+     },
+     {
+      "r": 17,
+      "c": 3,
+      "p": "ポルトガル",
+      "d": "1930"
+     },
+     {
+      "r": 17,
+      "c": 4,
+      "p": "ポルトガル",
+      "d": "1930",
+      "m": "male"
+     },
+     {
+      "r": 17,
+      "c": 5,
+      "p": "ポルトガル",
+      "d": "1930",
+      "m": "female"
+     },
+     {
+      "r": 18,
+      "c": 3,
+      "p": "瑞西",
+      "d": "1930"
+     },
+     {
+      "r": 18,
+      "c": 4,
+      "p": "瑞西",
+      "d": "1930",
+      "m": "male"
+     },
+     {
+      "r": 18,
+      "c": 5,
+      "p": "瑞西",
+      "d": "1930",
+      "m": "female"
+     },
+     {
+      "r": 19,
+      "c": 3,
+      "p": "瑞典",
+      "d": "1935"
+     },
+     {
+      "r": 19,
+      "c": 4,
+      "p": "瑞典",
+      "d": "1935",
+      "m": "male"
+     },
+     {
+      "r": 19,
+      "c": 5,
+      "p": "瑞典",
+      "d": "1935",
+      "m": "female"
+     },
+     {
+      "r": 20,
+      "c": 3,
+      "p": "カナダ",
+      "d": "1931"
+     },
+     {
+      "r": 20,
+      "c": 4,
+      "p": "カナダ",
+      "d": "1931",
+      "m": "male"
+     },
+     {
+      "r": 20,
+      "c": 5,
+      "p": "カナダ",
+      "d": "1931",
+      "m": "female"
+     },
+     {
+      "r": 21,
+      "c": 3,
+      "p": "北米合衆國",
+      "d": "1930"
+     },
+     {
+      "r": 21,
+      "c": 4,
+      "p": "北米合衆國",
+      "d": "1930",
+      "m": "male"
+     },
+     {
+      "r": 21,
+      "c": 5,
+      "p": "北米合衆國",
+      "d": "1930",
+      "m": "female"
+     },
+     {
+      "r": 22,
+      "c": 3,
+      "p": "南阿聯邦",
+      "d": "1926"
+     },
+     {
+      "r": 22,
+      "c": 4,
+      "p": "南阿聯邦",
+      "d": "1926",
+      "m": "male"
+     },
+     {
+      "r": 22,
+      "c": 5,
+      "p": "南阿聯邦",
+      "d": "1926",
+      "m": "female"
+     },
+     {
+      "r": 23,
+      "c": 3,
+      "p": "濠洲",
+      "d": "1933"
+     },
+     {
+      "r": 23,
+      "c": 4,
+      "p": "濠洲",
+      "d": "1933",
+      "m": "male"
+     },
+     {
+      "r": 23,
+      "c": 5,
+      "p": "濠洲",
+      "d": "1933",
+      "m": "female"
+     }
+    ]
+   }
+  ],
+  "fp": "c80289fa7b"
+ },
+ {
+  "t": "japan-tokei-1938:p0258_1",
+  "skip": "rates only",
+  "fp": "adc2869004"
+ },
+ {
+  "t": "korea-1907:p0146_1",
+  "x": [
+   {
+    "pt": "province",
+    "in": "Korea",
+    "d": "1907-05-28",
+    "g": "korean",
+    "rp": {
+     "0": "Kyonggi",
+     "1": "North Chungchong",
+     "2": "South Chungchong",
+     "3": "North Kyongsang",
+     "4": "South Kyongsang",
+     "5": "North Cholla",
+     "6": "South Cholla",
+     "7": "Hwanghae",
+     "8": "North Pyongan",
+     "9": "South Pyongan",
+     "10": "North Hamgyong",
+     "11": "South Hamgyong",
+     "12": "Kangwon",
+     "13": "Korea"
+    },
+    "cols": [
+     {
+      "c": 2
+     },
+     {
+      "c": 1,
+      "m": "households"
+     }
+    ]
+   }
+  ],
+  "fp": "df5ba99441"
+ },
+ {
+  "t": "korea-1916-17:p0054_2",
+  "skip": "labour days",
+  "fp": "816d2a83dc"
+ },
+ {
+  "t": "korea-1916-17:p0107_1",
+  "skip": "sericulture",
+  "fp": "5245856d93"
+ },
+ {
+  "t": "korea-1916-17:p0155_1",
+  "skip": "schools",
+  "fp": "8bc987f803"
+ },
+ {
+  "t": "korea-1916-17:p0157_1",
+  "skip": "schools",
+  "fp": "10144a110e"
+ },
+ {
+  "t": "korea-1916-17:p0158_1",
+  "skip": "schools",
+  "fp": "d1af929b1c"
+ },
+ {
+  "t": "korea-1916-17:p0173_1",
+  "x": [
+   {
+    "pt": "province",
+    "in": "Korea",
+    "d": "1916-12-31",
+    "b": "registered",
+    "only": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13
+    ],
+    "rp": {
+     "13": "Korea"
+    },
+    "cols": [
+     {
+      "c": 8
+     },
+     {
+      "c": 5,
+      "g": "japanese"
+     },
+     {
+      "c": 6,
+      "g": "korean"
+     },
+     {
+      "c": 7,
+      "g": "foreign"
+     },
+     {
+      "c": 4,
+      "m": "households"
+     },
+     {
+      "c": 1,
+      "m": "households",
+      "g": "japanese"
+     },
+     {
+      "c": 2,
+      "m": "households",
+      "g": "korean"
+     },
+     {
+      "c": 3,
+      "m": "households",
+      "g": "foreign"
+     }
+    ]
+   },
+   {
+    "rows": "dates",
+    "p": "Korea",
+    "b": "registered",
+    "only": [
+     14,
+     15,
+     16,
+     17,
+     18,
+     19
+    ],
+    "cols": [
+     {
+      "c": 8
+     },
+     {
+      "c": 5,
+      "g": "japanese"
+     },
+     {
+      "c": 6,
+      "g": "korean"
+     },
+     {
+      "c": 7,
+      "g": "foreign"
+     },
+     {
+      "c": 4,
+      "m": "households"
+     },
+     {
+      "c": 1,
+      "m": "households",
+      "g": "japanese"
+     },
+     {
+      "c": 2,
+      "m": "households",
+      "g": "korean"
+     },
+     {
+      "c": 3,
+      "m": "households",
+      "g": "foreign"
+     }
+    ]
+   }
+  ],
+  "fp": "56914dd1ce"
+ },
+ {
+  "t": "korea-1916-17:p0176_1",
+  "skip": "prisoners",
+  "fp": "62c1925f8c"
+ },
+ {
+  "t": "korea-1916-17:p0184_1",
+  "skip": "publications",
+  "fp": "082e7b53b9"
+ },
+ {
+  "t": "korea-1917-18:p0046_2",
+  "skip": "not population counts",
+  "fp": "ad60c70eef"
+ },
+ {
+  "t": "korea-1917-18:p0147_1",
+  "skip": "not population counts",
+  "fp": "de89e0dc52"
+ },
+ {
+  "t": "korea-1917-18:p0149_1",
+  "skip": "not population counts",
+  "fp": "20fbfa24ab"
+ }
+]

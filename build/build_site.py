@@ -5,7 +5,7 @@ For each book in BOOKS, reads <book dir>/_work/tables/*.json and writes
 <slug>/index.html (self-contained) and data/<slug>.json. Books without tables yet are listed
 as "in progress" on the landing page. Scan links point to the online scan where one exists.
 """
-import json, glob, os, re, html, datetime
+import json, glob, os, re, html, datetime, sys
 from pathlib import Path
 
 SCRIPTS = os.path.dirname(os.path.abspath(__file__))  # build/: scripts, leaf maps, docs (not deployed)
@@ -1738,6 +1738,24 @@ def add_english(book, tables):
     book["_chen"] = tr.get("_chapters", {})
 
 
+def finder_links(slug):
+    """{table id: [[label, href, title]]}: the finder pages (build/finders/registry.py) that carry this table's figures.
+    Read from each finder's table_links.json, written by its last build (so a newly specced table gets its link on
+    the build after)."""
+    if not hasattr(finder_links, "reg"):
+        sys.path.insert(0, os.path.join(SCRIPTS, "finders"))
+        import registry
+        finder_links.reg = registry
+    return finder_links.reg.table_links(slug, "../../")
+
+
+def finder_search_list():
+    """The finder pages Full Search shows place cards from: [{name, title, page, index}] (paths from the site root)."""
+    finder_links("")   # loads the registry
+    return [{"name": c["name"], "title": c["title"], "page": c["page"], "index": c["data"] + "/index.json"}
+            for c in finder_links.reg.finders()]
+
+
 def add_maplinks(book, tables):
     """"Show on map" links for the tables listed in build/maplinks.json (spec: build/MAPLINK_SPEC.md)."""
     import importlib.util
@@ -2007,6 +2025,7 @@ def main():
                    .replace("__CHEN__", json.dumps(b.get("_chen") or {}, ensure_ascii=False))
                    .replace("__TAGDATA__", json.dumps(book_tags(b["slug"], tag_assignments), ensure_ascii=False).replace("<", "\\u003c"))
                    .replace("__XL__", json.dumps(xl[b["slug"]], ensure_ascii=False).replace("</", "<\\/"))
+                   .replace("__FINDERS__", json.dumps(finder_links(b["slug"]), ensure_ascii=False).replace("</", "<\\/"))
                    .replace("__HIDEIMG__", "true" if b.get("hide_images") else "false")
                    .replace("__KANJINUMS__", open(os.path.join(SCRIPTS, "kanji_nums.js"), encoding="utf-8").read().replace("if(typeof module!==\"undefined\")module.exports=KN;\n", ""))
                    .replace("__KNFULL__", json.dumps(b.get("kanji_full") or False))
@@ -2043,10 +2062,16 @@ def main():
     foot = rest[rest.index("<footer>"):]
     with open(os.path.join(HERE, "about.html"), "w", encoding="utf-8") as fh:
         fh.write(head + "<main>" + ABOUT + foot)
+    # figures/: the finder pages (build/finders/: Population …) and their hub, from the data/*.json just written, their
+    # table specs and the frozen gazetteer; they copy the header and footer of index.html
+    sys.path.insert(0, os.path.join(SCRIPTS, "finders"))
+    import build_all as finders_build
+    finders_build.main()
     books = [{"slug": b["slug"], "title": b["title"], "dir": bool(b.get("_dir_n")), "chron": bool(b.get("_chron_n")),
               "g": group_of(b), "y": years_of(b), "sc": b.get("scan")} for b, n, c, ch in cards if n]
     with open(os.path.join(HERE, "search.html"), "w", encoding="utf-8") as fh:
-        fh.write(SEARCH.replace("__BOOKS__", json.dumps(books, ensure_ascii=False)))
+        fh.write(SEARCH.replace("__BOOKS__", json.dumps(books, ensure_ascii=False))
+                 .replace("__FINDERS_IDX__", json.dumps(finder_search_list(), ensure_ascii=False)))
 
 
 # What a table's map is drawn by, from the payload's `units` (MAPLINK_SPEC): the with-maps page filters on it.
@@ -2517,7 +2542,7 @@ body.list article+article{margin-top:0}body.list article h2{font-size:16px;margi
 @media(max-width:560px){body.list article{flex-wrap:wrap;gap:4px}body.list article h2{flex-basis:100%}body.list .links{flex-wrap:wrap}.tools{margin-left:0}}
 </style></head><body><div class="band"><div>
 <h1><a href="index.html" style="color:inherit;text-decoration:none">Old Tables of East Asia</a></h1>
-<div class="topnav"><a class="searchbtn" href="search.html">Full Search</a><a class="searchbtn" href="topics/index.html">Topics</a><a class="searchbtn" href="about.html">About</a><nav class="jump" id="jump"><a href="#japan" id="j-japan">Japan</a><a href="#china" id="j-china">China</a><a href="#korea">Korea</a><a href="#taiwan">Taiwan</a><a href="#manchuria">Manchuria</a><a href="#south-seas">South Seas</a><a href="#other">Other</a></nav><span class="tools"><span class="lbl">Sort</span><span class="seg" id="sortseg" role="group" aria-label="Sort books"><button class="viewbtn" data-m="date" type="button" aria-pressed="true" title="Sort by edition year">Edition year</button><button class="viewbtn" data-m="az" type="button" aria-pressed="false" title="Sort alphabetically">A–Z</button><button class="viewbtn" data-m="added" type="button" aria-pressed="false" title="Most recently added first">Recently added</button></span><span class="seg"><button class="viewbtn" id="viewbtn" type="button" aria-pressed="false">☰ List</button></span></span></div>
+<div class="topnav"><a class="searchbtn" href="search.html">Search</a><a class="searchbtn" href="topics/index.html">Topics</a><a class="searchbtn" href="about.html">About</a><nav class="jump" id="jump"><a href="#japan" id="j-japan">Japan</a><a href="#china" id="j-china">China</a><a href="#korea">Korea</a><a href="#taiwan">Taiwan</a><a href="#manchuria">Manchuria</a><a href="#south-seas">South Seas</a><a href="#other">Other</a></nav><span class="tools"><span class="lbl">Sort</span><span class="seg" id="sortseg" role="group" aria-label="Sort books"><button class="viewbtn" data-m="date" type="button" aria-pressed="true" title="Sort by edition year">Edition year</button><button class="viewbtn" data-m="az" type="button" aria-pressed="false" title="Sort alphabetically">A–Z</button><button class="viewbtn" data-m="added" type="button" aria-pressed="false" title="Most recently added first">Recently added</button></span><span class="seg"><button class="viewbtn" id="viewbtn" type="button" aria-pressed="false">☰ List</button></span></span></div>
 </div></div>
 <main>
 <div id="groups">
@@ -2645,7 +2670,7 @@ th.sortable:hover{background:var(--hi)}
 thead.ml{position:sticky;top:0;z-index:1}thead.ml th{position:relative;vertical-align:bottom}thead.ml th.grp{text-align:center;vertical-align:middle;font-weight:bold}
 td.num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
 td.blank{background:repeating-linear-gradient(45deg,transparent 0 4px,var(--hi) 4px 8px)}
-td.illeg{background:repeating-linear-gradient(45deg,transparent 0 4px,rgba(200,60,40,.32) 4px 8px)}
+td.illeg{background:repeating-linear-gradient(45deg,transparent 0 4px,rgba(200,60,40,.32) 4px 8px)}tr.hlrow td{background:rgba(183,121,31,.13)}td.hlcell{outline:2px solid #b7791f;outline-offset:-2px;background:rgba(183,121,31,.3)!important}
 tr:hover td{background:var(--hi)}
 td.nw,th.nw{white-space:nowrap}.ver{color:var(--muted);font-size:12px}.vrow{display:flex;align-items:stretch;gap:8px;flex-wrap:wrap}.vrow .vsw{margin:4px 0 2px}.mapbtn,.mapbtn:visited{display:inline-flex;align-items:center;box-sizing:border-box;margin:4px 0 2px;font-size:13px;font-weight:400;line-height:inherit;padding:0 11px;border:1px solid var(--accent);border-radius:5px;background:var(--accent);color:var(--accent-ink);text-decoration:none}.mapbtn:hover{filter:brightness(1.15);text-decoration:none}td.w6,th.w6{min-width:6.3em}tr.sec td:first-child{font-weight:bold;font-style:italic}tr.sec.cjk td:first-child{font-style:normal}
 .part{font-weight:bold;margin-top:12px}
@@ -2752,6 +2777,7 @@ const MARKED=__MARKED__;
 const CJK=/[\u3040-\u30ff\u3400-\u9fff\uf900-\ufaff]/;  // never italicise Asian text (user, 2026-10-22)
 const QSTAT=__QSTAT__;
 const XL=__XL__;
+const FL=__FINDERS__;   // tables whose figures are on a finder page (build/finders/): [[label, href, title]]
 const CHEN=__CHEN__;
 const chE=(c,cls)=>CHEN[c]?`<span class="${cls||"che"}">${esc(CHEN[c])}</span>`:"";
 const $=s=>document.querySelector(s);
@@ -2800,7 +2826,7 @@ function headHTML(cols,q){const L=cols.map(c=>{const x=String(c??"").split(" —
    h+=`<th class="grp${wcls(L[j][r],6,2)}"${k-j>1?` colspan="${k-j}"`:""}>${hl(kn(L[j][r]),q)}</th>`;j=k}
   h+="</tr>"}
  return h+"</thead>"}
-function tableHTML(t,q,other){const ch=!other&&hasChart(t);let h=`<section class="tbl${ch?" hasch":""}" id="t-${t.id}"><h2><a href="#${t.id}">${hl(label(t),q)}</a></h2>${!other?TableTags.render(TABLE_TAG_DATA[t.id],"../../"):""}${t.en?`<p class="en"><b>${hl(t.en.t,q)}</b>: ${hl(t.en.d,q)} <span class="enn">(Note: LLM translation)</span></p>`:""}<div class="sub">${esc(t.chapter||"")} · printed page${(t.printed_pages||[]).length>1?"s":""} ${esc((t.printed_pages||[]).join(", "))}${HIDEIMG?"":` · ${/^p\d/.test(t.image||"")?"scan leaf":"photo"} ${esc((t.images||[t.image]).join(", "))}`}</div>`+((ch||t.map||knHas(t))?`<div class="vrow">${ch?vsw():""}${knHas(t)?nsw():""}${t.map?`<a class="mapbtn" href="${esc(mapHref(t.map))}" target="_blank" rel="noopener" title="Opens the Japanese Empire map in a new tab, with this table's figures by prefecture">View as Map ↗</a>`:""}</div>`:"");
+function tableHTML(t,q,other){const ch=!other&&hasChart(t);let h=`<section class="tbl${ch?" hasch":""}" id="t-${t.id}"><h2><a href="#${t.id}">${hl(label(t),q)}</a></h2>${!other?TableTags.render(TABLE_TAG_DATA[t.id],"../../"):""}${t.en?`<p class="en"><b>${hl(t.en.t,q)}</b>: ${hl(t.en.d,q)} <span class="enn">(Note: LLM translation)</span></p>`:""}<div class="sub">${esc(t.chapter||"")} · printed page${(t.printed_pages||[]).length>1?"s":""} ${esc((t.printed_pages||[]).join(", "))}${HIDEIMG?"":` · ${/^p\d/.test(t.image||"")?"scan leaf":"photo"} ${esc((t.images||[t.image]).join(", "))}`}</div>`+((ch||t.map||knHas(t)||(!other&&FL[t.id]))?`<div class="vrow">${ch?vsw():""}${knHas(t)?nsw():""}${t.map?`<a class="mapbtn" href="${esc(mapHref(t.map))}" target="_blank" rel="noopener" title="Opens the Japanese Empire map in a new tab, with this table's figures by prefecture">View as Map ↗</a>`:""}${(!other&&FL[t.id]||[]).map(f=>`<a class="mapbtn" href="${esc(f[1])}" title="${esc(f[2])}">${esc(f[0])} →</a>`).join("")}</div>`:"");
  if(!other)h+=xlTable(t);
  if(t.caption_extra)h+=CJK.test(t.caption_extra)?`<div class="sub">${hl(t.caption_extra,q)}</div>`:`<div class="sub"><i>${hl(t.caption_extra,q)}</i></div>`;
  if(t.context)h+=`<p class="ctx"><b>Context.</b> ${hl(t.context,q)}</p>`;
@@ -2880,8 +2906,12 @@ function showChapter(ch){const q=$("#q").value.trim();const ts=filtered();mode="
   const a=document.querySelector(`#list a[href="#${CSS.escape(t.id)}"]`);if(a)a.scrollIntoView({block:"nearest"})}
  enterAt=null;mark();anSync()}
 let enterAt=null;
+// #<table id>~<part>.<row>.<col> (links from the Population page): open the table and mark that cell
+function hlCell(p,r,c){const tw=document.querySelector(`#main .tw[data-p="${p}"]`);const tr=tw&&tw.querySelector(`tr[data-i="${r}"]`);if(!tr)return;
+ tr.classList.add("hlrow");const td=tr.children[c];if(td)td.classList.add("hlcell");setTimeout(()=>(td||tr).scrollIntoView({block:"center",inline:"center"}),30)}
 function route(){const h=decodeURIComponent(location.hash.slice(1));
  if(h.startsWith("an=")){anLink(h.slice(3));return}
+ const hc=h.match(/^(.+)~(\d+)\.(\d+)\.(\d+)$/);if(hc&&T.some(x=>x.id===hc[1])){showOne(hc[1]);hlCell(+hc[2],+hc[3],+hc[4]);return}
  if(h.startsWith("ch=")){const ch=h.slice(3);if($("#ch").value!==ch){$("#ch").value=ch;renderList()}showChapter(ch);return}
  if(mode==="chapter"&&h&&document.getElementById("t-"+h)){cur=h;document.getElementById("t-"+h).scrollIntoView({block:"start"});mark();return}
  if(!h){if($("#ch").value){$("#ch").value="";renderList()}if(T.length){showHome();return}}
@@ -3307,7 +3337,7 @@ SEARCH = r"""<!DOCTYPE html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&display=swap">
 <script src="fold.js"></script>
-<title>Full Search · Old Year Book Tables of East Asia</title>
+<title>Search · Old Tables of East Asia</title>
 <style>
 :root{--bg:#f4f5f3;--panel:#ffffff;--ink:#1b2420;--muted:#5d6a62;--line:#d8ded9;--accent:#1f4a2c;--accent-ink:#ffffff;--hi:#e2ece4;--warn:#8a5a00;--mark:#f3e3a0}
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#111814;--panel:#17211b;--ink:#e4ebe6;--muted:#9aa89f;--line:#2c3a31;--accent:#8cc49e;--accent-ink:#0f1a13;--hi:#1f3527;--warn:#e0a54a;--mark:#5a4d1c}}
@@ -3341,8 +3371,9 @@ input,select{font:inherit;font-size:16px;padding:8px 10px;border:1px solid var(-
 .r .snip div{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 mark{background:var(--mark);color:inherit}
 .llmwarn{margin:24px 0 8px;padding:12px 14px;border:1px solid var(--warn);border-left:4px solid var(--warn);background:var(--panel);font-size:14px}
+#fcards{display:flex;flex-direction:column;gap:6px;margin:0 0 10px}#fcards .fcard{display:block;border:1px solid var(--line);border-left:4px solid var(--accent);background:var(--panel);padding:8px 12px;color:var(--ink);text-decoration:none;font-size:15px}#fcards .fcard:hover{border-color:var(--accent)}#fcards .fcard b{font-weight:600;color:var(--accent)}#fcards .fcard span{display:block;font-size:13px;color:var(--muted)}
 </style></head><body>
-<header><a href="./">← All books</a><h1>Full Search</h1><button id="toggle" title="Toggle light/dark">◐</button></header>
+<header><a href="./">← All books</a><h1>Search</h1><button id="toggle" title="Toggle light/dark">◐</button></header>
 <main>
 <div class="box"><input id="q" type="search" placeholder="e.g. rice, Dairen, cotton exports, Mitsui, Kato…" autofocus>
 <select id="scope" aria-label="Search in">
@@ -3354,7 +3385,7 @@ mark{background:var(--mark);color:inherit}
 <label><input type="checkbox" id="titles"> Titles and names only</label>
 <button id="reset" type="button" hidden>Clear filters</button>
 </div></div>
-<div id="status"></div><div id="out"></div>
+<div id="fcards"></div><div id="status"></div><div id="out"></div>
 <div class="llmwarn" role="note"><b>Warning:</b> These tables were transcribed by the vision models of Opus 5.5, Sonnet 5.5, or Haiku 5.5 (named on each book's page). Before using any of these figures, you must verify specific statistics with the original source which is linked to whenever possible.</div>
 </main>
 <script>
@@ -3419,7 +3450,17 @@ function state(){const o={q:$("#q").value.trim(),s:$("#scope").value};if($("#reg
 // while one runs, only the latest request is kept and it starts when the current one ends
 let BUSY=false,AGAIN=false;
 async function run(){if(BUSY){AGAIN=true;return}BUSY=true;try{do{AGAIN=false;await run1()}while(AGAIN)}finally{BUSY=false}}
-async function run1(){const q=$("#q").value.trim(),sc=$("#scope").value,ti=$("#titles").checked;const terms=norm(q).replace(/"/g," ").split(/\s+/).filter(Boolean);
+// finder pages (build/finders/): a card for each place whose name matches the query, above the results
+const FINDERS=__FINDERS_IDX__;const FIDX={};
+function ffold(s){return String(s||"").normalize("NFKD").replace(/[\u0300-\u036f]/g,"").toLowerCase().replace(/[-'’ʻ`.\s]+/g,"")}
+async function finderCards(q){const box=$("#fcards");if(!box)return;const v=ffold(q);if(v.length<2||(v.length<3&&!/[\u3400-\u9fff]/.test(v))){box.innerHTML="";return}
+ let h="";for(const f of FINDERS){try{if(!FIDX[f.name])FIDX[f.name]=fetch(f.index).then(r=>r.json());const d=await FIDX[f.name];
+  const hits=[];for(const [id,a] of Object.entries(d.places)){if(!a[10])continue;const names=[a[0],a[1],...(a[11]||[])].map(ffold);
+   const sc=names.includes(v)?2:names.some(n=>n.startsWith(v)&&v.length>=4)?1:0;if(sc)hits.push([sc,a[10],id,a])}
+  hits.sort((x,y)=>y[0]-x[0]||y[1]-x[1]);
+  for(const [sc,n,id,a] of hits.slice(0,3))h+=`<a class="fcard" href="${f.page}#p=${encodeURIComponent(id)}"><b>${esc(f.title)}: ${esc(a[0])}</b> ${esc(a[1])}<span>${n.toLocaleString("en-US")} figure${n===1?"":"s"}${a[4]?`, ${a[5]}–${a[6]}`:""} from the site's tables →</span></a>`}catch(e){}}
+ if(ffold($("#q").value.trim())===v)box.innerHTML=h}
+async function run1(){const q=$("#q").value.trim(),sc=$("#scope").value,ti=$("#titles").checked;finderCards(q);const terms=norm(q).replace(/"/g," ").split(/\s+/).filter(Boolean);
  const st=state();const filt=!!(st.r||st.y1||st.y2||st.ti),narrow=!!(st.r||st.y1||st.y2);$("#reset").hidden=!filt;
  try{history.replaceState(null,"",q||sc!=="all"||filt?"#"+new URLSearchParams(st).toString():location.pathname)}catch(e){}
  const nb=BOOKS.filter(bookFilter()).length,inb=narrow?` in ${nb} book${nb===1?"":"s"}`:"";

@@ -1,0 +1,44 @@
+{
+ "_doc": "A finder page (build/finders/README.md). Candidates: tables with one of `tags`; or a `title_words` match in a table whose topics include one of `title_topics` (or has no topics); or a `col_words` match in a table with one of `col_tags` or `col_topics`. `topic_ids` / `tag_ids`: topic and tag pages that get a banner linking to the page; `banner`: its text.",
+ "name": "population",
+ "title": "Population",
+ "blurb": "Population figures for every country, colony, prefecture, province, city and district in the tables, year by year, with the contradictions kept and a link to each source table.",
+ "page": "figures/population.html",
+ "data": "data/population",
+ "tags": [
+  "population-totals",
+  "households",
+  "nationality-and-ethnicity",
+  "overseas-communities",
+  "household-registration",
+  "census-and-survey-methods"
+ ],
+ "title_words": "population|inhabitants|人口|戶口|戸口|現住|census|國勢|国勢",
+ "title_topics": [
+  "population",
+  "geography",
+  "government"
+ ],
+ "col_words": "population|inhabitants|人口|戶口|戸口|現住|^戸數|^戶數|households",
+ "col_tags": [
+  "administrative-divisions",
+  "local-government"
+ ],
+ "col_topics": [
+  "geography"
+ ],
+ "topic_ids": [
+  "population"
+ ],
+ "tag_ids": [
+  "population-totals",
+  "households",
+  "nationality-and-ethnicity",
+  "overseas-communities",
+  "age-and-sex",
+  "household-registration",
+  "census-and-survey-methods",
+  "migration"
+ ],
+ "banner": "Looking for the population of one place in one year? The Population page gathers every figure the tables give for a place, shows where they disagree, and links each figure to its table."
+}

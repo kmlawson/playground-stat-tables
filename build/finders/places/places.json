@@ -1,0 +1,9157 @@
+{
+"_doc": "Freeze the place names the Population page resolves against into build/population/places.json.\n\nSources: build/places/japan_prefectures.json (prefectures, colonies) and the Japanese Empire map's gazetteer\n(~/shell/interactive-japan-map: Korean provinces, Taiwanese shū/chō and gun, Manchukuo and Chinese provinces, South Seas\nisland groups, territories/countries, cities), through build_candidates.build_indexes so that the folding of names is\nthe same as the map links'. Run again when the map's gazetteer grows; the page build reads only the frozen file.\n\nplaces.json = {\"places\": {id: {\"en\", \"ja\", \"k\" (kind), \"up\" (parent id)}}, \"ix\": {index name: {folded name: id}}}",
+"ix": {
+"china": {
+"anhuei": "cn-Anhui",
+"anhui": "cn-Anhui",
+"anhwei": "cn-Anhui",
+"anki": "cn-Anhui",
+"chahaer": "cn-Chahaer",
+"chahar": "cn-Chahaer",
+"chaharu": "cn-Chahaer",
+"chakhar": "cn-Chahaer",
+"charhar": "cn-Chahaer",
+"chechiang": "cn-Zhejiang",
+"chehkiang": "cn-Zhejiang",
+"chekiang": "cn-Zhejiang",
+"cheklang": "cn-Zhejiang",
+"chianghsi": "cn-Jiangxi",
+"chiangsu": "cn-Jiangsu",
+"chihli": "cn-Hebei",
+"chilin": "cn-Jilin",
+"chineseturkestan": "cn-Xinjiang",
+"chinghai": "cn-Qinghai",
+"fengtien": "cn-Liaoning",
+"fokien": "cn-Fujian",
+"fuchien": "cn-Fujian",
+"fuhkien": "cn-Fujian",
+"fujian": "cn-Fujian",
+"fukien": "cn-Fujian",
+"fukken": "cn-Fujian",
+"gansu": "cn-Gansu",
+"guangdong": "cn-Guangdong",
+"guangxi": "cn-Guangxi",
+"guizhou": "cn-Guizhou",
+"hebei": "cn-Hebei",
+"heilongjiang": "cn-Heilongjiang",
+"heilungkiang": "cn-Heilongjiang",
+"henan": "cn-Henan",
+"honan": "cn-Henan",
+"hopeh": "cn-Hebei",
+"hopei": "cn-Hebei",
+"hsikang": "cn-Xikang",
+"hsinchiang": "cn-Xinjiang",
+"hubei": "cn-Hubei",
+"hunan": "cn-Hunan",
+"hupeh": "cn-Hubei",
+"hupei": "cn-Hubei",
+"jehol": "cn-Jehol",
+"jiangsu": "cn-Jiangsu",
+"jiangxi": "cn-Jiangxi",
+"jilin": "cn-Jilin",
+"kahoku": "cn-Hebei",
+"kanan": "cn-Henan",
+"kanshuku": "cn-Gansu",
+"kansu": "cn-Gansu",
+"kanton": "cn-Guangdong",
+"ki": "cn-Guizhou",
+"kiangsi": "cn-Jiangxi",
+"kiangsoo": "cn-Jiangsu",
+"kiangsu": "cn-Jiangsu",
+"kirin": "cn-Jilin",
+"kohoku": "cn-Hubei",
+"kokonor": "cn-Qinghai",
+"kokuryuko": "cn-Heilongjiang",
+"konan": "cn-Hunan",
+"kosei": "cn-Guangxi",
+"koso": "cn-Jiangsu",
+"kuangsi": "cn-Guangxi",
+"kuangtung": "cn-Guangdong",
+"kueichow": "cn-Guizhou",
+"kwangsi": "cn-Guangxi",
+"kwangtung": "cn-Guangdong",
+"kweichau": "cn-Guizhou",
+"kweichow": "cn-Guizhou",
+"liaoning": "cn-Liaoning",
+"neika": "cn-Ningxia",
+"nekka": "cn-Jehol",
+"nganhui": "cn-Anhui",
+"nganhwei": "cn-Anhui",
+"ninghsia": "cn-Ningxia",
+"ningsia": "cn-Ningxia",
+"ningxia": "cn-Ningxia",
+"qinghai": "cn-Qinghai",
+"rehe": "cn-Jehol",
+"ryonei": "cn-Liaoning",
+"sansei": "cn-Shanxi",
+"santo": "cn-Shandong",
+"seikai": "cn-Qinghai",
+"seiko": "cn-Xikang",
+"seizo": "cn-Xizang",
+"sekko": "cn-Zhejiang",
+"sensei": "cn-Shaanxi",
+"shandong": "cn-Shandong",
+"shangtung": "cn-Shandong",
+"shanhsi": "cn-Shanxi",
+"shansi": "cn-Shanxi",
+"shantung": "cn-Shandong",
+"shanxi": "cn-Shaanxi",
+"shengking": "cn-Liaoning",
+"shenhsi": "cn-Shaanxi",
+"shensi": "cn-Shaanxi",
+"shinkyo": "cn-Xinjiang",
+"shisen": "cn-Sichuan",
+"sichuan": "cn-Sichuan",
+"sikang": "cn-Xikang",
+"sikong": "cn-Xikang",
+"singkiang": "cn-Xinjiang",
+"sinkiang": "cn-Xinjiang",
+"ssuchuan": "cn-Sichuan",
+"suien": "cn-Suiyuan",
+"suiyuan": "cn-Suiyuan",
+"szechuan": "cn-Sichuan",
+"szechuen": "cn-Sichuan",
+"szechwan": "cn-Sichuan",
+"tibet": "cn-Xizang",
+"tsinghai": "cn-Qinghai",
+"unnan": "cn-Yunnan",
+"xikang": "cn-Xikang",
+"xinjiang": "cn-Xinjiang",
+"yunnan": "cn-Yunnan",
+"zhejiang": "cn-Zhejiang",
+"吉林": "cn-Jilin",
+"四川": "cn-Sichuan",
+"奉天": "cn-Liaoning",
+"安徽": "cn-Anhui",
+"察哈爾": "cn-Chahaer",
+"寧夏": "cn-Ningxia",
+"山東": "cn-Shandong",
+"山西": "cn-Shanxi",
+"広東": "cn-Guangdong",
+"広西": "cn-Guangxi",
+"新疆": "cn-Xinjiang",
+"江蘇": "cn-Jiangsu",
+"江西": "cn-Jiangxi",
+"河北": "cn-Hebei",
+"河南": "cn-Henan",
+"浙江": "cn-Zhejiang",
+"湖北": "cn-Hubei",
+"湖南": "cn-Hunan",
+"熱河": "cn-Jehol",
+"甘粛": "cn-Gansu",
+"直隷": "cn-Hebei",
+"福建": "cn-Fujian",
+"綏遠": "cn-Suiyuan",
+"西康": "cn-Xikang",
+"西蔵": "cn-Xizang",
+"遼寧": "cn-Liaoning",
+"陝西": "cn-Shaanxi",
+"雲南": "cn-Yunnan",
+"青海": "cn-Qinghai",
+"黒竜江": "cn-Heilongjiang"
+},
+"cities": {
+"agana": "c-agana",
+"agra": "c-agra",
+"ahmedabad": "c-ahmedabad",
+"aidzu-wakamatsu": "c-aizuwakamatsu",
+"aigun": "c-heihe",
+"aizu": "c-aizuwakamatsu",
+"aizu-wakamatsu": "c-aizuwakamatsu",
+"aka": "c-akashi",
+"akita": "c-akita",
+"ako": "c-pingtung",
+"akyab": "c-akyab",
+"aleksandrovsk-sakhalinsky": "c-aleksandrovsk",
+"allahabad": "c-allahabad",
+"alorsetar": "c-alorsetar",
+"alorstar(kedah)": "c-alorsetar",
+"amagasaki": "c-amagasaki",
+"amarapura": "c-amarapura",
+"amboina": "c-ambon",
+"ambon": "c-ambon",
+"amoi": "c-xiamen",
+"amoy": "c-xiamen",
+"ampenan": "c-mataram",
+"amritsar": "c-amritsar",
+"amurittosaru": "c-amritsar",
+"anch'ing": "c-anqing",
+"andong": "c-dandong",
+"angeles": "c-angeles",
+"aniva": "c-rutaka",
+"ankei": "c-anqing",
+"anking": "c-anqing",
+"anqing": "c-anqing",
+"anshan": "c-anshan",
+"anto": "c-dandong",
+"antung": "c-dandong",
+"anyang": "c-anyang",
+"anyo": "c-anyang",
+"anzan": "c-anshan",
+"aomori": "c-aomori",
+"aparri": "c-aparri",
+"apia": "c-apia",
+"asahigawa": "c-asahikawa",
+"asahikawa": "c-asahikawa",
+"asashigawa": "c-asahikawa",
+"ashikaga": "c-ashikaga",
+"atamboea": "c-atambua",
+"atambua": "c-atambua",
+"atami": "c-atami",
+"autung": "c-dandong",
+"ava": "c-ava",
+"ayutthaya": "c-ayutthaya",
+"babo": "c-babo",
+"bacolod": "c-bacolod",
+"bagan": "c-pagan",
+"bagio": "c-baguio",
+"bago": "c-pegu",
+"baguio": "c-baguio",
+"bali": "c-denpasar",
+"balikpapan": "c-balikpapan",
+"bandaaceh": "c-bandaaceh",
+"bandaneira": "c-bandaneira",
+"bandjermasin": "c-bandjermasin",
+"bandon": "c-bandung",
+"bandung": "c-bandung",
+"bangalore": "c-bangalore",
+"bangka": "c-bangka",
+"bangkok": "c-bangkok",
+"banjarmasin": "c-bandjermasin",
+"bankok": "c-bangkok",
+"baoding": "c-paoting",
+"baoji": "c-baoji",
+"baotou": "c-baotou",
+"baroda": "c-baroda",
+"bassein": "c-bassein",
+"batavia": "c-batavia",
+"battambang": "c-battambang",
+"bazan": "c-masan",
+"beihai": "c-beihai",
+"beijing": "c-beijing",
+"beiping": "c-beijing",
+"beipu": "c-beipu",
+"benares": "c-benares",
+"bengaluru": "c-bangalore",
+"bengbu": "c-bengbu",
+"bengkulu": "c-bengkulu",
+"benkoelen": "c-bengkulu",
+"benxi": "c-benxi",
+"betio": "c-betio",
+"bhamo": "c-bhamo",
+"bhopal": "c-bhopal",
+"bima": "c-bima",
+"blagoveshchensk": "c-blagoveshchensk",
+"bo": "c-bengbu",
+"bogor": "c-buitenzorg",
+"bombay": "c-bombay",
+"botanko": "c-mudanjiang",
+"botansha": "c-mudan",
+"bougainville": "c-buin",
+"bovendigoel": "c-bovendigoel",
+"brisbane": "c-brisbane",
+"broome": "c-broome",
+"bruneitown": "c-brunei",
+"buin": "c-buin",
+"buitenzorg": "c-buitenzorg",
+"bujun": "c-fushun",
+"buko": "c-wuhu",
+"burunei": "c-brunei",
+"busan": "c-pusan",
+"cabanatuan": "c-cabanatuan",
+"cagayandemisamis": "c-cagayandeoro",
+"calcutta": "c-calcutta",
+"campo’donnell": "c-capas",
+"camranh": "c-camranh",
+"canberra": "c-canberra",
+"canton": "c-guangzhou",
+"capas": "c-capas",
+"cawnpore": "c-cawnpore",
+"cebu": "c-cebu",
+"chamdo": "c-chamdo",
+"chang-chia-kou": "c-kalgan",
+"changchiakou": "c-kalgan",
+"changchiakow": "c-kalgan",
+"changchun": "c-changchun",
+"changde": "c-changde",
+"changhua": "c-changhua",
+"changsha": "c-changsha",
+"changteh": "c-changde",
+"chaoyang": "c-chaoyang",
+"chauk": "c-chauk",
+"che": "c-yantai",
+"checheng": "c-checheng",
+"cheefoo": "c-yantai",
+"chefoo": "c-yantai",
+"chemulpo(korea)": "c-incheon",
+"chengchow": "c-zhengzhou",
+"chengde": "c-chengde",
+"chengdu": "c-chengdu",
+"chenghsien": "c-zhengzhou",
+"chengte": "c-chengde",
+"chengteh": "c-chengde",
+"chengtu": "c-chengdu",
+"cheribon": "c-cheribon",
+"chiamussu": "c-jiamusi",
+"chiangmai": "c-chiangmai",
+"chiayi": "c-chiayi",
+"chiba": "c-chiba",
+"chichiharu": "c-qiqihar",
+"chichijima": "c-chichijima",
+"chiefeng": "c-chifeng",
+"chiengmai": "c-chiangmai",
+"chifeng": "c-chifeng",
+"chihfeng": "c-chifeng",
+"chinampo": "c-nampo",
+"chinchou": "c-jinzhou",
+"chinchow": "c-jinzhou",
+"chingkiang": "c-zhenjiang",
+"chingtao": "c-qingdao",
+"chinju": "c-chinju",
+"chinkiang": "c-zhenjiang",
+"chinko": "c-zhenjiang",
+"chinnampho": "c-nampo",
+"chinnampo": "c-nampo",
+"chinnamp’o": "c-nampo",
+"chinnanpo": "c-nampo",
+"chinwangtao": "c-qinhuangdao",
+"chita": "c-chita",
+"chittagong": "c-chittagong",
+"cho": "c-choshi",
+"choibalsan": "c-choibalsan",
+"chokako": "c-kalgan",
+"cholon": "c-cholon",
+"chongjin": "c-chongjin",
+"chongqing": "c-chongqing",
+"chonju": "c-chonju",
+"chosa": "c-changsha",
+"choyo": "c-chaoyang",
+"chuanchow": "c-quanzhou",
+"chuchow": "c-quzhou",
+"chungking": "c-chongqing",
+"ch’ongjin": "c-chongjin",
+"ch’ongju": "c-chongju",
+"ch’unch’on": "c-chunchon",
+"cidadedosantonomededeus": "c-macaucity",
+"cilacap": "c-cilacap",
+"cirebon": "c-cheribon",
+"clarkfield": "c-angeles",
+"cochin": "c-cochin",
+"colombo": "c-colombo",
+"colonia": "c-yapcolonia",
+"cuttack": "c-cuttack",
+"dabao": "c-davao",
+"dacca": "c-dacca",
+"dadonggou": "c-dadonggou",
+"daido": "c-datong",
+"daikei": "c-daxi",
+"dairen": "c-dairen",
+"dairi": "c-dali",
+"dalat": "c-dalat",
+"dali": "c-dali",
+"dalian": "c-dairen",
+"dalny": "c-dairen",
+"danang": "c-danang",
+"dandong": "c-dandong",
+"danshui": "c-tamsui",
+"daru": "c-daru",
+"daruba": "c-morotai",
+"darwin": "c-darwin",
+"datong": "c-datong",
+"davao": "c-davao",
+"dawei": "c-tavoy",
+"dawin": "c-darwin",
+"daxi": "c-daxi",
+"delhi": "c-delhi",
+"delhi&newdelhi": "c-delhi",
+"denpasar": "c-denpasar",
+"dhaka": "c-dacca",
+"digboi": "c-digboi",
+"dili": "c-dili",
+"dilly": "c-dili",
+"diri": "c-dili",
+"djambi": "c-jambi",
+"dolinsk": "c-ochiai",
+"dolonnor": "c-duolun",
+"dublon": "c-dublon",
+"duolun": "c-duolun",
+"eiko": "c-yingkou",
+"ejina": "c-hohhot2",
+"en": "c-enshi",
+"ende": "c-ende",
+"enkichi": "c-yanji",
+"enshih": "c-enshi",
+"en’an": "c-yanan",
+"esutoru": "c-esutoru",
+"etajima": "c-etajima",
+"etsina": "c-hohhot2",
+"fangliao": "c-fangliao",
+"foochow": "c-fuzhou",
+"foochow(pagodaanchorage)(unpaid)": "c-fuzhou",
+"fort-bayard": "c-zhanjiang",
+"fortbayard": "c-zhanjiang",
+"fuchou": "c-fuzhou",
+"fue": "c-hue",
+"fuhsin": "c-fuxin",
+"fukuchiyama": "c-fukuchiyama",
+"fukui": "c-fukui",
+"fukuoka": "c-fukuoka",
+"fukushima": "c-fukushima",
+"fukushu": "c-fuzhou",
+"fukuyama": "c-fukuyama",
+"fusan": "c-pusan",
+"fuse": "c-fuse",
+"fushimi": "c-fushimi",
+"fushin": "c-fuxin",
+"fushun": "c-fushun",
+"futami": "c-chichijima",
+"fuxin": "c-fuxin",
+"fuzan": "c-pusan",
+"fuzhou": "c-fuzhou",
+"gakusaina": "c-hohhot2",
+"gakuyo": "c-yueyang",
+"gangtok": "c-gangtok",
+"ganzhou": "c-ganzhou",
+"gaoxiong": "c-kaohsiung",
+"gar": "c-gartok",
+"garapan": "c-garapan",
+"gartok": "c-gartok",
+"gensan": "c-wonsan",
+"genzan": "c-wonsan",
+"georgetown": "c-penang",
+"gi": "c-gifu",
+"gilan": "c-yilan",
+"giran": "c-yilan",
+"gisho": "c-yichang",
+"gohi": "c-hefei",
+"gongzhuling": "c-gongzhuling",
+"gorontalo": "c-gorontalo",
+"goshu": "c-wuzhou",
+"guangzhou": "c-guangzhou",
+"guilin": "c-guilin",
+"guiyang": "c-guiyang",
+"gunsan": "c-kunsan",
+"gunzan": "c-kunsan",
+"gwalior": "c-gwalior",
+"gyantse": "c-gyantse",
+"habarovsk": "c-khabarovsk",
+"hachinohe": "c-hachinohe",
+"hachioji": "c-hachioji",
+"haeju": "c-haeju",
+"hagatna": "c-agana",
+"haifon": "c-haiphong",
+"haihow": "c-haikou",
+"haikou": "c-haikou",
+"hailar": "c-hailar",
+"haila’er": "c-hailar",
+"haiphong": "c-haiphong",
+"hairaru": "c-hailar",
+"hakata": "c-fukuoka",
+"hakodate": "c-hakodate",
+"hamamatsu": "c-hamamatsu",
+"hamhung": "c-hamhung",
+"hami": "c-hami",
+"hanchow": "c-hangzhou",
+"handa": "c-handa",
+"handan": "c-handan",
+"hangchou": "c-hangzhou",
+"hangchow": "c-hangzhou",
+"hangkow": "c-wuhan",
+"hangzhou": "c-hangzhou",
+"hankeou": "c-wuhan",
+"hanko": "c-wuhan",
+"hankou": "c-wuhan",
+"hankow": "c-wuhan",
+"hanoi": "c-hanoi",
+"harbin": "c-harbin",
+"harubin": "c-harbin",
+"ha’erbin": "c-harbin",
+"hefei": "c-hefei",
+"heibo": "c-pingfang",
+"heihe": "c-heihe",
+"heijo": "c-pyongyang",
+"heito": "c-pingtung",
+"hengchun": "c-hengchun",
+"hengyang": "c-hengyang",
+"higashi-maizuru": "c-higashimaizuru",
+"hikone": "c-hikone",
+"himeji": "c-himeji",
+"hiratsuka": "c-hiratsuka",
+"hirosaki": "c-hirosaki",
+"hiroshima": "c-hiroshima",
+"hiroshimu": "c-hiroshima",
+"hitachi": "c-hitachi",
+"hofei": "c-hefei",
+"hokei": "c-baoji",
+"hokkai": "c-beihai",
+"hollandia": "c-hollandia",
+"hongkong": "c-hongkong",
+"honkeiko": "c-benxi",
+"honkon": "c-hongkong",
+"honolulu": "c-honolulu",
+"honoruru": "c-honolulu",
+"hoppo": "c-beipu",
+"hori": "c-puli",
+"horyo": "c-fangliao",
+"hotan": "c-khotan",
+"hotei": "c-paoting",
+"hoten": "c-mukden",
+"hoto": "c-baotou",
+"hsinchu": "c-hsinchu",
+"hsinking": "c-changchun",
+"hsuchow": "c-xuzhou",
+"hualiangang": "c-hualien",
+"hualien": "c-hualien",
+"hue": "c-hue",
+"huhehaote": "c-hohhot",
+"hunchun": "c-hunchun",
+"hungnam": "c-hungnam",
+"hyderabad": "c-hyderabaddn",
+"ichang": "c-yichang",
+"ichikawa": "c-ichikawa",
+"ichinomiya": "c-ichinomiya",
+"iida": "c-iida",
+"iizuka": "c-iizuka",
+"ikaiei": "c-weihai",
+"ikeda": "c-ikeda",
+"iloilo": "c-iloilo",
+"imabari": "c-imabari",
+"imphal": "c-imphalcity",
+"inch’on": "c-incheon",
+"indore": "c-indore",
+"inei": "c-yining",
+"ining": "c-yining",
+"innwa": "c-ava",
+"insein": "c-insein",
+"ipo": "c-ipoh",
+"ipoh": "c-ipoh",
+"iroiro": "c-iloilo",
+"ise": "c-ise",
+"ishinomaki": "c-ishinomaki",
+"jaipur": "c-jaipur",
+"jakarta": "c-batavia",
+"jakaruta": "c-batavia",
+"jaluit": "c-jaluit",
+"jambi": "c-jambi",
+"jamshedpur": "c-jamshedpur",
+"jayapura": "c-hollandia",
+"jesselton": "c-jesselton",
+"jiamusi": "c-jiamusi",
+"jiangmen": "c-jiangmen",
+"jiayi": "c-chiayi",
+"jiko": "c-zigong",
+"jilin": "c-jilincity",
+"jilong": "c-keelung",
+"jinan": "c-jinan",
+"jinsen": "c-incheon",
+"jinzhou": "c-jinzhou",
+"jiujiang": "c-jiujiang",
+"jodhpur": "c-jodhpur",
+"jogjakarta": "c-jogjakarta",
+"johore": "c-johore",
+"johorebahru": "c-johore",
+"jolo": "c-jolo",
+"joshin": "c-songjin",
+"joshu": "c-xuzhou",
+"jotoku": "c-changde",
+"joyo": "c-xiangyang",
+"jukei": "c-chongqing",
+"jungi": "c-zunyi",
+"ka": "c-kashgar",
+"kabul": "c-kabul",
+"kaesong": "c-kaesong",
+"kagi": "c-chiayi",
+"kagoshima": "c-kagoshima",
+"kagy": "c-chiayi",
+"kaifeng": "c-kaifeng",
+"kaiho": "c-kaifeng",
+"kaijo": "c-kaesong",
+"kaiko": "c-haikou",
+"kainan": "c-kainan",
+"kaishu": "c-haeju",
+"kalgan": "c-kalgan",
+"kamai": "c-kamaishi",
+"kamakura": "c-kamakura",
+"kamusu": "c-jiamusi",
+"kanazawa": "c-kanazawa",
+"kanchanaburi": "c-kanchanaburi",
+"kanchow": "c-ganzhou",
+"kandy": "c-kandy",
+"kangar": "c-kangar",
+"kangding": "c-kangding",
+"kangting": "c-kangding",
+"kanhsien": "c-ganzhou",
+"kanko": "c-hamhung",
+"kanpur": "c-cawnpore",
+"kanshu": "c-ganzhou",
+"kantan": "c-handan",
+"kanting": "c-kangding",
+"kaohsiung": "c-kaohsiung",
+"karachi": "c-karachi",
+"karatsu": "c-karatsu",
+"karenko": "c-hualien",
+"kashgar": "c-kashgar",
+"kashugaru": "c-kashgar",
+"kathmandu": "c-kathmandu",
+"kavieng": "c-kavieng",
+"kawagoe": "c-kawagoe",
+"kawaguchi": "c-kawaguchi",
+"kawasaki": "c-kawasaki",
+"kawthaung": "c-victoriapoint",
+"keelung": "c-keelung",
+"keijo": "c-seoul",
+"keirin": "c-guilin",
+"kelung": "c-keelung",
+"kelung(taihoku)": "c-keelung",
+"kendari": "c-kendari",
+"kengtung": "c-kengtung",
+"kepi": "c-kepi",
+"khabarovsk": "c-khabarovsk",
+"kholmsk": "c-maoka",
+"khotan": "c-khotan",
+"kiamusze": "c-jiamusi",
+"kiangtu": "c-yangzhou",
+"kiaochao": "c-qingdao",
+"kiaochou": "c-qingdao",
+"kiaochow": "c-qingdao",
+"kiaochow(tsingtau)": "c-qingdao",
+"kiirun": "c-keelung",
+"kinshu": "c-jinzhou",
+"kirin": "c-jilincity",
+"kirun": "c-keelung",
+"kiryu": "c-kiryu",
+"kishiwada": "c-kishiwada",
+"kiukiang": "c-jiujiang",
+"kiungchow": "c-haikou",
+"kiyo": "c-guiyang",
+"klungchow": "c-haikou",
+"ko": "c-kofu",
+"ko-hiong": "c-kaohsiung",
+"kobe": "c-kobe",
+"kochi": "c-cochin",
+"koepang": "c-kupang",
+"koetaradja": "c-bandaaceh",
+"kohchi": "c-kochi",
+"kokka": "c-heihe",
+"kokura": "c-kokura",
+"kolonia": "c-kolonia",
+"komsomolsk-on-amur": "c-komsomolsk",
+"konan": "c-hungnam",
+"kongju": "c-kongju",
+"kongmoon": "c-jiangmen",
+"konmei": "c-kunming",
+"korat": "c-korat",
+"koriyama": "c-koriyama",
+"koror": "c-koror",
+"kororu": "c-koror",
+"korsakov": "c-otomari",
+"koshu": "c-hangzhou",
+"koshun": "c-hengchun",
+"koshuwan": "c-zhanjiang",
+"kotabharu": "c-kotabharu_c",
+"kotakinabalu": "c-jesselton",
+"kotei": "c-kangding",
+"kowa": "c-hohhot",
+"kowloon": "c-kowloon",
+"koyo": "c-hengyang",
+"krungthep": "c-bangkok",
+"kuala-lumpur": "c-kualalumpur",
+"kualalipis": "c-kualalipis",
+"kualalumpur": "c-kualalumpur",
+"kualaterengganu": "c-kualaterengganu",
+"kuanchengtze": "c-changchun",
+"kuantan": "c-kuantan",
+"kuchin": "c-kuching",
+"kuching": "c-kuching",
+"kueilin(wuchow)": "c-guilin",
+"kueiyang": "c-guiyang",
+"kuingchow": "c-haikou",
+"kukong(shaokwan)": "c-shaoguan",
+"kumagaya": "c-kumagaya",
+"kumamoto": "c-kumamoto",
+"kumul": "c-hami",
+"kungchow(hoihow)": "c-haikou",
+"kungchuling": "c-gongzhuling",
+"kunming": "c-kunming",
+"kunsan": "c-kunsan",
+"kupang": "c-kupang",
+"kurashiki": "c-kurashiki",
+"kure": "c-kure",
+"kuron": "c-ulanbator",
+"kurume": "c-kurume",
+"kushiro": "c-kushiro",
+"kushu": "c-quzhou",
+"kutaraja": "c-bandaaceh",
+"kuwana": "c-kuwana",
+"kwanchowwan": "c-zhanjiang",
+"kwangju": "c-kwangju",
+"kweilin": "c-guilin",
+"kweisui": "c-hohhot",
+"kweiyang": "c-guiyang",
+"kwoshu": "c-kwangju",
+"kyongsong": "c-seoul",
+"kyoto": "c-kyoto",
+"kyuko": "c-jiujiang",
+"kyzyl": "c-kyzyl",
+"labuan": "c-labuan",
+"lae": "c-lae",
+"lahore": "c-lahore",
+"lanchow": "c-lanzhou",
+"langson": "c-langson",
+"lanzhou": "c-lanzhou",
+"laohekou": "c-laohekou",
+"laohokow": "c-laohekou",
+"larantuka": "c-larantuka",
+"lashio": "c-lashio",
+"ledo": "c-ledo",
+"legazpi": "c-legazpi",
+"lhasa": "c-lhasa",
+"lhassa(tibet)": "c-lhasa",
+"liaoyang": "c-liaoyang",
+"liaoyangandneighbourhood": "c-liaoyang",
+"linfen": "c-linfen",
+"lingayen": "c-lingayen",
+"liuchow": "c-liuzhou",
+"liuzhou": "c-liuzhou",
+"longjing": "c-longjing",
+"longkou": "c-longkou",
+"longzhou": "c-longzhou",
+"lorengau": "c-lorengau",
+"loyang": "c-luoyang",
+"luangprabang": "c-luangprabang",
+"luchow": "c-luzhou",
+"lucknow": "c-lucknow",
+"luhsien": "c-luzhou",
+"lungchingtsun": "c-longjing",
+"lungchow": "c-longzhou",
+"lungkow": "c-longkou",
+"luoyang": "c-luoyang",
+"lushun": "c-portarthur",
+"luzhou": "c-luzhou",
+"macao": "c-macaucity",
+"madang": "c-madang",
+"madras": "c-madras",
+"maeba": "c-maebashi",
+"magong": "c-makung",
+"maizuru": "c-maizuru",
+"makao": "c-macaucity",
+"makassar": "c-makassar",
+"makassaru": "c-makassar",
+"mako": "c-makung",
+"makung": "c-makung",
+"malacca": "c-malacca",
+"malang": "c-malang",
+"manado": "c-manado",
+"manchouli": "c-manzhouli",
+"manchuli": "c-manzhouli",
+"mandalay": "c-mandalay",
+"mandare": "c-mandalay",
+"manila": "c-manila",
+"manira": "c-manila",
+"manken": "c-wanxian",
+"manking": "c-nanjing",
+"manokwari": "c-manokwari",
+"manshuri": "c-manzhouli",
+"manus": "c-lorengau",
+"manzhouli": "c-manzhouli",
+"maoka": "c-maoka",
+"marakka": "c-malacca",
+"marugame": "c-marugame",
+"marunouchi(tokio)": "c-tokyo",
+"masampo": "c-masan",
+"masan": "c-masan",
+"mataram": "c-mataram",
+"matsue": "c-matsue",
+"matsumoto": "c-matsumoto",
+"matsusaka": "c-matsusaka",
+"matsuyama": "c-matsuyama",
+"matsuye": "c-matsue",
+"mayeba": "c-maebashi",
+"maynila": "c-manila",
+"medan": "c-medan",
+"meiktila": "c-meiktila",
+"menado": "c-manado",
+"mengtsz": "c-mengzi",
+"mengzi": "c-mengzi",
+"merauke": "c-merauke",
+"mergui": "c-mergui",
+"miike": "c-omuta",
+"miri": "c-miri",
+"mit[o]": "c-mito",
+"mito": "c-mito",
+"miyakonojo": "c-miyakonojo",
+"miyazaki": "c-miyazaki",
+"moentok": "c-bangka",
+"moji": "c-moji",
+"mokpho": "c-mokpo",
+"mokpo": "c-mokpo",
+"mokp’o": "c-mokpo",
+"mokupo": "c-mokpo",
+"moppo": "c-mokpo",
+"morioka": "c-morioka",
+"morotai": "c-morotai",
+"moukden": "c-mukden",
+"moulmein": "c-moulmein",
+"mudan": "c-mudan",
+"mudanjiang": "c-mudanjiang",
+"mukden": "c-mukden",
+"muken": "c-mukden",
+"mumbai": "c-bombay",
+"muntok": "c-bangka",
+"muroran": "c-muroran",
+"musha": "c-wushe",
+"mushaku": "c-wuxi",
+"mutankiang": "c-mudanjiang",
+"myeik": "c-mergui",
+"myitkyina": "c-myitkyina",
+"mysore": "c-mysorecity",
+"naafa": "c-naha",
+"nagano": "c-nagano",
+"nagaoka": "c-nagaoka",
+"nagasaki": "c-nagasaki",
+"nagchuka": "c-nagchuka",
+"nagoya": "c-nagoya",
+"nagpur": "c-nagpur",
+"nagqu": "c-nagchuka",
+"naha": "c-naha",
+"najin": "c-najin",
+"nakatsu": "c-nakatsu",
+"nakhonratchasima": "c-korat",
+"nam-dinh": "c-namdinh",
+"namdinh": "c-namdinh",
+"namtu-panghai": "c-namtupanghai",
+"namđinh": "c-namdinh",
+"nanchang": "c-nanchang",
+"nanchong": "c-nanchong",
+"nanchung": "c-nanchong",
+"nanjing": "c-nanjing",
+"nanju": "c-nanchong",
+"nankin": "c-nanjing",
+"nanking": "c-nanjing",
+"nankng": "c-nanjing",
+"nannei": "c-nanning",
+"nanning": "c-nanning",
+"nansho": "c-nanchang",
+"nantong": "c-nantong",
+"nantsu": "c-nantong",
+"nantung": "c-nantong",
+"nantungchow": "c-nantong",
+"naoya": "c-nagoya",
+"naqu": "c-nagchuka",
+"nara": "c-nara",
+"natsushima": "c-dublon",
+"nauru": "c-nauru",
+"nawa": "c-naha",
+"neiha": "c-ningbo",
+"neika": "c-yinchuan",
+"nemuro": "c-nemuro",
+"newchwang": "c-yingkou",
+"niigata": "c-niigata",
+"nikojiken": "c-nikolaevsk",
+"nikolaevsk-on-amur": "c-nikolaevsk",
+"nikolaievsk": "c-nikolaevsk",
+"nikolisk": "c-ussuriysk",
+"nikolsk": "c-ussuriysk",
+"ningbo": "c-ningbo",
+"ningpo": "c-ningbo",
+"ningsia": "c-yinchuan",
+"ninsen": "c-incheon",
+"nishinomiya": "c-nishinomiya",
+"nobeoka": "c-nobeoka",
+"nogata": "c-nogata",
+"noumea": "c-noumea",
+"novagoa": "c-panjim",
+"numazu": "c-numazu",
+"oairen": "c-dairen",
+"obihiro": "c-obihiro",
+"ochiai": "c-ochiai",
+"ocussi": "c-ocussi",
+"odomari": "c-otomari",
+"ogaki": "c-ogaki",
+"ohtomari": "c-otomari",
+"oita": "c-oita",
+"okaya": "c-okaya",
+"okayama": "c-okayama",
+"okazaki": "c-okazaki",
+"okinawa": "c-naha",
+"olongapo": "c-olongapo",
+"ominato": "c-ominato",
+"omuda": "c-omuta",
+"omuta": "c-omuta",
+"on": "c-enshi",
+"onomichi": "c-onomichi",
+"onshu": "c-wenzhou",
+"osaka": "c-osaka",
+"otaru": "c-otaru",
+"otomari": "c-otomari",
+"otonari": "c-otomari",
+"otsu": "c-otsu",
+"padang": "c-padang",
+"pagan": "c-pagan",
+"pakanbaroe": "c-pekanbaru",
+"pakhoi": "c-beihai",
+"palembang": "c-palembang",
+"pangim": "c-panjim",
+"paniailakes": "c-wisselmeren",
+"panjim": "c-panjim",
+"pantemacassar": "c-ocussi",
+"paoki": "c-baoji",
+"paoting": "c-paoting",
+"paotou": "c-baotou",
+"paotow": "c-baotou",
+"parenban": "c-palembang",
+"pathein": "c-bassein",
+"patna": "c-patna",
+"pattani": "c-pattani",
+"pegu": "c-pegu",
+"peiping": "c-beijing",
+"pekanbaru": "c-pekanbaru",
+"pekin": "c-beijing",
+"peking": "c-beijing",
+"penang": "c-penang",
+"pengpu": "c-bengbu",
+"penhsi": "c-benxi",
+"penhsihu": "c-benxi",
+"peping": "c-beijing",
+"pescadores": "c-makung",
+"peshawar": "c-peshawar",
+"petropavlovsk-kamchatsky": "c-petropavlovsk",
+"phnompenh": "c-phnompenh",
+"phuket": "c-phuket",
+"pingdong": "c-pingtung",
+"pingfang": "c-pingfang",
+"pingtung": "c-pingtung",
+"pingyang": "c-pyongyang",
+"pnom-penh": "c-phnompenh",
+"pogranichnaya": "c-suifenhe",
+"ponape": "c-kolonia",
+"pondicherry": "c-pondicherrycity",
+"pondichery": "c-pondicherrycity",
+"pontianak": "c-pontianak",
+"poona": "c-poona",
+"poronaysk": "c-shikuka",
+"portarthur": "c-portarthur",
+"portblair": "c-portblair",
+"portmoresby": "c-portmoresbytown",
+"prachuapkhirikhan": "c-prachuap",
+"prayagraj": "c-allahabad",
+"prome": "c-prome",
+"puhsin": "c-fuxin",
+"puli": "c-puli",
+"punakha": "c-punakha",
+"pune": "c-poona",
+"pusan": "c-pusan",
+"pyay": "c-prome",
+"p’yongyang": "c-pyongyang",
+"qamdo": "c-chamdo",
+"qingdao": "c-qingdao",
+"qinhuangdao": "c-qinhuangdao",
+"qiqiha’er": "c-qiqihar",
+"quanzhou": "c-quanzhou",
+"quetta": "c-quetta",
+"quezon": "c-quezoncity",
+"quzhou": "c-quzhou",
+"rabaul": "c-rabaul",
+"rabauru": "c-rabaul",
+"rakuyo": "c-luoyang",
+"rangoon": "c-rangoon",
+"rangun": "c-rangoon",
+"ranshu": "c-lanzhou",
+"rashin": "c-najin",
+"rinpun": "c-linfen",
+"rokako": "c-laohekou",
+"roshu": "c-luzhou",
+"rudok": "c-rudok",
+"rutaka": "c-rutaka",
+"rutog": "c-rudok",
+"ryojun": "c-portarthur",
+"ryoyo": "c-liaoyang",
+"ryushu": "c-liuzhou",
+"sabang": "c-sabang",
+"saga": "c-saga",
+"sagaing": "c-sagaingtown",
+"saigon": "c-saigon",
+"sainan": "c-jinan",
+"saipan": "c-garapan",
+"sakai": "c-sakai",
+"sakata": "c-sakata",
+"sakhalyan": "c-heihe",
+"salamaua": "c-salamaua",
+"samah": "c-sanya",
+"samarai": "c-samarai",
+"samarinda": "c-samarinda",
+"samshui": "c-sanshui",
+"sana": "c-sanya",
+"sandakan": "c-sandakan",
+"sandu'ao": "c-sanduao",
+"sanjo": "c-sanjo",
+"sankaikan": "c-shanhaiguan",
+"sanshui": "c-sanshui",
+"sansing": "c-sanxing",
+"santo": "c-shantou",
+"santuao": "c-sanduao",
+"sanxing": "c-sanxing",
+"sanya": "c-sanya",
+"sapporo": "c-sapporo",
+"sarmi": "c-sarmi",
+"sasebo": "c-sasebo",
+"saseho": "c-sasebo",
+"satsuma": "c-sendaisatsuma",
+"savannakhet": "c-savannakhet",
+"sebu": "c-cebu",
+"seian": "c-xian",
+"seinei": "c-xining",
+"seishin": "c-chongjin",
+"seishu": "c-chongju",
+"seito": "c-chengdu",
+"sekiho": "c-chifeng",
+"sekkaso": "c-shijiazhuang",
+"semarang": "c-semarang",
+"sendai": "c-sendai",
+"sendi": "c-sendai",
+"sensh​u": "c-quanzhou",
+"seoul": "c-seoul",
+"seremban": "c-seremban",
+"seria": "c-seria",
+"seto": "c-seto",
+"sha": "c-shashi",
+"shajo": "c-checheng",
+"shan-hai-kuan": "c-shanhaiguan",
+"shanghai": "c-shanghai",
+"shanhai": "c-shanghai",
+"shanhaiguan": "c-shanhaiguan",
+"shanhaikuan": "c-shanhaiguan",
+"shanhaikwan": "c-shanhaiguan",
+"shantou": "c-shantou",
+"shaoguan": "c-shaoguan",
+"shaohing": "c-shaoxing",
+"shaoxing": "c-shaoxing",
+"shasi": "c-shashi",
+"shenyang": "c-mukden",
+"shigatse": "c-shigatse",
+"shiheigai": "c-siping",
+"shihkiachwang": "c-shijiazhuang",
+"shijiazhuang": "c-shijiazhuang",
+"shikka": "c-shikuka",
+"shikuka": "c-shikuka",
+"shillong": "c-shillong",
+"shimizu": "c-shimizu",
+"shimla": "c-simla",
+"shimoda": "c-shimoda",
+"shimonoseki": "c-shimonoseki",
+"shinchiku": "c-hsinchu",
+"shingishu": "c-sinuiju",
+"shingu": "c-shingu",
+"shinkyo": "c-changchun",
+"shinshu": "c-chinju",
+"shiuchow": "c-shaoguan",
+"shizuoka": "c-shizuoka",
+"shoka": "c-changhua",
+"shokan": "c-shaoguan",
+"shoko": "c-shaoxing",
+"shokwa": "c-changhua",
+"shonanto": "c-singapore",
+"shotoku": "c-chengde",
+"shunsen": "c-chunchon",
+"shuri": "c-shuri",
+"shwebo": "c-shwebotown",
+"sian": "c-xian",
+"siangyang": "c-xiangyang",
+"sikka": "c-shikuka",
+"simao": "c-simao",
+"simla": "c-simla",
+"sinchiku": "c-hsinchu",
+"singapore": "c-singapore",
+"singapura": "c-singapore",
+"sining": "c-xining",
+"sinuiju": "c-sinuiju",
+"siping": "c-siping",
+"sittwe": "c-akyab",
+"soerakarta": "c-soerakarta",
+"solo": "c-soerakarta",
+"songjin": "c-songjin",
+"songkhla": "c-songkhla",
+"soochow": "c-suzhou",
+"sorong": "c-sorong",
+"soshu": "c-suzhou",
+"sourabaia": "c-surabaya",
+"sourabaya": "c-surabaya",
+"srinagar": "c-srinagar",
+"ssuping-kai": "c-siping",
+"ssupingkai": "c-siping",
+"subicbay": "c-olongapo",
+"suifenga": "c-suifenhe",
+"suifenhe": "c-suifenhe",
+"suifenho": "c-suifenhe",
+"suigen": "c-suwon",
+"sumaran": "c-semarang",
+"sumbawabesar": "c-sumbawabesar",
+"sumoto": "c-sumoto",
+"surabaya": "c-surabaya",
+"surakarta": "c-soerakarta",
+"suwon": "c-suwon",
+"suzhou": "c-suzhou",
+"swatow": "c-shantou",
+"sydney": "c-sydney",
+"syriam": "c-syriam",
+"szemao": "c-simao",
+"tacloban": "c-tacloban",
+"taegu": "c-taegu",
+"taejon": "c-taejon",
+"tai-pak": "c-taipei",
+"taibei": "c-taipei",
+"taichu": "c-taichung",
+"taichung": "c-taichung",
+"taiden": "c-taejon",
+"taidong": "c-taitung",
+"taigen": "c-taiyuan",
+"taihoku": "c-taipei",
+"taikyu": "c-taegu",
+"tainan": "c-tainan",
+"taipeh": "c-taipei",
+"taipei": "c-taipei",
+"taiping": "c-taiping",
+"tairen": "c-dairen",
+"taito": "c-taitung",
+"taitung": "c-taitung",
+"taiyuan": "c-taiyuan",
+"taizhong": "c-taichung",
+"takada": "c-takada",
+"takamatsu": "c-takamatsu",
+"takao": "c-kaohsiung",
+"takaoka": "c-takaoka",
+"takasaki": "c-takasaki",
+"takayama": "c-takayama",
+"tali": "c-dali",
+"tamsui": "c-tamsui",
+"tanahmerah": "c-bovendigoel",
+"tanggu": "c-tanggu",
+"tangku": "c-tanggu",
+"tangshan": "c-tangshan",
+"tansui": "c-tamsui",
+"taonan": "c-taonan",
+"tarakan": "c-tarakan",
+"tarawa": "c-betio",
+"taron": "c-duolun",
+"tatung": "c-datong",
+"tatungkow": "c-dadonggou",
+"taunggyi": "c-taunggyi",
+"tavoy": "c-tavoy",
+"tawau": "c-tawau",
+"teishu": "c-zhengzhou",
+"tekika": "c-urumqi",
+"tengyue": "c-tengyue",
+"tengyueh": "c-tengyue",
+"tenshin": "c-tianjin",
+"tensui": "c-tianshui",
+"ternate": "c-ternate",
+"thanbyuzayat": "c-thanbyuzayat",
+"thanlyin": "c-syriam",
+"thiruvananthapuram": "c-trivandrum",
+"thonburi": "c-thonburi",
+"tianjin": "c-tianjin",
+"tianshui": "c-tianshui",
+"tiehling": "c-tieling",
+"tieling": "c-tieling",
+"tienshui": "c-tianshui",
+"tientsin": "c-tianjin",
+"tihwafu(sinkiang)": "c-urumqi",
+"titihar": "c-qiqihar",
+"tjilatjap": "c-cilacap",
+"tobata": "c-tobata",
+"tochigi": "c-tochigi",
+"toko": "c-tanggu",
+"tokushima": "c-tokushima",
+"tokuyama": "c-tokuyama",
+"tokyo": "c-tokyo",
+"tokyo,shiba": "c-tokyo",
+"tomari": "c-tomarioru",
+"tomarioru": "c-tomarioru",
+"tonghua": "c-tonghua",
+"tongkha(bhuket)": "c-phuket",
+"tongzhou": "c-tongzhou",
+"tonoas": "c-dublon",
+"tottori": "c-tottori",
+"toungoo": "c-toungoo",
+"tourane": "c-danang",
+"townsville": "c-townsville",
+"toyama": "c-toyama",
+"toyoha": "c-toyohashi",
+"toyohara": "c-toyohara",
+"toyonaka": "c-toyonaka",
+"tozan": "c-tangshan",
+"trincomalee": "c-trincomalee",
+"trivandrum": "c-trivandrum",
+"truk": "c-dublon",
+"tsinan": "c-jinan",
+"tsingtao": "c-qingdao",
+"tsingtau": "c-qingdao",
+"tsitsihar": "c-qiqihar",
+"tsu": "c-tsu",
+"tsuka": "c-tonghua",
+"tsunyi": "c-zunyi",
+"tsuruga": "c-tsuruga",
+"tsuruoka": "c-tsuruoka",
+"tsushu": "c-tongzhou",
+"tsuyama": "c-tsuyama",
+"tulagi": "c-tulagitown",
+"tungchow": "c-tongzhou",
+"tunghua": "c-tonghua",
+"tzeliutsing": "c-zigong",
+"tzukung": "c-zigong",
+"ube": "c-ube",
+"ueda": "c-ueda",
+"uglegorsk": "c-esutoru",
+"uji-yamada": "c-ise",
+"ujiyamada": "c-ise",
+"ulanbator": "c-ulanbator",
+"ulanhad": "c-chifeng",
+"urajio": "c-vladivostok",
+"urawa": "c-urawa",
+"urga": "c-ulanbator",
+"urumchi": "c-urumqi",
+"ussuriysk": "c-ussuriysk",
+"utsunomiya": "c-utsunomiya",
+"uwajima": "c-uwajima",
+"vadodara": "c-baroda",
+"varanasi": "c-benares",
+"victoria": "c-hongkong",
+"victoriapoint": "c-victoriapoint",
+"vientiane": "c-vientiane",
+"vigan": "c-vigan",
+"vinh": "c-vinh",
+"visakhapatnam": "c-vizag",
+"vizagapatam": "c-vizag",
+"vladivostock": "c-vladivostok",
+"vladivostock(temporarilyclosed)": "c-vladivostok",
+"vladivostok": "c-vladivostok",
+"voroshilov": "c-ussuriysk",
+"waingapu": "c-waingapu",
+"wakamatsu": "c-wakamatsu",
+"wakayama": "c-wakayama",
+"wanhsien": "c-wanxian",
+"wanksien": "c-wanxian",
+"wanshien": "c-wanxian",
+"wanshsien": "c-wanxian",
+"wanzhou": "c-wanxian",
+"waten": "c-khotan",
+"wau": "c-wau",
+"weihai": "c-weihai",
+"weihaiwei": "c-weihai",
+"wenchow": "c-wenzhou",
+"wenzhou": "c-wenzhou",
+"wewak": "c-wewak",
+"wisselmeren": "c-wisselmeren",
+"wonsan": "c-wonsan",
+"wuchow": "c-wuzhou",
+"wuhan": "c-wuhan",
+"wuhancenter": "c-wuhan",
+"wuhancities": "c-wuhan",
+"wuhu": "c-wuhu",
+"wulumuqi": "c-urumqi",
+"wushe": "c-wushe",
+"wusih": "c-wuxi",
+"wuxi": "c-wuxi",
+"wuzhou": "c-wuzhou",
+"xiamen": "c-xiamen",
+"xiangyang": "c-xiangyang",
+"xining": "c-xining",
+"xinzhu": "c-hsinchu",
+"xi’an": "c-xian",
+"xuzhou": "c-xuzhou",
+"yahata": "c-yawata",
+"yamagata": "c-yamagata",
+"yamaguchi": "c-yamaguchi",
+"yangchow": "c-yangzhou",
+"yangon": "c-rangoon",
+"yangzhou": "c-yangzhou",
+"yanji": "c-yanji",
+"yantai": "c-yantai",
+"yan’an": "c-yanan",
+"yap": "c-yapcolonia",
+"yappu": "c-yapcolonia",
+"yaren": "c-nauru",
+"yaruto": "c-jaluit",
+"yawata": "c-yawata",
+"yawatahama": "c-yawatahama",
+"yenan": "c-yanan",
+"yenangyaung": "c-yenangyaung",
+"yenchi": "c-yanji",
+"yenki": "c-yanji",
+"yichang": "c-yichang",
+"yilan": "c-yilan",
+"yinchuan": "c-yinchuan",
+"yinchwan": "c-yinchuan",
+"yingkou": "c-yingkou",
+"yingkow": "c-yingkou",
+"yining": "c-yining",
+"yinkow": "c-yingkou",
+"yloilo": "c-iloilo",
+"yochow": "c-yueyang",
+"yogyakarta": "c-jogjakarta",
+"yokkaichi": "c-yokkaichi",
+"yokohama": "c-yokohama",
+"yokosuka": "c-yokosuka",
+"yonago": "c-yonago",
+"yonezawa": "c-yonezawa",
+"yoshu": "c-yangzhou",
+"yueyang": "c-yueyang",
+"yunnan": "c-kunming",
+"yunnanfou": "c-kunming",
+"yuzhno-sakhalinsk": "c-toyohara",
+"zamboanga": "c-zamboanga",
+"zenshu": "c-chonju",
+"zhanghua": "c-changhua",
+"zhangjiakou": "c-kalgan",
+"zhanjiang": "c-zhanjiang",
+"zhengzhou": "c-zhengzhou",
+"zhenjiang": "c-zhenjiang",
+"zigong": "c-zigong",
+"zunyi": "c-zunyi",
+"đalat": "c-dalat",
+"александровск-сахалинскии": "c-aleksandrovsk",
+"благовещенск": "c-blagoveshchensk",
+"владивосток": "c-vladivostok",
+"ворошилов": "c-ussuriysk",
+"комсомольск-на-амуре": "c-komsomolsk",
+"кызыл": "c-kyzyl",
+"николаевск-на-амуре": "c-nikolaevsk",
+"петропавловск-камчатскии": "c-petropavlovsk",
+"чита": "c-chita",
+"чоибалсан": "c-choibalsan",
+"الورستار": "c-alorsetar",
+"تاईڤيڠ": "c-taiping",
+"سرمبن": "c-seremban",
+"سرینگر": "c-srinagar",
+"كاڠر": "c-kangar",
+"كوالاترڠݢانو": "c-kualaterengganu",
+"كوالاليڤيس": "c-kualalipis",
+"كوانتن": "c-kuantan",
+"كوتبهارو": "c-kotabharu_c",
+"کابل": "c-kabul",
+"इंदौर": "c-indore",
+"काठमाडौं": "c-kathmandu",
+"गवालियर": "c-gwalior",
+"जमशेदपुर": "c-jamshedpur",
+"जोधपुर": "c-jodhpur",
+"पटना": "c-patna",
+"पोरटबलेयर": "c-portblair",
+"भोपाल": "c-bhopal",
+"ইমফাল": "c-imphalcity",
+"ডিগবয": "c-digboi",
+"লেডো": "c-ledo",
+"শিলং": "c-shillong",
+"ਅੰਮਰਿਤਸਰ": "c-amritsar",
+"વડોદરા": "c-baroda",
+"କଟକ": "c-cuttack",
+"புதுசசேரி": "c-pondicherrycity",
+"මහනුවර": "c-kandy",
+"กรงเทพฯ": "c-bangkok",
+"กาญจนบรี": "c-kanchanaburi",
+"ธนบรี": "c-thonburi",
+"นครราชสีมา": "c-korat",
+"ประจวบคีรีขันธ์": "c-prachuap",
+"ปัตตานี": "c-pattani",
+"พระนครศรีอยธยา": "c-ayutthaya",
+"ภเก็ต": "c-phuket",
+"สงขลา": "c-songkhla",
+"ສະຫວັນນະເຂດ": "c-savannakhet",
+"གངས་ཏག": "c-gangtok",
+"རྒྱལ་རྩ།": "c-gyantse",
+"སྤ་ན་ཁ": "c-punakha",
+"ကောသောငး": "c-victoriapoint",
+"ကျိုငးတုံ": "c-kengtung",
+"တောငကြီး": "c-taunggyi",
+"တောငငူ": "c-toungoo",
+"ထားဝယ": "c-tavoy",
+"ပုသိမ": "c-bassein",
+"ပဲခူး": "c-pegu",
+"ပြည": "c-prome",
+"ဗနးမော": "c-bhamo",
+"မိတထီလာ": "c-meiktila",
+"မြိတ": "c-mergui",
+"ရနကုန": "c-rangoon",
+"ရေနံချောငး": "c-yenangyaung",
+"သံဖြူဇရပ": "c-thanbyuzayat",
+"공주": "c-kongju",
+"군산": "c-kunsan",
+"마산": "c-masan",
+"성진": "c-songjin",
+"수원": "c-suwon",
+"전주": "c-chonju",
+"진주": "c-chinju",
+"청주": "c-chongju",
+"춘천": "c-chunchon",
+"해주": "c-haeju",
+"흥남": "c-hungnam",
+"បាត់ដំបង": "c-battambang",
+"アカナ": "c-agana",
+"アムリットサル": "c-amritsar",
+"アレクサントロフスク・サハリンスキー": "c-aleksandrovsk",
+"アンホン": "c-ambon",
+"イホー": "c-ipoh",
+"イロイロ": "c-iloilo",
+"ウィクトリア": "c-hongkong",
+"カシュカル": "c-kashgar",
+"カラハン": "c-garapan",
+"クアラルンフール": "c-kualalumpur",
+"クチン": "c-kuching",
+"クーハン": "c-kupang",
+"コロール": "c-koror",
+"サイコン": "c-saigon",
+"サハン": "c-sabang",
+"シェッセルトン": "c-jesselton",
+"シャカルタ": "c-batavia",
+"ショクシャカルタ": "c-jogjakarta",
+"ショホールハル": "c-johore",
+"スマラン": "c-semarang",
+"スラカルタ": "c-soerakarta",
+"スラハヤ": "c-surabaya",
+"セフ": "c-cebu",
+"タハオ": "c-davao",
+"タラカン": "c-tarakan",
+"タラワ": "c-betio",
+"ターウィン": "c-darwin",
+"チチハル": "c-qiqihar",
+"チレホン": "c-cheribon",
+"ティリ": "c-dili",
+"ナウル": "c-nauru",
+"ハイフォン": "c-haiphong",
+"ハキオ": "c-baguio",
+"ハタン": "c-padang",
+"ハノイ": "c-hanoi",
+"ハハロフスク": "c-khabarovsk",
+"ハリクハハン": "c-balikpapan",
+"ハルヒン": "c-harbin",
+"ハレンハン": "c-palembang",
+"ハンシェルマシン": "c-bandjermasin",
+"ハントン": "c-bandung",
+"フエ": "c-hue",
+"フラコウェシチェンスク": "c-blagoveshchensk",
+"フルネイ": "c-brunei",
+"ホイテンソルク": "c-buitenzorg",
+"ホナヘ": "c-kolonia",
+"ホノルル": "c-honolulu",
+"ホンティアナック": "c-pontianak",
+"マカオ": "c-macaucity",
+"マカッサル": "c-makassar",
+"マニラ": "c-manila",
+"マラッカ": "c-malacca",
+"マラン": "c-malang",
+"マンタレー": "c-mandalay",
+"メタン": "c-medan",
+"メナト": "c-manado",
+"ヤッフ": "c-yapcolonia",
+"ヤルート": "c-jaluit",
+"ラハウル": "c-rabaul",
+"ランクーン": "c-rangoon",
+"一宮": "c-ichinomiya",
+"三亞": "c-sanya",
+"三姓": "c-sanxing",
+"三条": "c-sanjo",
+"三水": "c-sanshui",
+"三都澳": "c-sanduao",
+"上海": "c-shanghai",
+"上田": "c-ueda",
+"下田": "c-shimoda",
+"下関": "c-shimonoseki",
+"中津": "c-nakatsu",
+"丸亀": "c-marugame",
+"久留米": "c-kurume",
+"九江": "c-jiujiang",
+"九竜": "c-kowloon",
+"京城": "c-seoul",
+"京都": "c-kyoto",
+"仁川": "c-incheon",
+"今治": "c-imabari",
+"仙台": "c-sendai",
+"仰光": "c-rangoon",
+"伊寧": "c-yining",
+"伊洛伊洛": "c-iloilo",
+"伏見": "c-fushimi",
+"会津若松": "c-aizuwakamatsu",
+"伯力": "c-khabarovsk",
+"佐世保": "c-sasebo",
+"佐賀": "c-saga",
+"佳木斯": "c-jiamusi",
+"保定": "c-paoting",
+"倉敷": "c-kurashiki",
+"元山": "c-wonsan",
+"光州": "c-kwangju",
+"全州": "c-chonju",
+"八幡": "c-yawata",
+"八幡浜": "c-yawatahama",
+"八戸": "c-hachinohe",
+"八王子": "c-hachioji",
+"公主嶺": "c-gongzhuling",
+"公州": "c-kongju",
+"函館": "c-hakodate",
+"前橋": "c-maebashi",
+"包頭": "c-baotou",
+"北京": "c-beijing",
+"北埔": "c-beipu",
+"北平": "c-beijing",
+"北海": "c-beihai",
+"千葉": "c-chiba",
+"半田": "c-handa",
+"南京": "c-nanjing",
+"南充": "c-nanchong",
+"南定": "c-namdinh",
+"南寧": "c-nanning",
+"南昌": "c-nanchang",
+"南通": "c-nantong",
+"博多": "c-fukuoka",
+"厚和": "c-hohhot",
+"厦門": "c-xiamen",
+"台中": "c-taichung",
+"台北": "c-taipei",
+"台南": "c-tainan",
+"台東": "c-taitung",
+"台東街": "c-taitung",
+"合肥": "c-hefei",
+"吉林": "c-jilincity",
+"名古屋": "c-nagoya",
+"呼和浩特": "c-hohhot",
+"和歌山": "c-wakayama",
+"和闐": "c-khotan",
+"咸興": "c-hamhung",
+"哈密": "c-hami",
+"哈爾浜": "c-harbin",
+"哈爾賓": "c-harbin",
+"唐山": "c-tangshan",
+"唐津": "c-karatsu",
+"喀什噶爾": "c-kashgar",
+"営口": "c-yingkou",
+"嘉義": "c-chiayi",
+"噶爾": "c-gartok",
+"四平": "c-siping",
+"四平街": "c-siping",
+"四日": "c-yokkaichi",
+"城津": "c-songjin",
+"埔里": "c-puli",
+"埔里街": "c-puli",
+"基隆": "c-keelung",
+"堤岸": "c-cholon",
+"塘沽": "c-tanggu",
+"夏島": "c-dublon",
+"多倫": "c-duolun",
+"多倫諾爾鎮": "c-duolun",
+"大分": "c-oita",
+"大叻": "c-dalat",
+"大同": "c-datong",
+"大垣": "c-ogaki",
+"大東溝": "c-dadonggou",
+"大泊": "c-otomari",
+"大津": "c-otsu",
+"大湊": "c-ominato",
+"大溪": "c-daxi",
+"大溪街": "c-daxi",
+"大牟田": "c-omuta",
+"大理": "c-dali",
+"大田": "c-taejon",
+"大連": "c-dairen",
+"大邱": "c-taegu",
+"大阪": "c-osaka",
+"天水": "c-tianshui",
+"天津": "c-tianjin",
+"太原": "c-taiyuan",
+"奈良": "c-nara",
+"奉天": "c-mukden",
+"姫路": "c-himeji",
+"威海衛": "c-weihai",
+"宇和島": "c-uwajima",
+"宇治山田": "c-ise",
+"宇部": "c-ube",
+"宇都宮": "c-utsunomiya",
+"安慶": "c-anqing",
+"安東": "c-dandong",
+"安陽": "c-anyang",
+"宜昌": "c-yichang",
+"宜蘭": "c-yilan",
+"宜蘭街": "c-yilan",
+"宝雞": "c-baoji",
+"宝鶏": "c-baoji",
+"室蘭": "c-muroran",
+"宮崎": "c-miyazaki",
+"宿霧": "c-cebu",
+"富山": "c-toyama",
+"寧夏": "c-yinchuan",
+"寧波": "c-ningbo",
+"小倉": "c-kokura",
+"小樽": "c-otaru",
+"尼ヶ崎": "c-amagasaki",
+"尼崎": "c-amagasaki",
+"尼港": "c-nikolaevsk",
+"尼港事件": "c-nikolaevsk",
+"屏東": "c-pingtung",
+"屛東": "c-pingtung",
+"山口": "c-yamaguchi",
+"山形": "c-yamagata",
+"山海関": "c-shanhaiguan",
+"岐阜": "c-gifu",
+"岡山": "c-okayama",
+"岡崎": "c-okazaki",
+"岡谷": "c-okaya",
+"岳陽": "c-yueyang",
+"岸和田": "c-kishiwada",
+"川内": "c-sendaisatsuma",
+"川口": "c-kawaguchi",
+"川崎": "c-kawasaki",
+"川越": "c-kawagoe",
+"巴達維亞": "c-batavia",
+"市川": "c-ichikawa",
+"布施": "c-fuse",
+"帯広": "c-obihiro",
+"帶広": "c-obihiro",
+"常徳": "c-changde",
+"平塚": "c-hiratsuka",
+"平壌": "c-pyongyang",
+"平壤": "c-pyongyang",
+"平房": "c-pingfang",
+"広島": "c-hiroshima",
+"広州": "c-guangzhou",
+"広州湾": "c-zhanjiang",
+"庫倫": "c-ulanbator",
+"康定": "c-kangding",
+"廈門": "c-xiamen",
+"廟街": "c-nikolaevsk",
+"延吉": "c-yanji",
+"延安": "c-yanan",
+"延岡": "c-nobeoka",
+"弘前": "c-hirosaki",
+"張家口": "c-kalgan",
+"彦根": "c-hikone",
+"彰化": "c-changhua",
+"徐州": "c-xuzhou",
+"徳山": "c-tokuyama",
+"徳島": "c-tokushima",
+"思茅": "c-simao",
+"恆春": "c-hengchun",
+"恆春街": "c-hengchun",
+"恒春": "c-hengchun",
+"恩施": "c-enshi",
+"恵須取": "c-esutoru",
+"戸畑": "c-tobata",
+"承徳": "c-chengde",
+"拉包爾": "c-rabaul",
+"揚州": "c-yangzhou",
+"撫順": "c-fushun",
+"敦賀": "c-tsuruga",
+"敷香": "c-shikuka",
+"新京": "c-changchun",
+"新京特別": "c-changchun",
+"新加坡": "c-singapore",
+"新宮": "c-shingu",
+"新潟": "c-niigata",
+"新竹": "c-hsinchu",
+"新義州": "c-sinuiju",
+"旅順": "c-portarthur",
+"日土": "c-rudok",
+"日立": "c-hitachi",
+"旭川": "c-asahikawa",
+"昆明": "c-kunming",
+"明石": "c-akashi",
+"春川": "c-chunchon",
+"昭南島": "c-singapore",
+"晉州": "c-chinju",
+"晋州": "c-chinju",
+"曼徳勒": "c-mandalay",
+"朝陽": "c-chaoyang",
+"木浦": "c-mokpo",
+"本渓": "c-benxi",
+"本溪": "c-benxi",
+"本溪湖": "c-benxi",
+"札幌": "c-sapporo",
+"杭州": "c-hangzhou",
+"東京": "c-tokyo",
+"東舞鶴": "c-higashimaizuru",
+"松山": "c-matsuyama",
+"松本": "c-matsumoto",
+"松江": "c-matsue",
+"松阪": "c-matsusaka",
+"枋寮": "c-fangliao",
+"柳州": "c-liuzhou",
+"栃木": "c-tochigi",
+"根室": "c-nemuro",
+"桂林": "c-guilin",
+"桐生": "c-kiryu",
+"桑名": "c-kuwana",
+"梧州": "c-wuzhou",
+"横浜": "c-yokohama",
+"横須賀": "c-yokosuka",
+"橫浜": "c-yokohama",
+"橫須賀": "c-yokosuka",
+"檀香山": "c-honolulu",
+"武漢": "c-wuhan",
+"歸綏": "c-hohhot",
+"水原": "c-suwon",
+"水戸": "c-mito",
+"汕頭": "c-shantou",
+"江田島": "c-etajima",
+"江門": "c-jiangmen",
+"池田": "c-ikeda",
+"沱㶞": "c-danang",
+"河內": "c-hanoi",
+"沼津": "c-numazu",
+"泉州": "c-quanzhou",
+"泊居": "c-tomarioru",
+"洛陽": "c-luoyang",
+"津山": "c-tsuyama",
+"洮南": "c-taonan",
+"洲本": "c-sumoto",
+"浜松": "c-hamamatsu",
+"浦和": "c-urawa",
+"浦潮": "c-vladivostok",
+"海南": "c-kainan",
+"海參崴": "c-vladivostok",
+"海口": "c-haikou",
+"海州": "c-haeju",
+"海拉爾": "c-hailar",
+"海蘭泡": "c-blagoveshchensk",
+"海防": "c-haiphong",
+"淡水": "c-tamsui",
+"淡水街": "c-tamsui",
+"清州": "c-chongju",
+"清水": "c-shimizu",
+"清津": "c-chongjin",
+"済南": "c-jinan",
+"温州": "c-wenzhou",
+"湛江": "c-zhanjiang",
+"満洲里": "c-manzhouli",
+"溫州": "c-wenzhou",
+"漢口": "c-wuhan",
+"漢城": "c-seoul",
+"澎湖": "c-makung",
+"澳門": "c-macaucity",
+"瀋陽": "c-mukden",
+"瀘州": "c-luzhou",
+"瀬戸": "c-seto",
+"烏蘭巴托": "c-ulanbator",
+"烏魯木齊": "c-urumqi",
+"無錫": "c-wuxi",
+"煙台": "c-yantai",
+"熊本": "c-kumamoto",
+"熊谷": "c-kumagaya",
+"熱海": "c-atami",
+"父島": "c-chichijima",
+"牡丹": "c-mudan",
+"牡丹江": "c-mudanjiang",
+"牡丹社": "c-mudan",
+"琿春": "c-hunchun",
+"留多加": "c-rutaka",
+"盛岡": "c-morioka",
+"直方": "c-nogata",
+"眞岡": "c-maoka",
+"真岡": "c-maoka",
+"石卷": "c-ishinomaki",
+"石家荘": "c-shijiazhuang",
+"石巻": "c-ishinomaki",
+"碧瑤": "c-baguio",
+"神戸": "c-kobe",
+"福井": "c-fukui",
+"福山": "c-fukuyama",
+"福岡": "c-fukuoka",
+"福島": "c-fukushima",
+"福州": "c-fuzhou",
+"福知山": "c-fukuchiyama",
+"秋田": "c-akita",
+"秦皇島": "c-qinhuangdao",
+"竜井": "c-longjing",
+"竜口": "c-longkou",
+"竜州": "c-longzhou",
+"米子": "c-yonago",
+"米沢": "c-yonezawa",
+"紹興": "c-shaoxing",
+"綏芬河": "c-suifenhe",
+"維多利亞城": "c-hongkong",
+"羅津": "c-najin",
+"群山": "c-kunsan",
+"老河口": "c-laohekou",
+"臨汾": "c-linfen",
+"自貢": "c-zigong",
+"興南": "c-hungnam",
+"興南区域": "c-hungnam",
+"興南區域": "c-hungnam",
+"舞鶴": "c-maizuru",
+"芝罘": "c-yantai",
+"花蓮港": "c-hualien",
+"花蓮港街": "c-hualien",
+"若松": "c-wakamatsu",
+"落合": "c-ochiai",
+"蒙自": "c-mengzi",
+"蕪湖": "c-wuhu",
+"薩哈林島亞歷山徳羅夫斯克": "c-aleksandrovsk",
+"蘇州": "c-suzhou",
+"蘭州": "c-lanzhou",
+"蚌埠": "c-bengbu",
+"衡陽": "c-hengyang",
+"衢州": "c-quzhou",
+"襄陽": "c-xiangyang",
+"西安": "c-xian",
+"西宮": "c-nishinomiya",
+"西寧": "c-xining",
+"西貢": "c-saigon",
+"諒山": "c-langson",
+"豊中": "c-toyonaka",
+"豊原": "c-toyohara",
+"豊橋": "c-toyohashi",
+"貴陽": "c-guiyang",
+"贛州": "c-ganzhou",
+"赤峰": "c-chifeng",
+"足利": "c-ashikaga",
+"車城": "c-checheng",
+"迪化": "c-urumqi",
+"通化": "c-tonghua",
+"通州": "c-tongzhou",
+"達爾文": "c-darwin",
+"遵義": "c-zunyi",
+"遼陽": "c-liaoyang",
+"那曲": "c-nagchuka",
+"那覇": "c-naha",
+"那霸": "c-naha",
+"邯鄲": "c-handan",
+"郡山": "c-koriyama",
+"都城": "c-miyakonojo",
+"鄭州": "c-zhengzhou",
+"酒田": "c-sakata",
+"重慶": "c-chongqing",
+"金沢": "c-kanazawa",
+"金策": "c-songjin",
+"金蘭": "c-camranh",
+"釜山": "c-pusan",
+"釜山鎮": "c-pusan",
+"釜石": "c-kamaishi",
+"釧路": "c-kushiro",
+"鉄嶺": "c-tieling",
+"銀川": "c-yinchuan",
+"銚子": "c-choshi",
+"錦州": "c-jinzhou",
+"鎌倉": "c-kamakura",
+"鎮南浦": "c-nampo",
+"鎮江": "c-zhenjiang",
+"長岡": "c-nagaoka",
+"長崎": "c-nagasaki",
+"長春": "c-changchun",
+"長沙": "c-changsha",
+"長野": "c-nagano",
+"門司": "c-moji",
+"開城": "c-kaesong",
+"開封": "c-kaifeng",
+"阜新": "c-fuxin",
+"阿加尼亞": "c-agana",
+"霧社": "c-wushe",
+"青島": "c-qingdao",
+"青森": "c-aomori",
+"静岡": "c-shizuoka",
+"鞍山": "c-anshan",
+"韶関": "c-shaoguan",
+"順化": "c-hue",
+"額済納": "c-hohhot2",
+"飯塚": "c-iizuka",
+"飯田": "c-iida",
+"首里": "c-shuri",
+"香港": "c-hongkong",
+"馬公": "c-makung",
+"馬公街": "c-makung",
+"馬尼拉": "c-manila",
+"馬山": "c-masan",
+"馬山浦": "c-masan",
+"騰越": "c-tengyue",
+"高山": "c-takayama",
+"高岡": "c-takaoka",
+"高崎": "c-takasaki",
+"高松": "c-takamatsu",
+"高田": "c-takada",
+"高知": "c-kochi",
+"高雄": "c-kaohsiung",
+"鳥取": "c-tottori",
+"鶴岡": "c-tsuruoka",
+"鹿児島": "c-kagoshima",
+"黒河": "c-heihe",
+"齊々哈爾": "c-qiqihar",
+"齊齊哈爾": "c-qiqihar"
+},
+"cities-ja": {
+"一宮": "c-ichinomiya",
+"万県": "c-wanxian",
+"万縣": "c-wanxian",
+"三亞": "c-sanya",
+"三姓": "c-sanxing",
+"三条": "c-sanjo",
+"三水": "c-sanshui",
+"三都澳": "c-sanduao",
+"上海": "c-shanghai",
+"上田": "c-ueda",
+"下田": "c-shimoda",
+"下関": "c-shimonoseki",
+"中津": "c-nakatsu",
+"丸亀": "c-marugame",
+"久留米": "c-kurume",
+"九江": "c-jiujiang",
+"九竜": "c-kowloon",
+"京城": "c-seoul",
+"京都": "c-kyoto",
+"仁川": "c-incheon",
+"今治": "c-imabari",
+"仙台": "c-sendai",
+"伊寧": "c-yining",
+"伊洛伊洛": "c-iloilo",
+"伏見": "c-fushimi",
+"伯力": "c-khabarovsk",
+"佐世保": "c-sasebo",
+"佐賀": "c-saga",
+"佳木斯": "c-jiamusi",
+"保定": "c-paoting",
+"倉敷": "c-kurashiki",
+"元山": "c-wonsan",
+"光州": "c-kwangju",
+"全州": "c-chonju",
+"八幡": "c-yawata",
+"八幡浜": "c-yawatahama",
+"八戸": "c-hachinohe",
+"八王子": "c-hachioji",
+"公主嶺": "c-gongzhuling",
+"公州": "c-kongju",
+"函館": "c-hakodate",
+"前橋": "c-maebashi",
+"包頭": "c-baotou",
+"北京": "c-beijing",
+"北埔": "c-beipu",
+"北海": "c-beihai",
+"千葉": "c-chiba",
+"半田": "c-handa",
+"南京": "c-nanjing",
+"南充": "c-nanchong",
+"南寧": "c-nanning",
+"南昌": "c-nanchang",
+"南通": "c-nantong",
+"厚和": "c-hohhot",
+"厦門": "c-xiamen",
+"台中": "c-taichung",
+"台北": "c-taipei",
+"台南": "c-tainan",
+"台東": "c-taitung",
+"合肥": "c-hefei",
+"吉林": "c-jilincity",
+"名古屋": "c-nagoya",
+"呉": "c-kure",
+"和歌山": "c-wakayama",
+"和闐": "c-khotan",
+"咸興": "c-hamhung",
+"哈密": "c-hami",
+"唐山": "c-tangshan",
+"唐津": "c-karatsu",
+"喀什噶爾": "c-kashgar",
+"営口": "c-yingkou",
+"嘉義": "c-chiayi",
+"噶爾": "c-gartok",
+"四平": "c-siping",
+"四日": "c-yokkaichi",
+"埔里": "c-puli",
+"基隆": "c-keelung",
+"堺": "c-sakai",
+"多倫諾爾鎮": "c-duolun",
+"大分": "c-oita",
+"大同": "c-datong",
+"大垣": "c-ogaki",
+"大東溝": "c-dadonggou",
+"大泊": "c-otomari",
+"大津": "c-otsu",
+"大湊": "c-ominato",
+"大溪": "c-daxi",
+"大牟田": "c-omuta",
+"大理": "c-dali",
+"大田": "c-taejon",
+"大連": "c-dairen",
+"大邱": "c-taegu",
+"大阪": "c-osaka",
+"天水": "c-tianshui",
+"天津": "c-tianjin",
+"太原": "c-taiyuan",
+"奈良": "c-nara",
+"奉天": "c-mukden",
+"姫路": "c-himeji",
+"威海衛": "c-weihai",
+"宇和島": "c-uwajima",
+"宇治山田": "c-ise",
+"宇部": "c-ube",
+"宇都宮": "c-utsunomiya",
+"安慶": "c-anqing",
+"安東": "c-dandong",
+"安陽": "c-anyang",
+"宜昌": "c-yichang",
+"宜蘭": "c-yilan",
+"宝雞": "c-baoji",
+"宝鶏": "c-baoji",
+"室蘭": "c-muroran",
+"宮崎": "c-miyazaki",
+"宿霧": "c-cebu",
+"富山": "c-toyama",
+"寧夏": "c-yinchuan",
+"寧波": "c-ningbo",
+"小倉": "c-kokura",
+"小樽": "c-otaru",
+"尼崎": "c-amagasaki",
+"尾道": "c-onomichi",
+"屏東": "c-pingtung",
+"山口": "c-yamaguchi",
+"山形": "c-yamagata",
+"山海関": "c-shanhaiguan",
+"山海關": "c-shanhaiguan",
+"岐阜": "c-gifu",
+"岡山": "c-okayama",
+"岡崎": "c-okazaki",
+"岡谷": "c-okaya",
+"岳陽": "c-yueyang",
+"岸和田": "c-kishiwada",
+"川内": "c-sendaisatsuma",
+"川口": "c-kawaguchi",
+"川崎": "c-kawasaki",
+"川越": "c-kawagoe",
+"市川": "c-ichikawa",
+"布施": "c-fuse",
+"帯広": "c-obihiro",
+"帶広": "c-obihiro",
+"常徳": "c-changde",
+"常德": "c-changde",
+"平塚": "c-hiratsuka",
+"平壌": "c-pyongyang",
+"平房": "c-pingfang",
+"広島": "c-hiroshima",
+"広州": "c-guangzhou",
+"庫倫": "c-ulanbator",
+"康定": "c-kangding",
+"延吉": "c-yanji",
+"延安": "c-yanan",
+"延岡": "c-nobeoka",
+"弘前": "c-hirosaki",
+"張家口": "c-kalgan",
+"彦根": "c-hikone",
+"彰化": "c-changhua",
+"徐州": "c-xuzhou",
+"徳山": "c-tokuyama",
+"徳島": "c-tokushima",
+"德山": "c-tokuyama",
+"德島": "c-tokushima",
+"思茅": "c-simao",
+"恆春": "c-hengchun",
+"恩施": "c-enshi",
+"恵須取": "c-esutoru",
+"成都": "c-chengdu",
+"戸畑": "c-tobata",
+"承徳": "c-chengde",
+"揚州": "c-yangzhou",
+"撫順": "c-fushun",
+"敦賀": "c-tsuruga",
+"敷香": "c-shikuka",
+"新京": "c-changchun",
+"新宮": "c-shingu",
+"新潟": "c-niigata",
+"新竹": "c-hsinchu",
+"新義州": "c-sinuiju",
+"旅順": "c-portarthur",
+"日土": "c-rudok",
+"日立": "c-hitachi",
+"旭川": "c-asahikawa",
+"昆明": "c-kunming",
+"昌都": "c-chamdo",
+"明石": "c-akashi",
+"春川": "c-chunchon",
+"昭南島": "c-singapore",
+"晋州": "c-chinju",
+"曼德勒": "c-mandalay",
+"朝陽": "c-chaoyang",
+"木浦": "c-mokpo",
+"本渓": "c-benxi",
+"本溪": "c-benxi",
+"札幌": "c-sapporo",
+"杭州": "c-hangzhou",
+"東京": "c-tokyo",
+"東舞鶴": "c-higashimaizuru",
+"松山": "c-matsuyama",
+"松本": "c-matsumoto",
+"松江": "c-matsue",
+"松阪": "c-matsusaka",
+"枋寮": "c-fangliao",
+"柳州": "c-liuzhou",
+"栃木": "c-tochigi",
+"根室": "c-nemuro",
+"桂林": "c-guilin",
+"桐生": "c-kiryu",
+"桑名": "c-kuwana",
+"梧州": "c-wuzhou",
+"横浜": "c-yokohama",
+"横須賀": "c-yokosuka",
+"橫須賀": "c-yokosuka",
+"檀香山": "c-honolulu",
+"歸綏": "c-hohhot",
+"水原": "c-suwon",
+"水戸": "c-mito",
+"汕頭": "c-shantou",
+"江田島": "c-etajima",
+"江門": "c-jiangmen",
+"池田": "c-ikeda",
+"沙": "c-shashi",
+"沼津": "c-numazu",
+"泉州": "c-quanzhou",
+"泊居": "c-tomarioru",
+"洛陽": "c-luoyang",
+"津": "c-tsu",
+"津山": "c-tsuyama",
+"洮南": "c-taonan",
+"洲本": "c-sumoto",
+"浜松": "c-hamamatsu",
+"浦和": "c-urawa",
+"浦潮": "c-vladivostok",
+"海南": "c-kainan",
+"海口": "c-haikou",
+"海州": "c-haeju",
+"海拉爾": "c-hailar",
+"海蘭泡": "c-blagoveshchensk",
+"海防": "c-haiphong",
+"淡水": "c-tamsui",
+"清州": "c-chongju",
+"清水": "c-shimizu",
+"清津": "c-chongjin",
+"済南": "c-jinan",
+"温州": "c-wenzhou",
+"湛江": "c-zhanjiang",
+"満洲里": "c-manzhouli",
+"溫州": "c-wenzhou",
+"漢口": "c-wuhan",
+"澳門": "c-macaucity",
+"瀘州": "c-luzhou",
+"瀬戸": "c-seto",
+"無錫": "c-wuxi",
+"熊本": "c-kumamoto",
+"熊谷": "c-kumagaya",
+"熱海": "c-atami",
+"父島": "c-chichijima",
+"牡丹": "c-mudan",
+"牡丹江": "c-mudanjiang",
+"牡丹社": "c-mudan",
+"琿春": "c-hunchun",
+"甲府": "c-kofu",
+"留多加": "c-rutaka",
+"盛岡": "c-morioka",
+"直方": "c-nogata",
+"眞岡": "c-maoka",
+"真岡": "c-maoka",
+"石卷": "c-ishinomaki",
+"石家荘": "c-shijiazhuang",
+"石巻": "c-ishinomaki",
+"碧瑤": "c-baguio",
+"神戸": "c-kobe",
+"福井": "c-fukui",
+"福山": "c-fukuyama",
+"福岡": "c-fukuoka",
+"福島": "c-fukushima",
+"福州": "c-fuzhou",
+"福知山": "c-fukuchiyama",
+"秋田": "c-akita",
+"秦皇島": "c-qinhuangdao",
+"竜井": "c-longjing",
+"竜口": "c-longkou",
+"竜州": "c-longzhou",
+"米子": "c-yonago",
+"米沢": "c-yonezawa",
+"紹興": "c-shaoxing",
+"綏芬河": "c-suifenhe",
+"維多利亞城": "c-hongkong",
+"羅津": "c-najin",
+"群山": "c-kunsan",
+"老河口": "c-laohekou",
+"臨汾": "c-linfen",
+"自貢": "c-zigong",
+"興南区域": "c-hungnam",
+"興南區域": "c-hungnam",
+"舞鶴": "c-maizuru",
+"芝罘": "c-yantai",
+"花蓮港": "c-hualien",
+"若松": "c-wakamatsu",
+"落合": "c-ochiai",
+"蒙自": "c-mengzi",
+"蕪湖": "c-wuhu",
+"薩哈林島亞歷山德羅夫斯克": "c-aleksandrovsk",
+"蘇州": "c-suzhou",
+"蘭州": "c-lanzhou",
+"蚌埠": "c-bengbu",
+"衡陽": "c-hengyang",
+"衢州": "c-quzhou",
+"襄陽": "c-xiangyang",
+"西安": "c-xian",
+"西宮": "c-nishinomiya",
+"西寧": "c-xining",
+"豊中": "c-toyonaka",
+"豊原": "c-toyohara",
+"豊橋": "c-toyohashi",
+"貴陽": "c-guiyang",
+"贛州": "c-ganzhou",
+"赤峰": "c-chifeng",
+"足利": "c-ashikaga",
+"車城": "c-checheng",
+"迪化": "c-urumqi",
+"通化": "c-tonghua",
+"通州": "c-tongzhou",
+"遵義": "c-zunyi",
+"遼陽": "c-liaoyang",
+"那曲": "c-nagchuka",
+"那覇": "c-naha",
+"邯鄲": "c-handan",
+"郡山": "c-koriyama",
+"都城": "c-miyakonojo",
+"鄭州": "c-zhengzhou",
+"酒田": "c-sakata",
+"重慶": "c-chongqing",
+"金沢": "c-kanazawa",
+"金策": "c-songjin",
+"釜山": "c-pusan",
+"釜石": "c-kamaishi",
+"釧路": "c-kushiro",
+"鉄嶺": "c-tieling",
+"銚子": "c-choshi",
+"錦州": "c-jinzhou",
+"鎌倉": "c-kamakura",
+"鎮南浦": "c-nampo",
+"鎮江": "c-zhenjiang",
+"長岡": "c-nagaoka",
+"長崎": "c-nagasaki",
+"長沙": "c-changsha",
+"長野": "c-nagano",
+"門司": "c-moji",
+"開城": "c-kaesong",
+"開封": "c-kaifeng",
+"阜新": "c-fuxin",
+"阿加尼亞": "c-agana",
+"霧社": "c-wushe",
+"青島": "c-qingdao",
+"青森": "c-aomori",
+"静岡": "c-shizuoka",
+"靜岡": "c-shizuoka",
+"鞍山": "c-anshan",
+"韶関": "c-shaoguan",
+"韶關": "c-shaoguan",
+"順化": "c-hue",
+"額済納": "c-hohhot2",
+"飯塚": "c-iizuka",
+"飯田": "c-iida",
+"首里": "c-shuri",
+"馬公": "c-makung",
+"馬山": "c-masan",
+"騰越": "c-tengyue",
+"高山": "c-takayama",
+"高岡": "c-takaoka",
+"高崎": "c-takasaki",
+"高松": "c-takamatsu",
+"高田": "c-takada",
+"高知": "c-kochi",
+"高雄": "c-kaohsiung",
+"鳥取": "c-tottori",
+"鶴岡": "c-tsuruoka",
+"鹿児島": "c-kagoshima",
+"黒河": "c-heihe",
+"齊齊哈爾": "c-qiqihar"
+},
+"countries": {
+"1941": "w-cededthai",
+"aleutianislands": "w-aleutians",
+"andaman&nicobar": "w-andaman",
+"andaman&nicobarislands": "w-andaman",
+"approximate": "w-nanjinggov",
+"atan": "w-attukiska",
+"attuandkiska": "w-attukiska",
+"australia": "w-australia",
+"baker": "w-uspacific",
+"battambang&siemreap": "w-cededthai",
+"bhutan": "w-bhutan",
+"biruma": "w-burma",
+"bod": "w-tibet",
+"borneo": "w-borneo_br",
+"britishborneo": "w-borneo_br",
+"britishindia": "w-britishindia",
+"britishmalaya&singapore": "w-malaya",
+"britishsolomonislands": "w-solomons_br",
+"brunei": "w-brunei",
+"burma": "w-burma",
+"burunei": "w-brunei",
+"cededtothailand": "w-cededthai",
+"ceylon": "w-ceylon",
+"chahaer": "w-chahar",
+"chahar": "w-chahar",
+"chaharu": "w-chahar",
+"chandernagore": "w-pondicherry",
+"chibetto": "w-tibet",
+"china": "china",
+"chukaminkoku": "china",
+"cocos": "w-cocos",
+"communistbaseareasandguerrillazones": "w-ccp",
+"contested": "w-guadalcanal_i",
+"dadra&nagarhaveli": "w-goa",
+"damao": "w-goa",
+"diu": "w-goa",
+"dongsansheng": "manchuria",
+"dongsha": "w-pratas",
+"drenjong": "w-sikkim",
+"drukyul": "w-bhutan",
+"dutchnewguinea—theunoccupiedsouth": "w-dutchng_free",
+"eiryomarai": "w-malaya",
+"elliceislands": "w-ellice",
+"estadodaindia": "w-goa",
+"etablissementsfrancaisdanslinde": "w-pondicherry",
+"frenchindia—pondicherry": "w-pondicherry",
+"frenchindochina": "w-indochina",
+"futsuin": "w-indochina",
+"gilbert&elliceislands": "w-gilberts",
+"guadalcanal": "w-guadalcanal_i",
+"guahan": "w-guam",
+"guam": "w-guam",
+"guamu": "w-guam",
+"guam—insidetheline": "w-mandate_ex_guam",
+"guangzhouwan": "w-guangzhouwan",
+"hawaii": "w-hawaii",
+"heunggong": "w-hongkong",
+"hito": "w-philippines",
+"hoangsa": "w-paracel",
+"hongkong": "w-hongkong",
+"honkon": "w-hongkong",
+"howland": "w-uspacific",
+"ikaiei": "w-weihaiwei",
+"includingburma": "w-britishindia",
+"islands": "w-cocos",
+"japaneseoccupied": "w-nanjinggov",
+"japaneseoccupiedchina": "w-nanjinggov",
+"jarvis&swains": "w-uspacific",
+"jehol": "w-jehol",
+"kangrigenjudi": "w-ccp",
+"kapuluanngkalayaan": "w-spratly",
+"karikal": "w-pondicherry",
+"kedah": "w-malaya_thai",
+"keeling": "w-cocos",
+"kelantan": "w-malaya_thai",
+"kelantan&trengganu": "w-malaya_thai",
+"kengtungandthetranssalweenshanstates": "w-saharat",
+"kepulauanpenyu": "w-turtle",
+"kingmanreef": "w-uspacific",
+"kitaboruneo": "w-northborneo",
+"koshuwan": "w-guangzhouwan",
+"kouangtcheouwan": "w-guangzhouwan",
+"kwangchowan": "w-guangzhouwan",
+"lanchang": "w-cededthai",
+"lanka": "w-ceylon",
+"macao": "w-macau",
+"mahe": "w-pondicherry",
+"makao": "w-macau",
+"makira": "w-solomons_allied",
+"malaita": "w-malaita",
+"man": "manchuria",
+"manchukuo": "w-manchukuo",
+"manchuria": "manchuria",
+"mangsee": "w-turtle",
+"manshukoku": "w-manchukuo",
+"mengchiang": "w-mengjiang",
+"mengjiang": "w-mengjiang",
+"miangas": "w-miangas",
+"mokojichiho": "w-mengjiang",
+"mongolianpeoplesrepublic": "w-mongolia",
+"myanma": "w-burma",
+"naoero": "w-nauru_au",
+"nationalistgovernment": "w-freechina",
+"nauru": "w-nauru_au",
+"nauru—themandateboundary": "w-mandate_br",
+"nederlandschindie": "w-dei",
+"nederlandsnieuwguinea": "w-dutchng_free",
+"nekka": "w-jehol",
+"nen": "w-solomons_allied",
+"nepal": "w-nepal",
+"netherlandseastindies": "w-dei",
+"neverfullyoccupied": "w-malaita",
+"niugini": "w-newguinea_au",
+"northborneo": "w-northborneo",
+"oumun": "w-macau",
+"outermongolia": "w-mongolia",
+"outsidethemandate": "w-mandate_ex_guam",
+"pacifiedareas": "w-nca_pacified",
+"palmas": "w-miangas",
+"palmyra": "w-uspacific",
+"papua": "w-papua_free",
+"papua&theterritoryofnewguinea": "w-newguinea_au",
+"papua—theunoccupiedsouth": "w-papua_free",
+"paracelislands": "w-paracel",
+"perlis": "w-malaya_thai",
+"phibunsongkhram": "w-cededthai",
+"philippineislands": "w-philippines",
+"phratabong": "w-cededthai",
+"pilipinas": "w-philippines",
+"portugueseindia—goa": "w-goa",
+"portuguesetimor": "w-timor_pt",
+"pratasisland": "w-pratas",
+"prathetthai": "w-thailand",
+"princelystates": "w-princelystates",
+"pulukokos": "w-cocos",
+"qisxa": "w-attukiska",
+"rehe": "w-jehol",
+"rehesheng": "w-jehol",
+"republicofchina": "china",
+"saharatthaidoem": "w-saharat",
+"sarawak": "w-sarawak",
+"sarawaku": "w-sarawak",
+"sayam": "w-siam",
+"seisagunto": "w-paracel",
+"shinjang": "w-xinjiang",
+"shinkyo": "w-xinjiang",
+"shinnangunto": "w-spratly",
+"siam": "w-siam",
+"sikkim": "w-sikkim",
+"singapura": "w-malaya",
+"sinkiang": "w-xinjiang",
+"solomonislands": "w-solomons_br",
+"sovietunion": "w-ussr",
+"spratlyislands": "w-spratly",
+"sssr": "w-ussr",
+"suien": "w-suiyuan",
+"suiyuan": "w-suiyuan",
+"tanahmelayu": "w-malaya",
+"tannutuva": "w-tuva",
+"terengganu": "w-malaya_thai",
+"territoryofnewguinea—themandateboundary": "w-mandate_au",
+"thailand": "w-thailand",
+"thethreeeasternprovinces": "manchuria",
+"tibet": "w-tibet",
+"timorportugues": "w-timor_pt",
+"tokelau&thenortherncookislands": "w-nzpacific",
+"tosato": "w-pratas",
+"truongsa": "w-spratly",
+"tulagi": "w-tulagi",
+"tulagiandthefloridaislands": "w-tulagi",
+"tungaru": "w-gilberts",
+"turtle&mangseeislands": "w-turtle",
+"tuvanpeoplesrepublic": "w-tuva",
+"unangamtanangin": "w-aleutians",
+"unpacifiedareas": "w-nca_unpacified",
+"ussr": "w-ussr",
+"wake": "w-wake",
+"wakeisland": "w-wake",
+"weihai": "w-weihaiwei",
+"weihaiwei": "w-weihaiwei",
+"xinjiang": "w-xinjiang",
+"yanaon": "w-pondicherry",
+"zhonghuaminguo": "china",
+"đongduongthuocphap": "w-indochina",
+"бүгднаирамдахмонголардулс": "w-mongolia",
+"ссср": "w-ussr",
+"тывааратреспублик": "w-tuva",
+"شىنجاڭ": "w-xinjiang",
+"नेपाल": "w-nepal",
+"ලංකාව": "w-ceylon",
+"ประเทศไทย": "w-thailand",
+"สยาม": "w-siam",
+"สหรัฐไทยเดิม": "w-saharat",
+"བད་": "w-tibet",
+"འབྲག་ཡལ": "w-bhutan",
+"འབྲས་ལྗངས": "w-sikkim",
+"မြနမာ": "w-burma",
+"アッツ島・キスカ島": "w-attukiska",
+"カタルカナル島": "w-guadalcanal_i",
+"キルハート諸島": "w-gilberts",
+"クアム": "w-guam",
+"サラワク": "w-sarawak",
+"ソロモン諸島": "w-solomons_br",
+"ソロモン諸島中部・東部・サンタクルース諸島": "w-solomons_allied",
+"チヘット": "w-tibet",
+"ツラキ・フロリタ諸島": "w-tulagi",
+"ナウル": "w-nauru_au",
+"ニューキニア": "w-newguinea_au",
+"ハフア南部": "w-papua_free",
+"フルネイ": "w-brunei",
+"マカオ": "w-macau",
+"マライタ島": "w-malaita",
+"マレー北部四": "w-malaya_thai",
+"ミアンカス島": "w-miangas",
+"不丹": "w-bhutan",
+"中共抗日根據地": "w-ccp",
+"中国共産党抗日根拠地": "w-ccp",
+"中華民国": "china",
+"中華民国・重慶政権": "w-freechina",
+"争奪中": "w-guadalcanal_i",
+"仏印": "w-indochina",
+"割讓予泰国之地": "w-cededthai",
+"北ホルネオ": "w-northborneo",
+"北婆羅洲": "w-northborneo",
+"南沙群島": "w-spratly",
+"吉爾伯特群島": "w-gilberts",
+"唐努圖瓦": "w-tuva",
+"圖拉吉・仏羅里達群島": "w-tulagi",
+"夏威夷": "w-hawaii",
+"大略": "w-nanjinggov",
+"威海衛": "w-weihaiwei",
+"安達曼・ニコハル諸島": "w-andaman",
+"安達曼・尼科巴群島": "w-andaman",
+"察哈爾": "w-chahar",
+"尼泊爾": "w-nepal",
+"巴布亞南部": "w-papua_free",
+"広州湾": "w-guangzhouwan",
+"所羅門群島": "w-solomons_br",
+"所羅門群島中部・東部・聖克魯斯群島": "w-solomons_allied",
+"抗日根據地": "w-ccp",
+"新南群島": "w-spratly",
+"新幾內亞": "w-newguinea_au",
+"新疆": "w-xinjiang",
+"日本占領地区": "w-nanjinggov",
+"日軍佔領區": "w-nanjinggov",
+"未治安地区": "w-nca_unpacified",
+"未治安地區": "w-nca_unpacified",
+"東三": "manchuria",
+"東沙島": "w-pratas",
+"比島": "w-philippines",
+"汶萊": "w-brunei",
+"治安地区": "w-nca_pacified",
+"治安地區": "w-nca_pacified",
+"法屬印度支那": "w-indochina",
+"泰国への割譲地": "w-cededthai",
+"満洲": "manchuria",
+"満洲国": "w-manchukuo",
+"澳大利亞": "w-australia",
+"澳門": "w-macau",
+"熱河": "w-jehol",
+"爭奪中": "w-guadalcanal_i",
+"瓜達爾卡納爾島": "w-guadalcanal_i",
+"砂拉越": "w-sarawak",
+"綏遠": "w-suiyuan",
+"緬甸": "w-burma",
+"英屬婆羅洲": "w-borneo_br",
+"英領馬来": "w-malaya",
+"荷屬新幾內亞南部": "w-dutchng_free",
+"菲律賓": "w-philippines",
+"蒙古人民共和国": "w-mongolia",
+"蒙古自治邦": "w-mengjiang",
+"蘇聯": "w-ussr",
+"蘭領ニューキニア南部": "w-dutchng_free",
+"西沙群島": "w-paracel",
+"西蔵": "w-tibet",
+"諾魯": "w-nauru_au",
+"重慶国民政": "w-freechina",
+"錫蘭": "w-ceylon",
+"錫金": "w-sikkim",
+"関島": "w-guam",
+"阿圖島・基斯卡島": "w-attukiska",
+"阿留申群島": "w-aleutians",
+"香港": "w-hongkong",
+"馬来亞・新加坡": "w-malaya",
+"馬来北部四邦": "w-malaya_thai",
+"馬萊塔島": "w-malaita"
+},
+"islands": {
+"agrihan": "si-Agrihan",
+"agurihan": "si-Agrihan",
+"anatahan": "si-Anatahan",
+"angaur": "si-Angaur",
+"angaurisland": "si-Angaur",
+"babeldaob": "si-Babeldaob",
+"babelthaup": "si-Babeldaob",
+"babelthuap": "si-Babeldaob",
+"baberudaobu": "si-Babeldaob",
+"bikini": "si-Bikini",
+"ebon": "si-Ebon",
+"enewetak": "si-Enewetak",
+"eniwetok": "si-Enewetak",
+"haruisland": "si-Weno",
+"harushima": "si-Weno",
+"jaluit": "si-Jaluit",
+"kwajalein": "si-Kwajalein",
+"luta": "si-Rota",
+"majuro": "si-Majuro",
+"moen": "si-Weno",
+"moenisland": "si-Weno",
+"pagan": "si-Pagan",
+"palau": "si-Babeldaob",
+"pelelew": "si-Peleliu",
+"peleliu": "si-Peleliu",
+"peririyu": "si-Peleliu",
+"rota": "si-Rota",
+"saipan": "si-Saipan",
+"saipanisland": "si-Saipan",
+"tenian": "si-Tinian",
+"tinian": "si-Tinian",
+"truk": "si-Weno",
+"weno": "si-Weno",
+"wotje": "si-Wotje",
+"yaruto": "si-Jaluit",
+"アクリハン": "si-Agrihan",
+"アナタハン": "si-Anatahan",
+"アンカウル": "si-Angaur",
+"ウォッセ": "si-Wotje",
+"エホン": "si-Ebon",
+"クェセリン": "si-Kwajalein",
+"サイハン": "si-Saipan",
+"サイハン島": "si-Saipan",
+"テニアン": "si-Tinian",
+"ハカン": "si-Pagan",
+"ハヘルタオフ": "si-Babeldaob",
+"ハヘルトアフ": "si-Babeldaob",
+"フラウン": "si-Enewetak",
+"ヘリリュー": "si-Peleliu",
+"マシュロ": "si-Majuro",
+"ヤルート": "si-Jaluit",
+"ロタ": "si-Rota",
+"埃內韋塔克": "si-Enewetak",
+"埃邦": "si-Ebon",
+"塞班": "si-Saipan",
+"天寧": "si-Tinian",
+"安加爾": "si-Angaur",
+"巴貝爾道布": "si-Babeldaob",
+"帕甘": "si-Pagan",
+"春島": "si-Weno",
+"比基尼": "si-Bikini",
+"沃杰": "si-Wotje",
+"瓜加林": "si-Kwajalein",
+"羅塔": "si-Rota",
+"貝里琉": "si-Peleliu",
+"賈盧伊特": "si-Jaluit",
+"阿格里漢": "si-Agrihan",
+"阿納塔漢": "si-Anatahan",
+"馬久羅": "si-Majuro"
+},
+"korea": {
+"cheju": "kr-Saishu",
+"chollabukto": "kr-Zenrahoku",
+"chollanam": "kr-Zenranan",
+"chungchongbukto": "kr-Chuseihoku",
+"chungchongnam": "kr-Chuseinan",
+"chuseihoku": "kr-Chuseihoku",
+"chuseinan": "kr-Chuseinan",
+"chuseinorth": "kr-Chuseihoku",
+"chuseisouth": "kr-Chuseinan",
+"hamgyongbukto": "kr-Kankyohoku",
+"hamgyongnam": "kr-Kankyonan",
+"heianhoku": "kr-Heianhoku",
+"heiannan": "kr-Heiannan",
+"heiannorth": "kr-Heianhoku",
+"heiansouth": "kr-Heiannan",
+"hwanghae": "kr-Kokai",
+"kangwon": "kr-Kogen",
+"kankyohoku": "kr-Kankyohoku",
+"kankyonan": "kr-Kankyonan",
+"kankyonorth": "kr-Kankyohoku",
+"kankyosouth": "kr-Kankyonan",
+"keianhoku": "kr-Heianhoku",
+"keiannan": "kr-Heiannan",
+"keiannorth": "kr-Heianhoku",
+"keiansouth": "kr-Heiannan",
+"keiki": "kr-Keiki",
+"keishohoku": "kr-Keishohoku",
+"keishonan": "kr-Keishonan",
+"keishonorth": "kr-Keishohoku",
+"keishosouth": "kr-Keishonan",
+"kogen": "kr-Kogen",
+"kokai": "kr-Kokai",
+"kyonggi": "kr-Keiki",
+"kyongsangbukto": "kr-Keishohoku",
+"kyongsangnam": "kr-Keishonan",
+"n.chusei": "kr-Chuseihoku",
+"n.heian": "kr-Heianhoku",
+"n.kankyo": "kr-Kankyohoku",
+"n.kei": "kr-Keishohoku",
+"n.keian": "kr-Heianhoku",
+"n.zenra": "kr-Zenrahoku",
+"northchusei": "kr-Chuseihoku",
+"northheian": "kr-Heianhoku",
+"northkankyo": "kr-Kankyohoku",
+"northkei": "kr-Keishohoku",
+"northkeian": "kr-Heianhoku",
+"northzenra": "kr-Zenrahoku",
+"pyonganbukto": "kr-Heianhoku",
+"pyongannam": "kr-Heiannan",
+"s.chusei": "kr-Chuseinan",
+"s.heian": "kr-Heiannan",
+"s.kankyo": "kr-Kankyonan",
+"s.kei": "kr-Keishonan",
+"s.keian": "kr-Heiannan",
+"s.zenra": "kr-Zenranan",
+"saishuto": "kr-Saishu",
+"southchusei": "kr-Chuseinan",
+"southheian": "kr-Heiannan",
+"southkankyo": "kr-Kankyonan",
+"southkei": "kr-Keishonan",
+"southkeian": "kr-Heiannan",
+"southzenra": "kr-Zenranan",
+"zenrahoku": "kr-Zenrahoku",
+"zenranan": "kr-Zenranan",
+"zenranorth": "kr-Zenrahoku",
+"zenrasouth": "kr-Zenranan",
+"강원도": "kr-Kogen",
+"경기도": "kr-Keiki",
+"경상남도": "kr-Keishonan",
+"경상북도": "kr-Keishohoku",
+"전라남도": "kr-Zenranan",
+"전라북도": "kr-Zenrahoku",
+"제주도": "kr-Saishu",
+"충청남도": "kr-Chuseinan",
+"충청북도": "kr-Chuseihoku",
+"평안남도": "kr-Heiannan",
+"평안북도": "kr-Heianhoku",
+"함경남도": "kr-Kankyonan",
+"함경북도": "kr-Kankyohoku",
+"황해도": "kr-Kokai",
+"京畿": "kr-Keiki",
+"全羅北": "kr-Zenrahoku",
+"全羅南": "kr-Zenranan",
+"咸鏡北": "kr-Kankyohoku",
+"咸鏡南": "kr-Kankyonan",
+"平安北": "kr-Heianhoku",
+"平安南": "kr-Heiannan",
+"忠清北": "kr-Chuseihoku",
+"忠清南": "kr-Chuseinan",
+"慶尚北": "kr-Keishohoku",
+"慶尚南": "kr-Keishonan",
+"江原": "kr-Kogen",
+"済州島": "kr-Saishu",
+"黃海": "kr-Kokai",
+"黄海": "kr-Kokai"
+},
+"manchukuo": {
+"andong": "mk-AnTung",
+"anto": "mk-AnTung",
+"antung": "mk-AnTung",
+"binjiang": "mk-PinKiang",
+"chientao": "mk-ChienTao",
+"chinchow": "mk-Chinchow",
+"easthsingan": "mk-HsingAnTung",
+"fengtian": "mk-FengTien",
+"fengtien": "mk-FengTien",
+"heihe": "mk-Heiho",
+"heiho": "mk-Heiho",
+"hinko": "mk-PinKiang",
+"hoten": "mk-FengTien",
+"hsingan,east": "mk-HsingAnTung",
+"hsingan,north": "mk-HsingAnPeh",
+"hsingan,south": "mk-HsingAnNan",
+"hsingan,west": "mk-HsingAnSi",
+"hsingane": "mk-HsingAnTung",
+"hsinganeast": "mk-HsingAnTung",
+"hsingann": "mk-HsingAnPeh",
+"hsingannorth": "mk-HsingAnPeh",
+"hsingans": "mk-HsingAnNan",
+"hsingansouth": "mk-HsingAnNan",
+"hsinganw": "mk-HsingAnSi",
+"hsinganwest": "mk-HsingAnSi",
+"jehol": "mk-JeHol",
+"jiandao": "mk-ChienTao",
+"jilin": "mk-Kirin",
+"jinzhou": "mk-Chinchow",
+"kanto": "mk-ChienTao",
+"kin": "mk-Chinchow",
+"kirin": "mk-Kirin",
+"koanhoku": "mk-HsingAnPeh",
+"koannan": "mk-HsingAnNan",
+"koansei": "mk-HsingAnSi",
+"koanto": "mk-HsingAnTung",
+"kokka": "mk-Heiho",
+"longjiang": "mk-Lungkiang",
+"lungkiang": "mk-Lungkiang",
+"nekka": "mk-JeHol",
+"northhsingan": "mk-HsingAnPeh",
+"pinkiang": "mk-PinKiang",
+"rehe": "mk-JeHol",
+"ryuko": "mk-Lungkiang",
+"sanjiang": "mk-Sankiang",
+"sankiang": "mk-Sankiang",
+"sanko": "mk-Sankiang",
+"southhsingan": "mk-HsingAnNan",
+"westhsingan": "mk-HsingAnSi",
+"xinganbei": "mk-HsingAnPeh",
+"xingandong": "mk-HsingAnTung",
+"xingannan": "mk-HsingAnNan",
+"xinganxi": "mk-HsingAnSi",
+"三江": "mk-Sankiang",
+"吉林": "mk-Kirin",
+"奉天": "mk-FengTien",
+"安東": "mk-AnTung",
+"浜江": "mk-PinKiang",
+"熱河": "mk-JeHol",
+"竜江": "mk-Lungkiang",
+"興安北": "mk-HsingAnPeh",
+"興安南": "mk-HsingAnNan",
+"興安東": "mk-HsingAnTung",
+"興安西": "mk-HsingAnSi",
+"間島": "mk-ChienTao",
+"黒河": "mk-Heiho"
+},
+"mandate": {
+"chuuk": "ss-Chuuk",
+"jaluit": "ss-Marshalls",
+"jaluitisland": "ss-Marshalls",
+"kosrae": "ss-Kosrae",
+"kusaie": "ss-Kosrae",
+"marianaislands": "ss-Marianas",
+"marianashoto": "ss-Marianas",
+"marshallislands": "ss-Marshalls",
+"masharushoto": "ss-Marshalls",
+"palau": "ss-Palau",
+"parao": "ss-Palau",
+"pohnpei": "ss-Pohnpei",
+"ponape": "ss-Pohnpei",
+"saipan": "ss-Marianas",
+"torakku": "ss-Chuuk",
+"truk": "ss-Chuuk",
+"yap": "ss-Yap",
+"yappu": "ss-Yap",
+"クサイ": "ss-Kosrae",
+"クサイエ": "ss-Kosrae",
+"サイハン": "ss-Marianas",
+"トラック": "ss-Chuuk",
+"トラツク": "ss-Chuuk",
+"ハラオ": "ss-Palau",
+"ホナヘ": "ss-Pohnpei",
+"マリアナ諸島": "ss-Marianas",
+"マーシャル諸島": "ss-Marshalls",
+"ヤッフ": "ss-Yap",
+"ヤツフ": "ss-Yap",
+"ヤルト": "ss-Marshalls",
+"ヤルート": "ss-Marshalls",
+"ヤルート島": "ss-Marshalls",
+"塞班": "ss-Marianas"
+},
+"pref": {
+"aichi": "jp23",
+"akia": "jp05",
+"akita": "jp05",
+"aomori": "jp02",
+"awomori": "jp02",
+"chiba": "jp12",
+"chosen": "korea",
+"chosen(korea)": "korea",
+"ehime": "jp38",
+"formosa": "taiwan",
+"fukui": "jp18",
+"fukuoka": "jp40",
+"fukushima": "jp07",
+"fukuwoka": "jp40",
+"gifu": "jp21",
+"gumba": "jp10",
+"gumma": "jp10",
+"gunma": "jp10",
+"hiogo": "jp28",
+"hiroshima": "jp34",
+"hirosima": "jp34",
+"hokkaido": "jp01",
+"hukuoka": "jp40",
+"hyogo": "jp28",
+"ibaragi": "jp08",
+"ibaraki": "jp08",
+"ishikawa": "jp17",
+"itaraki": "jp08",
+"iwate": "jp03",
+"japanesesaghalien": "karafuto",
+"kagawa": "jp37",
+"kagoshima": "jp46",
+"kagosima": "jp46",
+"kanagawa": "jp14",
+"kantoshu": "kwantung",
+"karafuto": "karafuto",
+"kioto": "jp26",
+"kochi": "jp39",
+"korea": "korea",
+"koti": "jp39",
+"kumamoto": "jp43",
+"kwantung": "kwantung",
+"kwantungleasedterritory": "kwantung",
+"kwantungprovince": "kwantung",
+"kyoto": "jp26",
+"mie": "jp24",
+"miyagi": "jp04",
+"miyazaki": "jp45",
+"miye": "jp24",
+"nagano": "jp20",
+"nagasaki": "jp42",
+"nara": "jp29",
+"nigata": "jp15",
+"niigata": "jp15",
+"nugata": "jp15",
+"ohita": "jp44",
+"ohoita": "jp44",
+"ohosaka": "jp27",
+"oita": "jp44",
+"okayama": "jp33",
+"okinawa": "jp47",
+"osaka": "jp27",
+"saga": "jp41",
+"saghalien": "karafuto",
+"saikyo": "jp26",
+"saitama": "jp11",
+"sakhalin(japanese)": "karafuto",
+"shidzuoka": "jp22",
+"shiga": "jp25",
+"shimane": "jp32",
+"shizuoka": "jp22",
+"sidzuoka": "jp22",
+"siga": "jp25",
+"simane": "jp32",
+"southseaislands": "nanyo",
+"southseasislands": "nanyo",
+"southseasislands(nan'yo)": "nanyo",
+"taiwan": "taiwan",
+"taiwan-sotokufu": "taiwan",
+"tochigi": "jp09",
+"tochiki": "jp09",
+"tokio": "jp13",
+"tokushima": "jp36",
+"tokusima": "jp36",
+"tokyo": "jp13",
+"totigi": "jp09",
+"tottori": "jp31",
+"toyama": "jp16",
+"wakayama": "jp30",
+"yamagata": "jp06",
+"yamaguchi": "jp35",
+"yamaguti": "jp35",
+"yamanashi": "jp19",
+"yamanasi": "jp19",
+"yehime": "jp38",
+"三重": "jp24",
+"京": "jp26",
+"佐賀": "jp41",
+"兵庫": "jp28",
+"北海": "jp01",
+"千葉": "jp12",
+"南洋": "nanyo",
+"南洋群島": "nanyo",
+"台湾": "taiwan",
+"台湾総督": "taiwan",
+"台湾總督": "taiwan",
+"和歌山": "jp30",
+"埼玉": "jp11",
+"大分": "jp44",
+"大阪": "jp27",
+"奈良": "jp29",
+"宮城": "jp04",
+"宮崎": "jp45",
+"富山": "jp16",
+"山口": "jp35",
+"山形": "jp06",
+"山梨": "jp19",
+"岐阜": "jp21",
+"岡山": "jp33",
+"岩手": "jp03",
+"島根": "jp32",
+"広島": "jp34",
+"徳島": "jp36",
+"愛媛": "jp38",
+"愛知": "jp23",
+"新潟": "jp15",
+"朝鮮": "korea",
+"朝鮮總督": "korea",
+"東京": "jp13",
+"栃木": "jp09",
+"樺太": "karafuto",
+"沖縄": "jp47",
+"滋賀": "jp25",
+"熊本": "jp43",
+"石川": "jp17",
+"神奈川": "jp14",
+"福井": "jp18",
+"福岡": "jp40",
+"福島": "jp07",
+"秋田": "jp05",
+"群馬": "jp10",
+"茨城": "jp08",
+"長崎": "jp42",
+"長野": "jp20",
+"関東州": "kwantung",
+"関東州及満鉄附属地": "kwantung",
+"関東州及滿鐵附屬地": "kwantung",
+"関東州及鉄道附属地": "kwantung",
+"関東州及鐵道附屬地": "kwantung",
+"青森": "jp02",
+"静岡": "jp22",
+"香川": "jp37",
+"高知": "jp39",
+"鳥取": "jp31",
+"鹿児島": "jp46"
+},
+"regions": {
+"chubu": "r-chubu",
+"chugo": "r-chugoku",
+"hokkai": "r-hokkaido",
+"hokuri": "r-hokuriku",
+"kansai": "r-kansai",
+"kanto": "r-kanto",
+"kinai": "r-kinai",
+"kinki": "r-kinki",
+"kyushu": "r-kyushu",
+"nankai": "r-nankai",
+"ou": "r-tohoku",
+"saikai": "r-saikai",
+"san-in": "r-sanin",
+"san-yo": "r-sanyo",
+"sanin": "r-sanin",
+"sanyo": "r-sanyo",
+"shiko": "r-shikoku",
+"toho": "r-tohoku",
+"tokai": "r-tokai",
+"tosan": "r-tosan",
+"中": "r-chubu",
+"中国": "r-chugoku",
+"九州": "r-kyushu",
+"北海": "r-hokkaido",
+"北陸": "r-hokuriku",
+"南海": "r-nankai",
+"四国": "r-shikoku",
+"奥羽": "r-tohoku",
+"山陰": "r-sanin",
+"山陽": "r-sanyo",
+"東北": "r-tohoku",
+"東山": "r-tosan",
+"東海": "r-tokai",
+"畿內": "r-kinai",
+"畿内": "r-kinai",
+"西海": "r-saikai",
+"近畿": "r-kinki",
+"関東": "r-kanto",
+"関西": "r-kansai"
+},
+"taiwan-gun": {
+"beidou": "tw-TwHokuto",
+"beidou-jun": "tw-TwHokuto",
+"beigang": "tw-TwHokuko",
+"beigang-jun": "tw-TwHokuko",
+"beimen": "tw-TwHokumon",
+"beimen-jun": "tw-TwHokumon",
+"bunzan": "tw-TwBunzan",
+"bunzan-gun": "tw-TwBunzan",
+"byoritsu": "tw-TwByoritsu",
+"byoritsu-gun": "tw-TwByoritsu",
+"changhua": "tw-TwShoka",
+"chaozhou": "tw-TwChoshu",
+"chaozhou-jun": "tw-TwChoshu",
+"chiayi": "tw-TwKagi",
+"chikunan": "tw-TwChikunan",
+"chikunan-gun": "tw-TwChikunan",
+"chikuto": "tw-TwChikuto",
+"chikuto-gun": "tw-TwChikuto",
+"choshu": "tw-TwChoshu",
+"choshu-gun": "tw-TwChoshu",
+"chureki": "tw-TwChureki",
+"chureki-gun": "tw-TwChureki",
+"dahu": "tw-TwTaiko",
+"dahu-jun": "tw-TwTaiko",
+"daikei": "tw-TwDaikei",
+"daikei-gun": "tw-TwDaikei",
+"daiton": "tw-TwDaiton",
+"daiton-gun": "tw-TwDaiton",
+"dajia": "tw-TwTaikou",
+"dajia-jun": "tw-TwTaikou",
+"danshui": "tw-TwTansui",
+"danshui-jun": "tw-TwTansui",
+"datun": "tw-TwDaiton",
+"datun-jun": "tw-TwDaiton",
+"daxi": "tw-TwDaikei",
+"daxi-jun": "tw-TwDaikei",
+"dong": "tw-TwTosei",
+"donggang": "tw-TwToko",
+"donggang-jun": "tw-TwToko",
+"dongshi": "tw-TwTosei",
+"dongshi-jun": "tw-TwTosei",
+"douliu": "tw-TwToroku",
+"douliu-jun": "tw-TwToroku",
+"fengshan": "tw-TwHozan",
+"fengshan-jun": "tw-TwHozan",
+"fengyuan": "tw-TwToyohara",
+"fengyuan-jun": "tw-TwToyohara",
+"gangshan": "tw-TwOkayama",
+"gangshan-jun": "tw-TwOkayama",
+"gaoxiong": "tw-TwTakaoShi",
+"giran": "tw-TwGiran",
+"giran-gun": "tw-TwGiran",
+"haishan": "tw-TwKaizan",
+"haishan-jun": "tw-TwKaizan",
+"heito": "tw-TwHeito",
+"heito-gun": "tw-TwHeito",
+"hengchun": "tw-TwKoshun",
+"hengchun-jun": "tw-TwKoshun",
+"hokuko": "tw-TwHokuko",
+"hokuko-gun": "tw-TwHokuko",
+"hokumon": "tw-TwHokumon",
+"hokumon-gun": "tw-TwHokumon",
+"hokuto": "tw-TwHokuto",
+"hokuto-gun": "tw-TwHokuto",
+"hozan": "tw-TwHozan",
+"hozan-gun": "tw-TwHozan",
+"hsinchu": "tw-TwShinchiku",
+"huwei": "tw-TwKobi",
+"huwei-jun": "tw-TwKobi",
+"inrin": "tw-TwInrin",
+"inrin-gun": "tw-TwInrin",
+"jiayi": "tw-TwKagi",
+"jiayi-jun": "tw-TwKagi",
+"jilong": "tw-TwKirun",
+"jilong-jun": "tw-TwKirun",
+"kagi": "tw-TwKagiShi",
+"kagi-gun": "tw-TwKagi",
+"kaizan": "tw-TwKaizan",
+"kaizan-gun": "tw-TwKaizan",
+"kaohsiung": "tw-TwTakaoShi",
+"keelung": "tw-TwKirun",
+"kirun": "tw-TwKirunShi",
+"kirun-gun": "tw-TwKirun",
+"kizan": "tw-TwKizan",
+"kizan-gun": "tw-TwKizan",
+"kobi": "tw-TwKobi",
+"kobi-gun": "tw-TwKobi",
+"koshun": "tw-TwKoshun",
+"koshun-gun": "tw-TwKoshun",
+"luodong": "tw-TwRato",
+"luodong-jun": "tw-TwRato",
+"miaoli": "tw-TwByoritsu",
+"miaoli-jun": "tw-TwByoritsu",
+"nanto": "tw-TwNanto",
+"nanto-gun": "tw-TwNanto",
+"nantou": "tw-TwNanto",
+"nantou-jun": "tw-TwNanto",
+"nenggao": "tw-TwNoko",
+"nenggao-jun": "tw-TwNoko",
+"niitaka": "tw-TwNiitaka",
+"niitaka-gun": "tw-TwNiitaka",
+"niitoyo": "tw-TwNiitoyo",
+"niitoyo-gun": "tw-TwNiitoyo",
+"noko": "tw-TwNoko",
+"noko-gun": "tw-TwNoko",
+"okayama": "tw-TwOkayama",
+"okayama-gun": "tw-TwOkayama",
+"pingdong": "tw-TwHeito",
+"pingdong-jun": "tw-TwHeito",
+"pingtung": "tw-TwHeito",
+"qishan": "tw-TwKizan",
+"qishan-jun": "tw-TwKizan",
+"qixing": "tw-TwShichisei",
+"qixing-jun": "tw-TwShichisei",
+"rato": "tw-TwRato",
+"rato-gun": "tw-TwRato",
+"shichisei": "tw-TwShichisei",
+"shichisei-gun": "tw-TwShichisei",
+"shin'ei": "tw-TwShinei",
+"shin'ei-gun": "tw-TwShinei",
+"shinchiku": "tw-TwShinchikuShi",
+"shinchiku-gun": "tw-TwShinchiku",
+"shinka": "tw-TwShinka",
+"shinka-gun": "tw-TwShinka",
+"shinsho": "tw-TwShinsho",
+"shinsho-gun": "tw-TwShinsho",
+"shoka": "tw-TwShoka",
+"shoka-gun": "tw-TwShoka",
+"sobun": "tw-TwSobun",
+"sobun-gun": "tw-TwSobun",
+"suo": "tw-TwSuo",
+"suo-gun": "tw-TwSuo",
+"su’ao": "tw-TwSuo",
+"su’ao-jun": "tw-TwSuo",
+"taibei": "tw-TwTaihoku",
+"taichu": "tw-TwTaichu",
+"taichung": "tw-TwTaichu",
+"taihoku": "tw-TwTaihoku",
+"taiko": "tw-TwTaiko",
+"taiko-gun": "tw-TwTaiko",
+"tainan": "tw-TwTainan",
+"taipei": "tw-TwTaihoku",
+"taizhong": "tw-TwTaichu",
+"takao": "tw-TwTakaoShi",
+"takeyama": "tw-TwTakeyama",
+"takeyama-gun": "tw-TwTakeyama",
+"tamsui": "tw-TwTansui",
+"tansui": "tw-TwTansui",
+"tansui-gun": "tw-TwTansui",
+"taoyuan": "tw-TwToen",
+"taoyuan-jun": "tw-TwToen",
+"toen": "tw-TwToen",
+"toen-gun": "tw-TwToen",
+"toko": "tw-TwToko",
+"toko-gun": "tw-TwToko",
+"toroku": "tw-TwToroku",
+"toroku-gun": "tw-TwToroku",
+"tosei": "tw-TwTosei",
+"tosei-gun": "tw-TwTosei",
+"toseki": "tw-TwToseki",
+"toseki-gun": "tw-TwToseki",
+"toyohara": "tw-TwToyohara",
+"toyohara-gun": "tw-TwToyohara",
+"wenshan": "tw-TwBunzan",
+"wenshan-jun": "tw-TwBunzan",
+"xinfeng": "tw-TwNiitoyo",
+"xinfeng-jun": "tw-TwNiitoyo",
+"xingao": "tw-TwNiitaka",
+"xingao-jun": "tw-TwNiitaka",
+"xinhua": "tw-TwShinka",
+"xinhua-jun": "tw-TwShinka",
+"xinying": "tw-TwShinei",
+"xinying-jun": "tw-TwShinei",
+"xinzhu": "tw-TwShinchiku",
+"xinzhu-jun": "tw-TwShinchiku",
+"xinzhuang": "tw-TwShinsho",
+"xinzhuang-jun": "tw-TwShinsho",
+"yilan": "tw-TwGiran",
+"yilan-jun": "tw-TwGiran",
+"yuanlin": "tw-TwInrin",
+"yuanlin-jun": "tw-TwInrin",
+"zengwen": "tw-TwSobun",
+"zengwen-jun": "tw-TwSobun",
+"zhanghua": "tw-TwShoka",
+"zhanghua-jun": "tw-TwShoka",
+"zhongli": "tw-TwChureki",
+"zhongli-jun": "tw-TwChureki",
+"zhudong": "tw-TwChikuto",
+"zhudong-jun": "tw-TwChikuto",
+"zhunan": "tw-TwChikunan",
+"zhunan-jun": "tw-TwChikunan",
+"zhushan": "tw-TwTakeyama",
+"zhushan-jun": "tw-TwTakeyama",
+"七星": "tw-TwShichisei",
+"七星郡": "tw-TwShichisei",
+"中壢": "tw-TwChureki",
+"中壢郡": "tw-TwChureki",
+"北斗": "tw-TwHokuto",
+"北斗郡": "tw-TwHokuto",
+"北港": "tw-TwHokuko",
+"北港郡": "tw-TwHokuko",
+"北門": "tw-TwHokumon",
+"北門郡": "tw-TwHokumon",
+"南投": "tw-TwNanto",
+"南投郡": "tw-TwNanto",
+"台中": "tw-TwTaichu",
+"台北": "tw-TwTaihoku",
+"台南": "tw-TwTainan",
+"員林": "tw-TwInrin",
+"員林郡": "tw-TwInrin",
+"嘉義": "tw-TwKagiShi",
+"嘉義郡": "tw-TwKagi",
+"基隆": "tw-TwKirunShi",
+"基隆郡": "tw-TwKirun",
+"大屯": "tw-TwDaiton",
+"大屯郡": "tw-TwDaiton",
+"大湖": "tw-TwTaiko",
+"大湖郡": "tw-TwTaiko",
+"大溪": "tw-TwDaikei",
+"大溪郡": "tw-TwDaikei",
+"大甲": "tw-TwTaikou",
+"大甲郡": "tw-TwTaikou",
+"宜蘭": "tw-TwGiran",
+"宜蘭郡": "tw-TwGiran",
+"屏東": "tw-TwHeito",
+"屏東郡": "tw-TwHeito",
+"岡山": "tw-TwOkayama",
+"岡山郡": "tw-TwOkayama",
+"彰化": "tw-TwShoka",
+"彰化郡": "tw-TwShoka",
+"恆春": "tw-TwKoshun",
+"恆春郡": "tw-TwKoshun",
+"文山": "tw-TwBunzan",
+"文山郡": "tw-TwBunzan",
+"斗六": "tw-TwToroku",
+"斗六郡": "tw-TwToroku",
+"新化": "tw-TwShinka",
+"新化郡": "tw-TwShinka",
+"新営": "tw-TwShinei",
+"新営郡": "tw-TwShinei",
+"新竹": "tw-TwShinchikuShi",
+"新竹郡": "tw-TwShinchiku",
+"新荘": "tw-TwShinsho",
+"新荘郡": "tw-TwShinsho",
+"新豊": "tw-TwNiitoyo",
+"新豊郡": "tw-TwNiitoyo",
+"新高": "tw-TwNiitaka",
+"新高郡": "tw-TwNiitaka",
+"旗山": "tw-TwKizan",
+"旗山郡": "tw-TwKizan",
+"曾文": "tw-TwSobun",
+"曾文郡": "tw-TwSobun",
+"東勢": "tw-TwTosei",
+"東勢郡": "tw-TwTosei",
+"東港": "tw-TwToko",
+"東港郡": "tw-TwToko",
+"東石": "tw-TwToseki",
+"東石郡": "tw-TwToseki",
+"桃園": "tw-TwToen",
+"桃園郡": "tw-TwToen",
+"海山": "tw-TwKaizan",
+"海山郡": "tw-TwKaizan",
+"淡水": "tw-TwTansui",
+"淡水郡": "tw-TwTansui",
+"潮州": "tw-TwChoshu",
+"潮州郡": "tw-TwChoshu",
+"竹南": "tw-TwChikunan",
+"竹南郡": "tw-TwChikunan",
+"竹山": "tw-TwTakeyama",
+"竹山郡": "tw-TwTakeyama",
+"竹東": "tw-TwChikuto",
+"竹東郡": "tw-TwChikuto",
+"羅東": "tw-TwRato",
+"羅東郡": "tw-TwRato",
+"能高": "tw-TwNoko",
+"能高郡": "tw-TwNoko",
+"苗栗": "tw-TwByoritsu",
+"苗栗郡": "tw-TwByoritsu",
+"蘇澳": "tw-TwSuo",
+"蘇澳郡": "tw-TwSuo",
+"虎尾": "tw-TwKobi",
+"虎尾郡": "tw-TwKobi",
+"豊原": "tw-TwToyohara",
+"豊原郡": "tw-TwToyohara",
+"高雄": "tw-TwTakaoShi",
+"鳳山": "tw-TwHozan",
+"鳳山郡": "tw-TwHozan"
+},
+"taiwan-shu": {
+"gaoxiong": "tw-TwShuTakao",
+"gaoxiongzhou": "tw-TwShuTakao",
+"hoko": "tw-TwHoko",
+"hsinchu": "tw-TwShuShinchiku",
+"hualiangang": "tw-TwShuKarenko",
+"hualiangangting": "tw-TwShuKarenko",
+"hualien": "tw-TwShuKarenko",
+"kaohsiung": "tw-TwShuTakao",
+"karenko": "tw-TwShuKarenko",
+"penghu": "tw-TwHoko",
+"penghuting": "tw-TwHoko",
+"shinchiku": "tw-TwShuShinchiku",
+"taibei": "tw-TwShuTaihoku",
+"taibeizhou": "tw-TwShuTaihoku",
+"taichu": "tw-TwShuTaichu",
+"taichung": "tw-TwShuTaichu",
+"taidong": "tw-TwTaito",
+"taidongting": "tw-TwTaito",
+"taihoku": "tw-TwShuTaihoku",
+"tainan": "tw-TwShuTainan",
+"tainanzhou": "tw-TwShuTainan",
+"taipei": "tw-TwShuTaihoku",
+"taito": "tw-TwTaito",
+"taitung": "tw-TwTaito",
+"taizhong": "tw-TwShuTaichu",
+"taizhongzhou": "tw-TwShuTaichu",
+"takao": "tw-TwShuTakao",
+"thepescadores": "tw-TwHoko",
+"xinzhu": "tw-TwShuShinchiku",
+"xinzhuzhou": "tw-TwShuShinchiku",
+"台中": "tw-TwShuTaichu",
+"台北": "tw-TwShuTaihoku",
+"台南": "tw-TwShuTainan",
+"台東": "tw-TwTaito",
+"新竹": "tw-TwShuShinchiku",
+"澎湖": "tw-TwHoko",
+"花蓮港": "tw-TwShuKarenko",
+"高雄": "tw-TwShuTakao"
+},
+"top": {
+"america": "w-us",
+"americans": "w-us",
+"argentina": "w-argentina",
+"argentine": "w-argentina",
+"argentinerepublic": "w-argentina",
+"austria": "w-austria",
+"austria-hungary": "w-austria",
+"austriahungary": "w-austria",
+"belgium": "w-belgium",
+"brazil": "w-brazil",
+"britain": "w-uk",
+"britishempire": "w-britishempire",
+"canada": "w-canada",
+"chile": "w-chile",
+"china": "china",
+"china(republic": "china",
+"china(republic)": "china",
+"chinaproper": "chinaproper",
+"chinesearea": "shanghai-cn",
+"chinesecity": "shanghai-cn",
+"chineseempire": "china",
+"chinesemunicipality": "shanghai-cn",
+"chineserepublic": "china",
+"chineserepublic(total": "china",
+"chineserepublic(total)": "china",
+"chineseterritory(shanghai": "shanghai-cn",
+"chineseterritory(shanghai)": "shanghai-cn",
+"chosen": "korea",
+"chosen(korea": "korea",
+"chosen(korea)": "korea",
+"corea": "korea",
+"czecho-slovakia": "w-czech",
+"czechoslovakia": "w-czech",
+"denmark": "w-denmark",
+"dominionofcanada": "w-canada",
+"egypt": "w-egypt",
+"eighteenprovinces": "chinaproper",
+"empire": "empire",
+"empireofjapan": "empire",
+"england": "w-uk",
+"englandandwales": "w-uk",
+"foreignsettlement": "shanghai-is",
+"formosa": "taiwan",
+"formosa(taiwan": "taiwan",
+"formosa(taiwan)": "taiwan",
+"france": "w-france",
+"frenchconcession": "shanghai-fc",
+"frenchconcession(shanghai": "shanghai-fc",
+"frenchconcession(shanghai)": "shanghai-fc",
+"frenchrepublic": "w-france",
+"frenchsettlement": "shanghai-fc",
+"germanempire": "w-germany",
+"germany": "w-germany",
+"greatbritain": "w-uk",
+"greatbritainandireland": "w-uk",
+"greatershanghai": "shanghai-cn",
+"greece": "w-greece",
+"holland": "w-netherlands",
+"hungary": "w-hungary",
+"interiorprovinces": "chinaproper",
+"internationalsettlement": "shanghai-is",
+"internationalsettlement(shanghai": "shanghai-is",
+"internationalsettlement(shanghai)": "shanghai-is",
+"iran": "w-persia",
+"italy": "w-italy",
+"japan": "japan",
+"japan(incl.colonies": "empire",
+"japan(incl.colonies)": "empire",
+"japan(proper": "japan",
+"japan(proper)": "japan",
+"japanandcolonies": "empire",
+"japanempire": "empire",
+"japaneseempire": "empire",
+"japanesemandatedislands": "nanyo",
+"japanesesaghalien": "karafuto",
+"japanproper": "japan",
+"kanto": "kwantung",
+"kantoshu": "kwantung",
+"karafuto": "karafuto",
+"karafuto(saghalien": "karafuto",
+"karafuto(saghalien)": "karafuto",
+"karafuto(southsakhalin": "karafuto",
+"karafuto(southsakhalin)": "karafuto",
+"kiaochow": "kiaochow",
+"kiaochowleasedterritory": "kiaochow",
+"kiaochowterritory": "kiaochow",
+"kiautschou": "kiaochow",
+"korea": "korea",
+"korea(chosen": "korea",
+"korea(chosen)": "korea",
+"kwantung": "kwantung",
+"kwantungleasedterritory": "kwantung",
+"kwantungleasedterritory(kanto": "kwantung",
+"kwantungleasedterritory(kantoshu)": "kwantung",
+"kwantungpeninsula": "kwantung",
+"kwantungprovince": "kwantung",
+"kwantungterritory": "kwantung",
+"leasedterritory": "kwantung",
+"manchou-kuo": "manchuria",
+"manchoukuo": "manchuria",
+"manchoukuo(manchuria": "manchuria",
+"manchoukuo(manchuria)": "manchuria",
+"manchukuo": "manchuria",
+"manchuria": "manchuria",
+"manchuria(threeeasternprovinces": "manchuria",
+"manchuria(threeeasternprovinces)": "manchuria",
+"manchuria/manchukuo": "manchuria",
+"mandatedislands": "nanyo",
+"mexico": "w-mexico",
+"naichi": "japan",
+"nan'yo": "nanyo",
+"nan'yogunto": "nanyo",
+"nanyo": "nanyo",
+"nanyogunto": "nanyo",
+"netherlands": "w-netherlands",
+"newzealand": "w-newzealand",
+"nippon": "japan",
+"north-eastchina": "manchuria",
+"northeastchina": "manchuria",
+"norway": "w-norway",
+"oldjapan": "japan",
+"othercountries": "world",
+"ottomanempire": "w-turkey",
+"persia": "w-persia",
+"peru": "w-peru",
+"poland": "w-poland",
+"portugal": "w-portugal",
+"railwayarea": "smr",
+"railwayzone": "smr",
+"republicofchina": "china",
+"russia": "w-russia",
+"russiainasia": "w-russia",
+"russianempire": "w-russia",
+"s.m.r.zone": "smr",
+"saghalien": "karafuto",
+"sakhalin": "karafuto",
+"shanghai(chinesecity": "shanghai-cn",
+"shanghai(chinesecity)": "shanghai-cn",
+"shanghaifrenchconcession": "shanghai-fc",
+"shanghaiinternationalsettlement": "shanghai-is",
+"shanghaisettlement": "shanghai-is",
+"shanghaispecialmunicipality": "shanghai-cn",
+"siberia": "w-russia",
+"smrzone": "smr",
+"southafrica": "w-southafrica",
+"southmanchuriarailwayarea": "smr",
+"southmanchuriarailwayzone": "smr",
+"southsaghalien": "karafuto",
+"southseaislands": "nanyo",
+"southseaislandsunderjapanesemandate": "nanyo",
+"southseas": "nanyo",
+"southseasislands": "nanyo",
+"southseasmandate": "nanyo",
+"spain": "w-spain",
+"sweden": "w-sweden",
+"switzerland": "w-switzerland",
+"taiwan": "taiwan",
+"taiwan(formosa": "taiwan",
+"taiwan(formosa)": "taiwan",
+"threeeasternprovinces": "manchuria",
+"totalworld": "world",
+"tsingtaoleasedterritory": "kiaochow",
+"turkey": "w-turkey",
+"tyosen": "korea",
+"u.k": "w-uk",
+"u.s": "w-us",
+"u.s.a": "w-us",
+"unionofsouthafrica": "w-southafrica",
+"unitedkingdom": "w-uk",
+"unitedstates": "w-us",
+"unitedstates(withalaska": "w-us",
+"unitedstates(withalaska)": "w-us",
+"unitedstatesofamerica": "w-us",
+"usa": "w-us",
+"wholeempire": "empire",
+"world": "world",
+"worldtotal": "world",
+"アルセンチン": "w-argentina",
+"オランタ": "w-netherlands",
+"カナタ": "w-canada",
+"チェコスロウァキア": "w-czech",
+"チェッコスロウァキア": "w-czech",
+"トイツ": "w-germany",
+"ニューシーラント": "w-newzealand",
+"フラシル": "w-brazil",
+"ヘルー": "w-peru",
+"メキシコ": "w-mexico",
+"ロシア": "w-russia",
+"丁抹": "w-denmark",
+"上海仏租界": "shanghai-fc",
+"上海公共租界": "shanghai-is",
+"上海共同租界": "shanghai-is",
+"上海法租界": "shanghai-fc",
+"上海華界": "shanghai-cn",
+"世界": "world",
+"中国": "china",
+"中国本部": "chinaproper",
+"中華民国": "china",
+"亞爾然丁": "w-argentina",
+"亞米利加": "w-us",
+"仏国": "w-france",
+"仏租界": "shanghai-fc",
+"仏蘭西": "w-france",
+"伊国": "w-italy",
+"伊太利": "w-italy",
+"伯剌西爾": "w-brazil",
+"伯国": "w-brazil",
+"內地": "japan",
+"全": "korea",
+"全国": "japan",
+"全島": "taiwan",
+"全満": "manchuria",
+"全鮮": "korea",
+"公共租界": "shanghai-is",
+"共同租界": "shanghai-is",
+"内地": "japan",
+"加奈陀": "w-canada",
+"北米合衆国": "w-us",
+"南洋": "nanyo",
+"南洋群島": "nanyo",
+"南阿": "w-southafrica",
+"南阿聯邦": "w-southafrica",
+"台湾": "taiwan",
+"合衆国": "w-us",
+"和蘭": "w-netherlands",
+"土耳古": "w-turkey",
+"埃及": "w-egypt",
+"墨西哥": "w-mexico",
+"墺国": "w-austria",
+"墺太利": "w-austria",
+"大日本帝国": "empire",
+"大英帝国": "w-britishempire",
+"希臘": "w-greece",
+"帝国": "empire",
+"徳国": "w-germany",
+"支那": "china",
+"支那本部": "chinaproper",
+"新西蘭": "w-newzealand",
+"日本": "japan",
+"日本內地": "japan",
+"日本内地": "japan",
+"日本帝国": "empire",
+"智利": "w-chile",
+"朝鮮": "korea",
+"本邦": "japan",
+"本部": "chinaproper",
+"東三": "manchuria",
+"東三省": "manchuria",
+"東北": "manchuria",
+"樺太": "karafuto",
+"法租界": "shanghai-fc",
+"波斯": "w-persia",
+"波蘭": "w-poland",
+"洪牙利": "w-hungary",
+"清国": "china",
+"満洲": "manchuria",
+"満洲国": "manchuria",
+"満鉄附属地": "smr",
+"満鉄附屬地": "smr",
+"独逸": "w-germany",
+"獨逸": "w-germany",
+"瑞典": "w-sweden",
+"瑞西": "w-switzerland",
+"白耳義": "w-belgium",
+"秘露": "w-peru",
+"米国": "w-us",
+"膠": "kiaochow",
+"膠州": "kiaochow",
+"膠州湾": "kiaochow",
+"英吉利": "w-uk",
+"英国": "w-uk",
+"華界": "shanghai-cn",
+"葡萄牙": "w-portugal",
+"蘭国": "w-netherlands",
+"西比利亞": "w-russia",
+"西班牙": "w-spain",
+"諾威": "w-norway",
+"関東": "kwantung",
+"関東州": "kwantung",
+"附属地": "smr",
+"附屬地": "smr",
+"露国": "w-russia",
+"露西亜": "w-russia",
+"露西亞": "w-russia",
+"韓国": "korea"
+}
+},
+"places": {
+"c-agana": {
+"en": "Agana",
+"ja": "アガナ",
+"k": "city",
+"up": "w-guam"
+},
+"c-agra": {
+"en": "Agra",
+"ja": "",
+"k": "city",
+"up": "w-britishindia"
+},
+"c-ahmedabad": {
+"en": "Ahmedabad",
+"ja": "",
+"k": "city",
+"up": "w-britishindia"
+},
+"c-aizuwakamatsu": {
+"en": "Wakamatsu",
+"ja": "若松",
+"k": "city",
+"up": "japan"
+},
+"c-akashi": {
+"en": "Akashi",
+"ja": "明石",
+"k": "city",
+"up": "japan"
+},
+"c-akita": {
+"en": "Akita",
+"ja": "秋田",
+"k": "city",
+"up": "japan"
+},
+"c-akyab": {
+"en": "Akyab",
+"ja": "",
+"k": "city",
+"up": "w-britishindia"
+},
+"c-aleksandrovsk": {
+"en": "Aleksandrovsk-Sakhalinsky",
+"ja": "アレクサンドロフスク・サハリンスキー",
+"k": "city",
+"up": "w-ussr"
+},
+"c-allahabad": {
+"en": "Allahabad",
+"ja": "",
+"k": "city",
+"up": "w-britishindia"
+},
+"c-alorsetar": {
+"en": "Alor Setar",
+"ja": "الور ستار",
+"k": "city",
+"up": "world"
+},
+"c-amagasaki": {
+"en": "Amagasaki",
+"ja": "尼崎",
+"k": "city",
+"up": "japan"
+},
+"c-amarapura": {
+"en": "Amarapura",
+"ja": "",
+"k": "city",
+"up": "w-britishindia"
+},
+"c-ambon": {
+"en": "Ambon",
+"ja": "アンボン",
+"k": "city",
+"up": "w-dei"
+},
+"c-amritsar": {
+"en": "Amritsar",
+"ja": "アムリットサル",
+"k": "city",
+"up": "w-britishindia"
+},
+"c-angeles": {
+"en": "Angeles",
+"ja": "Angeles",
+"k": "city",
+"up": "w-philippines"
+},
+"c-anqing": {
+"en": "Ānqìng",
+"ja": "安慶",
+"k": "city",
+"up": "china"
+},
+"c-anshan": {
+"en": "Anzan",
+"ja": "鞍山",
+"k": "city",
+"up": "manchuria"
+},
+"c-anyang": {
+"en": "Ānyáng",
+"ja": "安陽",
+"k": "city",
+"up": "china"
+},
+"c-aomori": {
+"en": "Aomori",
+"ja": "青森",
+"k": "city",
+"up": "japan"
+},
+"c-aparri": {
+"en": "Aparri",
+"ja": "Aparri",
+"k": "city",
+"up": "w-philippines"
+},
+"c-apia": {
+"en": "Apia",
+"ja": "Apia",
+"k": "city",
+"up": "world"
+},
+"c-asahikawa": {
+"en": "Asahikawa",
+"ja": "旭川",
+"k": "city",
+"up": "japan"
+},
+"c-ashikaga": {
+"en": "Ashikaga",
+"ja": "足利",
+"k": "city",
+"up": "japan"
+},
+"c-atambua": {
+"en": "Atamboea",
+"ja": "",
+"k": "city",
+"up": "w-dei"
+},
+"c-atami": {
+"en": "Atami",
+"ja": "熱海",
+"k": "city",
+"up": "japan"
+},
+"c-ava": {
+"en": "Ava",
+"ja": "",
+"k": "city",
+"up": "w-britishindia"
+},
+"c-ayutthaya": {
+"en": "Ayutthaya",
+"ja": "พระนครศรีอยุธยา",
+"k": "city",
+"up": "w-siam"
+},
+"c-babo": {
+"en": "Babo",
+"ja": "",
+"k": "city",
+"up": "w-dei"
+},
+"c-bacolod": {
+"en": "Bacolod",
+"ja": "Bacolod",
+"k": "city",
+"up": "w-philippines"
+},
+"c-baguio": {
+"en": "Baguio",
+"ja": "バギオ",
+"k": "city",
+"up": "w-philippines"
+},
+"c-balikpapan": {
+"en": "Balikpapan",
+"ja": "バリクパパン",
+"k": "city",
+"up": "w-dei"
+},
+"c-bandaaceh": {
+"en": "Kutaraja",
+"ja": "Koetaradja",
+"k": "city",
+"up": "w-dei"
+},
+"c-bandaneira": {
+"en": "Banda Neira",
+"ja": "",
+"k": "city",
+"up": "w-dei"
+},
+"c-bandjermasin": {
+"en": "Bandjermasin",
+"ja": "バンジェルマシン",
+"k": "city",
+"up": "w-dei"
+},
+"c-bandung": {
+"en": "Bandung",
+"ja": "バンドン",
+"k": "city",
+"up": "w-dei"
+},
+"c-bangalore": {
+"en": "Bangalore",
+"ja": "",
+"k": "city",
+"up": "w-britishindia"
+},
+"c-bangka": {
+"en": "Muntok",
+"ja": "Moentok",
+"k": "city",
+"up": "w-dei"
+},
+"c-bangkok": {
+"en": "Bangkok",
+"ja": "",
+"k": "city",
+"up": "w-siam"
+},
+"c-baoji": {
+"en": "Bǎojī",
+"ja": "宝鶏",
+"k": "city",
+"up": "china"
+},
+"c-baotou": {
+"en": "Hōtō",
+"ja": "包頭",
+"k": "city",
+"up": "china"
+},
+"c-baroda": {
+"en": "Baroda",
+"ja": "વડોદરા",
+"k": "city",
+"up": "w-britishindia"
+},
+"c-bassein": {
+"en": "Bassein",
+"ja": "ပုသိမ်",
+"k": "city",
+"up": "w-britishindia"
+},
+"c-batavia": {
+"en": "Batavia",
+"ja": "ジャカルタ",
+"k": "city",
+"up": "w-dei"
+},
+"c-battambang": {
+"en": "Battambang",
+"ja": "បាត់ដំបង",
+"k": "city",
+"up": "w-indochina"
+},
+"c-beihai": {
+"en": "Pakhoi",
+"ja": "北海",
+"k": "city",
+"up": "china"
+},
+"c-beijing": {
+"en": "Běijīng",
+"ja": "北京",
+"k": "city",
+"up": "china"
+},
+"c-beipu": {
+"en": "Hoppo",
+"ja": "北埔",
+"k": "city",
+"up": "taiwan"
+},
+"c-benares": {
+"en": "Benares",
+"ja": "",
+"k": "city",
+"up": "w-britishindia"
+},
+"c-bengbu": {
+"en": "Bèngbù",
+"ja": "蚌埠",
+"k": "city",
+"up": "china"
+},
+"c-bengkulu": {
+"en": "Benkoelen",
+"ja": "Benkoelen",
+"k": "city",
+"up": "w-dei"
+},
+"c-benxi": {
+"en": "Běnxī",
+"ja": "本渓",
+"k": "city",
+"up": "manchuria"
+},
+"c-betio": {
+"en": "Betio",
+"ja": "タラワ (Tarawa)",
+"k": "city",
+"up": "world"
+},
+"c-bhamo": {
+"en": "Bhamo",
+"ja": "ဗန်းမော်",
+"k": "city",
+"up": "w-britishindia"
+},
+"c-bhopal": {
+"en": "Bhopal",
+"ja": "भोपाल",
+"k": "city",
+"up": "w-britishindia"
+},
+"c-bima": {
+"en": "Bima",
+"ja": "",
+"k": "city",
+"up": "w-dei"
+},
+"c-blagoveshchensk": {
+"en": "Blagoveshchensk",
+"ja": "ブラゴヴェシチェンスク",
+"k": "city",
+"up": "w-ussr"
+},
+"c-bombay": {
+"en": "Bombay",
+"ja": "",
+"k": "city",
+"up": "w-britishindia"
+},
+"c-bovendigoel": {
+"en": "Boven Digoel",
+"ja": "",
+"k": "city",
+"up": "w-dei"
+},
+"c-brisbane": {
+"en": "Brisbane",
+"ja": "Brisbane",
+"k": "city",
+"up": "w-australia"
+},
+"c-broome": {
+"en": "Broome",
+"ja": "Broome",
+"k": "city",
+"up": "w-australia"
+},
+"c-brunei": {
+"en": "Brunei Town",
+"ja": "ブルネイ",
+"k": "city",
+"up": "world"
+},
+"c-buin": {
+"en": "Buin",
+"ja": "Buin",
+"k": "city",
+"up": "world"
+},
+"c-buitenzorg": {
+"en": "Buitenzorg",
+"ja": "ボイテンゾルグ",
+"k": "city",
+"up": "w-dei"
+},
+"c-cabanatuan": {
+"en": "Cabanatuan",
+"ja": "Cabanatuan",
+"k": "city",
+"up": "w-philippines"
+},
+"c-cagayandeoro": {
+"en": "Cagayan de Misamis",
+"ja": "Cagayan de Misamis",
+"k": "city",
+"up": "w-philippines"
+},
+"c-calcutta": {
+"en": "Calcutta",
+"ja": "",
+"k": "city",
+"up": "w-britishindia"
+},
+"c-camranh": {
+"en": "Cam Ranh",
+"ja": "金蘭 (Cam Ranh)",
+"k": "city",
+"up": "w-indochina"
+},
+"c-canberra": {
+"en": "Canberra",
+"ja": "Canberra",
+"k": "city",
+"up": "w-australia"
+},
+"c-capas": {
+"en": "Capas",
+"ja": "Capas",
+"k": "city",
+"up": "w-philippines"
+},
+"c-cawnpore": {
+"en": "Cawnpore",
+"ja": "",
+"k": "city",
+"up": "w-britishindia"
+},
+"c-cebu": {
+"en": "Cebu",
+"ja": "セブ",
+"k": "city",
+"up": "w-philippines"
+},
+"c-chamdo": {
+"en": "Chamdo",
+"ja": "昌都",
+"k": "city",
+"up": "w-tibet"
+},
+"c-changchun": {
+"en": "Chángchūn",
+"ja": "新京",
+"k": "city",
+"up": "manchuria"
+},
+"c-changde": {
+"en": "Chángdé",
+"ja": "常徳",
+"k": "city",
+"up": "china"
+},
+"c-changhua": {
+"en": "Shōka",
+"ja": "彰化",
+"k": "city",
+"up": "taiwan"
+},
+"c-changsha": {
+"en": "Chángshā",
+"ja": "長沙",
+"k": "city",
+"up": "china"
+},
+"c-chaoyang": {
+"en": "Chōyō",
+"ja": "朝陽",
+"k": "city",
+"up": "china"
+},
+"c-chauk": {
+"en": "Chauk",
+"ja": "",
+"k": "city",
+"up": "w-britishindia"
+},
+"c-checheng": {
+"en": "Shajō",
+"ja": "車城",
+"k": "city",
+"up": "taiwan"
+},
+"c-chengde": {
+"en": "Chéngdé",
+"ja": "承徳",
+"k": "city",
+"up": "manchuria"
+},
+"c-chengdu": {
+"en": "Chéngdū",
+"ja": "成都",
+"k": "city",
+"up": "china"
+},
+"c-cheribon": {
+"en": "Cheribon",
+"ja": "チレボン",
+"k": "city",
+"up": "w-dei"
+},
+"c-chiangmai": {
+"en": "Chiang Mai",
+"ja": "",
+"k": "city",
+"up": "w-siam"
+},
+"c-chiayi": {
+"en": "Kagi",
+"ja": "嘉義",
+"k": "city",
+"up": "taiwan"
+},
+"c-chiba": {
+"en": "Chiba",
+"ja": "千葉",
+"k": "city",
+"up": "japan"
+},
+"c-chichijima": {
+"en": "Futami",
+"ja": "父島",
+"k": "city",
+"up": "world"
+},
+"c-chifeng": {
+"en": "Chifeng",
+"ja": "赤峰",
+"k": "city",
+"up": "china"
+},
+"c-chinju": {
+"en": "Shinshū",
+"ja": "晋州",
+"k": "city",
+"up": "korea"
+},
+"c-chita": {
+"en": "Chita",
+"ja": "Чита",
+"k": "city",
+"up": "w-ussr"
+},
+"c-chittagong": {
+"en": "Chittagong",
+"ja": "",
+"k": "city",
+"up": "w-britishindia"
+},
+"c-choibalsan": {
+"en": "Choibalsan",
+"ja": "Чойбалсан",
+"k": "city",
+"up": "w-mongolia"
+},
+"c-cholon": {
+"en": "Cholon",
+"ja": "堤岸 (Chợ Lớn)",
+"k": "city",
+"up": "w-indochina"
+},
+"c-chongjin": {
+"en": "Seishin",
+"ja": "清津",
+"k": "city",
+"up": "korea"
+},
+"c-chongju": {
+"en": "Seishū",
+"ja": "清州",
+"k": "city",
+"up": "korea"
+},
+"c-chongqing": {
+"en": "Chóngqìng",
+"ja": "重慶",
+"k": "city",
+"up": "china"
+},
+"c-chonju": {
+"en": "Zenshū",
+"ja": "全州",
+"k": "city",
+"up": "korea"
+},
+"c-choshi": {
+"en": "Chōshi",
+"ja": "銚子",
+"k": "city",
+"up": "japan"
+},
+"c-chunchon": {
+"en": "Shunsen",
+"ja": "春川",
+"k": "city",
+"up": "korea"
+},
+"c-cilacap": {
+"en": "Tjilatjap",
+"ja": "Tjilatjap",
+"k": "city",
+"up": "w-dei"
+},
+"c-cochin": {
+"en": "Cochin",
+"ja": "",
+"k": "city",
+"up": "w-britishindia"
+},
+"c-colombo": {
+"en": "Colombo",
+"ja": "",
+"k": "city",
+"up": "w-ceylon"
+},
+"c-cuttack": {
+"en": "Cuttack",
+"ja": "କଟକ",
+"k": "city",
+"up": "w-britishindia"
+},
+"c-dacca": {
+"en": "Dacca",
+"ja": "",
+"k": "city",
+"up": "w-britishindia"
+},
+"c-dadonggou": {
+"en": "Dàdōnggōu",
+"ja": "大東溝",
+"k": "city",
+"up": "china"
+},
+"c-dairen": {
+"en": "Dàlián",
+"ja": "大連",
+"k": "city",
+"up": "kwantung"
+},
+"c-dalat": {
+"en": "Dalat",
+"ja": "大叻 (Đà Lạt)",
+"k": "city",
+"up": "w-indochina"
+},
+"c-dali": {
+"en": "Dàlǐ",
+"ja": "大理",
+"k": "city",
+"up": "china"
+},
+"c-danang": {
+"en": "Tourane",
+"ja": "沱㶞 (Tourane)",
+"k": "city",
+"up": "w-indochina"
+},
+"c-dandong": {
+"en": "Antō",
+"ja": "安東",
+"k": "city",
+"up": "china"
+},
+"c-daru": {
+"en": "Daru",
+"ja": "",
+"k": "city",
+"up": "world"
+},
+"c-darwin": {
+"en": "Darwin",
+"ja": "ダーウィン",
+"k": "city",
+"up": "w-australia"
+},
+"c-datong": {
+"en": "Daidō",
+"ja": "大同",
+"k": "city",
+"up": "china"
+},
+"c-davao": {
+"en": "Davao",
+"ja": "ダバオ",
+"k": "city",
+"up": "w-philippines"
+},
+"c-daxi": {
+"en": "Daikei",
+"ja": "大溪",
+"k": "city",
+"up": "taiwan"
+},
+"c-delhi": {
+"en": "Delhi & New Delhi",
+"ja": "",
+"k": "city",
+"up": "w-britishindia"
+},
+"c-denpasar": {
+"en": "Denpasar",
+"ja": "Denpasar",
+"k": "city",
+"up": "w-dei"
+},
+"c-digboi": {
+"en": "Digboi",
+"ja": "ডিগবয়",
+"k": "city",
+"up": "w-britishindia"
+},
+"c-dili": {
+"en": "Dili",
+"ja": "ディリ",
+"k": "city",
+"up": "world"
+},
+"c-dublon": {
+"en": "Dublon",
+"ja": "夏島 (Natsushima)",
+"k": "city",
+"up": "nanyo"
+},
+"c-duolun": {
+"en": "Dolonnor",
+"ja": "多倫諾爾鎮",
+"k": "city",
+"up": "china"
+},
+"c-ende": {
+"en": "Ende",
+"ja": "",
+"k": "city",
+"up": "w-dei"
+},
+"c-enshi": {
+"en": "Ēnshī",
+"ja": "恩施",
+"k": "city",
+"up": "china"
+},
+"c-esutoru": {
+"en": "Esutoru",
+"ja": "惠須取",
+"k": "city",
+"up": "karafuto"
+},
+"c-etajima": {
+"en": "Etajima",
+"ja": "江田島",
+"k": "city",
+"up": "japan"
+},
+"c-fangliao": {
+"en": "Hōryō",
+"ja": "枋寮",
+"k": "city",
+"up": "taiwan"
+},
+"c-fukuchiyama": {
+"en": "Fukuchiyama",
+"ja": "福知山",
+"k": "city",
+"up": "japan"
+},
+"c-fukui": {
+"en": "Fukui",
+"ja": "福井",
+"k": "city",
+"up": "japan"
+},
+"c-fukuoka": {
+"en": "Fukuoka",
+"ja": "福岡",
+"k": "city",
+"up": "japan"
+},
+"c-fukushima": {
+"en": "Fukushima",
+"ja": "福島",
+"k": "city",
+"up": "japan"
+},
+"c-fukuyama": {
+"en": "Fukuyama",
+"ja": "福山",
+"k": "city",
+"up": "japan"
+},
+"c-fuse": {
+"en": "Fuse",
+"ja": "布施",
+"k": "city",
+"up": "japan"
+},
+"c-fushimi": {
+"en": "Fushimi",
+"ja": "伏見",
+"k": "city",
+"up": "japan"
+},
+"c-fushun": {
+"en": "Bujun",
+"ja": "撫順",
+"k": "city",
+"up": "manchuria"
+},
+"c-fuxin": {
+"en": "Fùxīn",
+"ja": "阜新",
+"k": "city",
+"up": "manchuria"
+},
+"c-fuzhou": {
+"en": "Fúzhōu",
+"ja": "福州",
+"k": "city",
+"up": "china"
+},
+"c-gangtok": {
+"en": "Gangtok",
+"ja": "གངས་ཏོག",
+"k": "city",
+"up": "world"
+},
+"c-ganzhou": {
+"en": "Gànzhōu",
+"ja": "贛州",
+"k": "city",
+"up": "china"
+},
+"c-garapan": {
+"en": "Garapan",
+"ja": "ガラパン (Garapan)",
+"k": "city",
+"up": "nanyo"
+},
+"c-gartok": {
+"en": "Gartok",
+"ja": "噶爾",
+"k": "city",
+"up": "w-tibet"
+},
+"c-gifu": {
+"en": "Gifu",
+"ja": "岐阜",
+"k": "city",
+"up": "japan"
+},
+"c-gongzhuling": {
+"en": "Gōngzhǔlǐng",
+"ja": "公主嶺",
+"k": "city",
+"up": "china"
+},
+"c-gorontalo": {
+"en": "Gorontalo",
+"ja": "",
+"k": "city",
+"up": "w-dei"
+},
+"c-guangzhou": {
+"en": "Guǎngzhōu",
+"ja": "広州",
+"k": "city",
+"up": "china"
+},
+"c-guilin": {
+"en": "Guìlín",
+"ja": "桂林",
+"k": "city",
+"up": "china"
+},
+"c-guiyang": {
+"en": "Guìyáng",
+"ja": "貴陽",
+"k": "city",
+"up": "china"
+},
+"c-gwalior": {
+"en": "Gwalior",
+"ja": "ग्वालियर",
+"k": "city",
+"up": "w-britishindia"
+},
+"c-gyantse": {
+"en": "Gyantse",
+"ja": "རྒྱལ་རྩེ།",
+"k": "city",
+"up": "w-tibet"
+},
+"c-hachinohe": {
+"en": "Hachinohe",
+"ja": "八戶",
+"k": "city",
+"up": "japan"
+},
+"c-hachioji": {
+"en": "Hachiōji",
+"ja": "八王子",
+"k": "city",
+"up": "japan"
+},
+"c-haeju": {
+"en": "Kaishū",
+"ja": "海州",
+"k": "city",
+"up": "korea"
+},
+"c-haikou": {
+"en": "Haikou",
+"ja": "海口",
+"k": "city",
+"up": "china"
+},
+"c-hailar": {
+"en": "Hailar",
+"ja": "海拉爾",
+"k": "city",
+"up": "manchuria"
+},
+"c-haiphong": {
+"en": "Haiphong",
+"ja": "ハイフォン",
+"k": "city",
+"up": "w-indochina"
+},
+"c-hakodate": {
+"en": "Hakodate",
+"ja": "函館",
+"k": "city",
+"up": "japan"
+},
+"c-hamamatsu": {
+"en": "Hamamatsu",
+"ja": "濱松",
+"k": "city",
+"up": "japan"
+},
+"c-hamhung": {
+"en": "Kankō",
+"ja": "咸興",
+"k": "city",
+"up": "korea"
+},
+"c-hami": {
+"en": "Hami",
+"ja": "哈密",
+"k": "city",
+"up": "w-xinjiang"
+},
+"c-handa": {
+"en": "Handa",
+"ja": "半田",
+"k": "city",
+"up": "japan"
+},
+"c-handan": {
+"en": "Hándān",
+"ja": "邯鄲",
+"k": "city",
+"up": "china"
+},
+"c-hangzhou": {
+"en": "Hángzhōu",
+"ja": "杭州",
+"k": "city",
+"up": "china"
+},
+"c-hanoi": {
+"en": "Hanoi",
+"ja": "ハノイ",
+"k": "city",
+"up": "w-indochina"
+},
+"c-harbin": {
+"en": "Hā’ěrbīn",
+"ja": "ハルビン",
+"k": "city",
+"up": "manchuria"
+},
+"c-hefei": {
+"en": "Héféi",
+"ja": "合肥",
+"k": "city",
+"up": "china"
+},
+"c-heihe": {
+"en": "Heihe",
+"ja": "黒河",
+"k": "city",
+"up": "manchuria"
+},
+"c-hengchun": {
+"en": "Kōshun",
+"ja": "恆春",
+"k": "city",
+"up": "taiwan"
+},
+"c-hengyang": {
+"en": "Héngyáng",
+"ja": "衡陽",
+"k": "city",
+"up": "china"
+},
+"c-higashimaizuru": {
+"en": "Higashi-Maizuru",
+"ja": "東舞鶴",
+"k": "city",
+"up": "japan"
+},
+"c-hikone": {
+"en": "Hikone",
+"ja": "彦根",
+"k": "city",
+"up": "japan"
+},
+"c-himeji": {
+"en": "Himeji",
+"ja": "姬路",
+"k": "city",
+"up": "japan"
+},
+"c-hiratsuka": {
+"en": "Hiratsuka",
+"ja": "平塚",
+"k": "city",
+"up": "japan"
+},
+"c-hirosaki": {
+"en": "Hirosaki",
+"ja": "弘前",
+"k": "city",
+"up": "japan"
+},
+"c-hiroshima": {
+"en": "Hiroshima",
+"ja": "広島",
+"k": "city",
+"up": "japan"
+},
+"c-hitachi": {
+"en": "Hitachi",
+"ja": "日立",
+"k": "city",
+"up": "japan"
+},
+"c-hohhot": {
+"en": "Kōwa",
+"ja": "厚和",
+"k": "city",
+"up": "china"
+},
+"c-hohhot2": {
+"en": "Éjìnà",
+"ja": "額済納",
+"k": "city",
+"up": "china"
+},
+"c-hollandia": {
+"en": "Hollandia",
+"ja": "Hollandia",
+"k": "city",
+"up": "w-dei"
+},
+"c-hongkong": {
+"en": "Victoria, Hong Kong",
+"ja": "ヴィクトリア",
+"k": "city",
+"up": "w-hongkong"
+},
+"c-honolulu": {
+"en": "Honolulu",
+"ja": "ホノルル",
+"k": "city",
+"up": "w-hawaii"
+},
+"c-hsinchu": {
+"en": "Shinchiku",
+"ja": "新竹",
+"k": "city",
+"up": "taiwan"
+},
+"c-hualien": {
+"en": "Karenkō",
+"ja": "花蓮港",
+"k": "city",
+"up": "taiwan"
+},
+"c-hue": {
+"en": "Hue",
+"ja": "フエ",
+"k": "city",
+"up": "w-indochina"
+},
+"c-hunchun": {
+"en": "Húnchūn",
+"ja": "琿春",
+"k": "city",
+"up": "china"
+},
+"c-hungnam": {
+"en": "Kōnan",
+"ja": "興南区域",
+"k": "city",
+"up": "korea"
+},
+"c-hyderabaddn": {
+"en": "Hyderabad",
+"ja": "",
+"k": "city",
+"up": "w-britishindia"
+},
+"c-ichikawa": {
+"en": "Ichikawa",
+"ja": "市川",
+"k": "city",
+"up": "japan"
+},
+"c-ichinomiya": {
+"en": "Ichinomiya",
+"ja": "一宮",
+"k": "city",
+"up": "japan"
+},
+"c-iida": {
+"en": "Iida",
+"ja": "飯田",
+"k": "city",
+"up": "japan"
+},
+"c-iizuka": {
+"en": "Iizuka",
+"ja": "飯塚",
+"k": "city",
+"up": "japan"
+},
+"c-ikeda": {
+"en": "Ikeda",
+"ja": "池田",
+"k": "city",
+"up": "japan"
+},
+"c-iloilo": {
+"en": "Iloilo",
+"ja": "イロイロ",
+"k": "city",
+"up": "w-philippines"
+},
+"c-imabari": {
+"en": "Imabari",
+"ja": "今治",
+"k": "city",
+"up": "japan"
+},
+"c-imphalcity": {
+"en": "Imphal",
+"ja": "ইম্ফাল",
+"k": "city",
+"up": "w-britishindia"
+},
+"c-incheon": {
+"en": "Jinsen",
+"ja": "仁川",
+"k": "city",
+"up": "korea"
+},
+"c-indore": {
+"en": "Indore",
+"ja": "इंदौर",
+"k": "city",
+"up": "w-britishindia"
+},
+"c-insein": {
+"en": "Insein",
+"ja": "",
+"k": "city",
+"up": "w-britishindia"
+},
+"c-ipoh": {
+"en": "Ipoh",
+"ja": "イポー",
+"k": "city",
+"up": "w-malaya"
+},
+"c-ise": {
+"en": "Ise",
+"ja": "宇治山田",
+"k": "city",
+"up": "japan"
+},
+"c-ishinomaki": {
+"en": "Ishinomaki",
+"ja": "石卷",
+"k": "city",
+"up": "japan"
+},
+"c-jaipur": {
+"en": "Jaipur",
+"ja": "",
+"k": "city",
+"up": "w-britishindia"
+},
+"c-jaluit": {
+"en": "Jaluit",
+"ja": "ヤルート (Yarūto)",
+"k": "city",
+"up": "nanyo"
+},
+"c-jambi": {
+"en": "Jambi",
+"ja": "Djambi",
+"k": "city",
+"up": "w-dei"
+},
+"c-jamshedpur": {
+"en": "Jamshedpur",
+"ja": "जमशेदपुर",
+"k": "city",
+"up": "w-britishindia"
+},
+"c-jesselton": {
+"en": "Jesselton",
+"ja": "ジェッセルトン",
+"k": "city",
+"up": "world"
+},
+"c-jiamusi": {
+"en": "Kamusu",
+"ja": "佳木斯",
+"k": "city",
+"up": "manchuria"
+},
+"c-jiangmen": {
+"en": "Jiāngmén",
+"ja": "江門",
+"k": "city",
+"up": "china"
+},
+"c-jilincity": {
+"en": "Kirin",
+"ja": "吉林",
+"k": "city",
+"up": "china"
+},
+"c-jinan": {
+"en": "Jǐnán",
+"ja": "済南",
+"k": "city",
+"up": "china"
+},
+"c-jinzhou": {
+"en": "Kinshū",
+"ja": "錦州",
+"k": "city",
+"up": "manchuria"
+},
+"c-jiujiang": {
+"en": "Jiǔjiāng",
+"ja": "九江",
+"k": "city",
+"up": "china"
+},
+"c-jodhpur": {
+"en": "Jodhpur",
+"ja": "जोधपुर",
+"k": "city",
+"up": "w-britishindia"
+},
+"c-jogjakarta": {
+"en": "Jogjakarta",
+"ja": "ジョクジャカルタ",
+"k": "city",
+"up": "w-dei"
+},
+"c-johore": {
+"en": "Johore Bahru",
+"ja": "ジョホールバル",
+"k": "city",
+"up": "w-malaya"
+},
+"c-jolo": {
+"en": "Jolo",
+"ja": "Jolo",
+"k": "city",
+"up": "w-philippines"
+},
+"c-kabul": {
+"en": "Kabul",
+"ja": "کابل",
+"k": "city",
+"up": "world"
+},
+"c-kaesong": {
+"en": "Kaijō",
+"ja": "開城",
+"k": "city",
+"up": "korea"
+},
+"c-kagoshima": {
+"en": "Kagoshima",
+"ja": "鹿児島",
+"k": "city",
+"up": "japan"
+},
+"c-kaifeng": {
+"en": "Kāifēng",
+"ja": "開封",
+"k": "city",
+"up": "china"
+},
+"c-kainan": {
+"en": "Kainan",
+"ja": "海南",
+"k": "city",
+"up": "japan"
+},
+"c-kalgan": {
+"en": "Zhāngjiākǒu",
+"ja": "張家口",
+"k": "city",
+"up": "china"
+},
+"c-kamaishi": {
+"en": "Kamaishi",
+"ja": "釜石",
+"k": "city",
+"up": "japan"
+},
+"c-kamakura": {
+"en": "Kamakura",
+"ja": "鎌倉",
+"k": "city",
+"up": "japan"
+},
+"c-kanazawa": {
+"en": "Kanazawa",
+"ja": "金澤",
+"k": "city",
+"up": "japan"
+},
+"c-kanchanaburi": {
+"en": "Kanchanaburi",
+"ja": "กาญจนบุรี",
+"k": "city",
+"up": "w-siam"
+},
+"c-kandy": {
+"en": "Kandy",
+"ja": "මහනුවර",
+"k": "city",
+"up": "w-ceylon"
+},
+"c-kangar": {
+"en": "Kangar",
+"ja": "كاڠر",
+"k": "city",
+"up": "world"
+},
+"c-kangding": {
+"en": "Kāngdìng",
+"ja": "康定",
+"k": "city",
+"up": "china"
+},
+"c-kaohsiung": {
+"en": "Takao",
+"ja": "高雄",
+"k": "city",
+"up": "taiwan"
+},
+"c-karachi": {
+"en": "Karachi",
+"ja": "",
+"k": "city",
+"up": "w-britishindia"
+},
+"c-karatsu": {
+"en": "Karatsu",
+"ja": "唐津",
+"k": "city",
+"up": "japan"
+},
+"c-kashgar": {
+"en": "Kāshí",
+"ja": "カシュガル",
+"k": "city",
+"up": "w-xinjiang"
+},
+"c-kathmandu": {
+"en": "Kathmandu",
+"ja": "काठमाडौं",
+"k": "city",
+"up": "w-nepal"
+},
+"c-kavieng": {
+"en": "Kavieng",
+"ja": "Kavieng",
+"k": "city",
+"up": "world"
+},
+"c-kawagoe": {
+"en": "Kawagoe",
+"ja": "川越",
+"k": "city",
+"up": "japan"
+},
+"c-kawaguchi": {
+"en": "Kawaguchi",
+"ja": "川口",
+"k": "city",
+"up": "japan"
+},
+"c-kawasaki": {
+"en": "Kawasaki",
+"ja": "川崎",
+"k": "city",
+"up": "japan"
+},
+"c-keelung": {
+"en": "Kīrun",
+"ja": "基隆",
+"k": "city",
+"up": "taiwan"
+},
+"c-kendari": {
+"en": "Kendari",
+"ja": "Kendari",
+"k": "city",
+"up": "w-dei"
+},
+"c-kengtung": {
+"en": "Kengtung",
+"ja": "ကျိုင်းတုံ",
+"k": "city",
+"up": "w-britishindia"
+},
+"c-kepi": {
+"en": "Kepi",
+"ja": "",
+"k": "city",
+"up": "w-dei"
+},
+"c-khabarovsk": {
+"en": "Khabarovsk",
+"ja": "ハバロフスク",
+"k": "city",
+"up": "w-ussr"
+},
+"c-khotan": {
+"en": "Khotan",
+"ja": "和闐",
+"k": "city",
+"up": "w-xinjiang"
+},
+"c-kiryu": {
+"en": "Kiryū",
+"ja": "桐生",
+"k": "city",
+"up": "japan"
+},
+"c-kishiwada": {
+"en": "Kishiwada",
+"ja": "岸和田",
+"k": "city",
+"up": "japan"
+},
+"c-kobe": {
+"en": "Kobe",
+"ja": "神戸",
+"k": "city",
+"up": "japan"
+},
+"c-kochi": {
+"en": "Kōchi",
+"ja": "高知",
+"k": "city",
+"up": "japan"
+},
+"c-kofu": {
+"en": "Kōfu",
+"ja": "甲府",
+"k": "city",
+"up": "japan"
+},
+"c-kokura": {
+"en": "Kokura",
+"ja": "小倉",
+"k": "city",
+"up": "japan"
+},
+"c-kolonia": {
+"en": "Kolonia",
+"ja": "ポナペ (Ponape)",
+"k": "city",
+"up": "nanyo"
+},
+"c-komsomolsk": {
+"en": "Komsomolsk-on-Amur",
+"ja": "Комсомольск-на-Амуре",
+"k": "city",
+"up": "w-ussr"
+},
+"c-kongju": {
+"en": "Kōshū",
+"ja": "公州",
+"k": "city",
+"up": "korea"
+},
+"c-korat": {
+"en": "Nakhon Ratchasima",
+"ja": "นครราชสีมา",
+"k": "city",
+"up": "w-siam"
+},
+"c-koriyama": {
+"en": "Kōriyama",
+"ja": "郡山",
+"k": "city",
+"up": "japan"
+},
+"c-koror": {
+"en": "Koror",
+"ja": "コロール",
+"k": "city",
+"up": "nanyo"
+},
+"c-kotabharu_c": {
+"en": "Kota Bharu",
+"ja": "كوت بهارو",
+"k": "city",
+"up": "world"
+},
+"c-kowloon": {
+"en": "Kowloon",
+"ja": "九龍",
+"k": "city",
+"up": "w-hongkong"
+},
+"c-kualalipis": {
+"en": "Kuala Lipis",
+"ja": "كوالا ليڤيس",
+"k": "city",
+"up": "w-malaya"
+},
+"c-kualalumpur": {
+"en": "Kuala Lumpur",
+"ja": "クアラルンプール",
+"k": "city",
+"up": "w-malaya"
+},
+"c-kualaterengganu": {
+"en": "Kuala Terengganu",
+"ja": "كوالا ترڠݢانو",
+"k": "city",
+"up": "world"
+},
+"c-kuantan": {
+"en": "Kuantan",
+"ja": "كوانتن",
+"k": "city",
+"up": "w-malaya"
+},
+"c-kuching": {
+"en": "Kuching",
+"ja": "クチン",
+"k": "city",
+"up": "world"
+},
+"c-kumagaya": {
+"en": "Kumagaya",
+"ja": "熊谷",
+"k": "city",
+"up": "japan"
+},
+"c-kumamoto": {
+"en": "Kumamoto",
+"ja": "熊本",
+"k": "city",
+"up": "japan"
+},
+"c-kunming": {
+"en": "Kūnmíng",
+"ja": "昆明",
+"k": "city",
+"up": "china"
+},
+"c-kunsan": {
+"en": "Gunzan",
+"ja": "群山",
+"k": "city",
+"up": "korea"
+},
+"c-kupang": {
+"en": "Koepang",
+"ja": "クーパン",
+"k": "city",
+"up": "w-dei"
+},
+"c-kurashiki": {
+"en": "Kurashiki",
+"ja": "倉敷",
+"k": "city",
+"up": "japan"
+},
+"c-kure": {
+"en": "Kure",
+"ja": "吳",
+"k": "city",
+"up": "japan"
+},
+"c-kurume": {
+"en": "Kurume",
+"ja": "久留米",
+"k": "city",
+"up": "japan"
+},
+"c-kushiro": {
+"en": "Kushiro",
+"ja": "釧路",
+"k": "city",
+"up": "japan"
+},
+"c-kuwana": {
+"en": "Kuwana",
+"ja": "桑名",
+"k": "city",
+"up": "japan"
+},
+"c-kwangju": {
+"en": "Kōshū",
+"ja": "光州",
+"k": "city",
+"up": "korea"
+},
+"c-kyoto": {
+"en": "Kyoto",
+"ja": "京都",
+"k": "city",
+"up": "japan"
+},
+"c-kyzyl": {
+"en": "Kyzyl",
+"ja": "Кызыл",
+"k": "city",
+"up": "world"
+},
+"c-labuan": {
+"en": "Labuan",
+"ja": "Labuan",
+"k": "city",
+"up": "w-malaya"
+},
+"c-lae": {
+"en": "Lae",
+"ja": "Lae",
+"k": "city",
+"up": "world"
+},
+"c-lahore": {
+"en": "Lahore",
+"ja": "",
+"k": "city",
+"up": "w-britishindia"
+},
+"c-langson": {
+"en": "Lang Son",
+"ja": "諒山 (Lạng Sơn)",
+"k": "city",
+"up": "w-indochina"
+},
+"c-lanzhou": {
+"en": "Lánzhōu",
+"ja": "蘭州",
+"k": "city",
+"up": "china"
+},
+"c-laohekou": {
+"en": "Lǎohékǒu",
+"ja": "老河口",
+"k": "city",
+"up": "china"
+},
+"c-larantuka": {
+"en": "Larantuka",
+"ja": "",
+"k": "city",
+"up": "w-dei"
+},
+"c-lashio": {
+"en": "Lashio",
+"ja": "",
+"k": "city",
+"up": "w-britishindia"
+},
+"c-ledo": {
+"en": "Ledo",
+"ja": "লেডো",
+"k": "city",
+"up": "w-britishindia"
+},
+"c-legazpi": {
+"en": "Legazpi",
+"ja": "Legazpi",
+"k": "city",
+"up": "w-philippines"
+},
+"c-lhasa": {
+"en": "Lhasa",
+"ja": "",
+"k": "city",
+"up": "w-tibet"
+},
+"c-liaoyang": {
+"en": "Liáoyáng",
+"ja": "遼陽",
+"k": "city",
+"up": "manchuria"
+},
+"c-linfen": {
+"en": "Línfén",
+"ja": "臨汾",
+"k": "city",
+"up": "china"
+},
+"c-lingayen": {
+"en": "Lingayen",
+"ja": "Lingayen",
+"k": "city",
+"up": "w-philippines"
+},
+"c-liuzhou": {
+"en": "Liǔzhōu",
+"ja": "柳州",
+"k": "city",
+"up": "china"
+},
+"c-longjing": {
+"en": "Lóngjǐng",
+"ja": "龍井",
+"k": "city",
+"up": "china"
+},
+"c-longkou": {
+"en": "Lóngkǒu",
+"ja": "龍口",
+"k": "city",
+"up": "china"
+},
+"c-longzhou": {
+"en": "Lóngzhōu",
+"ja": "龍州",
+"k": "city",
+"up": "china"
+},
+"c-lorengau": {
+"en": "Lorengau",
+"ja": "Lorengau",
+"k": "city",
+"up": "world"
+},
+"c-luangprabang": {
+"en": "Luang Prabang",
+"ja": "",
+"k": "city",
+"up": "w-indochina"
+},
+"c-lucknow": {
+"en": "Lucknow",
+"ja": "",
+"k": "city",
+"up": "w-britishindia"
+},
+"c-luoyang": {
+"en": "Luòyáng",
+"ja": "洛陽",
+"k": "city",
+"up": "china"
+},
+"c-luzhou": {
+"en": "Lúzhōu",
+"ja": "瀘州",
+"k": "city",
+"up": "china"
+},
+"c-macaucity": {
+"en": "Macao",
+"ja": "マカオ",
+"k": "city",
+"up": "w-macau"
+},
+"c-madang": {
+"en": "Madang",
+"ja": "",
+"k": "city",
+"up": "world"
+},
+"c-madras": {
+"en": "Madras",
+"ja": "",
+"k": "city",
+"up": "w-britishindia"
+},
+"c-maebashi": {
+"en": "Maebashi",
+"ja": "前橋",
+"k": "city",
+"up": "japan"
+},
+"c-maizuru": {
+"en": "Maizuru",
+"ja": "舞鶴",
+"k": "city",
+"up": "japan"
+},
+"c-makassar": {
+"en": "Makassar",
+"ja": "マカッサル",
+"k": "city",
+"up": "w-dei"
+},
+"c-makung": {
+"en": "Makō, Pescadores",
+"ja": "馬公",
+"k": "city",
+"up": "taiwan"
+},
+"c-malacca": {
+"en": "Malacca",
+"ja": "マラッカ",
+"k": "city",
+"up": "w-malaya"
+},
+"c-malang": {
+"en": "Malang",
+"ja": "マラン",
+"k": "city",
+"up": "w-dei"
+},
+"c-manado": {
+"en": "Menado",
+"ja": "メナド",
+"k": "city",
+"up": "w-dei"
+},
+"c-mandalay": {
+"en": "Mandalay",
+"ja": "マンダレー",
+"k": "city",
+"up": "w-britishindia"
+},
+"c-manila": {
+"en": "Manila",
+"ja": "マニラ",
+"k": "city",
+"up": "w-philippines"
+},
+"c-manokwari": {
+"en": "Manokwari",
+"ja": "",
+"k": "city",
+"up": "w-dei"
+},
+"c-manzhouli": {
+"en": "Manchouli",
+"ja": "満洲里",
+"k": "city",
+"up": "manchuria"
+},
+"c-maoka": {
+"en": "Maoka",
+"ja": "眞岡",
+"k": "city",
+"up": "karafuto"
+},
+"c-marugame": {
+"en": "Marugame",
+"ja": "丸龜",
+"k": "city",
+"up": "japan"
+},
+"c-masan": {
+"en": "Masan",
+"ja": "馬山",
+"k": "city",
+"up": "korea"
+},
+"c-mataram": {
+"en": "Mataram",
+"ja": "",
+"k": "city",
+"up": "w-dei"
+},
+"c-matsue": {
+"en": "Matsue",
+"ja": "松江",
+"k": "city",
+"up": "japan"
+},
+"c-matsumoto": {
+"en": "Matsumoto",
+"ja": "松本",
+"k": "city",
+"up": "japan"
+},
+"c-matsusaka": {
+"en": "Matsusaka",
+"ja": "松阪",
+"k": "city",
+"up": "japan"
+},
+"c-matsuyama": {
+"en": "Matsuyama",
+"ja": "松山",
+"k": "city",
+"up": "japan"
+},
+"c-medan": {
+"en": "Medan",
+"ja": "メダン",
+"k": "city",
+"up": "w-dei"
+},
+"c-meiktila": {
+"en": "Meiktila",
+"ja": "မိတ္ထီလာ",
+"k": "city",
+"up": "w-britishindia"
+},
+"c-mengzi": {
+"en": "Méngzì",
+"ja": "蒙自",
+"k": "city",
+"up": "china"
+},
+"c-merauke": {
+"en": "Merauke",
+"ja": "",
+"k": "city",
+"up": "w-dei"
+},
+"c-mergui": {
+"en": "Mergui",
+"ja": "မြိတ်",
+"k": "city",
+"up": "w-britishindia"
+},
+"c-miri": {
+"en": "Miri",
+"ja": "Miri",
+"k": "city",
+"up": "world"
+},
+"c-mito": {
+"en": "Mito",
+"ja": "水戶",
+"k": "city",
+"up": "japan"
+},
+"c-miyakonojo": {
+"en": "Miyakonojō",
+"ja": "都城",
+"k": "city",
+"up": "japan"
+},
+"c-miyazaki": {
+"en": "Miyazaki",
+"ja": "宮崎",
+"k": "city",
+"up": "japan"
+},
+"c-moji": {
+"en": "Moji",
+"ja": "門司",
+"k": "city",
+"up": "japan"
+},
+"c-mokpo": {
+"en": "Moppo",
+"ja": "木浦",
+"k": "city",
+"up": "korea"
+},
+"c-morioka": {
+"en": "Morioka",
+"ja": "盛岡",
+"k": "city",
+"up": "japan"
+},
+"c-morotai": {
+"en": "Morotai",
+"ja": "Morotai",
+"k": "city",
+"up": "w-dei"
+},
+"c-moulmein": {
+"en": "Moulmein",
+"ja": "",
+"k": "city",
+"up": "w-britishindia"
+},
+"c-mudan": {
+"en": "Botansha",
+"ja": "牡丹社",
+"k": "city",
+"up": "taiwan"
+},
+"c-mudanjiang": {
+"en": "Botankō",
+"ja": "牡丹江",
+"k": "city",
+"up": "manchuria"
+},
+"c-mukden": {
+"en": "Shěnyáng",
+"ja": "奉天",
+"k": "city",
+"up": "manchuria"
+},
+"c-muroran": {
+"en": "Muroran",
+"ja": "室蘭",
+"k": "city",
+"up": "japan"
+},
+"c-myitkyina": {
+"en": "Myitkyina",
+"ja": "",
+"k": "city",
+"up": "w-britishindia"
+},
+"c-mysorecity": {
+"en": "Mysore",
+"ja": "",
+"k": "city",
+"up": "w-britishindia"
+},
+"c-nagano": {
+"en": "Nagano",
+"ja": "長野",
+"k": "city",
+"up": "japan"
+},
+"c-nagaoka": {
+"en": "Nagaoka",
+"ja": "長岡",
+"k": "city",
+"up": "japan"
+},
+"c-nagasaki": {
+"en": "Nagasaki",
+"ja": "長崎",
+"k": "city",
+"up": "japan"
+},
+"c-nagchuka": {
+"en": "Nagchuka",
+"ja": "那曲",
+"k": "city",
+"up": "w-tibet"
+},
+"c-nagoya": {
+"en": "Nagoya",
+"ja": "名古屋",
+"k": "city",
+"up": "japan"
+},
+"c-nagpur": {
+"en": "Nagpur",
+"ja": "",
+"k": "city",
+"up": "w-britishindia"
+},
+"c-naha": {
+"en": "Naha",
+"ja": "那覇",
+"k": "city",
+"up": "japan"
+},
+"c-najin": {
+"en": "Rashin",
+"ja": "羅津",
+"k": "city",
+"up": "korea"
+},
+"c-nakatsu": {
+"en": "Nakatsu",
+"ja": "中津",
+"k": "city",
+"up": "japan"
+},
+"c-namdinh": {
+"en": "Nam Dinh",
+"ja": "南定 (Nam Định)",
+"k": "city",
+"up": "w-indochina"
+},
+"c-nampo": {
+"en": "Chinnanpo",
+"ja": "鎮南浦",
+"k": "city",
+"up": "korea"
+},
+"c-namtupanghai": {
+"en": "Namtu-Panghai",
+"ja": "",
+"k": "city",
+"up": "w-britishindia"
+},
+"c-nanchang": {
+"en": "Nánchāng",
+"ja": "南昌",
+"k": "city",
+"up": "china"
+},
+"c-nanchong": {
+"en": "Nánchōng",
+"ja": "南充",
+"k": "city",
+"up": "china"
+},
+"c-nanjing": {
+"en": "Nánjīng",
+"ja": "南京",
+"k": "city",
+"up": "china"
+},
+"c-nanning": {
+"en": "Nánníng",
+"ja": "南寧",
+"k": "city",
+"up": "china"
+},
+"c-nantong": {
+"en": "Nántōng",
+"ja": "南通",
+"k": "city",
+"up": "china"
+},
+"c-nara": {
+"en": "Nara",
+"ja": "奈良",
+"k": "city",
+"up": "japan"
+},
+"c-nauru": {
+"en": "Yaren",
+"ja": "ナウル (Nauru)",
+"k": "city",
+"up": "world"
+},
+"c-nemuro": {
+"en": "Nemuro",
+"ja": "根室",
+"k": "city",
+"up": "japan"
+},
+"c-niigata": {
+"en": "Niigata",
+"ja": "新潟",
+"k": "city",
+"up": "japan"
+},
+"c-nikolaevsk": {
+"en": "Nikolaevsk-on-Amur",
+"ja": "Николаевск-на-Амуре",
+"k": "city",
+"up": "w-ussr"
+},
+"c-ningbo": {
+"en": "Níngbō",
+"ja": "寧波",
+"k": "city",
+"up": "china"
+},
+"c-nishinomiya": {
+"en": "Nishinomiya",
+"ja": "西宮",
+"k": "city",
+"up": "japan"
+},
+"c-nobeoka": {
+"en": "Nobeoka",
+"ja": "延岡",
+"k": "city",
+"up": "japan"
+},
+"c-nogata": {
+"en": "Nōgata",
+"ja": "直方",
+"k": "city",
+"up": "japan"
+},
+"c-noumea": {
+"en": "Nouméa",
+"ja": "Nouméa",
+"k": "city",
+"up": "world"
+},
+"c-numazu": {
+"en": "Numazu",
+"ja": "沼津",
+"k": "city",
+"up": "japan"
+},
+"c-obihiro": {
+"en": "Obihiro",
+"ja": "帶廣",
+"k": "city",
+"up": "japan"
+},
+"c-ochiai": {
+"en": "Ochiai",
+"ja": "落合",
+"k": "city",
+"up": "karafuto"
+},
+"c-ocussi": {
+"en": "Ocussi",
+"ja": "",
+"k": "city",
+"up": "world"
+},
+"c-ogaki": {
+"en": "Ōgaki",
+"ja": "大垣",
+"k": "city",
+"up": "japan"
+},
+"c-oita": {
+"en": "Ōita",
+"ja": "大分",
+"k": "city",
+"up": "japan"
+},
+"c-okaya": {
+"en": "Okaya",
+"ja": "岡谷",
+"k": "city",
+"up": "japan"
+},
+"c-okayama": {
+"en": "Okayama",
+"ja": "岡山",
+"k": "city",
+"up": "japan"
+},
+"c-okazaki": {
+"en": "Okazaki",
+"ja": "岡崎",
+"k": "city",
+"up": "japan"
+},
+"c-olongapo": {
+"en": "Olongapo",
+"ja": "Olongapo",
+"k": "city",
+"up": "w-philippines"
+},
+"c-ominato": {
+"en": "Ōminato",
+"ja": "大湊",
+"k": "city",
+"up": "japan"
+},
+"c-omuta": {
+"en": "Ōmuta",
+"ja": "大牟田",
+"k": "city",
+"up": "japan"
+},
+"c-onomichi": {
+"en": "Onomichi",
+"ja": "尾道",
+"k": "city",
+"up": "japan"
+},
+"c-osaka": {
+"en": "Osaka",
+"ja": "大阪",
+"k": "city",
+"up": "japan"
+},
+"c-otaru": {
+"en": "Otaru",
+"ja": "小樽",
+"k": "city",
+"up": "japan"
+},
+"c-otomari": {
+"en": "Ōtomari",
+"ja": "大泊",
+"k": "city",
+"up": "karafuto"
+},
+"c-otsu": {
+"en": "Ōtsu",
+"ja": "大津",
+"k": "city",
+"up": "japan"
+},
+"c-padang": {
+"en": "Padang",
+"ja": "パダン",
+"k": "city",
+"up": "w-dei"
+},
+"c-pagan": {
+"en": "Pagan",
+"ja": "",
+"k": "city",
+"up": "w-britishindia"
+},
+"c-palembang": {
+"en": "Palembang",
+"ja": "パレンバン",
+"k": "city",
+"up": "w-dei"
+},
+"c-panjim": {
+"en": "Nova Goa",
+"ja": "Pangim",
+"k": "city",
+"up": "world"
+},
+"c-paoting": {
+"en": "Bǎodìng",
+"ja": "保定",
+"k": "city",
+"up": "china"
+},
+"c-patna": {
+"en": "Patna",
+"ja": "पटना",
+"k": "city",
+"up": "w-britishindia"
+},
+"c-pattani": {
+"en": "Pattani",
+"ja": "ปัตตานี",
+"k": "city",
+"up": "w-siam"
+},
+"c-pegu": {
+"en": "Pegu",
+"ja": "ပဲခူး",
+"k": "city",
+"up": "w-britishindia"
+},
+"c-pekanbaru": {
+"en": "Pekanbaru",
+"ja": "Pakanbaroe",
+"k": "city",
+"up": "w-dei"
+},
+"c-penang": {
+"en": "Penang",
+"ja": "",
+"k": "city",
+"up": "w-malaya"
+},
+"c-peshawar": {
+"en": "Peshawar",
+"ja": "",
+"k": "city",
+"up": "w-britishindia"
+},
+"c-petropavlovsk": {
+"en": "Petropavlovsk-Kamchatsky",
+"ja": "Петропавловск-Камчатский",
+"k": "city",
+"up": "w-ussr"
+},
+"c-phnompenh": {
+"en": "Phnom Penh",
+"ja": "",
+"k": "city",
+"up": "w-indochina"
+},
+"c-phuket": {
+"en": "Phuket",
+"ja": "ภูเก็ต",
+"k": "city",
+"up": "w-siam"
+},
+"c-pingfang": {
+"en": "Pingfang",
+"ja": "平房",
+"k": "city",
+"up": "china"
+},
+"c-pingtung": {
+"en": "Heitō",
+"ja": "屏東",
+"k": "city",
+"up": "taiwan"
+},
+"c-pondicherrycity": {
+"en": "Pondicherry",
+"ja": "புதுச்சேரி",
+"k": "city",
+"up": "world"
+},
+"c-pontianak": {
+"en": "Pontianak",
+"ja": "ポンティアナック",
+"k": "city",
+"up": "w-dei"
+},
+"c-poona": {
+"en": "Poona",
+"ja": "",
+"k": "city",
+"up": "w-britishindia"
+},
+"c-portarthur": {
+"en": "Lǚshùn",
+"ja": "旅順",
+"k": "city",
+"up": "kwantung"
+},
+"c-portblair": {
+"en": "Port Blair",
+"ja": "पोर्ट ब्लेयर",
+"k": "city",
+"up": "w-britishindia"
+},
+"c-portmoresbytown": {
+"en": "Port Moresby",
+"ja": "",
+"k": "city",
+"up": "world"
+},
+"c-prachuap": {
+"en": "Prachuap Khiri Khan",
+"ja": "ประจวบคีรีขันธ์",
+"k": "city",
+"up": "w-siam"
+},
+"c-prome": {
+"en": "Prome",
+"ja": "ပြည်",
+"k": "city",
+"up": "w-britishindia"
+},
+"c-puli": {
+"en": "Hori",
+"ja": "埔里",
+"k": "city",
+"up": "taiwan"
+},
+"c-punakha": {
+"en": "Punakha",
+"ja": "སྤུ་ན་ཁ",
+"k": "city",
+"up": "world"
+},
+"c-pusan": {
+"en": "Fusan",
+"ja": "釜山",
+"k": "city",
+"up": "korea"
+},
+"c-pyongyang": {
+"en": "Heijō",
+"ja": "平壌",
+"k": "city",
+"up": "korea"
+},
+"c-qingdao": {
+"en": "Qīngdǎo",
+"ja": "青島",
+"k": "city",
+"up": "china"
+},
+"c-qinhuangdao": {
+"en": "Qínhuángdǎo",
+"ja": "秦皇島",
+"k": "city",
+"up": "china"
+},
+"c-qiqihar": {
+"en": "Chichiharu",
+"ja": "チチハル",
+"k": "city",
+"up": "manchuria"
+},
+"c-quanzhou": {
+"en": "Chüanchow",
+"ja": "泉州",
+"k": "city",
+"up": "china"
+},
+"c-quetta": {
+"en": "Quetta",
+"ja": "",
+"k": "city",
+"up": "w-britishindia"
+},
+"c-quezoncity": {
+"en": "Quezon City",
+"ja": "Quezon City",
+"k": "city",
+"up": "w-philippines"
+},
+"c-quzhou": {
+"en": "Qúzhōu",
+"ja": "衢州",
+"k": "city",
+"up": "china"
+},
+"c-rabaul": {
+"en": "Rabaul",
+"ja": "ラバウル",
+"k": "city",
+"up": "world"
+},
+"c-rangoon": {
+"en": "Rangoon",
+"ja": "ラングーン",
+"k": "city",
+"up": "w-britishindia"
+},
+"c-rudok": {
+"en": "Rudok",
+"ja": "日土",
+"k": "city",
+"up": "w-tibet"
+},
+"c-rutaka": {
+"en": "Rutaka",
+"ja": "留多加",
+"k": "city",
+"up": "karafuto"
+},
+"c-sabang": {
+"en": "Sabang",
+"ja": "サバン",
+"k": "city",
+"up": "w-dei"
+},
+"c-saga": {
+"en": "Saga",
+"ja": "佐賀",
+"k": "city",
+"up": "japan"
+},
+"c-sagaingtown": {
+"en": "Sagaing",
+"ja": "",
+"k": "city",
+"up": "w-britishindia"
+},
+"c-saigon": {
+"en": "Saigon",
+"ja": "サイゴン",
+"k": "city",
+"up": "w-indochina"
+},
+"c-sakai": {
+"en": "Sakai",
+"ja": "堺",
+"k": "city",
+"up": "japan"
+},
+"c-sakata": {
+"en": "Sakata",
+"ja": "酒田",
+"k": "city",
+"up": "japan"
+},
+"c-salamaua": {
+"en": "Salamaua",
+"ja": "",
+"k": "city",
+"up": "world"
+},
+"c-samarai": {
+"en": "Samarai",
+"ja": "",
+"k": "city",
+"up": "world"
+},
+"c-samarinda": {
+"en": "Samarinda",
+"ja": "Samarinda",
+"k": "city",
+"up": "w-dei"
+},
+"c-sandakan": {
+"en": "Sandakan",
+"ja": "Sandakan",
+"k": "city",
+"up": "world"
+},
+"c-sanduao": {
+"en": "Sāndū'ào",
+"ja": "三都澳",
+"k": "city",
+"up": "china"
+},
+"c-sanjo": {
+"en": "Sanjō",
+"ja": "三條",
+"k": "city",
+"up": "japan"
+},
+"c-sanshui": {
+"en": "Sānshuǐ",
+"ja": "三水",
+"k": "city",
+"up": "china"
+},
+"c-sanxing": {
+"en": "Sānxìng",
+"ja": "三姓",
+"k": "city",
+"up": "china"
+},
+"c-sanya": {
+"en": "Samah",
+"ja": "三亞",
+"k": "city",
+"up": "china"
+},
+"c-sapporo": {
+"en": "Sapporo",
+"ja": "札幌",
+"k": "city",
+"up": "japan"
+},
+"c-sarmi": {
+"en": "Sarmi",
+"ja": "",
+"k": "city",
+"up": "w-dei"
+},
+"c-sasebo": {
+"en": "Sasebo",
+"ja": "佐世保",
+"k": "city",
+"up": "japan"
+},
+"c-savannakhet": {
+"en": "Savannakhet",
+"ja": "ສະຫວັນນະເຂດ",
+"k": "city",
+"up": "w-indochina"
+},
+"c-semarang": {
+"en": "Semarang",
+"ja": "スマラン",
+"k": "city",
+"up": "w-dei"
+},
+"c-sendai": {
+"en": "Sendai",
+"ja": "仙台",
+"k": "city",
+"up": "japan"
+},
+"c-sendaisatsuma": {
+"en": "Sendai",
+"ja": "川内",
+"k": "city",
+"up": "japan"
+},
+"c-seoul": {
+"en": "Keijō",
+"ja": "京城",
+"k": "city",
+"up": "korea"
+},
+"c-seremban": {
+"en": "Seremban",
+"ja": "سرمبن",
+"k": "city",
+"up": "w-malaya"
+},
+"c-seria": {
+"en": "Seria",
+"ja": "Seria",
+"k": "city",
+"up": "world"
+},
+"c-seto": {
+"en": "Seto",
+"ja": "瀨戶",
+"k": "city",
+"up": "japan"
+},
+"c-shanghai": {
+"en": "Shànghǎi",
+"ja": "上海",
+"k": "city",
+"up": "china"
+},
+"c-shanhaiguan": {
+"en": "Shānhǎiguān",
+"ja": "山海関",
+"k": "city",
+"up": "china"
+},
+"c-shantou": {
+"en": "Shàntóu",
+"ja": "汕頭",
+"k": "city",
+"up": "china"
+},
+"c-shaoguan": {
+"en": "Sháoguān",
+"ja": "韶関",
+"k": "city",
+"up": "china"
+},
+"c-shaoxing": {
+"en": "Shàoxīng",
+"ja": "紹興",
+"k": "city",
+"up": "china"
+},
+"c-shashi": {
+"en": "Shāshì",
+"ja": "沙市",
+"k": "city",
+"up": "china"
+},
+"c-shigatse": {
+"en": "Shigatse",
+"ja": "",
+"k": "city",
+"up": "w-tibet"
+},
+"c-shijiazhuang": {
+"en": "Shíjiāzhuāng",
+"ja": "石家荘",
+"k": "city",
+"up": "china"
+},
+"c-shikuka": {
+"en": "Shikuka",
+"ja": "敷香",
+"k": "city",
+"up": "karafuto"
+},
+"c-shillong": {
+"en": "Shillong",
+"ja": "শিলং",
+"k": "city",
+"up": "w-britishindia"
+},
+"c-shimizu": {
+"en": "Shimizu",
+"ja": "清水",
+"k": "city",
+"up": "japan"
+},
+"c-shimoda": {
+"en": "Shimoda",
+"ja": "下田",
+"k": "city",
+"up": "japan"
+},
+"c-shimonoseki": {
+"en": "Shimonoseki",
+"ja": "下関",
+"k": "city",
+"up": "japan"
+},
+"c-shingu": {
+"en": "Shingū",
+"ja": "新宮",
+"k": "city",
+"up": "japan"
+},
+"c-shizuoka": {
+"en": "Shizuoka",
+"ja": "靜岡",
+"k": "city",
+"up": "japan"
+},
+"c-shuri": {
+"en": "Shuri",
+"ja": "首里",
+"k": "city",
+"up": "japan"
+},
+"c-shwebotown": {
+"en": "Shwebo",
+"ja": "",
+"k": "city",
+"up": "w-britishindia"
+},
+"c-simao": {
+"en": "Sīmáo",
+"ja": "思茅",
+"k": "city",
+"up": "china"
+},
+"c-simla": {
+"en": "Simla",
+"ja": "",
+"k": "city",
+"up": "w-britishindia"
+},
+"c-singapore": {
+"en": "Singapore",
+"ja": "昭南島",
+"k": "city",
+"up": "w-malaya"
+},
+"c-sinuiju": {
+"en": "Shingishū",
+"ja": "新義州",
+"k": "city",
+"up": "korea"
+},
+"c-siping": {
+"en": "Sìpíng",
+"ja": "四平",
+"k": "city",
+"up": "manchuria"
+},
+"c-soerakarta": {
+"en": "Soerakarta",
+"ja": "スラカルタ",
+"k": "city",
+"up": "w-dei"
+},
+"c-songjin": {
+"en": "Jōshin",
+"ja": "金策",
+"k": "city",
+"up": "korea"
+},
+"c-songkhla": {
+"en": "Songkhla",
+"ja": "สงขลา",
+"k": "city",
+"up": "w-siam"
+},
+"c-sorong": {
+"en": "Sorong",
+"ja": "",
+"k": "city",
+"up": "w-dei"
+},
+"c-srinagar": {
+"en": "Srinagar",
+"ja": "سرینگر",
+"k": "city",
+"up": "w-britishindia"
+},
+"c-suifenhe": {
+"en": "Suifenho",
+"ja": "綏芬河",
+"k": "city",
+"up": "china"
+},
+"c-sumbawabesar": {
+"en": "Sumbawa Besar",
+"ja": "",
+"k": "city",
+"up": "w-dei"
+},
+"c-sumoto": {
+"en": "Sumoto",
+"ja": "洲本",
+"k": "city",
+"up": "japan"
+},
+"c-surabaya": {
+"en": "Surabaya",
+"ja": "スラバヤ",
+"k": "city",
+"up": "w-dei"
+},
+"c-suwon": {
+"en": "Suigen",
+"ja": "水原",
+"k": "city",
+"up": "korea"
+},
+"c-suzhou": {
+"en": "Sūzhōu",
+"ja": "蘇州",
+"k": "city",
+"up": "china"
+},
+"c-sydney": {
+"en": "Sydney",
+"ja": "Sydney",
+"k": "city",
+"up": "w-australia"
+},
+"c-syriam": {
+"en": "Syriam",
+"ja": "",
+"k": "city",
+"up": "w-britishindia"
+},
+"c-tacloban": {
+"en": "Tacloban",
+"ja": "Tacloban",
+"k": "city",
+"up": "w-philippines"
+},
+"c-taegu": {
+"en": "Taikyū",
+"ja": "大邱",
+"k": "city",
+"up": "korea"
+},
+"c-taejon": {
+"en": "Taiden",
+"ja": "大田",
+"k": "city",
+"up": "korea"
+},
+"c-taichung": {
+"en": "Taichū",
+"ja": "臺中",
+"k": "city",
+"up": "taiwan"
+},
+"c-tainan": {
+"en": "Tainan",
+"ja": "臺南",
+"k": "city",
+"up": "taiwan"
+},
+"c-taipei": {
+"en": "Taihoku",
+"ja": "臺北",
+"k": "city",
+"up": "taiwan"
+},
+"c-taiping": {
+"en": "Taiping",
+"ja": "تاईڤيڠ",
+"k": "city",
+"up": "w-malaya"
+},
+"c-taitung": {
+"en": "Taitō",
+"ja": "臺東",
+"k": "city",
+"up": "taiwan"
+},
+"c-taiyuan": {
+"en": "Tàiyuán",
+"ja": "太原",
+"k": "city",
+"up": "china"
+},
+"c-takada": {
+"en": "Takada",
+"ja": "高田",
+"k": "city",
+"up": "japan"
+},
+"c-takamatsu": {
+"en": "Takamatsu",
+"ja": "高松",
+"k": "city",
+"up": "japan"
+},
+"c-takaoka": {
+"en": "Takaoka",
+"ja": "高岡",
+"k": "city",
+"up": "japan"
+},
+"c-takasaki": {
+"en": "Takasaki",
+"ja": "高崎",
+"k": "city",
+"up": "japan"
+},
+"c-takayama": {
+"en": "Takayama",
+"ja": "高山",
+"k": "city",
+"up": "japan"
+},
+"c-tamsui": {
+"en": "Tansui",
+"ja": "淡水",
+"k": "city",
+"up": "taiwan"
+},
+"c-tangshan": {
+"en": "Tángshān",
+"ja": "唐山",
+"k": "city",
+"up": "china"
+},
+"c-taonan": {
+"en": "Táonán",
+"ja": "洮南",
+"k": "city",
+"up": "manchuria"
+},
+"c-tarakan": {
+"en": "Tarakan",
+"ja": "タラカン",
+"k": "city",
+"up": "w-dei"
+},
+"c-taunggyi": {
+"en": "Taunggyi",
+"ja": "တောင်ကြီး",
+"k": "city",
+"up": "w-britishindia"
+},
+"c-tavoy": {
+"en": "Tavoy",
+"ja": "ထားဝယ်",
+"k": "city",
+"up": "w-britishindia"
+},
+"c-tawau": {
+"en": "Tawau",
+"ja": "Tawau",
+"k": "city",
+"up": "world"
+},
+"c-tengyue": {
+"en": "Téngyuè",
+"ja": "騰越",
+"k": "city",
+"up": "china"
+},
+"c-ternate": {
+"en": "Ternate",
+"ja": "Ternate",
+"k": "city",
+"up": "w-dei"
+},
+"c-thanbyuzayat": {
+"en": "Thanbyuzayat",
+"ja": "သံဖြူဇရပ်",
+"k": "city",
+"up": "w-britishindia"
+},
+"c-thonburi": {
+"en": "Thonburi",
+"ja": "ธนบุรี",
+"k": "city",
+"up": "w-siam"
+},
+"c-tianjin": {
+"en": "Tiānjīn",
+"ja": "天津",
+"k": "city",
+"up": "china"
+},
+"c-tianshui": {
+"en": "Tiānshuǐ",
+"ja": "天水",
+"k": "city",
+"up": "china"
+},
+"c-tieling": {
+"en": "Tiělǐng",
+"ja": "鉄嶺",
+"k": "city",
+"up": "manchuria"
+},
+"c-tobata": {
+"en": "Tobata",
+"ja": "戶畑",
+"k": "city",
+"up": "japan"
+},
+"c-tochigi": {
+"en": "Tochigi",
+"ja": "栃木",
+"k": "city",
+"up": "japan"
+},
+"c-tokushima": {
+"en": "Tokushima",
+"ja": "德島",
+"k": "city",
+"up": "japan"
+},
+"c-tokuyama": {
+"en": "Tokuyama",
+"ja": "德山",
+"k": "city",
+"up": "japan"
+},
+"c-tokyo": {
+"en": "Tokyo",
+"ja": "東京",
+"k": "city",
+"up": "japan"
+},
+"c-tomarioru": {
+"en": "Tomarioru",
+"ja": "泊居",
+"k": "city",
+"up": "karafuto"
+},
+"c-tonghua": {
+"en": "Tōnghuà",
+"ja": "通化",
+"k": "city",
+"up": "manchuria"
+},
+"c-tongzhou": {
+"en": "Tungchow",
+"ja": "通州",
+"k": "city",
+"up": "china"
+},
+"c-tottori": {
+"en": "Tottori",
+"ja": "鳥取",
+"k": "city",
+"up": "japan"
+},
+"c-toungoo": {
+"en": "Toungoo",
+"ja": "တောင်ငူ",
+"k": "city",
+"up": "w-britishindia"
+},
+"c-townsville": {
+"en": "Townsville",
+"ja": "Townsville",
+"k": "city",
+"up": "w-australia"
+},
+"c-toyama": {
+"en": "Toyama",
+"ja": "富山",
+"k": "city",
+"up": "japan"
+},
+"c-toyohara": {
+"en": "Toyohara",
+"ja": "豐原",
+"k": "city",
+"up": "karafuto"
+},
+"c-toyohashi": {
+"en": "Toyohashi",
+"ja": "豐橋",
+"k": "city",
+"up": "japan"
+},
+"c-toyonaka": {
+"en": "Toyonaka",
+"ja": "豐中",
+"k": "city",
+"up": "japan"
+},
+"c-trincomalee": {
+"en": "Trincomalee",
+"ja": "",
+"k": "city",
+"up": "w-ceylon"
+},
+"c-trivandrum": {
+"en": "Trivandrum",
+"ja": "",
+"k": "city",
+"up": "w-britishindia"
+},
+"c-tsu": {
+"en": "Tsu",
+"ja": "津",
+"k": "city",
+"up": "japan"
+},
+"c-tsuruga": {
+"en": "Tsuruga",
+"ja": "敦賀",
+"k": "city",
+"up": "japan"
+},
+"c-tsuruoka": {
+"en": "Tsuruoka",
+"ja": "鶴岡",
+"k": "city",
+"up": "japan"
+},
+"c-tsuyama": {
+"en": "Tsuyama",
+"ja": "津山",
+"k": "city",
+"up": "japan"
+},
+"c-tulagitown": {
+"en": "Tulagi",
+"ja": "Tulagi",
+"k": "city",
+"up": "world"
+},
+"c-ube": {
+"en": "Ube",
+"ja": "宇部",
+"k": "city",
+"up": "japan"
+},
+"c-ueda": {
+"en": "Ueda",
+"ja": "上田",
+"k": "city",
+"up": "japan"
+},
+"c-ulanbator": {
+"en": "Urga",
+"ja": "庫倫",
+"k": "city",
+"up": "w-mongolia"
+},
+"c-urawa": {
+"en": "Urawa",
+"ja": "浦和",
+"k": "city",
+"up": "japan"
+},
+"c-urumqi": {
+"en": "Wūlǔmùqí",
+"ja": "迪化",
+"k": "city",
+"up": "w-xinjiang"
+},
+"c-ussuriysk": {
+"en": "Voroshilov",
+"ja": "Ворошилов",
+"k": "city",
+"up": "w-ussr"
+},
+"c-utsunomiya": {
+"en": "Utsunomiya",
+"ja": "宇都宮",
+"k": "city",
+"up": "japan"
+},
+"c-uwajima": {
+"en": "Uwajima",
+"ja": "宇和島",
+"k": "city",
+"up": "japan"
+},
+"c-victoriapoint": {
+"en": "Victoria Point",
+"ja": "ကော့သောင်း",
+"k": "city",
+"up": "w-britishindia"
+},
+"c-vientiane": {
+"en": "Vientiane",
+"ja": "",
+"k": "city",
+"up": "w-indochina"
+},
+"c-vigan": {
+"en": "Vigan",
+"ja": "Vigan",
+"k": "city",
+"up": "w-philippines"
+},
+"c-vinh": {
+"en": "Vinh",
+"ja": "榮 (Vinh)",
+"k": "city",
+"up": "w-indochina"
+},
+"c-vizag": {
+"en": "Vizagapatam",
+"ja": "",
+"k": "city",
+"up": "w-britishindia"
+},
+"c-vladivostok": {
+"en": "Vladivostok",
+"ja": "浦潮",
+"k": "city",
+"up": "w-ussr"
+},
+"c-waingapu": {
+"en": "Waingapu",
+"ja": "",
+"k": "city",
+"up": "w-dei"
+},
+"c-wakamatsu": {
+"en": "Wakamatsu",
+"ja": "若松",
+"k": "city",
+"up": "japan"
+},
+"c-wakayama": {
+"en": "Wakayama",
+"ja": "和歌山",
+"k": "city",
+"up": "japan"
+},
+"c-wanxian": {
+"en": "Wànzhōu",
+"ja": "万県",
+"k": "city",
+"up": "china"
+},
+"c-wau": {
+"en": "Wau",
+"ja": "",
+"k": "city",
+"up": "world"
+},
+"c-weihai": {
+"en": "Wēihǎi",
+"ja": "威海衛",
+"k": "city",
+"up": "china"
+},
+"c-wenzhou": {
+"en": "Wēnzhōu",
+"ja": "温州",
+"k": "city",
+"up": "china"
+},
+"c-wewak": {
+"en": "Wewak",
+"ja": "Wewak",
+"k": "city",
+"up": "world"
+},
+"c-wisselmeren": {
+"en": "Wisselmeren",
+"ja": "",
+"k": "city",
+"up": "w-dei"
+},
+"c-wonsan": {
+"en": "Genzan",
+"ja": "元山",
+"k": "city",
+"up": "korea"
+},
+"c-wuhan": {
+"en": "Wǔhàn",
+"ja": "漢口",
+"k": "city",
+"up": "china"
+},
+"c-wuhu": {
+"en": "Wúhú",
+"ja": "蕪湖",
+"k": "city",
+"up": "china"
+},
+"c-wushe": {
+"en": "Musha",
+"ja": "霧社",
+"k": "city",
+"up": "taiwan"
+},
+"c-wuxi": {
+"en": "Wúxī",
+"ja": "無錫",
+"k": "city",
+"up": "china"
+},
+"c-wuzhou": {
+"en": "Wúzhōu",
+"ja": "梧州",
+"k": "city",
+"up": "china"
+},
+"c-xiamen": {
+"en": "Xiàmén",
+"ja": "厦門",
+"k": "city",
+"up": "china"
+},
+"c-xian": {
+"en": "Xī’ān",
+"ja": "西安",
+"k": "city",
+"up": "china"
+},
+"c-xiangyang": {
+"en": "Xiāngyáng",
+"ja": "襄陽",
+"k": "city",
+"up": "china"
+},
+"c-xining": {
+"en": "Xīníng",
+"ja": "西寧",
+"k": "city",
+"up": "china"
+},
+"c-xuzhou": {
+"en": "Xúzhōu",
+"ja": "徐州",
+"k": "city",
+"up": "china"
+},
+"c-yamagata": {
+"en": "Yamagata",
+"ja": "山形",
+"k": "city",
+"up": "japan"
+},
+"c-yamaguchi": {
+"en": "Yamaguchi",
+"ja": "山口",
+"k": "city",
+"up": "japan"
+},
+"c-yanan": {
+"en": "Yán’ān",
+"ja": "延安",
+"k": "city",
+"up": "china"
+},
+"c-yangzhou": {
+"en": "Yángzhōu",
+"ja": "揚州",
+"k": "city",
+"up": "china"
+},
+"c-yanji": {
+"en": "Enkichi",
+"ja": "延吉",
+"k": "city",
+"up": "manchuria"
+},
+"c-yantai": {
+"en": "Yāntái",
+"ja": "芝罘",
+"k": "city",
+"up": "china"
+},
+"c-yapcolonia": {
+"en": "Colonia",
+"ja": "ヤップ (Yappu)",
+"k": "city",
+"up": "nanyo"
+},
+"c-yawata": {
+"en": "Yawata",
+"ja": "八幡",
+"k": "city",
+"up": "japan"
+},
+"c-yawatahama": {
+"en": "Yawatahama",
+"ja": "八幡濱",
+"k": "city",
+"up": "japan"
+},
+"c-yenangyaung": {
+"en": "Yenangyaung",
+"ja": "ရေနံချောင်း",
+"k": "city",
+"up": "w-britishindia"
+},
+"c-yichang": {
+"en": "Yíchāng",
+"ja": "宜昌",
+"k": "city",
+"up": "china"
+},
+"c-yilan": {
+"en": "Giran",
+"ja": "宜蘭",
+"k": "city",
+"up": "taiwan"
+},
+"c-yinchuan": {
+"en": "Yínchuān",
+"ja": "寧夏",
+"k": "city",
+"up": "china"
+},
+"c-yingkou": {
+"en": "Eikō",
+"ja": "営口",
+"k": "city",
+"up": "manchuria"
+},
+"c-yining": {
+"en": "Yīníng",
+"ja": "伊寧",
+"k": "city",
+"up": "w-xinjiang"
+},
+"c-yokkaichi": {
+"en": "Yokkaichi",
+"ja": "四日市",
+"k": "city",
+"up": "japan"
+},
+"c-yokohama": {
+"en": "Yokohama",
+"ja": "横浜",
+"k": "city",
+"up": "japan"
+},
+"c-yokosuka": {
+"en": "Yokosuka",
+"ja": "橫須賀",
+"k": "city",
+"up": "japan"
+},
+"c-yonago": {
+"en": "Yonago",
+"ja": "米子",
+"k": "city",
+"up": "japan"
+},
+"c-yonezawa": {
+"en": "Yonezawa",
+"ja": "米澤",
+"k": "city",
+"up": "japan"
+},
+"c-yueyang": {
+"en": "Yuèyáng",
+"ja": "岳陽",
+"k": "city",
+"up": "china"
+},
+"c-zamboanga": {
+"en": "Zamboanga",
+"ja": "Zamboanga",
+"k": "city",
+"up": "w-philippines"
+},
+"c-zhanjiang": {
+"en": "Fort Bayard",
+"ja": "湛江",
+"k": "city",
+"up": "w-guangzhouwan"
+},
+"c-zhengzhou": {
+"en": "Zhèngzhōu",
+"ja": "鄭州",
+"k": "city",
+"up": "china"
+},
+"c-zhenjiang": {
+"en": "Zhènjiāng",
+"ja": "鎮江",
+"k": "city",
+"up": "china"
+},
+"c-zigong": {
+"en": "Zìgòng",
+"ja": "自貢",
+"k": "city",
+"up": "china"
+},
+"c-zunyi": {
+"en": "Zūnyì",
+"ja": "遵義",
+"k": "city",
+"up": "china"
+},
+"china": {
+"en": "China",
+"ja": "中國",
+"k": "country",
+"up": null
+},
+"chinaproper": {
+"en": "China proper",
+"ja": "中國本部",
+"k": "region",
+"up": "china"
+},
+"cn-Anhui": {
+"en": "Ānhuī",
+"ja": "安徽",
+"k": "province",
+"up": "china"
+},
+"cn-Chahaer": {
+"en": "Cháhā’ěr",
+"ja": "察哈爾",
+"k": "province",
+"up": "china"
+},
+"cn-Fujian": {
+"en": "Fújiàn",
+"ja": "福建",
+"k": "province",
+"up": "china"
+},
+"cn-Gansu": {
+"en": "Gānsù",
+"ja": "甘肅",
+"k": "province",
+"up": "china"
+},
+"cn-Guangdong": {
+"en": "Guǎngdōng",
+"ja": "廣東",
+"k": "province",
+"up": "china"
+},
+"cn-Guangxi": {
+"en": "Guǎngxī",
+"ja": "廣西",
+"k": "province",
+"up": "china"
+},
+"cn-Guizhou": {
+"en": "Guìzhōu",
+"ja": "貴州",
+"k": "province",
+"up": "china"
+},
+"cn-Hebei": {
+"en": "Héběi",
+"ja": "河北",
+"k": "province",
+"up": "china"
+},
+"cn-Heilongjiang": {
+"en": "Hēilóngjiāng",
+"ja": "黑龍江",
+"k": "province",
+"up": "china"
+},
+"cn-Henan": {
+"en": "Hénán",
+"ja": "河南",
+"k": "province",
+"up": "china"
+},
+"cn-Hubei": {
+"en": "Húběi",
+"ja": "湖北",
+"k": "province",
+"up": "china"
+},
+"cn-Hunan": {
+"en": "Húnán",
+"ja": "湖南",
+"k": "province",
+"up": "china"
+},
+"cn-Jehol": {
+"en": "Rèhé",
+"ja": "熱河",
+"k": "province",
+"up": "china"
+},
+"cn-Jiangsu": {
+"en": "Jiāngsū",
+"ja": "江蘇",
+"k": "province",
+"up": "china"
+},
+"cn-Jiangxi": {
+"en": "Jiāngxī",
+"ja": "江西",
+"k": "province",
+"up": "china"
+},
+"cn-Jilin": {
+"en": "Jílín",
+"ja": "吉林",
+"k": "province",
+"up": "china"
+},
+"cn-Liaoning": {
+"en": "Liáoníng",
+"ja": "遼寧",
+"k": "province",
+"up": "china"
+},
+"cn-Ningxia": {
+"en": "Níngxià",
+"ja": "寧夏",
+"k": "province",
+"up": "china"
+},
+"cn-Qinghai": {
+"en": "Qīnghǎi",
+"ja": "青海",
+"k": "province",
+"up": "china"
+},
+"cn-Shaanxi": {
+"en": "Shǎnxī",
+"ja": "陝西",
+"k": "province",
+"up": "china"
+},
+"cn-Shandong": {
+"en": "Shāndōng",
+"ja": "山東",
+"k": "province",
+"up": "china"
+},
+"cn-Shanxi": {
+"en": "Shānxī",
+"ja": "山西",
+"k": "province",
+"up": "china"
+},
+"cn-Sichuan": {
+"en": "Sìchuān",
+"ja": "四川",
+"k": "province",
+"up": "china"
+},
+"cn-Suiyuan": {
+"en": "Suíyuǎn",
+"ja": "綏遠",
+"k": "province",
+"up": "china"
+},
+"cn-Xikang": {
+"en": "Xīkāng",
+"ja": "西康",
+"k": "province",
+"up": "china"
+},
+"cn-Xinjiang": {
+"en": "Xīnjiāng",
+"ja": "新疆",
+"k": "province",
+"up": "china"
+},
+"cn-Xizang": {
+"en": "Tibet",
+"ja": "西藏",
+"k": "province",
+"up": "china"
+},
+"cn-Yunnan": {
+"en": "Yúnnán",
+"ja": "雲南",
+"k": "province",
+"up": "china"
+},
+"cn-Zhejiang": {
+"en": "Zhèjiāng",
+"ja": "浙江",
+"k": "province",
+"up": "china"
+},
+"empire": {
+"en": "Japanese Empire",
+"ja": "大日本帝國",
+"k": "empire",
+"up": null
+},
+"japan": {
+"en": "Japan proper",
+"ja": "内地",
+"k": "region",
+"up": "empire"
+},
+"jp01": {
+"en": "Hokkaidō",
+"ja": "北海道",
+"k": "prefecture",
+"up": "japan"
+},
+"jp02": {
+"en": "Aomori",
+"ja": "青森縣",
+"k": "prefecture",
+"up": "japan"
+},
+"jp03": {
+"en": "Iwate",
+"ja": "岩手縣",
+"k": "prefecture",
+"up": "japan"
+},
+"jp04": {
+"en": "Miyagi",
+"ja": "宮城縣",
+"k": "prefecture",
+"up": "japan"
+},
+"jp05": {
+"en": "Akita",
+"ja": "秋田縣",
+"k": "prefecture",
+"up": "japan"
+},
+"jp06": {
+"en": "Yamagata",
+"ja": "山形縣",
+"k": "prefecture",
+"up": "japan"
+},
+"jp07": {
+"en": "Fukushima",
+"ja": "福島縣",
+"k": "prefecture",
+"up": "japan"
+},
+"jp08": {
+"en": "Ibaraki",
+"ja": "茨城縣",
+"k": "prefecture",
+"up": "japan"
+},
+"jp09": {
+"en": "Tochigi",
+"ja": "栃木縣",
+"k": "prefecture",
+"up": "japan"
+},
+"jp10": {
+"en": "Gunma",
+"ja": "群馬縣",
+"k": "prefecture",
+"up": "japan"
+},
+"jp11": {
+"en": "Saitama",
+"ja": "埼玉縣",
+"k": "prefecture",
+"up": "japan"
+},
+"jp12": {
+"en": "Chiba",
+"ja": "千葉縣",
+"k": "prefecture",
+"up": "japan"
+},
+"jp13": {
+"en": "Tōkyō",
+"ja": "東京縣",
+"k": "prefecture",
+"up": "japan"
+},
+"jp14": {
+"en": "Kanagawa",
+"ja": "神奈川縣",
+"k": "prefecture",
+"up": "japan"
+},
+"jp15": {
+"en": "Niigata",
+"ja": "新潟縣",
+"k": "prefecture",
+"up": "japan"
+},
+"jp16": {
+"en": "Toyama",
+"ja": "富山縣",
+"k": "prefecture",
+"up": "japan"
+},
+"jp17": {
+"en": "Ishikawa",
+"ja": "石川縣",
+"k": "prefecture",
+"up": "japan"
+},
+"jp18": {
+"en": "Fukui",
+"ja": "福井縣",
+"k": "prefecture",
+"up": "japan"
+},
+"jp19": {
+"en": "Yamanashi",
+"ja": "山梨縣",
+"k": "prefecture",
+"up": "japan"
+},
+"jp20": {
+"en": "Nagano",
+"ja": "長野縣",
+"k": "prefecture",
+"up": "japan"
+},
+"jp21": {
+"en": "Gifu",
+"ja": "岐阜縣",
+"k": "prefecture",
+"up": "japan"
+},
+"jp22": {
+"en": "Shizuoka",
+"ja": "静岡縣",
+"k": "prefecture",
+"up": "japan"
+},
+"jp23": {
+"en": "Aichi",
+"ja": "愛知縣",
+"k": "prefecture",
+"up": "japan"
+},
+"jp24": {
+"en": "Mie",
+"ja": "三重縣",
+"k": "prefecture",
+"up": "japan"
+},
+"jp25": {
+"en": "Shiga",
+"ja": "滋賀縣",
+"k": "prefecture",
+"up": "japan"
+},
+"jp26": {
+"en": "Kyōto",
+"ja": "京都",
+"k": "prefecture",
+"up": "japan"
+},
+"jp27": {
+"en": "Ōsaka",
+"ja": "大阪縣",
+"k": "prefecture",
+"up": "japan"
+},
+"jp28": {
+"en": "Hyōgo",
+"ja": "兵庫縣",
+"k": "prefecture",
+"up": "japan"
+},
+"jp29": {
+"en": "Nara",
+"ja": "奈良縣",
+"k": "prefecture",
+"up": "japan"
+},
+"jp30": {
+"en": "Wakayama",
+"ja": "和歌山縣",
+"k": "prefecture",
+"up": "japan"
+},
+"jp31": {
+"en": "Tottori",
+"ja": "鳥取縣",
+"k": "prefecture",
+"up": "japan"
+},
+"jp32": {
+"en": "Shimane",
+"ja": "島根縣",
+"k": "prefecture",
+"up": "japan"
+},
+"jp33": {
+"en": "Okayama",
+"ja": "岡山縣",
+"k": "prefecture",
+"up": "japan"
+},
+"jp34": {
+"en": "Hiroshima",
+"ja": "広島縣",
+"k": "prefecture",
+"up": "japan"
+},
+"jp35": {
+"en": "Yamaguchi",
+"ja": "山口縣",
+"k": "prefecture",
+"up": "japan"
+},
+"jp36": {
+"en": "Tokushima",
+"ja": "徳島縣",
+"k": "prefecture",
+"up": "japan"
+},
+"jp37": {
+"en": "Kagawa",
+"ja": "香川縣",
+"k": "prefecture",
+"up": "japan"
+},
+"jp38": {
+"en": "Ehime",
+"ja": "愛媛縣",
+"k": "prefecture",
+"up": "japan"
+},
+"jp39": {
+"en": "Kōchi",
+"ja": "高知縣",
+"k": "prefecture",
+"up": "japan"
+},
+"jp40": {
+"en": "Fukuoka",
+"ja": "福岡縣",
+"k": "prefecture",
+"up": "japan"
+},
+"jp41": {
+"en": "Saga",
+"ja": "佐賀縣",
+"k": "prefecture",
+"up": "japan"
+},
+"jp42": {
+"en": "Nagasaki",
+"ja": "長崎縣",
+"k": "prefecture",
+"up": "japan"
+},
+"jp43": {
+"en": "Kumamoto",
+"ja": "熊本縣",
+"k": "prefecture",
+"up": "japan"
+},
+"jp44": {
+"en": "Ōita",
+"ja": "大分縣",
+"k": "prefecture",
+"up": "japan"
+},
+"jp45": {
+"en": "Miyazaki",
+"ja": "宮崎縣",
+"k": "prefecture",
+"up": "japan"
+},
+"jp46": {
+"en": "Kagoshima",
+"ja": "鹿児島縣",
+"k": "prefecture",
+"up": "japan"
+},
+"jp47": {
+"en": "Okinawa",
+"ja": "沖縄縣",
+"k": "prefecture",
+"up": "japan"
+},
+"karafuto": {
+"en": "Karafuto (south Sakhalin)",
+"ja": "樺太",
+"k": "colony",
+"up": "empire"
+},
+"kiaochow": {
+"en": "Kiaochow Leased Territory",
+"ja": "膠州灣",
+"k": "colony",
+"up": "china"
+},
+"korea": {
+"en": "Korea (Chōsen)",
+"ja": "朝鮮",
+"k": "colony",
+"up": "empire"
+},
+"kr-Chuseihoku": {
+"en": "Chūseihoku-dō",
+"ja": "忠清北道",
+"k": "province",
+"up": "korea"
+},
+"kr-Chuseinan": {
+"en": "Chūseinan-dō",
+"ja": "忠清南道",
+"k": "province",
+"up": "korea"
+},
+"kr-Heianhoku": {
+"en": "Heianhoku-dō",
+"ja": "平安北道",
+"k": "province",
+"up": "korea"
+},
+"kr-Heiannan": {
+"en": "Heiannan-dō",
+"ja": "平安南道",
+"k": "province",
+"up": "korea"
+},
+"kr-Kankyohoku": {
+"en": "Kankyōhoku-dō",
+"ja": "咸鏡北道",
+"k": "province",
+"up": "korea"
+},
+"kr-Kankyonan": {
+"en": "Kankyōnan-dō",
+"ja": "咸鏡南道",
+"k": "province",
+"up": "korea"
+},
+"kr-Keiki": {
+"en": "Keiki-dō",
+"ja": "京畿道",
+"k": "province",
+"up": "korea"
+},
+"kr-Keishohoku": {
+"en": "Keishōhoku-dō",
+"ja": "慶尚北道",
+"k": "province",
+"up": "korea"
+},
+"kr-Keishonan": {
+"en": "Keishōnan-dō",
+"ja": "慶尚南道",
+"k": "province",
+"up": "korea"
+},
+"kr-Kogen": {
+"en": "Kōgen-dō",
+"ja": "江原道",
+"k": "province",
+"up": "korea"
+},
+"kr-Kokai": {
+"en": "Kōkai-dō",
+"ja": "黄海道",
+"k": "province",
+"up": "korea"
+},
+"kr-Saishu": {
+"en": "Saishū-tō",
+"ja": "済州島",
+"k": "province",
+"up": "korea"
+},
+"kr-Zenrahoku": {
+"en": "Zenrahoku-dō",
+"ja": "全羅北道",
+"k": "province",
+"up": "korea"
+},
+"kr-Zenranan": {
+"en": "Zenranan-dō",
+"ja": "全羅南道",
+"k": "province",
+"up": "korea"
+},
+"kwantung": {
+"en": "Kwantung Leased Territory",
+"ja": "關東州",
+"k": "colony",
+"up": "empire"
+},
+"manchuria": {
+"en": "Manchuria / Manchukuo",
+"ja": "滿洲",
+"k": "region",
+"up": null
+},
+"mk-AnTung": {
+"en": "Antō-shō",
+"ja": "安東省",
+"k": "province",
+"up": "manchuria"
+},
+"mk-ChienTao": {
+"en": "Kantō-shō",
+"ja": "間島省",
+"k": "province",
+"up": "manchuria"
+},
+"mk-Chinchow": {
+"en": "Kinshū-shō",
+"ja": "錦州省",
+"k": "province",
+"up": "manchuria"
+},
+"mk-FengTien": {
+"en": "Hōten-shō",
+"ja": "奉天省",
+"k": "province",
+"up": "manchuria"
+},
+"mk-Heiho": {
+"en": "Kokka-shō",
+"ja": "黒河省",
+"k": "province",
+"up": "manchuria"
+},
+"mk-HsingAnNan": {
+"en": "Kōan-nan-shō",
+"ja": "興安南省",
+"k": "province",
+"up": "manchuria"
+},
+"mk-HsingAnPeh": {
+"en": "Kōan-hoku-shō",
+"ja": "興安北省",
+"k": "province",
+"up": "manchuria"
+},
+"mk-HsingAnSi": {
+"en": "Kōan-sei-shō",
+"ja": "興安西省",
+"k": "province",
+"up": "manchuria"
+},
+"mk-HsingAnTung": {
+"en": "Kōan-tō-shō",
+"ja": "興安東省",
+"k": "province",
+"up": "manchuria"
+},
+"mk-JeHol": {
+"en": "Nekka-shō",
+"ja": "熱河省",
+"k": "province",
+"up": "manchuria"
+},
+"mk-Kirin": {
+"en": "Kirin-shō",
+"ja": "吉林省",
+"k": "province",
+"up": "manchuria"
+},
+"mk-Lungkiang": {
+"en": "Ryūkō-shō",
+"ja": "龍江省",
+"k": "province",
+"up": "manchuria"
+},
+"mk-PinKiang": {
+"en": "Hinkō-shō",
+"ja": "濱江省",
+"k": "province",
+"up": "manchuria"
+},
+"mk-Sankiang": {
+"en": "Sankō-shō",
+"ja": "三江省",
+"k": "province",
+"up": "manchuria"
+},
+"nanyo": {
+"en": "South Seas Mandate",
+"ja": "南洋群島",
+"k": "colony",
+"up": "empire"
+},
+"r-chubu": {
+"en": "Chūbu region",
+"ja": "",
+"k": "region",
+"up": "japan"
+},
+"r-chugoku": {
+"en": "Chūgoku region",
+"ja": "",
+"k": "region",
+"up": "japan"
+},
+"r-hokkaido": {
+"en": "Hokkaidō region",
+"ja": "",
+"k": "region",
+"up": "japan"
+},
+"r-hokuriku": {
+"en": "Hokuriku region",
+"ja": "",
+"k": "region",
+"up": "japan"
+},
+"r-kansai": {
+"en": "Kansai region",
+"ja": "",
+"k": "region",
+"up": "japan"
+},
+"r-kanto": {
+"en": "Kantō region",
+"ja": "",
+"k": "region",
+"up": "japan"
+},
+"r-kinai": {
+"en": "Kinai region",
+"ja": "",
+"k": "region",
+"up": "japan"
+},
+"r-kinki": {
+"en": "Kinki region",
+"ja": "",
+"k": "region",
+"up": "japan"
+},
+"r-kyushu": {
+"en": "Kyūshū region",
+"ja": "",
+"k": "region",
+"up": "japan"
+},
+"r-nankai": {
+"en": "Nankai region",
+"ja": "",
+"k": "region",
+"up": "japan"
+},
+"r-saikai": {
+"en": "Saikai region",
+"ja": "",
+"k": "region",
+"up": "japan"
+},
+"r-sanin": {
+"en": "San'in region",
+"ja": "",
+"k": "region",
+"up": "japan"
+},
+"r-sanyo": {
+"en": "San'yō region",
+"ja": "",
+"k": "region",
+"up": "japan"
+},
+"r-shikoku": {
+"en": "Shikoku region",
+"ja": "",
+"k": "region",
+"up": "japan"
+},
+"r-tohoku": {
+"en": "Tōhoku region",
+"ja": "",
+"k": "region",
+"up": "japan"
+},
+"r-tokai": {
+"en": "Tōkai region",
+"ja": "",
+"k": "region",
+"up": "japan"
+},
+"r-tosan": {
+"en": "Tōsan region",
+"ja": "",
+"k": "region",
+"up": "japan"
+},
+"shanghai-cn": {
+"en": "Shanghai (Chinese city)",
+"ja": "上海華界",
+"k": "settlement",
+"up": "c-shanghai"
+},
+"shanghai-fc": {
+"en": "Shanghai French Concession",
+"ja": "上海法租界",
+"k": "settlement",
+"up": "c-shanghai"
+},
+"shanghai-is": {
+"en": "Shanghai International Settlement",
+"ja": "上海公共租界",
+"k": "settlement",
+"up": "c-shanghai"
+},
+"si-Agrihan": {
+"en": "Agrihan",
+"ja": "アグリハン",
+"k": "island",
+"up": "ss-Marianas"
+},
+"si-Anatahan": {
+"en": "Anatahan",
+"ja": "アナタハン",
+"k": "island",
+"up": "ss-Marianas"
+},
+"si-Angaur": {
+"en": "Angaur",
+"ja": "",
+"k": "island",
+"up": "ss-Palau"
+},
+"si-Babeldaob": {
+"en": "Babeldaob",
+"ja": "バベルダオブ",
+"k": "island",
+"up": "ss-Palau"
+},
+"si-Bikini": {
+"en": "Bikini",
+"ja": "",
+"k": "island",
+"up": "ss-Marshalls"
+},
+"si-Ebon": {
+"en": "Ebon",
+"ja": "エボン",
+"k": "island",
+"up": "ss-Marshalls"
+},
+"si-Enewetak": {
+"en": "Enewetak",
+"ja": "",
+"k": "island",
+"up": "ss-Marshalls"
+},
+"si-Jaluit": {
+"en": "Jaluit",
+"ja": "ヤルート",
+"k": "island",
+"up": "ss-Marshalls"
+},
+"si-Kwajalein": {
+"en": "Kwajalein",
+"ja": "",
+"k": "island",
+"up": "ss-Marshalls"
+},
+"si-Majuro": {
+"en": "Majuro",
+"ja": "マジュロ",
+"k": "island",
+"up": "ss-Marshalls"
+},
+"si-Pagan": {
+"en": "Pagan",
+"ja": "パガン",
+"k": "island",
+"up": "ss-Marianas"
+},
+"si-Peleliu": {
+"en": "Peleliu",
+"ja": "ペリリュー",
+"k": "island",
+"up": "ss-Palau"
+},
+"si-Rota": {
+"en": "Rota Island",
+"ja": "ロタ",
+"k": "island",
+"up": "ss-Marianas"
+},
+"si-Saipan": {
+"en": "Saipan Island",
+"ja": "サイパン",
+"k": "island",
+"up": "ss-Marianas"
+},
+"si-Tinian": {
+"en": "Tinian Island",
+"ja": "テニアン",
+"k": "island",
+"up": "ss-Marianas"
+},
+"si-Weno": {
+"en": "Moen",
+"ja": "春島",
+"k": "island",
+"up": "ss-Chuuk"
+},
+"si-Wotje": {
+"en": "Wotje",
+"ja": "",
+"k": "island",
+"up": "ss-Marshalls"
+},
+"smr": {
+"en": "South Manchuria Railway Zone",
+"ja": "滿鐵附屬地",
+"k": "region",
+"up": "manchuria"
+},
+"ss-Chuuk": {
+"en": "Truk",
+"ja": "トラック",
+"k": "island",
+"up": "nanyo"
+},
+"ss-Kosrae": {
+"en": "Kusaie",
+"ja": "クサイエ",
+"k": "island",
+"up": "nanyo"
+},
+"ss-Marianas": {
+"en": "Mariana Islands",
+"ja": "マリアナ諸島",
+"k": "island",
+"up": "nanyo"
+},
+"ss-Marshalls": {
+"en": "Marshall Islands",
+"ja": "マーシャル諸島",
+"k": "island",
+"up": "nanyo"
+},
+"ss-Palau": {
+"en": "Palau",
+"ja": "パラオ",
+"k": "island",
+"up": "nanyo"
+},
+"ss-Pohnpei": {
+"en": "Ponape",
+"ja": "ポナペ",
+"k": "island",
+"up": "nanyo"
+},
+"ss-Yap": {
+"en": "Yap",
+"ja": "ヤップ",
+"k": "island",
+"up": "nanyo"
+},
+"taiwan": {
+"en": "Taiwan (Formosa)",
+"ja": "臺灣",
+"k": "colony",
+"up": "empire"
+},
+"tw-TwBanchi": {
+"en": "Taiwan Government-General's demarcated \"Aborigine Territory\"",
+"ja": "所謂「蕃地」",
+"k": "district",
+"up": "taiwan"
+},
+"tw-TwBunzan": {
+"en": "Bunzan-gun",
+"ja": "文山郡",
+"k": "district",
+"up": "tw-TwShuTaihoku"
+},
+"tw-TwByoritsu": {
+"en": "Byōritsu-gun",
+"ja": "苗栗郡",
+"k": "district",
+"up": "tw-TwShuShinchiku"
+},
+"tw-TwChikunan": {
+"en": "Chikunan-gun",
+"ja": "竹南郡",
+"k": "district",
+"up": "tw-TwShuShinchiku"
+},
+"tw-TwChikuto": {
+"en": "Chikutō-gun",
+"ja": "竹東郡",
+"k": "district",
+"up": "tw-TwShuShinchiku"
+},
+"tw-TwChoshu": {
+"en": "Chōshū-gun",
+"ja": "潮州郡",
+"k": "district",
+"up": "tw-TwShuTakao"
+},
+"tw-TwChureki": {
+"en": "Chūreki-gun",
+"ja": "中壢郡",
+"k": "district",
+"up": "tw-TwShuShinchiku"
+},
+"tw-TwDaikei": {
+"en": "Daikei-gun",
+"ja": "大溪郡",
+"k": "district",
+"up": "tw-TwShuShinchiku"
+},
+"tw-TwDaiton": {
+"en": "Daiton-gun",
+"ja": "大屯郡",
+"k": "district",
+"up": "tw-TwShuTaichu"
+},
+"tw-TwGiran": {
+"en": "Giran-gun",
+"ja": "宜蘭郡",
+"k": "district",
+"up": "tw-TwShuTaihoku"
+},
+"tw-TwHeito": {
+"en": "Heitō-gun",
+"ja": "屏東郡",
+"k": "district",
+"up": "tw-TwShuTakao"
+},
+"tw-TwHoko": {
+"en": "Hōko-chō",
+"ja": "澎湖廳",
+"k": "prefecture",
+"up": "taiwan"
+},
+"tw-TwHokuko": {
+"en": "Hokukō-gun",
+"ja": "北港郡",
+"k": "district",
+"up": "tw-TwShuTainan"
+},
+"tw-TwHokumon": {
+"en": "Hokumon-gun",
+"ja": "北門郡",
+"k": "district",
+"up": "tw-TwShuTainan"
+},
+"tw-TwHokuto": {
+"en": "Hokuto-gun",
+"ja": "北斗郡",
+"k": "district",
+"up": "tw-TwShuTaichu"
+},
+"tw-TwHozan": {
+"en": "Hōzan-gun",
+"ja": "鳳山郡",
+"k": "district",
+"up": "tw-TwShuTakao"
+},
+"tw-TwInrin": {
+"en": "Inrin-gun",
+"ja": "員林郡",
+"k": "district",
+"up": "tw-TwShuTaichu"
+},
+"tw-TwKagi": {
+"en": "Kagi-gun",
+"ja": "嘉義郡",
+"k": "district",
+"up": "tw-TwShuTainan"
+},
+"tw-TwKagiShi": {
+"en": "Kagi-shi",
+"ja": "嘉義市",
+"k": "city",
+"up": "tw-TwShuTainan"
+},
+"tw-TwKaizan": {
+"en": "Kaizan-gun",
+"ja": "海山郡",
+"k": "district",
+"up": "tw-TwShuTaihoku"
+},
+"tw-TwKarenko": {
+"en": "Karenkō-chō",
+"ja": "花蓮港廳",
+"k": "prefecture",
+"up": "taiwan"
+},
+"tw-TwKirun": {
+"en": "Kīrun-gun",
+"ja": "基隆郡",
+"k": "district",
+"up": "tw-TwShuTaihoku"
+},
+"tw-TwKirunShi": {
+"en": "Kīrun-shi",
+"ja": "基隆市",
+"k": "city",
+"up": "tw-TwShuTaihoku"
+},
+"tw-TwKizan": {
+"en": "Kizan-gun",
+"ja": "旗山郡",
+"k": "district",
+"up": "tw-TwShuTakao"
+},
+"tw-TwKobi": {
+"en": "Kobi-gun",
+"ja": "虎尾郡",
+"k": "district",
+"up": "tw-TwShuTainan"
+},
+"tw-TwKoshun": {
+"en": "Kōshun-gun",
+"ja": "恆春郡",
+"k": "district",
+"up": "tw-TwShuTakao"
+},
+"tw-TwNanto": {
+"en": "Nantō-gun",
+"ja": "南投郡",
+"k": "district",
+"up": "tw-TwShuTaichu"
+},
+"tw-TwNiitaka": {
+"en": "Niitaka-gun",
+"ja": "新高郡",
+"k": "district",
+"up": "tw-TwShuTaichu"
+},
+"tw-TwNiitoyo": {
+"en": "Niitoyo-gun",
+"ja": "新豐郡",
+"k": "district",
+"up": "tw-TwShuTainan"
+},
+"tw-TwNoko": {
+"en": "Nōkō-gun",
+"ja": "能高郡",
+"k": "district",
+"up": "tw-TwShuTaichu"
+},
+"tw-TwOkayama": {
+"en": "Okayama-gun",
+"ja": "岡山郡",
+"k": "district",
+"up": "tw-TwShuTakao"
+},
+"tw-TwRato": {
+"en": "Ratō-gun",
+"ja": "羅東郡",
+"k": "district",
+"up": "tw-TwShuTaihoku"
+},
+"tw-TwShichisei": {
+"en": "Shichisei-gun",
+"ja": "七星郡",
+"k": "district",
+"up": "tw-TwShuTaihoku"
+},
+"tw-TwShinchiku": {
+"en": "Shinchiku-gun",
+"ja": "新竹郡",
+"k": "district",
+"up": "tw-TwShuShinchiku"
+},
+"tw-TwShinchikuShi": {
+"en": "Shinchiku-shi",
+"ja": "新竹市",
+"k": "city",
+"up": "tw-TwShuShinchiku"
+},
+"tw-TwShinei": {
+"en": "Shin'ei-gun",
+"ja": "新營郡",
+"k": "district",
+"up": "tw-TwShuTainan"
+},
+"tw-TwShinka": {
+"en": "Shinka-gun",
+"ja": "新化郡",
+"k": "district",
+"up": "tw-TwShuTainan"
+},
+"tw-TwShinsho": {
+"en": "Shinshō-gun",
+"ja": "新莊郡",
+"k": "district",
+"up": "tw-TwShuTaihoku"
+},
+"tw-TwShoka": {
+"en": "Shōka-gun",
+"ja": "彰化郡",
+"k": "district",
+"up": "tw-TwShuTaichu"
+},
+"tw-TwShuHoko": {
+"en": "Hōko-chō",
+"ja": "澎湖廳",
+"k": "prefecture",
+"up": "taiwan"
+},
+"tw-TwShuKarenko": {
+"en": "Karenkō-chō",
+"ja": "花蓮港廳",
+"k": "prefecture",
+"up": "taiwan"
+},
+"tw-TwShuShinchiku": {
+"en": "Shinchiku-shū",
+"ja": "新竹州",
+"k": "prefecture",
+"up": "taiwan"
+},
+"tw-TwShuTaichu": {
+"en": "Taichū-shū",
+"ja": "臺中州",
+"k": "prefecture",
+"up": "taiwan"
+},
+"tw-TwShuTaihoku": {
+"en": "Taihoku-shū",
+"ja": "臺北州",
+"k": "prefecture",
+"up": "taiwan"
+},
+"tw-TwShuTainan": {
+"en": "Tainan-shū",
+"ja": "臺南州",
+"k": "prefecture",
+"up": "taiwan"
+},
+"tw-TwShuTaito": {
+"en": "Taitō-chō",
+"ja": "臺東廳",
+"k": "prefecture",
+"up": "taiwan"
+},
+"tw-TwShuTakao": {
+"en": "Takao-shū",
+"ja": "高雄州",
+"k": "prefecture",
+"up": "taiwan"
+},
+"tw-TwSobun": {
+"en": "Sobun-gun",
+"ja": "曾文郡",
+"k": "district",
+"up": "tw-TwShuTainan"
+},
+"tw-TwSuo": {
+"en": "Suō-gun",
+"ja": "蘇澳郡",
+"k": "district",
+"up": "tw-TwShuTaihoku"
+},
+"tw-TwTaichu": {
+"en": "Taichū-shi",
+"ja": "臺中市",
+"k": "city",
+"up": "tw-TwShuTaichu"
+},
+"tw-TwTaihoku": {
+"en": "Taihoku-shi",
+"ja": "臺北市",
+"k": "city",
+"up": "tw-TwShuTaihoku"
+},
+"tw-TwTaiko": {
+"en": "Taiko-gun",
+"ja": "大湖郡",
+"k": "district",
+"up": "tw-TwShuShinchiku"
+},
+"tw-TwTaikou": {
+"en": "Taikō-gun",
+"ja": "大甲郡",
+"k": "district",
+"up": "tw-TwShuTaichu"
+},
+"tw-TwTainan": {
+"en": "Tainan-shi",
+"ja": "臺南市",
+"k": "city",
+"up": "tw-TwShuTainan"
+},
+"tw-TwTaito": {
+"en": "Taitō-chō",
+"ja": "臺東廳",
+"k": "prefecture",
+"up": "taiwan"
+},
+"tw-TwTakaoShi": {
+"en": "Takao-shi",
+"ja": "高雄市",
+"k": "city",
+"up": "tw-TwShuTakao"
+},
+"tw-TwTakeyama": {
+"en": "Takeyama-gun",
+"ja": "竹山郡",
+"k": "district",
+"up": "tw-TwShuTaichu"
+},
+"tw-TwTansui": {
+"en": "Tansui-gun",
+"ja": "淡水郡",
+"k": "district",
+"up": "tw-TwShuTaihoku"
+},
+"tw-TwToen": {
+"en": "Tōen-gun",
+"ja": "桃園郡",
+"k": "district",
+"up": "tw-TwShuShinchiku"
+},
+"tw-TwToko": {
+"en": "Tōkō-gun",
+"ja": "東港郡",
+"k": "district",
+"up": "tw-TwShuTakao"
+},
+"tw-TwToroku": {
+"en": "Toroku-gun",
+"ja": "斗六郡",
+"k": "district",
+"up": "tw-TwShuTainan"
+},
+"tw-TwTosei": {
+"en": "Tōsei-gun",
+"ja": "東勢郡",
+"k": "district",
+"up": "tw-TwShuTaichu"
+},
+"tw-TwToseki": {
+"en": "Tōseki-gun",
+"ja": "東石郡",
+"k": "district",
+"up": "tw-TwShuTainan"
+},
+"tw-TwToyohara": {
+"en": "Toyohara-gun",
+"ja": "豐原郡",
+"k": "district",
+"up": "tw-TwShuTaichu"
+},
+"w-aleutians": {
+"en": "Aleutian Islands",
+"ja": "",
+"k": "country",
+"up": "world"
+},
+"w-andaman": {
+"en": "Andaman & Nicobar Islands",
+"ja": "安達曼・ニコバル諸島",
+"k": "country",
+"up": "world"
+},
+"w-argentina": {
+"en": "Argentina",
+"ja": "亞爾然丁",
+"k": "country",
+"up": "world"
+},
+"w-attukiska": {
+"en": "Attu and Kiska",
+"ja": "アッツ島・キスカ島",
+"k": "country",
+"up": "world"
+},
+"w-australia": {
+"en": "Australia",
+"ja": "",
+"k": "country",
+"up": "world"
+},
+"w-austria": {
+"en": "Austria",
+"ja": "墺太利",
+"k": "country",
+"up": "world"
+},
+"w-belgium": {
+"en": "Belgium",
+"ja": "白耳義",
+"k": "country",
+"up": "world"
+},
+"w-bhutan": {
+"en": "Bhutan",
+"ja": "",
+"k": "country",
+"up": "world"
+},
+"w-borneo_br": {
+"en": "British Borneo",
+"ja": "北ボルネオ",
+"k": "country",
+"up": "world"
+},
+"w-brazil": {
+"en": "Brazil",
+"ja": "伯剌西爾",
+"k": "country",
+"up": "world"
+},
+"w-britishempire": {
+"en": "British Empire",
+"ja": "大英帝國",
+"k": "country",
+"up": "world"
+},
+"w-britishindia": {
+"en": "British India",
+"ja": "",
+"k": "country",
+"up": "world"
+},
+"w-brunei": {
+"en": "Brunei",
+"ja": "ブルネイ",
+"k": "country",
+"up": "world"
+},
+"w-burma": {
+"en": "Burma",
+"ja": "緬甸",
+"k": "country",
+"up": "world"
+},
+"w-canada": {
+"en": "Canada",
+"ja": "加奈陀",
+"k": "country",
+"up": "world"
+},
+"w-ccp": {
+"en": "Communist base areas and guerrilla zones",
+"ja": "中国共産党抗日根拠地",
+"k": "country",
+"up": "world"
+},
+"w-cededthai": {
+"en": "Battambang & Siem Reap",
+"ja": "泰国への割譲地",
+"k": "country",
+"up": "world"
+},
+"w-ceylon": {
+"en": "Ceylon",
+"ja": "",
+"k": "country",
+"up": "world"
+},
+"w-chahar": {
+"en": "Cháhā’ěr",
+"ja": "察哈爾",
+"k": "country",
+"up": "china"
+},
+"w-chile": {
+"en": "Chile",
+"ja": "智利",
+"k": "country",
+"up": "world"
+},
+"w-cocos": {
+"en": "Cocos",
+"ja": "",
+"k": "country",
+"up": "world"
+},
+"w-czech": {
+"en": "Czechoslovakia",
+"ja": "チェコスロヴァキア",
+"k": "country",
+"up": "world"
+},
+"w-dei": {
+"en": "Netherlands East Indies",
+"ja": "",
+"k": "country",
+"up": "world"
+},
+"w-denmark": {
+"en": "Denmark",
+"ja": "丁抹",
+"k": "country",
+"up": "world"
+},
+"w-dutchng_free": {
+"en": "Dutch New Guinea — the unoccupied south",
+"ja": "蘭領ニューギニア南部",
+"k": "country",
+"up": "world"
+},
+"w-egypt": {
+"en": "Egypt",
+"ja": "埃及",
+"k": "country",
+"up": "world"
+},
+"w-ellice": {
+"en": "Ellice Islands",
+"ja": "",
+"k": "country",
+"up": "world"
+},
+"w-france": {
+"en": "France",
+"ja": "佛國",
+"k": "country",
+"up": "world"
+},
+"w-freechina": {
+"en": "Republic of China",
+"ja": "中華民国・重慶政権",
+"k": "country",
+"up": "world"
+},
+"w-germany": {
+"en": "Germany",
+"ja": "獨逸",
+"k": "country",
+"up": "world"
+},
+"w-gilberts": {
+"en": "Gilbert & Ellice Islands",
+"ja": "ギルバート諸島",
+"k": "country",
+"up": "world"
+},
+"w-goa": {
+"en": "Portuguese India — Goa, Damão, Diu, Dadra & Nagar Haveli",
+"ja": "",
+"k": "country",
+"up": "world"
+},
+"w-greece": {
+"en": "Greece",
+"ja": "希臘",
+"k": "country",
+"up": "world"
+},
+"w-guadalcanal_i": {
+"en": "Guadalcanal",
+"ja": "ガダルカナル島",
+"k": "country",
+"up": "world"
+},
+"w-guam": {
+"en": "Guam",
+"ja": "グアム",
+"k": "country",
+"up": "world"
+},
+"w-guangzhouwan": {
+"en": "Guǎngzhōuwān",
+"ja": "広州湾",
+"k": "country",
+"up": "world"
+},
+"w-hawaii": {
+"en": "Hawaii",
+"ja": "",
+"k": "country",
+"up": "world"
+},
+"w-hongkong": {
+"en": "Hong Kong",
+"ja": "香港",
+"k": "country",
+"up": "world"
+},
+"w-hungary": {
+"en": "Hungary",
+"ja": "洪牙利",
+"k": "country",
+"up": "world"
+},
+"w-indochina": {
+"en": "French Indochina",
+"ja": "仏印",
+"k": "country",
+"up": "world"
+},
+"w-italy": {
+"en": "Italy",
+"ja": "伊太利",
+"k": "country",
+"up": "world"
+},
+"w-jehol": {
+"en": "Rèhé",
+"ja": "熱河",
+"k": "country",
+"up": "china"
+},
+"w-linephoenix": {
+"en": "The Line & Phoenix Islands",
+"ja": "",
+"k": "country",
+"up": "world"
+},
+"w-macau": {
+"en": "Macao",
+"ja": "マカオ",
+"k": "country",
+"up": "world"
+},
+"w-malaita": {
+"en": "Malaita",
+"ja": "マライタ島",
+"k": "country",
+"up": "world"
+},
+"w-malaya": {
+"en": "British Malaya & Singapore",
+"ja": "英領馬来",
+"k": "country",
+"up": "world"
+},
+"w-malaya_thai": {
+"en": "Kedah, Perlis, Kelantan & Trengganu",
+"ja": "マレー北部四州",
+"k": "country",
+"up": "world"
+},
+"w-manchukuo": {
+"en": "Manchukuo",
+"ja": "満洲国",
+"k": "country",
+"up": "world"
+},
+"w-mandate_au": {
+"en": "Territory of New Guinea — the mandate boundary",
+"ja": "",
+"k": "country",
+"up": "world"
+},
+"w-mandate_br": {
+"en": "Nauru — the mandate boundary",
+"ja": "",
+"k": "country",
+"up": "world"
+},
+"w-mandate_ex_guam": {
+"en": "Guam — inside the line, outside the mandate",
+"ja": "",
+"k": "country",
+"up": "world"
+},
+"w-mengjiang": {
+"en": "Měngjiāng",
+"ja": "蒙古自治邦",
+"k": "country",
+"up": "world"
+},
+"w-mexico": {
+"en": "Mexico",
+"ja": "墨西哥",
+"k": "country",
+"up": "world"
+},
+"w-miangas": {
+"en": "Miangas",
+"ja": "ミアンガス島",
+"k": "country",
+"up": "world"
+},
+"w-mongolia": {
+"en": "Mongolian People’s Republic",
+"ja": "",
+"k": "country",
+"up": "world"
+},
+"w-nanjinggov": {
+"en": "Japanese-occupied China",
+"ja": "日本占領地区",
+"k": "country",
+"up": "world"
+},
+"w-nauru_au": {
+"en": "Nauru",
+"ja": "ナウル",
+"k": "country",
+"up": "world"
+},
+"w-nca_pacified": {
+"en": "Pacified areas",
+"ja": "治安地区",
+"k": "country",
+"up": "world"
+},
+"w-nca_unpacified": {
+"en": "Un-pacified areas",
+"ja": "未治安地区",
+"k": "country",
+"up": "world"
+},
+"w-nepal": {
+"en": "Nepal",
+"ja": "",
+"k": "country",
+"up": "world"
+},
+"w-netherlands": {
+"en": "Netherlands",
+"ja": "和蘭",
+"k": "country",
+"up": "world"
+},
+"w-newguinea_au": {
+"en": "Papua & the Territory of New Guinea",
+"ja": "ニューギニア",
+"k": "country",
+"up": "world"
+},
+"w-newzealand": {
+"en": "New Zealand",
+"ja": "新西蘭",
+"k": "country",
+"up": "world"
+},
+"w-northborneo": {
+"en": "North Borneo",
+"ja": "北ボルネオ",
+"k": "country",
+"up": "world"
+},
+"w-norway": {
+"en": "Norway",
+"ja": "諾威",
+"k": "country",
+"up": "world"
+},
+"w-nzpacific": {
+"en": "Tokelau & the northern Cook Islands",
+"ja": "",
+"k": "country",
+"up": "world"
+},
+"w-papua_free": {
+"en": "Papua — the unoccupied south",
+"ja": "パプア南部",
+"k": "country",
+"up": "world"
+},
+"w-paracel": {
+"en": "Paracel Islands",
+"ja": "西沙群島",
+"k": "country",
+"up": "china"
+},
+"w-persia": {
+"en": "Persia",
+"ja": "波斯",
+"k": "country",
+"up": "world"
+},
+"w-peru": {
+"en": "Peru",
+"ja": "秘露",
+"k": "country",
+"up": "world"
+},
+"w-philippines": {
+"en": "Philippine Islands",
+"ja": "比島",
+"k": "country",
+"up": "world"
+},
+"w-poland": {
+"en": "Poland",
+"ja": "波蘭",
+"k": "country",
+"up": "world"
+},
+"w-pondicherry": {
+"en": "French India — Pondicherry, Karikal, Yanaon, Mahé, Chandernagore",
+"ja": "",
+"k": "country",
+"up": "world"
+},
+"w-portugal": {
+"en": "Portugal",
+"ja": "葡萄牙",
+"k": "country",
+"up": "world"
+},
+"w-pratas": {
+"en": "Dōngshā",
+"ja": "東沙島",
+"k": "country",
+"up": "china"
+},
+"w-princelystates": {
+"en": "Princely states",
+"ja": "",
+"k": "country",
+"up": "world"
+},
+"w-russia": {
+"en": "Russia",
+"ja": "露國",
+"k": "country",
+"up": "world"
+},
+"w-saharat": {
+"en": "Kengtung and the trans-Salween Shan states",
+"ja": "",
+"k": "country",
+"up": "world"
+},
+"w-sarawak": {
+"en": "Sarawak",
+"ja": "サラワク",
+"k": "country",
+"up": "world"
+},
+"w-siam": {
+"en": "Siam",
+"ja": "",
+"k": "country",
+"up": "world"
+},
+"w-sikkim": {
+"en": "Sikkim",
+"ja": "",
+"k": "country",
+"up": "world"
+},
+"w-solomons_allied": {
+"en": "The central & eastern Solomons and the Santa Cruz Islands",
+"ja": "ソロモン諸島中部・東部・サンタクルーズ諸島",
+"k": "country",
+"up": "world"
+},
+"w-solomons_br": {
+"en": "British Solomon Islands",
+"ja": "ソロモン諸島",
+"k": "country",
+"up": "world"
+},
+"w-southafrica": {
+"en": "South Africa",
+"ja": "南阿",
+"k": "country",
+"up": "world"
+},
+"w-spain": {
+"en": "Spain",
+"ja": "西班牙",
+"k": "country",
+"up": "world"
+},
+"w-spratly": {
+"en": "Spratly Islands",
+"ja": "新南群島",
+"k": "country",
+"up": "world"
+},
+"w-suiyuan": {
+"en": "Suíyuǎn",
+"ja": "綏遠",
+"k": "country",
+"up": "china"
+},
+"w-sweden": {
+"en": "Sweden",
+"ja": "瑞典",
+"k": "country",
+"up": "world"
+},
+"w-switzerland": {
+"en": "Switzerland",
+"ja": "瑞西",
+"k": "country",
+"up": "world"
+},
+"w-thailand": {
+"en": "Thailand",
+"ja": "",
+"k": "country",
+"up": "world"
+},
+"w-tibet": {
+"en": "Tibet",
+"ja": "チベット",
+"k": "country",
+"up": "world"
+},
+"w-timor_pt": {
+"en": "Portuguese Timor",
+"ja": "",
+"k": "country",
+"up": "world"
+},
+"w-tulagi": {
+"en": "Tulagi and the Florida Islands",
+"ja": "ツラギ・フロリダ諸島",
+"k": "country",
+"up": "world"
+},
+"w-turkey": {
+"en": "Turkey",
+"ja": "土耳古",
+"k": "country",
+"up": "world"
+},
+"w-turtle": {
+"en": "Turtle & Mangsee Islands",
+"ja": "",
+"k": "country",
+"up": "world"
+},
+"w-tuva": {
+"en": "Tannu Tuva",
+"ja": "",
+"k": "country",
+"up": "world"
+},
+"w-uk": {
+"en": "United Kingdom",
+"ja": "英國",
+"k": "country",
+"up": "world"
+},
+"w-us": {
+"en": "United States",
+"ja": "米國",
+"k": "country",
+"up": "world"
+},
+"w-uspacific": {
+"en": "Palmyra, Kingman Reef, Howland, Baker, Jarvis & Swains",
+"ja": "",
+"k": "country",
+"up": "world"
+},
+"w-ussr": {
+"en": "Soviet Union",
+"ja": "",
+"k": "country",
+"up": "world"
+},
+"w-wake": {
+"en": "Wake Island",
+"ja": "",
+"k": "country",
+"up": "world"
+},
+"w-weihaiwei": {
+"en": "Wēihǎiwèi",
+"ja": "威海衛",
+"k": "country",
+"up": "world"
+},
+"w-xinjiang": {
+"en": "Xīnjiāng",
+"ja": "新疆",
+"k": "country",
+"up": "china"
+},
+"world": {
+"en": "Other countries",
+"ja": "",
+"k": "world",
+"up": null
+}
+}
+}

@@ -2,7 +2,7 @@
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&display=swap">
 <script src="fold.js"></script>
-<title>Full Search · Old Year Book Tables of East Asia</title>
+<title>Search · Old Tables of East Asia</title>
 <style>
 :root{--bg:#f4f5f3;--panel:#ffffff;--ink:#1b2420;--muted:#5d6a62;--line:#d8ded9;--accent:#1f4a2c;--accent-ink:#ffffff;--hi:#e2ece4;--warn:#8a5a00;--mark:#f3e3a0}
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#111814;--panel:#17211b;--ink:#e4ebe6;--muted:#9aa89f;--line:#2c3a31;--accent:#8cc49e;--accent-ink:#0f1a13;--hi:#1f3527;--warn:#e0a54a;--mark:#5a4d1c}}
@@ -36,8 +36,9 @@ input,select{font:inherit;font-size:16px;padding:8px 10px;border:1px solid var(-
 .r .snip div{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 mark{background:var(--mark);color:inherit}
 .llmwarn{margin:24px 0 8px;padding:12px 14px;border:1px solid var(--warn);border-left:4px solid var(--warn);background:var(--panel);font-size:14px}
+#fcards{display:flex;flex-direction:column;gap:6px;margin:0 0 10px}#fcards .fcard{display:block;border:1px solid var(--line);border-left:4px solid var(--accent);background:var(--panel);padding:8px 12px;color:var(--ink);text-decoration:none;font-size:15px}#fcards .fcard:hover{border-color:var(--accent)}#fcards .fcard b{font-weight:600;color:var(--accent)}#fcards .fcard span{display:block;font-size:13px;color:var(--muted)}
 </style></head><body>
-<header><a href="./">← All books</a><h1>Full Search</h1><button id="toggle" title="Toggle light/dark">◐</button></header>
+<header><a href="./">← All books</a><h1>Search</h1><button id="toggle" title="Toggle light/dark">◐</button></header>
 <main>
 <div class="box"><input id="q" type="search" placeholder="e.g. rice, Dairen, cotton exports, Mitsui, Kato…" autofocus>
 <select id="scope" aria-label="Search in">
@@ -49,7 +50,7 @@ mark{background:var(--mark);color:inherit}
 <label><input type="checkbox" id="titles"> Titles and names only</label>
 <button id="reset" type="button" hidden>Clear filters</button>
 </div></div>
-<div id="status"></div><div id="out"></div>
+<div id="fcards"></div><div id="status"></div><div id="out"></div>
 <div class="llmwarn" role="note"><b>Warning:</b> These tables were transcribed by the vision models of Opus 5.5, Sonnet 5.5, or Haiku 5.5 (named on each book's page). Before using any of these figures, you must verify specific statistics with the original source which is linked to whenever possible.</div>
 </main>
 <script>
@@ -114,7 +115,17 @@ function state(){const o={q:$("#q").value.trim(),s:$("#scope").value};if($("#reg
 // while one runs, only the latest request is kept and it starts when the current one ends
 let BUSY=false,AGAIN=false;
 async function run(){if(BUSY){AGAIN=true;return}BUSY=true;try{do{AGAIN=false;await run1()}while(AGAIN)}finally{BUSY=false}}
-async function run1(){const q=$("#q").value.trim(),sc=$("#scope").value,ti=$("#titles").checked;const terms=norm(q).replace(/"/g," ").split(/\s+/).filter(Boolean);
+// finder pages (build/finders/): a card for each place whose name matches the query, above the results
+const FINDERS=[{"name": "population", "title": "Population", "page": "figures/population.html", "index": "data/population/index.json"}];const FIDX={};
+function ffold(s){return String(s||"").normalize("NFKD").replace(/[\u0300-\u036f]/g,"").toLowerCase().replace(/[-'’ʻ`.\s]+/g,"")}
+async function finderCards(q){const box=$("#fcards");if(!box)return;const v=ffold(q);if(v.length<2||(v.length<3&&!/[\u3400-\u9fff]/.test(v))){box.innerHTML="";return}
+ let h="";for(const f of FINDERS){try{if(!FIDX[f.name])FIDX[f.name]=fetch(f.index).then(r=>r.json());const d=await FIDX[f.name];
+  const hits=[];for(const [id,a] of Object.entries(d.places)){if(!a[10])continue;const names=[a[0],a[1],...(a[11]||[])].map(ffold);
+   const sc=names.includes(v)?2:names.some(n=>n.startsWith(v)&&v.length>=4)?1:0;if(sc)hits.push([sc,a[10],id,a])}
+  hits.sort((x,y)=>y[0]-x[0]||y[1]-x[1]);
+  for(const [sc,n,id,a] of hits.slice(0,3))h+=`<a class="fcard" href="${f.page}#p=${encodeURIComponent(id)}"><b>${esc(f.title)}: ${esc(a[0])}</b> ${esc(a[1])}<span>${n.toLocaleString("en-US")} figure${n===1?"":"s"}${a[4]?`, ${a[5]}–${a[6]}`:""} from the site's tables →</span></a>`}catch(e){}}
+ if(ffold($("#q").value.trim())===v)box.innerHTML=h}
+async function run1(){const q=$("#q").value.trim(),sc=$("#scope").value,ti=$("#titles").checked;finderCards(q);const terms=norm(q).replace(/"/g," ").split(/\s+/).filter(Boolean);
  const st=state();const filt=!!(st.r||st.y1||st.y2||st.ti),narrow=!!(st.r||st.y1||st.y2);$("#reset").hidden=!filt;
  try{history.replaceState(null,"",q||sc!=="all"||filt?"#"+new URLSearchParams(st).toString():location.pathname)}catch(e){}
  const nb=BOOKS.filter(bookFilter()).length,inb=narrow?` in ${nb} book${nb===1?"":"s"}`:"";

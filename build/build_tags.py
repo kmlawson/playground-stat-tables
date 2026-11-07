@@ -93,10 +93,34 @@ def shell(title, body, data):
     return '<!DOCTYPE html>\n<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">' + f'<title>{html.escape(title)}</title><link rel="stylesheet" href="../tags.css"></head><body class="tag-browser"><header class="band"><div><nav class="navigation"><a href="../index.html">← All books</a><a href="index.html">All topics and tags</a></nav><h1>{html.escape(title)}</h1></div></header><main>' + body + '</main><script id="tag-browser-data" type="application/json">' + inline(data) + '</script><script src="../data/tags/vocabulary.js"></script><script src="../tags.js"></script></body></html>\n'
 
 
-def page_body(entry, scope, region, counts):
+def finder_buttons():
+    """Finder pages (Population …) beside "Tables with Map" on the Topics index."""
+    try:
+        import sys as _s
+        _s.path.insert(0, str(SITE / "build" / "finders"))
+        import registry
+        return registry.topics_buttons()
+    except Exception as e:
+        print("finders: no buttons:", e)
+        return ""
+
+
+def finder_banner(kind, ident):
+    """The note linking a finder page (build/finders/registry.py), on the topic and tag pages it covers."""
+    try:
+        import sys as _s
+        _s.path.insert(0, str(SITE / "build" / "finders"))
+        import registry
+        return registry.banner(kind, ident)
+    except Exception as e:  # a missing finder never stops the tag pages
+        print("finders: no banner:", e)
+        return ""
+
+
+def page_body(entry, scope, region, counts, kind=None, ident=None):
     description = html.escape(entry["definition"])
     nav = '<nav class="navigation">' + ' · '.join(f'<a href="{r}-{scope}.html">{name}</a>' for r, name in COLLECTIONS.items()) + '</nav>' if scope else ""
-    return f'<p class="lede">{description}</p>{nav}<p class="status">{counts:,} tagged tables. Tagging is in progress; tables retain the original books’ categories, units and historical wording.</p>' + '''
+    return f'<p class="lede">{description}</p>{nav}<p class="status">{counts:,} tagged tables. Tagging is in progress; tables retain the original books’ categories, units and historical wording.</p>' + (finder_banner(kind, ident) if kind else "") + '''
 <div class="controls"><label class="search-control">Search this selection<input type="search" id="query" placeholder="Titles, chapters, books or tags"></label><label>Collection<select id="collection"><option value="">All collections</option></select></label><label>Book<select id="book"><option value="">All books</option></select></label><label>Detailed tag<select id="detail"><option value="">All detailed tags</option></select></label><label>Group tables by<select id="group"><option value="book">Book</option><option value="year">Edition year</option></select></label><button id="reset" type="button">Reset filters</button></div>
 <h2>Coverage at a glance</h2><div class="coverage-key" id="coverage-key" aria-label="Book series colour key"></div><div class="coverage" id="coverage"></div><p class="coverage-note" id="grid-note"></p><label><span><input type="checkbox" id="all-grid-tags"> Show every detailed tag in the grid</span></label>
 <h2>Explore related tags</h2><div class="tag-list" id="related-tags"></div><details id="related-more"><summary>More related tags</summary><div class="tag-list" id="related-extra"></div></details>
@@ -152,11 +176,11 @@ def build_tag_pages(pages):
             prefix = "topic" if kind == "topics" else "tag" if kind == "tags" else "flag"
             filename = f"{prefix}-{identifier}.html"
             common = {"mode": "facet", "collections": COLLECTIONS, "scope": {"kind": kind, "id": identifier}, "books": books, "items": selected}
-            (topics_dir / filename).write_text(shell(entry["label"].capitalize() + " tables", page_body(entry, identifier if kind == "topics" else None, None, len(selected)), common))
+            (topics_dir / filename).write_text(shell(entry["label"].capitalize() + " tables", page_body(entry, identifier if kind == "topics" else None, None, len(selected), kind, identifier), common))
             if kind == "topics":
                 for region, region_name in COLLECTIONS.items():
                     local = [item for item in selected if groups[item["s"]] == region]
-                    doc = shell(f"{region_name}: {entry['label']}", page_body(entry, identifier, region, len(local)), common | {"region": region, "items": local})
+                    doc = shell(f"{region_name}: {entry['label']}", page_body(entry, identifier, region, len(local), "topics", identifier), common | {"region": region, "items": local})
                     (topics_dir / f"{region}-{identifier}.html").write_text(doc)
                     if identifier == "crime-and-justice":
                         (topics_dir / f"{region}-crime.html").write_text(doc)
@@ -174,7 +198,7 @@ def build_tag_pages(pages):
     body = body.replace('<div class="coverage">', key_html + '<div class="coverage">', 1)
     body = ('<p style="margin:4px 0 18px"><a href="with-maps.html" style="display:inline-block;padding:8px 14px;border-radius:6px;'
             'background:var(--accent);color:var(--accent-ink);text-decoration:none;font-weight:600;font-size:15px;line-height:1.2">'
-            'Tables with Map →</a></p>') + body
+            'Tables with Map →</a>' + finder_buttons() + '</p>') + body
     (topics_dir / "index.html").write_text(shell("Tables by topic and tag", body, {"mode": "index", "books": books, "tagCounts": {identifier: facet_counts[("tags", identifier)] for identifier in labels["tags"]}, "tagTopics": {identifier: sorted(topics) for identifier, topics in tag_topics.items()}}))
     print(f"Tag pages: {len(labels['topics'])} topics, {len(labels['tags'])} details, {len(items):,} tables; original data unchanged")
 

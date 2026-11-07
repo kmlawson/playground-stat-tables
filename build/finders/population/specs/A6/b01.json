@@ -1,0 +1,3267 @@
+[
+ {
+  "t": "china-1914:p0022_1",
+  "x": [
+   {
+    "pt": "region",
+    "in": "China",
+    "m": "households",
+    "d": "1910",
+    "b": "census",
+    "n": "Minchengpu census, families",
+    "cols": [
+     {
+      "c": 1
+     }
+    ]
+   }
+  ],
+  "fp": "f43002138e"
+ },
+ {
+  "t": "china-1914:p0022_2",
+  "x": [
+   {
+    "pt": "region",
+    "in": "China",
+    "d": "1910",
+    "b": "estimate",
+    "n": "worked out from 1910 census",
+    "rp": {
+     "6": "China"
+    },
+    "cols": [
+     {
+      "c": 1
+     }
+    ]
+   }
+  ],
+  "fp": "dfc4717218"
+ },
+ {
+  "t": "china-1914:p0022_3",
+  "x": [
+   {
+    "rows": "dates",
+    "p": "China",
+    "b": "estimate",
+    "cols": [
+     {
+      "c": 1
+     }
+    ]
+   },
+   {
+    "rows": "dates",
+    "lc": 2,
+    "p": "China",
+    "b": "estimate",
+    "cols": [
+     {
+      "c": 3
+     }
+    ]
+   }
+  ],
+  "fp": "e2f068c900"
+ },
+ {
+  "t": "china-1914:p0023_1",
+  "x": [
+   {
+    "pt": "province",
+    "in": "China",
+    "rp": {
+     "21": "-",
+     "26": "China"
+    },
+    "cols": [
+     {
+      "c": 2,
+      "d": "1910",
+      "b": "census",
+      "n": "Minchengpu census"
+     },
+     {
+      "c": 5,
+      "d": "1885",
+      "b": "census"
+     },
+     {
+      "c": 6,
+      "d": "1910",
+      "b": "estimate",
+      "n": "Customs estimate"
+     }
+    ]
+   }
+  ],
+  "fp": "365a107b49"
+ },
+ {
+  "t": "china-1914:p0024_1",
+  "x": [
+   {
+    "pt": "country",
+    "in": "World",
+    "d": "~1914",
+    "b": "estimate",
+    "cols": [
+     {
+      "c": 2
+     }
+    ]
+   }
+  ],
+  "fp": "5521fc09ad"
+ },
+ {
+  "t": "china-1914:p0050_1",
+  "skip": "races, no counts",
+  "fp": "603b02c0c3"
+ },
+ {
+  "t": "china-1914:p0487_1",
+  "skip": "representatives only",
+  "fp": "a21a051a4c"
+ },
+ {
+  "t": "china-1914:p0681_1",
+  "x": [
+   {
+    "rows": "cells",
+    "cells": [
+     {
+      "r": 0,
+      "c": 2,
+      "p": "China",
+      "d": "~1914",
+      "m": "total",
+      "g": "american"
+     },
+     {
+      "r": 1,
+      "c": 2,
+      "p": "China",
+      "d": "~1914",
+      "m": "total",
+      "g": "austrian"
+     },
+     {
+      "r": 2,
+      "c": 2,
+      "p": "China",
+      "d": "~1914",
+      "m": "total",
+      "g": "belgian"
+     },
+     {
+      "r": 3,
+      "c": 2,
+      "p": "China",
+      "d": "~1914",
+      "m": "total",
+      "g": "brazilian"
+     },
+     {
+      "r": 4,
+      "c": 2,
+      "p": "China",
+      "d": "~1914",
+      "m": "total",
+      "g": "british"
+     },
+     {
+      "r": 5,
+      "c": 2,
+      "p": "China",
+      "d": "~1914",
+      "m": "total",
+      "g": "danish"
+     },
+     {
+      "r": 6,
+      "c": 2,
+      "p": "China",
+      "d": "~1914",
+      "m": "total",
+      "g": "dutch"
+     },
+     {
+      "r": 7,
+      "c": 2,
+      "p": "China",
+      "d": "~1914",
+      "m": "total",
+      "g": "french"
+     },
+     {
+      "r": 8,
+      "c": 2,
+      "p": "China",
+      "d": "~1914",
+      "m": "total",
+      "g": "german"
+     },
+     {
+      "r": 9,
+      "c": 2,
+      "p": "China",
+      "d": "~1914",
+      "m": "total",
+      "g": "hungarian"
+     },
+     {
+      "r": 10,
+      "c": 2,
+      "p": "China",
+      "d": "~1914",
+      "m": "total",
+      "g": "italian"
+     },
+     {
+      "r": 11,
+      "c": 2,
+      "p": "China",
+      "d": "~1914",
+      "m": "total",
+      "g": "japanese"
+     },
+     {
+      "r": 12,
+      "c": 2,
+      "p": "China",
+      "d": "~1914",
+      "m": "total",
+      "g": "norwegian"
+     },
+     {
+      "r": 13,
+      "c": 2,
+      "p": "China",
+      "d": "~1914",
+      "m": "total",
+      "g": "peruvian"
+     },
+     {
+      "r": 14,
+      "c": 2,
+      "p": "China",
+      "d": "~1914",
+      "m": "total",
+      "g": "portuguese"
+     },
+     {
+      "r": 15,
+      "c": 2,
+      "p": "China",
+      "d": "~1914",
+      "m": "total",
+      "g": "russian"
+     },
+     {
+      "r": 16,
+      "c": 2,
+      "p": "China",
+      "d": "~1914",
+      "m": "total",
+      "g": "spanish"
+     },
+     {
+      "r": 17,
+      "c": 2,
+      "p": "China",
+      "d": "~1914",
+      "m": "total",
+      "g": "swedish"
+     },
+     {
+      "r": 19,
+      "c": 2,
+      "p": "China",
+      "d": "~1914",
+      "m": "total",
+      "g": "foreign"
+     }
+    ]
+   }
+  ],
+  "fp": "b5c0374fc9"
+ },
+ {
+  "t": "china-1914:p0684_1",
+  "x": [
+   {
+    "rows": "cells",
+    "cells": [
+     {
+      "r": 0,
+      "c": 1,
+      "p": "Shanghai International Settlement",
+      "d": "1910",
+      "m": "total",
+      "g": "british",
+      "b": "census"
+     },
+     {
+      "r": 1,
+      "c": 1,
+      "p": "Shanghai International Settlement",
+      "d": "1910",
+      "m": "total",
+      "g": "japanese",
+      "b": "census"
+     },
+     {
+      "r": 2,
+      "c": 1,
+      "p": "Shanghai International Settlement",
+      "d": "1910",
+      "m": "total",
+      "g": "portuguese",
+      "b": "census"
+     },
+     {
+      "r": 3,
+      "c": 1,
+      "p": "Shanghai International Settlement",
+      "d": "1910",
+      "m": "total",
+      "g": "american",
+      "b": "census"
+     },
+     {
+      "r": 4,
+      "c": 1,
+      "p": "Shanghai International Settlement",
+      "d": "1910",
+      "m": "total",
+      "g": "german",
+      "b": "census"
+     },
+     {
+      "r": 5,
+      "c": 1,
+      "p": "Shanghai International Settlement",
+      "d": "1910",
+      "m": "total",
+      "g": "french",
+      "b": "census"
+     },
+     {
+      "r": 6,
+      "c": 1,
+      "p": "Shanghai International Settlement",
+      "d": "1910",
+      "m": "total",
+      "g": "russian",
+      "b": "census"
+     },
+     {
+      "r": 7,
+      "c": 1,
+      "p": "Shanghai International Settlement",
+      "d": "1910",
+      "m": "total",
+      "g": "spanish",
+      "b": "census"
+     },
+     {
+      "r": 8,
+      "c": 1,
+      "p": "Shanghai International Settlement",
+      "d": "1910",
+      "m": "total",
+      "g": "italian",
+      "b": "census"
+     },
+     {
+      "r": 9,
+      "c": 1,
+      "p": "Shanghai International Settlement",
+      "d": "1910",
+      "m": "total",
+      "g": "danish",
+      "b": "census"
+     },
+     {
+      "r": 10,
+      "c": 1,
+      "p": "Shanghai International Settlement",
+      "d": "1910",
+      "m": "total",
+      "g": "austro-hungarian",
+      "b": "census"
+     },
+     {
+      "r": 11,
+      "c": 1,
+      "p": "Shanghai International Settlement",
+      "d": "1910",
+      "m": "total",
+      "g": "norwegian",
+      "b": "census"
+     },
+     {
+      "r": 12,
+      "c": 1,
+      "p": "Shanghai International Settlement",
+      "d": "1910",
+      "m": "total",
+      "g": "turkish",
+      "b": "census"
+     }
+    ]
+   },
+   {
+    "rows": "cells",
+    "cells": [
+     {
+      "r": 0,
+      "c": 3,
+      "p": "Shanghai International Settlement",
+      "d": "1910",
+      "m": "total",
+      "g": "swedish",
+      "b": "census"
+     },
+     {
+      "r": 1,
+      "c": 3,
+      "p": "Shanghai International Settlement",
+      "d": "1910",
+      "m": "total",
+      "g": "swiss",
+      "b": "census"
+     },
+     {
+      "r": 2,
+      "c": 3,
+      "p": "Shanghai International Settlement",
+      "d": "1910",
+      "m": "total",
+      "g": "dutch",
+      "b": "census"
+     },
+     {
+      "r": 3,
+      "c": 3,
+      "p": "Shanghai International Settlement",
+      "d": "1910",
+      "m": "total",
+      "g": "persian",
+      "b": "census"
+     },
+     {
+      "r": 4,
+      "c": 3,
+      "p": "Shanghai International Settlement",
+      "d": "1910",
+      "m": "total",
+      "g": "greek",
+      "b": "census"
+     },
+     {
+      "r": 5,
+      "c": 3,
+      "p": "Shanghai International Settlement",
+      "d": "1910",
+      "m": "total",
+      "g": "belgian",
+      "b": "census"
+     },
+     {
+      "r": 6,
+      "c": 3,
+      "p": "Shanghai International Settlement",
+      "d": "1910",
+      "m": "total",
+      "g": "rumanian",
+      "b": "census"
+     },
+     {
+      "r": 7,
+      "c": 3,
+      "p": "Shanghai International Settlement",
+      "d": "1910",
+      "m": "total",
+      "g": "arabian",
+      "b": "census"
+     },
+     {
+      "r": 8,
+      "c": 3,
+      "p": "Shanghai International Settlement",
+      "d": "1910",
+      "m": "total",
+      "g": "brazilian",
+      "b": "census"
+     },
+     {
+      "r": 9,
+      "c": 3,
+      "p": "Shanghai International Settlement",
+      "d": "1910",
+      "m": "total",
+      "g": "indian",
+      "b": "census"
+     },
+     {
+      "r": 10,
+      "c": 3,
+      "p": "Shanghai International Settlement",
+      "d": "1910",
+      "m": "total",
+      "g": "egyptian",
+      "b": "census"
+     },
+     {
+      "r": 11,
+      "c": 3,
+      "p": "Shanghai International Settlement",
+      "d": "1910",
+      "m": "total",
+      "g": "sundry",
+      "b": "census"
+     },
+     {
+      "r": 12,
+      "c": 3,
+      "p": "Shanghai International Settlement",
+      "d": "1910",
+      "m": "total",
+      "g": "foreign",
+      "b": "census"
+     }
+    ]
+   }
+  ],
+  "fp": "0848970cda"
+ },
+ {
+  "t": "china-1914:p0706_1",
+  "skip": "volunteer corps members",
+  "fp": "e45c384a8b"
+ },
+ {
+  "t": "china-1924-5:p0024_1",
+  "x": [
+   {
+    "pt": "region",
+    "in": "China",
+    "m": "households",
+    "d": "1910",
+    "b": "census",
+    "n": "Minchengpu census, families",
+    "cols": [
+     {
+      "c": 1
+     }
+    ]
+   }
+  ],
+  "fp": "9480f901cb"
+ },
+ {
+  "t": "china-1924-5:p0024_2",
+  "x": [
+   {
+    "pt": "region",
+    "in": "China",
+    "d": "1910",
+    "b": "estimate",
+    "n": "worked out from 1910 census",
+    "rp": {
+     "6": "China"
+    },
+    "cols": [
+     {
+      "c": 1
+     }
+    ]
+   }
+  ],
+  "fp": "d6f0b78496"
+ },
+ {
+  "t": "china-1924-5:p0024_3",
+  "x": [
+   {
+    "part": 0,
+    "rows": "dates",
+    "p": "China",
+    "b": "estimate",
+    "cols": [
+     {
+      "c": 1
+     }
+    ]
+   },
+   {
+    "part": 1,
+    "rows": "dates",
+    "p": "China",
+    "b": "estimate",
+    "cols": [
+     {
+      "c": 1
+     }
+    ]
+   }
+  ],
+  "fp": "c621aa34c6"
+ },
+ {
+  "t": "china-1924-5:p0025_1",
+  "x": [
+   {
+    "pt": "province",
+    "in": "China",
+    "rp": {
+     "18": "Manchuria",
+     "19": "-",
+     "24": "China"
+    },
+    "cols": [
+     {
+      "c": 3,
+      "d": "1910",
+      "b": "census",
+      "n": "Minchengpu census"
+     },
+     {
+      "c": 2,
+      "d": "1885",
+      "b": "census"
+     },
+     {
+      "c": 5,
+      "d": "1922",
+      "b": "estimate",
+      "n": "Post Office estimate"
+     }
+    ]
+   }
+  ],
+  "fp": "c1f1a82d54"
+ },
+ {
+  "t": "china-1924-5:p0026_1",
+  "x": [
+   {
+    "pt": "district",
+    "in": "Chihli",
+    "d": "1922",
+    "b": "estimate",
+    "n": "Post Office estimate",
+    "cols": [
+     {
+      "c": 2
+     }
+    ],
+    "rp": {
+     "12": "-"
+    }
+   },
+   {
+    "pt": "district",
+    "in": "Chihli",
+    "d": "1922",
+    "b": "estimate",
+    "n": "Post Office estimate",
+    "lc": 3,
+    "cols": [
+     {
+      "c": 5
+     }
+    ],
+    "rp": {
+     "12": "-"
+    }
+   }
+  ],
+  "fp": "9e7ef6d360"
+ },
+ {
+  "t": "china-1924-5:p0026_2",
+  "x": [
+   {
+    "pt": "district",
+    "in": "Chihli",
+    "d": "1922",
+    "b": "estimate",
+    "n": "Post Office estimate",
+    "cols": [
+     {
+      "c": 2
+     }
+    ],
+    "rp": {
+     "68": "-"
+    }
+   },
+   {
+    "pt": "district",
+    "in": "Chihli",
+    "d": "1922",
+    "b": "estimate",
+    "n": "Post Office estimate",
+    "lc": 3,
+    "cols": [
+     {
+      "c": 5
+     }
+    ],
+    "rp": {
+     "68": "Chihli"
+    }
+   }
+  ],
+  "fp": "04203639c0"
+ },
+ {
+  "t": "china-1924-5:p0028_1",
+  "x": [
+   {
+    "pt": "district",
+    "in": "Shansi",
+    "d": "1922",
+    "b": "estimate",
+    "n": "Post Office estimate",
+    "cols": [
+     {
+      "c": 2
+     }
+    ],
+    "rp": {
+     "58": "-"
+    },
+    "only": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33,
+     34,
+     35,
+     36,
+     37,
+     38,
+     39,
+     40,
+     41,
+     42,
+     43,
+     44,
+     45,
+     46,
+     47,
+     48,
+     49,
+     50,
+     51,
+     52,
+     53,
+     54,
+     55,
+     56,
+     57,
+     58
+    ]
+   },
+   {
+    "pt": "district",
+    "in": "Shansi",
+    "d": "1922",
+    "b": "estimate",
+    "n": "Post Office estimate",
+    "lc": 3,
+    "cols": [
+     {
+      "c": 5
+     }
+    ],
+    "rp": {
+     "58": "Shansi"
+    },
+    "only": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33,
+     34,
+     35,
+     36,
+     37,
+     38,
+     39,
+     40,
+     41,
+     42,
+     43,
+     44,
+     45,
+     46,
+     47,
+     48,
+     49,
+     50,
+     51,
+     52,
+     53,
+     54,
+     55,
+     56,
+     57,
+     58
+    ]
+   },
+   {
+    "pt": "district",
+    "in": "Honan",
+    "d": "1922",
+    "b": "estimate",
+    "n": "Post Office estimate",
+    "cols": [
+     {
+      "c": 2
+     }
+    ],
+    "rp": {
+     "113": "-"
+    },
+    "only": [
+     59,
+     60,
+     61,
+     62,
+     63,
+     64,
+     65,
+     66,
+     67,
+     68,
+     69,
+     70,
+     71,
+     72,
+     73,
+     74,
+     75,
+     76,
+     77,
+     78,
+     79,
+     80,
+     81,
+     82,
+     83,
+     84,
+     85,
+     86,
+     87,
+     88,
+     89,
+     90,
+     91,
+     92,
+     93,
+     94,
+     95,
+     96,
+     97,
+     98,
+     99,
+     100,
+     101,
+     102,
+     103,
+     104,
+     105,
+     106,
+     107,
+     108,
+     109,
+     110,
+     111,
+     112,
+     113
+    ]
+   },
+   {
+    "pt": "district",
+    "in": "Honan",
+    "d": "1922",
+    "b": "estimate",
+    "n": "Post Office estimate",
+    "lc": 3,
+    "cols": [
+     {
+      "c": 5
+     }
+    ],
+    "rp": {
+     "113": "Honan"
+    },
+    "only": [
+     59,
+     60,
+     61,
+     62,
+     63,
+     64,
+     65,
+     66,
+     67,
+     68,
+     69,
+     70,
+     71,
+     72,
+     73,
+     74,
+     75,
+     76,
+     77,
+     78,
+     79,
+     80,
+     81,
+     82,
+     83,
+     84,
+     85,
+     86,
+     87,
+     88,
+     89,
+     90,
+     91,
+     92,
+     93,
+     94,
+     95,
+     96,
+     97,
+     98,
+     99,
+     100,
+     101,
+     102,
+     103,
+     104,
+     105,
+     106,
+     107,
+     108,
+     109,
+     110,
+     111,
+     112,
+     113
+    ]
+   }
+  ],
+  "fp": "a4cda401bd"
+ },
+ {
+  "t": "china-1924-5:p0031_1",
+  "x": [
+   {
+    "pt": "district",
+    "in": "Shensi",
+    "d": "1922",
+    "b": "estimate",
+    "n": "Post Office estimate",
+    "cols": [
+     {
+      "c": 2
+     }
+    ],
+    "rp": {
+     "45": "-"
+    }
+   },
+   {
+    "pt": "district",
+    "in": "Shensi",
+    "d": "1922",
+    "b": "estimate",
+    "n": "Post Office estimate",
+    "lc": 3,
+    "cols": [
+     {
+      "c": 5
+     }
+    ],
+    "rp": {
+     "45": "Shensi"
+    }
+   }
+  ],
+  "fp": "e77477b55e"
+ },
+ {
+  "t": "china-1924-5:p0032_1",
+  "x": [
+   {
+    "pt": "district",
+    "in": "Kansu",
+    "d": "1922",
+    "b": "estimate",
+    "n": "Post Office estimate",
+    "cols": [
+     {
+      "c": 2
+     }
+    ]
+   },
+   {
+    "pt": "district",
+    "in": "Kansu",
+    "d": "1922",
+    "b": "estimate",
+    "n": "Post Office estimate",
+    "lc": 3,
+    "cols": [
+     {
+      "c": 5
+     }
+    ]
+   }
+  ],
+  "fp": "7e67a6bb7f"
+ },
+ {
+  "t": "china-1924-5:p0033_1",
+  "x": [
+   {
+    "pt": "district",
+    "in": "Kansu",
+    "d": "1922",
+    "b": "estimate",
+    "n": "Post Office estimate",
+    "cols": [
+     {
+      "c": 2
+     }
+    ]
+   },
+   {
+    "part": 1,
+    "pt": "district",
+    "in": "Kansu",
+    "d": "1922",
+    "b": "estimate",
+    "n": "Post Office estimate",
+    "cols": [
+     {
+      "c": 2
+     }
+    ],
+    "rp": {
+     "31": "Kansu"
+    }
+   }
+  ],
+  "fp": "11907fb313"
+ },
+ {
+  "t": "china-1924-5:p0033_2",
+  "x": [
+   {
+    "pt": "district",
+    "in": "Sinkiang",
+    "d": "1922",
+    "b": "estimate",
+    "n": "Post Office estimate",
+    "cols": [
+     {
+      "c": 2
+     }
+    ]
+   },
+   {
+    "part": 1,
+    "pt": "district",
+    "in": "Sinkiang",
+    "d": "1922",
+    "b": "estimate",
+    "n": "Post Office estimate",
+    "cols": [
+     {
+      "c": 2
+     }
+    ]
+   }
+  ],
+  "fp": "0fe4d28c6d"
+ },
+ {
+  "t": "china-1924-5:p0034_1",
+  "x": [
+   {
+    "pt": "district",
+    "in": "Sinkiang",
+    "d": "1922",
+    "b": "estimate",
+    "n": "Post Office estimate",
+    "cols": [
+     {
+      "c": 2
+     }
+    ],
+    "rp": {
+     "18": "-"
+    }
+   },
+   {
+    "pt": "district",
+    "in": "Sinkiang",
+    "d": "1922",
+    "b": "estimate",
+    "n": "Post Office estimate",
+    "lc": 3,
+    "cols": [
+     {
+      "c": 5
+     }
+    ],
+    "rp": {
+     "18": "Sinkiang"
+    }
+   }
+  ],
+  "fp": "9f20c828f6"
+ },
+ {
+  "t": "china-1924-5:p0034_2",
+  "x": [
+   {
+    "pt": "district",
+    "in": "Fengtien",
+    "d": "1922",
+    "b": "estimate",
+    "n": "Post Office estimate",
+    "cols": [
+     {
+      "c": 2
+     }
+    ]
+   },
+   {
+    "pt": "district",
+    "in": "Fengtien",
+    "d": "1922",
+    "b": "estimate",
+    "n": "Post Office estimate",
+    "lc": 3,
+    "cols": [
+     {
+      "c": 5
+     }
+    ]
+   }
+  ],
+  "fp": "dabd46d106"
+ },
+ {
+  "t": "china-1924-5:p0035_1",
+  "x": [
+   {
+    "pt": "district",
+    "in": "Fengtien",
+    "d": "1922",
+    "b": "estimate",
+    "n": "Post Office estimate",
+    "cols": [
+     {
+      "c": 2
+     }
+    ],
+    "rp": {
+     "11": "-"
+    }
+   },
+   {
+    "pt": "district",
+    "in": "Fengtien",
+    "d": "1922",
+    "b": "estimate",
+    "n": "Post Office estimate",
+    "lc": 3,
+    "cols": [
+     {
+      "c": 5
+     }
+    ],
+    "rp": {
+     "11": "Fengtien"
+    }
+   }
+  ],
+  "fp": "45a69678a6"
+ },
+ {
+  "t": "china-1924-5:p0035_2",
+  "x": [
+   {
+    "pt": "district",
+    "in": "Manchuria",
+    "d": "1922",
+    "b": "estimate",
+    "n": "Post Office estimate",
+    "cols": [
+     {
+      "c": 2
+     }
+    ],
+    "rp": {
+     "39": "-"
+    }
+   },
+   {
+    "pt": "district",
+    "in": "Manchuria",
+    "d": "1922",
+    "b": "estimate",
+    "n": "Post Office estimate",
+    "lc": 3,
+    "cols": [
+     {
+      "c": 5
+     }
+    ],
+    "rp": {
+     "39": "-"
+    }
+   }
+  ],
+  "fp": "f81c953900"
+ },
+ {
+  "t": "china-1924-5:p0036_1",
+  "x": [
+   {
+    "pt": "district",
+    "in": "Shantung",
+    "d": "1922",
+    "b": "estimate",
+    "n": "Post Office estimate",
+    "cols": [
+     {
+      "c": 2
+     }
+    ]
+   },
+   {
+    "pt": "district",
+    "in": "Shantung",
+    "d": "1922",
+    "b": "estimate",
+    "n": "Post Office estimate",
+    "lc": 3,
+    "cols": [
+     {
+      "c": 5
+     }
+    ]
+   }
+  ],
+  "fp": "c60124ff72"
+ },
+ {
+  "t": "china-1924-5:p0037_1",
+  "x": [
+   {
+    "pt": "district",
+    "in": "Shantung",
+    "d": "1922",
+    "b": "estimate",
+    "n": "Post Office estimate",
+    "cols": [
+     {
+      "c": 2
+     }
+    ]
+   },
+   {
+    "part": 1,
+    "pt": "district",
+    "in": "Shantung",
+    "d": "1922",
+    "b": "estimate",
+    "n": "Post Office estimate",
+    "cols": [
+     {
+      "c": 2
+     }
+    ],
+    "rp": {
+     "27": "Shantung"
+    }
+   }
+  ],
+  "fp": "b592fe4ef3"
+ },
+ {
+  "t": "china-1924-5:p0037_2",
+  "x": [
+   {
+    "pt": "district",
+    "in": "Szechwan",
+    "d": "1922",
+    "b": "estimate",
+    "n": "Post Office estimate",
+    "cols": [
+     {
+      "c": 2
+     }
+    ]
+   },
+   {
+    "part": 1,
+    "pt": "district",
+    "in": "Szechwan",
+    "d": "1922",
+    "b": "estimate",
+    "n": "Post Office estimate",
+    "cols": [
+     {
+      "c": 2
+     }
+    ]
+   },
+   {
+    "part": 2,
+    "pt": "district",
+    "in": "Szechwan",
+    "d": "1922",
+    "b": "estimate",
+    "n": "Post Office estimate",
+    "cols": [
+     {
+      "c": 2
+     }
+    ]
+   },
+   {
+    "part": 3,
+    "pt": "district",
+    "in": "Szechwan",
+    "d": "1922",
+    "b": "estimate",
+    "n": "Post Office estimate",
+    "cols": [
+     {
+      "c": 2
+     }
+    ],
+    "rp": {
+     "26": "Szechwan"
+    }
+   }
+  ],
+  "fp": "1d2d486385"
+ },
+ {
+  "t": "china-1924-5:p0039_1",
+  "x": [
+   {
+    "pt": "district",
+    "in": "Hupeh",
+    "d": "1922",
+    "b": "estimate",
+    "n": "Post Office estimate",
+    "cols": [
+     {
+      "c": 2
+     }
+    ]
+   },
+   {
+    "part": 1,
+    "pt": "district",
+    "in": "Hupeh",
+    "d": "1922",
+    "b": "estimate",
+    "n": "Post Office estimate",
+    "cols": [
+     {
+      "c": 2
+     }
+    ]
+   }
+  ],
+  "fp": "71ffdd65e0"
+ },
+ {
+  "t": "china-1924-5:p0040_1",
+  "x": [
+   {
+    "pt": "district",
+    "in": "Hupeh",
+    "d": "1922",
+    "b": "estimate",
+    "n": "Post Office estimate",
+    "cols": [
+     {
+      "c": 2
+     }
+    ]
+   },
+   {
+    "pt": "district",
+    "in": "Hupeh",
+    "d": "1922",
+    "b": "estimate",
+    "n": "Post Office estimate",
+    "lc": 3,
+    "cols": [
+     {
+      "c": 5
+     }
+    ]
+   }
+  ],
+  "fp": "a8f6f8dee2"
+ },
+ {
+  "t": "china-1924-5:p0040_2",
+  "x": [
+   {
+    "pt": "district",
+    "in": "Hunan",
+    "d": "1922",
+    "b": "estimate",
+    "n": "Post Office estimate",
+    "cols": [
+     {
+      "c": 2
+     }
+    ],
+    "rp": {
+     "38": "-"
+    },
+    "only": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33,
+     34,
+     35,
+     36,
+     37,
+     38
+    ]
+   },
+   {
+    "pt": "district",
+    "in": "Hunan",
+    "d": "1922",
+    "b": "estimate",
+    "n": "Post Office estimate",
+    "lc": 3,
+    "cols": [
+     {
+      "c": 5
+     }
+    ],
+    "rp": {
+     "38": "Hunan"
+    },
+    "only": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33,
+     34,
+     35,
+     36,
+     37,
+     38
+    ]
+   },
+   {
+    "pt": "district",
+    "in": "Kiangsi",
+    "d": "1922",
+    "b": "estimate",
+    "n": "Post Office estimate",
+    "cols": [
+     {
+      "c": 2
+     }
+    ],
+    "rp": {
+     "74": "-"
+    },
+    "only": [
+     39,
+     40,
+     41,
+     42,
+     43,
+     44,
+     45,
+     46,
+     47,
+     48,
+     49,
+     50,
+     51,
+     52,
+     53,
+     54,
+     55,
+     56,
+     57,
+     58,
+     59,
+     60,
+     61,
+     62,
+     63,
+     64,
+     65,
+     66,
+     67,
+     68,
+     69,
+     70,
+     71,
+     72,
+     73,
+     74
+    ]
+   },
+   {
+    "pt": "district",
+    "in": "Kiangsi",
+    "d": "1922",
+    "b": "estimate",
+    "n": "Post Office estimate",
+    "lc": 3,
+    "cols": [
+     {
+      "c": 5
+     }
+    ],
+    "rp": {
+     "74": "-"
+    },
+    "only": [
+     39,
+     40,
+     41,
+     42,
+     43,
+     44,
+     45,
+     46,
+     47,
+     48,
+     49,
+     50,
+     51,
+     52,
+     53,
+     54,
+     55,
+     56,
+     57,
+     58,
+     59,
+     60,
+     61,
+     62,
+     63,
+     64,
+     65,
+     66,
+     67,
+     68,
+     69,
+     70,
+     71,
+     72,
+     73,
+     74
+    ]
+   },
+   {
+    "pt": "district",
+    "in": "Kiangsu",
+    "d": "1922",
+    "b": "estimate",
+    "n": "Post Office estimate",
+    "cols": [
+     {
+      "c": 2
+     }
+    ],
+    "rp": {
+     "100": "-"
+    },
+    "only": [
+     76,
+     77,
+     78,
+     79,
+     80,
+     81,
+     82,
+     83,
+     84,
+     85,
+     86,
+     87,
+     88,
+     89,
+     90,
+     91,
+     92,
+     93,
+     94,
+     95,
+     96,
+     97,
+     98,
+     99,
+     100
+    ]
+   },
+   {
+    "pt": "district",
+    "in": "Kiangsu",
+    "d": "1922",
+    "b": "estimate",
+    "n": "Post Office estimate",
+    "lc": 3,
+    "cols": [
+     {
+      "c": 5
+     }
+    ],
+    "rp": {
+     "100": "Kiangsu"
+    },
+    "only": [
+     76,
+     77,
+     78,
+     79,
+     80,
+     81,
+     82,
+     83,
+     84,
+     85,
+     86,
+     87,
+     88,
+     89,
+     90,
+     91,
+     92,
+     93,
+     94,
+     95,
+     96,
+     97,
+     98,
+     99,
+     100
+    ]
+   }
+  ],
+  "fp": "29e8ac6b24"
+ },
+ {
+  "t": "china-1924-5:p0043_1",
+  "x": [
+   {
+    "pt": "district",
+    "in": "Kiangsu",
+    "d": "1922",
+    "b": "estimate",
+    "n": "Post Office estimate",
+    "cols": [
+     {
+      "c": 2
+     }
+    ],
+    "rp": {
+     "7": "-"
+    }
+   },
+   {
+    "pt": "district",
+    "in": "Kiangsu",
+    "d": "1922",
+    "b": "estimate",
+    "n": "Post Office estimate",
+    "lc": 3,
+    "cols": [
+     {
+      "c": 5
+     }
+    ],
+    "rp": {
+     "7": "-"
+    }
+   }
+  ],
+  "fp": "5a3879411e"
+ },
+ {
+  "t": "china-1924-5:p0043_2",
+  "x": [
+   {
+    "pt": "district",
+    "in": "Anhwei",
+    "d": "1922",
+    "b": "estimate",
+    "n": "Post Office estimate",
+    "cols": [
+     {
+      "c": 2
+     }
+    ],
+    "rp": {
+     "30": "-"
+    }
+   },
+   {
+    "pt": "district",
+    "in": "Anhwei",
+    "d": "1922",
+    "b": "estimate",
+    "n": "Post Office estimate",
+    "lc": 3,
+    "cols": [
+     {
+      "c": 5
+     }
+    ],
+    "rp": {
+     "30": "Anhwei"
+    }
+   }
+  ],
+  "fp": "fa8f5d6ea5"
+ },
+ {
+  "t": "china-1924-5:p0044_1",
+  "x": [
+   {
+    "pt": "district",
+    "in": "Chekiang",
+    "d": "1922",
+    "b": "estimate",
+    "n": "Post Office estimate",
+    "cols": [
+     {
+      "c": 2
+     }
+    ],
+    "rp": {
+     "38": "-"
+    }
+   },
+   {
+    "pt": "district",
+    "in": "Chekiang",
+    "d": "1922",
+    "b": "estimate",
+    "n": "Post Office estimate",
+    "lc": 3,
+    "cols": [
+     {
+      "c": 5
+     }
+    ],
+    "rp": {
+     "38": "Chekiang"
+    }
+   }
+  ],
+  "fp": "31a2d04bec"
+ },
+ {
+  "t": "china-1924-5:p0045_1",
+  "x": [
+   {
+    "pt": "district",
+    "in": "Fukien",
+    "d": "1922",
+    "b": "estimate",
+    "n": "Post Office estimate",
+    "cols": [
+     {
+      "c": 2
+     }
+    ],
+    "rp": {
+     "32": "-"
+    }
+   },
+   {
+    "pt": "district",
+    "in": "Fukien",
+    "d": "1922",
+    "b": "estimate",
+    "n": "Post Office estimate",
+    "lc": 3,
+    "cols": [
+     {
+      "c": 5
+     }
+    ],
+    "rp": {
+     "32": "Fukien"
+    }
+   }
+  ],
+  "fp": "e20ecb0142"
+ },
+ {
+  "t": "china-1924-5:p0046_1",
+  "x": [
+   {
+    "pt": "district",
+    "in": "Kwangtung",
+    "d": "1922",
+    "b": "estimate",
+    "n": "Post Office estimate",
+    "cols": [
+     {
+      "c": 2
+     }
+    ]
+   },
+   {
+    "pt": "district",
+    "in": "Kwangtung",
+    "d": "1922",
+    "b": "estimate",
+    "n": "Post Office estimate",
+    "lc": 3,
+    "cols": [
+     {
+      "c": 5
+     }
+    ]
+   }
+  ],
+  "fp": "59d293a6ee"
+ },
+ {
+  "t": "china-1924-5:p0047_1",
+  "x": [
+   {
+    "pt": "district",
+    "in": "Kwangtung",
+    "d": "1922",
+    "b": "estimate",
+    "n": "Post Office estimate",
+    "cols": [
+     {
+      "c": 2
+     }
+    ],
+    "rp": {
+     "43": "-"
+    }
+   },
+   {
+    "pt": "district",
+    "in": "Kwangtung",
+    "d": "1922",
+    "b": "estimate",
+    "n": "Post Office estimate",
+    "lc": 3,
+    "cols": [
+     {
+      "c": 5
+     }
+    ],
+    "rp": {
+     "43": "Kwangtung"
+    }
+   }
+  ],
+  "fp": "31380e8ad4"
+ },
+ {
+  "t": "china-1924-5:p0048_1",
+  "x": [
+   {
+    "pt": "district",
+    "in": "Kwangsi",
+    "d": "1922",
+    "b": "estimate",
+    "n": "Post Office estimate",
+    "cols": [
+     {
+      "c": 2
+     }
+    ],
+    "rp": {
+     "45": "-"
+    }
+   },
+   {
+    "pt": "district",
+    "in": "Kwangsi",
+    "d": "1922",
+    "b": "estimate",
+    "n": "Post Office estimate",
+    "lc": 3,
+    "cols": [
+     {
+      "c": 5
+     }
+    ],
+    "rp": {
+     "45": "Kwangsi"
+    }
+   }
+  ],
+  "fp": "51e9cf4713"
+ },
+ {
+  "t": "china-1924-5:p0049_1",
+  "x": [
+   {
+    "pt": "district",
+    "in": "Yunnan",
+    "d": "1922",
+    "b": "estimate",
+    "n": "Post Office estimate",
+    "cols": [
+     {
+      "c": 2
+     }
+    ]
+   },
+   {
+    "pt": "district",
+    "in": "Yunnan",
+    "d": "1922",
+    "b": "estimate",
+    "n": "Post Office estimate",
+    "lc": 3,
+    "cols": [
+     {
+      "c": 5
+     }
+    ]
+   }
+  ],
+  "fp": "a54e185a33"
+ },
+ {
+  "t": "china-1924-5:p0050_1",
+  "x": [
+   {
+    "pt": "district",
+    "in": "Yunnan",
+    "d": "1922",
+    "b": "estimate",
+    "n": "Post Office estimate",
+    "cols": [
+     {
+      "c": 2
+     }
+    ],
+    "rp": {
+     "37": "-"
+    }
+   },
+   {
+    "pt": "district",
+    "in": "Yunnan",
+    "d": "1922",
+    "b": "estimate",
+    "n": "Post Office estimate",
+    "lc": 3,
+    "cols": [
+     {
+      "c": 5
+     }
+    ],
+    "rp": {
+     "37": "Yunnan"
+    }
+   }
+  ],
+  "fp": "261611b051"
+ },
+ {
+  "t": "china-1924-5:p0051_1",
+  "x": [
+   {
+    "pt": "district",
+    "in": "Kweichow",
+    "d": "1922",
+    "b": "estimate",
+    "n": "Post Office estimate",
+    "cols": [
+     {
+      "c": 2
+     }
+    ]
+   },
+   {
+    "pt": "district",
+    "in": "Kweichow",
+    "d": "1922",
+    "b": "estimate",
+    "n": "Post Office estimate",
+    "lc": 3,
+    "cols": [
+     {
+      "c": 5
+     }
+    ]
+   }
+  ],
+  "fp": "b5d58d0020"
+ },
+ {
+  "t": "china-1924-5:p0052_1",
+  "x": [
+   {
+    "pt": "district",
+    "in": "Kweichow",
+    "d": "1922",
+    "b": "estimate",
+    "n": "Post Office estimate",
+    "cols": [
+     {
+      "c": 2
+     }
+    ],
+    "rp": {
+     "3": "Kweichow"
+    }
+   }
+  ],
+  "fp": "b539904339"
+ },
+ {
+  "t": "china-1924-5:p0052_2",
+  "x": [
+   {
+    "pt": "country",
+    "in": "World",
+    "d": "~1924",
+    "b": "estimate",
+    "cols": [
+     {
+      "c": 2
+     }
+    ]
+   }
+  ],
+  "fp": "b5e430d3cb"
+ },
+ {
+  "t": "china-1924-5:p0052_3",
+  "x": [
+   {
+    "rows": "cells",
+    "cells": [
+     {
+      "r": 0,
+      "c": 2,
+      "p": "China",
+      "d": "1922",
+      "m": "total",
+      "g": "american"
+     },
+     {
+      "r": 1,
+      "c": 2,
+      "p": "China",
+      "d": "1922",
+      "m": "total",
+      "g": "austrian"
+     },
+     {
+      "r": 2,
+      "c": 2,
+      "p": "China",
+      "d": "1922",
+      "m": "total",
+      "g": "belgian"
+     },
+     {
+      "r": 3,
+      "c": 2,
+      "p": "China",
+      "d": "1922",
+      "m": "total",
+      "g": "brazilian"
+     },
+     {
+      "r": 4,
+      "c": 2,
+      "p": "China",
+      "d": "1922",
+      "m": "total",
+      "g": "british"
+     },
+     {
+      "r": 5,
+      "c": 2,
+      "p": "China",
+      "d": "1922",
+      "m": "total",
+      "g": "czecho-slovak"
+     },
+     {
+      "r": 6,
+      "c": 2,
+      "p": "China",
+      "d": "1922",
+      "m": "total",
+      "g": "danish"
+     },
+     {
+      "r": 7,
+      "c": 2,
+      "p": "China",
+      "d": "1922",
+      "m": "total",
+      "g": "dutch"
+     },
+     {
+      "r": 8,
+      "c": 2,
+      "p": "China",
+      "d": "1922",
+      "m": "total",
+      "g": "french"
+     },
+     {
+      "r": 9,
+      "c": 2,
+      "p": "China",
+      "d": "1922",
+      "m": "total",
+      "g": "german"
+     },
+     {
+      "r": 10,
+      "c": 2,
+      "p": "China",
+      "d": "1922",
+      "m": "total",
+      "g": "hungarian"
+     },
+     {
+      "r": 11,
+      "c": 2,
+      "p": "China",
+      "d": "1922",
+      "m": "total",
+      "g": "italian"
+     },
+     {
+      "r": 12,
+      "c": 2,
+      "p": "China",
+      "d": "1922",
+      "m": "total",
+      "g": "japanese"
+     },
+     {
+      "r": 13,
+      "c": 2,
+      "p": "China",
+      "d": "1922",
+      "m": "total",
+      "g": "mexican"
+     },
+     {
+      "r": 14,
+      "c": 2,
+      "p": "China",
+      "d": "1922",
+      "m": "total",
+      "g": "norwegian"
+     },
+     {
+      "r": 15,
+      "c": 2,
+      "p": "China",
+      "d": "1922",
+      "m": "total",
+      "g": "portuguese"
+     },
+     {
+      "r": 16,
+      "c": 2,
+      "p": "China",
+      "d": "1922",
+      "m": "total",
+      "g": "russian"
+     },
+     {
+      "r": 17,
+      "c": 2,
+      "p": "China",
+      "d": "1922",
+      "m": "total",
+      "g": "spanish"
+     },
+     {
+      "r": 18,
+      "c": 2,
+      "p": "China",
+      "d": "1922",
+      "m": "total",
+      "g": "swedish"
+     },
+     {
+      "r": 20,
+      "c": 2,
+      "p": "China",
+      "d": "1922",
+      "m": "total",
+      "g": "foreign"
+     }
+    ]
+   }
+  ],
+  "fp": "6dd9a09dee"
+ },
+ {
+  "t": "china-1924-5:p0176_1",
+  "skip": "percentages only",
+  "fp": "b894331946"
+ },
+ {
+  "t": "china-1924-5:p0179_1",
+  "skip": "race classification",
+  "fp": "cf99f42537"
+ },
+ {
+  "t": "china-1924-5:p1193_1",
+  "x": [
+   {
+    "rows": "cells",
+    "cells": [
+     {
+      "r": 0,
+      "c": 1,
+      "p": "Kwantung Leased Territory",
+      "d": "1923-11-20",
+      "m": "male",
+      "g": "japanese"
+     },
+     {
+      "r": 0,
+      "c": 2,
+      "p": "Kwantung Leased Territory",
+      "d": "1923-11-20",
+      "m": "female",
+      "g": "japanese"
+     },
+     {
+      "r": 0,
+      "c": 3,
+      "p": "Kwantung Leased Territory",
+      "d": "1923-11-20",
+      "m": "total",
+      "g": "japanese"
+     },
+     {
+      "r": 1,
+      "c": 1,
+      "p": "Kwantung Leased Territory",
+      "d": "1923-11-20",
+      "m": "male",
+      "g": "chinese"
+     },
+     {
+      "r": 1,
+      "c": 2,
+      "p": "Kwantung Leased Territory",
+      "d": "1923-11-20",
+      "m": "female",
+      "g": "chinese"
+     },
+     {
+      "r": 1,
+      "c": 3,
+      "p": "Kwantung Leased Territory",
+      "d": "1923-11-20",
+      "m": "total",
+      "g": "chinese"
+     },
+     {
+      "r": 2,
+      "c": 1,
+      "p": "Kwantung Leased Territory",
+      "d": "1923-11-20",
+      "m": "male",
+      "g": "foreign"
+     },
+     {
+      "r": 2,
+      "c": 2,
+      "p": "Kwantung Leased Territory",
+      "d": "1923-11-20",
+      "m": "female",
+      "g": "foreign"
+     },
+     {
+      "r": 2,
+      "c": 3,
+      "p": "Kwantung Leased Territory",
+      "d": "1923-11-20",
+      "m": "total",
+      "g": "foreign"
+     },
+     {
+      "r": 3,
+      "c": 1,
+      "p": "Kwantung Leased Territory",
+      "d": "1923-11-20",
+      "m": "male",
+      "g": "all"
+     },
+     {
+      "r": 3,
+      "c": 2,
+      "p": "Kwantung Leased Territory",
+      "d": "1923-11-20",
+      "m": "female",
+      "g": "all"
+     },
+     {
+      "r": 3,
+      "c": 3,
+      "p": "Kwantung Leased Territory",
+      "d": "1923-11-20",
+      "m": "total",
+      "g": "all"
+     }
+    ]
+   }
+  ],
+  "fp": "88239d2207"
+ },
+ {
+  "t": "china-1924-5:p1193_2",
+  "x": [
+   {
+    "rows": "cells",
+    "cells": [
+     {
+      "r": 0,
+      "c": 1,
+      "p": "South Manchuria Railway Zone",
+      "d": "1923-11-20",
+      "m": "male",
+      "g": "japanese"
+     },
+     {
+      "r": 0,
+      "c": 2,
+      "p": "South Manchuria Railway Zone",
+      "d": "1923-11-20",
+      "m": "female",
+      "g": "japanese"
+     },
+     {
+      "r": 0,
+      "c": 3,
+      "p": "South Manchuria Railway Zone",
+      "d": "1923-11-20",
+      "m": "total",
+      "g": "japanese"
+     },
+     {
+      "r": 1,
+      "c": 1,
+      "p": "South Manchuria Railway Zone",
+      "d": "1923-11-20",
+      "m": "male",
+      "g": "chinese"
+     },
+     {
+      "r": 1,
+      "c": 2,
+      "p": "South Manchuria Railway Zone",
+      "d": "1923-11-20",
+      "m": "female",
+      "g": "chinese"
+     },
+     {
+      "r": 1,
+      "c": 3,
+      "p": "South Manchuria Railway Zone",
+      "d": "1923-11-20",
+      "m": "total",
+      "g": "chinese"
+     },
+     {
+      "r": 2,
+      "c": 1,
+      "p": "South Manchuria Railway Zone",
+      "d": "1923-11-20",
+      "m": "male",
+      "g": "foreign"
+     },
+     {
+      "r": 2,
+      "c": 2,
+      "p": "South Manchuria Railway Zone",
+      "d": "1923-11-20",
+      "m": "female",
+      "g": "foreign"
+     },
+     {
+      "r": 2,
+      "c": 3,
+      "p": "South Manchuria Railway Zone",
+      "d": "1923-11-20",
+      "m": "total",
+      "g": "foreign"
+     },
+     {
+      "r": 3,
+      "c": 1,
+      "p": "South Manchuria Railway Zone",
+      "d": "1923-11-20",
+      "m": "male",
+      "g": "all"
+     },
+     {
+      "r": 3,
+      "c": 2,
+      "p": "South Manchuria Railway Zone",
+      "d": "1923-11-20",
+      "m": "female",
+      "g": "all"
+     },
+     {
+      "r": 3,
+      "c": 3,
+      "p": "South Manchuria Railway Zone",
+      "d": "1923-11-20",
+      "m": "total",
+      "g": "all"
+     }
+    ]
+   }
+  ],
+  "fp": "88239d2207"
+ },
+ {
+  "t": "china-1929-30:p0024_2",
+  "x": [
+   {
+    "pt": "region",
+    "in": "China",
+    "m": "households",
+    "d": "1910",
+    "b": "census",
+    "n": "Minchengpu census, families",
+    "cols": [
+     {
+      "c": 1
+     }
+    ]
+   }
+  ],
+  "fp": "9480f901cb"
+ },
+ {
+  "t": "china-1929-30:p0025_1",
+  "x": [
+   {
+    "pt": "region",
+    "in": "China",
+    "d": "1910",
+    "b": "estimate",
+    "n": "worked out from 1910 census",
+    "rp": {
+     "6": "China"
+    },
+    "cols": [
+     {
+      "c": 1
+     }
+    ]
+   }
+  ],
+  "fp": "d6f0b78496"
+ },
+ {
+  "t": "china-1929-30:p0025_2",
+  "x": [
+   {
+    "rows": "dates",
+    "p": "China",
+    "b": "estimate",
+    "rd": {
+     "0": "1381"
+    },
+    "cols": [
+     {
+      "c": 1
+     }
+    ]
+   },
+   {
+    "rows": "dates",
+    "lc": 2,
+    "p": "China",
+    "b": "estimate",
+    "rd": {
+     "0": "1710"
+    },
+    "cols": [
+     {
+      "c": 3
+     }
+    ]
+   }
+  ],
+  "fp": "ff85d4970c"
+ },
+ {
+  "t": "china-1929-30:p0026_1",
+  "x": [
+   {
+    "pt": "province",
+    "in": "China",
+    "rp": {
+     "18": "Manchuria",
+     "19": "-",
+     "24": "China"
+    },
+    "cols": [
+     {
+      "c": 3,
+      "d": "1910",
+      "b": "census",
+      "n": "Minchengpu census"
+     },
+     {
+      "c": 2,
+      "d": "1885",
+      "b": "census"
+     },
+     {
+      "c": 5,
+      "d": "1926",
+      "b": "estimate",
+      "n": "Post Office estimate"
+     }
+    ]
+   }
+  ],
+  "fp": "0d6b1b5096"
+ },
+ {
+  "t": "china-1929-30:p0027_1",
+  "x": [
+   {
+    "pt": "country",
+    "in": "World",
+    "d": "~1929",
+    "b": "estimate",
+    "cols": [
+     {
+      "c": 2
+     }
+    ]
+   }
+  ],
+  "fp": "7eedd597e8"
+ },
+ {
+  "t": "china-1929-30:p0027_2",
+  "x": [
+   {
+    "rows": "cells",
+    "cells": [
+     {
+      "r": 0,
+      "c": 2,
+      "p": "China",
+      "d": "1927",
+      "m": "total",
+      "g": "american",
+      "b": "estimate",
+      "n": "Customs estimate"
+     },
+     {
+      "r": 1,
+      "c": 2,
+      "p": "China",
+      "d": "1927",
+      "m": "total",
+      "g": "austrian",
+      "b": "estimate",
+      "n": "Customs estimate"
+     },
+     {
+      "r": 2,
+      "c": 2,
+      "p": "China",
+      "d": "1927",
+      "m": "total",
+      "g": "belgian",
+      "b": "estimate",
+      "n": "Customs estimate"
+     },
+     {
+      "r": 3,
+      "c": 2,
+      "p": "China",
+      "d": "1927",
+      "m": "total",
+      "g": "brazilian",
+      "b": "estimate",
+      "n": "Customs estimate"
+     },
+     {
+      "r": 4,
+      "c": 2,
+      "p": "China",
+      "d": "1927",
+      "m": "total",
+      "g": "british",
+      "b": "estimate",
+      "n": "Customs estimate"
+     },
+     {
+      "r": 5,
+      "c": 2,
+      "p": "China",
+      "d": "1927",
+      "m": "total",
+      "g": "czecho-slovak",
+      "b": "estimate",
+      "n": "Customs estimate"
+     },
+     {
+      "r": 6,
+      "c": 2,
+      "p": "China",
+      "d": "1927",
+      "m": "total",
+      "g": "danish",
+      "b": "estimate",
+      "n": "Customs estimate"
+     },
+     {
+      "r": 7,
+      "c": 2,
+      "p": "China",
+      "d": "1927",
+      "m": "total",
+      "g": "dutch",
+      "b": "estimate",
+      "n": "Customs estimate"
+     },
+     {
+      "r": 8,
+      "c": 2,
+      "p": "China",
+      "d": "1927",
+      "m": "total",
+      "g": "finnish",
+      "b": "estimate",
+      "n": "Customs estimate"
+     },
+     {
+      "r": 9,
+      "c": 2,
+      "p": "China",
+      "d": "1927",
+      "m": "total",
+      "g": "french",
+      "b": "estimate",
+      "n": "Customs estimate"
+     },
+     {
+      "r": 10,
+      "c": 2,
+      "p": "China",
+      "d": "1927",
+      "m": "total",
+      "g": "german",
+      "b": "estimate",
+      "n": "Customs estimate"
+     },
+     {
+      "r": 11,
+      "c": 2,
+      "p": "China",
+      "d": "1927",
+      "m": "total",
+      "g": "italian",
+      "b": "estimate",
+      "n": "Customs estimate"
+     },
+     {
+      "r": 12,
+      "c": 2,
+      "p": "China",
+      "d": "1927",
+      "m": "total",
+      "g": "japanese",
+      "b": "estimate",
+      "n": "Customs estimate"
+     },
+     {
+      "r": 13,
+      "c": 2,
+      "p": "China",
+      "d": "1927",
+      "m": "total",
+      "g": "mexican",
+      "b": "estimate",
+      "n": "Customs estimate"
+     },
+     {
+      "r": 14,
+      "c": 2,
+      "p": "China",
+      "d": "1927",
+      "m": "total",
+      "g": "norwegian",
+      "b": "estimate",
+      "n": "Customs estimate"
+     },
+     {
+      "r": 15,
+      "c": 2,
+      "p": "China",
+      "d": "1927",
+      "m": "total",
+      "g": "portuguese",
+      "b": "estimate",
+      "n": "Customs estimate"
+     },
+     {
+      "r": 16,
+      "c": 2,
+      "p": "China",
+      "d": "1927",
+      "m": "total",
+      "g": "russian",
+      "b": "estimate",
+      "n": "Customs estimate"
+     },
+     {
+      "r": 17,
+      "c": 2,
+      "p": "China",
+      "d": "1927",
+      "m": "total",
+      "g": "spanish",
+      "b": "estimate",
+      "n": "Customs estimate"
+     },
+     {
+      "r": 18,
+      "c": 2,
+      "p": "China",
+      "d": "1927",
+      "m": "total",
+      "g": "swedish",
+      "b": "estimate",
+      "n": "Customs estimate"
+     },
+     {
+      "r": 19,
+      "c": 2,
+      "p": "China",
+      "d": "1927",
+      "m": "total",
+      "g": "swiss",
+      "b": "estimate",
+      "n": "Customs estimate"
+     },
+     {
+      "r": 21,
+      "c": 2,
+      "p": "China",
+      "d": "1927",
+      "m": "total",
+      "g": "foreign",
+      "b": "estimate",
+      "n": "Customs estimate"
+     }
+    ]
+   }
+  ],
+  "fp": "d137fe84a6"
+ },
+ {
+  "t": "china-1929-30:p0028_1",
+  "x": [
+   {
+    "pt": "province",
+    "in": "China",
+    "d": "1927",
+    "b": "estimate",
+    "n": "Maritime Customs estimate",
+    "rp": {
+     "43": "-",
+     "44": "China"
+    },
+    "cols": [
+     {
+      "c": 1
+     }
+    ]
+   },
+   {
+    "lc": 2,
+    "pt": "city",
+    "in": "China",
+    "d": "1927",
+    "b": "estimate",
+    "n": "Maritime Customs estimate, Chinese population of port",
+    "rp": {
+     "44": "-"
+    },
+    "cols": [
+     {
+      "c": 3
+     }
+    ]
+   }
+  ],
+  "fp": "c6b08d1fad"
+ },
+ {
+  "t": "china-1929-30:p0057_1",
+  "skip": "percentages only",
+  "fp": "18a6d3407e"
+ },
+ {
+  "t": "china-1929-30:p0059_1",
+  "skip": "race classification",
+  "fp": "bcca682181"
+ },
+ {
+  "t": "china-1929-30:p0086_2",
+  "x": [
+   {
+    "rows": "cells",
+    "cells": [
+     {
+      "r": 0,
+      "c": 1,
+      "p": "Hong Kong",
+      "d": "~1929",
+      "g": "foreign",
+      "m": "total",
+      "n": "non-Chinese, estimate"
+     },
+     {
+      "r": 1,
+      "c": 1,
+      "p": "Hong Kong",
+      "d": "~1929",
+      "g": "chinese",
+      "m": "total",
+      "n": "estimate"
+     },
+     {
+      "r": 2,
+      "c": 1,
+      "p": "Hong Kong",
+      "d": "~1929",
+      "g": "all",
+      "m": "total",
+      "n": "estimate"
+     }
+    ]
+   }
+  ],
+  "fp": "c82f18b2b1"
+ },
+ {
+  "t": "china-1929-30:p0232_1",
+  "x": [
+   {
+    "rows": "cells",
+    "cells": [
+     {
+      "r": 0,
+      "c": 1,
+      "p": "Weihaiwei",
+      "d": "1927-12-31",
+      "m": "male",
+      "g": "british"
+     },
+     {
+      "r": 0,
+      "c": 2,
+      "p": "Weihaiwei",
+      "d": "1927-12-31",
+      "m": "female",
+      "g": "british"
+     },
+     {
+      "r": 0,
+      "c": 3,
+      "p": "Weihaiwei",
+      "d": "1927-12-31",
+      "m": "total",
+      "g": "british"
+     },
+     {
+      "r": 1,
+      "c": 1,
+      "p": "Weihaiwei",
+      "d": "1927-12-31",
+      "m": "male",
+      "g": "french"
+     },
+     {
+      "r": 1,
+      "c": 2,
+      "p": "Weihaiwei",
+      "d": "1927-12-31",
+      "m": "female",
+      "g": "french"
+     },
+     {
+      "r": 1,
+      "c": 3,
+      "p": "Weihaiwei",
+      "d": "1927-12-31",
+      "m": "total",
+      "g": "french"
+     },
+     {
+      "r": 2,
+      "c": 1,
+      "p": "Weihaiwei",
+      "d": "1927-12-31",
+      "m": "male",
+      "g": "italian"
+     },
+     {
+      "r": 2,
+      "c": 2,
+      "p": "Weihaiwei",
+      "d": "1927-12-31",
+      "m": "female",
+      "g": "italian"
+     },
+     {
+      "r": 2,
+      "c": 3,
+      "p": "Weihaiwei",
+      "d": "1927-12-31",
+      "m": "total",
+      "g": "italian"
+     },
+     {
+      "r": 3,
+      "c": 1,
+      "p": "Weihaiwei",
+      "d": "1927-12-31",
+      "m": "male",
+      "g": "canadian"
+     },
+     {
+      "r": 3,
+      "c": 2,
+      "p": "Weihaiwei",
+      "d": "1927-12-31",
+      "m": "female",
+      "g": "canadian"
+     },
+     {
+      "r": 3,
+      "c": 3,
+      "p": "Weihaiwei",
+      "d": "1927-12-31",
+      "m": "total",
+      "g": "canadian"
+     },
+     {
+      "r": 4,
+      "c": 1,
+      "p": "Weihaiwei",
+      "d": "1927-12-31",
+      "m": "male",
+      "g": "belgian"
+     },
+     {
+      "r": 4,
+      "c": 2,
+      "p": "Weihaiwei",
+      "d": "1927-12-31",
+      "m": "female",
+      "g": "belgian"
+     },
+     {
+      "r": 4,
+      "c": 3,
+      "p": "Weihaiwei",
+      "d": "1927-12-31",
+      "m": "total",
+      "g": "belgian"
+     },
+     {
+      "r": 5,
+      "c": 1,
+      "p": "Weihaiwei",
+      "d": "1927-12-31",
+      "m": "male",
+      "g": "german"
+     },
+     {
+      "r": 5,
+      "c": 2,
+      "p": "Weihaiwei",
+      "d": "1927-12-31",
+      "m": "female",
+      "g": "german"
+     },
+     {
+      "r": 5,
+      "c": 3,
+      "p": "Weihaiwei",
+      "d": "1927-12-31",
+      "m": "total",
+      "g": "german"
+     },
+     {
+      "r": 6,
+      "c": 1,
+      "p": "Weihaiwei",
+      "d": "1927-12-31",
+      "m": "male",
+      "g": "spanish"
+     },
+     {
+      "r": 6,
+      "c": 2,
+      "p": "Weihaiwei",
+      "d": "1927-12-31",
+      "m": "female",
+      "g": "spanish"
+     },
+     {
+      "r": 6,
+      "c": 3,
+      "p": "Weihaiwei",
+      "d": "1927-12-31",
+      "m": "total",
+      "g": "spanish"
+     },
+     {
+      "r": 7,
+      "c": 1,
+      "p": "Weihaiwei",
+      "d": "1927-12-31",
+      "m": "male",
+      "g": "hungarian"
+     },
+     {
+      "r": 7,
+      "c": 2,
+      "p": "Weihaiwei",
+      "d": "1927-12-31",
+      "m": "female",
+      "g": "hungarian"
+     },
+     {
+      "r": 7,
+      "c": 3,
+      "p": "Weihaiwei",
+      "d": "1927-12-31",
+      "m": "total",
+      "g": "hungarian"
+     },
+     {
+      "r": 8,
+      "c": 1,
+      "p": "Weihaiwei",
+      "d": "1927-12-31",
+      "m": "male",
+      "g": "korean"
+     },
+     {
+      "r": 8,
+      "c": 2,
+      "p": "Weihaiwei",
+      "d": "1927-12-31",
+      "m": "female",
+      "g": "korean"
+     },
+     {
+      "r": 8,
+      "c": 3,
+      "p": "Weihaiwei",
+      "d": "1927-12-31",
+      "m": "total",
+      "g": "korean"
+     },
+     {
+      "r": 9,
+      "c": 1,
+      "p": "Weihaiwei",
+      "d": "1927-12-31",
+      "m": "male",
+      "g": "foreign"
+     },
+     {
+      "r": 9,
+      "c": 2,
+      "p": "Weihaiwei",
+      "d": "1927-12-31",
+      "m": "female",
+      "g": "foreign"
+     },
+     {
+      "r": 9,
+      "c": 3,
+      "p": "Weihaiwei",
+      "d": "1927-12-31",
+      "m": "total",
+      "g": "foreign"
+     }
+    ]
+   }
+  ],
+  "fp": "c6a9547b35"
+ }
+]

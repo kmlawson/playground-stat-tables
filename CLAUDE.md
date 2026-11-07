@@ -172,6 +172,34 @@ that writes gigabytes.
     images, `sheets/` and crops; never delete `tables/`, `directory/`, `chronology/` or `toc.json`. Delete finished
     sub-agent transcripts (~100 MB per mission) by literal path, never by a broad glob (`crops/M_p1-021*` once also
     matched `M_p1-0215`).
+17. **Finder pages:** nothing per book. Every ~5–10 new books (or monthly) run the finder batch (below): `status.py
+    --batches` → spec agents → aliases → outliers → build → `status.py --baseline`.
+
+## Finder pages (`figures/`, user 2026-11-07)
+
+`figures/population.html` (the first; hub `figures/index.html`, linked from the Topics index and from the population
+topic/tag pages, not from the home page): every population figure (people, male, female, households; by group) for
+every place, year by year. The same figure from several tables is shown once with a link to each; differing figures
+side by side, never averaged; "≈ same, rounded" for a rounded print that agrees. Each figure links to its table with
+the cell marked (`book/<slug>/#<id>~<part>.<row>.<col>`); table pages link back ("Population across all books"), Search
+shows a card for a matching place, and the Japanese Empire map's place card links in (`fillFiguresLink` in its map.js).
+- **Code:** `build/finders/` — `finderlib.py` (numbers, dates, place matching, spec loading, fingerprints),
+  `places/` (`places.json` frozen from the map's gazetteer by `make_gazetteer.py`; `aliases.json` hand matches,
+  `ALIAS_TASK.md`), `registry.py` (what the rest of the site reads), `build_all.py` (run at the end of
+  `build_site.py`: every finder + the hub), `status.py` (backlog). Per finder `<name>/`: `config.json` (candidate tags
+  and words, banner), `TASK.md` (spec brief), `specs/<batch>/bNN.json`, `spec_fixes.json` (`OUTLIER_TASK.md`),
+  `extract.py`, `build_<name>.py`, `check.py`, `make_previews.py`, `page.html`, `baseline/`, `table_links.json`.
+- **Nothing is re-read:** a spec per table says which rows/columns hold the figure, for which place, date, group and
+  basis; the script copies those cells as transcribed. Each spec carries a fingerprint of its table; if the table
+  changes, the spec is left out until re-written.
+- **Finder batch, every ~5–10 new books or monthly** (not per book): build; `python3 build/finders/status.py
+  --batches` (tables with no spec, stale specs, new unmatched names, new suspicious figures; writes
+  `work/batches/pending-<date>/`); one Sonnet agent per finder on those batches with its `TASK.md`, specs into
+  `specs/pending-<date>/`; one agent on `work/new_names.txt` with `ALIAS_TASK.md`; one on `work/new_outliers.txt` with
+  `OUTLIER_TASK.md`; build again; look at a few new places; `status.py --baseline`; commit specs + baselines, bump
+  version, push. Table pages get their finder link one build after a table's spec (they read `table_links.json`).
+- **A new finder:** copy `population/`, change `config.json`, `TASK.md` and the claim fields in `extract.py`/the
+  page; `make_previews.py` splits the candidates into batches for the first agents.
 
 ## BOOKS entry
 
