@@ -408,6 +408,38 @@ def build_payload(book, t, tr, cfg):
     return p, unmatched
 
 
+def apply_mult(p, cfg):
+    """Columns printed in thousands (千圓, Unit: 1,000) or millions are sent as full numbers: the entry's "mult"
+    {payload column index: factor} (decided per column, build/maplinks_units/) multiplies that column's figures, so
+    the map shows 72,223,000 rather than 72,223 for a population printed in thousands. Printed text that is not a
+    number (a thousands point kept as text, "-") is sent unchanged."""
+    m = {int(k): v for k, v in (cfg.get("mult") or {}).items() if v and v != 1}
+    if not m:
+        return
+    def scale(v, f):
+        if isinstance(v, bool) or not isinstance(v, (int, float)) or f == 1:
+            return v
+        r = v * f
+        return int(round(r)) if abs(r - round(r)) < 1e-6 else round(r, 6)
+    for row in p.get("rows") or []:
+        row["v"] = [scale(v, m.get(k, 1)) for k, v in enumerate(row["v"])]
+    tot = p.get("total")
+    if tot:
+        tot["v"] = [scale(v, m.get(k, 1)) for k, v in enumerate(tot["v"])]
+        if tot.get("mismatch"):
+            tot["mismatch"] = {k: scale(v, m.get(int(k), 1)) for k, v in tot["mismatch"].items()}
+    names = []
+    for k, f in sorted(m.items()):
+        if k < len(p["cols"]):
+            p["cols"][k]["printed_x"] = f        # informational: the factor the printed figures were multiplied by
+            names.append(p["cols"][k].get("en") or p["cols"][k].get("name") or str(k))
+    word = {1000: "thousands", 10000: "ten thousands (萬)", 1000000: "millions"}
+    fs = sorted(set(m.values()))
+    unit = " and ".join(word.get(f, f"units of {f:,}") for f in fs)
+    p["notes"] = [(f"Printed in {unit}; shown here as full numbers." if len(names) == len(p["cols"])
+                   else f"The columns printed in {unit} are shown here as full numbers.")] + list(p.get("notes") or [])
+
+
 def map_url(book, t, tr=None, cfg_all=None):
     cfg_all = cfg_all or load_config()
     for cfg in cfg_all.get("tables", []):
@@ -417,6 +449,7 @@ def map_url(book, t, tr=None, cfg_all=None):
             except ValueError as e:   # an entry that would draw the wrong figures: no link, and the build says why
                 print(f"maplinks: NO LINK for {e}")
                 return None
+            apply_mult(p, cfg)
             if unmatched:
                 print(f"maplinks: {book['slug']}:{t['id']} rows not matched to a place: {', '.join(unmatched[:12])}")
             view = VIEWS[view_for(book, cfg)]

@@ -103,7 +103,10 @@ async function readTablePayload() {
       "unit": "人",                          // optional unit as printed or explained
       "kind": "count",                      // optional: count | amount | rate | index | other  (see 3)
       "pc": true,                           // optional: per-capita view is meaningful for this column
-      "color": "seq" }                      // optional hint: seq (sequential) | div (diverging)
+      "color": "seq",                       // optional hint: seq (sequential) | div (diverging)
+      "printed_x": 1000 }                   // optional: the table prints this column in thousands (1000), 萬 (10000) or
+                                            // millions (1000000); the figures sent are already multiplied out to full
+                                            // numbers, and a note says so (since 2026-11-08)
   ],
   "def": 0,                                 // index into cols of the column to show first
   "rows": [                                 // one entry per row matched to a place
