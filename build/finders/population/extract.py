@@ -98,7 +98,8 @@ def claims(specs, editions):
                 g = (col.get("g") or base["g"] or "all").lower()
                 out.append({"place": pid, "label": str(lab).strip(), "date": date[0], "year": date[1], "approx": date[2],
                             "m": col.get("m") or base["m"], "g": g, "b": col.get("b") or base["b"], "n": col.get("n") or base["n"],
-                            "v": v, "src": key, "part": int(x.get("part", 0)), "row": r, "col": c, "cell": rows[r][c]})
+                            "v": v, "src": key, "part": int(x.get("part", 0)), "row": r, "col": c, "cell": rows[r][c],
+                            "mult": col.get("mult", mult)})
 
             cols = x.get("cols") or []
             if mode == "cells":

@@ -2912,6 +2912,8 @@ function hlCell(p,r,c){const tw=document.querySelector(`#main .tw[data-p="${p}"]
 function route(){const h=decodeURIComponent(location.hash.slice(1));
  if(h.startsWith("an=")){anLink(h.slice(3));return}
  const hc=h.match(/^(.+)~(\d+)\.(\d+)\.(\d+)$/);if(hc&&T.some(x=>x.id===hc[1])){showOne(hc[1]);hlCell(+hc[2],+hc[3],+hc[4]);return}
+ // a cell address that cannot be read still opens its table, never the book's first one
+ const hx=h.indexOf("~");if(hx>0&&T.some(x=>x.id===h.slice(0,hx))){showOne(h.slice(0,hx));return}
  if(h.startsWith("ch=")){const ch=h.slice(3);if($("#ch").value!==ch){$("#ch").value=ch;renderList()}showChapter(ch);return}
  if(mode==="chapter"&&h&&document.getElementById("t-"+h)){cur=h;document.getElementById("t-"+h).scrollIntoView({block:"start"});mark();return}
  if(!h){if($("#ch").value){$("#ch").value="";renderList()}if(T.length){showHome();return}}

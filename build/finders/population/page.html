@@ -88,7 +88,7 @@ let KIDS=null;function kids(id){if(!KIDS){KIDS={};for(const [k,p] of Object.entr
 function chain(id){const out=[];let p=id;const seen={};while(p&&I.places[p]&&!seen[p]){seen[p]=1;out.unshift(p);p=I.places[p].up}return out}
 function short(src){let t=src[2].replace(/^The /,"");if(t.length<=34)return t;const m=t.match(/^(.*?)[\s,]*((?:1[89]|19)\d\d(?:[-–]\d{1,4})?)\s*$/);const y=m?m[2]:"",b=m?m[1]:t;
  let c=b.slice(0,26);c=c.slice(0,Math.max(c.lastIndexOf(" "),16));return c+"…"+(y?" "+y:"")}
-function link(src,c){return `../book/${src[0]}/#${encodeURIComponent(src[1])}~${c[6]}.${c[7]}.${c[8]}`}
+function link(src,c){return `../book/${src[0]}/#${encodeURIComponent(src[1])}~${c.part}.${c.row}.${c.col}`}
 
 /* ---------- routing ---------- */
 function parse(){const p=new URLSearchParams(location.hash.slice(1));st.p=p.get("p");st.m=p.get("m")||"total";st.g=p.get("g")||"all";st.zero=p.get("z")==="1"}
