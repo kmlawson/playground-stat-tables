@@ -64,7 +64,7 @@ h3.sec .zbtn{margin-left:0;text-transform:none;letter-spacing:0;font-weight:norm
 __NOSCRIPT__
 <div class="howto" id="howto" hidden>
 <p><b>How these figures were gathered.</b> Every figure on this page is a cell of one of the site's transcribed tables, exactly as transcribed. Agents first worked out, table by table, which rows and columns hold counts of people or households for a place and a date; a script then took the figures from the tables. Nothing has been re-read, corrected, averaged or filled in. The same figure printed in several tables is shown once, with a link to each table; different figures for the same place and year are shown side by side, with the gap between them.</p>
-<p>A year comes from the table (its title, column heads, row labels or notes). Where a table gives no date the edition year of the book is used and the figure is marked “date not stated” (hollow dot). Figures printed in thousands are multiplied out and marked. Places are matched to a gazetteer by the names printed in the tables; the printed name is shown with each figure. Matching and dating were done by machine and may be wrong: always check the table, and the original scan linked from it.</p>
+<p>A year comes from the table (its title, column heads, row labels or notes). Where a table gives no date the edition year of the book is used and the figure is marked “date not stated” (hollow dot). Figures printed in thousands (or with a point for the comma) are multiplied out, and the figure as printed is shown beside them (“printed 19,523, in thousands”), so it can be found in the table. Places are matched to a gazetteer by the names printed in the tables; the printed name is shown with each figure. Matching and dating were done by machine and may be wrong: always check the table, and the original scan linked from it.</p>
 </div>
 <div class="llmwarn" role="note"><b>Warning:</b> These tables were transcribed by the vision models of Opus 5.5, Sonnet 5.5, or Haiku 5.5 (named on each book's page), and the figures on this page were gathered from them by machine. Before using any of these figures, you must verify specific statistics with the original source which is linked to whenever possible.</div>
 __FOOT__
@@ -124,7 +124,7 @@ async function place(id){const P=I.places[id];if(!P){home();return}
  let rows=[],D=null;try{D=await load(P.b);rows=D.c[id]||[]}catch(e){$("#pop").innerHTML=`<p class="none">Could not load the figures (${esc(e)}).</p>`;return}
  if(st.p!==id)return;
  document.title=P.en+" · Population · Old Tables of East Asia";
- const C=rows.map(r=>({y:r[0],d:r[1],m:I.metrics[r[2]],g:I.groups[r[3]],v:r[4],s:r[5],part:r[6],row:r[7],col:r[8],b:I.bases[r[9]],n:r[10]>=0?D.notes[r[10]]:"",ap:!!r[11],l:r[12]>=0?D.labels[r[12]]:"",raw:r}));
+ const C=rows.map(r=>({y:r[0],d:r[1],m:I.metrics[r[2]],g:I.groups[r[3]],v:r[4],s:r[5],part:r[6],row:r[7],col:r[8],b:I.bases[r[9]],n:r[10]>=0?D.notes[r[10]]:"",ap:!!r[11],l:r[12]>=0?D.labels[r[12]]:"",pr:r.length>13?D.labels[r[13]]:"",raw:r}));
  const mC={},gC={};C.forEach(c=>{mC[c.m]=(mC[c.m]||0)+1;if(c.m===st.m)gC[c.g]=(gC[c.g]||0)+1});
  if(C.length&&!mC[st.m]){st.m=Object.keys(mC).sort((a,b)=>I.metrics.indexOf(a)-I.metrics.indexOf(b))[0];C.forEach(c=>{if(c.m===st.m)gC[c.g]=(gC[c.g]||0)+1})}
  if(C.length&&!gC[st.g])st.g=gC.all?"all":Object.keys(gC).sort((a,b)=>gC[b]-gC[a])[0];
@@ -151,7 +151,7 @@ async function place(id){const P=I.places[id];if(!P){home();return}
    h+=`<div class="yr" id="y-${y}"><div class="yl">${allAp?"c. ":""}${y}${cl.length>1?`<small>${cl.length} differing figures</small>`:""}</div><div>`;
    const top=cl[0].v;
    for(const k of cl){
-    const d=(k.v-top)/top*100,pct=cl.length>1&&k!==cl[0]?` <span class="gap">${d>0?"+":"−"}${Math.abs(d)<.1?Math.abs(d).toFixed(2):Math.abs(d).toFixed(1)}%</span>`:"";
+    const d=(k.v-top)/top*100,pct=cl.length>1&&k!==cl[0]?` <span class="gap" title="${d>0?"+":"−"}${Math.abs(d).toFixed(3)}% against the first figure">${d>0?"+":"−"}${Math.abs(d)<.1?fmt(Math.abs(k.v-top)):Math.abs(d).toFixed(1)+"%"}</span>`:"";
     h+=figHTML(k.v,k.cs,pct,"");
     for(const [rv,rcs] of k.rounded)h+=figHTML(rv,rcs,"",`<span class="gap" title="Printed rounded: agrees with the figure above to the precision printed">≈ same, rounded</span>`,true)}
    h+=`</div></div>`}  h+=`</div>`;
@@ -180,14 +180,19 @@ const MON=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","De
 function dshort(d){const m=String(d||"").match(/^\d{4}-(\d\d)(?:-(\d\d))?/);if(!m)return "";return (m[2]?(+m[2])+" ":"")+MON[+m[1]-1]}
 // what the tables say about when and how the figure was counted: "1 Oct · census", or nothing if they do not say
 function when(cs){const ds=[...new Set(cs.map(c=>dshort(c.d)).filter(Boolean))],bs=[...new Set(cs.map(c=>BNAME[c.b]||"").filter(Boolean))];
- const a=ds.length===1?ds[0]:ds.length>1?"various dates":"",b=bs.length===1?bs[0]:"";return [a,b].filter(Boolean).join(" · ")}
+ const a=ds.length===1?ds[0]:ds.length>1?"various dates":"",b=bs.length===1?bs[0]:"";
+ // how it is printed, when that is not how it is shown: "printed 19,523, in thousands"
+ const ps=[...new Set(cs.map(c=>printedAs(c)).filter(Boolean))];
+ return [a,b,ps.length===1&&cs.every(c=>c.pr)?ps[0]:ps.length?"some tables print it differently (see details)":""].filter(Boolean).join(" · ")}
+const UNIT={10:"in tens",100:"in hundreds",1000:"in thousands",10000:"in ten thousands (萬)",1000000:"in millions"};
+function printedAs(c){if(!c.pr)return "";const i=c.pr.lastIndexOf("|"),t=c.pr.slice(0,i),f=+c.pr.slice(i+1);return `printed ${t}`+(f?`, ${UNIT[f]||"× "+f.toLocaleString("en-US")}`:"")}
 function figHTML(v,cs,pct,tag,sub){const bySrc=[];cs.forEach(c=>{if(!bySrc.find(x=>x.s===c.s))bySrc.push(c)});const w=when(cs);
  bySrc.sort((a,b)=>I.src[a.s][3]-I.src[b.s][3]||I.src[a.s][2].localeCompare(I.src[b.s][2]));
  const pill=c=>{const s=I.src[c.s];return `<a class="sp" href="${link(s,c)}" title="${esc(s[4]+(s[5]?" — "+s[5]:""))}"><b>${esc(short(s))}</b>${s[6]?`<span class="sd">p. ${esc(s[6].split(", ")[0])}</span>`:""}</a>`};
  const SHOW=4,extra=bySrc.length-SHOW;
  const pills=bySrc.slice(0,extra>1?SHOW-1:SHOW).map(pill).join("")+(extra>1?`<span class="xp" hidden>${bySrc.slice(SHOW-1).map(pill).join("")}</span><button class="more" data-xp>+${bySrc.length-SHOW+1} more tables</button>`:"");
  return `<div class="fig${sub?" rd":""}"><span class="fv">${fmt(v)}${pct}${tag}${w?`<span class="fw">${esc(w)}</span>`:""}</span><span class="srcs">${pills}<button class="more" data-more aria-expanded="false">details</button></span>
-  <div class="det" hidden>${bySrc.map(c=>{const s=I.src[c.s];const bits=[c.d?("as of "+c.d):(c.ap?"date not stated (edition year used)":""),BNAME[c.b]||"",c.n,c.l?("printed as “"+c.l+"”"):""].filter(Boolean);
+  <div class="det" hidden>${bySrc.map(c=>{const s=I.src[c.s];const bits=[c.d?("as of "+c.d):(c.ap?"date not stated (edition year used)":""),BNAME[c.b]||"",printedAs(c),c.n,c.l?("place printed as “"+c.l+"”"):""].filter(Boolean);
    return `<div><a href="${link(s,c)}">${esc(s[2])}</a>, ${esc(s[4]||"untitled table")}${s[5]&&s[5]!==s[4]?` <span class="dm">(${esc(s[5])})</span>`:""}${s[6]?`, p. ${esc(s[6])}`:""} <span class="dm">· ${esc(bits.join(" · "))}</span></div>`}).join("")}</div></div>`}
 function subTable(ks,sort){const tb=$("#subt tbody");let key=sort,dir=1;
  const val=(id,k)=>{const p=I.places[id];return k==="n"?p.en.toLowerCase():k==="l"?(p.l?p.l[1]:-1):k==="y"?(p.y?p.y[1]:0):k==="c"?p.nt:0};

@@ -111,6 +111,12 @@ def main(chrome=None):
         bk = bucket(c["place"])
         BL = bucket_lists[bk]
         row[10] = intern(c["n"], BL["N"], BL["NI"])
+        # the figure as printed, where it is not the figure shown: printed in thousands (19,523 -> 19,523,000) or
+        # with a point for the comma ("65.687"); the page shows both, so the reader can find it in the table
+        raw = X.number(c["cell"], 1)
+        if raw != c["v"]:
+            f = round(c["v"] / raw) if raw else 0
+            row.append(intern(f"{str(c['cell']).strip()}|{f if f > 1 and c['v'] == raw * f else ''}", BL["L"], BL["LI"]))
         row[12] = intern(c["label"], BL["L"], BL["LI"])
         per_bucket[bk][c["place"]].append(row)
         s = stats[c["place"]]
