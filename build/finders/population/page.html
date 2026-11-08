@@ -22,7 +22,7 @@ __STYLE__
 .chips{display:inline-flex;flex-wrap:wrap;gap:5px}
 .chip{font:inherit;font-size:13.5px;border:1px solid var(--line);background:var(--panel);color:var(--ink);border-radius:14px;padding:2px 11px;cursor:pointer}
 .chip[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}.chip small{opacity:.75}
-.chip:disabled{opacity:.4;cursor:default}
+.chip:disabled{opacity:.4;cursor:default}.chip.more-g{border-style:dashed;color:var(--accent)}
 .chartbox{background:var(--panel);border:1px solid var(--line);padding:8px 8px 2px;margin:8px 0 6px;position:relative}
 .chartbox svg{display:block;width:100%;height:auto;overflow:visible}
 .chartbox .ax{stroke:var(--line)}.chartbox .gl{stroke:var(--line);stroke-dasharray:2 3}.chartbox text{fill:var(--muted);font:12px system-ui,sans-serif}
@@ -116,7 +116,7 @@ function tryLinks(){const ids=["c-seoul","c-taipei","c-shanghai","jp13","c-daire
  return ids.length?`<p class="try">Try: ${ids.map(id=>`<a href="#p=${id}">${esc(I.places[id].en)}</a>`).join(" · ")}</p>`:""}
 function home(){const t=I.tops.map(id=>{const p=I.places[id];const sub=kids(id).length;return `<a class="tile" href="#p=${id}"><b>${esc(p.en)}</b><span class="tj">${esc(p.ja)}</span><small>${fmt(p.nt)} figures${p.y?"":""}${sub?" · "+sub+" places within":""}</small></a>`}).join("");
  $("#pop").innerHTML=`<div class="pintro"><p>Population figures for every country, colony, prefecture, province, city and district in the site's tables — <b>${fmt(I.n)}</b> figures from <b>${fmt(I.tables)}</b> tables. Find a place, or start from a region and drill down. Figures that several tables agree on are shown once with links to each table; figures that disagree are shown side by side.</p></div>${searchBox()}${tryLinks()}<div class="tiles">${t}</div>`;
- $("#howto").hidden=false;wireSearch();document.title="Population · Old Tables of East Asia"}
+ $("#howto").hidden=false;wireSearch();document.title="Population · Old Tables of East Asia";toTop("")}
 
 /* ---------- a place ---------- */
 async function place(id){const P=I.places[id];if(!P){home();return}
@@ -141,7 +141,10 @@ async function place(id){const P=I.places[id];if(!P){home();return}
  if(C.length){
   h+=`<div class="ctrl"><span><span class="lbl">Count</span><span class="chips">${I.metrics.map(m=>`<button class="chip" data-m="${m}" aria-pressed="${m===st.m}"${mC[m]?"":" disabled"}>${MNAME[m]} <small>${mC[m]||0}</small></button>`).join("")}</span></span>`;
   const gs=Object.keys(gC).sort((a,b)=>(a==="all"?-1:b==="all"?1:gC[b]-gC[a]));
-  if(gs.length>1||st.g!=="all")h+=`<span><span class="lbl">Who</span><span class="chips">${gs.map(g=>`<button class="chip" data-g="${esc(g)}" aria-pressed="${g===st.g}">${esc(gname(g))} <small>${gC[g]}</small></button>`).join("")}</span></span>`;
+  const chip=g=>`<button class="chip" data-g="${esc(g)}" aria-pressed="${g===st.g}">${esc(gname(g))} <small>${gC[g]}</small></button>`;
+  const SHOWG=8,first=gs.slice(0,SHOWG),rest=gs.slice(SHOWG).filter(g=>g!==st.g);
+  if(st.g!=="all"&&!first.includes(st.g))first.push(st.g);
+  if(gs.length>1||st.g!=="all")h+=`<span><span class="lbl">Who</span><span class="chips">${first.map(chip).join("")}${rest.length?`<span class="xp" hidden>${rest.map(chip).join("")}</span><button class="chip more-g" data-xp>+${rest.length} more</button>`:""}</span></span>`;
   h+=`</div>`;
   h+=`<div class="chartbox" id="chart"></div><div class="chartnote"><span class="lg"><i></i>figure (larger = more tables)</span><span class="lg"><i class="ap"></i>date not stated in the table</span>${nconf?`<span class="lg"><i class="cb"></i>year with differing figures (${nconf})</span>`:""}<button class="zbtn" id="zero">${st.zero?"Zoom to the figures":"Start the scale at zero"}</button></div>`;
   h+=`<h3 class="sec">${esc(MNAME[st.m])}${st.g!=="all"?" · "+esc(gname(st.g)):""} by year <button class="zbtn" id="ord">${st.desc?"Oldest first":"Newest first"}</button></h3><div class="yrs">`;
@@ -160,7 +163,7 @@ async function place(id){const P=I.places[id];if(!P){home();return}
  const ks=kids(id);
  if(ks.length){
   h+=`<h3 class="sec">Places within ${esc(P.en)}</h3><table class="sub" id="subt"><thead><tr><th data-k="n">Place</th><th class="r" data-k="l">Latest population</th><th class="r" data-k="y">Years</th><th class="r" data-k="c">Figures</th></tr></thead><tbody></tbody></table>`}
- $("#pop").innerHTML=h;$("#howto").hidden=false;wireSearch();
+ $("#pop").innerHTML=h;$("#howto").hidden=false;wireSearch();toTop(id);
  if(C.length){drawChart(years,Y);
   document.querySelectorAll("[data-m]").forEach(b=>b.onclick=()=>go({m:b.dataset.m,g:"all"},true));
   document.querySelectorAll("[data-g]").forEach(b=>b.onclick=()=>go({g:b.dataset.g},true));
@@ -230,6 +233,11 @@ function drawChart(years,Y){const box=$("#chart");lastC=[years,Y];lastW=box.clie
   d.addEventListener("click",()=>{const e=document.getElementById("y-"+d.dataset.y);if(e){e.scrollIntoView({behavior:"smooth",block:"center"});e.classList.remove("flash");void e.offsetWidth;e.classList.add("flash")}})})}
 let rz,lastW=0,lastC=null;addEventListener("resize",()=>{clearTimeout(rz);rz=setTimeout(()=>{const b=$("#chart");if(b&&lastC&&Math.abs(b.clientWidth-lastW)>20)drawChart(...lastC)},250)});
 
+// The page swaps places in place, so the browser would keep the last place's scroll offset (and a phone restores
+// an old one on reload): a newly opened place or the landing view starts at the top; chip changes do not move.
+try{history.scrollRestoration="manual"}catch(e){}
+let shownKey=null;
+function toTop(key){if(key!==shownKey){shownKey=key;window.scrollTo(0,0)}}
 function render(){if(!I)return;const tc=$("#topcrumbs");if(tc)tc.hidden=!!(st.p&&I.places[st.p]);if(st.p&&I.places[st.p])place(st.p);else home();}
 fetch("../data/population/index.json").then(r=>r.json()).then(d=>{for(const k in d.places){const a=d.places[k];d.places[k]={en:a[0],ja:a[1],k:a[2],up:a[3]||null,n:a[4],y:a[4]?[a[5],a[6]]:null,l:a[8]?[a[7],a[8]]:null,b:a[9],nt:a[10],a:a[11]}}I=d;buildSX();parse();render()}).catch(e=>{$("#pop").innerHTML=`<p class="none">Could not load the population index (${esc(e)}).</p>`});
 })();
