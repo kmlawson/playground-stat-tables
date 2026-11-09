@@ -2,12 +2,6 @@
  "_doc": "Figures a table's spec puts at one place that belong to another, moved after extraction (extract.claims). Mostly Kwantung: the empire-wide tables and statistical yearbooks print the Kwantung Leased Territory and the South Manchuria Railway Zone together (關東州及滿鐵附屬地), often headed just 關東州 / Kwantung, until the zone passed to Manchukuo (1 Dec. 1937). Keys: t (slug:id), from, to, optional from_year/until (years moved, inclusive), why. Printed names of the combined unit are matched by places/aliases.json.",
  "moves": [
   {
-   "t": "japan-1917:p0787_1",
-   "from": "kwantung",
-   "to": "kwantung-zone",
-   "why": "title: Population Including Railway Zone"
-  },
-  {
    "t": "japan-1930:p0090_1",
    "from": "kwantung",
    "to": "kwantung-zone",
