@@ -17,7 +17,7 @@ __STYLE__
 .crumbs{font-size:14px;color:var(--muted);margin:2px 0 4px}.crumbs a{color:var(--accent);text-decoration:none}.crumbs a:hover{text-decoration:underline}
 .ph{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 14px;margin:0 0 4px}.ph h2{font-size:28px;margin:0;font-weight:normal}.ph .pj{font-size:22px;color:var(--muted)}
 .psum{color:var(--muted);font-size:14.5px;margin:0 0 14px}
-.psrc{font-size:14px;margin:-6px 0 14px;max-width:52em;color:var(--muted)}.psrc summary{cursor:pointer;color:var(--ink)}.psrc summary b{font-weight:normal;color:var(--accent)}.psrc ul{margin:6px 0 2px;padding-left:18px}.psrc li{margin:5px 0;line-height:1.4}.psrc a{color:var(--accent)}.psrc .sw{display:block;font-size:13px}
+.psrc{font-size:14px;margin:-6px 0 14px;max-width:52em;color:var(--muted)}.psrc summary{cursor:pointer;color:var(--ink)}.psrc summary b{font-weight:normal;color:var(--accent)}.psrc ul{margin:6px 0 2px;padding-left:18px}.psrc li{margin:5px 0;line-height:1.4}.psrc a{color:var(--accent)}.psrc .sw{display:block;font-size:13px}.psrc h4{font-size:14px;font-weight:normal;color:var(--ink);margin:12px 0 2px;letter-spacing:.02em;text-transform:uppercase;font-size:12.5px}.psrc ul.rd{list-style:none;padding-left:0}.psrc ul.rd li{padding-left:1.6em;text-indent:-1.6em;margin:3px 0}
 .pnote{background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--accent);padding:8px 12px;margin:-6px 0 14px;font-size:14.5px;line-height:1.5;max-width:52em}.pnote a{color:var(--accent)}.pnote.pcaut{border-left-color:#b7791f}
 .ctrl{display:flex;flex-wrap:wrap;gap:8px 18px;align-items:center;margin:10px 0 6px;font-size:14px}
 .ctrl .lbl{font-size:12px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin-right:4px}
@@ -179,9 +179,10 @@ async function place(id){const P=I.places[id];if(!P){home();return}
  if(ks.length)subTable(ks,"k")}
 
 // a caution and where to find official and scholarly figures: the list of the nearest region up the tree
-function srcBox(id){const S=I.srcs||{};const r=[...chain(id)].reverse().find(k=>S[k]);if(!r||!S[r].length)return "";
+function srcBox(id){const S=I.srcs||{};const r=[...chain(id)].reverse().find(k=>k!=="_rd"&&S[k]);if(!r||!S[r].length)return "";
+ const rd=((S._rd||{})[r]||[]).map(g=>`<h4>${esc(g.h)}</h4><ul class="rd">${g.items.map(x=>`<li>${esc(x).replace(/\*([^*]+)\*/g,"<i>$1</i>")}</li>`).join("")}</ul>`).join("");
  const li=S[r].map(([n,by,kind,home,deep,lang,what])=>`<li><a href="${esc(deep||home)}" rel="noopener">${esc(n)}</a> — ${esc(by)}${lang?` <span class="sj">(${esc(lang)})</span>`:""}${home&&deep&&home!==deep?` · <a href="${esc(home)}" rel="noopener">home page</a>`:""}${what?`<span class="sw">${esc(what)}</span>`:""}</li>`).join("");
- return `<details class="psrc"><summary>These figures are copied from old yearbooks for comparison and study. For research, you should also consult the historical statistics of national agencies and recent scholarship: <b>where to find them${r!==id?" ("+esc(name(r))+")":""}</b></summary><ul>${li}</ul></details>`}
+ return `<details class="psrc"><summary>These figures are copied from old yearbooks for comparison and study. For research, you should also consult the historical statistics of national agencies and recent scholarship: <b>where to find them${r!==id?" ("+esc(name(r))+")":""}</b></summary><ul>${li}</ul>${rd}</details>`}
 // the same year's figures: exact figures first; a figure printed rounded (…,000) that agrees with one of them to the
 // precision printed goes with it, not as a differing figure
 function tz(v){let z=0;while(v%10===0&&v>0&&z<9){v/=10;z++}return z}

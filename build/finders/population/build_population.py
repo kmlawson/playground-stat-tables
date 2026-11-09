@@ -232,7 +232,8 @@ def sources(P):
     if not os.path.exists(p):
         return {}
     S = json.load(open(p))
-    return {k: [[x["name"], x.get("by", ""), x.get("kind", ""), x.get("home", ""), x.get("deep", ""), x.get("lang", ""),
+    R = {k: v for k, v in S.get("_reading", {}).items() if k in P}
+    return {"_rd": R} | {k: [[x["name"], x.get("by", ""), x.get("kind", ""), x.get("home", ""), x.get("deep", ""), x.get("lang", ""),
                  x.get("what", "")] for x in v] for k, v in S.items() if k in P and not k.startswith("_")}
 
 

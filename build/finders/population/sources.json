@@ -1,5 +1,5 @@
 {
- "_doc": "Where to find official and scholarly historical population figures, per region (shown above each place page and the places within it; agents S1/S2 with SOURCES_TASK.md; links checked 2026-11-09). An empty list hides the section for that region and the places within it.",
+ "_doc": "Where to find official and scholarly historical population figures, per region (shown above each place page and the places within it; agents S1/S2 with SOURCES_TASK.md; links checked 2026-11-09). An empty list hides the section for that region and the places within it. `_reading`: further reading per region, shown under the links (*…* = italic; never around CJK).",
  "empire": [
   {
    "name": "Population of Overseas Colonies, 1930–1939 (Statistical Yearbook of Imperial Japan No. 59, Table 3C)",
@@ -197,5 +197,47 @@
    "what": "Explains the long-run population series by country (HYDE to 1799, Gapminder v7 for 1800-1949 built on Maddison and Clio Infra, UN from 1950), all on today's borders.",
    "checked": "200, 2026-11-09"
   }
- ]
+ ],
+ "_reading": {
+  "china": [
+   {
+    "h": "Further reading",
+    "items": [
+     "Lam, Tong. *A Passion for Facts: Social Surveys and the Construction of the Chinese Nation-State, 1900–1949*. Berkeley: University of California Press, 2011.",
+     "Orleans, Leo A. “The 1953 Chinese Census in Perspective.” *Journal of Asian Studies* 16, no. 4 (1957).",
+     "Durand, John D. “The Population Statistics of China, A.D. 2–1953.” *Population Studies* 13, no. 3 (1960).",
+     "Jaffe, A. J. “A Review of the Censuses and Demographic Statistics of China.” *Population Studies* 1, no. 3 (1947).",
+     "Ho, Ping-ti. *Studies on the Population of China, 1368–1953*. Cambridge, MA: Harvard University Press, 1959.",
+     "Skinner, G. William. “Sichuan’s Population in the Nineteenth Century: Lessons from Disaggregated Data.” *Late Imperial China* 8, no. 1 (1987).",
+     "Barclay, George W., Ansley J. Coale, Michael A. Stoto, and T. James Trussell. “A Reassessment of the Demography of Traditional Rural China.” *Population Index* 42, no. 4 (1976).",
+     "Bréard, Andrea. “Statistics.” In *The Making of the Human Sciences in China: Historical and Conceptual Foundations*, edited by Howard Chiang. Leiden: Brill, 2019.",
+     "Bréard, Andrea, and Stefan Christ. “Ciphering and Ruling Modern China’s Population: An Introduction.” *Journal of the European Association for Chinese Studies* 6, no. 1 (2025).",
+     "Chen, Ta. *Population in Modern China*. Chicago: University of Chicago Press, 1946.",
+     "Chen, Ta. “The Need of Population Research in China.” *Population Studies* 1, no. 4 (1948).",
+     "Deng, Kent G. “Unveiling China’s True Population Statistics for the Pre-Modern Era with Official Census Data.” *Population Review* 43, no. 2 (2004).",
+     "Ge, Jianxiong. *A Concise History of China’s Population*. Translated by Qingyong Wang and Jing Ren. Abingdon: Routledge, 2023.",
+     "Lavely, William, and R. Bin Wong. “Revising the Malthusian Narrative: The Comparative Study of Population Dynamics in Late Imperial China.” *Journal of Asian Studies* 57, no. 3 (1998).",
+     "Lee, James Z., and Wang Feng. *One Quarter of Humanity: Malthusian Mythology and Chinese Realities, 1700–2000*. Cambridge, MA: Harvard University Press, 1999.",
+     "Li, Gang. “Recognition through Numbers: Muslim Population Numbers and the Hui in Modern China.” *Journal of the European Association for Chinese Studies* 6, no. 1 (2025).",
+     "Notestein, Frank W., and Chi-ming Chiao. “Population.” In J. Lossing Buck, *Land Utilization in China*, vol. 1. Nanking: University of Nanking, 1937.",
+     "Perkins, Dwight H. *Agricultural Development in China, 1368–1968*. Chicago: Aldine, 1969.",
+     "Rockhill, William Woodville. “Inquiry into the Population of China.” *Smithsonian Miscellaneous Collections* 47 (1904).",
+     "Roctus, Jasper. “Sun Yat-sen, ‘400 Million Chinese,’ and the Fear of Demographic Stagnation in Early Twentieth-Century China.” *Journal of the European Association for Chinese Studies* 6, no. 1 (2025).",
+     "Schran, Peter. “China’s Demographic Evolution 1850–1953 Reconsidered.” *China Quarterly* 75 (1978).",
+     "Taeuber, Irene B., and Nai-chi Wang. “Population Reports in the Ch’ing Dynasty.” *Journal of Asian Studies* 19, no. 4 (1960).",
+     "Taeuber, Irene B., and Nai-chi Wang. “Questions on Population Growth in China.” In *Population Trends in Eastern Europe, the USSR and Mainland China*. New York: Milbank Memorial Fund, 1960.",
+     "Willcox, Walter F. “A Westerner’s Effort to Estimate the Population of China and Its Increase since 1650.” *Journal of the American Statistical Association* 25, no. 171 (1930)."
+    ]
+   },
+   {
+    "h": "Chinese-language sources",
+    "items": [
+     "Cao Shuji 曹树基. *Qing shiqi* 清时期. Vol. 5 of *Zhongguo renkou shi* 中国人口史, edited by Ge Jianxiong 葛剑雄. Shanghai: Fudan daxue chubanshe, 2001.",
+     "Hou Yangfang 侯杨方. *1910–1953 nian* 1910–1953年. Vol. 6 of *Zhongguo renkou shi* 中国人口史, edited by Ge Jianxiong 葛剑雄. Shanghai: Fudan daxue chubanshe, 2001.",
+     "Jiang Tao 姜涛. *Zhongguo jindai renkou shi* 中国近代人口史. Hangzhou: Zhejiang renmin chubanshe, 1993.",
+     "Wang Shida 王士達. “Jindai Zhongguo renkou de guji” 近代中國人口的估計. *Shehui kexue zazhi* 社會科學雜誌 1, no. 3 (1930); 1, no. 4 (1930); 2, no. 2 (1931)."
+    ]
+   }
+  ]
+ }
 }
