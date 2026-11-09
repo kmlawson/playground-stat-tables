@@ -80,6 +80,14 @@ labels that would be ambiguous. Standard names for whole units (use these in `p`
 `South Seas Mandate`, `Manchuria` (or `Manchukuo` from 1932), `China`, `China proper`, `Mongolia`, `Tibet`,
 `Hong Kong`, `Macao`; countries by English name (`United States`, `British India` …); cities by English name.
 
+**Kwantung and the Railway Zone.** Up to 1936 most empire-wide tables (censuses, 帝國統計年鑑, 都市年鑑, Japan Year
+Book "Population of the Empire") print the leased territory and the S.M.R. zone as one unit — 關東州及滿鐵附屬地, but
+often headed just 關東州 or "Kwantung". Name such a row or column `Kwantung Leased Territory and South Manchuria
+Railway Zone`, also when it is printed as plain Kwantung but a heading, footnote or the figure itself shows the zone is
+in (the combined census figures: 919,568 or 939,952 in 1920, 1,054,074 in 1925, 1,328,011 in 1930, 1,656,726 in
+1935). `Kwantung Leased Territory` is the territory alone. From 1937 the zone belonged to Manchukuo, so a 1937 or
+later row under 關東州 is the territory alone.
+
 **Groups** (`g`): `all`, `japanese` (内地人), `korean` (朝鮮人), `chinese` (支那人/中華民國人/華僑), `taiwanese`
 (本島人, Han Taiwanese), `aborigine` (蕃人/高砂族/生蕃), `islander` (South Seas 島民), `ainu`, `manchu`, `mongol`,
 `foreign` (外國人, all foreigners together), or one nationality in lower-case English (`british`, `american`,

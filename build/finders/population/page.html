@@ -17,6 +17,8 @@ __STYLE__
 .crumbs{font-size:14px;color:var(--muted);margin:2px 0 4px}.crumbs a{color:var(--accent);text-decoration:none}.crumbs a:hover{text-decoration:underline}
 .ph{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 14px;margin:0 0 4px}.ph h2{font-size:28px;margin:0;font-weight:normal}.ph .pj{font-size:22px;color:var(--muted)}
 .psum{color:var(--muted);font-size:14.5px;margin:0 0 14px}
+.psrc{font-size:14px;margin:-6px 0 14px;max-width:52em;color:var(--muted)}.psrc summary{cursor:pointer;color:var(--ink)}.psrc summary b{font-weight:normal;color:var(--accent)}.psrc ul{margin:6px 0 2px;padding-left:18px}.psrc li{margin:5px 0;line-height:1.4}.psrc a{color:var(--accent)}.psrc .sw{display:block;font-size:13px}
+.pnote{background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--accent);padding:8px 12px;margin:-6px 0 14px;font-size:14.5px;line-height:1.5;max-width:52em}.pnote a{color:var(--accent)}.pnote.pcaut{border-left-color:#b7791f}
 .ctrl{display:flex;flex-wrap:wrap;gap:8px 18px;align-items:center;margin:10px 0 6px;font-size:14px}
 .ctrl .lbl{font-size:12px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin-right:4px}
 .chips{display:inline-flex;flex-wrap:wrap;gap:5px}
@@ -27,7 +29,7 @@ __STYLE__
 .chartbox svg{display:block;width:100%;height:auto;overflow:visible}
 .chartbox .ax{stroke:var(--line)}.chartbox .gl{stroke:var(--line);stroke-dasharray:2 3}.chartbox text{fill:var(--muted);font:12px system-ui,sans-serif}
 .chartbox .dot{fill:var(--accent);stroke:var(--panel);stroke-width:2;cursor:pointer}.chartbox .dot.ap{fill:var(--panel);stroke:var(--accent);stroke-width:2}
-.chartbox .cband{fill:#b7791f;opacity:.13}.chartbox .dot.hov{stroke:var(--ink)}
+.chartnote .lg[hidden]{display:none}.chartbox .cband{fill:#b7791f;opacity:.13}.chartbox .czone{fill:var(--ink);opacity:.045}.chartbox .brk{stroke:var(--muted);stroke-width:1.5}.chartbox .czl{font-size:11px;font-style:italic}.chartbox .dot.hov{stroke:var(--ink)}
 .ctip{position:absolute;pointer-events:none;background:var(--ink);color:var(--bg);font:13px/1.35 system-ui,sans-serif;padding:6px 9px;border-radius:5px;white-space:nowrap;z-index:5;transform:translate(-50%,calc(-100% - 10px))}
 .chartnote{font-size:12.5px;color:var(--muted);margin:0 0 4px;display:flex;flex-wrap:wrap;gap:4px 14px;align-items:center}
 .lg{display:inline-flex;align-items:center;gap:5px}.lg i{display:inline-block;width:10px;height:10px;border-radius:50%;background:var(--accent)}.lg i.ap{background:var(--panel);border:2px solid var(--accent);width:8px;height:8px}.lg i.cb{border-radius:2px;background:#b7791f;opacity:.35;width:12px}
@@ -74,7 +76,7 @@ __FOOT__
 const $=s=>document.querySelector(s),esc=s=>String(s==null?"":s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const CJK=/[぀-ヿ㐀-鿿]/;
 const fmt=n=>n.toLocaleString("en-US");
-const KIND={empire:"Empire",region:"Regions",colony:"Colonies and territories",country:"Countries",prefecture:"Prefectures",province:"Provinces",island:"Island groups",city:"Cities",district:"Districts and counties",ward:"Wards",town:"Towns and villages",settlement:"Settlements and concessions",world:"",other:"Other units (as printed)"};
+const KIND={empire:"Empire",region:"Regions",colony:"Colonies and territories",country:"Countries",prefecture:"Prefectures",province:"Provinces and regions",island:"Island groups",city:"Cities",district:"Districts and counties",ward:"Wards",town:"Towns and villages",settlement:"Settlements and concessions",world:"",other:"Other units (as printed)"};
 const KIND1={empire:"empire",region:"region",colony:"colony",country:"country",prefecture:"prefecture",province:"province",island:"island group",city:"city",district:"district",ward:"ward",town:"town",settlement:"settlement",world:"",other:"unit"};
 const KORDER=["colony","region","prefecture","province","island","country","settlement","city","district","ward","town","other"];
 const MNAME={total:"Population",male:"Male",female:"Female",households:"Households"};
@@ -135,9 +137,12 @@ async function place(id){const P=I.places[id];if(!P){home();return}
  const crumbs=chain(id).slice(0,-1).map(k=>`<a href="#p=${encodeURIComponent(k)}">${esc(name(k))}</a>`);
  const nconf=years.filter(y=>clusters(Y.get(y)).length>1).length;
  const tables=new Set(C.map(c=>c.s)).size;
- let h=searchBox()+`<div class="crumbs"><a href="population.html" onclick="history.pushState(null,'',location.pathname);dispatchEvent(new PopStateEvent('popstate'));return false">Population</a>${crumbs.length?" › "+crumbs.join(" › "):""}</div>`;
+ let h=searchBox()+`<div class="crumbs"><a href="population.html" data-home>Population: all places</a>${crumbs.length?" › "+crumbs.join(" › "):""}</div>`;
  h+=`<div class="ph"><h2>${esc(P.en)}</h2>${P.ja?`<span class="pj">${esc(P.ja)}</span>`:""}</div>`;
  h+=`<p class="psum">${esc(KIND1[P.k]||"")}${P.up?" in "+esc(name(P.up)):""}${C.length?` · ${fmt(C.length)} figure${C.length===1?"":"s"} from ${fmt(tables)} table${tables===1?"":"s"}${P.y?`, ${P.y[0]}–${P.y[1]}`:""}`:""}${P.a?` · printed as ${P.a.slice(0,4).map(esc).join(", ")}`:""}</p>`;
+ {const tn=I.tn||{},r=[...chain(id)].reverse().find(k=>tn[k]);if(r)h+=`<p class="pnote pcaut" role="note">${esc(tn[r])}</p>`}
+ h+=srcBox(id);
+ if(I.pn&&I.pn[id])h+=`<p class="pnote" role="note">${esc(I.pn[id]).replace(/\[\[([^\]|]+)(?:\|([^\]]+))?\]\]/g,(m,k,t)=>I.places[k]?`<a href="#p=${encodeURIComponent(k)}">${esc(t||I.places[k].en)}</a>`:esc(t||k))}</p>`;
  if(C.length){
   h+=`<div class="ctrl"><span><span class="lbl">Count</span><span class="chips">${I.metrics.map(m=>`<button class="chip" data-m="${m}" aria-pressed="${m===st.m}"${mC[m]?"":" disabled"}>${MNAME[m]} <small>${mC[m]||0}</small></button>`).join("")}</span></span>`;
   const gs=Object.keys(gC).sort((a,b)=>(a==="all"?-1:b==="all"?1:gC[b]-gC[a]));
@@ -146,7 +151,7 @@ async function place(id){const P=I.places[id];if(!P){home();return}
   if(st.g!=="all"&&!first.includes(st.g))first.push(st.g);
   if(gs.length>1||st.g!=="all")h+=`<span><span class="lbl">Who</span><span class="chips">${first.map(chip).join("")}${rest.length?`<span class="xp" hidden>${rest.map(chip).join("")}</span><button class="chip more-g" data-xp>+${rest.length} more</button>`:""}</span></span>`;
   h+=`</div>`;
-  h+=`<div class="chartbox" id="chart"></div><div class="chartnote"><span class="lg"><i></i>figure (larger = more tables)</span><span class="lg"><i class="ap"></i>date not stated in the table</span>${nconf?`<span class="lg"><i class="cb"></i>year with differing figures (${nconf})</span>`:""}<button class="zbtn" id="zero">${st.zero?"Zoom to the figures":"Start the scale at zero"}</button></div>`;
+  h+=`<div class="chartbox" id="chart"></div><div class="chartnote"><span class="lg"><i></i>figure (larger = more tables)</span><span class="lg"><i class="ap"></i>date not stated in the table</span>${nconf?`<span class="lg"><i class="cb"></i>year with differing figures (${nconf})</span>`:""}<span class="lg" id="cznote" hidden>years before ${(I.cb&&I.cb[id])||BRKY} squeezed into the shaded strip</span><button class="zbtn" id="zero">${st.zero?"Zoom to the figures":"Start the scale at zero"}</button></div>`;
   h+=`<h3 class="sec">${esc(MNAME[st.m])}${st.g!=="all"?" · "+esc(gname(st.g)):""} by year <button class="zbtn" id="ord">${st.desc?"Oldest first":"Newest first"}</button></h3><div class="yrs">`;
   const ys=st.desc?[...years].reverse():years;
   for(const y of ys){const cl=clusters(Y.get(y));
@@ -164,6 +169,7 @@ async function place(id){const P=I.places[id];if(!P){home();return}
  if(ks.length){
   h+=`<h3 class="sec">Places within ${esc(P.en)}</h3><table class="sub" id="subt"><thead><tr><th data-k="n">Place</th><th class="r" data-k="l">Latest population</th><th class="r" data-k="y">Years</th><th class="r" data-k="c">Figures</th></tr></thead><tbody></tbody></table>`}
  $("#pop").innerHTML=h;$("#howto").hidden=false;wireSearch();toTop(id);
+ document.querySelectorAll("[data-home]").forEach(a=>a.onclick=e=>{if(e.metaKey||e.ctrlKey||e.shiftKey||e.button)return;e.preventDefault();history.pushState(null,"",location.pathname+location.search);parse();render()});
  if(C.length){drawChart(years,Y);
   document.querySelectorAll("[data-m]").forEach(b=>b.onclick=()=>go({m:b.dataset.m,g:"all"},true));
   document.querySelectorAll("[data-g]").forEach(b=>b.onclick=()=>go({g:b.dataset.g},true));
@@ -172,6 +178,10 @@ async function place(id){const P=I.places[id];if(!P){home();return}
   document.querySelectorAll("[data-more]").forEach(b=>b.onclick=()=>{const d=b.closest(".fig").querySelector(".det");d.hidden=!d.hidden;b.setAttribute("aria-expanded",!d.hidden);b.textContent=d.hidden?"details":"hide"})}
  if(ks.length)subTable(ks,"k")}
 
+// a caution and where to find official and scholarly figures: the list of the nearest region up the tree
+function srcBox(id){const S=I.srcs||{};const r=[...chain(id)].reverse().find(k=>S[k]);if(!r||!S[r].length)return "";
+ const li=S[r].map(([n,by,kind,home,deep,lang,what])=>`<li><a href="${esc(deep||home)}" rel="noopener">${esc(n)}</a> — ${esc(by)}${lang?` <span class="sj">(${esc(lang)})</span>`:""}${home&&deep&&home!==deep?` · <a href="${esc(home)}" rel="noopener">home page</a>`:""}${what?`<span class="sw">${esc(what)}</span>`:""}</li>`).join("");
+ return `<details class="psrc"><summary>These figures are copied from old yearbooks for comparison and study. For research, you should also consult the historical statistics of national agencies and recent scholarship: <b>where to find them${r!==id?" ("+esc(name(r))+")":""}</b></summary><ul>${li}</ul></details>`}
 // the same year's figures: exact figures first; a figure printed rounded (…,000) that agrees with one of them to the
 // precision printed goes with it, not as a differing figure
 function tz(v){let z=0;while(v%10===0&&v>0&&z<9){v/=10;z++}return z}
@@ -209,23 +219,30 @@ function subTable(ks,sort){const tb=$("#subt tbody");let key=sort,dir=1;
  document.querySelectorAll("#subt th").forEach(th=>th.onclick=()=>{const k=th.dataset.k;if(key===k)dir=-dir;else{key=k;dir=(k==="n"?1:-1)}draw()});draw()}
 
 /* ---------- chart: one dot per distinct figure; nothing joins the dots (gaps stay gaps) ---------- */
+const BRKY=1850;
 function drawChart(years,Y){const box=$("#chart");lastC=[years,Y];lastW=box.clientWidth;const W=Math.max(320,box.clientWidth-16),H=Math.round(Math.min(300,Math.max(200,W*.32)));
  const L=64,R=14,T=12,B=26;
  const pts=[],CY={};for(const y of years){const cl=clusters(Y.get(y));CY[y]=cl.length;for(const k of cl)pts.push({y,v:k.v,n:new Set(k.all.map(c=>c.s)).size,ap:k.all.every(c=>c.ap),k:cl.length>1})}
- let y0=Math.min(...years),y1=Math.max(...years);if(y0===y1){y0-=1;y1+=1}const padY=Math.max(1,(y1-y0)*.03);y0-=padY;y1+=padY;
+ let y0=Math.min(...years),y1=Math.max(...years);if(y0===y1){y0-=1;y1+=1}
+ // a long thin early stretch (China's 1580-1840 estimates) is squeezed into the left edge so 1850 on gets the width
+ const BY=(I.cb&&I.cb[st.p])||BRKY,BRK=(y0<=BY-30&&y1>=BY+30)?BY:null;
+ const padY=Math.max(1,(y1-(BRK||y0))*.03);y0-=BRK?Math.max(1,(BRK-y0)*.05):padY;y1+=padY;
  let v0=st.zero?0:Math.min(...pts.map(p=>p.v)),v1=Math.max(...pts.map(p=>p.v));if(v0===v1){v0=st.zero?0:v0*.9;v1=v1*1.1||1}
  const pad=(v1-v0)*.08;if(!st.zero)v0=Math.max(0,v0-pad);v1+=pad;
- const X=y=>L+(y-y0)/(y1-y0)*(W-L-R),Yv=v=>T+(1-(v-v0)/(v1-v0))*(H-T-B);
+ const SPL=BRK?L+(W-L-R)*.13:L,X=y=>!BRK?L+(y-y0)/(y1-y0)*(W-L-R):y<BRK?L+(y-y0)/(BRK-y0)*(SPL-L-8):SPL+(y-BRK)/(y1-BRK)*(W-R-SPL),Yv=v=>T+(1-(v-v0)/(v1-v0))*(H-T-B);
  const nice=(a,b,n)=>{const span=b-a,step0=span/n,mag=Math.pow(10,Math.floor(Math.log10(step0))),f=step0/mag,step=(f<1.5?1:f<3?2:f<7?5:10)*mag;const out=[];for(let v=Math.ceil(a/step)*step;v<=b;v+=step)out.push(v);return out};
  const sh=v=>v>=1e9?(v/1e9).toFixed(v%1e9?1:0)+"B":v>=1e6?(+(v/1e6).toFixed(2))+"M":v>=1e3?(+(v/1e3).toFixed(1))+"k":String(v);
  let s=`<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Figures by year">`;
  const yt=nice(v0,v1,5);yt.forEach(v=>{s+=`<line class="gl" x1="${L}" x2="${W-R}" y1="${Yv(v)}" y2="${Yv(v)}"/><text x="${L-6}" y="${Yv(v)+4}" text-anchor="end">${sh(v)}</text>`});
- const xt=nice(Math.ceil(y0),Math.floor(y1),Math.max(2,Math.floor(W/90)));xt.forEach(y=>{if(Math.round(y)===y)s+=`<text x="${X(y)}" y="${H-6}" text-anchor="middle">${y}</text>`});
+ if(BRK){s+=`<rect class="czone" x="${L}" y="${T}" width="${SPL-L-4}" height="${H-T-B}"><title>Before ${BRK}: compressed scale</title></rect>`;
+  const st0=[50,100,200,500].find(k=>(SPL-L-8)*k/(BRK-y0)>=38)||1000;for(let y=Math.ceil(y0/st0)*st0;y<BRK;y+=st0)if(X(y)<SPL-34)s+=`<text x="${X(y)}" y="${H-6}" text-anchor="middle">${y}</text>`;
+  s+=`<text class="czl" x="${(L+SPL-4)/2}" y="${T+12}" text-anchor="middle">compressed</text><line class="brk" x1="${SPL-8}" x2="${SPL-2}" y1="${H-B+5}" y2="${H-B-5}"/><line class="brk" x1="${SPL-4}" x2="${SPL+2}" y1="${H-B+5}" y2="${H-B-5}"/>`}
+ const xt=nice(Math.ceil(BRK||y0),Math.floor(y1),Math.max(2,Math.floor((W-SPL)/90)));xt.forEach(y=>{if(Math.round(y)===y)s+=`<text x="${X(y)}" y="${H-6}" text-anchor="middle">${y}</text>`});
  s+=`<line class="ax" x1="${L}" x2="${W-R}" y1="${H-B}" y2="${H-B}"/>`;
- const bw=Math.max(6,(W-L-R)/(y1-y0)*.8);
- years.filter(y=>CY[y]>1).forEach(y=>{s+=`<rect class="cband" x="${X(y)-bw/2}" y="${T}" width="${bw}" height="${H-T-B}"/>`});
+ const bwf=y=>Math.max(BRK&&y<BRK?3:6,X(y+.4)-X(y-.4));
+ years.filter(y=>CY[y]>1).forEach(y=>{const bw=bwf(y);s+=`<rect class="cband" x="${X(y)-bw/2}" y="${T}" width="${bw}" height="${H-T-B}"/>`});
  pts.sort((a,b)=>b.n-a.n).forEach((p,i)=>{const r=Math.min(9,4+Math.sqrt(p.n)*1.6);s+=`<circle class="dot${p.ap?" ap":""}" cx="${X(p.y)}" cy="${Yv(p.v)}" r="${r}" data-y="${p.y}" data-v="${p.v}" data-n="${p.n}"><title>${p.y}: ${fmt(p.v)} (${p.n} table${p.n===1?"":"s"})</title></circle>`});
- s+=`</svg><div class="ctip" id="ctip" hidden></div>`;box.innerHTML=s;
+ s+=`</svg><div class="ctip" id="ctip" hidden></div>`;box.innerHTML=s;const czn=$("#cznote");if(czn)czn.hidden=!BRK;
  const tip=$("#ctip");
  box.querySelectorAll(".dot").forEach(d=>{d.querySelector("title").remove();
   d.addEventListener("mouseenter",()=>{d.classList.add("hov");const bb=box.getBoundingClientRect(),db=d.getBoundingClientRect();tip.innerHTML=`<b>${d.dataset.y}</b> · ${fmt(+d.dataset.v)}<br>${d.dataset.n} table${d.dataset.n==="1"?"":"s"} · click to see`;tip.style.left=(db.left+db.width/2-bb.left)+"px";tip.style.top=(db.top-bb.top)+"px";tip.hidden=false});

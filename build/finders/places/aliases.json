@@ -811,7 +811,22 @@
 "world|Africa": "n-w-africa",
 "*|Africa": "n-w-africa",
 "world|Oceania": "n-w-oceania",
-"*|Oceania": "n-w-oceania"
+"*|Oceania": "n-w-oceania",
+"*|Kwantung Leased Territory and South Manchuria Railway Zone": "kwantung-zone",
+"*|Kwantung Leased Territory and S.M.R. Zone": "kwantung-zone",
+"*|Kwantung Leased Territory & S.M.R. Zone": "kwantung-zone",
+"*|(Kwantung Leased Territory & S.M.R. Zone": "kwantung-zone",
+"*|Kwantung Leased Territory and South Manchuria Ry. Zone": "kwantung-zone",
+"*|Kwantung Province and South Manchuria Railway Zone": "kwantung-zone",
+"*|South Manchuria (Kwantung and Railway Zone)": "kwantung-zone",
+"*|Kwantung Leased Territory and Railway Zone of the S.M.R": "kwantung-zone",
+"*|Kwantung and Railway Zone": "kwantung-zone",
+"*|關東州及滿鐵附屬地": "kwantung-zone",
+"*|関東州及満鉄附属地": "kwantung-zone",
+"*|關東州及鐵道附屬地": "kwantung-zone",
+"*|関東州及鉄道附属地": "kwantung-zone",
+"*|關東州及附屬地": "kwantung-zone",
+"*|関東州及附属地": "kwantung-zone"
 },
 "new": {
 "n-kr-ranan": {
@@ -2079,6 +2094,12 @@
 "ja": "",
 "k": "region",
 "up": "world"
+},
+"kwantung-zone": {
+"en": "Kwantung Leased Territory and S.M.R. Zone",
+"ja": "關東州及滿鐵附屬地",
+"k": "colony",
+"up": "empire"
 }
 }
 }

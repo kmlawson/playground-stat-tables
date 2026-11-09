@@ -181,7 +181,7 @@ def look(ixname, label, fold, bilingual=True):
     return None
 
 
-TOPLEVEL = {"empire", "japan", "korea", "taiwan", "karafuto", "kwantung", "nanyo", "manchuria", "china", "chinaproper", "world", "smr"}
+TOPLEVEL = {"empire", "japan", "korea", "taiwan", "karafuto", "kwantung", "nanyo", "manchuria", "china", "chinaproper", "world", "smr", "kwantung-zone"}
 REGION_OK = {"japan": {"japan"}, "korea": {"korea"}, "taiwan": {"taiwan"}, "karafuto": {"karafuto"}, "kwantung": {"kwantung", "manchuria"},
              "nanyo": {"nanyo"}, "manchuria": {"manchuria", "kwantung", "china"}, "china": {"china", "manchuria", "kwantung"}}
 
@@ -190,7 +190,7 @@ def bucket(pid):
     seen = set()
     while pid and pid in PL and pid not in seen:
         seen.add(pid)
-        if pid in TOPLEVEL and pid not in ("empire", "chinaproper", "smr"):
+        if pid in TOPLEVEL and pid not in ("empire", "chinaproper", "smr", "kwantung-zone"):
             return pid
         pid = PL[pid]["up"]
     return "chinaproper" if pid == "chinaproper" else (pid or "world")

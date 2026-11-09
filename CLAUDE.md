@@ -191,6 +191,14 @@ shows a card for a matching place, and the Japanese Empire map's place card link
   `build_site.py`: every finder + the hub), `status.py` (backlog). Per finder `<name>/`: `config.json` (candidate tags
   and words, banner), `TASK.md` (spec brief), `specs/<batch>/bNN.json`, `spec_fixes.json` (`OUTLIER_TASK.md`),
   `extract.py`, `build_<name>.py`, `check.py`, `make_previews.py`, `page.html`, `baseline/`, `table_links.json`.
+  Population also has `place_moves.json` (figures a spec put at the wrong unit, moved by table and years) and, in
+  `config.json`, `place_notes` (a note on a place's page), `link_groups`, `place_up`, `chart_break`; `sources.json`
+  (official and scholarly sources per region, shown above every place page; `SOURCES_TASK.md`) and `DATE_TASK.md`
+  (date check: figures go under the year measured, never the edition year).
+- **Kwantung vs the Railway Zone** (user, 2026-11-09): up to 1936 the empire-wide tables print 關東州及滿鐵附屬地
+  (often headed just 關東州/Kwantung) — that is the place `kwantung-zone`, not `kwantung` (the territory alone) or
+  `smr` (the zone alone). From 1937 the zone was Manchukuo's. New specs follow `TASK.md`; check new Kwantung
+  figures above the territory's own series and add a move when a spec got it wrong.
 - **Nothing is re-read:** a spec per table says which rows/columns hold the figure, for which place, date, group and
   basis; the script copies those cells as transcribed. Each spec carries a fingerprint of its table; if the table
   changes, the spec is left out until re-written.

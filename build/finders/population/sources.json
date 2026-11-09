@@ -1,0 +1,201 @@
+{
+ "_doc": "Where to find official and scholarly historical population figures, per region (shown above each place page and the places within it; agents S1/S2 with SOURCES_TASK.md; links checked 2026-11-09). An empty list hides the section for that region and the places within it.",
+ "empire": [
+  {
+   "name": "Population of Overseas Colonies, 1930–1939 (Statistical Yearbook of Imperial Japan No. 59, Table 3C)",
+   "by": "Japan Data Catalog for the Humanities and Social Sciences (JSPS); data distributed by the Institute of Economic Research, Hitotsubashi University",
+   "kind": "scholarship",
+   "home": "https://jdcat.jsps.go.jp/",
+   "deep": "https://jdcat.jsps.go.jp/records/6526",
+   "lang": "ja, en (titles)",
+   "what": "",
+   "checked": "200, 2026-11-09"
+  }
+ ],
+ "japan": [
+  {
+   "name": "大正9年国勢調査 (1920 census) and census time series since 1920",
+   "by": "Statistics Bureau of Japan, via e-Stat",
+   "kind": "agency",
+   "home": "https://www.e-stat.go.jp/",
+   "deep": "https://www.e-stat.go.jp/stat-search/files?tclass=000001026563&cycle=0&layout=datalist",
+   "lang": "ja",
+   "what": "The first census (1 Oct 1920) as PDF tables by prefecture (area, population by city/district, households); later censuses and the long-run series 'population by sex, nation and prefecture, 1920-2015' are in the same e-Stat census section (e.g. stat_infid=000031524010).",
+   "checked": "200, 2026-11-09"
+  },
+  {
+   "name": "統計150年 特設サイト: 統計史 (digitised census and yearbook reports)",
+   "by": "Statistics Bureau of Japan",
+   "kind": "agency",
+   "home": "https://www.stat.go.jp/museum/toukei150/index.html",
+   "deep": "https://www.stat.go.jp/museum/toukei150/shiryo/shiryo40.html",
+   "lang": "ja",
+   "what": "Statistical-history pages linking to the digitised 1920 census report (national volumes and prefectural volumes, 1920-1928) at the National Diet Library, and to other early statistical publications.",
+   "checked": "200, 2026-11-09"
+  },
+  {
+   "name": "人口統計資料集 (Latest Demographic Statistics), Table 1-1",
+   "by": "National Institute of Population and Social Security Research (IPSS)",
+   "kind": "agency",
+   "home": "https://www.ipss.go.jp/syoushika/tohkei/Popular/Popular2025.asp?chap=0",
+   "deep": "https://www.ipss.go.jp/syoushika/tohkei/Data/Popular2025/T01-01.files/sheet001.htm",
+   "lang": "ja, en",
+   "what": "Total population of Japan proper from 1872 (mostly estimates before 1920; census figures from 1920), with natural increase and migration; the annual data book also has long series by prefecture, age and sex.",
+   "checked": "200, 2026-11-09"
+  },
+  {
+   "name": "日本帝国統計年鑑 (digitised yearbook volumes)",
+   "by": "National Diet Library",
+   "kind": "agency",
+   "home": "https://dl.ndl.go.jp/",
+   "deep": "https://dl.ndl.go.jp/pid/1449782",
+   "lang": "ja",
+   "what": "Yearbook No. 58 (1939) as an example of the digitised run (Nos. 39-59); population chapters give census and registration-based counts for Japan proper by prefecture.",
+   "checked": "200, 2026-11-09"
+  }
+ ],
+ "korea": [
+  {
+   "name": "Census population trends, 1925-1949 (Population Policy, Yesterday and Today)",
+   "by": "Statistics Korea (via National Archives of Korea theme site)",
+   "kind": "agency",
+   "home": "https://kostat.go.kr",
+   "deep": "https://theme.archives.go.kr/next/populationPolicy/statisticsPopup_02.do",
+   "lang": "ko",
+   "what": "Table of total, male and female population and sex ratio for the census years 1925, 1930, 1935, 1940, 1944 and 1949.",
+   "checked": "200, 2026-11-09"
+  },
+  {
+   "name": "Asian Historical Statistics, Volume 4: Korea",
+   "by": "Institute of Economic Research, Hitotsubashi University",
+   "kind": "scholarship",
+   "home": "https://www.ier.hit-u.ac.jp",
+   "deep": "https://d-infra.ier.hit-u.ac.jp/English/ltes/a000-asia-long-kr.html",
+   "lang": "en, ja",
+   "what": "Long-term series of macro-economic, population and labour-force statistics for Korea from the 1910s, as downloadable tables (companion to the published volume); the page does not itemise the population tables.",
+   "checked": "200, 2026-11-09"
+  }
+ ],
+ "taiwan": [
+  {
+   "name": "臺灣日治時期統計資料庫 (Taiwan Colonial Statistics Database)",
+   "by": "National Taiwan University Library (TaDELS project)",
+   "kind": "scholarship",
+   "home": "http://tcsd.lib.ntu.edu.tw/",
+   "deep": "http://tcsd.lib.ntu.edu.tw/",
+   "lang": "zh (interface), ja (content)",
+   "what": "About 684 volumes of colonial-period statistical books (e.g. the Government-General statistical yearbooks and census volumes) browsable by title or subject, with page images and table metadata; population (戶口) tables are among the 29 categories. Open access. Check at 2026-11-09: server answered HTTP 200 to curl; a fetch tool was refused connection once.",
+   "checked": "200 (curl), 2026-11-09"
+  },
+  {
+   "name": "Asian Historical Statistics, Volume 1: Taiwan",
+   "by": "Institute of Economic Research, Hitotsubashi University",
+   "kind": "scholarship",
+   "home": "https://www.ier.hit-u.ac.jp",
+   "deep": "https://d-infra.ier.hit-u.ac.jp/English/ltes/a000-asia-long-tw.html",
+   "lang": "en, ja",
+   "what": "Long-term statistical series for Taiwan from the colonial period on, as downloadable tables (companion to the published volume), including population.",
+   "checked": "200, 2026-11-09"
+  },
+  {
+   "name": "日本統治時期臺灣省五十一年來統計提要 (1894-1945)",
+   "by": "Taiwan Provincial Government Statistical Office (1946), digitised by Academia Sinica",
+   "kind": "agency",
+   "home": "https://twstudy.iis.sinica.edu.tw/TwStatistic50/",
+   "deep": "https://twstudy.iis.sinica.edu.tw/TwStatistic50/",
+   "lang": "zh",
+   "what": "1946 compilation of 51 years of Taiwan statistics, 24 subject areas including population; viewable and downloadable. Text quality of the scan is uneven.",
+   "checked": "200, 2026-11-09"
+  },
+  {
+   "name": "Taiwanese Historical Household Registers Database (THHRD, 1906-1945)",
+   "by": "Program for Historical Demography, Academia Sinica",
+   "kind": "scholarship",
+   "home": "https://doi.org/10.51964/hlcs9300",
+   "deep": "https://doi.org/10.51964/hlcs9300",
+   "lang": "en",
+   "what": "Individual-level colonial household registers; the open-access Historical Life Course Studies article describes the database and its use. The data themselves require an application to the programme (not freely downloadable). Link is to the description, not the data.",
+   "checked": "200, 2026-11-09"
+  }
+ ],
+ "karafuto": [
+  {
+   "name": "Population of Overseas Colonies, 1930–1939 (Statistical Yearbook of Imperial Japan No. 59, Table 3C, South Sakhalin column)",
+   "by": "Japan Data Catalog for the Humanities and Social Sciences (JSPS); data distributed by the Institute of Economic Research, Hitotsubashi University",
+   "kind": "scholarship",
+   "home": "https://jdcat.jsps.go.jp/",
+   "deep": "https://jdcat.jsps.go.jp/records/6526",
+   "lang": "ja, en (titles)",
+   "what": "Resident population of South Sakhalin year-end 1930-1939 within the overseas-territories table; other records cover earlier years.",
+   "checked": "200, 2026-11-09"
+  }
+ ],
+ "kwantung-zone": [],
+ "nanyo": [
+  {
+   "name": "Population of Overseas Colonies, 1930–1939 (Statistical Yearbook of Imperial Japan No. 59, Table 3C, South Seas Mandate column)",
+   "by": "Japan Data Catalog for the Humanities and Social Sciences (JSPS); data distributed by the Institute of Economic Research, Hitotsubashi University",
+   "kind": "scholarship",
+   "home": "https://jdcat.jsps.go.jp/",
+   "deep": "https://jdcat.jsps.go.jp/records/6526",
+   "lang": "ja, en (titles)",
+   "what": "Mandate population 1 Oct each year 1930-1937, then year-end 1938-1939; other records in the series give 1920s figures.",
+   "checked": "200, 2026-11-09"
+  }
+ ],
+ "manchuria": [],
+ "china": [
+  {
+   "name": "Prewar Population Statistics (Luo Huanzhen)",
+   "by": "Institute of Economic Research, Hitotsubashi University (COE Newsletter No. 9)",
+   "kind": "scholarship",
+   "home": "https://www.ier.hit-u.ac.jp",
+   "deep": "https://www.ier.hit-u.ac.jp/COE/Japanese/Newsletter/No.9.english/luo.htm",
+   "lang": "en",
+   "what": "Scholarly review of the Republican-era surveys (1912, 1928, 1936) and of methods for re-estimating pre-1949 population; cites the Hitotsubashi COE discussion paper 'Republican Population: A Review' (1997).",
+   "checked": "200, 2026-11-09"
+  },
+  {
+   "name": "Asian Historical Statistics, Volume 3: China",
+   "by": "Institute of Economic Research, Hitotsubashi University",
+   "kind": "scholarship",
+   "home": "https://www.ier.hit-u.ac.jp",
+   "deep": "https://d-infra.ier.hit-u.ac.jp/English/ltes/a000-asia-long-cn.html",
+   "lang": "en, ja",
+   "what": "Long-term annual series for 1912-2020 for the area governed by the PRC as of 2013 (excludes Taiwan, Hong Kong, Macau); the page does not itemise which tables hold population, so check the contents file.",
+   "checked": "200, 2026-11-09"
+  }
+ ],
+ "world": [
+  {
+   "name": "Maddison Project Database 2023",
+   "by": "Groningen Growth and Development Centre, University of Groningen",
+   "kind": "scholarship",
+   "home": "https://www.rug.nl/ggdc/historicaldevelopment/maddison/",
+   "deep": "https://www.rug.nl/ggdc/historicaldevelopment/maddison/releases/maddison-project-database-2023",
+   "lang": "en",
+   "what": "Long-run comparative economic database for 169 countries (Excel and Stata downloads); the data files carry population alongside GDP per capita, but the page itself does not state the population series or start years.",
+   "checked": "200, 2026-11-09"
+  },
+  {
+   "name": "Clio Infra: Total Population",
+   "by": "Clio Infra project (Reconstructing Global Inequality)",
+   "kind": "scholarship",
+   "home": "https://clio-infra.eu",
+   "deep": "https://clio-infra.eu/Indicators/TotalPopulation.html",
+   "lang": "en",
+   "what": "Downloadable country total-population series, 1500-2000 (50-year steps to 1800, then decennial), on today's country list.",
+   "checked": "200, 2026-11-09"
+  },
+  {
+   "name": "Our World in Data: Population data sources",
+   "by": "Our World in Data",
+   "kind": "scholarship",
+   "home": "https://ourworldindata.org",
+   "deep": "https://ourworldindata.org/population-sources",
+   "lang": "en",
+   "what": "Explains the long-run population series by country (HYDE to 1799, Gapminder v7 for 1800-1949 built on Maddison and Clio Infra, UN from 1950), all on today's borders.",
+   "checked": "200, 2026-11-09"
+  }
+ ]
+}

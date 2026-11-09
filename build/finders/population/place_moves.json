@@ -1,0 +1,185 @@
+{
+ "_doc": "Figures a table's spec puts at one place that belong to another, moved after extraction (extract.claims). Mostly Kwantung: the empire-wide tables and statistical yearbooks print the Kwantung Leased Territory and the South Manchuria Railway Zone together (關東州及滿鐵附屬地), often headed just 關東州 / Kwantung, until the zone passed to Manchukuo (1 Dec. 1937). Keys: t (slug:id), from, to, optional from_year/until (years moved, inclusive), why. Printed names of the combined unit are matched by places/aliases.json.",
+ "moves": [
+  {
+   "t": "japan-1917:p0787_1",
+   "from": "kwantung",
+   "to": "kwantung-zone",
+   "why": "title: Population Including Railway Zone"
+  },
+  {
+   "t": "japan-1930:p0090_1",
+   "from": "kwantung",
+   "to": "kwantung-zone",
+   "why": "printed 'Kwantung leased territory'; 1,054,074 is the 1925 census figure for Kwantung and the zone"
+  },
+  {
+   "t": "japan-1939-40:p0078_2",
+   "from": "kwantung",
+   "to": "kwantung-zone",
+   "why": "row: Kwantung Leased Territory and South Manchuria Railway Zone"
+  },
+  {
+   "t": "japan-1939-40:p0079_1",
+   "from": "kwantung",
+   "to": "kwantung-zone",
+   "why": "row: Kwantung Leased Territory and South Manchuria Railway Zone"
+  },
+  {
+   "t": "japan-manchoukuo-1939:p1-0087_1",
+   "from": "kwantung",
+   "to": "kwantung-zone",
+   "why": "row: Kwantung Leased Territory & S.M.R. Zone"
+  },
+  {
+   "t": "japan-manchoukuo-1939:p1-0695_1",
+   "from": "kwantung",
+   "to": "kwantung-zone",
+   "until": 1936,
+   "why": "footnote: S.M.R. Zone included under Kwantung 1932-1936"
+  },
+  {
+   "t": "japan-population-pressure-1937:p0080_1",
+   "from": "kwantung",
+   "to": "kwantung-zone",
+   "why": "row: Kwantung Leased Territory and South Manchuria Ry. Zone"
+  },
+  {
+   "t": "japan-tokei-1935:p0040_1",
+   "from": "kwantung",
+   "to": "kwantung-zone",
+   "until": 1936,
+   "why": "row: 關東州及滿鐵附屬地"
+  },
+  {
+   "t": "japan-toshi-1936:p0029_2",
+   "from": "kwantung",
+   "to": "kwantung-zone",
+   "why": "column: 關東州及鐵道附屬地"
+  },
+  {
+   "t": "japan-toshi-1936:p0031_2",
+   "from": "kwantung",
+   "to": "kwantung-zone",
+   "why": "row: 關東州及鐵道附屬地"
+  },
+  {
+   "t": "korea-nenkan-1926:p0212_1",
+   "from": "kwantung",
+   "to": "kwantung-zone",
+   "why": "關東州 872,751 = 本土 + 五島 + 長山列島 + 滿鐵附屬地"
+  },
+  {
+   "t": "japan-toshi-1931:p0043_1",
+   "from": "kwantung",
+   "to": "kwantung-zone",
+   "why": "printed 關東州; 1,054,074 is the 1925 census figure for Kwantung and the zone"
+  },
+  {
+   "t": "japan-1937:p0064_1",
+   "from": "kwantung",
+   "to": "kwantung-zone",
+   "why": "row: Kwantung Province and South Manchuria Railway Zone"
+  },
+  {
+   "t": "japan-1937:p0064_2",
+   "from": "kwantung",
+   "to": "kwantung-zone",
+   "why": "row: Kwantung Province and South Manchuria Railway Zone"
+  },
+  {
+   "t": "japan-manchoukuo-1938:p1-0093_1",
+   "from": "kwantung",
+   "to": "kwantung-zone",
+   "why": "row: Kwantung Leased Territory & S.M.R. Zone"
+  },
+  {
+   "t": "japan-tokei-1940:p0015_1",
+   "from": "kwantung",
+   "to": "kwantung-zone",
+   "why": "row: 關東州及滿鐵附屬地"
+  },
+  {
+   "t": "japan-tokei-1940:p0015_3",
+   "from": "kwantung",
+   "to": "kwantung-zone",
+   "until": 1936,
+   "why": "footnote (5): 昭和十二年以前ニハ滿鐵附屬地ヲ含ム; the 1937 row is the territory alone"
+  },
+  {
+   "t": "japan-1942-43:p0063_2",
+   "from": "kwantung",
+   "to": "kwantung-zone",
+   "why": "row: Kwantung Leased Territory and South Manchuria Railway Zone"
+  },
+  {
+   "t": "japan-manchoukuo-1934:p1-0072_2",
+   "from": "kwantung",
+   "to": "kwantung-zone",
+   "why": "printed 'Kwantung leased territory'; 1,328,011 is the 1930 census figure for Kwantung and the zone"
+  },
+  {
+   "t": "japan-manchoukuo-1934:p2-0004_1",
+   "from": "kwantung",
+   "to": "kwantung-zone",
+   "why": "row: Kwantung Leased Territory and S.M.R. Zone"
+  },
+  {
+   "t": "japan-manchoukuo-1940:p0099_1",
+   "from": "kwantung",
+   "to": "kwantung-zone",
+   "until": 1936,
+   "why": "footnote: S.M.R. Zone included under Kwantung 1932-1936"
+  },
+  {
+   "t": "far-east-1941:IMG_4860_2",
+   "from": "kwantung",
+   "to": "kwantung-zone",
+   "until": 1936,
+   "why": "footnote: Kwantung includes the S.M.R. Zone up to 1937; the 1937 and 1938 rows match the territory alone"
+  },
+  {
+   "t": "japan-1935:p0076_1",
+   "from": "kwantung",
+   "to": "kwantung-zone",
+   "why": "row: Kwantung Province and South Manchuria Railway Zone"
+  },
+  {
+   "t": "japan-tokei-1938:p0018_1",
+   "from": "kwantung",
+   "to": "kwantung-zone",
+   "until": 1936,
+   "why": "row: 關東州及滿鐵附屬地; footnote: 昭和十二年ニハ滿鐵附屬地ヲ含マズ"
+  },
+  {
+   "t": "japan-1929:p0803_1",
+   "from": "kwantung",
+   "to": "kwantung-zone",
+   "why": "printed 'Kwantung Province'; Chinese 866,506 against 677,692 for the territory alone in 1926"
+  },
+  {
+   "t": "japan-manchoukuo-1936:p1-0046_2",
+   "from": "kwantung",
+   "to": "kwantung-zone",
+   "why": "printed 'Kwantung Leased Territory'; 1.33 million is the 1930 census figure for Kwantung and the zone"
+  },
+  {
+   "t": "japan-manchoukuo-1936:p1-0084_1",
+   "from": "kwantung",
+   "to": "kwantung-zone",
+   "why": "printed 'Kwantung Leased Territory'; 1,328,011 is the 1930 census figure for Kwantung and the zone"
+  },
+  {
+   "t": "japan-population-pressure-1937:p0214_1",
+   "from": "kwantung",
+   "to": "kwantung-zone",
+   "why": "footnote: Kwantung Leased Territory and South Manchuria Railway Zone"
+  },
+  {
+   "t": "japan-manchoukuo-1939:p1-0976_5",
+   "from": "kwantung",
+   "to": "kwantung-zone",
+   "why": "row: Kwantung Leased Territory and S.M.R. Zone"
+  }
+ ]
+}

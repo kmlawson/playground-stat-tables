@@ -6,7 +6,7 @@ smoothed or corrected. A cell that is empty, "[?]", a dash, a ditto mark or not 
 claims(): list of dicts {place (id), label, date, year, approx, m, g, b, n, v, src (slug:id), part, row, col}
 and the places made up on the way (labels the gazetteer does not know), and the labels that were not placed.
 """
-import os, re, sys, unicodedata
+import json, os, re, sys, unicodedata
 from collections import Counter
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -141,4 +141,21 @@ def claims(specs, editions):
                             emit(rp[str(r)], True, d, r, int(col["c"]), col)
                         else:
                             emit(lab, False, d, r, int(col["c"]), col)
+    move(out, problems)
     return out, made, unplaced, problems
+
+
+def move(out, problems):
+    """place_moves.json: figures a spec puts at one place that belong to another (Kwantung printed together with the
+    Railway Zone), moved by table and year range. A move that matches nothing is reported as a problem."""
+    p = os.path.join(FDIR, "place_moves.json")
+    if not os.path.exists(p):
+        return
+    for mv in json.load(open(p)).get("moves", []):
+        y0, y1, n = mv.get("from_year", 0), mv.get("until", 9999), 0
+        for c in out:
+            if c["src"] == mv["t"] and c["place"] == mv["from"] and y0 <= c["year"] <= y1:
+                c["place"] = mv["to"]
+                n += 1
+        if not n:
+            problems["place move matched nothing " + mv["t"]] += 1

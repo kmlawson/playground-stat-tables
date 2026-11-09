@@ -21,7 +21,7 @@ import make_previews as MP  # noqa: E402
 OUT = os.path.join(SITE, "data", "population")
 BUCKETS = ["japan", "korea", "taiwan", "karafuto", "kwantung", "nanyo", "manchuria", "china", "world", "empire"]
 METRICS = ["total", "male", "female", "households"]
-TOPS = ["empire", "japan", "korea", "taiwan", "karafuto", "kwantung", "nanyo", "manchuria", "china", "world"]
+TOPS = ["empire", "japan", "korea", "taiwan", "karafuto", "kwantung-zone", "nanyo", "manchuria", "china", "world"]
 
 
 def edition_year(b):
@@ -39,6 +39,18 @@ def main(chrome=None):
     claims, made, unplaced, problems = X.claims(specs, editions)
     places = dict(X.PL)
     places.update(made)
+    # the page's own tree where it differs from the gazetteer's (config "place_up": Kwantung and the Railway Zone sit
+    # under the combined unit the tables usually print, so the home tile is the combined unit)
+    CFG = json.load(open(os.path.join(HERE, "config.json")))
+    for pid, up in CFG.get("place_up", {}).items():
+        if pid in places and up in places:
+            places[pid] = dict(places[pid], up=up)
+    MERGE = {a: b for a, b in CFG.get("place_merge", {}).items() if b in places}
+    for c in claims:
+        c["place"] = MERGE.get(c["place"], c["place"])
+    for pid, p in list(places.items()):
+        if p.get("up") in MERGE:
+            places[pid] = dict(p, up=MERGE[p["up"]])
 
     # drop claims whose metric is not one we show; normalise groups
     claims = [c for c in claims if c["m"] in METRICS]
@@ -164,7 +176,11 @@ def main(chrome=None):
     PC = {pid: [p["en"], p["ja"], p["k"], p["up"] or "", p["n"], (p["y"] or [0, 0])[0], (p["y"] or [0, 0])[1],
                 (p["l"] or [0, 0])[0], (p["l"] or [0, 0])[1], p["b"], p["nt"]] + ([p["a"]] if p.get("a") else []) for pid, p in P.items()}
     idx = {"places": PC, "src": srcs, "groups": GROUPS, "bases": BASES, "metrics": METRICS,
-           "tops": [t for t in TOPS if t in P], "n": len(claims), "tables": len(src_ix)}
+           "tops": [t for t in TOPS if t in P], "n": len(claims), "tables": len(src_ix),
+           "pn": {k: v for k, v in CFG.get("place_notes", {}).items() if k in P},
+           "cb": {k: v for k, v in CFG.get("chart_break", {}).items() if k in P},
+           "srcs": sources(P),
+           "tn": {k: v for k, v in CFG.get("top_notes", {}).items() if k in P}}
     json.dump(idx, open(os.path.join(OUT, "index.json"), "w"), ensure_ascii=False, separators=(",", ":"))
     for b, d in per_bucket.items():
         json.dump({"c": d, "labels": bucket_lists[b]["L"], "notes": bucket_lists[b]["N"]}, open(os.path.join(OUT, b + ".json"), "w"),
@@ -178,7 +194,11 @@ def main(chrome=None):
     links = {}
     for k, cnt in by_src.items():
         ps = list(cnt)
-        if len(ps) == 1:
+        grp = [g for g, within in CFG.get("link_groups", {}).items()
+               if g in cnt and all(p == g or set(chain(p)) & set(within) for p in ps)]
+        if grp:
+            target = grp[0]
+        elif len(ps) == 1:
             target = ps[0]
         else:
             ups = Counter(P[p]["up"] for p in ps if p in P)
@@ -203,6 +223,17 @@ def main(chrome=None):
     if X.L.STALE:
         print(f"population: {len(X.L.STALE)} specs left out because their table changed (run build/finders/status.py)")
     return {"n": len(claims), "tables": len(src_ix), "places": len(P)}
+
+
+def sources(P):
+    """sources.json: {region id: [{name, by, kind, home, deep, lang, what}]} -> what the page shows above a place's
+    figures (the nearest region up the tree that has a list)."""
+    p = os.path.join(HERE, "sources.json")
+    if not os.path.exists(p):
+        return {}
+    S = json.load(open(p))
+    return {k: [[x["name"], x.get("by", ""), x.get("kind", ""), x.get("home", ""), x.get("deep", ""), x.get("lang", ""),
+                 x.get("what", "")] for x in v] for k, v in S.items() if k in P and not k.startswith("_")}
 
 
 def noscript_list(idx):
