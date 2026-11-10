@@ -77,3 +77,4 @@ ME  | done | japan-education: new series (Mombushō Annual Reports 1891–1906-0
 JV  | done | japan update (1927, 1928, 1929 added; topicmaps/japan.json extended), agents JV1–JV4 (2026-11-03)
 CT1 | done | china-tongji (new series): all 8 topics — 43 families, 107 tables
 - KB1 (2026-11-10): korea-boeki series (1938, 1939) — new series; families made by script, one per printed table number (identical 76-table layout in both editions); 76 families in families/korea-boeki--*.json. Done.
+- KZ1 (2026-11-10): japan-kenchiku series (建築年鑑 1938, 1940) — new series, 6 topics by chapter; 46 families, 96 tables (Sonnet, families/japan-kenchiku--*.json). Done.

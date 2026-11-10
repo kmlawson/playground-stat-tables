@@ -1929,3 +1929,13 @@ SERIES["korea-boeki"] = {"name": "朝鮮防疫統計 (Epidemic Prevention Statis
                          "topics": {"Acute infectious diseases": {"korea-boeki-1938": ["傳染病"], "korea-boeki-1939": ["傳染病"]},
                                     "Chronic infectious diseases": {"korea-boeki-1938": ["慢性傳染病"], "korea-boeki-1939": ["慢性傳染病"]},
                                     "Endemic diseases": {"korea-boeki-1938": ["地方病"], "korea-boeki-1939": ["地方病"]}}}
+SERIES["japan-kenchiku"] = {"name": "建築年鑑 (Architectural Yearbook, Architectural Institute of Japan)",
+                            "books": ["japan-kenchiku-1938", "japan-kenchiku-1940"],
+                            "topics": {"Review of the year": {"japan-kenchiku-1938": ["II 建築界展望"], "japan-kenchiku-1940": ["II 建築界展望"]},
+                                       "Building statistics": {"japan-kenchiku-1938": ["III 建築統計"], "japan-kenchiku-1940": ["III 建築統計"]},
+                                       "Completed buildings": {"japan-kenchiku-1938": ["IV 竣功建築物"], "japan-kenchiku-1940": ["IV 竣功建築物"]},
+                                       "Building laws": {"japan-kenchiku-1938": ["V 建築法規"], "japan-kenchiku-1940": ["V 建築法規"]},
+                                       "Books, research and patents": {"japan-kenchiku-1938": ["VI 建築關係新刊圖書", "VIII 研究援助及表彰", "IX 特許、意匠登錄(建築關係)"],
+                                                                       "japan-kenchiku-1940": ["VII 建築關係新刊圖書", "IX 研究援助"]},
+                                       "Offices, societies, schools and journals": {"japan-kenchiku-1938": ["X 諸官公署に於ける主なる建築關係局課", "XI 建築關係團體", "XII 建築關係學校", "XIII 建築關係雜誌及新聞"],
+                                                                                    "japan-kenchiku-1940": ["XI 諸官公署に於ける主なる建築關係局課", "XII 建築關係團體", "XIII 建築關係學校", "XIV 建築關係雜誌及新聞"]}}}
