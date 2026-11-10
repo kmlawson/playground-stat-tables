@@ -109,3 +109,7 @@ wrong and what to do about it. Add a line when a book teaches something new.
   1935). Run several alias agents on slices, each writing a proposal file (never `aliases.json` itself); merge them
   and check for duplicate ids and missing parents. A city is not the county of the same name.
 - `cp`/`mv` are interactive aliases and unmatched globs abort commands: use `\cp -f`, `\mv -f`, `>|`, `>>|` (noclobber).
+- **Regular spread books with a full contents** (朝鮮防疫統計 1939: frame = 8 + page/2 throughout): the contact-sheet
+  survey can be skipped — plan missions from toc.json page numbers, confirm the mapping on a few frames (first table,
+  colophon) and write a synthetic `plan/survey.json` for toc_leaves.py. Sonnet still normalises '1.376'→'1,376' and
+  modernises 齡/查/清 even when told not to: restore from notes and normalise at assembly.
