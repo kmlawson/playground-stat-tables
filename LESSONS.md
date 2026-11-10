@@ -113,6 +113,15 @@ wrong and what to do about it. Add a line when a book teaches something new.
   survey can be skipped — plan missions from toc.json page numbers, confirm the mapping on a few frames (first table,
   colophon) and write a synthetic `plan/survey.json` for toc_leaves.py. Sonnet still normalises '1.376'→'1,376' and
   modernises 齡/查/清 even when told not to: restore from notes and normalise at assembly.
+- **Misbound scans (乱丁 in the NDL record)**: survey every frame for printed page numbers before trusting a
+  frame = k + page/2 rule (建築年鑑 1938: one missing leaf shifted the offset at p. 76, pp. 274–291 bound among the ads).
+  Give out-of-order missions the reading order explicitly; keep a page→frame function (`plan/leafmap.py`) for toc.json.
+- **Long registers** (建築年鑑 1938 竣功建築物, ~740 rows, 11 columns): split by frames into fragment missions with a fixed
+  group column (府縣) inherited across frames; readers name columns differently (起工 / 起工 — 年月), so join with one
+  column list and record the printed variants in the notes. Bullet marks (・ vs •) need normalising.
+- **Two missions on one frame** (建築年鑑 1940): when a frame holds the end of one mission's run and the start of
+  another's (left/right halves), both write `tables/<frame>_1.json` — two clashes and one overwrite in one book. Give
+  the second mission an explicit file number in its prompt, and MISSION.md now says to check before writing.
 - **A second edition with the same layout** (朝鮮防疫統計 1938 after 1939: same 76 tables, same page numbers): copy the
   first edition's tooling, survey.json and brief; read only the new contents to confirm; launch missions as frames
   download (`plan/ready.py`, `plan/slots.py`); derive the English layer and Similar-tables families by table number and
