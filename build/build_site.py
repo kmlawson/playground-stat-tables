@@ -6,6 +6,7 @@ For each book in BOOKS, reads <book dir>/_work/tables/*.json and writes
 as "in progress" on the landing page. Scan links point to the online scan where one exists.
 """
 import json, glob, os, re, html, datetime, sys
+CJK_RE = re.compile(r"[\u3040-\u30ff\u3400-\u9fff\uf900-\ufaff]")  # never italicise Asian text (user, 2026-10-22)
 from pathlib import Path
 
 SCRIPTS = os.path.dirname(os.path.abspath(__file__))  # build/: scripts, leaf maps, docs (not deployed)
@@ -2566,7 +2567,7 @@ def landing(cards):
         grp = group_of(b)
         home = f'book/{b["slug"]}/' if n else f'book/{b["slug"]}/directory.html' if b.get("dir_only") and b.get("_dir_n") else None
         title = f'<a href="{home}" style="color:inherit;text-decoration:none">{html.escape(b["title"])}</a>' if home else html.escape(b["title"])
-        items.append((grp, b["slug"], f"""<article data-t="{html.escape(b["title"])}" data-a="{added.get(b["slug"], "")}"><h2>{title}</h2><div class="pub">{html.escape((b["author"] + "; ") if b.get("author") else "")}{html.escape(b["publisher"])}</div>{f'<div class="pub"><i>{html.escape(b["note"])}</i></div>' if b.get("note") else ""}
+        items.append((grp, b["slug"], f"""<article data-t="{html.escape(b["title"])}" data-a="{added.get(b["slug"], "")}"><h2>{title}</h2><div class="pub">{html.escape((b["author"] + "; ") if b.get("author") else "")}{html.escape(b["publisher"])}</div>{(f'<div class="pub">{html.escape(b["note"])}</div>' if CJK_RE.search(b["note"]) else f'<div class="pub"><i>{html.escape(b["note"])}</i></div>') if b.get("note") else ""}
 <div class="stat">{stat}</div><div class="src">LLM-transcribed{item}</div>{b.get("_qstat", "")}<div class="links">{link}</div></article>"""))
     order = {"far-east": 0, "manchoukuo": 1}
     other = sorted([(sl, h) for g, sl, h in items if g == "other"], key=lambda x: order.get(x[0].rsplit("-", 1)[0], 9))
@@ -2859,7 +2860,7 @@ function ptLike(a,b){const x=ptNorm(a),y=ptNorm(b);if(!x||!y||x.includes(y)||y.i
 function ptNorm(t){return String(t).normalize("NFKC").replace(/^\s*第[〇零一二三四五六七八九十百千]+表\s*/,"").replace(/^\s*(?:No\.\s*|Table\s+)?[國]?\d+[A-Za-z]?[\s.、:]*/i,"").replace(/[\s、，,.．・:：;；()（）\[\]［］「」『』〔〕\-—–]/g,"").toLowerCase()}
 function ptocTables(on){ptkOn=on;document.querySelectorAll(".ptoc ul").forEach(u=>u.classList.toggle("showt",on));try{localStorage.setItem("ptocTables",on?"1":"0")}catch(e){}}
 // link to the whole original book (Internet Archive, NDL, …) shown at the top of the contents
-const origLink=()=>(ORIG?`<a class="origbtn" href="${esc(ORIG.u)}" target="_blank" rel="noopener">View Original</a>`:"")+(CITE?`<p class="cite"><b>Citation:</b> ${CITE.a?esc(CITE.a)+", ":""}<i>${esc(CITE.t)}</i> (${esc(CITE.p)})${CITE.u?`. ${esc(CITE.u)}`:""}</p>`:"");
+const origLink=()=>(ORIG?`<a class="origbtn" href="${esc(ORIG.u)}" target="_blank" rel="noopener">View Original</a>`:"")+(CITE?`<p class="cite"><b>Citation:</b> ${CITE.a?esc(CITE.a)+", ":""}${/[\u3040-\u30ff\u3400-\u9fff\uf900-\ufaff]/.test(CITE.t)?esc(CITE.t):`<i>${esc(CITE.t)}</i>`} (${esc(CITE.p)})${CITE.u?`. ${esc(CITE.u)}`:""}</p>`:"");
 const MARKED=__MARKED__;
 const CJK=/[\u3040-\u30ff\u3400-\u9fff\uf900-\ufaff]/;  // never italicise Asian text (user, 2026-10-22)
 const QSTAT=__QSTAT__;
@@ -3235,7 +3236,7 @@ def build_directory(book):
         ol = orig_link(book)
         cite = ((f'<a class="origbtn" href="{html.escape(ol["u"])}" target="_blank" rel="noopener" style="display:inline-block;margin:4px 0 8px;padding:6px 12px;border:1px solid var(--accent);border-radius:6px;color:var(--accent);text-decoration:none">View Original</a>' if ol else "")
                 + f'<p style="font-size:13.5px;color:var(--muted);margin:0 0 12px;overflow-wrap:anywhere"><b style="color:var(--ink);font-weight:600">Citation:</b> '
-                + (html.escape(ci["a"]) + ", " if ci["a"] else "") + f'<i>{html.escape(ci["t"])}</i> ({html.escape(ci["p"])})'
+                + (html.escape(ci["a"]) + ", " if ci["a"] else "") + (html.escape(ci["t"]) if CJK_RE.search(ci["t"]) else f'<i>{html.escape(ci["t"])}</i>') + f' ({html.escape(ci["p"])})'
                 + (f'. {html.escape(ci["u"])}' if ci["u"] else "") + "</p>")
         doc = doc.replace('<main><div id="toc">', f'<main>{cite}<details style="margin:0 0 8px;font-size:15px"><summary>About this book</summary>{sub}{about}</details>{ctoc}<div id="toc">', 1)
     with open(os.path.join(HERE, "book", book["slug"], "directory.html"), "w", encoding="utf-8") as fh:
