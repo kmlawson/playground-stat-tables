@@ -65,7 +65,7 @@ wrong and what to do about it. Add a line when a book teaches something new.
   difference); non-reconciling totals are usually source misprints. Keep them as printed with a note.
 - When a rough scan leaves many `[?]`, one blind Opus re-read of just those cells (values hidden; `plan/make_blind.py`)
   settles about half (1947: 122 of 266). Worth it for rough scans, not for clean ones.
-- Opus review of Haiku/Sonnet samples (2026-11-04): 99.92% of figures right; the errors are labels (modernised or
+- Opus review of Haiku/Sonnet samples (2026-11-04): 99.92% of figures right (統計提要 1935 spot check 2026-11-10: 1648/1649); the errors are labels (modernised or
   truncated kanji, a vertical range dash read as 一) and over-cautious `[?]`.
 
 ## Contents (toc.json)

@@ -75,3 +75,4 @@ FU  | done | japan-fea: added 1901 (No. I) and 1902 (No. II); topicmaps/japan-fe
 SN  | done | japan-sanitary: 1877 cholera table linked to 1907-08 Tables XV/XXV (hand-made, main session, 2026-11-01)
 ME  | done | japan-education: new series (Mombushō Annual Reports 1891–1906-07, 11 editions), topicmaps/japan-education.json (27 topics), agents ME1–ME5 (2026-11-03)
 JV  | done | japan update (1927, 1928, 1929 added; topicmaps/japan.json extended), agents JV1–JV4 (2026-11-03)
+CT1 | done | china-tongji (new series): all 8 topics — 43 families, 107 tables

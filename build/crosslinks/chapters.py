@@ -1902,3 +1902,22 @@ def _merge_topicmaps():
                 T[b] = list(dict.fromkeys(T.get(b, []) + list(chs)))
         S["topics"] = {t: m for t, m in S["topics"].items() if len(m) >= 2}
 _merge_topicmaps()
+
+# 中華民國統計提要 (Statistical Abstract of the Republic of China): 1935 (36 classes) and 1947 (8 sections) (user, 2026-11-10)
+_CT = ["china-tongji-1935", "china-tongji-1947"]
+_CT_TOPICS = {
+    "Area and population": {"china-tongji-1935": ["第一類 疆界與地勢", "第十類 人口"], "china-tongji-1947": ["第一類 土地與人口"]},
+    "Agriculture, forestry and land": {"china-tongji-1935": ["第十九類 土地", "第二十類 農業", "第二十一類 林業", "第二十二類 漁業", "第二十三類 畜牧"],
+                                        "china-tongji-1947": ["第二類 農業"]},
+    "Mining, industry, commerce and prices": {"china-tongji-1935": ["第二十四類 礦業", "第二十五類 工業", "第二十六類 商業", "第二十七類 貿易", "第二十八類 物價"],
+                                              "china-tongji-1947": ["第三類 礦工商業"]},
+    "Public finance and banking": {"china-tongji-1935": ["第二十九類 金融", "第三十類 財政"], "china-tongji-1947": ["第四類 財政與金融"]},
+    "Communications": {"china-tongji-1935": ["第三十一類 郵政", "第三十二類 電政", "第三十三類 公路", "第三十四類 鐵路", "第三十五類 航政", "第三十六類 水利及公用事業"],
+                       "china-tongji-1947": ["第五類 交通"]},
+    "Education": {"china-tongji-1935": ["第十三類 教育"], "china-tongji-1947": ["第六類 教育"]},
+    "Social affairs and public health": {"china-tongji-1935": ["第十一類 勞工", "第十二類 合作事業", "第十四類 社會病態", "第十五類 衛生", "第十六類 保衛", "第十七類 救濟", "第十八類 人民團體"],
+                                         "china-tongji-1947": ["第七類 社會與衛生"]},
+    "Government, justice and officials": {"china-tongji-1935": ["第四類 政治組織與行政", "第五類 法制", "第六類 司法", "第七類 官吏與考試", "第八類 監察", "第九類 外交"],
+                                          "china-tongji-1947": ["第八類 政治組織"]},
+}
+SERIES["china-tongji"] = {"name": "中華民國統計提要 (Statistical Abstract of the Republic of China)", "books": _CT, "topics": _CT_TOPICS}
