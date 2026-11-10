@@ -56,6 +56,11 @@ wrong and what to do about it. Add a line when a book teaches something new.
   stays a new part; append columns only when the fragment's label is empty or names the same sub-table. Run
   `validate.py` after every join (a fragment lacking its row-label column heading broke 表209's widths).
 
+- Pages transposed in printing, not binding (建築年鑑 1942: p. 122 carries school rows of p. 140 and vice versa, page
+  numbers in sequence): the survey spots it from content; give both owning missions the reading order explicitly.
+- Successive editions drop parts (建築年鑑 1942 has no completed-buildings register): check the contents against what
+  the user asked for from the earlier editions and say at once what is missing.
+
 ## Missions and agents
 - Plan missions from the survey, never fixed leaf counts: group frames into table runs, keep a multi-frame table in one
   mission, cut only very long runs into fragment missions (`tables/frag/<leaf>_0.json`, joined by `join_frags.py`).
@@ -80,6 +85,9 @@ wrong and what to do about it. Add a line when a book teaches something new.
   are complete, stop it. Check that fragment files still have `parts` after a final rewrite.
 - Give each agent its own script names; one translation agent once ran another session's scratch script.
 - Survey agents can each take ~18 contact sheets (144 frames) in 1–3 minutes.
+
+- Fragment missions that stop at "the other mission's half" can strand rows: give the frag the whole run to the end
+  of the list, including a continuation at the top of the next table's page (建築年鑑 1942, XIII 2 → p. 137).
 
 ## Checking
 - Second readings of Arabic-numeral tables almost always confirm the first (League report 1925: ~3,000 cells, one
