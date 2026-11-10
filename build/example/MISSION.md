@@ -21,9 +21,8 @@ hour. Read `BRIEF.md` (rules and JSON formats) first; this file only narrows you
   "no tables — why"), unreadable cells, totals that do not reconcile, and **every section or sub-section
   heading printed on the page** (as printed, bold run-in headings too) — these place the printed contents'
   entries on the scan without another pass.
-- Helper scripts only in `crops/M_<first leaf>/`; delete your crops at the end.
-- Delete **only the crops your mission created** (keep a list, or name them `crops/M_<leaf>_*`). Never
-  glob-delete `crops/IMG_NNNN_*`: parallel missions share those names and you would delete their files.
+- Helper scripts only in `crops/M_<first leaf>/`. **Never delete anything (no `rm` of any kind — it prompts the
+  user, 2026-11-10)**: leave your crops; they are cleaned up once per book. Name crops `crops/M_<leaf>_*`.
 
 ## Before you stop
 - [ ] Every page has a report line.

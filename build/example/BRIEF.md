@@ -66,8 +66,8 @@ put a sub-heading printed above an unnumbered table in `caption_extra`.
   figure rows, assign in order, and say so in the notes.
 - Rotated (sideways) tables: rotate the crop (`-rotate 90`) and read normally.
 - **Open every page in your range**, even ones you expect to be prose.
-- Crops are disposable: name them with your mission ID (e.g. `crops/M_p0600_c1.jpg`) and delete only your own
-  when you finish. Never touch another mission's crops: parallel missions share the folder.
+- Crops: name them with your mission ID (e.g. `crops/M_p0600_c1.jpg`). **Never delete anything (no `rm`)** — crops are
+  cleaned up once per book (user, 2026-11-10).
 
 ## What counts as a table
 - Include: numbered or unnumbered statistical tables; lists laid out in columns with figures; administrative
@@ -140,7 +140,6 @@ python3 `json.dump(..., ensure_ascii=False, indent=1)`.
 - [ ] Every table's notes give the row count read and every total check.
 - [ ] Unreadable cells listed in the notes and the report.
 - [ ] `python3 validate.py` run and problems in your own files fixed.
-- [ ] Your crops deleted.
 - [ ] A reply of at most ~8 lines: files written, unreadable cells, totals that do not reconcile.
 
 ## Directory entries (only for a directory batch)
