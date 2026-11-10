@@ -1,4 +1,4 @@
-# Finder pages — process (moved from CLAUDE.md on 2026-11-10)
+# Stage: finder pages (Population etc.) — moved from CLAUDE.md on 2026-11-10
 
 Overview of the feature (purpose, what visitors see, how it is built, limits): `docs/2026.11.07-finder-pages.md`.
 

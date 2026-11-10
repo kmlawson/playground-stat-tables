@@ -10,7 +10,8 @@ Other files to read when the task needs them:
   sideways pages, split tables, sub-tables, giant tables, agent behaviour, checking, publishing traps). Read it before
   planning a new book.
 - `docs/reference.md` — llm/Codex/agy pipelines, toolkits, kanji numerals, directories, charts, Search, map links.
-- `docs/finder-process.md` — the Population (finder) pages: code, specs, batches.
+- `docs/stages/` — one file per later stage (translations, tags, similar tables, topics and maps, finder pages):
+  read the one for the stage you are at.
 - `../queue.md` — the book log (what is done, where, which model, special instructions per book).
 
 ## Where things are
@@ -84,18 +85,14 @@ Other files to read when the task needs them:
    chapters from the divider frames (by a table's first printed page), titles and odd cells; `validate.py`. Log
    follow-ups in `FIXES.md`. Huge single-part books get bracketed virtual chapters in printed order.
 6. **Errata slips** (正誤表) on front frames: transcribe into `_work/errata.json` and attach each correction as a note.
-7. **English layer — required for every Japanese, Chinese and Korean book:** `build/translations/<slug>.json` with
-   `"_chapters"` and per table `{"t", "d"}`, Sonnet from the JSON only (`../_pipeline/kits/ndl-tokei/TRANSLATE_TASK.md`;
-   Hepburn for Japanese, McCune–Reischauer for Korean, the period's Wade-Giles/postal forms for Chinese).
-8. **BOOKS entry, build, downloads** (below). Then **tags**: `python3 build/tags/new_book_tags.py prepare <slug>
-   [--prior …]`, Sonnet agents per `build/tags/NEW_BOOK_TASK.md`, `new_book_tags.py apply <slug>`; commit
-   `build/tags/runs/new-<slug>/`. **Series** books: Similar tables / Compare — add the book to `SERIES` in
-   `build/crosslinks/chapters.py`, run `make_listings.py`, Sonnet agents add its tables to existing families
-   (update-mode prompts like `prompts/NU1.txt`; new series `prompts/S01.txt`), record in `missions.md`.
-   **Topic tags for charts**: `build/topics/<region>.json` (`TOPIC_TASK.md`); charts draw only printed figures —
-   `[?]`, blanks, dashes and ditto marks are gaps, never filled. **Map links**: `build/maplinks_add.py --dry` first
-   (`docs/reference.md`). **Never italicise CJK text.**
-9. **Population (finder) pages**: when asked, or every ~5–10 books — `docs/finder-process.md`.
+7. **English layer** (title translations) — required for every Japanese, Chinese and Korean book, before the first
+   build: `docs/stages/translations.md`.
+8. **BOOKS entry, build, downloads** (below), then the post-build stages, each with its own instructions:
+   - **Tags** (every book): `docs/stages/tags.md`.
+   - **Similar tables / Compare** (books in a series): `docs/stages/similar-tables.md`.
+   - **Chart topic tags and map links** (when tables fit): `docs/stages/topics-and-maps.md`.
+9. **Finder pages** (Population etc.): add the book's figures when asked, or every ~5–10 books —
+   `docs/stages/finder-pages.md`.
 10. **Publish** (below), record the state in `_work/STATUS.md` and `../queue.md`, push each volume as soon as it is
     complete.
 11. **Clean up when the book is finished:** copy the downloaded originals (as a PDF) to `/Volumes/Oma/Book Scans/…` and
