@@ -97,9 +97,14 @@ Other files to read when the task needs them:
    `docs/stages/finder-pages.md`.
 10. **Publish** (below), record the state in `_work/STATUS.md` and `../queue.md`, push each volume as soon as it is
     complete.
-11. **Clean up when the book is finished:** copy the downloaded originals (as a PDF) to `/Volumes/Oma/Book Scans/…` and
-    verify sizes; then the book's `full/`, `plan/` images, `sheets/` and `crops/` can go (one literal-path command, or
-    leave it to the user); never delete `tables/`, `directory/`, `chronology/` or `toc.json`.
+11. **Clean up — always, right after the book is pushed and the deploy has succeeded** (user, 2026-11-10; part of
+    publishing, not optional, not left to the user): `bash ../_pipeline/cleanup_book.sh <Name_Year> "<title> <edition>
+    <year> (<source id>)" [<Oma subfolder>]`. It backs the downloaded frames (`full/`, or `full_orig/` if pages were
+    rotated) up to `/Volumes/Oma/Book Scans/` as a lossless img2pdf PDF and checks the page count; then deletes `full/`,
+    `full_orig/`, `rot/`, `crops/`, `sheets/` and the `plan/` image copies with `find -delete` (no `rm` prompts), and the
+    project's finished sub-agent transcripts (untouched 45+ min). It stops without deleting if Oma is not mounted or the
+    page count differs. Never deletes `tables/`, `directory/`, `chronology/`, `toc.json`, `reports/` or plan scripts.
+    Record "scan on Oma, images deleted" in `STATUS.md` and `../queue.md`.
 
 ## BOOKS entry
 
