@@ -1,7 +1,7 @@
 # Stage: Similar tables / Compare (books that belong to a series)
 
-When: after tags, for any book that is an edition of a series already on the site (user, 2026-10-28); skip for
-one-off books.
+When: after tags, for every book that is an edition of a series — one already on the site, or a second edition that
+starts a new series (user, 2026-10-28; 2026-11-10: "whenever there is a series"); skip for one-off books.
 
 1. Add the book to `SERIES` in `build/crosslinks/chapters.py` (series key → slugs in edition order).
 2. `python3 build/crosslinks/make_listings.py` — writes the per-series topic listings the agents read.

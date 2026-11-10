@@ -25,7 +25,8 @@ shows a card for a matching place, and the Japanese Empire map's place card link
 - **Nothing is re-read:** a spec per table says which rows/columns hold the figure, for which place, date, group and
   basis; the script copies those cells as transcribed. Each spec carries a fingerprint of its table; if the table
   changes, the spec is left out until re-written.
-- **Finder batch, every ~5–10 new books or monthly** (not per book): build; `python3 build/finders/status.py
+- **Finder batch for every new book with candidate tables** (user, 2026-11-10: "whenever there are tables that need to
+  be added to figures page" — part of publishing the book, not batched): build; `python3 build/finders/status.py
   --batches` (tables with no spec, stale specs, new unmatched names, new suspicious figures; writes
   `work/batches/pending-<date>/`); one Sonnet agent per finder on those batches with its `TASK.md`, specs into
   `specs/pending-<date>/`; one agent on `work/new_names.txt` with `ALIAS_TASK.md`; one on `work/new_outliers.txt` with

@@ -89,9 +89,11 @@ Other files to read when the task needs them:
    build: `docs/stages/translations.md`.
 8. **BOOKS entry, build, downloads** (below), then the post-build stages, each with its own instructions:
    - **Tags** (every book): `docs/stages/tags.md`.
-   - **Similar tables / Compare** (books in a series): `docs/stages/similar-tables.md`.
+   - **Similar tables / Compare** (every book in a series — including a second edition, which starts a new series;
+     user, 2026-11-10): `docs/stages/similar-tables.md`.
    - **Chart topic tags and map links** (when tables fit): `docs/stages/topics-and-maps.md`.
-9. **Finder pages** (Population etc.): add the book's figures when asked, or every ~5–10 books —
+9. **Finder pages** (Population etc.): for every book with tables that belong on a finder page, as part of publishing
+   (user, 2026-11-10: not batched) — `python3 build/finders/status.py --batches` after the first build, specs, rebuild:
    `docs/stages/finder-pages.md`.
 10. **Publish** (below), record the state in `_work/STATUS.md` and `../queue.md`, push each volume as soon as it is
     complete.
