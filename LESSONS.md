@@ -61,6 +61,12 @@ wrong and what to do about it. Add a line when a book teaches something new.
 - Successive editions drop parts (建築年鑑 1942 has no completed-buildings register): check the contents against what
   the user asked for from the earlier editions and say at once what is missing.
 
+- **Numbered sheets across spreads** (民生年鑑 1940: 第一表ノ一 … ノ十一, row labels on the left page only, ~1,300
+  figures a spread): one file per printed sheet, each mission 1–4 frames (~4.7 pages); at assembly merge sheets into one
+  table per sub-table named from toc.json, one part per sheet (`plan/assemble.py`) — no column unification needed. Match
+  the sub-table against the title with the table name stripped (古蹟古物名勝天然紀念物 contains 天然紀念物). Fill the 省 of
+  continuation rows from the neighbouring sheet (`plan/fill_sho.py`). Worn 1940s type gave 1.5% [?] with Sonnet.
+
 ## Missions and agents
 - Plan missions from the survey, never fixed leaf counts: group frames into table runs, keep a multi-frame table in one
   mission, cut only very long runs into fragment missions (`tables/frag/<leaf>_0.json`, joined by `join_frags.py`).
