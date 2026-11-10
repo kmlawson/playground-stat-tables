@@ -101,10 +101,12 @@ Other files to read when the task needs them:
     publishing, not optional, not left to the user): `bash ../_pipeline/cleanup_book.sh <Name_Year> "<title> <edition>
     <year> (<source id>)" [<Oma subfolder>]`. It backs the downloaded frames (`full/`, or `full_orig/` if pages were
     rotated) up to `/Volumes/Oma/Book Scans/` as a lossless img2pdf PDF and checks the page count; then deletes `full/`,
-    `full_orig/`, `rot/`, `crops/`, `sheets/` and the `plan/` image copies with `find -delete` (no `rm` prompts), and the
-    project's finished sub-agent transcripts (untouched 45+ min). It stops without deleting if Oma is not mounted or the
-    page count differs. Never deletes `tables/`, `directory/`, `chronology/`, `toc.json`, `reports/` or plan scripts.
-    Record "scan on Oma, images deleted" in `STATUS.md` and `../queue.md`.
+    `full_orig/`, `rot/`, `crops/`, `sheets/` and the `plan/` image copies with `find -delete` (no `rm` prompts). It stops
+    without deleting if Oma is not mounted or the page count differs. Never deletes `tables/`, `directory/`,
+    `chronology/`, `toc.json`, `reports/` or plan scripts. **Then, by hand, delete only your own session's finished
+    sub-agent transcripts** (`find ~/.claude/projects/<project>/<your session id>/subagents -type f -delete`, literal
+    path, once none of your agents is running) — never another session's (user, 2026-11-10). Record "scan on Oma,
+    images deleted" in `STATUS.md` and `../queue.md`.
 
 ## BOOKS entry
 
