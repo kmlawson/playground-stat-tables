@@ -11,12 +11,20 @@ wrong and what to do about it. Add a line when a book teaches something new.
 - Downloads: one request at a time, a few seconds apart, descriptive non-identifying User-Agent. Commons: use the API
   (`prop=imageinfo`) for the file URL; `pdfimages -png` keeps bilevel pages lossless.
 
+- DjVu (Commons/CADAL): `ddjvu -format=pbm -page=N` then `magick x.pbm full/pNNNN.png` (~0.6 s a page; writing a
+  bilevel PNG straight from TIFF with `-type bilevel` took 5 s a page). Commons `&page=N` is the DjVu page.
+- 民國叢書 photo-reprints (CADAL, 第一次中國教育年鑑 1934) can be badly broken type: 4 prints like 1, 3/5/8 and 0/6/9 lose
+  strokes; contact-sheet quality ratings miss it (pages rated "good" gave 50% [?] to Sonnet). Sample full-res crops first.
+
 ## By kind of volume
 - **Vertical Japanese with kanji (stacked-stroke) numerals** (NDL 統計書, 行政年報, 朝鮮年鑑): Opus. A Sonnet trial on a dense
   kanji page (1925) got 15 of 39 count cells right and modernised characters; Opus got 84/84. The 一/二/三 grouping
   rule exists for these tables. Tell agents to keep old forms (數, 縣, 淸).
 - **Horizontal Japanese/Chinese with Arabic figures** (統計年鑑, 統計書, 統計提要): Sonnet is reliable (Opus checks
   99.7–100% agreement); Haiku for light single-page tables. Opus only for very dense small type (1935 county tables).
+- **Vertical Chinese with compressed place-value numerals** (二〇、六五五, two digits to a cell; 第一次中國教育年鑑): Sonnet
+  left ~50% [?] and misread unflagged figures (independent check 94%); Opus with 4× crops and row/column re-adding
+  is usable. Broken Arabic type in the same book: Sonnet 98.7%, Haiku poor (wrong page, failed ratios) — use Opus.
 - **English yearbooks** (IA, Google scans): Haiku for most pages; bold faces make 3/8 look alike (hence the 3-vs-8 rule).
   Google scans repeat and omit pages — check printed page sequences on the contact sheets. IA leaf = file no. − 1:
   keep `build/leafmaps/<slug>.json` when the viewer counts differently.
@@ -61,6 +69,8 @@ wrong and what to do about it. Add a line when a book teaches something new.
   tell them to read labels on every frame.
 - Scale: a 1,312-page abstract (1,035 table pages) planned at ~4–5 frames a mission gave 228 missions, about 10 hours
   of wall time at 5–10 agents, plus a quota pause.
+- Opus readers extend the total rule to other digit pairs (1/4, 0/6/9) when type is broken; say "only 一/二/三 and
+  3-vs-8" in the prompt itself. Cells settled otherwise were turned back to [?] at assembly (`plan/unsettle.py`, 1934).
 - Agents mislabel chapters (e.g. 第七類 for 第十類): normalise every chapter at assembly from the divider frames.
 - Agents sometimes write partial readings (`243,8[?]0`), stray characters (`€31號`) or missing decimal points as read —
   normalise at assembly (whole-cell `[?]` plus a note with the partial reading).
