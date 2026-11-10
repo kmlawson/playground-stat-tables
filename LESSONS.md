@@ -39,8 +39,14 @@ wrong and what to do about it. Add a line when a book teaches something new.
   month a part — never one giant file. Tables over ~15k cells crash mobile Safari (Radio 1934 table 4): split them.
 - **Tables continued elsewhere** ("NNN頁へ續く") must be joined in reading order; column-wise continuations (Nanyō
   統計年鑑) need a column join, not `join_frags.py`.
-- **Transposed fragments**: one reader may put places in rows and the next in columns (1935 表68) — check orientation
-  before joining fragments.
+- **Check the files, not the report**: a mission report said 1935 表68 had places in rows while its neighbour had them
+  in columns; the files were in fact consistent. Inspect the JSON before transposing or re-planning anything.
+- **Repeated sheets** (one month per page, e.g. 表230): readers split a month differently — one part, or 收入/支出 halves.
+  Fix the part scheme in the brief. Fragment missions also write a NEW sub-table (next province) as a fragment:
+  regroup all pieces by the heading in each caption, inheriting it on frames without one (`plan/assemble.py`, 1935).
+- **Joining fragments**: identical row labels do not mean the same part — a new month or sub-table with the same rows
+  stays a new part; append columns only when the fragment's label is empty or names the same sub-table. Run
+  `validate.py` after every join (a fragment lacking its row-label column heading broke 表209's widths).
 
 ## Missions and agents
 - Plan missions from the survey, never fixed leaf counts: group frames into table runs, keep a multi-frame table in one
@@ -49,7 +55,12 @@ wrong and what to do about it. Add a line when a book teaches something new.
   the missions: check `table_no` coverage against the contents, move duplicates to `tables_dup/`, send one small fix
   mission for orphans.
 - Haiku gives up on long multi-frame missions and over-marks clear figures `[?]` when totals do not reconcile; keep it
-  to light single-page tables and tell it to write what it reads.
+  to light single-page tables and tell it to write what it reads. Exception: repetitive one-sheet-per-frame accounts
+  (~200 figures a frame) went well in 7-frame Haiku missions (1935 表230; spot check 179/180).
+- Some readers copy row labels from the previous frame with the same layout instead of re-reading them (1935 表315):
+  tell them to read labels on every frame.
+- Scale: a 1,312-page abstract (1,035 table pages) planned at ~4–5 frames a mission gave 228 missions, about 10 hours
+  of wall time at 5–10 agents, plus a quota pause.
 - Agents mislabel chapters (e.g. 第七類 for 第十類): normalise every chapter at assembly from the divider frames.
 - Agents sometimes write partial readings (`243,8[?]0`), stray characters (`€31號`) or missing decimal points as read —
   normalise at assembly (whole-cell `[?]` plus a note with the partial reading).
@@ -68,6 +79,10 @@ wrong and what to do about it. Add a line when a book teaches something new.
 - Opus review of Haiku/Sonnet samples (2026-11-04): 99.92% of figures right (統計提要 1935 spot check 2026-11-10: 1648/1649); the errors are labels (modernised or
   truncated kanji, a vertical range dash read as 一) and over-cautious `[?]`.
 
+## English layer
+- Translation agents tend to script generic descriptions from the titles alone (done in three tool calls). Tell them
+  to read each table's column headings and row labels, and sample a few entries per batch before building.
+
 ## Contents (toc.json)
 - Transcribe the printed contents FIRST, with every listed section, before the missions; place unpaged entries from
   survey/mission headings, never a separate re-read of the book (one such pass cost a week's quota).
@@ -80,4 +95,7 @@ wrong and what to do about it. Add a line when a book teaches something new.
   straight to `main`.
 - Population finder: new places need aliases; check new aliases against the gazetteer (an agent made a duplicate
   "British North Borneo"); a spec fix can make an older `place_moves.json` entry redundant ("matched nothing").
+- County-level population tables bring hundreds of unknown places (the gazetteer has no Chinese counties: ~530 from
+  1935). Run several alias agents on slices, each writing a proposal file (never `aliases.json` itself); merge them
+  and check for duplicate ids and missing parents. A city is not the county of the same name.
 - `cp`/`mv` are interactive aliases and unmatched globs abort commands: use `\cp -f`, `\mv -f`, `>|`, `>>|` (noclobber).
