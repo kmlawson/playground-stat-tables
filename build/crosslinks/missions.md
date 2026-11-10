@@ -76,3 +76,4 @@ SN  | done | japan-sanitary: 1877 cholera table linked to 1907-08 Tables XV/XXV 
 ME  | done | japan-education: new series (Mombushō Annual Reports 1891–1906-07, 11 editions), topicmaps/japan-education.json (27 topics), agents ME1–ME5 (2026-11-03)
 JV  | done | japan update (1927, 1928, 1929 added; topicmaps/japan.json extended), agents JV1–JV4 (2026-11-03)
 CT1 | done | china-tongji (new series): all 8 topics — 43 families, 107 tables
+- KB1 (2026-11-10): korea-boeki series (1938, 1939) — new series; families made by script, one per printed table number (identical 76-table layout in both editions); 76 families in families/korea-boeki--*.json. Done.

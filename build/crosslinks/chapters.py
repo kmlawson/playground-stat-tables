@@ -1921,3 +1921,11 @@ _CT_TOPICS = {
                                           "china-tongji-1947": ["第八類 政治組織"]},
 }
 SERIES["china-tongji"] = {"name": "中華民國統計提要 (Statistical Abstract of the Republic of China)", "books": _CT, "topics": _CT_TOPICS}
+
+
+# 朝鮮防疫統計 (Korea epidemic-prevention statistics): editions with the same 76 numbered tables in three parts
+SERIES["korea-boeki"] = {"name": "朝鮮防疫統計 (Epidemic Prevention Statistics of Korea)",
+                         "books": ["korea-boeki-1938", "korea-boeki-1939"],
+                         "topics": {"Acute infectious diseases": {"korea-boeki-1938": ["傳染病"], "korea-boeki-1939": ["傳染病"]},
+                                    "Chronic infectious diseases": {"korea-boeki-1938": ["慢性傳染病"], "korea-boeki-1939": ["慢性傳染病"]},
+                                    "Endemic diseases": {"korea-boeki-1938": ["地方病"], "korea-boeki-1939": ["地方病"]}}}

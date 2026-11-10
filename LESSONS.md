@@ -113,3 +113,7 @@ wrong and what to do about it. Add a line when a book teaches something new.
   survey can be skipped — plan missions from toc.json page numbers, confirm the mapping on a few frames (first table,
   colophon) and write a synthetic `plan/survey.json` for toc_leaves.py. Sonnet still normalises '1.376'→'1,376' and
   modernises 齡/查/清 even when told not to: restore from notes and normalise at assembly.
+- **A second edition with the same layout** (朝鮮防疫統計 1938 after 1939: same 76 tables, same page numbers): copy the
+  first edition's tooling, survey.json and brief; read only the new contents to confirm; launch missions as frames
+  download (`plan/ready.py`, `plan/slots.py`); derive the English layer and Similar-tables families by table number and
+  shift the years — no translation or matching agents needed. Publication data is in the colophon at the very back.
