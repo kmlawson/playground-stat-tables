@@ -1,0 +1,263 @@
+[
+ {
+  "t": "china-smc-1915:p0083_1",
+  "skip": "deaths only"
+ },
+ {
+  "t": "china-smc-1915:p0312_1",
+  "x": [
+   {
+    "rows": "dates",
+    "p": "Shanghai International Settlement",
+    "b": "census",
+    "cols": [
+     {
+      "c": 18,
+      "g": "foreign"
+     },
+     {
+      "c": 1,
+      "g": "japanese"
+     },
+     {
+      "c": 2,
+      "g": "british"
+     },
+     {
+      "c": 4,
+      "g": "american"
+     },
+     {
+      "c": 5,
+      "g": "german"
+     },
+     {
+      "c": 8,
+      "g": "french"
+     },
+     {
+      "c": 7,
+      "g": "russian"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "t": "china-smc-1915:p0314_1",
+  "x": [
+   {
+    "rows": "cells",
+    "cells": [
+     {
+      "r": 3,
+      "c": 1,
+      "p": "Shanghai International Settlement",
+      "d": "1915-10-16",
+      "g": "foreign",
+      "b": "census"
+     },
+     {
+      "r": 3,
+      "c": 3,
+      "p": "Shanghai International Settlement",
+      "d": "1910",
+      "g": "foreign",
+      "b": "census"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "t": "china-smc-1915:p0314_2",
+  "x": [
+   {
+    "rows": "cells",
+    "cells": [
+     {
+      "r": 3,
+      "c": 1,
+      "p": "Shanghai International Settlement",
+      "d": "1915-10-16",
+      "g": "chinese",
+      "b": "census"
+     },
+     {
+      "r": 3,
+      "c": 2,
+      "p": "Shanghai International Settlement",
+      "d": "1910",
+      "g": "chinese",
+      "b": "census"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "t": "china-smc-1915:p0315_1",
+  "x": [
+   {
+    "rows": "cells",
+    "cells": [
+     {
+      "r": 31,
+      "c": 35,
+      "p": "Shanghai International Settlement",
+      "d": "1915-10-16",
+      "g": "foreign",
+      "b": "census",
+      "m": "total"
+     },
+     {
+      "r": 31,
+      "c": 5,
+      "p": "Shanghai Central District",
+      "d": "1915-10-16",
+      "g": "foreign",
+      "b": "census"
+     },
+     {
+      "r": 31,
+      "c": 10,
+      "p": "Shanghai Northern District",
+      "d": "1915-10-16",
+      "g": "foreign",
+      "b": "census"
+     },
+     {
+      "r": 31,
+      "c": 15,
+      "p": "Shanghai Eastern District",
+      "d": "1915-10-16",
+      "g": "foreign",
+      "b": "census"
+     },
+     {
+      "r": 31,
+      "c": 20,
+      "p": "Shanghai Western District",
+      "d": "1915-10-16",
+      "g": "foreign",
+      "b": "census"
+     },
+     {
+      "r": 31,
+      "c": 25,
+      "p": "Shanghai Outside Roads",
+      "d": "1915-10-16",
+      "g": "foreign",
+      "b": "census"
+     },
+     {
+      "r": 31,
+      "c": 30,
+      "p": "Shanghai Pootung",
+      "d": "1915-10-16",
+      "g": "foreign",
+      "b": "census"
+     },
+     {
+      "r": 0,
+      "c": 35,
+      "p": "Shanghai International Settlement",
+      "d": "1915-10-16",
+      "g": "japanese",
+      "b": "census"
+     },
+     {
+      "r": 1,
+      "c": 35,
+      "p": "Shanghai International Settlement",
+      "d": "1915-10-16",
+      "g": "british",
+      "b": "census"
+     }
+    ],
+    "n": "foreigners by district"
+   }
+  ]
+ },
+ {
+  "t": "china-smc-1915:p0315_2",
+  "x": [
+   {
+    "part": 0,
+    "rows": "dates",
+    "p": "Shanghai International Settlement",
+    "g": "foreign",
+    "b": "census",
+    "cols": [
+     {
+      "c": 35
+     }
+    ]
+   },
+   {
+    "part": 1,
+    "rows": "dates",
+    "p": "Shanghai International Settlement",
+    "g": "foreign",
+    "b": "census",
+    "cols": [
+     {
+      "c": 25
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "t": "china-smc-1915:p0315_3",
+  "skip": "afloat shipping and navy"
+ },
+ {
+  "t": "china-smc-1915:p0316_1",
+  "skip": "occupations of males"
+ },
+ {
+  "t": "china-smc-1915:p0317_1",
+  "x": [
+   {
+    "rows": "dates",
+    "p": "Shanghai International Settlement",
+    "g": "chinese",
+    "b": "census",
+    "cols": [
+     {
+      "c": 32
+     },
+     {
+      "c": 29,
+      "m": "male"
+     },
+     {
+      "c": 30,
+      "m": "female"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "t": "china-smc-1915:p0318_1",
+  "skip": "duplicates census totals"
+ },
+ {
+  "t": "china-smc-1915:p0340_1",
+  "x": [
+   {
+    "rows": "dates",
+    "p": "Shanghai International Settlement",
+    "b": "census",
+    "cols": [
+     {
+      "c": 1
+     }
+    ],
+    "n": "Chinese and foreign, with Overseer of Taxes' comparison"
+   }
+  ]
+ }
+]
