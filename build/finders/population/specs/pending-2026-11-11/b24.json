@@ -1,0 +1,254 @@
+[
+ {
+  "t": "china-smc-1890:p0023_1",
+  "x": [
+   {
+    "rows": "cells",
+    "b": "census",
+    "n": "foreign residents",
+    "cells": [
+     {
+      "r": 0,
+      "c": 1,
+      "p": "Shanghai International Settlement",
+      "d": "1890-06-24",
+      "m": "male",
+      "g": "foreign"
+     },
+     {
+      "r": 0,
+      "c": 2,
+      "p": "Shanghai International Settlement",
+      "d": "1885",
+      "m": "male",
+      "g": "foreign"
+     },
+     {
+      "r": 1,
+      "c": 1,
+      "p": "Shanghai International Settlement",
+      "d": "1890-06-24",
+      "m": "female",
+      "g": "foreign"
+     },
+     {
+      "r": 1,
+      "c": 2,
+      "p": "Shanghai International Settlement",
+      "d": "1885",
+      "m": "female",
+      "g": "foreign"
+     },
+     {
+      "r": 3,
+      "c": 1,
+      "p": "Shanghai International Settlement",
+      "d": "1890-06-24",
+      "m": "total",
+      "g": "foreign"
+     },
+     {
+      "r": 3,
+      "c": 2,
+      "p": "Shanghai International Settlement",
+      "d": "1885",
+      "m": "total",
+      "g": "foreign"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "t": "china-smc-1890:p0023_2",
+  "x": [
+   {
+    "rows": "cells",
+    "b": "census",
+    "n": "native residents",
+    "cells": [
+     {
+      "r": 0,
+      "c": 1,
+      "p": "Shanghai International Settlement",
+      "d": "1890-06-24",
+      "m": "male",
+      "g": "chinese"
+     },
+     {
+      "r": 0,
+      "c": 2,
+      "p": "Shanghai International Settlement",
+      "d": "1890-06-24",
+      "m": "female",
+      "g": "chinese"
+     },
+     {
+      "r": 0,
+      "c": 4,
+      "p": "Shanghai International Settlement",
+      "d": "1890-06-24",
+      "m": "total",
+      "g": "chinese"
+     },
+     {
+      "r": 1,
+      "c": 1,
+      "p": "Shanghai International Settlement",
+      "d": "1885",
+      "m": "male",
+      "g": "chinese"
+     },
+     {
+      "r": 1,
+      "c": 2,
+      "p": "Shanghai International Settlement",
+      "d": "1885",
+      "m": "female",
+      "g": "chinese"
+     },
+     {
+      "r": 1,
+      "c": 4,
+      "p": "Shanghai International Settlement",
+      "d": "1885",
+      "m": "total",
+      "g": "chinese"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "t": "china-smc-1890:p0025_1",
+  "x": [
+   {
+    "rows": "cells",
+    "b": "census",
+    "n": "foreign residents, excl. French Concession",
+    "cells": [
+     {
+      "r": 26,
+      "c": 30,
+      "p": "Shanghai International Settlement",
+      "d": "1890-06-24",
+      "m": "total",
+      "g": "foreign"
+     },
+     {
+      "r": 26,
+      "c": 31,
+      "p": "Shanghai International Settlement",
+      "d": "1885",
+      "m": "total",
+      "g": "foreign"
+     },
+     {
+      "r": 26,
+      "c": 32,
+      "p": "Shanghai International Settlement",
+      "d": "1880",
+      "m": "total",
+      "g": "foreign"
+     },
+     {
+      "r": 26,
+      "c": 33,
+      "p": "Shanghai International Settlement",
+      "d": "1876",
+      "m": "total",
+      "g": "foreign"
+     },
+     {
+      "r": 26,
+      "c": 34,
+      "p": "Shanghai International Settlement",
+      "d": "1870",
+      "m": "total",
+      "g": "foreign"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "t": "china-smc-1890:p0026_1",
+  "skip": "occupations only"
+ },
+ {
+  "t": "china-smc-1890:p0028_1",
+  "x": [
+   {
+    "rows": "dates",
+    "p": "Shanghai International Settlement",
+    "b": "census",
+    "g": "chinese",
+    "n": "native residents, excl. French Concession",
+    "cols": [
+     {
+      "c": 21
+     },
+     {
+      "c": 18,
+      "m": "male"
+     },
+     {
+      "c": 19,
+      "m": "female"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "t": "china-smc-1890:p0028_2",
+  "skip": "boat population subset"
+ },
+ {
+  "t": "china-smc-1890:p0029_1",
+  "x": [
+   {
+    "rows": "cells",
+    "b": "census",
+    "g": "chinese",
+    "n": "native residents, excl. French Concession",
+    "cells": [
+     {
+      "r": 21,
+      "c": 9,
+      "p": "Shanghai International Settlement",
+      "d": "1890-06-24"
+     },
+     {
+      "r": 21,
+      "c": 10,
+      "p": "Shanghai International Settlement",
+      "d": "1885"
+     },
+     {
+      "r": 21,
+      "c": 11,
+      "p": "Shanghai International Settlement",
+      "d": "1880"
+     },
+     {
+      "r": 21,
+      "c": 12,
+      "p": "Shanghai International Settlement",
+      "d": "1876"
+     },
+     {
+      "r": 21,
+      "c": 13,
+      "p": "Shanghai International Settlement",
+      "d": "1870"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "t": "china-smc-1890:p0080_1",
+  "skip": "deaths and rates"
+ }
+]
