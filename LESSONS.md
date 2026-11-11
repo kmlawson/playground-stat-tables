@@ -142,3 +142,11 @@ wrong and what to do about it. Add a line when a book teaches something new.
   shift the years — no translation or matching agents needed. Publication data is in the colophon at the very back.
 - **Two missions sharing a frame** (住宅問題 1942: a left half and a right half of p0009 given to different missions): both wrote `tables/p0009_1.json` and one table was lost. When a frame is split between missions, give each an explicit file number in its prompt.
 - **Matrices over several spreads** (大東亞交易基本統計表 1943 第二部/第三部: partner-country matrices printed as row blocks × column groups over 1–8 spreads): one file per spread from 2-frame missions (`PART2.md`), merged at assembly into one table per commodity with one part per spread (`plan/assemble.py`) — no fragments, no column joins. Check the contents' page numbers against the printed ones per part (第四部 ran 2 pages off).
+- **Municipal reports with accounts and budgets** (Shanghai Municipal Council 1934/1936): the financial statements and budget
+  run as one statement over 30–40 pages. Split them into 3-frame `fin` missions that write ONE TABLE PER SUB-HEAD
+  (`plan/prompt.py` kind `fin`); fix the column names in the brief (Estimated/Actual — items/total; budget items/sub-total/total)
+  or every mission names them differently. Orphans happen at frame boundaries — a lower sub-head under a parent begun earlier,
+  or fee lines continuing at the top of a frame — so say "a lower sub-head printed on your frame is yours" and check each
+  report's "left for the previous mission" line against the previous mission's files. Tell missions that one-item-per-line
+  lists without figures (committees, recipients, vehicles, dated calls) are tables, or Haiku files them as prose.
+  Fold-outs are often shot twice (two frames of one page) and some frames are show-through ghosts of the facing page.

@@ -80,3 +80,4 @@ CT1 | done | china-tongji (new series): all 8 topics — 43 families, 107 tables
 - KZ1 (2026-11-10): japan-kenchiku series (建築年鑑 1938, 1940) — new series, 6 topics by chapter; 46 families, 96 tables (Sonnet, families/japan-kenchiku--*.json). Done.
 - KZ2 (2026-11-10): japan-kenchiku update (1942 added; topics mapped by chapter, VIII photo index under Completed buildings but left unlinked); 43 new tables linked (Sonnet). Done.
 SM1–SM6 | done | china-smc: new series (SMC Report 1934, 1936), 12 topics by chapter; agents SM1–SM6 (2026-11-11)
+SU1–SU6 | done | china-smc update: 1932 added (agents SU1–SU6, 2026-11-11)
