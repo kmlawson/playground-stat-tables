@@ -89,3 +89,4 @@ SU1–SU6 | done | china-smc update: 1932 added (agents SU1–SU6, 2026-11-11)
 | SA1–SA6 | done | china-smc-1920 added to all 12 china-smc topics (update mode) |
 | SB1–SB6 | done | china-smc-1918 added to all 12 china-smc topics (update mode) |
 | SC1–SC6 | done | china-smc-1917 added to all 12 china-smc topics (update mode) |
+| SD1–SD6 | done | china-smc-1916 added to all 12 china-smc topics (update mode) |
