@@ -102,3 +102,4 @@ SU1–SU6 | done | china-smc update: 1932 added (agents SU1–SU6, 2026-11-11)
 | SO1–SO6 | done | china-smc-1893 added to china-smc topics where matched (update mode; 57 placements) |
 | SP1–SP6 | done | china-smc-1891 added to china-smc topics (update mode; 125 placements, new families paired with 1893) |
 | SQ1–SQ6 | done | china-smc-1890 added to china-smc topics (update mode; 143 placements); population spec b24 |
+| SR1–SR6 | done | china-smc-1889 added to china-smc topics (update mode; 187 placements); population spec b25 (none used) |

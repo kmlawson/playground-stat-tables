@@ -1,0 +1,122 @@
+# Shanghai Municipal Council Report 1889 — Chronologies
+
+58 entries, LLM-transcribed. These entries were transcribed by the vision model of Opus 5.5. Before using any of these details, you must verify specific details with the original source which is linked to whenever possible.
+
+
+## Watch — Fire Brigade — Fire Record, 1889
+
+**1889, January 20th** 10.15 p.m. Fire broke out at the corner of Ningpo and Yunnan Roads. Three empty houses burnt. Origin unknown. Extinguished by the Fire Brigade. General alarm given. — p. 243 ([scan leaf 249](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1889-and-Budget-for-the-Year-1890/page/n249/mode/1up))
+
+**1889, January 28th** 12.30 a.m. Fire broke out at No. 108, Woochang Road, caused by a spark from a Chinese cooking stove. Extinguished by the occupants of the house. Damage trifling. No general alarm given. — p. 243 ([scan leaf 249](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1889-and-Budget-for-the-Year-1890/page/n249/mode/1up))
+
+**1889, January 31st** 2.50 p.m. Fire broke out at No. 982, Fuhkien Road, caused by burning Joss-paper. Three houses burnt. Extinguished by the Fire Brigade. General alarm given. — p. 243 ([scan leaf 249](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1889-and-Budget-for-the-Year-1890/page/n249/mode/1up))
+
+**1889, February 4th** 3.30 a.m. Fire broke out in cook-house, No. 36, Foochow Road, caused by the carelessness of the cook. Extinguished by the Police and occupants. Damage trifling. No general alarm given. — p. 243 ([scan leaf 249](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1889-and-Budget-for-the-Year-1890/page/n249/mode/1up))
+
+**1889, March 15th** 10.42 p.m. Fire broke out at No. 943, Nankin Road. Incendiarism suspected. Occupant charged at the Mixed Court with Arson, but the case was dismissed for want of evidence. Extinguished by the Fire Brigade. General alarm given. — p. 243 ([scan leaf 249](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1889-and-Budget-for-the-Year-1890/page/n249/mode/1up))
+
+**1889, March 29th** 11.55 p.m. Fire broke out at No. 693, North Keangse Road, cause unknown. Twelve houses burnt. Extinguished by the Fire Brigade. General alarm given. — p. 243 ([scan leaf 249](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1889-and-Budget-for-the-Year-1890/page/n249/mode/1up))
+
+**1889, March 31st** 11 a.m. Fire broke out at No. 196, Sungkeang Road. Origin unknown. A small quantity of cotton burnt. Extinguished by the Police and neighbours. No general alarm given. — p. 243 ([scan leaf 249](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1889-and-Budget-for-the-Year-1890/page/n249/mode/1up))
+
+**1889, April 3rd** 5.10 p.m. Fire broke out at No. 47, Boone Road, cause unknown. Four houses burnt. Extinguished by the Fire Brigade. General alarm given. — p. 244 ([scan leaf 249](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1889-and-Budget-for-the-Year-1890/page/n249/mode/1up))
+
+**1889, April 6th** 1.10 p.m. Fire broke out in Cheap Jack & Co.'s Bakery, No. 45, Woochang Road, caused by the overheating of a drying room. Roof slightly damaged by fire and a quantity of bread damaged by water. Extinguished by the Police and neighbours. No general alarm given. — p. 244 ([scan leaf 249](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1889-and-Budget-for-the-Year-1890/page/n249/mode/1up))
+
+**1889, April 14th** 11.57 p.m. Fire broke out at No. 2, Nankin Road. Messrs. Llewellyn & Co., caused by the carelessness of a servant who placed some burning cinders in contact with a wooden staircase. Extinguished by the Fire Brigade. Damage trifling. General alarm given. — p. 244 ([scan leaf 249](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1889-and-Budget-for-the-Year-1890/page/n249/mode/1up))
+
+**1889, April 19th** 9 p.m. A mosquito curtain in house No. 237, Tientsin Road, caught fire by coming in contact with an opium-lamp. Curtain destroyed. Extinguished by occupants. No general alarm given. — p. 244 ([scan leaf 249](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1889-and-Budget-for-the-Year-1890/page/n249/mode/1up))
+
+**1889, April 24th** 5 a.m. A mosquito curtain in house No. 109, Sungkeang Road, caught fire, cause unknown. Extinguished by the Police and occupants. No general alarm given. — p. 244 ([scan leaf 249](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1889-and-Budget-for-the-Year-1890/page/n249/mode/1up))
+
+**1889, April 27th** 3.25 p.m. Fire broke out in a carpenter's shop, No. 451, Yunnan Road. No. 4 District. The shavings in the shop are supposed to have been ignited by sparks from a cooking stove. Sixty houses destroyed, the property of Messrs. E. D. Sassoon & Co. and J. Cooper, Esq. Loss covered by insurance. Extinguished by the Fire Brigade. General alarm given. — p. 244 ([scan leaf 249](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1889-and-Budget-for-the-Year-1890/page/n249/mode/1up))
+
+**1889, May 4th** 4.15 a.m. Fire broke out at Nos. 1215 & 1216, Broadway Road, caused by a spark from a Chinese stove. Roof slightly damaged. Extinguished by the Police. No general alarm given. — p. 244 ([scan leaf 249](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1889-and-Budget-for-the-Year-1890/page/n249/mode/1up))
+
+**1889, May 4th** 4 p.m. A mosquito curtain in opium-shop, No. 1111, Fuhkien Road, caught fire by coming in contact with an opium lamp. The curtain and a cotton bed were destroyed. Fire extinguished by the occupants. No general alarm given. — p. 245 ([scan leaf 249](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1889-and-Budget-for-the-Year-1890/page/n249/mode/1up))
+
+**1889, May 11th** 10 p.m. Some straw on the floor of a public latrine in an alley off Yuenchang Road caught fire, cause unknown. No damage done. Extinguished by the neighbours. No general alarm given. — p. 245 ([scan leaf 249](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1889-and-Budget-for-the-Year-1890/page/n249/mode/1up))
+
+**1889, May 14th** 4 p.m. Some woodwork in house No. 345, Hankow Road, caught fire, through carelessness in burning joss-paper. Damage trifling. Extinguished by the inmates of house. The occupier was charged at the Mixed Court with carelessly setting fire to his house and cautioned by the Magistrate. No general alarm given. — p. 245 ([scan leaf 249](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1889-and-Budget-for-the-Year-1890/page/n249/mode/1up))
+
+**1889, May 15th** 5.40 p.m. Some woodwork in house No. 488, Kwangse Road, caught fire through carelessness in boiling opium. Damage trifling. Extinguished by neighbours. No general alarm given. — p. 245 ([scan leaf 249](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1889-and-Budget-for-the-Year-1890/page/n249/mode/1up))
+
+**1889, May 18th** 3.5 p.m. Fire broke out in house No. 76, Kweichow Road, caused by a mosquito net coming in contact with a lighted stove. The net and a cotton bed destroyed. Extinguished by the Police and neighbours. No general alarm given. — p. 245 ([scan leaf 249](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1889-and-Budget-for-the-Year-1890/page/n249/mode/1up))
+
+**1889, May 23rd** 10.30 p.m. Fire broke out in house No. 155, Woosieh Road, caused by a cotton bed coming in contact with an opium lamp. Damage trifling. Extinguished by neighbours. No general alarm given. — p. 245 ([scan leaf 249](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1889-and-Budget-for-the-Year-1890/page/n249/mode/1up))
+
+**1889, May 27th** 2 a.m. Fire broke out at No. 203, Foochow Road, cause unknown, a mosquito net destroyed. Extinguished by the inmates. No general alarm given. — p. 245 ([scan leaf 249](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1889-and-Budget-for-the-Year-1890/page/n249/mode/1up))
+
+**1889, May 28th** 12 midnight. Fire broke out at No. 99, Woosieh Road, amongst some straw, cause unknown. Damage trifling. Extinguished by inmates. No general alarm given. — p. 246 ([scan leaf 249](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1889-and-Budget-for-the-Year-1890/page/n249/mode/1up))
+
+**1889, May 31st** 11.55 p.m. Fire broke out in some new unoccupied houses in Kiukiang Road, between Thibet and Yunnan Roads, cause unknown. Nine houses destroyed. Extinguished by the Fire Brigade. General alarm given. — p. 246 ([scan leaf 249](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1889-and-Budget-for-the-Year-1890/page/n249/mode/1up))
+
+**1889, May 31st** 12 midnight. Fire broke out at No. 205, Yunnan Road, cause unknown. Some clothing burnt. Extinguished by the Police and inmates. No general alarm given. — p. 246 ([scan leaf 249](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1889-and-Budget-for-the-Year-1890/page/n249/mode/1up))
+
+**1889, June 1st** 2.50 a.m. Fire broke out at No. 111, Chekiang Road, caused by an overheated stove being too close to some woodwork. Damage trifling. Extinguished by the Police and inmates. No general alarm given. — p. 246 ([scan leaf 249](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1889-and-Budget-for-the-Year-1890/page/n249/mode/1up))
+
+**1889, June 3rd** 12.30 p.m. Fire broke out at No. 354, Tientsin Road, caused by carelessly burning joss-sticks. Damage trifling. Extinguished by the Police and inmates. No general alarm given. — p. 246 ([scan leaf 249](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1889-and-Budget-for-the-Year-1890/page/n249/mode/1up))
+
+**1889, June 8th** 3 a.m. Fire broke out on the back verandah of No. 143, Yunnan Road, cause unknown. Damage trifling. Extinguished by the Police and Municipal coolies. No general alarm given. — p. 246 ([scan leaf 249](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1889-and-Budget-for-the-Year-1890/page/n249/mode/1up))
+
+**1889, June 19th** 10.20 p.m. Fire broke out in a shed off Woosung Road, caused by a quantity of quick-lime getting wet. Extinguished by the Police and a watchman. Damage trifling. No general alarm given. — p. 246 ([scan leaf 249](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1889-and-Budget-for-the-Year-1890/page/n249/mode/1up))
+
+**1889, June 22nd** 4 p.m. Fire broke out at the Old Dock Foundry, caused by an overheated chimney. Extinguished by the workmen. No damage done. No general alarm given. — p. 246 ([scan leaf 249](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1889-and-Budget-for-the-Year-1890/page/n249/mode/1up))
+
+**1889, June 27th** 1.20 a.m. Fire broke out in the cook-house of No. 12, Hongkong Road, cause unknown. Eleven Chinese houses partially destroyed. Extinguished by the Police and inmates. No general alarm given. — p. 246 ([scan leaf 249](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1889-and-Budget-for-the-Year-1890/page/n249/mode/1up))
+
+**1889, June 27th** 3 a.m. Fire broke out in cook-shop No. 880, Nankin Road, caused by an overheated cooking stove. Damage trifling. Extinguished by the Police and inmates. No general alarm given. — p. 247 ([scan leaf 249](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1889-and-Budget-for-the-Year-1890/page/n249/mode/1up))
+
+**1889, July 17th** 12.35 a.m. Fire broke out in some new unfinished houses East of Yunnan Road near the new Public Market. Cause unknown. Five houses destroyed. Extinguished by the Fire Brigade. General alarm given. — p. 247 ([scan leaf 249](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1889-and-Budget-for-the-Year-1890/page/n249/mode/1up))
+
+**1889, July 30th** 1.45 a.m. Fire broke out amongst a quantity of waste cotton in godown No. 1079a. in an alley off Broadway Road, cause unknown. Damage trifling. Extinguished by the Police and neighbours. No general alarm given. — p. 247 ([scan leaf 249](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1889-and-Budget-for-the-Year-1890/page/n249/mode/1up))
+
+**1889, July 30th** 3.30 a.m. Fire broke out at No. 541, Kiukiang Road, caused by carelessness in destroying insects with a lighted lamp. Damage trifling. Extinguished by the inmates and neighbours. No general alarm given. — p. 247 ([scan leaf 249](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1889-and-Budget-for-the-Year-1890/page/n249/mode/1up))
+
+**1889, July 31st** 9 p.m. Fire broke out at No 222, Shanse Road, caused by carelessness in allowing a light to come in contact with mosquito curtain. The bed, bed-cover, mat and curtain destroyed. Extinguished by the Police and inmates. No general alarm given. — p. 247 ([scan leaf 249](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1889-and-Budget-for-the-Year-1890/page/n249/mode/1up))
+
+**1889, August 3rd** 11.22 p.m. Fire broke out in an empty house in an alley off North Honan Road, caused unknown. Six Chinese houses burnt. Extinguished by the Fire Brigade. General alarm given. — p. 247 ([scan leaf 249](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1889-and-Budget-for-the-Year-1890/page/n249/mode/1up))
+
+**1889, August 7th** 1.27 a.m. Fire broke out in some new Chinese houses in Louza village near Messrs. Russell & Co.'s Filature. Forty-nine new houses, the property of a Chinese Company, were destroyed. Most of the houses were unoccupied. Broke out in an empty house, cause unknown. Extinguished by the Fire Brigade. General alarm given. — p. 247 ([scan leaf 249](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1889-and-Budget-for-the-Year-1890/page/n249/mode/1up))
+
+**1889, August 14th** 9.45 p.m. The ceiling of a foundry at No. 140, Yuenchang Road, took fire by being overheated. Damage trifling. The master of the foundry taken before the Mixed Court Magistrate who ordered him to leave the house. No general alarm given. — p. 248 ([scan leaf 249](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1889-and-Budget-for-the-Year-1890/page/n249/mode/1up))
+
+**1889, August 22nd** 1.20 a.m. Fire broke out in the cook-house of No. 4, Kwangse Terrace through the overheating of the stove. Damage trifling. Extinguished by the Police and inmates. No general alarm given. — p. 248 ([scan leaf 249](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1889-and-Budget-for-the-Year-1890/page/n249/mode/1up))
+
+**1889, August 29th** 12 p.m. Fire broke out at No. 171a, Woochang Road, in a block of unoccupied newly erected Chinese houses. Part of the ceiling and roof burnt. Extinguished by the Police and neighbours. Incendiarism suspected. No general alarm given. — p. 248 ([scan leaf 249](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1889-and-Budget-for-the-Year-1890/page/n249/mode/1up))
+
+**1889, August 30th** 4 a.m. Fire broke out at No. 165, Li Hongkew, caused by the upsetting of a kerosene-oil lamp. Damage trifling. Extinguished by the neighbours. No general alarm given. — p. 248 ([scan leaf 249](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1889-and-Budget-for-the-Year-1890/page/n249/mode/1up))
+
+**1889, September 14th** 12.30 p.m. Fire broke out in a cotton-shop No. 68, Minghong Road, caused by the discharge of a pistol into some rolls of cotton. Damage trifling. Extinguished by the Police and neighbours. No general alarm given. — p. 248 ([scan leaf 249](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1889-and-Budget-for-the-Year-1890/page/n249/mode/1up))
+
+**1889, September 17th** 3 p.m. Fire broke out in a cotton-shop No 316, Canton Road, caused by lighted tobacco falling from a pipe amongst cotton. Damage to cotton $18.00. Extinguished by a watchman and neighbours. No general alarm given. — p. 248 ([scan leaf 249](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1889-and-Budget-for-the-Year-1890/page/n249/mode/1up))
+
+**1889, September 19th** 11.50 p.m. Fire broke out in a new house in an alley between Kiukiang and Hankow Roads and West of Shanse Road, cause unknown. One house destroyed and three others damaged. Extinguished by the Fire Brigade. General alarm given. — p. 248 ([scan leaf 249](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1889-and-Budget-for-the-Year-1890/page/n249/mode/1up))
+
+**1889, September 29th** 4.43 a.m. Fire broke out in a watchman's house at No. 16, Nankin Road, caused by the carelessness of the watchman in drying tea. One house destroyed. Extinguished by the Fire Brigade. General alarm given. — p. 249 ([scan leaf 249](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1889-and-Budget-for-the-Year-1890/page/n249/mode/1up))
+
+**1889, October 2nd** 6.20 p.m. Fire broke out at No. 42, Nankin Road, cause unknown. Damage considerable. Extinguished by the Fire Brigade. General alarm given. — p. 249 ([scan leaf 249](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1889-and-Budget-for-the-Year-1890/page/n249/mode/1up))
+
+**1889, October 4th** 11.42 p.m. Fire broke out in a stack of buildings close to the Defence Creek in French Concession, between Rue Wei Kwei and the French Consulate, cause unknown. Four houses burnt. General alarm given. — p. 249 ([scan leaf 249](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1889-and-Budget-for-the-Year-1890/page/n249/mode/1up))
+
+**1889, October 20th** 12.5 a.m. Fire broke out in an unoccupied house at No. 168, Soochow Road. Supposed to have been caused by the carelessness of workmen. Damage trifling. Extinguished by the Police and neighbours. No general alarm given. — p. 249 ([scan leaf 249](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1889-and-Budget-for-the-Year-1890/page/n249/mode/1up))
+
+**1889, October 23rd** 12.12 a.m. Fire broke out in an empty house in Rue Hué, French Concession, cause unknown. Ten houses burnt. Extinguished by the Fire Brigade. General alarm given. — p. 249 ([scan leaf 249](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1889-and-Budget-for-the-Year-1890/page/n249/mode/1up))
+
+**1889, October 29th** 11.41 p.m. Fire broke out at No 666, an unoccupied house in an alley off Chekiang Road, cause unknown. Five houses destroyed and the roofs of nine houses damaged. Extinguished by the Fire Brigade. General alarm given. — p. 249 ([scan leaf 249](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1889-and-Budget-for-the-Year-1890/page/n249/mode/1up))
+
+**1889, October 31st** 2.15 p.m. Fire broke out at No. 89, Woosung Road, supposed to have been caused by the careless handling of a tobacco-pipe. Four houses burnt and four houses damaged by water. Extinguished by the Fire Brigade. General alarm given. — p. 249 ([scan leaf 249](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1889-and-Budget-for-the-Year-1890/page/n249/mode/1up))
+
+**1889, November 2nd** 5.26 a.m. Fire broke out in the Rue de l'Administration close to the French Police Station, cause unknown. Two houses burnt. Extinguished by the French Fire Brigade. General alarm given. — p. 250 ([scan leaf 249](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1889-and-Budget-for-the-Year-1890/page/n249/mode/1up))
+
+**1889, November 12th** 2.45 p.m. Fire broke out in Messrs. Russell & Co.'s Filature, Louza village, caused by plumbers who were working on the roof, carelessly allowing fire they were using to come in contact with the woodwork. Part of the roof damaged by fire and a quantity of cocoons damaged by water. Extinguished by the Fire Brigade. General alarm given. — p. 250 ([scan leaf 249](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1889-and-Budget-for-the-Year-1890/page/n249/mode/1up))
+
+**1889, November 16th** 3 p.m. Some straw in a cook-house at No. 155, in an alley off Yuenfong Road, caught fire, cause unknown. Damage trifling. Extinguished by the Police and occupants. No general alarm given. — p. 250 ([scan leaf 249](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1889-and-Budget-for-the-Year-1890/page/n249/mode/1up))
+
+**1889, December 15th** 7.30 p.m. Fire broke out at Mr. Grimmer's dairy on Broadway Road, cause unknown. Two sheds burnt. General alarm given, but the services of the Fire Brigade were not required, and the engines were stopped. — p. 250 ([scan leaf 249](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1889-and-Budget-for-the-Year-1890/page/n249/mode/1up))
+
+**1889, December 20th** 12.22 a.m. Fire broke out on the Quai des Fosses, French Concession, cause unknown. Three Chinese houses and a godown burnt. Originated in a cook-shop. Extinguished by the Fire Brigade. General alarm given. — p. 250 ([scan leaf 249](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1889-and-Budget-for-the-Year-1890/page/n249/mode/1up))
+
+**1889, December 22nd** 9.54 p.m. Fire broke out in an alley off the Rue Petit, French Concession, caused by the upsetting of a kerosene-oil lamp. Fourteen houses destroyed. Extinguished by the Fire Brigade. General alarm given. — p. 250 ([scan leaf 249](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1889-and-Budget-for-the-Year-1890/page/n249/mode/1up))
+
+**1889, December 28th** 6.45 p.m. Fire broke out in house No. 360 in an alley off Honan Road, caused by the inmates placing lighted joss-sticks on the stairs. Damage very trifling. Extinguished by the Police and inmates. No general alarm given. — p. 251 ([scan leaf 249](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1889-and-Budget-for-the-Year-1890/page/n249/mode/1up))
