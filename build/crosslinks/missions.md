@@ -98,3 +98,4 @@ SU1–SU6 | done | china-smc update: 1932 added (agents SU1–SU6, 2026-11-11)
 | SJ1–SJ6 | done | china-smc-1909 added to all 12 china-smc topics (update mode) |
 | SK1–SK6 | done | china-smc-1908 added to all 12 china-smc topics (update mode) |
 | SL1–SL6 | done | china-smc-1905 added to all 12 china-smc topics (update mode; incl. 1905 census tables) |
+| SN1–SN6 | done | china-smc-1904 added to all 12 china-smc topics (update mode) |
