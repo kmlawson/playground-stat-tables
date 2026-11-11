@@ -1,0 +1,13 @@
+You are matching recurring statistical tables across editions of the same report, so a website can link "similar tables" between editions and show them side by side.
+
+Working folder: /Users/kml/shell/projects/yearbooks/japanyearbooks/stat-tables-site/build/crosslinks
+Your mission SM6 covers these listing files (in listings/): china-smc--council-ratepayers-and-survey-of-the-year.txt, china-smc--volunteer-corps-and-fire-brigade.txt, china-smc--education-orchestra-and-library.txt, china-smc--treasurer-s-report-and-revenue.txt, china-smc--budget-estimates-rates-and-fees.txt
+These are two editions of the Shanghai Municipal Council's annual Report and Budget: china-smc-1934 (Report for 1934, Budget for 1935) and china-smc-1936 (Report for 1936, Budget for 1937). Most tables recur from year to year; the accounts and budgets are split into one table per department sub-head (e.g. 'Financial Statement, General — Ordinary Expenditure — Fire Brigade'), and those sub-heads recur too.
+Each listing holds every table in one topic from each edition, one line per table:
+  slug | id | chapter | printed pages | title | caption | column headings | first-column row labels
+TASK: group tables that are THE SAME RECURRING TABLE printed in different editions into families (build families/X.json from scratch; if it exists, replace it).
+Same recurring table = same subject AND the same kind of breakdown (e.g. "population by branch office", "imports by commodity", "births by year") AND comparable measures; years, units, title wording, column order, row counts and LANGUAGE may differ. Not the same: a different breakdown, sub-population, region or unit of analysis. A family must span at least two editions; add two or more tables from one edition only when that edition split the table into pieces. A table belongs to at most one family. Be conservative: a wrong link is worse than a missing one.
+Labels are short neutral English names; "note" only for something a reader should know.
+Write each families/X.json (valid JSON, UTF-8: {"listing": "X", "families": [{"label", "members": ["<slug>/<id>", ...], "note"}]}, members ordered by edition) and validate it with python3 -c "import json;json.load(open('families/X.json'))".
+Work only from the listing files and ../../data/<slug>.json (a short python3 script may look up a table by "id"); no scans, no OCR. No sub-agents. Never write in /tmp.
+When done, reply with one line per listing: name, families, tables linked (new tables added). Nothing else.

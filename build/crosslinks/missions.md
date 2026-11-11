@@ -79,3 +79,4 @@ CT1 | done | china-tongji (new series): all 8 topics — 43 families, 107 tables
 - KB1 (2026-11-10): korea-boeki series (1938, 1939) — new series; families made by script, one per printed table number (identical 76-table layout in both editions); 76 families in families/korea-boeki--*.json. Done.
 - KZ1 (2026-11-10): japan-kenchiku series (建築年鑑 1938, 1940) — new series, 6 topics by chapter; 46 families, 96 tables (Sonnet, families/japan-kenchiku--*.json). Done.
 - KZ2 (2026-11-10): japan-kenchiku update (1942 added; topics mapped by chapter, VIII photo index under Completed buildings but left unlinked); 43 new tables linked (Sonnet). Done.
+SM1–SM6 | done | china-smc: new series (SMC Report 1934, 1936), 12 topics by chapter; agents SM1–SM6 (2026-11-11)
