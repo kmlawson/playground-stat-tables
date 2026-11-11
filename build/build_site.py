@@ -1647,6 +1647,16 @@ BOOKS = [
      "gaps": "PARTIAL EXTRACTION, because of the quality of the scan. Transcribed: all the statistical tables of 丁編 教育統計 (the statistical part, printed horizontally with Arabic figures), the tables and lists of the first part of 丙編 第二 社會教育概況 that had been read before the work was narrowed, the whole chronology 興學以來教育大事記 (1,567 entries, 1862–1932) with its list of sources, and the biographies 教育先進傳略 (102 entries). NOT transcribed: the rest of 丙編 (most of the tables and lists of libraries, museums, sports, study abroad and learned societies, printed vertically with compressed Chinese numerals), and the tables and lists of 戊編 (officials, donors, the surveys of foreign education); 丙編 第一 學校教育概況 is in the other reprint volume, so its contents entries have no scan link. The type of the scan is badly broken in places: in the Arabic tables a 4 often prints like a 1, and 3/5/8 and 0/6/9 lose strokes; in the Chinese tables the digits are compressed two to a character space. Every page was surveyed on contact sheets by Claude Sonnet; tables with Chinese numerals and most statistical tables were read by Claude Opus from enlarged crops, re-adding every printed total to catch misreads; some earlier tables (丁編 pp. 30–47, 54–74 and 94–101, and most 丙編 lists) were read by Claude Sonnet, which an independent check found less reliable (about 94–99% of figures right). A printed total never settled a digit except the 一/二/三 and 3-vs-8 rules; 55 cells that a reader had settled from totals in other ways were turned back into [?]. Totals that do not reconcile are kept as printed with a note. In all 1,440 of about 33,000 figure cells (4.4%) are marked [?].",
      "scan": "https://commons.wikimedia.org/w/index.php?title=File:CADAL07006947_%E4%B8%AD%E5%9C%8B%E6%95%99%E8%82%B2%E5%B9%B4%E9%91%92_1934%E5%B9%B4.djvu&page={leaf}",
      "item": "https://commons.wikimedia.org/wiki/File:CADAL07006947_%E4%B8%AD%E5%9C%8B%E6%95%99%E8%82%B2%E5%B9%B4%E9%91%92_1934%E5%B9%B4.djvu", "blank_marking": True},
+    {"slug": "china-smc-1893", "dir": "SMC_Report_1893", "model": "Haiku 5.5 and Sonnet 5.5",
+     "title": "Shanghai Municipal Council Report 1893",
+     "subtitle": "Report for the Year ending 31st December 1893 and Budget for the Year 1894",
+     "publisher": "Shanghai Municipal Council, Shanghai, 1894",
+     "blurb": "The annual report of the Shanghai Municipal Council, which governed the International Settlement, for 1893, the Settlement's Jubilee year, in its older form (sections of correspondence and committee reports rather than numbered departments): Defence Matters (the Shanghai Volunteer Corps with strength, ammunition and the return of arms, accoutrements and ammunition); Watch Matters and licences (lamps, pawn-shops, carriage fees) and the Police with returns I–X (prisoners, arrests, punishments, foreigners, stations, larceny, strength); the Sanitary Board and Health Officer's report (deaths and death-rates, small-pox, cholera and fevers, native death returns, slaughter-house and markets, vaccine station); Finance Matters (résumé of accounts, dues on merchandise, the Local Post Office rates, the quarterly General Municipal Rate summaries and foreign house assessments); Works Matters (roads, footways, bricked and chipped roads, drains and sewers schedule, burials, building operations, labour), the Electric Department's accounts, the Recreation Ground, water supply, the Public School, the Band and the Fire Commission; then the financial statement for 1893 (revenue and expenditure on facing pages, in taels), trust and bank funds, land, buildings and property, the general statement and balance sheet, the comparison of actual and estimated receipts and expenditure, and the budget for 1894 with its summary and comparative statement.",
+     "source": "LLM-transcribed (Claude Haiku 5.5 and Sonnet 5.5 sub-agents) from the Internet Archive scan.",
+     "gaps": "All tables and lists are transcribed, including small tables set in the text, the accounts and the budget (each sub-head of the financial statement and budget is a separate table); the prose and letters are not. The volume prints no table of contents (only an alphabetical index), so the book's contents list here is made of bracketed section headings in the order of the volume. The scan is of lower resolution than later volumes. Table pages were found from contact sheets by Claude Sonnet 5.5; light pages were read once by Claude Haiku 5.5, dense and wide pages by Claude Sonnet 5.5. Not checked by eye. Printed totals were re-added by the readers: totals that do not add up are kept as printed and noted. Figures that could not be read are marked [?] (48 cells). The budget has its own page numbers, as printed.",
+     "scan": "https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1893-and-Budget-for-the-Year-1894/page/n{leaf}/mode/1up",
+     "item": "https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1893-and-Budget-for-the-Year-1894",
+     "blank_marking": True},
     {"slug": "china-smc-1904", "dir": "SMC_Report_1904", "model": "Haiku 5.5 and Sonnet 5.5",
      "title": "Shanghai Municipal Council Report 1904",
      "subtitle": "Report for the Year 1904 and Budget for the Year 1905",
@@ -2794,7 +2804,7 @@ def landing(cards):
             link += f' <a class="go dirgo" href="book/{b["slug"]}/chronology.html">Chronologies →</a>'
         item = f' · <a href="{b["item"]}">original scan</a>' if b.get("item") else ""
         if b.get("item"):   # list view only (the card has "original scan" under the source line)
-            link += f' <a class="go dirgo scango" href="{b["item"]}" target="_blank" rel="noopener">Original Scan ↗</a>'
+            link += f' <a class="go dirgo scango" href="{b["item"]}" target="_blank" rel="noopener">Original ↗</a>'
         grp = group_of(b)
         home = f'book/{b["slug"]}/' if n else f'book/{b["slug"]}/directory.html' if b.get("dir_only") and b.get("_dir_n") else None
         title = f'<a href="{home}" style="color:inherit;text-decoration:none">{html.escape(b["title"])}</a>' if home else html.escape(b["title"])
@@ -3046,6 +3056,7 @@ body.vw-chart .tbl.hasch .tw{display:none}body.vw-table .tchart{display:none}
 .tc-tip{position:absolute;z-index:5;background:var(--panel);color:var(--ink);border:1px solid var(--line);box-shadow:0 2px 8px rgba(0,0,0,.2);padding:6px 9px;font-size:12.5px;max-width:min(360px,92%);pointer-events:none;line-height:1.45}.tc-tip div{display:flex;gap:5px;align-items:baseline}.tc-tip i{position:relative;top:1px}.tc-sum{margin-top:4px;color:var(--muted)}.tc-sum.warn{color:var(--warn)}
 .tc-note{font-size:12px;color:var(--muted);margin:8px 0 0}.tc-msg{font-size:13px;color:var(--muted)}.tc-multi{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,300px),1fr));gap:14px}.tc-mt{font-size:12.5px;display:flex;gap:6px;align-items:center;margin-bottom:2px}tr.tc-hl td{background:var(--hi)}
 @media (max-width:760px){#sidetog,body.noside #sideopen{display:none}body.noside #side{display:flex}body.noside #main{padding-left:16px}#wrap,body.cmp #wrap{grid-template-columns:minmax(0,1fr);height:auto}#cmp{border-left:0;border-top:2px solid var(--accent);padding:14px 16px}#side,#main{min-width:0;max-width:100vw}#list a{overflow-wrap:anywhere}.tw{max-height:none}header{padding:12px 16px}header h1{font-size:18px}.dirbtn{margin-left:0}#side{border-right:0;border-bottom:1px solid var(--line)}#list{max-height:40vh}#main{padding:14px 16px}.chgrid{gap:8px}.chbtn{padding:11px 13px}.chbtn small{font-size:12px}}
+#tfab{display:none}@media (max-width:760px){#tfab{position:fixed;right:12px;bottom:14px;z-index:30;display:flex;flex-direction:column;gap:4px;opacity:0;pointer-events:none;transition:opacity .2s}#tfab.on{opacity:.92;pointer-events:auto}#tfab button{width:36px;height:32px;border-radius:6px;background:var(--panel);color:var(--accent);border:1px solid var(--line);font:bold 15px/1 system-ui,sans-serif;padding:0;box-shadow:0 1px 3px rgba(0,0,0,.18);cursor:pointer}#tfab button.up{background:var(--accent);color:var(--accent-ink);margin-bottom:2px}}@media print{#tfab{display:none!important}}
 </style>
 <link rel="stylesheet" href="../../tags.css"><script src="../../data/tags/vocabulary.js"></script><script src="../../tags.js"></script></head>
 <body>
@@ -3063,6 +3074,20 @@ body.vw-chart .tbl.hasch .tw{display:none}body.vw-table .tchart{display:none}
 <main id="main"></main>
 <aside id="cmp" hidden></aside>
 </div>
+<nav id="tfab" aria-label="Scroll the page"><button type="button" class="up" data-go="top" title="Back to the top" aria-label="Back to the top">⤒</button><button type="button" data-go="prev" title="Previous table" aria-label="Previous table">↑</button><button type="button" data-go="next" title="Next table" aria-label="Next table">↓</button></nav>
+<script>(function(){const f=document.getElementById("tfab");if(!f)return;const t=()=>f.classList.toggle("on",scrollY>innerHeight*.6);addEventListener("scroll",t,{passive:true});t();
+// Mobile floating buttons: top / previous table / next table. With several tables on the page (a chapter) they scroll
+// between them; with one table they step to the previous/next table in the list, as the arrow keys do.
+f.addEventListener("click",e=>{const b=e.target.closest("button");if(!b)return;const g=b.dataset.go;
+ if(g==="top"){scrollTo({top:0,behavior:"smooth"});return}
+ const ss=[...document.querySelectorAll("#main section.tbl")];let c=-1;ss.forEach((x,k)=>{if(x.getBoundingClientRect().top<=8)c=k});
+ const atEnd=innerHeight+scrollY>=document.documentElement.scrollHeight-4;
+ const k=g==="next"?(atEnd?ss.length:c+1):c-1;if(k<0){scrollTo({top:0,behavior:"smooth"});return}
+ // tables above may still be laying out (charts, lazy parts), so re-align on the target a few times
+ if(k<ss.length){const x=ss[k];x.scrollIntoView({block:"start"});[150,450,900].forEach(ms=>setTimeout(()=>{if(Math.abs(x.getBoundingClientRect().top)>4)x.scrollIntoView({block:"start"})},ms));return}
+ // past the last table of a chapter: open the next chapter at its top
+ const sel=document.getElementById("ch"),opts=sel?[...sel.options].map(o=>o.value).filter(Boolean):[],n=opts.indexOf(sel?sel.value:"")+1;
+ if(sel&&sel.value&&n<opts.length){location.hash="ch="+encodeURIComponent(opts[n]);setTimeout(()=>{const m=document.getElementById("main");if(m)m.scrollIntoView({block:"start"})},250)}})})();</script>
 __CHARTJS__<script>
 const TABLE_TAG_DATA=__TAGDATA__;
 const T=__DATA__;
