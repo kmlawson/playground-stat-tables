@@ -140,3 +140,4 @@ wrong and what to do about it. Add a line when a book teaches something new.
   first edition's tooling, survey.json and brief; read only the new contents to confirm; launch missions as frames
   download (`plan/ready.py`, `plan/slots.py`); derive the English layer and Similar-tables families by table number and
   shift the years — no translation or matching agents needed. Publication data is in the colophon at the very back.
+- **Two missions sharing a frame** (住宅問題 1942: a left half and a right half of p0009 given to different missions): both wrote `tables/p0009_1.json` and one table was lost. When a frame is split between missions, give each an explicit file number in its prompt.
