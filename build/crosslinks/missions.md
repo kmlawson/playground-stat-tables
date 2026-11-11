@@ -100,3 +100,4 @@ SU1–SU6 | done | china-smc update: 1932 added (agents SU1–SU6, 2026-11-11)
 | SL1–SL6 | done | china-smc-1905 added to all 12 china-smc topics (update mode; incl. 1905 census tables) |
 | SN1–SN6 | done | china-smc-1904 added to all 12 china-smc topics (update mode) |
 | SO1–SO6 | done | china-smc-1893 added to china-smc topics where matched (update mode; 57 placements) |
+| SP1–SP6 | done | china-smc-1891 added to china-smc topics (update mode; 125 placements, new families paired with 1893) |
