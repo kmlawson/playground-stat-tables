@@ -1,0 +1,48 @@
+import json
+b=json.load(open('batches/b06.json'))
+T,U,G,F,TR,L,W,P=['utilities'],0,0,0,0,0,0,0
+d=[
+(["finance","government"],["land-tax"],[], "new lots taxed"),
+(["finance","government"],["land-tax"],[], "assessed value new land"),
+(["utilities","transportation"],["roads-and-bridges","land-surveys"],[], "lots surveyed for road widening"),
+(["government","geography"],["land-surveys"],[], "official plans by consulate"),
+(["utilities","transportation"],["roads-and-bridges"],[], "roads tarred, list"),
+(["utilities","transportation"],["roads-and-bridges"],[], "road mileage by type"),
+(["utilities","transportation"],["roads-and-bridges"],[], "footway mileage"),
+(["utilities"],["gas","electricity","water-and-sewerage"],[], "trenches by utility companies"),
+(["utilities","government"],[],[], "municipal plant rolling stock"),
+(["utilities","health"],["public-health"],[], "road sweepings, garbage collected"),
+(["utilities"],["water-and-sewerage"],[], "municipal water supply"),
+(["utilities","disasters"],["firefighting","water-and-sewerage"],[], "hydrants by district"),
+(["utilities"],["water-and-sewerage"],[], "water mains laid"),
+(["labour","utilities"],["employment-and-unemployment"],[], "men employed on public works"),
+(["welfare","population"],["work-relief","nationality-and-ethnicity"],[], "work shelter inmates by nationality"),
+(["welfare"],["work-relief"],[], "shelter admissions wood chopped"),
+(["utilities","geography"],["rivers-and-waterways"],[], "dredging mud removed"),
+(["utilities"],["gas"],[], "gas lamps removed/erected"),
+(["utilities"],["electricity"],[], "electric lamps removed/erected"),
+(["utilities","crime-and-justice"],["electricity","gas"],[], "fines for unlighted lamps"),
+(["utilities"],["construction"],[], "building permits by district 1908-17"),
+(["utilities"],["construction"],[], "new buildings by type"),
+(["utilities"],["construction"],[], "permits comparison"),
+(["utilities"],["construction"],[], "building dept monthly work"),
+(["manufacturing","utilities"],["cement-and-bricks"],[], "quarry/materials stock and production"),
+(["manufacturing","utilities"],["cement-and-bricks"],[], "concreteware articles made"),
+(["manufacturing","utilities"],["cement-and-bricks"],[], "quarry lease concrete ware supply"),
+(["manufacturing","finance"],["cement-and-bricks","prices"],[], "price schedule granite concreteware"),
+(["government","utilities"],["public-property","land-registration"],["text-tables"], "schedule of council properties"),
+(["utilities","government"],["roads-and-bridges"],["text-tables"], "road proposals list"),
+(["utilities","government"],["roads-and-bridges"],["text-tables"], "road proposals list"),
+(["finance","utilities"],["roads-and-bridges"],[], "land and road construction expenditure"),
+(["finance","utilities"],["roads-and-bridges"],[], "land/construction cost by road"),
+(["finance","utilities"],["roads-and-bridges"],[], "compensation road widening"),
+(["finance","utilities"],["roads-and-bridges"],[], "improvements and compensation"),
+(["finance","utilities"],["roads-and-bridges"],[], "compensation road widening"),
+(["finance","utilities"],["roads-and-bridges"],[], "lots surrendered compensation"),
+(["finance","utilities"],["roads-and-bridges"],[], "road land purchases"),
+(["finance","utilities"],["roads-and-bridges"],[], "amended compensation claim"),
+(["finance","utilities"],["roads-and-bridges"],[], "compensation lot surrender"),
+]
+assert len(d)==len(b)
+out=[{"key":r['key'],"topics":t,"tags":g,"flags":f,"why":w} for r,(t,g,f,w) in zip(b,d)]
+json.dump(out,open('results/b06.json','w'),ensure_ascii=False,indent=1)
