@@ -1,0 +1,126 @@
+# Shanghai Municipal Council Report 1886 — Chronologies
+
+60 entries, LLM-transcribed. These entries were transcribed by the vision model of Opus 5.5. Before using any of these details, you must verify specific details with the original source which is linked to whenever possible.
+
+
+## Watch — Fire Brigade — Fire Record, 1886
+
+**1886, January 2nd** 1.15 a.m. Fire broke out at No. 49, Lloyd Road. Origin unknown. Four houses burnt and three damaged. Put out by the Fire Brigade. General alarm given. — p. 197 ([scan leaf 201](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1886-and-Budget-for-the-Year-1887/page/n201/mode/1up))
+
+**1886, January 3rd** 2.50 a.m. Fire broke out at No. 340, Lloyd Road—an outhouse. Supposed to have been caused by mendicants. Extinguished by the neighbours and Police. Damage very trifling. No alarm given. — p. 197 ([scan leaf 201](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1886-and-Budget-for-the-Year-1887/page/n201/mode/1up))
+
+**1886, January 5th** 8.30 p.m. Fire broke out at No. 522, Chekiang Road. Chimney on fire. Extinguished by inmates. No damage done. No alarm given. — p. 197 ([scan leaf 201](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1886-and-Budget-for-the-Year-1887/page/n201/mode/1up))
+
+**1886, January 6th** 8 p.m. Fire broke out at No. 205, Tientsin Road. Caused through the fall of a kerosine oil lamp. Damage trifling. Put out by the inmates and Police. No alarm given. — p. 197 ([scan leaf 201](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1886-and-Budget-for-the-Year-1887/page/n201/mode/1up))
+
+**1886, January 9th** 10.30 p.m. Chimney on fire at the residence of the Rev. Mr. Smith, Hankow Road. No damage done. No alarm given. — p. 197 ([scan leaf 201](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1886-and-Budget-for-the-Year-1887/page/n201/mode/1up))
+
+**1886, January 10th** 2.30 p.m. Fire broke out at No. 149, Sungkiang Road. Caused through wood-work in the chimney. No damage done. Put out by the inmates. No alarm given. — p. 197 ([scan leaf 201](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1886-and-Budget-for-the-Year-1887/page/n201/mode/1up))
+
+**1886, January 12th** 12.30 p.m. Fire broke out at No. 21, Foochow Road. A lighted match falling on some clothing. Damage trifling. Put out by the inmates. No general alarm given. — p. 197 ([scan leaf 201](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1886-and-Budget-for-the-Year-1887/page/n201/mode/1up))
+
+**1886, January 17th** 7.45 p.m. Fire broke out at No. 331, Hoopeh Road. A burning coal fell from a stove and set fire to the flooring. Damage trifling. Extinguished by the inmates and Police. No general alarm given. — p. 197 ([scan leaf 201](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1886-and-Budget-for-the-Year-1887/page/n201/mode/1up))
+
+**1886, January 25th** 12.35 a.m. Fire broke out in carpenter's shop, No. 214, Shanse Road. Caused through burning joss-paper. Six houses burnt and one partly destroyed by fire and water. Extinguished by Brigade. General alarm given. — p. 198 ([scan leaf 201](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1886-and-Budget-for-the-Year-1887/page/n201/mode/1up))
+
+**1886, January 27th** 8.40 p.m. Fire broke out at No. 257, Canton Road. A lighted candle coming in contact with a bed-curtain. A child aged four months was severely burnt. Extinguished by the inmates. No general alarm given. — p. 198 ([scan leaf 201](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1886-and-Budget-for-the-Year-1887/page/n201/mode/1up))
+
+**1886, February 6th** 5 p.m. Fire broke out in a chimney at No. 52, Kiangse Road. Put out by the Police and inmates. No damage done. No general alarm given. — p. 198 ([scan leaf 201](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1886-and-Budget-for-the-Year-1887/page/n201/mode/1up))
+
+**1886, February 11th** 8.30 p.m. Fire broke out at No. 384, Canton Road. A lighted lamp coming in contact with the bed-clothes. Some bedding burnt. Extinguished by the occupants. No general alarm given. — p. 198 ([scan leaf 201](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1886-and-Budget-for-the-Year-1887/page/n201/mode/1up))
+
+**1886, February 13th** 4 a.m. Fire broke out at No. 75, Foochow Road—a large tea and opium shop. Two houses burnt, the roof of another partly burnt. Origin unknown. Put out by Brigade. General alarm given. — p. 198 ([scan leaf 201](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1886-and-Budget-for-the-Year-1887/page/n201/mode/1up))
+
+**1886, February 13th** 9.30 p.m. Fire broke out in the coolies' cook-house situated in the Reserve Public Garden. Some dried grass caught fire. Put out by the Police and Coolies. No general alarm given. — p. 198 ([scan leaf 201](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1886-and-Budget-for-the-Year-1887/page/n201/mode/1up))
+
+**1886, February 16th** 7.15 p.m. Fire broke out at No. 96, Broadway. Origin unknown. Damage trifling. Extinguished by the inmates and the Police. No general alarm given. — p. 198 ([scan leaf 201](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1886-and-Budget-for-the-Year-1887/page/n201/mode/1up))
+
+**1886, February 20th** 11.15 p.m. Fire broke out at No. 315, Ningpo Road. Extinguished by the inmates and Police. Damage trifling. Origin unknown. No general alarm given. — p. 198 ([scan leaf 201](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1886-and-Budget-for-the-Year-1887/page/n201/mode/1up))
+
+**1886, February 22nd** 1 p.m. Fire broke out at No. 171, Minghong Road. Caused through burning joss-paper. Extinguished by the inmates and Police. Damage trifling. No general alarm given. — p. 198 ([scan leaf 201](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1886-and-Budget-for-the-Year-1887/page/n201/mode/1up))
+
+**1886, March 2nd** 12.55 a.m. Fire broke out in a Chinese house in the Cemetery Road. Five houses burnt. Extinguished by the neighbours. Origin unknown. No general alarm given. — p. 199 ([scan leaf 201](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1886-and-Budget-for-the-Year-1887/page/n201/mode/1up))
+
+**1886, March 12th** 8.30 a.m. Fire broke out in a chimney on the premises of Messrs. Siemssen & Co., the Bund. Put out by the occupants. No general alarm given. — p. 199 ([scan leaf 201](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1886-and-Budget-for-the-Year-1887/page/n201/mode/1up))
+
+**1886, March 19th** 12.30 p.m. Fire broke out at No. 39, Broadway, occupied by Captain Williams. Caused through woodwork in the chimney. The roof was considerably damaged. Extinguished by the Fire Brigade. General alarm given. — p. 199 ([scan leaf 201](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1886-and-Budget-for-the-Year-1887/page/n201/mode/1up))
+
+**1886, March 30th** 2 a.m. Fire broke out at No. 349, Pekin Road. Origin unknown. Extinguished by the neighbours and Police. Damage very trifling. No general alarm given. — p. 199 ([scan leaf 201](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1886-and-Budget-for-the-Year-1887/page/n201/mode/1up))
+
+**1886, April 6th** 3.15 a.m. Fire broke out at No. 920, Nankin Road. Some firewood near a stove caught fire. Extinguished by the occupants and Police. No general alarm given. — p. 199 ([scan leaf 201](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1886-and-Budget-for-the-Year-1887/page/n201/mode/1up))
+
+**1886, April 11th** 1.15 a.m. Fire broke out at No. 386, Sungkiang Road. Twelve houses destroyed. Origin unknown. Extinguished by the Fire Brigade. General alarm given. — p. 199 ([scan leaf 201](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1886-and-Budget-for-the-Year-1887/page/n201/mode/1up))
+
+**1886, April 19th** 4.45 a.m. Fire broke out in the French Concession. Damage done not ascertained. Extinguished by the Fire Brigade. General alarm given. — p. 199 ([scan leaf 201](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1886-and-Budget-for-the-Year-1887/page/n201/mode/1up))
+
+**1886, April 22nd** 2.10 a.m. Fire broke out at No. 498, Tiendong Road. Incendiarism suspected. Damage trifling. Put out by the Police. No general alarm given. — p. 199 ([scan leaf 201](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1886-and-Budget-for-the-Year-1887/page/n201/mode/1up))
+
+**1886, May 1st** 11 p.m. Fire broke out at No. 244, Honan Road. A lighted candle fell on some straw. Extinguished by the inmates before any damage was done. No general alarm given. — p. 199 ([scan leaf 201](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1886-and-Budget-for-the-Year-1887/page/n201/mode/1up))
+
+**1886, May 8th** 12.55 a.m. Fire broke out at No. 106, Foochow Road. Six houses burnt. Origin unknown. Extinguished by the Fire Brigade. General alarm given. — p. 199 ([scan leaf 201](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1886-and-Budget-for-the-Year-1887/page/n201/mode/1up))
+
+**1886, May 8th** 12 (Midnight). Fire broke out at No. 133, Chili Road. A quantity of straw caught fire. Put out by occupants. No general alarm given. — p. 200 ([scan leaf 201](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1886-and-Budget-for-the-Year-1887/page/n201/mode/1up))
+
+**1886, May 17th** 5.30 p.m. Fire broke out at No. 1,171, Broadway. Caused by the overheating of a flue. Damage trifling. Extinguished by the inmates and Police. No general alarm given. — p. 200 ([scan leaf 201](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1886-and-Budget-for-the-Year-1887/page/n201/mode/1up))
+
+**1886, May 18th** 11.55 a.m. Fire broke out at No. 349, Fuhkien Road. Three houses burnt. Caused by a burning coal falling from the stove and igniting the flooring. Extinguished by the Fire Brigade. General alarm given. — p. 200 ([scan leaf 201](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1886-and-Budget-for-the-Year-1887/page/n201/mode/1up))
+
+**1886, May 24th** 11 p.m. Fire broke out amongst some firewood at No. 596, Woo Hoo Road. Caused through the carelessness of a man emptying his tobacco-pipe. Damage trifling. Extinguished by the neighbours. No general alarm given. — p. 200 ([scan leaf 201](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1886-and-Budget-for-the-Year-1887/page/n201/mode/1up))
+
+**1886, June 1st** 12.50 a.m. Fire broke out at No. ———, Quai des Fossés, French Concession. About 15 houses burnt. Extinguished by the Fire Brigade. General alarm given. — p. 200 ([scan leaf 201](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1886-and-Budget-for-the-Year-1887/page/n201/mode/1up))
+
+**1886, June 2nd** 5.45 a.m. The chimney of house No. 49, Nankin Road, caught fire and spread to the roof. Extinguished by the neighbours. Roof slightly damaged. No general alarm given. — p. 200 ([scan leaf 201](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1886-and-Budget-for-the-Year-1887/page/n201/mode/1up))
+
+**1886, June 2nd** 5.15 p.m. Fire broke out at No. 68, Woosung Road. Some wood and straw burned. Damage trifling. Extinguished by the Police. No general alarm given. — p. 200 ([scan leaf 201](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1886-and-Budget-for-the-Year-1887/page/n201/mode/1up))
+
+**1886, June 3rd** 12.15 a.m. A fire was seen in the direction of the Cemetery Road, and the general alarm given. The Fire Brigade turned out, but their engines could not be taken to the scene of the fire, as it was some distance in the country. General alarm given. — p. 200 ([scan leaf 201](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1886-and-Budget-for-the-Year-1887/page/n201/mode/1up))
+
+**1886, June 13th** 1.10 a.m. Fire broke out at No. 1,199, situated in an alley off the Boone Road. One house burnt and one partly destroyed. Origin unknown. Extinguished by the Fire Brigade. General alarm given. — p. 200 ([scan leaf 201](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1886-and-Budget-for-the-Year-1887/page/n201/mode/1up))
+
+**1886, June 13th** 4.30 a.m. Fire broke out at No. 46, Tiendong Road. Caused by wilfully setting fire to a tin of kerosine oil. No damage done. Extinguished by the Police. No general alarm given. — p. 201 ([scan leaf 201](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1886-and-Budget-for-the-Year-1887/page/n201/mode/1up))
+
+**1886, June 19th** 3.25 a.m. Fire broke out at No. 465, in an alley off the Fuhkien Road. Thirteen houses destroyed. Origin unknown. Put out by the Fire Brigade. General alarm given. — p. 201 ([scan leaf 201](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1886-and-Budget-for-the-Year-1887/page/n201/mode/1up))
+
+**1886, July 6th** 3.30 p.m. Fire broke out at No. 14, Canton Road. Caused through a spark from a chimney falling on to some shavings. Put out by the Police and occupants before any damage was done. No general alarm given. — p. 201 ([scan leaf 201](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1886-and-Budget-for-the-Year-1887/page/n201/mode/1up))
+
+**1886, July 12th** 8.50 p.m. Fire broke out at No. 190, Hankow Road. A lighted kerosine oil lamp fell. Damage trifling. Put out by the Police and occupants. No general alarm given. — p. 201 ([scan leaf 201](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1886-and-Budget-for-the-Year-1887/page/n201/mode/1up))
+
+**1886, August 2nd** 3.50 a.m. Fire broke out in a carpenter's shed on the waste ground off Kweichow Road. Some quicklime stored in the shed became heated and ignited the woodwork. The shed was partly burnt. Extinguished by the Police with Extincteurs. No general alarm given. — p. 201 ([scan leaf 201](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1886-and-Budget-for-the-Year-1887/page/n201/mode/1up))
+
+**1886, August 11th** 10 p.m. Fire broke out at No. 150, Sungkiang Road. A mosquito-curtain caught fire and set fire to the bed also. Put out by the occupants. No general alarm given. — p. 201 ([scan leaf 201](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1886-and-Budget-for-the-Year-1887/page/n201/mode/1up))
+
+**1886, August 27th** 3 p.m. Fire broke out at No. 303, Yuen-foong Road. Caused by burning joss-paper. Damage trifling. Extinguished by the Police assisted by occupants. No general alarm given. — p. 201 ([scan leaf 201](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1886-and-Budget-for-the-Year-1887/page/n201/mode/1up))
+
+**1886, September 1st** 1 a.m. Fire broke out at No. 336, Pekin Road amongst some cocoa-nut shells, stored in the upper floor. Origin unknown. Extinguished by the Police and inmates. No general alarm given. — p. 201 ([scan leaf 201](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1886-and-Budget-for-the-Year-1887/page/n201/mode/1up))
+
+**1886, September 5th** 12 (Midnight). Fire broke out at No. 187, Chili Road. Flooring caught fire from the fire-place. Damage trifling. Put out by the inmates and the Police. No general alarm given. — p. 202 ([scan leaf 201](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1886-and-Budget-for-the-Year-1887/page/n201/mode/1up))
+
+**1886, September 18th** 8.25 p.m. Fire broke out at No. 157, Shantung Road. Caused through shavings being placed too near the stove. Two houses burnt and two damaged. Extinguished by the Fire Brigade. General alarm given. — p. 202 ([scan leaf 201](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1886-and-Budget-for-the-Year-1887/page/n201/mode/1up))
+
+**1886, September 24th** 2.30 a.m. Fire broke out at No. 137, Sungkiang Road. Caused through a kerosine oil lamp being upset. Four houses burnt and seven damaged. Put out by the Fire Brigade. General alarm given. — p. 202 ([scan leaf 201](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1886-and-Budget-for-the-Year-1887/page/n201/mode/1up))
+
+**1886, September 25th** 3 p.m. Fire broke out at No. 563, Fuhkien Road. A charcoal stove being accidentally upset, ignited the flooring. Put out by inmates and the Police. No damage done. No alarm given. — p. 202 ([scan leaf 201](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1886-and-Budget-for-the-Year-1887/page/n201/mode/1up))
+
+**1886, October 12th** 12.30 a.m. Fire broke out at No. 72, Woo Hoo Road—a medicine godown. Twenty-three houses burnt and seven partly destroyed by fire and water. Origin unknown. Extinguished by the Fire Brigade. General alarm given. — p. 202 ([scan leaf 201](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1886-and-Budget-for-the-Year-1887/page/n201/mode/1up))
+
+**1886, October 12th** 12.50 p.m. Fire broke out at No. 36, Broadway, occupied by Mr. Ferrier. Caused by sparks from the chimney falling on the roof, which is shingle. Roof considerably damaged. Extinguished by a hose from the Hongkew Wharf, and the Police. No general alarm given. — p. 202 ([scan leaf 201](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1886-and-Budget-for-the-Year-1887/page/n201/mode/1up))
+
+**1886, October 19th** 2.30 p.m. Fire broke out ot No. 120, Honan Road. Sparks from the chimney igniting the roof. Put out by the Police and inmates before any serious damage was done. No general alarm given. — p. 202 ([scan leaf 201](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1886-and-Budget-for-the-Year-1887/page/n201/mode/1up))
+
+**1886, October 25th** 7.30 p.m. Fire broke out at No. 239, Nankin Road. A kerosine oil lamp fell down igniting some clothing. Damage trifling. Put out by the Police and inmates. No general alarm given. — p. 203 ([scan leaf 201](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1886-and-Budget-for-the-Year-1887/page/n201/mode/1up))
+
+**1886, November 7th** 12.30 a.m. Fire broke out at No. 162, Shanse Road. Seven houses burnt, three destroyed. Origin unknown. Put out by the Brigade. General alarm given. — p. 203 ([scan leaf 201](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1886-and-Budget-for-the-Year-1887/page/n201/mode/1up))
+
+**1886, November 7th** 11.20 p.m. Fire broke out at No. 441, Kwangse Road. Six houses burnt. Origin unknown. Extinguished by the Fire Brigade. General alarm given. — p. 203 ([scan leaf 201](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1886-and-Budget-for-the-Year-1887/page/n201/mode/1up))
+
+**1886, November 12th** 2 p.m. Fire broke out at No. 91, Tiendong Road. Caused by an overheated stove. Damage trifling. Extinguished by the Police and inmates. No general alarm given. — p. 203 ([scan leaf 201](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1886-and-Budget-for-the-Year-1887/page/n201/mode/1up))
+
+**1886, November 13th** 2 a.m. Fire broke out at No. 351, Fuhkien Road. Caused by a kerosine oil lamp upsetting and burning some clothing. Damage very trifling. Extinguished by the inmates. No general alarm given. — p. 203 ([scan leaf 201](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1886-and-Budget-for-the-Year-1887/page/n201/mode/1up))
+
+**1886, November 18th** 12.25 a.m. Fire broke out at No. 611, Fuhkien Road. Four houses burnt, and four damaged by fire and water. Two women were severely injured in making their escape from the burning houses. Origin unknown. Extinguished by the Fire Brigade. General alarm given. — p. 203 ([scan leaf 201](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1886-and-Budget-for-the-Year-1887/page/n201/mode/1up))
+
+**1886, November 19th** 7 p.m. Fire broke out at No. 554, Kweichow Road. A man smoking opium set the bedding on fire. Extinguished by the Police and occupants. No general alarm given. — p. 203 ([scan leaf 201](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1886-and-Budget-for-the-Year-1887/page/n201/mode/1up))
+
+**1886, December 24th** 1.35 a.m. Fire broke out at No. 263, Woochang Road. Caused through carelessness of a servant in the cook-house. Fourteen houses burnt; also a Chinese girl burned to death. Extinguished by the Fire Brigade. General alarm given. — p. 203 ([scan leaf 201](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1886-and-Budget-for-the-Year-1887/page/n201/mode/1up))
+
+**1886, December 30th** 8.5 p.m. Fire broke out at house not numbered, situated in an alley off the North Honan Road. Seven houses destroyed. Extinguished by the Fire Brigade. General alarm given. — p. 204 ([scan leaf 201](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1886-and-Budget-for-the-Year-1887/page/n201/mode/1up))
