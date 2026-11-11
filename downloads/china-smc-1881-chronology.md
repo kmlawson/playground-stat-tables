@@ -1,0 +1,74 @@
+# Shanghai Municipal Council Report 1881 — Chronologies
+
+34 entries, LLM-transcribed. These entries were transcribed by the vision model of Opus 5.5. Before using any of these details, you must verify specific details with the original source which is linked to whenever possible.
+
+
+## Watch — Fire Brigade — Fire Record, 1881
+
+**1881, January 2nd** 3.40 a.m. A fire broke out at 867, Broadway Road. Extinguished by Police. Bed and some firewood burnt. No alarm given. — p. 145 ([scan leaf 149](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1881-and-Budget-for-the-Year-1882/page/n149/mode/1up))
+
+**1881, January 6th** 7.30 p.m. A fire broke out at 290, Broadway Road. Extinguished by Police and neighbours. Some oil baskets burnt. No alarm given. Caused by overheating of a stove pipe. — p. 145 ([scan leaf 149](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1881-and-Budget-for-the-Year-1882/page/n149/mode/1up))
+
+**1881, January 18th** 9 p.m. A fire broke out in the Sunkiang Road near the Shantung Road. General alarm given. Extinguished by Fire Brigade. 58 houses burnt. Caused by a boy setting fire to some straw on which he was sleeping. — p. 145 ([scan leaf 149](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1881-and-Budget-for-the-Year-1882/page/n149/mode/1up))
+
+**1881, January 21st** 5.20 a.m. The Constable on the beat found the door of house 363, Inner Hongkew Village, on fire. Extinguished by Constable and inmates. No alarm given. Supposed wilfully set on fire. — p. 145 ([scan leaf 149](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1881-and-Budget-for-the-Year-1882/page/n149/mode/1up))
+
+**1881, January 22nd** 4.17 a.m. A fire broke out in the cook house of a brass-smith's shop, 1016, Broadway Road. 12 houses burnt. General alarm given. Extinguished by Fire Brigade. — p. 145 ([scan leaf 149](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1881-and-Budget-for-the-Year-1882/page/n149/mode/1up))
+
+**1881, January 23rd** 12 noon. A fire broke out at 777, Chekiang Road. 5 houses burnt. General alarm given. Extinguished by Fire Brigade. Caused by a boy who was cooking rice setting fire to some straw. — p. 145 ([scan leaf 149](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1881-and-Budget-for-the-Year-1882/page/n149/mode/1up))
+
+**1881, January 26th** 9.30 p.m. A fire broke out in the back premises of a flour-grinding establishment at the corner of the Hoopeh and Kiukiang Roads. General alarm given. Brigade attended. 13 one-storied houses burnt (mostly empty). Fire arrested by pulling down two houses. Cause of fire unknown. — p. 145 ([scan leaf 149](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1881-and-Budget-for-the-Year-1882/page/n149/mode/1up))
+
+**1881, January 23rd** 6.20 a.m. Alarm of fire received at Central Station from French Concession. General alarm given. Two houses burnt. — p. 145 ([scan leaf 149](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1881-and-Budget-for-the-Year-1882/page/n149/mode/1up))
+
+**1881, January 28th** 9 p.m. An alarm was given at Central Station that 308, Honan Road was on fire. Put out with assistance of inmates. No general alarm given. Very little damage done. Caused by a child dropping a lighted candle on the bed. — p. 145 ([scan leaf 149](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1881-and-Budget-for-the-Year-1882/page/n149/mode/1up))
+
+**1881, January 31st** 3.30 p.m. A fire broke out at 992, Broadway Road (inhabited by foreigners). General alarm given. 5 houses burnt, and several damaged by fire and water. Extinguished by the Fire Brigade. Supposed to have been wilfully set on fire by foreigners. — p. 146 ([scan leaf 149](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1881-and-Budget-for-the-Year-1882/page/n149/mode/1up))
+
+**1881, February 5th** 1.40 a.m. A fire broke out in a cook house 64, Boone Road. Extinguished by Police. Cook house partially destroyed. No alarm given. Origin of fire unknown. — p. 146 ([scan leaf 149](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1881-and-Budget-for-the-Year-1882/page/n149/mode/1up))
+
+**1881, February 17th** 2.15 a.m. A fire broke out among some stores in the lower room of 834, Broadway Road. Extinguished by inmates. No alarm given. Origin of fire unknown. — p. 146 ([scan leaf 149](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1881-and-Budget-for-the-Year-1882/page/n149/mode/1up))
+
+**1881, February 9th** 11.30 p.m. A fire occurred in the boys' room of foreign house 6, Seward Road. Caused by the breaking of a Chinese lamp, which had been left burning by the boy. Extinguished by Police and servants. Table burnt. No alarm given. — p. 146 ([scan leaf 149](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1881-and-Budget-for-the-Year-1882/page/n149/mode/1up))
+
+**1881, February 24th** 2.30 a.m. Unoccupied foreign house 10, Seward Road was discovered to be on fire by the Police. A door stair case, and part of flooring of one of the room's burnt. Extinguished by Police. No general alarm given. Wilfully set on fire. — p. 146 ([scan leaf 149](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1881-and-Budget-for-the-Year-1882/page/n149/mode/1up))
+
+**1881, March 17th** 12.55 a.m. A fire broke out in some houses at the back of the Hongkew Village. General alarm was given. 5 houses burnt down. — p. 146 ([scan leaf 149](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1881-and-Budget-for-the-Year-1882/page/n149/mode/1up))
+
+**1881, March 17th** 2.15 a.m. The roof of a straw thatched house 264, Tiendong Road, was found to be on fire. Extinguished by inmates. No alarm given. Origin of fire unknown. — p. 146 ([scan leaf 149](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1881-and-Budget-for-the-Year-1882/page/n149/mode/1up))
+
+**1881, April 29th** 4 p.m. A quantity of straw saturated with Kerosine oil was found burning in 104, Miller Road. Extinguished by Police. Wilful attempt to set fire. — p. 146 ([scan leaf 149](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1881-and-Budget-for-the-Year-1882/page/n149/mode/1up))
+
+**1881, May 24th** 2 a.m. The mat sun-shade in front of 981, Broadway Road was found to be on fire. Extinguished by the inmates. No alarm given. Probably maliciously set on fire. — p. 146 ([scan leaf 149](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1881-and-Budget-for-the-Year-1882/page/n149/mode/1up))
+
+**1881, June 29th** 7.50 p.m. A fire broke out in a Tailor's shop, 114, Broadway Road through the upsetting of a Kerosine lamp. Extinguished by Police. No general alarm given. Very little damage done. — p. 146 ([scan leaf 149](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1881-and-Budget-for-the-Year-1882/page/n149/mode/1up))
+
+**1881, July 26th** 3.20 a.m. A fire broke out in an upstairs room at 199, Broadway Road. Bed and curtains burnt. Extinguished by inmates. No general alarm given. Fire caused by upsetting a lamp on the bed. — p. 147 ([scan leaf 149](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1881-and-Budget-for-the-Year-1882/page/n149/mode/1up))
+
+**1881, August 2nd** 10.55 p.m. A fire broke out at 1037, Hongkew Village. 21 houses burnt, and several damaged. 3 males and 3 females burnt. General alarm given. Fire extinguished by the Brigade. Origin of fire unknown. — p. 147 ([scan leaf 149](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1881-and-Budget-for-the-Year-1882/page/n149/mode/1up))
+
+**1881, August 3rd** 4.15 p.m. An alarm of fire was received at the Central Station from the Hongkew Station. General alarm was given. Discovered to be a false alarm caused by the men repairing the telegraph. — p. 147 ([scan leaf 149](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1881-and-Budget-for-the-Year-1882/page/n149/mode/1up))
+
+**1881, August 19th** 3.30 a.m. The lower verandah of 2, North Soochow Road, was discovered by the Police to be on fire. Put out by Police and occupants. No alarm given. Supposed to have been set on fire. — p. 147 ([scan leaf 149](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1881-and-Budget-for-the-Year-1882/page/n149/mode/1up))
+
+**1881, August 26th** 1 a.m. A fire broke out in a house in the Pekin Road, near the Honan Road. 2 houses burnt. Put out by Fire Brigade. One boy burnt and one man died within a week from injuries received in jumping from a window into the street. Fire originated in a shop with a quantity of Joss paper, candles, &c. and spread so rapidly that the people living upstairs could only escape through the windows of the upper story. — p. 147 ([scan leaf 149](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1881-and-Budget-for-the-Year-1882/page/n149/mode/1up))
+
+**1881, September 2nd** 2 a.m. A fire broke out at 241, Taewan Road, an unoccupied house. Extinguished by Police and neighbours. Front of house partially burnt. No alarm given. Supposed wilfully set on fire. — p. 147 ([scan leaf 149](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1881-and-Budget-for-the-Year-1882/page/n149/mode/1up))
+
+**1881, September 26th** 1 a.m. Some person attempted to set fire to 529, Nankin Road, by inserting some paper steeped in Kerosine oil between two bars of a back window, and setting fire to it; fortunately it was discovered and put out before any damage was done. No alarm given. — p. 147 ([scan leaf 149](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1881-and-Budget-for-the-Year-1882/page/n149/mode/1up))
+
+**1881, October 7th** 4.15 a.m. A fire broke out in a house in the Fuhkien Road; 14 houses burnt. Alarm given. Extinguished by the Fire Brigade. Five persons burnt. Fire supposed to have originated by burning some joss paper near the bed of an old man who was very sick. — p. 147 ([scan leaf 149](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1881-and-Budget-for-the-Year-1882/page/n149/mode/1up))
+
+**1881, October 9th** 3.30 a.m. A fire broke out in the cook house of tailor's shop, 105, Broadway Road. Put out by occupants and neighbours. No alarm given. — p. 148 ([scan leaf 149](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1881-and-Budget-for-the-Year-1882/page/n149/mode/1up))
+
+**1881, November 7th** 1 a.m. A fire broke out in cook house of 247, North Soochow Road; all the articles in the room and roof burnt. Extinguished by Police. No alarm given. — p. 148 ([scan leaf 149](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1881-and-Budget-for-the-Year-1882/page/n149/mode/1up))
+
+**1881, November 8th** 10 p.m. A fire broke out at 105, Soochow Road; nine one-storied houses burnt and three pulled down. Extinguished by the Fire Brigade. Cause of fire unknown. — p. 148 ([scan leaf 149](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1881-and-Budget-for-the-Year-1882/page/n149/mode/1up))
+
+**1881, November 22nd** 6 p.m. A fire broke out at 146, Hankow Road. Extinguished by Fire Brigade. Two houses burnt and one pulled down. Caused by overturning a lamp which set fire to a bed. — p. 148 ([scan leaf 149](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1881-and-Budget-for-the-Year-1882/page/n149/mode/1up))
+
+**1881, November 25th** 10.30 p.m. A fire broke out at a house in the Nankin Road, near the Racquet Court. The alarm was given, but the fire was put out by the neighbours. — p. 148 ([scan leaf 149](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1881-and-Budget-for-the-Year-1882/page/n149/mode/1up))
+
+**1881, December 19th** 12.30 p.m. A fire broke out in the roof of foreign house 40, Broadway Road. General alarm given, but the fire was put out by Extincteurs. A small hole burnt in the roof. Supposed caused by a spark from the Chimney. — p. 148 ([scan leaf 149](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1881-and-Budget-for-the-Year-1882/page/n149/mode/1up))
+
+**1881, December 22nd** 5 p.m. A fire broke out at 166, Tientsin Road. Put out by Police. No alarm given. Roof of house partially burnt. Origin of fire unknown. — p. 148 ([scan leaf 149](https://archive.org/details/Shanghai-Municipal-Council-Report-for-the-Year-1881-and-Budget-for-the-Year-1882/page/n149/mode/1up))
