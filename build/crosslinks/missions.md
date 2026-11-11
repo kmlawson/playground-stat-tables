@@ -96,3 +96,4 @@ SU1–SU6 | done | china-smc update: 1932 added (agents SU1–SU6, 2026-11-11)
 | SH1–SH6 | done | china-smc-1912 added to all 12 china-smc topics (update mode) |
 | SI1–SI6 | done | china-smc-1911 added to all 12 china-smc topics (update mode); SI1 also fixed 66 china-smc-1912 budget-general ids missing the "p" prefix |
 | SJ1–SJ6 | done | china-smc-1909 added to all 12 china-smc topics (update mode) |
+| SK1–SK6 | done | china-smc-1908 added to all 12 china-smc topics (update mode) |
