@@ -8,7 +8,8 @@ wrong and what to do about it. Add a line when a book teaches something new.
   cell) came out ~68% blank and was abandoned after 12 of 50 missions.
 - Sharp 400 dpi bilevel (NLC/Commons 1935 統計提要) and 6,000 px NDL spreads read cleanly; 300 dpi bilevel with broken
   or doubled type (Commons SSID 1947) gives ~1.5% `[?]` after the first reading.
-- Downloads: one request at a time, a few seconds apart, descriptive non-identifying User-Agent. Commons: use the API
+- Downloads: one request at a time, a few seconds apart, descriptive non-identifying User-Agent (NDL downloads and
+  catalogue searches: `docs/ndl.md`). Commons: use the API
   (`prop=imageinfo`) for the file URL; `pdfimages -png` keeps bilevel pages lossless.
 
 - DjVu (Commons/CADAL): `ddjvu -format=pbm -page=N` then `magick x.pbm full/pNNNN.png` (~0.6 s a page; writing a

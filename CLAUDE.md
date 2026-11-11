@@ -9,6 +9,8 @@ Other files to read when the task needs them:
 - **`LESSONS.md`** — what goes wrong with each kind of volume and layout (scan quality, kanji vs Arabic figures,
   sideways pages, split tables, sub-tables, giant tables, agent behaviour, checking, publishing traps). Read it before
   planning a new book.
+- **`docs/ndl.md`** — rules for every NDL request: page-image downloads (`../_pipeline/ndl_dl.sh`) and catalogue
+  searches (one request at a time, ≥ 5 s apart, back-off, non-identifying User-Agent). Read it before touching NDL.
 - `docs/reference.md` — llm/Codex/agy pipelines, toolkits, kanji numerals, directories, charts, Search, map links.
 - `docs/stages/` — one file per later stage (translations, tags, similar tables, topics and maps, finder pages):
   read the one for the stage you are at.
