@@ -1,0 +1,33 @@
+from tagA_lib import write
+E='education';S='schools-and-pupils'
+specs=[
+('sport '+E,'sports-participation',0,'swimming certificates'),
+(E+' population',S+' nationality-and-ethnicity age-and-sex',0,'nationality and age'),
+(E,'religious-affiliation '+S,0,'faiths'),
+(E,S,0,'roll'),(E,S,0,'comparison'),(E,S,0,'admissions'),(E,S,0,'withdrawals'),
+(E+' population',S+' nationality-and-ethnicity age-and-sex',0,'nationality ages'),
+(E+' health',S+' diseases',0,'sickness'),
+(E,S+' teachers',0,'form mistress attendance'),
+('sport '+E,'sports-records',0,'hockey matches'),
+(E,'',1,'committee'),
+(E,S,0,'admissions'),(E,S,0,'attendance'),(E,S+' age-and-sex',0,'ages'),
+(E,'teachers',0,'teachers'),
+(E,S,1,'certificate names'),
+(E,'',1,'alumni officers'),(E,'',1,'alumni committees'),
+(E,S,0,'roll'),(E,S,0,'attendance'),(E,S+' age-and-sex',0,'ages'),
+(E,'higher-education secondary-education',1,'exam successes'),
+(E,S,0,'roll'),(E,S,0,'attendance'),(E,S+' age-and-sex',0,'ages'),
+(E,S,0,'roll'),(E,S,0,'attendance'),(E,S+' age-and-sex',0,'ages'),
+('trade transportation','tariffs ports silk',0,'wharfage dues by article'),
+('finance transportation','ports taxation',0,'wharfage collection'),
+('finance','taxation ports',0,'bullion tax'),
+('trade','tariffs silk ports',0,'dues per picul'),
+('transportation','road-transport freight-and-transport-costs',0,'bus fares'),
+('transportation','road-transport',0,'road space by vehicle'),
+('transportation','roads-and-bridges',0,'road extensions'),
+('transportation','roads-and-bridges',0,'road extensions'),
+('transportation','roads-and-bridges road-transport',0,'tyre load limits'),
+('transportation','road-transport',0,'vehicle fees'),
+('transportation','roads-and-bridges road-transport',0,'tyre load limits'),
+]
+write('b05',specs)
