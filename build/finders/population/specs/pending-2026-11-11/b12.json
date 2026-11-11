@@ -1,0 +1,154 @@
+[
+{
+"t": "china-smc-1918:p0038_2",
+"skip": "traffic census"
+},
+{
+"t": "china-smc-1918:p0070_1",
+"skip": "casualty list"
+},
+{
+"t": "china-smc-1918:p0111_1",
+"skip": "deaths only"
+},
+{
+"t": "china-smc-1918:p0165_1",
+"skip": "houses only"
+},
+{
+"t": "china-smc-1918:p0165_2",
+"x": [
+{
+"rows": "dates",
+"p": "Shanghai International Settlement",
+"b": "estimate",
+"g": "foreign",
+"cols": [
+{
+"c": 7,
+"n": "incl. shipping"
+},
+{
+"c": 8,
+"n": "excl. shipping"
+}
+]
+}
+]
+},
+{
+"t": "china-smc-1918:p0165_3",
+"x": [
+{
+"rows": "dates",
+"p": "Shanghai International Settlement",
+"b": "estimate",
+"g": "chinese",
+"cols": [
+{
+"c": 7,
+"n": "incl. shipping"
+},
+{
+"c": 8,
+"n": "excl. shipping"
+}
+]
+}
+]
+},
+{
+"t": "china-smc-1918:p0166_1",
+"x": [
+{
+"rows": "cells",
+"cells": [
+{
+"r": 0,
+"c": 1,
+"p": "Shanghai French Concession",
+"d": "~1918",
+"g": "foreign"
+},
+{
+"r": 1,
+"c": 1,
+"p": "Shanghai French Concession",
+"d": "~1918",
+"g": "chinese"
+},
+{
+"r": 3,
+"c": 1,
+"p": "Shanghai French Concession",
+"d": "~1918"
+}
+]
+}
+]
+},
+{
+"t": "china-smc-1920:p0067_1",
+"skip": "arrests by nationality"
+},
+{
+"t": "china-smc-1920:p0070_1",
+"skip": "court cases"
+},
+{
+"t": "china-smc-1920:p0073_3",
+"skip": "civil cases"
+},
+{
+"t": "china-smc-1920:p0102_1",
+"x": [
+{
+"rows": "cells",
+"cells": [
+{
+"r": 6,
+"c": 1,
+"p": "Shanghai International Settlement",
+"d": "1920",
+"g": "foreign"
+},
+{
+"r": 7,
+"c": 1,
+"p": "Shanghai International Settlement",
+"d": "1920",
+"g": "chinese"
+}
+]
+}
+]
+},
+{
+"t": "china-smc-1920:p0106_1",
+"skip": "deaths only"
+},
+{
+"t": "china-smc-1920:p0107_2",
+"skip": "deaths only"
+},
+{
+"t": "china-smc-1920:p0109_1",
+"skip": "deaths only"
+},
+{
+"t": "china-smc-1920:p0180_1",
+"skip": "pupils"
+},
+{
+"t": "china-smc-1920:p0182_3",
+"skip": "pupils"
+},
+{
+"t": "china-smc-1920:p0289_1",
+"skip": "cases only"
+},
+{
+"t": "china-smc-1920:p0332_1",
+"skip": "shelter inmates"
+}
+]
