@@ -1,0 +1,72 @@
+import json
+V=json.load(open('../../vocabulary.json'))
+T={t['id'] for t in V['topics']}; G={t['id'] for t in V['tags']}
+M='military'; C='crime-and-justice'; D='disasters'; H='health'
+A={}
+def a(k,top,tags,why,txt=False):
+    for x in k.split():
+        A['china-smc-1919:'+x]=(top,tags,['text-tables'] if txt else [],why)
+# b01
+a('p0007_1 p0007_2 p0008_1 p0008_2 p0009_1',[M],['army'],'volunteer corps strength/efficiency/musketry')
+a('p0008_3 p0009_2',[M],['army'],'unit points, efficiency shield')
+a('p0013_1 p0013_2 p0013_3 p0014_1 p0014_2 p0014_3 p0014_4',[M],['army','honours-and-ranks'],'officer commissions roster',True)
+a('p0014_5',[M],['military-casualties'],'deaths in corps, names',True)
+a('p0014_6',[M],['army'],'corps staff and strength')
+a('p0026_1 p0040_1 p0042_2 p0045_1',[D],['fires','firefighting'],'fire brigade calls')
+a('p0026_2 p0044_1 p0040_2',[D],['fires','disaster-losses'],'fire loss/damage')
+a('p0038_1',[D],['firefighting'],'repairs to fire equipment',True)
+a('p0038_2 p0039_1 p0039_2 p0041_1',[D],['firefighting'],'fire brigade equipment')
+a('p0042_1',[D],['fires'],'fires by trade and origin')
+a('p0053_1 p0053_2 p0054_1 p0055_1 p0055_2 p0056_1 p0057_1 p0058_1 p0058_2',[C],['police'],'police force strength/discipline')
+a('p0053_3',[C,'government'],['police'],'senior officer titles',True)
+a('p0060_1',[C],['police'],'finger print records')
+# b02
+a('p0061_1',['transportation',C],['road-transport'],'chauffeur permits, convictions')
+a('p0062_1',['transportation'],['transport-accidents'],'street accidents killed/injured')
+a('p0062_2 p0063_2 p0063_3 p0063_4 p0063_5 p0064_1',[C],['police'],'police mounted/firearms training')
+a('p0063_1',[C],['police'],'ponies presented',True)
+a('p0064_2 p0065_1 p0065_2 p0065_3 p0066_1 p0082_2',[C],['prisons'],'gaol/reformatory numbers')
+a('p0066_2 p0069_1 p0069_2 p0069_3 p0070_1',[C],['courts','civil-litigation'] ,'court sessions/cases')
+a('p0066_3',[C,'government'],['courts'],'Mixed Court foreign staff')
+a('p0067_1 p0067_2 p0077_1 p0078_1 p0079_1 p0082_1',[C],['offences-and-convictions','police'],'offences/arrests')
+a('p0080_1 p0081_1',[C],['offences-and-convictions','courts'],'Mixed Court cases/sentences')
+a('p0068_1',[C],['courts'],'assessors list',True)
+a('p0070_2 p0070_3 p0070_4 p0070_5 p0071_1 p0071_2',['population','foreign-relations'],['nationality-and-ethnicity','migration'],'repatriation of enemy subjects')
+a('p0083_1',[C],['police','arms-and-arsenals'],'police arms and ammunition')
+a('p0103_1 p0104_1 p0104_2',[C],['riots-and-civil-unrest'],'Hongkew disturbances injuries/damage')
+a('p0104_3',[C],['riots-and-civil-unrest'],'Hongkew damage claims')
+# b03
+a('p0111_1',['geography','population'],['land-area','population-totals'],'Shanghai statistical summary')
+a('p0111_2',[H],['public-health'],'health notice',True)
+a('p0113_1',['geography'],['weather'],'meteorology')
+a('p0115_1 p0115_2 p0116_1 p0118_1',[H,'population'],['births-and-deaths','diseases'],'deaths by cause')
+a('p0116_2',['population',H],['births-and-deaths','nationality-and-ethnicity'],'deaths by nationality')
+a('p0116_3',['population',H],['births-and-deaths','age-and-sex'],'deaths by age')
+a('p0117_1',['population',H],['births-and-deaths'],'death-rate series')
+a('p0119_1',[H],['diseases','epidemics'],'notified infectious diseases')
+a('p0120_1',[H],['diseases','births-and-deaths'],'infectious disease deaths')
+a('p0121_1',[H],['vaccination'],'vaccinations')
+a('p0127_1 p0128_1',[H],['diseases','epidemics'],'plague rats/cases')
+a('p0128_2 p0148_1',[H],['public-health'],'sanitary/plague prevention work')
+a('p0130_1',[H],['veterinary-health','public-health'],'dog observation kennels')
+a('p0131_1',[H],['diseases','medical-services'],'laboratory diagnosis')
+a('p0132_1',[H],['food-inspection'],'milk adulteration')
+a('p0132_2',[H,'utilities'],['water-and-sewerage','public-health'],'water analysis')
+a('p0135_1 p0136_1 p0137_1 p0137_2 p0139_1 p0139_2 p0140_1 p0140_2',[H],['medical-services'],'hospital/nursing/ambulance services')
+a('p0145_1 p0145_2',[H],['public-health'],'house refuse disposal')
+a('p0147_1',['sport'],['sports-organisations-and-facilities'],'swimming bath use')
+a('p0148_2',['economy','trade'],['prices'],'price variation 1875+')
+a('p0150_1',[H],['food-inspection'],'slaughter house rejections')
+a('p0150_2',[H,'agriculture'],['food-inspection','livestock'],'slaughter returns')
+a('p0151_1',['trade'],['markets-and-exchanges'],'market stalls/shops')
+a('p0151_2',[C,H],['offences-and-convictions','food-inspection'],'sanitary prosecutions')
+a('p0152_1',[H,'population'],[],'cemeteries')
+a('p0152_2',[H,C],['births-and-deaths'],'mortuary bodies, inquests')
+for b in ['b01','b02','b03']:
+    d=json.load(open(f'batches/{b}.json')); out=[]
+    for r in d:
+        t,g,f,w=A[r['key']]
+        assert all(x in T for x in t) and all(x in G for x in g),(r['key'],t,g)
+        out.append(dict(key=r['key'],topics=t,tags=g,flags=f,why=w))
+    json.dump(out,open(f'results/{b}.json','w'),ensure_ascii=False,indent=1)
+    print(b,len(out),sum(1 for o in out if o['tags']))
