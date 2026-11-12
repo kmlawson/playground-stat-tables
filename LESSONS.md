@@ -151,3 +151,8 @@ wrong and what to do about it. Add a line when a book teaches something new.
   report's "left for the previous mission" line against the previous mission's files. Tell missions that one-item-per-line
   lists without figures (committees, recipients, vehicles, dated calls) are tables, or Haiku files them as prose.
   Fold-outs are often shot twice (two frames of one page) and some frames are show-through ghosts of the facing page.
+- **Table file names must end `_<digits>.json`** (build_site.py sorts by it): explicit names like `p0005_R1.json` or
+  `p0009_T.json` in page-range missions broke the build (高等女學校諸調査 1937) — renumber at assembly or name them `_1`, `_2` ….
+- **Missing decimal points** (worn type prints a gap): readers wrote `33 6`, `336` or `33.6`. Tell them to keep the gap
+  (`33 6`) and normalise at assembly when every figure in the table has the same number of decimals (身體檢査統計 1934,
+  `plan/normdec.py`).
