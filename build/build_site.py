@@ -2550,7 +2550,11 @@ def main():
     with open(os.path.join(HERE, "index.html"), "w", encoding="utf-8") as fh:
         nb, nt = sum(1 for b, n, c, ch in cards), sum(n for b, n, c, ch in cards)
         from about_text import INTRO, ABOUT
-        home = landing(cards).replace("__TOPICMENU__", INTRO + f'<p class="allstat">{nb} volumes, with a total of {nt:,} tables</p>').replace("__VERSION__", html.escape(version_line()))   # site totals; the topic menu was removed (user, 2026-10-24)
+        allstat = f"{nb} volumes, with a total of {nt:,} tables"
+        intro = ('<details class="introbox" id="introbox" open><summary>Introduction</summary>' + INTRO + '</details>'
+                 '<script>try{if(localStorage.getItem("homeintro")==="shut")document.getElementById("introbox").open=false}catch(e){}'
+                 'document.getElementById("introbox").addEventListener("toggle",e=>{try{localStorage.setItem("homeintro",e.target.open?"open":"shut")}catch(x){}})</script>')
+        home = landing(cards).replace("__TOPICMENU__", intro + filter_bar(cards) + f'<p class="allstat" id="allstat" data-txt="{allstat}">{allstat}</p>').replace("__VERSION__", html.escape(version_line()))   # site totals; the topic menu was removed (user, 2026-10-24)
         fh.write(home)
     # about.html: the home page's header and footer around the author's About text (build/about_text.py). The section
     # links of the header point back to the home page; the sort and view tools, which act on the list of books, go.
@@ -2958,6 +2962,57 @@ def added_dates():
     return d
 
 
+# Publication year(s) of a book for the home page's From/To filter: an explicit entry here, else every Western year in
+# the publisher line (a range when it names several), else a 明治/大正/昭和 era year there. The filter is by publication,
+# not by the year in the title or the year surveyed.
+PUB_YEAR = {"gyosei-nenpo-1929": 1930, "china-peking-1921": 1921, "china-1912": 1912, "china-1922": 1921, "china-1929-30": 1929}
+ERA = {"明治": 1867, "大正": 1911, "昭和": 1925}
+
+
+def kanji_int(t):
+    if t.isdigit():
+        return int(t)
+    if t == "元":
+        return 1
+    d = {c: i for i, c in enumerate("〇一二三四五六七八九")}
+    if "十" in t:
+        a, _, b = t.partition("十")
+        return (d.get(a, 1) if a else 1) * 10 + (d.get(b, 0) if b else 0)
+    n = 0
+    for c in t:
+        if c not in d:
+            return None
+        n = n * 10 + d[c]
+    return n
+
+
+def pub_years(b):
+    if b["slug"] in PUB_YEAR:
+        y = PUB_YEAR[b["slug"]]
+        return (y, y)
+    p = b.get("publisher", "")
+    ys = [int(y) for y in re.findall(r"(?<!\d)(1[89]\d\d)(?!\d)", p)]
+    if not ys:
+        for era, num in re.findall(r"(明治|大正|昭和)\s*([元〇一二三四五六七八九十\d]+)年", p):
+            n = kanji_int(num)
+            if n:
+                ys.append(ERA[era] + n)
+    return (min(ys), max(ys)) if ys else None
+
+
+def filter_bar(cards):
+    names = {"japan": "Japan", "china": "China", "korea": "Korea", "taiwan": "Taiwan", "manchuria": "Manchuria", "south-seas": "South Seas Mandate", "other": "Other"}
+    have = {group_of(b) for b, n, c, ch in cards}
+    opts = "".join(f'<option value="{g}">{n}</option>' for g, n in names.items() if g in have)
+    tip = "Years are the year the volume was published, not the year in its title or the year it surveys."
+    return ('<div class="fbar" id="fbar"><label>Filter: <input id="fq" type="search" placeholder="title" aria-label="Filter by volume title"></label>'
+            '<span class="fyears"><label>From: <input id="fy0" type="text" inputmode="numeric" maxlength="4" placeholder="year" aria-label="Published from (year)"></label>'
+            '<label>To: <input id="fy1" type="text" inputmode="numeric" maxlength="4" placeholder="year" aria-label="Published to (year)"></label>'
+            f'<button class="itip" id="fyi" type="button" aria-expanded="false" aria-controls="ftip" title="{tip}" aria-label="About the year filter">i</button></span>'
+            f'<label>Section: <select id="fsec" aria-label="Section"><option value="">All</option>{opts}</select></label>'
+            f'<span class="ftip" id="ftip" hidden>{tip}</span></div>')
+
+
 def landing(cards):
     added = added_dates()
     items = []
@@ -2980,7 +3035,9 @@ def landing(cards):
         grp = group_of(b)
         home = f'book/{b["slug"]}/' if n else f'book/{b["slug"]}/directory.html' if b.get("dir_only") and b.get("_dir_n") else None
         title = f'<a href="{home}" style="color:inherit;text-decoration:none">{html.escape(b["title"])}</a>' if home else html.escape(b["title"])
-        items.append((grp, b["slug"], f"""<article data-t="{html.escape(b["title"])}" data-a="{added.get(b["slug"], "")}"><h2>{title}</h2><div class="pub">{html.escape((b["author"] + "; ") if b.get("author") else "")}{html.escape(b["publisher"])}</div>{(f'<div class="pub">{html.escape(b["note"])}</div>' if CJK_RE.search(b["note"]) else f'<div class="pub"><i>{html.escape(b["note"])}</i></div>') if b.get("note") else ""}
+        py = pub_years(b)
+        yattr = f' data-y0="{py[0]}" data-y1="{py[1]}"' if py else ""
+        items.append((grp, b["slug"], f"""<article data-t="{html.escape(b["title"])}" data-s="{html.escape(b.get("subtitle", ""))}"{yattr} data-a="{added.get(b["slug"], "")}"><h2>{title}</h2><div class="pub">{html.escape((b["author"] + "; ") if b.get("author") else "")}{html.escape(b["publisher"])}</div>{(f'<div class="pub">{html.escape(b["note"])}</div>' if CJK_RE.search(b["note"]) else f'<div class="pub"><i>{html.escape(b["note"])}</i></div>') if b.get("note") else ""}
 <div class="stat">{stat}</div><div class="src">LLM-transcribed{item}</div>{b.get("_qstat", "")}<div class="links">{link}</div></article>"""))
     order = {"far-east": 0, "manchoukuo": 1}
     other = sorted([(sl, h) for g, sl, h in items if g == "other"], key=lambda x: order.get(x[0].rsplit("-", 1)[0], 9))
@@ -3023,7 +3080,7 @@ LANDING = r"""<!DOCTYPE html>
 .band{background:var(--accent);color:var(--accent-ink)}.band>div{max-width:980px;margin:0 auto;padding:34px 16px 30px}.band h1{font-weight:normal;font-size:30px;margin:0 0 8px}.band .lede{color:var(--accent-ink);opacity:.9;margin:0}
 main{max-width:980px;margin:0 auto;padding:26px 16px 60px}
 .topnav{margin:18px 0 0;display:flex;gap:8px;flex-wrap:wrap;align-items:center}.jump{display:contents}.jump a{display:inline-block;border:1px solid var(--accent-ink);color:var(--accent-ink);padding:6px 16px;border-radius:5px;text-decoration:none;font-size:15px}.jump a:hover{background:var(--accent-ink);color:var(--accent)}
-.grp{scroll-margin-top:12px}.grp{border-top:2px solid var(--line);margin-top:34px;padding-top:6px}.grp:first-child,.allstat+.grp{margin-top:4px;border-top:0}.allstat{margin:0 0 6px;font-size:16px;color:var(--muted)}.grph{font-size:14px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);margin:18px 0 0;font-weight:bold}.grp .grid{margin-top:14px}.gtog{font:inherit;letter-spacing:inherit;text-transform:inherit;color:inherit;background:none;border:0;padding:0;cursor:pointer;display:inline-flex;align-items:center;gap:7px}.gtog .tri{display:inline-block;font-size:12px;transition:transform .15s}.grp.shut .tri{transform:rotate(-90deg)}.grp.shut>:not(.grph):not(.gstat){display:none}.tmenu{margin:4px 0 8px}.tmn{color:var(--muted);font-size:14.5px;margin:6px 0 10px}.tmn a{color:var(--accent)}.tmrow{display:flex;flex-wrap:wrap;gap:6px 8px;align-items:baseline;padding:7px 0;border-top:1px solid var(--line)}.tmt{min-width:150px;font-size:16px}.tmrow a{color:var(--accent);text-decoration:none;border:1px solid var(--line);background:var(--panel);border-radius:14px;padding:2px 11px;font-size:14.5px}.tmrow a:hover{border-color:var(--accent)}.tmrow small{color:var(--muted)}.gstat{margin:8px 0 0;font-size:15px;color:var(--muted)}.tlinks{margin:4px 0 0;font-size:15px}.tlinks a{color:var(--accent)}
+.grp{scroll-margin-top:12px}.grp{border-top:2px solid var(--line);margin-top:34px;padding-top:6px}.grp:first-child,.allstat+.grp{margin-top:4px;border-top:0}.allstat{margin:0 0 2px;font-size:16px;color:var(--muted)}.allstat+.grp>.grph,#groups .grp.first>.grph{margin-top:2px}#groups .grp.first{margin-top:4px;border-top:0}.introbox>summary{cursor:pointer;color:var(--accent);font-size:14px;letter-spacing:.08em;text-transform:uppercase;font-weight:bold;margin:0 0 8px;width:max-content}.introbox:not([open])>summary{margin-bottom:12px}.fbar{display:flex;flex-wrap:wrap;align-items:center;gap:8px 16px;margin:4px 0 10px;font-size:14px;color:var(--muted)}.fbar label,.fyears{display:inline-flex;align-items:center;gap:6px}.fyears{gap:10px}.fbar input,.fbar select{font:inherit;font-size:14px;color:var(--ink);background:var(--panel);border:1px solid var(--line);border-radius:5px;padding:4px 7px}#fq{width:12ch}#fy0,#fy1{width:6.5ch}.itip{font:italic bold 12px/1 Georgia,serif;width:18px;height:18px;border-radius:50%;border:1px solid var(--muted);background:transparent;color:var(--muted);padding:0;cursor:pointer;margin-left:-4px}.itip[aria-expanded="true"],.itip:hover{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}.ftip{flex-basis:100%;font-size:13px;margin-top:-4px}#groups article[hidden],#groups .grp[hidden]{display:none!important}.grph{font-size:14px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);margin:18px 0 0;font-weight:bold}.grp .grid{margin-top:14px}.gtog{font:inherit;letter-spacing:inherit;text-transform:inherit;color:inherit;background:none;border:0;padding:0;cursor:pointer;display:inline-flex;align-items:center;gap:7px}.gtog .tri{display:inline-block;font-size:12px;transition:transform .15s}.grp.shut .tri{transform:rotate(-90deg)}.grp.shut>:not(.grph):not(.gstat){display:none}.tmenu{margin:4px 0 8px}.tmn{color:var(--muted);font-size:14.5px;margin:6px 0 10px}.tmn a{color:var(--accent)}.tmrow{display:flex;flex-wrap:wrap;gap:6px 8px;align-items:baseline;padding:7px 0;border-top:1px solid var(--line)}.tmt{min-width:150px;font-size:16px}.tmrow a{color:var(--accent);text-decoration:none;border:1px solid var(--line);background:var(--panel);border-radius:14px;padding:2px 11px;font-size:14.5px}.tmrow a:hover{border-color:var(--accent)}.tmrow small{color:var(--muted)}.gstat{margin:8px 0 0;font-size:15px;color:var(--muted)}.tlinks{margin:4px 0 0;font-size:15px}.tlinks a{color:var(--accent)}
 .searchbtn{display:inline-block;background:var(--accent-ink);color:var(--accent);font-weight:bold;padding:9px 16px;border-radius:5px;text-decoration:none;font-size:15px}
 .lede{color:var(--muted);max-width:720px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px;margin-top:28px}
 article{background:var(--panel);border:1px solid var(--line);border-top:3px solid var(--accent);padding:18px 18px 16px;display:flex;flex-direction:column}
@@ -3062,6 +3119,23 @@ function set(g,shut){g.classList.toggle("shut",shut);g.querySelector(".gtog").se
 document.querySelectorAll("#groups .grp").forEach(g=>{if(s[g.id])set(g,true);g.querySelector(".gtog").onclick=()=>set(g,!g.classList.contains("shut"))});
 function open(){const g=location.hash&&document.getElementById(location.hash.slice(1));if(g&&g.classList.contains("shut"))set(g,false)}
 ["jump","fab"].forEach(id=>document.getElementById(id)&&document.getElementById(id).addEventListener("click",e=>{const a=e.target.closest("a");if(a){const g=document.getElementById(a.getAttribute("href").slice(1));if(g&&g.classList.contains("shut"))set(g,false)}}));open()})();</script>
+<script>(function(){const q=document.getElementById("fq"),y0=document.getElementById("fy0"),y1=document.getElementById("fy1"),sec=document.getElementById("fsec"),st=document.getElementById("allstat");if(!q)return;
+// Home filter: title (and subtitle) text, publication years From/To (a book with no known year is hidden while a year
+// is set), and one section. Sections left with no book are hidden; the total line counts what is shown.
+const norm=x=>(x||"").normalize("NFKC").toLowerCase();
+function run(){const t=norm(q.value.trim()),a=parseInt(y0.value,10),b=parseInt(y1.value,10),g=sec.value;let n=0,tot=0;
+ document.querySelectorAll("#groups .grp").forEach(G=>{let k=0;G.querySelectorAll("article").forEach(A=>{tot++;
+  let ok=(!t||norm(A.dataset.t+" "+(A.dataset.s||"")).includes(t))&&(!g||G.id===g);
+  if(ok&&(a||b)){const p=+A.dataset.y0,r=+A.dataset.y1;ok=!!p&&(!a||r>=a)&&(!b||p<=b)}
+  A.hidden=!ok;if(ok)k++});G.hidden=!k;n+=k;
+  const gs=G.querySelector(".gstat");if(gs){if(!gs.dataset.txt)gs.dataset.txt=gs.textContent;const m=G.querySelectorAll("article").length;gs.textContent=(t||a||b)?`${k} of ${m} volume${m===1?"":"s"} shown`:gs.dataset.txt}});
+ st.textContent=(t||a||b||g)?`${n} of ${tot} volumes shown`:st.dataset.txt;first()}
+// the first section shown sits close under the total line (with hidden sections before it, :first-child cannot tell)
+function first(){let f=false;document.querySelectorAll("#groups .grp").forEach(G=>{G.classList.toggle("first",!f&&!G.hidden);if(!G.hidden)f=true})}
+setTimeout(first,0);
+[q,y0,y1].forEach(e=>e.addEventListener("input",run));sec.addEventListener("change",run);
+const i=document.getElementById("fyi"),tp=document.getElementById("ftip");i.addEventListener("click",()=>{tp.hidden=!tp.hidden;i.setAttribute("aria-expanded",!tp.hidden)});
+if(q.value||y0.value||y1.value||sec.value)run()})();</script>
 <script>if(Math.random()<.5){const g=document.getElementById("groups");g.insertBefore(document.getElementById("china"),document.getElementById("japan"));
 const n=document.getElementById("jump");n.insertBefore(document.getElementById("j-china"),document.getElementById("j-japan"));
 const f=document.getElementById("fab");if(f)f.insertBefore(document.getElementById("f-china"),document.getElementById("f-japan"))}</script>
@@ -3228,7 +3302,7 @@ body.vw-chart .tbl.hasch .tw{display:none}body.vw-table .tchart{display:none}
 .tc-tip{position:absolute;z-index:5;background:var(--panel);color:var(--ink);border:1px solid var(--line);box-shadow:0 2px 8px rgba(0,0,0,.2);padding:6px 9px;font-size:12.5px;max-width:min(360px,92%);pointer-events:none;line-height:1.45}.tc-tip div{display:flex;gap:5px;align-items:baseline}.tc-tip i{position:relative;top:1px}.tc-sum{margin-top:4px;color:var(--muted)}.tc-sum.warn{color:var(--warn)}
 .tc-note{font-size:12px;color:var(--muted);margin:8px 0 0}.tc-msg{font-size:13px;color:var(--muted)}.tc-multi{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,300px),1fr));gap:14px}.tc-mt{font-size:12.5px;display:flex;gap:6px;align-items:center;margin-bottom:2px}tr.tc-hl td{background:var(--hi)}
 @media (max-width:760px){#sidetog,body.noside #sideopen{display:none}body.noside #side{display:flex}body.noside #main{padding-left:16px}#wrap,body.cmp #wrap{grid-template-columns:minmax(0,1fr);height:auto}#cmp{border-left:0;border-top:2px solid var(--accent);padding:14px 16px}#side,#main{min-width:0;max-width:100vw}#list a{overflow-wrap:anywhere}.tw{max-height:none}header{padding:12px 16px}header h1{font-size:18px}.dirbtn{margin-left:0}#side{border-right:0;border-bottom:1px solid var(--line)}#list{max-height:40vh}#main{padding:14px 16px}.chgrid{gap:8px}.chbtn{padding:11px 13px}.chbtn small{font-size:12px}}
-#tfab{display:none}@media (max-width:760px){#tfab{position:fixed;right:12px;bottom:14px;z-index:30;display:flex;flex-direction:column;gap:4px;opacity:0;pointer-events:none;transition:opacity .2s}#tfab.on{opacity:.92;pointer-events:auto}#tfab button{width:44px;height:40px;border-radius:7px;background:var(--panel);color:var(--accent);border:1px solid var(--line);font:bold 19px/1 system-ui,sans-serif;padding:0;box-shadow:0 1px 3px rgba(0,0,0,.18);cursor:pointer}#tfab button.up{background:var(--accent);color:var(--accent-ink);margin-bottom:2px}}@media print{#tfab{display:none!important}}
+#tfab{position:fixed;right:12px;bottom:14px;z-index:30;display:flex;flex-direction:column;gap:4px;opacity:0;pointer-events:none;transition:opacity .2s}#tfab.on{opacity:.92;pointer-events:auto}#tfab button{width:44px;height:40px;border-radius:7px;background:var(--panel);color:var(--accent);border:1px solid var(--line);font:bold 19px/1 system-ui,sans-serif;padding:0;box-shadow:0 1px 3px rgba(0,0,0,.18);cursor:pointer}#tfab button:hover{background:var(--accent);color:var(--accent-ink)}#tfab button.up{background:var(--accent);color:var(--accent-ink);margin-bottom:2px}@media (min-width:761px){#tfab{right:20px;bottom:18px}}@media print{#tfab{display:none!important}}
 </style>
 <link rel="stylesheet" href="../../tags.css"><script src="../../data/tags/vocabulary.js"></script><script src="../../tags.js"></script></head>
 <body>
@@ -3247,18 +3321,24 @@ body.vw-chart .tbl.hasch .tw{display:none}body.vw-table .tchart{display:none}
 <aside id="cmp" hidden></aside>
 </div>
 <nav id="tfab" aria-label="Scroll the page"><button type="button" class="up" data-go="top" title="Back to the top" aria-label="Back to the top">⤒</button><button type="button" data-go="prev" title="Previous table" aria-label="Previous table">↑</button><button type="button" data-go="next" title="Next table" aria-label="Next table">↓</button></nav>
-<script>(function(){const f=document.getElementById("tfab");if(!f)return;const t=()=>f.classList.toggle("on",scrollY>innerHeight*.6);addEventListener("scroll",t,{passive:true});t();
-// Mobile floating buttons: top / previous table / next table. In a chapter they scroll between its tables (showing
+<script>(function(){const f=document.getElementById("tfab");if(!f)return;
+// Narrow screens scroll the window; wider ones scroll #main (the table pane beside the list).
+const narrow=()=>matchMedia("(max-width:760px)").matches,M=()=>document.getElementById("main");
+const pos=()=>narrow()?scrollY:(M()?M().scrollTop:0);
+const t=()=>f.classList.toggle("on",pos()>innerHeight*.6);addEventListener("scroll",t,{passive:true});
+document.addEventListener("scroll",e=>{if(e.target&&e.target.id==="main")t()},{passive:true,capture:true});addEventListener("resize",t);t();
+// Floating buttons: top / previous table / next table. In a chapter they scroll between its tables (showing
 // any not yet loaded) and at either end open the next chapter at its first table or the previous one at its last; with
 // one table shown they step through the table list as the arrow keys do, into the next/previous chapter at the ends.
 f.addEventListener("click",e=>{const b=e.target.closest("button");if(!b)return;const g=b.dataset.go;
- if(g==="top"){scrollTo({top:0,behavior:"smooth"});return}
+ const sc=narrow()?window:M(),off=()=>narrow()||!M()?0:M().getBoundingClientRect().top;
+ if(g==="top"){sc.scrollTo({top:0,behavior:"smooth"});return}
  const down=g==="next";
  if(typeof mode!=="undefined"&&mode==="one"&&typeof stepList==="function"){stepList(down,true);return}
- const all=()=>[...document.querySelectorAll("#main section.tbl")];const ss=all();let c=-1;ss.forEach((x,k)=>{if(x.getBoundingClientRect().top<=8)c=k});
- const atEnd=innerHeight+scrollY>=document.documentElement.scrollHeight-4;
+ const all=()=>[...document.querySelectorAll("#main section.tbl")];const ss=all();let c=-1;ss.forEach((x,k)=>{if(x.getBoundingClientRect().top-off()<=8)c=k});
+ const atEnd=narrow()?innerHeight+scrollY>=document.documentElement.scrollHeight-4:M().scrollTop+M().clientHeight>=M().scrollHeight-4;
  // tables above may still be laying out (charts, lazy parts), so re-align on the target a few times
- const go=x=>{x.scrollIntoView({block:"start"});[150,450,900].forEach(ms=>setTimeout(()=>{if(Math.abs(x.getBoundingClientRect().top)>4)x.scrollIntoView({block:"start"})},ms))};
+ const go=x=>{x.scrollIntoView({block:"start"});[150,450,900].forEach(ms=>setTimeout(()=>{if(Math.abs(x.getBoundingClientRect().top-off())>4)x.scrollIntoView({block:"start"})},ms))};
  const k=down?(atEnd?ss.length:c+1):c-1;
  if(k>=0&&k<ss.length){go(ss[k]);return}
  // more tables of this chapter not loaded yet: load the next batch and go to its first table
@@ -3267,7 +3347,7 @@ f.addEventListener("click",e=>{const b=e.target.closest("button");if(!b)return;c
  const sel=document.getElementById("ch"),opts=sel?[...sel.options].map(o=>o.value).filter(Boolean):[],n=opts.indexOf(sel?sel.value:"")+(down?1:-1);
  if(sel&&sel.value&&n>=0&&n<opts.length){if(typeof enterAt!=="undefined")enterAt=down?"first":"last";location.hash="ch="+encodeURIComponent(opts[n]);
   if(down)setTimeout(()=>{const m=document.getElementById("main");if(m)m.scrollIntoView({block:"start"})},250);return}
- if(!down)scrollTo({top:0,behavior:"smooth"})})})();</script>
+ if(!down)sc.scrollTo({top:0,behavior:"smooth"})})})();</script>
 __CHARTJS__<script>
 const TABLE_TAG_DATA=__TAGDATA__;
 const T=__DATA__;

@@ -108,13 +108,13 @@ body.vw-chart .tbl.hasch .tw{display:none}body.vw-table .tchart{display:none}
 .tc-tip{position:absolute;z-index:5;background:var(--panel);color:var(--ink);border:1px solid var(--line);box-shadow:0 2px 8px rgba(0,0,0,.2);padding:6px 9px;font-size:12.5px;max-width:min(360px,92%);pointer-events:none;line-height:1.45}.tc-tip div{display:flex;gap:5px;align-items:baseline}.tc-tip i{position:relative;top:1px}.tc-sum{margin-top:4px;color:var(--muted)}.tc-sum.warn{color:var(--warn)}
 .tc-note{font-size:12px;color:var(--muted);margin:8px 0 0}.tc-msg{font-size:13px;color:var(--muted)}.tc-multi{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,300px),1fr));gap:14px}.tc-mt{font-size:12.5px;display:flex;gap:6px;align-items:center;margin-bottom:2px}tr.tc-hl td{background:var(--hi)}
 @media (max-width:760px){#sidetog,body.noside #sideopen{display:none}body.noside #side{display:flex}body.noside #main{padding-left:16px}#wrap,body.cmp #wrap{grid-template-columns:minmax(0,1fr);height:auto}#cmp{border-left:0;border-top:2px solid var(--accent);padding:14px 16px}#side,#main{min-width:0;max-width:100vw}#list a{overflow-wrap:anywhere}.tw{max-height:none}header{padding:12px 16px}header h1{font-size:18px}.dirbtn{margin-left:0}#side{border-right:0;border-bottom:1px solid var(--line)}#list{max-height:40vh}#main{padding:14px 16px}.chgrid{gap:8px}.chbtn{padding:11px 13px}.chbtn small{font-size:12px}}
-#tfab{display:none}@media (max-width:760px){#tfab{position:fixed;right:12px;bottom:14px;z-index:30;display:flex;flex-direction:column;gap:4px;opacity:0;pointer-events:none;transition:opacity .2s}#tfab.on{opacity:.92;pointer-events:auto}#tfab button{width:44px;height:40px;border-radius:7px;background:var(--panel);color:var(--accent);border:1px solid var(--line);font:bold 19px/1 system-ui,sans-serif;padding:0;box-shadow:0 1px 3px rgba(0,0,0,.18);cursor:pointer}#tfab button.up{background:var(--accent);color:var(--accent-ink);margin-bottom:2px}}@media print{#tfab{display:none!important}}
+#tfab{position:fixed;right:12px;bottom:14px;z-index:30;display:flex;flex-direction:column;gap:4px;opacity:0;pointer-events:none;transition:opacity .2s}#tfab.on{opacity:.92;pointer-events:auto}#tfab button{width:44px;height:40px;border-radius:7px;background:var(--panel);color:var(--accent);border:1px solid var(--line);font:bold 19px/1 system-ui,sans-serif;padding:0;box-shadow:0 1px 3px rgba(0,0,0,.18);cursor:pointer}#tfab button:hover{background:var(--accent);color:var(--accent-ink)}#tfab button.up{background:var(--accent);color:var(--accent-ink);margin-bottom:2px}@media (min-width:761px){#tfab{right:20px;bottom:18px}}@media print{#tfab{display:none!important}}
 </style>
 <link rel="stylesheet" href="../../tags.css"><script src="../../data/tags/vocabulary.js"></script><script src="../../tags.js"></script></head>
 <body>
 <header><a href="../../" style="text-decoration:none;font-size:14px">← All books</a><h1><a href="./" onclick="goHome();return false" style="color:inherit;text-decoration:none" title="Back to this book's contents">Department of Railways Annual Report 1931</a></h1>
 <span class="meta">190 tables · 30,502 cells · LLM-transcribed · <a href="../../data/japan-railways-1931.json" style="color:inherit">JSON</a> · <a href="../../downloads/japan-railways-1931-tables.xlsx" style="color:inherit" download>Excel</a></span>
-<a class="dirbtn homebtn" href="./" onclick="goHome();return false" title="Back to this book's contents (chapters and the printed table of contents)">☰ Contents</a><button class="aboutbtn" onclick="document.getElementById('about').showModal()">About</button><dialog id="about" onclick="if(event.target===this)this.close()"><h3>Department of Railways Annual Report 1931</h3><div class="pub">Annual Report for the Year Ending March 31st, 1931 (English edition)</div><div class="pub">Department of Railways, Government of Japan, Tokyo, 1931</div><p>All tables are transcribed, including the small tables in the text of each chapter; the running text, photographs, the organisation chart, the eleven diagrams (graphs) and the folding railway map are not. Pages were found from contact sheets; tables printed sideways were turned upright before reading. Each two-page spread was read once, from whole-page and half-page images, by GPT-6.1 Sol (Codex) or Gemini 3.8 Flash (Antigravity), with no checking by eye; the readers re-added printed totals and noted those that do not reconcile. Long tables continued over several spreads appear as separate parts marked continued. Only one cell could not be read.</p><p class="ver">Version 1 update 174 · last updated 12 November 2026, 08:44</p><form method="dialog"><button>Close</button></form></dialog><button id="toggle" title="Toggle light/dark">◐</button></header>
+<a class="dirbtn homebtn" href="./" onclick="goHome();return false" title="Back to this book's contents (chapters and the printed table of contents)">☰ Contents</a><button class="aboutbtn" onclick="document.getElementById('about').showModal()">About</button><dialog id="about" onclick="if(event.target===this)this.close()"><h3>Department of Railways Annual Report 1931</h3><div class="pub">Annual Report for the Year Ending March 31st, 1931 (English edition)</div><div class="pub">Department of Railways, Government of Japan, Tokyo, 1931</div><p>All tables are transcribed, including the small tables in the text of each chapter; the running text, photographs, the organisation chart, the eleven diagrams (graphs) and the folding railway map are not. Pages were found from contact sheets; tables printed sideways were turned upright before reading. Each two-page spread was read once, from whole-page and half-page images, by GPT-6.1 Sol (Codex) or Gemini 3.8 Flash (Antigravity), with no checking by eye; the readers re-added printed totals and noted those that do not reconcile. Long tables continued over several spreads appear as separate parts marked continued. Only one cell could not be read.</p><p class="ver">Version 1 update 175 · last updated 12 November 2026, 09:22</p><form method="dialog"><button>Close</button></form></dialog><button id="toggle" title="Toggle light/dark">◐</button></header>
 <div id="wrap">
 <button id="sideopen" type="button" title="Show the table list" aria-label="Show the table list"></button>
 <nav id="side"><div class="ctl">
@@ -127,18 +127,24 @@ body.vw-chart .tbl.hasch .tw{display:none}body.vw-table .tchart{display:none}
 <aside id="cmp" hidden></aside>
 </div>
 <nav id="tfab" aria-label="Scroll the page"><button type="button" class="up" data-go="top" title="Back to the top" aria-label="Back to the top">⤒</button><button type="button" data-go="prev" title="Previous table" aria-label="Previous table">↑</button><button type="button" data-go="next" title="Next table" aria-label="Next table">↓</button></nav>
-<script>(function(){const f=document.getElementById("tfab");if(!f)return;const t=()=>f.classList.toggle("on",scrollY>innerHeight*.6);addEventListener("scroll",t,{passive:true});t();
-// Mobile floating buttons: top / previous table / next table. In a chapter they scroll between its tables (showing
+<script>(function(){const f=document.getElementById("tfab");if(!f)return;
+// Narrow screens scroll the window; wider ones scroll #main (the table pane beside the list).
+const narrow=()=>matchMedia("(max-width:760px)").matches,M=()=>document.getElementById("main");
+const pos=()=>narrow()?scrollY:(M()?M().scrollTop:0);
+const t=()=>f.classList.toggle("on",pos()>innerHeight*.6);addEventListener("scroll",t,{passive:true});
+document.addEventListener("scroll",e=>{if(e.target&&e.target.id==="main")t()},{passive:true,capture:true});addEventListener("resize",t);t();
+// Floating buttons: top / previous table / next table. In a chapter they scroll between its tables (showing
 // any not yet loaded) and at either end open the next chapter at its first table or the previous one at its last; with
 // one table shown they step through the table list as the arrow keys do, into the next/previous chapter at the ends.
 f.addEventListener("click",e=>{const b=e.target.closest("button");if(!b)return;const g=b.dataset.go;
- if(g==="top"){scrollTo({top:0,behavior:"smooth"});return}
+ const sc=narrow()?window:M(),off=()=>narrow()||!M()?0:M().getBoundingClientRect().top;
+ if(g==="top"){sc.scrollTo({top:0,behavior:"smooth"});return}
  const down=g==="next";
  if(typeof mode!=="undefined"&&mode==="one"&&typeof stepList==="function"){stepList(down,true);return}
- const all=()=>[...document.querySelectorAll("#main section.tbl")];const ss=all();let c=-1;ss.forEach((x,k)=>{if(x.getBoundingClientRect().top<=8)c=k});
- const atEnd=innerHeight+scrollY>=document.documentElement.scrollHeight-4;
+ const all=()=>[...document.querySelectorAll("#main section.tbl")];const ss=all();let c=-1;ss.forEach((x,k)=>{if(x.getBoundingClientRect().top-off()<=8)c=k});
+ const atEnd=narrow()?innerHeight+scrollY>=document.documentElement.scrollHeight-4:M().scrollTop+M().clientHeight>=M().scrollHeight-4;
  // tables above may still be laying out (charts, lazy parts), so re-align on the target a few times
- const go=x=>{x.scrollIntoView({block:"start"});[150,450,900].forEach(ms=>setTimeout(()=>{if(Math.abs(x.getBoundingClientRect().top)>4)x.scrollIntoView({block:"start"})},ms))};
+ const go=x=>{x.scrollIntoView({block:"start"});[150,450,900].forEach(ms=>setTimeout(()=>{if(Math.abs(x.getBoundingClientRect().top-off())>4)x.scrollIntoView({block:"start"})},ms))};
  const k=down?(atEnd?ss.length:c+1):c-1;
  if(k>=0&&k<ss.length){go(ss[k]);return}
  // more tables of this chapter not loaded yet: load the next batch and go to its first table
@@ -147,7 +153,7 @@ f.addEventListener("click",e=>{const b=e.target.closest("button");if(!b)return;c
  const sel=document.getElementById("ch"),opts=sel?[...sel.options].map(o=>o.value).filter(Boolean):[],n=opts.indexOf(sel?sel.value:"")+(down?1:-1);
  if(sel&&sel.value&&n>=0&&n<opts.length){if(typeof enterAt!=="undefined")enterAt=down?"first":"last";location.hash="ch="+encodeURIComponent(opts[n]);
   if(down)setTimeout(()=>{const m=document.getElementById("main");if(m)m.scrollIntoView({block:"start"})},250);return}
- if(!down)scrollTo({top:0,behavior:"smooth"})})})();</script>
+ if(!down)sc.scrollTo({top:0,behavior:"smooth"})})})();</script>
 <script src="../../charts.js" charset="utf-8"></script>
 <script>
 const TABLE_TAG_DATA={};
