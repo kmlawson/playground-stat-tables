@@ -738,6 +738,111 @@ def section(found, seen_books, site, region="japan", rname="Japan", primary=("pr
     return "\n".join(out)
 
 
+# ------------------------------------------------------------------ volumes by date added
+
+def added_at(site):
+    """{slug: datetime} from build/added_dates.json (the time a book's data first went into git)."""
+    f = os.path.join(site, "build", "added_dates.json")
+    d = json.load(open(f, encoding="utf-8")) if os.path.exists(f) else {}
+    out = {}
+    for k, v in d.items():
+        try:
+            out[k] = datetime.fromisoformat(v.replace("Z", "+00:00"))
+        except ValueError:
+            pass
+    return out
+
+
+def recent_section(found, seen, site, M):
+    """Every surveyed volume, newest first, marked when at least one of its tables already has a map link,
+    with its candidate tables (all kinds, unlinked first) to choose from."""
+    added = added_at(site)
+    links = Counter(c["book"] for c in M.load_config().get("tables", []))
+    rname = {r: n for r, n, _ in REGIONS}
+    cands = defaultdict(dict)             # slug -> table id -> candidate (hits of every kind merged)
+    for c in found:
+        k = c["table"]["id"]
+        d = cands[c["book"]["slug"]]
+        if k in d:
+            d[k] = dict(d[k], hits=d[k]["hits"] + [h for h in c["hits"] if h not in d[k]["hits"]])
+        else:
+            d[k] = c
+    far = datetime(1970, 1, 1).astimezone()
+    vols = sorted(seen, key=lambda x: added.get(x[0]["slug"], far), reverse=True)
+    nmap = sum(1 for b, _ in vols if links[b["slug"]])
+    out = ['<section id="recent" data-section="Volumes by date added">',
+           "<h2>Volumes by date added</h2>",
+           '<p class="lede">All %d volumes, newest first. <span class="mapok">map</span> marks the %d volumes with at '
+           "least one table already linked to the map (the number is how many); the count after it is the "
+           "candidate tables not yet linked (good or fair state). Open a volume to choose tables, then Copy.</p>"
+           % (len(vols), nmap),
+           '<div class="rfilters"><label>Filter <input type="search" class="rq" placeholder="title, slug, region…"></label>'
+           ' <label><input type="checkbox" class="rnomap"> no map yet</label>'
+           ' <label><input type="checkbox" class="rcand" checked> with candidates</label>'
+           ' <label>Added <select class="rdays"><option value="0">any time</option><option value="3">last 3 days</option>'
+           '<option value="7" selected>last 7 days</option><option value="14">last 14 days</option>'
+           '<option value="31">last month</option></select></label></div>',
+           '<div class="rlist">']
+    for b, ntab in vols:
+        slug = b["slug"]
+        at = added.get(slug)
+        L = sorted(cands[slug].values(), key=lambda c: (c["linked"], c["table"]["id"]))
+        open_n = sum(1 for c in L if not c["linked"] and any(h["grade"] != "check" for h in c["hits"]))
+        nl = links[slug]
+        mark = ('<span class="mapok" title="%d table%s linked to the map">map %d</span>' % (nl, "" if nl == 1 else "s", nl)
+                if nl else '<span class="nomap" title="No table of this volume is linked to the map yet">no map</span>')
+        text = " ".join([slug, b.get("title") or "", b.get("subtitle") or "", rname.get(group_of(b), "")]).lower()
+        out.append('<details class="book vol" data-text="%s" data-map="%d" data-cand="%d" data-t="%d">'
+                   % (esc(text), nl, open_n, int(at.timestamp()) if at else 0))
+        out.append('<summary>%s<span class="when">%s</span> %s <span class="bt" lang="ja">%s</span>'
+                   ' <span class="slug">%s · %s · %d tables</span> %s</summary>'
+                   % ('<input type="checkbox" class="pickall" title="Choose every table shown in this volume" '
+                      'aria-label="Choose every table shown in this volume"> ' if L else "",
+                      at.strftime("%Y-%m-%d") if at else "—", mark, esc(b.get("title")), esc(slug),
+                      esc(rname.get(group_of(b), "")), ntab,
+                      ('<span class="n" title="Candidate tables not yet linked (good or fair)">%d</span>' % open_n)
+                      + ('<span class="sub"> of %d candidates</span>' % len(L) if len(L) != open_n else "")))
+        if L:
+            out.append('<table><thead><tr><th>Table</th><th>Title</th><th>Matched</th>'
+                       '<th>Rows × cols</th><th>State</th></tr></thead><tbody>')
+            out.extend(row_html(c) for c in L)
+            out.append("</tbody></table>")
+        else:
+            out.append('<p class="sub" style="padding:0 10px 8px">No table names enough places the map draws.</p>')
+        out.append("</details>")
+    out.append("</div>")
+    out.append("""<style>
+.rfilters { position: sticky; top: 0; background: var(--bg); padding: 8px 0; z-index: 1; border-bottom: 1px solid var(--rule); }
+.rfilters input[type=search] { width: min(280px, 60vw); padding: 4px 6px; font: inherit; background: var(--card); color: var(--ink); border: 1px solid var(--rule); border-radius: 4px; }
+.rfilters label { margin-right: 10px; white-space: nowrap; }
+details.vol .when { font-variant-numeric: tabular-nums; color: var(--mute); font-size: 13px; margin-right: 4px; }
+.mapok, .nomap { font-size: 11px; border-radius: 8px; padding: 0 6px; white-space: nowrap; }
+.mapok { border: 1px solid var(--good); color: var(--good); }
+.nomap { border: 1px solid var(--rule); color: var(--mute); }
+</style>
+<script>
+(function () {
+  var sec = document.getElementById('recent'), q = sec.querySelector('.rq'), nomap = sec.querySelector('.rnomap'),
+      cand = sec.querySelector('.rcand'), days = sec.querySelector('.rdays');
+  function run() {
+    var words = q.value.toLowerCase().split(/\\s+/).filter(Boolean), d = +days.value,
+        since = d ? Date.now() / 1000 - d * 86400 : 0;
+    sec.querySelectorAll('details.vol').forEach(function (v) {
+      var t = v.getAttribute('data-text');
+      var ok = words.every(function (w) { return t.indexOf(w) >= 0; }) &&
+        (!nomap.checked || v.getAttribute('data-map') === '0') &&
+        (!cand.checked || +v.getAttribute('data-cand') > 0) && +v.getAttribute('data-t') >= since;
+      v.style.display = ok ? '' : 'none';
+    });
+  }
+  [q, nomap, cand, days].forEach(function (i) { i.addEventListener(i.type === 'search' ? 'input' : 'change', run); });
+  run();
+})();
+</script>""")
+    out.append("</section>")
+    return "\n".join(out)
+
+
 TEMPLATE = """<!doctype html>
 <html lang="en">
 <head>
@@ -842,11 +947,13 @@ PICKER = """
   var KEY = 'mapcand-picks', picks = {};
   try { picks = JSON.parse(localStorage.getItem(KEY) || '{}'); } catch (e) {}
   var boxes = document.querySelectorAll('input.pick');
+  // a table can be listed twice (its region's section and the volumes by date added): keep the copies in step
+  function twins(b) { boxes.forEach(function (o) { if (o !== b && o.dataset.u === b.dataset.u && o.checked !== b.checked) { o.checked = b.checked; var d = o.closest('details.book'); if (d) setTimeout(function () { sync(d); }, 0); } }); }
   function save() { try { localStorage.setItem(KEY, JSON.stringify(picks)); } catch (e) {} }
   function count() { var n = Object.keys(picks).length; document.getElementById('pickn').textContent = n + ' chosen'; }
   boxes.forEach(function (b) {
     b.checked = !!picks[b.dataset.u];
-    b.addEventListener('change', function () { if (b.checked) picks[b.dataset.u] = b.dataset.t; else delete picks[b.dataset.u]; save(); count(); });
+    b.addEventListener('change', function () { if (b.checked) picks[b.dataset.u] = b.dataset.t; else delete picks[b.dataset.u]; twins(b); save(); count(); });
   });
   // A volume's box chooses (or clears) every table now shown in it: the filter and "good only" hide rows, and a
   // hidden row is left as it is. Its tick says whether every shown table is chosen.
@@ -859,7 +966,7 @@ PICKER = """
       var a = e.target.closest('input.pickall'); if (!a) return;
       e.preventDefault();                      // a click in the summary would open or close the volume
       var d = sm.parentNode, s = shown(d), on = !s.every(function (b) { return b.checked; });
-      s.forEach(function (b) { b.checked = on; if (on) picks[b.dataset.u] = b.dataset.t; else delete picks[b.dataset.u]; });
+      s.forEach(function (b) { b.checked = on; if (on) picks[b.dataset.u] = b.dataset.t; else delete picks[b.dataset.u]; twins(b); });
       save(); count(); setTimeout(function () { sync(d); }, 0);   // after the browser undoes the cancelled click
     });
   });
@@ -901,14 +1008,16 @@ def main():
     M = load_module(os.path.join(a.site, "build", "maplinks.py"), "maplinks")
     F = Folder(M)
     ix, _ = build_indexes(F, M)
-    blocks = []
+    blocks, all_found, all_seen = [], [], []
     for region, rname, primary in REGIONS:
         found, seen = survey(a.site, M, F, ix, region, primary)
+        all_found += found
+        all_seen += seen
         blocks.append(section(found, seen, a.site, region, rname, primary))
         k = Counter(c["kind"] for c in found)
         print("%-10s %3d volumes, %6d tables: %d %s, %d prefecture, %d city, %d other"
               % (rname, len(seen), sum(n for _, n in seen), k["primary"], PRIMARY_NAME[primary[0]], k["pref"], k["city"], k["other"]))
-    write("\n".join(blocks) + PICKER)
+    write("\n".join([recent_section(all_found, all_seen, a.site, M)] + blocks) + PICKER)
     print("->", os.path.relpath(OUT, DEFAULT_SITE))
 
 
