@@ -14,14 +14,24 @@
  ],
  "japan": [
   {
-   "name": "大正9年国勢調査 (1920 census) and census time series since 1920",
+   "name": "国勢調査 (Population Census), 1920 to the present",
    "by": "Statistics Bureau of Japan, via e-Stat",
    "kind": "agency",
    "home": "https://www.e-stat.go.jp/",
-   "deep": "https://www.e-stat.go.jp/stat-search/files?tclass=000001026563&cycle=0&layout=datalist",
+   "deep": "https://www.e-stat.go.jp/stat-search/files?page=1&toukei=00200521",
    "lang": "ja",
-   "what": "The first census (1 Oct 1920) as PDF tables by prefecture (area, population by city/district, households); later censuses and the long-run series 'population by sex, nation and prefecture, 1920-2015' are in the same e-Stat census section (e.g. stat_infid=000031524010).",
-   "checked": "200, 2026-11-09"
+   "what": "Every census round from the first (1920) onward, with tables by prefecture and municipality and long-run series of population by sex and prefecture.",
+   "checked": "200, 2026-11-12"
+  },
+  {
+   "name": "e-Stat: 政府統計の総合窓口 (Portal Site of Official Statistics of Japan)",
+   "by": "Statistics Bureau of Japan",
+   "kind": "agency",
+   "home": "https://www.e-stat.go.jp/en",
+   "deep": "https://www.e-stat.go.jp/stat-search?page=1",
+   "lang": "ja, en",
+   "what": "Search and browse all official statistics of Japan (census, vital statistics, population estimates and many other surveys), with downloadable tables and a database.",
+   "checked": "200, 2026-11-12"
   },
   {
    "name": "統計150年 特設サイト: 統計史 (digitised census and yearbook reports)",
@@ -41,16 +51,6 @@
    "deep": "https://www.ipss.go.jp/syoushika/tohkei/Data/Popular2025/T01-01.files/sheet001.htm",
    "lang": "ja, en",
    "what": "Total population of Japan proper from 1872 (mostly estimates before 1920; census figures from 1920), with natural increase and migration; the annual data book also has long series by prefecture, age and sex.",
-   "checked": "200, 2026-11-09"
-  },
-  {
-   "name": "日本帝国統計年鑑 (digitised yearbook volumes)",
-   "by": "National Diet Library",
-   "kind": "agency",
-   "home": "https://dl.ndl.go.jp/",
-   "deep": "https://dl.ndl.go.jp/pid/1449782",
-   "lang": "ja",
-   "what": "Yearbook No. 58 (1939) as an example of the digitised run (Nos. 39-59); population chapters give census and registration-based counts for Japan proper by prefecture.",
    "checked": "200, 2026-11-09"
   }
  ],
