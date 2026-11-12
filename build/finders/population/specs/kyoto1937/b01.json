@@ -1,0 +1,652 @@
+[
+ {
+  "t": "japan-kyoto-chosen-1937:p0011_1",
+  "x": [
+   {
+    "rows": "dates",
+    "p": "Korea",
+    "b": "other",
+    "rd": {
+     "0": "1807",
+     "1": "1837",
+     "2": "1852",
+     "3": "1865",
+     "4": "1904"
+    },
+    "cols": [
+     {
+      "c": 3
+     },
+     {
+      "c": 2,
+      "m": "households"
+     }
+    ],
+    "n": "Yi dynasty registers"
+   }
+  ]
+ },
+ {
+  "t": "japan-kyoto-chosen-1937:p0011_2",
+  "x": [
+   {
+    "part": 0,
+    "rows": "cells",
+    "b": "resident",
+    "cells": [
+     {
+      "r": 0,
+      "c": 1,
+      "p": "Korea",
+      "d": "1934-12-31",
+      "m": "households",
+      "g": "all"
+     },
+     {
+      "r": 1,
+      "c": 1,
+      "p": "Korea",
+      "d": "1934-12-31",
+      "m": "households",
+      "g": "japanese"
+     },
+     {
+      "r": 2,
+      "c": 1,
+      "p": "Korea",
+      "d": "1934-12-31",
+      "m": "households",
+      "g": "korean"
+     },
+     {
+      "r": 3,
+      "c": 1,
+      "p": "Korea",
+      "d": "1934-12-31",
+      "m": "households",
+      "g": "foreign"
+     }
+    ]
+   },
+   {
+    "part": 1,
+    "rows": "cells",
+    "b": "resident",
+    "cells": [
+     {
+      "r": 0,
+      "c": 1,
+      "p": "Korea",
+      "d": "1934-12-31",
+      "m": "total",
+      "g": "all"
+     },
+     {
+      "r": 1,
+      "c": 1,
+      "p": "Korea",
+      "d": "1934-12-31",
+      "m": "total",
+      "g": "japanese"
+     },
+     {
+      "r": 2,
+      "c": 1,
+      "p": "Korea",
+      "d": "1934-12-31",
+      "m": "total",
+      "g": "korean"
+     },
+     {
+      "r": 3,
+      "c": 1,
+      "p": "Korea",
+      "d": "1934-12-31",
+      "m": "total",
+      "g": "foreign"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "t": "japan-kyoto-chosen-1937:p0019_1",
+  "x": [
+   {
+    "rows": "dates",
+    "p": "Kyoto",
+    "g": "korean",
+    "pt": "city",
+    "in": "Japan",
+    "cols": [
+     {
+      "c": 1
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "t": "japan-kyoto-chosen-1937:p0019_2",
+  "x": [
+   {
+    "rows": "dates",
+    "p": "Japan proper",
+    "g": "korean",
+    "cols": [
+     {
+      "c": 1
+     }
+    ],
+    "n": "Koreans remaining in Japan proper"
+   }
+  ]
+ },
+ {
+  "t": "japan-kyoto-chosen-1937:p0019_3",
+  "x": [
+   {
+    "rows": "dates",
+    "p": "Japan proper",
+    "g": "korean",
+    "cols": [
+     {
+      "c": 1
+     }
+    ],
+    "n": "Koreans remaining in Japan proper"
+   },
+   {
+    "rows": "dates",
+    "p": "Kyoto",
+    "g": "korean",
+    "cols": [
+     {
+      "c": 2
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "t": "japan-kyoto-chosen-1937:p0020_1",
+  "x": [
+   {
+    "rows": "dates",
+    "p": "Kyoto",
+    "cols": [
+     {
+      "c": 1
+     },
+     {
+      "c": 2,
+      "g": "korean"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "t": "japan-kyoto-chosen-1937:p0020_2",
+  "x": [
+   {
+    "pt": "ward",
+    "in": "Kyoto",
+    "rp": {
+     "7": "Kyoto"
+    },
+    "g": "korean",
+    "d": "1935-04-30",
+    "b": "police",
+    "cols": [
+     {
+      "c": 5
+     },
+     {
+      "c": 2,
+      "m": "male"
+     },
+     {
+      "c": 3,
+      "m": "female"
+     },
+     {
+      "c": 1,
+      "m": "households"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "t": "japan-kyoto-chosen-1937:p0021_1",
+  "x": [
+   {
+    "pt": "ward",
+    "in": "Kyoto",
+    "rp": {
+     "7": "Kyoto"
+    },
+    "g": "korean",
+    "d": "1935-04-30",
+    "b": "registered",
+    "n": "ward office residence registers",
+    "cols": [
+     {
+      "c": 5
+     },
+     {
+      "c": 2,
+      "m": "male"
+     },
+     {
+      "c": 3,
+      "m": "female"
+     },
+     {
+      "c": 1,
+      "m": "households"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "t": "japan-kyoto-chosen-1937:p0023_1",
+  "skip": "not population counts"
+ },
+ {
+  "t": "japan-kyoto-chosen-1937:p0024_1",
+  "skip": "not population counts"
+ },
+ {
+  "t": "japan-kyoto-chosen-1937:p0024_2",
+  "skip": "not population counts"
+ },
+ {
+  "t": "japan-kyoto-chosen-1937:p0025_1",
+  "skip": "not population counts"
+ },
+ {
+  "t": "japan-kyoto-chosen-1937:p0026_1",
+  "skip": "not population counts"
+ },
+ {
+  "t": "japan-kyoto-chosen-1937:p0027_1",
+  "skip": "not population counts"
+ },
+ {
+  "t": "japan-kyoto-chosen-1937:p0027_2",
+  "skip": "not population counts"
+ },
+ {
+  "t": "japan-kyoto-chosen-1937:p0029_1",
+  "skip": "not population counts"
+ },
+ {
+  "t": "japan-kyoto-chosen-1937:p0030_1",
+  "x": [
+   {
+    "pt": "ward",
+    "in": "Kyoto",
+    "rp": {
+     "7": "Kyoto"
+    },
+    "d": "1935-10-01",
+    "b": "census",
+    "cols": [
+     {
+      "c": 2
+     },
+     {
+      "c": 1,
+      "m": "households"
+     },
+     {
+      "c": 4,
+      "g": "korean",
+      "d": "1935-04-30",
+      "b": "police"
+     },
+     {
+      "c": 3,
+      "g": "korean",
+      "m": "households",
+      "d": "1935-04-30",
+      "b": "police"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "t": "japan-kyoto-chosen-1937:p0031_1",
+  "x": [
+   {
+    "pt": "city",
+    "in": "Japan",
+    "only": [
+     108
+    ],
+    "rp": {
+     "108": "Kyoto"
+    },
+    "cols": [
+     {
+      "c": 7,
+      "g": "korean",
+      "d": "1935-04-30",
+      "b": "police"
+     },
+     {
+      "c": 4,
+      "g": "korean",
+      "m": "male",
+      "d": "1935-04-30",
+      "b": "police"
+     },
+     {
+      "c": 5,
+      "g": "korean",
+      "m": "female",
+      "d": "1935-04-30",
+      "b": "police"
+     },
+     {
+      "c": 3,
+      "g": "korean",
+      "m": "households",
+      "d": "1935-04-30",
+      "b": "police"
+     },
+     {
+      "c": 9,
+      "d": "1935-10-01",
+      "b": "census"
+     },
+     {
+      "c": 8,
+      "m": "households",
+      "d": "1935-10-01",
+      "b": "census"
+     }
+    ]
+   }
+  ],
+  "n": "school districts below ward level skipped; city total only"
+ },
+ {
+  "t": "japan-kyoto-chosen-1937:p0035_1",
+  "skip": "sub-ward town rows, unsure gazetteer"
+ },
+ {
+  "t": "japan-kyoto-chosen-1937:p0036_1",
+  "skip": "not population counts"
+ },
+ {
+  "t": "japan-kyoto-chosen-1937:p0036_2",
+  "skip": "not population counts"
+ },
+ {
+  "t": "japan-kyoto-chosen-1937:p0036_3",
+  "skip": "not population counts"
+ },
+ {
+  "t": "japan-kyoto-chosen-1937:p0037_1",
+  "skip": "not population counts"
+ },
+ {
+  "t": "japan-kyoto-chosen-1937:p0047_1",
+  "skip": "not population counts"
+ },
+ {
+  "t": "japan-kyoto-chosen-1937:p0050_6",
+  "skip": "not population counts"
+ },
+ {
+  "t": "japan-kyoto-chosen-1937:p0051_1",
+  "skip": "not population counts"
+ },
+ {
+  "t": "japan-kyoto-chosen-1937:p0051_2",
+  "skip": "not population counts"
+ },
+ {
+  "t": "japan-kyoto-chosen-1937:p0052_1",
+  "x": [
+   {
+    "rows": "cells",
+    "b": "survey",
+    "cells": [
+     {
+      "r": 15,
+      "c": 1,
+      "m": "households",
+      "p": "Kyoto",
+      "g": "korean",
+      "d": "1935"
+     },
+     {
+      "r": 15,
+      "c": 2,
+      "p": "Kyoto",
+      "g": "korean",
+      "d": "1935"
+     }
+    ],
+    "n": "surveyed households only"
+   }
+  ]
+ },
+ {
+  "t": "japan-kyoto-chosen-1937:p0053_1",
+  "x": [
+   {
+    "rows": "cells",
+    "cells": [
+     {
+      "r": 11,
+      "c": 1,
+      "m": "households",
+      "p": "Kyoto",
+      "d": "1930-10-01"
+     },
+     {
+      "r": 11,
+      "c": 2,
+      "p": "Kyoto",
+      "d": "1930-10-01"
+     }
+    ],
+    "b": "census",
+    "n": "private households only"
+   }
+  ]
+ },
+ {
+  "t": "japan-kyoto-chosen-1937:p0054_1",
+  "x": [
+   {
+    "rows": "cells",
+    "b": "census",
+    "cells": [
+     {
+      "r": 11,
+      "c": 1,
+      "p": "Kyoto",
+      "d": "1930-10-01"
+     },
+     {
+      "r": 11,
+      "c": 2,
+      "m": "male",
+      "p": "Kyoto",
+      "d": "1930-10-01"
+     },
+     {
+      "r": 11,
+      "c": 3,
+      "m": "female",
+      "p": "Kyoto",
+      "d": "1930-10-01"
+     },
+     {
+      "r": 11,
+      "c": 5,
+      "p": "Kyoto",
+      "g": "korean",
+      "d": "1930-10-01"
+     },
+     {
+      "r": 11,
+      "c": 6,
+      "m": "male",
+      "p": "Kyoto",
+      "g": "korean",
+      "d": "1930-10-01"
+     },
+     {
+      "r": 11,
+      "c": 7,
+      "m": "female",
+      "p": "Kyoto",
+      "g": "korean",
+      "d": "1930-10-01"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "t": "japan-kyoto-chosen-1937:p0055_1",
+  "x": [
+   {
+    "rows": "cells",
+    "cells": [
+     {
+      "r": 10,
+      "c": 1,
+      "p": "Kyoto",
+      "d": "1930-10-01",
+      "b": "census"
+     },
+     {
+      "r": 10,
+      "c": 2,
+      "m": "male",
+      "p": "Kyoto",
+      "d": "1930-10-01",
+      "b": "census"
+     },
+     {
+      "r": 10,
+      "c": 3,
+      "m": "female",
+      "p": "Kyoto",
+      "d": "1930-10-01",
+      "b": "census"
+     },
+     {
+      "r": 10,
+      "c": 7,
+      "p": "Kyoto",
+      "g": "korean",
+      "d": "1935-04-30",
+      "b": "survey",
+      "n": "members of Korean-born households"
+     },
+     {
+      "r": 10,
+      "c": 5,
+      "m": "male",
+      "p": "Kyoto",
+      "g": "korean",
+      "d": "1935-04-30",
+      "b": "survey"
+     },
+     {
+      "r": 10,
+      "c": 6,
+      "m": "female",
+      "p": "Kyoto",
+      "g": "korean",
+      "d": "1935-04-30",
+      "b": "survey"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "t": "japan-kyoto-chosen-1937:p0056_1",
+  "x": [
+   {
+    "rows": "cells",
+    "b": "census",
+    "cells": [
+     {
+      "r": 0,
+      "c": 1,
+      "p": "Osaka",
+      "g": "korean",
+      "d": "1930-10-01"
+     },
+     {
+      "r": 1,
+      "c": 1,
+      "p": "Kyoto",
+      "g": "korean",
+      "d": "1930-10-01"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "t": "japan-kyoto-chosen-1937:p0063_1",
+  "skip": "not population counts"
+ },
+ {
+  "t": "japan-kyoto-chosen-1937:p0076_1",
+  "skip": "not population counts"
+ },
+ {
+  "t": "japan-kyoto-chosen-1937:p0077_1",
+  "x": [
+   {
+    "rows": "cells",
+    "b": "survey",
+    "cells": [
+     {
+      "r": 30,
+      "c": 4,
+      "p": "Kyoto",
+      "g": "korean",
+      "d": "1935"
+     }
+    ],
+    "n": "surveyed households only"
+   }
+  ]
+ },
+ {
+  "t": "japan-kyoto-chosen-1937:p0081_1",
+  "skip": "not population counts"
+ },
+ {
+  "t": "japan-kyoto-chosen-1937:p0082_1",
+  "skip": "not population counts"
+ },
+ {
+  "t": "japan-kyoto-chosen-1937:p0082_2",
+  "skip": "not population counts"
+ },
+ {
+  "t": "japan-kyoto-chosen-1937:p0084_1",
+  "skip": "not population counts"
+ },
+ {
+  "t": "japan-kyoto-chosen-1937:p0084_2",
+  "skip": "not population counts"
+ }
+]
