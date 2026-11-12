@@ -122,9 +122,8 @@ in the book folder are therefore the source of truth, not the generated HTML.
   was in a mission that died). Queue a one-table mission for it.
 - Do Who's Who and directory sections as separate missions (`directory/<leaf>.json`), and chronologies the
   same way.
-- **Verification.** No random-sample check pass (the user judged its yield too low). Instead: blind re-reads of
-  every cell an agent changed after a total check flagged it, and for the hardest tables a full independent second
-  transcription with a third reader on every disagreement (see `CLAUDE.md`, step 6).
+- **Verification.** No random-sample check pass (the user judged its yield too low). Blind re-reads only for a
+  table with more than 4 `[?]` cells read by a model other than Opus (user, 2026-11-12; see `CLAUDE.md`).
 - **Audit "judgement calls" in replies.** Agents sometimes fill a half-printed digit from its shape, a
   similar glyph elsewhere, row order or a total, and say so. Under the no-guess rule those cells must be
   blank with the partial reading in the note — blank them, or send the mission back to do it.

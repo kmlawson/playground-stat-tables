@@ -171,3 +171,5 @@ wrong and what to do about it. Add a line when a book teaches something new.
   the readers listed ~90 of them as "less than sure" with an alternative digit in their notes. Merge only the readings not
   named in the notes (`plan/merge_blind.py` reads the keys from `blind/notes_*.md`); the rest stay [?] with the candidates.
   Let the FINISH reader flag doubtful cells already filled, and send those to the blind readers too (both disagreed).
+  (Since 2026-11-12 blind re-reads are only for tables with >4 `[?]` read by a non-Opus model, so Opus-read kanji
+  tables like these are no longer re-read.)

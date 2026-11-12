@@ -53,13 +53,14 @@ Other files to read when the task needs them:
 - **Haiku**: light tables, at most one dense page, no spreads; tell it to keep figures exactly as printed and not to
   mark clearly read figures `[?]`. **Sonnet**: the default — multi-page tables, split/spread tables, directories,
   chronologies, contents, surveys, translations, tags. **Opus**: kanji (stacked-stroke) numerals, very dense small type,
-  blind re-reads of doubtful cells.
+  blind re-reads of doubtful cells (only where the rule under "Checking is light" allows one).
 - **At most 10 agents at a time** (the user may set a lower limit for a book). Pass the model on every Agent call and
   set `"model"` in the BOOKS entry to the models that did the reading.
 - **Checking is light** (user, 2026-10-28 / 11-03): after the missions only mechanical assembly and publishing. No
   random checks, no Opus spot-checks, no second transcriptions of Arabic-numeral tables. A non-reconciling total stays
   as printed with a note. A blind re-read of single cells (the reader sees table/row/column, never the values) only for
-  cells settled by a total rule or marked `[?]`/doubtful, and only when there are many of them (rough scans).
+  a table with **more than 4 `[?]` cells AND read by a model other than Opus** (user, 2026-11-12); tables read by Opus
+  are never blind re-read, whatever their `[?]` count.
 
 ## Workflow for a book
 
