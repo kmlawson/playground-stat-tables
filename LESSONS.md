@@ -166,3 +166,8 @@ wrong and what to do about it. Add a line when a book teaches something new.
 - **Missing decimal points** (worn type prints a gap): readers wrote `33 6`, `336` or `33.6`. Tell them to keep the gap
   (`33 6`) and normalise at assembly when every figure in the table has the same number of decimals (身體檢査統計 1934,
   `plan/normdec.py`).
+- **Blind re-reads of compressed kanji** (京都市 朝鮮出身者調査 1937: school-district table, 2–3 digits squeezed into a
+  ~30 px square, 314 of ~1,600 cells [?] after the first Opus reading): a blind Opus re-read gave readings for ~95%, but
+  the readers listed ~90 of them as "less than sure" with an alternative digit in their notes. Merge only the readings not
+  named in the notes (`plan/merge_blind.py` reads the keys from `blind/notes_*.md`); the rest stay [?] with the candidates.
+  Let the FINISH reader flag doubtful cells already filled, and send those to the blind readers too (both disagreed).
