@@ -1,5 +1,5 @@
 {
- "_doc": "Printed town names the map's gazetteer does not carry, each to the map city id it is (old romanisations, Japanese readings of colonial towns, misprints as printed). Read by build_candidates.build_indexes; a name already in the gazetteer wins. From the 2026-11-07 survey of unplaced labels in city tables, approved by the author; identifications marked uncertain were left out (Tajyuan, Suchow, Changan, Algun and others).",
+ "_doc": "Printed town names the map's gazetteer does not carry, each to the map city id it is (old romanisations, Japanese readings of colonial towns, misprints as printed). Read by build_candidates.build_indexes; a name already in the gazetteer wins. From the 2026-11-07 survey of unplaced labels in city tables, approved by the author; identifications marked uncertain were left out (Tajyuan, Suchow, Changan, Algun and others). 2026-11-12: the county names the 中華民國統計提要 1935 prints for towns in its postal and customs tables (邕寧 Nanning, 陽曲 Taiyuan, 閩侯 Fuzhou, 鄞縣 Ningbo, 永嘉 Wenzhou, 蒼梧 Wuzhou, 萬全 Kalgan, 永吉 Jilin, 江都 Yangzhou, 瓊山 Haikou), the customs stations' old names (牛莊 Newchwang = Yingkou, 膠州 Kiaochow = Qingdao, 愛琿 Aigun = Heihe, 瓊州 Kiungchow = Haikou, 岳州 Yochow, 騰衝 Tengyueh), 石門 (Shijiazhuang 1925–47), variant characters (烟台, 南甯), the misprint 秦王島, and 堺市. Left out: 長安 (Xi'an, but the name is common), 首都 (Nanjing in Chinese tables, Hsinking in Manchukuo's), 武昌 and 漢陽 (printed beside 漢口, all three the map's Wuhan), 潮安 (Chaozhou, not Swatow).",
  "aliases": {
   "Aidzu-Wakamatsu": "aizuwakamatsu",
   "Aizu-Wakamatsu": "aizuwakamatsu",
@@ -156,6 +156,28 @@
   "Kwanchowwan": "zhanjiang",
   "Chenghsien": "zhengzhou",
   "Chingkiang": "zhenjiang",
-  "Tzeliutsing": "zigong"
+  "Tzeliutsing": "zigong",
+  "邕寧": "nanning",
+  "南甯": "nanning",
+  "陽曲": "taiyuan",
+  "石門": "shijiazhuang",
+  "烟台": "yantai",
+  "瓊州": "haikou",
+  "瓊山": "haikou",
+  "岳州": "yueyang",
+  "牛莊": "yingkou",
+  "膠州": "qingdao",
+  "愛琿": "heihe",
+  "龍井村": "longjing",
+  "鄞縣": "ningbo",
+  "永嘉": "wenzhou",
+  "蒼梧": "wuzhou",
+  "騰衝": "tengyue",
+  "閩侯": "fuzhou",
+  "萬全": "kalgan",
+  "永吉": "jilincity",
+  "江都": "yangzhou",
+  "秦王島": "qinhuangdao",
+  "堺市": "sakai"
  }
 }

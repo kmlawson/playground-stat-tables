@@ -101,5 +101,13 @@ no feedback endpoint (user, 2026-10-10). **Switched off** (user, 2026-10-10: "a 
 - The build prints `maplinks: … places on more than one row` for an entry whose ids name a place twice (only the
   first row is drawn). About a hundred entries do this harmlessly (a city printed twice); when the rows are parts
   of a whole (內/鮮/外/計, one block per school kind) the entry needs `split_col` or `blocks`.
+- Hand-set entry options (2026-11-12): `"measures": true` on an across entry whose places each span several
+  columns (`南京 — 件數`, `南京 — 價值`): one column per measure and printed row, the measure as `series`, so no
+  measure is dropped; `"only_ids": true` on a prefecture entry sends only the `row_ids` rows (a list of schools under
+  each prefecture, sent by its 計 rows). Never link a table whose labels are street names (SMC road tables: Amoy Road,
+  Fokien Road …) or a place printed only in halves (東京 市 / 郡 with no whole).
+- Old names and county names for towns go in `build/places/city-aliases.json` (survey the unplaced labels of the new
+  entries first). The gazetteer folds never cut a two-character name to one (成都, 沙市, 貴州 stay whole), and a
+  bilingual label (`江蘇 Kiangsu`) is matched by its characters.
 - `topics/with-maps.html` lists every linked table with area and kind filters; the addresses themselves are in
   `topics/maps/<book>.json`, opened through `topics/map.html?b=<book>&t=<id>` (`build_with_maps`).

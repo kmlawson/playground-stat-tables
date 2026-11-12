@@ -139,31 +139,38 @@ def books_of(site):
     raise SystemExit("BOOKS not found in build_site.py")
 
 
+def keep2(rx, f):
+    """f without the suffix rx names, unless that would leave a single character: 貴州 is Guizhou and 沙市 is Shashi,
+    not 貴 and 沙 (which the index, keeping names of two characters or more, would drop)."""
+    t = rx.sub("", f).strip(" -")
+    return t if len(t) >= 2 else f
+
+
 class Folder:
     def __init__(self, M):
         self.M = M
 
     def base(self, s):
         s = unicodedata.normalize("NFKC", str(s)).translate(OLD)
-        return self.M._fold(s)
+        return self.M._fold(s, keep=2)
 
     def city(self, s):
         f = self.base(s)
         for _ in range(2):
-            f = CITY_SUFFIX.sub("", f).strip(" -")
+            f = keep2(CITY_SUFFIX, f)
         return f
 
     def prov(self, s):
         f = self.base(re.sub(r"^[\[(†‡*＊※]+|[\])†‡*＊※.]+$|\s*\.{2,}.*$", "", str(s).strip()))
         for _ in range(2):
-            f = PROV_SUFFIX.sub("", f).strip(" -")
+            f = keep2(PROV_SUFFIX, f)
         # Szechw'an, Sui-yuan, Szech'uan: the same name with or without apostrophes and hyphens
         return re.sub(r"[\s'’ʻ`\-‐–]+", "", f)
 
     def region(self, s):
         f = self.base(s)
         for _ in range(2):
-            f = REGION_SUFFIX.sub("", f).strip(" -")
+            f = keep2(REGION_SUFFIX, f)
         return f
 
 
@@ -211,6 +218,12 @@ def build_indexes(F, M):
     for d, k in (("North", "Hsing An Peh"), ("East", "Hsing An Tung"), ("West", "Hsing An Si"), ("South", "Hsing An Nan")):
         for n in (f"{d} Hsingan", f"Hsingan {d}", f"Hsingan, {d}", f"Hsingan {d[0]}.", f"{d} Hsing-an", f"Hsing-an {d}"):
             ix["manchukuo"].setdefault(F.prov(n), k)
+    # The sheet carries no characters for its provinces; Manchukuo's own tables print them (吉林省, 興安北省).
+    # The provinces cut out of these after 1935 (牡丹江, 東安, 北安, 通化, 四平) are not on the map and stay unplaced.
+    for k, n in {"Hsing An Peh": "興安北", "Hsing An Tung": "興安東", "Hsing An Si": "興安西", "Hsing An Nan": "興安南",
+                 "Heiho": "黑河", "Lungkiang": "龍江", "Sankiang": "三江", "Pin Kiang": "濱江", "Chien Tao": "間島",
+                 "Feng Tien": "奉天", "An Tung": "安東", "Kirin": "吉林", "Chinchow": "錦州", "Je Hol": "熱河"}.items():
+        ix["manchukuo"].setdefault(F.prov(n), k)
     ix["china"] = index(sub("china"), F.prov, ["en", "local", "ja", "zh"])
     # Older names and spellings in the year books for provinces the map draws (Chihli is Hebei before 1928,
     # Fengtien/Shengking is Liaoning before 1929).
@@ -347,6 +360,10 @@ TAIL = re.compile(r"\s*(?:[(（][^)）]*[)）]|[*＊※])$")
 def clean(label):
     s = re.sub(r"\s*\((?:cont[\'’]?d\.?|continued)\)\s*$", "", str(label), flags=re.I)
     s = LEAD.sub("", s).strip()
+    # A bilingual label, the characters then the English ("江蘇 Kiangsu", "南京 Nanking", 統計提要 1947): the characters
+    m = re.match(r"^([一-鿿々ヶ]+(?:\s*[(（][^)）]*[)）])?)\s+[A-Za-z].*$", s)
+    if m:
+        s = m.group(1)
     s = re.sub(r"(?<=[一-鿿])\s+(?=[一-鿿])", "", s)
     if re.search(r"[一-鿿]", s):     # English labels keep "(Formosa)" and the like
         s = TAIL.sub("", s)

@@ -45,20 +45,26 @@ def view_for(book, cfg):
                 return v
     return "japan"
 SUFFIX = re.compile(r"(府|縣|県|廳|庁|道|都|\s*prefecture|[-\s](?:fu|ken|cho|chō|do|dō))$", re.I)
-VARCH = str.maketrans({"縣": "県", "廣": "広", "靜": "静", "德": "徳", "兒": "児", "繩": "縄", "臺": "台", "灣": "湾",
+VARCH = str.maketrans({"靑": "青", "縣": "県", "廣": "広", "靜": "静", "德": "徳", "兒": "児", "繩": "縄", "臺": "台", "灣": "湾",
                        "關": "関", "廳": "庁", "櫔": "栃", "杤": "栃"})
 
 
 MARKS = re.compile(r"[*＊※†‡△▲×○◎]|\s*[(（]\s*\d+\s*[)）]\s*$|[.。]+$")
 
 
-def _fold(s):
+def _fold(s, keep=0):
+    """keep: never strip a suffix that would leave fewer characters than this. The prefecture matcher leaves it 0
+    (its index is built the same way); the gazetteer matcher of build_candidates passes 2, so that a two-character
+    name ending in a suffix character stays whole (成都, 沙市, 萬縣, 江都 are towns, not 成, 沙, 萬, 江)."""
     s = unicodedata.normalize("NFKC", str(s)).strip()
     s = "".join(c for c in unicodedata.normalize("NFKD", s) if not unicodedata.combining(c))   # Tōkyō -> Tokyo
     s = MARKS.sub("", MARKS.sub("", s)).strip().translate(VARCH).lower()
     s = re.sub(r"^\d{1,2}\s+(?=\D)", "", s)   # a numbered row: "1 北海道" (統計年鑑)
     for _ in range(2):
-        s = SUFFIX.sub("", s).strip()
+        t = SUFFIX.sub("", s).strip()
+        if len(re.sub(r"\s+", "", t)) < keep:
+            break
+        s = t
     return re.sub(r"\s+", "", s)
 
 
@@ -126,6 +132,8 @@ FOOTMARK = re.compile(r"[*＊※†‡]")
 def match_territory(label):
     """A part of the empire from a printed label (marks and a parenthesis after it ignored): naichi, chosen, …"""
     l = re.sub(r"\s*[(（].*$", "", FOOTMARK.sub("", str(label))).strip()
+    if l in ("道府縣", "道府県"):   # beside 樺太, 朝鮮, 臺灣 (建築年鑑 1941, 木材需給): the prefectures, Japan proper
+        return "naichi"
     return next((pid for k, pid in TERR if l.startswith(k)), None)
 
 
@@ -215,7 +223,7 @@ def build_city(book, t, tr, cfg):
     part = t["parts"][cfg.get("part", 0)]
     lab = cfg.get("label_col", 0)
     ids = {int(k): v for k, v in cfg["ids"].items()}
-    if not cfg.get("blocks") and cfg.get("split_col") is None and len(set(ids.values())) < len(ids):
+    if not cfg.get("blocks") and cfg.get("split_col") is None and not cfg.get("measures") and len(set(ids.values())) < len(ids):
         # A place on two rows: only the first would be drawn, as if it were the whole (醫療機關表 sent its 內 row of
         # 內/鮮/外/計; a table of school kinds sent its first kind). Usually it is harmless (a city printed twice,
         # once with its wards), so the build says so rather than refusing: about a hundred entries do it.
@@ -224,7 +232,29 @@ def build_city(book, t, tr, cfg):
               f"({', '.join(twice[:6])}); if the rows are parts of a whole, pick the rows in ids or use blocks or split_col")
     meta = cfg.get("col_meta", {})
     rows, seen, unplaced, total = [], set(), [], None
-    if cfg.get("across"):
+    if cfg.get("across") and cfg.get("measures"):
+        # each place printed over several columns, one per measure ("南京 — 件數", "南京 — 價值 (元)", "南京 — 面積"):
+        # one column per measure and printed row, the measure as its series, so that no measure is dropped
+        lines = cfg["lines"]
+        by = {}
+        for j in sorted(ids):
+            by.setdefault(ids[j], []).append(j)
+        k = max(len(v) for v in by.values())
+        first = next(v for v in by.values() if len(v) == k)
+        mnames = [re.split(r"\s+[—–]\s+", str(part["columns"][j]).strip(), maxsplit=1)[-1] for j in first]
+        cols = [dict({"name": f"{str(part['rows'][li][lab]).strip()} — {m}", "series": m}, **meta.get(str(li), {}))
+                for m in mnames for li in lines]
+        for pid, js in by.items():
+            vals = []
+            for n in range(k):
+                j = js[n] if n < len(js) else None
+                vals += [value(part["rows"][li][j]) if j is not None and j < len(part["rows"][li]) else "" for li in lines]
+            rows.append({"id": pid, "label": re.split(r"\s+[—–]\s+", str(part["columns"][js[0]]).strip())[0], "row": js[0], "v": vals})
+        for j, h in enumerate(part["columns"]):
+            if j != lab and j not in ids and cfg.get("total_col") != j and str(h).strip():
+                if any(isinstance(value(part["rows"][li][j]) if j < len(part["rows"][li]) else "", (int, float)) for li in lines):
+                    unplaced.append(str(h).strip())
+    elif cfg.get("across"):
         lines = cfg["lines"]
         cols = [dict({"name": str(part["rows"][li][lab]).strip()}, **meta.get(str(li), {})) for li in lines]
         for j, h in enumerate(part["columns"]):
@@ -304,6 +334,13 @@ def build_city(book, t, tr, cfg):
         if later:
             notes.insert(0, "Left off: " + ", ".join(dict.fromkeys(later)) + ", provinces created after the map's 1934 boundaries; "
                          "the provinces they were cut from are drawn with their 1934 outlines.")
+    if cfg.get("units") == "china-province":
+        # 統計提要 1947: the nine provinces the Northeast was divided into in 1945; 遼寧, 吉林 and 黑龍江 keep their names
+        # but not their 1930s outlines, which the map draws
+        later = [u for u in unplaced if re.match(r"\s*(安東|遼北|松江|合江|嫩江|興安)\s+[A-Z]", u)]
+        if later:
+            notes.insert(0, "Left off: " + ", ".join(dict.fromkeys(later)) + ", provinces of the 1945 division of the Northeast; "
+                         "遼寧, 吉林 and 黑龍江 are drawn with their larger 1930s outlines.")
     title_en = (tr or {}).get("t")
     p = {
         "v": 1,
@@ -342,13 +379,15 @@ def build_payload(book, t, tr, cfg):
     rows, total, unmatched = [], None, []
     for ri, r in enumerate(part["rows"]):
         label = str(r[lab]).strip()
-        pid = cfg.get("row_ids", {}).get(str(ri)) or match_place(label)
+        # "only_ids": the rows named in row_ids and no others (a list of schools under each prefecture, sent by its
+        # 計 rows only, where every school row also names the prefecture)
+        pid = cfg.get("row_ids", {}).get(str(ri)) or (None if cfg.get("only_ids") else match_place(label))
         vals = [value(r[j]) if j < len(r) else "" for j in use]
         if pid:
             rows.append({"id": pid, "label": label, "row": ri, "v": vals})
         elif cfg.get("total_row") is not None and ri == cfg["total_row"]:
             total = {"label": label, "row": ri, "v": vals}
-        elif label and any(v not in ("", "-") for v in vals):
+        elif label and any(v not in ("", "-") for v in vals) and not cfg.get("only_ids"):
             unmatched.append(label)
     # A table printed over two pages and stored as two records: "also" names the other half(s), whose rows
     # (same part, label column and column positions) join the first's. BOOK_TABLES is set by build_site.
