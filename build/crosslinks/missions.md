@@ -112,3 +112,4 @@ SU1–SU6 | done | china-smc update: 1932 added (agents SU1–SU6, 2026-11-11)
 | SY1–SY6 | done | china-smc-1881 added to china-smc topics (update mode; 128 placements; 1 new family) |
 | SZ1–SZ6 | done | china-smc-1880 added to china-smc topics (update mode; 173 placements; 4 new families); population spec b29 (4 used) |
 - KZ3 (2026-11-11): japan-kenchiku update (1939 added between 1938 and 1940); 78 new tables linked (Sonnet). Done.
+- KZ4 (2026-11-12): japan-kenchiku update (1941 added); 64 new tables linked (Sonnet). Done.
