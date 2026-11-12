@@ -1,0 +1,196 @@
+[
+{
+"t": "japan-shokugyo-fujin-1927:p0051_1",
+"skip": "survey respondents only"
+},
+{
+"t": "japan-shokugyo-fujin-1927:p0081_1",
+"skip": "survey respondents only"
+},
+{
+"t": "japan-shokugyo-fujin-1927:p0101_1",
+"skip": "survey respondents only"
+},
+{
+"t": "japan-shokugyo-fujin-1927:p0122_1",
+"skip": "survey respondents only"
+},
+{
+"t": "japan-yomimono-1934:p0005_1",
+"skip": "blank questionnaire"
+},
+{
+"t": "taiwan-koko-1905:p0009_1",
+"x": [
+{
+"pt": "district",
+"in": "Taiwan",
+"d": "1905-10-01",
+"b": "census",
+"rp": {
+"0": "Taiwan"
+},
+"cols": [
+{
+"c": 3
+}
+]
+}
+]
+},
+{
+"t": "taiwan-koko-1905:p0009_2",
+"x": [
+{
+"pt": "district",
+"in": "Taiwan",
+"d": "1905-10-01",
+"b": "census",
+"rp": {
+"0": "Taiwan"
+},
+"cols": [
+{
+"c": 3
+},
+{
+"c": 2,
+"m": "households"
+}
+]
+}
+]
+},
+{
+"t": "taiwan-koko-1905:p0010_1",
+"x": [
+{
+"pt": "district",
+"in": "Taiwan",
+"d": "1905-10-01",
+"b": "census",
+"rp": {
+"0": "Taiwan"
+},
+"cols": [
+{
+"c": 1,
+"n": "de facto population"
+},
+{
+"c": 2,
+"m": "male",
+"n": "de facto population"
+},
+{
+"c": 3,
+"m": "female",
+"n": "de facto population"
+},
+{
+"c": 10,
+"b": "resident",
+"n": "resident population (常住人口)"
+},
+{
+"c": 11,
+"m": "male",
+"b": "resident",
+"n": "resident population (常住人口)"
+},
+{
+"c": 12,
+"m": "female",
+"b": "resident",
+"n": "resident population (常住人口)"
+}
+]
+}
+]
+},
+{
+"t": "taiwan-koko-1905:p0010_2",
+"x": [
+{
+"rows": "cells",
+"n": "whole island",
+"cells": [
+{
+"r": 0,
+"c": 2,
+"p": "Taiwan",
+"d": "1905-10-01",
+"b": "census"
+},
+{
+"r": 0,
+"c": 3,
+"p": "Taiwan",
+"d": "1905-10-01",
+"b": "census",
+"m": "male"
+},
+{
+"r": 0,
+"c": 4,
+"p": "Taiwan",
+"d": "1905-10-01",
+"b": "census",
+"m": "female"
+},
+{
+"r": 3,
+"c": 2,
+"p": "Taiwan",
+"d": "1905-10-01",
+"b": "resident"
+},
+{
+"r": 3,
+"c": 3,
+"p": "Taiwan",
+"d": "1905-10-01",
+"b": "resident",
+"m": "male"
+},
+{
+"r": 3,
+"c": 4,
+"p": "Taiwan",
+"d": "1905-10-01",
+"b": "resident",
+"m": "female"
+}
+]
+}
+]
+},
+{
+"t": "taiwan-koko-1905:p0010_3",
+"skip": "size classes of settlements"
+},
+{
+"t": "taiwan-koko-1905:p0011_1",
+"x": [
+{
+"part": 0,
+"pt": "district",
+"in": "Taiwan",
+"d": "1905-10-01",
+"b": "census",
+"rp": {
+"0": "Taiwan"
+},
+"cols": [
+{
+"c": 1
+}
+]
+}
+]
+},
+{
+"t": "taiwan-koko-1905:p0012_1",
+"skip": "settlement counts"
+}
+]
