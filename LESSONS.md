@@ -21,6 +21,16 @@ wrong and what to do about it. Add a line when a book teaches something new.
 - **Vertical Japanese with kanji (stacked-stroke) numerals** (NDL 統計書, 行政年報, 朝鮮年鑑): Opus. A Sonnet trial on a dense
   kanji page (1925) got 15 of 39 count cells right and modernised characters; Opus got 84/84. The 一/二/三 grouping
   rule exists for these tables. Tell agents to keep old forms (數, 縣, 淸).
+- **Why kanji figures are hard to read** (user, 2026-11-12: record the challenge). In a vertical column the digits of
+  one number stack top to bottom, so 一, 二 and 三 become one ladder of horizontal strokes: 三一, 二二, 一三 and 一二一
+  all show four strokes and differ only in where the gaps fall, and 一一 / 二 differ only by spacing. Broken or faint
+  type drops a stroke (三→二, 二→一), and a lone 一 is easily taken for, or lost in, a rule line, a dash (—), a range
+  dash or a ditto. Small tables squeeze two digits into one square (三〇, 二七, ligature forms like 卄/卅), 〇 merges
+  with 口/O or a smudge, and 、 is both thousands separator and list separator. Place-value digits (一二〇) and
+  十/百-forms (百二十) can be mixed in one book. What helps: Opus; one figure column per crop with its heading, single
+  cells looked at enlarged; count strokes and compare each gap with the gap between known digits in the same column;
+  write the candidate readings down; the printed total may settle only the 一/二/三 grouping (never other pairs);
+  otherwise `[?]`. Expect most remaining errors and `[?]` in these books to be stroke-ladder cells.
 - **Horizontal Japanese/Chinese with Arabic figures** (統計年鑑, 統計書, 統計提要): Sonnet is reliable (Opus checks
   99.7–100% agreement); Haiku for light single-page tables. Opus only for very dense small type (1935 county tables).
 - **Vertical Chinese with compressed place-value numerals** (二〇、六五五, two digits to a cell; 第一次中國教育年鑑): Sonnet

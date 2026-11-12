@@ -1259,6 +1259,16 @@ BOOKS = [
      "item": "https://dl.ndl.go.jp/pid/1450977",
      "model": "Sonnet 5.5",
      "blank_marking": True},
+    {"slug": "japan-yomimono-1934", "dir": "Joshi_Seinen_Yomimono_1934",
+     "title": "女子青年讀み物に關する調査 1934", "subtitle": "女子青年讀み物に關する調査 附 新刊紹介 (Survey of the Reading of Young Women, with Notices of New Books), 昭和9年",
+     "publisher": "大日本聯合女子青年團 (Greater Japan Federation of Young Women's Associations), 東京, 1934 (昭和9年4月1日發行; not for sale)",
+     "blurb": "A questionnaire survey of what young women read, taken by the national federation of young women's associations (女子青年團) among 2,950 members in four kinds of district: cities (都市地帶), farming villages (農村地帶), factory districts (工場地帶) and fishing villages (漁村地帶), in 32 prefectures. It gives, by district and prefecture, the books the women found most moving, most useful and harmful; how many books they read and what they spent on them; the kinds of book they wanted; the newspapers and magazines they took monthly or occasionally; whether they had time to read; and their schooling and occupations. An appendix recommends new books (moral education, thought and history, household economy, health, literature, magazines) with prices, publishers and short descriptions, and lists the publishers' addresses. Tables are given in Japanese with the old character forms as printed; the kanji numerals are converted to Arabic figures.",
+     "source": "LLM-transcribed from the National Diet Library scan (NDL pid 1137687).",
+     "gaps": "Every table is transcribed, with the questionnaire form, the figure lists set in the text (questions 2 and 5) and the appendix book lists; the prose is not. The book-by-prefecture grids are printed with one column per book title; they are given turned, one row per book. The figures are kanji numerals, read by Claude Opus 5.5 from tight crops and converted to Arabic figures; the questionnaire and the appendix lists were read by Claude Sonnet 5.5. Where stacked strokes could be grouped more than one way (一一 or 二, 三 or 二一) and exactly one grouping made a printed total reconcile, that grouping is used and noted (56 cells). The farming-village 'harmful books' grid was read twice independently and the readings agree on every figure. Printed totals that do not add up are kept as printed and noted in each table. 11 of about 2,070 filled cells could not be read and are marked [?].",
+     "scan": "https://dl.ndl.go.jp/pid/1137687/1/{leaf}",
+     "item": "https://dl.ndl.go.jp/pid/1137687",
+     "model": "Opus 5.5, Sonnet 5.5",
+     "blank_marking": True},
     {"slug": "japan-kenchiku-1938", "dir": "Kenchiku_Nenkan_1938",
      "title": "建築年鑑 1938", "subtitle": "Kenchiku nenkan (Architectural Yearbook), 昭和13年版 (1938 edition), covering 1937",
      "publisher": "建築學會 (Architectural Institute of Japan), 東京, 1938 (昭和13年7月9日發行); sold by 丸善",
@@ -3218,7 +3228,7 @@ body.vw-chart .tbl.hasch .tw{display:none}body.vw-table .tchart{display:none}
 .tc-tip{position:absolute;z-index:5;background:var(--panel);color:var(--ink);border:1px solid var(--line);box-shadow:0 2px 8px rgba(0,0,0,.2);padding:6px 9px;font-size:12.5px;max-width:min(360px,92%);pointer-events:none;line-height:1.45}.tc-tip div{display:flex;gap:5px;align-items:baseline}.tc-tip i{position:relative;top:1px}.tc-sum{margin-top:4px;color:var(--muted)}.tc-sum.warn{color:var(--warn)}
 .tc-note{font-size:12px;color:var(--muted);margin:8px 0 0}.tc-msg{font-size:13px;color:var(--muted)}.tc-multi{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,300px),1fr));gap:14px}.tc-mt{font-size:12.5px;display:flex;gap:6px;align-items:center;margin-bottom:2px}tr.tc-hl td{background:var(--hi)}
 @media (max-width:760px){#sidetog,body.noside #sideopen{display:none}body.noside #side{display:flex}body.noside #main{padding-left:16px}#wrap,body.cmp #wrap{grid-template-columns:minmax(0,1fr);height:auto}#cmp{border-left:0;border-top:2px solid var(--accent);padding:14px 16px}#side,#main{min-width:0;max-width:100vw}#list a{overflow-wrap:anywhere}.tw{max-height:none}header{padding:12px 16px}header h1{font-size:18px}.dirbtn{margin-left:0}#side{border-right:0;border-bottom:1px solid var(--line)}#list{max-height:40vh}#main{padding:14px 16px}.chgrid{gap:8px}.chbtn{padding:11px 13px}.chbtn small{font-size:12px}}
-#tfab{display:none}@media (max-width:760px){#tfab{position:fixed;right:12px;bottom:14px;z-index:30;display:flex;flex-direction:column;gap:4px;opacity:0;pointer-events:none;transition:opacity .2s}#tfab.on{opacity:.92;pointer-events:auto}#tfab button{width:36px;height:32px;border-radius:6px;background:var(--panel);color:var(--accent);border:1px solid var(--line);font:bold 15px/1 system-ui,sans-serif;padding:0;box-shadow:0 1px 3px rgba(0,0,0,.18);cursor:pointer}#tfab button.up{background:var(--accent);color:var(--accent-ink);margin-bottom:2px}}@media print{#tfab{display:none!important}}
+#tfab{display:none}@media (max-width:760px){#tfab{position:fixed;right:12px;bottom:14px;z-index:30;display:flex;flex-direction:column;gap:4px;opacity:0;pointer-events:none;transition:opacity .2s}#tfab.on{opacity:.92;pointer-events:auto}#tfab button{width:44px;height:40px;border-radius:7px;background:var(--panel);color:var(--accent);border:1px solid var(--line);font:bold 19px/1 system-ui,sans-serif;padding:0;box-shadow:0 1px 3px rgba(0,0,0,.18);cursor:pointer}#tfab button.up{background:var(--accent);color:var(--accent-ink);margin-bottom:2px}}@media print{#tfab{display:none!important}}
 </style>
 <link rel="stylesheet" href="../../tags.css"><script src="../../data/tags/vocabulary.js"></script><script src="../../tags.js"></script></head>
 <body>
@@ -3238,18 +3248,26 @@ body.vw-chart .tbl.hasch .tw{display:none}body.vw-table .tchart{display:none}
 </div>
 <nav id="tfab" aria-label="Scroll the page"><button type="button" class="up" data-go="top" title="Back to the top" aria-label="Back to the top">⤒</button><button type="button" data-go="prev" title="Previous table" aria-label="Previous table">↑</button><button type="button" data-go="next" title="Next table" aria-label="Next table">↓</button></nav>
 <script>(function(){const f=document.getElementById("tfab");if(!f)return;const t=()=>f.classList.toggle("on",scrollY>innerHeight*.6);addEventListener("scroll",t,{passive:true});t();
-// Mobile floating buttons: top / previous table / next table. With several tables on the page (a chapter) they scroll
-// between them; with one table they step to the previous/next table in the list, as the arrow keys do.
+// Mobile floating buttons: top / previous table / next table. In a chapter they scroll between its tables (showing
+// any not yet loaded) and at either end open the next chapter at its first table or the previous one at its last; with
+// one table shown they step through the table list as the arrow keys do, into the next/previous chapter at the ends.
 f.addEventListener("click",e=>{const b=e.target.closest("button");if(!b)return;const g=b.dataset.go;
  if(g==="top"){scrollTo({top:0,behavior:"smooth"});return}
- const ss=[...document.querySelectorAll("#main section.tbl")];let c=-1;ss.forEach((x,k)=>{if(x.getBoundingClientRect().top<=8)c=k});
+ const down=g==="next";
+ if(typeof mode!=="undefined"&&mode==="one"&&typeof stepList==="function"){stepList(down,true);return}
+ const all=()=>[...document.querySelectorAll("#main section.tbl")];const ss=all();let c=-1;ss.forEach((x,k)=>{if(x.getBoundingClientRect().top<=8)c=k});
  const atEnd=innerHeight+scrollY>=document.documentElement.scrollHeight-4;
- const k=g==="next"?(atEnd?ss.length:c+1):c-1;if(k<0){scrollTo({top:0,behavior:"smooth"});return}
  // tables above may still be laying out (charts, lazy parts), so re-align on the target a few times
- if(k<ss.length){const x=ss[k];x.scrollIntoView({block:"start"});[150,450,900].forEach(ms=>setTimeout(()=>{if(Math.abs(x.getBoundingClientRect().top)>4)x.scrollIntoView({block:"start"})},ms));return}
- // past the last table of a chapter: open the next chapter at its top
- const sel=document.getElementById("ch"),opts=sel?[...sel.options].map(o=>o.value).filter(Boolean):[],n=opts.indexOf(sel?sel.value:"")+1;
- if(sel&&sel.value&&n<opts.length){location.hash="ch="+encodeURIComponent(opts[n]);setTimeout(()=>{const m=document.getElementById("main");if(m)m.scrollIntoView({block:"start"})},250)}})})();</script>
+ const go=x=>{x.scrollIntoView({block:"start"});[150,450,900].forEach(ms=>setTimeout(()=>{if(Math.abs(x.getBoundingClientRect().top)>4)x.scrollIntoView({block:"start"})},ms))};
+ const k=down?(atEnd?ss.length:c+1):c-1;
+ if(k>=0&&k<ss.length){go(ss[k]);return}
+ // more tables of this chapter not loaded yet: load the next batch and go to its first table
+ const mb=down&&document.querySelector("#chmore button");if(mb){const n=ss.length;mb.click();const x=all()[n];if(x){go(x);return}}
+ // past either end of a chapter: the next chapter at its first table, or the previous chapter at its last
+ const sel=document.getElementById("ch"),opts=sel?[...sel.options].map(o=>o.value).filter(Boolean):[],n=opts.indexOf(sel?sel.value:"")+(down?1:-1);
+ if(sel&&sel.value&&n>=0&&n<opts.length){if(typeof enterAt!=="undefined")enterAt=down?"first":"last";location.hash="ch="+encodeURIComponent(opts[n]);
+  if(down)setTimeout(()=>{const m=document.getElementById("main");if(m)m.scrollIntoView({block:"start"})},250);return}
+ if(!down)scrollTo({top:0,behavior:"smooth"})})})();</script>
 __CHARTJS__<script>
 const TABLE_TAG_DATA=__TAGDATA__;
 const T=__DATA__;
@@ -3405,10 +3423,10 @@ function showChapter(ch){const q=$("#q").value.trim();const ts=filtered();mode="
  let h=`<div class="chhead"><a href="#">All chapters</a> · Chapter</div><h2 style="margin-bottom:6px">${esc(ch)}${chE(ch,"che2")}</h2><div class="chsum">${ts.length} table${ts.length===1?"":"s"}${$("#flag").checked||q?" matching the current filters":""}</div>`+xlChapter(ch);
  let ci=0;const batch=()=>{let s="",c=0;while(ci<ts.length&&(c===0||c+tCells(ts[ci])<=CH_BUDGET)){c+=tCells(ts[ci]);s+=tableHTML(ts[ci],q);ci++}return s};
  const more=()=>ci<ts.length?`<p id="chmore"><button type="button">Show more tables (${ts.length-ci} of ${ts.length} not shown yet)</button></p>`:"";
- h+=(ts.length?`<div id="chbody">${batch()}</div>${more()}`:"<p>No tables match.</p>")+LLMWARN;
+ h+=(ts.length?`<div id="chbody">${enterAt==="last"?(()=>{let s="";while(ci<ts.length)s+=batch();return s})():batch()}</div>${more()}`:"<p>No tables match.</p>")+LLMWARN;
  $("#main").innerHTML=h;mainTop();document.querySelectorAll("#main table").forEach(initSort);chartsGo();
  const wire=()=>{const b=document.querySelector("#chmore button");if(!b)return;b.onclick=()=>{const tmp=document.createElement("div");tmp.innerHTML=batch();const nodes=[...tmp.children];document.getElementById("chbody").append(...nodes);nodes.forEach(n=>n.querySelectorAll("table").forEach(initSort));document.getElementById("chmore").outerHTML=more();chartsGo();mark();wire()}};wire();
- if(enterAt&&ts.length){const t=enterAt==="first"?ts[0]:ts[ts.length-1];cur=t.id;const el=document.getElementById("t-"+t.id);if(el&&enterAt==="last")el.scrollIntoView({block:"start"});
+ if(enterAt&&ts.length){const t=enterAt==="first"?ts[0]:ts[ts.length-1];cur=t.id;const el=document.getElementById("t-"+t.id);if(el&&enterAt==="last"){el.scrollIntoView({block:"start"});[150,450,900].forEach(ms=>setTimeout(()=>{if(Math.abs(el.getBoundingClientRect().top)>4)el.scrollIntoView({block:"start"})},ms))}
   const a=document.querySelector(`#list a[href="#${CSS.escape(t.id)}"]`);if(a)a.scrollIntoView({block:"nearest"})}
  enterAt=null;mark();anSync()}
 let enterAt=null;
@@ -3439,17 +3457,18 @@ $("#list").addEventListener("click",e=>{const c=e.target.closest(".ch");if(!c)re
 document.addEventListener("keydown",e=>{if(!["ArrowDown","ArrowUp","ArrowLeft","ArrowRight"].includes(e.key))return;if(e.altKey||e.ctrlKey||e.metaKey)return;
  const ae=document.activeElement,tag=(ae&&ae.tagName)||"";if(/INPUT|SELECT|TEXTAREA/.test(tag))return;
  const tw=ae&&ae.closest&&ae.closest(".tw");if(tw&&(/Left|Right/.test(e.key)?tw.scrollWidth>tw.clientWidth:tw.scrollHeight>tw.clientHeight))return;
- const links=[...document.querySelectorAll("#list a[href^='#']")];if(!links.length)return;
  document.body.classList.add("kbd");
- let i=links.findIndex(a=>a.classList.contains("on"));const down=e.key==="ArrowDown"||e.key==="ArrowRight";
- const ch=$("#ch").value;
- // at either end of a chapter's list, step into the next/previous chapter
+ if(stepList(e.key==="ArrowDown"||e.key==="ArrowRight"))e.preventDefault()});
+// Previous/next table in the sidebar list; at either end of a chapter's list, step into the next/previous chapter
+// (entering it at its first or last table). Returns true when it moved. fab: called from the mobile buttons.
+function stepList(down,fab){const links=[...document.querySelectorAll("#list a[href^='#']")];if(!links.length)return false;
+ let i=links.findIndex(a=>a.classList.contains("on"));const ch=$("#ch").value;
  if(ch&&i>-1&&((down&&i===links.length-1)||(!down&&i===0))){
   const opts=[...$("#ch").options].map(o=>o.value).filter(Boolean);const k=opts.indexOf(ch)+(down?1:-1);
-  if(k>=0&&k<opts.length){e.preventDefault();enterAt=down?"first":"last";location.hash="ch="+encodeURIComponent(opts[k])}
-  return}
+  if(k>=0&&k<opts.length){enterAt=down?"first":"last";location.hash="ch="+encodeURIComponent(opts[k]);return true}
+  return false}
  i=i<0?(down?0:links.length-1):Math.min(links.length-1,Math.max(0,i+(down?1:-1)));
- e.preventDefault();location.hash=links[i].getAttribute("href").slice(1);links[i].scrollIntoView({block:"nearest"})});
+ location.hash=links[i].getAttribute("href").slice(1);if(!fab)links[i].scrollIntoView({block:"nearest"});return true}
 document.addEventListener("mousemove",()=>document.body.classList.remove("kbd"));
 // Click-to-sort: asc -> desc -> original. Numeric-aware; blanks/dashes last; total rows pinned;
 // sorting happens within blocks delimited by section-heading rows.
