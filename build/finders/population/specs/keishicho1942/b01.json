@@ -1,0 +1,608 @@
+[
+ {
+  "t": "japan-keishicho-1942:p0044_3",
+  "x": [
+   {
+    "rows": "dates",
+    "p": "Tokyo-fu",
+    "b": "resident",
+    "rd": {
+     "0": "1933",
+     "1": "1934",
+     "2": "1935",
+     "3": "1936",
+     "4": "1937",
+     "5": "1938",
+     "6": "1939",
+     "7": "1940",
+     "8": "1941",
+     "9": "1942"
+    },
+    "n": "excludes water-dwellers",
+    "cols": [
+     {
+      "c": 2
+     },
+     {
+      "c": 3,
+      "m": "male"
+     },
+     {
+      "c": 4,
+      "m": "female"
+     },
+     {
+      "c": 1,
+      "m": "households"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "t": "japan-keishicho-1942:p0044_4",
+  "x": [
+   {
+    "rows": "cells",
+    "b": "resident",
+    "n": "foreign residents, repeated",
+    "cells": [
+     {
+      "r": 0,
+      "c": 1,
+      "p": "Tokyo-fu",
+      "d": "1933",
+      "m": "households",
+      "g": "foreign"
+     },
+     {
+      "r": 0,
+      "c": 2,
+      "p": "Tokyo-fu",
+      "d": "1934",
+      "m": "households",
+      "g": "foreign"
+     },
+     {
+      "r": 0,
+      "c": 3,
+      "p": "Tokyo-fu",
+      "d": "1935",
+      "m": "households",
+      "g": "foreign"
+     },
+     {
+      "r": 0,
+      "c": 4,
+      "p": "Tokyo-fu",
+      "d": "1936",
+      "m": "households",
+      "g": "foreign"
+     },
+     {
+      "r": 0,
+      "c": 5,
+      "p": "Tokyo-fu",
+      "d": "1937",
+      "m": "households",
+      "g": "foreign"
+     },
+     {
+      "r": 0,
+      "c": 6,
+      "p": "Tokyo-fu",
+      "d": "1938",
+      "m": "households",
+      "g": "foreign"
+     },
+     {
+      "r": 0,
+      "c": 7,
+      "p": "Tokyo-fu",
+      "d": "1939",
+      "m": "households",
+      "g": "foreign"
+     },
+     {
+      "r": 0,
+      "c": 8,
+      "p": "Tokyo-fu",
+      "d": "1940",
+      "m": "households",
+      "g": "foreign"
+     },
+     {
+      "r": 0,
+      "c": 9,
+      "p": "Tokyo-fu",
+      "d": "1941",
+      "m": "households",
+      "g": "foreign"
+     },
+     {
+      "r": 0,
+      "c": 10,
+      "p": "Tokyo-fu",
+      "d": "1942",
+      "m": "households",
+      "g": "foreign"
+     },
+     {
+      "r": 1,
+      "c": 1,
+      "p": "Tokyo-fu",
+      "d": "1933",
+      "m": "total",
+      "g": "foreign"
+     },
+     {
+      "r": 1,
+      "c": 2,
+      "p": "Tokyo-fu",
+      "d": "1934",
+      "m": "total",
+      "g": "foreign"
+     },
+     {
+      "r": 1,
+      "c": 3,
+      "p": "Tokyo-fu",
+      "d": "1935",
+      "m": "total",
+      "g": "foreign"
+     },
+     {
+      "r": 1,
+      "c": 4,
+      "p": "Tokyo-fu",
+      "d": "1936",
+      "m": "total",
+      "g": "foreign"
+     },
+     {
+      "r": 1,
+      "c": 5,
+      "p": "Tokyo-fu",
+      "d": "1937",
+      "m": "total",
+      "g": "foreign"
+     },
+     {
+      "r": 1,
+      "c": 6,
+      "p": "Tokyo-fu",
+      "d": "1938",
+      "m": "total",
+      "g": "foreign"
+     },
+     {
+      "r": 1,
+      "c": 7,
+      "p": "Tokyo-fu",
+      "d": "1939",
+      "m": "total",
+      "g": "foreign"
+     },
+     {
+      "r": 1,
+      "c": 8,
+      "p": "Tokyo-fu",
+      "d": "1940",
+      "m": "total",
+      "g": "foreign"
+     },
+     {
+      "r": 1,
+      "c": 9,
+      "p": "Tokyo-fu",
+      "d": "1941",
+      "m": "total",
+      "g": "foreign"
+     },
+     {
+      "r": 1,
+      "c": 10,
+      "p": "Tokyo-fu",
+      "d": "1942",
+      "m": "total",
+      "g": "foreign"
+     },
+     {
+      "r": 2,
+      "c": 1,
+      "p": "Tokyo-fu",
+      "d": "1933",
+      "m": "male",
+      "g": "foreign"
+     },
+     {
+      "r": 2,
+      "c": 2,
+      "p": "Tokyo-fu",
+      "d": "1934",
+      "m": "male",
+      "g": "foreign"
+     },
+     {
+      "r": 2,
+      "c": 3,
+      "p": "Tokyo-fu",
+      "d": "1935",
+      "m": "male",
+      "g": "foreign"
+     },
+     {
+      "r": 2,
+      "c": 4,
+      "p": "Tokyo-fu",
+      "d": "1936",
+      "m": "male",
+      "g": "foreign"
+     },
+     {
+      "r": 2,
+      "c": 5,
+      "p": "Tokyo-fu",
+      "d": "1937",
+      "m": "male",
+      "g": "foreign"
+     },
+     {
+      "r": 2,
+      "c": 6,
+      "p": "Tokyo-fu",
+      "d": "1938",
+      "m": "male",
+      "g": "foreign"
+     },
+     {
+      "r": 2,
+      "c": 7,
+      "p": "Tokyo-fu",
+      "d": "1939",
+      "m": "male",
+      "g": "foreign"
+     },
+     {
+      "r": 2,
+      "c": 8,
+      "p": "Tokyo-fu",
+      "d": "1940",
+      "m": "male",
+      "g": "foreign"
+     },
+     {
+      "r": 2,
+      "c": 9,
+      "p": "Tokyo-fu",
+      "d": "1941",
+      "m": "male",
+      "g": "foreign"
+     },
+     {
+      "r": 2,
+      "c": 10,
+      "p": "Tokyo-fu",
+      "d": "1942",
+      "m": "male",
+      "g": "foreign"
+     },
+     {
+      "r": 3,
+      "c": 1,
+      "p": "Tokyo-fu",
+      "d": "1933",
+      "m": "female",
+      "g": "foreign"
+     },
+     {
+      "r": 3,
+      "c": 2,
+      "p": "Tokyo-fu",
+      "d": "1934",
+      "m": "female",
+      "g": "foreign"
+     },
+     {
+      "r": 3,
+      "c": 3,
+      "p": "Tokyo-fu",
+      "d": "1935",
+      "m": "female",
+      "g": "foreign"
+     },
+     {
+      "r": 3,
+      "c": 4,
+      "p": "Tokyo-fu",
+      "d": "1936",
+      "m": "female",
+      "g": "foreign"
+     },
+     {
+      "r": 3,
+      "c": 5,
+      "p": "Tokyo-fu",
+      "d": "1937",
+      "m": "female",
+      "g": "foreign"
+     },
+     {
+      "r": 3,
+      "c": 6,
+      "p": "Tokyo-fu",
+      "d": "1938",
+      "m": "female",
+      "g": "foreign"
+     },
+     {
+      "r": 3,
+      "c": 7,
+      "p": "Tokyo-fu",
+      "d": "1939",
+      "m": "female",
+      "g": "foreign"
+     },
+     {
+      "r": 3,
+      "c": 8,
+      "p": "Tokyo-fu",
+      "d": "1940",
+      "m": "female",
+      "g": "foreign"
+     },
+     {
+      "r": 3,
+      "c": 9,
+      "p": "Tokyo-fu",
+      "d": "1941",
+      "m": "female",
+      "g": "foreign"
+     },
+     {
+      "r": 3,
+      "c": 10,
+      "p": "Tokyo-fu",
+      "d": "1942",
+      "m": "female",
+      "g": "foreign"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "t": "japan-keishicho-1942:p0044_5",
+  "x": [
+   {
+    "rows": "dates",
+    "p": "Tokyo-fu",
+    "b": "resident",
+    "rd": {
+     "0": "1933",
+     "1": "1934",
+     "2": "1935",
+     "3": "1936",
+     "4": "1937",
+     "5": "1938",
+     "6": "1939",
+     "7": "1940",
+     "8": "1941",
+     "9": "1942"
+    },
+    "n": "excludes water-dwellers",
+    "cols": [
+     {
+      "c": 2
+     },
+     {
+      "c": 3,
+      "m": "male"
+     },
+     {
+      "c": 4,
+      "m": "female"
+     },
+     {
+      "c": 1,
+      "m": "households"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "t": "japan-keishicho-1942:p0045_1",
+  "x": [
+   {
+    "pt": "district",
+    "in": "Tokyo-fu",
+    "d": "1942-12-31",
+    "b": "resident",
+    "rp": {
+     "2": "-",
+     "42": "-",
+     "83": "-",
+     "84": "-",
+     "0": "Tokyo-fu",
+     "1": "Tokyo City",
+     "85": "Tokyo-fu counties (gunbu)",
+     "93": "Tokyo-fu islands"
+    },
+    "cols": [
+     {
+      "c": 2
+     },
+     {
+      "c": 3,
+      "m": "male"
+     },
+     {
+      "c": 4,
+      "m": "female"
+     },
+     {
+      "c": 1,
+      "m": "households"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "t": "japan-keishicho-1942:p0046_1",
+  "x": [
+   {
+    "pt": "district",
+    "in": "Tokyo-fu",
+    "d": "1942-12-31",
+    "b": "resident",
+    "rp": {
+     "2": "-",
+     "42": "-",
+     "83": "-",
+     "0": "Tokyo-fu",
+     "1": "Tokyo City",
+     "84": "Tokyo-fu counties (gunbu)",
+     "92": "Tokyo-fu islands"
+    },
+    "cols": [
+     {
+      "c": 3
+     },
+     {
+      "c": 4,
+      "m": "male"
+     },
+     {
+      "c": 5,
+      "m": "female"
+     },
+     {
+      "c": 2,
+      "m": "households"
+     },
+     {
+      "c": 7,
+      "g": "japanese"
+     },
+     {
+      "c": 8,
+      "g": "japanese",
+      "m": "male"
+     },
+     {
+      "c": 9,
+      "g": "japanese",
+      "m": "female"
+     },
+     {
+      "c": 6,
+      "g": "japanese",
+      "m": "households"
+     },
+     {
+      "c": 15,
+      "g": "foreign"
+     },
+     {
+      "c": 16,
+      "g": "foreign",
+      "m": "male"
+     },
+     {
+      "c": 17,
+      "g": "foreign",
+      "m": "female"
+     },
+     {
+      "c": 14,
+      "g": "foreign",
+      "m": "households"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "t": "japan-keishicho-1942:p0048_1",
+  "x": [
+   {
+    "pt": "district",
+    "in": "Tokyo-fu",
+    "b": "resident",
+    "rp": {
+     "2": "-",
+     "42": "-",
+     "83": "-",
+     "84": "-",
+     "0": "Tokyo-fu",
+     "1": "Tokyo City",
+     "85": "Tokyo-fu counties (gunbu)",
+     "93": "Tokyo-fu islands"
+    },
+    "cols": [
+     {
+      "c": 2,
+      "d": "1942-12-31"
+     },
+     {
+      "c": 1,
+      "m": "households",
+      "d": "1942-12-31"
+     },
+     {
+      "c": 4,
+      "d": "1941-12-31"
+     },
+     {
+      "c": 3,
+      "m": "households",
+      "d": "1941-12-31"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "t": "japan-keishicho-1942:p0049_1",
+  "x": [
+   {
+    "pt": "ward",
+    "in": "Tokyo-fu",
+    "d": "1942-12-31",
+    "b": "resident",
+    "rp": {
+     "39": "-",
+     "57": "-",
+     "80": "-",
+     "104": "-",
+     "105": "-",
+     "113": "-",
+     "124": "-",
+     "134": "-",
+     "135": "-",
+     "0": "Tokyo-fu",
+     "1": "Tokyo City"
+    },
+    "cols": [
+     {
+      "c": 2
+     },
+     {
+      "c": 3,
+      "m": "male"
+     },
+     {
+      "c": 4,
+      "m": "female"
+     },
+     {
+      "c": 1,
+      "m": "households"
+     }
+    ]
+   }
+  ]
+ }
+]

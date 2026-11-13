@@ -114,3 +114,4 @@ SU1–SU6 | done | china-smc update: 1932 added (agents SU1–SU6, 2026-11-11)
 - KZ3 (2026-11-11): japan-kenchiku update (1939 added between 1938 and 1940); 78 new tables linked (Sonnet). Done.
 - KZ4 (2026-11-12): japan-kenchiku update (1941 added); 64 new tables linked (Sonnet). Done.
 - SF1 (2026-11-12): japan-shokugyo-fujin series (1926 女給, 1927 タイピスト等) — new series; 7 families, 38 tables (Sonnet). Done.
+- KS1–KS3 (2026-11-13): japan-keishicho series (1935 第45回, 1942 第52回) — new series, 18 topics from chapters; 170 families, 355 tables linked (Sonnet). Done.

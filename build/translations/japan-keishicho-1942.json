@@ -1,0 +1,814 @@
+{
+ "_chapters": {
+  "組織": "Organisation",
+  "官吏": "Officials",
+  "任免": "Appointments and Dismissals",
+  "服務": "Service and Duties",
+  "賞罰": "Rewards and Punishments",
+  "警察共濟組合": "Police Mutual Aid Association",
+  "會計": "Accounts",
+  "戶口": "Households and Population",
+  "保安": "Public Security",
+  "營業": "Licensed Trades",
+  "風俗": "Customs and Entertainment Trades",
+  "交通": "Traffic",
+  "工場及建築竝健康保險": "Factories, Buildings and Health Insurance",
+  "變死傷": "Unnatural Deaths and Injuries",
+  "遺失物及拾得物": "Lost and Found Property",
+  "行政諸事項": "Miscellaneous Administrative Matters",
+  "犯罪": "Crime",
+  "警察犯卽決": "Summary Judgement of Police Offences"
+ },
+ "p0007_1": {
+  "t": "Police Boxes and Residential Police Posts, End of December 1942",
+  "d": "Number of police boxes and residential posts by police station."
+ },
+ "p0008_1": {
+  "t": "Organisation of the Fire Stations, End of December 1942",
+  "d": "Fire stations, their branches and staff by fire station."
+ },
+ "p0009_1": {
+  "t": "Telegraph and Telephone Equipment, End of December 1942",
+  "d": "Telegraph and telephone installations of the Board and its police stations."
+ },
+ "p0009_2": {
+  "t": "Comparison of Staff over the Years",
+  "d": "Police and fire staff by rank, compared across successive years."
+ },
+ "p0010_1": {
+  "t": "Police and Fire Officials by Salary Grade, End of December 1942",
+  "d": "Number of officials by rank and salary grade."
+ },
+ "p0011_1": {
+  "t": "Police Officials Receiving Merit and Diligence Allowances: Numbers and Amounts, End of December 1942",
+  "d": "Recipients and sums of merit and diligence allowances for police officials by rank."
+ },
+ "p0013_1": {
+  "t": "Fire Officials Receiving Merit and Diligence Allowances: Numbers and Amounts, End of December 1942",
+  "d": "Recipients and sums of merit and diligence allowances for fire officials by rank."
+ },
+ "p0014_1": {
+  "t": "Recipients of Special Allowances, End of December 1942",
+  "d": "Number of recipients of special allowances by type of allowance."
+ },
+ "p0014_2": {
+  "t": "Police and Fire Officials by Age, End of December 1942",
+  "d": "Officials by rank and age group."
+ },
+ "p0015_1": {
+  "t": "Police and Fire Officials by Length of Service, End of December 1942",
+  "d": "Officials by rank and years of service."
+ },
+ "p0015_2": {
+  "t": "Appointments, Dismissals, Conferment of Rank and Decorations, 1942",
+  "d": "Appointments, dismissals and conferments of court rank and decorations by category of official during 1942."
+ },
+ "p0016_1": {
+  "t": "Results of the Patrolman and Fireman Recruitment Examinations over the Years",
+  "d": "Applicants, candidates passed and appointed by year."
+ },
+ "p0016_2": {
+  "t": "Results of the Patrolman and Fireman Recruitment Examinations in Detail, 1942",
+  "d": "Applicants, those examined, passed and appointed, in detail, for 1942."
+ },
+ "p0017_1": {
+  "t": "Pensions of Prefecture-Funded Staff, 1942",
+  "d": "Recipients and amounts of pensions for prefecture-funded staff by category."
+ },
+ "p0017_2": {
+  "t": "Lump-Sum Pensions of Prefecture-Funded Staff, 1942",
+  "d": "Recipients and amounts of lump-sum pensions for prefecture-funded staff."
+ },
+ "p0018_1": {
+  "t": "Medical Treatment, Assistance and Condolence Payments, 1942",
+  "d": "Recipients and amounts of treatment fees, assistance payments and funeral condolence money during 1942."
+ },
+ "p0019_1": {
+  "t": "Person-Days of Duty and Absence in Detail, 1942",
+  "d": "Person-days of attendance, leave and absence by category during 1942."
+ },
+ "p0019_2": {
+  "t": "Person-Days of Duty and Absence by Police Station, 1942",
+  "d": "Person-days of attendance and absence by headquarters and police station."
+ },
+ "p0020_1": {
+  "t": "Person-Days of Duty and Absence of Indoor and Special-Duty Supervisory Officers by Police Station, 1942",
+  "d": "Person-days of attendance and absence of indoor and special-duty supervisors by police station."
+ },
+ "p0021_1": {
+  "t": "Person-Days of Duty and Absence of Outdoor Supervisory Officers by Police Station, 1942",
+  "d": "Person-days of attendance and absence of outdoor supervisors by police station."
+ },
+ "p0022_1": {
+  "t": "Person-Days of Duty and Absence of Indoor and Special-Duty Patrolmen by Police Station, 1942",
+  "d": "Person-days of attendance and absence of indoor and special-duty patrolmen by police station."
+ },
+ "p0023_1": {
+  "t": "Person-Days of Duty and Absence of Outdoor Patrolmen by Police Station, 1942",
+  "d": "Person-days of attendance and absence of outdoor patrolmen by police station."
+ },
+ "p0024_1": {
+  "t": "Guard and Security Duties in Detail, 1942",
+  "d": "Person-days of guard and security (alert) duty by type of duty during 1942."
+ },
+ "p0025_1": {
+  "t": "Guard Duties by Headquarters and Police Station, 1942",
+  "d": "Guard duty by type, for headquarters and each police station."
+ },
+ "p0026_1": {
+  "t": "Security (Alert) Duties by Headquarters and Police Station, 1942",
+  "d": "Security duty by type, for headquarters and each police station."
+ },
+ "p0027_1": {
+  "t": "Patrolmen's Injuries on Duty: Treatment Days and Amounts Paid, Fiscal 1942",
+  "d": "Injuries on duty by type with treatment days and sums paid."
+ },
+ "p0027_2": {
+  "t": "Patrolmen's Injuries on Duty by Type over the Years",
+  "d": "Injuries on duty by type, compared across successive years."
+ },
+ "p0027_3": {
+  "t": "Patrolmen's Injuries on Duty by Type, Headquarters and Police Station, 1942",
+  "d": "Injuries on duty by type for headquarters and each police station."
+ },
+ "p0028_1": {
+  "t": "Patrolmen's Length of Service over the Years",
+  "d": "Patrolmen by years of service, compared across successive years."
+ },
+ "p0028_2": {
+  "t": "Firemen's Length of Service over the Years",
+  "d": "Firemen by years of service, compared across successive years."
+ },
+ "p0029_1": {
+  "t": "Length of Service of Dismissed and Retired Patrolmen over the Years",
+  "d": "Patrolmen dismissed or retired, by years of service and year."
+ },
+ "p0029_2": {
+  "t": "Length of Service of Dismissed and Retired Firemen over the Years",
+  "d": "Firemen dismissed or retired, by years of service and year."
+ },
+ "p0029_3": {
+  "t": "Length of Service of Patrolmen Dismissed, Retired, Transferred or Deceased, 1942",
+  "d": "Patrolmen leaving service by reason and years of service during 1942."
+ },
+ "p0030_1": {
+  "t": "Length of Service of Firemen Dismissed, Retired, Transferred or Deceased, 1942",
+  "d": "Firemen leaving service by reason and years of service during 1942."
+ },
+ "p0030_2": {
+  "t": "Rewards over the Years",
+  "d": "Number of rewards and persons rewarded, compared across successive years."
+ },
+ "p0030_3": {
+  "t": "Rewards by Reason, 1942",
+  "d": "Rewards by reason for the commendation during 1942."
+ },
+ "p0031_1": {
+  "t": "Rewards to Patrolmen by Headquarters and Police Station, 1942",
+  "d": "Rewards and amounts in yen for patrolmen by headquarters and police station."
+ },
+ "p0033_1": {
+  "t": "Disciplinary Punishments of Patrolmen over the Years",
+  "d": "Patrolmen punished by type of discipline, compared across successive years."
+ },
+ "p0033_2": {
+  "t": "Disciplinary Punishments of Firemen over the Years",
+  "d": "Firemen punished by type of discipline, compared across successive years."
+ },
+ "p0033_3": {
+  "t": "Disciplinary Punishments of Patrolmen by Headquarters and Police Station, 1942",
+  "d": "Patrolmen punished by type of discipline for headquarters and each police station."
+ },
+ "p0034_1": {
+  "t": "Deaths by Cause, Fiscal 1942",
+  "d": "Deaths of Mutual Aid Association members by cause of death."
+ },
+ "p0035_1": {
+  "t": "Police Mutual Aid Association Receipts and Expenditure by Month, Fiscal 1942",
+  "d": "Monthly receipts and expenditure items of the Association."
+ },
+ "p0035_2": {
+  "t": "Medical Benefits by Disease Group, Fiscal 1942",
+  "d": "Medical benefit cases and amounts by disease group."
+ },
+ "p0036_1": {
+  "t": "Medical Benefits by Official Rank, Fiscal 1942",
+  "d": "Medical benefit cases and amounts by rank of the member."
+ },
+ "p0036_2": {
+  "t": "Death Benefits by Official Rank, Fiscal 1942",
+  "d": "Death benefit cases and amounts by rank."
+ },
+ "p0036_3": {
+  "t": "Medical Costs by Item, Fiscal 1942",
+  "d": "Medical expenses by item of cost."
+ },
+ "p0036_4": {
+  "t": "Death Benefits by Month (Family Members), Fiscal 1942",
+  "d": "Monthly cases and amounts of death benefits for family members."
+ },
+ "p0037_1": {
+  "t": "Disability Benefits by Month, Fiscal 1942",
+  "d": "Monthly cases and amounts of disability benefits."
+ },
+ "p0037_2": {
+  "t": "Disaster Relief Benefits by Month, Fiscal 1942",
+  "d": "Monthly cases and amounts of disaster relief benefits."
+ },
+ "p0037_3": {
+  "t": "Withdrawal Benefits by Month, Fiscal 1942",
+  "d": "Monthly cases and amounts of withdrawal benefits."
+ },
+ "p0037_4": {
+  "t": "Special Benefits by Month, Fiscal 1942",
+  "d": "Monthly cases and amounts of special benefits."
+ },
+ "p0038_1": {
+  "t": "Childbirth Benefits by Month, Fiscal 1942",
+  "d": "Monthly cases and amounts of childbirth benefits."
+ },
+ "p0038_2": {
+  "t": "Education Subsidies by School Year, Fiscal 1942",
+  "d": "Education subsidy recipients and amounts by school year."
+ },
+ "p0038_3": {
+  "t": "Withdrawal Benefit Recipients by Length of Service (Police Officials), Fiscal 1942",
+  "d": "Police officials receiving withdrawal benefits, by years of service, persons and amounts."
+ },
+ "p0039_1": {
+  "t": "Withdrawal Benefit Recipients by Length of Service (Fire Officials), Fiscal 1942",
+  "d": "Fire officials receiving withdrawal benefits, by years of service, persons and amounts in yen."
+ },
+ "p0039_2": {
+  "t": "National Expenditure over the Years (Ordinary Section)",
+  "d": "Settled national expenditure by item, in yen, for successive fiscal years."
+ },
+ "p0039_3": {
+  "t": "National Revenue: Settled Accounts over the Years",
+  "d": "Settled national revenue by item, in yen, for successive fiscal years."
+ },
+ "p0040_1": {
+  "t": "Prefectural Expenditure: Settled Accounts over the Years",
+  "d": "Settled prefectural expenditure by item, in yen, for successive fiscal years."
+ },
+ "p0040_2": {
+  "t": "Prefectural Revenue: Settled Accounts over the Years",
+  "d": "Settled prefectural revenue by item, in yen, for successive fiscal years."
+ },
+ "p0040_3": {
+  "t": "Cost of Sub-Inspectors and Patrolmen over the Years",
+  "d": "Cost of sub-inspectors and patrolmen by item, in yen, for successive years."
+ },
+ "p0041_1": {
+  "t": "National Expenditure: Two-Year Comparison of Settled Accounts, Increase over Fiscal 1941",
+  "d": "Settled national expenditure by item for two fiscal years with the change from 1941, in yen."
+ },
+ "p0042_1": {
+  "t": "National Revenue: Two-Year Comparison of Settled Accounts, Increase over Fiscal 1941",
+  "d": "Settled national revenue by item for two fiscal years with the change from 1941, in yen."
+ },
+ "p0042_2": {
+  "t": "Prefectural Expenditure: Two-Year Comparison of Settled Accounts, Increase over Fiscal 1941",
+  "d": "Settled prefectural expenditure by item for two fiscal years with the change from 1941, in yen."
+ },
+ "p0043_1": {
+  "t": "Prefectural Revenue: Two-Year Comparison of Settled Accounts",
+  "d": "Settled prefectural revenue by item for two fiscal years."
+ },
+ "p0044_1": {
+  "t": "Special Account Expenditure: Two-Year Comparison of Settled Accounts",
+  "d": "Settled special account expenditure by item for two fiscal years."
+ },
+ "p0044_2": {
+  "t": "Special Account Revenue: Two-Year Comparison of Settled Accounts",
+  "d": "Settled special account revenue by item for two fiscal years."
+ },
+ "p0044_3": {
+  "t": "Resident Households and Population over the Years",
+  "d": "Households and population by sex, compared across successive years."
+ },
+ "p0044_4": {
+  "t": "Foreign Residents over the Years (Repeated)",
+  "d": "Foreign residents by nationality, compared across successive years."
+ },
+ "p0044_5": {
+  "t": "Households by Type over the Years",
+  "d": "Households by type, compared across successive years."
+ },
+ "p0045_1": {
+  "t": "Resident Households and Population by Police Station, Part 1, End of December 1942",
+  "d": "Households and population by sex for each police station."
+ },
+ "p0046_1": {
+  "t": "Resident Households and Population by Police Station, Part 2, End of December 1942",
+  "d": "Households and population by sex for each police station."
+ },
+ "p0048_1": {
+  "t": "Population Movement and Houses by Police Station, 1942 and End of Year",
+  "d": "Births, deaths, migration and houses by police station during 1942 and at year end."
+ },
+ "p0049_1": {
+  "t": "Resident Households and Population by City, Ward and Town or Village, End of December 1942",
+  "d": "Households and population by sex for each ward, town and village of the city, county and island districts."
+ },
+ "p0051_1": {
+  "t": "Public Meetings by Police Station, Part 1, 1942",
+  "d": "Meetings by type and attendance for each police station."
+ },
+ "p0052_1": {
+  "t": "Public Meetings by Police Station, Part 2, 1942",
+  "d": "Meetings by type and attendance for each police station."
+ },
+ "p0053_1": {
+  "t": "Public Meetings in Detail and by Month, 1942",
+  "d": "Meetings by type and by month during 1942."
+ },
+ "p0053_2": {
+  "t": "Newspapers, Magazines and News Agencies, 1942 and End of Year",
+  "d": "Publications and news agencies by type, with year-end totals."
+ },
+ "p0053_3": {
+  "t": "Hunting Licences, Fiscal 1942",
+  "d": "Hunting licences issued by type, in sheets, with fees in yen."
+ },
+ "p0054_1": {
+  "t": "Pawnbrokers and Pawn Transactions by Police Station, 1942",
+  "d": "Pawnbrokers and number and value of pledged articles handled, in yen, by police station."
+ },
+ "p0055_1": {
+  "t": "Pawnbroking Transactions by Month, 1942",
+  "d": "Number and value of pledged articles handled by month."
+ },
+ "p0055_2": {
+  "t": "Fee-Charging Employment Agencies and Labour Supply Businesses by Employment Guidance Office, End of 1942",
+  "d": "Agencies and labour supply businesses by employment guidance office."
+ },
+ "p0055_3": {
+  "t": "Scriveners, Employment Agents and Others over the Years",
+  "d": "Number of scriveners, employment agents and related trades across successive years."
+ },
+ "p0055_4": {
+  "t": "Second-Hand Dealers, Inns and Others over the Years",
+  "d": "Number of second-hand dealers, inns and related trades across successive years."
+ },
+ "p0056_1": {
+  "t": "Employment Agents and Persons Handled by Police Station, 1942 and End of Year",
+  "d": "Employment agents and persons dealt with, by police station."
+ },
+ "p0058_1": {
+  "t": "Second-Hand Dealers, Inns and Others by Police Station, End of December 1942",
+  "d": "Second-hand dealers, inns and related trades by police station."
+ },
+ "p0060_1": {
+  "t": "Amusement Establishments over the Years",
+  "d": "Amusement establishments by type, compared across successive years."
+ },
+ "p0060_2": {
+  "t": "Entertainment Performances over the Years",
+  "d": "Entertainment venues and performances by type, compared across successive years."
+ },
+ "p0060_3": {
+  "t": "Show Venues: Performance Days and Audiences by Location, 1942",
+  "d": "Performance days and audiences at show venues by location."
+ },
+ "p0060_4": {
+  "t": "Theatres: Performance Days and Audiences by Location, 1942",
+  "d": "Performance days and audiences at theatres by location."
+ },
+ "p0061_1": {
+  "t": "Permanent Cinemas: Performance Days and Admissions by Police Station, 1942",
+  "d": "Performance days and admissions at permanent cinemas by police station."
+ },
+ "p0062_1": {
+  "t": "Variety Entertainments: Performance Days and Admissions by Police Station, 1942",
+  "d": "Performance days and admissions at variety halls by police station."
+ },
+ "p0063_1": {
+  "t": "Performances at Temporary Show Venues by Police Station, 1942",
+  "d": "Temporary performances by police station."
+ },
+ "p0064_1": {
+  "t": "Assignation Houses, Restaurants, Eating Places and Other Trades and Their Employees by Police Station, End of December 1942",
+  "d": "Establishments and employees by trade for each police station."
+ },
+ "p0066_1": {
+  "t": "Assignation Houses, Geisha Houses and Other Trades over the Years",
+  "d": "Establishments by trade, compared across successive years."
+ },
+ "p0066_2": {
+  "t": "Prohibition, Suspension and Other Penalties on Businesses, 1942",
+  "d": "Penalties imposed on licensed trades by type during 1942."
+ },
+ "p0066_3": {
+  "t": "Licensed Quarters and Introducing Tea Houses over the Years",
+  "d": "Licensed brothels and introducing tea houses, compared across successive years."
+ },
+ "p0066_4": {
+  "t": "Violations of the Minors Smoking Prohibition Law over the Years",
+  "d": "Violations of the law against smoking by minors, compared across successive years."
+ },
+ "p0066_5": {
+  "t": "Violations of the Minors Drinking Prohibition Law over the Years",
+  "d": "Violations of the law against drinking by minors, compared across successive years."
+ },
+ "p0067_1": {
+  "t": "Traffic Accidents over the Years",
+  "d": "Traffic accidents, casualties and causes, compared across successive years."
+ },
+ "p0067_2": {
+  "t": "Traffic Accidents by Month, 1942",
+  "d": "Number of traffic accidents, casualties and related counts for each month of 1942."
+ },
+ "p0068_1": {
+  "t": "Traffic Accidents by Police Station, 1942",
+  "d": "Traffic accidents with deaths and injuries for each police station in 1942."
+ },
+ "p0070_1": {
+  "t": "Traffic Accidents by Time of Day, 1942",
+  "d": "Traffic accidents with deaths and injuries by hour of the day in 1942."
+ },
+ "p0070_2": {
+  "t": "Casualties from Traffic Accidents by Age, 1942",
+  "d": "Persons killed and injured in traffic accidents by age group in 1942."
+ },
+ "p0070_3": {
+  "t": "Penalties on Transport Operators for Traffic Offences, 1942",
+  "d": "Number of disciplinary actions taken against transport operators by type of penalty in 1942."
+ },
+ "p0071_1": {
+  "t": "Transport Operators by City and County Districts, End of December 1942",
+  "d": "Number of transport operators by trade for the city and county districts, as at the end of December 1942."
+ },
+ "p0071_2": {
+  "t": "Vehicles by City and County Districts, End of December 1942",
+  "d": "Vehicles by type for the city and county districts, as at the end of December 1942."
+ },
+ "p0071_3": {
+  "t": "Comparison of Vehicles over the Years",
+  "d": "Number of vehicles by type for successive years."
+ },
+ "p0072_1": {
+  "t": "Buildings, 1942",
+  "d": "Buildings applied for and notified by type of structure and use, with floor area, in 1942."
+ },
+ "p0071_4": {
+  "t": "Building Applications and Notifications by Police Station, 1942",
+  "d": "Number of building applications and notifications handled by each police station in 1942."
+ },
+ "p0073_1": {
+  "t": "Residential Buildings by Police Station, 1942",
+  "d": "Number of residential buildings and building area in square metres for each police station in 1942."
+ },
+ "p0075_1": {
+  "t": "Commercial and Other Buildings by Police Station, 1942",
+  "d": "Number and building area of commercial and other non-residential buildings for each police station in 1942."
+ },
+ "p0077_1": {
+  "t": "Outcome and Days Lost of Injured and Sick Workers, 1942",
+  "d": "Injured and sick workers by outcome of treatment and number of working days lost in 1942."
+ },
+ "p0078_1": {
+  "t": "Comparison of Health Insurance and Staff and Seamen's Health Insurance Benefits over the Years",
+  "d": "Cases, days and cost in yen of health insurance benefits for successive years."
+ },
+ "p0078_2": {
+  "t": "Summary of Health Insurance and Staff and Seamen's Health Insurance Benefits, Fiscal 1942",
+  "d": "Cases, days and cost in yen of benefits by kind of insurance for fiscal 1942."
+ },
+ "p0078_3": {
+  "t": "Comparison of Suicides by Method over the Years",
+  "d": "Suicides by method of death for successive years."
+ },
+ "p0078_4": {
+  "t": "Suicides by Method, 1942",
+  "d": "Suicides by method, with attempts and completed cases, in 1942."
+ },
+ "p0079_1": {
+  "t": "Residence and Family Relationships of Suicides, 1942",
+  "d": "Suicides by place of residence and by relationship to household or family in 1942."
+ },
+ "p0079_2": {
+  "t": "Comparison of Causes of Suicide over the Years",
+  "d": "Suicides by cause for successive years."
+ },
+ "p0079_3": {
+  "t": "Suicides by Cause, 1942",
+  "d": "Suicides by cause, completed and attempted, in 1942."
+ },
+ "p0080_1": {
+  "t": "Completed Suicides by Cause and Age, 1942",
+  "d": "Persons who completed suicide by cause and age group in 1942."
+ },
+ "p0080_2": {
+  "t": "Attempted Suicides by Cause and Age, 1942",
+  "d": "Persons who attempted suicide by cause and age group in 1942."
+ },
+ "p0081_1": {
+  "t": "Suicides by Police Station, 1942",
+  "d": "Completed and attempted suicides for each police station in 1942."
+ },
+ "p0081_2": {
+  "t": "Suicides by Month, 1942",
+  "d": "Completed and attempted suicides for each month of 1942."
+ },
+ "p0082_1": {
+  "t": "Comparison of Causes of Killing and Wounding over the Years",
+  "d": "Persons killed or wounded by others, by cause, for successive years."
+ },
+ "p0082_2": {
+  "t": "Persons Killed or Wounded by Others by Month, 1942",
+  "d": "Persons killed or wounded by others for each month of 1942."
+ },
+ "p0082_3": {
+  "t": "Persons Killed or Wounded by Others by Cause, 1942",
+  "d": "Persons killed or wounded by others by cause in 1942."
+ },
+ "p0083_1": {
+  "t": "Persons Killed or Wounded by Others by Police Station, 1942",
+  "d": "Persons killed or wounded by others for each police station in 1942."
+ },
+ "p0084_1": {
+  "t": "Comparison of Causes of Accidental Death and Injury over the Years",
+  "d": "Accidental deaths and injuries by cause for successive years."
+ },
+ "p0084_2": {
+  "t": "Accidental Deaths and Injuries by Cause, 1942",
+  "d": "Persons killed or injured by accident by cause in 1942."
+ },
+ "p0085_1": {
+  "t": "Accidental Deaths and Injuries by Month, 1942",
+  "d": "Persons killed or injured by accident for each month of 1942."
+ },
+ "p0085_2": {
+  "t": "Accidental Deaths and Injuries by Police Station, 1942",
+  "d": "Persons killed or injured by accident for each police station in 1942."
+ },
+ "p0086_1": {
+  "t": "Comparison of Lost Property over the Years",
+  "d": "Lost property reported and recovered, by number of items and value, for successive years."
+ },
+ "p0087_1": {
+  "t": "Lost and Found Property by Headquarters and City and County Districts, 1942",
+  "d": "Lost and found property items for the Headquarters and each city and county district in 1942."
+ },
+ "p0087_2": {
+  "t": "Disposal of Lost and Found Property",
+  "d": "Lost and found property by manner of disposal, such as return to owner or reversion."
+ },
+ "p0087_3": {
+  "t": "Lost and Found Property by Month, 1942",
+  "d": "Lost and found property items for each month of 1942."
+ },
+ "p0087_4": {
+  "t": "Daily-Life Consultations Handled by Headquarters and Police Station, Part 1, 1942",
+  "d": "Number of daily-life counselling cases by subject for the Headquarters and police stations, first part, 1942."
+ },
+ "p0088_1": {
+  "t": "Daily-Life Consultations Handled by Headquarters and Police Station, Part 2, 1942",
+  "d": "Number of daily-life counselling cases by subject for the Headquarters and police stations, second part, 1942."
+ },
+ "p0089_1": {
+  "t": "Comparison of Daily-Life Consultations over the Years",
+  "d": "Daily-life counselling cases by subject for successive years."
+ },
+ "p0089_2": {
+  "t": "Comparison of Criminal Persons under Surveillance over the Years",
+  "d": "Persons under criminal-police surveillance by category for successive years."
+ },
+ "p0090_1": {
+  "t": "Judicial and Criminal Persons under Surveillance by Police Station, End of December 1942",
+  "d": "Persons under surveillance by category for each police station, as at the end of December 1942."
+ },
+ "p0091_1": {
+  "t": "Comparison of Mentally Ill Persons Not in Confinement by Police Station over the Years",
+  "d": "Mentally ill persons not confined, at year end, for each police station and successive year."
+ },
+ "p0092_1": {
+  "t": "Comparison of Abandoned Children over the Years",
+  "d": "Abandoned children by sex and outcome for successive years."
+ },
+ "p0092_2": {
+  "t": "Abandoned Children by Age, 1942",
+  "d": "Abandoned children by age and sex in 1942."
+ },
+ "p0092_3": {
+  "t": "Abandoned Children by City and County Districts, 1942",
+  "d": "Abandoned children for the city and county districts in 1942."
+ },
+ "p0092_4": {
+  "t": "Runaways Rescued, by Reason for Running Away, 1942",
+  "d": "Runaways taken into protection by reason for leaving home in 1942."
+ },
+ "p0093_1": {
+  "t": "Runaways and Lost Children by Headquarters and Police Station, 1942",
+  "d": "Reported and found runaways and lost children for the Headquarters and each police station in 1942."
+ },
+ "p0094_1": {
+  "t": "Runaways and Lost Children by Age, 1942",
+  "d": "Runaways and lost children by age and sex in 1942."
+ },
+ "p0094_2": {
+  "t": "Comparison of Runaways and Lost Children over the Years",
+  "d": "Runaways and lost children, reported and found, for successive years."
+ },
+ "p0094_3": {
+  "t": "Comparison of Protective Custody Dispositions over the Years",
+  "d": "Persons taken into protective custody by category for successive years."
+ },
+ "p0095_1": {
+  "t": "Protective Custody by Police Station, Part 1 (Relief), 1942",
+  "d": "Persons taken into protective custody for relief, by reason, for each police station in 1942."
+ },
+ "p0097_1": {
+  "t": "Protective Custody by Police Station, Part 2 (Public Security), 1942",
+  "d": "Persons taken into protective custody for public security, by reason, for each police station in 1942."
+ },
+ "p0098_1": {
+  "t": "Juveniles under Protection (Movement), 1942",
+  "d": "Juveniles under protective guidance by intake and discharge during 1942."
+ },
+ "p0098_2": {
+  "t": "Juveniles under Protection (Present Numbers), End of 1942",
+  "d": "Juveniles under protective guidance by category, as at the end of 1942."
+ },
+ "p0099_1": {
+  "t": "Comparison of Number of Crimes over the Years",
+  "d": "Crimes known to the police by offence for successive years."
+ },
+ "p0100_1": {
+  "t": "Crimes Known by Headquarters and Police Station, Part 1, 1942",
+  "d": "Crimes by offence for the Headquarters and each police station, first part, 1942."
+ },
+ "p0102_1": {
+  "t": "Crimes Known by Headquarters and Police Station, Part 2, 1942",
+  "d": "Crimes by offence for the Headquarters and each police station, second part, 1942."
+ },
+ "p0104_1": {
+  "t": "Crimes Known by Headquarters and Police Station, Part 3, 1942 (Laws Other than the Penal Code)",
+  "d": "Offences against laws other than the Penal Code for the Headquarters and each police station in 1942."
+ },
+ "p0106_1": {
+  "t": "Crimes Known by Month, 1942",
+  "d": "Crimes by offence for each month of 1942."
+ },
+ "p0107_1": {
+  "t": "Crimes by Place of Occurrence, 1942",
+  "d": "Crimes by offence and type of place where committed in 1942."
+ },
+ "p0109_1": {
+  "t": "Method and Day or Night of Crime (Theft), 1942",
+  "d": "Thefts by method and by day or night in 1942."
+ },
+ "p0111_1": {
+  "t": "Method and Day or Night of Crime (Robbery), 1942",
+  "d": "Robberies by method and by day or night in 1942."
+ },
+ "p0112_1": {
+  "t": "Method and Day or Night of Crime (Fraud), 1942",
+  "d": "Frauds by method and by day or night in 1942."
+ },
+ "p0114_1": {
+  "t": "Method and Day or Night of Crime (Other Crimes), 1942",
+  "d": "Other crimes by method and by day or night, by police station, in 1942."
+ },
+ "p0116_1": {
+  "t": "Method, Day or Night, Place and Month of Crime, 1942",
+  "d": "Crimes by method, day or night, place of occurrence and month in 1942."
+ },
+ "p0117_1": {
+  "t": "Crimes Cleared by Headquarters and Police Station, Part 1, 1942",
+  "d": "Crimes cleared by arrest or investigation, by offence, for the Headquarters and each police station, first part, 1942."
+ },
+ "p0119_1": {
+  "t": "Crimes Cleared by Headquarters and Police Station, Part 2, 1942",
+  "d": "Crimes cleared by offence for the Headquarters and each police station, second part, 1942."
+ },
+ "p0121_1": {
+  "t": "Crimes Cleared by Headquarters and Police Station, Part 3, 1942",
+  "d": "Crimes cleared by offence for the Headquarters and each police station, third part, 1942."
+ },
+ "p0123_1": {
+  "t": "Crimes Cleared by Headquarters and Police Station, Part 4, 1942",
+  "d": "Crimes cleared by offence, including laws other than the Penal Code, for the Headquarters and each police station, fourth part, 1942."
+ },
+ "p0125_1": {
+  "t": "Crimes Cleared by Headquarters and Police Station, Part 5, 1942",
+  "d": "Crimes cleared by offence for the Headquarters and each police station, fifth part, 1942."
+ },
+ "p0127_1": {
+  "t": "Crimes Cleared by Month, 1942",
+  "d": "Crimes cleared by offence for each month of 1942."
+ },
+ "p0127_2": {
+  "t": "Comparison of Persons Arrested over the Years",
+  "d": "Persons arrested by offence group for successive years."
+ },
+ "p0128_1": {
+  "t": "Persons Arrested by Headquarters and Police Station, Part 1, 1942",
+  "d": "Persons arrested by offence for the Headquarters and each police station, first part, 1942."
+ },
+ "p0130_1": {
+  "t": "Persons Arrested by Headquarters and Police Station, Part 2, 1942",
+  "d": "Persons arrested by offence for the Headquarters and each police station, second part, 1942."
+ },
+ "p0132_1": {
+  "t": "Persons Arrested by Month, 1942",
+  "d": "Persons arrested by offence for each month of 1942."
+ },
+ "p0133_1": {
+  "t": "Persons Arrested by Detailed Offence, 1942",
+  "d": "Persons arrested by detailed offence and sex in 1942."
+ },
+ "p0137_1": {
+  "t": "Persons Arrested by Education and Sex, 1942",
+  "d": "Persons arrested by level of schooling and sex in 1942."
+ },
+ "p0139_1": {
+  "t": "Persons Arrested by Cause of Crime, 1942",
+  "d": "Persons arrested by offence and cause of crime in 1942."
+ },
+ "p0141_1": {
+  "t": "Persons Arrested by Age and Sex, 1942",
+  "d": "Persons arrested by offence, age group and sex in 1942."
+ },
+ "p0143_1": {
+  "t": "Persons Arrested by Occupation, 1942",
+  "d": "Persons arrested by offence and occupation in 1942."
+ },
+ "p0145_1": {
+  "t": "Comparison of Property Stolen and Recovered in Penal Code Offences over the Years",
+  "d": "Value of property damaged in Penal Code offences and value recovered for successive years."
+ },
+ "p0146_1": {
+  "t": "Property Damaged in Penal Code Offences by Police Station (by Offence), 1942",
+  "d": "Value of property damaged by offence for each police station in 1942."
+ },
+ "p0148_1": {
+  "t": "Property Damaged in Penal Code Offences by Police Station (by Type), 1942",
+  "d": "Value of property damaged by type of property for each police station in 1942."
+ },
+ "p0150_1": {
+  "t": "Property Damaged in Penal Code Offences by Month (by Offence and Type), 1942",
+  "d": "Value of property damaged by offence and type of property for each month of 1942."
+ },
+ "p0151_1": {
+  "t": "Property Damaged and Recovered in Penal Code Offences by Headquarters and Police Station (by Offence), 1942",
+  "d": "Value in yen of property damaged and recovered by offence for the Headquarters and each police station in 1942."
+ },
+ "p0153_1": {
+  "t": "Property Damaged and Recovered in Penal Code Offences by Headquarters and Police Station (by Type), 1942",
+  "d": "Value of property damaged and recovered by type of property for the Headquarters and each police station in 1942."
+ },
+ "p0155_1": {
+  "t": "Property Damaged and Recovered in Penal Code Offences by Month (by Offence and Type), 1942",
+  "d": "Value of property damaged and recovered by offence and type for each month of 1942."
+ },
+ "p0156_1": {
+  "t": "Crime Victims by Occupation, 1942",
+  "d": "Victims of crime by offence and occupation in 1942."
+ },
+ "p0157_1": {
+  "t": "Persons Released under Summary Disposition for Minor Offences, 1942",
+  "d": "Persons released without referral for minor offences, by offence, in 1942."
+ },
+ "p0157_2": {
+  "t": "Persons Released for Minor Offences by Month, 1942",
+  "d": "Persons released without referral for minor offences for each month of 1942."
+ },
+ "p0157_3": {
+  "t": "Persons Released for Minor Offences by Age, 1942",
+  "d": "Persons released without referral for minor offences by age group in 1942."
+ },
+ "p0157_4": {
+  "t": "Persons Released for Minor Offences by Level of Education, 1942",
+  "d": "Persons released without referral for minor offences by level of schooling in 1942."
+ },
+ "p0158_1": {
+  "t": "Comparison of Summary Judgements of Police Offences over the Years",
+  "d": "Persons given summary judgement for police offences, by penalty, for successive years."
+ },
+ "p0158_2": {
+  "t": "Persons Given Summary Judgement for Police Offences, Detailed by Offence, 1942",
+  "d": "Persons given summary judgement by detailed police offence and penalty in 1942."
+ },
+ "p0164_1": {
+  "t": "Summary Judgement of Police Offences: Detention and Minor Fines by Police Station, 1942",
+  "d": "Persons sentenced to detention or minor fine for each police station in 1942."
+ },
+ "p0165_1": {
+  "t": "Execution of Detention by Police Station, 1942",
+  "d": "Detention sentences executed for each police station in 1942, with amounts in yen."
+ },
+ "p0166_1": {
+  "t": "Execution of Minor Fines by Police Station, 1942",
+  "d": "Minor fines executed for each police station in 1942, with amounts in yen."
+ },
+ "p0168_1": {
+  "t": "Persons Entering and Leaving Lock-ups by Police Station (Custody, Detention, Workhouse Confinement), 1942",
+  "d": "Persons admitted and released from lock-ups, by kind of confinement, for each police station in 1942."
+ },
+ "p0170_1": {
+  "t": "Persons Entering and Leaving Lock-ups by Police Station (Summons, Remand), 1942",
+  "d": "Persons admitted and released under summons and remand for each police station in 1942."
+ }
+}
