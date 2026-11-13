@@ -1,0 +1,384 @@
+[
+ {
+  "t": "japan-keishicho-1925:p0045_2",
+  "x": [
+   {
+    "rows": "dates",
+    "p": "Tokyo-fu",
+    "b": "resident",
+    "rd": {
+     "1": "1922",
+     "2": "1923",
+     "3": "1924",
+     "4": "1925"
+    },
+    "cols": [
+     {
+      "c": 1,
+      "m": "households"
+     },
+     {
+      "c": 2
+     },
+     {
+      "c": 3,
+      "m": "male"
+     },
+     {
+      "c": 4,
+      "m": "female"
+     }
+    ]
+   },
+   {
+    "part": 1,
+    "rows": "cells",
+    "b": "resident",
+    "p": "Tokyo-fu",
+    "n": "foreign residents",
+    "cells": [
+     {
+      "r": 0,
+      "c": 1,
+      "m": "households",
+      "d": "1921",
+      "g": "foreign"
+     },
+     {
+      "r": 0,
+      "c": 2,
+      "m": "households",
+      "d": "1922",
+      "g": "foreign"
+     },
+     {
+      "r": 0,
+      "c": 3,
+      "m": "households",
+      "d": "1923",
+      "g": "foreign"
+     },
+     {
+      "r": 0,
+      "c": 4,
+      "m": "households",
+      "d": "1924",
+      "g": "foreign"
+     },
+     {
+      "r": 0,
+      "c": 5,
+      "m": "households",
+      "d": "1925",
+      "g": "foreign"
+     },
+     {
+      "r": 1,
+      "c": 1,
+      "m": "total",
+      "d": "1921",
+      "g": "foreign"
+     },
+     {
+      "r": 1,
+      "c": 2,
+      "m": "total",
+      "d": "1922",
+      "g": "foreign"
+     },
+     {
+      "r": 1,
+      "c": 3,
+      "m": "total",
+      "d": "1923",
+      "g": "foreign"
+     },
+     {
+      "r": 1,
+      "c": 4,
+      "m": "total",
+      "d": "1924",
+      "g": "foreign"
+     },
+     {
+      "r": 1,
+      "c": 5,
+      "m": "total",
+      "d": "1925",
+      "g": "foreign"
+     },
+     {
+      "r": 3,
+      "c": 1,
+      "m": "female",
+      "d": "1921",
+      "g": "foreign"
+     },
+     {
+      "r": 3,
+      "c": 2,
+      "m": "female",
+      "d": "1922",
+      "g": "foreign"
+     },
+     {
+      "r": 3,
+      "c": 3,
+      "m": "female",
+      "d": "1923",
+      "g": "foreign"
+     },
+     {
+      "r": 3,
+      "c": 4,
+      "m": "female",
+      "d": "1924",
+      "g": "foreign"
+     },
+     {
+      "r": 3,
+      "c": 5,
+      "m": "female",
+      "d": "1925",
+      "g": "foreign"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "t": "japan-keishicho-1925:p0045_3",
+  "x": [
+   {
+    "pt": "other",
+    "in": "Tokyo-fu",
+    "d": "1925-12-31",
+    "b": "resident",
+    "n": "police station area",
+    "rp": {
+     "0": "Tokyo-fu",
+     "1": "Tokyo City",
+     "42": "Tokyo-fu counties (gunbu)"
+    },
+    "cols": [
+     {
+      "c": 1,
+      "m": "households"
+     },
+     {
+      "c": 2
+     },
+     {
+      "c": 3,
+      "m": "male"
+     },
+     {
+      "c": 4,
+      "m": "female"
+     },
+     {
+      "c": 8,
+      "m": "households",
+      "g": "foreign"
+     },
+     {
+      "c": 9,
+      "g": "foreign"
+     },
+     {
+      "c": 10,
+      "m": "male",
+      "g": "foreign"
+     },
+     {
+      "c": 11,
+      "m": "female",
+      "g": "foreign"
+     }
+    ]
+   },
+   {
+    "part": 1,
+    "pt": "district",
+    "in": "Tokyo-fu",
+    "d": "1925-12-31",
+    "b": "resident",
+    "rp": {
+     "0": "-"
+    },
+    "cols": [
+     {
+      "c": 1,
+      "m": "households"
+     },
+     {
+      "c": 2
+     },
+     {
+      "c": 3,
+      "m": "male"
+     },
+     {
+      "c": 4,
+      "m": "female"
+     },
+     {
+      "c": 8,
+      "m": "households",
+      "g": "foreign"
+     },
+     {
+      "c": 9,
+      "g": "foreign"
+     },
+     {
+      "c": 10,
+      "m": "male",
+      "g": "foreign"
+     },
+     {
+      "c": 11,
+      "m": "female",
+      "g": "foreign"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "t": "japan-keishicho-1925:p0047_1",
+  "x": [
+   {
+    "rows": "dates",
+    "p": "Tokyo-fu",
+    "b": "resident",
+    "rd": {
+     "1": "1922",
+     "2": "1923",
+     "3": "1924",
+     "4": "1925"
+    },
+    "n": "by social status table",
+    "cols": [
+     {
+      "c": 1,
+      "m": "households"
+     },
+     {
+      "c": 2
+     },
+     {
+      "c": 3,
+      "m": "male"
+     },
+     {
+      "c": 4,
+      "m": "female"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "t": "japan-keishicho-1925:p0178_3",
+  "x": [
+   {
+    "rows": "cells",
+    "d": "1925-12-31",
+    "b": "resident",
+    "cells": [
+     {
+      "r": 0,
+      "c": 1,
+      "m": "households",
+      "p": "Tokyo-fu islands"
+     },
+     {
+      "r": 0,
+      "c": 2,
+      "m": "households",
+      "p": "Oshima"
+     },
+     {
+      "r": 0,
+      "c": 3,
+      "m": "households",
+      "p": "Niijima"
+     },
+     {
+      "r": 0,
+      "c": 4,
+      "m": "households",
+      "p": "Hachijojima"
+     },
+     {
+      "r": 0,
+      "c": 5,
+      "m": "households",
+      "p": "Ogasawara"
+     },
+     {
+      "r": 1,
+      "c": 1,
+      "m": "total",
+      "p": "Tokyo-fu islands"
+     },
+     {
+      "r": 1,
+      "c": 2,
+      "m": "total",
+      "p": "Oshima"
+     },
+     {
+      "r": 1,
+      "c": 3,
+      "m": "total",
+      "p": "Niijima"
+     },
+     {
+      "r": 1,
+      "c": 4,
+      "m": "total",
+      "p": "Hachijojima"
+     },
+     {
+      "r": 1,
+      "c": 5,
+      "m": "total",
+      "p": "Ogasawara"
+     },
+     {
+      "r": 3,
+      "c": 1,
+      "m": "female",
+      "p": "Tokyo-fu islands"
+     },
+     {
+      "r": 3,
+      "c": 2,
+      "m": "female",
+      "p": "Oshima"
+     },
+     {
+      "r": 3,
+      "c": 3,
+      "m": "female",
+      "p": "Niijima"
+     },
+     {
+      "r": 3,
+      "c": 4,
+      "m": "female",
+      "p": "Hachijojima"
+     },
+     {
+      "r": 3,
+      "c": 5,
+      "m": "female",
+      "p": "Ogasawara"
+     }
+    ]
+   }
+  ]
+ }
+]
