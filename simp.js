@@ -42,19 +42,26 @@ function start(){OBS.observe(document.documentElement,{childList:true,subtree:tr
 function stop(){OBS.disconnect();unwalk();if(document.__ot&&document.title===TITLE)document.title=document.__ot;TITLE=null}
 function set(on){ON=on;try{if(on)localStorage.setItem(KEY,"1");else localStorage.removeItem(KEY)}catch(e){}
  if(on)start();else stop();
- document.querySelectorAll(".simpbtn").forEach(b=>{b.setAttribute("aria-pressed",on?"true":"false");b.classList.toggle("on",on)})}
+ document.querySelectorAll(".simpbtn").forEach(paint)}
+const TIP_OFF="Show simplified characters: Chinese books in simplified Chinese (简体字), Japanese books in the kanji forms used today (新字体), e.g. 國→国, 臺灣→台湾. Display only: data, downloads and search keep the characters as printed.";
+const TIP_ON="Showing simplified characters (国). Click to go back to the characters as printed (國).";
+function paint(b){b.setAttribute("aria-pressed",ON?"true":"false");b.classList.toggle("on",ON);
+ b.querySelector(".ch").textContent=ON?"国":"國";b.querySelector(".tip").textContent=ON?TIP_ON:TIP_OFF;
+ b.setAttribute("aria-label",ON?TIP_ON:TIP_OFF)}
 if(ON)start();
 // the header button: next to the light/dark button where there is one, else at the end of the page's top navigation
-const CSS=".simpbtn{cursor:pointer;font:inherit;font-size:13.5px;font-weight:600;line-height:1.2;padding:5px 11px;border-radius:6px;border:1px solid currentColor;background:transparent;color:inherit;white-space:nowrap;vertical-align:middle;margin:0 4px}"+
- ".simpbtn:hover{opacity:.85}.simpbtn.on{background:#fff;color:#1f4a2c;border-color:#1f4a2c}.simpbtn .sh{display:none}"+
- "@media (max-width:640px){.simpbtn .lg{display:none}.simpbtn .sh{display:inline}}.simpbtn.float{position:fixed;top:8px;right:10px;z-index:30;background:var(--panel,#fff);color:var(--accent,#1f4a2c)}@media print{.simpbtn{display:none}}";
+const CSS=".simpbtn{position:relative;cursor:pointer;font:inherit;font-size:18px;font-weight:600;line-height:1.25;padding:3px 8px;border-radius:6px;border:1px solid currentColor;background:transparent;color:inherit;vertical-align:middle;margin:0 4px}"+
+ ".simpbtn.on{background:#fff;color:#1f4a2c;border-color:#1f4a2c}"+
+ ".simpbtn .tip{display:none;position:absolute;top:calc(100% + 7px);left:0;z-index:1000;width:max-content;max-width:min(320px,80vw);padding:8px 10px;border-radius:6px;background:#1b211d;color:#f2f5f3;font:13px/1.45 system-ui,-apple-system,sans-serif;font-weight:normal;text-align:left;white-space:normal;box-shadow:0 3px 12px rgba(0,0,0,.3);pointer-events:none}"+
+ ".simpbtn.tipr .tip{left:auto;right:0}@media (hover:hover){.simpbtn:hover .tip{display:block}}.simpbtn:focus-visible .tip{display:block}"+
+ ".simpbtn.float{position:fixed;top:8px;right:10px;z-index:30;background:var(--panel,#fff);color:var(--accent,#1f4a2c)}@media print{.simpbtn{display:none}}";
 function button(){
  if(document.querySelector(".simpbtn"))return;
  const st=document.createElement("style");st.textContent=CSS;document.head.appendChild(st);
  const b=document.createElement("button");b.type="button";b.className="simpbtn";b.setAttribute("data-nosimp","");
- b.innerHTML='<span class="lg">简 Simplified</span><span class="sh">简</span>';
- b.title="Show characters in today's simplified forms: Chinese books in simplified characters (简体字), Japanese books in the new kanji forms (新字体). Display only: data, downloads and search keep the printed forms.";
- b.setAttribute("aria-pressed",ON?"true":"false");b.classList.toggle("on",ON);
+ b.innerHTML='<span class="ch"></span><span class="tip" role="tooltip"></span>';
+ b.addEventListener("mouseenter",()=>b.classList.toggle("tipr",b.getBoundingClientRect().left>innerWidth/2));
+ paint(b);
  b.addEventListener("click",()=>set(!ON));
  const tg=document.getElementById("toggle"),nav=document.querySelector(".topnav"),hn=document.querySelector("header nav, header .breadcrumbs"),hd=document.querySelector("header");
  if(tg&&tg.parentNode)tg.parentNode.insertBefore(b,tg);
