@@ -135,7 +135,8 @@ online), `item`, `model`, `blank_marking: True`; optional `group`. Home-page sec
   Commit trailer as given by the session; never the user's identity.
 - `git merge-base --is-ancestor origin/main HEAD`, then `git push origin refs/heads/<branch>:refs/heads/main` (never a
   bare `git push`); watch the Pages deploy with `gh run watch`.
-- Full Search (Pagefind, not in git): `uv run --with "pagefind[extended]" build/build_search.py` once after a batch of
-  books, then pack `../search-index-upload.tar.gz` for the user.
+- Full Search (Pagefind, not in git): `bash build/search_gently.sh` once after a batch of books — never the bare
+  `build_search.py` on the user's machine (a full-speed run made it unusable, 2026-11-13). It runs at background QoS,
+  2 threads, Spotlight-free folder, memory watchdog, and packs `../search-index-upload.tar.gz` for the user.
 - Heavy local jobs: `nice -n 15`, thread limits = cores − 3, one at a time.
 - Shell: `cp`/`mv` are interactive aliases (`\cp -f`, `\mv -f`), `noclobber` is on (`>|`, `>>|`), unmatched globs abort.

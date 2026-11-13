@@ -22,7 +22,9 @@ import build_site as bs
 # Leave the machine usable while indexing (user, 2026-10-12): run at low priority and keep a few cores free.
 # The Pagefind service inherits both the niceness and the thread limit.
 os.nice(15)
-os.environ.setdefault("RAYON_NUM_THREADS", str(max(1, (os.cpu_count() or 4) - 3)))
+os.environ.setdefault("RAYON_NUM_THREADS", os.environ.get("SEARCH_THREADS") or str(max(1, (os.cpu_count() or 4) - 3)))
+# SEARCH_OUT: folder to write pagefind/ and pagefind-titles/ into (build/search_gently.sh uses a *.noindex folder,
+# which Spotlight skips, and links the site's pagefind/ and pagefind-titles/ to it)
 import inspect, textwrap
 import pagefind.service as _svc
 
@@ -152,25 +154,35 @@ def records():
 
 
 async def main():
-    recs = list(records())
+    # records are streamed (read again for the second index) rather than held in memory together
     for name, col in (("pagefind", 2), ("pagefind-titles", 3)):
-        out = os.path.join(ROOT, name)
+        out = os.path.join(os.environ.get("SEARCH_OUT") or ROOT, name)
+        n_recs = 0
         for _ in range(5):  # macOS can briefly report a directory as not empty while removing many files
             if not os.path.isdir(out):
                 break
             shutil.rmtree(out, ignore_errors=True)
         async with PagefindIndex(config=IndexConfig(force_language="en", output_path=out)) as idx:
-            todo = [r for r in recs if r[col]]
-            for k in range(0, len(todo), 500):  # one request at a time is latency-bound; send them in modest batches
+            async def send(batch):  # one request at a time is latency-bound; send them in modest batches
                 await asyncio.gather(*(idx.add_custom_record(url=r[0], meta=r[1] if col == 2 else title_meta(r[1]), content=r[col], language="en",
-                                                             filters={f: v for f, v in r[4].items() if v}) for r in todo[k:k + 500]))
+                                                             filters={f: v for f, v in r[4].items() if v}) for r in batch))
+            batch = []
+            for r in records():
+                n_recs += 1
+                if r[col]:
+                    batch.append(r)
+                if len(batch) == 500:
+                    await send(batch)
+                    batch = []
+            if batch:
+                await send(batch)
         # Pagefind's own UI bundles are not used by search.html
         for f in os.listdir(out):
             if f.startswith(("pagefind-ui", "pagefind-modular-ui", "pagefind-component-ui")):
                 os.remove(os.path.join(out, f))
         n = sum(len(fs) for _, _, fs in os.walk(out))
         size = sum(os.path.getsize(os.path.join(d, x)) for d, _, fs in os.walk(out) for x in fs)
-        print(f"{name}: {len(recs):,} records, {n:,} files, {size / 1e6:.1f} MB")
+        print(f"{name}: {n_recs:,} records, {n:,} files, {size / 1e6:.1f} MB")
 
 
 if __name__ == "__main__":

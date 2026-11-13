@@ -7,7 +7,7 @@ Chinese simplified table there; elsewhere it uses the Japanese new-forms table, 
 import os, re, json, glob
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-SKIP_DIRS = {"pagefind", "pagefind-titles", "build", "docs", "node_modules", ".git", "__pycache__", "downloads", "data"}
+SKIP_DIRS = {"pagefind", "pagefind-titles", "_search.noindex", "build", "docs", "node_modules", ".git", "__pycache__", "downloads", "data"}
 ZH = re.compile(r"(?:^|/)(?:book|inspect/books)/china-")
 
 
