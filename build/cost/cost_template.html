@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Claude Costs per Book</title>
+<style>
+:root { --bg: #fbfaf7; --ink: #1f2328; --mute: #636c76; --rule: #d8d4cc; --card: #ffffff;
+  --link: #1f5b8f; --good: #2d6a3e; --fair: #8a6d1a; --check: #9b3b2e; --chip: #e8eef5; --bar: #9db8d3; --hi: #f3efe3; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg: #16181b; --ink: #e6e3dd;
+  --mute: #9aa1a9; --rule: #33373c; --card: #1d2024; --link: #8fb4d4; --good: #7cc48f; --fair: #d9b95c;
+  --check: #e3907f; --chip: #263445; --bar: #3d5a78; --hi: #23262a; } }
+:root[data-theme="dark"] { --bg: #16181b; --ink: #e6e3dd; --mute: #9aa1a9; --rule: #33373c; --card: #1d2024;
+  --link: #8fb4d4; --good: #7cc48f; --fair: #d9b95c; --check: #e3907f; --chip: #263445; --bar: #3d5a78; --hi: #23262a; }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink);
+  font: 15px/1.5 -apple-system, "Segoe UI", "Hiragino Sans", "Noto Sans JP", sans-serif; }
+header, main { max-width: 1240px; margin: 0 auto; padding: 0 16px; }
+header { padding-top: 28px; }
+h1 { font-size: 24px; margin: 0 0 4px; }
+h2 { font-size: 19px; margin: 36px 0 8px; border-bottom: 1px solid var(--rule); padding-bottom: 4px; }
+a { color: var(--link); }
+.lede, .mute { color: var(--mute); }
+.lede { max-width: 860px; }
+nav.top { font-size: 14px; margin-bottom: 10px; }
+.tiles { display: flex; flex-wrap: wrap; gap: 10px; margin: 16px 0 8px; }
+.tile { background: var(--card); border: 1px solid var(--rule); border-radius: 6px; padding: 8px 14px; min-width: 120px; }
+.tile b { display: block; font-size: 22px; font-variant-numeric: tabular-nums; }
+.tile span { color: var(--mute); font-size: 13px; }
+.filters { position: sticky; top: 0; z-index: 2; background: var(--bg); padding: 10px 0; border-bottom: 1px solid var(--rule);
+  display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: center; font-size: 14px; }
+.filters label { color: var(--mute); display: inline-flex; gap: 6px; align-items: center; }
+.filters input, .filters select, .filters button { font: inherit; font-size: 14px; color: var(--ink); background: var(--card);
+  border: 1px solid var(--rule); border-radius: 4px; padding: 3px 6px; }
+.filters input[type=search] { width: min(260px, 80vw); }
+.filters input[type=date] { width: 140px; }
+.filters button { cursor: pointer; }
+.wrap { overflow-x: auto; margin-top: 8px; }
+table { border-collapse: collapse; width: 100%; font-size: 13.5px; }
+th, td { padding: 5px 8px; border-top: 1px solid var(--rule); vertical-align: top; text-align: left; }
+thead th { position: sticky; top: 0; background: var(--bg); color: var(--mute); font-weight: 600; white-space: nowrap;
+  cursor: pointer; user-select: none; border-bottom: 1px solid var(--rule); }
+thead th:hover { color: var(--ink); }
+thead th[aria-sort] { color: var(--ink); }
+thead th[aria-sort="ascending"]::after { content: " ▲"; font-size: 10px; }
+thead th[aria-sort="descending"]::after { content: " ▼"; font-size: 10px; }
+.num { text-align: right; white-space: nowrap; font-variant-numeric: tabular-nums; }
+td.book { min-width: 220px; max-width: 380px; }
+td.book .slug { color: var(--mute); font-size: 12px; display: block; }
+td.date { white-space: nowrap; font-variant-numeric: tabular-nums; }
+tbody tr:hover { background: var(--hi); }
+tr.more td { border-top: none; padding-top: 0; color: var(--mute); font-size: 13px; }
+tr.more dl { display: grid; grid-template-columns: max-content 1fr; gap: 2px 12px; margin: 0 0 6px 0; }
+tr.more dt { color: var(--mute); }
+tr.more dd { margin: 0; color: var(--ink); }
+button.x { border: none; background: none; color: var(--link); cursor: pointer; font: inherit; padding: 0 4px 0 0; }
+.bar { display: inline-block; height: 8px; background: var(--bar); border-radius: 2px; vertical-align: middle; margin-left: 6px; }
+.chip { display: inline-block; font-size: 11.5px; border-radius: 9px; padding: 0 7px; background: var(--chip); white-space: nowrap; }
+.chip.full { color: var(--good); } .chip.partial { color: var(--fair); } .chip.before { color: var(--check); }
+.chip.unpublished, .chip.other { color: var(--mute); }
+tfoot td { font-weight: 600; border-top: 2px solid var(--rule); }
+.models { white-space: nowrap; font-variant-numeric: tabular-nums; }
+.models i { font-style: normal; color: var(--mute); font-size: 12px; }
+.notes { max-width: 860px; font-size: 14px; }
+.notes li { margin: 4px 0; }
+.notes table { width: auto; font-size: 13px; }
+.empty { padding: 20px; color: var(--mute); }
+</style>
+<script src="../simp.js"></script>
+</head>
+<body>
+<header>
+<nav class="top"><a href="../index.html">Old Tables of East Asia</a> · <a href="candidates.html">Map-link candidates</a></nav>
+<h1>Claude costs per book</h1>
+<p class="lede">What it would have cost at Anthropic API list prices to make each book with Claude: the sub-agents that read the scans and the main session that planned, checked and published the work. It covers <span id="span"></span>, the period for which session logs survive. Work done with Codex, Antigravity or the <code>llm</code> command is not counted. Click a column heading to sort it and ▸ to see a row's details.</p>
+</header>
+<main>
+<div class="tiles" id="tiles"></div>
+<div class="filters" role="search">
+  <input type="search" id="q" placeholder="Search title, slug or folder" aria-label="Search books">
+  <label>Region <select id="rg"><option value="">All</option></select></label>
+  <label>Record <select id="st">
+    <option value="">All</option>
+    <option value="full">Full record</option>
+    <option value="partial">Partly before the logs</option>
+    <option value="before">Published before the logs</option>
+    <option value="unpublished">Not on the site</option>
+    <option value="other">Not tied to a book</option>
+  </select></label>
+  <label>Agents <select id="md">
+    <option value="">Any</option><option value="O">Used Opus</option><option value="S">Used Sonnet</option>
+    <option value="H">Used Haiku</option><option value="none">No Claude agents</option>
+  </select></label>
+  <label>Worked from <input type="date" id="d1"></label>
+  <label>to <input type="date" id="d2"></label>
+  <label><input type="checkbox" id="tb"> Has tables</label>
+  <button type="button" id="reset">Reset</button>
+  <button type="button" id="csv">Download CSV</button>
+</div>
+<div class="wrap">
+<table id="t">
+<thead><tr>
+  <th data-k="t">Book</th>
+  <th data-k="rg">Region</th>
+  <th data-k="tb" class="num">Tables</th>
+  <th data-k="ad">Published</th>
+  <th data-k="l">Last work</th>
+  <th data-k="na" class="num" title="Sub-agents launched: Opus / Sonnet / Haiku">Agents</th>
+  <th data-k="a" class="num" title="Sub-agents' cost, exact plus estimated">Agents $</th>
+  <th data-k="o" class="num" title="The main session's own turns">Main $</th>
+  <th data-k="c" class="num">Total $</th>
+  <th data-k="pt" class="num">$ / table</th>
+  <th data-k="st">Record</th>
+</tr></thead>
+<tbody></tbody>
+<tfoot></tfoot>
+</table>
+</div>
+
+<h2 id="method">How the figures were made</h2>
+<div class="notes">
+<ul>
+<li><b>Source.</b> The local Claude Code session logs of this project, <span id="span2"></span>: <span id="nsess"></span> sessions and <span id="nag"></span> sub-agent launches. Earlier logs no longer exist, so books published before <span id="start"></span> show only later fixes and additions (marked <span class="chip before">before logs</span>), and books that were under way when the surviving logs begin are marked <span class="chip partial">partly before logs</span>: their totals are too low.</li>
+<li><b>Main session.</b> Priced exactly from the usage recorded for every turn. Each turn is assigned to the book named in it (folder, site slug or NDL item number), otherwise to the book last named in the same session; after each new request from the user the assignment starts again. Turns before any book is named go to “Site-wide and other work”.</li>
+<li><b>Sub-agents.</b> Assigned to the book named in their instructions. <span id="nx"></span> agents' own logs survive and are priced exactly. For the other <span id="ne"></span> only the final context size (F) and number of tool calls (N) survive, from their completion notices; their cost is estimated with ratios fitted on the agents whose logs survive: <span id="ratio"></span>. Checked against those agents, single estimates fall within about ±25%; book totals, which add up many agents, are closer. <span id="nz"></span> agents that were stopped or never reported have no record and are not counted.</li>
+<li><b>Prices</b> (US$ per million tokens, Anthropic API list prices):
+<div class="wrap"><table><thead><tr><th>Model</th><th class="num">Input</th><th class="num">Cache write 5 min / 1 h</th><th class="num">Cache read</th><th class="num">Output</th></tr></thead>
+<tbody>
+<tr><td>Claude Opus 5.5</td><td class="num">4.00</td><td class="num">5.00 / 8.00</td><td class="num">0.20</td><td class="num">20.00</td></tr>
+<tr><td>Claude Sonnet 5.5</td><td class="num">2.00</td><td class="num">2.50 / 4.00</td><td class="num">0.20</td><td class="num">10.00</td></tr>
+<tr><td>Claude Haiku 5.5 (prompt ≤ 100K)</td><td class="num">0.10</td><td class="num">0.125 / 0.20</td><td class="num">0.01</td><td class="num">0.50</td></tr>
+<tr><td>Claude Haiku 5.5 (prompt &gt; 100K)</td><td class="num">0.50</td><td class="num">0.625 / 1.00</td><td class="num">0.05</td><td class="num">2.50</td></tr>
+</tbody></table></div>
+The work ran under a subscription, so these are what the same tokens would cost on the API, not what was paid.</li>
+<li><b>Tables</b> are the tables on the site for the volume(s) made in that folder. “Last work” is the last logged activity, which can be a later fix rather than the transcription itself.</li>
+</ul>
+<p class="mute">Generated <span id="built"></span> by <code>build/cost/parse_logs.py</code> and <code>build/cost/make_page.py</code>.</p>
+</div>
+</main>
+<script>
+"use strict";
+const ROWS=__DATA__;
+const META=__META__;
+const STAT={full:"full record",partial:"partly before logs",before:"before logs",unpublished:"not on site",other:"not a book"};
+const fmt$=v=>v==null||isNaN(v)?"":"$"+(v>=100?Math.round(v).toLocaleString("en"):v.toFixed(2));
+const fmtN=v=>v?v.toLocaleString("en"):"";
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+ROWS.forEach(r=>{r.a=+(r.ae+r.aq).toFixed(2);r.na=r.nO+r.nS+r.nH;r.pt=r.tb?r.c/r.tb:null;
+  r.q=(r.t+" "+r.s.join(" ")+" "+r.k+" "+r.mk).toLowerCase()});
+const $=id=>document.getElementById(id);
+for(const id of ["span","span2"])$(id).textContent=META.start+" to "+META.end;
+$("start").textContent=META.start;$("nsess").textContent=META.sessions;$("nag").textContent=META.agents.toLocaleString("en");
+$("nx").textContent=META.exact.toLocaleString("en");$("ne").textContent=META.est.toLocaleString("en");$("nz").textContent=META.none.toLocaleString("en");
+$("built").textContent=META.built;
+$("ratio").textContent=Object.entries(META.ratio).map(([m,r])=>`${m} (from ${r.n} agents): cache reads ≈ ${r.read}·F·N, cache writes ≈ ${r.write}·F, output ≈ ${r.out}·F`).join("; ")+" (Haiku uses the Sonnet ratios)";
+[...new Set(ROWS.map(r=>r.rg).filter(Boolean))].sort().forEach(v=>{const o=document.createElement("option");o.value=o.textContent=v;$("rg").appendChild(o)});
+let sortK="l",sortD=-1;const open=new Set();
+const F=["q","rg","st","md","d1","d2","tb"];
+function readHash(){const h=new URLSearchParams(location.hash.slice(1));
+  F.forEach(k=>{const e=$(k),v=h.get(k);if(v==null)return;if(e.type==="checkbox")e.checked=v==="1";else e.value=v});
+  if(h.get("s")){sortK=h.get("s");sortD=h.get("d")==="1"?1:-1}}
+function writeHash(){const h=new URLSearchParams();F.forEach(k=>{const e=$(k);const v=e.type==="checkbox"?(e.checked?"1":""):e.value;if(v)h.set(k,v)});
+  if(sortK!=="l"||sortD!==-1){h.set("s",sortK);h.set("d",sortD===1?"1":"0")}
+  const s=h.toString();history.replaceState(null,"",s?"#"+s:location.pathname+location.search)}
+function filtered(){const q=$("q").value.trim().toLowerCase(),rg=$("rg").value,st=$("st").value,md=$("md").value,d1=$("d1").value,d2=$("d2").value,tb=$("tb").checked;
+  return ROWS.filter(r=>(!q||q.split(/\s+/).every(w=>r.q.includes(w)))&&(!rg||r.rg===rg)&&(!st||r.st===st)
+    &&(!md||(md==="none"?r.na===0:r["n"+md]>0))&&(!d1||r.l>=d1)&&(!d2||r.f<=d2)&&(!tb||r.tb>0))}
+function cmp(a,b){let x=a[sortK],y=b[sortK];const nx=x==null||x==="",ny=y==null||y==="";if(nx||ny)return nx&&ny?0:nx?1:-1;
+  return (typeof x==="string"?x.localeCompare(y):x-y)*sortD}
+function render(){
+  const rs=filtered().sort(cmp),max=Math.max(1,...rs.map(r=>r.c));
+  document.querySelectorAll("thead th").forEach(th=>{if(th.dataset.k===sortK)th.setAttribute("aria-sort",sortD>0?"ascending":"descending");else th.removeAttribute("aria-sort")});
+  const tb=document.querySelector("#t tbody");
+  if(!rs.length){tb.innerHTML='<tr><td colspan="11" class="empty">No rows match these filters.</td></tr>'}
+  else tb.innerHTML=rs.map(r=>{
+    const link=r.s.length?`<a href="../book/${esc(r.s[0])}/index.html">${esc(r.t)}</a>`:esc(r.t);
+    const isOpen=open.has(r.k);
+    let h=`<tr><td class="book"><button class="x" type="button" data-k="${esc(r.k)}" aria-expanded="${isOpen}" aria-label="Details">${isOpen?"▾":"▸"}</button>${link}<span class="slug">${esc(r.s.join(", ")||r.k)}</span></td>
+<td>${esc(r.rg)}</td><td class="num">${fmtN(r.tb)}</td><td class="date">${esc(r.ad)}</td><td class="date">${esc(r.l)}</td>
+<td class="num models" title="Opus / Sonnet / Haiku">${r.na?`${r.nO}<i> / </i>${r.nS}<i> / </i>${r.nH}`:""}</td>
+<td class="num">${fmt$(r.a)}</td><td class="num">${fmt$(r.o)}</td>
+<td class="num"><b>${fmt$(r.c)}</b><span class="bar" style="width:${Math.max(1,Math.round(60*r.c/max))}px"></span></td>
+<td class="num">${r.pt==null?"":fmt$(r.pt)}</td><td><span class="chip ${r.st}">${STAT[r.st]}</span></td></tr>`;
+    if(isOpen)h+=`<tr class="more"><td colspan="11"><dl>
+<dt>Folder</dt><dd>${esc(r.k)}</dd>
+${r.mk?`<dt>Transcribed by</dt><dd>${esc(r.mk)}</dd>`:""}
+<dt>Logged work</dt><dd>${esc(r.f)} to ${esc(r.l)} in ${r.ss} session${r.ss===1?"":"s"}</dd>
+<dt>Agent cost by model</dt><dd>Opus ${fmt$(r.cO)} (${r.nO}) · Sonnet ${fmt$(r.cS)} (${r.nS}) · Haiku ${fmt$(r.cH)} (${r.nH})</dd>
+<dt>Agent records</dt><dd>${r.x} exact ${fmt$(r.ae)} · ${r.e} estimated ${fmt$(r.aq)}${r.z?` · ${r.z} without a record (not counted)`:""}</dd>
+</dl></td></tr>`;
+    return h}).join("");
+  const S=k=>rs.reduce((s,r)=>s+(r[k]||0),0),tc=S("c"),tt=S("tb"),withT=rs.filter(r=>r.tb>0&&r.st==="full");
+  const ptc=withT.reduce((s,r)=>s+r.c,0),ptt=withT.reduce((s,r)=>s+r.tb,0);
+  document.querySelector("#t tfoot").innerHTML=`<tr><td>${rs.length} row${rs.length===1?"":"s"}</td><td></td><td class="num">${fmtN(tt)}</td><td></td><td></td>
+<td class="num models">${S("nO")}<i> / </i>${S("nS")}<i> / </i>${S("nH")}</td><td class="num">${fmt$(S("a"))}</td><td class="num">${fmt$(S("o"))}</td>
+<td class="num">${fmt$(tc)}</td><td class="num" title="Full-record books only">${ptt?fmt$(ptc/ptt):""}</td><td></td></tr>`;
+  $("tiles").innerHTML=[[fmt$(tc),"total, rows shown"],[rs.filter(r=>r.st!=="other").length,"books"],[fmtN(tt),"tables"],
+    [ptt?fmt$(ptc/ptt):"–","per table (full-record books)"],[fmtN(S("na")),"sub-agents launched"],[fmt$(S("a")),"sub-agents' cost"],[fmt$(S("o")),"main session's cost"]]
+    .map(([b,s])=>`<div class="tile"><b>${b}</b><span>${s}</span></div>`).join("");
+  writeHash()}
+document.querySelector("#t thead").addEventListener("click",e=>{const th=e.target.closest("th");if(!th)return;const k=th.dataset.k;
+  if(k===sortK)sortD=-sortD;else{sortK=k;sortD=(k==="t"||k==="rg"||k==="st")?1:-1}render()});
+document.querySelector("#t tbody").addEventListener("click",e=>{const b=e.target.closest("button.x");if(!b)return;const k=b.dataset.k;open.has(k)?open.delete(k):open.add(k);render()});
+F.forEach(k=>$(k).addEventListener(k==="q"?"input":"change",render));
+$("reset").addEventListener("click",()=>{F.forEach(k=>{const e=$(k);if(e.type==="checkbox")e.checked=false;else e.value=""});sortK="l";sortD=-1;render()});
+$("csv").addEventListener("click",()=>{const cols=[["Book","t"],["Slugs",r=>r.s.join(" ")],["Folder","k"],["Region","rg"],["Tables","tb"],["Published","ad"],["First work","f"],["Last work","l"],
+  ["Opus agents","nO"],["Sonnet agents","nS"],["Haiku agents","nH"],["Agents exact $","ae"],["Agents estimated $","aq"],["Main session $","o"],["Total $","c"],["$ per table",r=>r.pt==null?"":r.pt.toFixed(2)],
+  ["Agents without record","z"],["Record",r=>STAT[r.st]],["Transcribed by","mk"]];
+  const q=v=>{v=v==null?"":String(v);return /[",\n]/.test(v)?'"'+v.replace(/"/g,'""')+'"':v};
+  const lines=[cols.map(c=>q(c[0])).join(",")].concat(filtered().sort(cmp).map(r=>cols.map(([,k])=>q(typeof k==="function"?k(r):r[k])).join(",")));
+  const a=document.createElement("a");a.href=URL.createObjectURL(new Blob([lines.join("\n")],{type:"text/csv"}));a.download="claude-costs-per-book.csv";a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000)});
+readHash();render();
+</script>
+</body>
+</html>

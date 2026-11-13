@@ -53,3 +53,16 @@ with `pagefind/` and `pagefind-titles/` as symlinks to it, a watchdog that pause
 for the "Titles and names only" option). Upload both folders with the site. Without them the search page says the
 index is not installed; the rest of the site works as before. Serve the site over HTTP (for example
 `python3 -m http.server`), not from `file://`.
+
+## Cost page (support/cost.html)
+
+`support/cost.html` lists what each book would have cost at Anthropic API list prices, from the local Claude Code
+session logs (only on the machine that did the work). Rebuild it with:
+
+```sh
+nice -n 15 python3 build/cost/parse_logs.py    # about a minute: reads the logs into ~/.cache/stat-tables-cost/parsed.json
+python3 build/cost/make_page.py                # prices it and writes support/cost.html from build/cost/cost_template.html
+```
+
+Main-session turns and sub-agents whose logs survive are priced exactly; other sub-agents are estimated from the
+final context size and tool-call count in their completion notices. The page explains the method.
