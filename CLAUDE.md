@@ -25,6 +25,9 @@ Other files to read when the task needs them:
 - **Built output (committed, never edited by hand):** `index.html`, `about.html`, `search.html`, `book/<slug>/`,
   `data/<slug>.json` (+ `-toc.json`), `downloads/`, `topics/`, `figures/`, `support/`. Change `build/` and rebuild.
 - **Hand-written site scripts at the root:** `charts.js`, `tags.js`, `tags.css`, `fold.js`, `annotate.js`.
+  `simp.js` (the header's "简 Simplified" option: Chinese books in 简体字, all others in Japanese 新字体, display only)
+  is built, not hand-written: `build/simplify/` (`tables.json` from OpenCC + Unihan via `make_simp_table.py`;
+  `inject.py` writes `simp.js` trimmed to the characters the site uses and adds it to every page at the end of the build).
 - **`build/`:** `build_site.py` (the `BOOKS` list, loaders, English layer, topic pages, templates); `build_downloads.py`;
   `build_search.py`; `build_tags.py`; `bump_version.py` + `VERSION.json`; `about_text.py` (the author's own text:
   change only when asked); `added_dates.json`; `leafmaps/`; `translations/<slug>.json`; `tags/`; `topics/`;

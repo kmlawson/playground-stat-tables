@@ -4229,3 +4229,6 @@ run();
 
 if __name__ == "__main__":
     main()
+    sys.path.insert(0, os.path.join(HERE, "build", "simplify"))
+    from inject import inject, write_js
+    print(f"simplified characters: tables {write_js(HERE)}, script added to {inject(HERE)} pages")
