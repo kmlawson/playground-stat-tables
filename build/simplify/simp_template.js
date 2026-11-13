@@ -50,7 +50,7 @@ function paint(b){b.setAttribute("aria-pressed",ON?"true":"false");b.classList.t
  b.setAttribute("aria-label",ON?TIP_ON:TIP_OFF)}
 if(ON)start();
 // the header button: next to the light/dark button where there is one, else at the end of the page's top navigation
-const CSS=".simpbtn{position:relative;cursor:pointer;font:inherit;font-size:18px;font-weight:600;line-height:1.25;padding:3px 8px;border-radius:6px;border:1px solid currentColor;background:transparent;color:inherit;vertical-align:middle;margin:0 4px}"+
+const CSS=".simpbtn{position:relative;cursor:pointer;font:inherit;font-size:14px;font-weight:600;line-height:1.2;padding:2px 5px;border-radius:6px;border:1px solid currentColor;background:transparent;color:inherit;vertical-align:middle;margin:0 4px}"+
  ".simpbtn.on{background:#fff;color:#1f4a2c;border-color:#1f4a2c}"+
  ".simpbtn .tip{display:none;position:absolute;top:calc(100% + 7px);left:0;z-index:1000;width:max-content;max-width:min(320px,80vw);padding:8px 10px;border-radius:6px;background:#1b211d;color:#f2f5f3;font:13px/1.45 system-ui,-apple-system,sans-serif;font-weight:normal;text-align:left;white-space:normal;box-shadow:0 3px 12px rgba(0,0,0,.3);pointer-events:none}"+
  ".simpbtn.tipr .tip{left:auto;right:0}@media (hover:hover){.simpbtn:hover .tip{display:block}}.simpbtn:focus-visible .tip{display:block}"+
@@ -64,7 +64,9 @@ function button(){
  paint(b);
  b.addEventListener("click",()=>set(!ON));
  const tg=document.getElementById("toggle"),nav=document.querySelector(".topnav"),hn=document.querySelector("header nav, header .breadcrumbs"),hd=document.querySelector("header");
- if(tg&&tg.parentNode)tg.parentNode.insertBefore(b,tg);
+ const tools=document.querySelector(".topnav .tools");
+ if(tools){tools.prepend(b);b.style.marginRight="10px"}
+ else if(tg&&tg.parentNode)tg.parentNode.insertBefore(b,tg);
  else if(nav){const last=[...nav.querySelectorAll(":scope > a.searchbtn")].pop();if(last)last.after(b);else nav.appendChild(b)}
  else if(hn)hn.appendChild(b);
  else if(hd)hd.appendChild(b);
