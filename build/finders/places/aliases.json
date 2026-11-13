@@ -1394,7 +1394,20 @@
 "japan|伊勢崎": "n-jp-isesaki",
 "japan|能代": "n-jp-noshiro",
 "japan|藤澤": "n-jp-fujisawa",
-"japan|館山": "n-jp-tateyama-chiba"
+"japan|館山": "n-jp-tateyama-chiba",
+"*|Kyŏngju County": "n-kr-kyongju-gun",
+"*|慶州邑": "n-kr-kyongju-eup",
+"*|內南面": "n-kr-kyongju-naenam",
+"*|內東面": "n-kr-kyongju-naedong",
+"*|外東面": "n-kr-kyongju-oedong",
+"*|山內面": "n-kr-kyongju-sannae",
+"*|川北面": "n-kr-kyongju-chonbuk",
+"*|江東面": "n-kr-kyongju-kangdong",
+"*|江西面": "n-kr-kyongju-kangso",
+"*|西面": "n-kr-kyongju-so",
+"*|見谷面": "n-kr-kyongju-kyongok",
+"*|陽北面": "n-kr-kyongju-yangbuk",
+"*|陽南面": "n-kr-kyongju-yangnam"
 },
 "new": {
 "n-kr-ranan": {
@@ -5980,6 +5993,84 @@
 "ja": "館山",
 "k": "city",
 "up": "japan"
+},
+"n-kr-kyongju-gun": {
+"en": "Kyŏngju County",
+"ja": "慶州郡",
+"k": "county",
+"up": "kr-Keishohoku"
+},
+"n-kr-kyongju-eup": {
+"en": "Kyŏngju-ŭp, Kyŏngju",
+"ja": "慶州邑",
+"k": "town",
+"up": "n-kr-kyongju-gun"
+},
+"n-kr-kyongju-naenam": {
+"en": "Naenam-myŏn, Kyŏngju",
+"ja": "內南面",
+"k": "district",
+"up": "n-kr-kyongju-gun"
+},
+"n-kr-kyongju-naedong": {
+"en": "Naedong-myŏn, Kyŏngju",
+"ja": "內東面",
+"k": "district",
+"up": "n-kr-kyongju-gun"
+},
+"n-kr-kyongju-oedong": {
+"en": "Oedong-myŏn, Kyŏngju",
+"ja": "外東面",
+"k": "district",
+"up": "n-kr-kyongju-gun"
+},
+"n-kr-kyongju-sannae": {
+"en": "Sannae-myŏn, Kyŏngju",
+"ja": "山內面",
+"k": "district",
+"up": "n-kr-kyongju-gun"
+},
+"n-kr-kyongju-chonbuk": {
+"en": "Ch'ŏnbuk-myŏn, Kyŏngju",
+"ja": "川北面",
+"k": "district",
+"up": "n-kr-kyongju-gun"
+},
+"n-kr-kyongju-kangdong": {
+"en": "Kangdong-myŏn, Kyŏngju",
+"ja": "江東面",
+"k": "district",
+"up": "n-kr-kyongju-gun"
+},
+"n-kr-kyongju-kangso": {
+"en": "Kangsŏ-myŏn, Kyŏngju",
+"ja": "江西面",
+"k": "district",
+"up": "n-kr-kyongju-gun"
+},
+"n-kr-kyongju-so": {
+"en": "Sŏ-myŏn, Kyŏngju",
+"ja": "西面",
+"k": "district",
+"up": "n-kr-kyongju-gun"
+},
+"n-kr-kyongju-kyongok": {
+"en": "Kyŏn'gok-myŏn, Kyŏngju",
+"ja": "見谷面",
+"k": "district",
+"up": "n-kr-kyongju-gun"
+},
+"n-kr-kyongju-yangbuk": {
+"en": "Yangbuk-myŏn, Kyŏngju",
+"ja": "陽北面",
+"k": "district",
+"up": "n-kr-kyongju-gun"
+},
+"n-kr-kyongju-yangnam": {
+"en": "Yangnam-myŏn, Kyŏngju",
+"ja": "陽南面",
+"k": "district",
+"up": "n-kr-kyongju-gun"
 }
 }
 }

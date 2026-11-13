@@ -173,3 +173,7 @@ wrong and what to do about it. Add a line when a book teaches something new.
   Let the FINISH reader flag doubtful cells already filled, and send those to the blind readers too (both disagreed).
   (Since 2026-11-12 blind re-reads are only for tables with >4 `[?]` read by a non-Opus model, so Opus-read kanji
   tables like these are no longer re-read.)
+- **Shared scratchpads are dangerous** (2026-11-12): a survey agent's helper `mk.py` left in the session scratchpad was
+  run later by contents agents of OTHER books; it writes `plan/survey/a.md` relative to the working dir and overwrote
+  慶州郡's survey with 日本勞働年鑑's. Every brief must say: write and run helper scripts only in the book's own
+  `crops/<mission>/` folder, never in a scratchpad or /tmp, and never run a script you did not write.
