@@ -47,6 +47,8 @@ On a machine someone is using, run `bash build/search_gently.sh` instead: the sa
 (efficiency cores, throttled disk, 2 threads), written into `_search.noindex/` so Spotlight does not index the files,
 with `pagefind/` and `pagefind-titles/` as symlinks to it, a watchdog that pauses the job while free memory is under
 25%, and `../search-index-upload.tar.gz` packed at the end. It takes about an hour.
+To install it on the live site, upload the tarball and `build/install_search_index.sh` to the site folder and run
+`sh install_search_index.sh` there: it unpacks the new index, checks it, swaps it in and deletes the old one.
 
 `build_search.py` reads only the committed `data/*.json`, so it works on any checkout. It writes two indexes next to
 `search.html`: `pagefind/` (everything) and `pagefind-titles/` (table titles, entry names and chronology headings,
