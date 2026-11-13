@@ -43,8 +43,8 @@ function stop(){OBS.disconnect();unwalk();if(document.__ot&&document.title===TIT
 function set(on){ON=on;try{if(on)localStorage.setItem(KEY,"1");else localStorage.removeItem(KEY)}catch(e){}
  if(on)start();else stop();
  document.querySelectorAll(".simpbtn").forEach(paint)}
-const TIP_OFF="Show simplified characters: Chinese books in simplified Chinese (简体字), Japanese books in the kanji forms used today (新字体), e.g. 國→国, 臺灣→台湾. Display only: data, downloads and search keep the characters as printed.";
-const TIP_ON="Showing simplified characters (国). Click to go back to the characters as printed (國).";
+const TIP_OFF="Toggle to 简体字 for Chinese texts and 新字体 for Japanese texts. Display only: data, downloads and search keep the characters as printed.";
+const TIP_ON=TIP_OFF;
 function paint(b){b.setAttribute("aria-pressed",ON?"true":"false");b.classList.toggle("on",ON);
  b.querySelector(".ch").textContent=ON?"国":"國";b.querySelector(".tip").textContent=ON?TIP_ON:TIP_OFF;
  b.setAttribute("aria-label",ON?TIP_ON:TIP_OFF)}
