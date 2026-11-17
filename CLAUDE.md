@@ -55,15 +55,16 @@ Other files to read when the task needs them:
 - **Claude sub-agents** by default; Codex/agy/the `llm` CLI only for books the user names for them (`../queue.md`).
 - **Haiku**: light tables, at most one dense page, no spreads; tell it to keep figures exactly as printed and not to
   mark clearly read figures `[?]`. **Sonnet**: the default — multi-page tables, split/spread tables, directories,
-  chronologies, contents, surveys, translations, tags. **Opus**: kanji (stacked-stroke) numerals, very dense small type,
-  blind re-reads of doubtful cells (only where the rule under "Checking is light" allows one).
+  chronologies, contents, surveys, translations, tags. **Opus**: kanji (stacked-stroke) numerals, very dense small type.
 - **At most 10 agents at a time** (the user may set a lower limit for a book). Pass the model on every Agent call and
   set `"model"` in the BOOKS entry to the models that did the reading.
 - **Checking is light** (user, 2026-10-28 / 11-03): after the missions only mechanical assembly and publishing. No
   random checks, no Opus spot-checks, no second transcriptions of Arabic-numeral tables. A non-reconciling total stays
-  as printed with a note. A blind re-read of single cells (the reader sees table/row/column, never the values) only for
-  a table with **more than 4 `[?]` cells AND read by a model other than Opus** (user, 2026-11-12); tables read by Opus
-  are never blind re-read, whatever their `[?]` count.
+  as printed with a note. **No routine blind re-reads** (user, 2026-11-17 — Taiwan 家計調査 1937: 8 Opus re-readers,
+  $36 = 22% of the book's agent cost, filled 271 cells of ~189k). Unreadable cells stay `[?]` and are published.
+  **Exception:** when a reader seems to have gone AWOL or its output looks highly suspicious (wrong rows, figures that
+  contradict the rest of the book wholesale, a block of `[?]` on a clean page), a blind re-read of that reader's work
+  is allowed. Never when the `[?]` or doubts come from the quality of the scan itself.
 
 ## Workflow for a book
 

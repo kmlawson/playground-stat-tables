@@ -110,7 +110,7 @@ wrong and what to do about it. Add a line when a book teaches something new.
 - Second readings of Arabic-numeral tables almost always confirm the first (League report 1925: ~3,000 cells, one
   difference); non-reconciling totals are usually source misprints. Keep them as printed with a note.
 - When a rough scan leaves many `[?]`, one blind Opus re-read of just those cells (values hidden; `plan/make_blind.py`)
-  settles about half (1947: 122 of 266). Worth it for rough scans, not for clean ones.
+  settles about half (1947: 122 of 266). **Abandoned as routine 2026-11-17 (user): too costly for what it fills; only for an AWOL or highly suspicious reader, never for scan quality.**
 - Opus review of Haiku/Sonnet samples (2026-11-04): 99.92% of figures right (統計提要 1935 spot check 2026-11-10: 1648/1649); the errors are labels (modernised or
   truncated kanji, a vertical range dash read as 一) and over-cautious `[?]`.
 
@@ -171,8 +171,7 @@ wrong and what to do about it. Add a line when a book teaches something new.
   the readers listed ~90 of them as "less than sure" with an alternative digit in their notes. Merge only the readings not
   named in the notes (`plan/merge_blind.py` reads the keys from `blind/notes_*.md`); the rest stay [?] with the candidates.
   Let the FINISH reader flag doubtful cells already filled, and send those to the blind readers too (both disagreed).
-  (Since 2026-11-12 blind re-reads are only for tables with >4 `[?]` read by a non-Opus model, so Opus-read kanji
-  tables like these are no longer re-read.)
+  (Blind re-reads were abandoned entirely on 2026-11-17 by the user; kept here as history.)
 - **Shared scratchpads are dangerous** (2026-11-12): a survey agent's helper `mk.py` left in the session scratchpad was
   run later by contents agents of OTHER books; it writes `plan/survey/a.md` relative to the working dir and overwrote
   慶州郡's survey with 日本勞働年鑑's. Every brief must say: write and run helper scripts only in the book's own
