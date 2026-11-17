@@ -1954,12 +1954,14 @@ SERIES["japan-shokugyo-fujin"] = {"name": "職業婦人調査 (Surveys of Workin
                                                                 "japan-shokugyo-fujin-1927": ["第二章 職業別調査概況 一 タイピストの部", "第二章 職業別調査概況 二 事務員の部", "第二章 職業別調査概況 三 交換手の部", "第二章 職業別調査概況 四 店員の部", "第三章 勤務先別比較", "第四章 兩都市別比較"]},
                                              "Charts": {"japan-shokugyo-fujin-1926": ["附錄圖表"], "japan-shokugyo-fujin-1927": ["圖表"]}}}
 SERIES["japan-kakei"] = {"name": "家計調査報告 (Household Budget Survey Reports, Cabinet Bureau of Statistics)",
-  "books": ["japan-kakei-1937", "japan-kakei-1938", "japan-kakei-1940"],
+  "books": ["japan-kakei-1936", "japan-kakei-1937", "japan-kakei-1938", "japan-kakei-1940"],
   "topics": {
-    "Survey method and allotment": {"japan-kakei-1937": ["調査の要綱", "調査に關する諸規程", "調査の結果表章に用ひたる收入分類及支出分類"],
+    "Survey method and allotment": {"japan-kakei-1936": ["調査の要綱", "調査に關する諸規程", "調査の結果表章に用ひたる收入分類及支出分類"],
+"japan-kakei-1937": ["調査の要綱", "調査に關する諸規程", "調査の結果表章に用ひたる收入分類及支出分類"],
                                     "japan-kakei-1938": ["調査の要綱", "調査に關する諸規程", "調査の結果表章に用ひたる收入分類及支出分類"],
                                     "japan-kakei-1940": ["一 統計表中の用語の解說", "五 調査に關する諸規程", "七 家計簿記入者割當表"]},
-    "Household budgets": {"japan-kakei-1937": ["統計表", "結果の概要 第一部 給料生活者", "結果の概要 第二部 勞働者", "支那事變前と事變下との收支概況"],
+    "Household budgets": {"japan-kakei-1936": ["統計表", "結果の概要 第一部 給料生活者", "結果の概要 第二部 勞働者"],
+                          "japan-kakei-1937": ["統計表", "結果の概要 第一部 給料生活者", "結果の概要 第二部 勞働者", "支那事變前と事變下との收支概況"],
                           "japan-kakei-1938": ["統計表", "結果の概要 第一部 給料生活者", "結果の概要 第二部 勞働者"],
                           "japan-kakei-1940": ["二 一世帶一ヶ月平均總收入總支出表", "三 一世帶一箇月平均實收入表", "四 一世帶一箇月平均實支出表"]}}}
 SERIES["japan-keishicho"] = {"name": "警視廳統計書 (Statistical Report of the Metropolitan Police Board, Tokyo)",
