@@ -4,6 +4,7 @@ the author's: change it only when asked. The reading lists are kept in alphabeti
 INTRO = """<div class="intro">
 <p>Welcome to this collection of old tables from historical sources related to East Asia and the Japanese Empire. A majority of the materials on this website are tables of information that were extracted using large language models from old year books, handbooks, and volumes of statistics available open access online. The website was primarily created for history students likely to be working with English language sources, but over time the balance will shift to other languages given their greater availability and importance as sources.</p>
 <p>Two things need to be kept in mind as you browse the tables on this website. First, each table and the volumes they come from must be read critically as historical sources born of a particular moment and authorial context. See the <a href="about.html">about</a> page for some reading suggestions around the use and critique of historical statistics. Secondly, these tables were extracted with the use of large language models. The accuracy of transcription is <a href="about.html#accuracy">high</a> but there are errors. If you intend to cite any of these tables, please consult the original scans, which are linked to under each table.</p>
+<p>Visitors are welcome to download all the data found here in bulk but please do so from the <a href="https://github.com/kmlawson/playground-stat-tables/tree/main/data">project repository</a>.</p>
 </div>
 """
 
