@@ -1,0 +1,621 @@
+{
+ "_chapters": {
+  "交通・通信": "Transport and Communications",
+  "人口・勞働": "Population and Labour",
+  "位置、面積": "Position and Area",
+  "司法、警察、衛生": "Justice, Police and Public Health",
+  "國際": "International",
+  "宗教・社會事業": "Religion and Social Work",
+  "教育": "Education",
+  "日本": "Japan",
+  "氣象": "Meteorology",
+  "物價": "Prices",
+  "產業": "Industry",
+  "財政・金融": "Finance and Banking",
+  "貿易・商業": "Trade and Commerce",
+  "賞勳": "Decorations and Honours",
+  "開拓民": "Settlers",
+  "附錄 (1) 關東州": "Appendix 1. Kwantung Leased Territory",
+  "附錄 (2)": "Appendix 2"
+ },
+ "p0010_1": {
+  "t": "Latitude and Longitude",
+  "d": "Geographical extent of Manchoukuo in latitude and longitude."
+ },
+ "p0010_2": {
+  "t": "Latitude and Longitude of Principal Places",
+  "d": "Latitude and longitude of principal places in Manchoukuo."
+ },
+ "p0010_3": {
+  "t": "Territorial Boundaries",
+  "d": "Boundary and frontier extent of Manchoukuo's territory."
+ },
+ "p0011_1": {
+  "t": "Provisional Area by Region",
+  "d": "Area in square kilometres of each province and special municipality, as of October Kangte 5 (1938)."
+ },
+ "p0012_1": {
+  "t": "Mean Temperature",
+  "d": "Monthly mean temperature in degrees Celsius at principal observatories."
+ },
+ "p0012_2": {
+  "t": "Precipitation",
+  "d": "Monthly precipitation in millimetres at principal observatories."
+ },
+ "p0013_1": {
+  "t": "Number of Clear Days",
+  "d": "Number of clear days by month at principal observatories in Kangte 5 (1938)."
+ },
+ "p0013_2": {
+  "t": "Number of Days with Precipitation",
+  "d": "Number of days with precipitation by month at principal observatories in Kangte 5 (1938)."
+ },
+ "p0014_1": {
+  "t": "Population by Province and Special Municipality",
+  "d": "Population of each province and special municipality at the end of December Kangte 5 (1938)."
+ },
+ "p0015_1": {
+  "t": "Population by Municipality, County and Banner",
+  "d": "Population of each city, county and banner by province at the end of December Kangte 5 (1938)."
+ },
+ "p0025_1": {
+  "t": "Population of the Fifteen Principal Cities",
+  "d": "Population of the fifteen principal cities at the end of December Kangte 5 (1938)."
+ },
+ "p0026_1": {
+  "t": "Comparison of Population by Region over the Years",
+  "d": "Population of each province and special municipality compared over successive years."
+ },
+ "p0028_1": {
+  "t": "Number of Workers Entering and Leaving the Country",
+  "d": "Number of labourers entering and leaving Manchoukuo by month."
+ },
+ "p0029_1": {
+  "t": "Labour Wages in Hsinking",
+  "d": "Wages in Hsinking by trade, for Japanese and Manchurian (Chinese) workers."
+ },
+ "p0030_1": {
+  "t": "Afforestation",
+  "d": "New plantings in Kangte 5 (1938), with area and number of trees."
+ },
+ "p0030_2": {
+  "t": "Production of Forest Products",
+  "d": "Monthly output of forest products (ordinary and special timber) in thousand koku."
+ },
+ "p0031_1": {
+  "t": "Gas Industry",
+  "d": "Gas production and sales in cubic metres by city."
+ },
+ "p0033_1": {
+  "t": "Salt Production and Sales",
+  "d": "Salt production and sales in thousand piculs."
+ },
+ "p0034_1": {
+  "t": "Production of Soybean Cake",
+  "d": "Soybean cake output by oil-mill associations, in thousand cakes and thousand yuan."
+ },
+ "p0035_1": {
+  "t": "Production of Soybean Oil",
+  "d": "Soybean oil output by oil-mill associations, in thousand catties and thousand yuan."
+ },
+ "p0036_1": {
+  "t": "Production of Flour and Bran",
+  "d": "Flour and bran output in thousand bags and thousand yuan."
+ },
+ "p0036_2": {
+  "t": "Settlers (Japanese Settlers, Part 1)",
+  "d": "Japanese settlers (households, persons, land) at the end of December Kangte 5 (1938), part 1."
+ },
+ "p0037_1": {
+  "t": "Settlers (Japanese Settlers, Part 2)",
+  "d": "Japanese settlers (households, persons, land) at the end of December Kangte 5 (1938), part 2."
+ },
+ "p0038_1": {
+  "t": "Settlers' Forestry (Japanese Settlers)",
+  "d": "Forestry by Japanese settlers in households, persons and chō at the end of December Kangte 5 (1938)."
+ },
+ "p0038_2": {
+  "t": "Settlers (Korean Settlers)",
+  "d": "Korean settlers' cultivated area (chō) and harvest (koku) at the end of December Kangte 5 (1938)."
+ },
+ "p0039_1": {
+  "t": "Settlers (Japanese Group Settlements)",
+  "d": "Japanese group settlers by settlement."
+ },
+ "p0040_1": {
+  "t": "Settlers (Japanese Collective Settlements)",
+  "d": "Japanese collective settlers by settlement."
+ },
+ "p0041_1": {
+  "t": "Breakdown of General Account Revenue",
+  "d": "General account revenue by item, in thousand yuan."
+ },
+ "p0041_2": {
+  "t": "Breakdown of General Account Expenditure",
+  "d": "General account expenditure by item, in thousand yuan."
+ },
+ "p0041_3": {
+  "t": "Revenue and Expenditure of Special Accounts",
+  "d": "Revenue and expenditure of each special account, in thousand yuan."
+ },
+ "p0041_4": {
+  "t": "Total Budgeted Revenue and Expenditure",
+  "d": "Total revenue and expenditure estimates by account, in thousand yuan."
+ },
+ "p0042_1": {
+  "t": "Actual Tax Revenue",
+  "d": "Tax revenue by tax in the general account at the end of December Kangte 5 (1938), in thousand yuan."
+ },
+ "p0042_2": {
+  "t": "Note Issue of the Central Bank",
+  "d": "Notes issued by the Central Bank of Manchou over successive periods."
+ },
+ "p0043_1": {
+  "t": "Deposits and Loans of Banks in Principal Cities",
+  "d": "Bank deposits and loans by principal city, in thousand yuan."
+ },
+ "p0044_1": {
+  "t": "Deposits and Loans of Domestic and Foreign Banks",
+  "d": "Deposits and loans of domestic and foreign banks, in thousand yuan."
+ },
+ "p0045_1": {
+  "t": "Outstanding National Debt",
+  "d": "National debt outstanding by type at the end of December Kangte 5 (1938) and July Kangte 6 (1939), in thousand yuan."
+ },
+ "p0045_2": {
+  "t": "Breakdown of Public Loans",
+  "d": "Public loans outstanding by issue at the end of Kangte 5 (1938)."
+ },
+ "p0046_1": {
+  "t": "Bank Deposits (Ordinary Banks)",
+  "d": "Deposits of ordinary banks by type, in thousand yuan."
+ },
+ "p0046_2": {
+  "t": "Bank Deposits (Special Banks)",
+  "d": "Deposits of special banks by type, in thousand yuan."
+ },
+ "p0047_1": {
+  "t": "Bank Loans (Ordinary)",
+  "d": "Loans of ordinary banks by type, in thousand yuan."
+ },
+ "p0047_2": {
+  "t": "Bank Loans (Special)",
+  "d": "Loans of special banks by type, in thousand yuan."
+ },
+ "p0048_1": {
+  "t": "Deposit and Loan Interest Rates of Ordinary Banks",
+  "d": "Interest rates on deposits and loans of ordinary banks."
+ },
+ "p0048_2": {
+  "t": "Deposit and Loan Interest Rates of Special Banks",
+  "d": "Interest rates on deposits and loans of special banks."
+ },
+ "p0049_1": {
+  "t": "Banking Business Conditions",
+  "d": "Business conditions of banks (assets, liabilities and operations) in thousand yuan."
+ },
+ "p0050_1": {
+  "t": "Business Conditions of Foreign Banks in Principal Cities",
+  "d": "Business of foreign banks by principal city, in thousand yuan."
+ },
+ "p0050_2": {
+  "t": "Postal Money Orders",
+  "d": "Postal money orders issued and paid over successive periods."
+ },
+ "p0051_1": {
+  "t": "Postal Savings",
+  "d": "Postal savings deposits and withdrawals, amounts in yuan."
+ },
+ "p0052_1": {
+  "t": "Postal Life Insurance Business",
+  "d": "Postal life insurance policies and amounts over successive periods."
+ },
+ "p0053_1": {
+  "t": "Postal Life Insurance Summary",
+  "d": "Summary of postal life insurance business."
+ },
+ "p0053_2": {
+  "t": "Life Insurance Summary",
+  "d": "Summary of life insurance business, amounts in thousand yuan."
+ },
+ "p0053_3": {
+  "t": "Clearing-House Bill Exchanges by Region",
+  "d": "Bills cleared through clearing houses by region."
+ },
+ "p0054_1": {
+  "t": "Clearing-House Bill Exchanges in the Three Great Cities",
+  "d": "Number (thousand) and value (thousand yuan) of bills cleared in the three great cities."
+ },
+ "p0054_2": {
+  "t": "Summary of Pawnbroking",
+  "d": "Pawnshop business in Kangte 5 (1938)."
+ },
+ "p0055_1": {
+  "t": "Total Exports and Imports",
+  "d": "Total value of exports and imports in thousand yuan."
+ },
+ "p0055_2": {
+  "t": "Exports and Imports by Customs District",
+  "d": "Value of exports and imports by customs district, in thousand yuan."
+ },
+ "p0056_1": {
+  "t": "Principal Exports",
+  "d": "Quantity and value (thousand yuan) of principal exports; continued on later pages."
+ },
+ "p0058_1": {
+  "t": "Patents, Inventions and Registered Designs",
+  "d": "Applications and registrations of patents, utility models and designs."
+ },
+ "p0058_2": {
+  "t": "Paid-up Capital of Manchurian Banks and Companies",
+  "d": "Capital of banks and companies in Manchoukuo at the end of January Kangte 6 (1939), in thousand yuan."
+ },
+ "p0059_1": {
+  "t": "Official Quotations for Forward Share Trading",
+  "d": "Official forward-trading prices of shares, with exchanges in brackets."
+ },
+ "p0060_1": {
+  "t": "Wholesale Price Index by Group in Principal Cities",
+  "d": "Wholesale price index by commodity group and city (Kangte 4 average = 100)."
+ },
+ "p0062_1": {
+  "t": "Hsinking Wholesale Price Index by Group (1)",
+  "d": "Wholesale price index by commodity group in Hsinking (Tatung 2 average = 100)."
+ },
+ "p0062_2": {
+  "t": "Hsinking Wholesale Price Index by Group (2)",
+  "d": "Wholesale price index by commodity group in Hsinking (Tatung 2 average = 100)."
+ },
+ "p0063_1": {
+  "t": "Wholesale Prices in Principal Cities",
+  "d": "Wholesale prices of principal commodities by city."
+ },
+ "p0064_1": {
+  "t": "Monthly Comparison of the General Price Index in Principal Cities",
+  "d": "Monthly general price index by group and city (Kangte 1 average = 100)."
+ },
+ "p0065_1": {
+  "t": "Retail Prices in Principal Cities",
+  "d": "Retail prices of principal commodities by city."
+ },
+ "p0066_1": {
+  "t": "Retail Prices in Hsinking",
+  "d": "Retail prices of principal commodities in Hsinking by month, with units."
+ },
+ "p0067_1": {
+  "t": "Hsinking Cost-of-Living Index",
+  "d": "Cost-of-living index by item in Hsinking (Kangte 3 average = 100)."
+ },
+ "p0067_2": {
+  "t": "Cost-of-Living Index at Home and Abroad",
+  "d": "Cost-of-living indices for Manchoukuo and other places, Kangte 4-6 (1937-1939) (Kangte 3 average = 100)."
+ },
+ "p0068_1": {
+  "t": "Passengers Landing and Embarking at Principal Ports",
+  "d": "Passengers landed and embarked at principal ports in Kangte 5 (1938)."
+ },
+ "p0068_2": {
+  "t": "Privately Operated Motor Vehicles",
+  "d": "Privately operated motor vehicles in Kangte 5 (1938)."
+ },
+ "p0069_1": {
+  "t": "Telegraph and Telephone Offices over the Years",
+  "d": "Number of telegraph and telephone offices compared over the years."
+ },
+ "p0069_2": {
+  "t": "Telegraph Traffic Handled",
+  "d": "Telegrams handled over successive periods."
+ },
+ "p0070_1": {
+  "t": "Telephone Subscribers",
+  "d": "Telephone subscribers at the end of December Kangte 5 (1938) by place."
+ },
+ "p0070_2": {
+  "t": "Number of Telephone Subscribers",
+  "d": "Number of telephone subscribers by place."
+ },
+ "p0071_1": {
+  "t": "Telephone Subscribers over the Years",
+  "d": "Telephone subscribers compared over the years."
+ },
+ "p0072_1": {
+  "t": "Broadcasting and Radiotelephony",
+  "d": "Broadcasting stations and radio licences at the end of Kangte 5 (1938)."
+ },
+ "p0072_2": {
+  "t": "Radio Listeners by Bureau",
+  "d": "Radio listeners by broadcasting bureau."
+ },
+ "p0073_1": {
+  "t": "Court Personnel",
+  "d": "Court staff by court and rank at the end of Kangte 5 (1938)."
+ },
+ "p0073_2": {
+  "t": "Procuratorate Personnel",
+  "d": "Procuratorate staff at the end of Kangte 5 (1938)."
+ },
+ "p0073_3": {
+  "t": "Prison Personnel",
+  "d": "Prison staff at the end of Kangte 5 (1938)."
+ },
+ "p0073_4": {
+  "t": "Prison Inmates",
+  "d": "Inmates in prisons at the end of Kangte 5 (1938)."
+ },
+ "p0074_1": {
+  "t": "Prison Inmates by Region",
+  "d": "Inmates in prisons by region at the end of Kangte 5 (1938)."
+ },
+ "p0076_1": {
+  "t": "Convicts by Ethnic Group",
+  "d": "Convicts by offence, sex and ethnic group; continued on later pages."
+ },
+ "p0078_1": {
+  "t": "Courts",
+  "d": "Courts and their business at the end of Kangte 5 (1938)."
+ },
+ "p0078_2": {
+  "t": "Procuratorates",
+  "d": "Procuratorates and their business at the end of Kangte 5 (1938)."
+ },
+ "p0079_1": {
+  "t": "Prisons",
+  "d": "Prisons and their business at the end of Kangte 5 (1938)."
+ },
+ "p0079_2": {
+  "t": "Infectious Diseases",
+  "d": "Cases of infectious diseases, January to June Kangte 6 (1939)."
+ },
+ "p0080_1": {
+  "t": "Foreigners Entering and Leaving the Country",
+  "d": "Foreigners entering and leaving in Kangte 5 (1938) by nationality."
+ },
+ "p0080_2": {
+  "t": "Residence Certificates Issued to Foreigners",
+  "d": "Certificates of residence issued to foreigners in Kangte 5 (1938)."
+ },
+ "p0081_1": {
+  "t": "Opium and Narcotics Smoking Permits Issued (Narcotics)",
+  "d": "Narcotics licences issued at the end of Kangte 5 (1938)."
+ },
+ "p0082_1": {
+  "t": "Opium and Narcotics Smoking Permits Issued (Opium)",
+  "d": "Opium smoking permits issued at the end of Kangte 5 (1938)."
+ },
+ "p0083_1": {
+  "t": "Schools by Province and Municipality",
+  "d": "Number of schools by type and province or municipality at the end of Kangte 5 (1938)."
+ },
+ "p0083_2": {
+  "t": "Number of Teachers",
+  "d": "Number of teachers by school type at the end of Kangte 5 (1938)."
+ },
+ "p0084_1": {
+  "t": "Number of Students",
+  "d": "Number of students by school type at the end of Kangte 5 (1938)."
+ },
+ "p0084_2": {
+  "t": "Students of Normal Schools",
+  "d": "Normal school students at the end of March Kangte 5 (1938)."
+ },
+ "p0085_1": {
+  "t": "Students Studying Abroad by Subject",
+  "d": "Students abroad by field of study at the end of April Kangte 5 (1938)."
+ },
+ "p0085_2": {
+  "t": "Students Studying Abroad by Region",
+  "d": "Students abroad by destination at the end of April Kangte 5 (1938)."
+ },
+ "p0086_1": {
+  "t": "Students of Vocational Schools",
+  "d": "Vocational school students at the end of Kangte 5 (1938)."
+ },
+ "p0086_2": {
+  "t": "Higher Education",
+  "d": "Higher education institutions with teachers and students."
+ },
+ "p0087_1": {
+  "t": "Secondary Education (1)",
+  "d": "Secondary schools with classes, teachers and students, as surveyed in February Kangte 6 (1939)."
+ },
+ "p0088_1": {
+  "t": "Normal Education",
+  "d": "Normal schools with classes, teachers and students."
+ },
+ "p0089_1": {
+  "t": "Primary Education",
+  "d": "Primary schools with classes, teachers and pupils at the end of February Kangte 6 (1939)."
+ },
+ "p0089_2": {
+  "t": "Religion",
+  "d": "Religious bodies, places of worship and adherents in Kangte 5 (1938)."
+ },
+ "p0090_1": {
+  "t": "Social Education Bodies",
+  "d": "Social education organisations in Kangte 5 (1938)."
+ },
+ "p0090_2": {
+  "t": "Museums",
+  "d": "Museums in Kangte 5 (1938)."
+ },
+ "p0090_3": {
+  "t": "Social Education",
+  "d": "Social education facilities in Kangte 5 (1938)."
+ },
+ "p0091_1": {
+  "t": "Libraries",
+  "d": "Libraries, holdings and readers in Kangte 5 (1938)."
+ },
+ "p0091_2": {
+  "t": "Books Published",
+  "d": "Books published in Kangte 5 (1938)."
+ },
+ "p0092_1": {
+  "t": "Newspapers",
+  "d": "Newspapers published in Kangte 5 (1938)."
+ },
+ "p0092_2": {
+  "t": "Magazines",
+  "d": "Magazines published in Kangte 5 (1938)."
+ },
+ "p0093_1": {
+  "t": "Film Censorship (Part 1)",
+  "d": "Films censored in Kangte 5 (1938), part 1."
+ },
+ "p0093_2": {
+  "t": "Film Censorship (Part 2)",
+  "d": "Films censored in Kangte 5 (1938) by kind and country of production."
+ },
+ "p0093_3": {
+  "t": "Public Employment Exchanges",
+  "d": "Applicants, vacancies and placements at public employment exchanges in Kangte 5 (1938)."
+ },
+ "p0094_1": {
+  "t": "Public Employment Exchanges by Educational Level (Job Seekers)",
+  "d": "Job seekers at public employment exchanges by educational level."
+ },
+ "p0095_1": {
+  "t": "Public Employment Exchanges by Educational Level (Persons Placed)",
+  "d": "Persons placed through public employment exchanges by educational level."
+ },
+ "p0096_1": {
+  "t": "Employment Exchange Conditions (Hsinking)",
+  "d": "Employment exchange business in Hsinking."
+ },
+ "p0096_2": {
+  "t": "Historic Sites, Antiquities, Scenic Places and Natural Monuments",
+  "d": "Designated historic sites, antiquities, scenic places and natural monuments in Kangte 5 (1938)."
+ },
+ "p0097_1": {
+  "t": "Granaries (Part 1)",
+  "d": "Public granaries (Yi-tsang) in Kangte 5 (1938), part 1."
+ },
+ "p0098_1": {
+  "t": "Granaries (Part 2)",
+  "d": "Public granaries (Yi-tsang) in Kangte 5 (1938), part 2."
+ },
+ "p0099_1": {
+  "t": "Decorations Conferred by Government Department",
+  "d": "Decorations conferred by each government department in fiscal Kangte 5 (1938)."
+ },
+ "p0101_1": {
+  "t": "Circumference and Area",
+  "d": "Circumference and area of the Kwantung Leased Territory, Showa 13 (1938)."
+ },
+ "p0102_1": {
+  "t": "Resident Population",
+  "d": "Resident population of the Kwantung Leased Territory by urban area at the end of December Kangte 5 (1938), with month-end totals."
+ },
+ "p0103_1": {
+  "t": "Vital Statistics",
+  "d": "Births, deaths, marriages and related rates in the Kwantung Leased Territory, Showa 13 (1938)."
+ },
+ "p0105_1": {
+  "t": "Forest and Field Area",
+  "d": "Forest and field area in chō in the Kwantung Leased Territory, Showa 13 (1938)."
+ },
+ "p0105_2": {
+  "t": "Milk Production and Sales",
+  "d": "Milk production and sales in the Kwantung Leased Territory, Showa 13 (1938)."
+ },
+ "p0105_3": {
+  "t": "Salt Manufacture",
+  "d": "Salt manufacture in the Kwantung Leased Territory, Showa 12 (1937)."
+ },
+ "p0106_1": {
+  "t": "Total Trade (Dairen Port)",
+  "d": "Total trade of Dairen port in thousand yuan."
+ },
+ "p0107_1": {
+  "t": "Results of Measuring Instrument Control",
+  "d": "Results of inspection of weights and measures instruments."
+ },
+ "p0108_1": {
+  "t": "Results of Measuring Instrument Verification (Kwantung Leased Territory)",
+  "d": "Results of verification of measuring instruments in the Kwantung Leased Territory."
+ },
+ "p0109_1": {
+  "t": "Employment Exchange Conditions in Dairen",
+  "d": "Applicants, vacancies and placements at employment exchanges in Dairen."
+ },
+ "p0110_1": {
+  "t": "Mean Temperature (Japan)",
+  "d": "Monthly mean temperature in degrees Celsius at principal places in Japan proper, Showa 13 (1938)."
+ },
+ "p0110_2": {
+  "t": "Precipitation (Japan)",
+  "d": "Monthly precipitation at principal places in Japan proper, Showa 13 (1938)."
+ },
+ "p0111_1": {
+  "t": "Area and Population (Japan)",
+  "d": "Area and population of Japan by region."
+ },
+ "p0112_1": {
+  "t": "Population by Age Group (Japan)",
+  "d": "Population of Japan by age group, Showa 13 (1938)."
+ },
+ "p0113_1": {
+  "t": "Cultivated Area and Farm Households (Japan)",
+  "d": "Cultivated area and number of farm households in Japan proper."
+ },
+ "p0113_2": {
+  "t": "Fish Catch (Japan)",
+  "d": "Value of the fish catch in Japan, in thousand yen."
+ },
+ "p0113_3": {
+  "t": "Fishermen and Fishing Boats (Japan)",
+  "d": "Number of fishermen and fishing boats in Japan proper."
+ },
+ "p0114_1": {
+  "t": "Total Trade of the Whole Empire (Japan)",
+  "d": "Total exports and imports of Japan, in thousand yen."
+ },
+ "p0115_1": {
+  "t": "Tokyo Retail Price Index",
+  "d": "Retail price index for Tokyo (July Taisho 3 = 100)."
+ },
+ "p0116_1": {
+  "t": "Cost-of-Living Index in Principal Japanese Cities",
+  "d": "Cost-of-living index by city in Japan (July Showa 12 = 100)."
+ },
+ "p0117_1": {
+  "t": "Education (Japan)",
+  "d": "Schools, teachers and students in Japan proper."
+ },
+ "p0118_1": {
+  "t": "Deposits of Commercial Banks in Principal Countries",
+  "d": "Commercial bank deposits by country, in millions."
+ },
+ "p0118_2": {
+  "t": "Bank Notes in Circulation in Principal Countries",
+  "d": "Bank notes in circulation by country, in millions."
+ },
+ "p0119_1": {
+  "t": "Discount Rates of Central Banks in Principal Countries",
+  "d": "Central bank discount rates by country."
+ },
+ "p0119_2": {
+  "t": "Market Discount Rates",
+  "d": "Market discount rates by country."
+ },
+ "p0119_3": {
+  "t": "Exchange Rates of Principal Countries",
+  "d": "Exchange rates as percentages of gold parity, with 1929 gold parity as the base."
+ },
+ "p0121_1": {
+  "t": "Gold Holdings of Principal Countries",
+  "d": "Gold holdings by country."
+ },
+ "p0121_2": {
+  "t": "Cost-of-Living Indices of Principal Countries",
+  "d": "Cost-of-living index by country (1929 = 100)."
+ },
+ "p0122_1": {
+  "t": "List of Principal Newly Established Companies in All Manchoukuo",
+  "d": "Principal new companies with capital in thousand yuan."
+ },
+ "p0123_1": {
+  "t": "Chambers of Commerce and Industry",
+  "d": "Chambers of commerce and industry by province with membership and budgets."
+ }
+}

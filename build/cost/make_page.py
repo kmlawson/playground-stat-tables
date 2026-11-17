@@ -1,4 +1,5 @@
-"""Step 2 of the cost page: price the usage recorded by parse_logs.py and write support/cost.html.
+"""Step 3 of the cost page: price the usage kept in build/cost/ledger.json (written by save_ledger.py from what
+parse_logs.py found) and write support/cost.html.
 Usage: python3 build/cost/make_page.py
 
 Orchestrator turns and sub-agents whose own transcripts survive are priced exactly from their recorded usage.
@@ -10,6 +11,17 @@ SITE = os.path.dirname(os.path.dirname(HERE))
 sys.path.insert(0, os.path.join(SITE, 'build'))
 import build_site as B
 D = json.load(open(os.path.expanduser('~/.cache/stat-tables-cost/parsed.json')))
+# the durable ledger: agents and sessions whose transcripts are gone still count, with their saved usage
+LED = json.load(open(os.path.join(HERE, 'ledger.json')))
+D['agents'] = {k: dict(a, sid=a['s']) for k, a in LED['agents'].items()}
+D['orch'] = {}; D['orch_ts'] = {}; D['sessions'] = {}
+for sid, e in LED['orch'].items():
+    for bk, v in e.items():
+        for m, u in v['u'].items():
+            acc = D['orch'].setdefault(bk, {}).setdefault(m, [0, 0, 0, 0, 0])
+            for j in range(5): acc[j] += u[j]
+        D['orch_ts'].setdefault(bk, []).extend(t for t in v['ts'] if t)
+        D['sessions'].setdefault(bk, []).append(sid)
 ADDED = json.load(open(os.path.join(SITE, 'build', 'added_dates.json')))
 
 # USD per million tokens, API list prices (Nov 2026). w5/w1 = cache writes with 5-minute / 1-hour lifetime.
@@ -26,14 +38,19 @@ def cost(model, t):          # t = [input, write5m, write1h, cache_read, output]
     p = PRICE.get(model, PRICE['claude-opus-5-5'])
     return (t[0] * p['i'] + t[1] * p['w5'] + t[2] * p['w1'] + t[3] * p['cr'] + t[4] * p['o']) / 1e6
 
+def cost_lo(u):               # a saved Haiku record: requests up to 100K prompt tokens (lo) and longer ones (hi)
+    p, q = PRICE['claude-haiku-5-5'], PRICE['claude-haiku-5-5+']
+    f = lambda p, t: (t[0] * p['i'] + t[1] * p['w5'] + t[2] * p['w1'] + t[3] * p['cr'] + t[4] * p['o']) / 1e6
+    return f(p, u['lo']) + f(q, u['hi'])
+
 # ---- calibration: sub-agents with both a surviving transcript and a completion notice
 cal = collections.defaultdict(lambda: [0, 0, 0, 0, 0, 0])   # model -> [sumF, sumFN, read, write, out, n]
 for a in D['agents'].values():
-    s = D['sub'].get(a.get('aid'))
-    if not s or not a.get('fin'): continue
-    F, N, _ = a['fin']; c = cal[s['model']]
+    u = a.get('use')
+    if not u or not a.get('fin'): continue
+    F, N, _ = a['fin']; c = cal[u['model']]
     c[0] += F; c[1] += F * N; c[5] += 1
-    for x in s['msgs']: c[2] += x[3]; c[3] += x[1] + x[2] + x[0]; c[4] += x[4]
+    for x in (u['lo'], u['hi']): c[2] += x[3]; c[3] += x[1] + x[2] + x[0]; c[4] += x[4]
 RATIO = {m: dict(read=c[2] / c[1], write=c[3] / c[0], out=c[4] / c[0], n=c[5]) for m, c in cal.items() if c[5] >= 20}
 RATIO['claude-haiku-5-5'] = RATIO['claude-sonnet-5-5']
 
@@ -78,10 +95,10 @@ for bk, per in D['orch'].items():
     for m, t in per.items(): r['orch'] += cost(m, t)
     r['ts'] += D['orch_ts'][bk]; r['sessions'] |= set(D['sessions'][bk])
 for a in D['agents'].values():
-    r = rows[a['book']]; m = a['model']; s = D['sub'].get(a.get('aid'))
+    r = rows[a['book']]; m = a['model']; s = a.get('use')
     r['n'][m] += 1; r['ts'].append(a['ts']); r['sessions'].add(a['sid'])
     if s:
-        c = sum(cost(s['model'], x) for x in s['msgs']); r['exact'] += c; r['nexact'] += 1; r['cost_m'][s['model']] += c
+        c = cost_lo(s) if s['model'] == 'claude-haiku-5-5' else cost(s['model'], s['lo']) + cost(s['model'], s['hi']); r['exact'] += c; r['nexact'] += 1; r['cost_m'][s['model']] += c
     elif a.get('fin'):
         c = estimate(m, a['fin'][0], a['fin'][1]); r['est'] += c; r['nest'] += 1; r['cost_m'][m] += c
     else:

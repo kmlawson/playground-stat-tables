@@ -29,7 +29,7 @@ Other files to read when the task needs them:
   is built, not hand-written: `build/simplify/` (`tables.json` from OpenCC + Unihan via `make_simp_table.py`;
   `inject.py` writes `simp.js` trimmed to the characters the site uses and adds it to every page at the end of the build).
 - **`build/`:** `build_site.py` (the `BOOKS` list, loaders, English layer, topic pages, templates); `build_downloads.py`;
-  `build_search.py`; `build_tags.py`; `bump_version.py` + `VERSION.json`; `about_text.py` (the author's own text:
+  `build_search.py`; `build_tags.py`; `bump_version.py` + `VERSION.json`; `cost/` (cost page and its ledger); `about_text.py` (the author's own text:
   change only when asked); `added_dates.json`; `leafmaps/`; `translations/<slug>.json`; `tags/`; `topics/`;
   `crosslinks/`; `finders/`; `example/` (templates `BRIEF.md`, `MISSION.md`).
 - **Next to the repo:** `../_pipeline/` (`toc_leaves.py`, `kits/`), `../_codex/`, `../_haiku/`, `../_review/`, `../_toc/`.
@@ -109,10 +109,36 @@ Other files to read when the task needs them:
     rotated) up to `/Volumes/Oma/Book Scans/` as a lossless img2pdf PDF and checks the page count; then deletes `full/`,
     `full_orig/`, `rot/`, `crops/`, `sheets/` and the `plan/` image copies with `find -delete` (no `rm` prompts). It stops
     without deleting if Oma is not mounted or the page count differs. Never deletes `tables/`, `directory/`,
-    `chronology/`, `toc.json`, `reports/` or plan scripts. **Then, by hand, delete only your own session's finished
+    `chronology/`, `toc.json`, `reports/` or plan scripts. **First save the cost ledger (see "Cost records" below) —
+    never delete a transcript before that. Then, by hand, delete only your own session's finished
     sub-agent transcripts** (`find ~/.claude/projects/<project>/<your session id>/subagents -type f -delete`, literal
     path, once none of your agents is running) — never another session's (user, 2026-11-10). Record "scan on Oma,
     images deleted" in `STATUS.md` and `../queue.md`.
+
+## Cost records (user, 2026-11-17)
+
+How many agents were used, of what kind, and how many tokens they took is kept for good in **`build/cost/ledger.json`**
+(committed), so that `support/cost.html` stays accurate after transcripts are gone. Claude Code's transcripts do not
+last: sub-agent transcripts are deleted after each book and old session logs are pruned, and an agent whose transcript
+is gone can only be estimated from its completion notice.
+
+- **Save the ledger before any transcript is deleted** — at the end of each book (before the clean-up step), and at the
+  end of any long session that launched agents, even if no book was finished:
+  `nice -n 15 python3 build/cost/parse_logs.py && python3 build/cost/save_ledger.py && python3 build/cost/make_page.py`
+  (about a minute). Commit `build/cost/ledger.json` and `support/cost.html` with the book.
+- **What the ledger holds.** Per sub-agent launch: book, model (Opus / Sonnet / Haiku), date, task description, final
+  context tokens, tool calls and duration from its completion notice, and — while its transcript still exists — its
+  exact usage (input, cache writes, cache reads, output; Haiku split at the 100K-prompt price step). Per session:
+  the orchestrator's usage by book and model. Merging never loses a saved figure. Session ids are hashed; nothing in
+  it identifies the user.
+- **So that every agent is counted for the right book:** name the book folder (e.g. `Kakei_Chosa_1935`) in every Agent
+  prompt and pass `model` on every Agent call; give survey, contents, translation and tagging agents a description
+  that says what they are ("Survey Kakei 1935 sheets"). Work done through Codex, agy or the `llm` CLI is NOT in the
+  ledger: note the model, number of runs and any token/cost figures the tool prints in the book's `_work/STATUS.md`.
+- In each book's `_work/STATUS.md` and in `../queue.md`, record the number of missions and agents by model when the
+  book is finished (as before).
+- Prices are in `build/cost/make_page.py` (`PRICE`); a model with no entry there is priced as Opus — add its list
+  price when a new model starts doing the orchestration or the reading.
 
 ## BOOKS entry
 

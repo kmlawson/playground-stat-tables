@@ -1,7 +1,7 @@
 """Step 1 of the cost page (support/cost.html): read the surviving local Claude Code transcripts of this project
 and record every orchestrator turn's token usage and every sub-agent launch, each assigned to a book.
 Usage: nice -n 15 python3 build/cost/parse_logs.py   (about a minute) -> ~/.cache/stat-tables-cost/parsed.json
-Then: python3 build/cost/make_page.py"""
+Then: python3 build/cost/save_ledger.py (keeps the figures after transcripts are deleted), python3 build/cost/make_page.py"""
 import json, re, os, glob, sys, collections
 HERE = os.path.dirname(os.path.abspath(__file__))
 SITE = os.path.dirname(os.path.dirname(HERE))
@@ -53,6 +53,7 @@ agents = {}                                        # tool_use_id -> record
 orch = collections.defaultdict(lambda: collections.defaultdict(lambda: [0, 0, 0, 0, 0]))  # book -> model -> usage
 orch_ts = collections.defaultdict(list)
 sessions_of = collections.defaultdict(set)
+orch_s = {}                                        # session -> book -> {'u': {model: usage}, 'ts': [first, last]}
 for f in sorted(glob.glob(P + '*.jsonl')):
     sid = os.path.basename(f)[:-6]
     seen = {}            # msg id -> book
@@ -105,6 +106,10 @@ for f in sorted(glob.glob(P + '*.jsonl')):
         acc = orch[bk][m.get('model')]
         for j in range(5): acc[j] += tup[j]
         orch_ts[bk].append(d.get('timestamp'))
+        e = orch_s.setdefault(sid, {}).setdefault(bk, {'u': {}, 'ts': [d.get('timestamp'), d.get('timestamp')]})
+        ua = e['u'].setdefault(m.get('model'), [0, 0, 0, 0, 0])
+        for j in range(5): ua[j] += tup[j]
+        if d.get('timestamp'): e['ts'] = [min(filter(None, [e['ts'][0], d['timestamp']])), max(filter(None, [e['ts'][1], d['timestamp']]))]
         sessions_of[bk].add(sid)
 
 # exact usage from surviving sub-agent transcripts
@@ -122,7 +127,7 @@ for f in glob.glob(P + '*/subagents/**/*.jsonl', recursive=True):
 
 json.dump(dict(agents=agents, orch={b: dict(v) for b, v in orch.items()},
                orch_ts={b: [min(v), max(v)] for b, v in orch_ts.items()},
-               sessions={b: sorted(v) for b, v in sessions_of.items()}, sub=sub),
+               sessions={b: sorted(v) for b, v in sessions_of.items()}, sub=sub, orch_sessions=orch_s),
           open(OUT, 'w'), ensure_ascii=False)
 print(len(agents), 'agent launches;', sum(1 for a in agents.values() if a.get('aid') in sub), 'with transcripts;',
       sum(1 for a in agents.values() if a.get('fin')), 'with final size;', len(orch), 'books with orchestrator turns')
