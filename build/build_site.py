@@ -2833,6 +2833,34 @@ render();
 """
 
 
+SERIES_NAMES = {"korea-tokei": "統監府・朝鮮總督府統計年報 (Statistical Yearbook of the Residency-General / Government-General of Korea)",
+                "korea-nenkan": "朝鮮年鑑 (Korea Yearbook)"}   # series with no usable name in chapters.py
+
+
+def series_map():
+    """{slug: (series key, series name)} from build/crosslinks/chapters.py SERIES, for the home page's Group view (list
+    view): the volumes of one series are shown under one heading. Name: the series' own name, else the first volume's
+    title without its year."""
+    import importlib.util
+    f = os.path.join(SCRIPTS, "crosslinks", "chapters.py")
+    if not os.path.exists(f):
+        return {}
+    spec = importlib.util.spec_from_file_location("xl_chapters_home", f)
+    mod = importlib.util.module_from_spec(spec); spec.loader.exec_module(mod)
+    title = {b["slug"]: b["title"] for b in BOOKS}
+    out = {}
+    for k, ser in mod.SERIES.items():
+        books = [sl for sl in ser.get("books", []) if sl in title]
+        if len(books) < 2:
+            continue
+        name = SERIES_NAMES.get(k) or ser.get("name") or ""
+        if not name or name == k:
+            name = re.sub(r"[\s,(]*[\d–\-/.]+\)?$", "", title[books[0]]).strip() or k
+        for sl in books:
+            out.setdefault(sl, (k, name))
+    return out
+
+
 def group_of(b):
     """Home-page section of a book: japan, china, korea, taiwan, manchuria, south-seas or other."""
     return b.get("group") or next((g for g in ("japan", "china", "korea", "taiwan") if b["slug"].startswith(g)), "manchuria" if b["slug"].startswith("manch") else "other")
@@ -3145,6 +3173,7 @@ def filter_bar(cards):
 
 def landing(cards):
     added = added_dates()
+    SERMAP = series_map()
     items = []
     for b, n, c, ch in cards:
         stat = (f"<b>{n}</b> tables · <b>{c:,}</b> cells · {ch} chapters" if n else "" if b.get("dir_only") else "<i>transcription in progress</i>")
@@ -3167,7 +3196,9 @@ def landing(cards):
         title = f'<a href="{home}" style="color:inherit;text-decoration:none">{html.escape(b["title"])}</a>' if home else html.escape(b["title"])
         py = pub_years(b)
         yattr = f' data-y0="{py[0]}" data-y1="{py[1]}"' if py else ""
-        items.append((grp, b["slug"], f"""<article data-t="{html.escape(b["title"])}" data-s="{html.escape(b.get("subtitle", ""))}"{yattr}{"" if CJK_RE.search(b["title"]) else " data-en"} data-a="{added.get(b["slug"], "")}"><h2>{title}</h2><div class="pub">{html.escape((b["author"] + "; ") if b.get("author") else "")}{html.escape(b["publisher"])}</div>{(f'<div class="pub">{html.escape(b["note"])}</div>' if CJK_RE.search(b["note"]) else f'<div class="pub"><i>{html.escape(b["note"])}</i></div>') if b.get("note") else ""}
+        ser = SERMAP.get(b["slug"])
+        sattr = f' data-ser="{html.escape(ser[0])}" data-sn="{html.escape(ser[1])}"' if ser else ""
+        items.append((grp, b["slug"], f"""<article{sattr} data-t="{html.escape(b["title"])}" data-s="{html.escape(b.get("subtitle", ""))}"{yattr}{"" if CJK_RE.search(b["title"]) else " data-en"} data-a="{added.get(b["slug"], "")}"><h2>{title}</h2><div class="pub">{html.escape((b["author"] + "; ") if b.get("author") else "")}{html.escape(b["publisher"])}</div>{(f'<div class="pub">{html.escape(b["note"])}</div>' if CJK_RE.search(b["note"]) else f'<div class="pub"><i>{html.escape(b["note"])}</i></div>') if b.get("note") else ""}
 <div class="stat">{stat}</div><div class="src">LLM-transcribed{item}</div>{b.get("_qstat", "")}<div class="links">{link}</div></article>"""))
     order = {"far-east": 0, "manchoukuo": 1}
     other = sorted([(sl, h) for g, sl, h in items if g == "other"], key=lambda x: order.get(x[0].rsplit("-", 1)[0], 9))
@@ -3187,7 +3218,7 @@ def landing(cards):
         tb, de = sum(n for b, n in bs), sum(b.get("_dir_n") or 0 for b, n in bs)
         return (f'<p class="gstat">{len(bs)} volume{"s" if len(bs) != 1 else ""}, with a total of {tb:,} table{"s" if tb != 1 else ""}'
                 + (f', and {de:,} directory entr{"ies" if de != 1 else "y"}' if de else "") + "</p>")
-    grids = "".join(f'<section class="grp" id="{g}"><h2 class="grph"><button class="gtog" type="button" aria-expanded="true" title="Collapse or expand this section"><span class="tri" aria-hidden="true">▾</span>{names[g]}</button><button class="gview" type="button" aria-pressed="false" title="Show every section as cards or as a list (the same switch as at the top of the page)">☰ List</button></h2>{gstat(g)}<div class="grid">{body[g]}</div></section>'
+    grids = "".join(f'<section class="grp" id="{g}"><h2 class="grph"><button class="gtog" type="button" aria-expanded="true" title="Collapse or expand this section"><span class="tri" aria-hidden="true">▾</span>{names[g]}</button><button class="gview" type="button" aria-pressed="false" title="Show every section as cards or as a list (the same switch as at the top of the page)">☰ List</button><button class="ggrp sgbtn" type="button" aria-pressed="false" title="In the list view, gather the volumes of each series (year books, annual reports …) under one heading">⧉ Group</button></h2>{gstat(g)}<div class="grid">{body[g]}</div></section>'
                     for g in ("japan", "china", "korea", "taiwan", "manchuria", "south-seas", "other") if body[g])
     # a floating stack, shown once the reader has scrolled: back to the top, then one letter per section, in the page's
     # order (the China/Japan coin-flip below swaps C and J along with the sections)
@@ -3210,7 +3241,8 @@ LANDING = r"""<!DOCTYPE html>
 .band{background:var(--accent);color:var(--accent-ink)}.band>div{max-width:980px;margin:0 auto;padding:34px 16px 30px}.band h1{font-weight:normal;font-size:30px;margin:0 0 8px}.band .lede{color:var(--accent-ink);opacity:.9;margin:0}
 main{max-width:980px;margin:0 auto;padding:26px 16px 60px}
 .topnav{margin:18px 0 0;display:flex;gap:8px;flex-wrap:wrap;align-items:center}.jump{display:contents}.jump a{display:inline-block;border:1px solid var(--accent-ink);color:var(--accent-ink);padding:6px 16px;border-radius:5px;text-decoration:none;font-size:15px}.jump a:hover{background:var(--accent-ink);color:var(--accent)}
-.grp{scroll-margin-top:12px}.grp{border-top:2px solid var(--line);margin-top:34px;padding-top:6px}.grp:first-child,.allstat+.grp{margin-top:4px;border-top:0}.allstat{margin:0 0 2px;font-size:16px;color:var(--muted)}.allstat+.grp>.grph,#groups .grp.first>.grph{margin-top:2px}#groups .grp.first{margin-top:4px;border-top:0}.introbox>summary{cursor:pointer;color:var(--accent);font-size:14px;letter-spacing:.08em;text-transform:uppercase;font-weight:bold;margin:0 0 8px;width:max-content}.introbox:not([open])>summary{margin-bottom:12px}.fbar{display:flex;flex-wrap:wrap;align-items:center;gap:8px 16px;margin:4px 0 10px;font-size:14px;color:var(--muted)}.fbar label,.fyears{display:inline-flex;align-items:center;gap:6px}.fyears{gap:10px}.fbar input,.fbar select{font:inherit;font-size:14px;color:var(--ink);background:var(--panel);border:1px solid var(--line);border-radius:5px;padding:4px 7px}#fq{width:12ch}#fy0,#fy1{width:6.5ch}.itip{font:italic bold 12px/1 Georgia,serif;width:18px;height:18px;border-radius:50%;border:1px solid var(--muted);background:transparent;color:var(--muted);padding:0;cursor:pointer;margin-left:-4px}.itip[aria-expanded="true"],.itip:hover{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}.ftip{flex-basis:100%;font-size:13px;margin-top:-4px}#groups article[hidden],#groups .grp[hidden]{display:none!important}.grph{font-size:14px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);margin:18px 0 0;font-weight:bold}.grp .grid{margin-top:14px}.gtog{font:inherit;letter-spacing:inherit;text-transform:inherit;color:inherit;background:none;border:0;padding:0;cursor:pointer;display:inline-flex;align-items:center;gap:7px}.gtog .tri{display:inline-block;font-size:12px;transition:transform .15s}.grph{display:flex;align-items:center;gap:14px}.gview{font:inherit;font-size:12px;font-weight:normal;letter-spacing:0;text-transform:none;color:var(--muted);background:none;border:1px solid transparent;border-radius:999px;padding:1px 8px;cursor:pointer;opacity:.75}.gview:hover,.gview:focus-visible{opacity:1;border-color:var(--line);color:var(--accent)}@media print{.gview{display:none}}.grp.shut .tri{transform:rotate(-90deg)}.grp.shut>:not(.grph):not(.gstat){display:none}.tmenu{margin:4px 0 8px}.tmn{color:var(--muted);font-size:14.5px;margin:6px 0 10px}.tmn a{color:var(--accent)}.tmrow{display:flex;flex-wrap:wrap;gap:6px 8px;align-items:baseline;padding:7px 0;border-top:1px solid var(--line)}.tmt{min-width:150px;font-size:16px}.tmrow a{color:var(--accent);text-decoration:none;border:1px solid var(--line);background:var(--panel);border-radius:14px;padding:2px 11px;font-size:14.5px}.tmrow a:hover{border-color:var(--accent)}.tmrow small{color:var(--muted)}.gstat{margin:8px 0 0;font-size:15px;color:var(--muted)}.tlinks{margin:4px 0 0;font-size:15px}.tlinks a{color:var(--accent)}
+.grp{scroll-margin-top:12px}.grp{border-top:2px solid var(--line);margin-top:34px;padding-top:6px}.grp:first-child,.allstat+.grp{margin-top:4px;border-top:0}.allstat{margin:0 0 2px;font-size:16px;color:var(--muted)}.allstat+.grp>.grph,#groups .grp.first>.grph{margin-top:2px}#groups .grp.first{margin-top:4px;border-top:0}.introbox>summary{cursor:pointer;color:var(--accent);font-size:14px;letter-spacing:.08em;text-transform:uppercase;font-weight:bold;margin:0 0 8px;width:max-content}.introbox:not([open])>summary{margin-bottom:12px}.fbar{display:flex;flex-wrap:wrap;align-items:center;gap:8px 16px;margin:4px 0 10px;font-size:14px;color:var(--muted)}.fbar label,.fyears{display:inline-flex;align-items:center;gap:6px}.fyears{gap:10px}.fbar input,.fbar select{font:inherit;font-size:14px;color:var(--ink);background:var(--panel);border:1px solid var(--line);border-radius:5px;padding:4px 7px}#fq{width:12ch}#fy0,#fy1{width:6.5ch}.itip{font:italic bold 12px/1 Georgia,serif;width:18px;height:18px;border-radius:50%;border:1px solid var(--muted);background:transparent;color:var(--muted);padding:0;cursor:pointer;margin-left:-4px}.itip[aria-expanded="true"],.itip:hover{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}.ftip{flex-basis:100%;font-size:13px;margin-top:-4px}#groups article[hidden],#groups .grp[hidden]{display:none!important}.grph{font-size:14px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);margin:18px 0 0;font-weight:bold}.grp .grid{margin-top:14px}.gtog{font:inherit;letter-spacing:inherit;text-transform:inherit;color:inherit;background:none;border:0;padding:0;cursor:pointer;display:inline-flex;align-items:center;gap:7px}.gtog .tri{display:inline-block;font-size:12px;transition:transform .15s}.grph{display:flex;align-items:center;gap:14px}.gview{font:inherit;font-size:12px;font-weight:normal;letter-spacing:0;text-transform:none;color:var(--muted);background:none;border:1px solid transparent;border-radius:999px;padding:1px 8px;cursor:pointer;opacity:.75}.gview:hover,.gview:focus-visible{opacity:1;border-color:var(--line);color:var(--accent)}@media print{.gview{display:none}}.sgbtn{font:inherit;font-size:12px;font-weight:normal;letter-spacing:0;text-transform:none;color:var(--muted);background:none;border:1px solid transparent;border-radius:999px;padding:1px 8px;cursor:pointer;opacity:.75}.sgbtn:hover,.sgbtn:focus-visible{opacity:1;border-color:var(--line);color:var(--accent)}@media print{.sgbtn{display:none!important}}.ggrp,.ggrpw{display:none}body.list .ggrp{display:inline-block}body.list .ggrpw{display:inline-flex}#grpbtn[aria-pressed="true"]{background:var(--accent-ink);color:var(--accent);font-weight:600}.grph .ggrp[aria-pressed="true"]{border-color:var(--accent);color:var(--accent);opacity:1}
+.sgrp{border-bottom:1px solid var(--line);border-left:3px solid var(--accent)}.sgh{display:flex;align-items:center;gap:8px;width:100%;font:inherit;font-size:16px;text-align:left;background:none;border:0;color:inherit;padding:6px 10px;cursor:pointer}.sgh b{font-weight:bold}.sgh .sgn{color:var(--muted);font-size:13px}.sgh .tri{display:inline-block;transition:transform .15s;color:var(--accent)}.sgrp:not(.open) .sgh .tri{transform:rotate(-90deg)}.sgm{padding-left:22px}.sgrp:not(.open) .sgm{display:none}body.list .sgm article{border-left-width:2px}.grp.shut .tri{transform:rotate(-90deg)}.grp.shut>:not(.grph):not(.gstat){display:none}.tmenu{margin:4px 0 8px}.tmn{color:var(--muted);font-size:14.5px;margin:6px 0 10px}.tmn a{color:var(--accent)}.tmrow{display:flex;flex-wrap:wrap;gap:6px 8px;align-items:baseline;padding:7px 0;border-top:1px solid var(--line)}.tmt{min-width:150px;font-size:16px}.tmrow a{color:var(--accent);text-decoration:none;border:1px solid var(--line);background:var(--panel);border-radius:14px;padding:2px 11px;font-size:14.5px}.tmrow a:hover{border-color:var(--accent)}.tmrow small{color:var(--muted)}.gstat{margin:8px 0 0;font-size:15px;color:var(--muted)}.tlinks{margin:4px 0 0;font-size:15px}.tlinks a{color:var(--accent)}
 .searchbtn{display:inline-block;background:var(--accent-ink);color:var(--accent);font-weight:bold;padding:9px 16px;border-radius:5px;text-decoration:none;font-size:15px}
 .lede{color:var(--muted);max-width:720px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px;margin-top:28px}
 article{background:var(--panel);border:1px solid var(--line);border-top:3px solid var(--accent);padding:18px 18px 16px;display:flex;flex-direction:column}
@@ -3230,7 +3262,7 @@ body.list article+article{margin-top:0}body.list article h2{font-size:16px;margi
 @media(max-width:560px){body.list article{flex-wrap:wrap;gap:4px}body.list article h2{flex-basis:100%}body.list .links{flex-wrap:wrap}.tools{margin-left:0}}
 </style></head><body><div class="band"><div>
 <h1><a href="index.html" style="color:inherit;text-decoration:none">Old Tables of East Asia</a></h1>
-<div class="topnav"><a class="searchbtn" href="search.html">Search</a><a class="searchbtn" href="topics/index.html">Topics</a><a class="searchbtn" href="about.html">About</a><nav class="jump" id="jump"><a href="#japan" id="j-japan">Japan</a><a href="#china" id="j-china">China</a><a href="#korea">Korea</a><a href="#taiwan">Taiwan</a><a href="#manchuria">Manchuria</a><a href="#south-seas">South Seas</a><a href="#other">Other</a></nav><span class="tools"><button class="enbtn" id="enbtn" type="button" aria-pressed="false" aria-label="Toggle to show only English-language volumes in the list below. Volumes in Japanese and Chinese are hidden, not removed; the choice is remembered in this browser.">EN<span class="tip" role="tooltip">Toggle to show only English-language volumes in the list below. Volumes in Japanese and Chinese are hidden, not removed; the choice is remembered in this browser.</span></button><span class="lbl">Sort</span><span class="seg" id="sortseg" role="group" aria-label="Sort books"><button class="viewbtn" data-m="date" type="button" aria-pressed="true" title="Sort by edition year">Edition year</button><button class="viewbtn" data-m="az" type="button" aria-pressed="false" title="Sort alphabetically">A–Z</button><button class="viewbtn" data-m="added" type="button" aria-pressed="false" title="Most recently added first">Recently added</button></span><span class="seg"><button class="viewbtn" id="viewbtn" type="button" aria-pressed="false">☰ List</button></span></span></div>
+<div class="topnav"><a class="searchbtn" href="search.html">Search</a><a class="searchbtn" href="topics/index.html">Topics</a><a class="searchbtn" href="about.html">About</a><nav class="jump" id="jump"><a href="#japan" id="j-japan">Japan</a><a href="#china" id="j-china">China</a><a href="#korea">Korea</a><a href="#taiwan">Taiwan</a><a href="#manchuria">Manchuria</a><a href="#south-seas">South Seas</a><a href="#other">Other</a></nav><span class="tools"><button class="enbtn" id="enbtn" type="button" aria-pressed="false" aria-label="Toggle to show only English-language volumes in the list below. Volumes in Japanese and Chinese are hidden, not removed; the choice is remembered in this browser.">EN<span class="tip" role="tooltip">Toggle to show only English-language volumes in the list below. Volumes in Japanese and Chinese are hidden, not removed; the choice is remembered in this browser.</span></button><span class="lbl">Sort</span><span class="seg" id="sortseg" role="group" aria-label="Sort books"><button class="viewbtn" data-m="date" type="button" aria-pressed="true" title="Sort by edition year">Edition year</button><button class="viewbtn" data-m="az" type="button" aria-pressed="false" title="Sort alphabetically">A–Z</button><button class="viewbtn" data-m="added" type="button" aria-pressed="false" title="Most recently added first">Recently added</button></span><span class="seg"><button class="viewbtn" id="viewbtn" type="button" aria-pressed="false">☰ List</button></span><span class="seg ggrpw"><button class="viewbtn ggrp" id="grpbtn" type="button" aria-pressed="false" title="In the list view, gather the volumes of each series (year books, annual reports …) under one heading">⧉ Group</button></span></span></div>
 </div></div>
 <main>
 <div id="groups">
@@ -3239,11 +3271,28 @@ __CARDS__
 <script>(function(){const bs=[...document.querySelectorAll("#sortseg button")];document.querySelectorAll("#groups .grid").forEach(g=>[...g.children].forEach((a,i)=>a.dataset.i=i));
 const key=t=>t.replace(/^(The|A|An)\s+/i,"").toLowerCase();
 const CMP={date:(x,y)=>x.dataset.i-y.dataset.i,az:(x,y)=>key(x.dataset.t).localeCompare(key(y.dataset.t),"en",{numeric:true}),added:(x,y)=>(y.dataset.a||"").localeCompare(x.dataset.a||"")||x.dataset.i-y.dataset.i};
-function set(m){if(!CMP[m])m="date";document.querySelectorAll("#groups .grid").forEach(g=>{const a=[...g.children];a.sort(CMP[m]);a.forEach(e=>g.appendChild(e))});
+function set(m){if(!CMP[m])m="date";if(window.HG)HG.off();document.querySelectorAll("#groups .grid").forEach(g=>{const a=[...g.children];a.sort(CMP[m]);a.forEach(e=>g.appendChild(e))});if(window.HG)HG.sync();
 bs.forEach(b=>b.setAttribute("aria-pressed",b.dataset.m===m?"true":"false"));try{localStorage.setItem("homesort",m)}catch(e){}}
 let m="date";try{m=localStorage.getItem("homesort")||"date"}catch(e){}set(m);bs.forEach(b=>b.onclick=()=>set(b.dataset.m))})();</script>
-<script>(function(){const bs=[document.getElementById("viewbtn"),...document.querySelectorAll(".gview")].filter(Boolean);function set(l){document.body.classList.toggle("list",l);bs.forEach(b=>{b.textContent=l?"▦ Cards":"☰ List";b.setAttribute("aria-pressed",l)});try{localStorage.setItem("homeview",l?"list":"cards")}catch(e){}}
+<script>(function(){const bs=[document.getElementById("viewbtn"),...document.querySelectorAll(".gview")].filter(Boolean);function set(l){document.body.classList.toggle("list",l);bs.forEach(b=>{b.textContent=l?"▦ Cards":"☰ List";b.setAttribute("aria-pressed",l)});if(window.HG)HG.sync();try{localStorage.setItem("homeview",l?"list":"cards")}catch(e){}}
 let l=false;try{l=localStorage.getItem("homeview")==="list"}catch(e){}set(l);bs.forEach(b=>b.onclick=()=>{const y=b.getBoundingClientRect().top;set(!document.body.classList.contains("list"));if(b.id!=="viewbtn")window.scrollBy(0,b.getBoundingClientRect().top-y)})})();</script>
+<script>(function(){// Group (list view only): the volumes of one series (data-ser, from build/crosslinks/chapters.py) are gathered under a bold
+// heading at the place of the series' first volume; the heading folds the members open and shut (remembered while on the page).
+const btns=[...document.querySelectorAll(".ggrp")];let on=false;try{on=localStorage.getItem("homegroup")==="1"}catch(e){}const open=new Set();
+function off(){document.querySelectorAll("#groups .sgrp").forEach(G=>{[...G.querySelector(".sgm").children].forEach(a=>G.parentNode.insertBefore(a,G));G.remove()})}
+function vis(){document.querySelectorAll("#groups .sgrp").forEach(G=>{const a=[...G.querySelectorAll("article")],v=a.filter(x=>!x.hidden).length,n=G.querySelector(".sgn");G.hidden=!v;n.textContent=(v<a.length?v+" of "+a.length:a.length)+" volumes"+n.dataset.yr})}
+function build(){document.querySelectorAll("#groups .grid").forEach(g=>{const by={};[...g.children].forEach(a=>{if(a.dataset.ser)(by[a.dataset.ser]=by[a.dataset.ser]||[]).push(a)});
+ Object.entries(by).forEach(([k,as])=>{if(as.length<2)return;const G=document.createElement("div");G.className="sgrp"+(open.has(k)?" open":"");
+  const y0=as.map(a=>+a.dataset.y0).filter(Boolean),y1=as.map(a=>+a.dataset.y1||+a.dataset.y0).filter(Boolean);
+  G.innerHTML='<button class="sgh" type="button" aria-expanded="'+open.has(k)+'"><span class="tri" aria-hidden="true">▾</span><b></b><span class="sgn"></span></button><div class="sgm"></div>';
+  G.querySelector("b").textContent=as[0].dataset.sn;G.querySelector(".sgn").dataset.yr=y0.length?" · "+Math.min(...y0)+"–"+Math.max(...y1):"";
+  g.insertBefore(G,as[0]);const M=G.querySelector(".sgm");as.forEach(a=>M.appendChild(a));
+  G.querySelector(".sgh").onclick=function(){const o=!G.classList.contains("open");G.classList.toggle("open",o);this.setAttribute("aria-expanded",o);if(o)open.add(k);else open.delete(k)}})});vis()}
+function sync(){off();if(on&&document.body.classList.contains("list"))build();btns.forEach(b=>b.setAttribute("aria-pressed",on))}
+window.HG={off:off,sync:sync,vis:vis};
+btns.forEach(b=>b.onclick=()=>{const y=b.getBoundingClientRect().top;on=!on;try{localStorage.setItem("homegroup",on?"1":"0")}catch(e){}sync();if(b.id!=="grpbtn")window.scrollBy(0,b.getBoundingClientRect().top-y)});sync();
+["fq","fy0","fy1","fsec"].forEach(id=>{const e=document.getElementById(id);if(e){e.addEventListener("input",()=>setTimeout(vis,0));e.addEventListener("change",()=>setTimeout(vis,0))}});
+const eb=document.getElementById("enbtn");if(eb)eb.addEventListener("click",()=>setTimeout(vis,0));setTimeout(vis,0)})();</script>
 <script>(function(){let s={};try{s=JSON.parse(localStorage.getItem("homeshut")||"{}")}catch(e){}
 function set(g,shut){g.classList.toggle("shut",shut);g.querySelector(".gtog").setAttribute("aria-expanded",!shut);if(shut)s[g.id]=1;else delete s[g.id];try{localStorage.setItem("homeshut",JSON.stringify(s))}catch(e){}}
 document.querySelectorAll("#groups .grp").forEach(g=>{if(s[g.id])set(g,true);g.querySelector(".gtog").onclick=()=>set(g,!g.classList.contains("shut"))});
