@@ -63,6 +63,14 @@ wrong and what to do about it. Add a line when a book teaches something new.
 - **Repeated sheets** (one month per page, e.g. 表230): readers split a month differently — one part, or 收入/支出 halves.
   Fix the part scheme in the brief. Fragment missions also write a NEW sub-table (next province) as a fragment:
   regroup all pieces by the heading in each caption, inheriting it on frames without one (`plan/assemble.py`, 1935).
+- **家計調査報告 (內閣統計局, 1931–1940; Taiwan 1937)** — household-budget surveys, Arabic figures, 實數/比例 parts: the
+  national 第三・四・六表 run over many spreads as column halves and row blocks → fragment missions + one join agent
+  (`../_pipeline/kakei_join/`, conservation check); from 1934 第五–第七表 also per city — tell readers that a city block
+  whose heading is on their frames is theirs even when the 第N表 title was earlier (1934 廣島市 was orphaned), and that a
+  file is named after a frame INSIDE their range (1935: two missions wrote the same p0028_1). Check the plan covers the
+  appendix lists (隣接町村, 收入分類 starting on the frame before the last mission). Readers "settle" damaged digits from
+  prose or sums and write "moderate confidence" — set those [?] at assembly. The 正誤表 slip explains many non-reconciling
+  totals; attach it. The 第六表 heading after 乾物類 is printed 豆腐佃/煮煮物/漬物類 (豆腐佃煮煮物漬物類, checked 1935).
 - **Keep join scripts** (user, 2026-11-17): column/row join and cell-conservation scripts go in `../_pipeline/kakei_join/` (generic, taking the book folder as an argument) with any book-specific mapping in `<book>/_work/join/` — never in `crops/`, which `cleanup_book.sh` deletes (the 1931–1939 家計調査 join scripts were lost that way).
 - **Joining fragments**: identical row labels do not mean the same part — a new month or sub-table with the same rows
   stays a new part; append columns only when the fragment's label is empty or names the same sub-table. Run
