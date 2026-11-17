@@ -119,3 +119,4 @@ SU1–SU6 | done | china-smc update: 1932 added (agents SU1–SU6, 2026-11-11)
 - KK1 (2026-11-17): japan-kakei series (1938–39, 1940–41) — new series, 2 topics; 35 families, 70 tables linked (Sonnet). Done.
 - KK2 (2026-11-17): japan-kakei update mode — added 1937–38; household-budgets 88 families (55 new, 90 new tables), survey-method 4 families (Sonnet). Done.
 - KK3 (2026-11-17): japan-kakei update mode — added 1936–37; household-budgets 88 new tables, survey-method 3 (Sonnet). Done.
+- KK8 (2026-11-17): japan-kakei update mode — added 1934–35; household-budgets 91 new tables, survey-method 4 (Sonnet). Done. (KK4–KK7 = 1939, 1933, 1932, 1931, same day.)

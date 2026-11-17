@@ -63,6 +63,7 @@ wrong and what to do about it. Add a line when a book teaches something new.
 - **Repeated sheets** (one month per page, e.g. 表230): readers split a month differently — one part, or 收入/支出 halves.
   Fix the part scheme in the brief. Fragment missions also write a NEW sub-table (next province) as a fragment:
   regroup all pieces by the heading in each caption, inheriting it on frames without one (`plan/assemble.py`, 1935).
+- **Keep join scripts** (user, 2026-11-17): column/row join and cell-conservation scripts go in `../_pipeline/kakei_join/` (generic, taking the book folder as an argument) with any book-specific mapping in `<book>/_work/join/` — never in `crops/`, which `cleanup_book.sh` deletes (the 1931–1939 家計調査 join scripts were lost that way).
 - **Joining fragments**: identical row labels do not mean the same part — a new month or sub-table with the same rows
   stays a new part; append columns only when the fragment's label is empty or names the same sub-table. Run
   `validate.py` after every join (a fragment lacking its row-label column heading broke 表209's widths).
