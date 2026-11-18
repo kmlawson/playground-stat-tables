@@ -1420,7 +1420,14 @@
 "japan|中之郷村": "n-jp-nakanogo-mura",
 "japan|青島": "n-jp-aogashima",
 "japan|北硫黄島": "n-jp-kita-iojima",
-"japan|北硫黃島": "n-jp-kita-iojima"
+"japan|北硫黃島": "n-jp-kita-iojima",
+"japan|三宅島伊ヶ谷村": "n-jp-miyake-igaya",
+"japan|三宅島伊豆村": "n-jp-miyake-izu",
+"japan|三宅島坪田村": "n-jp-miyake-tsubota",
+"japan|三宅島阿古村": "n-jp-miyake-ako",
+"japan|新島若郷村": "n-jp-niijima-wakago",
+"japan|母島北村": "n-jp-hahajima-kitamura",
+"japan|靑ヶ島": "n-jp-aogashima"
 },
 "new": {
 "n-kr-ranan": {
@@ -6138,6 +6145,60 @@
 "ja": "北硫黃島",
 "k": "island",
 "up": "jp13"
+},
+"n-jp-miyakejima": {
+"en": "Miyake-jima",
+"ja": "三宅島",
+"k": "island",
+"up": "jp13"
+},
+"n-jp-miyake-igaya": {
+"en": "Igaya Village (Miyake-jima)",
+"ja": "伊ヶ谷村",
+"k": "town",
+"up": "n-jp-miyakejima"
+},
+"n-jp-miyake-izu": {
+"en": "Izu Village (Miyake-jima)",
+"ja": "伊豆村",
+"k": "town",
+"up": "n-jp-miyakejima"
+},
+"n-jp-miyake-tsubota": {
+"en": "Tsubota Village (Miyake-jima)",
+"ja": "坪田村",
+"k": "town",
+"up": "n-jp-miyakejima"
+},
+"n-jp-miyake-ako": {
+"en": "Ako Village (Miyake-jima)",
+"ja": "阿古村",
+"k": "town",
+"up": "n-jp-miyakejima"
+},
+"n-jp-niijima": {
+"en": "Niijima",
+"ja": "新島",
+"k": "island",
+"up": "jp13"
+},
+"n-jp-niijima-wakago": {
+"en": "Wakago Village (Niijima)",
+"ja": "若郷村",
+"k": "town",
+"up": "n-jp-niijima"
+},
+"n-jp-hahajima": {
+"en": "Hahajima",
+"ja": "母島",
+"k": "island",
+"up": "jp13"
+},
+"n-jp-hahajima-kitamura": {
+"en": "Kita Village (Hahajima)",
+"ja": "北村",
+"k": "town",
+"up": "n-jp-hahajima"
 }
 }
 }
