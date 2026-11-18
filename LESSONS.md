@@ -186,3 +186,9 @@ wrong and what to do about it. Add a line when a book teaches something new.
   慶州郡's survey with 日本勞働年鑑's. Every brief must say: write and run helper scripts only in the book's own
   `crops/<mission>/` folder, never in a scratchpad or /tmp, and never run a script you did not write.
 - **Fold-outs photographed as a grid of overlapping tiles** (活動寫眞フイルム檢閱年報 1938, 第二表: 3 bands × 4 strips, 110 rows × 70 cols): one Sonnet mission per COLUMN strip (all bands), each writing tables/frag/M_sK.json with the full row label + a row_no column; join by row_no and merge columns seen in two strips cell by cell (1,207/1,210 agreed). Check the joined header against the scan: a column pair at a strip boundary (教化 — 教育) was skipped by both neighbours and needed a fix strip; lower bands may be shifted so a strip's right-edge columns are cut off there — the fix strip reads them from the next tile.
+- **Official prose overviews with in-text kanji tables** (臺灣社會敎育概要 1935/1937): sweep every body frame (plan/make_plan.py
+  in the book folders: table frames ≤ 3 per mission, prose ≤ 6). Say up front that the 役員 lists inside association rules
+  (會則, 規約) and numbered lists of measures are not tables — readers transcribed both until told. The contents' page numbers
+  are stacked kanji in tiny type (三/四/五 and 六/八 confused): correct them from the headings in the mission reports, not by
+  a re-read. Small-type tables in these NDL scans can be too blurred to read (1935: 543 of 550 [?] in six tables) — publish
+  with [?]; the finder skips figures printed as "N餘" (approximate).
