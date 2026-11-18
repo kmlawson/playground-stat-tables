@@ -1414,7 +1414,13 @@
 "japan|Kita-Tama district": "n-jp-kita-tama-gun",
 "japan|Minami-Tama district": "n-jp-minami-tama-gun",
 "japan|Nishi-Tama district": "n-jp-nishi-tama-gun",
-"japan|杉竝": "n-tokyo-suginami"
+"japan|杉竝": "n-tokyo-suginami",
+"japan|增戸村": "n-jp-masudo-mura",
+"japan|大賀郷村": "n-jp-okago-mura",
+"japan|中之郷村": "n-jp-nakanogo-mura",
+"japan|青島": "n-jp-aogashima",
+"japan|北硫黄島": "n-jp-kita-iojima",
+"japan|北硫黃島": "n-jp-kita-iojima"
 },
 "new": {
 "n-kr-ranan": {
@@ -6095,6 +6101,42 @@
 "en": "Nishi-Tama District",
 "ja": "西多摩郡",
 "k": "district",
+"up": "jp13"
+},
+"n-jp-masudo-mura": {
+"en": "Masudo Village",
+"ja": "增戸村",
+"k": "town",
+"up": "n-jp-nishi-tama-gun"
+},
+"n-jp-hachijojima": {
+"en": "Hachijō-jima",
+"ja": "八丈島",
+"k": "island",
+"up": "jp13"
+},
+"n-jp-okago-mura": {
+"en": "Ōkagō Village (Hachijō-jima)",
+"ja": "大賀郷村",
+"k": "town",
+"up": "n-jp-hachijojima"
+},
+"n-jp-nakanogo-mura": {
+"en": "Nakanogō Village (Hachijō-jima)",
+"ja": "中之郷村",
+"k": "town",
+"up": "n-jp-hachijojima"
+},
+"n-jp-aogashima": {
+"en": "Aogashima",
+"ja": "青島",
+"k": "island",
+"up": "jp13"
+},
+"n-jp-kita-iojima": {
+"en": "Kita-Iōjima (North Iwo Jima)",
+"ja": "北硫黃島",
+"k": "island",
 "up": "jp13"
 }
 }

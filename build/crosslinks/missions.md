@@ -125,3 +125,4 @@ SU1–SU6 | done | china-smc update: 1932 added (agents SU1–SU6, 2026-11-11)
 - KK9 (2026-11-17): japan-kakei update mode — added 1935–36; household-budgets 92 new tables (2 new families), survey-method 4 (Sonnet). Done.
 - TK1 (2026-11-18): taiwan-shakai-kyoiku series (1935, 1937 臺灣社會敎育概要) — new series, 3 topics from chapters; 16 families, 35 tables linked (Sonnet). Done.
 - KS13–KS15 (2026-11-18): japan-keishicho update — 1937 edition (第47回) added (update mode); 1937 tables linked in 20 topics incl. Fires (Sonnet). Done.
+- KS16–KS18 (2026-11-18): japan-keishicho update — 1938 edition (第48回) added (update mode); 1938 tables linked in 19 topics (Sonnet). Done.

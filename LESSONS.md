@@ -192,3 +192,8 @@ wrong and what to do about it. Add a line when a book teaches something new.
   are stacked kanji in tiny type (三/四/五 and 六/八 confused): correct them from the headings in the mission reports, not by
   a re-read. Small-type tables in these NDL scans can be too blurred to read (1935: 543 of 550 [?] in six tables) — publish
   with [?]; the finder skips figures printed as "N餘" (approximate).
+- **Police-station row labels** (警視廳統計書 1937/1938, ~80 署 rows per table in heavy, blurred type): readers misread or
+  filled names from the "usual order" (富岡 for 言問, 湯島 for 象潟). Normalise at assembly against the book's own station
+  list by position (`plan/fix_stations.py`), but only replace labels that are NOT another valid station name: the
+  printed order really differs between tables (1938 第一三〇表 砂町 before 龜戶; 1937 第一四五表 王子·赤羽·練馬), and a
+  forced order there mislabels whole rows. Check any reorder on the scan before applying it.
