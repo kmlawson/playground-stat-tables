@@ -26077,5 +26077,151 @@
    }
   ],
   "fp": "78d8a7e859"
+ },
+ {
+  "t": "china-1950:p1-0019_1",
+  "x": [
+   {
+    "pt": "province",
+    "in": "China",
+    "d": "1948-06",
+    "b": "estimate",
+    "rp": {
+     "35": "Tibet",
+     "46": "Dairen",
+     "47": "Harbin",
+     "48": "China",
+     "24": "Kirin Province"
+    },
+    "cols": [
+     {
+      "c": 2
+     },
+     {
+      "c": 3,
+      "m": "male"
+     },
+     {
+      "c": 4,
+      "m": "female"
+     },
+     {
+      "c": 1,
+      "m": "households"
+     }
+    ]
+   }
+  ],
+  "fp": "af7666a8bd"
+ },
+ {
+  "t": "china-cyb-1937:p1237_3",
+  "x": [
+   {
+    "pt": "province",
+    "in": "Manchuria",
+    "d": "1935-06-30",
+    "rp": {
+     "10": "North Manchuria Special District",
+     "12": "Hsinking",
+     "13": "-",
+     "14": "South Manchuria Railway Zone",
+     "15": "Kwantung Leased Territory",
+     "16": "-",
+     "4": "Kirin Province"
+    },
+    "cols": [
+     {
+      "c": 1,
+      "g": "japanese"
+     },
+     {
+      "c": 2,
+      "g": "korean"
+     }
+    ]
+   }
+  ],
+  "fp": "b4c54731d4"
+ },
+ {
+  "t": "japan-manchoukuo-1938:p1-0724_2",
+  "x": [
+   {
+    "pt": "province",
+    "in": "Manchuria",
+    "d": "1935-12-31",
+    "rp": {
+     "4": "Pinkiang",
+     "6": "Antung",
+     "10": "Hsinking",
+     "11": "Harbin",
+     "16": "Manchukuo",
+     "17": "-",
+     "18": "-",
+     "19": "-",
+     "0": "Kirin Province"
+    },
+    "cols": [
+     {
+      "c": 5
+     },
+     {
+      "c": 1,
+      "g": "manchukuoan"
+     },
+     {
+      "c": 2,
+      "g": "japanese"
+     },
+     {
+      "c": 3,
+      "g": "korean"
+     }
+    ]
+   }
+  ],
+  "fp": "7ff6f6d107"
+ },
+ {
+  "t": "pacific-survey-1941-42:p1-0047_2",
+  "x": [
+   {
+    "pt": "province",
+    "in": "Manchuria",
+    "d": "1937-12-31",
+    "b": "estimate",
+    "mult": 1000,
+    "rp": {
+     "16": "Manchukuo",
+     "17": "Kwantung Leased Territory",
+     "18": "Manchuria",
+     "0": "Kirin Province"
+    },
+    "cols": [
+     {
+      "c": 1
+     },
+     {
+      "c": 2,
+      "g": "chinese",
+      "n": "Chinese and Mongols"
+     },
+     {
+      "c": 3,
+      "g": "japanese"
+     },
+     {
+      "c": 4,
+      "g": "korean"
+     },
+     {
+      "c": 5,
+      "g": "other"
+     }
+    ]
+   }
+  ],
+  "fp": "6d3d24a135"
  }
 ]

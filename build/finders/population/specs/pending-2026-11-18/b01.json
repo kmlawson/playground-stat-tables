@@ -1,0 +1,639 @@
+[
+ {
+  "t": "japan-keishicho-1939:p0038_4",
+  "x": [
+   {
+    "rows": "dates",
+    "p": "Tokyo-fu",
+    "b": "resident",
+    "rd": {
+     "0": "1930",
+     "1": "1931",
+     "2": "1932",
+     "3": "1933",
+     "4": "1934",
+     "5": "1935",
+     "6": "1936",
+     "7": "1937",
+     "8": "1938",
+     "9": "1939"
+    },
+    "n": "excludes water-dwellers",
+    "cols": [
+     {
+      "c": 2
+     },
+     {
+      "c": 3,
+      "m": "male"
+     },
+     {
+      "c": 4,
+      "m": "female"
+     },
+     {
+      "c": 1,
+      "m": "households"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "t": "japan-keishicho-1939:p0039_1",
+  "x": [
+   {
+    "pt": "district",
+    "in": "Tokyo-fu",
+    "d": "1939-12-31",
+    "b": "resident",
+    "n": "police station area",
+    "rp": {
+     "0": "Tokyo-fu",
+     "1": "Tokyo City",
+     "2": "-",
+     "42": "-",
+     "83": "-",
+     "84": "-",
+     "85": "Tokyo-fu counties (gunbu)",
+     "92": "Tokyo-fu islands"
+    },
+    "cols": [
+     {
+      "c": 2
+     },
+     {
+      "c": 3,
+      "m": "male"
+     },
+     {
+      "c": 4,
+      "m": "female"
+     },
+     {
+      "c": 1,
+      "m": "households"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "t": "japan-keishicho-1939:p0040_1",
+  "x": [
+   {
+    "pt": "district",
+    "in": "Tokyo-fu",
+    "d": "1939-12-31",
+    "b": "resident",
+    "n": "police station area",
+    "rp": {
+     "0": "Tokyo-fu",
+     "1": "Tokyo City",
+     "2": "-",
+     "42": "-",
+     "83": "-",
+     "84": "-",
+     "85": "Tokyo-fu counties (gunbu)",
+     "92": "Tokyo-fu islands"
+    },
+    "cols": [
+     {
+      "c": 3
+     },
+     {
+      "c": 4,
+      "m": "male"
+     },
+     {
+      "c": 5,
+      "m": "female"
+     },
+     {
+      "c": 2,
+      "m": "households"
+     },
+     {
+      "c": 7,
+      "g": "japanese"
+     },
+     {
+      "c": 8,
+      "m": "male",
+      "g": "japanese"
+     },
+     {
+      "c": 9,
+      "m": "female",
+      "g": "japanese"
+     },
+     {
+      "c": 6,
+      "m": "households",
+      "g": "japanese"
+     },
+     {
+      "c": 15,
+      "g": "foreign"
+     },
+     {
+      "c": 16,
+      "m": "male",
+      "g": "foreign"
+     },
+     {
+      "c": 17,
+      "m": "female",
+      "g": "foreign"
+     },
+     {
+      "c": 14,
+      "m": "households",
+      "g": "foreign"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "t": "japan-keishicho-1939:p0042_1",
+  "x": [
+   {
+    "pt": "district",
+    "in": "Tokyo-fu",
+    "b": "resident",
+    "n": "police station area",
+    "rp": {
+     "0": "Tokyo-fu",
+     "1": "Tokyo City",
+     "2": "-",
+     "42": "-",
+     "83": "-",
+     "84": "-",
+     "85": "Tokyo-fu counties (gunbu)",
+     "92": "Tokyo-fu islands"
+    },
+    "cols": [
+     {
+      "c": 2,
+      "d": "1939-12-31"
+     },
+     {
+      "c": 1,
+      "m": "households",
+      "d": "1939-12-31"
+     },
+     {
+      "c": 4,
+      "d": "1938-12-31"
+     },
+     {
+      "c": 3,
+      "m": "households",
+      "d": "1938-12-31"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "t": "japan-keishicho-1939:p0043_1",
+  "x": [
+   {
+    "in": "Tokyo City",
+    "d": "1939-12-31",
+    "b": "resident",
+    "cols": [
+     {
+      "c": 2
+     },
+     {
+      "c": 3,
+      "m": "male"
+     },
+     {
+      "c": 4,
+      "m": "female"
+     },
+     {
+      "c": 1,
+      "m": "households"
+     }
+    ],
+    "pt": "ward",
+    "only": [
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33,
+     34,
+     35,
+     36
+    ],
+    "rp": {}
+   },
+   {
+    "in": "Tokyo-fu",
+    "d": "1939-12-31",
+    "b": "resident",
+    "cols": [
+     {
+      "c": 2
+     },
+     {
+      "c": 3,
+      "m": "male"
+     },
+     {
+      "c": 4,
+      "m": "female"
+     },
+     {
+      "c": 1,
+      "m": "households"
+     }
+    ],
+    "pt": "city",
+    "only": [
+     0,
+     1,
+     37
+    ],
+    "rp": {
+     "0": "Tokyo-fu",
+     "1": "Tokyo City"
+    }
+   },
+   {
+    "in": "Tokyo-fu",
+    "d": "1939-12-31",
+    "b": "resident",
+    "cols": [
+     {
+      "c": 2
+     },
+     {
+      "c": 3,
+      "m": "male"
+     },
+     {
+      "c": 4,
+      "m": "female"
+     },
+     {
+      "c": 1,
+      "m": "households"
+     }
+    ],
+    "pt": "town",
+    "only": [
+     39,
+     40,
+     41,
+     42,
+     43,
+     44,
+     45,
+     46,
+     47,
+     48,
+     49,
+     50,
+     51,
+     52,
+     53,
+     54,
+     55,
+     56,
+     58,
+     59,
+     60,
+     61,
+     62,
+     63,
+     64,
+     65,
+     66,
+     67,
+     68,
+     69,
+     70,
+     71,
+     72,
+     73,
+     74,
+     75,
+     76,
+     77,
+     78,
+     79,
+     80,
+     82,
+     83,
+     84,
+     85,
+     86,
+     87,
+     88,
+     89,
+     90,
+     91,
+     92,
+     93,
+     94,
+     95,
+     96,
+     97,
+     98,
+     99,
+     100,
+     101,
+     102,
+     103,
+     104,
+     105,
+     106,
+     107,
+     108,
+     110,
+     111,
+     112,
+     113,
+     114,
+     115,
+     116,
+     117,
+     118,
+     119,
+     120,
+     121,
+     122,
+     123,
+     124,
+     125,
+     126,
+     127,
+     128,
+     129,
+     130,
+     131,
+     132,
+     133,
+     134,
+     135,
+     137,
+     138,
+     139,
+     140,
+     141,
+     142,
+     143,
+     144,
+     145,
+     146,
+     147,
+     148
+    ]
+   },
+   {
+    "in": "Tokyo-fu",
+    "d": "1939-12-31",
+    "b": "resident",
+    "cols": [
+     {
+      "c": 2
+     },
+     {
+      "c": 3,
+      "m": "male"
+     },
+     {
+      "c": 4,
+      "m": "female"
+     },
+     {
+      "c": 1,
+      "m": "households"
+     }
+    ],
+    "pt": "district",
+    "only": [
+     38,
+     57,
+     81
+    ],
+    "rp": {
+     "0": "Tokyo-fu",
+     "1": "Tokyo City",
+     "38": "Minami-Tama District",
+     "57": "Kita-Tama District",
+     "81": "Nishi-Tama District",
+     "109": "Izu Islands",
+     "136": "Ogasawara Islands"
+    }
+   },
+   {
+    "in": "Tokyo-fu",
+    "d": "1939-12-31",
+    "b": "resident",
+    "cols": [
+     {
+      "c": 2
+     },
+     {
+      "c": 3,
+      "m": "male"
+     },
+     {
+      "c": 4,
+      "m": "female"
+     },
+     {
+      "c": 1,
+      "m": "households"
+     }
+    ],
+    "pt": "island",
+    "only": [
+     109,
+     136
+    ],
+    "rp": {
+     "0": "Tokyo-fu",
+     "1": "Tokyo City",
+     "38": "Minami-Tama District",
+     "57": "Kita-Tama District",
+     "81": "Nishi-Tama District",
+     "109": "Izu Islands",
+     "136": "Ogasawara Islands"
+    }
+   }
+  ]
+ },
+ {
+  "t": "korea-domakumin-1942:p0019_1",
+  "x": [
+   {
+    "rows": "cells",
+    "b": "other",
+    "p": "Korea",
+    "m": "households",
+    "n": "total households",
+    "cells": [
+     {
+      "r": 0,
+      "c": 1,
+      "d": "1926"
+     },
+     {
+      "r": 0,
+      "c": 2,
+      "d": "1930"
+     },
+     {
+      "r": 0,
+      "c": 3,
+      "d": "1933"
+     },
+     {
+      "r": 0,
+      "c": 4,
+      "d": "1936"
+     },
+     {
+      "r": 0,
+      "c": 5,
+      "d": "1939"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "t": "korea-domakumin-1942:p0031_1",
+  "skip": "farm size percentages"
+ },
+ {
+  "t": "korea-domakumin-1942:p0038_1",
+  "skip": "farm classes"
+ },
+ {
+  "t": "korea-domakumin-1942:p0044_3",
+  "x": [
+   {
+    "rows": "cells",
+    "b": "other",
+    "p": "Japan proper",
+    "g": "korean",
+    "d": "1939-12-31",
+    "n": "Koreans in Japan, total of occupation table",
+    "cells": [
+     {
+      "r": 12,
+      "c": 1
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "t": "korea-domakumin-1942:p0049_1",
+  "skip": "survey household sizes"
+ },
+ {
+  "t": "korea-domakumin-1942:p0049_2",
+  "skip": "average household size"
+ },
+ {
+  "t": "korea-domakumin-1942:p0049_3",
+  "skip": "survey sample persons"
+ },
+ {
+  "t": "korea-domakumin-1942:p0053_2",
+  "skip": "marriages"
+ },
+ {
+  "t": "korea-domakumin-1942:p0056_1",
+  "skip": "domicile of survey"
+ },
+ {
+  "t": "korea-domakumin-1942:p0070_1",
+  "skip": "employed persons"
+ },
+ {
+  "t": "korea-domakumin-1942:p0071_1",
+  "skip": "employed persons"
+ },
+ {
+  "t": "korea-domakumin-1942:p0076_2",
+  "skip": "income by household size"
+ },
+ {
+  "t": "korea-domakumin-1942:p0079_1",
+  "skip": "poor households subgroup"
+ },
+ {
+  "t": "korea-domakumin-1942:p0080_1",
+  "x": [
+   {
+    "rows": "cells",
+    "b": "other",
+    "p": "Seoul",
+    "g": "tomakmin",
+    "d": "1939-12-31",
+    "n": "hut-dwellers (tomakmin) only",
+    "cells": [
+     {
+      "r": 2,
+      "c": 1,
+      "m": "households"
+     },
+     {
+      "r": 2,
+      "c": 2
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "t": "korea-domakumin-1942:p0151_1",
+  "skip": "tuberculin tests"
+ },
+ {
+  "t": "korea-domakumin-1942:p0151_3",
+  "skip": "tuberculin tests"
+ },
+ {
+  "t": "korea-domakumin-1942:p0152_1",
+  "skip": "tuberculin tests"
+ }
+]
