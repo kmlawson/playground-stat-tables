@@ -117,6 +117,7 @@ SU1–SU6 | done | china-smc update: 1932 added (agents SU1–SU6, 2026-11-11)
 - KS1–KS3 (2026-11-13): japan-keishicho series (1935 第45回, 1942 第52回) — new series, 18 topics from chapters; 170 families, 355 tables linked (Sonnet). Done.
 - KS4–KS6 (2026-11-13): japan-keishicho update — 1925 edition added (update mode); new topics Fires, Public health (1925+1935); 202 1925 tables linked (Sonnet). Done.
 - KS7–KS9 (2026-11-18): japan-keishicho update — 1939 edition (第49回) added (update mode); 243 1939 tables linked in 19 topics (Sonnet). Done.
+- KS10–KS12 (2026-11-18): japan-keishicho update — 1940 edition (第50回) added (update mode); 258 1940 tables linked in 19 topics (Sonnet). Done.
 - KK1 (2026-11-17): japan-kakei series (1938–39, 1940–41) — new series, 2 topics; 35 families, 70 tables linked (Sonnet). Done.
 - KK2 (2026-11-17): japan-kakei update mode — added 1937–38; household-budgets 88 families (55 new, 90 new tables), survey-method 4 families (Sonnet). Done.
 - KK3 (2026-11-17): japan-kakei update mode — added 1936–37; household-budgets 88 new tables, survey-method 3 (Sonnet). Done.
