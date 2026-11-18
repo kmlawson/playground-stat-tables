@@ -1999,3 +1999,10 @@ SERIES["japan-keishicho"] = {"name": "警視廳統計書 (Statistical Report of 
     "Summary judgments of police offences": {"japan-keishicho-1925": ["警察犯卽決"], "japan-keishicho-1935": ["警察犯卽決"], "japan-keishicho-1939": ["警察犯即決"], "japan-keishicho-1940": ["警察犯即決"], "japan-keishicho-1942": ["警察犯卽決"]},
     "Fires": {"japan-keishicho-1925": ["火災"], "japan-keishicho-1935": ["火災"]},
     "Public health": {"japan-keishicho-1925": ["衞生"], "japan-keishicho-1935": ["衛生"], "japan-keishicho-1939": ["衞生"], "japan-keishicho-1940": ["衛生"]}}}
+
+SERIES["taiwan-shakai-kyoiku"] = {"name": "臺灣社會敎育概要 (Outline of Social Education in Taiwan, Government-General of Taiwan)",
+  "books": ["taiwan-shakai-kyoiku-1935", "taiwan-shakai-kyoiku-1937"],
+  "topics": {
+    "General survey and civic education": {"taiwan-shakai-kyoiku-1935": ["公民教育 / 國語普及", "公民教育 / 教化團體聯合統制機關", "公民教育 / 敬神思想の普及施設", "公民教育 / 部落教化施設", "總說 / 本島の一般教育狀勢", "總說 / 本島社會教育の狀勢"], "taiwan-shakai-kyoiku-1937": ["公民敎育 / 一 國語普及", "公民敎育 / 二 部落敎化", "總說 / 一 本島の一般敎育狀勢", "總說 / 二 本島社會敎育の狀勢"]},
+    "Youth education": {"taiwan-shakai-kyoiku-1935": ["青少年教育 / 中堅青年養成施設", "青少年教育 / 少年團", "青少年教育 / 青年團", "青少年教育 / 青年補導教育", "青少年教育 / 青年訓練所"], "taiwan-shakai-kyoiku-1937": ["青少年敎育 / 一 青年團", "青少年敎育 / 三 中堅青年養成施設", "青少年敎育 / 二 女子青年團", "青少年敎育 / 五 青年訓練所", "青少年敎育 / 六 少年團", "青少年敎育 / 四 青年補導敎育"]},
+    "Adult and general social education": {"taiwan-shakai-kyoiku-1935": ["成人教育 / ラヂオ教育", "成人教育 / 博物館", "成人教育 / 圖書館", "成人教育 / 宗教的教化施設", "成人教育 / 常設的觀覽施設", "成人教育 / 情操教育", "成人教育 / 成人團體", "成人教育 / 成人教育施設", "成人教育 / 映畫教育", "成人教育 / 民衆體育"], "taiwan-shakai-kyoiku-1937": ["一般社會敎育 / 一〇 其の他の施設", "一般社會敎育 / 三 映畫敎育", "一般社會敎育 / 二 民衆體育", "一般社會敎育 / 五 情操敎育"]}}}
