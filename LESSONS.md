@@ -203,3 +203,7 @@ wrong and what to do about it. Add a line when a book teaches something new.
   list by position (`plan/fix_stations.py`), but only replace labels that are NOT another valid station name: the
   printed order really differs between tables (1938 第一三〇表 砂町 before 龜戶; 1937 第一四五表 王子·赤羽·練馬), and a
   forced order there mislabels whole rows. Check any reorder on the scan before applying it.
+- **Finder spec files collide within a day** (2026-11-19): `status.py --batches` always writes its batch as
+  `work/batches/pending-<date>/b01.txt`, but `specs/pending-<date>/` may already hold `b01.json` … from an earlier run
+  that day. A spec agent told to write `b01.json` overwrote 16 specs of another book. Always give the spec agent the next
+  FREE `bNN.json` (list the folder first).

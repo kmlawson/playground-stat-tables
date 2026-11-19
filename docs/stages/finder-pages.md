@@ -29,7 +29,8 @@ shows a card for a matching place, and the Japanese Empire map's place card link
   be added to figures page" — part of publishing the book, not batched): build; `python3 build/finders/status.py
   --batches` (tables with no spec, stale specs, new unmatched names, new suspicious figures; writes
   `work/batches/pending-<date>/`); one Sonnet agent per finder on those batches with its `TASK.md`, specs into
-  `specs/pending-<date>/`; one agent on `work/new_names.txt` with `ALIAS_TASK.md`; one on `work/new_outliers.txt` with
+  `specs/pending-<date>/` — as the next FREE `bNN.json` (list the folder first: an earlier run the same day may already own
+  `b01.json`); one agent on `work/new_names.txt` with `ALIAS_TASK.md`; one on `work/new_outliers.txt` with
   `OUTLIER_TASK.md`; build again; look at a few new places; `status.py --baseline`; commit specs + baselines, bump
   version, push. Table pages get their finder link one build after a table's spec (they read `table_links.json`).
 - **A new finder:** copy `population/`, change `config.json`, `TASK.md` and the claim fields in `extract.py`/the
