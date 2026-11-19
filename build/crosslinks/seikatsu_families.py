@@ -11,13 +11,13 @@ S = SERIES["japan-seikatsu-jikan"]
 REG = {"北海道": "Hokkaidō", "東北": "Tōhoku", "北陸": "Hokuriku", "關東": "Kantō", "東山": "Tōsan", "東海": "Tōkai",
        "近畿": "Kinki", "中國": "Chūgoku", "四國": "Shikoku", "九州": "Kyūshū"}
 SUBS = {"官公吏": "government officials", "會社員": "company employees", "紡織": "textiles", "金屬": "metals", "機械": "machinery",
-        "化學": "chemicals", "大規模": "large works", "中規模": "medium-sized works", "小規模": "small works", "通勤": "living at home",
+        "化學": "chemicals", "大規模": "large works", "大都市": "large cities", "中都市": "medium-sized cities", "小都市": "small cities", "中規模": "medium-sized works", "小規模": "small works", "通勤": "living at home",
         "寄宿": "living in dormitories"}
 GROUP = {"俸給生活者": "salaried", "工場勞務者": "factory", "工場労務者": "factory", "世帶主": "shop", "營業使用人": "shop"}
 
 
 def norm(s):
-    return s.replace("歲", "歳").replace(" ", "").replace("　", "")
+    return s.replace("查", "査").replace("歲", "歳").replace(" ", "").replace("　", "")
 
 
 def key(t):
