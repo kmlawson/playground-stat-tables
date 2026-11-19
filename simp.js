@@ -24,6 +24,20 @@ function modeOf(el){
   if(m){if(e!==document.documentElement)CACHE.set(e,m);return m}
  }
  return document.documentElement.getAttribute("data-cjk")||"ja"}
+// typeface (always, whether or not the option is on): Chinese text in a Chinese font, Japanese in a Japanese one, so
+// one title never mixes two fonts. Chinese book pages carry data-cjk="zh" on <html> (CSS sets the font there); on
+// mixed pages each element whose text belongs to a Chinese book gets class "zh" (CSS .zh in the page's style).
+function markZh(root){
+ if(document.documentElement.getAttribute("data-cjk")==="zh"||!root)return;
+ if(root.nodeType===3)root=root.parentElement;if(!root||root.nodeType!==1)return;
+ const w=document.createTreeWalker(root,NodeFilter.SHOW_TEXT);let n;
+ while((n=w.nextNode())){const p=n.parentElement;
+  if(!p||SKIP.has(p.tagName)||p.classList.contains("zh")||!RX.test(n.data))continue;
+  if(modeOf(p)==="zh")p.classList.add("zh")}}
+const FOBS=new MutationObserver(ms=>{for(const m of ms)m.addedNodes.forEach(markZh)});
+const ZHF='"Noto Serif SC","Songti SC","STSong","Source Han Serif SC","Noto Serif CJK SC","SimSun"';
+function fonts(){if(!document.getElementById("zhfont")){const st=document.createElement("style");st.id="zhfont";st.textContent=".zh{font-family:Georgia,\"Times New Roman\","+ZHF+",serif}";document.head.appendChild(st)}markZh(document.body);if(document.body)FOBS.observe(document.body,{childList:true,subtree:true})}
+if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",fonts);else fonts();
 let ON=false;try{ON=localStorage.getItem(KEY)==="1"}catch(e){}
 function doText(n){
  if(n.__sc!==undefined&&n.data===n.__sc)return;

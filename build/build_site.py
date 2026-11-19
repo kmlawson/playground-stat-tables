@@ -2806,10 +2806,10 @@ def topics_menu(counts, have, prefix=""):
 
 TOPIC_INDEX = r"""<!DOCTYPE html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Tables by topic</title>
-<style>
+<style>:root{--cjk:"Noto Serif JP","Hiragino Mincho ProN","Hiragino Mincho Pro","Yu Mincho","YuMincho","Noto Serif CJK JP","Source Han Serif JP","MS PMincho"}[data-cjk=zh]{--cjk:"Noto Serif SC","Songti SC","STSong","Source Han Serif SC","Noto Serif CJK SC","SimSun"}.zh{font-family:Georgia,"Times New Roman","Noto Serif SC","Songti SC","STSong","Source Han Serif SC","Noto Serif CJK SC",serif}
 :root{--bg:#f4f5f3;--panel:#ffffff;--ink:#1b2420;--muted:#5d6a62;--line:#d8ded9;--accent:#1f4a2c;--accent-ink:#ffffff}
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#111814;--panel:#17211b;--ink:#e4ebe6;--muted:#9aa89f;--line:#2c3a31;--accent:#8cc49e;--accent-ink:#0f1a13}}
-*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 Georgia,"Hiragino Mincho ProN","Yu Mincho","Noto Serif CJK JP",serif}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 Georgia,var(--cjk),serif}
 .band{background:var(--accent);color:var(--accent-ink)}.band>div{max-width:1040px;margin:0 auto;padding:22px 16px 20px}.band a{color:var(--accent-ink)}.band h1{font-weight:normal;font-size:28px;margin:4px 0 6px}
 main{max-width:1040px;margin:0 auto;padding:20px 16px 60px}.lede{color:var(--muted);max-width:760px;font-size:15px}
 .tw{overflow-x:auto}table{border-collapse:collapse;width:100%;min-width:560px;background:var(--panel);border:1px solid var(--line)}th,td{border-bottom:1px solid var(--line);padding:10px 12px;text-align:left;vertical-align:top}thead th{font-weight:normal;color:var(--muted);font-size:14px}tbody th{font-weight:normal;font-size:18px;white-space:nowrap}
@@ -2825,11 +2825,11 @@ td a{display:block;color:var(--ink);text-decoration:none}td a b{font-weight:norm
 TOPIC_PAGE = r"""<!DOCTYPE html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>__REGION__: __TOPIC__ tables</title>
-<style>
+<style>:root{--cjk:"Noto Serif JP","Hiragino Mincho ProN","Hiragino Mincho Pro","Yu Mincho","YuMincho","Noto Serif CJK JP","Source Han Serif JP","MS PMincho"}[data-cjk=zh]{--cjk:"Noto Serif SC","Songti SC","STSong","Source Han Serif SC","Noto Serif CJK SC","SimSun"}.zh{font-family:Georgia,"Times New Roman","Noto Serif SC","Songti SC","STSong","Source Han Serif SC","Noto Serif CJK SC",serif}
 :root{--bg:#f4f5f3;--panel:#ffffff;--ink:#1b2420;--muted:#5d6a62;--line:#d8ded9;--accent:#1f4a2c;--accent-ink:#ffffff;--hi:#e2ece4;--warn:#8a5a00}
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#111814;--panel:#17211b;--ink:#e4ebe6;--muted:#9aa89f;--line:#2c3a31;--accent:#8cc49e;--accent-ink:#0f1a13;--hi:#1f3527;--warn:#e0a54a}}
 :root[data-theme="dark"]{--bg:#111814;--panel:#17211b;--ink:#e4ebe6;--muted:#9aa89f;--line:#2c3a31;--accent:#8cc49e;--accent-ink:#0f1a13;--hi:#1f3527;--warn:#e0a54a}
-*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 Georgia,"Times New Roman","Hiragino Mincho ProN","Yu Mincho","Noto Serif CJK JP","Noto Serif JP",serif}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 Georgia,"Times New Roman",var(--cjk),serif}
 .band{background:var(--accent);color:var(--accent-ink)}.band>div{max-width:1040px;margin:0 auto;padding:22px 16px 20px}.band a{color:var(--accent-ink)}.band h1{font-weight:normal;font-size:28px;margin:4px 0 6px}.crumb{font-size:14px;opacity:.9}.tnav{font-size:15px}.tnav .also{font-size:13.5px;opacity:.9}
 main{max-width:1040px;margin:0 auto;padding:20px 16px 60px}.lede{color:var(--muted);max-width:760px;font-size:15px}
 .ctl{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:16px 0 10px}input,select,button{font:inherit;font-size:14px;padding:6px 8px;border:1px solid var(--line);background:var(--panel);color:var(--ink);border-radius:4px}#q{flex:1 1 220px;min-width:0}
@@ -3503,13 +3503,13 @@ def landing(cards):
 
 LANDING = r"""<!DOCTYPE html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&display=swap">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&family=Noto+Serif+SC:wght@400;700&display=swap">
 <title>Old Tables of East Asia</title>
-<style>
+<style>:root{--cjk:"Noto Serif JP","Hiragino Mincho ProN","Hiragino Mincho Pro","Yu Mincho","YuMincho","Noto Serif CJK JP","Source Han Serif JP","MS PMincho"}[data-cjk=zh]{--cjk:"Noto Serif SC","Songti SC","STSong","Source Han Serif SC","Noto Serif CJK SC","SimSun"}.zh{font-family:Georgia,"Times New Roman","Noto Serif SC","Songti SC","STSong","Source Han Serif SC","Noto Serif CJK SC",serif}
 :root{--bg:#f4f5f3;--panel:#ffffff;--ink:#1b2420;--muted:#5d6a62;--line:#d8ded9;--accent:#1f4a2c;--accent-ink:#ffffff}
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#111814;--panel:#17211b;--ink:#e4ebe6;--muted:#9aa89f;--line:#2c3a31;--accent:#8cc49e;--accent-ink:#0f1a13}}
 :root[data-theme="dark"]{--bg:#111814;--panel:#17211b;--ink:#e4ebe6;--muted:#9aa89f;--line:#2c3a31;--accent:#8cc49e;--accent-ink:#0f1a13}
-*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 Georgia,"Times New Roman","Noto Serif JP","Hiragino Mincho ProN","Hiragino Mincho Pro","Yu Mincho","YuMincho","Noto Serif CJK JP","Source Han Serif JP","MS PMincho",serif}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 Georgia,"Times New Roman",var(--cjk),serif}
 .band{background:var(--accent);color:var(--accent-ink)}.band>div{max-width:980px;margin:0 auto;padding:34px 16px 30px}.band h1{font-weight:normal;font-size:30px;margin:0 0 8px}.band .lede{color:var(--accent-ink);opacity:.9;margin:0}
 main{max-width:980px;margin:0 auto;padding:26px 16px 60px}
 .topnav{margin:18px 0 0;display:flex;gap:8px;flex-wrap:wrap;align-items:center}.jump{display:contents}.jump a{display:inline-block;border:1px solid var(--accent-ink);color:var(--accent-ink);padding:6px 16px;border-radius:5px;text-decoration:none;font-size:15px}.jump a:hover{background:var(--accent-ink);color:var(--accent)}
@@ -3651,15 +3651,15 @@ TEMPLATE = r"""<!DOCTYPE html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&display=swap">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&family=Noto+Serif+SC:wght@400;700&display=swap">
 <script src="../../fold.js"></script>
 <title>__BOOK__ · Tables</title>
-<style>
+<style>:root{--cjk:"Noto Serif JP","Hiragino Mincho ProN","Hiragino Mincho Pro","Yu Mincho","YuMincho","Noto Serif CJK JP","Source Han Serif JP","MS PMincho"}[data-cjk=zh]{--cjk:"Noto Serif SC","Songti SC","STSong","Source Han Serif SC","Noto Serif CJK SC","SimSun"}.zh{font-family:Georgia,"Times New Roman","Noto Serif SC","Songti SC","STSong","Source Han Serif SC","Noto Serif CJK SC",serif}
 :root{--bg:#f4f5f3;--panel:#ffffff;--ink:#1b2420;--muted:#5d6a62;--line:#d8ded9;--accent:#1f4a2c;--accent-ink:#ffffff;--hi:#e2ece4;--warn:#8a5a00}
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#111814;--panel:#17211b;--ink:#e4ebe6;--muted:#9aa89f;--line:#2c3a31;--accent:#8cc49e;--accent-ink:#0f1a13;--hi:#1f3527;--warn:#e0a54a}}
 :root[data-theme="dark"]{--bg:#111814;--panel:#17211b;--ink:#e4ebe6;--muted:#9aa89f;--line:#2c3a31;--accent:#8cc49e;--accent-ink:#0f1a13;--hi:#1f3527;--warn:#e0a54a}
 *{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.45 Georgia,"Times New Roman","Noto Serif JP","Hiragino Mincho ProN","Hiragino Mincho Pro","Yu Mincho","YuMincho","Noto Serif CJK JP","Source Han Serif JP","MS PMincho",serif}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.45 Georgia,"Times New Roman",var(--cjk),serif}
 header{padding:14px 18px;background:var(--accent);color:var(--accent-ink);display:flex;gap:14px;align-items:baseline;flex-wrap:wrap}
 header a,header .meta{color:var(--accent-ink)!important;opacity:.88}
 header button{background:transparent;color:var(--accent-ink);border-color:currentColor}
@@ -3688,7 +3688,7 @@ body.kbd #list a:not(.on):hover{background:transparent}
 h2{margin:0 0 4px;font-weight:normal;font-size:22px}
 .sub{color:var(--muted);font-size:14px;margin-bottom:10px}.scanlink,.scanlink:visited{display:inline-block;margin:1px 2px;padding:1px 9px;border:1px solid var(--accent);border-radius:4px;background:var(--accent);color:var(--accent-ink);font:600 13px/1.5 system-ui,sans-serif;text-decoration:none;white-space:nowrap}.scanlink:hover{filter:brightness(1.18);text-decoration:none}
 .tw{overflow:auto;border:1px solid var(--line);background:var(--panel);margin:8px 0 16px;max-height:70vh;width:fit-content;max-width:100%}.tw:focus{outline:none}.tw:focus-visible{outline:2px solid var(--line)}
-table{border-collapse:collapse;font-size:13.5px;font-family:"Iowan Old Style",Georgia,"Noto Serif JP","Hiragino Mincho ProN","Hiragino Mincho Pro","Yu Mincho","YuMincho","Noto Serif CJK JP","Source Han Serif JP","MS PMincho",serif}
+table{border-collapse:collapse;font-size:13.5px;font-family:"Iowan Old Style",Georgia,var(--cjk),serif}
 th,td{border:1px solid var(--line);padding:3px 7px;vertical-align:top}
 th{position:sticky;top:0;background:var(--panel);text-align:left;font-weight:bold;font-size:12.5px}
 th.sortable{cursor:pointer;user-select:none;padding-right:18px;position:sticky}
@@ -4280,15 +4280,15 @@ def build_chronology(book):
 
 DIRTEMPLATE = r"""<!DOCTYPE html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&display=swap">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&family=Noto+Serif+SC:wght@400;700&display=swap">
 <script src="../../fold.js"></script>
 <title>__BOOK__ · Directories</title>
-<style>
+<style>:root{--cjk:"Noto Serif JP","Hiragino Mincho ProN","Hiragino Mincho Pro","Yu Mincho","YuMincho","Noto Serif CJK JP","Source Han Serif JP","MS PMincho"}[data-cjk=zh]{--cjk:"Noto Serif SC","Songti SC","STSong","Source Han Serif SC","Noto Serif CJK SC","SimSun"}.zh{font-family:Georgia,"Times New Roman","Noto Serif SC","Songti SC","STSong","Source Han Serif SC","Noto Serif CJK SC",serif}
 :root{--bg:#f4f5f3;--panel:#ffffff;--ink:#1b2420;--muted:#5d6a62;--line:#d8ded9;--accent:#1f4a2c;--accent-ink:#ffffff;--hi:#e2ece4;--warn:#8a5a00}
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#111814;--panel:#17211b;--ink:#e4ebe6;--muted:#9aa89f;--line:#2c3a31;--accent:#8cc49e;--accent-ink:#0f1a13;--hi:#1f3527;--warn:#e0a54a}}
 :root[data-theme="dark"]{--bg:#111814;--panel:#17211b;--ink:#e4ebe6;--muted:#9aa89f;--line:#2c3a31;--accent:#8cc49e;--accent-ink:#0f1a13;--hi:#1f3527;--warn:#e0a54a}
 *{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 Georgia,"Times New Roman","Noto Serif JP","Hiragino Mincho ProN","Hiragino Mincho Pro","Yu Mincho","YuMincho","Noto Serif CJK JP","Source Han Serif JP","MS PMincho",serif}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 Georgia,"Times New Roman",var(--cjk),serif}
 header{padding:14px 18px;background:var(--accent);color:var(--accent-ink);display:flex;gap:14px;align-items:baseline;flex-wrap:wrap}
 header a,header .meta{color:var(--accent-ink)!important;opacity:.88}
 header h1{font-size:20px;margin:0;font-weight:normal}
@@ -4417,14 +4417,14 @@ DIRTEMPLATE = notes_layer(DIRTEMPLATE)
 
 SEARCH = r"""<!DOCTYPE html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&display=swap">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&family=Noto+Serif+SC:wght@400;700&display=swap">
 <script src="fold.js"></script>
 <title>Search · Old Tables of East Asia</title>
-<style>
+<style>:root{--cjk:"Noto Serif JP","Hiragino Mincho ProN","Hiragino Mincho Pro","Yu Mincho","YuMincho","Noto Serif CJK JP","Source Han Serif JP","MS PMincho"}[data-cjk=zh]{--cjk:"Noto Serif SC","Songti SC","STSong","Source Han Serif SC","Noto Serif CJK SC","SimSun"}.zh{font-family:Georgia,"Times New Roman","Noto Serif SC","Songti SC","STSong","Source Han Serif SC","Noto Serif CJK SC",serif}
 :root{--bg:#f4f5f3;--panel:#ffffff;--ink:#1b2420;--muted:#5d6a62;--line:#d8ded9;--accent:#1f4a2c;--accent-ink:#ffffff;--hi:#e2ece4;--warn:#8a5a00;--mark:#f3e3a0}
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#111814;--panel:#17211b;--ink:#e4ebe6;--muted:#9aa89f;--line:#2c3a31;--accent:#8cc49e;--accent-ink:#0f1a13;--hi:#1f3527;--warn:#e0a54a;--mark:#5a4d1c}}
 :root[data-theme="dark"]{--bg:#111814;--panel:#17211b;--ink:#e4ebe6;--muted:#9aa89f;--line:#2c3a31;--accent:#8cc49e;--accent-ink:#0f1a13;--hi:#1f3527;--warn:#e0a54a;--mark:#5a4d1c}
-*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 Georgia,"Times New Roman","Noto Serif JP","Hiragino Mincho ProN","Hiragino Mincho Pro","Yu Mincho","YuMincho","Noto Serif CJK JP","Source Han Serif JP","MS PMincho",serif}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 Georgia,"Times New Roman",var(--cjk),serif}
 header{padding:14px 18px;background:var(--accent);color:var(--accent-ink);display:flex;gap:14px;align-items:baseline;flex-wrap:wrap}
 header a{color:var(--accent-ink);opacity:.88;font-size:14px;text-decoration:none}header h1{font-size:20px;margin:0;font-weight:normal}
 header button{margin-left:auto;background:transparent;color:var(--accent-ink);border:1px solid currentColor;border-radius:4px;font:inherit;padding:4px 8px;cursor:pointer}
@@ -4449,7 +4449,7 @@ input,select{font:inherit;font-size:16px;padding:8px 10px;border:1px solid var(-
 .r{background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--accent);padding:8px 12px;margin:0 0 7px}
 .r a.t{font-size:15.5px;color:var(--ink);text-decoration:none;font-weight:bold}.r a.t:hover{text-decoration:underline}
 .r .m{font-size:12.5px;color:var(--muted)}.r .m a{color:var(--accent)}
-.r .snip{font-size:13px;margin-top:4px;font-family:"Iowan Old Style",Georgia,"Noto Serif JP","Hiragino Mincho ProN","Hiragino Mincho Pro","Yu Mincho","YuMincho","Noto Serif CJK JP","Source Han Serif JP","MS PMincho",serif}
+.r .snip{font-size:13px;margin-top:4px;font-family:"Iowan Old Style",Georgia,var(--cjk),serif}
 .r .snip div{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 mark{background:var(--mark);color:inherit}
 .llmwarn{margin:24px 0 8px;padding:12px 14px;border:1px solid var(--warn);border-left:4px solid var(--warn);background:var(--panel);font-size:14px}
