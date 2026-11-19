@@ -1427,7 +1427,11 @@
 "japan|三宅島阿古村": "n-jp-miyake-ako",
 "japan|新島若郷村": "n-jp-niijima-wakago",
 "japan|母島北村": "n-jp-hahajima-kitamura",
-"japan|靑ヶ島": "n-jp-aogashima"
+"japan|靑ヶ島": "n-jp-aogashima",
+"*|Annam": "n-annam",
+"*|Tonkin": "n-tonkin",
+"*|Laos": "n-laos",
+"*|Outer Possessions of Netherlands Indies": "n-dei-outer"
 },
 "new": {
 "n-kr-ranan": {
@@ -6199,6 +6203,30 @@
 "ja": "北村",
 "k": "town",
 "up": "n-jp-hahajima"
+},
+"n-annam": {
+"en": "Annam",
+"ja": "安南",
+"k": "region",
+"up": "w-indochina"
+},
+"n-tonkin": {
+"en": "Tonkin",
+"ja": "東京 (Tonkin)",
+"k": "region",
+"up": "w-indochina"
+},
+"n-laos": {
+"en": "Laos",
+"ja": "老撾",
+"k": "region",
+"up": "w-indochina"
+},
+"n-dei-outer": {
+"en": "Outer Possessions of the Netherlands Indies",
+"ja": "外領",
+"k": "region",
+"up": "w-dei"
 }
 }
 }
