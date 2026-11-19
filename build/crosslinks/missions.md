@@ -127,3 +127,5 @@ SU1–SU6 | done | china-smc update: 1932 added (agents SU1–SU6, 2026-11-11)
 - KS13–KS15 (2026-11-18): japan-keishicho update — 1937 edition (第47回) added (update mode); 1937 tables linked in 20 topics incl. Fires (Sonnet). Done.
 - KS16–KS18 (2026-11-18): japan-keishicho update — 1938 edition (第48回) added (update mode); 1938 tables linked in 19 topics (Sonnet). Done.
 - KS19–KS21 (2026-11-18): japan-keishicho update — 1941 edition (第51回) added (update mode); 1941 tables linked in 19 topics (Sonnet). Done.
+
+- 2026-11-19 japan-seikatsu-jikan (new series: 國民生活時間調査 農業世帶編 + 女子家族編, 1943): families made by script `build/crosslinks/seikatsu_families.py` (titles are uniform; matched on kind, sex, age, marital status, region); no agents. 21 families. Rerun after each further volume (俸給生活者・工場勞務者編, 小賣業世帶編).

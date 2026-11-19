@@ -87,6 +87,12 @@ wrong and what to do about it. Add a line when a book teaches something new.
   the sub-table against the title with the table name stripped (古蹟古物名勝天然紀念物 contains 天然紀念物). Fill the 省 of
   continuation rows from the neighbouring sheet (`plan/fill_sho.py`). Worn 1940s type gave 1.5% [?] with Sonnet.
 
+- **Regular spread books without a survey (國民生活時間調査 1943, 2026-11-19):** before trusting frame = p(k + N//2),
+  montage the page-number strip of every frame (crop ~86–93 % of the height of the `plan/` copies, label with the frame
+  name, 3 per row) and read the printed numbers: NDL scans can hold a second shot of a spread (俸給・工場編: p0115/p0116
+  and p0137/p0138), which shifts every later frame. Tell the mission that owns a duplicate to read the clearer shot once.
+  A crop too close to the bottom edge missed the numbers on one volume — check one strip first.
+
 ## Missions and agents
 - Plan missions from the survey, never fixed leaf counts: group frames into table runs, keep a multi-frame table in one
   mission, cut only very long runs into fragment missions (`tables/frag/<leaf>_0.json`, joined by `join_frags.py`).

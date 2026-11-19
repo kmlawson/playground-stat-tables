@@ -1449,7 +1449,7 @@ BOOKS = [
      "item": "https://dl.ndl.go.jp/pid/1463197",
      "model": "Sonnet 5.5",
      "blank_marking": True},
-    {"slug": "japan-seikatsu-jikan-nogyo-1943", "dir": "Seikatsu_Jikan_Nogyo_1943",
+    {"slug": "japan-seikatsu-jikan-nogyo-1943", "dir": "Seikatsu_Jikan_Nogyo_1943", "edition": "農業世帶編",
      "title": "國民生活時間調査 農業世帶編 1943", "subtitle": "Kokumin seikatsu jikan chōsa: ippan chōsa hōkoku, nōgyō setai hen (National Time-Use Survey, General Survey Report: Farm Households), 昭和18年1月",
      "publisher": "日本放送協會 (Japan Broadcasting Corporation, NHK), 東京, 1943",
      "blurb": "NHK's national time-use survey of 1941–42, made to plan radio programmes around how people actually spent their day. This volume covers farm households: diaries kept by family members in 300 farming villages across Japan, recorded in 10-minute slots. For each sex and age group (16–20, 21–30 — also split into unmarried and married — 31–45, 46–60 and 61 and over), for the whole country and for ten regions, it gives the percentage of people asleep, eating, farming, doing handwork, housework or needlework, studying, resting, at leisure or in public duties in every 10-minute slot of the day, indoors and outdoors; the hours and minutes spent on each activity per day; and, region by region, the share of people for whom each time of day was suitable or unsuitable for listening to the radio. The front matter lists the surveyed villages and the survey's design.",
@@ -1457,6 +1457,16 @@ BOOKS = [
      "gaps": "Every table is transcribed: the 14 national and 40 regional time-of-day tables, the four time-budget tables, the 40 regional listening-suitability tables and the small tables and village list in the outline. The 14 listening-suitability charts (時刻別聽取適否參考圖) print no figures and are not reproduced; the prose is not transcribed. Each spread was read once by Claude Sonnet 5.5 from full-resolution crops, with no checking by eye. Where a 3 could be an 8 and only one reading makes the row add to 100, that reading is used and noted. Rows that do not add to 100 as printed (rounding, and some dropped or wrong digits in the type) are kept as printed and noted. 88 of about 219,000 cells could not be read and are marked [?].",
      "scan": "https://dl.ndl.go.jp/pid/1450514/1/{leaf}",
      "item": "https://dl.ndl.go.jp/pid/1450514",
+     "model": "Claude Sonnet 5.5",
+     "blank_marking": True},
+    {"slug": "japan-seikatsu-jikan-joshi-1943", "dir": "Seikatsu_Jikan_Joshi_1943", "edition": "女子家族編",
+     "title": "國民生活時間調査 俸給生活者・工場勞務者 女子家族編 1943", "subtitle": "Kokumin seikatsu jikan chōsa: ippan chōsa hōkoku, hōkyū seikatsusha・kōjō rōmusha joshi kazoku hen (National Time-Use Survey, General Survey Report: Female Family Members of Salaried Employees and Factory Workers), 昭和18年 (通巻23)",
+     "publisher": "日本放送協會 (Japan Broadcasting Corporation, NHK), 東京, 1943",
+     "blurb": "NHK's national time-use survey of 1941–42, made to plan radio programmes around how people actually spent their day. This volume covers the women of urban wage-earning households — the wives, daughters and mothers of salaried employees and of factory workers — from diaries kept in 10-minute slots. For each age group (16–20, 21–30 — also split into unmarried and married — 31–45, 46–60 and 61 and over), for the whole country and for five region groups, it gives the percentage of women asleep, eating, resting, doing piecework at home (内職), housework or needlework, studying, at leisure or in public duties in every 10-minute slot of the day, indoors and outdoors; the hours and minutes spent on each activity per day; and, region by region, the share for whom each time of day was suitable or unsuitable for listening to the radio. The front matter lists the surveyed districts and the survey's design. A companion volume covers farm households.",
+     "source": "LLM-transcribed from the National Diet Library scan (NDL pid 1275654).",
+     "gaps": "Every table is transcribed: the 10 national and 20 regional time-of-day tables, the four time-budget tables, the 20 regional listening-suitability tables and the small tables and district lists in the outline. The 10 listening-suitability charts (時刻別聽取適否參考圖) print no figures and are not reproduced; the prose is not transcribed. Each spread was read once by Claude Sonnet 5.5 from full-resolution crops, with no checking by eye. Where a 3 could be an 8 and only one reading makes the row add to 100, that reading is used and noted. Rows that do not add to 100 as printed (rounding, and some dropped or wrong digits in the type) are kept as printed and noted. 171 of about 119,000 cells could not be read and are marked [?].",
+     "scan": "https://dl.ndl.go.jp/pid/1275654/1/{leaf}",
+     "item": "https://dl.ndl.go.jp/pid/1275654",
      "model": "Claude Sonnet 5.5",
      "blank_marking": True},
     {"slug": "japan-kaji-1939", "dir": "Kaji_Nenkan_1939",
@@ -2493,6 +2503,8 @@ def scan_links(book, t):
 
 
 def edition(book):
+    if book.get("edition"):  # volumes of one survey published together (e.g. 國民生活時間調査 1943): name the volume
+        return book["edition"]
     m = re.search(r"(\d{4}(?:\s*[-–]\s*\d{1,4})?)", book["title"])
     return re.sub(r"\s*[-–]\s*", "–", m.group(1)) if m else book["title"]
 

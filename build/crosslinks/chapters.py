@@ -2006,3 +2006,12 @@ SERIES["taiwan-shakai-kyoiku"] = {"name": "臺灣社會敎育概要 (Outline of 
     "General survey and civic education": {"taiwan-shakai-kyoiku-1935": ["公民教育 / 國語普及", "公民教育 / 教化團體聯合統制機關", "公民教育 / 敬神思想の普及施設", "公民教育 / 部落教化施設", "總說 / 本島の一般教育狀勢", "總說 / 本島社會教育の狀勢"], "taiwan-shakai-kyoiku-1937": ["公民敎育 / 一 國語普及", "公民敎育 / 二 部落敎化", "總說 / 一 本島の一般敎育狀勢", "總說 / 二 本島社會敎育の狀勢"]},
     "Youth education": {"taiwan-shakai-kyoiku-1935": ["青少年教育 / 中堅青年養成施設", "青少年教育 / 少年團", "青少年教育 / 青年團", "青少年教育 / 青年補導教育", "青少年教育 / 青年訓練所"], "taiwan-shakai-kyoiku-1937": ["青少年敎育 / 一 青年團", "青少年敎育 / 三 中堅青年養成施設", "青少年敎育 / 二 女子青年團", "青少年敎育 / 五 青年訓練所", "青少年敎育 / 六 少年團", "青少年敎育 / 四 青年補導敎育"]},
     "Adult and general social education": {"taiwan-shakai-kyoiku-1935": ["成人教育 / ラヂオ教育", "成人教育 / 博物館", "成人教育 / 圖書館", "成人教育 / 宗教的教化施設", "成人教育 / 常設的觀覽施設", "成人教育 / 情操教育", "成人教育 / 成人團體", "成人教育 / 成人教育施設", "成人教育 / 映畫教育", "成人教育 / 民衆體育"], "taiwan-shakai-kyoiku-1937": ["一般社會敎育 / 一〇 其の他の施設", "一般社會敎育 / 三 映畫敎育", "一般社會敎育 / 二 民衆體育", "一般社會敎育 / 五 情操敎育"]}}}
+
+SERIES["japan-seikatsu-jikan"] = {"name": "國民生活時間調査 (National Time-Use Survey, NHK, 1941–42; volumes published 1943)",
+  "books": ["japan-seikatsu-jikan-nogyo-1943", "japan-seikatsu-jikan-joshi-1943"],
+  "topics": {
+    "Survey outline": {"japan-seikatsu-jikan-nogyo-1943": ["調査の要綱"], "japan-seikatsu-jikan-joshi-1943": ["調査の要綱"]},
+    "Activity by time of day": {"japan-seikatsu-jikan-nogyo-1943": ["時刻別行爲別人員數百分比表"], "japan-seikatsu-jikan-joshi-1943": ["時刻別行爲別人員數百分比表"]},
+    "Time budgets": {"japan-seikatsu-jikan-nogyo-1943": ["行爲別一人一日當消費時間量表"], "japan-seikatsu-jikan-joshi-1943": ["行爲別一人一日當消費時間量表"]},
+    "Radio-listening suitability": {"japan-seikatsu-jikan-nogyo-1943": ["時刻別聽取適否參考表 — 地方別"], "japan-seikatsu-jikan-joshi-1943": ["時刻別聽取適否參考表 — 地方別"]},
+  }}
