@@ -10,6 +10,9 @@ H = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 S = SERIES["japan-seikatsu-jikan"]
 REG = {"北海道": "Hokkaidō", "東北": "Tōhoku", "北陸": "Hokuriku", "關東": "Kantō", "東山": "Tōsan", "東海": "Tōkai",
        "近畿": "Kinki", "中國": "Chūgoku", "四國": "Shikoku", "九州": "Kyūshū"}
+SUBS = {"官公吏": "government officials", "會社員": "company employees", "紡織": "textiles", "金屬": "metals", "機械": "machinery",
+        "化學": "chemicals", "大規模": "large works", "中規模": "medium-sized works", "小規模": "small works", "通勤": "living at home",
+        "寄宿": "living in dormitories"}
 GROUP = {"俸給生活者": "salaried", "工場勞務者": "factory", "工場労務者": "factory", "世帶主": "shop", "營業使用人": "shop"}
 
 
@@ -27,10 +30,14 @@ def key(t):
     tail = re.sub(r"^\(.*?\)", "", re.split(r"歳|以上", ti)[-1])
     if tail and all(x in REG for x in tail.split("・")):
         reg = tail
+    elif tail in SUBS:
+        reg = tail
     if ch == "時刻別行爲別人員數百分比表":
         kind = "act"
     elif ch.startswith("行爲別一人一日"):
-        kind = "budget-nat" if "全國" in ti else "budget-reg"
+        kind = "budget-nat" if "全國" in ti else "budget-reg" if "地方別" in ti else None
+        if not kind:
+            return None
         return (kind, sex if kind == "budget-nat" else None, None, None, None)
     elif ch.startswith("時刻別聽取適否參考表"):
         kind = "radio"
@@ -48,11 +55,12 @@ def key(t):
 def label(k):
     kind, sex, age, mar, reg = k
     if kind == "budget-nat":
-        return f"Time spent per person per day by activity, whole country: {sex}"
+        return "Time spent per person per day by activity, whole country" + (f": {sex}" if sex else ": men and women")
     if kind == "budget-reg":
         return "Time spent per person per day by activity, by region"
     who = f"{sex} aged {age}" + (f" ({mar})" if mar else "")
-    where = "whole country" if reg == "whole" else " · ".join(REG[x] for x in reg.split("・"))
+    where = ("whole country" if reg == "whole" else SUBS[reg] if reg in SUBS
+             else " · ".join(REG[x] for x in reg.split("・")))
     if kind == "act":
         return f"Activity by time of day, {where}: {who}"
     return f"Suitability of each time of day for radio listening, {where}: {who}"
