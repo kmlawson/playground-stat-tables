@@ -1,0 +1,129 @@
+{
+  "vocabulary_version": "1.1.0-optional-details",
+  "assignments": {
+    "china-1922:p0321_1": {
+      "topics": [
+        "finance",
+        "transportation"
+      ],
+      "tags": [],
+      "flags": [],
+      "rationale": "Shanghai Foreign Settlement tramway losses from converting depreciated subsidiary coinage into dollars, with annual losses and percentages. Finance is principal, with a tram company as secondary context. The only candidate tags (currency, trams) are not clearly supported as confirmed subjects, so none are assigned.",
+      "review_questions": [
+        "Should a tag for currency depreciation losses be added (the currency tag covers monetary systems, not conversion losses)?"
+      ]
+    },
+    "china-1922:p0321_2": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "currency"
+      ],
+      "flags": [],
+      "rationale": "Average circulating rates of copper coins in 12 cities in Dec 1918 and Feb 1921, showing depreciation of subsidiary coinage; this concerns monetary circulation.",
+      "review_questions": []
+    },
+    "china-1922:p0323_1": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "currency"
+      ],
+      "flags": [],
+      "rationale": "Paper money in circulation in 1915 by province, with amounts issued, market discount and discounted value. This is currency issuance.",
+      "review_questions": []
+    },
+    "china-1922:p0331_1": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "currency"
+      ],
+      "flags": [],
+      "rationale": "Total copper coins minted by denomination through 1917; coinage issuance within the monetary system.",
+      "review_questions": []
+    },
+    "china-1922:p0342_1": {
+      "topics": [
+        "finance",
+        "science-and-technology"
+      ],
+      "tags": [
+        "currency"
+      ],
+      "flags": [],
+      "rationale": "Assays of Chinese silver dollars from several mints giving weight, fineness and variation; this concerns the metallic content of coinage, with measurement standards as a secondary topic.",
+      "review_questions": []
+    },
+    "china-1922:p0353_1": {
+      "topics": [
+        "trade",
+        "finance"
+      ],
+      "tags": [
+        "imports"
+      ],
+      "flags": [],
+      "rationale": "Treasure (gold, silver, copper coins) imported in 1919 by country of origin in Hk. Taels. It is a trade import table of bullion and coin.",
+      "review_questions": [
+        "Is a vocabulary tag for bullion and specie movements needed?"
+      ]
+    },
+    "china-1922:p0354_1": {
+      "topics": [
+        "trade",
+        "finance"
+      ],
+      "tags": [
+        "exports"
+      ],
+      "flags": [],
+      "rationale": "Treasure (gold, silver, copper coins) exported in 1919 by destination in Hk. Taels; a trade export table of bullion and coin.",
+      "review_questions": [
+        "Is a vocabulary tag for bullion and specie movements needed?"
+      ]
+    },
+    "china-1922:p0355_1": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "foreign-exchange"
+      ],
+      "flags": [],
+      "rationale": "Annual lowest and highest London telegraphic transfer selling rates for Shanghai taels since 1890, with ranges and year-on-year differences; exchange variations.",
+      "review_questions": []
+    },
+    "china-1922:p0393_1": {
+      "topics": [
+        "finance",
+        "informal-imperialism"
+      ],
+      "tags": [],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "Roster of banks in the American, British, French and Japanese groups of the New Consortium, with committee category and city. Content is textual list of institutions. No existing tag fits a banking consortium for China loans, and foreign control is not shown directly by the list.",
+      "review_questions": [
+        "Propose a tag for international banking consortia/foreign loan groups; foreign-loans does not clearly cover a membership roster."
+      ]
+    },
+    "china-1922:p0395_1": {
+      "topics": [
+        "government",
+        "crime-and-justice"
+      ],
+      "tags": [
+        "constitutions-and-laws"
+      ],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "List of new laws by subject with promulgation and amendment dates; the content is a legal enactment list, textual with dates only.",
+      "review_questions": []
+    }
+  }
+}

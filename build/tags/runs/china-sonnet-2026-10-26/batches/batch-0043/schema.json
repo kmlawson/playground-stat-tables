@@ -1,0 +1,117 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "vocabulary_version": {
+      "type": "string",
+      "enum": [
+        "1.1.0-optional-details"
+      ]
+    },
+    "assignments": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "china-handbook-1926:p0668_1": {
+          "$ref": "#/$defs/assignment"
+        },
+        "china-handbook-1926:p0671_1": {
+          "$ref": "#/$defs/assignment"
+        },
+        "china-handbook-1926:p0672_1": {
+          "$ref": "#/$defs/assignment"
+        },
+        "china-handbook-1926:p0672_2": {
+          "$ref": "#/$defs/assignment"
+        },
+        "china-handbook-1926:p0678_1": {
+          "$ref": "#/$defs/assignment"
+        },
+        "china-handbook-1926:p0680_1": {
+          "$ref": "#/$defs/assignment"
+        },
+        "china-handbook-1926:p0681_1": {
+          "$ref": "#/$defs/assignment"
+        },
+        "china-handbook-1926:p0682_1": {
+          "$ref": "#/$defs/assignment"
+        },
+        "china-handbook-1926:p0685_1": {
+          "$ref": "#/$defs/assignment"
+        },
+        "china-handbook-1926:p0686_1": {
+          "$ref": "#/$defs/assignment"
+        }
+      },
+      "required": [
+        "china-handbook-1926:p0668_1",
+        "china-handbook-1926:p0671_1",
+        "china-handbook-1926:p0672_1",
+        "china-handbook-1926:p0672_2",
+        "china-handbook-1926:p0678_1",
+        "china-handbook-1926:p0680_1",
+        "china-handbook-1926:p0681_1",
+        "china-handbook-1926:p0682_1",
+        "china-handbook-1926:p0685_1",
+        "china-handbook-1926:p0686_1"
+      ]
+    }
+  },
+  "required": [
+    "vocabulary_version",
+    "assignments"
+  ],
+  "$defs": {
+    "assignment": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "topics": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "maxItems": 2,
+          "uniqueItems": true
+        },
+        "tags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 0,
+          "maxItems": 3,
+          "uniqueItems": true
+        },
+        "flags": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "text-tables"
+            ]
+          },
+          "maxItems": 1,
+          "uniqueItems": true
+        },
+        "rationale": {
+          "type": "string"
+        },
+        "review_questions": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "topics",
+        "tags",
+        "flags",
+        "rationale",
+        "review_questions"
+      ]
+    }
+  }
+}

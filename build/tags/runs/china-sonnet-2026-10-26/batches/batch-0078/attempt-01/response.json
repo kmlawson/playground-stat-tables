@@ -1,0 +1,122 @@
+{
+  "vocabulary_version": "1.1.0-optional-details",
+  "assignments": {
+    "china-1914:p0079_2": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [],
+      "flags": [],
+      "rationale": "Yearly movement of flour (cwt.) through Customs stations 1908-1912, a trade-movement series. It sits under the wheat entry, but only flour is tabulated, so the wheat tag does not fit well.",
+      "review_questions": [
+        "Is a domestic/customs-station movement tag needed? Domestic-trade is uncertain since the table covers customs-station movement, not necessarily internal trade."
+      ]
+    },
+    "china-1914:p0080_1": {
+      "topics": [
+        "mining"
+      ],
+      "tags": [
+        "coal"
+      ],
+      "flags": [],
+      "rationale": "Estimated coal production by province and coal type (anthracite, bituminous, lignite).",
+      "review_questions": []
+    },
+    "china-1914:p0080_2": {
+      "topics": [
+        "mining"
+      ],
+      "tags": [
+        "coal"
+      ],
+      "flags": [],
+      "rationale": "Coal output by colliery in Manchuria for 1910.",
+      "review_questions": []
+    },
+    "china-1914:p0081_1": {
+      "topics": [
+        "mining"
+      ],
+      "tags": [
+        "coal"
+      ],
+      "flags": [],
+      "rationale": "Coal output for 1910 by province and colliery, with totals.",
+      "review_questions": []
+    },
+    "china-1914:p0082_1": {
+      "topics": [
+        "mining"
+      ],
+      "tags": [
+        "coal"
+      ],
+      "flags": [],
+      "rationale": "Annual colliery output in tons for financial years April 1909 to March 1913.",
+      "review_questions": []
+    },
+    "china-1914:p0089_1": {
+      "topics": [
+        "manufacturing",
+        "trade"
+      ],
+      "tags": [
+        "iron-and-steel"
+      ],
+      "flags": [],
+      "rationale": "Working results of an iron and coal company: pig-iron and rail output, with shipments by destination and sales. Mainly iron and steel production, plus shipments.",
+      "review_questions": []
+    },
+    "china-1914:p0089_2": {
+      "topics": [
+        "trade",
+        "mining"
+      ],
+      "tags": [
+        "exports",
+        "iron-ore"
+      ],
+      "flags": [],
+      "rationale": "Customs-based tonnages of iron ore and pig-iron exported in 1911 by foreign or Chinese destination.",
+      "review_questions": []
+    },
+    "china-1914:p0093_1": {
+      "topics": [
+        "trade",
+        "mining"
+      ],
+      "tags": [
+        "exports",
+        "antimony"
+      ],
+      "flags": [],
+      "rationale": "Changsha exports of antimony as regulus, crude and ore, 1908-1912.",
+      "review_questions": []
+    },
+    "china-1914:p0107_1": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "measurement-and-units"
+      ],
+      "flags": [],
+      "rationale": "Decimal equivalence tables between traditional Chinese monetary units (hao, cash, candareen, mace, tael) and cents and dollars. These are conversion standards, not statistical observations.",
+      "review_questions": []
+    },
+    "china-1914:p0108_1": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "measurement-and-units"
+      ],
+      "flags": [],
+      "rationale": "Conversion values among Haikuan, Kuping, Tientsin and Shanghai taels. This is a monetary-unit equivalence table, not market exchange rates between currencies.",
+      "review_questions": [
+        "Is a tag for monetary unit equivalence between tael types needed beyond measurement-and-units?"
+      ]
+    }
+  }
+}

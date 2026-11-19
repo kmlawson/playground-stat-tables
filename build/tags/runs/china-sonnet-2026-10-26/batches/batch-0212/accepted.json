@@ -1,0 +1,121 @@
+{
+  "vocabulary_version": "1.1.0-optional-details",
+  "assignments": {
+    "china-1916:p0246_1": {
+      "topics": [
+        "transportation",
+        "finance"
+      ],
+      "tags": [
+        "railways"
+      ],
+      "flags": [],
+      "rationale": "Value of a railway's rolling stock, plant, stores, cash and investments in Kuping taels; the railway asset account is the main subject.",
+      "review_questions": []
+    },
+    "china-1916:p0246_2": {
+      "topics": [
+        "transportation",
+        "finance"
+      ],
+      "tags": [
+        "railways"
+      ],
+      "flags": [],
+      "rationale": "Receipts by source in the railway's 1910 profit and loss account.",
+      "review_questions": []
+    },
+    "china-1916:p0247_1": {
+      "topics": [
+        "transportation",
+        "finance"
+      ],
+      "tags": [
+        "railways"
+      ],
+      "flags": [],
+      "rationale": "Railway expenditure items, total and grand profit.",
+      "review_questions": []
+    },
+    "china-1916:p0253_1": {
+      "topics": [
+        "transportation"
+      ],
+      "tags": [
+        "railways"
+      ],
+      "flags": [],
+      "rationale": "Locomotive inventory of a railway by type, wheel arrangement, weight and maker.",
+      "review_questions": []
+    },
+    "china-1916:p0258_1": {
+      "topics": [
+        "transportation",
+        "finance"
+      ],
+      "tags": [
+        "railways"
+      ],
+      "flags": [],
+      "rationale": "Receipts and expenditure of the Chinese Eastern Railway in roubles, 1908-1912.",
+      "review_questions": []
+    },
+    "china-1916:p0259_1": {
+      "topics": [
+        "transportation"
+      ],
+      "tags": [
+        "railways"
+      ],
+      "flags": [],
+      "rationale": "Lengths of principal river bridges on a railway, including the Mukden-Antung line. These are railway assets, so roads-and-bridges is not used.",
+      "review_questions": []
+    },
+    "china-1916:p0259_2": {
+      "topics": [
+        "transportation"
+      ],
+      "tags": [
+        "railways"
+      ],
+      "flags": [],
+      "rationale": "Lengths of the principal tunnels on the Mukden-Antung railway line.",
+      "review_questions": []
+    },
+    "china-1916:p0260_1": {
+      "topics": [
+        "finance",
+        "transportation"
+      ],
+      "tags": [],
+      "flags": [],
+      "rationale": "Company capital expenditure by item (railway, steamships, electricity, gas, harbour, hotels, collieries, etc.) in yen. It is a diversified company investment account with no single fitting tag.",
+      "review_questions": [
+        "Should a tag for company capital accounts be added? The existing 'companies' tag is possible but was not applied."
+      ]
+    },
+    "china-1916:p0269_1": {
+      "topics": [
+        "communications"
+      ],
+      "tags": [
+        "postal-services"
+      ],
+      "flags": [],
+      "rationale": "Annual postal results, including offices, articles, parcels and money orders, over six years.",
+      "review_questions": []
+    },
+    "china-1916:p0270_1": {
+      "topics": [
+        "communications",
+        "transportation"
+      ],
+      "tags": [],
+      "flags": [],
+      "rationale": "Length in li and miles of courier, steamer and boat, and railway lines of communication. It is a mixed network-length summary with no specific tag.",
+      "review_questions": [
+        "Is a tag for transport and communication network length needed?"
+      ]
+    }
+  }
+}

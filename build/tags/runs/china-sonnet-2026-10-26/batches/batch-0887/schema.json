@@ -1,0 +1,101 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "vocabulary_version": {
+      "type": "string",
+      "enum": [
+        "1.1.0-optional-details"
+      ]
+    },
+    "assignments": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "china-1950:p3-0089_1": {
+          "$ref": "#/$defs/assignment"
+        },
+        "china-1950:p3-0093_1": {
+          "$ref": "#/$defs/assignment"
+        },
+        "china-1950:p3-0094_1": {
+          "$ref": "#/$defs/assignment"
+        },
+        "china-1950:p3-0094_2": {
+          "$ref": "#/$defs/assignment"
+        },
+        "china-1950:p3-0095_1": {
+          "$ref": "#/$defs/assignment"
+        },
+        "china-1950:p3-0095_2": {
+          "$ref": "#/$defs/assignment"
+        }
+      },
+      "required": [
+        "china-1950:p3-0089_1",
+        "china-1950:p3-0093_1",
+        "china-1950:p3-0094_1",
+        "china-1950:p3-0094_2",
+        "china-1950:p3-0095_1",
+        "china-1950:p3-0095_2"
+      ]
+    }
+  },
+  "required": [
+    "vocabulary_version",
+    "assignments"
+  ],
+  "$defs": {
+    "assignment": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "topics": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "maxItems": 2,
+          "uniqueItems": true
+        },
+        "tags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 0,
+          "maxItems": 3,
+          "uniqueItems": true
+        },
+        "flags": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "text-tables"
+            ]
+          },
+          "maxItems": 1,
+          "uniqueItems": true
+        },
+        "rationale": {
+          "type": "string"
+        },
+        "review_questions": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "topics",
+        "tags",
+        "flags",
+        "rationale",
+        "review_questions"
+      ]
+    }
+  }
+}

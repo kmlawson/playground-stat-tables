@@ -1,0 +1,133 @@
+{
+  "vocabulary_version": "1.1.0-optional-details",
+  "assignments": {
+    "china-1916:p0292_1": {
+      "topics": [
+        "communications",
+        "finance"
+      ],
+      "tags": [
+        "postal-remittances"
+      ],
+      "flags": [],
+      "rationale": "Money-order amounts issued by district in 1913 and 1914 through the Chinese Post Office; the postal channel is explicit.",
+      "review_questions": []
+    },
+    "china-1916:p0293_1": {
+      "topics": [
+        "communications",
+        "finance"
+      ],
+      "tags": [
+        "postal-remittances"
+      ],
+      "flags": [],
+      "rationale": "Cashed money-order amounts with surplus and deficit by district; the item labels are blank, but the Post Office money-order context is explicit.",
+      "review_questions": [
+        "Item labels (districts) are missing from the transcription, so the rows cannot be identified."
+      ]
+    },
+    "china-1916:p0294_1": {
+      "topics": [
+        "communications",
+        "informal-imperialism"
+      ],
+      "tags": [
+        "postal-services"
+      ],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "Lists post offices maintained by foreign powers in Chinese cities, which indicates foreign privileges in a nominally sovereign state. The content is textual place names. The postal-services tag fits the offices.",
+      "review_questions": [
+        "Is a tag for foreign post offices as treaty privileges needed?"
+      ]
+    },
+    "china-1916:p0296_1": {
+      "topics": [
+        "communications",
+        "finance"
+      ],
+      "tags": [
+        "telegraph"
+      ],
+      "flags": [],
+      "rationale": "Telegraph system expenditure and receipts for 1909-1912.",
+      "review_questions": []
+    },
+    "china-1916:p0296_2": {
+      "topics": [
+        "communications"
+      ],
+      "tags": [
+        "telegraph"
+      ],
+      "flags": [],
+      "rationale": "Lengths of government and private telegraph lines by province, in li.",
+      "review_questions": []
+    },
+    "china-1916:p0300_1": {
+      "topics": [
+        "communications"
+      ],
+      "tags": [
+        "telegraph"
+      ],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "A list of telegraph station names by province; the content is textual place names with no quantities.",
+      "review_questions": []
+    },
+    "china-1916:p0304_1": {
+      "topics": [
+        "government"
+      ],
+      "tags": [
+        "government-offices"
+      ],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "Old and new names of the central government ministries; the content is textual.",
+      "review_questions": []
+    },
+    "china-1916:p0304_2": {
+      "topics": [
+        "government"
+      ],
+      "tags": [
+        "administrative-divisions"
+      ],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "Lists the viceroyalties and the provinces each governed; the content is textual.",
+      "review_questions": []
+    },
+    "china-1916:p0308_1": {
+      "topics": [
+        "government"
+      ],
+      "tags": [
+        "government-offices"
+      ],
+      "flags": [],
+      "rationale": "Monthly salary scale by official class and grade, a quantitative table of civil-service salaries.",
+      "review_questions": []
+    },
+    "china-1916:p0309_1": {
+      "topics": [
+        "government"
+      ],
+      "tags": [
+        "local-government"
+      ],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "Names of provincial military and civil governors with their Chinese and English titles; the content is textual.",
+      "review_questions": []
+    }
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "vocabulary_version": "1.1.0-optional-details",
+  "assignments": {
+    "china-1919:p0332_1": {
+      "topics": [
+        "government"
+      ],
+      "tags": [
+        "administrative-divisions"
+      ],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "Lists viceroyalties and the provinces under each one's jurisdiction. This is a textual table of territorial administrative units.",
+      "review_questions": []
+    },
+    "china-1919:p0333_1": {
+      "topics": [
+        "government"
+      ],
+      "tags": [
+        "government-offices"
+      ],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "A glossary pairing Chinese provincial official titles (Tuchun, Hsün-an-shih) with English equivalents. Content is textual.",
+      "review_questions": []
+    },
+    "china-1919:p0333_2": {
+      "topics": [
+        "government"
+      ],
+      "tags": [
+        "government-offices"
+      ],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "A roster of provincial Tuchun and Civil Governor office-holders by province. Content is names and offices only.",
+      "review_questions": []
+    },
+    "china-1919:p0349_1": {
+      "topics": [
+        "military"
+      ],
+      "tags": [
+        "army"
+      ],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "Lists the departments of the special Military Council and their chiefs. Content is textual organisation and personnel. The council's expeditions and defences are not tabulated as operations.",
+      "review_questions": []
+    },
+    "china-1919:p0350_1": {
+      "topics": [
+        "military"
+      ],
+      "tags": [
+        "army"
+      ],
+      "flags": [],
+      "rationale": "Monthly pay and allowances in taels by rank in the Luchun. The quantities are statistical and army-specific. The vocabulary has no tag for military pay.",
+      "review_questions": [
+        "Consider a tag for military pay and allowances; the existing wages tag is labour-oriented."
+      ]
+    },
+    "china-1919:p0351_1": {
+      "topics": [
+        "military"
+      ],
+      "tags": [
+        "army"
+      ],
+      "flags": [],
+      "rationale": "Distributes the planned army divisions among five military districts and their provinces, with a count of divisions per district. Statistical, and about army organisation.",
+      "review_questions": []
+    },
+    "china-1919:p0351_2": {
+      "topics": [
+        "military"
+      ],
+      "tags": [
+        "army"
+      ],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "Lists the standard unit composition of one army division. Content is textual organisation, with counts used only as unit descriptors.",
+      "review_questions": []
+    },
+    "china-1919:p0353_1": {
+      "topics": [
+        "military"
+      ],
+      "tags": [
+        "honours-and-ranks"
+      ],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "A list of combatant officer ranks by class and grade, with English equivalents and Chinese designations. Content is a textual rank structure.",
+      "review_questions": []
+    },
+    "china-1919:p0356_1": {
+      "topics": [
+        "military"
+      ],
+      "tags": [
+        "army"
+      ],
+      "flags": [],
+      "rationale": "Troop numbers under the Military Governors by province in 1915. These are substantive quantities of provincial forces.",
+      "review_questions": []
+    },
+    "china-1919:p0356_2": {
+      "topics": [
+        "military"
+      ],
+      "tags": [
+        "army"
+      ],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "Lists army units and the places where they were stationed in 1916. Content is textual deployment, with unit numbers serving only as identifiers.",
+      "review_questions": []
+    }
+  }
+}

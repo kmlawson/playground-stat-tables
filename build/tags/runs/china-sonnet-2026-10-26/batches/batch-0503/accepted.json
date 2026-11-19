@@ -1,0 +1,132 @@
+{
+  "vocabulary_version": "1.1.0-optional-details",
+  "assignments": {
+    "china-1928:p0124_2": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "manganese",
+        "exports",
+        "imports"
+      ],
+      "flags": [],
+      "rationale": "Customs export and import tonnages of manganese ore, mostly to Japan; the table is trade in a mineral commodity.",
+      "review_questions": []
+    },
+    "china-1928:p0125_1": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "exports"
+      ],
+      "flags": [],
+      "rationale": "Customs export tonnage of bismuth ore. No bismuth tag exists in the vocabulary.",
+      "review_questions": [
+        "Propose a 'bismuth' tag; none exists."
+      ]
+    },
+    "china-1928:p0125_2": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "exports"
+      ],
+      "flags": [],
+      "rationale": "Customs original export of arsenic oxide, a tin-mining by-product, in tons. The table shows exports, not mining output.",
+      "review_questions": [
+        "Propose an 'arsenic' tag; none exists."
+      ]
+    },
+    "china-1928:p0125_3": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "exports"
+      ],
+      "flags": [],
+      "rationale": "Original export of orpiment and realgar through Tengyueh, Changsha and Yochow, in tons.",
+      "review_questions": [
+        "Propose an 'arsenic minerals' tag for orpiment and realgar; none exists."
+      ]
+    },
+    "china-1928:p0126_1": {
+      "topics": [
+        "mining"
+      ],
+      "tags": [
+        "petroleum"
+      ],
+      "flags": [],
+      "rationale": "Annual output of the Yenchang oil wells in Shensi, in catties.",
+      "review_questions": []
+    },
+    "china-1928:p0126_2": {
+      "topics": [
+        "mining"
+      ],
+      "tags": [
+        "petroleum",
+        "mineral-reserves"
+      ],
+      "flags": [],
+      "rationale": "Estimated oil shale reserves at the Fushun coal mines by depth. Oil shale falls under petroleum.",
+      "review_questions": []
+    },
+    "china-1928:p0127_1": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "salt",
+        "imports",
+        "exports"
+      ],
+      "flags": [],
+      "rationale": "Salt import, export and total original export in tons.",
+      "review_questions": []
+    },
+    "china-1928:p0127_2": {
+      "topics": [
+        "mining"
+      ],
+      "tags": [
+        "salt"
+      ],
+      "flags": [],
+      "rationale": "Salt output of the Tzeliutsing district of Szechwan, in piculs.",
+      "review_questions": []
+    },
+    "china-1928:p0128_1": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "imports",
+        "exports",
+        "chemicals"
+      ],
+      "flags": [],
+      "rationale": "Soda imports (soda ash, caustic soda, preparations) and exports. Soda is a chemical commodity here.",
+      "review_questions": [
+        "Propose a 'soda' tag if soda is to be tracked as a commodity."
+      ]
+    },
+    "china-1928:p0129_1": {
+      "topics": [
+        "mining"
+      ],
+      "tags": [
+        "mineral-production"
+      ],
+      "flags": [],
+      "rationale": "Annual tonnage output of the Wuhutsui clay deposit.",
+      "review_questions": [
+        "Propose a 'clay' tag; none exists, so the general mineral-production tag is used."
+      ]
+    }
+  }
+}

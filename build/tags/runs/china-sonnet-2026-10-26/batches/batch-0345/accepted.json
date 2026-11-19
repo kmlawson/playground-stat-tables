@@ -1,0 +1,116 @@
+{
+  "vocabulary_version": "1.1.0-optional-details",
+  "assignments": {
+    "china-1924-5:p0564_1": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "exports"
+      ],
+      "flags": [],
+      "rationale": "Exports by commodity direct to foreign countries, with declared values and values recalculated at 1913 prices. The table is a multi-commodity export list, so no single commodity tag fits.",
+      "review_questions": []
+    },
+    "china-1924-5:p0571_1": {
+      "topics": [
+        "manufacturing"
+      ],
+      "tags": [
+        "silk"
+      ],
+      "flags": [],
+      "rationale": "Annual silk production by type (white, yellow, steam filature, wild, waste), 1910-1922, with some cocoon columns. The silk tag covers the material and its output; cocoons are only one column, so sericulture is not added.",
+      "review_questions": []
+    },
+    "china-1924-5:p0581_1": {
+      "topics": [
+        "manufacturing"
+      ],
+      "tags": [
+        "cotton"
+      ],
+      "flags": [],
+      "rationale": "Half-yearly quantity of cotton consumed in China by cotton type, in bales. It measures consumption by mills.",
+      "review_questions": []
+    },
+    "china-1924-5:p0581_2": {
+      "topics": [
+        "manufacturing"
+      ],
+      "tags": [
+        "cotton"
+      ],
+      "flags": [],
+      "rationale": "Cotton mill stocks by cotton type at two half-year dates.",
+      "review_questions": []
+    },
+    "china-1924-5:p0582_1": {
+      "topics": [
+        "manufacturing"
+      ],
+      "tags": [
+        "cotton"
+      ],
+      "flags": [],
+      "rationale": "Shanghai cotton mills, spindles and looms by Chinese, Japanese and British ownership. The ownership split is a breakdown of the cotton industry.",
+      "review_questions": []
+    },
+    "china-1924-5:p0583_1": {
+      "topics": [
+        "manufacturing"
+      ],
+      "tags": [
+        "cotton",
+        "companies"
+      ],
+      "flags": [],
+      "rationale": "Proposed new cotton mills in Manchuria listed by company, with capital, spindles, looms and nationality.",
+      "review_questions": []
+    },
+    "china-1924-5:p0587_1": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [],
+      "flags": [],
+      "rationale": "Customs movement of vegetable tallow, quantity and value, for 1921 and 1922. No vocabulary tag covers tallow or wax, and the table does not clearly separate imports from exports.",
+      "review_questions": [
+        "Propose a tag for vegetable tallow and wax products."
+      ]
+    },
+    "china-1924-5:p0588_1": {
+      "topics": [
+        "agriculture"
+      ],
+      "tags": [],
+      "flags": [],
+      "rationale": "Estimated walnut quantities by province. Walnuts fit no specific tag; horticulture is an approximate fit but not clearly supported.",
+      "review_questions": [
+        "Propose a tag for nuts or tree crops such as walnuts."
+      ]
+    },
+    "china-1924-5:p0589_1": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "exports"
+      ],
+      "flags": [],
+      "rationale": "Exports of brown and white sugar in piculs and taels for 1921 and 1922.",
+      "review_questions": []
+    },
+    "china-1924-5:p0592_1": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "exports"
+      ],
+      "flags": [],
+      "rationale": "Vermicelli exports from the Chefoo trade in piculs and taels for 1921 and 1922.",
+      "review_questions": []
+    }
+  }
+}

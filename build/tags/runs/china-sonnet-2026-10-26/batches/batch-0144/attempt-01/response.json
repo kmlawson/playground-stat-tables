@@ -1,0 +1,119 @@
+{
+  "vocabulary_version": "1.1.0-optional-details",
+  "assignments": {
+    "china-1919:p0381_1": {
+      "topics": [
+        "finance",
+        "transportation"
+      ],
+      "tags": [
+        "foreign-loans",
+        "railways"
+      ],
+      "flags": [],
+      "rationale": "Railway loans with principal, interest, redemption terms, charges and security; foreign loans for railways.",
+      "review_questions": []
+    },
+    "china-1919:p0382_1": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "foreign-loans"
+      ],
+      "flags": [],
+      "rationale": "General government loans by date, principal, interest, issue price and redemption terms, mostly foreign.",
+      "review_questions": []
+    },
+    "china-1919:p0382_2": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "foreign-loans"
+      ],
+      "flags": [],
+      "rationale": "Security pledged for general loans, with principal outstanding and 1919 charges; companion to the general loans table.",
+      "review_questions": []
+    },
+    "china-1919:p0383_1": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "foreign-loans"
+      ],
+      "flags": [],
+      "rationale": "Japanese loans to China 1915-1918 by lender and yen amount.",
+      "review_questions": []
+    },
+    "china-1919:p0384_1": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "foreign-loans"
+      ],
+      "flags": [],
+      "rationale": "Loans contracted 1916-18 with amounts; footnotes show they are mainly Japanese or foreign banker loans.",
+      "review_questions": []
+    },
+    "china-1919:p0384_2": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [],
+      "flags": [],
+      "rationale": "Loans under negotiation with amounts; lenders are not identified so foreign-loans is not supported.",
+      "review_questions": [
+        "Should a tag for government loans in general (not only foreign) be added?"
+      ]
+    },
+    "china-1919:p0385_1": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "foreign-loans"
+      ],
+      "flags": [],
+      "rationale": "Republican government loans from foreign firms (Austrian, Franco-Chinese etc.) with interest, discount and repayment periods.",
+      "review_questions": []
+    },
+    "china-1919:p0385_2": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "public-debt"
+      ],
+      "flags": [],
+      "rationale": "Short term domestic and foreign debts of government by ministry; public debt balances.",
+      "review_questions": []
+    },
+    "china-1919:p0387_1": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "foreign-exchange"
+      ],
+      "flags": [],
+      "rationale": "Monthly exchange value of the Haikuan tael against sterling, francs, dollars, yen and rupees.",
+      "review_questions": []
+    },
+    "china-1919:p0388_1": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "measurement-and-units"
+      ],
+      "flags": [],
+      "rationale": "Conversion equivalents between Kuping, Haikuan, Shanghai and local taels; unit conversion table.",
+      "review_questions": [
+        "Should local tael conversions be tagged currency or foreign-exchange instead?"
+      ]
+    }
+  }
+}

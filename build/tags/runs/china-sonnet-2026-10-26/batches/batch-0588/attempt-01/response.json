@@ -1,0 +1,124 @@
+{
+  "vocabulary_version": "1.1.0-optional-details",
+  "assignments": {
+    "china-1929-30:p0533_1": {
+      "topics": [
+        "trade",
+        "transportation"
+      ],
+      "tags": [],
+      "flags": [],
+      "rationale": "Percentage shares by flag of tonnage, foreign and coast trade, and customs revenue (duties and tonnage dues). Mixes trade, shipping and revenue shares by nationality of vessel; no single tag fits all without forcing one component.",
+      "review_questions": [
+        "Consider a tag for carrying trade by flag/nationality of shipping."
+      ]
+    },
+    "china-1929-30:p0534_1": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "transit-trade",
+        "ports"
+      ],
+      "flags": [],
+      "rationale": "Value of transit trade inwards and outwards at each treaty port in Hk. Tls.",
+      "review_questions": []
+    },
+    "china-1929-30:p0535_1": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "imports",
+        "re-exports",
+        "exports"
+      ],
+      "flags": [],
+      "rationale": "Gross and net trade of Shanghai: foreign and Chinese imports, re-exports and exports of local origin, 1924-27.",
+      "review_questions": []
+    },
+    "china-1929-30:p0539_1": {
+      "topics": [
+        "government"
+      ],
+      "tags": [
+        "administrative-divisions"
+      ],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "Descriptive list of six Inner Mongolian leagues and their constituent hoshuns; textual, no quantities.",
+      "review_questions": []
+    },
+    "china-1929-30:p0540_1": {
+      "topics": [
+        "government"
+      ],
+      "tags": [],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "Textual enumeration of Mongol groups outside Mongolia with the authorities supervising them; mostly ethnic and administrative description. No existing tag fits well.",
+      "review_questions": [
+        "Is a tag for Mongol banners and tribal groups needed?"
+      ]
+    },
+    "china-1929-30:p0541_1": {
+      "topics": [
+        "government"
+      ],
+      "tags": [
+        "administrative-divisions"
+      ],
+      "flags": [],
+      "rationale": "Four aimaks of Outer Mongolia with the number of hoshuns in each (total 86).",
+      "review_questions": []
+    },
+    "china-1929-30:p0542_1": {
+      "topics": [
+        "population"
+      ],
+      "tags": [
+        "population-totals"
+      ],
+      "flags": [],
+      "rationale": "Inhabitants and yurts by aimak of Outer Mongolia.",
+      "review_questions": []
+    },
+    "china-1929-30:p0543_1": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "public-budgets"
+      ],
+      "flags": [],
+      "rationale": "Revenue and expenditure of Outer Mongolia 1923-26 in Mexican dollars.",
+      "review_questions": []
+    },
+    "china-1929-30:p0543_2": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "customs-revenue"
+      ],
+      "flags": [],
+      "rationale": "Customs duty returns of Outer Mongolia, 1922-25, as main state revenue.",
+      "review_questions": []
+    },
+    "china-1929-30:p0543_3": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "banking",
+        "currency"
+      ],
+      "flags": [],
+      "rationale": "Assets and liabilities of the Mongolbank Emission Section, including coin, notes in circulation and bills.",
+      "review_questions": []
+    }
+  }
+}

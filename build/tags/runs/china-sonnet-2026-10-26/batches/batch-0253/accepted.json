@@ -1,0 +1,124 @@
+{
+  "vocabulary_version": "1.1.0-optional-details",
+  "assignments": {
+    "china-1922:p0506_1": {
+      "topics": [
+        "communications"
+      ],
+      "tags": [],
+      "flags": [],
+      "rationale": "Counts of foreign employees of the Chinese Post Office by nationality. It is a postal staffing table, not a population table, so it stays under communications. No existing tag covers postal personnel.",
+      "review_questions": [
+        "Propose a tag for postal staff or personnel; nationality-and-ethnicity was not added because the subject is institutional staffing."
+      ]
+    },
+    "china-1922:p0508_1": {
+      "topics": [
+        "communications"
+      ],
+      "tags": [
+        "postal-services"
+      ],
+      "flags": [],
+      "rationale": "Time series of post offices, articles and parcels posted, and courier and steamer lines for 1901-1920.",
+      "review_questions": []
+    },
+    "china-1922:p0508_2": {
+      "topics": [
+        "communications"
+      ],
+      "tags": [
+        "postal-services"
+      ],
+      "flags": [],
+      "rationale": "Cash-on-delivery parcel service: numbers, value and weight for 1917-1920. The service is a postal one.",
+      "review_questions": []
+    },
+    "china-1922:p0509_1": {
+      "topics": [
+        "communications"
+      ],
+      "tags": [
+        "postal-services"
+      ],
+      "flags": [],
+      "rationale": "Comparison of postal traffic (letters, postcards, newspapers) across China, neighbouring and European administrations, with population and per-head averages.",
+      "review_questions": []
+    },
+    "china-1922:p0509_2": {
+      "topics": [
+        "communications",
+        "finance"
+      ],
+      "tags": [
+        "postal-remittances"
+      ],
+      "flags": [],
+      "rationale": "Postal money orders issued and cashed, in dollars, for 1904-1920.",
+      "review_questions": []
+    },
+    "china-1922:p0510_1": {
+      "topics": [
+        "communications",
+        "finance"
+      ],
+      "tags": [],
+      "flags": [],
+      "rationale": "Post Office income, working expenditure, surplus and capital expenditure for 1914-1920. This is an operating account for a single service. No existing tag fits a postal service account.",
+      "review_questions": [
+        "Propose a tag for postal or public-enterprise operating accounts."
+      ]
+    },
+    "china-1922:p0512_1": {
+      "topics": [
+        "communications",
+        "informal-imperialism"
+      ],
+      "tags": [
+        "postal-services"
+      ],
+      "flags": [],
+      "rationale": "Alien postal agencies in China by nationality (France, Great Britain, Japan, US). These are foreign postal privileges in a nominally sovereign state. Postal-services is the only fitting tag.",
+      "review_questions": [
+        "Should a tag for foreign postal agencies be proposed?"
+      ]
+    },
+    "china-1922:p0512_2": {
+      "topics": [
+        "communications",
+        "informal-imperialism"
+      ],
+      "tags": [
+        "postal-services"
+      ],
+      "flags": [],
+      "rationale": "Japanese postal establishments in China by class: offices, agencies, letter boxes and field post offices. This is a foreign postal presence in China.",
+      "review_questions": []
+    },
+    "china-1922:p0513_1": {
+      "topics": [
+        "communications",
+        "informal-imperialism"
+      ],
+      "tags": [
+        "postal-services"
+      ],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "List of places where foreign post offices operate in China, grouped by country, with no quantities. It is a textual place list.",
+      "review_questions": []
+    },
+    "china-1922:p0514_1": {
+      "topics": [
+        "communications"
+      ],
+      "tags": [
+        "postal-services"
+      ],
+      "flags": [],
+      "rationale": "Summary of Chinese post office establishments by district for 1919 and 1920. It covers offices, agencies and offices with special functions, including money order and savings bank offices.",
+      "review_questions": []
+    }
+  }
+}

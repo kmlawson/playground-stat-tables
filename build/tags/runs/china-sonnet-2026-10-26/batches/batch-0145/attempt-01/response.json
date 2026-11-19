@@ -1,0 +1,123 @@
+{
+  "vocabulary_version": "1.1.0-optional-details",
+  "assignments": {
+    "china-1919:p0390_1": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "currency"
+      ],
+      "flags": [],
+      "rationale": "Paper money in circulation by province with market and discounted values: note currency circulation.",
+      "review_questions": []
+    },
+    "china-1919:p0399_1": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "currency"
+      ],
+      "flags": [],
+      "rationale": "Copper coins minted by denomination: coinage issuance.",
+      "review_questions": []
+    },
+    "china-1919:p0407_1": {
+      "topics": [
+        "finance",
+        "trade"
+      ],
+      "tags": [
+        "currency"
+      ],
+      "flags": [],
+      "rationale": "Coin imports by origin region and coin type (gold, silver, copper); the coin movements concern monetary circulation, with no suitable import tag for coin as a monetary commodity beyond this.",
+      "review_questions": [
+        "Should imports of coins as monetary specie have a dedicated tag, or be tagged imports?"
+      ]
+    },
+    "china-1919:p0408_1": {
+      "topics": [
+        "finance",
+        "trade"
+      ],
+      "tags": [
+        "currency"
+      ],
+      "flags": [],
+      "rationale": "Table structure shows coin exports in 1914 by destination and coin type; the data cells are unreadable but the intended quantities are established, so it is statistical.",
+      "review_questions": [
+        "Should exports of coins as monetary specie have a dedicated tag, or be tagged exports?"
+      ]
+    },
+    "china-1919:p0409_1": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "foreign-exchange"
+      ],
+      "flags": [],
+      "rationale": "Yearly lowest and highest London telegraphic transfer selling rates and their variations from 1890.",
+      "review_questions": []
+    },
+    "china-1919:p0410_1": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "foreign-exchange"
+      ],
+      "flags": [],
+      "rationale": "Lowest and highest London T.T. selling rates for 1916-1918 with ranges and changes.",
+      "review_questions": []
+    },
+    "china-1919:p0420_1": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "public-debt",
+        "indemnities"
+      ],
+      "flags": [],
+      "rationale": "Liabilities of the Chinese Government in sterling: Boxer indemnity arrears, treasury bills, Belgian loan, and advances repaid to bank groups.",
+      "review_questions": []
+    },
+    "china-1919:p0421_1": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "public-debt"
+      ],
+      "flags": [],
+      "rationale": "Schedule of Belgian Loan and Currency Reform Loan advance payments with interest, totalled in sterling.",
+      "review_questions": []
+    },
+    "china-1919:p0421_2": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "public-debt",
+        "foreign-loans"
+      ],
+      "flags": [],
+      "rationale": "Provincial loans owed to foreign banks by creditor, in taels, with a total.",
+      "review_questions": []
+    },
+    "china-1919:p0422_1": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "public-debt"
+      ],
+      "flags": [],
+      "rationale": "Government liabilities falling due shortly: treasury bills, claims allowance, and yen loans, with amounts.",
+      "review_questions": []
+    }
+  }
+}

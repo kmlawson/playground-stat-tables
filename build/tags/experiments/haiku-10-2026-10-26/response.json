@@ -1,0 +1,128 @@
+{
+  "vocabulary_version": "1.0.2-pilot",
+  "assignments": {
+    "china-1916:p0125_6": {
+      "topics": [
+        "utilities"
+      ],
+      "tags": [
+        "trams"
+      ],
+      "flags": [],
+      "rationale": "Single-column list of cities where electric tramways operate or are under construction; the subject is tramway locations, confirmed as tram systems by the title Electric Tramways.",
+      "review_questions": []
+    },
+    "korea-1942:p0131_1": {
+      "topics": [
+        "culture"
+      ],
+      "tags": [
+        "sports-participation"
+      ],
+      "flags": [],
+      "rationale": "Counts of participants by sport at the 16th Korea Shrine Athletic Meet; entrant numbers rather than results, so sports-participation applies, with the sporting subject marked by the sport topic in the same record.",
+      "review_questions": []
+    },
+    "taiwan-tokei-1925:p0263_2": {
+      "topics": [
+        "transportation"
+      ],
+      "tags": [
+        "trams",
+        "railways"
+      ],
+      "flags": [],
+      "rationale": "Light-railway (push-car track) operators with route length and handcar numbers by district, 1925. Track is described as 軌道 with handcars, so trams is confirmed only as a push-car line; the title mentions light railways, so railways is also included.",
+      "review_questions": [
+        "The 軌道 system is not clearly a street or interurban tram; the trams tag is a tentative fit for a mixed light-railway inventory and may need confirmation."
+      ]
+    },
+    "japan-1937:p0409_1": {
+      "topics": [
+        "economy"
+      ],
+      "tags": [
+        "economic-indicators"
+      ],
+      "flags": [],
+      "rationale": "Monthly index numbers spanning prices, export values, import quantities, industrial production, railway freights, bank clearings, note issue and stock quotations; a multi-domain economic barometer.",
+      "review_questions": []
+    },
+    "japan-1939-40:p0696_1": {
+      "topics": [
+        "education"
+      ],
+      "tags": [
+        "education-finance"
+      ],
+      "flags": [],
+      "rationale": "Governmental educational expenditure in yen by education category for 1936-37; a budget table for education.",
+      "review_questions": []
+    },
+    "korea-tokanfu-1939:p0246_1": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "public-budgets"
+      ],
+      "flags": [],
+      "rationale": "Government-General special account revenue and expenditure by fiscal year, with ordinary and extraordinary sections; a public budget table.",
+      "review_questions": []
+    },
+    "manchuria-1939:p0091_1": {
+      "topics": [
+        "population",
+        "colonial-rule"
+      ],
+      "tags": [
+        "settler-migration",
+        "households"
+      ],
+      "flags": [],
+      "rationale": "Settlement groups of a railway self-protective village with year of settlement, households, members and cultivated area; the settler scheme and household counts are the subject.",
+      "review_questions": [
+        "Whether the Manchukuo settlement scheme evidences foreign state-sponsored settlement sufficient for colonial-rule is a context judgement; colonial-rule is included cautiously."
+      ]
+    },
+    "far-east-1941:IMG_5400_1": {
+      "topics": [
+        "economy"
+      ],
+      "tags": [
+        "mineral-production",
+        "cereals"
+      ],
+      "flags": [],
+      "rationale": "Yearly production of rubber, tin ore and rice in Thailand; three commodities across mineral and crop categories. The rubber and tin series are primary products, and rice is a cereal, so the tags reflect the distinct commodity groups.",
+      "review_questions": [
+        "Three commodities from different sectors are compared; the classification selects mineral-production and cereals as representatives, while rubber is not separately tagged."
+      ]
+    },
+    "nanyo-tokei-1937:p0041_3": {
+      "topics": [
+        "government",
+        "culture"
+      ],
+      "tags": [
+        "hunting",
+        "police"
+      ],
+      "flags": [],
+      "rationale": "Hunting licences issued by year and by branch office, across recreational, professional and scientific purposes; principally government licensing administration per the rules, with the police chapter context.",
+      "review_questions": []
+    },
+    "taiwan-tokei-1933:p0353_2": {
+      "topics": [
+        "health"
+      ],
+      "tags": [
+        "opium-licensing",
+        "opium"
+      ],
+      "flags": [],
+      "rationale": "Licensed opium-related traders by category and by prefecture, 1928-1933; a licensing inventory organised by wholesalers, retailers and suppliers under the health chapter.",
+      "review_questions": []
+    }
+  }
+}

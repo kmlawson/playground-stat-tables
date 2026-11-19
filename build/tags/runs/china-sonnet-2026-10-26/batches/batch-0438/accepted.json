@@ -1,0 +1,119 @@
+{
+  "vocabulary_version": "1.1.0-optional-details",
+  "assignments": {
+    "china-1926-7:p0062_2": {
+      "topics": [
+        "geography",
+        "transportation"
+      ],
+      "tags": [],
+      "flags": [],
+      "rationale": "Distance matrix between London, Siberian and Chinese cities along the Siberian route. It is geographic distance data with a travel-route context. No vocabulary tag covers distances between places.",
+      "review_questions": [
+        "Propose a tag such as 'distances' for inter-place distance tables."
+      ]
+    },
+    "china-1926-7:p0062_3": {
+      "topics": [
+        "geography"
+      ],
+      "tags": [],
+      "flags": [],
+      "rationale": "Coastal distances in nautical miles between Shanghai and southern ports. This is geographic distance data, and no existing tag covers it.",
+      "review_questions": [
+        "Propose a 'distances' tag."
+      ]
+    },
+    "china-1926-7:p0062_4": {
+      "topics": [
+        "geography"
+      ],
+      "tags": [],
+      "flags": [],
+      "rationale": "Coastal distances in nautical miles between Shanghai and northern ports. This is geographic distance data, and no existing tag covers it.",
+      "review_questions": [
+        "Propose a 'distances' tag."
+      ]
+    },
+    "china-1926-7:p0063_1": {
+      "topics": [
+        "geography"
+      ],
+      "tags": [],
+      "flags": [],
+      "rationale": "Matrix of river distances between Yangtze ports from Shanghai to Chungking. It is distance data rather than navigation traffic or river regime description, so no tag fits well.",
+      "review_questions": [
+        "Propose a 'distances' tag.",
+        "Should this be tagged rivers-and-waterways?"
+      ]
+    },
+    "china-1926-7:p0063_2": {
+      "topics": [
+        "geography"
+      ],
+      "tags": [],
+      "flags": [],
+      "rationale": "List of sea distances from Shanghai to northern and Japanese ports. It is geographic distance data, and no existing tag covers it.",
+      "review_questions": [
+        "Propose a 'distances' tag."
+      ]
+    },
+    "china-1926-7:p0065_1": {
+      "topics": [
+        "geography"
+      ],
+      "tags": [
+        "physical-geography"
+      ],
+      "flags": [],
+      "rationale": "Names the Tienshan mountain ranges with their elevations. These are physical landforms.",
+      "review_questions": []
+    },
+    "china-1926-7:p0065_2": {
+      "topics": [
+        "geography"
+      ],
+      "tags": [
+        "physical-geography"
+      ],
+      "flags": [],
+      "rationale": "Lists the Kuenlun chain ranges with their elevations. These are physical landforms.",
+      "review_questions": []
+    },
+    "china-1926-7:p0078_1": {
+      "topics": [
+        "geography"
+      ],
+      "tags": [
+        "rivers-and-waterways"
+      ],
+      "flags": [],
+      "rationale": "Compares the length, basin area and discharge of the Yangtze with other world rivers. These are physical river characteristics.",
+      "review_questions": []
+    },
+    "china-1926-7:p0080_1": {
+      "topics": [
+        "geography"
+      ],
+      "tags": [
+        "rivers-and-waterways"
+      ],
+      "flags": [],
+      "rationale": "Annual highest and lowest river stages at Hankow, 1865-1924. These are river water-regime observations rather than flood events.",
+      "review_questions": [
+        "Does the highest-water data justify a floods tag? No flood damage or inundation is shown."
+      ]
+    },
+    "china-1926-7:p0082_1": {
+      "topics": [
+        "geography"
+      ],
+      "tags": [
+        "rivers-and-waterways"
+      ],
+      "flags": [],
+      "rationale": "River gradients and distances along sections of the Yangtze main valley, with remarks on cataracts and the limit of navigation. These are physical river characteristics.",
+      "review_questions": []
+    }
+  }
+}

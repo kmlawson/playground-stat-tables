@@ -1,0 +1,133 @@
+{
+  "vocabulary_version": "1.1.0-optional-details",
+  "assignments": {
+    "china-1912:p0334_1": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "public-debt",
+        "foreign-loans"
+      ],
+      "flags": [],
+      "rationale": "Table of redeemed Chinese government loans (year, lender, amount, interest, purpose), mostly from foreign banks.",
+      "review_questions": []
+    },
+    "china-1912:p0335_1": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "public-debt",
+        "foreign-loans",
+        "indemnities"
+      ],
+      "flags": [],
+      "rationale": "Outstanding general loans with principal, charges and repayment, including Boxer Indemnity and Chino-Japanese War indemnity loans.",
+      "review_questions": []
+    },
+    "china-1912:p0336_1": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "banking"
+      ],
+      "flags": [],
+      "rationale": "Private loans from foreign banks to Chinese officials and banks to relieve financial crisis; bank lending is the subject, not public debt.",
+      "review_questions": []
+    },
+    "china-1912:p0336_2": {
+      "topics": [
+        "finance",
+        "transportation"
+      ],
+      "tags": [
+        "foreign-loans",
+        "public-debt",
+        "railways"
+      ],
+      "flags": [],
+      "rationale": "Railway loans to China with principal, terms, charges and outstanding amounts, mainly foreign-lent for railway construction.",
+      "review_questions": []
+    },
+    "china-1912:p0339_1": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "banking"
+      ],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "Directory of foreign banks in China listing head offices and branch cities; content is textual.",
+      "review_questions": []
+    },
+    "china-1912:p0340_1": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "banking"
+      ],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "Descriptive list of Chinese banks with head offices, capital and remarks on note issues. Mostly textual, though it includes some capital figures.",
+      "review_questions": [
+        "Is it statistical rather than text because of the capital and note-issue amounts?"
+      ]
+    },
+    "china-1912:p0343_1": {
+      "topics": [
+        "transportation"
+      ],
+      "tags": [
+        "shipping",
+        "ports"
+      ],
+      "flags": [],
+      "rationale": "Vessels and tonnage entered and cleared at Chinese ports by flag, 1900-1910.",
+      "review_questions": []
+    },
+    "china-1912:p0345_1": {
+      "topics": [
+        "transportation"
+      ],
+      "tags": [
+        "shipping",
+        "ports"
+      ],
+      "flags": [],
+      "rationale": "Percentage share of port tonnage by flag, derived from the entered and cleared table.",
+      "review_questions": []
+    },
+    "china-1912:p0346_1": {
+      "topics": [
+        "transportation"
+      ],
+      "tags": [
+        "shipping"
+      ],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "List of mail steamship companies with flag, route and frequency; textual inventory.",
+      "review_questions": []
+    },
+    "china-1912:p0346_2": {
+      "topics": [
+        "transportation"
+      ],
+      "tags": [
+        "shipping"
+      ],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "Numbered list of other steamship companies with flags and some line names; textual.",
+      "review_questions": []
+    }
+  }
+}

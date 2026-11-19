@@ -1,0 +1,143 @@
+{
+  "vocabulary_version": "1.1.0-optional-details",
+  "assignments": {
+    "china-1914:p0685_1": {
+      "topics": [
+        "foreign-relations",
+        "informal-imperialism"
+      ],
+      "tags": [
+        "diplomatic-service"
+      ],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "Roster of British consular officers by port, rank, name and appointment date; the content is textual. Consular service fits diplomatic-service. Informal-imperialism is supported by the Shanghai Supreme Court and Mixed Court posts, which imply consular jurisdiction, but this is not stated explicitly.",
+      "review_questions": []
+    },
+    "china-1914:p0687_1": {
+      "topics": [
+        "informal-imperialism",
+        "foreign-relations"
+      ],
+      "tags": [
+        "extraterritoriality",
+        "diplomatic-service"
+      ],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "Lists British consular posts and their districts as marriage officers under the Foreign Marriage Act and China Order in Council. The content is textual and shows consular legal authority over British subjects, so extraterritoriality fits. Consular posts support diplomatic-service.",
+      "review_questions": []
+    },
+    "china-1914:p0699_1": {
+      "topics": [
+        "communications",
+        "government"
+      ],
+      "tags": [
+        "postal-services",
+        "government-offices"
+      ],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "Roster of foreign staff in the Chinese postal service, with names, ranks, ports and remarks. The content is textual personnel data, not statistics.",
+      "review_questions": []
+    },
+    "china-1914:p0706_1": {
+      "topics": [
+        "military",
+        "informal-imperialism"
+      ],
+      "tags": [
+        "nationality-and-ethnicity"
+      ],
+      "flags": [],
+      "rationale": "Shanghai Volunteer Corps officers by unit and nationality. The figures are unreadable, but the structure shows a numeric table. Military is the main subject, and the nationality breakdown is substantial. Informal-imperialism rests on the foreign settlement defence force.",
+      "review_questions": [
+        "Should a tag for volunteer or municipal defence forces be added? Army is not clearly confirmed for this corps."
+      ]
+    },
+    "china-1914:p0736_1": {
+      "topics": [
+        "narcotics",
+        "trade"
+      ],
+      "tags": [
+        "opium",
+        "imports"
+      ],
+      "flags": [],
+      "rationale": "Annual net imports of foreign opium into China in piculs, 1863-1912.",
+      "review_questions": []
+    },
+    "china-1914:p0736_2": {
+      "topics": [
+        "narcotics",
+        "trade"
+      ],
+      "tags": [
+        "opium",
+        "imports"
+      ],
+      "flags": [],
+      "rationale": "Decadal average annual opium importation in piculs.",
+      "review_questions": []
+    },
+    "china-1914:p0736_3": {
+      "topics": [
+        "narcotics",
+        "trade"
+      ],
+      "tags": [
+        "opium",
+        "measurement-and-units"
+      ],
+      "flags": [],
+      "rationale": "Average net weight per chest of each kind of opium, used to measure import figures. It is a weights and units table.",
+      "review_questions": []
+    },
+    "china-1914:p0737_1": {
+      "topics": [
+        "narcotics",
+        "finance"
+      ],
+      "tags": [
+        "opium",
+        "likin",
+        "customs-revenue"
+      ],
+      "flags": [],
+      "rationale": "Annual duty, likin and total revenue on foreign opium, 1887-1912.",
+      "review_questions": []
+    },
+    "china-1914:p0737_2": {
+      "topics": [
+        "narcotics",
+        "finance"
+      ],
+      "tags": [
+        "opium",
+        "likin",
+        "customs-revenue"
+      ],
+      "flags": [],
+      "rationale": "Duty and likin collected on native opium and duty on foreign opium, by year.",
+      "review_questions": []
+    },
+    "china-1914:p0738_1": {
+      "topics": [
+        "narcotics",
+        "trade"
+      ],
+      "tags": [
+        "opium",
+        "imports"
+      ],
+      "flags": [],
+      "rationale": "Net imports of foreign opium into Shanghai by type, in pounds and pounds sterling, 1906-12.",
+      "review_questions": []
+    }
+  }
+}

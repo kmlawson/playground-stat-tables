@@ -1,0 +1,117 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "vocabulary_version": {
+      "type": "string",
+      "enum": [
+        "1.0.2-pilot"
+      ]
+    },
+    "assignments": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "china-1916:p0125_6": {
+          "$ref": "#/$defs/assignment"
+        },
+        "korea-1942:p0131_1": {
+          "$ref": "#/$defs/assignment"
+        },
+        "taiwan-tokei-1925:p0263_2": {
+          "$ref": "#/$defs/assignment"
+        },
+        "japan-1937:p0409_1": {
+          "$ref": "#/$defs/assignment"
+        },
+        "japan-1939-40:p0696_1": {
+          "$ref": "#/$defs/assignment"
+        },
+        "korea-tokanfu-1939:p0246_1": {
+          "$ref": "#/$defs/assignment"
+        },
+        "manchuria-1939:p0091_1": {
+          "$ref": "#/$defs/assignment"
+        },
+        "far-east-1941:IMG_5400_1": {
+          "$ref": "#/$defs/assignment"
+        },
+        "nanyo-tokei-1937:p0041_3": {
+          "$ref": "#/$defs/assignment"
+        },
+        "taiwan-tokei-1933:p0353_2": {
+          "$ref": "#/$defs/assignment"
+        }
+      },
+      "required": [
+        "china-1916:p0125_6",
+        "korea-1942:p0131_1",
+        "taiwan-tokei-1925:p0263_2",
+        "japan-1937:p0409_1",
+        "japan-1939-40:p0696_1",
+        "korea-tokanfu-1939:p0246_1",
+        "manchuria-1939:p0091_1",
+        "far-east-1941:IMG_5400_1",
+        "nanyo-tokei-1937:p0041_3",
+        "taiwan-tokei-1933:p0353_2"
+      ]
+    }
+  },
+  "required": [
+    "vocabulary_version",
+    "assignments"
+  ],
+  "$defs": {
+    "assignment": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "topics": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "maxItems": 2,
+          "uniqueItems": true
+        },
+        "tags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "maxItems": 3,
+          "uniqueItems": true
+        },
+        "flags": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "text-tables"
+            ]
+          },
+          "maxItems": 1,
+          "uniqueItems": true
+        },
+        "rationale": {
+          "type": "string"
+        },
+        "review_questions": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "topics",
+        "tags",
+        "flags",
+        "rationale",
+        "review_questions"
+      ]
+    }
+  }
+}

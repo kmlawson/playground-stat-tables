@@ -1,0 +1,118 @@
+{
+  "vocabulary_version": "1.1.0-optional-details",
+  "assignments": {
+    "china-peking-1921:p0457_1": {
+      "topics": [
+        "education"
+      ],
+      "tags": [
+        "schools-and-pupils"
+      ],
+      "flags": [],
+      "rationale": "Graduates by school type (lower and higher primary, middle, normal) under the Peking Local Board of Education.",
+      "review_questions": []
+    },
+    "china-peking-1921:p0457_2": {
+      "topics": [
+        "education",
+        "finance"
+      ],
+      "tags": [
+        "education-finance"
+      ],
+      "flags": [],
+      "rationale": "Budget of the Peking Local Board of Education for supervision and general expenses, a dedicated education budget.",
+      "review_questions": []
+    },
+    "china-peking-1921:p0457_3": {
+      "topics": [
+        "education",
+        "finance"
+      ],
+      "tags": [
+        "education-finance"
+      ],
+      "flags": [],
+      "rationale": "Monthly expenditure on inspectors, middle and primary schools and social education by the local board.",
+      "review_questions": []
+    },
+    "china-peking-1921:p0457_4": {
+      "topics": [
+        "education"
+      ],
+      "tags": [
+        "schools-and-pupils"
+      ],
+      "flags": [],
+      "rationale": "Boy and girl students across China by grade of school.",
+      "review_questions": []
+    },
+    "china-peking-1921:p0457_5": {
+      "topics": [
+        "education"
+      ],
+      "tags": [
+        "vocational-education"
+      ],
+      "flags": [],
+      "rationale": "Weekly subject hours over three years in apprentice school departments (mechanical, carpentry, electroplating); vocational instruction.",
+      "review_questions": []
+    },
+    "china-peking-1921:p0458_1": {
+      "topics": [
+        "education"
+      ],
+      "tags": [],
+      "flags": [],
+      "rationale": "Seating capacity of Peking lecture halls (popular lecture stations); adult or social education but no exact tag fits.",
+      "review_questions": [
+        "Should a tag for popular lecture halls or social education be added? literacy-and-adult-education was judged not precise enough."
+      ]
+    },
+    "china-peking-1921:p0458_2": {
+      "topics": [
+        "education"
+      ],
+      "tags": [],
+      "flags": [],
+      "rationale": "Average daily attendance at lecture halls with marks for classes of attendees; quantitative, but no exact tag fits.",
+      "review_questions": [
+        "Printed total 1,005 does not match the sum of the figures; kept as printed. Missing tag for popular lecture halls or social education."
+      ]
+    },
+    "china-peking-1921:p0459_1": {
+      "topics": [
+        "education"
+      ],
+      "tags": [],
+      "flags": [],
+      "rationale": "Counts of lectures by subject grouped by theme (politics, morality, science, hygiene, social reform) delivered in lecture halls; no fitting detailed tag.",
+      "review_questions": [
+        "Propose a tag for popular lecture halls or social education."
+      ]
+    },
+    "china-peking-1921:p0461_1": {
+      "topics": [
+        "education",
+        "finance"
+      ],
+      "tags": [],
+      "flags": [],
+      "rationale": "Monthly running expenses of each lecture hall; education funding but no specific tag for lecture-hall budgets.",
+      "review_questions": [
+        "education-finance was not applied as the table concerns popular lecture halls rather than schools; confirm or propose a social-education tag."
+      ]
+    },
+    "china-peking-1921:p0461_2": {
+      "topics": [
+        "education"
+      ],
+      "tags": [
+        "libraries"
+      ],
+      "flags": [],
+      "rationale": "Number and kinds of books held in lecture hall reading rooms, a library-type collection.",
+      "review_questions": []
+    }
+  }
+}

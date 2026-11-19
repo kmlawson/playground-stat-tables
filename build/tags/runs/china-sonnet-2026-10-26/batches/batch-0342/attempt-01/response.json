@@ -1,0 +1,124 @@
+{
+  "vocabulary_version": "1.1.0-optional-details",
+  "assignments": {
+    "china-1924-5:p0517_1": {
+      "topics": [
+        "finance",
+        "transportation"
+      ],
+      "tags": [
+        "ports"
+      ],
+      "flags": [],
+      "rationale": "Tonnage dues collected at each treaty port in 1922, split by Chinese and foreign flag. This is a port-level fiscal measure tied to shipping and ports. No tag covers customs dues on shipping, and customs-revenue is for duties rather than tonnage dues, so only ports is used.",
+      "review_questions": [
+        "Should a tag be added for tonnage dues or port dues?"
+      ]
+    },
+    "china-1924-5:p0519_1": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "imports",
+        "exports",
+        "re-exports"
+      ],
+      "flags": [],
+      "rationale": "Imports, exports and totals of direct foreign trade for each port in 1921 and 1922, with re-export rows and a net total.",
+      "review_questions": []
+    },
+    "china-1924-5:p0521_1": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "imports"
+      ],
+      "flags": [],
+      "rationale": "Gross imports by commodity with quantities and Hk. Tls. values for 1920-22, covering a very wide range of goods, so only the aggregate imports tag fits. Many cells are unreadable but the structure is clear.",
+      "review_questions": []
+    },
+    "china-1924-5:p0524_1": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "imports"
+      ],
+      "flags": [],
+      "rationale": "Continuation of the commodity import statistics (plants, fodder, timber, metals and similar goods), with quantities and values for 1920-22.",
+      "review_questions": []
+    },
+    "china-1924-5:p0525_1": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "imports",
+        "exports"
+      ],
+      "flags": [],
+      "rationale": "Continued commodity import statistics covering metals, textiles and manufactures. The later rows appear to restart the item numbering with an export-style series (items 1-67), so the table mixes imports and exports.",
+      "review_questions": [
+        "Does the later restarted numbering belong to the export series rather than imports?"
+      ]
+    },
+    "china-1924-5:p0534_1": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "exports"
+      ],
+      "flags": [],
+      "rationale": "Continued export statistics by commodity (metals, ores, cement, wool, silk), with quantities and values for 1920-22.",
+      "review_questions": []
+    },
+    "china-1924-5:p0535_1": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "exports"
+      ],
+      "flags": [],
+      "rationale": "Continued export statistics by commodity covering raw materials and manufactured goods, with quantities and values for 1920-22.",
+      "review_questions": []
+    },
+    "china-1924-5:p0538_1": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "exports"
+      ],
+      "flags": [],
+      "rationale": "Export statistics for machinery, vehicles and instruments. The figures are unreadable in the transcription, but the structure establishes a quantitative export table.",
+      "review_questions": []
+    },
+    "china-1924-5:p0539_1": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "exports"
+      ],
+      "flags": [],
+      "rationale": "Export statistics for manufactured goods, arms and gold and silver, with a total, for 1920-22.",
+      "review_questions": []
+    },
+    "china-1924-5:p0540_1": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "imports",
+        "exports"
+      ],
+      "flags": [],
+      "rationale": "Value of direct imports from and exports to each country or colony for 1918-22, with totals.",
+      "review_questions": []
+    }
+  }
+}

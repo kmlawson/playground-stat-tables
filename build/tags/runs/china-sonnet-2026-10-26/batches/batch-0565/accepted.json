@@ -1,0 +1,123 @@
+{
+  "vocabulary_version": "1.1.0-optional-details",
+  "assignments": {
+    "china-1929-30:p0028_1": {
+      "topics": [
+        "population"
+      ],
+      "tags": [
+        "population-totals"
+      ],
+      "flags": [],
+      "rationale": "Customs estimate of population of provinces and treaty ports; counts of total resident population.",
+      "review_questions": []
+    },
+    "china-1929-30:p0029_1": {
+      "topics": [
+        "geography"
+      ],
+      "tags": [],
+      "flags": [],
+      "rationale": "Nautical distance matrices between ports and places; the figures are distances, not areas, physical features or traffic. No suitable detailed tag exists.",
+      "review_questions": [
+        "Propose a tag for distances and routes."
+      ]
+    },
+    "china-1929-30:p0030_1": {
+      "topics": [
+        "geography"
+      ],
+      "tags": [
+        "rivers-and-waterways"
+      ],
+      "flags": [],
+      "rationale": "Distances between places along the Yangtze river, a river description.",
+      "review_questions": []
+    },
+    "china-1929-30:p0030_2": {
+      "topics": [
+        "geography"
+      ],
+      "tags": [
+        "physical-geography"
+      ],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "Textual list naming the seas of China with Chinese names; no statistics.",
+      "review_questions": []
+    },
+    "china-1929-30:p0031_1": {
+      "topics": [
+        "geography"
+      ],
+      "tags": [
+        "physical-geography"
+      ],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "Descriptive list of coastal points, ports, bays and islands in sequence along the coast; textual content.",
+      "review_questions": []
+    },
+    "china-1929-30:p0032_1": {
+      "topics": [
+        "geography"
+      ],
+      "tags": [
+        "physical-geography"
+      ],
+      "flags": [],
+      "rationale": "Mountain ranges with peaks and heights, a physical geography description with quantitative heights.",
+      "review_questions": []
+    },
+    "china-1929-30:p0033_1": {
+      "topics": [
+        "geography"
+      ],
+      "tags": [
+        "physical-geography"
+      ],
+      "flags": [],
+      "rationale": "Mountain ranges and peaks with some heights; mixed statistical table of landforms.",
+      "review_questions": []
+    },
+    "china-1929-30:p0033_2": {
+      "topics": [
+        "geography"
+      ],
+      "tags": [
+        "physical-geography"
+      ],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "Numbered list of the five sacred mountains and their provinces; textual.",
+      "review_questions": []
+    },
+    "china-1929-30:p0033_3": {
+      "topics": [
+        "geography"
+      ],
+      "tags": [
+        "physical-geography"
+      ],
+      "flags": [],
+      "rationale": "Famous mountains with heights and descriptions including pilgrimage notes; includes quantitative elevations, so mixed.",
+      "review_questions": []
+    },
+    "china-1929-30:p0034_1": {
+      "topics": [
+        "geography"
+      ],
+      "tags": [
+        "rivers-and-waterways"
+      ],
+      "flags": [],
+      "rationale": "Chief lakes of China Proper with dimensions, areas and altitudes; lakes connected to waterways.",
+      "review_questions": [
+        "Lakes lack a dedicated tag; rivers-and-waterways covers connected lakes but may be approximate."
+      ]
+    }
+  }
+}

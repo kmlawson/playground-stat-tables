@@ -1,0 +1,116 @@
+{
+  "vocabulary_version": "1.1.0-optional-details",
+  "assignments": {
+    "china-1925-6:p0079_1": {
+      "topics": [
+        "transportation"
+      ],
+      "tags": [],
+      "flags": [],
+      "rationale": "Matrix of nautical-mile distances between ports on the European and Far Eastern sea routes. The subject is route distances between ports, which no existing tag covers precisely.",
+      "review_questions": [
+        "Propose a tag for route or port-to-port distances; shipping and ports tags measure traffic or fleets, not distances."
+      ]
+    },
+    "china-1925-6:p0079_2": {
+      "topics": [
+        "transportation"
+      ],
+      "tags": [],
+      "flags": [],
+      "rationale": "Distances from London and Europe to Chinese cities by the Siberian rail-sea route. This is a route-distance table, not traffic or railway operating data.",
+      "review_questions": [
+        "Propose a tag for route distances. The Moscow/Mukden value is unreadable ([?])."
+      ]
+    },
+    "china-1925-6:p0079_3": {
+      "topics": [
+        "transportation"
+      ],
+      "tags": [],
+      "flags": [],
+      "rationale": "Coastal distances in nautical miles between Shanghai and southern China ports. Only route distances are given, with no traffic or port measures.",
+      "review_questions": [
+        "Propose a tag for route or port-to-port distances."
+      ]
+    },
+    "china-1925-6:p0079_4": {
+      "topics": [
+        "transportation"
+      ],
+      "tags": [],
+      "flags": [],
+      "rationale": "Coastal distances in nautical miles between Shanghai and northern China ports. Only route distances are given.",
+      "review_questions": [
+        "Propose a tag for route or port-to-port distances."
+      ]
+    },
+    "china-1925-6:p0080_1": {
+      "topics": [
+        "transportation",
+        "geography"
+      ],
+      "tags": [],
+      "flags": [],
+      "rationale": "River distances in miles between Yangtze ports from Shanghai to Chungking, for navigation reference. The table gives distances, not river physical description, navigation traffic or cargo.",
+      "review_questions": [
+        "Propose a tag for route distances. One Shasi/Shanghai value is unreadable."
+      ]
+    },
+    "china-1925-6:p0080_2": {
+      "topics": [
+        "transportation"
+      ],
+      "tags": [],
+      "flags": [],
+      "rationale": "Sea distances from Shanghai to northern and Japanese ports. Only route distances are given.",
+      "review_questions": [
+        "Propose a tag for route distances."
+      ]
+    },
+    "china-1925-6:p0082_1": {
+      "topics": [
+        "geography"
+      ],
+      "tags": [
+        "physical-geography"
+      ],
+      "flags": [],
+      "rationale": "Main ranges of the Tienshan chain with their highest peaks and heights, which are physical landform characteristics.",
+      "review_questions": []
+    },
+    "china-1925-6:p0083_1": {
+      "topics": [
+        "geography"
+      ],
+      "tags": [
+        "physical-geography"
+      ],
+      "flags": [],
+      "rationale": "Elevations of the successive ranges of the Kuenlun chain, which are physical landform characteristics.",
+      "review_questions": []
+    },
+    "china-1925-6:p0083_2": {
+      "topics": [
+        "geography"
+      ],
+      "tags": [
+        "physical-geography"
+      ],
+      "flags": [],
+      "rationale": "Elevations of the southern mountain ranges, which are physical landform characteristics. Some values are blank in the source.",
+      "review_questions": []
+    },
+    "china-1925-6:p0097_1": {
+      "topics": [
+        "geography"
+      ],
+      "tags": [
+        "rivers-and-waterways"
+      ],
+      "flags": [],
+      "rationale": "Compares world rivers with the Yangtze by length, basin area and discharge, which are river system characteristics.",
+      "review_questions": []
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "model": "anthropic/claude-sonnet-5-5",
+  "batch": "batch-0400",
+  "attempt": 1,
+  "started_utc": "2026-10-26T14:00:38.316444+00:00",
+  "status": "returned",
+  "prompt_sha256": "b11b7bc240403c20d04ea262e3943bc668007653b9d8c50be2356ea7d1d88265",
+  "records": 10,
+  "max_parallel_requests": 1,
+  "returncode": 0,
+  "elapsed_seconds": 20.856,
+  "finished_utc": "2026-10-26T14:00:59.173126+00:00",
+  "input_tokens": 66609,
+  "output_tokens": 1058,
+  "token_details": "{\"output_tokens_details\": {\"thinking_tokens\": 0}}",
+  "provider_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CgQyDATZH1XjRmATkxBvP"
+}

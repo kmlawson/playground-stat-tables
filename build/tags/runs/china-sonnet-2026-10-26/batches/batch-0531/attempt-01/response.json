@@ -1,0 +1,122 @@
+{
+  "vocabulary_version": "1.1.0-optional-details",
+  "assignments": {
+    "china-1928:p0625_2": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [],
+      "flags": [],
+      "rationale": "Obligations of the Ministry of Communications to named companies for materials supplied (telegraph loan items). These are debts, but they are commercial supplier obligations, not public bonds or foreign loans in the tag sense. No existing tag cleanly fits.",
+      "review_questions": [
+        "Propose a tag for government indebtedness to suppliers (e.g. government arrears/obligations); public-debt may be arguable but the items are supplier accounts."
+      ]
+    },
+    "china-1928:p0626_1": {
+      "topics": [
+        "finance",
+        "communications"
+      ],
+      "tags": [
+        "foreign-loans"
+      ],
+      "flags": [],
+      "rationale": "Itemised foreign telegraph, cable, telephone and wireless loans and advances owed by the Ministry of Communications, with a total.",
+      "review_questions": []
+    },
+    "china-1928:p0626_2": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "foreign-loans"
+      ],
+      "flags": [],
+      "rationale": "Miscellaneous foreign loans owed by the Ministry of Communications, including Banque Belge loans and a ship charter excess.",
+      "review_questions": []
+    },
+    "china-1928:p0626_3": {
+      "topics": [
+        "finance",
+        "transportation"
+      ],
+      "tags": [
+        "public-debt"
+      ],
+      "flags": [],
+      "rationale": "Breakdown of domestic railway loans of the Ministry of Communications into bonds, materials supply and miscellaneous advances, as government debt liabilities.",
+      "review_questions": []
+    },
+    "china-1928:p0626_4": {
+      "topics": [
+        "finance",
+        "transportation"
+      ],
+      "tags": [
+        "public-debt"
+      ],
+      "flags": [],
+      "rationale": "Bond issues and promissory notes for domestic railway lines, with amounts and total; debt liabilities.",
+      "review_questions": []
+    },
+    "china-1928:p0627_1": {
+      "topics": [
+        "finance",
+        "transportation"
+      ],
+      "tags": [],
+      "flags": [],
+      "rationale": "Obligations for materials and supplies purchased for railway lines from Chinese firms, banking groups and Hanyehping. These are supplier and advance obligations, not clearly covered by an existing tag.",
+      "review_questions": [
+        "Propose a tag for government obligations or arrears for supplies; public-debt may be arguable."
+      ]
+    },
+    "china-1928:p0627_2": {
+      "topics": [
+        "finance",
+        "transportation"
+      ],
+      "tags": [
+        "public-debt"
+      ],
+      "flags": [],
+      "rationale": "Miscellaneous domestic railway loans and advances itemised by line and lender, mainly Chinese banks; a continuing list of debt liabilities.",
+      "review_questions": []
+    },
+    "china-1928:p0628_1": {
+      "topics": [
+        "finance",
+        "transportation"
+      ],
+      "tags": [
+        "public-debt"
+      ],
+      "flags": [],
+      "rationale": "Continuation of miscellaneous domestic railway loans and advances (items 10-19) with the grand total.",
+      "review_questions": []
+    },
+    "china-1928:p0628_2": {
+      "topics": [
+        "finance",
+        "communications"
+      ],
+      "tags": [],
+      "flags": [],
+      "rationale": "Domestic loans from named firms for telegraph materials supplied to the Ministry; supplier obligations with no precisely fitting tag.",
+      "review_questions": [
+        "Propose a tag for supplier obligations; public-debt may be arguable."
+      ]
+    },
+    "china-1928:p0628_3": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "public-debt"
+      ],
+      "flags": [],
+      "rationale": "Miscellaneous advances from Chinese banks to the Ministry of Communications forming part of domestic loans.",
+      "review_questions": []
+    }
+  }
+}

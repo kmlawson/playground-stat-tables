@@ -1,0 +1,121 @@
+{
+  "vocabulary_version": "1.1.0-optional-details",
+  "assignments": {
+    "china-1923:p0149_3": {
+      "topics": [
+        "geography"
+      ],
+      "tags": [
+        "weather"
+      ],
+      "flags": [],
+      "rationale": "Monthly barometer, temperature and rainfall for Peking in 1921 are weather observations.",
+      "review_questions": []
+    },
+    "china-1923:p0149_4": {
+      "topics": [
+        "geography"
+      ],
+      "tags": [
+        "weather"
+      ],
+      "flags": [],
+      "rationale": "Monthly barometer, temperature and rainfall for Chefoo in 1921 are weather observations.",
+      "review_questions": []
+    },
+    "china-1923:p0151_1": {
+      "topics": [
+        "mining"
+      ],
+      "tags": [
+        "mining-rights-and-concessions"
+      ],
+      "flags": [],
+      "rationale": "Mining area conceded by province for metallic ores is a concession-acreage table across many metals, so the concession tag fits and no single metal tag does.",
+      "review_questions": []
+    },
+    "china-1923:p0152_1": {
+      "topics": [
+        "mining"
+      ],
+      "tags": [
+        "mining-rights-and-concessions"
+      ],
+      "flags": [],
+      "rationale": "Mining area conceded by province for many non-metal minerals; the subject is concession acreage, not output.",
+      "review_questions": []
+    },
+    "china-1923:p0153_1": {
+      "topics": [
+        "mining"
+      ],
+      "tags": [
+        "coal",
+        "mineral-reserves"
+      ],
+      "flags": [],
+      "rationale": "Geological Survey estimates of coal reserves by province and coal type.",
+      "review_questions": []
+    },
+    "china-1923:p0154_1": {
+      "topics": [
+        "mining"
+      ],
+      "tags": [
+        "coal",
+        "mineral-reserves"
+      ],
+      "flags": [],
+      "rationale": "Chemical analysis of principal coals by basin and company, with estimated reserves and nearest ports.",
+      "review_questions": [
+        "Coal quality or chemical composition has no dedicated tag; consider proposing one."
+      ]
+    },
+    "china-1923:p0155_1": {
+      "topics": [
+        "mining"
+      ],
+      "tags": [
+        "coal"
+      ],
+      "flags": [],
+      "rationale": "Annual coal output by mine for Chihli and Mukden, 1916-1921, with anthracite and bituminous totals.",
+      "review_questions": []
+    },
+    "china-1923:p0156_1": {
+      "topics": [
+        "mining"
+      ],
+      "tags": [
+        "coal"
+      ],
+      "flags": [],
+      "rationale": "Continuation of annual coal output by mine and province, 1916-1921.",
+      "review_questions": []
+    },
+    "china-1923:p0157_1": {
+      "topics": [
+        "mining"
+      ],
+      "tags": [
+        "coal"
+      ],
+      "flags": [],
+      "rationale": "Continuation of mine-level coal output, with national totals including native small mines.",
+      "review_questions": []
+    },
+    "china-1923:p0158_1": {
+      "topics": [
+        "mining"
+      ],
+      "tags": [
+        "coal"
+      ],
+      "flags": [],
+      "rationale": "Output of foreign and Sino-foreign coal mines in 1916 and 1920, with shares of modern-mine and national output.",
+      "review_questions": [
+        "Foreign ownership of mines has no matching tag; foreign-investment may cover it but was not assigned because the table is coal output shares."
+      ]
+    }
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "vocabulary_version": "1.1.0-optional-details",
+  "assignments": {
+    "china-1923:p0306_1": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "customs-revenue"
+      ],
+      "flags": [],
+      "rationale": "Native customs revenue collected by port in Hk. Tls., 1919-1921, with famine relief surtax shown separately; this is customs receipts.",
+      "review_questions": []
+    },
+    "china-1923:p0307_1": {
+      "topics": [
+        "transportation"
+      ],
+      "tags": [
+        "navigation-aids"
+      ],
+      "flags": [],
+      "rationale": "Counts of lights, light-vessels, light-boats, buoys and beacons by Customs district are aids to navigation.",
+      "review_questions": []
+    },
+    "china-1923:p0308_1": {
+      "topics": [
+        "government",
+        "informal-imperialism"
+      ],
+      "tags": [
+        "administrative-divisions"
+      ],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "Numbered list of Maritime Customs districts and their coastal and river limits; the content is textual descriptions of jurisdictions with no quantities.",
+      "review_questions": [
+        "Is a tag for customs administration needed? Maritime Customs districts are not covered by the current vocabulary."
+      ]
+    },
+    "china-1923:p0308_2": {
+      "topics": [
+        "informal-imperialism",
+        "trade"
+      ],
+      "tags": [
+        "treaty-ports"
+      ],
+      "flags": [],
+      "rationale": "List of treaty ports with province, customs opening date, treaty basis and estimated Chinese population. The population figures make it a mixed table, so it is statistical rather than purely textual.",
+      "review_questions": []
+    },
+    "china-1923:p0309_1": {
+      "topics": [
+        "informal-imperialism",
+        "trade"
+      ],
+      "tags": [
+        "treaty-ports"
+      ],
+      "flags": [],
+      "rationale": "Continuation of the treaty-port list with opening dates, treaty basis and estimated population. Footnotes cover foreign control of the Dairen and Kiaochao customs.",
+      "review_questions": []
+    },
+    "china-1923:p0309_2": {
+      "topics": [
+        "informal-imperialism",
+        "trade"
+      ],
+      "tags": [
+        "treaty-ports"
+      ],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "List of places in Mongolia and Manchuria opened to trade by agreement, with province and agreement; the content is textual and no quantities appear.",
+      "review_questions": []
+    },
+    "china-1923:p0310_1": {
+      "topics": [
+        "informal-imperialism",
+        "trade"
+      ],
+      "tags": [
+        "treaty-ports"
+      ],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "Textual list of treaty ports and marts across several provinces with the country or decree that opened each. Years only identify the opening agreements.",
+      "review_questions": []
+    },
+    "china-1923:p0310_2": {
+      "topics": [
+        "informal-imperialism",
+        "transportation"
+      ],
+      "tags": [
+        "inland-navigation"
+      ],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "Ports of call on the Yangtze and West River, with the passenger or cargo permission and the agreement behind each; the content is textual.",
+      "review_questions": [
+        "Should ports of call opened by treaty have a dedicated tag? Treaty-ports does not clearly cover them."
+      ]
+    },
+    "china-1923:p0312_1": {
+      "topics": [
+        "foreign-relations"
+      ],
+      "tags": [
+        "treaties"
+      ],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "Chronological list of China's treaties with dates and subject matter, covering Great Britain and other powers. The content is textual.",
+      "review_questions": []
+    },
+    "china-1923:p0314_1": {
+      "topics": [
+        "foreign-relations"
+      ],
+      "tags": [
+        "treaties"
+      ],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "List of China's treaties with Belgium, Bolivia, Brazil, the Congo Free State, Denmark and France, giving date and subject matter. The content is textual.",
+      "review_questions": []
+    }
+  }
+}

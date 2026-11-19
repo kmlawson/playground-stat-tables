@@ -1,0 +1,121 @@
+{
+  "vocabulary_version": "1.1.0-optional-details",
+  "assignments": {
+    "china-1928:p0254_2": {
+      "topics": [
+        "trade",
+        "finance"
+      ],
+      "tags": [],
+      "flags": [],
+      "rationale": "Annual silver imports into China by bars and coin, with net imports, compiled from Maritime Customs. This is trade in silver as a bullion commodity and in coin. The vocabulary has no tag for general bullion or specialie movements; silver/imports tags would be weak since the table covers both directions of flow.",
+      "review_questions": [
+        "Should a tag for specie or bullion movements be added? The existing silver tag is for mining and commodity data, and imports alone does not cover the table's two-way flows."
+      ]
+    },
+    "china-1928:p0255_1": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "exports",
+        "gold"
+      ],
+      "flags": [],
+      "rationale": "Annual gold exports from China by bars/dust and coin with net exports, from Customs statistics. Under the rules, gold exports are trade with exports and gold.",
+      "review_questions": []
+    },
+    "china-1928:p0255_2": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "imports",
+        "gold"
+      ],
+      "flags": [],
+      "rationale": "Annual gold imports into China by bars/dust and coin with net imports, from Customs statistics. Under the rules, gold imports are trade with imports and gold.",
+      "review_questions": []
+    },
+    "china-1928:p0262_1": {
+      "topics": [
+        "finance",
+        "trade"
+      ],
+      "tags": [
+        "markets-and-exchanges"
+      ],
+      "flags": [],
+      "rationale": "Monthly turnover of gold bars at the Shanghai Gold Stock Exchange, 1924-1926. The subject is the trading volume of an exchange.",
+      "review_questions": []
+    },
+    "china-1928:p0262_2": {
+      "topics": [
+        "finance",
+        "trade"
+      ],
+      "tags": [
+        "markets-and-exchanges"
+      ],
+      "flags": [],
+      "rationale": "Yearly yen value of gold bar turnover at the Shanghai Gold Stock Exchange, derived from the registered bar turnover. The subject is exchange trading activity.",
+      "review_questions": []
+    },
+    "china-1928:p0264_1": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "companies"
+      ],
+      "flags": [],
+      "rationale": "Liabilities side of the half-year balance sheet of the Shanghai Gold Stock Exchange: capital, reserves, broker margins, creditors and profit. These are the accounts of a business enterprise.",
+      "review_questions": []
+    },
+    "china-1928:p0264_2": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "companies"
+      ],
+      "flags": [],
+      "rationale": "Assets side of the Shanghai Gold Stock Exchange balance sheet, covering securities, property, loans and cash. These are company accounts.",
+      "review_questions": []
+    },
+    "china-1928:p0264_3": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "companies"
+      ],
+      "flags": [],
+      "rationale": "Profit and loss account of the Shanghai Gold Stock Exchange for the half-year, showing expenses, brokerage and interest receipts. These are company operating accounts.",
+      "review_questions": []
+    },
+    "china-1928:p0264_4": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "companies"
+      ],
+      "flags": [],
+      "rationale": "Allocation of the Shanghai Gold Stock Exchange's half-year net profit among taxes, reserve, staff bonus and dividend. These are company profit-appropriation accounts.",
+      "review_questions": []
+    },
+    "china-1928:p0267_1": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "banking",
+        "foreign-investment"
+      ],
+      "flags": [],
+      "rationale": "List of foreign banks operating in China in June 1927 with year of establishment, head office, branches and authorized and paid-up capital. It is a bank inventory, and the foreign-owned capital holdings fit foreign investment. It also records joint Sino-foreign enterprises.",
+      "review_questions": []
+    }
+  }
+}

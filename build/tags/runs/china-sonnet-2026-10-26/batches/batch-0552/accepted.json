@@ -1,0 +1,120 @@
+{
+  "vocabulary_version": "1.1.0-optional-details",
+  "assignments": {
+    "china-1928:p1011_1": {
+      "topics": [
+        "manufacturing",
+        "labour"
+      ],
+      "tags": [
+        "textiles",
+        "cotton"
+      ],
+      "flags": [],
+      "rationale": "Compares Chinese-owned and foreign-owned cotton mills by spindles, looms, labourers, yarn and cloth output. The main subject is cotton textile manufacturing; the labourer row is only one of several measures.",
+      "review_questions": []
+    },
+    "china-1928:p1014_1": {
+      "topics": [
+        "labour"
+      ],
+      "tags": [
+        "labour-disputes"
+      ],
+      "flags": [],
+      "rationale": "Counts the 165 Shanghai factories affected by strikes, by line of business. This is a labour-dispute table.",
+      "review_questions": []
+    },
+    "china-1928:p1015_1": {
+      "topics": [
+        "labour"
+      ],
+      "tags": [
+        "labour-disputes"
+      ],
+      "flags": [],
+      "rationale": "Gives monthly 1926 Shanghai strike counts, affected factories and men and women strikers. This is a strike statistics table.",
+      "review_questions": []
+    },
+    "china-1928:p1016_1": {
+      "topics": [
+        "labour"
+      ],
+      "tags": [
+        "labour-disputes"
+      ],
+      "flags": [],
+      "rationale": "Gives monthly 1926 Shanghai strike counts by the nationality of the employers involved. The nationality classification applies to employers, not to a human population, so it is not tagged.",
+      "review_questions": []
+    },
+    "china-1928:p1016_2": {
+      "topics": [
+        "labour"
+      ],
+      "tags": [
+        "labour-disputes"
+      ],
+      "flags": [],
+      "rationale": "Gives monthly counts of factories where only part of the workforce struck. This is a strike statistics table.",
+      "review_questions": []
+    },
+    "china-1928:p1016_3": {
+      "topics": [
+        "labour"
+      ],
+      "tags": [
+        "labour-disputes"
+      ],
+      "flags": [],
+      "rationale": "Tabulates the number of strikes by cause. The causes are largely labour-dispute causes, and the table is a strike statistics table.",
+      "review_questions": []
+    },
+    "china-1928:p1017_1": {
+      "topics": [
+        "labour"
+      ],
+      "tags": [
+        "labour-disputes"
+      ],
+      "flags": [],
+      "rationale": "Tabulates the demands made by strikers and how many strikes included each. The demands cover wages, hours and conditions, but the table is a strike-demand series, so labour-disputes is the best fit.",
+      "review_questions": []
+    },
+    "china-1928:p1019_1": {
+      "topics": [
+        "labour"
+      ],
+      "tags": [
+        "labour-disputes"
+      ],
+      "flags": [],
+      "rationale": "Lists, by month, the shortest and longest strikes with their durations and the names of the affected firms. The durations are quantitative, so this is a mixed statistical table.",
+      "review_questions": []
+    },
+    "china-1928:p1019_2": {
+      "topics": [
+        "labour"
+      ],
+      "tags": [
+        "labour-disputes",
+        "mediation-and-arbitration"
+      ],
+      "flags": [],
+      "rationale": "Counts strikes by manner of settlement, such as demands accepted or rejected, lockout, or promises to investigate. Mediation-and-arbitration is a possible fit, but only loosely, since the categories mostly describe outcomes.",
+      "review_questions": [
+        "Does the settlement outcome classification justify mediation-and-arbitration?"
+      ]
+    },
+    "china-1928:p1048_1": {
+      "topics": [
+        "labour"
+      ],
+      "tags": [
+        "labour-disputes"
+      ],
+      "flags": [],
+      "rationale": "Gives the dates, duration and number of workers for a single 1927 strike. This is a labour-dispute table.",
+      "review_questions": []
+    }
+  }
+}

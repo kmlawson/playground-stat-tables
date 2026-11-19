@@ -1,0 +1,133 @@
+{
+  "vocabulary_version": "1.1.0-optional-details",
+  "assignments": {
+    "china-1923:p1032_1": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "imports",
+        "exports"
+      ],
+      "flags": [],
+      "rationale": "Value of whole trade at each port (foreign imports, Chinese imports, exports, totals) for 1920 and 1921 in Hk. Tls. Mainly import and export values by port.",
+      "review_questions": []
+    },
+    "china-1923:p1033_1": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "re-exports"
+      ],
+      "flags": [],
+      "rationale": "Value of foreign goods re-exported from China to each foreign country, 1920 and 1921.",
+      "review_questions": []
+    },
+    "china-1923:p1034_1": {
+      "topics": [
+        "transportation",
+        "trade"
+      ],
+      "tags": [
+        "shipping"
+      ],
+      "flags": [],
+      "rationale": "Carrying trade by flag: tonnage of entries and clearances plus values of foreign and coast trade carried by each nationality. The main subject is shipping by flag.",
+      "review_questions": [
+        "Is a tag needed for the shipping share of trade by flag or nationality of vessel?"
+      ]
+    },
+    "china-1923:p1035_1": {
+      "topics": [
+        "finance",
+        "transportation"
+      ],
+      "tags": [
+        "customs-revenue",
+        "shipping"
+      ],
+      "flags": [],
+      "rationale": "Export, import and half duties and tonnage dues collected by port, within the carrying-trade duties account. This is customs revenue. Port names are blank in the transcription.",
+      "review_questions": [
+        "Port row labels are missing in the transcription."
+      ]
+    },
+    "china-1923:p1035_2": {
+      "topics": [
+        "finance",
+        "transportation"
+      ],
+      "tags": [
+        "customs-revenue",
+        "shipping"
+      ],
+      "flags": [],
+      "rationale": "Import and export duties on foreign and coast trade by vessel flag, showing each nationality's share of the carrying trade.",
+      "review_questions": []
+    },
+    "china-1923:p1036_1": {
+      "topics": [
+        "transportation",
+        "trade"
+      ],
+      "tags": [
+        "shipping"
+      ],
+      "flags": [],
+      "rationale": "Percentage shares by flag of trips, tonnage, foreign and coast trade, and duties and tonnage dues. The main subject is shipping by nationality.",
+      "review_questions": [
+        "Is a tag needed for the carrying-trade share by nationality of vessel?"
+      ]
+    },
+    "china-1923:p1037_1": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "transit-trade"
+      ],
+      "flags": [],
+      "rationale": "Value of transit trade inwards and outwards at each port, 1921.",
+      "review_questions": []
+    },
+    "china-1923:p1037_2": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "transit-trade"
+      ],
+      "flags": [],
+      "rationale": "Transit trade values inwards and outwards for the Harbin district and inland ports, 1921.",
+      "review_questions": []
+    },
+    "china-1923:p1038_1": {
+      "topics": [
+        "transportation",
+        "trade"
+      ],
+      "tags": [
+        "shipping",
+        "imports"
+      ],
+      "flags": [],
+      "rationale": "Inward entries and tonnage by flag, with foreign import values, import duties and tonnage dues.",
+      "review_questions": []
+    },
+    "china-1923:p1039_1": {
+      "topics": [
+        "transportation",
+        "trade"
+      ],
+      "tags": [
+        "shipping",
+        "exports",
+        "re-exports"
+      ],
+      "flags": [],
+      "rationale": "Outward clearances and tonnage by flag, with Chinese export and re-export values and export duties.",
+      "review_questions": []
+    }
+  }
+}

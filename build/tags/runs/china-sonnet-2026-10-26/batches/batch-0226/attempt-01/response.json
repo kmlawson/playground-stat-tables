@@ -1,0 +1,135 @@
+{
+  "vocabulary_version": "1.1.0-optional-details",
+  "assignments": {
+    "china-1916:p0485_1": {
+      "topics": [
+        "religion"
+      ],
+      "tags": [
+        "missions",
+        "christianity"
+      ],
+      "flags": [],
+      "rationale": "Lists Roman Catholic mission stations by vicariate and mission body, with unlabelled numeric columns (apparently priests and converts, but headings unreadable). Statistical structure is established, so no text-tables flag.",
+      "review_questions": [
+        "Column headings for the four numeric columns are unreadable; their exact meaning is uncertain."
+      ]
+    },
+    "china-1916:p0486_1": {
+      "topics": [
+        "religion"
+      ],
+      "tags": [
+        "missions",
+        "christianity"
+      ],
+      "flags": [],
+      "rationale": "Catholic mission headquarters with foreign and native priests, baptized converts and applicants for baptism; quantitative religious-mission data.",
+      "review_questions": []
+    },
+    "china-1916:p0486_2": {
+      "topics": [
+        "religion"
+      ],
+      "tags": [
+        "missions",
+        "christianity"
+      ],
+      "flags": [],
+      "rationale": "Summary counts of Catholic bishops and priests, foreign and native.",
+      "review_questions": []
+    },
+    "china-1916:p0486_3": {
+      "topics": [
+        "religion"
+      ],
+      "tags": [
+        "missions",
+        "christianity"
+      ],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "Textual list of Catholic vicariates, mission societies and headquarters, with no quantities.",
+      "review_questions": []
+    },
+    "china-1916:p0486_4": {
+      "topics": [
+        "religion"
+      ],
+      "tags": [
+        "christianity",
+        "religious-institutions"
+      ],
+      "flags": [],
+      "rationale": "Counts of Catholic vicariates, prefectures and other ecclesiastical units, with a note on converts.",
+      "review_questions": []
+    },
+    "china-1916:p0488_1": {
+      "topics": [
+        "religion",
+        "press"
+      ],
+      "tags": [
+        "missions"
+      ],
+      "flags": [],
+      "rationale": "Protestant tract societies with circulation of copies and receipts; religious propagation through printed tracts.",
+      "review_questions": [
+        "No vocabulary tag for religious tracts or religious publishing; propose one."
+      ]
+    },
+    "china-1916:p0488_2": {
+      "topics": [
+        "religion"
+      ],
+      "tags": [
+        "missions",
+        "christianity"
+      ],
+      "flags": [],
+      "rationale": "Summary of Protestant mission staff, Chinese workers and stations for 1910-1912.",
+      "review_questions": []
+    },
+    "china-1916:p0489_1": {
+      "topics": [
+        "religion",
+        "education"
+      ],
+      "tags": [
+        "mission-schools",
+        "christianity",
+        "schools-and-pupils"
+      ],
+      "flags": [],
+      "rationale": "Protestant mission schools and scholars plus Chinese Christian congregations and community size, 1910-1912.",
+      "review_questions": []
+    },
+    "china-1916:p0489_2": {
+      "topics": [
+        "religion",
+        "health"
+      ],
+      "tags": [
+        "medical-services",
+        "missions"
+      ],
+      "flags": [],
+      "rationale": "Mission hospitals, dispensaries and patient numbers with Chinese contributions, 1910-1912.",
+      "review_questions": []
+    },
+    "china-1916:p0520_1": {
+      "topics": [
+        "mining"
+      ],
+      "tags": [],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "Textual list of mining localities, districts and minerals (coal, iron, gold) in Fengtien and Kirin, with no quantities. Related to a Sino-Japanese agreement, but the table itself is a locality list.",
+      "review_questions": [
+        "Which tag fits a locality list of mining sites? Propose a term; mineral-reserves was not assigned since no deposit estimates are given."
+      ]
+    }
+  }
+}

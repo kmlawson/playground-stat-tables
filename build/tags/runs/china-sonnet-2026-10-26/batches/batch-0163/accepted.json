@@ -1,0 +1,119 @@
+{
+  "vocabulary_version": "1.1.0-optional-details",
+  "assignments": {
+    "china-1913:p0100_1": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "currency"
+      ],
+      "flags": [],
+      "rationale": "Equivalence values between kinds of tael (Haikuan, Kuping, Tientsin, Shanghai) describe the Chinese monetary standards. They are conversions between units of account, not market exchange quotations against foreign currencies.",
+      "review_questions": [
+        "Should a tag for tael or monetary-unit conversion be added to the vocabulary?"
+      ]
+    },
+    "china-1913:p0101_1": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "foreign-exchange"
+      ],
+      "flags": [],
+      "rationale": "Monthly equivalents of the Haikuan tael in sterling, francs, marks, dollars, yen, rupees and Mexican dollars, plus Hk. taels per pound, are exchange rate quotations.",
+      "review_questions": []
+    },
+    "china-1913:p0101_2": {
+      "topics": [
+        "science-and-technology"
+      ],
+      "tags": [
+        "measurement-and-units"
+      ],
+      "flags": [],
+      "rationale": "Table of standard ch'ih (foot) lengths in inches across trades, showing variation in a unit of measure.",
+      "review_questions": []
+    },
+    "china-1913:p0102_1": {
+      "topics": [
+        "science-and-technology"
+      ],
+      "tags": [
+        "measurement-and-units"
+      ],
+      "flags": [],
+      "rationale": "Conversion table for Chinese area units (ssu, hao, li, fen, mow, ch'ing).",
+      "review_questions": []
+    },
+    "china-1913:p0102_2": {
+      "topics": [
+        "science-and-technology"
+      ],
+      "tags": [
+        "measurement-and-units"
+      ],
+      "flags": [],
+      "rationale": "Conversion table of smaller Chinese area units from square ch'ih to ch'ing.",
+      "review_questions": []
+    },
+    "china-1913:p0102_3": {
+      "topics": [
+        "science-and-technology"
+      ],
+      "tags": [
+        "measurement-and-units"
+      ],
+      "flags": [],
+      "rationale": "Conversion table of Chinese capacity measures (ko, sheng, tow, shih).",
+      "review_questions": []
+    },
+    "china-1913:p0103_1": {
+      "topics": [
+        "manufacturing"
+      ],
+      "tags": [
+        "industrial-output"
+      ],
+      "flags": [],
+      "rationale": "Counts of factories and works in operation across many trades, split by foreign and Chinese ownership. This is a multi-industry inventory, so the aggregate tag is used instead of incidental individual industries.",
+      "review_questions": []
+    },
+    "china-1913:p0104_1": {
+      "topics": [
+        "manufacturing"
+      ],
+      "tags": [
+        "industrial-output"
+      ],
+      "flags": [],
+      "rationale": "Continuation of the factory inventory by industry (saw mills through wool cleaning), with foreign, Chinese and total counts.",
+      "review_questions": []
+    },
+    "china-1913:p0104_2": {
+      "topics": [
+        "manufacturing"
+      ],
+      "tags": [
+        "cotton"
+      ],
+      "flags": [],
+      "rationale": "Inventory of cotton mills with location, spindles and looms, and a total. It is entirely about cotton spinning and weaving capacity.",
+      "review_questions": []
+    },
+    "china-1913:p0107_1": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "advertising"
+      ],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "Index of machinery advertisers with advertisement numbers. The content is a textual list of firms; the numerals are only advertisement identifiers.",
+      "review_questions": []
+    }
+  }
+}

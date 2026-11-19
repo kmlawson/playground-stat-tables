@@ -1,0 +1,124 @@
+{
+  "vocabulary_version": "1.1.0-optional-details",
+  "assignments": {
+    "china-1931-2:p0424_1": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "foreign-exchange",
+        "currency"
+      ],
+      "flags": [],
+      "rationale": "Monthly and annual average Shanghai telegraphic transfer quotations against sterling, foreign currencies and bar silver. This is exchange-rate data; bar silver quotations are included but only as a rate column.",
+      "review_questions": []
+    },
+    "china-1931-2:p0425_1": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "foreign-exchange"
+      ],
+      "flags": [],
+      "rationale": "Annual highest and lowest official sterling T.T. quotations from 1890 to 1931, showing exchange variation. One value is unreadable but the quantitative structure is clear.",
+      "review_questions": []
+    },
+    "china-1931-2:p0425_2": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "foreign-exchange"
+      ],
+      "flags": [],
+      "rationale": "Annual average exchange rates of principal foreign currencies against the Haikwan tael, 1914-1930.",
+      "review_questions": []
+    },
+    "china-1931-2:p0425_3": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "foreign-exchange"
+      ],
+      "flags": [],
+      "rationale": "Annual average T.T. rates on London against Shanghai taels, 1909-1931, in two blocks.",
+      "review_questions": []
+    },
+    "china-1931-2:p0426_1": {
+      "topics": [
+        "trade",
+        "finance"
+      ],
+      "tags": [
+        "imports",
+        "exports"
+      ],
+      "flags": [],
+      "rationale": "Silver imports and exports (bars, sycee and coin) with net balances, compiled from Maritime Customs statistics. This is a treasure movement series, so it is primarily trade, with finance as secondary.",
+      "review_questions": [
+        "Is there a need for a tag for bullion or treasure movements, especially silver? The existing silver tag is for mining and commodity content."
+      ]
+    },
+    "china-1931-2:p0427_1": {
+      "topics": [
+        "trade",
+        "finance"
+      ],
+      "tags": [
+        "imports",
+        "exports",
+        "gold"
+      ],
+      "flags": [],
+      "rationale": "Gold imports and exports (bars, dust and coin) with net movements, drawn from customs statistics. Under the rules, gold exports are trade with exports and gold.",
+      "review_questions": []
+    },
+    "china-1931-2:p0431_1": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "taxation",
+        "banking"
+      ],
+      "flags": [],
+      "rationale": "Graduated tax rates on the net profit of banks, set by the share of profit relative to capital. The tax is on banks.",
+      "review_questions": []
+    },
+    "china-1931-2:p0444_1": {
+      "topics": [
+        "science-and-technology"
+      ],
+      "tags": [
+        "measurement-and-units"
+      ],
+      "flags": [],
+      "rationale": "Old Chinese standard of capacity units with their equivalents in litres, quarts and gallons.",
+      "review_questions": []
+    },
+    "china-1931-2:p0444_2": {
+      "topics": [
+        "science-and-technology"
+      ],
+      "tags": [
+        "measurement-and-units"
+      ],
+      "flags": [],
+      "rationale": "New metric standard of capacity, with kung units and their decimal relations to the litre.",
+      "review_questions": []
+    },
+    "china-1931-2:p0444_3": {
+      "topics": [
+        "science-and-technology"
+      ],
+      "tags": [
+        "measurement-and-units"
+      ],
+      "flags": [],
+      "rationale": "Market standard of capacity units and their relations to each other and to the old sheng.",
+      "review_questions": []
+    }
+  }
+}

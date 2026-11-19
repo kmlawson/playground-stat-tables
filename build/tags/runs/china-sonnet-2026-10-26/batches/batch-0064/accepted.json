@@ -1,0 +1,127 @@
+{
+  "vocabulary_version": "1.1.0-optional-details",
+  "assignments": {
+    "china-1912:p0229_1": {
+      "topics": [
+        "finance",
+        "transportation"
+      ],
+      "tags": [
+        "foreign-loans",
+        "railways"
+      ],
+      "flags": [],
+      "rationale": "Table lists railway loans by year, principal, interest, issue price, redemption terms and outstanding balances, largely from foreign lenders. Loans for railways make it a finance table with a railway link.",
+      "review_questions": []
+    },
+    "china-1912:p0231_1": {
+      "topics": [
+        "transportation"
+      ],
+      "tags": [],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "Numbered list of road routes between places, with only incidental distances in brackets. It is essentially a textual route list. The vocabulary has no tag for road routes, since roads-and-bridges covers infrastructure measures such as mileage and works.",
+      "review_questions": [
+        "Should a tag for road routes or highways be added?"
+      ]
+    },
+    "china-1912:p0233_1": {
+      "topics": [
+        "transportation",
+        "utilities"
+      ],
+      "tags": [
+        "railways",
+        "roads-and-bridges"
+      ],
+      "flags": [],
+      "rationale": "Chief railway bridges with river, railway, length, spans and cost. These are quantitative bridge measurements for railway lines. roads-and-bridges excludes bridges tabulated only as railway assets, so only railways is supported.",
+      "review_questions": [
+        "Should a tag for bridges or railway bridges be added?"
+      ]
+    },
+    "china-1912:p0238_1": {
+      "topics": [
+        "communications"
+      ],
+      "tags": [
+        "postal-services"
+      ],
+      "flags": [],
+      "rationale": "Annual postal statistics for 1906-1910 covering offices, agencies, articles, parcels, registered mail and money orders. These are postal operations.",
+      "review_questions": []
+    },
+    "china-1912:p0238_2": {
+      "topics": [
+        "communications"
+      ],
+      "tags": [
+        "postal-services"
+      ],
+      "flags": [],
+      "rationale": "Postal establishments, articles and parcels by area for 1908-1910, which are statistics of postal services.",
+      "review_questions": []
+    },
+    "china-1912:p0239_1": {
+      "topics": [
+        "communications"
+      ],
+      "tags": [
+        "postal-services"
+      ],
+      "flags": [],
+      "rationale": "Postal line lengths by mode (courier, native boat, steamer, railway) with before and after figures. These are postal network measures.",
+      "review_questions": []
+    },
+    "china-1912:p0240_1": {
+      "topics": [
+        "communications"
+      ],
+      "tags": [
+        "postal-services"
+      ],
+      "flags": [],
+      "rationale": "New postal courier lines in Sinkiang with distances and running times, a measure of postal network and service speed.",
+      "review_questions": []
+    },
+    "china-1912:p0250_1": {
+      "topics": [
+        "communications"
+      ],
+      "tags": [
+        "postal-services"
+      ],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "Descriptive list of the postal organisation by province, naming head and sub-head offices. The content is textual with no quantities.",
+      "review_questions": []
+    },
+    "china-1912:p0252_1": {
+      "topics": [
+        "communications"
+      ],
+      "tags": [
+        "telegraph"
+      ],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "Textual list of four cable companies operating in China. Cable telegraphy is the subject.",
+      "review_questions": []
+    },
+    "china-1912:p0252_2": {
+      "topics": [
+        "communications"
+      ],
+      "tags": [
+        "telegraph"
+      ],
+      "flags": [],
+      "rationale": "Statistics for 1910 of the Imperial Chinese Telegraph Administration: line and cable lengths, offices, instruments, staff, telegrams, receipts and expenditure.",
+      "review_questions": []
+    }
+  }
+}

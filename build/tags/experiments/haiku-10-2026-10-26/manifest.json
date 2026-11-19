@@ -1,0 +1,45 @@
+{
+  "model": "anthropic/claude-haiku-5-5",
+  "vocabulary_version": "1.0.2-pilot",
+  "vocabulary_sha256": "4bbb6c09dbd0d0ec01503ad92d6b3858d6b40286123bbc7a52bd1efa32e9fd1f",
+  "keys": [
+    "china-1916:p0125_6",
+    "korea-1942:p0131_1",
+    "taiwan-tokei-1925:p0263_2",
+    "japan-1937:p0409_1",
+    "japan-1939-40:p0696_1",
+    "korea-tokanfu-1939:p0246_1",
+    "manchuria-1939:p0091_1",
+    "far-east-1941:IMG_5400_1",
+    "nanyo-tokei-1937:p0041_3",
+    "taiwan-tokei-1933:p0353_2"
+  ],
+  "input_sha256": {
+    "china-1916:p0125_6": "74e5470ac0ff4d27494a78b1814a960240104709a7f6d1298c47151ed3a6b01c",
+    "korea-1942:p0131_1": "6a530bb3002b7aba8b6853f2dbce07360c7c839534b4077999b95645dd29cab8",
+    "taiwan-tokei-1925:p0263_2": "5c73254cc4263ee04071db6b261a44722c70039eb359b6929c23d704668349fd",
+    "japan-1937:p0409_1": "41387cab2f47602f75267be800a29ef1db32bb9e943f1c6a402ce669557aa25e",
+    "japan-1939-40:p0696_1": "5175a572a5a526f2143bdf554c64885029178f6cd78ead89f83930a4559bc0d7",
+    "korea-tokanfu-1939:p0246_1": "d0edfb3bbbc17c394b2d873bbfdfb13bdc3a2b77f4b4a5ef6aac37c9edc2a357",
+    "manchuria-1939:p0091_1": "13f9606496c3253825110fb811d3a4ce13a336d59ee9f84b2f3d63567ce5e293",
+    "far-east-1941:IMG_5400_1": "f06b8739bf0ccdfd9683392774341bd463e6ba7c1e5443f1672f6f3c49bfd327",
+    "nanyo-tokei-1937:p0041_3": "47641ad8d164de46f8d14208419e012f7f2d60a1f4cc42b79fab0bf0b8fe1531",
+    "taiwan-tokei-1933:p0353_2": "3038c23d2cb15f0a6aabfb66ca4de132e6e2e2cec9bc0ae95b6b54369ba62495"
+  },
+  "prompt_sha256": "ba647c86476c27824899527ab567f4b26df423e2e59141153c9e55d0039bfef5",
+  "rules_sha256": "2787ebdfec857f83ef02824627bad28af49d212fef0ada06f081c32772fc295a",
+  "design": "Purposeful 10-table test across all seven book collections; comparison labels withheld from model. Not an accuracy estimate.",
+  "prompt_chars": 194626,
+  "table_chars": 19317,
+  "collections": {
+    "china": 1,
+    "korea": 2,
+    "taiwan": 2,
+    "japan": 2,
+    "manchuria": 1,
+    "other": 1,
+    "south-seas": 1
+  },
+  "schema_sha256": "613c71fdf043b0f7052ac3f0a7f406bd6f370965674e65a095cba0991923ecf2",
+  "schema_adjustment": "Provider rejected large vocabulary enums; schema now enforces structure and exact ten identities, while local validation enforces approved topic/tag IDs."
+}

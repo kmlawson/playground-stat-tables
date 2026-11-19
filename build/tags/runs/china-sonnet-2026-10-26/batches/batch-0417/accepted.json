@@ -1,0 +1,119 @@
+{
+  "vocabulary_version": "1.1.0-optional-details",
+  "assignments": {
+    "china-1925-6:p1024_1": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "measurement-and-units",
+        "currency"
+      ],
+      "flags": [],
+      "rationale": "Lists local taels by place with silver content in grains and values relative to Kuping and Tsaoping taels. This is a monetary-unit equivalence table, so measurement-and-units fits; currency covers the monetary standards.",
+      "review_questions": []
+    },
+    "china-1925-6:p1026_1": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "foreign-exchange"
+      ],
+      "flags": [],
+      "rationale": "Gives annual Haikwan tael equivalents in English, American, French, German, Indian, Japanese, Russian and Mexican money, 1914-1924. These are exchange values.",
+      "review_questions": []
+    },
+    "china-1925-6:p1027_1": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "measurement-and-units"
+      ],
+      "flags": [],
+      "rationale": "Shows approximate equivalences between Kuping, Haikwan and local taels at each port. This is a monetary-unit conversion table.",
+      "review_questions": []
+    },
+    "china-1925-6:p1039_1": {
+      "topics": [
+        "finance",
+        "manufacturing"
+      ],
+      "tags": [],
+      "flags": [],
+      "rationale": "Itemised daily cost of coining dollars at the Nanking mint, covering bullion, coal, wages, interest and other costs. It is an operating cost account. No existing tag fits mint operations.",
+      "review_questions": [
+        "Propose a tag for mints and coinage operations."
+      ]
+    },
+    "china-1925-6:p1040_1": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "banking"
+      ],
+      "flags": [],
+      "rationale": "Lists foreign banks in China with establishment year, head office, branches and authorized and paid-up capital.",
+      "review_questions": []
+    },
+    "china-1925-6:p1043_1": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "banking"
+      ],
+      "flags": [],
+      "rationale": "Continuation of the list of foreign banks, giving establishment year, head office and Chinese branches.",
+      "review_questions": []
+    },
+    "china-1925-6:p1043_2": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "banking"
+      ],
+      "flags": [],
+      "rationale": "Capital columns of the foreign banks list, giving authorized and paid-up capital with branch locations.",
+      "review_questions": [
+        "Row-to-bank alignment is uncertain for two banks."
+      ]
+    },
+    "china-1925-6:p1044_1": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "banking"
+      ],
+      "flags": [],
+      "rationale": "Final two entries of the foreign banks list, with founding year, head office, branches and capital.",
+      "review_questions": []
+    },
+    "china-1925-6:p1047_1": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "banking"
+      ],
+      "flags": [],
+      "rationale": "Lists Japanese banks in China with establishment dates, head offices, branches and yen capital.",
+      "review_questions": []
+    },
+    "china-1925-6:p1063_1": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [],
+      "flags": [],
+      "rationale": "Receipts and disbursements of the Shanghai mint when it was wound up, covering bond proceeds, land, buildings, machinery and the cash balance. It is a financial account. No existing tag fits mint accounts.",
+      "review_questions": [
+        "Propose a tag for mints and coinage operations."
+      ]
+    }
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "vocabulary_version": "1.1.0-optional-details",
+  "assignments": {
+    "china-1914:p0049_1": {
+      "topics": [
+        "geography"
+      ],
+      "tags": [
+        "weather"
+      ],
+      "flags": [],
+      "rationale": "Monthly barometer, temperature and rain/snow readings for Weihaiwei in 1910 are weather observations.",
+      "review_questions": []
+    },
+    "china-1914:p0050_1": {
+      "topics": [
+        "population"
+      ],
+      "tags": [
+        "nationality-and-ethnicity"
+      ],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "Classification of Mongoloid races by family, division, tribe and habitat is textual and describes ethnic composition. No statistical quantities appear.",
+      "review_questions": []
+    },
+    "china-1914:p0054_1": {
+      "topics": [
+        "government"
+      ],
+      "tags": [
+        "imperial-household"
+      ],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "List of Manchu dynasty rulers with reign years; reign dates are incidental, so the content is textual.",
+      "review_questions": []
+    },
+    "china-1914:p0059_1": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "exports"
+      ],
+      "flags": [],
+      "rationale": "Export values abroad in 1912 for the chief Chinese products; this is a trade table with several commodities, so exports is the apt tag.",
+      "review_questions": []
+    },
+    "china-1914:p0061_1": {
+      "topics": [
+        "agriculture",
+        "geography"
+      ],
+      "tags": [],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "Textual list of principal Chinese products (animal products, fibres, metals, oilseeds) and their regions of origin. It is a multi-commodity inventory with no quantities, and no existing tag fits such a mixed list.",
+      "review_questions": [
+        "Propose a tag for regional product inventories or commodity geography."
+      ]
+    },
+    "china-1914:p0062_1": {
+      "topics": [
+        "agriculture",
+        "geography"
+      ],
+      "tags": [],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "Continuation of the textual list of principal products (oils, timber, silk, tea, sundries) and their provinces of origin. It has no quantities and no fitting aggregate tag.",
+      "review_questions": [
+        "Propose a tag for regional product inventories or commodity geography."
+      ]
+    },
+    "china-1914:p0063_1": {
+      "topics": [
+        "trade",
+        "geography"
+      ],
+      "tags": [],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "Textual list of principal export products by province with ports of export and routes. It is a multi-commodity inventory with no quantities, and no broad tag fits.",
+      "review_questions": [
+        "Propose a tag for export products by province and port or for commodity geography."
+      ]
+    },
+    "china-1914:p0069_1": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "silk"
+      ],
+      "flags": [],
+      "rationale": "Percentage shares of world silk trade by country, 1903-1912; silk is the commodity.",
+      "review_questions": []
+    },
+    "china-1914:p0070_1": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "silk",
+        "exports"
+      ],
+      "flags": [],
+      "rationale": "Shares of silk export value by product type and the chief ports of original export in 1912.",
+      "review_questions": []
+    },
+    "china-1914:p0071_1": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "silk",
+        "exports"
+      ],
+      "flags": [],
+      "rationale": "Value of silk exported from China 1908-1912 in taels and sterling.",
+      "review_questions": []
+    }
+  }
+}

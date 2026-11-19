@@ -1,0 +1,122 @@
+{
+  "vocabulary_version": "1.1.0-optional-details",
+  "assignments": {
+    "china-1928:p0133_1": {
+      "topics": [
+        "mining"
+      ],
+      "tags": [],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "Descriptive list of glass sand deposit localities, province, deposit type and remarks; content is textual. No sand or glass-sand tag exists in the vocabulary.",
+      "review_questions": [
+        "Propose a tag for non-metallic minerals such as glass sand and abrasives."
+      ]
+    },
+    "china-1928:p0134_1": {
+      "topics": [
+        "mining"
+      ],
+      "tags": [
+        "mineral-production"
+      ],
+      "flags": [],
+      "rationale": "Annual tonnage output of glass sand from one deposit, 1919-1925; extraction output.",
+      "review_questions": [
+        "No specific glass sand tag; mineral-production used."
+      ]
+    },
+    "china-1928:p0134_2": {
+      "topics": [
+        "mining"
+      ],
+      "tags": [
+        "mineral-production"
+      ],
+      "flags": [],
+      "rationale": "Annual output tonnage of grinding pebbles from beaches near Port Arthur; extracted mineral/abrasive output.",
+      "review_questions": [
+        "No specific tag for abrasives or pebbles."
+      ]
+    },
+    "china-1928:p0135_1": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "customs-revenue"
+      ],
+      "flags": [],
+      "rationale": "Maritime Customs revenue 1916-1925 by source (import, export, coast trade, tonnage, transit, likin, famine surtax). Customs-revenue is the specific fit.",
+      "review_questions": []
+    },
+    "china-1928:p0135_2": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "customs-revenue"
+      ],
+      "flags": [],
+      "rationale": "Customs revenue 1916-1925 divided between foreign and home trades, with duties on Chinese produce exported.",
+      "review_questions": []
+    },
+    "china-1928:p0136_1": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "customs-revenue"
+      ],
+      "flags": [],
+      "rationale": "Customs revenue collected at each port in Haikwan taels, 1921-1925.",
+      "review_questions": []
+    },
+    "china-1928:p0137_1": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "customs-revenue"
+      ],
+      "flags": [],
+      "rationale": "Maritime Customs revenue by port, duty type and flag; quantitative despite an unreadable total cell.",
+      "review_questions": []
+    },
+    "china-1928:p0137_2": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "customs-revenue"
+      ],
+      "flags": [],
+      "rationale": "1925 customs revenue by port: tonnage dues, totals by flag, transit dues, famine surtax and total collection.",
+      "review_questions": []
+    },
+    "china-1928:p0139_1": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "customs-revenue"
+      ],
+      "flags": [],
+      "rationale": "Continuation of total Maritime Customs revenue by port 1921-1925, with grand totals and famine surtax notes.",
+      "review_questions": []
+    },
+    "china-1928:p0140_1": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "imports",
+        "exports"
+      ],
+      "flags": [],
+      "rationale": "Value of direct foreign imports and exports by port for 1924 and 1925.",
+      "review_questions": []
+    }
+  }
+}

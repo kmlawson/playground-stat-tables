@@ -1,0 +1,126 @@
+{
+  "vocabulary_version": "1.1.0-optional-details",
+  "assignments": {
+    "china-1912:p0091_2": {
+      "topics": [
+        "finance",
+        "mining"
+      ],
+      "tags": [
+        "companies"
+      ],
+      "flags": [],
+      "rationale": "Annual revenue in marks of a German mining company in Shantung, after management and output expenses; a company financial result.",
+      "review_questions": []
+    },
+    "china-1912:p0091_3": {
+      "topics": [
+        "mining"
+      ],
+      "tags": [
+        "coal"
+      ],
+      "flags": [],
+      "rationale": "Annual coal output in tons of the Fushun collieries of the South Manchuria Railway Company.",
+      "review_questions": []
+    },
+    "china-1912:p0093_1": {
+      "topics": [
+        "mining"
+      ],
+      "tags": [
+        "coal"
+      ],
+      "flags": [],
+      "rationale": "Annual coal output in tons of the Pinghsiang mines, Kiangsi.",
+      "review_questions": []
+    },
+    "china-1912:p0093_2": {
+      "topics": [
+        "mining"
+      ],
+      "tags": [
+        "iron-ore",
+        "manganese"
+      ],
+      "flags": [],
+      "rationale": "Output in tons of magnetic iron ore and manganese ore at the Tayeh iron mines.",
+      "review_questions": []
+    },
+    "china-1912:p0095_1": {
+      "topics": [
+        "trade",
+        "mining"
+      ],
+      "tags": [
+        "antimony",
+        "exports"
+      ],
+      "flags": [],
+      "rationale": "Exports of antimony (regulus, crude, ore) from Changsha in cwt by year.",
+      "review_questions": []
+    },
+    "china-1912:p0097_1": {
+      "topics": [
+        "mining",
+        "government"
+      ],
+      "tags": [
+        "mining-rights-and-concessions"
+      ],
+      "flags": [],
+      "rationale": "List of mining permits issued by the Ministry, with company, locality, mineral, capital, nationality and date; mixed quantitative content.",
+      "review_questions": []
+    },
+    "china-1912:p0101_1": {
+      "topics": [
+        "mining"
+      ],
+      "tags": [],
+      "flags": [],
+      "rationale": "Counts of mines by province and status (operating but unregistered, known but not operated, worked out). No existing tag covers mine inventories by status.",
+      "review_questions": [
+        "Consider a tag for mine counts/inventories by operational status."
+      ]
+    },
+    "china-1912:p0102_1": {
+      "topics": [
+        "mining",
+        "geography"
+      ],
+      "tags": [
+        "mineral-reserves"
+      ],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "Textual list of minerals known in each province with principal places of production; descriptive deposits rather than statistics.",
+      "review_questions": []
+    },
+    "china-1912:p0103_1": {
+      "topics": [
+        "trade",
+        "mining"
+      ],
+      "tags": [
+        "exports"
+      ],
+      "flags": [],
+      "rationale": "Mineral exports in tons and pounds sterling 1906-1910 to foreign countries and from customs districts, covering many minerals.",
+      "review_questions": []
+    },
+    "china-1912:p0104_1": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "currency"
+      ],
+      "flags": [],
+      "rationale": "Theoretical equivalences of Chinese money units in the tael and dollar systems, a table of monetary denominations.",
+      "review_questions": [
+        "Should measurement-and-units apply to unit conversion tables of money?"
+      ]
+    }
+  }
+}

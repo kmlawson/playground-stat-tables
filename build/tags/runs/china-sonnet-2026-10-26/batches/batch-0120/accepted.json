@@ -1,0 +1,121 @@
+{
+  "vocabulary_version": "1.1.0-optional-details",
+  "assignments": {
+    "china-1919:p0088_5": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [],
+      "flags": [],
+      "rationale": "Single row of flour movement through Customs stations in cwt, 1912-1917; context links to the wheat trade. Flour is a traded commodity, but no vocabulary tag covers flour specifically (wheat is a crop/commodity tag, but flour milling is excluded; food-processing is not evidenced).",
+      "review_questions": [
+        "Should a flour or flour-milling tag be added?"
+      ]
+    },
+    "china-1919:p0089_1": {
+      "topics": [
+        "mining"
+      ],
+      "tags": [
+        "mineral-production"
+      ],
+      "flags": [],
+      "rationale": "Multi-mineral table of acreage, 1914 production and proprietors for coal, iron, tin, antimony, gold, silver, lead, copper and others; an aggregate mineral-production summary.",
+      "review_questions": []
+    },
+    "china-1919:p0090_1": {
+      "topics": [
+        "mining"
+      ],
+      "tags": [
+        "coal"
+      ],
+      "flags": [],
+      "rationale": "Estimated coal production by province, divided by coal grade (anthracite, bituminous, lignite).",
+      "review_questions": []
+    },
+    "china-1919:p0090_2": {
+      "topics": [
+        "mining"
+      ],
+      "tags": [
+        "coal"
+      ],
+      "flags": [],
+      "rationale": "Estimates of Manchurian coal output by colliery, comparing Kato's 1910 estimate with the Chinese official 1914 estimate.",
+      "review_questions": []
+    },
+    "china-1919:p0091_1": {
+      "topics": [
+        "mining"
+      ],
+      "tags": [
+        "coal"
+      ],
+      "flags": [],
+      "rationale": "Comparison of two estimates of coal output by province and mine, with grand totals.",
+      "review_questions": []
+    },
+    "china-1919:p0092_1": {
+      "topics": [
+        "mining"
+      ],
+      "tags": [
+        "coal"
+      ],
+      "flags": [],
+      "rationale": "Output in tons of the principal modern collieries in China, 1915.",
+      "review_questions": []
+    },
+    "china-1919:p0093_1": {
+      "topics": [
+        "mining"
+      ],
+      "tags": [
+        "coal"
+      ],
+      "flags": [],
+      "rationale": "Annual coal output of the Fushun colliery, April 1909 to March 1918.",
+      "review_questions": []
+    },
+    "china-1919:p0106_1": {
+      "topics": [
+        "trade",
+        "mining"
+      ],
+      "tags": [
+        "antimony",
+        "exports"
+      ],
+      "flags": [],
+      "rationale": "Yearly export of antimony products (regulus, crude, ore, ash) from Changsha, 1913-1917 in tons; a commodity export series.",
+      "review_questions": []
+    },
+    "china-1919:p0110_1": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "measurement-and-units"
+      ],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "Ladder of theoretical Chinese money units (hao, cash, candareen, mace, tael, cent, dollar) as unit equivalences. Content is a conversion list rather than observed quantities.",
+      "review_questions": []
+    },
+    "china-1919:p0111_1": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "measurement-and-units"
+      ],
+      "flags": [],
+      "rationale": "Exchange values between different kinds of tael (Haikuan, Kuping, Tientsin, Shanghai), giving numerical equivalences of monetary units rather than currency-market quotations.",
+      "review_questions": [
+        "Is foreign-exchange or currency a better tag for tael-to-tael equivalences?"
+      ]
+    }
+  }
+}

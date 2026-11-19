@@ -1,0 +1,137 @@
+{
+  "vocabulary_version": "1.1.0-optional-details",
+  "assignments": {
+    "china-1914:p0124_1": {
+      "topics": [
+        "manufacturing"
+      ],
+      "tags": [
+        "iron-and-steel"
+      ],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "Directory of smelting works (antimony, copper, iron, tin, metal) by name and location; text-only. Mixed metals so no single metal tag; iron-and-steel covers only one works, but is the closest smelting tag.",
+      "review_questions": [
+        "Is a non-ferrous metal smelting tag needed? Iron-and-steel fits only one works."
+      ]
+    },
+    "china-1914:p0124_2": {
+      "topics": [
+        "manufacturing"
+      ],
+      "tags": [
+        "chemicals"
+      ],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "List of soap and candle factories with locations; soap is covered under chemicals. No quantities.",
+      "review_questions": []
+    },
+    "china-1914:p0125_1": {
+      "topics": [
+        "manufacturing"
+      ],
+      "tags": [
+        "chemicals"
+      ],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "Continuation list of soap and candle factories by name and location; text only.",
+      "review_questions": []
+    },
+    "china-1914:p0125_2": {
+      "topics": [
+        "manufacturing"
+      ],
+      "tags": [
+        "sugar"
+      ],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "List of sugar refineries and locations; text only.",
+      "review_questions": []
+    },
+    "china-1914:p0125_3": {
+      "topics": [
+        "manufacturing"
+      ],
+      "tags": [
+        "tea"
+      ],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "List of tea factories and locations; text only.",
+      "review_questions": []
+    },
+    "china-1914:p0125_4": {
+      "topics": [
+        "manufacturing"
+      ],
+      "tags": [
+        "tobacco"
+      ],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "List of tobacco factories and locations; text only.",
+      "review_questions": []
+    },
+    "china-1914:p0126_1": {
+      "topics": [
+        "manufacturing"
+      ],
+      "tags": [
+        "tobacco"
+      ],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "Continuation list of tobacco and cigarette factories with locations; text only.",
+      "review_questions": []
+    },
+    "china-1914:p0126_2": {
+      "topics": [
+        "manufacturing"
+      ],
+      "tags": [
+        "wool"
+      ],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "List of woollen factories and locations; text only.",
+      "review_questions": []
+    },
+    "china-1914:p0126_3": {
+      "topics": [
+        "manufacturing"
+      ],
+      "tags": [
+        "wool"
+      ],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "List of wool cleaning and pressing firms at Tientsin; text only.",
+      "review_questions": []
+    },
+    "china-1914:p0126_4": {
+      "topics": [
+        "manufacturing"
+      ],
+      "tags": [],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "List of firms operating hydraulic press packing factories; the packed goods are not identified, and no existing tag covers packing or pressing.",
+      "review_questions": [
+        "Propose a tag for packing and pressing industries?"
+      ]
+    }
+  }
+}

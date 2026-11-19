@@ -1,0 +1,123 @@
+{
+  "vocabulary_version": "1.1.0-optional-details",
+  "assignments": {
+    "china-handbook-1926:p0532_1": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "imports",
+        "exports"
+      ],
+      "flags": [],
+      "rationale": "Principal articles imported and exported at Shanghai with quantities and values.",
+      "review_questions": []
+    },
+    "china-handbook-1926:p0533_1": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "banking"
+      ],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "List of bank names handling foreign exchange; purely textual with no quantities.",
+      "review_questions": []
+    },
+    "china-handbook-1926:p0533_2": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "currency"
+      ],
+      "flags": [],
+      "rationale": "Silver content of various taels, grain weights and percentage value differences; a monetary standard comparison.",
+      "review_questions": []
+    },
+    "china-handbook-1926:p0536_1": {
+      "topics": [
+        "press",
+        "trade"
+      ],
+      "tags": [
+        "newspapers"
+      ],
+      "flags": [],
+      "rationale": "Advertising mediums, mostly newspapers with nationality and circulation figures; periodicals are minor.",
+      "review_questions": [
+        "Is a tag for advertising media in the press needed? 'advertising' was not selected because the table lists publications rather than advertising expenditure."
+      ]
+    },
+    "china-handbook-1926:p0543_1": {
+      "topics": [
+        "economy"
+      ],
+      "tags": [],
+      "flags": [],
+      "rationale": "Land transactions by area in mow and cost in taels; no fitting tag for land sales or real-estate transactions.",
+      "review_questions": [
+        "Propose a tag for land and real-estate transactions."
+      ]
+    },
+    "china-handbook-1926:p0543_2": {
+      "topics": [
+        "utilities"
+      ],
+      "tags": [
+        "construction"
+      ],
+      "flags": [],
+      "rationale": "Counts of buildings erected by class in the International Settlement, 1919-1923.",
+      "review_questions": []
+    },
+    "china-handbook-1926:p0544_1": {
+      "topics": [
+        "labour"
+      ],
+      "tags": [
+        "wages"
+      ],
+      "flags": [],
+      "rationale": "Daily wages of carpenters and masons paid by contractors over several years.",
+      "review_questions": []
+    },
+    "china-handbook-1926:p0547_1": {
+      "topics": [
+        "mining"
+      ],
+      "tags": [
+        "mineral-reserves",
+        "coal"
+      ],
+      "flags": [],
+      "rationale": "Geological Survey estimates of anthracite and bituminous coal reserves by province.",
+      "review_questions": []
+    },
+    "china-handbook-1926:p0547_2": {
+      "topics": [
+        "mining"
+      ],
+      "tags": [
+        "coal"
+      ],
+      "flags": [],
+      "rationale": "Coal production in 1922 by province and mine with quality and totals.",
+      "review_questions": []
+    },
+    "china-handbook-1926:p0548_1": {
+      "topics": [
+        "mining"
+      ],
+      "tags": [
+        "iron-ore",
+        "mineral-reserves"
+      ],
+      "flags": [],
+      "rationale": "Iron ore resources and iron content by district in Chihli, from a Geological Survey report.",
+      "review_questions": []
+    }
+  }
+}

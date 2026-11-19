@@ -1,0 +1,128 @@
+{
+  "vocabulary_version": "1.1.0-optional-details",
+  "assignments": {
+    "china-1922:p0173_1": {
+      "topics": [
+        "agriculture",
+        "trade"
+      ],
+      "tags": [
+        "tea"
+      ],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "Classification list of China teas (black, green, blends) by division, group and province. The content is textual naming with no quantities; the tea tag fits.",
+      "review_questions": []
+    },
+    "china-1922:p0178_1": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "vegetable-oils",
+        "exports"
+      ],
+      "flags": [],
+      "rationale": "Quantity and value of vegetable oil exports in piculs and taels, 1917-1919.",
+      "review_questions": []
+    },
+    "china-1922:p0179_1": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "tobacco",
+        "exports"
+      ],
+      "flags": [],
+      "rationale": "Original export of tobacco from the Customs districts in piculs, 1917-1919.",
+      "review_questions": []
+    },
+    "china-1922:p0179_2": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "plant-fibres",
+        "exports"
+      ],
+      "flags": [],
+      "rationale": "Exports in piculs of coir, hemp, jute and ramie, 1918-1919; these are raw plant fibres.",
+      "review_questions": []
+    },
+    "china-1922:p0180_1": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "camphor",
+        "exports"
+      ],
+      "flags": [],
+      "rationale": "Camphor export quantity and value for 1918 and 1919.",
+      "review_questions": []
+    },
+    "china-1922:p0182_1": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "exports"
+      ],
+      "flags": [],
+      "rationale": "Strawbraid export quantity and value for 1918-1919. No tag covers strawbraid or straw plaiting.",
+      "review_questions": [
+        "Propose a vocabulary term for straw braid or plaited goods."
+      ]
+    },
+    "china-1922:p0182_2": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "exports"
+      ],
+      "flags": [],
+      "rationale": "Vermicelli export quantity and value for 1918-1919. No specific tag fits the product; the general exports tag is used.",
+      "review_questions": [
+        "Propose a vocabulary term for noodles or vermicelli; food-processing is too broad for an export-only table."
+      ]
+    },
+    "china-1922:p0182_3": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "sugar"
+      ],
+      "flags": [],
+      "rationale": "Movement of brown and white sugar through the Customs, with quantity and value for 1918-1919. The movement is a customs trade flow of sugar; domestic or export direction is not stated.",
+      "review_questions": []
+    },
+    "china-1922:p0183_1": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "wheat"
+      ],
+      "flags": [],
+      "rationale": "Movement of flour through Customs stations in piculs, 1918-1919. The section is Wheat and the commodity is wheat flour.",
+      "review_questions": [
+        "Flour is a processed wheat product, so the wheat tag is an approximation; consider a flour tag."
+      ]
+    },
+    "china-1922:p0185_1": {
+      "topics": [
+        "mining"
+      ],
+      "tags": [
+        "mineral-production"
+      ],
+      "flags": [],
+      "rationale": "1916 metal production by province across about a dozen metals, with totals, unit values and total values; this is a multi-mineral summary.",
+      "review_questions": []
+    }
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "vocabulary_version": "1.1.0-optional-details",
+  "assignments": {
+    "china-1913:p0181_1": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "imports"
+      ],
+      "flags": [],
+      "rationale": "Net direct imports in piculs into each port, 1906-1911, with a total row. The commodity is not named in the record, so only the imports tag is supported.",
+      "review_questions": [
+        "The commodity is not identified in the transcription; the port-name column is blank. Is it opium?"
+      ]
+    },
+    "china-1913:p0181_2": {
+      "topics": [
+        "trade",
+        "narcotics"
+      ],
+      "tags": [
+        "opium"
+      ],
+      "flags": [],
+      "rationale": "Quantities in piculs of kinds of opium (Turkey, Russian Manchuria, Yunnan, boiled) by year. The context describes it as trade statistics, so trade leads and narcotics is added.",
+      "review_questions": [
+        "Year labels are missing from the transcription. Whether the quantities are imports is not stated."
+      ]
+    },
+    "china-1913:p0182_1": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "silk",
+        "exports"
+      ],
+      "flags": [],
+      "rationale": "Silk exports by destination country and silk type (raw, filature, wild, cocoons, waste) in pounds, 1907. Several years' blocks are included, as the continued pages show.",
+      "review_questions": [
+        "The title says 1907 but the pages hold several yearly blocks, apparently 1907 to 1910."
+      ]
+    },
+    "china-1913:p0186_1": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "silk",
+        "exports"
+      ],
+      "flags": [],
+      "rationale": "Silk and silk waste exports by destination and type in pounds, 1911.",
+      "review_questions": []
+    },
+    "china-1913:p0187_1": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "silk",
+        "exports"
+      ],
+      "flags": [],
+      "rationale": "Annual total silk exports 1900-1911 by type, including cocoons and waste, in pounds.",
+      "review_questions": []
+    },
+    "china-1913:p0188_1": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "tea",
+        "exports"
+      ],
+      "flags": [],
+      "rationale": "Tea exports in 1907 by destination and kind (green, black, brick, tablet, dust), in pounds.",
+      "review_questions": []
+    },
+    "china-1913:p0189_1": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "tea",
+        "exports"
+      ],
+      "flags": [],
+      "rationale": "Tea exports in 1908 by destination and kind, in pounds.",
+      "review_questions": []
+    },
+    "china-1913:p0190_1": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "tea",
+        "exports"
+      ],
+      "flags": [],
+      "rationale": "Tea exports by destination and kind, in pounds, in two blocks (1909 and apparently 1910) across continued pages.",
+      "review_questions": [
+        "The title says 1909, but the second block appears to be a different year."
+      ]
+    },
+    "china-1913:p0192_1": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "tea",
+        "exports"
+      ],
+      "flags": [],
+      "rationale": "Tea exports in 1911 by destination and kind, in pounds.",
+      "review_questions": []
+    },
+    "china-1913:p0193_1": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "tea",
+        "exports"
+      ],
+      "flags": [],
+      "rationale": "Annual overland tea exports to Russia, 1900-1910, by leaf, brick, stalk and dust, in pounds and sterling.",
+      "review_questions": []
+    }
+  }
+}

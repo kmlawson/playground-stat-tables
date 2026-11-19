@@ -1,0 +1,20 @@
+{
+  "status": "stopped",
+  "model": "anthropic/claude-sonnet-5-5",
+  "collection": "china",
+  "updated_utc": "2026-10-26T15:25:19.856371+00:00",
+  "tables_total": 8866,
+  "tables_completed": 6850,
+  "batches_total": 887,
+  "batches_completed": 685,
+  "cli_attempts": 686,
+  "current_batch": null,
+  "tables_without_detailed_tags": 373,
+  "tables_with_review_questions": 1159,
+  "text_tables": 979,
+  "usage": {
+    "input_tokens": 49185295,
+    "output_tokens": 702975
+  },
+  "error": "Stopped at user request; no further calls will be made."
+}

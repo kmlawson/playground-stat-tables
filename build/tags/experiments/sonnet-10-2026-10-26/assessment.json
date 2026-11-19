@@ -1,0 +1,50 @@
+{
+  "review_method": "Full-record subject review against supplied rules; exact reference differences assessed rather than automatically counted as errors.",
+  "assessment": {
+    "china-1916:p0125_6": {
+      "status": "matches-reference",
+      "note": "Topics, detailed tags and text/statistical flag match the reviewed pilot."
+    },
+    "korea-1942:p0131_1": {
+      "status": "matches-reference",
+      "note": "Topics, detailed tags and text/statistical flag match the reviewed pilot."
+    },
+    "taiwan-tokei-1925:p0263_2": {
+      "status": "matches-reference",
+      "note": "Topics, detailed tags and text/statistical flag match the reviewed pilot."
+    },
+    "japan-1937:p0409_1": {
+      "status": "matches-reference",
+      "note": "Topics, detailed tags and text/statistical flag match the reviewed pilot."
+    },
+    "japan-1939-40:p0696_1": {
+      "status": "matches-reference",
+      "note": "Topics, detailed tags and text/statistical flag match the reviewed pilot."
+    },
+    "korea-tokanfu-1939:p0246_1": {
+      "status": "matches-reference",
+      "note": "Topics, detailed tags and text/statistical flag match the reviewed pilot."
+    },
+    "manchuria-1939:p0091_1": {
+      "status": "needs-revision",
+      "note": "The record shows organised settlement cohorts but no evidenced colonial-expansion or foreign-state-sponsorship association. Retain migration rather than settler-migration. Households and cultivated area also substantially organise the body; the reference includes households, arable-land and agriculture. The model flags its own uncertainty, so this would enter review."
+    },
+    "far-east-1941:IMG_5400_1": {
+      "status": "matches-reference",
+      "note": "Topics, detailed tags and text/statistical flag match the reviewed pilot."
+    },
+    "nanyo-tokei-1937:p0041_3": {
+      "status": "matches-reference",
+      "note": "Topics, detailed tags and text/statistical flag match the reviewed pilot."
+    },
+    "taiwan-tokei-1933:p0353_2": {
+      "status": "minor-redundancy",
+      "note": "Narcotics/trade and opium-licensing are correct. Adding opium spends a second slot on the broader subject already covered by the specific licensing tag, contrary to the preference for nonredundant tags."
+    }
+  },
+  "summary": {
+    "matches_reference": 8,
+    "needs_revision": 1,
+    "minor_redundancy": 1
+  }
+}

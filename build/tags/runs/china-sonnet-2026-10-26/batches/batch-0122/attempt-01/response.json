@@ -1,0 +1,135 @@
+{
+  "vocabulary_version": "1.1.0-optional-details",
+  "assignments": {
+    "china-1919:p0115_2": {
+      "topics": [
+        "military"
+      ],
+      "tags": [
+        "arms-and-arsenals"
+      ],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "Lists locations of Government arsenals in China; purely textual place list; arsenals are military production facilities.",
+      "review_questions": []
+    },
+    "china-1919:p0115_3": {
+      "topics": [
+        "manufacturing"
+      ],
+      "tags": [
+        "canning"
+      ],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "Textual list of canning factories and their locations.",
+      "review_questions": []
+    },
+    "china-1919:p0115_4": {
+      "topics": [
+        "manufacturing"
+      ],
+      "tags": [
+        "cement-and-bricks"
+      ],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "List of cement, brick and tile works with locations; one capacity figure and brickfield count are incidental.",
+      "review_questions": []
+    },
+    "china-1919:p0116_1": {
+      "topics": [
+        "manufacturing"
+      ],
+      "tags": [
+        "chemicals"
+      ],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "List of chemical works and locations.",
+      "review_questions": []
+    },
+    "china-1919:p0116_2": {
+      "topics": [
+        "manufacturing"
+      ],
+      "tags": [],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "List of confectionery manufacturers at Harbin; no confectionery tag in vocabulary (food-processing is a broad fit but a confectionery list is narrow).",
+      "review_questions": [
+        "Should a confectionery or food-processing tag be applied to confectionery manufacturer lists?"
+      ]
+    },
+    "china-1919:p0116_3": {
+      "topics": [
+        "manufacturing"
+      ],
+      "tags": [
+        "cotton"
+      ],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "List of cotton spinning and weaving works with locations.",
+      "review_questions": []
+    },
+    "china-1919:p0117_1": {
+      "topics": [
+        "manufacturing"
+      ],
+      "tags": [
+        "cotton"
+      ],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "Continuation list of cotton spinning and weaving mills with locations.",
+      "review_questions": []
+    },
+    "china-1919:p0117_2": {
+      "topics": [
+        "manufacturing"
+      ],
+      "tags": [
+        "alcohol"
+      ],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "List of vodka distilleries with owners and locations in Manchuria.",
+      "review_questions": []
+    },
+    "china-1919:p0118_1": {
+      "topics": [
+        "manufacturing"
+      ],
+      "tags": [
+        "alcohol"
+      ],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "List of breweries with nationality and location.",
+      "review_questions": []
+    },
+    "china-1919:p0118_2": {
+      "topics": [
+        "manufacturing"
+      ],
+      "tags": [],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "List of aerated water manufacturers, followed by dock and engineering works; mixed textual lists with no single fitting tag (shipbuilding and machinery are substantial but the heading is aerated water).",
+      "review_questions": [
+        "Does the table combine aerated water makers with dockyards and engineering works under one heading, needing a beverage or soft-drinks tag or splitting?"
+      ]
+    }
+  }
+}

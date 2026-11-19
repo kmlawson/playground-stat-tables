@@ -1,0 +1,117 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "vocabulary_version": {
+      "type": "string",
+      "enum": [
+        "1.1.0-optional-details"
+      ]
+    },
+    "assignments": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "china-1914:p0433_2": {
+          "$ref": "#/$defs/assignment"
+        },
+        "china-1914:p0434_1": {
+          "$ref": "#/$defs/assignment"
+        },
+        "china-1914:p0434_2": {
+          "$ref": "#/$defs/assignment"
+        },
+        "china-1914:p0437_1": {
+          "$ref": "#/$defs/assignment"
+        },
+        "china-1914:p0437_2": {
+          "$ref": "#/$defs/assignment"
+        },
+        "china-1914:p0438_1": {
+          "$ref": "#/$defs/assignment"
+        },
+        "china-1914:p0438_2": {
+          "$ref": "#/$defs/assignment"
+        },
+        "china-1914:p0439_1": {
+          "$ref": "#/$defs/assignment"
+        },
+        "china-1914:p0440_1": {
+          "$ref": "#/$defs/assignment"
+        },
+        "china-1914:p0441_1": {
+          "$ref": "#/$defs/assignment"
+        }
+      },
+      "required": [
+        "china-1914:p0433_2",
+        "china-1914:p0434_1",
+        "china-1914:p0434_2",
+        "china-1914:p0437_1",
+        "china-1914:p0437_2",
+        "china-1914:p0438_1",
+        "china-1914:p0438_2",
+        "china-1914:p0439_1",
+        "china-1914:p0440_1",
+        "china-1914:p0441_1"
+      ]
+    }
+  },
+  "required": [
+    "vocabulary_version",
+    "assignments"
+  ],
+  "$defs": {
+    "assignment": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "topics": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "maxItems": 2,
+          "uniqueItems": true
+        },
+        "tags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 0,
+          "maxItems": 3,
+          "uniqueItems": true
+        },
+        "flags": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "text-tables"
+            ]
+          },
+          "maxItems": 1,
+          "uniqueItems": true
+        },
+        "rationale": {
+          "type": "string"
+        },
+        "review_questions": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "topics",
+        "tags",
+        "flags",
+        "rationale",
+        "review_questions"
+      ]
+    }
+  }
+}

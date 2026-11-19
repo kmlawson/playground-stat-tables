@@ -1,0 +1,124 @@
+{
+  "vocabulary_version": "1.1.0-optional-details",
+  "assignments": {
+    "china-1929-30:p1185_1": {
+      "topics": [
+        "transportation"
+      ],
+      "tags": [
+        "shipping"
+      ],
+      "flags": [],
+      "rationale": "Shipping entered and cleared, 1918-1927, divided between steamers and sailing vessels by number and tonnage; this is a waterborne traffic series.",
+      "review_questions": []
+    },
+    "china-1929-30:p1186_1": {
+      "topics": [
+        "transportation"
+      ],
+      "tags": [
+        "shipping"
+      ],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "A list of 26 regular cargo/passenger shipping lines with no quantities; the content is textual names of shipping companies.",
+      "review_questions": []
+    },
+    "china-1929-30:p1186_2": {
+      "topics": [
+        "transportation"
+      ],
+      "tags": [
+        "shipping"
+      ],
+      "flags": [],
+      "rationale": "Inventory of coasting and river steamers by owning company, with build year and gross register tonnage; a merchant fleet listing with substantive tonnage figures.",
+      "review_questions": [
+        "Would a dedicated inland-navigation or fleet-inventory tag be useful? Many vessels are river and coasting steamers, but the table mixes ocean-going and Japanese Dairen vessels, so inland-navigation was not assigned."
+      ]
+    },
+    "china-1929-30:p1204_1": {
+      "topics": [
+        "foreign-relations",
+        "trade"
+      ],
+      "tags": [
+        "tariffs"
+      ],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "An annexed treaty list of Chinese goods admitted to France under the minimum tariff, within a Sino-French tariff treaty. It lists items only, with no figures.",
+      "review_questions": []
+    },
+    "china-1931-2:p0017_1": {
+      "topics": [
+        "geography"
+      ],
+      "tags": [
+        "land-area"
+      ],
+      "flags": [],
+      "rationale": "Estimated area in square miles of Chinese territory by region, with an alternative estimate in a note.",
+      "review_questions": []
+    },
+    "china-1931-2:p0017_2": {
+      "topics": [
+        "population"
+      ],
+      "tags": [
+        "population-totals"
+      ],
+      "flags": [],
+      "rationale": "Census population returns by division of China.",
+      "review_questions": []
+    },
+    "china-1931-2:p0017_3": {
+      "topics": [
+        "population"
+      ],
+      "tags": [
+        "population-totals"
+      ],
+      "flags": [],
+      "rationale": "Estimated population by division based on persons per family, with a total for China.",
+      "review_questions": []
+    },
+    "china-1931-2:p0017_4": {
+      "topics": [
+        "population"
+      ],
+      "tags": [
+        "population-totals"
+      ],
+      "flags": [],
+      "rationale": "Estimated population of China at various historical dates from 1381 onward.",
+      "review_questions": []
+    },
+    "china-1931-2:p0018_1": {
+      "topics": [
+        "population"
+      ],
+      "tags": [
+        "population-totals"
+      ],
+      "flags": [],
+      "rationale": "Successive estimates of China's total population from 1760 to 1923.",
+      "review_questions": []
+    },
+    "china-1931-2:p0018_2": {
+      "topics": [
+        "geography",
+        "population"
+      ],
+      "tags": [
+        "land-area",
+        "population-totals"
+      ],
+      "flags": [],
+      "rationale": "Area and population of Australia, India and Great Britain as British Empire territories; both measures are substantial.",
+      "review_questions": []
+    }
+  }
+}

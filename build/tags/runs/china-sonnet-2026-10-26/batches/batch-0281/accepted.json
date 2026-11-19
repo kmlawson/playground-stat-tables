@@ -1,0 +1,131 @@
+{
+  "vocabulary_version": "1.1.0-optional-details",
+  "assignments": {
+    "china-1923:p0239_1": {
+      "topics": [
+        "press"
+      ],
+      "tags": [
+        "periodicals"
+      ],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "Directory of Kwangtung newspapers and periodicals by title, place, proprietor and frequency; content is textual. Daily and weekly papers and monthly journals are both listed, so the periodicals tag is a partial fit.",
+      "review_questions": [
+        "Table mixes newspapers and periodicals; consider whether a combined press-directory tag is needed."
+      ]
+    },
+    "china-1923:p0255_1": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "exports"
+      ],
+      "flags": [],
+      "rationale": "Values of Chinese exports and re-exports by commodity for 1913, 1920 and 1921, with recalculated values at 1913 prices. A broad multi-commodity export table.",
+      "review_questions": [
+        "Printed total row does not add up and is kept as read."
+      ]
+    },
+    "china-1923:p0257_1": {
+      "topics": [
+        "agriculture",
+        "geography"
+      ],
+      "tags": [],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "Reference list pairing principal products (animal products, fibres, metals, seeds, timber, sundries) with producing regions. Content is textual and spans many commodities, so no single tag fits.",
+      "review_questions": [
+        "Vocabulary lacks a tag for regional distribution of products or a multi-sector product inventory."
+      ]
+    },
+    "china-1923:p0258_1": {
+      "topics": [
+        "trade",
+        "agriculture"
+      ],
+      "tags": [],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "Province-by-province list of principal products with export ports and remarks; textual and multi-commodity, so no specific tag fits.",
+      "review_questions": [
+        "Vocabulary lacks a tag for product-by-province or port-of-export inventories."
+      ]
+    },
+    "china-1923:p0266_1": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [],
+      "flags": [],
+      "rationale": "Percentage share of world raw silk trade by China, Japan, Western Europe and the Levant for 1911-1916. Silk is the subject, but the tag silk covers manufacture or trade, and it fits here as a trade-share series.",
+      "review_questions": []
+    },
+    "china-1923:p0266_2": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "silk",
+        "exports"
+      ],
+      "flags": [],
+      "rationale": "Annual quantities in piculs of Chinese silk exports by type (white, yellow, filature, wild, waste), 1910-1921. Cocoons are one column among silk types.",
+      "review_questions": [
+        "Some 1920-1921 figures are unreadable; the years 1917 and 1918 appear out of order in the source."
+      ]
+    },
+    "china-1923:p0267_1": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "silk",
+        "exports"
+      ],
+      "flags": [],
+      "rationale": "Value in Haikwan taels of China's silk exports for 1918-1921.",
+      "review_questions": []
+    },
+    "china-1923:p0278_1": {
+      "topics": [
+        "manufacturing"
+      ],
+      "tags": [
+        "cotton"
+      ],
+      "flags": [],
+      "rationale": "Quantity of raw cotton used in Chinese mills by origin (Chinese, American, East Indian, Egyptian) for a half year.",
+      "review_questions": []
+    },
+    "china-1923:p0279_1": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "vegetable-oils",
+        "exports"
+      ],
+      "flags": [],
+      "rationale": "Quantity and value of vegetable oil exports from China, 1919-1921.",
+      "review_questions": []
+    },
+    "china-1923:p0280_1": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "tobacco",
+        "exports"
+      ],
+      "flags": [],
+      "rationale": "Original tobacco exports from Customs districts in piculs, 1917-1921.",
+      "review_questions": []
+    }
+  }
+}

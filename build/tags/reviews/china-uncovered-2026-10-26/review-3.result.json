@@ -1,0 +1,959 @@
+{
+  "batch": 3,
+  "status": "review-complete-proposals-only",
+  "vocabulary_version": "1.1.0-optional-details",
+  "input_sha256": "cf8618132c3dc7fce6eabff2496046574b3548c1e82a3eead4604afc3ef2800b",
+  "vocabulary_sha256": "c4f1458abd3dbda7b442cb5029d9ad552283509c9082974addc06d0f52b721d4",
+  "method": "Direct review of all 95 complete supplied records, including all parts, rows, original/English layers, context and notes. Reviewed current vocabulary definitions, includes/excludes and classification rules. No OCR, external LLMs, browsing, Git operations, or classification/vocabulary edits.",
+  "reviewed_keys": [
+    "china-1923:p0202_2",
+    "china-1923:p0205_1",
+    "china-1923:p0206_1",
+    "china-1923:p0208_1",
+    "china-1923:p0209_1",
+    "china-1923:p0211_1",
+    "china-1923:p0213_1",
+    "china-1923:p0215_1",
+    "china-1923:p0216_1",
+    "china-1923:p0221_1",
+    "china-1923:p0223_1",
+    "china-1923:p0225_1",
+    "china-1923:p0226_1",
+    "china-1923:p0227_1",
+    "china-1923:p0231_1",
+    "china-1923:p0235_1",
+    "china-1923:p0235_2",
+    "china-1923:p0236_1",
+    "china-1923:p0257_1",
+    "china-1923:p0258_1",
+    "china-1923:p0266_1",
+    "china-1923:p0288_1",
+    "china-1923:p0399_1",
+    "china-1923:p0400_1",
+    "china-1923:p0400_2",
+    "china-1923:p0673_1",
+    "china-1923:p0674_2",
+    "china-1923:p0702_2",
+    "china-1923:p1062_1",
+    "china-1923:p1232_1",
+    "china-1923:p1253_1",
+    "china-1924-5:p0053_1",
+    "china-1924-5:p0053_2",
+    "china-1924-5:p0053_3",
+    "china-1924-5:p0053_4",
+    "china-1924-5:p0054_1",
+    "china-1924-5:p0054_2",
+    "china-1924-5:p0165_2",
+    "china-1924-5:p0440_1",
+    "china-1924-5:p0441_1",
+    "china-1924-5:p0457_4",
+    "china-1924-5:p0587_1",
+    "china-1924-5:p0588_1",
+    "china-1924-5:p0704_1",
+    "china-1924-5:p0881_1",
+    "china-1924-5:p1012_1",
+    "china-1924-5:p1016_1",
+    "china-1925-6:p0079_1",
+    "china-1925-6:p0079_2",
+    "china-1925-6:p0079_3",
+    "china-1925-6:p0079_4",
+    "china-1925-6:p0080_1",
+    "china-1925-6:p0080_2",
+    "china-1925-6:p0189_2",
+    "china-1925-6:p0197_1",
+    "china-1925-6:p0199_1",
+    "china-1925-6:p0200_1",
+    "china-1925-6:p0203_1",
+    "china-1925-6:p0337_1",
+    "china-1925-6:p0453_1",
+    "china-1925-6:p0458_1",
+    "china-1925-6:p0572_1",
+    "china-1925-6:p0649_2",
+    "china-1925-6:p0786_3",
+    "china-1925-6:p0791_1",
+    "china-1925-6:p0997_1",
+    "china-1925-6:p1003_2",
+    "china-1925-6:p1022_1",
+    "china-1925-6:p1039_1",
+    "china-1925-6:p1063_1",
+    "china-1925-6:p1164_1",
+    "china-1925-6:p1167_1",
+    "china-1925-6:p1168_1",
+    "china-1925-6:p1177_1",
+    "china-1925-6:p1179_1",
+    "china-1925-6:p1180_1",
+    "china-1925-6:p1183_1",
+    "china-1925-6:p1184_1",
+    "china-1925-6:p1187_1",
+    "china-1925-6:p1187_2",
+    "china-1925-6:p1277_1",
+    "china-1925-6:p1303_1",
+    "china-1925-6:p1304_2",
+    "china-1926-7:p0062_1",
+    "china-1926-7:p0062_2",
+    "china-1926-7:p0062_3",
+    "china-1926-7:p0062_4",
+    "china-1926-7:p0063_1",
+    "china-1926-7:p0063_2",
+    "china-1926-7:p0153_1",
+    "china-1926-7:p0156_2",
+    "china-1926-7:p0163_1",
+    "china-1926-7:p0343_1",
+    "china-1926-7:p0397_1",
+    "china-1926-7:p0399_1"
+  ],
+  "counts": {
+    "reviewed": 95,
+    "candidates": 8,
+    "tables_with_candidate_evidence": 32,
+    "existing_tag_fits": 81,
+    "candidate_evidence_without_existing_fit": 12,
+    "deferred": 2,
+    "accounted_for": 95
+  },
+  "candidates": [
+    {
+      "id": "writing-systems-and-phonetics",
+      "label": "writing systems and phonetics",
+      "definition": "Writing systems, orthographic or phonetic notation, pronunciation systems and the representation of speech sounds.",
+      "includes": [
+        "Alphabets, syllabaries and phonetic symbols; consonant and vowel/final inventories; romanisation/transliteration equivalences; spelling or script reforms."
+      ],
+      "excludes": [
+        "Language distribution or language of public services without script/sound analysis (languages).",
+        "Language teaching programmes or school language curricula alone (language-education).",
+        "Military or technical glossaries whose main subject is the named institutions or objects rather than speech sounds."
+      ],
+      "related_topics": [
+        "education",
+        "culture",
+        "science-and-technology"
+      ],
+      "evidence_keys": [
+        "china-1923:p0399_1",
+        "china-1923:p0400_1",
+        "china-1923:p0400_2"
+      ],
+      "why_existing_tags_do_not_fit": "Languages concerns use/distribution of languages and language-education concerns teaching. Neither precisely identifies phonetic-symbol inventories or the national alphabet as a writing/sound system. These three records show consonant and final symbols paired with sound equivalents.",
+      "priority": "high",
+      "proposal_kind": "coverage-gap"
+    },
+    {
+      "id": "anthropometry",
+      "label": "human body measurements",
+      "definition": "Measured physical dimensions and proportional characteristics of human bodies and the distributions or typologies constructed from those measurements.",
+      "includes": [
+        "Height, weight and body proportions; cranial/cephalic indices; tables grouping people by measured physical traits, retaining the source's historical categories."
+      ],
+      "excludes": [
+        "Nationality or ethnic-community labels without physical measurement (nationality-and-ethnicity).",
+        "Age and sex distributions alone (age-and-sex).",
+        "Nutrition or disease statistics without bodily measurements."
+      ],
+      "related_topics": [
+        "population",
+        "health",
+        "science-and-technology"
+      ],
+      "evidence_keys": [
+        "china-1925-6:p0197_1",
+        "china-1926-7:p0163_1"
+      ],
+      "why_existing_tags_do_not_fit": "The records report percentages of head-shape classes derived from 1,187 cephalic indices. They do not identify nationality or an ethnic community. No approved tag specifically covers bodily dimensions or anthropometric classifications.",
+      "priority": "high",
+      "proposal_kind": "coverage-gap"
+    },
+    {
+      "id": "regional-products",
+      "label": "regional products",
+      "definition": "The geographic distribution of the products or economic specialities of regions, especially inventories spanning several productive sectors.",
+      "includes": [
+        "Products paired with producing provinces/regions; province-by-product reference lists; geographical origins and associated export gateways when the regional product pattern is substantial."
+      ],
+      "excludes": [
+        "Single-commodity production or trade tables adequately described by their commodity tag.",
+        "Broad numerical economic barometers (economic-indicators).",
+        "Pure lists of ports or places without product-origin information."
+      ],
+      "related_topics": [
+        "geography",
+        "economy",
+        "trade",
+        "agriculture"
+      ],
+      "evidence_keys": [
+        "china-1923:p0257_1",
+        "china-1923:p0258_1"
+      ],
+      "why_existing_tags_do_not_fit": "The inventories span animal products, crops, minerals, timber and manufactured goods. Crop-production or industrial-output would omit large parts of the subject and three incidental commodity tags would misrepresent it. Exports already fits record 19, but does not capture its province-by-product organisation; record 18 has no general approved detail for this qualitative multi-sector geography.",
+      "priority": "medium",
+      "proposal_kind": "coverage-gap"
+    },
+    {
+      "id": "route-distances",
+      "label": "route distances",
+      "definition": "Distances between named places along travel, maritime, inland-waterway, railway or combined transport routes.",
+      "includes": [
+        "Port-to-port sea distances; river inter-port mileages; origin/destination distance matrices; cumulative distances via a named transport corridor, including mixed-mode routes."
+      ],
+      "excludes": [
+        "Total national network length or road construction mileage without place-to-place travel distances.",
+        "Territorial surface area or physical river length without a navigation/travel-route measure.",
+        "Fares and freight charges (freight-and-transport-costs)."
+      ],
+      "related_topics": [
+        "transportation",
+        "geography"
+      ],
+      "evidence_keys": [
+        "china-1924-5:p0053_1",
+        "china-1924-5:p0053_2",
+        "china-1924-5:p0053_3",
+        "china-1924-5:p0053_4",
+        "china-1924-5:p0054_1",
+        "china-1924-5:p0054_2",
+        "china-1925-6:p0079_1",
+        "china-1925-6:p0079_2",
+        "china-1925-6:p0079_3",
+        "china-1925-6:p0079_4",
+        "china-1925-6:p0080_1",
+        "china-1925-6:p0080_2",
+        "china-1926-7:p0062_1",
+        "china-1926-7:p0062_2",
+        "china-1926-7:p0062_3",
+        "china-1926-7:p0062_4",
+        "china-1926-7:p0063_1",
+        "china-1926-7:p0063_2"
+      ],
+      "why_existing_tags_do_not_fit": "Shipping and inland-navigation are already valid broad fits for the 15 explicitly identified sea/river-route records, and railways plus shipping fits the explicit rail-sea record. The two other via-Siberia matrices state overland/sea distances without establishing the land mode. A mode-neutral route-distance tag provides a consistent precise retrieval concept across all 18 records; it is an optional refinement where a modal tag already fits, not evidence that those modal tags must be withheld.",
+      "priority": "medium",
+      "proposal_kind": "mixed-coverage-gap-and-optional-refinement"
+    },
+    {
+      "id": "public-holidays-and-commemorations",
+      "label": "public holidays and commemorations",
+      "definition": "Recurring officially or socially observed holidays, anniversaries and memorial days and the occasions they commemorate.",
+      "includes": [
+        "National holidays; civic commemoration days; recurring memorial observances; lists pairing the calendar day with the remembered event."
+      ],
+      "excludes": [
+        "Calendar/era conversions and time-zone conventions (calendars-and-time).",
+        "One-off chronological event lists not organised as recurring observances.",
+        "Religious institutions or adherent counts without an observance subject."
+      ],
+      "related_topics": [
+        "culture",
+        "government",
+        "religion"
+      ],
+      "evidence_keys": [
+        "china-1925-6:p0997_1"
+      ],
+      "why_existing_tags_do_not_fit": "The record is the Republic's proclaimed holiday/anniversary calendar. Calendars-and-time is currently defined around systems and conversions for reckoning dates, and historical-chronologies requires a general historical account. A recurring civic observance is a distinct useful subject. If the vocabulary maintainers intentionally broaden calendars-and-time to cover holiday observances, this addition could instead be avoided.",
+      "priority": "medium",
+      "proposal_kind": "coverage-gap"
+    },
+    {
+      "id": "diplomatic-claims",
+      "label": "diplomatic claims",
+      "definition": "Compensation, restitution or other claims advanced through relations between states, including claims for losses arising from incidents and their negotiation or settlement.",
+      "includes": [
+        "Foreign nationals' incident-loss claims presented through governments; diplomatic compensation demands; interstate property restitution claims and negotiated settlements."
+      ],
+      "excludes": [
+        "Ordinary government loans or debt service.",
+        "Private insurance claims or purely domestic civil litigation.",
+        "An imposed treaty/war indemnity already adequately covered by indemnities."
+      ],
+      "related_topics": [
+        "foreign-relations",
+        "finance",
+        "informal-imperialism"
+      ],
+      "evidence_keys": [
+        "china-1924-5:p0881_1"
+      ],
+      "why_existing_tags_do_not_fit": "The Lincheng table lists compensation claims presented by country after an incident, not clearly imposed or accepted obligations. Indemnities is defined as financial obligations imposed as compensation. This distinction can justify a claims tag; alternatively, the maintainers could deliberately broaden indemnities to include pending diplomatic claims. The single example here warrants a boundary decision before expansion.",
+      "priority": "medium",
+      "proposal_kind": "coverage-gap"
+    },
+    {
+      "id": "foreign-trade-relations",
+      "label": "foreign trade relations",
+      "definition": "The establishment and institutional development of commercial relations between territories or states, considered separately from the quantity or value of trade flows.",
+      "includes": [
+        "First direct trading contacts; establishment or opening of commercial relationships; development of trading partnerships and access arrangements."
+      ],
+      "excludes": [
+        "Routine import/export quantities or values with no substantive relationship/history subject.",
+        "Diplomatic missions or treaties without a commercial relationship subject.",
+        "Treaty-created port privileges already adequately covered by treaty-ports."
+      ],
+      "related_topics": [
+        "trade",
+        "foreign-relations",
+        "history"
+      ],
+      "evidence_keys": [
+        "china-1923:p0288_1",
+        "china-1924-5:p0704_1"
+      ],
+      "why_existing_tags_do_not_fit": "The records list nations and the dates of their first direct trade dealings with China. They are neither import/export flow statistics nor actual treaty inventories, and their single-subject chronology falls outside the current historical-chronologies boundary. Both tables repeat the same seven-event list, so this is a low-priority candidate until broader corpus demand is established.",
+      "priority": "low",
+      "proposal_kind": "coverage-gap"
+    },
+    {
+      "id": "asbestos",
+      "label": "asbestos",
+      "definition": "Asbestos as a mineral fibre or industrial material and its extraction, manufacture and commerce.",
+      "includes": [
+        "Asbestos mining and raw fibre; manufactured asbestos articles and output; asbestos-product trade."
+      ],
+      "excludes": [
+        "Unspecified non-metallic mineral output without explicit asbestos.",
+        "General building material manufacture that does not identify asbestos.",
+        "Health effects inferred solely from asbestos production, without health observations."
+      ],
+      "related_topics": [
+        "mining",
+        "manufacturing",
+        "trade"
+      ],
+      "evidence_keys": [
+        "china-1924-5:p0165_2",
+        "china-1925-6:p0189_2",
+        "china-1926-7:p0156_2"
+      ],
+      "why_existing_tags_do_not_fit": "Industrial-output already fits these manufactured-product series. The optional asbestos tag would identify the material more precisely, consistently with existing commodity tags such as graphite and phosphate-rock; cement-and-bricks would assume a building use not stated in these records. The three examples are repeated Tientsin-company annual series rather than independent industrial cases.",
+      "priority": "medium",
+      "proposal_kind": "optional-material-refinement"
+    }
+  ],
+  "existing_tag_fits": [
+    {
+      "key": "china-1923:p0202_2",
+      "tags": [
+        "newspapers"
+      ],
+      "explanation": "The supplied context identifies a continuation list of newspapers. Daily and weekly are frequencies, not reasons to withhold the newspaper subject tag; no new combined directory tag is needed."
+    },
+    {
+      "key": "china-1923:p0205_1",
+      "tags": [
+        "newspapers"
+      ],
+      "explanation": "Every listed publication is a daily newspaper, with names, proprietors and places. The existing newspapers tag explicitly includes newspaper titles and publishers."
+    },
+    {
+      "key": "china-1923:p0206_1",
+      "tags": [
+        "newspapers",
+        "periodicals"
+      ],
+      "explanation": "The complete directory contains identified newspapers and journals/magazines. The allowed 1–3 detailed tags permit the two existing tags together; neither must fit alone. Frequencies are descriptive and do not by themselves distinguish newspapers from journals."
+    },
+    {
+      "key": "china-1923:p0208_1",
+      "tags": [
+        "newspapers",
+        "periodicals"
+      ],
+      "explanation": "The complete directory contains identified newspapers and journals/magazines. The allowed 1–3 detailed tags permit the two existing tags together; neither must fit alone. Frequencies are descriptive and do not by themselves distinguish newspapers from journals."
+    },
+    {
+      "key": "china-1923:p0209_1",
+      "tags": [
+        "newspapers",
+        "periodicals"
+      ],
+      "explanation": "The complete directory contains identified newspapers and journals/magazines. The allowed 1–3 detailed tags permit the two existing tags together; neither must fit alone. Frequencies are descriptive and do not by themselves distinguish newspapers from journals."
+    },
+    {
+      "key": "china-1923:p0211_1",
+      "tags": [
+        "newspapers",
+        "periodicals"
+      ],
+      "explanation": "The complete directory contains identified newspapers and journals/magazines. The allowed 1–3 detailed tags permit the two existing tags together; neither must fit alone. Frequencies are descriptive and do not by themselves distinguish newspapers from journals."
+    },
+    {
+      "key": "china-1923:p0213_1",
+      "tags": [
+        "newspapers",
+        "periodicals"
+      ],
+      "explanation": "The complete directory contains identified newspapers and journals/magazines. The allowed 1–3 detailed tags permit the two existing tags together; neither must fit alone. Frequencies are descriptive and do not by themselves distinguish newspapers from journals."
+    },
+    {
+      "key": "china-1923:p0215_1",
+      "tags": [
+        "newspapers",
+        "periodicals"
+      ],
+      "explanation": "The complete directory contains identified newspapers and journals/magazines. The allowed 1–3 detailed tags permit the two existing tags together; neither must fit alone. Frequencies are descriptive and do not by themselves distinguish newspapers from journals."
+    },
+    {
+      "key": "china-1923:p0216_1",
+      "tags": [
+        "newspapers",
+        "periodicals"
+      ],
+      "explanation": "The complete directory contains identified newspapers and journals/magazines. The allowed 1–3 detailed tags permit the two existing tags together; neither must fit alone. Frequencies are descriptive and do not by themselves distinguish newspapers from journals."
+    },
+    {
+      "key": "china-1923:p0221_1",
+      "tags": [
+        "newspapers",
+        "periodicals"
+      ],
+      "explanation": "The complete directory contains identified newspapers and journals/magazines. The allowed 1–3 detailed tags permit the two existing tags together; neither must fit alone. Frequencies are descriptive and do not by themselves distinguish newspapers from journals."
+    },
+    {
+      "key": "china-1923:p0223_1",
+      "tags": [
+        "newspapers",
+        "periodicals"
+      ],
+      "explanation": "The complete directory contains identified newspapers and journals/magazines. The allowed 1–3 detailed tags permit the two existing tags together; neither must fit alone. Frequencies are descriptive and do not by themselves distinguish newspapers from journals."
+    },
+    {
+      "key": "china-1923:p0225_1",
+      "tags": [
+        "newspapers",
+        "periodicals"
+      ],
+      "explanation": "The complete directory contains identified newspapers and journals/magazines. The allowed 1–3 detailed tags permit the two existing tags together; neither must fit alone. Frequencies are descriptive and do not by themselves distinguish newspapers from journals."
+    },
+    {
+      "key": "china-1923:p0226_1",
+      "tags": [
+        "newspapers",
+        "periodicals"
+      ],
+      "explanation": "The complete directory contains identified newspapers and journals/magazines. The allowed 1–3 detailed tags permit the two existing tags together; neither must fit alone. Frequencies are descriptive and do not by themselves distinguish newspapers from journals."
+    },
+    {
+      "key": "china-1923:p0227_1",
+      "tags": [
+        "newspapers",
+        "periodicals"
+      ],
+      "explanation": "The complete directory contains identified newspapers and journals/magazines. The allowed 1–3 detailed tags permit the two existing tags together; neither must fit alone. Frequencies are descriptive and do not by themselves distinguish newspapers from journals."
+    },
+    {
+      "key": "china-1923:p0231_1",
+      "tags": [
+        "newspapers",
+        "periodicals"
+      ],
+      "explanation": "The complete directory contains identified newspapers and journals/magazines. The allowed 1–3 detailed tags permit the two existing tags together; neither must fit alone. Frequencies are descriptive and do not by themselves distinguish newspapers from journals."
+    },
+    {
+      "key": "china-1923:p0235_1",
+      "tags": [
+        "periodicals"
+      ],
+      "explanation": "All listed entries in this continuation are monthly journals, magazines, institutional bulletins or comparable periodicals; periodicals already covers their titles and publishing."
+    },
+    {
+      "key": "china-1923:p0235_2",
+      "tags": [
+        "newspapers",
+        "periodicals"
+      ],
+      "explanation": "The complete directory contains identified newspapers and journals/magazines. The allowed 1–3 detailed tags permit the two existing tags together; neither must fit alone. Frequencies are descriptive and do not by themselves distinguish newspapers from journals."
+    },
+    {
+      "key": "china-1923:p0236_1",
+      "tags": [
+        "newspapers",
+        "periodicals"
+      ],
+      "explanation": "The complete directory contains identified newspapers and journals/magazines. The allowed 1–3 detailed tags permit the two existing tags together; neither must fit alone. Frequencies are descriptive and do not by themselves distinguish newspapers from journals."
+    },
+    {
+      "key": "china-1923:p0258_1",
+      "tags": [
+        "exports"
+      ],
+      "explanation": "The province-by-product list explicitly gives ports of export and export routes. Exports includes goods classified by commodity and port, including textual inventories. Regional-products is an optional additional discovery concept, not needed to keep this record untagged."
+    },
+    {
+      "key": "china-1923:p0266_1",
+      "tags": [
+        "silk"
+      ],
+      "explanation": "The table measures countries' shares of world raw silk trade. Silk explicitly includes silk fibre and its commerce; the prior rationale itself acknowledges that fit."
+    },
+    {
+      "key": "china-1923:p0673_1",
+      "tags": [
+        "army",
+        "honours-and-ranks"
+      ],
+      "explanation": "The bilingual glossary describes land-force organs, offices, troop types and military ranks. Army covers organisation and units and honours-and-ranks covers the rank system; a glossary-format tag is unnecessary."
+    },
+    {
+      "key": "china-1923:p0674_2",
+      "tags": [
+        "army",
+        "police"
+      ],
+      "explanation": "The glossary identifies army, provincial and reserve forces together with constabulary and water police. The existing subject tags can coexist even though the table is textual and crosses regular/irregular organisation types."
+    },
+    {
+      "key": "china-1923:p0702_2",
+      "tags": [
+        "railways"
+      ],
+      "explanation": "Railway stores and their financial values are a railway asset account. Railways explicitly includes railway accounts, so a separate inventory/account-format tag is unnecessary."
+    },
+    {
+      "key": "china-1923:p1062_1",
+      "tags": [
+        "companies",
+        "constitutions-and-laws"
+      ],
+      "explanation": "The fee schedule governs incorporation, company registration and dissolution under the China Trade Act. Companies covers corporate organisation and forms; constitutions-and-laws covers the substantive legal requirements. These are commercial registration fees, not taxation."
+    },
+    {
+      "key": "china-1923:p1232_1",
+      "tags": [
+        "public-property"
+      ],
+      "explanation": "The record explicitly values public properties in Shantung claimed by Japan, including public utilities, mines and salt fields. Public-property includes government property stocks and asset values; a special valuation-claims tag is not needed here."
+    },
+    {
+      "key": "china-1923:p1253_1",
+      "tags": [
+        "treaties",
+        "foreign-garrisons",
+        "police"
+      ],
+      "explanation": "The context explicitly identifies Article II of the agreement withdrawing Japanese railway troops and replacing them with Chinese police. Treaties covers operation/termination of agreements, foreign-garrisons covers deployment, and police covers the replacement force. Withdrawal does not require a separate tag."
+    },
+    {
+      "key": "china-1924-5:p0053_1",
+      "tags": [
+        "shipping"
+      ],
+      "explanation": "These are sea-route distances between ports. Shipping explicitly includes sea routes; it is not confined to fleet counts or traffic. Route-distances remains an optional narrower, mode-neutral discovery tag."
+    },
+    {
+      "key": "china-1924-5:p0053_3",
+      "tags": [
+        "shipping"
+      ],
+      "explanation": "These are sea-route distances between ports. Shipping explicitly includes sea routes; it is not confined to fleet counts or traffic. Route-distances remains an optional narrower, mode-neutral discovery tag."
+    },
+    {
+      "key": "china-1924-5:p0053_4",
+      "tags": [
+        "shipping"
+      ],
+      "explanation": "These are sea-route distances between ports. Shipping explicitly includes sea routes; it is not confined to fleet counts or traffic. Route-distances remains an optional narrower, mode-neutral discovery tag."
+    },
+    {
+      "key": "china-1924-5:p0054_1",
+      "tags": [
+        "inland-navigation"
+      ],
+      "explanation": "The full context explicitly identifies navigable Yangtze travel routes and inter-port voyage distances. Inland-navigation includes river voyage routes; cargo or vessel-count observations are not required."
+    },
+    {
+      "key": "china-1924-5:p0054_2",
+      "tags": [
+        "shipping"
+      ],
+      "explanation": "These are sea-route distances between ports. Shipping explicitly includes sea routes; it is not confined to fleet counts or traffic. Route-distances remains an optional narrower, mode-neutral discovery tag."
+    },
+    {
+      "key": "china-1924-5:p0165_2",
+      "tags": [
+        "industrial-output"
+      ],
+      "explanation": "These records measure manufactured asbestos articles, not mineral extraction. Industrial-output explicitly covers manufacturing production without a sufficient specific industry tag. Asbestos is an optional more precise material tag, not a reason to withhold the valid aggregate tag."
+    },
+    {
+      "key": "china-1924-5:p0440_1",
+      "tags": [
+        "postal-services",
+        "employment-and-unemployment"
+      ],
+      "explanation": "The table counts postal staff by grade. Postal-services identifies the service and employment-and-unemployment explicitly includes workforce counts by industry or enterprise; a new postal-personnel tag is unnecessary."
+    },
+    {
+      "key": "china-1924-5:p0441_1",
+      "tags": [
+        "employment-and-unemployment",
+        "nationality-and-ethnicity"
+      ],
+      "explanation": "These tables count people employed in the post office by nationality. The substantial nationality breakdown is valid even when the primary topic remains communications/labour; the rules do not require a population topic for a demographic breakdown of workers."
+    },
+    {
+      "key": "china-1924-5:p0457_4",
+      "tags": [
+        "banking",
+        "savings-and-loans"
+      ],
+      "explanation": "The Post Office Savings Bank account holds bank deposits, mortgages and land/buildings. Banking covers bank accounts and financial business, while savings-and-loans covers the deposits and lending; this does not need a new small-coin-account tag."
+    },
+    {
+      "key": "china-1924-5:p0587_1",
+      "tags": [
+        "vegetable-oils"
+      ],
+      "explanation": "Vegetable tallow is a solidified plant oil; the approved vegetable-oils definition explicitly includes solidified vegetable oils. The record does not establish import versus export direction, so no direction tag is proposed."
+    },
+    {
+      "key": "china-1924-5:p0588_1",
+      "tags": [
+        "horticulture"
+      ],
+      "explanation": "Walnuts are orchard/tree-nut crops, and horticulture explicitly includes orchards and fruit/garden crop yields. The broad approved tag is a valid fit without inventing a walnut-only term."
+    },
+    {
+      "key": "china-1924-5:p1012_1",
+      "tags": [
+        "army",
+        "honours-and-ranks"
+      ],
+      "explanation": "The bilingual glossary describes land-force organs, offices, troop types and military ranks. Army covers organisation and units and honours-and-ranks covers the rank system; a glossary-format tag is unnecessary."
+    },
+    {
+      "key": "china-1924-5:p1016_1",
+      "tags": [
+        "army"
+      ],
+      "explanation": "The complete table describes a land-force volunteer corps with headquarters, cavalry, artillery, engineer and machine-gun units and personnel strengths. Army covers land armed forces and their units, without restricting the tag to regular or conscript forces. No new militia tag is required to classify it."
+    },
+    {
+      "key": "china-1925-6:p0079_1",
+      "tags": [
+        "shipping"
+      ],
+      "explanation": "These are sea-route distances between ports. Shipping explicitly includes sea routes; it is not confined to fleet counts or traffic. Route-distances remains an optional narrower, mode-neutral discovery tag."
+    },
+    {
+      "key": "china-1925-6:p0079_2",
+      "tags": [
+        "railways",
+        "shipping"
+      ],
+      "explanation": "The supplied context explicitly describes an overland and rail-sea route via Siberia. The existing route-system tags fit its modes; route-distances would provide a consistent mode-neutral label across the reference matrices."
+    },
+    {
+      "key": "china-1925-6:p0079_3",
+      "tags": [
+        "shipping"
+      ],
+      "explanation": "These are sea-route distances between ports. Shipping explicitly includes sea routes; it is not confined to fleet counts or traffic. Route-distances remains an optional narrower, mode-neutral discovery tag."
+    },
+    {
+      "key": "china-1925-6:p0079_4",
+      "tags": [
+        "shipping"
+      ],
+      "explanation": "These are sea-route distances between ports. Shipping explicitly includes sea routes; it is not confined to fleet counts or traffic. Route-distances remains an optional narrower, mode-neutral discovery tag."
+    },
+    {
+      "key": "china-1925-6:p0080_1",
+      "tags": [
+        "inland-navigation"
+      ],
+      "explanation": "The full context explicitly identifies navigable Yangtze travel routes and inter-port voyage distances. Inland-navigation includes river voyage routes; cargo or vessel-count observations are not required."
+    },
+    {
+      "key": "china-1925-6:p0080_2",
+      "tags": [
+        "shipping"
+      ],
+      "explanation": "These are sea-route distances between ports. Shipping explicitly includes sea routes; it is not confined to fleet counts or traffic. Route-distances remains an optional narrower, mode-neutral discovery tag."
+    },
+    {
+      "key": "china-1925-6:p0189_2",
+      "tags": [
+        "industrial-output"
+      ],
+      "explanation": "These records measure manufactured asbestos articles, not mineral extraction. Industrial-output explicitly covers manufacturing production without a sufficient specific industry tag. Asbestos is an optional more precise material tag, not a reason to withhold the valid aggregate tag."
+    },
+    {
+      "key": "china-1925-6:p0199_1",
+      "tags": [
+        "nationality-and-ethnicity"
+      ],
+      "explanation": "The body explicitly classifies named peoples into source-designated groups and subgroups. Nationality-and-ethnicity includes ethnic community and historical racial classifications, including textual classifications; numerical population totals or governmental policy are not required. The explicit aboriginal subject may separately support the Indigenous-peoples high-level topic."
+    },
+    {
+      "key": "china-1925-6:p0200_1",
+      "tags": [
+        "nationality-and-ethnicity"
+      ],
+      "explanation": "The body explicitly classifies named peoples into source-designated groups and subgroups. Nationality-and-ethnicity includes ethnic community and historical racial classifications, including textual classifications; numerical population totals or governmental policy are not required. The explicit aboriginal subject may separately support the Indigenous-peoples high-level topic."
+    },
+    {
+      "key": "china-1925-6:p0203_1",
+      "tags": [
+        "imperial-household"
+      ],
+      "explanation": "The approved includes list explicitly says royal genealogies and succession. A list of Manchu sovereigns and reigns is dynastic succession, so no new dynasties/ruler-list detailed tag is needed."
+    },
+    {
+      "key": "china-1925-6:p0337_1",
+      "tags": [
+        "customs-revenue"
+      ],
+      "explanation": "Although row labels and many figures are degraded, the supplied raw heading is Customs Revenue of Each Port and the notes identify famine-relief surtax amounts. That context supports the broad customs-revenue subject; retain transcription uncertainty and do not invent port labels or numerical repairs."
+    },
+    {
+      "key": "china-1925-6:p0453_1",
+      "tags": [
+        "employment-and-unemployment",
+        "nationality-and-ethnicity"
+      ],
+      "explanation": "These tables count people employed in the post office by nationality. The substantial nationality breakdown is valid even when the primary topic remains communications/labour; the rules do not require a population topic for a demographic breakdown of workers."
+    },
+    {
+      "key": "china-1925-6:p0458_1",
+      "tags": [
+        "postal-services"
+      ],
+      "explanation": "These are annual operating accounts of the postal service. The underlying service remains the substantive subject; its financial measures do not require a separate postal-finances vocabulary item or a forced public-budgets label."
+    },
+    {
+      "key": "china-1925-6:p0572_1",
+      "tags": [
+        "horticulture"
+      ],
+      "explanation": "Walnuts are orchard/tree-nut crops, and horticulture explicitly includes orchards and fruit/garden crop yields. The broad approved tag is a valid fit without inventing a walnut-only term."
+    },
+    {
+      "key": "china-1925-6:p0649_2",
+      "tags": [
+        "companies"
+      ],
+      "explanation": "The body counts manufacturers of narcotic drugs by country. Companies includes enterprise counts. The record does not name individual substances or establish a medicinal purpose, so the fit does not assume opium, morphine or pharmaceutical use."
+    },
+    {
+      "key": "china-1925-6:p0786_3",
+      "tags": [
+        "public-budgets",
+        "government-offices"
+      ],
+      "explanation": "The table is government expenditure on the offices of military Governors-General. Public-budgets includes public expenditure by service and government-offices includes office allowances. A new military-administrative-office tag is unnecessary."
+    },
+    {
+      "key": "china-1925-6:p0791_1",
+      "tags": [
+        "taxation"
+      ],
+      "explanation": "Octroi is an identified levy, with yearly collections and allocations of receipts. Taxation already covers tax receipts and their distribution; a new octroi-specific term is optional granularity, not a coverage gap."
+    },
+    {
+      "key": "china-1925-6:p1003_2",
+      "tags": [
+        "economic-indicators"
+      ],
+      "explanation": "The compact overview combines budget accounts, imports/exports and shipping. Economic-indicators covers broad summaries across economic domains, not solely index-number tables; no generic territory-summary tag is needed."
+    },
+    {
+      "key": "china-1925-6:p1039_1",
+      "tags": [
+        "currency"
+      ],
+      "explanation": "The records concern government mint operations: daily dollar-coining costs and the mint's closing financial account. Currency covers coins and issuance. A narrower mint tag could be considered in a later whole-corpus commodity refinement, but neither record needs to remain without a subject tag."
+    },
+    {
+      "key": "china-1925-6:p1063_1",
+      "tags": [
+        "currency"
+      ],
+      "explanation": "The records concern government mint operations: daily dollar-coining costs and the mint's closing financial account. Currency covers coins and issuance. A narrower mint tag could be considered in a later whole-corpus commodity refinement, but neither record needs to remain without a subject tag."
+    },
+    {
+      "key": "china-1925-6:p1164_1",
+      "tags": [
+        "newspapers",
+        "periodicals"
+      ],
+      "explanation": "The complete directory contains identified newspapers and journals/magazines. The allowed 1–3 detailed tags permit the two existing tags together; neither must fit alone. Frequencies are descriptive and do not by themselves distinguish newspapers from journals."
+    },
+    {
+      "key": "china-1925-6:p1167_1",
+      "tags": [
+        "newspapers",
+        "periodicals"
+      ],
+      "explanation": "The complete directory contains identified newspapers and journals/magazines. The allowed 1–3 detailed tags permit the two existing tags together; neither must fit alone. Frequencies are descriptive and do not by themselves distinguish newspapers from journals."
+    },
+    {
+      "key": "china-1925-6:p1168_1",
+      "tags": [
+        "newspapers",
+        "periodicals"
+      ],
+      "explanation": "The complete directory contains identified newspapers and journals/magazines. The allowed 1–3 detailed tags permit the two existing tags together; neither must fit alone. Frequencies are descriptive and do not by themselves distinguish newspapers from journals."
+    },
+    {
+      "key": "china-1925-6:p1177_1",
+      "tags": [
+        "newspapers",
+        "periodicals"
+      ],
+      "explanation": "The complete directory contains identified newspapers and journals/magazines. The allowed 1–3 detailed tags permit the two existing tags together; neither must fit alone. Frequencies are descriptive and do not by themselves distinguish newspapers from journals."
+    },
+    {
+      "key": "china-1925-6:p1179_1",
+      "tags": [
+        "newspapers",
+        "periodicals"
+      ],
+      "explanation": "The complete directory contains identified newspapers and journals/magazines. The allowed 1–3 detailed tags permit the two existing tags together; neither must fit alone. Frequencies are descriptive and do not by themselves distinguish newspapers from journals."
+    },
+    {
+      "key": "china-1925-6:p1180_1",
+      "tags": [
+        "newspapers",
+        "periodicals"
+      ],
+      "explanation": "The complete directory contains identified newspapers and journals/magazines. The allowed 1–3 detailed tags permit the two existing tags together; neither must fit alone. Frequencies are descriptive and do not by themselves distinguish newspapers from journals."
+    },
+    {
+      "key": "china-1925-6:p1183_1",
+      "tags": [
+        "newspapers",
+        "periodicals"
+      ],
+      "explanation": "The complete directory contains identified newspapers and journals/magazines. The allowed 1–3 detailed tags permit the two existing tags together; neither must fit alone. Frequencies are descriptive and do not by themselves distinguish newspapers from journals."
+    },
+    {
+      "key": "china-1925-6:p1184_1",
+      "tags": [
+        "newspapers",
+        "periodicals"
+      ],
+      "explanation": "The complete directory contains identified newspapers and journals/magazines. The allowed 1–3 detailed tags permit the two existing tags together; neither must fit alone. Frequencies are descriptive and do not by themselves distinguish newspapers from journals."
+    },
+    {
+      "key": "china-1925-6:p1187_1",
+      "tags": [
+        "newspapers",
+        "periodicals"
+      ],
+      "explanation": "The complete directory contains identified newspapers and journals/magazines. The allowed 1–3 detailed tags permit the two existing tags together; neither must fit alone. Frequencies are descriptive and do not by themselves distinguish newspapers from journals."
+    },
+    {
+      "key": "china-1925-6:p1187_2",
+      "tags": [
+        "newspapers",
+        "periodicals"
+      ],
+      "explanation": "The complete directory contains identified newspapers and journals/magazines. The allowed 1–3 detailed tags permit the two existing tags together; neither must fit alone. Frequencies are descriptive and do not by themselves distinguish newspapers from journals."
+    },
+    {
+      "key": "china-1925-6:p1277_1",
+      "tags": [
+        "army",
+        "police"
+      ],
+      "explanation": "The source explicitly places the gendarmerie under the army and separately lists salt and water police units, commanders, stations and total strength. Both existing subjects are supported; a separate military-police tag is not required for coverage."
+    },
+    {
+      "key": "china-1925-6:p1303_1",
+      "tags": [
+        "army",
+        "honours-and-ranks"
+      ],
+      "explanation": "The bilingual glossary describes land-force organs, offices, troop types and military ranks. Army covers organisation and units and honours-and-ranks covers the rank system; a glossary-format tag is unnecessary."
+    },
+    {
+      "key": "china-1925-6:p1304_2",
+      "tags": [
+        "army",
+        "police"
+      ],
+      "explanation": "The glossary identifies army, provincial and reserve forces together with constabulary and water police. The existing subject tags can coexist even though the table is textual and crosses regular/irregular organisation types."
+    },
+    {
+      "key": "china-1926-7:p0062_1",
+      "tags": [
+        "shipping"
+      ],
+      "explanation": "These are sea-route distances between ports. Shipping explicitly includes sea routes; it is not confined to fleet counts or traffic. Route-distances remains an optional narrower, mode-neutral discovery tag."
+    },
+    {
+      "key": "china-1926-7:p0062_3",
+      "tags": [
+        "shipping"
+      ],
+      "explanation": "These are sea-route distances between ports. Shipping explicitly includes sea routes; it is not confined to fleet counts or traffic. Route-distances remains an optional narrower, mode-neutral discovery tag."
+    },
+    {
+      "key": "china-1926-7:p0062_4",
+      "tags": [
+        "shipping"
+      ],
+      "explanation": "These are sea-route distances between ports. Shipping explicitly includes sea routes; it is not confined to fleet counts or traffic. Route-distances remains an optional narrower, mode-neutral discovery tag."
+    },
+    {
+      "key": "china-1926-7:p0063_1",
+      "tags": [
+        "inland-navigation"
+      ],
+      "explanation": "The full context explicitly identifies navigable Yangtze travel routes and inter-port voyage distances. Inland-navigation includes river voyage routes; cargo or vessel-count observations are not required."
+    },
+    {
+      "key": "china-1926-7:p0063_2",
+      "tags": [
+        "shipping"
+      ],
+      "explanation": "These are sea-route distances between ports. Shipping explicitly includes sea routes; it is not confined to fleet counts or traffic. Route-distances remains an optional narrower, mode-neutral discovery tag."
+    },
+    {
+      "key": "china-1926-7:p0156_2",
+      "tags": [
+        "industrial-output"
+      ],
+      "explanation": "These records measure manufactured asbestos articles, not mineral extraction. Industrial-output explicitly covers manufacturing production without a sufficient specific industry tag. Asbestos is an optional more precise material tag, not a reason to withhold the valid aggregate tag."
+    },
+    {
+      "key": "china-1926-7:p0343_1",
+      "tags": [
+        "railways",
+        "securities-and-investment"
+      ],
+      "explanation": "This capital-and-invested-surplus account is explicitly a railway account; railways already includes accounts. Securities-and-investment covers the capital structure. A new railway-finance tag would duplicate that combination."
+    },
+    {
+      "key": "china-1926-7:p0397_1",
+      "tags": [
+        "postal-services"
+      ],
+      "explanation": "These are annual operating accounts of the postal service. The underlying service remains the substantive subject; its financial measures do not require a separate postal-finances vocabulary item or a forced public-budgets label."
+    },
+    {
+      "key": "china-1926-7:p0399_1",
+      "tags": [
+        "postal-services"
+      ],
+      "explanation": "Counts of foreign postal agencies closed are a postal-network establishment measure. Postal-services includes post offices and network facilities; closure under an international resolution does not require a new foreign-post-offices tag."
+    }
+  ],
+  "deferred": [
+    {
+      "key": "china-1925-6:p1022_1",
+      "reason": "The body provides unlabeled half-yearly index values and the context does not name the quantity. The raw heading mentions copper coins/banknotes, but it does not establish whether the measure is an exchange rate, price index or another monetary indicator. A new generic index tag would hide the missing subject; leave for source-context clarification without OCR or numeric repair."
+    },
+    {
+      "key": "china-1926-7:p0153_1",
+      "reason": "The table says only Yu Seng Co. output, with years and quantities but no product or units. Its section spans molybdenum, bismuth, arsenic and petroleum and does not establish extraction versus manufacture. Do not invent a material-specific tag or a new unknown-output subject; the missing identity needs source-context clarification."
+    }
+  ],
+  "recommendations": [
+    "Do not add a combined newspapers-and-periodicals tag: the two approved tags can be assigned together. Several directories are solely newspaper or solely periodical lists.",
+    "Do not add format-specific glossary, postal-staff, railway-finance or foreign-post-office tags to solve these cases: existing subject tags suffice.",
+    "Imperial-household explicitly includes succession; no dynastic-ruler-list addition is needed for this batch.",
+    "Treat route-distances and asbestos as precision refinements where an existing broader tag is valid, rather than compulsory new vocabulary for every associated record.",
+    "Do not alter saved Sonnet/direct assignments automatically from this advisory review."
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "vocabulary_version": "1.1.0-optional-details",
+  "assignments": {
+    "china-1916:p0083_1": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "exports",
+        "oilseeds"
+      ],
+      "flags": [],
+      "rationale": "Annual ground-nut export quantities in tons, 1910-1914; ground-nuts are listed as oilseeds.",
+      "review_questions": []
+    },
+    "china-1916:p0083_2": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "exports",
+        "camphor"
+      ],
+      "flags": [],
+      "rationale": "Camphor export quantities in lb., 1908-1914.",
+      "review_questions": []
+    },
+    "china-1916:p0084_1": {
+      "topics": [
+        "trade",
+        "health"
+      ],
+      "tags": [
+        "prices"
+      ],
+      "flags": [],
+      "rationale": "Medicinal plant materials with prices per 100 lb. and annual quantities available, supplied by the Chungking Chamber of Commerce. Prices are a substantive column, and the materials are medicinal.",
+      "review_questions": [
+        "No vocabulary tag fits medicinal plant materials or herbs as a commodity; consider proposing 'medicinal-plants'."
+      ]
+    },
+    "china-1916:p0084_2": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "exports"
+      ],
+      "flags": [],
+      "rationale": "Strawbraid export quantities and values, 1910-1914.",
+      "review_questions": [
+        "No vocabulary tag covers strawbraid or straw plaiting; consider proposing one."
+      ]
+    },
+    "china-1916:p0084_3": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "exports"
+      ],
+      "flags": [],
+      "rationale": "Percentage shares of strawbraid exports going to France, Great Britain and the United States, by year.",
+      "review_questions": [
+        "No vocabulary tag covers strawbraid; consider proposing one."
+      ]
+    },
+    "china-1916:p0085_1": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "exports"
+      ],
+      "flags": [],
+      "rationale": "Green bean export volumes in lb., 1910-1914.",
+      "review_questions": [
+        "No vocabulary tag covers green beans or pulses; consider proposing 'pulses'."
+      ]
+    },
+    "china-1916:p0085_2": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "sugar"
+      ],
+      "flags": [],
+      "rationale": "Movement of brown and white sugar through the Customs, in cwt., 1909-1914.",
+      "review_questions": []
+    },
+    "china-1916:p0085_3": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "wheat"
+      ],
+      "flags": [],
+      "rationale": "Movement of flour through Customs stations, in cwt., 1909-1914, given in the wheat section of the source.",
+      "review_questions": [
+        "Flour is a processed wheat product; the wheat tag is only an approximate fit. Consider proposing a flour tag."
+      ]
+    },
+    "china-1916:p0086_1": {
+      "topics": [
+        "mining"
+      ],
+      "tags": [
+        "mineral-production"
+      ],
+      "flags": [],
+      "rationale": "Acreage, 1914 production and number of proprietors for each of several minerals, a multi-mineral summary.",
+      "review_questions": []
+    },
+    "china-1916:p0087_1": {
+      "topics": [
+        "mining"
+      ],
+      "tags": [
+        "coal"
+      ],
+      "flags": [],
+      "rationale": "Estimated coal production by province and coal type (anthracite, bituminous, lignite).",
+      "review_questions": [
+        "The printed bituminous total does not add up; figures are kept as read."
+      ]
+    }
+  }
+}

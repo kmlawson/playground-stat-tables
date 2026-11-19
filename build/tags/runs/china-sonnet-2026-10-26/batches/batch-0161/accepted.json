@@ -1,0 +1,121 @@
+{
+  "vocabulary_version": "1.1.0-optional-details",
+  "assignments": {
+    "china-1913:p0075_2": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "food-processing"
+      ],
+      "flags": [],
+      "rationale": "Yearly movement of flour through Customs stations in bushels, 1907-1911. This is a commodity movement, so trade is the principal subject. No flour-specific tag exists; food-processing is the nearest fit, since flour is a processed product.",
+      "review_questions": [
+        "Should a flour or wheat-products tag be added, given that no flour tag exists in the vocabulary?"
+      ]
+    },
+    "china-1913:p0076_1": {
+      "topics": [
+        "mining"
+      ],
+      "tags": [
+        "coal"
+      ],
+      "flags": [],
+      "rationale": "Coal output in tons for the Fangtze and Hungshan collieries of the Schantung Bergbau Gesellschaft, 1909-10 and 1910-11.",
+      "review_questions": []
+    },
+    "china-1913:p0076_2": {
+      "topics": [
+        "finance",
+        "mining"
+      ],
+      "tags": [
+        "companies"
+      ],
+      "flags": [],
+      "rationale": "Net revenue in marks of a mining company after management and output expenses. These are company financial results, so finance comes first, with mining as the activity.",
+      "review_questions": []
+    },
+    "china-1913:p0077_1": {
+      "topics": [
+        "mining"
+      ],
+      "tags": [
+        "coal"
+      ],
+      "flags": [],
+      "rationale": "Annual coal output in tons of the South Manchuria Railway colliery over three years.",
+      "review_questions": []
+    },
+    "china-1913:p0078_1": {
+      "topics": [
+        "transportation"
+      ],
+      "tags": [
+        "shipping"
+      ],
+      "flags": [],
+      "rationale": "Lists two steamers owned by the Kaiping mining administration, with registered tonnage and carrying capacity. This is fleet information.",
+      "review_questions": []
+    },
+    "china-1913:p0083_1": {
+      "topics": [
+        "mining"
+      ],
+      "tags": [
+        "iron-ore",
+        "manganese"
+      ],
+      "flags": [],
+      "rationale": "Output of magnetic and manganese ore at the Tayeh iron mines, 1909-1910.",
+      "review_questions": []
+    },
+    "china-1913:p0083_2": {
+      "topics": [
+        "manufacturing"
+      ],
+      "tags": [
+        "iron-and-steel"
+      ],
+      "flags": [],
+      "rationale": "Working results of the Han Yeh Ping company: pig-iron and rail output, shipments by destination and sales in tons.",
+      "review_questions": []
+    },
+    "china-1913:p0083_3": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "exports",
+        "iron-ore"
+      ],
+      "flags": [],
+      "rationale": "Customs-recorded exports of iron ore and pig-iron in 1911, split between foreign and Chinese ports.",
+      "review_questions": []
+    },
+    "china-1913:p0087_1": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "exports",
+        "antimony"
+      ],
+      "flags": [],
+      "rationale": "Antimony exports from Changsha as regulus, crude and ore, 1907-1911.",
+      "review_questions": []
+    },
+    "china-1913:p0088_1": {
+      "topics": [
+        "mining"
+      ],
+      "tags": [
+        "mining-rights-and-concessions"
+      ],
+      "flags": [],
+      "rationale": "List of mining permits issued by the Ministry of Commerce and Industry, giving company, locality, mineral, capital, nationality and date. It mixes text with capital amounts, so it is a statistical table.",
+      "review_questions": []
+    }
+  }
+}

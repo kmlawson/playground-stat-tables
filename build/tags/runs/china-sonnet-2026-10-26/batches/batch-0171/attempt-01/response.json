@@ -1,0 +1,129 @@
+{
+  "vocabulary_version": "1.1.0-optional-details",
+  "assignments": {
+    "china-1913:p0174_1": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "exports"
+      ],
+      "flags": [],
+      "rationale": "Native goods exported 1907-1908 by commodity with quantities and values, covering minerals, oils, silk and others. A multi-commodity export table, so the broad exports tag fits.",
+      "review_questions": []
+    },
+    "china-1913:p0175_1": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "imports"
+      ],
+      "flags": [],
+      "rationale": "Quantities and values by commodity from foreign countries for 1909-1911, with the row labels missing from the transcription. Titled Foreign Countries, with an imports context, so imports is the supported tag.",
+      "review_questions": [
+        "Row labels are absent; whether this is imports or exports is inferred from the context note."
+      ]
+    },
+    "china-1913:p0176_1": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "exports"
+      ],
+      "flags": [],
+      "rationale": "Native goods exported in 1907 and 1908, covering skins, furs, sugar, tallow and tea, with quantities and values. A general exports table.",
+      "review_questions": []
+    },
+    "china-1913:p0177_1": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "imports"
+      ],
+      "flags": [],
+      "rationale": "Continuation of the foreign-country trade statistics for 1909-1911 with quantities and values but no row labels. Treated as imports per the context.",
+      "review_questions": [
+        "Row labels are absent; whether this is imports or exports is inferred from the context note."
+      ]
+    },
+    "china-1913:p0178_1": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "exports"
+      ],
+      "flags": [],
+      "rationale": "Native goods exports 1907-1908 for timber, tobacco, wool and others, with a grand total and junk-trade notes.",
+      "review_questions": []
+    },
+    "china-1913:p0178_2": {
+      "topics": [
+        "trade",
+        "narcotics"
+      ],
+      "tags": [
+        "opium",
+        "imports"
+      ],
+      "flags": [],
+      "rationale": "Net opium importation in piculs by treaty port, 1901-1905. The subject is opium imports.",
+      "review_questions": []
+    },
+    "china-1913:p0179_1": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "imports"
+      ],
+      "flags": [],
+      "rationale": "Continuation of the foreign-country trade table for 1909-1911 with grand totals and junk-trade footnotes. No row labels are printed.",
+      "review_questions": [
+        "Row labels are absent; whether this is imports or exports is inferred."
+      ]
+    },
+    "china-1913:p0179_2": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "imports"
+      ],
+      "flags": [],
+      "rationale": "Quantity in piculs imported into each port 1906-1911. The commodity is not named, but the adjacent opium tables suggest opium and the table is an import series.",
+      "review_questions": [
+        "The commodity is not named in the title; it is probably opium, continuing the net importation series."
+      ]
+    },
+    "china-1913:p0180_1": {
+      "topics": [
+        "trade",
+        "narcotics"
+      ],
+      "tags": [
+        "opium",
+        "imports"
+      ],
+      "flags": [],
+      "rationale": "Net opium importation in piculs at each port for 1901-1905, with totals.",
+      "review_questions": []
+    },
+    "china-1913:p0180_2": {
+      "topics": [
+        "trade",
+        "narcotics"
+      ],
+      "tags": [
+        "opium",
+        "imports"
+      ],
+      "flags": [],
+      "rationale": "Annual net importation of Malwa, Patna, Benares and Persian opium 1906-1911.",
+      "review_questions": []
+    }
+  }
+}

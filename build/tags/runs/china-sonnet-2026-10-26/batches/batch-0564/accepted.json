@@ -1,0 +1,127 @@
+{
+  "vocabulary_version": "1.1.0-optional-details",
+  "assignments": {
+    "china-1929-30:p0002_1": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "companies"
+      ],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "Advertisement listing firms and the products they supply (sole agencies); textual, with no quantities. Commercial company-product listing.",
+      "review_questions": [
+        "Is an advertisement page better handled by a dedicated advertising or non-table classification?"
+      ]
+    },
+    "china-1929-30:p0012_1": {
+      "topics": [
+        "press"
+      ],
+      "tags": [],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "Preface list of contributors and the subjects they wrote; textual acknowledgements with no statistical content. No existing tag fits the publication's own editorial credits.",
+      "review_questions": [
+        "Propose a tag for book front matter or editorial credits."
+      ]
+    },
+    "china-1929-30:p0013_1": {
+      "topics": [
+        "trade",
+        "finance"
+      ],
+      "tags": [
+        "tariffs"
+      ],
+      "flags": [],
+      "rationale": "Amended customs import tariff duty rates for motor vehicles (ad valorem 12½% and 22½%), a tariff schedule.",
+      "review_questions": []
+    },
+    "china-1929-30:p0024_1": {
+      "topics": [
+        "geography"
+      ],
+      "tags": [
+        "land-area"
+      ],
+      "flags": [],
+      "rationale": "Area in square miles of China Proper, Mongolia, Turkestan and Tibet, totalling the estimated Chinese territory.",
+      "review_questions": []
+    },
+    "china-1929-30:p0024_2": {
+      "topics": [
+        "population"
+      ],
+      "tags": [
+        "households"
+      ],
+      "flags": [],
+      "rationale": "Number of families by division from the 1910 Ministry of Interior census.",
+      "review_questions": []
+    },
+    "china-1929-30:p0025_1": {
+      "topics": [
+        "population"
+      ],
+      "tags": [
+        "population-totals"
+      ],
+      "flags": [],
+      "rationale": "Population by division derived from the 1910 census family counts using household multiples, with a total.",
+      "review_questions": []
+    },
+    "china-1929-30:p0025_2": {
+      "topics": [
+        "population"
+      ],
+      "tags": [
+        "population-totals"
+      ],
+      "flags": [],
+      "rationale": "Estimated total population of China at various dates from 1381 to 1923.",
+      "review_questions": []
+    },
+    "china-1929-30:p0026_1": {
+      "topics": [
+        "population",
+        "geography"
+      ],
+      "tags": [
+        "population-totals",
+        "land-area"
+      ],
+      "flags": [],
+      "rationale": "Provincial area, population in the 1885 and 1910 censuses and the 1926 Post Office estimate, with density per square mile.",
+      "review_questions": []
+    },
+    "china-1929-30:p0027_1": {
+      "topics": [
+        "population",
+        "geography"
+      ],
+      "tags": [
+        "population-totals",
+        "land-area"
+      ],
+      "flags": [],
+      "rationale": "Comparison of area and population between China and other countries, including density-relevant totals.",
+      "review_questions": []
+    },
+    "china-1929-30:p0027_2": {
+      "topics": [
+        "population"
+      ],
+      "tags": [
+        "nationality-and-ethnicity",
+        "overseas-communities"
+      ],
+      "flags": [],
+      "rationale": "Foreign residents in China by nationality, with firms and persons, from a Customs estimate.",
+      "review_questions": []
+    }
+  }
+}

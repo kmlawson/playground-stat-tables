@@ -1,0 +1,133 @@
+{
+  "vocabulary_version": "1.1.0-optional-details",
+  "assignments": {
+    "china-1929-30:p0188_1": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "imports",
+        "exports"
+      ],
+      "flags": [],
+      "rationale": "Weihaiwei imports and exports by principal article with changes on 1926; a multi-commodity trade table, so imports and exports are tagged.",
+      "review_questions": []
+    },
+    "china-1929-30:p0189_1": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "customs-revenue"
+      ],
+      "flags": [],
+      "rationale": "Native Customs revenue by year, with junk dues, fines and a famine relief surtax, is a customs revenue series.",
+      "review_questions": []
+    },
+    "china-1929-30:p0190_1": {
+      "topics": [
+        "informal-imperialism",
+        "trade"
+      ],
+      "tags": [
+        "treaty-ports"
+      ],
+      "flags": [],
+      "rationale": "Customs ports listed with opening date and treaty basis, plus estimated population; organised around the treaty-port system. The population column is quantitative, so no text flag.",
+      "review_questions": []
+    },
+    "china-1929-30:p0192_1": {
+      "topics": [
+        "informal-imperialism",
+        "trade"
+      ],
+      "tags": [
+        "treaty-ports"
+      ],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "Places opened to trade by agreement, listed by province and treaty or decree; textual list with no quantities.",
+      "review_questions": []
+    },
+    "china-1929-30:p0192_2": {
+      "topics": [
+        "transportation",
+        "informal-imperialism"
+      ],
+      "tags": [
+        "treaty-ports"
+      ],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "Ports of call on Yangtze and West River stages for passengers and cargo, with treaty authority; textual list.",
+      "review_questions": [
+        "Is a river-stage or ports-of-call tag needed? Inland-navigation could fit but is not clearly about operations."
+      ]
+    },
+    "china-1929-30:p0193_1": {
+      "topics": [
+        "informal-imperialism"
+      ],
+      "tags": [
+        "foreign-concessions"
+      ],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "Textual list of foreign settlements and concessions by port with founding dates and rendition notes.",
+      "review_questions": []
+    },
+    "china-1929-30:p0196_1": {
+      "topics": [
+        "foreign-relations"
+      ],
+      "tags": [
+        "treaties"
+      ],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "Chronological list of China's treaties with each power and their subject matter; textual reference list.",
+      "review_questions": []
+    },
+    "china-1929-30:p0204_1": {
+      "topics": [
+        "foreign-relations"
+      ],
+      "tags": [
+        "treaties"
+      ],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "List of treaties and agreements between other powers relating to China, with dates and subjects; textual.",
+      "review_questions": []
+    },
+    "china-1929-30:p0206_1": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "exports",
+        "livestock"
+      ],
+      "flags": [],
+      "rationale": "Exports of live cattle, pigs, sheep and other animals in numbers and values for 1925-1927.",
+      "review_questions": []
+    },
+    "china-1929-30:p0207_1": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "exports",
+        "wool"
+      ],
+      "flags": [],
+      "rationale": "Exports of camel's wool, goat's hair and sheep's wool in quantity and value, 1925-1927.",
+      "review_questions": []
+    }
+  }
+}

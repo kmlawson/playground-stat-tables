@@ -1,0 +1,122 @@
+{
+  "vocabulary_version": "1.1.0-optional-details",
+  "assignments": {
+    "china-peking-1921:p0535_1": {
+      "topics": [
+        "population"
+      ],
+      "tags": [
+        "age-and-sex",
+        "marriage-and-divorce"
+      ],
+      "flags": [],
+      "rationale": "Unmarried church members over 15 by age and sex for three Peking churches; demographic age, sex and marital-status content.",
+      "review_questions": []
+    },
+    "china-peking-1921:p0535_2": {
+      "topics": [
+        "population"
+      ],
+      "tags": [
+        "births-and-deaths"
+      ],
+      "flags": [],
+      "rationale": "Births, deaths and birth and death rates over five years for three church communities; vital statistics.",
+      "review_questions": []
+    },
+    "china-peking-1921:p0536_1": {
+      "topics": [
+        "population",
+        "health"
+      ],
+      "tags": [
+        "infant-mortality",
+        "births-and-deaths"
+      ],
+      "flags": [],
+      "rationale": "Births and deaths of children in Ch'i Hua Men families, with survivors and family distributions; titled infant mortality.",
+      "review_questions": [
+        "Table covers child deaths generally, not strictly infants under one year; is infant-mortality an acceptable fit?"
+      ]
+    },
+    "china-peking-1921:p0536_2": {
+      "topics": [
+        "welfare"
+      ],
+      "tags": [
+        "household-budgets"
+      ],
+      "flags": [],
+      "rationale": "Church families classified by yearly income band. No dedicated income-distribution tag exists; household-budgets is the nearest but income only, not expenditure.",
+      "review_questions": [
+        "Propose an income-distribution tag; household-budgets is only an approximate fit."
+      ]
+    },
+    "china-peking-1921:p0536_3": {
+      "topics": [
+        "population"
+      ],
+      "tags": [
+        "occupations"
+      ],
+      "flags": [],
+      "rationale": "Church members classified by occupation, with counts for each calling.",
+      "review_questions": []
+    },
+    "china-peking-1921:p0537_1": {
+      "topics": [
+        "labour"
+      ],
+      "tags": [
+        "working-conditions"
+      ],
+      "flags": [],
+      "rationale": "Church members by daily hours of work, by church and in total.",
+      "review_questions": []
+    },
+    "china-peking-1921:p0537_2": {
+      "topics": [
+        "welfare"
+      ],
+      "tags": [
+        "housing"
+      ],
+      "flags": [],
+      "rationale": "Church families who own or rent their homes; housing tenure.",
+      "review_questions": []
+    },
+    "china-peking-1921:p0538_1": {
+      "topics": [
+        "welfare"
+      ],
+      "tags": [
+        "housing"
+      ],
+      "flags": [],
+      "rationale": "Total and rented homes in five American cities, 1910 census, as comparison with home tenure of Peking church families.",
+      "review_questions": []
+    },
+    "china-peking-1921:p0538_2": {
+      "topics": [
+        "welfare"
+      ],
+      "tags": [
+        "housing"
+      ],
+      "flags": [],
+      "rationale": "Monthly rent paid by renting church families, in bands; housing costs.",
+      "review_questions": []
+    },
+    "china-peking-1921:p0538_3": {
+      "topics": [
+        "welfare"
+      ],
+      "tags": [
+        "housing"
+      ],
+      "flags": [],
+      "rationale": "Monthly rent per room paid by church families, in bands; housing conditions.",
+      "review_questions": []
+    }
+  }
+}

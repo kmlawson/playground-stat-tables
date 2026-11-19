@@ -1,0 +1,119 @@
+{
+  "vocabulary_version": "1.1.0-optional-details",
+  "assignments": {
+    "china-1922:p0049_1": {
+      "topics": [
+        "geography",
+        "population"
+      ],
+      "tags": [
+        "land-area",
+        "population-totals"
+      ],
+      "flags": [],
+      "rationale": "Compares China's area in square miles and population with other countries, so land-area and population-totals fit.",
+      "review_questions": []
+    },
+    "china-1922:p0049_2": {
+      "topics": [
+        "population"
+      ],
+      "tags": [
+        "nationality-and-ethnicity"
+      ],
+      "flags": [],
+      "rationale": "Foreign residents in China by nationality, with firms and persons counts; the nationality breakdown is the substantive subject.",
+      "review_questions": []
+    },
+    "china-1922:p0050_1": {
+      "topics": [
+        "geography"
+      ],
+      "tags": [],
+      "flags": [],
+      "rationale": "Triangular nautical-mile distance table between world ports from London to Yokohama; no vocabulary tag covers distances.",
+      "review_questions": [
+        "Propose a tag such as 'distances' for geographic distance tables."
+      ]
+    },
+    "china-1922:p0050_2": {
+      "topics": [
+        "geography"
+      ],
+      "tags": [],
+      "flags": [],
+      "rationale": "Triangular table of distances via the Siberian route between European and Chinese places; no suitable detailed tag.",
+      "review_questions": [
+        "Propose a 'distances' tag."
+      ]
+    },
+    "china-1922:p0050_3": {
+      "topics": [
+        "geography"
+      ],
+      "tags": [],
+      "flags": [],
+      "rationale": "Coast distances between Chinese coastal ports in a triangular table; no distance tag exists.",
+      "review_questions": [
+        "Propose a 'distances' tag."
+      ]
+    },
+    "china-1922:p0050_4": {
+      "topics": [
+        "geography"
+      ],
+      "tags": [],
+      "flags": [],
+      "rationale": "Coast distances among northern Chinese ports; the content is distances only, with no fitting tag.",
+      "review_questions": [
+        "Propose a 'distances' tag."
+      ]
+    },
+    "china-1922:p0051_1": {
+      "topics": [
+        "geography"
+      ],
+      "tags": [],
+      "flags": [],
+      "rationale": "Distances between places along the Yangtze from Shanghai to Chungking; they are distances, not river physical description or navigation measures.",
+      "review_questions": [
+        "Propose a 'distances' tag; consider whether rivers-and-waterways applies."
+      ]
+    },
+    "china-1922:p0051_2": {
+      "topics": [
+        "geography"
+      ],
+      "tags": [],
+      "flags": [],
+      "rationale": "Short list of mileages from Shanghai to northern and Japanese ports; no fitting detailed tag.",
+      "review_questions": [
+        "Propose a 'distances' tag."
+      ]
+    },
+    "china-1922:p0052_1": {
+      "topics": [
+        "geography"
+      ],
+      "tags": [
+        "physical-geography"
+      ],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "Textual gazetteer of coastal places and features along the China coast, with descriptions and some treaty-port and leased-territory notes; mainly geographic description.",
+      "review_questions": []
+    },
+    "china-1922:p0053_1": {
+      "topics": [
+        "geography"
+      ],
+      "tags": [
+        "physical-geography"
+      ],
+      "flags": [],
+      "rationale": "Mountain ranges of the Tienshan chain with peaks and heights, a physical geography measurement.",
+      "review_questions": []
+    }
+  }
+}

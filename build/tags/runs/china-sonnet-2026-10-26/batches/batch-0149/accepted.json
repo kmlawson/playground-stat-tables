@@ -1,0 +1,128 @@
+{
+  "vocabulary_version": "1.1.0-optional-details",
+  "assignments": {
+    "china-1919:p0483_1": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "courts"
+      ],
+      "flags": [],
+      "rationale": "Counts of courts and procurator's courts, established and yet to be established, by court type; judicial institutions.",
+      "review_questions": []
+    },
+    "china-1919:p0484_1": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "prisons"
+      ],
+      "flags": [],
+      "rationale": "List of provincial prisons, whether established or projected, with construction, inauguration and annual expenditure costs.",
+      "review_questions": []
+    },
+    "china-1919:p0492_1": {
+      "topics": [
+        "religion"
+      ],
+      "tags": [],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "List of gifts (silver, satin, scarves, saddles) from the Throne to a visiting Dalai Lama. Counts are item quantities within a descriptive list; the content is essentially textual. No existing tag covers ceremonial gifts or tribute relations.",
+      "review_questions": [
+        "Propose a tag for tribute and ceremonial gifts or Tibet relations. Should this table sit under religion or foreign-relations?"
+      ]
+    },
+    "china-1919:p0500_1": {
+      "topics": [
+        "religion"
+      ],
+      "tags": [
+        "religious-institutions",
+        "missions"
+      ],
+      "flags": [],
+      "rationale": "Protestant mission centres, stations, out-stations, congregations and places of worship by province; missionary and institutional establishments.",
+      "review_questions": []
+    },
+    "china-1919:p0500_2": {
+      "topics": [
+        "religion"
+      ],
+      "tags": [
+        "missions",
+        "christianity"
+      ],
+      "flags": [],
+      "rationale": "Protestant missionaries distributed by province and mission society or denomination.",
+      "review_questions": []
+    },
+    "china-1919:p0501_1": {
+      "topics": [
+        "religion"
+      ],
+      "tags": [
+        "christianity",
+        "missions"
+      ],
+      "flags": [],
+      "rationale": "Chinese Christian workers by province: clergy, evangelists, Bible women, teachers, physicians, nurses. These are church staff counts.",
+      "review_questions": [
+        "Mixed clergy, teaching and medical staff; is a vocabulary tag for church personnel needed?"
+      ]
+    },
+    "china-1919:p0501_2": {
+      "topics": [
+        "religion"
+      ],
+      "tags": [
+        "christianity",
+        "religious-affiliation"
+      ],
+      "flags": [],
+      "rationale": "Chinese Protestant community by province: communicants, baptized non-communicants, Christian constituency and Sunday school scholars, with provincial population.",
+      "review_questions": []
+    },
+    "china-1919:p0502_1": {
+      "topics": [
+        "religion"
+      ],
+      "tags": [
+        "christianity",
+        "religious-affiliation"
+      ],
+      "flags": [],
+      "rationale": "Provincial Protestant Christian constituency figures with unlabelled numbered columns, with totals of communicants and related categories per notes and context.",
+      "review_questions": [
+        "Column headings are only numbers 1-7; their meanings are inferred from context."
+      ]
+    },
+    "china-1919:p0502_2": {
+      "topics": [
+        "religion"
+      ],
+      "tags": [
+        "christianity",
+        "religious-affiliation"
+      ],
+      "flags": [],
+      "rationale": "Communicant membership by province and church body (Anglican, Baptist, Methodist, Presbyterian, C.I.M., etc.).",
+      "review_questions": []
+    },
+    "china-1919:p0503_1": {
+      "topics": [
+        "education",
+        "religion"
+      ],
+      "tags": [
+        "mission-schools"
+      ],
+      "flags": [],
+      "rationale": "Mission educational work by province: foreign and Chinese teachers and pupils in kindergarten, elementary and middle schools.",
+      "review_questions": []
+    }
+  }
+}

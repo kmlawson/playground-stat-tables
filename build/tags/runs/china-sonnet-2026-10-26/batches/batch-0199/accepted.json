@@ -1,0 +1,137 @@
+{
+  "vocabulary_version": "1.1.0-optional-details",
+  "assignments": {
+    "china-1916:p0121_1": {
+      "topics": [
+        "press"
+      ],
+      "tags": [],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "Directory of printing establishments (names and locations), including newspaper and mission presses; no statistical quantities. No tag cleanly covers printing presses as a group.",
+      "review_questions": [
+        "Propose a 'printing and publishing establishments' tag?"
+      ]
+    },
+    "china-1916:p0121_2": {
+      "topics": [
+        "manufacturing"
+      ],
+      "tags": [
+        "machinery"
+      ],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "List of railway workshops and works with locations; these are locomotive and car shops, which fit machinery manufacture. Purely textual.",
+      "review_questions": []
+    },
+    "china-1916:p0121_3": {
+      "topics": [
+        "manufacturing"
+      ],
+      "tags": [
+        "rice-milling"
+      ],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "List of rice hulling and cleaning mills with locations; the footnote gives only incidental mill counts.",
+      "review_questions": []
+    },
+    "china-1916:p0121_4": {
+      "topics": [
+        "manufacturing"
+      ],
+      "tags": [
+        "timber"
+      ],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "Titled Rope Factories, but the rows are mostly saw mills and timber firms, with one rope company. The table is a textual list of names and locations, and timber is the dominant content.",
+      "review_questions": [
+        "Transcription appears to merge the rope factory list with a saw mill list; is the title mismatched?"
+      ]
+    },
+    "china-1916:p0122_1": {
+      "topics": [
+        "manufacturing"
+      ],
+      "tags": [
+        "silk"
+      ],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "List of silk filatures with names and locations. Textual only.",
+      "review_questions": []
+    },
+    "china-1916:p0124_1": {
+      "topics": [
+        "manufacturing"
+      ],
+      "tags": [
+        "chemicals"
+      ],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "Continued list of soap and candle factories with locations. The chemicals tag covers soap.",
+      "review_questions": []
+    },
+    "china-1916:p0124_2": {
+      "topics": [
+        "manufacturing"
+      ],
+      "tags": [
+        "sugar"
+      ],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "List of sugar refineries and locations; the note on Amoy factories is not quantitative.",
+      "review_questions": []
+    },
+    "china-1916:p0124_3": {
+      "topics": [
+        "manufacturing"
+      ],
+      "tags": [
+        "tea"
+      ],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "List of tea factories and their locations. Textual only.",
+      "review_questions": []
+    },
+    "china-1916:p0124_4": {
+      "topics": [
+        "manufacturing"
+      ],
+      "tags": [
+        "tobacco"
+      ],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "List of tobacco and cigarette factories with locations. Textual only.",
+      "review_questions": []
+    },
+    "china-1916:p0125_1": {
+      "topics": [
+        "manufacturing"
+      ],
+      "tags": [
+        "tobacco"
+      ],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "Continuation list of tobacco manufacturing companies and their cities. Textual only.",
+      "review_questions": []
+    }
+  }
+}

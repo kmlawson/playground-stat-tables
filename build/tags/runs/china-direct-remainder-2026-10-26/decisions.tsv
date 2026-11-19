@@ -1,0 +1,1090 @@
+# index/range|topics (comma separated)|details (comma separated, empty allowed)|s or t|rationale
+0,2,4|finance|taxation|s|The body specifies excise or business-tax assessment rates.
+1|finance|taxation,cotton|s|Tax rates are differentiated by cotton-yarn counts and descriptions.
+3|finance|taxation,cement-and-bricks|s|The packing and rate columns define the consolidated tax on Portland cement.
+5|labour,agriculture|labour-productivity|s|Kilogram output per hour of labour is compared across three crops and two countries.
+6|labour|working-conditions|s|Named mines are compared by the percentage of their workers employed under contract labour.
+7|economy|economic-indicators|s|Provincial percentage shares compare industrial activity with trade, infrastructure and demographic baselines.
+8-9|labour|employment-and-unemployment|s|The body counts industrial workers and their geographical or industrial distribution.
+10|labour|trade-unions|s|Industrial workforce numbers are compared with union membership in each city.
+11-16|labour|labour-disputes|s|The rows and columns quantify labour disputes, strikes, demands or settlement outcomes.
+17|labour|wages,nationality-and-ethnicity,occupations|s|Daily wage rates distinguish occupations and Japanese and Chinese workers.
+18|welfare|household-budgets|s|Observed food-expenditure shares and annual costs describe working-family budgets.
+19|health|nutrition|s|Protein, fat, carbohydrate and calorie quantities measure family diets.
+20|labour|wages,working-conditions,age-and-sex|s|Hourly and daily wages and hours are compared by industry and worker sex or age category.
+21|economy,trade|cost-of-living,prices|s|Footnotes distinguish retail-price indices from cost-of-living indices in the city columns.
+22-23|welfare|household-budgets|s|Percentage allocations describe observed household expenditure across consumption categories.
+24-25|labour|employment-and-unemployment,women-workers,child-labour|s|Workforce counts and percentages systematically distinguish male, female and child industrial workers.
+26|labour|working-conditions,women-workers,child-labour|s|Daily and night hours and night staffing distinguish male, female and child factory workers.
+27|labour|wages,working-conditions|s|The table estimates paid rest-day and holiday wage costs by industry.
+28|labour,government|working-conditions,constitutions-and-laws|s|Existing factory practices are compared with statutory requirements, including substantive working-hour quantities.
+29|government|elections-and-parties|s|The membership of the Kuomintang political party is counted by constituency.
+30-31|education,religion|higher-education,mission-schools|s|Christian colleges and universities are listed with locations and student counts.
+32-33|religion|missions,religious-affiliation|s|Catholic mission establishments, personnel, adherents and associated activities are quantified.
+34-50|transportation|shipping|s|Vessel rows or shipping-traffic series include substantive tonnage or vessel-count measurements.
+51|transportation,trade|shipping,imports,exports|s|The flag breakdown measures shipping tonnage and the value of inward and outward foreign merchandise.
+52-53|transportation,trade|shipping,domestic-trade|s|The body measures vessels and merchandise carried between Chinese open ports, with aggregate foreign-trade comparisons.
+54|transportation|inland-navigation|s|Registered inland-water steam vessels are counted by port, year and registration status.
+55|military,manufacturing|arms-and-arsenals|s|Monthly arsenal production counts weapons and ammunition.
+56|military|wages,honours-and-ranks|s|Military rank rows specify monthly pay rates.
+57|military|army|s|Military headquarters and staff units are assigned monetary office allowances.
+58|military|army,wages|s|Monetary allowances are specified for military command posts.
+59|military|honours-and-ranks,age-and-sex|s|Maximum officer ages are compared by rank and combatant status.
+60|military|honours-and-ranks|s|Years of service are required for promotion between military ranks.
+61|military|army,honours-and-ranks|t|The body is a glossary of military units, command titles and rank equivalents; incidental grade numbers are identifiers.
+62-91|military|army|s|Unit rosters include substantive troop-strength quantities by commander and garrison.
+92-95|military,informal-imperialism|foreign-garrisons|s|The body counts foreign troops and international-settlement volunteer units stationed in Chinese cities.
+96-100|military|navy|s|Named naval vessels have quantitative dimensions, displacement, speed and armament particulars.
+101|military,manufacturing|navy,shipbuilding|s|Naval dockyard construction and repair facilities are compared by dock dimensions and water depths.
+102|trade|salt,state-monopolies|s|Quantities of monopoly salt contracted for and cancelled by Japanese merchants are compared by year.
+103|military,agriculture|army,arable-land|s|Named farmers and locations are paired with measured cultivated-land damage caused by troop manoeuvres.
+104|crime-and-justice||s|The body counts dead, wounded and missing people; its short context does not establish a military or accidental cause, so no detailed casualty label is forced.
+105|military|army,military-casualties|s|Official army deaths and wounds in the Shanghai fighting are quantified by rank.
+106|military|navy,military-casualties|s|Official naval deaths and wounds in the Shanghai fighting are quantified.
+107|military|military-casualties|s|Civilian deaths, injuries and missing persons are explicitly enumerated in the Shanghai hostilities context.
+108-111|crime-and-justice|courts|t|The body lists court names, seats or romanized names without substantive quantities.
+112-113|crime-and-justice|prisons|s|Prison inventories specify numerical inmate capacities.
+114|education|primary-education|s|Weekly class minutes quantify the elementary-school curriculum by grade.
+115-116|education|secondary-education|s|Subject rows specify middle-school course-credit requirements.
+117|education|teacher-training|s|The normal-school teacher-training curriculum allocates numerical credits by subject.
+118-119|education|secondary-education|s|The body counts or gives percentage distributions of middle schools by locality or school type.
+120-121|education|literacy-and-adult-education|s|Popular schools and other forms of social education are quantified by locality or provision type.
+122,125,127|education|higher-education|s|University institutions, departments, courses, teaching hours or enrolments are measured by academic year.
+123|education|higher-education,libraries|s|University library volumes are counted by language and academic year.
+124|education,finance|education-finance|s|Monetary expenditure on university laboratory equipment is compared by academic year.
+126|education|higher-education,teachers|s|University teaching staff are counted by academic year.
+128|education|higher-education,age-and-sex|s|The annual series explicitly counts women university students.
+129|education,finance|education-finance|s|Institutional receipts by funding source and total educational expenditure are compared over time.
+130|education|vocational-education,libraries|s|Technical institutions are measured through library holdings, laboratory equipment and courses or teaching hours.
+131|education|vocational-education,teachers|s|Technical-school faculty, staff and students are counted by academic year.
+132-135|education|vocational-education|t|Technical and professional educational institutions are listed with locations only.
+136|education|schools-and-pupils|t|Dates, institution names and qualitative complete or partial damage descriptions form a textual inventory.
+137-138|education|students-abroad|s|Students abroad are counted by destination country or course of study.
+139|culture|calendars-and-time|t|Holiday names are paired with calendar dates; dates are reference designations rather than quantities.
+140-143|science-and-technology|calendars-and-time|t|Calendar dates and weekdays are paired with their corresponding Chinese lunar dates.
+144-146|government|passports-and-travel-permits|t|The context identifies lists of places where arriving foreigners' passports are inspected; only place names are tabulated.
+147|communications|radio|s|Broadcasting-station names and call signs are accompanied by measured wavelengths and transmitter powers.
+164-165|culture|calendars-and-time|t|Public commemorations or traditional solar-term observances are listed by their calendar dates.
+166-168|science-and-technology|calendars-and-time|t|The entries are calendar designations or clock-time equivalents, not statistical quantities.
+169-178|science-and-technology|measurement-and-units|s|Numerical conversion factors compare physical length, capacity, area or weight units.
+179|geography|land-area|s|Provincial and territorial land areas are measured in square kilometres.
+180|population|population-totals|s|Resident populations are estimated by locality alongside administrative-unit counts.
+181|government|administrative-divisions|s|Provinces and capitals are paired with counts of subnational administrative units.
+182|geography|physical-geography|s|Named mountain peaks are compared by measured elevations.
+183-189|geography|rivers-and-waterways|s|Named rivers and tributaries have measured lengths or drainage areas.
+190|geography|physical-geography|s|Lake locations are paired with measured surface areas and elevations.
+191|geography|weather|s|Regional season lengths are measured in months.
+192|government|imperial-household|t|The dynastic succession roster consists of ruler or dynasty names and reign-date designations.
+193|government|government-offices|t|Presidential officeholders are listed with their term-date ranges.
+194|population|overseas-communities|s|Overseas Chinese resident communities are counted by country or locality.
+148,150-151,154-160,162|trade|tariffs|s|Export tariff schedules specify article units and substantive duty rates across the listed goods.
+149|trade|tariffs,leather-and-furs|s|Export-duty rates specifically concern hides, leather and furs.
+152|trade|tariffs,cereals|s|The rate schedule concerns cereals and cereal products.
+153,163|trade|tariffs,chemicals|s|The schedule specifies export-duty rates for dyestuffs or chemical compounds.
+161|trade|tariffs,ceramics-and-glass|s|Export-duty rates specifically concern glass and glassware.
+195|economy|economic-indicators|s|The body compares production values across agriculture, forestry, fisheries, mining and manufacturing.
+196|agriculture|crop-production|s|Quantities of several principal agricultural products are tabulated together.
+197|transportation|railways,shipping|s|Railway mileage and shipping tonnage measure transport facilities, rather than telecommunications.
+198|trade|exports,imports|s|Annual export, import and total merchandise values are compared.
+199-200|government|government-offices|s|Public examination successes or the Control Yuan's administrative oversight activities are counted.
+201,203|government|local-government|s|The implementation of local administrative institutions and representative councils is quantified by province.
+202|government,military|local-government,war-and-mobilisation|s|County administrations are counted by explicit wartime occupation and operating status.
+204-206|finance|foreign-loans|s|Named foreign credits to China are recorded with dates, amounts and totals.
+207|economy|state-monopolies|t|Commodity monopolies are listed with commencement dates and geographical coverage only.
+208|finance|state-monopolies,public-budgets|s|Government-monopoly revenues and operating expenditures are measured by commodity and year.
+209|finance|salt-tax|s|The annual series measures fiscal receipts from salt taxation under the monopoly system.
+210|finance,economy|land-tax,food-supply-and-rationing|s|Picul quantities compare land tax in kind with compulsory grain purchases and borrowing.
+211-217,219-220|finance|taxation|s|The body gives substantive tax receipts, taxable bands or rates; the domestic consumption schedule is not a cross-border tariff.
+218|finance|customs-revenue,taxation|s|Customs receipts and wartime consumption-tax collections are separately quantified.
+221|finance|public-budgets,taxation|s|Budget allocations to local authorities are classified by their tax revenue sources.
+222|finance|public-property|s|Reclaimed public land, houses, funds, rice and rent are quantified by province.
+223|finance|public-debt|s|Government domestic bond issues are compared by principal, interest, redemption and purpose.
+224|finance|foreign-loans|s|Foreign government loans are compared by amounts, interest, repayments and purpose.
+225|transportation|railways|s|Operating railway lines are listed with terminals and measured distances.
+226-227|transportation|roads-and-bridges|s|Completed or improved highway lengths are measured annually.
+228-229|transportation|road-transport|s|Highway freight tonnage, ton-kilometres or motor-vehicle traffic is quantified by route.
+230|utilities,government|river-conservancy,government-offices|t|River-conservancy offices are listed with locations and administrative areas of operation.
+231|utilities,transportation|river-conservancy,inland-navigation|s|Navigation-channel improvement works are identified with measured lengths.
+232-235|transportation|aviation|s|Airline routes, distances, flights, passenger or freight traffic are quantified.
+236-239|transportation|road-transport|s|Stage-transport routes and their freight service are measured through distances, tonnage or ton-kilometres.
+240|communications|telegraph,telephone|s|Telegraph and telephone offices are counted by district and office class.
+241|communications|radio|s|Broadcasting-station identifiers are accompanied by measured wavelengths and frequencies.
+242-247|communications|postal-services|s|Postal establishments, route lengths, staff, postage or air-mail rates are quantified.
+248|crime-and-justice|courts|s|Existing and suspended courts are counted by level and province.
+249-250,252|crime-and-justice|courts,civil-litigation,offences-and-convictions|s|Civil and criminal caseloads are counted by court, trial stage, nationality or year.
+251|government|government-offices|s|Disciplinary decisions and administrative punishments of public officials are counted by rank.
+253,259|crime-and-justice,informal-imperialism|courts,civil-litigation,extraterritoriality|s|Foreign-national civil and criminal cases are explicitly framed by consular jurisdiction or its abolition.
+254|crime-and-justice,military|prisons,war-and-mobilisation|s|Prisoner releases and transfers are counted by wartime emergency and military-service arrangements.
+255|crime-and-justice,finance|courts,public-budgets|s|Judicial expenditure is divided into ordinary, extraordinary and special amounts.
+256|government,crime-and-justice|constitutions-and-laws|t|Civil and criminal laws are listed with promulgating organs and enactment dates rather than quantities.
+257|crime-and-justice||s|Licensed lawyers are counted by province; no precise detailed legal-profession tag is available.
+258|crime-and-justice|prisons|t|Prisons are identified by class, name, location and dated remarks without numerical capacities.
+260|military|army,war-and-mobilisation|t|War-area identifiers, localities and commanders form a textual deployment roster.
+261|military|wages,honours-and-ranks|s|Monthly military pay rates are specified by rank.
+262|military|honours-and-ranks|t|Military rank names are paired with descriptions of their insignia.
+263|military|honours-and-ranks|s|Required service durations for military promotion are measured in months or years.
+264|military|honours-and-ranks,age-and-sex|s|Officer retirement ages are specified by rank.
+265|military,crime-and-justice|offences-and-convictions|s|Military offence categories are compared by their percentage shares over time.
+266|military|air-force,honours-and-ranks|t|Air-force ranks are paired with textual insignia descriptions.
+267-268|military|navy|s|Naval ship inventories include tonnage, physical dimensions, speed and armament.
+269|military|navy,honours-and-ranks|t|Naval rank names are paired with sleeve and shoulder insignia descriptions.
+270|military|army,war-and-mobilisation|s|Japanese military expansion is measured through divisions, personnel and advances or penetration areas.
+271-272|military|military-casualties|s|War casualties are counted by year or month.
+273|military|war-and-mobilisation|s|Battles and major, minor or guerrilla engagements are counted by campaign period.
+274-275|education|higher-education|t|Higher-learning institutions, presidents and locations form directories; numbering is an identifier.
+276|education|literacy-and-adult-education|s|Social and mass-education organizations are counted by institution type.
+277|education,government|vocational-education,local-government|s|Graduates of wartime practical training are counted by work field, predominantly local administration.
+278|education,finance|education-finance,securities-and-investment|s|Educational endowments are compared by book and market value in several currencies.
+279-280|education,finance|education-finance,scientific-research|s|Foundation subsidies and expenditures support universities, research institutes and professorships.
+281|science-and-technology,finance|scientific-research,public-budgets|s|The public budget allocates expenses and grants among scientific and research institutions.
+282-284|manufacturing|industrial-output|s|Factory establishments are counted by location, industry or year.
+285|manufacturing,mining|industrial-output,mineral-production|s|The index combines manufactured producer and consumer goods with coal and primary mineral production.
+286|manufacturing|machinery|s|Production quantities distinguish kinds of machinery and factory ownership.
+287-288|manufacturing|industrial-output|s|Electrical equipment and other electrical manufactured products are quantified as an industry-wide output inventory.
+289|manufacturing|alcohol|s|Alcohol factory numbers and production quantities are compared by province and ownership.
+290-295,298|manufacturing|chemicals|s|The series measures output of named chemical products.
+296|manufacturing|cement-and-bricks|s|Cement output is compared by province and year.
+297|manufacturing|leather-and-furs|s|Sole-leather production quantities are compared by province and year.
+299|manufacturing|industrial-output|s|The table measures match-manufacturing output; the aggregate manufacturing tag avoids inventing a product-specific ID.
+300|manufacturing|cotton|s|Cotton-cloth production is measured by province and year.
+301-302|finance|savings-and-loans,securities-and-investment|s|Industrial and mining enterprise finance is measured through loans, investments and security loans outstanding.
+303|finance|savings-and-loans|s|Factory borrowers and small industrial loan amounts are counted by industry and year.
+304|economy|economic-controls|s|Factory and firm registrations explicitly concern a government industrial-material stock-control scheme.
+305|manufacturing,trade|cement-and-bricks|s|Cement and hydraulic-lime plants report both production and sales quantities.
+306|manufacturing|cement-and-bricks|s|Percentage distributions classify the end uses of cement.
+307|manufacturing|chemicals|s|Percentage distributions classify industrial uses of caustic soda.
+308-310|economy,manufacturing|cooperatives|s|The Chinese Industrial Cooperatives are measured by societies, membership, capital or production.
+311-313|labour|trade-unions|s|Union organizations and membership are counted by locality or union type.
+314-315|labour|wages|s|Nominal wage, real-income and real-wage indices are compared by industry or locality.
+316|economy|cost-of-living|s|Worker living-cost indices classify food, clothing, fuel, rent and other expenses.
+317|government,mining|mining-rights-and-concessions|s|The context identifies numbers of registered private mining claims by mineral and province.
+318|government,mining|mineral-reserves|s|Designated national mineral reserves are counted by mineral and province.
+319-320|mining|mineral-production|s|The body compares output of multiple mineral commodities across years.
+321|mining|coal,mineral-reserves|s|Estimated coal deposits are measured by province and coal type.
+322|mining|coal|s|Coal production quantities are compared by province and year.
+323|mining,manufacturing|petroleum|s|Production indices compare crude and processed petroleum products.
+324|mining|petroleum,mineral-reserves|s|Estimated oil and oil-shale resources are quantified by province.
+325|mining|iron-ore,mineral-reserves|s|Provincial estimated iron-bearing resources are measured in tons.
+326-327|manufacturing|iron-and-steel|s|The annual indices measure iron or steel production growth.
+328|mining|tungsten,mineral-reserves|s|Estimated tungsten-ore reserves are quantified by province.
+329|mining|tungsten|s|Tungsten production is measured in tons by year.
+330|mining|manganese,mineral-reserves|s|Manganese deposits are compared by tonnage, ore type and mineral content.
+331|mining|gold|s|Provincial gold output is estimated in ounces.
+332|mining|copper,mineral-reserves|s|Provincial reserves are estimated as their pure copper content.
+333|manufacturing|copper|s|The table measures refined copper output by province and year.
+334|mining|lead-and-zinc|s|Lead and zinc ore production quantities are compared by year.
+335-336|manufacturing|lead-and-zinc|s|The table measures refined lead or refined zinc production.
+337|manufacturing|tin|s|The table measures refined tin output by province and year.
+338,341-342|mining|mineral-production|s|The body measures output of a mineral without an approved commodity-specific tag.
+339|manufacturing|antimony|s|Annual output measures purified antimony production.
+340|mining|salt|s|Annual salt production is measured in piculs.
+343|finance,agriculture|agricultural-credit|s|Farm-bank loans and investments are classified by province and agricultural purpose.
+344|finance|banking|s|Bank head offices, branches and capitalization are compared by ownership class.
+345|finance|savings-and-loans|s|Savings accounts, certificates and deposits are compared across named banks.
+346-347|finance|insurance-and-pensions|s|Insurance-contract reserve percentages or insurance-company capital amounts are specified.
+348|trade|exports,tea|s|Tea exports are quantified by type and year.
+349|trade|exports,tung-oil|s|Tung-oil export quantities, values and shares are measured annually.
+350|trade|imports|s|Net import amounts are compared across many articles and years.
+351|agriculture,population|arable-land,households|s|Cultivated and cultivable areas are compared with farm-household numbers and land per household.
+352-353|agriculture|arable-land|s|The body measures cultivated acreage or the share of land potentially available for cultivation.
+354,357,361,369-370|agriculture|livestock|s|The body counts farm animals across livestock types, places or years.
+355-356,358-360,362-368|agriculture|crop-production|s|Cultivated areas, harvest quantities or indices cover numerous crops collectively.
+371-376|agriculture|agricultural-extension,crop-production|s|Agronomic improvement measures are compared by acreage and increased crop output.
+377|agriculture|cotton|s|Added cotton acreage and production are quantified by province.
+378-379|agriculture|cotton,agricultural-extension|s|Improved cotton-seed extension and other production-increase measures are measured or planned.
+380-384|agriculture,utilities|irrigation|s|Irrigation projects and their completed, operating or planned irrigated areas are quantified.
+385|forestry|forest-management|t|Model economic forests are listed with locations and their intended tree crops or uses.
+386|forestry|afforestation|s|Nursery area, seedlings and trees planted are counted by province.
+387|health,agriculture|veterinary-health|s|Animal-disease prevention agencies report vaccine or serum manufacture and animals treated.
+388|agriculture|rice,farm-inputs|s|Improved rice-seed varieties are compared by maturity, adaptation and numerical yield advantages.
+389-391|agriculture|land-tenure|s|The annual percentages distinguish tenant, owner and part-owner farmers.
+392-398|finance,agriculture|agricultural-credit|s|Agricultural loan or investment amounts are compared by purpose, provider, province or year.
+399-401|economy|cooperatives|s|Cooperative organizations, membership and capital are counted across purposes or places.
+402|finance,economy|cooperatives,savings-and-loans|s|Outstanding cooperative loans are classified by province and economic function.
+403-404|trade,agriculture|prices|s|Farm commodity prices or farm-gate price indices are compared across places or years.
+405-406|trade,agriculture|prices|s|Farm purchase-price indices and the purchasing-power ratio derived from farm prices are compared across provinces and years.
+407|health,education|medical-services,vocational-education|s|Graduates of professional public-health and medical training are counted by personnel type and institution.
+408|health,military|medical-services,recruitment-and-conscription|s|Medical personnel mobilised through conscription are counted by profession and year.
+409|health|medical-services|s|Registered medical personnel are counted by professional class and date.
+410|health,manufacturing|pharmaceuticals|s|Quantities of vaccines and other biological preparations manufactured are compared between institutions.
+411|health|diseases|s|Communicable-disease cases and deaths are counted by diagnosis.
+412|health|medical-services,public-health|s|Clinic and public-health services are quantified by service category and reporting period.
+413|health|malaria|s|Student examinations and blood-parasite rates compare malaria-control and comparison areas.
+414|health|medical-services|s|The Red Cross Medical Corps reports numbers of medical services and procedures performed.
+415|press|newspapers|t|Newspaper names, publication types and publishers form a directory without quantities.
+416|press|news-agencies|t|News-agency offices are listed with their directors.
+417|press|newspapers,news-agencies|s|Newspapers and news agencies are counted by province.
+418|press|periodicals,books|s|Periodicals and book-publishing, bookselling and printing establishments are counted by province.
+419|press,military|newspapers,military-casualties|t|Named journalists are listed with newspapers, dates and textual accounts of death or disappearance during the war.
+420|welfare|child-welfare|s|Orphanage admissions are counted by year.
+421-422|welfare,education|child-welfare,schools-and-pupils|s|Children supported by welfare services are counted by school placement, year or sex.
+423-424|education,welfare|apprenticeships,child-welfare|s|Children entering apprenticeship placements are counted by occupation, sex or year.
+425|welfare,education|child-welfare,schools-and-pupils|s|Child-welfare schools and camps are listed with numerical child enrolments.
+426|welfare,military|veterans-and-military-families,charitable-institutions|s|The Friends of the Wounded Society counts assistance services supplied to wounded or disabled soldiers.
+427-433|welfare,finance|foreign-aid|s|Foreign-funded relief appropriations or allocation shares are quantified across supported programmes and organizations.
+434|geography|land-area|s|Municipal district areas are measured in shih mow.
+435|population|overseas-communities,nationality-and-ethnicity,age-and-sex|s|Foreign residents are counted by nationality and sex.
+436-438|finance|public-budgets|s|General municipal budget or revenue amounts are compared by fiscal category, year or month.
+439|disasters|fires,disaster-losses|s|The fire-statistics summary quantifies fire incidents and their effects.
+440|crime-and-justice|offences-and-convictions|s|Criminal cases and indicted persons are counted by offence class.
+441|health|epidemics|s|Confirmed epidemic-disease cases are compared by year and diagnosis.
+442|health|vaccination|s|Preventive inoculations and vaccinations administered are counted annually.
+443|health|public-health|s|Garbage, night-soil and animal-vector control operations measure environmental sanitation.
+444|health|medical-services|s|Hospital outpatients are counted by clinical department and year.
+445|utilities|electricity|s|Power generation is measured in kilowatt-hours by month.
+446-447|military|air-defence|s|Air-raid shelters are counted with their aggregate human capacities.
+448|disasters|floods|s|Flood depths, household water heights and dwelling uninhabitability are measured.
+449|disasters,agriculture|floods,disaster-losses,arable-land|s|Flooded cultivated areas and affected farm families are compared with agricultural baselines.
+450-453,456-458,460|disasters|floods,disaster-losses|s|Flood losses are quantified as damaged buildings, household possessions, stored materials or trees.
+454,459|disasters,agriculture|floods,disaster-losses,livestock|s|Numbers and values of farm animals lost in the flood are quantified.
+455|disasters,agriculture|floods,disaster-losses,farm-inputs|s|Lost farm implements are counted and valued.
+461|disasters,welfare|floods,disaster-relief,food-supply-and-rationing|s|Post-flood food-grain needs, timing and possible supply sources are quantified.
+462-463|disasters|floods,disaster-relief|s|Post-flood clothing, bedding or fuel requirements and supply possibilities are quantified.
+464-466|disasters,agriculture|floods,disaster-relief,farm-inputs|s|Post-flood fodder or seed requirements and possible replacement sources are quantified.
+467|disasters|floods,disaster-losses,disaster-relief|s|Quantified losses are compared with the greatest post-flood replacement needs.
+468|disasters|floods,disaster-relief|s|The body quantifies household and farm replacement requirements after flooding.
+469|disasters,population|floods,refugees-and-displacement|s|The context explicitly identifies migration from flooded farms, expected return dates and destinations.
+470|population,disasters|refugees-and-displacement,age-and-sex,occupations|s|People displaced from flooded farms are classified by age, sex and occupation.
+471|health,disasters|diseases,floods|s|Post-flood sickness rates distinguish fever, diarrhoea and other causes.
+472|population,disasters|births-and-deaths,age-and-sex,floods|s|Deaths since the flood began are distributed by age and sex.
+473|disasters,health|floods,births-and-deaths,disaster-losses|s|Deaths and mortality rates since the flood began are classified by cause.
+474|trade,disasters|prices,floods|s|Commodity, land, credit and wage-price changes measure flood-related market disruption.
+475|disasters|floods,disaster-relief|s|Amounts, forms and providers of flood relief are quantified.
+476-478|disasters,welfare|floods,disaster-losses,refugees-and-displacement|s|Flood effects on farm families remaining locally are compared with families in refugee camps.
+479-480|disasters,agriculture|floods,disaster-losses,arable-land|s|Flooded acreage and affected farm families are quantified against cultivated-area baselines.
+481-491|disasters|floods,disaster-losses|s|Locality profiles quantify flood depths, displacement, illness, crop losses or housing disruption.
+492-495|disasters|floods,disaster-losses|s|The appendix measures the quantities and monetary values of household and farm property lost in the flood.
+496|disasters|floods,disaster-losses|s|Household and farm losses from flooding are quantified by locality.
+497-504|disasters|floods,disaster-relief|s|The appendix quantifies household and farm replacement requirements after flooding; needs columns govern continuation records despite inconsistent titles.
+505|agriculture,disasters|crop-production,floods|t|This is an explicitly blank crop-survey form with category labels and no recorded observations.
+506|health|nutrition|t|This explicitly blank diet-survey form contains food categories and measurement headings but no collected observations.
+507,510,512|disasters|floods,disaster-losses|t|The record is an unfilled survey instrument for losses or damaged dwellings, not a transcription of observed numerical losses.
+508,518-519|disasters|floods,disaster-relief|t|The record is an explicitly unfilled relief-needs or provision form or checklist, with no reported observations.
+509,511|agriculture,disasters|farm-inputs,floods|t|The unfilled form asks for seed needs, loans and planting arrangements; no quantitative observations have been entered.
+513|population,disasters|births-and-deaths,floods|t|The original blank schedule asks for deaths, ages and causes after flooding, without recording any observations.
+514,516,522|population,disasters|refugees-and-displacement,floods|t|The original blank survey schedule asks for displaced people, families or gathering places; no observations are entered.
+515|trade,disasters|prices,floods|t|The record is an unfilled before-and-after flood price-survey form with commodity names and units only.
+517|disasters,labour|work-relief,floods|t|The original work-relief survey form has project labels and empty employment or duration fields.
+520-521|science-and-technology|measurement-and-units|t|These original unfilled measurement schedules provide headings but no numerical conversion observations.
+523-534|history,science-and-technology|historical-chronologies,calendars-and-time|t|Monthly calendars pair civil and lunar dates with narrative historical anniversaries, not statistical measurements.
+535|population|population-totals|s|The body gives historical estimates of total population by date.
+536-537|population,geography|population-totals,land-area|s|Places are compared by population and measured territorial area.
+538|transportation|shipping,railways|s|Route distances cover coastal and ocean passages as well as the Siberian rail connection.
+539,541|geography|physical-geography|s|Descriptions of coastal features or lakes include substantive distances, dimensions, elevations or areas alongside place names.
+540|religion,geography|taoism,buddhism,physical-geography|t|Named sacred mountains and their locations are grouped by Taoist and Buddhist religious association.
+542|geography|rivers-and-waterways|s|River-valley gradients and point-to-point distances are measured.
+543|population||s|The table gives cranial-type percentages; no precise physical-anthropology detailed tag is available.
+544|government|imperial-household|t|Manchu rulers are listed with reign dates and textual remarks.
+545-546|geography|weather|s|Station series report temperatures or observed prevailing wind directions and gale conditions.
+547|science-and-technology|calendars-and-time|s|The body quantifies local-meridian offsets from Shanghai and Greenwich in hours, minutes and seconds.
+548|press,geography|books,weather|t|A climate bibliography lists book titles and publication information.
+549|science-and-technology|measurement-and-units|s|Numerical equivalents convert centigrade and Fahrenheit temperatures.
+550|government|administrative-divisions|s|Mongolian administrative divisions are paired with banner counts and descriptions.
+551|population|population-totals|s|Population estimates are tabulated by Mongolian administrative division.
+552-554,568|finance|foreign-exchange|s|Numerical currency equivalents or exchange rates are specified.
+555-557|finance|customs-revenue|s|Customs-duty receipts are quantified by year, port or levy type.
+558|trade|imports,exports,re-exports|s|Gross, returned and net merchandise flows into and out of China are quantified.
+559,564,569,571-573,609|trade|imports,exports|s|Foreign merchandise import and export values or balances are compared by place or year.
+560|trade|imports,re-exports|s|Returned Chinese imports and re-exported foreign merchandise are measured by country.
+561,565,570,575|trade|imports|s|Foreign merchandise imports are quantified by country, district or article group.
+562,566,590-591|trade|exports|s|Foreign merchandise exports are quantified across countries or numerous commodity groups.
+563|trade|domestic-trade|s|The body measures Chinese produce moving between domestic open ports.
+567|finance|customs-revenue,foreign-loans,indemnities|s|Customs revenue is compared with service of foreign loans, indemnities and internal debt charged upon it.
+574|crime-and-justice,trade|smuggling|s|Goods explicitly described as illicit are measured as arrivals through the East Hopei route.
+576-579|trade|imports,cotton|s|The title, cotton-goods caption or body identifies cotton raw material, yarn or piece-goods imports.
+580|agriculture|cotton|s|Cotton acreage and harvested quantities are compared by year.
+581|manufacturing,trade|cotton|s|Raw cotton stocks, supply and mill consumption are compared across years.
+582|trade|imports,rayon|s|The body quantifies imported artificial-silk products.
+583|trade|imports|s|Import quantities cover multiple metals and ores rather than extracted output.
+584|trade|imports,machinery|s|Imported machinery and electrical materials are compared by value.
+585|trade|imports,cereals|s|The body measures imports of several cereals and flour, including country-of-origin breakdowns.
+586|trade|imports,sugar|s|Imported molasses, sugar and sugar candy are quantified.
+587|trade|imports,petroleum|s|Import quantities are reported for petroleum products.
+588|trade|imports,paper-and-pulp|s|Imported paper quantities are compared by product class.
+589|trade|imports,timber|s|Imported timber quantities are compared by wood-product group.
+592|trade|exports,silk|s|Silk exports are quantified by form and year.
+593|trade|prices,silk|s|Silk market quotations are compared in francs per kilogram.
+594-595|agriculture|cotton,agricultural-extension|s|Improved cotton-seed production or extension acreage is quantified.
+596|trade|exports,eggs-and-poultry|s|Egg-product exports are measured by quantity, value and destination.
+597-598|trade|tea|t|Tea grades and varieties are classified by colour, quality or district using text only.
+599-600|trade|exports,tea|s|Tea export quantities are compared by type or destination country.
+601,605-606|trade|exports|s|Export quantities or values cover the stated goods; no unrelated commodity label is forced.
+602|trade|exports,leather-and-furs|s|Hides and skins are quantified as exported commodities.
+603|trade|exports,tung-oil|s|Wood-oil exports are compared by destination country.
+604|trade|exports,oilseeds|s|Groundnuts and their primary commodity products are measured as exports.
+607|trade|exports,wool|s|Wool export quantities are compared by product type.
+608|trade|exports,plant-fibres|s|Hemp and other vegetable fibres are quantified as exports.
+610-611|informal-imperialism,foreign-relations|treaty-ports,treaties|t|Opened trading places and ports of call are listed with the agreements authorising their status.
+612|informal-imperialism,population|treaty-ports,population-totals|s|Treaty-port status and opening particulars are paired with numerical population estimates.
+613|government|government-offices|t|Customs stations and barriers are listed by district; district numbers and list-heading counts serve as directory identifiers.
+614|informal-imperialism|foreign-concessions|t|Foreign settlements and concessions are listed with ports and establishment dates.
+615-640,642-643,649,653-655,657,659-660|foreign-relations|treaties|t|Treaty or agreement rosters give dates, parties, instruments and narrative subjects.
+641|foreign-relations,informal-imperialism|treaties,extraterritoriality|t|The Swiss treaty entry explicitly concerns consular jurisdiction.
+644-645,648,650-651|foreign-relations|treaties,patents-and-trademarks|t|The agreements concern reciprocal protection of commercial trademarks.
+646,652|foreign-relations,informal-imperialism|treaties|t|The agreements explicitly allocate foreign privileges or respective railway interests in Chinese regions.
+647|foreign-relations,colonial-rule|treaties,colonial-administration|t|The agreement roster explicitly includes British occupation of the Weihaiwei leased territory.
+656|foreign-relations,transportation|treaties,railways|t|A treaty-roster entry describes the transfer of the Chinese Eastern Railway; the price appears within its narrative subject.
+658|colonial-rule,foreign-relations|annexation-and-protectorates,treaties|t|The sole treaty entry explicitly records Japan's annexation of Korea.
+661|manufacturing|cotton|s|Cotton mills are compared by capital, spindles, looms and workforce quantities.
+662|culture,trade|theatre-and-cinema|t|Film distributors and agents form a textual commercial directory.
+663-664|culture|theatre-and-cinema|s|Film production or educational screenings are measured through counts, length or attendance.
+665|culture|theatre-and-cinema,censorship|s|Censored film permits are counted by film category and origin.
+666|culture|theatre-and-cinema|s|Previewed films are distributed by national origin percentages.
+667,673|utilities|river-conservancy|s|River-engineering works include substantive cut lengths, reductions or other dimensions.
+668|transportation|ports,shipping|s|Port arrivals are counted with vessel-draught measurements.
+669-671,675-679,681-682|transportation|ports,freight-and-transport-costs|s|Port, berthing, wharfage, pilotage or cargo-handling charges are quantified, sometimes alongside harbour dimensions.
+672|transportation|ports,construction|s|Harbour works and handling equipment are described with lengths, crane capacities or other quantities.
+674|transportation,manufacturing|ports,shipbuilding|s|Dry docks are compared by measured dimensions and water depth.
+680|military,manufacturing|navy,shipbuilding|s|Naval docks are compared by measured physical dimensions.
+683-684,690|health|public-health|t|Public-health departments, subordinate organizations or their functions are listed without quantities.
+685|health,finance|public-health,public-budgets|s|The national health budget allocates money among institutions and programmes.
+686|health,education|vocational-education,medical-services|s|Professional public-health courses are listed with entry requirements and graduate counts.
+687|health|medical-services|s|Registered medical personnel are counted by professional category and date.
+688-689|health|public-health,medical-services|s|Health institutions, their staff or budgets are quantified by locality and institutional type.
+691|health|malaria|s|Malaria incidence among new hospital patients is measured by region and year.
+692|health|vaccination|s|Cholera inoculations are counted by service area and year.
+693|health,transportation|quarantine,shipping|s|The National Quarantine Service counts inspected ships, passengers and crew.
+694-697,751-755,757|transportation|roads-and-bridges|s|Highway routes, completed or planned lengths, construction or maintenance costs are quantified.
+698-699,704,707-708,725|finance|currency|s|Coin issue quantities, monetary equivalents, denominations or measured coin specifications are given.
+700|finance,transportation|currency,trams|s|The tramway company's monetary losses from copper-cent conversion are compared by year.
+701|trade|imports,exports,silver|s|Silver bullion and sycee entering and leaving China are quantified.
+702|finance,science-and-technology|currency,measurement-and-units|s|Numerical equivalences define subdivisions of the tael monetary or weight unit.
+703,706|finance|currency,silver|s|Silver money units or coins are compared by measured weight, fineness and silver content.
+705|finance|currency,foreign-exchange|s|New-dollar parities are specified against different tael currencies.
+709,717|trade|imports,exports,gold|s|Gold bullion and coin movements into and out of China are quantified.
+710|trade|exports,gold|s|Annual net gold exports are measured.
+711-712|finance|currency,banking|s|Banknote circulation is quantified by issuing bank and year or date.
+713|finance,trade|foreign-exchange,prices|s|Exchange quotations are compared alongside precious-metal market prices.
+714-716|finance|foreign-exchange|s|Historical currency exchange quotations or averages are specified.
+718|trade|imports,gold,silver|s|Gold and silver imports are quantified by origin country.
+719|trade|imports,exports,silver|s|Silver bullion and coin movements into and out of China are quantified.
+720|trade|exports,gold,silver|s|Gold and silver exports are quantified by destination country.
+721-723|trade|imports,exports|s|The body measures inward and outward specie flows across several precious-metal or coin categories.
+724|government,finance|government-offices,currency|s|Currency Reserve Board composition specifies substantive numbers of representatives for each appointing authority.
+726-728|finance|banking|s|Bank directories include numerical paid-up capital, making these mixed statistical records.
+729-731|education,crime-and-justice|vocational-education,courts|t|Judicial-officer examination subjects or training curricula are listed without credit or hour quantities.
+732|crime-and-justice|courts|s|Court numbers are compared by level and year.
+733|crime-and-justice,government|courts,government-offices|s|Magistrates' concurrent judicial appointments are measured through counts and percentages.
+734|crime-and-justice|courts|t|The court directory provides names, categories and locations without caseload or capacity quantities.
+735|crime-and-justice|prisons|s|Prison directories provide substantive inmate capacities.
+736|transportation|railways|t|Railway names are listed with construction-year ranges; numbering and dates are reference designations.
+737|trade,transportation|imports,railways|s|Imported railway rolling stock and construction materials are quantified and valued.
+738-743|transportation|railways|s|Railway track, locomotives, carriages, wagons or service equipment are quantified by line and use.
+744-745,747,749|transportation,finance|railways|s|Railway fixed investment, operating accounts or transport revenues are quantified by line.
+746,748,750|transportation|railways|s|Railway passengers, freight or line mileage and capital particulars are quantified.
+756|trade|imports,petroleum|s|Imported motor fuels are measured by product and year.
+758|trade,transportation|imports,road-transport|s|Imported road vehicles and accessories are measured by quantity and value.
+759-761,773|communications|postal-services|s|Postage, registration or air-mail rates are numerically specified.
+762,774|communications,finance|postal-services|s|Postal operating income, expenditure and financial results are quantified.
+763-769,775-776,779-783|communications|postal-services|s|Postal establishments, equipment, mail-route lengths, parcels or mail volumes are quantified.
+770,786|communications|postal-services,telegraph|s|The post office's transmission of telegrams is counted.
+771-772|communications|postal-services|t|Opened, resumed or discontinued postal services are listed with routes or dates only.
+777-778,784|communications,finance|postal-remittances|s|Postal money-order services are measured by transaction amounts, numbers or cashing limits.
+785,787-789|communications|telegraph|s|Telegraph infrastructure, traffic or message rates are quantified.
+790|communications|telegraph,radio|s|Wireless telegraph transmitters are listed with measured frequencies and wavelengths.
+791|communications|telegraph,radio|t|Radio-telegraph routes are listed with opening dates.
+792|communications|telephone,radio|t|Radiophone voice channels are listed with opening dates.
+793|transportation,communications|navigation-aids,radio|s|Marine radio beacons have numerical positions, wavelengths and operating intervals.
+794-797|communications|telephone|s|Telephone stations, circuits or lines are quantified by location or type.
+798-801|transportation|aviation|s|Airline routes and traffic are compared by substantive service frequencies, distances or passenger and mail quantities.
+802-803|population|nationality-and-ethnicity,overseas-communities|s|Foreign-area resident communities are counted by nationality; governing privileges are not inferred from district names.
+804|population|population-totals|s|Resident totals are compared across city areas without independently tabulating their governing powers.
+805|government,informal-imperialism|local-government,foreign-concessions|t|The international-settlement Municipal Council is represented by its officeholder roster.
+806,811|government,informal-imperialism|local-government,foreign-concessions|t|Foreign-settlement or concession municipal governing personnel are named with their offices.
+807|population|births-and-deaths,nationality-and-ethnicity|s|Resident births and deaths are counted by Chinese or foreign status.
+808|finance|public-budgets,taxation|s|Municipal income is quantified by source with explicit tax assessment bases.
+809-810,812|finance|public-budgets|s|General municipal revenues or expenditures are quantified without independently describing governing privileges.
+813|finance|public-budgets,taxation|s|Municipal tax revenues and expenditure categories are separately quantified.
+814|government,transportation|road-transport,shipping|s|Licences are counted for boats and several types of road vehicle.
+815|economy|reconstruction,economic-planning|t|A dated outline gives successive reconstruction and development phases in narrative terms.
+816|government,utilities|urban-planning,local-government|t|A narrative municipal development programme lists proposed services and works; occasional project counts occur within prose descriptions.
+817|government|local-government,government-offices|t|Municipal officials are named by position.
+818|transportation|ports,shipping|s|Leading ports are compared by entered shipping tonnage.
+819|transportation|shipping|s|Flag shares of shipping entrances and clearances are expressed as percentages.
+820|transportation|shipping,freight-and-transport-costs|s|Transpacific freight charges are compared by commodity and date.
+821|transportation|shipping|t|Regular cargo or passenger shipping lines are listed by name only.
+822-836|transportation|shipping|s|Fleet inventories include intended or recorded vessel tonnage, power or capacity, not merely build dates.
+837-840|transportation|shipping,ports|s|Vessel entrances, clearances and tonnage shares are quantified by port or flag.
+841|education|schools-and-pupils,age-and-sex|s|School grades are matched to substantive pupil-age ranges.
+842|education|primary-education|t|Compulsory-schooling implementation dates are matched to community types.
+843|education|primary-education|s|Elementary curricula allocate weekly instructional hours by subject and grade.
+844-845|education|secondary-education|s|Middle-school curricula allocate instructional hours by subject and year.
+846|education|teacher-training|s|Normal-school curricula allocate numerical instructional hours to subjects.
+847|education|higher-education|s|The university directory includes substantive student counts and expenditure within its descriptions.
+848-849|education|higher-education|t|University locations and faculty descriptions contain no substantive quantities; numerical founding dates remain reference dates.
+850|education|vocational-education|t|Technical institutions are listed with locations only.
+851|education|students-abroad|s|Students going abroad are counted by destination country.
+852-853|education,finance|education-finance|s|National or local education expenditures and grants are quantified.
+854|science-and-technology|scientific-research|t|Learned academic societies and associations are listed by name.
+855|labour|child-labour,women-workers,constitutions-and-laws|t|The text lists occupations prohibited to children and women under a cited factory-law provision.
+856|labour,foreign-relations|treaties,international-organisations,working-conditions|t|Ratified international labour conventions are listed by their employment protections.
+857-864|labour|labour-disputes|s|Industrial disputes, strikes or lockouts are counted by place, industry or cause.
+865-866|labour|industrial-accidents|s|Workplace accidents, deaths, injuries and estimated losses are quantified by place or month.
+867|labour|employment-and-unemployment|s|Unemployed people are counted by locality and industry.
+868|government,colonial-rule|colonial-administration,government-offices|t|Formal colonial government officials and governing councils or services are listed by office and holder.
+889|government,colonial-rule|colonial-administration,government-offices|s|Colonial official and service directory includes police strength of about 500 men and quantified medical facilities and staffing.
+869|population|population-totals,nationality-and-ethnicity|s|Resident estimates distinguish Chinese and non-Chinese population categories.
+870-871|population|births-and-deaths,nationality-and-ethnicity|s|Birth or death counts and mortality rates distinguish Chinese and non-Chinese residents.
+872|health|medical-services|s|Hospital beds and patients treated are quantified by medical service type.
+873|trade|imports,cement-and-bricks|s|Imported cement is measured by origin country, quantity and value.
+874|trade|exports,food-processing|s|Preserved ginger exports are quantified by destination and year.
+875-878|trade|imports,exports|s|Merchandise or specie import and export amounts are compared by country, commodity or year.
+879|trade|prices|s|Wholesale commodity price indices are compared by product group and year.
+880|labour|wages,occupations|s|Wage rates are specified by occupational group, including industrial, transport and domestic work.
+881|education|schools-and-pupils|s|Schools and pupils are counted by level, language and funding type.
+882|welfare|charitable-institutions|t|Charitable establishments are listed by name without beneficiary counts.
+883|finance|currency,banking|s|Banknote amounts backed by reserve certificates are compared by issuer and date.
+884|science-and-technology|measurement-and-units|s|Numerical equivalents compare Chinese and other physical measurement units.
+885|crime-and-justice|courts|s|Lower-court caseloads are counted by institution or jurisdiction.
+886|crime-and-justice|police,nationality-and-ethnicity|s|Police personnel strength is quantified by nationality contingent.
+887|finance|public-budgets|s|Annual government revenue, expenditure and budget balances are quantified.
+888|finance|public-property|s|The government balance sheet quantifies public financial assets and liabilities.
+890|finance,trade|public-budgets,imports,exports|s|Separate parts quantify the public budget and merchandise trade.
+891|transportation|ports|s|Harbour particulars include substantive physical measurements.
+892|finance|public-budgets,taxation|s|Government budget receipts are quantified by fiscal source, including taxes.
+893-901|government,informal-imperialism|foreign-concessions,local-government,public-budgets|s|Concession governing councils and officials are presented together with substantive municipal financial figures.
+902-913|trade|tariffs|s|Successive import-tariff schedules specify duties by article and unit of assessment.
+914|mining|mining-rights-and-concessions|s|Mining areas are counted and measured by mineral under the registered-claim system.
+915|mining|mineral-production|s|The body compares output of numerous minerals across years.
+916|mining|coal,mineral-reserves|s|Estimated coal reserves are quantified by province and coal type.
+917-918|mining|coal|s|Coal production is quantified by company or province and year.
+919|transportation|railways,coal|s|Railway coal freight quantities are compared by line and year.
+920|labour,mining|wages,labour-productivity,employment-and-unemployment|s|Mine workforce counts, daily pay and per-worker production are compared.
+921|trade|imports,exports,coal|s|Coal imports and exports are measured by year.
+922|economy|coal|s|City coal consumption and per-capita use are quantified.
+923|mining,manufacturing|petroleum|s|Oil output is compared by producer and year.
+924|trade|imports,petroleum|s|Petroleum-product imports are measured by year.
+925|mining|iron-ore|s|Mine iron-ore production quantities are compared by year.
+926,930|trade|exports,iron-ore|s|Iron-ore exports are quantified.
+927-928|manufacturing|iron-and-steel|s|Furnace numbers, productive capacity or pig-iron output are quantified.
+929|trade|imports,iron-and-steel|s|Iron and steel imports are quantified by product form.
+931|mining,manufacturing|antimony|s|Antimony production distinguishes crude or ore material and refined regulus.
+932|manufacturing|antimony|s|Metallic antimony production is compared across countries and years.
+933|trade|exports,antimony|s|Antimony exports are quantified by product form.
+934|mining|manganese|s|Manganese-ore output is quantified by locality and year.
+935|mining|tungsten|s|Tungsten-ore production is measured by province and year.
+936|trade|exports,tungsten|s|Tungsten-ore export quantities are compared by year.
+937|mining|lead-and-zinc|s|Lead and zinc ore production is quantified by locality and year.
+938|trade|exports,imports,lead-and-zinc|s|Lead and zinc import or export quantities are compared.
+939|mining,manufacturing|copper|s|Copper production quantities are compared by producing locality and year.
+940|trade|exports,imports,copper|s|Copper and copper-product movements into and out of China are quantified.
+941|mining|silver|s|Silver production is measured by year.
+942|mining,manufacturing|tin|s|Tin production quantities are compared by producing locality and year.
+943|trade|exports,imports,tin|s|Tin imports and exports are quantified.
+944-945|mining|mineral-production|s|Gypsum or alum output is measured without forcing an unrelated mineral-specific tag.
+946-949|military|army|t|Army units, commanders and deployments are listed; unit numbers identify formations rather than troop quantities.
+950|military|army|s|Army and provincial force strengths are measured in personnel numbers.
+951|military,education|army,vocational-education|t|Military professional training establishments are listed by name.
+952|military|wages,honours-and-ranks|s|Pay and duty allowances are specified by military rank and grade.
+953|military|honours-and-ranks,age-and-sex|s|Military officer age limits are numerically specified.
+954|military|honours-and-ranks|s|Minimum service durations for promotion are measured in years.
+955-957|military|army,honours-and-ranks|t|Military terminology, organizational ranks or named officers' grade appointments are described textually.
+958,960|military,informal-imperialism|foreign-garrisons|s|Foreign troop establishments in Chinese cities are quantified by location or nationality.
+959|military,informal-imperialism|foreign-garrisons|s|Foreign garrison roster includes a substantive count of two battalions, beyond unit identifiers.
+961|military|navy,honours-and-ranks|t|Naval ranks are paired with their Chinese titles.
+962-963|military|navy|s|Naval ship inventories provide substantive tonnage, complement or armament measurements.
+964|religion|buddhism|t|Buddhist spiritual dignitary titles are listed with textual remarks.
+965-967|religion|missions,religious-affiliation|s|Mission establishments, personnel and Christian adherents are quantified.
+968-970|religion|christianity,religious-institutions,religious-affiliation|s|Protestant churches, religious personnel or establishments and their memberships are measured.
+971-972|religion|christianity,religious-institutions|t|Christian Council member churches or organizations are listed by name.
+973-975|education,religion|higher-education,mission-schools|s|Christian college enrolments are counted by institution, study year or student origin.
+976,979|education,finance|mission-schools,education-finance|s|Christian college or middle-school budgets and income sources are quantified.
+977-978|education,religion|secondary-education,mission-schools|s|Christian middle schools and pupils are counted by province or city.
+980|education,religion|christianity,mission-schools|s|Christian middle-school students taking religious instruction are counted.
+981|education,religion|vocational-education,christianity,age-and-sex|s|Theological and Bible-school professional training enrolments and graduates are classified by sex.
+982|health,religion|medical-services,missions|s|Mission hospitals, staff, beds or clinical activity are quantified.
+983|press,religion|books,christianity|s|Bible societies report numbers of scriptures circulated.
+984|press,religion|periodicals,christianity|s|Protestant periodical publications are counted over time.
+985|religion,finance|missions|s|Mission-board and society expenditures in China are compared in monetary amounts.
+986-987|finance|insurance-and-pensions|s|Insurance-company capital or contract premium rates are quantified.
+988|disasters|fires,disaster-losses|s|Fire calls and property damage or exposure are quantified over time.
+989|crime-and-justice|offences-and-convictions|s|Fraud and embezzlement cases are counted with monetary amounts involved.
+990-991|finance,transportation|insurance-and-pensions,aviation|s|Aviation insurance benefits or passenger premiums are numerically specified.
+992-995,998-1000,1002-1004,1006-1010|finance|public-budgets|s|General public receipts, payments, balances or departmental appropriations are quantified.
+996|finance,military|public-budgets,public-debt|s|Military spending and debt-service expenditures are separately measured with their budget shares.
+997|finance,government|public-budgets,constitutions-and-laws|t|Budget regulations classify national and local fiscal responsibilities without reporting amounts.
+1001|finance|public-debt|s|The loan-service budget quantifies domestic and other debt-service provisions.
+1005|finance,crime-and-justice|public-budgets,courts|s|The judicial appropriation table quantifies spending on justice institutions.
+1011-1031|finance|public-budgets|s|Provincial and municipal revenue and expenditure accounts.
+1032-1033|finance|indemnities|s|Country allocations and repayment balances of the Boxer indemnity.
+1034|finance|indemnities,public-debt|s|Domestic loans secured on indemnity portions, with outstanding amounts.
+1035-1036|finance|indemnities|s|Grants and loans disbursed from the British indemnity fund.
+1037|education,finance|education-finance|s|Education and research foundation funds, assets and liabilities.
+1038|trade|tariffs,exports|s|Numerical export tariff rates and revisions.
+1039-1040|trade|tariffs,imports,cereals|s|Import duty rates on cereals and flour.
+1041-1044|finance|customs-revenue|s|Duty receipts by category and customs port.
+1045-1046|finance|salt-tax|s|Annual and district salt revenue receipts.
+1047-1054|finance|taxation|s|Commodity and business tax rates, income tax schedule and tax receipts.
+1055|finance,transportation|public-debt,foreign-loans,railways|s|Amounts outstanding on foreign-currency railway loans.
+1056|finance|banking|s|Comparative bank balance sheets and financial results.
+1057-1059|finance|public-debt,foreign-loans|s|Government foreign loan principal, service obligations and security.
+1060|finance|public-debt|s|Internal government loan issues and redemption schedules.
+1061-1068|finance,transportation|public-debt,railways|s|Railway loan amounts, balances, advances and construction credit.
+1069|finance,transportation|railways,indemnities|s|Railway loan balances financed by the British Boxer Indemnity Fund.
+1070,1072|government|government-offices|t|Administrative organisation and named officeholders; serials and dates are identifiers.
+1071|government|elections-and-parties|s|Numerical allocation of legislative candidates by population bracket.
+1073-1079|government|government-offices,local-government|t|Provincial executive officeholder lists.
+1080|manufacturing|silk|s|Silk filature and reel counts by locality.
+1081-1082|manufacturing|wool|s|Woollen factories and capital by city and ownership group.
+1083|manufacturing|leather-and-furs|s|Tannery counts and capitalisation.
+1084|manufacturing|rubber|s|Rubber industry business index.
+1085|manufacturing|paper-and-pulp|s|Paper consumption values and shares by kind.
+1086|manufacturing|cement-and-bricks|s|Cement factory capital and annual output.
+1087|manufacturing|iron-and-steel|s|Ironworks furnaces and productive capacity.
+1088,1093-1094|foreign-relations|diplomatic-service|t|Diplomatic and consular personnel directories.
+1089|press|newspapers,periodicals|t|Publication directory; founding dates and frequencies identify publications.
+1090|finance,science-and-technology|calendars-and-time|t|Calendar of bank holidays, without statistical observations.
+1091|science-and-technology|measurement-and-units|s|Quantified unit conversions and equivalences.
+1092|culture,sport|recreation-and-amusements,sports-organisations-and-facilities|t|Directory of cultural, social and sporting clubs, contacts and activities.
+1095|press|books|t|Named editors of the handbook.
+1096-1100|science-and-technology|calendars-and-time|t|Holiday, seasonal observance, eclipse, calendar and clock-equivalence reference lists; dates are not statistical observations.
+1101-1102|science-and-technology|measurement-and-units|s|Numerical conversion factors and weight equivalents.
+1103|geography|land-area|s|Areas of administrative territories.
+1104|population,government|population-totals,administrative-divisions|s|Population totals and counts of administrative units by locality.
+1105-1106|geography|physical-geography|t|Named seas and mountain chains with geographical descriptions.
+1107|geography|physical-geography|s|Natural districts with quantitative elevation and dimensions in descriptions.
+1108|geography|physical-geography,rivers-and-waterways|s|Lake dimensions and areas in body descriptions.
+1109-1111|geography|weather|s|Season lengths and measured temperature and rainfall.
+1112|history|historical-chronologies|t|Dynastic chronology; reign dates are not numerical observations.
+1113|population|languages|s|Language-group distribution with quantified tone counts.
+1114|population,government|nationality-and-ethnicity,administrative-divisions|s|Mongol population and banner distribution, with numerical counts in descriptions.
+1115|government|administrative-divisions|s|Counts of banners by Mongolian aimak.
+1116|population|overseas-communities|s|Overseas Chinese population by place.
+1117-1119|government|elections-and-parties|t|Party resolutions and member rules.
+1120-1121|government|elections-and-parties|s|Party organisational descriptions include quantified committee membership ranges and ministerial staffing.
+1122|government,economy|government-offices,economic-planning|t|Organisation and functions of the Central Planning Board.
+1123|economy|economic-planning,reconstruction|t|Named planning and reconstruction projects and their progress.
+1124|government|government-offices|t|Executive ministries and commissions.
+1125-1126|government|constitutions-and-laws,government-offices|t|Legislative committees and matters for their investigations.
+1127,1129-1131|government|government-offices|t|Civil-service examination eligibility and appointment categories.
+1128|government|government-offices|s|Civil-service examination eligibility includes quantified prior examination and service durations.
+1132|government|government-offices|s|Counts passing public examinations by examination type.
+1133|government|government-offices,administrative-divisions|t|Territorial supervisory districts of the Control Yuan.
+1134|government|government-offices|s|Control Yuan oversight caseload, impeachment and examination supervision counts.
+1135-1141,1143-1145|government|local-government,constitutions-and-laws|t|Local government institutions, powers, municipal lists and eligibility rules.
+1142,1146-1147|finance,government|taxation,local-government|t|Legally authorised sources of local receipts; no revenue amounts.
+1148|government|local-government|s|Counts documenting implementation of the new county government system.
+1149-1150|government,military|local-government,war-and-mobilisation|t|Provisional wartime county organisation, plans and self-defence duties.
+1151|government,military|local-government,war-and-mobilisation|s|Numerical status of county administration in war areas.
+1152|government|elections-and-parties|s|Numerical allocation of political council seats.
+1153|government|elections-and-parties,local-government|t|List of provinces with provisional councils.
+1154|government|elections-and-parties,local-government|s|Numbers of members in provincial councils.
+1155-1156,1158|government|local-government,constitutions-and-laws|t|Powers and functions of local representative councils.
+1157|government|local-government,constitutions-and-laws|s|Council powers include a numerical threshold of more than five residents for proposals.
+1159-1160,1187|finance|foreign-loans,public-debt|s|Foreign government loans to China and amounts.
+1161|informal-imperialism,foreign-relations|foreign-concessions,treaties|t|Rendition of foreign concessions, settlements and leased territories.
+1162|foreign-relations,trade|treaties,tariffs|t|Tariff treaty names and signature and commencement dates.
+1163-1164|finance|banking|s|Numerical distribution of banks and treasury service offices.
+1165|finance|taxation|s|Revenue sources with percentage contributions.
+1166|finance|taxation|s|Internal revenue taxes, rates and collection arrangements.
+1167|economy|state-monopolies|t|Dates and territorial scope of commodity monopolies.
+1168|finance,government|public-budgets,constitutions-and-laws|s|Fiscal responsibility schedule includes numerical percentages of national taxes assigned to local authorities.
+1169|finance|public-debt,foreign-exchange|s|Gold bond values converted into national currency.
+1170-1175|finance|taxation|s|Tax schedules and monetary exemption thresholds.
+1176|finance|taxation|t|Exempt document categories for stamp duty.
+1177|trade|tariffs|s|Customs tariff rates by goods category.
+1178-1181|finance|customs-revenue|s|Customs receipts and receipts lost at occupied ports.
+1182|trade|imports,exports|s|Foreign trade values of occupied and unoccupied ports.
+1183|finance|taxation|s|Wartime consumption tax rates and territorial applicability.
+1184|finance|customs-revenue,public-debt,indemnities|s|Customs receipts applied to loan service and indemnities.
+1185,1189|finance|public-debt,foreign-loans|s|Government foreign loan balances and debt service.
+1186,1188,1190|finance|public-debt|s|Internal government loans and redemption and interest payments.
+1191|finance|indemnities|s|Boxer indemnity balances and debt service.
+1192-1194|transportation|railways|s|Railway construction achievements, operating routes and distances.
+1195|transportation,military|railways,war-and-mobilisation|t|Named railway lines lost during the war; no loss quantities.
+1196,1199|transportation|roads-and-bridges|s|Highway routes and lengths.
+1197-1198|transportation|road-transport|s|Road passenger and freight service output; ton-kilometres are traffic measures, not costs.
+1200|transportation,military|shipping,war-and-mobilisation|s|Vessels and tonnage scuttled for defence.
+1201|utilities,government|river-conservancy,government-offices|t|Water conservancy office directory and jurisdictions.
+1202,1205-1206|transportation|aviation|s|Air traffic statistics and route distances.
+1203-1204|transportation|aviation|t|Air service routes and inauguration dates.
+1207|transportation|road-transport,inland-navigation|s|Multimodal stage transport lines with quantitative cargo traffic in descriptions.
+1208|communications|telephone|s|Telephone network lengths and construction dates.
+1209|communications|telegraph|s|Radio photo-telegram charges by image size.
+1210|communications|telegraph,telephone|s|Telegraph and telephone office counts.
+1211|communications,press|telegraph|s|Numerical press card fees associated with press telegram service.
+1212|communications|radio|s|Broadcast station wavelengths and frequencies.
+1213-1214|communications|postal-services|t|Postal organisation and district office directory.
+1215-1219,1222|communications|postal-services|s|Postal establishment, route and employee counts and postage rate schedules.
+1220|transportation|railways|s|Railway route length before and during the war.
+1221|communications|telegraph,telephone|s|Telegraph and telephone line lengths.
+1223|transportation|aviation|s|Commercial aircraft counts and air-route lengths.
+1224|transportation|shipping,inland-navigation|s|Vessel tonnage and inland water-route length.
+1225,1232-1233|crime-and-justice|courts|s|Criminal judicial review and supreme court caseload; cases need not be convictions.
+1226|crime-and-justice|civil-litigation,constitutions-and-laws|s|Civil review eligibility rules include quantified property-value thresholds.
+1227,1230-1231|crime-and-justice|civil-litigation,courts|s|Civil judicial review and supreme court caseload.
+1228-1229,1234|crime-and-justice|courts|s|Court counts and civil, criminal and administrative caseload.
+1235-1236|crime-and-justice,military|prisons,war-and-mobilisation|s|Prisoner releases for military service and other wartime dispositions.
+1237|crime-and-justice,education|courts,vocational-education|t|Eligibility categories for judicial officials' training.
+1238|crime-and-justice,finance|courts,insurance-and-pensions|s|Judicial pension amounts by length of service.
+1239|finance,crime-and-justice|public-budgets,courts|s|Judicial expenditures by year.
+1240|crime-and-justice,government|constitutions-and-laws|t|Civil and criminal law directory with promulgation and enforcement dates.
+1241|crime-and-justice|courts|t|Court directory by province and location.
+1242|crime-and-justice|prisons|t|Prison directory with locations and establishment dates.
+1243|crime-and-justice|courts,civil-litigation,nationality-and-ethnicity|s|Civil and criminal caseload involving foreign nationals under Chinese jurisdiction; absence of consular jurisdiction is not its exercise.
+1244|crime-and-justice||s|Certified lawyer counts; no approved detailed tag specifically covers the legal profession.
+1245|military|army|t|Military council organisation and named personnel.
+1246|military,labour|honours-and-ranks,wages|s|Monthly military pay by rank.
+1247|military,education|army,vocational-education|t|Military educational institution list.
+1248|military|honours-and-ranks|s|Quantified promotion waiting periods.
+1249|military|honours-and-ranks,age-and-sex|s|Age limits by military rank.
+1250|military|honours-and-ranks|t|Military decorations and award criteria.
+1251|military,welfare|military-casualties,veterans-and-military-families|t|Compensation eligibility categories for killed and wounded servicemen.
+1252|military|air-force,honours-and-ranks|t|Air force rank equivalents.
+1253|military|navy|t|Naval headquarters organs and functions.
+1254|military|navy,honours-and-ranks|t|Naval rank equivalents.
+1255|military|navy|s|Warship dimensions, tonnage, speed and armament.
+1256|military|military-casualties,war-and-mobilisation|s|Reported enemy casualties and captured material.
+1257|military|war-and-mobilisation|s|Campaign counts and enemy force strengths.
+1258|education,military|higher-education,war-and-mobilisation|t|Institutions relocated in wartime, with original and present sites.
+1259-1261|education,military|higher-education,war-and-mobilisation|s|Monetary wartime losses to university property.
+1262-1264,1266|education,finance|higher-education,education-finance|s|Higher education receipts, expenditures and asset values.
+1265|education|higher-education,libraries,education-finance|s|University library holdings and additions to buildings and equipment.
+1267|education|higher-education|s|University entrance examination counts by college field.
+1268|education,labour|higher-education,employment-and-unemployment|s|Graduate employment counts by employing organisation.
+1269|education|higher-education|s|Graduate departments by university, with substantive numerical department counts in descriptions.
+1270|education|higher-education|t|University directory of presidents and locations.
+1271|education,finance|secondary-education,education-finance|s|Secondary school annual expenditures.
+1272|education,finance|teacher-training,education-finance|s|Allocation of normal-school grants.
+1273|education,finance|vocational-education,education-finance|s|Allocation of vocational-school appropriation.
+1274|education|secondary-education,schools-and-pupils|s|Secondary student counts by institution type.
+1275|education|secondary-education|s|Secondary graduates by institution type.
+1276|education|primary-education,teachers,education-finance|s|Primary schools, staff, pupils, graduates and appropriations.
+1277|education|primary-education|s|Nucleus and people's primary school counts.
+1278-1279|education|literacy-and-adult-education|s|Social and mass education facilities and their distribution.
+1280|education|libraries|s|Library counts by locality.
+1281-1282|education,finance|literacy-and-adult-education,education-finance|s|Social education appropriations and expenditures.
+1283|education|schools-and-pupils,teacher-training|s|School counts by level in border provinces; location alone does not imply assimilation or Indigenous education.
+1284|science-and-technology,press|scientific-research,books|t|Bibliography of biological research publications.
+1285-1288|education,science-and-technology|education-finance,scientific-research|s|Education and scientific foundation grants and payments by recipient or purpose.
+1289|science-and-technology,press|scientific-research|s|Grants supporting academic publications.
+1290|culture,foreign-relations||t|International cultural service committee roster; no precise approved detailed tag for cultural exchange administration.
+1291|education,military|schools-and-pupils,war-and-mobilisation|s|War losses of school and social education property.
+1292|education,welfare|higher-education,refugees-and-displacement,education-finance|s|Relief and placements for displaced college teachers and students.
+1293-1294|education,welfare|students-abroad,education-finance|s|Relief to students abroad and returning students.
+1295|education,welfare|secondary-education,refugees-and-displacement,education-finance|s|Relief to displaced middle school students.
+1296|education,welfare|teachers,refugees-and-displacement|s|Relief and work assignments for displaced school staff.
+1297|education,welfare|literacy-and-adult-education|s|Relief placements for social education workers.
+1298|economy,military|economic-controls,constitutions-and-laws,war-and-mobilisation|t|Wartime industrial control legislation and promulgation dates.
+1299-1300|manufacturing|industrial-output|s|Factory counts and growth.
+1301|utilities|electricity|s|Power-plant output growth.
+1302-1303|manufacturing|machinery|s|Machinery and electrical appliance material production indices.
+1304|manufacturing|chemicals|s|Chemical industry production indices.
+1305|manufacturing,military|industrial-output,war-and-mobilisation|s|Factories removed to the interior during wartime.
+1306|labour,manufacturing|employment-and-unemployment,industrial-output|s|Skilled workers in relocated factories by industry.
+1307|manufacturing,military|industrial-output,war-and-mobilisation|s|Relocated factory counts, machinery and workers.
+1308-1309|finance,economy|savings-and-loans,securities-and-investment,production-subsidies|s|Government financial assistance to productive enterprises by loan, investment and industry.
+1310-1312|finance,manufacturing|savings-and-loans|s|Industrial loans by industry and purpose.
+1313-1316|manufacturing|industrial-output|s|Private factory counts, industry shares and production indices.
+1317|manufacturing|paper-and-pulp|s|Paper mill daily output.
+1318|manufacturing|leather-and-furs|s|Tannery monthly production.
+1319|manufacturing|alcohol|s|Alcohol factory daily production.
+1320|manufacturing|sugar|s|Sugar refinery production.
+1321|manufacturing|petroleum|s|Oil refining plant fuel output.
+1322-1324|manufacturing|chemicals|s|Resin, turpentine, soap and glycerine production.
+1325|manufacturing|industrial-output|s|Candle factory production; no specific candle tag.
+1326-1327|manufacturing|cement-and-bricks|s|Cement and fire brick production.
+1328|manufacturing|chemicals|s|Match factory counts and production.
+1329|manufacturing|cotton|s|Cotton mill spindle capacity.
+1330|manufacturing|textiles|s|Textile dyeing capacity by factory.
+1331|manufacturing|food-processing|s|Flour mill daily production.
+1332|manufacturing|tobacco|s|Rolled tobacco daily production.
+1333|economy,manufacturing|cooperatives|t|Industrial cooperative depot regions and constituent provinces.
+1334|economy,manufacturing|cooperatives|s|Numerical allocation of cooperative profits by purpose.
+1335-1338|economy,manufacturing|cooperatives,industrial-output|s|Industrial cooperative membership, establishments, capital and production.
+1339|economy,finance|cooperatives,savings-and-loans|s|Loans to industrial cooperatives by lender.
+1340|economy,education|cooperatives,vocational-education|s|Industrial cooperative personnel training counts.
+1341|welfare,economy|welfare-institutions,cooperatives|s|Multifunction welfare facilities maintained by industrial cooperatives.
+1342|welfare,economy|veterans-and-military-families,cooperatives|s|Industrial cooperatives for wounded soldiers and military families.
+1343|manufacturing,trade|cement-and-bricks,domestic-trade|s|Cement and hydraulic lime production and sales.
+1344|manufacturing|cement-and-bricks|s|Distribution of cement output by end use.
+1345|economy,manufacturing|economic-controls,chemicals|s|Caustic soda allocations by consuming industry.
+1346|labour,economy|working-conditions,economic-controls|t|Industry categories subject to skilled labour controls.
+1347-1351|labour|wages|s|Nominal and real wage and worker income indices.
+1352|labour|trade-unions|s|Registered labour unions and membership by locality and type.
+1353|mining|mineral-production|s|Mining area counts by province and mineral; no legal-rights measure is specified.
+1354-1355|mining|mineral-production|s|Multi-mineral production quantities.
+1356|mining|mineral-reserves|s|Estimated reserves across minerals.
+1357|mining|coal,mineral-reserves|s|Coal reserves by province and type.
+1358-1361|mining|coal|s|Coal production, growth and consumption.
+1362|mining,manufacturing|petroleum|s|Crude oil and refined fuel production growth.
+1363|mining|iron-ore,mineral-reserves|s|Iron ore reserves by deposit.
+1364|mining|tungsten,mineral-reserves|s|Tungsten ore reserves.
+1365|mining|tungsten|s|Tungsten ore production.
+1366|mining|manganese,mineral-reserves|s|Manganese ore reserves and content.
+1367|mining|manganese|s|Manganese ore production.
+1368|mining|gold|s|Gold production by locality.
+1369|mining|copper,mineral-reserves|s|Copper reserves and metal content.
+1370|mining|copper|s|Copper production by company and locality.
+1371|mining|lead-and-zinc|s|Lead and zinc production.
+1372|mining|tin|s|Tin production by locality.
+1373|trade|exports,tin|s|Tin ingot export quantities by port.
+1374|mining|mineral-production|s|Mercury production; no approved mercury tag.
+1375|mining|antimony,mineral-reserves|s|Antimony reserves.
+1376|mining,manufacturing|antimony|s|Antimony ore and pure metal production.
+1377|mining|salt|s|Salt production quantities.
+1378|mining|phosphate-rock,mineral-reserves|s|Phosphate mineral deposit reserves.
+1379|mining|mineral-reserves|s|Pyrite and contained sulphur reserves.
+1380|mining|mineral-production|s|Sulphur production; no specific sulphur tag.
+1381|finance|taxation,insurance-and-pensions|s|Stamp tax rates on insurance receipts.
+1382|finance|currency|s|Customs Gold Unit note issue amounts.
+1383|finance|banking|s|Bank directory with paid-up capital.
+1384-1385|finance|savings-and-loans|s|Savings balances, including foreign-currency deposits.
+1386-1388|finance|savings-and-loans,interest-rates|s|Savings certificate principal, interest and redemption value schedules.
+1389-1390|trade|exports,tea|s|Tea export quantities and values.
+1391|agriculture,manufacturing|sericulture,silk|s|Silkworm egg and improved silk production.
+1392-1394|trade|imports,exports|s|Port foreign trade values and import and export balances.
+1395,1397,1399|trade|imports|s|Import quantities, values and shares by port, commodity or country.
+1396,1398,1400|trade|exports|s|Export quantities, values and shares by port, commodity or country.
+1401|agriculture|tea|s|Tea production by province.
+1402|trade|exports,tea|s|Tea exports by destination and year.
+1403|agriculture|arable-land|t|Geographical definitions of arable farming regions.
+1404|agriculture|arable-land,households|s|Cultivated and cultivable acreage with farm household counts.
+1405-1406|agriculture|arable-land|s|Cultivated area indices and cultivable wasteland shares.
+1407|economy,agriculture|food-supply-and-rationing|s|Foodstuff supply surplus and shortfall estimates.
+1408-1409|health|nutrition|s|Per-capita food consumption by product and locality.
+1410,1414,1416,1418|agriculture|crop-production|s|Crop production estimates across crop types.
+1411,1415,1437-1444|agriculture|livestock|s|Livestock populations, production and values.
+1412|agriculture|crop-production,livestock|s|Crop area and production alongside livestock numbers.
+1413,1417|agriculture|arable-land,crop-production|s|Crop acreage by crop and province.
+1419|agriculture|wheat|s|Wheat acreage and production.
+1420|agriculture|barley|s|Barley acreage and production.
+1421-1422,1432|agriculture|crop-production|s|Pea, broad bean and sweet potato acreage and production; no exact crop-specific tags.
+1423,1434-1435|agriculture|oilseeds|s|Rapeseed, peanut and sesame acreage and production.
+1424,1427-1430|agriculture|cereals|s|Oat, sorghum, millet and maize acreage and production.
+1425-1426|agriculture|rice|s|Rice acreage and production.
+1431|agriculture|soybeans|s|Soybean acreage and production.
+1433|agriculture|cotton|s|Cotton crop acreage and lint production.
+1436|agriculture|tobacco|s|Tobacco crop acreage and production.
+1445-1447|agriculture|eggs-and-poultry|s|Chicken, duck and goose numbers and values.
+1448-1449,1451-1452|agriculture|agricultural-extension,crop-production,land-improvement|s|Food production promotion measures, areas treated and additional output.
+1450|agriculture|crop-production,cereals|s|Expected additional cereal production by region.
+1453-1454|agriculture|irrigation|s|Irrigation development, projects, command area and construction costs.
+1455|agriculture|irrigation|s|Irrigation capacity, cost and expected agricultural benefits.
+1456,1460|agriculture|land-reclamation|s|National farm and reclamation area development with reclaimed acreage and farmers.
+1457|forestry|forest-management,forest-area|s|Forest administration bureaus and controlled forest areas.
+1458|forestry|forest-management,timber|t|Model timber forest locations, tree types and uses.
+1459|forestry|afforestation|s|Nurseries, seedlings and trees planted.
+1461|agriculture|land-reclamation|t|Named national reclamation areas and provinces; no acreage or population measures.
+1462-1467|agriculture|land-tenure|s|Ownership and tenancy distributions, rent systems and crop shares.
+1468-1470|agriculture|arable-land|s|Farm size distributions by cultivated area.
+1471-1474|agriculture,trade|prices|s|Farm price quotations and indices of prices paid and received.
+1475,1494|agriculture,economy|prices,economic-indicators|s|Farm purchasing power indices relative to prices paid and received.
+1476-1479,1481-1483|agriculture,finance|agricultural-credit|s|Agricultural loan amounts by lender, province and purpose.
+1480,1484|agriculture,finance|irrigation,agricultural-credit|s|Bank-financed irrigation projects and proposed irrigation loans.
+1485|finance,economy|banking,cooperatives|s|Cooperative banks and their capital financed by government banks.
+1486-1487,1489-1490|agriculture,economy|cooperatives|s|Rural cooperative establishments, membership, capital and functional distribution.
+1488|agriculture,finance|cooperatives,agricultural-credit|s|Rural cooperative loans by function and province.
+1491-1492,1495-1498|trade,economy|prices,inflation|s|Wholesale and food price increases during wartime.
+1493|trade|prices|s|Wholesale cereal and soybean price quotations.
+1499|economy,government|price-controls,economic-controls,government-offices|t|Government organisations responsible for price and commodity controls.
+1500|military,economy|war-and-mobilisation,economic-controls|t|Categories of materials subject to national mobilisation.
+1501|finance|land-tax|s|Land tax collected in kind by province.
+1502|finance,economy|land-tax,food-supply-and-rationing|s|Grain tax collection and compulsory food purchases.
+1503-1504|economy|food-supply-and-rationing|s|Government food procurement quantities and targets.
+1505|economy|price-controls|t|Goods designated as daily necessities under equitable-price regulations.
+1506|health,government|government-offices,public-health|s|Health administration general affairs activity counts.
+1507|health,education|public-health,vocational-education|s|Public health personnel training counts.
+1508|health|medical-services|s|Medical registration and administration activities.
+1509|health,welfare|pharmaceuticals,foreign-aid|s|American Red Cross drug donations distributed.
+1510|health|vaccination|s|Vaccine quantities distributed.
+1511|health|medical-services|s|Hospital patients and visits.
+1512|health|medical-services,vaccination,maternal-and-child-health|s|Health station patient care, inoculations and deliveries.
+1513|health|epidemics,vaccination,medical-services|s|Anti-epidemic corps preventive and treatment services.
+1514-1515|health|quarantine,medical-services|s|Quarantine inspections, fumigation and clinical services.
+1516|health|diseases,medical-services|s|Venereal disease clinic patients and visits.
+1517|health,narcotics|pharmaceuticals|s|Medicinal narcotic and non-narcotic drug preparation quantities.
+1518,1524|health|pharmaceuticals,vaccination|s|Vaccine, antitoxin and serum manufacture.
+1519|health,government|public-health,local-government|t|Provincial and municipal health department directors.
+1520|health|medical-services|s|County health center counts.
+1521|health|medical-services|t|Health station directory.
+1522|health|medical-services,vaccination|s|Preventive and clinical health station activity.
+1523|health|public-health|s|Delousing station distribution.
+1525-1526|health|diseases,epidemics|s|Communicable disease cases and cholera outbreak mortality.
+1527|health|nutrition|t|Nutrition Promotion Committee roster.
+1528-1529|health|nutrition|s|Food nutrient composition and meal calories.
+1530|health,military|nutrition,army|s|Standard quantitative diet requirements for soldiers.
+1531-1532,1534|health,manufacturing|pharmaceuticals|t|Lists of drugs and essential medicines without production quantities.
+1533|health,manufacturing|pharmaceuticals,chemicals|s|Manufacturer directory includes quantitative output, working capital and native-material shares in descriptions.
+1535|health|medical-services,public-health|s|Public hospital, laboratory and health center counts.
+1536|health|medical-services|s|Private and mission hospital counts and beds, without a separate religious comparison.
+1537-1538|health,military|medical-services,army|t|Army medical service organisation and officials.
+1539-1541|health|medical-services|s|Red Cross clinical services and ambulance provision.
+1542|press|newspapers,periodicals|s|Publication counts by frequency.
+1543-1544,1546|press|newspapers|s|Newspaper counts by locality.
+1545|press|newspapers|t|Named Chinese-language daily newspapers.
+1547|press|news-agencies|s|News agency counts by locality.
+1548|press|periodicals|s|Periodical counts by locality.
+1549|press,crime-and-justice|censorship,offences-and-convictions|s|Counts of violence and intimidation suppressing the press.
+1550|press,crime-and-justice|newspapers,censorship|t|Named journalists murdered and their newspaper or agency affiliations.
+1551|press|news-agencies|s|Quantities of news dispatch words sent abroad by correspondents.
+1552|press|newspapers,news-agencies|t|Foreign correspondents and their affiliations.
+1553|press|newspapers,news-agencies,periodicals|s|Registered press establishments by type and locality.
+1554-1555,1559,1568-1569,1571-1572|welfare|refugees-and-displacement|s|Refugees assisted by relief bodies and stations, with associated appropriations where reported.
+1556-1558|welfare|refugees-and-displacement|t|Relief sections and refugee transit station locations and jurisdictions.
+1560|welfare,military|war-and-mobilisation,military-casualties|s|Air-raid deaths and injuries handled by emergency relief offices.
+1561|education,welfare|education-finance|s|Student relief appropriations by recipient institution.
+1562|welfare,agriculture|refugees-and-displacement,land-reclamation|s|Refugee reclamation settlements, acreage and residents; these are not foreign settler colonisation.
+1563|welfare,manufacturing|work-relief,industrial-output|s|Relief commission factories and their appropriations.
+1564-1565|welfare|child-welfare|s|Orphanage establishments and resident child counts.
+1566|health,welfare|medical-services|s|Relief commission grants to hospitals and clinics.
+1567|welfare,finance|public-budgets,refugees-and-displacement|s|Commission relief expenditure by nature and period.
+1570|welfare,population|overseas-communities,refugees-and-displacement|s|Relief funds for displaced South Seas Chinese.
+1573|welfare|child-welfare,refugees-and-displacement|s|Refugee children's association branches and orphanage counts.
+1574|welfare|child-welfare,refugees-and-displacement|t|War orphanage directory with founding dates and locations.
+1575-1576|welfare|child-welfare,refugees-and-displacement|t|War orphan care agency and orphanage directories.
+1577|welfare|child-welfare|s|Orphanages and resident child counts.
+1578-1579|welfare,religion|veterans-and-military-families,charitable-institutions,christianity|s|Christian service council facilities and care for wounded soldiers and refugees.
+1580|welfare,culture|veterans-and-military-families|s|Publicity and cultural activity delivered through wounded soldier hostels.
+1581-1583|welfare|veterans-and-military-families,charitable-institutions|s|Wounded soldier charity membership, fundraising and beneficiary counts.
+1584|welfare,economy|veterans-and-military-families,cooperatives|s|Disabled soldiers' cooperatives, membership and loans.
+1585|welfare|charitable-institutions|s|War relief donations in cash and kind.
+1586|welfare,manufacturing|veterans-and-military-families,work-relief,industrial-output|s|Relief association factories for soldiers' families, workers and output.
+1587-1588|health,welfare|medical-services,charitable-institutions|s|Medical corps staffing counts and services performed.
+1589|welfare|veterans-and-military-families|t|Wounded soldier service unit locations.
+1590|welfare|veterans-and-military-families|s|Beneficiaries by wounded soldier service.
+1591-1593,1596-1597|welfare|foreign-aid,charitable-institutions|s|Overseas relief donations, transfers, grants and allocations.
+1594-1595|welfare|charitable-institutions|s|Relief grants by province and national beneficiary organisation.
+1598-1600,1612|welfare|foreign-aid,charitable-institutions|t|United China Relief agencies and coordinating committee rosters.
+1601|welfare|child-welfare,charitable-institutions|t|Child welfare committee roster.
+1602|health,welfare|medical-services,charitable-institutions|t|Relief organisation medical committee roster.
+1603|education,welfare|charitable-institutions|t|Relief organisation educational committee roster; no more precise education detail fits the general committee.
+1604|welfare|charitable-institutions|t|Social rehabilitation committee roster.
+1605|disasters,welfare|disaster-relief,charitable-institutions|t|Disaster relief committee roster.
+1606|economy,welfare|reconstruction,charitable-institutions|t|Economic reconstruction committee roster.
+1607,1610|education,welfare|education-finance|t|Student relief and faculty aid committee rosters.
+1608-1609|education,welfare|education-finance|s|Student relief financial statements and grants.
+1611|education,welfare|education-finance,foreign-aid,mission-schools|s|United China Relief allocations to Christian colleges.
+1613|religion|christianity,missions|s|Protestant missionary counts by denomination.
+1614|religion|christianity,missions,religious-affiliation|s|Evangelistic workers, communicants, baptisms and Sunday school pupils by denomination.
+1615|religion|christianity,religious-institutions|s|Protestant churches by denomination.
+1616|welfare,religion|christianity,youth-organisations|t|YWCA association directory with founding dates.
+1617|religion,military|missions,war-and-mobilisation|s|Interned foreign missionary counts by city.
+1618|religion|christianity,missions|s|Catholic bishops' ages and foreign missionary counts.
+1619|religion|christianity,missions,religious-institutions|s|Counts of Catholic mission institutions of multiple kinds.
+1620|geography,population|physical-geography,weather,population-totals|s|City coordinates, altitude, area, population and weather measurements.
+1621|geography|land-area,land-surveys|s|Municipal expansion areas and surveyed land.
+1622|population|age-and-sex|s|Population age and sex distribution.
+1623|population,labour|age-and-sex,employment-and-unemployment|s|Able-bodied men by age and employment status; no recruitment measure is specified.
+1624|population|nationality-and-ethnicity,age-and-sex|s|Foreign resident counts by nationality and sex.
+1625-1626|government|local-government|t|Municipal officeholders and administrative organisation.
+1627|population|marriage-and-divorce,age-and-sex|s|Mass wedding participation by age and sex.
+1628|trade|companies|s|Business firm counts and capital by industry and city area.
+1629|trade,economy|domestic-trade,price-controls|s|Public necessities sales by goods category.
+1630|crime-and-justice|offences-and-convictions|s|Criminal offence cases and persons indicted.
+1631|finance|insurance-and-pensions|s|Business war insurance amounts and premiums.
+1632|government|administrative-divisions|s|Counts of local administrative units.
+1633|crime-and-justice|land-registration|s|Land registration cases handled by office section.
+1634-1635|finance|land-tax|s|Land values, property deeds and land tax receipts.
+1636-1639|finance|public-budgets|s|Municipal receipts, spending and central fiscal transfers.
+1640-1641|transportation|roads-and-bridges|s|Road construction lengths and routes.
+1642|transportation|road-transport|s|Vehicle and sedan chair licences issued.
+1643|health|vaccination|s|Preventive inoculations administered by sex and month.
+1644|health|public-health|s|Sanitation services, refuse collection and pest removal.
+1645|health|diseases,epidemics|s|Confirmed communicable disease cases.
+1646|press|censorship,books,periodicals|s|Books and magazine manuscripts examined by censorship bureau.
+1647|foreign-relations|diplomatic-service|s|Diplomatic identification card counts by mission.
+1648|utilities|water-and-sewerage|s|Waterworks supply and operating statistics.
+1649-1652|communications|telephone|s|Telephone lines, cable lengths, expansion spending and operating results.
+1653-1654|military|air-defence|s|Civilian air-raid shelter counts and capacities.
+1655|government|elections-and-parties|t|Kuomintang officers and membership roster.
+1656|government,military|government-offices,war-and-mobilisation|t|Supreme National Defense Council personnel.
+1657-1662|government|government-offices|t|Central government and Yuan officeholder rosters.
+1663|government|local-government|t|Provincial government officeholder rosters.
+1664|government|elections-and-parties|t|Political council member roster.
+1665-1667|foreign-relations|diplomatic-service|t|Diplomatic representative and mission staff rosters.
+1668-1669|science-and-technology|calendars-and-time|t|Holiday and farmer's calendar observances and dates.
+1670-1671|science-and-technology|measurement-and-units|s|Numerical unit conversion and weight equivalents.
+1672|geography|land-area|s|Territorial land areas.
+1673|government|administrative-divisions|s|Administrative unit counts and provincial capitals.
+1674|geography|physical-geography,land-area|s|Sea locations and approximate surface areas.
+1675|geography|physical-geography|s|Mountain peak heights.
+1676-1682|geography|rivers-and-waterways|s|River lengths and drainage areas.
+1683|geography|physical-geography,rivers-and-waterways|s|Lake surface areas and depths.
+1684|geography|weather|s|Season lengths by region.
+1685-1686|geography|weather|s|Monthly temperature and precipitation measurements.
+1687|population|population-totals,households,age-and-sex|s|Household and population counts by sex and district.
+1688|population|population-totals|s|Population densities by district.
+1689|population|births-and-deaths|s|Birth and death counts with population denominators.
+1690|population|overseas-communities|s|Overseas Chinese population by location.
+1691-1692|government|administrative-divisions|t|Lists of provinces, territory and centrally administered municipalities.
+1693,1696-1717,1721-1732|geography,population|land-area,population-totals,administrative-divisions|s|Provincial summary tables with area, population, administrative unit counts and capitals; every body row reviewed.
+1694|agriculture|land-tenure|s|Land rental rates and reductions by locality.
+1695|education|schools-and-pupils|s|Taiwan school counts and enrolment by level.
+1718|mining|coal,mineral-reserves|s|Coal deposits and annual mine output.
+1719|mining|iron-ore,mineral-reserves|s|Iron ore deposits and metal content.
+1720|transportation|railways|t|Named principal railway lines.
+1733|geography,population|land-area,population-totals|s|Territorial area and estimated population with capital.
+1734|population|nationality-and-ethnicity|s|Estimated Mongol population by area.
+1735|transportation|ports|t|Port names classified by administrative grade.
+1736|transportation|ports|s|Wharf and shoreline lengths by harbour depth.
+1737|history|historical-chronologies|t|Dynastic accession chronology.
+1738-1740,1743|government|government-offices|t|Presidential and executive officeholder terms, ministries and government directory.
+1741-1742|government|government-offices|s|Successful public examination candidates and Control Yuan oversight caseload.
+1744|military|war-and-mobilisation|t|Named war periods and their dates; no quantitative durations or losses.
+1745|military|army,war-and-mobilisation|s|Japanese force strength by year.
+1746-1747|military|military-casualties,war-and-mobilisation|s|War deaths, wounded and missing personnel.
+1748|military|war-and-mobilisation|s|Battle and engagement counts.
+1749|military,finance|public-budgets,war-and-mobilisation|s|Military share of national wartime expenditure.
+1750|military|recruitment-and-conscription,war-and-mobilisation|s|Men drafted by province and war year.
+1751|military|army,war-and-mobilisation|t|Commanders assigned to receive surrender by area.
+1752|military|arms-and-arsenals,war-and-mobilisation|s|Quantities of surrendered Japanese arms and military equipment.
+1753|welfare,labour|veterans-and-military-families,employment-and-unemployment|s|Demobilised officer employment placements by type.
+1754|military|honours-and-ranks,age-and-sex|s|Numerical retirement and discharge ages by rank.
+1755|military|army,honours-and-ranks|t|Army rank and insignia descriptions; star and stripe counts specify the badge design.
+1756|military|navy,honours-and-ranks|t|Naval rank and insignia descriptions.
+1757-1762,1764|military|air-force,war-and-mobilisation|s|Air force combat performance counts.
+1763|military|military-casualties,war-and-mobilisation|s|Enemy air raids and civilian casualties and damage.
+1765|military|air-force,honours-and-ranks|t|Air force rank and insignia descriptions.
+1766|military|army|t|Regional military supply headquarters and service territories.
+1767|military,welfare|veterans-and-military-families,welfare-institutions|s|Military special service facilities and counts.
+1768-1773|crime-and-justice|courts|s|Courts, judicial sections and civil, criminal and administrative caseload.
+1774|government|government-offices|s|Disciplinary commission cases against public functionaries.
+1775-1776|crime-and-justice|courts,nationality-and-ethnicity|s|Court cases involving foreign nationals by location and nationality.
+1777|crime-and-justice|prisons|s|Prisons and detention establishments by locality.
+1778|education|higher-education|t|Universities and colleges offering law courses.
+1779-1780|finance,crime-and-justice|public-budgets,courts|s|Judicial receipts and expenditure relative to national accounts.
+1781|crime-and-justice||s|Advocate licences issued; no approved detailed tag specifically covers the legal profession.
+1782-1785|crime-and-justice|police|s|Police establishments, personnel and organisation counts.
+1786|press,government|books|t|Bibliography of Sun Yat-sen's political writings.
+1787-1794|government|elections-and-parties|t|Political party officers and political consultation delegates.
+1795|foreign-relations|international-organisations|t|United Nations specialised agency memberships.
+1796|foreign-relations|international-organisations,diplomatic-service|t|Chinese representatives on the UN Security Council.
+1797|foreign-relations|international-organisations|t|Topics of a diplomatic statement to a UN political committee.
+1798-1799|manufacturing|industrial-output|s|Factory counts and capital by industry and locality.
+1800|labour,manufacturing|employment-and-unemployment,industrial-output|s|Factory staff and workers by industry and ownership.
+1801|manufacturing,military|industrial-output,war-and-mobilisation|s|Enemy industrial factories taken over after the war.
+1802|manufacturing,welfare|foreign-aid|s|Industrial aid programme material quantities and values.
+1803|utilities|electricity|s|Generators distributed to power plants and installed capacity.
+1804|economy,welfare|reconstruction,foreign-aid|s|ECA replacement and reconstruction aid projects and allocations.
+1805|finance,welfare|foreign-loans,foreign-aid|s|ECA loan-funded industrial and mining project amounts.
+1806|manufacturing|cotton|s|Cotton mill spindle and loom capacity.
+1807|economy,labour|companies,employment-and-unemployment|s|National Resources Commission enterprises, subordinate units and workforce across mining, utilities and manufacturing.
+1808|manufacturing,mining|industrial-output,mineral-production,electricity|s|Production across NRC manufacturing, mining and power enterprises.
+1809|science-and-technology,manufacturing|scientific-research,paper-and-pulp|t|Paper laboratory research project descriptions.
+1810|science-and-technology,forestry|scientific-research|t|Titles and subjects of forest product research reports.
+1811|science-and-technology,manufacturing|scientific-research,chemicals|s|Chemical research descriptions include a measured 80 percent camphor conversion yield.
+1812|science-and-technology,manufacturing|scientific-research,ceramics-and-glass|s|Ceramics research descriptions quantify materials analysed.
+1813-1815|mining|mineral-production|s|Mining establishment counts and areas and multi-mineral output; no licensing measure specified.
+1816|mining|coal,mineral-reserves|s|Coal reserve estimates by province.
+1817|mining|coal|s|Coal production by province.
+1818|mining|iron-ore,mineral-reserves|s|Estimated iron ore reserves.
+1819|mining,manufacturing||s|Iron production totals do not explicitly distinguish ore from smelted iron; leave the detailed tag open for review.
+1820-1821|manufacturing|iron-and-steel|s|Steel and pig iron production.
+1822|mining|petroleum,mineral-reserves|s|Oil and oil shale reserves.
+1823|mining|manganese,mineral-reserves|s|Manganese ore reserves and content.
+1824|mining|gold|s|Annual gold production.
+1825|mining|copper,mineral-reserves|s|Estimated contained copper reserves.
+1826-1827|mining|mineral-reserves|s|Alum and bauxite reserves; no exact approved commodity tags.
+1828,1862|mining|salt|s|Salt production by district.
+1829|agriculture|irrigation|s|Completed irrigation projects, irrigated areas and yields.
+1830-1831|agriculture,finance|irrigation,agricultural-credit|s|Irrigation project areas, loan and fund allocations and additional yields.
+1832|disasters,welfare|floods,disaster-losses,refugees-and-displacement|s|Flood inundation, displacement and crop losses following the Yellow River dike cutting.
+1833-1834|utilities|flood-control,river-conservancy|s|Flood prevention and dike repairs, protected areas and work quantities.
+1835|labour|trade-unions|s|Labour union counts and membership.
+1836-1837|labour|wages,cost-of-living|s|Worker income, real wages and living cost indices.
+1838|labour|labour-disputes|s|Labour disputes, affected establishments and workers and duration.
+1839|labour,government|elections-and-parties,local-government|s|Labour representatives on local councils.
+1840-1848|trade,economy|prices,inflation|s|Wholesale and retail price indices during wartime and postwar inflation.
+1849|communications,transportation|telegraph,railways,war-and-mobilisation|s|Telegraph line, railway, bridge and station destruction in the civil war.
+1850-1853|finance|public-budgets|s|National budget revenues, expenditures and deficits.
+1854-1855|finance|customs-revenue|s|Monthly customs receipts.
+1856|trade|imports,exports|t|Lists of principal import and export commodities; item numbers are enumeration.
+1857|trade|imports,exports|s|Foreign merchandise trade values and import excess.
+1858-1860|finance|taxation|s|Commodity tax rates and receipts.
+1861|finance|salt-tax|s|Annual salt revenue.
+1863|finance|public-debt|s|Government domestic bond redemption multiples.
+1864|finance|savings-and-loans|s|Loans to mining and other industries by sector.
+1865|finance|savings-and-loans|s|Loans to transport, communication and utility recipients.
+1866|finance,mining|savings-and-loans,salt|s|Loans to salt production and distribution.
+1867|finance,economy|savings-and-loans,food-supply-and-rationing|s|Food procurement programme loans.
+1868-1869|finance,trade|savings-and-loans,exports|s|Export finance by bank and commodity.
+1870|finance|savings-and-loans|s|Loans to government, education and other public organisations.
+1871-1872|finance,agriculture|agricultural-credit|s|Ordinary and special agricultural loans by purpose.
+1873|finance|banking,savings-and-loans|s|Central bank lending, rediscounts and deposit reserves.
+1874-1875|finance|banking|s|Bank clearing turnover and central bank income statement.
+1876|finance|savings-and-loans,securities-and-investment|s|Bank of China loans and investments.
+1877-1878|finance|banking,savings-and-loans|s|Bank business turnover, deposits and lending.
+1879|finance|savings-and-loans|s|Farmers' Bank outstanding loans; lender name alone does not establish agricultural use.
+1880|finance|savings-and-loans,securities-and-investment|s|Farmers' Bank aggregate loans and investments.
+1881-1882,1885|finance|banking|t|Bank directories and banking supervision territories.
+1883-1884|finance|banking|s|County bank and branch counts and minimum bank capital requirements.
+1886-1887|economy|cooperatives|s|Cooperative society counts, membership, capital and functional shares.
+1888|trade|imports,exports|s|Monthly foreign trade values.
+1889|trade|imports|t|Ranked import group names without quantities or values; serial ranks are not statistical data.
+1890|trade|exports|t|Ranked export group names without quantities or values.
+1891|trade|imports|s|Quantities of principal imports.
+1892|trade|exports|s|Export quantities and values across several mineral products; no incidental mineral subset is privileged.
+1893|trade,mining|exports,mineral-production,industrial-output|s|Production and exports across mineral concentrates and refined metals.
+1894|trade|exports|s|Quantities of principal exports.
+1895-1896|trade,economy|imports,economic-controls|t|Import control schedules listing goods by tariff item; tariff numbers identify categories rather than rates.
+1897|trade,economy|imports,economic-controls|s|Import schedule includes measured bulb voltage ranges in product specifications.
+1898|trade,economy|imports,economic-controls|s|Import prohibitions include quantitative vehicle capacity and dollar-value thresholds.
+1899|trade,economy|exports,economic-controls|t|Goods subject to export prohibition or permission.
+1900,1904,1907,1909,1911,1913,1915,1917|agriculture|crop-production|s|Production quantities across multiple crop types.
+1901,1905,1918-1920|agriculture|livestock|s|Livestock production or populations by type and province.
+1902|agriculture|crop-production,livestock|s|Crop acreage and production alongside livestock numbers.
+1903,1906,1908,1910,1912,1914,1916|agriculture|arable-land,crop-production|s|Crop acreage across multiple crop types.
+1921|agriculture|agricultural-extension|s|Locust infestation, crop damage and pest-control measures.
+1922|agriculture|agricultural-extension,farm-inputs|s|Extension of improved crop varieties and areas covered.
+1923|agriculture|cotton|s|Cotton acreage and lint production.
+1924|agriculture|tea|s|Tea production estimates by kind.
+1925|manufacturing|tung-oil|s|Tung oil production quantities by province.
+1926|trade|tung-oil,warehousing|s|Tung oil storage capacity and increases.
+1927|economy|food-supply-and-rationing|s|Food procurement targets and actual collections.
+1928|economy,finance|food-supply-and-rationing,land-tax|s|Food collected through tax in kind, government borrowings and purchases.
+1929|forestry|forest-area,timber|s|Forest areas and standing timber reserves.
+1930|forestry,utilities|afforestation,forest-management,erosion-control|s|Planned forest creation and protection and soil and water conservation areas.
+1931|forestry|afforestation|s|Forestry nursery area, seedlings and tree planting.
+1932|agriculture,health|veterinary-health,vaccination|s|Animal disease prevention, treatment and veterinary vaccine manufacture.
+1933|agriculture,welfare|livestock,foreign-aid|s|UNRRA breeding livestock distribution.
+1934|agriculture|livestock,agricultural-extension,veterinary-health|s|Animal breed improvement and husbandry extension results.
+1935|trade,fisheries|domestic-trade,markets-and-exchanges,fishing|s|Fish market sales quantities.
+1936|fisheries|fishing|s|Fishermen and fish catch by province.
+1937|agriculture|arable-land,households|s|Cultivated and cultivable land with farm household counts.
+1938|geography|land-surveys|s|Land surveyed by locality and year.
+1939-1941|agriculture|land-tenure|s|Owner, tenant and part-owner farmer shares.
+1942|crime-and-justice|land-registration|s|Land rights registration fees by assessed value.
+1943,1945,1947-1948,1950-1954,1956|transportation|railways|s|Railway route lengths, operational mileage and repairs.
+1944,1955|transportation,military|railways,war-and-mobilisation|s|Railway destruction, serviceability and emergency repair quantities.
+1946|transportation,economy|railways,reconstruction|s|Postwar railway rehabilitation lengths and completion dates.
+1949|transportation|railways|t|Operating railway sections identified by endpoints and month; no route lengths.
+1957|transportation|roads-and-bridges|s|Annual highway construction and accumulated length.
+1958|transportation|shipping|s|Vessels operating by type and area.
+1959|transportation|inland-navigation|s|Navigable waterway length by vessel type.
+1960-1961|transportation|shipping,ports|s|Sea-route distances between ports.
+1962-1963|transportation|inland-navigation,ports|s|River-route distances between inland ports.
+1964,1966-1970|transportation|aviation|s|Air traffic, cargo output and route lengths.
+1965|transportation,military|aviation,war-and-mobilisation|s|Wartime air freight over the Hump.
+1971|communications,transportation|postal-services,aviation|s|Airmail route lengths and mail weights.
+1972-1973|communications|telegraph,telephone,radio|s|Telecommunication office jurisdictions with numerical office counts, and comparative network facilities.
+1974|education|schools-and-pupils|s|Public school, class, pupil and graduate counts; level not explicit in table.
+1975|education|literacy-and-adult-education|s|Literates, illiterates and literacy shares.
+1976|education|secondary-education,teachers|s|Secondary school, student and faculty counts by school type.
+1977|education|higher-education|s|University enrolment by field and ownership.
+1978|education|higher-education,teachers|s|Higher education faculty by rank and institution type.
+1979|education|higher-education|t|University and college directory of presidents and locations; section heading totals enumerate the listed entries.
+1980-1981|education,finance|education-finance|s|Educational and cultural expenditure and budget shares.
+1982|education,finance|higher-education,education-finance|s|University and independent college minimum organisation and maintenance costs.
+1983|education,finance|vocational-education,education-finance|s|Polytechnical institution minimum organisation and maintenance costs.
+1984|education,finance|secondary-education,education-finance|s|Middle school minimum organisation and maintenance costs.
+1985|education|students-abroad|s|Students abroad by field and year.
+1986|education|literacy-and-adult-education|s|Social education establishment counts.
+1987|education,finance|education-finance|s|Grants to educational and cultural institutions by purpose.
+1988|education,foreign-relations|students-abroad|s|British Council visitor, fellow and student counts.
+1989|press|newspapers|t|Taipeh daily newspaper and publisher directory.
+1990-1992|health|medical-services|s|Health center counts, hospital beds, personnel and patient attendance.
+1993|health,religion|medical-services,missions|s|Missionary hospital counts by operational status.
+1994|narcotics,health|opium,morphine-and-heroin,pharmaceuticals|s|Medicinal narcotic production and sales.
+1995|health,manufacturing|pharmaceuticals|s|Drug production quantities.
+1996|health,manufacturing|pharmaceuticals,vaccination|s|Vaccine and biological product manufacture.
+1997|health|diseases,epidemics|s|Epidemic cases and deaths.
+1998|health|epidemics,medical-services,vaccination|s|Anti-epidemic corps treatment and inoculation activities.
+1999|health|epidemics,public-health|s|Plague prevention, pest control and disinfection work.
+2000|health,education|public-health,schools-and-pupils|s|School health examination findings by school level.
+2001|health,military|medical-services,army|s|Army medical personnel available and required.
+2002|health,welfare|medical-services,foreign-aid|s|CNRRA medical supply distribution by region.
+2003-2007,2010-2013|welfare|foreign-aid|s|UNRRA and other external relief programme supplies, allocations and budgets.
+2008-2009|welfare,population|refugees-and-displacement,overseas-communities,migration|s|Displaced overseas Chinese repatriated and awaiting repatriation.
+2014|agriculture,economy|rural-development,reconstruction,foreign-aid|s|Joint Commission on Rural Reconstruction project commitments.
+2015|economy,welfare|reconstruction,foreign-aid|s|Industrial reconstruction engineering aid allocations.

@@ -1,0 +1,741 @@
+{
+  "models": {
+    "haiku": {
+      "model": "anthropic/claude-haiku-5-5",
+      "vocabulary_version": "1.0.2-pilot",
+      "structural_issues": [],
+      "returned_tables": 10,
+      "exact_assignment_set_matches": 2,
+      "topic_set_matches": 3,
+      "detailed_tag_set_matches": 5,
+      "flag_matches": 9,
+      "records_with_review_questions": 3,
+      "elapsed_seconds": 17.237,
+      "usage": {
+        "input_tokens": 71944,
+        "output_tokens": 1357,
+        "token_details": "{\"output_tokens_details\": {\"thinking_tokens\": 0}}",
+        "duration_ms": 15682,
+        "model": "anthropic/claude-haiku-5-5"
+      },
+      "comparisons": {
+        "china-1916:p0125_6": {
+          "reference": {
+            "topics": [
+              "transportation"
+            ],
+            "tags": [
+              "trams"
+            ],
+            "flags": [
+              "text-tables"
+            ]
+          },
+          "model_assignment": {
+            "topics": [
+              "utilities"
+            ],
+            "tags": [
+              "trams"
+            ],
+            "flags": [],
+            "rationale": "Single-column list of cities where electric tramways operate or are under construction; the subject is tramway locations, confirmed as tram systems by the title Electric Tramways.",
+            "review_questions": []
+          },
+          "matching_sets": {
+            "topics": false,
+            "tags": true,
+            "flags": false
+          },
+          "matching_order": {
+            "topics": false,
+            "tags": true,
+            "flags": false
+          }
+        },
+        "korea-1942:p0131_1": {
+          "reference": {
+            "topics": [
+              "sport"
+            ],
+            "tags": [
+              "sports-participation"
+            ],
+            "flags": []
+          },
+          "model_assignment": {
+            "topics": [
+              "culture"
+            ],
+            "tags": [
+              "sports-participation"
+            ],
+            "flags": [],
+            "rationale": "Counts of participants by sport at the 16th Korea Shrine Athletic Meet; entrant numbers rather than results, so sports-participation applies, with the sporting subject marked by the sport topic in the same record.",
+            "review_questions": []
+          },
+          "matching_sets": {
+            "topics": false,
+            "tags": true,
+            "flags": true
+          },
+          "matching_order": {
+            "topics": false,
+            "tags": true,
+            "flags": true
+          }
+        },
+        "taiwan-tokei-1925:p0263_2": {
+          "reference": {
+            "topics": [
+              "transportation"
+            ],
+            "tags": [
+              "railways"
+            ],
+            "flags": []
+          },
+          "model_assignment": {
+            "topics": [
+              "transportation"
+            ],
+            "tags": [
+              "trams",
+              "railways"
+            ],
+            "flags": [],
+            "rationale": "Light-railway (push-car track) operators with route length and handcar numbers by district, 1925. Track is described as 軌道 with handcars, so trams is confirmed only as a push-car line; the title mentions light railways, so railways is also included.",
+            "review_questions": [
+              "The 軌道 system is not clearly a street or interurban tram; the trams tag is a tentative fit for a mixed light-railway inventory and may need confirmation."
+            ]
+          },
+          "matching_sets": {
+            "topics": true,
+            "tags": false,
+            "flags": true
+          },
+          "matching_order": {
+            "topics": true,
+            "tags": false,
+            "flags": true
+          }
+        },
+        "japan-1937:p0409_1": {
+          "reference": {
+            "topics": [
+              "economy"
+            ],
+            "tags": [
+              "economic-indicators"
+            ],
+            "flags": []
+          },
+          "model_assignment": {
+            "topics": [
+              "economy"
+            ],
+            "tags": [
+              "economic-indicators"
+            ],
+            "flags": [],
+            "rationale": "Monthly index numbers spanning prices, export values, import quantities, industrial production, railway freights, bank clearings, note issue and stock quotations; a multi-domain economic barometer.",
+            "review_questions": []
+          },
+          "matching_sets": {
+            "topics": true,
+            "tags": true,
+            "flags": true
+          },
+          "matching_order": {
+            "topics": true,
+            "tags": true,
+            "flags": true
+          }
+        },
+        "japan-1939-40:p0696_1": {
+          "reference": {
+            "topics": [
+              "education",
+              "finance"
+            ],
+            "tags": [
+              "education-finance"
+            ],
+            "flags": []
+          },
+          "model_assignment": {
+            "topics": [
+              "education"
+            ],
+            "tags": [
+              "education-finance"
+            ],
+            "flags": [],
+            "rationale": "Governmental educational expenditure in yen by education category for 1936-37; a budget table for education.",
+            "review_questions": []
+          },
+          "matching_sets": {
+            "topics": false,
+            "tags": true,
+            "flags": true
+          },
+          "matching_order": {
+            "topics": false,
+            "tags": true,
+            "flags": true
+          }
+        },
+        "korea-tokanfu-1939:p0246_1": {
+          "reference": {
+            "topics": [
+              "finance"
+            ],
+            "tags": [
+              "public-budgets"
+            ],
+            "flags": []
+          },
+          "model_assignment": {
+            "topics": [
+              "finance"
+            ],
+            "tags": [
+              "public-budgets"
+            ],
+            "flags": [],
+            "rationale": "Government-General special account revenue and expenditure by fiscal year, with ordinary and extraordinary sections; a public budget table.",
+            "review_questions": []
+          },
+          "matching_sets": {
+            "topics": true,
+            "tags": true,
+            "flags": true
+          },
+          "matching_order": {
+            "topics": true,
+            "tags": true,
+            "flags": true
+          }
+        },
+        "manchuria-1939:p0091_1": {
+          "reference": {
+            "topics": [
+              "population",
+              "agriculture"
+            ],
+            "tags": [
+              "migration",
+              "households",
+              "arable-land"
+            ],
+            "flags": []
+          },
+          "model_assignment": {
+            "topics": [
+              "population",
+              "colonial-rule"
+            ],
+            "tags": [
+              "settler-migration",
+              "households"
+            ],
+            "flags": [],
+            "rationale": "Settlement groups of a railway self-protective village with year of settlement, households, members and cultivated area; the settler scheme and household counts are the subject.",
+            "review_questions": [
+              "Whether the Manchukuo settlement scheme evidences foreign state-sponsored settlement sufficient for colonial-rule is a context judgement; colonial-rule is included cautiously."
+            ]
+          },
+          "matching_sets": {
+            "topics": false,
+            "tags": false,
+            "flags": true
+          },
+          "matching_order": {
+            "topics": false,
+            "tags": false,
+            "flags": true
+          }
+        },
+        "far-east-1941:IMG_5400_1": {
+          "reference": {
+            "topics": [
+              "agriculture",
+              "mining"
+            ],
+            "tags": [
+              "rubber",
+              "tin",
+              "rice"
+            ],
+            "flags": []
+          },
+          "model_assignment": {
+            "topics": [
+              "economy"
+            ],
+            "tags": [
+              "mineral-production",
+              "cereals"
+            ],
+            "flags": [],
+            "rationale": "Yearly production of rubber, tin ore and rice in Thailand; three commodities across mineral and crop categories. The rubber and tin series are primary products, and rice is a cereal, so the tags reflect the distinct commodity groups.",
+            "review_questions": [
+              "Three commodities from different sectors are compared; the classification selects mineral-production and cereals as representatives, while rubber is not separately tagged."
+            ]
+          },
+          "matching_sets": {
+            "topics": false,
+            "tags": false,
+            "flags": true
+          },
+          "matching_order": {
+            "topics": false,
+            "tags": false,
+            "flags": true
+          }
+        },
+        "nanyo-tokei-1937:p0041_3": {
+          "reference": {
+            "topics": [
+              "government"
+            ],
+            "tags": [
+              "hunting"
+            ],
+            "flags": []
+          },
+          "model_assignment": {
+            "topics": [
+              "government",
+              "culture"
+            ],
+            "tags": [
+              "hunting",
+              "police"
+            ],
+            "flags": [],
+            "rationale": "Hunting licences issued by year and by branch office, across recreational, professional and scientific purposes; principally government licensing administration per the rules, with the police chapter context.",
+            "review_questions": []
+          },
+          "matching_sets": {
+            "topics": false,
+            "tags": false,
+            "flags": true
+          },
+          "matching_order": {
+            "topics": false,
+            "tags": false,
+            "flags": true
+          }
+        },
+        "taiwan-tokei-1933:p0353_2": {
+          "reference": {
+            "topics": [
+              "narcotics",
+              "trade"
+            ],
+            "tags": [
+              "opium-licensing"
+            ],
+            "flags": []
+          },
+          "model_assignment": {
+            "topics": [
+              "health"
+            ],
+            "tags": [
+              "opium-licensing",
+              "opium"
+            ],
+            "flags": [],
+            "rationale": "Licensed opium-related traders by category and by prefecture, 1928-1933; a licensing inventory organised by wholesalers, retailers and suppliers under the health chapter.",
+            "review_questions": []
+          },
+          "matching_sets": {
+            "topics": false,
+            "tags": false,
+            "flags": true
+          },
+          "matching_order": {
+            "topics": false,
+            "tags": false,
+            "flags": true
+          }
+        }
+      }
+    },
+    "sonnet": {
+      "model": "anthropic/claude-sonnet-5-5",
+      "vocabulary_version": "1.0.2-pilot",
+      "structural_issues": [],
+      "returned_tables": 10,
+      "exact_assignment_set_matches": 8,
+      "topic_set_matches": 9,
+      "detailed_tag_set_matches": 8,
+      "flag_matches": 10,
+      "records_with_review_questions": 2,
+      "elapsed_seconds": 12.534,
+      "usage": {
+        "input_tokens": 71944,
+        "output_tokens": 1112,
+        "token_details": "{\"output_tokens_details\": {\"thinking_tokens\": 0}}",
+        "duration_ms": 11232,
+        "model": "anthropic/claude-sonnet-5-5"
+      },
+      "comparisons": {
+        "china-1916:p0125_6": {
+          "reference": {
+            "topics": [
+              "transportation"
+            ],
+            "tags": [
+              "trams"
+            ],
+            "flags": [
+              "text-tables"
+            ]
+          },
+          "model_assignment": {
+            "topics": [
+              "transportation"
+            ],
+            "tags": [
+              "trams"
+            ],
+            "flags": [
+              "text-tables"
+            ],
+            "rationale": "List of cities with electric tramways in operation or under construction; no quantities, only city names.",
+            "review_questions": []
+          },
+          "matching_sets": {
+            "topics": true,
+            "tags": true,
+            "flags": true
+          },
+          "matching_order": {
+            "topics": true,
+            "tags": true,
+            "flags": true
+          }
+        },
+        "korea-1942:p0131_1": {
+          "reference": {
+            "topics": [
+              "sport"
+            ],
+            "tags": [
+              "sports-participation"
+            ],
+            "flags": []
+          },
+          "model_assignment": {
+            "topics": [
+              "sport"
+            ],
+            "tags": [
+              "sports-participation"
+            ],
+            "flags": [],
+            "rationale": "Participant counts by sport at the 16th Korea Shrine athletic meet, 1940.",
+            "review_questions": []
+          },
+          "matching_sets": {
+            "topics": true,
+            "tags": true,
+            "flags": true
+          },
+          "matching_order": {
+            "topics": true,
+            "tags": true,
+            "flags": true
+          }
+        },
+        "taiwan-tokei-1925:p0263_2": {
+          "reference": {
+            "topics": [
+              "transportation"
+            ],
+            "tags": [
+              "railways"
+            ],
+            "flags": []
+          },
+          "model_assignment": {
+            "topics": [
+              "transportation"
+            ],
+            "tags": [
+              "railways"
+            ],
+            "flags": [],
+            "rationale": "Light-railway/push-car track operators with route length and handcar numbers by prefecture. The English layer says light railways, and 軌道 is not confirmed as street tramway, so trams is not assigned.",
+            "review_questions": [
+              "Are these 軌道 lines, mostly sugar and light railways with handcars, correctly kept under railways rather than trams?"
+            ]
+          },
+          "matching_sets": {
+            "topics": true,
+            "tags": true,
+            "flags": true
+          },
+          "matching_order": {
+            "topics": true,
+            "tags": true,
+            "flags": true
+          }
+        },
+        "japan-1937:p0409_1": {
+          "reference": {
+            "topics": [
+              "economy"
+            ],
+            "tags": [
+              "economic-indicators"
+            ],
+            "flags": []
+          },
+          "model_assignment": {
+            "topics": [
+              "economy"
+            ],
+            "tags": [
+              "economic-indicators"
+            ],
+            "flags": [],
+            "rationale": "Monthly index numbers combining prices, exports, imports, production, freights, clearings, notes and stocks, i.e. a multi-domain economic barometer.",
+            "review_questions": []
+          },
+          "matching_sets": {
+            "topics": true,
+            "tags": true,
+            "flags": true
+          },
+          "matching_order": {
+            "topics": true,
+            "tags": true,
+            "flags": true
+          }
+        },
+        "japan-1939-40:p0696_1": {
+          "reference": {
+            "topics": [
+              "education",
+              "finance"
+            ],
+            "tags": [
+              "education-finance"
+            ],
+            "flags": []
+          },
+          "model_assignment": {
+            "topics": [
+              "education",
+              "finance"
+            ],
+            "tags": [
+              "education-finance"
+            ],
+            "flags": [],
+            "rationale": "Governmental educational expenditure by item, a dedicated school-funding table.",
+            "review_questions": []
+          },
+          "matching_sets": {
+            "topics": true,
+            "tags": true,
+            "flags": true
+          },
+          "matching_order": {
+            "topics": true,
+            "tags": true,
+            "flags": true
+          }
+        },
+        "korea-tokanfu-1939:p0246_1": {
+          "reference": {
+            "topics": [
+              "finance"
+            ],
+            "tags": [
+              "public-budgets"
+            ],
+            "flags": []
+          },
+          "model_assignment": {
+            "topics": [
+              "finance"
+            ],
+            "tags": [
+              "public-budgets"
+            ],
+            "flags": [],
+            "rationale": "Government-General special account revenue and expenditure by fiscal year, with ordinary and extraordinary sections and indices.",
+            "review_questions": []
+          },
+          "matching_sets": {
+            "topics": true,
+            "tags": true,
+            "flags": true
+          },
+          "matching_order": {
+            "topics": true,
+            "tags": true,
+            "flags": true
+          }
+        },
+        "manchuria-1939:p0091_1": {
+          "reference": {
+            "topics": [
+              "population",
+              "agriculture"
+            ],
+            "tags": [
+              "migration",
+              "households",
+              "arable-land"
+            ],
+            "flags": []
+          },
+          "model_assignment": {
+            "topics": [
+              "population"
+            ],
+            "tags": [
+              "settler-migration"
+            ],
+            "flags": [],
+            "rationale": "Railway self-protective villages by settlement group, year, households, members and cultivated area. These are organised settlement groups in Manchuria.",
+            "review_questions": [
+              "Does the evidence of state-sponsored settlement suffice for settler-migration, or should the tag be migration?"
+            ]
+          },
+          "matching_sets": {
+            "topics": false,
+            "tags": false,
+            "flags": true
+          },
+          "matching_order": {
+            "topics": false,
+            "tags": false,
+            "flags": true
+          }
+        },
+        "far-east-1941:IMG_5400_1": {
+          "reference": {
+            "topics": [
+              "agriculture",
+              "mining"
+            ],
+            "tags": [
+              "rubber",
+              "tin",
+              "rice"
+            ],
+            "flags": []
+          },
+          "model_assignment": {
+            "topics": [
+              "agriculture",
+              "mining"
+            ],
+            "tags": [
+              "rubber",
+              "tin",
+              "rice"
+            ],
+            "flags": [],
+            "rationale": "Thailand annual production of rubber, tin ore and rice, three distinct commodities.",
+            "review_questions": []
+          },
+          "matching_sets": {
+            "topics": true,
+            "tags": true,
+            "flags": true
+          },
+          "matching_order": {
+            "topics": true,
+            "tags": true,
+            "flags": true
+          }
+        },
+        "nanyo-tokei-1937:p0041_3": {
+          "reference": {
+            "topics": [
+              "government"
+            ],
+            "tags": [
+              "hunting"
+            ],
+            "flags": []
+          },
+          "model_assignment": {
+            "topics": [
+              "government"
+            ],
+            "tags": [
+              "hunting"
+            ],
+            "flags": [],
+            "rationale": "Hunting licences issued for sport, professional and scientific purposes, by year and branch office. The rules treat this as government administration with hunting.",
+            "review_questions": []
+          },
+          "matching_sets": {
+            "topics": true,
+            "tags": true,
+            "flags": true
+          },
+          "matching_order": {
+            "topics": true,
+            "tags": true,
+            "flags": true
+          }
+        },
+        "taiwan-tokei-1933:p0353_2": {
+          "reference": {
+            "topics": [
+              "narcotics",
+              "trade"
+            ],
+            "tags": [
+              "opium-licensing"
+            ],
+            "flags": []
+          },
+          "model_assignment": {
+            "topics": [
+              "narcotics",
+              "trade"
+            ],
+            "tags": [
+              "opium-licensing",
+              "opium"
+            ],
+            "flags": [],
+            "rationale": "Licensed opium wholesalers, retailers, pipe makers and sellers by year and district. This is an opium-licence inventory organised by trader type.",
+            "review_questions": []
+          },
+          "matching_sets": {
+            "topics": true,
+            "tags": false,
+            "flags": true
+          },
+          "matching_order": {
+            "topics": true,
+            "tags": false,
+            "flags": true
+          }
+        }
+      }
+    }
+  },
+  "identical_input_file_sha256": {
+    "prompt.txt": "ba647c86476c27824899527ab567f4b26df423e2e59141153c9e55d0039bfef5",
+    "system.txt": "b3912f90b109d53b6c4d6342f9e9333f47ecc345d0cb6388a3a4be06674f212a",
+    "schema.json": "613c71fdf043b0f7052ac3f0a7f406bd6f370965674e65a095cba0991923ecf2",
+    "tables.json": "9f5d751faf21ee6fe9af6bbcd33eaa4150e92fc806a9082b858ef0154216f4a9",
+    "vocabulary.json": "45132cca2acd4cfd457a67a6f001799895d8357f966abfd18f66dacbe7e9d459",
+    "rules.md": "2787ebdfec857f83ef02824627bad28af49d212fef0ada06f081c32772fc295a"
+  },
+  "design": "Same10complete records, identical prompt/schema/settings, one successful batched response per model. Purposeful calibration cases; not a corpus accuracy estimate.",
+  "pilot_assignments_updated": false
+}

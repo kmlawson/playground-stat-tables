@@ -1,0 +1,120 @@
+{
+  "vocabulary_version": "1.1.0-optional-details",
+  "assignments": {
+    "china-1912:p0105_1": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "currency"
+      ],
+      "flags": [],
+      "rationale": "Gives exchange equivalents between kinds of tael (Haikuan, Kuping, Tientsin, Shanghai), which are monetary standards. This is a conversion table between currency units, not a foreign-exchange rate table.",
+      "review_questions": []
+    },
+    "china-1912:p0106_1": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "foreign-exchange"
+      ],
+      "flags": [],
+      "rationale": "Monthly Haikuan tael equivalents in sterling, francs, marks, US dollars, yen, rupees and Mexican dollars, which are exchange rates.",
+      "review_questions": []
+    },
+    "china-1912:p0106_2": {
+      "topics": [
+        "science-and-technology"
+      ],
+      "tags": [
+        "measurement-and-units"
+      ],
+      "flags": [],
+      "rationale": "Chinese weight unit conversion table (li, fen, ch'ien, liang, chin, tan).",
+      "review_questions": []
+    },
+    "china-1912:p0106_3": {
+      "topics": [
+        "science-and-technology"
+      ],
+      "tags": [
+        "measurement-and-units"
+      ],
+      "flags": [],
+      "rationale": "Weights fixed for foreign trade, with metric and avoirdupois equivalents.",
+      "review_questions": []
+    },
+    "china-1912:p0106_4": {
+      "topics": [
+        "science-and-technology"
+      ],
+      "tags": [
+        "measurement-and-units"
+      ],
+      "flags": [],
+      "rationale": "Chinese length unit conversions, including the customs ch'ih in inches and metres.",
+      "review_questions": []
+    },
+    "china-1912:p0106_5": {
+      "topics": [
+        "science-and-technology"
+      ],
+      "tags": [
+        "measurement-and-units"
+      ],
+      "flags": [],
+      "rationale": "Standard ch'ih lengths in inches across trades; a measurement standards comparison.",
+      "review_questions": []
+    },
+    "china-1912:p0107_1": {
+      "topics": [
+        "science-and-technology"
+      ],
+      "tags": [
+        "measurement-and-units"
+      ],
+      "flags": [],
+      "rationale": "Area unit conversion tables (ssu, hao, li, fen, mow, ch'ing, pu).",
+      "review_questions": []
+    },
+    "china-1912:p0107_2": {
+      "topics": [
+        "science-and-technology"
+      ],
+      "tags": [
+        "measurement-and-units"
+      ],
+      "flags": [],
+      "rationale": "Capacity unit conversions (ko, sheng, tow, shih).",
+      "review_questions": []
+    },
+    "china-1912:p0108_1": {
+      "topics": [
+        "manufacturing"
+      ],
+      "tags": [
+        "industrial-output"
+      ],
+      "flags": [],
+      "rationale": "Counts of foreign and Chinese factories across 39 trades, a multi-industry establishment inventory, so the aggregate tag fits rather than selecting individual industries.",
+      "review_questions": []
+    },
+    "china-1912:p0111_1": {
+      "topics": [
+        "trade",
+        "history"
+      ],
+      "tags": [
+        "historical-chronologies"
+      ],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "Chronological list of years when Western nations first had direct trade dealings with China; the years are dates, not statistical quantities.",
+      "review_questions": [
+        "Is a tag for early foreign-trade history needed? Historical-chronologies is used as the closest fit."
+      ]
+    }
+  }
+}

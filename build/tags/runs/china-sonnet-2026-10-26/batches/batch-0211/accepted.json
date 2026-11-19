@@ -1,0 +1,134 @@
+{
+  "vocabulary_version": "1.1.0-optional-details",
+  "assignments": {
+    "china-1916:p0228_1": {
+      "topics": [
+        "trade",
+        "finance"
+      ],
+      "tags": [
+        "imports",
+        "currency"
+      ],
+      "flags": [],
+      "rationale": "Bullion (gold, silver, copper coins) imports into China by country of origin, 1911-1912; a trade table in Haikwan taels. Specie movements relate to currency, but imports is the primary subject.",
+      "review_questions": []
+    },
+    "china-1916:p0228_2": {
+      "topics": [
+        "trade",
+        "finance"
+      ],
+      "tags": [
+        "exports",
+        "currency"
+      ],
+      "flags": [],
+      "rationale": "Bullion (gold, silver, copper coins) exports from China by destination country, 1911-1912.",
+      "review_questions": []
+    },
+    "china-1916:p0229_1": {
+      "topics": [
+        "trade",
+        "finance"
+      ],
+      "tags": [
+        "imports",
+        "currency"
+      ],
+      "flags": [],
+      "rationale": "Block of specie statistics by metal for 1913-1914, with country rows unlabeled; the context says imported or exported, and the first block matches the import table's continuation.",
+      "review_questions": [
+        "Row labels (countries) are missing; is this block imports or exports?"
+      ]
+    },
+    "china-1916:p0229_2": {
+      "topics": [
+        "trade",
+        "finance"
+      ],
+      "tags": [
+        "exports",
+        "currency"
+      ],
+      "flags": [],
+      "rationale": "Second block of specie statistics by metal for 1913-1914, continuing the export table (row values match the 1912 export figures).",
+      "review_questions": [
+        "Row labels are missing from the transcription, so the import/export direction is inferred from the matching 1912 totals."
+      ]
+    },
+    "china-1916:p0230_1": {
+      "topics": [
+        "trade",
+        "finance"
+      ],
+      "tags": [
+        "imports",
+        "exports",
+        "currency"
+      ],
+      "flags": [],
+      "rationale": "Bullion and specie imports and exports in sterling, 1911-1914, with net balance; covers gold, silver and copper coin movements.",
+      "review_questions": []
+    },
+    "china-1916:p0234_1": {
+      "topics": [
+        "transportation"
+      ],
+      "tags": [
+        "railways"
+      ],
+      "flags": [],
+      "rationale": "Inventory of railways open or under construction with opening dates and mileage.",
+      "review_questions": []
+    },
+    "china-1916:p0238_1": {
+      "topics": [
+        "transportation"
+      ],
+      "tags": [
+        "railways"
+      ],
+      "flags": [],
+      "rationale": "Projected railway lines with status of schemes and approximate mileage; mixed text and quantitative content.",
+      "review_questions": []
+    },
+    "china-1916:p0242_1": {
+      "topics": [
+        "transportation",
+        "finance"
+      ],
+      "tags": [
+        "railways"
+      ],
+      "flags": [],
+      "rationale": "Receipts, expenses and profit or loss of each Government railway in 1915; railway operating accounts.",
+      "review_questions": []
+    },
+    "china-1916:p0243_1": {
+      "topics": [
+        "transportation"
+      ],
+      "tags": [
+        "railways"
+      ],
+      "flags": [],
+      "rationale": "Locomotive stock of the Peking-Mukden Railway by type, wheel arrangement, weight and maker: railway rolling stock.",
+      "review_questions": []
+    },
+    "china-1916:p0245_1": {
+      "topics": [
+        "transportation",
+        "finance"
+      ],
+      "tags": [
+        "railways"
+      ],
+      "flags": [],
+      "rationale": "Cost value of property of the Peking-Hankow Railway: land, line, buildings, bridges and tunnels.",
+      "review_questions": [
+        "Is a tag for railway assets or capital cost needed?"
+      ]
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "review_method": "Complete ten-record content review against supplied rules; reference differences are not automatically errors.",
+  "assessment": {
+    "china-1916:p0125_6": {
+      "status": "needs-revision",
+      "note": "The body is a city-name list with no quantities: transportation/trams and text-tables are supported. Utilities and the absent text flag conflict with content."
+    },
+    "korea-1942:p0131_1": {
+      "status": "needs-revision",
+      "note": "A sports-participant table belongs to sport. Culture conflicts with the explicit sport/culture split, and the rationale itself says sport."
+    },
+    "taiwan-tokei-1925:p0263_2": {
+      "status": "needs-revision",
+      "note": "The supplied English layer explicitly identifies light push-car tracks. Adding trams contradicts the railways/trams boundary, even though a review question is raised."
+    },
+    "japan-1937:p0409_1": {
+      "status": "matches-reference",
+      "note": "The aggregate economic-indicators assignment follows the complete multi-domain body."
+    },
+    "japan-1939-40:p0696_1": {
+      "status": "acceptable-variation",
+      "note": "Education with education-finance correctly describes the record. Omitting finance differs from the reference, but the rule says a second topic can be used; this is not necessarily a substantive error."
+    },
+    "korea-tokanfu-1939:p0246_1": {
+      "status": "matches-reference",
+      "note": "The public-budget classification correctly avoids inferring a colonial topic from account ownership."
+    },
+    "manchuria-1939:p0091_1": {
+      "status": "needs-revision",
+      "note": "Colonial-rule and settler-migration require evidence absent from this record. Cautiously including them while questioning the evidence does not satisfy the conservative rule; cultivated land is substantial."
+    },
+    "far-east-1941:IMG_5400_1": {
+      "status": "needs-revision",
+      "note": "Exactly three commodities fit the three permitted detailed slots. The output omits rubber, chooses broader representative tags and uses economy rather than the substantial agriculture/mining subjects."
+    },
+    "nanyo-tokei-1937:p0041_3": {
+      "status": "needs-revision",
+      "note": "Government/hunting is supported. Added culture and police rely on an incidental purpose and chapter context rather than independent substantive subjects of the licensing table."
+    },
+    "taiwan-tokei-1933:p0353_2": {
+      "status": "needs-revision",
+      "note": "All commercial licence categories concern opium. Choosing health from the chapter loses the substantive narcotics/trade subjects and adds redundant opium beside opium-licensing."
+    }
+  },
+  "summary": {
+    "matches_reference": 2,
+    "acceptable_variations": 1,
+    "needs_revision": 7
+  }
+}

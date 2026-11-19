@@ -1,0 +1,121 @@
+{
+  "vocabulary_version": "1.1.0-optional-details",
+  "assignments": {
+    "china-1928:p0336_1": {
+      "topics": [
+        "transportation"
+      ],
+      "tags": [
+        "railways"
+      ],
+      "flags": [],
+      "rationale": "Railway locomotive stock by number, type, wheel arrangement and weight; railway equipment statistics.",
+      "review_questions": []
+    },
+    "china-1928:p0337_1": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "public-debt"
+      ],
+      "flags": [],
+      "rationale": "Unpaid principal and interest on a railway mortgage bond loan by year; debt service amounts. Railway context is secondary to the liabilities shown.",
+      "review_questions": [
+        "Is the Pekin Syndicate loan a foreign loan (foreign-loans)? Not explicit in the table, so not tagged."
+      ]
+    },
+    "china-1928:p0337_2": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "public-debt"
+      ],
+      "flags": [],
+      "rationale": "Outstanding sterling loan principal, interest and rolling stock liabilities converted to dollars with wages added; railway liabilities.",
+      "review_questions": [
+        "Is the debt a government liability or a railway's own? Not stated, so public-debt is the closest tag."
+      ]
+    },
+    "china-1928:p0338_1": {
+      "topics": [
+        "transportation"
+      ],
+      "tags": [
+        "railways"
+      ],
+      "flags": [],
+      "rationale": "Locomotive roster of a railway by number, type, wheels, weight and maker.",
+      "review_questions": []
+    },
+    "china-1928:p0342_1": {
+      "topics": [
+        "transportation"
+      ],
+      "tags": [
+        "railways"
+      ],
+      "flags": [],
+      "rationale": "Locomotive stock of a railway line by number, wheel arrangement, weight and maker. Footnotes give revenue and expenditure totals.",
+      "review_questions": []
+    },
+    "china-1928:p0345_1": {
+      "topics": [
+        "transportation"
+      ],
+      "tags": [
+        "railways"
+      ],
+      "flags": [],
+      "rationale": "Locomotives held by a railway by number, type, weight and maker.",
+      "review_questions": []
+    },
+    "china-1928:p0346_1": {
+      "topics": [
+        "transportation"
+      ],
+      "tags": [
+        "railways"
+      ],
+      "flags": [],
+      "rationale": "Locomotive stock of a railway with weights and makers, total 108.",
+      "review_questions": []
+    },
+    "china-1928:p0346_2": {
+      "topics": [
+        "transportation"
+      ],
+      "tags": [
+        "roads-and-bridges"
+      ],
+      "flags": [],
+      "rationale": "Principal railway bridges with lengths and span arrangements; bridge infrastructure data.",
+      "review_questions": [
+        "Roads-and-bridges excludes railway bridges tabulated only as railway assets; is railways a better tag here?"
+      ]
+    },
+    "china-1928:p0348_1": {
+      "topics": [
+        "transportation"
+      ],
+      "tags": [
+        "railways"
+      ],
+      "flags": [],
+      "rationale": "Locomotive stock of the Lunghai railway by type, wheels, weight and maker.",
+      "review_questions": []
+    },
+    "china-1928:p0348_2": {
+      "topics": [
+        "transportation"
+      ],
+      "tags": [
+        "railways"
+      ],
+      "flags": [],
+      "rationale": "Principal bridges on the eastern and western sections of the Lung Hai Railway by kilometre location and spans; treated as railway assets.",
+      "review_questions": []
+    }
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "vocabulary_version": "1.1.0-optional-details",
+  "assignments": {
+    "china-1912:p0484_1": {
+      "topics": [
+        "population"
+      ],
+      "tags": [
+        "nationality-and-ethnicity"
+      ],
+      "flags": [],
+      "rationale": "Foreigners resident in China by nationality, with firms and persons counts. Population composition by nationality.",
+      "review_questions": []
+    },
+    "china-1912:p0485_1": {
+      "topics": [
+        "population"
+      ],
+      "tags": [
+        "nationality-and-ethnicity"
+      ],
+      "flags": [],
+      "rationale": "Foreign population of the Shanghai International Settlement by nationality from the 1910 census. The foreign-settlement setting is not itself the table subject.",
+      "review_questions": [
+        "Printed total 13,436 does not reconcile with the component sum; the printed figures were left unaltered."
+      ]
+    },
+    "china-1912:p0485_2": {
+      "topics": [
+        "foreign-relations"
+      ],
+      "tags": [
+        "diplomatic-service"
+      ],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "List of envoys and chargés d'affaires at Peking by country, with names and years of appointment. The content is textual.",
+      "review_questions": []
+    },
+    "china-1912:p0485_3": {
+      "topics": [
+        "foreign-relations"
+      ],
+      "tags": [
+        "diplomatic-service"
+      ],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "Staff roster of the British Legation at Peking with names and positions.",
+      "review_questions": []
+    },
+    "china-1912:p0486_1": {
+      "topics": [
+        "foreign-relations",
+        "informal-imperialism"
+      ],
+      "tags": [
+        "diplomatic-service"
+      ],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "Roster of British consular service members in China by post, rank, name and appointment date. Consular service is the main subject. The Shanghai Supreme Court officers suggest extraterritorial jurisdiction, but that is only a minor part.",
+      "review_questions": []
+    },
+    "china-1912:p0487_1": {
+      "topics": [
+        "foreign-relations"
+      ],
+      "tags": [
+        "diplomatic-service"
+      ],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "Staff lists of foreign legations at Peking by country, giving names and positions. Textual roster.",
+      "review_questions": []
+    },
+    "china-1912:p0490_1": {
+      "topics": [
+        "foreign-relations"
+      ],
+      "tags": [],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "Textual list of foreign associations connected with China (British, American, German, Japanese). They are private associations rather than official missions.",
+      "review_questions": [
+        "Vocabulary lacks a tag for foreign community associations; consider overseas-communities or a business-associations variant."
+      ]
+    },
+    "china-1912:p0491_1": {
+      "topics": [
+        "foreign-relations"
+      ],
+      "tags": [
+        "diplomatic-service"
+      ],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "List of Chinese ministers and a consul-general abroad by country. Textual roster.",
+      "review_questions": []
+    },
+    "china-1912:p0491_2": {
+      "topics": [
+        "foreign-relations"
+      ],
+      "tags": [
+        "diplomatic-service"
+      ],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "Staff roster of the Chinese Legation in London with names and positions.",
+      "review_questions": []
+    },
+    "china-1912:p0519_1": {
+      "topics": [
+        "trade",
+        "narcotics"
+      ],
+      "tags": [
+        "opium",
+        "imports"
+      ],
+      "flags": [],
+      "rationale": "Annual total net imports of foreign opium in piculs, 1863-1910, from Maritime Customs publications. The series is a trade quantity in an opium commodity table.",
+      "review_questions": []
+    }
+  }
+}

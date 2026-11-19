@@ -1,0 +1,135 @@
+{
+  "vocabulary_version": "1.1.0-optional-details",
+  "assignments": {
+    "china-1913:p0253_1": {
+      "topics": [
+        "communications"
+      ],
+      "tags": [
+        "telegraph"
+      ],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "List of telegraph station names in Chekiang; no quantities.",
+      "review_questions": []
+    },
+    "china-1913:p0253_2": {
+      "topics": [
+        "communications"
+      ],
+      "tags": [
+        "telegraph"
+      ],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "List of telegraph station names in Fukien; no quantities.",
+      "review_questions": []
+    },
+    "china-1913:p0253_3": {
+      "topics": [
+        "communications"
+      ],
+      "tags": [
+        "telegraph"
+      ],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "List of telegraph station names in Kuangtung; footnote concerns opening and charges for one station, but the body is a name list.",
+      "review_questions": []
+    },
+    "china-1913:p0255_1": {
+      "topics": [
+        "government"
+      ],
+      "tags": [
+        "government-offices"
+      ],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "Old and new names of the Ministries of State; textual list.",
+      "review_questions": []
+    },
+    "china-1913:p0277_1": {
+      "topics": [
+        "government"
+      ],
+      "tags": [
+        "administrative-divisions"
+      ],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "Viceroyalties and the provinces under their jurisdiction; textual list of jurisdictions.",
+      "review_questions": []
+    },
+    "china-1913:p0282_1": {
+      "topics": [
+        "government"
+      ],
+      "tags": [
+        "government-offices",
+        "honours-and-ranks"
+      ],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "Ten classes of central government officials, a rank structure described in text.",
+      "review_questions": []
+    },
+    "china-1913:p0283_1": {
+      "topics": [
+        "government"
+      ],
+      "tags": [
+        "government-offices",
+        "wages"
+      ],
+      "flags": [],
+      "rationale": "Monthly official salary scale by class and grade; quantitative civil-service pay.",
+      "review_questions": []
+    },
+    "china-1913:p0296_1": {
+      "topics": [
+        "military"
+      ],
+      "tags": [
+        "army",
+        "wages"
+      ],
+      "flags": [],
+      "rationale": "Monthly pay and allowances by rank in the Luchun army; quantitative.",
+      "review_questions": []
+    },
+    "china-1913:p0298_1": {
+      "topics": [
+        "military"
+      ],
+      "tags": [
+        "army",
+        "honours-and-ranks"
+      ],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "List of Chinese combatant military ranks by class and grade with Chinese terms; textual.",
+      "review_questions": []
+    },
+    "china-1913:p0301_1": {
+      "topics": [
+        "military"
+      ],
+      "tags": [
+        "army"
+      ],
+      "flags": [],
+      "rationale": "Numbers of troops disbanded by province in 1912; quantitative army data.",
+      "review_questions": [
+        "Should a demobilisation tag be added to the vocabulary?"
+      ]
+    }
+  }
+}

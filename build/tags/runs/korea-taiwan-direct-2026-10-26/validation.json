@@ -1,0 +1,110 @@
+{
+  "status": "complete",
+  "tables": 6594,
+  "books": 39,
+  "collections": {
+    "korea": {
+      "tables": 4286,
+      "books": 33,
+      "without_details": 36,
+      "text_tables": 339
+    },
+    "taiwan": {
+      "tables": 2308,
+      "books": 6,
+      "without_details": 9,
+      "text_tables": 13
+    }
+  },
+  "vocabulary_version": "1.1.0-optional-details",
+  "vocabulary_counts": {
+    "topics": 32,
+    "tags": 327,
+    "flags": 1
+  },
+  "additional_llm_cli_calls": 0,
+  "preserved_calibration_tables": 62,
+  "methods": {
+    "authored-subject-rule": 6113,
+    "explicit-record-decision": 285,
+    "reviewed-body-override": 134,
+    "preserved-reviewed-pilot": 62
+  },
+  "without_detailed_tags": 45,
+  "text_tables": 352,
+  "checks": {
+    "exact_key_coverage": true,
+    "approved_ids_and_cardinalities": true,
+    "all_39_source_hashes_unchanged": true,
+    "all_input_fingerprints_match": true,
+    "frozen_vocabulary_unchanged": true,
+    "calibration_assignments_preserved_exactly": true
+  },
+  "semantic_checks": [
+    "Reviewed subject rule families and unmatched subjects using bilingual titles, all column labels and body profiles.",
+    "Read full ambiguous and generic records, and corrected specificity and priority collisions.",
+    "Inspected all complete body fields for quantitative measures versus identifiers; reviewed textual candidates and traditional-numeral exceptions.",
+    "Checked explicit Indigenous subjects, colonial institutions, school finance, narcotic licensing and tram/light-rail boundaries.",
+    "Compared all 62 exact-source calibration assignments and preserved their existing decisions."
+  ],
+  "issues": [],
+  "validated_utc": "2026-10-26T17:11:05.016923+00:00",
+  "source_files": {
+    "data/korea-1911-12.json": "16d5467d7153e3cc5f70be9db44b43b593a13268e69f5459d61e5b34c6ff22e7",
+    "data/korea-1912-13.json": "b064babd1e8e4eaca5b058791dc66ae0e1bfbd528a660c46e7d15596affd8b73",
+    "data/korea-1913-14.json": "05ad108578398a4ca3e97da901372b5ddc84695b2a874b9a4de6e81437e4a1df",
+    "data/korea-1914-15.json": "4c20840bd745d2f414cdcaa21382b3d546d309fcaa4e1404932da5ec0d922c85",
+    "data/korea-1915-16.json": "5db3d2e350b643186eebd112335fa6fd7a524aa4ed6144f028818f17ea20e3a8",
+    "data/korea-1916-17.json": "24ea780b39141f160ef3a797966a63129b3647a86df759e3b1c8798ef3f3ef52",
+    "data/korea-1917-18.json": "a2ba5c4332937ea503a827fc222dbb06f4d416c89e25a2f4cdf8a56420c73862",
+    "data/korea-1930-32.json": "be8f49ef5e57d1bed71332d3585d1e4ec0a0415343a93bba2a0c9882399b4ca8",
+    "data/korea-1932-33.json": "080af579e8093ef993abc116a59a597338da36de6c598e580923d9c06378f187",
+    "data/korea-1933-34.json": "c33fee79a78bf9721d651a4017ba4749c32a7a6a50c2d13e557da7a6865a9c17",
+    "data/korea-1934-35.json": "ffdee94193830cf2e53bae2f106643e9f5145300760986af10756b94643e6eb9",
+    "data/korea-1935-36.json": "66390307657628f9f70cd5e611233fbdaad0e1da783dd7e40977586e0b07130c",
+    "data/korea-1936-37.json": "bdb59e9e953814fc4a2aee0bf06dfe68025d702f6afe955a0c72b56c897dec8b",
+    "data/korea-1937-38.json": "c5a0162b392faceefcef9ef6dc5d9573bbb9a9c0c956778d973e1751cbc7075c",
+    "data/korea-1938-39.json": "8590c0fe61f11d1a9172afe36d5b3d19f3c422e4d50f99928a46c7661372f073",
+    "data/korea-1918-21.json": "8c7d733714c4a82a9005c7d2d5b51185e5bb74becee02252f8d077d9a0bdf6ca",
+    "data/korea-1921-22.json": "72d1819041376e2000ed2ecc07efb2acb1f57ca9e5f9dba36bf3e3191eb327ce",
+    "data/korea-1922-23.json": "e3751ffe1c09d4df6b561c10b1ec4d7eaad6388a960ac3f12aa4323d64bb9bda",
+    "data/korea-1923-24.json": "d23d3c9ac94470e674a9d565a1f8c54ba2b37106583411564ce490003c90e7a0",
+    "data/korea-1924-25.json": "660c2038b8fc26e3763094589d97d3a0df6937dc85cbf8820300cd1ab5ed9787",
+    "data/korea-1926-27.json": "ba43f9532da057bdcd5aa2a19ebc6b5cde93859d7b0b21049f88f02e66854d6d",
+    "data/korea-1927-28.json": "771cb13ef057ba771f8c8bd35e605203a592cecfd78bacd3352059fd59fabdfe",
+    "data/korea-1928-29.json": "bbbbfe8e1a27436b2e0b62a43762a2f2e5470f79c984b77a2fa0242c49da5e93",
+    "data/korea-1929-30.json": "f3ab017b30bd9ec354df4a25eba51f9ccaa1eee1e51d8c5ba1033d8cca7c85bc",
+    "data/korea-nenkan-1926.json": "08abf6870c3dc60165a1a51ad9400d1257afc042e5bd45c81707f3e3b73f163d",
+    "data/korea-tokanfu-1908.json": "a54ec742c11787cd84dfea3dc788c5d99445406b6c78f7044cc8342907e80508",
+    "data/korea-tokanfu-1939.json": "fc9638bdeba7e43e4ded8cab0d536b5c634498d135097b6b1f7e2f94ba51749d",
+    "data/korea-nenkan-1940.json": "645783a6bab1ebde45c6df0d4fc6405a71524cd33aa8f29266d6f7f6cf3a37a8",
+    "data/korea-1935.json": "6e5615319c287f9e017e1ba60af1002b0b1132b954cc81e9697f74f75883d581",
+    "data/korea-1940.json": "396758f09c1aa9643944cd4891ce6981b5fb8290a72525f3e5bd62e81641afc7",
+    "data/korea-1942.json": "d5460c4a8f156cc2844d4ba7ecd0b0c516b9859e5eab0ce1cc1dce34727cd51a",
+    "data/korea-1943.json": "ab5081c9f3de7ae61cc638ab5daf169616f0c1111d31f1f100f8d5fd7cc967ed",
+    "data/korea-1944.json": "42f521f795a0331b4261f42b60e3fc15985d19c8d59331fb98f48f9b00972bf2",
+    "data/taiwan-tokei-1933.json": "e604bfc48fe61157a20c186f9f8727a1aa59def72fd220132648dffb06de2f65",
+    "data/taiwan-tokei-1942.json": "69e08399ad5b5914bb3d7a74b009da23e9c95be1adeb017d818f0f088df058bf",
+    "data/taiwan-tokei-1938.json": "10e959ed476b6f0fc7c6cc19152736a91cc2c3a8b35b2e397c304fa18e214cab",
+    "data/taiwan-tokei-1925.json": "8996c9a74f8bd65cf5593dc5f2b3097bb6fd9d6b496a25b0658a0ca28ff20882",
+    "data/taiwan-1905.json": "c0393687132999fd2988dca708e58772b4b4ef619c561e4fbab9bfbe21bd1905",
+    "data/taiwan-1912.json": "1ba712c85c75be566309ecb7a2b5c4d9ee4936dfbebadaccc099dab46f70c770"
+  },
+  "implementation_sha256": {
+    "classify_korea_taiwan.py": "f40663b7976531a4a0d43a4a5390519b09833006964c4c7bc861ac1d247028ef",
+    "apply_korea_taiwan_rules.py": "5697a9b6c5a495154efa01da20b2973c24c0240335da37c283b256f9e8e0798a",
+    "inspect_korea_taiwan_flags.py": "5cc2a74728924282c00dbf7fb450712742e078cf9baf1e00bab4886865ddbe35",
+    "finalize_korea_taiwan.py": "54b217c7dab2f337aaa5a1ad365ce7416568c3e31baecc4f9d4ff148acca6914"
+  },
+  "output_sha256": {
+    "assignments.korea-taiwan.json": "01829f6d7126db56369c020f1ef8258437ce03d1bd09a6d72767af5c5f0067a9",
+    "assignments.korea.json": "e1e47ffeb59c1bc3511da048f9e156e20637b0798f9f905e8857928c1fb8171a",
+    "assignments.taiwan.json": "bcb531eafb087e874c885fba7484dfccd1689b87c3e0b85b8094bc8711914e82",
+    "no-detailed-tags.json": "9a9133cc07b721ff50d04899195b1b32949427289a261a506caece8d26f80999",
+    "review-queue.json": "9a9133cc07b721ff50d04899195b1b32949427289a261a506caece8d26f80999",
+    "provenance.json": "209828d755b0abb8ab3a592b4054409694707a45463e43536f40e913bde67a38",
+    "rules.applied.tsv": "7e5c74fafe3af42b74637f46fc81e1272411874b8b730b517d25c09ef3e49359",
+    "decisions.tsv": "7b1eaa367e7eeaf93c614223e8d13f1c27e474ef0c51fa2e3bdc323a04f35709",
+    "reviewed-overrides.json": "85d3827d880b3702f2ff64d03a1f4df7bc8186e9ce8a74feefbb1b8bbc02846a"
+  }
+}

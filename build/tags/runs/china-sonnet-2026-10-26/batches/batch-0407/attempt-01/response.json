@@ -1,0 +1,122 @@
+{
+  "vocabulary_version": "1.1.0-optional-details",
+  "assignments": {
+    "china-1925-6:p0821_1": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "public-debt"
+      ],
+      "flags": [],
+      "rationale": "List of short-term internal loans of the Chinese government with original and outstanding amounts, interest rates and dates; public debt.",
+      "review_questions": []
+    },
+    "china-1925-6:p0822_1": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "public-debt"
+      ],
+      "flags": [],
+      "rationale": "Totals of outstanding short-term internal debts converted to dollar equivalents by currency, with notes on repayment terms of individual loans.",
+      "review_questions": []
+    },
+    "china-1925-6:p0824_1": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "public-debt"
+      ],
+      "flags": [],
+      "rationale": "Summary of capital and interest of loan classes not definitely secured; government debt statement.",
+      "review_questions": []
+    },
+    "china-1925-6:p0825_1": {
+      "topics": [
+        "finance",
+        "transportation"
+      ],
+      "tags": [
+        "public-debt"
+      ],
+      "flags": [],
+      "rationale": "Ministry of Communications liabilities (loans, railway, telegraph, postal obligations) with principal and interest outstanding; debt of a government ministry, with railway and communications content.",
+      "review_questions": [
+        "Is a tag for government-ministry or railway debt needed?"
+      ]
+    },
+    "china-1925-6:p0826_1": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "taxation"
+      ],
+      "flags": [],
+      "rationale": "Scale of stamp duty rates by document face value; a tax schedule.",
+      "review_questions": []
+    },
+    "china-1925-6:p0827_1": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "customs-revenue"
+      ],
+      "flags": [],
+      "rationale": "1923 Maritime Customs collections by principal port with year-on-year change.",
+      "review_questions": []
+    },
+    "china-1925-6:p0827_2": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "customs-revenue"
+      ],
+      "flags": [],
+      "rationale": "1924 Maritime Customs collections at four ports with change from 1923.",
+      "review_questions": []
+    },
+    "china-1925-6:p0828_1": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "customs-revenue"
+      ],
+      "flags": [],
+      "rationale": "Continuation of 1924 Maritime Customs revenue by port with increase or decrease.",
+      "review_questions": []
+    },
+    "china-1925-6:p0829_1": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "customs-revenue"
+      ],
+      "flags": [],
+      "rationale": "Native Customs revenue by port, 1921-1923, including famine relief surtax in totals.",
+      "review_questions": []
+    },
+    "china-1925-6:p0831_1": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "public-debt"
+      ],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "Interest payment dates and pledged security for numbered loan issues; content is mostly textual (dates and security descriptions) with no substantive quantities.",
+      "review_questions": [
+        "Loan identities are not given, only numbers; confirm they refer to government bond series."
+      ]
+    }
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "vocabulary_version": "1.1.0-optional-details",
+  "assignments": {
+    "china-1926-7:p0638_1": {
+      "topics": [
+        "history"
+      ],
+      "tags": [],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "Textual list of Republic of China commemoration days with dates and events; no statistical quantities. Not a dedicated chronology of general history, but it is a list of political anniversaries.",
+      "review_questions": [
+        "Should a tag for public holidays or commemorations be added to the vocabulary?"
+      ]
+    },
+    "china-1926-7:p0641_1": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "public-budgets"
+      ],
+      "flags": [],
+      "rationale": "Hongkong government revenue by head for 1924 with ordinary and grand totals, so public-budgets applies.",
+      "review_questions": []
+    },
+    "china-1926-7:p0641_2": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "public-budgets"
+      ],
+      "flags": [],
+      "rationale": "Items of excess expenditure under Miscellaneous Services in the Hongkong government accounts, so public-budgets applies.",
+      "review_questions": []
+    },
+    "china-1926-7:p0642_1": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "public-budgets"
+      ],
+      "flags": [],
+      "rationale": "Hongkong government expenditure by department, with total and balance note, so public-budgets applies.",
+      "review_questions": []
+    },
+    "china-1926-7:p0642_2": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "public-budgets"
+      ],
+      "flags": [],
+      "rationale": "Five-year colony revenue and expenditure comparison, so public-budgets applies.",
+      "review_questions": []
+    },
+    "china-1926-7:p0642_3": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "taxation"
+      ],
+      "flags": [],
+      "rationale": "Increases in assessment valuation by district for rating purposes; this relates to the rates tax base.",
+      "review_questions": [
+        "Is a rating/property-tax-specific tag needed?"
+      ]
+    },
+    "china-1926-7:p0643_1": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "taxation"
+      ],
+      "flags": [],
+      "rationale": "Rateable value by district, the base for property rates, so taxation is the closest fit.",
+      "review_questions": [
+        "Is a rating/property-tax-specific tag needed?"
+      ]
+    },
+    "china-1926-7:p0643_2": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "banking",
+        "currency"
+      ],
+      "flags": [],
+      "rationale": "Bank notes in circulation by issuing bank, covering both banks and currency issue.",
+      "review_questions": []
+    },
+    "china-1926-7:p0643_3": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "currency"
+      ],
+      "flags": [],
+      "rationale": "Account of subsidiary coins issued and redeemed, with the amount still in circulation.",
+      "review_questions": []
+    },
+    "china-1926-7:p0644_1": {
+      "topics": [
+        "transportation"
+      ],
+      "tags": [
+        "shipping",
+        "ports"
+      ],
+      "flags": [],
+      "rationale": "Number and tonnage of vessels entering and clearing the colony by class, comparing 1923 and 1924; both fleet and port traffic are covered.",
+      "review_questions": []
+    }
+  }
+}

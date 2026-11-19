@@ -1,0 +1,2002 @@
+{
+  "status": "advisory-review-complete",
+  "vocabulary_version": "1.1.0-optional-details",
+  "vocabulary_modified": false,
+  "assignments_modified": false,
+  "method": "Four agents each examined 95 complete frozen records. Consolidation merges overlapping proposals, distinguishes existing-tag reuse from subject gaps, and resolves cross-batch methods/holiday inconsistencies. No external LLM CLI calls.",
+  "counts": {
+    "reviewed_tables": 380,
+    "reviewers": 4,
+    "tables_per_reviewer": {
+      "review-1": 95,
+      "review-2": 95,
+      "review-3": 95,
+      "review-4": 95
+    },
+    "reviewer_existing_vocabulary_suggestions": 301,
+    "consolidated_dispositions": {
+      "proposed-vocabulary-candidate": 53,
+      "unresolved-context-or-boundary": 27,
+      "existing-vocabulary-option": 300
+    },
+    "merged_candidates": 23,
+    "recommended_candidates": 10,
+    "optional_candidates": 8,
+    "boundary_decisions": 4,
+    "conditional_candidates": 1
+  },
+  "count_caveat": "Evidence counts refer only to the reviewed subset. Annual editions can repeat a series, candidates can overlap, and some evidence is conditional. Counts are not corpus-wide demand or automatic assignments.",
+  "source": "stat-tables-site/build/tags/runs/china-direct-remainder-2026-10-26/no-detailed-tags.json",
+  "source_sha256": "b8998632d16aefbc8c45f336cfbb087678102e6664327e7ce6b5ddb87f364fdb",
+  "vocabulary_sha256": "c4f1458abd3dbda7b442cb5029d9ad552283509c9082974addc06d0f52b721d4",
+  "review_files": {
+    "review-1": {
+      "input_sha256": "e9b5cbe42028ae3f6fd9ebffb69c3f4c1faacdbeb46b198bf427836bdace8347",
+      "result_sha256": "7d98e541789ebfaf7f76b3dd4989d7bbaa0fe8b6220a5d759c5c22e77574b190"
+    },
+    "review-2": {
+      "input_sha256": "bf73f55083d8ea99dc4374666f3e44249dec4e4ddfe11a9be12df6d826948083",
+      "result_sha256": "f807c144af1aaee62df2a32121d7955b7b499a712cf759fa20a43ef71b3047bb"
+    },
+    "review-3": {
+      "input_sha256": "cf8618132c3dc7fce6eabff2496046574b3548c1e82a3eead4604afc3ef2800b",
+      "result_sha256": "149d1d363ab01a04669f2c7c40a64fdfdf54ada63e9eddf63a7620e660c7a3f9"
+    },
+    "review-4": {
+      "input_sha256": "c37a9f4c1820193adebcce0b16a669a9d844cc7108a62da4c8fb0bfb00d4ff14",
+      "result_sha256": "2479cd6eb21a6a2c3d1b8b9a5fd08c3ca82979e3846b8e760766446801f7dff5"
+    }
+  },
+  "candidates": [
+    {
+      "id": "route-distances",
+      "label": "route distances and journey times",
+      "definition": "Measured distances or elapsed journey times between named places along travel routes, including comparative origin-destination references across transport modes.",
+      "includes": [
+        "Sea, river, rail and overland distance matrices.",
+        "Route lengths and comparative journey durations from a place to other destinations.",
+        "Sea, coastal, river and overland distance matrices.",
+        "Direct and via-route mileage comparisons between named endpoints.",
+        "Port-to-port sea distances; river inter-port mileages; origin/destination distance matrices; cumulative distances via a named transport corridor, including mixed-mode routes.",
+        "Sea and coast port-to-port distances.",
+        "Rail, overland or mixed-route distances and route-distance reference matrices."
+      ],
+      "excludes": [
+        "Calendar dates, clock-time conversions and time-zone tables.",
+        "Ticket fares and freight charges without route-distance or duration measures.",
+        "A railway inventory whose principal subject is railway operation rather than comparative access between places.",
+        "Total network length or newly constructed mileage without endpoint-distance comparisons.",
+        "Fares and freight charges, which use freight-and-transport-costs.",
+        "Physical river length without a travel-route subject.",
+        "Total national network length or road construction mileage without place-to-place travel distances.",
+        "Territorial surface area or physical river length without a navigation/travel-route measure.",
+        "Fares and freight charges (freight-and-transport-costs).",
+        "Transport fares or freight charges.",
+        "Vessel mileage actually travelled as a traffic-output measure.",
+        "River length or territorial dimensions without a transport route."
+      ],
+      "related_topics": [
+        "geography",
+        "transportation"
+      ],
+      "proposed_name_variants": [
+        "distances-and-journey-times",
+        "route-distances"
+      ],
+      "evidence_keys": [
+        "china-handbook-1926:p0023_1",
+        "china-1912:p0043_2",
+        "china-1912:p0043_3",
+        "china-1912:p0043_4",
+        "china-1912:p0044_1",
+        "china-1912:p0044_2",
+        "china-1912:p0044_3",
+        "china-1914:p0024_2",
+        "china-1914:p0024_3",
+        "china-1914:p0024_4",
+        "china-1914:p0025_1",
+        "china-1914:p0025_2",
+        "china-1914:p0025_3",
+        "china-1919:p0030_2",
+        "china-1919:p0030_3",
+        "china-1919:p0030_4",
+        "china-1919:p0031_1",
+        "china-1919:p0031_3",
+        "china-1913:p0022_2",
+        "china-1913:p0022_3",
+        "china-1913:p0022_4",
+        "china-1913:p0023_1",
+        "china-1913:p0023_3",
+        "china-1916:p0028_2",
+        "china-1916:p0028_3",
+        "china-1916:p0028_4",
+        "china-1916:p0029_1",
+        "china-1916:p0029_3",
+        "china-1922:p0050_1",
+        "china-1922:p0050_2",
+        "china-1922:p0050_3",
+        "china-1922:p0050_4",
+        "china-1922:p0051_1",
+        "china-1922:p0051_2",
+        "china-1923:p0071_1",
+        "china-1923:p0071_2",
+        "china-1923:p0071_3",
+        "china-1923:p0071_4",
+        "china-1923:p0072_1",
+        "china-1923:p0072_2",
+        "china-1924-5:p0053_1",
+        "china-1924-5:p0053_2",
+        "china-1924-5:p0053_3",
+        "china-1924-5:p0053_4",
+        "china-1924-5:p0054_1",
+        "china-1924-5:p0054_2",
+        "china-1925-6:p0079_1",
+        "china-1925-6:p0079_2",
+        "china-1925-6:p0079_3",
+        "china-1925-6:p0079_4",
+        "china-1925-6:p0080_1",
+        "china-1925-6:p0080_2",
+        "china-1926-7:p0062_1",
+        "china-1926-7:p0062_2",
+        "china-1926-7:p0062_3",
+        "china-1926-7:p0062_4",
+        "china-1926-7:p0063_1",
+        "china-1926-7:p0063_2",
+        "china-1928:p0034_1",
+        "china-1928:p0034_2",
+        "china-1928:p0034_3",
+        "china-1928:p0034_4",
+        "china-1928:p0034_5",
+        "china-1929-30:p0029_1",
+        "china-1931-2:p0019_3",
+        "china-1931-2:p0020_1",
+        "china-1931-2:p0020_2",
+        "china-1931-2:p0020_3",
+        "china-1931-2:p0020_4"
+      ],
+      "reviewer_sources": [
+        {
+          "batch": "review-1",
+          "proposal": {
+            "id": "distances-and-journey-times",
+            "label": "distances and journey times",
+            "definition": "Measured distances or elapsed travelling times between places along routes, or in comparative origin-destination tables.",
+            "includes": [
+              "Sea, river, rail and overland distance matrices.",
+              "Route lengths and comparative journey durations from a place to other destinations."
+            ],
+            "excludes": [
+              "Calendar dates, clock-time conversions and time-zone tables.",
+              "Ticket fares and freight charges without route-distance or duration measures.",
+              "A railway inventory whose principal subject is railway operation rather than comparative access between places."
+            ],
+            "related_topics": [
+              "geography",
+              "transportation"
+            ],
+            "evidence_keys": [
+              "china-handbook-1926:p0023_1",
+              "china-1912:p0043_2",
+              "china-1912:p0043_3",
+              "china-1912:p0043_4",
+              "china-1912:p0044_1",
+              "china-1912:p0044_2",
+              "china-1912:p0044_3",
+              "china-1914:p0024_2",
+              "china-1914:p0024_3",
+              "china-1914:p0024_4",
+              "china-1914:p0025_1",
+              "china-1914:p0025_2",
+              "china-1914:p0025_3",
+              "china-1919:p0030_2",
+              "china-1919:p0030_3",
+              "china-1919:p0030_4",
+              "china-1919:p0031_1",
+              "china-1919:p0031_3"
+            ],
+            "why_existing_tags_do_not_fit": "shipping, inland-navigation or railways can already describe many explicitly identified modes; those existing fits are separately recorded. None names the common distance/time measure across mixed modes, and generic overland or place-to-place distances should not require an inferred transport mode. rivers-and-waterways concerns physical river regimes, while freight-and-transport-costs concerns money, not miles.",
+            "priority": "high",
+            "candidate_kind": "cross-mode-discovery-refinement"
+          }
+        },
+        {
+          "batch": "review-2",
+          "proposal": {
+            "id": "route-distances",
+            "label": "route distances",
+            "definition": "Travel distances between named places, ports or route stages, including origin-destination mileage lists and distance matrices.",
+            "includes": [
+              "Sea, coastal, river and overland distance matrices.",
+              "Direct and via-route mileage comparisons between named endpoints."
+            ],
+            "excludes": [
+              "Total network length or newly constructed mileage without endpoint-distance comparisons.",
+              "Fares and freight charges, which use freight-and-transport-costs.",
+              "Physical river length without a travel-route subject."
+            ],
+            "related_topics": [
+              "geography",
+              "transportation"
+            ],
+            "evidence_keys": [
+              "china-1913:p0022_2",
+              "china-1913:p0022_3",
+              "china-1913:p0022_4",
+              "china-1913:p0023_1",
+              "china-1913:p0023_3",
+              "china-1916:p0028_2",
+              "china-1916:p0028_3",
+              "china-1916:p0028_4",
+              "china-1916:p0029_1",
+              "china-1916:p0029_3",
+              "china-1922:p0050_1",
+              "china-1922:p0050_2",
+              "china-1922:p0050_3",
+              "china-1922:p0050_4",
+              "china-1922:p0051_1",
+              "china-1922:p0051_2",
+              "china-1923:p0071_1",
+              "china-1923:p0071_2",
+              "china-1923:p0071_3",
+              "china-1923:p0071_4",
+              "china-1923:p0072_1",
+              "china-1923:p0072_2"
+            ],
+            "why_existing_tags_do_not_fit": "shipping and inland-navigation already cover many mode-specific examples and should not be withheld. The residual gap is a single cross-mode discovery term for the distance reference itself, especially the Siberian tables where a transport mode is not explicitly stated. This is an optional useful facet, not evidence that every distance table needs a new term before it can receive any detail.",
+            "priority": "medium",
+            "candidate_type": "optional-cross-mode-specificity"
+          }
+        },
+        {
+          "batch": "review-3",
+          "proposal": {
+            "id": "route-distances",
+            "label": "route distances",
+            "definition": "Distances between named places along travel, maritime, inland-waterway, railway or combined transport routes.",
+            "includes": [
+              "Port-to-port sea distances; river inter-port mileages; origin/destination distance matrices; cumulative distances via a named transport corridor, including mixed-mode routes."
+            ],
+            "excludes": [
+              "Total national network length or road construction mileage without place-to-place travel distances.",
+              "Territorial surface area or physical river length without a navigation/travel-route measure.",
+              "Fares and freight charges (freight-and-transport-costs)."
+            ],
+            "related_topics": [
+              "transportation",
+              "geography"
+            ],
+            "evidence_keys": [
+              "china-1924-5:p0053_1",
+              "china-1924-5:p0053_2",
+              "china-1924-5:p0053_3",
+              "china-1924-5:p0053_4",
+              "china-1924-5:p0054_1",
+              "china-1924-5:p0054_2",
+              "china-1925-6:p0079_1",
+              "china-1925-6:p0079_2",
+              "china-1925-6:p0079_3",
+              "china-1925-6:p0079_4",
+              "china-1925-6:p0080_1",
+              "china-1925-6:p0080_2",
+              "china-1926-7:p0062_1",
+              "china-1926-7:p0062_2",
+              "china-1926-7:p0062_3",
+              "china-1926-7:p0062_4",
+              "china-1926-7:p0063_1",
+              "china-1926-7:p0063_2"
+            ],
+            "why_existing_tags_do_not_fit": "Shipping and inland-navigation are already valid broad fits for the 15 explicitly identified sea/river-route records, and railways plus shipping fits the explicit rail-sea record. The two other via-Siberia matrices state overland/sea distances without establishing the land mode. A mode-neutral route-distance tag provides a consistent precise retrieval concept across all 18 records; it is an optional refinement where a modal tag already fits, not evidence that those modal tags must be withheld.",
+            "priority": "medium",
+            "proposal_kind": "mixed-coverage-gap-and-optional-refinement"
+          }
+        },
+        {
+          "batch": "review-4",
+          "proposal": {
+            "id": "route-distances",
+            "label": "route distances",
+            "definition": "Distances between named places along identified transport routes or networks, including comparative or triangular distance matrices.",
+            "includes": [
+              "Sea and coast port-to-port distances.",
+              "Rail, overland or mixed-route distances and route-distance reference matrices."
+            ],
+            "excludes": [
+              "Transport fares or freight charges.",
+              "Vessel mileage actually travelled as a traffic-output measure.",
+              "River length or territorial dimensions without a transport route."
+            ],
+            "related_topics": [
+              "transportation",
+              "geography"
+            ],
+            "evidence_keys": [
+              "china-1928:p0034_1",
+              "china-1928:p0034_2",
+              "china-1928:p0034_3",
+              "china-1928:p0034_4",
+              "china-1928:p0034_5",
+              "china-1929-30:p0029_1",
+              "china-1931-2:p0019_3",
+              "china-1931-2:p0020_1",
+              "china-1931-2:p0020_2",
+              "china-1931-2:p0020_3",
+              "china-1931-2:p0020_4"
+            ],
+            "why_existing_tags_do_not_fit": "shipping already covers the maritime route tables broadly, so this is chiefly a reusable refinement rather than a reason to leave those tables untagged. It also supplies one accurate common term for mixed sea/overland route tables whose mode is not entirely specified. freight-and-transport-costs explicitly concerns money, not distance.",
+            "priority": "medium",
+            "kind": "optional-refinement"
+          }
+        }
+      ],
+      "consolidation_evidence": [],
+      "status": "proposed-not-applied",
+      "recommendation": "recommend",
+      "consolidation_note": "A reusable cross-mode discovery term. Many sea/river/rail examples already admit a transport-mode tag; the new term identifies the distance or journey-time reference itself.",
+      "evidence_count": 69,
+      "existing_vocabulary_options_count": 58,
+      "deferred_evidence_keys": []
+    },
+    {
+      "id": "commodity-origins",
+      "label": "commodity origins",
+      "definition": "The geographical distribution of the origins or producing regions of commodities, especially comparative inventories across products or sectors.",
+      "includes": [
+        "Product-to-province and province-to-product origin catalogues.",
+        "Producing districts linked to export ports or outward routes as an explicitly organised geographical inventory.",
+        "Inventories pairing many commodities with their producing regions.",
+        "Mixed crop, animal-product, mineral, timber and manufactured-product origin lists.",
+        "Products paired with producing provinces/regions; province-by-product reference lists; geographical origins and associated export gateways when the regional product pattern is substantial."
+      ],
+      "excludes": [
+        "A numerical crop, mine or factory production table merely broken down by province.",
+        "General economic indicators combining quantitative domains.",
+        "A single incidental place name in a commodity table.",
+        "A single commodity adequately described by its commodity tag.",
+        "Quantitative multi-domain economic barometers, which use economic-indicators.",
+        "Trade quantities by origin or destination without a substantive inventory of regional products.",
+        "Single-commodity production or trade tables adequately described by their commodity tag.",
+        "Broad numerical economic barometers (economic-indicators).",
+        "Pure lists of ports or places without product-origin information."
+      ],
+      "related_topics": [
+        "geography",
+        "trade",
+        "economy",
+        "agriculture"
+      ],
+      "proposed_name_variants": [
+        "commodity-origins",
+        "commodity-geography",
+        "regional-products"
+      ],
+      "evidence_keys": [
+        "china-1914:p0061_1",
+        "china-1914:p0062_1",
+        "china-1914:p0063_1",
+        "china-1919:p0067_1",
+        "china-1919:p0069_1",
+        "china-1913:p0057_1",
+        "china-1913:p0058_1",
+        "china-1916:p0065_1",
+        "china-1916:p0066_1",
+        "china-1922:p0159_1",
+        "china-1923:p0257_1",
+        "china-1923:p0258_1"
+      ],
+      "reviewer_sources": [
+        {
+          "batch": "review-1",
+          "proposal": {
+            "id": "commodity-origins",
+            "label": "commodity origins",
+            "definition": "The geographical distribution of the origins or producing regions of commodities, especially comparative inventories across products or sectors.",
+            "includes": [
+              "Product-to-province and province-to-product origin catalogues.",
+              "Producing districts linked to export ports or outward routes as an explicitly organised geographical inventory."
+            ],
+            "excludes": [
+              "A numerical crop, mine or factory production table merely broken down by province.",
+              "General economic indicators combining quantitative domains.",
+              "A single incidental place name in a commodity table."
+            ],
+            "related_topics": [
+              "geography",
+              "trade",
+              "economy"
+            ],
+            "evidence_keys": [
+              "china-1914:p0061_1",
+              "china-1914:p0062_1",
+              "china-1914:p0063_1",
+              "china-1919:p0067_1",
+              "china-1919:p0069_1"
+            ],
+            "why_existing_tags_do_not_fit": "The catalogues span agriculture, animal products, forestry, mining and manufactures. crop-production, mineral-production and industrial-output each omit major sectors, while economic-indicators requires a general economic barometer rather than a qualitative origin catalogue. exports already fits the outward-port catalogues but does not describe their origin mapping.",
+            "priority": "high",
+            "candidate_kind": "subject-gap"
+          }
+        },
+        {
+          "batch": "review-2",
+          "proposal": {
+            "id": "commodity-geography",
+            "label": "commodity geography",
+            "definition": "Geographic origins and regional distribution of products or productive resources across several economic sectors.",
+            "includes": [
+              "Inventories pairing many commodities with their producing regions.",
+              "Mixed crop, animal-product, mineral, timber and manufactured-product origin lists."
+            ],
+            "excludes": [
+              "A single commodity adequately described by its commodity tag.",
+              "Quantitative multi-domain economic barometers, which use economic-indicators.",
+              "Trade quantities by origin or destination without a substantive inventory of regional products."
+            ],
+            "related_topics": [
+              "geography",
+              "economy",
+              "trade"
+            ],
+            "evidence_keys": [
+              "china-1913:p0057_1",
+              "china-1913:p0058_1",
+              "china-1916:p0065_1",
+              "china-1916:p0066_1",
+              "china-1922:p0159_1"
+            ],
+            "why_existing_tags_do_not_fit": "The tables span agriculture, mining, forestry and manufactured goods without output measures. crop-production, mineral-production and industrial-output are sector-specific; economic-indicators explicitly concerns indicator summaries. Picking three incidental commodities would misrepresent the inventory.",
+            "priority": "high",
+            "candidate_type": "genuine-aggregate-gap"
+          }
+        },
+        {
+          "batch": "review-3",
+          "proposal": {
+            "id": "regional-products",
+            "label": "regional products",
+            "definition": "The geographic distribution of the products or economic specialities of regions, especially inventories spanning several productive sectors.",
+            "includes": [
+              "Products paired with producing provinces/regions; province-by-product reference lists; geographical origins and associated export gateways when the regional product pattern is substantial."
+            ],
+            "excludes": [
+              "Single-commodity production or trade tables adequately described by their commodity tag.",
+              "Broad numerical economic barometers (economic-indicators).",
+              "Pure lists of ports or places without product-origin information."
+            ],
+            "related_topics": [
+              "geography",
+              "economy",
+              "trade",
+              "agriculture"
+            ],
+            "evidence_keys": [
+              "china-1923:p0257_1",
+              "china-1923:p0258_1"
+            ],
+            "why_existing_tags_do_not_fit": "The inventories span animal products, crops, minerals, timber and manufactured goods. Crop-production or industrial-output would omit large parts of the subject and three incidental commodity tags would misrepresent it. Exports already fits record 19, but does not capture its province-by-product organisation; record 18 has no general approved detail for this qualitative multi-sector geography.",
+            "priority": "medium",
+            "proposal_kind": "coverage-gap"
+          }
+        }
+      ],
+      "consolidation_evidence": [],
+      "status": "proposed-not-applied",
+      "recommendation": "recommend",
+      "consolidation_note": "Merge all three proposed names into one tag. Especially useful for qualitative, multi-sector product-to-region inventories; do not select three arbitrary commodities instead.",
+      "evidence_count": 12,
+      "existing_vocabulary_options_count": 3,
+      "deferred_evidence_keys": []
+    },
+    {
+      "id": "anthropometry",
+      "label": "human body measurements",
+      "definition": "Measured physical dimensions and proportional characteristics of human bodies and the distributions or typologies constructed from those measurements.",
+      "includes": [
+        "Height, weight and body proportions; cranial/cephalic indices; tables grouping people by measured physical traits, retaining the source's historical categories.",
+        "Cephalic indices, head-shape distributions, stature and bodily measurements.",
+        "Descriptive physical-type categories explicitly based on anthropometric observations."
+      ],
+      "excludes": [
+        "Nationality or ethnic-community labels without physical measurement (nationality-and-ethnicity).",
+        "Age and sex distributions alone (age-and-sex).",
+        "Nutrition or disease statistics without bodily measurements.",
+        "Nationality or ethnicity without physical measurements or bodily-trait classification.",
+        "Clinical disease or nutritional status alone.",
+        "Endorsement or modern reclassification of the source's racial theories."
+      ],
+      "related_topics": [
+        "population",
+        "health",
+        "science-and-technology"
+      ],
+      "proposed_name_variants": [
+        "anthropometry"
+      ],
+      "evidence_keys": [
+        "china-1925-6:p0197_1",
+        "china-1926-7:p0163_1",
+        "china-1928:p0062_1",
+        "china-1929-30:p0057_1",
+        "china-1929-30:p0057_2",
+        "china-1938:p0030_1"
+      ],
+      "reviewer_sources": [
+        {
+          "batch": "review-3",
+          "proposal": {
+            "id": "anthropometry",
+            "label": "human body measurements",
+            "definition": "Measured physical dimensions and proportional characteristics of human bodies and the distributions or typologies constructed from those measurements.",
+            "includes": [
+              "Height, weight and body proportions; cranial/cephalic indices; tables grouping people by measured physical traits, retaining the source's historical categories."
+            ],
+            "excludes": [
+              "Nationality or ethnic-community labels without physical measurement (nationality-and-ethnicity).",
+              "Age and sex distributions alone (age-and-sex).",
+              "Nutrition or disease statistics without bodily measurements."
+            ],
+            "related_topics": [
+              "population",
+              "health",
+              "science-and-technology"
+            ],
+            "evidence_keys": [
+              "china-1925-6:p0197_1",
+              "china-1926-7:p0163_1"
+            ],
+            "why_existing_tags_do_not_fit": "The records report percentages of head-shape classes derived from 1,187 cephalic indices. They do not identify nationality or an ethnic community. No approved tag specifically covers bodily dimensions or anthropometric classifications.",
+            "priority": "high",
+            "proposal_kind": "coverage-gap"
+          }
+        },
+        {
+          "batch": "review-4",
+          "proposal": {
+            "id": "anthropometry",
+            "label": "anthropometry",
+            "definition": "Historical measurements and reported classifications of human bodily dimensions or physical traits, including the source's anthropometric typologies.",
+            "includes": [
+              "Cephalic indices, head-shape distributions, stature and bodily measurements.",
+              "Descriptive physical-type categories explicitly based on anthropometric observations."
+            ],
+            "excludes": [
+              "Nationality or ethnicity without physical measurements or bodily-trait classification.",
+              "Clinical disease or nutritional status alone.",
+              "Endorsement or modern reclassification of the source's racial theories."
+            ],
+            "related_topics": [
+              "population",
+              "science-and-technology"
+            ],
+            "evidence_keys": [
+              "china-1928:p0062_1",
+              "china-1929-30:p0057_1",
+              "china-1929-30:p0057_2",
+              "china-1938:p0030_1"
+            ],
+            "why_existing_tags_do_not_fit": "nationality-and-ethnicity concerns nationality, ethnicity or explicit racial-group distributions. These tables instead classify head measurements and bodily traits within the population; age-and-sex and diseases do not describe that subject.",
+            "priority": "high",
+            "kind": "vocabulary-gap"
+          }
+        }
+      ],
+      "consolidation_evidence": [],
+      "status": "proposed-not-applied",
+      "recommendation": "recommend",
+      "consolidation_note": "Covers the source's bodily measurements and historical physical typologies. Keep the historical wording in the source without adopting its theories as modern classifications.",
+      "evidence_count": 6,
+      "existing_vocabulary_options_count": 0,
+      "deferred_evidence_keys": []
+    },
+    {
+      "id": "census-and-survey-methods",
+      "label": "census and survey methods",
+      "definition": "The organisation, instruments and procedures used to collect census or survey information.",
+      "includes": [
+        "Census questions, blank survey cards, schedules and enumeration forms.",
+        "Instructions to enumerators, census-board reporting categories and data-collection procedures.",
+        "Survey sample design and the allocation of sampled units by place or stratum."
+      ],
+      "excludes": [
+        "Ordinary population, religious or household statistics merely derived from a census or survey.",
+        "Legal household registration without a census or survey collection subject."
+      ],
+      "related_topics": [
+        "population",
+        "science-and-technology",
+        "agriculture"
+      ],
+      "proposed_name_variants": [
+        "census-and-survey-methods"
+      ],
+      "evidence_keys": [
+        "china-peking-1921:p0105_1",
+        "china-peking-1921:p0106_1",
+        "china-peking-1921:p0367_1",
+        "china-1929-30:p0971_1"
+      ],
+      "reviewer_sources": [
+        {
+          "batch": "review-1",
+          "proposal": {
+            "id": "census-and-survey-methods",
+            "label": "census and survey methods",
+            "definition": "The organisation, instruments and procedures used to collect census or survey information.",
+            "includes": [
+              "Census questions, blank survey cards, schedules and enumeration forms.",
+              "Instructions to enumerators, census-board reporting categories and data-collection procedures."
+            ],
+            "excludes": [
+              "Ordinary population, religious or household statistics merely derived from a census or survey.",
+              "Legal household registration without a census or survey collection subject."
+            ],
+            "related_topics": [
+              "population",
+              "science-and-technology"
+            ],
+            "evidence_keys": [
+              "china-peking-1921:p0105_1",
+              "china-peking-1921:p0106_1",
+              "china-peking-1921:p0367_1"
+            ],
+            "why_existing_tags_do_not_fit": "household-registration is legal registration rather than enumeration methodology. The subject tags for requested answers do not describe the blank instrument itself, and scientific-research would infer a research activity not established by every census form.",
+            "priority": "high",
+            "candidate_kind": "subject-gap"
+          }
+        }
+      ],
+      "consolidation_evidence": [
+        {
+          "key": "china-1929-30:p0971_1",
+          "reason": "One broad methods tag can cover population census forms and agricultural sampling. The farm-sample table deferred by reviewer 4 fits this proposal from reviewer 1; no separate agricultural-surveys tag is needed."
+        }
+      ],
+      "status": "proposed-not-applied",
+      "recommendation": "recommend",
+      "consolidation_note": "One broad methods tag can cover population census forms and agricultural sampling. The farm-sample table deferred by reviewer 4 fits this proposal from reviewer 1; no separate agricultural-surveys tag is needed.",
+      "evidence_count": 4,
+      "existing_vocabulary_options_count": 0,
+      "deferred_evidence_keys": []
+    },
+    {
+      "id": "public-holidays-and-commemorations",
+      "label": "public holidays and commemorations",
+      "definition": "Recognised public holidays and recurring civic or historical commemoration days and the occasions they mark.",
+      "includes": [
+        "Official public holiday and anniversary calendars.",
+        "Dates and events commemorated by state or civic observances.",
+        "National holidays; civic commemoration days; recurring memorial observances; lists pairing the calendar day with the remembered event.",
+        "National commemorative days and statutory holidays.",
+        "Calendars listing the occasion being celebrated or remembered."
+      ],
+      "excludes": [
+        "General historical event chronologies.",
+        "Calendar conversion, era equivalences and time standards without an observance subject.",
+        "Astronomical events without a holiday or commemoration.",
+        "Calendar/era conversions and time-zone conventions (calendars-and-time).",
+        "One-off chronological event lists not organised as recurring observances.",
+        "Religious institutions or adherent counts without an observance subject.",
+        "Calendar-system equivalences and time zones, which remain calendars-and-time.",
+        "A date incidental to an unrelated table."
+      ],
+      "related_topics": [
+        "culture",
+        "government",
+        "history",
+        "religion"
+      ],
+      "proposed_name_variants": [
+        "holidays-and-commemorations",
+        "public-holidays-and-commemorations"
+      ],
+      "evidence_keys": [
+        "china-1922:p1009_1",
+        "china-1925-6:p0997_1",
+        "china-1926-7:p0638_1",
+        "china-1928:p1256_1"
+      ],
+      "reviewer_sources": [
+        {
+          "batch": "review-2",
+          "proposal": {
+            "id": "holidays-and-commemorations",
+            "label": "holidays and commemorations",
+            "definition": "Recognised public holidays and recurring civic or historical commemoration days and the occasions they mark.",
+            "includes": [
+              "Official public holiday and anniversary calendars.",
+              "Dates and events commemorated by state or civic observances."
+            ],
+            "excludes": [
+              "General historical event chronologies.",
+              "Calendar conversion, era equivalences and time standards without an observance subject.",
+              "Astronomical events without a holiday or commemoration."
+            ],
+            "related_topics": [
+              "culture",
+              "government",
+              "history"
+            ],
+            "evidence_keys": [
+              "china-1922:p1009_1"
+            ],
+            "why_existing_tags_do_not_fit": "calendars-and-time is a reasonable existing broad reference tag, but its current definition emphasises systems for reckoning dates rather than the occasions observed. Either add this specific cultural subject or explicitly extend the existing definition; do not create both a public-holidays and a separate commemorations term.",
+            "priority": "medium",
+            "candidate_type": "optional-definition-clarification"
+          }
+        },
+        {
+          "batch": "review-3",
+          "proposal": {
+            "id": "public-holidays-and-commemorations",
+            "label": "public holidays and commemorations",
+            "definition": "Recurring officially or socially observed holidays, anniversaries and memorial days and the occasions they commemorate.",
+            "includes": [
+              "National holidays; civic commemoration days; recurring memorial observances; lists pairing the calendar day with the remembered event."
+            ],
+            "excludes": [
+              "Calendar/era conversions and time-zone conventions (calendars-and-time).",
+              "One-off chronological event lists not organised as recurring observances.",
+              "Religious institutions or adherent counts without an observance subject."
+            ],
+            "related_topics": [
+              "culture",
+              "government",
+              "religion"
+            ],
+            "evidence_keys": [
+              "china-1925-6:p0997_1"
+            ],
+            "why_existing_tags_do_not_fit": "The record is the Republic's proclaimed holiday/anniversary calendar. Calendars-and-time is currently defined around systems and conversions for reckoning dates, and historical-chronologies requires a general historical account. A recurring civic observance is a distinct useful subject. If the vocabulary maintainers intentionally broaden calendars-and-time to cover holiday observances, this addition could instead be avoided.",
+            "priority": "medium",
+            "proposal_kind": "coverage-gap"
+          }
+        },
+        {
+          "batch": "review-4",
+          "proposal": {
+            "id": "public-holidays-and-commemorations",
+            "label": "public holidays and commemorations",
+            "definition": "Official or publicly observed holidays, anniversaries, festivals and commemorative occasions and their observance dates.",
+            "includes": [
+              "National commemorative days and statutory holidays.",
+              "Calendars listing the occasion being celebrated or remembered."
+            ],
+            "excludes": [
+              "Calendar-system equivalences and time zones, which remain calendars-and-time.",
+              "General historical event chronologies.",
+              "A date incidental to an unrelated table."
+            ],
+            "related_topics": [
+              "culture",
+              "government",
+              "history"
+            ],
+            "evidence_keys": [
+              "china-1926-7:p0638_1",
+              "china-1928:p1256_1"
+            ],
+            "why_existing_tags_do_not_fit": "calendars-and-time is defined as systems for reckoning and converting dates or time; historical-chronologies explicitly excludes a chronology confined to one well-defined substantive subject. These are lists of commemorative observances. Clarifying and widening calendars-and-time is an alternative to adding this ID.",
+            "priority": "medium",
+            "kind": "vocabulary-gap"
+          }
+        }
+      ],
+      "consolidation_evidence": [],
+      "status": "proposed-not-applied",
+      "recommendation": "recommend",
+      "consolidation_note": "Keep observances distinct from calendar conversion/time reckoning. Reviewer 2's suggested calendars-and-time reuse would require a definition change and is not accepted under the current rules.",
+      "evidence_count": 4,
+      "existing_vocabulary_options_count": 0,
+      "deferred_evidence_keys": []
+    },
+    {
+      "id": "legal-profession",
+      "label": "legal profession",
+      "definition": "Lawyers, advocates and other practising legal professionals, including qualification, licensing, registration and professional establishment.",
+      "includes": [
+        "Licensed or certified lawyers and advocates by place.",
+        "Legal professional admissions, certificates and practice qualifications."
+      ],
+      "excludes": [
+        "Judicial caseload or court establishments alone.",
+        "Police and prison personnel.",
+        "Professional-school curricula alone, which remain vocational-education or higher-education."
+      ],
+      "related_topics": [
+        "crime-and-justice",
+        "labour"
+      ],
+      "proposed_name_variants": [
+        "legal-profession"
+      ],
+      "evidence_keys": [
+        "china-1944:p0222_1",
+        "china-1937-43:p2-0064_1",
+        "china-1950:p1-0121_2"
+      ],
+      "reviewer_sources": [
+        {
+          "batch": "review-4",
+          "proposal": {
+            "id": "legal-profession",
+            "label": "legal profession",
+            "definition": "Lawyers, advocates and other practising legal professionals, including qualification, licensing, registration and professional establishment.",
+            "includes": [
+              "Licensed or certified lawyers and advocates by place.",
+              "Legal professional admissions, certificates and practice qualifications."
+            ],
+            "excludes": [
+              "Judicial caseload or court establishments alone.",
+              "Police and prison personnel.",
+              "Professional-school curricula alone, which remain vocational-education or higher-education."
+            ],
+            "related_topics": [
+              "crime-and-justice",
+              "labour"
+            ],
+            "evidence_keys": [
+              "china-1944:p0222_1",
+              "china-1937-43:p2-0064_1",
+              "china-1950:p1-0121_2"
+            ],
+            "why_existing_tags_do_not_fit": "courts covers judicial institutions and caseload; occupations concerns population distribution by profession, not inventories of certified advocates or licence issuance. No current detailed tag identifies legal practitioners.",
+            "priority": "high",
+            "kind": "vocabulary-gap"
+          }
+        }
+      ],
+      "consolidation_evidence": [],
+      "status": "proposed-not-applied",
+      "recommendation": "recommend",
+      "consolidation_note": "Practitioner qualification and licensing are distinct from court establishments/caseload and population-by-occupation distributions.",
+      "evidence_count": 3,
+      "existing_vocabulary_options_count": 0,
+      "deferred_evidence_keys": []
+    },
+    {
+      "id": "writing-systems-and-phonetics",
+      "label": "writing systems and phonetics",
+      "definition": "Writing systems, orthographic or phonetic notation, pronunciation systems and the representation of speech sounds.",
+      "includes": [
+        "Alphabets, syllabaries and phonetic symbols; consonant and vowel/final inventories; romanisation/transliteration equivalences; spelling or script reforms."
+      ],
+      "excludes": [
+        "Language distribution or language of public services without script/sound analysis (languages).",
+        "Language teaching programmes or school language curricula alone (language-education).",
+        "Military or technical glossaries whose main subject is the named institutions or objects rather than speech sounds."
+      ],
+      "related_topics": [
+        "education",
+        "culture",
+        "science-and-technology"
+      ],
+      "proposed_name_variants": [
+        "writing-systems-and-phonetics"
+      ],
+      "evidence_keys": [
+        "china-1923:p0399_1",
+        "china-1923:p0400_1",
+        "china-1923:p0400_2"
+      ],
+      "reviewer_sources": [
+        {
+          "batch": "review-3",
+          "proposal": {
+            "id": "writing-systems-and-phonetics",
+            "label": "writing systems and phonetics",
+            "definition": "Writing systems, orthographic or phonetic notation, pronunciation systems and the representation of speech sounds.",
+            "includes": [
+              "Alphabets, syllabaries and phonetic symbols; consonant and vowel/final inventories; romanisation/transliteration equivalences; spelling or script reforms."
+            ],
+            "excludes": [
+              "Language distribution or language of public services without script/sound analysis (languages).",
+              "Language teaching programmes or school language curricula alone (language-education).",
+              "Military or technical glossaries whose main subject is the named institutions or objects rather than speech sounds."
+            ],
+            "related_topics": [
+              "education",
+              "culture",
+              "science-and-technology"
+            ],
+            "evidence_keys": [
+              "china-1923:p0399_1",
+              "china-1923:p0400_1",
+              "china-1923:p0400_2"
+            ],
+            "why_existing_tags_do_not_fit": "Languages concerns use/distribution of languages and language-education concerns teaching. Neither precisely identifies phonetic-symbol inventories or the national alphabet as a writing/sound system. These three records show consonant and final symbols paired with sound equivalents.",
+            "priority": "high",
+            "proposal_kind": "coverage-gap"
+          }
+        }
+      ],
+      "consolidation_evidence": [],
+      "status": "proposed-not-applied",
+      "recommendation": "recommend",
+      "consolidation_note": "Distinguishes scripts, phonetic symbols and sound representation from language distribution and language instruction.",
+      "evidence_count": 3,
+      "existing_vocabulary_options_count": 0,
+      "deferred_evidence_keys": []
+    },
+    {
+      "id": "real-estate",
+      "label": "real estate",
+      "definition": "Transactions, market values and rents of land and buildings as property.",
+      "includes": [
+        "Land and building sales, transaction areas and consideration paid.",
+        "Urban land lease rents and quoted values or rents of offices, warehouses and residential property."
+      ],
+      "excludes": [
+        "Agricultural ownership and tenancy arrangements without a property-market measure: use land-tenure.",
+        "Property taxation alone: use land-tax or taxation.",
+        "Residential overcrowding, dwelling conditions or housing support without a property-market subject: use housing."
+      ],
+      "related_topics": [
+        "economy",
+        "finance"
+      ],
+      "proposed_name_variants": [
+        "real-estate"
+      ],
+      "evidence_keys": [
+        "china-handbook-1926:p0543_1",
+        "china-handbook-1926:p0745_1",
+        "china-handbook-1926:p0793_1"
+      ],
+      "reviewer_sources": [
+        {
+          "batch": "review-1",
+          "proposal": {
+            "id": "real-estate",
+            "label": "real estate",
+            "definition": "Transactions, market values and rents of land and buildings as property.",
+            "includes": [
+              "Land and building sales, transaction areas and consideration paid.",
+              "Urban land lease rents and quoted values or rents of offices, warehouses and residential property."
+            ],
+            "excludes": [
+              "Agricultural ownership and tenancy arrangements without a property-market measure: use land-tenure.",
+              "Property taxation alone: use land-tax or taxation.",
+              "Residential overcrowding, dwelling conditions or housing support without a property-market subject: use housing."
+            ],
+            "related_topics": [
+              "economy",
+              "finance"
+            ],
+            "evidence_keys": [
+              "china-handbook-1926:p0543_1",
+              "china-handbook-1926:p0745_1",
+              "china-handbook-1926:p0793_1"
+            ],
+            "why_existing_tags_do_not_fit": "land-tenure is explicitly agricultural. housing covers dwellings but not the combined office, warehouse and land-market schedules; land-tax would confuse rent with tax. prices is a possible general quotation fallback, but its defined examples concern goods/services and it does not identify real-property transactions.",
+            "priority": "high",
+            "candidate_kind": "subject-gap"
+          }
+        }
+      ],
+      "consolidation_evidence": [],
+      "status": "proposed-not-applied",
+      "recommendation": "recommend",
+      "consolidation_note": "Useful for market rents and transactions in land and buildings. One of the three evidence records has an uncertain lead-in and needs context confirmation before assignment.",
+      "evidence_count": 3,
+      "existing_vocabulary_options_count": 0,
+      "deferred_evidence_keys": [
+        "china-handbook-1926:p0543_1"
+      ]
+    },
+    {
+      "id": "printing",
+      "label": "printing",
+      "definition": "Printing, lithography, engraving and related reproduction of printed matter, including the establishments providing these services.",
+      "includes": [
+        "Printing and lithographic works, presses and engraving establishments.",
+        "Printing capacity, production, personnel, charges and business inventories.",
+        "Commercial and mission printing establishments and presses.",
+        "Printing, typesetting, lithography and related print-production activity."
+      ],
+      "excludes": [
+        "Paper and pulp production without printing.",
+        "Lists or circulation of publications without a printing-production or printing-establishment subject.",
+        "Publication-title or circulation statistics alone, which use books, newspapers or periodicals."
+      ],
+      "related_topics": [
+        "manufacturing",
+        "press"
+      ],
+      "proposed_name_variants": [
+        "printing"
+      ],
+      "evidence_keys": [
+        "china-1914:p0121_2",
+        "china-1916:p0121_1"
+      ],
+      "reviewer_sources": [
+        {
+          "batch": "review-1",
+          "proposal": {
+            "id": "printing",
+            "label": "printing",
+            "definition": "Printing, lithography, engraving and related reproduction of printed matter, including the establishments providing these services.",
+            "includes": [
+              "Printing and lithographic works, presses and engraving establishments.",
+              "Printing capacity, production, personnel, charges and business inventories."
+            ],
+            "excludes": [
+              "Paper and pulp production without printing.",
+              "Lists or circulation of publications without a printing-production or printing-establishment subject."
+            ],
+            "related_topics": [
+              "manufacturing",
+              "press"
+            ],
+            "evidence_keys": [
+              "china-1914:p0121_2"
+            ],
+            "why_existing_tags_do_not_fit": "books, newspapers and periodicals classify publication types, not a cross-publication printing industry; paper-and-pulp concerns the material. companies or industrial-output are usable generic fallbacks, but neither identifies this distinct productive activity.",
+            "priority": "high",
+            "candidate_kind": "industry-specific-refinement"
+          }
+        },
+        {
+          "batch": "review-2",
+          "proposal": {
+            "id": "printing",
+            "label": "printing",
+            "definition": "The printing industry and the establishments, equipment and production processes used to produce printed matter.",
+            "includes": [
+              "Commercial and mission printing establishments and presses.",
+              "Printing, typesetting, lithography and related print-production activity."
+            ],
+            "excludes": [
+              "Paper and pulp production without printing.",
+              "Publication-title or circulation statistics alone, which use books, newspapers or periodicals."
+            ],
+            "related_topics": [
+              "press",
+              "manufacturing"
+            ],
+            "evidence_keys": [
+              "china-1916:p0121_1"
+            ],
+            "why_existing_tags_do_not_fit": "The list is of printing works across newspaper and mission presses, rather than one publication format. books, newspapers and periodicals cannot represent the print-production industry collectively; paper-and-pulp describes a different production stage.",
+            "priority": "high",
+            "candidate_type": "genuine-industry-gap"
+          }
+        }
+      ],
+      "consolidation_evidence": [],
+      "status": "proposed-not-applied",
+      "recommendation": "recommend",
+      "consolidation_note": "A productive activity spanning books, newspapers and other printed matter; distinct from paper production and publication type.",
+      "evidence_count": 2,
+      "existing_vocabulary_options_count": 1,
+      "deferred_evidence_keys": []
+    },
+    {
+      "id": "professional-associations",
+      "label": "professional associations",
+      "definition": "Organised bodies representing or coordinating members of a learned or licensed profession and their governance, membership or professional activities.",
+      "includes": [
+        "Medical, legal, engineering and similar professional associations.",
+        "Professional association committees, officers and membership."
+      ],
+      "excludes": [
+        "Commercial chambers and industry associations, which use business-associations.",
+        "Worker bargaining organisations, which use trade-unions.",
+        "A roster of licensed practitioners without an association, or an institution devoted solely to scientific research."
+      ],
+      "related_topics": [
+        "labour",
+        "health",
+        "education",
+        "science-and-technology"
+      ],
+      "proposed_name_variants": [
+        "professional-associations"
+      ],
+      "evidence_keys": [
+        "china-1922:p1029_1"
+      ],
+      "reviewer_sources": [
+        {
+          "batch": "review-2",
+          "proposal": {
+            "id": "professional-associations",
+            "label": "professional associations",
+            "definition": "Organised bodies representing or coordinating members of a learned or licensed profession and their governance, membership or professional activities.",
+            "includes": [
+              "Medical, legal, engineering and similar professional associations.",
+              "Professional association committees, officers and membership."
+            ],
+            "excludes": [
+              "Commercial chambers and industry associations, which use business-associations.",
+              "Worker bargaining organisations, which use trade-unions.",
+              "A roster of licensed practitioners without an association, or an institution devoted solely to scientific research."
+            ],
+            "related_topics": [
+              "labour",
+              "health",
+              "education",
+              "science-and-technology"
+            ],
+            "evidence_keys": [
+              "china-1922:p1029_1"
+            ],
+            "why_existing_tags_do_not_fit": "The National Medical Association roster concerns professional self-organisation. medical-services concerns provision and use of care; business-associations concerns commercial or industrial representation; scientific-research requires a substantive research organisation or activity. None specifically represents this professional body.",
+            "priority": "high",
+            "candidate_type": "genuine-institutional-gap"
+          }
+        }
+      ],
+      "consolidation_evidence": [],
+      "status": "proposed-not-applied",
+      "recommendation": "recommend",
+      "consolidation_note": "Only one example in this subset, but the institution type is reusable across medical, legal and engineering professions. Keep separate from commercial associations and trade unions.",
+      "evidence_count": 1,
+      "existing_vocabulary_options_count": 0,
+      "deferred_evidence_keys": []
+    },
+    {
+      "id": "demobilisation",
+      "label": "demobilisation",
+      "definition": "The disbandment, reduction or release of armed forces and the organisation or financing of that process.",
+      "includes": [
+        "Troop-disbandment allocations and implementation.",
+        "Release and transition measures explicitly tied to military demobilisation.",
+        "Troop disbandment plans and costs.",
+        "Demobilisation numbers, discharge arrangements and unit reductions."
+      ],
+      "excludes": [
+        "Recruitment or mobilisation.",
+        "Veterans' continuing benefits or employment when the demobilisation process itself is not the subject.",
+        "Routine peacetime force organisation.",
+        "Recruitment or conscription into service.",
+        "Routine peacetime unit organisation without a release or disbandment subject.",
+        "Welfare of former servicemen after discharge without a substantive demobilisation process."
+      ],
+      "related_topics": [
+        "military",
+        "finance"
+      ],
+      "proposed_name_variants": [
+        "demobilisation"
+      ],
+      "evidence_keys": [
+        "china-1914:p0422_2",
+        "china-1919:p0423_1",
+        "china-1916:p0396_1"
+      ],
+      "reviewer_sources": [
+        {
+          "batch": "review-1",
+          "proposal": {
+            "id": "demobilisation",
+            "label": "demobilisation",
+            "definition": "The disbandment, reduction or release of armed forces and the organisation or financing of that process.",
+            "includes": [
+              "Troop-disbandment allocations and implementation.",
+              "Release and transition measures explicitly tied to military demobilisation."
+            ],
+            "excludes": [
+              "Recruitment or mobilisation.",
+              "Veterans' continuing benefits or employment when the demobilisation process itself is not the subject.",
+              "Routine peacetime force organisation."
+            ],
+            "related_topics": [
+              "military"
+            ],
+            "evidence_keys": [
+              "china-1914:p0422_2"
+            ],
+            "why_existing_tags_do_not_fit": "army and public-budgets already fit this disbandment funding table. The optional term would distinguish reduction/release from war-and-mobilisation and from routine army accounts; it is not necessary simply to eliminate an empty tag list.",
+            "priority": "medium",
+            "candidate_kind": "optional-refinement-existing-tag-fits"
+          }
+        },
+        {
+          "batch": "review-2",
+          "proposal": {
+            "id": "demobilisation",
+            "label": "demobilisation",
+            "definition": "Disbanding armed units or releasing personnel from military service, including the administrative and financial arrangements for doing so.",
+            "includes": [
+              "Troop disbandment plans and costs.",
+              "Demobilisation numbers, discharge arrangements and unit reductions."
+            ],
+            "excludes": [
+              "Recruitment or conscription into service.",
+              "Routine peacetime unit organisation without a release or disbandment subject.",
+              "Welfare of former servicemen after discharge without a substantive demobilisation process."
+            ],
+            "related_topics": [
+              "military",
+              "finance"
+            ],
+            "evidence_keys": [
+              "china-1919:p0423_1",
+              "china-1916:p0396_1"
+            ],
+            "why_existing_tags_do_not_fit": "army and public-budgets can already cover the troop-disbandment expenditure. recruitment-and-conscription is the opposite process; war-and-mobilisation does not explicitly distinguish release or reduction. The proposed term supplies useful process specificity rather than curing a total lack of existing tags.",
+            "priority": "medium",
+            "candidate_type": "optional-process-specificity"
+          }
+        }
+      ],
+      "consolidation_evidence": [],
+      "status": "proposed-not-applied",
+      "recommendation": "optional-refinement",
+      "consolidation_note": "Existing army/public-budgets tags already fit the disbandment accounts. This adds process specificity.",
+      "evidence_count": 3,
+      "existing_vocabulary_options_count": 3,
+      "deferred_evidence_keys": []
+    },
+    {
+      "id": "asbestos",
+      "label": "asbestos",
+      "definition": "Asbestos as a mineral fibre or industrial material and its extraction, manufacture and commerce.",
+      "includes": [
+        "Asbestos mining and raw fibre; manufactured asbestos articles and output; asbestos-product trade."
+      ],
+      "excludes": [
+        "Unspecified non-metallic mineral output without explicit asbestos.",
+        "General building material manufacture that does not identify asbestos.",
+        "Health effects inferred solely from asbestos production, without health observations."
+      ],
+      "related_topics": [
+        "mining",
+        "manufacturing",
+        "trade"
+      ],
+      "proposed_name_variants": [
+        "asbestos"
+      ],
+      "evidence_keys": [
+        "china-1924-5:p0165_2",
+        "china-1925-6:p0189_2",
+        "china-1926-7:p0156_2"
+      ],
+      "reviewer_sources": [
+        {
+          "batch": "review-3",
+          "proposal": {
+            "id": "asbestos",
+            "label": "asbestos",
+            "definition": "Asbestos as a mineral fibre or industrial material and its extraction, manufacture and commerce.",
+            "includes": [
+              "Asbestos mining and raw fibre; manufactured asbestos articles and output; asbestos-product trade."
+            ],
+            "excludes": [
+              "Unspecified non-metallic mineral output without explicit asbestos.",
+              "General building material manufacture that does not identify asbestos.",
+              "Health effects inferred solely from asbestos production, without health observations."
+            ],
+            "related_topics": [
+              "mining",
+              "manufacturing",
+              "trade"
+            ],
+            "evidence_keys": [
+              "china-1924-5:p0165_2",
+              "china-1925-6:p0189_2",
+              "china-1926-7:p0156_2"
+            ],
+            "why_existing_tags_do_not_fit": "Industrial-output already fits these manufactured-product series. The optional asbestos tag would identify the material more precisely, consistently with existing commodity tags such as graphite and phosphate-rock; cement-and-bricks would assume a building use not stated in these records. The three examples are repeated Tientsin-company annual series rather than independent industrial cases.",
+            "priority": "medium",
+            "proposal_kind": "optional-material-refinement"
+          }
+        }
+      ],
+      "consolidation_evidence": [],
+      "status": "proposed-not-applied",
+      "recommendation": "optional-refinement",
+      "consolidation_note": "Existing industrial-output fits the evidence. Three editions repeat a company's manufactured-product series; recurrence is not three independent industries.",
+      "evidence_count": 3,
+      "existing_vocabulary_options_count": 3,
+      "deferred_evidence_keys": []
+    },
+    {
+      "id": "mercury",
+      "label": "mercury",
+      "definition": "Mercury (quicksilver), its ores and metal, as a mineral resource, extracted product or traded commodity.",
+      "includes": [
+        "Mercury ore and concentrate production.",
+        "Quicksilver deposits, output and commodity imports or exports."
+      ],
+      "excludes": [
+        "Mercury merely mentioned as an incidental ingredient in a pharmaceutical or chemical inventory.",
+        "Mixed mineral production without a substantive mercury component."
+      ],
+      "related_topics": [
+        "mining",
+        "manufacturing",
+        "trade"
+      ],
+      "proposed_name_variants": [
+        "mercury"
+      ],
+      "evidence_keys": [
+        "china-1923:p0167_1"
+      ],
+      "reviewer_sources": [
+        {
+          "batch": "review-2",
+          "proposal": {
+            "id": "mercury",
+            "label": "mercury",
+            "definition": "Mercury (quicksilver), its ores and metal, as a mineral resource, extracted product or traded commodity.",
+            "includes": [
+              "Mercury ore and concentrate production.",
+              "Quicksilver deposits, output and commodity imports or exports."
+            ],
+            "excludes": [
+              "Mercury merely mentioned as an incidental ingredient in a pharmaceutical or chemical inventory.",
+              "Mixed mineral production without a substantive mercury component."
+            ],
+            "related_topics": [
+              "mining",
+              "manufacturing",
+              "trade"
+            ],
+            "evidence_keys": [
+              "china-1923:p0167_1"
+            ],
+            "why_existing_tags_do_not_fit": "exports and mineral-production already fit this mixed export/output table. A mercury term would add the same commodity precision already provided for tin, antimony and tungsten. It should be considered with evidence from the other review batches, not added simply because this table currently has no tags.",
+            "priority": "medium",
+            "candidate_type": "optional-commodity-specificity"
+          }
+        }
+      ],
+      "consolidation_evidence": [],
+      "status": "proposed-not-applied",
+      "recommendation": "optional-refinement",
+      "consolidation_note": "Existing exports/mineral-production already fit. Consider this as commodity precision consistent with other named mineral tags.",
+      "evidence_count": 1,
+      "existing_vocabulary_options_count": 1,
+      "deferred_evidence_keys": []
+    },
+    {
+      "id": "school-curricula",
+      "label": "school curricula",
+      "definition": "Prescribed subjects, courses, lesson hours and credits that organise formal school instruction.",
+      "includes": [
+        "Weekly timetables, course-hour allocations, curriculum requirements and academic credits.",
+        "Comparisons of prescribed instruction by grade or school type."
+      ],
+      "excludes": [
+        "Enrolment or school counts without instructional content.",
+        "Subjects of public lectures without a formal school curriculum."
+      ],
+      "related_topics": [
+        "education"
+      ],
+      "proposed_name_variants": [
+        "school-curricula"
+      ],
+      "evidence_keys": [
+        "china-peking-1921:p0454_2"
+      ],
+      "reviewer_sources": [
+        {
+          "batch": "review-1",
+          "proposal": {
+            "id": "school-curricula",
+            "label": "school curricula",
+            "definition": "Prescribed subjects, courses, lesson hours and credits that organise formal school instruction.",
+            "includes": [
+              "Weekly timetables, course-hour allocations, curriculum requirements and academic credits.",
+              "Comparisons of prescribed instruction by grade or school type."
+            ],
+            "excludes": [
+              "Enrolment or school counts without instructional content.",
+              "Subjects of public lectures without a formal school curriculum."
+            ],
+            "related_topics": [
+              "education"
+            ],
+            "evidence_keys": [
+              "china-peking-1921:p0454_2"
+            ],
+            "why_existing_tags_do_not_fit": "primary-education already fits and should not have been left empty. This is an optional narrower discovery term across school stages, not evidence that the current vocabulary cannot classify the table.",
+            "priority": "medium",
+            "candidate_kind": "optional-refinement-existing-tag-fits"
+          }
+        }
+      ],
+      "consolidation_evidence": [],
+      "status": "proposed-not-applied",
+      "recommendation": "optional-refinement",
+      "consolidation_note": "Existing primary-education fits the example. A cross-stage curriculum term is optional refinement.",
+      "evidence_count": 1,
+      "existing_vocabulary_options_count": 1,
+      "deferred_evidence_keys": []
+    },
+    {
+      "id": "domestic-service",
+      "label": "domestic service",
+      "definition": "Paid or otherwise dependent household service performed by servants and the households employing them.",
+      "includes": [
+        "Domestic servants, household employers, servant wages and conditions.",
+        "Counts and proportions of households keeping servants."
+      ],
+      "excludes": [
+        "Household manufacture: use cottage-industries.",
+        "Public service employment or workers serving customers outside private households.",
+        "Family composition or budgets without a domestic-service subject."
+      ],
+      "related_topics": [
+        "labour",
+        "welfare"
+      ],
+      "proposed_name_variants": [
+        "domestic-service"
+      ],
+      "evidence_keys": [
+        "china-peking-1921:p0542_3"
+      ],
+      "reviewer_sources": [
+        {
+          "batch": "review-1",
+          "proposal": {
+            "id": "domestic-service",
+            "label": "domestic service",
+            "definition": "Paid or otherwise dependent household service performed by servants and the households employing them.",
+            "includes": [
+              "Domestic servants, household employers, servant wages and conditions.",
+              "Counts and proportions of households keeping servants."
+            ],
+            "excludes": [
+              "Household manufacture: use cottage-industries.",
+              "Public service employment or workers serving customers outside private households.",
+              "Family composition or budgets without a domestic-service subject."
+            ],
+            "related_topics": [
+              "labour",
+              "welfare"
+            ],
+            "evidence_keys": [
+              "china-peking-1921:p0542_3"
+            ],
+            "why_existing_tags_do_not_fit": "The table counts families employing servants, not servant workers, occupations, hours or remuneration. households is demographic rather than a household labour arrangement; employment-and-unemployment or working-conditions would be only approximate. The subject is useful beyond this one social-survey cross-tabulation.",
+            "priority": "medium",
+            "candidate_kind": "subject-gap"
+          }
+        }
+      ],
+      "consolidation_evidence": [],
+      "status": "proposed-not-applied",
+      "recommendation": "optional-refinement",
+      "consolidation_note": "A coherent household-labour subject, currently supported by one table in the reviewed subset.",
+      "evidence_count": 1,
+      "existing_vocabulary_options_count": 0,
+      "deferred_evidence_keys": []
+    },
+    {
+      "id": "native-place-associations",
+      "label": "native-place associations",
+      "definition": "Associations and collective institutions organised around a shared town, district or provincial place of origin.",
+      "includes": [
+        "Native-place guilds, provincial associations and huiguan halls.",
+        "Their membership, facilities, accommodation, mutual support and finances."
+      ],
+      "excludes": [
+        "Merchant or industrial associations organised primarily by business or occupation: use business-associations.",
+        "An overseas population count without a native-place association as subject.",
+        "Ordinary hotel or dwelling inventories without a native-place institution."
+      ],
+      "related_topics": [
+        "culture",
+        "welfare",
+        "population"
+      ],
+      "proposed_name_variants": [
+        "native-place-associations"
+      ],
+      "evidence_keys": [
+        "china-peking-1921:p0251_1"
+      ],
+      "reviewer_sources": [
+        {
+          "batch": "review-1",
+          "proposal": {
+            "id": "native-place-associations",
+            "label": "native-place associations",
+            "definition": "Associations and collective institutions organised around a shared town, district or provincial place of origin.",
+            "includes": [
+              "Native-place guilds, provincial associations and huiguan halls.",
+              "Their membership, facilities, accommodation, mutual support and finances."
+            ],
+            "excludes": [
+              "Merchant or industrial associations organised primarily by business or occupation: use business-associations.",
+              "An overseas population count without a native-place association as subject.",
+              "Ordinary hotel or dwelling inventories without a native-place institution."
+            ],
+            "related_topics": [
+              "culture",
+              "welfare",
+              "population"
+            ],
+            "evidence_keys": [
+              "china-peking-1921:p0251_1"
+            ],
+            "why_existing_tags_do_not_fit": "The source counts halls built by cities/districts of each province, not occupational merchant guilds. overseas-communities is defined by national or ethnic origin and would not reliably describe domestic provincial associations. housing is a service-level fallback given the contextual accommodation function, but misses the institutional basis.",
+            "priority": "medium",
+            "candidate_kind": "subject-gap"
+          }
+        }
+      ],
+      "consolidation_evidence": [],
+      "status": "proposed-not-applied",
+      "recommendation": "optional-refinement",
+      "consolidation_note": "One clear origin-based association example. Do not generalise this tag to all guilds, businesses or overseas communities.",
+      "evidence_count": 1,
+      "existing_vocabulary_options_count": 0,
+      "deferred_evidence_keys": []
+    },
+    {
+      "id": "fish-and-fish-products",
+      "label": "fish and fish products",
+      "definition": "Fish and primary or processed fish commodities in commerce, supply and processing when capture or cultivation is not the principal stated activity.",
+      "includes": [
+        "Trade, market supply and commodity values of fish and fishery products.",
+        "Fresh, dried, salted and otherwise processed fish products, when the source identifies them."
+      ],
+      "excludes": [
+        "Catch, fishing fleets and capture operations: use fishing.",
+        "Aquaculture operations alone: use aquaculture.",
+        "Whaling and seaweed when their dedicated tags suffice."
+      ],
+      "related_topics": [
+        "fisheries",
+        "trade",
+        "manufacturing"
+      ],
+      "proposed_name_variants": [
+        "fish-and-fish-products"
+      ],
+      "evidence_keys": [
+        "china-1912:p0529_1"
+      ],
+      "reviewer_sources": [
+        {
+          "batch": "review-1",
+          "proposal": {
+            "id": "fish-and-fish-products",
+            "label": "fish and fish products",
+            "definition": "Fish and primary or processed fish commodities in commerce, supply and processing when capture or cultivation is not the principal stated activity.",
+            "includes": [
+              "Trade, market supply and commodity values of fish and fishery products.",
+              "Fresh, dried, salted and otherwise processed fish products, when the source identifies them."
+            ],
+            "excludes": [
+              "Catch, fishing fleets and capture operations: use fishing.",
+              "Aquaculture operations alone: use aquaculture.",
+              "Whaling and seaweed when their dedicated tags suffice."
+            ],
+            "related_topics": [
+              "fisheries",
+              "trade",
+              "manufacturing"
+            ],
+            "evidence_keys": [
+              "china-1912:p0529_1"
+            ],
+            "why_existing_tags_do_not_fit": "The source gives customs movement values of fish and fishery products, without stating import/export direction or capture/cultivation origin. fishing is defined around capture operations and aquaculture would invent an origin; food-processing would assume all the trade concerns processed products.",
+            "priority": "medium",
+            "candidate_kind": "subject-gap"
+          }
+        }
+      ],
+      "consolidation_evidence": [],
+      "status": "proposed-not-applied",
+      "recommendation": "optional-refinement",
+      "consolidation_note": "Could cover fish commodities in trade without assuming capture or cultivation. One example; first decide whether to broaden the existing fishing definition instead.",
+      "evidence_count": 1,
+      "existing_vocabulary_options_count": 0,
+      "deferred_evidence_keys": []
+    },
+    {
+      "id": "militias-and-volunteer-forces",
+      "label": "militias and volunteer forces",
+      "definition": "Organised volunteer, municipal-defence or militia land forces and their units, strength and service.",
+      "includes": [
+        "Volunteer corps and municipal defence forces.",
+        "Militia membership, unit organisation, reserves and equipment."
+      ],
+      "excludes": [
+        "Every irregular armed group without evidence of militia or volunteer status.",
+        "Civilian police, ordinary standing-army personnel and sporting volunteer clubs.",
+        "Automatic inference of foreign-garrison rights from a member's nationality."
+      ],
+      "related_topics": [
+        "military"
+      ],
+      "proposed_name_variants": [
+        "militias-and-volunteer-forces"
+      ],
+      "evidence_keys": [
+        "china-1926-7:p1155_1",
+        "china-1928:p1359_1",
+        "china-1929-30:p1129_1"
+      ],
+      "reviewer_sources": [
+        {
+          "batch": "review-4",
+          "proposal": {
+            "id": "militias-and-volunteer-forces",
+            "label": "militias and volunteer forces",
+            "definition": "Organised volunteer, municipal-defence or militia land forces and their units, strength and service.",
+            "includes": [
+              "Volunteer corps and municipal defence forces.",
+              "Militia membership, unit organisation, reserves and equipment."
+            ],
+            "excludes": [
+              "Every irregular armed group without evidence of militia or volunteer status.",
+              "Civilian police, ordinary standing-army personnel and sporting volunteer clubs.",
+              "Automatic inference of foreign-garrison rights from a member's nationality."
+            ],
+            "related_topics": [
+              "military"
+            ],
+            "evidence_keys": [
+              "china-1926-7:p1155_1",
+              "china-1928:p1359_1",
+              "china-1929-30:p1129_1"
+            ],
+            "why_existing_tags_do_not_fit": "army already covers land armed forces generally and therefore fits these tables. This proposed narrower detail would distinguish a recurring volunteer-corps series from regular armies, but is not essential to close a vocabulary gap.",
+            "priority": "low",
+            "kind": "optional-refinement"
+          }
+        }
+      ],
+      "consolidation_evidence": [],
+      "status": "proposed-not-applied",
+      "recommendation": "optional-refinement",
+      "consolidation_note": "Existing army already covers the volunteer-corps series. Optional narrower discovery term.",
+      "evidence_count": 3,
+      "existing_vocabulary_options_count": 3,
+      "deferred_evidence_keys": []
+    },
+    {
+      "id": "diplomatic-claims",
+      "label": "diplomatic claims",
+      "definition": "Compensation, restitution or other claims advanced through relations between states, including claims for losses arising from incidents and their negotiation or settlement.",
+      "includes": [
+        "Foreign nationals' incident-loss claims presented through governments; diplomatic compensation demands; interstate property restitution claims and negotiated settlements."
+      ],
+      "excludes": [
+        "Ordinary government loans or debt service.",
+        "Private insurance claims or purely domestic civil litigation.",
+        "An imposed treaty/war indemnity already adequately covered by indemnities."
+      ],
+      "related_topics": [
+        "foreign-relations",
+        "finance",
+        "informal-imperialism"
+      ],
+      "proposed_name_variants": [
+        "diplomatic-claims"
+      ],
+      "evidence_keys": [
+        "china-1924-5:p0881_1"
+      ],
+      "reviewer_sources": [
+        {
+          "batch": "review-3",
+          "proposal": {
+            "id": "diplomatic-claims",
+            "label": "diplomatic claims",
+            "definition": "Compensation, restitution or other claims advanced through relations between states, including claims for losses arising from incidents and their negotiation or settlement.",
+            "includes": [
+              "Foreign nationals' incident-loss claims presented through governments; diplomatic compensation demands; interstate property restitution claims and negotiated settlements."
+            ],
+            "excludes": [
+              "Ordinary government loans or debt service.",
+              "Private insurance claims or purely domestic civil litigation.",
+              "An imposed treaty/war indemnity already adequately covered by indemnities."
+            ],
+            "related_topics": [
+              "foreign-relations",
+              "finance",
+              "informal-imperialism"
+            ],
+            "evidence_keys": [
+              "china-1924-5:p0881_1"
+            ],
+            "why_existing_tags_do_not_fit": "The Lincheng table lists compensation claims presented by country after an incident, not clearly imposed or accepted obligations. Indemnities is defined as financial obligations imposed as compensation. This distinction can justify a claims tag; alternatively, the maintainers could deliberately broaden indemnities to include pending diplomatic claims. The single example here warrants a boundary decision before expansion.",
+            "priority": "medium",
+            "proposal_kind": "coverage-gap"
+          }
+        }
+      ],
+      "consolidation_evidence": [],
+      "status": "proposed-not-applied",
+      "recommendation": "boundary-decision-first",
+      "consolidation_note": "One pending compensation-claims table. Decide whether indemnities should explicitly include claims not yet imposed or accepted before creating a separate term.",
+      "evidence_count": 1,
+      "existing_vocabulary_options_count": 0,
+      "deferred_evidence_keys": []
+    },
+    {
+      "id": "colonies-and-leased-territories",
+      "label": "colonies and leased territories",
+      "definition": "Colonial possessions and formally leased territories as political holdings, including inventories of their status and administering powers.",
+      "includes": [
+        "Lists of foreign possessions grouped by holding power.",
+        "Comparisons of colonies and leased territories as geopolitical units."
+      ],
+      "excludes": [
+        "Ordinary production or population statistics merely published in a colony.",
+        "Urban concession systems in a nominally sovereign state, which use foreign-concessions.",
+        "Annexation or protectorate establishment and termination, when annexation-and-protectorates is the precise subject."
+      ],
+      "related_topics": [
+        "colonial-rule",
+        "geography",
+        "government"
+      ],
+      "proposed_name_variants": [
+        "colonies-and-leased-territories"
+      ],
+      "evidence_keys": [
+        "china-1922:p1013_2"
+      ],
+      "reviewer_sources": [
+        {
+          "batch": "review-2",
+          "proposal": {
+            "id": "colonies-and-leased-territories",
+            "label": "colonies and leased territories",
+            "definition": "Colonial possessions and formally leased territories as political holdings, including inventories of their status and administering powers.",
+            "includes": [
+              "Lists of foreign possessions grouped by holding power.",
+              "Comparisons of colonies and leased territories as geopolitical units."
+            ],
+            "excludes": [
+              "Ordinary production or population statistics merely published in a colony.",
+              "Urban concession systems in a nominally sovereign state, which use foreign-concessions.",
+              "Annexation or protectorate establishment and termination, when annexation-and-protectorates is the precise subject."
+            ],
+            "related_topics": [
+              "colonial-rule",
+              "geography",
+              "government"
+            ],
+            "evidence_keys": [
+              "china-1922:p1013_2"
+            ],
+            "why_existing_tags_do_not_fit": "This possession list mixes colonies, leased territories and formerly German holdings. foreign-concessions is deliberately narrower than all colonies, colonial-administration concerns governing machinery, and annexation-and-protectorates concerns changes or terms of status. A political-holdings inventory is not cleanly represented by those definitions. This proposed tag must never become a default for all tables from colonial volumes.",
+            "priority": "medium",
+            "candidate_type": "genuine-status-inventory-gap"
+          }
+        }
+      ],
+      "consolidation_evidence": [],
+      "status": "proposed-not-applied",
+      "recommendation": "boundary-decision-first",
+      "consolidation_note": "One political-possession inventory. Check boundaries with colonial-administration, annexation-and-protectorates and administrative-divisions; never apply merely because a table comes from a colonial volume.",
+      "evidence_count": 1,
+      "existing_vocabulary_options_count": 0,
+      "deferred_evidence_keys": []
+    },
+    {
+      "id": "foreign-trade",
+      "label": "foreign trade",
+      "definition": "Merchandise exchange across a territory's external trade boundary when treated in aggregate or without a supported single direction.",
+      "includes": [
+        "Combined total imports-and-exports values by port, partner or period.",
+        "Explicit foreign-country merchandise trade for which the source does not establish import/export direction."
+      ],
+      "excludes": [
+        "Domestic exchange and purely internal customs movements without external-trade evidence.",
+        "Cross-border service, income and capital accounts: use the relevant balance-of-payments or services tags.",
+        "A direction-specific series adequately described by imports or exports."
+      ],
+      "related_topics": [
+        "trade"
+      ],
+      "proposed_name_variants": [
+        "foreign-trade"
+      ],
+      "evidence_keys": [
+        "china-handbook-1926:p0506_1",
+        "china-1914:p0197_1",
+        "china-1914:p0199_1",
+        "china-1914:p0201_1",
+        "china-1919:p0209_1",
+        "china-1919:p0211_1"
+      ],
+      "reviewer_sources": [
+        {
+          "batch": "review-1",
+          "proposal": {
+            "id": "foreign-trade",
+            "label": "foreign trade",
+            "definition": "Merchandise exchange across a territory's external trade boundary when treated in aggregate or without a supported single direction.",
+            "includes": [
+              "Combined total imports-and-exports values by port, partner or period.",
+              "Explicit foreign-country merchandise trade for which the source does not establish import/export direction."
+            ],
+            "excludes": [
+              "Domestic exchange and purely internal customs movements without external-trade evidence.",
+              "Cross-border service, income and capital accounts: use the relevant balance-of-payments or services tags.",
+              "A direction-specific series adequately described by imports or exports."
+            ],
+            "related_topics": [
+              "trade"
+            ],
+            "evidence_keys": [
+              "china-handbook-1926:p0506_1",
+              "china-1914:p0197_1",
+              "china-1914:p0199_1",
+              "china-1914:p0201_1",
+              "china-1919:p0209_1",
+              "china-1919:p0211_1"
+            ],
+            "why_existing_tags_do_not_fit": "imports and exports describe separate directions, not an undivided total. Most other examples here also have missing commodity labels or conflicting continuation context, so their uncertainty is a source-quality issue as well as a vocabulary gap. A broad foreign-trade tag is justified by the clean aggregate port table, but must not be presented as repairing the damaged detailed identification.",
+            "priority": "medium",
+            "candidate_kind": "conditional-aggregate-tag"
+          }
+        }
+      ],
+      "consolidation_evidence": [],
+      "status": "proposed-not-applied",
+      "recommendation": "boundary-decision-first",
+      "consolidation_note": "One clean aggregate example supports a combined merchandise-trade concept. Five other records have missing commodity/direction context; a broader tag cannot repair that source uncertainty. Compare allowing imports plus exports for combined totals.",
+      "evidence_count": 6,
+      "existing_vocabulary_options_count": 0,
+      "deferred_evidence_keys": [
+        "china-1914:p0197_1",
+        "china-1914:p0199_1",
+        "china-1914:p0201_1",
+        "china-1919:p0209_1",
+        "china-1919:p0211_1"
+      ]
+    },
+    {
+      "id": "foreign-trade-relations",
+      "label": "foreign trade relations",
+      "definition": "The establishment and institutional development of commercial relations between territories or states, considered separately from the quantity or value of trade flows.",
+      "includes": [
+        "First direct trading contacts; establishment or opening of commercial relationships; development of trading partnerships and access arrangements."
+      ],
+      "excludes": [
+        "Routine import/export quantities or values with no substantive relationship/history subject.",
+        "Diplomatic missions or treaties without a commercial relationship subject.",
+        "Treaty-created port privileges already adequately covered by treaty-ports."
+      ],
+      "related_topics": [
+        "trade",
+        "foreign-relations",
+        "history"
+      ],
+      "proposed_name_variants": [
+        "foreign-trade-relations"
+      ],
+      "evidence_keys": [
+        "china-1923:p0288_1",
+        "china-1924-5:p0704_1",
+        "china-1914:p0128_1",
+        "china-1913:p0108_1",
+        "china-1916:p0127_1",
+        "china-1922:p0227_1"
+      ],
+      "reviewer_sources": [
+        {
+          "batch": "review-3",
+          "proposal": {
+            "id": "foreign-trade-relations",
+            "label": "foreign trade relations",
+            "definition": "The establishment and institutional development of commercial relations between territories or states, considered separately from the quantity or value of trade flows.",
+            "includes": [
+              "First direct trading contacts; establishment or opening of commercial relationships; development of trading partnerships and access arrangements."
+            ],
+            "excludes": [
+              "Routine import/export quantities or values with no substantive relationship/history subject.",
+              "Diplomatic missions or treaties without a commercial relationship subject.",
+              "Treaty-created port privileges already adequately covered by treaty-ports."
+            ],
+            "related_topics": [
+              "trade",
+              "foreign-relations",
+              "history"
+            ],
+            "evidence_keys": [
+              "china-1923:p0288_1",
+              "china-1924-5:p0704_1"
+            ],
+            "why_existing_tags_do_not_fit": "The records list nations and the dates of their first direct trade dealings with China. They are neither import/export flow statistics nor actual treaty inventories, and their single-subject chronology falls outside the current historical-chronologies boundary. Both tables repeat the same seven-event list, so this is a low-priority candidate until broader corpus demand is established.",
+            "priority": "low",
+            "proposal_kind": "coverage-gap"
+          }
+        }
+      ],
+      "consolidation_evidence": [
+        {
+          "key": "china-1914:p0128_1",
+          "reason": "The same seven-event first-contact chronology appears in six editions across batches. Prefer a deliberate decision about subject-specific historical-chronologies before adding a trade-history synonym."
+        },
+        {
+          "key": "china-1913:p0108_1",
+          "reason": "The same seven-event first-contact chronology appears in six editions across batches. Prefer a deliberate decision about subject-specific historical-chronologies before adding a trade-history synonym."
+        },
+        {
+          "key": "china-1916:p0127_1",
+          "reason": "The same seven-event first-contact chronology appears in six editions across batches. Prefer a deliberate decision about subject-specific historical-chronologies before adding a trade-history synonym."
+        },
+        {
+          "key": "china-1922:p0227_1",
+          "reason": "The same seven-event first-contact chronology appears in six editions across batches. Prefer a deliberate decision about subject-specific historical-chronologies before adding a trade-history synonym."
+        }
+      ],
+      "status": "proposed-not-applied",
+      "recommendation": "boundary-decision-first",
+      "consolidation_note": "The same seven-event first-contact chronology appears in six editions across batches. Prefer a deliberate decision about subject-specific historical-chronologies before adding a trade-history synonym.",
+      "evidence_count": 6,
+      "existing_vocabulary_options_count": 0,
+      "deferred_evidence_keys": [
+        "china-1914:p0128_1",
+        "china-1913:p0108_1",
+        "china-1916:p0127_1",
+        "china-1922:p0227_1"
+      ]
+    },
+    {
+      "id": "riots-and-civil-unrest",
+      "label": "riots and civil unrest",
+      "definition": "Episodes of collective civil disorder, riots or violent unrest, with documented participants, casualties, damage or official responses.",
+      "includes": [
+        "Riot events and damage or casualties explicitly attributed to them.",
+        "Collective disturbances without an established interstate-war or independence-movement purpose."
+      ],
+      "excludes": [
+        "Ordinary individual offences.",
+        "Military conflict casualties without civil-unrest context.",
+        "Peaceful political-party organisation or all ethnic population tables."
+      ],
+      "related_topics": [
+        "crime-and-justice",
+        "government"
+      ],
+      "proposed_name_variants": [
+        "riots-and-civil-unrest"
+      ],
+      "evidence_keys": [
+        "china-1931-2:p0626_1"
+      ],
+      "reviewer_sources": [
+        {
+          "batch": "review-4",
+          "proposal": {
+            "id": "riots-and-civil-unrest",
+            "label": "riots and civil unrest",
+            "definition": "Episodes of collective civil disorder, riots or violent unrest, with documented participants, casualties, damage or official responses.",
+            "includes": [
+              "Riot events and damage or casualties explicitly attributed to them.",
+              "Collective disturbances without an established interstate-war or independence-movement purpose."
+            ],
+            "excludes": [
+              "Ordinary individual offences.",
+              "Military conflict casualties without civil-unrest context.",
+              "Peaceful political-party organisation or all ethnic population tables."
+            ],
+            "related_topics": [
+              "crime-and-justice",
+              "government"
+            ],
+            "evidence_keys": [
+              "china-1931-2:p0626_1"
+            ],
+            "why_existing_tags_do_not_fit": "The printed running section recorded in chapter_raw is The Korean Riots, while the short context calls this the Pingyang disaster. military-casualties would require a military-operation link, and offences-and-convictions does not describe victim totals. This is a useful candidate, but the causal link to the specific riot should be checked before assigning it.",
+            "priority": "medium",
+            "kind": "conditional-candidate"
+          }
+        }
+      ],
+      "consolidation_evidence": [],
+      "status": "proposed-not-applied",
+      "recommendation": "conditional-source-check",
+      "consolidation_note": "Conditional on confirming the Pingyang casualty table's link to the running section The Korean Riots. Do not infer the cause from a vague disaster title alone.",
+      "evidence_count": 1,
+      "existing_vocabulary_options_count": 0,
+      "deferred_evidence_keys": []
+    }
+  ]
+}

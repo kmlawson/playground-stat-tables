@@ -1,0 +1,128 @@
+{
+  "vocabulary_version": "1.1.0-optional-details",
+  "assignments": {
+    "china-1912:p0081_1": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "exports",
+        "silk"
+      ],
+      "flags": [],
+      "rationale": "Annual value of silk exports from China in Hk. Taels and sterling.",
+      "review_questions": []
+    },
+    "china-1912:p0081_2": {
+      "topics": [
+        "agriculture"
+      ],
+      "tags": [
+        "soybeans"
+      ],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "Descriptive classification of commercial soya bean varieties; the content is textual with no quantities.",
+      "review_questions": []
+    },
+    "china-1912:p0082_1": {
+      "topics": [
+        "manufacturing"
+      ],
+      "tags": [
+        "soybeans"
+      ],
+      "flags": [],
+      "rationale": "Percentage chemical composition of beancake, a soybean product.",
+      "review_questions": [
+        "Is a tag for feed or chemical composition needed? None exists in the vocabulary."
+      ]
+    },
+    "china-1912:p0083_1": {
+      "topics": [
+        "agriculture"
+      ],
+      "tags": [
+        "soybeans"
+      ],
+      "flags": [],
+      "rationale": "Estimated bean production of Manchuria in tons by province, compiled by the South Manchuria Railway Company.",
+      "review_questions": []
+    },
+    "china-1912:p0083_2": {
+      "topics": [
+        "agriculture"
+      ],
+      "tags": [
+        "soybeans"
+      ],
+      "flags": [],
+      "rationale": "Manchurian bean production in tons by variety. Most varieties are soya, with a small non-soya green item.",
+      "review_questions": []
+    },
+    "china-1912:p0084_1": {
+      "topics": [
+        "agriculture",
+        "trade"
+      ],
+      "tags": [
+        "tea"
+      ],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "Textual classification of China tea kinds into black, green and blended, with the provinces concerned and no quantities.",
+      "review_questions": []
+    },
+    "china-1912:p0086_1": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "vegetable-oils",
+        "exports"
+      ],
+      "flags": [],
+      "rationale": "Quantities of vegetable oils exported in pounds by year. Two year labels are illegible but the quantities are present.",
+      "review_questions": []
+    },
+    "china-1912:p0086_2": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "plant-fibres"
+      ],
+      "flags": [],
+      "rationale": "Tons of fibres (abutilon, hemp, jute, ramie) moving through the Customs. Whether the movement is imports or exports is not stated.",
+      "review_questions": [
+        "Does the 'movement' through the Customs mean imports, exports or both?"
+      ]
+    },
+    "china-1912:p0087_1": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "oilseeds",
+        "exports"
+      ],
+      "flags": [],
+      "rationale": "Export quantities of ground-nuts in pounds by year.",
+      "review_questions": []
+    },
+    "china-1912:p0087_2": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "camphor",
+        "exports"
+      ],
+      "flags": [],
+      "rationale": "Camphor exports from China in pounds by year. The first year label is damaged.",
+      "review_questions": []
+    }
+  }
+}

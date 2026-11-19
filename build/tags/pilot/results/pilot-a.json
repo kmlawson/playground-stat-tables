@@ -1,0 +1,756 @@
+{
+  "schema_version": 1,
+  "vocabulary_version": "1.0.0-pilot",
+  "batch_id": "pilot-a",
+  "assignments": {
+    "china-1916:p0125_6": {
+      "topics": [
+        "transportation"
+      ],
+      "tags": [
+        "trams"
+      ],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "The sole body column lists four cities with electric tramways operating or under construction; there are no service quantities.",
+      "review_questions": []
+    },
+    "china-1923:p0995_1": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "customs-revenue"
+      ],
+      "flags": [],
+      "rationale": "Annual duty receipts and totals cover maritime customs revenue, with a second part allocating revenue between foreign and home trade.",
+      "review_questions": []
+    },
+    "china-1926-7:p0396_1": {
+      "topics": [
+        "communications"
+      ],
+      "tags": [
+        "postal-services"
+      ],
+      "flags": [],
+      "rationale": "Country rows compare letters, postcards, printed matter, free mail and total postal items, with population used for the per-person comparison.",
+      "review_questions": []
+    },
+    "china-1928:p0272_1": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "banking"
+      ],
+      "flags": [],
+      "rationale": "The bank directory includes headquarters, branches and founding years together with substantive authorized and paid-up capital amounts.",
+      "review_questions": []
+    },
+    "china-1931-2:p0341_3": {
+      "topics": [
+        "communications"
+      ],
+      "tags": [
+        "postal-services"
+      ],
+      "flags": [],
+      "rationale": "The body compares countries by quantities and per-person averages of letters, postcards, printed matter and other postal correspondence.",
+      "review_questions": []
+    },
+    "china-1937-43:p3-0044_2": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "savings-and-loans",
+        "securities-and-investment"
+      ],
+      "flags": [],
+      "rationale": "The industry-by-year body records loan, investment and security-loan amounts supplied to industrial and mining enterprises, rather than their production.",
+      "review_questions": []
+    },
+    "china-flood-1931:p0051_1": {
+      "topics": [
+        "disasters",
+        "agriculture"
+      ],
+      "tags": [
+        "floods",
+        "disaster-losses",
+        "arable-land"
+      ],
+      "flags": [],
+      "rationale": "County and provincial rows quantify farm families affected and cultivated acreage flooded, alongside total farm families and cultivated land.",
+      "review_questions": []
+    },
+    "china-handbook-1926:p0732_1": {
+      "topics": [
+        "mining",
+        "trade"
+      ],
+      "tags": [
+        "iron-ore",
+        "coal",
+        "exports"
+      ],
+      "flags": [],
+      "rationale": "Iron ore and anthracite/bituminous coal rows give annual output, estimated resources and exported tonnage.",
+      "review_questions": []
+    },
+    "china-peking-1921:p0542_2": {
+      "topics": [
+        "press"
+      ],
+      "tags": [
+        "newspapers"
+      ],
+      "flags": [],
+      "rationale": "Named newspapers are compared by numbers of subscribing families, with a quantitative total of 89 subscriptions.",
+      "review_questions": []
+    },
+    "far-east-1941:IMG_4864_2": {
+      "topics": [
+        "population"
+      ],
+      "tags": [
+        "overseas-communities",
+        "age-and-sex"
+      ],
+      "flags": [],
+      "rationale": "The complete regional and consular-jurisdiction body counts Japanese residents abroad separately as male, female and total; it does not describe a settlement scheme.",
+      "review_questions": []
+    },
+    "far-east-1941:IMG_4888_2": {
+      "topics": [
+        "military",
+        "education"
+      ],
+      "tags": [
+        "army",
+        "vocational-education"
+      ],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "Names, locations and establishment dates identify military colleges and specialist training schools; no enrolment or other quantities appear.",
+      "review_questions": []
+    },
+    "japan-1905:p0153_2": {
+      "topics": [
+        "mining"
+      ],
+      "tags": [
+        "salt",
+        "prices"
+      ],
+      "flags": [],
+      "rationale": "Annual salt-field area, furnaces and salt output are accompanied by production value and average price per koku.",
+      "review_questions": []
+    },
+    "japan-1906:p0545_4": {
+      "topics": [
+        "narcotics"
+      ],
+      "tags": [
+        "opium",
+        "drug-consumption",
+        "age-and-sex"
+      ],
+      "flags": [],
+      "rationale": "Year rows report male and female opium smokers, totals and smokers per hundred population; licensing and treatment are not identified.",
+      "review_questions": []
+    },
+    "japan-1908-09:p0045_1": {
+      "topics": [
+        "disasters"
+      ],
+      "tags": [
+        "floods",
+        "disaster-losses"
+      ],
+      "flags": [],
+      "rationale": "The 1907 flood losses include deaths, injuries, destroyed houses and infrastructure, damaged farms/crops and yen loss totals.",
+      "review_questions": []
+    },
+    "japan-1910:p0690_1": {
+      "topics": [
+        "colonial-rule",
+        "government"
+      ],
+      "tags": [
+        "colonial-administration",
+        "government-offices"
+      ],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "The roster names successive Formosa governors-general and their appointment and relief dates, with no statistical quantities.",
+      "review_questions": []
+    },
+    "japan-1911:p0638_2": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "exports",
+        "tea"
+      ],
+      "flags": [],
+      "rationale": "The only commodity rows are pan-fired and basket-fired green tea, compared by export value over four years.",
+      "review_questions": []
+    },
+    "japan-1912:p0483_6": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "insurance-and-pensions"
+      ],
+      "flags": [],
+      "rationale": "Conscription insurance is measured through company count, capital, premium reserve, claims paid and insured contracts/policies.",
+      "review_questions": []
+    },
+    "japan-1918:p0353_1": {
+      "topics": [
+        "welfare"
+      ],
+      "tags": [
+        "insurance-and-pensions"
+      ],
+      "flags": [],
+      "rationale": "Government workplace mutual relief societies are compared by membership, beneficiaries and pooled payments for wounded and deceased members, medical expenses and other aid.",
+      "review_questions": []
+    },
+    "japan-1920-21:p0338_2": {
+      "topics": [
+        "culture"
+      ],
+      "tags": [
+        "museums-and-heritage",
+        "recreation-and-amusements"
+      ],
+      "flags": [],
+      "rationale": "The two year rows count visitors to imperial and educational museums and to the zoological garden.",
+      "review_questions": []
+    },
+    "japan-1923:p0105_2": {
+      "topics": [
+        "disasters"
+      ],
+      "tags": [
+        "earthquakes-and-volcanoes",
+        "disaster-losses"
+      ],
+      "flags": [],
+      "rationale": "Each dated earthquake or earthquake-associated tidal wave has destroyed-house, death and injury quantities.",
+      "review_questions": []
+    },
+    "japan-1923:p0453_1": {
+      "topics": [
+        "culture"
+      ],
+      "tags": [
+        "theatre-and-cinema"
+      ],
+      "flags": [],
+      "rationale": "The Tokyo theatre row gives substantive totals of days open and tickets sold.",
+      "review_questions": []
+    },
+    "japan-1924-25:p0963_2": {
+      "topics": [
+        "population",
+        "disasters"
+      ],
+      "tags": [
+        "overseas-communities",
+        "nationality-and-ethnicity",
+        "households"
+      ],
+      "flags": [],
+      "rationale": "Chinese, British and other foreign residents are compared before the earthquake and in June 1924 using both family and population counts.",
+      "review_questions": []
+    },
+    "japan-1935:p0308_1": {
+      "topics": [
+        "disasters",
+        "finance"
+      ],
+      "tags": [
+        "disaster-relief",
+        "reconstruction",
+        "public-budgets"
+      ],
+      "flags": [],
+      "rationale": "Ministry and programme rows allocate multiyear public appropriations for relief and restoration after the 1934 disasters, including infrastructure and school rebuilding.",
+      "review_questions": []
+    },
+    "japan-1939-40:p1093_2": {
+      "topics": [
+        "informal-imperialism",
+        "colonial-rule"
+      ],
+      "tags": [
+        "foreign-concessions",
+        "colonial-administration",
+        "land-area"
+      ],
+      "flags": [],
+      "rationale": "The body lists foreign concessions and international settlements with creation dates and measured areas, then explicitly identifies French, Portuguese and British leased territories.",
+      "review_questions": []
+    },
+    "japan-1942-43:p1069_1": {
+      "topics": [
+        "informal-imperialism"
+      ],
+      "tags": [
+        "foreign-concessions",
+        "land-area"
+      ],
+      "flags": [],
+      "rationale": "Foreign concession and international settlement rows give creation dates and substantive territorial areas in se.",
+      "review_questions": []
+    },
+    "japan-manchoukuo-1936:p1-0264_3": {
+      "topics": [
+        "communications"
+      ],
+      "tags": [
+        "telephone"
+      ],
+      "flags": [],
+      "rationale": "Annual subscriber counts distinguish individual, party and extension subscriptions and quantify pending connection applications.",
+      "review_questions": []
+    },
+    "japan-manchoukuo-1936:p1-0365_1": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "public-budgets",
+        "taxation"
+      ],
+      "flags": [],
+      "rationale": "The two parts give town/village revenue, including several tax categories, and public expenditure by service, distinguishing settled and budget accounts.",
+      "review_questions": []
+    },
+    "japan-manchoukuo-1938:p1-0066_4": {
+      "topics": [
+        "geography"
+      ],
+      "tags": [
+        "weather"
+      ],
+      "flags": [],
+      "rationale": "Observatory rows compare precipitation in selected months, annual totals and maximum daily rainfall in millimetres.",
+      "review_questions": []
+    },
+    "japan-manchoukuo-1938:p1-0383_1": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "insurance-and-pensions"
+      ],
+      "flags": [],
+      "rationale": "Insurers and annual totals are compared by contract numbers/amounts, premiums, interest, claims, business expenses and reserves.",
+      "review_questions": []
+    },
+    "japan-manchoukuo-1939:p1-0329_1": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "securities-and-investment",
+        "banking"
+      ],
+      "flags": [],
+      "rationale": "Both parts track outstanding debentures, first by issuing bank and then across industrial company sectors; they are corporate borrowing rather than public debt.",
+      "review_questions": []
+    },
+    "japan-manchoukuo-1940:p0034_1": {
+      "topics": [
+        "economy",
+        "labour"
+      ],
+      "tags": [
+        "prices",
+        "cost-of-living",
+        "wages"
+      ],
+      "flags": [],
+      "rationale": "Annual and monthly business indicators jointly compare wholesale/retail prices, living costs, labour earnings/wage rates and employment, plus manufacturing/mining production indices.",
+      "review_questions": []
+    },
+    "japan-tokei-1935:p0033_1": {
+      "topics": [
+        "finance",
+        "trade"
+      ],
+      "tags": [
+        "companies",
+        "banking",
+        "currency"
+      ],
+      "flags": [],
+      "rationale": "The annual summary combines company numbers/capital/reserves, currency circulation, bank deposits/loans and clearing, postal finance, insurance and import/export values.",
+      "review_questions": []
+    },
+    "japan-tokei-1935:p0169_2": {
+      "topics": [
+        "education"
+      ],
+      "tags": [
+        "secondary-education",
+        "higher-education",
+        "vocational-education"
+      ],
+      "flags": [],
+      "rationale": "All three parts compare admission applicants, entrants and admission percentages across middle/girls schools, universities and numerous specialist/professional school fields.",
+      "review_questions": []
+    },
+    "japan-tokei-1935:p0245_2": {
+      "topics": [
+        "military"
+      ],
+      "tags": [
+        "navy",
+        "recruitment-and-conscription"
+      ],
+      "flags": [],
+      "rationale": "Year and locality rows count naval recruits by seamen, telegraph, aviation, engine-room, band, medical and paymaster branches.",
+      "review_questions": []
+    },
+    "japan-tokei-1938:p0153_1": {
+      "topics": [
+        "labour"
+      ],
+      "tags": [
+        "wages"
+      ],
+      "flags": [],
+      "rationale": "All three parts are wage-index series, distinguishing manufacturing branches, transport/communications workers and mining branches rather than output in those industries.",
+      "review_questions": []
+    },
+    "japan-tokei-1938:p0170_1": {
+      "topics": [
+        "education"
+      ],
+      "tags": [
+        "secondary-education",
+        "higher-education",
+        "vocational-education"
+      ],
+      "flags": [],
+      "rationale": "Six parts compare applicants, admitted students and admission rates across middle/girls schools, universities and specialist/technical fields in Japan proper.",
+      "review_questions": []
+    },
+    "japan-tokei-1940:p0087_3": {
+      "topics": [
+        "labour"
+      ],
+      "tags": [
+        "wages"
+      ],
+      "flags": [],
+      "rationale": "Both body blocks give annual wage indices across factory, transport/communications and mine-worker branches, with an explicit change of index base in the note.",
+      "review_questions": []
+    },
+    "japan-tokei-1940:p0100_2": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "police"
+      ],
+      "flags": [],
+      "rationale": "Year, prefecture and territory rows count police stations/posts and personnel by police rank, with population per constable as a staffing ratio.",
+      "review_questions": []
+    },
+    "korea-1915-16:p0108_1": {
+      "topics": [
+        "transportation"
+      ],
+      "tags": [
+        "roads-and-bridges"
+      ],
+      "flags": [],
+      "rationale": "Road classes are measured by projected network counts, width and length and by completed/uncompleted state and local construction lengths.",
+      "review_questions": []
+    },
+    "korea-1918-21:p0222_1": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "public-budgets",
+        "taxation"
+      ],
+      "flags": [],
+      "rationale": "Four complete parts compare local budget revenue by tax and other source and expenditure across public services in 1920, 1919 and 1910.",
+      "review_questions": []
+    },
+    "korea-1926-27:p0198_1": {
+      "topics": [
+        "education",
+        "finance"
+      ],
+      "tags": [
+        "education-finance"
+      ],
+      "flags": [],
+      "rationale": "Year rows quantify school associations and associated population together with budgets and financial burden per household.",
+      "review_questions": []
+    },
+    "korea-1928-29:p0113_1": {
+      "topics": [
+        "narcotics",
+        "agriculture"
+      ],
+      "tags": [
+        "opium"
+      ],
+      "flags": [],
+      "rationale": "The two body rows report cultivated poppy area and harvested opium output by year; the control-law context establishes lawful medical cultivation, not suppression outcomes.",
+      "review_questions": []
+    },
+    "korea-1929-30:p0103_1": {
+      "topics": [
+        "religion"
+      ],
+      "tags": [
+        "christianity",
+        "religious-institutions",
+        "nationality-and-ethnicity"
+      ],
+      "flags": [],
+      "rationale": "Korean and Japanese church sections compare denominations by missionaries, salaried workers, buildings and full members; notes add categories of affiliated members.",
+      "review_questions": []
+    },
+    "korea-1933-34:p0066_1": {
+      "topics": [
+        "narcotics",
+        "manufacturing"
+      ],
+      "tags": [
+        "morphine-and-heroin",
+        "opium",
+        "state-monopolies"
+      ],
+      "flags": [],
+      "rationale": "Annual kilogram quantities distinguish manufactured morphine/other narcotics and medical opium; supplied context identifies government monopoly manufacture.",
+      "review_questions": []
+    },
+    "korea-1935:p0172_1": {
+      "topics": [
+        "trade",
+        "health"
+      ],
+      "tags": [
+        "livestock",
+        "exports",
+        "quarantine"
+      ],
+      "flags": [],
+      "rationale": "The complete body counts cattle shipped to Japan through each named quarantine station by year, explicitly under the export-cattle quarantine section.",
+      "review_questions": []
+    },
+    "korea-1937-38:p0077_2": {
+      "topics": [
+        "narcotics",
+        "manufacturing"
+      ],
+      "tags": [
+        "opium",
+        "morphine-and-heroin",
+        "state-monopolies"
+      ],
+      "flags": [],
+      "rationale": "The 1937 output row records medical opium and a dash for morphine/other narcotics, under the explicitly described government morphine monopoly.",
+      "review_questions": []
+    },
+    "korea-1942:p0131_1": {
+      "topics": [
+        "sport"
+      ],
+      "tags": [
+        "sports-organisations-and-facilities"
+      ],
+      "flags": [],
+      "rationale": "The athletic meet is quantified by participants in each sport and the combined male/female gymnastics groups, ending with a participant total.",
+      "review_questions": [
+        "Should the vocabulary add a detailed term for sporting participation or athletic meets? This body counts participants, not competitive results, clubs or facilities; sports-organisations-and-facilities is the nearest approved provisional label."
+      ]
+    },
+    "korea-nenkan-1926:p0061_6": {
+      "topics": [
+        "education"
+      ],
+      "tags": [
+        "students-abroad"
+      ],
+      "flags": [],
+      "rationale": "Korean students studying in Japan are counted by field and government/private funding status, with both row and column totals.",
+      "review_questions": []
+    },
+    "korea-nenkan-1940:p0397_2": {
+      "topics": [
+        "military"
+      ],
+      "tags": [
+        "recruitment-and-conscription"
+      ],
+      "flags": [],
+      "rationale": "Belgian conscription categories specify substantive service durations, including 15 years active/reserve, 10 national-army years and a 25-year total; these are quantities, not dates.",
+      "review_questions": []
+    },
+    "korea-tokanfu-1908:p0125_1": {
+      "topics": [
+        "communications"
+      ],
+      "tags": [
+        "telephone",
+        "occupations",
+        "nationality-and-ethnicity"
+      ],
+      "flags": [],
+      "rationale": "Telephone subscribers are cross-tabulated by office and 31 occupations, with Japanese/Korean/foreign subscriber subtotals and prior-year totals.",
+      "review_questions": []
+    },
+    "korea-tokanfu-1939:p0073_2": {
+      "topics": [
+        "manufacturing"
+      ],
+      "tags": [
+        "industrial-output"
+      ],
+      "flags": [],
+      "rationale": "The complete 17-image record combines annual provincial industrial production values with a wide product-by-province inventory of quantities and values, covering textiles, metals, machinery, ceramics, chemicals, wood products, printing, food and other manufactures. Notes include small factories and specified public factories; no selected commodity represents this multi-industry whole.",
+      "review_questions": []
+    },
+    "manchukuo-directory-1938:p0039_2": {
+      "topics": [
+        "government"
+      ],
+      "tags": [
+        "government-offices",
+        "honours-and-ranks"
+      ],
+      "flags": [],
+      "rationale": "Central and local official counts are cross-tabulated by four civil-service appointment ranks, with quantitative subtotals and totals.",
+      "review_questions": []
+    },
+    "manchuria-1939:p0091_1": {
+      "topics": [
+        "population",
+        "agriculture"
+      ],
+      "tags": [
+        "migration",
+        "households",
+        "arable-land"
+      ],
+      "flags": [],
+      "rationale": "The village inventory records settlement groups/dates, household and member counts and cultivated hectares at each named railway self-protective village.",
+      "review_questions": [
+        "Does the named Railway Self-Protective Village scheme establish organized foreign-sponsored settlement for settler-migration? The supplied record gives settlement groups and years but no settlers' nationality or sponsoring authority; migration is retained provisionally and no imperial-rule topic is inferred."
+      ]
+    },
+    "manchuria-year-book-1932-33:p0531_1": {
+      "topics": [
+        "population"
+      ],
+      "tags": [
+        "occupations",
+        "nationality-and-ethnicity",
+        "age-and-sex"
+      ],
+      "flags": [],
+      "rationale": "The resident population is classified jointly by occupation, Japanese/Chinese/Korean/other nationality and male/female sex, with totals and percentages; no employment-status measures establish a labour table.",
+      "review_questions": []
+    },
+    "taiwan-tokei-1925:p0138_1": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "courts"
+      ],
+      "flags": [],
+      "rationale": "District courts and their branches/offices count fixed-date certification applications across personal status, property, money, goods and other document categories, with yearly totals; no litigation is identified.",
+      "review_questions": []
+    },
+    "taiwan-tokei-1925:p0320_2": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "public-budgets",
+        "public-property",
+        "state-monopolies"
+      ],
+      "flags": [],
+      "rationale": "Authorities and prior fiscal years are compared by revenue from public enterprises and state property; salt, camphor, tobacco and alcohol monopoly receipts form a substantial component alongside transport, communications, rents and other receipts.",
+      "review_questions": []
+    },
+    "taiwan-tokei-1925:p0328_1": {
+      "topics": [
+        "finance",
+        "disasters"
+      ],
+      "tags": [
+        "public-budgets",
+        "disaster-relief"
+      ],
+      "flags": [],
+      "rationale": "Both parts give settled revenue and expenditure of prefectural disaster-relief fund special accounts, including property income, relief spending and transfers.",
+      "review_questions": []
+    },
+    "taiwan-tokei-1933:p0257_1": {
+      "topics": [
+        "indigenous-peoples",
+        "labour"
+      ],
+      "tags": [
+        "working-conditions",
+        "employment-and-unemployment",
+        "wages"
+      ],
+      "flags": [],
+      "rationale": "Indigenous labour is explicitly divided between obligatory service and paid work, inside/outside Indigenous administration, with male/female labour inputs across work types, total wages and average daily pay.",
+      "review_questions": []
+    },
+    "taiwan-tokei-1938:p0272_2": {
+      "topics": [
+        "narcotics"
+      ],
+      "tags": [
+        "opium-licensing"
+      ],
+      "flags": [],
+      "rationale": "Year and prefecture/district rows count designated opium wholesalers, licensed retailers and authorized makers/sellers of opium-smoking utensils.",
+      "review_questions": []
+    },
+    "taiwan-tokei-1938:p0281_2": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "public-budgets",
+        "public-property",
+        "state-monopolies"
+      ],
+      "flags": [],
+      "rationale": "Fiscal-year and authority rows report public-enterprise and state-property revenue; named monopoly products are substantial receipts within a broader revenue account including transport, communications, rents and forests.",
+      "review_questions": []
+    }
+  },
+  "batch_notes": [
+    "Read the complete pilot-a input stream in consecutive 16,000-character chunks from offset 0 to 272000, then the final 15,696 characters through offset 287696; all body rows, parts and notes were inspected, including the complete industrial-products record. No OCR or Git operations were used.",
+    "Date-only rosters are textual; the bank directory, concession-area lists, subscriber list and military-service-duration table remain statistical because their substantive columns contain amounts, areas, counts or durations.",
+    "Classification follows body subjects without inherited collection geography or chapter labels. The multi-industry industrial-products table uses industrial-output rather than selecting incidental commodities. Financial and business summaries necessarily retain only their most useful detailed labels under the three-tag limit.",
+    "Two targeted review cases remain: sporting participation lacks an exact approved detailed tag, and the railway settlement inventory does not itself specify foreign sponsorship/nationality needed to confirm settler-migration."
+  ]
+}

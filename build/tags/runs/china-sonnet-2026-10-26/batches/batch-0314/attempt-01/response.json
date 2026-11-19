@@ -1,0 +1,128 @@
+{
+  "vocabulary_version": "1.1.0-optional-details",
+  "assignments": {
+    "china-1923:p1040_1": {
+      "topics": [
+        "trade",
+        "transportation"
+      ],
+      "tags": [
+        "shipping",
+        "exports",
+        "tariffs"
+      ],
+      "flags": [],
+      "rationale": "Coast carrying trade between open ports by flag: clearances, tonnage, export values, re-exports and export/tonnage duties. Shipping is the main subject, with exports values and duties.",
+      "review_questions": [
+        "Could a coastwise trade tag be added to the vocabulary?"
+      ]
+    },
+    "china-1923:p1041_1": {
+      "topics": [
+        "trade",
+        "transportation"
+      ],
+      "tags": [
+        "shipping",
+        "imports"
+      ],
+      "flags": [],
+      "rationale": "Continuation of the coast carrying trade by flag: entries, tonnage, import values and coast trade duties.",
+      "review_questions": []
+    },
+    "china-1923:p1042_1": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "imports",
+        "re-exports",
+        "exports"
+      ],
+      "flags": [],
+      "rationale": "Shanghai gross and net trade values 1918-1921, covering imports, re-exports and local exports of foreign and Chinese goods.",
+      "review_questions": []
+    },
+    "china-1923:p1043_1": {
+      "topics": [
+        "foreign-relations"
+      ],
+      "tags": [
+        "diplomatic-service"
+      ],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "List of British consular officers by place, rank and name; textual roster of consular service.",
+      "review_questions": []
+    },
+    "china-1923:p1062_1": {
+      "topics": [
+        "government",
+        "finance"
+      ],
+      "tags": [],
+      "flags": [],
+      "rationale": "Fee schedule for registration certificates under the China Trade Act. No existing tag covers company registration fees.",
+      "review_questions": [
+        "Should a tag for company registration or fees be added?"
+      ]
+    },
+    "china-1923:p1064_1": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "public-budgets"
+      ],
+      "flags": [],
+      "rationale": "Hongkong revenue by head (light dues, licences, post office, railway).",
+      "review_questions": []
+    },
+    "china-1923:p1065_1": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "public-budgets"
+      ],
+      "flags": [],
+      "rationale": "Hongkong government revenue receipts, ordinary and land sales, with totals.",
+      "review_questions": []
+    },
+    "china-1923:p1065_2": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "public-budgets"
+      ],
+      "flags": [],
+      "rationale": "Hongkong expenditure by department and service with total.",
+      "review_questions": []
+    },
+    "china-1923:p1066_1": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "public-budgets"
+      ],
+      "flags": [],
+      "rationale": "Hongkong revenue and expenditure for 1917-1921.",
+      "review_questions": []
+    },
+    "china-1923:p1066_2": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "currency",
+        "banking"
+      ],
+      "flags": [],
+      "rationale": "Banknote circulation of three authorised banks in Hongkong with total.",
+      "review_questions": []
+    }
+  }
+}

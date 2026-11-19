@@ -1,0 +1,5380 @@
+{
+  "schema_version": 1,
+  "classifier": "assistant-authored-metadata-rules",
+  "classification_stage": "metadata-only-first-pass",
+  "review_status": "partial-awaiting-contents-review",
+  "vocabulary_version": "1.2.0",
+  "field_limits": {
+    "topics": {
+      "min": 0,
+      "max": 2
+    },
+    "tags": {
+      "min": 0,
+      "max": 3
+    }
+  },
+  "flag_semantics": "An empty flags list with provenance flag_status unknown-needs-contents does not establish statistical content.",
+  "assignments": {
+    "nanyo-tokei-1937:p0022_1": {
+      "topics": [
+        "geography"
+      ],
+      "tags": [
+        "physical-geography"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. physical-geography: title_en='position'",
+      "review_questions": [
+        "Review full contents to determine the text/statistical flag."
+      ]
+    },
+    "nanyo-tokei-1937:p0022_2": {
+      "topics": [],
+      "tags": [],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "Metadata-only first pass. No sufficiently specific detailed subject established by allowed metadata.",
+      "review_questions": [
+        "Review full contents to establish high-level topics.",
+        "Review full contents to establish detailed tags."
+      ]
+    },
+    "nanyo-tokei-1937:p0022_3": {
+      "topics": [],
+      "tags": [],
+      "flags": [],
+      "rationale": "Metadata-only first pass. No sufficiently specific detailed subject established by allowed metadata.",
+      "review_questions": [
+        "Review full contents to establish high-level topics.",
+        "Review full contents to establish detailed tags."
+      ]
+    },
+    "nanyo-tokei-1937:p0022_4": {
+      "topics": [],
+      "tags": [],
+      "flags": [],
+      "rationale": "Metadata-only first pass. No sufficiently specific detailed subject established by allowed metadata.",
+      "review_questions": [
+        "Review full contents to establish high-level topics.",
+        "Review full contents to establish detailed tags.",
+        "Review full contents to determine the text/statistical flag."
+      ]
+    },
+    "nanyo-tokei-1937:p0023_1": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "public-property"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. public-property: title_en='government land'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0024_1": {
+      "topics": [
+        "population"
+      ],
+      "tags": [
+        "households"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. households: title_en='households'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0024_2": {
+      "topics": [
+        "population"
+      ],
+      "tags": [
+        "population-totals"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. population-totals: title_en='population'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0025_1": {
+      "topics": [
+        "population"
+      ],
+      "tags": [
+        "population-totals"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. population-totals: title_en='population'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0027_1": {
+      "topics": [
+        "population"
+      ],
+      "tags": [
+        "population-totals"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. population-totals: title_en='population'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0028_1": {
+      "topics": [
+        "population"
+      ],
+      "tags": [
+        "nationality-and-ethnicity"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. nationality-and-ethnicity: title_en='by nationality'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0028_2": {
+      "topics": [
+        "population"
+      ],
+      "tags": [
+        "age-and-sex"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. age-and-sex: title_en='by age'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0029_1": {
+      "topics": [
+        "population"
+      ],
+      "tags": [
+        "occupations"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. occupations: title_en='occupation'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0031_1": {
+      "topics": [
+        "population"
+      ],
+      "tags": [
+        "births-and-deaths"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. births-and-deaths: title_en='births'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0031_2": {
+      "topics": [
+        "population",
+        "indigenous-peoples"
+      ],
+      "tags": [
+        "marriage-and-divorce"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. marriage-and-divorce: title_en='marriages'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0031_3": {
+      "topics": [
+        "population"
+      ],
+      "tags": [
+        "migration"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. migration: title_en='migration'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0031_4": {
+      "topics": [
+        "government"
+      ],
+      "tags": [
+        "government-offices"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. government-offices: title_en='authorised staff'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0032_1": {
+      "topics": [
+        "government",
+        "colonial-rule"
+      ],
+      "tags": [
+        "government-offices",
+        "colonial-administration"
+      ],
+      "flags": [],
+      "rationale": "Three bands count administrative correspondence by the Governor’s Secretariat, departments, branches and public agencies. Notes explicitly trace departmental reorganizations and where predecessor offices’ documents are included.",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0032_2": {
+      "topics": [
+        "government",
+        "indigenous-peoples"
+      ],
+      "tags": [],
+      "flags": [],
+      "rationale": "Metadata-only first pass. No sufficiently specific detailed subject established by allowed metadata.",
+      "review_questions": [
+        "Review full contents to establish detailed tags."
+      ]
+    },
+    "nanyo-tokei-1937:p0032_3": {
+      "topics": [
+        "government"
+      ],
+      "tags": [],
+      "flags": [],
+      "rationale": "Metadata-only first pass. No sufficiently specific detailed subject established by allowed metadata.",
+      "review_questions": [
+        "Review full contents to establish detailed tags."
+      ]
+    },
+    "nanyo-tokei-1937:p0032_4": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "police"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. police: title_en='police'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0033_1": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "police"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. police: title_en='police'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0033_2": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "offences-and-convictions",
+        "police"
+      ],
+      "flags": [],
+      "rationale": "Known and cleared crime cases are counted for many Criminal Code and special-law offences by year and branch office.",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0034_1": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "offences-and-convictions",
+        "police",
+        "nationality-and-ethnicity"
+      ],
+      "flags": [],
+      "rationale": "Arrested persons are counted by offence, Japanese or islander category, year and branch, with foreigners identified in parentheses.",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0034_2": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "offences-and-convictions"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. offences-and-convictions: title_en='fraud'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0035_1": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "offences-and-convictions"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. offences-and-convictions: title_en='fraud'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0035_2": {
+      "topics": [
+        "disasters"
+      ],
+      "tags": [
+        "disaster-losses"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. disaster-losses: title_en='disasters'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0035_3": {
+      "topics": [
+        "disasters"
+      ],
+      "tags": [
+        "fires"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. fires: title_en='fires'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0035_4": {
+      "topics": [
+        "disasters"
+      ],
+      "tags": [
+        "fires"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. fires: title_en='fires'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0036_1": {
+      "topics": [
+        "population"
+      ],
+      "tags": [
+        "births-and-deaths"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. births-and-deaths: title_en='deaths'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0036_2": {
+      "topics": [
+        "population"
+      ],
+      "tags": [
+        "suicide"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. suicide: title_en='suicides'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0037_1": {
+      "topics": [
+        "population"
+      ],
+      "tags": [
+        "suicide"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. suicide: title_en='suicides'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0037_2": {
+      "topics": [
+        "population"
+      ],
+      "tags": [
+        "age-and-sex",
+        "suicide"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. age-and-sex: title_en='by age'; suicide: title_en='suicides'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0037_3": {
+      "topics": [],
+      "tags": [],
+      "flags": [],
+      "rationale": "Metadata-only first pass. No sufficiently specific detailed subject established by allowed metadata.",
+      "review_questions": [
+        "Review full contents to establish high-level topics.",
+        "Review full contents to establish detailed tags."
+      ]
+    },
+    "nanyo-tokei-1937:p0038_1": {
+      "topics": [
+        "population"
+      ],
+      "tags": [
+        "births-and-deaths"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. births-and-deaths: title_en='deaths'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0039_1": {
+      "topics": [],
+      "tags": [],
+      "flags": [],
+      "rationale": "Metadata-only first pass. No sufficiently specific detailed subject established by allowed metadata.",
+      "review_questions": [
+        "Review full contents to establish high-level topics.",
+        "Review full contents to establish detailed tags."
+      ]
+    },
+    "nanyo-tokei-1937:p0039_2": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "police"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. police: title_en='police'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0039_3": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "prisons"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. prisons: title_en='detentions'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0040_1": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "imports"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. imports: title_en='imported'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0040_2": {
+      "topics": [],
+      "tags": [],
+      "flags": [],
+      "rationale": "Metadata-only first pass. No sufficiently specific detailed subject established by allowed metadata.",
+      "review_questions": [
+        "Review full contents to establish high-level topics.",
+        "Review full contents to establish detailed tags."
+      ]
+    },
+    "nanyo-tokei-1937:p0040_3": {
+      "topics": [],
+      "tags": [],
+      "flags": [],
+      "rationale": "Metadata-only first pass. No sufficiently specific detailed subject established by allowed metadata.",
+      "review_questions": [
+        "Review full contents to establish high-level topics.",
+        "Review full contents to establish detailed tags."
+      ]
+    },
+    "nanyo-tokei-1937:p0040_4": {
+      "topics": [
+        "trade",
+        "narcotics"
+      ],
+      "tags": [
+        "imports"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. imports: title_en='imported'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0040_5": {
+      "topics": [],
+      "tags": [],
+      "flags": [],
+      "rationale": "Metadata-only first pass. No sufficiently specific detailed subject established by allowed metadata.",
+      "review_questions": [
+        "Review full contents to establish high-level topics.",
+        "Review full contents to establish detailed tags."
+      ]
+    },
+    "nanyo-tokei-1937:p0040_6": {
+      "topics": [],
+      "tags": [],
+      "flags": [],
+      "rationale": "Metadata-only first pass. No sufficiently specific detailed subject established by allowed metadata.",
+      "review_questions": [
+        "Review full contents to establish high-level topics.",
+        "Review full contents to establish detailed tags."
+      ]
+    },
+    "nanyo-tokei-1937:p0040_7": {
+      "topics": [],
+      "tags": [],
+      "flags": [],
+      "rationale": "Metadata-only first pass. No sufficiently specific detailed subject established by allowed metadata.",
+      "review_questions": [
+        "Review full contents to establish high-level topics.",
+        "Review full contents to establish detailed tags."
+      ]
+    },
+    "nanyo-tokei-1937:p0041_1": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "police"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. police: title_en='police'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0041_2": {
+      "topics": [
+        "culture"
+      ],
+      "tags": [
+        "recreation-and-amusements"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. recreation-and-amusements: title_en='public entertainments'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0041_3": {
+      "topics": [
+        "government"
+      ],
+      "tags": [
+        "hunting"
+      ],
+      "flags": [],
+      "rationale": "Both parts count 狩獵免狀 licences by year and branch office, dividing 遊獵, 職獵 and 學術研究其ノ他. This is hunting licensing administration spanning recreation, professional activity and research. The foreign-licence annotations and note that islanders have no applicable entries are incidental, not an Indigenous-peoples subject.",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0041_4": {
+      "topics": [],
+      "tags": [],
+      "flags": [],
+      "rationale": "Metadata-only first pass. No sufficiently specific detailed subject established by allowed metadata.",
+      "review_questions": [
+        "Review full contents to establish high-level topics.",
+        "Review full contents to establish detailed tags."
+      ]
+    },
+    "nanyo-tokei-1937:p0041_5": {
+      "topics": [],
+      "tags": [],
+      "flags": [],
+      "rationale": "Metadata-only first pass. No sufficiently specific detailed subject established by allowed metadata.",
+      "review_questions": [
+        "Review full contents to establish high-level topics.",
+        "Review full contents to establish detailed tags."
+      ]
+    },
+    "nanyo-tokei-1937:p0041_6": {
+      "topics": [
+        "health"
+      ],
+      "tags": [
+        "medical-services"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. medical-services: title_en='hospital'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0042_1": {
+      "topics": [
+        "health"
+      ],
+      "tags": [
+        "medical-services"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. medical-services: title_en='patients treated'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0042_2": {
+      "topics": [
+        "health"
+      ],
+      "tags": [
+        "medical-services"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. medical-services: title_en='patients treated'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0043_1": {
+      "topics": [
+        "population"
+      ],
+      "tags": [
+        "age-and-sex",
+        "births-and-deaths"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. age-and-sex: title_en='by age'; births-and-deaths: title_en='deaths'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0043_2": {
+      "topics": [
+        "health"
+      ],
+      "tags": [
+        "births-and-deaths",
+        "diseases"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. births-and-deaths: title_en='deaths'; diseases: title_en='deaths by cause'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0045_1": {
+      "topics": [
+        "population"
+      ],
+      "tags": [
+        "age-and-sex",
+        "infant-mortality"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. age-and-sex: title_en='by age'; infant-mortality: title_en='infant deaths'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0045_2": {
+      "topics": [
+        "health"
+      ],
+      "tags": [
+        "infant-mortality",
+        "diseases"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. infant-mortality: title_en='infant deaths'; diseases: title_en='deaths by cause'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0046_1": {
+      "topics": [
+        "health"
+      ],
+      "tags": [
+        "epidemics"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. epidemics: title_en='infectious diseases'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0046_2": {
+      "topics": [
+        "health"
+      ],
+      "tags": [
+        "quarantine"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. quarantine: title_en='quarantine'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0046_3": {
+      "topics": [
+        "health"
+      ],
+      "tags": [
+        "epidemics"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. epidemics: description_en='contagious diseases'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0047_1": {
+      "topics": [
+        "health"
+      ],
+      "tags": [
+        "diseases"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. diseases: title_en='smallpox'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0047_2": {
+      "topics": [
+        "health"
+      ],
+      "tags": [
+        "mental-health"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. mental-health: title_en='mentally ill'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0047_3": {
+      "topics": [
+        "health"
+      ],
+      "tags": [],
+      "flags": [],
+      "rationale": "Metadata-only first pass. No sufficiently specific detailed subject established by allowed metadata.",
+      "review_questions": [
+        "Review full contents to establish detailed tags."
+      ]
+    },
+    "nanyo-tokei-1937:p0047_4": {
+      "topics": [
+        "health"
+      ],
+      "tags": [
+        "mental-health"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. mental-health: title_en='mentally ill'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0048_1": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "courts"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. courts: description_en='judges'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0048_2": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "courts"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. courts: title_en='courts'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0048_3": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "courts"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. courts: title_en='procurators'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0048_4": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "police",
+        "summary-justice"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. police: title_en='police'; summary-justice: title_en='summary police judgments'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0049_1": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "summary-justice",
+        "offences-and-convictions",
+        "nationality-and-ethnicity"
+      ],
+      "flags": [],
+      "rationale": "Year and branch parts count persons summarily sentenced by offence, pairing Japanese and islander columns and identifying foreigners in parentheses. Specific regulatory offences remain categories of the overall justice table.",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0049_2": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "police",
+        "summary-justice"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. police: title_en='police'; summary-justice: title_en='summary police judgments'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0050_1": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "courts",
+        "offences-and-convictions"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. courts: title_en='courts'; offences-and-convictions: title_en='criminal'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0051_1": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "courts",
+        "offences-and-convictions"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. courts: title_en='courts'; offences-and-convictions: title_en='criminal'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0051_2": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "offences-and-convictions"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. offences-and-convictions: title_en='criminal'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0052_1": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "offences-and-convictions"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. offences-and-convictions: title_en='convicted'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0053_1": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "offences-and-convictions"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. offences-and-convictions: title_en='convicted'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0054_1": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "offences-and-convictions"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. offences-and-convictions: title_en='criminal'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0054_2": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "offences-and-convictions"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. offences-and-convictions: title_en='criminal'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0054_3": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "offences-and-convictions"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. offences-and-convictions: title_en='criminal'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0054_4": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "offences-and-convictions"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. offences-and-convictions: title_en='convicted'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0055_1": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "offences-and-convictions"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. offences-and-convictions: title_en='convicted'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0056_1": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "courts",
+        "offences-and-convictions"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. courts: title_en='procurators'; offences-and-convictions: title_en='criminal'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0056_2": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "courts",
+        "offences-and-convictions"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. courts: title_en='procurators'; offences-and-convictions: title_en='criminal'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0057_1": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "courts",
+        "offences-and-convictions"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. courts: title_en='procurators'; offences-and-convictions: title_en='criminal'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0057_2": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "courts"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. courts: title_en='procurators'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0058_1": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "courts"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. courts: title_en='procurators'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0059_1": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "courts",
+        "offences-and-convictions"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. courts: title_en='procurators'; offences-and-convictions: title_en='criminal'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0059_2": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "courts",
+        "offences-and-convictions"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. courts: title_en='procurators'; offences-and-convictions: title_en='criminal'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0059_3": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "courts",
+        "offences-and-convictions"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. courts: title_en='procurators'; offences-and-convictions: title_en='criminal'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0059_4": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "courts"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. courts: title_en='procurators'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0060_1": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "courts"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. courts: title_en='procurators'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0060_2": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "mediation-and-arbitration"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. mediation-and-arbitration: title_en='conciliation'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0060_3": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "summary-justice"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. summary-justice: title_en='summary demand procedure'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0061_1": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [],
+      "flags": [],
+      "rationale": "Metadata-only first pass. No sufficiently specific detailed subject established by allowed metadata.",
+      "review_questions": [
+        "Review full contents to establish detailed tags."
+      ]
+    },
+    "nanyo-tokei-1937:p0061_2": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [],
+      "flags": [],
+      "rationale": "Metadata-only first pass. No sufficiently specific detailed subject established by allowed metadata.",
+      "review_questions": [
+        "Review full contents to establish detailed tags."
+      ]
+    },
+    "nanyo-tokei-1937:p0061_3": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [],
+      "flags": [],
+      "rationale": "Metadata-only first pass. No sufficiently specific detailed subject established by allowed metadata.",
+      "review_questions": [
+        "Review full contents to establish detailed tags."
+      ]
+    },
+    "nanyo-tokei-1937:p0061_4": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [],
+      "flags": [],
+      "rationale": "Metadata-only first pass. No sufficiently specific detailed subject established by allowed metadata.",
+      "review_questions": [
+        "Review full contents to establish detailed tags."
+      ]
+    },
+    "nanyo-tokei-1937:p0062_1": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [],
+      "flags": [],
+      "rationale": "Metadata-only first pass. No sufficiently specific detailed subject established by allowed metadata.",
+      "review_questions": [
+        "Review full contents to establish detailed tags."
+      ]
+    },
+    "nanyo-tokei-1937:p0062_2": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [],
+      "flags": [],
+      "rationale": "Metadata-only first pass. No sufficiently specific detailed subject established by allowed metadata.",
+      "review_questions": [
+        "Review full contents to establish detailed tags."
+      ]
+    },
+    "nanyo-tokei-1937:p0062_3": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "companies"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. companies: title_en='companies'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0062_4": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [],
+      "flags": [],
+      "rationale": "Metadata-only first pass. No sufficiently specific detailed subject established by allowed metadata.",
+      "review_questions": [
+        "Review full contents to establish detailed tags."
+      ]
+    },
+    "nanyo-tokei-1937:p0062_5": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [],
+      "flags": [],
+      "rationale": "Metadata-only first pass. No sufficiently specific detailed subject established by allowed metadata.",
+      "review_questions": [
+        "Review full contents to establish detailed tags."
+      ]
+    },
+    "nanyo-tokei-1937:p0063_1": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "mediation-and-arbitration"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. mediation-and-arbitration: title_en='mediation'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0063_2": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "civil-litigation"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. civil-litigation: title_en='civil provisional attachments'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0063_3": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "courts",
+        "civil-litigation"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. courts: title_en='courts'; civil-litigation: title_en='civil suits'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0063_4": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "civil-litigation"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. civil-litigation: title_en='civil suits'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0064_1": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "prisons"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. prisons: title_en='prison'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0064_2": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "prisons"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. prisons: title_en='convicts'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0064_3": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "prisons"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. prisons: title_en='prison'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0065_1": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "age-and-sex",
+        "prisons"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. age-and-sex: title_en='by age'; prisons: title_en='convicts'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0065_2": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "prisons"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. prisons: title_en='convicts'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0065_3": {
+      "topics": [
+        "education"
+      ],
+      "tags": [
+        "vocational-education"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. vocational-education: title_en='vocational'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0066_1": {
+      "topics": [
+        "education"
+      ],
+      "tags": [
+        "primary-education"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. primary-education: title_en='primary schools'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0066_2": {
+      "topics": [
+        "education",
+        "indigenous-peoples"
+      ],
+      "tags": [
+        "schools-and-pupils"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. schools-and-pupils: title_en='schools'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0066_3": {
+      "topics": [
+        "education"
+      ],
+      "tags": [
+        "primary-education"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. primary-education: title_en='primary school'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0066_4": {
+      "topics": [
+        "education"
+      ],
+      "tags": [
+        "schools-and-pupils"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. schools-and-pupils: title_en='school'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0067_1": {
+      "topics": [
+        "education"
+      ],
+      "tags": [
+        "schools-and-pupils",
+        "apprenticeships"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. schools-and-pupils: title_en='school'; apprenticeships: title_en='apprentice'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0067_2": {
+      "topics": [
+        "education"
+      ],
+      "tags": [
+        "school-boarding"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. school-boarding: title_en='boarders at public school'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0067_3": {
+      "topics": [
+        "education"
+      ],
+      "tags": [
+        "kindergartens"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. kindergartens: title_en='kindergartens'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0067_4": {
+      "topics": [
+        "education",
+        "indigenous-peoples"
+      ],
+      "tags": [
+        "schools-and-pupils"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. schools-and-pupils: description_en='schools'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0067_5": {
+      "topics": [
+        "religion"
+      ],
+      "tags": [
+        "christianity"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. christianity: title_en='christianity'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0068_1": {
+      "topics": [
+        "religion"
+      ],
+      "tags": [
+        "buddhism"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. buddhism: title_en='buddhism'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0068_2": {
+      "topics": [
+        "education"
+      ],
+      "tags": [
+        "mission-schools"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. mission-schools: title_en='religious schools'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0068_3": {
+      "topics": [
+        "religion"
+      ],
+      "tags": [
+        "nationality-and-ethnicity",
+        "missions"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. nationality-and-ethnicity: title_en='by nationality'; missions: title_en='missionaries'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0068_4": {
+      "topics": [
+        "religion"
+      ],
+      "tags": [
+        "religious-affiliation"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. religious-affiliation: description_en='adherents'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0068_5": {
+      "topics": [
+        "agriculture"
+      ],
+      "tags": [
+        "arable-land"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. arable-land: title_en='cultivated land'",
+      "review_questions": [
+        "Review full contents to determine the text/statistical flag."
+      ]
+    },
+    "nanyo-tokei-1937:p0069_1": {
+      "topics": [
+        "agriculture"
+      ],
+      "tags": [
+        "crop-production"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. crop-production: title_en='agricultural crops'",
+      "review_questions": [
+        "Review full contents to determine the text/statistical flag."
+      ]
+    },
+    "nanyo-tokei-1937:p0069_2": {
+      "topics": [
+        "agriculture"
+      ],
+      "tags": [
+        "arable-land",
+        "crop-production"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. arable-land: title_en='harvested area'; crop-production: title_en='agricultural crops'",
+      "review_questions": [
+        "Review full contents to determine the text/statistical flag."
+      ]
+    },
+    "nanyo-tokei-1937:p0070_1": {
+      "topics": [
+        "agriculture"
+      ],
+      "tags": [
+        "crop-production"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. crop-production: title_en='agricultural products'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0071_1": {
+      "topics": [
+        "agriculture"
+      ],
+      "tags": [
+        "crop-production"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. crop-production: title_en='agricultural crops'",
+      "review_questions": [
+        "Review full contents to determine the text/statistical flag."
+      ]
+    },
+    "nanyo-tokei-1937:p0071_2": {
+      "topics": [
+        "manufacturing"
+      ],
+      "tags": [
+        "fertilisers"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. fertilisers: title_en='fertilizers'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0072_1": {
+      "topics": [
+        "manufacturing"
+      ],
+      "tags": [
+        "fertilisers"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. fertilisers: title_en='fertilizers'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0072_2": {
+      "topics": [
+        "agriculture"
+      ],
+      "tags": [
+        "livestock",
+        "eggs-and-poultry"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. livestock: title_en='livestock'; eggs-and-poultry: title_en='poultry'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0073_1": {
+      "topics": [
+        "agriculture"
+      ],
+      "tags": [
+        "age-and-sex",
+        "livestock"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. age-and-sex: title_en='by age'; livestock: title_en='livestock'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0074_1": {
+      "topics": [
+        "agriculture"
+      ],
+      "tags": [
+        "births-and-deaths",
+        "livestock",
+        "eggs-and-poultry"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. births-and-deaths: title_en='deaths'; livestock: title_en='livestock'; eggs-and-poultry: title_en='poultry'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0074_2": {
+      "topics": [
+        "agriculture"
+      ],
+      "tags": [
+        "livestock",
+        "eggs-and-poultry"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. livestock: title_en='livestock'; eggs-and-poultry: title_en='poultry'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0074_3": {
+      "topics": [
+        "agriculture"
+      ],
+      "tags": [
+        "livestock"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. livestock: title_en='slaughtered'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0074_4": {
+      "topics": [
+        "agriculture"
+      ],
+      "tags": [
+        "livestock"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. livestock: title_en='livestock'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0075_1": {
+      "topics": [
+        "agriculture"
+      ],
+      "tags": [
+        "arable-land",
+        "sugarcane",
+        "sugar"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. arable-land: title_en='harvested area'; sugarcane: title_en='sugar cane'; sugar: title_en='sugar'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0075_2": {
+      "topics": [
+        "labour"
+      ],
+      "tags": [
+        "wages"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. wages: title_en='wages'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0076_1": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "prices"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. prices: title_en='retail prices'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0077_1": {
+      "topics": [],
+      "tags": [],
+      "flags": [],
+      "rationale": "Metadata-only first pass. No sufficiently specific detailed subject established by allowed metadata.",
+      "review_questions": [
+        "Review full contents to establish high-level topics.",
+        "Review full contents to establish detailed tags."
+      ]
+    },
+    "nanyo-tokei-1937:p0077_2": {
+      "topics": [
+        "trade",
+        "finance"
+      ],
+      "tags": [
+        "companies"
+      ],
+      "flags": [],
+      "rationale": "Company counts, nominal capital, paid-up capital and corporate forms are tabulated by business sector, including a separate local-head-office subset.",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0077_3": {
+      "topics": [],
+      "tags": [
+        "alcohol"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. alcohol: title_en='alcoholic'",
+      "review_questions": [
+        "Review full contents to establish high-level topics."
+      ]
+    },
+    "nanyo-tokei-1937:p0078_1": {
+      "topics": [],
+      "tags": [],
+      "flags": [],
+      "rationale": "Metadata-only first pass. No sufficiently specific detailed subject established by allowed metadata.",
+      "review_questions": [
+        "Review full contents to establish high-level topics.",
+        "Review full contents to establish detailed tags."
+      ]
+    },
+    "nanyo-tokei-1937:p0078_2": {
+      "topics": [],
+      "tags": [
+        "coconuts"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. coconuts: title_en='coconut'",
+      "review_questions": [
+        "Review full contents to establish high-level topics."
+      ]
+    },
+    "nanyo-tokei-1937:p0078_3": {
+      "topics": [],
+      "tags": [
+        "coconuts"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. coconuts: title_en='coconut'",
+      "review_questions": [
+        "Review full contents to establish high-level topics."
+      ]
+    },
+    "nanyo-tokei-1937:p0079_1": {
+      "topics": [
+        "forestry"
+      ],
+      "tags": [],
+      "flags": [],
+      "rationale": "Metadata-only first pass. No sufficiently specific detailed subject established by allowed metadata.",
+      "review_questions": [
+        "Review full contents to establish detailed tags."
+      ]
+    },
+    "nanyo-tokei-1937:p0079_2": {
+      "topics": [
+        "fisheries"
+      ],
+      "tags": [
+        "fishing-rights-and-licences"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. fishing-rights-and-licences: title_en='fishing licences'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0079_3": {
+      "topics": [
+        "fisheries"
+      ],
+      "tags": [
+        "fishing"
+      ],
+      "flags": [],
+      "rationale": "Fishing boats are counted by engine and tonnage class, alongside crew numbers and catch values by year and branch office.",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0080_1": {
+      "topics": [
+        "fisheries"
+      ],
+      "tags": [
+        "fishing"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. fishing: title_en='marine products'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0080_2": {
+      "topics": [
+        "fisheries"
+      ],
+      "tags": [
+        "fishing"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. fishing: title_en='marine products'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0081_1": {
+      "topics": [
+        "mining"
+      ],
+      "tags": [
+        "mineral-production"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. mineral-production: title_en='mineral products'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0081_2": {
+      "topics": [
+        "economy"
+      ],
+      "tags": [
+        "production-subsidies"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. production-subsidies: title_en='subsidies'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0081_3": {
+      "topics": [
+        "economy"
+      ],
+      "tags": [
+        "production-subsidies",
+        "sugar"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. production-subsidies: title_en='subsidies'; sugar: title_en='sugar'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0081_4": {
+      "topics": [
+        "agriculture",
+        "economy"
+      ],
+      "tags": [
+        "production-subsidies",
+        "livestock"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. production-subsidies: title_en='subsidies'; livestock: title_en='livestock'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0081_5": {
+      "topics": [
+        "agriculture",
+        "economy"
+      ],
+      "tags": [
+        "production-subsidies",
+        "livestock"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. production-subsidies: title_en='subsidies'; livestock: title_en='cattle'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0081_6": {
+      "topics": [
+        "economy"
+      ],
+      "tags": [
+        "production-subsidies"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. production-subsidies: title_en='subsidies'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0082_1": {
+      "topics": [
+        "economy"
+      ],
+      "tags": [
+        "production-subsidies"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. production-subsidies: title_en='subsidies'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0082_2": {
+      "topics": [
+        "economy"
+      ],
+      "tags": [
+        "production-subsidies"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. production-subsidies: title_en='subsidised'",
+      "review_questions": [
+        "Review full contents to determine the text/statistical flag."
+      ]
+    },
+    "nanyo-tokei-1937:p0082_3": {
+      "topics": [
+        "economy"
+      ],
+      "tags": [
+        "production-subsidies"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. production-subsidies: title_en='subsidies'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0082_4": {
+      "topics": [
+        "economy"
+      ],
+      "tags": [
+        "production-subsidies",
+        "coconuts",
+        "copra"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. production-subsidies: title_en='subsidised'; coconuts: title_en='coconut'; copra: title_en='copra'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0082_5": {
+      "topics": [
+        "economy"
+      ],
+      "tags": [
+        "production-subsidies",
+        "coconuts"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. production-subsidies: title_en='subsidies'; coconuts: title_en='coconut'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0082_6": {
+      "topics": [
+        "fisheries",
+        "economy"
+      ],
+      "tags": [
+        "production-subsidies",
+        "fishing"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. production-subsidies: title_en='subsidies'; fishing: title_en='fisheries'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0083_1": {
+      "topics": [
+        "economy"
+      ],
+      "tags": [
+        "production-subsidies"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. production-subsidies: title_en='subsidies'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0083_2": {
+      "topics": [
+        "transportation"
+      ],
+      "tags": [
+        "roads-and-bridges"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. roads-and-bridges: title_en='roads'",
+      "review_questions": [
+        "Review full contents to determine the text/statistical flag."
+      ]
+    },
+    "nanyo-tokei-1937:p0083_3": {
+      "topics": [],
+      "tags": [],
+      "flags": [],
+      "rationale": "Metadata-only first pass. No sufficiently specific detailed subject established by allowed metadata.",
+      "review_questions": [
+        "Review full contents to establish high-level topics.",
+        "Review full contents to establish detailed tags."
+      ]
+    },
+    "nanyo-tokei-1937:p0083_4": {
+      "topics": [
+        "transportation"
+      ],
+      "tags": [
+        "shipping"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. shipping: title_en='shipping'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0083_5": {
+      "topics": [
+        "transportation"
+      ],
+      "tags": [
+        "shipping"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. shipping: title_en='vessels'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0084_1": {
+      "topics": [
+        "transportation"
+      ],
+      "tags": [
+        "shipping"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. shipping: title_en='vessels'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0084_2": {
+      "topics": [
+        "transportation"
+      ],
+      "tags": [
+        "shipping"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. shipping: title_en='steamer'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0084_3": {
+      "topics": [
+        "transportation"
+      ],
+      "tags": [
+        "shipping"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. shipping: title_en='vessels'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0085_1": {
+      "topics": [
+        "transportation"
+      ],
+      "tags": [
+        "shipping"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. shipping: title_en='steamer'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0085_2": {
+      "topics": [
+        "communications"
+      ],
+      "tags": [
+        "postal-services"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. postal-services: title_en='postal'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0085_3": {
+      "topics": [
+        "communications"
+      ],
+      "tags": [
+        "telegraph"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. telegraph: title_en='telegrams'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0085_4": {
+      "topics": [
+        "communications"
+      ],
+      "tags": [
+        "telephone"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. telephone: title_en='telephones'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0085_5": {
+      "topics": [
+        "communications"
+      ],
+      "tags": [
+        "telephone"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. telephone: title_en='telephones'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0086_1": {
+      "topics": [
+        "communications",
+        "indigenous-peoples"
+      ],
+      "tags": [
+        "postal-services",
+        "telegraph"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. postal-services: title_en='postal'; telegraph: title_en='telegraph'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0086_2": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "insurance-and-pensions",
+        "postal-services"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. insurance-and-pensions: title_en='insurance'; postal-services: title_en='postal'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0086_3": {
+      "topics": [
+        "utilities"
+      ],
+      "tags": [
+        "electricity"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. electricity: title_en='electricity'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0087_1": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "mutual-credit"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. mutual-credit: title_en='mujin'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0087_2": {
+      "topics": [
+        "economy"
+      ],
+      "tags": [
+        "cooperatives"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. cooperatives: title_en='cooperatives'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0087_3": {
+      "topics": [
+        "economy"
+      ],
+      "tags": [
+        "cooperatives"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. cooperatives: title_en='cooperatives'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0087_4": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "savings-and-loans",
+        "insurance-and-pensions",
+        "postal-remittances"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. savings-and-loans: title_en='savings'; insurance-and-pensions: title_en='annuities'; postal-remittances: title_en='money orders'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0088_1": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "exports"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. exports: title_en='exports'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0088_2": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "imports"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. imports: title_en='imports'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0089_1": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "intra-imperial-trade"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. intra-imperial-trade: title_en='shipments to japan'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0090_1": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "intra-imperial-trade"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. intra-imperial-trade: title_en='shipments from japan'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0091_1": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "imports",
+        "exports",
+        "alcohol"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. imports: title_en='imports'; exports: title_en='exports'; alcohol: title_en='alcoholic'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0091_2": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "alcohol"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. alcohol: title_en='alcoholic'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0091_3": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "alcohol"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. alcohol: title_en='alcoholic'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0091_4": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "public-budgets"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. public-budgets: title_en='budgets'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0092_1": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "head-tax"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. head-tax: description_en='poll tax'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0094_1": {
+      "topics": [
+        "finance",
+        "indigenous-peoples"
+      ],
+      "tags": [
+        "head-tax"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. head-tax: title_en='poll tax'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0094_2": {
+      "topics": [
+        "finance",
+        "indigenous-peoples"
+      ],
+      "tags": [
+        "head-tax"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. head-tax: title_en='poll tax'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0094_3": {
+      "topics": [
+        "trade",
+        "finance"
+      ],
+      "tags": [
+        "tariffs"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. tariffs: title_en='export duties'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0094_4": {
+      "topics": [
+        "trade",
+        "finance"
+      ],
+      "tags": [
+        "tariffs"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. tariffs: title_en='customs duties'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0094_5": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "taxation"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. taxation: title_en='tax'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0095_1": {
+      "topics": [
+        "communications"
+      ],
+      "tags": [
+        "postal-services",
+        "telegraph",
+        "telephone"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. postal-services: title_en='postal'; telegraph: title_en='telegraph'; telephone: title_en='telephone'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0095_2": {
+      "topics": [
+        "health"
+      ],
+      "tags": [
+        "medical-services"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. medical-services: title_en='hospital'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0095_3": {
+      "topics": [
+        "forestry"
+      ],
+      "tags": [],
+      "flags": [],
+      "rationale": "Metadata-only first pass. No sufficiently specific detailed subject established by allowed metadata.",
+      "review_questions": [
+        "Review full contents to establish detailed tags."
+      ]
+    },
+    "nanyo-tokei-1937:p0095_4": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "public-property"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. public-property: title_en='government property'",
+      "review_questions": [
+        "Review full contents to determine the text/statistical flag."
+      ]
+    },
+    "nanyo-tokei-1937:p0095_5": {
+      "topics": [
+        "utilities"
+      ],
+      "tags": [
+        "electricity"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. electricity: title_en='electric lighting'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0095_6": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [],
+      "flags": [],
+      "rationale": "Metadata-only first pass. No sufficiently specific detailed subject established by allowed metadata.",
+      "review_questions": [
+        "Review full contents to establish detailed tags."
+      ]
+    },
+    "nanyo-tokei-1937:p0095_7": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [],
+      "flags": [],
+      "rationale": "Metadata-only first pass. No sufficiently specific detailed subject established by allowed metadata.",
+      "review_questions": [
+        "Review full contents to establish detailed tags."
+      ]
+    },
+    "nanyo-tokei-1937:p0095_8": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [],
+      "flags": [],
+      "rationale": "Metadata-only first pass. No sufficiently specific detailed subject established by allowed metadata.",
+      "review_questions": [
+        "Review full contents to establish detailed tags."
+      ]
+    },
+    "nanyo-tokei-1937:p0095_9": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [],
+      "flags": [],
+      "rationale": "Metadata-only first pass. No sufficiently specific detailed subject established by allowed metadata.",
+      "review_questions": [
+        "Review full contents to establish detailed tags."
+      ]
+    },
+    "nanyo-tokei-1937:p0096_1": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "public-property"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. public-property: title_en='government property'",
+      "review_questions": [
+        "Review full contents to determine the text/statistical flag."
+      ]
+    },
+    "nanyo-tokei-1937:p0096_2": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [],
+      "flags": [],
+      "rationale": "Metadata-only first pass. No sufficiently specific detailed subject established by allowed metadata.",
+      "review_questions": [
+        "Review full contents to establish detailed tags."
+      ]
+    },
+    "nanyo-tokei-1937:p0096_3": {
+      "topics": [
+        "education"
+      ],
+      "tags": [
+        "schools-and-pupils"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. schools-and-pupils: title_en='education'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1937:p0097_1": {
+      "topics": [
+        "welfare"
+      ],
+      "tags": [],
+      "flags": [],
+      "rationale": "Metadata-only first pass. No sufficiently specific detailed subject established by allowed metadata.",
+      "review_questions": [
+        "Review full contents to establish detailed tags."
+      ]
+    },
+    "nanyo-tokei-1937:p0097_2": {
+      "topics": [
+        "welfare",
+        "indigenous-peoples"
+      ],
+      "tags": [],
+      "flags": [],
+      "rationale": "Metadata-only first pass. No sufficiently specific detailed subject established by allowed metadata.",
+      "review_questions": [
+        "Review full contents to establish detailed tags."
+      ]
+    },
+    "nanyo-tokei-1937:p0097_3": {
+      "topics": [
+        "science-and-technology"
+      ],
+      "tags": [
+        "measurement-and-units"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. measurement-and-units: title_en='weights and measures'",
+      "review_questions": [
+        "Review full contents to determine the text/statistical flag."
+      ]
+    },
+    "nanyo-tokei-1932:p0033_1": {
+      "topics": [
+        "geography"
+      ],
+      "tags": [
+        "physical-geography"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. physical-geography: title_en='position'",
+      "review_questions": [
+        "Review full contents to determine the text/statistical flag."
+      ]
+    },
+    "nanyo-tokei-1932:p0033_2": {
+      "topics": [
+        "geography"
+      ],
+      "tags": [
+        "physical-geography"
+      ],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "Metadata-only first pass. physical-geography: description_en='longitude'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0033_3": {
+      "topics": [
+        "geography"
+      ],
+      "tags": [],
+      "flags": [],
+      "rationale": "Metadata-only first pass. No sufficiently specific detailed subject established by allowed metadata.",
+      "review_questions": [
+        "Review full contents to establish detailed tags."
+      ]
+    },
+    "nanyo-tokei-1932:p0033_4": {
+      "topics": [
+        "geography"
+      ],
+      "tags": [],
+      "flags": [],
+      "rationale": "Metadata-only first pass. No sufficiently specific detailed subject established by allowed metadata.",
+      "review_questions": [
+        "Review full contents to establish detailed tags.",
+        "Review full contents to determine the text/statistical flag."
+      ]
+    },
+    "nanyo-tokei-1932:p0034_1": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "public-property"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. public-property: title_en='government land'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0036_1": {
+      "topics": [
+        "geography"
+      ],
+      "tags": [
+        "weather"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. weather: title_en='meteorological'",
+      "review_questions": [
+        "Review full contents to determine the text/statistical flag."
+      ]
+    },
+    "nanyo-tokei-1932:p0036_2": {
+      "topics": [
+        "geography"
+      ],
+      "tags": [
+        "weather"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. weather: title_en='meteorological'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0036_3": {
+      "topics": [
+        "geography"
+      ],
+      "tags": [
+        "weather"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. weather: description_en='meteorological'",
+      "review_questions": [
+        "Review full contents to determine the text/statistical flag."
+      ]
+    },
+    "nanyo-tokei-1932:p0037_1": {
+      "topics": [
+        "geography"
+      ],
+      "tags": [
+        "weather"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. weather: title_en='temperature'",
+      "review_questions": [
+        "Review full contents to determine the text/statistical flag."
+      ]
+    },
+    "nanyo-tokei-1932:p0037_2": {
+      "topics": [
+        "geography"
+      ],
+      "tags": [
+        "weather"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. weather: title_en='temperature'",
+      "review_questions": [
+        "Review full contents to determine the text/statistical flag."
+      ]
+    },
+    "nanyo-tokei-1932:p0038_1": {
+      "topics": [
+        "geography"
+      ],
+      "tags": [
+        "weather"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. weather: title_en='temperature'",
+      "review_questions": [
+        "Review full contents to determine the text/statistical flag."
+      ]
+    },
+    "nanyo-tokei-1932:p0038_2": {
+      "topics": [
+        "geography"
+      ],
+      "tags": [
+        "weather"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. weather: title_en='temperature'",
+      "review_questions": [
+        "Review full contents to determine the text/statistical flag."
+      ]
+    },
+    "nanyo-tokei-1932:p0039_1": {
+      "topics": [
+        "geography"
+      ],
+      "tags": [
+        "weather"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. weather: description_en='meteorological'",
+      "review_questions": [
+        "Review full contents to determine the text/statistical flag."
+      ]
+    },
+    "nanyo-tokei-1932:p0039_2": {
+      "topics": [
+        "geography"
+      ],
+      "tags": [
+        "weather"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. weather: title_en='humidity'",
+      "review_questions": [
+        "Review full contents to determine the text/statistical flag."
+      ]
+    },
+    "nanyo-tokei-1932:p0040_1": {
+      "topics": [
+        "geography"
+      ],
+      "tags": [
+        "weather"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. weather: title_en='cloudiness'",
+      "review_questions": [
+        "Review full contents to determine the text/statistical flag."
+      ]
+    },
+    "nanyo-tokei-1932:p0040_2": {
+      "topics": [
+        "geography"
+      ],
+      "tags": [
+        "weather"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. weather: title_en='precipitation'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0041_1": {
+      "topics": [
+        "geography"
+      ],
+      "tags": [
+        "weather"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. weather: title_en='wind velocity'",
+      "review_questions": [
+        "Review full contents to determine the text/statistical flag."
+      ]
+    },
+    "nanyo-tokei-1932:p0041_2": {
+      "topics": [
+        "geography"
+      ],
+      "tags": [
+        "weather"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. weather: title_en='wind velocity'",
+      "review_questions": [
+        "Review full contents to determine the text/statistical flag."
+      ]
+    },
+    "nanyo-tokei-1932:p0042_1": {
+      "topics": [
+        "geography"
+      ],
+      "tags": [
+        "weather"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. weather: description_en='meteorological'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0042_2": {
+      "topics": [
+        "geography"
+      ],
+      "tags": [
+        "weather"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. weather: title_en='clear days'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0043_1": {
+      "topics": [
+        "geography"
+      ],
+      "tags": [
+        "weather"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. weather: title_en='precipitation'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0043_2": {
+      "topics": [
+        "geography"
+      ],
+      "tags": [
+        "weather"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. weather: description_en='meteorological'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0044_1": {
+      "topics": [
+        "geography"
+      ],
+      "tags": [
+        "weather"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. weather: description_en='meteorological'",
+      "review_questions": [
+        "Review full contents to determine the text/statistical flag."
+      ]
+    },
+    "nanyo-tokei-1932:p0044_2": {
+      "topics": [
+        "population"
+      ],
+      "tags": [
+        "households"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. households: title_en='households'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0045_1": {
+      "topics": [
+        "population"
+      ],
+      "tags": [
+        "population-totals"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. population-totals: title_en='population'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0046_1": {
+      "topics": [
+        "population"
+      ],
+      "tags": [
+        "population-totals"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. population-totals: title_en='population'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0049_1": {
+      "topics": [
+        "population"
+      ],
+      "tags": [
+        "population-totals"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. population-totals: title_en='population'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0055_1": {
+      "topics": [
+        "population"
+      ],
+      "tags": [
+        "nationality-and-ethnicity"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. nationality-and-ethnicity: title_en='by nationality'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0056_1": {
+      "topics": [
+        "population"
+      ],
+      "tags": [
+        "age-and-sex"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. age-and-sex: title_en='by age'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0061_1": {
+      "topics": [
+        "population"
+      ],
+      "tags": [
+        "occupations"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. occupations: title_en='occupation'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0063_1": {
+      "topics": [
+        "population"
+      ],
+      "tags": [
+        "births-and-deaths"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. births-and-deaths: title_en='births'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0065_1": {
+      "topics": [
+        "population",
+        "indigenous-peoples"
+      ],
+      "tags": [
+        "marriage-and-divorce"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. marriage-and-divorce: title_en='marriages'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0067_1": {
+      "topics": [
+        "population"
+      ],
+      "tags": [
+        "migration"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. migration: title_en='migration'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0067_2": {
+      "topics": [
+        "government"
+      ],
+      "tags": [
+        "government-offices"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. government-offices: title_en='authorised staff'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0068_1": {
+      "topics": [
+        "government",
+        "colonial-rule"
+      ],
+      "tags": [
+        "government-offices",
+        "colonial-administration"
+      ],
+      "flags": [],
+      "rationale": "Three complete bands count administrative documents received and dispatched by the Governor’s office, departments, branches, courts and other Nanyo government agencies. This measures colonial governing machinery, including its administrative correspondence, rather than public postal traffic.",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0069_1": {
+      "topics": [
+        "government",
+        "indigenous-peoples"
+      ],
+      "tags": [],
+      "flags": [],
+      "rationale": "Metadata-only first pass. No sufficiently specific detailed subject established by allowed metadata.",
+      "review_questions": [
+        "Review full contents to establish detailed tags."
+      ]
+    },
+    "nanyo-tokei-1932:p0069_2": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "police"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. police: title_en='police'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0069_3": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "police"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. police: title_en='police'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0070_1": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "police"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. police: title_en='police'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0071_1": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "offences-and-convictions"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. offences-and-convictions: title_en='crimes'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0073_1": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "offences-and-convictions"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. offences-and-convictions: title_en='crimes'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0075_1": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "police",
+        "summary-justice"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. police: title_en='police'; summary-justice: title_en='summary police judgments'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0075_2": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "police",
+        "summary-justice"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. police: title_en='police'; summary-justice: title_en='summary police judgments'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0075_3": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "police",
+        "summary-justice"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. police: title_en='police'; summary-justice: title_en='summary police judgments'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0076_1": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "police",
+        "summary-justice"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. police: title_en='police'; summary-justice: title_en='summary police judgments'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0081_1": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "police",
+        "summary-justice"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. police: title_en='police'; summary-justice: title_en='summary police judgments'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0081_2": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "police",
+        "summary-justice"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. police: title_en='police'; summary-justice: title_en='summary police judgments'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0082_1": {
+      "topics": [],
+      "tags": [],
+      "flags": [],
+      "rationale": "Metadata-only first pass. No sufficiently specific detailed subject established by allowed metadata.",
+      "review_questions": [
+        "Review full contents to establish high-level topics.",
+        "Review full contents to establish detailed tags."
+      ]
+    },
+    "nanyo-tokei-1932:p0084_1": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "police"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. police: title_en='police'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0085_1": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "prisons"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. prisons: title_en='detentions'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0086_1": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "offences-and-convictions"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. offences-and-convictions: title_en='criminal'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0087_1": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "offences-and-convictions"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. offences-and-convictions: title_en='criminal'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0089_1": {
+      "topics": [
+        "disasters"
+      ],
+      "tags": [
+        "floods",
+        "storms-and-typhoons"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. floods: title_en='flood'; storms-and-typhoons: title_en='storm'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0089_2": {
+      "topics": [
+        "disasters"
+      ],
+      "tags": [
+        "fires"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. fires: title_en='fires'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0090_1": {
+      "topics": [
+        "disasters"
+      ],
+      "tags": [
+        "fires"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. fires: title_en='fires'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0091_1": {
+      "topics": [
+        "population"
+      ],
+      "tags": [
+        "births-and-deaths"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. births-and-deaths: title_en='deaths'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0092_1": {
+      "topics": [
+        "population"
+      ],
+      "tags": [
+        "suicide"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. suicide: title_en='suicides'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0095_1": {
+      "topics": [
+        "population"
+      ],
+      "tags": [
+        "suicide"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. suicide: title_en='suicides'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0096_1": {
+      "topics": [
+        "population"
+      ],
+      "tags": [
+        "age-and-sex",
+        "suicide"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. age-and-sex: title_en='by age'; suicide: title_en='suicides'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0097_1": {
+      "topics": [],
+      "tags": [],
+      "flags": [],
+      "rationale": "Metadata-only first pass. No sufficiently specific detailed subject established by allowed metadata.",
+      "review_questions": [
+        "Review full contents to establish high-level topics.",
+        "Review full contents to establish detailed tags."
+      ]
+    },
+    "nanyo-tokei-1932:p0099_1": {
+      "topics": [
+        "population"
+      ],
+      "tags": [
+        "births-and-deaths"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. births-and-deaths: title_en='deaths'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0102_1": {
+      "topics": [],
+      "tags": [],
+      "flags": [],
+      "rationale": "Metadata-only first pass. No sufficiently specific detailed subject established by allowed metadata.",
+      "review_questions": [
+        "Review full contents to establish high-level topics.",
+        "Review full contents to establish detailed tags."
+      ]
+    },
+    "nanyo-tokei-1932:p0102_2": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "imports"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. imports: title_en='imported'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0102_3": {
+      "topics": [],
+      "tags": [],
+      "flags": [],
+      "rationale": "Metadata-only first pass. No sufficiently specific detailed subject established by allowed metadata.",
+      "review_questions": [
+        "Review full contents to establish high-level topics.",
+        "Review full contents to establish detailed tags."
+      ]
+    },
+    "nanyo-tokei-1932:p0103_1": {
+      "topics": [
+        "trade",
+        "narcotics"
+      ],
+      "tags": [
+        "imports"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. imports: title_en='imported'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0104_1": {
+      "topics": [],
+      "tags": [],
+      "flags": [],
+      "rationale": "Metadata-only first pass. No sufficiently specific detailed subject established by allowed metadata.",
+      "review_questions": [
+        "Review full contents to establish high-level topics.",
+        "Review full contents to establish detailed tags."
+      ]
+    },
+    "nanyo-tokei-1932:p0105_1": {
+      "topics": [],
+      "tags": [],
+      "flags": [],
+      "rationale": "Metadata-only first pass. No sufficiently specific detailed subject established by allowed metadata.",
+      "review_questions": [
+        "Review full contents to establish high-level topics.",
+        "Review full contents to establish detailed tags."
+      ]
+    },
+    "nanyo-tokei-1932:p0105_2": {
+      "topics": [],
+      "tags": [],
+      "flags": [],
+      "rationale": "Metadata-only first pass. No sufficiently specific detailed subject established by allowed metadata.",
+      "review_questions": [
+        "Review full contents to establish high-level topics.",
+        "Review full contents to establish detailed tags."
+      ]
+    },
+    "nanyo-tokei-1932:p0106_1": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "police"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. police: title_en='police'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0107_1": {
+      "topics": [
+        "culture"
+      ],
+      "tags": [
+        "recreation-and-amusements"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. recreation-and-amusements: title_en='public entertainments'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0108_1": {
+      "topics": [
+        "government"
+      ],
+      "tags": [
+        "hunting"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. hunting: title_en='hunting licences'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0108_2": {
+      "topics": [],
+      "tags": [],
+      "flags": [],
+      "rationale": "Metadata-only first pass. No sufficiently specific detailed subject established by allowed metadata.",
+      "review_questions": [
+        "Review full contents to establish high-level topics.",
+        "Review full contents to establish detailed tags."
+      ]
+    },
+    "nanyo-tokei-1932:p0108_3": {
+      "topics": [],
+      "tags": [],
+      "flags": [],
+      "rationale": "Metadata-only first pass. No sufficiently specific detailed subject established by allowed metadata.",
+      "review_questions": [
+        "Review full contents to establish high-level topics.",
+        "Review full contents to establish detailed tags."
+      ]
+    },
+    "nanyo-tokei-1932:p0109_1": {
+      "topics": [
+        "government"
+      ],
+      "tags": [
+        "passports-and-travel-permits"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. passports-and-travel-permits: title_en='passports'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0110_1": {
+      "topics": [
+        "government"
+      ],
+      "tags": [
+        "passports-and-travel-permits"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. passports-and-travel-permits: title_en='passports'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0111_1": {
+      "topics": [
+        "government"
+      ],
+      "tags": [
+        "passports-and-travel-permits"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. passports-and-travel-permits: title_en='passports'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0112_1": {
+      "topics": [
+        "government"
+      ],
+      "tags": [
+        "passports-and-travel-permits"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. passports-and-travel-permits: title_en='passports'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0114_1": {
+      "topics": [
+        "government"
+      ],
+      "tags": [
+        "passports-and-travel-permits",
+        "occupations",
+        "nationality-and-ethnicity"
+      ],
+      "flags": [],
+      "rationale": "Across the total and six branch blocks, passport recipients are counted by occupation and Japanese or islander category, further divided by sex.",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0115_1": {
+      "topics": [
+        "health"
+      ],
+      "tags": [
+        "medical-services"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. medical-services: title_en='hospital'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0115_2": {
+      "topics": [
+        "health"
+      ],
+      "tags": [
+        "medical-services"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. medical-services: title_en='patients treated'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0117_1": {
+      "topics": [
+        "health"
+      ],
+      "tags": [
+        "medical-services"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. medical-services: title_en='patients treated'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0121_1": {
+      "topics": [
+        "population"
+      ],
+      "tags": [
+        "age-and-sex",
+        "births-and-deaths"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. age-and-sex: title_en='by age'; births-and-deaths: title_en='deaths'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0123_1": {
+      "topics": [
+        "health"
+      ],
+      "tags": [
+        "births-and-deaths",
+        "diseases"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. births-and-deaths: title_en='deaths'; diseases: title_en='deaths by cause'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0127_1": {
+      "topics": [
+        "population"
+      ],
+      "tags": [
+        "age-and-sex",
+        "infant-mortality"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. age-and-sex: title_en='by age'; infant-mortality: title_en='infant deaths'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0128_1": {
+      "topics": [
+        "health"
+      ],
+      "tags": [
+        "infant-mortality",
+        "diseases"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. infant-mortality: title_en='infant deaths'; diseases: title_en='deaths by cause'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0130_1": {
+      "topics": [
+        "health"
+      ],
+      "tags": [
+        "quarantine"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. quarantine: title_en='quarantine'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0130_2": {
+      "topics": [
+        "health"
+      ],
+      "tags": [
+        "epidemics"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. epidemics: title_en='infectious diseases'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0133_1": {
+      "topics": [
+        "health"
+      ],
+      "tags": [
+        "epidemics"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. epidemics: description_en='contagious diseases'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0133_2": {
+      "topics": [
+        "health"
+      ],
+      "tags": [
+        "diseases"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. diseases: title_en='smallpox'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0134_1": {
+      "topics": [
+        "health"
+      ],
+      "tags": [
+        "mental-health"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. mental-health: title_en='mentally ill'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0134_2": {
+      "topics": [
+        "health"
+      ],
+      "tags": [
+        "mental-health"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. mental-health: title_en='mentally ill'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0134_3": {
+      "topics": [
+        "health"
+      ],
+      "tags": [],
+      "flags": [],
+      "rationale": "Metadata-only first pass. No sufficiently specific detailed subject established by allowed metadata.",
+      "review_questions": [
+        "Review full contents to establish detailed tags."
+      ]
+    },
+    "nanyo-tokei-1932:p0135_1": {
+      "topics": [
+        "health"
+      ],
+      "tags": [],
+      "flags": [],
+      "rationale": "Metadata-only first pass. No sufficiently specific detailed subject established by allowed metadata.",
+      "review_questions": [
+        "Review full contents to establish detailed tags.",
+        "Review full contents to determine the text/statistical flag."
+      ]
+    },
+    "nanyo-tokei-1932:p0135_2": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "courts"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. courts: description_en='judges'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0135_3": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "courts"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. courts: title_en='courts'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0136_1": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "courts"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. courts: title_en='procurators'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0136_2": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "courts",
+        "offences-and-convictions"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. courts: title_en='courts'; offences-and-convictions: title_en='criminal'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0137_1": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "offences-and-convictions"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. offences-and-convictions: title_en='criminal'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0138_1": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "courts",
+        "offences-and-convictions"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. courts: title_en='courts'; offences-and-convictions: title_en='criminal'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0139_1": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "offences-and-convictions"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. offences-and-convictions: title_en='criminal'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0140_1": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "offences-and-convictions"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. offences-and-convictions: title_en='criminal'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0140_2": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "offences-and-convictions"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. offences-and-convictions: title_en='criminal'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0141_1": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "offences-and-convictions"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. offences-and-convictions: title_en='convicted'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0143_1": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "offences-and-convictions",
+        "courts",
+        "nationality-and-ethnicity"
+      ],
+      "flags": [],
+      "rationale": "Second-instance convictions are counted by Criminal Code and special-law offence, year, and Japanese or islander category.",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0143_2": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "offences-and-convictions"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. offences-and-convictions: title_en='convicted'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0147_1": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "offences-and-convictions"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. offences-and-convictions: title_en='convicted'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0147_2": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "courts",
+        "offences-and-convictions"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. courts: title_en='procurators'; offences-and-convictions: title_en='criminal'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0148_1": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "courts",
+        "offences-and-convictions"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. courts: title_en='procurators'; offences-and-convictions: title_en='criminal'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0148_2": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "courts",
+        "offences-and-convictions"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. courts: title_en='procurators'; offences-and-convictions: title_en='criminal'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0150_1": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "courts",
+        "offences-and-convictions"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. courts: title_en='procurators'; offences-and-convictions: title_en='criminal'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0150_2": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "courts",
+        "offences-and-convictions"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. courts: title_en='procurators'; offences-and-convictions: title_en='criminal'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0151_1": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "courts",
+        "offences-and-convictions"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. courts: title_en='procurators'; offences-and-convictions: title_en='criminal'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0152_1": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "offences-and-convictions",
+        "courts"
+      ],
+      "flags": [],
+      "rationale": "District court procurators offices report criminal cases prosecuted by offence category across years and office branches.",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0153_1": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "courts"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. courts: title_en='procurators'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0153_2": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "courts"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. courts: title_en='procurators'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0155_1": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "offences-and-convictions",
+        "courts",
+        "nationality-and-ethnicity"
+      ],
+      "flags": [],
+      "rationale": "High Court prosecutions count persons by offence and year separately for Japanese and islanders.",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0156_1": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "mediation-and-arbitration"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. mediation-and-arbitration: title_en='conciliation'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0156_2": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "mediation-and-arbitration"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. mediation-and-arbitration: title_en='conciliation'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0156_3": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "mediation-and-arbitration"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. mediation-and-arbitration: title_en='conciliation'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0156_4": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "summary-justice"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. summary-justice: title_en='summary demand procedure'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0156_5": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [],
+      "flags": [],
+      "rationale": "Metadata-only first pass. No sufficiently specific detailed subject established by allowed metadata.",
+      "review_questions": [
+        "Review full contents to establish detailed tags."
+      ]
+    },
+    "nanyo-tokei-1932:p0157_1": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [],
+      "flags": [],
+      "rationale": "Metadata-only first pass. No sufficiently specific detailed subject established by allowed metadata.",
+      "review_questions": [
+        "Review full contents to establish detailed tags."
+      ]
+    },
+    "nanyo-tokei-1932:p0157_2": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [],
+      "flags": [],
+      "rationale": "Metadata-only first pass. No sufficiently specific detailed subject established by allowed metadata.",
+      "review_questions": [
+        "Review full contents to establish detailed tags."
+      ]
+    },
+    "nanyo-tokei-1932:p0157_3": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [],
+      "flags": [],
+      "rationale": "Metadata-only first pass. No sufficiently specific detailed subject established by allowed metadata.",
+      "review_questions": [
+        "Review full contents to establish detailed tags."
+      ]
+    },
+    "nanyo-tokei-1932:p0158_1": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "savings-and-loans"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. savings-and-loans: title_en='deposits'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0158_2": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "savings-and-loans"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. savings-and-loans: title_en='deposits'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0158_3": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [],
+      "flags": [],
+      "rationale": "Metadata-only first pass. No sufficiently specific detailed subject established by allowed metadata.",
+      "review_questions": [
+        "Review full contents to establish detailed tags."
+      ]
+    },
+    "nanyo-tokei-1932:p0159_1": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [],
+      "flags": [],
+      "rationale": "Metadata-only first pass. No sufficiently specific detailed subject established by allowed metadata.",
+      "review_questions": [
+        "Review full contents to establish detailed tags."
+      ]
+    },
+    "nanyo-tokei-1932:p0159_2": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [],
+      "flags": [],
+      "rationale": "Metadata-only first pass. No sufficiently specific detailed subject established by allowed metadata.",
+      "review_questions": [
+        "Review full contents to establish detailed tags."
+      ]
+    },
+    "nanyo-tokei-1932:p0159_3": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "companies"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. companies: title_en='companies'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0160_1": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "mediation-and-arbitration"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. mediation-and-arbitration: title_en='mediation'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0160_2": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "mediation-and-arbitration"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. mediation-and-arbitration: title_en='mediation'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0160_3": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "mediation-and-arbitration"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. mediation-and-arbitration: title_en='mediation'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0160_4": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [],
+      "flags": [],
+      "rationale": "Metadata-only first pass. No sufficiently specific detailed subject established by allowed metadata.",
+      "review_questions": [
+        "Review full contents to establish detailed tags."
+      ]
+    },
+    "nanyo-tokei-1932:p0161_1": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "civil-litigation"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. civil-litigation: title_en='civil provisional attachments'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0161_2": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [],
+      "flags": [],
+      "rationale": "Metadata-only first pass. No sufficiently specific detailed subject established by allowed metadata.",
+      "review_questions": [
+        "Review full contents to establish detailed tags."
+      ]
+    },
+    "nanyo-tokei-1932:p0161_3": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [],
+      "flags": [],
+      "rationale": "Metadata-only first pass. No sufficiently specific detailed subject established by allowed metadata.",
+      "review_questions": [
+        "Review full contents to establish detailed tags."
+      ]
+    },
+    "nanyo-tokei-1932:p0161_4": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [],
+      "flags": [],
+      "rationale": "Metadata-only first pass. No sufficiently specific detailed subject established by allowed metadata.",
+      "review_questions": [
+        "Review full contents to establish detailed tags."
+      ]
+    },
+    "nanyo-tokei-1932:p0162_1": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "civil-litigation"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. civil-litigation: title_en='civil suits'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0162_2": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "civil-litigation"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. civil-litigation: title_en='civil suits'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0162_3": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "civil-litigation"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. civil-litigation: title_en='civil suits'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0162_4": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "civil-litigation"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. civil-litigation: title_en='civil suits'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0162_5": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "civil-litigation"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. civil-litigation: title_en='civil suits'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0162_6": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "civil-litigation"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. civil-litigation: title_en='civil suits'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0162_7": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "civil-litigation"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. civil-litigation: title_en='civil suits'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0162_8": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "civil-litigation"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. civil-litigation: title_en='civil suits'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0163_1": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "prisons"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. prisons: title_en='prison'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0164_1": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "prisons"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. prisons: title_en='prison'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0166_1": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "prisons"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. prisons: title_en='convicts'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0168_1": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "age-and-sex",
+        "prisons"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. age-and-sex: title_en='by age'; prisons: title_en='convicts'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0170_1": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "prisons"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. prisons: title_en='convicts'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0174_1": {
+      "topics": [
+        "education"
+      ],
+      "tags": [
+        "primary-education",
+        "teachers"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. primary-education: title_en='primary schools'; teachers: title_en='teachers'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0175_1": {
+      "topics": [
+        "education",
+        "indigenous-peoples"
+      ],
+      "tags": [
+        "teachers"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. teachers: title_en='teachers'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0177_1": {
+      "topics": [
+        "education"
+      ],
+      "tags": [
+        "primary-education"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. primary-education: title_en='primary school'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0178_1": {
+      "topics": [
+        "education"
+      ],
+      "tags": [
+        "schools-and-pupils"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. schools-and-pupils: title_en='school'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0179_1": {
+      "topics": [
+        "education"
+      ],
+      "tags": [
+        "school-boarding"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. school-boarding: title_en='boarders at public school'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0179_2": {
+      "topics": [
+        "education"
+      ],
+      "tags": [
+        "schools-and-pupils",
+        "apprenticeships"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. schools-and-pupils: title_en='school'; apprenticeships: title_en='apprentice'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0179_3": {
+      "topics": [
+        "education"
+      ],
+      "tags": [
+        "kindergartens"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. kindergartens: title_en='kindergartens'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0179_4": {
+      "topics": [
+        "education",
+        "indigenous-peoples"
+      ],
+      "tags": [
+        "vocational-education"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. vocational-education: description_en='vocational'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0180_1": {
+      "topics": [
+        "religion"
+      ],
+      "tags": [
+        "christianity"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. christianity: title_en='roman catholic'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0180_2": {
+      "topics": [
+        "religion"
+      ],
+      "tags": [
+        "christianity"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. christianity: title_en='protestant'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0180_3": {
+      "topics": [
+        "religion"
+      ],
+      "tags": [
+        "buddhism"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. buddhism: title_en='buddhism'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0180_4": {
+      "topics": [
+        "religion"
+      ],
+      "tags": [
+        "religious-affiliation"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. religious-affiliation: description_en='adherents'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0181_1": {
+      "topics": [
+        "religion"
+      ],
+      "tags": [
+        "nationality-and-ethnicity",
+        "missions"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. nationality-and-ethnicity: title_en='by nationality'; missions: title_en='missionaries'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0181_2": {
+      "topics": [
+        "education"
+      ],
+      "tags": [
+        "mission-schools"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. mission-schools: title_en='religious schools'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0181_3": {
+      "topics": [
+        "agriculture"
+      ],
+      "tags": [
+        "arable-land"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. arable-land: title_en='cultivated land'",
+      "review_questions": [
+        "Review full contents to determine the text/statistical flag."
+      ]
+    },
+    "nanyo-tokei-1932:p0182_1": {
+      "topics": [
+        "agriculture"
+      ],
+      "tags": [
+        "crop-production"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. crop-production: title_en='agricultural products'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0186_1": {
+      "topics": [
+        "agriculture"
+      ],
+      "tags": [
+        "crop-production"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. crop-production: title_en='agricultural crops'",
+      "review_questions": [
+        "Review full contents to determine the text/statistical flag."
+      ]
+    },
+    "nanyo-tokei-1932:p0187_1": {
+      "topics": [
+        "agriculture"
+      ],
+      "tags": [
+        "crop-production"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. crop-production: title_en='agricultural crops'",
+      "review_questions": [
+        "Review full contents to determine the text/statistical flag."
+      ]
+    },
+    "nanyo-tokei-1932:p0189_1": {
+      "topics": [
+        "agriculture"
+      ],
+      "tags": [
+        "arable-land",
+        "crop-production"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. arable-land: title_en='harvested area'; crop-production: title_en='agricultural crops'",
+      "review_questions": [
+        "Review full contents to determine the text/statistical flag."
+      ]
+    },
+    "nanyo-tokei-1932:p0189_2": {
+      "topics": [
+        "manufacturing"
+      ],
+      "tags": [
+        "fertilisers"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. fertilisers: title_en='fertilizers'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0191_1": {
+      "topics": [
+        "manufacturing"
+      ],
+      "tags": [
+        "fertilisers"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. fertilisers: title_en='fertilizers'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0192_1": {
+      "topics": [
+        "agriculture"
+      ],
+      "tags": [
+        "livestock",
+        "eggs-and-poultry"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. livestock: title_en='livestock'; eggs-and-poultry: title_en='poultry'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0193_1": {
+      "topics": [
+        "agriculture"
+      ],
+      "tags": [
+        "age-and-sex",
+        "livestock"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. age-and-sex: title_en='by age'; livestock: title_en='livestock'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0196_1": {
+      "topics": [
+        "agriculture"
+      ],
+      "tags": [
+        "age-and-sex",
+        "eggs-and-poultry"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. age-and-sex: title_en='by sex'; eggs-and-poultry: title_en='poultry'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0196_2": {
+      "topics": [
+        "agriculture"
+      ],
+      "tags": [
+        "livestock",
+        "eggs-and-poultry"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. livestock: title_en='livestock'; eggs-and-poultry: title_en='poultry'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0197_1": {
+      "topics": [
+        "agriculture"
+      ],
+      "tags": [
+        "births-and-deaths",
+        "livestock",
+        "eggs-and-poultry"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. births-and-deaths: title_en='deaths'; livestock: title_en='livestock'; eggs-and-poultry: title_en='poultry'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0198_1": {
+      "topics": [
+        "agriculture"
+      ],
+      "tags": [
+        "livestock"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. livestock: title_en='slaughtered'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0198_2": {
+      "topics": [
+        "agriculture"
+      ],
+      "tags": [
+        "livestock"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. livestock: title_en='livestock'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0199_1": {
+      "topics": [
+        "agriculture"
+      ],
+      "tags": [
+        "arable-land",
+        "sugarcane",
+        "sugar"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. arable-land: title_en='harvested area'; sugarcane: title_en='sugar cane'; sugar: title_en='sugar'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0199_2": {
+      "topics": [
+        "labour"
+      ],
+      "tags": [
+        "wages"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. wages: title_en='wages'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0200_1": {
+      "topics": [],
+      "tags": [],
+      "flags": [],
+      "rationale": "Metadata-only first pass. No sufficiently specific detailed subject established by allowed metadata.",
+      "review_questions": [
+        "Review full contents to establish high-level topics.",
+        "Review full contents to establish detailed tags."
+      ]
+    },
+    "nanyo-tokei-1932:p0201_1": {
+      "topics": [],
+      "tags": [
+        "alcohol"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. alcohol: title_en='alcoholic'",
+      "review_questions": [
+        "Review full contents to establish high-level topics."
+      ]
+    },
+    "nanyo-tokei-1932:p0202_1": {
+      "topics": [],
+      "tags": [],
+      "flags": [],
+      "rationale": "Metadata-only first pass. No sufficiently specific detailed subject established by allowed metadata.",
+      "review_questions": [
+        "Review full contents to establish high-level topics.",
+        "Review full contents to establish detailed tags."
+      ]
+    },
+    "nanyo-tokei-1932:p0205_1": {
+      "topics": [
+        "forestry"
+      ],
+      "tags": [],
+      "flags": [],
+      "rationale": "Metadata-only first pass. No sufficiently specific detailed subject established by allowed metadata.",
+      "review_questions": [
+        "Review full contents to establish detailed tags."
+      ]
+    },
+    "nanyo-tokei-1932:p0207_1": {
+      "topics": [],
+      "tags": [
+        "coconuts"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. coconuts: title_en='coconut'",
+      "review_questions": [
+        "Review full contents to establish high-level topics."
+      ]
+    },
+    "nanyo-tokei-1932:p0207_2": {
+      "topics": [],
+      "tags": [
+        "coconuts"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. coconuts: title_en='coconut'",
+      "review_questions": [
+        "Review full contents to establish high-level topics."
+      ]
+    },
+    "nanyo-tokei-1932:p0208_1": {
+      "topics": [],
+      "tags": [
+        "copra"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. copra: title_en='copra'",
+      "review_questions": [
+        "Review full contents to establish high-level topics."
+      ]
+    },
+    "nanyo-tokei-1932:p0208_2": {
+      "topics": [
+        "fisheries"
+      ],
+      "tags": [
+        "fishing-rights-and-licences"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. fishing-rights-and-licences: title_en='fishing licences'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0208_3": {
+      "topics": [
+        "fisheries"
+      ],
+      "tags": [
+        "fishing"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. fishing: title_en='fishing'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0209_1": {
+      "topics": [
+        "fisheries"
+      ],
+      "tags": [
+        "fishing"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. fishing: title_en='marine products'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0211_1": {
+      "topics": [
+        "fisheries"
+      ],
+      "tags": [
+        "fishing"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. fishing: title_en='marine products'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0212_1": {
+      "topics": [
+        "mining"
+      ],
+      "tags": [
+        "phosphate-rock"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. phosphate-rock: title_en='phosphate'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0212_2": {
+      "topics": [],
+      "tags": [],
+      "flags": [],
+      "rationale": "Metadata-only first pass. No sufficiently specific detailed subject established by allowed metadata.",
+      "review_questions": [
+        "Review full contents to establish high-level topics.",
+        "Review full contents to establish detailed tags."
+      ]
+    },
+    "nanyo-tokei-1932:p0212_3": {
+      "topics": [
+        "mining"
+      ],
+      "tags": [
+        "phosphate-rock"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. phosphate-rock: title_en='phosphate'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0212_4": {
+      "topics": [
+        "economy"
+      ],
+      "tags": [
+        "production-subsidies"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. production-subsidies: title_en='subsidies'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0213_1": {
+      "topics": [
+        "economy",
+        "agriculture"
+      ],
+      "tags": [
+        "production-subsidies",
+        "sugarcane",
+        "sugar"
+      ],
+      "flags": [],
+      "rationale": "Both bands count recipients and grants for cane planting, clearance, nurseries, seedlings, green manure, sugar shipment and factories, with Japanese/islander breakdowns. The subject is support for the sugar industry rather than a general public budget.",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0213_2": {
+      "topics": [
+        "economy"
+      ],
+      "tags": [
+        "production-subsidies",
+        "sugar"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. production-subsidies: title_en='subsidised'; sugar: title_en='sugar'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0214_1": {
+      "topics": [
+        "economy"
+      ],
+      "tags": [
+        "production-subsidies"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. production-subsidies: title_en='subsidies'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0215_1": {
+      "topics": [
+        "economy"
+      ],
+      "tags": [
+        "production-subsidies",
+        "coffee"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. production-subsidies: title_en='subsidies'; coffee: title_en='coffee'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0215_2": {
+      "topics": [
+        "economy"
+      ],
+      "tags": [
+        "production-subsidies",
+        "coffee"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. production-subsidies: title_en='subsidised'; coffee: title_en='coffee'",
+      "review_questions": [
+        "Review full contents to determine the text/statistical flag."
+      ]
+    },
+    "nanyo-tokei-1932:p0216_1": {
+      "topics": [
+        "agriculture",
+        "economy"
+      ],
+      "tags": [
+        "production-subsidies",
+        "livestock"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. production-subsidies: title_en='subsidies'; livestock: title_en='livestock'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0217_1": {
+      "topics": [
+        "agriculture",
+        "economy"
+      ],
+      "tags": [
+        "production-subsidies",
+        "livestock"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. production-subsidies: title_en='subsidies'; livestock: title_en='cattle'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0217_2": {
+      "topics": [
+        "economy"
+      ],
+      "tags": [
+        "production-subsidies",
+        "coconuts"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. production-subsidies: title_en='subsidies'; coconuts: title_en='coconut'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0218_1": {
+      "topics": [
+        "economy"
+      ],
+      "tags": [
+        "production-subsidies",
+        "coconuts",
+        "copra"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. production-subsidies: title_en='subsidised'; coconuts: title_en='coconut'; copra: title_en='copra'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0219_1": {
+      "topics": [
+        "fisheries",
+        "economy"
+      ],
+      "tags": [
+        "production-subsidies",
+        "fishing"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. production-subsidies: title_en='subsidies'; fishing: title_en='fisheries'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0220_1": {
+      "topics": [
+        "economy"
+      ],
+      "tags": [
+        "production-subsidies"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. production-subsidies: title_en='subsidies'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0224_1": {
+      "topics": [
+        "transportation"
+      ],
+      "tags": [
+        "roads-and-bridges"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. roads-and-bridges: title_en='roads'",
+      "review_questions": [
+        "Review full contents to determine the text/statistical flag."
+      ]
+    },
+    "nanyo-tokei-1932:p0224_2": {
+      "topics": [
+        "transportation"
+      ],
+      "tags": [
+        "railways"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. railways: title_en='railways'",
+      "review_questions": [
+        "Review full contents to determine the text/statistical flag."
+      ]
+    },
+    "nanyo-tokei-1932:p0224_3": {
+      "topics": [
+        "transportation"
+      ],
+      "tags": [
+        "shipping"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. shipping: title_en='vessels'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0225_1": {
+      "topics": [],
+      "tags": [],
+      "flags": [],
+      "rationale": "Metadata-only first pass. No sufficiently specific detailed subject established by allowed metadata.",
+      "review_questions": [
+        "Review full contents to establish high-level topics.",
+        "Review full contents to establish detailed tags."
+      ]
+    },
+    "nanyo-tokei-1932:p0225_2": {
+      "topics": [],
+      "tags": [],
+      "flags": [],
+      "rationale": "Metadata-only first pass. No sufficiently specific detailed subject established by allowed metadata.",
+      "review_questions": [
+        "Review full contents to establish high-level topics.",
+        "Review full contents to establish detailed tags."
+      ]
+    },
+    "nanyo-tokei-1932:p0226_1": {
+      "topics": [
+        "transportation"
+      ],
+      "tags": [
+        "shipping"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. shipping: title_en='shipping'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0226_2": {
+      "topics": [
+        "transportation"
+      ],
+      "tags": [
+        "shipping"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. shipping: title_en='vessels'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0227_1": {
+      "topics": [
+        "transportation"
+      ],
+      "tags": [
+        "shipping"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. shipping: title_en='registered tonnage'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0228_1": {
+      "topics": [
+        "transportation"
+      ],
+      "tags": [
+        "shipping"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. shipping: title_en='steamer'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0228_2": {
+      "topics": [
+        "transportation"
+      ],
+      "tags": [
+        "shipping"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. shipping: title_en='steamer'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0229_1": {
+      "topics": [
+        "communications"
+      ],
+      "tags": [
+        "postal-services"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. postal-services: title_en='postal'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0229_2": {
+      "topics": [
+        "communications"
+      ],
+      "tags": [
+        "telegraph"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. telegraph: title_en='telegrams'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0230_1": {
+      "topics": [
+        "communications"
+      ],
+      "tags": [
+        "telephone"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. telephone: title_en='telephones'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0230_2": {
+      "topics": [
+        "communications"
+      ],
+      "tags": [
+        "telephone"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. telephone: title_en='telephones'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0231_1": {
+      "topics": [
+        "communications",
+        "indigenous-peoples"
+      ],
+      "tags": [
+        "postal-services",
+        "telegraph"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. postal-services: title_en='postal'; telegraph: title_en='telegraph'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0232_1": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "insurance-and-pensions",
+        "postal-services"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. insurance-and-pensions: title_en='insurance'; postal-services: title_en='postal'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0232_2": {
+      "topics": [
+        "utilities"
+      ],
+      "tags": [
+        "electricity"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. electricity: title_en='electricity'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0233_1": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "prices"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. prices: title_en='retail prices'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0236_1": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "companies"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. companies: title_en='companies'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0236_2": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "mutual-credit"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. mutual-credit: title_en='mujin'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0236_3": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "savings-and-loans",
+        "insurance-and-pensions",
+        "postal-remittances"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. savings-and-loans: title_en='savings'; insurance-and-pensions: title_en='annuities'; postal-remittances: title_en='money orders'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0238_1": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "exports"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. exports: title_en='exports'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0240_1": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "intra-imperial-trade"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. intra-imperial-trade: title_en='shipments to japan'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0245_1": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "imports"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. imports: title_en='imports'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0248_1": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "intra-imperial-trade"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. intra-imperial-trade: title_en='shipments from japan'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0253_1": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "warehousing"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. warehousing: title_en='warehouses'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0253_2": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "imports",
+        "exports",
+        "alcohol"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. imports: title_en='imports'; exports: title_en='exports'; alcohol: title_en='alcoholic'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0253_3": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "alcohol"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. alcohol: title_en='alcoholic'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0254_1": {
+      "topics": [
+        "trade"
+      ],
+      "tags": [
+        "alcohol"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. alcohol: title_en='alcoholic'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0255_1": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "public-budgets"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. public-budgets: title_en='budgets'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0255_2": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "head-tax"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. head-tax: description_en='poll tax'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0261_1": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "head-tax"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. head-tax: title_en='poll tax'",
+      "review_questions": [
+        "Review full contents to determine the text/statistical flag."
+      ]
+    },
+    "nanyo-tokei-1932:p0261_2": {
+      "topics": [
+        "trade",
+        "finance"
+      ],
+      "tags": [
+        "tariffs"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. tariffs: title_en='customs duties'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0261_3": {
+      "topics": [
+        "trade",
+        "finance"
+      ],
+      "tags": [
+        "tariffs"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. tariffs: title_en='export duties'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0261_4": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "taxation"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. taxation: title_en='tax'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0261_5": {
+      "topics": [
+        "communications"
+      ],
+      "tags": [
+        "postal-services",
+        "telegraph",
+        "telephone"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. postal-services: title_en='postal'; telegraph: title_en='telegraph'; telephone: title_en='telephone'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0262_1": {
+      "topics": [
+        "forestry"
+      ],
+      "tags": [],
+      "flags": [],
+      "rationale": "Metadata-only first pass. No sufficiently specific detailed subject established by allowed metadata.",
+      "review_questions": [
+        "Review full contents to establish detailed tags."
+      ]
+    },
+    "nanyo-tokei-1932:p0262_2": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "public-property"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. public-property: title_en='government property'",
+      "review_questions": [
+        "Review full contents to determine the text/statistical flag."
+      ]
+    },
+    "nanyo-tokei-1932:p0262_3": {
+      "topics": [
+        "health"
+      ],
+      "tags": [
+        "medical-services"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. medical-services: title_en='hospital'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0262_4": {
+      "topics": [
+        "utilities"
+      ],
+      "tags": [
+        "electricity"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. electricity: title_en='electric lighting'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0262_5": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [],
+      "flags": [],
+      "rationale": "Metadata-only first pass. No sufficiently specific detailed subject established by allowed metadata.",
+      "review_questions": [
+        "Review full contents to establish detailed tags."
+      ]
+    },
+    "nanyo-tokei-1932:p0263_1": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [],
+      "flags": [],
+      "rationale": "Metadata-only first pass. No sufficiently specific detailed subject established by allowed metadata.",
+      "review_questions": [
+        "Review full contents to establish detailed tags."
+      ]
+    },
+    "nanyo-tokei-1932:p0263_2": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [],
+      "flags": [],
+      "rationale": "Metadata-only first pass. No sufficiently specific detailed subject established by allowed metadata.",
+      "review_questions": [
+        "Review full contents to establish detailed tags."
+      ]
+    },
+    "nanyo-tokei-1932:p0264_1": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [],
+      "flags": [],
+      "rationale": "Metadata-only first pass. No sufficiently specific detailed subject established by allowed metadata.",
+      "review_questions": [
+        "Review full contents to establish detailed tags."
+      ]
+    },
+    "nanyo-tokei-1932:p0264_2": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [
+        "public-property"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. public-property: title_en='government property'",
+      "review_questions": [
+        "Review full contents to determine the text/statistical flag."
+      ]
+    },
+    "nanyo-tokei-1932:p0265_1": {
+      "topics": [
+        "finance",
+        "indigenous-peoples"
+      ],
+      "tags": [
+        "head-tax"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. head-tax: title_en='poll tax'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0267_1": {
+      "topics": [
+        "finance",
+        "indigenous-peoples"
+      ],
+      "tags": [
+        "head-tax"
+      ],
+      "flags": [],
+      "rationale": "Metadata-only first pass. head-tax: title_en='poll tax'",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0268_1": {
+      "topics": [
+        "finance"
+      ],
+      "tags": [],
+      "flags": [],
+      "rationale": "Metadata-only first pass. No sufficiently specific detailed subject established by allowed metadata.",
+      "review_questions": [
+        "Review full contents to establish detailed tags."
+      ]
+    },
+    "nanyo-tokei-1932:p0269_1": {
+      "topics": [
+        "education",
+        "welfare"
+      ],
+      "tags": [
+        "literacy-and-adult-education",
+        "youth-organisations",
+        "nationality-and-ethnicity"
+      ],
+      "flags": [],
+      "rationale": "The totals and all six branch blocks count popular-education associations and members, including youth, women’s, education and alumni groups; membership is systematically split by sex and Japanese/islander categories.",
+      "review_questions": []
+    },
+    "nanyo-tokei-1932:p0269_2": {
+      "topics": [
+        "welfare"
+      ],
+      "tags": [],
+      "flags": [],
+      "rationale": "Metadata-only first pass. No sufficiently specific detailed subject established by allowed metadata.",
+      "review_questions": [
+        "Review full contents to establish detailed tags."
+      ]
+    },
+    "nanyo-tokei-1932:p0270_1": {
+      "topics": [
+        "welfare",
+        "indigenous-peoples"
+      ],
+      "tags": [],
+      "flags": [],
+      "rationale": "Metadata-only first pass. No sufficiently specific detailed subject established by allowed metadata.",
+      "review_questions": [
+        "Review full contents to establish detailed tags."
+      ]
+    },
+    "nanyo-tokei-1932:p0270_2": {
+      "topics": [
+        "crime-and-justice"
+      ],
+      "tags": [
+        "offences-and-convictions"
+      ],
+      "flags": [
+        "text-tables"
+      ],
+      "rationale": "Metadata-only first pass. offences-and-convictions: title_en='offences'",
+      "review_questions": []
+    }
+  },
+  "collection": "south-seas"
+}
