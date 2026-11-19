@@ -80,8 +80,11 @@ activities; optional outdoors hatching; a "most common activity" strip; an outdo
 by"); radio-suitability tables (適(甲)/適(乙)/不適/睡眠) → the same ribbon with those bands; time budgets (hours and
 minutes) → one 24-hour bar per group. A Compare tab draws one activity as lines across related tables — by age, sex,
 marital status, region/industry/size of works/city, household type, or across the four volumes (fetches their
-`data/*.json`) — matching tables on the uniform printed titles. Same rule as `charts.js`: printed figures only,
-unreadable cells are gaps and marked, rows are never rescaled. Palette validated with the dataviz skill (light and dark).
+`data/*.json`) — matching tables on the uniform printed titles. Same rule as `charts.js` (printed figures only,
+rows never rescaled), with one exception the user made for these time-use charts only (2026-11-19): when exactly one
+figure of a 10-minute row is unreadable and every other figure of the row is printed, the chart draws it as 100 minus
+the rest of the row, striped in its band colour (also 外 = 100 − 内); the table, data and downloads keep [?]. Rows with
+two or more unreadable figures stay gaps, marked ▾. Palette validated with the dataviz skill (light and dark).
 A new time-use book only needs `"viz": "timeuse"` and an activity name in `ACT` if it prints a new one.
 
 ## Full Search

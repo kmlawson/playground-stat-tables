@@ -125,7 +125,9 @@
         series.push(mk(R.k, R.en, null, R.c, i => get(c, i)));
       });
       outCol = cols.find(c => c === "外");
-      return { slots, series, out: outCol ? slots.map((_, i) => get(outCol, i)) : null, split: false };
+      const out = outCol ? slots.map((_, i) => get(outCol, i)) : null;
+      infer(series, false, out, cols.includes("内") ? slots.map((_, i) => get("内", i)) : null);
+      return { slots, series, out, split: false };
     }
     const split = cols.some(c => / — 内$/.test(c));
     const names = [];
@@ -148,7 +150,32 @@
     });
     // keep the printed order inside a family, families in FAM order
     series.sort((x, y) => FAM.findIndex(f => f.k === x.fam) - FAM.findIndex(f => f.k === y.fam));
-    return { slots, series, out: outCol ? slots.map((_, i) => get(outCol, i)) : null, split };
+    const out = outCol ? slots.map((_, i) => get(outCol, i)) : null;
+    const inC = split ? cols.find(c => /^全行爲 — 内$/.test(c)) : (cols.includes("内") ? "内" : null);
+    infer(series, split, out, inC ? slots.map((_, i) => get(inC, i)) : null);
+    return { slots, series, out, split };
+    // Time-use exception (user, 2026-11-19): when exactly one figure of a 10-minute row is unreadable and every other
+    // figure of the row is printed, the chart draws it as 100 minus the rest, striped. The table keeps its [?].
+    function infer(series, split, outCells, inCells) {
+      for (let i = 0; i < n; i++) {
+        const raw = [];
+        series.forEach(S => { if (split) raw.push([S, "vin"], [S, "vout"]); else raw.push([S, null]); });
+        const cellOf = r => (r[1] ? r[0][r[1]][i] : r[0].cells[i]);
+        const ill = raw.filter(r => cellOf(r).ill);
+        if (ill.length !== 1) continue;
+        let sum = 0, ok = true;
+        raw.forEach(r => { const c = cellOf(r); if (c.ill || c.blank) return; if (c.v == null) ok = false; else sum += c.v; });
+        const x = 100 - sum;
+        if (!ok || x < 0) continue;
+        const [S, k] = ill[0], nc = { v: x, s: cellOf(ill[0]).s, inferred: true };
+        if (k) { S[k][i] = nc; S.cells[i] = sum2(S.vin[i], S.vout[i]); } else S.cells[i] = nc;
+        S.cells[i].inf = x; S.v[i] = S.cells[i].v;
+      }
+      if (outCells && inCells) for (let i = 0; i < n; i++) {
+        const o = outCells[i], c = inCells[i];
+        if (o.ill && c.v != null && c.v <= 100) outCells[i] = { v: 100 - c.v, s: o.s, inferred: true, inf: 100 - c.v };
+      }
+    }
     function mk(key, en, fam, c, f) {
       const cells = slots.map((_, i) => f(i));
       return { key, en, fam, c, cells, v: cells.map(x => (x.v == null ? null : x.v)) };
@@ -216,6 +243,7 @@
   const ageEn = (a, m) => (a ? "aged " + a : "") + (m ? " (" + MAR[m] + ")" : "");
   const placeEn = p => (PLACE[p] ? PLACE[p] + (p !== "全國" && /[^\x00-\x7f]/.test(p) ? " " + p : "") : p);
 
+  let UID = 0;
   // ---- styles ------------------------------------------------------------------------------------------------
   let styled = false;
   function style() {
@@ -273,15 +301,20 @@
     const illSlots = new Set();
     M.series.forEach(S => S.cells.forEach((c, i) => { if (c.ill) illSlots.add(i); }));
     const nIll = M.series.reduce((a, S) => a + S.cells.filter(c => c.ill).length, 0);
+    const infSlots = new Set();
+    M.series.forEach(S => S.cells.forEach((c, i) => { if (c.inf != null) infSlots.add(i); }));
+    const nInf = infSlots.size + (M.out ? M.out.filter(c => c.inferred).length : 0);
+    const uid = "dc" + (++UID);
     const rowSum = i => M.series.reduce((a, S) => a + (S.v[i] || 0), 0);
     let off = 0;
     for (let i = 0; i < n; i++) if (!illSlots.has(i) && Math.abs(rowSum(i) - 100) > 1.5) off++;
     head.innerHTML = `<span class="dc-title">${kd === "radio" ? "Share of persons for whom each 10-minute slot was suitable for listening to the radio" : "Share of persons in each activity, every 10 minutes from midnight to midnight"}</span>` +
-      (M.split ? `<label class="dc-tog"><input type="checkbox"> show outdoors (外) inside each band</label>` : "");
+      (M.split ? `<label class="dc-tog"><input type="checkbox"> show outdoors (外) inside each band (dotted)</label>` : "");
     const tog = head.querySelector("input");
     if (tog) tog.onchange = () => { inout = tog.checked; draw(); };
     note.textContent = "Each column is one printed 10-minute row; figures are drawn as printed, not rescaled to 100." +
-      (nIll ? ` ${nIll} unreadable cell${nIll > 1 ? "s are" : " is"} left out (marked ▾ above the slot).` : "") +
+      (nInf ? ` Striped: ${nInf} figure${nInf > 1 ? "s" : ""} unreadable in print, each the only gap in its row, drawn as 100 minus the rest of the row.` : "") +
+      (nIll ? ` ${nIll} other unreadable cell${nIll > 1 ? "s are" : " is"} left out (marked ▾ above the slot).` : "") +
       (off ? ` ${off} row${off > 1 ? "s do" : " does"} not add to 100 in print.` : "");
 
     // groups shown in the stack: families (act) or the four radio bands
@@ -344,11 +377,16 @@
         for (let i = 0; i < n; i++) { const x0 = L + i * sw, x1 = x0 + sw; d += (i ? "L" : "M") + x0.toFixed(2) + "," + y(top[i]).toFixed(2) + "L" + x1.toFixed(2) + "," + y(top[i]).toFixed(2); }
         for (let i = n - 1; i >= 0; i--) { const x0 = L + i * sw, x1 = x0 + sw; d += "L" + x1.toFixed(2) + "," + y(base[i]).toFixed(2) + "L" + x0.toFixed(2) + "," + y(base[i]).toFixed(2); }
         el("path", { d: d + "Z", fill: b.color, stroke: surf, "stroke-width": 1, "stroke-linejoin": "round" }, svg);
+        // inferred figures (the only unreadable one in their row): striped, in the band's own colour
+        let di = "";
+        for (let i = 0; i < n; i++) { const a = b.mem.reduce((s, S) => s + (S.cells[i].inf || 0), 0); if (!a) continue;
+          const x0 = L + i * sw; di += `M${x0.toFixed(2)},${y(top[i]).toFixed(2)}h${sw.toFixed(2)}V${y(top[i] - a).toFixed(2)}h${(-sw).toFixed(2)}Z`; }
+        if (di) el("path", { d: di, fill: `url(#${uid}-inf)` }, svg);
         // outdoors part of the band (hatched), when asked for
         if (inout && M.split) {
           let dd = "";
           for (let i = 0; i < n; i++) { const o = bout(b, i); if (!o) continue; const x0 = L + i * sw; dd += `M${x0.toFixed(2)},${y(top[i]).toFixed(2)}h${sw.toFixed(2)}V${y(top[i] - o).toFixed(2)}h${(-sw).toFixed(2)}Z`; }
-          if (dd) el("path", { d: dd, fill: "url(#dc-hatch)" }, svg);
+          if (dd) el("path", { d: dd, fill: `url(#${uid}-hatch)` }, svg);
         }
         // direct label where the whole label fits inside the band (the band's clear height over the label's width)
         const lab = narrow ? b.en.split(/ [&(]/)[0] : b.en.replace(/ \(.*\)/, "");
@@ -365,10 +403,13 @@
         }
         for (let i = 0; i < n; i++) base[i] = top[i];
       });
-      if (inout && M.split) {
-        const defs = el("defs", {}, svg), pt = el("pattern", { id: "dc-hatch", width: 5, height: 5, patternUnits: "userSpaceOnUse", patternTransform: "rotate(45)" }, defs);
-        el("rect", { width: 5, height: 5, fill: "rgba(255,255,255,.18)" }, pt);
-        el("line", { x1: 0, y1: 0, x2: 0, y2: 5, stroke: "rgba(255,255,255,.75)", "stroke-width": 2 }, pt);
+      {
+        const defs = el("defs", {}, svg);
+        const pt = el("pattern", { id: uid + "-hatch", width: 4, height: 4, patternUnits: "userSpaceOnUse" }, defs);
+        el("rect", { width: 4, height: 4, fill: "rgba(255,255,255,.22)" }, pt);
+        el("circle", { cx: 2, cy: 2, r: 1.1, fill: "rgba(255,255,255,.85)" }, pt);
+        const pi = el("pattern", { id: uid + "-inf", width: 5, height: 5, patternUnits: "userSpaceOnUse", patternTransform: "rotate(-45)" }, defs);
+        el("line", { x1: 0, y1: 0, x2: 0, y2: 5, stroke: "rgba(255,255,255,.8)", "stroke-width": 2 }, pi);
         svg.insertBefore(defs, svg.firstChild);
       }
       // "most common": the band with the largest printed share in each slot
@@ -403,6 +444,9 @@
         let fd = "";
         for (let i = 0; i < n; i++) { const c = M.out[i]; if (c.v == null || !c.v) continue; const x0 = L + i * sw; fd += `M${x0.toFixed(2)},${y2(0).toFixed(2)}V${y2(c.v).toFixed(2)}h${sw.toFixed(2)}V${y2(0).toFixed(2)}Z`; }
         el("path", { d: fd, fill: col(OUT_C), opacity: 0.14 }, svg);
+        let fi = "";
+        for (let i = 0; i < n; i++) { const c = M.out[i]; if (!c.inferred || !c.v) continue; const x0 = L + i * sw; fi += `M${x0.toFixed(2)},${y2(0).toFixed(2)}V${y2(c.v).toFixed(2)}h${sw.toFixed(2)}V${y2(0).toFixed(2)}Z`; }
+        if (fi) { el("path", { d: fi, fill: col(OUT_C), opacity: 0.55 }, svg); el("path", { d: fi, fill: `url(#${uid}-inf)` }, svg); }
       }
       // hover layer
       const cross = el("rect", { x: 0, y: T, width: Math.max(1, sw), height: H1 + (H2 ? gap + H2 : 0), fill: "var(--ink)", opacity: 0, "pointer-events": "none" }, svg);
@@ -426,23 +470,26 @@
     function tipHtml(i, BS) {
       const s = M.slots[i];
       let h = `<b>${esc(clock(s))}</b> <span style="color:var(--muted)">(printed ${esc(s.lab)}, ${s.half ? "午後" : "午前"})</span>`;
-      const fmt = c => (c.ill ? `<span class="w">unreadable</span>` : esc(c.s || "—"));
+      const fmt = c => (c.ill ? `<span class="w">unreadable</span>` : c.inferred ? `≈${+c.v.toFixed(1)} <small class="w">(unreadable; inferred)</small>` : esc(c.s || "—"));
+      const raw = c => (c.inferred ? "≈" + c.v : c.s);
       [...BS].reverse().forEach(b => {
         const v = bval(b, i);
         if (b.mem.length === 1 && (kd === "radio" || open)) {
           const S = b.mem[0], c = S.cells[i];
           if (!c.ill && !v) return;
-          h += `<div class="r f"><i style="background:${b.color}"></i><span>${esc(S.key)} ${esc(S.en)}</span><span>${fmt(c)}${M.split && S.vin ? ` <small style="color:var(--muted)">(内 ${esc(S.vin[i].s)} · 外 ${esc(S.vout[i].s)})</small>` : ""}</span></div>`;
+          h += `<div class="r f"><i style="background:${b.color}"></i><span>${esc(S.key)} ${esc(S.en)}</span><span>${fmt(c)}${M.split && S.vin ? ` <small style="color:var(--muted)">(内 ${esc(raw(S.vin[i]))} · 外 ${esc(raw(S.vout[i]))})</small>` : ""}</span></div>`;
           return;
         }
         const anyIll = b.mem.some(S => S.cells[i].ill);
         if (!v && !anyIll) return;
         h += `<div class="r f"><i style="background:${b.color}"></i><span>${esc(b.en)}</span><span>${v ? +v.toFixed(1) + "%" : ""}</span></div>`;
         b.mem.forEach(S => { const c = S.cells[i]; if (!c.ill && !c.v) return;
-          h += `<div class="r m"><span>${esc(S.key)} ${esc(S.en)}</span><span>${fmt(c)}</span></div>`; });
+          const part = M.split && S.vin && (S.vin[i].inferred || S.vout[i].inferred) ? ` <small class="w">(内 ${esc(raw(S.vin[i]))} · 外 ${esc(raw(S.vout[i]))}, one inferred)</small>` : "";
+          h += `<div class="r m"><span>${esc(S.key)} ${esc(S.en)}</span><span>${c.inf != null && M.split ? "≈" + c.v : fmt(c)}${part}</span></div>`; });
       });
       if (M.out) { const o = M.out[i]; h += `<div class="r" style="margin-top:3px"><i style="background:${col(OUT_C)}"></i><span>Outside the home (外)</span><span>${fmt(o)}</span></div>`; }
       const sm = rowSum(i);
+      if (infSlots.has(i)) h += `<div class="n w">Striped: one unreadable figure in this row, drawn as 100 minus the rest of the row (the table keeps [?]).</div>`;
       h += illSlots.has(i) ? `<div class="n w">Some cells unreadable in this row.</div>` :
         Math.abs(sm - 100) > 0.5 ? `<div class="n">Printed figures add to ${+sm.toFixed(1)}%.</div>` : "";
       return h;
@@ -479,6 +526,12 @@
     let v = 0;
     for (const S of mem) { const c = S.cells[i]; if (c.ill || c.v == null) return null; v += c.v; }
     return v;
+  }
+  // whether the measure's value in slot i includes a figure drawn by the one-gap rule
+  function minf(M, id, i) {
+    if (id === "out") return !!(M.out && M.out[i].inferred);
+    const [k, a] = id.split(":");
+    return M.series.some(S => (k === "fam" ? S.fam === a : a === "both" ? /^適/.test(S.key) : S.key === a) && S.cells[i].inf != null);
   }
   const startClock = i => { const h = Math.floor((i % 72) / 6), m = (i % 6) * 10; return (h || 12) + ":" + String(m).padStart(2, "0") + (i < 72 ? " a.m." : " p.m."); };
   function keyMoments(t, kd) {
@@ -633,7 +686,8 @@
         const i = Math.max(0, Math.min(n - 1, Math.floor((sx - L) / sw)));
         cross.setAttribute("x1", L + (i + 0.5) * sw); cross.setAttribute("x2", L + (i + 0.5) * sw); cross.setAttribute("opacity", 0.35);
         const rows = lines.map((e, k) => ({ k, v: series[k][i] })).filter(x => !hidden.has(x.k)).sort((a, b) => (b.v == null ? -1 : b.v) - (a.v == null ? -1 : a.v));
-        tip.innerHTML = `<b>${esc(clock(model(t).slots[i]))}</b><div class="n" style="margin:0 0 3px">${esc(ml)}</div>` + rows.map(x => `<div class="r${lines[x.k].t === t ? " f" : ""}"><i style="background:${colors[x.k]}"></i><span>${esc(lines[x.k] === op.ref ? "Whole country" : lineLabel(lines[x.k], op.how))}</span><span>${x.v == null ? '<span class="w">—</span>' : +x.v.toFixed(1) + "%"}</span></div>`).join("");
+        tip.innerHTML = `<b>${esc(clock(model(t).slots[i]))}</b><div class="n" style="margin:0 0 3px">${esc(ml)}</div>` + rows.map(x => `<div class="r${lines[x.k].t === t ? " f" : ""}"><i style="background:${colors[x.k]}"></i><span>${esc(lines[x.k] === op.ref ? "Whole country" : lineLabel(lines[x.k], op.how))}</span><span>${x.v == null ? '<span class="w">—</span>' : (minf(model(lines[x.k].t), meas, i) ? '<span class="w">≈</span>' : "") + +x.v.toFixed(1) + "%"}</span></div>`).join("") +
+          (rows.some(x => x.v != null && minf(model(lines[x.k].t), meas, i)) ? `<div class="n w">≈ includes a figure unreadable in print, drawn as 100 minus the rest of its row.</div>` : "");
         tip.hidden = false;
         const br = box.getBoundingClientRect(), tw = tip.offsetWidth, th = tip.offsetHeight;
         let tx = ev.clientX - br.left + 14; if (tx + tw > br.width) tx = ev.clientX - br.left - tw - 14;
