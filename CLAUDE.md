@@ -87,6 +87,9 @@ Other files to read when the task needs them:
    `plan/next.py` and a `launch.sh` drive them; `validate.py` checks files. Directories and chronologies get their own
    missions. Each mission writes `reports/<MID>.md` (one line per frame, every heading seen). Run on a rolling basis;
    reply to the user per mission only "N done, M left".
+   **Prep-only requests** ("prepare X for extraction", no launch): once the survey and missions are ready, report
+   to the user how many tables (estimated from the survey), how many missions, and which model(s) they will use
+   (with counts per model), then wait for the go-ahead.
 5. **Assembly** (mechanical): `join_frags.py`; merge sub-table files of the same `table_no`; duplicates to
    `tables_dup/`; check `table_no` coverage against the contents and send a small fix mission for orphans; normalise
    chapters from the divider frames (by a table's first printed page), titles and odd cells; `validate.py`. Log
