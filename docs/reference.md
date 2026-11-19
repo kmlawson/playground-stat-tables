@@ -72,6 +72,18 @@ elsewhere only tagged tables. A table printing several measures gets one chart p
 under a list form their own chart. Labels and year order as printed; printed totals are marked on stacked bars.
 `topics/<region>-<topic>.html` lists the tagged tables with a coverage grid.
 
+### Time-use charts (`daychart.js`, 2026-11-19)
+Books whose BOOKS entry has `"viz": "timeuse"` (the four 國民生活時間調査 1943 volumes) load `daychart.js` instead of the
+generic chart for their time-use tables. It recognises three table shapes by chapter and layout: 10-minute activity
+tables (午前 + 午後 parts of 72 rows) → a 24-hour stacked "day ribbon" by activity family (click a family to see its
+activities; optional outdoors hatching; a "most common activity" strip; an outdoors strip; key moments such as "half up
+by"); radio-suitability tables (適(甲)/適(乙)/不適/睡眠) → the same ribbon with those bands; time budgets (hours and
+minutes) → one 24-hour bar per group. A Compare tab draws one activity as lines across related tables — by age, sex,
+marital status, region/industry/size of works/city, household type, or across the four volumes (fetches their
+`data/*.json`) — matching tables on the uniform printed titles. Same rule as `charts.js`: printed figures only,
+unreadable cells are gaps and marked, rows are never rescaled. Palette validated with the dataviz skill (light and dark).
+A new time-use book only needs `"viz": "timeuse"` and an activity name in `ACT` if it prints a new one.
+
 ## Full Search
 
 Pagefind indexes `pagefind/` (everything) and `pagefind-titles/` (titles and names only) are written from the

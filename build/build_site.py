@@ -1449,7 +1449,7 @@ BOOKS = [
      "item": "https://dl.ndl.go.jp/pid/1463197",
      "model": "Sonnet 5.5",
      "blank_marking": True},
-    {"slug": "japan-seikatsu-jikan-nogyo-1943", "dir": "Seikatsu_Jikan_Nogyo_1943", "edition": "農業世帶編",
+    {"slug": "japan-seikatsu-jikan-nogyo-1943", "dir": "Seikatsu_Jikan_Nogyo_1943", "viz": "timeuse", "edition": "農業世帶編",
      "title": "國民生活時間調査 農業世帶編 1943", "subtitle": "Kokumin seikatsu jikan chōsa: ippan chōsa hōkoku, nōgyō setai hen (National Time-Use Survey, General Survey Report: Farm Households), 昭和18年1月",
      "publisher": "日本放送協會 (Japan Broadcasting Corporation, NHK), 東京, 1943",
      "blurb": "NHK's national time-use survey of 1941–42, made to plan radio programmes around how people actually spent their day. This volume covers farm households: diaries kept by family members in 300 farming villages across Japan, recorded in 10-minute slots. For each sex and age group (16–20, 21–30 — also split into unmarried and married — 31–45, 46–60 and 61 and over), for the whole country and for ten regions, it gives the percentage of people asleep, eating, farming, doing handwork, housework or needlework, studying, resting, at leisure or in public duties in every 10-minute slot of the day, indoors and outdoors; the hours and minutes spent on each activity per day; and, region by region, the share of people for whom each time of day was suitable or unsuitable for listening to the radio. The front matter lists the surveyed villages and the survey's design.",
@@ -1459,7 +1459,7 @@ BOOKS = [
      "item": "https://dl.ndl.go.jp/pid/1450514",
      "model": "Claude Sonnet 5.5",
      "blank_marking": True},
-    {"slug": "japan-seikatsu-jikan-kouri-1943", "dir": "Seikatsu_Jikan_Kouri_1943", "edition": "小賣業世帶編",
+    {"slug": "japan-seikatsu-jikan-kouri-1943", "dir": "Seikatsu_Jikan_Kouri_1943", "viz": "timeuse", "edition": "小賣業世帶編",
      "title": "國民生活時間調査 小賣業世帶編 1943", "subtitle": "Kokumin seikatsu jikan chōsa: ippan chōsa hōkoku, kouri-gyō setai hen (National Time-Use Survey, General Survey Report: Retail-Shop Households), 昭和18年",
      "publisher": "日本放送協會 (Japan Broadcasting Corporation, NHK), 東京, 1943",
      "blurb": "NHK's national time-use survey of 1941–42, made to plan radio programmes around how people actually spent their day. This volume covers retail-shop households in 80 shopping districts: the shopkeeper and his family (世帶主・家族) and the shop employees (營業使用人), from diaries kept in 10-minute slots. For each sex and age group (16–20, 21–30 — also split into unmarried and married — 31–45, 46–60 and 61 and over), for the whole country, for five region groups and for large, medium-sized and small cities, it gives the percentage of people asleep, eating, at work in the shop, doing piecework at home, housework or needlework, studying, at leisure or in public duties in every 10-minute slot of the day, indoors and outdoors; the hours and minutes spent on each activity per day; and the share for whom each time of day was suitable or unsuitable for listening to the radio. The front matter lists the surveyed districts. Companion volumes cover farm households, salaried employees and factory workers, and the women of salaried and factory households.",
@@ -1469,7 +1469,7 @@ BOOKS = [
      "item": "https://dl.ndl.go.jp/pid/1450529",
      "model": "Claude Sonnet 5.5",
      "blank_marking": True},
-    {"slug": "japan-seikatsu-jikan-hokyu-1943", "dir": "Seikatsu_Jikan_Hokyu_1943", "edition": "俸給生活者・工場勞務者編",
+    {"slug": "japan-seikatsu-jikan-hokyu-1943", "dir": "Seikatsu_Jikan_Hokyu_1943", "viz": "timeuse", "edition": "俸給生活者・工場勞務者編",
      "title": "國民生活時間調査 俸給生活者・工場勞務者編 1943", "subtitle": "Kokumin seikatsu jikan chōsa: ippan chōsa hōkoku, hōkyū seikatsusha・kōjō rōmusha hen (National Time-Use Survey, General Survey Report: Salaried Employees and Factory Workers), 昭和18年",
      "publisher": "日本放送協會 (Japan Broadcasting Corporation, NHK), 東京, 1943",
      "blurb": "NHK's national time-use survey of 1941–42, made to plan radio programmes around how people actually spent their day. This volume covers salaried employees (government officials and company staff) and factory workers themselves, men and women, from diaries kept in 10-minute slots at their offices and factories. For each sex and age group, for the whole country and for five region groups — and, for salaried men, officials against company employees; for factory workers, by main industry (textiles, metals, machinery, chemicals), by size of works and by whether they lived at home or in a dormitory — it gives the percentage of people asleep, eating, commuting, at work, doing piecework at home, housework, studying, at leisure or in public duties in every 10-minute slot of the day, indoors and outdoors; the hours and minutes spent on each activity per day; and the share for whom each time of day was suitable or unsuitable for listening to the radio. The front matter lists the surveyed government offices, companies and factories. Companion volumes cover farm households and the women of salaried and factory households.",
@@ -1479,7 +1479,7 @@ BOOKS = [
      "item": "https://dl.ndl.go.jp/pid/1450544",
      "model": "Claude Sonnet 5.5",
      "blank_marking": True},
-    {"slug": "japan-seikatsu-jikan-joshi-1943", "dir": "Seikatsu_Jikan_Joshi_1943", "edition": "女子家族編",
+    {"slug": "japan-seikatsu-jikan-joshi-1943", "dir": "Seikatsu_Jikan_Joshi_1943", "viz": "timeuse", "edition": "女子家族編",
      "title": "國民生活時間調査 俸給生活者・工場勞務者 女子家族編 1943", "subtitle": "Kokumin seikatsu jikan chōsa: ippan chōsa hōkoku, hōkyū seikatsusha・kōjō rōmusha joshi kazoku hen (National Time-Use Survey, General Survey Report: Female Family Members of Salaried Employees and Factory Workers), 昭和18年 (通巻23)",
      "publisher": "日本放送協會 (Japan Broadcasting Corporation, NHK), 東京, 1943",
      "blurb": "NHK's national time-use survey of 1941–42, made to plan radio programmes around how people actually spent their day. This volume covers the women of urban wage-earning households — the wives, daughters and mothers of salaried employees and of factory workers — from diaries kept in 10-minute slots. For each age group (16–20, 21–30 — also split into unmarried and married — 31–45, 46–60 and 61 and over), for the whole country and for five region groups, it gives the percentage of women asleep, eating, resting, doing piecework at home (内職), housework or needlework, studying, at leisure or in public duties in every 10-minute slot of the day, indoors and outdoors; the hours and minutes spent on each activity per day; and, region by region, the share for whom each time of day was suitable or unsuitable for listening to the radio. The front matter lists the surveyed districts and the survey's design. A companion volume covers farm households.",
@@ -2906,7 +2906,8 @@ def main():
                    .replace("__PTOC__", json.dumps(printed_toc(b, clean), ensure_ascii=False).replace("</", "<\\/"))
                    .replace("__MARKED__", "true" if b.get("blank_marking") else "false")
                    .replace("__CHARTIDS__", json.dumps(chart_ids(b, clean)))
-                   .replace("__CHARTJS__", '<script src="../../charts.js" charset="utf-8"></script>\n' if chart_ids(b, clean) else "")
+                   .replace("__CHARTJS__", ('<script src="../../charts.js" charset="utf-8"></script>\n' if chart_ids(b, clean) else "")
+                            + ('<script src="../../daychart.js" charset="utf-8"></script>\n' if b.get("viz") == "timeuse" else ""))
                    .replace("__QSTAT__", json.dumps(b.get("_qstat", ""), ensure_ascii=False))
                    .replace("__XLSX__", f' · <a href="../../{dl(b["slug"], "tables.xlsx")}" style="color:inherit" download>Excel</a>' if dl(b["slug"], "tables.xlsx") else "")
                    .replace("__CELLS__", f"{c:,}").replace("__BOOK__", html.escape(b["title"]))
@@ -3843,7 +3844,7 @@ function vsw(){return `<div class="vsw" role="group" aria-label="Show table, cha
 function knHas(t){if(t._kn===undefined)t._kn=(t.parts||[]).some(p=>[...p.columns,...p.rows.flat()].some(c=>typeof c==="string"&&KN(c,KNFULL)!==c));return t._kn}
 function nsw(){return `<div class="vsw nsw" role="group" aria-label="Numerals" title="Kanji numerals are shown as Arabic numerals for reading; the data, the downloads and the CSV keep them as printed">${[["a","Arabic"],["p","As printed"]].map(([v,l])=>`<button type="button" data-nf="${v}" class="${NF===v?"on":""}">${l}</button>`).join("")}</div>`}
 function setVW(v){VW=v;try{localStorage.setItem("tview",v)}catch(e){}document.body.classList.remove("vw-table","vw-chart","vw-both");document.body.classList.add("vw-"+v);document.querySelectorAll(".vsw button").forEach(b=>b.classList.toggle("on",b.dataset.vw===v));chartsGo()}
-function chartsGo(){if(window.TableCharts)TableCharts.mountAll(document.getElementById("main"),id=>T.find(x=>x.id===id),{marked:MARKED})}
+function chartsGo(){if(window.TableCharts)TableCharts.mountAll(document.getElementById("main"),id=>T.find(x=>x.id===id),{marked:MARKED});if(window.DayChart)DayChart.mountAll(document.getElementById("main"),id=>T.find(x=>x.id===id),()=>T)}
 // 1, 2, 3: Table, Chart, Both, on views that offer the choice (ignored while typing in a field)
 document.addEventListener("keydown",e=>{const v={"1":"table","2":"chart","3":"both"}[e.key];if(!v||e.altKey||e.ctrlKey||e.metaKey||e.repeat)return;
  const ae=document.activeElement;if(ae&&(/INPUT|SELECT|TEXTAREA/.test(ae.tagName)||ae.isContentEditable))return;
@@ -3870,14 +3871,15 @@ function headHTML(cols,q){const L=cols.map(c=>{const x=String(c??"").split(" —
  return h+"</thead>"}
 // links to the scan leaves of a table (top line and foot of every table)
 const scanLinks=t=>(t.scans||[]).map(s=>s.url?`<a class="scanlink" href="${s.url}" target="_blank" rel="noopener" title="Open this page of the original scan">${esc(s.label)} ↗</a>`:esc(s.label)).join(" ");
-function tableHTML(t,q,other){const ch=!other&&hasChart(t);let h=`<section class="tbl${ch?" hasch":""}" id="t-${t.id}"><h2><a href="#${t.id}">${hl(label(t),q)}</a></h2>${!other?TableTags.render(TABLE_TAG_DATA[t.id],"../../"):""}${t.en?`<p class="en"><b>${hl(t.en.t,q)}</b>: ${hl(t.en.d,q)} <span class="enn">(Note: LLM translation)</span></p>`:""}<div class="sub">${esc(t.chapter||"")} · printed page${(t.printed_pages||[]).length>1?"s":""} ${esc((t.printed_pages||[]).join(", "))}${HIDEIMG?"":(t.scans||[]).some(s=>s.url)?` · ${scanLinks(t)}`:` · ${/^p\d/.test(t.image||"")?"scan leaf":"photo"} ${esc((t.images||[t.image]).join(", "))}`}</div>`+((ch||t.map||knHas(t)||(!other&&FL[t.id]))?`<div class="vrow">${ch?vsw():""}${knHas(t)?nsw():""}${t.map?`<a class="mapbtn" href="${esc(mapHref(t.map))}" target="_blank" rel="noopener" title="Opens the Japanese Empire map in a new tab, with this table's figures by prefecture">View as Map ↗</a>`:""}${(!other&&FL[t.id]||[]).map(f=>`<a class="mapbtn" href="${esc(f[1])}" title="${esc(f[2])}">${esc(f[0])} →</a>`).join("")}</div>`:"");
+function tableHTML(t,q,other){const dy=!other&&!!window.DayChart&&DayChart.applies(t),ch=!other&&(hasChart(t)||dy);let h=`<section class="tbl${ch?" hasch":""}" id="t-${t.id}"><h2><a href="#${t.id}">${hl(label(t),q)}</a></h2>${!other?TableTags.render(TABLE_TAG_DATA[t.id],"../../"):""}${t.en?`<p class="en"><b>${hl(t.en.t,q)}</b>: ${hl(t.en.d,q)} <span class="enn">(Note: LLM translation)</span></p>`:""}<div class="sub">${esc(t.chapter||"")} · printed page${(t.printed_pages||[]).length>1?"s":""} ${esc((t.printed_pages||[]).join(", "))}${HIDEIMG?"":(t.scans||[]).some(s=>s.url)?` · ${scanLinks(t)}`:` · ${/^p\d/.test(t.image||"")?"scan leaf":"photo"} ${esc((t.images||[t.image]).join(", "))}`}</div>`+((ch||t.map||knHas(t)||(!other&&FL[t.id]))?`<div class="vrow">${ch?vsw():""}${knHas(t)?nsw():""}${t.map?`<a class="mapbtn" href="${esc(mapHref(t.map))}" target="_blank" rel="noopener" title="Opens the Japanese Empire map in a new tab, with this table's figures by prefecture">View as Map ↗</a>`:""}${(!other&&FL[t.id]||[]).map(f=>`<a class="mapbtn" href="${esc(f[1])}" title="${esc(f[2])}">${esc(f[0])} →</a>`).join("")}</div>`:"");
  if(!other)h+=xlTable(t);
  if(t.caption_extra)h+=CJK.test(t.caption_extra)?`<div class="sub">${hl(t.caption_extra,q)}</div>`:`<div class="sub"><i>${hl(t.caption_extra,q)}</i></div>`;
  if(t.context)h+=`<p class="ctx"><b>Context.</b> ${hl(t.context,q)}</p>`;
+ if(dy)h+=`<div class="tchart tday" data-day="${esc(t.id)}"></div>`;
  (t.parts||[]).forEach((p,pi)=>{if(p.label)h+=`<div class="part">${hl(p.label,q)}</div>`;
   h+=`<div class="tw" data-p="${pi}" tabindex="0"><table>${headHTML(p.columns,q)}<tbody>`;
   p.rows.forEach((r,ri)=>{const sec=r.length>1&&r.slice(1).every(c=>c==="");h+=`<tr data-i="${ri}"${sec?(CJK.test(r[0])?' class="sec cjk"':' class="sec"'):""}>`+r.map((c,j)=>c==="[?]"?`<td class="illeg" title="Unreadable in the scan" aria-label="unreadable"></td>`:`<td class="${j&&isNum(kn(c))?"num":""}${!j?wcls(c,12,3):isNum(kn(c))?"":tcls(c)}${j&&c===""&&!sec&&!MARKED?" blank":""}"${j&&c===""&&!sec&&MARKED?' title="Blank in the original"':""}>${/^https:\/\/archive\.org\/details\/\S+$/.test(c)?`<a href="${esc(c)}" target="_blank" rel="noopener">scan ↗</a>`:hl(kn(c),q)}</td>`).join("")+"</tr>"});
-  h+="</tbody></table></div>";if(ch)h+=`<div class="tchart" data-id="${esc(t.id)}" data-p="${pi}"></div>`});
+  h+="</tbody></table></div>";if(ch&&!dy)h+=`<div class="tchart" data-id="${esc(t.id)}" data-p="${pi}"></div>`});
  if((t.footnotes||[]).length){const fn=t.footnotes.map(n=>hl(n,q)),hit=fn.some(x=>x.includes("<mark>"));h+=`<details class="notes"${hit?" open":""}><summary>Printed notes (${fn.length})</summary><ul>${fn.map(x=>`<li>${x}</li>`).join("")}</ul></details>`;}
  if((t.transcriber_notes||[]).length)h+=`<details class="notes"><summary${t._warn?' class="warn"':""}>Transcriber's notes (${t.transcriber_notes.length})${t._warn?" — includes unreadable or doubtful cells":""}</summary><ul>${t.transcriber_notes.map(n=>`<li class="${warnRe.test(n)?"warn":""}">${esc(n)}</li>`).join("")}</ul></details>`;
  h+=`<div class="row"><button data-act="dl" data-id="${t.id}">Download CSV</button><button data-act="cp" data-id="${t.id}">Copy as TSV</button></div>`;

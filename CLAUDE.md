@@ -24,7 +24,7 @@ Other files to read when the task needs them:
   `directory/`, `chronology/`, `toc.json`, `STATUS.md`). The build reads them through `STAT_TABLES_ROOT`.
 - **Built output (committed, never edited by hand):** `index.html`, `about.html`, `search.html`, `book/<slug>/`,
   `data/<slug>.json` (+ `-toc.json`), `downloads/`, `topics/`, `figures/`, `support/`. Change `build/` and rebuild.
-- **Hand-written site scripts at the root:** `charts.js`, `tags.js`, `tags.css`, `fold.js`, `annotate.js`.
+- **Hand-written site scripts at the root:** `charts.js`, `daychart.js` (time-use survey charts, `docs/reference.md`), `tags.js`, `tags.css`, `fold.js`, `annotate.js`.
   `simp.js` (the header's "简 Simplified" option: Chinese books in 简体字, all others in Japanese 新字体, display only)
   is built, not hand-written: `build/simplify/` (`tables.json` from OpenCC + Unihan via `make_simp_table.py`;
   `inject.py` writes `simp.js` trimmed to the characters the site uses and adds it to every page at the end of the build).
