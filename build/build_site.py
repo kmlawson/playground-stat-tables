@@ -824,6 +824,16 @@ BOOKS = [
      "item": "https://dl.ndl.go.jp/pid/1452398",
      "model": "Sonnet 5.5",
      "blank_marking": True},
+    {"slug": "korea-hikaku-1923", "dir": "Hikaku_Tokei_Yoran_1923", "also_group": ["taiwan"],
+     "title": "朝鮮・內地・臺灣比較統計要覽 1923", "subtitle": "Chōsen, Naichi, Taiwan hikaku tōkei yōran (Comparative Statistics of Korea, Japan Proper and Taiwan), figures mostly for 大正十二年 (1923)",
+     "publisher": "朝鮮總督府, 京城, c. 1924–25",
+     "blurb": "A short pamphlet by the Government-General of Korea setting Korea beside Japan proper (內地) and Taiwan in 31 small tables, mostly for 1923 (大正十二年) with 1910 or 1911 for comparison: area and population, the main cities, births, stillbirths and deaths, weather, cultivated land, the value of production, rice, wheat and barley, beans and other grains, silkworms, livestock, forests, fisheries and salt, mining, companies, factories, electricity, trade, railways, communications, the post and postal savings, the budget, schools, religion, hospitals and doctors, infectious diseases, water supply, police, the courts and prisons — often with figures per head or per 100 people.",
+     "source": "LLM-transcribed from the National Library of Korea scan on Wikimedia Commons (File:CNTS-00048000300 朝鮮.內地.臺灣比較統計要覽.pdf).",
+     "gaps": "All 31 tables are transcribed (about 1,340 figure cells), with the contents; the explanatory notes (凡例) are partly covered by a library slip and stamp. The scan is a small black-and-white copy: a crease and library stamps hide some cells, and several tables lose their last column at the edge of the scan; 123 cells are marked [?]. Each page was read once by a Claude Sonnet agent from enlarged crops. Printed totals were re-added and those that do not add up are noted. The book has no date of publication in this copy; its figures are for 1923.",
+     "scan": "https://commons.wikimedia.org/w/index.php?title=File:CNTS-00048000300_朝鮮.內地.臺灣比較統計要覽.pdf&page={leaf}",
+     "item": "https://commons.wikimedia.org/wiki/File:CNTS-00048000300_朝鮮.內地.臺灣比較統計要覽.pdf",
+     "model": "Sonnet 5.5",
+     "blank_marking": True},
     {"slug": "korea-kani-kokusei-1925", "dir": "Chosen_Kani_Kokusei_1925",
      "title": "簡易國勢調査結果表 1925", "subtitle": "Kan'i kokusei chōsa kekkahyō (Results of the Simplified Census of Korea), 大正十四年十月一日現在 (as of 1 October 1925), published 1926",
      "publisher": "朝鮮總督府, 京城, 1926 (大正十五年十二月十五日發行)",
@@ -3597,6 +3607,8 @@ def landing(cards):
         sattr = f' data-ser="{html.escape(ser[0])}" data-sn="{html.escape(ser[1])}"' if ser else ""
         items.append((grp, b["slug"], f"""<article{sattr} data-t="{html.escape(b["title"])}" data-s="{html.escape(b.get("subtitle", ""))}"{yattr}{"" if CJK_RE.search(b["title"]) else " data-en"} data-a="{added.get(b["slug"], "")}"><h2>{title}</h2><div class="pub">{html.escape((b["author"] + "; ") if b.get("author") else "")}{html.escape(b["publisher"])}</div>{(f'<div class="pub">{html.escape(b["note"])}</div>' if CJK_RE.search(b["note"]) else f'<div class="pub"><i>{html.escape(b["note"])}</i></div>') if b.get("note") else ""}
 <div class="stat">{stat}</div><div class="src">LLM-transcribed{item}</div>{b.get("_qstat", "")}<div class="links">{link}</div></article>"""))
+        for g2 in b.get("also_group", []):   # a book listed in a second home-page section (e.g. Korea and Taiwan)
+            items.append((g2,) + items[-1][1:])
     order = {"far-east": 0, "manchoukuo": 1}
     other = sorted([(sl, h) for g, sl, h in items if g == "other"], key=lambda x: order.get(x[0].rsplit("-", 1)[0], 9))
     names = {"japan": "Japan", "china": "China", "korea": "Korea", "taiwan": "Taiwan", "manchuria": "Manchuria", "south-seas": "South Seas Mandate", "other": "Other"}
@@ -3611,7 +3623,7 @@ def landing(cards):
     topics = {r: f'<p class="tlinks">{rn} tables by topic: ' + " · ".join(f'<a href="topics/{r}-{k}.html">{n}</a>' for k, n in TOPICS) + "</p>"
               for r, (rn, sr) in TOPIC_REGIONS.items() if any(re.match(rx, k.split(":")[0]) for _, _, rx in sr for k in TOPIC_TAGS)}
     def gstat(g):
-        bs = [(b, n) for b, n, c, ch in cards if group_of(b) == g]
+        bs = [(b, n) for b, n, c, ch in cards if group_of(b) == g or g in b.get("also_group", [])]
         tb, de = sum(n for b, n in bs), sum(b.get("_dir_n") or 0 for b, n in bs)
         return (f'<p class="gstat">{len(bs)} volume{"s" if len(bs) != 1 else ""}, with a total of {tb:,} table{"s" if tb != 1 else ""}'
                 + (f', and {de:,} directory entr{"ies" if de != 1 else "y"}' if de else "") + "</p>")
