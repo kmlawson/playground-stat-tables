@@ -131,3 +131,4 @@ SU1–SU6 | done | china-smc update: 1932 added (agents SU1–SU6, 2026-11-11)
 - 2026-11-19 japan-seikatsu-jikan (new series: 國民生活時間調査 農業世帶編 + 女子家族編, 1943): families made by script `build/crosslinks/seikatsu_families.py` (titles are uniform; matched on kind, sex, age, marital status, region); no agents. 21 families. Rerun after each further volume (俸給生活者・工場勞務者編, 小賣業世帶編).
 - KC1 (2026-11-24): korea-kokusei series (簡易國勢調査 1925, 國勢調査 1930, 1935) — new series, 1 topic (Census results); 17 families, 55 tables linked (Sonnet). Done.
 - TF1–TF5 (2026-11-24): korea-tokanfu series (統計年報 1919, 1939) — new series, 21 topics from chapters; ~262 families, ~560 tables linked (Sonnet). Done.
+- 2026-11-24: korea-tokanfu series (TF1–TF5) merged into the existing korea-tokei series (1908, 1919, 1939) by xl_merge_tokei1919.py: 269 1919 tables placed (182 new 1919–1939 families, the rest added to 1908–1939 families); 8 new topics (1919+1939). korea-tokanfu removed.

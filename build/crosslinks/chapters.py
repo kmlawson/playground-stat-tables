@@ -2020,4 +2020,26 @@ SERIES["korea-kokusei"] = {"name": "朝鮮國勢調査 (Census of Korea: 1925 si
                            "books": ["korea-kani-kokusei-1925", "korea-kokusei-1930", "korea-kokusei-1935"],
                            "topics": {"Census results": {"korea-kani-kokusei-1925": ["世帶及人口ノ概況", "年齡及配偶關係別人口全鮮總括表", "府郡島別年齡及配偶關係別人口表", "府郡島別本籍及國籍別人口表", "府面別世帶及人口表", "本籍及國籍別人口全鮮總括表", "簡易國勢調査事務經過概要", "道別世帶及人口表", "道別年齡及配偶關係別人口表", "道別本籍及國籍別人口表", "開港水面表"], "korea-kokusei-1930": ["統計圖", "統計表", "附錄"], "korea-kokusei-1935": ["結果の概要 第一章 人口", "結果の概要 第七章 世帶", "結果の概要 第三章 年齡", "結果の概要 第二章 體性", "結果の概要 第五章 常住人口", "結果の概要 第六章 民籍國籍", "結果の概要 第四章 配偶關係", "統計表", "調査の顛末", "附錄"]}}}
 
-SERIES["korea-tokanfu"] = {"name": "朝鮮總督府統計年報 (Statistical Annual of the Government-General of Korea)", "books": ["korea-tokanfu-1919", "korea-tokanfu-1939"], "topics": {"Land": {"korea-tokanfu-1919": ["1 土地"], "korea-tokanfu-1939": ["1. 土地"]}, "Population": {"korea-tokanfu-1919": ["3 戶口"], "korea-tokanfu-1939": ["2. 戸口"]}, "Agriculture": {"korea-tokanfu-1919": ["4 農業"], "korea-tokanfu-1939": ["3. 農業"]}, "Forestry": {"korea-tokanfu-1919": ["5 林業附狩獵"], "korea-tokanfu-1939": ["4. 林業"]}, "Fisheries": {"korea-tokanfu-1919": ["6 水產業"], "korea-tokanfu-1939": ["5. 水産業"]}, "Mining and industry": {"korea-tokanfu-1919": ["7 鑛業", "8 商業及工業"], "korea-tokanfu-1939": ["6. 鑛業・工業"]}, "Commerce and finance": {"korea-tokanfu-1919": ["8 商業及工業", "9 金融"], "korea-tokanfu-1939": ["7. 商業・金融"]}, "Foreign trade": {"korea-tokanfu-1919": ["11 貿易"], "korea-tokanfu-1939": ["8. 貿易"]}, "Prices and wages": {"korea-tokanfu-1919": ["10 物價及勞銀"], "korea-tokanfu-1939": ["9. 物價・賃銀"]}, "Public works and shipping": {"korea-tokanfu-1919": ["13 水運", "15 土木及築港"], "korea-tokanfu-1939": ["10. 土木・水運"]}, "Communications": {"korea-tokanfu-1919": ["14 郵便及郵便爲替貯金事業"], "korea-tokanfu-1939": ["11. 遞信"]}, "Railways": {"korea-tokanfu-1919": ["12 鐵道"], "korea-tokanfu-1939": ["12. 鐵道"]}, "Monopolies": {"korea-tokanfu-1919": ["24 紅蔘專賣"], "korea-tokanfu-1939": ["13. 專賣"]}, "Shrines and education": {"korea-tokanfu-1919": ["20 敎育", "21 祠寺及敎會"], "korea-tokanfu-1939": ["14. 神社・敎育"]}, "Religion and social work": {"korea-tokanfu-1919": ["21 祠寺及敎會", "22 慈惠及救濟"], "korea-tokanfu-1939": ["15. 宗敎・社會事業"]}, "Police": {"korea-tokanfu-1919": ["16 警察"], "korea-tokanfu-1939": ["16. 警察"]}, "Public health": {"korea-tokanfu-1919": ["17 衛生"], "korea-tokanfu-1939": ["17. 衛生"]}, "Courts and registration": {"korea-tokanfu-1919": ["18 裁判及登記"], "korea-tokanfu-1939": ["18. 裁判・登記・供託"]}, "Prisons": {"korea-tokanfu-1919": ["19 監獄"], "korea-tokanfu-1939": ["19. 監獄"]}, "Public finance": {"korea-tokanfu-1919": ["23 財政"], "korea-tokanfu-1939": ["20. 財政"]}, "Officials and pensions": {"korea-tokanfu-1919": ["25 官公吏及恩給"], "korea-tokanfu-1939": ["21. 官公吏・恩給"]}}}
+# 2026-11-24: 朝鮮總督府統計年報 1919 added (families merged from the 1919–1939 matching, build/crosslinks/xl_merge_tokei1919.py).
+SERIES["korea-tokei"]["books"] = ["korea-tokanfu-1908", "korea-tokanfu-1919", "korea-tokanfu-1939"]
+SERIES["korea-tokei"]["topics"]["Land and climate"]["korea-tokanfu-1919"] = ["1 土地", "2 氣象"]
+SERIES["korea-tokei"]["topics"]["Population"]["korea-tokanfu-1919"] = ["3 戶口"]
+SERIES["korea-tokei"]["topics"]["Education"]["korea-tokanfu-1919"] = ["20 敎育", "21 祠寺及敎會"]
+SERIES["korea-tokei"]["topics"]["Social affairs"]["korea-tokanfu-1919"] = ["21 祠寺及敎會", "22 慈惠及救濟"]
+SERIES["korea-tokei"]["topics"]["Police"]["korea-tokanfu-1919"] = ["16 警察"]
+SERIES["korea-tokei"]["topics"]["Prisons"]["korea-tokanfu-1919"] = ["19 監獄"]
+SERIES["korea-tokei"]["topics"]["Justice"]["korea-tokanfu-1919"] = ["18 裁判及登記"]
+SERIES["korea-tokei"]["topics"]["Banking and commerce"]["korea-tokanfu-1919"] = ["8 商業及工業", "9 金融"]
+SERIES["korea-tokei"]["topics"]["Foreign trade"]["korea-tokanfu-1919"] = ["11 貿易"]
+SERIES["korea-tokei"]["topics"]["Railways"]["korea-tokanfu-1919"] = ["12 鐵道"]
+SERIES["korea-tokei"]["topics"]["Communications"]["korea-tokanfu-1919"] = ["14 郵便及郵便爲替貯金事業"]
+SERIES["korea-tokei"]["topics"]["Public finance"]["korea-tokanfu-1919"] = ["23 財政"]
+SERIES["korea-tokei"]["topics"]["Officials"]["korea-tokanfu-1919"] = ["25 官公吏及恩給"]
+SERIES["korea-tokei"]["topics"]["Agriculture"] = {"korea-tokanfu-1919": ["4 農業"], "korea-tokanfu-1939": ["3. 農業"]}
+SERIES["korea-tokei"]["topics"]["Forestry"] = {"korea-tokanfu-1919": ["5 林業附狩獵"], "korea-tokanfu-1939": ["4. 林業"]}
+SERIES["korea-tokei"]["topics"]["Fisheries"] = {"korea-tokanfu-1919": ["6 水產業"], "korea-tokanfu-1939": ["5. 水産業"]}
+SERIES["korea-tokei"]["topics"]["Mining and industry"] = {"korea-tokanfu-1919": ["7 鑛業", "8 商業及工業"], "korea-tokanfu-1939": ["6. 鑛業・工業"]}
+SERIES["korea-tokei"]["topics"]["Prices and wages"] = {"korea-tokanfu-1919": ["10 物價及勞銀"], "korea-tokanfu-1939": ["9. 物價・賃銀"]}
+SERIES["korea-tokei"]["topics"]["Public works and shipping"] = {"korea-tokanfu-1919": ["13 水運", "15 土木及築港"], "korea-tokanfu-1939": ["10. 土木・水運"]}
+SERIES["korea-tokei"]["topics"]["Monopolies"] = {"korea-tokanfu-1919": ["24 紅蔘專賣"], "korea-tokanfu-1939": ["13. 專賣"]}
+SERIES["korea-tokei"]["topics"]["Public health"] = {"korea-tokanfu-1919": ["17 衛生"], "korea-tokanfu-1939": ["17. 衛生"]}

@@ -5,6 +5,7 @@
    "label": "Post offices and communication facilities",
    "members": [
     "korea-tokanfu-1908/p0112_1",
+    "korea-tokanfu-1919/p0181_3",
     "korea-tokanfu-1939/p0142_1"
    ],
    "note": "1908 is a single year by district; 1939 is a time series by year."
@@ -21,6 +22,7 @@
    "label": "Ordinary mail",
    "members": [
     "korea-tokanfu-1908/p0113_3",
+    "korea-tokanfu-1919/p0182_1",
     "korea-tokanfu-1939/p0142_5"
    ],
    "note": "1908 is a single year by district; 1939 is a time series by year."
@@ -29,6 +31,7 @@
    "label": "Parcel post",
    "members": [
     "korea-tokanfu-1908/p0115_1",
+    "korea-tokanfu-1919/p0182_2",
     "korea-tokanfu-1939/p0143_1"
    ],
    "note": "1908 by month; 1939 by year."
@@ -37,6 +40,8 @@
    "label": "Postal money orders",
    "members": [
     "korea-tokanfu-1908/p0118_1",
+    "korea-tokanfu-1919/p0183_1",
+    "korea-tokanfu-1919/p0183_2",
     "korea-tokanfu-1939/p0144_1"
    ],
    "note": "1908 domestic orders by month; 1939 by year."
@@ -45,6 +50,7 @@
    "label": "Postal savings deposits",
    "members": [
     "korea-tokanfu-1908/p0119_1",
+    "korea-tokanfu-1919/p0184_1",
     "korea-tokanfu-1939/p0144_4"
    ],
    "note": "1908 by month; 1939 by year."
@@ -53,6 +59,7 @@
    "label": "Telegraph lines",
    "members": [
     "korea-tokanfu-1908/p0120_2",
+    "korea-tokanfu-1919/p0184_4",
     "korea-tokanfu-1939/p0142_3"
    ],
    "note": "1908 is a single year by district; 1939 is a time series by year."
@@ -61,6 +68,7 @@
    "label": "Telegrams",
    "members": [
     "korea-tokanfu-1908/p0120_3",
+    "korea-tokanfu-1919/p0185_1",
     "korea-tokanfu-1939/p0143_3"
    ],
    "note": "1908 is a single year by district; 1939 is a time series by year."
@@ -69,6 +77,7 @@
    "label": "Telephone lines",
    "members": [
     "korea-tokanfu-1908/p0123_2",
+    "korea-tokanfu-1919/p0186_1",
     "korea-tokanfu-1939/p0142_4"
    ],
    "note": "1908 is a single year by district; 1939 is a time series by year."
@@ -78,9 +87,18 @@
    "members": [
     "korea-tokanfu-1908/p0124_1",
     "korea-tokanfu-1908/p0124_2",
+    "korea-tokanfu-1919/p0186_2",
+    "korea-tokanfu-1919/p0187_1",
     "korea-tokanfu-1939/p0143_2"
    ],
    "note": "1908 splits local and trunk calls into two tables."
+  },
+  {
+   "label": "Postal transfer savings",
+   "members": [
+    "korea-tokanfu-1919/p0184_3",
+    "korea-tokanfu-1939/p0144_2"
+   ]
   }
  ]
 }

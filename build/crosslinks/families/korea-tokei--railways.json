@@ -5,6 +5,7 @@
    "label": "Railway lines",
    "members": [
     "korea-tokanfu-1908/p0106_3",
+    "korea-tokanfu-1919/p0164_1",
     "korea-tokanfu-1939/p0148_1"
    ],
    "note": "1908 also gives land and rolling stock."
@@ -13,6 +14,7 @@
    "label": "Traffic by station",
    "members": [
     "korea-tokanfu-1908/p0107_1",
+    "korea-tokanfu-1919/p0168_1",
     "korea-tokanfu-1939/p0150_2"
    ],
    "note": "1908 is a single year by district; 1939 is a time series by year."
@@ -21,6 +23,7 @@
    "label": "Railway construction costs",
    "members": [
     "korea-tokanfu-1908/p0109_1",
+    "korea-tokanfu-1919/p0173_1",
     "korea-tokanfu-1939/p0152_2"
    ],
    "note": "1908 is a single year by district; 1939 is a time series by year."
@@ -29,9 +32,81 @@
    "label": "Railway revenue and expenditure",
    "members": [
     "korea-tokanfu-1908/p0110_2",
+    "korea-tokanfu-1919/p0174_3",
     "korea-tokanfu-1939/p0152_1"
    ],
    "note": "1908 is a single year by district; 1939 is a time series by year."
+  },
+  {
+   "label": "State railway passenger and freight traffic",
+   "members": [
+    "korea-tokanfu-1919/p0165_2",
+    "korea-tokanfu-1939/p0148_2",
+    "korea-tokanfu-1939/p0149_1"
+   ],
+   "note": "1939 splits passengers and freight."
+  },
+  {
+   "label": "Principal freight by commodity",
+   "members": [
+    "korea-tokanfu-1919/p0167_1",
+    "korea-tokanfu-1939/p0149_2"
+   ]
+  },
+  {
+   "label": "Through traffic",
+   "members": [
+    "korea-tokanfu-1919/p0166_2",
+    "korea-tokanfu-1939/p0150_1"
+   ]
+  },
+  {
+   "label": "State railway transport revenue",
+   "members": [
+    "korea-tokanfu-1919/p0166_1",
+    "korea-tokanfu-1939/p0151_1"
+   ]
+  },
+  {
+   "label": "State railway investment",
+   "members": [
+    "korea-tokanfu-1919/p0175_1",
+    "korea-tokanfu-1939/p0152_3"
+   ]
+  },
+  {
+   "label": "Private railways and tramways, capital",
+   "members": [
+    "korea-tokanfu-1919/p0177_2",
+    "korea-tokanfu-1939/p0152_4",
+    "korea-tokanfu-1939/p0155_1"
+   ],
+   "note": "1919 combines railways and tramways; 1939 splits them."
+  },
+  {
+   "label": "Private railways and tramways, traffic",
+   "members": [
+    "korea-tokanfu-1919/p0178_1",
+    "korea-tokanfu-1939/p0153_2",
+    "korea-tokanfu-1939/p0155_2"
+   ],
+   "note": "1919 combines railways and tramways; 1939 splits them."
+  },
+  {
+   "label": "Private railways, construction costs",
+   "members": [
+    "korea-tokanfu-1919/p0178_2",
+    "korea-tokanfu-1939/p0154_2"
+   ]
+  },
+  {
+   "label": "Private railways and tramways, revenue and expenditure",
+   "members": [
+    "korea-tokanfu-1919/p0179_1",
+    "korea-tokanfu-1939/p0154_1",
+    "korea-tokanfu-1939/p0155_3"
+   ],
+   "note": "1919 combines railways and tramways; 1939 splits them."
   }
  ]
 }

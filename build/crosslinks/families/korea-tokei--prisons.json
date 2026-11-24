@@ -5,6 +5,7 @@
    "label": "Prison population",
    "members": [
     "korea-tokanfu-1908/p0054_3",
+    "korea-tokanfu-1919/p0234_2",
     "korea-tokanfu-1939/p0227_2"
    ],
    "note": "1908 is a single year by district; 1939 is a time series by year."
@@ -13,6 +14,7 @@
    "label": "Convict admissions and releases",
    "members": [
     "korea-tokanfu-1908/p0055_1",
+    "korea-tokanfu-1919/p0236_1",
     "korea-tokanfu-1939/p0229_2"
    ],
    "note": "1908 is a single year by district; 1939 is a time series by year."
@@ -29,6 +31,7 @@
    "label": "Convicts by sentence",
    "members": [
     "korea-tokanfu-1908/p0056_2",
+    "korea-tokanfu-1919/p0235_1",
     "korea-tokanfu-1939/p0229_1"
    ],
    "note": "1908 is a single year by district; 1939 is a time series by year."
@@ -37,9 +40,66 @@
    "label": "Sick inmates",
    "members": [
     "korea-tokanfu-1908/p0057_1",
+    "korea-tokanfu-1919/p0240_1",
     "korea-tokanfu-1939/p0238_1"
    ],
    "note": "1908 also counts deaths; 1939 table covers sick inmates only."
+  },
+  {
+   "label": "New convicts by sentence and term",
+   "members": [
+    "korea-tokanfu-1919/p0237_1",
+    "korea-tokanfu-1939/p0230_3"
+   ]
+  },
+  {
+   "label": "New convicts by number of offences",
+   "members": [
+    "korea-tokanfu-1919/p0237_2",
+    "korea-tokanfu-1939/p0232_1"
+   ]
+  },
+  {
+   "label": "New convicts by age at entry",
+   "members": [
+    "korea-tokanfu-1919/p0237_3",
+    "korea-tokanfu-1939/p0232_2"
+   ]
+  },
+  {
+   "label": "New convicts by cause of crime",
+   "members": [
+    "korea-tokanfu-1919/p0237_4",
+    "korea-tokanfu-1939/p0233_1"
+   ]
+  },
+  {
+   "label": "New convicts by birth and upbringing",
+   "members": [
+    "korea-tokanfu-1919/p0238_1",
+    "korea-tokanfu-1939/p0234_1"
+   ]
+  },
+  {
+   "label": "New convicts by education",
+   "members": [
+    "korea-tokanfu-1919/p0238_2",
+    "korea-tokanfu-1939/p0234_2"
+   ]
+  },
+  {
+   "label": "Prison labour",
+   "members": [
+    "korea-tokanfu-1919/p0239_1",
+    "korea-tokanfu-1939/p0235_2"
+   ]
+  },
+  {
+   "label": "Discharged-prisoner aid",
+   "members": [
+    "korea-tokanfu-1919/p0241_1",
+    "korea-tokanfu-1939/p0244_1"
+   ]
   }
  ]
 }

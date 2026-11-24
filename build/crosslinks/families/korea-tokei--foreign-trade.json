@@ -5,6 +5,7 @@
    "label": "Total exports and imports",
    "members": [
     "korea-tokanfu-1908/p0095_1",
+    "korea-tokanfu-1919/p0150_1",
     "korea-tokanfu-1939/p0125_1"
    ],
    "note": "Both by year."
@@ -13,6 +14,7 @@
    "label": "Exports by port",
    "members": [
     "korea-tokanfu-1908/p0095_2",
+    "korea-tokanfu-1919/p0150_2",
     "korea-tokanfu-1939/p0125_2"
    ],
    "note": "Both by year with ports as columns; 1939 includes shipments to Japan."
@@ -30,6 +32,7 @@
    "members": [
     "korea-tokanfu-1908/p0096_2",
     "korea-tokanfu-1908/p0096_3",
+    "korea-tokanfu-1919/p0151_1",
     "korea-tokanfu-1939/p0127_1"
    ],
    "note": "1908 gives exports and imports as two tables; 1939 combines them."
@@ -39,6 +42,7 @@
    "members": [
     "korea-tokanfu-1908/p0097_1",
     "korea-tokanfu-1908/p0097_2",
+    "korea-tokanfu-1919/p0153_1",
     "korea-tokanfu-1939/p0127_4"
    ],
    "note": "1908 splits principal exports into two parts."
@@ -47,6 +51,7 @@
    "label": "Principal imports",
    "members": [
     "korea-tokanfu-1908/p0098_1",
+    "korea-tokanfu-1919/p0156_1",
     "korea-tokanfu-1939/p0129_1"
    ],
    "note": "1908 is a single year by district; 1939 is a time series by year."
@@ -55,6 +60,7 @@
    "label": "Shipping entered and cleared",
    "members": [
     "korea-tokanfu-1908/p0100_3",
+    "korea-tokanfu-1919/p0161_2",
     "korea-tokanfu-1939/p0130_1",
     "korea-tokanfu-1939/p0130_2"
    ],
@@ -64,9 +70,26 @@
    "label": "Customs revenue",
    "members": [
     "korea-tokanfu-1908/p0101_1",
+    "korea-tokanfu-1919/p0162_1",
     "korea-tokanfu-1939/p0131_2"
    ],
    "note": "1908 is a single year by district; 1939 is a time series by year."
+  },
+  {
+   "label": "Trade by month",
+   "members": [
+    "korea-tokanfu-1919/p0152_1",
+    "korea-tokanfu-1939/p0126_2",
+    "korea-tokanfu-1939/p0126_3"
+   ],
+   "note": "1939 splits exports and imports."
+  },
+  {
+   "label": "Bonded warehouses",
+   "members": [
+    "korea-tokanfu-1919/p0162_2",
+    "korea-tokanfu-1939/p0131_1"
+   ]
   }
  ]
 }
