@@ -1,0 +1,13 @@
+You are matching recurring statistical tables across editions of the same report, so a website can link "similar tables" between editions and show them side by side.
+
+Working folder: /Users/kml/shell/projects/yearbooks/japanyearbooks/stat-tables-site/build/crosslinks
+Your mission TF2 covers these listing files (in listings/): korea-tokanfu--shrines-and-education.txt, korea-tokanfu--religion-and-social-work.txt, korea-tokanfu--public-health.txt, korea-tokanfu--police.txt
+These are two editions of the Statistical Annual of the Government-General of Korea (朝鮮總督府統計年報), Japanese-language: korea-tokanfu-1919 (大正八年, figures for 1915–1919) and korea-tokanfu-1939 (昭和十四年, figures for 1935–1939). Twenty years apart, many tables recur with changed titles, merged or split columns and new breakdowns; match on subject and breakdown.
+Each listing holds every table in one topic from each edition, one line per table:
+  slug | id | chapter | printed pages | title | caption | column headings | first-column row labels
+TASK: group tables that are THE SAME RECURRING TABLE printed in different editions into families (build families/X.json from scratch; if it exists, replace it).
+Same recurring table = same subject AND the same kind of breakdown (e.g. "population by branch office", "imports by commodity", "births by year") AND comparable measures; years, units, title wording, column order, row counts and LANGUAGE may differ. Not the same: a different breakdown, sub-population, region or unit of analysis. A family must span at least two editions; add two or more tables from one edition only when that edition split the table into pieces. A table belongs to at most one family. Be conservative: a wrong link is worse than a missing one.
+Labels are short neutral English names; "note" only for something a reader should know.
+Write each families/X.json (valid JSON, UTF-8: {"listing": "X", "families": [{"label", "members": ["<slug>/<id>", ...], "note"}]}, members ordered by edition) and validate it with python3 -c "import json;json.load(open('families/X.json'))".
+Work only from the listing files and ../../data/<slug>.json (a short python3 script may look up a table by "id"); no scans, no OCR. No sub-agents. Never write in /tmp. Any helper script goes in build/crosslinks/ with a name starting tf2_; never run scripts you did not write; no rm.
+When done, reply with one line per listing: name, families, tables linked (new tables added). Nothing else.

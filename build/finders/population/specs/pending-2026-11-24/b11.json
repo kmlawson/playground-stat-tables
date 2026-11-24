@@ -1,0 +1,2140 @@
+[
+{
+"t": "korea-shisei-30nen-1940:p0250_1",
+"x": [
+{
+"pt": "province",
+"in": "Korea",
+"rp": {
+"0": "Korea"
+},
+"cols": [
+{
+"c": 1,
+"g": "japanese"
+},
+{
+"c": 2,
+"m": "male",
+"g": "japanese"
+},
+{
+"c": 3,
+"m": "female",
+"g": "japanese"
+}
+],
+"d": "1935-10-01",
+"b": "census"
+}
+]
+},
+{
+"t": "korea-shisei-30nen-1940:p0250_2",
+"x": [
+{
+"pt": "province",
+"in": "Korea",
+"rp": {
+"0": "Korea"
+},
+"b": "census",
+"g": "japanese",
+"cols": [
+{
+"c": 1,
+"d": "1935-10-01"
+},
+{
+"c": 2,
+"d": "1930-10-01",
+"n": "on 1935 boundaries"
+},
+{
+"c": 3,
+"d": "1925-10-01"
+}
+]
+}
+]
+},
+{
+"t": "korea-shisei-30nen-1940:p0251_1",
+"x": [
+{
+"only": [
+0
+],
+"rp": {
+"0": "Korea"
+},
+"cols": [
+{
+"c": 1,
+"g": "japanese"
+},
+{
+"c": 2,
+"m": "male",
+"g": "japanese"
+},
+{
+"c": 3,
+"m": "female",
+"g": "japanese"
+}
+],
+"d": "1935-10-01",
+"b": "census"
+}
+]
+},
+{
+"t": "korea-shisei-30nen-1940:p0251_2",
+"x": [
+{
+"pt": "city",
+"in": "Korea",
+"rp": {
+"0": "-"
+},
+"cols": [
+{
+"c": 1,
+"g": "japanese"
+},
+{
+"c": 2,
+"m": "male",
+"g": "japanese"
+},
+{
+"c": 3,
+"m": "female",
+"g": "japanese"
+}
+],
+"d": "1935-10-01",
+"b": "census"
+}
+]
+},
+{
+"t": "korea-shisei-30nen-1940:p0252_1",
+"skip": "changes only"
+},
+{
+"t": "korea-shisei-30nen-1940:p0252_2",
+"x": [
+{
+"pt": "province",
+"in": "Korea",
+"rp": {
+"0": "Korea"
+},
+"cols": [
+{
+"c": 1,
+"g": "manchukuoan",
+"n": "Manchukuo nationals"
+},
+{
+"c": 2,
+"g": "chinese"
+}
+],
+"d": "1935-10-01",
+"b": "census"
+}
+]
+},
+{
+"t": "korea-shisei-30nen-1940:p0253_1",
+"x": [
+{
+"pt": "province",
+"in": "Korea",
+"rp": {
+"0": "Korea"
+},
+"b": "census",
+"g": "chinese",
+"cols": [
+{
+"c": 2,
+"d": "1935-10-01",
+"n": "1935 includes Manchukuo nationals"
+},
+{
+"c": 3,
+"d": "1930-10-01"
+},
+{
+"c": 4,
+"d": "1925-10-01"
+}
+]
+}
+]
+},
+{
+"t": "korea-shisei-30nen-1940:p0253_2",
+"x": [
+{
+"part": 0,
+"only": [
+0
+],
+"rp": {
+"0": "Korea"
+},
+"cols": [
+{
+"c": 1,
+"g": "manchukuoan"
+},
+{
+"c": 2,
+"m": "male",
+"g": "manchukuoan"
+},
+{
+"c": 3,
+"m": "female",
+"g": "manchukuoan"
+}
+],
+"n": "Manchukuo nationals",
+"d": "1935-10-01",
+"b": "census"
+},
+{
+"part": 1,
+"only": [
+0
+],
+"rp": {
+"0": "Korea"
+},
+"cols": [
+{
+"c": 1,
+"g": "chinese"
+},
+{
+"c": 2,
+"m": "male",
+"g": "chinese"
+},
+{
+"c": 3,
+"m": "female",
+"g": "chinese"
+}
+],
+"d": "1935-10-01",
+"b": "census"
+}
+]
+},
+{
+"t": "korea-shisei-30nen-1940:p0253_3",
+"x": [
+{
+"pt": "city",
+"in": "Korea",
+"rp": {
+"0": "-"
+},
+"cols": [
+{
+"c": 1,
+"g": "manchukuoan",
+"n": "Manchukuo nationals"
+},
+{
+"c": 2,
+"g": "chinese"
+}
+],
+"d": "1935-10-01",
+"b": "census"
+}
+]
+},
+{
+"t": "korea-shisei-30nen-1940:p0254_1",
+"skip": "marriages only"
+},
+{
+"t": "korea-shisei-30nen-1940:p0255_1",
+"skip": "marriages only"
+},
+{
+"t": "korea-shisei-30nen-1940:p0255_2",
+"x": [
+{
+"rows": "dates",
+"p": "Japan proper",
+"g": "korean",
+"b": "other",
+"n": "Home Ministry count",
+"rd": {
+"0": "1926",
+"1": "1927",
+"2": "1928",
+"3": "1929",
+"4": "1930",
+"5": "1931",
+"6": "1932",
+"7": "1933",
+"8": "1934",
+"9": "1935",
+"10": "1936",
+"11": "1937"
+},
+"cols": [
+{
+"c": 1
+}
+]
+}
+]
+},
+{
+"t": "korea-shisei-30nen-1940:p0255_3",
+"x": [
+{
+"rows": "cells",
+"b": "other",
+"n": "Home Ministry count",
+"cells": [
+{
+"r": 25,
+"c": 1,
+"p": "Japan proper",
+"d": "1936-06-30",
+"g": "korean"
+},
+{
+"r": 25,
+"c": 2,
+"p": "Japan proper",
+"d": "1937-12-31",
+"g": "korean"
+}
+]
+}
+]
+},
+{
+"t": "korea-shisei-30nen-1940:p0256_1",
+"x": [
+{
+"pt": "prefecture",
+"in": "Japan",
+"d": "1938-12-31",
+"g": "korean",
+"b": "other",
+"n": "Home Ministry count",
+"rp": {
+"1": "Tokyo",
+"47": "Japan proper"
+},
+"cols": [
+{
+"c": 3
+},
+{
+"c": 1,
+"m": "male"
+},
+{
+"c": 2,
+"m": "female"
+}
+]
+}
+]
+},
+{
+"t": "korea-shisei-30nen-1940:p0461_1",
+"x": [
+{
+"pt": "province",
+"in": "Manchuria",
+"d": "1936-06-30",
+"g": "korean",
+"b": "other",
+"rp": {
+"10": "興安東省",
+"11": "興安西省",
+"12": "興安南省",
+"13": "興安北省",
+"14": "Manchukuo"
+},
+"cols": [
+{
+"c": 1
+}
+]
+}
+]
+},
+{
+"t": "korea-shisei-30nen-1940:p0461_2",
+"x": [
+{
+"pt": "country",
+"d": "~1936",
+"g": "korean",
+"b": "other",
+"rp": {
+"0": "Manchukuo",
+"1": "Kwantung Leased Territory",
+"2": "China",
+"3": "Soviet Union",
+"4": "United States",
+"5": "Cuba",
+"6": "-",
+"7": "-"
+},
+"cols": [
+{
+"c": 3
+},
+{
+"c": 1,
+"m": "male"
+},
+{
+"c": 2,
+"m": "female"
+}
+]
+}
+]
+},
+{
+"t": "korea-shisei-30nen-1940:p0463_1",
+"skip": "schools only"
+},
+{
+"t": "korea-shisei-30nen-1940:p0463_2",
+"skip": "schools only"
+},
+{
+"t": "korea-shisei-30nen-1940:p0466_1",
+"skip": "schools only"
+},
+{
+"t": "korea-shisei-30nen-1940:p0468_1",
+"skip": "farm villages only"
+},
+{
+"t": "korea-shisei-30nen-1940:p0469_1",
+"skip": "migrant settlements only"
+},
+{
+"t": "korea-tokanfu-1919:p0033_1",
+"x": [
+{
+"rows": "dates",
+"p": "Korea",
+"b": "resident",
+"only": [
+1,
+2,
+3,
+4,
+5,
+6,
+7,
+8,
+9,
+10
+],
+"rd": {
+"3": "1912"
+},
+"n": "end of December",
+"cols": [
+{
+"c": 4,
+"g": "japanese"
+},
+{
+"c": 2,
+"m": "male",
+"g": "japanese"
+},
+{
+"c": 3,
+"m": "female",
+"g": "japanese"
+},
+{
+"c": 1,
+"m": "households",
+"g": "japanese"
+},
+{
+"c": 8,
+"g": "korean"
+},
+{
+"c": 6,
+"m": "male",
+"g": "korean"
+},
+{
+"c": 7,
+"m": "female",
+"g": "korean"
+},
+{
+"c": 5,
+"m": "households",
+"g": "korean"
+},
+{
+"c": 12,
+"g": "foreign"
+},
+{
+"c": 10,
+"m": "male",
+"g": "foreign"
+},
+{
+"c": 11,
+"m": "female",
+"g": "foreign"
+},
+{
+"c": 9,
+"m": "households",
+"g": "foreign"
+},
+{
+"c": 16,
+"g": "all"
+},
+{
+"c": 14,
+"m": "male",
+"g": "all"
+},
+{
+"c": 15,
+"m": "female",
+"g": "all"
+},
+{
+"c": 13,
+"m": "households",
+"g": "all"
+}
+]
+},
+{
+"pt": "province",
+"in": "Korea",
+"d": "1919-12-31",
+"b": "resident",
+"only": [
+12,
+13,
+14,
+15,
+16,
+17,
+18,
+19,
+20,
+21,
+22,
+23,
+24,
+25
+],
+"rp": {
+"25": "Korea"
+},
+"cols": [
+{
+"c": 4,
+"g": "japanese"
+},
+{
+"c": 2,
+"m": "male",
+"g": "japanese"
+},
+{
+"c": 3,
+"m": "female",
+"g": "japanese"
+},
+{
+"c": 1,
+"m": "households",
+"g": "japanese"
+},
+{
+"c": 8,
+"g": "korean"
+},
+{
+"c": 6,
+"m": "male",
+"g": "korean"
+},
+{
+"c": 7,
+"m": "female",
+"g": "korean"
+},
+{
+"c": 5,
+"m": "households",
+"g": "korean"
+},
+{
+"c": 12,
+"g": "foreign"
+},
+{
+"c": 10,
+"m": "male",
+"g": "foreign"
+},
+{
+"c": 11,
+"m": "female",
+"g": "foreign"
+},
+{
+"c": 9,
+"m": "households",
+"g": "foreign"
+},
+{
+"c": 16,
+"g": "all"
+},
+{
+"c": 14,
+"m": "male",
+"g": "all"
+},
+{
+"c": 15,
+"m": "female",
+"g": "all"
+},
+{
+"c": 13,
+"m": "households",
+"g": "all"
+}
+]
+}
+]
+},
+{
+"t": "korea-tokanfu-1919:p0033_2",
+"x": [
+{
+"pt": "district",
+"in": "Korea",
+"d": "1919-12-31",
+"b": "resident",
+"rp": {
+"0": "-",
+"23": "京畿道",
+"24": "-",
+"35": "忠淸北道",
+"36": "-",
+"51": "忠淸南道",
+"52": "-",
+"68": "全羅北道",
+"69": "-",
+"87": "-",
+"94": "全羅南道",
+"95": "-",
+"120": "慶尙北道",
+"121": "-",
+"143": "慶尙南道",
+"144": "-",
+"162": "黃海道",
+"163": "-",
+"180": "平安南道",
+"181": "-",
+"202": "平安北道",
+"203": "-",
+"211": "-",
+"226": "江原道",
+"227": "-",
+"245": "咸鏡南道",
+"246": "-",
+"259": "咸鏡北道",
+"260": "Korea"
+},
+"cols": [
+{
+"c": 4,
+"g": "japanese"
+},
+{
+"c": 2,
+"m": "male",
+"g": "japanese"
+},
+{
+"c": 3,
+"m": "female",
+"g": "japanese"
+},
+{
+"c": 1,
+"m": "households",
+"g": "japanese"
+},
+{
+"c": 8,
+"g": "korean"
+},
+{
+"c": 6,
+"m": "male",
+"g": "korean"
+},
+{
+"c": 7,
+"m": "female",
+"g": "korean"
+},
+{
+"c": 5,
+"m": "households",
+"g": "korean"
+},
+{
+"c": 12,
+"g": "chinese"
+},
+{
+"c": 10,
+"m": "male",
+"g": "chinese"
+},
+{
+"c": 11,
+"m": "female",
+"g": "chinese"
+},
+{
+"c": 9,
+"m": "households",
+"g": "chinese"
+},
+{
+"c": 16,
+"g": "other"
+},
+{
+"c": 14,
+"m": "male",
+"g": "other"
+},
+{
+"c": 15,
+"m": "female",
+"g": "other"
+},
+{
+"c": 13,
+"m": "households",
+"g": "other"
+},
+{
+"c": 20,
+"g": "all"
+},
+{
+"c": 18,
+"m": "male",
+"g": "all"
+},
+{
+"c": 19,
+"m": "female",
+"g": "all"
+},
+{
+"c": 17,
+"m": "households",
+"g": "all"
+}
+]
+}
+]
+},
+{
+"t": "korea-tokanfu-1919:p0040_1",
+"x": [
+{
+"part": 0,
+"pt": "town",
+"in": "Korea",
+"d": "1919-12-31",
+"b": "resident",
+"rp": {
+"0": "-",
+"3": "東西纛島里",
+"4": "上下往十里",
+"5": "孔德里",
+"6": "東暮上下里",
+"7": "阿峴里",
+"8": "驪州",
+"9": "利川",
+"10": "長湖院",
+"11": "安城",
+"12": "平澤",
+"13": "水原",
+"14": "烏山",
+"15": "永登浦",
+"16": "江華",
+"17": "汝山浦",
+"18": "高浪浦",
+"19": "開城",
+"20": "-",
+"21": "淸州",
+"22": "芙江",
+"23": "文義",
+"24": "報恩",
+"25": "沃川",
+"26": "靑山",
+"27": "伊院",
+"28": "永同",
+"29": "黃澗",
+"30": "秋風嶺",
+"31": "鎭川",
+"32": "槐山",
+"33": "延豐",
+"34": "淸安",
+"35": "陰城",
+"36": "忠州",
+"37": "牧溪",
+"38": "堤川",
+"39": "淸風",
+"40": "丹陽",
+"41": "永春",
+"42": "梅浦",
+"43": "-",
+"44": "公州",
+"45": "鳥致院",
+"46": "大田",
+"47": "論山",
+"48": "江景",
+"49": "禮山",
+"50": "瑞山",
+"51": "溫泉里",
+"52": "天安",
+"53": "-",
+"55": "全州",
+"56": "錦山",
+"57": "茂朱",
+"58": "南原",
+"59": "淳昌",
+"60": "泰仁",
+"61": "新泰仁",
+"62": "井邑",
+"63": "茁浦",
+"64": "-",
+"65": "金堤",
+"66": "裡里",
+"67": "-",
+"69": "光州",
+"70": "松汀里",
+"71": "潭陽",
+"72": "谷城",
+"73": "玉果",
+"74": "求禮",
+"75": "光陽",
+"76": "麗水",
+"77": "順天",
+"78": "高興",
+"79": "寶城",
+"80": "筏橋",
+"81": "和順",
+"82": "綾州",
+"83": "同福",
+"84": "長興",
+"85": "康津",
+"86": "兵營",
+"87": "海南",
+"88": "靈巖",
+"89": "羅州",
+"90": "榮山浦",
+"91": "南平",
+"92": "咸平",
+"93": "靈光",
+"94": "法聖浦",
+"95": "長城",
+"96": "郡莞島",
+"97": "郡珍島",
+"98": "濟州",
+"99": "西歸浦",
+"100": "禾北里",
+"101": "朝天港",
+"102": "城德里",
+"103": "金寧港",
+"104": "城山浦",
+"105": "-",
+"107": "義城",
+"108": "安東",
+"109": "浦項洞",
+"110": "慶州",
+"111": "永川",
+"112": "新寧",
+"113": "慶山",
+"114": "高靈",
+"115": "倭館",
+"116": "若木",
+"117": "金泉",
+"118": "善山",
+"119": "尙州",
+"120": "醴泉",
+"121": "-",
+"123": "馬山府馬山",
+"124": "馬山府舊馬山",
+"125": "晉州",
+"126": "招村",
+"127": "宜寧",
+"128": "咸安",
+"129": "昌寧",
+"130": "密陽",
+"131": "三浪津",
+"132": "梁山",
+"133": "蔚山",
+"134": "長生浦",
+"135": "方魚津",
+"136": "兵營",
+"137": "東萊",
+"138": "龜浦",
+"139": "金海",
+"140": "鎭海",
+"141": "慶和洞",
+"142": "昌原",
+"143": "鎭東",
+"144": "熊川",
+"145": "統營",
+"146": "長承浦",
+"147": "固城",
+"148": "泗川",
+"149": "三千浦",
+"150": "南海",
+"151": "河東",
+"152": "露梁津",
+"153": "山清",
+"154": "咸陽",
+"155": "安義",
+"156": "居昌",
+"157": "陜川",
+"158": "-",
+"159": "海州",
+"160": "龍塘浦",
+"161": "延白",
+"162": "白川",
+"163": "金川",
+"164": "市邊里",
+"165": "平山",
+"166": "汗浦",
+"167": "南川",
+"168": "新溪",
+"169": "甕津郡馬山",
+"170": "康翎",
+"171": "龍湖島",
+"172": "長淵",
+"173": "苔灘",
+"174": "夢金浦",
+"175": "九味浦",
+"176": "松禾",
+"177": "豐川",
+"178": "殷栗",
+"179": "長連",
+"180": "金山浦",
+"181": "安岳",
+"182": "信川",
+"183": "文化",
+"184": "載寧",
+"185": "黃州"
+},
+"cols": [
+{
+"c": 4,
+"g": "japanese"
+},
+{
+"c": 2,
+"m": "male",
+"g": "japanese"
+},
+{
+"c": 3,
+"m": "female",
+"g": "japanese"
+},
+{
+"c": 1,
+"m": "households",
+"g": "japanese"
+},
+{
+"c": 8,
+"g": "korean"
+},
+{
+"c": 6,
+"m": "male",
+"g": "korean"
+},
+{
+"c": 7,
+"m": "female",
+"g": "korean"
+},
+{
+"c": 5,
+"m": "households",
+"g": "korean"
+},
+{
+"c": 12,
+"g": "chinese"
+},
+{
+"c": 10,
+"m": "male",
+"g": "chinese"
+},
+{
+"c": 11,
+"m": "female",
+"g": "chinese"
+},
+{
+"c": 9,
+"m": "households",
+"g": "chinese"
+},
+{
+"c": 16,
+"g": "other"
+},
+{
+"c": 14,
+"m": "male",
+"g": "other"
+},
+{
+"c": 15,
+"m": "female",
+"g": "other"
+},
+{
+"c": 13,
+"m": "households",
+"g": "other"
+},
+{
+"c": 20,
+"g": "all"
+},
+{
+"c": 18,
+"m": "male",
+"g": "all"
+},
+{
+"c": 19,
+"m": "female",
+"g": "all"
+},
+{
+"c": 17,
+"m": "households",
+"g": "all"
+}
+]
+},
+{
+"part": 1,
+"lc": 1,
+"pt": "town",
+"in": "Korea",
+"d": "1919-12-31",
+"b": "resident",
+"rp": {
+"0": "兼二浦",
+"1": "黑橋",
+"2": "沙里院",
+"3": "瑞興",
+"4": "新幕",
+"5": "遂安",
+"6": "石隧",
+"7": "寶光",
+"8": "楠亭",
+"9": "谷山",
+"12": "寺洞",
+"13": "順川",
+"14": "陽德",
+"15": "成川",
+"16": "江東",
+"17": "中和",
+"18": "祥原",
+"19": "龍岡",
+"20": "廣梁灣",
+"21": "江西",
+"22": "成從",
+"23": "永柔",
+"24": "順安",
+"25": "石岩",
+"26": "肅川",
+"27": "安州",
+"28": "新安州",
+"29": "价川",
+"30": "軍隅里",
+"31": "德川",
+"33": "義州",
+"34": "北鎭",
+"35": "寧邊",
+"36": "博川",
+"37": "定州",
+"38": "郭山",
+"39": "宣川",
+"40": "鐵山",
+"41": "車輦館",
+"42": "龍岩浦",
+"43": "楊市",
+"44": "朔州",
+"45": "昌城",
+"46": "大榆洞",
+"47": "碧潼",
+"48": "楚山",
+"49": "江界",
+"50": "春川",
+"51": "江陵",
+"52": "鐵原",
+"53": "平康",
+"54": "原州",
+"55": "庫底里",
+"56": "長箭里",
+"58": "成興",
+"59": "西湖津",
+"60": "定平",
+"61": "永興",
+"62": "高原",
+"63": "安邊",
+"64": "洪原",
+"65": "三湖",
+"66": "北靑",
+"67": "新浦",
+"68": "新昌",
+"69": "遮湖",
+"70": "端川",
+"71": "新乫坡鎭",
+"72": "甲山",
+"73": "惠山鎭",
+"74": "銅店",
+"76": "羅南",
+"77": "鏡城",
+"78": "獨津",
+"79": "漁大津",
+"80": "輪城",
+"81": "明川",
+"82": "吉州",
+"83": "城津",
+"84": "臨溟",
+"85": "富寧",
+"86": "茂山",
+"87": "會寧",
+"88": "鐘城",
+"89": "行營",
+"90": "穩城",
+"91": "慶源",
+"92": "慶興",
+"93": "雄基"
+},
+"cols": [
+{
+"c": 5,
+"g": "japanese"
+},
+{
+"c": 3,
+"m": "male",
+"g": "japanese"
+},
+{
+"c": 4,
+"m": "female",
+"g": "japanese"
+},
+{
+"c": 2,
+"m": "households",
+"g": "japanese"
+},
+{
+"c": 9,
+"g": "korean"
+},
+{
+"c": 7,
+"m": "male",
+"g": "korean"
+},
+{
+"c": 8,
+"m": "female",
+"g": "korean"
+},
+{
+"c": 6,
+"m": "households",
+"g": "korean"
+},
+{
+"c": 13,
+"g": "chinese"
+},
+{
+"c": 11,
+"m": "male",
+"g": "chinese"
+},
+{
+"c": 12,
+"m": "female",
+"g": "chinese"
+},
+{
+"c": 10,
+"m": "households",
+"g": "chinese"
+},
+{
+"c": 17,
+"g": "other"
+},
+{
+"c": 15,
+"m": "male",
+"g": "other"
+},
+{
+"c": 16,
+"m": "female",
+"g": "other"
+},
+{
+"c": 14,
+"m": "households",
+"g": "other"
+},
+{
+"c": 21,
+"g": "all"
+},
+{
+"c": 19,
+"m": "male",
+"g": "all"
+},
+{
+"c": 20,
+"m": "female",
+"g": "all"
+},
+{
+"c": 18,
+"m": "households",
+"g": "all"
+}
+]
+}
+]
+},
+{
+"t": "korea-tokanfu-1919:p0047_1",
+"x": [
+{
+"rows": "cells",
+"b": "resident",
+"n": "Japanese in Korea (table ranks prefectures of origin; total row only)",
+"cells": [
+{
+"r": 47,
+"c": 1,
+"p": "Korea",
+"d": "1919-12-31",
+"m": "households",
+"g": "japanese"
+},
+{
+"r": 47,
+"c": 2,
+"p": "Korea",
+"d": "1919-12-31",
+"m": "male",
+"g": "japanese"
+},
+{
+"r": 47,
+"c": 3,
+"p": "Korea",
+"d": "1919-12-31",
+"m": "female",
+"g": "japanese"
+},
+{
+"r": 47,
+"c": 4,
+"p": "Korea",
+"d": "1919-12-31",
+"m": "total",
+"g": "japanese"
+},
+{
+"r": 47,
+"c": 5,
+"p": "Korea",
+"d": "1918-12-31",
+"m": "total",
+"g": "japanese"
+},
+{
+"r": 47,
+"c": 6,
+"p": "Korea",
+"d": "1917-12-31",
+"m": "total",
+"g": "japanese"
+},
+{
+"r": 47,
+"c": 7,
+"p": "Korea",
+"d": "1916-12-31",
+"m": "total",
+"g": "japanese"
+},
+{
+"r": 47,
+"c": 8,
+"p": "Korea",
+"d": "1915-12-31",
+"m": "total",
+"g": "japanese"
+},
+{
+"r": 47,
+"c": 9,
+"p": "Korea",
+"d": "1914-12-31",
+"m": "total",
+"g": "japanese"
+}
+]
+}
+]
+},
+{
+"t": "korea-tokanfu-1919:p0049_1",
+"x": [
+{
+"rows": "dates",
+"p": "Korea",
+"b": "resident",
+"only": [
+1,
+2,
+3,
+4,
+5
+],
+"n": "end of December",
+"cols": [
+{
+"c": 4,
+"g": "chinese"
+},
+{
+"c": 2,
+"m": "male",
+"g": "chinese"
+},
+{
+"c": 3,
+"m": "female",
+"g": "chinese"
+},
+{
+"c": 1,
+"m": "households",
+"g": "chinese"
+},
+{
+"c": 8,
+"g": "american"
+},
+{
+"c": 6,
+"m": "male",
+"g": "american"
+},
+{
+"c": 7,
+"m": "female",
+"g": "american"
+},
+{
+"c": 5,
+"m": "households",
+"g": "american"
+},
+{
+"c": 12,
+"g": "british"
+},
+{
+"c": 10,
+"m": "male",
+"g": "british"
+},
+{
+"c": 11,
+"m": "female",
+"g": "british"
+},
+{
+"c": 9,
+"m": "households",
+"g": "british"
+},
+{
+"c": 16,
+"g": "french"
+},
+{
+"c": 14,
+"m": "male",
+"g": "french"
+},
+{
+"c": 15,
+"m": "female",
+"g": "french"
+},
+{
+"c": 13,
+"m": "households",
+"g": "french"
+},
+{
+"c": 20,
+"g": "german"
+},
+{
+"c": 18,
+"m": "male",
+"g": "german"
+},
+{
+"c": 19,
+"m": "female",
+"g": "german"
+},
+{
+"c": 17,
+"m": "households",
+"g": "german"
+},
+{
+"c": 24,
+"g": "russian"
+},
+{
+"c": 22,
+"m": "male",
+"g": "russian"
+},
+{
+"c": 23,
+"m": "female",
+"g": "russian"
+},
+{
+"c": 21,
+"m": "households",
+"g": "russian"
+},
+{
+"c": 64,
+"g": "foreign"
+},
+{
+"c": 62,
+"m": "male",
+"g": "foreign"
+},
+{
+"c": 63,
+"m": "female",
+"g": "foreign"
+},
+{
+"c": 61,
+"m": "households",
+"g": "foreign"
+}
+]
+},
+{
+"pt": "province",
+"in": "Korea",
+"d": "1919-12-31",
+"b": "resident",
+"only": [
+7,
+8,
+9,
+10,
+11,
+12,
+13,
+14,
+15,
+16,
+17,
+18,
+19,
+20
+],
+"rp": {
+"20": "Korea"
+},
+"cols": [
+{
+"c": 4,
+"g": "chinese"
+},
+{
+"c": 2,
+"m": "male",
+"g": "chinese"
+},
+{
+"c": 3,
+"m": "female",
+"g": "chinese"
+},
+{
+"c": 1,
+"m": "households",
+"g": "chinese"
+},
+{
+"c": 8,
+"g": "american"
+},
+{
+"c": 6,
+"m": "male",
+"g": "american"
+},
+{
+"c": 7,
+"m": "female",
+"g": "american"
+},
+{
+"c": 5,
+"m": "households",
+"g": "american"
+},
+{
+"c": 12,
+"g": "british"
+},
+{
+"c": 10,
+"m": "male",
+"g": "british"
+},
+{
+"c": 11,
+"m": "female",
+"g": "british"
+},
+{
+"c": 9,
+"m": "households",
+"g": "british"
+},
+{
+"c": 16,
+"g": "french"
+},
+{
+"c": 14,
+"m": "male",
+"g": "french"
+},
+{
+"c": 15,
+"m": "female",
+"g": "french"
+},
+{
+"c": 13,
+"m": "households",
+"g": "french"
+},
+{
+"c": 20,
+"g": "german"
+},
+{
+"c": 18,
+"m": "male",
+"g": "german"
+},
+{
+"c": 19,
+"m": "female",
+"g": "german"
+},
+{
+"c": 17,
+"m": "households",
+"g": "german"
+},
+{
+"c": 24,
+"g": "russian"
+},
+{
+"c": 22,
+"m": "male",
+"g": "russian"
+},
+{
+"c": 23,
+"m": "female",
+"g": "russian"
+},
+{
+"c": 21,
+"m": "households",
+"g": "russian"
+},
+{
+"c": 64,
+"g": "foreign"
+},
+{
+"c": 62,
+"m": "male",
+"g": "foreign"
+},
+{
+"c": 63,
+"m": "female",
+"g": "foreign"
+},
+{
+"c": 61,
+"m": "households",
+"g": "foreign"
+}
+]
+}
+]
+},
+{
+"t": "korea-tokanfu-1919:p0051_1",
+"x": [
+{
+"part": 7,
+"rows": "cells",
+"b": "resident",
+"n": "all occupations combined",
+"cells": [
+{
+"r": 2,
+"c": 4,
+"p": "Korea",
+"d": "1917-12-31",
+"m": "total",
+"g": "japanese"
+},
+{
+"r": 2,
+"c": 2,
+"p": "Korea",
+"d": "1917-12-31",
+"m": "male",
+"g": "japanese"
+},
+{
+"r": 2,
+"c": 3,
+"p": "Korea",
+"d": "1917-12-31",
+"m": "female",
+"g": "japanese"
+},
+{
+"r": 2,
+"c": 1,
+"p": "Korea",
+"d": "1917-12-31",
+"m": "households",
+"g": "japanese"
+},
+{
+"r": 3,
+"c": 4,
+"p": "Korea",
+"d": "1918-12-31",
+"m": "total",
+"g": "japanese"
+},
+{
+"r": 3,
+"c": 2,
+"p": "Korea",
+"d": "1918-12-31",
+"m": "male",
+"g": "japanese"
+},
+{
+"r": 3,
+"c": 3,
+"p": "Korea",
+"d": "1918-12-31",
+"m": "female",
+"g": "japanese"
+},
+{
+"r": 3,
+"c": 1,
+"p": "Korea",
+"d": "1918-12-31",
+"m": "households",
+"g": "japanese"
+},
+{
+"r": 4,
+"c": 4,
+"p": "Korea",
+"d": "1919-12-31",
+"m": "total",
+"g": "japanese"
+},
+{
+"r": 4,
+"c": 2,
+"p": "Korea",
+"d": "1919-12-31",
+"m": "male",
+"g": "japanese"
+},
+{
+"r": 4,
+"c": 3,
+"p": "Korea",
+"d": "1919-12-31",
+"m": "female",
+"g": "japanese"
+},
+{
+"r": 4,
+"c": 1,
+"p": "Korea",
+"d": "1919-12-31",
+"m": "households",
+"g": "japanese"
+},
+{
+"r": 6,
+"c": 4,
+"p": "Korea",
+"d": "1917-12-31",
+"m": "total",
+"g": "korean"
+},
+{
+"r": 6,
+"c": 2,
+"p": "Korea",
+"d": "1917-12-31",
+"m": "male",
+"g": "korean"
+},
+{
+"r": 6,
+"c": 3,
+"p": "Korea",
+"d": "1917-12-31",
+"m": "female",
+"g": "korean"
+},
+{
+"r": 6,
+"c": 1,
+"p": "Korea",
+"d": "1917-12-31",
+"m": "households",
+"g": "korean"
+},
+{
+"r": 7,
+"c": 4,
+"p": "Korea",
+"d": "1918-12-31",
+"m": "total",
+"g": "korean"
+},
+{
+"r": 7,
+"c": 2,
+"p": "Korea",
+"d": "1918-12-31",
+"m": "male",
+"g": "korean"
+},
+{
+"r": 7,
+"c": 3,
+"p": "Korea",
+"d": "1918-12-31",
+"m": "female",
+"g": "korean"
+},
+{
+"r": 7,
+"c": 1,
+"p": "Korea",
+"d": "1918-12-31",
+"m": "households",
+"g": "korean"
+},
+{
+"r": 8,
+"c": 4,
+"p": "Korea",
+"d": "1919-12-31",
+"m": "total",
+"g": "korean"
+},
+{
+"r": 8,
+"c": 2,
+"p": "Korea",
+"d": "1919-12-31",
+"m": "male",
+"g": "korean"
+},
+{
+"r": 8,
+"c": 3,
+"p": "Korea",
+"d": "1919-12-31",
+"m": "female",
+"g": "korean"
+},
+{
+"r": 8,
+"c": 1,
+"p": "Korea",
+"d": "1919-12-31",
+"m": "households",
+"g": "korean"
+},
+{
+"r": 10,
+"c": 4,
+"p": "Korea",
+"d": "1917-12-31",
+"m": "total",
+"g": "foreign"
+},
+{
+"r": 10,
+"c": 2,
+"p": "Korea",
+"d": "1917-12-31",
+"m": "male",
+"g": "foreign"
+},
+{
+"r": 10,
+"c": 3,
+"p": "Korea",
+"d": "1917-12-31",
+"m": "female",
+"g": "foreign"
+},
+{
+"r": 10,
+"c": 1,
+"p": "Korea",
+"d": "1917-12-31",
+"m": "households",
+"g": "foreign"
+},
+{
+"r": 11,
+"c": 4,
+"p": "Korea",
+"d": "1918-12-31",
+"m": "total",
+"g": "foreign"
+},
+{
+"r": 11,
+"c": 2,
+"p": "Korea",
+"d": "1918-12-31",
+"m": "male",
+"g": "foreign"
+},
+{
+"r": 11,
+"c": 3,
+"p": "Korea",
+"d": "1918-12-31",
+"m": "female",
+"g": "foreign"
+},
+{
+"r": 11,
+"c": 1,
+"p": "Korea",
+"d": "1918-12-31",
+"m": "households",
+"g": "foreign"
+},
+{
+"r": 12,
+"c": 4,
+"p": "Korea",
+"d": "1919-12-31",
+"m": "total",
+"g": "foreign"
+},
+{
+"r": 12,
+"c": 2,
+"p": "Korea",
+"d": "1919-12-31",
+"m": "male",
+"g": "foreign"
+},
+{
+"r": 12,
+"c": 3,
+"p": "Korea",
+"d": "1919-12-31",
+"m": "female",
+"g": "foreign"
+},
+{
+"r": 12,
+"c": 1,
+"p": "Korea",
+"d": "1919-12-31",
+"m": "households",
+"g": "foreign"
+}
+]
+},
+{
+"part": 7,
+"pt": "province",
+"in": "Korea",
+"d": "1919-12-31",
+"b": "resident",
+"g": "japanese",
+"only": [
+15,
+16,
+17,
+18,
+19,
+20,
+21,
+22,
+23,
+24,
+25,
+26,
+27,
+28
+],
+"rp": {
+"28": "Korea"
+},
+"n": "all occupations combined",
+"cols": [
+{
+"c": 4
+},
+{
+"c": 2,
+"m": "male"
+},
+{
+"c": 3,
+"m": "female"
+},
+{
+"c": 1,
+"m": "households"
+}
+]
+},
+{
+"part": 7,
+"pt": "province",
+"in": "Korea",
+"d": "1919-12-31",
+"b": "resident",
+"g": "korean",
+"only": [
+30,
+31,
+32,
+33,
+34,
+35,
+36,
+37,
+38,
+39,
+40,
+41,
+42,
+43
+],
+"rp": {
+"43": "Korea"
+},
+"n": "all occupations combined",
+"cols": [
+{
+"c": 4
+},
+{
+"c": 2,
+"m": "male"
+},
+{
+"c": 3,
+"m": "female"
+},
+{
+"c": 1,
+"m": "households"
+}
+]
+},
+{
+"part": 7,
+"pt": "province",
+"in": "Korea",
+"d": "1919-12-31",
+"b": "resident",
+"g": "foreign",
+"only": [
+45,
+46,
+47,
+48,
+49,
+50,
+51,
+52,
+53,
+54,
+55,
+56,
+57,
+58
+],
+"rp": {
+"58": "Korea"
+},
+"n": "all occupations combined",
+"cols": [
+{
+"c": 4
+},
+{
+"c": 2,
+"m": "male"
+},
+{
+"c": 3,
+"m": "female"
+},
+{
+"c": 1,
+"m": "households"
+}
+]
+}
+]
+},
+{
+"t": "korea-tokanfu-1919:p0057_1",
+"skip": "ratios, vital, subset only"
+},
+{
+"t": "korea-tokanfu-1919:p0057_2",
+"skip": "ratios, vital, subset only"
+},
+{
+"t": "korea-tokanfu-1919:p0059_1",
+"skip": "ratios, vital, subset only"
+},
+{
+"t": "korea-tokanfu-1919:p0059_2",
+"skip": "ratios, vital, subset only"
+},
+{
+"t": "korea-tokanfu-1919:p0062_1",
+"skip": "ratios, vital, subset only"
+},
+{
+"t": "korea-tokanfu-1919:p0064_1",
+"skip": "ratios, vital, subset only"
+},
+{
+"t": "korea-tokanfu-1919:p0067_1",
+"skip": "ratios, vital, subset only"
+},
+{
+"t": "korea-tokanfu-1919:p0069_2",
+"skip": "ratios, vital, subset only"
+},
+{
+"t": "korea-tokanfu-1919:p0092_1",
+"skip": "ratios, vital, subset only"
+}
+]
