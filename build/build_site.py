@@ -824,6 +824,16 @@ BOOKS = [
      "item": "https://dl.ndl.go.jp/pid/1452398",
      "model": "Sonnet 5.5",
      "blank_marking": True},
+    {"slug": "korea-kani-kokusei-1925", "dir": "Chosen_Kani_Kokusei_1925",
+     "title": "簡易國勢調査結果表 1925", "subtitle": "Kan'i kokusei chōsa kekkahyō (Results of the Simplified Census of Korea), 大正十四年十月一日現在 (as of 1 October 1925), published 1926",
+     "publisher": "朝鮮總督府, 京城, 1926 (大正十五年十二月十五日發行)",
+     "blurb": "The results of the simplified (簡易) census taken across Korea on 1 October 1925, the interim count between the first full censuses of 1920 (not held in Korea) and 1930, published by the Government-General in December 1926. After a short account of how the census was run and what it cost (經過概要), the tables give households and population by province (道別世帶及人口表) and by every 府 and 面 (府面別世帶及人口表, about 2,700 rows with ordinary and quasi-households, sex ratio and household size); population by single year of age and marital status (未婚, 有配偶, 死別, 離別) for the whole country, each province and every 府, 郡 and 島 (年齡及配偶關係別人口); population by registered domicile and nationality — Japanese (內地人), Koreans, Chinese (支那人) and other foreigners — by age for the same areas (本籍及國籍別人口); and the population of the open-port water areas (開港水面).",
+     "source": "LLM-transcribed from the National Library of Korea scan on Wikimedia Commons (File:CNTS-00047999537 簡易國勢調査結果表.pdf).",
+     "gaps": "All tables are transcribed (51 tables, about 636,000 figure cells); the regulations, forms, the account of the census (except its two cost tables), the prose summary and the coloured density map (whose legend is given) are not. The age tables are printed in horizontal bands of ages that run across both pages of a spread and over many spreads: each band is one part of its province's table, its left and right pages joined. Each spread was read once by a Claude Sonnet agent from tight crops, with no second reading. The scan is of low resolution for such dense tables and many figures are clipped by the column rules or the edge of the page: 2,020 cells could not be read and are marked [?]. Printed totals were re-added; those that do not add up are kept as printed and noted in each table. Where a digit was ambiguous between 3 and 8 and only one reading made a printed total reconcile, that reading is used and noted; 82 cells whose digits are damaged or hidden and which are fixed only by printed totals are shown with a blue background (inferred). Place names and characters are given in the forms the book uses (忠淸/忠清, 慶尙, 黃, 齡).",
+     "scan": "https://commons.wikimedia.org/w/index.php?title=File:CNTS-00047999537_簡易國勢調査結果表.pdf&page={leaf}",
+     "item": "https://commons.wikimedia.org/wiki/File:CNTS-00047999537_簡易國勢調査結果表.pdf",
+     "model": "Sonnet 5.5",
+     "blank_marking": True},
     {"slug": "korea-boeki-1939", "dir": "Chosen_Boeki_Tokei_1939",
      "title": "朝鮮防疫統計 1939", "subtitle": "Chōsen bōeki tōkei (Epidemic Prevention Statistics of Korea), 昭和十四年 (Shōwa 14), published 1941",
      "publisher": "朝鮮總督府警務局, 京城, 1941 (昭和十六年四月一日發行)",
@@ -2789,10 +2799,13 @@ def qstat_html(tables, cls="qstat"):
     q, tot, heavy, nt = qstats(tables)
     if not nt:
         return ""
+    ninf = sum(len(p.get("inferred", [])) for t in tables for p in t.get("parts", []))
     pc = lambda a, b: f" ({100 * a / b:.2f}%)" if b and f"{100 * a / b:.2f}" != "0.00" else ""   # no "(0.00%)"
     return (f'<div class="{cls}" title="Cells marked unreadable (red hatch) or containing a printed or doubtful ?">'
             f'Unreadable or “?” cells: <b>{q:,}</b> of {tot:,}{pc(q, tot)} · '
-            f'Tables with more than 20% such cells: <b>{heavy:,}</b> of {nt:,}{pc(heavy, nt)}</div>')
+            f'Tables with more than 20% such cells: <b>{heavy:,}</b> of {nt:,}{pc(heavy, nt)}'
+            + (f' · <span title="Not legible in the scan; the only value that fits a printed total (blue cells)">Inferred from totals: <b>{ninf:,}</b></span>' if ninf else '')
+            + '</div>')
 
 
 # Topic tags (build/topics/<region>.json: {"slug:id": [[topic, subtopic], …]}). Tagged tables get chart views and
@@ -3791,7 +3804,7 @@ th.sortable:hover{background:var(--hi)}
 thead.ml{position:sticky;top:0;z-index:1}thead.ml th{position:relative;vertical-align:bottom}thead.ml th.grp{text-align:center;vertical-align:middle;font-weight:bold}
 td.num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
 td.blank{background:repeating-linear-gradient(45deg,transparent 0 4px,var(--hi) 4px 8px)}
-td.illeg{background:repeating-linear-gradient(45deg,transparent 0 4px,rgba(200,60,40,.32) 4px 8px)}tr.hlrow td{background:rgba(183,121,31,.13)}td.hlcell{outline:2px solid #b7791f;outline-offset:-2px;background:rgba(183,121,31,.3)!important}
+td.illeg{background:repeating-linear-gradient(45deg,transparent 0 4px,rgba(200,60,40,.32) 4px 8px)}td.inf{background:rgba(52,120,210,.2);box-shadow:inset 0 0 0 1px rgba(52,120,210,.45)}tr.hlrow td{background:rgba(183,121,31,.13)}td.hlcell{outline:2px solid #b7791f;outline-offset:-2px;background:rgba(183,121,31,.3)!important}
 tr:hover td{background:var(--hi)}
 td.nw,th.nw{white-space:nowrap}.ver{color:var(--muted);font-size:12px}.vrow{display:flex;align-items:stretch;gap:8px;flex-wrap:wrap}.vrow .vsw{margin:4px 0 2px}.mapbtn,.mapbtn:visited{display:inline-flex;align-items:center;box-sizing:border-box;margin:4px 0 2px;font-size:13px;font-weight:400;line-height:inherit;padding:0 11px;border:1px solid var(--accent);border-radius:5px;background:var(--accent);color:var(--accent-ink);text-decoration:none}.mapbtn:hover{filter:brightness(1.15);text-decoration:none}td.w6,th.w6{min-width:6.3em}td.w10{min-width:10em}td.w14{min-width:14em}tr.sec td:first-child{font-weight:bold;font-style:italic}tr.sec.cjk td:first-child{font-style:normal}
 .part{font-weight:bold;margin-top:12px}
@@ -3998,7 +4011,7 @@ function tableHTML(t,q,other){const dy=!other&&!!window.DayChart&&DayChart.appli
  if(dy)h+=`<div class="tchart tday" data-day="${esc(t.id)}"></div>`;
  (t.parts||[]).forEach((p,pi)=>{if(p.label)h+=`<div class="part">${hl(p.label,q)}</div>`;
   h+=`<div class="tw" data-p="${pi}" tabindex="0"><table>${headHTML(p.columns,q)}<tbody>`;
-  p.rows.forEach((r,ri)=>{const sec=r.length>1&&r.slice(1).every(c=>c==="");h+=`<tr data-i="${ri}"${sec?(CJK.test(r[0])?' class="sec cjk"':' class="sec"'):""}>`+r.map((c,j)=>c==="[?]"?`<td class="illeg" title="Unreadable in the scan" aria-label="unreadable"></td>`:`<td class="${j&&isNum(kn(c))?"num":""}${!j?wcls(c,12,3):isNum(kn(c))?"":tcls(c)}${j&&c===""&&!sec&&!MARKED?" blank":""}"${j&&c===""&&!sec&&MARKED?' title="Blank in the original"':""}>${/^https:\/\/archive\.org\/details\/\S+$/.test(c)?`<a href="${esc(c)}" target="_blank" rel="noopener">scan ↗</a>`:hl(kn(c),q)}</td>`).join("")+"</tr>"});
+  const INF=new Set((p.inferred||[]).map(x=>x[0]+","+x[1]));p.rows.forEach((r,ri)=>{const sec=r.length>1&&r.slice(1).every(c=>c==="");h+=`<tr data-i="${ri}"${sec?(CJK.test(r[0])?' class="sec cjk"':' class="sec"'):""}>`+r.map((c,j)=>c==="[?]"?`<td class="illeg" title="Unreadable in the scan" aria-label="unreadable"></td>`:`<td class="${j&&isNum(kn(c))?"num":""}${!j?wcls(c,12,3):isNum(kn(c))?"":tcls(c)}${j&&c===""&&!sec&&!MARKED?" blank":""}${INF.has(ri+","+j)?" inf":""}"${j&&c===""&&!sec&&MARKED?' title="Blank in the original"':""}${INF.has(ri+","+j)?' title="Not legible in the scan: inferred from a printed total (only one value fits)"':""}>${/^https:\/\/archive\.org\/details\/\S+$/.test(c)?`<a href="${esc(c)}" target="_blank" rel="noopener">scan ↗</a>`:hl(kn(c),q)}</td>`).join("")+"</tr>"});
   h+="</tbody></table></div>";if(ch&&!dy)h+=`<div class="tchart" data-id="${esc(t.id)}" data-p="${pi}"></div>`});
  if((t.footnotes||[]).length){const fn=t.footnotes.map(n=>hl(n,q)),hit=fn.some(x=>x.includes("<mark>"));h+=`<details class="notes"${hit?" open":""}><summary>Printed notes (${fn.length})</summary><ul>${fn.map(x=>`<li>${x}</li>`).join("")}</ul></details>`;}
  if((t.transcriber_notes||[]).length)h+=`<details class="notes"><summary${t._warn?' class="warn"':""}>Transcriber's notes (${t.transcriber_notes.length})${t._warn?" — includes unreadable or doubtful cells":""}</summary><ul>${t.transcriber_notes.map(n=>`<li class="${warnRe.test(n)?"warn":""}">${esc(n)}</li>`).join("")}</ul></details>`;
