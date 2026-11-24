@@ -3958,6 +3958,12 @@ const narrow=()=>matchMedia("(max-width:760px)").matches,M=()=>document.getEleme
 const pos=()=>narrow()?scrollY:(M()?M().scrollTop:0);
 const t=()=>f.classList.toggle("on",pos()>innerHeight*.6);addEventListener("scroll",t,{passive:true});
 document.addEventListener("scroll",e=>{if(e.target&&e.target.id==="main")t()},{passive:true,capture:true});addEventListener("resize",t);t();
+// iOS Safari pins position:fixed to the layout viewport, which differs from what is on screen (the visual viewport)
+// when the page is pinch-zoomed or the toolbar collapses: the buttons then float up the middle of the screen (mobile
+// 2026-11-24). Keep them at the visible bottom-right corner, at their normal size, by following window.visualViewport.
+const vv=window.visualViewport;if(vv){const place=()=>{const s=vv.scale||1,dx=vv.offsetLeft+vv.width-innerWidth,dy=vv.offsetTop+vv.height-innerHeight;
+ f.style.transformOrigin="100% 100%";f.style.transform=(Math.abs(dx)<1&&Math.abs(dy)<1&&Math.abs(s-1)<.01)?"":`translate(${dx}px,${dy}px) scale(${1/s})`};
+ vv.addEventListener("resize",place);vv.addEventListener("scroll",place);addEventListener("scroll",place,{passive:true});place()}
 // Floating buttons: top / previous table / next table. In a chapter they scroll between its tables (showing
 // any not yet loaded) and at either end open the next chapter at its first table or the previous one at its last; with
 // one table shown they step through the table list as the arrow keys do, into the next/previous chapter at the ends.
