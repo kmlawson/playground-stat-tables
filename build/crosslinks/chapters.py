@@ -2043,3 +2043,13 @@ SERIES["korea-tokei"]["topics"]["Prices and wages"] = {"korea-tokanfu-1919": ["1
 SERIES["korea-tokei"]["topics"]["Public works and shipping"] = {"korea-tokanfu-1919": ["13 水運", "15 土木及築港"], "korea-tokanfu-1939": ["10. 土木・水運"]}
 SERIES["korea-tokei"]["topics"]["Monopolies"] = {"korea-tokanfu-1919": ["24 紅蔘專賣"], "korea-tokanfu-1939": ["13. 專賣"]}
 SERIES["korea-tokei"]["topics"]["Public health"] = {"korea-tokanfu-1919": ["17 衛生"], "korea-tokanfu-1939": ["17. 衛生"]}
+# 2026-11-24: 統計年報 1913 (大正2) added to korea-tokei (update mode)
+SERIES["korea-tokei"]["books"] = ["korea-tokanfu-1908", "korea-tokanfu-1913", "korea-tokanfu-1919", "korea-tokanfu-1939"]
+for _top, _chs in {"Land and climate": ["1 土地", "2 氣象", "15 土地調査"], "Population": ["3 戶口"], "Agriculture": ["4 農業"],
+                   "Forestry": ["5 林業附狩獵"], "Fisheries": ["6 水產業"], "Mining and industry": ["7 鑛業", "8 商業及工業"],
+                   "Banking and commerce": ["8 商業及工業", "9 金融"], "Prices and wages": ["10 物價及勞銀"], "Foreign trade": ["11 貿易"],
+                   "Railways": ["12 鐵道"], "Public works and shipping": ["13 水運", "16 土木及築港"], "Communications": ["14 通信"],
+                   "Police": ["17 警察"], "Public health": ["18 衛生"], "Justice": ["19 裁判"], "Prisons": ["20 監獄"],
+                   "Education": ["21 教育", "22 社寺及教會"], "Social affairs": ["22 社寺及教會", "23 慈惠及救濟"],
+                   "Public finance": ["24 財政"], "Monopolies": ["25 紅蔘專賣"], "Officials": ["26 官吏附恩賞"]}.items():
+    SERIES["korea-tokei"]["topics"][_top]["korea-tokanfu-1913"] = _chs
