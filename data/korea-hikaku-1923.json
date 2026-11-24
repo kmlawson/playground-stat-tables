@@ -93,7 +93,7 @@
       "",
       "",
       "3,404,181",
-      "[?]",
+      "9,214,319",
       "8,670,644",
       "17,884,963",
       "106.3",
@@ -107,8 +107,8 @@
       "56.99",
       "7,040.11",
       "10 826,204",
-      "[?]",
-      "[?]",
+      "29,296,900",
+      "29,184,600",
       "58,481,500",
       "100.4",
       "5.4",
@@ -128,6 +128,12 @@
       "5.3",
       "1,704.1"
      ]
+    ],
+    "inferred": [
+     [
+      5,
+      7
+     ]
     ]
    }
   ],
@@ -136,11 +142,14 @@
    "Rows: 7 as printed (朝鮮 area line plus the four 朝鮮 population lines, 內地, 臺灣). The 朝鮮 area/coastline figures are printed once, level with the 朝鮮人 line; they are given here on a separate row '朝鮮' with the population cells empty.",
    "Heading of the first columns is partly covered by a library stamp: the 面積 unit '(方里)' is read from small print; treat the heading as such.",
    "Printed digits '3,282,792' etc.: thousands separators in this scan sometimes look like periods; transcribed with commas. 內地 戶數 is printed '10 826,204' (space where a comma is expected); kept as printed.",
-   "Row '朝鮮 計', col 人口 — 男: leading digit(s) unreadable (printed '?9,214,319' with a blot); cell is [?] (the other parts would sum to 9,214,319).",
-   "Row '內地', col 人口 — 男: printed '29,296,900' is blurred at the first two digits; not certain — cell [?]. Row '內地', col 人口 — 女: printed '29,184,6?0' middle digit of the hundreds blurred — cell [?].",
+   "Row '朝鮮 計', col 人口 — 男: printed '9,214,319' with a blot to the left of the 9 (not a digit).",
+   "Row '內地', col 人口 — 男: printed '29,296.900' (first 9 faint), transcribed 29,296,900. Row '內地', col 人口 — 女: printed '29,184,6?0', tens digit faint.",
    "Row '朝鮮 外國人', col 男: last digit partly broken, read as 0 (30,640) — noted.",
    "Row '臺灣', col 面積 實數: printed '2.332' with a period where a comma is expected; kept as printed.",
-   "Total check 朝鮮 戶數: 110,439 + 3,282,792 + 10,950 = 3,404,181 — reconciles. 朝鮮 女: 190,144 + 8,476,101 + 4,399 = 8,670,644 — reconciles. 朝鮮 計 (人口): 403,011 + 17,446,913 + 35,039 = 17,884,963 — reconciles. 朝鮮 男 計 cannot be checked (cell [?]). 內地 男+女 not checked (cells [?]). 臺灣: 2,050,270 + 1,925,828 = 3,976,098 — reconciles. Area: 14,312 + 25,151 + 2,332 = 41,795 (no printed total)."
+   "Total check 朝鮮 戶數: 110,439 + 3,282,792 + 10,950 = 3,404,181 — reconciles. 朝鮮 女: 190,144 + 8,476,101 + 4,399 = 8,670,644 — reconciles. 朝鮮 計 (人口): 403,011 + 17,446,913 + 35,039 = 17,884,963 — reconciles. 臺灣: 2,050,270 + 1,925,828 = 3,976,098 — reconciles. Area: 14,312 + 25,151 + 2,332 = 41,795 (no printed total).",
+   "Re-read 2026-11-24 (Opus): 朝鮮 計 / 男 read 9,214,319 (the mark before it is a blot); 212,867 + 8,970,812 + 30,640 = 9,214,319 and 9,214,319 + 8,670,644 = 17,884,963 — both reconcile.",
+   "Re-read 2026-11-24 (Opus): 內地 / 男 read 29,296,900 (second digit faint but its descending tail is visible).",
+   "Inferred (not legible): 內地 / 人口 — 女 = 29,184,600, from 內地 計 58,481,500 − 男 29,296,900 (the faint tens digit shows a round left arc, consistent with 0)."
   ],
   "id": "p0002_1",
   "scans": [
@@ -221,14 +230,14 @@
       "",
       "…",
       "名古屋市",
-      "[?]",
+      "670,800",
       "",
       "…"
      ],
      [
       "15萬人以上",
       "京城府(1)",
-      "[?]",
+      "288,260",
       "長崎市",
       "187,600",
       "臺北市",
@@ -312,11 +321,12 @@
   "footnotes": [],
   "transcriber_notes": [
    "Rows: 14 as printed (the three 50萬人以上 rows and the 5萬人以上 / 3萬人以上 / 2萬人以上 groups are bracketed in the original; the class label is repeated here on every row of its group).",
-   "Row 50萬人以上 (3rd), col 內地 人口 for 名古屋市: printed '67?,800' third digit blurred — cell [?].",
-   "Row 京城府(1), col 朝鮮 人口: printed '288,?60' second digit of the hundreds blurred — cell [?].",
+   "Row 50萬人以上 (3rd), col 內地 人口 for 名古屋市: printed '670.800' (third digit a 0 with its left side broken).",
+   "Row 京城府(1), col 朝鮮 人口: printed '288,260' (hundreds digit faint: top arch and foot of a 2 visible, no stem as in this font's 1).",
    "Thousands separators in this scan often look like periods or spaces (e.g. '727.100', '99 400'); transcribed with commas. Taiwan cell '…' marks no city of that class.",
    "Row 3萬人以上 and 2萬人以上 brackets: 仁川府(6) and 元山府(7) share '3萬人以上'; 鎭南浦府(8) and 成興(9) share '2萬人以上'. The printed '成興' is spaced '成　興' (and '開　城'); kept without the letter-spacing. 臺灣 places 基隆街 etc. printed as 街. The table stops at 成興 at the foot of the page; no further rows are visible on this frame (the scan shows no continuation on the next leaf).",
-   "No totals printed."
+   "No totals printed.",
+   "Re-read 2026-11-24 (Opus): 名古屋市 / 內地 人口 read 670,800; 京城府(1) / 朝鮮 人口 read 288,260 (no totals to check)."
   ],
   "id": "p0002_2",
   "scans": [
@@ -368,7 +378,7 @@
       "內地人",
       "4,889",
       "4,335",
-      "[?]",
+      "9,224",
       "[?]",
       "[?]",
       "699",
@@ -648,13 +658,16 @@
   "footnotes": [],
   "transcriber_notes": [
    "Rows: 9 in each part (朝鮮 內地人/朝鮮人/外國人/計, 內地, 臺灣 內地人/朝鮮人/外國人/計).",
-   "The scan is damaged by a vertical gap/fold between the 出生 and 死産 columns in both parts. 其ノ一: cols 出生 計 (right part), 死産 男 and 死産 女 are only slivers of digits (leading digits of 死産 男 e.g. '38', '1.75', '2.13', '72.1', '18', '3.44', '1', '3.64'; trailing digits of 死産 女 e.g. '17', '16', '3', '36', '37', '23', '19', '18', '60'). Every cell of those columns is [?] (never partial readings). In 出生 計 only the first row's '9,2?4' has a blotted digit — [?]; the other 出生 計 cells are clear.",
+   "The scan is damaged by a vertical gap/fold between the 出生 and 死産 columns in both parts. 其ノ一: cols 出生 計 (right part), 死産 男 and 死産 女 are only slivers of digits (leading digits of 死産 男 e.g. '38', '1.75', '2.13', '72.1', '18', '3.44', '1', '3.64'; trailing digits of 死産 女 e.g. '17', '16', '3', '36', '37', '23', '19', '18', '60'). Every cell of those columns is [?] (never partial readings). In 出生 計 the first row's tens digit is faint (see re-read note); the other 出生 計 cells are clear.",
    "其ノ二: the 出生 計 column is cut by the same gap (only leading digits visible, e.g. '22.', '40.', '34.', '35.'); all 9 cells [?]. The 死産 男 column is fully visible, but its column heading '男' lies in the gap (the heading is inferred from the group 男/女/計).",
    "其ノ一 other cells read with moderate difficulty: 臺灣 外國人 col 死亡 計 '493' (last digit slightly broken, read 3); 臺灣 內地人 col 死亡 計 '2,126'. 臺灣 朝鮮人 col 死亡 計 '81,489' (8 slightly blurred).",
    "Printed spaces where a comma or period would be expected were kept: 其ノ一 '709 908' (朝鮮人 出生 計), '1 043,599', '999 698', '2 043 297' (內地); 其ノ二 臺灣 內地人 死亡 男 '6 6'.",
    "△ marks a decrease (減) in the 死亡ニ對シ出生增(△減) columns; printed as a small triangle before the figure on 朝鮮 外國人; written '△ 107' etc.",
    "Checks 其ノ一 (re-added, python): in every row where visible, 出生 男 + 女 = 計 and 死亡 男 + 女 = 計 and 增減 男 + 女 = 計 reconcile (all rows). 朝鮮 and 臺灣 sub-rows (內地人 + 朝鮮人 + 外國人) sum to the printed 計 row in every readable column (出生 男, 女; 死産 計; 死亡 男, 女, 計; 增減 男, 女, 計; 臺灣 also 出生 計) — all reconcile. 內地 死産 計 133,863 etc. are single printed rows.",
-   "Title: the first characters before '、死産及死亡' are damaged in the scan (a fragment like '三' is visible; presumably 出生); transcribed as [illegible]."
+   "Title: the first characters before '、死産及死亡' are damaged in the scan (a fragment like '三' is visible; presumably 出生); transcribed as [illegible].",
+   "Re-read 2026-11-24 (Opus): 朝鮮 內地人 / 出生 計 read 9,224 (faint tens digit shows the hook and foot of a 2); 4,889 + 4,335 = 9,224 and 9,224 + 709,908 + 29 = 719,161 — both reconcile.",
+   "Re-read 2026-11-24 (Opus): 其ノ一 死産 男 / 死産 女 (18 cells) remain [?]: the fold/gap removes the trailing digits of 男 and the leading digits of 女; each row has two unknowns against one printed 計, so nothing can be inferred.",
+   "Re-read 2026-11-24 (Opus): 其ノ二 出生 計 (9 cells) remain [?]: only the integer part and decimal point are visible, the decimal digit is lost in the gap; rates are not inferred from 男 + 女."
   ],
   "id": "p0003_1",
   "scans": [
@@ -726,7 +739,7 @@
       "[?]",
       "37.5",
       "(—)0.2",
-      "[?]",
+      "2,072",
       "189"
      ],
      [
@@ -770,12 +783,13 @@
    "Rows: 6 as printed (3 累年平均 + 3 大正十二年).",
    "Column 平均: the column is cut by a scan gap; only leading digits are visible ('10.', '13.', '21.', '10.', '14', '21.'). All 6 cells [?].",
    "Row 累年平均 朝鮮, col 最高極: printed '37.' with the last digit cut — [?]; col 最低極: only fragments ('..4..') visible — [?].",
-   "Row 累年平均 臺灣, col 總量: printed '?,072' first digit blotted — [?]. (Unit 粍; 1,0?? / 2,0?? not decided.)",
+   "Row 累年平均 臺灣, col 總量: printed '2,072', first digit faint (top arch and foot of a 2; this font's 1 has a heavy stem).",
    "最低極 is printed as two sub-cells: a sign '(—)' (minus) and the figure; written here as '(—)8.2'. For 大正十二年 臺灣 the sign cell is empty and the figure is 4.4 (written without sign). For 累年平均 朝鮮 the sign cell is empty/blotted.",
    "Row 大正十二年 內地, col 最高極: printed '35 1' (space where a period is expected); kept as printed.",
    "經緯度 for 累年平均 is printed with 北 and 東 brackets (two lines per place): 北 = north latitude, 東 = east longitude (度分). For the 大正十二年 rows a single dash '—' is printed centred; written in the 北緯 column, with the 東經 cell empty.",
    "The period label is printed vertically as '大二 / 正 / 十年' (= 大正十二年); the '累年平均' label is printed vertically on the left of the first block (累 / 年 / 平 / 均).",
-   "Title: only '象' of '氣象' is legible in the scan (the first character is lost in the gap); the title is given as printed '[illegible]象' ... see title field. No totals printed."
+   "Title: only '象' of '氣象' is legible in the scan (the first character is lost in the gap); the title is given as printed '[illegible]象' ... see title field. No totals printed.",
+   "Re-read 2026-11-24 (Opus): 累年平均 臺北 / 總量 read 2,072. 平均 column (6 cells) remains [?]: decimal digits lost in the gap. 累年平均 京城 / 最高極 ('37.', last digit not printed visibly) and 最低極 (only specks) remain [?]."
   ],
   "id": "p0003_2",
   "scans": [
@@ -864,7 +878,8 @@
    "Last column '總面積百ニ付耕地反別': only leading digits visible (e.g. '11.', '23.', '18.', '23.'); all 4 cells [?]. The column heading is also cut ('總面積百ニ付 / 耕地反別').",
    "Printed '1,617,237' has a period-like comma ('1.617,237') and '3,028 668' a space; transcribed with commas.",
    "Totals: 畓 + 田 = 計 reconciles in all 4 rows (847,667+1,617,237=2,464,904; 1,549,461+2,771,403=4,320,864; 3,074,305+3,028,668=6,102,973; 368,478+389,897=758,375).",
-   "Footnote is printed across both bands: left '臺灣耕地面積一甲ハ2.934坪ト換算セリ以下農作物作付', right '反別ニ關スル各表皆同シ'; joined."
+   "Footnote is printed across both bands: left '臺灣耕地面積一甲ハ2.934坪ト換算セリ以下農作物作付', right '反別ニ關スル各表皆同シ'; joined.",
+   "Re-read 2026-11-24 (Opus): last column re-examined at 400%: every cell is cut by the right edge of the scan right after the decimal point (only the integer part is visible); all 4 cells stay [?]. Per-capita/ratio figures, so not inferable."
   ],
   "id": "p0004_1",
   "scans": [
@@ -959,7 +974,8 @@
    "Row 朝鮮 明治四十三年, col 水產物: printed '8,1?3' with the middle digit a small faint 0 — read as 0, moderately certain. col 林產物 '19,266': second-to-last digit faint, read 2.",
    "Last column '總人口一人ニ付生產物價額': only leading digits visible ('22.', '89.', '225.', '117.'), all 4 cells [?].",
    "Totals: 農+林+水+鑛+工 = 合計 reconciles in all 4 rows (306,135; 1,600,857; 13,163,432; 467,531).",
-   "Footnotes are printed across both bands and joined here (left band lines end '…明治四十四年', '…官有林ニ於ケル森林', and the third line begins 'ル調査ヲ掲上セリ'; right band lines '…ノ産額ヲ,又林産物ハ會計年度ニ依ル調査ヲ掲記セリ' and '收入並木材販賣高ヲ,又工産物中專賣品ハ會計年度ニ依'). The pairing of fragments is by line position."
+   "Footnotes are printed across both bands and joined here (left band lines end '…明治四十四年', '…官有林ニ於ケル森林', and the third line begins 'ル調査ヲ掲上セリ'; right band lines '…ノ産額ヲ,又林産物ハ會計年度ニ依ル調査ヲ掲記セリ' and '收入並木材販賣高ヲ,又工産物中專賣品ハ會計年度ニ依'). The pairing of fragments is by line position.",
+   "Re-read 2026-11-24 (Opus): last column re-examined at 400%: every cell is cut by the right edge of the scan right after the decimal point (only the integer part is visible); all 4 cells stay [?]. Per-capita/ratio figures, so not inferable."
   ],
   "id": "p0004_2",
   "scans": [
@@ -1050,7 +1066,8 @@
    "Heading: left band '7. 米收', right band '穫高 (玄米)' → title 米收穫高 (玄米). The column 陸米 straddles the two bands: heading '陸' at the end of the left band, '米' at the start of the right band; figures in the right band (heading read as 陸米).",
    "Last column '總人口一人ニ付收穫高': only leading digits visible ('0.', '0.', '0.', '1.'); all 4 cells [?].",
    "Row 朝鮮 明治四十三年, col 反當收穫高: printed '0 77' (space for the period); kept as printed.",
-   "Totals: 粳米 + 糯米 + 陸米 = 計 reconciles in all 4 rows (10,405,613; 15,174,645; 55,444,089; 4,866,087)."
+   "Totals: 粳米 + 糯米 + 陸米 = 計 reconciles in all 4 rows (10,405,613; 15,174,645; 55,444,089; 4,866,087).",
+   "Re-read 2026-11-24 (Opus): last column re-examined at 400%: every cell is cut by the right edge of the scan right after the decimal point (only the integer part is visible); all 4 cells stay [?]. Per-capita/ratio figures, so not inferable."
   ],
   "id": "p0004_3",
   "scans": [
@@ -1185,7 +1202,7 @@
       "0.56",
       "889,326",
       "...",
-      "[?]",
+      "3,346,600",
       "0.62",
       "841,322",
       "0.68"
@@ -1229,8 +1246,9 @@
   "footnotes": [],
   "transcriber_notes": [
    "Rows: 4 as printed. No printed totals to check.",
-   "Row '朝鮮 明治四十三年', col '粟 — 實數': printed 3,346,6 followed by two damaged characters (smudged) - left [?].",
-   "Row '臺灣', cols '小豆' and '其ノ他ノ豆': one figure 43,410 printed under a brace spanning both columns; written in the 小豆 column, the 其ノ他ノ豆 cell left empty."
+   "Row '朝鮮 明治四十三年', col '粟 — 實數': printed 3,346,600 with the sixth digit broken (top half missing).",
+   "Row '臺灣', cols '小豆' and '其ノ他ノ豆': one figure 43,410 printed under a brace spanning both columns; written in the 小豆 column, the 其ノ他ノ豆 cell left empty.",
+   "Re-read 2026-11-24 (Opus): 朝鮮 明治四十三年 / 粟 — 實數 was [?], now 3,346,600: the broken sixth digit is the same width and height as the following 0, a round x-height bowl with no ascender or descender trace; read as 0."
   ],
   "id": "p0005_2",
   "scans": [
@@ -1291,7 +1309,7 @@
      [
       "內地 大正十二年",
       "529,191",
-      "[?]",
+      "1,862,063",
       "17,021,354",
       "8,181,148",
       "4.39",
@@ -1314,9 +1332,11 @@
   ],
   "transcriber_notes": [
    "Rows: 4 as printed. No printed totals to check.",
-   "Row '朝鮮 大正十二年', col '飼養戶數': printed 401,56? with the last digit cut by the column rule - [?].",
-   "Row '內地', col '飼養戶數': printed 1 862,06? (a space instead of a comma after 1; last digit cut by the rule) - [?].",
-   "Row '朝鮮 明治四十三年', col '飼養戶數' printed '76 037' (space, no comma); read as 76,037. Row '朝鮮 明治四十三年' 掃立枚數 89,980 has a slightly smudged 8, read as 8. Row '朝鮮 大正十二年' 桑作付反別 31,930: last 0 touches the rule, read as 0."
+   "Row '朝鮮 大正十二年', col '飼養戶數': printed 401,56? with the last digit cut by the column rule and very faint - [?].",
+   "Row '內地', col '飼養戶數': printed '1 862,063' (a space instead of a comma after 1; left half of the last digit only, the rest under the rule).",
+   "Row '朝鮮 明治四十三年', col '飼養戶數' printed '76 037' (space, no comma); read as 76,037. Row '朝鮮 明治四十三年' 掃立枚數 89,980 has a slightly smudged 8, read as 8. Row '朝鮮 大正十二年' 桑作付反別 31,930: last 0 touches the rule, read as 0.",
+   "Re-read 2026-11-24 (Opus): 內地 大正十二年 / 飼養戶數 was [?], now 1,862,063: the visible left part of the last digit (top hook, open middle, tail below the baseline) is an old-style 3.",
+   "Re-read 2026-11-24 (Opus): 朝鮮 大正十二年 / 飼養戶數 still [?]: only a faint top stroke and a bottom-left dot of the last digit survive (3-like but not certain). No printed total to check."
   ],
   "id": "p0005_3",
   "scans": [
@@ -1393,7 +1413,7 @@
       "1,591,591",
       "14,950",
       "158,934",
-      "[?]"
+      "667,820"
      ],
      [
       "臺灣 大正十二年末 [上段 (brace, first line)]",
@@ -1417,7 +1437,7 @@
       "70",
       "371",
       "62,417",
-      "[?]"
+      "422,094"
      ]
     ]
    }
@@ -1428,9 +1448,10 @@
   "transcriber_notes": [
    "Rows: 5 as printed (Taiwan has two lines under a brace, both labelled only with dotted leaders; the first line holds the castrated animals marked 閹/騸 in the cell, the second the others).",
    "Row '朝鮮 明治四十四年末', cols '馬 — 牡' and '馬 — 牝': a bold '?' is printed in the cell (kept as the printed character '?'), not an illegible figure.",
-   "Row '內地', col '豚': printed 667,8?0, one digit damaged - [?]. Row '臺灣' second line, col '豚': printed 4??,094 with two damaged digits - [?].",
+   "Row '內地', col '豚': printed 667,820 and row '臺灣' second line 422,094, each with damaged 2s (only the thick shoulder and the base of the 2 printed).",
    "Row '朝鮮 明治四十四年末' 豚 572,840: second digit slightly smudged, read as 2. Row '內地' 山羊 158,934: last digit slightly smudged, read as 4.",
-   "Totals checked: 牛 牡+牝=計 reconciles in all 5 rows; 馬 牡+牝=計 reconciles for 大正十二年 朝鮮, 內地, 臺灣 second line (1911 Korea has '?' in the parts; 馬 計 40,976 cannot be checked); Taiwan first line 馬 騸 126 + '...' = 126."
+   "Totals checked: 牛 牡+牝=計 reconciles in all 5 rows; 馬 牡+牝=計 reconciles for 大正十二年 朝鮮, 內地, 臺灣 second line (1911 Korea has '?' in the parts; 馬 計 40,976 cannot be checked); Taiwan first line 馬 騸 126 + '...' = 126.",
+   "Re-read 2026-11-24 (Opus): 內地 / 豚 was [?], now 667,820; 臺灣 下段 / 豚 was [?], now 422,094. In all three damaged digits only the ball/shoulder at the top and the flat base line printed: an x-height digit with a flat base and a thin missing diagonal = old-style 2 (a 1 would show its heavy stem). No printed total for 豚."
   ],
   "id": "p0006_1",
   "scans": [
@@ -1487,7 +1508,7 @@
       "2,031",
       "531",
       "2,562",
-      "[?]"
+      "78.59"
      ]
     ]
    }
@@ -1496,7 +1517,8 @@
   "transcriber_notes": [
    "Rows: 3 as printed. Row label printed '內地…大年十二年末' (大年 for 大正) - kept as printed.",
    "Totals: 立木地+無位木地=合計 reconciles in all 3 rows (15,883; 22,420; 2,562).",
-   "Row '臺灣', col '總面積百ニ付林野面積': printed 78.5? with the last digit cut by the frame edge - [?]."
+   "Row '臺灣', col '總面積百ニ付林野面積': printed 78,59 (comma for the decimal point), the last digit touching the frame edge.",
+   "Re-read 2026-11-24 (Opus): 臺灣 / 總面積百ニ付林野面積 was [?], now 78.59: the last digit is fully legible at 1200% (bowl at x-height and descending tail = 9)."
   ],
   "id": "p0006_2",
   "scans": [
@@ -1545,7 +1567,7 @@
       "286,225,815",
       "87,869",
       "0.48",
-      "[?]"
+      "20.36"
      ],
      [
       "朝鮮 大正十二年",
@@ -1554,8 +1576,8 @@
       "29,613,785",
       "[?]",
       "117,106",
-      "[?]",
-      "[?]"
+      "2.89",
+      "7.49"
      ],
      [
       "內地 大正十二年",
@@ -1565,7 +1587,7 @@
       "799,846,325",
       "613,596",
       "4.30",
-      "[?]"
+      "13.67"
      ],
      [
       "臺灣 大正十二年",
@@ -1575,7 +1597,7 @@
       "389,678,493",
       "175,634",
       "2.27",
-      "[?]"
+      "98.01"
      ]
     ]
    }
@@ -1583,9 +1605,12 @@
   "footnotes": [],
   "transcriber_notes": [
    "Rows: 4 as printed. No printed totals to check. Decimal points and thousands commas are printed alike (e.g. '6.763,160', '2.654,919'); written with commas, and decimals in the 一里ニ付 column as '1,538.83' etc.",
-   "The right edge of the frame is cut: the last column (總人口一ニ付製鹽高) is clipped on the final digit in every row, so all four cells are [?] (printed 20.3?, 7.4?, 13.6?, 98.0?).",
-   "Row '朝鮮 大正十二年', col '製鹽高': printed 134,112,7?0 with one damaged digit - [?]. Same row, col '總人口一ニ付漁獲高': first character damaged (printed ?.89) - [?].",
-   "Row '朝鮮 明治四十四年', col '水產業者戶數' 87,869: last digit partly cut by the rule, read as 9. Col '總人口一ニ付漁獲高' 0.48: leading 0 faint, read as 0."
+   "The right edge of the frame is cut: the last column (總人口一ニ付製鹽高) is clipped on the final digit in every row (printed 20.36, 7.49, 13.67, 98.01; the left half of the last digit or more is visible).",
+   "Row '朝鮮 大正十二年', col '製鹽高': printed 134,112,7?0 with one damaged digit (only two specks remain) - [?]. Same row, col '總人口一ニ付漁獲高': first digit damaged, printed 2.89 with only the top ball and the base of the 2.",
+   "Row '朝鮮 明治四十四年', col '水產業者戶數' 87,869: last digit partly cut by the rule, read as 9. Col '總人口一ニ付漁獲高' 0.48: leading 0 faint, read as 0.",
+   "Re-read 2026-11-24 (Opus): 總人口一ニ付製鹽高 were [?], now 20.36 / 7.49 / 13.67 / 98.01, read from the visible part of the clipped last digit: 20.36 tall left arc with no waist = 6 (an 8 is pinched); 7.49 x-height bowl with descending tail = 9; 13.67 top bar and descending diagonal = 7; 98.01 the 1 is complete.",
+   "Re-read 2026-11-24 (Opus): 朝鮮 大正十二年 / 總人口一ニ付漁獲高 was [?], now 2.89 (top ball and flat base of an old-style 2; 51,722,932 / population 17,884,963 in table 1 = 2.892 agrees).",
+   "Re-read 2026-11-24 (Opus): 朝鮮 大正十二年 / 製鹽高 (134,112,7?0) still [?]: the damaged digit is two specks; no total fixes it."
   ],
   "id": "p0006_3",
   "scans": [
@@ -1635,7 +1660,7 @@
      [
       "朝鮮 大正十二年",
       "4,251,353",
-      "[?]",
+      "7,490,167",
       "2,750,214",
       "2,835,160",
       "17,326,894"
@@ -1643,7 +1668,7 @@
      [
       "內地 大正十二年",
       "10,209,068",
-      "[?]",
+      "7,861,105",
       "256,694,363",
       "99,478,450",
       "374,242,986"
@@ -1655,6 +1680,16 @@
       "11,415,500",
       "956,355",
       "12,920,863"
+     ]
+    ],
+    "inferred": [
+     [
+      1,
+      2
+     ],
+     [
+      2,
+      2
      ]
     ]
    },
@@ -1713,8 +1748,12 @@
   "transcriber_notes": [
    "Title printed with the gap '鑛 　　 額' (the middle character, probably 產, is not visible); the heading above the 其ノ一 figures reads 鑛產額. Rows: 4 + 4 as printed.",
    "其ノ一: the header '鐵 石 炭' sits over two narrow columns; the figure column for 鐵 is largely lost in the scan (only fragments '7,' on the 朝鮮 大正十二年 row and '7' on the 內地 row are visible; nothing on the other two rows). Cells with a visible fragment = [?]; cells with nothing visible = empty. The 鐵 column is therefore only an interpretation of the layout.",
-   "其ノ一 totals: 金+石炭+其ノ他 does not equal 計 on any row because the 鐵 figures are missing (differences: 426,462; 7,490,167+; 7,861,105; 143). Totals not reconciled; nothing corrected.",
-   "其ノ二: the column printed between 鑛區 and the second 坪數 (header '坪 數' with a stray mark) holds figures such as '61,039.40?90', '271,087,47?70', '672,630.73?81', '71,869,12?89' with a damaged character in the middle and no recoverable reading - all four cells [?]. 稼行鑛區+休業鑛區 percentages sum to 100.00 on all 4 rows (25.54+74.46; 10.69+89.31; 24.20+75.80; 18.15+81.85)."
+   "其ノ一 totals: 金+鐵+石炭+其ノ他 = 計. With the 鐵 column largely lost the rows 朝鮮 明治四十三年 and 臺灣 cannot be checked (計 − 金 − 石炭 − 其ノ他 = 426,462 and 143, where nothing is visible in the 鐵 cell; left empty). See the inferred 鐵 cells below.",
+   "其ノ二: the column printed between 鑛區 and the second 坪數 (header '坪 數' with a stray mark) holds figures such as '61,039.40?90', '271,087,47?70', '672,630.73?81', '71,869,12?89' with a damaged character in the middle and no recoverable reading - all four cells [?]. 稼行鑛區+休業鑛區 percentages sum to 100.00 on all 4 rows (25.54+74.46; 10.69+89.31; 24.20+75.80; 18.15+81.85).",
+   "Re-read 2026-11-24 (Opus): Inferred (not legible): 朝鮮 大正十二年 / 鑛產額 — 鐵 = 7,490,167, from 計 17,326,894 − 金 4,251,353 − 石炭 2,750,214 − 其ノ他 2,835,160 (visible fragment '7,' agrees).",
+   "Re-read 2026-11-24 (Opus): Inferred (not legible): 內地 大正十二年 / 鑛產額 — 鐵 = 7,861,105, from 計 374,242,986 − 金 10,209,068 − 石炭 256,694,363 − 其ノ他 99,478,450 (visible leading '7' agrees).",
+   "Re-read 2026-11-24 (Opus): the 鐵 column print is lost to the right of the leading digit in every row (the surviving '7' sit at the left of the column), so the empty 1910 Korea and Taiwan cells are lost, not printed blank; by the same sum they would be 426,462 and 143, but they are left empty because nothing is visible.",
+   "Re-read 2026-11-24 (Opus): 其ノ二 '坪數 (first column)' still [?] in all 4 rows. The header reads '坪 數 區' and each cell looks like two numbers run together across a lost column rule: 稼行 坪數 ('61,039,40…', '271,087,47…', '672,630,73…', '71,869,12…', last digit lost) and the end of a 休業 鑛區 count ('…90', '…70', '…181', '…89', first digit only a sliver). The 稼行/休業 percentages fit 休業 鑛區 = 4,181 (內地: 1,335/5,516 = 24.20%) and 789 (臺灣: 175/964 = 18.15%), but the column structure cannot be changed here and the 朝鮮 rows do not fit as cleanly, so nothing entered."
   ],
   "id": "p0007_1",
   "scans": [
@@ -1762,7 +1801,7 @@
       "朝鮮 明治四十四年末",
       "12",
       "12,435",
-      "[?]",
+      "85",
       "21,872",
       "34",
       "3,797",
@@ -1773,7 +1812,7 @@
       "朝鮮 大正十二年末",
       "55",
       "40,073",
-      "[?]",
+      "324",
       "57,177",
       "220",
       "57,737",
@@ -1795,12 +1834,26 @@
       "臺灣 大正十二年末",
       "53",
       "13,203",
-      "[?]",
+      "263",
       "105,576",
       "171",
       "209,588",
       "24",
       "22,012"
+     ]
+    ],
+    "inferred": [
+     [
+      0,
+      3
+     ],
+     [
+      1,
+      3
+     ],
+     [
+      3,
+      3
      ]
     ]
    },
@@ -1820,12 +1873,12 @@
      [
       "朝鮮 明治四十四年末",
       "19",
-      "[?]",
+      "1,342",
       "1",
       "20",
       "152",
       "39,766",
-      "[?]"
+      "262"
      ],
      [
       "朝鮮 大正十二年末",
@@ -1844,18 +1897,28 @@
       "227",
       "84,901",
       "[?]",
-      "[?]",
+      "15,567,786",
       "485"
      ],
      [
       "臺灣 大正十二年末",
       "41",
-      "[?]",
+      "4,228",
       "14",
       "2,325",
       "566",
       "356,932",
       "630"
+     ]
+    ],
+    "inferred": [
+     [
+      0,
+      2
+     ],
+     [
+      2,
+      6
      ]
     ]
    }
@@ -1863,9 +1926,17 @@
   "footnotes": [],
   "transcriber_notes": [
    "Rows: 4 + 4 as printed; 其ノ二 is on frame p0008 (printed page 8, top), which has a vertical seam/crease at x about 720 that damages the 運輸業 公稱資本金 column.",
-   "其ノ一, col '商業 — 社數': the header '社 數' of the 商業 group is visible but squeezed and no figures are visible in that sub-column (only the 公稱資本金 figures 21,872 etc. are legible) - all four cells [?].",
-   "其ノ二 unreadable cells: 朝鮮 明治四十四年末 運輸業 公稱資本金 (printed 1,34? cut by the seam); 臺灣 運輸業 公稱資本金 (printed 4,2?8); 內地 計 社數 (printed 3?,09?) and 計 公稱資本金 (printed 15,567,78? cut by the frame); 朝鮮 明治四十四年末 會社一ニ付公稱資本金 (printed 26?).",
-   "Totals: 計 公稱資本金 = 農+商+工+鑛+運輸+其ノ他: 朝鮮 大正十二年 reconciles (40,073+57,177+57,737+7,850+67,985+317,589 = 548,411). The other rows contain a [?] cell and cannot be checked. 計 社數 cannot be checked on any row (商業 社數 missing)."
+   "其ノ一, col '商業 — 社數': the header '社 數' of the 商業 group is visible but squeezed and no figures are visible in that sub-column (only the 公稱資本金 figures 21,872 etc. are legible); three cells inferred from 計 社數 (see below), 內地 still [?].",
+   "其ノ二 damaged cells: 朝鮮 明治四十四年末 運輸業 公稱資本金 (printed 1,34? cut by the seam; inferred); 臺灣 運輸業 公稱資本金 (printed 4,228 with a damaged middle 2); 內地 計 社數 (printed 32,09?, last digit cut by the frame, [?]) and 計 公稱資本金 (printed 15,567,78? cut by the frame; inferred); 朝鮮 明治四十四年末 會社一ニ付公稱資本金 (printed 262, last digit damaged).",
+   "Totals: 計 公稱資本金 = 農+商+工+鑛+運輸+其ノ他: 朝鮮 大正十二年 reconciles (40,073+57,177+57,737+7,850+67,985+317,589 = 548,411); 臺灣 reconciles with the re-read 4,228. 計 社數 cannot be checked on any row (商業 社數 missing; used instead to infer it).",
+   "Re-read 2026-11-24 (Opus): Inferred (not legible): 朝鮮 明治四十四年末 / 商業 — 社數 = 85, from 計 社數 152 − 12 − 34 − 1 − 19 − 1.",
+   "Re-read 2026-11-24 (Opus): Inferred (not legible): 朝鮮 大正十二年末 / 商業 — 社數 = 324, from 計 社數 920 − 55 − 220 − 7 − 83 − 231.",
+   "Re-read 2026-11-24 (Opus): Inferred (not legible): 臺灣 大正十二年末 / 商業 — 社數 = 263, from 計 社數 566 − 53 − 171 − 24 − 41 − 14.",
+   "Re-read 2026-11-24 (Opus): Inferred (not legible): 朝鮮 明治四十四年末 / 運輸業 — 公稱資本金 = 1,342, from 計 39,766 − 12,435 − 21,872 − 3,797 − 300 − 20 (visible '1,34' agrees).",
+   "Re-read 2026-11-24 (Opus): Inferred (not legible): 內地 大正十二年末 / 計 — 公稱資本金 = 15,567,786, from 152,111 + 6,828,558 + 6,075,492 + 969,867 + 1,456,857 + 84,901 (visible '15,567,78' and the top of a tall final digit agree).",
+   "Re-read 2026-11-24 (Opus): 臺灣 大正十二年末 / 運輸業 — 公稱資本金 was [?], now 4,228 (damaged middle digit shows the top ball and base of a 2; the 計 公稱資本金 356,932 confirms).",
+   "Re-read 2026-11-24 (Opus): 朝鮮 明治四十四年末 / 會社一ニ付公稱資本金 was [?], now 262 (last digit: thick top shoulder and base of a 2; 39,766/152 = 261.6).",
+   "Re-read 2026-11-24 (Opus): still [?]: 內地 商業 社數 and 內地 計 社數 (two unknowns in one equation; the last digit of 32,09? is cut by the frame and could be 0 or 6)."
   ],
   "id": "p0007_2",
   "scans": [
@@ -1937,7 +2008,7 @@
       "內地 大正十二年末",
       "18,014",
       "1,003,024",
-      "[?]",
+      "3,744",
       "260,394",
       "2,546",
       "[?]",
@@ -1954,6 +2025,12 @@
       "[?]",
       "1,684",
       "23,020"
+     ]
+    ],
+    "inferred": [
+     [
+      2,
+      3
      ]
     ]
    },
@@ -1972,7 +2049,7 @@
      [
       "朝鮮 明治四十四年末",
       "39",
-      "[?]",
+      "926",
       "12",
       "448",
       "252",
@@ -2005,6 +2082,12 @@
       "3,027",
       "41,247"
      ]
+    ],
+    "inferred": [
+     [
+      0,
+      2
+     ]
     ]
    }
   ],
@@ -2016,13 +2099,16 @@
    "Rows: 4 per part (其ノ一 and 其ノ二), as printed. Row labels are printed as 朝鮮 {明治四十四年末 / 大正十二年末}, 內地 …大正十二年末, 臺灣 …大正十二年末.",
    "The book's crease runs through the page at the left of 機械及器具工場 and across the right edge of 雜工場 / left edge of 特別工場 in 其ノ二, damaging cells.",
    "Heading of 機械及器具工場 and its 工場數 sub-heading are partly hidden by the crease (first character of 機械 only partly visible); 工場數 column heading of this group likewise cut ('工'+'數').",
-   "其ノ一 'Row 內地 大正十二年末, 機械及器具工場 工場數': leading digit(s) unreadable (crease), only '744' visible: [?].",
+   "其ノ一 'Row 內地 大正十二年末, 機械及器具工場 工場數': leading digit unreadable (crease), only '744' visible; inferred (see below).",
    "其ノ一 cells [?]: 化學工場 平均一日從業者 for 朝鮮 大正十二年末 (leading digit faint, '?,938'), 內地 ('1?4 990', second digit damaged), 臺灣 ('8 9?6', middle digit damaged).",
-   "其ノ二: the 平均一日從業者 column of 雜工場 is split by the crease in all four rows; digits straddle the crease and cannot be read: all four cells [?] (only '25' visible left of the crease in the 內地 row).",
+   "其ノ二: the 平均一日從業者 column of 雜工場 is split by the crease in all four rows; digits straddle the crease and cannot be read (only '25' left of the crease in the 內地 row, and a last digit right of it: '6', '1', '0', '3'). 朝鮮 1911 inferred; the other three [?].",
    "其ノ二 臺灣 特別工場 平均一日從業者: '72' followed by a damaged digit: [?].",
    "Printed spellings kept: '1.459' (period), '9 859', '4 591', '12 138', '69 412' (space for comma), '47.786' and '1,907.946' (period for comma). 臺灣 總計 工場數 '3,027' has a speck before the first digit; read as 3,027.",
-   "Total check 工場數 (all read cells): 朝鮮 1911: 17+24+44+116+39+12=252 reconciles; 朝鮮 1923: 152+173+1,192+1,377+564+41=3,499 reconciles; 臺灣: 60+116+694+1,684+405+68=3,027 reconciles; 內地: other six cells sum to 44,042 leaving 3,744 for the [?] cell vs printed total 47,786 (cell kept [?], not inferred).",
-   "Employee totals not re-added (too many [?] cells in each row)."
+   "Total check 工場數 (all read cells): 朝鮮 1911: 17+24+44+116+39+12=252 reconciles; 朝鮮 1923: 152+173+1,192+1,377+564+41=3,499 reconciles; 臺灣: 60+116+694+1,684+405+68=3,027 reconciles; 內地: other six cells sum to 44,042, leaving 3,744 for the damaged cell.",
+   "Employee totals: only 朝鮮 1911 has a single unknown (雜工場, inferred below); the other rows have two or three [?] cells each.",
+   "Re-read 2026-11-24 (Opus): Inferred (not legible): 內地 大正十二年末 / 機械及器具工場 — 工場數 = 3,744, from 總計 工場數 47,786 − 18,014 − 2,546 − 12,138 − 10,994 − 350 (visible '744' agrees).",
+   "Re-read 2026-11-24 (Opus): Inferred (not legible): 朝鮮 明治四十四年末 / 雜工場 — 平均一日從業者 = 926, from 總計 14,110 − 628 − 499 − 1,459 − 10,150 − 448 (visible final '6' agrees).",
+   "Re-read 2026-11-24 (Opus): still [?]: 化學工場 平均一日從業者 朝鮮 1923 ('?,938', top of the first digit gone: 3 or 5), 內地 ('1?4 990', only the right edge of the second digit, 6 or 8), 臺灣 ('8 9?6', a thin stroke only); 雜工場 平均一日從業者 朝鮮 1923, 內地, 臺灣 (crease; each row also has a [?] 化學工場 cell, so the total does not fix them); 臺灣 特別工場 平均一日從業者 ('72' + a tall digit, 6 or 8)."
   ],
   "id": "p0008_1",
   "scans": [
@@ -2072,7 +2158,7 @@
       "13",
       "4,800",
       "5",
-      "[?]",
+      "130",
       "6",
       "622",
       "24",
@@ -2086,12 +2172,12 @@
       "43",
       "42,936",
       "52",
-      "[?]",
+      "14,872",
       "7",
       "2,627",
       "102",
       "60,435",
-      "[?]",
+      "16 500",
       "40,440",
       "3,495"
      ],
@@ -2100,7 +2186,7 @@
       "734",
       "1.444,848",
       "3,975",
-      "[?]",
+      "423,350",
       "185",
       "76,405",
       "4.894",
@@ -2114,14 +2200,40 @@
       "7",
       "22,496",
       "58",
-      "[?]",
+      "12,193",
       "1",
       "850",
       "66",
       "35,539",
       "19,848",
-      "[?]",
+      "14,927",
       "764"
+     ]
+    ],
+    "inferred": [
+     [
+      0,
+      4
+     ],
+     [
+      1,
+      4
+     ],
+     [
+      2,
+      4
+     ],
+     [
+      3,
+      4
+     ],
+     [
+      1,
+      9
+     ],
+     [
+      3,
+      10
      ]
     ]
    }
@@ -2132,10 +2244,16 @@
   ],
   "transcriber_notes": [
    "Rows: 4 as printed.",
-   "The crease runs through the 自家用電氣工作物 發電力 column (heading and all four cells); digits straddle it: 朝鮮 大正元年末 (only '30' visible), 朝鮮 大正十二年末 ('14' + '72'), 內地 ('423,' + '50'), 臺灣 ('12,' + '93'): all four cells [?]. Heading 自家用電氣工作物 is partly hidden ('自家用電' / '氣工作'+crease).",
-   "Row 朝鮮 大正十二年末, 水力: '16 50' followed by a faint final digit: [?]. Row 臺灣, 汽力: '14,9?7', middle digit damaged: [?].",
    "Printed spellings kept: '5.552' (raised point, 朝鮮 1912 合計), '1.444,848', '4.894', '593.727', '46.689' (periods for commas); '1 944,603', '1 304,187' (space). 朝鮮 大正元年末 汽力 read as 4,447.",
-   "Total checks: 事業數 13+5+6=24; 43+52+7=102; 734+3,975+185=4,894; 7+58+1=66 all reconcile. 發電力 合計 vs 水力+汽力+瓦斯力: 朝鮮 1912: 75+4,447+1,030=5,552 reconciles; 內地: 1,304,187+593,727+46,689=1,944,603 reconciles; others contain [?] cells."
+   "Total checks: 事業數 13+5+6=24; 43+52+7=102; 734+3,975+185=4,894; 7+58+1=66 all reconcile. 發電力 合計 vs 水力+汽力+瓦斯力: 朝鮮 1912: 75+4,447+1,030=5,552 reconciles; 內地: 1,304,187+593,727+46,689=1,944,603 reconciles; others contain [?] cells.",
+   "The crease runs through the 自家用電氣工作物 發電力 column (heading and all four cells); the digits straddling it are partly lost: 朝鮮 大正元年末 ('30' visible), 朝鮮 大正十二年末 ('14' + '72'), 內地 ('423,' + '50'), 臺灣 ('12,' + '93'). Heading 自家用電氣工作物 is partly hidden ('自家用電' / '氣工作'+crease).",
+   "Re-read 2026-11-24 (Opus): Inferred (not legible): 朝鮮 大正元年末 / 自家用電氣工作物 發電力 = 130, from 合計 發電力 5.552 − 4,800 − 622 (visible '30').",
+   "Re-read 2026-11-24 (Opus): Inferred (not legible): 朝鮮 大正十二年末 / 自家用電氣工作物 發電力 = 14,872, from 合計 發電力 60,435 − 42,936 − 2,627 (visible '14' + '72').",
+   "Re-read 2026-11-24 (Opus): Inferred (not legible): 內地 大正十二年末 / 自家用電氣工作物 發電力 = 423,350, from 合計 發電力 1 944,603 − 1.444,848 − 76,405 (visible '423,' + '50').",
+   "Re-read 2026-11-24 (Opus): Inferred (not legible): 臺灣 大正十二年末 / 自家用電氣工作物 發電力 = 12,193, from 合計 發電力 35,539 − 22,496 − 850 (visible '12,' + '93').",
+   "Re-read 2026-11-24 (Opus): Inferred (not legible): 朝鮮 大正十二年末 / 水力 = 16 500, from 合計 發電力 60,435 − 40,440 − 3,495 (visible '16 50' + faint trace of a final 0).",
+   "Re-read 2026-11-24 (Opus): Inferred (not legible): 臺灣 大正十二年末 / 汽力 = 14,927, from 合計 發電力 35,539 − 19,848 − 764 (visible '14,9?7', damaged digit 2-like).",
+   "Re-read 2026-11-24 (Opus): With these, every 發電力 合計 equals both 電氣供給+自家用+官廳 and 水力+汽力+瓦斯力."
   ],
   "id": "p0009_1",
   "scans": [
@@ -2203,7 +2321,7 @@
       "內地 大正十二年",
       "2,126,078,424",
       "2 670 567 204",
-      "[?]",
+      "4.796,645.628",
       "...",
       "544,488,780",
       "36.35",
@@ -2213,13 +2331,19 @@
      [
       "臺灣 大正十三年",
       "198,594,802",
-      "[?]",
+      "110,179.492",
       "308,774,294",
       "88,415,310",
       "...",
       "49.95",
       "27.71",
       "77.66"
+     ]
+    ],
+    "inferred": [
+     [
+      3,
+      2
      ]
     ]
    }
@@ -2229,10 +2353,11 @@
   ],
   "transcriber_notes": [
    "Rows: 4 as printed. The 臺灣 row label is printed 大正十三年 (three strokes, apparently a misprint for 十二年 as the other rows and the book's year 大正十二年); kept as printed.",
-   "Cells [?]: 內地 合計 (leading character damaged, ',796,645.628' visible); 臺灣 輸移入 ('11?,179 492', third digit damaged).",
    "Printed spellings kept: '19 913,843', '39 782 756', '19 868 913', '2 670 567 204' (spaces for commas), '4,124.995' (period).",
    "朝鮮 明治四十三年: the excess 19,868,913 is printed under 超過 輸移出 although imports (39,782,756) exceed exports (19,913,843); kept as printed (the per-capita columns 1.50 / 2.99 confirm imports exceed exports).",
-   "Total checks: 輸移出+輸移入=合計 reconciles for 朝鮮 1910 (59,696,599) and 朝鮮 1923 (527,456,459); 內地 and 臺灣 合計/輸移入 involve a [?] cell and are not checked. 超過 differences: 朝鮮 1910 39,782,756-19,913,843=19,868,913 reconciles; 朝鮮 1923 265,790,727-261,665,732=4,124,995 reconciles; 內地 2,670,567,204-2,126,078,424=544,488,780 reconciles; 臺灣 88,415,310 not checked (輸移入 is [?])."
+   "Total checks: 輸移出+輸移入=合計 reconciles for 朝鮮 1910 (59,696,599) and 朝鮮 1923 (527,456,459); 內地 and 臺灣 合計/輸移入 involve a [?] cell and are not checked. 超過 differences: 朝鮮 1910 39,782,756-19,913,843=19,868,913 reconciles; 朝鮮 1923 265,790,727-261,665,732=4,124,995 reconciles; 內地 2,670,567,204-2,126,078,424=544,488,780 reconciles; 臺灣 88,415,310 not checked (輸移入 is [?]).",
+   "Re-read 2026-11-24 (Opus): 內地 大正十二年 合計 read as '4.796,645.628' (leading 4 broken but its stem and bar visible); it equals 2,126,078,424 + 2 670 567 204.",
+   "Re-read 2026-11-24 (Opus): Inferred (not legible): 臺灣 / 輸移入 = 110,179.492, from 合計 308,774,294 − 輸移出 198,594,802 (third digit broken, 0 or 6; visible '11?,179.492'). 超過 輸移出 198,594,802 − 110,179,492 = 88,415,310 agrees."
   ],
   "id": "p0009_2",
   "scans": [
@@ -2300,7 +2425,7 @@
       "內地 大正十二年度末",
       "4,128",
       "7,341.2",
-      "[?]",
+      "2,633.4",
       "9,974.6",
       "39.7",
       "75,421",
@@ -2318,6 +2443,12 @@
       "7,051",
       "17,106"
      ]
+    ],
+    "inferred": [
+     [
+      2,
+      3
+     ]
     ]
    }
   ],
@@ -2326,9 +2457,9 @@
   ],
   "transcriber_notes": [
    "Rows: 4 as printed. The crease splits the heading 私設 ('私' left of the crease, '設' right of it) and the column's figures are right of the crease; the left part of that column is empty. Column named 私設 on that reading (header partly hidden); unit 哩分 printed above first row.",
-   "Cell [?]: 內地 私設 — leading digit lost in the crease (',633.4' visible).",
    "Printed spellings kept: '4 8' (百方里ニ付線路, 朝鮮 1911; no decimal point visible), '6.705' (period), '8 060' and '44 278' (space). 朝鮮 1911 乘客員數 3,010.",
-   "Total check 國有+私設=計: 朝鮮 674.6+6.2=680.8; 1,189.0+370.3=1,559.3; 臺灣 521.9+300.1=822.0 all reconcile; 內地 not checked (cell [?])."
+   "Total check 國有+私設=計: 朝鮮 674.6+6.2=680.8; 1,189.0+370.3=1,559.3; 臺灣 521.9+300.1=822.0 all reconcile; 內地 not checked (cell [?]).",
+   "Re-read 2026-11-24 (Opus): Inferred (not legible): 內地 大正十二年度末 / 線路 私設 = 2,633.4, from 計 9,974.6 − 國有 7,341.2 (leading digit lost in the crease; ',633.4' visible)."
   ],
   "id": "p0009_3",
   "scans": [
@@ -2499,7 +2630,7 @@
      [
       "朝鮮 大正十二年度",
       "164.362",
-      "[?]",
+      "174,127",
       "9.18",
       "9.73",
       "1,989",
@@ -2537,9 +2668,10 @@
   ],
   "transcriber_notes": [
    "Rows: 4 as printed.",
-   "Cells [?]: 朝鮮 大正十二年度 通常郵便 配達 ('174,1?7', middle digit damaged); 臺灣 通常郵便 配達 ('59,6?9', damaged digit).",
    "Printed spellings kept: '53 181', '3 710 089', '63 45' (space), '164.362' (period). 臺灣 小包 per-capita 引受 '0.15': leading 0 faint but read.",
-   "No totals to check."
+   "No totals to check.",
+   "Re-read 2026-11-24 (Opus): 朝鮮 大正十二年度 通常郵便 配達 read as 174,127 (damaged digit shows the curved head, diagonal and flat base of a 2 at x-height).",
+   "Re-read 2026-11-24 (Opus): 臺灣 大正十二年度 通常郵便 配達 still [?]: '59,6?9', the damaged digit shows only a dot at the top and a base stroke (probably 2, not certain); no total."
   ],
   "id": "p0010_2",
   "scans": [
@@ -2634,7 +2766,7 @@
       "朝鮮 大正十二年度 計",
       "54,876 621",
       "3.07",
-      "[?]",
+      "1,694.087",
       "21,040,342",
       "12.41",
       "9.47",
@@ -2645,7 +2777,7 @@
       "929,891,851",
       "14.86",
       "26,349,191",
-      "[?]",
+      "1,062,165,005",
       "40.31",
       "45.05",
       "1,816.24"
@@ -2660,6 +2792,12 @@
       "11.77",
       "214.57"
      ]
+    ],
+    "inferred": [
+     [
+      5,
+      3
+     ]
     ]
    }
   ],
@@ -2670,9 +2808,11 @@
   "transcriber_notes": [
    "Rows: 8 as printed (朝鮮 split 內地人/朝鮮人/計 for each of the two years).",
    "朝鮮人 明治四十三年度 年度內預入 columns are empty in the original (footnote: no breakdown by nationality for that year): \"\".",
-   "Cells [?]: 朝鮮 大正十二年度 朝鮮人 總人口百ニ付預金人員 ('7.?2', middle digit damaged); 朝鮮 大正十二年度 計 預金人員 ('1,?94,?87', the 6 and 0 both appear as an open 'c' and cannot be told apart); 內地 現在高 ('1,06?,165,005', third digit damaged).",
    "Printed spellings kept: '60,67' (comma, 朝鮮 1910 內地人), '47,146 947', '54,876 621', '0 39' (space), '7.729,674' (period). 21,040,342 (最後 digit has a flourish) read as 2; 107.51 last digit '1' read.",
-   "Total checks: 年度內預入 47,146,947+7,729,674=54,876,621 reconciles; 預金人員 104,073+34,914=138,987 reconciles; 433,304+1,260,783=1,694,087 equals the damaged printed total (not used); 現在高 3,016,420+190,045=3,206,465 reconciles; 18,141,306+2,899,036=21,040,342 reconciles; 5,130,662 (內地人 only) equals the 計 as printed."
+   "Total checks: 年度內預入 47,146,947+7,729,674=54,876,621 reconciles; 預金人員 104,073+34,914=138,987 reconciles; 433,304+1,260,783=1,694,087 equals the damaged printed total (not used); 現在高 3,016,420+190,045=3,206,465 reconciles; 18,141,306+2,899,036=21,040,342 reconciles; 5,130,662 (內地人 only) equals the 計 as printed.",
+   "Re-read 2026-11-24 (Opus): Inferred (not legible): 朝鮮 大正十二年度 計 / 預金人員 = 1,694.087, from 內地人 433,304 + 朝鮮人 1,260,783 (printed '1,c94.c87', 6 and 0 both damaged).",
+   "Re-read 2026-11-24 (Opus): 內地 大正十二年度 現在高 read as 1,062,165,005 (damaged third digit has the x-height curved head and base of a 2; 26,349,191 × 40.31 ≈ 1,062.1 million agrees).",
+   "Re-read 2026-11-24 (Opus): 朝鮮人 大正十二年度 總人口百ニ付預金人員 still [?]: '7.?2', damaged digit shows only a dot and a base stroke (a per-hundred rate, not inferred)."
   ],
   "id": "p0010_3",
   "scans": [
@@ -2750,13 +2890,19 @@
      [
       "臺灣 大正十四年度",
       "87,008,171",
-      "[?]",
-      "[?]",
+      "2,857.739",
+      "89,865 910",
       "74,495 493",
       "15.370,417",
       "89,865,910",
       "21.97",
       "21.97"
+     ]
+    ],
+    "inferred": [
+     [
+      3,
+      3
      ]
     ]
    }
@@ -2768,10 +2914,10 @@
    "Rows: 4 as printed. Row labels: 朝鮮 is printed once with a brace over its two year lines; 內地 and 臺灣 each carry 大正十四年度.",
    "Unit mark 円 printed above the first row of each money column.",
    "Separators printed irregularly and kept as seen: '9.916,993' (朝鮮 M43 歲出經常), '143 464,889' and '136 456.826' (朝鮮 T14), '1,010,413 096' and '74,495 493' (內地/臺灣), '15.370,417'; per-head 朝鮮 T14 歲入 printed '9,63' (comma).",
-   "Row '臺灣', col '歲入 — 臨時': first digit faded (reads ?,857,739) — [?].",
-   "Row '臺灣', col '歲入 — 計': printed '89,365 91' with the last digit clipped and the third digit doubtful — [?]. (Sum of the two read columns would imply 89,865,910; not used.)",
    "Totals: 朝鮮 M43 歲入 11,953,272+10,368,475=22,321,747 reconciles; 歲出 9,916,993+8,340,390=18,257,383 reconciles. 朝鮮 T14 歲入 143,464,889+29,927,749=173,392,638 reconciles; 歲出 136,456,826+36,935,812=173,392,638 reconciles. 內地 歲入 1,299,321,318+224,107,010=1,523,428,328 reconciles; 歲出 1,010,413,096+513,015,232=1,523,428,328 reconciles. 臺灣 歲出 74,495,493+15,370,417=89,865,910 reconciles; 臺灣 歲入 計 unreadable.",
-   "Per-head figures not re-computed (population not on this page)."
+   "Per-head figures not re-computed (population not on this page).",
+   "Re-read 2026-11-24 (Opus): 臺灣 歲入 臨時 read as '2,857.739' (faint leading 2 visible at x-height).",
+   "Re-read 2026-11-24 (Opus): Inferred (not legible): 臺灣 / 歲入 — 計 = 89,865 910, from 經常 87,008,171 + 臨時 2,857,739 (printed '89,?65 91?': third digit faint, tall like 8; last digit a partial 0). Equals 歲出 計 89,865,910 like the other rows."
   ],
   "id": "p0011_1",
   "scans": [
@@ -2945,7 +3091,7 @@
      ],
      [
       "內地",
-      "[?]",
+      "113 900",
       "513",
       "71,089",
       "811",
@@ -2973,9 +3119,9 @@
   ],
   "transcriber_notes": [
    "Rows: 3 as printed. The top heading over the first four columns is printed letter-spaced '社　　寺' (read as 社寺); the tiny-print sub-headings in tiny print were read as '神社一ニ付人口', '寺院一ニ付人口', '敎會及其ノ他ノ布敎所一ニ付人口', '宣敎師及其ノ他ノ布敎者一人ニ付人口'.",
-   "Row '內地', col '神社 實數': printed '113 9?0' with the third digit damaged — [?].",
    "Separators kept as seen: '3 685' (space), '4.853' and '6.733' (period in place of comma), '37,487'.",
-   "Row '臺灣' 敎者 col printed '18,755' (the 8 slightly broken)."
+   "Row '臺灣' 敎者 col printed '18,755' (the 8 slightly broken).",
+   "Re-read 2026-11-24 (Opus): 內地 神社 實數 read as '113 900' (damaged digit is the round left half of an x-height 0; no ascender or flat base)."
   ],
   "id": "p0011_3",
   "scans": [
@@ -3126,7 +3272,7 @@
      ],
      [
       "腸チフス",
-      "[?]",
+      "2 839",
       "541",
       "52,636",
       "11,371",
@@ -3141,7 +3287,7 @@
       "314",
       "30",
       "5,317",
-      "[?]",
+      "690",
       "...",
       "...",
       "9.55",
@@ -3152,7 +3298,7 @@
       "痘瘡",
       "3,722",
       "1,120",
-      "[?]",
+      "1,922",
       "381",
       "11",
       "2",
@@ -3176,7 +3322,7 @@
       "猩紅熱",
       "1,008",
       "242",
-      "[?]",
+      "1,562",
       "88",
       "13",
       "...",
@@ -3226,11 +3372,25 @@
       "2.376",
       "94,502",
       "23 019",
-      "[?]",
+      "1,888",
       "549",
       "24.94",
       "24.36",
       "29.07"
+     ]
+    ],
+    "inferred": [
+     [
+      3,
+      4
+     ],
+     [
+      6,
+      3
+     ],
+     [
+      10,
+      5
      ]
     ]
    }
@@ -3241,15 +3401,17 @@
    "Disease 'ヂフテリア' printed with the first kana as ヂ-like glyph (read ヂフテリア as printed, in the scan the first character looks like ヂ).",
    "Unit mark 人 printed above the first row of the three ratio columns.",
    "Row 'パラチフス', col '臺灣' ratio printed '..' (two dots) — kept.",
-   "Row '腸チフス', col '朝鮮 患者': printed '2 83?' with the last digit faded (0 or 9) — [?].",
-   "Row 'パラチフス', col '內地 死亡者': printed '69?' with the last digit clipped — [?].",
-   "Row '痘瘡', col '內地 患者': printed '1,92?' last digit faded — [?]. Row '痘瘡', col '朝鮮 ratio': printed '30.0?' last digit faded — [?].",
-   "Row '猩紅熱', col '內地 患者': printed '1,56?' last digit faded — [?]. Row '猩紅熱', col '朝鮮 ratio' printed '24 00' (space for point), kept.",
-   "Row '計', col '臺灣 患者': printed '1,88?' with the last digit partly cut (looks like 5 or 8) — [?].",
    "Leading digit partly clipped by the binding shadow but read: 內地 死亡者 '11,371' (腸チフス), '23 019' (計, printed with a space).",
    "Separators kept as seen: '2.376' (朝鮮 死亡者 計), '1,008' (0 half-broken), '5.317'/'12.776' read with comma.",
-   "Column checks (cells read with confidence only): 朝鮮 死亡者 296+541+30+1,120+6+242+141=2,376 reconciles with printed 2.376. 朝鮮 患者 with 腸チフス unreadable cannot be checked (the other cells sum to 6,686). 內地 患者, 內地 死亡者 and 臺灣 患者 cannot be checked (cells unreadable). 臺灣 死亡者 18+123+2+49+357=549 reconciles.",
-   "Row '赤痢' ratio 朝鮮 24.76 etc. not re-computed."
+   "Row '赤痢' ratio 朝鮮 24.76 etc. not re-computed.",
+   "Re-read 2026-11-24 (Opus): 腸チフス 朝鮮 患者 read as '2 839' (faint descender of the 9 visible); 朝鮮 患者 column now sums to 9,525 as printed.",
+   "Re-read 2026-11-24 (Opus): 痘瘡 內地 患者 read as 1,922 (faint last digit: ball terminal and flat base of a 2; 381/1,922 = 19.82 agrees).",
+   "Re-read 2026-11-24 (Opus): Inferred (not legible): 猩紅熱 / 內地 患者 = 1,562, from 計 94,502 − the other read cells (printed '1,56?', faint digit 2-like).",
+   "Re-read 2026-11-24 (Opus): Inferred (not legible): パラチフス / 內地 死亡者 = 690, from 計 23 019 − the other read cells (printed '69' + left arc of 0). Note: the printed ratio 12.92 fits 687, not 690 (690/5,317 = 12.98); ratio kept as printed.",
+   "Re-read 2026-11-24 (Opus): Inferred (not legible): 計 / 臺灣 患者 = 1,888, from 233+866+11+13+186+579 (printed '1,88?', last digit partly cut, 8-like; 549/1,888 = 29.07 agrees).",
+   "Row '猩紅熱', col '朝鮮 ratio' printed '24 00' (space for point), kept.",
+   "Re-read 2026-11-24 (Opus): 痘瘡 朝鮮 ratio still [?]: '30.0?', last digit a faint bowl (9 or 0; 1,120/3,722 = 30.09) — rate, not inferred.",
+   "Re-read 2026-11-24 (Opus): Column checks: 朝鮮 患者, 朝鮮 死亡者 and 臺灣 死亡者 reconcile with read cells; 內地 患者/死亡者 and 臺灣 患者 totals were used for the inferences above."
   ],
   "id": "p0012_2",
   "scans": [
@@ -3298,7 +3460,7 @@
       "朝鮮 大正十二年度末",
       "22",
       "139.31.30",
-      "76 [?]",
+      "76 281",
       "22"
      ],
      [
@@ -3310,7 +3472,7 @@
      ],
      [
       "臺灣 大正十二年度末",
-      "[?]",
+      "12",
       "61.16.40",
       "32,058",
       "43"
@@ -3323,9 +3485,9 @@
    "Rows: 4 as printed (朝鮮 has a brace over its two year lines). The first heading 給 sits at the binding shadow and belongs to 給水管延長.",
    "Unit marks above the first row: 里町間 (pipe length), 戶 (households; small), 戶 (last column).",
    "Pipe length is printed as 里.町.間 triples with separators as seen ('51.29 25', '139.31.30', '1,564.02.58', '61.16.40'; a speck before '16' in the 臺灣 line ignored).",
-   "Row '朝鮮 大正十二年度末', col '給水戶數': printed '76 2?1' middle digit broken (8 or 5) — [?]. Row '臺灣', col '水道數': printed '1?' with the second digit broken — [?].",
    "'32,058' read with the last digit slightly broken; '22' (朝鮮) second digit slightly broken, read as 2.",
-   "No totals printed."
+   "No totals printed.",
+   "Re-read 2026-11-24 (Opus): 朝鮮 大正十二年度末 給水戶數 read as '76 281' (damaged digit has a closed upper loop rising above x-height, i.e. 8); 臺灣 水道數 read as 12 (second digit: ball terminal and flat base of a 2)."
   ],
   "id": "p0012_3",
   "scans": [
@@ -3384,7 +3546,7 @@
      ],
      [
       "內地",
-      "[?]",
+      "20,030",
       "294",
       "1,726",
       "2,473",
@@ -3400,13 +3562,19 @@
       "1,665",
       "21",
       "261",
-      "[?]",
+      "298",
       "7,132",
       "7,712",
       "558",
       "0.32",
       "[?]",
       "30.58"
+     ]
+    ],
+    "inferred": [
+     [
+      2,
+      4
      ]
     ]
    }
@@ -3415,9 +3583,11 @@
   "transcriber_notes": [
    "Rows: 3 as printed. The binding shadow cuts the 警部補 / 巡查 heading boundary (巡查 read from '巡 ... 查').",
    "Unit marks above the first row: 人 over the five headcount columns and over 巡查一人ニ付人口, 方里 over 面積, a small unit over 警察官署數 (illegible, not recorded in the column name).",
-   "Row '內地', col '警察官署': printed '2?,030' second digit broken — [?]. Row '臺灣', col '職員 — 警部補': printed '29?' last digit clipped — [?]. Row '臺灣', col '十方里ニ付 警察官署數': printed '7.?9' second digit clipped — [?].",
    "Read with slight damage but accepted: '918' (朝鮮 警部補), '932' (last digit small), '52,461' (first digit touches the binding shadow), '19,188'.",
-   "Totals: 朝鮮 54+474+918+19,188=20,634 reconciles; 內地 294+1,726+2,473+52,461=56,954 reconciles; 臺灣 21+261+[?]+7,132 → 7,712 printed (警部補 unreadable, cannot be checked)."
+   "Totals: 朝鮮 54+474+918+19,188=20,634 reconciles; 內地 294+1,726+2,473+52,461=56,954 reconciles; 臺灣 21+261+[?]+7,132 → 7,712 printed (警部補 unreadable, cannot be checked).",
+   "Re-read 2026-11-24 (Opus): 內地 警察官署 read as 20,030 (second digit is the right arc of an x-height 0; 20,030 / 2,514.9 方里 (from 巡查數 20.86) = 7.96 as printed).",
+   "Re-read 2026-11-24 (Opus): Inferred (not legible): 臺灣 / 職員 — 警部補 = 298, from 計 7,712 − 21 − 261 − 7,132 (printed '29' + top of a tall 8-like digit).",
+   "Re-read 2026-11-24 (Opus): 臺灣 十方里ニ付 警察官署數 still [?]: printed '7.c9', the middle digit looks like a broken 0, but 1,665 offices on the area implied by 巡查數 30.58 (≈2,332 方里) gives 7.14, so the reading is not trusted (rate, not inferred)."
   ],
   "id": "p0013_1",
   "scans": [
@@ -3463,7 +3633,7 @@
       "朝鮮",
       "67",
       "101",
-      "[?]",
+      "55,115",
       "20,188",
       "75,303",
       "974,719",
@@ -3474,7 +3644,7 @@
       "內地",
       "339",
       "1,704",
-      "[?]",
+      "1,040,307",
       "104,053",
       "1,144,360",
       "5,441,535",
@@ -3492,6 +3662,16 @@
       "29.5",
       "13.3"
      ]
+    ],
+    "inferred": [
+     [
+      0,
+      3
+     ],
+     [
+      1,
+      3
+     ]
     ]
    }
   ],
@@ -3501,9 +3681,10 @@
   "transcriber_notes": [
    "Rows: 3 as printed. Binding shadow hides the heading characters of the 新受件數 sub-columns 刑 (read 刑事 from the visible 事 and the matching 人口萬ニ付 刑事 head); 受 of 新受 is also partly hidden.",
    "Unit mark 件 printed above the first row of the last two columns.",
-   "Row '朝鮮', col '新受件數 — 民事': printed '55,1?5' middle digit damaged — [?]. Row '內地', col '新受件數 — 民事': printed '1,?40,307' second digit clipped — [?].",
    "Read as printed with slight damage: '11,718' (臺灣), '17.8' (內地 刑事 per 萬), '3o'→'30' (臺灣 出張所).",
-   "Totals: 臺灣 11,718+5,305=17,023 reconciles. 內地 [?]+104,053 and 朝鮮 [?]+20,188 cannot be checked."
+   "Totals: 臺灣 11,718+5,305=17,023 reconciles. 內地 [?]+104,053 and 朝鮮 [?]+20,188 cannot be checked.",
+   "Re-read 2026-11-24 (Opus): Inferred (not legible): 朝鮮 / 新受件數 — 民事 = 55,115, from 計 75,303 − 刑事 20,188 (printed '55,1?5', middle digit a broken stem).",
+   "Re-read 2026-11-24 (Opus): Inferred (not legible): 內地 / 新受件數 — 民事 = 1,040,307, from 計 1,144,360 − 刑事 104,053 (printed '1,c40,307', second digit the left arc of 0)."
   ],
   "id": "p0013_2",
   "scans": [
@@ -3551,7 +3732,7 @@
       "12",
       "...",
       "863",
-      "[?]",
+      "12,598",
       "248",
       "13,709",
       "[?]"
@@ -3578,6 +3759,12 @@
       "3,078",
       "[?]"
      ]
+    ],
+    "inferred": [
+     [
+      0,
+      5
+     ]
     ]
    }
   ],
@@ -3586,9 +3773,10 @@
    "Rows: 3 as printed. Heading '在監人員' is printed '在監人員' with letter-spacing; the first sub-heading of 在監人員 is partly hidden by the binding shadow (visible: 刑 ... 被告人) and is recorded as 刑事被告人.",
    "The last column (人口萬ニ付在監人員) is cut off by the edge of the scan: only the left edge of the figures is visible (e.g. '7.?' for 朝鮮, '?.?' for 內地, '7.?' for 臺灣) — all three cells [?]; the end of the heading is also cut.",
    "Unit mark 人 printed above the first row of the 在監人員 columns.",
-   "Row '朝鮮', col '受刑者': printed '12,59?' last digit clipped — [?].",
    "Read with slight damage: '863' (last digit low-set), '64' and '54' (內地 刑務所, 分(支)所), '3' (臺灣 刑務所, speck before it), '2,719'.",
-   "Totals: 內地 2,783+38,751+127=41,661 reconciles; 臺灣 262+2,719+97=3,078 reconciles; 朝鮮 863+[?]+248 vs 13,709 cannot be checked."
+   "Totals: 內地 2,783+38,751+127=41,661 reconciles; 臺灣 262+2,719+97=3,078 reconciles; 朝鮮 863+[?]+248 vs 13,709 cannot be checked.",
+   "Re-read 2026-11-24 (Opus): Inferred (not legible): 朝鮮 / 受刑者 = 12,598, from 計 13,709 − 863 − 248 (printed '12,59' + top loop of an 8-like digit).",
+   "Re-read 2026-11-24 (Opus): 人口萬ニ付在監人員 (all three cells) still [?]: cut off by the edge of the scan."
   ],
   "id": "p0013_3",
   "scans": [
