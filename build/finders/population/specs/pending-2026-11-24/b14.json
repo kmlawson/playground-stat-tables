@@ -1,0 +1,259 @@
+[
+ {
+  "t": "korea-tokanfu-1913:p0057_4",
+  "skip": "passports issued"
+ },
+ {
+  "t": "korea-tokanfu-1913:p0188_3",
+  "skip": "postal savings"
+ },
+ {
+  "t": "korea-tokanfu-1913:p0203_2",
+  "skip": "crime cases"
+ },
+ {
+  "t": "korea-tokanfu-1913:p0258_1",
+  "skip": "civil suits"
+ },
+ {
+  "t": "korea-tokanfu-1913:p0260_1",
+  "skip": "civil suits"
+ },
+ {
+  "t": "korea-tokanfu-1913:p0284_1",
+  "skip": "criminal cases"
+ },
+ {
+  "t": "korea-tokanfu-1913:p0289_1",
+  "skip": "criminal cases"
+ },
+ {
+  "t": "korea-tokanfu-1913:p0297_1",
+  "skip": "criminal cases"
+ },
+ {
+  "t": "korea-tokanfu-1913:p0425_1",
+  "skip": "finance"
+ },
+ {
+  "t": "korea-tokanfu-1922-2:p0009_1",
+  "skip": "farm households only"
+ },
+ {
+  "t": "korea-tokanfu-1922-2:p0043_1",
+  "skip": "fishery households only"
+ },
+ {
+  "t": "korea-tokanfu-1922-4:p0009_1",
+  "x": [
+   {
+    "pt": "province",
+    "in": "Korea",
+    "d": "1922-12-31",
+    "b": "resident",
+    "rp": {
+     "13": "Korea"
+    },
+    "cols": [
+     {
+      "c": 2
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "t": "korea-tokanfu-1922-4:p0010_4",
+  "x": [
+   {
+    "pt": "province",
+    "in": "Korea",
+    "d": "1922-12-31",
+    "b": "resident",
+    "m": "households",
+    "only": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13
+    ],
+    "rp": {
+     "13": "Korea"
+    },
+    "cols": [
+     {
+      "c": 1,
+      "g": "japanese"
+     },
+     {
+      "c": 2,
+      "g": "korean"
+     },
+     {
+      "c": 3,
+      "g": "foreign"
+     },
+     {
+      "c": 4
+     }
+    ]
+   },
+   {
+    "rows": "dates",
+    "p": "Korea",
+    "b": "resident",
+    "m": "households",
+    "only": [
+     14,
+     15
+    ],
+    "rd": {
+     "14": "1921-12-31",
+     "15": "1910-12-31"
+    },
+    "cols": [
+     {
+      "c": 1,
+      "g": "japanese"
+     },
+     {
+      "c": 2,
+      "g": "korean"
+     },
+     {
+      "c": 3,
+      "g": "foreign"
+     },
+     {
+      "c": 4
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "t": "korea-tokanfu-1922-4:p0010_5",
+  "x": [
+   {
+    "pt": "province",
+    "in": "Korea",
+    "d": "1922-12-31",
+    "b": "resident",
+    "m": "total",
+    "only": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     15
+    ],
+    "rp": {
+     "15": "Korea"
+    },
+    "cols": [
+     {
+      "c": 1,
+      "g": "japanese"
+     },
+     {
+      "c": 2,
+      "g": "korean"
+     },
+     {
+      "c": 3,
+      "g": "foreign"
+     },
+     {
+      "c": 4
+     }
+    ]
+   },
+   {
+    "rows": "dates",
+    "p": "Korea",
+    "b": "resident",
+    "m": "total",
+    "only": [
+     16,
+     17
+    ],
+    "rd": {
+     "16": "1921-12-31",
+     "17": "1910-12-31"
+    },
+    "cols": [
+     {
+      "c": 1,
+      "g": "japanese"
+     },
+     {
+      "c": 2,
+      "g": "korean"
+     },
+     {
+      "c": 3,
+      "g": "foreign"
+     },
+     {
+      "c": 4
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "t": "korea-tokanfu-1922-4:p0011_2",
+  "skip": "urban settlements"
+ },
+ {
+  "t": "korea-tokanfu-1922-4:p0011_3",
+  "x": [
+   {
+    "only": [
+     7
+    ],
+    "rp": {
+     "7": "Korea"
+    },
+    "d": "1922-12-31",
+    "b": "resident",
+    "cols": [
+     {
+      "c": 1,
+      "g": "japanese"
+     },
+     {
+      "c": 2,
+      "g": "korean"
+     },
+     {
+      "c": 3,
+      "g": "foreign"
+     },
+     {
+      "c": 4
+     }
+    ]
+   }
+  ]
+ }
+]

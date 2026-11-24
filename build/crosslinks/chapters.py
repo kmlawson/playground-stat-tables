@@ -2053,3 +2053,13 @@ for _top, _chs in {"Land and climate": ["1 土地", "2 氣象", "15 土地調査
                    "Education": ["21 教育", "22 社寺及教會"], "Social affairs": ["22 社寺及教會", "23 慈惠及救濟"],
                    "Public finance": ["24 財政"], "Monopolies": ["25 紅蔘專賣"], "Officials": ["26 官吏附恩賞"]}.items():
     SERIES["korea-tokei"]["topics"][_top]["korea-tokanfu-1913"] = _chs
+# 2026-11-24: 統計年報 1922 (大正11) parts 第2/3其ノ1/4/5/7編 added to korea-tokei (update mode); the 統計便覽 booklet in 第4編 is left out
+SERIES["korea-tokei"]["books"] = ["korea-tokanfu-1908", "korea-tokanfu-1913", "korea-tokanfu-1919", "korea-tokanfu-1922-2", "korea-tokanfu-1922-3-1",
+                                  "korea-tokanfu-1922-4", "korea-tokanfu-1922-5", "korea-tokanfu-1922-7", "korea-tokanfu-1939"]
+for _b, _m in {"korea-tokanfu-1922-2": {"Agriculture": ["農業"], "Forestry": ["林業附狩獵"], "Fisheries": ["水產業"], "Mining and industry": ["鑛業"]},
+               "korea-tokanfu-1922-3-1": {"Mining and industry": ["商業、工業"], "Banking and commerce": ["商業、工業"], "Prices and wages": ["物價及勞銀"]},
+               "korea-tokanfu-1922-4": {"Railways": ["鐵道"], "Public works and shipping": ["水運", "土木及築港"], "Communications": ["郵便及郵便爲替貯金事業"]},
+               "korea-tokanfu-1922-5": {"Police": ["警察"], "Public health": ["衛生"]},
+               "korea-tokanfu-1922-7": {"Education": ["敎育", "社寺及敎會"], "Social affairs": ["社寺及敎會", "慈惠及救濟"], "Officials": ["官公吏及恩給"]}}.items():
+    for _top, _chs in _m.items():
+        SERIES["korea-tokei"]["topics"][_top][_b] = _chs
