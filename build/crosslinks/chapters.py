@@ -2015,3 +2015,7 @@ SERIES["japan-seikatsu-jikan"] = {"name": "國民生活時間調査 (National Ti
     "Time budgets": {"japan-seikatsu-jikan-nogyo-1943": ["行爲別一人一日當消費時間量表"], "japan-seikatsu-jikan-joshi-1943": ["行爲別一人一日當消費時間量表"], "japan-seikatsu-jikan-hokyu-1943": ["行爲別一人一日當消費時間量表"], "japan-seikatsu-jikan-kouri-1943": ["行爲別一人一日當消費時間量表"]},
     "Radio-listening suitability": {"japan-seikatsu-jikan-nogyo-1943": ["時刻別聽取適否參考表 — 地方別"], "japan-seikatsu-jikan-joshi-1943": ["時刻別聽取適否參考表 — 地方別"], "japan-seikatsu-jikan-hokyu-1943": ["時刻別聽取適否參考表"], "japan-seikatsu-jikan-kouri-1943": ["時刻別聽取適否參考表"]},
   }}
+
+SERIES["korea-kokusei"] = {"name": "朝鮮國勢調査 (Census of Korea: 1925 simplified census, 1930 and 1935 censuses)",
+                           "books": ["korea-kani-kokusei-1925", "korea-kokusei-1930", "korea-kokusei-1935"],
+                           "topics": {"Census results": {"korea-kani-kokusei-1925": ["世帶及人口ノ概況", "年齡及配偶關係別人口全鮮總括表", "府郡島別年齡及配偶關係別人口表", "府郡島別本籍及國籍別人口表", "府面別世帶及人口表", "本籍及國籍別人口全鮮總括表", "簡易國勢調査事務經過概要", "道別世帶及人口表", "道別年齡及配偶關係別人口表", "道別本籍及國籍別人口表", "開港水面表"], "korea-kokusei-1930": ["統計圖", "統計表", "附錄"], "korea-kokusei-1935": ["結果の概要 第一章 人口", "結果の概要 第七章 世帶", "結果の概要 第三章 年齡", "結果の概要 第二章 體性", "結果の概要 第五章 常住人口", "結果の概要 第六章 民籍國籍", "結果の概要 第四章 配偶關係", "統計表", "調査の顛末", "附錄"]}}}
