@@ -15,6 +15,7 @@ Other files to read when the task needs them:
 - `docs/stages/` — one file per later stage (translations, tags, similar tables, topics and maps, finder pages):
   read the one for the stage you are at.
 - `../queue.md` — the book log (what is done, where, which model, special instructions per book).
+- `docs/later-tasks.md` — agreed tasks not yet done (e.g. moving the git database off Oma); check it when idle.
 
 ## Where things are
 
