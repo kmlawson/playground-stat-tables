@@ -1,0 +1,649 @@
+[
+ {
+  "t": "korea-kokusei-1930:p0217_1",
+  "skip": "household size proportions"
+ },
+ {
+  "t": "korea-kokusei-1930:p0225_1",
+  "skip": "occupation classification"
+ },
+ {
+  "t": "korea-kokusei-1935:p0014_3",
+  "x": [
+   {
+    "pt": "province",
+    "in": "Korea",
+    "d": "1935-10-01",
+    "b": "census",
+    "rp": {
+     "0": "Korea"
+    },
+    "cols": [
+     {
+      "c": 4,
+      "m": "households"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "t": "korea-kokusei-1935:p0015_1",
+  "x": [
+   {
+    "rows": "dates",
+    "p": "Korea",
+    "b": "census",
+    "cols": [
+     {
+      "c": 1,
+      "n": "final count"
+     },
+     {
+      "c": 2,
+      "n": "preliminary count"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "t": "korea-kokusei-1935:p0016_2",
+  "skip": "budget only"
+ },
+ {
+  "t": "korea-kokusei-1935:p0016_3",
+  "skip": "budget only"
+ },
+ {
+  "t": "korea-kokusei-1935:p0017_1",
+  "x": [
+   {
+    "rows": "dates",
+    "p": "Korea",
+    "b": "census",
+    "cols": [
+     {
+      "c": 1
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "t": "korea-kokusei-1935:p0017_2",
+  "x": [
+   {
+    "pt": "colony",
+    "in": "World",
+    "b": "census",
+    "rp": {
+     "0": "Japanese Empire",
+     "1": "Japan proper",
+     "2": "Korea",
+     "3": "Taiwan",
+     "4": "Karafuto"
+    },
+    "cols": [
+     {
+      "c": 1,
+      "d": "1935-10-01"
+     },
+     {
+      "c": 2,
+      "d": "1930-10-01"
+     },
+     {
+      "c": 3,
+      "d": "1925-10-01"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "t": "korea-kokusei-1935:p0017_3",
+  "skip": "movement components"
+ },
+ {
+  "t": "korea-kokusei-1935:p0017_4",
+  "x": [
+   {
+    "pt": "province",
+    "in": "Korea",
+    "b": "census",
+    "rp": {
+     "0": "Korea"
+    },
+    "cols": [
+     {
+      "c": 1,
+      "d": "1935-10-01"
+     },
+     {
+      "c": 2,
+      "d": "1930-10-01"
+     },
+     {
+      "c": 3,
+      "d": "1925-10-01"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "t": "korea-kokusei-1935:p0018_1",
+  "skip": "increase only"
+ },
+ {
+  "t": "korea-kokusei-1935:p0018_2",
+  "skip": "movement components"
+ },
+ {
+  "t": "korea-kokusei-1935:p0019_1",
+  "x": [
+   {
+    "rows": "cells",
+    "b": "census",
+    "cells": [
+     {
+      "r": 1,
+      "c": 1,
+      "p": "Korea",
+      "d": "1935-10-01"
+     },
+     {
+      "r": 2,
+      "c": 1,
+      "p": "Korea",
+      "d": "1930-10-01"
+     },
+     {
+      "r": 3,
+      "c": 1,
+      "p": "Korea",
+      "d": "1925-10-01"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "t": "korea-kokusei-1935:p0019_2",
+  "skip": "increase only"
+ },
+ {
+  "t": "korea-kokusei-1935:p0019_3",
+  "skip": "urban/rural subtotals"
+ },
+ {
+  "t": "korea-kokusei-1935:p0020_1",
+  "x": [
+   {
+    "pt": "city",
+    "in": "Korea",
+    "b": "census",
+    "cols": [
+     {
+      "c": 1,
+      "d": "1935-10-01"
+     },
+     {
+      "c": 2,
+      "d": "1930-10-01",
+      "n": "1935 municipal boundaries"
+     },
+     {
+      "c": 3,
+      "d": "1925-10-01",
+      "n": "1935 municipal boundaries"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "t": "korea-kokusei-1935:p0020_2",
+  "skip": "size classes"
+ },
+ {
+  "t": "korea-kokusei-1935:p0021_1",
+  "x": [
+   {
+    "pt": "province",
+    "in": "Korea",
+    "b": "census",
+    "rp": {
+     "0": "Korea"
+    },
+    "cols": [
+     {
+      "c": 2,
+      "d": "1935-10-01"
+     },
+     {
+      "c": 3,
+      "d": "1930-10-01"
+     },
+     {
+      "c": 4,
+      "d": "1925-10-01"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "t": "korea-kokusei-1935:p0021_2",
+  "x": [
+   {
+    "pt": "city",
+    "in": "Korea",
+    "b": "census",
+    "d": "1935-10-01",
+    "cols": [
+     {
+      "c": 2
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "t": "korea-kokusei-1935:p0021_3",
+  "x": [
+   {
+    "rows": "dates",
+    "p": "Korea",
+    "b": "census",
+    "cols": [
+     {
+      "c": 1,
+      "m": "male"
+     },
+     {
+      "c": 2,
+      "m": "female"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "t": "korea-kokusei-1935:p0022_1",
+  "skip": "increase components"
+ },
+ {
+  "t": "korea-kokusei-1935:p0022_2",
+  "skip": "sex ratios"
+ },
+ {
+  "t": "korea-kokusei-1935:p0022_3",
+  "skip": "movement components"
+ },
+ {
+  "t": "korea-kokusei-1935:p0023_1",
+  "skip": "urban/rural subtotals"
+ },
+ {
+  "t": "korea-kokusei-1935:p0023_2",
+  "x": [
+   {
+    "pt": "city",
+    "in": "Korea",
+    "b": "census",
+    "d": "1935-10-01",
+    "rp": {
+     "15": "Hamhung"
+    },
+    "cols": [
+     {
+      "c": 1,
+      "m": "male"
+     },
+     {
+      "c": 2,
+      "m": "female"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "t": "korea-kokusei-1935:p0024_1",
+  "x": [
+   {
+    "part": 0,
+    "rows": "cells",
+    "b": "census",
+    "cells": [
+     {
+      "r": 0,
+      "c": 1,
+      "p": "Korea",
+      "d": "1935-10-01"
+     },
+     {
+      "r": 0,
+      "c": 2,
+      "p": "Korea",
+      "d": "1935-10-01",
+      "m": "male"
+     },
+     {
+      "r": 0,
+      "c": 3,
+      "p": "Korea",
+      "d": "1935-10-01",
+      "m": "female"
+     }
+    ]
+   },
+   {
+    "part": 1,
+    "rows": "cells",
+    "b": "census",
+    "cells": [
+     {
+      "r": 0,
+      "c": 1,
+      "p": "Korea",
+      "d": "1930-10-01"
+     },
+     {
+      "r": 0,
+      "c": 2,
+      "p": "Korea",
+      "d": "1930-10-01",
+      "m": "male"
+     },
+     {
+      "r": 0,
+      "c": 3,
+      "p": "Korea",
+      "d": "1930-10-01",
+      "m": "female"
+     }
+    ]
+   },
+   {
+    "part": 2,
+    "rows": "cells",
+    "b": "census",
+    "cells": [
+     {
+      "r": 0,
+      "c": 1,
+      "p": "Korea",
+      "d": "1925-10-01"
+     },
+     {
+      "r": 0,
+      "c": 2,
+      "p": "Korea",
+      "d": "1925-10-01",
+      "m": "male"
+     },
+     {
+      "r": 0,
+      "c": 3,
+      "p": "Korea",
+      "d": "1925-10-01",
+      "m": "female"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "t": "korea-kokusei-1935:p0024_2",
+  "x": [
+   {
+    "part": 0,
+    "rows": "cells",
+    "b": "census",
+    "cells": [
+     {
+      "r": 0,
+      "c": 1,
+      "p": "Korea",
+      "d": "1935-10-01"
+     },
+     {
+      "r": 0,
+      "c": 2,
+      "p": "Korea",
+      "d": "1935-10-01",
+      "m": "male"
+     },
+     {
+      "r": 0,
+      "c": 3,
+      "p": "Korea",
+      "d": "1935-10-01",
+      "m": "female"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "t": "korea-kokusei-1935:p0024_3",
+  "skip": "sex ratios"
+ },
+ {
+  "t": "korea-kokusei-1935:p0025_1",
+  "x": [
+   {
+    "part": 0,
+    "rows": "cells",
+    "b": "census",
+    "cells": [
+     {
+      "r": 0,
+      "c": 1,
+      "p": "Korea",
+      "d": "1935-10-01"
+     },
+     {
+      "r": 0,
+      "c": 2,
+      "p": "Korea",
+      "d": "1935-10-01",
+      "m": "male"
+     },
+     {
+      "r": 0,
+      "c": 3,
+      "p": "Korea",
+      "d": "1935-10-01",
+      "m": "female"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "t": "korea-kokusei-1935:p0027_1",
+  "skip": "age proportions"
+ },
+ {
+  "t": "korea-kokusei-1935:p0028_1",
+  "skip": "sex ratios"
+ },
+ {
+  "t": "korea-kokusei-1935:p0028_2",
+  "skip": "urban/rural subtotals"
+ },
+ {
+  "t": "korea-kokusei-1935:p0028_3",
+  "skip": "urban/rural subtotals"
+ },
+ {
+  "t": "korea-kokusei-1935:p0029_1",
+  "skip": "age proportions"
+ },
+ {
+  "t": "korea-kokusei-1935:p0029_2",
+  "x": [
+   {
+    "part": 0,
+    "rows": "cells",
+    "b": "census",
+    "cells": [
+     {
+      "r": 0,
+      "c": 1,
+      "p": "Korea",
+      "d": "1935-10-01"
+     },
+     {
+      "r": 0,
+      "c": 2,
+      "p": "Korea",
+      "d": "1935-10-01",
+      "m": "male"
+     },
+     {
+      "r": 0,
+      "c": 3,
+      "p": "Korea",
+      "d": "1935-10-01",
+      "m": "female"
+     }
+    ]
+   },
+   {
+    "part": 1,
+    "rows": "cells",
+    "b": "census",
+    "cells": [
+     {
+      "r": 0,
+      "c": 1,
+      "p": "Korea",
+      "d": "1930-10-01"
+     },
+     {
+      "r": 0,
+      "c": 2,
+      "p": "Korea",
+      "d": "1930-10-01",
+      "m": "male"
+     },
+     {
+      "r": 0,
+      "c": 3,
+      "p": "Korea",
+      "d": "1930-10-01",
+      "m": "female"
+     }
+    ]
+   },
+   {
+    "part": 2,
+    "rows": "cells",
+    "b": "census",
+    "cells": [
+     {
+      "r": 0,
+      "c": 1,
+      "p": "Korea",
+      "d": "1925-10-01"
+     },
+     {
+      "r": 0,
+      "c": 2,
+      "p": "Korea",
+      "d": "1925-10-01",
+      "m": "male"
+     },
+     {
+      "r": 0,
+      "c": 3,
+      "p": "Korea",
+      "d": "1925-10-01",
+      "m": "female"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "t": "korea-kokusei-1935:p0031_1",
+  "skip": "marital proportions"
+ },
+ {
+  "t": "korea-kokusei-1935:p0035_1",
+  "skip": "duplicate of province table"
+ },
+ {
+  "t": "korea-kokusei-1935:p0035_2",
+  "x": [
+   {
+    "pt": "province",
+    "in": "Korea",
+    "b": "census",
+    "d": "1935-10-01",
+    "rp": {
+     "0": "Korea"
+    },
+    "cols": [
+     {
+      "c": 2,
+      "n": "present population"
+     },
+     {
+      "c": 1,
+      "b": "other",
+      "n": "de jure (usual-residence) population"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "t": "korea-kokusei-1935:p0036_1",
+  "x": [
+   {
+    "pt": "province",
+    "in": "Korea",
+    "d": "1935-10-01",
+    "rp": {
+     "0": "Korea"
+    },
+    "cols": [
+     {
+      "c": 3,
+      "m": "male",
+      "b": "census",
+      "n": "present population"
+     },
+     {
+      "c": 4,
+      "m": "female",
+      "b": "census",
+      "n": "present population"
+     },
+     {
+      "c": 1,
+      "m": "male",
+      "b": "other",
+      "n": "de jure (usual-residence) population"
+     },
+     {
+      "c": 2,
+      "m": "female",
+      "b": "other",
+      "n": "de jure (usual-residence) population"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "t": "korea-kokusei-1935:p0036_2",
+  "skip": "urban/rural subtotals"
+ }
+]
