@@ -617,6 +617,15 @@ def year_of(b):
     return m.group(1) if m else ""
 
 
+def good_btn(rows):
+    """A volume's "good only" button: hides its fair and check rows. None when every row is good already."""
+    ng = sum(1 for c in rows if any(h["grade"] == "good" for h in c["hits"]))
+    if ng == len(rows):
+        return ""
+    return (' <button type="button" class="goodvol" aria-pressed="false"%s title="Show only this volume\'s tables in a good state">'
+            'good only (%d)</button>' % (" disabled" if not ng else "", ng))
+
+
 def row_html(c):
     t, b = c["table"], c["book"]
     url = BOOK_URL.format(slug=b["slug"], id=t["id"])
@@ -740,8 +749,8 @@ def section(found, seen_books, site, region="japan", rname="Japan", primary=("pr
             rows = groups[b["slug"]]
             out.append('<details class="book"><summary><input type="checkbox" class="pickall" title="Choose every table shown in this volume"'
                        ' aria-label="Choose every table shown in this volume"> <span class="bt" lang="ja">%s</span>'
-                       ' <span class="slug">%s</span> <span class="n">%d</span></summary>'
-                       % (esc(b.get("title")), esc(b["slug"]), len(rows)))
+                       '  <span class="slug">%s</span> <span class="n">%d</span>%s</summary>'
+                       % (esc(b.get("title")), esc(b["slug"]), len(rows), good_btn(rows)))
             out.append('<table><thead><tr><th>Table</th><th>Title</th><th>Matched</th>'
                        '<th>Rows × cols</th><th>State</th></tr></thead><tbody>')
             out.extend(row_html(c) for c in rows)
@@ -812,13 +821,14 @@ def recent_section(found, seen, site, M):
         out.append('<details class="book vol" data-text="%s" data-map="%d" data-cand="%d" data-t="%d">'
                    % (esc(text), nl, open_n, int(at.timestamp()) if at else 0))
         out.append('<summary>%s<span class="when">%s</span> %s <span class="bt" lang="ja">%s</span>'
-                   ' <span class="slug">%s · %s · %d tables</span> %s</summary>'
+                   ' <span class="slug">%s · %s · %d tables</span> %s%s</summary>'
                    % ('<input type="checkbox" class="pickall" title="Choose every table shown in this volume" '
                       'aria-label="Choose every table shown in this volume"> ' if L else "",
                       at.strftime("%Y-%m-%d") if at else "—", mark, esc(b.get("title")), esc(slug),
                       esc(rname.get(group_of(b), "")), ntab,
                       ('<span class="n" title="Candidate tables not yet linked (good or fair)">%d</span>' % open_n)
-                      + ('<span class="sub"> of %d candidates</span>' % len(L) if len(L) != open_n else "")))
+                      + ('<span class="sub"> of %d candidates</span>' % len(L) if len(L) != open_n else ""),
+                      good_btn(L) if L else ""))
         if L:
             out.append('<table><thead><tr><th>Table</th><th>Title</th><th>Matched</th>'
                        '<th>Rows × cols</th><th>State</th></tr></thead><tbody>')
@@ -957,6 +967,12 @@ tr.hide { display: none; }
 
 # Ticks persist in this browser; Copy puts the chosen tables' addresses on the clipboard as a request to add map buttons.
 PICKER = """
+<style>
+details.vgood tbody tr:not([data-grade="good"]) { display: none; }
+button.goodvol { font: inherit; font-size: 12px; margin-left: 8px; padding: 0 8px; border-radius: 8px; border: 1px solid var(--good); color: var(--good); background: transparent; cursor: pointer; }
+button.goodvol[aria-pressed="true"] { background: var(--good); color: var(--bg); }
+button.goodvol:disabled { border-color: var(--rule); color: var(--mute); cursor: default; }
+</style>
 <div id="pickbar" style="position:fixed;right:16px;bottom:16px;z-index:5;display:flex;gap:8px;align-items:center;background:var(--card);border:1px solid var(--rule);border-radius:8px;padding:8px 10px;box-shadow:0 2px 8px rgba(0,0,0,.15);font-size:14px">
 <span id="pickn">0 chosen</span><button type="button" id="pickcopy">Copy</button><button type="button" id="pickclear">Clear</button></div>
 <script>
@@ -974,12 +990,20 @@ PICKER = """
   });
   // A volume's box chooses (or clears) every table now shown in it: the filter and "good only" hide rows, and a
   // hidden row is left as it is. Its tick says whether every shown table is chosen.
-  function shown(d) { return Array.prototype.filter.call(d.querySelectorAll('input.pick'), function (b) { return !b.closest('tr').classList.contains('hide'); }); }
+  function shown(d) { var g = d.classList.contains('vgood'); return Array.prototype.filter.call(d.querySelectorAll('input.pick'), function (b) { var tr = b.closest('tr'); return !tr.classList.contains('hide') && !(g && tr.getAttribute('data-grade') !== 'good'); }); }
   function sync(d) { var s = shown(d), a = d.querySelector('input.pickall'); if (!a) return;
     var n = s.filter(function (b) { return b.checked; }).length; a.checked = s.length > 0 && n === s.length; a.indeterminate = n > 0 && n < s.length; }
   function syncAll() { document.querySelectorAll('details.book').forEach(sync); }
   document.querySelectorAll('details.book > summary').forEach(function (sm) {
     sm.addEventListener('click', function (e) {
+      var gb = e.target.closest('button.goodvol');
+      if (gb) {                                // this volume only: show its good tables, or all again
+        e.preventDefault();
+        var on = !sm.parentNode.classList.contains('vgood');
+        sm.parentNode.classList.toggle('vgood', on); gb.setAttribute('aria-pressed', on ? 'true' : 'false');
+        if (on) sm.parentNode.open = true;
+        sync(sm.parentNode); return;
+      }
       var a = e.target.closest('input.pickall'); if (!a) return;
       e.preventDefault();                      // a click in the summary would open or close the volume
       var d = sm.parentNode, s = shown(d), on = !s.every(function (b) { return b.checked; });
