@@ -2072,3 +2072,9 @@ for _top, _chs in {"Land and climate": ["1 土地", "2 氣象"], "Population": [
                    "Social affairs": ["21 社寺及敎會", "22 慈惠及救濟"], "Officials": ["23 官公吏及恩給"], "Public finance": ["24 財政"],
                    "Monopolies": ["25 專賣"]}.items():
     SERIES["korea-tokei"]["topics"][_top]["korea-tokanfu-1928"] = _chs
+
+# 2026-11-25: 統計年報 1916 (大正5) added to korea-tokei (update mode)
+SERIES["korea-tokei"]["books"] = ["korea-tokanfu-1908", "korea-tokanfu-1913", "korea-tokanfu-1916", "korea-tokanfu-1919", "korea-tokanfu-1922", "korea-tokanfu-1928", "korea-tokanfu-1939"]
+for _top, _chs in SERIES["korea-tokei"]["topics"].items():
+    if "korea-tokanfu-1913" in _chs:
+        _chs["korea-tokanfu-1916"] = [{"15 土地調査": "15 土地調查", "21 教育": "21 教育", "22 社寺及教會": "22 社寺及敎會"}.get(c, c) for c in _chs["korea-tokanfu-1913"]]
