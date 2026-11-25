@@ -134,3 +134,6 @@ SU1–SU6 | done | china-smc update: 1932 added (agents SU1–SU6, 2026-11-11)
 - 2026-11-24: korea-tokanfu series (TF1–TF5) merged into the existing korea-tokei series (1908, 1919, 1939) by xl_merge_tokei1919.py: 269 1919 tables placed (182 new 1919–1939 families, the rest added to 1908–1939 families); 8 new topics (1919+1939). korea-tokanfu removed.
 | TG1–TG6 | done | korea-tokanfu-1913 added to korea-tokei (update mode; 21 topics, ~470 1913 tables placed) |
 | TH1–TH5 | done | 1922 parts (korea-tokanfu-1922-2/-3-1/-4/-5/-7) added to korea-tokei (update mode; ~250 tables placed; 統計便覽 booklet left out) |
+
+## 2026-11-25 — korea-tokei update: + korea-tokanfu-1928 (TI1–TI6, Sonnet, update mode)
+TI1 public-finance/monopolies/officials 67 new; TI2 justice/prisons/police 101; TI3 population/land/health 60 (+4 families); TI4 education/social/banking 98; TI5 agri/forestry/fisheries/mining 73 (+10 families); TI6 prices/trade/railways/comms/public works 60.

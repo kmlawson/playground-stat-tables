@@ -1,0 +1,26 @@
+import json
+d=json.load(open('batches/b04.json'))
+def R(t,tg,why,tp=None): return (tp or ['finance'],tg,why)
+out=[]
+for r in d:
+    n=int(r['table_no']); T=r['title']
+    if n==121: x=(['agriculture','trade'],['prices','barley'],'barley prices')
+    elif n==122: x=(['agriculture','trade'],['prices','wheat'],'wheat prices')
+    elif n==123: x=(['trade','economy'],['prices'],'commodity prices by city')
+    elif n==124: x=(['labour'],['wages'],'wages by trade and race')
+    elif n==125: x=(['finance'],['banking'],'bank offices by province')
+    elif n==126: x=(['finance'],['currency'],'currency in circulation')
+    elif n in(127,128,129): x=(['finance'],['currency','banking'],'Bank of Chosen note issue')
+    elif n==130: x=(['finance'],['currency','banking'],'note issue reserves')
+    elif n==131: x=(['finance'],['banking'],'bank business overview')
+    elif n in(132,133,139,143,146,150,153,157,160): x=(['finance'],['banking','savings-and-loans'],'bank deposits')
+    elif n in(134,135,141,142,148,149,155,156): x=(['finance'],['banking','savings-and-loans'],'bank loans')
+    elif n==136: x=(['finance'],['banking','savings-and-loans'],'deposits and loans by province')
+    elif n in(137,144,151,158): x=(['finance'],['banking'],'exchange business of banks')
+    elif n in(138,145,152,159): x=(['finance'],['banking'],'bank business overview')
+    elif n in(140,147,154): x=(['finance'],['banking'],'bank borrowings')
+    else: raise Exception(n)
+    if n in(159,160): x=(x[0],x[1]+['agricultural-credit'],x[2]+'; agricultural banks')
+    out.append(dict(key=r['key'],topics=x[0],tags=x[1],flags=[],why=x[2]))
+json.dump(out,open('results/b04.json','w'),ensure_ascii=False,indent=1)
+print(len(out),sum(1 for o in out if o['tags']))

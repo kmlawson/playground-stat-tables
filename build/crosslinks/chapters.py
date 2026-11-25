@@ -2063,3 +2063,14 @@ for _b, _m in {"korea-tokanfu-1922-2": {"Agriculture": ["農業"], "Forestry": [
                "korea-tokanfu-1922-7": {"Education": ["敎育", "社寺及敎會"], "Social affairs": ["社寺及敎會", "慈惠及救濟"], "Officials": ["官公吏及恩給"]}}.items():
     for _top, _chs in _m.items():
         SERIES["korea-tokei"]["topics"][_top][_b] = _chs
+# 2026-11-25: 統計年報 1928 (昭和3) added to korea-tokei (update mode)
+SERIES["korea-tokei"]["books"] = ["korea-tokanfu-1908", "korea-tokanfu-1913", "korea-tokanfu-1919", "korea-tokanfu-1922-2", "korea-tokanfu-1922-3-1",
+                                  "korea-tokanfu-1922-4", "korea-tokanfu-1922-5", "korea-tokanfu-1922-7", "korea-tokanfu-1928", "korea-tokanfu-1939"]
+for _top, _chs in {"Land and climate": ["1 土地", "2 氣象"], "Population": ["3 戶口"], "Agriculture": ["4 農業"], "Forestry": ["5 林業附狩獵"],
+                   "Fisheries": ["6 水產業"], "Mining and industry": ["7 鑛業", "8 商業及工業"], "Banking and commerce": ["8 商業及工業", "10 金融"],
+                   "Prices and wages": ["9 物價及勞銀"], "Foreign trade": ["11 貿易"], "Railways": ["12 鐵道"],
+                   "Public works and shipping": ["13 水運", "15 土木及築港"], "Communications": ["14 郵便及郵便爲替貯金事業"], "Police": ["16 警察"],
+                   "Public health": ["17 衞生"], "Justice": ["18 裁判登記及供託"], "Prisons": ["19 監獄"], "Education": ["20 敎育", "21 社寺及敎會"],
+                   "Social affairs": ["21 社寺及敎會", "22 慈惠及救濟"], "Officials": ["23 官公吏及恩給"], "Public finance": ["24 財政"],
+                   "Monopolies": ["25 專賣"]}.items():
+    SERIES["korea-tokei"]["topics"][_top]["korea-tokanfu-1928"] = _chs
