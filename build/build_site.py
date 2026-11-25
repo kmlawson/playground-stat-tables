@@ -844,54 +844,17 @@ BOOKS = [
      "item": "https://dl.ndl.go.jp/pid/974936",
      "model": "Sonnet 5.5",
      "blank_marking": True},
-    {"slug": "korea-tokanfu-1922-2", "dir": "Chosen_Sotokufu_Tokei_1922_2",
-     "title": "朝鮮總督府統計年報 1922 第2編", "subtitle": "Chōsen Sōtokufu tōkei nenpō (Statistical Annual of the Government-General of Korea), 大正十一年 (Taishō 11), Part 2: 農業・林業附狩獵・水產業・鑛業",
-     "publisher": "朝鮮總督府, 京城, 1924 (大正十三年)",
-     "blurb": "From 1922 the Government-General of Korea published its statistical annual in separate parts (編). This is Part 2 (第2編) of the annual for 1922 (大正11年): 65 numbered tables on agriculture, sericulture and livestock, forestry and hunting, fisheries, and mining. Most tables compare the years since 1910 (明治四十三年) and then break 1922 down by province.",
-     "source": "LLM-transcribed from the National Diet Library scan (NDL pid 974954).",
-     "gaps": "All 65 numbered tables are transcribed (70 tables, about 20,888 figure cells), with the contents; the 凡例, the contents pages and the colophon are not. Divider leaves carry small summary boxes, transcribed as unnumbered tables. Tables printed across both pages of a spread are joined into one; long tables were read in sections by different readers and joined. Each spread was read once by a Claude Sonnet agent from tight crops, with no second reading. 125 cells could not be read and are marked [?]. Printed totals were re-added; those that do not add up are kept as printed and noted, and where a digit was ambiguous only between 3 and 8 and exactly one reading made a printed total reconcile, that reading is used and noted. Where the original prints a question mark (unknown figures for early years) it is kept as ?.",
-     "scan": "https://dl.ndl.go.jp/pid/974954/1/{leaf}",
+    {"slug": "korea-tokanfu-1922", "dir": "Chosen_Sotokufu_Tokei_1922",
+     "title": "朝鮮總督府統計年報 1922", "subtitle": "Chōsen Sōtokufu tōkei nenpō (Statistical Annual of the Government-General of Korea), 大正十一年 (Taishō 11): 第2編, 第3編其ノ1, 第4編, 第5編, 第7編",
+     "publisher": "朝鮮總督府, 京城, 1923–1924 (大正十二–十三年)",
+     "note": "Five separately published parts (編) shown together; the other parts are not included",
+     "page_note": "From 1922 the Government-General of Korea published its statistical annual in separate parts (編), each with its own page and table numbering. This page joins the five parts transcribed so far — 第2編, 第3編其ノ1, 第4編, 第5編 and 第7編, each a separate scan at the National Diet Library — into one book; the printed contents below are divided by part, and each table's scan link opens its own part. The other parts of the 1922 annual (第1編, 第3編其ノ2, 第6編 and any later parts) are not included.",
+     "blurb": "From 1922 the Government-General of Korea published its statistical annual in separate parts (編). This book joins five parts of the annual for 1922 (大正11年): 第2編 (agriculture, sericulture and livestock, forestry and hunting, fisheries, mining; 65 tables), 第3編其ノ1 (companies, insurance, markets, factories and industrial output, electricity, prices and wages; 18 tables), 第4編 (railways, shipping and ports, posts, money orders, postal savings, telegraphs and telephones, roads, harbours and public works; 52 tables, with the pocket 統計便覽 booklet of 1923 bound in), 第5編 (police and public health; 32 tables) and 第7編 (education, shrines, temples and churches, charity and relief, officials and pensions; 84 tables). Most tables compare the years since 1910 (明治四十三年) and then break 1922 down by province. The other parts are not included.",
+     "source": "LLM-transcribed from the National Diet Library scans of the five parts (NDL pids 974954, 974955, 974957, 974958, 974960).",
+     "gaps": "Five of the parts (編) of the 1922 annual are transcribed: 第2編, 第3編其ノ1, 第4編, 第5編 and 第7編, with all their 251 numbered tables and the 59 small tables of the 統計便覽 booklet bound into 第4編 (326 tables, about 104,000 figure cells), and their contents; the 凡例, the contents pages and the colophons are not. The other parts of the annual are not included. Each part numbers its tables and pages from 1, so table numbers repeat between parts; the printed contents are divided by part. Divider leaves carry small summary boxes, transcribed as unnumbered tables. Re-shot duplicate frames and dark ghost frames were skipped. Tables printed across both pages of a spread are joined into one; long tables were read in sections by different readers and joined. Each spread was read once by a Claude Sonnet agent from tight crops, with no second reading. 1,636 cells could not be read and are marked [?] (893 of them in 第5編, whose scan is soft and low in contrast). Printed totals were re-added; those that do not add up are kept as printed and noted, and where a digit was ambiguous only between 3 and 8 and exactly one reading made a printed total reconcile, that reading is used and noted. Where the original prints a question mark (unknown figures for early years) it is kept as ?.",
+     "scan": "https://dl.ndl.go.jp/pid/{partname}/1/{leaf}",
+     "scan_parts": {2: "974954", 3: "974955", 4: "974957", 5: "974958", 7: "974960"},
      "item": "https://dl.ndl.go.jp/pid/974954",
-     "model": "Sonnet 5.5",
-     "blank_marking": True},
-    {"slug": "korea-tokanfu-1922-3-1", "dir": "Chosen_Sotokufu_Tokei_1922_3_1",
-     "title": "朝鮮總督府統計年報 1922 第3編其ノ1", "subtitle": "Chōsen Sōtokufu tōkei nenpō (Statistical Annual of the Government-General of Korea), 大正十一年 (Taishō 11), Part 3, No. 1: 商業、工業・物價及勞銀",
-     "publisher": "朝鮮總督府, 京城, 1924 (大正十三年)",
-     "blurb": "From 1922 the Government-General of Korea published its statistical annual in separate parts (編). This is Part 3, No. 1 (第3編其ノ1) of the annual for 1922 (大正11年): 18 numbered tables on companies, insurance, markets, tobacco consumption, weights and measures, factories and industrial output, electricity, industrial schools, the monthly prices of rice, beans, barley and wheat in the market towns, commodity prices and wages. Most tables compare the years since 1910 (明治四十三年) and then break 1922 down by province.",
-     "source": "LLM-transcribed from the National Diet Library scan (NDL pid 974955).",
-     "gaps": "All 18 numbered tables are transcribed (21 tables, about 16,477 figure cells), with the contents; the 凡例, the contents pages and the colophon are not. One frame is a re-shot duplicate and was skipped; the long price tables are faint in places. Tables printed across both pages of a spread are joined into one; long tables were read in sections by different readers and joined. Each spread was read once by a Claude Sonnet agent from tight crops, with no second reading. 284 cells could not be read and are marked [?]. Printed totals were re-added; those that do not add up are kept as printed and noted, and where a digit was ambiguous only between 3 and 8 and exactly one reading made a printed total reconcile, that reading is used and noted. Where the original prints a question mark (unknown figures for early years) it is kept as ?.",
-     "scan": "https://dl.ndl.go.jp/pid/974955/1/{leaf}",
-     "item": "https://dl.ndl.go.jp/pid/974955",
-     "model": "Sonnet 5.5",
-     "blank_marking": True},
-    {"slug": "korea-tokanfu-1922-4", "dir": "Chosen_Sotokufu_Tokei_1922_4",
-     "title": "朝鮮總督府統計年報 1922 第4編", "subtitle": "Chōsen Sōtokufu tōkei nenpō (Statistical Annual of the Government-General of Korea), 大正十一年 (Taishō 11), Part 4: 鐵道・水運・郵便及郵便爲替貯金事業・土木及築港",
-     "publisher": "朝鮮總督府, 京城, 1924 (大正十三年)",
-     "blurb": "From 1922 the Government-General of Korea published its statistical annual in separate parts (編). This is Part 4 (第4編) of the annual for 1922 (大正11年): 52 numbered tables on railways (lines, rolling stock, traffic and revenue, every station), shipping and ports, posts, money orders, postal savings, telegraphs and telephones, and roads, harbours and public works. Most tables compare the years since 1910 (明治四十三年) and then break 1922 down by province.",
-     "source": "LLM-transcribed from the National Diet Library scan (NDL pid 974957).",
-     "gaps": "All 52 numbered tables are transcribed (116 tables, about 17,383 figure cells), with the contents; the 凡例, the contents pages and the colophon are not. Bound into this part is a small pocket booklet, 統計便覽 (Statistical Handbook, compiled 1923), whose 59 small summary tables on every subject are transcribed as a separate chapter; a bar chart on its map page whose figures could not be read is left out. Tables printed across both pages of a spread are joined into one; long tables were read in sections by different readers and joined. Each spread was read once by a Claude Sonnet agent from tight crops, with no second reading. 157 cells could not be read and are marked [?]. Printed totals were re-added; those that do not add up are kept as printed and noted, and where a digit was ambiguous only between 3 and 8 and exactly one reading made a printed total reconcile, that reading is used and noted. Where the original prints a question mark (unknown figures for early years) it is kept as ?.",
-     "scan": "https://dl.ndl.go.jp/pid/974957/1/{leaf}",
-     "item": "https://dl.ndl.go.jp/pid/974957",
-     "model": "Sonnet 5.5",
-     "blank_marking": True},
-    {"slug": "korea-tokanfu-1922-5", "dir": "Chosen_Sotokufu_Tokei_1922_5",
-     "title": "朝鮮總督府統計年報 1922 第5編", "subtitle": "Chōsen Sōtokufu tōkei nenpō (Statistical Annual of the Government-General of Korea), 大正十一年 (Taishō 11), Part 5: 警察・衛生",
-     "publisher": "朝鮮總督府, 京城, 1924 (大正十三年)",
-     "blurb": "From 1922 the Government-General of Korea published its statistical annual in separate parts (編). This is Part 5 (第5編) of the annual for 1922 (大正11年): 32 numbered tables on police (stations and staff, crimes and arrests, summary judgments, suicides, foundlings, rescues, firearms, licensed trades) and public health (medical staff, infectious diseases by province, month, occupation and age, health inspections, vaccination, government and provincial hospitals and their patients, quarantine). Most tables compare the years since 1910 (明治四十三年) and then break 1922 down by province.",
-     "source": "LLM-transcribed from the National Diet Library scan (NDL pid 974958).",
-     "gaps": "All 32 numbered tables are transcribed (32 tables, about 24,241 figure cells), with the contents; the 凡例, the contents pages and the colophon are not. Two frames are re-shot duplicates and were skipped. The scan of this part is soft and low in contrast, so more cells are unreadable than in the other parts. Tables printed across both pages of a spread are joined into one; long tables were read in sections by different readers and joined. Each spread was read once by a Claude Sonnet agent from tight crops, with no second reading. 893 cells could not be read and are marked [?]. Printed totals were re-added; those that do not add up are kept as printed and noted, and where a digit was ambiguous only between 3 and 8 and exactly one reading made a printed total reconcile, that reading is used and noted. Where the original prints a question mark (unknown figures for early years) it is kept as ?.",
-     "scan": "https://dl.ndl.go.jp/pid/974958/1/{leaf}",
-     "item": "https://dl.ndl.go.jp/pid/974958",
-     "model": "Sonnet 5.5",
-     "blank_marking": True},
-    {"slug": "korea-tokanfu-1922-7", "dir": "Chosen_Sotokufu_Tokei_1922_7",
-     "title": "朝鮮總督府統計年報 1922 第7編", "subtitle": "Chōsen Sōtokufu tōkei nenpō (Statistical Annual of the Government-General of Korea), 大正十一年 (Taishō 11), Part 7: 敎育・社寺及敎會・慈惠及救濟・官公吏及恩給",
-     "publisher": "朝鮮總督府, 京城, 1924 (大正十三年)",
-     "blurb": "From 1922 the Government-General of Korea published its statistical annual in separate parts (編). This is Part 7 (第7編) of the annual for 1922 (大正11年): 84 numbered tables on schools of every kind (Japanese and Korean, public and private, with pupils, teachers, finances and property), libraries and textbooks, shrines, temples and churches with their clergy and believers, relief of the poor and of travellers, the Red Cross and the Patriotic Women's Society, and officials, their salaries and pensions. Most tables compare the years since 1910 (明治四十三年) and then break 1922 down by province.",
-     "source": "LLM-transcribed from the National Diet Library scan (NDL pid 974960).",
-     "gaps": "All 84 numbered tables are transcribed (87 tables, about 25,238 figure cells), with the contents; the 凡例, the contents pages and the colophon are not. Two re-shot duplicate frames and two dark ghost frames were skipped. Divider leaves carry small summary boxes, transcribed as unnumbered tables. Tables printed across both pages of a spread are joined into one; long tables were read in sections by different readers and joined. Each spread was read once by a Claude Sonnet agent from tight crops, with no second reading. 177 cells could not be read and are marked [?]. Printed totals were re-added; those that do not add up are kept as printed and noted, and where a digit was ambiguous only between 3 and 8 and exactly one reading made a printed total reconcile, that reading is used and noted. Where the original prints a question mark (unknown figures for early years) it is kept as ?.",
-     "scan": "https://dl.ndl.go.jp/pid/974960/1/{leaf}",
-     "item": "https://dl.ndl.go.jp/pid/974960",
      "model": "Sonnet 5.5",
      "blank_marking": True},
     {"slug": "korea-tokanfu-1928", "dir": "Chosen_Sotokufu_Tokei_1928",
@@ -3182,6 +3145,7 @@ def main():
                    .replace("__CHARTJS__", ('<script src="../../charts.js" charset="utf-8"></script>\n' if chart_ids(b, clean) else "")
                             + ('<script src="../../daychart.js" charset="utf-8"></script>\n' if b.get("viz") == "timeuse" else ""))
                    .replace("__QSTAT__", json.dumps(b.get("_qstat", ""), ensure_ascii=False))
+                   .replace("__PAGENOTE__", json.dumps(b.get("page_note", ""), ensure_ascii=False).replace("</", "<\\/"))
                    .replace("__XLSX__", f' · <a href="../../{dl(b["slug"], "tables.xlsx")}" style="color:inherit" download>Excel</a>' if dl(b["slug"], "tables.xlsx") else "")
                    .replace("__CELLS__", f"{c:,}").replace("__BOOK__", html.escape(b["title"]))
                    .replace("__SLUG__", b["slug"]).replace("__SOURCE__", "LLM-transcribed")
@@ -3537,7 +3501,7 @@ def printed_toc(b, tables=()):
         if not u and not e.get("page") and parent and parent["u"]:  # no page printed: open its chapter's first page
             out.append({"l": lv, "t": e["title"], "p": "", "u": parent["u"], "c": 1}); where.append(None)
             continue
-        out.append({"l": lv, "t": e["title"], "p": e.get("page", ""), "u": u}); where.append(at)
+        out.append({"l": lv, "t": e["title"], "p": e.get("page", ""), "u": u, **({"v": 1} if e.get("volume") else {})}); where.append(at)  # v: a volume (part) header
     # "Show tables": a numbered table goes under the contents entry with its number ("76 死亡者年齡別"); any other
     # table under the entry that starts nearest before it in the scan
     byno = {}
@@ -3553,6 +3517,9 @@ def printed_toc(b, tables=()):
         im = (t.get("images") or [t.get("image")])[0]
         k = by_page.key(im) if im else None
         hit = byno.get(str(t.get("table_no") or "").strip(), [])
+        if len(hit) > 1 and k is not None:  # books in several parts, each numbering its tables from 1
+            same = [i for i in hit if where[i] is not None and where[i][0] == k[0]]
+            hit = same if len(same) == 1 else hit
         if len(hit) == 1:
             best = hit[0]
         elif k is None:
@@ -3987,7 +3954,7 @@ mark{background:var(--hi);color:inherit}
 .che2{display:block;font-size:15px;color:var(--muted);margin-top:2px}
 .che3{display:block;font-weight:normal;font-size:max(12px,.54em);color:var(--muted);margin-top:.15em}
 .enn{color:var(--muted);font-size:13px;white-space:nowrap}
-.ptoc{margin:0 0 18px;border:1px solid var(--line,#ccc);border-radius:6px;background:var(--panel);padding:6px 12px}.ptoc summary{cursor:pointer;font-weight:bold;padding:4px 0}.ptoc ul{list-style:none;margin:6px 0;padding:0;columns:2 420px;column-gap:28px}.ptoc li{display:flex;gap:8px;break-inside:avoid;padding:1px 0;line-height:1.35}.ptoc li a{color:inherit}.ptoc li a:hover{color:var(--accent)}.ptoc .pp{margin-left:auto;color:var(--muted,#777);font-variant-numeric:tabular-nums;white-space:nowrap}.ptoc .pl0{font-weight:bold;text-transform:none;margin-top:10px;break-after:avoid}.ptoc .pl1{font-weight:bold;margin-top:4px}.ptoc .pl2{padding-left:16px;font-size:14px}.ptoc .pl3{padding-left:32px;font-size:13px}.ptoc .ptk{display:block;font-size:14px;margin:2px 0 6px;cursor:pointer}.ptoc .ptkh{color:var(--muted);font-size:13px}.ptoc li.ptt{display:none;font-size:13px;font-weight:normal}.ptoc ul.showt li.ptt{display:flex}.ptoc a.ptti{display:none;color:color-mix(in srgb,var(--accent) 60%,var(--ink));text-decoration:none;padding:0 6px}.ptoc .tbadge{display:inline-flex;align-items:center;justify-content:center;box-sizing:border-box;width:15px;height:15px;padding:0;border:1.5px solid currentColor;border-radius:3px;font:700 10px/1 system-ui,-apple-system,"Segoe UI",Arial,sans-serif;margin-right:5px;vertical-align:-2px;flex:none}.ptoc a.ptti .tbadge{margin:0}.ptoc ul.showt a.ptti{display:inline}.ptoc li.ptt a{color:color-mix(in srgb,var(--accent) 60%,var(--ink))}
+.booknote{margin:0 0 14px;padding:8px 12px;border-left:3px solid var(--accent);background:var(--panel);font-size:15px;line-height:1.45}.ptoc.parts .pl0{font-size:16px;border-bottom:1px solid var(--line,#ccc);padding-bottom:2px;column-span:all}.ptoc{margin:0 0 18px;border:1px solid var(--line,#ccc);border-radius:6px;background:var(--panel);padding:6px 12px}.ptoc summary{cursor:pointer;font-weight:bold;padding:4px 0}.ptoc ul{list-style:none;margin:6px 0;padding:0;columns:2 420px;column-gap:28px}.ptoc li{display:flex;gap:8px;break-inside:avoid;padding:1px 0;line-height:1.35}.ptoc li a{color:inherit}.ptoc li a:hover{color:var(--accent)}.ptoc .pp{margin-left:auto;color:var(--muted,#777);font-variant-numeric:tabular-nums;white-space:nowrap}.ptoc .pl0{font-weight:bold;text-transform:none;margin-top:10px;break-after:avoid}.ptoc .pl1{font-weight:bold;margin-top:4px}.ptoc .pl2{padding-left:16px;font-size:14px}.ptoc .pl3{padding-left:32px;font-size:13px}.ptoc .ptk{display:block;font-size:14px;margin:2px 0 6px;cursor:pointer}.ptoc .ptkh{color:var(--muted);font-size:13px}.ptoc li.ptt{display:none;font-size:13px;font-weight:normal}.ptoc ul.showt li.ptt{display:flex}.ptoc a.ptti{display:none;color:color-mix(in srgb,var(--accent) 60%,var(--ink));text-decoration:none;padding:0 6px}.ptoc .tbadge{display:inline-flex;align-items:center;justify-content:center;box-sizing:border-box;width:15px;height:15px;padding:0;border:1.5px solid currentColor;border-radius:3px;font:700 10px/1 system-ui,-apple-system,"Segoe UI",Arial,sans-serif;margin-right:5px;vertical-align:-2px;flex:none}.ptoc a.ptti .tbadge{margin:0}.ptoc ul.showt a.ptti{display:inline}.ptoc li.ptt a{color:color-mix(in srgb,var(--accent) 60%,var(--ink))}
 .qstat{font-size:13.5px;color:var(--muted);margin:0 0 16px}.cite{font-size:13.5px;color:var(--muted);margin:0 0 16px;overflow-wrap:anywhere}.cite b{color:var(--ink);font-weight:600}.origbtn{display:inline-block;margin:4px 0 16px;padding:8px 14px;border:1px solid var(--accent);border-radius:6px;background:var(--panel);color:var(--accent);text-decoration:none;font-size:15px;font-weight:bold}.origbtn:hover{background:var(--hi)}
 .ctx{max-width:760px;font-size:14.5px;line-height:1.55;margin:8px 0 12px;padding:9px 12px;border-left:3px solid var(--accent);background:var(--panel)}
 .aboutbtn{margin-left:auto;font:inherit;font-size:14px;background:transparent;color:var(--accent-ink);border:1px solid currentColor;border-radius:5px;padding:5px 12px;cursor:pointer;align-self:center}.aboutbtn+#toggle{margin-left:0}
@@ -4084,7 +4051,7 @@ const kn=(s,q)=>NF==="a"?KN(s,KNFULL):s;
 const ORIG=__ORIG__;const CITE=__CITE__;
 const PTOC=__PTOC__;
 const PTK=PTOC.some(e=>e.k);let ptkOn=true;try{ptkOn=localStorage.getItem("ptocTables")!=="0"}catch(e){}
-const ptoc=()=>PTOC.length?`<details class="ptoc"><summary>Contents of the printed book (${PTOC.length} entries)${ORIG?` · each links to its page on ${esc(ORIG.l)}`:""}</summary>${PTK?`<label class="ptk"><input type="checkbox" id="ptocT"${ptkOn?" checked":""} onchange="ptocTables(this.checked)"> Include table links <span class="tbadge" style="margin:0 0 0 3px">T</span></label>`:""}<ul${ptkOn?' class="showt"':""}>`+PTOC.map(e=>{const ks=e.k||[],same=ks.length===1?ks.filter(k=>ptLike(k[1],e.t)):ks.filter(k=>ptNorm(k[1])===ptNorm(e.t)),rest=ks.filter(k=>!same.includes(k));
+const ptoc=()=>PTOC.length?`<details class="ptoc${PTOC.some(e=>e.l===0&&e.v)?" parts":""}"><summary>Contents of the printed book (${PTOC.length} entries)${ORIG?` · each links to its page on ${esc(ORIG.l)}`:""}</summary>${PTK?`<label class="ptk"><input type="checkbox" id="ptocT"${ptkOn?" checked":""} onchange="ptocTables(this.checked)"> Include table links <span class="tbadge" style="margin:0 0 0 3px">T</span></label>`:""}<ul${ptkOn?' class="showt"':""}>`+PTOC.map(e=>{const ks=e.k||[],same=ks.length===1?ks.filter(k=>ptLike(k[1],e.t)):ks.filter(k=>ptNorm(k[1])===ptNorm(e.t)),rest=ks.filter(k=>!same.includes(k));
   return `<li class="pl${e.l}">${e.u?`<a href="${esc(e.u)}" target="_blank" rel="noopener"${e.c?` title="No page printed for this section: opens the first page of its chapter"`:""}>${esc(e.t)}</a>`:esc(e.t)}${same.map(k=>`<a class="ptti" href="#${esc(k[0])}" title="Open this table on this site: ${esc(k[1])}"><span class="tbadge">T</span></a>`).join("")}${e.p?`<span class="pp">${esc(e.p)}</span>`:""}</li>`+rest.map(k=>`<li class="ptt pl${Math.min(e.l+1,3)}"><a href="#${esc(k[0])}" title="Open this table on this site"><span class="tbadge">T</span>${esc(k[1])}</a></li>`).join("")}).join("")+`</ul></details>`:"";
 // a table whose title is the entry's own title gets only a marker beside the entry (user, 2026-10-22)
 // an entry's only table counts as the entry itself unless the titles are radically different
@@ -4098,7 +4065,7 @@ function ptocTables(on){ptkOn=on;document.querySelectorAll(".ptoc ul").forEach(u
 const origLink=()=>(ORIG?`<a class="origbtn" href="${esc(ORIG.u)}" target="_blank" rel="noopener">View Original</a>`:"")+(CITE?`<p class="cite"><b>Citation:</b> ${CITE.a?esc(CITE.a)+", ":""}${/[\u3040-\u30ff\u3400-\u9fff\uf900-\ufaff]/.test(CITE.t)?esc(CITE.t):`<i>${esc(CITE.t)}</i>`} (${esc(CITE.p)})${CITE.u?`. ${esc(CITE.u)}`:""}</p>`:"");
 const MARKED=__MARKED__;
 const CJK=/[\u3040-\u30ff\u3400-\u9fff\uf900-\ufaff]/;  // never italicise Asian text (user, 2026-10-22)
-const QSTAT=__QSTAT__;
+const QSTAT=__QSTAT__;const PAGENOTE=__PAGENOTE__;
 const XL=__XL__;
 const FL=__FINDERS__;   // tables whose figures are on a finder page (build/finders/): [[label, href, title]]
 const CHEN=__CHEN__;
@@ -4203,9 +4170,9 @@ function dirSec(top){if(!DIRSEC)return "";const g=DIRSEC.groups;
  return `<h2 style="margin:${top?0:28}px 0 6px">Directory</h2><div class="chsum">${DIRSEC.total.toLocaleString()} directory entr${DIRSEC.total===1?"y":"ies"}${g.length>1?` in ${g.length} sections`:""}. Choose a section to open the directory.</div><div class="chgrid" style="--chfs:15px">`+
   g.map(c=>`<a class="chbtn" href="directory.html${c.s?"#s="+encodeURIComponent(c.s):""}">${esc(c.l)}<small>${c.n.toLocaleString()} entr${c.n===1?"y":"ies"}</small></a>`).join("")+`</div>`}
 function showHome(){mode="home";cur=null;closeCmp();const n={};T.forEach(t=>{const c=t.chapter||"(no chapter)";n[c]=(n[c]||0)+1});
- if(DIRCARDS){$("#main").innerHTML=`<div class="chhead">Contents</div>`+origLink()+QSTAT+ptoc()+dirCards()+`<h2 style="margin:28px 0 6px">Tables</h2><div class="chsum">${T.length} table${T.length===1?"":"s"} in ${chapters.length} section${chapters.length===1?"":"s"}. Choose a section, or pick a single table from the list.</div><div class="chgrid" style="--chfs:15px">`+
+ if(DIRCARDS){$("#main").innerHTML=`<div class="chhead">Contents</div>`+(PAGENOTE?`<p class="booknote">${esc(PAGENOTE)}</p>`:"")+origLink()+QSTAT+ptoc()+dirCards()+`<h2 style="margin:28px 0 6px">Tables</h2><div class="chsum">${T.length} table${T.length===1?"":"s"} in ${chapters.length} section${chapters.length===1?"":"s"}. Choose a section, or pick a single table from the list.</div><div class="chgrid" style="--chfs:15px">`+
   chapters.map(c=>`<a class="chbtn" href="#ch=${encodeURIComponent(c)}">${esc(c)}${chE(c,"che3")}<small>${n[c]} table${n[c]===1?"":"s"}</small></a>`).join("")+`</div>`+LLMWARN;$("#main").scrollTop=0;mark();anSync();return}
- $("#main").innerHTML=`<div class="chhead">Contents</div>`+origLink()+QSTAT+ptoc()+(DIRSEC&&DIRSEC.first?dirSec(true):"")+`<h2 style="margin:${DIRSEC&&DIRSEC.first?28:0}px 0 6px">Chapters</h2><div class="chsum">${T.length} table${T.length===1?"":"s"} in ${chapters.length} chapter${chapters.length===1?"":"s"}. Choose a chapter, or pick a single table from the list.</div><div class="chgrid" id="chgrid">`+
+ $("#main").innerHTML=`<div class="chhead">Contents</div>`+(PAGENOTE?`<p class="booknote">${esc(PAGENOTE)}</p>`:"")+origLink()+QSTAT+ptoc()+(DIRSEC&&DIRSEC.first?dirSec(true):"")+`<h2 style="margin:${DIRSEC&&DIRSEC.first?28:0}px 0 6px">Chapters</h2><div class="chsum">${T.length} table${T.length===1?"":"s"} in ${chapters.length} chapter${chapters.length===1?"":"s"}. Choose a chapter, or pick a single table from the list.</div><div class="chgrid" id="chgrid">`+
   chapters.map(c=>`<a class="chbtn" href="#ch=${encodeURIComponent(c)}">${esc(c)}${chE(c,"che3")}<small>${n[c]} table${n[c]===1?"":"s"}</small></a>`).join("")+`</div>`+dirCards()+(DIRSEC&&!DIRSEC.first?dirSec(false):"")+LLMWARN;
  $("#main").scrollTop=0;fitGrid();mark();anSync()}
 // Desktop: pick the largest button font (12-28px) at which every chapter button fits in the pane without scrolling
