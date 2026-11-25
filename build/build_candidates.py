@@ -209,6 +209,10 @@ def build_indexes(F, M):
     for k, names in {"Heiannan": ["Keian Nan-do", "Keian Nan", "South Keian"], "Heianhoku": ["Keian Hoku-do", "Keian Hoku", "North Keian"]}.items():
         for n in names:
             ix["korea"].setdefault(F.prov(n), k)
+    # 咸鏡 transcribed as 成鏡 (the two characters look alike in these scans; 150-odd cells in the 統計年報 and censuses).
+    for k, names in {"Kankyonan": ["成鏡南道", "成鏡南"], "Kankyohoku": ["成鏡北道", "成鏡北"]}.items():
+        for n in names:
+            ix["korea"].setdefault(F.prov(n), k)
     tw = sub("taiwan")
     shu = [r for r in tw if re.search(r"[州廳]\s*\(", r.get("ja", ""))]
     gun = [r for r in tw if re.search(r"[市郡]\s*\(", r.get("ja", ""))]
