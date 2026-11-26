@@ -44,6 +44,11 @@ wrong and what to do about it. Add a line when a book teaches something new.
 - **Directories / Who's Who** need their own DIRECTORY missions (Sonnet); mixed into table missions they are skipped or
   half-done.
 - **Chronologies**: transcribe everywhere except the Japan Year Books; the llm pipeline once skipped them silently.
+- **llm CLI with Sonnet 5.5 on dense spreads** (日本帝國統計年鑑 1930, 2026-11-25): send ONE spread per call with
+  `max_tokens` 128000. With 2–3 dense spreads and 64k, 41 of 102 replies failed or were cut mid-JSON (thinking, which
+  cannot be disabled, used the budget); `thinking_effort` low made the model shorten tables ("partial transcription",
+  "first rows only"). `common.load` silently patches a truncated reply — check replies with a strict `json.loads` and
+  grep for "partial"/"first rows" before writing tables.
 
 ## Layout traps
 - **Sideways pages**: rotate them upright in `full/` and `plan/` before any mission (the 1947 abstract had 98 of 145);
