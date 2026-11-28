@@ -1,7 +1,7 @@
 {
 "_doc": "Collect the draft place-name glossary (the \"Places\" page, places.html) into build/names/glossary.json.",
-"n": 1382,
-"translation_hits": 3469,
+"n": 1380,
+"translation_hits": 3572,
 "entries": [
 {
 "id": "n-cn-anji-zj",
@@ -1783,51 +1783,6 @@
 "Changning": "pinyin (unambiguous reading)",
 "Ch'ang-ning": "Wade-Giles from the characters (unambiguous reading)",
 "常宁": "simplified with OpenCC"
-}
-}
-],
-"nb": 1,
-"t": [
-"cx"
-]
-},
-{
-"id": "n-cn-changsha-city-hn",
-"en": "Changsha (municipality)",
-"k": "city",
-"r": "China",
-"up": "cn-Hunan",
-"rows": [
-{
-"core": "長沙",
-"former": false,
-"note": "",
-"status": "main",
-"cols": {
-"tc": [
-"長沙市"
-]
-},
-"src": {
-"長沙市": "t"
-},
-"fy": {
-"長沙市": [
-1935,
-1935
-]
-},
-"yrs": [
-1935,
-1935
-],
-"added": {
-"sc": [
-"长沙市"
-]
-},
-"asrc": {
-"长沙市": "simplified with OpenCC"
 }
 }
 ],
@@ -5216,11 +5171,15 @@
 ],
 "jo": [
 "長沙"
+],
+"tc": [
+"長沙市"
 ]
 },
 "src": {
 "Changsha": "t",
-"長沙": "t"
+"長沙": "t",
+"長沙市": "t"
 },
 "fy": {
 "Changsha": [
@@ -5230,6 +5189,10 @@
 "長沙": [
 1922,
 1941
+],
+"長沙市": [
+1935,
+1935
 ]
 },
 "yrs": [
@@ -5237,12 +5200,12 @@
 1941
 ],
 "added": {
+"sc": [
+"长沙市",
+"长沙"
+],
 "tc": [
 "長沙"
-],
-"sc": [
-"长沙",
-"长沙市"
 ],
 "py": [
 "Chángshā"
@@ -5252,15 +5215,15 @@
 ]
 },
 "asrc": {
+"长沙市": "simplified with OpenCC",
 "長沙": "traditional characters, from the Japanese printing",
 "长沙": "simplified with OpenCC",
-"长沙市": "Wikipedia: Changsha",
 "Chángshā": "Wikipedia: Changsha",
 "Ch'ang-sha": "Wikipedia: Changsha"
 }
 }
 ],
-"nb": 21,
+"nb": 22,
 "ll": [
 28.23,
 112.94
@@ -44014,8 +43977,8 @@
 1946
 ],
 "Hokkaidō": [
-1905,
-1907
+1904,
+1943
 ],
 "北海道": [
 1930,
@@ -44036,67 +43999,7 @@
 }
 }
 ],
-"nb": 39,
-"t": [
-"em",
-"jp"
-]
-},
-{
-"id": "r-hokkaido",
-"en": "Hokkaidō region",
-"k": "region",
-"r": "Japan",
-"up": "japan",
-"rows": [
-{
-"core": "北海道",
-"former": false,
-"note": "",
-"status": "main",
-"cols": {
-"hep": [
-"Hokkaidō",
-"Hokkaido"
-],
-"jo": [
-"北海道"
-]
-},
-"src": {
-"Hokkaidō": "t",
-"Hokkaido": "t",
-"北海道": "t"
-},
-"fy": {
-"Hokkaidō": [
-1904,
-1908
-],
-"Hokkaido": [
-1930,
-1934
-],
-"北海道": [
-1935,
-1935
-]
-},
-"yrs": [
-1904,
-1935
-],
-"added": {
-"jn": [
-"北海道"
-]
-},
-"asrc": {
-"北海道": "same characters in new forms"
-}
-}
-],
-"nb": 6,
+"nb": 53,
 "t": [
 "em",
 "jp"

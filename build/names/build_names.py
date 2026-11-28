@@ -54,6 +54,7 @@ table.nm tr.nm-first td{border-bottom:none;padding-bottom:1px}
 table.nm tr.nm-info td{padding:0 8px 6px 30px;font-size:12.5px;color:var(--muted);border-top:none}
 .nm-infol{position:sticky;left:30px;max-width:min(1200px, calc(100vw - 90px))}
 .nm-infol a{color:var(--accent)}.nm-sep{color:var(--line)}
+.nm-id{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:11px;color:var(--muted)}
 .nm-meta{display:block;color:var(--muted);font-size:12.5px}
 .nm-f{display:block;white-space:nowrap}
 .nm-f+.nm-f{color:var(--muted)}
@@ -176,6 +177,15 @@ function cjkName(e){
 D.forEach(e=>{e.rom=romName(e);e.cjk=cjkName(e)});
 let CJKFIRST=false;try{CJKFIRST=localStorage.getItem("nm-cjkfirst")==="1"}catch(_){}
 const shown=e=>CJKFIRST&&e.cjk?[e.cjk,e.rom]:[e.rom,e.cjk];
+// cross-references: related units with the same characters (a city and its county, the Republic's and Manchukuo's
+// province of one name) and different places with the same romanised name (金州 and 錦州, both Jinzhou)
+const CORE=f=>{const t=f.replace(/(特別市|市|府|省|縣|県|廳|庁|郡|街|庄|區|区|町|村|面|邑)$/,"");return t.length>=2?t:f};   // not 州 or 道: 北海道 is not 北海
+const GRP={China:"cn",Manchuria:"cn",Kwantung:"cn",Korea:"kr",Japan:"jp",Karafuto:"jp",Taiwan:"tw","South Seas":"ns",Other:"ot"};
+const CJK1=e=>{const r=e.rows[0];return [...new Set(["tc","jo","jn"].flatMap(c=>[...(r.cols[c]||[]),...((r.added||{})[c]||[])]).filter(x=>/[一-鿿]/.test(x)).map(CORE))]};
+const BYCJK={},BYROM={};
+D.forEach(e=>{e.ck=CJK1(e);e.ck.forEach(k=>{if(k.length>=2)(BYCJK[k]=BYCJK[k]||new Set()).add(e.id)});const rk=PFOLD(e.rom);if(rk)(BYROM[rk]=BYROM[rk]||new Set()).add(e.id)});
+function related(e){const out=new Set();e.ck.forEach(k=>(BYCJK[k]||[]).forEach(i=>{if(i!==e.id&&GRP[BYID[i].r]===GRP[e.r]&&!(e.same||[]).some(x=>x.id===i))out.add(i)}));return [...out]}
+function homonyms(e){if(!e.ck.length)return [];const mine=new Set(e.ck);return [...(BYROM[PFOLD(e.rom)]||[])].filter(i=>i!==e.id&&BYID[i].ck.length&&!BYID[i].ck.some(k=>mine.has(k)))}
 const up=id=>(BYID[id]&&BYID[id].up)||(P[id]&&P[id].up)||"";
 const nameOf=id=>(BYID[id]&&BYID[id].rom)||(P[id]&&P[id].en)||id;
 const KIDS={};
@@ -224,6 +234,9 @@ function info(e){
   const qs=searchTerms(e); if(qs.length)it.push('search the site: '+qs.map(t=>'<a href="search.html#'+new URLSearchParams({q:t}).toString()+'" title="search all tables for '+esc(t)+'">'+esc(t)+'</a>').join(", "));
   if(PFOLD(e.en)!==PFOLD(e.rom)&&!e.rom.startsWith(e.en))it.push('<span title="the name the site&#39;s gazetteer and finder pages use">gazetteer: '+esc(e.en)+'</span>');
   if(e.same)it.push('same characters as '+e.same.map(x=>'<a href="#'+encodeURIComponent(x.id)+'">'+esc(x.en)+'</a> ('+esc(x.r)+')').join(", "));
+  const rel=related(e);if(rel.length)it.push('related unit'+(rel.length>1?'s':'')+' with the same characters: '+rel.map(i=>'<a href="#'+encodeURIComponent(i)+'">'+esc(BYID[i].rom)+'</a> ('+esc(BYID[i].k)+(BYID[i].up?', in '+esc(nameOf(BYID[i].up)):'')+')').join(", "));
+  const hom=homonyms(e);if(hom.length)it.push('<span title="the same romanised name, other characters: a different place">same romanised name, different place:</span> '+hom.map(i=>'<a href="#'+encodeURIComponent(i)+'">'+esc(BYID[i].rom)+' '+esc(BYID[i].cjk||"")+'</a> ('+esc(BYID[i].k)+', '+esc(BYID[i].r)+')').join(", "));
+  it.push('<span class="nm-id" title="the place&#39;s id in data/place-names.sqlite and in this page&#39;s address (places.html#id)">id '+esc(e.id)+'</span>');
   return it.join('<span class="nm-sep"> · </span>');
 }
 // ---- views: hierarchy (folding, A-Z within category) or flat A-Z

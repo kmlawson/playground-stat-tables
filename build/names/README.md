@@ -175,6 +175,18 @@ A name without variant characters gets the same characters in the other column. 
 the base is the gazetteer's name (or `corrections.json` "cjk" for the two places with none). Katakana names count as
 both old and new forms. Every converted form is marked added, with its source.
 
+## Ids, duplicates and cross-references (2026-11-28)
+
+- **Ids.** Every place's id (the gazetteer id, also `places.place_id` in the database and the page address
+  `places.html#id`) is shown in small type on its details line.
+- **Duplicate review.** I compared places with the same characters in the same region, and same romanised names in
+  the same region. Two true duplicates were merged in `corrections.json`: the Changsha city and "municipality"
+  entries, and the Hokkaidō region and prefecture. The rest are distinct units (city and county, the Republic's and
+  Manchukuo's province of one name, a Taiwanese town and its gun, Japanese cities and prefectures).
+- **Cross-references.** These are computed on the page:
+  - "related units with the same characters" covers the same region only, e.g. Jinzhou city 錦州 and province 錦州省;
+  - "same romanised name, different place" covers other characters, e.g. 金州 and 錦州, both Jinzhou.
+
 ## Page features (2026-11-28)
 
 - **Canonical names first.** The first column leads with the standard romanised name:
