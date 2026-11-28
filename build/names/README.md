@@ -158,6 +158,17 @@ integrity and links). Their reports are in the session's scratchpad. The fixes a
     North Korean towns.
   - The region tags of kwantung-zone and of the Republic's 1945–47 provinces were corrected.
 
+## Converted character forms (2026-11-28)
+
+`converted_forms()` in collect.py fills the character columns with OpenCC (`t2s`, `t2jp`, `jp2t`), converting whole
+names so that its phrase tables settle ambiguous characters (乾縣 → 乾县, 後里 → 后里, 臺灣 → 台湾).
+- **Every Japanese empire place (tag em)** gets old and new Japanese forms.
+- **Every Taiwan, China, Manchuria and Kwantung place** gets traditional and simplified Chinese.
+
+A name without variant characters gets the same characters in the other column. If our books print no characters,
+the base is the gazetteer's name (or `corrections.json` "cjk" for the two places with none). Katakana names count as
+both old and new forms. Every converted form is marked added, with its source.
+
 ## Page features (2026-11-28)
 
 - **Years.** Every form and name row carries the first and last edition year of the books that print it (`fy`, `yrs`

@@ -14,7 +14,7 @@ Places: the gazetteer (build/finders/places/places.json + aliases "new"). Labels
 Coordinates: the Japanese Empire map's data/cities*.csv, for points (cities, settlements) only.
 WHG links: build/names/whg.json (whg.py), when present.
 
-Usage: nice -n 15 uv run --with pypinyin --with pykakasi python3 build/names/collect.py
+Usage: nice -n 15 uv run --with pypinyin --with pykakasi --with opencc python3 build/names/collect.py
 """
 import csv, glob, itertools, json, os, re, sys, unicodedata
 from collections import Counter, defaultdict
@@ -480,7 +480,59 @@ def pinyin_unambiguous(cjk):
     return out[:1].upper() + out[1:]
 
 
-def add_reference_forms(pid, g, reg, rows, refs, db_forms):
+import opencc  # noqa: E402
+
+_CC = {k: opencc.OpenCC(k) for k in ("t2s", "t2jp", "jp2t")}
+HANZI = re.compile(r"[\u3400-\u9fff\uf900-\ufaff\u30a1-\u30fa]")      # characters or a katakana name (アンガウル)
+
+
+def converted_forms(pid, g, reg, rows, put, tg):
+    if not g.get("ja") and CORR.get("cjk", {}).get(pid):
+        g = dict(g, ja=CORR["cjk"][pid])
+    """Character forms converted from the printed ones with OpenCC (whole names, so its phrase tables settle the
+    ambiguous characters: 乾縣 -> 乾县). Japanese empire places (tag em): old and new Japanese forms; Taiwan, China,
+    Manchuria and Kwantung: traditional and simplified Chinese. A name with no variant characters gets the same
+    characters in the other column. Where our books print no characters, the gazetteer's own name is the base."""
+    em = "em" in tg
+    zh = reg in ("Taiwan", "China", "Manchuria", "Kwantung")
+    if not (em or zh):
+        return
+    for i, r in enumerate(rows):
+        cols = r["cols"]
+        old = [f for f in cols.get("jo", []) if HANZI.search(f)]
+        new = [f for f in cols.get("jn", []) if HANZI.search(f)]
+        trad = [f for f in cols.get("tc", []) if HANZI.search(f)]
+        if not (old or new or trad) and i == 0 and HANZI.search(g.get("ja") or "") and not re.search(r"[A-Za-z]", g.get("ja") or ""):
+            gj = g["ja"]
+            is_new = _CC["jp2t"].convert(gj) != gj
+            (new if is_new else old).append(gj)
+            src0 = " (from the gazetteer's name)"
+            if em or reg in ("Japan", "Korea", "Karafuto", "South Seas"):
+                put(r, "jn" if is_new else "jo", gj, "the gazetteer's name (not printed in our books)")
+            else:
+                put(r, "tc", gj, "the gazetteer's name (not printed in our books)")
+                trad.append(gj)
+        else:
+            src0 = ""
+        if em:
+            for f in old + (trad if not old else []):
+                v = _CC["t2jp"].convert(f)
+                put(r, "jn", v, ("new forms converted with OpenCC" if v != f else "same characters in new forms") + src0)
+                if f in trad and not old:
+                    put(r, "jo", f, "same characters as the Chinese printing" + src0)
+            for f in new:
+                v = _CC["jp2t"].convert(f)
+                put(r, "jo", v, ("old forms converted with OpenCC" if v != f else "same characters in old forms") + src0)
+        if zh:
+            tsrc = trad + [_CC["jp2t"].convert(f) for f in old + new]
+            for f in tsrc:
+                if f not in trad:
+                    put(r, "tc", f, "traditional characters, from the Japanese printing" + src0)
+                v = _CC["t2s"].convert(f)
+                put(r, "sc", v, ("simplified with OpenCC" if v != f else "same characters in simplified") + src0)
+
+
+def add_reference_forms(pid, g, reg, rows, refs, db_forms, tg=()):
     """Forms not printed in our books, added on request (user, 2026-11-28) and marked as added: pinyin for Chinese
     place names whose reading is unambiguous; Hepburn for Japanese places (and the map's well-known Korean and Taiwanese
     places) from the gazetteer; McCune–Reischauer and Hangul for Korean places (hangul.json)."""
@@ -508,6 +560,7 @@ def add_reference_forms(pid, g, reg, rows, refs, db_forms):
             re.fullmatch(r"[A-Za-zĀāĒēĪīŌōŪū'’\- ]+", head) and not re.search(r"\b(Village|Town|Island|Islands|Region|Prefecture|City)\b", head):
         if reg in ("Japan", "Karafuto") or (not pid.startswith("n-") and g.get("k") in ("city", "province", "prefecture", "colony")):
             put(home, "hep", head, "Hepburn (gazetteer)")
+    converted_forms(pid, g, reg, rows, put, tg)
     wiki_forms(pid, reg, rows, put)
     hg = HANGUL.get(pid) if isinstance(HANGUL.get(pid), dict) else None
     if hg and hg.get("mr"):
@@ -1024,7 +1077,7 @@ def main():
                 row["fy"] = fy
                 row["yrs"] = [min(y[0] for y in fy.values()), max(y[1] for y in fy.values())]
             rows.append(row)
-        add_reference_forms(pid, g, reg, rows, refs, db_forms)
+        add_reference_forms(pid, g, reg, rows, refs, db_forms, tags(pid, xy.get(pid)))
         ent = {"id": pid, "en": g["en"], "k": g.get("k", ""), "r": reg, "up": MERGE.get(g.get("up") or "", g.get("up") or ""),
                "rows": rows, "nb": len(books)}
         if fm.get("modern") and rows and not any(k in rows[0]["cols"] for k in ("tc", "sc", "jo", "jn")):
