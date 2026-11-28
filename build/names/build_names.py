@@ -26,12 +26,15 @@ __STYLE__
 .nm-tools input[type=search]{font:inherit;padding:6px 9px;border:1px solid var(--line);background:var(--panel);color:var(--ink);min-width:min(100%,280px);flex:1 1 280px;max-width:420px}
 .nm-tools select{font:inherit;padding:5px 6px;border:1px solid var(--line);background:var(--panel);color:var(--ink)}
 .nm-count{color:var(--muted);font-size:14px}
-.nm-wrap{overflow:auto;border:1px solid var(--line);max-height:78vh;box-sizing:border-box;
-  width:min(2200px, calc(100vw - 48px));margin-left:calc(50% - min(1100px, 50vw - 24px))}
-@media (max-width:700px){.nm-wrap{width:calc(100vw - 32px);margin-left:calc(50% - 50vw + 16px)}}
+main,.band>div{max-width:2200px}
+@media (min-width:701px){main,.band>div{padding-left:24px;padding-right:24px}}
+.nm-key,.llmwarn,footer,.nm-dl{max-width:980px}
+.nm-wrap{overflow:auto;border:1px solid var(--line);max-height:78vh;box-sizing:border-box;width:100%}
 .nm-key,.nm-tools{max-width:100%;overflow-wrap:anywhere}
+.nm-tools label{display:inline-flex;align-items:center;gap:6px;max-width:100%;flex-wrap:wrap}
+.nm-tools select{max-width:100%;min-width:0}
 @media (max-width:700px){.nm-tools input[type=search]{min-width:0;flex-basis:100%}.nm-tools label{white-space:normal}
-  details.nm-cols>div{position:static;columns:1;min-width:0;max-width:calc(100vw - 32px);box-shadow:none}}
+  .nm-tools select{max-width:calc(100vw - 110px)}}
 table.nm{border-collapse:collapse;font-size:14px;min-width:1700px;width:100%}
 table.nm th,table.nm td{border-bottom:1px solid var(--line);padding:5px 8px;vertical-align:top;text-align:left}
 table.nm thead th{position:sticky;top:0;background:var(--panel);font-weight:normal;color:var(--muted);font-size:13px;z-index:2;border-bottom:2px solid var(--line)}
@@ -57,11 +60,18 @@ tr.nm-ev td{background:var(--panel);font-size:13.5px;position:static}
 .nm-tr{font-style:italic;cursor:help}
 .nm-key{font-size:13px;color:var(--muted);margin:4px 0 8px}
 .nm-same a{color:var(--accent)}
-.nm-cols{position:relative}.nm-cols summary{cursor:pointer;color:var(--accent)}
-.nm-cols>div{position:absolute;z-index:5;background:var(--panel);border:1px solid var(--line);padding:8px 12px;margin-top:4px;
-  columns:2;column-gap:18px;min-width:min(420px,86vw);font-size:14px;box-shadow:0 2px 8px rgba(0,0,0,.12)}
-.nm-cols label{display:block;white-space:nowrap;break-inside:avoid}
-.nm-cols .nm-cb{column-span:all;margin-top:6px;font-size:13px}
+.nm-colbar{display:flex;flex-wrap:wrap;gap:6px 10px;align-items:center;font-size:14px;margin:0 0 8px}
+.nm-colbar button{font:inherit;padding:4px 10px;border:1px solid var(--accent);background:var(--panel);color:var(--accent);cursor:pointer}
+.nm-colbar a{color:var(--accent)}
+.nm-views{margin-right:10px}.nm-views a.on{color:var(--ink);font-weight:bold;text-decoration:none}
+.nm-tog{font:inherit;font-size:12px;width:20px;height:20px;padding:0;margin:0 4px 0 -2px;border:1px solid var(--line);background:var(--panel);color:var(--accent);cursor:pointer;vertical-align:1px}
+.nm-tog0{display:inline-block;width:22px}
+tr.nm-node td{background:var(--panel);font-size:15px;position:sticky;left:0}
+tr.nm-cat td{color:var(--muted);font-size:12.5px;text-transform:uppercase;letter-spacing:.04em;border-bottom:none;padding-top:8px}
+tr.nm-ctx td{opacity:.6}.nm-cnt{color:var(--muted);font-size:13px;font-weight:normal}
+[hidden]{display:none!important}
+#nm-cols{background:var(--panel);border:1px solid var(--line);padding:8px 12px;margin:0 0 10px;columns:4 160px;column-gap:18px;font-size:14px;max-width:980px}
+#nm-cols label{display:block;white-space:nowrap;break-inside:avoid}
 </style></head><body>__BAND__
 <main>
 <div class="crumbs"><a href="about.html">About</a> › Places</div>
@@ -76,14 +86,18 @@ tr.nm-ev td{background:var(--panel);font-size:13.5px;position:static}
 <label>Kind <select id="nm-k"><option value="">All</option>__KINDS__</select></label>
 <label><input type="checkbox" id="nm-sub"> only places with other names</label>
 <label title="Hide forms added from reference data and forms used only in our English translations"><input type="checkbox" id="nm-orig"> only forms printed in the tables</label>
-<details class="nm-cols"><summary>Columns</summary><div id="nm-cols"></div></details>
 <span class="nm-count" id="nm-n"></span>
 </div>
+<div class="nm-colbar"><span class="nm-views">View: <a href="#" data-view="tree">hierarchy</a> · <a href="#" data-view="az">A–Z</a>
+<span id="nm-fold">(<a href="#" id="nm-exp">unfold all</a> · <a href="#" id="nm-shut">fold all</a>)</span></span>
+<button type="button" id="nm-colbtn" aria-expanded="false" aria-controls="nm-cols">Columns ▾</button>
+<span>show: <a href="#" data-preset="all">all</a> · <a href="#" data-preset="chars">characters</a> · <a href="#" data-preset="rom">romanisations</a> · <a href="#" data-preset="zh">Chinese</a> · <a href="#" data-preset="jk">Japanese &amp; Korean</a> · <a href="#" data-preset="links">links</a></span></div>
+<div id="nm-cols" hidden></div>
 <p class="nm-chip" id="nm-chip" hidden></p>
 <p class="nm-key">Plain: printed in a table of our books · <span class="nm-tr">italic</span>: used only in our English translations · <span class="nm-add">dotted</span>: added from reference data (Hangul, McCune–Reischauer, Hepburn, English Wikipedia) or the unambiguous pinyin reading of the characters; hover for the source.</p>
 <div class="nm-wrap"><table class="nm"><thead><tr><th>Place</th>__TH__<th class="nmc-ll">Lat, long</th><th class="nmc-whg">WHG</th><th class="nmc-wp">Wikipedia</th><th class="nmc-nb">Books</th></tr></thead><tbody id="nm-b"></tbody></table></div>
 <noscript><p>The glossary needs JavaScript. The data is also at <a href="data/places.json">data/places.json</a>.</p></noscript>
-<p style="font-size:14px;color:var(--muted)">Download: <a href="data/place-names.sqlite">data/place-names.sqlite</a> (SQLite database: places, names, every form with its system and years, and every label as printed with its book and table) · <a href="data/places.json">data/places.json</a> (this table) · <a href="data/places-evidence.json">data/places-evidence.json</a> (labels as printed, per place).</p>
+<p class="nm-dl" style="font-size:14px;color:var(--muted)">Download: <a href="data/place-names.sqlite">data/place-names.sqlite</a> (SQLite database: places, names, every form with its system and years, and every label as printed with its book and table) · <a href="data/places.json">data/places.json</a> (this table) · <a href="data/places-evidence.json">data/places-evidence.json</a> (labels as printed, per place).</p>
 <div class="llmwarn" role="note"><b>Warning:</b> These names were transcribed by vision models and matched and sorted by machine. Check the tables, and the original scans linked from them, before relying on a form.</div>
 __FOOT__
 </main>
@@ -110,8 +124,9 @@ let ONLY="", WITHIN="";
 function readHash(){const h=decodeURIComponent(location.hash.slice(1));ONLY="";WITHIN="";
   if(h.startsWith("in="))WITHIN=h.slice(3);else if(h&&BYID[h])ONLY=h;}
 function within(e,w){let a=e.up,seen=new Set();while(a&&!seen.has(a)){if(a===w)return true;seen.add(a);a=up(a)}return false}
-function head(e){
+function head(e,ctx){
   let h='<span class="nm-place">'+esc(e.en)+'</span> <a class="nm-anchor" href="#'+encodeURIComponent(e.id)+'" title="link to this place">¶</a>';
+  if(ctx)return h+' <span class="nm-cnt">'+esc(e.k)+'</span>';
   h+='<span class="nm-meta">'+esc(e.k)+' · '+esc(e.r)+(e.up&&e.up!=="world"&&e.up!=="empire"?' · in <a href="#'+(BYID[e.up]?"":"in=")+encodeURIComponent(e.up)+'">'+esc(nameOf(e.up))+'</a>':"")+'</span>';
   if(e.today||e.today_ko)h+='<span class="nm-meta" title="present-day name (not printed in our books)">today '+esc([e.today,e.today_ko].filter(Boolean).join(" "))+'</span>';
   const yrs=e.rows[0].yrs; if(yrs)h+='<span class="nm-meta" title="edition years of the books that print this name">printed '+yr(yrs)+'</span>';
@@ -120,6 +135,46 @@ function head(e){
   if(POP.has(e.id))h+='<span class="nm-meta"><a href="figures/population.html#p='+encodeURIComponent(e.id)+'">population figures</a></span>';
   if(e.same)h+='<span class="nm-meta nm-same">same characters as '+e.same.map(x=>'<a href="#'+encodeURIComponent(x.id)+'">'+esc(x.en)+'</a> ('+esc(x.r)+')').join(", ")+'</span>';
   return h}
+// ---- views: hierarchy (folding, A-Z within category) or flat A-Z
+const CATI={country:0,colony:1,empire:1,region:1,world:1,province:2,prefecture:2,district:3,county:3,city:4,town:4,settlement:4,ward:5,island:6};
+const CATN=["Countries","Colonies and regions","Provinces and prefectures","Districts and counties","Cities and towns","Wards","Islands","Other places"];
+const catOf=k=>(k in CATI)?CATI[k]:7;
+const SK=s=>s.normalize("NFKD").replace(/[̀-ͯ]/g,"").toLowerCase();
+const NODE={};
+function node(id){if(!NODE[id])NODE[id]={id,en:nameOf(id),k:(BYID[id]&&BYID[id].k)||"",entry:BYID[id]||null,kids:[]};return NODE[id]}
+D.forEach(e=>node(e.id)); Object.keys(P).forEach(id=>node(id));
+let ROOTS=[];
+Object.values(NODE).forEach(n=>{const u=up(n.id);if(u&&u!==n.id&&NODE[u])NODE[u].kids.push(n);else ROOTS.push(n)});
+(function reach(){const seen=new Set(),st=[...ROOTS];while(st.length){const n=st.pop();if(seen.has(n.id))continue;seen.add(n.id);st.push(...n.kids)}
+  Object.values(NODE).forEach(n=>{if(!seen.has(n.id))ROOTS.push(n)})})();   // a parent loop in the gazetteer: shown at the top
+const RORD=["empire","china","manchuria","world"];
+const byName=(a,b)=>SK(a.en)<SK(b.en)?-1:SK(a.en)>SK(b.en)?1:0;
+ROOTS.sort((a,b)=>{const ia=RORD.indexOf(a.id),ib=RORD.indexOf(b.id);return (ia<0?99:ia)-(ib<0?99:ib)||byName(a,b)});
+Object.values(NODE).forEach(n=>n.kids.sort((a,b)=>catOf(a.k)-catOf(b.k)||byName(a,b)));
+const NDESC={};function ndesc(n){if(n.id in NDESC)return NDESC[n.id];let c=0;for(const k of n.kids)c+=(k.entry?1:0)+ndesc(k);return NDESC[n.id]=c}
+const DAZ=[...D].sort(byName);
+let VIEW="tree";try{VIEW=localStorage.getItem("nm-view")||"tree"}catch(_){}
+const OPEN=new Set(),SHUT=new Set();
+const isOpen=(n,d)=>OPEN.has(n.id)||(!SHUT.has(n.id)&&d<1);
+function entryRows(e,d,tog,ctx,orig){
+  const pad='style="padding-left:'+(8+d*20)+'px"',padS='style="padding-left:'+(30+d*20)+'px"';
+  const rows=ctx?[e.rows[0]]:e.rows,out=[];
+  rows.forEach((row,i)=>{
+    const first=i===0;
+    let h='<tr class="'+(first?"nm-first":"nm-sub")+(ctx?" nm-ctx":"")+'"'+(first?' id="'+esc(e.id)+'"':"")+'><td '+(first?pad:padS)+'>'+(first?tog+head(e,ctx)
+      :'<span class="nm-tag">'+esc(row.status||(row.note?"former name":"other form"))+'</span>'+esc(row.note||"")+(row.yrs?'<span class="nm-meta">printed '+yr(row.yrs)+'</span>':""))+'</td>';
+    for(const [c] of C) h+='<td class="nmc-'+c+'">'+(ctx?"":cell(row.cols[c],(row.added||{})[c],row.src,orig,row.asrc,row.fy))+'</td>';
+    if(first&&!ctx){
+      h+='<td class="nm-ll nmc-ll">'+(e.ll?e.ll.join(", "):"")+'</td>';
+      h+='<td class="nmc-whg">'+(e.whg?'<a href="https://whgazetteer.org/places/'+e.whg.pid+'/portal" title="'+esc(e.whg.title||"")+'">WHG</a>':"")+'</td>';
+      h+='<td class="nmc-wp">'+(e.wp?'<a href="https://en.wikipedia.org/wiki/'+encodeURIComponent(e.wp.title.replace(/ /g,"_"))+'" title="'+esc(e.wp.title+" ("+(e.wp.how||"")+")")+'">WP</a>':"")+'</td>';
+      h+='<td class="nmc-nb">'+e.nb+'</td>';
+    } else h+='<td class="nmc-ll"></td><td class="nmc-whg"></td><td class="nmc-wp"></td><td class="nmc-nb"></td>';
+    out.push(h+'</tr>');
+  });
+  if(!ctx)out.push('<tr class="nm-ev" data-for="'+esc(e.id)+'" hidden><td colspan="18"></td></tr>');
+  return out.join("");
+}
 function render(){
   readHash();
   const q=fold(document.getElementById("nm-q").value), r=document.getElementById("nm-r").value,
@@ -128,33 +183,44 @@ function render(){
   chip.innerHTML=ONLY?'Showing one place: <b>'+esc(nameOf(ONLY))+'</b> <a href="#" id="nm-clear">show all</a>'
     :WITHIN?'Places in <b>'+esc(nameOf(WITHIN))+'</b> <a href="#" id="nm-clear">show all</a>':"";
   chip.hidden=!(ONLY||WITHIN);
+  document.querySelectorAll("[data-view]").forEach(a=>a.classList.toggle("on",a.dataset.view===VIEW));
+  document.getElementById("nm-fold").hidden=VIEW!=="tree"||!!ONLY;
+  const pass=e=>!(r&&!r.split(" ").some(x=>e.t.includes(x))||k&&e.k!==k||sub&&e.rows.length<2||q&&!e.key.includes(q));
+  const active=!!(q||r||k||sub);
   let out=[], n=0;
-  for(const e of D){
-    if(ONLY){if(e.id!==ONLY)continue}
-    else{
-      if(WITHIN&&!within(e,WITHIN))continue;
-      if(r&&!r.split(" ").some(x=>e.t.includes(x))||k&&e.k!==k||sub&&e.rows.length<2||q&&!e.key.includes(q)) continue;
+  if(ONLY||VIEW==="az"){
+    for(const e of (ONLY?[BYID[ONLY]]:DAZ)){
+      if(!e)continue;
+      if(!ONLY&&(WITHIN&&!within(e,WITHIN)||!pass(e)))continue;
+      n++;out.push(entryRows(e,0,"",false,orig));
     }
-    n++;
-    e.rows.forEach((row,i)=>{
-      const first=i===0;
-      let h='<tr class="'+(first?"nm-first":"nm-sub")+'"'+(first?' id="'+esc(e.id)+'"':"")+'><td>'+(first?head(e)
-        :'<span class="nm-tag">'+esc(row.status||(row.note?"former name":"other form"))+'</span>'+esc(row.note||"")+(row.yrs?'<span class="nm-meta">printed '+yr(row.yrs)+'</span>':""))+'</td>';
-      for(const [c] of C) h+='<td class="nmc-'+c+'">'+cell(row.cols[c],(row.added||{})[c],row.src,orig,row.asrc,row.fy)+'</td>';
-      if(first){
-        h+='<td class="nm-ll nmc-ll">'+(e.ll?e.ll.join(", "):"")+'</td>';
-        h+='<td class="nmc-whg">'+(e.whg?'<a href="https://whgazetteer.org/places/'+e.whg.pid+'/portal" title="'+esc(e.whg.title||"")+'">WHG</a>':"")+'</td>';
-        h+='<td class="nmc-wp">'+(e.wp?'<a href="https://en.wikipedia.org/wiki/'+encodeURIComponent(e.wp.title.replace(/ /g,"_"))+'" title="'+esc(e.wp.title+" ("+(e.wp.how||"")+")")+'">WP</a>':"")+'</td>';
-        h+='<td class="nmc-nb">'+e.nb+'</td>';
-      } else h+='<td class="nmc-ll"></td><td class="nmc-whg"></td><td class="nmc-wp"></td><td class="nmc-nb"></td>';
-      out.push(h+'</tr>');
-    });
-    out.push('<tr class="nm-ev" data-for="'+esc(e.id)+'" hidden><td colspan="18"></td></tr>');
+  }else{
+    const HIT={};
+    const hits=nd=>{if(nd.id in HIT)return HIT[nd.id];let h=!!(nd.entry&&pass(nd.entry));for(const c of nd.kids)if(hits(c))h=true;return HIT[nd.id]=h};
+    const walk=(nd,d)=>{
+      if(!hits(nd))return;
+      const self=!!(nd.entry&&pass(nd.entry)),hasK=nd.kids.some(hits),open=hasK&&(active?true:isOpen(nd,d));
+      const tog=hasK?'<button type="button" class="nm-tog" data-tog="'+esc(nd.id)+'" aria-expanded="'+open+'" title="'+(open?"fold":"unfold")+'">'+(open?"▾":"▸")+'</button>':'<span class="nm-tog0"></span>';
+      if(nd.entry)out.push(entryRows(nd.entry,d,tog,!self,orig));
+      else out.push('<tr class="nm-node"><td colspan="18" style="padding-left:'+(8+d*20)+'px">'+tog+'<b>'+esc(nd.en)+'</b> <span class="nm-cnt">'+ndesc(nd)+' places</span></td></tr>');
+      if(!open)return;
+      let last=-1;const kids=nd.kids.filter(hits),cats=new Set(kids.map(c=>catOf(c.k)));
+      for(const c of kids){const ci=catOf(c.k);
+        if(cats.size>1&&ci!==last){out.push('<tr class="nm-cat"><td colspan="18" style="padding-left:'+(30+d*20)+'px">'+CATN[ci]+'</td></tr>');last=ci}
+        walk(c,d+1)}
+    };
+    if(WITHIN&&NODE[WITHIN])walk(NODE[WITHIN],0);else ROOTS.forEach(rt=>walk(rt,0));
+    n=D.filter(e=>pass(e)&&(!WITHIN||within(e,WITHIN)||e.id===WITHIN)).length;   // every matching place, folded or not
   }
   tb.innerHTML=out.join("")||'<tr><td colspan="18" class="nm-empty">No place matches.</td></tr>';
   if(ONLY&&BYID[ONLY]&&BYID[ONLY].ne){const a=tb.querySelector('a[data-ev]'),tr=tb.querySelector('tr.nm-ev');if(a&&tr){a.textContent=a.textContent.replace("▸","▾");evidence(ONLY,tr)}}
   document.getElementById("nm-n").textContent=n.toLocaleString()+(n===1?" place":" places");
 }
+tb.addEventListener("click",ev=>{const b=ev.target.closest("button[data-tog]");if(!b)return;const id=b.dataset.tog;
+  if(b.getAttribute("aria-expanded")==="true"){OPEN.delete(id);SHUT.add(id)}else{SHUT.delete(id);OPEN.add(id)}render()});
+document.querySelectorAll("[data-view]").forEach(a=>a.addEventListener("click",ev=>{ev.preventDefault();VIEW=a.dataset.view;try{localStorage.setItem("nm-view",VIEW)}catch(_){}render()}));
+document.getElementById("nm-exp").addEventListener("click",ev=>{ev.preventDefault();SHUT.clear();Object.values(NODE).forEach(n=>{if(n.kids.length)OPEN.add(n.id)});render()});
+document.getElementById("nm-shut").addEventListener("click",ev=>{ev.preventDefault();OPEN.clear();Object.values(NODE).forEach(n=>{if(n.kids.length)SHUT.add(n.id)});render()});
 // evidence: every label as printed, loaded on first use
 let EV=null;
 async function evidence(id,tr){
@@ -170,7 +236,13 @@ const ALLC=C.concat([["ll","Lat, long"],["whg","WHG"],["wp","Wikipedia"],["nb","
 let hidden=[]; try{hidden=JSON.parse(localStorage.getItem("nm-hidden")||"[]")}catch(_){hidden=[]}
 function applyCols(){cst.textContent=hidden.map(c=>".nmc-"+c+"{display:none}").join("");try{localStorage.setItem("nm-hidden",JSON.stringify(hidden))}catch(_){}}
 document.getElementById("nm-cols").innerHTML=ALLC.map(([c,l])=>'<label><input type="checkbox" data-c="'+c+'"'+(hidden.includes(c)?"":" checked")+'> '+esc(l)+'</label>').join("")
-  +'<div class="nm-cb"><a href="#" id="nm-all">show all</a> · <a href="#" id="nm-none">hide all</a></div>';
+  +'<label><a href="#" id="nm-all">show all</a> · <a href="#" id="nm-none">hide all</a></label>';
+const PRESETS={all:ALLC.map(x=>x[0]),chars:["tc","sc","jo","jn","ko"],rom:["py","wg","oth","hep","mr","mn","std"],
+  zh:["tc","sc","py","wg","oth","std"],jk:["jo","jn","ko","hep","mr"],links:["ll","whg","wp","nb"]};
+document.querySelectorAll("a[data-preset]").forEach(a=>a.addEventListener("click",ev=>{ev.preventDefault();const show=PRESETS[a.dataset.preset];
+  hidden=ALLC.map(x=>x[0]).filter(c=>!show.includes(c));document.querySelectorAll("#nm-cols input").forEach(i=>i.checked=!hidden.includes(i.dataset.c));applyCols()}));
+document.getElementById("nm-colbtn").addEventListener("click",()=>{const p=document.getElementById("nm-cols"),b=document.getElementById("nm-colbtn");
+  p.hidden=!p.hidden;b.setAttribute("aria-expanded",String(!p.hidden));b.textContent=p.hidden?"Columns ▾":"Columns ▴"});
 document.getElementById("nm-cols").addEventListener("change",ev=>{const c=ev.target.dataset.c;if(!c)return;hidden=ev.target.checked?hidden.filter(x=>x!==c):hidden.concat([c]);applyCols()});
 function setAll(show){hidden=show?[]:ALLC.map(x=>x[0]);document.querySelectorAll("#nm-cols input").forEach(i=>i.checked=show);applyCols()}
 document.getElementById("nm-all").onclick=ev=>{ev.preventDefault();setAll(true)};document.getElementById("nm-none").onclick=ev=>{ev.preventDefault();setAll(false)};

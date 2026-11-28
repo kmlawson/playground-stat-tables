@@ -1025,7 +1025,8 @@ def main():
                 row["yrs"] = [min(y[0] for y in fy.values()), max(y[1] for y in fy.values())]
             rows.append(row)
         add_reference_forms(pid, g, reg, rows, refs, db_forms)
-        ent = {"id": pid, "en": g["en"], "k": g.get("k", ""), "r": reg, "up": g.get("up") or "", "rows": rows, "nb": len(books)}
+        ent = {"id": pid, "en": g["en"], "k": g.get("k", ""), "r": reg, "up": MERGE.get(g.get("up") or "", g.get("up") or ""),
+               "rows": rows, "nb": len(books)}
         if fm.get("modern") and rows and not any(k in rows[0]["cols"] for k in ("tc", "sc", "jo", "jn")):
             ent["today"] = fm["modern"]      # hand-made (former.json); shown as a label, not as an attested form
         if hg and hg.get("today"):
@@ -1074,8 +1075,9 @@ def main():
     for e in entries:
         p_ = e.get("up")
         while p_ and p_ not in parents and p_ in G:
-            parents[p_] = {"en": G[p_]["en"], "up": G[p_].get("up") or ""}
-            p_ = G[p_].get("up")
+            nxt = MERGE.get(G[p_].get("up") or "", G[p_].get("up") or "")
+            parents[p_] = {"en": G[p_]["en"], "up": nxt}
+            p_ = nxt
     used = {b for v in EVIDENCE.values() for b, _t, _l in v}
     json.dump({"_doc": "Every label as printed in a table, per place of places.html: [book, table id, label]. books: title and edition year.",
                "books": {b: [BOOKS.get(b, {}).get("title", b), BOOKS.get(b, {}).get("year")] for b in sorted(used)},
