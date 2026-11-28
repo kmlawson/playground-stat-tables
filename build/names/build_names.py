@@ -17,6 +17,7 @@ COLS = [("tc", "Chinese (traditional)"), ("sc", "Chinese (simplified)"), ("jo", 
         ("std", "Adopted standard form")]
 
 PAGE = """__HEAD__<title>Places · Old Tables of East Asia</title>
+<!-- no simp.js here: the character columns are data (traditional, simplified, old and new forms), not text to convert -->
 <meta name="description" content="A draft glossary of the place names used in the books on this site, in every script and romanisation they print.">
 <style>
 __STYLE__
