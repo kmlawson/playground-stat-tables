@@ -44,6 +44,8 @@ table.nm tr.nm-sub td{border-top:none}
 table.nm tr.nm-sub td:first-child{padding-left:22px;color:var(--muted);font-size:13px}
 table.nm tr.nm-first td{border-top:1px solid var(--line)}
 .nm-place{font-size:15px;color:var(--ink)}
+.nm-alt{font-size:14px;color:var(--muted);margin-left:2px}
+tr.lv0 .nm-alt,tr.lv1 .nm-alt,tr.lv2 .nm-alt{color:var(--lvtopm)}
 .nm-meta{display:block;color:var(--muted);font-size:12.5px}
 .nm-f{display:block;white-space:nowrap}
 .nm-f+.nm-f{color:var(--muted)}
@@ -100,6 +102,7 @@ tr.nm-ctx td{opacity:.6}.nm-cnt{color:var(--muted);font-size:13px;font-weight:no
 <option value="mc">Manchuria (with Kwantung)</option><option value="se">Southeast Asia</option><option value="rw">Rest of the world</option></select></label>
 <label>Kind <select id="nm-k"><option value="">All</option>__KINDS__</select></label>
 <label><input type="checkbox" id="nm-sub"> only places with other names</label>
+<label><input type="checkbox" id="nm-cjkfirst"> Hanzi/Kanji/Hanja names first</label>
 <label title="Hide forms added from reference data and forms used only in our English translations"><input type="checkbox" id="nm-orig"> only forms printed in the tables</label>
 <span class="nm-count" id="nm-n"></span>
 </div>
@@ -117,13 +120,45 @@ tr.nm-ctx td{opacity:.6}.nm-cnt{color:var(--muted);font-size:13px;font-weight:no
 __FOOT__
 </main>
 <script>
+const KEEP=__KEEP__;
 const D=__DATA__, C=__COLS__, P=__PARENTS__, POP=new Set(__POP__), VAR=__VAR__;
 // search folds character variants together (臺/台, 滿/満/满) and drops diacritics
 const fold=s=>[...s.normalize("NFKD").replace(/[\\u0300-\\u036f]/g,"").toLowerCase()].map(c=>VAR[c]||c).join("").replace(/[^a-z0-9\\u3040-\\u30ff\\u3400-\\u9fff\\uf900-\\ufaff\\uac00-\\ud7af]/g,"");
 const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const BYID={}; D.forEach(e=>BYID[e.id]=e);
+// canonical names: pinyin for Chinese-language places, McCune-Reischauer for Korea, Hepburn for the Japanese places
+// (Taiwan: Hepburn with pinyin, the site's rule); the characters as printed are the other half of the heading
+const TONED=/[āáǎàēéěèīíǐìōóǒòūúǔùǖǘǚǜ]/;
+const PFOLD=s=>s.normalize("NFKD").replace(/[̀-ͯ]/g,"").toLowerCase().replace(/[^a-z]/g,"");
+function allOf(r,c){return [...(r.cols[c]||[]),...((r.added||{})[c]||[])]}
+function romName(e){
+  const r=e.rows[0], head=e.en;
+  const std=(r.cols.std||[]).filter(x=>(r.src||{})[x]!=="x");
+  if(std.length){const k=std.filter(x=>KEEP.includes(x)).sort((a,b)=>b.length-a.length);
+    return k[0]||std[0]}                              // the adopted standard: Kwantung Leased Territory, Hong Kong, Harbin
+  if(["China","Manchuria","Kwantung"].includes(e.r)){
+    const p=allOf(r,"py").filter(x=>!/\\s(Shì|Shěng|Xiàn|Qū)$/.test(x)), pf=new Set(p.map(PFOLD));
+    if(pf.has(PFOLD(head.split(/\\s*[,(]/)[0])))return TONED.test(head)?head.split(/\\s*\\(/)[0]:(p.find(x=>TONED.test(x)&&PFOLD(x)===PFOLD(head))||head);
+    return p.find(x=>TONED.test(x))||p[0]||(r.cols.oth||[])[0]||(r.cols.wg||[])[0]||head;   // Qiqihar: Tsitsihar, not 'Chichiharu'
+  }
+  if(e.r==="Korea"){const m=[...((r.added||{}).mr||[]),...(r.cols.mr||[])].filter(x=>!/\\s(Province|District|County|Town)$/.test(x));return m[0]||head}
+  if(e.r==="Taiwan"){const p=allOf(r,"py").filter(x=>!TONED.test(x));const pp=p[0];return pp&&PFOLD(pp)!==PFOLD(head)?head+" ("+pp+")":head}
+  return head;
+}
+function cjkName(e){
+  const r=e.rows[0], order=["China","Manchuria","Kwantung"].includes(e.r)?["tc","jo","jn","sc"]:["jo","tc","jn","sc"];
+  for(const c of order){
+    const printed=(r.cols[c]||[]).filter(x=>(r.src||{})[x]!=="x"&&/[㐀-鿿ァ-ヺ]/.test(x)).slice(0,3);
+    if(printed.length)return printed.reduce((a,b)=>b.length<a.length?b:a);
+  }
+  for(const c of order){const a=allOf(r,c).filter(x=>/[㐀-鿿ァ-ヺ]/.test(x));if(a.length)return a[0]}
+  return "";
+}
+D.forEach(e=>{e.rom=romName(e);e.cjk=cjkName(e)});
+let CJKFIRST=false;try{CJKFIRST=localStorage.getItem("nm-cjkfirst")==="1"}catch(_){}
+const shown=e=>CJKFIRST&&e.cjk?[e.cjk,e.rom]:[e.rom,e.cjk];
 const up=id=>(BYID[id]&&BYID[id].up)||(P[id]&&P[id].up)||"";
-const nameOf=id=>(BYID[id]&&BYID[id].en)||(P[id]&&P[id].en)||id;
+const nameOf=id=>(BYID[id]&&BYID[id].rom)||(P[id]&&P[id].en)||id;
 const KIDS={};
 D.forEach(e=>{let a=e.up,seen=new Set();while(a&&!seen.has(a)){seen.add(a);(KIDS[a]=KIDS[a]||[]).push(e.id);a=up(a)}});
 D.forEach(e=>{e.key=fold(e.en+" "+(e.today||"")+" "+(e.today_ko||"")+" "+(e.same||[]).map(x=>x.cjk).join(" ")+" "+e.rows.map(r=>r.note+" "+Object.values(r.cols).flat().join(" ")+" "+Object.values(r.added||{}).flat().join(" ")).join(" "))});
@@ -152,8 +187,10 @@ function searchTerms(e){
   if(lat&&!out.includes(lat))out.push(lat);
   return out}
 function head(e,ctx){
-  let h='<span class="nm-place">'+esc(e.en)+'</span> <a class="nm-anchor" href="#'+encodeURIComponent(e.id)+'" title="link to this place">¶</a>';
+  const [a1,a2]=shown(e);
+  let h='<span class="nm-place">'+esc(a1)+'</span>'+(a2?' <span class="nm-alt">'+esc(a2)+'</span>':"")+' <a class="nm-anchor" href="#'+encodeURIComponent(e.id)+'" title="link to this place">¶</a>';
   if(ctx)return h+' <span class="nm-cnt">'+esc(e.k)+'</span>';
+  if(PFOLD(e.en)!==PFOLD(e.rom)&&!e.rom.startsWith(e.en))h+='<span class="nm-meta" title="the name the site&#39;s gazetteer and finder pages use">gazetteer: '+esc(e.en)+'</span>';
   h+='<span class="nm-meta">'+esc(e.k)+' · '+esc(e.r)+(e.up&&e.up!=="world"&&e.up!=="empire"?' · in <a href="#'+(BYID[e.up]?"":"in=")+encodeURIComponent(e.up)+'">'+esc(nameOf(e.up))+'</a>':"")+'</span>';
   if(e.today||e.today_ko)h+='<span class="nm-meta" title="present-day name (not printed in our books)">today '+esc([e.today,e.today_ko].filter(Boolean).join(" "))+'</span>';
   const yrs=e.rows[0].yrs; if(yrs)h+='<span class="nm-meta" title="edition years of the books that print this name">printed '+yr(yrs)+'</span>';
@@ -176,7 +213,8 @@ Object.values(NODE).forEach(n=>{const u=up(n.id);if(u&&u!==n.id&&NODE[u])NODE[u]
 (function reach(){const seen=new Set(),st=[...ROOTS];while(st.length){const n=st.pop();if(seen.has(n.id))continue;seen.add(n.id);st.push(...n.kids)}
   Object.values(NODE).forEach(n=>{if(!seen.has(n.id))ROOTS.push(n)})})();   // a parent loop in the gazetteer: shown at the top
 const RORD=["empire","china","manchuria","world"];
-const byName=(a,b)=>SK(a.en)<SK(b.en)?-1:SK(a.en)>SK(b.en)?1:0;
+const nm_=x=>x.entry?x.entry.rom:(x.rom||x.en);
+const byName=(a,b)=>SK(nm_(a))<SK(nm_(b))?-1:SK(nm_(a))>SK(nm_(b))?1:0;
 ROOTS.sort((a,b)=>{const ia=RORD.indexOf(a.id),ib=RORD.indexOf(b.id);return (ia<0?99:ia)-(ib<0?99:ib)||byName(a,b)});
 Object.values(NODE).forEach(n=>n.kids.sort((a,b)=>catOf(a.k)-catOf(b.k)||byName(a,b)));
 const NDESC={};function ndesc(n){if(n.id in NDESC)return NDESC[n.id];let c=0;for(const k of n.kids)c+=(k.entry?1:0)+ndesc(k);return NDESC[n.id]=c}
@@ -276,6 +314,8 @@ document.getElementById("nm-cols").addEventListener("change",ev=>{const c=ev.tar
 function setAll(show){hidden=show?[]:ALLC.map(x=>x[0]);document.querySelectorAll("#nm-cols input").forEach(i=>i.checked=show);applyCols()}
 document.getElementById("nm-all").onclick=ev=>{ev.preventDefault();setAll(true)};document.getElementById("nm-none").onclick=ev=>{ev.preventDefault();setAll(false)};
 applyCols();
+const cjb=document.getElementById("nm-cjkfirst");cjb.checked=CJKFIRST;
+cjb.addEventListener("change",()=>{CJKFIRST=cjb.checked;try{localStorage.setItem("nm-cjkfirst",CJKFIRST?"1":"0")}catch(_){}render()});
 let t;["nm-q","nm-r","nm-k","nm-sub","nm-orig"].forEach(id=>document.getElementById(id).addEventListener("input",()=>{clearTimeout(t);t=setTimeout(()=>{if(location.hash)history.replaceState(null,"",location.pathname+location.search);render()},120)}));
 const p=new URLSearchParams(location.search); if(p.get("q")) document.getElementById("nm-q").value=p.get("q");
 if(p.get("w")){const o=[...document.getElementById("nm-r").options].find(o=>o.value===p.get("w"));if(o)o.selected=true}
@@ -361,6 +401,8 @@ def main():
             .replace("__COLS__", json.dumps(COLS, ensure_ascii=False))
             .replace("__PARENTS__", json.dumps(G.get("parents", {}), ensure_ascii=False, separators=(",", ":")))
             .replace("__POP__", json.dumps(pop, separators=(",", ":")))
+            .replace("__KEEP__", json.dumps(sorted(k for k in json.load(open(os.path.join(BUILD, "romanisation", "conversions.json"),
+                                                                            encoding="utf-8")).get("keep", {})), ensure_ascii=False))
             .replace("__VAR__", json.dumps(variant_map(slim), ensure_ascii=False, separators=(",", ":")))
             .replace("__DATA__", json.dumps(slim, ensure_ascii=False, separators=(",", ":"))))
     open(os.path.join(SITE, "places.html"), "w", encoding="utf-8").write(page)

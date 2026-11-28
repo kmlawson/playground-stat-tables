@@ -171,6 +171,18 @@ both old and new forms. Every converted form is marked added, with its source.
 
 ## Page features (2026-11-28)
 
+- **Canonical names first.** The first column leads with the standard romanised name:
+  - the adopted standard where we have one (Kwantung Leased Territory, Hong Kong, Harbin, Manchukuo);
+  - otherwise pinyin for Chinese-language places (China, Manchuria, Kwantung), toned where available, falling back
+    to the printed postal or Wade-Giles form (Tsitsihar);
+  - McCune–Reischauer for Korea;
+  - Hepburn for Japan, Karafuto and Japanese names in the South Seas;
+  - "Hepburn (pinyin)" for Taiwan.
+
+  The printed characters follow. The checkbox "Hanzi/Kanji/Hanja names first" swaps the two, and the choice is
+  remembered. The gazetteer's own name is shown below when it differs. The A–Z view and the tree sort by the name
+  shown.
+
 - **Years.** Every form and name row carries the first and last edition year of the books that print it (`fy`, `yrs`
   in glossary.json; `first_year`/`last_year` in the database's forms and names, `year` in attestations). Example:
   Changchun is printed 1914–1932, Hsinking/新京 1934–1942. These are the books' years, not the years the names were

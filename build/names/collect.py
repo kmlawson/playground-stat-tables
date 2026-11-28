@@ -502,8 +502,11 @@ def converted_forms(pid, g, reg, rows, put, tg):
         old = [f for f in cols.get("jo", []) if HANZI.search(f)]
         new = [f for f in cols.get("jn", []) if HANZI.search(f)]
         trad = [f for f in cols.get("tc", []) if HANZI.search(f)]
-        if not (old or new or trad) and i == 0 and HANZI.search(g.get("ja") or "") and not re.search(r"[A-Za-z]", g.get("ja") or ""):
-            gj = g["ja"]
+        gja = g.get("ja") or ""
+        base = gja if (gja and HANZI.search(gja) and not re.search(r"[A-Za-z]", gja) and (not r["core"] or core(gja) == r["core"])) \
+            else (r["core"] if r["core"] and HANZI.search(r["core"]) else "")
+        if not (old or new or trad) and base and (i == 0 or base == r["core"]):
+            gj = base                    # the row's own name: 長春 for Changchun's present-day row, never the gazetteer's 新京
             is_new = _CC["jp2t"].convert(gj) != gj
             (new if is_new else old).append(gj)
             src0 = " (from the gazetteer's name)"
