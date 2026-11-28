@@ -42,6 +42,9 @@ Other files to read when the task needs them:
   layers, OCR files, or pixel/stroke-counting scripts. Cropping, zooming and contrast are fine. Say this in every prompt.
 - **Never guess.** Transcribe as printed, misprints included; re-add every printed total and note whether it
   reconciles; never correct the source. A wrong digit is worse than a blank.
+- **Romanised text stays as printed** (user, 2026-11-28). Never convert, modernise or standardise romanised names or
+  words in a transcription (Tokio, Kiangsu, Taihoku stay as printed). A converted form may be added later as a separate
+  display option, but not yet. Our own English titles and descriptions follow `docs/stages/translations.md`.
 - **Two kinds of empty cell.** Empty in the original = `""`; unreadable = `"[?]"` (the whole cell, never `"12[?]"`)
   plus a note naming row and column. New books get `"blank_marking": true`.
 - **A printed total never decides a digit**, with two exceptions: the 一/二/三 stroke grouping (kanji numerals) and

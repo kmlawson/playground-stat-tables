@@ -20,6 +20,9 @@ ABOUT = """<div class="abouttext">
 <h3 id="finder-pages">Finder pages</h3>
 <p>The <a href="figures/index.html">finder pages</a>, beginning with <a href="figures/population.html">Population</a>, gather one kind of figure from every table on the site, place by place and year by year. They are built from the transcriptions alone: for each table that holds such figures, an agent (Sonnet 5.5) wrote down which rows and columns hold them and for which place, date and group, and a script then copied those cells exactly as transcribed. Nothing was re-read from the scans, corrected, averaged or filled in. Where several tables print the same figure it is shown once, with a link to each table; where they disagree, the figures are shown side by side with the gap between them, together with each table's date and basis (census, registered or resident population, estimate) where it gives one. Each figure links to its table with the cell marked. Place names were matched to a gazetteer by machine and dates were taken from the tables, so mistakes in both are possible: check the table, and the original scan linked from it, before relying on a figure.</p>
 
+<h3 id="places">Places</h3>
+<p>The same place is printed under many names in these books, in Chinese characters and in several romanisations, and some places were renamed in the period. The <a href="places.html">Places</a> page is a draft glossary of the place names our books use, with each place's forms sorted by script and romanisation and its former names marked.</p>
+
 <h3 id="further-reading">Further Reading</h3>
 <p>There is a rich historiography on the history of statistics and especially the role they play in state power and imperialist endeavors. Below is a reading list of works for students to explore on the topic.</p>
 <ul class="biblio">

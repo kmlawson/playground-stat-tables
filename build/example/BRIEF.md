@@ -8,6 +8,7 @@
 1. Read the images yourself — no OCR, Vision framework, `llm`/Gemini or text layer of any kind.
 2. Unreadable figure → `"[?]"` + a note (a cell empty in the original is `""`). Never guess; never infer a digit from a total (except the 一/二/三 and 3-vs-8 rules in rule 2 below).
 3. Transcribe as printed; never correct the source. Re-add every printed total and note whether it reconciles.
+   Keep romanised names and words exactly as printed (Tokio, Kiangsu, Taihoku); never convert or modernise them.
 4. Read tables from tight crops (≤ ~2000 px wide, ≤ ~25 rows), each with its column headings in view.
 5. Note the number of rows you read for every table/part.
 6. Save each table as soon as it is done; keep tool calls small; no sub-agents; helper scripts only in your

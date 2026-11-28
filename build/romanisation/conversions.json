@@ -1,0 +1,526 @@
+{
+ "_scope": "ONLY our own English in build/translations/<slug>.json: the 't' and 'd' fields of each table entry and the values of '_chapters'. NEVER transcriptions (tables/, directory/, chronology/, toc.json), which keep the printed romanisation (CLAUDE.md hard rule, user 2026-11-28).",
+ "_rule": "docs/stages/translations.md: China & Manchuria → pinyin, no tone marks, of the name as printed; Taiwan books 1895–1945 → Hepburn (pinyin); Japanese Hepburn; Korean McCune–Reischauer; personal names likewise.",
+ "_how": "'chars' = characters the source table must contain for the conversion to be safe (regex); 'alt' = other readings to check for. Add new forms here as they are met; check.py and convert.py read this file. Survey of non-China volumes: find entries whose SOURCE prints Chinese/Manchurian place characters (title, rows, columns — not notes) and list the English words they use; that found the Korea Nenkan 1926 Jiandao forms.",
+ "conversions": [
+  {
+   "from": "Port Arthur",
+   "to": "Lüshun",
+   "chars": "旅順|旅顺",
+   "alt": {},
+   "note": "旅順 → Lüshun (with ü)."
+  },
+  {
+   "from": "Manchoukuo",
+   "to": "Manchukuo",
+   "chars": "滿洲國|満洲国|滿洲帝國|満洲帝国|满洲国|滿洲|満洲",
+   "alt": {},
+   "note": ""
+  },
+  {
+   "from": "Manchou",
+   "to": "Manchukuo",
+   "chars": "滿洲國|満洲国|滿洲帝國|満洲帝国|满洲国|滿洲|満洲",
+   "alt": {},
+   "note": ""
+  },
+  {
+   "from": "Kwangtung",
+   "to": "Guangdong",
+   "chars": "廣東|広東|广东",
+   "alt": {},
+   "note": "廣東 province. NB in Japanese texts 廣東 often means the city (Canton) — check context."
+  },
+  {
+   "from": "Kwangsi",
+   "to": "Guangxi",
+   "chars": "廣西|広西|广西",
+   "alt": {},
+   "note": ""
+  },
+  {
+   "from": "Kangte",
+   "to": "Kangde",
+   "chars": "康德|康徳",
+   "alt": {},
+   "note": "Manchukuo era 康德 → Kangde (era names converted too, user 2026-11-28)."
+  },
+  {
+   "from": "Tatung",
+   "to": "Datong",
+   "chars": "大同",
+   "alt": {},
+   "note": "Manchukuo era 大同 (1932–34) or the city 大同 — Datong either way."
+  },
+  {
+   "from": "Hsinking",
+   "to": "Xinjing",
+   "chars": "新京",
+   "alt": {},
+   "note": "新京 → Xinjing. Japanese reading Shinkyō likewise."
+  },
+  {
+   "from": "Shinkyō",
+   "to": "Xinjing",
+   "chars": "新京",
+   "alt": {},
+   "note": ""
+  },
+  {
+   "from": "Shinkyo",
+   "to": "Xinjing",
+   "chars": "新京",
+   "alt": {},
+   "note": ""
+  },
+  {
+   "from": "Nanking",
+   "to": "Nanjing",
+   "chars": "南京",
+   "alt": {},
+   "note": ""
+  },
+  {
+   "from": "Chekiang",
+   "to": "Zhejiang",
+   "chars": "浙江",
+   "alt": {},
+   "note": ""
+  },
+  {
+   "from": "Kiangsu",
+   "to": "Jiangsu",
+   "chars": "江蘇|江苏",
+   "alt": {},
+   "note": ""
+  },
+  {
+   "from": "Kiangsi",
+   "to": "Jiangxi",
+   "chars": "江西",
+   "alt": {},
+   "note": ""
+  },
+  {
+   "from": "Kiangning",
+   "to": "Jiangning",
+   "chars": "江寧|江宁",
+   "alt": {},
+   "note": ""
+  },
+  {
+   "from": "Shansi",
+   "to": "Shanxi",
+   "chars": "山西",
+   "alt": {},
+   "note": ""
+  },
+  {
+   "from": "Shensi",
+   "to": "Shaanxi",
+   "chars": "陝西|陕西",
+   "alt": {},
+   "note": "陝西 → Shaanxi (double a), not Shanxi 山西."
+  },
+  {
+   "from": "Shantung",
+   "to": "Shandong",
+   "chars": "",
+   "alt": {},
+   "note": ""
+  },
+  {
+   "from": "Dairen",
+   "to": "Dalian",
+   "chars": "大連|大连",
+   "alt": {},
+   "note": ""
+  },
+  {
+   "from": "Anhwei",
+   "to": "Anhui",
+   "chars": "安徽",
+   "alt": {},
+   "note": ""
+  },
+  {
+   "from": "Honan",
+   "to": "Henan",
+   "chars": "河南",
+   "alt": {},
+   "note": ""
+  },
+  {
+   "from": "Hupeh",
+   "to": "Hubei",
+   "chars": "湖北",
+   "alt": {},
+   "note": ""
+  },
+  {
+   "from": "Hopei",
+   "to": "Hebei",
+   "chars": "河北",
+   "alt": {},
+   "note": ""
+  },
+  {
+   "from": "Hopeh",
+   "to": "Hebei",
+   "chars": "河北",
+   "alt": {},
+   "note": ""
+  },
+  {
+   "from": "Tsingtao",
+   "to": "Qingdao",
+   "chars": "青島|青岛",
+   "alt": {},
+   "note": ""
+  },
+  {
+   "from": "Amoy",
+   "to": "Xiamen",
+   "chars": "廈門|厦门|厦門",
+   "alt": {},
+   "note": ""
+  },
+  {
+   "from": "Mukden",
+   "to": "Fengtian",
+   "chars": "奉天",
+   "alt": {
+    "Shenyang": "瀋陽|沈陽|沈阳"
+   },
+   "note": "奉天 → Fengtian (all 2026-11-28 cases). If the source prints 瀋陽 → Shenyang."
+  },
+  {
+   "from": "Hōten",
+   "to": "Fengtian",
+   "chars": "奉天",
+   "alt": {},
+   "note": ""
+  },
+  {
+   "from": "Peiping",
+   "to": "Beiping",
+   "chars": "北平",
+   "alt": {},
+   "note": ""
+  },
+  {
+   "from": "Peking",
+   "to": "Beijing",
+   "chars": "北京",
+   "alt": {
+    "Beiping": "北平"
+   },
+   "note": "Romanise what is printed: 北平 → Beiping, 北京 → Beijing, 京師 (the capital) → Beijing (user: meaning)."
+  },
+  {
+   "from": "Swatow",
+   "to": "Shantou",
+   "chars": "汕頭|汕头",
+   "alt": {},
+   "note": ""
+  },
+  {
+   "from": "Ningsia",
+   "to": "Ningxia",
+   "chars": "寧夏|宁夏",
+   "alt": {},
+   "note": ""
+  },
+  {
+   "from": "Tsitsihar",
+   "to": "Qiqihar",
+   "chars": "齊齊哈爾|斉斉哈爾|齐齐哈尔|チチハル",
+   "alt": {},
+   "note": ""
+  },
+  {
+   "from": "Jehol",
+   "to": "Rehe",
+   "chars": "熱河|热河",
+   "alt": {},
+   "note": ""
+  },
+  {
+   "from": "Foochow",
+   "to": "Fuzhou",
+   "chars": "福州",
+   "alt": {},
+   "note": ""
+  },
+  {
+   "from": "Canton",
+   "to": "Guangzhou",
+   "chars": "廣州|広州|广州",
+   "alt": {
+    "Guangdong": "廣東|広東|广东"
+   },
+   "note": "Usually 廣東 used for the CITY in Japanese texts (paired with 福州, 香港) → Guangzhou (user: meaning over printed form). If it is the province → Guangdong."
+  },
+  {
+   "from": "Tientsin",
+   "to": "Tianjin",
+   "chars": "天津",
+   "alt": {},
+   "note": ""
+  },
+  {
+   "from": "Chinghai",
+   "to": "Qinghai",
+   "chars": "青海",
+   "alt": {},
+   "note": ""
+  },
+  {
+   "from": "Tsinghai",
+   "to": "Qinghai",
+   "chars": "青海",
+   "alt": {},
+   "note": ""
+  },
+  {
+   "from": "Ryojun",
+   "to": "Lüshun",
+   "chars": "旅順|旅顺",
+   "alt": {},
+   "note": "旅順 → Lüshun (with ü)."
+  },
+  {
+   "from": "Antung",
+   "to": "Andong",
+   "chars": "安東|安东",
+   "alt": {},
+   "note": ""
+  },
+  {
+   "from": "Pinkiang",
+   "to": "Binjiang",
+   "chars": "濱江|浜江",
+   "alt": {},
+   "note": ""
+  },
+  {
+   "from": "Mutankiang",
+   "to": "Mudanjiang",
+   "chars": "牡丹江",
+   "alt": {},
+   "note": ""
+  },
+  {
+   "from": "Sankiang",
+   "to": "Sanjiang",
+   "chars": "三江",
+   "alt": {},
+   "note": ""
+  },
+  {
+   "from": "Kiamusze",
+   "to": "Jiamusi",
+   "chars": "佳木斯",
+   "alt": {},
+   "note": "佳木斯 → Jiamusi; one source misprints it 住木斯."
+  },
+  {
+   "from": "Yenki",
+   "to": "Yanji",
+   "chars": "延吉",
+   "alt": {},
+   "note": ""
+  },
+  {
+   "from": "Hankow",
+   "to": "Hankou",
+   "chars": "漢口|汉口",
+   "alt": {},
+   "note": ""
+  },
+  {
+   "from": "Kirin",
+   "to": "Jilin",
+   "chars": "吉林",
+   "alt": {},
+   "note": ""
+  },
+  {
+   "from": "Szechwan",
+   "to": "Sichuan",
+   "chars": "四川",
+   "alt": {},
+   "note": ""
+  },
+  {
+   "from": "Fukien",
+   "to": "Fujian",
+   "chars": "福建",
+   "alt": {},
+   "note": ""
+  },
+  {
+   "from": "Kansu",
+   "to": "Gansu",
+   "chars": "甘肅|甘粛|甘肃",
+   "alt": {},
+   "note": ""
+  },
+  {
+   "from": "Hsingan",
+   "to": "Xing'an",
+   "chars": "興安|兴安",
+   "alt": {},
+   "note": "興安 → Xing'an (apostrophe)."
+  },
+  {
+   "from": "Chientao",
+   "to": "Jiandao",
+   "chars": "間島|间岛",
+   "alt": {},
+   "note": ""
+  },
+  {
+   "from": "Tunghua",
+   "to": "Tonghua",
+   "chars": "通化",
+   "alt": {},
+   "note": ""
+  },
+  {
+   "from": "Ssupingchieh",
+   "to": "Sipingjie",
+   "chars": "四平街",
+   "alt": {},
+   "note": ""
+  },
+  {
+   "from": "Penhsihu",
+   "to": "Benxihu",
+   "chars": "本溪湖|本渓湖",
+   "alt": {},
+   "note": ""
+  },
+  {
+   "from": "Wangyehmiao",
+   "to": "Wangyemiao",
+   "chars": "王爺廟|王爷庙",
+   "alt": {},
+   "note": ""
+  },
+  {
+   "from": "Heiho",
+   "to": "Heihe",
+   "chars": "黑河|黒河",
+   "alt": {},
+   "note": ""
+  },
+  {
+   "from": "Lintung",
+   "to": "Lindong",
+   "chars": "",
+   "alt": {},
+   "note": "Was 林東 → Lindong (not Lintong)."
+  },
+  {
+   "from": "Kando",
+   "to": "Jiandao",
+   "chars": "間島|间岛",
+   "alt": {},
+   "note": "Japanese/Korean reading of 間島 (Manchuria) in Korean books — Manchurian place, so pinyin."
+  },
+  {
+   "from": "Hunch'un",
+   "to": "Hunchun",
+   "chars": "琿春|珲春",
+   "alt": {},
+   "note": "Looks like McCune–Reischauer but 琿春 is in Manchuria → pinyin."
+  },
+  {
+   "from": "Lungching-ts'un",
+   "to": "Longjingcun",
+   "chars": "龍井|龙井",
+   "alt": {},
+   "note": "龍井村, Jiandao."
+  },
+  {
+   "from": "Chü-tzu-chieh",
+   "to": "Juzijie",
+   "chars": "局子街",
+   "alt": {},
+   "note": "局子街 (Yanji), Jiandao."
+  },
+  {
+   "from": "Szechuan",
+   "to": "Sichuan",
+   "chars": "四川",
+   "alt": {},
+   "note": "Variant of Szechwan."
+  },
+  {
+   "from": "Kakutō",
+   "to": "ketou",
+   "chars": "客頭|客头",
+   "alt": {},
+   "note": "Japanese reading of the Chinese term 客頭 (emigration brokers, Xiamen) → pinyin, lower case like yicang."
+  }
+ ],
+ "keep": {
+  "Manchukuo": "state name; English form kept (Manchoukuo/Manchou → Manchukuo, in conversions)",
+  "Hong Kong": "",
+  "Macao": "",
+  "Harbin": "conventional",
+  "Hailar": "conventional",
+  "Manchuria": "",
+  "Manchurian": "",
+  "Mongolia": "",
+  "Weihaiwei": "already pinyin",
+  "Suiyuan": "already pinyin",
+  "Chahar": "already pinyin",
+  "Fushun": "same",
+  "Hunan": "same",
+  "Yunnan": "same",
+  "Liaoning": "same",
+  "Changsha": "same",
+  "Wuhu": "same",
+  "Shanghai": "same",
+  "Changchun": "same",
+  "Anshan": "same",
+  "Daoyuan": "already pinyin (道院)",
+  "Kwantung": "關東州 and its institutions (user 2026-11-28, overriding pinyin): the territory always as the full phrase 'Kwantung Leased Territory' (also for bare 關東州, 'Kwantung Territory', 'Kwantung Province'); institutions 'Kwantung Bureau' (關東局), 'Kwantung Government' (關東廳), 'Kwantung Army' (關東軍) etc. Dalian 大連 and Lüshun 旅順 stay pinyin only. Never confuse with Kwangtung 廣東 → Guangdong."
+ },
+ "terms": {
+  "Hsien / hsien (縣)": "county / counties (user 2026-11-28); rewrite phrase by phrase for singular/plural — convert.py HSIEN list. 'Kiangning Hsien' → 'Jiangning County'; 'Hsien-run' → 'County-run'.",
+  "Hsiang (or Chen), Pao and Chia (鄉鎮保甲)": "Townships (or Towns), Bao and Jia",
+  "Yi-tsang (義倉)": "charity granaries (yicang)",
+  "江海關": "Jianghai Customs (Shanghai) — an earlier translation wrongly said 'Kiangsu Customs'"
+ },
+ "false_hits": {
+  "mien-hsien": "麵線 noodles (taiwan-tokei-1938) — not 縣; leave",
+  "Koh": "Koh Kong (Cambodia) and the Taiwan land unit 甲 kō — not Chinese",
+  "Shina": "a substring of Shinagawa — match whole words only",
+  "Shantung": "also an English word (the fabric), so a dictionary filter drops it — search for it explicitly",
+  "Kwa/Hsi/Tsi/Sze/Kian": "fragments from partial-word patterns; always match whole words",
+  "Korean McCune–Reischauer": "P'y…, Ch'ung…, Mokp'o share Wade-Giles-style apostrophes — Korean names are never converted",
+  "Tomun": "圖們鐵道 in Korea Nenkan 1926 ran inside Korea (會寧–潼關鎭, North Hamgyŏng) → Korean place, keep McCune–Reischauer 'Tomun'. Converted to Tumen by mistake 2026-11-28 and reverted. Same-name check: before converting a name in a Korean/Japanese/Taiwan book, confirm the place is in China/Manchuria (rows, addresses), not just that the characters match (安東 Andong, 大同 Taedong, 江西 Kangsŏ also exist in Korea)."
+ },
+ "pending_taiwan": {
+  "_note": "Taiwan names in Taiwan books → Hepburn (pinyin) pass, not yet done. Seen 2026-11-28 in taiwan-tokei-1897/1898, taiwan-kaiun-1935 etc.",
+  "forms": [
+   "Tamsui",
+   "Anping",
+   "Keelung",
+   "Takow",
+   "Lukang",
+   "Chiu-kang",
+   "Wuchi",
+   "Tungshih",
+   "Houlung",
+   "Makung",
+   "Tungkang",
+   "Taihoku",
+   "Giran",
+   "Takao"
+  ]
+ }
+}

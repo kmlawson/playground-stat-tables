@@ -1,0 +1,55 @@
+{
+ "_doc": "Hand corrections from the reviews of 2026-11-28, applied by collect.py to printed labels before anything else. merge: two gazetteer ids for one place (the glossary shows one entry; the finder's gazetteer is not changed). drop: a label attached by the finder to the wrong place, with no right place in the gazetteer (it is left out and logged in suspects.tsv). move: a label attached to the wrong place, moved to the right one.",
+ "merge": {
+  "n-akasaka": "n-tokyo-akasaka",
+  "n-asakusa": "n-tokyo-asakusa",
+  "n-azabu": "n-tokyo-azabu",
+  "n-fukagawa": "n-tokyo-fukagawa",
+  "n-hongo": "n-tokyo-hongo",
+  "n-honjo": "n-tokyo-honjo",
+  "n-kanda": "n-tokyo-kanda",
+  "n-koishikawa": "n-tokyo-koishikawa",
+  "n-kyobashi": "n-tokyo-kyobashi",
+  "n-nihonbashi": "n-tokyo-nihonbashi",
+  "n-shiba": "n-tokyo-shiba",
+  "n-shitaya": "n-tokyo-shitaya",
+  "n-ushigome": "n-tokyo-ushigome",
+  "n-yotsuya": "n-tokyo-yotsuya",
+  "n-shimogyo": "n-kyoto-shimogyo",
+  "n-jp-hikone": "c-hikone",
+  "n-truk-natsu": "c-dublon",
+  "tw-TwShuKarenko": "tw-TwKarenko",
+  "tw-TwTaihoku": "c-taipei",
+  "tw-TwTainan": "c-tainan",
+  "tw-TwKirunShi": "c-keelung",
+  "tw-TwTakaoShi": "c-kaohsiung",
+  "tw-TwTaichu": "c-taichung",
+  "tw-TwShinchikuShi": "c-hsinchu",
+  "tw-TwKagiShi": "c-chiayi",
+  "w-jehol": "cn-Jehol",
+  "w-chahar": "cn-Chahaer",
+  "w-suiyuan": "cn-Suiyuan",
+  "w-xinjiang": "cn-Xinjiang"
+ },
+ "drop": [
+  {
+   "place": "c-shashi",
+   "label": "Shahsien 沙縣",
+   "why": "沙縣 Shaxian, Fujian (not Shashi, Hubei); no gazetteer entry"
+  }
+ ],
+ "move": [
+  {
+   "place": "shanghai-fc",
+   "label": "French Concession (Shameen)",
+   "to": "n-shameen-fc",
+   "why": "Shameen (Shamian), Canton"
+  },
+  {
+   "place": "c-makung",
+   "label": "Pescadores",
+   "to": "tw-TwHoko",
+   "why": "the island group (Hōko-chō), not the town of Makō"
+  }
+ ]
+}

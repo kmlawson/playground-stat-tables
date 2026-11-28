@@ -1,0 +1,661 @@
+{
+ "_doc": "Hangul for Korean places (user request 2026-11-28; added reference data, NOT printed in our books). source: map = Japanese Empire map's korea.csv / stations.csv; hanja = Sino-Korean reading of the gazetteer's hanja by the `hanja` package (initial-sound rule applied), checked by eye. 'today': present-day name where it differs. mr: McCune–Reischauer (map, station list, gazetteer, or by hand; checked by eye), also added reference data.",
+ "n-kr-anshu": {
+  "hanja": "安州",
+  "hangul": "안주",
+  "source": "map (station)",
+  "mr": "Anju",
+  "mr_source": "map (station)"
+ },
+ "n-kr-andong": {
+  "hanja": "安東",
+  "hangul": "안동",
+  "source": "hanja",
+  "mr": "Andong",
+  "mr_source": "hand (checked)"
+ },
+ "n-kr-kyongju-chonbuk": {
+  "hanja": "川北面",
+  "hangul": "천북면",
+  "source": "hanja",
+  "mr": "Ch’ŏnbuk-myŏn",
+  "mr_source": "gazetteer"
+ },
+ "n-kr-chinkai": {
+  "hanja": "鎭海",
+  "hangul": "진해",
+  "source": "hanja",
+  "mr": "Chinhae",
+  "mr_source": "hand (checked)"
+ },
+ "c-nampo": {
+  "hanja": "鎮南浦",
+  "hangul": "진남포",
+  "source": "map (station)",
+  "mr": "Chinnamp’o",
+  "mr_source": "map (station)"
+ },
+ "n-kr-chochiin": {
+  "hanja": "鳥致院",
+  "hangul": "조치원",
+  "source": "map (station)",
+  "mr": "Choch’iwŏn",
+  "mr_source": "map (station)",
+  "today": "세종 (조치원읍)"
+ },
+ "n-kr-chushu": {
+  "hanja": "忠州",
+  "hangul": "충주",
+  "source": "map (station)",
+  "mr": "Ch’ungju",
+  "mr_source": "map (station)"
+ },
+ "kr-Chuseihoku": {
+  "hanja": "忠清北道",
+  "hangul": "충청북도",
+  "source": "map",
+  "mr": "Ch’ungch’ŏngbuk-to",
+  "mr_source": "map"
+ },
+ "kr-Chuseinan": {
+  "hanja": "忠清南道",
+  "hangul": "충청남도",
+  "source": "map",
+  "mr": "Ch’ungch’ŏngnam-do",
+  "mr_source": "map"
+ },
+ "c-pusan": {
+  "hanja": "釜山",
+  "hangul": "부산",
+  "source": "map (station)",
+  "mr": "Pusan",
+  "mr_source": "map (station)"
+ },
+ "n-kr-fuyo": {
+  "hanja": "扶餘",
+  "hangul": "부여",
+  "source": "hanja",
+  "mr": "Puyŏ",
+  "mr_source": "hand (checked)"
+ },
+ "c-wonsan": {
+  "hanja": "元山",
+  "hangul": "원산",
+  "source": "map (station)",
+  "mr": "Wŏnsan",
+  "mr_source": "map (station)"
+ },
+ "n-kr-gishu": {
+  "hanja": "義州",
+  "hangul": "의주",
+  "source": "hanja",
+  "mr": "Ŭiju",
+  "mr_source": "hand (checked)"
+ },
+ "c-kunsan": {
+  "hanja": "群山",
+  "hangul": "군산",
+  "source": "map (station)",
+  "mr": "Kunsan",
+  "mr_source": "map (station)"
+ },
+ "kr-Heianhoku": {
+  "hanja": "平安北道",
+  "hangul": "평안북도",
+  "source": "map",
+  "mr": "P’yŏnganbuk-to",
+  "mr_source": "map"
+ },
+ "kr-Heiannan": {
+  "hanja": "平安南道",
+  "hangul": "평안남도",
+  "source": "map",
+  "mr": "P’yŏngannam-do",
+  "mr_source": "map"
+ },
+ "c-pyongyang": {
+  "hanja": "平壌",
+  "hangul": "평양",
+  "source": "hanja",
+  "mr": "P’yŏngyang",
+  "mr_source": "map (city)"
+ },
+ "n-kr-hoko": {
+  "hanja": "浦項",
+  "hangul": "포항",
+  "source": "map (station)",
+  "mr": "P’ohang",
+  "mr_source": "map (station)"
+ },
+ "n-kr-hokuchin": {
+  "hanja": "北鎭",
+  "hangul": "북진",
+  "source": "hanja",
+  "mr": "Pukchin",
+  "mr_source": "hand (checked)"
+ },
+ "n-kr-hokusei": {
+  "hanja": "北靑",
+  "hangul": "북청",
+  "source": "hanja",
+  "mr": "Pukch’ŏng",
+  "mr_source": "hand (checked)"
+ },
+ "c-incheon": {
+  "hanja": "仁川",
+  "hangul": "인천",
+  "source": "hanja",
+  "mr": "Inch’ŏn",
+  "mr_source": "map (city)"
+ },
+ "n-kr-junten": {
+  "hanja": "順天",
+  "hangul": "순천",
+  "source": "map (station)",
+  "mr": "Sunch’ŏn",
+  "mr_source": "map (station)"
+ },
+ "c-songjin": {
+  "hanja": "城津",
+  "hangul": "성진",
+  "source": "hanja (checked; gazetteer has the present-day 金策)",
+  "today": "김책",
+  "mr": "Sŏngjin",
+  "mr_source": "hand (checked)"
+ },
+ "c-kaesong": {
+  "hanja": "開城",
+  "hangul": "개성",
+  "source": "map (station)",
+  "mr": "Kaesŏng",
+  "mr_source": "map (station)"
+ },
+ "n-kr-kainei": {
+  "hanja": "會寧",
+  "hangul": "회령",
+  "source": "map (station)",
+  "mr": "Hoeryŏng",
+  "mr_source": "map (station)"
+ },
+ "c-haeju": {
+  "hanja": "海州",
+  "hangul": "해주",
+  "source": "map (station)",
+  "mr": "Haeju",
+  "mr_source": "map (station)"
+ },
+ "n-kr-kyongju-kangdong": {
+  "hanja": "江東面",
+  "hangul": "강동면",
+  "source": "hanja",
+  "mr": "Kangdong-myŏn",
+  "mr_source": "gazetteer"
+ },
+ "n-kr-kyongju-kangso": {
+  "hanja": "江西面",
+  "hangul": "강서면",
+  "source": "hanja",
+  "mr": "Kangsŏ-myŏn",
+  "mr_source": "gazetteer"
+ },
+ "kr-Kankyohoku": {
+  "hanja": "咸鏡北道",
+  "hangul": "함경북도",
+  "source": "map",
+  "mr": "Hamgyŏngbuk-to",
+  "mr_source": "map"
+ },
+ "kr-Kankyonan": {
+  "hanja": "咸鏡南道",
+  "hangul": "함경남도",
+  "source": "map",
+  "mr": "Hamgyŏngnam-do",
+  "mr_source": "map"
+ },
+ "c-hamhung": {
+  "hanja": "咸興",
+  "hangul": "함흥",
+  "source": "map (station)",
+  "mr": "Hamhŭng",
+  "mr_source": "map (station)"
+ },
+ "c-seoul": {
+  "hanja": "京城",
+  "hangul": "경성",
+  "source": "map (station)",
+  "today": "서울",
+  "mr": "Kyŏngsŏng",
+  "mr_source": "map (station)"
+ },
+ "kr-Keiki": {
+  "hanja": "京畿道",
+  "hangul": "경기도",
+  "source": "map",
+  "mr": "Kyŏnggi-do",
+  "mr_source": "map"
+ },
+ "n-kr-keishu": {
+  "hanja": "慶州",
+  "hangul": "경주",
+  "source": "map (station)",
+  "mr": "Kyŏngju",
+  "mr_source": "map (station)"
+ },
+ "kr-Keishohoku": {
+  "hanja": "慶尚北道",
+  "hangul": "경상북도",
+  "source": "map",
+  "mr": "Kyŏngsangbuk-to",
+  "mr_source": "map"
+ },
+ "kr-Keishonan": {
+  "hanja": "慶尚南道",
+  "hangul": "경상남도",
+  "source": "map",
+  "mr": "Kyŏngsangnam-do",
+  "mr_source": "map"
+ },
+ "n-kr-kenjiho": {
+  "hanja": "兼二浦",
+  "hangul": "겸이포",
+  "source": "map (station)",
+  "mr": "Kyŏmip’o",
+  "mr_source": "map (station)",
+  "today": "송림"
+ },
+ "n-kr-kinsen": {
+  "hanja": "金泉",
+  "hangul": "김천",
+  "source": "map (station)",
+  "mr": "Kimch’ŏn",
+  "mr_source": "map (station)"
+ },
+ "n-kr-kokei": {
+  "hanja": "江景",
+  "hangul": "강경",
+  "source": "map (station)",
+  "mr": "Kanggyŏng",
+  "mr_source": "map (station)"
+ },
+ "korea": {
+  "hanja": "朝鮮",
+  "hangul": "조선",
+  "source": "hanja",
+  "mr": "Chosŏn",
+  "mr_source": "hand (checked)"
+ },
+ "n-kr-kyongju-kyongok": {
+  "hanja": "見谷面",
+  "hangul": "현곡면",
+  "source": "hand (checked; 見 is read 현 in this name)",
+  "mr": "Hyŏn’gok-myŏn",
+  "mr_source": "hand (checked)"
+ },
+ "n-kr-kyongju-gun": {
+  "hanja": "慶州郡",
+  "hangul": "경주군",
+  "source": "map (station)",
+  "mr": "Kyŏngju-gun",
+  "mr_source": "map (station)"
+ },
+ "n-kr-kyongju-eup": {
+  "hanja": "慶州邑",
+  "hangul": "경주읍",
+  "source": "map (station)",
+  "mr": "Kyŏngju-ŭp",
+  "mr_source": "map (station)"
+ },
+ "kr-Kogen": {
+  "hanja": "江原道",
+  "hangul": "강원도",
+  "source": "map",
+  "mr": "Kangwŏn-do",
+  "mr_source": "map"
+ },
+ "kr-Kokai": {
+  "hanja": "黄海道",
+  "hangul": "황해도",
+  "source": "map",
+  "mr": "Hwanghae-do",
+  "mr_source": "map"
+ },
+ "c-hungnam": {
+  "hanja": "興南",
+  "hangul": "흥남",
+  "source": "hanja (checked; gazetteer has the present-day 興南区域)",
+  "mr": "Hŭngnam",
+  "mr_source": "hand (checked)"
+ },
+ "n-kr-koryo": {
+  "hanja": "江陵",
+  "hangul": "강릉",
+  "source": "hanja",
+  "mr": "Kangnŭng",
+  "mr_source": "hand (checked)"
+ },
+ "c-kwangju": {
+  "hanja": "光州",
+  "hangul": "광주",
+  "source": "hanja",
+  "mr": "Kwangju",
+  "mr_source": "hand (checked)"
+ },
+ "c-kongju": {
+  "hanja": "公州",
+  "hangul": "공주",
+  "source": "hanja",
+  "mr": "Kongju",
+  "mr_source": "hand (checked)"
+ },
+ "c-masan": {
+  "hanja": "馬山",
+  "hangul": "마산",
+  "source": "map (station)",
+  "mr": "Masan",
+  "mr_source": "map (station)"
+ },
+ "n-kr-mitsuyo": {
+  "hanja": "密陽",
+  "hangul": "밀양",
+  "source": "map (station)",
+  "mr": "Miryang",
+  "mr_source": "map (station)"
+ },
+ "c-mokpo": {
+  "hanja": "木浦",
+  "hangul": "목포",
+  "source": "map (station)",
+  "mr": "Mokp’o",
+  "mr_source": "map (station)"
+ },
+ "n-kr-kyongju-naedong": {
+  "hanja": "內東面",
+  "hangul": "내동면",
+  "source": "hanja",
+  "mr": "Naedong-myŏn",
+  "mr_source": "gazetteer"
+ },
+ "n-kr-kyongju-naenam": {
+  "hanja": "內南面",
+  "hangul": "내남면",
+  "source": "hanja",
+  "mr": "Naenam-myŏn",
+  "mr_source": "gazetteer"
+ },
+ "n-kr-nangen": {
+  "hanja": "南原",
+  "hangul": "남원",
+  "source": "map (station)",
+  "mr": "Namwŏn",
+  "mr_source": "map (station)"
+ },
+ "n-kr-kyongju-oedong": {
+  "hanja": "外東面",
+  "hangul": "외동면",
+  "source": "hanja",
+  "mr": "Oedong-myŏn",
+  "mr_source": "gazetteer"
+ },
+ "n-kr-ranan": {
+  "hanja": "羅南",
+  "hangul": "나남",
+  "source": "map (station)",
+  "mr": "Nanam",
+  "mr_source": "map (station)"
+ },
+ "c-najin": {
+  "hanja": "羅津",
+  "hangul": "나진",
+  "source": "map (station)",
+  "mr": "Najin",
+  "mr_source": "map (station)",
+  "today": "라선"
+ },
+ "n-kr-reisen": {
+  "hanja": "醴泉郡",
+  "hangul": "예천군",
+  "source": "map (station)",
+  "mr": "Yech’ŏn-gun",
+  "mr_source": "map (station)"
+ },
+ "n-kr-reisui": {
+  "hanja": "麗水",
+  "hangul": "여수",
+  "source": "map (station)",
+  "mr": "Yŏsu",
+  "mr_source": "map (station)"
+ },
+ "n-kr-riri": {
+  "hanja": "裡里",
+  "hangul": "이리",
+  "source": "map (station)",
+  "mr": "Iri",
+  "mr_source": "map (station)",
+  "today": "익산"
+ },
+ "n-kr-saishu": {
+  "hanja": "濟州",
+  "hangul": "제주",
+  "source": "hanja",
+  "mr": "Cheju",
+  "mr_source": "hand (checked)"
+ },
+ "kr-Saishu": {
+  "hanja": "済州島",
+  "hangul": "제주도",
+  "source": "map",
+  "mr": "Cheju-do",
+  "mr_source": "map"
+ },
+ "n-kr-kyongju-sannae": {
+  "hanja": "山內面",
+  "hangul": "산내면",
+  "source": "hanja",
+  "mr": "Sannae-myŏn",
+  "mr_source": "gazetteer"
+ },
+ "c-chongjin": {
+  "hanja": "清津",
+  "hangul": "청진",
+  "source": "hanja",
+  "mr": "Ch’ŏngjin",
+  "mr_source": "map (city)"
+ },
+ "c-chongju": {
+  "hanja": "清州",
+  "hangul": "청주",
+  "source": "hanja",
+  "mr": "Ch’ŏngju",
+  "mr_source": "map (city)"
+ },
+ "n-kr-seiyu": {
+  "hanja": "井邑",
+  "hangul": "정읍",
+  "source": "map (station)",
+  "mr": "Chŏngŭp",
+  "mr_source": "map (station)"
+ },
+ "n-kr-sensen": {
+  "hanja": "宣川",
+  "hangul": "선천",
+  "source": "map (station)",
+  "mr": "Sŏnch’ŏn",
+  "mr_source": "map (station)"
+ },
+ "n-kr-shariin": {
+  "hanja": "沙里院",
+  "hangul": "사리원",
+  "source": "hanja (checked; gazetteer had 載寧 by mistake)",
+  "mr": "Sariwŏn",
+  "mr_source": "hand (checked)"
+ },
+ "c-sinuiju": {
+  "hanja": "新義州",
+  "hangul": "신의주",
+  "source": "map (station)",
+  "mr": "Sinŭiju",
+  "mr_source": "map (station)"
+ },
+ "c-chinju": {
+  "hanja": "晋州",
+  "hangul": "진주",
+  "source": "hanja",
+  "mr": "Chinju",
+  "mr_source": "hand (checked)"
+ },
+ "n-kr-shoshu": {
+  "hanja": "尙州",
+  "hangul": "상주",
+  "source": "map (station)",
+  "mr": "Sangju",
+  "mr_source": "map (station)"
+ },
+ "c-chunchon": {
+  "hanja": "春川",
+  "hangul": "춘천",
+  "source": "map (station)",
+  "mr": "Ch’unch’ŏn",
+  "mr_source": "map (station)"
+ },
+ "n-kr-shuotsu": {
+  "hanja": "朱乙",
+  "hangul": "주을",
+  "source": "map (station)",
+  "mr": "Chuŭl",
+  "mr_source": "map (station)"
+ },
+ "c-suwon": {
+  "hanja": "水原",
+  "hangul": "수원",
+  "source": "map (station)",
+  "mr": "Suwŏn",
+  "mr_source": "map (station)"
+ },
+ "n-kr-kyongju-so": {
+  "hanja": "西面",
+  "hangul": "서면",
+  "source": "map (station)",
+  "mr": "Sŏ-myŏn",
+  "mr_source": "gazetteer"
+ },
+ "c-taejon": {
+  "hanja": "大田",
+  "hangul": "대전",
+  "source": "map (station)",
+  "mr": "Taejŏn",
+  "mr_source": "map (station)"
+ },
+ "c-taegu": {
+  "hanja": "大邱",
+  "hangul": "대구",
+  "source": "map (station)",
+  "mr": "Taegu",
+  "mr_source": "map (station)"
+ },
+ "n-kr-teishu": {
+  "hanja": "定州",
+  "hangul": "정주",
+  "source": "map (station)",
+  "mr": "Chŏngju",
+  "mr_source": "map (station)"
+ },
+ "n-kr-tenan": {
+  "hanja": "天安",
+  "hangul": "천안",
+  "source": "map (station)",
+  "mr": "Ch’ŏnan",
+  "mr_source": "map (station)"
+ },
+ "n-kr-tetsugen": {
+  "hanja": "鐵原",
+  "hangul": "철원",
+  "source": "hanja",
+  "mr": "Ch’ŏrwŏn",
+  "mr_source": "hand (checked)"
+ },
+ "n-kr-toei": {
+  "hanja": "統營",
+  "hangul": "통영",
+  "source": "hanja",
+  "mr": "T’ongyŏng",
+  "mr_source": "hand (checked)"
+ },
+ "n-kr-torai": {
+  "hanja": "東萊",
+  "hangul": "동래",
+  "source": "map (station)",
+  "mr": "Tongnae",
+  "mr_source": "map (station)"
+ },
+ "n-kr-urusan": {
+  "hanja": "蔚山",
+  "hangul": "울산",
+  "source": "map (station)",
+  "mr": "Ulsan",
+  "mr_source": "map (station)"
+ },
+ "n-kr-kyongju-yangbuk": {
+  "hanja": "陽北面",
+  "hangul": "양북면",
+  "source": "hanja",
+  "mr": "Yangbuk-myŏn",
+  "mr_source": "gazetteer"
+ },
+ "n-kr-kyongju-yangnam": {
+  "hanja": "陽南面",
+  "hangul": "양남면",
+  "source": "hanja",
+  "mr": "Yangnam-myŏn",
+  "mr_source": "gazetteer"
+ },
+ "n-kr-yeitoho": {
+  "hanja": "永登浦",
+  "hangul": "영등포",
+  "source": "map (station)",
+  "mr": "Yŏngdŭngp’o",
+  "mr_source": "map (station)"
+ },
+ "n-kr-yuki": {
+  "hanja": "雄基",
+  "hangul": "웅기",
+  "source": "map (station)",
+  "mr": "Unggi",
+  "mr_source": "map (station)",
+  "today": "선봉"
+ },
+ "kr-Zenrahoku": {
+  "hanja": "全羅北道",
+  "hangul": "전라북도",
+  "source": "map",
+  "mr": "Chŏllabuk-to",
+  "mr_source": "map"
+ },
+ "kr-Zenranan": {
+  "hanja": "全羅南道",
+  "hangul": "전라남도",
+  "source": "map",
+  "mr": "Chŏllanam-do",
+  "mr_source": "map"
+ },
+ "c-chonju": {
+  "hanja": "全州",
+  "hangul": "전주",
+  "source": "map (station)",
+  "mr": "Chŏnju",
+  "mr_source": "map (station)"
+ },
+ "n-kr-yokojo": {
+  "hanja": "橫城郡",
+  "hangul": "횡성군",
+  "source": "hanja",
+  "mr": "Hoengsŏng-gun",
+  "mr_source": "hand (checked)"
+ },
+ "n-kr-oshin": {
+  "hanja": "甕津郡",
+  "hangul": "옹진군",
+  "source": "map (station)",
+  "mr": "Ongjin-gun",
+  "mr_source": "map (station)"
+ }
+}

@@ -3201,6 +3201,10 @@ def main():
     sys.path.insert(0, os.path.join(SCRIPTS, "finders"))
     import build_all as finders_build
     finders_build.main()
+    # places.html ("Places", draft place-name glossary) from build/names/glossary.json (made by build/names/collect.py)
+    sys.path.insert(0, os.path.join(SCRIPTS, "names"))
+    import build_names
+    build_names.main()
     books = [{"slug": b["slug"], "title": b["title"], "dir": bool(b.get("_dir_n")), "chron": bool(b.get("_chron_n")),
               "g": group_of(b), "y": years_of(b), "sc": b.get("scan")} for b, n, c, ch in cards if n]
     with open(os.path.join(HERE, "search.html"), "w", encoding="utf-8") as fh:
