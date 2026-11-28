@@ -108,6 +108,26 @@ def fold_keep(s):
     return re.sub(r"\s+", " ", s).strip(" -")
 
 
+def group_of(f, feats):
+    """WHG's index groups several sources under one parent record (Beijing: 12345975, gathering TGN, GeoNames,
+    CHGIS ...). Link the group, not one source: a parent gives its index id; a child gives the index id of the
+    parent that lists it among its children (same response); a child with no parent in view keeps its own id."""
+    pr = f["properties"]
+    if pr.get("index_role") == "parent" and pr.get("index_id"):
+        return pr["index_id"], len(pr.get("child_place_ids") or []) + 1
+    for g in feats:
+        gp = g["properties"]
+        if gp.get("index_role") == "parent" and pr.get("place_id") in (gp.get("child_place_ids") or []):
+            return gp["index_id"], len(gp.get("child_place_ids") or []) + 1
+    # a child whose parent was not among this search's results: search again under the record's own title
+    if pr.get("index_role") == "child" and pr.get("title"):
+        for g in fetch(pr["title"]).get("features", []):
+            gp = g["properties"]
+            if gp.get("index_role") == "parent" and pr.get("place_id") in (gp.get("child_place_ids") or []):
+                return gp["index_id"], len(gp.get("child_place_ids") or []) + 1
+    return pr.get("place_id"), 1
+
+
 def match(e):
     cc = CC.get(e["r"])
     for q in queries(e):
@@ -132,14 +152,19 @@ def match(e):
                     best = (d, f, same)
             if best:
                 p = best[1]["properties"]
-                return {"pid": p["place_id"], "title": p["title"], "how": f"{best[0]:.1f} km from our point", "q": q}
+                gid, nsrc = group_of(best[1], feats)
+                return {"pid": gid, "record": p["place_id"], "sources": nsrc, "title": p["title"],
+                        "how": f"{best[0]:.1f} km from our point", "q": q}
         elif e["k"] in AREAL:
             hits = [f for f in feats if fold(f["properties"]["title"]) == fold(q)
                     and set(f["properties"].get("fclasses") or []) & {"A", "L"}
                     and (not cc or set(f["properties"].get("ccodes") or []) & cc)]
-            if len({f["properties"]["place_id"] for f in hits}) == 1:
+            groups = {group_of(f, feats)[0] for f in hits}
+            if len(groups) == 1:
                 p = hits[0]["properties"]
-                return {"pid": p["place_id"], "title": p["title"], "how": "name, class and country", "q": q}
+                gid, nsrc = group_of(hits[0], feats)
+                return {"pid": gid, "record": p["place_id"], "sources": nsrc, "title": p["title"],
+                        "how": "name, class and country", "q": q}
     return None
 
 

@@ -233,7 +233,7 @@ function entryRows(e,d,tog,ctx,orig){
     for(const [c] of C) h+='<td class="nmc-'+c+'">'+(ctx?"":cell(row.cols[c],(row.added||{})[c],row.src,orig,row.asrc,row.fy))+'</td>';
     if(first&&!ctx){
       h+='<td class="nm-ll nmc-ll">'+(e.ll?e.ll.join(", "):"")+'</td>';
-      h+='<td class="nmc-whg">'+(e.whg?'<a href="https://whgazetteer.org/places/'+e.whg.pid+'/portal" title="'+esc(e.whg.title||"")+'">WHG</a>':"")+'</td>';
+      h+='<td class="nmc-whg">'+(e.whg?'<a href="https://whgazetteer.org/places/'+e.whg.pid+'/portal" title="'+esc((e.whg.title||"")+(e.whg.sources>1?" — WHG index record gathering "+e.whg.sources+" sources":" — one source record"))+'">WHG</a>':"")+'</td>';
       h+='<td class="nmc-wp">'+(e.wp?'<a href="https://en.wikipedia.org/wiki/'+encodeURIComponent(e.wp.title.replace(/ /g,"_"))+'" title="'+esc(e.wp.title+" ("+(e.wp.how||"")+")")+'">WP</a>':"")+'</td>';
       h+='<td class="nmc-nb">'+e.nb+'</td>';
     } else h+='<td class="nmc-ll"></td><td class="nmc-whg"></td><td class="nmc-wp"></td><td class="nmc-nb"></td>';

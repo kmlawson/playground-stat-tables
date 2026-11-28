@@ -33,6 +33,12 @@ Computed readings (pypinyin, pykakasi) only decide which column and which name a
   `~/.cache/stat-tables-names/whg/`, and it stops on HTTP 429 or 5xx. A match is accepted only if:
   - for towns and cities, the WHG record lies within 25 km of our point;
   - for areas, the title matches, the feature class is administrative and the country code is right.
+
+  The link goes to WHG's **index record** for the place, the group that gathers its sources (Beijing: 12345975, 8
+  sources), not to the one source record that matched (7685731, CHGIS). A child record is linked to its parent:
+  the parent that lists it among `child_place_ids`, found in the same response or by searching again under the
+  record's title. 320 of 322 matches now link a group; Dali and Qiqihar keep their single source record because
+  their parent never appears in the legacy search.
 - `hangul.json` holds Hangul for every Korean place. This is reference data the user asked for, and it is not printed
   in our books, so the page marks it as added and the database stores it with `attested = 0`. Sources: the map's
   `korea.csv` and `stations.csv`, otherwise the `hanja` package's Sino-Korean reading. Every entry was checked by eye;
