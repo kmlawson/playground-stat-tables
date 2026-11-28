@@ -67,6 +67,21 @@ tr.nm-ev td{background:var(--panel);font-size:13.5px;position:static}
 .nm-tog{font:inherit;font-size:12px;width:20px;height:20px;padding:0;margin:0 4px 0 -2px;border:1px solid var(--line);background:var(--panel);color:var(--accent);cursor:pointer;vertical-align:1px}
 .nm-tog0{display:inline-block;width:22px}
 tr.nm-node td{background:var(--panel);font-size:15px;position:sticky;left:0}
+:root{--lv0:#1f4a2c;--lv1:#2e6440;--lv2:#3e7e53;--lv3:#d3e6d8;--lv4:#ebf4ee;--lvtop:#ffffff;--lvtopm:rgba(255,255,255,.8)}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--lv0:#3b7b51;--lv1:#2f6542;--lv2:#265335;--lv3:#1c3727;--lv4:#17271d;--lvtop:#f3f8f4;--lvtopm:rgba(243,248,244,.78)}}
+:root[data-theme="dark"]{--lv0:#3b7b51;--lv1:#2f6542;--lv2:#265335;--lv3:#1c3727;--lv4:#17271d;--lvtop:#f3f8f4;--lvtopm:rgba(243,248,244,.78)}
+table.nm tr.lv0 td{background:var(--lv0)}table.nm tr.lv1 td{background:var(--lv1)}table.nm tr.lv2 td{background:var(--lv2)}
+table.nm tr.lv3 td{background:var(--lv3)}table.nm tr.lv4 td{background:var(--lv4)}
+table.nm tr.lv0 td,table.nm tr.lv1 td,table.nm tr.lv2 td{color:var(--lvtop);border-bottom-color:rgba(255,255,255,.18)}
+tr.lv0 a,tr.lv1 a,tr.lv2 a,tr.lv0 .nm-place,tr.lv1 .nm-place,tr.lv2 .nm-place{color:var(--lvtop)}
+tr.lv0 .nm-meta,tr.lv1 .nm-meta,tr.lv2 .nm-meta,tr.lv0 .nm-cnt,tr.lv1 .nm-cnt,tr.lv2 .nm-cnt,tr.lv0 .nm-anchor,tr.lv1 .nm-anchor,tr.lv2 .nm-anchor,
+table.nm tr.lv0 tr.nm-sub td:first-child,table.nm tr.lv1.nm-sub td:first-child,table.nm tr.lv2.nm-sub td:first-child,
+table.nm tr.nm-cat.lv1 td,table.nm tr.nm-cat.lv2 td{color:var(--lvtopm)}
+tr.lv0 .nm-f+.nm-f,tr.lv1 .nm-f+.nm-f,tr.lv2 .nm-f+.nm-f{color:var(--lvtopm)}
+tr.lv0 .nm-tag,tr.lv1 .nm-tag,tr.lv2 .nm-tag{border-color:var(--lvtopm);color:var(--lvtopm)}
+tr.lv0 .nm-add,tr.lv1 .nm-add,tr.lv2 .nm-add{border-bottom-color:var(--lvtopm)}
+tr.lv0 .nm-tog,tr.lv1 .nm-tog,tr.lv2 .nm-tog{background:transparent;border-color:var(--lvtopm);color:var(--lvtop)}
+.nm-srch a{white-space:nowrap}
 tr.nm-cat td{color:var(--muted);font-size:12.5px;text-transform:uppercase;letter-spacing:.04em;border-bottom:none;padding-top:8px}
 tr.nm-ctx td{opacity:.6}.nm-cnt{color:var(--muted);font-size:13px;font-weight:normal}
 [hidden]{display:none!important}
@@ -124,6 +139,18 @@ let ONLY="", WITHIN="";
 function readHash(){const h=decodeURIComponent(location.hash.slice(1));ONLY="";WITHIN="";
   if(h.startsWith("in="))WITHIN=h.slice(3);else if(h&&BYID[h])ONLY=h;}
 function within(e,w){let a=e.up,seen=new Set();while(a&&!seen.has(a)){if(a===w)return true;seen.add(a);a=up(a)}return false}
+function searchTerms(e){
+  // the most printed characters (shortest of the leading forms: 京城 rather than 京城府) and the heading without tones
+  const r=e.rows[0],out=[];
+  const cj=["jo","tc","jn","sc"].flatMap(c=>(r.cols[c]||[]).slice(0,3)).filter(f=>/[\u3400-\u9fff]/.test(f));
+  if(cj.length)out.push(cj.reduce((a,b)=>b.length<a.length?b:a));
+  // the romanised form the tables print most (pinyin or Wade-Giles first for China, Hepburn for the empire)
+  const order=["China","Manchuria","Kwantung"].includes(e.r)?["py","wg","oth","std","hep"]:["hep","oth","mr","std","py","wg"];
+  let lat="";
+  for(const c of order){const f=(r.cols[c]||[]).find(x=>(r.src||{})[x]!=="x");if(f){lat=f;break}}
+  if(!lat)lat=e.en.split(/\\s*[,(]/)[0].normalize("NFKD").replace(/[\u0300-\u036f]/g,"").replace(/[’ʻ]/g,"'").trim();
+  if(lat&&!out.includes(lat))out.push(lat);
+  return out}
 function head(e,ctx){
   let h='<span class="nm-place">'+esc(e.en)+'</span> <a class="nm-anchor" href="#'+encodeURIComponent(e.id)+'" title="link to this place">¶</a>';
   if(ctx)return h+' <span class="nm-cnt">'+esc(e.k)+'</span>';
@@ -133,6 +160,7 @@ function head(e,ctx){
   const kids=KIDS[e.id]; if(kids&&kids.length)h+='<span class="nm-meta"><a href="#in='+encodeURIComponent(e.id)+'">'+kids.length+(kids.length===1?" place":" places")+' in it</a></span>';
   if(e.ne)h+='<span class="nm-meta"><a href="#" data-ev="'+esc(e.id)+'">printed in '+e.ne+(e.ne===1?" table":" tables")+' ▸</a></span>';
   if(POP.has(e.id))h+='<span class="nm-meta"><a href="figures/population.html#p='+encodeURIComponent(e.id)+'">population figures</a></span>';
+  const qs=searchTerms(e); if(qs.length)h+='<span class="nm-meta nm-srch">search the site: '+qs.map(t=>'<a href="search.html#'+new URLSearchParams({q:t}).toString()+'" title="search all tables for '+esc(t)+'">'+esc(t)+'</a>').join(" · ")+'</span>';
   if(e.same)h+='<span class="nm-meta nm-same">same characters as '+e.same.map(x=>'<a href="#'+encodeURIComponent(x.id)+'">'+esc(x.en)+'</a> ('+esc(x.r)+')').join(", ")+'</span>';
   return h}
 // ---- views: hierarchy (folding, A-Z within category) or flat A-Z
@@ -157,11 +185,12 @@ let VIEW="tree";try{VIEW=localStorage.getItem("nm-view")||"tree"}catch(_){}
 const OPEN=new Set(),SHUT=new Set();
 const isOpen=(n,d)=>OPEN.has(n.id)||(!SHUT.has(n.id)&&d<1);
 function entryRows(e,d,tog,ctx,orig){
-  const pad='style="padding-left:'+(8+d*20)+'px"',padS='style="padding-left:'+(30+d*20)+'px"';
+  const lv=VIEW==="tree"&&!ONLY?" lv"+Math.min(d,4):"";
+  const pad='style="padding-left:8px"',padS='style="padding-left:30px"';
   const rows=ctx?[e.rows[0]]:e.rows,out=[];
   rows.forEach((row,i)=>{
     const first=i===0;
-    let h='<tr class="'+(first?"nm-first":"nm-sub")+(ctx?" nm-ctx":"")+'"'+(first?' id="'+esc(e.id)+'"':"")+'><td '+(first?pad:padS)+'>'+(first?tog+head(e,ctx)
+    let h='<tr class="'+(first?"nm-first":"nm-sub")+(ctx?" nm-ctx":"")+lv+'"'+(first?' id="'+esc(e.id)+'"':"")+'><td '+(first?pad:padS)+'>'+(first?tog+head(e,ctx)
       :'<span class="nm-tag">'+esc(row.status||(row.note?"former name":"other form"))+'</span>'+esc(row.note||"")+(row.yrs?'<span class="nm-meta">printed '+yr(row.yrs)+'</span>':""))+'</td>';
     for(const [c] of C) h+='<td class="nmc-'+c+'">'+(ctx?"":cell(row.cols[c],(row.added||{})[c],row.src,orig,row.asrc,row.fy))+'</td>';
     if(first&&!ctx){
@@ -202,11 +231,11 @@ function render(){
       const self=!!(nd.entry&&pass(nd.entry)),hasK=nd.kids.some(hits),open=hasK&&(active?true:isOpen(nd,d));
       const tog=hasK?'<button type="button" class="nm-tog" data-tog="'+esc(nd.id)+'" aria-expanded="'+open+'" title="'+(open?"fold":"unfold")+'">'+(open?"▾":"▸")+'</button>':'<span class="nm-tog0"></span>';
       if(nd.entry)out.push(entryRows(nd.entry,d,tog,!self,orig));
-      else out.push('<tr class="nm-node"><td colspan="18" style="padding-left:'+(8+d*20)+'px">'+tog+'<b>'+esc(nd.en)+'</b> <span class="nm-cnt">'+ndesc(nd)+' places</span></td></tr>');
+      else out.push('<tr class="nm-node lv'+Math.min(d,4)+'"><td colspan="18" style="padding-left:8px">'+tog+'<b>'+esc(nd.en)+'</b> <span class="nm-cnt">'+ndesc(nd)+' places</span></td></tr>');
       if(!open)return;
       let last=-1;const kids=nd.kids.filter(hits),cats=new Set(kids.map(c=>catOf(c.k)));
       for(const c of kids){const ci=catOf(c.k);
-        if(cats.size>1&&ci!==last){out.push('<tr class="nm-cat"><td colspan="18" style="padding-left:'+(30+d*20)+'px">'+CATN[ci]+'</td></tr>');last=ci}
+        if(cats.size>1&&ci!==last){out.push('<tr class="nm-cat lv'+Math.min(d+1,4)+'"><td colspan="18" style="padding-left:30px">'+CATN[ci]+'</td></tr>');last=ci}
         walk(c,d+1)}
     };
     if(WITHIN&&NODE[WITHIN])walk(NODE[WITHIN],0);else ROOTS.forEach(rt=>walk(rt,0));
