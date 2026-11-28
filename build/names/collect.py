@@ -65,6 +65,7 @@ for _n, _o in {"戸": "戶", "彦": "彥", "姫": "姬", "呉": "吳", "横": "�
         _V["new"].setdefault(_n, _o)
 JA_NEW_ONLY = set(_V["new"])                                    # Japanese new forms with a distinct old form
 JA_OLD = set(_V["new"].values())
+JA_OLD_ANY = JA_OLD | {k for k, v in JA_O2N.items() if k != v}
 ZH_TRAD = set(ZH_T2S)
 CONV = json.load(open(os.path.join(BUILD, "romanisation", "conversions.json")))
 FORMER = json.load(open(os.path.join(HERE, "former.json")))   # curated: other names of a place, with dates
@@ -486,6 +487,17 @@ _CC = {k: opencc.OpenCC(k) for k in ("t2s", "t2jp", "jp2t")}
 HANZI = re.compile(r"[\u3400-\u9fff\uf900-\ufaff\u30a1-\u30fa]")      # characters or a katakana name (アンガウル)
 
 
+def to_new_forms(f):
+    """Japanese new forms: OpenCC t2jp, then the site's old->new table for the print variants OpenCC leaves alone
+    (淸 -> 清, 敎 -> 教, 靑 -> 青), so that 忠淸北道 and 忠清北道 both become 忠清北道."""
+    return "".join(JA_O2N.get(c, c) for c in _CC["t2jp"].convert(f))
+
+
+def to_simplified_cc(f):
+    """Simplified Chinese: OpenCC t2s, then the site's table for the variants it leaves alone (淸 -> 清)."""
+    return "".join(ZH_T2S.get(c, c) for c in _CC["t2s"].convert(f))
+
+
 def converted_forms(pid, g, reg, rows, put, tg):
     if not g.get("ja") and CORR.get("cjk", {}).get(pid):
         g = dict(g, ja=CORR["cjk"][pid])
@@ -519,7 +531,7 @@ def converted_forms(pid, g, reg, rows, put, tg):
             src0 = ""
         if em:
             for f in old + (trad if not old else []):
-                v = _CC["t2jp"].convert(f)
+                v = to_new_forms(f)
                 put(r, "jn", v, ("new forms converted with OpenCC" if v != f else "same characters in new forms") + src0)
                 if f in trad and not old:
                     put(r, "jo", f, "same characters as the Chinese printing" + src0)
@@ -531,8 +543,26 @@ def converted_forms(pid, g, reg, rows, put, tg):
             for f in tsrc:
                 if f not in trad:
                     put(r, "tc", f, "traditional characters, from the Japanese printing" + src0)
-                v = _CC["t2s"].convert(f)
+                v = to_simplified_cc(f)
                 put(r, "sc", v, ("simplified with OpenCC" if v != f else "same characters in simplified") + src0)
+
+
+def wade_giles_unambiguous(cjk):
+    """Wade-Giles of a Chinese place name from its characters (Ch'ang-ch'un, Lü-shun, Sui-yüan), under the same
+    rule as the added pinyin: no Wade-Giles if a character in it is read more than one way in place names (POLY) or the
+    label is a compound. pypinyin's 'v' is written ü."""
+    if pinyin_unambiguous(cjk) is None:
+        return None
+    name = CJK_SUFFIX.sub("", cjk) if len(CJK_SUFFIX.sub("", cjk)) >= 2 else cjk
+    name = "".join(_V["new"].get(c, c) for c in name)
+    simp = to_simplified(name)
+    if name in PY_SPECIAL:
+        return {"陝西": "Shan-hsi", "陕西": "Shan-hsi"}.get(name)
+    syl = [x[0] for x in pinyin(simp, style=Style.WADEGILES, errors=lambda x: [None] * len(x))]
+    if not syl or len(syl) != len(simp) or not all(x and re.fullmatch(r"[a-zv']+", x) for x in syl):
+        return None
+    out = "-".join(x.replace("v", "ü") for x in syl)
+    return out[:1].upper() + out[1:]
 
 
 def add_reference_forms(pid, g, reg, rows, refs, db_forms, tg=()):
@@ -557,6 +587,10 @@ def add_reference_forms(pid, g, reg, rows, refs, db_forms, tg=()):
             src = printed[0] if printed else r["core"]
             if src and is_cjk(src):
                 put(r, "py", pinyin_unambiguous(src), "pinyin (unambiguous reading)")
+                wg = wade_giles_unambiguous(src)
+                postal = {x.lower() for k in ("oth", "wg") for x in r["cols"].get(k, []) + r.get("added", {}).get(k, [])}
+                if wg and wg.lower() not in postal:          # only where it differs from what is already there
+                    put(r, "wg", wg, "Wade-Giles from the characters (unambiguous reading)")
     head = re.split(r"\s*[,(]", g["en"])[0].strip()
     curated = re.match(r"(c-|kr-|tw-|jp\d|n-jp-)", pid)
     if home and head and reg in ("Japan", "Karafuto", "Korea", "Taiwan") and curated and \
@@ -990,7 +1024,8 @@ def main():
                 if lang == "zh" or (lang is None and reg == "China"):
                     col = "sc" if set(f) & ZH_SIMPLE_ONLY else "tc"
                 else:
-                    col = "jn" if set(f) & JA_NEW_ONLY else "jo"
+                    # new forms only when no old form is left in it: a mixed printing (横濱, 本郷區) is filed with the old forms
+                    col = "jn" if set(f) & JA_NEW_ONLY and not set(f) & JA_OLD_ANY else "jo"
                 names[c]["cols"][col][f] += w
                 placed.append((f, c, col))
                 continue

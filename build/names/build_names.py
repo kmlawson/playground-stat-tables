@@ -467,6 +467,14 @@ def main():
                ", ".join(f"{k} = {l}" for k, l in COLS) + ". Only forms printed in our books or used in our translations.",
                "entries": slim}, open(os.path.join(SITE, "data", "places.json"), "w", encoding="utf-8"),
               ensure_ascii=False, separators=(",", ":"))
+    # names per place for other pages (the Population page loads it): [status, note, years, {system: forms}, {system: added}]
+    corr = json.load(open(os.path.join(HERE, "corrections.json"), encoding="utf-8")) if os.path.exists(os.path.join(HERE, "corrections.json")) else {}
+    pf = {"_doc": "Place names of places.html, per place id: rows [status, note, [first, last year printed], forms printed or "
+                  "translated {system: [...]}, forms added {system: [...]}]. alias: ids merged into another place.",
+          "sys": dict(COLS), "alias": corr.get("merge", {}),
+          "places": {e["id"]: [[r.get("status") or "", r.get("note") or "", r.get("yrs") or None, r["cols"], r.get("added") or {}]
+                               for r in e["rows"]] for e in slim}}
+    json.dump(pf, open(os.path.join(SITE, "data", "place-forms.json"), "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
     return {"places": len(E)}
 
 

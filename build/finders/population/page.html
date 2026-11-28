@@ -18,6 +18,12 @@ __STYLE__
 .ph{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 14px;margin:0 0 4px}.ph h2{font-size:28px;margin:0;font-weight:normal}.ph .pj{font-size:22px;color:var(--muted)}
 .psum{color:var(--muted);font-size:14.5px;margin:0 0 14px}
 .psrc{font-size:14px;margin:-6px 0 14px;max-width:52em;color:var(--muted)}.psrc summary{cursor:pointer;color:var(--ink)}.psrc summary b{font-weight:normal;color:var(--accent)}.psrc ul{margin:6px 0 2px;padding-left:18px}.psrc li{margin:5px 0;line-height:1.4}.psrc a{color:var(--accent)}.psrc .sw{display:block;font-size:13px}.psrc h4{font-size:14px;font-weight:normal;color:var(--ink);margin:12px 0 2px;letter-spacing:.02em;text-transform:uppercase;font-size:12.5px}.psrc ul.rd{list-style:none;padding-left:0}.psrc ul.rd li{padding-left:1.6em;text-indent:-1.6em;margin:3px 0}
+.pnames{border:1px solid var(--line);background:var(--panel);padding:8px 12px;margin:0 0 14px;font-size:14.5px;max-width:60em}
+.pnames h3{font-size:15px;font-weight:normal;margin:0 0 6px;color:var(--muted)}.pnames a{color:var(--accent)}
+.pn-row{margin:4px 0;line-height:1.6}.pn-row+.pn-row{border-top:1px dotted var(--line);padding-top:4px}
+.pn-st{display:inline-block;font-size:12.5px;border:1px solid var(--line);padding:0 5px;margin-right:6px;color:var(--muted)}
+.pn-sys{margin-right:14px;white-space:normal}.pn-sys b{font-weight:normal;color:var(--muted);font-size:12.5px;margin-right:3px}
+.pn-add{color:var(--muted);font-style:italic}.pn-more{font-size:13px;margin:6px 0 0}
 .pnote{background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--accent);padding:8px 12px;margin:-6px 0 14px;font-size:14.5px;line-height:1.5;max-width:52em}.pnote a{color:var(--accent)}.pnote.pcaut{border-left-color:#b7791f}
 .ctrl{display:flex;flex-wrap:wrap;gap:8px 18px;align-items:center;margin:10px 0 6px;font-size:14px}
 .ctrl .lbl{font-size:12px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin-right:4px}
@@ -141,6 +147,7 @@ async function place(id){const P=I.places[id];if(!P){home();return}
  h+=`<div class="ph"><h2>${esc(P.en)}</h2>${P.ja?`<span class="pj">${esc(P.ja)}</span>`:""}</div>`;
  h+=`<p class="psum">${esc(KIND1[P.k]||"")}${P.up?" in "+esc(name(P.up)):""}${C.length?` · ${fmt(C.length)} figure${C.length===1?"":"s"} from ${fmt(tables)} table${tables===1?"":"s"}${P.y?`, ${P.y[0]}–${P.y[1]}`:""}`:""}${P.a?` · printed as ${P.a.slice(0,4).map(esc).join(", ")}`:""}</p>`;
  {const tn=I.tn||{},r=[...chain(id)].reverse().find(k=>tn[k]);if(r)h+=`<p class="pnote pcaut" role="note">${esc(tn[r])}</p>`}
+ h+=`<div class="pnames" id="pnames" hidden></div>`;
  h+=srcBox(id);
  if(I.pn&&I.pn[id])h+=`<p class="pnote" role="note">${esc(I.pn[id]).replace(/\[\[([^\]|]+)(?:\|([^\]]+))?\]\]/g,(m,k,t)=>I.places[k]?`<a href="#p=${encodeURIComponent(k)}">${esc(t||I.places[k].en)}</a>`:esc(t||k))}</p>`;
  if(C.length){
@@ -168,7 +175,7 @@ async function place(id){const P=I.places[id];if(!P){home();return}
  const ks=kids(id);
  if(ks.length){
   h+=`<h3 class="sec">Places within ${esc(P.en)}</h3><table class="sub" id="subt"><thead><tr><th data-k="n">Place</th><th class="r" data-k="l">Latest population</th><th class="r" data-k="y">Years</th><th class="r" data-k="c">Figures</th></tr></thead><tbody></tbody></table>`}
- $("#pop").innerHTML=h;$("#howto").hidden=false;wireSearch();toTop(id);
+ $("#pop").innerHTML=h;$("#howto").hidden=false;wireSearch();toTop(id);names(id);
  document.querySelectorAll("[data-home]").forEach(a=>a.onclick=e=>{if(e.metaKey||e.ctrlKey||e.shiftKey||e.button)return;e.preventDefault();history.pushState(null,"",location.pathname+location.search);parse();render()});
  if(C.length){drawChart(years,Y);
   document.querySelectorAll("[data-m]").forEach(b=>b.onclick=()=>go({m:b.dataset.m,g:"all"},true));
@@ -179,6 +186,17 @@ async function place(id){const P=I.places[id];if(!P){home();return}
  if(ks.length)subTable(ks,"k")}
 
 // a caution and where to find official and scholarly figures: the list of the nearest region up the tree
+// every name of the place from the Places glossary (data/place-forms.json; the same data as data/place-names.sqlite)
+let PF=null;
+async function names(id){const box=document.getElementById("pnames");if(!box)return;
+ try{if(!PF)PF=await (await fetch("../data/place-forms.json")).json()}catch(e){return}
+ if(st.p!==id)return;
+ const gid=(PF.alias&&PF.alias[id])||id,rows=PF.places[gid];if(!rows)return;
+ const sys=(o,cls)=>Object.entries(o||{}).filter(([k,v])=>v&&v.length).map(([k,v])=>`<span class="pn-sys${cls||""}"><b>${esc(PF.sys[k]||k)}</b>${v.map(esc).join(", ")}</span>`).join("");
+ box.innerHTML=`<h3>Names in our books</h3>`+rows.map(r=>{const st_=r[0]&&r[0]!=="main"?`<span class="pn-st">${esc(r[0])}${r[2]?" · printed "+(r[2][0]===r[2][1]?r[2][0]:r[2][0]+"–"+r[2][1]):""}</span>`:(r[2]?`<span class="pn-st">printed ${r[2][0]===r[2][1]?r[2][0]:r[2][0]+"–"+r[2][1]}</span>`:"");
+   const added=sys(r[4]," pn-add");return `<div class="pn-row">${st_}${r[1]?`<span class="pn-sys">${esc(r[1])}</span>`:""}${sys(r[3])}${added?`<br>${added}`:""}</div>`}).join("")
+  +`<p class="pn-more"><span class="pn-add">italic</span>: added from reference data, not printed in our books · <a href="../places.html#${encodeURIComponent(gid)}">all names, sources and links on the Places page</a></p>`;
+ box.hidden=false}
 function srcBox(id){const S=I.srcs||{};const r=[...chain(id)].reverse().find(k=>k!=="_rd"&&S[k]);if(!r||!S[r].length)return "";
  const rd=((S._rd||{})[r]||[]).map(g=>`<h4>${esc(g.h)}</h4><ul class="rd">${g.items.map(x=>`<li>${esc(x).replace(/\*([^*]+)\*/g,"<i>$1</i>")}</li>`).join("")}</ul>`).join("");
  const li=S[r].map(([n,by,kind,home,deep,lang,what])=>`<li><a href="${esc(deep||home)}" rel="noopener">${esc(n)}</a> — ${esc(by)}${lang?` <span class="sj">(${esc(lang)})</span>`:""}${home&&deep&&home!==deep?` · <a href="${esc(home)}" rel="noopener">home page</a>`:""}${what?`<span class="sw">${esc(what)}</span>`:""}</li>`).join("");
