@@ -45,7 +45,13 @@ table.nm tr.nm-sub td:first-child{padding-left:22px;color:var(--muted);font-size
 table.nm tr.nm-first td{border-top:1px solid var(--line)}
 .nm-place{font-size:15px;color:var(--ink)}
 .nm-alt{font-size:14px;color:var(--muted);margin-left:2px}
-tr.lv0 .nm-alt,tr.lv1 .nm-alt,tr.lv2 .nm-alt{color:var(--lvtopm)}
+table.nm td:first-child,table.nm th:first-child{min-width:230px}
+.nm-x{display:none}td.nm-open .nm-x{display:inline}
+.nm-more{font:inherit;font-size:12px;padding:0 5px;margin-top:2px;border:1px solid var(--line);background:transparent;color:var(--accent);cursor:pointer}
+table.nm tr.nm-first td{border-bottom:none;padding-bottom:1px}
+table.nm tr.nm-info td{padding:0 8px 6px 30px;font-size:12.5px;color:var(--muted);border-top:none}
+.nm-infol{position:sticky;left:30px;max-width:min(1200px, calc(100vw - 90px))}
+.nm-infol a{color:var(--accent)}.nm-sep{color:var(--line)}
 .nm-meta{display:block;color:var(--muted);font-size:12.5px}
 .nm-f{display:block;white-space:nowrap}
 .nm-f+.nm-f{color:var(--muted)}
@@ -69,20 +75,19 @@ tr.nm-ev td{background:var(--panel);font-size:13.5px;position:static}
 .nm-tog{font:inherit;font-size:12px;width:20px;height:20px;padding:0;margin:0 4px 0 -2px;border:1px solid var(--line);background:var(--panel);color:var(--accent);cursor:pointer;vertical-align:1px}
 .nm-tog0{display:inline-block;width:22px}
 tr.nm-node td{background:var(--panel);font-size:15px;position:sticky;left:0}
-:root{--lv0:#1f4a2c;--lv1:#2e6440;--lv2:#3e7e53;--lv3:#d3e6d8;--lv4:#ebf4ee;--lvtop:#ffffff;--lvtopm:rgba(255,255,255,.8)}
-@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--lv0:#3b7b51;--lv1:#2f6542;--lv2:#265335;--lv3:#1c3727;--lv4:#17271d;--lvtop:#f3f8f4;--lvtopm:rgba(243,248,244,.78)}}
-:root[data-theme="dark"]{--lv0:#3b7b51;--lv1:#2f6542;--lv2:#265335;--lv3:#1c3727;--lv4:#17271d;--lvtop:#f3f8f4;--lvtopm:rgba(243,248,244,.78)}
-table.nm tr.lv0 td{background:var(--lv0)}table.nm tr.lv1 td{background:var(--lv1)}table.nm tr.lv2 td{background:var(--lv2)}
-table.nm tr.lv3 td{background:var(--lv3)}table.nm tr.lv4 td{background:var(--lv4)}
-table.nm tr.lv0 td,table.nm tr.lv1 td,table.nm tr.lv2 td{color:var(--lvtop);border-bottom-color:rgba(255,255,255,.18)}
-tr.lv0 a,tr.lv1 a,tr.lv2 a,tr.lv0 .nm-place,tr.lv1 .nm-place,tr.lv2 .nm-place{color:var(--lvtop)}
-tr.lv0 .nm-meta,tr.lv1 .nm-meta,tr.lv2 .nm-meta,tr.lv0 .nm-cnt,tr.lv1 .nm-cnt,tr.lv2 .nm-cnt,tr.lv0 .nm-anchor,tr.lv1 .nm-anchor,tr.lv2 .nm-anchor,
-table.nm tr.lv0 tr.nm-sub td:first-child,table.nm tr.lv1.nm-sub td:first-child,table.nm tr.lv2.nm-sub td:first-child,
-table.nm tr.nm-cat.lv1 td,table.nm tr.nm-cat.lv2 td{color:var(--lvtopm)}
-tr.lv0 .nm-f+.nm-f,tr.lv1 .nm-f+.nm-f,tr.lv2 .nm-f+.nm-f{color:var(--lvtopm)}
-tr.lv0 .nm-tag,tr.lv1 .nm-tag,tr.lv2 .nm-tag{border-color:var(--lvtopm);color:var(--lvtopm)}
-tr.lv0 .nm-add,tr.lv1 .nm-add,tr.lv2 .nm-add{border-bottom-color:var(--lvtopm)}
-tr.lv0 .nm-tog,tr.lv1 .nm-tog,tr.lv2 .nm-tog{background:transparent;border-color:var(--lvtopm);color:var(--lvtop)}
+:root{--tA:#cfe3d5;--tB:#e2efe6;--tC:#f3f8f4}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--tA:#2b4535;--tB:#22372a;--tC:#1a2a20}}
+:root[data-theme="dark"]{--tA:#2b4535;--tB:#22372a;--tC:#1a2a20}
+table.nm tr.tA td{background:var(--tA)}table.nm tr.tB td{background:var(--tB)}table.nm tr.tC td{background:var(--tC)}
+table.nm th[data-col]{cursor:pointer;user-select:none}
+table.nm th[data-col]:hover{color:var(--ink)}
+table.nm th.cf,table.nm td.cf{width:16px;min-width:16px;max-width:16px;padding:4px 2px;overflow:hidden;white-space:nowrap}
+table.nm td.cf>*{display:none}
+table.nm th.cf{color:var(--accent);text-align:center}
+.nm-mv{display:inline-flex;gap:2px;margin-left:4px;vertical-align:middle}
+.nm-mv button{font:inherit;font-size:11px;line-height:1;padding:1px 4px;border:1px solid var(--line);background:var(--panel);color:var(--muted);cursor:pointer}
+.nm-mv button:hover{color:var(--accent);border-color:var(--accent)}
+table.nm th.nm-drop{box-shadow:inset 3px 0 0 var(--accent)}
 .nm-srch a{white-space:nowrap}
 tr.nm-cat td{color:var(--muted);font-size:12.5px;text-transform:uppercase;letter-spacing:.04em;border-bottom:none;padding-top:8px}
 tr.nm-ctx td{opacity:.6}.nm-cnt{color:var(--muted);font-size:13px;font-weight:normal}
@@ -113,7 +118,7 @@ tr.nm-ctx td{opacity:.6}.nm-cnt{color:var(--muted);font-size:13px;font-weight:no
 <div id="nm-cols" hidden></div>
 <p class="nm-chip" id="nm-chip" hidden></p>
 <p class="nm-key">Plain: printed in a table of our books · <span class="nm-tr">italic</span>: used only in our English translations · <span class="nm-add">dotted</span>: added from reference data (Hangul, McCune–Reischauer, Hepburn, English Wikipedia) or the unambiguous pinyin reading of the characters; hover for the source.</p>
-<div class="nm-wrap"><table class="nm"><thead><tr><th>Place</th>__TH__<th class="nmc-ll">Lat, long</th><th class="nmc-whg">WHG</th><th class="nmc-wp">Wikipedia</th><th class="nmc-nb">Books</th></tr></thead><tbody id="nm-b"></tbody></table></div>
+<div class="nm-wrap"><table class="nm"><thead id="nm-h"></thead><tbody id="nm-b"></tbody></table></div>
 <noscript><p>The glossary needs JavaScript. The data is also at <a href="data/places.json">data/places.json</a>.</p></noscript>
 <p class="nm-dl" style="font-size:14px;color:var(--muted)">Download: <a href="data/place-names.sqlite">data/place-names.sqlite</a> (SQLite database: places, names, every form with its system and years, and every label as printed with its book and table) · <a href="data/places.json">data/places.json</a> (this table) · <a href="data/places-evidence.json">data/places-evidence.json</a> (labels as printed, per place).</p>
 <div class="llmwarn" role="note"><b>Warning:</b> These names were transcribed by vision models and matched and sorted by machine. Check the tables, and the original scans linked from them, before relying on a form.</div>
@@ -121,6 +126,18 @@ __FOOT__
 </main>
 <script>
 const KEEP=__KEEP__;
+// column order and folded columns, remembered in this browser (Place stays first)
+const LABEL=Object.fromEntries(__COLS__.concat([["ll","Lat, long"],["whg","WHG"],["wp","Wikipedia"],["nb","Books"]]));
+const DEFAULT_ORDER=Object.keys(LABEL);
+let ORDER=DEFAULT_ORDER.slice(), FOLD=new Set();
+try{const o=JSON.parse(localStorage.getItem("nm-order")||"null");if(Array.isArray(o)&&o.length===DEFAULT_ORDER.length&&DEFAULT_ORDER.every(c=>o.includes(c)))ORDER=o}catch(_){}
+try{FOLD=new Set(JSON.parse(localStorage.getItem("nm-fold")||"[]"))}catch(_){}
+function saveCols(){try{localStorage.setItem("nm-order",JSON.stringify(ORDER));localStorage.setItem("nm-fold",JSON.stringify([...FOLD]))}catch(_){}}
+function renderHead(){
+  document.getElementById("nm-h").innerHTML='<tr><th>Place</th>'+ORDER.map(c=>FOLD.has(c)
+    ?'<th class="nmc-'+c+' cf" data-col="'+c+'" draggable="true" title="'+esc(LABEL[c])+' (folded): click to unfold">▸</th>'
+    :'<th class="nmc-'+c+'" data-col="'+c+'" draggable="true" title="click to fold; drag, or use ‹ ›, to move"><span>'+esc(LABEL[c])+'</span><span class="nm-mv"><button type="button" data-mv="-1" aria-label="move left">‹</button><button type="button" data-mv="1" aria-label="move right">›</button></span></th>').join("")+'</tr>';
+}
 const D=__DATA__, C=__COLS__, P=__PARENTS__, POP=new Set(__POP__), VAR=__VAR__;
 // search folds character variants together (臺/台, 滿/満/满) and drops diacritics
 const fold=s=>[...s.normalize("NFKD").replace(/[\\u0300-\\u036f]/g,"").toLowerCase()].map(c=>VAR[c]||c).join("").replace(/[^a-z0-9\\u3040-\\u30ff\\u3400-\\u9fff\\uf900-\\ufaff\\uac00-\\ud7af]/g,"");
@@ -165,12 +182,15 @@ D.forEach(e=>{e.key=fold(e.en+" "+(e.today||"")+" "+(e.today_ko||"")+" "+(e.same
 const tb=document.getElementById("nm-b");
 const yr=y=>y?(y[0]===y[1]?String(y[0]):y[0]+"–"+y[1]):"";
 function cell(v,a,src,orig,as,fy){
-  const pr=(v||[]).filter(f=>!orig||(src||{})[f]!=="x").map(f=>{const y=(fy||{})[f],t=y?" · in books of "+yr(y):"";
+  const parts=(v||[]).filter(f=>!orig||(src||{})[f]!=="x").map(f=>{const y=(fy||{})[f],t=y?" · in books of "+yr(y):"";
     return (src||{})[f]==="x"
     ?'<span class="nm-f"><span class="nm-tr" title="used in our English translations, not printed in the tables'+t+'">'+esc(f)+'</span></span>'
-    :'<span class="nm-f"'+(y?' title="printed in books of '+yr(y)+'"':"")+'>'+esc(f)+'</span>'}).join("");
-  return pr+(orig?"":(a||[]).map(f=>'<span class="nm-f"><span class="nm-add" title="added: '+esc((as||{})[f]||"not printed in our books")+'">'+esc(f)+'</span></span>').join(""))}
-let ONLY="", WITHIN="";
+    :'<span class="nm-f"'+(y?' title="printed in books of '+yr(y)+'"':"")+'>'+esc(f)+'</span>'});
+  if(!orig)(a||[]).forEach(f=>parts.push('<span class="nm-f"><span class="nm-add" title="added: '+esc((as||{})[f]||"not printed in our books")+'">'+esc(f)+'</span></span>'));
+  // three forms at most on the line; the rest behind "+N", so that a long list of spellings does not make the row tall
+  if(parts.length<=3)return parts.join("");
+  return parts.slice(0,3).join("")+'<span class="nm-x">'+parts.slice(3).join("")+'</span><button type="button" class="nm-more" data-n="'+(parts.length-3)+'">+'+(parts.length-3)+' more</button>';
+}
 function readHash(){const h=decodeURIComponent(location.hash.slice(1));ONLY="";WITHIN="";
   if(h.startsWith("in="))WITHIN=h.slice(3);else if(h&&BYID[h])ONLY=h;}
 function within(e,w){let a=e.up,seen=new Set();while(a&&!seen.has(a)){if(a===w)return true;seen.add(a);a=up(a)}return false}
@@ -188,18 +208,22 @@ function searchTerms(e){
   return out}
 function head(e,ctx){
   const [a1,a2]=shown(e);
-  let h='<span class="nm-place">'+esc(a1)+'</span>'+(a2?' <span class="nm-alt">'+esc(a2)+'</span>':"")+' <a class="nm-anchor" href="#'+encodeURIComponent(e.id)+'" title="link to this place">¶</a>';
-  if(ctx)return h+' <span class="nm-cnt">'+esc(e.k)+'</span>';
-  if(PFOLD(e.en)!==PFOLD(e.rom)&&!e.rom.startsWith(e.en))h+='<span class="nm-meta" title="the name the site&#39;s gazetteer and finder pages use">gazetteer: '+esc(e.en)+'</span>';
-  h+='<span class="nm-meta">'+esc(e.k)+' · '+esc(e.r)+(e.up&&e.up!=="world"&&e.up!=="empire"?' · in <a href="#'+(BYID[e.up]?"":"in=")+encodeURIComponent(e.up)+'">'+esc(nameOf(e.up))+'</a>':"")+'</span>';
-  if(e.today||e.today_ko)h+='<span class="nm-meta" title="present-day name (not printed in our books)">today '+esc([e.today,e.today_ko].filter(Boolean).join(" "))+'</span>';
-  const yrs=e.rows[0].yrs; if(yrs)h+='<span class="nm-meta" title="edition years of the books that print this name">printed '+yr(yrs)+'</span>';
-  const kids=KIDS[e.id]; if(kids&&kids.length)h+='<span class="nm-meta"><a href="#in='+encodeURIComponent(e.id)+'">'+kids.length+(kids.length===1?" place":" places")+' in it</a></span>';
-  if(e.ne)h+='<span class="nm-meta"><a href="#" data-ev="'+esc(e.id)+'">printed in '+e.ne+(e.ne===1?" table":" tables")+' ▸</a></span>';
-  if(POP.has(e.id))h+='<span class="nm-meta"><a href="figures/population.html#p='+encodeURIComponent(e.id)+'">population figures</a></span>';
-  const qs=searchTerms(e); if(qs.length)h+='<span class="nm-meta nm-srch">search the site: '+qs.map(t=>'<a href="search.html#'+new URLSearchParams({q:t}).toString()+'" title="search all tables for '+esc(t)+'">'+esc(t)+'</a>').join(" · ")+'</span>';
-  if(e.same)h+='<span class="nm-meta nm-same">same characters as '+e.same.map(x=>'<a href="#'+encodeURIComponent(x.id)+'">'+esc(x.en)+'</a> ('+esc(x.r)+')').join(", ")+'</span>';
-  return h}
+  const h='<span class="nm-place">'+esc(a1)+'</span>'+(a2?' <span class="nm-alt">'+esc(a2)+'</span>':"")+' <a class="nm-anchor" href="#'+encodeURIComponent(e.id)+'" title="link to this place">¶</a>';
+  return ctx?h+' <span class="nm-cnt">'+esc(e.k)+'</span>':h}
+// the second line of a place: everything about it except its names, as one indented line under the names
+function info(e){
+  const it=[];
+  it.push(esc(e.k)+' · '+esc(e.r)+(e.up&&e.up!=="world"&&e.up!=="empire"?' · in <a href="#'+(BYID[e.up]?"":"in=")+encodeURIComponent(e.up)+'">'+esc(nameOf(e.up))+'</a>':""));
+  if(e.today||e.today_ko)it.push('<span title="present-day name (not printed in our books)">today '+esc([e.today,e.today_ko].filter(Boolean).join(" "))+'</span>');
+  const yrs=e.rows[0].yrs; if(yrs)it.push('<span title="edition years of the books that print this name">printed '+yr(yrs)+'</span>');
+  const kids=KIDS[e.id]; if(kids&&kids.length)it.push('<a href="#in='+encodeURIComponent(e.id)+'">'+kids.length+(kids.length===1?" place":" places")+' in it</a>');
+  if(e.ne)it.push('<a href="#" data-ev="'+esc(e.id)+'">printed in '+e.ne+(e.ne===1?" table":" tables")+' ▸</a>');
+  if(POP.has(e.id))it.push('<a href="figures/population.html#p='+encodeURIComponent(e.id)+'">population figures</a>');
+  const qs=searchTerms(e); if(qs.length)it.push('search the site: '+qs.map(t=>'<a href="search.html#'+new URLSearchParams({q:t}).toString()+'" title="search all tables for '+esc(t)+'">'+esc(t)+'</a>').join(", "));
+  if(PFOLD(e.en)!==PFOLD(e.rom)&&!e.rom.startsWith(e.en))it.push('<span title="the name the site&#39;s gazetteer and finder pages use">gazetteer: '+esc(e.en)+'</span>');
+  if(e.same)it.push('same characters as '+e.same.map(x=>'<a href="#'+encodeURIComponent(x.id)+'">'+esc(x.en)+'</a> ('+esc(x.r)+')').join(", "));
+  return it.join('<span class="nm-sep"> · </span>');
+}
 // ---- views: hierarchy (folding, A-Z within category) or flat A-Z
 const CATI={country:0,colony:1,empire:1,region:1,world:1,province:2,prefecture:2,district:3,county:3,city:4,town:4,settlement:4,ward:5,island:6};
 const CATN=["Countries","Colonies and regions","Provinces and prefectures","Districts and counties","Cities and towns","Wards","Islands","Other places"];
@@ -222,28 +246,43 @@ const DAZ=[...D].sort(byName);
 let VIEW="tree";try{VIEW=localStorage.getItem("nm-view")||"tree"}catch(_){}
 const OPEN=new Set(),SHUT=new Set();
 const isOpen=(n,d)=>OPEN.has(n.id)||(!SHUT.has(n.id)&&d<1);
+const TIER_TOP=new Set(["empire","china","world","japan","manchuria","chinaproper"]);
+function tierOf(k,id){
+  if(["country","empire","colony","world"].includes(k)||TIER_TOP.has(id))return "tA";   // countries and colonies
+  if(["province","prefecture","region","district"].includes(k))return "tB";            // provinces, prefectures, regions
+  return "tC";                                                                       // cities, counties and below
+}
+const TRAIL=["ll","whg","wp","nb"];
+function tdFor(e,row,c,first,ctx,orig){
+  const cls="nmc-"+c+(FOLD.has(c)?" cf":"")+(c==="ll"?" nm-ll":"");
+  let v="";
+  if(!ctx){
+    if(c==="ll")v=first&&e.ll?e.ll.join(", "):"";
+    else if(c==="whg")v=first&&e.whg?'<a href="https://whgazetteer.org/places/'+e.whg.pid+'/portal" title="'+esc((e.whg.title||"")+(e.whg.sources>1?" — WHG index record gathering "+e.whg.sources+" sources":" — one source record"))+'">WHG</a>':"";
+    else if(c==="wp")v=first&&e.wp?'<a href="https://en.wikipedia.org/wiki/'+encodeURIComponent(e.wp.title.replace(/ /g,"_"))+'" title="'+esc(e.wp.title+" ("+(e.wp.how||"")+")")+'">WP</a>':"";
+    else if(c==="nb")v=first?String(e.nb):"";
+    else v=cell(row.cols[c],(row.added||{})[c],row.src,orig,row.asrc,row.fy);
+  }
+  return '<td class="'+cls+'">'+v+'</td>';
+}
 function entryRows(e,d,tog,ctx,orig){
-  const lv=VIEW==="tree"&&!ONLY?" lv"+Math.min(d,4):"";
+  const lv=" "+tierOf(e.k,e.id);
   const pad='style="padding-left:8px"',padS='style="padding-left:30px"';
   const rows=ctx?[e.rows[0]]:e.rows,out=[];
   rows.forEach((row,i)=>{
     const first=i===0;
     let h='<tr class="'+(first?"nm-first":"nm-sub")+(ctx?" nm-ctx":"")+lv+'"'+(first?' id="'+esc(e.id)+'"':"")+'><td '+(first?pad:padS)+'>'+(first?tog+head(e,ctx)
       :'<span class="nm-tag">'+esc(row.status||(row.note?"former name":"other form"))+'</span>'+esc(row.note||"")+(row.yrs?'<span class="nm-meta">printed '+yr(row.yrs)+'</span>':""))+'</td>';
-    for(const [c] of C) h+='<td class="nmc-'+c+'">'+(ctx?"":cell(row.cols[c],(row.added||{})[c],row.src,orig,row.asrc,row.fy))+'</td>';
-    if(first&&!ctx){
-      h+='<td class="nm-ll nmc-ll">'+(e.ll?e.ll.join(", "):"")+'</td>';
-      h+='<td class="nmc-whg">'+(e.whg?'<a href="https://whgazetteer.org/places/'+e.whg.pid+'/portal" title="'+esc((e.whg.title||"")+(e.whg.sources>1?" — WHG index record gathering "+e.whg.sources+" sources":" — one source record"))+'">WHG</a>':"")+'</td>';
-      h+='<td class="nmc-wp">'+(e.wp?'<a href="https://en.wikipedia.org/wiki/'+encodeURIComponent(e.wp.title.replace(/ /g,"_"))+'" title="'+esc(e.wp.title+" ("+(e.wp.how||"")+")")+'">WP</a>':"")+'</td>';
-      h+='<td class="nmc-nb">'+e.nb+'</td>';
-    } else h+='<td class="nmc-ll"></td><td class="nmc-whg"></td><td class="nmc-wp"></td><td class="nmc-nb"></td>';
+    for(const c of ORDER) h+=tdFor(e,row,c,first,ctx,orig);
     out.push(h+'</tr>');
+    if(first&&!ctx)out.push('<tr class="nm-info'+lv+'"><td colspan="18"><div class="nm-infol">'+info(e)+'</div></td></tr>');
   });
   if(!ctx)out.push('<tr class="nm-ev" data-for="'+esc(e.id)+'" hidden><td colspan="18"></td></tr>');
   return out.join("");
 }
 function render(){
   readHash();
+  renderHead();
   const q=fold(document.getElementById("nm-q").value), r=document.getElementById("nm-r").value,
         k=document.getElementById("nm-k").value, sub=document.getElementById("nm-sub").checked, orig=document.getElementById("nm-orig").checked;
   const chip=document.getElementById("nm-chip");
@@ -266,14 +305,14 @@ function render(){
     const hits=nd=>{if(nd.id in HIT)return HIT[nd.id];let h=!!(nd.entry&&pass(nd.entry));for(const c of nd.kids)if(hits(c))h=true;return HIT[nd.id]=h};
     const walk=(nd,d)=>{
       if(!hits(nd))return;
-      const self=!!(nd.entry&&pass(nd.entry)),hasK=nd.kids.some(hits),open=hasK&&(active?true:isOpen(nd,d));
+      const self=!!(nd.entry&&pass(nd.entry)),hasK=nd.kids.some(hits),open=hasK&&!SHUT.has(nd.id)&&(active||isOpen(nd,d));   // a unit folded by hand stays folded, also in a search
       const tog=hasK?'<button type="button" class="nm-tog" data-tog="'+esc(nd.id)+'" aria-expanded="'+open+'" title="'+(open?"fold":"unfold")+'">'+(open?"▾":"▸")+'</button>':'<span class="nm-tog0"></span>';
       if(nd.entry)out.push(entryRows(nd.entry,d,tog,!self,orig));
-      else out.push('<tr class="nm-node lv'+Math.min(d,4)+'"><td colspan="18" style="padding-left:8px">'+tog+'<b>'+esc(nd.en)+'</b> <span class="nm-cnt">'+ndesc(nd)+' places</span></td></tr>');
+      else out.push('<tr class="nm-node tA"><td colspan="18" style="padding-left:8px">'+tog+'<b>'+esc(nd.en)+'</b> <span class="nm-cnt">'+ndesc(nd)+' places</span></td></tr>');
       if(!open)return;
       let last=-1;const kids=nd.kids.filter(hits),cats=new Set(kids.map(c=>catOf(c.k)));
       for(const c of kids){const ci=catOf(c.k);
-        if(cats.size>1&&ci!==last){out.push('<tr class="nm-cat lv'+Math.min(d+1,4)+'"><td colspan="18" style="padding-left:30px">'+CATN[ci]+'</td></tr>');last=ci}
+        if(cats.size>1&&ci!==last){out.push('<tr class="nm-cat '+(ci<=1?"tA":ci===2?"tB":"tC")+'"><td colspan="18" style="padding-left:30px">'+CATN[ci]+'</td></tr>');last=ci}
         walk(c,d+1)}
     };
     if(WITHIN&&NODE[WITHIN])walk(NODE[WITHIN],0);else ROOTS.forEach(rt=>walk(rt,0));
@@ -283,6 +322,8 @@ function render(){
   if(ONLY&&BYID[ONLY]&&BYID[ONLY].ne){const a=tb.querySelector('a[data-ev]'),tr=tb.querySelector('tr.nm-ev');if(a&&tr){a.textContent=a.textContent.replace("▸","▾");evidence(ONLY,tr)}}
   document.getElementById("nm-n").textContent=n.toLocaleString()+(n===1?" place":" places");
 }
+tb.addEventListener("click",ev=>{const m=ev.target.closest("button.nm-more");if(!m)return;const td=m.closest("td");const open=td.classList.toggle("nm-open");
+  m.textContent=open?"fewer":"+"+m.dataset.n+" more"});
 tb.addEventListener("click",ev=>{const b=ev.target.closest("button[data-tog]");if(!b)return;const id=b.dataset.tog;
   if(b.getAttribute("aria-expanded")==="true"){OPEN.delete(id);SHUT.add(id)}else{SHUT.delete(id);OPEN.add(id)}render()});
 document.querySelectorAll("[data-view]").forEach(a=>a.addEventListener("click",ev=>{ev.preventDefault();VIEW=a.dataset.view;try{localStorage.setItem("nm-view",VIEW)}catch(_){}render()}));
@@ -303,7 +344,7 @@ const ALLC=C.concat([["ll","Lat, long"],["whg","WHG"],["wp","Wikipedia"],["nb","
 let hidden=[]; try{hidden=JSON.parse(localStorage.getItem("nm-hidden")||"[]")}catch(_){hidden=[]}
 function applyCols(){cst.textContent=hidden.map(c=>".nmc-"+c+"{display:none}").join("");try{localStorage.setItem("nm-hidden",JSON.stringify(hidden))}catch(_){}}
 document.getElementById("nm-cols").innerHTML=ALLC.map(([c,l])=>'<label><input type="checkbox" data-c="'+c+'"'+(hidden.includes(c)?"":" checked")+'> '+esc(l)+'</label>').join("")
-  +'<label><a href="#" id="nm-all">show all</a> · <a href="#" id="nm-none">hide all</a></label>';
+  +'<label><a href="#" id="nm-all">show all</a> · <a href="#" id="nm-none">hide all</a> · <a href="#" id="nm-reset">reset order and folding</a></label>';
 const PRESETS={all:ALLC.map(x=>x[0]),chars:["tc","sc","jo","jn","ko"],rom:["py","wg","oth","hep","mr","mn","std"],
   zh:["tc","sc","py","wg","oth","std"],jk:["jo","jn","ko","hep","mr"],links:["ll","whg","wp","nb"]};
 document.querySelectorAll("a[data-preset]").forEach(a=>a.addEventListener("click",ev=>{ev.preventDefault();const show=PRESETS[a.dataset.preset];
@@ -314,6 +355,7 @@ document.getElementById("nm-cols").addEventListener("change",ev=>{const c=ev.tar
 function setAll(show){hidden=show?[]:ALLC.map(x=>x[0]);document.querySelectorAll("#nm-cols input").forEach(i=>i.checked=show);applyCols()}
 document.getElementById("nm-all").onclick=ev=>{ev.preventDefault();setAll(true)};document.getElementById("nm-none").onclick=ev=>{ev.preventDefault();setAll(false)};
 applyCols();
+document.getElementById("nm-reset").addEventListener("click",ev=>{ev.preventDefault();ORDER=DEFAULT_ORDER.slice();FOLD=new Set();saveCols();render()});
 const cjb=document.getElementById("nm-cjkfirst");cjb.checked=CJKFIRST;
 cjb.addEventListener("change",()=>{CJKFIRST=cjb.checked;try{localStorage.setItem("nm-cjkfirst",CJKFIRST?"1":"0")}catch(_){}render()});
 let t;["nm-q","nm-r","nm-k","nm-sub","nm-orig"].forEach(id=>document.getElementById(id).addEventListener("input",()=>{clearTimeout(t);t=setTimeout(()=>{if(location.hash)history.replaceState(null,"",location.pathname+location.search);render()},120)}));
@@ -328,6 +370,19 @@ document.addEventListener("click",ev=>{
   a.textContent=a.textContent.replace("▸","▾");evidence(a.dataset.ev,tr);
 });
 render();
+(function(){
+  const th=document.getElementById("nm-h");let drag=null;
+  th.addEventListener("click",ev=>{const cell=ev.target.closest("th[data-col]");if(!cell)return;const c=cell.dataset.col,mv=ev.target.closest("button[data-mv]");
+    if(mv){const i=ORDER.indexOf(c),j=i+Number(mv.dataset.mv);if(j<0||j>=ORDER.length)return;ORDER.splice(i,1);ORDER.splice(j,0,c)}
+    else{FOLD.has(c)?FOLD.delete(c):FOLD.add(c)}
+    saveCols();render()});
+  th.addEventListener("dragstart",ev=>{const cell=ev.target.closest("th[data-col]");if(!cell)return;drag=cell.dataset.col;ev.dataTransfer.effectAllowed="move";try{ev.dataTransfer.setData("text/plain",drag)}catch(_){}});
+  th.addEventListener("dragover",ev=>{const cell=ev.target.closest("th[data-col]");if(!cell||!drag)return;ev.preventDefault();th.querySelectorAll(".nm-drop").forEach(x=>x.classList.remove("nm-drop"));cell.classList.add("nm-drop")});
+  th.addEventListener("dragleave",ev=>{const cell=ev.target.closest("th[data-col]");if(cell)cell.classList.remove("nm-drop")});
+  th.addEventListener("drop",ev=>{const cell=ev.target.closest("th[data-col]");if(!cell||!drag)return;ev.preventDefault();const to=cell.dataset.col;
+    if(to!==drag){ORDER.splice(ORDER.indexOf(drag),1);ORDER.splice(ORDER.indexOf(to),0,drag);saveCols();render()}drag=null});
+  th.addEventListener("dragend",()=>{drag=null;th.querySelectorAll(".nm-drop").forEach(x=>x.classList.remove("nm-drop"))});
+})();
 </script>
 </body></html>
 """
