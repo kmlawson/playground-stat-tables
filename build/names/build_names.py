@@ -44,7 +44,8 @@ table.nm tr.nm-sub td{border-top:none}
 table.nm tr.nm-sub td:first-child{padding-left:22px;color:var(--muted);font-size:13px}
 table.nm tr.nm-first td{border-top:1px solid var(--line)}
 .nm-place{font-size:15px;color:var(--ink)}
-.nm-alt{font-size:14px;color:var(--muted);margin-left:2px}
+.nm-alt{font-size:14px;color:var(--muted);margin-left:2px;white-space:nowrap}
+.nm-hd{display:flex;align-items:flex-start;gap:0}.nm-hd>.nm-tog,.nm-hd>.nm-tog0{flex:none;margin-top:2px}.nm-hdn{min-width:0}
 table.nm td:first-child,table.nm th:first-child{min-width:230px}
 .nm-x{display:none}td.nm-open .nm-x{display:inline}
 .nm-more{font:inherit;font-size:12px;padding:0 5px;margin-top:2px;border:1px solid var(--line);background:transparent;color:var(--accent);cursor:pointer}
@@ -271,7 +272,7 @@ function entryRows(e,d,tog,ctx,orig){
   const rows=ctx?[e.rows[0]]:e.rows,out=[];
   rows.forEach((row,i)=>{
     const first=i===0;
-    let h='<tr class="'+(first?"nm-first":"nm-sub")+(ctx?" nm-ctx":"")+lv+'"'+(first?' id="'+esc(e.id)+'"':"")+'><td '+(first?pad:padS)+'>'+(first?tog+head(e,ctx)
+    let h='<tr class="'+(first?"nm-first":"nm-sub")+(ctx?" nm-ctx":"")+lv+'"'+(first?' id="'+esc(e.id)+'"':"")+'><td '+(first?pad:padS)+'>'+(first?'<div class="nm-hd">'+tog+'<div class="nm-hdn">'+head(e,ctx)+'</div></div>'
       :'<span class="nm-tag">'+esc(row.status||(row.note?"former name":"other form"))+'</span>'+esc(row.note||"")+(row.yrs?'<span class="nm-meta">printed '+yr(row.yrs)+'</span>':""))+'</td>';
     for(const c of ORDER) h+=tdFor(e,row,c,first,ctx,orig);
     out.push(h+'</tr>');
